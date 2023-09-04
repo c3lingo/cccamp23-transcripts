@@ -1,0 +1,265 @@
+ [MUSIC]
+ [MUSIC]
+ Hello, welcome to the Bits and Boimers stage for the next talk. Please try to find a place in the shadows.
+ Have your water ready and so on. Yeah, I should remind you if you're leaving camp and you still have stuff you don't want to take back and it's too nice to trash,
+ you can go to InfoDesk and try to donate it there and they will try to do something useful with it.
+ As I guess the rumors have already spread that there's a little bit of COVID going around, it's not more than what would have been to expected as such a huge crowd.
+ If you have questions regarding that, you can go for testing at CERT and there are masks and whatever stuff available at CERT, Heaven and InfoDesk.
+ Welcome to the Bits and Boimers stage for the next talk and for that I welcome Holger on stage and he will talk about reproducible builds the first 10 years.
+ Give him a warm welcome and enjoy the talk.
+ Hello, thank you. I'm Holger, I live in Germany, I work a lot on Debian and since a long time I also work on reproducible builds since 10 years.
+ Even though I really love Debian, I try to make all software reproducible and this is a pretty complex topic so just talk to me anytime, I'm happy to talk about it.
+ I will miss lots of things in this talk.
+ So, reproducible builds. This is not my talk, this is a list of people working on this, it's from the webpage, it's about 100 people but I think the list is at least double as long.
+ So, who of you has heard about reproducible builds and why it's useful?
+ Nice.
+ Who has contributed or is contributing?
+ Ah, some people, nice.
+ Who knows, reproducible builds have been around for more than 10 years.
+ Few. For more than 30 years.
+ This is really an old idea actually.
+ Who has heard about S-bomb files?
+ Hey, hey, S-bomb is some fancy new thing that the US government wants.
+ Software build of materials and we have them since 9 years as build info files. They are basically the same, just the format is a bit different.
+ And, yeah, we need you, we need people in all upstream projects and elsewhere to make sure that their software builds are reproducible.
+ So, we need your help.
+ It's hot.
+ The goal of the talk is to get you involved.
+ Because we have done a lot but it's still a lot to do.
+ So, introduction.
+ The problem is that source code of free software is freely available but nobody uses source code, we all use binaries.
+ And there's no one really knows how they really correspond, even those building the binaries.
+ Because you need trust the computer and the build chain and what not.
+ So, there's various supply chain attacks.
+ And in 2007 somebody suggested on Debian Devil to make create reproducible binaries and that there was a huge threat with 50 mails and people said this is not possible.
+ And the same even happened earlier in the year 2000, same idea was shot down quite quickly.
+ And then in 2017 John Gilmore from Cycmas wrote that GCC was reproducible in the early 90s on several architectures.
+ And not only GCC but also the whole tool chain there.
+ And that bit rotted away.
+ And now five years ago the GCC people weren't even aware anymore that it was reproducible in the 90s.
+ And now fast forward to this year, in April there was a mail on the WireGuard mailing list that their VPN client is now reproducible on their webpage.
+ The build is identical in Google Play Store and F-Droid.
+ And that's pretty wow and we were not even informed.
+ They just did it.
+ And it's pretty, pretty cool.
+ I'm really happy.
+ So our mission is to enable anyone to independently verify that a given source produces bit by bit identical results.
+ So we are an important building block in the supply chain to make supply chains more secure, nothing more and nothing less.
+ Insecure software is still insecure software.
+ Just distributed securely.
+ So that has nothing to do with making the software more secure in itself.
+ And by now this has been widely understood.
+ We have documented this on the webpage.
+ The resources are like 50 talks we've been given on various conferences in the last 10 years.
+ Doc, we have common pitfalls and problems and solutions.
+ There's about 10 or 15 scientific publications by now.
+ And there was this White House government statement in 2001 which requires these SBOM files for governmental software.
+ And on page 42 they also required recommended reproducible builds.
+ And reproducible builds really are verified SBOMs.
+ Because SBOM is just a statement from the manufacturer.
+ This should be in there and everybody can lie about this.
+ And reproducible builds gives you verified SBOMs.
+ So we've made a definition to really define when is a build reproducible.
+ And a build is reproducible if given the same source code, build environment and build instructions.
+ Any party can recreate bit by bit identical copies of all specified artifacts.
+ And what's intended this to define what build environment means, what the source code means,
+ and this is there on this page so that we are all on the same page when discussing this.
+ And how did we get there?
+ With money was the reason and at what's known.
+ Why money? Bitcoin.
+ Bitcoin, I don't know when it, since Bitcoin is probably 2009 or something and 2011,
+ it's older, but in 2011 when Bitcoin has a market cap of $4 billion US,
+ they wanted to be secure that if there's a malice backdoored Bitcoin client
+ which stole, steals all your money, that they could not be blamed
+ because the sources are available and it's not backdoored.
+ So they made Bitcoin reproducible in 2011,
+ which then was an inspiration for the Tor browser people.
+ And Mike Perry made Tor browser available in 2013, directly after this known revelations.
+ And that was, is Firefox Tor browser and that's one of the biggest software projects in the world.
+ It's like 70 megabytes the binary and it was possible to make this bit by bit identical.
+ And of course it was not only this, but many, many people did a lot of work on this.
+ So Luna, fellow Debian developer, made a workshop at Debcom 13 in 2013
+ and gathered 30 Debian people and discussed whether it's possible.
+ And then there was another buff at Debcom 14.
+ There are patches for D-package to sort the files inside in a deterministic order
+ and create a build info file so that instructions, what is needed,
+ what's the build environment, what are the build instructions to build a package.
+ And in September 2014, I started systematic builds of Debian packages, built with them twice.
+ At first I just did 100 packages in a while loop,
+ and then I just wrote a bit of code and tested all of them.
+ And then Mike Perry and Seth Schoen gave the presentation at CCC Congress in 2014,
+ showing my graphs and I was sitting in the audience, did not expect that, it was really nice.
+ And I'll show you some slides of this talk because it's a really nice summary why it's useful.
+ So most people think, or there's a false issue that users should have the source code
+ and build the software themselves,
+ but they only prove that the binary comes from the source as somebody said so.
+ And that is probably not enough.
+ And most people think also, I know what's in the binary because I compiled it myself,
+ and I'm upstanding, careful, responsible, I always watch my laptop,
+ why should I have to worry about hypothetical risks in the contents of my binaries?
+ I'm not that interesting, but developers write code which is used by many people,
+ sometimes millions of people and billions, and they're interesting people.
+ So there's been theoretical and practical attacks against infrastructure used by Linux,
+ BSD anything, there's also been the Snowden papers,
+ the designs from the CIA how to attack this, and this has been found in the wild.
+ And they also showed nice compromises,
+ it's hard to attack, extremely possible, extremely harmful.
+ Imagine the most secure computer in the world.
+ Is this computer still secure if it's networked, accessible by others?
+ You put USB devices in there, it runs strange Java code,
+ several nation states want to access it.
+ What if access to this computer gives you access to hundreds of millions of other computers,
+ bank accounts, every Windows computer in the world,
+ and what money you can gain from it.
+ So they showed a small back door in OpenSSH, remote exploit,
+ where the diff is greater, equal, it was greater and it had to be greater equal,
+ and the diff in the binary is one bit.
+ So if you look at this 500 kilobyte, one bit decides whether this is secure or not secure.
+ And that's really hard to find.
+ And that's also why we say everything has to be bit by bit identical,
+ nor there should not be stuff which we can ignore,
+ because it's easier to say everything is the same.
+ They also built a nice kernel module, which modifies the source code
+ when the compiler builds it, but not when you look at it with an editor.
+ So the source code is fine unless you compile it.
+ And that was the graph they showed.
+ The green packages are reproducible packages, the yellow ones, orange ones are unreproducible,
+ and that is from end of 2014 to the end of 2015.
+ And you can see there we reach probably 70% reproducibility in Debian back then already.
+ [Applause]
+ So in 2015, Luna and myself gave a talk at FOSDEM,
+ inviting the free software world at large to collaborate and tackle this problem.
+ And here at CCCCAM, Luna gave a presentation showing many problems and their solutions,
+ like what to do with G-SIM, what to do with TAR, whatever this,
+ obviously options needed.
+ And we had a summit in Athens where 15 projects, I think, were there to collaborate.
+ And in 2014, we wrote the source data epoch specification, which I'll explain in a second.
+ And we started writing DifoScope.
+ So at first, the reasons for unreproduciabilities we found are timestamps,
+ timestamps, timestamps, and more, and build passes.
+ And the problem with build passes is really easily solved by just rebuilding the same build pass
+ and not randomizing the build pass on every build.
+ And then there's the rest.
+ And that's 422 issues we found, types of issues, and we have documented them.
+ Luna gave this talk to explain them.
+ And we made an unreproducible package which shows the problems you can have,
+ because it's way easier to show how not to do it than to show how to do it.
+ And so in the last 10 years, we've submitted 2,500 reproducibility-related bugs.
+ 500 bugs are still open, but we also did submit 20,000 bugs about mostly packages building some source.
+ So we found other problems while continuously testing the VM in this case.
+ And there's more unexpected benefits of reproducibility.
+ If the software builds reproducibility, then the compiler can cache a lot of more things,
+ so it's way faster, especially if you build big projects.
+ So it saves time for the developers and does money for the companies.
+ And for software development, it's also good to see if the change only really has the desired effect on this object and not other parts.
+ And license compliance, you can only be sure you're running free software if the binary comes from the source.
+ And the only way to find it out is to rebuild and have an identical result.
+ And yeah, you get reproducible verified S-bombs also.
+ So DifoScope. Who knows about DifoScope here?
+ A few, way too little.
+ Who uses DifoScope? Same people, more or less.
+ So DifoScope tries to get to the bottom of what makes files or directories different.
+ It will recursively unpack archives of many kinds and transform various binary formats into more human readable forms to compare them.
+ So it has text and HTML output and can support many file formats.
+ So it's whatever, Berkeley database, Debian packages, Elf binaries, Haskell files, ISO images, JPEG images, PGP signatures, whatever.
+ And if it doesn't know the file type, it goes back to Hexdom comparison.
+ It has fuzzy matching to Henry namings and much more.
+ And I show you a bit DifoScope.
+ So this is HTTPS Everywhere Firefox extension with two different versions.
+ And you see on the left side the 506 version, on the right the 507.
+ Or maybe you don't see it because the light is shitty.
+ And it will show there directly the diff in the file to what's in there.
+ So it takes a tar archive and goes in there, blah, blah, blah.
+ You have to be faster, you know.
+ And so that also shows you nicely the diffs.
+ So also try DifoScope where you can upload two files and DifoScope will then run for you.
+ It's the web page and you can install it everywhere.
+ SourceState Epoch.
+ I'll skip this because time stamps are meaningless because they vary at each bit.
+ So SourceState Epoch is the time of the last modification of the source code because that is useful.
+ And it's supported by a lot of software today, like 100 software, all the compilers,
+ and many documentation frameworks.
+ And we have a specification which is like one or two kilobytes in size and is very stable.
+ So we have many summits.
+ We have another summit this year in Hamburg.
+ And there were like 40 projects by now, which is really cool to collaborate.
+ Which brings me to funding.
+ We are a software freedom conservancy project now since 2018.
+ Four people are funded by this.
+ We need funding for the summit this year in Hamburg and we need funding for our general work.
+ Thank you for funding.
+ I skipped most of the things now.
+ This is the result for Debian unstable for the last 10 years, so it's pretty stable.
+ Trixie is pretty boring because Trixie is just two months old.
+ And this is the numbers for Debian.
+ So we -- it's harder to read.
+ The interesting part of the unreproducible packages, which are still way too many,
+ 1,100, but it's only 3.3% of the software archive.
+ The rest is reproducible.
+ And so each release, Debian release, we get 3,000 more packages.
+ But they are mostly the same number of unreproducible packages.
+ We managed to change Debian policy in 2017 saying packages should be reproducible.
+ I now want packages must not regret.
+ And then new packages also must be reproducible.
+ And then in '27 or whatever, all packages must be reproducible.
+ And I would also like to see this faster, to have it two years earlier,
+ that this year we already don't allow new packages which are unreproducible.
+ And this 100% is a political decision.
+ It's not technical.
+ So we need to change Debian policy and say whatever the last 2%, we just kick out.
+ Debian needs to change the policy, not we.
+ And 100% reproducibility in theory is not enough because we need to rebuild us.
+ And for Debian we need a working snapshot service, transparency logs also that we know
+ which binaries we have installed, also for the non-reproducible packages this is useful.
+ And we also need binary transparency logs.
+ And this is true for all projects, not Debian.
+ I skipped the other projects a bit now.
+ They are all in theory, it's nice.
+ Even Fedora has now enabled finally in macro to enable source.epoch when building up EM packages.
+ So today many projects support reproducibility, but it's unclear what it means,
+ how it's enforced and how users can know and be confident because it's just in theory.
+ We can do it, but we don't really do it.
+ I call that reproducibility in theory on CI, and that is a massive success.
+ This was thought impossible 10 years ago.
+ And this is again from this 2014, which is all the other part.
+ Infrastructure should be created independently.
+ This has not been done yet nowhere really.
+ So in theory we are done, in practice we are just done in theory.
+ So we need rebuilders, we need to store the results somewhere,
+ and we need to define criteria how tools should treat that data,
+ and then we need those tools also.
+ And those missing 5% are also still crucial.
+ At least 300 softwares need to be fixed to have the software which we all run.
+ So in summary, many projects support reproducibility in theory,
+ but it's unclear what it means in practice and how users can know and be confident.
+ And this is huge success.
+ Now we need to finish this last bit.
+ We need to create infrastructure for rebuilders.
+ We need to create infrastructure to processes and tools to securely use those results.
+ And we need project level consensus and commitment to reproducibility in practice.
+ Thank you.
+ Thank you Holger.
+ I think we have about time for one very urgent question, maybe two.
+ Thank you, great talk.
+ So you mentioned at the beginning some caveats and like known issues.
+ So is one of those the fact that when everybody runs the same binary,
+ one exploit is enough to own everybody?
+ Well, that is a side effect of course.
+ But the result is not everybody runs scrambled software.
+ Layers of protection or whatever you want to add there, but it's not.
+ I guess we can take that.
+ So you mentioned rebuilders, which are like a really interesting concept.
+ Are there existing projects which make it easy to, for example, set up a rebuilder
+ which automatically rebuilds like maybe all Debian packages and some others
+ and then exposes them in a standardized format.
+ So for example, clients can have a list of rebuilders they trust
+ and then check with all of them if the package is correct before installing it.
+ We have at least two rebuilder implementation which are both used by different people.
+ For Arch Linux it's really nice working.
+ For Debian we need the snapshot service which is not working.
+ So rebuilders for Debian don't work at the moment.
+ So with that I guess we have reached the end of our time.
+ And so I want to thank Holger again for giving this nice talk
+ and then enjoy the rest of camp.
+ (gentle music)
+ (soft music)

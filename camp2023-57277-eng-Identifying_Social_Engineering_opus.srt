@@ -1,0 +1,1196 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:31,480
+ >> Do actual exit routes.
+
+4
+00:00:31,480 --> 00:00:33,560
+ Now I'm on. Hello everybody.
+
+5
+00:00:33,560 --> 00:00:38,080
+ [APPLAUSE]
+
+6
+00:00:38,080 --> 00:00:41,280
+ So in order to not waste too much time in my yabbering,
+
+7
+00:00:41,280 --> 00:00:43,920
+ but instead listen to somebody smart,
+
+8
+00:00:43,920 --> 00:00:46,600
+ welcome to the next talk.
+
+9
+00:00:46,600 --> 00:00:51,240
+ I'm not sure if you're actually here by your own choice,
+
+10
+00:00:51,240 --> 00:00:54,960
+ or if somebody has had a spell on you,
+
+11
+00:00:54,960 --> 00:00:58,200
+ but maybe you'll find out after 20 minutes,
+
+12
+00:00:58,200 --> 00:01:04,400
+ after the talk by Uwe Hecker about identifying social engineering.
+
+13
+00:01:04,400 --> 00:01:05,200
+ Thank you.
+
+14
+00:01:05,200 --> 00:01:09,520
+ [APPLAUSE]
+
+15
+00:01:09,520 --> 00:01:10,720
+ Thank you very much.
+
+16
+00:01:10,720 --> 00:01:11,960
+ Yeah, welcome.
+
+17
+00:01:11,960 --> 00:01:15,320
+ 20 minutes and I want to show you a bit what I did,
+
+18
+00:01:15,320 --> 00:01:19,440
+ well, almost the last 10 years to identify social engineering,
+
+19
+00:01:19,440 --> 00:01:22,080
+ because it's quite a challenge.
+
+20
+00:01:22,080 --> 00:01:23,600
+ Okay, let's start.
+
+21
+00:01:23,600 --> 00:01:25,520
+ Why I am doing that?
+
+22
+00:01:25,520 --> 00:01:28,600
+ So the first thing is after years in information security,
+
+23
+00:01:28,600 --> 00:01:32,560
+ I always had the feeling that
+
+24
+00:01:32,560 --> 00:01:38,520
+ digital and physical security measures are not really
+
+25
+00:01:38,520 --> 00:01:41,880
+ capable of dealing with the human element.
+
+26
+00:01:41,880 --> 00:01:45,880
+ So you do everything, firewalls, antivirus and so on,
+
+27
+00:01:45,880 --> 00:01:49,360
+ physical access control, and then at the end,
+
+28
+00:01:49,360 --> 00:01:54,520
+ someone can social engineer or just get into the building
+
+29
+00:01:54,520 --> 00:01:59,120
+ or bypass anything with a malicious USB stick, etc.
+
+30
+00:01:59,120 --> 00:02:02,480
+ So there's always this kind of human element,
+
+31
+00:02:02,480 --> 00:02:06,360
+ and we had a very famous paper in 1999,
+
+32
+00:02:06,360 --> 00:02:11,760
+ which is "Why Johnny Can't Encrypt",
+
+33
+00:02:11,760 --> 00:02:16,040
+ and it's about PGP 4.0, so a long time ago,
+
+34
+00:02:16,040 --> 00:02:25,160
+ but still we have the challenge how to get security measures used,
+
+35
+00:02:25,160 --> 00:02:31,720
+ and do we want that end users use security measures directly?
+
+36
+00:02:31,720 --> 00:02:35,240
+ So it was PGP 5.0.
+
+37
+00:02:35,240 --> 00:02:37,760
+ We are still having that issue.
+
+38
+00:02:37,760 --> 00:02:41,120
+ If an end user who is not security savvy
+
+39
+00:02:41,120 --> 00:02:45,160
+ needs to interact with security mechanisms,
+
+40
+00:02:45,160 --> 00:02:49,200
+ something like memorizing a password,
+
+41
+00:02:49,200 --> 00:02:52,080
+ recalling a password, entering a password,
+
+42
+00:02:52,080 --> 00:02:56,160
+ and then we tell them, "Okay, please use a complex long password,"
+
+43
+00:02:56,160 --> 00:02:59,240
+ and then we say, "Okay, use multi-factor authentication,"
+
+44
+00:02:59,240 --> 00:03:03,240
+ and the user says, "Okay, so much security, are you paranoid?"
+
+45
+00:03:03,240 --> 00:03:05,640
+ So that's maybe the end user perspective,
+
+46
+00:03:05,640 --> 00:03:07,320
+ "Why are you doing all that stuff?"
+
+47
+00:03:07,320 --> 00:03:11,160
+ And the security engineer says, "Why?
+
+48
+00:03:11,160 --> 00:03:13,440
+ It's just that easy, just do it."
+
+49
+00:03:13,440 --> 00:03:17,400
+ But from a workflow perspective, you always get interrupted.
+
+50
+00:03:17,400 --> 00:03:19,440
+ There's a pop-up, "Ah, VPN down."
+
+51
+00:03:19,440 --> 00:03:22,280
+ So I need then multi-factor authentication again,
+
+52
+00:03:22,280 --> 00:03:27,560
+ and your workflow gets interrupted, which costs time.
+
+53
+00:03:27,560 --> 00:03:32,120
+ So there is this approach, "Okay, then use opportunistic encryption,
+
+54
+00:03:32,120 --> 00:03:36,440
+ and let's see later maybe if it was secure."
+
+55
+00:03:36,440 --> 00:03:39,720
+ Maybe the key changed,
+
+56
+00:03:39,720 --> 00:03:43,240
+ and then you will see something, the safety number change.
+
+57
+00:03:43,240 --> 00:03:46,960
+ And for an end user, what does that tell an end user?
+
+58
+00:03:46,960 --> 00:03:50,480
+ They just say, "Okay, safety number changed, and now?"
+
+59
+00:03:50,480 --> 00:03:52,000
+ "Don't know, let's go on."
+
+60
+00:03:52,000 --> 00:03:55,200
+ So we still have to tackle this issue.
+
+61
+00:03:55,200 --> 00:03:59,360
+ It's called, the research topic is usable security.
+
+62
+00:03:59,360 --> 00:04:02,840
+ On the other hand, if you force an end user
+
+63
+00:04:02,840 --> 00:04:07,720
+ to use security-related mechanisms,
+
+64
+00:04:07,720 --> 00:04:13,200
+ then they become a part of the attack vector, of the attack surface.
+
+65
+00:04:13,200 --> 00:04:14,520
+ They can be attacked as well.
+
+66
+00:04:14,520 --> 00:04:16,880
+ You have digital, physical security measures,
+
+67
+00:04:16,880 --> 00:04:22,160
+ and then you force them, and then you can attack them as well.
+
+68
+00:04:22,160 --> 00:04:27,000
+ You can exploit that factor,
+
+69
+00:04:27,000 --> 00:04:30,560
+ which makes it quite difficult to deal with,
+
+70
+00:04:30,560 --> 00:04:38,480
+ to protect our assets, whatever that is, against such attacks.
+
+71
+00:04:38,480 --> 00:04:42,760
+ If you use the complex password, long password, an MFA,
+
+72
+00:04:42,760 --> 00:04:47,200
+ then social engineering is quite easy to circumvent that,
+
+73
+00:04:47,200 --> 00:04:54,440
+ to just make all these kind of cool ideas,
+
+74
+00:04:54,440 --> 00:05:00,240
+ cool, we will see in use of security maybe a few years later, obsolete.
+
+75
+00:05:00,240 --> 00:05:04,640
+ So obsolete in the sense of, no, this factor can be exploited.
+
+76
+00:05:04,640 --> 00:05:09,120
+ So what my question was at the beginning, over 10 years ago,
+
+77
+00:05:09,120 --> 00:05:11,840
+ is we always have to deal with this factor,
+
+78
+00:05:11,840 --> 00:05:15,280
+ and how can we go further there?
+
+79
+00:05:15,280 --> 00:05:20,880
+ How can we understand that? Why are maybe some end users more susceptible to,
+
+80
+00:05:20,880 --> 00:05:23,480
+ for example, social engineering than others?
+
+81
+00:05:23,480 --> 00:05:27,760
+ So I was looking for a suitable social engineering definition,
+
+82
+00:05:27,760 --> 00:05:31,120
+ which means suitable for interdisciplinary research,
+
+83
+00:05:31,120 --> 00:05:40,360
+ for finding then social engineering stories, anecdotes in the wild.
+
+84
+00:05:40,360 --> 00:05:42,360
+ How to get such insights?
+
+85
+00:05:42,360 --> 00:05:46,520
+ How does social engineering work, the modus operandi?
+
+86
+00:05:46,520 --> 00:05:49,920
+ So we need somehow evidence.
+
+87
+00:05:49,920 --> 00:05:51,640
+ What kind of evidence ever?
+
+88
+00:05:51,640 --> 00:05:53,880
+ Or you can use experimental designs.
+
+89
+00:05:53,880 --> 00:05:57,200
+ But the point is, what is social engineering?
+
+90
+00:05:57,200 --> 00:05:59,320
+ How can I identify it?
+
+91
+00:05:59,320 --> 00:06:03,200
+ So my first approach was looking for indicators
+
+92
+00:06:03,200 --> 00:06:07,880
+ in a cycle of interlocking deduction and induction,
+
+93
+00:06:07,880 --> 00:06:11,480
+ so it was over the years, and looking for a definition.
+
+94
+00:06:11,480 --> 00:06:15,280
+ And of course, you know the famous XKCD.
+
+95
+00:06:15,280 --> 00:06:16,280
+ I have a new one.
+
+96
+00:06:16,280 --> 00:06:22,520
+ But the point for me was that it's not single use.
+
+97
+00:06:22,520 --> 00:06:31,360
+ These indicators can be used as well for identifying social engineering in the wild.
+
+98
+00:06:31,360 --> 00:06:33,840
+ So it's dual use.
+
+99
+00:06:33,840 --> 00:06:37,720
+ In the end, it's for me for identifying social engineering.
+
+100
+00:06:37,720 --> 00:06:39,720
+ So when I was looking for a definition,
+
+101
+00:06:39,720 --> 00:06:44,560
+ I came up, ah, there's an RFC, perfect, RFC 4949.
+
+102
+00:06:44,560 --> 00:06:46,600
+ Yeah, they say don't use that.
+
+103
+00:06:46,600 --> 00:06:48,240
+ It's too widely used.
+
+104
+00:06:48,240 --> 00:06:55,920
+ And the majority of papers or talks, et cetera, say social engineering.
+
+105
+00:06:55,920 --> 00:07:01,720
+ You know, everyone knows something, and everyone has a different view.
+
+106
+00:07:01,720 --> 00:07:02,520
+ Me as well, no?
+
+107
+00:07:02,520 --> 00:07:05,800
+ So I'm standing here.
+
+108
+00:07:05,800 --> 00:07:08,920
+ And please don't use that.
+
+109
+00:07:08,920 --> 00:07:13,240
+ And using just examples to define it is not the best approach.
+
+110
+00:07:13,240 --> 00:07:20,560
+ I was looking for a good definition and then find the indicators.
+
+111
+00:07:20,560 --> 00:07:25,920
+ The challenge, so, was as well to do this interdisciplinary research
+
+112
+00:07:25,920 --> 00:07:31,800
+ because social engineering is not just computer science.
+
+113
+00:07:31,800 --> 00:07:35,200
+ And suitable, of course, I already mentioned that.
+
+114
+00:07:35,200 --> 00:07:39,200
+ But also, it should not be too general.
+
+115
+00:07:39,200 --> 00:07:42,880
+ Some people say every human interaction is social engineering.
+
+116
+00:07:42,880 --> 00:07:47,200
+ A kid at the checkout in the supermarket sees some sweets.
+
+117
+00:07:47,200 --> 00:07:51,400
+ OK, social engineers may be the parents, but is this social engineering?
+
+118
+00:07:51,400 --> 00:07:56,120
+ So this was all the cycle I was thinking of.
+
+119
+00:07:56,120 --> 00:08:00,120
+ And sometimes too vague, missing something or too strict,
+
+120
+00:08:00,120 --> 00:08:05,280
+ such as saying only digital technology, only via IT.
+
+121
+00:08:05,280 --> 00:08:09,560
+ But social engineering is not something new.
+
+122
+00:08:09,560 --> 00:08:14,560
+ This is my view, and we can discuss this maybe later somewhere in the corner
+
+123
+00:08:14,560 --> 00:08:16,960
+ because we only have 20 minutes.
+
+124
+00:08:16,960 --> 00:08:22,600
+ So the point was that it's nothing new.
+
+125
+00:08:22,600 --> 00:08:25,760
+ It's not only IT related.
+
+126
+00:08:25,760 --> 00:08:34,040
+ For example, the Spanish prisoner scam, which is OK, short info there,
+
+127
+00:08:34,040 --> 00:08:43,560
+ which is via prisoners that should be sending mails,
+
+128
+00:08:43,560 --> 00:08:48,880
+ should be telling people, please, if you give me money,
+
+129
+00:08:48,880 --> 00:08:51,640
+ so a kind of advanced fee scam,
+
+130
+00:08:51,640 --> 00:08:56,240
+ and then I will reward you because I'm a millionaire and I'm in prison.
+
+131
+00:08:56,240 --> 00:09:01,320
+ And this worked in some pubs, telling people, please, we need money to get him out,
+
+132
+00:09:01,320 --> 00:09:03,800
+ and then he will reward you later.
+
+133
+00:09:03,800 --> 00:09:07,440
+ But we need money first to do this.
+
+134
+00:09:07,440 --> 00:09:13,320
+ So these are the things that is nothing new, like grandparents scam as well.
+
+135
+00:09:13,320 --> 00:09:20,160
+ Could be on the door, person to person, no telephone scam, no IT, no Internet.
+
+136
+00:09:20,160 --> 00:09:24,320
+ So therefore, I was looking into just finding indicators.
+
+137
+00:09:24,320 --> 00:09:31,320
+ So first thing, here you see the first three of the five.
+
+138
+00:09:31,320 --> 00:09:36,720
+ What you need to know here is that I have two perspectives, two views.
+
+139
+00:09:36,720 --> 00:09:38,200
+ That is the target person.
+
+140
+00:09:38,200 --> 00:09:42,440
+ I use targeted person and not victim because the person is targeted
+
+141
+00:09:42,440 --> 00:09:45,600
+ and becomes a victim if successful.
+
+142
+00:09:45,600 --> 00:09:51,280
+ So that's a different thing.
+
+143
+00:09:51,280 --> 00:09:57,800
+ And you see the capital letters, which is the RFC 2119,
+
+144
+00:09:57,800 --> 00:10:07,160
+ about how to put some operators, what is really important here.
+
+145
+00:10:07,160 --> 00:10:10,800
+ So first thing, target person is the human enabler.
+
+146
+00:10:10,800 --> 00:10:19,520
+ And this was quite the key for me, a key enabler, meaning only if there is a human element
+
+147
+00:10:19,520 --> 00:10:23,520
+ that is exploited enables the attack.
+
+148
+00:10:23,520 --> 00:10:26,880
+ So some people say dumpster diving is social engineering.
+
+149
+00:10:26,880 --> 00:10:28,320
+ No, it's not for me.
+
+150
+00:10:28,320 --> 00:10:34,360
+ There's no human element in the majority of times.
+
+151
+00:10:34,360 --> 00:10:39,400
+ It's a pre-attack information gathering to then maybe make a social attack
+
+152
+00:10:39,400 --> 00:10:47,200
+ or to use this could be then social engineering to manipulate someone
+
+153
+00:10:47,200 --> 00:10:51,200
+ to throw something in the bin, which you later gather.
+
+154
+00:10:51,200 --> 00:10:53,440
+ So that could be social engineering.
+
+155
+00:10:53,440 --> 00:10:57,200
+ So just to give that a difference.
+
+156
+00:10:57,200 --> 00:11:01,800
+ And this is for me the most important indicator.
+
+157
+00:11:01,800 --> 00:11:06,200
+ The second one is the attacker must initiate the communication,
+
+158
+00:11:06,200 --> 00:11:12,200
+ which could be three different types, like bidirectional,
+
+159
+00:11:12,200 --> 00:11:14,600
+ meaning there's really a communication.
+
+160
+00:11:14,600 --> 00:11:21,000
+ You receive a facsimile scam, like you just get a lot of money,
+
+161
+00:11:21,000 --> 00:11:23,920
+ please call this lawyer somewhere in Spain.
+
+162
+00:11:23,920 --> 00:11:27,760
+ And then you have bidirectional communication.
+
+163
+00:11:27,760 --> 00:11:34,520
+ Unidirectional, which is just the typical scams without not just a phishing email,
+
+164
+00:11:34,520 --> 00:11:40,720
+ spear phishing as well, where you just click on a link, for example.
+
+165
+00:11:40,720 --> 00:11:46,400
+ And indirect means that you would maybe drop a malicious USB, a bad USB,
+
+166
+00:11:46,400 --> 00:11:50,680
+ stick somewhere in the parking lot and hope that people picks it up,
+
+167
+00:11:50,680 --> 00:11:57,040
+ goes through the physical access measures, turnpile anything,
+
+168
+00:11:57,040 --> 00:12:00,920
+ then puts it into the laptop in the company,
+
+169
+00:12:00,920 --> 00:12:05,120
+ where you have firewalls protection, etc.
+
+170
+00:12:05,120 --> 00:12:11,920
+ But you can use the USB port and then have maybe a malicious payload there.
+
+171
+00:12:11,920 --> 00:12:17,520
+ So this is intentional communication, unawareness of the targeted person.
+
+172
+00:12:17,520 --> 00:12:22,320
+ So as well, you will see in the next slide, it goes on vice versa.
+
+173
+00:12:22,320 --> 00:12:30,520
+ So someone who is bribed and knows about that is not social engineered.
+
+174
+00:12:30,520 --> 00:12:31,920
+ He knows about this.
+
+175
+00:12:31,920 --> 00:12:38,120
+ So there's an unawareness factor about the real attacker's intention.
+
+176
+00:12:38,120 --> 00:12:43,120
+ It could be something different than we can think of social engineering.
+
+177
+00:12:43,120 --> 00:12:47,720
+ Then we have the malicious intent of the attacker.
+
+178
+00:12:47,720 --> 00:13:00,320
+ So some people say maybe a teacher who has the best interest of a pupil is social engineering.
+
+179
+00:13:00,320 --> 00:13:03,120
+ But that's the best interest.
+
+180
+00:13:03,120 --> 00:13:07,120
+ Well, we can discuss what is best teaching, etc. and education,
+
+181
+00:13:07,120 --> 00:13:10,320
+ but there's best interest like parents as well.
+
+182
+00:13:10,320 --> 00:13:14,320
+ So is this social engineering? No.
+
+183
+00:13:14,320 --> 00:13:20,520
+ And the last one, which I will elaborate a bit more, is deceptive techniques.
+
+184
+00:13:20,520 --> 00:13:23,920
+ So this is the other part of unawareness.
+
+185
+00:13:23,920 --> 00:13:32,520
+ The attacker used deceptive techniques and get the targeted person comply with the request,
+
+186
+00:13:32,520 --> 00:13:37,920
+ which could be anything, but I won't go into detail in 20 minutes.
+
+187
+00:13:37,920 --> 00:13:40,720
+ So deceptive techniques.
+
+188
+00:13:40,720 --> 00:13:48,720
+ We have many different types and a long list and it's not finished,
+
+189
+00:13:48,720 --> 00:13:51,120
+ but you can see it in literature.
+
+190
+00:13:51,120 --> 00:13:53,520
+ For example, Kevin Mitnick used name dropping.
+
+191
+00:13:53,520 --> 00:13:59,120
+ If you know someone's name in a company, then you call someone else and tell them,
+
+192
+00:13:59,120 --> 00:14:06,120
+ "Hey, this person, your colleague, wants this done, please help me."
+
+193
+00:14:06,120 --> 00:14:09,320
+ Or phishing.
+
+194
+00:14:09,320 --> 00:14:13,120
+ There are types of opportunistic social engineering.
+
+195
+00:14:13,120 --> 00:14:19,320
+ If you use phishing and jump onto a bandwagon, for example,
+
+196
+00:14:19,320 --> 00:14:26,920
+ GDPR compliance, that you send out a bank phish and telling the people,
+
+197
+00:14:26,920 --> 00:14:33,120
+ "You need to comply or your bank account will be deactivated."
+
+198
+00:14:33,120 --> 00:14:34,920
+ Such things.
+
+199
+00:14:34,920 --> 00:14:39,120
+ Or the pandemic as well, of course.
+
+200
+00:14:39,120 --> 00:14:42,920
+ Impersonation is quite interesting technique.
+
+201
+00:14:42,920 --> 00:14:49,720
+ Many people think about the Captain of Köppenick as quite a funny story,
+
+202
+00:14:49,720 --> 00:14:56,720
+ which has real life roots, but the Standgericht Herholt, in English the drum,
+
+203
+00:14:56,720 --> 00:15:00,520
+ had a court martial, was really happening at the end of the World War II,
+
+204
+00:15:00,520 --> 00:15:08,120
+ where someone, a chimney sweeper from Chemnitz, used a military uniform from the military police
+
+205
+00:15:08,120 --> 00:15:17,520
+ and pretended to be military police, got other soldiers following him and then executing people.
+
+206
+00:15:17,520 --> 00:15:23,920
+ So this is about techniques.
+
+207
+00:15:23,920 --> 00:15:31,320
+ And one part of my definition is that a deceptive technique must have an underlying persuasion principles.
+
+208
+00:15:31,320 --> 00:15:32,520
+ One or more.
+
+209
+00:15:32,520 --> 00:15:33,520
+ There are different types.
+
+210
+00:15:33,520 --> 00:15:38,520
+ Of course, people who are into social engineering have heard about Cialdini.
+
+211
+00:15:38,520 --> 00:15:45,720
+ It's from marketing and marketing uses some techniques that can quite easily be used for malicious intent.
+
+212
+00:15:45,720 --> 00:15:51,320
+ And if you think of marketing techniques, you have viral marketing, you can use dark patterns, etc.
+
+213
+00:15:51,320 --> 00:16:03,120
+ And then we have a gray area and could be maybe not in the best interest of the targeted person, of the audience.
+
+214
+00:16:03,120 --> 00:16:09,320
+ So there are some, like I will go faster over it, but as well, this is nothing new.
+
+215
+00:16:09,320 --> 00:16:20,920
+ Loss aversion is something for the historians maybe, that Adam Smith already used.
+
+216
+00:16:20,920 --> 00:16:28,320
+ If there's a good, scarce, then people tend to be motivated to buy that product,
+
+217
+00:16:28,320 --> 00:16:32,520
+ even if they maybe at the moment don't need that.
+
+218
+00:16:32,520 --> 00:16:35,720
+ So this is something as well, nothing new.
+
+219
+00:16:35,720 --> 00:16:39,320
+ And Stajano and Wilson as well, an interesting paper.
+
+220
+00:16:39,320 --> 00:16:44,920
+ And for those who want to see some episodes, the real hustle is the series.
+
+221
+00:16:44,920 --> 00:16:47,920
+ Quite nice to see how they do.
+
+222
+00:16:47,920 --> 00:16:51,120
+ I would say most of them are social engineering in the wild.
+
+223
+00:16:51,120 --> 00:16:53,720
+ Okay, so far persuasion principles.
+
+224
+00:16:53,720 --> 00:16:56,120
+ That's for now.
+
+225
+00:16:56,120 --> 00:17:02,720
+ I don't know if you trust me that this is not a malicious link or failure or anything,
+
+226
+00:17:02,720 --> 00:17:09,920
+ but this is the link to my thesis, which has quite more interesting pieces.
+
+227
+00:17:09,920 --> 00:17:16,920
+ For example, I analyzed court documents looking for phishing in German court documents.
+
+228
+00:17:16,920 --> 00:17:26,920
+ Or I organized with some friends the social engineering poetry slam on one of the conferences or congresses a few years back.
+
+229
+00:17:26,920 --> 00:17:30,120
+ Okay, so far I think I am in time.
+
+230
+00:17:30,120 --> 00:17:34,920
+ Then thank you very much and stay safe.
+
+231
+00:17:34,920 --> 00:17:35,920
+ Yep.
+
+232
+00:17:35,920 --> 00:17:45,720
+ Okay, thanks a lot.
+
+233
+00:17:45,720 --> 00:17:50,920
+ So we have a couple of minutes so we can have a couple of questions.
+
+234
+00:17:50,920 --> 00:17:53,920
+ So if you have a question, line up here.
+
+235
+00:17:53,920 --> 00:17:55,920
+ You see the mic is here.
+
+236
+00:17:55,920 --> 00:17:57,320
+ There.
+
+237
+00:17:57,320 --> 00:17:58,720
+ Yeah.
+
+238
+00:17:58,720 --> 00:18:06,920
+ So, yes.
+
+239
+00:18:06,920 --> 00:18:11,720
+ If you want to talk privately with the Google Hacker,
+
+240
+00:18:11,720 --> 00:18:16,120
+ they promised to be on that side of the tent after the talk.
+
+241
+00:18:16,120 --> 00:18:19,720
+ So, yes, we have a question there.
+
+242
+00:18:19,720 --> 00:18:22,120
+ Hi.
+
+243
+00:18:22,120 --> 00:18:24,920
+ So malicious intent seems to be a bit vague.
+
+244
+00:18:24,920 --> 00:18:36,320
+ So your social engineering definition for your attempt to make it less vague is based on something that is also vague.
+
+245
+00:18:36,320 --> 00:18:39,720
+ Yeah, malicious intent is as well vague.
+
+246
+00:18:39,720 --> 00:18:43,520
+ I have in my thesis more examples.
+
+247
+00:18:43,520 --> 00:18:47,520
+ So if you think it's not everything is monetary,
+
+248
+00:18:47,520 --> 00:18:55,720
+ but the majority I would think is monetary even if you have tried to harm the reputation of a company
+
+249
+00:18:55,720 --> 00:18:58,720
+ and the reputation leads to some losses.
+
+250
+00:18:58,720 --> 00:19:03,120
+ No, it's again a bit financial, but there are many things.
+
+251
+00:19:03,120 --> 00:19:06,920
+ If you want to harass someone, then this could be as well.
+
+252
+00:19:06,920 --> 00:19:09,920
+ So, yes, you can do that.
+
+253
+00:19:09,920 --> 00:19:13,920
+ But the whole social engineering depends on how you do it.
+
+254
+00:19:13,920 --> 00:19:16,920
+ So there are many things.
+
+255
+00:19:16,920 --> 00:19:19,920
+ And therefore this is vague as well.
+
+256
+00:19:19,920 --> 00:19:20,920
+ I agree.
+
+257
+00:19:20,920 --> 00:19:26,920
+ And maybe this would be important to have there more definition as well.
+
+258
+00:19:26,920 --> 00:19:29,920
+ But, yeah, thank you.
+
+259
+00:19:29,920 --> 00:19:32,920
+ Yes, we have time for one question more.
+
+260
+00:19:32,920 --> 00:19:33,920
+ So, please.
+
+261
+00:19:33,920 --> 00:19:35,920
+ Thank you for your talk.
+
+262
+00:19:35,920 --> 00:19:42,920
+ I have done some assessments and we tried to get in the building and usually it works.
+
+263
+00:19:42,920 --> 00:19:53,920
+ But at the same time, I sometimes thinking how often does this happen for real?
+
+264
+00:19:53,920 --> 00:19:54,920
+ With malicious intent.
+
+265
+00:19:54,920 --> 00:19:58,920
+ With malicious intent getting into the building.
+
+266
+00:19:58,920 --> 00:20:02,920
+ Because I have a get out of the jail free card with me.
+
+267
+00:20:02,920 --> 00:20:09,920
+ But a malicious attacker won't have and has to answer if they are caught to the police.
+
+268
+00:20:09,920 --> 00:20:13,920
+ So the stakes are pretty high for an attacker.
+
+269
+00:20:13,920 --> 00:20:16,920
+ They are.
+
+270
+00:20:16,920 --> 00:20:18,920
+ As well, there's a challenge.
+
+271
+00:20:18,920 --> 00:20:20,920
+ One thing is tailgating is nothing new.
+
+272
+00:20:20,920 --> 00:20:22,920
+ You do this maybe of kindness.
+
+273
+00:20:22,920 --> 00:20:28,920
+ Someone, okay, just come in or you get an access card without many questions or details.
+
+274
+00:20:28,920 --> 00:20:32,920
+ But in the end, this was the challenge for me.
+
+275
+00:20:32,920 --> 00:20:34,920
+ I need evidence.
+
+276
+00:20:34,920 --> 00:20:43,920
+ But how can I find evidence that is suitable, meaning has enough information what happened?
+
+277
+00:20:43,920 --> 00:20:45,920
+ And this is quite difficult.
+
+278
+00:20:45,920 --> 00:20:48,920
+ Because some people don't want to talk about incidents in their company.
+
+279
+00:20:48,920 --> 00:20:51,920
+ And others say I heard from someone.
+
+280
+00:20:51,920 --> 00:20:56,920
+ And then you as a from researching from scientific perspective,
+
+281
+00:20:56,920 --> 00:20:59,920
+ you can't really tell if it's true or not.
+
+282
+00:20:59,920 --> 00:21:07,920
+ As an extreme, if you take some book of a security engineer and they tell a story,
+
+283
+00:21:07,920 --> 00:21:13,920
+ how can I prove or be sure that this is correct?
+
+284
+00:21:13,920 --> 00:21:17,920
+ And of course, some books are cited quite often.
+
+285
+00:21:17,920 --> 00:21:20,920
+ But you can't be sure that it's correct.
+
+286
+00:21:20,920 --> 00:21:22,920
+ Citing is good.
+
+287
+00:21:22,920 --> 00:21:24,920
+ But what is the source?
+
+288
+00:21:24,920 --> 00:21:26,920
+ Can I ask someone?
+
+289
+00:21:26,920 --> 00:21:29,920
+ And even news articles are not very honest always.
+
+290
+00:21:29,920 --> 00:21:34,920
+ Therefore, it was my approach to use the court documents.
+
+291
+00:21:34,920 --> 00:21:38,920
+ Because they have a truth-finding process in itself.
+
+292
+00:21:38,920 --> 00:21:40,920
+ Okay.
+
+293
+00:21:40,920 --> 00:21:42,920
+ We're unfortunately out of time.
+
+294
+00:21:42,920 --> 00:21:48,920
+ You can, Google Hacker will be available here at the side of the stage for a while for like extra questions.
+
+295
+00:21:48,920 --> 00:21:51,920
+ So let's give one more huge applause.
+
+296
+00:21:51,920 --> 00:21:53,920
+ Thank you very much.
+
+297
+00:21:54,920 --> 00:21:56,920
+ Thank you very much.
+
+298
+00:21:56,920 --> 00:22:00,920
+ [ Applause ]
+
+299
+00:22:00,920 --> 00:22:05,920
+ [ Music ]
+

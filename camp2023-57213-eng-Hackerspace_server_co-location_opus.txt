@@ -1,0 +1,76 @@
+ [MUSIC]
+ [MUSIC]
+ Hi, we are here to talk about that in our hacker space in Copenhagen,
+ we have a fiber connection and have a BDP setup and
+ have a rack that looks like this next to our fridge with all our matter.
+ And if we go a little bit closer,
+ you can see that we have a lot of small single board computers.
+ And that's because that we have a lot of small bit devices.
+ But to go a little bit back, we have since 2017,
+ had a fiber connection and had a BDP setup with a public ASN.
+ And we got a 24 sponsored by a friendly organization.
+ So it's quite nice.
+ And then we started doing members machines a little bit later.
+ So that members can have some more experience playing with network and
+ BDP and routing and trying to have a machine on the Internet.
+ And VPS is also available and stuff like that, but
+ it's a bit more fun to have physical hardware.
+ So yeah, low power devices and just best effort service,
+ no service level agreement.
+ We have dual stack, so both IPv6 and IPv4.
+ And we have the ability to write your own IP addresses as well.
+ So we have some members that have their own mostly IPv6 space and their own ASNs.
+ And we are currently around 15 machines on this setup.
+ But we expect it to be growing a bit soon.
+ But yeah, it's still small scale, but it's a fun, small,
+ HackerSpace project.
+ So in order for us to cover some of the costs associated with it,
+ like power wise, we have small monthly fee on it.
+ But the main thing is just that we want people to also be full member of Laptap and
+ have access to the HackerSpace and so on, so
+ that they can service machines themselves and so on.
+ But yeah, then Oliver wants to talk a bit about managing all these machines physically.
+ >> Yes, just a word of clarification.
+ This is not only for BGP playing, it is also just for micro hosting of any kind.
+ So it might sound like it might need quite a bit of experience.
+ That's not the case.
+ You could just start with a pie and host your own services or a website or
+ whatever that is.
+ So I want to talk a bit about the takeaways from five years of Labicolo.
+ The first one is the big one.
+ The thing about computers are not made to live in large communities.
+ They are not made for scalability.
+ They have cables sticking out in all four directions,
+ sometimes a fifth if there's a header on it.
+ They, We all know how that looks.
+ They, these power strips out there have many different kinds of
+ small power supplies that can overheat and that can just fall out.
+ All these things are quite challenging if it's in the same rack that
+ you also need for infrastructure and where you want reliability.
+ So the main takeaway is it needs to be managed.
+ And these are, this is a work in progress.
+ If you want it to be accessible for many members, you need to,
+ with very little complication, be able to add more devices pretty much spontaneously.
+ And that only goes if that's, if it's not a huge spaghetti mess of loose cables,
+ which the pictures don't show.
+ That is right after tidying up.
+ It is, believe me, it's super neat.
+ So what our idea is for the future is to make a kind of a campsite kind of setup
+ where you come in from the back and each shelf has a little maybe ten port switch.
+ And then we can get away with very short cables.
+ So to keep it manageable.
+ The main goal is to get more members on board that have a tiny machine and
+ get to play with it.
+ So more machines is the entire idea.
+ More people that have more experience with small things on the internet.
+ And more ASNs.
+ >> Yeah, so if we look on BDP, then we are tied for
+ the seventh largest neutral facility in Denmark.
+ So we hope to get up to the top four soon.
+ And then the last thing is just that we have,
+ there's another talk about our internet exchange on day three.
+ And we have a meet up on day three after that as well to talk more about
+ the BDP experiences and hack experiences.
+ >> Thank you.
+ >> [APPLAUSE]
+ [MUSIC]

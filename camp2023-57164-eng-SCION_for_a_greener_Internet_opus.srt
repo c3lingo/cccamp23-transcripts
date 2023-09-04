@@ -1,0 +1,1076 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:36,400
+ Hello everybody, welcome to the last talk in this block.
+
+4
+00:00:36,400 --> 00:00:41,400
+ Who of you sent your stuff to the camp with BGP?
+
+5
+00:00:41,400 --> 00:00:43,600
+ Any user of BGP?
+
+6
+00:00:43,600 --> 00:00:45,800
+ I used it, it works great.
+
+7
+00:00:45,800 --> 00:00:51,480
+ This is the routing protocol at camp for parcels.
+
+8
+00:00:51,480 --> 00:00:53,120
+ But there's another BGP,
+
+9
+00:00:53,120 --> 00:00:56,640
+ which is the routing protocol on the Internet for packets.
+
+10
+00:00:56,640 --> 00:01:00,480
+ It's what has enabled the Internet for decades.
+
+11
+00:01:00,480 --> 00:01:07,880
+ Mentor is going to tell us about what might replace BGP on the Internet,
+
+12
+00:01:07,880 --> 00:01:13,520
+ and how Scion might actually help to make the Internet greener.
+
+13
+00:01:13,520 --> 00:01:16,520
+ Mentor, stage is all yours.
+
+14
+00:01:16,520 --> 00:01:18,080
+ Thank you.
+
+15
+00:01:18,080 --> 00:01:20,920
+ [APPLAUSE]
+
+16
+00:01:20,920 --> 00:01:23,720
+ In the next 20 minutes or so,
+
+17
+00:01:23,720 --> 00:01:28,840
+ I will talk about how the Internet actually works currently,
+
+18
+00:01:28,840 --> 00:01:34,120
+ and what the Scion project in particular wants to change about it,
+
+19
+00:01:34,120 --> 00:01:36,120
+ and how that works.
+
+20
+00:01:36,120 --> 00:01:39,320
+ I will gloss over a lot of the technical detail, unfortunately,
+
+21
+00:01:39,320 --> 00:01:41,320
+ because I have very little time.
+
+22
+00:01:41,320 --> 00:01:43,320
+ And I will try to be inclusive in this talk,
+
+23
+00:01:43,320 --> 00:01:52,320
+ which is why I will use metaphors that might stretch reality a bit.
+
+24
+00:01:52,320 --> 00:01:57,120
+ I simply want to give you, those of you who have no idea actually
+
+25
+00:01:57,120 --> 00:02:01,720
+ how the Internet works, some idea of how it does.
+
+26
+00:02:01,720 --> 00:02:05,720
+ And for this reason, please bear with me if you have an idea
+
+27
+00:02:05,720 --> 00:02:11,720
+ what I'm talking about, and the analogy doesn't quite fit.
+
+28
+00:02:11,720 --> 00:02:13,520
+ All right.
+
+29
+00:02:13,520 --> 00:02:16,920
+ So this is the outline of my talk.
+
+30
+00:02:16,920 --> 00:02:22,920
+ First, we need to talk about how the Internet currently works.
+
+31
+00:02:22,920 --> 00:02:25,920
+ The status quo is that the Internet pretty much works
+
+32
+00:02:25,920 --> 00:02:30,920
+ like a run-of-the-mill postal system.
+
+33
+00:02:30,920 --> 00:02:41,120
+ Say, I want to send this plush owl to the Chaos Computer Club in Berlin.
+
+34
+00:02:41,120 --> 00:02:42,120
+ So what do I do?
+
+35
+00:02:42,120 --> 00:02:46,920
+ I simply put it in a box and add a sticker to that box
+
+36
+00:02:46,920 --> 00:02:51,320
+ with a destination where I write the postal address
+
+37
+00:02:51,320 --> 00:02:53,320
+ of the Chaos Computer Club Berlin,
+
+38
+00:02:53,320 --> 00:02:59,720
+ give it to the nice folks at the BGP,
+
+39
+00:02:59,720 --> 00:03:03,720
+ I think they're called the Camp Parcel Service or something,
+
+40
+00:03:03,720 --> 00:03:10,320
+ and then they worry about the rest.
+
+41
+00:03:10,320 --> 00:03:14,520
+ I don't actually know the route which this packet will take.
+
+42
+00:03:14,520 --> 00:03:17,720
+ I only know that at some point in the future,
+
+43
+00:03:17,720 --> 00:03:21,920
+ I think a few days or so, if everything works as expected,
+
+44
+00:03:21,920 --> 00:03:30,320
+ my owl will arrive safely at Chaos Computer Club Berlin.
+
+45
+00:03:30,320 --> 00:03:36,320
+ So I don't know whether this packet will be forwarded
+
+46
+00:03:36,320 --> 00:03:38,920
+ via ZNNIC or via Fürstenberg.
+
+47
+00:03:38,920 --> 00:03:42,520
+ Maybe it can also take a detour through a logistics center
+
+48
+00:03:42,520 --> 00:03:43,920
+ in Frankfurt Oder.
+
+49
+00:03:43,920 --> 00:03:49,320
+ I simply don't know.
+
+50
+00:03:49,320 --> 00:03:53,120
+ Interesting.
+
+51
+00:03:53,120 --> 00:03:57,920
+ I think I need to restart my slides
+
+52
+00:03:57,920 --> 00:04:01,120
+ because I just rebuilt them.
+
+53
+00:04:01,120 --> 00:04:18,320
+ A short timer, please.
+
+54
+00:04:18,320 --> 00:04:38,520
+ Here we go.
+
+55
+00:04:38,520 --> 00:04:42,720
+ So this is the perspective of the user that sends a packet
+
+56
+00:04:42,720 --> 00:04:44,520
+ over the current Internet.
+
+57
+00:04:44,520 --> 00:04:50,120
+ They simply know where to put the packet, the next postal office,
+
+58
+00:04:50,120 --> 00:04:52,920
+ and some magic happens in between
+
+59
+00:04:52,920 --> 00:04:58,320
+ and the packet arrives at its destination at some point.
+
+60
+00:04:58,320 --> 00:05:01,720
+ How does the postal system do this?
+
+61
+00:05:01,720 --> 00:05:04,120
+ Well, in very simple terms,
+
+62
+00:05:04,120 --> 00:05:08,320
+ and this is unfortunately not exactly how it works,
+
+63
+00:05:08,320 --> 00:05:11,120
+ unfortunately, let's assume that there's a post office
+
+64
+00:05:11,120 --> 00:05:14,920
+ in every town and each has a few courier connections
+
+65
+00:05:14,920 --> 00:05:17,920
+ to the surrounding post office in neighboring towns.
+
+66
+00:05:17,920 --> 00:05:21,520
+ And each post office also keeps a huge list of all the towns
+
+67
+00:05:21,520 --> 00:05:28,120
+ in the country where it can look up into which neighboring post office
+
+68
+00:05:28,120 --> 00:05:31,120
+ it should send a packet in order for the packet to move closer
+
+69
+00:05:31,120 --> 00:05:33,720
+ to its destination.
+
+70
+00:05:33,720 --> 00:05:42,920
+ So we send a parcel, this parcel will get forwarded intuitively
+
+71
+00:05:42,920 --> 00:05:45,120
+ step by step close to its destination
+
+72
+00:05:45,120 --> 00:05:48,720
+ until at some point it arrives in its destination city
+
+73
+00:05:48,720 --> 00:05:53,720
+ where the postman knows exactly how to find the street address
+
+74
+00:05:53,720 --> 00:05:56,920
+ for this packet.
+
+75
+00:05:56,920 --> 00:05:59,720
+ So this distributed mechanism, this is pretty similar
+
+76
+00:05:59,720 --> 00:06:05,320
+ to how postal systems used to work in the past for several hundreds of years
+
+77
+00:06:05,320 --> 00:06:06,720
+ and works very well.
+
+78
+00:06:06,720 --> 00:06:10,920
+ A given post office only needs to know in which direction
+
+79
+00:06:10,920 --> 00:06:13,920
+ it needs to forward this packet and at some point the packet
+
+80
+00:06:13,920 --> 00:06:18,920
+ will arrive actually in the city where it is intended to arrive in.
+
+81
+00:06:18,920 --> 00:06:21,720
+ So in there it will be given to a postman or woman or person
+
+82
+00:06:21,720 --> 00:06:31,720
+ who will know how to deliver this packet.
+
+83
+00:06:31,720 --> 00:06:36,720
+ So resolving this analogy, the post offices are the internet core routers,
+
+84
+00:06:36,720 --> 00:06:38,520
+ the post offices.
+
+85
+00:06:38,520 --> 00:06:45,920
+ The local post office is your ISP which is where you will send your letters
+
+86
+00:06:45,920 --> 00:06:50,520
+ or give up your letters and receive new letters.
+
+87
+00:06:50,520 --> 00:06:54,520
+ And all post offices along the way are their own networks,
+
+88
+00:06:54,520 --> 00:06:59,120
+ their own autonomous systems, you have probably heard this term already.
+
+89
+00:06:59,120 --> 00:07:04,920
+ And all the neighboring post offices of a given post office are called its peers.
+
+90
+00:07:04,920 --> 00:07:09,120
+ And this huge list that each post office needs to maintain
+
+91
+00:07:09,120 --> 00:07:14,520
+ in order to know along which next hop a given packet needs to be sent
+
+92
+00:07:14,520 --> 00:07:16,920
+ is a routing table.
+
+93
+00:07:16,920 --> 00:07:21,720
+ And the BGP protocol, not those guys over there, but the BGP protocol
+
+94
+00:07:21,720 --> 00:07:29,520
+ is used to keep the routing table up to date.
+
+95
+00:07:29,520 --> 00:07:31,520
+ So what is wrong with this current internet?
+
+96
+00:07:31,520 --> 00:07:36,920
+ Well, depending on your perspective, not that much or maybe quite a lot.
+
+97
+00:07:36,920 --> 00:07:41,720
+ So the internet doesn't have the best reliability.
+
+98
+00:07:41,720 --> 00:07:44,120
+ So it has like three nines.
+
+99
+00:07:44,120 --> 00:07:49,520
+ It has a 99.9% reliability which sounds a lot but actually isn't that much.
+
+100
+00:07:49,520 --> 00:07:56,120
+ The good news about the internet, however, is that failures often last a few seconds
+
+101
+00:07:56,120 --> 00:07:59,920
+ which all of you have probably noticed that the website doesn't load,
+
+102
+00:07:59,920 --> 00:08:01,720
+ you hit F5 and it does load.
+
+103
+00:08:01,720 --> 00:08:04,720
+ And you don't know where the problem was, but it's pretty likely that the problem
+
+104
+00:08:04,720 --> 00:08:09,920
+ was with this BGP mechanism where a failure wasn't needed to be resolved
+
+105
+00:08:09,920 --> 00:08:12,520
+ in order for routing to work again.
+
+106
+00:08:12,520 --> 00:08:16,120
+ There are other problems like security problems because BGP as a protocol
+
+107
+00:08:16,120 --> 00:08:20,920
+ was designed at a time where there was an implicit assumption
+
+108
+00:08:20,920 --> 00:08:25,320
+ that every participant on the network can be trusted.
+
+109
+00:08:25,320 --> 00:08:31,720
+ Actually in the BGP RFCs, in the first ones, the words trust or security
+
+110
+00:08:31,720 --> 00:08:36,920
+ or malicious or attack or something, you can grab for this and zero hits every time.
+
+111
+00:08:36,920 --> 00:08:43,920
+ The BGP was designed with a completely different internet in mind than we have today.
+
+112
+00:08:43,920 --> 00:08:47,720
+ Then there are some broken economic incentives.
+
+113
+00:08:47,720 --> 00:08:54,320
+ So as we all know, currently legislation, politics is lagging behind
+
+114
+00:08:54,320 --> 00:09:03,920
+ and they don't really enforce a proper carbon tax on carbon emissions
+
+115
+00:09:03,920 --> 00:09:10,720
+ which means that it's still the case today that you can buy electricity
+
+116
+00:09:10,720 --> 00:09:14,920
+ from non-renewable energy at lower prices than electricity
+
+117
+00:09:14,920 --> 00:09:17,720
+ that was created using renewable energy.
+
+118
+00:09:17,720 --> 00:09:23,120
+ And obviously market forces force network operators which have running costs
+
+119
+00:09:23,120 --> 00:09:30,720
+ and need this energy, force them to basically just buy the cheapest one,
+
+120
+00:09:30,720 --> 00:09:33,120
+ buy the discount of electricity.
+
+121
+00:09:33,120 --> 00:09:36,920
+ And this is obviously a problem, this is one of the points where the internet
+
+122
+00:09:36,920 --> 00:09:40,120
+ is currently not as green as it could be.
+
+123
+00:09:40,120 --> 00:09:43,920
+ But it's also hard for users to influence, like you don't really have a choice
+
+124
+00:09:43,920 --> 00:09:50,320
+ when some network in between decides to buy electricity from coal plants.
+
+125
+00:09:50,320 --> 00:09:54,120
+ You're basically stuck with this.
+
+126
+00:09:54,120 --> 00:09:56,720
+ Now, what is different with Scion?
+
+127
+00:09:56,720 --> 00:10:01,320
+ A lot of things they are trying to address, a lot of these problems,
+
+128
+00:10:01,320 --> 00:10:07,520
+ for instance also addressing security aspects, but I won't go into detail here.
+
+129
+00:10:07,520 --> 00:10:12,320
+ The key point where Scion differs from the BGP-based internet is that
+
+130
+00:10:12,320 --> 00:10:18,920
+ with Scion the senders get to decide along which paths the data gets forwarded.
+
+131
+00:10:18,920 --> 00:10:24,320
+ So again in our postal analogy, what we do instead of writing
+
+132
+00:10:24,320 --> 00:10:28,320
+ a regular street address there, we write steps there.
+
+133
+00:10:28,320 --> 00:10:34,920
+ We say, okay, the first step is the camp parcel service, the packet needs to go there,
+
+134
+00:10:34,920 --> 00:10:37,320
+ before the camp parcel service forwards it to Mildendorf,
+
+135
+00:10:37,320 --> 00:10:40,920
+ before Mildendorf forwards it to St. Annick and so on.
+
+136
+00:10:40,920 --> 00:10:45,720
+ And at some point it arrives at a point where a post person, a postman or post woman
+
+137
+00:10:45,720 --> 00:10:49,720
+ can simply read the street address and exactly knows where it is.
+
+138
+00:10:49,720 --> 00:10:55,120
+ So this is the postal analogy.
+
+139
+00:10:55,120 --> 00:10:57,520
+ How does this help?
+
+140
+00:10:57,520 --> 00:11:05,720
+ How, translating this to data packets, what do we gain?
+
+141
+00:11:05,720 --> 00:11:13,120
+ We gain as users the ability to boycott networks that we know operate
+
+142
+00:11:13,120 --> 00:11:15,920
+ with a dubious sustainability record.
+
+143
+00:11:15,920 --> 00:11:22,120
+ And we can also support networks that we know operate sustainably,
+
+144
+00:11:22,120 --> 00:11:25,720
+ that have basically given assurances to other parties
+
+145
+00:11:25,720 --> 00:11:30,920
+ that they are only buying energy from renewable sources.
+
+146
+00:11:30,920 --> 00:11:35,720
+ And in our example, when we want to send this owl to Berlin,
+
+147
+00:11:35,720 --> 00:11:41,920
+ and we know that the operator of the connection between Ziedernick and Oranienburg,
+
+148
+00:11:41,920 --> 00:11:46,520
+ which is on the way to Berlin, uses a truck,
+
+149
+00:11:46,520 --> 00:11:52,920
+ and we also know that the operator that sends traffic or packets or parcels
+
+150
+00:11:52,920 --> 00:11:55,520
+ between Fürstenbeck and Oranienburg uses rail,
+
+151
+00:11:55,520 --> 00:12:01,720
+ then I can, as a user decide, please route my packets along Fürstenbeck,
+
+152
+00:12:01,720 --> 00:12:04,720
+ even if it takes a bit longer.
+
+153
+00:12:04,720 --> 00:12:11,320
+ But I know that the carbon footprint of this transaction will be smaller.
+
+154
+00:12:11,320 --> 00:12:15,520
+ There's an additional feature, of course, that I should mention.
+
+155
+00:12:15,520 --> 00:12:20,520
+ This allows all sorts of things to do with this capability.
+
+156
+00:12:20,520 --> 00:12:24,120
+ For instance, for activists it's also interesting maybe to avoid
+
+157
+00:12:24,120 --> 00:12:29,320
+ routing via networks that are under dubious jurisdictions, etc.
+
+158
+00:12:29,320 --> 00:12:35,720
+ So you can optimize for more things.
+
+159
+00:12:35,720 --> 00:12:40,920
+ It's also interesting that CYON has been designed in a way
+
+160
+00:12:40,920 --> 00:12:46,320
+ that allows its core routers to operate more efficiently.
+
+161
+00:12:46,320 --> 00:12:50,320
+ In the post office analogy, it doesn't really keep these long lists
+
+162
+00:12:50,320 --> 00:12:54,120
+ with which it needs to decide where to send on which packet,
+
+163
+00:12:54,120 --> 00:12:59,320
+ it doesn't need to keep this list of all the towns in the country.
+
+164
+00:12:59,320 --> 00:13:03,920
+ It simply needs to follow the instructions that are written on the parcel.
+
+165
+00:13:03,920 --> 00:13:10,120
+ This comes at the expense, however, of 5 to 20% of bandwidth overhead,
+
+166
+00:13:10,120 --> 00:13:11,720
+ which sounds like a lot.
+
+167
+00:13:11,720 --> 00:13:15,920
+ It's not strictly an issue in wired communication,
+
+168
+00:13:15,920 --> 00:13:24,920
+ because increasing the speed doesn't really scale the electricity need of this.
+
+169
+00:13:24,920 --> 00:13:28,520
+ If you just put a new laser with a different wavelength on the same fiber,
+
+170
+00:13:28,520 --> 00:13:33,720
+ the laser doesn't really need more energy in order to transport more data.
+
+171
+00:13:33,720 --> 00:13:38,520
+ But to basically visualize this overhead that this introduces,
+
+172
+00:13:38,520 --> 00:13:42,720
+ imagine putting this owl into a parcel where you write,
+
+173
+00:13:42,720 --> 00:13:46,720
+ I don't know, the BGP guys over there onto it,
+
+174
+00:13:46,720 --> 00:13:49,720
+ and then put it into another parcel and write the next address.
+
+175
+00:13:49,720 --> 00:13:50,720
+ Actually, it's the other way around.
+
+176
+00:13:50,720 --> 00:13:52,720
+ First, you would write the address of Berlin,
+
+177
+00:13:52,720 --> 00:13:55,120
+ put it into the next parcel, which you close,
+
+178
+00:13:55,120 --> 00:13:58,720
+ and then you write Oranienburg there, and then put it in a parcel,
+
+179
+00:13:58,720 --> 00:14:03,520
+ and then you write, I don't know, what did I say?
+
+180
+00:14:03,520 --> 00:14:06,320
+ Christenberg on it, put it in a parcel,
+
+181
+00:14:06,320 --> 00:14:10,320
+ and then on the last parcel you write BGP,
+
+182
+00:14:10,320 --> 00:14:14,120
+ and then they unwrap it, and so on.
+
+183
+00:14:14,120 --> 00:14:15,720
+ This obviously includes some overhead,
+
+184
+00:14:15,720 --> 00:14:21,120
+ and this is a visualization of what kind of overhead it entails.
+
+185
+00:14:21,120 --> 00:14:27,920
+ The technical details are a bit different, but this is how it works.
+
+186
+00:14:27,920 --> 00:14:30,320
+ Also, there's something that we should mention,
+
+187
+00:14:30,320 --> 00:14:33,920
+ is there's an embodied CO2 footprint,
+
+188
+00:14:33,920 --> 00:14:39,920
+ because SIRON router hardware is different from hardware
+
+189
+00:14:39,920 --> 00:14:43,920
+ that needs to run the regular internet.
+
+190
+00:14:43,920 --> 00:14:49,120
+ And obviously, rolling out SIRON globally would mean
+
+191
+00:14:49,120 --> 00:14:54,520
+ investing this, embodying this CO2 footprint of the data
+
+192
+00:14:54,520 --> 00:14:58,520
+ and constructing all this hardware.
+
+193
+00:14:58,520 --> 00:15:01,520
+ Actually, numbers, how bad this will be, I'm missing,
+
+194
+00:15:01,520 --> 00:15:03,520
+ I don't know about this.
+
+195
+00:15:03,520 --> 00:15:07,520
+ I think a rough ballpark is that a SIRON router will be about,
+
+196
+00:15:07,520 --> 00:15:11,520
+ somebody about as much energy as an equivalent IP internet router.
+
+197
+00:15:11,520 --> 00:15:16,520
+ So maybe this sort of evens out,
+
+198
+00:15:16,520 --> 00:15:20,520
+ but you could feel free to research this yourself.
+
+199
+00:15:20,520 --> 00:15:24,520
+ A third point which is actively being discussed in the SIRON project
+
+200
+00:15:24,520 --> 00:15:30,520
+ is to attach carbon footprint of each individual hop
+
+201
+00:15:30,520 --> 00:15:34,520
+ as metadata to the routing information
+
+202
+00:15:34,520 --> 00:15:38,520
+ that then allows the user to construct paths
+
+203
+00:15:38,520 --> 00:15:41,520
+ that use the minimal amount of CO2,
+
+204
+00:15:41,520 --> 00:15:49,520
+ and then let the user preferences cause pressure on network operators
+
+205
+00:15:49,520 --> 00:15:54,520
+ to use renewable energy or to prefer the use of renewable energy.
+
+206
+00:15:54,520 --> 00:15:59,520
+ Another aspect of this would be that if they are being honest about
+
+207
+00:15:59,520 --> 00:16:07,520
+ their current CO2 emissions used for routing their packets,
+
+208
+00:16:07,520 --> 00:16:10,520
+ and this changes dynamically basically,
+
+209
+00:16:10,520 --> 00:16:12,520
+ for example based on available wind,
+
+210
+00:16:12,520 --> 00:16:15,520
+ then using this information could cause,
+
+211
+00:16:15,520 --> 00:16:18,520
+ could help us route our packets around,
+
+212
+00:16:18,520 --> 00:16:25,520
+ I don't know, how is it called, if the wind is gone,
+
+213
+00:16:25,520 --> 00:16:33,520
+ around calm weather patches where there is little wind,
+
+214
+00:16:33,520 --> 00:16:36,520
+ too little wind power for the wind turbines,
+
+215
+00:16:36,520 --> 00:16:42,520
+ and so we simply avoid these regions and send our packets by different routes.
+
+216
+00:16:42,520 --> 00:16:47,520
+ All in all this could sort of create a virtual circle
+
+217
+00:16:47,520 --> 00:16:53,520
+ where the network operators try to compete with each other
+
+218
+00:16:53,520 --> 00:16:57,520
+ and try to be more green than their competitors,
+
+219
+00:16:57,520 --> 00:17:01,520
+ basically reducing carbon emissions overall.
+
+220
+00:17:01,520 --> 00:17:06,520
+ Will this be enough? Will this really help us fighting climate change?
+
+221
+00:17:06,520 --> 00:17:15,520
+ Well, so the global internet energy consumption in 2020 was 207 terawatt hours,
+
+222
+00:17:15,520 --> 00:17:22,520
+ which is sort of creates to a momentary power consumption of about 31 gigawatts,
+
+223
+00:17:22,520 --> 00:17:27,520
+ which is double that of the biggest hydroelectric plant in the world.
+
+224
+00:17:27,520 --> 00:17:34,520
+ The Three Gorges Dam in China produces about half this amount of power
+
+225
+00:17:34,520 --> 00:17:39,520
+ if it's running at full capacity,
+
+226
+00:17:39,520 --> 00:17:45,520
+ and this is excluding the power consumption of data centers,
+
+227
+00:17:45,520 --> 00:17:49,520
+ so this is only network equipment, it's a rough ballpark figure.
+
+228
+00:17:49,520 --> 00:17:53,520
+ And this number is expected to grow to about,
+
+229
+00:17:53,520 --> 00:17:56,520
+ so right now it's 1% of all the global electricity,
+
+230
+00:17:56,520 --> 00:18:01,520
+ and this number is expected to grow to 10% by 2030.
+
+231
+00:18:01,520 --> 00:18:07,520
+ So the bottom line is we don't really know how much Scion will help.
+
+232
+00:18:07,520 --> 00:18:11,520
+ We know that taking all the efficiency gains of routers into account
+
+233
+00:18:11,520 --> 00:18:18,520
+ and subtracting the bandwidth overhead that it has,
+
+234
+00:18:18,520 --> 00:18:27,520
+ we end up at a number of around 10% more efficient,
+
+235
+00:18:27,520 --> 00:18:31,520
+ 10% less electricity use, let's say.
+
+236
+00:18:31,520 --> 00:18:37,520
+ Of course, we didn't really take into account the embodied carbon costs,
+
+237
+00:18:37,520 --> 00:18:42,520
+ and we also didn't really take into account the currently still elevated overhead,
+
+238
+00:18:42,520 --> 00:18:47,520
+ energy overhead that is required for anti-virus to actually talk this protocol.
+
+239
+00:18:47,520 --> 00:18:51,520
+ I mean, you can help.
+
+240
+00:18:51,520 --> 00:18:55,520
+ So it probably wouldn't be enough to save the planet by itself, right?
+
+241
+00:18:55,520 --> 00:19:00,520
+ But it's one step along the way,
+
+242
+00:19:00,520 --> 00:19:07,520
+ and we can't really afford to exclude things that don't promise that much reward,
+
+243
+00:19:07,520 --> 00:19:13,520
+ but we can probably use this as an argument to still push towards a technology
+
+244
+00:19:13,520 --> 00:19:17,520
+ that changes the way that the Internet is currently used
+
+245
+00:19:17,520 --> 00:19:22,520
+ and at the same time empowers users in a way that allows them,
+
+246
+00:19:22,520 --> 00:19:27,520
+ allows additional forces to push towards carbon neutrality.
+
+247
+00:19:27,520 --> 00:19:32,520
+ In this talk, I have left out a bunch of stuff which we could talk about offline afterwards.
+
+248
+00:19:32,520 --> 00:19:39,520
+ Of course, there's a lot of technical detail that I glossed over pretty much.
+
+249
+00:19:39,520 --> 00:19:44,520
+ There are questions about how a SCI-internet would be governed.
+
+250
+00:19:44,520 --> 00:19:48,520
+ There are also different incentives for different Internet stakeholders.
+
+251
+00:19:48,520 --> 00:19:53,520
+ Your ISP might not be that happy if you always decide to send your traffic a certain way,
+
+252
+00:19:53,520 --> 00:19:57,520
+ because right now it's them who decide how to forward it.
+
+253
+00:19:57,520 --> 00:20:00,520
+ Anyway, how to get involved?
+
+254
+00:20:00,520 --> 00:20:07,520
+ So the SCI-in project itself has been under development at ETH Zurich since 2009.
+
+255
+00:20:07,520 --> 00:20:11,520
+ It's open source and standardization is underway at ITF also.
+
+256
+00:20:11,520 --> 00:20:13,520
+ It's deployed in the wild.
+
+257
+00:20:13,520 --> 00:20:18,520
+ The Swiss Secure Finance Network will migrate exclusively to SCI-ins,
+
+258
+00:20:18,520 --> 00:20:26,520
+ so all the Swiss banks will stop using the old system and exclusively migrate to this system by 2024.
+
+259
+00:20:26,520 --> 00:20:29,520
+ There are additional networks.
+
+260
+00:20:29,520 --> 00:20:36,520
+ So one is a production network that is run by a commercial company that is selling this hardware also.
+
+261
+00:20:36,520 --> 00:20:41,520
+ And an education and research network that you guys can join.
+
+262
+00:20:41,520 --> 00:20:47,520
+ And also there's an experimental playground where you can play around with this technology,
+
+263
+00:20:47,520 --> 00:20:55,520
+ but it still uses the regular BGP-based Internet underneath and works via VPN links.
+
+264
+00:20:55,520 --> 00:21:01,520
+ You can play around with this under these URLs and get involved.
+
+265
+00:21:01,520 --> 00:21:08,520
+ It's probably best if you join this Matrix channel where SCI-in development is discussed.
+
+266
+00:21:08,520 --> 00:21:12,520
+ And I think with that I'm about done.
+
+267
+00:21:12,520 --> 00:21:18,520
+ You can also reach out to me at this email or this masternode address.
+
+268
+00:21:18,520 --> 00:21:22,520
+ [Applause]
+
+269
+00:21:23,520 --> 00:21:27,520
+ [Music]
+

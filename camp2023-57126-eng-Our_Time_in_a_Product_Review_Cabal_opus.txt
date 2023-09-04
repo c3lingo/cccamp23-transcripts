@@ -1,0 +1,618 @@
+ [MUSIC]
+ [MUSIC]
+ And okay, we are ready to start.
+ So from the US, we have two first time campers that are going to present
+ awesome stuff to us, Matt and Adam.
+ They are going to talk us about product review and the malware and
+ the back doors that they have been able to find in those situations.
+ So please give a huge applause to our speakers, please.
+ >> [APPLAUSE]
+ >> Hello, thank you.
+ I'm Adam Shaw and this is Matt and this is our time in a product review cabal and
+ the malware and bugs that came with it.
+ A little bit about us, I lead a team of AppSec engineers.
+ I'm a home lab enthusiast.
+ I have my own conference that I help run in Omaha, Nebraska in the United States.
+ And I help run my local Defcon group.
+ And also I help with a conference in Hawaii called LocomocoSec.
+ Highly recommended if you're able to get out there for that one.
+ >> And hey everyone, my name is Matt Veras.
+ It is my real last name.
+ I'm a IoT engineer at Cisco for about 15 years now.
+ I'm a part time farmer.
+ I'm a big hardware junkie.
+ I take everything apart and find out how it works.
+ I'm a former DOD forensic malware reverse engineer analyst.
+ And I'm founder of hackspace.io.
+ Slides and stuff from previous projects are posted out there.
+ So go check it out and follow us both on Twitter or on Slack or wherever.
+ >> Awesome.
+ And just a quick disclaimer.
+ All of this work was done for research purposes only.
+ Nothing we discussed today is representative of our employers.
+ We ensured that every review, photo and video were immediately taken down and reported.
+ This is platform agnostic.
+ It affects all online retailers, not specific ones.
+ And we're an ethical cabal.
+ So in July we were accepted for this talk.
+ Big thank you to Millie Ways and the staff that put this on.
+ This is one of my favorite childhood books.
+ So I was super pumped about it.
+ And then in August we decided we had to make the slides.
+ So if you saw us, you know, by our tent, we were working on this for quite some time.
+ This is my wife and I, this is like our normal interaction when we have a talk coming up.
+ I've almost started.
+ So in 2020, there was obviously the global pandemic with COVID.
+ And it meant that everyone needed to wear masks.
+ It was known for three things, right?
+ One, video streaming, all those streaming services.
+ And online shopping.
+ Yeah.
+ So what kind of stuff did you order online?
+ Maybe groceries, maybe delivery for food or things like that.
+ But not us.
+ We ordered all kinds of electronic gizmos and stuff that we really didn't need but looked
+ cool and was cheap because we were all stuck at home doing whatever we could only do at
+ home.
+ So that's kind of where we were.
+ So this whole thing started with a postcard.
+ I had ordered a smart switch from a company called Treat Life.
+ And in the box there was this postcard saying, "We are celebrating our company anniversary.
+ And you write to us, send us a note and we'll send you a free gift."
+ And who doesn't like a free gift?
+ So I reached out to them.
+ You could see the note there.
+ I said, "Hello, Treat Life team.
+ I like free stuff.
+ How does this work?"
+ And they said, "Oh, hello."
+ And you just buy our thing from this retailer and we'll give you a refund for it.
+ And you don't even have to leave us a review or anything.
+ Please just go buy it and everything will be good."
+ So we did.
+ So how it would kind of work is you would reach out to this retailer and say, "Hey,
+ I received this offer."
+ And then they would say, "Buy it."
+ And then we'll refund your money in PayPal or Amazon or whatever gift card you would
+ like.
+ And then you would have the device and use it and there would be no strings with some
+ vendors.
+ But then as we move forward, we learned that some vendors play by some different rules
+ and they may require a positive five-star review before they'll give you the reimbursement.
+ And it must have pictures or must have this or must have that.
+ But in general, with some of the vendors, they would give it for free for no strings
+ attached.
+ So once we start collecting things, it got to be quite a lot.
+ Cameras, switches, a lot of smart home devices.
+ I'm a big smart home automation firmware enthusiast, so that's kind of where I was targeting.
+ But then other strange devices too like a vacuum cleaner, which was really interesting.
+ And lots of cameras and other things, desk lamps, steaks, kitchen appliances, all kinds
+ of things.
+ So the list grew.
+ And as we collected more things, we started getting emails from additional vendors that
+ we hadn't necessarily reached out to directly.
+ It seemed that there was kind of this special list of customers that was shared amongst
+ these companies that were sending things out for free.
+ And so the more that we interacted with them, the more we got.
+ And the more vendors came to ask us if we would like their stuff.
+ So more is always better.
+ And then we started thinking like a hacker or thinking like a larcenist, what if we were
+ to use multiple email accounts to interact with them?
+ What if I want two of that thing or maybe five of that thing?
+ How could I do that?
+ So we'll have multiple email accounts and forward messages between them and collect things.
+ And we were wondering at first, like, is this a good idea?
+ Will they notice?
+ They did not.
+ They did not notice at all.
+ And in fact, things kind of escalated on from there.
+ So the thing that happened then is as we started collecting things and telling our friends,
+ they were jealous of all of the cool stuff we got.
+ Like I want stuff too.
+ So sharing is caring.
+ And we started to share some of our friends' contact information with these vendors.
+ And some of the sharing we did was official.
+ It was hello, Mr. Vendor, I have a friend who would like to work with you and the vendors
+ would always say yes.
+ But then as we'll talk about in a slide or two, some of the referrals were maybe not
+ quite so official.
+ So we'll talk about that in just a moment.
+ >> Yeah.
+ And along the way, we realized that there's just a bunch of people out there sending these
+ messages and they don't really care what we respond with.
+ They don't really care who we are.
+ They don't really care where we're sending the items.
+ I was sending items to like family members at some points.
+ And then I realized that they didn't care.
+ So I started sending them to different apartments in my own house.
+ I had six or seven apartments in my house that I would send them to.
+ And they just all show up on my doorstep.
+ And we realized, okay, let's just share the -- not only are we sharing like -- not only
+ are we telling the vendors, hey, contact this person, but now if they contact us, let's
+ just send that email to another one of our friends.
+ And then more friends can sign up.
+ And then more friends.
+ We eventually just dropped all the pretense altogether.
+ And we started by sending -- we would change the headers and modify the email and make
+ it look like they had emailed us.
+ But at the end of it, I was just replying to ones that were sent to Matt, for example.
+ >> Like, hey, Adam, I got an invite for a pool filter and some kitchen knives.
+ Would you like that one?
+ >> And I say, I need some knives.
+ Sure.
+ And I would just reply to the email address and say, please send me knives.
+ And they'd say, okay.
+ And so they'd just send stuff then.
+ And we started sharing the best invites.
+ And this is how we built this cabal of people who we would just share all the invites with.
+ And we'd say, hey, I got an invite group or chat.
+ And this invite is product X, Y, and Z. And somebody would say, I need product Y.
+ And so we just forward the email to them.
+ And somebody else would say, I need product X and forward the email to them.
+ And nobody ever seemed to notice.
+ And we just, everyone just got free stuff.
+ The profit slide where Matt had all of those different things, every one of us had closets
+ like that, you know, where we were just filling up with stuff.
+ The problem is, they started turning into pushers.
+ They started sending us emails and they'd say, hey, here is 60 products.
+ Pick two of them that you want.
+ And they would be the most wacky products.
+ Sex toys.
+ Dog treat dispensers.
+ Pool floaties.
+ Yeah.
+ Toilet scooters.
+ Toilet drain stoppers.
+ Yeah.
+ Pasta dishes.
+ And we didn't really care about a lot of those.
+ What we cared about was the technology ones that we were interested in and researching.
+ But it got extensive.
+ And there was a few main characters in this.
+ If you see these on your recommended anywhere, know that 90% of their reviews are probably
+ fake.
+ One of them is Vixer.
+ See all the different emails.
+ It's a little difficult to see in the sunlight over here, but all the different emails on
+ the right from Vixer over 2020.
+ Apeman was a big one.
+ They would send us emails constantly and Treat Life.
+ Treat Life was one of our favorites.
+ By far the favorite.
+ Yeah.
+ Because highly recommended.
+ Well, they send good quality products that are mostly not...
+ Well, we'll get into the technical details in a minute.
+ But they also never really cared if you did the reviews or not.
+ We would go and make a review.
+ And for some products that you had to have a review before they reimbursed you, and then
+ we would immediately delete the review and report it.
+ Or other products, like Treat Life, I could just open up my developer console in Chrome
+ and just edit one to look like I just made a review and screenshot it and send it.
+ And they didn't even look.
+ They were just like, "All right, here's money.
+ Here you go."
+ Yeah, or even they would just say, "Please send us your order ID."
+ And after they got the order ID, they would just pay right away.
+ Yeah.
+ And then Facebook groups.
+ We were involved in a lot of these.
+ In fact, after the pandemic, we pretty much stopped doing this.
+ It was a while back, but we still get invites all the time.
+ And they're primarily moving to Facebook now, I've noticed.
+ I get a lot of Facebook invites, and they email to me to join their Facebook group.
+ And they're actually moving countries now, too.
+ While I was preparing slides, one of the emails I got for a Facebook group was specific to
+ Thailand.
+ So only in Thailand do they want people to come and do reviews, which I thought was interesting.
+ But what about the stuff?
+ We're giving all this free stuff, but what about it?
+ And for that, let's dive deep.
+ Yeah.
+ So this is by no means exhaustive or complete.
+ This is just a few of the particularly interesting details from a deep dive of what the hardware
+ and software looked like.
+ So I encourage you to do your own research and follow along if you'd like.
+ So the first case study we'll talk about is the three T's.
+ Treat Life, Tekken, and Tuya.
+ So Treat Life and Tekken use the Tuya IoT platform.
+ Maybe some of you have heard of the Tuya platform.
+ It's one of the largest in the world.
+ And anybody can sign up to use Tuya.
+ You just pay them a few dollars, and you can use their development kit, and you can even
+ use their hardware that they kind of white label, and then you can cook your own firmware
+ for it, and it's very interesting.
+ So interesting things about Tuya is they store a number of things in plain text.
+ They collect a number of things plain text.
+ Phone number, the device that you use to set it up, the SSID that it connects to, the device
+ stats like when a light switch turns on or off, things like that.
+ But where things get really interesting and particularly dangerous that maybe people haven't
+ thought of is a number of the vacuum cleaners, including the one that I got through this
+ program.
+ They're using the Tuya platform.
+ So the floor plans of your house are potentially in the Tuya cloud, and whatever vendor sold
+ that to you can access that and sell that to anyone or do whatever they'd like with
+ it.
+ So that's interesting.
+ And of course the device manufacturer, whoever that is, they can push a firmware update whenever
+ they want, and they can do it silently.
+ So if you -- I'm jumping ahead a little bit, but if you go look at Michael Stegerwald's
+ talk from a few years ago at a CCC event, he talks extensively about the evils of Tuya
+ and how they can do all sorts of interesting things.
+ I'd encourage you to go take a look at that.
+ So the first wave of devices that were collected from TreatLife and from Tekken were ESP8266-based,
+ and it's a great microprocessor.
+ It's fantastic for the hacker community.
+ The Wemos D1 minis for sale over in the village, that's an ESP8266.
+ They're easy to flash, Arduino compatible, very good firmware.
+ And what happened eventually is we were flashing devices just with an interface with the FTDI.
+ And then there was this massive vulnerability that Stegerwald came out with from VTrust
+ where we were able to flash device firmware over the air without having to take it apart
+ or solder or anything, and it was great.
+ It's called TuyaConvert, and the link's right there.
+ You can check it out.
+ And TuyaConvert worked for quite a while.
+ There were several kind of cat and mouse games where the firmware got patched and then the
+ exploit got rewritten, and eventually it stopped working.
+ They changed the way that the keys were derived for the devices, and no longer could we just
+ flash them over the air because of the private key and public key interaction between the
+ server and the device.
+ So then things were great.
+ We were collecting all these devices and taking all of this terrible Tuya code off
+ and putting firmware like Tesmota or ESPHome running it with Node-RED.
+ But then the devices themselves changed.
+ The ESP8266 disappeared.
+ And despite this very substantial change in the device, the FCC documentation never changed.
+ And that's kind of an interesting question for devices that the FCC reviews.
+ If there's a substantial change, it's supposed to require a follow-on examination.
+ I would say that changing the microcontroller would be substantial enough to require a new
+ examination.
+ So it became very hard to know which device would have which controller or which CU.
+ So we kind of got to where you try to order from maybe different vendors and try to find
+ one that had old stock because at the time we didn't really know what to do with these
+ processors and we didn't want to just put them on our network and deal with the evilness
+ of Tuya.
+ But the interesting thing about these controllers is they were the same pinout as the ESP, but
+ they were not able to run Arduino code, so it was good and bad.
+ Then we figured out that they're pin compatible with the ESP32C3 and the ESP12F, so we'd use
+ a hot air station and just drop the chip off and then put a chip flash with Tesmota or
+ potentially ESPHome, but usually Tesmota, so you could step through the GPIOs and figure
+ out the hardware traces and do that easily.
+ So then everything was very good again.
+ We could take these devices with terrible processors and use them with our open source
+ code.
+ Very good.
+ But then moving forward, Khalid Nassar and some others, there's an excellent post here.
+ You should definitely go read it.
+ He walks through a very detailed posting of how some data was stored in some fields inappropriately
+ and there was no bounce checking on it, so we were able to inject code into that buffer.
+ And through that we're able to run a vulnerability that's been called named Tuya Cloud Cutter.
+ And with Cloud Cutter, originally we were able to modify the local keys on the device,
+ and when we modify the local keys, we could potentially write the same key to all of the
+ devices that we're working with.
+ So we have a common key to access our devices, and once we modify the keys, then Tuya can
+ no longer interact with the device, so we still have untrusted firmware, but we have
+ a device that we can control that no one else can control, so it's generally good.
+ And there are ways to hook that device with different automation platforms and make it
+ work, so that was good.
+ But then as we moved forward, there was some substantial development done with a project
+ called, it was originally called Libretuya, but Tuya got mad at that, so it became renamed
+ Libretiny.
+ And another one called OpenBeckon.
+ Libretiny is a port of ESPHome that runs on the Becken hardware, and it looks a lot like
+ ESPHome works the same as YAML-based.
+ There's a container plugin for Home Assistant, it all works very well.
+ And OpenBeckon is a standalone hardware.
+ It's kind of sort of similar to Tasmota, if any of you have used it, but it gives you
+ an API and MQTT and everything, and it runs standalone on the device.
+ Fairly stable, revved a lot, the developer is active in a lot of discords, and as is
+ the developer for Libretiny, very active.
+ So in the end, we have hardware that was previously untrusted that we couldn't work with, that
+ was linked to a generally evil overlay platform, but now we're able to put whatever firmware
+ we want on it, control it how we want, and we're able to audit all of the functions that
+ firmware does.
+ So very powerful, and we take a device that we can't trust at all to a device that we
+ absolutely trust, and we can do whatever we'd like with it.
+ The next case study is around cameras, and there are many cameras that were collected.
+ I use these, I live on a farm, so I use some of these cameras in the shop and for outdoor
+ surveillance and kind of all over the place, so many cameras.
+ And the default in stock firmware was very much not good, very unstable, and very interesting
+ connections outbound.
+ Some of the cameras were using the Tuya platform, and interesting, some of them were leaking
+ to Chinese IP space in earlier firmwares, and there was one, I forgot to collect the
+ data and save it, but in advance of a firmware update, before it was beaconing out to some
+ Chinese IP space, and then after a firmware update it was leaking out to a cloud provider
+ that was US IP space, but it's important to know that the country destination of the,
+ the country of the destination IP is really not all that important, and in the end there's
+ nothing that stops a foreign national from creating a cloud provider account and collecting
+ data and packing it off wherever they'd like.
+ So whether that's a US cloud provider or a Chinese cloud provider, it still should be
+ handled with a minimal amount of trust.
+ So the, in particular the cameras that were not on the Tuya platform, there's one from
+ S-Cam that was very interesting, it has this P2P connectivity and there's a QR code that
+ has a device ID, and this device ID, if you have it, you can connect to the camera with
+ no authentication, all you need is that device ID, so it's very dangerous.
+ And a gentleman named Paul, he gave a big talk on the dangers of this particular P2P
+ network at Defcon, I think two years ago, but the link is there, definitely go watch
+ it, there's huge exposure, and the goal of the P2P network is to make it so you don't
+ have to port forward, or so you can use these cameras behind a CG NAT and still have access
+ to the video, but the thing about that is it gives whoever's authoring the firmware
+ and pushing the updates the ability to do reverse shells and all those things as well, so it's
+ a terrible security vulnerability and just something that's very dangerous that you should
+ not ever trust on your network.
+ So with this particular camera, there's an app to set it up called the P6S Lite, and
+ some of the early documentation of the app references local mode, where you could open
+ the app on your phone and it would find the camera and peer to it and then you could do
+ local mode and it would pull up an interface where you could tell the camera to connect,
+ and so this particular app was missing that function, and so that was troubling, it was
+ kind of what happened to this interface.
+ So it started trolling around on an Android phone and was able to connect to the SSID
+ broadcast by the camera and then exited the app, dropped into the network settings and
+ saw that it was a very non-standard, very strange DHCP IP that I'd been assigned, but with a
+ very common gateway, a .1 gateway, so opened a browser window to .1 on my phone and here
+ I have the interface to this camera, and once I have access to the camera's web interface,
+ I was able to configure it to SSID and configure it to join my network and I was able to not
+ allow it to register on the P2P network, so interesting functionality that was there in
+ like the 2.x version of the app that was gone in the 3.x and they're now on 5 or late 5s
+ or early 6s, so it's like that function was purposefully taken out, at least that would
+ be my conjecture, so an interesting removal from that APK.
+ So I kind of got ahead of myself a bit, but yeah, the local mode was gone and when you
+ do this via direct web interface, the P2P registration does not happen and as you see in this one,
+ this is an iteration I did while using the actual app and doing it and this camera actually
+ did join that P2P network and all sorts of interestingness, so every camera, whether
+ it was Tuya or non-Tuya platform, every camera beaconed out, some a little bit, some a whole
+ lot, some of the interesting addresses were some of them were China and some other ones
+ were China and some of that's Alibaba, some of it's not and some of the other IP connections
+ were previously, like I said, to China and then some to other non-Chinese cloud providers
+ but still not to be trusted.
+ The cameras worked to a varying degree of success, some not at all and some really well
+ with RTSP and ONVIF, those are ways to access a camera locally and have the data local and
+ not out to a cloud or a cloud server, some of them worked, some of them did not at all
+ and the typical ways with the non-trusted firmware that you can take a camera like that that
+ does allow ONVIF or RTSP to allow and have it be semi-trusted is create a P2P reservation
+ for it with no default gateway and/or give it no DNS, have layer 3 ACLs, even layer 2
+ ACLs if you'd like, there are a number of ways to take a device like that and pin it
+ in a corner but still have it be usable, not necessarily the recommended way.
+ Most of the cameras were using Acya and Realtek chipsets, if you troll around a bit you can
+ find that the UART and JTAG interfaces for these chipsets are generally documented, I
+ wouldn't say well documented but I would say that they are documented and there are OpenIPC
+ for sure works on the S-cam, I set that up and it works fairly well, there's a lot of
+ the Realtek firmware support for the Yi cameras and some of the Victor cameras and some of
+ the others, so with some digging you can get this set up and working and you can get these
+ cameras to run code that you can actually audit and you know what it does because you've
+ seen the code and you can follow the packets so that would be my suggestion if you're going
+ to chase after any of these devices is do a bit of research, pull down my slides, find
+ some of the devices that use these particular chipsets that you can push your firmware to
+ and not have to deal with some third party vendors firmware and be at their mercy.
+ Yeah, unsurprisingly cameras were probably the most emailed thing that we got, you know
+ obviously vendors wanted you know wanted insight into our homes, baby monitors were up there
+ too, I actually had small kids during the pandemic and had used some of these products
+ as baby monitors so obviously they had to be safe.
+ The other big one was some type of routers, there was mesh routers and Wi-Fi extenders
+ that they were always offering and I think that's pretty obvious too why that was another
+ one that got offered a lot.
+ In this case study this is a mesh force router, the router configuration required a phone
+ to set up, they don't have a web interface for the router and Nmap showed three open
+ ports 5500 which is UPMP, obviously that should be disabled by default to protect security
+ and it wasn't.
+ Port 9000 for the app interface and ports 12598 used for auto configuring the Wi-Fi
+ repeaters.
+ Originally the app used clear text TCP coms over port 9000 to retrieve the serial number
+ and configure the device, the serial number then became an unchangeable password and you
+ weren't able to do anything about that.
+ This is again this is the mesh force router which is still on sale today on online retailers.
+ Also then the Android reached out to a few places, one the router, fine, for some reason
+ it tried to call out to Facebook, I don't know why and then lastly another IP, I wonder
+ what that is, it's China.
+ So this is another case where we were looking at a device that basically was calling out
+ to places to give them access or some type of data and what else went wrong with it?
+ We had an APK of the app, the Android app, so APKs obviously we can expand and dwell
+ into them and when you do that and look at the Java classes with something like JD GUI,
+ we saw references to CGI bin Lucy admin data manager which if you Google it and do some
+ research, this is a possible tender back door which has been everywhere.
+ Here's a couple of articles referencing a tender back door in wireless routers and this
+ is something that is very similar and that's as deep as we went right there because that
+ was enough for me to junk it to be honest and we have a giveaway and we're giving it
+ away but honestly this was a really fun time because we were stuck at home and we had a
+ lot of time on our hands and so we were able to pour all of our time into looking into
+ these products to determine what's safe and what wasn't.
+ Some lessons that we learned, if something is too good to be true, it probably is, right?
+ Always check your hardware that you're buying offline in a safe environment before plugging
+ it into like a production home operations and be wary of online reviews.
+ Research with caution, not all of them are legitimate.
+ So how do you spot fake reviews?
+ Again, all of Matt's and I reviews were then immediately deleted and nuked from the platform
+ but here's how you can spot fake reviews if you're online and if you're looking at buying
+ a product.
+ One, is this a brand you trust?
+ Does it have a trusted name in the industry or is it something you've never heard of before?
+ Some of these vendors would send us emails with different names, different product names,
+ so they were constantly recreating companies and putting a new decal on their product and
+ that was a brand new company for them.
+ So they were switching company names all the time.
+ If you can check user history, do it.
+ Not all platforms allow you to view reviews that a user has left but some platforms do.
+ Some of these online retailers allow you to view other things that this person has reviewed.
+ Check that out if you can.
+ If you see a lot of, well, a lot of reviews frankly on particular products, that could
+ be a red flag.
+ So all of these reviews, the ones that required us to leave a review before a refund, they
+ also required that you left a picture.
+ So I'm not saying that pictured reviews are necessarily more fake but that's something
+ that was like, bare minimum, you had to add it.
+ Yeah, sure.
+ And one other thing is the reviews all had to be five stars.
+ Could be four, had to be five.
+ So be very wary and when we would leave these reviews, we wanted to get our money but we
+ would still write a review that would maybe say, "Hey, here's three good things and two
+ really bad things but I still give it five stars because the good things were so good."
+ So if you see reviews that are like, "This product was great except for this was really
+ terrible but I give it five stars."
+ That was written to get a reimbursement for sure.
+ I had some egregious ones where I'd say, "Here's one good thing and here's six bad things about
+ this product and they still send me the money but I was trying to warn people from getting
+ that particular product."
+ And then the other thing, the time the review has been posted.
+ So this is an industry, right?
+ This is a business.
+ You can go purchase fake reviews online and there are companies out there who will go
+ and they'll find email lists like our names are on these email lists and they'll just
+ spam them and try to get people to do reviews and if the reviews have been posted within
+ a few days, it might be fake because usually companies nowadays, online retailers, they've
+ used reports like Matt and I have been doing and others to actually get pretty good at
+ detecting fake reviews and they'll ban accounts too.
+ They'll ban an account if they see enough fake reviews but usually that's a one or two
+ day process before they can determine, "Hey, is this review legitimate or fake?"
+ And so if you have a review that's less than two days old, good chances are that you want
+ to maybe circle back in a few days and see if it's still there.
+ Now this isn't all doom and gloom.
+ There are good companies that do these kind of things.
+ A good example is Amcrest.
+ Amcrest has actually reached out to people like Matt and I and they've offered a research
+ fee for purchasing their camera and reviewing.
+ They never asked for an online review.
+ They only asked for us to review and send them our feedback, right?
+ And this is an example of a 4K camera that they sent us and the product cost $80 but
+ the research fee was $140, which is another good way to do it.
+ Not only that but we were still able to pass the emails around the cabal and so we all
+ have Amcrest cameras now, which is great.
+ The feedback we gave them we think is valuable too.
+ One of the things that we -- this is a little difficult to see here but hopefully the stream
+ can see it in the videos later.
+ But there's a red -- there's a red lens on this camera and a red lighting area for the
+ infrared at nighttime.
+ The product doesn't actually have it.
+ But the picture has it.
+ So, like, that's something that we were able to call out.
+ When you open the box up, it actually looks a lot cleaner than the picture that they're
+ using for the product does.
+ So we were able to call it out, give them feedback, and that's a good symbiotic relationship,
+ right?
+ Where we're able to give them good and honest feedback but we don't have to then go and
+ leave them a five-star review and inflate their online reviews.
+ That said, I'd be happy to give this a five-star review.
+ It was a good product.
+ Some sources that we didn't mention in the slide deck.
+ KU.NZ, this is a blog.
+ This gentleman actually researched the mesh router before I did.
+ And so a lot of the same things that he found, we found.
+ But that's a good one.
+ Also all the icons that we got are from the noun project and the flat icon.
+ It's all, you know, sourced, free icons.
+ Thank you for your time.
+ And we'll go ahead and take some questions.
+ [ Applause ]
+ >> So, yeah.
+ Thank you a lot for a great talk.
+ The questions are going to be there.
+ So please line up.
+ If you're like want to make the questions from the Internet, the obvious channels from
+ Fediverse and Matrix are taking questions as well.
+ >> Yeah.
+ Can you guys tell me what's the most expensive item you got?
+ >> So there were two things that I got that were kind of noteworthy.
+ I got a robot vacuum that was around $200.
+ And still works pretty well.
+ Don't trust it at all.
+ But it works well.
+ It's in my shop.
+ It cleans the floor out there.
+ And then the other thing that was a little more like $250 US dollars is a DVR system.
+ It had the central DVR.
+ Had to put your own hard drive in it.
+ But then it had five cameras.
+ And the cameras, it was all on between the cameras and the DVR.
+ And it worked really well.
+ But the review that was submitted for that product actually got flagged as fake and got
+ deleted.
+ In the lag time between when I reached out to the vendor to request the refund, they
+ said oh, your review that you sent the screen shot of does not exist.
+ And I was like, ugh, it is what it is.
+ So I had to send that back.
+ But yeah, the vacuum was $200 and the DVR system was around $250.
+ >> The most expensive thing that I got was actually probably that mesh router which was
+ around $200 as well.
+ There was a clear cap on at least when I was going through it on the dollar amount that
+ they would go which was usually $250.
+ If it got above $200, they were very demanding on the type of review and the type of account
+ that you had to have in order to post the review.
+ A lot of these people required that you have an account with that online retailer for over
+ two years before you could post a review on something that was expensive.
+ >> And on the expensive things, like one other thing that we didn't mention is they would
+ have these stipulations like you must have a long standing account, you must have this.
+ But then they would try to sweeten the deal a little bit.
+ They would say and we'll refund plus a 10% commission.
+ A 10% uplift for your trouble.
+ And then sometimes you would tell a vendor, no, that's a lot of work and I can't do that.
+ They would say, well, what if we paid you half up front and then you post the review
+ and we pay you the other half.
+ So they would get really aggressive and try to get you to buy the higher dollar products.
+ >> I got a projector that was about $200 too.
+ And they're sweetening the deal.
+ Was a projection screen which I thought was really good.
+ I was like, oh, yeah, that sounds great.
+ So they sent me a big sheet of paper.
+ >> Okay.
+ We've got to have the next question from there as well.
+ >> Thanks for the talk, guys.
+ My first question is what do you think the main motivation for this type of behavior
+ is?
+ Is it profiteering, e-crime, state sponsored, or is it a mix of them all?
+ >> Yeah.
+ So I think that there, even within what we did, there were multiple motives.
+ I think that like TreatLife was trying to be the number one company.
+ If you would go on online retailers and search for smart home, smart switch, smart dimmer,
+ TreatLife wanted to be the number one product.
+ And the way you get to be the number one search result is by selling the most volume.
+ And selling volume to people who will maybe write reviews but more just selling volume,
+ period.
+ So I think TreatLife was trying to trend in the searches.
+ And I think that maybe other vendors had different motives as far as data collection and marketing
+ and selling data.
+ So I think both.
+ >> Yeah.
+ I think some of the -- so there's an external company, right?
+ There are external companies that actually do -- there's external companies that actually
+ mark -- that do this.
+ And they'll sell and they'll market and they'll get you reviews, et cetera.
+ And what they're -- they're going for profit, right?
+ But if I'm a bad actor and I want my back doors in as many devices as possible, I hire
+ them to then go do that.
+ So there's two different kind of motives I see.
+ But good question.
+ Thank you.
+ >> Okay.
+ We have a next question from the Internet, please.
+ >> Yep.
+ The Internet asks, how can someone start or get involved in such a --
+ >> The first rule of Fight Club is we don't talk about Fight Club.
+ >> Yeah.
+ Good question.
+ >> There are still products that have those types of postcards in them.
+ Maybe just try to find some or maybe send me a note on Twitter and I can help you.
+ >> The postcards are the entry for us.
+ So if you're buying those products, they'll come online.
+ Yep.
+ Please go ahead.
+ >> I had a quick question about you said you were reporting those products sometimes.
+ Was that to the eShops themselves or to some kind of government agency?
+ And did you get any reply from any of them?
+ >> The online retailers.
+ Yeah.
+ The online retailers.
+ And then usually we'd have them deleted and report it.
+ And so the replies were nothing or minimal.
+ >> Yeah.
+ Just automated response generally.
+ >> Yeah.
+ Thank you.
+ We will get back to you.
+ And then we never hear back.
+ Good question, though.
+ >> Okay.
+ We have still time for a couple of questions if somebody has some.
+ If not, please give a huge applause to Adam and Matt.
+ Thank you.
+ >> Thank you.
+ >> And thank you again to the Millieways crew for putting this on.
+ [ Music ]

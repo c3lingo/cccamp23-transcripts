@@ -1,0 +1,4780 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:41,000
+ Ich freue mich sehr hier auf der Bühne von Digitalcourage, die Gesprächsrunde "Eine digitale Währung mit Eigenschaft von Bargeld ist das möglich"
+
+3
+00:00:41,000 --> 00:00:50,000
+ ankündigen zu dürfen und übergebe für die Moderation an Julia Witte von Digitalcourage und einen Applaus bitte für unser Panel.
+
+4
+00:00:50,000 --> 00:00:57,000
+ [Applaus]
+
+5
+00:00:57,000 --> 00:01:03,000
+ Vielen Dank. Wir werden versuchen, auch eine interaktive Diskussion daraus zu machen.
+
+6
+00:01:03,000 --> 00:01:10,000
+ Also am Anfang werden wir erstmal ein bisschen grundsätzlich darüber sprechen, was wir uns unter digitalem Bargeld eigentlich vorstellen.
+
+7
+00:01:10,000 --> 00:01:15,000
+ Und danach seid ihr dann alle herzlich eingeladen, auch mit zu diskutieren und eure Fragen mit einzubringen.
+
+8
+00:01:15,000 --> 00:01:25,000
+ Wir machen jetzt eine kurze Vorstellungsrunde. Ich bin Julia Witte von Digitalcourage und werde versuchen darauf zu achten, dass hier jeder zu Wort kommt auf dieser Bühne.
+
+9
+00:01:25,000 --> 00:01:29,000
+ Genau, und vielleicht fängt Christian kurz an mit ein paar Sätzen über dich.
+
+10
+00:01:29,000 --> 00:01:40,000
+ Ja, ich bin Christian, ich bin Mitgründer von GNU/Taler und GNU-Maintener von GNU/Taler.
+
+11
+00:01:40,000 --> 00:01:50,000
+ Mein Name ist Lena Simon, ich arbeite bei Digitalcourage und als Netzphilosophin und Projektmanagerin.
+
+12
+00:01:50,000 --> 00:01:57,000
+ Und habe in meinem Buch, das im Mai rausgekommen ist, auch über digitales Bargeld geschrieben.
+
+13
+00:01:57,000 --> 00:02:05,000
+ Ja, und ich bin Padelun und habe Digitalcourage damals als Führbund mitgeschrieben und mitgegründet.
+
+14
+00:02:05,000 --> 00:02:13,000
+ Und freue mich heute hier zu sein bei einer Runde und wo es möglich ist, im CCC über Geld zu sprechen.
+
+15
+00:02:15,000 --> 00:02:21,000
+ Ich würde gerne einsteigen mit der Frage, wofür braucht man denn eigentlich digitales Bargeld?
+
+16
+00:02:21,000 --> 00:02:33,000
+ Wir haben doch schon Bargeld, was wäre mit dem digitalen Bargeld möglich, was mit bisherigen Bargeld nicht möglich ist mit dem physischen Bargeld?
+
+17
+00:02:33,000 --> 00:02:35,000
+ Was könnte man damit anstellen?
+
+18
+00:02:35,000 --> 00:02:42,000
+ Seit 100 Jahren begleiten Lena Tanges und ich die digitale Welt, die versucht miteinander zu kommunizieren.
+
+19
+00:02:42,000 --> 00:02:50,000
+ Also sprich, wir haben in den späten 70er, frühen 80er Jahren ein Mailbox-System aufgebaut und haben sehr früh festgestellt,
+
+20
+00:02:50,000 --> 00:02:59,000
+ dass alles ganz toll ist, aber zum Beispiel Leute, die auch Inhalte produzieren und helfen, dass Leute kommunizieren können,
+
+21
+00:02:59,000 --> 00:03:02,000
+ dass die keine Möglichkeit haben, Geld zu verdienen.
+
+22
+00:03:02,000 --> 00:03:05,000
+ Und wir haben uns überlegt, wie wäre es eigentlich, wenn es ein digitales Bargeld gäbe,
+
+23
+00:03:05,000 --> 00:03:15,000
+ das ich digital überweisen kann, ohne dass es Spuren gibt, so wie die Oma ihrem Enkel 20 Euro in die Hand rücken kann und niemand anders bekommt das mit.
+
+24
+00:03:15,000 --> 00:03:19,000
+ Sowas wollten wir immer haben und daran habe ich lange gearbeitet und bin bisher immer wieder gescheitert.
+
+25
+00:03:19,000 --> 00:03:25,000
+ Fallen euch noch ein paar ganz konkrete Fälle ein, also was kann man damit machen?
+
+26
+00:03:25,000 --> 00:03:37,000
+ Also mir fällt gerade das Autofahren ein. Mit Elektroauto laden, das geht eigentlich nicht mehr ohne, dass man überwacht wird, dass klar wird, wo man das Auto geladen hat,
+
+27
+00:03:37,000 --> 00:03:43,000
+ weil es gibt keine einzige Ladestation, wo man Bargeld einwerfen kann.
+
+28
+00:03:43,000 --> 00:03:51,000
+ Es gibt immer mehr Fälle, auch gerade zum Beispiel bei Online-Zeitungen, die fangen jetzt alle an, irgendwie durch Werbung und Tracking,
+
+29
+00:03:51,000 --> 00:03:58,000
+ ihre Leute, ihre Leserinnen und Leser zu überwachen, weil die nicht unbedingt gerne bezahlen wollen.
+
+30
+00:03:58,000 --> 00:04:07,000
+ Und wenn das Bezahlen, das Digitale einfacher wäre und eben anonym möglich wäre, dann könnten sich ganz neue Geschäftsmodelle auch entwickeln
+
+31
+00:04:07,000 --> 00:04:12,000
+ und wir könnten mal aus diesem Zeitalter austreten, in dem alles auf Überwachungskapitalismus und Werbung,
+
+32
+00:04:12,000 --> 00:04:21,000
+ die einen ausforscht und trägt und manipulieren will, hervortreten und tatsächlich mal für die Produkte sinnvoll bezahlen, die wir auch benutzen.
+
+33
+00:04:21,000 --> 00:04:23,000
+ Riedlich Handel miteinander treiben.
+
+34
+00:04:23,000 --> 00:04:34,000
+ Das würde also konkret so was bedeuten, wie ich mache die Seite Zeit Online auf oder Spiegel und da steht dann nicht "Bitte schließen Abo ab" über ein ganzes Jahr
+
+35
+00:04:34,000 --> 00:04:49,000
+ und ich denke mir, aber ich will auch nur diesen einen Artikel lesen, sondern dann würde da eben stehen "Bitte zahl 7 Cent, 10, 15, 30, je nachdem wie lang der ist, kann man dann ja irgendwie..."
+
+36
+00:04:49,000 --> 00:04:51,000
+ Das wird immer mehr sein, als man zahlen will.
+
+37
+00:04:51,000 --> 00:05:00,000
+ Okay, 30 Cent und das könnte man dann in digitaler Währung schnell und unkompliziert und möglichst anonym bezahlen.
+
+38
+00:05:00,000 --> 00:05:02,000
+ Wäre das so ein Modell für euch?
+
+39
+00:05:02,000 --> 00:05:03,000
+ Ja, genau.
+
+40
+00:05:03,000 --> 00:05:05,000
+ Modell Number One tatsächlich.
+
+41
+00:05:05,000 --> 00:05:08,000
+ Ja, ich denke wir sollten auch einen Anwendungsfall auch nicht vergessen.
+
+42
+00:05:08,000 --> 00:05:11,000
+ Wir haben ja hier viele freie Softwareentwickler.
+
+43
+00:05:11,000 --> 00:05:20,000
+ Wenn ihr Spenden einwerben wollt und nicht von eurem proprietären Portal abhängt, wo dann proprietäres Software eingesetzt wird, was ja eigentlich gegen das freie Software ideal ist,
+
+44
+00:05:20,000 --> 00:05:25,000
+ einfach mit freier Software an freie Softwareprojekte spenden, macht ja auch Sinn.
+
+45
+00:05:26,000 --> 00:05:37,000
+ Okay, dann lass uns noch ein bisschen mehr darüber sprechen, was das für uns bedeutet, dass wir so ein bisschen in die Definition gehen, vielleicht auch so eine kleine Abgrenzung hinkriegen.
+
+46
+00:05:37,000 --> 00:05:43,000
+ Also heißt das dann, das löst dann das physische Bargeld ab und es gibt gar keine Münzen und Schein mehr?
+
+47
+00:05:43,000 --> 00:05:44,000
+ Um Gottes Willen.
+
+48
+00:05:44,000 --> 00:05:45,000
+ Ist das die Vorstellung?
+
+49
+00:05:45,000 --> 00:05:46,000
+ Nein, um Gottes Willen.
+
+50
+00:05:46,000 --> 00:05:51,000
+ Also das Rascheln von Papier in der Kasse, also alle die ein bisschen Handel treiben wissen, wie schön das ist.
+
+51
+00:05:51,000 --> 00:05:57,000
+ Also Münzen, die klingeln, das ist auch schön, aber jetzt irgendein Mikro macht Lärm.
+
+52
+00:05:57,000 --> 00:06:06,000
+ Aber wie schön das ist und das, also mal Quatsch beiseite, natürlich wollen wir auch im realen Leben ohne Digitalzwang bezahlen können.
+
+53
+00:06:06,000 --> 00:06:14,000
+ Und insofern wird das natürlich nicht abgeschafft, sondern es ist eine Ergänzung zum derzeitigen richtigen Bargeld, also analogen Bargeld.
+
+54
+00:06:16,000 --> 00:06:21,000
+ Was sind denn die Anforderungen an ein gutes digitales Bargeld?
+
+55
+00:06:21,000 --> 00:06:27,000
+ Also es gibt ja schon unheimlich viele Modelle, bei denen es irgendwie darum geht im Internet Sachen zu bezahlen.
+
+56
+00:06:27,000 --> 00:06:30,000
+ Aber was macht ein gutes digitales Bargeld aus?
+
+57
+00:06:30,000 --> 00:06:33,000
+ Also ich würde sagen, erstmal ist...
+
+58
+00:06:33,000 --> 00:06:36,000
+ Moment mal gerade, irgendjemand hat noch ein Mikro und das...
+
+59
+00:06:36,000 --> 00:06:37,000
+ Nein, das ist der Wind.
+
+60
+00:06:37,000 --> 00:06:39,000
+ Das ist der Wind, ach wie schrecklich.
+
+61
+00:06:39,000 --> 00:06:40,000
+ Kann man jemanden Wind abstellen?
+
+62
+00:06:42,000 --> 00:06:47,000
+ Also erstmal sollte es auf freier Software basieren, es sollte eben wie gesagt anonym einsetzbar sein.
+
+63
+00:06:47,000 --> 00:06:50,000
+ Es sollte auch für Kleinstbeträge funktionieren.
+
+64
+00:06:50,000 --> 00:07:00,000
+ Es wäre natürlich auch super, wenn es solche Sachen wie Schwarzgeld und Steuerbetrug und so jetzt nicht super easy vergünstigen würde.
+
+65
+00:07:00,000 --> 00:07:12,000
+ Also da gibt es ja auch beim Bargeld Mechanismen, die dazu beitragen, dass man zum Beispiel nicht unendlich große Mengen an Geld über eine Grenze transportieren kann,
+
+66
+00:07:12,000 --> 00:07:16,000
+ allein weil die Stückelung halt irgendwann das nicht mehr zulässt.
+
+67
+00:07:16,000 --> 00:07:19,000
+ Weil die Tasche irgendwann einfach zu groß wird oder wird es aufwendig?
+
+68
+00:07:19,000 --> 00:07:26,000
+ Die Tasche wird irgendwann zu groß und das ist zum Beispiel so ein Faktor, bei dem muss man natürlich bei digitalem Bargeld darauf achten,
+
+69
+00:07:26,000 --> 00:07:30,000
+ dass man auch ähnliche vergleichbare Mechanismen da an der Stelle auch hat.
+
+70
+00:07:30,000 --> 00:07:35,000
+ Zumindest wenn man innerhalb des Gesellschaftsvertrags bleiben will.
+
+71
+00:07:35,000 --> 00:07:41,000
+ Es ist total wichtig beim analogen Bargeld...
+
+72
+00:07:41,000 --> 00:07:48,000
+ Ich denke er hat hier einen wichtigen Punkt gesagt, Finalität der Transaktion, es ist nicht rückabgewickelt werden kann, dass man sich ja...
+
+73
+00:07:48,000 --> 00:07:49,000
+ Jetzt rennt er weg.
+
+74
+00:07:49,000 --> 00:07:59,000
+ Ja und dass du eine Münze nicht zweimal ausgeben kannst, also dieses Double Spending, das ist auch beim analogen passiert das nicht, aber das könnte natürlich passieren.
+
+75
+00:07:59,000 --> 00:08:12,000
+ Und ich fände es ja gar nicht so schlecht, wenn es staatlich reguliert wäre, wenn es also an eine Währung gekoppelt ist, weil diesen ganzen Kram Entscheidungen Staats...
+
+76
+00:08:12,000 --> 00:08:23,000
+ Das ist für mich Politik und das soll auch in der Politik bleiben und da kommt genau der Punkt, im Moment sind die ganzen digitalen Bezahlmöglichkeiten hängen an Firmen,
+
+77
+00:08:23,000 --> 00:08:34,000
+ die wieder Überwachungskapitalismus im Sinn haben, an großen Firmen, die dann alles Mögliche mit den Daten machen und das ist ein Riesenproblem.
+
+78
+00:08:34,000 --> 00:08:42,000
+ Es muss ja auch irgendwie in der staatlichen Regulierbarkeit sein und gleichzeitig eben nicht von irgendwelchen Firmen abhängen.
+
+79
+00:08:42,000 --> 00:08:51,000
+ Ich würde ganz gerne noch, dass wir einmal kurz die Liste...
+
+80
+00:08:51,000 --> 00:09:00,000
+ Okay, also weil wir haben noch so ein paar Sachen, die wir zur Einführung ganz gerne erzählen würden und dann kommen wir auf jeden Fall bald in den interaktiven Teil mit euren Fragen.
+
+81
+00:09:00,000 --> 00:09:12,000
+ Also es soll Mechanismen geben gegen Geldwäsche, es soll Mechanismen geben gegen Steuerhinterziehung, Thema Währungsspekulation hatten wir das schon?
+
+82
+00:09:12,000 --> 00:09:23,000
+ Na ja, es darf halt nicht so sein, dass ich die Möglichkeit habe, Geld in großer Menge mal eben rund um den Globus zu schicken und damit Wirtschaftssysteme völlig gegen die Wand zu fahren.
+
+83
+00:09:23,000 --> 00:09:36,000
+ Also was Soros mit dem englischen Fund gemacht hat zum Beispiel, sowas darf halt auch nicht sein. Wir müssen das so bauen, dass unsere Gesellschaft nicht daran kaputt geht, dass wir ein digitales Bargeld haben.
+
+84
+00:09:36,000 --> 00:09:38,000
+ Sondern es geht darum, diese Gesellschaft zu sichern.
+
+85
+00:09:38,000 --> 00:09:53,000
+ Also ich eben auch gerade sagte, man muss innerhalb des Gesellschaftsvertrags bleiben, bedeutet halt auch, ich habe keinen Bock auf irgendwelche libertären Faschisten, die ihr eigenes Geld machen und damit sozusagen Zockereien abbilden.
+
+86
+00:09:53,000 --> 00:10:02,000
+ Darum geht es nicht. Es geht darum, dass wir friedlich miteinander Handel treiben können und unser Leben dadurch einfacher und schöner, besser und datenschutzfreundlicher wird.
+
+87
+00:10:02,000 --> 00:10:04,000
+ Okay und...
+
+88
+00:10:04,000 --> 00:10:10,000
+ Danke, ja natürlich, das ist schnell.
+
+89
+00:10:10,000 --> 00:10:12,000
+ Also Benutzbarkeit, genau.
+
+90
+00:10:12,000 --> 00:10:21,000
+ Er sagte gerade, schnell bezahlen wäre wichtig. Also PayPal würde so lange dauern. Dankeschön. Da ich PayPal nicht nutze, wusste ich das nicht.
+
+91
+00:10:21,000 --> 00:10:35,000
+ Aber auf jeden Fall sicherlich auch eine Anforderung. Es muss gut zu benutzen sein, auch simpel zu benutzen. Aber wir haben jetzt schon gehabt, also absolute Nummer eins Anforderung wäre für uns Anonymität.
+
+92
+00:10:35,000 --> 00:10:39,000
+ Ja, definitiv. Und dass es nicht zu einem großen Konzern gehört.
+
+93
+00:10:39,000 --> 00:10:53,000
+ Klarer stellen, was meinen wir mit Anonymität? Weil es gibt ja immer denjenigen, der B zahlt und denen, der Geld B bekommt. Und ich denke, wir sind es relativ klar, wenn ich B zahle als Privatperson, dann möchte ich den Datenschutz haben.
+
+94
+00:10:53,000 --> 00:11:01,000
+ Aber wenn ein Geschäft Geld einnimmt, dann soll es ja auch Steuern bezahlen und das soll es ja auch legal tun. Und normalerweise ist ja Geldverdienen unserer Gesellschaft eh angesehen.
+
+95
+00:11:01,000 --> 00:11:08,000
+ Für mein Geldverdienen brauche ich mich nicht schämen. Insofern kann ich da auch transparent, zumindest gegenüber dem Staat sein.
+
+96
+00:11:08,000 --> 00:11:28,000
+ Ja, das stimmt fast immer. Aber beim Enkel, der Geld von der Oma bekommt, da dürfen gerne beide anonym sein. Ich möchte kein Geld, wo es eine Unterscheidung zwischen Unternehmen und Einzelpersonen gibt, sondern das muss einfach zwischen Entitäten funktionieren.
+
+97
+00:11:28,000 --> 00:11:39,000
+ Da würde ich unterscheiden mit dem Enkel, da gibt es ja ein sehr enges Vertrauensverhältnis. Und wenn wir jetzt eben von einer Geschäftsbeziehung reden, da möchte ich mich zum Beispiel für sowas wie Double Spending auch schützen.
+
+98
+00:11:39,000 --> 00:11:50,000
+ Da kann ich nicht davon ausgehen, dass der Kunde ja schon ehrlich sein wird. Das heißt, da brauche ich eine finale Transaktion, wo ich sicher bin, die ist auch wirklich nicht rückabwickelbar und da habe ich das Geld.
+
+99
+00:11:50,000 --> 00:11:58,000
+ Wohingegen, wenn ich meinem Enkel das Geld gebe, der kann auch einfach direkt auf mein Portemonnaie zugreifen. Das heißt, es ist ein anderer Use Case in Bezug auf die Sicherheitsanforderungen. Dadurch können wir das auch abdecken.
+
+100
+00:11:58,000 --> 00:12:07,000
+ Was ist denn mit Diebstahlsicherheit? Jemand knackt meine Wallet und klaut mir mein digitales Geld. Was ist dann?
+
+101
+00:12:07,000 --> 00:12:18,000
+ Also unsere Antwort ist relativ klar. Wenn man es anonym machen muss, muss es in Eigenverwahrung sein, das heißt noch unter meiner Verantwortung. Und wenn es unter meiner Verantwortung ist, kann ich es natürlich auch verlieren.
+
+102
+00:12:18,000 --> 00:12:20,000
+ Genau wie beim echten Bargeld, beim physischen.
+
+103
+00:12:20,000 --> 00:12:26,000
+ Wie beim echten Bargeld. Da kann ich auch nicht zur Bank gehen und sagen, ja mir ist mein Portemonnaie geklaut, wenn bitte, da waren 100 Euro, dann geben wir die wieder.
+
+104
+00:12:26,000 --> 00:12:38,000
+ Also das ist in Eigenverantwortung. Ich muss dafür sorgen, dass das Bargeld, das ich habe, bei mir sicher ist. Aber natürlich kann ich im Gegensatz zum physischen Bargeld, bei elektronischem Bargeld zumindest einen Backup machen.
+
+105
+00:12:38,000 --> 00:12:43,000
+ Wenn ich technisch da gut genug drauf bin, das muss man sich dann einfach machen für alle.
+
+106
+00:12:43,000 --> 00:12:49,000
+ Jetzt haben wir eine Reihe von Anforderungen schon aufgestellt. Erfüllen Kryptowährungen diese Anforderungen?
+
+107
+00:12:49,000 --> 00:13:03,000
+ Ich möchte eigentlich über Kryptowährung überhaupt nicht sprechen, weil das hat mit Geld überhaupt nichts zu tun. Das ist Gold. Das ist wie Goldschürfen, umweltschädlich, ohne Ende. Man kann mit dem Zeug eigentlich...
+
+108
+00:13:03,000 --> 00:13:09,000
+ Also das ist kein Geld. Also bitte lasst das weg.
+
+109
+00:13:09,000 --> 00:13:13,000
+ Sie können mit Kryptowährungen die staatlichen Währungen widerspiegeln?
+
+110
+00:13:13,000 --> 00:13:21,000
+ Ja, das mag sein. Das ist trotzdem Dreck. Und mir geht es um digitales Bargeld. Mir geht es nicht um zocken. Mir geht es nicht um spekulieren.
+
+111
+00:13:21,000 --> 00:13:36,000
+ Ich möchte, dass Leute, die ehrliche Arbeit machen, ehrliches Geld bekommen und davon leben und nicht dadurch, dass sie mit irgendwelchen Zockereien und sonst was irgendwie meinen, ihr eigene Faulheit finanzieren zu können.
+
+112
+00:13:36,000 --> 00:13:46,000
+ Christian Gnuthaler, was ist der Unterschied von Gnuthaler zu Kryptowährungen? Was macht ihr anders?
+
+113
+00:13:46,000 --> 00:13:57,000
+ Wir machen erst mal primär etwas weniger. Wir sind nämlich nur ein Bezahlsystem, sage ich immer. Wenn ich mir eine übliche Kryptowährung angucke, gibt es die Möglichkeit Transaktionen zu machen.
+
+114
+00:13:57,000 --> 00:14:10,000
+ Aber gleichzeitig wird immer auch eine Währung erzeugt auf irgendeine Art und Weise. Das heißt, da wird sowohl die Zentralbank ersetzt, die eigentlich Währungen erzeugt, und auch das Transaktionssystem ersetzt.
+
+115
+00:14:10,000 --> 00:14:21,000
+ Und Taler macht eben nur Transaktionen. Wir schränken uns darauf. Und man kann dann mit Taler in Euros bezahlen, in Dollars bezahlen, in Franken bezahlen oder auch in Bitcoin bezahlen.
+
+116
+00:14:21,000 --> 00:14:29,000
+ Das ist erst mal ein Bezahlsystem. Ich kann mit allen Währungen, die irgendwo existieren, damit bezahlen und die einfach nur digitalisieren.
+
+117
+00:14:29,000 --> 00:14:34,000
+ Das heißt, wir machen einfach weniger als die Krypto-Kalmstädte. Dafür machen wir den Teil dann sehr gut.
+
+118
+00:14:34,000 --> 00:14:40,000
+ Kannst du noch ein bisschen mehr erzählen darüber, wie das in der Praxis funktioniert und wo ihr das schon einsetzt?
+
+119
+00:14:40,000 --> 00:14:49,000
+ Ja, also wir haben an der Berner Fachhochschule ein einfaches erstes Deployment gemacht und das soll jetzt ausgebaut werden als Regionalwährung in Basel.
+
+120
+00:14:49,000 --> 00:14:58,000
+ Es funktioniert dann so, dass man dort, also an der BFH wie in Basel, fängt man an mit Schweizer Franken und kann die dann erst mal umtauschen.
+
+121
+00:14:58,000 --> 00:15:03,000
+ An der BFH in E-Franken. In Basel wird es dann in die Regionalwährung Netzbond sein.
+
+122
+00:15:03,000 --> 00:15:10,000
+ Das heißt, ich gehe von meinem Frankenbargeld oder Konto her, überweise das Geld an den Betreiber des Systems.
+
+123
+00:15:10,000 --> 00:15:16,000
+ Der Betreiber hält das dann in escrow. Das heißt, er hat einfach dann ein riesen Sparkonto oder seinen Geldstapel.
+
+124
+00:15:16,000 --> 00:15:22,000
+ Und hat dann sozusagen für das E-Geld, was im Umlauf ist, das Geld sozusagen bei sich lokal auf dem Konto.
+
+125
+00:15:22,000 --> 00:15:26,000
+ Und wenn jetzt jemand E-Geld hat, kann er es dann andere übertragen.
+
+126
+00:15:26,000 --> 00:15:31,000
+ Dann wird immer der Empfänger festgestellt, also identifiziert.
+
+127
+00:15:31,000 --> 00:15:36,000
+ Derjenige, der B zahlt, bleibt anonym, kann nicht mit irgendwas anderem verknüpft werden.
+
+128
+00:15:36,000 --> 00:15:41,000
+ Jede Transaktion ist isoliert. Ich weiß nur, es hat ein Nutzer bezahlt.
+
+129
+00:15:41,000 --> 00:15:43,000
+ Ich weiß nichts über welcher Nutzer das ist.
+
+130
+00:15:43,000 --> 00:15:48,000
+ Der Empfänger ist aber identifizierbar und kann sich das Geld dann auszahlen lassen.
+
+131
+00:15:48,000 --> 00:15:53,000
+ Zum Beispiel wieder auf sein Girokonto zurück überweisen oder eben auf sein Wallet schreiben lassen,
+
+132
+00:15:53,000 --> 00:15:56,000
+ wo er es dann wieder an andere Leute im System ausgeben kann.
+
+133
+00:15:56,000 --> 00:16:01,000
+ Und sag nochmal ganz konkret, also wo wird das jetzt schon eingesetzt? Wie wird das angenommen auch?
+
+134
+00:16:01,000 --> 00:16:07,000
+ Also an der Berner Fachhochschule kann man in der Cafeteria Bargeld gegen E-Geld umtauschen und das dann da nutzen.
+
+135
+00:16:07,000 --> 00:16:09,000
+ An einem Automaten oder wie muss ich mir das vorstellen?
+
+136
+00:16:09,000 --> 00:16:13,000
+ An der Cafeteria, das Bargeld gibt man richtigen Menschen.
+
+137
+00:16:13,000 --> 00:16:17,000
+ Wir arbeiten daran, dass es auch mal ein Geld in Einzahlautomaten geben soll.
+
+138
+00:16:17,000 --> 00:16:22,000
+ Aber bisher gibt man es richtigen Menschen, bekommt dann einen QR-Code, mit dem man sein Wallet aufladen kann
+
+139
+00:16:22,000 --> 00:16:29,000
+ und kann dann mit dem Wallet am Automaten dann Bücher, Elektronik und Essen und Getränke kaufen.
+
+140
+00:16:29,000 --> 00:16:32,000
+ Ein Buch von Sibylle Berg, ne?
+
+141
+00:16:32,000 --> 00:16:36,000
+ Zwei Bücher. Es gibt ein Buch von Sibylle Berg, was man kaufen kann
+
+142
+00:16:36,000 --> 00:16:42,000
+ und es gibt ein Buch von unserem Blockchain-Professor zu Blockchain Kurz und Gut, was man gegen Bitcoin kaufen kann.
+
+143
+00:16:42,000 --> 00:16:45,000
+ Das hat sich aber noch nicht verkauft.
+
+144
+00:16:45,000 --> 00:16:51,000
+ Darf ich auch was fragen?
+
+145
+00:16:51,000 --> 00:16:57,000
+ Also mal angenommen, ich weiß, ich will jetzt hier nichts ankündigen, aber mal angenommen, wir würden, wir haben ja auch hier den Shop vorne,
+
+146
+00:16:57,000 --> 00:17:03,000
+ wir würden beim nächsten Kongress sagen wollen, wenn wir den Shop aufstellen, dann wollen wir, dass man da auch in Taler bezahlen kann.
+
+147
+00:17:03,000 --> 00:17:05,000
+ Wie würde das dann gehen?
+
+148
+00:17:05,000 --> 00:17:11,000
+ Das erste ist normalerweise, um so was im größeren Stil zu betreiben, also nicht so kleine Benutzergruppe wie an der Uni,
+
+149
+00:17:11,000 --> 00:17:17,000
+ braucht man normalerweise in den meisten Ländern der Welt eine e-Money-Issue-Lizenz oder gar eine Bankenlizenz.
+
+150
+00:17:17,000 --> 00:17:23,000
+ Das heißt, man muss erstmal ein Bankfinier-System betreiben, die dann ja auch das Konto hat für das im Umlaufende E-Geld
+
+151
+00:17:23,000 --> 00:17:26,000
+ und das dann eben aufbewahrt und dann später dem Händler überträgt,
+
+152
+00:17:26,000 --> 00:17:31,000
+ die dann auch die Verantwortung hat für die Geldwäsche und für die New Year Customer Regulation.
+
+153
+00:17:31,000 --> 00:17:35,000
+ Also bildet Banken.
+
+154
+00:17:35,000 --> 00:17:42,000
+ Na überzeugt Banken, redet mit eurer Hausbank und sagt, hey wie wäre es denn und so.
+
+155
+00:17:42,000 --> 00:17:46,000
+ Also Bildung im Sinne von Weiterbilden.
+
+156
+00:17:46,000 --> 00:17:49,000
+ Genau, genau, in diesem Sinne, bildet die Banken weiter.
+
+157
+00:17:49,000 --> 00:17:57,000
+ Und dann kann man eben, würde man von seinem Girokonto aus das Geld an diese Bank, die dann die Taler Exchange-Kumplette betreibt,
+
+158
+00:17:57,000 --> 00:18:01,000
+ überweisen, würde das E-Geld bekommen und dann könnte man darüber bezahlen.
+
+159
+00:18:01,000 --> 00:18:06,000
+ Es gibt auch schon zum Beispiel eine Integration in das Predix-System, was sie alle für den Ticketverkauf genutzt hat.
+
+160
+00:18:06,000 --> 00:18:11,000
+ Da gibt es bereits ein Taler-Plugin für, was von den Predix-Leuten entwickelt wurde.
+
+161
+00:18:11,000 --> 00:18:14,000
+ Das heißt, das bräuchte man dann einfach nur als Konfigurationsoption aktivieren.
+
+162
+00:18:14,000 --> 00:18:17,000
+ Es gibt Plugins für Hukommerce, es gibt Plugins für Joomla.
+
+163
+00:18:17,000 --> 00:18:20,000
+ Es gibt also schon verschiedene Integration, die existieren.
+
+164
+00:18:20,000 --> 00:18:23,000
+ Wenn ihr weitere schreiben wollt, meldet euch bei NL-NET.
+
+165
+00:18:23,000 --> 00:18:25,000
+ Die haben da so ein NL-NET-Streckstrich "Propose".
+
+166
+00:18:25,000 --> 00:18:29,000
+ Da kann man Anträge stellen, gegebenenfalls auch Fördergelder bekommen für sowas.
+
+167
+00:18:29,000 --> 00:18:32,000
+ Also, wir müssen es natürlich überall integrieren.
+
+168
+00:18:32,000 --> 00:18:37,000
+ Und dann, wenn eine Bank das dann annimmt, dann kann man dann auch seine Kongresstickets damit kaufen.
+
+169
+00:18:37,000 --> 00:18:42,000
+ Und wie läuft euer kleiner Testfall bisher an der Fachschule?
+
+170
+00:18:42,000 --> 00:18:45,000
+ Etwas schleppend, muss ich sagen.
+
+171
+00:18:45,000 --> 00:18:48,000
+ Das Problem war, es gibt erst seit ganz neuestem das iOS-Wolle.
+
+172
+00:18:48,000 --> 00:18:52,000
+ Das haben wir hier für den Kongress erstmal in begrenztem Umfang verfügbar gemacht.
+
+173
+00:18:52,000 --> 00:18:55,600
+ Und in der Schweiz haben verdammt viele Leute so ein iOS-Telefon.
+
+174
+00:18:55,600 --> 00:19:02,040
+ Und daher, größter Teil der Benutzerbasis gibt es das für iOS?
+
+175
+00:19:02,040 --> 00:19:03,160
+ Nö.
+
+176
+00:19:03,160 --> 00:19:06,760
+ Ja, das wird sich sehr schnell erinnern,
+
+177
+00:19:06,760 --> 00:19:09,520
+ sobald wir das aus der Beta im iOS raushaben,
+
+178
+00:19:09,520 --> 00:19:11,960
+ dass mehr Studierenden es nutzen können,
+
+179
+00:19:11,960 --> 00:19:14,160
+ weil sie das richtige Telefon haben.
+
+180
+00:19:14,160 --> 00:19:19,920
+ Ich höre raus, ihr habt vor, das noch für sehr viele Fälle einzusetzen.
+
+181
+00:19:20,040 --> 00:19:24,520
+ Der nächste Fall ist, dass wir es in Basel deployen als Regionalwährung.
+
+182
+00:19:24,520 --> 00:19:26,640
+ Da werden dann circa 70 Läden
+
+183
+00:19:26,640 --> 00:19:29,720
+ nehmen bisher das physische Regionalwährungsgeld an.
+
+184
+00:19:29,720 --> 00:19:32,000
+ Der Plan ist, die zu konvertieren,
+
+185
+00:19:32,000 --> 00:19:35,120
+ dass sie auch das Elektronische annehmen werden.
+
+186
+00:19:35,120 --> 00:19:39,520
+ Aber wir hatten jetzt eben Fälle, über die wir gesprochen haben,
+
+187
+00:19:39,520 --> 00:19:42,840
+ die ja eher Online-Fälle sind.
+
+188
+00:19:42,840 --> 00:19:47,880
+ Siehst du denn einen Vorteil für Läden, die vor Ort in Basel sind?
+
+189
+00:19:49,200 --> 00:19:52,880
+ Worin besteht für die der Vorteil, wenn sie Taler nehmen?
+
+190
+00:19:52,880 --> 00:19:56,960
+ Der Vorteil für Netzbonden besteht erst mal darin,
+
+191
+00:19:56,960 --> 00:19:59,920
+ die haben ein Problem, ihr Geldschein zu drucken.
+
+192
+00:19:59,920 --> 00:20:03,240
+ Die haben immer eine begrenzte Menge an Geldscheinen.
+
+193
+00:20:03,240 --> 00:20:06,040
+ Geldscheindrucken ist nicht ganz so einfach.
+
+194
+00:20:06,040 --> 00:20:08,560
+ Dann haben sie ihr Umlaufvolumen erreicht
+
+195
+00:20:08,560 --> 00:20:12,960
+ und man kann nicht mehr im Umlauf bringen, weil man mehr drucken müsste.
+
+196
+00:20:12,960 --> 00:20:16,440
+ Druckkosten versus Krypto ist ein Problem für den Verein.
+
+197
+00:20:16,560 --> 00:20:20,360
+ Der andere Vorteil ist natürlich, dass die Läden durchaus sehen,
+
+198
+00:20:20,360 --> 00:20:23,080
+ dass die Kunden gerne elektronisch bezahlen.
+
+199
+00:20:23,080 --> 00:20:25,680
+ Und jetzt hier mehrere Regionalwährungen
+
+200
+00:20:25,680 --> 00:20:30,080
+ im Portemonnaie zu haben, ist schwieriger als ein elektronisches Portemonnaie.
+
+201
+00:20:30,080 --> 00:20:33,240
+ Und der Netzbauernverein möchte das Ganze auch ausweiten
+
+202
+00:20:33,240 --> 00:20:35,360
+ auf elektronisch bezahlen online.
+
+203
+00:20:35,360 --> 00:20:38,960
+ Nicht nur für wie bisher Läden, wo ich in Person hingehen möchte,
+
+204
+00:20:38,960 --> 00:20:42,800
+ sondern auch in Richtung e-Commerce, lokalen E-Commerce ausweiten,
+
+205
+00:20:42,800 --> 00:20:44,920
+ Lebensmittel, Lieferdienste usw.
+
+206
+00:20:45,040 --> 00:20:47,760
+ Weil wenn ich nur mit physischem Geld bezahlen kann,
+
+207
+00:20:47,760 --> 00:20:50,160
+ kann ich den ganzen E-Commerce vergessen.
+
+208
+00:20:50,160 --> 00:20:53,960
+ Noch mal gerade, Netzbornverein, ich hab jetzt nicht genau verstanden.
+
+209
+00:20:53,960 --> 00:20:56,440
+ Der Verein heißt Verein Soziale Ökonomie.
+
+210
+00:20:56,440 --> 00:20:59,320
+ Und die Regionalwährung ist Netzborn. - Ah, okay.
+
+211
+00:20:59,320 --> 00:21:02,960
+ Ist aber sehr witzig, ich hab mit dem Internetnetz nichts zu tun.
+
+212
+00:21:02,960 --> 00:21:05,880
+ Na ja, Vernetzung ist ja auch zwischen Menschen.
+
+213
+00:21:05,880 --> 00:21:08,880
+ Also Internet bildet es ja nur ab und ermöglicht ...
+
+214
+00:21:08,880 --> 00:21:12,320
+ Genau, also das ist ja dann quasi noch mal ein besonderer Fall.
+
+215
+00:21:12,440 --> 00:21:16,600
+ Du hast ja eben schon gesagt, man kann es an jede beliebige Währung koppeln.
+
+216
+00:21:16,600 --> 00:21:20,440
+ In diesem Fall wäre es gekoppelt an eine Regionalwährung in Basel.
+
+217
+00:21:20,440 --> 00:21:22,560
+ Genau, und der nächste Schritt ist,
+
+218
+00:21:22,560 --> 00:21:26,480
+ wir haben mit der Schweizer FINMA, der Regulierungsbehörde, gesprochen.
+
+219
+00:21:26,480 --> 00:21:29,440
+ Die haben uns gesagt, dass das System im Prinzip
+
+220
+00:21:29,440 --> 00:21:31,920
+ unter die Sandbox-Regel der Schweiz fällt.
+
+221
+00:21:31,920 --> 00:21:34,040
+ Das heißt, wir könnten das betreiben,
+
+222
+00:21:34,040 --> 00:21:37,720
+ selber ohne eine Bankenlizenz in der Schweiz, ohne Lizenz.
+
+223
+00:21:37,720 --> 00:21:40,560
+ Der Regulator sagt, ihr braucht keine Lizenz,
+
+224
+00:21:40,680 --> 00:21:43,200
+ solange ihr euch an bestimmte Auflagen haltet
+
+225
+00:21:43,200 --> 00:21:46,120
+ und weniger als eine Million Kundeinlagen verwaltet.
+
+226
+00:21:46,120 --> 00:21:48,240
+ Das ist der nächste Plan.
+
+227
+00:21:48,240 --> 00:21:51,320
+ Da sind wir dabei, die ganzen regulierenden Schritte,
+
+228
+00:21:51,320 --> 00:21:54,560
+ die wir trotzdem noch haben, ohne Bankenlizenz vorzubereiten.
+
+229
+00:21:54,560 --> 00:21:58,400
+ Wir werden dann hoffentlich in fünf, sechs Monaten in der Schweiz starten,
+
+230
+00:21:58,400 --> 00:22:00,520
+ soweit wir alle diese Regeln erfüllen.
+
+231
+00:22:00,520 --> 00:22:03,640
+ Aber das sprichst du jetzt auch von der Regionalwährung?
+
+232
+00:22:03,640 --> 00:22:06,560
+ Nein, da spreche ich von einem schweizweilen System,
+
+233
+00:22:06,560 --> 00:22:09,000
+ das dann die Taler Operations betreiben wird.
+
+234
+00:22:09,120 --> 00:22:11,120
+ Den ich, glaube ich, sagen darf.
+
+235
+00:22:11,120 --> 00:22:13,240
+ Die Wochenzeitung hat uns gesagt,
+
+236
+00:22:13,240 --> 00:22:15,920
+ sie möchten dann über Talerspenden annehmen.
+
+237
+00:22:15,920 --> 00:22:19,240
+ Cool. Also "What's", wer sie nicht kennt, ist eine coole Zeitung.
+
+238
+00:22:19,240 --> 00:22:21,360
+ Genau. (Lachen)
+
+239
+00:22:21,360 --> 00:22:23,480
+ Okay. Aber ...
+
+240
+00:22:23,480 --> 00:22:25,600
+ Das heißt also, demnächst dann auch ...
+
+241
+00:22:25,600 --> 00:22:29,400
+ ein größerer Maßstab in der Schweiz verfügbar hoffentlich?
+
+242
+00:22:29,400 --> 00:22:32,720
+ Größer im Sinne von, wir haben immer die Regeln der Sandbox,
+
+243
+00:22:32,720 --> 00:22:36,120
+ die uns beschränken, auf was für ein Volumen wir anbieten können.
+
+244
+00:22:36,120 --> 00:22:39,040
+ Aber es ist eine schöne Spielwiese für die ganzen Hacker,
+
+245
+00:22:39,080 --> 00:22:41,480
+ dass man es ausprobieren kann mit echtem Geld.
+
+246
+00:22:41,480 --> 00:22:44,120
+ Wobei Regionalwährung ist ja auch vielleicht ...
+
+247
+00:22:44,120 --> 00:22:46,840
+ Du meinst, "Zerforschung wetzt schon die Messer"?
+
+248
+00:22:46,840 --> 00:22:50,760
+ Aber noch mal zurück zu meiner Frage von vorhin.
+
+249
+00:22:50,760 --> 00:22:55,120
+ Also, wenn ich jetzt einen Laden habe, ein Geschäft vor Ort,
+
+250
+00:22:55,120 --> 00:22:58,400
+ siehst du irgendeinen Vorteil, den ich habe,
+
+251
+00:22:58,400 --> 00:23:02,880
+ wenn ich auch Gnu-Taler als Bezahlsystem anbiete?
+
+252
+00:23:02,880 --> 00:23:05,000
+ Oder siehst du die Vorteile ...
+
+253
+00:23:05,000 --> 00:23:08,000
+ Ich bin normalerweise ein großer Verfechter von Bargeld.
+
+254
+00:23:08,120 --> 00:23:10,120
+ Wenn dir die Kunden mit Bargeld kommen,
+
+255
+00:23:10,120 --> 00:23:13,440
+ solltest du die nicht wegscheuchen und sagen, "Nu lieber Taler".
+
+256
+00:23:13,440 --> 00:23:16,960
+ Aber wenn dir die Kunden kommen mit Mastercard, Visa Card,
+
+257
+00:23:16,960 --> 00:23:19,280
+ wo du zwei, drei Prozent Gebühren bezahlst
+
+258
+00:23:19,280 --> 00:23:21,400
+ und nicht freies Software machst
+
+259
+00:23:21,400 --> 00:23:24,360
+ und du musst dann noch PCI DSS über dich ergehen lassen,
+
+260
+00:23:24,360 --> 00:23:26,480
+ das heißt, diese Sicherheitschecks,
+
+261
+00:23:26,480 --> 00:23:29,080
+ dass du die Kreditkarten auch richtig verwaltest,
+
+262
+00:23:29,080 --> 00:23:32,200
+ du musst den Sign-Up machen, teure Automaten kaufen usw.,
+
+263
+00:23:32,200 --> 00:23:34,320
+ das kann Kunden kosten sparen.
+
+264
+00:23:34,320 --> 00:23:37,240
+ Im Vergleich zu anderen elektronischen Bezahlsystemen
+
+265
+00:23:37,360 --> 00:23:39,360
+ gibt es auch Vorteile als Händler.
+
+266
+00:23:39,360 --> 00:23:42,680
+ Ja, und das ist ja heute schon ein Vorteil für einen Händler,
+
+267
+00:23:42,680 --> 00:23:46,480
+ wenn ich eben die Möglichkeit hab, dass man auch mit Karte zahlen kann.
+
+268
+00:23:46,480 --> 00:23:49,800
+ Weil viele ja gar nicht mehr so viel Bargeld mit sich führen.
+
+269
+00:23:49,800 --> 00:23:52,720
+ Und das ist eben genau der Moment, wo man sagen kann,
+
+270
+00:23:52,720 --> 00:23:56,000
+ ja, aber jetzt kannst du auch mit digitalem Bargeld zahlen.
+
+271
+00:23:56,000 --> 00:23:58,280
+ Und was die Kundinnen und Kunden froh macht,
+
+272
+00:23:58,280 --> 00:24:00,400
+ macht den Händler froh. Oder?
+
+273
+00:24:00,400 --> 00:24:03,640
+ Ja, und was man sagen muss bei den Kosten für Kreditkarten,
+
+274
+00:24:03,640 --> 00:24:06,880
+ wurde eben von jemandem hier gesagt, das ist Finalitätsproblem.
+
+275
+00:24:07,000 --> 00:24:09,000
+ Der Händler zahlt mit Kreditkarte.
+
+276
+00:24:09,000 --> 00:24:11,960
+ Und dann kommt irgendwann das System daher und sagt,
+
+277
+00:24:11,960 --> 00:24:14,280
+ ja, aber das war eine falsche Transaktion,
+
+278
+00:24:14,280 --> 00:24:17,120
+ war nicht autorisiert vom Kunden, wird zurückgebucht,
+
+279
+00:24:17,120 --> 00:24:20,280
+ da muss er jetzt hinten noch eine Strafgebühr zahlen usw.
+
+280
+00:24:20,280 --> 00:24:22,720
+ Also es ist bei der Kreditkarte nicht final.
+
+281
+00:24:22,720 --> 00:24:25,800
+ Und ich habe gegebenenfalls noch hohe Kosten nachhinein.
+
+282
+00:24:25,800 --> 00:24:29,440
+ Auch das gibt es bei uns nicht, jede Transaktion ist sofort final.
+
+283
+00:24:29,440 --> 00:24:31,560
+ Was kostet denn ein Taler?
+
+284
+00:24:31,560 --> 00:24:34,160
+ Also, weil da steckt ja auch Betrieb hinter.
+
+285
+00:24:34,280 --> 00:24:38,040
+ Die Kreditkarten, die Betriebskosten, die Betriebskosten, die Betrachter,
+
+286
+00:24:38,040 --> 00:24:41,120
+ die Betrachter, etc., die müssen ja auch Geld einnehmen,
+
+287
+00:24:41,120 --> 00:24:44,520
+ damit sie existieren können. Das wird doch Taler betreffen.
+
+288
+00:24:44,520 --> 00:24:46,640
+ Ja, also was wir haben gemacht,
+
+289
+00:24:46,640 --> 00:24:49,240
+ auf der einen Seite sind die technischen Kosten.
+
+290
+00:24:49,240 --> 00:24:51,360
+ Da haben wir versucht zu messen,
+
+291
+00:24:51,360 --> 00:24:54,120
+ was eine Transaktion an Stromverbrauch, Bandbreite,
+
+292
+00:24:54,120 --> 00:24:56,240
+ CPU, Speicherplatz usw. kostet.
+
+293
+00:24:56,240 --> 00:25:00,080
+ Da sind wir pro Transaktion bei einem Tausendstel von einem Cent gelandet.
+
+294
+00:25:00,080 --> 00:25:02,960
+ Ist aber ein bisschen schwer, das genau zu berechnen,
+
+295
+00:25:03,080 --> 00:25:05,080
+ was wir immer haben usw.
+
+296
+00:25:05,080 --> 00:25:08,400
+ Da kann man auf der einen Seite sagen, das regelt der Markt.
+
+297
+00:25:08,400 --> 00:25:10,840
+ Wir werden natürlich kompetitiv sein wollen,
+
+298
+00:25:10,840 --> 00:25:12,960
+ dass die Händler zu uns wechseln.
+
+299
+00:25:12,960 --> 00:25:15,080
+ Und es ist eben freisoffe, das heißt,
+
+300
+00:25:15,080 --> 00:25:17,680
+ wenn ein Betreiber extrem hohe Preise verlangt,
+
+301
+00:25:17,680 --> 00:25:20,280
+ bei Visa kann ich nicht auf ein Visa 2 wechseln.
+
+302
+00:25:20,280 --> 00:25:22,880
+ Bei Taler kann irgendeine andere Bank sagen,
+
+303
+00:25:22,880 --> 00:25:26,200
+ ich betreibe das System auch und kann in Konkurrenz treten.
+
+304
+00:25:26,200 --> 00:25:29,400
+ Das heißt, wir haben da mal nicht das technische Monopol,
+
+305
+00:25:29,400 --> 00:25:31,520
+ was dann Gewinnabschöpfung betreibt.
+
+306
+00:25:31,640 --> 00:25:34,280
+ Das sind natürlich schwierige technische Kosten.
+
+307
+00:25:34,280 --> 00:25:36,680
+ Bei Visa gibt es ja auch die Kosten für,
+
+308
+00:25:36,680 --> 00:25:38,800
+ ich muss eine neue Karte ausstellen,
+
+309
+00:25:38,800 --> 00:25:41,920
+ der Kunde sagt, die Transaktion habe ich nicht gemacht.
+
+310
+00:25:41,920 --> 00:25:44,640
+ Da das bei uns kryptographisch gesichert wird
+
+311
+00:25:44,640 --> 00:25:47,760
+ und nicht auf der Identifizierung des Kunden basiert,
+
+312
+00:25:47,760 --> 00:25:51,480
+ ich brauche den Kunden bei der Transaktion nicht identifizieren.
+
+313
+00:25:51,480 --> 00:25:53,600
+ Das ist ja was Hartes.
+
+314
+00:25:53,600 --> 00:25:57,440
+ Es gab eine kryptographische Signatur, die sagt, das ist in Ordnung.
+
+315
+00:25:57,440 --> 00:26:00,600
+ Die zu verifizieren, ist total einfach für uns Techniker.
+
+316
+00:26:00,720 --> 00:26:03,600
+ Wir haben eine Pause geprüft, die Signatur geprüft,
+
+317
+00:26:03,600 --> 00:26:05,720
+ da hat die PIN gekannt und so weiter.
+
+318
+00:26:05,720 --> 00:26:08,840
+ Das ist für uns als Benutzer auch nicht das zu machen.
+
+319
+00:26:08,840 --> 00:26:10,960
+ Und trotzdem fehleranfällig.
+
+320
+00:26:10,960 --> 00:26:14,560
+ Dadurch entstehen auch Kosten für diese bestehenden Systeme,
+
+321
+00:26:14,560 --> 00:26:16,880
+ dass immer mal wieder ein Kunde sagt,
+
+322
+00:26:16,880 --> 00:26:19,400
+ die Transaktion habe ich nicht autorisiert.
+
+323
+00:26:19,400 --> 00:26:21,520
+ Nur die Beschwerde, die Rückabwicklung,
+
+324
+00:26:21,520 --> 00:26:24,120
+ das sind auch Kosten, die bei uns wegfallen.
+
+325
+00:26:24,120 --> 00:26:26,240
+ Bei uns fallen viele Kosten weg,
+
+326
+00:26:26,240 --> 00:26:29,360
+ die technischen Transaktionskosten sind extrem niedrig
+
+327
+00:26:29,480 --> 00:26:32,480
+ und wir müssen nicht nur die Kostüme laufen, weg ist weg.
+
+328
+00:26:32,480 --> 00:26:34,600
+ Wie bei Bargeld.
+
+329
+00:26:34,600 --> 00:26:38,320
+ Ich habe mein Bargeld verloren, Beschwerden werden nicht angenommen.
+
+330
+00:26:38,320 --> 00:26:40,440
+ Klar, natürlich, ist billiger.
+
+331
+00:26:40,440 --> 00:26:42,560
+ Hast du das Gefühl, dass das gut ...
+
+332
+00:26:42,560 --> 00:26:45,680
+ Solche neuen Bezahlensysteme haben ja dann auch immer
+
+333
+00:26:45,680 --> 00:26:47,800
+ was mit Vertrauen zu tun.
+
+334
+00:26:47,800 --> 00:26:51,920
+ Man muss dann auch gut vermitteln können, warum sowohl Kund*innen
+
+335
+00:26:51,920 --> 00:26:55,040
+ als auch die Ladengeschäfte und alle anderen,
+
+336
+00:26:55,040 --> 00:26:57,160
+ die daran teilnehmen sollen,
+
+337
+00:26:57,280 --> 00:27:01,280
+ aber auch die Banken, mit denen ihr zusammenarbeiten würdet.
+
+338
+00:27:01,280 --> 00:27:03,400
+ Was ist da dein Eindruck?
+
+339
+00:27:03,400 --> 00:27:09,520
+ Wo gibt es da auch vielleicht noch Überzeugungsaufwand zu leisten?
+
+340
+00:27:09,520 --> 00:27:13,640
+ Ich denke sicherlich, wenn man das in der Sandbox betreibt,
+
+341
+00:27:13,640 --> 00:27:17,760
+ ist das so das größte Problem, was man sagt, den Leuten sagen muss,
+
+342
+00:27:17,760 --> 00:27:19,880
+ wir sind nicht so richtig reguliert.
+
+343
+00:27:19,880 --> 00:27:24,000
+ Das weckt sofort Vertrauen, auch wenn man es ordentlich betreibt.
+
+344
+00:27:24,120 --> 00:27:28,120
+ Das ist der Idealfall, dass eine kleine Bank wie die EZB
+
+345
+00:27:28,120 --> 00:27:30,240
+ das System einführen würde.
+
+346
+00:27:30,240 --> 00:27:33,360
+ Wenn die mit dem Euro Schmutz treibt, ist eh vorbei.
+
+347
+00:27:33,360 --> 00:27:35,480
+ Aber das steht jetzt nicht zu erwarten.
+
+348
+00:27:35,480 --> 00:27:39,600
+ Ich glaube, die EZB muss erst mal ein bisschen Lehrgeld zahlen.
+
+349
+00:27:39,600 --> 00:27:43,720
+ Da habt ihr den Vortrag von Thomas Lohninger gesehen.
+
+350
+00:27:43,720 --> 00:27:47,840
+ Insofern ist es natürlich gut, wenn man mit einer Bank zusammenarbeitet,
+
+351
+00:27:47,840 --> 00:27:51,960
+ die eine gute Reputation hat, dass sie es auch ordentlich macht.
+
+352
+00:27:52,080 --> 00:27:56,080
+ Die andere Seite ist aber auch, wir sind freie Software.
+
+353
+00:27:56,080 --> 00:27:58,200
+ Ihr könnt euch allerdings gut angucken.
+
+354
+00:27:58,200 --> 00:28:02,320
+ Ich hoffe, ihr macht Responsible Disclosure von irgendwelchen Problemen.
+
+355
+00:28:02,320 --> 00:28:05,440
+ Aber zumindest könnt ihr euch davon überzeugen,
+
+356
+00:28:05,440 --> 00:28:09,560
+ dass es nicht so leicht ist und dass die Software ordentlich geschrieben ist.
+
+357
+00:28:09,560 --> 00:28:12,680
+ Also wenn man es in unseren Anforderungskatalog,
+
+358
+00:28:12,680 --> 00:28:15,800
+ wir haben festgestellt, bestehende Kryptowährungen
+
+359
+00:28:15,800 --> 00:28:19,920
+ erfüllen die von uns aufgestellten Anforderungen nicht.
+
+360
+00:28:20,040 --> 00:28:23,040
+ Und das ist jetzt auch ein ganz besonderer Punkt.
+
+361
+00:28:23,040 --> 00:28:25,160
+ Das ist ein ganz besonderer Punkt.
+
+362
+00:28:25,160 --> 00:28:27,280
+ Das ist ein ganz besonderer Punkt.
+
+363
+00:28:27,280 --> 00:28:29,400
+ Das ist ein ganz besonderer Punkt.
+
+364
+00:28:29,400 --> 00:28:31,520
+ Das ist ein ganz besonderer Punkt.
+
+365
+00:28:31,520 --> 00:28:33,640
+ Das ist ein ganz besonderer Punkt.
+
+366
+00:28:33,640 --> 00:28:35,760
+ Das ist ein ganz besonderer Punkt.
+
+367
+00:28:35,760 --> 00:28:37,880
+ Das ist ein ganz besonderer Punkt.
+
+368
+00:28:37,880 --> 00:28:40,000
+ Das ist ein ganz besonderer Punkt.
+
+369
+00:28:40,000 --> 00:28:42,120
+ Das ist ein ganz besonderer Punkt.
+
+370
+00:28:42,120 --> 00:28:44,240
+ Das ist ein ganz besonderer Punkt.
+
+371
+00:28:44,240 --> 00:28:46,360
+ Das ist ein ganz besonderer Punkt.
+
+372
+00:28:46,360 --> 00:28:48,480
+ Das ist ein ganz besonderer Punkt.
+
+373
+00:28:48,600 --> 00:28:50,600
+ Das ist ein ganz besonderer Punkt.
+
+374
+00:28:50,600 --> 00:28:52,720
+ Das ist ein ganz besonderer Punkt.
+
+375
+00:28:52,720 --> 00:28:54,840
+ Das ist ein ganz besonderer Punkt.
+
+376
+00:28:54,840 --> 00:28:56,960
+ Das ist ein ganz besonderer Punkt.
+
+377
+00:28:56,960 --> 00:28:59,080
+ Das ist ein ganz besonderer Punkt.
+
+378
+00:28:59,080 --> 00:29:01,200
+ Das ist ein ganz besonderer Punkt.
+
+379
+00:29:01,200 --> 00:29:03,320
+ Das ist ein ganz besonderer Punkt.
+
+380
+00:29:03,320 --> 00:29:05,440
+ Das ist ein ganz besonderer Punkt.
+
+381
+00:29:05,440 --> 00:29:07,560
+ Das ist ein ganz besonderer Punkt.
+
+382
+00:29:07,560 --> 00:29:09,680
+ Das ist ein ganz besonderer Punkt.
+
+383
+00:29:09,680 --> 00:29:11,800
+ Das ist ein ganz besonderer Punkt.
+
+384
+00:29:11,800 --> 00:29:13,920
+ Das ist ein ganz besonderer Punkt.
+
+385
+00:29:13,920 --> 00:29:16,040
+ Das ist ein ganz besonderer Punkt.
+
+386
+00:29:16,040 --> 00:29:18,160
+ Das ist ein ganz besonderer Punkt.
+
+387
+00:29:18,280 --> 00:29:20,280
+ Das ist ein ganz besonderer Punkt.
+
+388
+00:29:20,280 --> 00:29:22,400
+ Das ist ein ganz besonderer Punkt.
+
+389
+00:29:22,400 --> 00:29:24,520
+ Das ist ein ganz besonderer Punkt.
+
+390
+00:29:24,520 --> 00:29:26,640
+ Das ist ein ganz besonderer Punkt.
+
+391
+00:29:26,640 --> 00:29:28,760
+ Das ist ein ganz besonderer Punkt.
+
+392
+00:29:28,760 --> 00:29:30,880
+ Das ist ein ganz besonderer Punkt.
+
+393
+00:29:30,880 --> 00:29:33,000
+ Das ist ein ganz besonderer Punkt.
+
+394
+00:29:33,000 --> 00:29:35,120
+ Das ist ein ganz besonderer Punkt.
+
+395
+00:29:35,120 --> 00:29:37,240
+ Das ist ein ganz besonderer Punkt.
+
+396
+00:29:37,240 --> 00:29:39,360
+ Das ist ein ganz besonderer Punkt.
+
+397
+00:29:39,360 --> 00:29:41,480
+ Das ist ein ganz besonderer Punkt.
+
+398
+00:29:41,480 --> 00:29:43,600
+ Das ist ein ganz besonderer Punkt.
+
+399
+00:29:43,600 --> 00:29:45,720
+ Das ist ein ganz besonderer Punkt.
+
+400
+00:29:45,720 --> 00:29:47,840
+ Das ist ein ganz besonderer Punkt.
+
+401
+00:29:47,960 --> 00:29:49,960
+ Das ist ein ganz besonderer Punkt.
+
+402
+00:29:49,960 --> 00:29:52,080
+ Das ist ein ganz besonderer Punkt.
+
+403
+00:29:52,080 --> 00:29:54,200
+ Das ist ein ganz besonderer Punkt.
+
+404
+00:29:54,200 --> 00:29:56,320
+ Das ist ein ganz besonderer Punkt.
+
+405
+00:29:56,320 --> 00:29:58,440
+ Das ist ein ganz besonderer Punkt.
+
+406
+00:29:58,440 --> 00:30:00,560
+ Das ist ein ganz besonderer Punkt.
+
+407
+00:30:00,560 --> 00:30:02,680
+ Das ist ein ganz besonderer Punkt.
+
+408
+00:30:02,680 --> 00:30:04,800
+ Das ist ein ganz besonderer Punkt.
+
+409
+00:30:04,800 --> 00:30:06,920
+ Das ist ein ganz besonderer Punkt.
+
+410
+00:30:06,920 --> 00:30:09,040
+ Das ist ein ganz besonderer Punkt.
+
+411
+00:30:09,040 --> 00:30:11,160
+ Das ist ein ganz besonderer Punkt.
+
+412
+00:30:11,160 --> 00:30:13,280
+ Das ist ein ganz besonderer Punkt.
+
+413
+00:30:13,280 --> 00:30:15,400
+ Das ist ein ganz besonderer Punkt.
+
+414
+00:30:15,400 --> 00:30:17,520
+ Das ist ein ganz besonderer Punkt.
+
+415
+00:30:17,640 --> 00:30:19,640
+ Das ist ein ganz besonderer Punkt.
+
+416
+00:30:19,640 --> 00:30:21,760
+ Das ist ein ganz besonderer Punkt.
+
+417
+00:30:21,760 --> 00:30:23,880
+ Das ist ein ganz besonderer Punkt.
+
+418
+00:30:23,880 --> 00:30:26,000
+ Das ist ein ganz besonderer Punkt.
+
+419
+00:30:26,000 --> 00:30:28,120
+ Das ist ein ganz besonderer Punkt.
+
+420
+00:30:28,120 --> 00:30:30,240
+ Das ist ein ganz besonderer Punkt.
+
+421
+00:30:30,240 --> 00:30:32,360
+ Das ist ein ganz besonderer Punkt.
+
+422
+00:30:32,360 --> 00:30:34,480
+ Das ist ein ganz besonderer Punkt.
+
+423
+00:30:34,480 --> 00:30:36,600
+ Das ist ein ganz besonderer Punkt.
+
+424
+00:30:36,600 --> 00:30:38,720
+ Das ist ein ganz besonderer Punkt.
+
+425
+00:30:38,720 --> 00:30:40,840
+ Das ist ein ganz besonderer Punkt.
+
+426
+00:30:40,840 --> 00:30:42,960
+ Das ist ein ganz besonderer Punkt.
+
+427
+00:30:42,960 --> 00:30:45,080
+ Das ist ein ganz besonderer Punkt.
+
+428
+00:30:45,080 --> 00:30:47,200
+ Das ist ein ganz besonderer Punkt.
+
+429
+00:30:47,320 --> 00:30:49,320
+ Das ist ein ganz besonderer Punkt.
+
+430
+00:30:49,320 --> 00:30:51,440
+ Das ist ein ganz besonderer Punkt.
+
+431
+00:30:51,440 --> 00:30:53,560
+ Das ist ein ganz besonderer Punkt.
+
+432
+00:30:53,560 --> 00:30:55,680
+ Das ist ein ganz besonderer Punkt.
+
+433
+00:30:55,680 --> 00:30:57,800
+ Das ist ein ganz besonderer Punkt.
+
+434
+00:30:57,800 --> 00:30:59,920
+ Das ist ein ganz besonderer Punkt.
+
+435
+00:30:59,920 --> 00:31:02,040
+ Das ist ein ganz besonderer Punkt.
+
+436
+00:31:02,040 --> 00:31:04,160
+ Das ist ein ganz besonderer Punkt.
+
+437
+00:31:04,160 --> 00:31:06,280
+ Das ist ein ganz besonderer Punkt.
+
+438
+00:31:06,280 --> 00:31:08,400
+ Das ist ein ganz besonderer Punkt.
+
+439
+00:31:08,400 --> 00:31:10,520
+ Das ist ein ganz besonderer Punkt.
+
+440
+00:31:10,520 --> 00:31:12,640
+ Das ist ein ganz besonderer Punkt.
+
+441
+00:31:12,640 --> 00:31:14,760
+ Das ist ein ganz besonderer Punkt.
+
+442
+00:31:14,760 --> 00:31:16,880
+ Das ist ein ganz besonderer Punkt.
+
+443
+00:31:17,000 --> 00:31:19,000
+ Das ist ein ganz besonderer Punkt.
+
+444
+00:31:19,000 --> 00:31:21,120
+ Das ist ein ganz besonderer Punkt.
+
+445
+00:31:21,120 --> 00:31:23,240
+ Das ist ein ganz besonderer Punkt.
+
+446
+00:31:23,240 --> 00:31:25,360
+ Das ist ein ganz besonderer Punkt.
+
+447
+00:31:25,360 --> 00:31:27,480
+ Das ist ein ganz besonderer Punkt.
+
+448
+00:31:27,480 --> 00:31:29,600
+ Das ist ein ganz besonderer Punkt.
+
+449
+00:31:29,600 --> 00:31:31,720
+ Das ist ein ganz besonderer Punkt.
+
+450
+00:31:31,720 --> 00:31:33,840
+ Das ist ein ganz besonderer Punkt.
+
+451
+00:31:33,840 --> 00:31:35,960
+ Das ist ein ganz besonderer Punkt.
+
+452
+00:31:35,960 --> 00:31:38,080
+ Das ist ein ganz besonderer Punkt.
+
+453
+00:31:38,080 --> 00:31:40,200
+ Das ist ein ganz besonderer Punkt.
+
+454
+00:31:40,200 --> 00:31:42,320
+ Das ist ein ganz besonderer Punkt.
+
+455
+00:31:42,320 --> 00:31:44,440
+ Das ist ein ganz besonderer Punkt.
+
+456
+00:31:44,440 --> 00:31:46,560
+ Das ist ein ganz besonderer Punkt.
+
+457
+00:31:46,680 --> 00:31:48,680
+ Das ist ein ganz besonderer Punkt.
+
+458
+00:31:48,680 --> 00:31:50,800
+ Das ist ein ganz besonderer Punkt.
+
+459
+00:31:50,800 --> 00:31:52,920
+ Das ist ein ganz besonderer Punkt.
+
+460
+00:31:52,920 --> 00:31:55,040
+ Das ist ein ganz besonderer Punkt.
+
+461
+00:31:55,040 --> 00:31:57,160
+ Das ist ein ganz besonderer Punkt.
+
+462
+00:31:57,160 --> 00:31:59,280
+ Das ist ein ganz besonderer Punkt.
+
+463
+00:31:59,280 --> 00:32:01,400
+ Das ist ein ganz besonderer Punkt.
+
+464
+00:32:01,400 --> 00:32:03,520
+ Das ist ein ganz besonderer Punkt.
+
+465
+00:32:03,520 --> 00:32:05,640
+ Das ist ein ganz besonderer Punkt.
+
+466
+00:32:05,640 --> 00:32:07,760
+ Das ist ein ganz besonderer Punkt.
+
+467
+00:32:07,760 --> 00:32:09,880
+ Das ist ein ganz besonderer Punkt.
+
+468
+00:32:09,880 --> 00:32:12,000
+ Das ist ein ganz besonderer Punkt.
+
+469
+00:32:12,000 --> 00:32:14,120
+ Das ist ein ganz besonderer Punkt.
+
+470
+00:32:14,120 --> 00:32:16,240
+ Das ist ein ganz besonderer Punkt.
+
+471
+00:32:16,360 --> 00:32:18,360
+ Das ist ein ganz besonderer Punkt.
+
+472
+00:32:18,360 --> 00:32:20,480
+ Das ist ein ganz besonderer Punkt.
+
+473
+00:32:20,480 --> 00:32:22,600
+ Das ist ein ganz besonderer Punkt.
+
+474
+00:32:22,600 --> 00:32:24,720
+ Das ist ein ganz besonderer Punkt.
+
+475
+00:32:24,720 --> 00:32:26,840
+ Das ist ein ganz besonderer Punkt.
+
+476
+00:32:26,840 --> 00:32:28,960
+ Das ist ein ganz besonderer Punkt.
+
+477
+00:32:28,960 --> 00:32:31,080
+ Das ist ein ganz besonderer Punkt.
+
+478
+00:32:31,080 --> 00:32:33,200
+ Das ist ein ganz besonderer Punkt.
+
+479
+00:32:33,200 --> 00:32:35,320
+ Das ist ein ganz besonderer Punkt.
+
+480
+00:32:35,320 --> 00:32:37,440
+ Das ist ein ganz besonderer Punkt.
+
+481
+00:32:37,440 --> 00:32:39,560
+ Das ist ein ganz besonderer Punkt.
+
+482
+00:32:39,560 --> 00:32:41,680
+ Das ist ein ganz besonderer Punkt.
+
+483
+00:32:41,680 --> 00:32:43,800
+ Das ist ein ganz besonderer Punkt.
+
+484
+00:32:43,800 --> 00:32:45,920
+ Das ist ein ganz besonderer Punkt.
+
+485
+00:32:46,040 --> 00:32:48,040
+ Das ist ein ganz besonderer Punkt.
+
+486
+00:32:48,040 --> 00:32:50,160
+ Das ist ein ganz besonderer Punkt.
+
+487
+00:32:50,160 --> 00:32:52,280
+ Das ist ein ganz besonderer Punkt.
+
+488
+00:32:52,280 --> 00:32:54,400
+ Das ist ein ganz besonderer Punkt.
+
+489
+00:32:54,400 --> 00:32:56,520
+ Das ist ein ganz besonderer Punkt.
+
+490
+00:32:56,520 --> 00:32:58,640
+ Das ist ein ganz besonderer Punkt.
+
+491
+00:32:58,640 --> 00:33:00,760
+ Das ist ein ganz besonderer Punkt.
+
+492
+00:33:00,760 --> 00:33:02,880
+ Das ist ein ganz besonderer Punkt.
+
+493
+00:33:02,880 --> 00:33:05,000
+ Das ist ein ganz besonderer Punkt.
+
+494
+00:33:05,000 --> 00:33:07,120
+ Das ist ein ganz besonderer Punkt.
+
+495
+00:33:07,120 --> 00:33:09,240
+ Das ist ein ganz besonderer Punkt.
+
+496
+00:33:09,240 --> 00:33:11,360
+ Das ist ein ganz besonderer Punkt.
+
+497
+00:33:11,360 --> 00:33:13,480
+ Das ist ein ganz besonderer Punkt.
+
+498
+00:33:13,480 --> 00:33:15,600
+ Das ist ein ganz besonderer Punkt.
+
+499
+00:33:15,720 --> 00:33:17,720
+ Das ist ein ganz besonderer Punkt.
+
+500
+00:33:17,720 --> 00:33:19,840
+ Das ist ein ganz besonderer Punkt.
+
+501
+00:33:19,840 --> 00:33:21,960
+ Das ist ein ganz besonderer Punkt.
+
+502
+00:33:21,960 --> 00:33:24,080
+ Das ist ein ganz besonderer Punkt.
+
+503
+00:33:24,080 --> 00:33:26,200
+ Das ist ein ganz besonderer Punkt.
+
+504
+00:33:26,200 --> 00:33:28,320
+ Das ist ein ganz besonderer Punkt.
+
+505
+00:33:28,320 --> 00:33:30,440
+ Das ist ein ganz besonderer Punkt.
+
+506
+00:33:30,440 --> 00:33:32,560
+ Das ist ein ganz besonderer Punkt.
+
+507
+00:33:32,560 --> 00:33:34,680
+ Das ist ein ganz besonderer Punkt.
+
+508
+00:33:34,680 --> 00:33:36,800
+ Das ist ein ganz besonderer Punkt.
+
+509
+00:33:36,800 --> 00:33:38,920
+ Das ist ein ganz besonderer Punkt.
+
+510
+00:33:38,920 --> 00:33:41,040
+ Das ist ein ganz besonderer Punkt.
+
+511
+00:33:41,040 --> 00:33:43,160
+ Das ist ein ganz besonderer Punkt.
+
+512
+00:33:43,160 --> 00:33:45,280
+ Das ist ein ganz besonderer Punkt.
+
+513
+00:33:45,400 --> 00:33:47,400
+ Das ist ein ganz besonderer Punkt.
+
+514
+00:33:47,400 --> 00:33:49,520
+ Das ist ein ganz besonderer Punkt.
+
+515
+00:33:49,520 --> 00:33:51,640
+ Das ist ein ganz besonderer Punkt.
+
+516
+00:33:51,640 --> 00:33:53,760
+ Das ist ein ganz besonderer Punkt.
+
+517
+00:33:53,760 --> 00:33:55,880
+ Das ist ein ganz besonderer Punkt.
+
+518
+00:33:55,880 --> 00:33:58,000
+ Das ist ein ganz besonderer Punkt.
+
+519
+00:33:58,000 --> 00:34:00,120
+ Das ist ein ganz besonderer Punkt.
+
+520
+00:34:00,120 --> 00:34:02,240
+ Das ist ein ganz besonderer Punkt.
+
+521
+00:34:02,240 --> 00:34:04,360
+ Das ist ein ganz besonderer Punkt.
+
+522
+00:34:04,360 --> 00:34:06,480
+ Das ist ein ganz besonderer Punkt.
+
+523
+00:34:06,480 --> 00:34:08,600
+ Das ist ein ganz besonderer Punkt.
+
+524
+00:34:08,600 --> 00:34:10,720
+ Das ist ein ganz besonderer Punkt.
+
+525
+00:34:10,720 --> 00:34:12,840
+ Das ist ein ganz besonderer Punkt.
+
+526
+00:34:12,840 --> 00:34:14,960
+ Das ist ein ganz besonderer Punkt.
+
+527
+00:34:15,080 --> 00:34:17,080
+ Das ist ein ganz besonderer Punkt.
+
+528
+00:34:17,080 --> 00:34:19,200
+ Das ist ein ganz besonderer Punkt.
+
+529
+00:34:19,200 --> 00:34:21,320
+ Das ist ein ganz besonderer Punkt.
+
+530
+00:34:21,320 --> 00:34:23,440
+ Das ist ein ganz besonderer Punkt.
+
+531
+00:34:23,440 --> 00:34:25,560
+ Das ist ein ganz besonderer Punkt.
+
+532
+00:34:25,560 --> 00:34:27,680
+ Das ist ein ganz besonderer Punkt.
+
+533
+00:34:27,680 --> 00:34:29,800
+ Das ist ein ganz besonderer Punkt.
+
+534
+00:34:29,800 --> 00:34:31,920
+ Das ist ein ganz besonderer Punkt.
+
+535
+00:34:31,920 --> 00:34:34,040
+ Das ist ein ganz besonderer Punkt.
+
+536
+00:34:34,040 --> 00:34:36,160
+ Das ist ein ganz besonderer Punkt.
+
+537
+00:34:36,160 --> 00:34:38,280
+ Das ist ein ganz besonderer Punkt.
+
+538
+00:34:38,280 --> 00:34:40,400
+ Das ist ein ganz besonderer Punkt.
+
+539
+00:34:40,400 --> 00:34:42,520
+ Das ist ein ganz besonderer Punkt.
+
+540
+00:34:42,520 --> 00:34:44,640
+ Das ist ein ganz besonderer Punkt.
+
+541
+00:34:44,760 --> 00:34:46,760
+ Das ist ein ganz besonderer Punkt.
+
+542
+00:34:46,760 --> 00:34:48,880
+ Das ist ein ganz besonderer Punkt.
+
+543
+00:34:48,880 --> 00:34:51,000
+ Das ist ein ganz besonderer Punkt.
+
+544
+00:34:51,000 --> 00:34:53,120
+ Das ist ein ganz besonderer Punkt.
+
+545
+00:34:53,120 --> 00:34:55,240
+ Das ist ein ganz besonderer Punkt.
+
+546
+00:34:55,240 --> 00:34:57,360
+ Das ist ein ganz besonderer Punkt.
+
+547
+00:34:57,360 --> 00:34:59,480
+ Das ist ein ganz besonderer Punkt.
+
+548
+00:34:59,480 --> 00:35:01,600
+ Das ist ein ganz besonderer Punkt.
+
+549
+00:35:01,600 --> 00:35:03,720
+ Das ist ein ganz besonderer Punkt.
+
+550
+00:35:03,720 --> 00:35:05,840
+ Das ist ein ganz besonderer Punkt.
+
+551
+00:35:05,840 --> 00:35:07,960
+ Das ist ein ganz besonderer Punkt.
+
+552
+00:35:07,960 --> 00:35:10,080
+ Das ist ein ganz besonderer Punkt.
+
+553
+00:35:10,080 --> 00:35:12,200
+ Das ist ein ganz besonderer Punkt.
+
+554
+00:35:12,200 --> 00:35:14,320
+ Das ist ein ganz besonderer Punkt.
+
+555
+00:35:14,440 --> 00:35:16,440
+ Das ist ein ganz besonderer Punkt.
+
+556
+00:35:16,440 --> 00:35:18,560
+ Das ist ein ganz besonderer Punkt.
+
+557
+00:35:18,560 --> 00:35:20,680
+ Das ist ein ganz besonderer Punkt.
+
+558
+00:35:20,680 --> 00:35:22,800
+ Das ist ein ganz besonderer Punkt.
+
+559
+00:35:22,800 --> 00:35:24,920
+ Das ist ein ganz besonderer Punkt.
+
+560
+00:35:24,920 --> 00:35:27,040
+ Das ist ein ganz besonderer Punkt.
+
+561
+00:35:27,040 --> 00:35:29,160
+ Das ist ein ganz besonderer Punkt.
+
+562
+00:35:29,160 --> 00:35:31,280
+ Das ist ein ganz besonderer Punkt.
+
+563
+00:35:31,280 --> 00:35:33,400
+ Das ist ein ganz besonderer Punkt.
+
+564
+00:35:33,400 --> 00:35:35,520
+ Das ist ein ganz besonderer Punkt.
+
+565
+00:35:35,520 --> 00:35:37,640
+ Das ist ein ganz besonderer Punkt.
+
+566
+00:35:37,640 --> 00:35:39,760
+ Das ist ein ganz besonderer Punkt.
+
+567
+00:35:39,760 --> 00:35:41,880
+ Das ist ein ganz besonderer Punkt.
+
+568
+00:35:41,880 --> 00:35:44,000
+ Das ist ein ganz besonderer Punkt.
+
+569
+00:35:44,120 --> 00:35:46,120
+ Das ist ein ganz besonderer Punkt.
+
+570
+00:35:46,120 --> 00:35:48,240
+ Das ist ein ganz besonderer Punkt.
+
+571
+00:35:48,240 --> 00:35:50,360
+ Das ist ein ganz besonderer Punkt.
+
+572
+00:35:50,360 --> 00:35:52,480
+ Das ist ein ganz besonderer Punkt.
+
+573
+00:35:52,480 --> 00:35:54,600
+ Das ist ein ganz besonderer Punkt.
+
+574
+00:35:54,600 --> 00:35:56,720
+ Das ist ein ganz besonderer Punkt.
+
+575
+00:35:56,720 --> 00:35:58,840
+ Das ist ein ganz besonderer Punkt.
+
+576
+00:35:58,840 --> 00:36:00,960
+ Das ist ein ganz besonderer Punkt.
+
+577
+00:36:00,960 --> 00:36:03,080
+ Das ist ein ganz besonderer Punkt.
+
+578
+00:36:03,080 --> 00:36:05,200
+ Das ist ein ganz besonderer Punkt.
+
+579
+00:36:05,200 --> 00:36:07,320
+ Das ist ein ganz besonderer Punkt.
+
+580
+00:36:07,320 --> 00:36:09,440
+ Das ist ein ganz besonderer Punkt.
+
+581
+00:36:09,440 --> 00:36:11,560
+ Das ist ein ganz besonderer Punkt.
+
+582
+00:36:11,560 --> 00:36:13,680
+ Das ist ein ganz besonderer Punkt.
+
+583
+00:36:13,800 --> 00:36:15,800
+ Das ist ein ganz besonderer Punkt.
+
+584
+00:36:15,800 --> 00:36:17,920
+ Das ist ein ganz besonderer Punkt.
+
+585
+00:36:17,920 --> 00:36:20,040
+ Das ist ein ganz besonderer Punkt.
+
+586
+00:36:20,040 --> 00:36:22,160
+ Das ist ein ganz besonderer Punkt.
+
+587
+00:36:22,160 --> 00:36:24,280
+ Das ist ein ganz besonderer Punkt.
+
+588
+00:36:24,280 --> 00:36:26,400
+ Das ist ein ganz besonderer Punkt.
+
+589
+00:36:26,400 --> 00:36:28,520
+ Das ist ein ganz besonderer Punkt.
+
+590
+00:36:28,520 --> 00:36:30,640
+ Das ist ein ganz besonderer Punkt.
+
+591
+00:36:30,640 --> 00:36:32,760
+ Das ist ein ganz besonderer Punkt.
+
+592
+00:36:32,760 --> 00:36:34,880
+ Das ist ein ganz besonderer Punkt.
+
+593
+00:36:34,880 --> 00:36:37,000
+ Das ist ein ganz besonderer Punkt.
+
+594
+00:36:37,000 --> 00:36:39,120
+ Das ist ein ganz besonderer Punkt.
+
+595
+00:36:39,120 --> 00:36:41,240
+ Das ist ein ganz besonderer Punkt.
+
+596
+00:36:41,240 --> 00:36:43,360
+ Das ist ein ganz besonderer Punkt.
+
+597
+00:36:43,480 --> 00:36:45,480
+ Das ist ein ganz besonderer Punkt.
+
+598
+00:36:45,480 --> 00:36:47,600
+ Das ist ein ganz besonderer Punkt.
+
+599
+00:36:47,600 --> 00:36:49,720
+ Das ist ein ganz besonderer Punkt.
+
+600
+00:36:49,720 --> 00:36:51,840
+ Das ist ein ganz besonderer Punkt.
+
+601
+00:36:51,840 --> 00:36:53,960
+ Das ist ein ganz besonderer Punkt.
+
+602
+00:36:53,960 --> 00:36:56,080
+ Das ist ein ganz besonderer Punkt.
+
+603
+00:36:56,080 --> 00:36:58,200
+ Das ist ein ganz besonderer Punkt.
+
+604
+00:36:58,200 --> 00:37:00,320
+ Das ist ein ganz besonderer Punkt.
+
+605
+00:37:00,320 --> 00:37:02,440
+ Das ist ein ganz besonderer Punkt.
+
+606
+00:37:02,440 --> 00:37:04,560
+ Das ist ein ganz besonderer Punkt.
+
+607
+00:37:04,560 --> 00:37:06,680
+ Das ist ein ganz besonderer Punkt.
+
+608
+00:37:06,680 --> 00:37:08,800
+ Das ist ein ganz besonderer Punkt.
+
+609
+00:37:08,800 --> 00:37:10,920
+ Das ist ein ganz besonderer Punkt.
+
+610
+00:37:10,920 --> 00:37:13,040
+ Das ist ein ganz besonderer Punkt.
+
+611
+00:37:13,160 --> 00:37:15,160
+ Das ist ein ganz besonderer Punkt.
+
+612
+00:37:15,160 --> 00:37:17,280
+ Das ist ein ganz besonderer Punkt.
+
+613
+00:37:17,280 --> 00:37:19,400
+ Das ist ein ganz besonderer Punkt.
+
+614
+00:37:19,400 --> 00:37:21,520
+ Das ist ein ganz besonderer Punkt.
+
+615
+00:37:21,520 --> 00:37:23,640
+ Das ist ein ganz besonderer Punkt.
+
+616
+00:37:23,640 --> 00:37:25,760
+ Das ist ein ganz besonderer Punkt.
+
+617
+00:37:25,760 --> 00:37:27,880
+ Das ist ein ganz besonderer Punkt.
+
+618
+00:37:27,880 --> 00:37:30,000
+ Das ist ein ganz besonderer Punkt.
+
+619
+00:37:30,000 --> 00:37:32,120
+ Das ist ein ganz besonderer Punkt.
+
+620
+00:37:32,120 --> 00:37:34,240
+ Das ist ein ganz besonderer Punkt.
+
+621
+00:37:34,240 --> 00:37:36,360
+ Das ist ein ganz besonderer Punkt.
+
+622
+00:37:36,360 --> 00:37:38,480
+ Das ist ein ganz besonderer Punkt.
+
+623
+00:37:38,480 --> 00:37:40,600
+ Das ist ein ganz besonderer Punkt.
+
+624
+00:37:40,600 --> 00:37:42,720
+ Das ist ein ganz besonderer Punkt.
+
+625
+00:37:42,840 --> 00:37:44,840
+ Das ist ein ganz besonderer Punkt.
+
+626
+00:37:44,840 --> 00:37:46,960
+ Das ist ein ganz besonderer Punkt.
+
+627
+00:37:46,960 --> 00:37:49,080
+ Das ist ein ganz besonderer Punkt.
+
+628
+00:37:49,080 --> 00:37:51,200
+ Das ist ein ganz besonderer Punkt.
+
+629
+00:37:51,200 --> 00:37:53,320
+ Das ist ein ganz besonderer Punkt.
+
+630
+00:37:53,320 --> 00:37:55,440
+ Das ist ein ganz besonderer Punkt.
+
+631
+00:37:55,440 --> 00:37:57,560
+ Das ist ein ganz besonderer Punkt.
+
+632
+00:37:57,560 --> 00:37:59,680
+ Das ist ein ganz besonderer Punkt.
+
+633
+00:37:59,680 --> 00:38:01,800
+ Das ist ein ganz besonderer Punkt.
+
+634
+00:38:01,800 --> 00:38:03,920
+ Das ist ein ganz besonderer Punkt.
+
+635
+00:38:03,920 --> 00:38:06,040
+ Das ist ein ganz besonderer Punkt.
+
+636
+00:38:06,040 --> 00:38:08,160
+ Das ist ein ganz besonderer Punkt.
+
+637
+00:38:08,160 --> 00:38:10,280
+ Das ist ein ganz besonderer Punkt.
+
+638
+00:38:10,280 --> 00:38:12,400
+ Das ist ein ganz besonderer Punkt.
+
+639
+00:38:12,520 --> 00:38:14,520
+ Das ist ein ganz besonderer Punkt.
+
+640
+00:38:14,520 --> 00:38:16,640
+ Das ist ein ganz besonderer Punkt.
+
+641
+00:38:16,640 --> 00:38:18,760
+ Das ist ein ganz besonderer Punkt.
+
+642
+00:38:18,760 --> 00:38:20,880
+ Das ist ein ganz besonderer Punkt.
+
+643
+00:38:20,880 --> 00:38:23,000
+ Das ist ein ganz besonderer Punkt.
+
+644
+00:38:23,000 --> 00:38:25,120
+ Das ist ein ganz besonderer Punkt.
+
+645
+00:38:25,120 --> 00:38:27,240
+ Das ist ein ganz besonderer Punkt.
+
+646
+00:38:27,240 --> 00:38:29,360
+ Das ist ein ganz besonderer Punkt.
+
+647
+00:38:29,360 --> 00:38:31,480
+ Das ist ein ganz besonderer Punkt.
+
+648
+00:38:31,480 --> 00:38:33,600
+ Das ist ein ganz besonderer Punkt.
+
+649
+00:38:33,600 --> 00:38:35,720
+ Das ist ein ganz besonderer Punkt.
+
+650
+00:38:35,720 --> 00:38:37,840
+ Das ist ein ganz besonderer Punkt.
+
+651
+00:38:37,840 --> 00:38:39,960
+ Das ist ein ganz besonderer Punkt.
+
+652
+00:38:39,960 --> 00:38:42,080
+ Das ist ein ganz besonderer Punkt.
+
+653
+00:38:42,200 --> 00:38:44,200
+ Das ist ein ganz besonderer Punkt.
+
+654
+00:38:44,200 --> 00:38:46,320
+ Das ist ein ganz besonderer Punkt.
+
+655
+00:38:46,320 --> 00:38:48,440
+ Das ist ein ganz besonderer Punkt.
+
+656
+00:38:48,440 --> 00:38:50,560
+ Das ist ein ganz besonderer Punkt.
+
+657
+00:38:50,560 --> 00:38:52,680
+ Das ist ein ganz besonderer Punkt.
+
+658
+00:38:52,680 --> 00:38:54,800
+ Das ist ein ganz besonderer Punkt.
+
+659
+00:38:54,800 --> 00:38:56,920
+ Das ist ein ganz besonderer Punkt.
+
+660
+00:38:56,920 --> 00:38:59,040
+ Das ist ein ganz besonderer Punkt.
+
+661
+00:38:59,040 --> 00:39:01,160
+ Das ist ein ganz besonderer Punkt.
+
+662
+00:39:01,160 --> 00:39:03,280
+ Das ist ein ganz besonderer Punkt.
+
+663
+00:39:03,280 --> 00:39:05,400
+ Das ist ein ganz besonderer Punkt.
+
+664
+00:39:05,400 --> 00:39:07,520
+ Das ist ein ganz besonderer Punkt.
+
+665
+00:39:07,520 --> 00:39:09,640
+ Das ist ein ganz besonderer Punkt.
+
+666
+00:39:09,640 --> 00:39:11,760
+ Das ist ein ganz besonderer Punkt.
+
+667
+00:39:11,880 --> 00:39:13,880
+ Das ist ein ganz besonderer Punkt.
+
+668
+00:39:13,880 --> 00:39:16,000
+ Das ist ein ganz besonderer Punkt.
+
+669
+00:39:16,000 --> 00:39:18,120
+ Das ist ein ganz besonderer Punkt.
+
+670
+00:39:18,120 --> 00:39:20,240
+ Das ist ein ganz besonderer Punkt.
+
+671
+00:39:20,240 --> 00:39:22,360
+ Das ist ein ganz besonderer Punkt.
+
+672
+00:39:22,360 --> 00:39:24,480
+ Das ist ein ganz besonderer Punkt.
+
+673
+00:39:24,480 --> 00:39:26,600
+ Das ist ein ganz besonderer Punkt.
+
+674
+00:39:26,600 --> 00:39:28,720
+ Das ist ein ganz besonderer Punkt.
+
+675
+00:39:28,720 --> 00:39:30,840
+ Das ist ein ganz besonderer Punkt.
+
+676
+00:39:30,840 --> 00:39:32,960
+ Das ist ein ganz besonderer Punkt.
+
+677
+00:39:32,960 --> 00:39:35,080
+ Das ist ein ganz besonderer Punkt.
+
+678
+00:39:35,080 --> 00:39:37,200
+ Das ist ein ganz besonderer Punkt.
+
+679
+00:39:37,200 --> 00:39:39,320
+ Das ist ein ganz besonderer Punkt.
+
+680
+00:39:39,320 --> 00:39:41,440
+ Das ist ein ganz besonderer Punkt.
+
+681
+00:39:41,560 --> 00:39:43,560
+ Das ist ein ganz besonderer Punkt.
+
+682
+00:39:43,560 --> 00:39:45,680
+ Das ist ein ganz besonderer Punkt.
+
+683
+00:39:45,680 --> 00:39:47,800
+ Das ist ein ganz besonderer Punkt.
+
+684
+00:39:47,800 --> 00:39:49,920
+ Das ist ein ganz besonderer Punkt.
+
+685
+00:39:49,920 --> 00:39:52,040
+ Das ist ein ganz besonderer Punkt.
+
+686
+00:39:52,040 --> 00:39:54,160
+ Das ist ein ganz besonderer Punkt.
+
+687
+00:39:54,160 --> 00:39:56,280
+ Das ist ein ganz besonderer Punkt.
+
+688
+00:39:56,280 --> 00:39:58,400
+ Das ist ein ganz besonderer Punkt.
+
+689
+00:39:58,400 --> 00:40:00,520
+ Das ist ein ganz besonderer Punkt.
+
+690
+00:40:00,520 --> 00:40:02,640
+ Das ist ein ganz besonderer Punkt.
+
+691
+00:40:02,640 --> 00:40:04,760
+ Das ist ein ganz besonderer Punkt.
+
+692
+00:40:04,760 --> 00:40:06,880
+ Das ist ein ganz besonderer Punkt.
+
+693
+00:40:06,880 --> 00:40:09,000
+ Das ist ein ganz besonderer Punkt.
+
+694
+00:40:09,000 --> 00:40:11,120
+ Das ist ein ganz besonderer Punkt.
+
+695
+00:40:11,240 --> 00:40:13,240
+ Das ist ein ganz besonderer Punkt.
+
+696
+00:40:13,240 --> 00:40:15,360
+ Das ist ein ganz besonderer Punkt.
+
+697
+00:40:15,360 --> 00:40:17,480
+ Das ist ein ganz besonderer Punkt.
+
+698
+00:40:17,480 --> 00:40:19,600
+ Das ist ein ganz besonderer Punkt.
+
+699
+00:40:19,600 --> 00:40:21,720
+ Das ist ein ganz besonderer Punkt.
+
+700
+00:40:21,720 --> 00:40:23,840
+ Das ist ein ganz besonderer Punkt.
+
+701
+00:40:23,840 --> 00:40:25,960
+ Das ist ein ganz besonderer Punkt.
+
+702
+00:40:25,960 --> 00:40:28,080
+ Das ist ein ganz besonderer Punkt.
+
+703
+00:40:28,080 --> 00:40:30,200
+ Das ist ein ganz besonderer Punkt.
+
+704
+00:40:30,200 --> 00:40:32,320
+ Das ist ein ganz besonderer Punkt.
+
+705
+00:40:32,320 --> 00:40:34,440
+ Das ist ein ganz besonderer Punkt.
+
+706
+00:40:34,440 --> 00:40:36,560
+ Das ist ein ganz besonderer Punkt.
+
+707
+00:40:36,560 --> 00:40:38,680
+ Das ist ein ganz besonderer Punkt.
+
+708
+00:40:38,680 --> 00:40:40,800
+ Das ist ein ganz besonderer Punkt.
+
+709
+00:40:40,920 --> 00:40:42,920
+ Das ist ein ganz besonderer Punkt.
+
+710
+00:40:42,920 --> 00:40:45,040
+ Das ist ein ganz besonderer Punkt.
+
+711
+00:40:45,040 --> 00:40:47,160
+ Das ist ein ganz besonderer Punkt.
+
+712
+00:40:47,160 --> 00:40:49,280
+ Das ist ein ganz besonderer Punkt.
+
+713
+00:40:49,280 --> 00:40:51,400
+ Das ist ein ganz besonderer Punkt.
+
+714
+00:40:51,400 --> 00:40:53,520
+ Das ist ein ganz besonderer Punkt.
+
+715
+00:40:53,520 --> 00:40:55,640
+ Das ist ein ganz besonderer Punkt.
+
+716
+00:40:55,640 --> 00:40:57,760
+ Das ist ein ganz besonderer Punkt.
+
+717
+00:40:57,760 --> 00:40:59,880
+ Das ist ein ganz besonderer Punkt.
+
+718
+00:40:59,880 --> 00:41:02,000
+ Das ist ein ganz besonderer Punkt.
+
+719
+00:41:02,000 --> 00:41:04,120
+ Das ist ein ganz besonderer Punkt.
+
+720
+00:41:04,120 --> 00:41:06,240
+ Das ist ein ganz besonderer Punkt.
+
+721
+00:41:06,240 --> 00:41:08,360
+ Das ist ein ganz besonderer Punkt.
+
+722
+00:41:08,360 --> 00:41:10,480
+ Das ist ein ganz besonderer Punkt.
+
+723
+00:41:10,600 --> 00:41:12,600
+ Das ist ein ganz besonderer Punkt.
+
+724
+00:41:12,600 --> 00:41:14,720
+ Das ist ein ganz besonderer Punkt.
+
+725
+00:41:14,720 --> 00:41:16,840
+ Das ist ein ganz besonderer Punkt.
+
+726
+00:41:16,840 --> 00:41:18,960
+ Das ist ein ganz besonderer Punkt.
+
+727
+00:41:18,960 --> 00:41:21,080
+ Das ist ein ganz besonderer Punkt.
+
+728
+00:41:21,080 --> 00:41:23,200
+ Das ist ein ganz besonderer Punkt.
+
+729
+00:41:23,200 --> 00:41:25,320
+ Das ist ein ganz besonderer Punkt.
+
+730
+00:41:25,320 --> 00:41:27,440
+ Das ist ein ganz besonderer Punkt.
+
+731
+00:41:27,440 --> 00:41:29,560
+ Das ist ein ganz besonderer Punkt.
+
+732
+00:41:29,560 --> 00:41:31,680
+ Das ist ein ganz besonderer Punkt.
+
+733
+00:41:31,680 --> 00:41:33,800
+ Das ist ein ganz besonderer Punkt.
+
+734
+00:41:33,800 --> 00:41:35,920
+ Das ist ein ganz besonderer Punkt.
+
+735
+00:41:35,920 --> 00:41:38,040
+ Das ist ein ganz besonderer Punkt.
+
+736
+00:41:38,040 --> 00:41:40,160
+ Das ist ein ganz besonderer Punkt.
+
+737
+00:41:40,280 --> 00:41:42,280
+ Das ist ein ganz besonderer Punkt.
+
+738
+00:41:42,280 --> 00:41:44,400
+ Das ist ein ganz besonderer Punkt.
+
+739
+00:41:44,400 --> 00:41:46,520
+ Das ist ein ganz besonderer Punkt.
+
+740
+00:41:46,520 --> 00:41:48,640
+ Das ist ein ganz besonderer Punkt.
+
+741
+00:41:48,640 --> 00:41:50,760
+ Das ist ein ganz besonderer Punkt.
+
+742
+00:41:50,760 --> 00:41:52,880
+ Das ist ein ganz besonderer Punkt.
+
+743
+00:41:52,880 --> 00:41:55,000
+ Das ist ein ganz besonderer Punkt.
+
+744
+00:41:55,000 --> 00:41:57,120
+ Das ist ein ganz besonderer Punkt.
+
+745
+00:41:57,120 --> 00:41:59,240
+ Das ist ein ganz besonderer Punkt.
+
+746
+00:41:59,240 --> 00:42:01,360
+ Das ist ein ganz besonderer Punkt.
+
+747
+00:42:01,360 --> 00:42:03,480
+ Das ist ein ganz besonderer Punkt.
+
+748
+00:42:03,480 --> 00:42:05,600
+ Das ist ein ganz besonderer Punkt.
+
+749
+00:42:05,600 --> 00:42:07,720
+ Das ist ein ganz besonderer Punkt.
+
+750
+00:42:07,720 --> 00:42:09,840
+ Das ist ein ganz besonderer Punkt.
+
+751
+00:42:09,960 --> 00:42:11,960
+ Das ist ein ganz besonderer Punkt.
+
+752
+00:42:11,960 --> 00:42:14,080
+ Das ist ein ganz besonderer Punkt.
+
+753
+00:42:14,080 --> 00:42:16,200
+ Das ist ein ganz besonderer Punkt.
+
+754
+00:42:16,200 --> 00:42:18,320
+ Das ist ein ganz besonderer Punkt.
+
+755
+00:42:18,320 --> 00:42:20,440
+ Das ist ein ganz besonderer Punkt.
+
+756
+00:42:20,440 --> 00:42:22,560
+ Das ist ein ganz besonderer Punkt.
+
+757
+00:42:22,560 --> 00:42:24,680
+ Das ist ein ganz besonderer Punkt.
+
+758
+00:42:24,680 --> 00:42:26,800
+ Das ist ein ganz besonderer Punkt.
+
+759
+00:42:26,800 --> 00:42:28,920
+ Das ist ein ganz besonderer Punkt.
+
+760
+00:42:28,920 --> 00:42:31,040
+ Das ist ein ganz besonderer Punkt.
+
+761
+00:42:31,040 --> 00:42:33,160
+ Das ist ein ganz besonderer Punkt.
+
+762
+00:42:33,160 --> 00:42:35,280
+ Das ist ein ganz besonderer Punkt.
+
+763
+00:42:35,280 --> 00:42:37,400
+ Das ist ein ganz besonderer Punkt.
+
+764
+00:42:37,400 --> 00:42:39,520
+ Das ist ein ganz besonderer Punkt.
+
+765
+00:42:39,640 --> 00:42:41,640
+ Das ist ein ganz besonderer Punkt.
+
+766
+00:42:41,640 --> 00:42:43,760
+ Das ist ein ganz besonderer Punkt.
+
+767
+00:42:43,760 --> 00:42:45,880
+ Das ist ein ganz besonderer Punkt.
+
+768
+00:42:45,880 --> 00:42:48,000
+ Das ist ein ganz besonderer Punkt.
+
+769
+00:42:48,000 --> 00:42:50,120
+ Das ist ein ganz besonderer Punkt.
+
+770
+00:42:50,120 --> 00:42:52,240
+ Das ist ein ganz besonderer Punkt.
+
+771
+00:42:52,240 --> 00:42:54,360
+ Das ist ein ganz besonderer Punkt.
+
+772
+00:42:54,360 --> 00:42:56,480
+ Das ist ein ganz besonderer Punkt.
+
+773
+00:42:56,480 --> 00:42:58,600
+ Das ist ein ganz besonderer Punkt.
+
+774
+00:42:58,600 --> 00:43:00,720
+ Das ist ein ganz besonderer Punkt.
+
+775
+00:43:00,720 --> 00:43:02,840
+ Das ist ein ganz besonderer Punkt.
+
+776
+00:43:02,840 --> 00:43:04,960
+ Das ist ein ganz besonderer Punkt.
+
+777
+00:43:04,960 --> 00:43:07,080
+ Das ist ein ganz besonderer Punkt.
+
+778
+00:43:07,080 --> 00:43:09,200
+ Das ist ein ganz besonderer Punkt.
+
+779
+00:43:09,320 --> 00:43:11,320
+ Das ist ein ganz besonderer Punkt.
+
+780
+00:43:11,320 --> 00:43:13,440
+ Das ist ein ganz besonderer Punkt.
+
+781
+00:43:13,440 --> 00:43:15,560
+ Das ist ein ganz besonderer Punkt.
+
+782
+00:43:15,560 --> 00:43:17,680
+ Das ist ein ganz besonderer Punkt.
+
+783
+00:43:17,680 --> 00:43:19,800
+ Das ist ein ganz besonderer Punkt.
+
+784
+00:43:19,800 --> 00:43:21,920
+ Das ist ein ganz besonderer Punkt.
+
+785
+00:43:21,920 --> 00:43:24,040
+ Das ist ein ganz besonderer Punkt.
+
+786
+00:43:24,040 --> 00:43:26,160
+ Das ist ein ganz besonderer Punkt.
+
+787
+00:43:26,160 --> 00:43:28,280
+ Das ist ein ganz besonderer Punkt.
+
+788
+00:43:28,280 --> 00:43:30,400
+ Das ist ein ganz besonderer Punkt.
+
+789
+00:43:30,400 --> 00:43:32,520
+ Das ist ein ganz besonderer Punkt.
+
+790
+00:43:32,520 --> 00:43:34,640
+ Das ist ein ganz besonderer Punkt.
+
+791
+00:43:34,640 --> 00:43:36,760
+ Das ist ein ganz besonderer Punkt.
+
+792
+00:43:36,760 --> 00:43:38,880
+ Das ist ein ganz besonderer Punkt.
+
+793
+00:43:39,000 --> 00:43:41,000
+ Das ist ein ganz besonderer Punkt.
+
+794
+00:43:41,000 --> 00:43:43,120
+ Das ist ein ganz besonderer Punkt.
+
+795
+00:43:43,120 --> 00:43:45,240
+ Das ist ein ganz besonderer Punkt.
+
+796
+00:43:45,240 --> 00:43:47,360
+ Das ist ein ganz besonderer Punkt.
+
+797
+00:43:47,360 --> 00:43:49,480
+ Das ist ein ganz besonderer Punkt.
+
+798
+00:43:49,480 --> 00:43:51,600
+ Das ist ein ganz besonderer Punkt.
+
+799
+00:43:51,600 --> 00:43:53,720
+ Das ist ein ganz besonderer Punkt.
+
+800
+00:43:53,720 --> 00:43:55,840
+ Das ist ein ganz besonderer Punkt.
+
+801
+00:43:55,840 --> 00:43:57,960
+ Das ist ein ganz besonderer Punkt.
+
+802
+00:43:57,960 --> 00:44:00,080
+ Das ist ein ganz besonderer Punkt.
+
+803
+00:44:00,080 --> 00:44:02,200
+ Das ist ein ganz besonderer Punkt.
+
+804
+00:44:02,200 --> 00:44:04,320
+ Das ist ein ganz besonderer Punkt.
+
+805
+00:44:04,320 --> 00:44:06,440
+ Das ist ein ganz besonderer Punkt.
+
+806
+00:44:06,440 --> 00:44:08,560
+ Das ist ein ganz besonderer Punkt.
+
+807
+00:44:08,680 --> 00:44:10,680
+ Das ist ein ganz besonderer Punkt.
+
+808
+00:44:10,680 --> 00:44:12,800
+ Das ist ein ganz besonderer Punkt.
+
+809
+00:44:12,800 --> 00:44:14,920
+ Das ist ein ganz besonderer Punkt.
+
+810
+00:44:14,920 --> 00:44:17,040
+ Das ist ein ganz besonderer Punkt.
+
+811
+00:44:17,040 --> 00:44:19,160
+ Das ist ein ganz besonderer Punkt.
+
+812
+00:44:19,160 --> 00:44:21,280
+ Das ist ein ganz besonderer Punkt.
+
+813
+00:44:21,280 --> 00:44:23,400
+ Das ist ein ganz besonderer Punkt.
+
+814
+00:44:23,400 --> 00:44:25,520
+ Das ist ein ganz besonderer Punkt.
+
+815
+00:44:25,520 --> 00:44:27,640
+ Das ist ein ganz besonderer Punkt.
+
+816
+00:44:27,640 --> 00:44:29,760
+ Das ist ein ganz besonderer Punkt.
+
+817
+00:44:29,760 --> 00:44:31,880
+ Das ist ein ganz besonderer Punkt.
+
+818
+00:44:31,880 --> 00:44:34,000
+ Das ist ein ganz besonderer Punkt.
+
+819
+00:44:34,000 --> 00:44:36,120
+ Das ist ein ganz besonderer Punkt.
+
+820
+00:44:36,120 --> 00:44:38,240
+ Das ist ein ganz besonderer Punkt.
+
+821
+00:44:38,360 --> 00:44:40,360
+ Das ist ein ganz besonderer Punkt.
+
+822
+00:44:40,360 --> 00:44:42,480
+ Das ist ein ganz besonderer Punkt.
+
+823
+00:44:42,480 --> 00:44:44,600
+ Das ist ein ganz besonderer Punkt.
+
+824
+00:44:44,600 --> 00:44:46,720
+ Das ist ein ganz besonderer Punkt.
+
+825
+00:44:46,720 --> 00:44:48,840
+ Das ist ein ganz besonderer Punkt.
+
+826
+00:44:48,840 --> 00:44:50,960
+ Das ist ein ganz besonderer Punkt.
+
+827
+00:44:50,960 --> 00:44:53,080
+ Das ist ein ganz besonderer Punkt.
+
+828
+00:44:53,080 --> 00:44:55,200
+ Das ist ein ganz besonderer Punkt.
+
+829
+00:44:55,200 --> 00:44:57,320
+ Das ist ein ganz besonderer Punkt.
+
+830
+00:44:57,320 --> 00:44:59,440
+ Das ist ein ganz besonderer Punkt.
+
+831
+00:44:59,440 --> 00:45:01,560
+ Das ist ein ganz besonderer Punkt.
+
+832
+00:45:01,560 --> 00:45:03,680
+ Das ist ein ganz besonderer Punkt.
+
+833
+00:45:03,680 --> 00:45:05,800
+ Das ist ein ganz besonderer Punkt.
+
+834
+00:45:05,800 --> 00:45:07,920
+ Das ist ein ganz besonderer Punkt.
+
+835
+00:45:08,040 --> 00:45:10,040
+ Das ist ein ganz besonderer Punkt.
+
+836
+00:45:10,040 --> 00:45:12,160
+ Das ist ein ganz besonderer Punkt.
+
+837
+00:45:12,160 --> 00:45:14,280
+ Das ist ein ganz besonderer Punkt.
+
+838
+00:45:14,280 --> 00:45:16,400
+ Das ist ein ganz besonderer Punkt.
+
+839
+00:45:16,400 --> 00:45:18,520
+ Das ist ein ganz besonderer Punkt.
+
+840
+00:45:18,520 --> 00:45:20,640
+ Das ist ein ganz besonderer Punkt.
+
+841
+00:45:20,640 --> 00:45:22,760
+ Das ist ein ganz besonderer Punkt.
+
+842
+00:45:22,760 --> 00:45:24,880
+ Das ist ein ganz besonderer Punkt.
+
+843
+00:45:24,880 --> 00:45:27,000
+ Das ist ein ganz besonderer Punkt.
+
+844
+00:45:27,000 --> 00:45:29,120
+ Das ist ein ganz besonderer Punkt.
+
+845
+00:45:29,120 --> 00:45:31,240
+ Das ist ein ganz besonderer Punkt.
+
+846
+00:45:31,240 --> 00:45:33,360
+ Das ist ein ganz besonderer Punkt.
+
+847
+00:45:33,360 --> 00:45:35,480
+ Das ist ein ganz besonderer Punkt.
+
+848
+00:45:35,480 --> 00:45:37,600
+ Das ist ein ganz besonderer Punkt.
+
+849
+00:45:37,720 --> 00:45:39,720
+ Das ist ein ganz besonderer Punkt.
+
+850
+00:45:39,720 --> 00:45:41,840
+ Das ist ein ganz besonderer Punkt.
+
+851
+00:45:41,840 --> 00:45:43,960
+ Das ist ein ganz besonderer Punkt.
+
+852
+00:45:43,960 --> 00:45:46,080
+ Das ist ein ganz besonderer Punkt.
+
+853
+00:45:46,080 --> 00:45:48,200
+ Das ist ein ganz besonderer Punkt.
+
+854
+00:45:48,200 --> 00:45:50,320
+ Das ist ein ganz besonderer Punkt.
+
+855
+00:45:50,320 --> 00:45:52,440
+ Das ist ein ganz besonderer Punkt.
+
+856
+00:45:52,440 --> 00:45:54,560
+ Das ist ein ganz besonderer Punkt.
+
+857
+00:45:54,560 --> 00:45:56,680
+ Das ist ein ganz besonderer Punkt.
+
+858
+00:45:56,680 --> 00:45:58,800
+ Das ist ein ganz besonderer Punkt.
+
+859
+00:45:58,800 --> 00:46:00,920
+ Das ist ein ganz besonderer Punkt.
+
+860
+00:46:00,920 --> 00:46:03,040
+ Das ist ein ganz besonderer Punkt.
+
+861
+00:46:03,040 --> 00:46:05,160
+ Das ist ein ganz besonderer Punkt.
+
+862
+00:46:05,160 --> 00:46:07,280
+ Das ist ein ganz besonderer Punkt.
+
+863
+00:46:07,400 --> 00:46:09,400
+ Das ist ein ganz besonderer Punkt.
+
+864
+00:46:09,400 --> 00:46:11,520
+ Das ist ein ganz besonderer Punkt.
+
+865
+00:46:11,520 --> 00:46:13,640
+ Das ist ein ganz besonderer Punkt.
+
+866
+00:46:13,640 --> 00:46:15,760
+ Das ist ein ganz besonderer Punkt.
+
+867
+00:46:15,760 --> 00:46:17,880
+ Das ist ein ganz besonderer Punkt.
+
+868
+00:46:17,880 --> 00:46:20,000
+ Das ist ein ganz besonderer Punkt.
+
+869
+00:46:20,000 --> 00:46:22,120
+ Das ist ein ganz besonderer Punkt.
+
+870
+00:46:22,120 --> 00:46:24,240
+ Das ist ein ganz besonderer Punkt.
+
+871
+00:46:24,240 --> 00:46:26,360
+ Das ist ein ganz besonderer Punkt.
+
+872
+00:46:26,360 --> 00:46:28,480
+ Das ist ein ganz besonderer Punkt.
+
+873
+00:46:28,480 --> 00:46:30,600
+ Das ist ein ganz besonderer Punkt.
+
+874
+00:46:30,600 --> 00:46:32,720
+ Das ist ein ganz besonderer Punkt.
+
+875
+00:46:32,720 --> 00:46:34,840
+ Das ist ein ganz besonderer Punkt.
+
+876
+00:46:34,840 --> 00:46:36,960
+ Das ist ein ganz besonderer Punkt.
+
+877
+00:46:37,080 --> 00:46:39,080
+ Das ist ein ganz besonderer Punkt.
+
+878
+00:46:39,080 --> 00:46:41,200
+ Das ist ein ganz besonderer Punkt.
+
+879
+00:46:41,200 --> 00:46:43,320
+ Das ist ein ganz besonderer Punkt.
+
+880
+00:46:43,320 --> 00:46:45,440
+ Das ist ein ganz besonderer Punkt.
+
+881
+00:46:45,440 --> 00:46:47,560
+ Das ist ein ganz besonderer Punkt.
+
+882
+00:46:47,560 --> 00:46:49,680
+ Das ist ein ganz besonderer Punkt.
+
+883
+00:46:49,680 --> 00:46:51,800
+ Das ist ein ganz besonderer Punkt.
+
+884
+00:46:51,800 --> 00:46:53,920
+ Das ist ein ganz besonderer Punkt.
+
+885
+00:46:53,920 --> 00:46:56,040
+ Das ist ein ganz besonderer Punkt.
+
+886
+00:46:56,040 --> 00:46:58,160
+ Das ist ein ganz besonderer Punkt.
+
+887
+00:46:58,160 --> 00:47:00,280
+ Das ist ein ganz besonderer Punkt.
+
+888
+00:47:00,280 --> 00:47:02,400
+ Das ist ein ganz besonderer Punkt.
+
+889
+00:47:02,400 --> 00:47:04,520
+ Das ist ein ganz besonderer Punkt.
+
+890
+00:47:04,520 --> 00:47:06,640
+ Das ist ein ganz besonderer Punkt.
+
+891
+00:47:06,760 --> 00:47:08,760
+ Das ist ein ganz besonderer Punkt.
+
+892
+00:47:08,760 --> 00:47:10,880
+ Das ist ein ganz besonderer Punkt.
+
+893
+00:47:10,880 --> 00:47:13,000
+ Das ist ein ganz besonderer Punkt.
+
+894
+00:47:13,000 --> 00:47:15,120
+ Das ist ein ganz besonderer Punkt.
+
+895
+00:47:15,120 --> 00:47:17,240
+ Das ist ein ganz besonderer Punkt.
+
+896
+00:47:17,240 --> 00:47:19,360
+ Das ist ein ganz besonderer Punkt.
+
+897
+00:47:19,360 --> 00:47:21,480
+ Das ist ein ganz besonderer Punkt.
+
+898
+00:47:21,480 --> 00:47:23,600
+ Das ist ein ganz besonderer Punkt.
+
+899
+00:47:23,600 --> 00:47:25,720
+ Das ist ein ganz besonderer Punkt.
+
+900
+00:47:25,720 --> 00:47:27,840
+ Das ist ein ganz besonderer Punkt.
+
+901
+00:47:27,840 --> 00:47:29,960
+ Das ist ein ganz besonderer Punkt.
+
+902
+00:47:29,960 --> 00:47:32,080
+ Das ist ein ganz besonderer Punkt.
+
+903
+00:47:32,080 --> 00:47:34,200
+ Das ist ein ganz besonderer Punkt.
+
+904
+00:47:34,200 --> 00:47:36,320
+ Das ist ein ganz besonderer Punkt.
+
+905
+00:47:36,440 --> 00:47:38,440
+ Das ist ein ganz besonderer Punkt.
+
+906
+00:47:38,440 --> 00:47:40,560
+ Das ist ein ganz besonderer Punkt.
+
+907
+00:47:40,560 --> 00:47:42,680
+ Das ist ein ganz besonderer Punkt.
+
+908
+00:47:42,680 --> 00:47:44,800
+ Das ist ein ganz besonderer Punkt.
+
+909
+00:47:44,800 --> 00:47:46,920
+ Das ist ein ganz besonderer Punkt.
+
+910
+00:47:46,920 --> 00:47:49,040
+ Das ist ein ganz besonderer Punkt.
+
+911
+00:47:49,040 --> 00:47:51,160
+ Das ist ein ganz besonderer Punkt.
+
+912
+00:47:51,160 --> 00:47:53,280
+ Das ist ein ganz besonderer Punkt.
+
+913
+00:47:53,280 --> 00:47:55,400
+ Das ist ein ganz besonderer Punkt.
+
+914
+00:47:55,400 --> 00:47:57,520
+ Das ist ein ganz besonderer Punkt.
+
+915
+00:47:57,520 --> 00:47:59,640
+ Das ist ein ganz besonderer Punkt.
+
+916
+00:47:59,640 --> 00:48:01,760
+ Das ist ein ganz besonderer Punkt.
+
+917
+00:48:01,760 --> 00:48:03,880
+ Das ist ein ganz besonderer Punkt.
+
+918
+00:48:03,880 --> 00:48:06,000
+ Das ist ein ganz besonderer Punkt.
+
+919
+00:48:06,120 --> 00:48:08,120
+ Das ist ein ganz besonderer Punkt.
+
+920
+00:48:08,120 --> 00:48:10,240
+ Das ist ein ganz besonderer Punkt.
+
+921
+00:48:10,240 --> 00:48:12,360
+ Das ist ein ganz besonderer Punkt.
+
+922
+00:48:12,360 --> 00:48:14,480
+ Das ist ein ganz besonderer Punkt.
+
+923
+00:48:14,480 --> 00:48:16,600
+ Das ist ein ganz besonderer Punkt.
+
+924
+00:48:16,600 --> 00:48:18,720
+ Das ist ein ganz besonderer Punkt.
+
+925
+00:48:18,720 --> 00:48:20,840
+ Das ist ein ganz besonderer Punkt.
+
+926
+00:48:20,840 --> 00:48:22,960
+ Das ist ein ganz besonderer Punkt.
+
+927
+00:48:22,960 --> 00:48:25,080
+ Das ist ein ganz besonderer Punkt.
+
+928
+00:48:25,080 --> 00:48:27,200
+ Das ist ein ganz besonderer Punkt.
+
+929
+00:48:27,200 --> 00:48:29,320
+ Das ist ein ganz besonderer Punkt.
+
+930
+00:48:29,320 --> 00:48:31,440
+ Das ist ein ganz besonderer Punkt.
+
+931
+00:48:31,440 --> 00:48:33,560
+ Das ist ein ganz besonderer Punkt.
+
+932
+00:48:33,560 --> 00:48:35,680
+ Das ist ein ganz besonderer Punkt.
+
+933
+00:48:35,800 --> 00:48:37,800
+ Das ist ein ganz besonderer Punkt.
+
+934
+00:48:37,800 --> 00:48:39,920
+ Das ist ein ganz besonderer Punkt.
+
+935
+00:48:39,920 --> 00:48:42,040
+ Das ist ein ganz besonderer Punkt.
+
+936
+00:48:42,040 --> 00:48:44,160
+ Das ist ein ganz besonderer Punkt.
+
+937
+00:48:44,160 --> 00:48:46,280
+ Das ist ein ganz besonderer Punkt.
+
+938
+00:48:46,280 --> 00:48:48,400
+ Das ist ein ganz besonderer Punkt.
+
+939
+00:48:48,400 --> 00:48:50,520
+ Das ist ein ganz besonderer Punkt.
+
+940
+00:48:50,520 --> 00:48:52,640
+ Das ist ein ganz besonderer Punkt.
+
+941
+00:48:52,640 --> 00:48:54,760
+ Das ist ein ganz besonderer Punkt.
+
+942
+00:48:54,760 --> 00:48:56,880
+ Das ist ein ganz besonderer Punkt.
+
+943
+00:48:56,880 --> 00:48:59,000
+ Das ist ein ganz besonderer Punkt.
+
+944
+00:48:59,000 --> 00:49:01,120
+ Das ist ein ganz besonderer Punkt.
+
+945
+00:49:01,120 --> 00:49:03,240
+ Das ist ein ganz besonderer Punkt.
+
+946
+00:49:03,240 --> 00:49:05,360
+ Das ist ein ganz besonderer Punkt.
+
+947
+00:49:05,480 --> 00:49:07,480
+ Das ist ein ganz besonderer Punkt.
+
+948
+00:49:07,480 --> 00:49:09,600
+ Das ist ein ganz besonderer Punkt.
+
+949
+00:49:09,600 --> 00:49:11,720
+ Das ist ein ganz besonderer Punkt.
+
+950
+00:49:11,720 --> 00:49:13,840
+ Das ist ein ganz besonderer Punkt.
+
+951
+00:49:13,840 --> 00:49:15,960
+ Das ist ein ganz besonderer Punkt.
+
+952
+00:49:15,960 --> 00:49:18,080
+ Das ist ein ganz besonderer Punkt.
+
+953
+00:49:18,080 --> 00:49:20,200
+ Das ist ein ganz besonderer Punkt.
+
+954
+00:49:20,200 --> 00:49:22,320
+ Das ist ein ganz besonderer Punkt.
+
+955
+00:49:22,320 --> 00:49:24,440
+ Das ist ein ganz besonderer Punkt.
+
+956
+00:49:24,440 --> 00:49:26,560
+ Das ist ein ganz besonderer Punkt.
+
+957
+00:49:26,560 --> 00:49:28,680
+ Das ist ein ganz besonderer Punkt.
+
+958
+00:49:28,680 --> 00:49:30,800
+ Das ist ein ganz besonderer Punkt.
+
+959
+00:49:30,800 --> 00:49:32,920
+ Das ist ein ganz besonderer Punkt.
+
+960
+00:49:32,920 --> 00:49:35,040
+ Das ist ein ganz besonderer Punkt.
+
+961
+00:49:35,160 --> 00:49:37,160
+ Das ist ein ganz besonderer Punkt.
+
+962
+00:49:37,160 --> 00:49:43,280
+ Eine Anforderung, die ich vielleicht auch noch anregen würde,
+
+963
+00:49:43,280 --> 00:49:47,400
+ ist, dass es mit Bargeld möglich ist,
+
+964
+00:49:47,400 --> 00:49:53,520
+ dass auch abseits der staatlichen Kontrolle
+
+965
+00:49:53,520 --> 00:49:58,640
+ ein Maß an Freiheit ausüben zu können,
+
+966
+00:49:58,640 --> 00:50:03,760
+ was auch außerhalb der Legalität ist.
+
+967
+00:50:03,880 --> 00:50:09,880
+ Und zwar möchte ich dazu das Beispiel geben von einer Person,
+
+968
+00:50:09,880 --> 00:50:16,000
+ die zum Beispiel den Wehrdienst verweigert und das Land verlässt
+
+969
+00:50:16,000 --> 00:50:22,120
+ und die auch noch die Möglichkeit haben möchte,
+
+970
+00:50:22,120 --> 00:50:26,240
+ ihr Geld zu verwenden.
+
+971
+00:50:26,240 --> 00:50:28,360
+ Also das...
+
+972
+00:50:28,360 --> 00:50:30,480
+ Thema Zugänglichkeit vielleicht auch.
+
+973
+00:50:30,480 --> 00:50:32,600
+ Also Bargeld kann jeder haben,
+
+974
+00:50:32,720 --> 00:50:36,720
+ auch wenn ich aus verschiedenen organisatorischen Möglichkeiten...
+
+975
+00:50:36,720 --> 00:50:39,840
+ Also wenn es Gründe gibt, warum ich kein Konto habe,
+
+976
+00:50:39,840 --> 00:50:42,960
+ zum Beispiel bei einer Bank, hätte ich eine Möglichkeit...
+
+977
+00:50:42,960 --> 00:50:46,080
+ Ich hätte den Fall erwähnt, wo der Staat sagt,
+
+978
+00:50:46,080 --> 00:50:48,200
+ den wollen wir unterdrücken, den Menschen.
+
+979
+00:50:48,200 --> 00:50:51,320
+ Und in diesem Fall hast du bei Tara zumindest die Sache,
+
+980
+00:50:51,320 --> 00:50:55,440
+ dass du sagen kannst, das Geld, das ich bei mir in meinem Telefon drin habe
+
+981
+00:50:55,440 --> 00:50:59,560
+ oder in meinem elektronischen Wallet, das kann mir keiner wegnehmen.
+
+982
+00:50:59,560 --> 00:51:02,680
+ Okay, wenn mich die Polizei das Telefon wegnimmt.
+
+983
+00:51:02,760 --> 00:51:04,760
+ Dann ist das Geld in den Händen gebunden.
+
+984
+00:51:04,760 --> 00:51:08,880
+ Dein Konto können sie dir sperren, deine Einkommen können sie nehmen,
+
+985
+00:51:08,880 --> 00:51:11,000
+ aber das Geld, das du bereits hast,
+
+986
+00:51:11,000 --> 00:51:14,120
+ kann dir auf die Art und Weise nicht genommen werden.
+
+987
+00:51:14,120 --> 00:51:17,240
+ Der Staat kann auch nicht mehr sehen, wie viel Geld du besitzt,
+
+988
+00:51:17,240 --> 00:51:20,360
+ wenn du es anonym ausgeben kannst, wie bei Bargeld.
+
+989
+00:51:20,360 --> 00:51:23,480
+ Das heißt, wenn du jetzt sagst, ich bin jetzt auf der Flucht
+
+990
+00:51:23,480 --> 00:51:26,600
+ und hast schon etwas Geld, dann bist du gut.
+
+991
+00:51:26,600 --> 00:51:29,720
+ Wenn du jetzt sagst, ich möchte noch mal Geld verdienen
+
+992
+00:51:29,720 --> 00:51:31,840
+ und das System sagt, du bist aber Terrorist,
+
+993
+00:51:31,960 --> 00:51:33,960
+ dann ist das Geld nicht mehr in deinem Handel.
+
+994
+00:51:33,960 --> 00:51:36,080
+ Ich muss trotzdem jemanden finden,
+
+995
+00:51:36,080 --> 00:51:39,200
+ der mir das in Bargeld umtauschen würde.
+
+996
+00:51:39,200 --> 00:51:42,320
+ Wenn ich elektronisches Geld habe, kann ich es ja ausgeben.
+
+997
+00:51:42,320 --> 00:51:44,440
+ Ich kann es ausgeben, aber okay.
+
+998
+00:51:44,440 --> 00:51:47,560
+ Ich kann es auch ausgeben, weil jemand sagt, ich nehme E-Geld an,
+
+999
+00:51:47,560 --> 00:51:49,680
+ gebe physisches Bargeld raus.
+
+1000
+00:51:49,680 --> 00:51:52,800
+ Das ist kein Problem, das ist ein einfacher Handel für den Händler.
+
+1001
+00:51:52,800 --> 00:51:54,920
+ Und was ist mit dem anderen Fall?
+
+1002
+00:51:54,920 --> 00:51:57,040
+ Also jemand, der kein Bankkonto hat,
+
+1003
+00:51:57,040 --> 00:52:00,160
+ weil er keine Meldeadresse hat, zum Beispiel keine gültige,
+
+1004
+00:52:00,280 --> 00:52:03,280
+ hätte der Zugriff auf Nutala oder nicht?
+
+1005
+00:52:03,280 --> 00:52:06,400
+ Das hängt davon ab, das ist ja ein regulatorisches Problem,
+
+1006
+00:52:06,400 --> 00:52:09,520
+ welche Informationen wir verlangen von den Banken,
+
+1007
+00:52:09,520 --> 00:52:11,640
+ dass sie über die Kunden erfassen.
+
+1008
+00:52:11,640 --> 00:52:13,760
+ Das heißt, wenn ich sage, liebe Bank,
+
+1009
+00:52:13,760 --> 00:52:15,880
+ du musst eine Meldeadresse für die Person haben,
+
+1010
+00:52:15,880 --> 00:52:19,000
+ sonst darf sie kein Einkommen haben, dann kann ich es nicht machen.
+
+1011
+00:52:19,000 --> 00:52:21,120
+ Wenn ich sage, die Bank muss mir nur sagen,
+
+1012
+00:52:21,120 --> 00:52:23,240
+ was ist die Personalausweisnummer,
+
+1013
+00:52:23,240 --> 00:52:26,360
+ und die Person hat einen Personalausweis, aber keine Anschrift,
+
+1014
+00:52:26,360 --> 00:52:28,480
+ und das erfüllt die KYC-Auflagen,
+
+1015
+00:52:28,600 --> 00:52:31,600
+ die die Kunden, die das Geld bekommen, auch ohne Bankkonto?
+
+1016
+00:52:31,600 --> 00:52:33,720
+ Aber das ist eben die Frage,
+
+1017
+00:52:33,720 --> 00:52:36,840
+ wie machen wir die Regulatorik so, dass wir inklusiv sind?
+
+1018
+00:52:36,840 --> 00:52:38,960
+ Allerdings, in einer optimalen Welt
+
+1019
+00:52:38,960 --> 00:52:42,080
+ wäre das wahrscheinlich auch völlig ausreichend.
+
+1020
+00:52:42,080 --> 00:52:44,200
+ Aber ich sehe schon tatsächlich so Punkte,
+
+1021
+00:52:44,200 --> 00:52:47,320
+ gerade wenn zum Beispiel Leute keine Arbeitserlaubnis haben
+
+1022
+00:52:47,320 --> 00:52:49,680
+ und ihnen letztlich nichts anderes übrig bleibt,
+
+1023
+00:52:49,680 --> 00:52:51,800
+ als schwarz zu arbeiten.
+
+1024
+00:52:51,800 --> 00:52:53,920
+ Irgendwie ...
+
+1025
+00:52:53,920 --> 00:52:56,040
+ Außerdem ist dann immer noch die Frage,
+
+1026
+00:52:56,160 --> 00:52:59,160
+ wie wir, bis wir es endlich legalisiert haben,
+
+1027
+00:52:59,160 --> 00:53:01,280
+ unsere Drogen kaufen.
+
+1028
+00:53:01,280 --> 00:53:04,400
+ Also, ich sehe da auch tatsächlich noch ein paar Fragen.
+
+1029
+00:53:04,400 --> 00:53:06,520
+ Müssen wir diese gesellschaftlichen Probleme
+
+1030
+00:53:06,520 --> 00:53:08,640
+ auf das Bezahlsystem auslagern?
+
+1031
+00:53:08,640 --> 00:53:11,760
+ Ich würde sagen, das T für "Tala" steht für "taxable",
+
+1032
+00:53:11,760 --> 00:53:14,880
+ und "Schwarzarbeit" steht gerade für "nicht besteuert".
+
+1033
+00:53:14,880 --> 00:53:17,000
+ Und heißt eben auch nicht "sozialversichert",
+
+1034
+00:53:17,000 --> 00:53:19,120
+ und heißt "prekäre Beschäftigung",
+
+1035
+00:53:19,120 --> 00:53:21,240
+ und heißt "sehr leicht erpressbar".
+
+1036
+00:53:21,240 --> 00:53:24,360
+ All das fällt dann schon mal weg. Das ist was Gutes.
+
+1037
+00:53:24,480 --> 00:53:27,480
+ Und das ist das Problem, wie die heute schwarz arbeiten.
+
+1038
+00:53:27,480 --> 00:53:29,600
+ Bei wem arbeiten die Leute schwarz?
+
+1039
+00:53:29,600 --> 00:53:32,720
+ Bei den Leuten, die wirklich richtig Kohle haben.
+
+1040
+00:53:32,720 --> 00:53:35,840
+ Ich bin da voll bei dir, dass wir die Probleme an der Stelle lösen.
+
+1041
+00:53:35,840 --> 00:53:38,960
+ Und das Gleiche bei der Drogenkriminalität ist die Frage.
+
+1042
+00:53:38,960 --> 00:53:41,080
+ Wenn wir jetzt als Gesellschaft sagen,
+
+1043
+00:53:41,080 --> 00:53:44,200
+ Drogen sind ein Riesenproblem, und wir müssen das bekämpfen, gut.
+
+1044
+00:53:44,200 --> 00:53:47,320
+ Oder wir sagen eben nein, diese Drogen können wir legalisieren.
+
+1045
+00:53:47,320 --> 00:53:49,440
+ Aber das müssen wir politisch lösen.
+
+1046
+00:53:49,440 --> 00:53:52,560
+ Das sollten wir nicht sagen, das Bezahlsystem muss jetzt für
+
+1047
+00:53:52,680 --> 00:53:55,680
+ die aktuelle politische Flagge auch immer die richtige Antwort liefern.
+
+1048
+00:53:55,680 --> 00:53:57,800
+ Das sage ich ja nicht.
+
+1049
+00:53:57,800 --> 00:54:00,920
+ Aber es ist schon klar, dass wir die Probleme am besten lösen sollten,
+
+1050
+00:54:00,920 --> 00:54:04,040
+ wo sie auftreten und sinnvoll lösen sollten.
+
+1051
+00:54:04,040 --> 00:54:07,160
+ Aber so optimal ist ja leider unsere Politik nicht.
+
+1052
+00:54:07,160 --> 00:54:10,280
+ Und dass es da so eine gewisse Flexibilität gibt.
+
+1053
+00:54:10,280 --> 00:54:12,400
+ Ähm ...
+
+1054
+00:54:12,400 --> 00:54:14,520
+ Ich ...
+
+1055
+00:54:14,520 --> 00:54:16,640
+ Also, komplett ablehnen tue ich das nicht.
+
+1056
+00:54:16,640 --> 00:54:18,760
+ Am analogen Bargeld.
+
+1057
+00:54:18,760 --> 00:54:20,880
+ Aber da muss ich selber zugeben,
+
+1058
+00:54:21,000 --> 00:54:23,000
+ dass ich ja auch noch zwiegespalten bin.
+
+1059
+00:54:23,000 --> 00:54:25,120
+ Man muss ja nicht immer ...
+
+1060
+00:54:25,120 --> 00:54:27,240
+ Analoges Bargeld kann ja bleiben.
+
+1061
+00:54:27,240 --> 00:54:29,360
+ Ich muss sagen, technisch versuchen wir,
+
+1062
+00:54:29,360 --> 00:54:31,480
+ Recht und Gesetz möglichst gut umzusetzen.
+
+1063
+00:54:31,480 --> 00:54:34,600
+ Weil das eigentlich die Basis unserer Gesellschaft sein sollte.
+
+1064
+00:54:34,600 --> 00:54:37,720
+ Und gleichzeitig wäre es gut, wenn legalisierte Personen
+
+1065
+00:54:37,720 --> 00:54:39,840
+ dann irgendwie auch eine Möglichkeit hätten,
+
+1066
+00:54:39,840 --> 00:54:43,960
+ nicht nur analog bar zu zahlen zu müssen,
+
+1067
+00:54:43,960 --> 00:54:46,080
+ sondern auch irgendwie ...
+
+1068
+00:54:46,080 --> 00:54:50,200
+ ihr analoges Bargeld auch digitalisieren könnten.
+
+1069
+00:54:50,320 --> 00:54:52,320
+ Jetzt fragen wir noch mal kurz ins Publikum.
+
+1070
+00:54:52,320 --> 00:54:54,440
+ Was denkt ihr?
+
+1071
+00:54:54,440 --> 00:54:57,560
+ Wie viel Anonymität ist eurer Meinung nach nötig
+
+1072
+00:54:57,560 --> 00:54:59,680
+ bei einem digitalen Bargeld?
+
+1073
+00:54:59,680 --> 00:55:02,800
+ Wir haben noch, glaub ich, eine Minute oder so, oder?
+
+1074
+00:55:02,800 --> 00:55:04,920
+ Zwei Minuten haben wir noch.
+
+1075
+00:55:04,920 --> 00:55:10,360
+ Dann machen wir die zwei Fragen, oder?
+
+1076
+00:55:10,360 --> 00:55:12,480
+ Danke. - Hoffentlich sind sie einfach.
+
+1077
+00:55:12,480 --> 00:55:14,600
+ (Lachen)
+
+1078
+00:55:14,600 --> 00:55:17,720
+ Ja, meine ist eigentlich zu der Diskussion,
+
+1079
+00:55:17,720 --> 00:55:19,840
+ dass wir für das Offline-Bezahlen schon eine Lösung haben,
+
+1080
+00:55:19,960 --> 00:55:21,960
+ die Bargeld heißt.
+
+1081
+00:55:21,960 --> 00:55:24,080
+ Und zwar eine Frage an die Lena.
+
+1082
+00:55:24,080 --> 00:55:27,200
+ Was mir noch nicht eingeleuchtet hat bei deinem Szenario,
+
+1083
+00:55:27,200 --> 00:55:29,320
+ wo du keine 50 Euro hast,
+
+1084
+00:55:29,320 --> 00:55:33,440
+ wie so es wahrscheinlicher ist, dass du keine 50 Bargeld-Euro hast,
+
+1085
+00:55:33,440 --> 00:55:37,560
+ könnte ja auch sein, dass du keine 50 Nutale-Euro hast.
+
+1086
+00:55:37,560 --> 00:55:41,680
+ Also ist für mich sozusagen die gleiche Wahrscheinlichkeit,
+
+1087
+00:55:41,680 --> 00:55:43,800
+ dass ich auf dem einen oder anderen Modus ...
+
+1088
+00:55:43,800 --> 00:55:46,920
+ Hängt ja vorab, wie dominant das Bezahlsystem wird.
+
+1089
+00:55:46,920 --> 00:55:49,040
+ Wenn ihr alle überall mit Taran noch bezahlt,
+
+1090
+00:55:49,160 --> 00:55:51,160
+ könnte das ja Realität werden.
+
+1091
+00:55:51,160 --> 00:55:53,280
+ Aber ich will, dass ihr Bargeld behaltet.
+
+1092
+00:55:53,280 --> 00:55:55,400
+ Und ... Ich sehr gerne auch.
+
+1093
+00:55:55,400 --> 00:56:00,520
+ Und das andere zudem sozusagen am Rande oder kurz außerhalb
+
+1094
+00:56:00,520 --> 00:56:02,640
+ der Legalität ...
+
+1095
+00:56:02,640 --> 00:56:06,760
+ hat natürlich sozusagen immer auch Grenzen in dem Sinne,
+
+1096
+00:56:06,760 --> 00:56:11,880
+ dass irgendwann, wenn der Abstand sehr groß wird,
+
+1097
+00:56:11,880 --> 00:56:16,000
+ dann müssen die Geschäfte halt in Naturalien passieren.
+
+1098
+00:56:16,120 --> 00:56:21,120
+ Also das ist sozusagen ein Limit. Wenn ich das auch noch verhindern will,
+
+1099
+00:56:21,120 --> 00:56:24,240
+ dann muss ich, glaube ich, sehr viel Überwachung machen.
+
+1100
+00:56:24,240 --> 00:56:29,920
+ Vielen Dank für die Einwürfe. Haben wir noch Zeit für die letzte Frage?
+
+1101
+00:56:29,920 --> 00:56:32,800
+ Ja.
+
+1102
+00:56:32,800 --> 00:56:34,920
+ Das war wohl ja.
+
+1103
+00:56:34,920 --> 00:56:44,720
+ Ja, vielen Dank für die interessante Diskussion.
+
+1104
+00:56:44,840 --> 00:56:46,840
+ Ich habe nur einen kurzen Kommentar dazu.
+
+1105
+00:56:46,840 --> 00:56:49,960
+ Bezüglich dessen, wie jetzt die Technologie
+
+1106
+00:56:49,960 --> 00:56:53,080
+ eigentlich politisch gedacht ist.
+
+1107
+00:56:53,080 --> 00:56:55,200
+ Also ich meine, schon vor über 20 Jahren
+
+1108
+00:56:55,200 --> 00:56:58,320
+ hat ja Larry Lassig drüber geschrieben "Code embeds values".
+
+1109
+00:56:58,320 --> 00:57:01,440
+ Und ich glaube, man macht es sich ein bisschen zu einfach,
+
+1110
+00:57:01,440 --> 00:57:04,560
+ wenn man jetzt einfach sagt, wir halten uns da raus.
+
+1111
+00:57:04,560 --> 00:57:06,680
+ Wir sind ... Ich sehe schon ...
+
+1112
+00:57:06,680 --> 00:57:10,800
+ Wir halten uns nicht raus. Wir haben sicher unsere Werte reinkodiert.
+
+1113
+00:57:10,800 --> 00:57:13,920
+ Aber die spezifischen Parameter, was ist legal,
+
+1114
+00:57:14,040 --> 00:57:16,040
+ was macht die Geldpolitik?
+
+1115
+00:57:16,040 --> 00:57:19,160
+ Wir beschränken uns auf einen sehr bestimmten Punkt,
+
+1116
+00:57:19,160 --> 00:57:22,280
+ wo wir eben sagen, ja, wir haben den Wert Datenschutz,
+
+1117
+00:57:22,280 --> 00:57:25,400
+ wir haben den Wert Legalität, Einkommenstransparenz,
+
+1118
+00:57:25,400 --> 00:57:28,520
+ wir haben den Wert Umweltschutz, das muss effizient laufen.
+
+1119
+00:57:28,520 --> 00:57:31,640
+ Aber wir sagen nicht, was die Geldpolitik sein soll,
+
+1120
+00:57:31,640 --> 00:57:35,760
+ was die Geldmengensteuerung sein soll, welche Geschäfte legal sind,
+
+1121
+00:57:35,760 --> 00:57:37,880
+ welche Drogen illegal sind.
+
+1122
+00:57:37,880 --> 00:57:41,000
+ Das sind andere Probleme, die wir eben nicht mehr machen.
+
+1123
+00:57:41,120 --> 00:57:44,120
+ Das ist ein Thema, wo ich da auch mitgehen würde persönlich.
+
+1124
+00:57:44,120 --> 00:57:47,240
+ Aber stellen wir uns vor, wir sind in einem anderen System
+
+1125
+00:57:47,240 --> 00:57:49,360
+ oder in einem anderen Land,
+
+1126
+00:57:49,360 --> 00:57:52,480
+ wo wir keine demokratischen Institutionen haben,
+
+1127
+00:57:52,480 --> 00:57:54,600
+ keine Mitbestimmung.
+
+1128
+00:57:54,600 --> 00:57:57,720
+ Und ich meine, es gibt wahrscheinlich kein perfektes
+
+1129
+00:57:57,720 --> 00:57:59,840
+ demokratisches System.
+
+1130
+00:57:59,840 --> 00:58:02,960
+ Und dann ist das ja auch Teil eines Aktivismus,
+
+1131
+00:58:02,960 --> 00:58:06,080
+ wenn man sich nicht komplett immer in diesem Rahmen bewegt.
+
+1132
+00:58:06,080 --> 00:58:08,200
+ Ich will da jetzt nichts aufrufen,
+
+1133
+00:58:08,200 --> 00:58:10,920
+ aber ich hoffe, Sie verstehen, wie ich das meine.
+
+1134
+00:58:11,040 --> 00:58:14,040
+ Ich wollte eigentlich genau die Frage, die du gestellt hast,
+
+1135
+00:58:14,040 --> 00:58:16,160
+ an euch noch mal stellen.
+
+1136
+00:58:16,160 --> 00:58:19,280
+ Ich hab's, glaube ich, noch nicht ganz gerafft, das mit Anonymität.
+
+1137
+00:58:19,280 --> 00:58:22,400
+ Also einerseits wollen wir Anonymität haben,
+
+1138
+00:58:22,400 --> 00:58:24,520
+ falls das überhaupt möglich ist.
+
+1139
+00:58:24,520 --> 00:58:27,640
+ Wenn ich Geld ausgebe? - Genau, wenn ich Geld ausgebe,
+
+1140
+00:58:27,640 --> 00:58:30,760
+ falls das überhaupt möglich ist, so eine Anonymität.
+
+1141
+00:58:30,760 --> 00:58:34,360
+ Und andererseits haben wir dann die Beispiele, die ihr genannt habt,
+
+1142
+00:58:34,360 --> 00:58:36,480
+ Geldwäsche, Drogenkriminalität,
+
+1143
+00:58:36,480 --> 00:58:39,600
+ ich meine, dann gibt es noch viele andere, nationale Sicherheit,
+
+1144
+00:58:39,720 --> 00:58:42,200
+ aber wie wollen wir das dann technisch umsetzen,
+
+1145
+00:58:42,200 --> 00:58:44,320
+ diese Grenze bei Anonymität?
+
+1146
+00:58:44,320 --> 00:58:47,440
+ Wir können es technisch so machen, dass Anonymitätregeln
+
+1147
+00:58:47,440 --> 00:58:50,560
+ komplett anders sind für den, der das Geld ausgibt
+
+1148
+00:58:50,560 --> 00:58:52,680
+ und für den, der das Geld bekommt.
+
+1149
+00:58:52,680 --> 00:58:55,800
+ Das heißt, bei Taler, der das ausgibt, hat Anonymität,
+
+1150
+00:58:55,800 --> 00:58:59,920
+ und gleichzeitig, der das bekommt, ist transparent und identifizierbar.
+
+1151
+00:58:59,920 --> 00:59:03,040
+ Ja, aber zu einem anderen Zeitpunkt, für einen anderen Zweck.
+
+1152
+00:59:03,040 --> 00:59:06,160
+ Das heißt, wenn du das Geld dann später wieder ausgibst,
+
+1153
+00:59:06,160 --> 00:59:08,280
+ bist du bei dem Ausgeben dann wieder anonym.
+
+1154
+00:59:08,400 --> 00:59:13,600
+ Ja, danke. - Also immer, wenn du was bekommst, transparent, ja, doch.
+
+1155
+00:59:13,600 --> 00:59:15,720
+ Mit blinden Signaturen geht das.
+
+1156
+00:59:15,720 --> 00:59:19,840
+ Ich wollte dir übrigens noch mal für den Kommentar oder den Hinweis
+
+1157
+00:59:19,840 --> 00:59:23,960
+ danken zu der Frage, was passiert denn in einem autoritären Regime.
+
+1158
+00:59:23,960 --> 00:59:28,280
+ Das finde ich tatsächlich auch wichtig, das zu bedenken,
+
+1159
+00:59:28,280 --> 00:59:31,400
+ zu berücksichtigen in dem Moment, wo man eine Technik
+
+1160
+00:59:31,400 --> 00:59:36,520
+ eben paternalistisch aufbaut, kann sie halt auch dem Schlechten dienen.
+
+1161
+00:59:36,640 --> 00:59:40,640
+ Und auch da ist es wichtig, nicht die Augen vorzuverschließen.
+
+1162
+00:59:40,640 --> 00:59:42,760
+ Dafür noch mal danke. - Da muss man sagen,
+
+1163
+00:59:42,760 --> 00:59:44,880
+ die Chinesen bauen ihre CBDC so auf,
+
+1164
+00:59:44,880 --> 00:59:48,000
+ dass einfach alles komplett transparent vom Staat gesehen
+
+1165
+00:59:48,000 --> 00:59:50,120
+ und überwacht werden kann.
+
+1166
+00:59:50,120 --> 00:59:54,240
+ Das heißt, die autoritären Regime würden Taler nie in Betracht sehen.
+
+1167
+00:59:54,240 --> 00:59:58,360
+ Also ich möchte vielleicht einen letzten Satz zum Abschluss sagen,
+
+1168
+00:59:58,360 --> 01:00:02,480
+ "Move slow and repair things."
+
+1169
+01:00:04,240 --> 01:00:07,240
+ Ja, und ich vielen Dank. Erst mal vielen Dank.
+
+1170
+01:00:07,240 --> 01:00:09,360
+ Für die Diskussion, für das Gespräch.
+
+1171
+01:00:09,360 --> 01:00:12,480
+ Vielen, vielen Dank auch an euch für eure Fragen.
+
+1172
+01:00:12,480 --> 01:00:16,600
+ Wir haben gemerkt, es sind noch total viele Fragezeichen da.
+
+1173
+01:00:16,600 --> 01:00:19,720
+ Ich wollte noch mal kurz hinweisen auf diese zwei Links,
+
+1174
+01:00:19,720 --> 01:00:22,840
+ die ich hier einfach nur so ganz dreckig und schnell
+
+1175
+01:00:22,840 --> 01:00:24,960
+ in der Präsentation kopiert habe.
+
+1176
+01:00:24,960 --> 01:00:28,080
+ Genau, aber ihr findet auf der Seite von "Digitalcourage"
+
+1177
+01:00:28,080 --> 01:00:31,200
+ einen Artikel aus diesem Buch über digitales Bargeld.
+
+1178
+01:00:31,320 --> 01:00:34,320
+ Und ihr findet natürlich auf der Seite von taler.net
+
+1179
+01:00:34,320 --> 01:00:36,440
+ noch mal ganz viele Informationen darüber,
+
+1180
+01:00:36,440 --> 01:00:38,560
+ wie genau Taler funktioniert.
+
+1181
+01:00:38,560 --> 01:00:40,680
+ Und könnt da auch weiter verfolgen,
+
+1182
+01:00:40,680 --> 01:00:44,800
+ was dann jetzt mit den neuen Projekten in der Schweiz passieren wird.
+
+1183
+01:00:44,800 --> 01:00:47,920
+ Und es gibt im Enquete-Bericht der Enquete-Kommission
+
+1184
+01:00:47,920 --> 01:00:51,040
+ "Internet und digitale Gesellschaft" aus 2013
+
+1185
+01:00:51,040 --> 01:00:55,160
+ auch in den Sondervoten ein riesiges Kapitel über digitales Bargeld.
+
+1186
+01:00:55,160 --> 01:00:58,280
+ Beim Bundestag ist da auch schon drüber geredet worden.
+
+1187
+01:00:58,400 --> 01:01:01,400
+ Und ich glaube, dass das auch noch in der nächsten Runde
+
+1188
+01:01:01,400 --> 01:01:04,520
+ mit anderen Überwachungspaketen nicht zustimmen wollte.
+
+1189
+01:01:04,520 --> 01:01:07,640
+ Gut, dann bitte Applaus für unsere Gesprächsrunde.
+
+1190
+01:01:07,640 --> 01:01:09,760
+ * Applaus *
+
+1191
+01:01:09,760 --> 01:01:17,880
+ Und auch Applaus für alle, die sich, die so viele gute Fragen gestellt haben
+
+1192
+01:01:17,880 --> 01:01:20,000
+ und das Thema weiter vertieft haben.
+
+1193
+01:01:20,000 --> 01:01:24,120
+ Vielen Dank, dass ihr euch so aktiv beteiligt habt an dieser Gesprächsrunde.
+
+1194
+01:01:24,120 --> 01:01:26,240
+ * Musik *
+
+1195
+01:01:26,240 --> 01:01:29,240
+ SWR 2021
+

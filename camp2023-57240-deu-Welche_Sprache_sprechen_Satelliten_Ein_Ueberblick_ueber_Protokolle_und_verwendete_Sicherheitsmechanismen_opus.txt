@@ -1,0 +1,208 @@
+ [Musik]
+ Unser nächster Sprecher ist Kolipedia.
+ Der macht was mit Satelliten.
+ Er fokussiert sich da auf Protokolle, wie die Satelliten mit dem Boden sprechen
+ und schaut sich so ein bisschen an, ob die das auch sicher machen.
+ Für den nächsten Talk, welche Sprachen sprechen Satelliten?
+ Kolipedia.
+ Danke sehr. Willkommen hier bei dem Talk auf dem wunderschönen Camp.
+ Ganz kurz Hintergrund zu mir.
+ Ich habe Technik und Informatik studiert, Embedded Systems,
+ und bin seit 2017 im sogenannten New Space Bereich tätig.
+ Programmiere da so den Onboard Computer bei einer Firma,
+ die Kommunikation zwischen Boden und Satelliten,
+ und so Low-Level-Software und dann auch so ein bisschen Krypto.
+ War bei bisher drei Satellitenmissionen beteiligt.
+ Die letzte war im Juni '23 auf dem Transporter 8.
+ Und wenn danach noch Fragen sind, bin ich auf dem Event.
+ Ihr findet mich gerne beim Zert oder könnt mich anrufen,
+ Deckt 2654.
+ Kurze Übersicht.
+ Bei Satelliten unterscheidet man verschiedene Größen und Massen.
+ Da hat man zum einen die Cube Sets als kleinstes.
+ Das sind so 10 x 10 x 10 cm Cube, Quadr, teils mehrere aneinander.
+ Dann spricht man von 2U, 6U Cube Sets.
+ Von jeder Quadrat so 1,3 kg Maximum.
+ Darüber sind die Micro Sets und die Mini Sets so 10 bis 600 kg.
+ Small Sets so bei 600 bis 1200 kg.
+ Und dann geht es also schön weiter hoch.
+ Cube Sets dienen zur Technologie-Aprobung.
+ Oder werden gerne von Universitäten genutzt,
+ wenn die Raumfahrtstudiengänge haben und die Studis halt einen Satelliten bauen.
+ Denn die sind halt schön klein, die sind relativ günstig.
+ Und dann kann man sie hochsenden.
+ Und Hardware von Cube Sets findet sich auch teilweise in der
+ Small bis Mini Sets/Micro Sets Kategorie.
+ Denn diese Hardware ist auch kommerziell erhältlich.
+ Und relativ günstig, kann gut eingebaut werden.
+ Die mittlere Kategorie wird gerne von Firmen in sogenannten New Space Bereich gemacht.
+ Die sind meistens günstiger als der sogenannte Old Space Bereich.
+ Old Space wären so OHB, Airbus.
+ Und die bauen Satelliten für die Raumfahrtorganisation oder Kommunikationssatelliten im geostationären Orbit.
+ New Space Bereich macht dann Sachen und auch die Universitäten wesentlich günstiger.
+ Nehmen auch gerne mal Commercial Off-Shelf-Komponenten, also Komponenten, die man so im Freien Halle findet.
+ Wie gesagt, wir schauen uns jetzt mal kurz an, was denn für Protokolle meistens benutzt werden.
+ Und das allererste ist das Protokoll, was sehr oft bei den Cube Sets genommen wird.
+ Das ist das Cube Set Protokoll von der Universität entwickelt.
+ Wie gesagt, man findet das auch bei größeren Satelliten gegebenenfalls, wenn diese Kommunikations-Equipment einkaufen aus dem Bereich.
+ Es ändert sehr stark kann, spricht also direkt Geräte und Applikationen auf dem Satellitenbus an.
+ Und die einzige Authentifizierung, die man da hat, also Krypto an sich nicht groß drauf, ist maximal eine H-Mark-Mittel, Schar 1.
+ Also verschlüsselt sind die meistens nicht, es sei denn man baut da drauf noch auf einer höheren Ebene sich extra was.
+ Das passiert aber nicht häufig.
+ Der andere große Block an Protokollen sind die Protokolle, die die CCSDS erarbeitet.
+ CCSDS steht für Consultative Committee of Space Data Systems.
+ Das ist eine Gruppe, die den meisten großen Raumfahrtorganisationen angehören oder mindestens beisitzen.
+ Er stellt also Kommunikationsstandards für alles im Spacebereich, sei es von Bodenstationen zu Operation Setter, Satellit zu Satellit oder Boden zu Satellit.
+ Hier ist jetzt mal eine kleine Übersicht da drauf.
+ Dort hier so nach dem OSI-Layer.
+ Wir haben in der Physi-Layer die AFM Modulation Systems.
+ Die Data-Link-Layer teilt sich so auf in die Sync- und Channel-Coding-Protokolle und da drüber aufbauend die sogenannten Space Data Link-Protokolle.
+ Und in der nächsten Layer hätten wir dann schon in der Network-Layer Space-Protokolle oder Encapsulation Service.
+ Und oftmals hört es da auch schon auf bei den Satelliten.
+ Die gehen meistens nicht noch wesentlich höher von den Protokollen.
+ Eine Eigenheit von den CCSDS-Protokollen ist, dass man da viel Legacy mitnehmen wollte.
+ Und sehr, sehr viele Optionen in den Protokollen hat, die oftmals auch nicht im Header spezifiziert sind.
+ Das heißt, beide Seiten müssen wissen, Header A wird noch zusätzlich benötigt, obwohl es im Header B, der immer dabei ist, nicht eine Flag gesetzt ist.
+ Die E-S existiert einfach nicht.
+ Wenn wir ganz unten anfangen, in der OSI Layer 1, also physical, dann haben wir da das RF Modulation Systems Standard.
+ Der ist relativ locker gehalten, der spricht vor allem Empfehlungen aus, was Frequenzen angeht, die Nutzung von diesen Frequenzen, Modulationstechniken und Sende stärken.
+ Interessant wird es aus meiner Sicht eins darüber,
+ wenn wir in der OSI Layer 2 sind und bei den CCSync und Channel Coding anfangen,
+ diese CCSync und Channel Coding-Protokolle kümmern sich grundsätzlich um die Vorwärtsfehlerkorrektur, also Forward Error Correction,
+ und packen auch gerne mal einen Sync-Marker vor und nach Datenblöcken rein, damit man diese Datenblöcke von dem Rauschen besser unterscheiden kann.
+ Und oft spezifizieren sie auch Idle-Pattern.
+ Das heißt, wenn ein Funkgerät jetzt an ist und was raussendet, aber keine Realdaten von dem Mastergerät kommen, dann werden Idle-Daten rausgewendet und das darin auch spezifiziert.
+ Bei dem sogenannten CCSync und Channel Coding-Protokoll, das ist der Uplink,
+ TC ist immer so die Abkürzung für Telecommand, also Kommandos vom Boden an den Satelliten, sehen wir hier, haben wir so zwei Balken,
+ denn das kann entweder mit dem BCH-Coding passieren oder mit dem LDCP-Coding.
+ Ist allerdings reiner Coding, Authentifisierung ist hier nichts.
+ Im Downlink haben wir dafür das TM-Sync und Channel Coding-Protokoll, TM für Telemetrie, ist immer von oben, vom Satz zu Ground.
+ Ist sehr äquivalent aufgebaut zu dem TC-Sync und Channel Coding, unterscheidet sich noch ein bisschen davon, da TM und TC von der Struktur sich gerne unterscheiden.
+ TC-Telecommandos sind oftmals nicht Fixed-Size-Commandos, sondern haben eine Variable-Länge in den Paketen, da wird also nicht gepaddet oder so,
+ während TM oftmals Fixed-Size ist, gegebenenfalls wird es gepaddet und darauf optimieren dann diese Sync- und Channel Coding-Protokolle auch.
+ Und deswegen gibt es da unterschiedliche von.
+ Wenn wir da jetzt eins höher gehen, in die OSI Layer 2, weiterhin in dieser OSI Layer 2 haben wir da, wie angesprochen, die Space-Data-Links-Protokolle.
+ Diese generieren sogenannte Transfer-Frames.
+ Da fängt es dann auch schon an, dass man jetzt Satelliten identifizieren kann.
+ Spacecrafts haben so eine generierte Spacecraft-ID, die wird von Asana verteilt, die kann man da nachschlagen und dann sieht man, welche IDs auf welcher Frequenz ein gewisser Satellit nutzt
+ und kann die daran sehr gut identifizieren, auch wenn verschiedene Satelliten die gleichen Frequenzen nutzen.
+ Diese Space-Data-Link-Protokolle dienen jetzt dazu, dass man einen physikalischen Channel, also eine Frequenz, aufteilt in virtuelle Kanäle
+ und da dann auch schon anfangen kann, gewisse Funktionalitäten auseinanderzuklamüsern.
+ Beispielsweise macht man gerne, dass ein virtueller Channel alle Satellitenbus-Telecommandos enthält und ein anderer die für die Payload, also für die Sensorik.
+ Wenn einem das nicht ausreicht, sondern viel Kleinteilheit gewiesen möchte, kann man das auch erweitern und dann noch weitere IDs über Multiplex-Channel-Access-Point-IDs nutzen.
+ Eine weitere Option hier ist, dass man sich entscheiden kann pro virtuellen Kanal, ob man eine Sicherstellung haben möchte, dass alle Frames oben erhalten werden oder ob man Fire-off-and-Forget macht.
+ Das ist die sogenannte COP1, die Communication Operations Procedure.
+ Sehr simpel gehalten, der Satellit sagt einfach, was ist mein letztes erhaltenes Paket und die Bodenstation sieht schon, ob das jetzt passt oder ob man nochmal was neu senden muss.
+ Man kann auch hinten noch einen weiteren CAC anhängen, so ein Frame Error-Control-Fit ist da noch, das ist alles so optional.
+ Genauso optional ist es, ob man jetzt einen Security-Header und einen Security-Treller einparaut.
+ Das ist jetzt die Idee, dass man dort optional das Space Data Link Security-Protokoll anwendet, was sich jetzt wirklich hier auf Transfer Layer mal um Authentifizierung gegebenenfalls Encryption kümmern würde.
+ Da gehen wir ein bisschen später nochmal genauer darauf ein.
+ Parallel dafür, für ein Downlink gibt es das TM Space Data Link-Protokoll, das sieht wieder sehr ähnlich aus.
+ Der hier angedeutete Unterschied ist, dass wir hier Fixed Size Transfer Frames haben, das heißt, die haben alle die gleiche Länge auf dem gleichen physikalischen Kanal.
+ Und wir haben jetzt hier noch optional dieses Operational Control Field, das ist immer Plain und da sind Informationen gegebenenfalls drin, ob der Satellit zum Beispiel ein Signal von der Bodenstation dann schon empfangen hat.
+ Das hilft dabei, wenn jetzt die Bodenstation nicht Krypto-Keys hat, sondern nur das Operations Center, aber wissen möchte, passt das jetzt mit dem Uplink, ist das Signal denn angekommen, dann sehen wir das sofort.
+ Unabhängig davon, ob das Operations Center jetzt eine Kommande hochgesendet hat oder nicht.
+ Man kann darüber auch gegebenenfalls Informationen über das Kryptosystem runter senden.
+ Da kann zum Beispiel drinstehen, dass über ein Virtual Enchannel ein Paket verworfen worden ist. Das ist so ein bisschen optional, was man da so reinpackt.
+ Und es muss auch nicht genau zu dem Virtual Enchannel gehören, zu dem der Transfer Frame jetzt gehörte.
+ Dann reicht das irgendwann mal nicht aus und CCSS hat das sogenannte Advanced Orbital System Space Data Link-Protokoll, das AOS Space Data Link-Protokoll entworfen.
+ Das kann man sowohl in Up- oder Downlink nutzen und das arbeitet auch wieder mit einer festen Größe der Transfer Frames.
+ Und dient zum Transfer von größeren oder komplexeren Paketen, zum Beispiel Payload-Daten, wie Fotos von der Erdoberfläche.
+ Die haben dann zusätzlich noch so einen weiteren Header hier vorne, so eine Transfer Frame Installation, auch wenn voran immer komplett plane und sichtbar.
+ Und ist jetzt eine Möglichkeit analog zu dem Operation and Control Field eine missionsspezifische Public Information da so mit reinzuwerfen in den Frame.
+ Ist also einfach nur ein weiteres Datenfeld, was immer außerhalb des Standarddatenfelds ist und so periodisch Daten runter sendet.
+ Und ganz, ganz neu, also wirklich druckfrisch von 2020 oder 2019 ist jetzt das Unified Space Data Link-Protokoll entstanden.
+ Weil es jetzt langsam ein bisschen viel wurde mit den verschiedenen Protokollen, haben wir gesagt, wir nehmen jetzt die Lehren von all diesen drei Protokollen und packen die in eins.
+ Und ersetzen zukünftig mal hoffentlich TC, ETM und AOS Protokolle.
+ Man sieht nämlich jetzt auch hier, dass die ganzen optionalen Header und Trailer von den allen vorherigen drei Protokollen hier auch enthalten sind.
+ Wird aber bisher sehr wenig genutzt. Auf dem SANAA-Registry habe ich aktuell drei Missionen gesehen, die das angemeldet haben.
+ Die auch nicht unbedingt alle schon gestartet sind.
+ Eine Besonderheit hier ist, dass man jetzt endlich auch im Downlink Variable-Sized Packets hat und auch große Pakete runter senden kann.
+ Denn die anderen Protokolle kommen an ihr Ende, wenn man anfängt optische Kommunikationslinks einzusenden.
+ Also mit Laser runter, dann hat man sehr hohe Datenraten und das passt dann mit den, die Pakete sind zu klein, als dass man da vernünftig Daten runter kriegt.
+ Und nicht zu viel overhead.
+ Wenn man jetzt einen Layer hochgeht, was wirft man in diese Space Data Link Protokolle rein?
+ Eine Möglichkeit ist Pakete vom Accapulation Service.
+ Die Space Data Link Protokolle haben gegebenenfalls einen Fixed Size.
+ Das heißt, wenn ich ein größeres Paket habe, muss ich das aufteilen.
+ Dafür dient dieser Accapulation Service.
+ Man schmeißt einen Header vor, sagt, wie groß das Paket hinterher ist und packt das rein.
+ Und es ist auch der einzige Weg, wenn man jetzt komplette CCS/DS Compliance haben möchte, nicht CCS/DS Protokolle da so mit reinzuschieben.
+ Da muss man den Accapulation Service reinwerden, den Accapulation Packet draus machen und dann kann man das reinmachen.
+ Zum Beispiel IP kann da rüber laufen.
+ Also es gibt eine Spezifikation, wie man da rüber jetzt IP laufen lässt und dann hat man eine IP-Verbindung zum Satelliten.
+ Oder man schmeißt ein proprietäres Protokoll rein.
+ Damit kann man auch potentiell mehrere Protokolle auf dem gleichen Viertelchenkanal laufen lassen.
+ Eine andere Möglichkeit ist, man bleibt in der Kommandostruktur komplett in CCS/DS und dann hat man das Space Packet Protokoll.
+ Das ist ein sehr, sehr simples, busbasiertes Protokoll.
+ Es hat vorne vor allem eine Application ID.
+ Unten fällt für eine Datenlänge und dann ein großes Datenfeld.
+ Und die Application ID kann jetzt entweder ein Subgerät auf dem Satelliten identifizieren oder ein Service von einem Gerät.
+ Und man kann ein bisschen Routing auf dem Satellitenbus betreiben, die es da hinschieben und dann kann die User-Data-Feld ausgelesen werden und die Kommandodaten daraus generiert werden.
+ Genau. Jetzt habe ich bei den verschiedenen Sachen das Base-Data-Link Security-Protokoll erwähnt oder so ein bisschen angeworfen.
+ Das ist wie gesagt optional, ob das eingesetzt wird und ist die Möglichkeit jetzt auf der Transport-Layer Authentifizierung, Verschlüsselung oder authentifizierte Verschlüsselung einzusetzen.
+ An sich bietet es nur einen standardisierten Weg, die Parameter, die ein gewisser Algorithmus braucht, zur Gegenseite zu schieben.
+ Beispielsweise ein Identifizierungsvektor.
+ Es hat vorne auch eine Security-Parameter-Index, das ist immer ganz interessant, denn das identifiziert dann eindeutig eine sogenannte Sicherheitsinstanz.
+ Beispielsweise wenn man jetzt sagt, man hat jetzt hier Telecommands über einen virtuellen Kanal und die nutzen immer die Security-Parameter-Index 4, weiß man, das ist immer der gleiche Schlüssel, der für den dahinteren Teil genutzt worden ist.
+ Denn ein Schlüssel gehört dann ein-eindeutig zu einem Security-Parameter-Index.
+ Aber wie gesagt, es ist komplett dem Nutzer überlassen, ob man jetzt verschlüsselt, authentifiziert oder gar nichts macht oder beides macht.
+ Und auch was man überhaupt verschlüsselt und authentifiziert.
+ Verschlüsselt, wenn dann die Daten dahinter, die anderen Headers sind alle dann plain.
+ Es gibt ein paar Empfehlungen vom CCSDS. Die klare Empfehlung ist, dass man entweder eine Anzahl von Schlüsseln, so viele wie man für die Emissionslänge benötigt, vor Start auf den Satelliten brennt.
+ Also da nie einen Schlüsselaustausch macht.
+ Oder dass man einen Master-Schlüssel hat, der nur dazu dient, Session-Schlüsse zu setzen.
+ Das heißt, Einschlüsse vorladen und jetzt habe ich hier eine Virtual-Enchante, möchte da jetzt anfangen, zu verschlüsselt zu sprechen.
+ Ich nutze ein Kommando, was mit dem Master-Schlüssel authentifiziert und hoffentlich auch verschlüsselt ist, um einen neuen Schlüssel auf den Satelliten hochzuladen.
+ Es wird explizit gegen Sachen wie Defi-Hellmann empfohlen. Machen auch sehr wenige.
+ Man sagt nämlich, es sei ein zu geringer Datenraten vom oder zum Satelliten, es sei ein unverlässiger Kontakt zum Satelliten und es ist kein Techniker vor Ort bei Fehlern.
+ Und entsprechend sieht man das auch sehr selten, weil diese Standards explizit davon abraten.
+ Das leitet jetzt auch direkt zu problematischen Praktiken und Mythen, die sich in dem Space-Bereich so dadurch oder insgesamt an einen Heim gefunden haben oder die diese Empfehlungen auch zu diesen Empfehlungen führen.
+ Zum Beispiel in der Leop-Phase, das ist die Phase direkt nachdem man einen Satelliten gestartet hat und der jetzt rausgeworfen ist aus der Rakete.
+ Und man jetzt anfängt ihn in Betrieb zu nehmen. Die ersten Geräte ruchts fern und aufhört, dass er sich unkontrolliert dreht, mal schon in Betrieb nehmt halt.
+ Das passiert oft unverschlüsselt und gegebenenfalls sogar unautentifiziert, denn dann fragt man ja ein paar Bytes und wenn er sich stark dreht und man schlechten Konfrontkontakt hat, dann sind die Kommandos halt kürzer und dann kommen sie besser durch.
+ Mit modernen Equipment ist das aber einzig kein Problem, selbst wenn man eine moderate Drehrate hat. Die 20 Bytes oder so oder die 40 Bytes, die vielleicht einen Security Deck braucht zur Authentifizierung, die kriegt man eigentlich noch runter.
+ Wird aber halt gerne weggelassen aus historischen Gründen und weil man halt das schon immer so gemacht hat.
+ Dann habe ich schon angesprochen, dass die Standards so ein paar interessante Ideen haben. Zum Beispiel implizieren sie auch, dass es nicht schützungswerte Daten gibt.
+ Ich habe gesagt, die Space-Starter-Link-Security-Protokoll ist komplett optional. Das heißt auch, wir müssen es nicht immer anwenden.
+ Und es ist auch so komplett optional, ob man es verschlüsselt oder unautentifiziert oder beides macht.
+ Das heißt, manche Daten sind wertvoller als andere und wir machen es nur bei manchen.
+ Aus dem Internetbereich weiß man vielleicht, dass man es einfach bei allen machen sollte und da jetzt nicht groß auswählen sollte.
+ Denn auch Telemetrie im Downlink ist auch schon interessant zum Status von Satelliten.
+ Ja, auch herrscht oft die Meinung vor, dass das Systeme seien, die viel zu komplex sind für Angreifer.
+ Zum Beispiel die Iridium-Satelliten betreiben, haben das explizit in den News Of The News gesagt, bevor sie selbst entschlüsselt worden sind von Security-Rechart.
+ Und das ist trotzdem noch weit verbreitete Meinung.
+ Bodenstationen seien auch viel zu teuer für Angreifers.
+ Eine verbreitete Meinung. Sprecht mal mit ein paar Amateurfunkern, was so eine 100 Watt S-Bahn-Bohnstation kostet.
+ Das Alter wird unter 10.000 Euro dabei, vielleicht sogar unter 5.000.
+ Ist also nicht mehr begrenzend dafür.
+ Insgesamt ist das eine Industrie, die sehr viel geheim hält.
+ Und dadurch hat man auch viel weniger oder viel schwieriger, dass Sicherheitsforscher sich wirklich Sachen anschauen und viel weniger externe Prüfung.
+ Ist alles exportbeschränkt, oh wir können hier niemanden ranlassen.
+ Und man ist also so ein Gatekeeper.
+ Und ja, ich sprach schon von einer Leopfase, ähnlich gibt es auch Emergency Commands oftmals.
+ Das ist manchmal so ein Backdoor-Path Design.
+ Hey, was ist, wenn der Satellit jetzt sich unkontrolliert dreht, dann sind wir wieder in der Leopfase, dann müssen wir wieder anfangen kurze Commandos zu senden.
+ Also machen wir die Krypto aus.
+ Oder wir haben einfach Commandos, die keine Krypto brauchen.
+ Aber vielleicht sogar direkt auf dem Satellitenbus arbeiten.
+ Genau, und Master in Technologie habe ich schon angefangen.
+ Beispiele sind zum Beispiel ESA Copernicus, also von großen Argumenten von ESA.
+ Die machen laut ihren eigenen Argumenten Master- und Session-Key-Detail.
+ Also sie haben einen Master-Key in Copernicus, der setzt einen Session-Key pro Kanal.
+ Und der Session-Key macht auch nur Authentifizierung, also Commandos sind plain und die Technologie auch.
+ Ist nur authentifiziert.
+ Und im Newspaces Design-Bereich sieht es teils noch ein bisschen schlechter aus, weil man halt mit weniger Ressourcen arbeitet.
+ Und entsprechend sparen möchte.
+ Ja, also man kann sich vieles anschauen.
+ Wenn man was empfängt, kann man oftmals auch ein bisschen was decoden.
+ Und wenn sich Leute das genauer ansehen würden, dann würde man da vielleicht auch leichter raufkommen.
+ Vielen Dank, Colibelia, für deinen Vortrag.
+ Man findet dich wo?
+ Ja, ich bin oft beim Zert und sonst Deck Nummer 2654.
+ Ich verwerfe es auch gerne noch drauf, es gibt noch ein paar weitere Space Talks hier.
+ Teilweise schauen Sie sich auch hier höheren Layers an, dann von anderen Leuten, die dürfen auch sehr interessant sein.
+ Super, danke.
+ Ihr nehmt bitte euren Müll wieder mit.
+ Trinkt viel.
+ [Musik]

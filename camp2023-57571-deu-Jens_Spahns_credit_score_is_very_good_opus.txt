@@ -1,0 +1,527 @@
+ [Musik]
+ Hallo und herzlich willkommen an einen wunderschönen guten Abend am Chaos
+ Communication Camp, nicht Kongress, Camp 2023. Es ist Tag 2, es ist Abend, dies ist
+ die Milleway-Bühne. Schön, dass ihr alle da seid.
+ Responsible Disclosure haben wir jetzt doch schon ein paar Jahre an der Backe und es hat
+ sich eigentlich bewährt als ein Mechanismus, um Schwachstellen zu finden,
+ zu reporten, also an die betroffenen Stellen zu reporten, zu fixen und
+ generell gut damit umzugehen. Es gibt aber, man kann darüber diskutieren,
+ Momente, wo dieses Responsible Disclosure nicht so gut funktioniert. Wie und
+ warum und was das mit Jens Spahn's Schuferschur zu tun hat, erklärt euch
+ jetzt Lilith Wittmann. Bitte begrüße sie mit einem ganz, ganz großen Applaus.
+ Ja, danke schön. Wir haben es eilig, wie immer bei meinen Vorträgen, also nicht
+ zu viel dazwischen klatschen bitte, sonst schaffe ich das mit der Zeit nicht.
+ Ich weiß, ihr findet manchmal Sachen cool und freut euch, aber einfach nicht zu viel
+ dazwischen. Danke. Genau, wir sprechen heute darüber, dass Jens Spahn's Credit Score
+ sehr gut ist, was für niemanden sehr unerwartet sein könnte. Und erstmal
+ natürlich vielen Dank an alle Menschen, die das hier gerade heute möglich machen.
+ All die Engel, die hier irgendwie gerade arbeiten, denen können wir auch mal
+ applaudieren. Genau. Und wir haben heute einen ganz besonderen Gast, der
+ Krisen-PR-Mensch von Bonify sitzt nämlich hier unter uns, der wollte unbedingt
+ hierher kommen und wollte uns vielleicht erzählen oder was auch immer, was Bonify
+ für eine tolle Firma ist. Leider wird er heute hier nicht sprechen können, er kam
+ zwar rein, aber wir wollen wirklich nicht, dass er uns hier Quatsch erzählt.
+ Er ist so Krisen-PR-Mensch und ihr seht hier ein Bild von ihm von seiner Webseite,
+ er war mal Playboy-Interview-Chef und macht jetzt Krisenkommunikation, nennt das
+ aber nicht so gerne so. Und Jens, der ist richtig, richtig krass, der wirbt auf
+ seiner Webseite mit seinen Kontakten zu Spezialeinheiten, wie der GSG9, dem SEK
+ oder dem KSK. Und er mag zwar GSG9 haben, aber ich habe CCC und ich habe Engel,
+ die gut auf ihm aufpassen, deswegen habe ich keine Angst vor ihm, dass er heute hier
+ ist und sich hier reingedrängt hat. Ja, setz dich bitte hin, du darfst nicht reden,
+ war die Vereinbarung. So, dann haben wir dich jetzt auch begrüßt, ab jetzt darfst du
+ bitte leise sein und am Anfang wollte ich euch heute mal so eine Geschichte erzählen,
+ so eine Vorgeschichte von Bonify und der Schufa. Und es war einmal eine große,
+ alte Kreditauskunftstei, die gab es schon fast 100 Jahre, ich glaube dieses Jahr 96
+ Jahre und dieser Kreditauskunftstei, der war Vertrauen sehr, sehr wichtig. Aber
+ diese Kreditauskunftstei, die hatte auch viele große Probleme, denn viele Menschen
+ vertrauten der einfach nicht, vielleicht weil sie Kreditauskunftsteien irgendwie
+ nicht mochten oder weil vielleicht viele Menschen Angst vor ihr hatten, weil so ein
+ Kreditscore zum Beispiel, der kann tollen Einfluss auf deren Leben haben, der kann
+ sogar deren Leben im Zweifel kaputt machen. Und die Schufa, die hatte sogar noch mehr
+ Probleme, denn ein Gutachter des Europäischen Gerichtshofs hat dieses Jahr festgestellt,
+ dass das Geschäftsmodell der Schufa, nämlich uns mit Nummern zu bewerten, vielleicht sogar
+ illegal ist. Da warten wir jetzt gerade auf das Urteil und das würde dann bedeuten,
+ dass es in Deutschland die Schufa so nicht mehr geben kann.
+ Und da wurde die Schufa sehr, sehr traurig. Und was macht ihr, wenn ihr traurig seid?
+ Also ich gehe dann meistens shoppen. Ich gehe dann zur H&M oder einen Apple Store
+ und kaufe irgendwas viel zu teures, total nutzloses. Die Schufa, die geht nicht in
+ den Apple Store, die ist viel größer, 250 Millionen Euro Jahresumsatz, da geht man nicht
+ in den Apple Store, da kauft man Startups. Und die Schufa ging also zur Markte und
+ schaute, welche Startups es da gerade zu holen gab. Und dann fand die auf dem Markt so eine
+ total hippe, junge, moderne Firma namens Bonify. Da sollte jetzt eigentlich der
+ Werbefilm laufen, aber aus irgendeinem Grund rendert der nicht, aber ganz, ganz
+ hippe Firma, modernes Berliner Office, 30 Leute, total cool. Was macht Bonify?
+ Bonify ist eine total seriöse und vertrauenswürdige Firma, die kümmert sich um
+ euch, um eure Bonität, eure Finanzen und eure Zukunft. Die helfen euch dabei, euer
+ finanzielles Leben endlich in Griff zu bekommen. Bonify kümmert sich um euch.
+ Also ein junges, hippes Startup, das mit einem tollen Geschäftsmodell Menschen
+ hilft und dem ihr vertrauen sollt. Und da dachte sich die Schufa, was ein Fang, die
+ kaufen wir. Und dann hat die Schufa, die der Ende letzten Jahres einfach gekauft und
+ wollte damit ein bisschen ihr Blackbox-Image loswerden, dass ihr da wieder mehr vertraut.
+ Und klingt ja alles ganz toll, aber dann lese ich diesen Artikel und dann steht da
+ was von einer Datenplattform. Ich dachte Bonify sei für euch da und es geht nicht
+ um Daten, sondern es geht um eure Finanzen. Und dann habe ich mich da einfach mal
+ angemeldet und dann sehe ich da so, natürlich sind ja eine Datenplattform, brauchen
+ irgendwie meine Namen und mein Geburtsdatum und meine Mobiltelefonnummer und meine
+ aktuelle Adresse und all meine letzten Adressen und so weiter und so fort, was so eine
+ Datenplattform halt für euch braucht. Und wenn man schon mal dabei ist, warum gibt man
+ denen nicht gleich die Zugangsdaten zu seinem Konto, damit die auf deine Transaktion
+ zugreifen können? Weil wir vertrauen denen ja und die wollen uns ja helfen, also sollten
+ wir das machen. Und wenn wir all das gemacht haben, dann können die uns richtig
+ doll helfen. Denn dann können die uns was über unsere Fin-Fitness aussagen. Die können
+ uns unseren Schufa-Score und unseren Universumscore aussagen. Und ich meine, da sieht
+ man, die wollen uns mit unserer Bonität helfen. Wir geben die nur so ein bisschen
+ Daten und die geben uns so viele Informationen. Und wenn unser Schufa-Score oder
+ unser Universumscore dann sogar sehr schlecht ist, dann haben die sogar was für uns.
+ Nämlich den Känguru-Kredit. Für nur 15% effektiver Jahreszins maximal. Schenken die
+ euch quasi Geld. Für die sind quasi so Deins-Meins-Bürgerliche-Kategorien, um das
+ Känguru hier zu zitieren. Damit springt ihr nur so über euren finanziellen Engpass.
+ Und dann kamen diese Kritiker vom NDRSZ-Recherche-Verbund und erzählen da irgendwas
+ davon, dass das total kritisch ist, wenn die Schufa bei einer Tochterfirma von ihr
+ selbst schufafreie Kredite verkauft. Von denen die Schufa-Chefin selber sagt, dass das
+ quasi so Kredit-Teile sind in einem Interview mit Finanzfluss. Aber was soll es? Die
+ sollen mal nicht so kritisch sein. Fassen wir das Geschäftsmodell von Bonifide zusammen.
+ Ihr gebt denen einfach nur eure Daten. Ganz einfach. Und dann geben die euch wichtige
+ Informationen für euer Leben. Sie haben euch bisher gesagt, dank Boniversum, ob ihr einen
+ Kredit bekommen könnt oder nicht, also wie hoch euer Score ist. Dann geben die euch
+ wertvolle Tipps über eure finanzielle Freiheit, die euch sonst euer Opa geben könnte, wie
+ spart mehr. Oder eure Wohnung ist zu teuer. Scheiße, wenn man in Berlin wohnt. Oder falls
+ ihr zufällig einen Kredit braucht, die haben auch was für euch. Jetzt steht da bisher nur
+ Boniversum, weil die konnten die Schufa nicht benutzen, solange sie noch nicht der Schufa
+ gehört haben. Und deswegen war das quasi so ein strategischer Einkauf, auch für Bonify.
+ Vergleichen wir also mal ganz kurz, was denn der Unterschied zwischen den zwei größten
+ Kreditauskunftsteilen in Deutschland ist. Boniversum versus Schufa. Das Duell der Giganten quasi.
+ Boniversum wird von so ein paar einzelnen Onlineshops in Deutschland benutzt. Schufa kommt
+ ihr automatisch rein, sobald ihr ein Konto eröffnet, weil die kooperieren mit allen Banken.
+ Die Schufa gehört quasi 30 verschiedenen Banken. Ich glaube vielleicht ein bisschen weniger,
+ ich weiß es gerade nicht. Bei der Boniversum bekommen sie die Daten von Onlineshops, bei
+ der Schufa von Banken. Beide benutzen Daten aus öffentlich zugänglichen Registern. Das,
+ was ich auch schon mal gemacht habe, dass ich aus dem Insolvenzregister und dem Handelsregister
+ Daten gescraped habe, aber als ich das gemacht habe, haben sich alle total darüber aufgeregt.
+ Die machen das die ganze Zeit. Und die einen würfeln eure Kreditwürdigkeit dann auf Basis
+ von eurem Wohnort und die anderen benutzen so ein paar Mehrfaktoren, wie viele Konten ihr
+ besitzt, wie oft ihr umgezogen seid und ob ihr Kredite habt und noch ein paar Mehrfaktoren.
+ Aber das könnt ihr alles nachlesen. Und was ganz spannend ist, der Umsatz, denn Boniversum
+ hat international sobald ich weiß einen Umsatz von 575 Millionen Euro, aber die sind quasi
+ weltweit tätig oder zumindest in sehr vielen Ländern. Und die Schufa ist nur in Deutschland
+ tätig und macht damit sogar einen Umsatz von 250 Millionen Euro. Oh, eine Gegenstellung.
+ Gegendaststellung. Vor 7,5 Jahren im April 2016 waren Boniversum und Bonify zu einer Revolution
+ bereit. Wir wollen gemeinsam beim Thema Bonität für mehr Transparenz sorgen. Ohne Boniversum
+ gäbe es Bonifigen so nicht. Uns ist wichtig Folgendes klarzustellen. Der Boniversumscore
+ ist einer der führenden Scores im Markt. Er basiert auf über 160 Millionen Datenpunkten
+ für über 60 Millionen Menschen in Deutschland. Scores von unterschiedlichen Auskunftsteilen
+ unterscheiden sich unter anderem durch die Datenquellen, die Anzahl der Daten, die Einflussfaktoren,
+ die Scormodelle sowie den Einsatzbereich. So hat zum Beispiel der Boniversumscore eine
+ hohe Relevanz im E-Commerce. Ja, ich lasse in einzelnen Punkten immer Gegendarstellung
+ von Bonify einfließen, damit das hier alles fair bleibt. Also Sie sagen, der Boniversumscore
+ ist trotzdem irgendwie wichtig in Deutschland, wie habe ich noch nicht rausgefunden. Aber
+ ja, kommen wir also zum aktualisierten Geschäftsmodell, damit das die Schufa Bonify gekauft hat, kann
+ man jetzt quasi auch die Schufa mit Bonify benutzen. Ein Modell, von dem quasi alle profitieren
+ und eure Daten teilen kostet ja nichts. Jetzt wollten die aber, weil sie schon zusammenkommen,
+ auch noch ihr Geschäftsmodell ein bisschen erweitern, weil ich meine Bonify weiß ja viel
+ über euch, wenn ihr eure Daten mit denen geteilt habt. Und vielleicht solltet Bonify dann
+ auch direkt eure Daten mit der Schufa teilen, weil wenn die Schufa weiß, wie viel Geld ihr
+ auf dem Konto habt und wann euer Gehalt kommt und wie lange schon wo arbeitet und auf was
+ für Porno Seiten ihr Geld bezahlt, ihr solltet für eure Pornos bezahlen, dann können die
+ euch viel besser sagen, ob ihr gerade kreditwürdig seid oder nicht. Und Bonify hat natürlich
+ als gutes Unternehmen mit guten AGBs schon alles darauf vorbereitet, dass sie eure Bonitätsdaten
+ und eure Transaktionen mit allen möglichen Unternehmen teilen können, wenn das denn für
+ die Einführung von Dienstleistungen erforderlich ist. Also ihr teilt quasi nicht nur mit Bonify,
+ sondern ihr teilt eure Daten direkt mit ganz vielen Unternehmen, von denen die Liste auch
+ noch nicht abgeschlossen ist zu dem Zeitpunkt, dass ihr die Daten teilt, aber die geben euch
+ ja auch viel zurück. Die wissen auch, eure Daten sind sehr, sehr sensibel, die haben erkannt,
+ dass man auf Basis von Transaktionsdaten von eurem Konto so Sachen rausfinden kann, wie
+ was eure politische Meinung ist, ob ihr in der Gewerkschaft seid oder wie es um eure
+ Gesundheit oder euer Sexualleben steht. Und ich mein, ist zwar alles sehr sensibel, aber
+ die sind ja auch sicher, das schreiben sie da zumindest. Jetzt denkt ihr, so ein tolles
+ philanthropisches Start-up. Wie verdienen die denn eigentlich Geld in den letzten sieben
+ und halb Jahren? Na ja, wenn wir in die Bilanz schauen, haben sie jetzt noch nie Geld verdient,
+ aber ich mein, Datenreichtum ist ja auch was, auch wenn es kein richtiger Reichtum ist.
+ Die sind venture funded, also Investoren haben Geld in die investiert, in der Hoffnung, dass
+ die irgendwann ein sehr, sehr großes Start-up werden. Da gibt es einen Referenzpunkt, und
+ das ist Credit Karma aus den USA mit demselben weirden Geschäftsmodell. Die wurden für 7
+ Milliarden glaube ich an Intuit verkauft. Also die sahen dann damals vor ein paar siebeneinhalb
+ Jahren einen richtig krassen Markt drin. Schufa ist aber letztlich ein Sparfuchs, die würden
+ nie 7 Milliarden für ein Start-up bezahlen, könnten sie ja auch mit ihrer Bilanzsumme gar
+ nicht. Deswegen haben sie es ein bisschen günstiger gekauft, für 20 Millionen Euro,
+ erzählt man sich so. Und das war so wenig Geld, dass die Mitarbeiter*innen, die ein
+ Mitarbeiterbeteiligungsprogramm bei Bonify hatten, gar nichts abbekommen haben, außer
+ ein Grillfest. Da war das hippe Bonify Team bestimmt traurig, und wenn man ihre Team-Webseite
+ verfolgt, dann haben glaube ich auch einige Menschen nach der Übernahme das Unternehmen
+ verlassen. Das weiß ich aber nicht gesichert, das habe ich mir nur auf Basis der Team-Webseite
+ rekonstruiert. Genau, und dann einige Monate nach der Akquisition hat die Schufa ganz,
+ ganz groß auf ihrer Webseite verkündet, jetzt gibt es bei Bonify auch diesen Schufa-Score,
+ über den wir gerade gesprochen haben, und das ist die Revolution im Bonitätsmarkt,
+ weil jetzt könnt ihr kostenlos schnell und online eure Bonität bei Bonify prüfen und
+ gleichzeitig ein bisschen Daten teilen und in der Zukunft sogar mehr Daten teilen bis
+ zur Schufa. Da haben die in den 6 Monaten danach ganz hart gehasselt, um das Feature zu
+ implementieren. Alle sagen Revolution, finde ich nicht so ganz, denn eure Bonität von der
+ Schufa könnt ihr seit ganz vielen Jahren kostenlos über die kostenlose Datenkopie
+ abrufen, dann bekommt ihr aber nicht nur euren Basis-Score in einer App, sondern bekommt
+ so einen dicken Papierstapel nach Hause mit allen Daten, die die Schufa über euch hat.
+ So revolutionär ist das App-Feature also vielleicht auch nicht. Aber für die Bild-Zeitung
+ hat's gereicht. Ab heute gilt die Schufa-Revolution und die sind damit richtig
+ durchgestartet mit dieser Pressekonferenz. Die Bonify-App war danach im App-Store auf
+ Platz 2. Die App hatte aber tatsächlich zu diesem Zeitpunkt noch nicht mal den Schufa-Score
+ integriert. Also sie haben quasi die App im Rahmen der Pressekonferenz gepusht und haben
+ gesagt, ja wir haben jetzt all die Features, wird alles super, überall in den Nachrichten
+ Leute laden diese App runter und dann finden sie dabei immer noch nicht den Schufa-Score,
+ denn App-Updates dauern immer ein paar Wochen länger, wie ihr wisst. So, das passierte am
+ 18. Juli und am 22. Juli, Freitagnachmittag, ihr kennt das, ihr wacht in Berlin aus einer
+ harten Woche im Kapitalismus auf und denkt euch so, scheiße, jetzt habe ich diese Woche
+ schon 50 Stunden vorm Computer verbracht, 20 mehr müssen noch gehen. Was ist diese Woche
+ denn in Deutschland passiert? Oh, irgendwas von Bonify, das müssen wir uns doch mal anschauen.
+ Also melde ich mich da an und gebe denen all meine Daten und sehe so, oh, ein Bankident-Prozess.
+ Damit haben wir gute Erfahrungen gemacht. Bankident, das ist dieses Ding, wenn man sich
+ da einloggt und ihnen Zugang zu seinem Konto gibt, dann gibt man denen einerseits seine
+ Transaktion frei, aber die bekommen auch den Namen, auf den das Konto geführt wird und
+ mit dem Namen, auf den das Konto geführt wird, versuchen die euch zu identifizieren, weil
+ eure Bank hatte sich ja irgendwann mal nach Geldwäschegesetz identifiziert. Also man
+ macht so Kettenidentifizierung. Eure Bank sagt, ihr seid die Person, weil eure Bank das mal
+ irgendwann überprüft hat, seid ihr vermutlich diese Person. Und das ist so ein Verfahren,
+ was immer so als eine Alternative von, man zeigt online seinen Personalausweis in irgendeiner
+ Form vor, genutzt wird, aber das war nicht so erfolgreich bisher. Also ich glaube, man
+ kann damit zum Beispiel nirgends ein Konto eröffnen, weil es da so Bedenken von der BaFin
+ gab und das vielleicht auch nicht so das allersicherste Verfahren ist. Schauen wir uns
+ aber vielleicht mal im Detail an, wie das denn funktioniert. Es gibt in dem ganzen
+ Ding drei Parteien, nämlich einmal Bonify selbst, dann die FinLib Connect GmbH und eure
+ Bank. Und bei Bonify tragt ihr in so ein kleines Fenster euren Vor- und Nachnamen ein und die
+ zeigen euch dann ein Iframe an auf ihrer Webseite. Und da sagt ihr dann, welche Bank ihr denn
+ gerade so benutzt und tragt da dann eure Konto, eure Zugangsnummer eurer Bank und euer
+ Passwort eurer Bank in dieses Iframe ein. Klar, macht man so. Und was die dann machen ist,
+ die locken sich über die App eurer Bank in unterschiedlichen Variationen ein und rufen
+ ein paar Sachen von euch ab, zum Beispiel den Namen, die I-Bahn, die Transaktion und so weiter
+ und so fort. Was die genau abrufen, könnt ihr nicht so richtig feststellen, aber geht
+ davon aus, alles was da eigentlich ist. Und dann stellen die einen JWT-Token aus, mit dem
+ man die Daten abrufen kann und leiten euch zurück zu Bonify. Bei Bonify nehmen die dann
+ den Vornamen, den ihr vorhin in das Feld eingetragen habt und vergleichen den damit mit dem Vornamen,
+ auf dem euer Konto läuft, in dem sie prüfen, ob der eine String in einem anderen String
+ ist oder umgekehrt. Sprich, wenn ihr irgendwie in das Feld beliebig viele Namen reinschreibt,
+ ich schreibe da zum Beispiel Lilith Jens und als Nachname Wittmann Spahn rein, dann ist
+ mein Konto verifiziert. An der Stelle könnte der Vortrag eigentlich vorbei sein.
+ Ich weiß nicht, wer sich das ausgedacht hat, vielleicht hatte jemand so eine Name und
+ hat nach einem Weg gesucht, den ordentlich zu verifizieren. Aber ja, jedenfalls habe
+ ich das da eingegeben, ging durch, dann hatte ich seinen Account mit Lilith Jens Spahn,
+ hatte überlegt aufzuhören, aber dachte, das waren jetzt 5 Minuten, eine halbe Stunde
+ habe ich noch, das nächste Mal, wenn ich mich anmelde, mache ich meine Developer-Konsole
+ auf. Jetzt werden wir richtig krasse Hacker hier. Und schauen uns mal die Anfragen an,
+ die die Bonify-Webseite an den Server oder an den Microservice im Hintergrund macht.
+ Und wir tragen als erstes diesen Namen ein und dann wird unser Name per Post an einen
+ APN-Punkt, der heißt User Management Prot/User geschickt und damit wird dann das User-Objekt
+ angelegt. Dann machen wir diesen ganzen Identifikationsprozess mit dem iframe und wir loggen uns bei unserer
+ Bank ein und wir geben das die Daten frei und danach haben wir nochmal so ein Formular,
+ in dem wir unsere restlichen Daten eingeben, damit sie dann quasi noch mehr Daten über
+ uns haben. Und da rufen wir nochmal denselben APN-Punkt auf und speichern mehr Daten.
+ Das wäre jetzt ein ganz krasser Hack, wenn wir beim zweiten Mal, wo wir diesen APN-Punkt
+ aufrufen, einfach noch zusätzlich irgendeinen Vornamen und Nachnamen mitschicken. Wäre ja
+ ganz schön doof, wenn man vergessen hat, wie so APIs funktionieren und zu überlegen,
+ was da ein Sicherheitskonzept wäre. Na ja, dann hatte ich auch schon die Kreditauskunft
+ von Jens Spahn.
+ Und Bonify hat noch viele tolle Mehrwertservices, also gar nicht so viele, aber zumindest einen
+ und das ist die Mietauskunft. Bei Bonify könnt ihr, nachdem ihr diesen Anmeldeprozess durchgefüllt
+ habt, habt ihr den 20 Euro geben und die geben euch dafür einen PDF. Ich finde, das ist ein
+ richtig fairer Deal, weil das ist ja ein PDF, dem könnt ihr vertrauen. Also das hat keine
+ Signatur oder so, aber da steht ein Code drauf und dem könnt ihr auf einer Webseite eingeben
+ und dann sagen die euch, ob das PDF echt ist, also so ein Teil der Daten. Nicht das schlimmste
+ Verfahren, das ich jemals gesehen habe, um PDFs zu verifizieren, man könnte das auch
+ mit einer Blockchain machen. Jedenfalls hatte ich dann Jens Spahns Mietauskunft und hier
+ seht ihr, wie ich sie validiere. Das können wir uns ja mal kurz anschauen. Genau, da steht
+ dann irgendwo diese Nummer, die kopieren wir uns und dann gehen wir auf die Bonify Webseite
+ und tragen das da einfach ein. Und dann steht da meine Miete mit dabei, jetzt wisst ihr
+ wie viel Miete, ah nee, steht da nicht, sehr gut, dann habe ich die richtige Version genommen.
+ Nee, genau, aber dann könnte man quasi, wenn man wollte, für seine Freunde, die vielleicht
+ nicht so eine hohe Miete haben oder nicht so ein hohes Gehalt haben, einfach für die
+ eine Mietauskunft ausstellen, auf der dann auch per KI das Gehalt vom Konto rausgefunden
+ wurde. Also man nimmt dann die Transaktion von dem Konto, das man ihnen gegeben hat und
+ dann versuchen die rauszufinden, was die Gehaltszahlung und was die Mietzahlung ist und
+ schreiben das da drauf. Also war ein guter Trick, um seinen Freunden irgendwie zu helfen.
+ Mein Dashboard sah leider immer so aus, ich hatte nur Zugriff auf den Universumscore und
+ diese Mietauskünfte und nicht auf die Schufa-Auskunft. Das hat mich echt ein bisschen gekostet,
+ so richtig rauszufinden, was da passiert ist, weil eigentlich, nachdem man sich eingeloggt
+ hat bei denen, dann poppt da das erste Mal so ein Pop-Up auf und die fragen einen, ob sie
+ da eure Daten mit der Schufa teilen dürfen und daraufhin dachte ich, würden sie das erste
+ Mal eure Daten zur Schufa senden und dann geben die den Score zurück und wenn ich das alles
+ vorher manipuliert hätte, dann würde ich einfach für eine andere Person den Schufa-Score
+ bekommen.
+ Gegendarstellung. Es wird angemerkt, dass wir unseren eigenen AGBs widersprechen, indem
+ wir vor Zustimmung ein Score übermittelt wird. Das stimmt nicht. Der Score wird erst
+ nach expliziter Einwilligung übermittelt. Vorab erfolgt ein Datenaustausch zur Identifikation.
+ Dieser ist in Bonifice Datenschutzerklärung aufgeführt. Er beschränkt sich ausschließlich
+ auf Daten zur Identifizierung, um sicher zu sein, dass der Score nur an die Person ausgespielt
+ wird, zu der er gehört. Dadurch wurden die manipulierten Personendaten bei uns erkannt.
+ Also, AGBs lesen hilft immer. Werden wir da raus. Ich hatte das verpeilt, weil musste irgendwie
+ alles schnell gehen und es war Samstagmorgen und ich hatte echt keinen Bock. Und steht
+ aber einfach in den AGBs drin. Das, was sie tun ist, nachdem ihr euch da den Kontoident-Prozess
+ durchgeführt habt, nehmen die eure Namen und eure Kontonummer und schicken die erstmal
+ zur Schufa. Und die Schufa hat dann so ein Produkt, das heißt irgendwie Kontonummerncheck
+ oder Giroident oder so. Und da schauen die in ihrer Datenbank, ob da jemand mit dem Namen
+ und eurer Kontonummer ist. Und dann geben die Namenadresse und Kontonummer zurück und
+ wollen dieses Kontonident-Verfahren damit noch GWG-konformer machen. Es ist letztlich ein
+ Produkt, könnt ihr bei der Schufa kaufen. Hab ich bis zu dem Zeitpunkt auch nicht so richtig
+ gewusst. Aber dadurch, dass dann quasi der Name nicht mit der Kontonummer übereingestimmt
+ hat, konnte ich da nicht den Schufa-Score abrufen. Das war ein bisschen schade, aber
+ ich meine, es war trotzdem ganz cool. Jetzt kommen wir zur eigentlich wichtigen Frage in
+ dieser ganzen Geschichte. Ich habe das nämlich rausgefunden. Und was mache ich denn jetzt
+ damit? Und es gibt also grundsätzlich so zwei Optionen. Also es gibt vielleicht noch ein
+ paar mehr. Über zwei wollen wir heute reden. Und das eine ist, man macht ein Responsible
+ Disclosure. Das heißt, das ist für mich richtig viel Arbeit. Da muss ich so ein Dokument
+ schreiben, wo ich dem Unternehmen erkläre, was das Problem ist. Dann schicke ich das
+ denen und dann lesen die das irgendwann, schließen die Lücke, sagen mir Bescheid. In der
+ Zwischenzeit suche ich mir einen Journalisten, um das zu veröffentlichen mit denen gemeinsam.
+ Und am Ende veröffentliche ich dann die Lücke, wenn sie geschlossen wurde. Und das Unternehmen
+ veröffentlicht manchmal auch was, eine Gegenbedarstellung. Und dann ist das fertig. Im Widerspruch dazu
+ steht das Shit-Posten. Dabei nehme ich die Sicherheitslücke, die noch offen ist, schreibe
+ einen möglichst provokanten Tweet und twittere das. Dann warte ich darauf, dass mir möglichst
+ viele Journalistinnen in kurzer Zeit schreiben, die richtig Bock haben, diese Story richtig
+ groß zu machen. Und weil das ja schon auf Twitter steht, müssen sie sich nicht mehr mit ihren
+ Justiziarinnen absprechen. Das heißt, sie können auch relativ schnell eine Pressemeldung
+ rausgeben. Das ist manchmal ganz vorteilhaft. Um diese Entscheidung zu treffen, schauen wir
+ uns einmal kurz an, warum ich zivilgesellschaftliche Sicherheitsforschung mache. Und ganz weit
+ oben steht aber bei mir, tatsächlich eure Daten zu schützen. Aber ich möchte auch Unternehmen
+ mit einem blöden Geschäftsmodell, das ich persönlich irgendwie scheiße finde, das Leben
+ richtig, richtig schwer machen. Und wie ihr vielleicht wisst, interagiere ich gerne auch
+ mit dem Staat. Und natürlich möchte ich auch auf politischer Ebene irgendwie dumme Digitalisierung
+ stoppen. Und den Staat, um Daten, die öffentlich sein sollten, zu erleichtern. Und ich freue
+ mich auch, wenn ihr dabei Spaß habt. Und mir selber macht es natürlich auch oft Spaß.
+ Gründe, warum ich das nicht tue, ich möchte Unternehmen nicht dabei helfen, sicherer zu
+ werden. Also, das ist ein Nebeneffekt, das passiert, aber mein Ziel ist nicht, dem Unternehmen
+ Bescheid zu sagen, damit die danach sicherer sind. Also, dass eure Daten sicherer sind,
+ ist mir wichtig, aber nicht, dass es dem Unternehmen danach besser geht. Und ich will damit kein
+ Geld verdienen. Das habe ich dieses Jahr einmal probiert mit so einem Bug Bounty Programm
+ bei einem großen Online-Versandhändler, wo ich eine richtig witzige Lücke gefunden habe,
+ über die ich so gerne reden würde. Aber ich dachte, ich mache das über Responsible, ich
+ mache das über ein Bug Bounty Programm. Und die haben mir verboten, darüber zu reden.
+ Das frustriert mich sehr doll. Und das werde ich in Zukunft, glaube ich, nie wieder machen.
+ Zurück zu unserer Frage, Responsible Disclosure oder Shitposten. Schauen wir uns vielleicht
+ noch mal kurz das "Was wäre Wenn" an. Wenn Responsible Disclosure, würden die ihre Applikation
+ online lassen, die Lücke wird zuzüglich geschlossen und gut vorbereitete PR-Leute, die vielleicht
+ hier im Publikum sitzen, würden dann über diese Lücke kommunizieren, wahrscheinlich
+ besser als ich das könnte und es würde keinen Reputationsverlust für die Schufa geben. Und
+ ein gutes Beispiel, ich hoffe das Video geht diesmal, ist als Finanzwende letztens, ist
+ eine NGO, der Schufa eine Unterschriftenliste mit 300.000 Unterschriften zu genau diesem Thema
+ übergeben hat, nämlich diesen Kontenabruf, dann hat die Schufa die Hände ringend empfangen,
+ hat denen die Regenschirme gehalten und hat daraus einen lustigen Imagefilm gemacht. Und
+ das passiert, wenn ihr versucht Kommunikationsprofis bloßzustellen. Das braucht man meistens nicht
+ versuchen, deswegen hielt ich das jetzt nicht unbedingt für eine gute Strategie. Was also
+ passieren hätte können, in jedem Fall wäre niemand, bekommt es mit, dass es diese Lücke
+ gab. Schufa hat weiterhin voll den PR-Run, weiterhin auf Platz 2 im App Store. Schufa
+ hätte Responsible Disclosure ausgenutzt, um sich weiterhin gut zu positionieren und ich
+ hätte ein Wochenende verschwendet. Bevor wir uns jetzt der Dark Side zuwenden, müssen wir
+ eine Sache prüfen, nämlich ob ich eine Straftat begangen habe, als ich das gehackt habe. Weil
+ wenn ich das gemacht hätte, dann könnte mir das Responsible Disclosure positiv ausgelegt
+ werden, aber es wäre trotzdem weiterhin eine Straftat, weil wir in Deutschland nämlich
+ immer noch einen Hackerparagrafen haben, der zivilgesellschaftliche Sicherheitsforschung
+ weiterhin verbietet. Das können wir in dem Fall einfach prüfen, denn ich habe in dem
+ Fall nur öffentliche APIs benutzt, ich habe nicht irgendwie Zugangshöden überwunden,
+ die ich nicht hätte überwinden dürfen und wie wir dank des Referenzfalls CDU gegen
+ Liddit Wittmann wissen, ist, wenn man öffentliche APIs benutzt, dass keine Straftat, zumindest
+ das ist kein Gerichtsverteidiger als Disclaimer, aber es ist eine sehr medienwirksame Referenz
+ der Berliner Staatsanwaltschaft, die sich damals sehr schnell darum gekümmert hat. Ich
+ weiß, ich bin da super privilegiert, dass ich da so drüber reden kann, weil ich die
+ Möglichkeiten habe, dass wenn ich am Ende mal verklagt werde, ich da wahrscheinlich
+ gut rauskomme, das kann jetzt nicht jeder so sagen wahrscheinlich, aber ich meine in
+ dem Fall ist es ganz praktisch, deswegen kommen wir jetzt, wir shitposten das. Okay, ne, wir
+ schauen noch mal einmal kurz, was Worst Case ist, ob irgendwas Schlimmes passieren könnte
+ und ich meine das Schlimmste, was man mit der Lücke anfangen könnte, wäre, dass man
+ für andere Leute eine Universumauskunft abruft, die man vielleicht nicht selbst ist, aber
+ man hinterlässt dabei ja sein Kontoident, also quasi sein Personalausweis, dass man
+ zwar, sprich, wenn man das jetzt in böse Absicht tut und nicht vorher die Person gefragt
+ hat und es nicht jense Spahn ist, dann würde das wahrscheinlich auffallen und die Person
+ würde Ärger bekommen. Dann könnten Vermieter gefälschte Kreditauskünfte bekommen, da dachte
+ ich mir so die armen Vermieter und Leute hätten mehr Sicherheitslücken finden können, das
+ ist tatsächlich irgendwie das kritischste, weil ich meine, wenn da eine Sicherheitslücke
+ ist und ich darauf hinweise, dann könnte da jemand schnell mehr Sicherheitslücken finden.
+ Ich dachte aber, die sind ein groß genuges Unternehmen, dass die schnell abschalten nachdem
+ ich die Lücke veröffentlicht habe und das heißt deswegen, das Risiko überschaubar ist.
+ Es gibt also ein potenziell großes Reputationsverlust, aber für das Unternehmen, nur fürs Unternehmen,
+ aber die Lücke, aber das Problem für einzelne Menschen ist sehr überschaubar. Also haben wir
+ geschippt postet. Und wenige Stunden später sah dann, war dann das Statoos Monitoring
+ bei Bonifal Rot und die war down und ich hatte ganz schnell in meiner Signal Inbox eine Kontaktanfrage
+ von der NDR/SZ Recherche Kooperation von Nils Bischmeier und Peter Hornung und die haben
+ dann auch direkt einen richtig tollen Bericht in der Tageschauendem in der SZ veröffentlicht,
+ quasi dann exklusiv und wir hatten sehr viel Glück, denn das Allercoolste, was uns in so
+ einem Fall passieren kann, ist auf dem dpa-Verteiler zu landen. Wenn man auf dem dpa-Verteiler landet,
+ dann ist die Chance sehr hoch, dass am nächsten Tag ganz viele kleine Tageszeitungen über
+ euch berichten. Deswegen immer versuchen mit solchen Lücken auf den dpa-Verteiler irgendwie
+ drauf zu kommen. Und was ist also passiert? Schufa und Boniversum haben weniger als 24 Stunden später
+ medienwirksam die Datenverbindung zu Bonifal gekappt. Oh, da steht Boniversum, sorry. Und Bonifal
+ ist vor zwei Wochen komplett offline gegangen und die Apps stand heute weiterhin nicht im App Store.
+ Und die Damen und Herren von der KrisenPR haben sich herrlich blamiert, haben gegenüber
+ Journalistinnen aus meiner Perspektive gelogen, es gab einen immensen Reputationsverbluss
+ für die Schufa. Und wir erinnern uns, es regnet der Bild im Aufzug nach oben. Und wenn es eine
+ Regel gibt, ist, dass wenn es mit dem Bildaufzug nach oben ging, dann geht es mit dem Bildaufzug
+ auch irgendwann mal wieder nach unten.
+ Zwei Tage Bild Startseite.
+ Gegendarstellung. Eine Aktivistin hat im Rahmen der Anmeldeprozidur zum Kontoidentverfahren
+ Namen und Adressdaten manipuliert. Dabei wurden Nutzerkonten unter anderem auf einen Politiker
+ und zwei Journalisten angelegt. Einer dieser Redakteure hat in einem Beitrag der Süddeutschen
+ Zeitung sogar bestätigt, dass die Hackerin für die Süddeutsche Zeitung und den NDR Namens-
+ und Adressmanipulation vorgenommen hat. Zitat Lilith Wittmann konnte für NDR und Süddeutsche
+ Zeitung in mehreren unabhängigen Tests nachweisen, dass es in der App eine Art Einfallstore
+ gibt, um an manipulierte Bonitätsauskünfte der Auskunftteil Boniversum zu kommen. Zitat Ende.
+ Also was man an der Stelle dazu sagen muss ist, dass es ganz normal ist, dass man mit
+ Journalistinnen zusammenarbeitet, dass sie natürlich die Lücke sehen wollen, wenn sie
+ darüber schreiben sollen. Deswegen ist das nicht, dass ich im Auftrag von irgendjemanden
+ hier irgendwas manipuliert habe, sondern ich habe einfach diese Lücke für Journalistinnen
+ nachgestellt. Aber ihr seht hier, was für ein Framing die versucht haben, dass es nämlich
+ jetzt die bösen Journalistinnen gibt, die mich beauftragt haben, etwas zu manipulieren.
+ Und dieses Framing setzt sich dann auch weiter durch. Denn wenige Tage später ist auf deren
+ Homepage unten ein neuer Punkt "responsible disclosure" aufgetaucht. Die haben aber nicht
+ selber eine Responsible Disclosure Guideline geschrieben, die haben die von Fusion Ours
+ genommen, haben die in Google Translate geworfen und ihr stand es heute noch immer sehr peinlich
+ zu lesen. Das ist mir sehr früh aufgefallen, habe ich getwittert, bevor sie irgendwas in
+ die Presse dazu rausgeben konnten, glaube ich. Dann habe ich immer schon eine Gegenposition
+ gesetzt und dann konnten die da glaube ich nicht mehr so viel draus schlagen, aber immerhin
+ was sie noch geschrieben haben.
+ Was wir ja nicht nachvollziehen können. Üblicherweise melden Angreifer ihre Erkenntnisse dem betroffenen
+ Unternehmen, dessen Programm, Website oder App betroffen sind. Dies räumt dem Unternehmen
+ eine angemessene Zeit ein, um die Lücke zu schließen. Bei uns war das nicht der Fall.
+ Für uns besonders bitter, das gemeinsame Entwicklungsteam von Schufa und Bonify stand bereits seit
+ einigen Wochen mit der Aktivistin in Kontakt, um sie für eine Mitarbeit zu gewinnen.
+ Also ich war nicht sehr nett, aber da halte ich es mit Badmums Jay. Eine sehr coole Rapperin.
+ Ich glaube, wenn ich nett zu allen Unternehmen wäre, dann würde nie irgendwas Cooles entstehen.
+ Und dann habe ich mal in meine LinkedIn Nachrichten geschaut und tatsächlich...
+ Hallo Frau Wittmann, mein Name ist MhMh und ich arbeite für die Schufa. Ich stelle gerade
+ ein Team zusammen, das den kostenfreien digitalen Zugriff auf eigene Daten bei der Schufa umsetzt.
+ Dabei soll beantwortet werden, wie diese Daten verwendet werden und wie diese wirken in
+ Ausbaustufen, auch wie diese beeinflusst, gelöscht und gesteuert werden können.
+ Also Sie wollen Datencockpits bauen, in die ihr mehr Daten reingeben könnt, damit die Schufa
+ euch besser scoren kann, damit ihr quasi die Schufa beauftragt, euch zu scoren.
+ Ich suche nach einem erfahrenen Teamlead für den Aufbau der dahinterliegenden Applikation
+ und technischen Infrastruktur, um supersensible, personbezogene Daten sicher in eine App, iOS
+ und Android, zu bekommen. Hier bei der Schufa ist das Thema nochmal sensitiver und mit höherem
+ Risiko eines Missbrauchs verbunden. Intern gibt es die notwendigen Kompetenz nicht.
+ Deswegen suche ich händeringend externer Hilfe, nicht der beste Firmenname dafür.
+ Aktuell hänge ich aber mit Teaminfrastruktur und Kompetenz weit hinter dem Plan. Nichts hilft
+ geplanter Transparenz weniger, als wenn wir den Aufbau vermasseln und am Ende die überfällige
+ Umsetzung nicht ans Fliegen kommt. Entweder wegen einen Stern im App Store schlecht umgesetzt,
+ nicht verständlich, oder schlimmer, kein Vertrauen in Zugang und Integrität der darin enthaltenen Daten.
+ Sie hatten beide Probleme. Aber ey, man muss sagen, irgendwie hat sich eine kompetente
+ Person zur Schufa verwirrt und dann hat man nicht auf die gehört. Ich meine, das kennt
+ ihr doch alle. Und ich meine, ist ganz klar, wer will schon für die Schufa arbeiten? Ich
+ meine, ich als Arbeiterkind habe irgendwie gelernt, dass man von der Schufa Angst haben
+ muss. Vielleicht, wenn man irgendwie so reiche Eltern hat und die Vermieter sind, dann finden
+ die die Schufa voll super. Aber ich arbeite doch von niemandem, von dem ich Angst habe.
+ Und ich meine, wenn man ein LinkedIn-Profil lesen kann, dann steht da literally, dass man
+ mich nicht für IT-Security-related Sachen anfragen soll. Denn beruflich mache ich lieber
+ schöne Sachen. Und nur weil mir irgendein Unternehmen einen Scheißjob anbietet, heißt
+ es nicht, dass ich mir euch danach anschaue. Denn wenn ich jedes Unternehmen, das mal in
+ der LinkedIn-Inbox war, nicht mehr anschauen würde...
+ Aber kommen wir zu einem anderen Thema, nämlich der spannende Frage, warum hat Schufa eigentlich
+ Bonify genau gekauft? War das wirklich nur, dass es ihnen schlecht ging und sie wollten
+ shoppen? Oder hatten sie da vielleicht noch einen Hintergedanken, dass jetzt der spekulative
+ Teil des Vortrags, wo ich nicht so viele Nachweise für habe, aber ich spekuliere jetzt einfach
+ mal drauf los. Wir erinnern uns, Schufa-Scoring verstößt vermutlich gegen EU-Recht. Ist blöd
+ für die Schufa, weil es ihr Geschäftsmodell. Jetzt gibt es was ganz Neues, Hippes. Nämlich
+ selbstbestimmte digitale Identitäten, von denen ihr leider wahrscheinlich alles schon mal
+ gehört habt, das mit Blockchains. Was ihr dabei macht, ist, ihr bekommt von verschiedenen
+ Institutionen digitale Nachweise, wie einen digitalen Ausweis, einen digitalen Führerschein,
+ eine digitale Kreditkarte, digitale Zeugnisse und vielleicht in Zukunft auch eine digitale
+ Bonitätsauskunft, die ihr euch kaufen könnt. Und dann packt ihr die in euer Wallet, auf
+ euer Handy. Und dann könnt ihr diese digitale Bonitätsauskunft an anderen Stellen zustellen
+ oder denen zeigen und dies garantiert echt. Dazu packt man ein digitales Zertifikat auf
+ euer Handy, das entweder in einer PKI verwurzelt ist oder in einer Blockchain. Das ist eigentlich
+ egal, das ist beide scheiße. Und dann nimmt man diese digitalen Zertifikate und schiebt
+ die auf euer Handy einfach in den Speicher. Und wenn ihr denen quasi vorzeigt, dann nehmt
+ ihr eine digitale Kopie dieses digitalen Nachweises und schickt die an andere Institutionen. Und
+ diese andere Institution nimmt dann diesen digitalen Nachweis und verifiziert ihn entweder
+ gegen eine PKI oder gegen eine Blockchain. Wenn wir das also mit der Offline-Welt vergleichen,
+ wenn ihr normalerweise irgendwo einen Ausweis zum Beispiel vorzeigt, dann steht ihr an der
+ Tür, zeigt irgendwie diesen Ausweis und dann lässt euch der Türsteher nicht rein, weil
+ ihr seid irgendwie in meinem Vortrag, verlässt euch da schon rein. Wenn wir das online machen,
+ jetzt auf die Offline-Welt übertragen, dann würde da wieder ein Türsteher stehen, der
+ würde euch fragen, gib mir mal bitte deinen Ausweis, dann würde der euren Ausweis nehmen,
+ würde dem Notar, der daneben steht, geben, dieser Notar würde eine beglaubigte Kopie
+ dieses Dokuments anfertigen, zu den Akten legen und dann wisst ihr nicht, was mit diesem
+ kopierten Dokument passiert und dann lässt euch der Türsteher wieder nicht rein, ist ja klar.
+ Was ihr quasi tut ist, ihr verteilt eure Dokumente an ganz, ganz viele Orte und ein
+ oder zwei Orte wird vielleicht irgendwann mal abbrennen oder einen Datenabfluss haben
+ und dann haben ganz viele Menschen garantiert echte Dokumente über euch. Datenreichtum.
+ Bei verifirerable credentials bzw. solchen digitalen Nachweisen kann ich zwar entscheiden,
+ wem ich meine Daten gebe, aber ich kann danach nicht mehr kontrollieren, was damit passiert.
+ Und was ganz witzig ist, ihr speichert diese Dinge ja auf eurem Handy und die sind garantiert
+ echt und die wurden auch garantiert nur euch ausgestellt. Ab dem Moment, wo die auf eurem
+ Handy sind, seid ihr dafür verantwortlich. Wenn also jetzt der nächste WhatsApp-Scam um
+ die Ecke kommt und euch fragt, ob ihr da mal euren Ausweis hochlädt, weil eure Tochter
+ euren Ausweis braucht, dann seid ihr dafür verantwortlich, dass ihr den da hochgeladen habt.
+ Oder ihr habt ganz einfach ein altes Handy und da ist Chart-Software drauf. Wir haben
+ also einen neuen Trend, der total hipp ist und den gerade die letzte Bundesregierung
+ super fand, weswegen die ein ganzes Ökosystem um diesen Trend gebaut hat. Das sind verschiedenste
+ Projekte mit dutzenden Unternehmen drin und das Bundeskanzlerinnenamt hat sogar selbst
+ Apps gebaut. Insgesamt hat die letzte Bundesregierung 215 Millionen Euro in digitale Nachweise
+ gesteckt und dabei auch eine eigene Wallet-App gebaut. Die ist irgendwie am 20. September
+ vor der letzten Bundestagswahl gelauncht, die glaube ich am 26. war. Die hatten uns damals
+ Flippke und ich angeschaut und die war zur Bundestagswahl schon nicht mehr online. Das lag daran, weil
+ die auch so ein kleines Problem hatte, was wir geschippt postet haben, nämlich man konnte
+ sich als jede beliebige Person ausgeben oder jede beliebige Institution und eure digital
+ Quidditch-Lessons einfach mal bei euch abfragen. Ich konnte die Polizei sein oder ich konnte
+ Hege Braun, der damalige Chef des Bundeskanzlerinnenamts sein und diese App haben wir ja bis heute
+ nicht mehr. Also das Bundeskanzlerinnenamt oder das BMI hat das dann alles eingestellt
+ und die überlegen jetzt an einer Lösung, die nicht mehr so krass Wallet basiert ist
+ und die vielleicht ein bisschen besser wird als das, was wir damals hatten, aber es wird
+ glaube ich auch leider immer noch schlimm. Das Bundeskanzlerinnenamt bzw. der zuständige
+ Referatsleiter hat sich darüber dann nicht so gefreut, aber wenn ihr die ganze Geschichte
+ nachlesen wollt, gibt es in meinem Blog. Ja und diese Digital Quidditch-Lessons fragt
+ ihr euch jetzt, was hat das denn jetzt mit der Schufa und Bonify und dem ganzen Scheiß
+ zu tun? Naja, Boniversum macht bei diesen ganzen Projekten mit. Die Schufa noch nicht,
+ aber Boniversum und auch die Sparkasse. Und die sind in dem ID Union Projekt Mitglied.
+ Und das ID Union Projekt hat so Ziel, irgendwie so verschiedene digitale Nachweise in so eine
+ Wallet-App zu bekommen und eine der Sachen, die sie zumindest im ursprünglichen Plan,
+ wie ich so von, das ist nirgends leider so richtig offiziell angekündigt, aber sie
+ wollten Bonitätsnachweise auf Basis von Digital Credentials machen mit ihr Verdienst so und
+ so viel und irgendwie gibt es keine negativen Einträge irgendwo. Was da natürlich bedeutet,
+ dass im Falle, dass das Schufa-Score-Modell failt, die direkt eine coole Alternative hätten.
+ Denn anstatt, dass die Schufa euch scoort und irgendwelche Daten über euch hat, will
+ euer Vermieter in der Zukunft, dass ihr zu einem Scoring-Partner geht und da, dem gebt
+ ihr all eure Daten und dann stellt ihr euch ganz selbstbestimmt einen digitalen Nachweis
+ aus, den ihr dann ganz vielen Stellen gebt. Den bezahlt ihr dann im besten Fall auch noch,
+ weil für so ein signiertes PDF zahlt man ja auch heute schon 20 Euro, wenn das dann noch
+ so ein bisschen mehr mit Maschinen lesbar kann. 50 Euro ist das wert, würde ich sagen.
+ Das dann quasi, und das Ding ist, dass das ihr eigentlich auch Banken wunderbar machen
+ könnt. Also die Sparkasse kann euch dann einen digital signierten Kontoauszug verkaufen,
+ wenn ihr so wollt. Deswegen heißt das da, dass sie schnell sein müssen, wenn sie noch
+ bei diesem Business-Modell mitspielen wollen. Und ich glaube, dass das tatsächlich der eigentliche
+ Grund ist, dass das die Richtung ist, in die sie mit ihrem Geschäftsmodell wollen. Aber
+ wie gesagt, da habe ich keine Beweise, es ist nur, dass viel darauf hindeutet, weil sie
+ brauchen eine Alternative und die Alternative würde sich natürlich obviously anbieten.
+ So, da wir fast am Ende der Zeit sind, kommen wir zu unserer Zusammenfassung. Es gilt wie
+ immer öffentliche Daten nützen und private Daten schützen. Und das gilt in 99 Prozent
+ der Fälle. Und dann macht ihr bitte Responsible Disclosure. Und wenn ihr wissen wollt, wie
+ das geht, das gibt so einen Vortrag von Zerforschung, wo das ein bisschen erklärt wird, gerade wie
+ Unternehmen mit den Meldungen umgehen sollen. Und sonst gibt es dazu auch mehr als genug
+ Material. Aber es gibt Ausnahmen. Wenn die Vorteile von so einem Hack bei weitem überwiegen
+ in der öffentlichen Perzeption und wir keine Menschengruppen oder auch keine einzelnen
+ Menschen signifikant gefährden, dann finde ich es legitim, nicht nach Responsible Disclosure
+ zu arbeiten, gerade wenn wir über Scheißunternehmen reden, von denen wir irgendwie gesellschaftlich
+ quasi einen Konsens haben, dass wir die nicht mehr haben wollen, außer ihr seid Vermieter.
+ Und in allen, allen, allen anderen Fällen macht ihr bitte weiterhin Responsible Disclosure.
+ Und ich weiß, wenn ihr das nicht macht, macht das nicht beim ersten Mal, dass ihr eine Sicherheitslücke
+ findet. Redet davor mit Leuten drüber, die sich auskennen und macht das nicht leichtfertig.
+ Aber es gibt Fälle, in denen das sinnvoll sein kann. Das sind aber nur sehr wenige. Und
+ an der Stelle gibt es noch einen anderen Hinweis. Arbeitet mit anderen Organisationen zusammen,
+ wenn es andere Organisationen in dem Bereich schon gibt. In dem Fall zum Beispiel bei der
+ Schufa gibt es ja irgendwie die Finanzbände, die irgendwie diese große Unterschriftende
+ Aktion gemacht hat und die sich sehr dafür einsetzt, dass der Schufa Kontenzugriff nicht
+ kommt. Deren Petition könnt ihr auch weiterhin unterschreiben, macht das. Aber gerade wenn
+ ihr als Hackerin nicht Expertin im jeweiligen Bereich seid, ist es voll gut, sich eine Organisation
+ zu suchen, die ihr medial vielleicht pushen könnt. In dem Fall ärgere ich mich fast ein
+ bisschen, das nicht gemacht zu haben, aber ich dachte, ich habe vielleicht intern deren
+ Siehung ausgelöst und wusste nicht, wie lange ich habe, um es zu posten, bevor sie es
+ zumachen und dann wäre ein bisschen doof gewesen. Genau, aber unterschreibt diese Petition. Und
+ was ich irgendwie selber daraus gelernt habe, ist nochmal die Schufa, das ist vor allem
+ ein inkompetenter Haufen, von dem brauche ich keine Angst zu haben und die müssen wir
+ einfach loswerden. Die Schufa muss nämlich sterben, damit wir leben können.
+ Damit sind wir am Ende. Kontaktmöglichkeiten zu mir findet ihr unter dieser URL. Es gibt
+ leider kein Q&A, wir haben am Anfang angekündigt. Falls ihr eine förmliche Zustellung für mich
+ habt, die Adresse findet ihr nicht da, macht das einfach über die Chaos-Post. Ansonsten
+ findet ihr digitale Kontaktmöglichkeiten da. Dankeschön.
+ [Applaus]
+ [Applaus]
+ [Applaus]
+ Vielen Dank Lilith. Wie gesagt, keine Q&A. Wenn ihr noch da bleiben wollt, trefft euch
+ mit Lilith hier irgendwo auf der Seite. Wenn ihr den Saal, das Zelt verlasst, haltet bitte
+ die Wege frei, wenn ihr noch plaudern wollt. Passt auf euch auf, trinkt genug Wasser und
+ wenn ihr Alkohol trinkt, trinkt auch ein bisschen Wasser dazu. Übrigens, trinkt mehr Wasser.
+ Schönen Abend noch, ciao!
+ [Applaus]
+ [Musik]

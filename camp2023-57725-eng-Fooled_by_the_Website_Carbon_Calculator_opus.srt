@@ -1,0 +1,584 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:35,000
+ Hello and good afternoon at CAS Communication Camp 2023.
+
+4
+00:00:35,000 --> 00:00:36,400
+ It's day two.
+
+5
+00:00:36,400 --> 00:00:38,400
+ The stage is Bitz and Boimer.
+
+6
+00:00:38,400 --> 00:00:43,400
+ As you can probably see, I'm an old guy.
+
+7
+00:00:43,400 --> 00:00:49,400
+ And for me, if I hear green IT, I think of IBM mainframe terminals,
+
+8
+00:00:49,400 --> 00:00:54,400
+ the green light from the terminal, glowing flickering.
+
+9
+00:00:54,400 --> 00:01:01,400
+ And so when I saw this talk, I said, "Oh yeah, this is about old machinery and old computers and old terminals."
+
+10
+00:01:01,400 --> 00:01:06,400
+ And they're like, "Oh no, actually it's about environmental impact of IT."
+
+11
+00:01:06,400 --> 00:01:15,400
+ So before I blame myself any further, because I have no clue and our speaker is way more well versed in knowing all of this,
+
+12
+00:01:15,400 --> 00:01:22,400
+ this is Fooled by the Website Carbon Calculator, green coding and measuring the environmental impacts of IT.
+
+13
+00:01:22,400 --> 00:01:26,400
+ Please welcome with a very warm round of applause Roberta.
+
+14
+00:01:26,400 --> 00:01:30,400
+ [APPLAUSE]
+
+15
+00:01:30,400 --> 00:01:34,400
+ Hi everyone. Thank you very much.
+
+16
+00:01:34,400 --> 00:01:40,400
+ Welcome to my talk, Fooled by the Website Carbon Calculator.
+
+17
+00:01:40,400 --> 00:01:46,400
+ And when I think of green IT, I think of the environmental impacts of IT.
+
+18
+00:01:46,400 --> 00:01:49,400
+ And this is also what this talk is about.
+
+19
+00:01:49,400 --> 00:01:52,400
+ It's a short talk, just 15 to 20 minutes.
+
+20
+00:01:52,400 --> 00:01:58,400
+ Usually when I start talking about environment and IT, I take about an hour at least.
+
+21
+00:01:58,400 --> 00:02:00,400
+ You have to forcefully stop me.
+
+22
+00:02:00,400 --> 00:02:02,400
+ So let's see how I do on the timing.
+
+23
+00:02:02,400 --> 00:02:12,400
+ What I would like to introduce to you is the context of why did we even look at Website Carbon Calculator tools.
+
+24
+00:02:12,400 --> 00:02:20,400
+ Then of course what did we find, what were the challenges, and I'm going to leave you at the end with some final thoughts.
+
+25
+00:02:20,400 --> 00:02:23,400
+ So let's start with the context.
+
+26
+00:02:23,400 --> 00:02:30,400
+ I'm a member of a community of practice that is looking at green technology at my employer's company.
+
+27
+00:02:30,400 --> 00:02:41,400
+ And we are a group exploring different techniques of how can we code, how can we write and create software in a way that is more environmentally friendly,
+
+28
+00:02:41,400 --> 00:02:49,400
+ that is using less resources, less electricity, less hardware utilization, etc.
+
+29
+00:02:49,400 --> 00:02:59,400
+ And so last year we spent a lot of time researching recommendations, how to optimize code, what saves more energy.
+
+30
+00:02:59,400 --> 00:03:04,400
+ And so this year we said we want to get our hands dirty, we want to try this out.
+
+31
+00:03:04,400 --> 00:03:06,400
+ Does it really make a difference?
+
+32
+00:03:06,400 --> 00:03:15,400
+ So we said we are going to do a proof of concept around green coding for the question of does green coding really matter.
+
+33
+00:03:15,400 --> 00:03:28,400
+ And our idea was we are going to build a web app, a front end app, in two ways, in a green way, optimized way, and in a normal standard way.
+
+34
+00:03:28,400 --> 00:03:38,400
+ We did end up doing it in three ways, because we got curious and said if we really want to fuck this up, if we create the worst case, how bad can it get?
+
+35
+00:03:38,400 --> 00:03:41,400
+ But the talk is not about this at all.
+
+36
+00:03:41,400 --> 00:03:51,400
+ I'm just giving you the context because the step two was analyzing the apps that we created and measuring the difference,
+
+37
+00:03:51,400 --> 00:03:56,400
+ if there really is a difference, if it's really measurable with these tools.
+
+38
+00:03:56,400 --> 00:04:04,400
+ So to share a bit with you what the kind of techniques were, again, I'm not going to go into these in detail,
+
+39
+00:04:04,400 --> 00:04:09,400
+ but we had some things in mind where we wanted to try the differences.
+
+40
+00:04:09,400 --> 00:04:19,400
+ None of these are like rocket science, but we just wanted to see what really is the difference of using an optimized technique to using a non-optimized technique.
+
+41
+00:04:19,400 --> 00:04:24,400
+ And so we started building our app, and I'm showing you a screenshot.
+
+42
+00:04:24,400 --> 00:04:31,400
+ For each of these optimization techniques that we wanted to test, we created a single page in our site,
+
+43
+00:04:31,400 --> 00:04:40,400
+ and this is app A, and this is app B, and I swear they are different screenshots of different apps.
+
+44
+00:04:40,400 --> 00:04:51,400
+ The idea was to create something that looks exactly the same, but behind the hood, under the hood, the techniques that we used would be different.
+
+45
+00:04:51,400 --> 00:04:59,400
+ And for example, for the image optimization, we created a page, we put a gallery of cat pictures on there,
+
+46
+00:04:59,400 --> 00:05:07,400
+ because obviously the internet is for cat pictures, and so for each of the pages and each of the techniques that we wanted to test,
+
+47
+00:05:07,400 --> 00:05:14,400
+ we put something on there that also the user that we could interact with during our testing.
+
+48
+00:05:14,400 --> 00:05:19,400
+ So we thought, great, we created these apps, we are done, now we're just going to do some simple tests,
+
+49
+00:05:19,400 --> 00:05:25,400
+ we're going to see the differences, and yay, we are finished.
+
+50
+00:05:25,400 --> 00:05:28,400
+ Well, we were wrong.
+
+51
+00:05:28,400 --> 00:05:38,400
+ When we started to run our tests with the website Carbon Calculator tools, we ran into a lot of issues, we ran into a lot of problems.
+
+52
+00:05:38,400 --> 00:05:43,400
+ One of them was that it's not possible to test individual pages.
+
+53
+00:05:43,400 --> 00:05:56,400
+ We're always just testing the main page basically, the whole site, or these tools are doing an average of all your sub pages,
+
+54
+00:05:56,400 --> 00:06:04,400
+ but you can't really test anything individually, so how can we see for any of the techniques if any of them have a difference?
+
+55
+00:06:04,400 --> 00:06:11,400
+ This was one of the first things that we found out, but we found out that there are more and more and more issues.
+
+56
+00:06:11,400 --> 00:06:22,400
+ So the POC became a lot more about trying to understand what the hell are these calculator tools actually calculating.
+
+57
+00:06:22,400 --> 00:06:28,400
+ This is an opportunity for a special thanks and a special shout out to Daedalus AI.
+
+58
+00:06:28,400 --> 00:06:39,400
+ They are a startup, less than a year old, and they are also one of those companies doing a website Carbon Calculator tools.
+
+59
+00:06:39,400 --> 00:06:46,400
+ They're a startup that we happen to know, that we happen to be friends with, and they let us really look behind the hood.
+
+60
+00:06:46,400 --> 00:06:53,400
+ They actually built for us a beta version that allowed the testing of individual pages,
+
+61
+00:06:53,400 --> 00:07:01,400
+ and that gave us a lot more information so that we could actually understand what we are really measuring.
+
+62
+00:07:01,400 --> 00:07:09,400
+ Okay, now you are for sure curious about what was the difference that we measured, even though this talk is not about the POC itself,
+
+63
+00:07:09,400 --> 00:07:13,400
+ just showing you as a highlight the difference.
+
+64
+00:07:13,400 --> 00:07:29,400
+ So you can see here for two of the pages where we have the extremist test result, the difference ranges from 35% to 99% of savings on CO2.
+
+65
+00:07:29,400 --> 00:07:35,400
+ This is measured with Daedalus AI. I'm saying this, it's measured, it's not the real CO2,
+
+66
+00:07:35,400 --> 00:07:41,400
+ and I'm also explicitly naming the tool because in each tool we would get a different result.
+
+67
+00:07:41,400 --> 00:07:51,400
+ So awesome, green coding matters. Don't write shitty code, optimize your code, take care that your code runs really smoothly and is efficient.
+
+68
+00:07:51,400 --> 00:08:02,400
+ And the question arose, what do these website carbon calculator tools really calculate? How do they calculate CO2?
+
+69
+00:08:02,400 --> 00:08:12,400
+ So a lot of them use some version of this formula that is proposed by the sustainablewebdesign.org,
+
+70
+00:08:12,400 --> 00:08:26,400
+ and is basically taking the amount of data, multiplying it with 0.81, multiplying it with the carbon intensity of the electricity, and then you get the total CO2.
+
+71
+00:08:26,400 --> 00:08:32,400
+ Let's talk a little bit about this formula. Let's start at the bottom.
+
+72
+00:08:32,400 --> 00:08:47,400
+ The total CO2 means really everything. So all the electricity consumption in the data center, the network, the end user device, and all the embodied emissions.
+
+73
+00:08:47,400 --> 00:08:56,400
+ Embodied emissions are those emissions caused during the production of the hardware. So really considering everything.
+
+74
+00:08:56,400 --> 00:09:09,400
+ And everything should fit in this simple formula? So all right. The CO2 intensity, this is the global and the intensity of the global energy mix.
+
+75
+00:09:09,400 --> 00:09:25,400
+ OK, we could use any other number for a local energy mix or for say we have a data center that we are running completely on coal, then we can of course substitute our own numbers here.
+
+76
+00:09:25,400 --> 00:09:41,400
+ What is really curious is this number of 0.81, which is the assumed consumption of energy that is caused by transferring 1 gigabyte of data.
+
+77
+00:09:41,400 --> 00:09:46,400
+ And I'm going to go into a little bit of detail in the next slide.
+
+78
+00:09:46,400 --> 00:09:59,400
+ And then what the formula doesn't include, but is actually the case for most of these website calculator tools, is that this is the transferred data for the initial page load.
+
+79
+00:09:59,400 --> 00:10:12,400
+ And I'm also going to go into a bit more detail because these two points of the initial page load and this value of 0.81 of course are the curious values.
+
+80
+00:10:12,400 --> 00:10:19,400
+ So data is an energy proxy. Where does this number come from of 0.81?
+
+81
+00:10:19,400 --> 00:10:30,400
+ This is from one scientific study. It's linked at the bottom, it's quite small and you can't see it because of the sun, but the link is there.
+
+82
+00:10:30,400 --> 00:10:47,400
+ And basically they did a rough estimate of the entire energy consumption of all of the internet and then an estimate of the total data volume that is transmitted on the internet.
+
+83
+00:10:47,400 --> 00:10:55,400
+ And then they said voila, this is the number. It's a little bit more complex of course, but simplifying this a lot.
+
+84
+00:10:55,400 --> 00:11:07,400
+ There are several studies out there that try to link data, the amount of data, with the energy consumed.
+
+85
+00:11:07,400 --> 00:11:15,400
+ And the results that they get are completely different. There's like a factor of 300 as a difference.
+
+86
+00:11:15,400 --> 00:11:27,400
+ And there are lots of reasons why this is, but this is just one value from one study. So we should question this value, we should try to improve this value.
+
+87
+00:11:27,400 --> 00:11:33,400
+ And we should also question if data is even a good energy proxy.
+
+88
+00:11:33,400 --> 00:11:40,400
+ Because of course reading, writing, transmitting, processing data is causing a lot of energy consumption.
+
+89
+00:11:40,400 --> 00:11:48,400
+ But what about all these other things like CPU, GPU, other hardware utilizations, etc.
+
+90
+00:11:48,400 --> 00:12:00,400
+ Our app was a front end only app, we didn't do anything in the cloud. So for us most likely the data transmission is really the correct thing to use.
+
+91
+00:12:00,400 --> 00:12:12,400
+ But if you think of an app like ChetGPT where you're just sending a text message basically and you're just getting a text message back, but in the cloud there is some crazy calculation happening.
+
+92
+00:12:12,400 --> 00:12:20,400
+ That's not data that is causing the energy consumption, not data that is being transmitted, but it's all the calculation done by the AI in the cloud.
+
+93
+00:12:20,400 --> 00:12:29,400
+ So for these cases, using data as an energy proxy probably isn't a good idea.
+
+94
+00:12:29,400 --> 00:12:34,400
+ So of course this is also a question, what else can we use?
+
+95
+00:12:34,400 --> 00:12:46,400
+ We didn't find any formula that would translate CPU usage into energy consumption and then CO2, if you know anything, let me know.
+
+96
+00:12:46,400 --> 00:12:49,400
+ I'm always curious to learn more.
+
+97
+00:12:49,400 --> 00:12:55,400
+ So then there's also the question of looking only at the initial page load.
+
+98
+00:12:55,400 --> 00:13:02,400
+ If we only look at the initial page load, we are not getting anything that happens after the initial page load.
+
+99
+00:13:02,400 --> 00:13:08,400
+ So any of the user interactions that happen once the page is loaded are not measured at all.
+
+100
+00:13:08,400 --> 00:13:14,400
+ And again we have a huge difference in the page depending on what it is.
+
+101
+00:13:14,400 --> 00:13:20,400
+ If I'm just looking up an article on Wikipedia, okay, the page load, that's it.
+
+102
+00:13:20,400 --> 00:13:31,400
+ If I am going to Netflix or some other streaming site to watch a movie, after the initial page load is where the data is being transmitted, is where the stuff happens.
+
+103
+00:13:31,400 --> 00:13:40,400
+ So we are missing a lot of the user interactions that we are not measuring them at all.
+
+104
+00:13:40,400 --> 00:13:48,400
+ This also means that several of the optimization techniques that we wanted to try could not be detected at all.
+
+105
+00:13:48,400 --> 00:13:56,400
+ Because some of these techniques only play a role after the page has been loaded.
+
+106
+00:13:56,400 --> 00:14:01,400
+ So here are the results per page that we measured.
+
+107
+00:14:01,400 --> 00:14:13,400
+ And in the green color columns we have those pages where we have local and global optimization techniques that are really being measured.
+
+108
+00:14:13,400 --> 00:14:22,400
+ And then in the blue columns we are not detecting the actual optimization technique that we wanted to test,
+
+109
+00:14:22,400 --> 00:14:32,400
+ but only the global optimization strategies play a role here, not the actual optimization technique.
+
+110
+00:14:32,400 --> 00:14:36,400
+ And who only loads a page?
+
+111
+00:14:36,400 --> 00:14:40,400
+ Most people load a page and then do something.
+
+112
+00:14:40,400 --> 00:14:50,400
+ So we wanted to know how relevant this use case is, and we looked a little bit into the data around search engine optimizations,
+
+113
+00:14:50,400 --> 00:14:57,400
+ because of course for companies it's quite important that people land on their page and then actually interact with the page.
+
+114
+00:14:57,400 --> 00:15:02,400
+ And we found some values, again they are different values, I just used these numbers now,
+
+115
+00:15:02,400 --> 00:15:13,400
+ between 26 and 70% of bounce rate means that this is the amount of people who just open the page and then leave again without doing any kind of interaction.
+
+116
+00:15:13,400 --> 00:15:19,400
+ So if we are now just going to say, okay let's assume 50%.
+
+117
+00:15:19,400 --> 00:15:29,400
+ 50% of the interactions in the internet are then covered by these kinds of tests, but 50% aren't.
+
+118
+00:15:29,400 --> 00:15:35,400
+ And this is getting me to the final thoughts.
+
+119
+00:15:35,400 --> 00:15:46,400
+ This morning for fun I tested events CCCDE with some of the website carbon calculators that are out there.
+
+120
+00:15:46,400 --> 00:15:59,400
+ And you can see I got four different results from 0.37 grams to 1.24 grams,
+
+121
+00:15:59,400 --> 00:16:07,400
+ so it's quite a range of what is the result for the page or the entire site.
+
+122
+00:16:07,400 --> 00:16:11,400
+ And it's also interesting how they are wording the result.
+
+123
+00:16:11,400 --> 00:16:21,400
+ There's only one of them that is talking about estimation, the others just say this is your carbon footprint, only one says this is estimated.
+
+124
+00:16:21,400 --> 00:16:31,400
+ Then I find it quite curious that the first one is saying only, so they are including a kind of judgment and saying,
+
+125
+00:16:31,400 --> 00:16:44,400
+ no you're not causing very many CO2 emissions, so who says that 0.37 is only, who says this is little, who says it is good.
+
+126
+00:16:44,400 --> 00:16:50,400
+ They are determining this by crawling other sites and then comparing your site to those other sites,
+
+127
+00:16:50,400 --> 00:17:02,400
+ but this is basically only saying we are better than the rest, but does it mean that we are good is a different topic.
+
+128
+00:17:02,400 --> 00:17:12,400
+ And then only one of those calculators actually gave additional information of where the most energy consumption was caused
+
+129
+00:17:12,400 --> 00:17:15,400
+ and is giving some hints on how you can improve it.
+
+130
+00:17:15,400 --> 00:17:23,400
+ And of course for us as developers it is important to understand this point of how can we write better code, how can we create a better website.
+
+131
+00:17:23,400 --> 00:17:34,400
+ For all of them it was either very difficult to understand how they are actually getting to the result or it was not possible at all.
+
+132
+00:17:34,400 --> 00:17:39,400
+ And this brings me to the final, final thoughts.
+
+133
+00:17:39,400 --> 00:17:46,400
+ Okay, so these estimations, they are estimations, they are really rough. Is this a problem?
+
+134
+00:17:46,400 --> 00:17:58,400
+ Here my personal opinion is it can be used to raise awareness that IT is consuming energy, but transparency for me personally is the issue.
+
+135
+00:17:58,400 --> 00:18:03,400
+ They are just saying this is your carbon footprint, they are not explaining how they are calculated or anything.
+
+136
+00:18:03,400 --> 00:18:11,400
+ They are not even telling you that this is estimated, they are just telling you this is the result.
+
+137
+00:18:11,400 --> 00:18:20,400
+ And of course as a last thought we need some tools that we can use as developers so that we can create better code.
+
+138
+00:18:20,400 --> 00:18:31,400
+ And this was now a POC and testing things for web design, but of course also for all these other areas of coding.
+
+139
+00:18:31,400 --> 00:18:38,400
+ And if you have any idea, if you have any knowledge I would be super happy to connect and learn from you as well.
+
+140
+00:18:38,400 --> 00:18:48,400
+ And with the same thing, thanks for listening to me.
+
+141
+00:18:48,400 --> 00:18:53,400
+ I would take one or two quick, with emphasis on quick questions.
+
+142
+00:18:53,400 --> 00:19:01,400
+ Comments later, questions please. No, no, no, questions, quick questions.
+
+143
+00:19:01,400 --> 00:19:07,400
+ Well, okay, sorry for, but talk afterwards because we have to set up the stage for the next person.
+
+144
+00:19:07,400 --> 00:19:17,400
+ I'm here in the village, I'm part of the crew of Bits and Boimer for this habitat so I'm going to be here not just now, but also in the next days, come and find me.
+
+145
+00:19:17,400 --> 00:19:27,400
+ Well, in that case, please give another warm Roberta.
+
+146
+00:19:28,400 --> 00:19:32,400
+ [Music]
+

@@ -1,0 +1,555 @@
+ [MUSIC]
+ [MUSIC]
+ >> Good evening. Hello.
+ Good evening. Hello.
+ Welcome to Millie Boys.
+ The evening talks at Millie Boys on day three.
+ I hope you had a great day already and we'll have
+ a much greater day in the evening today with nice talks.
+ The next talk will be
+ held by the network team of the Tor project.
+ They will present us with
+ a guided tour through Tor networking,
+ health, and performance.
+ >> Thanks everybody for coming.
+ We have collected a little group of people from the Tor project here,
+ who's going to talk a bit about general network status thing,
+ and particularly with focus on the health and
+ the performance that we've been working a lot on in the past few years.
+ I'll just do a quick introduction of everybody.
+ I'm Alex. I'm heading up towards network team.
+ We're the team responsible for writing the C Tor implementation
+ and the Rust implementation that we'll be talking a little bit about called RD.
+ Then we also have Yuka on stage.
+ Yuka is one of our bandwidth scanning experts and work together with
+ Geog who is the network health team lead.
+ Finally, we have Gus who's heading up our community team and
+ is doing a lot of the engagement with people in our community,
+ and the relay operating community and so forth.
+ If we start out with talking a bit about some of the features we've been working on
+ for the currently stable Tor release called 047.
+ One of the things we built in that was congestion control.
+ Tor had originally not had any good mechanisms like we see in TCP,
+ with regards to congestion control and handling congestion in the network,
+ which led to a higher variance in error conditions when you were using Tor
+ and the performance was not so good.
+ What the team did was that we evaluated a number of different options
+ for congestion control algorithm.
+ People who are into some of these TCP things might notice some of the names are similar.
+ They're very related from the general network world.
+ The three system we looked at was called Westwood and Vegas and NOLA.
+ While the team was looking at it, Google also came with a paper
+ with a congestion control system called BBR.
+ But many of these systems suffered from some issues that led to these runaway congestion conditions
+ which made them unsuitable for what we were trying to do.
+ We ended up spending a lot of time working in a simulator that we have called Shadow,
+ where we tried to test the different algorithms for seeing how they were performing,
+ having an idea about which parameters we could tune in various conditions,
+ and see how things are doing.
+ These plots are a little bit difficult to understand.
+ They're CDF plots, but the idea here is that the orange part of the curve is the 047 release
+ and the blue part is the 046 release.
+ And the left picture is a simulated instance where we tried to behave
+ like we're a client being in Germany, and on the right-hand side we see one in Hong Kong.
+ And what basically these things tell is that we see a higher amount of the traffic
+ being performant for the new system.
+ We are sort of moving towards this new release that are coming very soon,
+ where we have then decided to remove some of these algorithms because they're simply unused,
+ and Vegas is the only one currently that is left.
+ We will continue to tune on these things.
+ We will learn as more clients are coming on, as we do various upgrades in the network,
+ so we would likely have to tune different parameters.
+ And the entire system is made so that the directory authorities,
+ which is the nodes that are sort of the trust anchor in the Tor system,
+ will be able to tune certain parameters based on various ideas or experiments we want to try out.
+ So all of this sounds good, and many people will sort of say,
+ "Okay, is this then going to be super performant, or how is it actually going to change things?"
+ As some of you may know, we have had a denial of service going on on the network for quite a while,
+ so I'm trying to show this using some fairly old plots,
+ and then show it with some very current plots after the network has upgraded to the 047.
+ So if you look at this one, this is the time to complete a 5 MB download
+ to a public server over the Tor network.
+ As you can see, the variance is very, very high in this.
+ We have some error conditions where it took up to 50 seconds for these requests to go through,
+ and most likely the user will have abandoned the web request that was happening there.
+ So after we deployed congestion control, it now looks like this.
+ We're down to having sort of a 20 second boundary on this,
+ and it's starting to look a whole lot better,
+ and you will likely also experience this when you're using Tor browser in your daily life,
+ because ideally the request should go through quickly, right?
+ I believe there's a lot of you in this room, or in this stage, that is operating Tor relays.
+ A massive thank you to everybody who upgraded to 047 very, very quickly.
+ Yes, big round of applause for that.
+ It is so important that when we get releases out, that they get deployed to the network,
+ because many of the releases that we make requires us to upgrade the network,
+ before we can start upgrading the clients.
+ So before we can start including these features in, for example, Tor browser,
+ or other applications that use this Tor, then we need the network to be upgraded.
+ So huge thanks to everybody who's been doing this.
+ I think last week, I've been camping for a while,
+ but last week we released the release candidate for the Tor 048.
+ Just like with 047, which had the congestion control feature,
+ there's some pretty cool features that we have in there.
+ The congestion control feature, there's some pretty important features
+ that I'll be talking about in a moment, which is coming out in this release.
+ So we really hope that people will be very, very snappy with upgrading quickly again,
+ so we can start testing these things out on the live network.
+ So one of the big features that we are adding in 048 is very much related
+ to this denial of service attacks that we've seen.
+ The nature of the denial of service attack is not so that there is one denial of service attack.
+ We've likely seen many different kinds of attacks that's happening within the network.
+ But because of the design in Tor, we can't really go in and say,
+ and pinpoint what exactly is happening,
+ but we know that some of the attacks is happening towards onion service traffic,
+ which means that it stays within the network and never goes out over the exit nodes.
+ So one thing we've implemented is that we have implemented a proof of work scheme.
+ Some of you know these from blockchain projects and how they are burning down our planet.
+ This system is designed in a way so that by default it's not enabled,
+ but the onion service, if it sort of realizes that it's under attack
+ on various network conditions, seems bad.
+ It can enable it and slowly sort of increase the
+ difficulty that is used for clients to connect.
+ We have chosen a scheme that we got help from from a contributor called Tiverdoor.
+ Thanks to them for working on this.
+ If you are interested in sort of the technical details about how this scheme works,
+ we have this proposal called 327, which includes all the technical aspects for how to implement it.
+ And as of last week, I believe, we also have the documentation ready if you are operating onion
+ services for how to use this feature and testing it out in your production system.
+ There is one slight catch with this proof of work scheme.
+ It uses quite a lot of memory,
+ which means that particularly for Apple's very closed iOS platform,
+ we are likely not going to be able to enable it.
+ It's Guardian Project who is doing the ORBOT for iOS.
+ And because of Apple's network extension memory limits,
+ we are very unlikely to be able to support it there.
+ But the effect will likely be the same as if the feature was not there,
+ namely that if there is an error condition happening for the given onion service,
+ then the client will simply not be able to reach it.
+ And this will just impact iOS users more.
+ If you know anybody who works for Apple, then please ask them to bump this limit.
+ It has been bumped a few times, but it's still a bit too low for us at least.
+ The big feature that is going to come in 048 is a feature called conflux.
+ Historically, most people in here is probably aware of that when you have a torrent circuit,
+ you have a decline which connects to a guard node and you extend it to a middle node and
+ then finally to an exit node where you then make your TCP flows out to the internet.
+ One of the API features that we have now inside of Tor from the congestion control system
+ is that we can get information while the traffic is being sent and received
+ on how congested the link is.
+ This allows us to utilize this conflux feature to create multiple legs into the network
+ and sort of rendezvous at the exit node.
+ And then the client can learn which of these two paths through the network is the least
+ congested and switch over to transmit and receive on that one.
+ So hopefully, now that we have seen with the congestion control part that we have gotten
+ the variance of errors and delays down, then we hope with conflux we'll see sort of a greater
+ performance when you're downloading larger things and using the Tor network in general.
+ One of the really nice things with this whole performance project we've been running in the
+ network team for a while now has been how the team has been working together and developing
+ things.
+ We have historically used this tool called Chutney.
+ It's sort of a little Python thing where you can say give me a Tor network with 400
+ nodes and it then starts 400 Tor instances on your computer and you can test things.
+ We also have a system called Shadow which is like a more powerful simulator where you
+ can sort of simulate a whole Tor network and including having time change.
+ So we can, for example, simulate a year's use of the Tor system over like a couple of
+ hours and we can even do it in our CI tool chain which has been really, really awesome.
+ One really nice thing with sort of how we work, we work like many research projects.
+ So we get grants to do our work.
+ Often these denial of service conditions that happen have this impact that we need to drop
+ everything we're currently doing of deliverables and switch over to doing like mitigating the
+ attacks.
+ We fortunately now have a sponsor where we can do some of this work on denial of service
+ if something comes up and if you need to tune things or if we need to come up with new
+ mitigation techniques.
+ For people who are sort of nerding out on our GitLab, then these things are tracked as
+ like GitLab has this label thing and we have a denial of service label and we also have
+ a sponsor 112.
+ So if people are interested in seeing what kind of things we are planning, you can go
+ look there.
+ How many people in here have heard of RD?
+ Okay, not so many.
+ RD is our attempt, hopefully it's going to be successful, with trying to write a Rust
+ implementation of Tor that will eventually replace the C implementation.
+ One of the issues that exists with C Tor is it's a very old application by now that has
+ sort of evolved over time.
+ The architecture of it is not really fit for sort of the modern day world, how we do
+ applications, how we have mobile applications and so on.
+ So RD will become primarily an API for working with different kind of Tor objects like our
+ D network documents and making circuits and these kind of things.
+ And it will eventually allow you to both build a Tor binary like you're used to having today
+ where you can connect over a SOX port, but it will also allow you to have a Tor implementation
+ embedded into your applications if you want to do certain things.
+ And finally, it will also of course support onion services.
+ We - it's not an easy decision to make that you want to rewrite, like throw away so many
+ years of work and then try to rewrite it in another language.
+ We do some assessment on our issues.
+ When we have issues that we consider that they have such severity that they would be
+ considered security bugs.
+ And we could see at some point that 21 out of 34 of what we call troves, they're a bit
+ like our internal CVEs where we have some different categories that we use, would be
+ highly unlikely to happen if we were using more memory safe languages such as Rust.
+ Another big component of this is that the network team at Tor is much more excited about Rust
+ than they are with C and developer happiness is fairly important as well.
+ If we look a bit at the roadmap for RD, we are now at the point where we are working on onion
+ services.
+ We've just entered the year two funding for this.
+ There's already stuff that if people want to try around with having sort of a little
+ Rust library where you can build onion services, then you can start trying it out today.
+ The goal is that when we are at the end of this year, the browser team at Tor will be
+ start to be able to play around with embedding RD into the browser.
+ We are currently working on getting funding for building relays and bridges and directory
+ authorities and all these sort of things that are hosting the network.
+ But for now we are sort of focusing on the client side because the way Tor is designed,
+ the client side is sort of the difficult thing to build.
+ Right now it's almost the majority of the network team at Tor is working on RD or RD
+ related deliverables.
+ We also have a little VPN project that we are experimenting with that is also getting
+ some attention.
+ We hope to very soon have sort of the entire team focusing on this.
+ We are currently three people out of ten, I think, that is sort of left focusing on
+ C Tor.
+ What you will most likely see is that we will start limiting client features, so only do
+ the things that is needed to upgrade the network and then do the client features primarily
+ in RD itself.
+ One of the big things we want to work on soon is UDP, for example.
+ UDP will have a network upgrade in the C Tor implementation and then it will have
+ client feature support only existing in RD.
+ We will of course continue to support C Tor until we are ready to replace it.
+ It would be crazy to do anything else.
+ If you are interested in tracking some of these engineering efforts that we are doing,
+ I believe that one of the nice things we have with RD is that it will probably be easier
+ for more people such as yourself to contribute.
+ The C Tor codebase was a bit difficult to get, sort of wrap your head around when you
+ were just diving into it.
+ We have an RSC channel, Tor Dev, on the OFTC network and we also map it over to Matrix
+ as Tor Dev.
+ We have our GitLab account, well, our GitLab instance where you can track the engineering
+ efforts and what we are doing and so on.
+ If any of you are interested in this, you are also welcome to come and find me here at
+ camp and talk a bit about these things.
+ Now I'm going to pass the mic to Juga who is going to talk a bit about bandwidth scanning.
+ So, bandwidth scanners, we need them to monitor the Tor network performance, to better distribute
+ the load across the network and to help to verify relays bandwidth.
+ Because the relays themselves report the bandwidth they see that pass through them, but there
+ are no other relays to verify them, to verify that.
+ So, how it works.
+ The scanner builds two hub circuits between the relay that wants to measure and another
+ relay that helps to measure this relay with double bandwidth.
+ Then the load data through this circuit and write it in a file.
+ Every hour, this file is read by the director authorities and they vote on the consensus
+ with.
+ This is a graph of the number of relays measured by the bandwidth scanner by each directory
+ authority in the last four days.
+ What is new now is that we have also a bridge scanner.
+ The bridge scanner works in a very similar way, but it creates three hubs circuit.
+ This helps with the users to have a better experience because now, instead of just distributing
+ the bridges that are available, the bridge authority is distributing the bridges that
+ which bandwidth ratio is over a certain threshold.
+ This is a graph about the measured bridges in the last days.
+ The ones that were accepted over that ratio and the ones that are not.
+ Then Gecko is going to talk about more network health things.
+ Thanks.
+ Looks good.
+ Thanks.
+ You heard already from Alex and Hugo a lot about the performance angle of network health work.
+ As you might know, there are many more things we have to consider once we want to think
+ about whether a network is in a healthy state or not.
+ We have a project Alex has been mentioning already which we are currently focused on,
+ which is trying to defend more effectively against malicious relays, which is a considerable
+ issue for the Torrentburg for a long time.
+ You might have heard about this.
+ You can see the details in the blog post I wrote a while ago.
+ Having malicious relays in the network is definitely not good for the health of the
+ network overall.
+ What we want to do is improving the state of the art which is currently deployed and which
+ we currently have as tools.
+ That is only one of the things which needs improvements.
+ As we have seen over the years of fighting malicious relays, setting on having more and
+ more sophisticated tools to find and hunt down and kick out malicious relays is not going
+ to fly over the long run.
+ There is no way to win this arms race in that way.
+ We have to have a kind of a social approach as well, a different tool in our tool chain
+ for defending against malicious relays that way.
+ Gus will talk a bit about that, what we have in mind and what we plan in the next couple
+ of weeks and months.
+ But that is an important thing to keep in mind.
+ There is no technical only solution against malicious relays in the Tor network.
+ We are working on that part, getting this right.
+ The other important point when you are thinking about network health is that there are a lot
+ of relay attacks which we have seen over time over the years in practice and in papers.
+ We never found time to actually address those in our day-to-day work.
+ We got funding for that.
+ I will talk a bit later about what those attacks are we have in mind.
+ Alex mentioned one, which is a really hard one.
+ Because we have seen in this year four different attacks coming to the network at the same
+ time and all four of them would have needed totally different approaches to tackle them.
+ One, Alex mentioned already the proof of work thing and there are other ones.
+ But we want to make progress on those things as well in this upcoming work.
+ The timeline for the project was October 22 to October 24.
+ We are kind of in the middle of where we are with the work on this part.
+ We have to dig a bit deeper.
+ It is not just fixing tools for detecting malicious relays or fixing those attacks.
+ We have to redo our matrix pipeline as well.
+ The reason for that is, as I said, it is not really enough to have tools for detecting
+ malicious relays and then kicking them out.
+ Sometimes we have seen really persistent attackers in the network doing attacks over a month
+ and sometimes one or two years.
+ So we need to detect those things earlier.
+ And we need to do those detections by not having only compressed tables of descriptors
+ and consensus and whatnot over a month and years as we have it now.
+ Because that is really cumbersome to work with and slowing things down.
+ So what we want to do is we want to redo our matrix pipeline in a way, as you can see on
+ this picture here.
+ So we have a downloader which is downloading all the different descriptors and then macro
+ descriptors and consensus.
+ And it is writing things in an archive and at the same time it is putting things in a
+ Postgres QL database and then a Victoria matrix piece which is helping with the time series.
+ And then we want to do a RESTful API written in REST where we can query stuff and having
+ some shiny Grafana dashboards where you can easily see how things are going on.
+ This is not just meant to be for our internal usage, but of course at the first time we
+ would be the ones dog fooding our stuff.
+ But we plan to somehow expose this to interested operators and the wider community as well
+ where they can dig through the data and come up with issues in the network we might not
+ see and just play with stuff around at some point later.
+ You see how this goes.
+ At the second point we want to do while we are working on this project in the matrix
+ area is we want to build a small service to annotate our knowledge of the tool network
+ and this tool is called TagTool.
+ And it is basically like a relay search we have right now.
+ If you go to matrix.toolproject.org there is an option to look at the state of your
+ relays via a relay search.
+ And what you want to do here is we want to add a little node or category to tool routers
+ where we can keep kind of state of tool routers which would for instance say hey, maybe Gus
+ knows the operator or maybe I am knowing the operator or maybe Roger knows the operator
+ and maybe you can annotate and say hey, I have met this guy at the camp or at DefCon
+ or whatever.
+ So we can see a bit first how many of the operators we actually know.
+ Because nobody is knowing this nowadays.
+ And then we can ask, I know these number of operators and we can think about how many
+ of the capacity of the network do I actually know by operators.
+ This kind of stuff.
+ And this allows us later on to put actually tools for our bad relay work on top of that.
+ Gus mentioned some of those.
+ One thing that got mentioned in the past is we could say okay, in order to minimise the
+ risk for our users, we could just cap the total amount of exit capacity a single operator
+ can run in the network.
+ Right now it is not really a thing embedded in the code.
+ It is kind of operators contacting us and saying hey, I am now running 10% of the exit capacity,
+ is that okay or should I maybe do something else?
+ Because it might be exposing too much risk to your users.
+ But then we could think about building a thing, maybe say okay, maybe it is just allowed for
+ exit operators to run 5% of the exit capacity or maybe just 10 or whatever.
+ But first of all we need to know how many of those folks we actually know to have an
+ idea of how many people we trust in the network by now.
+ So for the relay attacks, here are some of the things we could think about and we are
+ actually thinking about.
+ You can find more details in this milestone where we have a detailed description of the
+ things we want to work on and managing those attacks.
+ There are really side channel attacks we have seen in the past where users got de-anonymised,
+ you want to investigate and finally fix tagging attacks, where we try to manipulate the routes
+ of the network users can use, not be, but attackers can use and we try to defend that.
+ And those attacks are already mentioned.
+ We have some traffic analysis papers, resistance papers seen in the past and we want to implement
+ the most promising things from them into the code we have.
+ And then there are bandwidth inflation attacks.
+ You might recall Huka talking about the bandwidth scanner.
+ One of the ideas was at some point building a bandwidth scanner, which is actually not
+ really only measuring the bandwidth, but detecting once relays try to claim they are able to
+ relay more traffic than they actually are.
+ Because there might be people around saying, oh, I just set up this relay and whenever
+ a user is coming, I just give it a really crappy service trying to minimise the cost
+ I have for running a relay, but once the bandwidth scanner is coming and measuring my relay,
+ I show there is a really big bandwidth I have available and that's why I get a higher consensus
+ rate which means more users are picking my router in the circuit.
+ And this kind of cheating and attacking the network you want to avoid at some point.
+ And there are ways we can do that actually and we are working in this project moving
+ forward in this direction.
+ So I think that's it for me.
+ I pass the mic to Gus for the final part.
+ [Applause]
+ Hello.
+ So this is a Tor exit node that is hosted here in CCC camp.
+ Thanks, Article 10, for her running this relay.
+ So I'm going to talk a little bit about the work that the Tor community team is doing.
+ The thing that we need to acknowledge is that Tor as an organisation, we developed the software.
+ As you see Alex talking about the complex stuff, about conflux, congestion control,
+ algorithms, Geekoo and Hugo talking about network health.
+ But there is a very important component that is the community who is running the software.
+ Like without relay operators we don't have Tor network or we don't have Tor.
+ So the idea of this, to mitigate the attacks against Tor, the idea is to improve the network
+ health or the community health of the Tor network.
+ So we talked before on building tools to fight bad relays like creating scanners and this
+ kind of stuff.
+ This is one way to fight bad relays but the other way is also using the social approach.
+ So instead of running scanners, this is also what we are going to do, but the idea is to
+ have a community that we know.
+ So we can say, oh, this person that is running 100 relays, we know them and they are cool
+ people.
+ So the idea is to make the community harder for infiltration.
+ So one quick question.
+ Please raise your hand if you are running a Tor node.
+ Okay.
+ I can see some people.
+ So according to our specialist on Twitter, called X, the NSA controls a significant amount
+ of Tor nodes.
+ Something like 90%.
+ I don't know how accurate is this.
+ I heard the day steps.
+ Nothing is truly safe.
+ So according to this random person on the Internet, 90% of people here are paid or part of NSA.
+ And this is ridiculous.
+ So we can see part of the network health discussion on the Internet is very low.
+ People do claims about who is running Tor relays and this is something that we want
+ to change.
+ Not about the reputation but also about knowing the community, showing the work that people
+ are doing is also rewarding.
+ People want to be seen like, hey, I'm contributing with the Tor network, 10% of the exit capacity
+ or 15% of the exit capacity.
+ And this is very important.
+ So there are many adversaries against Tor, but I believe there are two extreme positions
+ that are not helpful in this debate.
+ One is underestimating the problem.
+ Like well, everything is fine.
+ Please don't remove my super sketch relays.
+ They are just happy relays.
+ So we have this kind of attitude.
+ And the other one is like overestimation of the problem.
+ Like oh, well, the CIA is running the whole Tor network, so I'm going to use this other
+ solution here instead of the Tor network.
+ And this is obviously a good solution.
+ So one thing that we have been working to mitigate this problem of trust on the Tor
+ network is to create a process involving the relay operators.
+ Hello?
+ Hello?
+ Is it working?
+ Hello?
+ Okay.
+ So we have a process involving the Tor community.
+ So the idea is to have relay operators to submit proposals or ideas or comments or suggestions
+ how we can improve the Tor network and how we can improve the health of the Tor network.
+ We wrote recently a policy where you can understand how is the process, how you can submit a proposal
+ to improve the Tor network health.
+ So some examples of proposals.
+ First thing, first example, guideline for consensus that Geco was talking here.
+ Another thing was allowing allow limit consensus as a fraction by family.
+ So if you are running a family of nodes, you can only run 10% of the capacity.
+ No matter what, if you add 100 more relays, it will always be the same.
+ This is a proposal, it's not approved.
+ We are evaluating just kind of ideas.
+ And also we have another proposal, another example of proposal of how you can conduct
+ open source investigation when you're hunting malicious relays.
+ So one thing, one problem that we sometimes we have, people report that a relay is bad,
+ but when we ask them, okay, how that relay is bad, what they are doing, the person doesn't
+ explain how they came up with that result.
+ So if we cannot reproduce that thing, we cannot say that's a bad relay.
+ And if you look, for example, in Twitter and social media and other places, you can see
+ sometimes people saying crazy stuff about exit nodes or relays, saying like well, this
+ is clearly malicious because you can see by the contact info.
+ And sometimes relay operators are very funny people.
+ They sometimes create names of their associations as CIA about confidential integrity and authentication.
+ So sometimes people are very funny and users are not, they don't think that's a funny thing.
+ So this is why we have the guideline to have, to help people to do open source investigation.
+ So because Tor network is a public network, we should expect that people are checking
+ their relays and see the behaviour of these relays.
+ Another example of a proposal that was recently submitted from the community, like we have
+ a limit of how many relays you can run by IPv4.
+ So before was true.
+ And the idea was you cannot run with one single IPv4 address.
+ You cannot run 1,000 relays.
+ So to avoid this kind of attack, it was limited to two.
+ We bumped that number to four because some relay operators wrote a very nice proposal
+ saying hey, the IPv4 is very expensive and we have hardware, we have capacity, we have
+ bandwidth.
+ The only thing that we don't have and very expensive is to buy IPv4.
+ So the idea was okay, we can bump to four and see how the attackers are going to act,
+ what is their behaviour.
+ If everything is fine, we can bump to eight.
+ So right now you can see that we have, you can run eight relays per IPv4.
+ And that created a very interesting graphic here.
+ You can see that before this proposal, we were like 1,500 relays, as it is known, sorry.
+ And now after this proposal was approved, we have now almost 2,500 relays.
+ So this is how a policy made by the community and enforced by the project, just how we can
+ change the network.
+ So sometimes we believe how we are going to increase the capacity, how we are going to
+ make more people to collaborate or make the network faster.
+ Sometimes it's not an engineer thing but also a policy thing.
+ Like something that we can change on the Tor code, something we can change on the Tor network.
+ So the next activity that we have here in the camp, tomorrow we have the Tor relay operator
+ meet up.
+ You don't need to be running a relay to join this meet up.
+ If you are interested in Tor, if you have questions about Tor or Snowflake or other
+ plugable transports that we didn't talk about today, you are welcome to come and ask about
+ this.
+ It's going to be on Burn Hack Village at 4pm.
+ You can also check this very cool project from Article 10 on their village.
+ I don't know how to pronounce it in German so I'm not going to pronounce it.
+ And you can check their exit notes and make questions.
+ Article 10 is one of the top, one of the largest exit operators on the Tor network.
+ So if you think like, oh, NSA is running a bunch of relays, actually it's probably Article
+ 10, nothing to hide, that's the operator for Netherlands, many other operators here in
+ Germany.
+ So you have opportunity here to, I believe, meet 40% of the Tor exit capacity.
+ So if you walk around and talk with people, you are running the Tor network.
+ And we have another campaign happening with the Electronic Fund Foundation called the Tor
+ University Challenge.
+ It's diversity but means education.
+ So if you have a school, if you have an education project, you can join this challenge.
+ The idea is to have more universities running relays.
+ And you can see on this website how many universities are running relays.
+ And if you want to be part of the Tor community, like running relays, there are other ways
+ to contribute with the Tor project, like doing trainings, translation, et cetera.
+ But you can also join as an operator.
+ We have a mailing list that's open and you can subscribe.
+ We have the Tor forum.
+ It's a very easy tool for newcomers to join and ask questions.
+ We have a matrix and IRC to chat with us.
+ And we have monthly online meetups that are announced on the Tor relays mailing list.
+ But if you cannot run a relay, you can also run a Zoomflick proxy.
+ Again, we have more than 141,000 proxies of Zoomflick, which is very important right now
+ for people in Iran to access the free and open Internet.
+ And to run a Zoomflick proxy is very easy.
+ You need to install an add-on on your browser and you can help people.
+ And yeah, and very curious that Germany is also the top largest country contributing
+ with Zoomflick proxies.
+ So again, thank you for running a bunch of Zoomflick proxies.
+ And I think that's it from me.
+ A great round of applause for this tour through Tor Networking.
+ We now have an open mic.
+ You can queue up here for a few questions.
+ So if you have a few questions, please queue up back around the back, please.
+ Start running through the camera.
+ Hey, thanks for your talk.
+ I really do see that the attacks on the network are a big problem.
+ And I find the extra layer of social layer of trust you want to implement interesting.
+ I can see a few problems with that.
+ But I mainly wonder if it might undermine the spirit of Tor, the spirit of anonymity,
+ if I have to identify as a relay operator to you, especially in a country where to operating
+ might be illegal.
+ Thank you.
+ Hello.
+ Oh, here.
+ Okay, yeah.
+ So this is a great question about the transparency and privacy.
+ The Tor network requires user privacy, and who operates the Tor network, we require transparency.
+ It doesn't mean that we require phone number, identification, legal names, your passport
+ number.
+ We don't require that.
+ We require like a nickname and some way to contact you.
+ So we are not requiring your to disclose your legal identity to the Tor project or something
+ like that.
+ And this is very important because we wrote recently a document about that, like the Tor
+ relay expectation for Tor relay operators, which we say running a Tor relay requires
+ transparency.
+ So if you cannot do that, maybe running a relay is not the best way to contribute with
+ the Tor network.
+ Maybe it's running a training, maybe it's localizing Tor, maybe it's teaching others
+ about Tor, so you don't expose yourself to the Tor network because the Tor network is
+ a public network.
+ So if you are at risk, maybe you should not run a relay.
+ Thank you for these insights into Tor development.
+ Thank you for being here.
+ And I think we can find you somewhere.
+ If we have further questions, find them.
+ Thank you.
+ [APPLAUSE]
+ [MUSIC PLAYING]
+ (music ends)

@@ -1,0 +1,599 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:33.000
+ Eileen is presenting to us Decent Patterns and UX Library for Decentralization.
+
+00:00:33.000 --> 00:00:34.000
+ Welcome.
+
+00:00:34.000 --> 00:00:35.000
+ Thank you so much.
+
+00:00:35.000 --> 00:00:36.000
+ [APPLAUSE]
+
+00:00:36.000 --> 00:00:43.000
+ After that last lightning talk, I feel like I'm being very greedy with 20 minutes, but
+
+00:00:43.000 --> 00:00:45.000
+ maybe we'll just have more time for questions.
+
+00:00:45.000 --> 00:00:51.000
+ So I'm here to talk about Decent Patterns and Open UX Library for Decentralization.
+
+00:00:51.000 --> 00:00:56.000
+ This is a project that I guess I started a few years ago with a small team of co-conspirators,
+
+00:00:56.000 --> 00:01:01.000
+ some of whom are all at this camp actually, so you can meet us too and talk more about
+
+00:01:01.000 --> 00:01:02.000
+ this.
+
+00:01:02.000 --> 00:01:07.000
+ I'm hoping this talk will be interesting to those of you who are building decentralized
+
+00:01:07.000 --> 00:01:11.000
+ technologies, but of course also people who are generally just knowledge workers, right?
+
+00:01:11.000 --> 00:01:16.000
+ Like if you have done a library in your life, maybe you'll run into some similar questions
+
+00:01:16.000 --> 00:01:19.000
+ that I'm going to raise today.
+
+00:01:19.000 --> 00:01:24.000
+ Similarly, I think it's an interesting answer to the question, what can designers contribute
+
+00:01:24.000 --> 00:01:25.000
+ in open source?
+
+00:01:25.000 --> 00:01:28.000
+ This is something that I've been thinking about for a long time.
+
+00:01:28.000 --> 00:01:32.000
+ So I think maybe there are some answers here.
+
+00:01:32.000 --> 00:01:34.000
+ But why?
+
+00:01:34.000 --> 00:01:36.000
+ Why build one in the first place?
+
+00:01:36.000 --> 00:01:38.000
+ So I'm a designer.
+
+00:01:38.000 --> 00:01:42.000
+ I work in decentralization technologies around that.
+
+00:01:42.000 --> 00:01:46.000
+ And whenever I work with people, you know how it is.
+
+00:01:46.000 --> 00:01:50.000
+ You go into a small team, you work with them intensely for a few months, and then you go
+
+00:01:50.000 --> 00:01:55.000
+ to another team, and you go to an organization, and then maybe you get a chance to build a
+
+00:01:55.000 --> 00:01:59.000
+ team, and you go to an organization, and then maybe you get a chance to talk to another
+
+00:01:59.000 --> 00:02:01.000
+ designer, but basically you're kind of alone.
+
+00:02:01.000 --> 00:02:05.000
+ But as I was working alone with all of these groups, there were just some recurring questions
+
+00:02:05.000 --> 00:02:07.000
+ that everybody had, right?
+
+00:02:07.000 --> 00:02:09.000
+ How to permanently delete content.
+
+00:02:09.000 --> 00:02:12.000
+ This is a very, very common question if you're working P2P.
+
+00:02:12.000 --> 00:02:14.000
+ How to store encryption keys.
+
+00:02:14.000 --> 00:02:17.000
+ Where to store them if you have multiple devices and you have no central authority.
+
+00:02:17.000 --> 00:02:21.000
+ How to ensure a critical number of peers being online, right?
+
+00:02:21.000 --> 00:02:23.000
+ That's so that the content can be replicated.
+
+00:02:23.000 --> 00:02:29.000
+ How do you communicate the unusual privacy and security properties of your new technologies?
+
+00:02:29.000 --> 00:02:31.000
+ How do you even explain a federated architecture?
+
+00:02:31.000 --> 00:02:37.000
+ I think we saw a lot of that with the migration to Mastodon of how to do it and how not to do it.
+
+00:02:37.000 --> 00:02:40.000
+ And then finally, overall, very abstract questions.
+
+00:02:40.000 --> 00:02:43.000
+ How do you even distribute trust and power?
+
+00:02:43.000 --> 00:02:45.000
+ What is the right way to do it?
+
+00:02:45.000 --> 00:02:47.000
+ And I see all of these teams struggling with that.
+
+00:02:47.000 --> 00:02:53.000
+ And as I was working on it, I was like, surely someone thought about this.
+
+00:02:53.000 --> 00:02:59.000
+ Surely someone has come up with a general solution to these very general problems.
+
+00:02:59.000 --> 00:03:03.000
+ And I was just, no.
+
+00:03:03.000 --> 00:03:05.000
+ Sitting there, I was like, nope.
+
+00:03:05.000 --> 00:03:12.000
+ Nobody has really written bigger pieces of solutions to these problems.
+
+00:03:12.000 --> 00:03:17.000
+ And more than that, it wasn't just that I couldn't find those resources that I needed for my work,
+
+00:03:17.000 --> 00:03:21.000
+ but it was also somewhat of a general adoption problem.
+
+00:03:21.000 --> 00:03:24.000
+ Well, UX problems that caused adoption problems.
+
+00:03:24.000 --> 00:03:30.000
+ And by that I mean most of us who are building these technologies, decentralized or not,
+
+00:03:30.000 --> 00:03:37.000
+ we're seeing that as a vehicle to drive or at least support sociopolitical change.
+
+00:03:37.000 --> 00:03:42.000
+ And for sociopolitical change to happen, you really have to have a critical mass of people using it.
+
+00:03:42.000 --> 00:03:49.000
+ It doesn't mean it has to be the whole world, but it means a critical mass of users need to be using this tool.
+
+00:03:49.000 --> 00:03:54.000
+ And adoption also is actually very well understood.
+
+00:03:54.000 --> 00:04:00.000
+ Products and services get adopted by some very common systems.
+
+00:04:00.000 --> 00:04:05.000
+ People are enthused about it, and then some people are visionaries, they see it,
+
+00:04:05.000 --> 00:04:10.000
+ and then finally the pragmatists, the conservatives and the skeptics follow.
+
+00:04:10.000 --> 00:04:13.000
+ But that curve is very well understood.
+
+00:04:13.000 --> 00:04:20.000
+ And as I was working with the folks, I realized that we really never move much further beyond the first group of people,
+
+00:04:20.000 --> 00:04:24.000
+ the people who want to try out everything, who want to show you a proof of concept,
+
+00:04:24.000 --> 00:04:26.000
+ and who are really excited about it.
+
+00:04:26.000 --> 00:04:29.000
+ But there was very little movement forward.
+
+00:04:29.000 --> 00:04:33.000
+ And in my view, one of the reasons for that is when you have new technologies like this,
+
+00:04:33.000 --> 00:04:38.000
+ you don't have a common framework you can build into.
+
+00:04:38.000 --> 00:04:43.000
+ When you have new concepts and everybody names it differently,
+
+00:04:43.000 --> 00:04:50.000
+ every user, new user who has to learn this, has to learn a completely new framework, this is super hard.
+
+00:04:50.000 --> 00:04:57.000
+ So in my view, when I was thinking about adoption, I was really thinking about something like design standards.
+
+00:04:57.000 --> 00:05:02.000
+ What would a good standard be as you are building this new technology?
+
+00:05:02.000 --> 00:05:11.000
+ And by standards, I don't mean generic guidelines like always give people good error messages when you build a tool,
+
+00:05:11.000 --> 00:05:19.000
+ not generic things like that, but also not super specific things like Apple's mobile interface guidelines or anything like that.
+
+00:05:19.000 --> 00:05:24.000
+ Somewhere in the middle. What was that middle?
+
+00:05:24.000 --> 00:05:29.000
+ And then I realized actually that middle is also very well understood.
+
+00:05:29.000 --> 00:05:32.000
+ This is what I had to do to sign up for this talk.
+
+00:05:32.000 --> 00:05:40.000
+ You go to this website, either you have an account already, then you log in, or you don't have an account and you need one, then you register.
+
+00:05:40.000 --> 00:05:45.000
+ I see another pattern there, reset password, right? You lost your password, you reset the password.
+
+00:05:45.000 --> 00:05:49.000
+ There is a language switch, I don't know if you can see it on the top right.
+
+00:05:49.000 --> 00:05:52.000
+ On the bottom you have the legal bits, right?
+
+00:05:52.000 --> 00:05:59.000
+ All of this is something that is familiar to us just as users on the Internet.
+
+00:05:59.000 --> 00:06:01.000
+ It is something we see day in and day out.
+
+00:06:01.000 --> 00:06:06.000
+ We are trained to sort of understand how that user experience is supposed to be.
+
+00:06:06.000 --> 00:06:14.000
+ And in that way we are sort of learning a language, learning a language of how to interact with these technologies.
+
+00:06:14.000 --> 00:06:19.000
+ And this idea of having a language is also not new.
+
+00:06:19.000 --> 00:06:24.000
+ This is a book by Christopher Alexander, 1979, A Timeless Way of Building.
+
+00:06:24.000 --> 00:06:30.000
+ It really details this idea of how you can see different patterns in the world.
+
+00:06:30.000 --> 00:06:32.000
+ Christopher Alexander was an architect.
+
+00:06:32.000 --> 00:06:41.000
+ He was meticulously documenting different ways of looking at buildings, urban infrastructure, small room, like window placement.
+
+00:06:41.000 --> 00:06:49.000
+ And he defined this idea of a pattern as a careful description of a perennial solution to a recurring problem.
+
+00:06:49.000 --> 00:06:51.000
+ So again, buildings, right?
+
+00:06:51.000 --> 00:06:53.000
+ People have lived in buildings for thousands of years.
+
+00:06:53.000 --> 00:06:56.000
+ You don't need to reinvent the wheel when you are doing a new building.
+
+00:06:56.000 --> 00:06:58.000
+ You just look at existing buildings.
+
+00:06:58.000 --> 00:07:02.000
+ And this is what he was doing as he was sort of collecting these patterns.
+
+00:07:02.000 --> 00:07:06.000
+ And this is just one example for sort of urban planning.
+
+00:07:06.000 --> 00:07:10.000
+ These are the typical ways of how you can put buildings together.
+
+00:07:10.000 --> 00:07:12.000
+ Like a very simple idea.
+
+00:07:12.000 --> 00:07:17.000
+ He's just going around collecting different ways of putting buildings together.
+
+00:07:17.000 --> 00:07:29.000
+ So what I and the small team I'm working with wanted to do was to just sort of collect these things and see how we are putting our language together, how we could put our language together.
+
+00:07:29.000 --> 00:07:34.000
+ And with that, I just want to show you really the thing that we built.
+
+00:07:34.000 --> 00:07:36.000
+ This is decentpatterns.com.
+
+00:07:36.000 --> 00:07:46.000
+ It's a pattern library, meaning that we have different categories and different patterns sort of explained to a general audience.
+
+00:07:46.000 --> 00:07:49.000
+ The first thing we had to come up with was a template for a pattern.
+
+00:07:49.000 --> 00:07:51.000
+ So I'm just going to show you really.
+
+00:07:51.000 --> 00:07:54.000
+ This is a pattern we called host roulette.
+
+00:07:54.000 --> 00:07:59.000
+ Of course, the name is the most important thing because that is the thing that explains it and people can refer to it.
+
+00:07:59.000 --> 00:08:04.000
+ So host roulette is addressing a design problem.
+
+00:08:04.000 --> 00:08:12.000
+ The design problem is when you are signing people onto a federated system, you want to give people default options.
+
+00:08:12.000 --> 00:08:13.000
+ That's just good UX.
+
+00:08:13.000 --> 00:08:18.000
+ But if you give everybody the same default option, it's not much of a federated system anymore.
+
+00:08:18.000 --> 00:08:21.000
+ So host roulette, very simple solution.
+
+00:08:21.000 --> 00:08:23.000
+ You randomize it.
+
+00:08:23.000 --> 00:08:25.000
+ You're putting the host on a roulette.
+
+00:08:25.000 --> 00:08:26.000
+ Get it?
+
+00:08:26.000 --> 00:08:37.000
+ So basically what you're doing is you're randomizing the signup process and you can achieve better distribution of your users.
+
+00:08:37.000 --> 00:08:43.000
+ So we describe the solution and then give an example of who's already doing this.
+
+00:08:43.000 --> 00:08:46.000
+ In this case, this is Nextcloud.
+
+00:08:46.000 --> 00:08:57.000
+ Again, this is a short one, but why choose host roulette, understanding what reasons you would have to actually use such a pattern.
+
+00:08:57.000 --> 00:08:59.000
+ Then we have best practice.
+
+00:08:59.000 --> 00:09:05.000
+ These are just tips from the actual practice of implementing these patterns.
+
+00:09:05.000 --> 00:09:08.000
+ A small discussion, potential problems with a pattern.
+
+00:09:08.000 --> 00:09:11.000
+ A takeaway and then some references where you can learn more.
+
+00:09:11.000 --> 00:09:16.000
+ So this is the general template that we have for a pattern.
+
+00:09:16.000 --> 00:09:21.000
+ Importantly here, I think we also have the option for you to just edit it on GitHub.
+
+00:09:21.000 --> 00:09:33.000
+ So you can always just join the actual GitHub and see what you might want to change, what's inaccurate, what you might want to add.
+
+00:09:33.000 --> 00:09:43.000
+ The other thing that we did, which I think is also part of running a knowledge base, is we did name categories.
+
+00:09:43.000 --> 00:09:50.000
+ We basically identified even more kind of overall topics that are interesting here in decentralization.
+
+00:09:50.000 --> 00:09:58.000
+ We think those are sort of around roughly four different categories where it's different from centralized paradigms.
+
+00:09:58.000 --> 00:10:06.000
+ And that's identity and agency, moderation and curation, sharing and permissions, and sync and status.
+
+00:10:06.000 --> 00:10:18.000
+ I'm not going to go into detail on why they're important, but I think for any of you who have worked in decentralization, hopefully those categories ring true.
+
+00:10:18.000 --> 00:10:22.000
+ Yeah, I think this is just my very quick demo of the library.
+
+00:10:22.000 --> 00:10:23.000
+ You can play around in it.
+
+00:10:23.000 --> 00:10:27.000
+ There's also, you can just look at all the patterns if you want to see them all.
+
+00:10:27.000 --> 00:10:35.000
+ Again, the most important part here may be the naming of it, and then the other things just sort of come themselves.
+
+00:10:35.000 --> 00:10:44.000
+ You'll see that there are many, there are very different levels of kind of, yeah, genera, well, generality here.
+
+00:10:44.000 --> 00:10:50.000
+ Like some of them are very specific, like a visual idea, but some of them are, I don't know, I'm looking at cautious optimism.
+
+00:10:50.000 --> 00:10:56.000
+ That is an idea of how to even build a protocol, like how to think about trust in a protocol, things like that.
+
+00:10:56.000 --> 00:11:05.000
+ So we really have sort of like very large ideas and very small ideas all collected in this one pattern library.
+
+00:11:05.000 --> 00:11:11.000
+ Next I want to talk a little bit about like, okay, so what have we learned in doing this?
+
+00:11:11.000 --> 00:11:20.000
+ I think one thing that was really interesting for me to see is when we first started it, we were very happy about putting QR code verification in it.
+
+00:11:20.000 --> 00:11:24.000
+ It was a very immediate way for devices to connect and to verify.
+
+00:11:24.000 --> 00:11:28.000
+ It had great security properties. It was just very immediate.
+
+00:11:28.000 --> 00:11:32.000
+ And then the pandemic happened and QR codes were everywhere, right?
+
+00:11:32.000 --> 00:11:38.000
+ All the different apps that you had introduced QR codes, it just really sort of accelerated that development.
+
+00:11:38.000 --> 00:11:44.000
+ And then you see things like this. I don't know if the video is going to be very much visible,
+
+00:11:44.000 --> 00:11:53.000
+ but this person is in Atlanta and is just peeling off the QR code from a parking ticket provider, I suppose.
+
+00:11:53.000 --> 00:11:55.000
+ And that's what happens, right?
+
+00:11:55.000 --> 00:12:04.000
+ Like once you have an idea that is out there in the world and people learn to use it, like it's actually first of all, what a success story for QR codes.
+
+00:12:04.000 --> 00:12:09.000
+ But also here are the caveats, here are the consequences that come with that.
+
+00:12:09.000 --> 00:12:18.000
+ So how do we make sure that the patterns we do have, you know, I mean, I'm not saying we have to see so far into the future,
+
+00:12:18.000 --> 00:12:27.000
+ but what kind of critical discussion, what kind of context can we actually provide people with who are using this in their actual development?
+
+00:12:27.000 --> 00:12:36.000
+ The other thing we sort of ran into is a question around descriptive versus prescriptive ways of presenting the patterns.
+
+00:12:36.000 --> 00:12:42.000
+ And by that I just mean descriptive as a, you know, it's a description or just showing you the actual patterns.
+
+00:12:42.000 --> 00:12:46.000
+ Prescriptive is there is some recommendation coming with it, right?
+
+00:12:46.000 --> 00:12:52.000
+ So in a descriptive sense we have collecting existing solutions and relating them to one another.
+
+00:12:52.000 --> 00:13:01.000
+ So the work that you do there is mostly just finding the right level of abstraction and making sure that the patterns you have in a library are described correctly.
+
+00:13:01.000 --> 00:13:05.000
+ And you're to inspire, you're there to inspire people, you're not more.
+
+00:13:05.000 --> 00:13:15.000
+ In a prescriptive world we have a library that perhaps creates new solutions to these problems, so you really are generating new content.
+
+00:13:15.000 --> 00:13:20.000
+ Maybe you're testing and validating them with, you know, real users in the real world,
+
+00:13:20.000 --> 00:13:27.000
+ and you're making sure that whatever you build is actually going to work and not just hypothetical.
+
+00:13:27.000 --> 00:13:32.000
+ In that case then the library is there to guide people, to really offer some guidance and recommendations.
+
+00:13:32.000 --> 00:13:34.000
+ So we're still sort of unclear about that.
+
+00:13:34.000 --> 00:13:40.000
+ Right now it's a collection and we do think most of the patterns we have are good, but that's just our opinion, right?
+
+00:13:40.000 --> 00:13:46.000
+ And we know as designers that a lot of the things we design aren't necessarily good until we test them.
+
+00:13:46.000 --> 00:13:51.000
+ So that's it from me. You can check out decentpatterns.com.
+
+00:13:51.000 --> 00:13:57.000
+ We obviously welcome contributions and also shout out to the team raised there.
+
+00:13:57.000 --> 00:14:00.000
+ We have Vincent and Knop also.
+
+00:14:00.000 --> 00:14:09.000
+ And if you're interested in pattern libraries in general you should also check out, I mean, there are general libraries that you can just go to that have UX patterns.
+
+00:14:09.000 --> 00:14:12.000
+ If you're a designer and trying to learn how to design.
+
+00:14:12.000 --> 00:14:18.000
+ But there's also particular libraries I really would recommend for privacy security, for social media.
+
+00:14:18.000 --> 00:14:21.000
+ There's one about digital public spaces being made right now.
+
+00:14:21.000 --> 00:14:26.000
+ Of course there's also anti-patterns you should think about, patterns that are deceptive.
+
+00:14:26.000 --> 00:14:31.000
+ Those are all great libraries that you should check out just if you're into patterns in general.
+
+00:14:31.000 --> 00:14:35.000
+ And that's it. I would love to answer your questions. Thank you.
+
+00:14:35.000 --> 00:14:40.000
+ [Applause]
+
+00:14:40.000 --> 00:14:43.000
+ Okay. Thank you Eileen.
+
+00:14:43.000 --> 00:14:47.000
+ Applause are fine but I thought maybe we take the time for questions.
+
+00:14:47.000 --> 00:14:50.000
+ We have time for two because we're a bit behind schedule.
+
+00:14:50.000 --> 00:14:53.000
+ What are your questions to Eileen?
+
+00:14:53.000 --> 00:14:59.000
+ Does somebody have a question?
+
+00:15:02.000 --> 00:15:07.000
+ I have a small question. I'm really curious about UX/UI.
+
+00:15:07.000 --> 00:15:12.000
+ I wanted to know if I wanted to know more because you gave me a lot of links.
+
+00:15:12.000 --> 00:15:16.000
+ I wanted to know more about it, where I could look into it, about what's new.
+
+00:15:16.000 --> 00:15:20.000
+ Because what you did is already edge.
+
+00:15:20.000 --> 00:15:25.000
+ But I'm really curious about the world field because as a developer it's really interesting for me.
+
+00:15:25.000 --> 00:15:30.000
+ Yeah. I think, I mean, so those are good links to look if you're into patterns.
+
+00:15:30.000 --> 00:15:34.000
+ I think it's always difficult to think about how patterns fit into the development process
+
+00:15:34.000 --> 00:15:40.000
+ because it's very abstract and sometimes you do need a designer to help you actually put the pixels in place.
+
+00:15:40.000 --> 00:15:43.000
+ It's a bit of a different type of work.
+
+00:15:43.000 --> 00:15:47.000
+ But if you're interested in UX/UI in general, they're awesome resources.
+
+00:15:47.000 --> 00:15:51.000
+ The one that I like a lot is the Interaction Design Foundation.
+
+00:15:51.000 --> 00:15:57.000
+ They have a lot of really good courses and it's like a foundation in Denmark that just sort of does good work
+
+00:15:57.000 --> 00:16:02.000
+ and it's sort of very classic and well presented, I think.
+
+00:16:02.000 --> 00:16:07.000
+ We have time for one more question.
+
+00:16:07.000 --> 00:16:10.000
+ Anyone?
+
+00:16:10.000 --> 00:16:14.000
+ Okay. Then I'll say thank you, Eileen, again.
+
+00:16:14.000 --> 00:16:18.000
+ Go talk to Eileen if you have other questions.
+
+00:16:18.000 --> 00:16:21.000
+ It was nice to have you.
+
+00:16:21.000 --> 00:16:26.000
+ [Music]
+

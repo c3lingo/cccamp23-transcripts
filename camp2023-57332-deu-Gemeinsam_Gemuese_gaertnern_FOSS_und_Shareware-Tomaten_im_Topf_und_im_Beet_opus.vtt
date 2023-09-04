@@ -1,0 +1,1517 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+ [Musik]
+
+00:00:30.000 --> 00:00:39.000
+ Alles klar, willkommen auf der NordX-Bühne zurück zum nächsten Vortrag.
+
+00:00:39.000 --> 00:00:46.000
+ Jetzt wollen wir gemeinsam Gemüse gärtnern und zwar als Open Source und
+
+00:00:46.000 --> 00:00:53.000
+ Shared Source und im Topf und im Beet. Viel Spaß mit Bettina Neuhaus.
+
+00:00:53.000 --> 00:01:02.000
+ Ja, vielen Dank. Danke, dass ihr so zahlreich in der brütenden Hitze sitzt.
+
+00:01:02.000 --> 00:01:08.000
+ Agenda, vielleicht noch mal für die Leute im Stream. Man kann ja auf der Bühne nicht
+
+00:01:08.000 --> 00:01:11.000
+ so viel erkennen, deshalb werde ich ganz viel erzählen, was ihr im Stream ganz
+
+00:01:11.000 --> 00:01:16.000
+ klar auf den Folien sehen werdet. Nicht, dass ihr mich für komisch haltet.
+
+00:01:16.000 --> 00:01:20.000
+ Hier ist die Agenda, die lasse ich jetzt erst mal so stehen. Habt ihr wahrscheinlich
+
+00:01:20.000 --> 00:01:23.000
+ im Netz schon gesehen. Ich fange gleich mit dem ersten Punkt an.
+
+00:01:23.000 --> 00:01:27.000
+ Wer ist eigentlich die Zielgruppe? Ja, vor allen Dingen eben Neugierige.
+
+00:01:27.000 --> 00:01:32.000
+ Ich werde hier einiges erzählen, wo alte Gärtner Hasen und Häsin vielleicht denken,
+
+00:01:32.000 --> 00:01:37.000
+ Selbstverständlichkeit. Hab aber festgestellt, viele Dinge sind keine
+
+00:01:37.000 --> 00:01:40.000
+ Selbstverständlichkeit für Leute, die einfach mal anfangen wollen zu gärtnern.
+
+00:01:40.000 --> 00:01:44.000
+ Ja, und für euch ist es aber vielleicht noch mal eine gute Erinnerung einzelne
+
+00:01:44.000 --> 00:01:47.000
+ Dinge, die ihr vergessen habt und denkt so, ach ja, das kann ja auch mal machen.
+
+00:01:47.000 --> 00:01:51.000
+ Oder einfach, ich werde dann nachher "do it yourself"-Beispiele geben,
+
+00:01:51.000 --> 00:01:57.000
+ wie ich Beete gebaut habe und so weiter. Vielleicht habt ihr ja Inspirationen.
+
+00:01:57.000 --> 00:02:00.000
+ Ja, warum mache ich das alles eigentlich? Ich hatte es auch in der Beschreibung
+
+00:02:00.000 --> 00:02:04.000
+ geschrieben. Ihr seht hier links auf dem Foto so eine typische Supermarktansicht.
+
+00:02:04.000 --> 00:02:09.000
+ Die haben wir gestern auf dem Weg hierher gemacht, im Discounter.
+
+00:02:09.000 --> 00:02:14.000
+ Ganz viele rote, alle rote Tomaten in ganz viel Plastik und nochmal Plastik drum
+
+00:02:14.000 --> 00:02:19.000
+ und was weiß ich woher aus Gewächshausen rum um die Welt. Und rechts daneben eben
+
+00:02:19.000 --> 00:02:23.000
+ eine Pflanze aus meinem Garten. Ich weiß genau, was für Samen das sind, wie ich
+
+00:02:23.000 --> 00:02:27.000
+ die aufgezogen habe. Da ist keine Chemie dran und der Transportweg ist wenige Meter
+
+00:02:27.000 --> 00:02:32.000
+ vom Beet in den Topf. Und das finde ich sind schon ganz schöne Vorteile eigentlich.
+
+00:02:32.000 --> 00:02:36.000
+ Klar, im Winter schwierig und so weiter. Da gehe ich aber auch noch mit drauf ein,
+
+00:02:36.000 --> 00:02:41.000
+ was man da machen kann. So, ich habe aber auch versprochen, ein bisschen was zu
+
+00:02:41.000 --> 00:02:47.000
+ Lizenzmodellen zu erzählen. Dazu nochmal vorausgeschickt, ich habe gerade schon vor
+
+00:02:47.000 --> 00:02:51.000
+ dem Stream gesagt, wird es noch tiefergehende Veranstaltungen hier geben.
+
+00:02:51.000 --> 00:02:56.000
+ Und ich habe bei den Links hinten im Foliensatz auch noch Verweise auf ganz tolle
+
+00:02:56.000 --> 00:03:01.000
+ Artikel und auch Vorträge vom CCC, von der Corona über das Thema. Deshalb heute
+
+00:03:01.000 --> 00:03:05.000
+ ein bisschen oberflächlich und dann gehen wir auf den Do-It-Yourself-Ansatz ein.
+
+00:03:05.000 --> 00:03:10.000
+ So, also ganz früher waren Samen alle mehr oder weniger gemeinfrei. Man hat was
+
+00:03:10.000 --> 00:03:15.000
+ gebaut, man hat Samen geteilt, fertig, jeder durfte das machen, konnte das
+
+00:03:15.000 --> 00:03:19.000
+ weiterverfolgen, verkaufen und es war nicht weiter geregelt.
+
+00:03:19.000 --> 00:03:24.000
+ Dann hat man ja irgendwann angefangen, besonders gute Sorten zu züchten, die zum
+
+00:03:24.000 --> 00:03:28.000
+ Beispiel sich auf bestimmte Böden beziehen, die Resistenzen haben gegen neue
+
+00:03:28.000 --> 00:03:34.000
+ Erreger oder sonstige Vorteile haben. Und die Leute haben da teilweise sehr viel
+
+00:03:34.000 --> 00:03:37.000
+ oder stecken da sehr viel Aufwand rein und möchten das dann auch gerne geschützt
+
+00:03:37.000 --> 00:03:41.000
+ haben und können dann Sortenschutz beantragen. Das heißt, ihr könnt dann
+
+00:03:41.000 --> 00:03:46.000
+ diese Samen immer noch vermehren, wenn sie vermehrbar sind und keine Hybride.
+
+00:03:46.000 --> 00:03:49.000
+ Ihr dürft die aber nicht einfach weiterverkaufen, weil die ja geschützt
+
+00:03:49.000 --> 00:03:53.000
+ sind. Dann müsstet ihr eben das bei dem Züchter beantragen und Lizenzgebühr
+
+00:03:53.000 --> 00:03:58.000
+ bezahlen, denke ich mal. Noch eine Stufe weiter ist patentiertes Saatgut. Da hat
+
+00:03:58.000 --> 00:04:02.000
+ ihr sicherlich in Sachen Genmais und so schon einiges gehört. In der EU ist es
+
+00:04:02.000 --> 00:04:06.000
+ nicht so einfach Patentschutz auf Pflanzen zu kriegen. Da kann man sich
+
+00:04:06.000 --> 00:04:12.000
+ eigentlich nur Technologien patentieren lassen, mit denen man Pflanzen erzeugt.
+
+00:04:12.000 --> 00:04:16.000
+ Und dann kann man aber auch sagen, du darfst das hier auch nicht kostenlos anbauen.
+
+00:04:16.000 --> 00:04:21.000
+ Ich verbiete dir das. Meinen Genmais baust du in deinem Garten nicht an.
+
+00:04:21.000 --> 00:04:26.000
+ Auch nicht, wenn du das kostenlos und nur für dich selber machst. Und da das halt
+
+00:04:26.000 --> 00:04:29.000
+ immer weiter zunimmt und zum Beispiel auch in der EU man doch dann wieder
+
+00:04:29.000 --> 00:04:33.000
+ Hintertürchen gefunden hat, wie man dann doch direkt auch Pflanzen schützen kann,
+
+00:04:33.000 --> 00:04:37.000
+ also haben sich Initiativen entwickelt, die gesagt haben, wir möchten da was
+
+00:04:37.000 --> 00:04:42.000
+ gegenhalten. Wir möchten genau wie in der Software auch bei Saatgut
+
+00:04:42.000 --> 00:04:48.000
+ sicherstellen, dass es frei verfügbare nicht kommerzielle Samen gibt. Und in
+
+00:04:48.000 --> 00:04:51.000
+ Deutschland hat man das so gemacht, dass man das eben auch unter eine
+
+00:04:51.000 --> 00:04:54.000
+ Commons-Lizenz gestellt hat, um dann auch sicherzustellen, dass man sagen kann,
+
+00:04:54.000 --> 00:05:00.000
+ dieses Saatgut darf nicht kommerziell weitergegeben werden oder so.
+
+00:05:00.000 --> 00:05:04.000
+ Und es gibt da wirklich tolle Sorten inzwischen. Es gibt auch weltweite
+
+00:05:04.000 --> 00:05:08.000
+ Initiativen. Leider kann man jetzt nicht sagen, die Open Source Sachen oder die
+
+00:05:08.000 --> 00:05:12.000
+ freien Sachen, die man in den USA zum Beispiel findet, die haben da lange
+
+00:05:12.000 --> 00:05:16.000
+ Listen von tollen Gemüsen, die wirft man alle in den Topf mit den deutschen
+
+00:05:16.000 --> 00:05:19.000
+ oder den indischen Initiativen. Das ist alles Open Source. Das geht leider nicht,
+
+00:05:19.000 --> 00:05:23.000
+ weil wir unterschiedliche Rechtssysteme haben und dann ist alles ein bisschen
+
+00:05:23.000 --> 00:05:28.000
+ kompliziert. Aber wenn ihr wie gesagt mehr darüber wissen wollt, dann guckt euch
+
+00:05:28.000 --> 00:05:33.000
+ die Vorträge an, die ich am Ende nochmal erwähne. Open Source ist jedenfalls der
+
+00:05:33.000 --> 00:05:39.000
+ Gedanke, wir wollen Gemüse und auch Blumen frei verfügbar machen und schützen
+
+00:05:39.000 --> 00:05:49.000
+ für alle. Jetzt ein kleiner Reminder oder für ganz Neueinsteiger, woher kriege ich
+
+00:05:49.000 --> 00:05:55.000
+ denn jetzt eigentlich alles Pflanzen? Klassiker ist, ich kann sie kaufen, Samen
+
+00:05:55.000 --> 00:06:00.000
+ oder Pflanzen kaufen, ich kann auch tauschen und was vielleicht noch ein bisschen
+
+00:06:00.000 --> 00:06:04.000
+ spannender ist, auf der anderen Seite habe ich hier die Darstellung, wie kann ich
+
+00:06:04.000 --> 00:06:07.000
+ sowas selber gewinnen, dazu gibt es auch später nochmal einen anderen Vortrag, aber
+
+00:06:07.000 --> 00:06:12.000
+ ich kann zum Beispiel Samen aus Früchten oder Gemüse gewinnen, entweder die, die ich
+
+00:06:12.000 --> 00:06:17.000
+ schon im Beet oder im Topf habe zu Hause oder ich kann sie auch tauschen, hier
+
+00:06:17.000 --> 00:06:23.000
+ gibt es auch eine Samentauschbörse. Manche Gemüse kann man einfach eingraben,
+
+00:06:23.000 --> 00:06:27.000
+ kommt halt immer darauf an, was für Pflanzen ihr habt oder eben Ableger nehmen,
+
+00:06:27.000 --> 00:06:31.000
+ bei Stauden, weiß auch nicht jeder, Stauden sind mehrerejährige Pflanzen,
+
+00:06:31.000 --> 00:06:35.000
+ Tomaten zum Beispiel sind einjährig, mir hat neulich ein Kollege gesagt, ich habe mir
+
+00:06:35.000 --> 00:06:38.000
+ so viel Mühe gegeben, aber das Ding ist irgendwann im Winter doch eingegangen, ja
+
+00:06:38.000 --> 00:06:42.000
+ habe ich gesagt, okay, die sind halt einjährig, da kannst du dir so viel Mühe
+
+00:06:42.000 --> 00:06:48.000
+ geben, weiß halt nicht jeder, muss man einfach mal gesagt bekommen, ja und bei
+
+00:06:48.000 --> 00:06:54.000
+ solchen Sachen könnt ihr dann zum Beispiel Ableger nehmen. Bei Tomaten gewinne
+
+00:06:54.000 --> 00:06:59.000
+ ich die Samen so, indem ich sie einfach aufpule, eine richtig schöne Tomate,
+
+00:06:59.000 --> 00:07:03.000
+ wasche dann die Körner, die Samen da drin ordentlich aus, damit da nichts mehr
+
+00:07:03.000 --> 00:07:08.000
+ dran klebt, lege die auf so einen Küchencrêpe, trockne die ordentlich, damit da nichts
+
+00:07:08.000 --> 00:07:12.000
+ faulen oder schimmeln kann und dann kleben die trotzdem eigentlich direkt auf
+
+00:07:12.000 --> 00:07:16.000
+ den Küchencrêpe, super Transporthalterung, ich schreibe direkt drauf, was denn das
+
+00:07:16.000 --> 00:07:20.000
+ jetzt für ein Samen war, rolle das ein, wenn das Knochen trocken ist und bewahre das
+
+00:07:20.000 --> 00:07:24.000
+ für nächstes Jahr auf, dann habe ich meinen Samen wieder, so einfach ist das.
+
+00:07:24.000 --> 00:07:28.000
+ Das kann man auch mit kommerziellen Sorten teilweise machen, da gibt es aber auch
+
+00:07:28.000 --> 00:07:33.000
+ hier Hybride, die züchtet ihr dann selber und dann merkt ihr, die Pflanzen sind ganz
+
+00:07:33.000 --> 00:07:37.000
+ mickrig oder da kommen gar keine Früchte dran, ja das seid nicht ihr, das ist dann
+
+00:07:37.000 --> 00:07:41.000
+ der Züchter, der das so gezüchtet hat, dass das einfach leider nicht funktioniert.
+
+00:07:41.000 --> 00:07:48.000
+ So, kein Schreck, das ist jetzt die aufgeklappte Mindmap, die könnt ihr euch dann mal
+
+00:07:48.000 --> 00:07:53.000
+ nachher zu Gemüte führen im Nachgang, ich gehe nochmal auf so ein paar Einzelheiten ein,
+
+00:07:53.000 --> 00:07:59.000
+ was habe ich hier, genau, Kürbismelone selber samenzielen, gerade Kürbis, fantastisch,
+
+00:07:59.000 --> 00:08:05.000
+ Hokkaido Kürbis, Bio gekauft, man kann davon ausgehen, hier das Samenkorn geht an, also
+
+00:08:05.000 --> 00:08:10.000
+ wenn ihr fünf Stück da reinsteckt in die Erde, dann habt ihr demnächst fünf Kürbispflanzen
+
+00:08:10.000 --> 00:08:15.000
+ und eine Menge Kürbisse, wenn es gut läuft, viel Glück damit. Paprika, Chili, Tomaten
+
+00:08:15.000 --> 00:08:20.000
+ gehen eigentlich auch immer super, Avocado, diese Kerne kann man machen, kriegt man solche
+
+00:08:20.000 --> 00:08:24.000
+ Bäumchen, ich glaube aber, weiß nicht, ob jemand von euch schon mal erfolgreich war,
+
+00:08:24.000 --> 00:08:30.000
+ eine Frucht dran zu kriegen, ich glaube in unserem Gegenden nicht, ne, ne, ja, so ziemlich
+
+00:08:30.000 --> 00:08:34.000
+ alles, was Kerne hat oder eben Kräuter, hier habe ich noch Dilpeter, Silire, Rauke, die
+
+00:08:34.000 --> 00:08:38.000
+ blühen einfach, lasst sie blühen, sie schmeißen ihre Samen, ihr werdet neue Pflanzen
+
+00:08:38.000 --> 00:08:45.000
+ bekommen, klappt wunderbar. Und Gemüse, der Klassiker, Kartoffeln, hoch, plötzlich haben
+
+00:08:45.000 --> 00:08:50.000
+ die Kartoffeln ganz viele Zotteln, Keime, wenn es schöne Bio Kartoffeln sind, stopft sie
+
+00:08:50.000 --> 00:08:56.000
+ in die Erde, es werden neue daraus wachsen, wahrscheinlich. Das klappt auch mit Zwiebeln,
+
+00:08:56.000 --> 00:09:00.000
+ Knoblauch, einfach in die Erde stecken, wenn da irgendwas austreibt und ihr kriegt neue
+
+00:09:00.000 --> 00:09:05.000
+ Pflanzen. Süßkartoffeln ist so ein bisschen Volkssport geworden in letzter Zeit, die Leute
+
+00:09:05.000 --> 00:09:08.000
+ kriegen schöne Pflanzen daraus, ich habe aber auch noch nicht gesehen, dass jemand
+
+00:09:08.000 --> 00:09:16.000
+ geschafft hat, hier neue Kartoffeln dran zu kriegen. Ja, und dann bei den Ableger nehmen,
+
+00:09:16.000 --> 00:09:22.000
+ Obstbäume, da gibt es viele Herausforderungen, sag ich mal, da solltet ihr auch Workshops
+
+00:09:22.000 --> 00:09:30.000
+ belegen, das gleiche ist bei Pilzen zum Beispiel und bei Wein und Rosen, gibt es das Problem,
+
+00:09:30.000 --> 00:09:33.000
+ dass sie so hier weit verbreitete Krankheit haben, da gibt es dann Tricks, wie man das
+
+00:09:33.000 --> 00:09:39.000
+ umgehen kann, das beinhaltet Fropfen auf andere Wurzelbeinen und so. Wenn ihr euch dafür
+
+00:09:39.000 --> 00:09:44.000
+ interessiert, dann macht auch nochmal gesonderte Workshops, weil das geht nicht so einfach.
+
+00:09:44.000 --> 00:09:50.000
+ Holunder und Haselnuss kennt ihr wahrscheinlich selber, wächst wie doof, da hat man eher das
+
+00:09:50.000 --> 00:09:55.000
+ Problem, das loszuwerden, wenn man es einmal im Garten hat. Genau, aber wir widmen uns jetzt
+
+00:09:55.000 --> 00:10:00.000
+ dem etwas einfacheren Gemüse, nämlich den Tomaten. Ich finde, das klappt ganz gut und
+
+00:10:00.000 --> 00:10:04.000
+ das klappt auch gut, wenn ihr super wenig Platz habt oder wenn ihr ganz viel Platz habt und
+
+00:10:04.000 --> 00:10:11.000
+ deshalb beschäftige ich mich damit auch ganz gerne. Wie startet man jetzt mal so von null?
+
+00:10:11.000 --> 00:10:16.000
+ Sagen wir mal, ihr habt eine schöne Sanviva Tomate, den Samen bekommen, Open Source und ihr
+
+00:10:16.000 --> 00:10:21.000
+ möchtet das jetzt aufziehen, dann könnt ihr zum Beispiel euch solche Aufzuchtkästchen
+
+00:10:21.000 --> 00:10:26.000
+ besorgen, das da reintun und mein Pro-Tip ist immer, macht euch gleich einen Zettel, wenn ihr
+
+00:10:26.000 --> 00:10:31.000
+ mehrere Sorten habt und schreibt euch direkt auf, wo ist welche Sorte, sonst findet ihr das
+
+00:10:31.000 --> 00:10:35.000
+ nachher nie wieder und müsst dann erst gucken, wenn die Tomaten rauskommen, welche könnte das
+
+00:10:35.000 --> 00:10:40.000
+ denn jetzt wohl gewesen sein. Ist sie rot oder gelb oder klein oder groß? Und ich habe ja auch
+
+00:10:40.000 --> 00:10:46.000
+ noch auf dem Foto, sieht man es, auf dieses kleine Anzuchtbädchen geschrieben vorne, weil
+
+00:10:46.000 --> 00:10:50.000
+ beim Anziehen, rein, rausschleppen und so weiter, kann man dann auch erstmal die Richtung verlieren,
+
+00:10:50.000 --> 00:10:58.000
+ dann weiß man wieder nicht, wo welche Tomate ist, weil man die Beete verdreht hat. Ja, wenn die
+
+00:10:58.000 --> 00:11:02.000
+ ein bisschen größer geworden sind, dann könnt ihr sie in verschiedenste Töpfe tun, das seht
+
+00:11:02.000 --> 00:11:08.000
+ ihr hier, wenn ihr es denn sehen könnt. Ich recycle dazu Plastiktöpfe von Pflanzen, die ich
+
+00:11:08.000 --> 00:11:14.000
+ gekauft habe oder diese 6er oder 8er Träger, wo mehrere Pflanzen drin sind. Tontöpfe mag ich
+
+00:11:14.000 --> 00:11:19.000
+ nicht so gerne, weil man sich dumm und dämlich gießt dabei, die verdunsten halt sehr viel
+
+00:11:19.000 --> 00:11:25.000
+ Wasser und es gibt diese aus Kokosfasern oder Papierfasern, wo ihr Pflanzen rein tun könnt,
+
+00:11:25.000 --> 00:11:29.000
+ die haben zwei Vorteile, ihr könnt auch den Namen der Pflanze direkt drauf schreiben und ihr
+
+00:11:29.000 --> 00:11:35.000
+ könnt sie nachher mit einpflanzen, die Wurzeln wachsen einfach da durch am Ende und ja, das
+
+00:11:35.000 --> 00:11:43.000
+ eigentlich finde ich sehr praktisch. Ja, was noch wichtig ist, torffreie Erde. Also da gibt es
+
+00:11:43.000 --> 00:11:49.000
+ auch genug Vorträge, warum ist eine ganz blöde Idee, ist Moore trocken zu legen, das ist die größte
+
+00:11:49.000 --> 00:11:55.000
+ Klimasünde mit und deshalb nehmt bitte Erde ohne Torf, wenn ihr die kauft. Ja, die hält teilweise
+
+00:11:55.000 --> 00:12:00.000
+ nicht so gut die Feuchtigkeit, aber wir wollen ja noch ein bisschen hier auf dieser Erde bleiben.
+
+00:12:00.000 --> 00:12:06.000
+ Ja, und wenn ihr dann soweit seid, das Wetter wird langsam besser, es gibt warme Tage über 10 Grad,
+
+00:12:06.000 --> 00:12:10.000
+ dann könnt ihr anfangen, die von drinnen nach draußen zu schleppen, vorsichtig an die Sonne zu
+
+00:12:10.000 --> 00:12:16.000
+ gewöhnen. Tatsächlich kriegen Pflanzen auch Sonnenbrand. Wenn die kein Sonnenlicht gewöhnt
+
+00:12:16.000 --> 00:12:22.000
+ sind und ihr habt einen ersten supersonnigen Tag und ihr stellt die jetzt mitten in die Mittagsonne,
+
+00:12:22.000 --> 00:12:26.000
+ dann kann das sein, dass ihr die damit gleich wieder kaputt macht oder die kriegen so weiße Flecken
+
+00:12:26.000 --> 00:12:30.000
+ und das ist dann tatsächlich Sonnenbrand, dann müsst ihr warten bis die nächsten Blätter wieder
+
+00:12:30.000 --> 00:12:35.000
+ kommen und sich die Pflanze wieder erholt. Deshalb vorsichtig gewöhnen, rein rausschleppen, ist ein
+
+00:12:35.000 --> 00:12:42.000
+ bisschen ambitionierte Phase. Man kann auch mit Frühbeten arbeiten, da habe ich hier rechts welche.
+
+00:12:42.000 --> 00:12:48.000
+ Das obere Bild zeigt ein ganz tolles semi-professionell gebautes Frühbeet in einem
+
+00:12:48.000 --> 00:12:54.000
+ Gemeinschaftsgarten aus Paletten gebaut und darunter ist meins, das ist ein billiges,
+
+00:12:54.000 --> 00:13:01.000
+ spittleiges aus dem Discounter, geht auch. Benutze ich jetzt seit vielen Jahren dasselbe
+
+00:13:01.000 --> 00:13:05.000
+ Beet, es hält, ich baue es dann immer wieder ab, wenn ich es nicht mehr brauche und es steht dann
+
+00:13:05.000 --> 00:13:13.000
+ klein in der Ecke, also wie ihr mögt. Ja und dann sollen sie ja raus ins Beet irgendwann nach den
+
+00:13:13.000 --> 00:13:19.000
+ Eisheiligen und da kommt jetzt das erste Praxisbeispiel, wenn man sich ein Beet baut, wie habe
+
+00:13:19.000 --> 00:13:24.000
+ ich das gemacht? Mein allererstes selbst gebautes Tomatenbeet. Ich bin erstmal raus in die Wiese,
+
+00:13:24.000 --> 00:13:29.000
+ habe ein Stück Beet einfach mit dem Spaten abgestochen und hatte mir vorher in den Kopf
+
+00:13:29.000 --> 00:13:36.000
+ gesetzt, ich möchte so viel wie möglich Upcycling machen, also möglichst wenig kaufen. Hab im Keller
+
+00:13:36.000 --> 00:13:43.000
+ von einem Bettgestell ganz tolle massive Holzteile gefunden, habe mir die zurecht gesägt, ein Brett
+
+00:13:43.000 --> 00:13:49.000
+ musste ich kaufen für das Beet, eine Seite, der Rest war dann Bettgestell. Die Vierkanthölzer und
+
+00:13:49.000 --> 00:13:55.000
+ auch die Dachlatten oben habe ich über Kleinanzeigen bekommen von Leuten aus dem Gemeinschaftsgarten,
+
+00:13:55.000 --> 00:13:59.000
+ die wollten was Neues bauen und hatten das einfach über, also habe ich mir die zurecht gesägt nach
+
+00:13:59.000 --> 00:14:06.000
+ Anleitung aus dem Internet, habe sogar das Impregnierzeug, den Anstrich auch gebraucht
+
+00:14:06.000 --> 00:14:12.000
+ bekommen und hat das dann ein bisschen mit Holzschutzlasur oder Öl, irgendwas umweltfreundliches,
+
+00:14:12.000 --> 00:14:17.000
+ war es jedenfalls, ein bisschen impregniert. Und an den Seitenteilen wollte ich mir die Arbeit
+
+00:14:17.000 --> 00:14:21.000
+ sparen, habe gedacht jetzt nicht noch mehr Latten zurecht sägen, da gibt es doch bestimmt
+
+00:14:21.000 --> 00:14:26.000
+ was Einfacheres und bin auf diese Metallkreuze gekommen, die ihr in Baumärkten zum Beispiel
+
+00:14:26.000 --> 00:14:33.000
+ kriegt für Regale, die gehen wunderbar auch hier dran geschraubt, fertig, kommt viel mehr Licht
+
+00:14:33.000 --> 00:14:37.000
+ von der Seite rein. Und als Wichtigste auf dem dritten Bild seht ihr, dann habe ich oben eine
+
+00:14:37.000 --> 00:14:42.000
+ Folie draufgetan, weil Tomaten alles mögen, nur kein Wasser von oben, keinen Regen, das werden wir
+
+00:14:42.000 --> 00:14:48.000
+ nachher noch sehen, dann fangen sie nämlich an zu faulen. Da gibt es auch tolle Sachen, ich wollte
+
+00:14:48.000 --> 00:14:54.000
+ eigentlich immer mal so Plastikpaneele drauf tun, die möglichst viel UV-Schutz durchlassen, ich glaube,
+
+00:14:54.000 --> 00:14:59.000
+ es ist Acryl. Acryl ist glaube ich das beste Material, ist aber auch das teuerste und deshalb habe ich
+
+00:14:59.000 --> 00:15:07.000
+ da eine olle Folie drauf und keine Acrylplatten. So, dieses Jahr habe ich gesagt, ich muss das ein
+
+00:15:07.000 --> 00:15:12.000
+ bisschen upscalen. Ich habe jetzt ganz viele alte Sorten mir mal gekauft, ich will ganz viele Pflanzen
+
+00:15:12.000 --> 00:15:16.000
+ haben und ich will alle Sorten mal ausprobieren, ich brauche mehr Platz. Ich will mir aber nicht
+
+00:15:16.000 --> 00:15:21.000
+ wieder so viel Arbeit machen mit dem Beet, das muss doch irgendwie einfacher gehen. Und bin dann
+
+00:15:21.000 --> 00:15:27.000
+ drauf gekommen, Palettenrahmen, das machen schon super viele, also Beete aus Palettenrahmen bauen,
+
+00:15:27.000 --> 00:15:33.000
+ auch die könnt ihr entweder für 25 Euro das Stück neu irgendwo im Baumarkt kaufen oder ihr kauft sie
+
+00:15:33.000 --> 00:15:39.000
+ für unter 10, was weiß ich. Ich habe 7 Euro das Stück bezahlt, glaube ich, auch gebraucht, wunderbar,
+
+00:15:39.000 --> 00:15:44.000
+ wieder mit derselben Lasur wie letztes Mal angestrichen, geguckt, wie baut man eigentlich so ein
+
+00:15:44.000 --> 00:15:50.000
+ Hochbeet aufgeschichtet, eigenen Kompost reingeschmissen und das Dach, da wollte ich jetzt auch nicht
+
+00:15:50.000 --> 00:15:55.000
+ zimmern hin und her überlegen, ich dachte mir, nehme ich doch einfach mal so ein Pavillon, hat jeder
+
+00:15:55.000 --> 00:16:00.000
+ irgendwie jeder zweite gefühlt im Garten rumstehen und dann muss ich nicht selber bauen. Hab also auch,
+
+00:16:00.000 --> 00:16:06.000
+ Kleinland zeigen ist ein Freund, einen gebrauchten Pavillon mir besorgt, habe das Dach drauf
+
+00:16:06.000 --> 00:16:12.000
+ gespannt und ja, da wachsen jetzt munter vor sich hin. Ich habe noch eine Wäscheleine kreuz- und
+
+00:16:12.000 --> 00:16:16.000
+ quergespannt, habe so ein Gitternetz gemacht, denn daran will ich die Tomaten dann oder habe ich die
+
+00:16:16.000 --> 00:16:24.000
+ hochgezogen mit Schnüren. Wichtig ist auch hier, schreibt euch genau auf, welche Tomate ist wo,
+
+00:16:24.000 --> 00:16:29.000
+ sonst findet ihr sie nachher nicht wieder, genau wie bei den kleinen Beeten, auch bei den großen, da
+
+00:16:29.000 --> 00:16:33.000
+ kann man dann tolle Datenbanklösungen machen oder was auch immer, ich habe einfach Zettelstift
+
+00:16:33.000 --> 00:16:39.000
+ genommen, aufgemalt und gesagt, ok hier, durchnummeriert von 1 bis 45 oder so und dann genau
+
+00:16:39.000 --> 00:16:46.000
+ aufgeschrieben, welche Nummer ist welche Pflanze. Ja, lessons learned, jetzt aktuell bei dem Wetter
+
+00:16:46.000 --> 00:16:52.000
+ kann man dieses Dach täglich ein bis zwei Mal drauf und runter ziehen, weil es soll ja auch Sonne an
+
+00:16:52.000 --> 00:16:57.000
+ die Pflanzen, das kommt nicht so gut an, wenn das Dach drauf ist, Regen soll aber nicht drauf, also
+
+00:16:57.000 --> 00:17:03.000
+ rennt man ständig raus, schmeißt schnell das Dach wieder drauf oder hektisch wieder runter, sobald
+
+00:17:03.000 --> 00:17:08.000
+ die Sonne wieder rauskommt, das ist ein bisschen lästig, da überlege ich nochmal bei der zukünftigen
+
+00:17:08.000 --> 00:17:15.000
+ Lösung, ob ich da was besser machen kann. Und bei den Hochbeeten selber, ich habe zwei mal zwei
+
+00:17:15.000 --> 00:17:20.000
+ Rahmen genommen und einmal habe ich ein flacheres Beet gebaut, weil ich dachte, da kommen die besonders
+
+00:17:20.000 --> 00:17:25.000
+ hochwachsenden Pflanzen rein, damit die noch ein bisschen mehr Platz nach oben haben, habe dann aber
+
+00:17:25.000 --> 00:17:31.000
+ festgestellt, das sind die mickrigsten, weil zu wenig Erde drin ist, also macht mindestens zwei so
+
+00:17:31.000 --> 00:17:39.000
+ Rahmen übereinander, damit genug Erde ist, damit die Wurzeln genug Platz finden. So, jetzt sagt ihr ja,
+
+00:17:39.000 --> 00:17:45.000
+ ich habe aber so einen Garten nicht oder ich habe ganz andere Gegebenheiten, ja macht ja nichts, weil
+
+00:17:45.000 --> 00:17:50.000
+ Platz ist an der kleinsten Hütte, wenn ihr einen Balkon habt oder auch eine Fensterbank, ihr könnt
+
+00:17:50.000 --> 00:17:55.000
+ auch einfach nur einen Topf nehmen, der muss groß genug sein und da lassen sich wunderbar auch Tomaten,
+
+00:17:55.000 --> 00:18:00.000
+ Kräuter sowieso, Chilis, lassen sich wunderbar auch im Topf ziehen, auch drinnen, auch wenn ihr gar
+
+00:18:00.000 --> 00:18:05.000
+ keinen Balkon habt oder ihr pflastert euch den Balkon zu, wunderbar. So ihr sagt, ich habe aber auch
+
+00:18:05.000 --> 00:18:09.000
+ keinen Balkon und ich habe keinen Platz in der Hütte, ja da habe ich hier ein schönes Foto,
+
+00:18:09.000 --> 00:18:15.000
+ Pilzmanufaktur Manitari, die haben einfach nur ein feuchtes Gewölbe ohne Licht, fantastisch um Pilze zu
+
+00:18:15.000 --> 00:18:21.000
+ züchten, könnt ihr da also in eurem Keller sogar machen. Wobei ich sagen würde, ich habe es versucht,
+
+00:18:21.000 --> 00:18:28.000
+ ich habe auch so einen Workshop gemacht, er involvierte viel Desinfektionsmittel, was weiß ich, weil
+
+00:18:28.000 --> 00:18:33.000
+ ihr auf jeden Fall vermeiden wollt Schimmelpilz zu züchten und das ist gar nicht so einfach, deshalb
+
+00:18:33.000 --> 00:18:37.000
+ habe ich das mit den Pilzen wieder sein gelassen, aber es gibt super viele Leute, die sehr erfolgreich
+
+00:18:37.000 --> 00:18:43.000
+ damit sind und das könnt ihr auch in eurer Waschküche machen. Ja oder rechts sieht man ein
+
+00:18:43.000 --> 00:18:49.000
+ Gewächshaus, das ist ein selbstgebautes, das hat mein Vater Schwermechaniker vor 50 Jahren gebaut,
+
+00:18:49.000 --> 00:18:53.000
+ es steht immer noch, es ist von Hand zusammen geschweißt, die Beete sind in Beton gegossen und ich glaube,
+
+00:18:53.000 --> 00:18:59.000
+ es wird in den nächsten 50 Jahren da immer noch stehen und meine Mutter holt da Sachen raus, das ist
+
+00:18:59.000 --> 00:19:04.000
+ unfassbar, also Gewächshäuser haben schon einen Vorteil, wenn ihr irgendwo eine kleine Ecke habt,
+
+00:19:04.000 --> 00:19:09.000
+ gibt es ja auch in allen Größen und Formen und auch schon ganz klein, auch ganz kleine für die
+
+00:19:09.000 --> 00:19:16.000
+ Fensterbank. Ja habt ihr auch nicht, wollt ihr alles nicht, alles lästig, ihr wollt das Zeug nicht im
+
+00:19:16.000 --> 00:19:21.000
+ Haus haben und ihr besucht vor allen Dingen auch Gemeinschaft, dann Gemeinschaftsgarten, da gibt es
+
+00:19:21.000 --> 00:19:26.000
+ ganz schön viele davon und da kann ich euch raten, am besten mal bei eurer Stadt zu gucken, wirklich
+
+00:19:26.000 --> 00:19:33.000
+ bei den städtischen Webseiten oder so Initiativen abzusuchen, das hier zum Beispiel, das ist ein
+
+00:19:33.000 --> 00:19:38.000
+ Gemeinschaftsgarten, hat die Stadt Dortmund mit unterstützt, die Urbanisten ist so eine lokale
+
+00:19:38.000 --> 00:19:43.000
+ Initiative, die ganz viel machen mit Upcycling und Gärten und so, die haben einen fantastischen
+
+00:19:43.000 --> 00:19:48.000
+ Gemeinschaftsgarten da in so einem großen Innenhof gesetzt, wo alle Leute aus der Gegend mitmachen
+
+00:19:48.000 --> 00:19:53.000
+ können und das Zeug ist viel professioneller als alles, was ich im Garten haben könnte, wirklich
+
+00:19:53.000 --> 00:20:01.000
+ tolle Beete, ihr seht ja auch wieder Palettenrahmen, Zistern bzw. so Wassertanks und großer Vorteil,
+
+00:20:01.000 --> 00:20:08.000
+ man sieht hier auch noch eine ganz tolle, selbstgebaute Sitzecke dabei, Gemeinschafts-Ecke oder Runde,
+
+00:20:08.000 --> 00:20:12.000
+ keine Ecke, das heißt, da habt ihr dann eben auch wirklich gleich eine Gemeinschaft dabei, ihr
+
+00:20:12.000 --> 00:20:17.000
+ könnt das gemeinsam machen, ihr habt viel Spaß dabei und ihr könnt von den anderen ganz viel lernen
+
+00:20:17.000 --> 00:20:23.000
+ oder auch, wenn ihr möchtet, euer Wissen weitergeben und wie gesagt, fangt mal bei eurer Stadt an,
+
+00:20:23.000 --> 00:20:28.000
+ sucht das ab, stellt einfach Fragen, gibt es hier so Initiativen, gibt es Gemeinschaftsgärten und ich
+
+00:20:28.000 --> 00:20:35.000
+ denke, da wird es eine ganze Menge auch in eurer Gegend hoffentlich geben. So, jetzt, ihr habt
+
+00:20:35.000 --> 00:20:41.000
+ Beete oder Töpfe, ihr habt irgendwas und ihr wollt jetzt düngen, Tomaten sind nämlich sehr
+
+00:20:41.000 --> 00:20:48.000
+ hungrig, was Vitamine und was weiß ich was angeht. Die simpelste Methode aber auch nicht für
+
+00:20:48.000 --> 00:20:52.000
+ jedermann ist, man macht sich eine Jauche. Wie macht man sich eine Jauche? Man nimmt ein Gefäß,
+
+00:20:52.000 --> 00:20:58.000
+ man tut Wasser rein, man wirft Brennnesseln rein oder auch Schachtelheim oder beides, dann wartet
+
+00:20:58.000 --> 00:21:03.000
+ man zwei Wochen, es fängt unfassbar an zu stinken, es wird eine grauselige Brühe, also vielleicht
+
+00:21:03.000 --> 00:21:09.000
+ könnt ihr auch ein Deckel drauf tun oder so und dann ist die Jauche fertig, dann könnt ihr das 1 zu
+
+00:21:09.000 --> 00:21:14.000
+ 10 einfach mit in eure Gießkanne tun und das ist ein mega Dünger. Ihr werdet sehen, ihr kippt das
+
+00:21:14.000 --> 00:21:18.000
+ auf eine Pflanze, die Pflanze wird vielleicht nach ein, zwei Tagen erstmal so aussehen, als würde sie
+
+00:21:18.000 --> 00:21:22.000
+ jetzt gerade kaputt gehen, weil sie so ein bisschen schlapp macht, das ist einfach der Vitaminschock so
+
+00:21:22.000 --> 00:21:27.000
+ ungefähr. Die hat jetzt plötzlich so viele Nährstoffe aus dieser Jauche bekommen, dass sie
+
+00:21:27.000 --> 00:21:32.000
+ sich daran erstmal gewöhnen muss und noch paar Tage später werdet ihr sehen, die wird plötzlich
+
+00:21:32.000 --> 00:21:38.000
+ sehr kräftig grün und geht ab wie ein Zäpfchen, also wärmste Empfehlung, wenn ihr das machen könnt,
+
+00:21:38.000 --> 00:21:45.000
+ Jauche selber machen, super. Ich habe auch schon mal versucht Brennnesseln nur drei Tage in Wasser
+
+00:21:45.000 --> 00:21:50.000
+ schmeißen und dann soll es sehr gut gegen Blattläuse sein, hat bei mir nicht funktioniert. Also ich habe
+
+00:21:50.000 --> 00:21:56.000
+ keine Blattläuse, aber meine Clematis und die hatte sie auch nachher noch, aber Leute sagen, es
+
+00:21:56.000 --> 00:22:03.000
+ funktioniert. So Tomaten päppeln, was macht man denn da am besten? Ich habe schon gesagt, die brauchen
+
+00:22:03.000 --> 00:22:08.000
+ super viel Sonne, ich habe deshalb die Beete so im Garten angeordnet, dass sie möglichst wenig
+
+00:22:08.000 --> 00:22:15.000
+ Schatten bekommen, weg von den Bäumen, Südlage und so weiter. Hätte ich jetzt daran gedacht, meine
+
+00:22:15.000 --> 00:22:21.000
+ Pflanze mitzubringen, könnte ich euch zeigen, was ausgeizend bedeutet. Das heißt, an den Blättern,
+
+00:22:21.000 --> 00:22:28.000
+ die seitlich vom Hauptstamm kommen, sind am Ansatz des Blattes direkt am Stamm, kommen immer so neue
+
+00:22:28.000 --> 00:22:33.000
+ Triebe raus und am Anfang freut man sich und denkt so, wow toll, die wird ja immer breiter und immer toller.
+
+00:22:33.000 --> 00:22:37.000
+ Ja, die steckt nur jetzt gerade ihre ganze Energie in die Seitentriebe und ihr wollt die ja in den
+
+00:22:37.000 --> 00:22:41.000
+ Tomaten, in den Früchten haben und nicht in den Seitentrieben. Deshalb ausgeizen heißt einfach,
+
+00:22:41.000 --> 00:22:46.000
+ diese kleinen Seitentriebe an den Blättern wegknipsen. Wenn ihr sie schnell genug seht, dann könnte sie
+
+00:22:46.000 --> 00:22:52.000
+ einfach so mit Daumen und Zeigefinger raus, ansonsten Rosenschere, irgendwas. Aber ihr wollt den
+
+00:22:52.000 --> 00:22:56.000
+ Hauptstamm möglichst haben, außer bei besonderen Sorten, bei so Buschtomaten, aber normalerweise
+
+00:22:56.000 --> 00:23:02.000
+ wollt ihr einen langen Stamm haben und da kommen dann seitlich die Rispen mit Tomaten. Alle Seitentriebe weg.
+
+00:23:02.000 --> 00:23:09.000
+ Gut anbinden, da kennt ihr vielleicht diese gewendelten Metallstäbe, die habe ich auch am Anfang
+
+00:23:09.000 --> 00:23:13.000
+ immer erst benutzt, die habe ich noch massenhaft zu Hause, habe jetzt aber in diesem Jahr mal versucht,
+
+00:23:13.000 --> 00:23:18.000
+ das an Schnüren zu machen und finde das viel bequemer einfach so Naturschnüre kaufen, unten an der
+
+00:23:18.000 --> 00:23:25.000
+ Pflanze anfangen, oben irgendwo befestigen. Deshalb hatte ich ja diese Wäscheleinen gespannt und dann
+
+00:23:25.000 --> 00:23:32.000
+ wächst die Pflanze immer weiter und ihr könnt einfach nur die Schnüre da drum wickeln. Wunderbar, die
+
+00:23:32.000 --> 00:23:38.000
+ Pflanze kann sich auch im Wind so ein bisschen bewegen und dadurch wird sie kräftiger. Und auf dem Rechenbild
+
+00:23:38.000 --> 00:23:43.000
+ sieht man hier, dass ich auch noch ganz viele einzelne Tomatenrispen angebunden habe, das sieht so ein
+
+00:23:43.000 --> 00:23:47.000
+ bisschen aus wie Marionettentheater, weil ich nämlich gemerkt habe, die brechen unter ihrem eigenen
+
+00:23:47.000 --> 00:23:54.000
+ Gewicht zusammen. Wenn da sehr große oder ganz viele Tomaten dran sind, können die Rispen manchmal
+
+00:23:54.000 --> 00:24:00.000
+ das Gewicht nicht halten und knicken ab. Aber bis jetzt haben sie sich ganz gut gelassen, ich habe sie
+
+00:24:00.000 --> 00:24:06.000
+ einfach wieder vorsichtig hoch gebogen und so an die Schnur gehängt, dass sie eben da ein bisschen gut
+
+00:24:06.000 --> 00:24:12.000
+ gestützt sind und bis jetzt haben sie es überstanden. Ich hoffe, sie werden noch schön rot und lecker.
+
+00:24:12.000 --> 00:24:18.000
+ Was sollte man nicht machen? Ja, ich habe es jetzt schon ein paar Mal gesagt. Das Schlimmste ist, wenn sie
+
+00:24:18.000 --> 00:24:22.000
+ von oben nass werden und die Braunfäule kommt. Die berühmt berüchtigte, von allen gefürchtete
+
+00:24:22.000 --> 00:24:28.000
+ Braunfäule. Das ist ein Pilz, der befällt Tomaten und die Blätter und der braucht Feuchtigkeit,
+
+00:24:28.000 --> 00:24:34.000
+ stehendes Wasser vor allen Dingen. Und deshalb versucht man sie trocken zu halten, die Pflanzen und nur von
+
+00:24:34.000 --> 00:24:39.000
+ unten immer zu gießen. Das ist halt die Kunst. Sie brauchen viel Wasser, aber nur von unten. Und deshalb
+
+00:24:39.000 --> 00:24:46.000
+ immer ein Dach drüber. Wenn ihr seht, da sind so Blätter, die kriegen komische Punkte, werden schwarz
+
+00:24:46.000 --> 00:24:51.000
+ oder auch schon am Stamm hier kann man ein Foto sehen oder eben sie kriegen diese Flecken, die Tomaten
+
+00:24:51.000 --> 00:24:57.000
+ selber. Sofort abmachen, wegschneiden, wegwerfen, am besten danach die Hände waschen, damit ihr nicht die
+
+00:24:57.000 --> 00:25:03.000
+ gesunden Pflanzen mit den Spuren noch weiter infiziert. Und Tomatenpflanzen kommen mit recht wenig Blättern
+
+00:25:03.000 --> 00:25:09.000
+ aus, wenn die schon relativ weit gewachsen sind. Also ich schneide gnadenlos alle Blätter ab, die
+
+00:25:09.000 --> 00:25:16.000
+ befallen sind und hoffe, dass dann die Tomatenfrüchte, die dranhängen, durchkommen. Wenn nicht, dann
+
+00:25:16.000 --> 00:25:24.000
+ Pech gehabt. Und das ist leider dieses Jahr so, wir hatten erst eine super Dürre, da sind die eigentlich
+
+00:25:24.000 --> 00:25:29.000
+ sehr gut gewachsen, sofern man sie denn gegossen hat. Dann kamen wochenlang Kälte, da passiert gar nichts,
+
+00:25:29.000 --> 00:25:36.000
+ denn sie brauchen sehr viel Wärme. Und wir hatten Regen, Regen, Regen. Und jetzt kommt noch mehr Regen
+
+00:25:36.000 --> 00:25:41.000
+ und Wärme dazu. Fantastisches Pilzwetter. Also ich habe in den beiden Tagen, bevor ich hier zum Camp
+
+00:25:41.000 --> 00:25:47.000
+ gefahren bin, leider bergeweise Laub abgeschnitten und ihr seht die Stapel von Tomaten, die eine, das habe ich
+
+00:25:47.000 --> 00:25:51.000
+ erst gesehen, die ist leider von unten zuerst schlecht geworden. Das habe ich nur entdeckt, als ich einmal
+
+00:25:51.000 --> 00:25:57.000
+ so drunter geguckt habe, habe ich schon etliches weggetan und habe auch schon von anderen gehört, die bis
+
+00:25:57.000 --> 00:26:02.000
+ zur Hälfte ihrer Pflanzen dieses Jahr schon rausreißen und entfernen mussten. Denn ihr wollt verhindern, dass
+
+00:26:02.000 --> 00:26:08.000
+ das alles sich ausbreitet. Könnt ihr aber auch gucken, es gibt sehr gute robuste Sorten, manche sind
+
+00:26:08.000 --> 00:26:15.000
+ anfälliger gegen diesen Pilz, manche nicht. Und diese San Viva Tomate, so eine der berühmtesten Open-Source-Tomaten,
+
+00:26:15.000 --> 00:26:22.000
+ die es hier gibt, eine kleine gelbe Cherry-Tomate, die ist echt ganz gut resistent. Das kann man sowieso sagen.
+
+00:26:22.000 --> 00:26:28.000
+ Cherry-Tomaten, also die ganzen kleinen Tomaten sind meistens oder im Durchschnitt einfacher und resistenter
+
+00:26:28.000 --> 00:26:37.000
+ als große Tomaten. So, dann möchte ich noch eine Warnung loswerden. Genau, gefährliches Gemüse. Das hat jetzt nichts
+
+00:26:37.000 --> 00:26:44.000
+ mit Tomaten zu tun, aber Zucchini. Kennt vielleicht auch schon mal jeder, der versucht hat, Zucchini anzubauen.
+
+00:26:44.000 --> 00:26:49.000
+ Die wachsen auch wie Blöde und viele Leute können nach der ersten Saison keine Zucchini mehr sehen für den Rest
+
+00:26:49.000 --> 00:26:57.000
+ ihres Lebens. Aber wenn ihr von denen Samen nimmt, das kann tödlich enden, weil die dieses, wie heißt es,
+
+00:26:57.000 --> 00:27:05.000
+ ich glaube, kreisende Korkobizin, Korkopatin, irgendwas mit C am Anfang, bilden die dann und das kann
+
+00:27:05.000 --> 00:27:10.000
+ man Menschen umbringen. Das merkt ihr, wenn die sehr bitter schmecken. Es gibt immer wieder Leute, die das nicht wissen.
+
+00:27:10.000 --> 00:27:17.000
+ Die züchten Zucchini, essen sie, obwohl sie offensichtlich eigentlich nicht schmecken können und es ist tödlich.
+
+00:27:17.000 --> 00:27:26.000
+ Und Pilze, allgemein Platz, ich weiß, ich sag's nur noch mal. Pilze, wenn ihr die sammelt oder züchtet,
+
+00:27:26.000 --> 00:27:32.000
+ ja beim Züchten wisst ihr, welche Spuren ihr da gekauft habt oder welche Anzuchtpakete, aber wenn ihr sie sammelt,
+
+00:27:32.000 --> 00:27:38.000
+ die sehen nach Größe, sehen die komplett unterschiedlich aus, wenn es ein junger oder ein alter Pilz ist und an welchem Standort er wächst.
+
+00:27:38.000 --> 00:27:45.000
+ Es gibt da Apps, die sind inzwischen auch ganz gut. Ops, Identify kann ich da vor allen Dingen empfehlen.
+
+00:27:45.000 --> 00:27:50.000
+ Aber bei Pilzen würde ich mich nicht drauf verlassen. Macht einen Workshop, geht mit jemandem los, der sich damit auskennt
+
+00:27:50.000 --> 00:27:56.000
+ und denkt nicht, oh ich hab jetzt eine App, ich versuch das alleine. Auch das kann übel tödlich enden.
+
+00:27:58.000 --> 00:28:06.000
+ So, jetzt stellt euch vor, ihr habt eine Saison lang angebaut und ihr seid überwältigt, ihr habt alles total richtig gemacht
+
+00:28:06.000 --> 00:28:11.000
+ und jetzt wisst ihr nicht mehr wohin mit Tomaten. Das ist nämlich die Eigenschaft von Tomaten, sie sind alle ungefähr gleichzeitig fertig
+
+00:28:11.000 --> 00:28:21.000
+ und dann, ja, was tun. Trocknen, klar, kann man im Backofen zum Beispiel machen, könnt ihr auch nochmal gucken,
+
+00:28:21.000 --> 00:28:26.000
+ wie das am besten funktioniert. Tomatensaft hab ich noch nicht probiert, ist glaube ich aber auch relativ simpel,
+
+00:28:26.000 --> 00:28:33.000
+ da ist auch die Kunst, die Flaschen am besten zu desinfizieren und gut zu verschließen, damit es nicht schlecht wird.
+
+00:28:33.000 --> 00:28:37.000
+ Ja, Suppe, No-Brain, immer wieder super, kann man dann auch fantastisch einfrieren.
+
+00:28:37.000 --> 00:28:42.000
+ Marmelade, ich hab mal irgendwann angefangen, einfach Marmelade zu machen, weil ich auch gedacht hab,
+
+00:28:42.000 --> 00:28:46.000
+ ich mach gerne Marmelade, Tomaten sind ja eigentlich auch Früchte und kein Gemüse.
+
+00:28:46.000 --> 00:28:52.000
+ Passuche ich mal und hab das gemacht, als hätte ich jetzt, weiß ich nicht, Pflaumen oder Beeren gehabt,
+
+00:28:52.000 --> 00:28:57.000
+ einfach nur Gelierzucker eingekocht, fantastische Marmelade, die Leute glauben es nicht, aber jeder,
+
+00:28:57.000 --> 00:29:01.000
+ der es probiert hat, sagt, wow, fantastisch, Tomatenmarmelade, Marmelade, klasse.
+
+00:29:01.000 --> 00:29:06.000
+ Und dann werft ihr noch vielleicht ein bisschen Gewürze rein oder macht noch ein bisschen was anderes,
+
+00:29:06.000 --> 00:29:12.000
+ habt ihr einen Schatt, nee, dann ist es auch schon delikat und ihr könnt es an andere Speisen schmeißen.
+
+00:29:12.000 --> 00:29:20.000
+ Einkochen, einfrieren, klar, alte Kulturtechniken, vorhin das Einfrieren, haben unsere Urgroßväter ja immer gemacht.
+
+00:29:20.000 --> 00:29:27.000
+ Und Kimchi, Kimchi ist auch so eine Wissenschaft für sich, hab ich noch nie gemacht, das ist ja auch eher so für Blattgemüse,
+
+00:29:27.000 --> 00:29:35.000
+ Kohl ist ganz klassisch, die deutsche Kulturtechnik von Kohlfermentation ist Sauerkraut, klar.
+
+00:29:35.000 --> 00:29:40.000
+ Ich hab mich noch nicht ran getraut, also da gibt es auch ganz tolle Workshops, auch bei solchen Initiativen,
+
+00:29:40.000 --> 00:29:46.000
+ die es vielleicht bei euch in der Nähe gibt, eines Tages werde ich es mal probieren, es soll toll sein.
+
+00:29:46.000 --> 00:29:55.000
+ Genau, so, was haben wir denn jetzt noch? Ach ja, meine Erfolge und Misserfolge, was ich so verschiedene Gemüse ausprobiert habe.
+
+00:29:55.000 --> 00:30:02.000
+ Pilze, sieht man hier oben aus, dann Pilze, sind die besten Anfängerpilze, weil sie wachsen schnell, sie wachsen einfach.
+
+00:30:02.000 --> 00:30:07.000
+ Und ich hab da beides versucht, ich hab einen Workshop gemacht und mir so einen großen Sack mit Substrat gekauft,
+
+00:30:07.000 --> 00:30:13.000
+ das hat auch ganz gut funktioniert und ich hab das versucht mit Sporen, die mir dann in dem Workshop gegeben wurde
+
+00:30:13.000 --> 00:30:20.000
+ und alles desinfizieren und in den Gläsern und an die Heizungsstellen und nach einigen Wochen hatte ich jede Menge Schimmelpilze gezüchtet.
+
+00:30:20.000 --> 00:30:26.000
+ Also ich hab eigentlich nach Lehrbuch gemacht und dann dachte ich mir, Pilze sind nichts für mich, das können andere probieren.
+
+00:30:26.000 --> 00:30:29.000
+ Haben aber auch viele schon gesagt, dass das ganz toll und einfach ist.
+
+00:30:29.000 --> 00:30:35.000
+ Darunter seht ihr zwei Hokkaido-Kürbisse, da hatte ich auch einfach nur im Supermarkt einen Kürbis gekauft,
+
+00:30:35.000 --> 00:30:45.000
+ Bio sollte es vielleicht schon sein, in die Erde gestopft, ihr kriegt Pflanzen und wächst wunderbar, braucht auch relativ viel Nährstoffe.
+
+00:30:45.000 --> 00:30:51.000
+ Piperoni, sehr viel einfacher hab ich den Eindruck als Paprika, ja Tomaten in allen Größen und Formen.
+
+00:30:51.000 --> 00:30:58.000
+ Dann hab ich dieses Jahr mal so einen Eichblattsalat gekauft, so einen Sechspack vorgezogen und in Blumenkasten.
+
+00:30:58.000 --> 00:31:03.000
+ Bis jetzt ein kompletter Reinfall, ist zwar gewachsen, sieht aber seit mehreren Wochen genauso aus, wie er da steht,
+
+00:31:03.000 --> 00:31:07.000
+ wird irgendwie nicht größer, ich weiß nicht, was ich falsch mache oder es ist das Wetter.
+
+00:31:07.000 --> 00:31:13.000
+ Die Blättchen, die paar, die wir geerntet haben, sind sehr zäh, weil sie halt schon alt sind und er will einfach nicht wachsen.
+
+00:31:13.000 --> 00:31:19.000
+ Andere Leute haben viel Erfolg mit Gemüse, mit Salat, aber da be aware of the Schnecken.
+
+00:31:19.000 --> 00:31:23.000
+ Schnecken die Schrecken des Gärtners und der Gärtnerin.
+
+00:31:23.000 --> 00:31:28.000
+ Aubergine hab ich auch immer wieder versucht, ja das ist die größte Aubergine, die ich je gezüchtet habe,
+
+00:31:28.000 --> 00:31:33.000
+ für die, die es jetzt nicht erkennen können, die war ungefähr so groß und ja genießbar war sie natürlich nicht.
+
+00:31:33.000 --> 00:31:42.000
+ Aber es gibt Leute mit sehr sonnigen Plätzen, oder Gewächshäusern, die auch schon gute Erfolge mit Aubergine hatten.
+
+00:31:42.000 --> 00:31:49.000
+ Und Bohnen. Bohnen hab ich mal gepflanzt, dicke Bohnen, weil mir jemand gesagt hat, ja du hast doch so ein Riesenproblem mit Giersch.
+
+00:31:49.000 --> 00:31:53.000
+ Giersch ist furchtbar, Giersch ist die andere Pest des Gärtners und der Gärtnerin.
+
+00:31:53.000 --> 00:32:02.000
+ Setz mal dicke Bohnen daneben oder dagegen, weil die super tiefe Wurzeln bilden und den Giersch quasi verdrängen.
+
+00:32:02.000 --> 00:32:06.000
+ Also die Bohnen waren super lecker, Giersch hab ich leider in Massen bis heute.
+
+00:32:06.000 --> 00:32:13.000
+ Kann man auch essen, weiß ich, junge Gierschblätter könnt ihr als Salat essen, alte, da kaut ihr euch dumm und dämlich.
+
+00:32:13.000 --> 00:32:19.000
+ Aber ich hab so viele Gierschblätter, das glaubt ihr gar nicht, also da könnt ich das ganze Viertel mit Salat versorgen.
+
+00:32:19.000 --> 00:32:21.000
+ Oder Spinat.
+
+00:32:21.000 --> 00:32:28.000
+ Ich will mal Linsen versuchen oder wenn das Wetter so wird wie dieses Jahr, vielleicht baue ich mal Reis an, weiß ich nicht.
+
+00:32:28.000 --> 00:32:38.000
+ So, genau, bevor ich jetzt nochmal an diese, an die Tipps gehe, habe ich euch hier Tomaten aus meinem Garten mitgebracht.
+
+00:32:38.000 --> 00:32:47.000
+ Und zwar einmal als Illustration, was für eine Vielfalt an Tomaten es gibt. Sie sind leider noch nicht rot, sie werden es hoffentlich noch.
+
+00:32:47.000 --> 00:32:55.000
+ Das ist auch noch so ein Tipp, genau, wenn sie fast fertig sind und aus irgendwelchen Gründen sie fallen runter oder was auch immer, holt sie rein in die Wohnung, dann werden sie noch rot.
+
+00:32:55.000 --> 00:32:59.000
+ Schmecken nicht ganz so intensiv, als wenn ihr sie am Strauch rot werden lässt, geht aber auch.
+
+00:32:59.000 --> 00:33:08.000
+ Das ist eine Nero, die Cremea, eine schwarze von der Creme, das heißt die wird auch sehr dunkel werden, sieht man hier oben schon.
+
+00:33:08.000 --> 00:33:11.000
+ Und das ist jetzt die größte von dieser Sorte, die ich gerade habe.
+
+00:33:11.000 --> 00:33:19.000
+ Und das hier zum Vergleich, das ist eine peruanische Wildtomate und ich glaube, die wird auch nicht größer. Also die sind so, die sind so.
+
+00:33:19.000 --> 00:33:24.000
+ Und hier ist so ein Beispiel für eine Tomate, ich weiß gar nicht, das ist eine der mittleren Sorten.
+
+00:33:24.000 --> 00:33:31.000
+ Die habe ich auch reingeholt, weil sie einfach schon hübsch aussah, aber noch sehr grün und sie ist jetzt in den letzten Tagen rot geworden.
+
+00:33:31.000 --> 00:33:40.000
+ So, und wenn ihr hier jetzt Samen von haben wollt, aufmachen, habe ich schon gesagt, auswaschen, trocknen, Samen fürs nächste Jahr, voila.
+
+00:33:40.000 --> 00:33:45.000
+ So, jetzt bin ich schon am Ende eigentlich. Hier nochmal die Tipps, was es noch gibt.
+
+00:33:45.000 --> 00:33:52.000
+ Also wir haben morgen um 14 Uhr ein Workshop Open Source Gardens, drüben bei Bits und Bäume im Village Open Source Gardens.
+
+00:33:52.000 --> 00:33:58.000
+ Am Donnerstag um 18 Uhr gibt es Lightning Talks, Garden Hacks und Technology Snacks.
+
+00:33:58.000 --> 00:34:05.000
+ Da werde ich unter anderem auch nochmal 5 Minuten dazu erzählen, wie man Gärten insektenfreundlich macht.
+
+00:34:05.000 --> 00:34:09.000
+ Aber es werden noch viele andere Leute viele spannende Themen erzählen.
+
+00:34:09.000 --> 00:34:14.000
+ Und Freitag 14 Uhr mitmachplenum Growing the Open Source Gardens.
+
+00:34:14.000 --> 00:34:19.000
+ Ich weiß noch nicht genau, was passieren wird, aber ich bin auch dabei, glaube ich, oder ich werde auf jeden Fall mal hingehen.
+
+00:34:19.000 --> 00:34:24.000
+ Ihr habt hier auf jeden Fall eine sehr lebhafte Garten-Community und ganz viele Leute.
+
+00:34:24.000 --> 00:34:29.000
+ Da drüben ist übrigens auch eine Samenbank, Samentauschbörse, da könnt ihr hingehen.
+
+00:34:29.000 --> 00:34:37.000
+ Falls ihr zufällig welche dabei habt, könnt ihr sie abgeben oder ihr könnt euch da drüben eben im Open Source Gardens Village auch Samen mal mitnehmen.
+
+00:34:37.000 --> 00:34:40.000
+ Und all das mal ausprobieren, was ich gerade so erzählt habe.
+
+00:34:40.000 --> 00:34:44.000
+ Jutti, so, jetzt habe ich geredet wie ein Wasserfall.
+
+00:34:44.000 --> 00:34:46.000
+ Ich hoffe, ich habe euch nicht überwältigt.
+
+00:34:46.000 --> 00:34:48.000
+ Und jetzt habt ihr vielleicht noch Fragen.
+
+00:34:48.000 --> 00:34:50.000
+ Können wir noch Fragen? Ja, ne?
+
+00:34:50.000 --> 00:34:51.000
+ Ja, wir haben noch Zeit.
+
+00:34:51.000 --> 00:34:52.000
+ Super.
+
+00:34:52.000 --> 00:34:54.000
+ Ach so, hier noch Links und so.
+
+00:34:54.000 --> 00:34:56.000
+ Das könnt ihr dann nachher auf dem Fuhle nachgucken.
+
+00:34:56.000 --> 00:35:03.000
+ Was Lizenzen anbelangt, wir haben ja auch diverse internationale Verträge, Protokolle und dergleichen,
+
+00:35:03.000 --> 00:35:10.000
+ die versuchen dieses Lizenzproblem etwas einzudämmen, also vielleicht zum Beispiel die UN-DRP,
+
+00:35:10.000 --> 00:35:18.000
+ also die UN Declaration on Peasants' Rights, die versuchen dieses Problem einzudämmen.
+
+00:35:18.000 --> 00:35:30.000
+ Gibt es, wissen Sie da mehr, was da an politischen Aktionen gemacht wird, um dieses Problem, das ja existiert,
+
+00:35:30.000 --> 00:35:34.000
+ politisch und rechtlich zu lösen?
+
+00:35:34.000 --> 00:35:44.000
+ Konkrete Schritte weiß ich persönlich jetzt nicht, aber ich habe hier in meinen Links- und weiterführenden Quellen zwei sehr gute Quellen.
+
+00:35:44.000 --> 00:35:52.000
+ Das erste ist ein Blogbeitrag über Lizenzmodelle von der Coco, die auch drüben im Open Source Gardens Village ist.
+
+00:35:52.000 --> 00:35:59.000
+ Und sie hat auch zu dem Thema genau einen Vortrag gehalten vor ein, zwei Jahren beim CCC, den habe ich hier auch verlinkt.
+
+00:35:59.000 --> 00:36:04.000
+ Ich denke, das sind so die besten Quellen, die ich gerade weiterempfehlen kann, um das Thema abzudecken.
+
+00:36:04.000 --> 00:36:11.000
+ Und da würde ich dann auch empfehlen, da sie da die Expertin ist, sie nochmal genauer dazu zu fragen.
+
+00:36:11.000 --> 00:36:17.000
+ Ich habe eine Anmerkung zu Kartoffeln. Sie sagten, dass es schwierig ist, die aus Samen zu ziehen.
+
+00:36:17.000 --> 00:36:22.000
+ Wir haben die früher kopiert, also einfach die Kartoffel aufgehoben und nächstes Jahr in die Erde gesteckt.
+
+00:36:22.000 --> 00:36:30.000
+ Ja, genau, das war ja auch mein Tipp, die einfach gekeimte Kartoffeln reinzustecken und dann zu vermehren.
+
+00:36:30.000 --> 00:36:36.000
+ Ihr dürft mich auch gerne duzen übrigens, auch wenn ich so alt aussehe.
+
+00:36:36.000 --> 00:36:38.000
+ Ok, wir sind ungefähr gleich alt.
+
+00:36:38.000 --> 00:36:48.000
+ Kurze Frage, praktisch, woher bekomme ich jetzt, wenn wir keinen Gemeindegarten haben, woher im Internet bestellen bei Amazon oder so?
+
+00:36:48.000 --> 00:36:50.000
+ Oder wo bekomme ich die wirklich her?
+
+00:36:50.000 --> 00:36:52.000
+ Also, die Samen meinst du?
+
+00:36:52.000 --> 00:36:58.000
+ Genau, da gehe ich vielleicht noch mal auf die Folie vom Anfang, da bin ich ein bisschen schnell drüber gegangen.
+
+00:36:58.000 --> 00:37:02.000
+ Also, in Dortmund zum Beispiel kann man sie kostenlos bei der Stadt bestellen.
+
+00:37:02.000 --> 00:37:15.000
+ Und andere Städte, die solche Initiativen auch haben, die unterstützen sowas auch.
+
+00:37:15.000 --> 00:37:25.000
+ Du hast jede Menge Shops im Internet, wo du sowohl kommerzielle als auch Open Source Sachen bestellen kannst.
+
+00:37:25.000 --> 00:37:28.000
+ Es gibt immer mal wieder Tauschbörsen.
+
+00:37:28.000 --> 00:37:36.000
+ Also, ich werde halt auch immer wieder auf Kleinanzeigenbörsen für alles mögliche fündig, sei es jetzt Material oder auch Pflanzen.
+
+00:37:36.000 --> 00:37:42.000
+ Einerseits verkaufen auch ganz viele Leute zum Beispiel Ableger.
+
+00:37:42.000 --> 00:37:49.000
+ Ich habe jetzt mal geguckt nach Feigen, weil wir sind auch langsam bei dem Klima so weit, dass man hier wirklich erfolgreich Feigen züchten kann, die ich ganz toll finde.
+
+00:37:49.000 --> 00:37:55.000
+ Und du findest jede Menge Leute, die dir Feigenableger für 5 Euro so ein kleines Dingelchen verkaufen oder so.
+
+00:37:55.000 --> 00:37:57.000
+ Und das gleiche gilt für Sämereien.
+
+00:37:57.000 --> 00:38:08.000
+ Aber da würde ich tatsächlich auch mal nach so Initiativen gucken, die sowas verteilen und kostenlos oder gegen eine kleine Gebühr mit verschicken.
+
+00:38:08.000 --> 00:38:16.000
+ Eine Anmerkung oder ein Tipp zu Anzucht, was ganz gut funktioniert, sind Toilettenpapier, Paar Bröllchen.
+
+00:38:16.000 --> 00:38:20.000
+ Die kann man so halbieren und dann je nach Tiefe machen.
+
+00:38:20.000 --> 00:38:22.000
+ Ich habe auch eine Frage zu Kartoffeln.
+
+00:38:22.000 --> 00:38:27.000
+ Und zwar, wir hatten das auch mal getauscht, haben uns dann aber so eine Kartoffelkrankheit eingefangen.
+
+00:38:27.000 --> 00:38:30.000
+ Wie kann man, gibt es eine Möglichkeit, das irgendwie auszuschließen?
+
+00:38:30.000 --> 00:38:37.000
+ Weil das ein echter Saatgut ist ja extra dann krankheitsfrei sozusagen oder der Vorteil.
+
+00:38:37.000 --> 00:38:45.000
+ Ja genau, also das ist ein sehr verwandter Erreger zu dem Erreger, der eben auch die Tomaten so fertig macht.
+
+00:38:45.000 --> 00:38:54.000
+ Und tatsächlich durch diese Kartoffelkrankheit gab es ja auch eine große Hungersnot vor fast 200, 150 Jahren in Irland.
+
+00:38:54.000 --> 00:38:58.000
+ Schwierig. Also ich hätte jetzt keinen Tipp, wie man das los wird.
+
+00:38:58.000 --> 00:39:03.000
+ Auch bei den Tomaten weiß ich ja nur abschneiden, hoffen, isolieren.
+
+00:39:03.000 --> 00:39:08.000
+ Und ich wüsste nicht, was man da bei Kartoffeln machen kann, wenn der Erreger da einmal dran ist.
+
+00:39:08.000 --> 00:39:13.000
+ Ich hatte eine Frage zum Thema Erde.
+
+00:39:13.000 --> 00:39:19.000
+ Und zwar haben wir von der Solawi bei uns, also Solidarische Landwirtschaft, ein paar Pflanzen übrig gehabt.
+
+00:39:19.000 --> 00:39:22.000
+ Und haben die dann probiert bei uns auf dem Balkon dieses Jahr durchzubringen.
+
+00:39:22.000 --> 00:39:25.000
+ Auch Tomaten und Aubergine glaube ich.
+
+00:39:25.000 --> 00:39:29.000
+ Und ich bin mir nicht so ganz sicher, was ich nach der Saison mit der Erde machen soll.
+
+00:39:29.000 --> 00:39:34.000
+ Weil wir halt nicht einen Garten haben, wo wir den kompostieren oder weiß ich nicht, was man damit korrekterweise tut.
+
+00:39:34.000 --> 00:39:41.000
+ Und wir finden es halt auch irgendwie ein bisschen doof, da 20 Kilo Erde wegzuschmeißen oder zum Gemeinschaftsgarten zu bringen.
+
+00:39:41.000 --> 00:39:46.000
+ Kann man den irgendwie gut aufbewahren oder sollte man damit vorsichtig sein mit Erde wiederverwenden?
+
+00:39:46.000 --> 00:39:53.000
+ Aufbewahren. Also bei Wiederverwenden ist die Sache, dass du die Erde dann erstmal wieder mit Nährstoffen versehen musst.
+
+00:39:53.000 --> 00:40:01.000
+ Es heißt ja auch immer, wir so Fruchtfolgen einhalten. Man soll nicht zweimal hintereinander Tomaten zum Beispiel ins selbe Beet pflanzen oder in die selbe Erde.
+
+00:40:01.000 --> 00:40:09.000
+ Kann man umgehend durchdüngen. Teilweise finde ich die Erde von den Nachbarn in der Biotonne aufbewahren.
+
+00:40:09.000 --> 00:40:13.000
+ Da könnte ich mir vorstellen, dass du dann auch ein Schimmelproblem bekommst.
+
+00:40:13.000 --> 00:40:17.000
+ Weil du ja, das ist ja jetzt belebte Erde, wo du schon Dinge mit gemacht hast.
+
+00:40:17.000 --> 00:40:20.000
+ Es ist Freiluft drangekommen, es fliegen jede Menge Sporen rum.
+
+00:40:20.000 --> 00:40:24.000
+ Und wahrscheinlich wird das dann schimmeln.
+
+00:40:24.000 --> 00:40:35.000
+ Also man kann auch zum Beispiel Kompost, wir machen ja auch selber Kompost, deshalb habe ich zwischen meinen Tomaten jetzt auch, ich weiß nicht, ich nehme alles in Gurken oder Zucchini oder Kürbisse.
+
+00:40:35.000 --> 00:40:38.000
+ Ich werde sehen, wenn was dran wächst, dass das alles aus der Erde kommt.
+
+00:40:38.000 --> 00:40:42.000
+ Tomaten übrigens auch, ich habe auch alle Tomaten in den Kompost geschmissen, wo ich dachte, die sind kaputt.
+
+00:40:42.000 --> 00:40:46.000
+ Dann sind sie erstmal wieder hier immer aus der Erde rausgekommen, die habe ich aber rausgerissen.
+
+00:40:46.000 --> 00:40:50.000
+ Also du hast alles Mögliche jetzt in der Erde drin, ich glaube das ist ein bisschen schwierig.
+
+00:40:50.000 --> 00:40:56.000
+ Könnte sie im Backofen dann bei, ich weiß nicht, X Grad oder so etwas wieder sterilisieren?
+
+00:40:56.000 --> 00:41:00.000
+ Das sagen manche, soll man auch mit dem Kompost machen, aber so eine Mühe mache ich mir nicht.
+
+00:41:00.000 --> 00:41:09.000
+ Du hast deine Tomaten an den Schnüren nach oben wachsen lassen?
+
+00:41:09.000 --> 00:41:15.000
+ Oben machst du die irgendwo fest, das verstehe ich, aber unten hast du dann einen Erdnagel oder machst du eine Pflanze fest?
+
+00:41:15.000 --> 00:41:20.000
+ Ich mache eine kleine Schlinge mit einem lockeren, vorsichtigen Knoten um die Pflanze rum.
+
+00:41:20.000 --> 00:41:24.000
+ Also sobald die eine gewisse Größe erreicht hat, dass sie kräftig genug ist,
+
+00:41:24.000 --> 00:41:29.000
+ knote ich das einfach unten um die Pflanze und wickel das dann immer um die Pflanze rum.
+
+00:41:29.000 --> 00:41:32.000
+ Und die Windlast der Pflanze reißt die da nicht raus?
+
+00:41:32.000 --> 00:41:33.000
+ Bitte?
+
+00:41:33.000 --> 00:41:37.000
+ Na ja, wenn du Wind hast, die gegen die Pflanze drückt, zieht es nicht die Wurzel raus oder so?
+
+00:41:37.000 --> 00:41:39.000
+ Passt, ok, super.
+
+00:41:39.000 --> 00:41:41.000
+ Das ist die Kostbescheidung für mein Kopf?
+
+00:41:41.000 --> 00:41:43.000
+ Das ist die Kostbescheidung für dein Kopf.
+
+00:41:43.000 --> 00:41:45.000
+ Hm, das ist schon voll.
+
+00:41:45.000 --> 00:41:47.000
+ Das ist immer ein Schlecht, aber das wird nicht jetzt nicht.
+
+00:41:47.000 --> 00:41:58.000
+ Ok, also ich kann jetzt noch weiter noch die Pflanze einbauen, aber ihr könnt das machen.
+
+00:41:58.000 --> 00:42:02.000
+ Danke, ja das geht, super.
+
+00:42:02.000 --> 00:42:04.000
+ Alles klar.
+
+00:42:04.000 --> 00:42:06.000
+ Wer hat noch Fragen oder Anmerkungen?
+
+00:42:06.000 --> 00:42:07.000
+ Tipps?
+
+00:42:07.000 --> 00:42:12.000
+ Ich habe eine Frage, und zwar, wie hast du denn die Palettenbete bestrichen?
+
+00:42:12.000 --> 00:42:13.000
+ Du sagst, irgendeine Lasur?
+
+00:42:13.000 --> 00:42:14.000
+ Genau.
+
+00:42:14.000 --> 00:42:15.000
+ Ich will das ja nicht im Gemüse haben.
+
+00:42:15.000 --> 00:42:16.000
+ Das würde ich nicht.
+
+00:42:16.000 --> 00:42:19.000
+ Ich habe eine Frage, wie hast du denn die Palettenbete bestrichen?
+
+00:42:19.000 --> 00:42:22.000
+ Ich habe eine Frage, wie hast du denn die Palettenbete bestrichen?
+
+00:42:22.000 --> 00:42:24.000
+ Du sagst, irgendeine Lasur?
+
+00:42:24.000 --> 00:42:25.000
+ Genau.
+
+00:42:25.000 --> 00:42:26.000
+ Ich will das ja nicht im Gemüse haben.
+
+00:42:26.000 --> 00:42:27.000
+ Das würde ich nicht.
+
+00:42:27.000 --> 00:42:28.000
+ Das würde ich nicht im Gemüse haben.
+
+00:42:28.000 --> 00:42:29.000
+ Das ist mein...
+
+00:42:29.000 --> 00:42:30.000
+ Entschuldigung, ich höre dich gerade schlecht.
+
+00:42:30.000 --> 00:42:32.000
+ Folie, Ja, Folie, Nein, ist immer ein bisschen schwierig.
+
+00:42:32.000 --> 00:42:34.000
+ Womit hast du die Paletten behandelt?
+
+00:42:34.000 --> 00:42:36.000
+ Also das ist eine...
+
+00:42:36.000 --> 00:42:39.000
+ Ich weiß nicht, ob Lasur der korrekte Ausdruck ist.
+
+00:42:39.000 --> 00:42:41.000
+ Es gab ja früher so ganz fiese Sachen.
+
+00:42:41.000 --> 00:42:44.000
+ Xylomon, weiß ich noch, hat mein Vater was mit gestrichen.
+
+00:42:44.000 --> 00:42:48.000
+ Das ist heute, das wird niemals verrotten, aber das ist ja auch verboten, aus gutem Grunde.
+
+00:42:48.000 --> 00:42:53.000
+ Es gibt halt jetzt so umweltfreundliche Holzschutzlasuren.
+
+00:42:53.000 --> 00:42:58.000
+ Da habe ich, wie gesagt, einen Kanister auch gebraucht für 5 Euro bei einem abgekauft.
+
+00:42:58.000 --> 00:43:00.000
+ Ich kann dir nicht genau sagen, was drin ist.
+
+00:43:00.000 --> 00:43:02.000
+ Ich habe es mir angeschaut.
+
+00:43:02.000 --> 00:43:04.000
+ Es ist auf jeden Fall nicht so fiese Chemie.
+
+00:43:04.000 --> 00:43:06.000
+ Es ist irgendwas mit Öl-Wasser-Basis.
+
+00:43:06.000 --> 00:43:09.000
+ Und es geht nicht in die Pflanzen, ist meine Frage.
+
+00:43:09.000 --> 00:43:14.000
+ Nee, weil die Hochbete, da bin ich jetzt nicht so drauf eingegangen.
+
+00:43:14.000 --> 00:43:17.000
+ Erstmal habe ich das nur von außen gestrichen und nicht von innen.
+
+00:43:17.000 --> 00:43:22.000
+ Dann hatte ich gelesen, okay, ist doch ein bisschen mehr Arbeit, musste noch so Noppenfolie kaufen,
+
+00:43:22.000 --> 00:43:27.000
+ damit nämlich genau die Feuchtigkeit nicht an das Holz dran kommt.
+
+00:43:27.000 --> 00:43:29.000
+ Und ja, dann sind sie eigentlich geschützt.
+
+00:43:29.000 --> 00:43:33.000
+ Oder du sagst, naja, okay, pass auf, ich will das sowieso immer wieder neu aufbauen
+
+00:43:33.000 --> 00:43:38.000
+ und ich möchte ja frische Erde reintun, also streiche ich die überhaupt nicht.
+
+00:43:38.000 --> 00:43:42.000
+ Ich nehme in Kauf, dass sie nur ein oder zwei Jahre halten und dann verfallen.
+
+00:43:42.000 --> 00:43:49.000
+ Dann hast du nur noch die Metallchaniere, die übrig bleiben.
+
+00:43:49.000 --> 00:43:53.000
+ Leider haben wir das Ende der Zeit erreicht.
+
+00:43:53.000 --> 00:44:00.000
+ Von daher danken wir dir ganz doll für den Vortrag und ihr könnt ja dann noch euch so unterhalten.
+
+00:44:00.000 --> 00:44:03.000
+ Alles klar, ich danke euch für eure Geduld.
+
+00:44:03.000 --> 00:44:05.000
+ Vielen Dank.
+
+00:44:06.000 --> 00:44:11.000
+ [Musik]
+

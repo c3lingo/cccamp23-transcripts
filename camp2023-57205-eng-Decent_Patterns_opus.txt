@@ -1,0 +1,199 @@
+ [MUSIC]
+ Eileen is presenting to us Decent Patterns and UX Library for Decentralization.
+ Welcome.
+ Thank you so much.
+ [APPLAUSE]
+ After that last lightning talk, I feel like I'm being very greedy with 20 minutes, but
+ maybe we'll just have more time for questions.
+ So I'm here to talk about Decent Patterns and Open UX Library for Decentralization.
+ This is a project that I guess I started a few years ago with a small team of co-conspirators,
+ some of whom are all at this camp actually, so you can meet us too and talk more about
+ this.
+ I'm hoping this talk will be interesting to those of you who are building decentralized
+ technologies, but of course also people who are generally just knowledge workers, right?
+ Like if you have done a library in your life, maybe you'll run into some similar questions
+ that I'm going to raise today.
+ Similarly, I think it's an interesting answer to the question, what can designers contribute
+ in open source?
+ This is something that I've been thinking about for a long time.
+ So I think maybe there are some answers here.
+ But why?
+ Why build one in the first place?
+ So I'm a designer.
+ I work in decentralization technologies around that.
+ And whenever I work with people, you know how it is.
+ You go into a small team, you work with them intensely for a few months, and then you go
+ to another team, and you go to an organization, and then maybe you get a chance to build a
+ team, and you go to an organization, and then maybe you get a chance to talk to another
+ designer, but basically you're kind of alone.
+ But as I was working alone with all of these groups, there were just some recurring questions
+ that everybody had, right?
+ How to permanently delete content.
+ This is a very, very common question if you're working P2P.
+ How to store encryption keys.
+ Where to store them if you have multiple devices and you have no central authority.
+ How to ensure a critical number of peers being online, right?
+ That's so that the content can be replicated.
+ How do you communicate the unusual privacy and security properties of your new technologies?
+ How do you even explain a federated architecture?
+ I think we saw a lot of that with the migration to Mastodon of how to do it and how not to do it.
+ And then finally, overall, very abstract questions.
+ How do you even distribute trust and power?
+ What is the right way to do it?
+ And I see all of these teams struggling with that.
+ And as I was working on it, I was like, surely someone thought about this.
+ Surely someone has come up with a general solution to these very general problems.
+ And I was just, no.
+ Sitting there, I was like, nope.
+ Nobody has really written bigger pieces of solutions to these problems.
+ And more than that, it wasn't just that I couldn't find those resources that I needed for my work,
+ but it was also somewhat of a general adoption problem.
+ Well, UX problems that caused adoption problems.
+ And by that I mean most of us who are building these technologies, decentralized or not,
+ we're seeing that as a vehicle to drive or at least support sociopolitical change.
+ And for sociopolitical change to happen, you really have to have a critical mass of people using it.
+ It doesn't mean it has to be the whole world, but it means a critical mass of users need to be using this tool.
+ And adoption also is actually very well understood.
+ Products and services get adopted by some very common systems.
+ People are enthused about it, and then some people are visionaries, they see it,
+ and then finally the pragmatists, the conservatives and the skeptics follow.
+ But that curve is very well understood.
+ And as I was working with the folks, I realized that we really never move much further beyond the first group of people,
+ the people who want to try out everything, who want to show you a proof of concept,
+ and who are really excited about it.
+ But there was very little movement forward.
+ And in my view, one of the reasons for that is when you have new technologies like this,
+ you don't have a common framework you can build into.
+ When you have new concepts and everybody names it differently,
+ every user, new user who has to learn this, has to learn a completely new framework, this is super hard.
+ So in my view, when I was thinking about adoption, I was really thinking about something like design standards.
+ What would a good standard be as you are building this new technology?
+ And by standards, I don't mean generic guidelines like always give people good error messages when you build a tool,
+ not generic things like that, but also not super specific things like Apple's mobile interface guidelines or anything like that.
+ Somewhere in the middle. What was that middle?
+ And then I realized actually that middle is also very well understood.
+ This is what I had to do to sign up for this talk.
+ You go to this website, either you have an account already, then you log in, or you don't have an account and you need one, then you register.
+ I see another pattern there, reset password, right? You lost your password, you reset the password.
+ There is a language switch, I don't know if you can see it on the top right.
+ On the bottom you have the legal bits, right?
+ All of this is something that is familiar to us just as users on the Internet.
+ It is something we see day in and day out.
+ We are trained to sort of understand how that user experience is supposed to be.
+ And in that way we are sort of learning a language, learning a language of how to interact with these technologies.
+ And this idea of having a language is also not new.
+ This is a book by Christopher Alexander, 1979, A Timeless Way of Building.
+ It really details this idea of how you can see different patterns in the world.
+ Christopher Alexander was an architect.
+ He was meticulously documenting different ways of looking at buildings, urban infrastructure, small room, like window placement.
+ And he defined this idea of a pattern as a careful description of a perennial solution to a recurring problem.
+ So again, buildings, right?
+ People have lived in buildings for thousands of years.
+ You don't need to reinvent the wheel when you are doing a new building.
+ You just look at existing buildings.
+ And this is what he was doing as he was sort of collecting these patterns.
+ And this is just one example for sort of urban planning.
+ These are the typical ways of how you can put buildings together.
+ Like a very simple idea.
+ He's just going around collecting different ways of putting buildings together.
+ So what I and the small team I'm working with wanted to do was to just sort of collect these things and see how we are putting our language together, how we could put our language together.
+ And with that, I just want to show you really the thing that we built.
+ This is decentpatterns.com.
+ It's a pattern library, meaning that we have different categories and different patterns sort of explained to a general audience.
+ The first thing we had to come up with was a template for a pattern.
+ So I'm just going to show you really.
+ This is a pattern we called host roulette.
+ Of course, the name is the most important thing because that is the thing that explains it and people can refer to it.
+ So host roulette is addressing a design problem.
+ The design problem is when you are signing people onto a federated system, you want to give people default options.
+ That's just good UX.
+ But if you give everybody the same default option, it's not much of a federated system anymore.
+ So host roulette, very simple solution.
+ You randomize it.
+ You're putting the host on a roulette.
+ Get it?
+ So basically what you're doing is you're randomizing the signup process and you can achieve better distribution of your users.
+ So we describe the solution and then give an example of who's already doing this.
+ In this case, this is Nextcloud.
+ Again, this is a short one, but why choose host roulette, understanding what reasons you would have to actually use such a pattern.
+ Then we have best practice.
+ These are just tips from the actual practice of implementing these patterns.
+ A small discussion, potential problems with a pattern.
+ A takeaway and then some references where you can learn more.
+ So this is the general template that we have for a pattern.
+ Importantly here, I think we also have the option for you to just edit it on GitHub.
+ So you can always just join the actual GitHub and see what you might want to change, what's inaccurate, what you might want to add.
+ The other thing that we did, which I think is also part of running a knowledge base, is we did name categories.
+ We basically identified even more kind of overall topics that are interesting here in decentralization.
+ We think those are sort of around roughly four different categories where it's different from centralized paradigms.
+ And that's identity and agency, moderation and curation, sharing and permissions, and sync and status.
+ I'm not going to go into detail on why they're important, but I think for any of you who have worked in decentralization, hopefully those categories ring true.
+ Yeah, I think this is just my very quick demo of the library.
+ You can play around in it.
+ There's also, you can just look at all the patterns if you want to see them all.
+ Again, the most important part here may be the naming of it, and then the other things just sort of come themselves.
+ You'll see that there are many, there are very different levels of kind of, yeah, genera, well, generality here.
+ Like some of them are very specific, like a visual idea, but some of them are, I don't know, I'm looking at cautious optimism.
+ That is an idea of how to even build a protocol, like how to think about trust in a protocol, things like that.
+ So we really have sort of like very large ideas and very small ideas all collected in this one pattern library.
+ Next I want to talk a little bit about like, okay, so what have we learned in doing this?
+ I think one thing that was really interesting for me to see is when we first started it, we were very happy about putting QR code verification in it.
+ It was a very immediate way for devices to connect and to verify.
+ It had great security properties. It was just very immediate.
+ And then the pandemic happened and QR codes were everywhere, right?
+ All the different apps that you had introduced QR codes, it just really sort of accelerated that development.
+ And then you see things like this. I don't know if the video is going to be very much visible,
+ but this person is in Atlanta and is just peeling off the QR code from a parking ticket provider, I suppose.
+ And that's what happens, right?
+ Like once you have an idea that is out there in the world and people learn to use it, like it's actually first of all, what a success story for QR codes.
+ But also here are the caveats, here are the consequences that come with that.
+ So how do we make sure that the patterns we do have, you know, I mean, I'm not saying we have to see so far into the future,
+ but what kind of critical discussion, what kind of context can we actually provide people with who are using this in their actual development?
+ The other thing we sort of ran into is a question around descriptive versus prescriptive ways of presenting the patterns.
+ And by that I just mean descriptive as a, you know, it's a description or just showing you the actual patterns.
+ Prescriptive is there is some recommendation coming with it, right?
+ So in a descriptive sense we have collecting existing solutions and relating them to one another.
+ So the work that you do there is mostly just finding the right level of abstraction and making sure that the patterns you have in a library are described correctly.
+ And you're to inspire, you're there to inspire people, you're not more.
+ In a prescriptive world we have a library that perhaps creates new solutions to these problems, so you really are generating new content.
+ Maybe you're testing and validating them with, you know, real users in the real world,
+ and you're making sure that whatever you build is actually going to work and not just hypothetical.
+ In that case then the library is there to guide people, to really offer some guidance and recommendations.
+ So we're still sort of unclear about that.
+ Right now it's a collection and we do think most of the patterns we have are good, but that's just our opinion, right?
+ And we know as designers that a lot of the things we design aren't necessarily good until we test them.
+ So that's it from me. You can check out decentpatterns.com.
+ We obviously welcome contributions and also shout out to the team raised there.
+ We have Vincent and Knop also.
+ And if you're interested in pattern libraries in general you should also check out, I mean, there are general libraries that you can just go to that have UX patterns.
+ If you're a designer and trying to learn how to design.
+ But there's also particular libraries I really would recommend for privacy security, for social media.
+ There's one about digital public spaces being made right now.
+ Of course there's also anti-patterns you should think about, patterns that are deceptive.
+ Those are all great libraries that you should check out just if you're into patterns in general.
+ And that's it. I would love to answer your questions. Thank you.
+ [Applause]
+ Okay. Thank you Eileen.
+ Applause are fine but I thought maybe we take the time for questions.
+ We have time for two because we're a bit behind schedule.
+ What are your questions to Eileen?
+ Does somebody have a question?
+ I have a small question. I'm really curious about UX/UI.
+ I wanted to know if I wanted to know more because you gave me a lot of links.
+ I wanted to know more about it, where I could look into it, about what's new.
+ Because what you did is already edge.
+ But I'm really curious about the world field because as a developer it's really interesting for me.
+ Yeah. I think, I mean, so those are good links to look if you're into patterns.
+ I think it's always difficult to think about how patterns fit into the development process
+ because it's very abstract and sometimes you do need a designer to help you actually put the pixels in place.
+ It's a bit of a different type of work.
+ But if you're interested in UX/UI in general, they're awesome resources.
+ The one that I like a lot is the Interaction Design Foundation.
+ They have a lot of really good courses and it's like a foundation in Denmark that just sort of does good work
+ and it's sort of very classic and well presented, I think.
+ We have time for one more question.
+ Anyone?
+ Okay. Then I'll say thank you, Eileen, again.
+ Go talk to Eileen if you have other questions.
+ It was nice to have you.
+ [Music]

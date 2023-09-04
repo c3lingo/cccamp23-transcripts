@@ -1,0 +1,3208 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:37,000
+ Ja, herzlich willkommen. Schön, dass ihr alle gekommen seid zum Live-Podcast der Sondersendung hier im Jugend Village.
+
+3
+00:00:37,000 --> 00:00:42,000
+ Ihr seht schon hinter mir meine zwei Mitpodcaster, den Gero und den Ebu.
+
+4
+00:00:42,000 --> 00:00:45,000
+ Wollen wir gleich noch ein bisschen was dazu sagen. Ihr könnt schon mal winken.
+
+5
+00:00:45,000 --> 00:00:47,000
+ Ihr seid hier zu sehen, auch wenn ihr die Leute vor Ort nicht seht.
+
+6
+00:00:47,000 --> 00:00:56,000
+ Sondersendung ist ein Format. Wir haben mal angefangen, schon vor vielen, vielen Jahren von Events des Chaos Computer Clubs live zu podcasten
+
+7
+00:00:56,000 --> 00:01:02,000
+ und ein bisschen darüber zu sprechen, was man da erlebt, was man den anderen vielleicht für Tipps und Tricks mitgeben kann.
+
+8
+00:01:02,000 --> 00:01:08,000
+ Das ist die Sondersendung. Und als wir gefragt worden sind, ob wir nicht eine Live-Sendung hier von der Jugend Village mal machen wollen,
+
+9
+00:01:08,000 --> 00:01:12,000
+ haben wir sofort gesagt, machen wir gern. Und wir wollen heute so eine kleine Mischung machen.
+
+10
+00:01:12,000 --> 00:01:16,000
+ Auf der einen Seite euch ein bisschen nahebringen, was Podcasting ist, wie das funktioniert.
+
+11
+00:01:16,000 --> 00:01:22,000
+ Und auf der anderen Seite, ihr seht da drüben, das Sofa ist leer. Vielleicht kennt ihr den heißen Stuhl als Format.
+
+12
+00:01:22,000 --> 00:01:27,000
+ Wer Lust hat, kann nachher zu uns auch auf die Bühne kommen. Wir wollen mit euch ein bisschen darüber sprechen,
+
+13
+00:01:27,000 --> 00:01:35,000
+ ob ihr das Format Podcasting kennt, ob ihr schon mal Podcast gemacht habt, was ihr für Podcast mögt, aber auch was ihr hier auf dem Camp erlebt habt,
+
+14
+00:01:35,000 --> 00:01:39,000
+ was ihr den anderen mitgebt, was ihr vielleicht auf jeden Fall auch erleben sollten auf dem Camp.
+
+15
+00:01:39,000 --> 00:01:45,000
+ Und natürlich könnt ihr uns auch alles fragen zum Thema Podcasting. Wir sind hier im Sendezentrum, Sendezentrum Village.
+
+16
+00:01:45,000 --> 00:01:50,000
+ Da steht auch das Equipment. Und ihr könnt da gern auch hinkommen, um Dinge auszuprobieren, wenn ihr das wollt.
+
+17
+00:01:50,000 --> 00:01:55,000
+ Aber jetzt schauen wir erstmal, dass wir die beiden begrüßen. Ich hoffe, ihr könnt mich hören.
+
+18
+00:01:55,000 --> 00:01:57,000
+ Gero und Ebo, grüßt euch.
+
+19
+00:01:57,000 --> 00:01:59,000
+ Hallo, grüßt euch.
+
+20
+00:01:59,000 --> 00:02:07,000
+ Sehr schön. Genau. Vielleicht stellt einer von euch mal kurz das Sondersendungsformat vor und auch, wo man das erreichen kann,
+
+21
+00:02:07,000 --> 00:02:11,000
+ was wir aufnehmen, zu welchen Themen wir podcasten. Vielleicht du, Ebo.
+
+22
+00:02:11,000 --> 00:02:16,000
+ Schade, ich wollte gleich sagen, eh ne, meine Mut. Gero, dran bist du.
+
+23
+00:02:16,000 --> 00:02:27,000
+ Na gut. Das Podcastformat haben wir eigentlich vor zwei Jahren wieder in den Leben gerufen,
+
+24
+00:02:27,000 --> 00:02:36,000
+ weil wir uns einmal beim Camp, also beim Camp, also beim TTC getroffen haben, virtuell, damals im Lockdown.
+
+25
+00:02:36,000 --> 00:02:40,000
+ Und sind dann auf die Idee gekommen, ob wir da nicht was weitermachen wollen.
+
+26
+00:02:40,000 --> 00:02:48,000
+ Und jetzt haben wir, ich glaube, vier Sendungen jetzt, das ist die fünfte Sendung. Und diesmal auch live.
+
+27
+00:02:48,000 --> 00:02:50,000
+ Ich bin ganz aufgeregt.
+
+28
+00:02:50,000 --> 00:02:51,000
+ Brauchst du nicht?
+
+29
+00:02:51,000 --> 00:02:53,000
+ Live aus Wien.
+
+30
+00:02:53,000 --> 00:02:58,000
+ Genau, das ist ja vielleicht auch schon mal so eine Besonderheit zu den Vorträgen, die ihr hier so normalerweise hört.
+
+31
+00:02:58,000 --> 00:03:02,000
+ Normalerweise steht hier jemand auf der Bühne, hat ein Funkmikrofon, was nach hinten geht.
+
+32
+00:03:02,000 --> 00:03:08,000
+ Wir müssen das jetzt hier so ein bisschen aufwendiger machen. Ebo, du könntest uns vielleicht mal gerade zeigen,
+
+33
+00:03:08,000 --> 00:03:14,000
+ damit man es mal gesehen hat. Wir sind verbunden über eine Software, die heißt Studiolink.
+
+34
+00:03:14,000 --> 00:03:17,000
+ Mit der kann man mit hoher Qualität Audioverbindungen herstellen.
+
+35
+00:03:17,000 --> 00:03:22,000
+ Das könnt ihr euch nachher anschauen, wenn ihr das wollt. Hier neben mir steht ein kleines Audiomischpult.
+
+36
+00:03:22,000 --> 00:03:28,000
+ Wir haben hier Headsets quasi angeschlossen, damit wir den Ton von allen Sprechern einzeln bekommen,
+
+37
+00:03:28,000 --> 00:03:31,000
+ was man braucht dann hinterher im Schnitt, um einen guten Schnitt zu haben.
+
+38
+00:03:31,000 --> 00:03:34,000
+ Ich zeichne hier auf "Ebo zeichnet Remote auf".
+
+39
+00:03:34,000 --> 00:03:40,000
+ Was ihr jetzt hier auf dem Bildschirm seht, ist eben das Studiolink als Software.
+
+40
+00:03:40,000 --> 00:03:46,000
+ Das heißt, man sieht hier, wenn der Ebo spricht, oben links den Signalpegel, wenn er spricht.
+
+41
+00:03:46,000 --> 00:03:54,000
+ Und man sieht hier links, auf der rechten Seite, wo er mit der Maus gerade ist, mich oben und den Gero unten.
+
+42
+00:03:54,000 --> 00:03:58,000
+ Das heißt, das Studiolink sorgt dafür, dass... - Ja, wenn ich sage, sieht man das auch.
+
+43
+00:03:58,000 --> 00:04:01,000
+ Genau, wenn der Gero spricht, sieht man das auch.
+
+44
+00:04:01,000 --> 00:04:05,000
+ So können wir quasi remote uns zusammenschalten, miteinander sprechen.
+
+45
+00:04:05,000 --> 00:04:11,000
+ Ich weiß gar nicht, ob es da ein Limit gibt. 5, 6, 7 Leute in einem Podcast ist problemlos möglich.
+
+46
+00:04:11,000 --> 00:04:21,000
+ Genau, und was Ebo euch jetzt zeigt, ist eine weitere Software, die beim Podcasting zum Einsatz kommt.
+
+47
+00:04:21,000 --> 00:04:25,000
+ Das ist Reaper zusammen mit einem Plug-in, was Ultraschall heißt.
+
+48
+00:04:25,000 --> 00:04:32,000
+ Das heißt, das, was wir jetzt sprechen, läuft hier live in so einer sogenannten Digital Audio Workstation, wird aufgenommen.
+
+49
+00:04:32,000 --> 00:04:38,000
+ Und ihr seht jetzt hier die einzelnen Spuren, auch das Intro vom Soundboard, was ihr am Anfang gehört habt.
+
+50
+00:04:38,000 --> 00:04:41,000
+ Viele Podcasts haben so ein eigenes Intro, läuft hier rein.
+
+51
+00:04:41,000 --> 00:04:48,000
+ Und das wird dann nachher verwendet, auch um es zu schneiden, eine MP3-Datei daraus zu machen und die dann eben entsprechend ins Internet zu stellen.
+
+52
+00:04:48,000 --> 00:04:51,000
+ Man sieht jetzt hier Ebo so ein bisschen weiter.
+
+53
+00:04:51,000 --> 00:04:56,000
+ Live, während ich spreche, ist auf meiner Spur sozusagen mein Audio-Pegel.
+
+54
+00:04:56,000 --> 00:04:59,000
+ Wir geben das dann hier zum Bock weiter, damit es auch im Videolivestream ist.
+
+55
+00:04:59,000 --> 00:05:04,000
+ Also es ist so ein bisschen aufwendiger, als wenn man jetzt nur einfach einen Vortrag auf der Bühne machen wollte.
+
+56
+00:05:04,000 --> 00:05:06,000
+ Da wollen wir aber gar nicht so sehr darauf eingehen.
+
+57
+00:05:06,000 --> 00:05:10,000
+ Diejenigen von euch, die das interessieren, die vielleicht selber Lust haben, mal so ein Podcast zu machen,
+
+58
+00:05:10,000 --> 00:05:15,000
+ sprecht mich gerne hinterher an oder kommt ins Sendezentrum oder schaut euch hinterher auch hier an.
+
+59
+00:05:15,000 --> 00:05:17,000
+ Ich glaube, wir haben keinen Programmpunkt hinter uns.
+
+60
+00:05:17,000 --> 00:05:20,000
+ Da können wir euch das gerne noch ein bisschen im Detail zeigen.
+
+61
+00:05:20,000 --> 00:05:24,000
+ Jetzt haben wir als Titel gewählt "Mit Podcasts die Welt verbessern".
+
+62
+00:05:24,000 --> 00:05:29,000
+ Jugen Hakt hat ja als Slogan "Mit Code die Welt verbessern".
+
+63
+00:05:29,000 --> 00:05:36,000
+ Wir sind davon überzeugt, dass wenn viele Leute bloggen, Podcasts machen, Vlogs machen, also Videoblogs machen,
+
+64
+00:05:36,000 --> 00:05:41,000
+ dass so die Ideen und das Wissen und die Erfahrung von euch allen viel besser verteilt werden kann.
+
+65
+00:05:41,000 --> 00:05:45,000
+ Und es gibt viele Dinge, da spricht sich leichter darüber, als man schreibt.
+
+66
+00:05:45,000 --> 00:05:50,000
+ Und das Schöne am Podcasting ist, es ist viel, viel weniger aufwendig als Videolive Streaming zum Beispiel.
+
+67
+00:05:50,000 --> 00:05:56,000
+ Also ihr seht schon anhand der Software und so, die da zum Einsatz kommt, das ist jetzt nicht so ganz einfach.
+
+68
+00:05:56,000 --> 00:06:01,000
+ Also ein bisschen muss man es schon lernen, aber im Vergleich jetzt zu dem, was das Wok hinten aufgebaut hat
+
+69
+00:06:01,000 --> 00:06:07,000
+ für den Livestream, viele Kameras und Mischbrüll, und es sitzen drei Personen da dran, die das bedienen,
+
+70
+00:06:07,000 --> 00:06:09,000
+ ist es doch viel, viel weniger aufwendig.
+
+71
+00:06:09,000 --> 00:06:16,000
+ Und nachdem auch alle drei von uns Podcasten, hat man uns gedacht, wir machen auch so eine kleine kurze Vorstellungsrunde von uns,
+
+72
+00:06:16,000 --> 00:06:19,000
+ erzähl mal ein bisschen, was wir für Podcasts machen, wie wir dazu gekommen sind,
+
+73
+00:06:19,000 --> 00:06:23,000
+ wie die Podcasts heißen, wo die veröffentlicht werden.
+
+74
+00:06:23,000 --> 00:06:26,000
+ Und da können wir jetzt mal den Gero vielleicht als erstes reinnehmen.
+
+75
+00:06:26,000 --> 00:06:30,000
+ Gero, erzähl mal, was ist so dein Bezug zum Podcasting?
+
+76
+00:06:30,000 --> 00:06:36,000
+ Also zunächst, ich wäre eigentlich gerne vor Ort, aber leider ist mir etwas dazwischen gekommen.
+
+77
+00:06:36,000 --> 00:06:40,000
+ Bist du ein bisschen leise? Kannst du ein bisschen lauter oder näher ans Mikro?
+
+78
+00:06:40,000 --> 00:06:44,000
+ Ja, ich habe mir etwas am Ohr zugezogen, deswegen bin ich nicht vor Ort.
+
+79
+00:06:44,000 --> 00:06:52,000
+ Ich bin eigentlich übers Podcasten gekommen, wie viele andere auch, über den Tim Briclav und Not Safe For Work,
+
+80
+00:06:52,000 --> 00:06:56,000
+ den Holger Klein, und so reingerutscht.
+
+81
+00:06:56,000 --> 00:07:00,000
+ Du bist ein bisschen lauter vielleicht noch, Gero? Ich kriege das Signal.
+
+82
+00:07:00,000 --> 00:07:13,000
+ So, jetzt bin ich eine ganze Ecke lauter. Passt das für euch hinten? Ja, okay, ich kriege knicken.
+
+83
+00:07:13,000 --> 00:07:24,000
+ Und bin da so reingerutscht und habe eigentlich dann ein bisschen mehr mit der Technik gespielt,
+
+84
+00:07:24,000 --> 00:07:36,000
+ auch ein bisschen selber gepodcastet, aber nicht so viel. Hauptsächlich schreibe ich im Forum für Podcaster Antworten
+
+85
+00:07:36,000 --> 00:07:46,000
+ für Leute, die Fragen haben, wo ich der Meinung bin, dass ich eine Antwort habe, dass es im Sende geht.
+
+86
+00:07:46,000 --> 00:07:52,000
+ Das zeigen wir später noch. Evo, wie ist es bei dir?
+
+87
+00:07:52,000 --> 00:08:00,000
+ Ja, auch bei mir. Die Freak Show war der Einstieg in die Podcasterei, die haben wir dann in ein paar Jahren angehört,
+
+88
+00:08:00,000 --> 00:08:04,000
+ bis ich mir dann überlegt habe, spannend, vielleicht kann man so was selbst machen.
+
+89
+00:08:04,000 --> 00:08:11,000
+ Dann daraus bin ich eben über die Thema Ultraschall Reaper gekommen, habe mich da ein bisschen auseinandergesetzt,
+
+90
+00:08:11,000 --> 00:08:18,000
+ habe dann ein bisschen so technische Podcasts versucht. Und wie die Lockdown-Phase war, habe ich einen Freund,
+
+91
+00:08:18,000 --> 00:08:26,000
+ der Kleinkabarri gemacht hat und wir haben angefangen einen Podcast übers Wienerische Eigenarten der Wiener.
+
+92
+00:08:26,000 --> 00:08:34,000
+ Wein kommt sehr oft vor und nennt sich Gemischter Satz, weil das ist eine spezielle Weinsorte aus Wien.
+
+93
+00:08:34,000 --> 00:08:38,000
+ Und wir versuchen die Wiener Kultur da ein bisschen auch dem Dialekt zu frönen.
+
+94
+00:08:38,000 --> 00:08:42,000
+ Man könnte sagen, das hört man. Das hört man. Das sind wir schon bei den 97. Sendern.
+
+95
+00:08:42,000 --> 00:08:45,000
+ Sehr schön, das hört man auch. Sehr gut, genau. Gero, du...
+
+96
+00:08:45,000 --> 00:08:49,000
+ Das ist noch nicht Wienerisch, was ich spreche. Na, dann mach mal, sprich mal Wienerisch, dass wir es mal gehört haben.
+
+97
+00:08:49,000 --> 00:08:53,000
+ So richtig Wienerisch, dass ihr das nicht versteht. Ja, probier.
+
+98
+00:08:53,000 --> 00:08:58,000
+ Das war schon der Anfang. Wir haben es verstanden.
+
+99
+00:08:58,000 --> 00:09:03,000
+ Ach, da muss ich mich noch mehr anstrengen.
+
+100
+00:09:03,000 --> 00:09:09,000
+ Sehr schön, genau. Gero, vielleicht bei dir noch interessant, die Software, also ganz viel Software,
+
+101
+00:09:09,000 --> 00:09:13,000
+ die man im Podcasting einsetzt, ist Open Source und kostenfrei oder sehr kostengünstig.
+
+102
+00:09:13,000 --> 00:09:17,000
+ Das hatte ich vorhin gar nicht dazu gesagt. Also das Studio Link, wenn ihr das probieren wollt.
+
+103
+00:09:17,000 --> 00:09:22,000
+ Das Plugin kann man sich kostenlos runterladen, damit quasi Verbindungen zwischen Rechnern herstellen.
+
+104
+00:09:22,000 --> 00:09:27,000
+ Das Reaper, also die Digital Audio Workstation, gibt es eine kostenlose Testversion.
+
+105
+00:09:27,000 --> 00:09:33,000
+ Und es gibt aus der Podcasting Community ein Plugin, Ultraschall heißt das, was man sich zusätzlich installieren kann.
+
+106
+00:09:33,000 --> 00:09:37,000
+ Das ist auch kostenlos, was quasi Reaper fit macht für den Podcast-Einsatz.
+
+107
+00:09:37,000 --> 00:09:42,000
+ Also wer das mal ausprobieren will, um zu testen, müsst ihr sozusagen überhaupt kein Geld in die Hand nehmen.
+
+108
+00:09:42,000 --> 00:09:45,000
+ Auch das können wir euch gerne zeigen.
+
+109
+00:09:45,000 --> 00:09:50,000
+ Ja, dann würde ich sagen, schalten wir mal unsere zwei heißen Stühle frei.
+
+110
+00:09:50,000 --> 00:09:54,000
+ Ich habe vorher schon mal durch die Reihen geschaut und habe zwei junge nette Damen gesehen,
+
+111
+00:09:54,000 --> 00:09:58,000
+ die gerne als erstes Mal nach oben kommen wollen, die Marlene und die Kiera.
+
+112
+00:09:58,000 --> 00:10:02,000
+ Vielleicht noch als Hinweis, wir sind ja hier im Videolivestream.
+
+113
+00:10:02,000 --> 00:10:09,000
+ Die Videos landen auf der einen Seite live im Internet, auf der anderen Seite werden die später auch auf Media.ch/cde veröffentlicht.
+
+114
+00:10:09,000 --> 00:10:14,000
+ Ich habe gehört, alle, die hier im Jugend Village sind, haben so eine Videogenehmigung unterschrieben.
+
+115
+00:10:14,000 --> 00:10:19,000
+ Das heißt, solltet ihr euch bewusst sein, wenn ihr hier auf die Bühne kommt, dann landet ihr im Internet.
+
+116
+00:10:19,000 --> 00:10:23,000
+ Wenn ihr das nicht wollt, dann kommt auch nicht auf die Bühne.
+
+117
+00:10:23,000 --> 00:10:30,000
+ Aber wer möchte, kann dann nachher gerne, wenn wir ein paar Minuten sprechen, die beiden netten Damen hier ablösen.
+
+118
+00:10:30,000 --> 00:10:36,000
+ Setzt euch mal die Headsets auf, damit wir euch hören können und auch der Gero und der Evo euch hören.
+
+119
+00:10:36,000 --> 00:10:41,000
+ Genau, Mikrofon immer wichtig, nah am Mund, vier Finger weg.
+
+120
+00:10:41,000 --> 00:10:45,000
+ Ja, sehr schön. Perfekt, sehr schön.
+
+121
+00:10:45,000 --> 00:10:47,000
+ Also, wer seid ihr denn? Erzählt mal kurz.
+
+122
+00:10:47,000 --> 00:10:52,000
+ Also, ich bin Kiera und wir kennen uns auch vom Camp und vom Kongress.
+
+123
+00:10:52,000 --> 00:10:56,000
+ Ich bin Marlene, 13 Jahre alt.
+
+124
+00:10:56,000 --> 00:11:00,000
+ Und wo seid ihr hier am Camp zu Hause? Wo ist eure Homebase?
+
+125
+00:11:00,000 --> 00:11:04,000
+ Also, ich wohne da hinten bei der Marina, also auf dem Campingplatz da.
+
+126
+00:11:04,000 --> 00:11:08,000
+ Und wir haben halt den Wohnwagen und wir zelten nicht, also mit Wohnwagen.
+
+127
+00:11:08,000 --> 00:11:12,000
+ Und du Marlene, bei dir? Also, mein Zelt steht beim Sendezentrum.
+
+128
+00:11:12,000 --> 00:11:15,000
+ Sehr gut, da bist du ja mitten bei den Podcastern.
+
+129
+00:11:15,000 --> 00:11:20,000
+ Ja, dann erzählt mal, Podcasting ist ja, man hört ja immer ganzen Jugendlichen, die schauen für TikTok und für YouTube.
+
+130
+00:11:20,000 --> 00:11:26,000
+ Hört ihr denn auch Podcasts? Also, ich schon.
+
+131
+00:11:26,000 --> 00:11:29,000
+ Der Podcast heißt "Die Nervigen". Okay.
+
+132
+00:11:29,000 --> 00:11:35,000
+ Und es ist eher so eine Art Talk über die letzte Woche, was da so passiert ist.
+
+133
+00:11:35,000 --> 00:11:39,000
+ Und die haben auch verschiedene Kategorien, wo sie dann drauf eingehen.
+
+134
+00:11:39,000 --> 00:11:42,000
+ Und eher Nachrichten oder Unterhaltungen oder Filme?
+
+135
+00:11:42,000 --> 00:11:44,000
+ Unterhaltungen, ja.
+
+136
+00:11:44,000 --> 00:11:46,000
+ Okay, wie bist du darauf gekommen? Wie hast du den gefunden?
+
+137
+00:11:46,000 --> 00:11:49,000
+ Ja, durch Zufall, durch Amazon Music.
+
+138
+00:11:49,000 --> 00:11:51,000
+ Und du hörst auf Amazon Music? Genau.
+
+139
+00:11:51,000 --> 00:11:53,000
+ Okay. Und bei dir, Kiera?
+
+140
+00:11:53,000 --> 00:11:56,000
+ Also, ich bin nicht so der Podcast-Hörer, also eigentlich gar nicht.
+
+141
+00:11:56,000 --> 00:11:57,000
+ Eigentlich gar nicht?
+
+142
+00:11:57,000 --> 00:12:02,000
+ Nee, also ein paar aus meiner Familie hören gerne Podcasts, aber ich nicht so.
+
+143
+00:12:02,000 --> 00:12:04,000
+ Ein paar aus deiner Familie machen auch Podcasts?
+
+144
+00:12:04,000 --> 00:12:05,000
+ Ja, also mein Papa.
+
+145
+00:12:05,000 --> 00:12:08,000
+ Genau, der macht viele, die Freak Show, die vorhin genannt ist zum Beispiel.
+
+146
+00:12:08,000 --> 00:12:12,000
+ Genau, du machst aber auch selber keinen Podcast und hörst auf keinen?
+
+147
+00:12:12,000 --> 00:12:14,000
+ Nee, also ich höre wenn dann Musik oder sowas.
+
+148
+00:12:14,000 --> 00:12:18,000
+ Ja, und eher Video? TikTok oder YouTube oder sowas schon?
+
+149
+00:12:18,000 --> 00:12:21,000
+ Ja, YouTube zum Beispiel. YouTube zum Beispiel. Okay.
+
+150
+00:12:21,000 --> 00:12:26,000
+ Gero Ebo, habt ihr Fragen an die beiden?
+
+151
+00:12:26,000 --> 00:12:32,000
+ Wie war die Stimmung am Camp? Wir kriegen ja da aus der Ferne leider zu wenig mit.
+
+152
+00:12:32,000 --> 00:12:34,000
+ Ja, also ich finde das Camp echt super.
+
+153
+00:12:34,000 --> 00:12:38,000
+ Also vor allem am Tag hat man halt viele Menschen, die man treffen kann und so.
+
+154
+00:12:38,000 --> 00:12:40,000
+ Es gibt viele Workshops und so.
+
+155
+00:12:40,000 --> 00:12:42,000
+ Und dann in der Nacht ist es nochmal ganz anders.
+
+156
+00:12:42,000 --> 00:12:46,000
+ Also da kann man halt echt viel erleben, weil es ist echt eine Lichtshow und so.
+
+157
+00:12:46,000 --> 00:12:49,000
+ Da gibt es immer an jeder Ecke irgendwas zu sehen, das ist echt cool.
+
+158
+00:12:49,000 --> 00:12:50,000
+ Das ist ja ein bisschen schade für euch, Gero Ebo.
+
+159
+00:12:50,000 --> 00:12:52,000
+ Es ist leider Fotografierverbot.
+
+160
+00:12:52,000 --> 00:12:56,000
+ Das heißt, wenn ihr auf Mastodon auf dem Hashtag #CCCCCamp23 schaut,
+
+161
+00:12:56,000 --> 00:12:59,000
+ gibt es zwar schon Bilder, aber immer ohne die Menschen.
+
+162
+00:12:59,000 --> 00:13:01,000
+ Und die machen natürlich die Stimmung aus hier.
+
+163
+00:13:01,000 --> 00:13:05,000
+ Die müsst ihr dann vier Jahre warten, dann könnt ihr vor Ort kommen.
+
+164
+00:13:05,000 --> 00:13:09,000
+ Was habt ihr denn bisher so erlebt? Also was habt ihr gemacht?
+
+165
+00:13:09,000 --> 00:13:11,000
+ Heute sind wir ja schon an Tag drei.
+
+166
+00:13:11,000 --> 00:13:16,000
+ Vielleicht auch für die, die jetzt noch zwei Tage Zeit haben, sich nochmal was anzugucken.
+
+167
+00:13:16,000 --> 00:13:18,000
+ Was würde ich sagen, darf man auf keinen Fall verpassen?
+
+168
+00:13:18,000 --> 00:13:20,000
+ Also was ist so richtig cool gewesen?
+
+169
+00:13:20,000 --> 00:13:27,000
+ Also auf keinen Fall verpassen sollte man den Ausblick von dem Turm in der Nacht besonders.
+
+170
+00:13:27,000 --> 00:13:30,000
+ Da sind sehr viele Lichter und das ist einfach richtig cool.
+
+171
+00:13:30,000 --> 00:13:34,000
+ Und der Krebsstand ist auch sehr gut.
+
+172
+00:13:34,000 --> 00:13:36,000
+ Ja, der Krebsstand, da darf man natürlich nicht dran vorbeigehen.
+
+173
+00:13:36,000 --> 00:13:38,000
+ Das stimmt. Welche Geschmackssorte hat er am besten?
+
+174
+00:13:38,000 --> 00:13:42,000
+ Dreckspatz, also mit Schokolade finde ich am besten.
+
+175
+00:13:42,000 --> 00:13:43,000
+ Dreckspatz, okay.
+
+176
+00:13:43,000 --> 00:13:45,000
+ Nein, ich finde Nutella und Bananen am besten.
+
+177
+00:13:45,000 --> 00:13:46,000
+ Das ist das, was ich vorhin hatte.
+
+178
+00:13:46,000 --> 00:13:47,000
+ Ja, das stimmt.
+
+179
+00:13:47,000 --> 00:13:50,000
+ Und das ist der Koko's Friend, heißt der glaube ich?
+
+180
+00:13:50,000 --> 00:13:51,000
+ Ja, Koko's Liebling.
+
+181
+00:13:51,000 --> 00:13:56,000
+ Und sonst habt ihr irgendwie Workshops gemacht oder Vorträge angehört?
+
+182
+00:13:56,000 --> 00:14:02,000
+ Ja, also wir machen jetzt die ganze Woche lang, also vier Stunden oder fünf, so einen Hekelworkshop.
+
+183
+00:14:02,000 --> 00:14:06,000
+ Da häkelt man so ein Gamepad, da lötet man auch und codet am Ende noch.
+
+184
+00:14:06,000 --> 00:14:08,000
+ Okay, dann kann man damit Spiele spielen?
+
+185
+00:14:08,000 --> 00:14:12,000
+ Ja, ich denke schon. Kann man auch programmieren, dass man da irgendwelche machen kann.
+
+186
+00:14:12,000 --> 00:14:16,000
+ Cool. Ebu, du wolltest was fragen?
+
+187
+00:14:16,000 --> 00:14:18,000
+ Ja, ich habe gesagt, wow, super.
+
+188
+00:14:18,000 --> 00:14:22,000
+ Ja, also für euch, die nicht hier seid, ist dieses, ich finde dieses Flanieren,
+
+189
+00:14:22,000 --> 00:14:25,000
+ also gerade abends, wenn es dann dunkel wird und alles beleuchtet ist,
+
+190
+00:14:25,000 --> 00:14:30,000
+ und sozusagen einfach übers Camp mal laufen, Eindrücke einsammeln, irgendwo hängen bleiben.
+
+191
+00:14:30,000 --> 00:14:36,000
+ Gestern hat irgendjemand mit so Blitzen Musik gemacht irgendwo, da bleibt man dann hängen und stehen.
+
+192
+00:14:36,000 --> 00:14:41,000
+ Das ist schon faszinierend. Also das kann man natürlich im Podcast nur schwierig rüberbringen.
+
+193
+00:14:41,000 --> 00:14:43,000
+ Klingt aber schon nach Urlaub.
+
+194
+00:14:43,000 --> 00:14:46,000
+ Das ist mehr Urlaub, würde ich sagen, als der Kongress.
+
+195
+00:14:46,000 --> 00:14:50,000
+ Ich finde, der Kongress ist immer etwas mehr Content getrieben, da ist man dann doch öfter auch in Vorträgen.
+
+196
+00:14:50,000 --> 00:14:53,000
+ Aber hier ist es wie Urlaub nicht zuletzt die Temperatur.
+
+197
+00:14:53,000 --> 00:14:57,000
+ Also gerade die ersten zwei Tage waren so Mitte 30 Grad.
+
+198
+00:14:57,000 --> 00:15:00,000
+ Da ist man eigentlich erst ab 17 Uhr so zum Leben wieder.
+
+199
+00:15:00,000 --> 00:15:04,000
+ Ja, also wir waren die ganze Woche eigentlich sapp fahrend, also Stand-Up-Headling gut fahrend.
+
+200
+00:15:04,000 --> 00:15:06,000
+ Weil es so warm war auch. Das war auch echt cool.
+
+201
+00:15:06,000 --> 00:15:09,000
+ Ja, sehr schön. Okay, dann würde ich sagen, vielen Dank euch.
+
+202
+00:15:09,000 --> 00:15:12,000
+ Gibt es denn noch jemand, der gerne zu uns auf die Bühne kommen will
+
+203
+00:15:12,000 --> 00:15:15,000
+ und von seinen Erfahrungen ein bisschen berichten will?
+
+204
+00:15:15,000 --> 00:15:23,000
+ Schauen wir mal in die Runde. Jetzt schauen alle nach unten, so ganz verschmitzt.
+
+205
+00:15:23,000 --> 00:15:29,000
+ Gerne auch von den Älteren oder den Größeren, wenn ihr wollt.
+
+206
+00:15:29,000 --> 00:15:32,000
+ Sonst haben wir einen sehr kurzen Live-Podcast, wenn keiner mit uns was teilen will.
+
+207
+00:15:32,000 --> 00:15:34,000
+ Wir können auch den...
+
+208
+00:15:38,000 --> 00:15:42,000
+ Jetzt haben wir in der Pandemie gelernt, bei online muss man ein bisschen länger warten, bis was passiert.
+
+209
+00:15:42,000 --> 00:15:43,000
+ Ihr könnt ja schon mal den Platz räumen.
+
+210
+00:15:43,000 --> 00:15:48,000
+ Vielleicht wenn er frei ist, dann ist der Druck auch ein bisschen größer, dass jemand kommen mag.
+
+211
+00:15:48,000 --> 00:15:50,000
+ Grüß euch, danke.
+
+212
+00:15:50,000 --> 00:15:53,000
+ Ciao, vielen Dank, dass ihr da wart.
+
+213
+00:16:03,000 --> 00:16:08,000
+ So, ihr seht es natürlich nicht. Bisher hat sich noch keiner auf die Beine gemacht.
+
+214
+00:16:08,000 --> 00:16:14,000
+ Da kommt der Andi vom Wok. Der Andi ist ja noch super jugendlich.
+
+215
+00:16:14,000 --> 00:16:19,000
+ Der geht eigentlich noch mit durch fürs Jugend Village. Servus Andi, grüß dich.
+
+216
+00:16:19,000 --> 00:16:21,000
+ Hallo, hallo. Hi.
+
+217
+00:16:21,000 --> 00:16:24,000
+ Das ist ja schon eine Jugendveranstaltung, oder wie ist es von mal gedacht?
+
+218
+00:16:24,000 --> 00:16:28,000
+ Das ist eine Jugendveranstaltung, genau. War die Idee oder die Anfrage an uns,
+
+219
+00:16:28,000 --> 00:16:31,000
+ eben mal so ein bisschen das Podcasting präsent zu machen.
+
+220
+00:16:31,000 --> 00:16:35,000
+ Mal zu zeigen, wie das funktioniert, natürlich auch einzuladen, wer Lust hat, das kennenzulernen.
+
+221
+00:16:35,000 --> 00:16:39,000
+ Und du bist ja, glaube ich, so eine Art Grenzgänger, wenn ich das mal so nennen darf,
+
+222
+00:16:39,000 --> 00:16:42,000
+ weil du, glaube ich, ja schon sehr im Videobereich unterwegs bist, aber im Audio...
+
+223
+00:16:42,000 --> 00:16:43,000
+ Nee, überhaupt nicht.
+
+224
+00:16:43,000 --> 00:16:44,000
+ Nee, gar nicht.
+
+225
+00:16:44,000 --> 00:16:47,000
+ Also das ist eigentlich mehr so bei so einem Unfall.
+
+226
+00:16:47,000 --> 00:16:48,000
+ Okay.
+
+227
+00:16:48,000 --> 00:16:50,000
+ Ja, also eigentlich ist Audio auch mein Ding an der Stelle.
+
+228
+00:16:50,000 --> 00:16:54,000
+ Okay, also das heißt, du bist zwar im Wok, aber bist da mehr auf der Audio-Seite unterwegs.
+
+229
+00:16:54,000 --> 00:16:57,000
+ Ich habe zu viele Hüter aus.
+
+230
+00:16:57,000 --> 00:16:59,000
+ Du hast zu viele Hüter. Sehr cool.
+
+231
+00:16:59,000 --> 00:17:03,000
+ Das trifft sich eigentlich gut, weil die haben wir ja auch noch in dem Backlog für unseren Podcast.
+
+232
+00:17:03,000 --> 00:17:05,000
+ Ich wollte mich irgendwann auch mal einladen.
+
+233
+00:17:05,000 --> 00:17:06,000
+ Den habt ihr jetzt wieder gestaltet, oder?
+
+234
+00:17:06,000 --> 00:17:09,000
+ Genau. Wir haben auf dem... Was war es?
+
+235
+00:17:09,000 --> 00:17:11,000
+ Gero Evo, ich glaube RC3.
+
+236
+00:17:11,000 --> 00:17:15,000
+ Irgendwo haben wir uns in einem Podcast-Workshop getroffen und haben es ein bisschen bedauert,
+
+237
+00:17:15,000 --> 00:17:17,000
+ dass es die Sondersendung nicht mehr gibt.
+
+238
+00:17:17,000 --> 00:17:20,000
+ Und dann haben wir dann gesagt, naja, man kann irgendwie darüber klagen,
+
+239
+00:17:20,000 --> 00:17:22,000
+ aber dann muss es auch irgendwie einer machen.
+
+240
+00:17:22,000 --> 00:17:26,000
+ Wie lange musstet ihr battlen, bis ihr das überhaupt hinbekommen habt und das Zeug?
+
+241
+00:17:26,000 --> 00:17:29,000
+ Na ja, wir haben von Tim und Ralf eigentlich die Zugangsdaten.
+
+242
+00:17:29,000 --> 00:17:32,000
+ Die waren eigentlich recht offen und haben gesagt, klar, wir machen im Moment eh nichts.
+
+243
+00:17:32,000 --> 00:17:34,000
+ Könnt ihr gerne haben, könnt ihr machen.
+
+244
+00:17:34,000 --> 00:17:36,000
+ Wir haben uns vorgenommen, sechs Sendungen im Jahr zu machen.
+
+245
+00:17:36,000 --> 00:17:40,000
+ Vier haben wir geschafft. Also das ist, glaube ich, für Podcasts ein ganz guter Schnitt.
+
+246
+00:17:40,000 --> 00:17:46,000
+ Ja, und haben halt gesagt, wir wollen so ein bisschen die Indie-Podcast-Szene hochhalten.
+
+247
+00:17:46,000 --> 00:17:47,000
+ Ich weiß nicht, ob...
+
+248
+00:17:47,000 --> 00:17:49,000
+ Wir haben damals freie deutsche Podcast-Szene dazu gesagt.
+
+249
+00:17:49,000 --> 00:17:51,000
+ Die freie deutsche Podcast-Szene, genau.
+
+250
+00:17:51,000 --> 00:17:53,000
+ Also da haben wir auch lang...
+
+251
+00:17:53,000 --> 00:17:55,000
+ Können wir das auf Deutschsprache gehen?
+
+252
+00:17:55,000 --> 00:17:56,000
+ Die freie deutsche...
+
+253
+00:17:56,000 --> 00:17:58,000
+ Das denen natürlich in Österreich nicht ausgeschlossen fühlen.
+
+254
+00:17:58,000 --> 00:18:02,000
+ Natürlich, sorry, das meinte ich. Aber habe ich das nicht gesagt.
+
+255
+00:18:02,000 --> 00:18:05,000
+ Also genau, der Deutsch kommt eigentlich nicht vor. Deutschsprachig, genau.
+
+256
+00:18:05,000 --> 00:18:06,000
+ Ja.
+
+257
+00:18:06,000 --> 00:18:09,000
+ Und wir haben halt, als wir darüber gesprochen haben, so ein bisschen bedauert,
+
+258
+00:18:09,000 --> 00:18:15,000
+ dass vom Gefühl, viele Leute, mit denen man spricht, eigentlich Spotify als Podcast sehen.
+
+259
+00:18:15,000 --> 00:18:18,000
+ Also ich hatte neulich einen Kollegen tatsächlich, dem ich auch so sagte,
+
+260
+00:18:18,000 --> 00:18:21,000
+ hey Podcast hörst du so? Und da stellte ich dann auch raus,
+
+261
+00:18:21,000 --> 00:18:25,000
+ ne, mein Spotcast, äh, Spotcast, genau, du sagst auch schon Spotcast.
+
+262
+00:18:25,000 --> 00:18:28,000
+ Wir nennen uns einfach mal Spotcast, weil das sind ja bei Podcast-Offgaard keine,
+
+263
+00:18:28,000 --> 00:18:30,000
+ bei Spotify-Offgaard keine Podcasts.
+
+264
+00:18:30,000 --> 00:18:32,000
+ Ja, wenn es kein Feed geht, ist es für mich kein Podcast.
+
+265
+00:18:32,000 --> 00:18:34,000
+ Ich bin ja so ein Extremist aus dieser Ecke.
+
+266
+00:18:34,000 --> 00:18:38,000
+ Und das sind halt Shows, ja, an der Stelle.
+
+267
+00:18:38,000 --> 00:18:43,000
+ Aber der wusste gar nicht, dass es auch noch andere Podcasts außerhalb von Spotify gibt.
+
+268
+00:18:43,000 --> 00:18:47,000
+ Und dann habe ich ihm halt so mal ein Fit gezeigt, und was es da trotzdem gibt,
+
+269
+00:18:47,000 --> 00:18:51,000
+ ich hab da das mit einem Schrei verzeichnet oder so. Und jetzt ist er total diesen,
+
+270
+00:18:51,000 --> 00:18:55,000
+ ach, jetzt fällt mir natürlich wieder der Name nicht ein, aber diesen,
+
+271
+00:18:55,000 --> 00:19:00,000
+ das sind so Hacking-Stories oder sowas, so ein US-Podcaster.
+
+272
+00:19:00,000 --> 00:19:06,000
+ Wobei der ist ein bisschen speziell, weil die sind immer so, ja, Amerikaner sind immer sehr...
+
+273
+00:19:06,000 --> 00:19:09,000
+ Sehr eigenartige Tonalität, finde ich.
+
+274
+00:19:09,000 --> 00:19:15,000
+ Ja, also ich hatte den auch lange oft gehört, aber der wäre einfach zu sehr,
+
+275
+00:19:15,000 --> 00:19:18,000
+ der Staat ist gut, das Militär ist gut und so.
+
+276
+00:19:18,000 --> 00:19:20,000
+ Ja, okay, schwierig, oder?
+
+277
+00:19:20,000 --> 00:19:24,000
+ Also da mag ich unsere nicht-molitäre Szene dann eigentlich viel lieber,
+
+278
+00:19:24,000 --> 00:19:28,000
+ wo man das halt auch aus Spaß und Freude macht und nicht, um reich damit zu werden.
+
+279
+00:19:28,000 --> 00:19:32,000
+ Ja, also vielleicht für die... Marlene hat ja vorhin auch gesagt,
+
+280
+00:19:32,000 --> 00:19:36,000
+ sie hört über Amazon-Podcasts, es gibt so ein bisschen die Definition,
+
+281
+00:19:36,000 --> 00:19:39,000
+ dass ein Podcast, wie du sagst, ein Feed haben muss, also so ein RSS-Feed,
+
+282
+00:19:39,000 --> 00:19:42,000
+ über den man abonniert, mit so einem Podcatcher.
+
+283
+00:19:42,000 --> 00:19:46,000
+ Und in den letzten Jahren natürlich ganz viel so Audioplattformen groß geworden sind,
+
+284
+00:19:46,000 --> 00:19:51,000
+ sei es Spotify, sei es Amazon Music, wo es aber eigentlich diesen Feed gar nicht mehr gibt.
+
+285
+00:19:51,000 --> 00:19:52,000
+ Also nur, solange ich da...
+
+286
+00:19:52,000 --> 00:19:54,000
+ Nicht zwingend, ja, also beziehungsweise,
+
+287
+00:19:54,000 --> 00:19:59,000
+ Tobi vom Einschlaf am Podcast zählt ja auch immer, wie die Leute denken,
+
+288
+00:19:59,000 --> 00:20:02,000
+ dass er Geld von Spotify bekommt, wenn sie es da hören.
+
+289
+00:20:02,000 --> 00:20:05,000
+ Deswegen hat er, glaube ich, sogar jetzt einen extra Feed für Spotify gemacht,
+
+290
+00:20:05,000 --> 00:20:10,000
+ wo dann erst mal die ersten drei Minuten erklären, was, das ist nicht so...
+
+291
+00:20:10,000 --> 00:20:12,000
+ Den gibt es nur da.
+
+292
+00:20:12,000 --> 00:20:17,000
+ Aber generell gibt es natürlich viele Podcasts auch woanders, auch frei,
+
+293
+00:20:17,000 --> 00:20:19,000
+ du musst halt den Feed irgendwie finden.
+
+294
+00:20:19,000 --> 00:20:23,000
+ Und ich finde es schade, dass da immer weniger sichtbar wird, wo denn der Feed eigentlich ist.
+
+295
+00:20:23,000 --> 00:20:27,000
+ Das ist irgendwie so eine Kinderkrankheit, aber ja.
+
+296
+00:20:27,000 --> 00:20:29,000
+ Gero.
+
+297
+00:20:29,000 --> 00:20:35,000
+ Ja, mich würde mal interessieren, ob ihr da so einen Paradigmenwechsel seht in den Leuten,
+
+298
+00:20:35,000 --> 00:20:42,000
+ die über die normalen Podcasts gekommen sind und die jetzt über die neuen oder anderen Medien
+
+299
+00:20:42,000 --> 00:20:45,000
+ dazu gekommen sind, sehen die das anders?
+
+300
+00:20:45,000 --> 00:20:50,000
+ Also ich denke, es gibt halt viele, die jetzt wieder so...
+
+301
+00:20:50,000 --> 00:20:53,000
+ die vorher irgendwo in einer anderen Ecke waren, in der Medienproduktion,
+
+302
+00:20:53,000 --> 00:20:56,000
+ und jetzt Podcasts für sich entdeckt haben.
+
+303
+00:20:56,000 --> 00:21:00,000
+ Und die halt unsere Zähne, also das ganze Centergeld Community und was es darum gibt, gar nicht kennen.
+
+304
+00:21:00,000 --> 00:21:09,000
+ Also auch, kurz vor der Polygram in Berlin war noch so ein kleines Event aus der Wissenschaftspodcast-Bubble
+
+305
+00:21:09,000 --> 00:21:13,000
+ oder sowas. Und da gab es halt auch Leute, die da voll in der Community sind,
+
+306
+00:21:13,000 --> 00:21:17,000
+ die aber noch nie im Centergate waren und das gar nicht...
+
+307
+00:21:17,000 --> 00:21:22,000
+ Und dann hat Ralf tatsächlich mal in die Statistik geschaut und festgestellt, da ist irgendwie so ein Knick.
+
+308
+00:21:22,000 --> 00:21:27,000
+ Also irgendwie, irgendwas ist da im Sego... Ach jetzt habe ich das blöde Wort wieder gesagt, aber...
+
+309
+00:21:27,000 --> 00:21:28,000
+ Der Suchmaschinenoptimierung.
+
+310
+00:21:28,000 --> 00:21:33,000
+ Ja, also irgendwas ist da passiert und da müssen wir halt einfach schauen,
+
+311
+00:21:33,000 --> 00:21:36,000
+ dass man da als Freie Szene wieder sichtbar wird aus meiner Sicht.
+
+312
+00:21:36,000 --> 00:21:42,000
+ Ja, ich finde auch die sozusagen jetzt mit der All-Ears-Podify macht da so eine Konferenz,
+
+313
+00:21:42,000 --> 00:21:49,000
+ wo jetzt auf einmal diese ganzen Podcast-Labels sind, wo die auch von sich als der Podcast-Szene in Deutschland sprechen.
+
+314
+00:21:49,000 --> 00:21:52,000
+ Und das ist so ein kompletter, zwei getrennte Welten.
+
+315
+00:21:52,000 --> 00:21:57,000
+ Da muss es ja nicht sein, ja. Also ich bin ja auch jemand, der in München da,
+
+316
+00:21:57,000 --> 00:22:00,000
+ ein lokales Podcast-Miet-Up organisiert.
+
+317
+00:22:00,000 --> 00:22:05,000
+ Und da muss man auch mal diese kommerzielle und nicht kommerzielle Dinge in die Ecke zusammenbringen,
+
+318
+00:22:05,000 --> 00:22:07,000
+ weil man kann sich halt doch auch oft helfen.
+
+319
+00:22:07,000 --> 00:22:10,000
+ Und aus meiner Sicht müssen wir da halt als Centergate insgesamt auch mal schauen,
+
+320
+00:22:10,000 --> 00:22:13,000
+ dass man die einsammeln und dann halt auch mal eine neutrale Darstellung an,
+
+321
+00:22:13,000 --> 00:22:16,000
+ was gibt es so für Services, was gibt es so für Software und so weiter.
+
+322
+00:22:16,000 --> 00:22:17,000
+ Ja.
+
+323
+00:22:17,000 --> 00:22:20,000
+ Das mal sehen und vieles von dem, was wir im Centergate haben, ist da leider halt so ein bisschen...
+
+324
+00:22:20,000 --> 00:22:24,000
+ Es ändert sich gerade wieder so ein bisschen, aber wie viele Leute zum Beispiel
+
+325
+00:22:24,000 --> 00:22:27,000
+ die neuen Podlauf-Docs noch gar nicht entdeckt haben oder so was,
+
+326
+00:22:27,000 --> 00:22:29,000
+ ist es doch ein bisschen überraschend.
+
+327
+00:22:29,000 --> 00:22:34,000
+ Überraschend, ja. Also für euch hier vor Ort, was Evo jetzt gerade einblendet, ist das Centergate.
+
+328
+00:22:34,000 --> 00:22:38,000
+ Centergate ist in Deutschland die größte Podcasting-Community, würde ich sagen,
+
+329
+00:22:38,000 --> 00:22:41,000
+ mit irgendwas gute 4000 Mitgliedern sind da, glaube ich, angemeldet.
+
+330
+00:22:41,000 --> 00:22:43,000
+ Aktiv natürlich nicht ganz so viele.
+
+331
+00:22:43,000 --> 00:22:47,000
+ Die Frage ist halt mal, wie du zählst, aber es ist eigentlich so für die freie Szene auf jeden Fall das Forum,
+
+332
+00:22:47,000 --> 00:22:50,000
+ sozusagen, in dem man... wie man das Ding macht.
+
+333
+00:22:50,000 --> 00:22:51,000
+ Ja.
+
+334
+00:22:51,000 --> 00:22:56,000
+ Das heißt, wenn ihr später auch mal Fragen irgendwie habt, ein Podcast starten wollt,
+
+335
+00:22:56,000 --> 00:23:01,000
+ ihr seht so ein bisschen hier rechts am Aktivitätenstrom, da wird mal Equipment verkauft,
+
+336
+00:23:01,000 --> 00:23:05,000
+ da wird mal ein Podcastpartner oder Partnerin gesucht.
+
+337
+00:23:05,000 --> 00:23:12,000
+ Da ist auch so was wie jetzt oben das Dritte von oben, wenn wir so was organisieren wie das Sendezentrum hier auf dem Kongress.
+
+338
+00:23:12,000 --> 00:23:15,000
+ Auch das sind sozusagen Beiträge, die es dort gibt.
+
+339
+00:23:15,000 --> 00:23:23,000
+ Community selber ist kostenfrei und wer da irgendwie rein will und anderen helfen will oder eben selber Hilfe braucht,
+
+340
+00:23:23,000 --> 00:23:25,000
+ der ist da ganz herzlich eingeladen dazu.
+
+341
+00:23:25,000 --> 00:23:30,000
+ Genau. Und es gibt eben irgendwo auch so ein paar Wiki-Threads, wo man dann sieht, wo sich die Sende-Community vor Ort trifft.
+
+342
+00:23:30,000 --> 00:23:35,000
+ Also gefühlt in jeder größeren Stadt im entsprechenden Raum gibt es eigentlich irgendwie so ein Meetup.
+
+343
+00:23:35,000 --> 00:23:39,000
+ Manche treffen sich zweimal im Jahr, manche jeden Monat, manche...
+
+344
+00:23:39,550 --> 00:23:42,390
+ Wobei das ist mit Kurang ein bisschen eingeschlafen.
+
+345
+00:23:42,390 --> 00:23:45,190
+ Aber auch da können wir mal schauen und nachfragen.
+
+346
+00:23:45,190 --> 00:23:49,510
+ Wollte nicht mehr da ein Treffen machen, weil so das persönliche Treffen ist dann doch
+
+347
+00:23:49,510 --> 00:23:51,510
+ immer sehr, ja.
+
+348
+00:23:51,510 --> 00:23:55,870
+ Wir haben auch gestern erst im Sendezentrum hier drüber gesprochen, weil du sagst Wiki
+
+349
+00:23:55,870 --> 00:23:56,870
+ Thread.
+
+350
+00:23:56,870 --> 00:24:01,310
+ Also es gibt so ein paar totale Perlen, wo echt ganz viel Wissen drinsteckt, aber mittlerweile
+
+351
+00:24:01,310 --> 00:24:05,510
+ ist das Ding so voll und so belebt, dass es schon wieder schwierig ist, die zu finden.
+
+352
+00:24:05,510 --> 00:24:08,390
+ Ja, da müssen wir uns halt als Community auch nur überlegen, ob man nicht mal doch ein
+
+353
+00:24:08,390 --> 00:24:12,310
+ ich echtes Wiki da noch mit dran hängen oder so was, wo dann halt jeder einfach so
+
+354
+00:24:12,310 --> 00:24:13,310
+ bearbeiten kann.
+
+355
+00:24:13,310 --> 00:24:14,990
+ Ja, und aus einem kuratierten Einstieg oder so.
+
+356
+00:24:14,990 --> 00:24:15,990
+ Ja, genau.
+
+357
+00:24:15,990 --> 00:24:19,750
+ Also ganz zum Beispiel, welchen Podcasttester nimmt man denn, wenn man es jetzt nicht selber
+
+358
+00:24:19,750 --> 00:24:21,110
+ hosten möchte und so weiter.
+
+359
+00:24:21,110 --> 00:24:25,870
+ Da müssen wir mal wieder ein bisschen mehr, die Leute aktivieren das auch zu aktualisieren,
+
+360
+00:24:25,870 --> 00:24:29,430
+ weil da hat sich der Markt die letzten zehn Jahre oder fünf Jahre total geändert.
+
+361
+00:24:29,430 --> 00:24:32,670
+ Ich nehme es ganz kurz.
+
+362
+00:24:32,670 --> 00:24:35,270
+ Ja, ist das schwierig von draußen.
+
+363
+00:24:35,270 --> 00:24:42,150
+ Was mir besonders am Sende geht, gefällt, ist eigentlich die Umgangsform dort.
+
+364
+00:24:42,150 --> 00:24:49,510
+ Da braucht sich wirklich keiner, kann sich jeder extra zuschalten und das reinschreiben.
+
+365
+00:24:49,510 --> 00:24:51,710
+ Das ist ein sehr guter Umgangston dort.
+
+366
+00:24:51,710 --> 00:24:53,470
+ Also das ist viel Flausch.
+
+367
+00:24:53,470 --> 00:24:56,470
+ Also da braucht keiner Berührungsängste zu haben.
+
+368
+00:24:56,470 --> 00:24:58,830
+ Gibt es auch keine blöden Fragen.
+
+369
+00:24:58,830 --> 00:25:02,350
+ Also gibt auch die, auch die sind glaube ich ein bisschen eingeschlafen, die Podcastparty
+
+370
+00:25:02,350 --> 00:25:03,990
+ nennt das hat man früher mal.
+
+371
+00:25:03,990 --> 00:25:06,510
+ Also dieses Leute an der Hand nehmen.
+
+372
+00:25:06,510 --> 00:25:10,430
+ Der eine hat vielleicht eher die Frage, wie entwickle ich mein Format oder welche Technik
+
+373
+00:25:10,430 --> 00:25:11,430
+ brauche ich.
+
+374
+00:25:11,430 --> 00:25:15,390
+ Obwohl da ist glaube ich das Format der Partenschaft ja auch umgestellt worden, wenn ich das richtig
+
+375
+00:25:15,390 --> 00:25:16,390
+ im Kopf habe.
+
+376
+00:25:16,390 --> 00:25:19,950
+ Genau, also früher auf dem Kongress hatten wir immer wirklich im Senderzentrum vorne
+
+377
+00:25:19,950 --> 00:25:23,910
+ so ein Tisch, wo die Einhörner, die jetzt auch hinten stehen im Senderzentrum, standen,
+
+378
+00:25:23,910 --> 00:25:24,910
+ wo man hin konnte.
+
+379
+00:25:24,910 --> 00:25:29,550
+ Und jetzt ist das quasi ein Thread, wo Leute, die Party spielen wollen, sozusagen sich
+
+380
+00:25:29,550 --> 00:25:32,590
+ angeboten haben, auch geschrieben haben, zu was sie helfen können.
+
+381
+00:25:32,590 --> 00:25:35,350
+ Mein Gefühl ist, so richtig viel Leben ist da im Moment nicht drin.
+
+382
+00:25:35,350 --> 00:25:38,030
+ Also das müsste man vielleicht mal wieder beleben.
+
+383
+00:25:38,030 --> 00:25:45,110
+ Genau, was vielleicht noch spannend wäre, jetzt haben wir ja hier gesehen von den Jugendlichen
+
+384
+00:25:45,110 --> 00:25:48,230
+ Nachwuchspodcastern, so richtig viel gibt es scheinbar noch nicht.
+
+385
+00:25:48,230 --> 00:25:52,630
+ Du hast ein bisschen Einblick auch in die internationale Szene.
+
+386
+00:25:52,630 --> 00:25:54,230
+ Ist das anders woanders?
+
+387
+00:25:54,230 --> 00:25:59,350
+ Gibt es in den USA irgendwie eine lebendige Youngster-Podcaster-Szene oder fängt man da
+
+388
+00:25:59,350 --> 00:26:00,670
+ erst ab einem gewissen Alter damit an?
+
+389
+00:26:00,670 --> 00:26:04,310
+ Wir sind ja auch schon alte Weisse, im Endeffekt alle die hier sitzen.
+
+390
+00:26:04,310 --> 00:26:05,710
+ Ja, wie gesagt, alt ist immer relativ.
+
+391
+00:26:05,710 --> 00:26:07,270
+ Das ist immer, wenn du zwei Dinge vergleichst.
+
+392
+00:26:07,270 --> 00:26:10,830
+ Tatsächlich bin ich da jetzt auch überfragt.
+
+393
+00:26:10,830 --> 00:26:16,670
+ Den besten Einblick in die amerikanische Szene hat, glaube ich, The Crimson, also diesen
+
+394
+00:26:16,670 --> 00:26:23,390
+ Konferenzbericht von der, sucht einfach hier mal nach The Crimson und Podcasts.
+
+395
+00:26:23,390 --> 00:26:24,390
+ Podcast Movement.
+
+396
+00:26:24,390 --> 00:26:25,390
+ Genau, genau.
+
+397
+00:26:25,390 --> 00:26:30,270
+ Und da stellt er sich halt raus, das siehst du natürlich hier kaum nicht, das ist halt
+
+398
+00:26:30,270 --> 00:26:31,270
+ genauso wie bei uns.
+
+399
+00:26:31,270 --> 00:26:35,990
+ Also es gibt da auch genauso Podcasts über alles Mögliche und die siehst du halt dann
+
+400
+00:26:35,990 --> 00:26:40,430
+ nur dort, wo es lokal ist, weil das da halt irgendwie diese kleine Plase ist.
+
+401
+00:26:40,430 --> 00:26:46,350
+ Und der Journalist, der sich nicht auskennt, sagt immer die amerikanischen Podcasts und
+
+402
+00:26:46,350 --> 00:26:52,510
+ meint damit halt ein Serial-Productions-Ding oder diese ganzen Story-Podcasts oder was
+
+403
+00:26:52,510 --> 00:26:53,910
+ Gimlet und so weiter so macht.
+
+404
+00:26:53,910 --> 00:26:57,710
+ Aber da gibt es halt genauso tausende von kleinen Podcasts an der Stelle.
+
+405
+00:26:57,710 --> 00:27:03,270
+ Klar, die sind immer noch ein bisschen Geld getrieben und die erste Frage, die jeder immer
+
+406
+00:27:03,270 --> 00:27:06,470
+ bekommen hat, war auch immer "Do you make money with that?"
+
+407
+00:27:06,470 --> 00:27:07,470
+ und so weiter.
+
+408
+00:27:07,470 --> 00:27:11,630
+ Aber abgesehen davon ist das wohl genauso breit an der Stelle.
+
+409
+00:27:11,630 --> 00:27:15,630
+ Und klar, diese ganzen öffentlich-rechtlichen Radios gibt es ja in der Form da nicht.
+
+410
+00:27:15,630 --> 00:27:20,390
+ Das ist ja alles ganz anders aufgestellt aus der Historie daraus.
+
+411
+00:27:20,390 --> 00:27:25,870
+ Sondern die machen ja jetzt auch alle Podcasts.
+
+412
+00:27:25,870 --> 00:27:29,110
+ Ich glaube, sie mussten jetzt wieder ein paar einstellen oder sowas.
+
+413
+00:27:29,110 --> 00:27:32,830
+ Aber so wird es wirklich Jugendliche?
+
+414
+00:27:32,830 --> 00:27:34,830
+ Gute Frage.
+
+415
+00:27:34,830 --> 00:27:39,390
+ Ja, ich habe vorhin auch mal überlegt, da fällt einem nicht so viel ein.
+
+416
+00:27:39,390 --> 00:27:43,350
+ Vielleicht ist das was fürs Sendegate, da mal einen Thread aufzumachen.
+
+417
+00:27:43,350 --> 00:27:46,910
+ Podcast von und für Jugendliche und vielleicht auch dieses, was wir früher mit Jugendhackt
+
+418
+00:27:46,910 --> 00:27:49,390
+ auch zusammen gemacht haben am Jungenhackertag.
+
+419
+00:27:49,390 --> 00:27:53,070
+ Tag zwei haben wir ja immer so eine Reise durch die Podcastwelt gemacht, so was jetzt
+
+420
+00:27:53,070 --> 00:27:55,430
+ im Kongress dieses Jahr wieder aufleben zu lassen.
+
+421
+00:27:55,430 --> 00:28:00,430
+ Ja, bzw. auch mal in eine Koalition in Fütt zu machen, in der eine Sammlung, auch Podcastsammlung,
+
+422
+00:28:00,430 --> 00:28:03,150
+ wo sowas reingeht, wenn es noch keine gibt.
+
+423
+00:28:03,150 --> 00:28:05,430
+ Da muss man einfach noch mal reinschauen.
+
+424
+00:28:05,430 --> 00:28:06,430
+ Sehr schön.
+
+425
+00:28:06,430 --> 00:28:09,950
+ Jetzt haben wir Andi ausgequetscht hier auf der heißen Bank, auf dem heißen Stuhl.
+
+426
+00:28:09,950 --> 00:28:13,030
+ Ich schaue nochmal in die Runde, ob noch jemand zu uns kommen mag.
+
+427
+00:28:13,030 --> 00:28:18,910
+ Die sind alle nur hier gewesen, die können nicht erzählen, was es sonst auf der Capcaddy
+
+428
+00:28:18,910 --> 00:28:19,910
+ anscheinend ist.
+
+429
+00:28:19,910 --> 00:28:21,910
+ Vielleicht haben sie noch nichts erlebt und haben noch nichts zum Berichten.
+
+430
+00:28:21,910 --> 00:28:25,510
+ Ah, da haben wir einen gecatcht.
+
+431
+00:28:25,510 --> 00:28:28,510
+ Sehr schön.
+
+432
+00:28:28,510 --> 00:28:33,830
+ So, Gero, Ebo, ihr habt ja keine Videobelt.
+
+433
+00:28:33,830 --> 00:28:36,310
+ Ich sehe den Benedict kommen.
+
+434
+00:28:36,310 --> 00:28:37,310
+ Der Benedict.
+
+435
+00:28:37,310 --> 00:28:38,310
+ Grüß dich.
+
+436
+00:28:38,310 --> 00:28:39,310
+ Hallo.
+
+437
+00:28:39,310 --> 00:28:40,310
+ Schön, dass du da bist.
+
+438
+00:28:40,310 --> 00:28:44,030
+ Ja, also was ich persönlich finde, das Beste, was man hier auf dem Camp erleben kann, sind
+
+439
+00:28:44,030 --> 00:28:46,510
+ eigentlich unter anderem auch die Badgits, die es hier gibt.
+
+440
+00:28:46,510 --> 00:28:50,030
+ Ah, gib mir das mal rüber, dann zeige ich es dem Ebo und Gero mal in die Kamera.
+
+441
+00:28:50,030 --> 00:28:54,750
+ Also da kann ich sogar auch zufälligerweise das erzählen, weil in einem anderen Hut, den
+
+442
+00:28:54,750 --> 00:28:57,550
+ ich auch habe, bin ich auch Mitglied von Münchner Space.
+
+443
+00:28:57,550 --> 00:28:58,550
+ Ja.
+
+444
+00:28:58,550 --> 00:29:03,910
+ Und wir haben ja, irgendwie ist uns das zugefallen, diese Badges immer, also ursprünglich, das
+
+445
+00:29:03,910 --> 00:29:08,710
+ ist natürlich jetzt ein total breites Team, aber 2010 mit dem Easter Egg haben wir das
+
+446
+00:29:08,710 --> 00:29:10,190
+ mit den Badges angefangen.
+
+447
+00:29:10,190 --> 00:29:13,790
+ Und dann wurden wir halt gefragt, wollt ihr es nicht beim Camp ausmachen?
+
+448
+00:29:13,790 --> 00:29:19,070
+ Ja, und das war damals die Rocket, dann vier Jahre später das Radio, dann vier Jahre später
+
+449
+00:29:19,070 --> 00:29:22,510
+ das Cardio und jetzt die, wie heißt das?
+
+450
+00:29:22,510 --> 00:29:23,510
+ Flower Badget.
+
+451
+00:29:23,510 --> 00:29:24,510
+ Die Flower.
+
+452
+00:29:24,510 --> 00:29:29,070
+ Und du hast die sozusagen, so hast du es gekriegt, wie du es in der Hand hast, oder wie muss
+
+453
+00:29:29,070 --> 00:29:30,070
+ man sich das vorstellen?
+
+454
+00:29:30,070 --> 00:29:35,950
+ Also man kriegt ein Bau-Set, das man sich dann selbst zusammenbauen muss, also man muss
+
+455
+00:29:35,950 --> 00:29:39,150
+ im Normalfall nichts löten, es sei denn man macht irgendwas kaputt.
+
+456
+00:29:39,150 --> 00:29:43,550
+ Im Normalfall ist alles ein Werkzeug auch dabei, was man braucht zum aufbauen, aber
+
+457
+00:29:43,550 --> 00:29:44,910
+ ansonsten geht es eigentlich.
+
+458
+00:29:44,910 --> 00:29:49,950
+ Und dann hast du es zusammengebaut, geschraubt, Batterie rein offensichtlich, weil in der
+
+459
+00:29:49,950 --> 00:29:50,950
+ Mitte bewegt sich was?
+
+460
+00:29:50,950 --> 00:29:55,790
+ Genau, also hier ist eine wiederaufleitbare Lizimillionenbatterie drin, aber die war auch
+
+461
+00:29:55,790 --> 00:29:59,870
+ dabei und die Anleitung ging auch komplett in Ordnung, vor allem die Videoanleitung.
+
+462
+00:29:59,870 --> 00:30:04,590
+ Tatsächlich konnte man sich entscheiden, möchte man mit Batterie haben oder ohne, also wenn
+
+463
+00:30:04,590 --> 00:30:10,030
+ man Batterie schon hatte, aus einem anderen Badge oder sowas wollte das Team halt vermeiden,
+
+464
+00:30:10,030 --> 00:30:13,870
+ dass es unnötigen E-Mails gibt und deswegen konnte man sich da bei der Bestellung vom Badge
+
+465
+00:30:13,870 --> 00:30:14,870
+ entscheiden.
+
+466
+00:30:14,870 --> 00:30:16,590
+ Also du hast dich jetzt nicht problemlos ab sozusagen.
+
+467
+00:30:16,590 --> 00:30:17,590
+ Genau.
+
+468
+00:30:17,590 --> 00:30:18,590
+ Und was machst du jetzt damit?
+
+469
+00:30:18,590 --> 00:30:23,870
+ Ja, also es gibt jetzt mittlerweile sogar schon App Store, wo man sich die Apps runterladen
+
+470
+00:30:23,870 --> 00:30:28,470
+ kann und ansonsten kann man natürlich mit MyCop halten auch selbst sich Apps schreiben
+
+471
+00:30:28,470 --> 00:30:29,470
+ für.
+
+472
+00:30:29,470 --> 00:30:30,470
+ Und das hast du schon gemacht oder kannst du das?
+
+473
+00:30:30,470 --> 00:30:36,990
+ Ich habe es ausgetestet, die App funktioniert halbwegs, aber noch nicht so ganz, also die
+
+474
+00:30:36,990 --> 00:30:37,990
+ hat manchmal Bugs.
+
+475
+00:30:37,990 --> 00:30:38,990
+ Okay.
+
+476
+00:30:38,990 --> 00:30:42,670
+ Und wenn man es abends umhängt glaube ich, kann man so den Namen drauf abbilden und
+
+477
+00:30:42,670 --> 00:30:45,750
+ läuft so schönes buntes Regenbogenleuchtband außen rum.
+
+478
+00:30:45,750 --> 00:30:46,750
+ Genau.
+
+479
+00:30:46,750 --> 00:30:47,750
+ Cool.
+
+480
+00:30:47,750 --> 00:30:48,750
+ Und was ist diesmal die Primärfunktion?
+
+481
+00:30:48,750 --> 00:30:52,790
+ Also die Jahre davor war es ja immer so ein Feature.
+
+482
+00:30:52,790 --> 00:30:54,230
+ Was ist es dieses Mal?
+
+483
+00:30:54,230 --> 00:30:58,230
+ Das weiß ich gar nicht mal so richtig.
+
+484
+00:30:58,230 --> 00:31:03,190
+ Also es gibt natürlich ein Musikfeature, die können sich untereinander verbinden, die
+
+485
+00:31:03,190 --> 00:31:06,430
+ kann sich mit dem Camp-WLAN verbinden für die Uhrzeit, aber so richtig habe ich das
+
+486
+00:31:06,430 --> 00:31:07,430
+ noch nicht herausgefunden.
+
+487
+00:31:07,430 --> 00:31:11,270
+ Genau, an sich ist es ein Synthesizer und genau, wie du schon sagst, das sind auch so
+
+488
+00:31:11,270 --> 00:31:14,470
+ Klinkenanschlüsse dran, mit denen man dann halt mit mehreren Badges zusammen…
+
+489
+00:31:14,470 --> 00:31:19,030
+ Das habe ich in einem Video gesehen, da hat jemand so quasi wie so Drums die Dinger verwendet,
+
+490
+00:31:19,030 --> 00:31:20,430
+ die sind glaube ich touch-sensitiv.
+
+491
+00:31:20,430 --> 00:31:21,430
+ Ja cool.
+
+492
+00:31:21,430 --> 00:31:26,710
+ Ich glaube es gibt am Samstag auch einen Workshop oder ein Demo, wo alle zeigen können, was
+
+493
+00:31:26,710 --> 00:31:28,030
+ sie damit gemacht haben.
+
+494
+00:31:28,030 --> 00:31:30,070
+ Ich glaube das wird ganz interessant, sich das mal anzuschauen.
+
+495
+00:31:30,070 --> 00:31:31,070
+ Sehr cool.
+
+496
+00:31:31,070 --> 00:31:34,790
+ Ja ich war natürlich bei… ich habe meinen Badge auch zusammengeschraubt, ich war der
+
+497
+00:31:34,790 --> 00:31:40,350
+ erste der dann löten musste, weil ich nämlich die Schraube zu fest angezogen habe und dann
+
+498
+00:31:40,350 --> 00:31:45,230
+ die Befestigung bzw. von Balenes Badge die Befestigung gleich abgerissen ist, also falls
+
+499
+00:31:45,230 --> 00:31:49,350
+ das jemand macht, die sind gelötet, man kann an der Lötstation sich die wieder dran löten.
+
+500
+00:31:49,350 --> 00:31:52,390
+ Wo gab es eine Lötstation?
+
+501
+00:31:52,390 --> 00:31:57,990
+ Es gibt neben dem Zelt, wo es die Badges Ausgabe ist, ist die, ich glaube von der Binary Kitchen,
+
+502
+00:31:57,990 --> 00:32:01,550
+ wo Kinder so Bausätze zusammenlöten können und die hatten Lötkolben und so weiter da
+
+503
+00:32:01,550 --> 00:32:05,470
+ und da musste man ein bisschen länger draufhalten und dann ging das wieder zu befestigen.
+
+504
+00:32:05,470 --> 00:32:07,470
+ Aber die Reparatur auch schon gemacht.
+
+505
+00:32:07,470 --> 00:32:08,470
+ Genau.
+
+506
+00:32:08,470 --> 00:32:11,390
+ Sehr cool, hast du jetzt noch was vor mit dem Badge oder lässt es erst mal so wie es
+
+507
+00:32:11,390 --> 00:32:12,390
+ ist?
+
+508
+00:32:12,390 --> 00:32:14,710
+ Ja also ich gucke was ich noch programmiert bekomme für.
+
+509
+00:32:14,710 --> 00:32:15,710
+ Ja.
+
+510
+00:32:15,710 --> 00:32:18,310
+ Wir haben jetzt mittlerweile auch 18 Uhr, das heißt ich muss los zu meinem nächsten
+
+511
+00:32:18,310 --> 00:32:19,310
+ Workshop aber…
+
+512
+00:32:19,310 --> 00:32:20,310
+ Alles klar, viel Spaß dir.
+
+513
+00:32:20,310 --> 00:32:21,310
+ Ja.
+
+514
+00:32:21,310 --> 00:32:22,310
+ Danke, dass du da warst.
+
+515
+00:32:22,310 --> 00:32:23,310
+ Danke fürs Kommen.
+
+516
+00:32:23,310 --> 00:32:24,310
+ Ciao.
+
+517
+00:32:24,310 --> 00:32:25,310
+ Danke.
+
+518
+00:32:25,310 --> 00:32:26,870
+ So Evo, Gero, wie schaut es aus?
+
+519
+00:32:26,870 --> 00:32:30,230
+ Habt ihr noch was spannendes an Fragen, Gedanken?
+
+520
+00:32:30,230 --> 00:32:35,510
+ Ja ich habe… du hast nach Fest kommt ab nicht richtig beachtet, glaube ich.
+
+521
+00:32:35,510 --> 00:32:41,310
+ Und dabei gibt es extra ein Assembly Video auf META CCD, genau darauf auch hingewiesen.
+
+522
+00:32:41,310 --> 00:32:45,230
+ Es steht sogar auf der Platine drauf "Don't Overdo" oder so glaube ich.
+
+523
+00:32:45,230 --> 00:32:46,230
+ Zapzara-Vorzirap.
+
+524
+00:32:46,230 --> 00:32:47,230
+ Ja genau.
+
+525
+00:32:47,230 --> 00:32:48,230
+ Genau.
+
+526
+00:32:48,230 --> 00:32:51,750
+ Also wer mehr zum Badgewishen möchte, es gibt natürlich einen Vortrag dafür, der
+
+527
+00:32:51,750 --> 00:32:58,030
+ ist auch schon online und es wird auch nochmal im CWOC TV Studio, den es ja auch als Livestreamer
+
+528
+00:32:58,030 --> 00:33:02,510
+ gibt, wird das Badge Team auch nochmal zu Gast sein morgen um 16 Uhr oder irgendwie
+
+529
+00:33:02,510 --> 00:33:03,510
+ so was.
+
+530
+00:33:03,510 --> 00:33:06,710
+ Ich kann mir vorstellen, in der Podcast Szene wird da eine oder andere das verwenden als
+
+531
+00:33:06,710 --> 00:33:09,070
+ Soundboard dann auch oder zum Einspielen des Intros.
+
+532
+00:33:09,070 --> 00:33:10,870
+ Ich glaube es hat einen Kopfhörer ausgehangen auch.
+
+533
+00:33:10,870 --> 00:33:14,070
+ Also das Badge Team freut sich unheimlich, wenn das Zeug auch danach noch benutzt wird
+
+534
+00:33:14,070 --> 00:33:15,710
+ und nicht irgendwo im Schrank da ist.
+
+535
+00:33:15,710 --> 00:33:17,790
+ Klar, mit dem Ding kann man sowas auch machen.
+
+536
+00:33:17,790 --> 00:33:21,270
+ Vielleicht wenn du da ein bisschen tiefer drin steckst, in dem Promo-Video habe ich gesehen,
+
+537
+00:33:21,270 --> 00:33:22,430
+ da lief Doom da drauf.
+
+538
+00:33:22,430 --> 00:33:23,950
+ War das ein Fake oder?
+
+539
+00:33:23,950 --> 00:33:29,390
+ Ne, ne, das hat QSYK tatsächlich politiert, also der ist Teil des Badge Teams, auch bei
+
+540
+00:33:29,390 --> 00:33:30,390
+ unserem META Club.
+
+541
+00:33:30,390 --> 00:33:33,150
+ Und das war natürlich auch ein Ziel, dass das möglich ist.
+
+542
+00:33:33,150 --> 00:33:37,110
+ Ich glaube das war, ich habe ja schon immer das, lebe das immer auf dem Rand mit, da gibt
+
+543
+00:33:37,110 --> 00:33:40,510
+ es immer die Batch Gruppe, die man dann im Club trifft, wenn man da hingeht.
+
+544
+00:33:40,510 --> 00:33:45,910
+ Und ich glaube das war die Generation des Badges, die am meisten Prototypen hat.
+
+545
+00:33:45,910 --> 00:33:48,990
+ Ich glaube am Ende gab es irgendwie 20 verschiedene oder sowas.
+
+546
+00:33:48,990 --> 00:33:51,950
+ Also wir haben ja so ein Brett bei uns an der Wand hängen, wo man für die ganzen Badges
+
+547
+00:33:51,950 --> 00:33:53,630
+ jeweils die Prototypen sieht.
+
+548
+00:33:53,630 --> 00:33:56,990
+ Und ich glaube dafür muss sich ein neues Brett untereinander schrauben, damit man die
+
+549
+00:33:56,990 --> 00:33:58,790
+ alle formatieren kann oder so.
+
+550
+00:33:58,790 --> 00:33:59,790
+ Wahnsinn.
+
+551
+00:33:59,790 --> 00:34:03,750
+ Und dann schickst du es halt auch so einfach mit diesem Design-System-Computer, schickst
+
+552
+00:34:03,750 --> 00:34:09,190
+ es dann halt nach China und schickst es dann halt ein paar Tage, falt ich, bestückt auch
+
+553
+00:34:09,190 --> 00:34:10,190
+ schon zurück.
+
+554
+00:34:10,190 --> 00:34:11,190
+ Also echt krass.
+
+555
+00:34:11,190 --> 00:34:14,910
+ Jetzt haben sie auch cool in dem Talk aufgedröselt, wie da so die Erfahrungen waren, auch die Platine
+
+556
+00:34:14,910 --> 00:34:16,470
+ farbig bedrucken zu lassen und so.
+
+557
+00:34:16,470 --> 00:34:17,470
+ Das war sehr spannend.
+
+558
+00:34:17,470 --> 00:34:18,470
+ Ja.
+
+559
+00:34:18,470 --> 00:34:21,750
+ Ja, da muss ich nochmal schauen, weil in der Doku steht nämlich bei dem Doom-Port noch
+
+560
+00:34:21,750 --> 00:34:22,750
+ drin "To Do".
+
+561
+00:34:22,750 --> 00:34:24,550
+ Also da gibt es noch keinen Link und noch keinen Bannerien.
+
+562
+00:34:24,550 --> 00:34:28,870
+ Wie gesagt, geh am besten einfach beim Batch-State vorbei und frag danach und dann ist wahrscheinlich
+
+563
+00:34:28,870 --> 00:34:32,030
+ auch die Person da, die dir das zeigen kann.
+
+564
+00:34:32,030 --> 00:34:33,630
+ Sehr gut, das werde ich machen.
+
+565
+00:34:33,630 --> 00:34:35,830
+ Und dann kannst du gleich die Dokumentation selber schreiben.
+
+566
+00:34:35,830 --> 00:34:36,830
+ Das war das Konterlertiereste hier.
+
+567
+00:34:36,830 --> 00:34:37,830
+ Das mache ich.
+
+568
+00:34:37,830 --> 00:34:38,830
+ Ja, wenn das läuft, dann mache ich das direkt.
+
+569
+00:34:38,830 --> 00:34:39,830
+ Perfekt.
+
+570
+00:34:39,830 --> 00:34:40,830
+ Sehr schön.
+
+571
+00:34:40,830 --> 00:34:44,230
+ Dann würde ich sagen, ich weiß nicht, Ebo Gero, wenn ihr noch was habt.
+
+572
+00:34:44,230 --> 00:34:46,790
+ Simon, Simon, jetzt habe ich, ich hätte die Frage.
+
+573
+00:34:46,790 --> 00:34:48,310
+ Jetzt setz mal dich auf den heißen Stuhl.
+
+574
+00:34:48,310 --> 00:34:51,510
+ Was war deine Heirats-Win diese Woche?
+
+575
+00:34:51,510 --> 00:34:57,390
+ Also für mich war irgendwie, würde ich sagen, das Highlight gar nicht so was Einzelnes,
+
+576
+00:34:57,390 --> 00:35:02,870
+ sondern wie dieses organisierte Chaos dezentral funktioniert.
+
+577
+00:35:02,870 --> 00:35:04,350
+ Das ist eigentlich immer das Beeindruckendste.
+
+578
+00:35:04,350 --> 00:35:06,150
+ Wieso dieses Bild ab?
+
+579
+00:35:06,150 --> 00:35:10,550
+ Also wir sind hier seit Tag minus eins, seit Sonntag, wo ja sehr viel schon stand.
+
+580
+00:35:10,550 --> 00:35:15,230
+ Da waren ja schon viele Teams, die vorher Strom und Internet und Wasser und alles gebaut
+
+581
+00:35:15,230 --> 00:35:17,510
+ haben und vieles sich aber noch gefunden hat.
+
+582
+00:35:17,510 --> 00:35:22,190
+ Wir sind zum Beispiel im Jugendvillage, wo das Essen organisiert wird mit dem Kanban-Board,
+
+583
+00:35:22,190 --> 00:35:24,830
+ also wo die Kinder gleich irgendwie Agiles arbeiten lernen.
+
+584
+00:35:24,830 --> 00:35:27,070
+ Analog oder digital?
+
+585
+00:35:27,070 --> 00:35:29,030
+ Analog, komplett analog.
+
+586
+00:35:29,030 --> 00:35:32,510
+ Allein das Kanban-Board hat jetzt den dritten Ort, weil erst stand es ganz hinten, da hat
+
+587
+00:35:32,510 --> 00:35:33,510
+ es keiner gesehen.
+
+588
+00:35:33,510 --> 00:35:37,470
+ Dann stand es sozusagen in der Einflugsschneise zur Frühstücksausgabe und dann hat man aber
+
+589
+00:35:37,470 --> 00:35:41,270
+ gesehen, dass die Leute sich eher Aufgaben picken, wenn sie vom Frühstück weggehen.
+
+590
+00:35:41,270 --> 00:35:44,750
+ Jetzt steht es sozusagen so, dass man es, wenn man kommt, sieht und wenn man geht, aber
+
+591
+00:35:44,750 --> 00:35:48,110
+ auch noch mal sieht, was die Burndown-Rate massiv erholt.
+
+592
+00:35:48,110 --> 00:35:52,150
+ Und das ist einfach eine große Spannungsplatte, da im Multiplex und so.
+
+593
+00:35:52,150 --> 00:35:53,950
+ Genau, die haben sich so einen Kasten gebaut.
+
+594
+00:35:53,950 --> 00:35:58,030
+ Es hat sogar den Regen überlebt, da war die Post jetzt so ein bisschen aufgeweicht.
+
+595
+00:35:58,030 --> 00:36:04,630
+ Aber diese unheimliche Kreativität, was alle machen, man kann an jedem Zelt eigentlich
+
+596
+00:36:04,630 --> 00:36:06,550
+ hängen bleiben, man sieht was.
+
+597
+00:36:06,550 --> 00:36:09,590
+ Vor allen Dingen auch Dinge, da hätte man nie geplant, hinzugehen.
+
+598
+00:36:09,590 --> 00:36:14,310
+ Man hätte nie gesagt, man fährt jetzt auf eine Konferenz zu dem Thema oder so, sondern
+
+599
+00:36:14,310 --> 00:36:17,590
+ man läuft einfach drüber und an jeder Ecke ist was zu sehen wie auf dem Jahrmarkt.
+
+600
+00:36:17,590 --> 00:36:19,150
+ Warst du gestern beim Kasparl-Theater?
+
+601
+00:36:19,150 --> 00:36:20,150
+ Ja, voll.
+
+602
+00:36:20,150 --> 00:36:21,150
+ Das ist sehr geil.
+
+603
+00:36:21,150 --> 00:36:23,150
+ Hat dir das mitbekommen, Remote?
+
+604
+00:36:23,150 --> 00:36:26,510
+ Habt ihr das Kasparl-Theater?
+
+605
+00:36:26,510 --> 00:36:27,510
+ Wie war das irgendwie?
+
+606
+00:36:27,510 --> 00:36:28,510
+ Leihroller hacken?
+
+607
+00:36:28,510 --> 00:36:35,470
+ Genau, also das ist halt, irgendein Space hat sich halt mal irgendeinen kaputten Roller
+
+608
+00:36:35,470 --> 00:36:40,830
+ im Wald gefunden und wollten halt die Akkus für ihre Fort-Volt-Hack-Anlage sinnvoll benutzen.
+
+609
+00:36:40,830 --> 00:36:46,270
+ Und das ist dann halt so eskaliert in, jetzt wissen sie halt genau, wie der Leihroller
+
+610
+00:36:46,270 --> 00:36:48,830
+ mit seinem Akku kommuniziert und so.
+
+611
+00:36:48,830 --> 00:36:52,390
+ Und sie haben halt überlegt, wie können sie das erzählen, ohne dass sie das sehr haftbar
+
+612
+00:36:52,390 --> 00:36:54,470
+ werden durch einen Hersteller oder so was.
+
+613
+00:36:54,470 --> 00:36:59,710
+ Und sie haben dann die Form eines Kasparl-Theaters gewählt, also wirklich mit Petzzi und, also
+
+614
+00:36:59,710 --> 00:37:00,710
+ eines Wieners Kasparl-Theater.
+
+615
+00:37:00,710 --> 00:37:05,830
+ Und am Ende gab es auch noch einen Polizei-Krokodil oder so was.
+
+616
+00:37:05,830 --> 00:37:11,550
+ Und Kasparl und Petzzi haben dann halt so Stück für Stück erklärt, wie sie das so gearbeitet
+
+617
+00:37:11,550 --> 00:37:12,550
+ haben.
+
+618
+00:37:12,550 --> 00:37:14,910
+ Und es gab auch noch so einen Zauberer oder so was, der dann lustige Platinen rausfallen
+
+619
+00:37:14,910 --> 00:37:15,910
+ hat lassen am Ende.
+
+620
+00:37:15,910 --> 00:37:19,230
+ Das ist ja auch am Anfang der Rechner abgestürzt.
+
+621
+00:37:19,230 --> 00:37:21,830
+ Also es hat viel, viel später angefangen, die Bühnestandschirme.
+
+622
+00:37:21,830 --> 00:37:22,830
+ Don't get me started.
+
+623
+00:37:22,830 --> 00:37:27,790
+ Und dann war aber auch so dieses typische, man muss halt irgendwie mit umgehen, wenn so
+
+624
+00:37:27,790 --> 00:37:28,790
+ was passiert.
+
+625
+00:37:28,790 --> 00:37:32,310
+ Die Moderatorin hat dann kurzerhand eine Flachwitz-Challenge gemacht.
+
+626
+00:37:32,310 --> 00:37:37,710
+ Eigentlich war ihre Idee, es gibt hier ein eigenes Deck-Netzwerk, also man hat so Deck-Telefone,
+
+627
+00:37:37,710 --> 00:37:40,470
+ die Deckt-Hotline anzurufen, die Flachwitz-Hotline.
+
+628
+00:37:40,470 --> 00:37:44,070
+ Also es gibt eine eigene Flachwitz-Hotline und da ist Mikrofon hinzuhalten.
+
+629
+00:37:44,070 --> 00:37:45,510
+ Die war aber besetzt.
+
+630
+00:37:45,510 --> 00:37:49,110
+ Dann hat sie halt einfach gesagt, jeder, der einen Flachwitz erzählen will, kann das
+
+631
+00:37:49,110 --> 00:37:50,110
+ machen.
+
+632
+00:37:50,110 --> 00:37:54,310
+ Und dann ist bestimmt 20 Minuten das Mikrofon rumgegangen und die Leute haben halt Flachwitze
+
+633
+00:37:54,310 --> 00:37:56,470
+ erzählt und man saß nicht da und hat sich gelangweilt.
+
+634
+00:37:56,470 --> 00:37:59,230
+ So das war halt super lustig und dann ging das Theater los.
+
+635
+00:37:59,230 --> 00:38:03,350
+ Also dieses, einfach alle helfen mit, dass cooler Shit entsteht.
+
+636
+00:38:03,350 --> 00:38:06,510
+ Das ist irgendwie die Atmosphäre, das ist so für mich eigentlich das Highlight.
+
+637
+00:38:06,510 --> 00:38:07,510
+ Super.
+
+638
+00:38:07,510 --> 00:38:09,230
+ Du warst das letzte Mal ja auch schon da.
+
+639
+00:38:09,230 --> 00:38:13,230
+ Da hatten wir noch diese großen Vortrags-Zirkel-Zelte und so weiter.
+
+640
+00:38:13,230 --> 00:38:15,230
+ Diesmal ist alles so dezentral.
+
+641
+00:38:15,230 --> 00:38:17,030
+ Es gibt viele kleine Stages hier.
+
+642
+00:38:17,030 --> 00:38:21,750
+ Ist es für dich ein Fortschritt, würdest du die Zirkus-Zelte wieder haben oder wie findest
+
+643
+00:38:21,750 --> 00:38:22,750
+ du das?
+
+644
+00:38:22,750 --> 00:38:25,670
+ Also die Zirkus-Zelte weiß ich nicht.
+
+645
+00:38:25,670 --> 00:38:30,870
+ Also für mich war das Gefühl so schwieriger, rauszufinden, wo Sachen passieren.
+
+646
+00:38:30,870 --> 00:38:35,710
+ Jetzt vom Vortragsprogramm fand ich es eigentlich ähnlich wie das letzte Mal.
+
+647
+00:38:35,710 --> 00:38:39,190
+ Weil sich ja schon so Hauptbühnen rauskristallisieren.
+
+648
+00:38:39,190 --> 00:38:40,910
+ Ich war zum Beispiel sehr viel Millieways.
+
+649
+00:38:40,910 --> 00:38:44,030
+ Was für mich irgendwie gefühlt Zelt 1 war.
+
+650
+00:38:44,030 --> 00:38:49,950
+ Das, was im Vergleich zu Kongress vor Corona schwieriger ist, sind diese ganzen Self-Organized
+
+651
+00:38:49,950 --> 00:38:50,950
+ Sessions.
+
+652
+00:38:50,950 --> 00:38:52,950
+ Also da fand ich damals das Wiki.
+
+653
+00:38:52,950 --> 00:38:56,350
+ Da gab es immer noch so ein Doku-Wiki mit so einem letzten Änderungen.
+
+654
+00:38:56,350 --> 00:38:59,110
+ Nein, tatsächlich ist es ein Media-Wiki mit einer Semantik-Wiki.
+
+655
+00:38:59,110 --> 00:39:00,110
+ Ich prügele.
+
+656
+00:39:00,110 --> 00:39:03,990
+ Wer das noch mehr wissen möchte, wir haben gestern so einen Podcast aufgenommen tatsächlich
+
+657
+00:39:03,990 --> 00:39:04,990
+ im Studio.
+
+658
+00:39:04,990 --> 00:39:08,310
+ Da einmal Historie zusammen mit Toto und Hey.
+
+659
+00:39:08,310 --> 00:39:10,230
+ Toto macht ja die iOS-App.
+
+660
+00:39:10,230 --> 00:39:14,430
+ Der Farbplan-Entwickler ist leider diesmal nicht da.
+
+661
+00:39:14,430 --> 00:39:15,430
+ Er ist weiter weg.
+
+662
+00:39:15,430 --> 00:39:18,350
+ Da ist es nochmal alles viel genau erklärt.
+
+663
+00:39:18,350 --> 00:39:23,630
+ Aber genau, wir haben irgendwie diese vier Lecture Stages, habe ich es jetzt mal genannt,
+
+664
+00:39:23,630 --> 00:39:28,270
+ die mit den vielen Stühlen sozusagen, wo auch Rockhard wer da ist.
+
+665
+00:39:28,270 --> 00:39:30,870
+ Und dann gibt es halt noch ein paar kleinere wie den hier.
+
+666
+00:39:30,870 --> 00:39:34,990
+ Aber auch den Marktplatz, der nochmal in ganz anderen Situationen ist.
+
+667
+00:39:34,990 --> 00:39:38,830
+ Ich habe noch mal eine Frage in die Runde.
+
+668
+00:39:38,830 --> 00:39:47,110
+ Was mich interessieren würde ist, also das Format vom Camp ist ja irgendwie so, dass es
+
+669
+00:39:47,110 --> 00:39:53,790
+ sehr weitläufig ist und das auch sehr schön ist für jüngere Leute.
+
+670
+00:39:53,790 --> 00:40:01,630
+ Die Frage ist, wäre sowas möglich im Kongress auch zu machen?
+
+671
+00:40:01,630 --> 00:40:06,110
+ Weil es erinnert mich so ein bisschen an die freiwillige Feuerwehr bei uns im Ort, die
+
+672
+00:40:06,110 --> 00:40:11,750
+ Jugendarbeit machen will und niemand findet, das müsste man ja eigentlich fördern.
+
+673
+00:40:11,750 --> 00:40:13,710
+ Alle vier Jahre ist zu selten für Jugendliche.
+
+674
+00:40:13,710 --> 00:40:16,510
+ Also dann sind die zwölf, beim nächsten Mal sind sie 18.
+
+675
+00:40:16,510 --> 00:40:20,310
+ Das ist wahrscheinlich sehr schwierig.
+
+676
+00:40:20,310 --> 00:40:24,590
+ Ja, ich finde, der Kongress hat ja schon auch viele Anlaufstellen für Jugendliche.
+
+677
+00:40:24,590 --> 00:40:29,710
+ Also ich weiß nicht, wer jetzt von euch hier, wer war noch auf dem Kongress auch schon mal?
+
+678
+00:40:29,710 --> 00:40:32,990
+ Wer war noch nie auf dem Kongress.
+
+679
+00:40:32,990 --> 00:40:34,430
+ Wer war noch nie auf dem Kongress.
+
+680
+00:40:34,430 --> 00:40:36,030
+ Und wer hat sich überhaupt nicht gemeldet?
+
+681
+00:40:36,030 --> 00:40:42,550
+ Also die Tendenz klang so, als ob die meisten eher auf dem Camp waren als auf dem Kongress.
+
+682
+00:40:42,550 --> 00:40:47,550
+ Ich glaube halt, der Kongress, ich habe es vorhin gesagt, für mich ist der auch contentorientierter.
+
+683
+00:40:47,550 --> 00:40:51,630
+ Für mich stehen mehr die Vorträge auch im Mittelpunkt.
+
+684
+00:40:51,630 --> 00:40:53,910
+ Das hängt davon ab, wie du ihn benutzt.
+
+685
+00:40:53,910 --> 00:40:58,670
+ Also du kannst da alles so machen und ich bin eher so jemand, der sagt, der Vorteil kann
+
+686
+00:40:58,670 --> 00:41:02,830
+ ich mir danach anschauen und schaue dann halt mehr, dass ich mal wieder die Leute dafür,
+
+687
+00:41:02,830 --> 00:41:03,830
+ die ich habe.
+
+688
+00:41:03,830 --> 00:41:09,150
+ Also Outdoor gefällt mir, das ist schon schöner, aber das möchte man halt auch nicht jedes
+
+689
+00:41:09,150 --> 00:41:10,630
+ Jahr so viel Aufwand schreiben.
+
+690
+00:41:10,630 --> 00:41:14,310
+ Da ist ein Kongresszentrum, das größtenteils fertig eingerichtet ist und wo man noch ein
+
+691
+00:41:14,310 --> 00:41:21,030
+ bisschen Deko hin tun muss, halt schon günstiger und von einem Arbeitsaufwand natürlich händelbarer.
+
+692
+00:41:21,030 --> 00:41:25,390
+ Weil du nach dem Bühnen noch gefragt hast, also ich finde das mit dem dezentralen Bühnenkonzept
+
+693
+00:41:25,390 --> 00:41:28,630
+ ja super, also ich bräuchte Zirkuszelte nicht mehr.
+
+694
+00:41:28,630 --> 00:41:33,390
+ Was ich früher halt hatte, war diese Seite "Self-organized Sessions" im Wiki.
+
+695
+00:41:33,390 --> 00:41:34,390
+ Die gibt es weiterhin.
+
+696
+00:41:34,390 --> 00:41:36,830
+ Also die gibt es weiterhin, aber irgendwie kommt die nicht mehr zu mir.
+
+697
+00:41:36,830 --> 00:41:41,830
+ Also die hatte diesen RSS-Feed, also wenn du mir das mal zeigst, wie man dieses mitbekommt.
+
+698
+00:41:41,830 --> 00:41:43,430
+ Du hast tatsächlich einen RSS-Feed benutzt.
+
+699
+00:41:43,430 --> 00:41:46,550
+ Ich habe den vom Wiki, letzte Änderungen von dieser Seite.
+
+700
+00:41:46,550 --> 00:41:48,470
+ Okay, aber hast du nicht die Fahrplan-Apps auch?
+
+701
+00:41:48,470 --> 00:41:50,150
+ Die Fahrplan-App habe ich auch.
+
+702
+00:41:50,150 --> 00:41:51,390
+ Genau, da sind die auch alle drin.
+
+703
+00:41:51,390 --> 00:41:54,230
+ Ja okay, da muss ich da nochmal tiefer reinschauen, als ich bisher gemacht habe.
+
+704
+00:41:54,230 --> 00:41:59,230
+ Also wir nehmen gerne im Hub-Team, also das ist diese zentrale Kompetente, in der das jetzt
+
+705
+00:41:59,230 --> 00:42:03,670
+ alles zusammenläuft, auch gerne nochmal Leute, die sich um die Kommunikationsarbeit kümmern.
+
+706
+00:42:03,670 --> 00:42:06,830
+ Wie viele Leute ich hier erlebt habe, die gesagt haben, ja ich bin unter anderem auch
+
+707
+00:42:06,830 --> 00:42:09,550
+ noch, habe ich den Hub-Team, huld auch noch auf.
+
+708
+00:42:09,550 --> 00:42:11,310
+ Hub, wie schreibt man das denn?
+
+709
+00:42:11,310 --> 00:42:12,310
+ Ja genau.
+
+710
+00:42:12,310 --> 00:42:17,390
+ HAB, ne natürlich HUB natürlich, aber die Leute schauen anscheinend nicht mehr in die
+
+711
+00:42:17,390 --> 00:42:20,830
+ URLs und da müssen wir halt jetzt nochmal schauen, dass das ein bisschen bekannter wird
+
+712
+00:42:20,830 --> 00:42:24,110
+ und die ganzen UI/UX-Dinger sind.
+
+713
+00:42:24,110 --> 00:42:28,590
+ Also wir suchen da auch noch händeregend um Frontend-Leute, die dieses Ding besser machen.
+
+714
+00:42:28,590 --> 00:42:34,310
+ Ich hatte das Gefühl bei uns im Village, die die jetzt die letzten zwei Jahre die Remote-Versionen
+
+715
+00:42:34,310 --> 00:42:38,270
+ des Kongresses mitgemacht haben, die kannten es, weil da war es die zentrale Anlaufstelle
+
+716
+00:42:38,270 --> 00:42:42,110
+ auch für das Work Adventure, die die gesagt haben, virtuell ist für mich nichts, ich komme
+
+717
+00:42:42,110 --> 00:42:45,270
+ wieder wenn Kongress ist, die kannten es nicht, weil es einfach nicht eingeübt war.
+
+718
+00:42:45,270 --> 00:42:48,470
+ Es war früher halt Pre-Talks plus Wiki war so der...
+
+719
+00:42:48,470 --> 00:42:52,150
+ Wie gesagt, für die Details verweise ich nur auf den Podcast, damals noch neu erklärt,
+
+720
+00:42:52,150 --> 00:42:56,790
+ tatsächlich der Hub ist sozusagen die Fortführung von dem Assembly-Registrierungssystem.
+
+721
+00:42:56,790 --> 00:43:01,470
+ Da hatten dann halt nur die Leute, die eine Assembly registriert haben, mit diesem Maschinenraum,
+
+722
+00:43:01,470 --> 00:43:05,950
+ also diesem Backoffice im Hintergrund zu tun und jetzt musst du da halt hinkommen, um diese
+
+723
+00:43:05,950 --> 00:43:06,950
+ Session einzutragen.
+
+724
+00:43:06,950 --> 00:43:10,590
+ Die UI ist halt jetzt ja...
+
+725
+00:43:10,590 --> 00:43:17,070
+ Das ist eigentlich immer nur so die Fallback-UI gewesen, weil wir halt irgendwie jetzt nie
+
+726
+00:43:17,070 --> 00:43:20,630
+ Frontend-Entwickler hatten, die so eine moderne Web machen, sondern immer nur Backend-Entwickler,
+
+727
+00:43:20,630 --> 00:43:22,270
+ die jetzt halt irgendwie Frontend machen müssen.
+
+728
+00:43:22,270 --> 00:43:31,150
+ Wir haben zwar wunderbare UX-Designers bekommen, um ein Standard-UI jetzt zu haben, aber die
+
+729
+00:43:31,150 --> 00:43:35,430
+ Leute, die das umsetzen, sind dann auch immer erst an Tag minus zwei aufgetaucht oder so
+
+730
+00:43:35,430 --> 00:43:39,590
+ was, oder mal aus ihrem Winterschlaferwahl, weil wir offensichtlich alle anders zu tun
+
+731
+00:43:39,590 --> 00:43:40,590
+ haben.
+
+732
+00:43:40,590 --> 00:43:43,190
+ Und sowohl Mac als auch Linux als auch Windows sah nach dem zweiten oder dritten Jahr auch
+
+733
+00:43:43,190 --> 00:43:46,870
+ noch nicht perfekt aus, also das ist ja auch ein junges Ding sozusagen.
+
+734
+00:43:46,870 --> 00:43:52,190
+ Ja, es hat jetzt auch schon wieder ein paar Jahre auf dem Buckel, aber ja, es ist tatsächlich
+
+735
+00:43:52,190 --> 00:43:55,630
+ ein Kampf vor vier Jahren, haben wir das erste Mal über geredet, wie man sowas bauen könnte.
+
+736
+00:43:55,630 --> 00:43:59,550
+ Und eigentlich ist es ganz gut, wie weit wir damit gekommen sind.
+
+737
+00:43:59,550 --> 00:44:04,910
+ Und jetzt müssen wir halt diese ganzen UX-Bucks, die der Felder nicht auffallen, nochmal beheben.
+
+738
+00:44:04,910 --> 00:44:08,190
+ Okay, dann würde ich sagen...
+
+739
+00:44:08,190 --> 00:44:10,390
+ Wir kriegen ihn aber.
+
+740
+00:44:10,390 --> 00:44:14,790
+ Ich schiebe nochmal, letzte Chance, falls noch jemand kommen mag.
+
+741
+00:44:14,790 --> 00:44:20,510
+ Sonst würde ich sagen, vielen Dank, Gero Ebo, dass ihr dabei wart.
+
+742
+00:44:20,510 --> 00:44:27,630
+ Schön, dass ihr vor Ort war, zugehört habt, teilweise auch auf der Bühne wart.
+
+743
+00:44:27,630 --> 00:44:31,350
+ Vielleicht kurz den Podcast, wenn er fertig ist, natürlich sieht man ihn auf der Media
+
+744
+00:44:31,350 --> 00:44:33,790
+ CCD, da ist er mit dem Videostream.
+
+745
+00:44:33,790 --> 00:44:38,390
+ Ebo wird wahrscheinlich die Schnittarbeit übernehmen, was schätzt du, ab wann wird
+
+746
+00:44:38,390 --> 00:44:41,110
+ er auch überall dort sein, wo man gute Podcasts findet?
+
+747
+00:44:41,110 --> 00:44:46,590
+ Wenn sie mir eine Woche Zeit gibt, ich bin nämlich nächste Woche auf Urlaub.
+
+748
+00:44:46,590 --> 00:44:49,870
+ Perfekt, dann wünsche ich dir einen schönen Urlaub, du schneidest das und ich packe es dann
+
+749
+00:44:49,870 --> 00:44:52,030
+ hinterher auf Mastodon und in den Matrix-Chat.
+
+750
+00:44:52,030 --> 00:44:54,030
+ Darf ich noch eine Metafrage?
+
+751
+00:44:54,030 --> 00:44:55,030
+ Dann habst du viel Spaß.
+
+752
+00:44:55,030 --> 00:44:56,030
+ Natürlich, warte, wir haben noch eine Metafrage.
+
+753
+00:44:56,030 --> 00:45:01,910
+ Also ich schneide das ja, wir haben ja vorhin Ultraschall, also diese Reaper-Edition gesehen,
+
+754
+00:45:01,910 --> 00:45:05,710
+ das heißt, ihr schneidet da das direkt drin, macht ihr da die, wenn jemand nix sagt, das
+
+755
+00:45:05,710 --> 00:45:10,590
+ raus oder nutzt ihr alle auch Phonic oder welche Variante benutzt ihr denn da konkret?
+
+756
+00:45:10,590 --> 00:45:11,590
+ Ebo, erzähl.
+
+757
+00:45:11,590 --> 00:45:18,910
+ Also grundsätzlich, wenn zu lange Pausen sind, werden sie rausgeschnitten, aber was ich so
+
+758
+00:45:18,910 --> 00:45:22,150
+ gesehen hab, ist eigentlich durchgängig ein Spur-Tag gewesen, also ich glaube nicht, dass
+
+759
+00:45:22,150 --> 00:45:24,350
+ das sehr viel Schneidabend wäre.
+
+760
+00:45:24,350 --> 00:45:27,550
+ Ja, und dann benutzt ihr den Multitrack oder auf Phonic oder direkt?
+
+761
+00:45:27,550 --> 00:45:28,550
+ Multitrack, ja.
+
+762
+00:45:28,550 --> 00:45:31,310
+ Und Multitrack in den Cross-Gates, ok, alles klar.
+
+763
+00:45:31,310 --> 00:45:36,910
+ Also das ist auch mittlerweile, den haben wir jetzt nicht vorgestellt, Phonic ist quasi
+
+764
+00:45:36,910 --> 00:45:41,470
+ so eine Art automatischer Tontechniker für die Podcasts, wenn man so will, da laufen
+
+765
+00:45:41,470 --> 00:45:45,350
+ die Spuren hinterher nochmal durch, damit die richtig normalisiert und gepegelt werden,
+
+766
+00:45:45,350 --> 00:45:49,910
+ aber auch für eine Weile auch mit KI-Funktionen, auch das wollen wir mal ausprobieren, also
+
+767
+00:45:49,910 --> 00:45:54,430
+ das heißt, da wird dann alles auch transkrippiert und automatisch Kapitelmarken erstellt, so
+
+768
+00:45:54,430 --> 00:45:58,550
+ dass man jetzt in einem Podcast, der relativ lang ist, auch an einzelne Stellen individuell
+
+769
+00:45:58,550 --> 00:45:59,550
+ springen kann.
+
+770
+00:45:59,550 --> 00:46:02,070
+ Also das heißt, das nutzt ihr auch schon sozusagen, diese Zusammenfassung.
+
+771
+00:46:02,070 --> 00:46:09,150
+ Genau, also es ist so quasi die Seite, dassendezentrum.de ist ja eine WordPress-Seite, ein Blog, da drinnen
+
+772
+00:46:09,150 --> 00:46:10,950
+ ist PodLav als Plugin.
+
+773
+00:46:10,950 --> 00:46:11,950
+ Das ist der Publisher?
+
+774
+00:46:11,950 --> 00:46:13,270
+ Der PodLav Publisher, genau.
+
+775
+00:46:13,270 --> 00:46:17,910
+ Und dann, wenn man eine neue Episode anlegt, wird sozusagen die dort hochgeladen und im
+
+776
+00:46:17,910 --> 00:46:19,870
+ Hintergrund automatisch zu Phonic gespielt.
+
+777
+00:46:19,870 --> 00:46:21,710
+ Ah, ihr nutzt das neue Plugin dann auch schon.
+
+778
+00:46:21,710 --> 00:46:26,070
+ Genau, und von dem PodLav Plugin auch wieder abgeholt, so dass man das Phonic im Hintergrund
+
+779
+00:46:26,070 --> 00:46:27,070
+ quasi verwendet.
+
+780
+00:46:27,070 --> 00:46:29,790
+ Und dann in Phonic dann einfach die Whisper-Funktion, die jetzt ganz kürbt?
+
+781
+00:46:29,790 --> 00:46:32,910
+ Ist jetzt noch nicht, aber haben wir uns vorgenommen, das zu machen, weil wir natürlich schon...
+
+782
+00:46:32,910 --> 00:46:35,310
+ Ach stimmt, das wäre schon die letzte Folge, die ist so lange.
+
+783
+00:46:35,310 --> 00:46:36,310
+ Genau, genau.
+
+784
+00:46:36,310 --> 00:46:37,310
+ Verstehe.
+
+785
+00:46:37,310 --> 00:46:38,310
+ Ne schön, dann würde ich sagen, schließen wir die Bühne.
+
+786
+00:46:38,310 --> 00:46:43,030
+ Wer heute nochmal Bock auf Podcasts hat, 21 Uhr, Logbuch Netzpolitik, auf der
+
+787
+00:46:43,030 --> 00:46:45,670
+ Bits-und-Bäume-Bühne, glaube ich, drüben.
+
+788
+00:46:45,670 --> 00:46:49,390
+ Wer da hingehen will, sollte frühzeitig hingehen, weil da wird es sehr, sehr voll werden.
+
+789
+00:46:49,390 --> 00:46:52,470
+ Und die Bühne ist nicht sehr groß, ich glaube, das ist kleiner als Millivase.
+
+790
+00:46:52,470 --> 00:46:53,750
+ Das auf jeden Fall.
+
+791
+00:46:53,750 --> 00:46:55,910
+ Ja, also wer da Lust hat, 21 Uhr.
+
+792
+00:46:55,910 --> 00:46:57,990
+ Und ansonsten hört mal rein in die Sondersendung.
+
+793
+00:46:57,990 --> 00:47:00,990
+ Wer Fragen hat zu Podcasts und sich nicht auf die Bühne getraut hat, kommt gerne auf
+
+794
+00:47:00,990 --> 00:47:02,950
+ uns zu, entweder hier oder im Sendezentrum.
+
+795
+00:47:02,950 --> 00:47:07,070
+ Und dann, vielen Dank, dass ihr da wart und viel Spaß noch am Camp.
+
+796
+00:47:07,070 --> 00:47:08,070
+ Danke, Herr Ahnens.
+
+797
+00:47:08,070 --> 00:47:09,070
+ Alles Gute, schöne Grüße.
+
+798
+00:47:09,070 --> 00:47:10,070
+ Ciao.
+
+799
+00:47:10,070 --> 00:47:11,070
+ Ciao.
+
+800
+00:47:11,070 --> 00:47:14,070
+ Ciao.
+
+801
+00:47:14,070 --> 00:47:17,070
+ Ciao.
+
+802
+00:47:17,070 --> 00:47:20,070
+ SWR 2020
+

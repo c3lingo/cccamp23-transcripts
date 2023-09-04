@@ -1,0 +1,154 @@
+ [MUSIC]
+ [MUSIC]
+ Welcome to the Nordics stage.
+ And now we will talk about non-English based programming in an English talk by Hogy456.
+ Give him a warm welcome and enjoy the talk.
+ [APPLAUSE]
+ So, hello and welcome to the talk.
+ So I have not done this talk on my own.
+ I have done it together with another person.
+ That's also because it's in English.
+ And the other person has also recorded a part of this presentation.
+ So I will now show at the beginning a short video with the first part of the presentation.
+ Then afterward I will do the second part of this presentation live.
+ And I hope you enjoy so far and it will work.
+ Okay, does it work with sound?
+ What do I need to do?
+ [SPEAKING GERMAN]
+ I thought I don't hear sound. I thought there should be sound in this video.
+ Okay.
+ Okay, why?
+ I thought there is also a sound in this video.
+ [SPEAKING GERMAN]
+ You can look, but you can see where the sound goes.
+ [SPEAKING GERMAN]
+ Okay, then I will do it that way if it does not work.
+ So it is.
+ You can see D&G Botu who wants to do the first part.
+ In the beginning he is talking about non-English based programming and what it is about.
+ D&G Botu is from Ghana and he has also experience with other languages.
+ He is not a native English speaker.
+ He speaks a long time, but he is not a native English speaker.
+ Now he will show you here a bit about what the presentation is about.
+ So at the beginning it is a bit about introduction into non-English based programming.
+ You can see now a definition of non-English based programming.
+ It is programming languages do not use English keywords.
+ So there is now a bit introduction about it.
+ At least the thesis I am not yet sure as I think more about it if it is really easier
+ if keywords are not an English or non-English based speaker or if it is just something that you need to learn.
+ Then you can do it though.
+ But at least that was the idea behind the talk.
+ The talk was introduced into the Wiki for the Wikimania, but then there it was not accepted.
+ So I decided to put it here into the camp and maybe I find some people who are interesting.
+ I am talking a bit more about non-English based programming and why it is necessary
+ or why it could help people.
+ And now afterwards you can see here a bit an explanation on how you can use non-English based programming.
+ And one thing what you can do in the most programming languages is you can define own functions
+ and then you can choose for the functions names that depend on the programming language.
+ That is a bit difficult.
+ Not in every programming language you can use all characters for function names, but in most programming languages
+ you can use many characters for function names.
+ So here you can see a bit an explanation how it is possible to define it in Python.
+ So you can write the def and then the function and then afterwards the function.
+ But I am not so experienced with Python.
+ I am mostly using the programming language, which you will see afterwards.
+ And now there will be a second example of another programming language and how you can define it in there.
+ Here now you can see how you can define a function in Ruby.
+ So there is also the def keyword used for it.
+ And you can see how you can define it with def and then writing afterwards the function name
+ and then the next line the code that should be executed by the function afterwards.
+ And so there you can say what should be used by the function.
+ Now the next topic what I will talk about, what I will do live is talking about visual programming languages.
+ So yeah, now I will talk about other use cases for non-English based programming where it is used.
+ And the first one I want to talk about are visual programming languages.
+ Because I think at least maybe a few of you have heard about programming language scratch or snap.
+ Okay, yeah, at least some people have heard from it.
+ And so this is an example of programming, both are examples of programming languages where it is possible to writing kind of small sentences
+ or there are also many available when you download it.
+ And then you can combine these blocks through drag and drop and then you can execute it.
+ Then you can click on it or you click on symbol then you can run the code.
+ And then you can see the resize immediately after you see what is the resize.
+ And so for example used for some animations.
+ And yeah, so that's more an educational language but at least in snap there is also some more advanced feature that you can do.
+ At least from my point of view more as with scratch.
+ And what you can do there is also you can define own blocks so you can use it then for other things if you want to do it.
+ And then there is also some advanced feature you can map then source code to blocks.
+ But I don't have so much experience with the implementation of that feature.
+ And that's also something what's provided from Blockly as far as I know included in both of those.
+ The basis at least in scratch I'm sure that is.
+ In snap I'm not completely sure how far it is based on Blockly.
+ That's a framework what you can use if you want to have a block based user interface for something.
+ And now I want to give you a bit of overview where you can use non-English based programming.
+ I think the most common use case for non-English based programming are spreadsheet functions.
+ Spreadsheet functions are translated into many languages.
+ For example I usually using German spreadsheet function and I would say I really like it that they are translated into different languages.
+ But it can also be because I usually using the German ones then I have some difficulties when I talk with someone who has a spreadsheet program with English spreadsheet function to find the right English spreadsheet function for the same.
+ It's equivalent to the German one.
+ At least in LibreOffice they are translated into many languages.
+ I don't know how many languages the spreadsheet functions of Excel are translated to.
+ But I can say in LibreOffice they are translated into many things.
+ And now what I can also do and what you have seen there in some examples you can translate functions into your language.
+ Function names into your language.
+ And this was the most common language I will show later a link to Rosetta Code where you can find an Excel collection where you can find how to define your function in many different programming languages.
+ But first I want to show you here an example of a spreadsheet function.
+ There you can see two functions.
+ The mid function and the tile function in German.
+ And they do both the same.
+ In this case it extracts out of the cell A2 a string starting at the character 3 and what is 5 characters long.
+ And so what you can see here there are two different.
+ But what is a bit special?
+ The spreadsheet functions there it depends on the country where you live what is the decimal separator and that's one of the reasons why it has someone comma or semicolon as a separator.
+ That's a bit something what makes it more complicated when you use spreadsheet functions.
+ And now I want to show you because I am usually using the programming language.
+ I want to show you how you can use it in the programming language and depending on the time I will maybe later show you.
+ Because it's also relatively easy to map a new function name to an existing function name.
+ Then I want to show you how this is possible.
+ Here is now this site I mentioned before it's Rosetta code and site where a lot of programming samples and different programming languages are collected.
+ And there is also a task for function definition and you can look at it if you are interested how to translate function into your language.
+ And as I also mentioned before it depends a bit on what corrects you can use for function.
+ For example in R I had some difficulties when I used an older R function but I am not sure if it depends on the R function or on the operating system both.
+ I had difficulties when I wanted to use some names.
+ I experimented a bit with Duck Bunny names and then some names haven't been allowed so I was not allowed to use these names.
+ But yeah that's something I explained a bit so I can't give you a guarantee that you can use a name you want to use for a function.
+ It's a bit difficult.
+ And so now I will try to show you a bit how you can see here that's the way.
+ So if you want to do it a bit more advanced you can also look at least in R it's also possible to translate the arguments of a function as you can see here.
+ I can show you here the data frame function you can see here there are several optional arguments.
+ Wait a bit more at the top yeah you can see there are several optional arguments and then it's possible also to translate these optional arguments.
+ But that is a bit more difficult if you also want to do it.
+ I experimented a bit with it but have not done so many and what I want to show you here now is for example the sub step function.
+ If I want to extract out of this name the first.
+ What.
+ Wait yes I can look if I can zoom in.
+ I don't know what how it will work.
+ I look and find it will find it very soon but I do you know where.
+ How I can make it here.
+ Be good.
+ Yes I tried it but that did not work so I can't leave.
+ No I think I've seen.
+ Yeah so so what I want to show you here is wait I would then tell it so if you for example if I want to name it.
+ As the German spreadsheet function type then I can just put here the first the time then and there are two two possibilities with lower than minus or an equal sign you can assign something.
+ In our and so then I now say that the it's the same substance and then now if I write the same thing.
+ Then.
+ Okay now I had a mistake here I have to.
+ Now I had a mistake here I had to put one.
+ Yes no so now that does the same it also extracts the same but so it's not so easy but then you need to pay attention if you are using it in that way I usually.
+ Try to define it as an function then it's a bit.
+ Or yes then it's a bit easier but yeah not easier to do but I had there are sometimes the difficulties so I did the other way good now I want to say thank you over it is it is the presentation there and I want to show the.
+ Contact.
+ Information so you can see if you want to conduct the ask you can see the names now I want to say thank you.
+ Thank you all the questions.
+ So what if you need to work together with people from different countries different languages.
+ So what would you recommend for that because I mean then if you.
+ Rename all the functions functions to German and then they may only speak English because that's more known than German in this case and then then it's for them it's been more difficult than if it was in English so if their way to deal with that.
+ Yes, I have a bit experimented with yeah with translating things automatically from one language to another programming things from a programming to not experimented a bit with it yeah and I think it is.
+ Possible it is possible at least as long as you only translated the function names then it is possible that you can find a system but I would not recommend it is more an experimental thing and I'm also not sure how far.
+ Non English based programming is useful but I think at least I think it's interesting to try it yeah and yeah so yes it is possible I have experimented a bit with it with the automatic translation of.
+ Functions from one programming language into another.
+ So I think yeah so yeah that's I think that's if you really want to enable think that's an important thing.
+ Okay, thank you.
+ As such a system.
+ Say another question.
+ If not, I would suggest we thank our speaker for this nice introduction.
+ And continue the program shortly.
+ Oh.

@@ -1,0 +1,549 @@
+ [MUSIC]
+ [MUSIC]
+ I'm really happy to announce Ahmed.
+ Ahmed is an artist and activist from Sudan.
+ And he's going to present us two great projects from Sudan
+ that support decentralized grassroots movements there.
+ And so please give a big round of applause to Ahmed.
+ >> [APPLAUSE]
+ >> All right, yeah, I'm gonna start.
+ So first of all, this is not a really technical presentation.
+ So if anything that technically came in your mind,
+ if you ask me questions later, I will not able to answer, but
+ you can explain it to me and help me on it.
+ So yeah, I'm an activist and artist from Sudan,
+ helping a grassroots movement.
+ So I'm gonna start my presentation with saying that
+ over the course of enormous years, countless communities across the globe
+ have dedicated themselves dismantling the unjust system and
+ striving to contrast more equitable worlds.
+ Although the strategies employed have been diverse,
+ a common threat has been a reliance on physical presence on public spaces.
+ In Sudan, we also embrace the moment to voice our longing for equality,
+ our opposition to capitalism, and
+ our dedication to establishing a last democratic foundation.
+ As a result of this motives and various others, a successful revolution
+ culminated in overthrow over 30 years dictatorship.
+ The poor model that the Sudanese community had to contend with
+ expeditory prominent characteristic.
+ Militarism, the concentration of power within single community in a specific
+ city, and the systematic extractions and
+ exploitation of the rest of the country, especially the rural area.
+ While the uprising in 2018, 2019 succeeded in toppling the regime figurehead,
+ the structural integrity of the regime,
+ plus stood by the security and military apparatus,
+ proved resilient, allowing for subsequent resurgence.
+ Basically the military hang on and put the fight.
+ But during that fight, in the forefront of this revolutionary movement,
+ the stand the neighborhood resisting committees, also referred to as
+ the resisting committees, a decentralized grass root organization that assume
+ the burden of revolutionary leadership when a coalition of reformist political
+ parties failed to achieve the demand of the revolution.
+ Following a successful sit in in front of the military headquarter,
+ the resisting committees efficiently organize themselves within the neighborhood.
+ Representing a new form of a collective action arose from a deep understanding of
+ Sudan historical problems, particularly the issues of militarized,
+ decent, and centralized power.
+ The resistant committee have opened the door for
+ a broader political participation,
+ spreading geographically to more areas in Sudan,
+ facilitating increased involvement of civilian.
+ Could you imagine that a militarized country and those guys just open up for
+ more civilian to participate in the political power.
+ So to effectively support the resisting committee in their challenging mission,
+ a range of grassroots institutions have been established.
+ While NGOs have traditionally played the role in
+ plastering democratic movement, adapting to novel obstacles,
+ necessitate a structural transformation.
+ This institution needed to be constructed from ground up.
+ So in order to support those resisting committee,
+ you need to change the way that we are thinking.
+ Decentralized movement or decentralized organization that should come on.
+ So from ground up, spanning multiple geographical location and
+ adopting decentralized approach to better address the new challenges to hand.
+ Among these entities is the Civic Lab.
+ It stands out as a notable example because it's created by the member of
+ resisting committees themselves and it has become an integral part of
+ the movement across various territories.
+ Toward the conclusion of 2022,
+ at the battle against militarism persisted.
+ We recognized the imperative of incorporating fresh tools into our campaign.
+ Our intention was twofold, to fortify the movement capabilities and
+ to explore an innovative mode of expressions.
+ Central to our deliberation was the concept of technological autonomy and
+ the principles of open source.
+ This line of thinking led us to envision a multidisciplinary endeavor
+ situated in the niches at art, science and technology.
+ To bring this vision to fruition, I joined forces with the Civic Lab to conceive Bida.
+ The term Bida, it means literally heresy.
+ Convey the essence of innovation, drawing it as a terminology from the word Ibda'a,
+ which signifies creativity.
+ This is an Arabic word, Bida'a and Ibda'a, so you know that.
+ The act of engendering something new from pre-existing element and
+ this concept resonated with us as a parallel to the notion of hacking.
+ Encapsulating our aspiration to craft novel solutions.
+ So,
+ rather than merely conceptualizing ideas over casual beer and
+ table in Berlin or Paris or anywhere, like diaspora communities.
+ They look at revolution of their homeland and
+ they decide to sit, drink beer and tell the people what to do.
+ We opted for a more engaging approach by initiating conversations with people and
+ community keen to join our cause.
+ We distributed the questionnaire among those interested in collaborating with us.
+ And the insight gleaned from this survey was valuable.
+ If you see here, maybe some stuff in Arabic, but I can read.
+ We were fortunate to attract participants from a diverse cities.
+ Including some where access to electricity is limited to as few as 12
+ hours per day, even less.
+ The majority of individual expressed a keen interest in crafting artistic
+ projects utilized novel tools.
+ A portion of these individuals were seeking further information before fully
+ committed, they're skeptical about our work, they need to know,
+ which is actually a good thing.
+ Yet they were enthusiast,
+ it suppressed their willingness to participate in our initial meetings and
+ workshop.
+ Here exists kind of relatively small cohort who have experience with
+ electronic and circuitry.
+ But yeah, and also coding.
+ But also the intriguing revelation is that the majority of
+ the participants have a prior experience with Linux.
+ Which is something that make us excited about working and
+ running this work, that's mean there's some kind of community that we could work with.
+ So we had also a lot of kind of random response that people saw how much they
+ excited and how they imagined the work collectively.
+ Our idea initially from this project was starting step by step,
+ building just a basic knowledge of open source and then integrating,
+ injecting that in a decentralized movement in order to build this kind of
+ knowledge from bottom up as the existing committee.
+ We got inspired by the existing committees and their work.
+ So yeah, we shipped a lot of raspberry pies,
+ Arduino and every kit that we found on the internet.
+ We put it on the plane, we send it to Sudan, we made our poster,
+ we're very happy and then.
+ We planned our physical meeting on the first of May 2023.
+ We created this module, little bit of smaller stuff.
+ And then, but unfortunately in the morning of April 2023,
+ a resounding gunshot of an unknown origin tore through the air,
+ piercing the flesh of a furious soldier.
+ It's son does a coup evaporated, serving as an unmistakable signal for
+ the insurgent of the troops of the counter revolution to descend upon the cities of Sudan.
+ Two warlords of two army fractions,
+ igniting the flames of this brutal conflict had long harbored animosity
+ toward the December revolution, which has triumphantly ousted their predecessor in 2019.
+ Actually, this is an introduction for an article if you want to know about the war.
+ I wrote it, so it's actually, I just made it here dramatically like that,
+ because I'm not talking about the war at all.
+ But as a friend of mine from Syria told me before, and
+ she's a fellow activist, we need to follow her work, her name is Ofa Mustafa.
+ She's doing activism for the imprisoned people in the Assad regime.
+ She said before, we are in a brutal battle of narrative, a brutal war.
+ Strangely enough, I found myself witnessing the swift transformation,
+ how the narrative around our cause changed overnight.
+ What was once a movement establishing a civilian and
+ democratic alternative had suddenly shifted into a narrative of war.
+ While it is understandable that news outlets and
+ mainstream media might adopt this framing,
+ it is disheartening to see activists and open source investigator.
+ Reinforcing this kind of framework by creating this particular maps.
+ All of the maps, you find it from open source, every open source investigator
+ in Sudan, you're right Sudan, they all draw just a war in Sudan, war mapper.
+ We map Sudan as a war zone.
+ The fractions of the RSF, the fraction of the army is taking places.
+ It was quite disheartening for us because a movement that was there for
+ revolution, for a democratic movement representing millions of people.
+ And now all of Sudan narrative is around 200,000 soldiers fighting around cities
+ of Khartoum and all of what's happening from international activists,
+ especially open source investigator is just mapping the army fractions without
+ the other movement.
+ I'm sorry.
+ All right, okay.
+ So, on the other hand,
+ again the resistance committee stand for
+ the challenge to address the trauma of the war and safeguard the revolution.
+ They have actively pursued two primary objectives.
+ Firstly, they have dedicated effort to build an anti-war coalition and
+ clarifying the narrative surrounding the conflict.
+ Their emphasis lies on highlighting the war primarily stems from the power struggle
+ between the generals and does not serve interest of democratic foundation.
+ This approach aims to counter any misconception
+ that would undermine the revolution goals at first.
+ Secondly, the resistant committee have taken a revolutionary approach by
+ establishing emergency response rooms.
+ This room serve as a vital support system to help individual observe the trauma
+ caused by the war and elevate the hardship faced by civilians.
+ The emergency room post a digital infrastructure through which they
+ convey their missions and gather community donation.
+ They are strategically positioned across various regions and
+ intentionally decentralized,
+ mirroring the organization's approach of the resisting committee themselves.
+ Additionally, they convey a document together.
+ This document effort by uploading a lot of data of their work.
+ The practice not only aids is assessing the situation,
+ they're assessing the issue but also facilitate the monitoring of
+ operational infrastructure.
+ They collected the data includes geo locations of their operations,
+ community kitchens, hospitals and other related projects.
+ So by converting this data to JSON format,
+ it can be utilized as a database even as a mapping resource.
+ And that is what actually we did.
+ Creating a visualization of their work on a map and
+ carry a powerful political statement shedding a light on the lives,
+ the struggle and the stories of civilians led movement in this and
+ their central role in the struggle.
+ It served as a counter action against militarizations of consciousness and
+ narrative and the main purpose was that but other purpose served as well later.
+ What we still need because as you see we just use simple solutions,
+ collaborative solidarity.
+ We need you to support this movement by endorsing its objective.
+ Also, as you see, we use Google Sheet and we use all of those commercial platforms.
+ We need open source accessibility, collective learning experience and
+ a revolutionary paradigm, which is mean it is not a war,
+ there is a civilian movement, a community that is struggling to strive for
+ a better life using all of what you actually produce as a community.
+ And they are part of you and extensions of you as a community and
+ you are extension from them that the people who are struggle for
+ democratic foundations and just world.
+ So by helping them and endorse their work by providing them with
+ the ever accessible technologies that you created in this community,
+ beautiful community here with your own political endorsement for
+ better world than just world.
+ Thank you.
+ >> [APPLAUSE]
+ >> Thank you so much,
+ Ahmed, for your input and
+ giving us an insight into this important struggle and important projects.
+ Are there any questions?
+ It's not that easy to go between the rows, so
+ I think it would be easiest if people want to ask questions if they just come here.
+ And then I can give them the microphone.
+ But if you still need some time to think of a question, maybe I have one.
+ So do you already have some examples of solidarity
+ towards the project in Sudan that would be examples of what we can do?
+ Or would you say it's like really no one,
+ like there is really not a lot yet going on.
+ >> Actually the war started just three months ago, four months ago.
+ All of those projects are very recent.
+ There is a support from a lot of NGOs, international organizations.
+ I came with this project here because they seek unique solidarity, different one.
+ So the one that based on funding, technologies, commercial that working
+ around is not really providing a lot of solutions for us and it's not really fast.
+ And in the same time, it's oriented with certain kind of political agenda
+ that is not necessarily the political agenda of the grassroots movement.
+ And because of that, I was thinking to communicate this project with a community
+ that are active as a community, not as organization NGOs.
+ So there is a lot of people who offer support by, for example, say, hey,
+ this project we're gonna provide you.
+ But also we didn't want to just give the data to everybody.
+ So we actually used a very simple solutions by going in the commentations,
+ checking all of those like open source libraries of JavaScript to just create this work.
+ But in the same time, we think what I saw here, for example,
+ I think that people are capable to create more better project.
+ But just a community base, but this kind of, yeah,
+ maybe people also have a political agenda and I would appreciate this particular agenda
+ because it's the same political agenda of the decentralized
+ grassroots movement there of the just world.
+ Yeah.
+ >> Thank you.
+ I see a little bit of applause.
+ So if you want to join in, you can.
+ [APPLAUSE]
+ Okay, I see that there is an angel with a microphone.
+ So he could also come to you and you don't have to stand up if you don't.
+ Is that a question?
+ Yeah, can you please?
+ Because then the internet can also hear you.
+ [BLANK_AUDIO]
+ >> Hello, okay.
+ So you mentioned accessibility to open source, I think tools and solutions.
+ What's the biggest challenge when it comes to that at the moment for
+ you and the community?
+ >> Yeah, so yeah, the biggest challenge for us,
+ like if you see that I talk about bid'a, the first project,
+ although that is not realized, because we thought we were working on something
+ about building a knowledge about around open source and in general,
+ technologies are accessible for the years before the war started.
+ And the time when the war started, we couldn't realize that project.
+ What happened is we needed to use basically very, like we need to use it,
+ for example, this Google Sheet where 90 people have access to it
+ to provide information in different geographies.
+ So we didn't actually have an open source tool.
+ And if you have an open source tools, we need the time to teach people to work on
+ them.
+ So one of the things that we are thinking about it is how we could create
+ type of technology that accessible not just by working on it,
+ but also by learning it very fast, because they can work very
+ good in the moment of emergency.
+ And it's also they are trusted and reliant, and we could also talk to the provider
+ of that technology to help us with the maintenance.
+ That's what I'm thinking about.
+ In Sudan, we have a really problem because as a country,
+ we lived in the sanctions since 1995.
+ We didn't have access to a lot of technology.
+ We had a problem basically with technology and accessibility technologies.
+ And we are trying and this grassroots movement, if they get that tools,
+ they could utilize for this movement now.
+ And I think particularly in the response room and also in general in the
+ revolutionary movement for this decentralized.
+ We like autonomy over their data, over information, over software they are using,
+ also creating because they are as a communities are in different places.
+ If they integrated some really good technology in their work,
+ they could create some model that we could actually could provide them with help,
+ but also could be a good example for us feedback here who are working on
+ developing different kind of solutions.
+ So any more questions?
+ Yes, great.
+ Hi, so you basically portrayed this idea of decentralizing all around the world,
+ all different initiatives and therefore creating something that goes between and
+ among grassroots movements, but also in developing countries or countries at risk,
+ such as Sudan with war and political instability.
+ There is a very strong presence of international organizations.
+ And most than often they are on the ground, talking with communities and people.
+ That is generally the traditional way in which those countries have link with
+ the global setting in which they are.
+ So how do you exactly take that into consideration when it comes with something
+ that may have political differences and is much more decentralized and much more
+ sparse and scattered all around the world in contrast to those big international organizations?
+ Thank you for the question first of all.
+ I think that actually all of this what I am doing here is about that.
+ I have been working with the resistance committees and the Civic Lab for a while.
+ And the Civic Lab is built so the revolution in Sudan is based on three topics,
+ decentralization of power, demilitarizations and what do you call it?
+ Like yeah, we call it like power, if you translate power from ground up,
+ which is the movement in Sudan is decentralized movement is created among neighborhood geographies.
+ And this movement when the war started, they knew that NGO's are going to jump in.
+ The model that you are just talking about it, which is a model that we think it's a part of more
+ oppressive model itself is not just they came those NGO's as we call them the cowboys.
+ Those like cowboys they came to in the conflict zone.
+ Yeah, you know, they came to support the people in the war that they actually very trained NGO's worker.
+ And then we have also this is a sad new thing.
+ This is what this is the awesome people that open source investigation in sort of supporting a movement.
+ They are dividing country as an army fractions, the territories of the RSF, the territories of the army.
+ So it's a whole model of narrative that created is actually defied by the people working in the ground.
+ So they created the emergency response room and they started to assume state responsibility in the time of
+ vacuum and also doing work more than this NGO's forcing those NGO's to legitimize them.
+ So the United Nations Unit arms in Sudan, special mission for integration basically was ignoring all of
+ those resisting committees just to use they don't have a political agency, they don't have representation.
+ And when the crisis started, those guys because they started to do this humanitarian work,
+ the UN started to negotiate with them in order to provide support to the community.
+ And they forced their narrative, decolonizing of mutual aid, sorry, mutual aid,
+ decolonization of humanitarians and economic solidarity economy.
+ And because of that, what I'm coming here to do is to provide those narrative and those political movement
+ with a community that able to support them without those particular agenda that you just described,
+ which is me and you are critical toward it somehow.
+ If I assume that right.
+ [Applause]
+ Thank you for your question.
+ Is there are there any more questions?
+ You have a question. Cool.
+ Thanks a lot for this talk.
+ What impresses me every time when I'm looking at the Sudanese civil societies,
+ how well organized it is and how big the civil movement is.
+ Could you tell us a bit more? You already went a bit into that.
+ How this civil movement is organized about maybe also the direct democratic elements in it
+ and about the driving forces that have been doing that since many years?
+ Yeah, it is it is somehow just it wasn't.
+ Yeah, you're right.
+ It is a movement that developed a long, long time, but also a movement that is not an isolated movement.
+ It's learned from its neighbor.
+ It's learned from the Egyptian movement, from Burkina Faso movement in 2015, Egyptian 2011, Tunisia movement.
+ It's like those eager young people around and also not the only young people, active people.
+ I meant young people is a real wrong word.
+ I mean, there's not age on this.
+ Yeah. And they started to observe around them what's happened wrong, you know,
+ how how we got defeated like Abdul Fattah says, you know,
+ and coming and how we how we cannot be defeated.
+ And and those movement learning from their history and surrounding geographies.
+ So they they come to two conclusions that first of all, decentralized movement.
+ I meant that when people organize according to their neighborhood,
+ they have autonomy over the solutions and political solution they have and also their organizations.
+ We get more efficient system of work.
+ Then we have a way of communication.
+ So we use an open platforms.
+ So this resistant committee, for example, in the last three years, they drafted something
+ is called the Revolutionary Constitution for the power of the people,
+ which is circulated around the country.
+ Everybody commenting on it, using the Internet tools, people taking it with their hand,
+ because not all of the place that Internet people printing it and discussing it with their communities
+ and then giving a feedback and then resisting committee.
+ One of the existing committees in Khartoum decided to create something is called the the editing room.
+ So they created the editing room and then they edit all of those comments
+ and they release something called the Revolutionary Draft for People Power.
+ And that was actually kind of really uplifting because people think, are we able to communicate as well?
+ We're not just we are a headless movement.
+ We're a movement without a leader.
+ We're a movement that was a more democratic approach.
+ I mean, the ground up movement, everybody in the neighborhood could take a decision.
+ There's more political participation.
+ And in the same time, we are able to articulate our demand in the 50 pages that everybody could talk to.
+ And because of that, one of the things is the German guy, the United Nation guy,
+ the head of the United Nations, transitional, whatever in Sudan.
+ He said that those people, they don't have a political opinion because they don't have a leader and a spoken person.
+ And then it's just like people sending sending him the link.
+ It was in an online conversation.
+ Oh, that's actually a document they released in that day.
+ That's a document they released.
+ So they articulated themselves and in the same time, you cannot take somebody and and kind of negotiate with them.
+ And that's actually the movement and the standard from how reformers political party was easy to get co-opted.
+ And because of that, again, I'm going to repeat this movement need novel solutions in order to optimize those
+ starting of communications and a secure one, a powerful one that able to integrate because they are trying to be democratic as much as possible, including everybody's opinion.
+ But we could enhance that by providing more solutions.
+ But and they actually not are coming as a savior.
+ That's also got to be.
+ They actually they already have the agency.
+ They have their missions and they ask for solidarity and support where they teach their model to the people outside and they can learn from the people outside in their model.
+ And that's exactly how the movement develops through.
+ Actually, I may say the last 40 years are most critical because the revolutionary process and people met physically in the street and they have buddies meeting each other.
+ But also within 30 years are struggling to one of them, like one of the brutal regimes in the region, a military sharia based regime that able to practice a lot of extra legal killing all over the last 30 years.
+ So they created that because of brutality and their tactics against repression turned to be a very good tools of creating political discourses.
+ So are there any more questions?
+ You again.
+ Or someone else is there.
+ Yeah.
+ OK, so I think that Ahmed already gave us like some really good and extensive.
+ You have one.
+ Yeah, but I still want.
+ All right.
+ Thank you.
+ But you have a question, right?
+ Oh, yeah.
+ Just wondering if there was any like online resources where we could learn more.
+ Yeah, specifically about how you're how this is working.
+ Yeah. So as a diaspora community in Berlin, we created a platform in the last two years basically for communicating.
+ The the movement discourses and we're translating a lot of stuff in German and English.
+ It's called Sudana Pricing Germany dot net.
+ And it is a group, actually, it's a physically that exists in Berlin.
+ This this website, I just showed that we're still working on it to optimize it because we have like some kind of formation.
+ I would love to get your support and help in developing it further and also maintaining its security and its integrity.
+ And then we could actually publish it.
+ We are planning to publish it next month as a kind of visualizing the movement in Sudan.
+ And also, you know, all of this stuff, we're going to work on it.
+ The Sudana Pricing dot net is where we publish the first informations.
+ Yeah.
+ Just to follow up on that, what you were saying that people could plug in to try and volunteer and help.
+ And so on that URL, there be somewhere where we could like contact you and volunteer.
+ Yeah, exactly.
+ There is I don't know if you're based in Germany or somewhere else, but if you're based in Germany, there's this group.
+ It's all the user. And there's also a lot of Sudanese community.
+ But that group is kind of providing a lot of work on to provide solution for this committee.
+ Yeah. And we are just there physically or exist there.
+ And there's a website. And also, we have a mailing list.
+ We're putting it there. And also, if you just write us an email that or if now came to me and then, hey, I saw that work in your talk earlier.
+ And I could actually help you with this. It would be amazing.
+ We're going to just connect forever.
+ Yeah. Thank you, Ahmed, for your wonderful talk.
+ It's lovely to keep seeing it progress.
+ My question is actually about the resistance committees.
+ Like you said that the narrative is always about the rapid support forces in the army.
+ Can you tell us maybe a story or something about what the resistance committees are doing during the current crisis?
+ Yeah, exactly. That's what the emergency response room is.
+ So, yeah, there's this committee.
+ There is two saying that the narrative of militarization, which is the country divided among two fractions.
+ That what is the narrative is like controlled by generals.
+ And then there's this committee so that their agency being taken away from them.
+ And they are representative of this neighborhood.
+ And then they saw also a humanitarian crisis happening unfolding because of the war.
+ So they decided to form this emergency response rooms and those emergency response room.
+ They have three main objectives, first of all, like serving medical support to people in the same time,
+ making this open street kitchen where everybody could eat and also maintenance for like electricity,
+ water supply and all of the kind of stuff, even there.
+ Because what is the neighbors in Sudan is mean that as engineers, there's doctors living in just neighbors,
+ in addition to the people who coming from a different like working background,
+ where could they work together and provide solutions to people.
+ And as a political, but also they separated the emergency rooms from the resisting committee in the political sense,
+ because they said like emergency response room, they don't have a political agenda,
+ so they can serve anybody, even the people who are opposing the revolution.
+ But the resisting committee, they started to forge this anti-war coalitions.
+ But in the same time, working with the diaspora closely to challenge this narrative of the war
+ that propagated by the United Nations and United Nations workers, international NGOs,
+ international community in the center of it, Germany, USA and Saudi Arabia.
+ Those is all of those kind of political work they are doing.
+ And in the same time, we're just pushing toward that it will not transform to be, you know,
+ like what's happened in other revolutions.
+ It is not a war, it's a revolution and this war is an obstacle, so they're going to overcome it.
+ And they are still working together on that.
+ I hope, and if we got defeated, I don't really want to be like the optimistic revolution.
+ If we got defeated, the model that until now those people, they survived so much obstacles
+ and they metamorphosis in a different kind of, you know, what do you call it,
+ like organizations to just work against challenges.
+ And that way of transformation could be actually a model to understand, learn from it.
+ And for me, it was a really big learning process the last three years.
+ Yeah.
+ I saw another question there.
+ Hey guys, we can just also talk in the tent, you know.
+ [Laughter]
+ Might be more comfortable, but please ask away.
+ No, I'm just kidding.
+ No, it's just thanks again for your talk and all these great discussion points.
+ One thing that I just wanted to pick up on right now because it was peculiar to me.
+ You mentioned three countries just a minute ago, United States, Germany and Saudi Arabia.
+ I understand maybe a little bit when you bring up United States and Saudi Arabia
+ and the Sudanese context, I'm not so certain about Germany.
+ Could you maybe explain the role of Germany?
+ So yeah, so maybe if I just bring it to you from the Foreign Affairs,
+ the Auswärtsgärder in Germany.
+ So they have this program, it's called stabilization program.
+ So they just want stability.
+ Stability as a sense that regardless who is in power, but stability.
+ So that's the first thing.
+ The second thing, Germany have worked during the transition period
+ with three different organizations, which is Friedrich Eibart,
+ Henry Schpool and GIZ working in the ground in Sudan
+ in order to support the constitutional transition.
+ They had a problem on their political consciousness.
+ They could not imagine a decentralized movement without a political leader
+ who can come and sit in them in the table.
+ And that's lack of imaginations and lack of thinking that political outside the box.
+ And that's what they say all the time when you meet people,
+ I was like, "Where is the resistance committee? We don't see them."
+ Yeah, you see their documents, you see their work, you see their materiality,
+ their material representation in the street.
+ You see that they can actually move all of that street.
+ They can occupy the country for one day and all of that neighborhood.
+ But you didn't see them in the negotiation table.
+ And you think that they don't have a political agency
+ because you want to co-opt them with any kind of neoliberal narrative.
+ They don't want to go in that.
+ So just read their documents.
+ They translated in your language in German, in English, in Farsi even.
+ Just understand it and try to replay.
+ This is the demand of those movement and work with it.
+ You say, for example, "I achieved from your demand 40 percentage."
+ And try to negotiate the movement in the public, not negotiate in the closed table.
+ So Germany is one of the countries that wanted to work with this lack of imagination,
+ political consciousness, which is sitting and want to co-opt the movement.
+ And that's what they did between 2019, 2020, when they supported the model
+ of a sharing power between political parties and the army,
+ when the resistance committee was telling them the army cannot be in power.
+ And they're just thinking, "This army, people, they're going to have a fight soon in the country."
+ And Germany didn't listen.
+ And now they said, "Oh, we didn't know they're fighting.
+ Oh, shit, there's a war.
+ Let's take our people out."
+ And they took their people out.
+ "Yeah, we were not there.
+ You were there for two years.
+ We saw you.
+ You were there.
+ We talked to you and you were, "Shut up.
+ You are the resistance committee people.
+ You are very radical.
+ Don't talk to us.
+ You are not really radical.
+ We're asking for democracy, social justice, collectivization of rights and everything."
+ You know, we didn't even ever like taking the state down.
+ We just want basic thing that's, you know, and then they said, "You are very radical for
+ the demands because they cannot imagine our political agency."
+ And that's what they did, basically.
+ So Germany in the middle because they project themselves as this like neutral, adult,
+ mutual, they don't have, you know, like Switzerland in the past.
+ They don't want like to kind of exploit you.
+ But actually, they lack, their lack of imaginations is resulting to a very oppressive actions.
+ Yeah.
+ I'm looking very sharply at you and counting to three in my head.
+ One, two, three.
+ Thank you so much for coming.
+ Yeah, be around.
+ Yeah.
+ Thank you so much, Ahmed, for sharing your knowledge with us.
+ [Music]

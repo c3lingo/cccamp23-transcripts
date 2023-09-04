@@ -1,0 +1,1268 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:38,880
+ Okay, I think we are ready and on our way to dive into the very exciting world of
+
+4
+00:00:38,880 --> 00:00:43,360
+ industrial coffee makers and without further ado I give the stage to you guys.
+
+5
+00:01:06,480 --> 00:01:09,280
+ Well then, welcome to our talk "Unexpected Coffee,
+
+6
+00:01:09,280 --> 00:01:16,000
+ Adivin to Industrial Coffee Machines". I'm Hethi, I'm doing offensive security at daytime
+
+7
+00:01:16,000 --> 00:01:22,320
+ and at night time I'm doing industrial coffee machine hacking and other fun projects.
+
+8
+00:01:22,320 --> 00:01:26,960
+ And that's Datacop. Hi, I'm Clemens or Datacop or Data for short.
+
+9
+00:01:26,960 --> 00:01:34,000
+ And I'm mainly, I'm an electrical engineer but mainly doing networks and embedded Linux systems and
+
+10
+00:01:34,960 --> 00:01:49,200
+ yeah. And that's the car. But if that's fine with you, we will just go on. So first things first,
+
+11
+00:01:49,200 --> 00:01:55,600
+ what's a coffee machine or what's an espresso machine? We have coffee beans, we ground the
+
+12
+00:01:55,600 --> 00:02:01,440
+ beans and then we add basically just hot water under pressure and then we have good coffee if
+
+13
+00:02:01,440 --> 00:02:13,280
+ we did it right. And then what's a vending machine? And there are different types of vending machines.
+
+14
+00:02:13,280 --> 00:02:21,840
+ There are basically two base types and one is there are those instant beverage machines
+
+15
+00:02:21,840 --> 00:02:28,080
+ where you just get a cup and you press a button and you get something that was
+
+16
+00:02:30,400 --> 00:02:38,800
+ made from water more or less. But typically it's just powder. And there are the other vending
+
+17
+00:02:38,800 --> 00:02:47,680
+ machines like stuff in boxes or vending machines for bottles and so on. We won't go into this detail
+
+18
+00:02:47,680 --> 00:02:58,640
+ but that's for the first part and what we actually have here. And then what's an espresso vending
+
+19
+00:02:58,640 --> 00:03:07,200
+ machine? And that's more or less a hybrid of an espresso machine and a typical powder-based
+
+20
+00:03:07,200 --> 00:03:15,200
+ vending machine. And that means we have the best and the worst of both worlds actually.
+
+21
+00:03:15,200 --> 00:03:28,240
+ We have not really a perfect coffee brewery and then we also have those powder things and not
+
+22
+00:03:28,240 --> 00:03:38,000
+ really milk or anything. But they exist and they're quite huge usually and they allow special
+
+23
+00:03:38,000 --> 00:03:46,320
+ combinations like latte macchiato which I will go in a bit in a detail on how this is made actually
+
+24
+00:03:46,320 --> 00:03:58,160
+ here in a few slides. And then basic stuff in this machine we have coffee and we have toppings.
+
+25
+00:03:58,160 --> 00:04:07,680
+ For the coffee we have a brewer that will be on the next slide also and we will open the machine
+
+26
+00:04:07,680 --> 00:04:15,840
+ later too. And that one is designed for more or less a specific high throughput especially for office
+
+27
+00:04:16,480 --> 00:04:24,080
+ like 300 coffees per day. And also for low maintenance. So these machines typically
+
+28
+00:04:24,080 --> 00:04:32,720
+ don't need daily maintenance like big espresso machines but those are more or less I think you
+
+29
+00:04:32,720 --> 00:04:38,560
+ should clean them once a week but that's just a quick cleaning cycle and then the large cleaning
+
+30
+00:04:38,560 --> 00:04:45,040
+ cycle if I can remember it correctly it's done more or less once per month and typically not
+
+31
+00:04:45,040 --> 00:04:50,560
+ by the company where this machine is standing but by a separate company that's also supplying
+
+32
+00:04:50,560 --> 00:04:57,520
+ the coffee and all the ingredients. Those machines typically have fixed water installations that's
+
+33
+00:04:57,520 --> 00:05:08,240
+ why we have a pump here and an external water tank and luckily this machine in the manual has
+
+34
+00:05:08,240 --> 00:05:16,800
+ a note that says if you don't have fixed water by the way the water input valve has a rating so you
+
+35
+00:05:16,800 --> 00:05:26,000
+ can hook up a pump there with 24 volts and 1.5 amps max which was quite nice for the camp. Or you can
+
+36
+00:05:26,000 --> 00:05:30,560
+ also buy an add-on for it there is also add-on with a big tank and you can buy it from the vendor too.
+
+37
+00:05:30,560 --> 00:05:35,840
+ There are also different add-ons you can like put on the side and so on so it's like buying a car
+
+38
+00:05:35,840 --> 00:05:43,840
+ more or less you can have all kinds of customizations and then yeah we have fixed water,
+
+39
+00:05:43,840 --> 00:05:54,160
+ we have coffee beans and milk. It's usually just supplied as milk powder and those are toppings.
+
+40
+00:05:54,160 --> 00:06:02,880
+ So there are different types there are also vegan types and we this machine currently is
+
+41
+00:06:02,880 --> 00:06:09,040
+ filled completely with vegan toppings and to actually mix the powder with the hot water
+
+42
+00:06:09,040 --> 00:06:19,920
+ we have or inside there are some mixer wheels more or less so you can see here on the left
+
+43
+00:06:19,920 --> 00:06:27,600
+ or not really well but we will see later in the machine on the left there is the coffee brewer
+
+44
+00:06:27,600 --> 00:06:39,920
+ more or less. Please don't break any stuff. In the middle we have more or less the closed mixer so
+
+45
+00:06:39,920 --> 00:06:47,520
+ from the top the toppings will drop in and will be mixed inside of this bowl with water and on
+
+46
+00:06:47,520 --> 00:06:54,320
+ the right there is basically a second one but that's just a mixer wheel so that's the opened mixer
+
+47
+00:06:54,320 --> 00:07:00,560
+ and that mixer makes the mixture creamy and mixes the water with the topping so you don't have
+
+48
+00:07:00,560 --> 00:07:10,480
+ crumbs in it and you can also run the motor at different speeds for example for the latte macchiato
+
+49
+00:07:10,480 --> 00:07:20,720
+ I mentioned earlier latte macchiato typically is or for these machines is milk in the middle it's
+
+50
+00:07:20,720 --> 00:07:27,120
+ coffee and then it's milk again and the machine actually makes this differently it does two
+
+51
+00:07:27,120 --> 00:07:34,640
+ pieces of milk and then the coffee on top and this works because the milk is mixed at different
+
+52
+00:07:34,640 --> 00:07:44,400
+ speeds of the mixer so they have different physical properties so that the coffee will actually
+
+53
+00:07:44,400 --> 00:07:50,240
+ be in a layer between the two milk layers although the milk powder is exactly the same.
+
+54
+00:07:50,800 --> 00:08:00,080
+ So that's quite interesting it's how those vendors come up with quite a few hacks on how to do
+
+55
+00:08:00,080 --> 00:08:03,120
+ premium coffee things and so on.
+
+56
+00:08:03,120 --> 00:08:12,320
+ And this is the whole machine how it was also set up at Lavendville inside of the camp area
+
+57
+00:08:12,320 --> 00:08:18,560
+ in the MetaLab dome and it will be later set up again there so if you want a coffee or
+
+58
+00:08:19,760 --> 00:08:26,400
+ some cocoa feel free to go there and use the machine and but you can see here you
+
+59
+00:08:26,400 --> 00:08:33,680
+ or we have three of those white containers where the powder toppings are inside there and those
+
+60
+00:08:33,680 --> 00:08:40,560
+ have a motor that will basically put in the powder into the mixer bowls.
+
+61
+00:08:43,680 --> 00:08:55,760
+ And about this machine this is the company is called Rea Vendors it's a quite large company
+
+62
+00:08:55,760 --> 00:09:04,400
+ and it seems to be initially located in Italy and the machine itself is called La Rea Grande Ti
+
+63
+00:09:05,120 --> 00:09:14,960
+ and then some we don't know what they what the rest actually means but
+
+64
+00:09:14,960 --> 00:09:24,560
+ there are different types of this machine. Last year at MetaLab we got a mail from somebody who
+
+65
+00:09:24,560 --> 00:09:31,760
+ said that they have at their office this machine and it's broken since a year and they want to get
+
+66
+00:09:31,760 --> 00:09:40,400
+ rid of it and if we would be interested in repairing it or doing some other stuff with it
+
+67
+00:09:40,400 --> 00:09:49,680
+ they didn't want to just throw it away but to maybe give it to people who repurpose it or repair it.
+
+68
+00:09:49,680 --> 00:09:59,920
+ And we both saw the mail and wrote to each other like a coffee machine and in the worst case we
+
+69
+00:09:59,920 --> 00:10:05,680
+ can always build a coffee pot out of it a cocktail pot yeah for the Robo Exotica
+
+70
+00:10:05,680 --> 00:10:15,440
+ and the initial error was that the brewer motor failed initializing and for the brewer motor is
+
+71
+00:10:15,440 --> 00:10:21,920
+ if we go to back to the picture if you have the brewer on the left you see that there is a piston
+
+72
+00:10:21,920 --> 00:10:29,120
+ inside and this piston is moved or the whole brewing chamber is moved for like 15 to 20 centimeters
+
+73
+00:10:29,680 --> 00:10:31,680
+ for the whole mechanism to work.
+
+74
+00:10:31,680 --> 00:10:42,640
+ So just before repairing it it was standing around the MetaLab or hex space for like three
+
+75
+00:10:42,640 --> 00:10:46,640
+ or four months and it annoyed quite some members because we don't have so much space
+
+76
+00:10:46,640 --> 00:10:51,840
+ but in the end we were motivated to take our time and repair it and so we're going to show
+
+77
+00:10:51,840 --> 00:10:55,520
+ you now the repair process how we debugged it and how we managed to repair it.
+
+78
+00:10:58,320 --> 00:11:06,960
+ Okay so the company or the people we got it from already said that they think it is probably a
+
+79
+00:11:06,960 --> 00:11:15,520
+ MOSFET power driver problem for the motor and so we were debugging a bit of the electronics and
+
+80
+00:11:15,520 --> 00:11:24,720
+ that's the board on the back of the machine so there are several boards we will go into the
+
+81
+00:11:25,840 --> 00:11:31,360
+ different boards in the slides too in a bit but there is one main board and that's in the back
+
+82
+00:11:31,360 --> 00:11:38,480
+ and there is all the power electronics there and all the motors are connected to this and there
+
+83
+00:11:38,480 --> 00:11:48,560
+ were two or the first you on the right the bigger MOSFETs we suspected at first so
+
+84
+00:11:52,160 --> 00:11:56,080
+ that was all the information we got from the people that they assumed that they are broken
+
+85
+00:11:56,080 --> 00:12:01,520
+ yeah but they they tried to order them the electronics and it's actually this data sheet
+
+86
+00:12:01,520 --> 00:12:09,280
+ there are some automotive MOSFETs and that's a bit interesting most of the electronics is actually
+
+87
+00:12:09,280 --> 00:12:20,720
+ automotive grade we don't know why but well endurance and yeah coffee coffee is critical
+
+88
+00:12:20,720 --> 00:12:29,680
+ infrastructure so that was our first try and they tried to order them but they are not complying
+
+89
+00:12:29,680 --> 00:12:38,160
+ with the arrow hs directive of the eu so they are not lead free so you can't get them at mauser or
+
+90
+00:12:38,160 --> 00:12:46,720
+ any other electronics company anymore but aliexpress for the win yeah that was really like
+
+91
+00:12:47,680 --> 00:12:57,920
+ five seconds of search and we found a bunch of them it turned out those MOSFETs weren't the
+
+92
+00:12:57,920 --> 00:13:04,480
+ problem so we swapped them they're actually new inside there now but those were not the actual
+
+93
+00:13:04,480 --> 00:13:12,400
+ problem so we further debugged the motor itself there is a pcb on side of on top of the motor
+
+94
+00:13:13,120 --> 00:13:21,200
+ and a magnetic wheel so when the motor turns there is a turn signal or there is a tachometer signal
+
+95
+00:13:21,200 --> 00:13:25,280
+ back to the main pcb that tells the
+
+96
+00:13:25,280 --> 00:13:35,040
+ microcontroller how far it has moved and also with current sensing basically the microcontroller
+
+97
+00:13:35,040 --> 00:13:43,040
+ can sense how much pressure the motor is currently applying to the whole brewing unit and we thought
+
+98
+00:13:43,520 --> 00:13:52,240
+ maybe this these sensors are actually at fault so we took a large oscilloscope for no reason and
+
+99
+00:13:52,240 --> 00:14:02,160
+ a power supply but those were actually working quite nice and then since the machine needs water
+
+100
+00:14:02,160 --> 00:14:08,960
+ we need to go to the kitchen we had to set up the whole thing in the in the kitchen yes
+
+101
+00:14:08,960 --> 00:14:12,960
+ including the oscilloscope and annoyed more people
+
+102
+00:14:12,960 --> 00:14:21,920
+ um so what we actually did there is we did a bit of tracing of on the pcb
+
+103
+00:14:21,920 --> 00:14:29,920
+ where the motor lines are actually or the motor connections are actually going to and it turned
+
+104
+00:14:29,920 --> 00:14:39,840
+ out they are they are split from for high and low sides into two chips and one of those chips
+
+105
+00:14:39,840 --> 00:14:52,560
+ yeah so on the left you can see there is this larger chip right next to the blue capacitor
+
+106
+00:14:52,560 --> 00:14:57,840
+ and there are two chips right below it and it's quite interesting those are for completely
+
+107
+00:14:57,840 --> 00:15:06,480
+ different motors and i or we think they did it this way because the upper chip does very well
+
+108
+00:15:06,480 --> 00:15:17,680
+ power sensing so you can get an analog value out of the chip for each output how much
+
+109
+00:15:17,680 --> 00:15:24,480
+ what's basically are going out to the motor and the lower chips are the lower side of the
+
+110
+00:15:25,200 --> 00:15:29,280
+ of the motor controller that basically just
+
+111
+00:15:29,280 --> 00:15:38,720
+ yeah control the negative side of the depending on how you turn the motor and those are can
+
+112
+00:15:38,720 --> 00:15:44,320
+ actually also do current sensing and they're not just standard mosfets they have some kind
+
+113
+00:15:44,320 --> 00:15:52,800
+ of electronics inside of there so you can you can break them a bit more difficult and also on the
+
+114
+00:15:52,800 --> 00:16:02,640
+ input pin you can actually do power sensing so if you supply a logic value to the input pin to actually
+
+115
+00:16:02,640 --> 00:16:11,760
+ to switch through the mosfet or to switch the mosfet and it's and the mosfet goes into power
+
+116
+00:16:11,760 --> 00:16:19,200
+ limiting it will try to lower the voltage on its input pin depending on how much overcurrent it
+
+117
+00:16:19,200 --> 00:16:28,160
+ is currently having so this was not implemented on the board but those are quite interested
+
+118
+00:16:28,160 --> 00:16:37,840
+ quite interesting features of those mosfets so and also again aliexpress and then after after
+
+119
+00:16:37,840 --> 00:16:45,280
+ clements clements did the soldering we started to pray for the first boot again and yeah we had our
+
+120
+00:16:45,280 --> 00:16:49,920
+ first success we had got the first coffee out of the machine but um
+
+121
+00:16:49,920 --> 00:17:01,360
+ it was cafe schwarz and it was really black and we didn't want to risk a subscription for the toilet
+
+122
+00:17:01,360 --> 00:17:08,880
+ because the machine wasn't clean for like one or two years so we started the cleaning process
+
+123
+00:17:08,880 --> 00:17:14,160
+ so we cleaned the whole machine and we brought you some pictures of the cleaning process
+
+124
+00:17:14,480 --> 00:17:24,240
+ and it was quite dirty and after that the machine was like like new and the good thing is the
+
+125
+00:17:24,240 --> 00:17:28,400
+ the company that produced the machines offers
+
+126
+00:17:28,400 --> 00:17:34,800
+ the machine that produced the machine offers a really good manual how to disassemble the parts
+
+127
+00:17:34,800 --> 00:17:40,240
+ and everything so it was quite easy to disassemble it and assemble it again and yes we had a clean
+
+128
+00:17:40,240 --> 00:17:46,160
+ machine and as next we're going to show you some more parts of the electronics
+
+129
+00:17:46,160 --> 00:17:50,240
+ okay um
+
+130
+00:17:50,240 --> 00:18:04,240
+ thanks okay so um there are actually three bigger pcbs inside one is the one we showed before that's
+
+131
+00:18:04,240 --> 00:18:11,200
+ the main pcb in the back that basically has most of the power stuff and then in the front we have
+
+132
+00:18:11,200 --> 00:18:17,280
+ a touch display and that one was really interesting when we opened the machine the first time because
+
+133
+00:18:17,280 --> 00:18:26,720
+ we saw that that's an arm imx6 processor so it's running pretty we were pretty sure it's running
+
+134
+00:18:26,720 --> 00:18:34,560
+ linux and also there is an sd card inside and it has some usb and a gigabit ethernet port that's
+
+135
+00:18:34,560 --> 00:18:42,240
+ everything of this is not used so you can use the usb port to program the machine
+
+136
+00:18:42,240 --> 00:18:55,120
+ but this also seems to be added later or it was added later and the second or the third pcb is
+
+137
+00:18:55,520 --> 00:19:02,480
+ a real power pcb because there is no no typical boiler inside of this machine
+
+138
+00:19:02,480 --> 00:19:07,280
+ it has an induction boiler so it can basically vary
+
+139
+00:19:07,280 --> 00:19:15,840
+ it can basically change the temperature of the water on the fly so if when it's currently running
+
+140
+00:19:15,840 --> 00:19:23,280
+ it's not heating the water if you press a button on or if you want a beverage it's basically
+
+141
+00:19:23,840 --> 00:19:31,360
+ heating the water on the fly and not taking too much energy and also it's quite interesting
+
+142
+00:19:31,360 --> 00:19:39,680
+ you can program different water temperatures for the different outlets and depending when they are
+
+143
+00:19:39,680 --> 00:19:47,600
+ switched over the valves you can get a mixture of different water temperatures which is i think
+
+144
+00:19:47,600 --> 00:19:55,680
+ quite unique for this machine and also for repairing or for for taking it apart those machines are
+
+145
+00:19:55,680 --> 00:20:04,000
+ typically really big so there is a lot of space inside you can more or less take the whole machine
+
+146
+00:20:04,000 --> 00:20:13,360
+ apart you can replace everything you can you can really maintain the machine quite well so
+
+147
+00:20:14,480 --> 00:20:22,160
+ compared to those cheap plastic machines also that are sometimes on on smaller offices
+
+148
+00:20:22,160 --> 00:20:30,960
+ these machines can basically live forever if you have enough supply of a few things that might
+
+149
+00:20:30,960 --> 00:20:37,920
+ break like the valves or so on but they're all standard valves well then let's check out the
+
+150
+00:20:37,920 --> 00:20:42,480
+ software hardware setup so as said glans already said we have two components there there is like
+
+151
+00:20:42,480 --> 00:20:48,480
+ this there is a cpu inside it's like a mic controller 16-bit industrial or coffee processing unit
+
+152
+00:20:48,480 --> 00:20:58,080
+ and there is a gpu it's a imx6 arm linux board and on this linux system there is a qt binary running
+
+153
+00:20:58,080 --> 00:21:06,720
+ with displaying the rear gui on the display the rear gui is a html javascript based web application
+
+154
+00:21:07,680 --> 00:21:14,320
+ and you can run it in your browser actually it doesn't make coffee but it says it does and there
+
+155
+00:21:14,320 --> 00:21:24,800
+ is a rear boot exe file so you have an exe file you have an arm cpu and if linux running what
+
+156
+00:21:24,800 --> 00:21:35,120
+ um let's solve the mystery it's a dot net binary for flashing configuration files and extracting
+
+157
+00:21:35,120 --> 00:21:45,120
+ configurations and it's run with mono on the linux arm processor well it works it it works
+
+158
+00:21:45,120 --> 00:21:54,240
+ and uh when you and you put in a flash drive with a specific folder structure it boots this
+
+159
+00:21:54,240 --> 00:22:01,440
+ this uh this tool to to to put the config on it or to get the config and i must say i still
+
+160
+00:22:01,440 --> 00:22:05,600
+ understand how the boot procedure still works because you have the qt binary and the and the
+
+161
+00:22:05,600 --> 00:22:11,120
+ config binary and i'm still not sure how they know when to start what i tried to find it didn't
+
+162
+00:22:11,120 --> 00:22:18,960
+ manage to find it in the system so um you have also a windows tool to program it it it looks like
+
+163
+00:22:18,960 --> 00:22:30,240
+ this it's uh let's say last century more or less the the red picture down there is also animated
+
+164
+00:22:30,240 --> 00:22:39,280
+ also quite nice i'm sure that was a feature request and but i must say even though the ux is quite
+
+165
+00:22:39,280 --> 00:22:46,720
+ questionable it is super powerful comfortable configuration like this you can really make a
+
+166
+00:22:46,720 --> 00:22:52,000
+ power saving menus you can make happy hours you have a really a lot of configuration options for
+
+167
+00:22:52,000 --> 00:22:59,360
+ the machine it's super nice but the interface is quite interesting let's say like that but let's
+
+168
+00:22:59,360 --> 00:23:06,000
+ get on the program on the machine part so there is a programming menu in the machine itself a touch
+
+169
+00:23:06,000 --> 00:23:17,760
+ screen it looks like this you see different buttons uh it doesn't look very um comfortable
+
+170
+00:23:17,760 --> 00:23:24,960
+ to use and i will come back later to to this part why and what uh let's first also check out the web
+
+171
+00:23:24,960 --> 00:23:32,800
+ app um if you press the manual online button it will actually display the pdf of the manual of
+
+172
+00:23:32,800 --> 00:23:38,800
+ the machine from dsd card on the tft display and you can scroll through it it's quite nice but it's
+
+173
+00:23:38,800 --> 00:23:48,800
+ also a bit annoying to scroll i think there are a few hundred pages um so there is this web app it's
+
+174
+00:23:48,800 --> 00:23:55,920
+ html page and uh when you're on the menu you can choose the beverage in the end and there is like
+
+175
+00:23:55,920 --> 00:24:02,720
+ a page menu html where the beverage is shown and if you choose a beverage you come to a page confirm
+
+176
+00:24:02,720 --> 00:24:09,840
+ page and uh they have like the selector is still like the parameter what what coffee or cacao you
+
+177
+00:24:09,840 --> 00:24:20,240
+ want and if you press the confirmation one it goes to another html page and uh when you confirm it
+
+178
+00:24:20,240 --> 00:24:27,760
+ there is this qt binary as far as i understand understand the process it will check the url with
+
+179
+00:24:27,760 --> 00:24:33,840
+ the parameter and will know what coffee or beverage it will make and when it's done it will change the
+
+180
+00:24:33,840 --> 00:24:41,920
+ url again in the binary that you come to the done page and will switch back to the menu so so the
+
+181
+00:24:41,920 --> 00:24:50,640
+ api between the web page and the uh the qt binary is actually the url parameters so the the qt
+
+182
+00:24:50,640 --> 00:24:57,920
+ binary manage the whole whole html in the back in the end and uh shows it there let's show you some
+
+183
+00:24:57,920 --> 00:25:05,440
+ excerpt from the javascript files that found so that's how you how you how it's implemented on
+
+184
+00:25:05,440 --> 00:25:15,040
+ the javascript the whole thing are like arrays in javascript and they have a name and a picture path
+
+185
+00:25:15,040 --> 00:25:23,600
+ and you can change the names you can change the pictures and it's also quite interesting one
+
+186
+00:25:23,600 --> 00:25:29,280
+ even more interesting is the the javascript for the prices
+
+187
+00:25:29,280 --> 00:25:36,640
+ like every array part is one of the beverage with the price in cents
+
+188
+00:25:36,640 --> 00:25:44,320
+ but i'm not even sure if the machine knows what currency it's running on so seems so that there
+
+189
+00:25:44,320 --> 00:25:52,480
+ is no currency logic behind it but i was digging in the binary the really interesting thing is when
+
+190
+00:25:52,480 --> 00:25:59,760
+ starting it up it's actually uh it updates those files the binary updates those files but i will
+
+191
+00:25:59,760 --> 00:26:06,800
+ show you know what so i was digging at qt binary with githra and i found this function in there
+
+192
+00:26:06,800 --> 00:26:14,080
+ it's called generate javascript price and availability and uh let's see what this means
+
+193
+00:26:15,040 --> 00:26:23,520
+ so there is code that generates the javascript down there from the binary from from text more
+
+194
+00:26:23,520 --> 00:26:29,120
+ or less yeah from sex so the binary generates the javascript file in the end because the config is
+
+195
+00:26:29,120 --> 00:26:38,720
+ on the machine and not on the html files and javascript files um so next uh we also check
+
+196
+00:26:38,720 --> 00:26:45,680
+ the communication between the machine and the front and more or less yeah so between the linux
+
+197
+00:26:45,680 --> 00:26:55,680
+ system in the front and the the 16 bit uh processor in the back uh there is a serial port and uh
+
+198
+00:26:55,680 --> 00:27:05,600
+ we already saw in the linux system that it's opening the tty on the imx um board more or less
+
+199
+00:27:05,600 --> 00:27:14,240
+ and then just found s trace in the system and we're like okay easy task let's try this out
+
+200
+00:27:14,240 --> 00:27:24,560
+ and found that um so you can see uh dark red and uh dark green lines here and one line per or they
+
+201
+00:27:24,560 --> 00:27:32,160
+ um they just uh one is sent uh to the machine or to the controller one comes from the machine the
+
+202
+00:27:32,160 --> 00:27:38,560
+ red line comes from the controller in the back in the back and the green line is sent to the
+
+203
+00:27:38,560 --> 00:27:45,760
+ controller from the front linux system and it's roughly every second and if you don't do anything
+
+204
+00:27:45,760 --> 00:27:51,600
+ here um more or less the binary command that's or the binary message that's sent from the linux
+
+205
+00:27:51,600 --> 00:27:59,520
+ system is more or less always the same um the the red messages are interesting because uh in the
+
+206
+00:28:00,400 --> 00:28:06,800
+ middle um there is this text that the machine displays in the lower half of the machines
+
+207
+00:28:06,800 --> 00:28:16,240
+ or the display displays in the lower half of the machine um so um and it has a quite weird encoding
+
+208
+00:28:16,240 --> 00:28:25,680
+ because uh if you see on the in the top here um there is uh in german for the uh for this trace
+
+209
+00:28:26,160 --> 00:28:32,960
+ uh filled wasa off bitter vaten and between off between the two words off and bitter there is no
+
+210
+00:28:32,960 --> 00:28:41,200
+ space there is no character no anything between there and that was quite weird for us um and also
+
+211
+00:28:41,200 --> 00:28:46,400
+ um there was a weird break on the display too so there there was like a space between the two
+
+212
+00:28:46,400 --> 00:28:53,760
+ words but it was not just a regular white space so more information about it it's a binary protocol
+
+213
+00:28:53,760 --> 00:29:01,840
+ so the first part is always binary and the last part is always a binary code and also the commands
+
+214
+00:29:01,840 --> 00:29:15,280
+ that are sent from the touch display to the back are some binary messages and those texts with a
+
+215
+00:29:15,280 --> 00:29:24,320
+ missing space in the middle when debugging this or let's see uh let's look at it here um when
+
+216
+00:29:24,320 --> 00:29:33,920
+ counting the characters uh we always found that the whole text is 32 characters long and the middle
+
+217
+00:29:33,920 --> 00:29:45,920
+ part where there is no space is always 16 characters or add 16 characters and who did a bit more of
+
+218
+00:29:45,920 --> 00:29:55,200
+ electronics probably already knows where the software comes from we like okay hmm and then
+
+219
+00:29:55,200 --> 00:30:02,400
+ we realized in the end there is this corrector display shout out 20 for the photo box in the
+
+220
+00:30:02,400 --> 00:30:09,440
+ binary kitchen tent and in the end the text is usually shown on such a corrector display
+
+221
+00:30:09,440 --> 00:30:16,000
+ and they in the end only use this display to show the characters instead to implement a proper
+
+222
+00:30:16,000 --> 00:30:22,080
+ software for it because the older machines only have these buttons and a corrector display in the
+
+223
+00:30:22,080 --> 00:30:29,360
+ end so the buttons you saw on that on the touch display for the programming menu probably on a
+
+224
+00:30:29,360 --> 00:30:36,640
+ previous version of this machine um the those were actually real buttons and the texts are sent for
+
+225
+00:30:36,640 --> 00:30:44,400
+ those 16 uh characters uh by two lines so 32 characters displays you have in this in this
+
+226
+00:30:44,400 --> 00:30:51,520
+ really old vending machines and um probably uh the whole back of the machine so thinks that it's some
+
+227
+00:30:51,520 --> 00:30:59,280
+ kind of machine that has physical buttons and no touch display and for a block diagram so those
+
+228
+00:30:59,280 --> 00:31:07,440
+ are the three um pcbs we have the the heater board we have the cpu and power board and the linux board
+
+229
+00:31:07,440 --> 00:31:16,000
+ that's connected over serial and everything that is part of the machine even payment and some and
+
+230
+00:31:16,000 --> 00:31:23,520
+ some kind of modem you can plug in is connected to the 16-bit controller so what is a bit frustrating
+
+231
+00:31:23,520 --> 00:31:31,200
+ because we are hoping to do more hacking from the linux system but we have to deal with the 16 16
+
+232
+00:31:31,200 --> 00:31:39,040
+ bit controller so it's super hard to you need to reverse engineer every option in the end to
+
+233
+00:31:39,040 --> 00:31:43,920
+ implement the same binary protocol to configure the whole machine and work with it it's quite
+
+234
+00:31:43,920 --> 00:31:54,640
+ tedious task in the end and then let's get to our lessons learned um always verify claims if someone
+
+235
+00:31:54,640 --> 00:32:02,720
+ makes them because uh well sometimes they are not uh correct aliexpress sells you automotive ships
+
+236
+00:32:02,720 --> 00:32:07,600
+ that you don't get in europe or in austria especially the only problem in austria is we
+
+237
+00:32:07,600 --> 00:32:12,800
+ have real luck because in austria is a new law that you can't get easy stuff anymore because of
+
+238
+00:32:12,800 --> 00:32:18,880
+ some packaging directive and we are really lucky because it was from the first of january 2023
+
+239
+00:32:18,880 --> 00:32:25,600
+ in charge and we ordered it like in december and got it before that really lucky for us i think
+
+240
+00:32:25,600 --> 00:32:30,240
+ we actually got it in january or in january but still delivered but currently aliexpress doesn't
+
+241
+00:32:30,240 --> 00:32:38,320
+ deliver to austria or not a lot most of aliexpress sellers um as you see industrial equipment is state
+
+242
+00:32:38,320 --> 00:32:45,040
+ of the art legacy it's it's really it was a little bit heartbreaking for us to see the reality that
+
+243
+00:32:45,040 --> 00:32:52,800
+ we deal with and one interesting thing is also the windows configuration software is not publicly
+
+244
+00:32:52,800 --> 00:32:58,960
+ available and we currently doesn't have the latest version and we can't use it for the coffee machine
+
+245
+00:32:58,960 --> 00:33:08,240
+ configuration currently so this machine is built in 2017 um so quite new actually um i think those
+
+246
+00:33:08,240 --> 00:33:15,920
+ those machine types were introduced around 2015 or 16 and the screenshot you showed from we showed
+
+247
+00:33:15,920 --> 00:33:23,920
+ from the windows tool i think was one year before this machine appeared and if you look very long
+
+248
+00:33:23,920 --> 00:33:31,360
+ in the internet and we spent several hours looking for stuff for on these machines you can find it on
+
+249
+00:33:31,360 --> 00:33:39,440
+ some shady download grabbers grabber portals or whatever but we still haven't found a version
+
+250
+00:33:39,440 --> 00:33:45,280
+ where we can actually program this machine it's possible to program it over the the touch display
+
+251
+00:33:45,280 --> 00:33:55,520
+ but uh yeah you can take hours just for a single beverage so there's also some possible future work
+
+252
+00:33:55,520 --> 00:34:02,640
+ in this regards so there's also more possibilities for software analysis analysis we would like to
+
+253
+00:34:02,640 --> 00:34:10,560
+ obtain the programming software so if someone has something lying around you'll be happy to talk
+
+254
+00:34:10,560 --> 00:34:16,240
+ with you or if you know somebody who knows somebody who works at a coffee vending company maybe
+
+255
+00:34:16,240 --> 00:34:22,000
+ um i still want to understand how the boot procedure works because there are two different
+
+256
+00:34:22,000 --> 00:34:28,720
+ binaries and i couldn't trace how they know if the flash drive is plugged in everything it's still a
+
+257
+00:34:28,720 --> 00:34:37,200
+ ongoing um research for me so if you want to help out or interesting more for a machine
+
+258
+00:34:37,200 --> 00:34:48,320
+ talk to us ping us um and we have two more interesting things so um there is rfc 2324 who
+
+259
+00:34:48,320 --> 00:34:57,040
+ knows it who has read it okay quite a lot of people um so i was playing around since a few
+
+260
+00:34:57,040 --> 00:35:02,560
+ years to actually implement it on a coffee machine and then this machine came around and i said hey
+
+261
+00:35:02,560 --> 00:35:10,480
+ finally um a machine that could run it but it turns out it's a bit more difficult and actually
+
+262
+00:35:10,480 --> 00:35:19,920
+ while working on the machine and um looking at the rfc uh the coffee pot control protocol is really
+
+263
+00:35:19,920 --> 00:35:27,600
+ just more or less for coffee pots so classic coffee pots um espresso machines it's difficult
+
+264
+00:35:27,600 --> 00:35:39,840
+ also this machine can do also can make tea with tea powder and i've heard there is a specific type
+
+265
+00:35:39,840 --> 00:35:48,160
+ that it's not too bad um and also this one can actually also do a soup so there is soup powder
+
+266
+00:35:48,160 --> 00:35:55,040
+ um we don't have anything we don't have tea we don't have soup uh but uh because typically
+
+267
+00:35:55,040 --> 00:36:00,400
+ you have to take like 10 kilos of it and we don't want to risk to have 10 kilos of soup
+
+268
+00:36:00,400 --> 00:36:08,640
+ for this machine lying around um and maybe a new rfc extension for the coffee pot control
+
+269
+00:36:08,640 --> 00:36:16,160
+ protocol is needed for coffee pots and not tea pots for those machines too at least we have also
+
+270
+00:36:16,160 --> 00:36:20,240
+ crème brûlée as a powder flavor yeah we have crème brûlée
+
+271
+00:36:20,240 --> 00:36:29,440
+ it's quite tasty if you don't have too much powder in your in your coffee mug
+
+272
+00:36:29,440 --> 00:36:34,480
+ yeah it's uh it was a bit difficult to find the right dosage
+
+273
+00:36:36,720 --> 00:36:43,760
+ um well and there's of course the last question that everyone wants to know does it run doom
+
+274
+00:36:43,760 --> 00:36:49,520
+ and well i can say it can let's check it out
+
+275
+00:36:49,520 --> 00:36:58,320
+ uh
+
+276
+00:36:58,320 --> 00:37:15,280
+ there is uh actually a safety um switch here so that you can't operate the machine
+
+277
+00:37:15,280 --> 00:37:19,760
+ when it's turned on but you have to operate the machine when it's turned on to program it
+
+278
+00:37:19,760 --> 00:37:29,440
+ so there is a anti-safety key here that is here in the machine for maintenance
+
+279
+00:37:29,440 --> 00:37:35,360
+ and it's it actually switches completely switches off the power
+
+280
+00:37:39,520 --> 00:37:47,840
+ and programming the machines there is a there is a button uh inside of here or actually two buttons
+
+281
+00:37:47,840 --> 00:37:53,840
+ i'm not sure they do the same i'm not sure why uh they put in two buttons but i think uh this
+
+282
+00:37:53,840 --> 00:38:00,800
+ plastic presses plastic presses on the first button and if you press it for a second then
+
+283
+00:38:00,800 --> 00:38:08,320
+ it will go into the program mode i'm still waiting until our management wi-fi hotspot uh
+
+284
+00:38:08,320 --> 00:38:14,720
+ turns on it's in the machine inside we added it so i can ssh into the machine
+
+285
+00:38:14,720 --> 00:38:25,360
+ and uh so even though the the serial protocol is quite weird and the setup is quite weird
+
+286
+00:38:25,360 --> 00:38:32,880
+ they i think they're actually quite nice machines um i think it's more the more of a management
+
+287
+00:38:32,880 --> 00:38:39,360
+ issue of the project that it turned out like this um because you could do a lot more with those
+
+288
+00:38:39,360 --> 00:38:48,640
+ electronics and um that's actually the board here is custom but there is a system on a board here
+
+289
+00:38:48,640 --> 00:38:57,280
+ um that's uh from uh very side so that's a vendor that uh supplies you with um linux
+
+290
+00:38:57,280 --> 00:39:02,800
+ arm linux boards where you can just run software and i think it's even running some kind
+
+291
+00:39:02,800 --> 00:39:09,280
+ of debian uh they publish on the site probably on the website probably a few years ago um
+
+292
+00:39:09,280 --> 00:39:17,680
+ you have an ethernet port here and there was no root password or anything um because yeah if
+
+293
+00:39:17,680 --> 00:39:24,080
+ you have the machine open you can do whatever you like and the root fs is completely on the sd card
+
+294
+00:39:24,080 --> 00:39:29,920
+ so um that's actually quite nice for swapping out the logos or trying out things uh you don't have
+
+295
+00:39:29,920 --> 00:39:48,160
+ to flash anything um you want i guess you
+
+296
+00:39:54,320 --> 00:40:00,160
+ so um it has a touch display so it had to be done or it has a display so it had to be done
+
+297
+00:40:00,160 --> 00:40:07,840
+ we're running just a frame buffer doom although the machine itself is running x11
+
+298
+00:40:07,840 --> 00:40:12,880
+ which is fine um and
+
+299
+00:40:12,880 --> 00:40:19,120
+ we already in before we started to
+
+300
+00:40:23,040 --> 00:40:27,280
+ to look into the serial protocol and the software we thought like we could actually integrate
+
+301
+00:40:27,280 --> 00:40:32,880
+ those two parts that you can either switch between coffee mode and doom mode or actually
+
+302
+00:40:32,880 --> 00:40:41,680
+ implement a few things in doom where the coffee you get depends on your doom points
+
+303
+00:40:41,680 --> 00:40:48,320
+ and if you die just at the beginning you will just get hot water
+
+304
+00:40:51,840 --> 00:40:57,360
+ but that's still to do i need to kill the x11 search
+
+305
+00:40:57,360 --> 00:41:16,080
+ so a bit of um information on the machine itself all of those containers you can actually take out
+
+306
+00:41:16,720 --> 00:41:26,480
+ so um that's more or less empty currently for example um you can just take this out
+
+307
+00:41:26,480 --> 00:41:37,920
+ the motor plugs in into the rear here and operates the um the mechanism um for the uh powder and um
+
+308
+00:41:45,120 --> 00:41:46,640
+ it should also fit again
+
+309
+00:41:46,640 --> 00:41:54,320
+ ah yeah
+
+310
+00:41:54,320 --> 00:42:03,520
+ all right our demo failed i'm very sorry
+
+311
+00:42:03,520 --> 00:42:08,320
+ you can come to the village and we'll show it to you we're gonna fix it
+
+312
+00:42:08,880 --> 00:42:12,480
+ okay
+
+313
+00:42:12,480 --> 00:42:26,080
+ thank you very much for your presentation uh we are out of time but since uh you are so
+
+314
+00:42:26,080 --> 00:42:33,840
+ maybe uh tell everyone where exactly uh can can they find you um we are um more or less at the
+
+315
+00:42:33,840 --> 00:42:41,520
+ meta lab or lavendville village that's on the match is the village the village was the largest
+
+316
+00:42:41,520 --> 00:42:50,640
+ or the longest name and it's the silver or white dome basically right next to chaos west i think
+
+317
+00:42:50,640 --> 00:43:05,760
+ chaos west probably is known by everybody thank you very much yeah thank you
+

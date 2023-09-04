@@ -1,0 +1,1724 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:42,000
+ Und dann begrüße ich unsere nächste Speakerin Coco, die über die Digitalisierung im Monitoring häufiger Brutvögel euch was erzählen wird.
+
+3
+00:00:42,000 --> 00:00:48,000
+ Da begrüßt sie doch mal ganz herzlich und dann viel Spaß mit dem Vortrag.
+
+4
+00:00:48,000 --> 00:00:53,000
+ [Applaus]
+
+5
+00:00:53,000 --> 00:01:01,000
+ Hallo erstmal, schön, dass ihr alle da seid und ich möchte euch jetzt ein Beispiel vorstellen über Digitalisierung im Umweltmonitoring,
+
+6
+00:01:01,000 --> 00:01:07,000
+ nämlich im Monitoring von unseren häufigen Brutvögeln und werde erstmal erwähnen wofür es das überhaupt gibt.
+
+7
+00:01:07,000 --> 00:01:16,000
+ Nämlich sogenannte Umweltindikatoren werden benötigt von einer Verwaltung im Idealfall guckt auch die Politik sie an und qualifizierte Entscheidungen zu treffen
+
+8
+00:01:16,000 --> 00:01:20,000
+ und eben um den Erfolg von Umweltmaßnahmen zu bewerten.
+
+9
+00:01:20,000 --> 00:01:26,000
+ Das heißt, wenn ich jetzt irgendeine Umnaturschutzmaßnahme durchgeführt habe, will ich ja wissen, hat es überhaupt was gebracht.
+
+10
+00:01:26,000 --> 00:01:33,000
+ Und deswegen mache ich vorher nachher Vergleich über, um zu bewerten die Tierart, die ich damit schützen wollte, hat die sich jetzt wirklich wieder vermehrt.
+
+11
+00:01:33,000 --> 00:01:39,000
+ Da muss ich natürlich Informationen haben, die vorher nachher mit genau den gleichen Methoden am besten von den gleichen Beobachtern erfasst wurden.
+
+12
+00:01:39,000 --> 00:01:48,000
+ Wenn man das über mehrere Jahre und Jahrzehnte hinweg macht, so eine Beobachtungskurve hat, dann bekommt man eben so einen Indikator,
+
+13
+00:01:48,000 --> 00:01:54,000
+ der eben die sehr komplexe Wirklichkeit in sogar für Politiker verständlicher Formen abbildet.
+
+14
+00:01:54,000 --> 00:02:03,000
+ So zwei Beispiele für solche Indikatoren sind etwa die Biodiversität Strategie 2030.
+
+15
+00:02:03,000 --> 00:02:10,000
+ Das ist ein Maßnahmenpaket auf EU-Ebene und zwar geht es dabei um die Wiederherstellung der Ökosysteme.
+
+16
+00:02:10,000 --> 00:02:20,000
+ Jeder hat schon mal von Natura 2000 gehört und den FFH-Gebieten, da ging es ja darum, die noch vorhandenen Naturflächen zu schützen.
+
+17
+00:02:20,000 --> 00:02:26,000
+ Und bei der Strategie 2030 geht es jetzt darum, bereits geschädigte Ökosysteme wiederherzustellen.
+
+18
+00:02:26,000 --> 00:02:34,000
+ Um den Erfolg dieses Gesetzespakets oder Richtlinienpakets zu überwachen, wurden 26 Indikatoren entwickelt.
+
+19
+00:02:34,000 --> 00:02:41,000
+ Die sogenannten SEBI-Indikatoren. SEBI steht hier Streamlining European Biodiversity Indicators.
+
+20
+00:02:41,000 --> 00:02:50,000
+ Und der Name sagt schon Streamlining, das heißt in jedem Mitgliedsland gibt es ja bereits Indikatoren, die vor Ort von der Politik verwendet werden.
+
+21
+00:02:50,000 --> 00:02:54,000
+ Man möchte nicht alle Daten neu erfassen, sondern man streamlnigt diese Indikatoren.
+
+22
+00:02:54,000 --> 00:03:03,000
+ Man berechnet aus den Rohdaten etwas, das vergleichbar ist, dass ich die vorhandenen Daten, die ich aus den Mitgliedsländern bekomme, in eine vergleichbare Form bringe.
+
+23
+00:03:03,000 --> 00:03:12,000
+ Und einer davon, mit dem wir hier arbeiten werden, ist the Abundance and Distribution of Selected Species, also Häufigkeit und Verbreitung ausgewählter Arten.
+
+24
+00:03:12,000 --> 00:03:20,000
+ Die Rohdaten für diesen Indikator liefert das PEC BMS, das Pan-European Common Bird Monitoring Steam.
+
+25
+00:03:20,000 --> 00:03:27,000
+ Und aus dem Namen geht schon davor, die Selected Species, die der Indikator überwacht, sind alles Vögel.
+
+26
+00:03:27,000 --> 00:03:38,000
+ Ein anderer Indikator, den wir hier in Deutschland nutzen, ist die Deutsche Nachhaltigkeitsstrategie, die seit 2002, also in über 20 Jahren, mit immer kleinen Anpassungen fortgeschrieben wird.
+
+27
+00:03:38,000 --> 00:03:41,000
+ Die verwendet ein Set aus 75 Indikatoren.
+
+28
+00:03:41,000 --> 00:03:45,000
+ Einer davon ist der Artenvielfalt und Landtagsqualität.
+
+29
+00:03:45,000 --> 00:03:48,000
+ Manche, die sich mit Umweltdingen befassen haben, haben vielleicht schon von dem gehört.
+
+30
+00:03:48,000 --> 00:03:55,000
+ Die Rohdaten für diesen Indikator kommen aus demselben Datenpool, nämlich vom Dachverband Deutsche Arvipaunisten.
+
+31
+00:03:55,000 --> 00:03:59,000
+ Und der beliefert auch den deutschen Teil vom PEC BMS.
+
+32
+00:03:59,000 --> 00:04:06,000
+ Weil PEC BMS ist ja ein Verband von, ja, wo aus jedem europäischen Land ein Verband Rohdaten liefert.
+
+33
+00:04:06,000 --> 00:04:13,000
+ Für Deutschland liefert die DDR die Rohdaten und genau dieselben Rohdaten gehen in die Deutsche Nachhaltigkeitsstrategie ein, denn man erfasst das ja nicht doppelt.
+
+34
+00:04:13,000 --> 00:04:18,000
+ Das heißt, ah, es fährt erstmal der Zug vorbei da hinten. Ich rede einfach weiter.
+
+35
+00:04:18,000 --> 00:04:29,000
+ Das Monitoring häufiger Brutvögel vom Dachverband Deutsche Arvipaunisten schweißt die Distribution of Selected Species und genauso auch die Artenvielfalt und Landtagsqualität aus den gleichen Rohdaten.
+
+36
+00:04:29,000 --> 00:04:36,000
+ Jetzt kann man sich fragen, warum nennt ihr das Selected Species oder Landtagsqualität, wenn ja eigentlich nur die Vögel zählt.
+
+37
+00:04:36,000 --> 00:04:40,000
+ Hatten Grund, nämlich andere Tiere, Säugetiere und so sind ja sehr scheu.
+
+38
+00:04:40,000 --> 00:04:44,000
+ Da kann man immer nur so an Spuren schätzen, wie viele es geben könnte.
+
+39
+00:04:44,000 --> 00:04:51,000
+ Vögel sind anders, die sieht man, die hört man sehr, sehr laut, die kann man zählen, indem man einfach durch die Landschaft geht und jede Beobachtung notiert.
+
+40
+00:04:51,000 --> 00:04:56,000
+ Und ein anderer Grund ist, dass Vögel sehr schnell auf Veränderung in der Landschaft reagieren.
+
+41
+00:04:56,000 --> 00:05:01,000
+ Man weiß ja, die meisten Singvögel sind Zugvögel, die ziehen jedes Jahr einmal um die halbe Welt.
+
+42
+00:05:01,000 --> 00:05:10,000
+ Und wenn die im Frühjahr zurückkommen und die Fläche ist geschädigt oder gar nicht mehr da, gehen sie halt woanders hin und zählt man das Gebiet neu, sieht man, aha, die Vögel sind weg.
+
+43
+00:05:10,000 --> 00:05:18,000
+ Und andererseits, wenn eine Fläche wieder hergestellt wird, die Zugvögel kommen, zurückziehen, über das Land lassen, sich nieder, wo es passt, dann sieht man, da sind die Vögel sehr, sehr schnell wieder da.
+
+44
+00:05:18,000 --> 00:05:23,000
+ Sind also erstens gut zählbar und reagieren sehr schnell auf Veränderungen in der Landschaft.
+
+45
+00:05:23,000 --> 00:05:33,000
+ Dieses Monitoring-Ruhiger Brutvögel wird durchgeführt auf 2637 Probeflächen, jede davon ist einmal ein Kilometer groß.
+
+46
+00:05:33,000 --> 00:05:41,000
+ Die wurden einmal vor über 20 Jahren ausgewählt vom Statistischen Bundesamt und sind eine repräsentative Auswahl von Deutschlands Landschaften.
+
+47
+00:05:41,000 --> 00:05:51,000
+ Auf jeder dieser Quadratmeter zählen ehrenamtliche Börder viermal im Jahr, also von März bis Juni jeweils einmal im Monat, alle Vögel, die sie sehen oder hören.
+
+48
+00:05:51,000 --> 00:05:58,000
+ Und wenn man sich nochmal diese Karte hier anguckt, vielleicht erkennt man die Farben jetzt bei diesem Licht nicht so gut.
+
+49
+00:05:58,000 --> 00:06:06,000
+ Die roten Punkte hier in den Flächen, die wirklich vergeben sind, also wo jemand zählt, wenn man genau näher rangeht, sieht man grüne Punkte.
+
+50
+00:06:06,000 --> 00:06:12,000
+ Das sind Flächen, für die sich doch kein ehrenamtlicher gefunden hat, die also im Moment gar nicht gemonitort werden.
+
+51
+00:06:12,000 --> 00:06:14,000
+ Wir verwerten halt die Daten, die da sind.
+
+52
+00:06:14,000 --> 00:06:23,000
+ Das heißt, wenn ihr gerne Vögel zählt oder einfach nur gerne spazieren geht und die wichtigsten 100 Vögel auseinanderhalten könnt, meldet euch, sucht euch die Fläche in eurer Nähe aus.
+
+53
+00:06:23,000 --> 00:06:28,000
+ Bis vor vier Jahren haben wir das allen Ernstes auf Papier gemacht.
+
+54
+00:06:28,000 --> 00:06:34,000
+ Wir gingen jedes Jahr los mit vier großen A3-Bögen, jeden Monat einer, und da wurde da mit Bleischrift eingetragen.
+
+55
+00:06:34,000 --> 00:06:38,000
+ Also wir hatten für jeden Vogel eine Abkürzung und für jedes beobachtete Vogel verhaltene Abkürzung.
+
+56
+00:06:38,000 --> 00:06:44,000
+ Also eingetragen Ansel, A, singend, kreuz drüber oder so, bewegend von da nach da mit einem Pfeil.
+
+57
+00:06:44,000 --> 00:06:48,000
+ Und haben also alles, was wir gesehen haben, in diese große Papierkarte reingemalt.
+
+58
+00:06:48,000 --> 00:06:53,000
+ Wenn wir vier von diesen Karten voll hatten, haben wir uns ein Stapel kleiner Kopien dieser Karte genommen und eingetragen.
+
+59
+00:06:53,000 --> 00:07:00,000
+ Auf einem Blatt alle Anseln aus den vier durchlaufen, auf anderes Blatt alle Zaunkündiger aus den vier durchlaufen, dass wir also Artkarten hatten.
+
+60
+00:07:00,000 --> 00:07:04,000
+ Alle Beobachtungen von einer Art aus diesem Jahr auf einer Karte.
+
+61
+00:07:04,000 --> 00:07:09,000
+ Und dann wurde mit Kugelschreiber eingekreist, welche dieser Beobachtungen wir meinen in ein Revier zu gehören.
+
+62
+00:07:09,000 --> 00:07:14,000
+ Also dieses Pärchen muss zusammen mit einem Revier sein, denn die treten immer nebeneinander auf.
+
+63
+00:07:14,000 --> 00:07:20,000
+ Dieses Männchen habe ich zweimal singend gesehen, aber immer auf dem gleichen Dach. Der wird wohl da ansässig sein und so.
+
+64
+00:07:20,000 --> 00:07:24,000
+ Das war dann ein bisschen Tabellenarbeit, dass man nachschlägt, in welchem Monat brüten die Vögel überhaupt.
+
+65
+00:07:24,000 --> 00:07:30,000
+ Andere Beobachtungen können Zufall sein. Und dass ich nachschlage, wie groß ist ungefähr ein Revier bei dieser Vogelart.
+
+66
+00:07:30,000 --> 00:07:36,000
+ Und praktisch war es meistens einfach Erfahrungswissen, Bauchgefühl.
+
+67
+00:07:36,000 --> 00:07:41,000
+ Im Jahr 2020 wurde zum Glück endlich mal ein Teil davon automatisiert.
+
+68
+00:07:41,000 --> 00:07:45,000
+ Man guckt natürlich, schreibe ich was auf der grünen Wiese neu oder benutze ich was, was da ist?
+
+69
+00:07:45,000 --> 00:07:53,000
+ Natürlich war längst was da. Und zwar seit über 15 Jahren melden eigentlich fast alle Birdwatcher in Deutschland, Luxemburgs und der Schweiz
+
+70
+00:07:53,000 --> 00:08:01,000
+ ihre Zufallsbeobachtungen oder auch ihre mehr oder weniger systematischen Beobachtungen, wenn sie regelmäßig durch ihren Lieblingspark gehen und erzählen,
+
+71
+00:08:01,000 --> 00:08:06,000
+ auf der Plattform Ornito, die natürlich auch vom DDR betrieben wird.
+
+72
+00:08:06,000 --> 00:08:13,000
+ Und zur Erfassung im Gelände gibt es längst eine ab, die heißt Naturalist, wo man eben sieht, ich habe jetzt so und so viele Vögel dieser Art gesehen,
+
+73
+00:08:13,000 --> 00:08:19,000
+ klick hochladen zu Ornito. Hat man beispielsweise hier eigentlich in der Tasche, wenn man gerne Vögel guckt.
+
+74
+00:08:19,000 --> 00:08:27,000
+ Und der offizielle Daseinszweck von Ornito war von Anbeginn, erstens einen aktuellen Überblick über das avifornistische Geschehen zu geben
+
+75
+00:08:27,000 --> 00:08:33,000
+ und zweitens Daten an einem Ort zu bündeln und in geprüfter Form für wissenschaftliche Auffährungen bereitzustellen.
+
+76
+00:08:33,000 --> 00:08:40,000
+ Und man findet auch von Ornito auf einer riesenlangen Liste von wissenschaftlichen Veröffentlichungen, die auf diesen Daten basieren.
+
+77
+00:08:40,000 --> 00:08:48,000
+ Das heißt, da passiert schon genau das, was wir machen wollen. Es wird sehr, sehr scharf moderiert von Leuten, die sich auskennen,
+
+78
+00:08:48,000 --> 00:08:53,000
+ gesammelter Datenpool erzeugt, über den dann ausgewertet wird. Na super, genau das brauchen wir doch.
+
+79
+00:08:53,000 --> 00:09:01,000
+ Liegt also nichts näher, als unsere Beobachtungen direkt da zu sammeln. Das wurde endlich möglich, als Geld da war für das Forschungsprojekt
+
+80
+00:09:01,000 --> 00:09:07,000
+ mit dem schönen Namen Beschleunigung des Datenflusses im Vogelmonitoring. Das Geld dafür kam vom Bundesumweltministerium
+
+81
+00:09:07,000 --> 00:09:15,000
+ und wurde also ein Plakett für Naturalist programmiert für dieses Monitoring häufiger Brutvögel und dann kleine Erweiterungen
+
+82
+00:09:15,000 --> 00:09:19,000
+ für Ornito, für diese Webplattform, dass man seine Daten dann auch einsehen konnte.
+
+83
+00:09:19,000 --> 00:09:25,000
+ Bezogen war also nicht mehr mit dem Klemmbrett und Papier in die Landschaft, sondern mit einem Tablet oder mit einem Smartphone
+
+84
+00:09:25,000 --> 00:09:32,000
+ und die Daten gingen automatisch zu Ornito hoch. Nach dem vierten Kaltierdurchgang setzte man sich dann nicht mehr mit seinen Papierbögen
+
+85
+00:09:32,000 --> 00:09:37,000
+ auf den Boden oder an einen möglichst großen Schreibschluss, sondern man lud sich seine fertigen Artkarten runter.
+
+86
+00:09:37,000 --> 00:09:43,000
+ Wenn man wollte als PDF oder PowerPoint, das war dann in einer ziemlich miesen Auflösung, aber man brauchte wenig IT-Kentnis
+
+87
+00:09:43,000 --> 00:09:49,000
+ oder wenn man jetzt höhere Ansprüche hatte als GeoJSON, kann man dann in QGIS importieren und weiterverarbeiten.
+
+88
+00:09:49,000 --> 00:10:00,000
+ Zeig mal kurz, wie das dann aussah in QGIS. Ich habe hier vom Jahr 22 meine Punktwolke, wie ich sie von Ornito dann runterbekommen habe
+
+89
+00:10:00,000 --> 00:10:07,000
+ und die habe ich dann gesplittet. So gibt mir alle Elstern, dann kreise ich davon die Reviere ein oder gibt mir alle Hausrotschwänzchen.
+
+90
+00:10:07,000 --> 00:10:12,000
+ Hier waren die Punkte und dann kreise ich halt die Reviere ein, sage im April brüten die noch nicht.
+
+91
+00:10:12,000 --> 00:10:18,000
+ Darum sind die beiden Aprilpunkte hier ignoriert. Im Mai und Juni brüttet das Hausrotschwänzchen, also kreise ich das ein.
+
+92
+00:10:18,000 --> 00:10:22,000
+ Hier waren zwei nebeneinander, das wird wohl der gleiche sein oder sein Weibchen.
+
+93
+00:10:22,000 --> 00:10:28,000
+ Dann erzähle ich halt durch, wie viele Reviere das sein könnten. Dann trage ich in eine Excel-Liste ein, Hausrotschwänzchen, fünf Reviere
+
+94
+00:10:28,000 --> 00:10:33,000
+ und schicke am Ende diese Excel-Tabelle an den DDR ein, wo die Daten dann weiterverarbeitet werden.
+
+95
+00:10:33,000 --> 00:10:40,000
+ Da war aber immer noch ziemlich viel gefummelt mit diesem Einkreisen auf dem GeoJSON.
+
+96
+00:10:40,000 --> 00:10:47,000
+ In Naturalist hatte ich dann so ein Plug-in, dass mich einmal, man sieht hier diese rote Linie,
+
+97
+00:10:47,000 --> 00:10:53,000
+ beim Kartieren in meine Probefläche einsperrt, dass ich keine Beobachtungen melden kann, die überhaupt nicht dazuzählen.
+
+98
+00:10:53,000 --> 00:11:01,000
+ Wo ich dann so schnell Buttons hatte, erst Artauswählen, da hatten wir hier, wo das normale Naturalist nur sogenannte Atlas-Codes,
+
+99
+00:11:01,000 --> 00:11:07,000
+ also Zahlencodes für das Verhalten während der Brutzeit anzeigt, bekam ich jetzt hier schöne Symbole für die wichtigsten Verhalten,
+
+100
+00:11:07,000 --> 00:11:14,000
+ wie trägt Nistmaterial, trägt Futter, singt Pärchen zusammen am gleichen Fleck und so weiter, habe Nest entdeckt,
+
+101
+00:11:14,000 --> 00:11:18,000
+ konnte man alles mit einem Klick gleich wegklicken, also man geht durch seine Landschaft, klick, klick, klick, klick, klick,
+
+102
+00:11:18,000 --> 00:11:22,000
+ und hat am Ende der Runde zwischen 80 und 100 Beobachtungen gelockt.
+
+103
+00:11:22,000 --> 00:11:30,000
+ Es gab aber noch ein Problem. Erstmal, wenn man eine Abpass gibt, immer Geräte, auf sie läuft es nicht richtig.
+
+104
+00:11:30,000 --> 00:11:36,000
+ Die Leute gehen also weiter mit Papier raus. Da gibt es noch Leute, die machen das seit 30 Jahren und länger,
+
+105
+00:11:36,000 --> 00:11:42,000
+ die haben das immer auf Papier gemacht, sind inzwischen um die 80 und sehen überhaupt nicht ein, dass sie jetzt ein komisches Smartphone besorgen sollen.
+
+106
+00:11:42,000 --> 00:11:48,000
+ Und wenn ihr zum allerersten Mal im Feld bei Regen der Akku leer geht, weil GBS ja da schon ziemlich transaugt,
+
+107
+00:11:48,000 --> 00:11:51,000
+ ja dann schmeißen Sie das Ding auch weg und nehmen wieder Ihr Papier.
+
+108
+00:11:51,000 --> 00:11:58,000
+ Was man also eingeführt hat, ist der sogenannte Digibird, das ist eine Web-App, da konnte man seine Papierkarten einscannen
+
+109
+00:11:58,000 --> 00:12:04,000
+ und hatte dann so einen Editor, so ähnlich wie der von Open Street Map, und konnte seine Punkte nachträglich digitalisieren.
+
+110
+00:12:04,000 --> 00:12:10,000
+ Und dann wurde halt wieder automatisiert die Artkarte erstellt. Das sah dann so aus.
+
+111
+00:12:10,000 --> 00:12:18,000
+ Ich habe halt dann hier in diesem Digibird, kann jemand ein Ja auswählen, kann ich sagen hier Artkarten,
+
+112
+00:12:18,000 --> 00:12:24,000
+ weil er ziemlich lange leht, habe ich schon mal geöffnet, kann er sagen, gib mir aus diesem Jahr alle, ach hier sind,
+
+113
+00:12:24,000 --> 00:12:27,000
+ ich muss mal kurz die Revierer ausblenden, das kam jetzt im nächsten Jahr.
+
+114
+00:12:30,000 --> 00:12:35,000
+ So, in diesem Jahr sah es dann nämlich erst mal noch so aus. Gib mir alle Amseln, gib mir alle Blaumeisen,
+
+115
+00:12:35,000 --> 00:12:42,000
+ und dann könnte ich das vergrößern, Screenshot machen und dann in Gimp die Revierer einkreisen oder das einfach so im Kopf machen.
+
+116
+00:12:42,000 --> 00:12:47,000
+ Da war also noch ein ziemlich blöder Medienbruch drin. Aber immerhin wurden die Artkarten schon mal automatisch erstellt
+
+117
+00:12:47,000 --> 00:12:53,000
+ und ich konnte zoomen, das konnte man vor Jahr, wenn man nicht gerade mit GeoJSON umgehen konnte, nicht so gut.
+
+118
+00:12:54,000 --> 00:13:01,000
+ Fehlt also immer noch was, um diese Medienbrüche und die Fummelei loszuwerden. Das kam jetzt zu diesem Jahr,
+
+119
+00:13:01,000 --> 00:13:07,000
+ und zwar der sogenannte Autoterry, das ist ein Algorithmus, der wurde von der schweizerischen Vogelwarte entwickelt
+
+120
+00:13:07,000 --> 00:13:15,000
+ und der soll in der Lage sein, aus dieser Punktwolke von allen Vögeln einer Art in einem Jahr die Reviere zu berechnen
+
+121
+00:13:15,000 --> 00:13:21,000
+ und die ungefähr Reviergrenzen zu ziehen, bis wo sich welcher Vogel überhaupt niedergelassen hat.
+
+122
+00:13:21,000 --> 00:13:27,000
+ Wie macht er das? Es wurde in der Schulung erst mal gesagt, der berechnet da die Distanz zwischen allen Punkten auf der Artkarte
+
+123
+00:13:27,000 --> 00:13:35,000
+ und prüft dann auch nach dem Verhaltenscode, wer die welche zusammengehören und schlägt dann vor, welche Punkte aus dem selben Revier stammen.
+
+124
+00:13:35,000 --> 00:13:42,000
+ Ich habe mal so ein bisschen verglichen, was werte ich aus und was kommt heraus, wenn der Autoterry auswertet.
+
+125
+00:13:42,000 --> 00:13:46,000
+ Bei sehr vereinzelt lebenden Tieren war das meistens ein ähnliches Ergebnis.
+
+126
+00:13:46,000 --> 00:13:51,000
+ Bei geholften, aufgetreten Tieren wie Koloniebrüdern, wie Spatzen und Stare, die immer auf einem Haufen brüten,
+
+127
+00:13:51,000 --> 00:13:56,000
+ habe ich gesehen, ich dachte immer, ich soll da die Reviere zählen, der Autoterry zählt die Paare.
+
+128
+00:13:56,000 --> 00:14:04,000
+ Aber viel wichtiger ist die Frage, wie macht er das? Meine erste Befürchtung war, man hat uns da Maschinenlearning-Geduld hingestellt,
+
+129
+00:14:04,000 --> 00:14:12,000
+ das gefüttert mit den Ergebnissen der letzten Jahre, und wir wurden ja auch dazu aufgefordert, die ersten Jahre weiter selber auszuwerten,
+
+130
+00:14:12,000 --> 00:14:18,000
+ damit man vergleichen kann, unsere Ergebnisse gegen die Ergebnisse von Autoterry und den zu feintunen.
+
+131
+00:14:18,000 --> 00:14:26,000
+ Um auszuschließen, dass das Maschinenlearning ist und ich wirklich jedes Jahr immer weiter prüfen muss, dass der sich nicht irgendwas falsches anlernt,
+
+132
+00:14:26,000 --> 00:14:31,000
+ habe ich was gemacht, was wenige machen. Ich habe mir die Dokumentation besorgt und sie mal gelesen.
+
+133
+00:14:31,000 --> 00:14:38,000
+ Was der Autoterry also macht mit meiner Punktfolge ist, erstens, er berechnet auf der Artkarte die geografischen Daten.
+
+134
+00:14:38,000 --> 00:14:43,000
+ Machen wir es mal am Beispiel meiner Zaunkönige aus 23.
+
+135
+00:14:43,000 --> 00:14:47,000
+ Was 22? Doch 23.
+
+136
+00:14:47,000 --> 00:14:54,000
+ Ich habe hier irgendwo meine, wo habe ich meine Zaunkönige? Ach, falsches Jahr.
+
+137
+00:14:54,000 --> 00:14:57,000
+ Moment, gehen wir mal in die Gegenwart.
+
+138
+00:14:57,000 --> 00:15:02,000
+ Mein Ergebnis von diesem Jahr.
+
+139
+00:15:06,000 --> 00:15:08,000
+ Jetzt weiß man das ganze Chaos hier weg.
+
+140
+00:15:08,000 --> 00:15:11,000
+ So, Karte.
+
+141
+00:15:11,000 --> 00:15:14,000
+ Das war die gesamte Punktfolge.
+
+142
+00:15:14,000 --> 00:15:17,000
+ Das war mein, ja, hau ab.
+
+143
+00:15:17,000 --> 00:15:25,000
+ Zaunkönige, ich hatte hier fünf Zaunkönige im April und im Mai gesehen und habe mir beim Vorhandauswerten gedacht, hey, die haben so großen Abstand,
+
+144
+00:15:25,000 --> 00:15:29,000
+ das sind bestimmt alles einzelne Tiere. Der ist auf der Seite von dem Block und der auf der anderen.
+
+145
+00:15:29,000 --> 00:15:32,000
+ Hier stehen zwei Büsche, jeder setzt bestimmt einen.
+
+146
+00:15:32,000 --> 00:15:38,000
+ Ich habe nicht in die Tabelle geguckt, wie groß ein Zaunkönig Revier sind. Ich sagte, ach komm, da sind fünf Vögel.
+
+147
+00:15:38,000 --> 00:15:42,000
+ Da habe ich mir aber angeguckt, was sagt der Autoterry dazu?
+
+148
+00:15:42,000 --> 00:15:44,000
+ Gucken wir also mal hier.
+
+149
+00:15:44,000 --> 00:15:52,000
+ Gib mir meine Zaunkönige und gib mir die automatisch berechneten Revierer.
+
+150
+00:15:52,600 --> 00:15:57,000
+ Upsi, Otto Terry sagt, du lügst, da sind nur vier Zhaunkönige.
+
+151
+00:15:57,000 --> 00:16:00,360
+ Was er nämlich behauptet, ist, dass diese beiden Tiere,
+
+152
+00:16:00,360 --> 00:16:02,760
+ die dort wirklich einen ganzen Wohnblock entfernt gesehen wurden,
+
+153
+00:16:02,760 --> 00:16:04,040
+ in Wirklichkeit das Gleiche ist.
+
+154
+00:16:04,040 --> 00:16:05,840
+ Der hätte sich von hier nach hier bewegt.
+
+155
+00:16:05,840 --> 00:16:08,920
+ Da hat sich die Frage, Otto Terry, wie kommst du da drauf?
+
+156
+00:16:08,920 --> 00:16:14,560
+ Also, er berechnet die geografischen Distanzen im ersten Schritt.
+
+157
+00:16:14,560 --> 00:16:15,520
+ Das haben wir hier mal gemacht.
+
+158
+00:16:15,520 --> 00:16:19,360
+ In 174 Metern zwischen den beiden,
+
+159
+00:16:19,360 --> 00:16:22,200
+ zwischen den beiden, die für mich aussahen,
+
+160
+00:16:22,200 --> 00:16:23,840
+ sitzen die auch an der gleichen Straße.
+
+161
+00:16:23,840 --> 00:16:27,400
+ Upsa, das sind ja fast 260 Meter entfernt.
+
+162
+00:16:27,400 --> 00:16:29,640
+ Hat sich überlaufen irgendwie weniger angefühlt.
+
+163
+00:16:29,640 --> 00:16:31,920
+ Was er aber im nächsten Schritt macht,
+
+164
+00:16:31,920 --> 00:16:34,600
+ ist, er verzerrt diese Distanzen nochmal.
+
+165
+00:16:34,600 --> 00:16:38,520
+ Denn so Beobachtungen können kompatibel oder inkompatibel sein.
+
+166
+00:16:38,520 --> 00:16:41,240
+ Kompatible Beobachtungen sind welche,
+
+167
+00:16:41,240 --> 00:16:42,880
+ die können das gleiche Revier sein,
+
+168
+00:16:42,880 --> 00:16:44,040
+ aber müssen natürlich nicht.
+
+169
+00:16:44,040 --> 00:16:46,160
+ Das ist, wenn ich jetzt im gleichen Garten
+
+170
+00:16:46,160 --> 00:16:47,640
+ eine Anzahl Pärchen beobachte,
+
+171
+00:16:47,640 --> 00:16:50,520
+ liegt es nahe, dass dieses Pärchen in ein Revier gehört.
+
+172
+00:16:50,520 --> 00:16:53,720
+ Wenn ich hingegen zwei singende Vögel sehe,
+
+173
+00:16:53,720 --> 00:16:57,120
+ liegt es sehr nahe, dass das unterschiedliche sind.
+
+174
+00:16:57,120 --> 00:16:59,920
+ Moment, der Zug muss erst wegfahren.
+
+175
+00:16:59,920 --> 00:17:08,040
+ Denn Singen ist ja bei Vögeln eigentlich Revierabgrenzung.
+
+176
+00:17:08,040 --> 00:17:10,160
+ Die zwei Vögel singen, um zu markieren,
+
+177
+00:17:10,160 --> 00:17:12,280
+ das ist mein Revier, wenn zwei gleichzeitig singen.
+
+178
+00:17:12,280 --> 00:17:14,280
+ Da sind das also Konkurrenten,
+
+179
+00:17:14,280 --> 00:17:16,120
+ die gerade die Reviergrenze abstecken.
+
+180
+00:17:16,120 --> 00:17:17,720
+ Wo man meinen Gesang hört, bin ich zu Hause
+
+181
+00:17:17,720 --> 00:17:18,920
+ und der andere singt dagegen an.
+
+182
+00:17:18,920 --> 00:17:21,840
+ Wo man mich hört, ist meine Grenze irgendwo dazwischen
+
+183
+00:17:21,840 --> 00:17:23,400
+ und der wird dann verteidigt.
+
+184
+00:17:23,400 --> 00:17:28,040
+ Wenn ich zwei singende Vögel auch nacheinander höre,
+
+185
+00:17:28,040 --> 00:17:30,040
+ das sind Konkurrenten, die sind also inkompatibel.
+
+186
+00:17:30,040 --> 00:17:34,520
+ Was Auto Terry als nächstes so macht,
+
+187
+00:17:34,520 --> 00:17:37,240
+ ist eine Cluster-Analyse.
+
+188
+00:17:37,240 --> 00:17:41,000
+ Und er bildet dann also eine Baumstruktur
+
+189
+00:17:41,000 --> 00:17:42,960
+ aus den verschiedenen Cluster-Größen.
+
+190
+00:17:42,960 --> 00:17:44,040
+ Ich habe das mal von Hand gemacht,
+
+191
+00:17:44,040 --> 00:17:47,000
+ so eine K-Means-Analyse hier in QGIS.
+
+192
+00:17:47,000 --> 00:17:52,120
+ Wenn ich jetzt sage, bei einer K-Means-Analyse,
+
+193
+00:17:52,120 --> 00:17:53,480
+ ich denke, die meisten haben das schon mal gehört,
+
+194
+00:17:53,480 --> 00:17:55,880
+ wenn ich sage, ich habe eine Cluster-Große 5,
+
+195
+00:17:55,880 --> 00:17:57,080
+ kriege ich genau mein Ergebnis,
+
+196
+00:17:57,080 --> 00:17:59,000
+ dann muss jeder von den fünf sein eigener Cluster sein.
+
+197
+00:17:59,000 --> 00:18:00,760
+ Und jetzt gehen wir schrittweise runter.
+
+198
+00:18:00,760 --> 00:18:02,240
+ Wenn ich sage, ich habe nur vier Cluster,
+
+199
+00:18:02,240 --> 00:18:04,800
+ sagt er mir natürlich schon, die beiden hier,
+
+200
+00:18:04,800 --> 00:18:06,800
+ die doch sehr dicht beieinander hocken, sind ein Cluster.
+
+201
+00:18:06,800 --> 00:18:08,680
+ Die anderen sind ja eigener Cluster,
+
+202
+00:18:08,680 --> 00:18:09,920
+ müssen ja viel bei rauskommen.
+
+203
+00:18:09,920 --> 00:18:14,160
+ Also gehen wir hier in unseren Baum
+
+204
+00:18:14,160 --> 00:18:15,480
+ und verbinden die ersten beiden.
+
+205
+00:18:15,480 --> 00:18:19,920
+ Hier die 1 und die 2 sind jetzt also ein Revier.
+
+206
+00:18:19,920 --> 00:18:22,800
+ Könnte, Revierkandidat erstmal nur.
+
+207
+00:18:22,800 --> 00:18:26,960
+ Dann nächster Cluster, wir gehen runter auf K gleich 3.
+
+208
+00:18:26,960 --> 00:18:29,880
+ Jetzt sagt er mir hier,
+
+209
+00:18:29,880 --> 00:18:34,360
+ die beiden an dieser Straße sind jetzt auch ein Cluster.
+
+210
+00:18:34,360 --> 00:18:37,880
+ Also geht der Auto-Terry in seine Baumstruktur
+
+211
+00:18:37,880 --> 00:18:42,000
+ und verbindet auf der nächsten Ebene diese beiden.
+
+212
+00:18:42,000 --> 00:18:43,360
+ Und dieses Maß hier oben,
+
+213
+00:18:43,360 --> 00:18:46,360
+ das ist halt immer die modifizierte Distanz.
+
+214
+00:18:46,360 --> 00:18:48,480
+ Und das machen wir jetzt immer so weiter.
+
+215
+00:18:48,480 --> 00:18:54,560
+ Wir gehen hoch auf Cluster Größe 2.
+
+216
+00:18:54,560 --> 00:18:56,280
+ Dann würde er sagen, ja der hinter der Bahn
+
+217
+00:18:56,280 --> 00:18:58,280
+ gehört jetzt noch ins Revier.
+
+218
+00:18:58,280 --> 00:18:59,280
+ Aber das kann natürlich sein,
+
+219
+00:18:59,280 --> 00:19:00,280
+ ich kann euch Erfahrung sagen,
+
+220
+00:19:00,280 --> 00:19:01,960
+ der Soundkönig wird nicht den Rangierbahnhof
+
+221
+00:19:01,960 --> 00:19:03,560
+ in sein Revier einschließen.
+
+222
+00:19:03,560 --> 00:19:05,720
+ Dann lag es für ihn einfach zu viel zu holen.
+
+223
+00:19:05,720 --> 00:19:07,480
+ Der fliegt dann hier wahrscheinlich bis zum Brand stellt fest,
+
+224
+00:19:07,480 --> 00:19:09,160
+ da ist kein Futter mehr, da gehe ich nicht hin.
+
+225
+00:19:09,160 --> 00:19:11,080
+ Das heißt, hinter der Bahn muss ein anderer sein.
+
+226
+00:19:11,080 --> 00:19:15,880
+ So, was machen wir jetzt damit?
+
+227
+00:19:15,880 --> 00:19:17,600
+ Jetzt kommt der Trick an der ganzen Sache.
+
+228
+00:19:17,600 --> 00:19:20,400
+ Auto-Terry berechnet eine aspezifische Revier-Distanz.
+
+229
+00:19:20,400 --> 00:19:23,480
+ Denn wie weit zwei Vogelrevier auseinander liegen,
+
+230
+00:19:23,480 --> 00:19:25,400
+ hängt erstmal natürlich ab von der Art.
+
+231
+00:19:25,400 --> 00:19:27,920
+ Größere Vögel haben größere Revierer als kleinere Vögel.
+
+232
+00:19:27,920 --> 00:19:30,120
+ Aber auch von der Dichte.
+
+233
+00:19:30,120 --> 00:19:32,520
+ Nämlich wenn sich in einem Jahr mehr Vögel einer Art,
+
+234
+00:19:32,520 --> 00:19:34,960
+ also in diesem Fall mehr Soundkönige in diesem Städtchen,
+
+235
+00:19:34,960 --> 00:19:38,200
+ das sich Kathir niederlässt, dann werden sie,
+
+236
+00:19:38,200 --> 00:19:40,800
+ oh mein Mikrofon ist verrutscht, Entschuldigung.
+
+237
+00:19:40,800 --> 00:19:43,520
+ Wenn sich also in einem Jahr mehr Vögel einer Art,
+
+238
+00:19:43,520 --> 00:19:47,480
+ also hier mehr Soundkönige in diesem Kathirten Städtchen niederlässt,
+
+239
+00:19:47,480 --> 00:19:50,800
+ dann werden sie sich darauf einigen, dass die Reviere ein bisschen kleiner sind.
+
+240
+00:19:50,800 --> 00:19:53,680
+ Oder auch wenn jetzt sehr, sehr wenig Nahrung zur Verfügung steht,
+
+241
+00:19:53,680 --> 00:19:57,920
+ dann wird jedes einzelne Paar ein größeres Nahrungsrevier für sich verteidigen.
+
+242
+00:19:57,920 --> 00:19:59,320
+ Also da hängt es auch noch ab.
+
+243
+00:19:59,320 --> 00:20:00,960
+ Und so weiter und so fort.
+
+244
+00:20:00,960 --> 00:20:03,800
+ Das heißt, eine Revier-Distanz gilt nur innerhalb eines Jahres
+
+245
+00:20:03,800 --> 00:20:06,480
+ und auf dieser einen Fläche.
+
+246
+00:20:06,480 --> 00:20:15,240
+ Nun wird also für jede Beobachtung, ja, oh es ist runtergefallen.
+
+247
+00:20:15,240 --> 00:20:17,600
+ So, so besser.
+
+248
+00:20:17,600 --> 00:20:19,680
+ So, ich glaube jetzt geht's.
+
+249
+00:20:19,680 --> 00:20:22,680
+ Nun wird also für jede Beobachtung erst mal der nearest neighbor,
+
+250
+00:20:22,680 --> 00:20:25,160
+ der nächste benachbarte Punkt gesucht.
+
+251
+00:20:25,160 --> 00:20:27,120
+ Dabei sind dann natürlich einzelne wieder ausgeschlossen,
+
+252
+00:20:27,120 --> 00:20:31,400
+ die es kompatibel sind, also sowieso in ein Revier fallen und so weiter.
+
+253
+00:20:31,400 --> 00:20:33,240
+ Flugbeobachtung, wenn der Vogel nur überfliegt,
+
+254
+00:20:33,240 --> 00:20:36,840
+ dann weiß er eh keiner, wo er hin will oder wo er herkommt.
+
+255
+00:20:36,840 --> 00:20:39,160
+ So, und dann gibt es noch Unter- und Obergrenzen.
+
+256
+00:20:39,160 --> 00:20:42,200
+ Das heißt, ich weiß jetzt bei diesem Zaunkönig,
+
+257
+00:20:42,200 --> 00:20:44,880
+ wie klein sein Revier minimal wird.
+
+258
+00:20:44,880 --> 00:20:47,440
+ Also es wird nicht passieren, dass sich im selben Baum
+
+259
+00:20:47,440 --> 00:20:48,960
+ ein zweiter Zaunkönig niederlässt.
+
+260
+00:20:48,960 --> 00:20:51,280
+ Der wird der erste verteidigen.
+
+261
+00:20:51,280 --> 00:20:53,640
+ Und es gibt Revier-Obergrenzen, weiter fliegt dieser Vogel,
+
+262
+00:20:53,640 --> 00:20:55,880
+ nicht um sein Revier zu verteidigen.
+
+263
+00:20:55,880 --> 00:21:00,440
+ Das heißt, da kann ich dann schon wieder ausschließen.
+
+264
+00:21:00,440 --> 00:21:02,960
+ Und diese Revier-Distanz ist dann also der Mittelwert.
+
+265
+00:21:02,960 --> 00:21:06,600
+ Aller Distanz zu den nächsten Nachbarn.
+
+266
+00:21:06,600 --> 00:21:07,720
+ Das haben wir jetzt also mal gemacht.
+
+267
+00:21:07,720 --> 00:21:10,280
+ Hier ist jetzt unser Baum wieder.
+
+268
+00:21:10,280 --> 00:21:11,640
+ Und jetzt mache ich einen Cut.
+
+269
+00:21:11,640 --> 00:21:13,560
+ Ich setze hier einen Schnitt durch.
+
+270
+00:21:13,560 --> 00:21:14,400
+ Das war hier.
+
+271
+00:21:14,400 --> 00:21:16,880
+ Hier ist ja die modifizierte Distanz.
+
+272
+00:21:16,880 --> 00:21:23,160
+ Und ich lege da, wo meine diesjährige für diese Fläche berechnete Revier-Distanz ist,
+
+273
+00:21:23,160 --> 00:21:24,440
+ einen Schnitt durch.
+
+274
+00:21:24,440 --> 00:21:27,840
+ Alles, was danach noch zusammenhängt, gehört in ein Revier.
+
+275
+00:21:27,840 --> 00:21:31,200
+ Alles, was danach getrennt ist, sind das junge Revierer.
+
+276
+00:21:31,200 --> 00:21:33,040
+ Also die gehören nicht zusammen.
+
+277
+00:21:33,040 --> 00:21:36,840
+ So kommen wir darauf, dass das vier Revier sind und Vogel 1 und 2.
+
+278
+00:21:36,840 --> 00:21:42,040
+ Wohl habe ich halt nacheinander das gleiche Tier oder den Partner von dem gleichen Brutrevier gesehen.
+
+279
+00:21:42,040 --> 00:21:44,440
+ Da muss ich sagen, Otto Terry, das ist plausibel.
+
+280
+00:21:44,440 --> 00:21:47,800
+ Das glaube ich dir.
+
+281
+00:21:47,800 --> 00:21:51,080
+ Wenn ich sage, ich vertraue diesem Algorithmus, der ist einfach nur präziser als ich,
+
+282
+00:21:51,080 --> 00:21:57,200
+ der macht im Prinzip das, Moment, das, was ich tun sollte, nur genauer.
+
+283
+00:21:57,200 --> 00:21:58,200
+ Da kann ich dir mehr vertrauen.
+
+284
+00:21:58,200 --> 00:22:02,880
+ Das heißt, wir GPS-Kartierenden, die halt viermal im Jahr mit dem Handy spazieren gehen,
+
+285
+00:22:02,880 --> 00:22:06,360
+ haben es nur noch Spaß und keine Schreibtischarbeit mehr.
+
+286
+00:22:06,360 --> 00:22:10,280
+ Und die Papierkartierenden, auf deren Handy das nicht läuft oder die einfach keinen Bock drauf haben
+
+287
+00:22:10,280 --> 00:22:13,440
+ oder ständig einen leeren Akku haben, müssen zumindest weniger tun.
+
+288
+00:22:13,440 --> 00:22:15,880
+ Die müssen nur ihre Papierkarten einscannen und digitalisieren.
+
+289
+00:22:15,880 --> 00:22:18,280
+ Der Rest läuft automatisch durch.
+
+290
+00:22:18,280 --> 00:22:20,200
+ Und die Nacharbeit ist jetzt völlig freiwillig.
+
+291
+00:22:20,200 --> 00:22:24,360
+ Natürlich darf man weiter das Giga-JSON auswerten und die Revier selber einkreisen
+
+292
+00:22:24,360 --> 00:22:25,280
+ und dann zurückmelden.
+
+293
+00:22:25,280 --> 00:22:29,600
+ Dann wird nämlich verglichen, inwieweit das mit Autotarik übereinstimmt.
+
+294
+00:22:29,600 --> 00:22:32,480
+ Und wenn die Experten meinen, der Börder hat recht und der Algorithmus nicht,
+
+295
+00:22:32,480 --> 00:22:35,120
+ dann werden sie den Algorithmus ein bisschen feintunen.
+
+296
+00:22:35,120 --> 00:22:36,040
+ Aber man muss es nicht mehr.
+
+297
+00:22:36,040 --> 00:22:38,680
+ Man darf dem jetzt auch einfach vertrauen.
+
+298
+00:22:38,680 --> 00:22:40,080
+ Und das macht die Arbeit sehr viel leichter.
+
+299
+00:22:40,080 --> 00:22:43,800
+ Denn vorher hat man im Prinzip genauso viel Arbeit, wie man im Feld hatte,
+
+300
+00:22:43,800 --> 00:22:45,240
+ noch mal zu Hause gehabt.
+
+301
+00:22:45,240 --> 00:22:48,720
+ Ich habe immer genauso lange Karten ausgewertet, wie ich vorher erfasst habe.
+
+302
+00:22:48,720 --> 00:22:49,360
+ Und das fällt weg.
+
+303
+00:22:49,360 --> 00:22:53,320
+ Ich muss es nur noch erfassen.
+
+304
+00:22:53,320 --> 00:22:54,680
+ Das finde ich ehrlich gesagt ganz klasse.
+
+305
+00:22:54,680 --> 00:22:59,280
+ Denn so können wir auch leichter neue Beobachter anwerben.
+
+306
+00:22:59,280 --> 00:23:00,400
+ Denn vorher war das immer voll doof.
+
+307
+00:23:00,400 --> 00:23:01,640
+ Ich gucke zwar gerne Vögel.
+
+308
+00:23:01,640 --> 00:23:03,600
+ Ich bin zwar gerne draußen.
+
+309
+00:23:03,600 --> 00:23:07,080
+ Aber wenn ich dann noch mal genauso lange Karten auswerten muss, ist doof.
+
+310
+00:23:07,080 --> 00:23:12,480
+ Dann gibt es wieder Leute, die sind total naturversiert, aber sie sind nicht EDV-versiert.
+
+311
+00:23:12,480 --> 00:23:15,400
+ Sie können damit diesen digitalisierten Zeug nicht klar.
+
+312
+00:23:15,400 --> 00:23:18,560
+ Wissen sie jetzt auch nicht mehr, sie müssen nur eine App bedienen können
+
+313
+00:23:18,560 --> 00:23:20,440
+ oder auf Papier malen können.
+
+314
+00:23:20,440 --> 00:23:23,040
+ Reicht uns jetzt völlig.
+
+315
+00:23:23,040 --> 00:23:26,160
+ Wenn euch das interessiert und ihr euch das noch mal genau anschauen wollt,
+
+316
+00:23:26,160 --> 00:23:28,360
+ empfehle ich die Schweizer Vogelwarte.
+
+317
+00:23:28,360 --> 00:23:32,880
+ Die hat diesen Auto Terry entwickelt und den Dachverband Deutsche Orphivonisten,
+
+318
+00:23:32,880 --> 00:23:35,640
+ der organisiert diese Monitorings.
+
+319
+00:23:35,640 --> 00:23:38,000
+ Es gibt übrigens auch ein Monitoring seltener Brutvögel.
+
+320
+00:23:38,000 --> 00:23:39,400
+ Das ist für Einstärker sehr praktisch.
+
+321
+00:23:39,400 --> 00:23:42,040
+ Da muss man nämlich nur eine Vogelart erkennen können.
+
+322
+00:23:42,040 --> 00:23:46,720
+ Bei Monitoring häufiger Vögel heißt es immer, sie erwarten, dass man die wichtigsten 99
+
+323
+00:23:46,720 --> 00:23:51,360
+ Vogelarten hier sicher an Rufgesang oder Bild erkennen kann.
+
+324
+00:23:51,360 --> 00:23:54,840
+ Aber praktisch reicht es, wenn man auf dem Gelände das markatieren will,
+
+325
+00:23:54,840 --> 00:23:58,040
+ alles, was dort vorkommt, sicher erkennt.
+
+326
+00:23:58,040 --> 00:24:00,520
+ Also auf meiner Fläche, das ist so eine Kleinstadt mit Gärten,
+
+327
+00:24:00,520 --> 00:24:06,000
+ da habe ich eigentlich selten mehr als 50 unterschiedliche Arten drauf.
+
+328
+00:24:06,000 --> 00:24:09,560
+ Und wenn euch die Indikatoren interessieren und diese ganzen Monitoring Programme
+
+329
+00:24:09,560 --> 00:24:13,240
+ und was die Politik und Verwaltung daraus machen oder auch nicht,
+
+330
+00:24:13,240 --> 00:24:19,840
+ schaut euch die Europäische Umwelt Umweltamt, die Europäne Environment Agency.
+
+331
+00:24:19,840 --> 00:24:23,760
+ Da findet ihr alles über diese ganzen Überwachungs- und Monitoringprogramme
+
+332
+00:24:23,760 --> 00:24:29,880
+ und alle sich hundert dafür verwendeten Indikatoren und wo die Daten herkommen und alles.
+
+333
+00:24:29,880 --> 00:24:33,280
+ Ja, zu weiteren Fragen erreicht ihr mich entweder da hinten am Hochbeet
+
+334
+00:24:33,280 --> 00:24:38,920
+ bei den Open Source Gardens häufig oder eben als Coco Bird auf Mastodon.
+
+335
+00:24:38,920 --> 00:24:42,920
+ Wenn ihr lieber E-Mails schreibt, ganz, ganz, ganz klein und irrelevant
+
+336
+00:24:42,920 --> 00:24:47,040
+ findet ihr meine Adresse, Corona und Punktion @NabuBindet-Latzen.
+
+337
+00:24:47,040 --> 00:24:50,280
+ Das ist meine NABU Gruppe.
+
+338
+00:24:50,280 --> 00:24:53,040
+ So, ich hoffe, das war jetzt nicht so unverständlich.
+
+339
+00:24:53,040 --> 00:24:56,520
+ Ansonsten kommen wir jetzt zu den Fragen.
+
+340
+00:24:56,520 --> 00:25:04,200
+ [Applaus]
+
+341
+00:25:04,200 --> 00:25:11,880
+ So, gibt es denn Fragen?
+
+342
+00:25:11,880 --> 00:25:21,400
+ Nein, wegen Stream, warte mal aufs Mikro.
+
+343
+00:25:21,400 --> 00:25:22,920
+ Okay, ich habe zwei Fragen.
+
+344
+00:25:22,920 --> 00:25:27,280
+ Erstens nutzt ihr auch BirdNet oder ähnliche Programme für die Identifikation?
+
+345
+00:25:27,280 --> 00:25:30,760
+ BirdNet, das ist der, der die Stimmen automatisch erkennt.
+
+346
+00:25:30,760 --> 00:25:35,280
+ Ich habe BirdNet schon öfters ausprobiert und finde jedes Mal, dass er total unpräzise ist.
+
+347
+00:25:35,280 --> 00:25:38,400
+ Also da muss man wirklich schon den Vogel extrem prägnant
+
+348
+00:25:38,400 --> 00:25:41,000
+ und deutlich im Vordergrund haben, damit der sicher erkannt wird.
+
+349
+00:25:41,000 --> 00:25:45,280
+ Ansonsten erkennt BirdNet zumindest bei mir meistens ziemlich einen Quark.
+
+350
+00:25:45,280 --> 00:25:51,600
+ Und er erkennt auch irgendwie nur Gesang, bei Rufen, da lust der BirdNet völlig ab.
+
+351
+00:25:51,600 --> 00:25:54,200
+ Und ehrlich gesagt, ich finde ihn in der Praxis unbrauchbar.
+
+352
+00:25:54,200 --> 00:25:57,960
+ Wenn ich, ich finde, in meinem Revier, was da an Vögeln vorkommt,
+
+353
+00:25:57,960 --> 00:25:59,080
+ das erkenne ich auch mit Ohren.
+
+354
+00:25:59,080 --> 00:26:02,240
+ Und zwar auch, wenn sie nicht singen, sondern wenn sie einfach nur noch Piepen machen
+
+355
+00:26:02,240 --> 00:26:04,200
+ oder an der Silhouette, wenn sie vorbeifliegen.
+
+356
+00:26:04,200 --> 00:26:08,160
+ Das geht schneller und viel, viel zuverlässiger als das, was der BirdNet heute kann.
+
+357
+00:26:08,160 --> 00:26:11,960
+ Aber ich denke mal, das wird sich in den nächsten Jahren ändern.
+
+358
+00:26:11,960 --> 00:26:15,960
+ Und irgendwann reicht es vielleicht, dass wir einen Mikrocontroller mit einem Mikrofon
+
+359
+00:26:15,960 --> 00:26:19,320
+ auf einem kleinen Rollwagen oder auf einer Drohne durchs Revier schicken
+
+360
+00:26:19,320 --> 00:26:22,120
+ und er nimmt die Stimmen auf und BirdNet macht uns das Monitoring.
+
+361
+00:26:22,120 --> 00:26:23,120
+ Wird irgendwann kommen.
+
+362
+00:26:23,120 --> 00:26:25,640
+ Okay, wir arbeiten daran, deshalb frage ich mich.
+
+363
+00:26:25,640 --> 00:26:28,320
+ Das finde ich, es wird irgendwann kommen, aber es ist noch ein paar Jahre hin.
+
+364
+00:26:28,320 --> 00:26:31,040
+ Genau. Die zweite Frage war das IUCN.
+
+365
+00:26:31,040 --> 00:26:35,120
+ Gibt es schon nicht so viele Vorgaben, sagst du das, die IUCN?
+
+366
+00:26:35,120 --> 00:26:36,640
+ Was war das nochmal im Übersetz?
+
+367
+00:26:36,640 --> 00:26:42,160
+ Die internationale Biodiversitätsorganisation, die gibt meistens relativ gut vor,
+
+368
+00:26:42,160 --> 00:26:45,120
+ wie auch die Reviere abgesteckt sind.
+
+369
+00:26:45,120 --> 00:26:50,760
+ Allerdings sehr global, deshalb ist es auch ein Monitoring, was global geschieht.
+
+370
+00:26:50,760 --> 00:26:56,120
+ Da habe ich nur gefragt, wenn nicht zu spezifische Indikatoren noch benutzt werden,
+
+371
+00:26:56,120 --> 00:26:59,400
+ wie oder was damit einbezogen werden kann.
+
+372
+00:26:59,400 --> 00:27:04,520
+ Ich denke mal, dass globale Standards darüber, wie man Reviere eingrenzt, hier mit eingeflossen sind.
+
+373
+00:27:04,520 --> 00:27:07,280
+ Die Dokumentation lässt ein paar Dinge offen.
+
+374
+00:27:07,280 --> 00:27:12,480
+ Es heißt immer nur, es wird dies und jenes einbezogen bei der Modifikation der Distanzen und so.
+
+375
+00:27:12,480 --> 00:27:16,040
+ Aber inwiefern genau, habe ich leider nicht gefunden, aber ich gehe mal davon aus,
+
+376
+00:27:16,040 --> 00:27:20,800
+ dass Sie sich da schon auf ein paar Übereinkünfte verlassen haben.
+
+377
+00:27:20,800 --> 00:27:21,800
+ Danke.
+
+378
+00:27:21,800 --> 00:27:32,920
+ Kurze Frage nochmal genau zu dem Thema Reviereingrenzung.
+
+379
+00:27:32,920 --> 00:27:35,440
+ Brauchte der Algorithmus da nicht auch noch zusätzlich Geodaten?
+
+380
+00:27:35,440 --> 00:27:38,360
+ Sie haben ja gerade die Bahnstrecke oder Rangierbahnhof da angesprochen,
+
+381
+00:27:38,360 --> 00:27:41,400
+ wo die Erfahrung sagt, der wird niemals die Strecke kreuzen.
+
+382
+00:27:41,400 --> 00:27:45,240
+ Also müsste der Algorithmus auch kennen, weil sonst hat er ja nur die Punkte im Raum.
+
+383
+00:27:45,240 --> 00:27:48,120
+ Genau, das ist so ein Knackpunkt auch.
+
+384
+00:27:48,120 --> 00:27:52,640
+ Sagen wir mal so, wenn diese Bahnstrecke sehr schmal ist, dann wird der Vogel da auch überfliegen.
+
+385
+00:27:52,640 --> 00:27:56,920
+ Wenn er sehr breit ist, dann haben wir halt schon eine sehr große Distanz.
+
+386
+00:27:56,920 --> 00:27:59,520
+ Ich denke mal, was im blödesten Fall passieren kann,
+
+387
+00:27:59,520 --> 00:28:03,440
+ aber an einer Stelle vom Rangierbahnhof ein Männchen, an der anderen Seite ein Weibchen.
+
+388
+00:28:03,440 --> 00:28:07,720
+ Autotarif verkürzt die Distanz, weil die ja kompatibel sind und zählt sie zusammen.
+
+389
+00:28:07,720 --> 00:28:09,880
+ So einen Fall hatte ich in meinem Rewege jetzt nicht.
+
+390
+00:28:09,880 --> 00:28:14,560
+ Beholste ich jetzt mal Falldaten, wo das vorkommt, aber das ist halt der Punkt, wo es Sinn macht,
+
+391
+00:28:14,560 --> 00:28:18,760
+ immer zusätzlich nochmal von Hand auszuwerten, um das abzugleichen.
+
+392
+00:28:18,760 --> 00:28:24,120
+ Und ich denke mal, mit der Zeit werden Sie das dann auch in den Algorithmus einbauen.
+
+393
+00:28:24,120 --> 00:28:27,080
+ Wir fehlen dann wieder die Details, ob es schon drin ist.
+
+394
+00:28:27,080 --> 00:28:34,120
+ Gibt es noch weitere Fragen?
+
+395
+00:28:34,120 --> 00:28:38,360
+ Gute.
+
+396
+00:28:38,360 --> 00:28:45,760
+ Moin, danke.
+
+397
+00:28:45,760 --> 00:28:50,920
+ Gibt es für die eingegebenen Daten nachher noch eine Applausibilitätsprüfung?
+
+398
+00:28:50,920 --> 00:28:55,600
+ Also, das kann ja schon einen Unterschied machen, ob ich jetzt in der App sozusagen einfach das Verhalten eintrage,
+
+399
+00:28:55,600 --> 00:29:01,400
+ was mir am wahrscheinlichsten erscheint, oder ob ich sicher sehe, ok, das ist das und ich weiß, wie es aussieht und ich beobachte das.
+
+400
+00:29:01,400 --> 00:29:04,520
+ Ja, es gibt immer eine automatische Plausiprüfung.
+
+401
+00:29:04,520 --> 00:29:08,840
+ Also, wenn ich jetzt aus Versehen eine Art eingebe, die sehr, sehr unwahrscheinlich dort vorkommt,
+
+402
+00:29:08,840 --> 00:29:11,200
+ dann kriege ich sofort eine Plausimeldung.
+
+403
+00:29:11,200 --> 00:29:15,760
+ Und zumindest, wenn man ganz normal Zufallsverobachtung auf Ornito meldet,
+
+404
+00:29:15,760 --> 00:29:22,520
+ dann guckt der abends der Moderator rein und meckert alles an, was unplausibel oder zumindest extrem unwahrscheinlich ist.
+
+405
+00:29:22,520 --> 00:29:28,320
+ Und der guckt eben auch in diese alles, was ich übers Monitoring hochlade, rein und ranzt mich an,
+
+406
+00:29:28,320 --> 00:29:36,640
+ wenn ich etwas eingebe, wo er als Experte meint, Entschuldigung, es kam noch keine Sie dabei vor, zumindest bei meinen Daten, dass das so nicht sein kann.
+
+407
+00:29:36,640 --> 00:29:39,960
+ Also, bei Ornito wird wirklich ziemlich streng moderiert.
+
+408
+00:29:39,960 --> 00:29:44,680
+ Da schauen jeden Abend erfahrene Ornitologen drauf und prüfen, ob das sein kann.
+
+409
+00:29:44,680 --> 00:29:48,840
+ Und löschen dann aber auch nicht gleich, sondern fragen nach, wie man darauf kommt, ob das vielleicht doch sein kann.
+
+410
+00:29:48,840 --> 00:29:52,480
+ Denn manchmal gibt es ja Zufälle.
+
+411
+00:29:52,480 --> 00:29:54,480
+ [lachen]
+
+412
+00:29:54,480 --> 00:30:07,360
+ Als jemand, der sich nicht so supergut damit auskennt, wie man Vögel zielt,
+
+413
+00:30:07,360 --> 00:30:11,920
+ wie relevant ist denn quasi dieser Fehler, der vielleicht entsteht,
+
+414
+00:30:11,920 --> 00:30:17,760
+ aus der Diskrepanz zwischen dem, was jetzt der Börder beobachtet und was der Algorithmus sagt?
+
+415
+00:30:17,760 --> 00:30:21,240
+ Ist das nicht auch etwas, was man vielleicht vernachlässigen kann?
+
+416
+00:30:21,240 --> 00:30:27,720
+ Also, in den meisten Fällen sind die Ergebnisse sehr ähnlich und auf ein Revier mehr oder weniger kommt es eigentlich nicht an.
+
+417
+00:30:27,720 --> 00:30:29,560
+ Wichtiger ist eigentlich die Kontinuität.
+
+418
+00:30:29,560 --> 00:30:37,160
+ Man hat ja immer gesagt, die Daten einer Fläche sind erst verwertbar, wenn sie so drei, vier Jahre lang von derselben Person gemonitort wird.
+
+419
+00:30:37,160 --> 00:30:41,280
+ Denn jeder hört ein bisschen anders, jeder sieht ein bisschen anders, jeder deutet ein bisschen anders.
+
+420
+00:30:41,280 --> 00:30:46,520
+ Und wenn ich jedes Jahr einen anderen Börder auf die Fläche schicke, wird jedes Mal was völlig anderes gezählt.
+
+421
+00:30:46,520 --> 00:30:51,840
+ Man legt also Wert darauf, dass immer die gleiche Person die gleiche Fläche monitort und genauso ist es auch mit der Auswertung.
+
+422
+00:30:51,840 --> 00:30:57,920
+ Ob ich nun immer auf die gleiche Art von Hand nach Bauchgefühl auswerte oder ob ich jedes Jahr denselben Algorithmus draufsetze,
+
+423
+00:30:57,920 --> 00:31:01,520
+ ist im Prinzip das Gleiche. Ich möchte ja die Entwicklung der Brutrevier sehen.
+
+424
+00:31:01,520 --> 00:31:05,240
+ Werden es mehr, werden es weniger von dieser Vogelart.
+
+425
+00:31:05,240 --> 00:31:09,320
+ Und da ist es nur wichtig, dass es jedes Jahr gleich gemacht wird und nicht, wie es nun genau gemacht wird.
+
+426
+00:31:09,320 --> 00:31:14,200
+ Ein anderer Mensch auf der Fläche würde eh eine Anteil Revier sehen als ich.
+
+427
+00:31:14,200 --> 00:31:17,960
+ Okay.
+
+428
+00:31:17,960 --> 00:31:24,760
+ Gut, anscheinend sind jetzt alle eure Fragen beantwortet und ihr könnt jetzt losgehen und Vögel zählen.
+
+429
+00:31:24,760 --> 00:31:29,760
+ Aber davor würde ich sagen, danken wir nochmal der Speakerin.
+
+430
+00:31:29,920 --> 00:31:39,920
+ *Applaus*
+
+431
+00:31:40,080 --> 00:31:45,080
+ *Musik*
+

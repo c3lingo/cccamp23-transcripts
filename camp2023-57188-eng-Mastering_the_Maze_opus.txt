@@ -1,0 +1,153 @@
+ [MUSIC]
+ Ladies and
+ gentlemen,
+ welcome to the talk at
+ the Millway stage about how to use AI in penetration testing.
+ Jacob and Richard are gonna talk about this today.
+ >> [APPLAUSE]
+ >> Good morning and welcome to our presentation.
+ We are mastering the maze.
+ There is like a small company icon in some of the corners.
+ We got like a training deal, so please don't mind that.
+ Let's first talk about motivation and/or agenda.
+ So how did we came up with this topic?
+ Both Richard and I wanted to learn a bit about AI and security is a nice topic.
+ So we thought about like combining those two.
+ And yeah, what did we want to do?
+ We wanted a bit learning by doing and tried to create a neural network
+ that could find an optimal action in a pen testing environment.
+ Yeah, so today in this talk, you will hear me talking a bit about deep Q learning,
+ how it works and how the best solution is found.
+ And then Richard will explain how this deep Q network can be used in penetration testing.
+ So first we started using some tutorials.
+ And there are actually a lot of tutorials for deep Q agents that are related to gaming.
+ So we had a look at these and started with some of the tutorials.
+ So the games, the camp tutorials kind of make sense because in the video game you have like a state
+ and there are a few actions you can take, but there are a lot of states.
+ And these actions and states, we will have a look at them later, are perfect for Q learning or deep Q learning.
+ We also tried to make an own agent for Amaze and the title is from that, but that went okay.
+ So how does Q learning actually work?
+ So I already mentioned states and there are some elements that are required for Q learning.
+ First we have an environment. The environment is like the thing the agent interacts with.
+ So that can be a game and the agent can interact with that.
+ Or the environment is like a real world environment and that's also possible.
+ In this environment the agent has some actions.
+ That's like the steps it can perform.
+ So for example in this example game environment Mario can jump or go right or go left.
+ That are possible actions and it's like the things you have on the controller, the buttons you can press.
+ That's like the actions the agent can do.
+ There also is the agent itself. It's represented as Mario here.
+ But the agent is like all of the things combined kind of because it's like the main part of the AI.
+ One of the most important things is the reward.
+ So there is like the score in the upper left corner of the environment.
+ That's not really the reward, but that's what you might associate with the reward.
+ Also maybe the time both of the things are in the dotted boxes.
+ But the actual reward we are aiming for are the game failed or the game one state kind of.
+ So if the level is completed then there is a big positive reward.
+ And if the level is failed there is a huge negative reward to influence training.
+ And also the kind of most important element in the learning algorithm is the state.
+ That is some kind of representation of the environment.
+ And the state is kind of what the agent sees.
+ It can be for example the position of an object or its velocity or things like that.
+ So in Q-learning we have some tables.
+ These tables have a state and actions associated.
+ And for every state action pair there is a Q-value.
+ And the Q-value inside the table is the expected reward over the time.
+ So if I have a state X and I look at the table and if I go right now then I expect the reward in the end to be one.
+ And if I go left then I expect the reward to be minus ten or something like that.
+ The rewards over the time, so looking into the future, kind of the rewards always are a bit discounted.
+ So the reward in the action itself is a bit higher than future rewards.
+ And also using Q-learning table if it is fully trained it kind of memorizes the perfect way.
+ And you can find a perfect path.
+ But that is quite problematic if you have a lot of states or infinite states.
+ So therefore we use the Deep Q-learning network.
+ It is a neural net.
+ And as first layer you input state parameters.
+ It is not like the state itself but for example a position and velocity and things like that.
+ So you input a state and after some hidden layer magic then an action pops out.
+ So instead of memorizing the table the nodes in the neural network use an approximated optimal Q-value.
+ And therefore find the perfect action if there are a lot of different states.
+ And then there can be infinite states instead of a list that is in the table like before.
+ I hope you understand the basic concept of Q-learning.
+ And Richard will now show what you can do with that.
+ Thank you Jacob.
+ So to use this kind of algorithm for our real world example we have an agent.
+ This handy person sitting in the middle.
+ And the goal is to have a network of systems so the landscape of all the systems with vulnerabilities
+ accounted to one of them or even more than one.
+ And the goal is to find the optimal path through the network.
+ So to attack the first system, gain access to the second,
+ which vulnerabilities get the highest reward which are most prominent to attack.
+ So instead of the game example we heard earlier we want to train an algorithm
+ that decides on the given network which is the optimal path, the optimal attack path through the network.
+ And what actions to take to gain the highest rewards.
+ Therefore we have some systems with low hanging fruits for example.
+ So very easy to exploit vulnerabilities or very hard to exploit vulnerabilities.
+ So the low hanging fruits would be optimal to attack first, gain access to the system.
+ Or some systems have higher rewards because some critical data is accounted to it.
+ More traffic runs through the system or something like that.
+ So there could be many parameters to account for this.
+ And the agent itself knows in the beginning a list of systems in our case.
+ So we have a list with for example 100 systems.
+ And then the algorithm would go and find vulnerabilities at the beginning system.
+ Such as is it worth to attack a found vulnerability?
+ Is it giving us a reward that is acceptable for the algorithm?
+ If for example an SSH service is configured in a way that it's easy to exploit,
+ this would give us access to the system, maybe root access.
+ So it will generate a higher reward.
+ And the algorithm decides to use an attack vector or it has an option to select a new system,
+ do some reconnaissance dates and find new vulnerabilities on the new selected system.
+ And then jump from system to system deciding is it worth to attack a vulnerability on the system
+ or even more than one or is it worth to go to the next system.
+ So in order to have it do that, we give the rewards explained depending on how great of an impact the vulnerability is.
+ But we also give a penalty for actions taken.
+ So we don't want to create a lot of noise, scan all the system at once and so on.
+ So for example the selecting of a new target would be a penalty to encourage the algorithm to do some exploitation of the vulnerabilities found on the service.
+ And depending on what reward will we get back from each action, we have the landscape
+ and in the best case an algorithm that decides go to system A, then go to system C attack there
+ and have at the end a big path through the network that we can use afterwards to do our exploitation.
+ So the goal of this algorithm is not to exploit the vulnerability itself, but is to decide if it's worth to exploit it or not.
+ So the final exploitation and more in-depth research would still be done by a pen tester or maybe in some stage or another to the algorithm itself, but we come to that later.
+ In this research we've done for this presentation we have set up a small project with a very simple environment and a very simple landscape to train the Deep Q network.
+ You can see we got a result of -29, so we averaged more penalties than we got results back.
+ At first sight when we compare it to the Socratic Optimal Result it's not the best score you would hope for.
+ So at first sight our algorithm may not have taken the best route through the network
+ and we could explain this by the very few data points we've given and the very rudimental network we set up.
+ So to answer the questions we come into with this talk, is it possible to master the maze to find the way through our system landscape with the Deep Q learning algorithm?
+ First of all, as we've seen in the last slide, there are some problems for the algorithm to work properly.
+ We need more diverse and also more data overall to train the algorithm and it's not very easy to obtain for a wide variety of systems to train the algorithm.
+ Without this data it is also possible to say that the Deep Q learning algorithm is maybe not the best way to achieve this goal.
+ So you need a lot of extensive knowledge about the server, about the vulnerabilities to train the algorithm.
+ But if you have enough data, if you have enough knowledge, the outlook for this algorithm is that it can produce a sophisticated attack vector on our system landscape
+ and it's very useful if you have a very large system landscape, a very complex system landscape, maybe one that has grown over time,
+ nobody knows exactly what is running where, what is going on in the network,
+ and you can use it to do automated pen testing stages in this landscape, use the data recovered by the algorithm to do further investigation
+ or even as said, train or extend the algorithm to do the actual exploit in the steps where we have the attack vector.
+ And then it could be generating automated results of the network, we can use it to harden our network without the need of extensive human resource for a set very large networks.
+ So to summarize it, the lessons we've learned, so our goal was to know something about the Deep Q network, Deep Q learning and use it in pen testing.
+ We have achieved that, we have gained a lot of knowledge about both of this, and we have a good understanding of how to develop it further to be useful in our showcase.
+ Example.
+ [Applause]
+ Thank you for your interesting talk.
+ We still have time for a few questions.
+ Anyone wants to ask a question, we have a microphone over here, please go to the microphone to ask your question.
+ Signal Angel, does the Internet have a question?
+ The Internet does not have a question yet, they are still asleep, but we have one in the audience.
+ How does this compare to things like Ponegotchi?
+ I'm sorry, I have a question.
+ Ponegotchi, which is used for Wi-Fi attacks and uses an actor critic model.
+ Yes, our goal was first of all to gain knowledge, and in this case it is possible to design the algorithm for your own use case.
+ So to provide it for the network you have and optimize it.
+ In terms of the exploits, does it basically check service version and then has some local database with exploits,
+ or can we also hope for misconfigurations or keys in BuzzFest 3 or something like that?
+ Yes, so in the current state it does not use very sophisticated databases and servicing,
+ but our goal is to extend it to have more advanced data set, the algorithm used to evaluate what vulnerability is useful or not.
+ And then the more data it has to evaluate all those things, the higher impact the result is of the systems,
+ what is vulnerable, what is not, and what could be exploited or not.
+ So how is the training of the neural network actually done, because we don't have direct feedback what action will result in the desired state or final state?
+ So how do you train it so supervised?
+ So in the training we used kind of a test environment, so we did not really have good data because we realized that companies are not so willing to share network scans and things like that.
+ So we had kind of not really mock, but quite mock environment, so there was not really good...
+ I'm not quite sure how to phrase it, so we kind of used a mock environment, so we gave the answer if it's vulnerable or not a vulnerable service.
+ And that rounds up our talks. Please give another round of applause to Jacob and Richard. Thank you for your talk.
+ Thank you.

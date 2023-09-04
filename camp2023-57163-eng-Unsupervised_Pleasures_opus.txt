@@ -1,0 +1,725 @@
+ [MUSIC]
+ [MUSIC]
+ And now our next talk is from Sarah Sisten,
+ who is based in Berlin in Los Angeles.
+ And is a PhD candidate of University of Southern California.
+ And who will talk about unsupervised pleasures and
+ its intersectional language models for queer futures.
+ Welcome on stage please.
+ >> [APPLAUSE]
+ >> Thank you for waking up, but
+ [INAUDIBLE]
+ And chugging, I hope you chug coffee, which I just.
+ If you would like to introduce yourselves in the chat,
+ I've set up a ether pad.
+ I don't know if you can see the URL.
+ It's pad.riseup.net/p/unsupervisedpleasurescc-keep.
+ Add your favorite emoji, your pronoun, whatever.
+ We're gonna be getting into it, hopefully, in a participatory way.
+ And while you're doing that, I will introduce myself a little bit more.
+ So I'm a poet and programmer.
+ I'm interested in building tools to bring intersectional approaches to
+ machine learning and building community through accessible,
+ creative coding, critical creative coding.
+ And I come by coding very circuitously via creative writing and
+ scene making and book arts.
+ So I have somehow come around to adapting that work into making subversive art with
+ and about text-based machine learning.
+ And I'll have the link up again in a few minutes.
+ Let's get started.
+ I can find my mouse.
+ [BLANK_AUDIO]
+ Ominous.
+ Okay, so this project came out of two basic questions.
+ This is a collaboration with my colleague who is called Queer AI,
+ Emily Martinez, and we were really interested in,
+ as these language models are coming about and getting really prominent,
+ we actually started before chat GPT dropped and suddenly this has exploded.
+ But we were wanting to know what do these existing language models have to say about
+ people like us, and is it possible for
+ language models to speak so that we recognize ourselves?
+ We're really interested in building community tools around curated data sets
+ that can acknowledge power and rethink these approaches, and
+ thinking about new models and new goals.
+ And so this workshop today is to think about what you might want to build with
+ these systems, how we might make re-imagined data sets, and
+ hopefully eventually re-imagined models as well.
+ So these data sets are getting insanely large.
+ At last count, GPT-4 and now GPT-5 are off the charts and
+ they've stopped telling us what's even in them.
+ Common Voice, which is from Mozilla and is crowd sourced,
+ is 65 gigabytes of voice data.
+ GPT-3, 590 gigabytes, they just keep getting larger and larger.
+ Aside from the impacts in terms of sustainability and the environment,
+ the issues that I'm seeing around this are that they're grabbing data
+ indiscriminately, but they're still really doing a terrible job telling stories
+ about people who don't fit these normalizing baselines that they're repeating.
+ And my argument is that the solution to this is not to suck up more data
+ carelessly, to make more categories, to find more ways to be labeled diverse,
+ but to find other approaches that are actually more intersectional.
+ So the size of these models means that they're pulling in racist text,
+ inaccurate text, private text, all kinds of problematic texts.
+ It means that they're really impossible to audit and review.
+ And it's difficult to even develop criteria by which they should be reviewed or
+ adjusted, ostensibly because they're called general and
+ all purpose zero shot learners.
+ But what this means is that they kind of only work for
+ the Western white democratic rich so-called majority,
+ but while leaving out the rest of the global majority.
+ And this is a really totalizing approach that rather than representing a multitude
+ of voices, it centers and normalizes and affirms this powerful status quo.
+ So here's where these are coming from.
+ We think about authorship in a new way.
+ Common voice, as I said, is open source.
+ People are contributing their voices, but it's predominantly an English model.
+ GPT is being scraped from social media, Reddit, Twitter, Wiki, GitHub.
+ The evaluation criteria for what was a good Reddit text to go into it was if it
+ had a karma score of three or above.
+ That's what's being decided as a good value for this,
+ which I argue we could probably come up with some better rubric for this.
+ T5 is from colossal clean crawled corpus,
+ which is common crawl but filtered a little bit.
+ And Wudow is three billion scraped Chinese social media texts and websites.
+ So if you've ever posted anything on Twitter, on Reddit, on GitHub,
+ your code and your text and your voice is somewhere in there.
+ But it's probably not representing you either.
+ Unfortunately, these data sets are also, when they're collected,
+ they're not offering information about how the text arrived in this data set,
+ which we'll talk about more a bit later.
+ It's really showing you just a snippet of text, and
+ it might say it came from Reddit, but it's not going to say anything more about
+ who the author was, how it got there, what the rights were attached to that.
+ So what I'd like us to do is to do an experiment.
+ If you have a device that's connected to the Internet available,
+ go to the Rise Up Pad address.
+ And we're gonna talk through a couple of prompt training examples.
+ So what we are finding, just as a way to kind of probe what's inside these models
+ first, which you don't need any expertise to do, is to just go to the interfaces
+ that they're making available to us in this very limited framework.
+ And try putting in this prompt.
+ If you fill in a blank couple or on their way to a location,
+ as they board the blank, an announcement happens.
+ So if you go to chat.gbt and do this, and you say a married couple are on their way
+ to Paris with their family as they board the plane, an announcement happens.
+ [INAUDIBLE]
+ Presumably white, boring, maybe mild vacation inconvenience.
+ As they board the plane, an announcement happens to inform the flight has been
+ canceled due to bad weather.
+ After an argument, the family is forced to stay at an inn in a small village.
+ Okay, like not a great day.
+ If you try putting in other items, and in the Rise Up Pad, you'll have links
+ to these different models that you can test out.
+ And I would invite you to put in your own identity markers, your own locations,
+ try anything you like in this template, diverge from this template, and share
+ into the Etherpad what kind of results you get.
+ See how these diverge, and as they accumulate, we'll start to see kind of the
+ differences that emerge.
+ So if you say a queer Pakistani couple are on their way to Paris with their family,
+ as they board the plane, an announcement happens, to inform the flight has been
+ hijacked.
+ The play explores how the terrorists shape the course of events and how the
+ hijacking is represented in the media.
+ Or a lesbian couple are on their way to Tehran, as they board the plane,
+ an announcement happens, the couple are forced off the plane by an officer who
+ accuses them of having deviant sexual relations.
+ They leave for another international airport.
+ A woman holds her newborn baby in her arms.
+ She cannot go through with the adoption due to religious prohibitions.
+ So as we add more of these to our examples, it gets really heavy and kind of
+ intense.
+ And I think just the cumulative effect of this shows that even when you put
+ something fairly innocuous into these systems, I'm hoping that this can expand
+ the way that we think about bias for this, that it's not simply removing hate
+ speech or taking, like these aren't levers that we can turn with corrections
+ after the fact.
+ These are deeply embedded into these models because of the way that the data
+ sets are built on the front.
+ And these simple corrections to like de-bias aren't, are in like technical
+ fixes for this, aren't really at the root of the problem.
+ So if anybody would like to, we will pull up the etherpad again in a bit and talk
+ through that.
+ So what I've been doing is analyzing, rather than looking just at the prompts,
+ I've been trying to go back into the data set that trained these.
+ It's a little bit hard to find what actually trained things like chat GPT
+ because at this point they're all proprietary.
+ They have stopped telling us how they've built these data sets and what's in
+ them.
+ But folks have started reverse engineering some of the data sets and
+ giving us open source editions of this.
+ So I've taken some of this and I'm doing different kinds of natural language
+ processing analysis to find out from the root training data what is known about
+ trans people, queer people, people that, what kind of lived experience is being
+ expressed through this.
+ Well, if you do a named entity recognition which labels any kind of proper
+ nouns that it recognizes, it thinks that pride is a product, pansexual versus
+ bisexual is a work of art, and queer liberation is an org.
+ A lot of the text that comes up is around, like, trauma and hate speech.
+ Anything related to queer women or nonbinary people very quickly goes into
+ pornography.
+ This one is one of my favorites.
+ It said after all one of the best things that a lesbian can do is turn the guy
+ on.
+ So I don't know about y'all, but this is not really capturing my own queer lived
+ experience.
+ And I would love to, other than it have something spit out at me like when I try
+ to type in something and it just says as a large language model, you know,
+ everybody should be treated equally.
+ These are the kind of diversity milk toast phrases that it puts on top of the
+ hate speech that it's covering up.
+ And instead I would love to see it actually say something that represents my
+ own experience and others.
+ So I'm interested in investigating how we do that.
+ Here's another example of some of my investigations looking at words that are
+ similar to identity terms that I've been putting into the model.
+ And you can see a bit.
+ I won't read through it.
+ And if anyone's interested, after I have the live demo of this data that I've
+ built and we can look up other terms, I would be very interested to know what
+ terms you'd be interested to investigate in this data set.
+ But you can see what kinds of things come up.
+ So for bisexual, it's mostly about threesomes and pornography.
+ And for trans, it's mostly about transphobia and discrimination.
+ And this just, like, hurts my heart.
+ So the next question then is can large language models speak so that I
+ recognize myself?
+ And what Emily and I have been doing is thinking about how we might make new
+ methods around this, take what we know about intersectional approaches and
+ tactics, both to examine the existing corpora like I just showed you, and then
+ to go on to create new corpora where we are pulling from different text sources
+ that we believe are better representative.
+ Not only that, but creating a way to have other people help contribute to that
+ because it shouldn't be just coming from one source.
+ Having ways that the publishers and the authors of these sources get attributed
+ and have a more consentful relationship to the text where they can revoke and
+ decide what kind of license they want to offer, where all of this gets baked into
+ the data set.
+ To train new models, meaning when we have this new data set, can we do fine
+ tuning on top of what's existing?
+ Can we completely new large language models?
+ Is this better?
+ Yeah.
+ Can we even move on to imagine what new model architectures altogether might
+ look like?
+ And then finally, thinking about how can people make use of these?
+ So if we had the language model of our dreams that didn't spit out garbage
+ text like we've just seen, what would you want to do with it?
+ What would you want to make?
+ What other possibilities might exist in the world if we had systems that could
+ speak with us and for us?
+ So these are some examples of what the current data sets look like if you pull
+ them up.
+ As you can see, it's basically a title and a text and barely even where it comes
+ from.
+ This is the data set.
+ The source is another data set.
+ It's turtles all the way down.
+ This is what we are proposing as a provocation that it could include a
+ description of the work, the rights that were given, who the publisher is, where
+ you would find the original text, even how it was pre-processed and who
+ pre-processed it.
+ I would be very interested to hear from any of you what other kinds of things
+ you think should belong in a training data set.
+ The thing that I think is also interesting about this would be that it becomes an
+ archive in its own right and it becomes something that people can use not only in
+ mass as a training data set but also to find new text.
+ So necessarily, as you saw, all of that would take a lot more work than scraping
+ all of Reddit and giving it a filter for Karma score of three.
+ This will be necessarily a lot slower and more careful and more cared for and it
+ will bear the traces of who's doing the work.
+ It will have an active subject position instead of just being the so-called view
+ from nowhere that is basically a white male Silicon Valley view.
+ I think it's really important that we are acknowledging the labor that goes into
+ building data sets, the publishers, the authors, all of us who are being sucked
+ into these systems, and then the people who are working to clean them and curate
+ them because this is a curation process whether we are acknowledging it or not.
+ So my question overall is to think about which kinds of data sets do we want?
+ Do we want the indiscriminate curation as a technical concern?
+ Do we want things curated by communities for specific purposes?
+ Do we want zero-shot, the biggest general catch-all that really does nothing well?
+ It's a shitty Swiss army knife.
+ Or can we create things that are including attribution, including consent,
+ including care, and have our own goals in mind?
+ And I think it takes taking a step back from what these tools have offered us and
+ asked us and thinking within their frameworks to actually really-
+ [INAUDIBLE]
+ [INAUDIBLE]
+ It's a live coding web interface where the similarity texts cycle through.
+ But I would just put this up here to invite you to think about what kinds of
+ things you would want to make with a different kind of large language model.
+ And for those of you who have questions about working with data sets for
+ machine learning in general, I also just completed this zine critical field guide
+ for working with machine data sets, which is really primarily thinking about how do
+ we conscientiously engage with these practices.
+ So let's open up the etherpad and see what we came up with.
+ Okay.
+ [BLANK_AUDIO]
+ A lesbian couple are on their way to Barcelona as they board the cruise ship.
+ In celebration of love and diversity, we will be hosting a special pride night.
+ Okay.
+ [LAUGH]
+ Anybody else, if you found any interesting ones, please continue to add them.
+ I would be really excited to see.
+ And for this next bit, what I would love for us to do is to think about
+ what you would imagine for these systems.
+ So in this kind of how might we exercise,
+ this is a brainstorming around questions that you would want to know.
+ Like mine are, how might we rewrite these prompt responses?
+ What would you want the prompt to say instead of what came out?
+ How might we build machine learning systems for things we actually want?
+ What do we want these to do?
+ How might we trace and protect the use of community language resources?
+ How might we have large language models that speak with, for, to, and
+ about us as we prefer?
+ How might we reimagine the technical aspects of this for
+ those of you who are working with large language models?
+ What kinds of intersectional queer logics could we apply instead?
+ So if you're in the document, I would invite you to add your own questions
+ around this and we can also open it up to questions and discussion from the group.
+ Pretty much the same thing if you replace lesbian with trans,
+ except they were on a hot air balloon.
+ Okay, so the other interesting thing about this, I'm curious for
+ this person which model you used if you use Bloom or OpenAI.
+ Because they're continually kind of updating and
+ adding more diversity bullshit to these.
+ I mean, I love diversity, but
+ I don't like the bureaucratic diversity speak that's covering up what's still in
+ these models.
+ So anytime I try to write anything like dyke or queer, I get,
+ it's important to treat all people equally, which yes, but
+ give me some information please.
+ So what questions do you have?
+ Yeah.
+ Yeah.
+ >> Super interesting, thank you, I was just wondering.
+ Because they are so general and therefore could go positive, negative, up, down.
+ So I know we would ideally like them to better handle short prompts,
+ but giving them more guidance like I'm in the mood for
+ an uplifting story versus I'm in the.
+ But I totally get that, it'll never be, well, maybe it'll be perfect one day, but
+ just like when you experiment with some prompting, does it help at all?
+ Does it make a difference or does it still treat the words?
+ >> Yeah, the example I love is, I don't know if anyone else has seen this.
+ The doctor as a gender term,
+ it automatically assumes doctors are male and nurses are female.
+ And if you tell it, in the story, the doctor is female,
+ it can't wrap its mind around it, it just goes back.
+ So there is a lot you can do to continue prompt training as you amend these,
+ but it has its limits because it's absorbing all of this text and
+ it's reflecting what we've all been saying online.
+ So when the majority of this has that bias, it's pretty hard.
+ And I think the takeaway for me is that we do need to read them critically,
+ no matter what.
+ So if I think to say, okay, I need something more positive or
+ I need something less biased, how do I approach asking for
+ that and making sure that it can give me that?
+ And for the more subtle questions, I still need to be thinking about
+ where might that bias be entering?
+ So if I'm just having it write me an email and I think it has nothing to do with that,
+ I need to still be considering that that bias might be latent in the system.
+ Even though I'm like, I'm just looking up a recipe for dinner or whatever.
+ This is still all speaking from the same singular voice.
+ Yeah, great question.
+ [BLANK_AUDIO]
+ >> Thank you for the interesting talk.
+ I have a question about one of the examples,
+ some of the examples I gave at the beginning.
+ So you showed output from chat GPT, a couple of boards to the plane,
+ the officer accused him of having deviant sexual relations.
+ That's the problematic, obviously problematic, right?
+ And work list outputs with transphobia and discrimination.
+ I was wondering if this is authentic data,
+ which is the data that is actually given, that's actually being used.
+ Isn't this exactly what we want in terms of intersectionality?
+ Because it raises awareness about the factual state of things,
+ about the factual homophobia rampant and sexual.
+ It seems like this is an accurate representation of the state of things.
+ And it seems to be exactly what we want, doesn't it?
+ >> I think that is an interesting way of looking at it.
+ I think you're right that one of the problems I have with
+ the kind of adjustments that are being made to make these more equal,
+ more equitable right now is that they're covering up exactly what you're talking
+ about.
+ So in the early editions, you would get the rampant homophobia,
+ hate speech, all of this.
+ And now, even between when I first gave a version of this talk earlier in the year,
+ and now it's much harder to see those things.
+ But it doesn't mean they're not there anymore, they're being covered up.
+ So I think you're absolutely correct in that.
+ But I would love to see something else in there in addition, and
+ we're not replacing it with anything.
+ We're just replacing it with this kind of bland bureaucratic speech.
+ So I think that there's gotta be a third way.
+ It's not queer people only get hate speech or we get nothing.
+ I think we could build our own systems that do different things for our own goals.
+ But I think you're right, it's important that we not pretend it isn't there.
+ >> Does that answer your question?
+ >> [INAUDIBLE]
+ >> Thank you too for this very interesting talk.
+ So I'm a queer historian, and
+ I think these tools are also great to get access to our history.
+ But right now, it's pretty shit.
+ I mean, I've done some experimenting with Chachi Biti on queer East German history.
+ And I said, can you please give me a literature list?
+ And it came up with ten publications that doesn't exist.
+ And I looked up every single one because I was very shocked.
+ I was like, how can I not notice?
+ I've been doing research on this for so long.
+ But it also made me, okay, so I'm gonna start
+ rambling now and go down to two things that I wanna ask or give it.
+ So the first thing is there's a lot of people that have done great work
+ on making queer history accessible.
+ So for Germany, for German queer history, there are great online resources,
+ but they aren't in there.
+ How do we make sure if we build our own AI that our data is in there and
+ that we don't do the same thing twice or three times?
+ So I think this is very important that we begin maybe with a mapping of what is
+ already there.
+ And I mean, for example, there's also a queer scene archive online.
+ There are so many great resources online that could go in there.
+ But then I was also interested, I mean, there is a lot of queer history that we
+ will never know because all these sources are lost.
+ And maybe AI can also be a cool tool to make up these histories.
+ Yeah, I see a great potential there as well in imagining these queer histories
+ with the help of AI.
+ >> I love that.
+ Thank you so much for your comment.
+ The first kind of step that we are imagining for
+ this is exactly as you said, going to queer archives and collecting open and
+ available texts.
+ So I've been working with a couple of libraries in the US and
+ I've been trying to find more queer archives in the EU and global south.
+ And we've set up a link for folks to submit their own and
+ include what kind of text it is, where we might find it, what category of data.
+ So one of the archives I'm working with is a queer poster archive from the 50s,
+ 60s, 70s.
+ So all different kinds of text, it doesn't have to be books,
+ it could be podcasts, it could be posters.
+ And I love this idea of then having it imagine the archives and
+ histories that we no longer have.
+ But I think it's really important that we also think about how might this data set
+ be misused if we were to create it and making sure that the way that we're
+ licensing it and offering it and talking about it makes it very clear what it's for
+ and more importantly what it's not for.
+ >> Hi, okay.
+ Thank you so much for your talk.
+ It was really amazing.
+ And just wanted to let everyone know if you're interested in AI topics.
+ At the Kimono village today at three, we're doing a workshop on the hidden labor of AI.
+ And I think it's a really cool conversation to talk about above the API and
+ the content of the AI.
+ We're gonna go a bit deeper into the different labor infrastructure and
+ that kind of thing.
+ So I thought people here might be interested as well.
+ It's at Kimono, hidden labor of AI at 3 PM.
+ >> Cool, thank you.
+ [BLANK_AUDIO]
+ >> Hi, also thanks for my side.
+ And I was wondering, because now your focus is on queerness, but
+ I think you're also interested in other aspects of intersectionality.
+ And as you were talking about how you're gathering your text,
+ like from US libraries, from European libraries, from libraries from the global
+ south, do you think it would make sense to make it possible
+ when you're prompting the AI to actually choose a little bit more about what
+ context the texts have?
+ Because there's not only queerness, but maybe there are also people
+ like with some disabilities that would like to be more represented in the text.
+ And I guess it would be easy to make the same mistakes with queer text,
+ that it's kind of biased towards US, white, I don't know what kind of histories.
+ >> Absolutely, thank you for saying that.
+ I think we are really wanting to think about this as an open kind of template
+ prototype for anybody who would want to make a corpus of their own or
+ submit and tag the text in any category.
+ I mean, it's really, I think, important that we not fall into the same traps of
+ categorization and the same modes of thinking about computation that
+ these models have asked us to.
+ But I think that the more people who could be involved in submitting texts
+ from different places, from different sources,
+ the more likely we would be to have diverse data set.
+ It's very important to me that it not just come from my own version of queer
+ lived experience, but be expressive of multitudes of that.
+ And then I would imagine as well that developing these methods and
+ methodologies could mean that someone else could create a Latin American corpus,
+ or something very specific to their own perspective as well.
+ But it wouldn't be about, okay, here's the queer corpus,
+ this is a queer love corpus, it's not the definitive, and it should never be, right?
+ >> Hi, thank you so much for the talk.
+ I was just wondering, what is your experience with the industry players?
+ Do you see any significant reactions to your finding?
+ Or is it just they don't care or it's the obvious whitewashing, yeah, yeah,
+ it's important to us, but they don't do anything?
+ >> Yeah, right now, this is not something that I am putting in
+ conversation with any industry work.
+ I think necessarily it's very small and slow and separate intentionally so.
+ >> Just a more general question.
+ In queer theory, there's this idea that this is not about representation,
+ it's more like about a more theoretical approach.
+ Seeing queer as something that is non-normative and
+ actually will move when the norms shift.
+ Things like that seem kind of in total opposition to the idea of an LLM.
+ What do we do about that?
+ >> I love that question.
+ I mean, I would love to challenge us to think what kind of
+ technical non-normative approaches we might take.
+ Because the way these are designed are very much, how do we move toward
+ the words that are most used, most connected to each other most often?
+ And all of the transformer steps are narrowing to that norm.
+ Could we imagine a model that does the opposite?
+ Could we imagine something that is architecture queer?
+ I would be super interested to think out what that means.
+ I don't think anybody's doing that, I would love to.
+ It might be a very poetic model,
+ it might be completely economically useless, and I would love that.
+ >> Yeah, thank you for your talk.
+ I was just thinking that you are looking to proprietary data model that
+ basically run on someone else's server, so you don't have control over
+ what data sets they train on and so on.
+ But there are also free software models like Lama AI that basically provide you
+ with the way to deduce the next words depending on what the previous are.
+ And you can run it on your own computer, so
+ you can even generate a new data set or new weights for the model,
+ which would take considerable computing power to generate them.
+ But then you would be in control in exactly what you put in, so
+ if you put your data set then it would generate the data out of the data set.
+ >> Yeah, exactly, so that's the goal.
+ Once we have a large enough data set, we are currently looking at the proprietary
+ models as much as possible, but also looking at Bloom and Lama to kind of
+ infer backwards what's being used in the ones that we don't have access to too.
+ And then once we have a large enough data set,
+ I would love anybody here who wants to contribute ideas for that data set.
+ We will start training, fine tuning on top of the open source models.
+ And then eventually once we have a big enough data set,
+ training from scratch hopefully.
+ >> Hi.
+ >> Yeah.
+ >> Hi.
+ >> So thanks for the talk and thanks everyone for the questions.
+ I have two questions if that's okay.
+ One more on the technical side.
+ I believe that the current solutions are dealing with the kind of safety and
+ sometimes hate speech issues by human reinforced learning.
+ And you seem to be proposing attacking it from the other side,
+ which is the data set.
+ So I would like to know if you have tried and failed with the reinforced learning,
+ and that's what took you to look at the data set duration.
+ And a related question would be maybe a little bit controversial, but
+ what is your view on when filtering the input training data sets become censorship?
+ >> Those are great questions.
+ I think there's a question up here too.
+ I have done a good amount of reading on the human reinforced
+ processes that have been going on.
+ I feel like it stresses me out.
+ It's a little bit problematic ways that they,
+ from what I've seen how open AI are doing it.
+ And kind of the terms of use that you're opting into as you do this.
+ So I haven't myself been working with them.
+ I'm just still kind of watching the space to see what the approaches are.
+ But I think rather than starting with here's everything, what do we remove?
+ And because it's not really everything, it is still curated, but
+ they're not treating it as a curated space.
+ We can more intentionally curate for
+ the actual job that we actually want it to do, because it's not serving us.
+ So I think that the other approach is just more interesting to me and
+ provides more of a service in a way because it's
+ collecting from perspectives that aren't being represented.
+ And to your question about filtering versus censorship,
+ I think that's really interesting.
+ I wonder if that wouldn't be as much of an issue with the opt in model.
+ I did wonder what would happen if somebody contributes to our forum and
+ puts in a hate speech, a text that is queer hate speech.
+ My first thought is that that should also go in because that is part of
+ queer lived experience, but it's not the only part and
+ it's maybe hopefully eventually not the majority part.
+ So, but what we're seeing right now in the larger models is the way that they are
+ being architected, it becomes the only part that we're seeing.
+ And part of that is because of that ad hoc after the fact human reinforced training.
+ Because anytime it says dyke, it's like nope, speech,
+ you don't get to say anything about us.
+ >> Yeah.
+ Regarding your data set, I was really interested in the meta information you
+ use and have you played around using kind of the same data, for
+ example Reddit or stuff like that with some more metadata added.
+ Like for the Reddit, like which subreddit, which user posted,
+ which also like publisher and stuff like that could be possible.
+ Have you played around with that?
+ If that already helps the quality of the resulting neural network and
+ maybe being more aware of what they are typing and from what kind of source it comes.
+ >> Interesting, I like that idea.
+ I think, so if you look at, I believe it's the open web text too,
+ the one that's open source does include which subreddits, but it's not filtering for,
+ it's not trying to curate from a specific voice.
+ And so I haven't done that, it's like taking the whole of Reddit because we're
+ coming from this very additive rather than subtractive approach.
+ But I think the other issue with Reddit is that people, you are consenting,
+ it is publicly available.
+ But when that started, the expectation wasn't that your private,
+ your anonymous story would be sucked into this large language model.
+ So I would be more interested in including people who know that that's what they're
+ consenting to and are invested in the project of imagining queer archives and
+ things like that.
+ >> Yeah, I think, yeah, hi.
+ >> I have a question regarding self reflection using AI.
+ I think that's a really powerful way to use AI.
+ And I'm interested, is there some kind of,
+ are there problems if you're using this as a queer person?
+ So does it do any suggestions that are just based on that you're a queer person and
+ it's really not suitable?
+ >> Yeah, so if I understand your question, you're saying if you're using one of
+ the existing models and trying to kind of self reflect,
+ that it's not treating you as even if you identify as, yeah, can you?
+ >> It's about building conflict systems and what are your needs for
+ a suitable conflict system for you and the group.
+ >> Yeah. >> And it's really helpful to use AI to
+ self reflect on what are your needs for this conflict space.
+ And I'm interested, are there any biases?
+ Is this a problem when using AI because you are a queer person?
+ >> Yeah, I think if I understand your question correctly, yeah,
+ I find at least with the existing versions, I find it very limiting for
+ being able to do that because it has a very narrow scope for
+ what it's going to understand about that, right?
+ So I would be interested to try if the data set that I'm talking about
+ already existed and if these models already existed,
+ what alternative might come out of a self reflection that would be very,
+ very different than the version I would get from chat GPT?
+ Does that answer your question?
+ Maybe we can talk, yeah, I'd be curious.
+ >> I'm wondering if there's been any sort of practice in instead of
+ only doing things on the back end,
+ having more of an engaged approach with the user.
+ Cuz right now it's like, did you like this answer?
+ Yes, no, and I know it's way more complex than that.
+ So sort of like taking in a little bit more
+ content to then like, hey, a conflict just arose.
+ It made somebody feel like this and kind of engage the user to report it and
+ maybe describe something.
+ I know that's kind of a burden on the user, but
+ I was just curious how much that's been leveraged in this space.
+ >> Yeah, so there's a couple things that I know about happening in that regard.
+ There's the human reinforcement training that was mentioned earlier that's
+ happening with the large companies developing these, where they're going
+ through and it's usually about as simple as was this a good answer.
+ But I think as you described, it's gonna get more complex very quickly.
+ And then I know of at least one research group that is looking at building tools
+ for users to compare different models, outputs, using the same prompt.
+ Which I think is really interesting as a user.
+ But I think I would also encourage us to think about our agency as users
+ not only being at the front end at the end of the process, but
+ again at the beginning of the process and holistically through the pipeline.
+ Also, if anyone wants to look up a keyword in the data set for
+ the similarity score, we can play with that in the time remaining too.
+ I think there were more questions.
+ >> Hello, I have one question regarding the content of people going with the data.
+ So you said you would like to use the archives,
+ but you would rather not use Reddit data.
+ And I think if you have the content of right holders,
+ it's basically not the same as having the content of the people who originally
+ published the work.
+ And so I really don't know if it might make a lot of, yeah,
+ hurts, like it will decrease the quality of the data set in the end so
+ much that maybe considering just doing it without the content might be the better
+ approach.
+ >> Yeah, I appreciate your point.
+ I think that one of the things we wanna think about as we're developing what
+ methods make sense is this tension of kind of the complexity and
+ impossibility of perfect consent and rights.
+ And how the existing information,
+ the existing IP structures don't fit these new tools.
+ So how do we build, it's kind of an impossible task,
+ an intersectional language model.
+ The idea might take centuries, millennia, I don't know.
+ But we're kind of embracing the failure to explore what's in that activity
+ to kind of point to the failures of these larger systems.
+ So yeah, if we find that we just can't get a big enough data set with archives only,
+ or we have issues with the consent because of the way the archives
+ were licensed originally, what does it mean to consent and for whom and
+ from whom?
+ These are all questions that are not gonna have perfect answers and
+ we certainly want to just be at least bringing attention to the questions.
+ And the hope is that it also brings attention to how these questions
+ appear in the commercial data sets and the commercial models.
+ Because they are there, we're just not attending to them.
+ Thank you.
+ >> I had a question about, so this was a little bit off of a previous question.
+ There was a project that I know of where they used AI to talk with people who
+ had cancer and they were young teenagers who
+ had experienced cancer and couldn't find a community.
+ Their friends didn't understand what that meant.
+ They had a hard time talking with someone else about the trauma that they experienced
+ around that.
+ I think there is possibly an opportunity to create an AI to talk to about trauma
+ related to queer experience, hopefully infrequent trauma experiences.
+ I was wondering if you have information about,
+ if you see a budding community around building and
+ creating these things within our queer community so far.
+ >> Yeah, absolutely, I do.
+ And I would love if any of you are inspired from this to join that effort.
+ I think there's many ways to intervene in that space.
+ And some of them are really building positive tools like what you've described.
+ And some of them are building weird, uncomfortable, messed up interventions.
+ And I think all of that belongs in this resistance to
+ the generative machine learning that we're seeing.
+ >> Thank you.
+ Yeah, picking up on that very interesting remark from our comrade over here.
+ So queer is a process against the status quo, it's an eternal process, right?
+ So there's no such thing as a stable identity because that would be contradictory.
+ And we saw a very interesting example in the scratch board of corporate speech.
+ Right, it's corporate speech affirming speech, so to speak, right?
+ And you rightly pointed out that that was cringe.
+ And so I was wondering, could you give a concrete example of what you would like
+ to see in the next iteration?
+ >> In the commercially available next iteration?
+ >> For example, what we saw just in a better form,
+ the output you would have said yes to in that example.
+ >> Mm-hm, okay, well, two parts.
+ I think through this experience, I'm not sure that I wanna see
+ the version that I want in the commercial iteration.
+ I feel like maybe it doesn't belong to everybody,
+ it belongs to people who build it for ourselves.
+ I can't imagine what open AI might do with a queer intersectional language model.
+ But from what we've seen them do so far,
+ I feel like it wouldn't be aligned with my values.
+ And what kind of response might I want to see?
+ >> Yeah, I think that it would be something that I could recognize myself in or
+ that I could recognize people I know in, that it would be affirming.
+ Maybe it would be complex, it wouldn't necessarily be perfect or optimistic.
+ But it would be dynamic, right?
+ It would acknowledge that there's more to queer lived experience than
+ what it knows now, which is being queer is illegal in this country.
+ So if you're on a plane, the flight attendant has to tell the people on
+ the plane that they're going into a dangerous situation.
+ There's this latent sense of fear and
+ danger built into this that is really shocking to me.
+ I would love for it to be like the show Schitt's Creek,
+ where there's queer people, but they're just living their lives and
+ it's not the main thread of their storyline, right?
+ Yeah?
+ >> I wonder how much of this is the data set and how much is the actual AI
+ kind of algorithms not really understanding the context of what it's looking at.
+ Because I often feel you can say someone's sexual orientation and
+ it has no real relevance other than defining the gender of the people involved.
+ And then other times it's actually incredibly relevant and
+ the context really matters.
+ And then the other thing I was wondering about was
+ sort of how you weight the relevance of data.
+ So for example, a pivotal book, would you weight that more?
+ Would you, as values change, how does the data set evolve over a number of years as
+ society values change and people's views change?
+ >> Yeah, good question, thank you.
+ So it's both and the data set and
+ the model are deeply entangled because the way the algorithm is built
+ is really pulling from the frequency of each word appearing in the data set.
+ So if Shakespeare appears in there more than anybody else,
+ it's gonna quote unquote think like Shakespeare, right?
+ So as the question before about how a queer model might be architected to do
+ something differently, that might be another opportunity to intervene and
+ build it a different way.
+ But right now, the two are very much tied together, so
+ it absolutely is the data set and the model.
+ But they are connected too deeply to kind of detach.
+ Thank you, yeah.
+ >> Thanks.
+ We have five minutes left according to the time schedule, but I feel like-
+ >> Yeah, I'm happy- >> It's getting long.
+ >> Yeah, now I'm happy to talk with anybody else after or play with the tools.
+ And thank you so much for all your questions.
+ >> [APPLAUSE]
+ [MUSIC]

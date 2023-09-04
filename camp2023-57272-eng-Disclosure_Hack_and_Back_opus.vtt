@@ -1,0 +1,1370 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:35.760
+ Okay, so our next speakers will be Kartorka, Linus and Domitri.
+
+00:00:35.760 --> 00:00:45.720
+ And they are going to be talking about disclosure, hack and back, how to mess things up in various
+
+00:00:45.720 --> 00:00:46.720
+ ways.
+
+00:00:46.720 --> 00:00:53.720
+ Please give a big applause to our speakers.
+
+00:00:53.720 --> 00:00:54.720
+ [APPLAUSE]
+
+00:00:54.720 --> 00:01:00.720
+ Yeah, thanks a lot for coming.
+
+00:01:00.720 --> 00:01:08.360
+ We basically thought we want to talk a little bit about the adventures we've had in the
+
+00:01:08.360 --> 00:01:17.480
+ past year with a specific focus on the past half year in incident response, in handling
+
+00:01:17.480 --> 00:01:21.640
+ incidents, causing incidents by disclosure.
+
+00:01:21.640 --> 00:01:24.720
+ And we basically talk about our disclosure adventures first.
+
+00:01:24.720 --> 00:01:30.860
+ So many of you may know that the CCC regularly discloses vulnerabilities to companies.
+
+00:01:30.860 --> 00:01:34.200
+ We also have an email address where we help people doing so.
+
+00:01:34.200 --> 00:01:37.960
+ That email address will play a role in a bit here.
+
+00:01:37.960 --> 00:01:46.680
+ So Kartorka, my good friend, reported a lot of incidents in bulk.
+
+00:01:46.680 --> 00:01:52.720
+ Basically he had like this spreadsheet to keep track of all the disclosures and we had
+
+00:01:52.720 --> 00:01:59.280
+ to look into it together and make sure that which state is it in and do you have everything.
+
+00:01:59.280 --> 00:02:05.280
+ And eventually we only made it a small blog post of 6.4 million data records in over 50
+
+00:02:05.280 --> 00:02:09.560
+ leaks that we disclosed to those companies.
+
+00:02:09.560 --> 00:02:12.800
+ Now you would think that's a process you could scale, right?
+
+00:02:12.800 --> 00:02:17.100
+ You build a spreadsheet, say like have we sent the email?
+
+00:02:17.100 --> 00:02:19.480
+ Have we received the response?
+
+00:02:19.480 --> 00:02:20.640
+ Is it fixed?
+
+00:02:20.640 --> 00:02:25.480
+ But once this is at 50 and you're dealing with 50 different organizations, it gets a
+
+00:02:25.480 --> 00:02:27.440
+ bit more complicated.
+
+00:02:27.440 --> 00:02:30.840
+ Still disclosure is a simple process in theory, right?
+
+00:02:30.840 --> 00:02:35.200
+ You find a vulnerability, you tell the people that are responsible for the vulnerability,
+
+00:02:35.200 --> 00:02:38.780
+ they fix it.
+
+00:02:38.780 --> 00:02:44.880
+ If you look at this in terms of like a call flow, you do the research, report it to the
+
+00:02:44.880 --> 00:02:50.800
+ company, just in case they forget to alert the cert or the data protection officer, you
+
+00:02:50.800 --> 00:02:55.160
+ just do it for them as well, right?
+
+00:02:55.160 --> 00:03:02.400
+ They usually send you an act, then they perform their duties and notify the DPA, they fix the
+
+00:03:02.400 --> 00:03:08.440
+ issue and they send you like a little thank you note and they notify the customers.
+
+00:03:08.440 --> 00:03:15.280
+ You can of course imagine which parts they sometimes like to forget about, so maybe we
+
+00:03:15.280 --> 00:03:19.800
+ then do a little publication to take care of the customer notification for them on top
+
+00:03:19.800 --> 00:03:21.600
+ of that.
+
+00:03:21.600 --> 00:03:29.560
+ So now with 50 of these in the past years or in the past year, Cantorca has a lot of
+
+00:03:29.560 --> 00:03:35.680
+ little adventures to talk about and please give them a big round of applause.
+
+00:03:35.680 --> 00:03:48.800
+ So, yeah, let's start with one of the cases that went quite well, I would say.
+
+00:03:48.800 --> 00:03:57.240
+ So there was this Spanish media company that owns, for example, the daily newspaper, Alpais,
+
+00:03:57.240 --> 00:04:03.280
+ and they had a problem that many companies had before, they forgot about this .git folder
+
+00:04:03.280 --> 00:04:12.640
+ which has a config file and here this config file included credentials for the GitLab.
+
+00:04:12.640 --> 00:04:19.160
+ That was a very simple cause with a large effect because in this account I had access
+
+00:04:19.160 --> 00:04:27.120
+ to 478 projects, which was, I don't know, probably all GitLab projects of this company,
+
+00:04:27.120 --> 00:04:31.440
+ including some infrastructure as a code stuff.
+
+00:04:31.440 --> 00:04:36.680
+ So yeah, we had a vulnerability and then we tried to report it and that was quite hard
+
+00:04:36.680 --> 00:04:37.680
+ in the beginning.
+
+00:04:37.680 --> 00:04:44.240
+ I reported an elastic search that leaked a couple of months before to the same company,
+
+00:04:44.240 --> 00:04:46.280
+ they never replied.
+
+00:04:46.280 --> 00:04:51.680
+ This time this issue was more severe, so I tried different channels.
+
+00:04:51.680 --> 00:04:57.720
+ So first of course I wrote this email to the company but I also notified the search but
+
+00:04:57.720 --> 00:04:59.280
+ still there was no response.
+
+00:04:59.280 --> 00:05:06.400
+ So I checked for people working at this company in the IT security department on LinkedIn.
+
+00:05:06.400 --> 00:05:07.400
+ LinkedIn is great.
+
+00:05:07.400 --> 00:05:13.480
+ Most of my LinkedIn friends had IT security issues.
+
+00:05:13.480 --> 00:05:20.880
+ But this time we used Facebook to reach out to someone who was in IT security and finally
+
+00:05:20.880 --> 00:05:24.440
+ we managed to get this leak fixed.
+
+00:05:24.440 --> 00:05:34.000
+ They thanked me, so until then this process was perfect, more or less, and then they asked
+
+00:05:34.000 --> 00:05:35.000
+ for a call.
+
+00:05:35.000 --> 00:05:39.280
+ I sometimes say, yeah, okay, why not?
+
+00:05:39.280 --> 00:05:42.640
+ Because those people were quite friendly.
+
+00:05:42.640 --> 00:05:46.720
+ I told them when I would be available and then they were quiet.
+
+00:05:46.720 --> 00:05:54.640
+ So in the end there was a little drop in the performance but it was okay.
+
+00:05:54.640 --> 00:06:00.800
+ Something different, the United Nations HCR, they are not responsible and they do not care
+
+00:06:00.800 --> 00:06:03.520
+ when it comes to data of other people.
+
+00:06:03.520 --> 00:06:10.760
+ So there is this services advisor for different countries, for example for Iraq, and it tells
+
+00:06:10.760 --> 00:06:17.060
+ information for refugees that need help in those countries.
+
+00:06:17.060 --> 00:06:24.520
+ This service advisor leaked accounts of about 900 employees of, I don't know, dozens of
+
+00:06:24.520 --> 00:06:29.600
+ aid organizations that are active in different parts of this country.
+
+00:06:29.600 --> 00:06:34.200
+ And this time it was very interesting because the United Nations have a search.
+
+00:06:34.200 --> 00:06:40.160
+ So there is a place where I can go to report issues.
+
+00:06:40.160 --> 00:06:49.760
+ As I said, they are not the responsible entity for this because the UNHCR is different, they
+
+00:06:49.760 --> 00:06:51.920
+ are not covered by the search.
+
+00:06:51.920 --> 00:06:58.720
+ Later I received a thank you for submitting this issue but the vulnerability was not fixed.
+
+00:06:58.720 --> 00:07:07.040
+ So I needed to reach out to them again and again until even the last Gmail account, it
+
+00:07:07.040 --> 00:07:08.040
+ was in fact deleted.
+
+00:07:08.040 --> 00:07:09.840
+ I don't know.
+
+00:07:09.840 --> 00:07:16.160
+ They deleted some data and then the vulnerability couldn't be abused anymore.
+
+00:07:16.160 --> 00:07:21.680
+ Also they did not forget to mention the United Nations Hall of Fame program because as some
+
+00:07:21.680 --> 00:07:28.520
+ other entities as well they have a Hall of Fame where people are mentioned after successfully
+
+00:07:28.520 --> 00:07:36.720
+ reporting an IT security issue but here they only mentioned that the UNHCR does not fall
+
+00:07:36.720 --> 00:07:39.920
+ under the Hall of Fame program.
+
+00:07:39.920 --> 00:07:42.920
+ Maybe next time.
+
+00:07:42.920 --> 00:07:56.160
+ Let's switch to IT security made in Germany.
+
+00:07:56.160 --> 00:08:06.320
+ Let's switch to IT security made in Germany.
+
+00:08:06.320 --> 00:08:12.240
+ The TÜV Nord, they even certify you when you are secure.
+
+00:08:12.240 --> 00:08:20.480
+ As other companies before they had this issue with .env and .git folders or files happens.
+
+00:08:20.480 --> 00:08:23.120
+ But they chose to ignore the report.
+
+00:08:23.120 --> 00:08:27.480
+ So I needed to reach out to them, I think via phone.
+
+00:08:27.480 --> 00:08:28.800
+ They ignored the email.
+
+00:08:28.800 --> 00:08:31.840
+ We had some discussions.
+
+00:08:31.840 --> 00:08:34.200
+ Then they told me this is not our IP space.
+
+00:08:34.200 --> 00:08:36.760
+ We do not use the software anymore.
+
+00:08:36.760 --> 00:08:37.920
+ It's not important to us.
+
+00:08:37.920 --> 00:08:39.920
+ We cannot do nothing.
+
+00:08:39.920 --> 00:08:44.040
+ However it's IP space of the TÜV Nord.
+
+00:08:44.040 --> 00:08:51.800
+ They still decided to not fix this issue and I did this morning and yeah if you like go
+
+00:08:51.800 --> 00:08:55.880
+ and check for data leaks in the TÜV Nord domain space.
+
+00:08:55.880 --> 00:08:59.760
+ You will find database credentials and source code.
+
+00:08:59.760 --> 00:09:06.880
+ You will find Google service account that can still access some services.
+
+00:09:06.880 --> 00:09:12.360
+ The database is not directly accessible but they made it easy.
+
+00:09:12.360 --> 00:09:17.560
+ There is Adminer and PHP admin to allow access to databases.
+
+00:09:17.560 --> 00:09:22.800
+ There you will find hash passwords of TÜV Nord.com accounts.
+
+00:09:22.800 --> 00:09:27.320
+ I told them about this issue but they said they have changed passwords.
+
+00:09:27.320 --> 00:09:34.880
+ That's not a problem.
+
+00:09:34.880 --> 00:09:39.680
+ There was another interesting disclosure in December last year.
+
+00:09:39.680 --> 00:09:44.720
+ The US military was using those devices that you can see on the slide here.
+
+00:09:44.720 --> 00:09:51.400
+ They used it to check people in Afghanistan and Iraq against watch lists.
+
+00:09:51.400 --> 00:09:55.320
+ They wanted to catch terrorists I guess.
+
+00:09:55.320 --> 00:10:00.920
+ We found those devices on eBay and in one of those devices there was a biometric database
+
+00:10:00.920 --> 00:10:05.240
+ of about 2.5 thousand people.
+
+00:10:05.240 --> 00:10:13.280
+ We had up to ten fingerprints per person, iris scans and a photo from the face.
+
+00:10:13.280 --> 00:10:21.520
+ Then there were details like name, height, sometimes weight, eye color, whatever.
+
+00:10:21.520 --> 00:10:27.120
+ Now half a year later, a couple of weeks ago, they finally reached out to us.
+
+00:10:27.120 --> 00:10:28.880
+ Hello, this is agent Smith.
+
+00:10:28.880 --> 00:10:33.680
+ We would like to have our devices back.
+
+00:10:33.680 --> 00:10:35.560
+ Also they like to meet.
+
+00:10:35.560 --> 00:10:40.360
+ They would even come to my hometown.
+
+00:10:40.360 --> 00:10:44.960
+ And they have questions.
+
+00:10:44.960 --> 00:10:45.960
+ Hello agent Smith.
+
+00:10:45.960 --> 00:10:48.640
+ I don't know if you are listening today.
+
+00:10:48.640 --> 00:10:52.560
+ I received your email about ten days before camp.
+
+00:10:52.560 --> 00:10:55.440
+ I was quite busy because of camp.
+
+00:10:55.440 --> 00:11:08.480
+ We will mention to reply soon.
+
+00:11:08.480 --> 00:11:15.240
+ In the meantime, if you would like to have such a device, they are still on eBay.
+
+00:11:15.240 --> 00:11:23.520
+ However, it could be that some people will visit you if you do so or the next time you
+
+00:11:23.520 --> 00:11:31.000
+ travel to the US, it might be challenging to enter the country.
+
+00:11:31.000 --> 00:11:37.600
+ Small fun fact, I also learned by the US National Archives and Records Administration that I'm
+
+00:11:37.600 --> 00:11:52.840
+ finally owner of the Chaos Computer Club.
+
+00:11:52.840 --> 00:12:00.400
+ For every single data leak, this organization has a record and I asked for the record because
+
+00:12:00.400 --> 00:12:03.680
+ they have freedom of information laws over there as well.
+
+00:12:03.680 --> 00:12:13.120
+ They did not reply yet, but I'm really looking forward to read those documents that are somewhere.
+
+00:12:13.120 --> 00:12:16.200
+ That's it about the US Department of Defense.
+
+00:12:16.200 --> 00:12:23.240
+ We will come to one last very interesting shoe shop on the internet.
+
+00:12:23.240 --> 00:12:29.800
+ We are introducing the Crypto King, Philipp Plein.
+
+00:12:29.800 --> 00:12:35.560
+ Crypto King is a name this person shows himself.
+
+00:12:35.560 --> 00:12:39.880
+ He is the Crypto King and in this shoe shop you can buy shiny shoes.
+
+00:12:39.880 --> 00:12:44.280
+ They are a bit expensive, but they are shiny.
+
+00:12:44.280 --> 00:12:53.720
+ You can pay with Dogecoin or 24 different cryptocurrencies.
+
+00:12:53.720 --> 00:12:58.440
+ They have even Crypto King and Crypto Queen watches.
+
+00:12:58.440 --> 00:13:03.680
+ The future is now.
+
+00:13:03.680 --> 00:13:07.240
+ From a technical perspective, this issue was quite boring again.
+
+00:13:07.240 --> 00:13:11.680
+ We found a leak somewhere and there was this FTP server.
+
+00:13:11.680 --> 00:13:17.800
+ First mistake, storing customers' data on the FTP server.
+
+00:13:17.800 --> 00:13:23.960
+ Then they lost credentials to the server, to us and to everyone else on the internet.
+
+00:13:23.960 --> 00:13:30.720
+ Then they were ignoring all vulnerability reports and this time we were creative.
+
+00:13:30.720 --> 00:13:37.080
+ We reached out to the SERT in Switzerland because this company is based in Lugano, a very nice
+
+00:13:37.080 --> 00:13:38.080
+ city.
+
+00:13:38.080 --> 00:13:46.880
+ We reached out to two DPAs because they have stores in the offline world as well, including
+
+00:13:46.880 --> 00:13:49.240
+ Berlin Kurfürstendamm.
+
+00:13:49.240 --> 00:13:54.240
+ Also I reached out to the Berlin DPA as well as to the Swiss DPA.
+
+00:13:54.240 --> 00:13:56.880
+ I called the hotline.
+
+00:13:56.880 --> 00:14:02.560
+ I reached out to some people via LinkedIn, including the, I don't know, not the CEO,
+
+00:14:02.560 --> 00:14:06.280
+ but the CIO possibly.
+
+00:14:06.280 --> 00:14:07.280
+ They ignored us.
+
+00:14:07.280 --> 00:14:15.400
+ However, we decided not to travel to Lugano and we also did not send a fax.
+
+00:14:15.400 --> 00:14:22.760
+ I was checking from time to time if this vulnerability was eventually fixed after, I don't know,
+
+00:14:22.760 --> 00:14:25.080
+ two years maybe or one and a half year.
+
+00:14:25.080 --> 00:14:26.920
+ The server vanished from the internet.
+
+00:14:26.920 --> 00:14:34.440
+ So this FTP server is just not available anymore, at least not under this IP address.
+
+00:14:34.440 --> 00:14:40.400
+ So if you bought something offline or online at this shop, it might be that someone else
+
+00:14:40.400 --> 00:14:44.040
+ has this information as well.
+
+00:14:44.040 --> 00:14:51.200
+ And I...
+
+00:14:51.200 --> 00:14:55.560
+ To sum up this first part of the presentation, some lessons learned.
+
+00:14:55.560 --> 00:14:57.480
+ So finding bugs is still easy.
+
+00:14:57.480 --> 00:15:01.160
+ There are lots of very simple data leaks.
+
+00:15:01.160 --> 00:15:06.240
+ It's boring to look into those data leaks from a technical perspective, but it becomes
+
+00:15:06.240 --> 00:15:13.080
+ quite interesting if you check for the different behaviors companies have when you approach
+
+00:15:13.080 --> 00:15:14.880
+ them about a data leak.
+
+00:15:14.880 --> 00:15:19.400
+ So reporting bugs is the actually interesting thing here.
+
+00:15:19.400 --> 00:15:24.640
+ And sometimes you find very motivated people that are very happy that you approach them.
+
+00:15:24.640 --> 00:15:31.160
+ And that's really nice to work with those people to make them understand what happened,
+
+00:15:31.160 --> 00:15:38.040
+ why that happened, and how to prevent this mistake in the future.
+
+00:15:38.040 --> 00:15:44.040
+ For companies that could have such issues, please assume good intentions when people
+
+00:15:44.040 --> 00:15:45.440
+ approach you.
+
+00:15:45.440 --> 00:15:47.400
+ They want to help.
+
+00:15:47.400 --> 00:15:52.680
+ Sometimes by accident they do a MySQL dump and not just a select count of rows or something
+
+00:15:52.680 --> 00:15:55.800
+ like that.
+
+00:15:55.800 --> 00:15:57.160
+ Please be prepared.
+
+00:15:57.160 --> 00:16:03.720
+ So make it easy for us to approach you and have a plan what happens afterwards when we
+
+00:16:03.720 --> 00:16:05.600
+ approach you.
+
+00:16:05.600 --> 00:16:11.240
+ And please keep us in the loop and also give some kind of acknowledgement because it happens
+
+00:16:11.240 --> 00:16:19.440
+ quite often that a company reads your email, fixes the issue, but never says thank you.
+
+00:16:19.440 --> 00:16:27.560
+ Two or three hours ago there was this talk by Lilith on the same stage here.
+
+00:16:27.560 --> 00:16:34.520
+ Doing such stuff is very interesting from a direct action activist experience as well
+
+00:16:34.520 --> 00:16:38.480
+ because companies fail to inform effective people quite often.
+
+00:16:38.480 --> 00:16:40.320
+ Public disclosure is needed.
+
+00:16:40.320 --> 00:16:46.080
+ However, when doing IT security research, at least in Germany, there's always this hacker
+
+00:16:46.080 --> 00:16:50.040
+ paragraph behind you that might hurt you.
+
+00:16:50.040 --> 00:16:51.680
+ So yeah, they suck.
+
+00:16:51.680 --> 00:16:56.040
+ Please remove them.
+
+00:16:56.040 --> 00:17:02.120
+ Sometimes the responsible disclosure way is not the best way if you want to maximise impact,
+
+00:17:02.120 --> 00:17:08.640
+ but it's not always the most effective way to change things.
+
+00:17:08.640 --> 00:17:13.320
+ And sometimes shitposting is fun if companies do mistakes.
+
+00:17:13.320 --> 00:17:25.920
+ There are lots of golden opportunities.
+
+00:17:25.920 --> 00:17:31.880
+ So that was our short dive into a couple of funny stories from vulnerability reporting
+
+00:17:31.880 --> 00:17:34.760
+ and disclosure.
+
+00:17:34.760 --> 00:17:48.320
+ Now the second part of this talk is what we call attacker infrastructure exploration.
+
+00:17:48.320 --> 00:17:58.680
+ So we got to know a little ransomware gang, initial access broker, and we were actually
+
+00:17:58.680 --> 00:18:00.640
+ surprised how they mess up.
+
+00:18:00.640 --> 00:18:05.260
+ And of course, to those guys, you don't disclose, you just hand in a talk at camp.
+
+00:18:05.260 --> 00:18:08.180
+ So welcome to our talk.
+
+00:18:08.180 --> 00:18:14.040
+ In Soviet Russia, incident response hacks you.
+
+00:18:14.040 --> 00:18:21.360
+ So it all started with an email that went like this.
+
+00:18:21.360 --> 00:18:24.400
+ DCCC, no spam, no joke.
+
+00:18:24.400 --> 00:18:25.520
+ My employer was hacked.
+
+00:18:25.520 --> 00:18:27.180
+ I was on the blue team.
+
+00:18:27.180 --> 00:18:29.740
+ The hacker was mediocre, left a few traces.
+
+00:18:29.740 --> 00:18:32.040
+ We were able to monitor him a bit.
+
+00:18:32.040 --> 00:18:33.920
+ No data was stolen from us.
+
+00:18:33.920 --> 00:18:39.800
+ The attacker attempted cableroasting to take over my beloved domain controller.
+
+00:18:39.800 --> 00:18:43.840
+ I found an SSH key and IP and looked it up.
+
+00:18:43.840 --> 00:18:49.060
+ Links to smart cards and labs could be prevented.
+
+00:18:49.060 --> 00:18:59.800
+ So they not only survived the incident without much compromise, they also had this little
+
+00:18:59.800 --> 00:19:05.400
+ SSH key that they were so friendly to share with us.
+
+00:19:05.400 --> 00:19:11.680
+ Now with this SSH key in my hand, I thought, oh, well, let's call Matthias and Dominic
+
+00:19:11.680 --> 00:19:15.640
+ and see what we can do with this little SSH key.
+
+00:19:15.640 --> 00:19:21.640
+ And I think Dominic will tell you all about it.
+
+00:19:21.640 --> 00:19:33.000
+ Yeah, so this was a pretty interesting opportunity, not finding vulnerabilities in the infrastructure
+
+00:19:33.000 --> 00:19:39.680
+ of like regular organizations, but rather in some special organizations.
+
+00:19:39.680 --> 00:19:45.400
+ So we asked around and we found our friend HackerMan here who wanted to look into this
+
+00:19:45.400 --> 00:19:47.200
+ further.
+
+00:19:47.200 --> 00:19:50.040
+ So HackerMan did a bit of lauter.
+
+00:19:50.040 --> 00:19:55.800
+ All right, can you turn the volume up?
+
+00:19:55.800 --> 00:20:00.960
+ HackerMan looked at what happened and we already knew from the first email, okay, the attackers
+
+00:20:00.960 --> 00:20:04.020
+ compromised the victim.
+
+00:20:04.020 --> 00:20:08.800
+ And what they did there, they created a scheduled task for persistence.
+
+00:20:08.800 --> 00:20:15.760
+ They dropped two binaries, Tor and SSH, and they had an SSH private key.
+
+00:20:15.760 --> 00:20:21.120
+ Now with this scheduled task, which was quite obfuscated, the Tor invocation, the SSH invocation
+
+00:20:21.120 --> 00:20:25.000
+ was hidden amongst a lot of different commands to make it harder to spot.
+
+00:20:25.000 --> 00:20:31.040
+ But in the end, we had a reverse shell connecting back to the attacker infrastructure.
+
+00:20:31.040 --> 00:20:36.320
+ On the attacker infrastructure, you could find data not only from one victim, but from a
+
+00:20:36.320 --> 00:20:37.320
+ lot of victims.
+
+00:20:37.320 --> 00:20:42.320
+ There were plenty of SSH keys, and then you find the usual stuff from AD compromises,
+
+00:20:42.320 --> 00:20:45.080
+ so from Windows environment compromises.
+
+00:20:45.080 --> 00:20:50.520
+ You find Kerberos tickets, Kerberos information, you find complete Active Directory dumps,
+
+00:20:50.520 --> 00:20:56.840
+ you find LSST dumps, and you find the tooling that the group uses to do their exploitation.
+
+00:20:56.840 --> 00:21:01.480
+ Now our friend HackBackMan, of course, first made a backup of all that information just
+
+00:21:01.480 --> 00:21:03.800
+ so that it doesn't get lost, right?
+
+00:21:03.800 --> 00:21:09.080
+ Server safe and sorry, so make a backup first, and then see what you can do with it.
+
+00:21:09.080 --> 00:21:14.400
+ Now interestingly, the first reverse shell worked with a low privilege user, which connects
+
+00:21:14.400 --> 00:21:20.360
+ to the server A. HackBackMan did a bit of poking around and realized the same SSH key
+
+00:21:20.360 --> 00:21:26.360
+ could also be used to connect to the server as root.
+
+00:21:26.360 --> 00:21:30.680
+ So it's not only the victims that fuck up their configurations, also the ransomware
+
+00:21:30.680 --> 00:21:31.680
+ crews, right?
+
+00:21:31.680 --> 00:21:32.920
+ They also make mistakes.
+
+00:21:32.920 --> 00:21:37.800
+ Server hardening is hard, and sometimes mistakes happen.
+
+00:21:37.800 --> 00:21:42.480
+ So with root access, of course, there was a lot more exploration that could be done,
+
+00:21:42.480 --> 00:21:48.800
+ but first HackBackMan asked us, hey, don't you want to help me in the notification process
+
+00:21:48.800 --> 00:21:52.720
+ because that's a lot of work, as you have heard from Gunn Toggle here, so of course
+
+00:21:52.720 --> 00:21:59.040
+ we stepped in and helped out and notified 30 victims that they've been breached.
+
+00:21:59.040 --> 00:22:05.200
+ Now if you ever wondered what does a C2 server of some initial access broker ransomware crew
+
+00:22:05.200 --> 00:22:08.620
+ game look like, it looks like this.
+
+00:22:08.620 --> 00:22:15.600
+ This is the root folder, so obviously the crew was also working as root, and they dropped
+
+00:22:15.600 --> 00:22:16.800
+ everything there, right?
+
+00:22:16.800 --> 00:22:20.640
+ They dropped all the data dumps in there, they had all of their scripts in there, they
+
+00:22:20.640 --> 00:22:26.560
+ cloned git repositories, they had some automation tools, bash scripts, everything in the root
+
+00:22:26.560 --> 00:22:28.040
+ folder.
+
+00:22:28.040 --> 00:22:36.040
+ So this looks like the home folder of a very unorganized penetration tester right there.
+
+00:22:36.040 --> 00:22:38.000
+ The crew wasn't really sophisticated, right?
+
+00:22:38.000 --> 00:22:41.080
+ I mean, they used a lot of open source tools.
+
+00:22:41.080 --> 00:22:45.400
+ You can see a list of tools that was found on the server on the right side.
+
+00:22:45.400 --> 00:22:50.040
+ Many things if you're working in red teaming or penetration testing you might also have
+
+00:22:50.040 --> 00:22:52.440
+ used.
+
+00:22:52.440 --> 00:22:55.960
+ They also used the same tactics that a lot of the red teams use.
+
+00:22:55.960 --> 00:23:00.640
+ I mean, it makes sense, red teams want to emulate real attackers after all, so apparently that
+
+00:23:00.640 --> 00:23:02.880
+ seems to be working in this case.
+
+00:23:02.880 --> 00:23:07.400
+ They tried to stay away from the victim boxes as much as possible, tried to do a lot of
+
+00:23:07.400 --> 00:23:16.080
+ work over SOX proxies or over VPN connections if they managed to gain VPN access, and then
+
+00:23:16.080 --> 00:23:19.220
+ did exploration of the victim networks.
+
+00:23:19.220 --> 00:23:24.640
+ In the bash history, of course we also have a backup of the bash history, you could see
+
+00:23:24.640 --> 00:23:29.360
+ also not only how they exploit the vulnerabilities but also how they find the victims.
+
+00:23:29.360 --> 00:23:35.080
+ Of course they use showdown and they have a list of commands they use to find new victims
+
+00:23:35.080 --> 00:23:38.200
+ to attack.
+
+00:23:38.200 --> 00:23:44.440
+ Some more side information, so apparently sometimes keyboard layouts are also hard and
+
+00:23:44.440 --> 00:23:50.440
+ if you forget to switch from Korylick keyboard layout to a US layout then you might type
+
+00:23:50.440 --> 00:23:55.320
+ in the wrong command, that can be discovered in the bash history as well.
+
+00:23:55.320 --> 00:24:01.800
+ Also not only victims leak API keys in the bash history, you sometimes also find API
+
+00:24:01.800 --> 00:24:08.080
+ keys, so we now have a nice showdown API key from this initial access broker.
+
+00:24:08.080 --> 00:24:15.340
+ Of course we don't use this, we just have it as a backup.
+
+00:24:15.340 --> 00:24:22.320
+ So one thought we had while looking over this is, okay, they probably not only have one
+
+00:24:22.320 --> 00:24:27.000
+ C2 server, they probably have multiple, maybe they just clone the machine and reuse the
+
+00:24:27.000 --> 00:24:31.400
+ same configuration everywhere, maybe we can just scan the internet and find the same SSH
+
+00:24:31.400 --> 00:24:38.320
+ host key to find more servers, but they did after all use individual keys per server,
+
+00:24:38.320 --> 00:24:43.320
+ so that didn't work out in the end.
+
+00:24:43.320 --> 00:24:50.040
+ So back to the disclosure, this is a disclosure talk, we had to notify 30 victims.
+
+00:24:50.040 --> 00:24:57.120
+ Now what you want, if you have a security, it just happens, ideally you want to detect
+
+00:24:57.120 --> 00:25:01.920
+ it yourself, you have some infrastructure in place, maybe a SIEM, maybe a SOC, who knows,
+
+00:25:01.920 --> 00:25:07.280
+ you want to evict the attacker and ideally you want to do it before you need to disclose
+
+00:25:07.280 --> 00:25:11.720
+ to people that you lost all their data before you need to involve law enforcement or whatever.
+
+00:25:11.720 --> 00:25:16.480
+ What you don't want to happen is for CCC to call you and tell you, hey, we realise you
+
+00:25:16.480 --> 00:25:17.880
+ have a breach.
+
+00:25:17.880 --> 00:25:22.320
+ But that's exactly what happened.
+
+00:25:22.320 --> 00:25:27.680
+ So we tried to figure out who to contact, which wasn't always easy, I mean, we had a
+
+00:25:27.680 --> 00:25:32.720
+ lot of AD dumps, but it's not necessarily always straightforward to figure out which
+
+00:25:32.720 --> 00:25:37.760
+ AD dump belongs to which organisation, and then the next dump, the next step is even
+
+00:25:37.760 --> 00:25:43.240
+ more hard, figuring out who to contact in that organisation.
+
+00:25:43.240 --> 00:25:48.280
+ Fortunately, we have someone on our side who has a lot of experience with disclosing stuff
+
+00:25:48.280 --> 00:25:53.680
+ to people, we could reuse the same tactics, so I'm not going to repeat the flowchart,
+
+00:25:53.680 --> 00:25:56.280
+ but it's basically the same thing.
+
+00:25:56.280 --> 00:26:03.380
+ We mostly try to contact security staff or IT staff in general, but sometimes we also
+
+00:26:03.380 --> 00:26:06.360
+ reach out to the company CEOs.
+
+00:26:06.360 --> 00:26:12.400
+ We always try to go via email first, we provided information about the breach and a list of
+
+00:26:12.400 --> 00:26:17.240
+ indicators of compromise so that the companies could take action.
+
+00:26:17.240 --> 00:26:26.120
+ Overall, we contacted 28 organisations, and in addition, we also gave the data on... did
+
+00:26:26.120 --> 00:26:27.120
+ we give the data?
+
+00:26:27.120 --> 00:26:34.400
+ No, we also just informed the BSI and the German authorities and the national search
+
+00:26:34.400 --> 00:26:39.440
+ groups from the countries where we could figure them out.
+
+00:26:39.440 --> 00:26:45.160
+ Some of the organisations actually responded really quickly, I think the fastest one wrote
+
+00:26:45.160 --> 00:26:50.760
+ you an email two hours after we sent out the initial email, they were super grateful, they
+
+00:26:50.760 --> 00:26:59.400
+ weren't aware of the breach and thanked the CCC, told us how great they find this and
+
+00:26:59.400 --> 00:27:04.040
+ promised to donate money, I don't know if that happened in the end.
+
+00:27:04.040 --> 00:27:08.600
+ And we tried to get in a bit of an information exchange for them, so to ask them, hey, if
+
+00:27:08.600 --> 00:27:15.080
+ you find other stuff in your network, particularly if you find new IP addresses or new SSH keys,
+
+00:27:15.080 --> 00:27:19.440
+ we would be very interested in that.
+
+00:27:19.440 --> 00:27:25.480
+ Now if you compare the reaction from this incident response disclosure to the vulnerability
+
+00:27:25.480 --> 00:27:27.920
+ disclosure, it was pretty similar.
+
+00:27:27.920 --> 00:27:32.960
+ We had a couple of companies that really had the incident under control, they were already
+
+00:27:32.960 --> 00:27:37.920
+ aware, they already evicted the attackers themselves, we had a couple of organisations
+
+00:27:37.920 --> 00:27:45.520
+ which were grateful, which had more questions and wanted our advice, and then we had a lot
+
+00:27:45.520 --> 00:27:48.440
+ of organisations who didn't respond at all at first.
+
+00:27:48.440 --> 00:27:54.360
+ So apparently companies are not only not interested in vulnerabilities, they are also not interested
+
+00:27:54.360 --> 00:27:58.720
+ in them being breached apparently.
+
+00:27:58.720 --> 00:28:05.760
+ This felt a little bit demotivating at first, but of course we are also persistent, it's
+
+00:28:05.760 --> 00:28:11.320
+ not only the attackers that are persistent, so we tried to reach out via different means,
+
+00:28:11.320 --> 00:28:18.160
+ and you already know Mattias Kantorker's favourite way to reach out is via LinkedIn, so Kantorker
+
+00:28:18.160 --> 00:28:23.440
+ now has a lot more LinkedIn friends and some organisations have more information about
+
+00:28:23.440 --> 00:28:27.880
+ data they might have lost.
+
+00:28:27.880 --> 00:28:35.200
+ The organisations that reacted well, one stood out, they already had seen the attacker and
+
+00:28:35.200 --> 00:28:39.920
+ had already evicted them, Kantorker provided them with a list of accounts where we knew
+
+00:28:39.920 --> 00:28:47.480
+ that the attackers at least had the cabros hashes of these accounts, they checked it
+
+00:28:47.480 --> 00:28:54.480
+ and said okay we already have discovered, we changed almost all of them already, and
+
+00:28:54.480 --> 00:29:00.200
+ unfortunately they also figured out where the scans came from, and they figured out new
+
+00:29:00.200 --> 00:29:05.240
+ IP addresses that the attackers were using and gave us an additional SSH key which was
+
+00:29:05.240 --> 00:29:16.860
+ really nice of them and we thank you very much.
+
+00:29:16.860 --> 00:29:24.120
+ So this is now victim two where we got an additional IP address and an additional SSH
+
+00:29:24.120 --> 00:29:30.720
+ key, so that's server B, server B was configured in a different manner, Hackbackman unfortunately
+
+00:29:30.720 --> 00:29:39.300
+ could not log into that server, the lock in shell was set to bin four so Hackbackman couldn't
+
+00:29:39.300 --> 00:29:46.840
+ get a shell on this server, but what he discovered is he could do port forwarding, and this was
+
+00:29:46.840 --> 00:29:52.200
+ a way of course he could first try to port scan the server and see what local ports are
+
+00:29:52.200 --> 00:30:00.260
+ open on that server, and he discovered this way he could have tunnels to the victim's
+
+00:30:00.260 --> 00:30:04.720
+ networks where there were active connections going on.
+
+00:30:04.720 --> 00:30:09.080
+ There was also a very handy server running, a service running on that server, on port
+
+00:30:09.080 --> 00:30:17.480
+ 80 of localhost we had a web server which just gave the output of LSOF so we could see
+
+00:30:17.480 --> 00:30:19.880
+ which ports were open.
+
+00:30:19.880 --> 00:30:25.840
+ Now if you look carefully, you see some SSH connections which are the reverse shell that
+
+00:30:25.840 --> 00:30:32.000
+ are still active, you can also see a pattern of the other open ports, they have 11109,
+
+00:30:32.000 --> 00:30:40.920
+ 11102, 11105, and then you have a different set of ports all ending in 0902 and 05.
+
+00:30:40.920 --> 00:30:45.780
+ That's quite curious, and of course if Hackbackman discovers such a thing he wants to probe this
+
+00:30:45.780 --> 00:30:49.360
+ further and he wants to do a bit more enumeration.
+
+00:30:49.360 --> 00:30:55.800
+ Turns out these three ports are always forwarded to the victim networks, it's one RDP port,
+
+00:30:55.800 --> 00:31:00.240
+ it's one SSH port that's forwarded, and the other one, did we ever figure that out, was
+
+00:31:00.240 --> 00:31:03.160
+ it SMB, it was SMB, right?
+
+00:31:03.160 --> 00:31:09.280
+ So three interesting ports, and if you poke at these ports you can figure out who they
+
+00:31:09.280 --> 00:31:14.880
+ belong to, and that of course helps us in the disclosure process even if we cannot download
+
+00:31:14.880 --> 00:31:20.040
+ files from this server or get a shell on that server.
+
+00:31:20.040 --> 00:31:27.680
+ So we could notify more victims, I think overall in the end we notified about 50 organisations
+
+00:31:27.680 --> 00:31:33.680
+ that they had an issue, not all of them responded to us.
+
+00:31:33.680 --> 00:31:37.800
+ Some of them asked us what are we supposed to do, in general what you're supposed to
+
+00:31:37.800 --> 00:31:42.400
+ do is run incident response, and even though incident response always comes unexpected,
+
+00:31:42.400 --> 00:31:45.520
+ it's something that you can prepare for.
+
+00:31:45.520 --> 00:31:49.740
+ If I understand correctly, after this talk there will be an incident response talk here,
+
+00:31:49.740 --> 00:31:54.720
+ so maybe you should stick around and figure out how this stuff works in detail.
+
+00:31:54.720 --> 00:32:02.800
+ Now we do have enough time for the bonus material which is not related to this, let's say, C2
+
+00:32:02.800 --> 00:32:07.840
+ fuck up here, but some other cases that we worked in the past.
+
+00:32:07.840 --> 00:32:14.320
+ Nowadays the ransomware crews have two ways to monetise their access, the first way is
+
+00:32:14.320 --> 00:32:17.840
+ the classic way, they encrypt your network and then they demand ransom so that you can
+
+00:32:17.840 --> 00:32:23.160
+ get a decryption key and get back running, and the other way is they start to exfiltrate
+
+00:32:23.160 --> 00:32:28.000
+ your data and threaten you to publish it if you don't pay up.
+
+00:32:28.000 --> 00:32:34.400
+ And even though the internet in Germany is quite shitty, they manage to exfiltrate more
+
+00:32:34.400 --> 00:32:40.280
+ and more data nowadays, so we had some contacts with organisations, the first one lost 40
+
+00:32:40.280 --> 00:32:46.880
+ GB of data, the second one lost a third terabyte of data, and then we had a third one that
+
+00:32:46.880 --> 00:32:48.500
+ lost even more.
+
+00:32:48.500 --> 00:32:54.240
+ So good news, internet speed in Germany is getting better, attackers are now able to
+
+00:32:54.240 --> 00:33:00.340
+ exfiltrate terabytes of data in a short amount of time.
+
+00:33:00.340 --> 00:33:02.240
+ But is that really that much of a problem?
+
+00:33:02.240 --> 00:33:07.480
+ Of course it's a problem if you lose terabytes of your data, but if it gets published, does
+
+00:33:07.480 --> 00:33:12.440
+ anyone really, is anyone really able to download it all?
+
+00:33:12.440 --> 00:33:19.280
+ And Torkl spent a week trying to download one of the dumps, of course this was published
+
+00:33:19.280 --> 00:33:24.840
+ over Tor, and they had their own web server which hosted this stuff, it's one of these
+
+00:33:24.840 --> 00:33:31.560
+ classic ransomware disclosure blocks, but somehow they messed up their infrastructure
+
+00:33:31.560 --> 00:33:33.040
+ there as well.
+
+00:33:33.040 --> 00:33:41.000
+ Their HTTP server didn't support range requests and they gave the wrong HTTP codes.
+
+00:33:41.000 --> 00:33:46.760
+ And of course also the infrastructure was unstable, so downloads tended to end at some
+
+00:33:46.760 --> 00:33:48.940
+ point in time.
+
+00:33:48.940 --> 00:33:55.440
+ We tried to use a tool, a two-onion downloader, which in theory is great to do this stuff,
+
+00:33:55.440 --> 00:34:01.520
+ but nevertheless with this set up we did not manage to download all of the data and stopped
+
+00:34:01.520 --> 00:34:05.320
+ after, we only had 20% after one week.
+
+00:34:05.320 --> 00:34:09.200
+ So this is actually a tactic of the attackers, right?
+
+00:34:09.200 --> 00:34:14.880
+ They want your money, and this is why they steal your data, they're not really interested
+
+00:34:14.880 --> 00:34:22.520
+ in your data, they're interested in pressuring you into paying them, and the same of course
+
+00:34:22.520 --> 00:34:27.720
+ goes into pressuring you to pay them to take it back offline.
+
+00:34:27.720 --> 00:34:31.300
+ Now what lessons can we learn from this experience?
+
+00:34:31.300 --> 00:34:38.760
+ Of course real world defenders have a lot of problems in them having to defend a big
+
+00:34:38.760 --> 00:34:43.680
+ infrastructure which has grown over a long amount of time.
+
+00:34:43.680 --> 00:34:50.200
+ Mistakes happen and they tend to compound, so over time your security posture typically
+
+00:34:50.200 --> 00:34:53.080
+ deteriorates.
+
+00:34:53.080 --> 00:34:57.360
+ But as Korn Togler also pointed out, you often have lonesome heroes in IT who keep it all
+
+00:34:57.360 --> 00:35:03.340
+ running and who give really all their heart to maintaining it and keeping it as secure
+
+00:35:03.340 --> 00:35:06.240
+ as best as they can.
+
+00:35:06.240 --> 00:35:10.440
+ Still it often feels like the cards are stacked against the defenders, but as you can see
+
+00:35:10.440 --> 00:35:14.080
+ the attackers have similar problems when they maintain their own infrastructure, right?
+
+00:35:14.080 --> 00:35:19.840
+ They also have a growing C2 infrastructure, maintaining that is difficult, configuration
+
+00:35:19.840 --> 00:35:22.520
+ mistakes can happen.
+
+00:35:22.520 --> 00:35:24.720
+ Credential management is hard, right?
+
+00:35:24.720 --> 00:35:29.920
+ Sometimes you lose the SSH key and then people have access to your set up.
+
+00:35:29.920 --> 00:35:34.040
+ And there's plenty of rooms for FAPGAP, it's not only C2 infrastructure, it's also the
+
+00:35:34.040 --> 00:35:39.480
+ way you publish the data and it might also be the way you do encryption if you manage
+
+00:35:39.480 --> 00:35:44.880
+ to encrypt the data, but that's a story for a different talk, we might tell that at Congress
+
+00:35:44.880 --> 00:35:47.040
+ maybe.
+
+00:35:47.040 --> 00:35:53.080
+ Now if you want to be a real world hack back man, you see there's a lot of angles that
+
+00:35:53.080 --> 00:35:57.640
+ you can attack when you're looking at the C2 infrastructure.
+
+00:35:57.640 --> 00:36:02.080
+ Ransomware crews obviously also have staffing problems, not all of their staff is competent
+
+00:36:02.080 --> 00:36:05.560
+ and some of them don't really know what they're doing.
+
+00:36:05.560 --> 00:36:07.880
+ They tend to be one trick ponies, right?
+
+00:36:07.880 --> 00:36:13.560
+ You saw the list of tools, none of this is hard to defend against, none of this is custom,
+
+00:36:13.560 --> 00:36:20.560
+ it is known how to prevent all of these mistakes, so don't despair, it is possible to defend
+
+00:36:20.560 --> 00:36:24.960
+ against these attackers in many cases.
+
+00:36:24.960 --> 00:36:29.880
+ Helping ransomware victims of course also is a lot of work, especially when you want
+
+00:36:29.880 --> 00:36:34.840
+ to get in touch with them, but it can be really rewarding if you manage to help them and if
+
+00:36:34.840 --> 00:36:40.140
+ you manage to help them actively evict the attackers.
+
+00:36:40.140 --> 00:36:48.640
+ With that being said, if you want to disclose either vulnerabilities or give SSH keys to
+
+00:36:48.640 --> 00:36:53.880
+ the CCC, there's an email address here that you can use for that and we encourage you
+
+00:36:53.880 --> 00:36:56.200
+ all to do so.
+
+00:36:56.200 --> 00:36:56.480
+ Thanks a lot.
+
+00:36:56.480 --> 00:37:03.480
+ [Applause]
+
+00:37:03.480 --> 00:37:08.480
+ [Applause]
+
+00:37:08.480 --> 00:37:12.480
+ Any questions or SSH keys that you would have for us?
+
+00:37:12.480 --> 00:37:25.480
+ No questions, great talk.
+
+00:37:25.480 --> 00:37:27.480
+ Or the talk sucked, I don't know.
+
+00:37:27.480 --> 00:37:28.480
+ I don't know.
+
+00:37:28.480 --> 00:37:29.480
+ We'll see that.
+
+00:37:29.480 --> 00:37:33.480
+ I don't, so you're raising your hand.
+
+00:37:33.480 --> 00:37:34.480
+ No.
+
+00:37:34.480 --> 00:37:35.480
+ Oh.
+
+00:37:35.480 --> 00:37:41.480
+ I thought the microphone was...
+
+00:37:41.480 --> 00:37:46.480
+ I don't see the microphone.
+
+00:37:46.480 --> 00:37:49.480
+ So do I get it right to protect against data leaks?
+
+00:37:49.480 --> 00:37:53.480
+ A good strategy is to just leak more data so you can download it?
+
+00:37:53.480 --> 00:38:00.480
+ So the question was if the way to defend against data leaks is just to leak more data so that
+
+00:38:00.480 --> 00:38:02.480
+ it gets lost in the sea of data?
+
+00:38:02.480 --> 00:38:04.480
+ I mean, have you seen these ransomware blogs?
+
+00:38:04.480 --> 00:38:06.480
+ There's so much data out there.
+
+00:38:06.480 --> 00:38:15.480
+ It's hard to download, but there is a ton.
+
+00:38:15.480 --> 00:38:18.480
+ So if I understand correctly, you have to walk towards the microphone if you want to
+
+00:38:18.480 --> 00:38:19.480
+ ask a question.
+
+00:38:19.480 --> 00:38:21.480
+ There are no questions, so we can...
+
+00:38:21.480 --> 00:38:22.480
+ No, no, there is one.
+
+00:38:22.480 --> 00:38:30.480
+ So do you think for a company it might be a good idea to DDoS the leak platform instead
+
+00:38:30.480 --> 00:38:36.480
+ of paying the ransomware?
+
+00:38:36.480 --> 00:38:42.480
+ I think the Tor network would not appreciate DDoS over Tor, but Katalka can say something
+
+00:38:42.480 --> 00:38:44.480
+ about that.
+
+00:38:44.480 --> 00:38:46.480
+ I run Tor exit nodes.
+
+00:38:46.480 --> 00:38:48.480
+ I would not like that.
+
+00:38:48.480 --> 00:38:50.480
+ [laughter]
+
+00:38:50.480 --> 00:38:58.480
+ [music]
+

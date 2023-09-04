@@ -1,0 +1,1142 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+ [Musik]
+
+00:00:30.000 --> 00:00:34.000
+ Gut, dann fange ich ohne Folien an, geht auch.
+
+00:00:34.000 --> 00:00:41.000
+ Genau, also ich habe mir nochmal vorgenommen, darüber zu reden, wie lernen Maschinen eigentlich.
+
+00:00:41.000 --> 00:00:47.000
+ Wir haben gerade durch Chat-GPT sehr viel mit dem Thema zu tun.
+
+00:00:47.000 --> 00:00:55.000
+ Und ich dachte, das ist nochmal eine ideale Gelegenheit, einen Schritt zurückzugehen und nochmal zu gucken, was passiert da eigentlich im Hintergrund.
+
+00:00:55.000 --> 00:01:01.000
+ Wie ihr gerade schon erfahren habt, mag ich gerne Mathe und ich habe mich auch lange und ausgiebig damit beschäftigt.
+
+00:01:01.000 --> 00:01:09.000
+ Ich arbeite zurzeit bei RSA Labs und davor habe ich 10 Jahre Mathe in unterschiedlichen Bereichen gemacht
+
+00:01:09.000 --> 00:01:15.000
+ und habe mich auch unter anderem mit dem Thema maschinelles Lernen bzw. Deep Learning beschäftigt.
+
+00:01:15.000 --> 00:01:23.000
+ Und habe dadurch einfach wissend angehäuft, was ich gerne teilen will, sodass dieses Wissen sich verbreitet
+
+00:01:23.000 --> 00:01:29.000
+ und mehr Leute sich diese ganzen Anwendungen auch einfach nochmal kritisch angucken können und eigentlich verstehen,
+
+00:01:29.000 --> 00:01:33.000
+ was ist das eigentlich und was hat das eigentlich mit diesem ganzen Lernen zu tun.
+
+00:01:33.000 --> 00:01:44.000
+ Genau, ich denke durch den aktuellen Hype, den wir gerade sehen, durch die unterschiedlichen KI-Anwendungen, tendieren wir dazu, KI zu überschätzen.
+
+00:01:44.000 --> 00:01:51.000
+ Und das führt zum einen dann dazu, dass KI ein Passwort ist, was überall auftaucht.
+
+00:01:51.000 --> 00:01:58.000
+ Wir können noch nicht mehr eine normale Kaffeemaschine kaufen, ohne dass da KI drin steckt, was totaler Quatsch ist,
+
+00:01:58.000 --> 00:02:03.000
+ weil im Endeffekt, da ist eine Kaffeemaschine abgebildet, die man tatsächlich kaufen kann.
+
+00:02:03.000 --> 00:02:07.000
+ Und die KI, die da drin steckt, ist halt einfach angewandte Statistik.
+
+00:02:07.000 --> 00:02:14.000
+ Und das ist im Prinzip auch das Geheimnis hinter der KI. Also es ist wirklich einfach erstmal nur Statistik.
+
+00:02:14.000 --> 00:02:24.000
+ Das zweite Problem ist, die Anwender haben ein Interesse daran, die Hersteller haben ein Interesse daran, dieses Thema als etwas sehr Komplexes darzustellen,
+
+00:02:24.000 --> 00:02:29.000
+ sodass es natürlich schwierig ist, das Ganze nachzubauen und so weiter und so fort.
+
+00:02:29.000 --> 00:02:35.000
+ Und ich meine, auch heute haben wir wieder die Situation, ich habe mich sehr lange mit dem Thema beschäftigt und in Mathe promoviert,
+
+00:02:35.000 --> 00:02:40.000
+ aber man braucht keinen Doktor in Mathe, um dieses Thema zu verstehen. Das soll ganz klargestellt werden an dieser Stelle.
+
+00:02:40.000 --> 00:02:49.000
+ Ein weiteres Problem ist, wir sehen tatsächlich die beeindruckenden Beispiele auf Twitter oder Social Media
+
+00:02:49.000 --> 00:02:54.000
+ und dann denken wir, boah, jetzt kann die Maschine auf einmal alles und wir sind irgendwie alle überflüssig.
+
+00:02:54.000 --> 00:02:59.000
+ Und das ist definitiv nicht der Fall. Und ich hoffe, ihr stimmt mir am Ende meines Talks dann noch zu.
+
+00:02:59.000 --> 00:03:08.000
+ Und jetzt gerade durch diese aktuellen Anwendungen im Themenbereich Sprache, haben wir uns glaube ich auch so ein Stück weit selber gehackt,
+
+00:03:08.000 --> 00:03:17.000
+ weil jetzt haben wir eine Maschine, die kann sprechen und jetzt denken wir, hey, das kann sprechen, das muss intelligent sein.
+
+00:03:17.000 --> 00:03:24.000
+ Wenn ich das jetzt zum Beispiel mit meinem Hund vergleiche, der kann nicht sprechen und dem spreche ich aber eine gewisse Intelligenz erstmal ab.
+
+00:03:24.000 --> 00:03:29.000
+ Und dann habe ich eine Maschine, die macht irgendwas, generiert irgendwie Sprache, die irgendwie gut aussieht
+
+00:03:29.000 --> 00:03:34.000
+ und natürlich muss dadurch dann natürlich eine hohe Intelligenz da sein, dass es überhaupt sprechen kann.
+
+00:03:34.000 --> 00:03:40.000
+ Genau und damit würde ich jetzt erst nochmal den Schritt zurückgehen. Was ist denn eigentlich KI?
+
+00:03:40.000 --> 00:03:46.000
+ Es gibt da drei Themenbereiche. Der große überspannende Bereich ist künstliche Intelligenz.
+
+00:03:46.000 --> 00:03:56.000
+ Und das ist definiert und das ist auch schon relativ lange so, dass es Computer sind, die imitieren Denken und menschliches Denken und Verhalten.
+
+00:03:56.000 --> 00:04:00.000
+ Das ist erstmal unabhängig davon, was dann darunter steht.
+
+00:04:00.000 --> 00:04:06.000
+ Und dann haben wir einen Themenbereich, der nennt sich maschinelles Lernen und das sind statistische Algorithmen,
+
+00:04:06.000 --> 00:04:11.000
+ die diese künstliche Intelligenz irgendwie darstellen.
+
+00:04:11.000 --> 00:04:21.000
+ Und die basieren tatsächlich erstmal sehr viel auf Statistik und davon haben wir dann eine Unterkategorie und das ist das sogenannte Deep Learning.
+
+00:04:21.000 --> 00:04:25.000
+ Und das Deep Learning ist ein Teilbereich des maschinellen Lernens.
+
+00:04:25.000 --> 00:04:35.000
+ Das ist das Lernen mit tiefen, mit vielen Layern, sogenannten Layern unter im Umgang dann halt auch entsprechend neuronalen Netzen.
+
+00:04:35.000 --> 00:04:43.000
+ Und ich probiere in meinem Talk, also ich werde jetzt auf den Bereich Machine Learning eingehen und auch ein bisschen auf den Bereich Deep Learning
+
+00:04:43.000 --> 00:04:47.000
+ und probiere so ein bisschen auch den Unterschied zwischen diesen beiden Feldern aufzuzeigen.
+
+00:04:47.000 --> 00:04:58.000
+ Genau, also jetzt gerade haben wir zwei unterschiedliche große Bereiche der KI. Wir haben manchmal eine spezialisierte KI, die kann im Prinzip einfach zwei Probleme lösen.
+
+00:04:58.000 --> 00:05:05.000
+ Und das eine ist eine Klassifikation, das hier dargestellt durch einen Hund, der von einem Muffin unterschieden werden soll,
+
+00:05:05.000 --> 00:05:15.000
+ was tatsächlich relativ schlecht funktioniert, weil das Ding drei schöne schwarze Punkte hat und dadurch ist es tatsächlich schwierig.
+
+00:05:15.000 --> 00:05:21.000
+ Für uns tatsächlich sehr, sehr einfach, aber genau das nebenbei.
+
+00:05:21.000 --> 00:05:28.000
+ Und das zweite Themenbereich oder das zweite Problem, was spezialisierte KI lösen kann, ist Regression.
+
+00:05:28.000 --> 00:05:33.000
+ Das heißt die Vorhersage in einen Bereich, wofür es noch keine Daten gibt.
+
+00:05:33.000 --> 00:05:40.000
+ Es lernt aus historischen Daten und macht dann eine Vorhersage in einen Bereich, wo es keine Daten gibt.
+
+00:05:40.000 --> 00:05:47.000
+ Das ist der Teilbereich spezialisierte KI und dann gibt es jetzt das neue, die generative KI.
+
+00:05:47.000 --> 00:05:52.000
+ Die generative KI ist tatsächlich, eigentlich löst es genau die gleichen Probleme.
+
+00:05:52.000 --> 00:06:00.000
+ Weil jetzt gerade die generative KI im Bereich Sprache guckt sich irgendwie an, was ist das nächste, beste Wort, was ich vorhersagen kann.
+
+00:06:00.000 --> 00:06:07.000
+ Das ist eine Regression im Endeffekt und es hat aber auch einen Klassifikationscharakter, in dem es halt guckt,
+
+00:06:07.000 --> 00:06:11.000
+ inwieweit sind denn die Worte miteinander ähnlich.
+
+00:06:11.000 --> 00:06:18.000
+ Im Gegensatz zur spezialisierten KI hat die generative KI aber viel mehr Möglichkeiten, gute Antworten zu geben.
+
+00:06:18.000 --> 00:06:23.000
+ Eine Sprache kann in vielen unterschiedlichen Bereichen überzeugend sein und kann auch ganz unterschiedlich formuliert sein,
+
+00:06:23.000 --> 00:06:33.000
+ sodass der Anwender denkt, hey, das ist gut, während ich im Bereich spezialisierte KI ganz klar sagen kann, das ist ein Muffin und das ist ein Hund.
+
+00:06:33.000 --> 00:06:39.000
+ Und ich glaube, dass dieser Unterschied auch schon mal dazu beiträgt, dieses ganze Themenfeld zu überschätzen.
+
+00:06:39.000 --> 00:06:53.000
+ Also dann gibt es, ich gucke jetzt in den Bereich spezialisierte KI und in diesem Bereich gibt es drei unterschiedliche Anwendungen oder drei unterschiedliche Arten.
+
+00:06:53.000 --> 00:06:56.000
+ Das eine ist das supervised learning.
+
+00:06:56.000 --> 00:07:05.000
+ Beim supervised learning sind die Label von meinem Daten, also ich brauche ja immer ganz viele Daten, um das zu lernen, die Label von meinen Daten sind bekannt.
+
+00:07:05.000 --> 00:07:10.000
+ Das heißt, ich weiß, das Bild ist ein Hund, das Bild ist ein Muffin.
+
+00:07:10.000 --> 00:07:17.000
+ Und dazu steht im Gegensatz, dass an supervised learning dafür sind die Labels unbekannt.
+
+00:07:17.000 --> 00:07:22.000
+ Also ich kenne die einfach nicht hier dargestellt mit Pizza, Bier und Burger.
+
+00:07:22.000 --> 00:07:33.000
+ Und in diesem Fall probieren Algorithmen Gemeinsamkeiten herauszufinden aus den Daten und die dann zusammen in eine Klasse zu packen.
+
+00:07:33.000 --> 00:07:46.000
+ Und der dritte Anwendungsbereich, ja gut, um jetzt für das unsupervised learning noch ein Beispiel zu nennen, ein recommender System ist zum Beispiel ein unsupervised learning.
+
+00:07:46.000 --> 00:07:50.000
+ Also der Amazon Algorithmus, der euch immer vorschlägt, kauft auch nochmal das.
+
+00:07:50.000 --> 00:07:52.000
+ Der probiert genau eben das zu tun.
+
+00:07:52.000 --> 00:07:56.000
+ Er probiert zu gucken, Leute, die das gekauft haben, haben auch das gekauft.
+
+00:07:56.000 --> 00:07:58.000
+ Aber die wissen das am Ende nicht.
+
+00:07:58.000 --> 00:08:03.000
+ Also probieren sie es erstmal einfach nur vorzuschlagen und in einigen Fällen klappt das ja auch.
+
+00:08:03.000 --> 00:08:08.000
+ Der dritte Teilbereich im Maschinenlernen ist das sogenannte reinforcement learning.
+
+00:08:08.000 --> 00:08:18.000
+ Beim reinforcement learning, das ist ein bisschen anders, weil man hat einen Agenten, der in einer Umgebung agiert und er probiert ein Verhalten zu lernen.
+
+00:08:18.000 --> 00:08:27.000
+ Im Endeffekt ist es halt aber trotzdem ähnlich zum supervised learning, weil ich weiß ja ungefähr, wie dieses Verhalten sein soll.
+
+00:08:27.000 --> 00:08:29.000
+ Als Beispiel AlphaGo.
+
+00:08:29.000 --> 00:08:34.000
+ AlphaGo ist ein Algorithmus, der von Google entwickelt wurde, um Go zu spielen.
+
+00:08:34.000 --> 00:08:41.000
+ Und ich weiß ganz klar, wenn ich ein Spiel gewinne, dann war das eine gute Strategie, die ich gelernt habe oder die ich angewandt habe.
+
+00:08:41.000 --> 00:08:45.000
+ Wenn ich ein Spiel verliere, dann war es eine schlechte Strategie.
+
+00:08:45.000 --> 00:08:55.000
+ Der Unterschied hier ist, ich kann halt die Umgebung, in der dieser Agent unterwegs ist, abbilden.
+
+00:08:55.000 --> 00:09:01.000
+ Und dadurch habe ich eine Möglichkeit mit den Daten, um dieses Problem zu lernen, selber zu erzeugen.
+
+00:09:01.000 --> 00:09:08.000
+ Also das ist in den häufigsten Fällen der Fall, dass ich eben diese Umgebung tatsächlich in irgendeiner Art und Weise zur Verfügung habe.
+
+00:09:08.000 --> 00:09:22.000
+ Und alles zusammen genommen ist es halt immer das Ziel, eine mathematische Funktion zu lernen, von einem Input, den dieses Modell bekommt, hin zu einem Output.
+
+00:09:22.000 --> 00:09:28.000
+ Genau, und das Ganze wird halt erreicht durch Modelloptimierung.
+
+00:09:28.000 --> 00:09:35.000
+ Also ich habe ein Modell, das ist halt im Endeffekt die KI, die füttere ich mit Daten.
+
+00:09:35.000 --> 00:09:46.000
+ Und dieses Modell lernt dann Parameter, was wir im weiteren Verlauf auch nochmal sehen würden, wie das genau funktioniert.
+
+00:09:46.000 --> 00:09:52.000
+ Und das tut es halt, indem es halt ein sogenanntes Training durchläuft.
+
+00:09:52.000 --> 00:09:57.000
+ Also wir haben diese drei Bereiche, wir brauchen einmal Daten, um zu trainieren, davon brauchen wir sehr viele.
+
+00:09:57.000 --> 00:10:02.000
+ Und um das entsprechend gut zu lernen, müssen diese Daten halt auch gut gelabelt sein.
+
+00:10:02.000 --> 00:10:06.000
+ Dann im nächsten Schritt machen wir ein Training, dafür haben wir unterschiedliche Dinge, die wir brauchen.
+
+00:10:06.000 --> 00:10:11.000
+ Wir müssen uns ein Modell raussuchen, vielleicht müssen wir zum Modell auch noch eine Architektur festlegen.
+
+00:10:11.000 --> 00:10:14.000
+ Dann brauchen wir eine Lossfunktion, das ist problemabhängig.
+
+00:10:14.000 --> 00:10:17.000
+ Und dann brauchen wir auch noch ein Optimierungsalgorithmus.
+
+00:10:17.000 --> 00:10:20.000
+ Das sind aber alles Sachen, die ich in einer gewissen Art und Weise wählen kann.
+
+00:10:20.000 --> 00:10:27.000
+ Also das ist nicht mathematisch festgeschrieben, wie mein Modell aussehen muss, damit ich die besten Ergebnisse erzeugen kann.
+
+00:10:27.000 --> 00:10:34.000
+ Also von der mathematischen Perspektive her ziemlich unbefriedigend, weil ich das nicht beweisen kann, was ist tatsächlich gut, was ist schlecht.
+
+00:10:34.000 --> 00:10:40.000
+ Aber halt auf der anderen Seite gibt es sehr viel Raum, um das halt entsprechend auszuprobieren.
+
+00:10:40.000 --> 00:10:44.000
+ Dann mache ich mathematische Optimierung.
+
+00:10:44.000 --> 00:10:52.000
+ Das ist auch ein Algorithmus, der zwar festgelegt ist und mathematisch gut erforscht ist,
+
+00:10:52.000 --> 00:11:02.000
+ aber um tatsächlich gute Ergebnisse wieder zu produzieren, habe ich da auch wieder Freiheitsgrade, die ich wählen kann und wo ich irgendwie gucken kann und mit rumspielen kann.
+
+00:11:02.000 --> 00:11:07.000
+ Und im letzten Schritt möchte ich halt nicht nur ein Modell haben, was gut funktioniert,
+
+00:11:07.000 --> 00:11:12.000
+ sondern ich möchte ein Modell haben, was gut auf noch nicht gesehene Daten funktioniert.
+
+00:11:12.000 --> 00:11:17.000
+ Und wenn ich jetzt einen großen Trainingsdatensatz habe und mein Modell funktioniert darauf,
+
+00:11:17.000 --> 00:11:22.000
+ kann es ja auch sein, dass es halt entsprechende Daten gibt, worauf mein Modell überhaupt nicht mehr funktioniert.
+
+00:11:22.000 --> 00:11:27.000
+ Und das ist genau das, worum ich mich kümmern muss. Also ich muss gucken, wie gut generalisiert mein Modell.
+
+00:11:27.000 --> 00:11:37.000
+ Und das tue ich einfach durch einen Trick, indem ich nicht alle Daten, die ich zur Verfügung habe, zum Training benutze, sondern ich lasse einfach einen Teil raus und auf den teste ich.
+
+00:11:37.000 --> 00:11:43.000
+ Dafür muss ich aber auch sicher sein, dass in meinen Testdaten genau das Gleiche drin ist wie in meinen Trainingsdaten.
+
+00:11:43.000 --> 00:11:50.000
+ Also wenn ich die einfach nur zufällig wähle, kann es halt total in die Hose gehen, weil meine Testdaten gar nicht meinen Trainingsdatensatz abbilden.
+
+00:11:50.000 --> 00:11:53.000
+ Das sind alles Sachen, die man irgendwie im Hinterkopf haben muss.
+
+00:11:53.000 --> 00:11:59.000
+ Genau und ich würde jetzt einmal da noch tiefer reingehen und das alles noch genauer erklären.
+
+00:11:59.000 --> 00:12:07.000
+ Und zwar würde ich das am Beispiel supervised learning machen. Wie sieht das Ganze dann am Ende aus? Also wie sieht das Training aus?
+
+00:12:07.000 --> 00:12:16.000
+ Ich muss erstmal anfangen, ich habe hier oben Inputdaten, die haben ein Label, das ist für das supervised learning entsprechend wichtig.
+
+00:12:16.000 --> 00:12:24.000
+ Und erstmal muss ich anfangen, meine Daten überhaupt zu cleanen. Also alles, von dem ich weiß, das ist irgendwie Quatsch, das muss da erstmal raus.
+
+00:12:24.000 --> 00:12:29.000
+ Dann muss ich eigentlich auch im Prinzip sicher sein, dass meine Labels entsprechend auch richtig und gut sind.
+
+00:12:29.000 --> 00:12:38.000
+ Aber das ist tatsächlich schwierig. Also das kann sehr schwierig sein und dafür braucht man meistens auch einfach nochmal menschliche Expertise, um das nachzubauen.
+
+00:12:38.000 --> 00:12:44.000
+ Im nächsten Schritt muss ich diese Daten vorverarbeiten. Gucken wir uns später genau an, was das bedeutet.
+
+00:12:44.000 --> 00:12:52.000
+ Dann wähle ich ein Modell, füttere meine Daten, die ich vorverarbeitet habe da rein, kriege eine Vorhersage von was auch immer.
+
+00:12:52.000 --> 00:13:02.000
+ Und dann gucke ich mir an, wie gut ist denn mein Modell in diesem Fall? Also wie gut bildet es die bekannten Labels, die ich weiß, halt entsprechend ab?
+
+00:13:02.000 --> 00:13:11.000
+ Das Ganze kann ich dann irgendwie in einen sogenannten Loss packen und sagen, hey, hier hast du alles falsch gemacht, pass mal deine Gewichte an.
+
+00:13:11.000 --> 00:13:20.000
+ Und das ist genau das, was in der Optimierung passiert. Also ich rechne einen Score aus, gehe dann in die Optimierung, gucke mir das an.
+
+00:13:20.000 --> 00:13:28.000
+ Und date dann die Gewichte von meinem Modell entsprechend ab. Und nachdem ich das gemacht habe, fange ich wieder von vorne an.
+
+00:13:28.000 --> 00:13:36.000
+ Die Data Preparation fällt dann halt entsprechend raus. Also ich schiebe einfach meine Daten wieder rein und habe eine neue Prediction, berechne einen neuen Loss.
+
+00:13:36.000 --> 00:13:42.000
+ Und mache das Ganze entsprechend oft, bis ich gut bin, was auch immer das heißt.
+
+00:13:42.000 --> 00:13:55.000
+ Genau. Wie ich schon gesagt habe, wir brauchen erstmal ganz viele Daten und diese Daten müssen entsprechend gelabelt sein. Und wenn wir das jetzt vergleichen mit klassischer Softwareentwicklung, dann haben wir da einen Shift.
+
+00:13:55.000 --> 00:14:04.000
+ Normalerweise in der klassischen Entwicklung von Algorithmen, probieren wir, wir haben einen Input und wir wissen die Regeln und das Ganze probieren wir irgendwie in einen Algorithmus zu geben.
+
+00:14:04.000 --> 00:14:17.000
+ Und produzieren damit ein Output und beim maschinellen Lernen dreht sich das ein bisschen um. Und zwar haben wir den Input und den Output für das supervised learning und wir probieren die Regeln zu lernen.
+
+00:14:17.000 --> 00:14:26.000
+ Und das bedeutet im Endeffekt, die Regeln, die wir lernen, steckt in den Daten drin. Und deswegen muss ich halt auch so viel auf die Daten aufpassen und gucken, was da drin steht.
+
+00:14:26.000 --> 00:14:36.000
+ Weil genau diese Regeln halt entsprechend gelernt werden und ich dadurch auch eine große Abhängigkeit von den Daten entsprechend habe.
+
+00:14:36.000 --> 00:14:43.000
+ Das zweite ist, ich habe auch eine Intransparenz, weil ich nicht mehr so genau weiß, was für Regeln denn mein Modell gelernt hat.
+
+00:14:43.000 --> 00:14:51.000
+ Und das kann entsprechend dann dazu führen, dass es nicht mehr kontrollierbar ist, welche Regeln da überhaupt angewendet werden.
+
+00:14:51.000 --> 00:14:56.000
+ Also in dem Algorithmus selber passieren Dinge, die für Menschen nicht mehr verständlich sind.
+
+00:14:56.000 --> 00:15:02.000
+ Genau, als nächsten Schritt, habe ich gesagt, müssen wir die Daten vorverarbeiten.
+
+00:15:02.000 --> 00:15:08.000
+ Das ist vor allen Dingen ein Teil, der wichtig ist für das maschinelle Lernen, also nicht für das deep learning.
+
+00:15:08.000 --> 00:15:11.000
+ Das ist da der entsprechend große Unterschied.
+
+00:15:11.000 --> 00:15:15.000
+ Ich muss die Daten vorverarbeiten, cleaning, ich muss Feature Engineering machen.
+
+00:15:15.000 --> 00:15:23.000
+ Feature Engineering bedeutet im Endeffekt mit menschlicher Expertise aus den Daten herauskitzeln, gewisse Charakteristika herauskitzeln,
+
+00:15:23.000 --> 00:15:33.000
+ die für meinen einen Use Case tatsächlich entscheidend sind und entsprechend den Unterschied zwischen dem einen und dem anderen genau hinbekommen.
+
+00:15:33.000 --> 00:15:38.000
+ Das kann zum Beispiel sowas einfach sein, eine mathematische Transformation.
+
+00:15:38.000 --> 00:15:42.000
+ Das kann auch das Zusammenfassen von unterschiedlichen Variablen sein.
+
+00:15:42.000 --> 00:15:51.000
+ Das kann auch eine Reduktion sein, weil zum Beispiel gewisse Daten miteinander zusammenhängen und dadurch stark korrelieren und ich dadurch gar nicht alle Daten brauche.
+
+00:15:51.000 --> 00:15:57.000
+ Und dadurch wird es für den Algorithmus ein Stück weit einfacher, entsprechend zu lernen.
+
+00:15:57.000 --> 00:16:01.000
+ Genau, dann haben wir noch den Punkt kategorische Daten.
+
+00:16:01.000 --> 00:16:06.000
+ Kategorische Daten sind zum Beispiel Geschlechtseinteilungen.
+
+00:16:06.000 --> 00:16:13.000
+ Also ich habe männlich, weiblich diverse und das Ganze muss ich irgendwie so abbilden, dass mein Algorithmus damit umgehen kann.
+
+00:16:13.000 --> 00:16:16.000
+ Also ich muss das irgendwie in Zahlen repräsentieren.
+
+00:16:16.000 --> 00:16:19.000
+ So, jetzt kann ich einfach sagen, ich mache 0, 1, 2, 3.
+
+00:16:19.000 --> 00:16:22.000
+ Ist erstmal eine gute erste Idee.
+
+00:16:22.000 --> 00:16:30.000
+ Da muss ich aber aufpassen, wenn ich jetzt Differenzen bilde zwischen 0, 1, 2, 3, dann ist die Differenz zwischen 0 und 1 ein oder andere als zwischen 0 und 2.
+
+00:16:30.000 --> 00:16:41.000
+ Und ob das dann die Realität widerspiegelt, ist in dem Fall fraglich und genau solche Dinge muss ich entsprechend berücksichtigen, wenn ich meine Daten irgendwie zusammenfasse.
+
+00:16:41.000 --> 00:16:46.000
+ Genau, als nächstes muss ich dann ein Modell wählen.
+
+00:16:46.000 --> 00:16:51.000
+ Das sind jetzt tatsächlich die Modelle aus dem Machine Learning.
+
+00:16:51.000 --> 00:16:55.000
+ Da gibt es unfassbar viele und wie gesagt, das sind statistische Modelle.
+
+00:16:55.000 --> 00:17:03.000
+ Und ein Modell ist erstmal einfach eine parametrische Repräsentation einer mathematischen Funktion.
+
+00:17:03.000 --> 00:17:09.000
+ Und ich lerne genau die Parameter, um meine Funktion anzupassen auf meine Daten.
+
+00:17:09.000 --> 00:17:17.000
+ So, der Wahl von einem Modell ist aber immer auch einer, hat immer implizite Annahmen.
+
+00:17:17.000 --> 00:17:20.000
+ Ich habe hier das Beispiel linearer Regression mitgebracht.
+
+00:17:20.000 --> 00:17:25.000
+ Relativ einfach, einfach eine Summe über gesichtete Daten.
+
+00:17:25.000 --> 00:17:31.000
+ Also diese A's, die da stehen, vielleicht zu erkennen sind, sind halt die Gewichte, die ich entsprechend optimieren würde.
+
+00:17:31.000 --> 00:17:36.000
+ Und ich nehme meinen Input und multipliziere den einfach und summiere das Ganze auf.
+
+00:17:36.000 --> 00:17:42.000
+ Aber die Annahme, die da drinsteckt, ist, dass der Zusammenhang, den ich lernen will, halt auch tatsächlich linear ist.
+
+00:17:42.000 --> 00:17:46.000
+ Also ich kann damit nicht irgendwas lernen, was am Ende nicht linear ist.
+
+00:17:46.000 --> 00:17:53.000
+ Und das ist halt der Punkt. Also ich muss immer gucken, wenn ich ein Modell wähle, bildet das tatsächlich den Zusammenhang,
+
+00:17:53.000 --> 00:17:56.000
+ den ich denke, der vorhanden ist, auch in einer gewissen Funktion ab.
+
+00:17:56.000 --> 00:18:02.000
+ Und nur weil ich etwas komplexer mache, heißt das nicht, dass dann mein Modell tatsächlich besser ist.
+
+00:18:02.000 --> 00:18:09.000
+ Kann ja auch was anderes werden, also wenn mein Zusammenhang linear ist, warum sollte ich dann was anderes nehmen als eine lineare Regression?
+
+00:18:09.000 --> 00:18:19.000
+ Also an der Stelle ist tatsächlich ein bisschen Vorsicht geboten und man muss einfach gucken, was habe ich denn für Ideen, die da drin sind
+
+00:18:19.000 --> 00:18:25.000
+ und dann vielleicht auch einfach unterschiedliche Modelle ausprobieren und zu gucken, welche ist denn tatsächlich besser.
+
+00:18:25.000 --> 00:18:34.000
+ Und wenn es tatsächlich sehr, sehr einfache Modelle sind, kann ich auch daraus Rückschlüsse ziehen, welche Daten, welche Inputs denn wirklich wichtig sind für meinen Algorithmus.
+
+00:18:34.000 --> 00:18:42.000
+ Und dann kommen wir zu dem Unterschied zum Deep Learning. Deep Learning heißt so, weil es halt viele mathematische Operationen,
+
+00:18:42.000 --> 00:18:51.000
+ sogenannte Layer hintereinander geschaltet sind. Und genau, der Aufbau davon nennt sich dann Architektur.
+
+00:18:51.000 --> 00:18:56.000
+ Das ist die Architektur von meinem neuronalen Netz, den ich habe. Der ist erstmal frei wählbar.
+
+00:18:56.000 --> 00:19:01.000
+ Also wie ich die Sachen, wie viele Layer ich dann nehme, wie ich die zusammenstecke und so weiter und so fort.
+
+00:19:01.000 --> 00:19:07.000
+ Das kann ich frei entscheiden, das kann ich irgendwie machen und am Ende zählt nur, dass das Richtige bei rauskommt.
+
+00:19:07.000 --> 00:19:12.000
+ Also das heißt, wenn ich jetzt anfange, irgendein neuronales Netz zu turnieren, muss ich halt auch am Ende gucken,
+
+00:19:12.000 --> 00:19:18.000
+ hey, wie würde denn vielleicht ein neuronales Netz anders auf diesen Daten tatsächlich funktionieren? Ist es vielleicht besser oder nicht?
+
+00:19:18.000 --> 00:19:24.000
+ Ist erstmal eine Frage, die ich so nicht beantworten kann. Diese Layer sind dafür da, um die Daten zu transformieren.
+
+00:19:24.000 --> 00:19:28.000
+ Und das ist halt genau der Punkt, was das Feature Engineering macht.
+
+00:19:28.000 --> 00:19:33.000
+ Vorher im maschinellen Lernen Feature Engineering war das, was Menschen tun.
+
+00:19:33.000 --> 00:19:39.000
+ Hier ist es, beim Deep Learning ist es tatsächlich so, das macht das neuronalen Netz ein bisschen selber.
+
+00:19:39.000 --> 00:19:46.000
+ Was da genau passiert, weiß ich nicht. Aber ich habe hier ein Beispiel mitgebracht.
+
+00:19:46.000 --> 00:19:56.000
+ Das ist ein Bild, was klassifiziert werden soll. Und wenn man sich danach dann anschaut,
+
+00:19:56.000 --> 00:20:01.000
+ wie die transformierten Daten nach der ersten Transformation aussehen.
+
+00:20:01.000 --> 00:20:11.000
+ Und da können zum Beispiel so Informationen drin sein, wie Kandendetektoren oder Grauwertunterschiede oder irgendwie sowas.
+
+00:20:11.000 --> 00:20:19.000
+ Das kann da noch drin sein. Aber je tiefer das neuronale Netz ist, desto weniger ist es eigentlich verständlich, was dann im Endeffekt da passiert.
+
+00:20:19.000 --> 00:20:30.000
+ Und es ist zwar erstmal sehr, sehr schön, dass ich das Feature Engineering nicht mehr brauche, weil ich weniger machen muss, um tatsächlich was zu produzieren.
+
+00:20:30.000 --> 00:20:34.000
+ Aber wie gesagt, ich verliere in dem Fall tatsächlich die Transparenz.
+
+00:20:34.000 --> 00:20:47.000
+ Und hier habe ich das Ganze nochmal dargestellt. Man sieht immer diese tollen Grafen, wo irgendwelche Pfeile irgendwo hingehen.
+
+00:20:47.000 --> 00:20:52.000
+ Das, was sich dahinter versteckt, ist tatsächlich eigentlich nur Multiplikation und Addition.
+
+00:20:52.000 --> 00:20:57.000
+ Erstmal multipliziere ich meine Input-Daten mit entsprechenden Gewichten.
+
+00:20:57.000 --> 00:21:00.000
+ Die habe ich hier grau dargestellt, deswegen sind sie nicht zu sehen.
+
+00:21:00.000 --> 00:21:05.000
+ Hier ist ein Gewicht, hier ist ein Gewicht und hier ist ein Gewicht. Dann addiere ich nochmal ein bisschen was drauf.
+
+00:21:05.000 --> 00:21:09.000
+ Und das, was daraus passiert, das schmeiße ich in eine nicht-lineare Funktion.
+
+00:21:09.000 --> 00:21:14.000
+ So, und das mache ich einfach ganz oft. Das ist im Prinzip alles, was dahinter steht.
+
+00:21:14.000 --> 00:21:20.000
+ Wenn man multiplizieren und addieren kann, ist man im Prinzip schon fast besser als ein normales Netz.
+
+00:21:20.000 --> 00:21:29.000
+ Der Punkt hier war einfach nochmal zu sagen, okay, wir haben diese unglaublichen abgefahrenen Flussgrafen, die da irgendwie abgebildet werden.
+
+00:21:29.000 --> 00:21:34.000
+ Dahinter verbirgt sich tatsächlich eigentlich relativ einfache Mathematik.
+
+00:21:34.000 --> 00:21:43.000
+ Und dann kommen wir endlich zum Lernen. Was ist denn Lernen? Lernen ist genau diese Optimierung.
+
+00:21:43.000 --> 00:21:51.000
+ Diese Gewichte, die ich vorher genommen habe, mit denen ich meinen Input multipliziert habe, das sind die Sachen, die ich immer entsprechend anpassen kann.
+
+00:21:51.000 --> 00:21:55.000
+ Und das mache ich halt durch eine stochastische Optimierung.
+
+00:21:55.000 --> 00:22:04.000
+ Ich lege erstmal ein Modell fest und eine Architektur. Dann initialisiere ich alle Gewichte erstmal durch, mit irgendetwas.
+
+00:22:04.000 --> 00:22:10.000
+ Und zwar am besten nicht mit Null, weil wenn ich die alle mit Null initialisiere, kommt am Ende auch Null raus.
+
+00:22:10.000 --> 00:22:16.000
+ Und dementsprechend kann nichts gelernt werden. Es ist auch nur auf eine Frage, was ist tatsächlich eine gute Initialisierung.
+
+00:22:16.000 --> 00:22:18.000
+ Gibt es unterschiedliche Ideen zu?
+
+00:22:18.000 --> 00:22:25.000
+ Dann habe ich vorher festgelegt eine Lossfunktion. Und diese Lossfunktion leite ich ab.
+
+00:22:25.000 --> 00:22:32.000
+ Ich gucke in Richtung des Gradienten. Der Gradient sagt mir, wie verändert sich meine Funktion.
+
+00:22:32.000 --> 00:22:40.000
+ Und ich gehe dann in die Richtung des negativen Gradienten. Und das ist im Prinzip wie Skifahren.
+
+00:22:40.000 --> 00:22:47.000
+ Wenn ihr oben auf dem Hügel seid, wollt ihr runter ins Tal. Und dann geht ihr auch in Richtung des negativen Gradienten.
+
+00:22:47.000 --> 00:22:53.000
+ Und ihr fahrt nicht volle Power runter, weil dann würdet ihr viel zu schnell werden, sondern fahrt in Zickzacklinien.
+
+00:22:53.000 --> 00:22:59.000
+ Und das macht ihr, um den Gradienten auszugleichen, weil der nämlich in die Richtung des steilsten Abstiegs zeigt.
+
+00:22:59.000 --> 00:23:05.000
+ Und deswegen fahrt ihr schön Schlanglinien, damit es ein bisschen länger dauert und damit ihr nicht so schnell werdet.
+
+00:23:05.000 --> 00:23:07.000
+ Das macht man hier auch im Endeffekt.
+
+00:23:07.000 --> 00:23:15.000
+ Einfach, weil wenn man komplett in Richtung des Gradienten gehen würde, dann würde man vielleicht auch einfach woanders rauskommen.
+
+00:23:15.000 --> 00:23:17.000
+ Also man würde das Minimum einfach überspringen.
+
+00:23:17.000 --> 00:23:23.000
+ So gesehen ist es so ein bisschen die Frage, inwieweit muss ich denn in Richtung des Gradienten gehen.
+
+00:23:23.000 --> 00:23:25.000
+ Und das ist die sogenannte Lernrate.
+
+00:23:25.000 --> 00:23:28.000
+ Die wähle ich als Parameter vorher.
+
+00:23:28.000 --> 00:23:33.000
+ Und ist fraglich, wäre es eine gute Lernrate.
+
+00:23:33.000 --> 00:23:43.000
+ Also auch da habe ich im Prinzip einen Freiheitsgrad, den ich auswählen kann und gucken kann, was passiert, wenn ich eine größere Lernrate nehme, wenn ich eine kleinere Lernrate habe.
+
+00:23:43.000 --> 00:23:49.000
+ Und damit habe ich erstmal eine Möglichkeit, etwas zu finden.
+
+00:23:49.000 --> 00:23:57.000
+ Es gibt tatsächlich in der Mathematik natürlich viel, viel tollere Algorithmen, um so eine Optimierung vorzunehmen.
+
+00:23:57.000 --> 00:24:01.000
+ Aber die sind teuer, weil ich dadurch tatsächlich zweite Ableitungen berechnen muss.
+
+00:24:01.000 --> 00:24:03.000
+ Das ist sehr, sehr schwierig, das auszuwerten.
+
+00:24:03.000 --> 00:24:06.000
+ Deswegen nehme ich an dieser Stelle den Gradienten.
+
+00:24:06.000 --> 00:24:17.000
+ Und das Ganze ist stochastisch, weil ich halt einen Anteil von meinen Trainingsdaten einfach nehme und meine Trainingsdaten mir nicht den kompletten Raum aller Möglichkeiten abbilden können.
+
+00:24:17.000 --> 00:24:24.000
+ Und auch da ist es so, ich kann unterschiedliche Zusammensetzungen meiner Trainingsdaten nehmen, um halt diesen Gradienten entsprechend auszuwerten.
+
+00:24:24.000 --> 00:24:28.000
+ Das ist aber im Prinzip die ganze Magie, die dahinter steht.
+
+00:24:28.000 --> 00:24:33.000
+ Ich gehe einfach quasi, ich stehe oben auf einem Hügel und gehe langsam runter in einen Tal.
+
+00:24:33.000 --> 00:24:44.000
+ Und das Problem, ein großes Problem von diesem Maschinellernen ist, dass diese Hügellandschaften im Endeffekt nicht ein Minimum haben, sondern unterschiedliche.
+
+00:24:44.000 --> 00:24:49.000
+ Und das sehr stark davon abhängt, welche Parameter ich wähle, in welchem Minimum ich lande.
+
+00:24:49.000 --> 00:24:51.000
+ Und das weiß ich vorher nicht.
+
+00:24:51.000 --> 00:24:56.000
+ Ich kann das nicht vorher sagen, ok, ich muss das machen oder das, um dann tatsächlich da zu landen.
+
+00:24:56.000 --> 00:25:07.000
+ Und es kann auch sein, dass ich nicht im globalen Minimum, also in dem Minimum aller Minimal lande, sondern in einem Lokalen, was vielleicht schlechter ist als das globale.
+
+00:25:07.000 --> 00:25:15.000
+ Aber mein Algorithmus kommt da nicht mehr raus und so gesehen lerne ich dann etwas, was ok ist, aber was nicht perfekt ist.
+
+00:25:15.000 --> 00:25:16.000
+ Genau.
+
+00:25:16.000 --> 00:25:24.000
+ Hier habe ich das Ganze nochmal dargestellt und zwar als, was ich vorher gesagt habe, ich muss ja gucken, dass ich irgendwie gut generalisiere.
+
+00:25:24.000 --> 00:25:29.000
+ Das heißt, ich gucke mir hier einmal auf der linken Seite den Loss an von so einem Training.
+
+00:25:29.000 --> 00:25:31.000
+ Und das sind halt diese blauen Punkte.
+
+00:25:31.000 --> 00:25:37.000
+ Da sehen wir auf den Trainingsdaten, das sind die blauen Punkte und die durchgezogene Linie ist das Ganze auf den Testdaten.
+
+00:25:37.000 --> 00:25:45.000
+ Und obwohl mein Algorithmus eigentlich immer besser wird, also unten sind die Iterationen meines Optimierungsalgorithmus aufgezeigt.
+
+00:25:45.000 --> 00:25:55.000
+ Und obwohl mein Modell quasi immer besser wird auf den Trainingsdaten, also immer besser wird, immer meine Trainingsdaten immer besser vorhersagen kann, wird es halt schlechter auf den Testdaten.
+
+00:25:55.000 --> 00:26:06.000
+ Das heißt, ich würde hier ungefähr da, wo dieser Knick von den Testdaten ist, würde ich aufhören und sagen, ok, hier ist eigentlich das beste Modell in diesem Fall erreicht.
+
+00:26:06.000 --> 00:26:12.000
+ Und da würde ich das Training dann entsprechend abbrechen und dieses Modell nehmen.
+
+00:26:12.000 --> 00:26:16.000
+ Und das Ganze habe ich nochmal rechts aufgezeigt auf der Genauigkeit.
+
+00:26:16.000 --> 00:26:19.000
+ Das ist halt ein anderer Parameter, den ich messen kann.
+
+00:26:19.000 --> 00:26:22.000
+ Und da sehe ich genau eben diesen Effekt.
+
+00:26:22.000 --> 00:26:30.000
+ Obwohl im Training die Genauigkeit immer besser wird, auf den Trainingsdaten, wird sie halt auf den Testdaten immer schlechter.
+
+00:26:30.000 --> 00:26:38.000
+ Und das ist dann halt ein Indikator dafür, dass das Training nicht so gut läuft, wie ich mir das eigentlich vorgestellt habe.
+
+00:26:38.000 --> 00:26:45.000
+ Genau, ich kann unterschiedliche Trainingsmethoden miteinander kombinieren.
+
+00:26:45.000 --> 00:26:52.000
+ Das ist ungefähr das, was tatsächlich passiert in den Large Language Models.
+
+00:26:52.000 --> 00:26:54.000
+ Also ich kann erstmal irgendwie was lernen.
+
+00:26:54.000 --> 00:27:04.000
+ Auf der linken Seite sieht man ein riesengroßes Monster, was erstmal probiert, irgendwelche Zusammenhänge zu lernen zwischen irgendwelchen Datenpunkten,
+
+00:27:04.000 --> 00:27:08.000
+ die irgendwie vielleicht was miteinander zu tun haben.
+
+00:27:08.000 --> 00:27:14.000
+ Das Ganze mache ich vielleicht auf irgendeinem Datensatz, der jetzt auch nicht super gut kuratiert ist,
+
+00:27:14.000 --> 00:27:22.000
+ sondern erstmal nur da ist, um erstmal so eine Vorinitialisierung, eine gute Vorinitialisierung von meinem Modell zu bekommen.
+
+00:27:22.000 --> 00:27:30.000
+ Und im nächsten Schritt gehe ich dann dahin und sage, ok, jetzt habe ich tatsächlich einen Datensatz, der ist gut kuratiert.
+
+00:27:30.000 --> 00:27:40.000
+ Da ist das Richtige drin und darauf feintune ich dann mein vorinitialisiertes, geklostertes Modell.
+
+00:27:40.000 --> 00:27:49.000
+ Und dann kann ich halt im letzten Schritt, und das ist zum Beispiel das, was man bei Chetchupti macht, da mache ich dann Reinforcement Learning in the Loop.
+
+00:27:49.000 --> 00:27:53.000
+ Das heißt, ich habe einen Menschen, der interagiert mit diesem Computersystem.
+
+00:27:53.000 --> 00:28:03.000
+ Das Computersystem macht unterschiedliche Vorschläge, guck mal, also der Mensch gibt eine Frage ein, dann generiert der Computer unterschiedliche Antworten
+
+00:28:03.000 --> 00:28:09.000
+ und dann sagt der Mensch, das ist eine gute Antwort und das ist eine schlechte Antwort.
+
+00:28:09.000 --> 00:28:18.000
+ Und dadurch kann ich dieses Modell nochmal mehr feintunen, darauf, dass tatsächlich das passiert, was der Mensch erwartet.
+
+00:28:18.000 --> 00:28:29.000
+ Und dann der letzte Schritt, das ist ja das, was ich vorhin angedeutet habe, ich will eine gute Generalisierung haben von meinem Modell.
+
+00:28:29.000 --> 00:28:38.000
+ Hier sehen wir, diese Generalisierung kriege ich immer nur hin, indem ich halt einen Testdatensatz habe, auf dem ich entsprechend gucke,
+
+00:28:38.000 --> 00:28:43.000
+ wie gut sagt jetzt mein Modell auf diesem Datensatz etwas vorher.
+
+00:28:43.000 --> 00:28:53.000
+ Und im Endeffekt ist das so ein bisschen so ein Trade-off, dieses Training zwischen Underfitting, also das heißt, mein Modell ist eigentlich zu schlecht auf meinen Testdaten
+
+00:28:53.000 --> 00:28:59.000
+ und Overfitting, also mein Modell ist eigentlich viel zu gut auf meinen Trainingsdaten.
+
+00:28:59.000 --> 00:29:07.000
+ Und irgendwie zwischen diesen beiden Welten schwank ich immer hin und her und probiere an der Stelle tatsächlich das Beste zu finden.
+
+00:29:07.000 --> 00:29:19.000
+ Und hier ist halt auch nochmal ganz klar hervorzuheben, also ein Modell wird nie hundertprozentig perfekt sein, das ist eigentlich ausgeschlossen.
+
+00:29:19.000 --> 00:29:24.000
+ Also wenn man den Fall hat, dann macht man wahrscheinlich irgendwas falsch.
+
+00:29:24.000 --> 00:29:32.000
+ Der zweite Punkt ist, die Anwendung entscheidet darüber, welcher Fehler denn tatsächlich akzeptabel ist oder nicht.
+
+00:29:32.000 --> 00:29:43.000
+ Also, die Frage war, was ist denn hier das Overfitting?
+
+00:29:43.000 --> 00:29:51.000
+ Das Overfitting ist, dass das Modell auf den Trainingsdaten zu gut ist und im Endeffekt auf den Testdaten schlecht wird.
+
+00:29:51.000 --> 00:29:57.000
+ Im Prinzip haben wir das auf diesem Plot, den wir vorher gesehen haben, wo ich die Lossfunktion her dargestellt habe und die Genauigkeit,
+
+00:29:57.000 --> 00:30:05.000
+ da haben wir im Endeffekt ein Overfitting auf den Trainingsdaten gesehen. Das Modell ist immer besser geworden, obwohl es auf den Testdaten nicht mehr gut ist.
+
+00:30:05.000 --> 00:30:17.000
+ Genau, also ein Modell wird nie hundertprozentig perfekt sein und alles richtig machen, dann ist man wahrscheinlich irgendwie auf dem Holzweg.
+
+00:30:17.000 --> 00:30:22.000
+ Und der Fehler, den ich entsprechend akzeptieren kann, hängt halt von der Anwendung ab.
+
+00:30:22.000 --> 00:30:33.000
+ Zum Beispiel, wenn ich eine Frauddetection machen will, dann muss ich irgendwie abwägen zwischen, ok, ich blockiere jetzt alles, was irgendwie komisch aussieht
+
+00:30:33.000 --> 00:30:40.000
+ und dadurch habe ich dann wahrscheinlich auch sehr viele Nutzer, die nicht ihre normalen Transaktionen machen können, warum auch immer.
+
+00:30:40.000 --> 00:30:47.000
+ Dann habe ich halt Nutzer, die genervt sind, die dann vielleicht zu einem anderen System oder zu einem anderen Konkurrenten gehen.
+
+00:30:47.000 --> 00:30:58.000
+ Oder ich habe halt tatsächlich zu viel Fraud, also ich verliere irgendwie echtes Geld und dadurch habe ich als Firma einen finanziellen Verlust.
+
+00:30:58.000 --> 00:31:04.000
+ Und dazwischen muss ich irgendwie gucken, für die Anwendung ist das ein Fehler, den ich akzeptieren kann oder nicht.
+
+00:31:04.000 --> 00:31:14.000
+ Und dann muss man vielleicht als Firma sagen, ok, ein bisschen finanziellen Loss nehmen wir halt irgendwie hin, aber dafür nerven wir unsere Nutzer nicht zu sehr und die haben eine gute User Experience.
+
+00:31:14.000 --> 00:31:21.000
+ Und was das Beste ist an der Stelle, ist einfach mathematisch nicht zu beweisen.
+
+00:31:21.000 --> 00:31:30.000
+ Also der Unterschied zwischen der Performance auf dem Trainingsdatensatz und auf dem Testdatensatz, eigentlich habe ich da gar nicht eine wirkliche Idee, was denn da wirklich passiert.
+
+00:31:30.000 --> 00:31:40.000
+ Also ich muss es wirklich ausprobieren und ich habe keine Möglichkeit zu sagen, ok, das ist tatsächlich das, das ist das mathematisch beste Modell.
+
+00:31:40.000 --> 00:31:42.000
+ Das geht einfach nicht.
+
+00:31:42.000 --> 00:31:53.000
+ Genau und ich habe nochmal ein Beispiel mitgebracht, wo ich tatsächlich auch nochmal diese Abhängigkeit von den Daten nochmal darstellen wollte.
+
+00:31:53.000 --> 00:32:03.000
+ Also hier haben wir zwei, zwei dimensionale Daten, die ich entsprechend gelabelt habe.
+
+00:32:03.000 --> 00:32:09.000
+ Hier oben haben wir einen Datensatz, dem geben wir die eine Klasse und hier unten haben wir einen Datensatz, dem geben wir die andere Klasse.
+
+00:32:09.000 --> 00:32:14.000
+ So und jetzt möchte ich eine Funktion lernen, die mir dieses hier voneinander unterscheidet.
+
+00:32:14.000 --> 00:32:22.000
+ Die Datenpunkte haben zwei Features, sind zwei dimensionale Datenpunkte und ein Label.
+
+00:32:22.000 --> 00:32:31.000
+ Und ich nehme 80% meiner Daten als Trainingsdaten, 90% meiner Daten als Trainingsdaten und 10% als Test.
+
+00:32:31.000 --> 00:32:45.000
+ Das lege ich einfach erstmal fest. So und dann nehme ich als allererstes mal 100 Datenpunkte und trainiere darauf und kriege eine Genauigkeit von 90%, was jetzt erstmal ganz gut ist.
+
+00:32:45.000 --> 00:32:56.000
+ Aber im Endeffekt, wenn man sich jetzt nochmal überlegt, ok, ich nehme 10% meiner Daten als Testdaten, dann mache ich diesen Test tatsächlich auch nur auf 10 Datenpunkten.
+
+00:32:56.000 --> 00:33:03.000
+ Also die Genauigkeit hier hängt tatsächlich, sind nur diese 10 Datenpunkte, davon sind 9 richtig und einer falsch.
+
+00:33:03.000 --> 00:33:13.000
+ Und dann gehe ich halt nochmal hoch und sage ok, komm, wir nehmen einfach mal 1000 Datenpunkte, da haben wir dann eine höhere Genauigkeit von 98%
+
+00:33:13.000 --> 00:33:20.000
+ und ich habe dann tatsächlich nochmal 10 Tantus-Datenpunkte genommen und die Genauigkeit verbessert sich an der Stelle dann nicht.
+
+00:33:20.000 --> 00:33:33.000
+ Also eigentlich bin ich wahrscheinlich schon mit 1000 Datenpunkten erstmal ok, aber ich weiß erstmal, ich brauche zwar viele Daten, aber wie viel genau, weiß ich halt am Ende nicht.
+
+00:33:33.000 --> 00:33:43.000
+ Und ich habe dann nochmal hier die Beispiele, also genau diese Klassifikationslinie dargestellt, die das Modell entsprechend lernt.
+
+00:33:43.000 --> 00:33:53.000
+ Und das, was ich hier tatsächlich besonders interessant finde, ist, dass sich das Modell halt entsprechend verändert, je nachdem wie viele Datenpunkte ich habe.
+
+00:33:53.000 --> 00:34:05.000
+ Also ich kann, wie gesagt, die Daten, die ich lerne, hängen halt tatsächlich extrem stark mit den, oder die Regeln, die ich lerne, hängen extrem stark davon ab, welche Daten ich habe.
+
+00:34:05.000 --> 00:34:09.000
+ Und ich muss sehr viel Energie darauf verwenden, wirklich gute Daten zu erzeugen.
+
+00:34:09.000 --> 00:34:17.000
+ Genau, also das war jetzt die Darstellung, wie lernen Maschinen eigentlich.
+
+00:34:17.000 --> 00:34:26.000
+ Und wenn man jetzt anfangen will, dann kann man sich erstmal die Frage stellen, ok, brauche ich überhaupt maschinelles Lernen, um ein Problem zu lösen, oder tut es nicht was einfacheres?
+
+00:34:26.000 --> 00:34:39.000
+ Und da denke ich, kann man ganz gut als ersten Indikator, ob ich jetzt wirklich maschinelles Lernen machen will oder nicht, diese drei Sachen sich anschauen.
+
+00:34:39.000 --> 00:34:45.000
+ Das eine ist, wie viel Daten habe ich denn überhaupt zur Verfügung? Und komme ich leicht an Daten heran? Kann ich mir vielleicht selber Daten erzeugen?
+
+00:34:45.000 --> 00:34:49.000
+ Oder kann ich die irgendwo relativ günstig herbekommen, vielleicht kaufen?
+
+00:34:49.000 --> 00:34:58.000
+ Genau, und wenn ich eine große Menge an Daten habe, ok, dann kann ich den nächsten Schritt gehen und sagen, hat mein Problem überhaupt die entsprechende Komplexität?
+
+00:34:58.000 --> 00:35:05.000
+ Oder tut es nicht was Einfacheres? Also für die Kaffeemaschine brauche ich keine Maschinelles Lernen, das ist Statistik, da zähle ich einfach durch.
+
+00:35:05.000 --> 00:35:12.000
+ Und vielleicht mache ich noch einen Uhrzeitstempel dran und sage, ja, morgens trinkt er mal einen Kaffee und nachmittags immer ein Cappuccino.
+
+00:35:12.000 --> 00:35:16.000
+ Dann habe ich das Problem eigentlich schon relativ schnell damit erschlagen.
+
+00:35:16.000 --> 00:35:23.000
+ Und der letzte Punkt ist, habe ich eine Evaluierbarkeit? Also kann ich wirklich sagen, dass mein Modell besser ist oder nicht?
+
+00:35:23.000 --> 00:35:29.000
+ Wenn ich das tatsächlich gar nicht habe, ist es halt schwierig zu argumentieren, dass mein Modell tatsächlich besser ist.
+
+00:35:29.000 --> 00:35:37.000
+ Als Beispiel könnte man hier nehmen autonomes Fahren. Wie kann ich tatsächlich oder was ist erstmal der Grund, warum will ich das machen?
+
+00:35:37.000 --> 00:35:45.000
+ Will ich das machen, weil ich es einfach kann? Ok, dann ist die Evaluierbarkeit relativ einfach und ich sage, ja, kann ich machen.
+
+00:35:45.000 --> 00:35:50.000
+ Oder möchte ich zum Beispiel vermeiden, dass Menschen im Straßenverkehr ums Leben kommen?
+
+00:35:50.000 --> 00:36:00.000
+ Und dann ist die Frage, wie evaluiere ich das? Brauche ich dann zwei Städte und in einem fahren dann autonome Autos und in dem anderen nicht und ich zähle am Ende?
+
+00:36:00.000 --> 00:36:06.000
+ Das wird relativ schwierig, das halt zu argumentieren und zu sagen, ok, wir haben unser Ziel erreicht.
+
+00:36:10.000 --> 00:36:18.000
+ Genau, zusammenfassend kann man einfach sagen, maschinelles Lernen ist im Prinzip ein wilder Mix aus Mathematik und Programmierung.
+
+00:36:18.000 --> 00:36:31.000
+ Ich hoffe, ich konnte euch zeigen, es gibt sehr viele Parameter, die man einfach auswählen kann, wo ich auch nicht wirklich, also wo ich Intuitionen für brauche, wie ich die denn tatsächlich gut wähle.
+
+00:36:31.000 --> 00:36:36.000
+ Und im Endeffekt weiß ich nicht so genau, was die Wahl dieser Parameter dann am Endeffekt tun.
+
+00:36:36.000 --> 00:36:49.000
+ Also ich kann das nur ausprobieren und gucken, tun sie das, was ich auch wirklich erwarte oder nicht und muss es im Endeffekt hunderte Male irgendwie durchlaufen lassen, bis ich irgendwie sagen kann, das ist gut, das ist schlecht.
+
+00:36:49.000 --> 00:36:56.000
+ Die Regeln sind in den Daten versteckt und es ist tatsächlich ziemlich schwierig zu verstehen, ob das Richtige gelernt wurde oder nicht.
+
+00:36:56.000 --> 00:37:09.000
+ Und das ist dann tatsächlich in der Anwendung ziemlich schwierig, weil ich erstmal evaluieren muss, macht die Anwendung das, was ich haben will und gibt es vielleicht irgendwelche Edge Cases.
+
+00:37:09.000 --> 00:37:15.000
+ Diese Edge Cases kann ich tatsächlich nur wahrscheinlich mit sehr viel Testing überhaupt herausfinden.
+
+00:37:15.000 --> 00:37:33.000
+ Und dann, wenn ich dann einen Edge Case gefunden habe, den ich nicht haben will, dann kann es tatsächlich technisch ziemlich, ziemlich schwierig sein, diesen Edge Case wieder loszuwerden, weil ich nicht einfach sagen kann, ok, ich schmeiße diesen einen Datensatz jetzt aus meinen Trainingsdaten raus und dann wird das Problem behoben.
+
+00:37:33.000 --> 00:37:36.000
+ Sondern eigentlich fange ich wieder von vorne an.
+
+00:37:36.000 --> 00:37:49.000
+ Das heißt, in der Anwendung brauche ich im Prinzip eine konstante Überwachung, macht der Algorithmus eigentlich das, was ich will, gerade wenn ich sowas habe wie ein System, was automatisch lernt.
+
+00:37:49.000 --> 00:37:58.000
+ Also es kommen irgendwie Daten rein und ich date das Ganze im Hintergrund, brauche ich einfach ein neues Modell, weil ich diese ganze Pipeline automatisiert habe.
+
+00:37:58.000 --> 00:38:06.000
+ Dann kann es halt passieren, dass ich einen Data Shift habe und mein Modell das überhaupt gar nicht mehr abbildet.
+
+00:38:06.000 --> 00:38:20.000
+ Ein bestes Beispiel ist dann irgendwie die Pandemie schlägt ein, alle Leute kaufen Klopapier und natürlich hat der Algorithmus das in den historischen Daten noch nie gesehen, dass wenn irgendwas draußen passiert, mit dem er gar nichts zu tun hat, plötzlich alle Leute Klopapier kaufen.
+
+00:38:20.000 --> 00:38:28.000
+ Und das sind halt genau solche Sachen, die dann an der Stelle passieren können, wo ich ein spezielles Augenmerk drauf legen muss.
+
+00:38:28.000 --> 00:38:49.000
+ Ja und ich meine, als letztes, also ich gehe davon aus, dass das maschinelle Lernen und das Deep Learning nicht mehr weggehen wird und ich glaube, deswegen ist es auf jeden Fall notwendig, dass wir uns alle mehr damit auseinandersetzen und das Ganze kritisch hinterfragen und gucken, wo sind die Dinge vielleicht nicht so, wie wir sie haben wollen, wo wollen wir überhaupt KI haben.
+
+00:38:49.000 --> 00:39:09.000
+ Und im Endeffekt dann auch entsprechend sagen können, nein, an dieser Stelle macht es keinen Sinn, eine KI-Anwendung zu haben, weil sie nicht das tut, was wir haben wollen oder wir kann niemand mehr haben, der tatsächlich evaluieren kann, ob die Entscheidung, die ein Algorithmus trifft, auch wirklich valide ist.
+
+00:39:09.000 --> 00:39:33.000
+ Und damit, wenn ihr Lust habt, euch noch mehr damit zu beschäftigen, ich habe am Samstag gebe ich noch einen Workshop zu dem Thema, wo ich mir das Ganze noch mal weiter aufdrösel und wir tatsächlich, also ich hoffe, dass ihr das dann alle macht, entsprechend mit einem neuronalen Netz ein bisschen rumspielt und damit irgendwie mal selber ausprobiert, was dann passiert, wann geht was kaputt und so weiter und so fort.
+
+00:39:33.000 --> 00:39:39.000
+ Das wird am Samstag bei Jugendhackt um 14 Uhr stattfinden.
+
+00:39:39.000 --> 00:39:46.000
+ Genau, ansonsten, wenn ihr dazu keine Lust habt oder was besseres vor habt, dann würde ich euch empfehlen, guckt euch mal Kaggle an.
+
+00:39:46.000 --> 00:40:02.000
+ Kaggle ist tatsächlich eine Form, wo immer mal wieder Institutionen Datensätze hochladen und sich eine Community darum gebildet hat und man auch einfach sehr gut gucken kann, was machen eigentlich, wie gehen andere Leute diese Probleme an, die publizieren dann da auch entsprechend ihren Code.
+
+00:40:02.000 --> 00:40:10.000
+ Man kann da einfach durch ein bisschen durchgucken, sich dann einfach neben, damit rumspielen, gucken, was passiert am Ende des Tages und so weiter und so fort.
+
+00:40:10.000 --> 00:40:21.000
+ Als letztes habe ich noch ein paar Bücher, die tatsächlich auch mehr den Fokus auf diesen mathematischen haben, als jetzt auf dieser Anwendung.
+
+00:40:21.000 --> 00:40:25.000
+ Und genau, damit vielen Dank für die Aufmerksamkeit.
+
+00:40:25.000 --> 00:40:35.000
+ Vielen Dank, Chet.
+
+00:40:35.000 --> 00:40:40.000
+ Wir haben noch fünf Minuten für Fragen, wenn du Fragen beantworten möchtest.
+
+00:40:40.000 --> 00:40:49.000
+ Dann haben wir hier unten eigentlich ein Mikrofon im Publikum auch oder? Genau, also hat jemand Fragen? Fangen wir damit an.
+
+00:40:49.000 --> 00:41:00.000
+ Ja, hier vorne, kann man das Mikrofon hier vorne mal durchgeben? Wir brauchen das Mikrofon, weil wir sind im Stream, sonst verstehen Leute im Stream gar nichts.
+
+00:41:00.000 --> 00:41:17.000
+ Ja, danke schön. Ist vielleicht ein bisschen am Thema vorbei, aber könnte ich denn, um zu sagen, ich möchte so einen Zusammenhang, wie du gesagt hast, erst mal herstellen, also mathematisch, stellen wir uns vor, wir haben eine Industrieanlage und wir haben 10.000 Datensätze mit,
+
+00:41:17.000 --> 00:41:38.000
+ sollte man das Ding reparieren. Jetzt sage ich, ok, Machine Learning, heißer Scheiß, das schmeiße ich mal drauf und stelle dann nachher fest, Mensch, mit Hilfe von Machine Learning stelle ich fest, welche Parameter wirklich relevant sind für, ich muss das Ding reparieren oder nicht, oder wäre der Machine Learning generell der falsche Ansatz?
+
+00:41:38.000 --> 00:41:51.000
+ Also, ich würde sagen, wenn du Deep Learning machst, verlierst du halt entsprechend die Erklärbarkeit. Du kannst halt ein einfaches Modell nehmen, zum Beispiel eine lineare Version.
+
+00:41:51.000 --> 00:42:07.000
+ Das ist halt natürlich vielleicht falsch, aber es gibt ja erstmal einen guten Indikator, der tatsächlich dir die hohe Erklärbarkeit an der Stelle erhält, weil du halt einfach ein Gewicht hast, mit welcher, was weiß ich, der wird halt, dieser Datenpunkt wird halt mit einem höheren Gewicht multipliziert
+
+00:42:07.000 --> 00:42:33.000
+ und so gesehen ist das höchstwahrscheinlich ein Indikator dafür, dass das sehr entscheidend ist, um das vorherzusagen. Also, das Thema Erklärbarkeit, alle wollen natürlich erklärbare KI, aber ich würde sagen, geh lieber in ein Modell, von dem du vorher weißt, das ist erklärbar und damit kann man dann auf jeden Fall wahrscheinlich schon erstmal diese Sachen entsprechend lernen und hoffentlich auch besser verstehen.
+
+00:42:33.000 --> 00:42:41.000
+ Vielen Dank. Gibt es mehr Fragen? Ja, ich sehe schon Leute stehen.
+
+00:42:41.000 --> 00:42:52.000
+ Genau, Dankeschön. Vielleicht eher ein Kommentar. Ist so ein bisschen angeklungen, aber ich finde es immer noch wert, das nochmal zu betonen.
+
+00:42:52.000 --> 00:43:04.000
+ In dem Moment, wo wir sozusagen den Schritt von den einfacheren, du hast es statistische Methoden genannt, hin zu den komplexeren, insbesondere zu denen, die kein Feature Engineering brauchen, machen.
+
+00:43:04.000 --> 00:43:16.000
+ Wir bezahlen da ja nicht nur, indem wir Komplexität bekommen, sondern in der Regel bezahlen wir auch, indem wir viel, viel mehr Daten brauchen, von den guten Daten setzen, bis wir diese Modelle überhaupt stabil fitten können.
+
+00:43:16.000 --> 00:43:26.000
+ Das ist glaube ich, was man sich auch nochmal sehr zu Gemüte führen sollte, wenn man sich da dran setzt. Und im Umkehrschluss ist es auch gut, im Hinterkopf zu behalten.
+
+00:43:26.000 --> 00:43:36.000
+ Wir haben im Zweifelsfall sogar aus der klassischen Statistik eine ganze Menge Modelle zur Verfügung, von denen wir wissen, wie die sich verhalten.
+
+00:43:36.000 --> 00:43:46.000
+ Und wenn ich jetzt Probleme habe, von denen ich überhaupt keine Ahnung habe, wie das ist, sondern wo es Experten gibt aus der Anwendung, die eigentlich schon ziemlich viel wissen darüber.
+
+00:43:46.000 --> 00:43:52.000
+ Also in meinem Fall ist es zum Beispiel so, dass ich über meine Daten sage, die Physik und die Chemie eigentlich sehr viel aus.
+
+00:43:52.000 --> 00:43:59.000
+ Und das kann ich ausnutzen, indem ich meine Modellarchitektur geschickt wähle. Und das wiederum macht sich dann ganz stark bezahlt,
+
+00:43:59.000 --> 00:44:09.000
+ nämlich entweder bessere Modelle bekommen kann, ohne sozusagen die unnötige Komplexität oder indem ich mit weniger Trainingsdaten,
+
+00:44:09.000 --> 00:44:17.000
+ und das ist irgendwas zwischen überhaupt möglich und teuer, zu brauchen. Danke.
+
+00:44:17.000 --> 00:44:19.000
+ Auf jeden Fall. Dem kann ich nur zustimmen.
+
+00:44:19.000 --> 00:44:27.000
+ Das war keine Frage. Vielleicht gibt es eine Frage noch. Also der Mensch, der hinter dir steht, glaube ich, würde ich da eine Frage stellen. Genau. Nein? Okay.
+
+00:44:27.000 --> 00:44:33.000
+ Ja, ich habe auch nochmal eine Frage. Dennis Wolten, hallo. Ich fand den Punkt sehr interessant beim Deep Learning,
+
+00:44:33.000 --> 00:44:39.000
+ wo du auf einmal geschmunzelt hattest und meintest, ja, da wissen wir aber auch nicht mehr, was da passiert.
+
+00:44:39.000 --> 00:44:48.000
+ Im Kontext des Titels, die Mr. Firehanger, ja ey, muss ich da sehr lachen. Kannst du, also in meinem Verständnis habe ich schon eine grobe Ahnung,
+
+00:44:48.000 --> 00:45:00.000
+ weil im Endeffekt sind da sehr viele Layer, sehr viele Modelle, sehr viele Berechnungen miteinander, aber kannst du da nochmal tiefer drauf eingehen und versuchen zu sagen, was da passiert, auch wenn du es nicht sagen kannst?
+
+00:45:00.000 --> 00:45:08.000
+ Also das Thema Transparent ist ja, also ist auch ein hiebes Thema, gerade auch in dem Forschungsbereich.
+
+00:45:08.000 --> 00:45:15.000
+ Da gibt es viele Leute, die sich da auch Gedanken drum machen, werden DFG-Anträge geschrieben, um genau das hinzubekommen, deine Erklärbarkeit hinzubekommen.
+
+00:45:15.000 --> 00:45:24.000
+ Und also für so ganz einfache Neuronanenetze mit einem Layer, super, da kann ich irgendwie eine mathematische Theorie drum bauen,
+
+00:45:24.000 --> 00:45:32.000
+ kriege ich alles irgendwie super gut beschrieben, aber sobald ich mehr Layer habe, geht mir diese ganze mathematische Theorie verloren.
+
+00:45:32.000 --> 00:45:41.000
+ Und es wird wahrscheinlich eine Frage der Zeit sein und auch eine Frage, ob überhaupt man tatsächlich diese mathematische Theorie, um das verstehen zu können, nachzubauen.
+
+00:45:41.000 --> 00:45:50.000
+ Und der zweite entscheidende Punkt an der Stelle ist, selbst wenn ich das Modell nachher komplett verstanden habe, habe ich immer noch eine Unsicherheit in den Trainingsdaten.
+
+00:45:50.000 --> 00:45:58.000
+ Die Trainingsdaten bilden nicht den kompletten Raum ab, wobei es immer nur eine Teilabbildung von großem und ganzem ist.
+
+00:45:58.000 --> 00:46:02.000
+ Und was da drin steckt, muss ich mir halt eigentlich händisch angucken.
+
+00:46:02.000 --> 00:46:08.000
+ Und dafür will ich ja genau gerade die KI benutzen, um mir das zu erklären. Also so gesehen laufe ich da im Kreis.
+
+00:46:08.000 --> 00:46:18.000
+ Also ich glaube, alle Leute wollen transparente KI, aber ich glaube, ich stehe eher auf dem Punkt, dass es unmöglich ist, das Ganze zu erklären.
+
+00:46:18.000 --> 00:46:28.000
+ Vor allen Dingen, wenn ich mir da Chat-GPT angucke mit mehreren Milliarden an Parametern, das ist nicht erklärbar, was da drin passiert.
+
+00:46:28.000 --> 00:46:45.000
+ Vielen Dank. Ein sehr spannender Vortrag und wir sind am Ende unserer Zeit. Und in 15 Minuten findet hier einen Vortrag in englischer Sprache über Hacken von Starlink und Satellitenclustern des Final Frontier.
+
+00:46:45.000 --> 00:46:52.000
+ Bis dahin könnt ihr gerne sitzen bleiben, könnt euch die Beine vertreten oder geht woanders hin.
+
+00:46:52.000 --> 00:47:00.000
+ Die Sonne wird erträglicher, weil es immer tiefer geht. Der Regen, der versprochen worden ist, ist immer noch nicht da. Aber danke, dass ihr da wart.
+
+00:47:00.000 --> 00:47:02.000
+ Vielen Dank.
+
+00:47:02.000 --> 00:47:07.000
+ [Musik]
+

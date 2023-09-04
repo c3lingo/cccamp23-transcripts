@@ -1,0 +1,3440 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:46,000
+ Und zwar werden uns Jaden und Margen ein wenig darüber erzählen, warum Heißkleber ein wunderbarer Werkstoff ist in ihrem Talk "The Art of Heißkleber". Viel Spaß!
+
+3
+00:00:46,000 --> 00:00:51,000
+ [Applaus]
+
+4
+00:00:51,000 --> 00:01:02,000
+ Genau, an dieser Stelle, schön, dass ihr da seid zum mit Sicherheit seriösesten Talk des ganzen Camps, mindestens auf dieser Bühne, wahrscheinlich über das Camp hinaus. Heißleben mit Marga und Jaden.
+
+5
+00:01:02,000 --> 00:01:10,000
+ Ja, herzlich willkommen. So, für die erste Reihe, die Feuerwehr ist da an der Seite, aber wir haben hier oben natürlich auch schon mal vorgesorgt.
+
+6
+00:01:10,000 --> 00:01:13,000
+ [Gelächter]
+
+7
+00:01:13,000 --> 00:01:15,000
+ Das ist der, der ohne Zulassung ist, das ist der Großhaber.
+
+8
+00:01:15,000 --> 00:01:20,000
+ Moment, Moment, wir haben für die Sicherheitsunterweisung sogar Slides.
+
+9
+00:01:20,000 --> 00:01:21,000
+ Hier ist noch einer.
+
+10
+00:01:21,000 --> 00:01:23,000
+ Den wichtigen Fireware vorbereitet.
+
+11
+00:01:23,000 --> 00:01:32,000
+ Genau, also ganz kurzsätzlich, dieser Talk könnte möglicherweise unter Umständen nicht ganz so ernst gemeinte Passagen enthalten.
+
+12
+00:01:32,000 --> 00:01:37,000
+ Falls etwas doch ernst gemeint ist, haben wir das zur Sicherheit mit "S" für Serious gekennzeichnet.
+
+13
+00:01:37,000 --> 00:01:39,000
+ [Gelächter]
+
+14
+00:01:39,000 --> 00:01:53,000
+ An dieser Stelle wäre mir auch nochmal wichtig, wer von euch macht irgendwie, ich sag mal professionell, irgendwas, was in entfernter Weise mit Hardware, Infrastruktur oder sonstigem sicherheitskritischem Kram zu tun hat.
+
+15
+00:01:53,000 --> 00:01:55,000
+ [Gelächter]
+
+16
+00:01:55,000 --> 00:02:03,000
+ Okay, vergesst bitte diesen Talk heute Abend ab morgen, das wäre mir ganz arg wichtig. Und jetzt kann auch niemand mehr sagen, wir hatten euch nicht mehr vorgewarnt.
+
+17
+00:02:03,000 --> 00:02:10,000
+ Genau, ja auch von mir ein herzliches Willkommen. Wir haben das Ganze natürlich akribisch geplant.
+
+18
+00:02:10,000 --> 00:02:13,000
+ Genau, deswegen würde ich sagen, wir fangen einfach gleich an.
+
+19
+00:02:13,000 --> 00:02:20,000
+ Moment, Moment, bei dieser Slide, wir üben das mit diesem "S" nochmal. Also Erinnerung, ihr wisst jetzt, ne?
+
+20
+00:02:20,000 --> 00:02:35,000
+ Genau, aber zu Beginn, wir haben hier schon irgendwie mehr Menschen da, als ich dachte, dass wir da haben. Eine kurze Sicherheitsunterweisung. Macht das bitte nicht nach. Also wirklich nicht.
+
+21
+00:02:35,000 --> 00:02:45,000
+ Wir übernehmen keine Haftung. Falls wir doch diese Bühne evakuieren müssen, haben wir hier Engel, die sich damit auskennen.
+
+22
+00:02:45,000 --> 00:02:50,000
+ Bitte verlasst die Bühnenbereiche seitlich und versucht nicht in Panik auf die Bühne zu kommen.
+
+23
+00:02:50,000 --> 00:02:52,000
+ [Gelächter]
+
+24
+00:02:52,000 --> 00:03:00,000
+ Genau. Und ansonsten haben wir das nochmal ein bisschen kurz illustriert mit den Infos von unserem Fachpersonal.
+
+25
+00:03:00,000 --> 00:03:08,000
+ Genau, als allererstes ist natürlich wichtig, dass ihr hier wieder trotz allem heil auskommt. Persönliche Sicherheitsausstattung.
+
+26
+00:03:08,000 --> 00:03:16,000
+ Sehr relevant, besonders für die, die sich hier todesmutig in die erste Reihe gesetzt haben.
+
+27
+00:03:16,000 --> 00:03:26,000
+ Ja, Katzenohren, ganz wichtig. Wer möchte? Ja, erstmal für uns, sonst wird das hier alles gefährlich.
+
+28
+00:03:26,000 --> 00:03:39,000
+ An dieser Stelle vielen Dank an das Cat Operation Center. Ihr könnt jederzeit unter "DECT CATS" anrufen und euch um Katzenohren kümmern.
+
+29
+00:03:39,000 --> 00:03:46,000
+ Ich weiß nur nicht, ob dir das ausreicht. Von daher müssen wir jetzt mal irgendwie versuchen, ob wir aus diesem wunderbaren Material,
+
+30
+00:03:46,000 --> 00:03:52,000
+ was wir hier in größerer Menge angesammelt haben, es noch irgendwie schaffen, Katzenohren gebaut zu bekommen.
+
+31
+00:03:52,000 --> 00:04:00,000
+ Ich würde da mal an Caden übergeben, die notwendigen Geräte vorzuheizen. Ich packe in der Zeit mal das.
+
+32
+00:04:00,000 --> 00:04:05,000
+ Natürlich, wir brauchen als erstes, wir machen das jetzt ein bisschen wie in einer Kochsendung.
+
+33
+00:04:05,000 --> 00:04:13,000
+ Wir haben hier unsere handelsübliche Heißklebepistole. Ganz toller Werkstoff. Hier sieht man auch nochmal die Einzelteile.
+
+34
+00:04:13,000 --> 00:04:21,000
+ Ganz tolles Gerät, sehr viele Bauteile, sehr kompliziert. Ja, ist ein Wunder der Technik.
+
+35
+00:04:21,000 --> 00:04:30,000
+ Und natürlich dazu euren handelsüblichen Heißluftfilm. Muss ich glaube ich auch nicht erklären.
+
+36
+00:04:30,000 --> 00:04:39,000
+ Genau, wir haben Werkstoff. Einmal in der hier handelsüblichen Variante. 11 mm Heißkleber.
+
+37
+00:04:39,000 --> 00:04:48,000
+ Wir haben glaube ich auch noch hier diesen 7 mm Heißkleber da. Der hat sich passenderweise auch schon an die Temperatur angepasst und einmal ordentlich miteinander verklebt.
+
+38
+00:04:48,000 --> 00:04:55,000
+ Und da natürlich Katzenohren als persönliche Sicherheitsausstattung sehr wichtig sind, haben wir keine Kosten und Mühen gescheut.
+
+39
+00:04:55,000 --> 00:05:03,000
+ Und für euch extra mit Hilfe dieses Villages die Premium Variante des Werkstoffes besorgt.
+
+40
+00:05:03,000 --> 00:05:10,000
+ Glitzernder Heißkleber. Einfach super. Ich muss jetzt hier mal so ein bisschen Kameraengel spielen.
+
+41
+00:05:10,000 --> 00:05:23,000
+ Dass ihr auch seht was wir hier tolles machen. Die Kamera ist scheinbar defekt. Versuch mal hier so eine kleine Heißkleberstange an den Adapter. Vielleicht hilft das.
+
+42
+00:05:23,000 --> 00:05:30,000
+ Machen wir gleich. Wir fangen natürlich an wir müssen das erstmal irgendwie biegen. Das ist wichtig.
+
+43
+00:05:30,000 --> 00:05:36,000
+ Dafür haben wir natürlich auch hier unser Sicherheitswerkzeug vorbereitet. Eine handelsübliche Zange.
+
+44
+00:05:36,000 --> 00:05:41,000
+ Haben wir noch eine Zange? Wir müssten noch Zangen haben.
+
+45
+00:05:41,000 --> 00:05:49,000
+ Alternativ stand in unserer Vorbereitung dass wir Zangen nicht mitbringen weil Johanna irgendwas hätte. Ist Johanna da?
+
+46
+00:05:49,000 --> 00:05:56,000
+ Genau. Magst du einmal den Heißhochfön anschalten? Es kann sein dass wir gleich im Dunkeln stehen. Ich hoffe nicht. Moment.
+
+47
+00:05:56,000 --> 00:06:03,000
+ Hast du schon getestet? Sieht man was? Ja sollte man sehen.
+
+48
+00:06:03,000 --> 00:06:16,000
+ Also nur sanfter Hitz natürlich. Also nicht wundern wenn das hier raucht das muss so.
+
+49
+00:06:16,000 --> 00:06:31,000
+ Die Feuerwehr ist schon begeistert. Also unsere Unterlage ist noch nicht mal schwarz. Das passt hoffentlich so.
+
+50
+00:06:31,000 --> 00:06:37,000
+ Also vielleicht müssen wir auch. Ja so ist gut. So dann müssen wir jetzt noch ein bisschen halten damit er dann gleich abkühlt.
+
+51
+00:06:37,000 --> 00:06:41,000
+ Wir hätten eine Form bauen sollen aber das wäre zu viel Vorbereitung gewesen.
+
+52
+00:06:41,000 --> 00:06:47,000
+ Genau wir können uns schon mal um die Ohren kümmern in der Zwischenzeit vielleicht. Ich halte das.
+
+53
+00:06:47,000 --> 00:07:03,000
+ Hältst du? Gut. Wir hoffen ihr habt einen dehnbaren Kopf für die Sicherheitsausstattung aber man nimmt ja was man kriegt.
+
+54
+00:07:03,000 --> 00:07:12,000
+ Wir haben auch noch kleine Premium Heißklebestücke. Wir machen das aus kleinen? Okay. Wir haben kleine Glitzer Heißklebestücke da rechts.
+
+55
+00:07:12,000 --> 00:07:18,000
+ Direkt neben unserer Nebelquelle. Ja wir sind natürlich nicht gesponsert.
+
+56
+00:07:18,000 --> 00:07:31,000
+ An dieser Stelle vielen Dank an das Log und BGP für die Unterstützung bei spontanen Talkvorbereitungen. Einmal einen Applaus für das Log bitte.
+
+57
+00:07:31,000 --> 00:07:43,000
+ Mit ein bisschen guten Willen kann man das hier vielleicht schon. Ich glaube das braucht noch ein bisschen.
+
+58
+00:07:43,000 --> 00:07:50,000
+ Wir haben den hier auseinander geschnitten. Kleben den einfach da dran. Heißkleber kann man einfach sehr gut mit Heißkleber kleben.
+
+59
+00:07:50,000 --> 00:08:05,000
+ So und schon haben wir unser erstes Katzenohr. Ist doch super. So muss das sein. Das gleiche machen wir natürlich zweimal weil jede gute Katze hat zwei Ohren.
+
+60
+00:08:05,000 --> 00:08:24,000
+ So und Nummer zwei. An dieser Stelle während die hochkonzentrierte Tätigkeit in Gang ist möchte ich euch mal motivieren.
+
+61
+00:08:24,000 --> 00:08:42,000
+ Das ist ein Mitmachtalk. Wenn ihr gute Ideen habt wie man vielleicht sinnvoll weiter kommt. Wir haben bestimmt einen Herhalt oder eine Herhaltin die gerade gelangweilt irgendwo in der Ecke sitzt und eigentlich darauf wartet durch die Gegend zu rennen mit dem Mikro.
+
+62
+00:08:42,000 --> 00:08:55,000
+ Ja ja ja es wird. Es wird man sieht es oder sieht man es. Wunderbar wunderbar. Das gleiche machen wir natürlich noch einmal.
+
+63
+00:08:55,000 --> 00:09:05,000
+ Ich fühle mich hier wie beim Basteln in der Grundschule. Ist genauso entspannt vielleicht mehr gefährlich aber ja.
+
+64
+00:09:05,000 --> 00:09:12,000
+ Ich werde das Gefühl nicht los. Wir hätten vielleicht die ganze Stange schmelzen sollen und eine Form dafür bauen aber jetzt jetzt jetzt jetzt.
+
+65
+00:09:12,000 --> 00:09:19,000
+ Nimm mal nicht so viel vorweg bitte. Also wir haben natürlich mehr vorbereitet als noch Heißkleber Katzenohren.
+
+66
+00:09:19,000 --> 00:09:26,000
+ Aber ich würde sagen unsere Heißkleber Katzenohren sind fertig.
+
+67
+00:09:26,000 --> 00:09:39,000
+ Wollen wir sie ins Publikum verschenken. Wer sitzt in der ersten Reihe und hat noch keine Safety-Katzenohren. Wer hat noch keine Katzenohren. Das ist ganz wichtig.
+
+68
+00:09:39,000 --> 00:09:50,000
+ So du hast noch keine Katzenohren. Wunderbar perfekt. Einfach festkleben.
+
+69
+00:09:50,000 --> 00:09:58,000
+ So kurzer Blick Richtung Zert. Ist die Sicherheitsausstattung so ok. Können wir weitermachen.
+
+70
+00:09:58,000 --> 00:10:10,000
+ Sie nicht ganz überzeugt. Was steht denn hier als zweites in diesem vorbereiteten Talk. Der konstruktive Unterseebootbau.
+
+71
+00:10:10,000 --> 00:10:20,000
+ Ok also dafür muss man weiter ausholen. Wir sind hier zum dritten Mal in diesem Mildenberg und das ist ja hier mitten im nichts und so was wie Glasfaser ist hier eher schwierig.
+
+72
+00:10:20,000 --> 00:10:26,000
+ Und wie ihr vielleicht gesehen habt sind hier rundrum viele Flüsse und Teiche und so weiter.
+
+73
+00:10:26,000 --> 00:10:38,000
+ Und jetzt kann es natürlich oder es gibt Gerüchte das beim Versuch Glasfasern durch diese Teiche zu ziehen damit wir hier versorgt werden.
+
+74
+00:10:38,000 --> 00:10:51,000
+ Möglicherweise sagen wir mal antike Schätze noch in diesem See übrig sind. Und was macht man dann natürlich als moderne Gesellschaft die am Abenteuer interessiert ist.
+
+75
+00:10:51,000 --> 00:11:02,000
+ Man baut sich ganz spontan aus perfektem Werkstoff ein U-Boot um in den nächsten Tagen mal in dem See hier oben suchen zu gehen was man noch alles findet.
+
+76
+00:11:02,000 --> 00:11:08,000
+ So jetzt gucken wir mal was haben wir hier mit dem man ein U-Boot bauen könnte. Wir haben ein bisschen Holzplatten das sieht schon vielversprechend aus.
+
+77
+00:11:08,000 --> 00:11:13,000
+ Ein bisschen Holz ja und natürlich auch eine entsprechende Platt.
+
+78
+00:11:13,000 --> 00:11:22,000
+ So jetzt ist natürlich die Frage jemand Ideen wie man so Holz gerade wenn es um maritime Gewerke geht.
+
+79
+00:11:22,000 --> 00:11:31,000
+ Holz oder vielleicht auch schlechter geeignete Werkstoffe wie Metall miteinander verbindet oder früher miteinander verbunden hat.
+
+80
+00:11:31,000 --> 00:11:40,000
+ Das ist ja die moderne Lösung wir wollen ja wir wollen ja hier auch ein bisschen an unsere Wurzeln zurückkommen.
+
+81
+00:11:40,000 --> 00:11:49,000
+ Nieten sehr gute Idee. Das ist der way to go. So jetzt fürs Nieten muss man natürlich irgendwie erstmal ein Loch da reinbringen.
+
+82
+00:11:49,000 --> 00:11:53,000
+ Holzbohrer haben wir leider nicht.
+
+83
+00:11:53,000 --> 00:12:03,000
+ Haben wir vielleicht doch ein Holzbohrer oder hat jemand eine Idee wie man das mit Heißleber hinkriegt.
+
+84
+00:12:03,000 --> 00:12:11,000
+ Das passt da nicht rein. Also sehr gut wunderbar. So macht man das.
+
+85
+00:12:11,000 --> 00:12:17,000
+ Ein Applaus für Wonko. Ich glaube es war Wonko und das C3 Nord Cluster.
+
+86
+00:12:17,000 --> 00:12:22,000
+ Gut also vorbereitende Arbeiten als erstes irgendwie ein Loch da reinbringen.
+
+87
+00:12:22,000 --> 00:12:30,000
+ Ja wir machen das aber halt ordentlich und sicher weil ihr kennt uns.
+
+88
+00:12:30,000 --> 00:12:44,000
+ Sieht gut aus. Ich nehme jetzt mal nicht das dicke sonst dauert das so lang.
+
+89
+00:12:44,000 --> 00:12:50,000
+ So wir haben unsere Platte wir haben unsere zwei Löcher. Sieht man das?
+
+90
+00:12:50,000 --> 00:12:55,000
+ Sehr schön wunderbar hier da ist ein Loch. Genau.
+
+91
+00:12:55,000 --> 00:13:01,000
+ So und jetzt müssen wir das irgendwie zusammenbringen.
+
+92
+00:13:01,000 --> 00:13:08,000
+ Also ich glaube als stabilisierendes Element könnten wir doch schon mal anfangen mit einer Stange Heißleber durch.
+
+93
+00:13:08,000 --> 00:13:14,000
+ Dann ist zumindest die Position so einigermaßen ok.
+
+94
+00:13:14,000 --> 00:13:20,000
+ Passt. Nein da müssen wir das Loch nochmal ein Stückchen vergrößern.
+
+95
+00:13:20,000 --> 00:13:28,000
+ So und mir war so als hätten wir mal was dabei gehabt um dann den Heißleber auch mit so richtig festzudrücken zu formen.
+
+96
+00:13:28,000 --> 00:13:33,000
+ Kannst du in meiner Küche fragen? Die haben doch da bestimmt irgendwas. So ein Werkzeug.
+
+97
+00:13:33,000 --> 00:13:39,000
+ Ich hatte extra eine eigene Löffel mitgebracht weil ich hier nicht die Küche im Rahmen Werkzeug berauben wollte.
+
+98
+00:13:39,000 --> 00:13:44,000
+ Aber der ist irgendwie nicht mehr aufgetaucht. Ja gut dann wohl nicht.
+
+99
+00:13:44,000 --> 00:13:52,000
+ Dann wird das jetzt interessant. Naja. Vielleicht so bestimmt. Wir haben doch hier noch.
+
+100
+00:13:52,000 --> 00:14:00,000
+ Ah hier ist der Löffel. Gut. Handelsüblicher Löffel von Ikea natürlich. Not sponsored.
+
+101
+00:14:00,000 --> 00:14:06,000
+ Wenn jemand einen Camping Löffel oder so ein Einweglöffel aus Holz hat können wir das damit auch probieren.
+
+102
+00:14:06,000 --> 00:14:14,000
+ Ja weiß nicht. Ja also wir müssen jetzt natürlich erstmal unseren Nietenrohling entsprechend kürzen.
+
+103
+00:14:14,000 --> 00:14:19,000
+ Das ist ein ganz wichtiger Schritt. Machen wir dann in etwa so.
+
+104
+00:14:19,000 --> 00:14:27,000
+ So jetzt ist das Werkstück schon bereit das Ganze ein bisschen zu verbinden.
+
+105
+00:14:27,000 --> 00:14:34,000
+ So und so langsam kriege ich doch Angst falls ich das gleich halte und chainen.
+
+106
+00:14:34,000 --> 00:14:39,000
+ Wir legen das doch einfach auf so ein Stück Holz. Das passt doch. Ja oder so. Okay dann.
+
+107
+00:14:39,000 --> 00:14:46,000
+ Ihr habt den ersten Hilfekoffer von den Feuerlöscher bereit? Gut.
+
+108
+00:14:46,000 --> 00:14:52,000
+ Dafür erhitzen wir jetzt einfach unseren handelsüblichen Löffel.
+
+109
+00:14:52,000 --> 00:14:58,000
+ Ich kann übrigens empfehlen Heißkleber 200 Grad Umluft.
+
+110
+00:14:58,000 --> 00:15:01,000
+ Das habe ich noch nicht ausprobiert. Ja jetzt ist da diese Mücke.
+
+111
+00:15:01,000 --> 00:15:09,000
+ Hat unsere Küche vor ihren Ofen noch zu benutzen? So überhaupt der muss danach eh weg.
+
+112
+00:15:09,000 --> 00:15:15,000
+ Ansonsten habe ich gehört ein Hex Space in Karlsruhe hat jetzt einen neuen Ofen. Den können wir ausleihen meinst du?
+
+113
+00:15:15,000 --> 00:15:18,000
+ Ja ausleihen oder dann. Das funktioniert irgendwie noch nicht so gut.
+
+114
+00:15:18,000 --> 00:15:27,000
+ Dann machen wir das einfach so. Okay gut. Ja das sieht gut aus.
+
+115
+00:15:27,000 --> 00:15:38,000
+ Man sieht schön, ich suche mal vorsichtig ran, wie sich das Ganze hier formschlüssig in das Material einarbeitet und keine Lücke mehr offen lässt.
+
+116
+00:15:38,000 --> 00:15:43,000
+ Also mit Ausnahme von den vier Löchern nebendran.
+
+117
+00:15:43,000 --> 00:15:48,000
+ Ja das ist eine super Verbindung. So das gleiche machen wir jetzt natürlich auf der anderen Seite.
+
+118
+00:15:48,000 --> 00:15:55,000
+ Wer braucht schon denn die Zange und Metall? Das geht doch alles auch einfach so.
+
+119
+00:15:55,000 --> 00:16:05,000
+ Ist doch solide. Ist solide. Hält.
+
+120
+00:16:05,000 --> 00:16:10,000
+ Nächstes Mal noch eine Schicht Heißkleber dazwischen, aber wenn wir das jetzt so in den Ofen packen, dürfte das danach auch dicht sein.
+
+121
+00:16:10,000 --> 00:16:15,000
+ Genau also nochmal 200 Grad Umluft. Das Ganze für eine halbe Stunde backen.
+
+122
+00:16:15,000 --> 00:16:18,000
+ Dann braucht ihr auch keine Individu Maschine zu Hause.
+
+123
+00:16:18,000 --> 00:16:27,000
+ Genau also wenn jemand jetzt morgen im Herzwerkstich schwimmen will, ich glaube das könnt ihr euch jetzt als Hilfe ausleihen.
+
+124
+00:16:27,000 --> 00:16:32,000
+ Vielleicht macht es nicht schwer, dass es sehr zuguckt.
+
+125
+00:16:32,000 --> 00:16:40,000
+ Genau wenn das ja am Ende abgekühlt ist, kann das auch gerne jemand haben zum Schwimmen. Ist glaube ich solide.
+
+126
+00:16:40,000 --> 00:16:44,000
+ Okay machen wir mal weiter. Machen wir mal weiter.
+
+127
+00:16:44,000 --> 00:16:50,000
+ Wir haben hier eine schöne Holzplatte benutzt. Die ist übrig geblieben.
+
+128
+00:16:50,000 --> 00:16:52,000
+ Jetzt bist du nicht mehr sicher.
+
+129
+00:16:52,000 --> 00:16:57,000
+ Wir müssen an unserer Sicherheitsausrüstung arbeiten. Die ist übrig geblieben aus meinem IKEA Küchenbau.
+
+130
+00:16:57,000 --> 00:17:03,000
+ An dieser Stelle viele Grüße an Hexi. Deswegen, wir müssen zurück auf die Slides.
+
+131
+00:17:03,000 --> 00:17:06,000
+ Machen wir jetzt weiter mit Alltagshelfern für den Küchenbau.
+
+132
+00:17:06,000 --> 00:17:15,000
+ Also ich war ja bei dieser Küche auch nicht unbeteiligt und das mussten wir auch leider erfahren.
+
+133
+00:17:15,000 --> 00:17:18,000
+ Nein, nein, nein, wir sind noch nicht so weit. Gib das mal weg.
+
+134
+00:17:18,000 --> 00:17:25,000
+ Wir müssen erstmal gucken bevor wir irgendwas anschließen, dass unsere Küche überhaupt hält an der Wand.
+
+135
+00:17:25,000 --> 00:17:35,000
+ Und dass die Schränke aufgehängt werden und manchmal sieht man mich überhaupt noch. Egal.
+
+136
+00:17:35,000 --> 00:17:41,000
+ Und manchmal wer schon mal in so einem kleinen Spülschrank einer Küche gearbeitet hat.
+
+137
+00:17:41,000 --> 00:17:46,000
+ Und ich weiß nicht, vielleicht kommt hier jemand aus NRW, dem Land der Küchenbauer, wie ich mir habe sagen lassen.
+
+138
+00:17:46,000 --> 00:17:51,000
+ Weiß, dass es durchaus eng zugehen kann und wenn man jetzt mit so einem richtig ordentlichen...
+
+139
+00:17:51,000 --> 00:17:53,000
+ Danke.
+
+140
+00:17:53,000 --> 00:18:05,000
+ Danke. Und wenn man jetzt mit so einem richtig ordentlichen Akkubohrer oder sonstigen Bohrer oder Bohrhammer...
+
+141
+00:18:05,000 --> 00:18:12,000
+ Da versucht man eine kleine Schraube rein zu bringen. Das funktioniert nicht.
+
+142
+00:18:12,000 --> 00:18:19,000
+ Und vielleicht, also wir haben hier ein super Discountprodukt eines Baumarkts.
+
+143
+00:18:19,000 --> 00:18:26,000
+ Als ich in meine erste Wohnung gezogen bin, achso man sieht das nicht, Moment, ist dieses Ding irgendwie bei mir gelandet.
+
+144
+00:18:26,000 --> 00:18:30,000
+ Seitdem ist es leihweise bei drei Umzügen gelandet und ich bin froh, dass ich es jetzt wieder gefunden habe.
+
+145
+00:18:30,000 --> 00:18:38,000
+ Es ist ein handelsüblicher billig Akkuschrauber von der Marke Marga.
+
+146
+00:18:38,000 --> 00:18:43,000
+ Nein, das war glaube ich ein Baumarkt. Ich habe den nicht selbst gebaut. Dafür sieht er zu gut aus.
+
+147
+00:18:43,000 --> 00:18:46,000
+ Okay, gut zu wissen.
+
+148
+00:18:46,000 --> 00:18:52,000
+ Auf alle Fälle sollte jetzt hier irgendwie so ein Bit rumfliegen, weil es gehört natürlich dazu...
+
+149
+00:18:52,000 --> 00:18:56,000
+ Zum Schrauben braucht man halt auch mehr als irgendwie das da.
+
+150
+00:18:56,000 --> 00:19:01,000
+ Genau, also wir sind in der Evolution soweit, dass wir eine Schraube haben.
+
+151
+00:19:01,000 --> 00:19:03,000
+ Okay, sehr gut.
+
+152
+00:19:03,000 --> 00:19:12,000
+ Jetzt muss ich wirklich mal gucken, wo dieser Bit ist, weil ohne kommen wir hier nicht wirklich weiter.
+
+153
+00:19:12,000 --> 00:19:19,000
+ Nee, das ist zu gut. Ich hatte eben noch gefunden, bitte entschuldigen Sie.
+
+154
+00:19:19,000 --> 00:19:26,000
+ Aber eure Idee war eigentlich... Ah, wir haben es, wir haben ein Bit, wunderbar.
+
+155
+00:19:26,000 --> 00:19:30,000
+ Handelsübliches billig Bit. Genau.
+
+156
+00:19:30,000 --> 00:19:38,000
+ Ich würde das einmal kurz demonstrieren oder Jaden demonstrieren lassen, wenn man das jetzt versucht da einzuspannen.
+
+157
+00:19:38,000 --> 00:19:43,000
+ Das geht nicht. Das passt da... Also...
+
+158
+00:19:43,000 --> 00:19:49,000
+ Und selbst wenn man diese Funktion... Warte, ich mache mal kurz. Darf ich?
+
+159
+00:19:49,000 --> 00:19:58,000
+ Selbst wenn man diese hochtechnisch sehende Funktion zum Festspannen findet, dann ist es ja danach irgendwie chap drin.
+
+160
+00:19:58,000 --> 00:20:05,000
+ Also Spaß macht das nicht. Und dann muss man damit immer noch im 40 cm Küchenschrank um die Ecke...
+
+161
+00:20:05,000 --> 00:20:13,000
+ Aber ein guter Haushalt hat natürlich Heißkleber da. Selbstverständlich zum Küchenaufbau auch.
+
+162
+00:20:13,000 --> 00:20:17,000
+ Und so eine Heißkleberstange kann man perfekt in ein Akkuburg einzuspannen.
+
+163
+00:20:17,000 --> 00:20:20,000
+ Das passt da vorzüglich vorne rein.
+
+164
+00:20:20,000 --> 00:20:29,000
+ Und man sieht, es ist auch sehr stabil und... Also es hat überhaupt keine Unwucht oder sowas.
+
+165
+00:20:29,000 --> 00:20:31,000
+ Das kann man problemfrei benutzen.
+
+166
+00:20:31,000 --> 00:20:38,000
+ Genau. Und jetzt ist das einzige, was wir noch tun müssen, ein simpler Task, also im Prinzip ist es schon fertig,
+
+167
+00:20:38,000 --> 00:20:42,000
+ diesen Bit in den Heißkleber reinzubringen. Und dafür ist der Heißkleber perfekt gemacht.
+
+168
+00:20:42,000 --> 00:20:47,000
+ Ich würde vorschlagen, du nimmst den Bit mit der Zange, ich nehme den Heißluftfön.
+
+169
+00:20:47,000 --> 00:20:53,000
+ Die erste Reihe... Die erste Reihe sollte jetzt die Katzenorn aufsetzen.
+
+170
+00:20:53,000 --> 00:20:56,000
+ Genau. Und dann fangen wir an.
+
+171
+00:20:59,000 --> 00:21:04,000
+ Jetzt ist dieses Flatterviech da schon wieder. Also, weißte nicht, kannst du den noch her... Geht da noch mehr?
+
+172
+00:21:04,000 --> 00:21:10,000
+ Nein, das war's. Ich glaube, wir haben noch irgendeinen zweiten NHG. Wie viel ist diese Phase hier abgesichert?
+
+173
+00:21:10,000 --> 00:21:15,000
+ Das habe ich eben schon getestet. Warte mal.
+
+174
+00:21:15,000 --> 00:21:23,000
+ Ähm, Sekunde. Da stecken wir aber mal die Klebepistole aus. Oder war das gerade der Fön?
+
+175
+00:21:23,000 --> 00:21:24,000
+ Nein, der Fön ist noch drin.
+
+176
+00:21:24,000 --> 00:21:25,000
+ Wunderbar.
+
+177
+00:21:25,000 --> 00:21:28,000
+ Möchte jemand Freiwilligkeit halten?
+
+178
+00:21:28,000 --> 00:21:30,000
+ Du hast doch zwei Hände.
+
+179
+00:21:30,000 --> 00:21:47,000
+ Mach einfach den Stab da warm. Ich kann den auch schon mal drehen. Das ist dann wie so ein...
+
+180
+00:21:47,000 --> 00:21:51,000
+ Ich hoffe, ihr seht das gut. Ich muss mich hier hochkonzentriert... Okay, mach mal den Fön weg bitte.
+
+181
+00:21:51,000 --> 00:21:56,000
+ Okay, sehr gut. Das sieht ja schon mal einwandfrei aus.
+
+182
+00:21:56,000 --> 00:21:59,000
+ Und jetzt kommt die zweite Reihe.
+
+183
+00:21:59,000 --> 00:22:02,000
+ Und dann kommt die zweite Reihe.
+
+184
+00:22:02,000 --> 00:22:04,000
+ Und dann kommt die dritte Reihe.
+
+185
+00:22:04,000 --> 00:22:06,000
+ Und dann kommt die dritte Reihe.
+
+186
+00:22:06,000 --> 00:22:08,000
+ Und dann kommt die dritte Reihe.
+
+187
+00:22:08,000 --> 00:22:10,000
+ Und dann kommt die dritte Reihe.
+
+188
+00:22:10,000 --> 00:22:12,000
+ Und dann kommt die dritte Reihe.
+
+189
+00:22:12,000 --> 00:22:14,000
+ Und dann kommt die dritte Reihe.
+
+190
+00:22:14,000 --> 00:22:17,000
+ Und dann kommt die dritte Reihe.
+
+191
+00:22:17,000 --> 00:22:19,000
+ Und dann kommt die dritte Reihe.
+
+192
+00:22:19,000 --> 00:22:21,000
+ Und dann kommt die dritte Reihe.
+
+193
+00:22:21,000 --> 00:22:23,000
+ Und dann kommt die dritte Reihe.
+
+194
+00:22:23,000 --> 00:22:25,000
+ Und dann kommt die dritte Reihe.
+
+195
+00:22:25,000 --> 00:22:27,000
+ Und dann kommt die dritte Reihe.
+
+196
+00:22:27,000 --> 00:22:29,000
+ Und dann kommt die dritte Reihe.
+
+197
+00:22:29,000 --> 00:22:31,000
+ Und dann kommt die dritte Reihe.
+
+198
+00:22:31,000 --> 00:22:33,000
+ Und dann kommt die dritte Reihe.
+
+199
+00:22:33,000 --> 00:22:35,000
+ Und dann kommt die dritte Reihe.
+
+200
+00:22:35,000 --> 00:22:37,000
+ Und dann kommt die dritte Reihe.
+
+201
+00:22:37,000 --> 00:22:39,000
+ Und dann kommt die dritte Reihe.
+
+202
+00:22:39,000 --> 00:22:41,000
+ Und dann kommt die dritte Reihe.
+
+203
+00:22:41,000 --> 00:22:43,000
+ Und dann kommt die dritte Reihe.
+
+204
+00:22:43,000 --> 00:22:45,000
+ Und dann kommt die dritte Reihe.
+
+205
+00:22:45,000 --> 00:22:47,000
+ Und dann kommt die dritte Reihe.
+
+206
+00:22:47,000 --> 00:22:49,000
+ Und dann kommt die dritte Reihe.
+
+207
+00:22:49,000 --> 00:22:51,000
+ Und dann kommt die dritte Reihe.
+
+208
+00:22:51,000 --> 00:22:53,000
+ Und dann kommt die dritte Reihe.
+
+209
+00:22:53,000 --> 00:22:55,000
+ Und dann kommt die dritte Reihe.
+
+210
+00:22:55,000 --> 00:22:57,000
+ Und dann kommt die dritte Reihe.
+
+211
+00:22:57,000 --> 00:22:59,000
+ Und dann kommt die dritte Reihe.
+
+212
+00:22:59,000 --> 00:23:01,000
+ Und dann kommt die dritte Reihe.
+
+213
+00:23:01,000 --> 00:23:03,000
+ Und dann kommt die dritte Reihe.
+
+214
+00:23:03,000 --> 00:23:05,000
+ Und dann kommt die dritte Reihe.
+
+215
+00:23:05,000 --> 00:23:07,000
+ Und dann kommt die dritte Reihe.
+
+216
+00:23:07,000 --> 00:23:09,000
+ Und dann kommt die dritte Reihe.
+
+217
+00:23:09,000 --> 00:23:11,000
+ Und dann kommt die dritte Reihe.
+
+218
+00:23:11,000 --> 00:23:13,000
+ Und dann kommt die dritte Reihe.
+
+219
+00:23:13,000 --> 00:23:15,000
+ Und dann kommt die dritte Reihe.
+
+220
+00:23:15,000 --> 00:23:17,000
+ Und dann kommt die dritte Reihe.
+
+221
+00:23:17,000 --> 00:23:19,000
+ Und dann kommt die dritte Reihe.
+
+222
+00:23:19,000 --> 00:23:21,000
+ Und dann kommt die dritte Reihe.
+
+223
+00:23:21,000 --> 00:23:23,000
+ Und dann kommt die dritte Reihe.
+
+224
+00:23:23,000 --> 00:23:25,000
+ Und dann kommt die dritte Reihe.
+
+225
+00:23:25,000 --> 00:23:27,000
+ Und dann kommt die dritte Reihe.
+
+226
+00:23:27,000 --> 00:23:29,000
+ Und dann kommt die dritte Reihe.
+
+227
+00:23:29,000 --> 00:23:31,000
+ Und dann kommt die dritte Reihe.
+
+228
+00:23:31,000 --> 00:23:33,000
+ Und dann kommt die dritte Reihe.
+
+229
+00:23:33,000 --> 00:23:35,000
+ Und dann kommt die dritte Reihe.
+
+230
+00:23:35,000 --> 00:23:37,000
+ Und dann kommt die dritte Reihe.
+
+231
+00:23:37,000 --> 00:23:39,000
+ Und dann kommt die dritte Reihe.
+
+232
+00:23:39,000 --> 00:23:41,000
+ Und dann kommt die dritte Reihe.
+
+233
+00:23:41,000 --> 00:23:43,000
+ Und dann kommt die dritte Reihe.
+
+234
+00:23:43,000 --> 00:23:45,000
+ Und dann kommt die dritte Reihe.
+
+235
+00:23:45,000 --> 00:23:47,000
+ Und dann kommt die dritte Reihe.
+
+236
+00:23:47,000 --> 00:23:49,000
+ Und dann kommt die dritte Reihe.
+
+237
+00:23:49,000 --> 00:23:51,000
+ Und dann kommt die dritte Reihe.
+
+238
+00:23:51,000 --> 00:23:53,000
+ Und dann kommt die dritte Reihe.
+
+239
+00:23:53,000 --> 00:23:55,000
+ Und dann kommt die dritte Reihe.
+
+240
+00:23:55,000 --> 00:23:57,000
+ Und dann kommt die dritte Reihe.
+
+241
+00:23:57,000 --> 00:23:59,000
+ Und dann kommt die dritte Reihe.
+
+242
+00:23:59,000 --> 00:24:01,000
+ Und dann kommt die dritte Reihe.
+
+243
+00:24:01,000 --> 00:24:03,000
+ Und dann kommt die dritte Reihe.
+
+244
+00:24:03,000 --> 00:24:05,000
+ Und dann kommt die dritte Reihe.
+
+245
+00:24:05,000 --> 00:24:07,000
+ Und dann kommt die dritte Reihe.
+
+246
+00:24:07,000 --> 00:24:09,000
+ Und dann kommt die dritte Reihe.
+
+247
+00:24:09,000 --> 00:24:11,000
+ Und dann kommt die dritte Reihe.
+
+248
+00:24:11,000 --> 00:24:13,000
+ Und dann kommt die dritte Reihe.
+
+249
+00:24:13,000 --> 00:24:15,000
+ Und dann kommt die dritte Reihe.
+
+250
+00:24:15,000 --> 00:24:17,000
+ Und dann kommt die dritte Reihe.
+
+251
+00:24:17,000 --> 00:24:19,000
+ Und dann kommt die dritte Reihe.
+
+252
+00:24:19,000 --> 00:24:21,000
+ Und dann kommt die dritte Reihe.
+
+253
+00:24:21,000 --> 00:24:23,000
+ Und dann kommt die dritte Reihe.
+
+254
+00:24:23,000 --> 00:24:25,000
+ Und dann kommt die dritte Reihe.
+
+255
+00:24:25,000 --> 00:24:27,000
+ Und dann kommt die dritte Reihe.
+
+256
+00:24:27,000 --> 00:24:29,000
+ Und dann kommt die dritte Reihe.
+
+257
+00:24:29,000 --> 00:24:31,000
+ Und dann kommt die dritte Reihe.
+
+258
+00:24:31,000 --> 00:24:33,000
+ Und dann kommt die dritte Reihe.
+
+259
+00:24:33,000 --> 00:24:35,000
+ Und dann kommt die dritte Reihe.
+
+260
+00:24:35,000 --> 00:24:37,000
+ Und dann kommt die dritte Reihe.
+
+261
+00:24:37,000 --> 00:24:39,000
+ Und dann kommt die dritte Reihe.
+
+262
+00:24:39,000 --> 00:24:41,000
+ Und dann kommt die dritte Reihe.
+
+263
+00:24:41,000 --> 00:24:43,000
+ Und dann kommt die dritte Reihe.
+
+264
+00:24:43,000 --> 00:24:45,000
+ Und dann kommt die dritte Reihe.
+
+265
+00:24:45,000 --> 00:24:47,000
+ Und dann kommt die dritte Reihe.
+
+266
+00:24:47,000 --> 00:24:49,000
+ Und dann kommt die dritte Reihe.
+
+267
+00:24:49,000 --> 00:24:51,000
+ Und dann kommt die dritte Reihe.
+
+268
+00:24:51,000 --> 00:24:53,000
+ Und dann kommt die dritte Reihe.
+
+269
+00:24:53,000 --> 00:24:55,000
+ Und dann kommt die dritte Reihe.
+
+270
+00:24:55,000 --> 00:24:57,000
+ Und dann kommt die dritte Reihe.
+
+271
+00:24:57,000 --> 00:24:59,000
+ Und dann kommt die dritte Reihe.
+
+272
+00:24:59,000 --> 00:25:01,000
+ Und dann kommt die dritte Reihe.
+
+273
+00:25:01,000 --> 00:25:03,000
+ Und dann kommt die dritte Reihe.
+
+274
+00:25:03,000 --> 00:25:05,000
+ Und dann kommt die dritte Reihe.
+
+275
+00:25:05,000 --> 00:25:07,000
+ Und dann kommt die dritte Reihe.
+
+276
+00:25:07,000 --> 00:25:09,000
+ Und dann kommt die dritte Reihe.
+
+277
+00:25:09,000 --> 00:25:11,000
+ Und dann kommt die dritte Reihe.
+
+278
+00:25:11,000 --> 00:25:13,000
+ Und dann kommt die dritte Reihe.
+
+279
+00:25:13,000 --> 00:25:15,000
+ Und dann kommt die dritte Reihe.
+
+280
+00:25:15,000 --> 00:25:17,000
+ Und dann kommt die dritte Reihe.
+
+281
+00:25:17,000 --> 00:25:19,000
+ Und dann kommt die dritte Reihe.
+
+282
+00:25:19,000 --> 00:25:21,000
+ Und dann kommt die dritte Reihe.
+
+283
+00:25:21,000 --> 00:25:23,000
+ Und dann kommt die dritte Reihe.
+
+284
+00:25:23,000 --> 00:25:25,000
+ Und dann kommt die dritte Reihe.
+
+285
+00:25:25,000 --> 00:25:27,000
+ Und dann kommt die dritte Reihe.
+
+286
+00:25:27,000 --> 00:25:29,000
+ Und dann kommt die dritte Reihe.
+
+287
+00:25:29,000 --> 00:25:31,000
+ Und dann kommt die dritte Reihe.
+
+288
+00:25:31,000 --> 00:25:33,000
+ Und dann kommt die dritte Reihe.
+
+289
+00:25:33,000 --> 00:25:35,000
+ Und dann kommt die dritte Reihe.
+
+290
+00:25:35,000 --> 00:25:37,000
+ Und dann kommt die dritte Reihe.
+
+291
+00:25:37,000 --> 00:25:39,000
+ Und dann kommt die dritte Reihe.
+
+292
+00:25:39,000 --> 00:25:41,000
+ Und dann kommt die dritte Reihe.
+
+293
+00:25:41,000 --> 00:25:43,000
+ Und dann kommt die dritte Reihe.
+
+294
+00:25:43,000 --> 00:25:45,000
+ Und dann kommt die dritte Reihe.
+
+295
+00:25:45,000 --> 00:25:47,000
+ Und dann kommt die dritte Reihe.
+
+296
+00:25:47,000 --> 00:25:49,000
+ Und dann kommt die dritte Reihe.
+
+297
+00:25:49,000 --> 00:25:51,000
+ Und dann kommt die dritte Reihe.
+
+298
+00:25:51,000 --> 00:25:53,000
+ Und dann kommt die dritte Reihe.
+
+299
+00:25:53,000 --> 00:25:55,000
+ Und dann kommt die dritte Reihe.
+
+300
+00:25:55,000 --> 00:25:57,000
+ Und dann kommt die dritte Reihe.
+
+301
+00:25:57,000 --> 00:25:59,000
+ Und dann kommt die dritte Reihe.
+
+302
+00:25:59,000 --> 00:26:01,000
+ Und dann kommt die dritte Reihe.
+
+303
+00:26:01,000 --> 00:26:03,000
+ Und dann kommt die dritte Reihe.
+
+304
+00:26:03,000 --> 00:26:05,000
+ Und dann kommt die dritte Reihe.
+
+305
+00:26:05,000 --> 00:26:07,000
+ Und dann kommt die dritte Reihe.
+
+306
+00:26:07,000 --> 00:26:09,000
+ Und dann kommt die dritte Reihe.
+
+307
+00:26:09,000 --> 00:26:11,000
+ Und dann kommt die dritte Reihe.
+
+308
+00:26:11,000 --> 00:26:13,000
+ Und dann kommt die dritte Reihe.
+
+309
+00:26:13,000 --> 00:26:15,000
+ Und dann kommt die dritte Reihe.
+
+310
+00:26:15,000 --> 00:26:17,000
+ Und dann kommt die dritte Reihe.
+
+311
+00:26:17,000 --> 00:26:19,000
+ Und dann kommt die dritte Reihe.
+
+312
+00:26:19,000 --> 00:26:21,000
+ Und dann kommt die dritte Reihe.
+
+313
+00:26:21,000 --> 00:26:23,000
+ Und dann kommt die dritte Reihe.
+
+314
+00:26:23,000 --> 00:26:25,000
+ Und dann kommt die dritte Reihe.
+
+315
+00:26:25,000 --> 00:26:27,000
+ Und dann kommt die dritte Reihe.
+
+316
+00:26:27,000 --> 00:26:29,000
+ Und dann kommt die dritte Reihe.
+
+317
+00:26:29,000 --> 00:26:31,000
+ Und dann kommt die dritte Reihe.
+
+318
+00:26:31,000 --> 00:26:33,000
+ Und dann kommt die dritte Reihe.
+
+319
+00:26:33,000 --> 00:26:35,000
+ Und dann kommt die dritte Reihe.
+
+320
+00:26:35,000 --> 00:26:37,000
+ Und dann kommt die dritte Reihe.
+
+321
+00:26:37,000 --> 00:26:39,000
+ Und dann kommt die dritte Reihe.
+
+322
+00:26:39,000 --> 00:26:41,000
+ Und dann kommt die dritte Reihe.
+
+323
+00:26:41,000 --> 00:26:43,000
+ Und dann kommt die dritte Reihe.
+
+324
+00:26:43,000 --> 00:26:45,000
+ Und dann kommt die dritte Reihe.
+
+325
+00:26:45,000 --> 00:26:47,000
+ Und dann kommt die dritte Reihe.
+
+326
+00:26:47,000 --> 00:26:49,000
+ Und dann kommt die dritte Reihe.
+
+327
+00:26:49,000 --> 00:26:51,000
+ Und dann kommt die dritte Reihe.
+
+328
+00:26:51,000 --> 00:26:53,000
+ Und dann kommt die dritte Reihe.
+
+329
+00:26:53,000 --> 00:26:55,000
+ Und dann kommt die dritte Reihe.
+
+330
+00:26:55,000 --> 00:26:57,000
+ Und dann kommt die dritte Reihe.
+
+331
+00:26:57,000 --> 00:26:59,000
+ Und dann kommt die dritte Reihe.
+
+332
+00:26:59,000 --> 00:27:01,000
+ Und dann kommt die dritte Reihe.
+
+333
+00:27:01,000 --> 00:27:03,000
+ Und dann kommt die dritte Reihe.
+
+334
+00:27:03,000 --> 00:27:05,000
+ Und dann kommt die dritte Reihe.
+
+335
+00:27:05,000 --> 00:27:07,000
+ Und dann kommt die dritte Reihe.
+
+336
+00:27:07,000 --> 00:27:09,000
+ Und dann kommt die dritte Reihe.
+
+337
+00:27:09,000 --> 00:27:11,000
+ Und dann kommt die dritte Reihe.
+
+338
+00:27:11,000 --> 00:27:13,000
+ Und dann kommt die dritte Reihe.
+
+339
+00:27:13,000 --> 00:27:15,000
+ Und dann kommt die dritte Reihe.
+
+340
+00:27:15,000 --> 00:27:17,000
+ Und dann kommt die dritte Reihe.
+
+341
+00:27:17,000 --> 00:27:19,000
+ Und dann kommt die dritte Reihe.
+
+342
+00:27:19,000 --> 00:27:21,000
+ Und dann kommt die dritte Reihe.
+
+343
+00:27:21,000 --> 00:27:23,000
+ Und dann kommt die dritte Reihe.
+
+344
+00:27:23,000 --> 00:27:25,000
+ Und dann kommt die dritte Reihe.
+
+345
+00:27:25,000 --> 00:27:27,000
+ Und dann kommt die dritte Reihe.
+
+346
+00:27:27,000 --> 00:27:29,000
+ Und dann kommt die dritte Reihe.
+
+347
+00:27:29,000 --> 00:27:31,000
+ Und dann kommt die dritte Reihe.
+
+348
+00:27:31,000 --> 00:27:33,000
+ Und dann kommt die dritte Reihe.
+
+349
+00:27:33,000 --> 00:27:35,000
+ Und dann kommt die dritte Reihe.
+
+350
+00:27:35,000 --> 00:27:37,000
+ Und dann kommt die dritte Reihe.
+
+351
+00:27:37,000 --> 00:27:39,000
+ Und dann kommt die dritte Reihe.
+
+352
+00:27:39,000 --> 00:27:41,000
+ Und dann kommt die dritte Reihe.
+
+353
+00:27:41,000 --> 00:27:43,000
+ Und dann kommt die dritte Reihe.
+
+354
+00:27:43,000 --> 00:27:45,000
+ Und dann kommt die dritte Reihe.
+
+355
+00:27:45,000 --> 00:27:47,000
+ Und dann kommt die dritte Reihe.
+
+356
+00:27:47,000 --> 00:27:49,000
+ Und dann kommt die dritte Reihe.
+
+357
+00:27:49,000 --> 00:27:51,000
+ Und dann kommt die dritte Reihe.
+
+358
+00:27:51,000 --> 00:27:53,000
+ Und dann kommt die dritte Reihe.
+
+359
+00:27:53,000 --> 00:27:55,000
+ Und dann kommt die dritte Reihe.
+
+360
+00:27:55,000 --> 00:27:57,000
+ Und dann kommt die dritte Reihe.
+
+361
+00:27:57,000 --> 00:27:59,000
+ Und dann kommt die dritte Reihe.
+
+362
+00:27:59,000 --> 00:28:01,000
+ Und dann kommt die dritte Reihe.
+
+363
+00:28:01,000 --> 00:28:03,000
+ Und dann kommt die dritte Reihe.
+
+364
+00:28:03,000 --> 00:28:05,000
+ Und dann kommt die dritte Reihe.
+
+365
+00:28:05,000 --> 00:28:07,000
+ Und dann kommt die dritte Reihe.
+
+366
+00:28:07,000 --> 00:28:09,000
+ Und dann kommt die dritte Reihe.
+
+367
+00:28:09,000 --> 00:28:11,000
+ Und dann kommt die dritte Reihe.
+
+368
+00:28:11,000 --> 00:28:13,000
+ Und dann kommt die dritte Reihe.
+
+369
+00:28:13,000 --> 00:28:15,000
+ Und dann kommt die dritte Reihe.
+
+370
+00:28:15,000 --> 00:28:17,000
+ Und dann kommt die dritte Reihe.
+
+371
+00:28:17,000 --> 00:28:19,000
+ Und dann kommt die dritte Reihe.
+
+372
+00:28:19,000 --> 00:28:21,000
+ Und dann kommt die dritte Reihe.
+
+373
+00:28:21,000 --> 00:28:23,000
+ Und dann kommt die dritte Reihe.
+
+374
+00:28:23,000 --> 00:28:25,000
+ Und dann kommt die dritte Reihe.
+
+375
+00:28:25,000 --> 00:28:27,000
+ Und dann kommt die dritte Reihe.
+
+376
+00:28:27,000 --> 00:28:29,000
+ Und dann kommt die dritte Reihe.
+
+377
+00:28:29,000 --> 00:28:31,000
+ Und dann kommt die dritte Reihe.
+
+378
+00:28:31,000 --> 00:28:33,000
+ Und dann kommt die dritte Reihe.
+
+379
+00:28:33,000 --> 00:28:35,000
+ Und dann kommt die dritte Reihe.
+
+380
+00:28:35,000 --> 00:28:37,000
+ Und dann kommt die dritte Reihe.
+
+381
+00:28:37,000 --> 00:28:39,000
+ Und dann kommt die dritte Reihe.
+
+382
+00:28:39,000 --> 00:28:41,000
+ Und dann kommt die dritte Reihe.
+
+383
+00:28:41,000 --> 00:28:43,000
+ Und dann kommt die dritte Reihe.
+
+384
+00:28:43,000 --> 00:28:45,000
+ Und dann kommt die dritte Reihe.
+
+385
+00:28:45,000 --> 00:28:47,000
+ Und dann kommt die dritte Reihe.
+
+386
+00:28:47,000 --> 00:28:49,000
+ Und dann kommt die dritte Reihe.
+
+387
+00:28:49,000 --> 00:28:51,000
+ Und dann kommt die dritte Reihe.
+
+388
+00:28:51,000 --> 00:28:53,000
+ Und dann kommt die dritte Reihe.
+
+389
+00:28:53,000 --> 00:28:55,000
+ Und dann kommt die dritte Reihe.
+
+390
+00:28:55,000 --> 00:28:57,000
+ Und dann kommt die dritte Reihe.
+
+391
+00:28:57,000 --> 00:28:59,000
+ Und dann kommt die dritte Reihe.
+
+392
+00:28:59,000 --> 00:29:01,000
+ Und dann kommt die dritte Reihe.
+
+393
+00:29:01,000 --> 00:29:03,000
+ Und dann kommt die dritte Reihe.
+
+394
+00:29:03,000 --> 00:29:05,000
+ Und dann kommt die dritte Reihe.
+
+395
+00:29:05,000 --> 00:29:07,000
+ Und dann kommt die dritte Reihe.
+
+396
+00:29:07,000 --> 00:29:09,000
+ Und dann kommt die dritte Reihe.
+
+397
+00:29:09,000 --> 00:29:11,000
+ Und dann kommt die dritte Reihe.
+
+398
+00:29:11,000 --> 00:29:13,000
+ Und dann kommt die dritte Reihe.
+
+399
+00:29:13,000 --> 00:29:15,000
+ Und dann kommt die dritte Reihe.
+
+400
+00:29:15,000 --> 00:29:17,000
+ Und dann kommt die dritte Reihe.
+
+401
+00:29:17,000 --> 00:29:19,000
+ Und dann kommt die dritte Reihe.
+
+402
+00:29:19,000 --> 00:29:21,000
+ Und dann kommt die dritte Reihe.
+
+403
+00:29:21,000 --> 00:29:23,000
+ Und dann kommt die dritte Reihe.
+
+404
+00:29:23,000 --> 00:29:25,000
+ Und dann kommt die dritte Reihe.
+
+405
+00:29:25,000 --> 00:29:27,000
+ Und dann kommt die dritte Reihe.
+
+406
+00:29:27,000 --> 00:29:29,000
+ Und dann kommt die dritte Reihe.
+
+407
+00:29:29,000 --> 00:29:31,000
+ Und dann kommt die dritte Reihe.
+
+408
+00:29:31,000 --> 00:29:33,000
+ Und dann kommt die dritte Reihe.
+
+409
+00:29:33,000 --> 00:29:35,000
+ Und dann kommt die dritte Reihe.
+
+410
+00:29:35,000 --> 00:29:37,000
+ Und dann kommt die dritte Reihe.
+
+411
+00:29:37,000 --> 00:29:39,000
+ Und dann kommt die dritte Reihe.
+
+412
+00:29:39,000 --> 00:29:41,000
+ Und dann kommt die dritte Reihe.
+
+413
+00:29:41,000 --> 00:29:43,000
+ Und dann kommt die dritte Reihe.
+
+414
+00:29:43,000 --> 00:29:45,000
+ Und dann kommt die dritte Reihe.
+
+415
+00:29:45,000 --> 00:29:47,000
+ Und dann kommt die dritte Reihe.
+
+416
+00:29:47,000 --> 00:29:49,000
+ Und dann kommt die dritte Reihe.
+
+417
+00:29:49,000 --> 00:29:51,000
+ Und dann kommt die dritte Reihe.
+
+418
+00:29:51,000 --> 00:29:53,000
+ Und dann kommt die dritte Reihe.
+
+419
+00:29:53,000 --> 00:29:55,000
+ Und dann kommt die dritte Reihe.
+
+420
+00:29:55,000 --> 00:29:57,000
+ Und dann kommt die dritte Reihe.
+
+421
+00:29:57,000 --> 00:29:59,000
+ Und dann kommt die dritte Reihe.
+
+422
+00:29:59,000 --> 00:30:01,000
+ Und dann kommt die dritte Reihe.
+
+423
+00:30:01,000 --> 00:30:03,000
+ Und dann kommt die dritte Reihe.
+
+424
+00:30:03,000 --> 00:30:05,000
+ Und dann kommt die dritte Reihe.
+
+425
+00:30:05,000 --> 00:30:07,000
+ Und dann kommt die dritte Reihe.
+
+426
+00:30:07,000 --> 00:30:09,000
+ Und dann kommt die dritte Reihe.
+
+427
+00:30:09,000 --> 00:30:11,000
+ Und dann kommt die dritte Reihe.
+
+428
+00:30:11,000 --> 00:30:13,000
+ Und dann kommt die dritte Reihe.
+
+429
+00:30:13,000 --> 00:30:15,000
+ Und dann kommt die dritte Reihe.
+
+430
+00:30:15,000 --> 00:30:17,000
+ Und dann kommt die dritte Reihe.
+
+431
+00:30:17,000 --> 00:30:19,000
+ Und dann kommt die dritte Reihe.
+
+432
+00:30:19,000 --> 00:30:21,000
+ Und dann kommt die dritte Reihe.
+
+433
+00:30:21,000 --> 00:30:23,000
+ Und dann kommt die dritte Reihe.
+
+434
+00:30:23,000 --> 00:30:25,000
+ Und dann kommt die dritte Reihe.
+
+435
+00:30:25,000 --> 00:30:27,000
+ Und dann kommt die dritte Reihe.
+
+436
+00:30:27,000 --> 00:30:29,000
+ Und dann kommt die dritte Reihe.
+
+437
+00:30:29,000 --> 00:30:31,000
+ Und dann kommt die dritte Reihe.
+
+438
+00:30:31,000 --> 00:30:33,000
+ Und dann kommt die dritte Reihe.
+
+439
+00:30:33,000 --> 00:30:35,000
+ Und dann kommt die dritte Reihe.
+
+440
+00:30:35,000 --> 00:30:37,000
+ Und dann kommt die dritte Reihe.
+
+441
+00:30:37,000 --> 00:30:39,000
+ Und dann kommt die dritte Reihe.
+
+442
+00:30:39,000 --> 00:30:41,000
+ Und dann kommt die dritte Reihe.
+
+443
+00:30:41,000 --> 00:30:43,000
+ Und dann kommt die dritte Reihe.
+
+444
+00:30:43,000 --> 00:30:45,000
+ Und dann kommt die dritte Reihe.
+
+445
+00:30:45,000 --> 00:30:47,000
+ Und dann kommt die dritte Reihe.
+
+446
+00:30:47,000 --> 00:30:49,000
+ Und dann kommt die dritte Reihe.
+
+447
+00:30:49,000 --> 00:30:51,000
+ Und dann kommt die dritte Reihe.
+
+448
+00:30:51,000 --> 00:30:53,000
+ Und dann kommt die dritte Reihe.
+
+449
+00:30:53,000 --> 00:30:55,000
+ Und dann kommt die dritte Reihe.
+
+450
+00:30:55,000 --> 00:30:57,000
+ Und dann kommt die dritte Reihe.
+
+451
+00:30:57,000 --> 00:30:59,000
+ Und dann kommt die dritte Reihe.
+
+452
+00:30:59,000 --> 00:31:01,000
+ Und dann kommt die dritte Reihe.
+
+453
+00:31:01,000 --> 00:31:03,000
+ Und dann kommt die dritte Reihe.
+
+454
+00:31:03,000 --> 00:31:05,000
+ Und dann kommt die dritte Reihe.
+
+455
+00:31:05,000 --> 00:31:07,000
+ Und dann kommt die dritte Reihe.
+
+456
+00:31:07,000 --> 00:31:09,000
+ Und dann kommt die dritte Reihe.
+
+457
+00:31:09,000 --> 00:31:11,000
+ Und dann kommt die dritte Reihe.
+
+458
+00:31:11,000 --> 00:31:13,000
+ Und dann kommt die dritte Reihe.
+
+459
+00:31:13,000 --> 00:31:15,000
+ Und dann kommt die dritte Reihe.
+
+460
+00:31:15,000 --> 00:31:17,000
+ Und dann kommt die dritte Reihe.
+
+461
+00:31:17,000 --> 00:31:19,000
+ Und dann kommt die dritte Reihe.
+
+462
+00:31:19,000 --> 00:31:21,000
+ Und dann kommt die dritte Reihe.
+
+463
+00:31:21,000 --> 00:31:23,000
+ Und dann kommt die dritte Reihe.
+
+464
+00:31:23,000 --> 00:31:25,000
+ Und dann kommt die dritte Reihe.
+
+465
+00:31:25,000 --> 00:31:27,000
+ Und dann kommt die dritte Reihe.
+
+466
+00:31:27,000 --> 00:31:29,000
+ Und dann kommt die dritte Reihe.
+
+467
+00:31:29,000 --> 00:31:31,000
+ Und dann kommt die dritte Reihe.
+
+468
+00:31:31,000 --> 00:31:33,000
+ Und dann kommt die dritte Reihe.
+
+469
+00:31:33,000 --> 00:31:35,000
+ Und dann kommt die dritte Reihe.
+
+470
+00:31:35,000 --> 00:31:37,000
+ Und dann kommt die dritte Reihe.
+
+471
+00:31:37,000 --> 00:31:39,000
+ Und dann kommt die dritte Reihe.
+
+472
+00:31:39,000 --> 00:31:41,000
+ Und dann kommt die dritte Reihe.
+
+473
+00:31:41,000 --> 00:31:43,000
+ Und dann kommt die dritte Reihe.
+
+474
+00:31:43,000 --> 00:31:45,000
+ Und dann kommt die dritte Reihe.
+
+475
+00:31:45,000 --> 00:31:47,000
+ Und dann kommt die dritte Reihe.
+
+476
+00:31:47,000 --> 00:31:49,000
+ Und dann kommt die dritte Reihe.
+
+477
+00:31:49,000 --> 00:31:51,000
+ Und dann kommt die dritte Reihe.
+
+478
+00:31:51,000 --> 00:31:53,000
+ Und dann kommt die dritte Reihe.
+
+479
+00:31:53,000 --> 00:31:55,000
+ Und dann kommt die dritte Reihe.
+
+480
+00:31:55,000 --> 00:31:57,000
+ Und dann kommt die dritte Reihe.
+
+481
+00:31:57,000 --> 00:31:59,000
+ Und dann kommt die dritte Reihe.
+
+482
+00:31:59,000 --> 00:32:01,000
+ Und dann kommt die dritte Reihe.
+
+483
+00:32:01,000 --> 00:32:03,000
+ Und dann kommt die dritte Reihe.
+
+484
+00:32:03,000 --> 00:32:05,000
+ Und dann kommt die dritte Reihe.
+
+485
+00:32:05,000 --> 00:32:07,000
+ Und dann kommt die dritte Reihe.
+
+486
+00:32:07,000 --> 00:32:09,000
+ Und dann kommt die dritte Reihe.
+
+487
+00:32:09,000 --> 00:32:11,000
+ Und dann kommt die dritte Reihe.
+
+488
+00:32:11,000 --> 00:32:13,000
+ Und dann kommt die dritte Reihe.
+
+489
+00:32:13,000 --> 00:32:15,000
+ Und dann kommt die dritte Reihe.
+
+490
+00:32:15,000 --> 00:32:17,000
+ Und dann kommt die dritte Reihe.
+
+491
+00:32:17,000 --> 00:32:19,000
+ Und dann kommt die dritte Reihe.
+
+492
+00:32:19,000 --> 00:32:21,000
+ Und dann kommt die dritte Reihe.
+
+493
+00:32:21,000 --> 00:32:23,000
+ Und dann kommt die dritte Reihe.
+
+494
+00:32:23,000 --> 00:32:25,000
+ Und dann kommt die dritte Reihe.
+
+495
+00:32:25,000 --> 00:32:27,000
+ Und dann kommt die dritte Reihe.
+
+496
+00:32:27,000 --> 00:32:29,000
+ Und dann kommt die dritte Reihe.
+
+497
+00:32:29,000 --> 00:32:31,000
+ Und dann kommt die dritte Reihe.
+
+498
+00:32:31,000 --> 00:32:33,000
+ Und dann kommt die dritte Reihe.
+
+499
+00:32:33,000 --> 00:32:35,000
+ Und dann kommt die dritte Reihe.
+
+500
+00:32:35,000 --> 00:32:37,000
+ Und dann kommt die dritte Reihe.
+
+501
+00:32:37,000 --> 00:32:39,000
+ Und dann kommt die dritte Reihe.
+
+502
+00:32:39,000 --> 00:32:41,000
+ Und dann kommt die dritte Reihe.
+
+503
+00:32:41,000 --> 00:32:43,000
+ Und dann kommt die dritte Reihe.
+
+504
+00:32:43,000 --> 00:32:45,000
+ Und dann kommt die dritte Reihe.
+
+505
+00:32:45,000 --> 00:32:47,000
+ Und dann kommt die dritte Reihe.
+
+506
+00:32:47,000 --> 00:32:49,000
+ Und dann kommt die dritte Reihe.
+
+507
+00:32:49,000 --> 00:32:51,000
+ Und dann kommt die dritte Reihe.
+
+508
+00:32:51,000 --> 00:32:53,000
+ Und dann kommt die dritte Reihe.
+
+509
+00:32:53,000 --> 00:32:55,000
+ Und dann kommt die dritte Reihe.
+
+510
+00:32:55,000 --> 00:32:57,000
+ Und dann kommt die dritte Reihe.
+
+511
+00:32:57,000 --> 00:32:59,000
+ Und dann kommt die dritte Reihe.
+
+512
+00:32:59,000 --> 00:33:01,000
+ Und dann kommt die dritte Reihe.
+
+513
+00:33:01,000 --> 00:33:03,000
+ Und dann kommt die dritte Reihe.
+
+514
+00:33:03,000 --> 00:33:05,000
+ Und dann kommt die dritte Reihe.
+
+515
+00:33:05,000 --> 00:33:07,000
+ Und dann kommt die dritte Reihe.
+
+516
+00:33:07,000 --> 00:33:09,000
+ Und dann kommt die dritte Reihe.
+
+517
+00:33:09,000 --> 00:33:11,000
+ Und dann kommt die dritte Reihe.
+
+518
+00:33:11,000 --> 00:33:13,000
+ Und dann kommt die dritte Reihe.
+
+519
+00:33:13,000 --> 00:33:15,000
+ Und dann kommt die dritte Reihe.
+
+520
+00:33:15,000 --> 00:33:17,000
+ Und dann kommt die dritte Reihe.
+
+521
+00:33:17,000 --> 00:33:19,000
+ Und dann kommt die dritte Reihe.
+
+522
+00:33:19,000 --> 00:33:21,000
+ Und dann kommt die dritte Reihe.
+
+523
+00:33:21,000 --> 00:33:23,000
+ Und dann kommt die dritte Reihe.
+
+524
+00:33:23,000 --> 00:33:25,000
+ Und dann kommt die dritte Reihe.
+
+525
+00:33:25,000 --> 00:33:27,000
+ Und dann kommt die dritte Reihe.
+
+526
+00:33:27,000 --> 00:33:29,000
+ Und dann kommt die dritte Reihe.
+
+527
+00:33:29,000 --> 00:33:31,000
+ Und dann kommt die dritte Reihe.
+
+528
+00:33:31,000 --> 00:33:33,000
+ Und dann kommt die dritte Reihe.
+
+529
+00:33:33,000 --> 00:33:35,000
+ Und dann kommt die dritte Reihe.
+
+530
+00:33:35,000 --> 00:33:37,000
+ Und dann kommt die dritte Reihe.
+
+531
+00:33:37,000 --> 00:33:39,000
+ Und dann kommt die dritte Reihe.
+
+532
+00:33:39,000 --> 00:33:41,000
+ Und dann kommt die dritte Reihe.
+
+533
+00:33:41,000 --> 00:33:43,000
+ Und dann kommt die dritte Reihe.
+
+534
+00:33:43,000 --> 00:33:45,000
+ Und dann kommt die dritte Reihe.
+
+535
+00:33:45,000 --> 00:33:47,000
+ Und dann kommt die dritte Reihe.
+
+536
+00:33:47,000 --> 00:33:49,000
+ Und dann kommt die dritte Reihe.
+
+537
+00:33:49,000 --> 00:33:51,000
+ Und dann kommt die dritte Reihe.
+
+538
+00:33:51,000 --> 00:33:53,000
+ Und dann kommt die dritte Reihe.
+
+539
+00:33:53,000 --> 00:33:55,000
+ Und dann kommt die dritte Reihe.
+
+540
+00:33:55,000 --> 00:33:57,000
+ Und dann kommt die dritte Reihe.
+
+541
+00:33:57,000 --> 00:33:59,000
+ Und dann kommt die dritte Reihe.
+
+542
+00:33:59,000 --> 00:34:01,000
+ Und dann kommt die dritte Reihe.
+
+543
+00:34:01,000 --> 00:34:03,000
+ Und dann kommt die dritte Reihe.
+
+544
+00:34:03,000 --> 00:34:05,000
+ Und dann kommt die dritte Reihe.
+
+545
+00:34:05,000 --> 00:34:07,000
+ Und dann kommt die dritte Reihe.
+
+546
+00:34:07,000 --> 00:34:09,000
+ Und dann kommt die dritte Reihe.
+
+547
+00:34:09,000 --> 00:34:11,000
+ Und dann kommt die dritte Reihe.
+
+548
+00:34:11,000 --> 00:34:13,000
+ Und dann kommt die dritte Reihe.
+
+549
+00:34:13,000 --> 00:34:15,000
+ Und dann kommt die dritte Reihe.
+
+550
+00:34:15,000 --> 00:34:17,000
+ Und dann kommt die dritte Reihe.
+
+551
+00:34:17,000 --> 00:34:19,000
+ Und dann kommt die dritte Reihe.
+
+552
+00:34:19,000 --> 00:34:21,000
+ Und dann kommt die dritte Reihe.
+
+553
+00:34:21,000 --> 00:34:23,000
+ Und dann kommt die dritte Reihe.
+
+554
+00:34:23,000 --> 00:34:25,000
+ Und dann kommt die dritte Reihe.
+
+555
+00:34:25,000 --> 00:34:27,000
+ Und dann kommt die dritte Reihe.
+
+556
+00:34:27,000 --> 00:34:29,000
+ Und dann kommt die dritte Reihe.
+
+557
+00:34:29,000 --> 00:34:31,000
+ Und dann kommt die dritte Reihe.
+
+558
+00:34:31,000 --> 00:34:33,000
+ Und dann kommt die dritte Reihe.
+
+559
+00:34:33,000 --> 00:34:35,000
+ Und dann kommt die dritte Reihe.
+
+560
+00:34:35,000 --> 00:34:37,000
+ Und dann kommt die dritte Reihe.
+
+561
+00:34:37,000 --> 00:34:39,000
+ Und dann kommt die dritte Reihe.
+
+562
+00:34:39,000 --> 00:34:41,000
+ Und dann kommt die dritte Reihe.
+
+563
+00:34:41,000 --> 00:34:43,000
+ Und dann kommt die dritte Reihe.
+
+564
+00:34:43,000 --> 00:34:45,000
+ Und dann kommt die dritte Reihe.
+
+565
+00:34:45,000 --> 00:34:47,000
+ Und dann kommt die dritte Reihe.
+
+566
+00:34:47,000 --> 00:34:49,000
+ Und dann kommt die dritte Reihe.
+
+567
+00:34:49,000 --> 00:34:51,000
+ Und dann kommt die dritte Reihe.
+
+568
+00:34:51,000 --> 00:34:53,000
+ Und dann kommt die dritte Reihe.
+
+569
+00:34:53,000 --> 00:34:55,000
+ Und dann kommt die dritte Reihe.
+
+570
+00:34:55,000 --> 00:34:57,000
+ Und dann kommt die dritte Reihe.
+
+571
+00:34:57,000 --> 00:34:59,000
+ Und dann kommt die dritte Reihe.
+
+572
+00:34:59,000 --> 00:35:01,000
+ Und dann kommt die dritte Reihe.
+
+573
+00:35:01,000 --> 00:35:03,000
+ Und dann kommt die dritte Reihe.
+
+574
+00:35:03,000 --> 00:35:05,000
+ Und dann kommt die dritte Reihe.
+
+575
+00:35:05,000 --> 00:35:07,000
+ Und dann kommt die dritte Reihe.
+
+576
+00:35:07,000 --> 00:35:09,000
+ Und dann kommt die dritte Reihe.
+
+577
+00:35:09,000 --> 00:35:11,000
+ Und dann kommt die dritte Reihe.
+
+578
+00:35:11,000 --> 00:35:13,000
+ Und dann kommt die dritte Reihe.
+
+579
+00:35:13,000 --> 00:35:15,000
+ Und dann kommt die dritte Reihe.
+
+580
+00:35:15,000 --> 00:35:17,000
+ Und dann kommt die dritte Reihe.
+
+581
+00:35:17,000 --> 00:35:19,000
+ Und dann kommt die dritte Reihe.
+
+582
+00:35:19,000 --> 00:35:21,000
+ Und dieses Blei hört man ja öfter mal,
+
+583
+00:35:21,000 --> 00:35:23,000
+ das ist nicht mehr ganz so gesund.
+
+584
+00:35:23,000 --> 00:35:27,000
+ Offiziell verwendet ihr das alle nicht mehr zum Löten.
+
+585
+00:35:27,000 --> 00:35:29,000
+ Offiziell verwendet ihr das alle nicht mehr zum Löten.
+
+586
+00:35:29,000 --> 00:35:31,000
+ Genau.
+
+587
+00:35:31,000 --> 00:35:33,000
+ Ach so, ihr müsst es ja auch noch sehen.
+
+588
+00:35:33,000 --> 00:35:35,000
+ Ja, aber wir haben uns gedacht,
+
+589
+00:35:35,000 --> 00:35:37,000
+ was gibt es Besseres und Sichereres
+
+590
+00:35:37,000 --> 00:35:39,000
+ als entsprechendes Heißklebergießen?
+
+591
+00:35:39,000 --> 00:35:43,000
+ Hat jemand einen Campingkocher?
+
+592
+00:35:43,000 --> 00:35:47,000
+ Wenn nicht, müssen wir uns das einfallen lassen.
+
+593
+00:35:47,000 --> 00:35:49,000
+ Aber das kriegen wir auch irgendwie hin.
+
+594
+00:35:49,000 --> 00:35:53,000
+ Im Zweifel wieder unser improvisierter Heißluftfön.
+
+595
+00:35:53,000 --> 00:35:59,000
+ Also wie gesagt, Heißkleber, 200 Grad Umluft, funktioniert super.
+
+596
+00:35:59,000 --> 00:36:01,000
+ Haben wir nur hier leider nicht.
+
+597
+00:36:01,000 --> 00:36:03,000
+ Ach, wir müssen den klein schneiden.
+
+598
+00:36:03,000 --> 00:36:05,000
+ Oh je.
+
+599
+00:36:05,000 --> 00:36:07,000
+ Ich habe keine Schnittschutzhose an, ich gehe zur Seite.
+
+600
+00:36:07,000 --> 00:36:13,000
+ Also bei so etwas da bin ich, das muss man ernst nehmen.
+
+601
+00:36:13,000 --> 00:36:17,000
+ Ich habe ein bisschen Sorge, was als nächstes kommt.
+
+602
+00:36:17,000 --> 00:36:19,000
+ Ein Spülbauergerät für eine Glaswasserverlegung?
+
+603
+00:36:19,000 --> 00:36:27,000
+ Also wenn ihr noch Fasern bei euch daheim, wir machen auch Hausbesuche,
+
+604
+00:36:27,000 --> 00:36:35,000
+ wenn ihr noch eine Faser oder so etwas zum Nachbarn oder auf die andere Straßenseite oder zur Telekom aus Grundstück,
+
+605
+00:36:35,000 --> 00:36:39,000
+ sag Bescheid, wir machen Hausbesuche, wir machen alles möglich.
+
+606
+00:36:39,000 --> 00:36:45,000
+ Ihr müsst natürlich nur entsprechend auch uns ein bisschen, ein neuer Feuerlöscher wäre gut,
+
+607
+00:36:45,000 --> 00:36:47,000
+ Mate wäre gut.
+
+608
+00:36:47,000 --> 00:36:49,000
+ Apropos Mate, kann da mal jemand was organisieren?
+
+609
+00:36:49,000 --> 00:36:51,000
+ Ich habe da mal was vorbereitet.
+
+610
+00:36:51,000 --> 00:36:57,000
+ Aber die gute Mate, wir gießen jetzt nicht den Heißkleber in die gute Mate, sowas macht man nicht.
+
+611
+00:36:57,000 --> 00:36:59,000
+ Oder nur mit Club-Mate.
+
+612
+00:36:59,000 --> 00:37:05,000
+ So, wir nehmen mal provisorisch, würde ich sagen, wieder unseren guten Löffel.
+
+613
+00:37:05,000 --> 00:37:11,000
+ Den Heißluftpföhn, ich glaube, wir sollten uns noch ein bisschen klein schneiden.
+
+614
+00:37:11,000 --> 00:37:13,000
+ Und wir brauchen noch einen Behälter.
+
+615
+00:37:13,000 --> 00:37:15,000
+ Ne, ne, das funktioniert, das funktioniert super.
+
+616
+00:37:15,000 --> 00:37:17,000
+ Und unser Wasser steht doch auch da.
+
+617
+00:37:17,000 --> 00:37:19,000
+ Ja, aber wir müssen es hier vom Löffel reingießen.
+
+618
+00:37:19,000 --> 00:37:21,000
+ Ja, das funktioniert.
+
+619
+00:37:21,000 --> 00:37:23,000
+ Das ist übrigens der einzige Versuch, den wir vorher getestet haben.
+
+620
+00:37:23,000 --> 00:37:25,000
+ Haben wir? Okay.
+
+621
+00:37:25,000 --> 00:37:27,000
+ Also, habe ich gehört.
+
+622
+00:37:27,000 --> 00:37:31,000
+ Das Zert wickelt das so liebevoll auf.
+
+623
+00:37:31,000 --> 00:37:33,000
+ Vielen Dank.
+
+624
+00:37:33,000 --> 00:37:35,000
+ Ich hoffe, dass ihr da seid. Applaus fürs Zert.
+
+625
+00:37:35,000 --> 00:37:47,000
+ So, das ist übrigens auch schon von der Lichttechnik so abgenommen.
+
+626
+00:37:47,000 --> 00:37:49,000
+ Mit dem Strom, C3 Power, wie gesagt.
+
+627
+00:37:49,000 --> 00:37:51,000
+ Grüße gehen raus.
+
+628
+00:37:51,000 --> 00:37:55,000
+ Ich hoffe mal, ihr könnt das sehen.
+
+629
+00:37:55,000 --> 00:37:57,000
+ Kann man das sehen?
+
+630
+00:37:59,000 --> 00:38:03,000
+ Ja, Mangels Backofen, machen wir jetzt die Umluft selber.
+
+631
+00:38:03,000 --> 00:38:07,000
+ Also, der Tobi hätte wirklich den Backofen hier mit her schicken können.
+
+632
+00:38:07,000 --> 00:38:11,000
+ Ja, genau. Warum ist der Backofen nicht mit dem LKW gewesen?
+
+633
+00:38:11,000 --> 00:38:15,000
+ Das hätte so viel einfacher gemacht.
+
+634
+00:38:15,000 --> 00:38:21,000
+ Der ist nicht vorne mitgefahren?
+
+635
+00:38:21,000 --> 00:38:25,000
+ Ah, okay, sehr gut.
+
+636
+00:38:25,000 --> 00:38:37,000
+ Also, wir haben noch die Option mit der Kreissäge kleinschneiden in handliche Stücke und dann im Löffel.
+
+637
+00:38:37,000 --> 00:38:39,000
+ Nee, das ist nicht nötig. Das kriegen wir schon hin.
+
+638
+00:38:39,000 --> 00:38:43,000
+ Also, ihr seht schon da unten, dass das schmilzt.
+
+639
+00:38:43,000 --> 00:38:45,000
+ Und das ist sehr gut.
+
+640
+00:38:45,000 --> 00:38:51,000
+ Um euch mal ein Gefühl dafür zu geben, wie es hier ist, langsam bin ich mir nicht mehr sicher, ob der Nebel noch alles von der Nebelmaschine kommt.
+
+641
+00:38:51,000 --> 00:38:55,000
+ Ich bin mir da ziemlich sicher, dass das alles aus dem Topf kommt.
+
+642
+00:38:55,000 --> 00:39:07,000
+ Kommt jetzt schon wieder ein Gewitter? Oder was ist hier los?
+
+643
+00:39:07,000 --> 00:39:15,000
+ Ich hab die ZIP-Datei von dieser Premium Windows Software kurz vor Beginn des Talks mit dem Rest hier von reparieren dürfen.
+
+644
+00:39:15,000 --> 00:39:17,000
+ Seit wann kann man denn Dateien heißkleben?
+
+645
+00:39:17,000 --> 00:39:23,000
+ Das hätte ich in meinen vorherigen Talk einbauen sollen. Das ist eine super Idee.
+
+646
+00:39:23,000 --> 00:39:31,000
+ Genau, aber wir sehen, der heißt lieber so langsam, er versucht noch mit so einem Streifen, mach mal kurz zur Seite hier, das sieht man schön.
+
+647
+00:39:31,000 --> 00:39:35,000
+ Er versucht innen noch seine Konsistenz zu behalten, aber eigentlich hat er schon quasi aufgegeben.
+
+648
+00:39:35,000 --> 00:39:37,000
+ Da unten, das sieht gut aus.
+
+649
+00:39:37,000 --> 00:39:39,000
+ Und fließt in die neue Chaos-Periode.
+
+650
+00:39:39,000 --> 00:39:45,000
+ Ja, also das Schöne ist natürlich, der fließt jetzt in die neue Jahresperiode und wird dabei klar.
+
+651
+00:39:45,000 --> 00:39:52,000
+ Also das ist ja auch beim Wahrsagen immer eine ganz gute Sache, die Kugel, das wird klar, wenn man gute und saubere Vorhersagen treffen kann.
+
+652
+00:39:52,000 --> 00:39:56,000
+ So warte mal, wir haben doch hier gutes Equipment, dachte ich.
+
+653
+00:39:56,000 --> 00:39:57,000
+ Dachtest du, wirklich?
+
+654
+00:39:57,000 --> 00:39:58,000
+ Ja.
+
+655
+00:39:58,000 --> 00:39:59,000
+ Okay.
+
+656
+00:39:59,000 --> 00:40:03,000
+ Irgendwann dachte ich mir mal, ich will einen Thermometer haben und bin mal auf AliExpress ausgerutscht.
+
+657
+00:40:03,000 --> 00:40:05,000
+ Was sagt der Luftstrom?
+
+658
+00:40:05,000 --> 00:40:08,000
+ 24,3, das kommt mir irgendwie falsch vor.
+
+659
+00:40:08,000 --> 00:40:11,000
+ Du musst das da rein schenken, das ist ein Braten-Thermometer.
+
+660
+00:40:11,000 --> 00:40:13,000
+ Ja, also...
+
+661
+00:40:13,000 --> 00:40:15,000
+ Das müssen wir irgendwie später machen.
+
+662
+00:40:15,000 --> 00:40:19,000
+ Das ist ja auch Umluft und nicht, das ist kein Braten, das funktioniert nicht.
+
+663
+00:40:19,000 --> 00:40:22,000
+ Okay.
+
+664
+00:40:22,000 --> 00:40:24,000
+ Also ich hab gehört, Jaden kocht morgen hier.
+
+665
+00:40:24,000 --> 00:40:28,000
+ Ja, also wer Heißkleber auflaufen möchte, gerne.
+
+666
+00:40:28,000 --> 00:40:31,000
+ Aber wir gucken mal, ob das funktioniert.
+
+667
+00:40:31,000 --> 00:40:33,000
+ Gebt das mal wieder in sichere Hände.
+
+668
+00:40:33,000 --> 00:40:36,000
+ Warte mal, ich glaube wir müssen hier gleich nochmal.
+
+669
+00:40:36,000 --> 00:40:38,000
+ Das ist noch so zähflüssig, das muss richtig flüssig sein.
+
+670
+00:40:38,000 --> 00:40:42,000
+ Das passt, das passt.
+
+671
+00:40:42,000 --> 00:40:45,000
+ Wir müssen da nur genug nehmen, dass da auch die Zukunft gut...
+
+672
+00:40:45,000 --> 00:40:46,000
+ Hast du noch einen Löffel oder so?
+
+673
+00:40:46,000 --> 00:40:48,000
+ Ne, ich hab leider nur den Löffel.
+
+674
+00:40:48,000 --> 00:40:49,000
+ Hat noch einen Löffel?
+
+675
+00:40:49,000 --> 00:40:53,000
+ Aber wir wollen das ja eigentlich in das Wasser tropfen lassen.
+
+676
+00:40:53,000 --> 00:40:58,000
+ Ich glaub das müssen wir...
+
+677
+00:40:58,000 --> 00:41:00,000
+ Warte mal, probieren wir das nochmal.
+
+678
+00:41:00,000 --> 00:41:05,000
+ Also das neue Jahr klebt irgendwie sehr stark am Alten.
+
+679
+00:41:07,000 --> 00:41:08,000
+ Und zieht Fäden.
+
+680
+00:41:08,000 --> 00:41:10,000
+ Ja, ja, ja, ja, wuhuu!
+
+681
+00:41:10,000 --> 00:41:12,000
+ Möchte noch jemand häkeln?
+
+682
+00:41:12,000 --> 00:41:15,000
+ Wir würden dann hier den Rest da rausgeben und noch ne Rolle aufhängen.
+
+683
+00:41:15,000 --> 00:41:16,000
+ Genau.
+
+684
+00:41:16,000 --> 00:41:22,000
+ Natürlich, wir sind ja hier, so.
+
+685
+00:41:22,000 --> 00:41:25,000
+ Hat jemand eine Idee, was das bedeuten könnte?
+
+686
+00:41:25,000 --> 00:41:27,000
+ Oh ja, dann können wir uns hier bei...
+
+687
+00:41:27,000 --> 00:41:29,000
+ Wir zeigen euch das jetzt mal gleich hier.
+
+688
+00:41:29,000 --> 00:41:31,000
+ Sieht man's gut?
+
+689
+00:41:31,000 --> 00:41:33,000
+ Könnte ne Brezel sein.
+
+690
+00:41:33,000 --> 00:41:35,000
+ Genau, also wir versteigern dieses Kunstwerk jetzt hier
+
+691
+00:41:35,000 --> 00:41:37,000
+ zugunsten von was, keine Ahnung.
+
+692
+00:41:37,000 --> 00:41:38,000
+ Weiß ich nicht.
+
+693
+00:41:38,000 --> 00:41:40,000
+ Wir haben hier auch noch was mitgebracht.
+
+694
+00:41:40,000 --> 00:41:46,000
+ Das sind nochmal andere mögliche Vorhersagen.
+
+695
+00:41:46,000 --> 00:41:50,000
+ Genau.
+
+696
+00:41:50,000 --> 00:41:51,000
+ Ist jemand gut im Interpretieren?
+
+697
+00:41:51,000 --> 00:41:53,000
+ Also ich hab davon leider keine Ahnung.
+
+698
+00:41:53,000 --> 00:41:55,000
+ Deutsch LK?
+
+699
+00:41:55,000 --> 00:41:57,000
+ Kunst LK?
+
+700
+00:41:57,000 --> 00:42:01,000
+ Keine...
+
+701
+00:42:01,000 --> 00:42:03,000
+ Alle nicht überzeugt von Wahrsagen oder so?
+
+702
+00:42:03,000 --> 00:42:04,000
+ Enttäuschend.
+
+703
+00:42:05,000 --> 00:42:06,000
+ 50 Cent.
+
+704
+00:42:06,000 --> 00:42:08,000
+ Okay.
+
+705
+00:42:08,000 --> 00:42:09,000
+ Dürfen wir das hier überhaupt?
+
+706
+00:42:09,000 --> 00:42:12,000
+ Na ja.
+
+707
+00:42:12,000 --> 00:42:13,000
+ Ich weiß ja nicht.
+
+708
+00:42:13,000 --> 00:42:15,000
+ Gut.
+
+709
+00:42:15,000 --> 00:42:20,000
+ Ich glaube aber, wir sind soweit sogar durch, oder?
+
+710
+00:42:20,000 --> 00:42:22,000
+ Haben wir noch was, was...
+
+711
+00:42:22,000 --> 00:42:24,000
+ Also die wichtige Frage ist nicht...
+
+712
+00:42:24,000 --> 00:42:25,000
+ Vielen Dank, vielen Dank.
+
+713
+00:42:25,000 --> 00:42:30,000
+ Die wichtige Frage ist ja nicht, haben wir noch was, was wir euch mitgeben wollen,
+
+714
+00:42:30,000 --> 00:42:33,000
+ sondern habt ihr noch was, was ihr wissen wollt?
+
+715
+00:42:33,000 --> 00:42:37,000
+ Also wir sind jetzt noch offen für eure Ideen.
+
+716
+00:42:37,000 --> 00:42:41,000
+ Das ist jetzt wie in diesem Internet nur irgendwie live oder so, glaube ich.
+
+717
+00:42:41,000 --> 00:42:42,000
+ Wir haben noch...
+
+718
+00:42:42,000 --> 00:42:47,000
+ Also ich hab noch kein Schild von...
+
+719
+00:42:47,000 --> 00:42:50,000
+ Also, von Gerald gesehen, von daher haben wir noch mindestens 15 Minuten,
+
+720
+00:42:50,000 --> 00:42:52,000
+ weil wir erst auf dem ersten Schild stehen, 15 Minuten.
+
+721
+00:42:52,000 --> 00:42:53,000
+ Das Problem ist...
+
+722
+00:42:53,000 --> 00:42:54,000
+ Jetzt mit dem Glitzerheißkleber.
+
+723
+00:42:54,000 --> 00:42:55,000
+ Der Hitzer...
+
+724
+00:42:55,000 --> 00:42:56,000
+ Oh.
+
+725
+00:42:56,000 --> 00:42:57,000
+ Wo ist der Glitzerheißkleber?
+
+726
+00:42:57,000 --> 00:43:00,000
+ Ihr wollt den Glitzerheißkleber, okay.
+
+727
+00:43:00,000 --> 00:43:01,000
+ Ich hab ne gute Idee.
+
+728
+00:43:01,000 --> 00:43:03,000
+ Hat mal jemand Gaffer?
+
+729
+00:43:03,000 --> 00:43:06,000
+ Also wir haben hier noch was vorbereitet.
+
+730
+00:43:06,000 --> 00:43:10,000
+ Die handelsübliche andere Heißklebepistole.
+
+731
+00:43:10,000 --> 00:43:11,000
+ Danke.
+
+732
+00:43:11,000 --> 00:43:17,000
+ Wir machen das jetzt mit der Cat-Ear-Fabrikation nochmal in die zweite Runde.
+
+733
+00:43:17,000 --> 00:43:18,000
+ Die kam ja gut an.
+
+734
+00:43:18,000 --> 00:43:23,000
+ Wir bauen jetzt hier quasi aus Heißkleber eine Leinwand, auf der wir...
+
+735
+00:43:23,000 --> 00:43:26,000
+ Ne, aus Gaffer eine Leinwand, auf der wir...
+
+736
+00:43:26,000 --> 00:43:30,000
+ Mit der wir aus Glitzerheißkleber Cat-Ears malen können.
+
+737
+00:43:30,000 --> 00:43:37,000
+ Und so dann hoffentlich noch Engel finden, die das für euch alle neue Cat-Ears produzieren.
+
+738
+00:43:37,000 --> 00:43:39,000
+ So, damit das...
+
+739
+00:43:39,000 --> 00:43:42,000
+ So.
+
+740
+00:43:42,000 --> 00:43:43,000
+ Oh.
+
+741
+00:43:43,000 --> 00:43:46,000
+ Das Licht ist nicht so überzeugend.
+
+742
+00:43:46,000 --> 00:43:53,000
+ Ist das ein Schild?
+
+743
+00:43:53,000 --> 00:43:59,000
+ Würde man das jetzt schon als Zugabe bezeichnen?
+
+744
+00:43:59,000 --> 00:44:01,000
+ Ich glaube, das...
+
+745
+00:44:01,000 --> 00:44:07,000
+ Also wollt ihr das wirklich, oder sollen wir die Bühne frei machen für das Anschlussprogramm?
+
+746
+00:44:07,000 --> 00:44:08,000
+ Gibt's überhaupt noch was?
+
+747
+00:44:08,000 --> 00:44:11,000
+ Für das nicht vorhandene Anschlussprogramm.
+
+748
+00:44:11,000 --> 00:44:12,000
+ Genau.
+
+749
+00:44:12,000 --> 00:44:18,000
+ Heizt der, oder haben wir mittlerweile den Strom ausgemacht, oder hast du eine Steckdose von eben gesteckt?
+
+750
+00:44:18,000 --> 00:44:21,000
+ Das ist ja alles unter Realbedingungen.
+
+751
+00:44:21,000 --> 00:44:23,000
+ So.
+
+752
+00:44:23,000 --> 00:44:27,000
+ Also man merkt schon, kalt ist das eher so schwierig.
+
+753
+00:44:27,000 --> 00:44:33,000
+ Ich weiß jetzt allerdings auch nicht, ob ich so unbedingt...
+
+754
+00:44:33,000 --> 00:44:36,000
+ Hier mit dem...
+
+755
+00:44:36,000 --> 00:44:38,000
+ Ich glaube, das muss einfach ein bisschen vorwärmen.
+
+756
+00:44:38,000 --> 00:44:41,000
+ Also ich weiß nicht, ob das Zert uns die Heißdurchfühler nochmal auswendigt.
+
+757
+00:44:41,000 --> 00:44:43,000
+ Ne, besser nicht, besser nicht.
+
+758
+00:44:43,000 --> 00:44:45,000
+ Das...
+
+759
+00:44:45,000 --> 00:44:48,000
+ Ja, Zert sagt leider nein.
+
+760
+00:44:48,000 --> 00:44:49,000
+ Hm.
+
+761
+00:44:49,000 --> 00:44:50,000
+ Schade.
+
+762
+00:44:50,000 --> 00:44:54,000
+ Das Zert gibt uns auch unsere Steckerleisten nicht mehr wieder.
+
+763
+00:44:54,000 --> 00:44:58,000
+ Also wir haben ja auch Back-Up-Lösungen, dabei wollen wir das ordentlich machen.
+
+764
+00:44:58,000 --> 00:45:01,000
+ Achso, ja stimmt, wir haben ja hier noch unser Unboxing.
+
+765
+00:45:01,000 --> 00:45:02,000
+ Ja, wie hast du das vergessen?
+
+766
+00:45:02,000 --> 00:45:05,000
+ Jedes ordentliche Projekt hat ein Unboxing.
+
+767
+00:45:05,000 --> 00:45:09,000
+ Kann jemand gut liest, YouTube-Moderation?
+
+768
+00:45:09,000 --> 00:45:16,000
+ Also wichtig ist, schon mal bevor wir damit angefangen haben, bitte liked, subscribed, abonniert diesen Talk.
+
+769
+00:45:16,000 --> 00:45:17,000
+ Die Glocke!
+
+770
+00:45:17,000 --> 00:45:24,000
+ Abonniert das HotClub Premium Programm und der Rest steht in der Beschreibung.
+
+771
+00:45:24,000 --> 00:45:28,000
+ Genau, also wir sehen hier "Made at Home", die ist selbst gemacht.
+
+772
+00:45:28,000 --> 00:45:31,000
+ Genau, volle Krebe klappt nach zwei Minuten.
+
+773
+00:45:31,000 --> 00:45:34,000
+ Interessant, wie die Pistole das beeinflusst.
+
+774
+00:45:34,000 --> 00:45:36,000
+ Okay, also hier oben ist so ein schöner Deckel.
+
+775
+00:45:36,000 --> 00:45:39,000
+ Och guck mal, da ist sogar noch Werkstoff dabei.
+
+776
+00:45:39,000 --> 00:45:41,000
+ Jedes gute Produkt...
+
+777
+00:45:41,000 --> 00:45:45,000
+ Na ja, leider ohne Glitzer, aber wir haben ja vorgesorgt...
+
+778
+00:45:45,000 --> 00:45:48,000
+ Für eine halbe Küche reicht's, würde ich sagen.
+
+779
+00:45:48,000 --> 00:45:51,000
+ Kommt drauf an, wie viele Bits du hast.
+
+780
+00:45:51,000 --> 00:45:58,000
+ So, wichtige Informationen.
+
+781
+00:45:58,000 --> 00:46:02,000
+ Hot Pistole, das ist auch eine schöne Verzeichnung.
+
+782
+00:46:02,000 --> 00:46:08,000
+ Heiße Pistole, ja, passt schon irgendwie.
+
+783
+00:46:08,000 --> 00:46:09,000
+ Gut.
+
+784
+00:46:09,000 --> 00:46:12,000
+ Genau, und der Fort...
+
+785
+00:46:12,000 --> 00:46:16,000
+ Oh, schwierig.
+
+786
+00:46:16,000 --> 00:46:20,000
+ Kann jemand die Sicherung wieder reinmachen?
+
+787
+00:46:20,000 --> 00:46:27,000
+ Genau, an dieser Stelle wurde mir vorhin angekündigt, es würde...
+
+788
+00:46:27,000 --> 00:46:34,000
+ Hier so übertrieben professionelle Makita-Geräte...
+
+789
+00:46:34,000 --> 00:46:35,000
+ Ah, geht doch.
+
+790
+00:46:35,000 --> 00:46:38,000
+ Okay, aber zuallererst, welche Farbe?
+
+791
+00:46:38,000 --> 00:46:41,000
+ Pink!
+
+792
+00:46:41,000 --> 00:46:43,000
+ Pink?
+
+793
+00:46:43,000 --> 00:46:46,000
+ Sehr gut.
+
+794
+00:46:46,000 --> 00:46:49,000
+ Ich glaube, Pink hat gewonnen.
+
+795
+00:46:49,000 --> 00:46:53,000
+ Okay, so, nagelneues Gerät, das wird jetzt hier eingeweiht.
+
+796
+00:46:53,000 --> 00:47:00,000
+ Ist jemand von C3Cats anwesend und kann uns unterstützen?
+
+797
+00:47:00,000 --> 00:47:02,000
+ Ist Miauto?
+
+798
+00:47:02,000 --> 00:47:06,000
+ Ah, da hinten ist C3Cats.
+
+799
+00:47:06,000 --> 00:47:11,000
+ Schäden, wir kriegen Fachpersonal.
+
+800
+00:47:11,000 --> 00:47:14,000
+ Dafür muss ich nur mal das ganze Giraffe aus dem Weg räumen.
+
+801
+00:47:14,000 --> 00:47:19,000
+ Ja, lasst euch nicht stören.
+
+802
+00:47:19,000 --> 00:47:21,000
+ Genau, einen großen Applaus für C3Cats.
+
+803
+00:47:21,000 --> 00:47:23,000
+ Genau, ihr habt auch schon eure...
+
+804
+00:47:23,000 --> 00:47:25,000
+ Nicht die Schutzhelme!
+
+805
+00:47:25,000 --> 00:47:29,000
+ Das ist gefährlich hier.
+
+806
+00:47:29,000 --> 00:47:31,000
+ Ich bin auch Experte.
+
+807
+00:47:31,000 --> 00:47:40,000
+ Wenn wir den Testpindelstrich gezogen haben, begeben wir aber weiter.
+
+808
+00:47:40,000 --> 00:47:48,000
+ Danke, natürlich.
+
+809
+00:47:48,000 --> 00:47:57,000
+ Ja, sie wird warm, das ist ein gutes Zeichen.
+
+810
+00:47:57,000 --> 00:48:01,000
+ Kannst du mal ein bisschen da ranzoomen, dass man das gut sieht?
+
+811
+00:48:01,000 --> 00:48:06,000
+ Ja.
+
+812
+00:48:06,000 --> 00:48:09,000
+ Da kommt der Heißkleber.
+
+813
+00:48:09,000 --> 00:48:12,000
+ So, dann würde ich mal sagen, übergeben wir an uns Fachpersonal.
+
+814
+00:48:12,000 --> 00:48:15,000
+ Ja.
+
+815
+00:48:15,000 --> 00:48:19,000
+ Ich weiß nicht, müssen die noch was unterschreiben?
+
+816
+00:48:19,000 --> 00:48:24,000
+ Ja, wir klären das danach. Braucht jemand einen Handschuh?
+
+817
+00:48:24,000 --> 00:48:28,000
+ Dann viel Spaß beim Cat-Ear produzieren.
+
+818
+00:48:28,000 --> 00:48:37,000
+ Vielen Dank schon mal.
+
+819
+00:48:37,000 --> 00:48:45,000
+ Sehr gut.
+
+820
+00:48:45,000 --> 00:49:01,000
+ Einfach immer noch ein bisschen dicker.
+
+821
+00:49:01,000 --> 00:49:06,000
+ Wunderbar. Einfach noch mal ein bisschen dicker machen, das muss ja dann auch abgehen.
+
+822
+00:49:06,000 --> 00:49:22,000
+ Ein Applaus für C3 Cats.
+
+823
+00:49:22,000 --> 00:49:31,000
+ Ich würde den Himmel schon mal bitten, ausreichend Engelstunden für die kommenden Tage und Nächte anzulegen.
+
+824
+00:49:31,000 --> 00:49:36,000
+ Danke schön.
+
+825
+00:49:36,000 --> 00:49:48,000
+ Applaus für den Himmel.
+
+826
+00:49:48,000 --> 00:50:04,000
+ Sehr gut.
+
+827
+00:50:04,000 --> 00:50:19,000
+ Okay, sehr schön.
+
+828
+00:50:19,000 --> 00:50:29,000
+ Ihr könnt auch Infill probieren.
+
+829
+00:50:29,000 --> 00:50:44,000
+ Also wenn jemand hier jetzt ein gutes mathematisches Modell hat, wie man den Infill am besten macht, dass das Ganze stabil ist und für das Camp als gutes Sicherheitsausrüstung ausreicht,
+
+830
+00:50:44,000 --> 00:50:53,000
+ ich glaube wir treffen uns dann nach dem Talk, um das Ganze zu skalieren.
+
+831
+00:50:53,000 --> 00:51:07,000
+ Also falls jemand auch irgendwie mechanisch begabt ist, wir bräuchten da so ein Gerät, das die Pistole so ein bisschen bewegt. Das macht es dann einfacher.
+
+832
+00:51:07,000 --> 00:51:14,000
+ Ich finde es schön, wie es in diesem Kamerabild klitzt. Das ist viel besser als dieser Gap.
+
+833
+00:51:14,000 --> 00:51:18,000
+ Das ist kein Videoeffekt, das ist echt.
+
+834
+00:51:18,000 --> 00:51:24,000
+ Danke nochmal an die Videomixer, dass du im Walkthrough-Mix den Glitzer-Effekt gefunden hast.
+
+835
+00:51:24,000 --> 00:51:32,000
+ Okay, ich habe gerade gesehen, wir haben kaum noch Zeit. Wir müssen das jetzt noch abkühlen lassen.
+
+836
+00:51:32,000 --> 00:51:40,000
+ Genau, da gibt es diesen einfachen Trick.
+
+837
+00:51:40,000 --> 00:51:42,000
+ Genau, dafür ist die Schutzkleidung auch wichtig.
+
+838
+00:51:42,000 --> 00:51:47,000
+ Möchtest du das als Vorbild den Menschen von Citraketz mitgeben?
+
+839
+00:51:47,000 --> 00:51:49,000
+ Auf jeden Fall.
+
+840
+00:51:49,000 --> 00:51:55,000
+ Ihr macht auch noch die Qualitätsprüfung und meldet euch bei uns, wenn ihr uns für die Skellige braucht.
+
+841
+00:51:55,000 --> 00:52:11,000
+ Genau, und jetzt kommt natürlich der Moment. Wir müssen das Ganze vom Druckbett ablösen.
+
+842
+00:52:11,000 --> 00:52:19,000
+ Ich habe gehört, im CCC-MUG liegen noch 3 Millionen Phasenprüfer rum. Das wäre doch perfekt als filigrane Spachtel geeignet.
+
+843
+00:52:19,000 --> 00:52:32,000
+ Hat da jemand noch welche?
+
+844
+00:52:32,000 --> 00:52:47,000
+ Okay, für nächstes Mal müssen wir das noch länger liegen lassen.
+
+845
+00:52:47,000 --> 00:53:09,000
+ Okay, das habt ihr nicht gesehen.
+
+846
+00:53:09,000 --> 00:53:19,000
+ Sehrt keine Sorge, ausreichend weit weg von den nächsten wassernichtmögenden Gegenständen.
+
+847
+00:53:19,000 --> 00:53:43,000
+ Okay, leider ist unsere Zeit vorbei.
+
+848
+00:53:43,000 --> 00:53:58,000
+ Wir müssen jetzt noch ein bisschen zusätzliche Zeit.
+
+849
+00:53:58,000 --> 00:54:17,000
+ Wir haben noch ein bisschen Zeit, aber ich habe noch einen Moment.
+
+850
+00:54:17,000 --> 00:54:29,000
+ Ich hoffe, ihr hattet Spaß. Ich hoffe, das Sehrt ist uns nicht so böse, dass wir jetzt das Camp verlassen müssen.
+
+851
+00:54:29,000 --> 00:54:32,000
+ Also der Ausdruck vom Sehrt ist, dass wir das das nächste Mal in Serie 1 noch mal machen.
+
+852
+00:54:32,000 --> 00:54:39,000
+ Zumindest schauen Sie so entspannt, würde ich sagen.
+
+853
+00:54:39,000 --> 00:54:51,000
+ Sehr schön. Vielen Dank an C3 Cat, an das Sehrt, an C3 Power, an die Technik, an alle, die das hier möglich gemacht haben.
+
+854
+00:54:51,000 --> 00:54:58,000
+ Ich hoffe, ihr hattet Spaß und habt was dazugelernt.
+
+855
+00:54:58,000 --> 00:55:10,000
+ Wir haben Fragen beantwortet, die niemals irgendjemand gestellt hat.
+
+856
+00:55:10,000 --> 00:55:22,000
+ Kann man machen, nicht so lecker, aber geht ein bisschen hart.
+
+857
+00:55:22,000 --> 00:55:30,000
+ Ich glaube, das mit dem Heißkleber-Esten muss ich jetzt hier leider unterbrechen.
+
+858
+00:55:30,000 --> 00:55:36,000
+ Okay, dann vielen Dank.
+
+859
+00:55:36,000 --> 00:55:55,000
+ Ich hoffe, das war's für heute. Ich hoffe, wir sehen uns um 22.50 Uhr noch ein bisschen hin.
+
+860
+00:55:55,000 --> 00:56:02,000
+ Vielen Dank.
+

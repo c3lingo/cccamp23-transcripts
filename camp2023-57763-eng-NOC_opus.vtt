@@ -1,0 +1,1097 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:23.000
+ [Music]
+
+00:00:24.000 --> 00:00:31.000
+ Hello and welcome to another episode of Ask the Teams here at Chaos Communication Camp 2023.
+
+00:00:31.000 --> 00:00:37.000
+ With me on stage today are two members of the NOC, the Network Operating Center.
+
+00:00:37.000 --> 00:00:40.000
+ We have Will H. and Nico Duck.
+
+00:00:40.000 --> 00:00:46.000
+ And we'll talk about what the NOC actually is, what they do, etc. etc.
+
+00:00:46.000 --> 00:00:55.000
+ To give a little bit of an impression of how much work goes into getting Internet to the camp and to the people here into the tents.
+
+00:00:55.000 --> 00:00:58.000
+ So let's start with the team.
+
+00:00:58.000 --> 00:01:02.000
+ What Network Operating Center or Internet Manufaktur?
+
+00:01:02.000 --> 00:01:05.000
+ Which name is it?
+
+00:01:05.000 --> 00:01:08.000
+ Kind of both of them. Hello everyone.
+
+00:01:08.000 --> 00:01:15.000
+ Most of the times are called the NOC, but on the radio you can't really distinguish between NOC, VOC, LOC, POC and everyone else.
+
+00:01:15.000 --> 00:01:20.000
+ So we prefer to be called Internet Manufaktur at least on the radio.
+
+00:01:20.000 --> 00:01:25.000
+ And it sounds a bit better and sounds more like what we do here.
+
+00:01:25.000 --> 00:01:30.000
+ And how many people are we? How big is the team?
+
+00:01:30.000 --> 00:01:33.000
+ The team is about 30 people actually.
+
+00:01:33.000 --> 00:01:41.000
+ We mostly work in English because we have a lot of people from different countries, from the Netherlands, from the UK, as well as just Germany.
+
+00:01:41.000 --> 00:01:48.000
+ So we're a slightly different team, I think, in Chaos Events where we're working really nearly always in English.
+
+00:01:48.000 --> 00:01:53.000
+ All right. And the size of the team, of course, varies during the event.
+
+00:01:53.000 --> 00:01:59.000
+ So a few people during build-up and then gradually increasing until...
+
+00:01:59.000 --> 00:02:07.000
+ Yes, yes. All of the work is really in advance of the event and in build-up and tear down and not less during the event itself.
+
+00:02:07.000 --> 00:02:09.000
+ Unless something breaks.
+
+00:02:09.000 --> 00:02:12.000
+ Exactly. And things do break, yes.
+
+00:02:12.000 --> 00:02:14.000
+ Well, it's the outdoors.
+
+00:02:14.000 --> 00:02:16.000
+ Yes, yes, exactly.
+
+00:02:16.000 --> 00:02:24.000
+ So at a Chaos Event, at a Hacker Event, Internet is, I think...
+
+00:02:24.000 --> 00:02:31.000
+ You could argue, is it more important than water and waste water, but it's one of the higher priority items.
+
+00:02:31.000 --> 00:02:37.000
+ So how do we get the Internet to the camp? How does that actually work?
+
+00:02:37.000 --> 00:02:41.000
+ Because we're in the middle of nowhere, basically.
+
+00:02:41.000 --> 00:02:47.000
+ Yes, so actually this year we actually have two separate uplinks, which is quite nice.
+
+00:02:47.000 --> 00:02:51.000
+ In previous camps, because it's difficult, we've only had one uplink.
+
+00:02:51.000 --> 00:02:57.000
+ And in the meantime, fiber has been built a lot more for ordinary users around the countryside.
+
+00:02:57.000 --> 00:03:04.000
+ So we've been able to get a connection here in the Ziegler Park and also one a little bit further away,
+
+00:03:04.000 --> 00:03:08.000
+ where we had to run a fiber through some fields manually to reach.
+
+00:03:08.000 --> 00:03:13.000
+ So you're actually taking the fiber cables and running them through fields, through trenches?
+
+00:03:13.000 --> 00:03:21.000
+ Yes, exactly. There's a lot of cables being installed around the site, which is actually more challenging.
+
+00:03:21.000 --> 00:03:29.000
+ Because there's a lot of things here at the Ziegler Park, a lot of train tracks and tents and so on, that are maybe in the way.
+
+00:03:29.000 --> 00:03:35.000
+ This is also quite important in the planning stage. So a lot of work goes into planning before the event.
+
+00:03:35.000 --> 00:03:40.000
+ Where do we have to lay fiber? Because we need connectivity there.
+
+00:03:40.000 --> 00:03:45.000
+ And which routes can we use to get the connectivity there? Are there active train tracks?
+
+00:03:45.000 --> 00:03:52.000
+ So we have to duck underneath or are there active road crossings and train tracks where we have to build a bridge over it?
+
+00:03:52.000 --> 00:03:57.000
+ It's similar with the power team. So we cooperate together and have a look at each other's plans
+
+00:03:57.000 --> 00:04:05.000
+ and where we can do stuff a bit simpler and only do one bridge or only one trench under the train tracks.
+
+00:04:05.000 --> 00:04:10.000
+ But yeah, this is a lot of work before the event, because we cannot really dig here.
+
+00:04:10.000 --> 00:04:18.000
+ There's a lot of old brickwork in the ground. So doing longer trenches is kind of impossible and really annoying.
+
+00:04:18.000 --> 00:04:22.000
+ So when does planning start for all of this?
+
+00:04:22.000 --> 00:04:27.000
+ I think the first meeting usually is around GPM.
+
+00:04:27.000 --> 00:04:37.000
+ That would be March, April, May in that area where we get together, meet who is there.
+
+00:04:37.000 --> 00:04:45.000
+ So it's not like we don't have to be there, but it's always kind of nice to meet friends and have a roughly idea on what we are doing.
+
+00:04:45.000 --> 00:04:57.000
+ And then most of the stuff is planned on the internet from home, doing kind of a lot of CAD works with a map, planning all the automation configuration.
+
+00:04:57.000 --> 00:05:04.000
+ Planning for this event is a bit easier because we already know the Ziegler Park having been here twice before already.
+
+00:05:04.000 --> 00:05:10.000
+ So we know what we're facing with train tracks and buildings and all this stuff. So that's a little bit easier.
+
+00:05:10.000 --> 00:05:21.000
+ And of course, things like there are some items which are a longer lead time, like arranging the actual uplink is really that work starts perhaps a year in advance, just to be sure.
+
+00:05:21.000 --> 00:05:31.000
+ So dear project office, please find a new location. Nock is looking for a new challenge.
+
+00:05:31.000 --> 00:05:37.000
+ Any rodent incidents so far? Because I think the last one or the one before we had a few outages.
+
+00:05:37.000 --> 00:05:46.000
+ Yes, yes, no rodent incidents. We have had a train run over a fiber and we've had some other damage actually just accidental.
+
+00:05:46.000 --> 00:05:52.000
+ Well, I guess a rodent eating a fiber is also accidental, but yes, some other damage.
+
+00:05:52.000 --> 00:05:57.000
+ And we have some more resilience this time as well because of improvements.
+
+00:05:57.000 --> 00:06:03.000
+ Yes, and also around the site as well. So we don't have to kind of rush to resolve problems immediately.
+
+00:06:03.000 --> 00:06:11.000
+ I mean, we already touched on it a little bit. So we have two uplinks to the campsite. What's the bandwidth?
+
+00:06:11.000 --> 00:06:17.000
+ We have a 20 gig plus a 10 gig. So we have 30 gigs available.
+
+00:06:17.000 --> 00:06:19.000
+ A little bit smaller than at Congress.
+
+00:06:19.000 --> 00:06:26.000
+ Yes, yes, it is. Yes. But actually the usage is lower, right? It's a different kind of event in some ways.
+
+00:06:26.000 --> 00:06:32.000
+ And so, you know, our usage is I think like five gig or so around there. So that's perfectly fine.
+
+00:06:32.000 --> 00:06:36.000
+ So the usual credo use more bandwidth still applies.
+
+00:06:36.000 --> 00:06:42.000
+ Well, people can, yes, but actually most people should enjoy other things. There's plenty to see and do here.
+
+00:06:42.000 --> 00:06:52.000
+ Absolutely, absolutely. So once we have internet uplink into some sort of building in the data center, which we'll touch on in a minute.
+
+00:06:52.000 --> 00:06:59.000
+ How do you distribute this around the campsite? You already touched on the topic of fiber. So you're laying fiber.
+
+00:06:59.000 --> 00:07:06.000
+ Yes. So it's a lot easier for us because there's no real distance limitation to just run a lot of fiber.
+
+00:07:06.000 --> 00:07:14.000
+ So every Darden Klo really has a fiber uplink of some sort. So, yes, there's a lot of cables to run all around the site.
+
+00:07:14.000 --> 00:07:22.000
+ And that's what Nico was talking about with the planning and the work required there because we have to figure out how to run these cables.
+
+00:07:22.000 --> 00:07:31.000
+ And also a good thing with fiber is this electrical isolating. We have different generators on the sites powering different grids,
+
+00:07:31.000 --> 00:07:38.000
+ which are not necessarily on the same level. And we cannot connect these with copper cables.
+
+00:07:38.000 --> 00:07:47.000
+ This is also why we require unshielded ethernet cables this year to be connected into the Darden Klo because we had incidents in 2019
+
+00:07:47.000 --> 00:07:55.000
+ where we had a coupling between two generators on a shielded ethernet cable. Luckily, no hacker was harmed there.
+
+00:07:55.000 --> 00:08:04.000
+ But we still wanted to make sure that we can continue the tradition of not harming any hackers with power on network in this year's event.
+
+00:08:04.000 --> 00:08:15.000
+ So the generators you mentioned, these are the braider nodes, the power generators to produce the electricity that all the hackers and tens and infrastructure needs.
+
+00:08:15.000 --> 00:08:27.000
+ And so we have fiber all around the campsite. You're digging below. Usually you dig below the train lines. Some accidents happen.
+
+00:08:27.000 --> 00:08:35.000
+ So you have fiber at several points at the campsite. And I've seen some people are not familiar with the Darden Klo.
+
+00:08:35.000 --> 00:08:43.000
+ So the fiber ends in the Darden Klo at the switch probably. So could you explain a little bit what is the Darden Klo?
+
+00:08:43.000 --> 00:08:47.000
+ Where does this come from? How does this work for people who have never heard of it?
+
+00:08:47.000 --> 00:08:56.000
+ So actually what you need is you need to rent a large number of enclosures, right, that you can put your stuff in that are waterproof and easy to secure.
+
+00:08:56.000 --> 00:09:02.000
+ And well, it turns out these plastic toilets, you can go to an event rental company and they can figure this out.
+
+00:09:02.000 --> 00:09:08.000
+ So they're not equipped as actually with toilets. They don't have chemicals and there's not actually any toilet paper in there.
+
+00:09:08.000 --> 00:09:10.000
+ They come right from the factory, right?
+
+00:09:10.000 --> 00:09:16.000
+ Yeah, actually these did. Yes. And so, yes, but they're easy to rent and lock up.
+
+00:09:16.000 --> 00:09:22.000
+ And so it's strange because people arrive and they think, oh, well, there's lots of toilets everywhere. Oh, camp next to the toilet.
+
+00:09:22.000 --> 00:09:27.000
+ It will be convenient. It's like, yes, it is convenient, but for Wi-Fi and Internet.
+
+00:09:27.000 --> 00:09:31.000
+ So what's inside one of those plastic toilets?
+
+00:09:31.000 --> 00:09:33.000
+ At least a switch.
+
+00:09:33.000 --> 00:09:34.000
+ Some fiber?
+
+00:09:34.000 --> 00:09:40.000
+ Yeah, some fiber connections, some power like for the local things and often things from from other teams as well.
+
+00:09:40.000 --> 00:09:42.000
+ We even have a picture left here.
+
+00:09:42.000 --> 00:09:43.000
+ Yeah.
+
+00:09:43.000 --> 00:09:47.000
+ So, yeah, you see some fiber spools on the ground.
+
+00:09:47.000 --> 00:09:53.000
+ So usually our fiber comes on spools and we don't get new fiber for every event on the perfect length.
+
+00:09:53.000 --> 00:09:59.000
+ So there will be usually more fiber left and these spools are in a dart and clove.
+
+00:09:59.000 --> 00:10:10.000
+ And then there's a switch on the back. There's a POE injector for the Wi-Fi access point, which is also attached to the pole on the dart and clove on the outside.
+
+00:10:10.000 --> 00:10:17.000
+ And we see a little black box on the right side with the yellow sticker on it, which is a CWDM splitter.
+
+00:10:17.000 --> 00:10:25.000
+ We used this technique the first time last year at MCH in the Netherlands and reused that here too.
+
+00:10:25.000 --> 00:10:27.000
+ And we got a little bit more.
+
+00:10:27.000 --> 00:10:34.000
+ What's the benefit of using that? What's the functionality of this for someone who's not deep in technical?
+
+00:10:34.000 --> 00:10:36.000
+ This is difficult to explain without a diagram, actually.
+
+00:10:36.000 --> 00:10:41.000
+ However, we did a good presentation on this at the MCH event.
+
+00:10:41.000 --> 00:10:48.000
+ But yes, it really is. It's so we get some flexibility in how we run the fiber and the number of cores of the fiber we need.
+
+00:10:48.000 --> 00:10:52.000
+ Because, you know, we have like around 65 dart and clove.
+
+00:10:52.000 --> 00:11:01.000
+ So there's a lot of stuff we want to deploy this efficiently and not have quite so many fibers because that gets very difficult for us to manage.
+
+00:11:01.000 --> 00:11:09.000
+ But the basic stuff is like with light. There are multiple colors of light and you can do the same thing on fiber.
+
+00:11:09.000 --> 00:11:16.000
+ You can have different colored laser optics on the fiber and break in and out just a single color.
+
+00:11:16.000 --> 00:11:28.000
+ So we have four decays in a row and each decay has a different color. So in the end, there's only one fiber cable with two cores in it, powering all four decays.
+
+00:11:28.000 --> 00:11:34.000
+ And with this technique, we can also do redundancy a bit better because we can break it out from two sides.
+
+00:11:34.000 --> 00:11:43.000
+ So most of the decays here this time have two times 10 gig uplink to two different sites on the venue here.
+
+00:11:43.000 --> 00:11:50.000
+ And if one fiber breaks, there's a high chance that the dart and clove is still active on the remaining leg.
+
+00:11:50.000 --> 00:11:54.000
+ There are some dart and clove where this wasn't feasible in the planning stage.
+
+00:11:54.000 --> 00:12:00.000
+ So they are single homes to one of our core sites, but it's still the best we could do.
+
+00:12:00.000 --> 00:12:05.000
+ And those are the ones where the fiber has been damaged, of course.
+
+00:12:05.000 --> 00:12:14.000
+ So just again for those viewers who have never been to such an event and are still confused.
+
+00:12:14.000 --> 00:12:29.000
+ The plastic toilet has a switch in it and people then come up with a regular cable and say, I want 10 gig of one gig connection to my tent.
+
+00:12:29.000 --> 00:12:35.000
+ Do they just open the toilet or what's the process?
+
+00:12:35.000 --> 00:12:39.000
+ So actually you unroll a cable and leave some slack for us to connect it.
+
+00:12:39.000 --> 00:12:45.000
+ Well, actually our great NOC helped us volunteers. Our angels are going around with a big round.
+
+00:12:45.000 --> 00:12:48.000
+ So they walk around the whole site and connect the cables over time.
+
+00:12:48.000 --> 00:12:54.000
+ So you leave your cable and they will come around, unlock, plug it in and move on to the next one.
+
+00:12:54.000 --> 00:12:58.000
+ And then the same in reverse, I think, at the end of the event.
+
+00:12:58.000 --> 00:13:10.000
+ And you mentioned earlier that this year the big change or one of the changes is that you're only allowing unshielded cables for the potential differential.
+
+00:13:10.000 --> 00:13:17.000
+ Yeah. Well, what some people also do is they use a long shielded cable where the shield is only connected on one end
+
+00:13:17.000 --> 00:13:25.000
+ and then have like a meter unshielded pigtail in the dart and claw to get rid of that problem,
+
+00:13:25.000 --> 00:13:32.000
+ but still have the benefit of a shielded cable on the long run, which is beneficial for 10 gig, which we do offer in these dart and claws here.
+
+00:13:32.000 --> 00:13:37.000
+ So you can get 10 gig to the tent, which I can't get at home, which is nice.
+
+00:13:37.000 --> 00:13:43.000
+ Yes, actually nearly every port in those dart and claws is 10 gig capable now, 10 gig copper.
+
+00:13:43.000 --> 00:13:48.000
+ The support in people's laptops or so on is not so great, but it is available. Yes.
+
+00:13:48.000 --> 00:13:57.000
+ And also it's the same band with up and down. So we don't do like one gig down and 100 meg up or 10 gig down and 10 meg up.
+
+00:13:57.000 --> 00:13:59.000
+ So no, you're doing the proper Internet. Yeah.
+
+00:13:59.000 --> 00:14:11.000
+ And if I connect my laptop to the cable, is that directly connected to the Internet or do I still have some firewall or some netting in between or?
+
+00:14:11.000 --> 00:14:20.000
+ Only on the Wi-Fi. On the Wi-Fi we offer firewall connectivity because on the Internet there's a lot of port scanning going on
+
+00:14:20.000 --> 00:14:28.000
+ and this is not good to have all these like probing packets on the Wi-Fi and also for the battery life of your smartphone.
+
+00:14:28.000 --> 00:14:33.000
+ If it gets constantly hammered with port scans, it will quite rapidly decrease.
+
+00:14:33.000 --> 00:14:39.000
+ So the default on the Wi-Fi is to only allow connection from the camp site, but not from the Internet.
+
+00:14:39.000 --> 00:14:45.000
+ But you can choose if you would like to accept that on your laptop or even on your phone.
+
+00:14:45.000 --> 00:14:51.000
+ But all the cabled connectivity is the bare Internet without any filtering, anything.
+
+00:14:51.000 --> 00:14:56.000
+ So I should harden my laptop before I connect it to that cable.
+
+00:14:56.000 --> 00:14:59.000
+ Or you should always harden your laptop before you connect to any cable.
+
+00:14:59.000 --> 00:15:04.000
+ But especially here, it's different from at home. It's the raw stuff.
+
+00:15:04.000 --> 00:15:11.000
+ You already mentioned Wi-Fi. I mean everything is wireless these days, of course.
+
+00:15:11.000 --> 00:15:19.000
+ So you have an access point on every Datenclaw. How many?
+
+00:15:19.000 --> 00:15:26.000
+ So we have actually 146 live right now. What actually happens is you'll notice that's more than the number of Datenclaws we have deployed.
+
+00:15:26.000 --> 00:15:32.000
+ And what we actually do is we start every Datenclaw has an AP. That's the thing on the pole that sticks out the top that people will see.
+
+00:15:32.000 --> 00:15:39.000
+ And then we deploy like fill access points, like maybe in villages or in...
+
+00:15:39.000 --> 00:15:40.000
+ At heaven.
+
+00:15:40.000 --> 00:15:42.000
+ Yeah, exactly. In the bigger tents and so on.
+
+00:15:42.000 --> 00:15:46.000
+ And one of the things is we actually keep on building this during the event.
+
+00:15:46.000 --> 00:15:50.000
+ It's like people report poor coverage in an area and then we go, oh, hey, let's fix that.
+
+00:15:50.000 --> 00:15:55.000
+ And then we keep on doing this until maybe halfway through the event. And then it becomes pointless.
+
+00:15:55.000 --> 00:16:05.000
+ And you mentioned the access points are on top of the Datenclaw and then there is also a large lead tube, a colorful lead tube on top of that.
+
+00:16:05.000 --> 00:16:11.000
+ What is that about? I mean, a lot of people ask me, what is this thing doing on top of the Datenclaw?
+
+00:16:11.000 --> 00:16:14.000
+ Apart from looking very nice, has it a functionality?
+
+00:16:14.000 --> 00:16:20.000
+ Yes. Yeah. I think they've been with us since 2013.
+
+00:16:20.000 --> 00:16:27.000
+ They are basically receiving DMX or ArtNet data via Ethernet, showing the animation.
+
+00:16:27.000 --> 00:16:34.000
+ So if the animation stops working, it will switch to a dim light.
+
+00:16:34.000 --> 00:16:38.000
+ So you know that the Internet or the Ethernet is down in this Datenclaw.
+
+00:16:38.000 --> 00:16:41.000
+ If the power is down, obviously it will be dark.
+
+00:16:41.000 --> 00:16:48.000
+ But if the power is there, but only the network is down and has an issue, then it will be a dim light.
+
+00:16:48.000 --> 00:16:51.000
+ We are always kind of playing with the animation.
+
+00:16:51.000 --> 00:16:57.000
+ So during the day we currently have a flame on. In the night it was a more dim or red or green flame.
+
+00:16:57.000 --> 00:17:08.000
+ In between we had some green with pink stars in it, kind of sparkling stars, which is a less visible or not less noticeable animation.
+
+00:17:08.000 --> 00:17:12.000
+ But it's kind of the color scheme of the camp, which is quite nice.
+
+00:17:12.000 --> 00:17:16.000
+ So the animation can change, but as long as it's blinking, it's fine.
+
+00:17:16.000 --> 00:17:27.000
+ So do you have one of your angels on top of the hill to watch out if all the Datenclaws are online, if all the lights are blinking?
+
+00:17:27.000 --> 00:17:31.000
+ Or do you have a more sophisticated solution to monitor these things?
+
+00:17:31.000 --> 00:17:32.000
+ Yeah, we have some monitoring.
+
+00:17:32.000 --> 00:17:38.000
+ And one of the big changes we made this year was some implementing some things from other camps.
+
+00:17:38.000 --> 00:17:43.000
+ A lot of people would have looked at the map, the new map this year.
+
+00:17:43.000 --> 00:17:51.000
+ And actually we have all the Datenclaw on the map and the icon changes color when the devices are deployed.
+
+00:17:51.000 --> 00:17:59.000
+ The Datenclaw is live, it goes green. If it then fails for whatever reason it goes red, which is pretty nice actually.
+
+00:17:59.000 --> 00:18:06.000
+ Because often there's a local power outage or something like that. So we can report it and people can also know.
+
+00:18:06.000 --> 00:18:08.000
+ Or a train running over your fiber.
+
+00:18:08.000 --> 00:18:10.000
+ Exactly, yeah.
+
+00:18:10.000 --> 00:18:19.000
+ Right. So that's how the Internet gets to the tents and to the Wi-Fi devices.
+
+00:18:19.000 --> 00:18:26.000
+ What about the services that we offer? We offer like Wikis and stuff like that.
+
+00:18:26.000 --> 00:18:31.000
+ Is that all running through that 20 and 10 gig Internet connection?
+
+00:18:31.000 --> 00:18:41.000
+ We're very keen on the stuff that is necessary for the operation of the network. This actually processes sensitive personal data.
+
+00:18:41.000 --> 00:18:47.000
+ Things like your MAC address, your IP address. And we like to collect as little data as possible and to not leave the site.
+
+00:18:47.000 --> 00:18:52.000
+ So we have the servers that maybe say your DNS resolver and this kind of thing.
+
+00:18:52.000 --> 00:18:57.000
+ And they're actually all wiped, securely wiped before they leave the site.
+
+00:18:57.000 --> 00:19:06.000
+ So it's important for us that those services which are essential on the camp are hosted locally and we have a data center container for this.
+
+00:19:06.000 --> 00:19:12.000
+ And then also we're hosting other servers for some other teams which are good to have on site.
+
+00:19:12.000 --> 00:19:17.000
+ For instance, like the DAFOC for video streaming and a few other teams as well.
+
+00:19:17.000 --> 00:19:24.000
+ And do you also provide some sort of co-location? If people bring their own servers?
+
+00:19:24.000 --> 00:19:30.000
+ Not here. It's too expensive because of the electricity source and the fact it's rather warm here.
+
+00:19:30.000 --> 00:19:37.000
+ And we can really only provide this for like essential uses. And even then it's quite a bit of effort and cost to provide this.
+
+00:19:37.000 --> 00:19:40.000
+ I think I've seen it's like one container with the blinking light.
+
+00:19:40.000 --> 00:19:46.000
+ Yeah. So we started in 2019. We were like, why hide this away? Let's actually make it nice for people to look at.
+
+00:19:46.000 --> 00:19:53.000
+ So now you can go and look in the window and peer in. And I can see from the fingerprints on the window quite a lot of people are looking in there.
+
+00:19:53.000 --> 00:19:58.000
+ Maybe we should get a window cleaning agent.
+
+00:19:58.000 --> 00:20:04.000
+ And of course it's locked up because otherwise people would improve the situation.
+
+00:20:04.000 --> 00:20:09.000
+ Yes, and we need to keep the door shut because it needs to have air conditioning and so on.
+
+00:20:09.000 --> 00:20:18.000
+ And also the other teams depend on their services being up and not being well fitted around with event phone is hosting in there.
+
+00:20:18.000 --> 00:20:24.000
+ The video streaming and recording is running in there. The GSM team has their rack in the colo.
+
+00:20:24.000 --> 00:20:32.000
+ And that's basically it. It's us and the three others. So we only provide that service to a very close user group.
+
+00:20:32.000 --> 00:20:42.000
+ But since everyone can have 10 gig at their tent, it also lowers the need of a Yolo colo as we had on the congress earlier.
+
+00:20:42.000 --> 00:20:49.000
+ We even managed to get a second data center site this time so we can have a bit of redundancy.
+
+00:20:49.000 --> 00:20:52.000
+ Most of the services are single home in the container.
+
+00:20:52.000 --> 00:21:04.000
+ But some of the stuff like the Wi-Fi controller, the uplink, the routing is also mirrored to a second site to minimize the outage if something breaks.
+
+00:21:04.000 --> 00:21:15.000
+ The biggest enemy of network is always those big yellow heavy machines that either dig through the cables or unlock the container over.
+
+00:21:15.000 --> 00:21:18.000
+ So having some redundancy is always nice, right?
+
+00:21:18.000 --> 00:21:22.000
+ At least the big yellow machines having on site here are really friendly to our network.
+
+00:21:22.000 --> 00:21:26.000
+ So we didn't have an incident with these. So they behave so far.
+
+00:21:26.000 --> 00:21:37.000
+ Mostly it's actually people where we have power outages when it rains a lot and someone's left a connector in a puddle somewhere and then we cannot provide network without power.
+
+00:21:37.000 --> 00:21:46.000
+ But we're working pretty closely with the power team here who are great. So we're making sure that it's all working.
+
+00:21:46.000 --> 00:21:54.000
+ Well, I've heard of quite a few demands of delivering power over Wi-Fi. So if you could work on that, that would be awesome.
+
+00:21:54.000 --> 00:22:00.000
+ Right. And of course, we have seen it at other events in the infrastructure review.
+
+00:22:00.000 --> 00:22:07.000
+ You also have a dashboard where you collect all the data and the traffic data and numbers galore.
+
+00:22:07.000 --> 00:22:15.000
+ Yes, everyone loves these numbers and so on. I mean, we're at over 6000 Wi-Fi clients right now.
+
+00:22:15.000 --> 00:22:23.000
+ And 89 switches deployed. So that's a good amount of hardware and a good number of users.
+
+00:22:23.000 --> 00:22:31.000
+ There's also good mobile coverage for people who do not want to use the network here now with Telco putting a mast here.
+
+00:22:31.000 --> 00:22:40.000
+ But you're not controlling their mast, right? No, no. But it provides some alternatives.
+
+00:22:40.000 --> 00:22:43.000
+ But most people need the network.
+
+00:22:43.000 --> 00:22:49.000
+ Well, with our network, it's not much fun running around here with access to the map and everything.
+
+00:22:49.000 --> 00:22:56.000
+ But increasingly, you know, all the other teams, they've discovered they can use computers to manage things and they need internet as well.
+
+00:22:56.000 --> 00:23:01.000
+ I mean, even say the power team have a QR code you can scan to report issues.
+
+00:23:01.000 --> 00:23:10.000
+ And there's lots of this ever more dependent on the network for so many other services that are provided for the camp.
+
+00:23:10.000 --> 00:23:18.000
+ For some reason, the video operating system, video operating center is still planning all these shows on the container walls.
+
+00:23:18.000 --> 00:23:23.000
+ We will have to convert them. Sometimes this way actually works.
+
+00:23:23.000 --> 00:23:28.000
+ Most of our knock planning that's on site when we have small jobs and so on, we have a big Kanban board with Post-it notes.
+
+00:23:28.000 --> 00:23:36.000
+ And it's very satisfying. You take a ticket, you move it from needs doing to in progress and you come back and you put it on there.
+
+00:23:36.000 --> 00:23:40.000
+ It's done now. And now we have a whole wall of stickers that are done.
+
+00:23:40.000 --> 00:23:45.000
+ Talking about done, we already touched on the topic of build up tear down.
+
+00:23:45.000 --> 00:23:52.000
+ So that one thing is laying the cables, digging up trenches or whatever to lay the cables.
+
+00:23:52.000 --> 00:23:59.000
+ What about the software infrastructure? Is that is that also someone sitting and installing operating systems and stuff?
+
+00:23:59.000 --> 00:24:03.000
+ Kind of. Yeah. Most of the stuff is reused between the events.
+
+00:24:03.000 --> 00:24:13.000
+ So there's a big share of people in the Internet manufacturer also doing that on like the MCH last year in the Netherlands and likely again at the next Dutch camp.
+
+00:24:13.000 --> 00:24:21.000
+ In 2025 and also on EMF camp, there's a big share even Will has his nice T-shirt on.
+
+00:24:21.000 --> 00:24:29.000
+ So yeah, we try to reuse as much as possible of the stuff.
+
+00:24:29.000 --> 00:24:40.000
+ So there's quite a lot of automation going on with event infra, which is located in the Netherlands and run by volunteers also from the NOC.
+
+00:24:40.000 --> 00:24:47.000
+ So a lot of staging is going on there. Then more staging is going on here in an automated process.
+
+00:24:47.000 --> 00:24:54.000
+ And we now even have it automated so far since at least 2019.
+
+00:24:54.000 --> 00:25:01.000
+ And I think it started before that also port changes to have a port in a different VLANs are handled automatically.
+
+00:25:01.000 --> 00:25:05.000
+ So every switch is getting a new configuration every 15 minutes.
+
+00:25:05.000 --> 00:25:13.000
+ So when the POC or the event phone people come around and ask for a new port for a deck station or if another OC needs something,
+
+00:25:13.000 --> 00:25:22.000
+ they have a guest or they have access to our Netbox where all the configuration is stored, can do the change and 50 minutes later it's deployed.
+
+00:25:22.000 --> 00:25:28.000
+ Self-service really. That's what we need because it's too large to have another human in the loop.
+
+00:25:28.000 --> 00:25:39.000
+ So it's different to like the setup in the most of corporations where you need to fill in a SAP form and then run through 20 iterations and three months later you get the port opening.
+
+00:25:39.000 --> 00:25:43.000
+ No, there is no three months later.
+
+00:25:43.000 --> 00:25:48.000
+ We don't have a change advisory board every 14 days.
+
+00:25:48.000 --> 00:25:52.000
+ But also most of the teams are in a fairly similar constellation every event.
+
+00:25:52.000 --> 00:26:00.000
+ So we know each other fairly well. They know how we roll. We know how they roll. So that's good for both sides.
+
+00:26:00.000 --> 00:26:06.000
+ So you're using the knowledge between the different events or friendly events or whatever you want to call them.
+
+00:26:06.000 --> 00:26:19.000
+ And also I think the hardware and the network ranges, et cetera, that's also shared between the events because I noticed sometimes when I'm here, I'm still located in Amsterdam or near Amsterdam where the MCH was.
+
+00:26:19.000 --> 00:26:23.000
+ Geolocation breaks with these kind of events.
+
+00:26:23.000 --> 00:26:28.000
+ Yeah, mostly it's actually due to the access point because the access points move around and they go to a lot of events actually.
+
+00:26:28.000 --> 00:26:32.000
+ And so you see that and sometimes it's due to the IP addressing as well.
+
+00:26:32.000 --> 00:26:40.000
+ But yes, yes, we do. We don't have a set of hardware and not use it. It's used by lots of other not for profit events around Europe.
+
+00:26:40.000 --> 00:26:50.000
+ Yeah. Also Event Infra, which is lending out this equipment, is a non-profit in the Netherlands working with CCCV and all the other events.
+
+00:26:50.000 --> 00:26:59.000
+ So the events can borrow the hardware from Event Infra in return to a, I would say, competitive price.
+
+00:26:59.000 --> 00:27:06.000
+ But it's really good for the event because it's from the community for the community.
+
+00:27:06.000 --> 00:27:13.000
+ So some events, depending on what they do, donate more money. Other donate hardware, which is also fine.
+
+00:27:13.000 --> 00:27:19.000
+ So there's an increasing big pool of switches, of Wi-Fi access points.
+
+00:27:19.000 --> 00:27:26.000
+ So I think most, if not even all of the stuff we use this time is coming from Event Infra.
+
+00:27:26.000 --> 00:27:34.000
+ So if some non-profit event needs some sort of network infrastructure, reach out and we will see and you will see what you can do.
+
+00:27:34.000 --> 00:27:38.000
+ Yeah, there's a lot of teams, a lot of organizations using this.
+
+00:27:38.000 --> 00:27:46.000
+ And you have to build the network yourself or find some people to do that. But it's not a full service operation.
+
+00:27:46.000 --> 00:27:53.000
+ Hardware. If a for-profit wants to get rid of some hardware, which is still good to use,
+
+00:27:53.000 --> 00:28:00.000
+ so some data centers tend to kick out their old boxes after five years, which is not that long in our terms.
+
+00:28:00.000 --> 00:28:04.000
+ You can reach out to Event Infra to donate the hardware.
+
+00:28:04.000 --> 00:28:11.000
+ That's how we were able to offer 10 gig copper to all the areas because an organization was clearing out the data center.
+
+00:28:11.000 --> 00:28:14.000
+ And we said, thank you very much and took 60 odd switches.
+
+00:28:14.000 --> 00:28:20.000
+ And otherwise they would probably have to pay to get them disposed properly.
+
+00:28:20.000 --> 00:28:21.000
+ Yeah.
+
+00:28:21.000 --> 00:28:32.000
+ OK, I think we touched on most of the points in an event like EMF Camp or MCH or the next Dutch Camp or CCC Camp.
+
+00:28:32.000 --> 00:28:40.000
+ Is your team filled up? Are you still looking for volunteers during build-up or tear down?
+
+00:28:40.000 --> 00:28:48.000
+ Or is it too fragile? Do you need so much inside info that it doesn't make sense to offer you help?
+
+00:28:48.000 --> 00:28:52.000
+ Always during tear down. Every team wants help during tear down.
+
+00:28:52.000 --> 00:28:58.000
+ And because there's just so much infrastructure that we need to roll up and put away.
+
+00:28:58.000 --> 00:29:05.000
+ But we do have a quite well organized system for this because we know we have databases and things with all the bits of equipment in.
+
+00:29:05.000 --> 00:29:10.000
+ So it's not just randomly done, but people can come and help us.
+
+00:29:10.000 --> 00:29:14.000
+ Please don't go to the Daten Klo and just tear down.
+
+00:29:14.000 --> 00:29:15.000
+ Exactly.
+
+00:29:15.000 --> 00:29:18.000
+ And at that point, come to the NOC and ask what tasks you could do.
+
+00:29:18.000 --> 00:29:34.000
+ Yeah, we have checklists to collect all the items and make sure and then we know and everything is also wiped before it's both in terms of its storage and its physical surface, which can get quite dusty before it's packaged and sent back.
+
+00:29:34.000 --> 00:29:47.000
+ Since most of our work is before and long before the event, there are always some friendly people who approach us on like day minus one or day zero and want to help us.
+
+00:29:47.000 --> 00:29:51.000
+ But this time the network was finished building up everything on day minus one.
+
+00:29:51.000 --> 00:29:56.000
+ So we had to send them away because there was no work to do on these days.
+
+00:29:56.000 --> 00:30:02.000
+ But on early build-up or then the tear down, there's always more help to do.
+
+00:30:02.000 --> 00:30:08.000
+ And we always had a lot of angels again this time to help out during the setup.
+
+00:30:08.000 --> 00:30:15.000
+ So we built teams with, I would say, one experienced member of the NOC and one or two more angels.
+
+00:30:15.000 --> 00:30:18.000
+ And this worked really well.
+
+00:30:18.000 --> 00:30:20.000
+ Yes, it has to be.
+
+00:30:20.000 --> 00:30:23.000
+ You have to have some experience with plugging in fibers and so on.
+
+00:30:23.000 --> 00:30:25.000
+ And all this work is physical during build-up.
+
+00:30:25.000 --> 00:30:31.000
+ We're not like sitting at our desks like configuring things because we have a computer for that.
+
+00:30:32.000 --> 00:30:36.000
+ It's running around the field, it's driving around the field.
+
+00:30:36.000 --> 00:30:40.000
+ It's a lot of manual work than you would like to think.
+
+00:30:40.000 --> 00:30:44.000
+ But many of us have desk jobs and so it's great fun to come in the field and do that.
+
+00:30:44.000 --> 00:30:48.000
+ And after the first tape, the whole body complains.
+
+00:30:48.000 --> 00:30:51.000
+ That's what ibuprofen is for.
+
+00:30:51.000 --> 00:31:03.000
+ Many of us are also working in the industries and the colleagues are always asking why are you on vacation and why are you doing basically the same thing.
+
+00:31:03.000 --> 00:31:06.000
+ But it's not really the same thing.
+
+00:31:06.000 --> 00:31:08.000
+ And it's with different people.
+
+00:31:08.000 --> 00:31:13.000
+ So all of us are doing that because we really want to do that.
+
+00:31:13.000 --> 00:31:18.000
+ And this is a whole other team experience than getting paid to do that.
+
+00:31:18.000 --> 00:31:26.000
+ You learn a lot in both technical and transferable skills by coming and volunteering for many of the teams here.
+
+00:31:26.000 --> 00:31:30.000
+ Absolutely. I can totally attest to that.
+
+00:31:30.000 --> 00:31:34.000
+ I have one last question.
+
+00:31:34.000 --> 00:31:36.000
+ We didn't touch on this when we talked about the datum clothes.
+
+00:31:36.000 --> 00:31:38.000
+ I have to circle back a little bit.
+
+00:31:38.000 --> 00:31:44.000
+ As you said in your explanation, these are plastic toilets.
+
+00:31:44.000 --> 00:31:46.000
+ They look like plastic toilets.
+
+00:31:46.000 --> 00:31:50.000
+ The print on them says it's a toilet.
+
+00:31:50.000 --> 00:31:53.000
+ Do people use them as toilets?
+
+00:31:53.000 --> 00:31:59.000
+ Unfortunately, what happens is a big pile arrive in a field and maybe we don't get there to log them early enough.
+
+00:31:59.000 --> 00:32:01.000
+ And someone maybe also really needs to go.
+
+00:32:01.000 --> 00:32:04.000
+ So they have an accident.
+
+00:32:04.000 --> 00:32:13.000
+ So unfortunately, every time there's always one that's quarantined off and left for proper disposal.
+
+00:32:13.000 --> 00:32:14.000
+ Yes, exactly.
+
+00:32:14.000 --> 00:32:16.000
+ This time the number was fairly low.
+
+00:32:16.000 --> 00:32:20.000
+ We calculated five spare datum clothes and only needed two of them.
+
+00:32:20.000 --> 00:32:22.000
+ So that's good.
+
+00:32:22.000 --> 00:32:29.000
+ And hopefully shows like this will get out the word so maybe we can get the number down.
+
+00:32:29.000 --> 00:32:31.000
+ Accidents happen.
+
+00:32:31.000 --> 00:32:40.000
+ The major thing for ordinary users out there to know about most of our infrastructure is that we can't know it's broken sometimes unless you tell us.
+
+00:32:40.000 --> 00:32:45.000
+ But we will come and fix it if there's a problem.
+
+00:32:45.000 --> 00:32:49.000
+ Any last words from you on NOC?
+
+00:32:49.000 --> 00:32:51.000
+ Did we miss something?
+
+00:32:51.000 --> 00:32:53.000
+ Any important topics you want to get out?
+
+00:32:53.000 --> 00:32:54.000
+ Messages?
+
+00:32:54.000 --> 00:33:01.000
+ There's a few things that people, if they want to know more, they can go and look in the entrance of the DC, the data center, which is near the info desk.
+
+00:33:01.000 --> 00:33:04.000
+ There's quite a lot of information online.
+
+00:33:04.000 --> 00:33:07.000
+ We're now FAQ as well if you're still having some trouble.
+
+00:33:07.000 --> 00:33:11.000
+ And the NOC help desk will also help you with the service.
+
+00:33:11.000 --> 00:33:14.000
+ Is there unshielded cable at the NOC help desk?
+
+00:33:14.000 --> 00:33:17.000
+ I got that question quite often.
+
+00:33:17.000 --> 00:33:20.000
+ I think the Spatii is selling Ethernet cables.
+
+00:33:20.000 --> 00:33:21.000
+ Ah, OK.
+
+00:33:21.000 --> 00:33:24.000
+ They have some cable, maybe even some cable left.
+
+00:33:24.000 --> 00:33:25.000
+ I'm not sure.
+
+00:33:25.000 --> 00:33:27.000
+ But they had some.
+
+00:33:27.000 --> 00:33:32.000
+ We do ask people to bring their own cables because we can't provide for 6,000 users.
+
+00:33:32.000 --> 00:33:35.000
+ But who reads documentation before the event, right?
+
+00:33:35.000 --> 00:33:38.000
+ Yeah, well, we do write it.
+
+00:33:38.000 --> 00:33:40.000
+ I'm not blaming you.
+
+00:33:40.000 --> 00:33:42.000
+ I'm just asking.
+
+00:33:42.000 --> 00:33:44.000
+ Anything else we didn't touch on?
+
+00:33:44.000 --> 00:33:46.000
+ Anything else you want to touch on?
+
+00:33:46.000 --> 00:33:49.000
+ No, I think that's most of it.
+
+00:33:49.000 --> 00:33:51.000
+ We could go on for hours.
+
+00:33:51.000 --> 00:33:55.000
+ I'm not going into technical details or tech porn.
+
+00:33:55.000 --> 00:34:01.000
+ A lot of the stuff when we want to explain it is like you need a diagram and some actual slides and things like that.
+
+00:34:01.000 --> 00:34:02.000
+ And that's more in-depth.
+
+00:34:02.000 --> 00:34:09.000
+ And to be honest, we've covered that a lot in previous review presentations and things like that, which are all on media.ccc.de.
+
+00:34:09.000 --> 00:34:13.000
+ And you're doing an infrastructure review as well for this event, right?
+
+00:34:13.000 --> 00:34:15.000
+ Oh, we better write that then.
+
+00:34:15.000 --> 00:34:17.000
+ We should start preparing one.
+
+00:34:17.000 --> 00:34:18.000
+ Some funny photos.
+
+00:34:18.000 --> 00:34:21.000
+ This one is going to be quite short, like 3 to 5 minutes.
+
+00:34:21.000 --> 00:34:24.000
+ Probably just some funny photos.
+
+00:34:24.000 --> 00:34:29.000
+ Most of the stuff is still valid from MCH's review, so we could just share the link.
+
+00:34:29.000 --> 00:34:33.000
+ Yes, adjust the data.
+
+00:34:33.000 --> 00:34:34.000
+ All right.
+
+00:34:34.000 --> 00:34:36.000
+ Well, thank you very much, Will H.
+
+00:34:36.000 --> 00:34:39.000
+ Nico Tuck, thanks for joining us in the studio.
+
+00:34:39.000 --> 00:34:40.000
+ Thanks for having us.
+
+00:34:40.000 --> 00:34:45.000
+ This was another episode of Ask the Teams, this time with the Network Operating Center.
+
+00:34:45.000 --> 00:34:49.000
+ Have a great day and hopefully see you really soon in another episode.
+
+00:34:49.000 --> 00:34:50.000
+ Cheers and bye bye.
+
+00:34:50.000 --> 00:35:00.000
+ [crickets chirping]
+
+00:35:00.000 --> 00:35:07.000
+ [crickets chirping]
+

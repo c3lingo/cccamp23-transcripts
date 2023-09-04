@@ -1,0 +1,2063 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:34.960
+ Yes, so welcome again to the CC camp.
+
+00:00:34.960 --> 00:00:41.480
+ I had the pleasure of being invited here from the whole camp organization,
+
+00:00:41.480 --> 00:00:47.960
+ also for my company, because we donated the two sensors on your batch.
+
+00:00:47.960 --> 00:00:51.080
+ I don't want to touch that now with the camera.
+
+00:00:51.080 --> 00:00:54.280
+ And I want to tell you in the first part a little bit about the sensors,
+
+00:00:54.280 --> 00:00:57.760
+ how they are working, and what it is all about with these mems things,
+
+00:00:57.760 --> 00:00:59.600
+ what's in the batch.
+
+00:00:59.600 --> 00:01:03.600
+ And the second part show a few examples how you can really with command line get
+
+00:01:03.600 --> 00:01:07.960
+ micropyton code running, getting an LED on off blinking, and
+
+00:01:07.960 --> 00:01:11.360
+ then also touch the measurements from those sensors.
+
+00:01:11.360 --> 00:01:16.320
+ The first sensor is the BMI 270.
+
+00:01:16.320 --> 00:01:19.120
+ This is an inertial, the I stands for inertial sensor.
+
+00:01:19.120 --> 00:01:23.520
+ So doing gravity things, so that's a big sensor.
+
+00:01:23.520 --> 00:01:29.960
+ Now I forgot to bring the white part of that sensor that I could show later
+
+00:01:29.960 --> 00:01:31.920
+ where you locate them.
+
+00:01:31.920 --> 00:01:35.600
+ So this is the big one with two and a half by three millimeters.
+
+00:01:35.600 --> 00:01:40.760
+ And it says the inertial thing for three axis and also gyro, so
+
+00:01:40.760 --> 00:01:44.840
+ the rotation things, you can measure how fast it's rotating.
+
+00:01:44.840 --> 00:01:51.280
+ And it's also quite useful for doing inertial navigation, things like that.
+
+00:01:51.280 --> 00:01:57.280
+ All those sensors are now widely used in a lot of things, in your mobile phones,
+
+00:01:57.280 --> 00:02:02.640
+ also in all those wearable devices which are around in your wristwatch that you get
+
+00:02:02.640 --> 00:02:06.800
+ monitored all the time if you do the right things.
+
+00:02:06.800 --> 00:02:11.440
+ They have a lot of coding already inside that chip, so
+
+00:02:11.440 --> 00:02:16.440
+ it's not only the hardware for detecting things like that, but
+
+00:02:16.440 --> 00:02:20.560
+ also microcontroller and the microcontroller itself can do step counting.
+
+00:02:20.560 --> 00:02:25.240
+ Can recognize if you do whatever with your hand.
+
+00:02:25.240 --> 00:02:30.440
+ So in this sense, it's still hard coded that you get some information.
+
+00:02:30.440 --> 00:02:33.320
+ It also has a free fall detection.
+
+00:02:33.320 --> 00:02:38.320
+ So if it's dropping, it can issue an interrupt to your microcontroller.
+
+00:02:38.320 --> 00:02:41.160
+ But everything also, the step counting is done internally,
+
+00:02:41.160 --> 00:02:45.160
+ that your host CPU doesn't need that much power, things like that.
+
+00:02:45.160 --> 00:02:50.320
+ The hero will have it for just tapping on it, for switching on or off, whatever.
+
+00:02:50.320 --> 00:02:53.600
+ I'm not using any of these devices, so it's pure theory for me.
+
+00:02:53.600 --> 00:02:57.960
+ And there's a lot of possibilities, and so
+
+00:02:57.960 --> 00:03:02.640
+ all those possibilities you also can now play around with your batch.
+
+00:03:02.640 --> 00:03:06.200
+ So you can tap on it, whatever, and you have to read the data sheet and
+
+00:03:06.200 --> 00:03:09.720
+ see how it's getting mapped into Python.
+
+00:03:09.720 --> 00:03:14.400
+ And maybe part of the firmware guys will give me this or that support.
+
+00:03:14.400 --> 00:03:19.000
+ Right now you see only the measurements for the angles and the rotation speeds.
+
+00:03:19.000 --> 00:03:24.800
+ But there is more options and this just must be part of the firmware in Python.
+
+00:03:24.800 --> 00:03:27.680
+ And a lot of fun stuff can be done.
+
+00:03:27.680 --> 00:03:30.400
+ But even with the basic setup, it's great.
+
+00:03:30.400 --> 00:03:35.000
+ And so right now it's working for some game things for drones,
+
+00:03:35.000 --> 00:03:36.040
+ all the variable things.
+
+00:03:36.040 --> 00:03:41.720
+ And the second sensor, which is in, it's a very new and
+
+00:03:41.720 --> 00:03:45.960
+ decent BMP-5100P stands for pressure.
+
+00:03:45.960 --> 00:03:51.040
+ So this is only doing the barometric air pressure.
+
+00:03:51.040 --> 00:03:55.320
+ You always can detect pressure sensors, typically they're all metal capped and
+
+00:03:55.320 --> 00:03:56.280
+ have a small hole.
+
+00:03:56.280 --> 00:03:59.160
+ This one even has two holes, very new.
+
+00:03:59.160 --> 00:04:03.000
+ And so that the pressure, the air can get in and out.
+
+00:04:03.000 --> 00:04:06.440
+ So whenever I see something with a gap, so something must get in and
+
+00:04:06.440 --> 00:04:12.320
+ out with a sensor four years ago for the cardio batch.
+
+00:04:12.320 --> 00:04:16.800
+ It is also metal capped thing, but there was a hole for the environmental sensor.
+
+00:04:16.800 --> 00:04:20.640
+ It also did pressure and humidity, but also this gas sensing.
+
+00:04:20.640 --> 00:04:25.960
+ The beam is exactly that, you can sniff gases and see to alcohol tests or whatever.
+
+00:04:25.960 --> 00:04:30.520
+ So that's a bit smaller, two by two millimeters here.
+
+00:04:30.520 --> 00:04:32.880
+ So it's very hard to find on the carton.
+
+00:04:32.880 --> 00:04:37.880
+ This is also being used since the pressure measurement right now,
+
+00:04:37.880 --> 00:04:40.400
+ does the slide any of the mentioned, yeah.
+
+00:04:41.820 --> 00:04:47.200
+ It has a very high precision, so it's measured in pascal, the pressure.
+
+00:04:47.200 --> 00:04:53.640
+ Typically we do hecto pascal, then it's at 1013 hecto pascal or
+
+00:04:53.640 --> 00:04:58.800
+ minibar, which is the standard pressure at sea level with great weather conditions and
+
+00:04:58.800 --> 00:05:00.400
+ whatever.
+
+00:05:00.400 --> 00:05:05.160
+ This one has a resolution of less, around about half a pascal.
+
+00:05:05.160 --> 00:05:10.760
+ And this is, if you just lift it up, you get resolutions,
+
+00:05:10.760 --> 00:05:16.000
+ absolute resolutions in the range of 50 centimeters unless you really can
+
+00:05:16.000 --> 00:05:17.880
+ try to show that afterwards with the cable.
+
+00:05:17.880 --> 00:05:20.800
+ That part is difficult with the camera.
+
+00:05:20.800 --> 00:05:23.400
+ We'll see.
+
+00:05:23.400 --> 00:05:25.680
+ No, that's easy with the camera.
+
+00:05:25.680 --> 00:05:29.160
+ That you really can measure in centimeters or
+
+00:05:29.160 --> 00:05:31.080
+ few centimeters how you're lifting that.
+
+00:05:31.080 --> 00:05:36.680
+ So this is now used for example also in mobile phones and other wearable devices
+
+00:05:36.680 --> 00:05:40.480
+ that you can measure in which floor in a building you're located.
+
+00:05:40.480 --> 00:05:42.880
+ You can do that without any GPS, whatever.
+
+00:05:42.880 --> 00:05:44.680
+ And this is horribly precise.
+
+00:05:44.680 --> 00:05:49.200
+ That if you're going upstairs, you can even with that one do step counting,
+
+00:05:49.200 --> 00:05:50.360
+ stair counting.
+
+00:05:50.360 --> 00:05:54.080
+ But you play around with that, just reading out.
+
+00:05:54.080 --> 00:05:57.280
+ And you will see if you drive up the lift and
+
+00:05:57.280 --> 00:06:02.200
+ leave first floor, second floor, tremendous different numbers.
+
+00:06:02.200 --> 00:06:05.840
+ And that way it's easy to have the floor level for
+
+00:06:05.840 --> 00:06:10.560
+ then rescuing people when it's not clear where you are, when you can't see things
+
+00:06:10.560 --> 00:06:11.760
+ anymore.
+
+00:06:11.760 --> 00:06:16.440
+ In United States, they are just planning that there will be requirements or
+
+00:06:16.440 --> 00:06:20.800
+ maybe it's already law that you have to have devices where you can track people
+
+00:06:20.800 --> 00:06:24.720
+ and know in which floor it is in case of fire and other accidents.
+
+00:06:24.720 --> 00:06:29.520
+ And you can read out the thing at a very high speed, at least with,
+
+00:06:29.520 --> 00:06:32.480
+ I think, 480 hertz, maybe even more.
+
+00:06:33.680 --> 00:06:35.880
+ Also there, data sheet tells a lot more.
+
+00:06:35.880 --> 00:06:39.360
+ So this is a pressure sensor, but it also provides, for example, a temperature.
+
+00:06:39.360 --> 00:06:45.480
+ Because the physics of the pressure sensor must be calibrated a bit.
+
+00:06:45.480 --> 00:06:48.600
+ So if the temperature is higher, they have to know the temperature and
+
+00:06:48.600 --> 00:06:55.000
+ just make sure the measurement of the pressure is always very precise.
+
+00:06:55.000 --> 00:07:00.240
+ And yeah, since you can detect movements, you can use it in a lot of indoor and
+
+00:07:00.240 --> 00:07:04.560
+ outdoor and whatever applications and getting better every year.
+
+00:07:04.560 --> 00:07:05.200
+ That was back.
+
+00:07:05.200 --> 00:07:09.120
+ And now there's a small movie, hope this is working.
+
+00:07:09.120 --> 00:07:14.960
+ No, that's going back.
+
+00:07:14.960 --> 00:07:18.400
+ I want to start the movie, please.
+
+00:07:18.400 --> 00:07:26.880
+ To show how, that's the PDFs, that's wrong.
+
+00:07:26.880 --> 00:07:28.800
+ We need the browser.
+
+00:07:28.800 --> 00:07:37.680
+ Here's the first example, a little bit.
+
+00:07:37.680 --> 00:07:45.600
+ How the acceleration sensor is working internally to get a rough idea on what
+
+00:07:45.600 --> 00:07:47.560
+ it's useful, can you hear anything?
+
+00:07:47.560 --> 00:07:48.400
+ So that should be it.
+
+00:07:48.400 --> 00:07:51.680
+ >> The sensors detect a vehicle impact as well as the smallest movements of
+
+00:07:51.680 --> 00:07:53.600
+ a smartphone or wearables.
+
+00:07:53.600 --> 00:07:57.360
+ [MUSIC]
+
+00:07:57.360 --> 00:08:01.640
+ The acceleration sensor consists of a signal processing chip and
+
+00:08:01.640 --> 00:08:03.840
+ a micro-mechanical comb-like structure.
+
+00:08:03.840 --> 00:08:07.920
+ These combs form a capacitor and
+
+00:08:07.920 --> 00:08:11.120
+ the distance between the microstructures determines its capacity.
+
+00:08:11.120 --> 00:08:14.800
+ The blue part of this structure is movable.
+
+00:08:14.800 --> 00:08:20.200
+ Depending on acceleration or deceleration,
+
+00:08:20.200 --> 00:08:22.560
+ they change their position relative to each other.
+
+00:08:23.760 --> 00:08:28.720
+ The resulting change in capacitance is detected by the integrated electronics,
+
+00:08:28.720 --> 00:08:32.800
+ converted into a measured value, and output into a voltage signal.
+
+00:08:32.800 --> 00:08:39.680
+ [MUSIC]
+
+00:08:39.680 --> 00:08:44.680
+ >> So there's a little bit of animation how that acceleration sensor works
+
+00:08:44.680 --> 00:08:49.440
+ internally, having that structure made of silicon, which is like a spring and
+
+00:08:49.440 --> 00:08:55.000
+ can move when you shift it around, then it's pulled down by gravity.
+
+00:08:55.000 --> 00:08:59.760
+ Or if you accelerate and throw away your mobile phone, these things will shake and
+
+00:08:59.760 --> 00:09:07.800
+ then you can detect what was moved and you have this in all three dimensions.
+
+00:09:07.800 --> 00:09:11.280
+ The z dimension looks a little bit different, but can be measured and
+
+00:09:11.280 --> 00:09:13.680
+ you get the measurements, that's quite nice.
+
+00:09:13.680 --> 00:09:16.920
+ Yes? >> This was only one dimension.
+
+00:09:16.920 --> 00:09:18.760
+ >> This is only an example for one dimension.
+
+00:09:18.760 --> 00:09:21.840
+ Then you have the terms for the second dimension for why.
+
+00:09:21.840 --> 00:09:23.200
+ Don't ask me about the second dimension.
+
+00:09:23.200 --> 00:09:25.960
+ It's a little bit different, but the physics is more or less the same.
+
+00:09:25.960 --> 00:09:32.360
+ So this pressure sensor is also a small animation here.
+
+00:09:32.360 --> 00:09:38.720
+ [MUSIC]
+
+00:09:38.720 --> 00:09:42.000
+ >> There are two chips in this housing, a circuit for
+
+00:09:42.000 --> 00:09:44.600
+ signal processing and the sensor itself.
+
+00:09:46.800 --> 00:09:51.240
+ The micro-mechanical sensor chip is furnished with a pressure-sensitive
+
+00:09:51.240 --> 00:09:52.480
+ membrane.
+
+00:09:52.480 --> 00:09:57.280
+ Electrical resistors on the membrane are connected together to form a wheat stone
+
+00:09:57.280 --> 00:09:57.800
+ bridge.
+
+00:09:57.800 --> 00:10:04.520
+ Changes in pressure cause the membrane to change shape.
+
+00:10:04.520 --> 00:10:08.240
+ An electrical voltage proportionate to the amount of distortion
+
+00:10:08.240 --> 00:10:10.920
+ is created at the resistors.
+
+00:10:10.920 --> 00:10:15.000
+ The change in voltage is the result of the ambient pressure.
+
+00:10:15.000 --> 00:10:21.200
+ In analog sensors, the typical signal voltage generated is between 0 and 5 volts.
+
+00:10:21.200 --> 00:10:27.200
+ [MUSIC]
+
+00:10:27.200 --> 00:10:30.920
+ I'm not sure if I can just tap in.
+
+00:10:30.920 --> 00:10:33.440
+ [MUSIC]
+
+00:10:33.440 --> 00:10:36.600
+ Analog sensors, the typical signal voltistors.
+
+00:10:36.600 --> 00:10:38.880
+ The chip.
+
+00:10:38.880 --> 00:10:41.920
+ >> Actually, that's not exactly what your sensor is doing.
+
+00:10:41.920 --> 00:10:44.280
+ So that membrane thing is the same.
+
+00:10:44.280 --> 00:10:46.680
+ It's a very, very thin slice of silicon.
+
+00:10:46.680 --> 00:10:50.440
+ It's moving up and down depending on where the pressure from the holes,
+
+00:10:50.440 --> 00:10:52.480
+ more or less, air is coming in.
+
+00:10:52.480 --> 00:10:57.000
+ But for the first time in our sensor history,
+
+00:10:57.000 --> 00:11:00.680
+ this sensor what you've got now is not with resistors anymore.
+
+00:11:00.680 --> 00:11:03.720
+ But it's a capacitive sensor.
+
+00:11:03.720 --> 00:11:08.000
+ So you have that silicon plane and another conducting plane.
+
+00:11:08.000 --> 00:11:09.360
+ So it's a capacity.
+
+00:11:09.360 --> 00:11:12.400
+ And if you press down, the capacity will change and
+
+00:11:12.400 --> 00:11:16.240
+ you're measuring the change in capacity.
+
+00:11:16.240 --> 00:11:20.720
+ One of the advantages is that you need less current, so it's more power efficient.
+
+00:11:20.720 --> 00:11:24.360
+ And also the resolution and
+
+00:11:24.360 --> 00:11:29.800
+ the noise level of the signal is quite much better than the generation before.
+
+00:11:29.800 --> 00:11:33.880
+ But just seeing there's a membrane, it's somehow getting pressed down and
+
+00:11:33.880 --> 00:11:37.360
+ up, that's all the principle of all those pressure sensors.
+
+00:11:37.360 --> 00:11:41.320
+ Before, you had some resistors and piezo resistive things.
+
+00:11:41.320 --> 00:11:43.160
+ And now we're doing that capacitive part.
+
+00:11:43.160 --> 00:11:53.720
+ And all those sensors which Bosch is doing both for
+
+00:11:53.720 --> 00:11:57.000
+ the consumer electronics and also for the automotive,
+
+00:11:57.000 --> 00:12:00.640
+ they're all produced in Reutlingen, so south of Stuttgart.
+
+00:12:00.640 --> 00:12:03.560
+ That's the only fab doing those technologies.
+
+00:12:03.560 --> 00:12:08.920
+ Those ASICs which do the software and
+
+00:12:08.920 --> 00:12:12.840
+ analog measurement things, then they are done somewhere in the world.
+
+00:12:12.840 --> 00:12:16.120
+ So that's regular technique for doing any chips, but
+
+00:12:16.120 --> 00:12:20.400
+ how the sensors are working with moving parts and this micro mechanics and so
+
+00:12:20.400 --> 00:12:25.920
+ things, that's very specific what Bosch and a few other companies are also doing.
+
+00:12:25.920 --> 00:12:30.480
+ And they are coming from that fab in Reutlingen.
+
+00:12:30.480 --> 00:12:34.840
+ Bosch recently built up a new fab in Dresden, so this,
+
+00:12:34.840 --> 00:12:38.120
+ I think there's a second slide on that.
+
+00:12:38.120 --> 00:12:43.160
+ Yeah, in Reutlingen we are producing things on 15 centimeters or
+
+00:12:43.160 --> 00:12:49.200
+ 20 centimeters modules, wafers, so 20 centimeters and around about that.
+
+00:12:49.200 --> 00:12:50.960
+ I have one in the tent, if you come to the tent,
+
+00:12:50.960 --> 00:12:53.880
+ I also can show how 20 centimeter wafer looks like.
+
+00:12:53.880 --> 00:12:58.680
+ In Dresden, they recently built up a new fab running at 30 centimeters, so
+
+00:12:58.680 --> 00:13:04.520
+ it's only 10 centimeters more, but it's two size the area.
+
+00:13:04.520 --> 00:13:09.040
+ So you get more chips out of a single wafer which you are processing and
+
+00:13:09.040 --> 00:13:12.560
+ those process things run for weeks.
+
+00:13:12.560 --> 00:13:14.560
+ You have to etch them, you have to cover them,
+
+00:13:14.560 --> 00:13:18.200
+ you have to keep them at a dedicated temperature.
+
+00:13:18.200 --> 00:13:22.720
+ It's a lot of steps getting any chip or also the MEMS,
+
+00:13:22.720 --> 00:13:25.280
+ even MEMS takes sometimes a little bit more.
+
+00:13:25.280 --> 00:13:28.560
+ And right now in Reutlingen they are building a new fab for
+
+00:13:28.560 --> 00:13:32.480
+ getting even more production because we can't produce as much chips and
+
+00:13:32.480 --> 00:13:36.520
+ sensors as the market is asking for, horrible.
+
+00:13:36.520 --> 00:13:41.080
+ Yeah, and it's just a portfolio what we also do in sensor tech.
+
+00:13:41.080 --> 00:13:47.840
+ It's not only the acceleration and gyro sensor, we have the gas sensors,
+
+00:13:47.840 --> 00:13:51.760
+ which you maybe got four years ago, the environmental sensor,
+
+00:13:51.760 --> 00:13:56.840
+ where you can try to detect volatile organic components.
+
+00:13:56.840 --> 00:14:02.440
+ I call other things not CO2 directly, but other gases.
+
+00:14:02.440 --> 00:14:04.800
+ We have the pressure things which you now got and
+
+00:14:04.800 --> 00:14:07.360
+ there are also other things you can use.
+
+00:14:07.360 --> 00:14:10.480
+ Since it's moving somehow, you can use it as a micro speaker,
+
+00:14:10.480 --> 00:14:14.600
+ you can move the same technology for microphones, things like that.
+
+00:14:14.600 --> 00:14:19.560
+ And there are magnets, so that's a lot of the third measurement thing.
+
+00:14:19.560 --> 00:14:23.080
+ Now we have the six degrees of freedom for three times acceleration,
+
+00:14:23.080 --> 00:14:24.480
+ that's gyro.
+
+00:14:24.480 --> 00:14:29.680
+ This is enough for having the orientation in room that I don't know exactly where
+
+00:14:29.680 --> 00:14:33.480
+ you're pointing to, but I don't have an absolute orientation if I'm looking north
+
+00:14:33.480 --> 00:14:38.320
+ or south with an extra three axis of a magnet compass.
+
+00:14:38.320 --> 00:14:41.480
+ I have the full control and measurement where it's going to.
+
+00:14:41.480 --> 00:14:46.680
+ And this is such a picture, again, you always have this mechanical thing,
+
+00:14:46.680 --> 00:14:49.720
+ the MEMS, which does physical effects.
+
+00:14:49.720 --> 00:14:53.840
+ And then you have to have a second chip where you do the analog measurements and
+
+00:14:53.840 --> 00:14:54.440
+ things like that.
+
+00:14:54.440 --> 00:14:58.120
+ And those things are getting smaller and smaller.
+
+00:14:58.120 --> 00:15:03.760
+ And now we stack multiple of the sensors and multiple of the chips in a whole
+
+00:15:03.760 --> 00:15:06.640
+ sensor which is less than a millimeter in height.
+
+00:15:06.640 --> 00:15:12.400
+ That as many of these things can get in a mobile phone because mobile phones are
+
+00:15:12.400 --> 00:15:14.120
+ getting so much smaller every year.
+
+00:15:14.120 --> 00:15:22.080
+ And the numbers, you may want to remember the chip is less than a millimeter height,
+
+00:15:22.080 --> 00:15:27.440
+ which is huge because then the final sensor sometimes should be only 0.6 or
+
+00:15:27.440 --> 00:15:28.680
+ 0.5 millimeters.
+
+00:15:28.680 --> 00:15:33.080
+ So after all the processing from the lower part, a lot of silicon is getting
+
+00:15:33.080 --> 00:15:37.200
+ removed and it's thin enough to fit in the requirements for the mobile phones,
+
+00:15:37.200 --> 00:15:39.200
+ things like that.
+
+00:15:39.200 --> 00:15:44.760
+ But since it's larger wafers of that size, 20 centimeters, you have plenty of them
+
+00:15:44.760 --> 00:15:45.760
+ if they're so small.
+
+00:15:45.760 --> 00:15:50.360
+ And just I think a last number.
+
+00:15:50.360 --> 00:15:57.560
+ So on this acceleration sensor, if you think having the same structure in
+
+00:15:57.560 --> 00:16:04.840
+ a football stadium, then the gap between this moving part and the lower part,
+
+00:16:04.840 --> 00:16:10.480
+ if it's the whole field of the football stadium, it's around about 10 centimeters
+
+00:16:10.480 --> 00:16:14.680
+ above the lawn, above the grass.
+
+00:16:14.680 --> 00:16:22.840
+ And the moving part itself, it's only one centimeter thin silicon structure,
+
+00:16:22.840 --> 00:16:27.240
+ which is then shaking around things as it's incredibly small and working incredibly
+
+00:16:27.240 --> 00:16:28.240
+ nice.
+
+00:16:28.240 --> 00:16:30.000
+ Ah, advertisement.
+
+00:16:30.000 --> 00:16:34.040
+ If you want to talk at Bosch, talk to me.
+
+00:16:34.040 --> 00:16:38.080
+ So even right now, it's a little bit difficult.
+
+00:16:38.080 --> 00:16:44.240
+ It's really, I'm now at Bosch only for 10 years and only for a single project,
+
+00:16:44.240 --> 00:16:49.040
+ not doing sensors, actually, but it's really a good company.
+
+00:16:49.040 --> 00:16:56.560
+ And Bosch SensorTech is a self-independent company.
+
+00:16:56.560 --> 00:16:59.440
+ We are GmbH in Germany.
+
+00:16:59.440 --> 00:17:04.120
+ But we belong to Bosch AE because everything comes from the automotive
+
+00:17:04.120 --> 00:17:09.520
+ fab, but we are quite independent of what's going on in the automotive market
+
+00:17:09.520 --> 00:17:12.360
+ because the customers are different, the speed is different.
+
+00:17:14.080 --> 00:17:18.000
+ The requirements for the chips are way different compared to the automotive chips.
+
+00:17:18.000 --> 00:17:23.920
+ So here it's all about size, power, power supply, whatever, and every new mobile
+
+00:17:23.920 --> 00:17:27.920
+ phone generation needs new sensors.
+
+00:17:27.920 --> 00:17:34.360
+ And in automobile industry, you have a lot of power, you have a lot of space,
+
+00:17:34.360 --> 00:17:38.800
+ and you also can dissipate heat, not a topic for modern sensors.
+
+00:17:38.800 --> 00:17:42.840
+ But they have to last for 25 and more years.
+
+00:17:42.840 --> 00:17:48.040
+ So it's very, very difficult, different, but the technology is identical.
+
+00:17:48.040 --> 00:17:49.960
+ Sometimes they are used more or less the same.
+
+00:17:49.960 --> 00:17:52.920
+ What?
+
+00:17:52.920 --> 00:17:53.160
+ Yeah.
+
+00:17:53.160 --> 00:17:59.800
+ I appreciate being there, and at least one guy at Bosch even has the opportunity
+
+00:17:59.800 --> 00:18:01.120
+ coming to the next camp maybe.
+
+00:18:01.120 --> 00:18:03.480
+ No need to be me.
+
+00:18:03.480 --> 00:18:07.000
+ So that was just getting in touch somewhere.
+
+00:18:07.000 --> 00:18:13.600
+ I brought a box with also small cards and info cards where you can get a community
+
+00:18:13.600 --> 00:18:18.480
+ portal where you can get in direct contact with other developers and also
+
+00:18:18.480 --> 00:18:22.840
+ with our developers inside Bosch Sensor Tech themselves and asking them questions
+
+00:18:22.840 --> 00:18:27.280
+ if you have ideas and things about these sensors and anything else which is on
+
+00:18:27.280 --> 00:18:28.800
+ public market.
+
+00:18:28.800 --> 00:18:35.920
+ Some of the sensors are made specific for a single customer.
+
+00:18:35.920 --> 00:18:39.400
+ They say, "We need that requirement and make the compass like this."
+
+00:18:39.400 --> 00:18:46.640
+ But a lot of the sensors you can get as a single chip and from all the small
+
+00:18:46.640 --> 00:18:50.560
+ companies doing like Seed Studio, Adafruit, whatever way can play around with
+
+00:18:50.560 --> 00:18:53.000
+ the single device because they're also small.
+
+00:18:53.000 --> 00:18:58.920
+ You don't want to handle that as a non-professional typically soldering the
+
+00:18:58.920 --> 00:19:03.520
+ small 2x2 millimeters and smaller things with a bulk-grid array.
+
+00:19:04.760 --> 00:19:06.400
+ That's for the slides.
+
+00:19:06.400 --> 00:19:08.640
+ Any questions about MEMS and things?
+
+00:19:08.640 --> 00:19:13.680
+ Otherwise, I would hurry into just showing a few lines of Python and how to do that.
+
+00:19:13.680 --> 00:19:17.760
+ Just one question.
+
+00:19:17.760 --> 00:19:24.920
+ For the controller, what chip do you use inside this chip?
+
+00:19:24.920 --> 00:19:25.920
+ I mean, what core?
+
+00:19:25.920 --> 00:19:33.080
+ The question was for the controllers inside those sensors, which cores will we use?
+
+00:19:34.080 --> 00:19:36.480
+ If it was ARC, whatever.
+
+00:19:36.480 --> 00:19:42.880
+ Some of them are dedicated IPs we're using internally for very low power, very small,
+
+00:19:42.880 --> 00:19:43.880
+ very code, whatever.
+
+00:19:43.880 --> 00:19:49.880
+ Right now, it's nothing which is on a regular market.
+
+00:19:49.880 --> 00:19:52.880
+ The old ones have a 16-bit CPU.
+
+00:19:52.880 --> 00:19:57.680
+ The new ones have a 32-bit CPU where the registers are 32-bit.
+
+00:19:57.680 --> 00:20:00.080
+ Typically, that's not running a lot of code.
+
+00:20:00.080 --> 00:20:06.400
+ Even if they're doing AI now these days for detecting easier, better detecting for gestures,
+
+00:20:06.400 --> 00:20:11.280
+ movement, styles, whatever that you can say, you're not moving equally on both legs, things
+
+00:20:11.280 --> 00:20:13.880
+ like that, you should go to your autobetist or whatever.
+
+00:20:13.880 --> 00:20:20.280
+ This is all in very, very few kilobytes of code.
+
+00:20:20.280 --> 00:20:24.280
+ There are plans.
+
+00:20:24.280 --> 00:20:29.680
+ Just Bosch joined the RISC-V, Quintin Solzhen, whatever, improving that.
+
+00:20:29.680 --> 00:20:35.280
+ But right now, except for doing lab stuff and playing around for next generation things,
+
+00:20:35.280 --> 00:20:37.280
+ I've not seen any RISC-V.
+
+00:20:37.280 --> 00:20:39.280
+ But it's very small things.
+
+00:20:39.280 --> 00:20:44.680
+ Since those sensors are running, even if you're a mobile phone, for example, or you're
+
+00:20:44.680 --> 00:20:48.880
+ a hearable and whatever, the small wearable devices which have a small battery anyway,
+
+00:20:48.880 --> 00:20:52.080
+ they must be as power efficient as possible.
+
+00:20:52.080 --> 00:20:53.080
+ That's the main part.
+
+00:20:53.080 --> 00:20:55.280
+ So no one will program them.
+
+00:20:55.280 --> 00:20:59.880
+ There are a few of the sensors even in the public market, you can upload your own firmware
+
+00:20:59.880 --> 00:21:03.480
+ and do things directly on that chip, which is very efficient.
+
+00:21:03.480 --> 00:21:08.160
+ Then you only signal the host CPU or something happened or I have measurement data for you
+
+00:21:08.160 --> 00:21:11.280
+ in a wider scale, things like that.
+
+00:21:11.280 --> 00:21:15.280
+ Okay.
+
+00:21:15.280 --> 00:21:17.280
+ So let's...
+
+00:21:17.280 --> 00:21:23.280
+ I have to rescale.
+
+00:21:23.280 --> 00:21:25.280
+ I want to show a little bit.
+
+00:21:25.280 --> 00:21:28.280
+ The USB cable is still missing.
+
+00:21:28.280 --> 00:21:32.280
+ Where's my USB cable?
+
+00:21:32.280 --> 00:21:40.280
+ So now the idea is, can you see the...
+
+00:21:40.280 --> 00:21:45.280
+ Can I see the video signal from the camera that the batch is running here?
+
+00:21:45.280 --> 00:21:47.280
+ Okay.
+
+00:21:47.280 --> 00:21:48.280
+ That's...
+
+00:21:48.280 --> 00:21:50.280
+ The contrast is not perfect, but that's fine.
+
+00:21:50.280 --> 00:21:52.280
+ If you can see it, it's good.
+
+00:21:52.280 --> 00:21:58.280
+ So if you want to program the thing, just use your USB cable, plug it in while it's running.
+
+00:21:58.280 --> 00:22:03.280
+ And I'm a command line guy, so you can have this wonderful IDE and whatever.
+
+00:22:03.280 --> 00:22:06.280
+ It depends a little bit on your operating systems.
+
+00:22:06.280 --> 00:22:10.280
+ But getting the first steps and also understanding a little bit how it's going on.
+
+00:22:10.280 --> 00:22:17.280
+ You can use any terminal program of your choice.
+
+00:22:17.280 --> 00:22:21.280
+ On Linux, on my thing.
+
+00:22:22.280 --> 00:22:24.280
+ Number one, but...
+
+00:22:24.280 --> 00:22:30.280
+ Oh, there was some garbage in front of the command line.
+
+00:22:30.280 --> 00:22:36.280
+ And if you do that, it's just connecting.
+
+00:22:36.280 --> 00:22:37.280
+ Nothing happens.
+
+00:22:37.280 --> 00:22:39.280
+ You still see the logo running.
+
+00:22:39.280 --> 00:22:44.280
+ And if I press Ctrl+C, I get a Python command line.
+
+00:22:47.280 --> 00:22:51.280
+ And then you can do everything you know, what you can do in Python.
+
+00:22:51.280 --> 00:22:54.280
+ You just start using it at the desktop, or whatever.
+
+00:22:54.280 --> 00:22:57.280
+ Who had never used Python so far?
+
+00:22:57.280 --> 00:23:01.280
+ So a few ones. Okay.
+
+00:23:01.280 --> 00:23:04.280
+ And Python is an interesting language.
+
+00:23:04.280 --> 00:23:06.280
+ I can't tell anything about it.
+
+00:23:06.280 --> 00:23:13.280
+ And for how to use it, the most important line is this one.
+
+00:23:15.280 --> 00:23:20.280
+ And it will give a lot of output how to use this console thing.
+
+00:23:20.280 --> 00:23:23.280
+ And the only important line of the whole thing, for me at least...
+
+00:23:23.280 --> 00:23:26.280
+ Oh, there's more stuff on the top, which I didn't notice.
+
+00:23:26.280 --> 00:23:28.280
+ Pin machine.
+
+00:23:28.280 --> 00:23:32.280
+ So this is how you control low-level things.
+
+00:23:32.280 --> 00:23:35.280
+ A single pin, if you have an eval board or playing around with that thing.
+
+00:23:35.280 --> 00:23:39.280
+ Not sure how valuable that part is for the patch.
+
+00:23:39.280 --> 00:23:41.280
+ I didn't even notice it.
+
+00:23:41.280 --> 00:23:45.280
+ There's even a small example how you can do basic Wi-Fi configuration on your own.
+
+00:23:45.280 --> 00:23:47.280
+ That's Python. It's all a few lines of code.
+
+00:23:47.280 --> 00:23:49.280
+ And you can connect to your Wi-Fi.
+
+00:23:49.280 --> 00:23:54.280
+ Or you can make your own Wi-Fi access point and run a web thing.
+
+00:23:54.280 --> 00:24:00.280
+ Just looking up in the internet for microPython, there's so many important things.
+
+00:24:00.280 --> 00:24:05.280
+ The only thing which I now want to show for the command line demo thing...
+
+00:24:05.280 --> 00:24:08.280
+ The Ctrl+E mode, which we'll use in a second.
+
+00:24:08.280 --> 00:24:11.280
+ And what's unfortunately not working, what I'm very used to...
+
+00:24:11.280 --> 00:24:15.280
+ In a normal shell, I could press Ctrl+L and it would clear the screen.
+
+00:24:15.280 --> 00:24:17.280
+ You can have my typing in the top.
+
+00:24:17.280 --> 00:24:19.280
+ Here it's not working.
+
+00:24:19.280 --> 00:24:25.280
+ And now you have to get started somewhere.
+
+00:24:25.280 --> 00:24:34.280
+ Somehow one possibility is just looking in the docs for the web page flower.garden.docs.
+
+00:24:34.280 --> 00:24:37.280
+ And... Oh, I should have prepared that.
+
+00:24:37.280 --> 00:24:42.280
+ Let's see.
+
+00:24:42.280 --> 00:24:47.280
+ Docs.
+
+00:24:47.280 --> 00:24:50.280
+ Doesn't work now.
+
+00:24:50.280 --> 00:24:55.280
+ So there you get explanation of several modules.
+
+00:24:55.280 --> 00:25:01.280
+ If you ever use Python a little bit, you can do some arithmetic thing.
+
+00:25:04.280 --> 00:25:07.280
+ So this is now floating point thing.
+
+00:25:07.280 --> 00:25:13.280
+ It doesn't know about Py, but if I import a module math...
+
+00:25:13.280 --> 00:25:17.280
+ And then I can do math.py.
+
+00:25:17.280 --> 00:25:19.280
+ And it even knows mathematics.
+
+00:25:19.280 --> 00:25:23.280
+ So there are modules which you can import, and then you have that function.
+
+00:25:23.280 --> 00:25:26.280
+ And things are in the same as true now, also for LEDs.
+
+00:25:26.280 --> 00:25:29.280
+ You only have to import LEDs.
+
+00:25:29.280 --> 00:25:31.280
+ You will find the LEDs things.
+
+00:25:31.280 --> 00:25:34.280
+ And now we have a lot of functions for LEDs.
+
+00:25:34.280 --> 00:25:38.280
+ And that's also because it's a lot of fun playing around.
+
+00:25:38.280 --> 00:25:43.280
+ And now you will notice in the display that the...
+
+00:25:43.280 --> 00:25:47.280
+ The patch will show that you're in wrapper mode.
+
+00:25:47.280 --> 00:25:52.280
+ This is the communication mode between that terminal thing.
+
+00:25:52.280 --> 00:25:54.280
+ I'm not exactly sure what it means.
+
+00:25:54.280 --> 00:26:00.280
+ You could stop it with pressing the left button or leaving here, but we don't want to do that now.
+
+00:26:00.280 --> 00:26:04.280
+ And why I like doing that on a command line, not in an editor is...
+
+00:26:04.280 --> 00:26:09.280
+ So this is now I have a lot of LEDs, whatever, and I can press tap.
+
+00:26:09.280 --> 00:26:14.280
+ And the Python system will tell me how to complete things.
+
+00:26:14.280 --> 00:26:19.280
+ So now we can see, for example, there is something which is...
+
+00:26:19.280 --> 00:26:21.280
+ LEDs, whatever.
+
+00:26:21.280 --> 00:26:23.280
+ Oh, it's just set.
+
+00:26:23.280 --> 00:26:31.280
+ When pressed tap, then we get a lot of set RGB. Let's start with the set RGB.
+
+00:26:31.280 --> 00:26:33.280
+ And it's a function.
+
+00:26:33.280 --> 00:26:37.280
+ And you always can do help in Python. It's quite nice.
+
+00:26:37.280 --> 00:26:46.280
+ Oh, and the problem in micropython is very small and all the help things, they have to be somewhere in memory.
+
+00:26:46.280 --> 00:26:49.280
+ Now we really have to go to...
+
+00:26:49.280 --> 00:26:54.280
+ Flour.
+
+00:26:54.280 --> 00:27:02.280
+ Go to bugs.
+
+00:27:02.280 --> 00:27:09.280
+ And going for programming somewhere, API.
+
+00:27:09.280 --> 00:27:19.280
+ And if you get that description, it does not tell us that you have to do import.
+
+00:27:19.280 --> 00:27:22.280
+ And then it will tell, for example, set LEDs.
+
+00:27:22.280 --> 00:27:25.280
+ This needs four parameters altogether.
+
+00:27:25.280 --> 00:27:31.280
+ It's the index of the LED from 0 to 39.
+
+00:27:31.280 --> 00:27:36.280
+ It's for the LEDs in the round circle and then values for R, G, and B.
+
+00:27:36.280 --> 00:27:39.280
+ And right now, let's see.
+
+00:27:39.280 --> 00:27:51.280
+ The first LED number 0 is this one. It's green or greenish or whatever.
+
+00:27:51.280 --> 00:27:59.280
+ And if I now go back and say set RGB, I have to give the LED number, the first one, and say...
+
+00:27:59.280 --> 00:28:02.280
+ Then it should go off.
+
+00:28:02.280 --> 00:28:07.280
+ Is this possible that you can see that? I'm not sure.
+
+00:28:07.280 --> 00:28:14.280
+ And you can do things like just make the red, green, and blue channel all three LEDs on.
+
+00:28:14.280 --> 00:28:16.280
+ And it should be...
+
+00:28:16.280 --> 00:28:20.280
+ Nothing happens. You cannot see anything.
+
+00:28:20.280 --> 00:28:25.280
+ And looking back on the documentation, the important thing is you have to call update.
+
+00:28:25.280 --> 00:28:32.280
+ So you can do a lot of set this LED, the first one, the second one, and only if you call update,
+
+00:28:32.280 --> 00:28:34.280
+ what the documentation is saying.
+
+00:28:34.280 --> 00:28:40.280
+ But it's not working that way because it's update from the last module.
+
+00:28:40.280 --> 00:28:44.280
+ And if I do that, now it should be white.
+
+00:28:44.280 --> 00:28:46.280
+ Can you see that, thanks, Sibar?
+
+00:28:46.280 --> 00:28:48.280
+ No, it's not.
+
+00:28:48.280 --> 00:28:52.280
+ It's about this LED, which is now white.
+
+00:28:52.280 --> 00:28:54.280
+ Let's do the same thing again.
+
+00:28:54.280 --> 00:29:01.280
+ So with only make it full red, green and blue, we're too off.
+
+00:29:01.280 --> 00:29:07.280
+ And now I have at least cursor functions in history, so it's quite easy now playing around.
+
+00:29:07.280 --> 00:29:10.280
+ It should be red.
+
+00:29:10.280 --> 00:29:14.280
+ Okay. At least I can see it and you can see it too.
+
+00:29:14.280 --> 00:29:20.280
+ On that way, you can experiment a little bit how it's working, and you have to do the update thing again.
+
+00:29:20.280 --> 00:29:25.280
+ So you're looking at either at the docs again, what's available, or just doing let's dot -- what is available?
+
+00:29:25.280 --> 00:29:27.280
+ What can I set?
+
+00:29:27.280 --> 00:29:32.280
+ You will notice it's also -- now I have to specify for every single LED what you want to do.
+
+00:29:32.280 --> 00:29:37.280
+ But I also set all RGB at once.
+
+00:29:37.280 --> 00:29:49.280
+ So I can do set all RGB at once.
+
+00:29:49.280 --> 00:29:58.280
+ And now I have to only remove the index and say, okay, make all the LEDs to full white.
+
+00:29:58.280 --> 00:30:02.280
+ And again, nothing happens because we need the update.
+
+00:30:02.280 --> 00:30:06.280
+ And now everything is white and black, and so we can play around with that one.
+
+00:30:06.280 --> 00:30:20.280
+ And that's the easy way how we can get to that larger font.
+
+00:30:20.280 --> 00:30:22.280
+ And I prepared a few small examples.
+
+00:30:22.280 --> 00:30:33.280
+ Now this is how I really -- if I use Python, figure out module dot what's available and how do I do GPIO and how the hardware is working.
+
+00:30:33.280 --> 00:30:39.280
+ And now if this is all working, then you can do things like import LEDs.
+
+00:30:39.280 --> 00:30:43.280
+ Time is giving me a time function where I can do time dot sleep.
+
+00:30:43.280 --> 00:30:47.280
+ And then in Python you always have to indent if you have while loops.
+
+00:30:47.280 --> 00:30:49.280
+ So this is an infinite loop while everything.
+
+00:30:49.280 --> 00:30:53.280
+ And now this is counting up from zero to 39.
+
+00:30:53.280 --> 00:30:56.280
+ So it's 40 steps from zero to 39.
+
+00:30:56.280 --> 00:31:00.280
+ And it's just doing a single LED.
+
+00:31:00.280 --> 00:31:03.280
+ The LED number one is getting all white.
+
+00:31:03.280 --> 00:31:04.280
+ It updates things.
+
+00:31:04.280 --> 00:31:06.280
+ It's all black.
+
+00:31:06.280 --> 00:31:08.280
+ And now I could copy that line by line.
+
+00:31:08.280 --> 00:31:19.280
+ The problem is if I now copy that and to cut and paste, then if it's getting lower, I really want to have that in an editor.
+
+00:31:19.280 --> 00:31:24.280
+ And if -- is that so intelligent that it's working?
+
+00:31:24.280 --> 00:31:27.280
+ Not sure.
+
+00:31:27.280 --> 00:31:37.280
+ Now you can see how the white LED is running around maybe depending on how -- where do you -- it's now in the upper left corner.
+
+00:31:37.280 --> 00:31:38.280
+ Okay.
+
+00:31:38.280 --> 00:31:39.280
+ I can see too.
+
+00:31:39.280 --> 00:31:40.280
+ Great.
+
+00:31:40.280 --> 00:31:47.280
+ I'm a bit surprised that this is now working because cutting and pasting, the indentation thing typically is not working with the micro Python things.
+
+00:31:47.280 --> 00:31:50.280
+ And this is what the control E in the help is for.
+
+00:31:50.280 --> 00:31:52.280
+ That's a cut and paste mode.
+
+00:31:52.280 --> 00:32:04.280
+ So typically you should press control E, then you can just put all the things from your editor, paste it in, press control D, what it says here, and it just runs your program.
+
+00:32:04.280 --> 00:32:09.280
+ And then you can have longer things and paste things or define a first function, define a second function.
+
+00:32:09.280 --> 00:32:13.280
+ If I were to do that in a function now, you could do that.
+
+00:32:13.280 --> 00:32:18.280
+ Not sure if I'm -- get that F.
+
+00:32:18.280 --> 00:32:23.280
+ I'm not a Python guy, so I could work like this hopefully.
+
+00:32:23.280 --> 00:32:24.280
+ Maybe.
+
+00:32:24.280 --> 00:32:30.280
+ Let's try.
+
+00:32:30.280 --> 00:32:31.280
+ At least there was no error.
+
+00:32:31.280 --> 00:32:32.280
+ It's not complaining.
+
+00:32:32.280 --> 00:32:36.280
+ And now I can call F.
+
+00:32:36.280 --> 00:32:38.280
+ And yeah, it's running again.
+
+00:32:38.280 --> 00:32:39.280
+ So things like that.
+
+00:32:39.280 --> 00:32:42.280
+ So you can start very small on the command line, explore how the things are working.
+
+00:32:42.280 --> 00:32:47.280
+ If you know a little bit better, you can do things like that here.
+
+00:32:47.280 --> 00:32:53.280
+ Now for a full example.
+
+00:32:53.280 --> 00:32:54.280
+ Very forceful.
+
+00:32:54.280 --> 00:32:59.280
+ Terminal tool of your choice and an editor.
+
+00:32:59.280 --> 00:33:13.280
+ The second option, because typically you don't have the terminal thing installed, and you can only do the Python command line and you want to do a little bit more, there's a command called MP remote, micro Python remote.
+
+00:33:13.280 --> 00:33:20.280
+ Very likely you don't have that installed -- not installed yet, but you can just do pip install.
+
+00:33:20.280 --> 00:33:23.280
+ So for my system it's pip 3.
+
+00:33:23.280 --> 00:33:28.280
+ So the Python command will -- oh.
+
+00:33:28.280 --> 00:33:30.280
+ And as you release.
+
+00:33:30.280 --> 00:33:31.280
+ So we'll do that later.
+
+00:33:31.280 --> 00:33:37.280
+ But that way you get the MP remote, and the MP remote is quite useful in a lot of methods.
+
+00:33:37.280 --> 00:33:39.280
+ That's sufficient for what I'm doing.
+
+00:33:39.280 --> 00:33:44.280
+ It automatically will detect where your controller is connected to.
+
+00:33:44.280 --> 00:33:48.280
+ With my terminal thing I had to specify that on my own.
+
+00:33:48.280 --> 00:33:53.280
+ And now nothing happened here on my terminal.
+
+00:33:53.280 --> 00:33:56.280
+ Let's go back to that one.
+
+00:33:56.280 --> 00:33:58.280
+ Yeah, works.
+
+00:33:58.280 --> 00:34:07.280
+ And here since it's still -- I have to press control C to stop what's running on the micro Python and still now I have the desktop calculator.
+
+00:34:07.280 --> 00:34:09.280
+ Yeah.
+
+00:34:09.280 --> 00:34:10.280
+ And it's exactly the same as the terminal.
+
+00:34:10.280 --> 00:34:16.280
+ I can press control E, go in the paste mode, get to my editor again.
+
+00:34:16.280 --> 00:34:21.280
+ Just cut and paste everything.
+
+00:34:21.280 --> 00:34:31.280
+ Using a different example now that's all the same.
+
+00:34:31.280 --> 00:34:34.280
+ Now it's doing just a color circle.
+
+00:34:34.280 --> 00:34:38.280
+ It's not RGB anymore, but there's other color options.
+
+00:34:38.280 --> 00:34:46.280
+ Use saturation value where you get a position in the color circle from 0 to 360 degrees.
+
+00:34:46.280 --> 00:34:54.280
+ And you can do the saturation if it's a little bit of red or going from between white and black and how intense it is.
+
+00:34:54.280 --> 00:34:57.280
+ Just get the color and make it full bright.
+
+00:34:57.280 --> 00:34:59.280
+ And you can run around.
+
+00:34:59.280 --> 00:35:00.280
+ Now circling.
+
+00:35:00.280 --> 00:35:02.280
+ All LEDs are the same.
+
+00:35:02.280 --> 00:35:09.280
+ So what it's doing is I said all HSV just update it, wait a little bit.
+
+00:35:09.280 --> 00:35:13.280
+ It's running now, things like that.
+
+00:35:13.280 --> 00:35:15.280
+ I can stop that again.
+
+00:35:15.280 --> 00:35:21.280
+ So if you don't specify any of the important information -- oops.
+
+00:35:21.280 --> 00:35:22.280
+ Always in the very top.
+
+00:35:22.280 --> 00:35:33.280
+ If you want to get out of that MP remote you just have to press control X and I'm back on my command line in the wrong directory.
+
+00:35:33.280 --> 00:35:38.280
+ Where is the right directory?
+
+00:35:38.280 --> 00:35:40.280
+ So next step.
+
+00:35:40.280 --> 00:35:46.280
+ Terminal is nice if you say like me I'm using that terminal thing for a lot of things.
+
+00:35:46.280 --> 00:35:48.280
+ Thank you.
+
+00:35:48.280 --> 00:35:55.280
+ But now it's more the command line again.
+
+00:35:55.280 --> 00:36:07.280
+ Right now it's quite static.
+
+00:36:07.280 --> 00:36:09.280
+ And you get a little bit of help.
+
+00:36:09.280 --> 00:36:10.280
+ Oops.
+
+00:36:10.280 --> 00:36:12.280
+ The help is only --help.
+
+00:36:12.280 --> 00:36:14.280
+ There's no main page, nothing.
+
+00:36:14.280 --> 00:36:21.280
+ I didn't look up the internet so it claims that by default it's connecting and other things which are quite helpful.
+
+00:36:21.280 --> 00:36:24.280
+ They can access the file system and things like that.
+
+00:36:24.280 --> 00:36:28.280
+ And you also can do run your file.
+
+00:36:28.280 --> 00:36:34.280
+ For example, for some LED things you just push the Python code and run it.
+
+00:36:34.280 --> 00:36:37.280
+ And now it's just doing some color circling.
+
+00:36:37.280 --> 00:36:41.280
+ It's a little bit change of the first script, of the second script.
+
+00:36:41.280 --> 00:36:46.280
+ So it's uploading that running and if I press control C the connection is stopped.
+
+00:36:46.280 --> 00:36:56.280
+ But you see it's because that 3.py is also just a simple infinite loop counting up.
+
+00:36:56.280 --> 00:37:04.280
+ And just doing --now not all the LEDs the same but oops.
+
+00:37:04.280 --> 00:37:09.280
+ I'm just preparing the color for every LED on its own.
+
+00:37:09.280 --> 00:37:16.280
+ The first LED getting color value or color circle degree zero and the next one is getting nine degrees further.
+
+00:37:16.280 --> 00:37:24.280
+ If you calculate that it's just making sure that the 40 LEDs run all around the color circle.
+
+00:37:24.280 --> 00:37:27.280
+ So now the color circle is turning around.
+
+00:37:27.280 --> 00:37:29.280
+ So it's very small follow.
+
+00:37:29.280 --> 00:37:30.280
+ You do that all.
+
+00:37:30.280 --> 00:37:37.280
+ So now you have 40 LEDs set at once before you do the update and say okay now change the color of all 40 LEDs.
+
+00:37:37.280 --> 00:37:39.280
+ Do that once and make a little sleep.
+
+00:37:39.280 --> 00:37:42.280
+ That's what's running right now.
+
+00:37:42.280 --> 00:37:43.280
+ So that way it's quite easy.
+
+00:37:43.280 --> 00:37:45.280
+ You can edit your files a little bit.
+
+00:37:45.280 --> 00:37:51.280
+ So keep for example the editor like this.
+
+00:37:51.280 --> 00:38:01.280
+ Doing that example and have a shorter path than I have.
+
+00:38:01.280 --> 00:38:03.280
+ So the very flusty thing in Unix.
+
+00:38:03.280 --> 00:38:10.280
+ So now we have a shorter prompt and now I have --then I can do run my script things like that.
+
+00:38:10.280 --> 00:38:12.280
+ That's quite nice.
+
+00:38:12.280 --> 00:38:19.280
+ The MP remote also can be helpful for playing around with your batch.
+
+00:38:19.280 --> 00:38:22.280
+ So that's for the Python things for now.
+
+00:38:22.280 --> 00:38:25.280
+ It's doing a little bit the other important commands.
+
+00:38:25.280 --> 00:38:29.280
+ You can list what's on your --these are the file systems.
+
+00:38:29.280 --> 00:38:31.280
+ You will notice it has a flash file system.
+
+00:38:31.280 --> 00:38:32.280
+ It has SD files.
+
+00:38:32.280 --> 00:38:35.280
+ I have no idea what console is all about.
+
+00:38:35.280 --> 00:38:46.280
+ And now if you try to look into the flash, it will complain with --for me not understandable error messages.
+
+00:38:46.280 --> 00:38:50.280
+ Oh and I just noticed that magic colon is showing up.
+
+00:38:50.280 --> 00:38:52.280
+ We'll have that in a minute.
+
+00:38:52.280 --> 00:38:55.280
+ Because you always have to start with a slash.
+
+00:38:55.280 --> 00:38:57.280
+ Don't ask me.
+
+00:38:57.280 --> 00:39:02.280
+ And the real command, which I didn't notice before, is really not.
+
+00:39:02.280 --> 00:39:03.280
+ So this is working.
+
+00:39:03.280 --> 00:39:09.280
+ Now you can look at the flash of your thing and you will see there's the nick.json.
+
+00:39:09.280 --> 00:39:15.280
+ And so this nick.json, unfortunately you cannot do an ls on a file but only a directory.
+
+00:39:15.280 --> 00:39:17.280
+ So what you see there is a file.
+
+00:39:17.280 --> 00:39:19.280
+ And forget about the file sizes.
+
+00:39:19.280 --> 00:39:22.280
+ Everything is size zero in that MP remote output.
+
+00:39:22.280 --> 00:39:24.280
+ Seems to be a very interesting tool.
+
+00:39:24.280 --> 00:39:30.280
+ But there is a nick thing and help again.
+
+00:39:30.280 --> 00:39:36.280
+ Somewhere we also see there's a copy command which is used like this.
+
+00:39:36.280 --> 00:39:40.280
+ And if I now try to just copy that nick thing.
+
+00:39:40.280 --> 00:39:48.280
+ So MP remote copy here to that thing.
+
+00:39:48.280 --> 00:39:50.280
+ It's not working.
+
+00:39:50.280 --> 00:39:59.280
+ And part of the trick is shown in the ls output because the ls which was working prepended a colon.
+
+00:39:59.280 --> 00:40:06.280
+ If you look at the internet thing you realize you really have to do the remote names are always with a colon.
+
+00:40:06.280 --> 00:40:12.280
+ Since this is for the ls, magically it prepends it and thinks about that for the copy.
+
+00:40:12.280 --> 00:40:15.280
+ It must know what's the remote side on your batch, what not.
+
+00:40:15.280 --> 00:40:21.280
+ So you can copy the nick file from notebook.
+
+00:40:21.280 --> 00:40:23.280
+ Copy it here and now I have a nick file.
+
+00:40:23.280 --> 00:40:26.280
+ Now you can edit that nick file with your favorite editor.
+
+00:40:26.280 --> 00:40:35.280
+ And then you can copy it back and say copy that nick file which is laying around here.
+
+00:40:35.280 --> 00:40:42.280
+ Either choose some name or here you're allowed to just say put it in the flash directory after you change your nick.
+
+00:40:42.280 --> 00:40:47.280
+ So this is the easiest way I've found so far using the MP remote copy the nick file.
+
+00:40:47.280 --> 00:40:56.280
+ Then you don't have to go in the system menu with the buttons and click around and do the mounting and unmounting.
+
+00:40:56.280 --> 00:41:00.280
+ Which does not work always for Macintosh notebooks.
+
+00:41:00.280 --> 00:41:01.280
+ Not sure if this is working.
+
+00:41:01.280 --> 00:41:02.280
+ You have to figure out.
+
+00:41:02.280 --> 00:41:06.280
+ But it's just Python things and the serial protocol hopefully it's working.
+
+00:41:06.280 --> 00:41:08.280
+ So I like that very much.
+
+00:41:08.280 --> 00:41:15.280
+ And then if you're looking in the system, time flyers.
+
+00:41:15.280 --> 00:41:19.280
+ Just we can't do that any.
+
+00:41:19.280 --> 00:41:23.280
+ You can look in the sys directory.
+
+00:41:23.280 --> 00:41:25.280
+ And you can look all the sys directory.
+
+00:41:25.280 --> 00:41:28.280
+ You will find an apps directory.
+
+00:41:28.280 --> 00:41:29.280
+ Yay.
+
+00:41:29.280 --> 00:41:34.280
+ But in apps there's all what I now installed or what came with it most recent thing.
+
+00:41:34.280 --> 00:41:38.280
+ Now you can look in one of the apps directors, for example, and get a little further.
+
+00:41:38.280 --> 00:41:39.280
+ Nick, how is it?
+
+00:41:39.280 --> 00:41:40.280
+ Oh, much.
+
+00:41:40.280 --> 00:41:48.280
+ And typically in such an application is always only showing up as two files.
+
+00:41:48.280 --> 00:41:55.280
+ This is just an it's just copied very quick.
+
+00:41:55.280 --> 00:42:00.280
+ Copy.
+
+00:42:00.280 --> 00:42:12.280
+ Copy that one to my local directory and copy the second one to my local directory.
+
+00:42:12.280 --> 00:42:21.280
+ And now we got that.
+
+00:42:21.280 --> 00:42:28.280
+ So it's not very large.
+
+00:42:28.280 --> 00:42:33.280
+ So it's just a description where it says this is the application name which you find in the menu.
+
+00:42:33.280 --> 00:42:36.280
+ This is going in the menu music or apps or whatever.
+
+00:42:36.280 --> 00:42:42.280
+ If you look at those examples, then it's the entry, how it's called and how it's getting started things.
+
+00:42:42.280 --> 00:42:47.280
+ So that way it's very easy now just creating a new directory.
+
+00:42:47.280 --> 00:42:48.280
+ There's an mcutter, whatever.
+
+00:42:48.280 --> 00:42:52.280
+ You can create a new directory.
+
+00:42:52.280 --> 00:42:56.280
+ Put in and the any file is just the Python code.
+
+00:42:56.280 --> 00:42:59.280
+ This you have to look at the documentation.
+
+00:42:59.280 --> 00:43:09.280
+ I typically learn these things all from just getting an example either from the GitHub so you can download it off from the Internet or you can directly access it now from the patch.
+
+00:43:09.280 --> 00:43:14.280
+ And since now we're running very much out of time.
+
+00:43:14.280 --> 00:43:18.280
+ That way you can collect that thing.
+
+00:43:18.280 --> 00:43:28.280
+ My plan was always I at least want to show how to access the sensor things because accessing sensor is very, very easy.
+
+00:43:28.280 --> 00:43:35.280
+ So I go just mp remote again on the command.
+
+00:43:35.280 --> 00:43:37.280
+ I've prepared something for that.
+
+00:43:37.280 --> 00:43:46.280
+ So the only thing we need for the sensors is that input state thing.
+
+00:43:46.280 --> 00:43:55.280
+ I've just looked into one of the demo applications.
+
+00:43:55.280 --> 00:44:06.280
+ Maybe hints from too many arguments from.
+
+00:44:06.280 --> 00:44:09.280
+ Oh, I dropped out of the sorry.
+
+00:44:09.280 --> 00:44:15.280
+ I want to press control. Maybe I press control X.
+
+00:44:15.280 --> 00:44:19.280
+ So let's import that module again from the big ST three M module.
+
+00:44:19.280 --> 00:44:26.280
+ I only want to have the sub module in its state and then I can do for example run from its state.
+
+00:44:26.280 --> 00:44:29.280
+ There's a method gather there.
+
+00:44:29.280 --> 00:44:30.280
+ You have to go.
+
+00:44:30.280 --> 00:44:36.280
+ We can look at what's in input state dot whatever.
+
+00:44:36.280 --> 00:44:40.280
+ That's the only thing which it provides.
+
+00:44:40.280 --> 00:44:50.280
+ And now I got an object G and with G dot whatever, I can look what's available and get rid of everything else.
+
+00:44:50.280 --> 00:44:55.280
+ And we noticed this getting something with our temperature.
+
+00:44:55.280 --> 00:45:00.280
+ So it's any questions.
+
+00:45:00.280 --> 00:45:03.280
+ And then for the rest is hidden in IMU.
+
+00:45:03.280 --> 00:45:07.280
+ This is the inertial measurement unit and IMU.
+
+00:45:07.280 --> 00:45:08.280
+ It's again an object.
+
+00:45:08.280 --> 00:45:14.280
+ So we can do dot what does the object provide and provides acceleration data.
+
+00:45:14.280 --> 00:45:18.280
+ And here you get now values for the acceleration.
+
+00:45:18.280 --> 00:45:20.280
+ Now it's laying a little bit flat.
+
+00:45:20.280 --> 00:45:26.280
+ So you can if you do it flat, just no matter what the camera is showing.
+
+00:45:26.280 --> 00:45:30.280
+ Oh, and I always get the same because I have to do the measurement.
+
+00:45:30.280 --> 00:45:38.280
+ I have to do data and if I do that, you will notice now in that direction, it's the zero point eight one whatever roundabout.
+
+00:45:38.280 --> 00:45:43.280
+ That's the gravity in a meter over a second squared.
+
+00:45:43.280 --> 00:45:46.280
+ And for X and Y, it's more or less zero.
+
+00:45:46.280 --> 00:45:53.280
+ And if I put it up, so that way you get the acceleration data.
+
+00:45:53.280 --> 00:45:57.280
+ And also here you can read the pressure thing.
+
+00:45:57.280 --> 00:46:03.280
+ This is now in Pascal and very last example.
+
+00:46:03.280 --> 00:46:10.280
+ Now this is just reading out the pressure and doing that in a loop and bring the values.
+
+00:46:10.280 --> 00:46:20.280
+ And if I try to run that in the right time, so it's quit that again, then I can do every run pressure one.
+
+00:46:20.280 --> 00:46:24.280
+ And here you get the temperature, the forty three whatever degrees.
+
+00:46:24.280 --> 00:46:28.280
+ That's the second temperature which is not working right now for that firmware.
+
+00:46:28.280 --> 00:46:35.280
+ And the pressure, I subtracted just some random number for what was the pressure two days ago.
+
+00:46:35.280 --> 00:46:37.280
+ And now this is in Hector Pascal.
+
+00:46:37.280 --> 00:46:41.280
+ It's noise of less than a Hector Pascal.
+
+00:46:41.280 --> 00:46:48.280
+ And then I transform it with something which is obviously not completely corrected in roundabout centimeters.
+
+00:46:48.280 --> 00:46:53.280
+ Now if I just move up, you will notice the second last column.
+
+00:46:53.280 --> 00:46:58.280
+ The last column moved from three eight to already three six.
+
+00:46:58.280 --> 00:47:00.280
+ So we have quite some.
+
+00:47:00.280 --> 00:47:08.280
+ If I drop it on the, I get real signal from the side which I don't understand at all.
+
+00:47:08.280 --> 00:47:14.280
+ And now you can do, let's claim the floor is forty centimeters high.
+
+00:47:14.280 --> 00:47:16.280
+ Meters, oh that's in meters.
+
+00:47:16.280 --> 00:47:21.280
+ And it's forty one point, so calibration for the right one is not working perfectly.
+
+00:47:21.280 --> 00:47:28.280
+ And a console, and our patch, the plan was now using that very first line without any more demos.
+
+00:47:28.280 --> 00:47:34.280
+ I can stop, yeah, stop that also with the left button.
+
+00:47:34.280 --> 00:47:38.280
+ Then we are getting out of this, whatever mode.
+
+00:47:38.280 --> 00:47:44.280
+ And a guy just took the time while I had flashing more patches, going to the music.
+
+00:47:44.280 --> 00:47:50.280
+ And he hacked exactly that application with Otama, Tone, whatever.
+
+00:47:50.280 --> 00:47:51.280
+ I don't know what.
+
+00:47:51.280 --> 00:47:55.280
+ Typically you have to press that left thing.
+
+00:47:55.280 --> 00:47:58.280
+ Let's see, maybe scale down sound a little bit.
+
+00:47:58.280 --> 00:48:01.280
+ I have no idea what now happens.
+
+00:48:01.280 --> 00:48:06.280
+ Headphone.
+
+00:48:06.280 --> 00:48:08.280
+ So there might be audio now.
+
+00:48:08.280 --> 00:48:19.280
+ And now it's measuring the pressure and keeps that as, oh now I'm limited by the file.
+
+00:48:19.280 --> 00:48:27.280
+ So while I press on the button, it's using that information for getting the frequency of the beeping.
+
+00:48:27.280 --> 00:48:34.280
+ The lower I go, so now the bass plate is a bit lower because I went below the table.
+
+00:48:34.280 --> 00:48:38.280
+ And there was a change of a few lines in that simple code.
+
+00:48:38.280 --> 00:48:44.280
+ He replaced just the frequency with reading out pressure sensors, scaling it a little bit, just reasonable values.
+
+00:48:44.280 --> 00:48:46.280
+ And they could play around.
+
+00:48:46.280 --> 00:48:52.280
+ Now you have all the tools, reading out things, playing around, hacking with sensors, with LEDs.
+
+00:48:52.280 --> 00:48:56.280
+ And have fun with the batch.
+
+00:48:56.280 --> 00:49:03.280
+ Thank you Harald König.
+
+00:49:03.280 --> 00:49:07.280
+ This was the last talk here.
+
+00:49:07.280 --> 00:49:12.280
+ So plenty of time for questions, or we can move to the batch tent and whatever.
+
+00:49:12.280 --> 00:49:19.280
+ You can move to the middle base info tent or to the middle base coffee tent.
+
+00:49:19.280 --> 00:49:27.280
+ We would ask you to collect some of the chairs and stack them up there somewhere.
+
+00:49:27.280 --> 00:49:32.280
+ So the next party can have a free area here.
+
+00:49:32.280 --> 00:49:35.280
+ There will be more. Cool.
+
+00:49:35.280 --> 00:49:43.280
+ So we have a nice view. Harald brought some swag with him from Bosch.
+
+00:49:43.280 --> 00:49:47.280
+ Maybe you can just move it in front.
+
+00:49:47.280 --> 00:49:56.280
+ Ah, okay. So some bags. I think four pencils, ball pens that come in more and small cards.
+
+00:49:56.280 --> 00:49:58.280
+ Ah, and stickers, very important stickers.
+
+00:49:58.280 --> 00:50:03.280
+ If you like them and then cards, how you get in contact with the community or get directly in contact with me.
+
+00:50:03.280 --> 00:50:10.280
+ And I will guide you also forward specific questions to the sensors to the developers.
+
+00:50:10.280 --> 00:50:17.280
+ Okay, thank you for your time. And enjoy the last few hours of the camp.
+
+00:50:17.280 --> 00:50:18.280
+ Thank you.
+
+00:50:18.280 --> 00:50:23.280
+ [Music]
+

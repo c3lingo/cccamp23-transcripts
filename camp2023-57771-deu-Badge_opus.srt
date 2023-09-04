@@ -1,0 +1,2044 @@
+1
+00:00:00,000 --> 00:00:13,000
+ [Musik]
+
+2
+00:00:13,000 --> 00:00:17,500
+ Hallo und herzlich willkommen zu einer neuen Ausgabe oder Episode von Frag die Teams.
+
+3
+00:00:17,500 --> 00:00:23,500
+ Ich habe mein Büro von hinter der Kamera jetzt auf die Couch verlegt, wie ich vorhin gesagt bekommen habe,
+
+4
+00:00:23,500 --> 00:00:28,500
+ und habe mir zwei Leute hier eingeladen, ebenfalls aus München, aus dem Münchner Space,
+
+5
+00:00:28,500 --> 00:00:32,500
+ aber jetzt hier vertreten hier sozusagen das Batchteam.
+
+6
+00:00:32,500 --> 00:00:39,500
+ Stellt euch doch am besten selber mal kurz vor und sagt auch jeweils welche Rollen ihr in diesem Jahr im Batchteam habt.
+
+7
+00:00:39,500 --> 00:00:49,500
+ Hallo, ich bin Schneider, involviert in den Camp-Batches seit zwölf Jahren jetzt.
+
+8
+00:00:49,500 --> 00:00:56,500
+ Und ich glaube, ich war ja Teil von allen Teams bisher, es ist immer eine andere Zusammensetzung auch.
+
+9
+00:00:56,500 --> 00:01:02,500
+ Und ich würde sagen, dieses Jahr unter anderem auch ganz von Anfang an so die Idee von
+
+10
+00:01:02,500 --> 00:01:08,500
+ wollen wir es mit Audio machen, weil das ist etwas, was Leute zusammenbringt, da könnt ihr zusammen Spaß haben.
+
+11
+00:01:08,500 --> 00:01:14,500
+ Und da vor eineinhalb Jahren oder so in das Projekt gestartet.
+
+12
+00:01:14,500 --> 00:01:21,500
+ Ich bin der Zack, ich bin ähnlich lang wie der Schneider involviert in die Batchteams.
+
+13
+00:01:21,500 --> 00:01:30,500
+ Allerdings auch angefangen hat das mit einem Münchner eigenen Batch, wo ich nur so peripher beteiligt war.
+
+14
+00:01:30,500 --> 00:01:35,500
+ Aber danach hat mich auch das Interesse gepackt und ich habe eigentlich bei allen Batches mitgemacht.
+
+15
+00:01:35,500 --> 00:01:40,500
+ Ich habe am Anfang sehr viel an der Software gemacht, allerdings auch ein bisschen an den Platinen.
+
+16
+00:01:40,500 --> 00:01:45,500
+ Und in den letzten Jahren ein bisschen weniger, also hier am Camp habe ich mir jetzt um anderes drum rum gekümmert,
+
+17
+00:01:45,500 --> 00:01:52,500
+ hier auf dem Camp ganz viel, dass die Sachen auch alle rechtzeitig ausgegeben werden können.
+
+18
+00:01:52,500 --> 00:01:55,500
+ Genau und auch weiterhin ein bisschen Software.
+
+19
+00:01:55,500 --> 00:02:03,500
+ Für den Kontext so ein bisschen, das wievielte Batch war das dann jetzt sozusagen in eurer Zählung, das ihr verantwortet habt?
+
+20
+00:02:03,500 --> 00:02:06,500
+ Das ist das vierte Camp-Batch.
+
+21
+00:02:06,500 --> 00:02:11,500
+ Und das heißt, das eStack-Batch, das Zack vorhin erzählt hat, eStack 2010, war dann das fünfte sozusagen.
+
+22
+00:02:11,500 --> 00:02:17,500
+ Das ist Nullte. Wir zählen bei Null, ich vergaß. Also fünf Batches und jetzt ist es wieder.
+
+23
+00:02:17,500 --> 00:02:26,500
+ Also für die Leute, die jetzt verwirrt sind, 2010 hatten wir in München eine kleinere Veranstaltung mit ein paar hundert Teilnehmern.
+
+24
+00:02:26,500 --> 00:02:37,500
+ Und da haben wir uns gedacht, wir wollen so einen Platinen-Batch machen für die Leute zum Experimentieren.
+
+25
+00:02:37,500 --> 00:02:46,500
+ Und wir waren uns total unsicher, ob das eine gute Idee ist oder nicht und haben für irgendwie zwei, drei Euro einzelne Platinen in Form eines Hasen gebaut.
+
+26
+00:02:46,500 --> 00:02:54,500
+ Ein schwarzer Hase, der, wenn es dunkel wurde, die Augen angemacht hat mit so kleinen Leuchtaugen mit LEDs.
+
+27
+00:02:54,500 --> 00:02:59,500
+ Und dann haben wir uns gedacht, okay, wenn wir jetzt schon die Platine haben, dann können wir da ja noch ein paar mehr Leiterbahnen drauf machen.
+
+28
+00:02:59,500 --> 00:03:10,500
+ Und wir hatten, glaube ich, 300 Platinen gemacht und 100 Sets mit einzelnen Bauteilen, die wir dann dazu ausgegeben haben.
+
+29
+00:03:10,500 --> 00:03:13,500
+ Und wir waren uns unsicher, oha, wollen das die Leute überhaupt?
+
+30
+00:03:13,500 --> 00:03:16,500
+ Wie lange hat es gedauert, bis es ausverkauft war?
+
+31
+00:03:16,500 --> 00:03:20,500
+ Ich weiß nicht, aber es war extrem schnell alles weg. Und wir haben gedacht, wo kriegt man das jetzt noch?
+
+32
+00:03:20,500 --> 00:03:25,500
+ Und keine Ahnung, das Feedback war halt extrem gut von diesem Projekt.
+
+33
+00:03:25,500 --> 00:03:38,500
+ Und dann war so die Frage, in einem Jahr ist ja dann auch Camp, ist das vielleicht etwas, was wir nochmal tun würden für das Camp 2011 dann damals?
+
+34
+00:03:38,500 --> 00:03:43,500
+ Dieses erste Badge war halt große Motivation, das zu tun.
+
+35
+00:03:43,500 --> 00:03:47,500
+ Wie hieß das Badge dann fürs Camp 2011?
+
+36
+00:03:47,500 --> 00:03:50,500
+ Das war die Rocket. Also ich habe auch eine hier gerade oben.
+
+37
+00:03:50,500 --> 00:03:54,500
+ Also es ist fast schon zum ikonischen Design geworden.
+
+38
+00:03:54,500 --> 00:04:05,500
+ Es ist relativ simpel, einfach nur ein Mikrocontroller und ein Funkchip, ein Display und ein Akku hinten drauf.
+
+39
+00:04:05,500 --> 00:04:17,500
+ Wir hatten uns damals gedacht, wir wollen irgendwas machen, das Leute dazu motiviert, mit so Embedded-Plattformen, also mit Mikrocontrollern zu interagieren, das nicht ein Arduino ist.
+
+40
+00:04:17,500 --> 00:04:19,500
+ Wir wollten ihnen tatsächlich einfach mal was anderes geben.
+
+41
+00:04:19,500 --> 00:04:31,500
+ Und auch etwas haben, dass zum Beispiel im amerikanischen Bereich gab es zu dem Zeitpunkt schon Badges, relativ lange für die Veranstaltung, die hatten aber immer nicht wiederaufladbare Batterien hinten drauf und ähnliches.
+
+42
+00:04:31,500 --> 00:04:36,500
+ Und wir wollten etwas haben, dass zumindest ein Akku hat, der sich wieder aufladen lässt.
+
+43
+00:04:36,500 --> 00:04:42,500
+ Dieses Gerät ist ja jetzt auch zwölf Jahre alt und es funktioniert einfach immer noch. Das finde ich ziemlich gut.
+
+44
+00:04:42,500 --> 00:04:45,500
+ Aber das, was unten dran ist, ist eine Extension, oder?
+
+45
+00:04:45,500 --> 00:04:47,500
+ Ja.
+
+46
+00:04:47,500 --> 00:04:56,500
+ Wir hatten uns gedacht, das ist ja ein Hacker-Camp, aber dann machen wir hier jetzt einfach Stecker hin für Leute, um irgendwas zu machen.
+
+47
+00:04:56,500 --> 00:05:06,500
+ Und dann plötzlich kam jemand und hat diese Dinger dazu produziert, so eine kleine Flamme als Antrieb.
+
+48
+00:05:06,500 --> 00:05:12,500
+ Wir wussten gar nichts davon und da kann man hier draufstecken und dann hat man eine kleine Antriebsflamme hier.
+
+49
+00:05:12,500 --> 00:05:14,500
+ Das war sehr schön.
+
+50
+00:05:14,500 --> 00:05:18,500
+ Aber die Buchsen musst du dir dann von Hand löten wahrscheinlich, oder?
+
+51
+00:05:18,500 --> 00:05:22,500
+ Ja, das ist eine Geschichte für sich.
+
+52
+00:05:22,500 --> 00:05:28,500
+ Ich hatte damals die Entscheidung getroffen, diese Buchsen hier aufzulöten.
+
+53
+00:05:28,500 --> 00:05:31,500
+ Das ist teuer. Das machen wir von Hand.
+
+54
+00:05:31,500 --> 00:05:34,500
+ Dann haben wir das 3.000 Mal von Hand jeweils zwei Buchsen gemacht.
+
+55
+00:05:34,500 --> 00:05:40,500
+ Und dann habe ich mir gedacht, nie wieder etwas tausendmal von Hand löten.
+
+56
+00:05:40,500 --> 00:05:44,500
+ Wie war es dann 2015? Wie ist dann das Badge?
+
+57
+00:05:44,500 --> 00:05:46,500
+ Vielleicht ein bisschen ein bisschen klammer.
+
+58
+00:05:46,500 --> 00:05:49,500
+ Das nächste Badge war dann das Radio-Badge.
+
+59
+00:05:49,500 --> 00:05:55,500
+ Das war zu einer Zeit, wo wir uns auch in München viel mit Software Defined Radio beschäftigt haben.
+
+60
+00:05:55,500 --> 00:06:02,500
+ Und das damals für den Einsteiger günstigste, brauchbare Software Defined Radio war das HKF.
+
+61
+00:06:02,500 --> 00:06:13,500
+ Und es schien möglich, mit den Connections, die wir in der Zwischenzeit hatten, dass wir relevante Bauteile für sowas gesponsert bekommen.
+
+62
+00:06:13,500 --> 00:06:18,500
+ Und haben uns gedacht, das wäre auch cool, wenn wir einfach allen Camp-Teilnehmern ein Software Defined Radio in die Hand drücken könnten.
+
+63
+00:06:18,500 --> 00:06:26,500
+ Und haben dann nach längeren Versuchen es auch geschafft, irgendwie große Teile der Chips da drauf zu bekommen.
+
+64
+00:06:26,500 --> 00:06:31,500
+ Und haben uns gedacht, wir machen ein HKF-kompatibles Design.
+
+65
+00:06:31,500 --> 00:06:37,500
+ Die ist natürlich viel größer geworden und sieht auch nicht so schön aus wie die Dings.
+
+66
+00:06:37,500 --> 00:06:42,500
+ Das liegt einfach daran, dass sie so voll ist, dass einfach nicht mehr so viel Platz für Kreativität übrig war.
+
+67
+00:06:42,500 --> 00:06:47,500
+ Da ist auch der größte Teil der Energie in das Bauen dieses Dings eingeflossen.
+
+68
+00:06:47,500 --> 00:06:53,500
+ Deswegen ist auch die Software da drauf, also die Bench-Funktionalität, ist mehr oder minder abgekupfert.
+
+69
+00:06:53,500 --> 00:06:55,500
+ Der Code von der Rocket wiederverwendet.
+
+70
+00:06:55,500 --> 00:06:59,500
+ Und dann aber ist es halt ein vollwertiges Software Defined Radio.
+
+71
+00:06:59,500 --> 00:07:01,500
+ Das ist im Prinzip ein HKF.
+
+72
+00:07:01,500 --> 00:07:10,500
+ Also wir haben halt in besonders Schneider Software das HKF so modifiziert, dass sie mit den Änderungen, die wir machen mussten, klar kommt.
+
+73
+00:07:10,500 --> 00:07:18,500
+ Und ich finde es bis heute einen extremen, sozusagen einen Meilenstein, den wir da geschafft haben.
+
+74
+00:07:18,500 --> 00:07:26,500
+ Und ich hatte schon das Gefühl, dass wir auch viele Leute dazu gebracht haben, motiviert haben, sich mal das anzuschauen, was so mit Software Defined Radio geht.
+
+75
+00:07:26,500 --> 00:07:33,500
+ Und es gibt doch viele Leute, die die heute noch verwenden, weil es funktioniert ja auch immer noch.
+
+76
+00:07:33,500 --> 00:07:41,500
+ Normalerweise gab es da noch einen Akku dazu, aber den braucht man natürlich nicht, wenn man es eher an den Rechner anschließen will, um an Software Defined Radio zu sein.
+
+77
+00:07:41,500 --> 00:07:45,500
+ Es gehen auch diverse Sachen Standalone drauf, das ist glaube ich etwas eingeschlafen.
+
+78
+00:07:45,500 --> 00:07:48,500
+ Aber das war...
+
+79
+00:07:48,500 --> 00:07:52,500
+ Aber sozusagen, das ist ein Universal Sender und Empfänger für den großen Frequenzbereich.
+
+80
+00:07:52,500 --> 00:07:56,500
+ Ich glaube, ich habe auch schon Leute gesehen, die da Baustellenampeln damit gesteuert haben.
+
+81
+00:07:56,500 --> 00:07:59,500
+ Ja, könnte sein.
+
+82
+00:07:59,500 --> 00:08:02,500
+ Ich erinnere mich an...
+
+83
+00:08:02,500 --> 00:08:04,500
+ Warum waren wir damals im Software Defined Radio so drin?
+
+84
+00:08:04,500 --> 00:08:09,500
+ Weil wir uns das Iridium-Satellitentelefonienetzwerk angeschaut haben und da so reingekommen sind.
+
+85
+00:08:09,500 --> 00:08:16,500
+ Dann hat man irgendwann so diesen Punkt, ich brauche mehr Software Defined Radios mit größerem Bandbreite und die sind einfach teuer.
+
+86
+00:08:16,500 --> 00:08:26,500
+ Und das HKF damals war so, das war im 300 Euro Bereich und wir haben das hier für so irgendwo zwischen 20 und 30 Euro Selbstkosten zu bauen.
+
+87
+00:08:26,500 --> 00:08:29,500
+ Das war einfach ein Campticket dabei für jeden Smartticket.
+
+88
+00:08:29,500 --> 00:08:34,500
+ Ich kenne Leute, die haben das dann danach verkauft und Camptickets wieder rein bekommen.
+
+89
+00:08:34,500 --> 00:08:39,500
+ Das war jetzt nicht die Intention und wir waren auch ein bisschen überrascht davon.
+
+90
+00:08:39,500 --> 00:08:43,500
+ Aber ich glaube, das ist die Ausnahme gewesen.
+
+91
+00:08:43,500 --> 00:08:52,500
+ Und wir kennen viele Leute, die haben gesagt, ja, ich bin jetzt nicht so im Software Defined Radio drin, aber Leute haben mich sofort gefragt, ob sie es haben können und weiterverwenden können.
+
+92
+00:08:52,500 --> 00:08:54,500
+ Was einfach im Space zusammenkommt.
+
+93
+00:08:54,500 --> 00:08:59,500
+ Genau, und das ist bis heute im Einsatz bei vielen Leuten und machen Dinge.
+
+94
+00:08:59,500 --> 00:09:06,500
+ Ich erinnere mich, als wir dann einen Vortrag gehalten haben zum Thema Satellitentelefonie packen letztlich,
+
+95
+00:09:06,500 --> 00:09:16,500
+ haben wir das Radio da auf den Tisch gelegt im Zelt und unsere Software gestartet und von den Satelliten Nachrichten empfangen mit dem Radio auf dem Camp im Zelt.
+
+96
+00:09:16,500 --> 00:09:19,500
+ Und das war schon einfach super.
+
+97
+00:09:19,500 --> 00:09:23,500
+ Generell, ihr könnt jetzt unter diesem Video hier auf MedaCCD auch auf die Empfehlung schauen.
+
+98
+00:09:23,500 --> 00:09:26,500
+ Da findet man hoffentlich dann eure Talks zu Iridium.
+
+99
+00:09:26,500 --> 00:09:28,500
+ Drei oder vier müssen das inzwischen sein.
+
+100
+00:09:28,500 --> 00:09:33,500
+ Sucht einfach mal nach Sack und Schneider oder drückt hier oben neben dem Titel.
+
+101
+00:09:33,500 --> 00:09:39,500
+ Da steht ein Personennamen, da landet direkt auf der Personennamen, suche und dann sind da die anderen Vorteile, die wir gerade defensiert haben an der Stelle.
+
+102
+00:09:39,500 --> 00:09:43,500
+ 2019, wie hieß da das Badge?
+
+103
+00:09:43,500 --> 00:09:46,500
+ Das ist Cardio Badge gewesen.
+
+104
+00:09:46,500 --> 00:09:48,500
+ 1312, Zufall.
+
+105
+00:09:48,500 --> 00:09:51,500
+ Weiß nicht, sieht man das hier?
+
+106
+00:09:51,500 --> 00:09:57,500
+ Also es zeigt jetzt gerade die Uhrzeit an, es hat so einen Besteunigungs-Sensor drin und ein EKG und ähnliches.
+
+107
+00:09:57,500 --> 00:10:03,500
+ Das kam, also wir hatten uns halt überlegt, was wollen wir machen?
+
+108
+00:10:03,500 --> 00:10:08,500
+ Also wir hatten jetzt schon so ein pures Namensschild, das einfach ein schönes Design hat.
+
+109
+00:10:08,500 --> 00:10:14,500
+ Wir hatten das Radio, das wirklich extrem auf Funktionalität getrimmt ist.
+
+110
+00:10:14,500 --> 00:10:18,500
+ Also hier kam das Design irgendwie ganz am Ende.
+
+111
+00:10:18,500 --> 00:10:24,500
+ Das war so, okay, wir haben eine rechteckige Platine und, äh, Sekunde, wir wollten eigentlich ein Badge machen und was machen wir denn jetzt?
+
+112
+00:10:24,500 --> 00:10:31,500
+ Dann hat irgendjemand noch diese Antenne dazu designt, also das ist nur ein Wein für LEDs, das ist keine echte Antenne.
+
+113
+00:10:31,500 --> 00:10:33,500
+ Das ist in keinem Fall bekannt.
+
+114
+00:10:33,500 --> 00:10:41,500
+ Also so Platinmaterial ist ja extrem, das ist ein Display, das nicht angeklebt ist, aber so Platinmaterial ist ja extrem stabil.
+
+115
+00:10:41,500 --> 00:10:45,500
+ Und dann war so, okay, aber was wollen wir denn jetzt machen?
+
+116
+00:10:45,500 --> 00:10:53,500
+ Also mein persönlicher Anspruch ist so, ich will kein Telefon bauen, also ich oder anders, ich will Dinge machen, die ein Telefon nicht kann.
+
+117
+00:10:53,500 --> 00:10:56,500
+ Oder wenn ich einfach so eine App auf dem Telefon machen könnte.
+
+118
+00:10:56,500 --> 00:11:04,500
+ Und wir hatten dann überlegt, ist das ein LoRa-Warngerät oder ein Development Board mit Sachen zum draufstecken.
+
+119
+00:11:04,500 --> 00:11:09,500
+ Weil es ist ja jetzt nicht ein Selbstzweck, einen Camp-Batch zu machen.
+
+120
+00:11:09,500 --> 00:11:17,500
+ Also wir wollen ja nicht Camp-Batches machen, um Camp-Batches zu machen, sondern es soll auch irgendwie ein Sinn dahinter stehen.
+
+121
+00:11:17,500 --> 00:11:30,500
+ Und einer unserer Kontakte bei einem Halbleiter-Hersteller meinte so, hey, wir haben hier diesen Chip, der ist für EKG-Signale aufnehmen gedacht.
+
+122
+00:11:30,500 --> 00:11:33,500
+ Ist das irgendwie interessant für euch?
+
+123
+00:11:33,500 --> 00:11:42,500
+ Und so aus rein persönlichem Interesse und Familienhistory habe ich mir gedacht, so EKG aufnehmen, das finde ich interessant.
+
+124
+00:11:42,500 --> 00:11:49,500
+ Das ist etwas so Biosignature-Zeug, würde ich gerne den Leuten in die Hand geben zum Spielen.
+
+125
+00:11:49,500 --> 00:11:51,500
+ Mal schauen, was rauskommt.
+
+126
+00:11:51,500 --> 00:11:56,500
+ Und dann so, okay, wir haben diesen Chip, der kann EKG machen, was ist denn ein Formfaktor für ein Gerät?
+
+127
+00:11:56,500 --> 00:12:02,500
+ Hängt das einem um den Oberkörper oder wo ist das?
+
+128
+00:12:02,500 --> 00:12:10,500
+ Und naja, eine Uhr war dann ungefähr das, oder am Handgelenk besser gesagt, war der natürliche Ort für sowas.
+
+129
+00:12:10,500 --> 00:12:17,500
+ Und damals war auch die Apple Watch gerade so mit EKG und keine Ahnung, aber ich glaube, man kam nicht an die Daten,
+
+130
+00:12:17,500 --> 00:12:20,500
+ oder es war in Europa noch nicht freigeschaltet und so.
+
+131
+00:12:20,500 --> 00:12:23,500
+ Und da habe ich gedacht, wir können das auch in frei machen.
+
+132
+00:12:23,500 --> 00:12:30,500
+ Und dann können die Leute selber mit ihren Daten agieren, müssen das nicht in irgendein proprietäres Universum da reinschieben.
+
+133
+00:12:30,500 --> 00:12:39,500
+ Ja, und daraus ist dann das Cardio entstanden und das ist dann auch immer so ein, du hast da so eine Funktionalität,
+
+134
+00:12:39,500 --> 00:12:42,500
+ das ist vielleicht nur interessant für ein Subset der Leute, die da sind.
+
+135
+00:12:42,500 --> 00:12:46,500
+ Aber bunte Lichter zum Beispiel ist immer etwas, was Leute interessiert.
+
+136
+00:12:46,500 --> 00:12:51,500
+ Und meine Güte, also haben wir halt eine Menge LEDs draufgebaut und auch noch,
+
+137
+00:12:51,500 --> 00:13:00,500
+ Leute haben dann halt lustige, zumindest ja, ein paar linke Sachen drauf gemacht, das kann man nachts anziehen, das wird Party.
+
+138
+00:13:00,500 --> 00:13:07,500
+ Also wir haben auch noch andere Sensoren dazu gemacht, so ein Luftqualitätssensor, Luftdruck und so weiter.
+
+139
+00:13:07,500 --> 00:13:13,500
+ Also wir haben jetzt gedacht, wenn wir da schon Sensoren draufpacken, dann schauen wir, was wir alles noch unterbringen in dem Formfaktor
+
+140
+00:13:13,500 --> 00:13:16,500
+ und was wir von irgendwelchen Sponsoren bekommen können.
+
+141
+00:13:16,500 --> 00:13:22,500
+ Und haben halt noch ein paar Sensoren mehr, Sachen mehr draufgebaut, damit das,
+
+142
+00:13:22,500 --> 00:13:29,500
+ kann theoretisch auch den Puls über eine LED auf der Rückseite messen.
+
+143
+00:13:29,500 --> 00:13:33,500
+ Auch dafür gibt es ja einen Talk bei der RZ3 dann.
+
+144
+00:13:33,500 --> 00:13:38,500
+ Ich glaube, das war die größte Videofraktion, die wir hier als ihr bei uns im Club gemacht habt.
+
+145
+00:13:38,500 --> 00:13:43,500
+ Metrahex und Schneider sozusagen, auch den findet ihr einfach in der MedaZity.de-Suche.
+
+146
+00:13:43,500 --> 00:13:49,500
+ Da geht ja nochmal genauer drauf ein, wie die Software sich auch nochmal weiterentwickelt hat nach dem Camp sozusagen.
+
+147
+00:13:49,500 --> 00:13:53,500
+ Da sollte ich da jetzt vielleicht auch nochmal erwähnen, also Seck und ich sitzen jetzt hier.
+
+148
+00:13:53,500 --> 00:13:59,500
+ Warum sitzen wir hier? Weil wir wahrscheinlich so über die Jahre eine Konstante sind.
+
+149
+00:13:59,500 --> 00:14:04,500
+ Aber die Teams sind natürlich viel größer, da sind jede Menge Leute drin,
+
+150
+00:14:04,500 --> 00:14:10,500
+ die höchst unterschiedliche Aufgaben übernehmen und auch immer mal wieder tauschen
+
+151
+00:14:10,500 --> 00:14:13,500
+ und neue Leute kommen dazu oder gehen wieder.
+
+152
+00:14:13,500 --> 00:14:18,500
+ Also wir sind nur ein Repräsentativ wirklich.
+
+153
+00:14:18,500 --> 00:14:23,500
+ Ich habe immer wieder den Effekt, mein Name wird ganz viel genannt mit den Badges,
+
+154
+00:14:23,500 --> 00:14:28,500
+ aber es sind sehr viele Leute damit beschäftigt, die wahnsinnig gute Arbeit machen.
+
+155
+00:14:28,500 --> 00:14:35,500
+ Und wir können nur nochmal betonen, wir sind nur Teil eines Teams oder Teilen mehrerer verschiedener Teams gewesen.
+
+156
+00:14:35,500 --> 00:14:41,500
+ Wie fängt das an? Also wann fängst du damit die Intuition und das Flower-Batch an?
+
+157
+00:14:41,500 --> 00:14:46,500
+ Dann hast du deinen ersten Pro-Typ zusammengebaut und wie suchst du dir dann das Team, das diesmal mitmacht?
+
+158
+00:14:46,500 --> 00:14:49,500
+ Gehst du aktiv auf die Leute zu oder wie läuft sowas ab?
+
+159
+00:14:49,500 --> 00:14:53,500
+ Erstmal ist ja immer die Frage, wer fängt denn irgendwann mal an?
+
+160
+00:14:53,500 --> 00:15:00,500
+ Scheinbar landet das dann immer bei uns, aber das ist ja jetzt auch keine Gegebenheit direkt.
+
+161
+00:15:00,500 --> 00:15:05,500
+ Und es ist immer auch eins, okay, macht es Sinn nochmal was zu tun?
+
+162
+00:15:05,500 --> 00:15:12,500
+ Gibt es eine Idee, die relevant, aushaltend motivierend ist, um sich nochmal diesen ganzen Stress anzutun?
+
+163
+00:15:12,500 --> 00:15:16,500
+ Und oft ist ja dann auch nach der Veranstaltung nochmal so eine Phase von
+
+164
+00:15:16,500 --> 00:15:22,500
+ wir wollen das Projekt jetzt erstmal ausdehnen und nochmal in die Tiefe gehen mit dem, was wir gemacht haben.
+
+165
+00:15:22,500 --> 00:15:27,500
+ Und dann so ein bis zwei Jahre vorher kommt so die Frage, wollen wir jetzt nochmal was machen?
+
+166
+00:15:27,500 --> 00:15:36,500
+ Und in dem Fall war das jetzt so Anfang 2022, so Februar würde ich sagen,
+
+167
+00:15:36,500 --> 00:15:40,500
+ war so die Synthesizer, lass mal das mit Audio und Synthesizer machen.
+
+168
+00:15:40,500 --> 00:15:47,500
+ Und wir haben dann mit einer anderen Person dann ausgetauscht und wir haben uns überlegt,
+
+169
+00:15:47,500 --> 00:15:54,500
+ ist das jetzt eine Loopstation oder hat es Knöpfe zum Drehen, ist das ein Keyboard,
+
+170
+00:15:54,500 --> 00:16:03,500
+ hat es ein HDMI-Ausgang und ein FPGA, ganz, ganz high level, was könnte es denn überhaupt sein?
+
+171
+00:16:03,500 --> 00:16:10,500
+ Und so wirklich auf den Punkt gekommen, was ist es, ist so ungefähr vor einem Jahr und zwei Wochen,
+
+172
+00:16:10,500 --> 00:16:15,500
+ haben wir letztens festgestellt, hatten wir so das erste Meeting in München mit ein paar mehr Leuten.
+
+173
+00:16:15,500 --> 00:16:21,500
+ Mikrofon ausgegangen? Okay.
+
+174
+00:16:21,500 --> 00:16:26,500
+ Und wir hatten aber immer noch nicht so wirklich eine Idee, wie sieht es aus?
+
+175
+00:16:26,500 --> 00:16:32,500
+ Und dann ist eine Person gekommen und hat gesagt, es könnte, also hat eine Zeichnung gezeigt, es könnte ungefähr so aussehen.
+
+176
+00:16:32,500 --> 00:16:38,500
+ Also so eine zweilagige Struktur mit so Cap-Touch-Buttons und in der Mitte ein Display.
+
+177
+00:16:38,500 --> 00:16:41,500
+ Und alle im Raum waren so, ja.
+
+178
+00:16:41,500 --> 00:16:43,500
+ Das Design war schon so fertig sozusagen.
+
+179
+00:16:43,500 --> 00:16:49,500
+ Also, ungefähr genauso. Also wir haben fast keine Änderungen vorgenommen.
+
+180
+00:16:49,500 --> 00:16:56,500
+ Nur so minimal ist es ein bisschen größer geworden und die Proportionen haben sich ganz leicht geändert, aber es ist ungefähr genau das hier geworden.
+
+181
+00:16:56,500 --> 00:17:03,500
+ Und es war dann hauptsächlich, also wir sind dann durch diverse Prototypen, Iterationen durchgegangen
+
+182
+00:17:03,500 --> 00:17:08,500
+ und es gab dann auch irgendwann nochmal so Ideen von, wollen wir es vielleicht irgendwie asymmetrisch machen
+
+183
+00:17:08,500 --> 00:17:16,500
+ und Leute haben 3D-Sachen gedruckt oder sollte es vielleicht ein bisschen eckiger werden und was für ein, aber insgesamt ist es genau das geworden am Ende.
+
+184
+00:17:16,500 --> 00:17:24,500
+ Das war das Design. Also in dem Fall war jetzt die Entwicklung so ein Jahr ungefähr.
+
+185
+00:17:24,500 --> 00:17:28,500
+ Aber nicht die Vollzeit, sondern als Zeitprojekt nebenher vermutlich mal, oder?
+
+186
+00:17:28,500 --> 00:17:32,500
+ Manche Leute haben es vielleicht, würde ich sagen, eher so teilweise Vollzeit gemacht.
+
+187
+00:17:32,500 --> 00:17:38,500
+ Beim Cardio habe ich mir damals ein Sympathicle genommen für ein halbes Jahr, dieses Mal nicht.
+
+188
+00:17:38,500 --> 00:17:43,500
+ Aber gegen Ende haben Leute auch gesagt, hey, ich habe eh gerade keinen Bock auf meinen Job
+
+189
+00:17:43,500 --> 00:17:48,500
+ und ich mache jetzt hier nochmal zwei Monate quasi Vollzeit rein.
+
+190
+00:17:48,500 --> 00:17:56,500
+ Also das wächst dann so an. Am Anfang hast du gesagt, ihr wart zu zweit, habt euch ein bisschen gebrainstormt.
+
+191
+00:17:56,500 --> 00:18:00,500
+ Dann kam wahrscheinlich von derselben Person dieses Design oder?
+
+192
+00:18:00,500 --> 00:18:02,500
+ Genau.
+
+193
+00:18:02,500 --> 00:18:08,500
+ Ihr wart alle geflasht. Wie groß war das Team denn da schon? Dieses erste Kickoff-Meeting sozusagen?
+
+194
+00:18:08,500 --> 00:18:16,500
+ Ich würde sagen, es waren so ein Dutzend Leute im Raum, von denen dann ein halbes Dutzend direkt weitergemacht hat.
+
+195
+00:18:16,500 --> 00:18:19,500
+ Und über Zeit haben wir dann wieder mehr Leute eingesammelt.
+
+196
+00:18:19,500 --> 00:18:27,500
+ Es ist natürlich immer so, du brauchst manchmal sowas, was schon da ist, was Konkretes, damit Leute sich attaching können.
+
+197
+00:18:27,500 --> 00:18:31,500
+ Und vor allem ganz am Anfang musst du irgendwie ein bisschen die Idee festzurren.
+
+198
+00:18:31,500 --> 00:18:37,500
+ Weil wenn du zu weit dann rausgehst und das könnte man dann machen und du kommst ja nie zu Pott.
+
+199
+00:18:37,500 --> 00:18:43,500
+ Du bist dann eigentlich fast eher in dieser Product-Owner-Rolle, die jetzt versucht, das alles irgendwie im Zaum zu halten
+
+200
+00:18:43,500 --> 00:18:47,500
+ und eine Entscheidung in die Farbe zu führen, soll ich sagen?
+
+201
+00:18:47,500 --> 00:18:52,500
+ Nee, nee. Also eher nur so, es geht sehr organisch.
+
+202
+00:18:52,500 --> 00:19:01,500
+ Ich glaube, niemand hat da jetzt so den Hut auf von "das wird's", das muss das Team zusammen entscheiden und es muss ja auch Spaß machen.
+
+203
+00:19:01,500 --> 00:19:08,500
+ Wir arbeiten hier und kriegen Geld und es ist ein gewisses Verantwortungsgefühl da.
+
+204
+00:19:08,500 --> 00:19:14,500
+ Aber am Ende muss es den Leuten auch Spaß machen und dann entstehen die richtig coolen Sachen.
+
+205
+00:19:14,500 --> 00:19:19,500
+ Das heißt, so zwei Monate vor jetzt, wie groß war das Team da angewachsen?
+
+206
+00:19:19,500 --> 00:19:27,500
+ Ich würde sagen, da waren wir bei so einem Dutzend, vielleicht zwei Dutzend Leuten, die an verschiedensten Sachen irgendwas tun.
+
+207
+00:19:27,500 --> 00:19:32,500
+ Und dann kurz vor dem Camp wachst du wahrscheinlich an, da tauchen auch die Leute auf, die das letzte Mal gemacht haben.
+
+208
+00:19:32,500 --> 00:19:36,500
+ Dann kommen die Leute, die letztes Jahr im Zelt saßen und machen wieder ihre Dinge.
+
+209
+00:19:36,500 --> 00:19:42,500
+ Die Leute, die das letzte Mal den Trailer gemacht haben, machen dieses Mal den Trailer, dann machen die das Mal wieder den Flyer.
+
+210
+00:19:42,500 --> 00:19:46,500
+ Wie groß wird es das Team jetzt zu sehen?
+
+211
+00:19:46,500 --> 00:19:49,500
+ So zwei Dutzend Leute würde ich sagen.
+
+212
+00:19:49,500 --> 00:19:52,500
+ Dann zinkt es nach hinten aus wieder ab sozusagen.
+
+213
+00:19:52,500 --> 00:20:01,500
+ Das wechselt dann. Du gehst ja dann aus dieser Phase von "wir müssen die Hardware fertig bekommen" zu "was können wir tolle Sachen in der Software machen".
+
+214
+00:20:01,500 --> 00:20:04,500
+ Das ist ja ein anderes Skillset auch, das zieht andere Leute an.
+
+215
+00:20:04,500 --> 00:20:12,500
+ Und die Tatsache, dass das Ding jetzt da ist und verteilt ist, motiviert natürlich auch weiter, viel Arbeit reinzuschecken.
+
+216
+00:20:12,500 --> 00:20:20,500
+ Ich erinnere mich, für die Rocket hier, da hatten wir Text-Output quasi.
+
+217
+00:20:20,500 --> 00:20:27,500
+ Und kurz vor knapp kommt jemand vorbei und meint so "ich habe hier so einen Vektor-Grafik-Renderer für in einem Kilobyte Flash geschrieben.
+
+218
+00:20:27,500 --> 00:20:30,500
+ Können wir den irgendwie hier noch reinbekommen?"
+
+219
+00:20:30,500 --> 00:20:40,500
+ Und die Person ist wieder hier und hat über Zeit, ich weiß nicht, ob das aus diesem Projekt entstanden ist, eine super coole Vektor-Grafik-Rendering-Engine gebaut,
+
+220
+00:20:40,500 --> 00:20:48,500
+ die dann halt hier auch auf der Flower die ganz coolen Grafiken erzeugt und Animationen.
+
+221
+00:20:48,500 --> 00:21:03,500
+ Und da haben wir auch irgendwann gesagt "Hey, wir haben das damals im Cardio so halb eingebaut, wollen wir das wiederverwenden und wollen wir die Person nicht aktivieren und mal einen Prototypen hochschicken?"
+
+222
+00:21:03,500 --> 00:21:07,500
+ Und das hat super gefruchtet.
+
+223
+00:21:07,500 --> 00:21:16,500
+ Rocket und Radio hatten wahrscheinlich das gleiche Display oder dasselbe gradratische Display, was eigentlich von Lux der Telefonen...
+
+224
+00:21:16,500 --> 00:21:21,500
+ Das Radio-Display war dann das bunte, glaube ich, oder?
+
+225
+00:21:21,500 --> 00:21:32,500
+ Also auf der Rocket waren wir mitgeliefert, ein einfarbiges LC-Display, aber man konnte auch einen fast gleichen Formfaktor farbiges Display drauf tun.
+
+226
+00:21:32,500 --> 00:21:37,500
+ Das hatten wir in der Software dann auch irgendwann unterstützt, nicht an Tag Null, aber relativ bald.
+
+227
+00:21:37,500 --> 00:21:43,500
+ Ich weiß gar nicht, auf dem Radio ist, glaube ich, gleich per Default das farbige Display drauf gewesen, wenn ich mich richtig erinnere.
+
+228
+00:21:43,500 --> 00:21:46,500
+ Aber es ist quasi ein ähnliches Display.
+
+229
+00:21:46,500 --> 00:21:54,500
+ Beim Cardio waren dann ja auch andere Größen-Constraints gefragt.
+
+230
+00:21:54,500 --> 00:21:59,500
+ Genau, also so ein Zentimeter mal drei Zentimeter, also mehr so ein rechteckiges Display.
+
+231
+00:21:59,500 --> 00:22:02,500
+ Was wird das normalste Benutzer für irgendwelche IoT-Anwendungen, oder?
+
+232
+00:22:02,500 --> 00:22:05,500
+ Das ist tatsächlich so ein Display für so eine Smartwatch.
+
+233
+00:22:05,500 --> 00:22:08,500
+ Normalerweise ist es so 90 Grad gedreht, diese Armbänder.
+
+234
+00:22:08,500 --> 00:22:11,500
+ Aha, okay, verstehe.
+
+235
+00:22:11,500 --> 00:22:14,500
+ Ich kann noch ein bisschen ausholen zum Thema Displays.
+
+236
+00:22:14,500 --> 00:22:20,500
+ Wir haben dann, also als wir dieses Ding gebaut haben, das ist vielleicht auch noch eine andere Seite,
+
+237
+00:22:20,500 --> 00:22:26,500
+ haben wir erstmal ein rechteckiges Platin, eine rechteckige Platine gebaut und einem Bekannten wurde uns gezeigt,
+
+238
+00:22:26,500 --> 00:22:30,500
+ wir haben noch studiert, die meisten Leute in der Mensa, und ich erinnere mich an diesen Moment,
+
+239
+00:22:30,500 --> 00:22:36,500
+ und er schaute uns einfach so, das würde ich niemals ansehen, das sieht total schlecht aus, ich weiß nicht, was ich das soll.
+
+240
+00:22:36,500 --> 00:22:43,500
+ Und wir so, Gott, wir haben jetzt hier Monate in dieses Projekt gesteckt und die erste Person, die wir es zeigen, sagt, gar kein Interesse.
+
+241
+00:22:43,500 --> 00:22:53,500
+ Und dann haben wir so kurz vor Knab noch irgendwie diese Rocketform hier entworfen, ganz am Ende mit internem Design-Contest.
+
+242
+00:22:53,500 --> 00:23:03,500
+ Ja, wenn ihr mal im Münchner Space seid, da ist auch so ein schönes Brett, wo alle Instanzen, jedes Badge sozusagen mit seinen Prototypen dran ist
+
+243
+00:23:03,500 --> 00:23:07,500
+ und ich glaube, jetzt müssen wir ein neues Brett unten anbauen für die ganze Flower-Prototyp.
+
+244
+00:23:07,500 --> 00:23:12,500
+ Ja, ja. Und also Teil dieser ganzen Iteration war dann auch, welches Display wollen wir benutzen,
+
+245
+00:23:12,500 --> 00:23:16,500
+ und wir waren extrem beschränkt im Bezug auf wie viel Geld können wir ausgeben,
+
+246
+00:23:16,500 --> 00:23:20,500
+ und wir haben dann halt Sachen gesucht, die einfach auf des Shelves sind, die man einfach kaufen kann,
+
+247
+00:23:20,500 --> 00:23:28,500
+ und wir hatten so längliche Displays, die quasi mehr für Integration in Produkte gedacht sind,
+
+248
+00:23:28,500 --> 00:23:39,500
+ aber damals schon gab es so eine Szene in der Hardware-Szene diese Ideen von, wir benutzen alte Nokia-Displays aus alten Nokia-Telefonen,
+
+249
+00:23:39,500 --> 00:23:45,500
+ irgendwo Restbestände, die halt rumliegen, und die waren halt super günstig, Qualität schwankend.
+
+250
+00:23:45,500 --> 00:23:54,500
+ Das sind halt, man bestellt Nokia-Displays, aber das sind natürlich Ersatzteile von irgendwelchen chinesischen Herstellern,
+
+251
+00:23:54,500 --> 00:24:02,500
+ die sich fast zu 99 Prozent an die Spezifikation halten und deswegen meistens kompatibel sind,
+
+252
+00:24:02,500 --> 00:24:11,500
+ aber dadurch hast du natürlich auch Schwankungen in der Qualität, aber es ist halt ein extrem verbreitetes Telefondesplay gewesen,
+
+253
+00:24:11,500 --> 00:24:17,500
+ von dem es halt auch extrem viel Bestände gibt und damit ist der Preis natürlich auch hinreichend günstig gewesen.
+
+254
+00:24:17,500 --> 00:24:23,500
+ Und für uns war es damals wichtig, dass das was ist, was man im Sonnenlicht lesen kann, deswegen war das das einfarbige Display,
+
+255
+00:24:23,500 --> 00:24:29,500
+ weil wir auch damals auch noch versucht haben, möglichst viel Strom zu sparen, dass sie auch möglichst lange hält
+
+256
+00:24:29,500 --> 00:24:32,500
+ und deswegen tagsüber keine Hintergrundbeleuchtung auf dem Display anhasst.
+
+257
+00:24:32,500 --> 00:24:38,500
+ Das waren damals die Beweggründe, um dann dieses Display zu wählen.
+
+258
+00:24:38,500 --> 00:24:46,500
+ Und beim Cardio war es dann hauptsächlich getrieben durch, es muss klein sein und es stellt sich dann raus,
+
+259
+00:24:46,500 --> 00:24:52,500
+ Displays, also es gibt nur eigentlich ganz wenige echte Displayhersteller und dann ganz viel Industrie hintendran,
+
+260
+00:24:52,500 --> 00:24:58,500
+ die immer dieselben Displays mit einem anderen Glas verpackt oder ähnlichem und hier haben wir noch oft die Shelf-Sachen benutzt
+
+261
+00:24:58,500 --> 00:25:03,500
+ und es professionalisiert sich dann über die Jahre von wir nehmen irgendwelche Restbestände von Nokia
+
+262
+00:25:03,500 --> 00:25:13,500
+ zu wir nehmen ein Display, das eigentlich für so ein Produkt gedacht ist, bei der Flower, wir machen sogar custom spezifisch dieses Display
+
+263
+00:25:13,500 --> 00:25:21,500
+ für das Produkt, um es exakt da drin zu haben. Aber wir sehen vor, trotzdem sollte das Display kaputt gehen,
+
+264
+00:25:21,500 --> 00:25:31,500
+ können Leute auch auf Ebay irgendwo so ein relativ gut verfügbares anderes Display tun und da rein heiß kleben, wenn sie möchten.
+
+265
+00:25:31,500 --> 00:25:36,500
+ Wie viele verschiedene Displays habt ihr euch da angeschaut für die Flower?
+
+266
+00:25:36,500 --> 00:25:45,500
+ So drei bis vier oder so, also wir hatten auch zum Beispiel mal diesen Prototypen hier, das ist von der anderen Seite drauf geklebt, das Display.
+
+267
+00:25:45,500 --> 00:25:52,500
+ Also von den Portortionen fanden wir das jetzt nicht so gut und haben uns willigst verbessert, das irgendwie von hinten zu haben.
+
+268
+00:25:52,500 --> 00:25:55,500
+ Und da ist es dann bei dem Display gelandet.
+
+269
+00:25:55,500 --> 00:26:02,500
+ Und jetzt ist es wirklich fast glatt, also es ist die selbe Ebene wie die Platine fast, oder?
+
+270
+00:26:02,500 --> 00:26:08,500
+ Ja, wenn man hier so drauf schaut, ist es halt perfekt flach, also da geht auch kein Staub rein, also es ist fast ein Produkt, fast.
+
+271
+00:26:08,500 --> 00:26:12,500
+ Fast. Die Leute müssen es noch selber zusammenbauen an der Stelle.
+
+272
+00:26:12,500 --> 00:26:18,500
+ Da muss man dann vielleicht auch dazu sagen, also, ja klar, wenn du irgendwie zwölf Jahre lang sowas machst,
+
+273
+00:26:18,500 --> 00:26:25,500
+ dann iterierst du natürlich ganz schön und weißt, was so die Strickfallen sind.
+
+274
+00:26:25,500 --> 00:26:36,500
+ Und es wird immer besser und vielleicht ist dann auch so, die Hürde einzusteigen für neue Leute oder so, das können wir alles eh nicht,
+
+275
+00:26:36,500 --> 00:26:41,500
+ aber das muss ja auch nicht so perfekt sein, das ist überhaupt nicht notwendig.
+
+276
+00:26:41,500 --> 00:26:45,500
+ Ja, ich hatte mir vorhin noch zur Vorbereitung diesen How to Grow a Flower Talk von Tag 0 angeschaut
+
+277
+00:26:45,500 --> 00:26:49,500
+ und da war ja auch dieses, es war nur ein Pro-Typ, der war glaube ich nicht zum Einsatz gekommen,
+
+278
+00:26:49,500 --> 00:26:56,500
+ aber dieser Display Assembly Robot von Nahex, der kam ja leider nicht zum Einsatz, wenn ich das richtig sage,
+
+279
+00:26:56,500 --> 00:27:00,500
+ aber schaut euch auf jeden Fall auch mal diesen Vortrag noch an, da werden ja noch nicht mehr gesehen.
+
+280
+00:27:00,500 --> 00:27:05,500
+ Also es gibt zu jedem unserer Badges, gibt es jeweils auf dem jeweiligen Event auch einen Talk,
+
+281
+00:27:05,500 --> 00:27:09,500
+ der tiefer in dieses Badge einsteigt, wer sich für das interessiert.
+
+282
+00:27:09,500 --> 00:27:13,500
+ Ich glaube, sind alle ganz gut geworden, die Talks, man kann sich die schon anschauen,
+
+283
+00:27:13,500 --> 00:27:16,500
+ wenn ein dieses Themengebiet interessiert.
+
+284
+00:27:16,500 --> 00:27:17,500
+ Ja.
+
+285
+00:27:17,500 --> 00:27:23,500
+ Und weil du gesagt hast, man iteriert und Sachen werden besser, aber nicht alle Sachen werden besser,
+
+286
+00:27:23,500 --> 00:27:27,500
+ also es sind Probleme, die bleiben auch konstant, wie zum Beispiel der Zoll.
+
+287
+00:27:27,500 --> 00:27:33,500
+ Das ist ein Problem, von dem weiß man, aber es wird trotzdem jedes Mal genau die gleichen Probleme machen.
+
+288
+00:27:33,500 --> 00:27:38,500
+ Ja, also ihr habt ja irgendwie, wie viele verschiedenste Proton habt ihr dann noch angefordert
+
+289
+00:27:38,500 --> 00:27:42,500
+ und wie viele Mal musstet ihr mit dem Zoll telefonieren, hast du da Statistik geführt?
+
+290
+00:27:42,500 --> 00:27:46,500
+ Ich habe bestimmt über 100 Mal bei DHL aufgeholt.
+
+291
+00:27:46,500 --> 00:27:48,500
+ In den letzten drei Monaten?
+
+292
+00:27:48,500 --> 00:27:50,500
+ Im letzten paar Wochen.
+
+293
+00:27:50,500 --> 00:27:58,500
+ Also Dinge laufen nicht immer ganz kreatlinig und gerade wenn man auch Teile,
+
+294
+00:27:58,500 --> 00:28:03,500
+ wir haben ja immer viele gesponserte Teile da drauf und manchmal verlässt man sich dann auf Dinge
+
+295
+00:28:03,500 --> 00:28:09,500
+ und denkt, das geht alles klar und plötzlich ist so, oh Sekunde, das ist doch noch kein,
+
+296
+00:28:09,500 --> 00:28:13,500
+ weder ein Ja noch ein Nein und was machen wir jetzt?
+
+297
+00:28:13,500 --> 00:28:17,500
+ Und dann muss man vielleicht noch mal einen Seitenzweig aufmachen im Design,
+
+298
+00:28:17,500 --> 00:28:21,500
+ so jetzt designen wir das alles raus und nehmen irgendwo billige Bauteile her,
+
+299
+00:28:21,500 --> 00:28:25,500
+ die wir zwar selber zahlen müssen, aber immerhin wäre es dann irgendwie möglich
+
+300
+00:28:25,500 --> 00:28:30,500
+ und dann kurz vor knapp ist, ja doch, wir bekommen doch die Bauteile und dann gehst du wieder zurück,
+
+301
+00:28:30,500 --> 00:28:32,500
+ aber hast aber halt viel Zeit verloren.
+
+302
+00:28:32,500 --> 00:28:35,500
+ Wir wären gern viel früher fertig geworden, hätten mehr Puffer hinten raus gehabt,
+
+303
+00:28:35,500 --> 00:28:38,500
+ aber jetzt ist es mal wieder, mal wieder genau so geworden.
+
+304
+00:28:38,500 --> 00:28:45,500
+ Zwei Tage vor dem Camp stehen die Sachen auf dem Gelände und das ist geradezu früh gewesen dieses Mal.
+
+305
+00:28:45,500 --> 00:28:55,500
+ Beim Cardio hatten wir Probleme mit irgendwo ist ein Prozess schiefgelaufen bei der Herstellung eines Wavers
+
+306
+00:28:55,500 --> 00:29:03,500
+ und dann gab es einen Typhoon und dann hat die Bestückungsanlage gebrannt und so weiter und so fort
+
+307
+00:29:03,500 --> 00:29:10,500
+ und am Ende hatten wir dann tagweise Lieferungen von hunderten Platinen auf das Gelände
+
+308
+00:29:10,500 --> 00:29:12,500
+ und es war absolute Horror.
+
+309
+00:29:12,500 --> 00:29:15,500
+ Weil ihr einfach nicht alles durchmachen konntet wie jetzt dieses Mal,
+
+310
+00:29:15,500 --> 00:29:20,500
+ sondern wirklich dann immer so kontinuierliche Produktionszusammenbau.
+
+311
+00:29:20,500 --> 00:29:25,500
+ Und ich sag jetzt, es ist immer wieder was anderes und es ist auch immer natürlich so,
+
+312
+00:29:25,500 --> 00:29:29,500
+ man denkt sich, das könnten wir noch machen und hier könnte man noch nicht Platinenfarbe ändern
+
+313
+00:29:29,500 --> 00:29:32,500
+ und das ist auch alles cool, aber irgendwann muss man auch mal sagen,
+
+314
+00:29:32,500 --> 00:29:34,500
+ wir müssen jetzt fertig werden.
+
+315
+00:29:34,500 --> 00:29:38,500
+ Und wie ihr wisst, hat es immer geklappt, aber es ist Blut und Wasserschwitzen.
+
+316
+00:29:38,500 --> 00:29:40,500
+ Es wird schon in der Regel knapp.
+
+317
+00:29:40,500 --> 00:29:44,500
+ Also dann muss man eben tatsächlich halt auch einfach ständig mit dem Zoll telefonieren,
+
+318
+00:29:44,500 --> 00:29:50,500
+ damit das halt auch keine Minute länger da liegt als unbedingt nötig oder auch,
+
+319
+00:29:50,500 --> 00:29:56,500
+ also ich erinnere mich da an, das war noch bei der Rocket, auch mal einen Prototypen mit dem ICE-Kurier
+
+320
+00:29:56,500 --> 00:30:00,500
+ durch Deutschland schicken, damit er halt in vier Stunden da ist und nicht am nächsten Tag.
+
+321
+00:30:00,500 --> 00:30:07,500
+ Wenn halt die Zeit ausgeht, dann muss man halt kreativ werden, um das zu bekommen.
+
+322
+00:30:07,500 --> 00:30:13,500
+ Ja, und parallel zur Hardware müsst ihr natürlich die ganze Zeit die Firmware auch irgendwie zufügen bringen.
+
+323
+00:30:13,500 --> 00:30:19,500
+ Wie viele Updates habt ihr jetzt, also wie viele neue Revisionen habt ihr jetzt hier auf dem Camp von der Firmware schon gebaut?
+
+324
+00:30:19,500 --> 00:30:24,500
+ Ich glaube, wir sind jetzt bei eins, zwei, drei, vier.
+
+325
+00:30:24,500 --> 00:30:30,500
+ Also es ist die dritte Major-Version und es gab zwischendurch noch eine Bugfix-Version.
+
+326
+00:30:30,500 --> 00:30:34,500
+ Also jetzt ist eins, zwei, null gerade die aktuelle Version, aber das kann sich bis jetzt,
+
+327
+00:30:34,500 --> 00:30:36,500
+ das Video sieht, schon längst geändert haben.
+
+328
+00:30:36,500 --> 00:30:42,500
+ Für Leute, die das vielleicht mal machen wollen, folgende Beobachtung.
+
+329
+00:30:42,500 --> 00:30:48,500
+ Software für so ein Gerät ist wahrscheinlich ungefähr zehnmal so kompliziert wie die Hardware
+
+330
+00:30:48,500 --> 00:30:50,500
+ oder könnte zehnmal so viel Ressourcen verbrauchen.
+
+331
+00:30:50,500 --> 00:30:51,500
+ Das sehe ich auch auf der Arbeit.
+
+332
+00:30:51,500 --> 00:30:56,500
+ So ein Team von zwei Leuten, die Hardware machen, da kannst du 20 Leute beschäftigen, die Software dafür schreiben.
+
+333
+00:30:56,500 --> 00:30:57,500
+ Problemlos.
+
+334
+00:30:57,500 --> 00:31:04,500
+ Und früh Prototypen zu haben und ausreichend Prototypen ist A und O für gute Software.
+
+335
+00:31:04,500 --> 00:31:11,500
+ Das heißt, ihr habt ja auch, sobald ihr Prototypen zusammengelötet habt, die dann auch entsprechend weiter verschickt, damit Leute dafür Software bauen.
+
+336
+00:31:11,500 --> 00:31:19,500
+ Ja, leider ist es dann auch eine Geldfrage, Prototypen anfangs sind teuer und da investiert man schnell hunderte Euro.
+
+337
+00:31:19,500 --> 00:31:23,500
+ Da muss man sich überlegen, an dem man sie gibt, wie viel man machen will.
+
+338
+00:31:23,500 --> 00:31:32,500
+ Da ist es dann, also wir haben auch zum Beispiel dieses Jahr ist ein ESP32 zum ersten Mal drin, ein sehr verbreiteter Mikrocontroller.
+
+339
+00:31:32,500 --> 00:31:37,500
+ Und zum Beispiel das Batchteam aus den Niederlanden verwendet den auch schon sehr lange.
+
+340
+00:31:37,500 --> 00:31:42,500
+ Und wenn man so eine Plattform hat, auf der man aufbauen kann, geht das auch potenziell alles viel schneller und besser.
+
+341
+00:31:42,500 --> 00:31:50,500
+ Und das ist das, was wir jetzt auch schon haben, das ist das, was wir jetzt auch schon haben, das ist das, was wir jetzt auch schon haben.
+
+342
+00:31:50,500 --> 00:31:54,500
+ Und das ist das, was wir jetzt auch schon haben, das ist das, was wir jetzt auch schon haben.
+
+343
+00:31:54,500 --> 00:31:56,500
+ Und das ist das, was wir jetzt auch schon haben.
+
+344
+00:31:56,500 --> 00:31:58,500
+ Und das ist das, was wir jetzt auch schon haben.
+
+345
+00:31:58,500 --> 00:32:00,500
+ Und das ist das, was wir jetzt auch schon haben.
+
+346
+00:32:00,500 --> 00:32:02,500
+ Und das ist das, was wir jetzt auch schon haben.
+
+347
+00:32:02,500 --> 00:32:04,500
+ Und das ist das, was wir jetzt auch schon haben.
+
+348
+00:32:04,500 --> 00:32:06,500
+ Und das ist das, was wir jetzt auch schon haben.
+
+349
+00:32:06,500 --> 00:32:08,500
+ Und das ist das, was wir jetzt auch schon haben.
+
+350
+00:32:08,500 --> 00:32:14,500
+ Und wir haben Support für das Radio Upstream geliefert an Indie-HKF-Firmware.
+
+351
+00:32:14,500 --> 00:32:19,500
+ Die wird jetzt gemaintained von der Firma auch, die das HKF produziert.
+
+352
+00:32:19,500 --> 00:32:23,500
+ Da gibt es immer Software für die, die wird einfach weiter funktionieren.
+
+353
+00:32:23,500 --> 00:32:25,500
+ Das ist echtes Open Source-Projekt in dem Sinne.
+
+354
+00:32:25,500 --> 00:32:27,500
+ Das sind alles echte Open Source-Projekte.
+
+355
+00:32:27,500 --> 00:32:31,500
+ Aber hier ist es auch noch so, dass es halt ein existierendes Projekt mit Community war.
+
+356
+00:32:31,500 --> 00:32:33,500
+ Und das wird einfach weitergeführt.
+
+357
+00:32:33,500 --> 00:32:39,500
+ Die neuen Features, die für das HKF kommen, sind mit guter Wahrscheinlichkeit auch auf dem Radio verfügbar.
+
+358
+00:32:39,500 --> 00:32:44,500
+ Aber beim Cardio hier haben wir unsere komplett eigene Infrastruktur gebaut.
+
+359
+00:32:44,500 --> 00:32:48,500
+ Und das ist natürlich dann, wenn du nur irgendwie 3.000 oder 4.500 Stück oder so hast
+
+360
+00:32:48,500 --> 00:32:51,500
+ und es ist irgendwie extrem schwierig, dieses Ding nachzubauen,
+
+361
+00:32:51,500 --> 00:32:55,500
+ kommst du in Probleme bezüglich der Community.
+
+362
+00:32:55,500 --> 00:32:59,500
+ Weil wenn man das eben nicht frei kaufen kann, wird es echt kompliziert.
+
+363
+00:32:59,500 --> 00:33:05,500
+ Beim Flower-Batch war es jetzt eher so, lass uns Komponenten nehmen, die man tatsächlich kaufen kann.
+
+364
+00:33:05,500 --> 00:33:13,500
+ Lass uns einen Technologiestack wählen, also von der Platine her, dass man das auch nachbauen kann.
+
+365
+00:33:13,500 --> 00:33:18,500
+ Du kannst bei diversen Platinen herstellen, einfach die Gerberdateien schicken, das machen.
+
+366
+00:33:18,500 --> 00:33:22,500
+ Die Bauteile sind einfach zu kaufen.
+
+367
+00:33:22,500 --> 00:33:27,500
+ Das heißt, es ist eher die Möglichkeit, hier nochmal einzusteigen, das Projekt, auch wenn man nicht auf dem Camp war.
+
+368
+00:33:27,500 --> 00:33:32,500
+ Das ist auch unsere große Hoffnung, dass da mehr von der Community kommt.
+
+369
+00:33:32,500 --> 00:33:40,500
+ Aber ansonsten, klare Empfehlung, wenn ihr einen Badge macht, versucht auf ein Ecosystem in der Software zu setzen, das schon existiert.
+
+370
+00:33:40,500 --> 00:33:50,500
+ Das macht euch vorher das Leben einfacher und das bringt euch später viel mehr in Bezug auf Wahrscheinlichkeit,
+
+371
+00:33:50,500 --> 00:33:54,500
+ dass das Projekt weiterleben wird in Zukunft.
+
+372
+00:33:54,500 --> 00:34:00,500
+ Das heißt, wenn es ESP32 ist, dann hat der auch WLAN. Kann man dann die Firma tatsächlich übers WLAN hier auch updaten?
+
+373
+00:34:00,500 --> 00:34:04,500
+ Oder kommt ihr jetzt so best zur Flashstation im Rocket?
+
+374
+00:34:04,500 --> 00:34:12,500
+ Das ist jetzt so eine Radio-Erivan-Antwort, im Prinzip ja. Aber der Code ist noch nicht ganz da.
+
+375
+00:34:12,500 --> 00:34:20,500
+ Also es gibt einen halbfertigen Prototyp für einen Semi-automatisierten Ding, der übers WLAN die Firmware runterlädt.
+
+376
+00:34:20,500 --> 00:34:27,500
+ Dann muss man aber manuell auf dem Badge noch das Flashen. Da lässt sich sicherlich auch noch mehr automatisieren.
+
+377
+00:34:27,500 --> 00:34:34,500
+ Das erfordert halt jemand, der das dann auch schreibt. Software schreibt, Resources.
+
+378
+00:34:34,500 --> 00:34:39,500
+ Also es ist gut möglich, dass es das noch geben wird, aber im Moment, also manuell Flashen.
+
+379
+00:34:39,500 --> 00:34:42,500
+ Es gibt ja verschiedene Varianten, um sie zu Flashen.
+
+380
+00:34:42,500 --> 00:34:48,500
+ Es gibt diesen Web-Flasher mit Chromium, der relativ komfortabel ist, wenn man mehr developen möchte
+
+381
+00:34:48,500 --> 00:34:53,500
+ und sich die ESP-Sachen installiert hat, kann man es auch mit dem ESP-Tool Flashen.
+
+382
+00:34:53,500 --> 00:35:00,500
+ Oder es gibt auch eine Möglichkeit, da ist eine SD-Karte drin, die SD-Karte zu mounten, das Image da drauf zu legen
+
+383
+00:35:00,500 --> 00:35:05,500
+ und dann intern in der Batch zu sagen, nimm jetzt dieses Image als Flash-Image her.
+
+384
+00:35:05,500 --> 00:35:09,500
+ Und wir haben bei unserem Batch-Team auch eine Flashstation, wo man es anstecken kann.
+
+385
+00:35:09,500 --> 00:35:12,500
+ Und es bekommt es mit der aktuellen Firmware geflasht.
+
+386
+00:35:12,500 --> 00:35:19,500
+ Ich glaube, ihr habt diesmal auch einen App Store mit drin, inspiriert durch das hauländische Batch, wie ich es jetzt verstanden habe.
+
+387
+00:35:19,500 --> 00:35:27,500
+ Richtig, ja. Das Batch-Team aus Nierlanden hat ja schon seit vielen Jahren diesen On-Batch-App Store.
+
+388
+00:35:27,500 --> 00:35:31,500
+ Du lädst dich ins WLAN ein und kannst dann die Apps browsen und runterladen.
+
+389
+00:35:31,500 --> 00:35:35,500
+ Das haben wir diesmal auch geschafft, aufs Batch zu bringen, während der Veranstaltung.
+
+390
+00:35:35,500 --> 00:35:38,500
+ 24 Stunden haben die Leute hier so eine App Store zusammengebastelt.
+
+391
+00:35:38,500 --> 00:35:43,500
+ Das darf man wahrscheinlich nicht App Store nennen. App Directory.
+
+392
+00:35:43,500 --> 00:35:52,500
+ Und dafür, wie schnell das ging, funktioniert das wahnsinnig gut. Ich bin beeindruckt, also selbst.
+
+393
+00:35:52,500 --> 00:35:57,500
+ Und das sind natürlich dann Apps, die laufen quasi in unserem Ecosystem.
+
+394
+00:35:57,500 --> 00:36:06,500
+ Wir haben das Gerät aber von Grund auf so designt, dass es möglich ist, auch Standard-ESP32-Firmware da drauf zu tun.
+
+395
+00:36:06,500 --> 00:36:13,500
+ Einfach das Binary auf die SD-Karte legen, im Recovery auswählen, weil so ESP-Easy geht einfach.
+
+396
+00:36:13,500 --> 00:36:20,500
+ Das heißt, ich habe da wirklich so einen Bootloader, wo ich dann wie bei meinem X86-PC auch auswählen kann, was möchte ich jetzt dann für mein E-System.
+
+397
+00:36:20,500 --> 00:36:23,500
+ Richtig, ja. Irgendwie haben Leute Ado-Ino-Sachen drauf gemacht.
+
+398
+00:36:23,500 --> 00:36:32,500
+ Und die Idee ist ja auch schon, es ist ja auch vom Design her so ein bisschen, das kannst du dir zu Hause an die Wand hängen und Home Automation damit betreiben
+
+399
+00:36:32,500 --> 00:36:38,500
+ oder irgendwie einen Smart Speaker draus bauen oder whatever. Und das muss ja nicht unbedingt auf unserer Firmware sein.
+
+400
+00:36:38,500 --> 00:36:46,500
+ Und wir wollen es den Leuten möglichst einfach machen, Zugriff auf diese ganze Softwarewelt zu haben, die ja mit den ESP32 mitkommt.
+
+401
+00:36:46,500 --> 00:36:53,500
+ Ja, aber das heißt, wenn wir jetzt nochmal das Batch selber anschauen, wir haben irgendwie dieses Display in der Mitte, das ist kein Touch.
+
+402
+00:36:53,500 --> 00:36:58,500
+ Dafür touch vielleicht ein Ausendrum rum. Also sowohl das Weiße als auch das Lieder.
+
+403
+00:36:58,500 --> 00:37:03,500
+ Das war übrigens eine bewusste Entscheidung, dass das Display nicht touch ist. Die Prototypen haben Touch.
+
+404
+00:37:03,500 --> 00:37:10,500
+ Aber wir haben uns gedacht, wenn das Display kaputt geht oder Leute das nachbauen wollen, dieses spezielle Custom-Touch-Ding zu bekommen, ist extrem schwierig.
+
+405
+00:37:10,500 --> 00:37:13,500
+ Wir machen es gar nicht erst rein. Dann baut auch niemand Software dafür.
+
+406
+00:37:13,500 --> 00:37:24,500
+ Und wenn Leute das Gerät nachbauen wollen und kein Touch-Display haben, dann kommen sie nicht in das Problem, dass plötzlich Software da ist, die Touch auf dem Display will und sie kriegen das Display nicht.
+
+407
+00:37:24,500 --> 00:37:31,500
+ Sehr bewusste Entscheidung. Und dann gibt es ja auch noch ein paar andere Taster und Schalter. Geht da da am besten noch mal kurz drauf ein?
+
+408
+00:37:31,500 --> 00:37:38,500
+ Ja, wir haben uns überlegt, wo kann man auch ein paar Taster hin machen, weil nur Touch ist ein bisschen schwierig.
+
+409
+00:37:38,500 --> 00:37:44,500
+ Und das war einfach, es gibt diese Taster, wir haben uns ja hingesetzt und dann uns später überlegt, was wir damit machen.
+
+410
+00:37:44,500 --> 00:37:52,500
+ Und jetzt haben wir hier irgendwie so Menüführung drin und ganz wichtig war ein Volume-Control direkt, weil da sind ja Lautsprecher drin.
+
+411
+00:37:52,500 --> 00:37:59,500
+ Und wenn man da jetzt Musik macht und plötzlich ist das Ding laut, ein bisschen den Volume runter drehen, dann ist das ein bisschen Menüführung.
+
+412
+00:37:59,500 --> 00:38:04,500
+ Aber das heißt, das ist tatsächlich ein Synthesizer, auch wenn es viele Leute wahrscheinlich noch nicht verstanden haben, oder?
+
+413
+00:38:04,500 --> 00:38:08,500
+ Also man kann damit Musik machen, man kann sie auch zusammen hängen.
+
+414
+00:38:08,500 --> 00:38:20,500
+ Schauen wir mal. Music, was haben wir denn hier? Das wird jetzt bestimmt ganz, ganz, ganz schlimm, aber Shoegaze, das ist so eine Gitarrensimulation.
+
+415
+00:38:20,500 --> 00:38:29,500
+ Also halt ein bisschen nach unten, um das man es besser sieht. Kannst du hier schauen, wie es in Griswil ist?
+
+416
+00:38:29,500 --> 00:38:34,500
+ Ach so, aber das sind keine Beschleunigungssensoren.
+
+417
+00:38:34,500 --> 00:38:44,500
+ Ja, diese Applikation nimmt den Neigungswinkel des Beschleunigungssensors und verstimmt damit das Instrument.
+
+418
+00:38:44,500 --> 00:38:52,500
+ Okay, und dann habt ihr zwei Klinkenbuchsen, das ist Kopfhörer oder kann man da noch lustige Anträge damit machen?
+
+419
+00:38:52,500 --> 00:39:03,500
+ Wir haben einen Headset-Anschluss, da kann auch ein Mikrofon, also ein Headset angeschlossen mit Mikrofone, also vierpoliger, und dann noch ein Line-In.
+
+420
+00:39:03,500 --> 00:39:11,500
+ Und als Special-Feature haben wir uns gedacht, wäre doch cool, wenn man die Dinger mit so einem Audiokabel verbinden kann, die Flowers,
+
+421
+00:39:11,500 --> 00:39:23,500
+ und dann darüber digital Daten übertragen. Wir haben extra Hardware eingebaut, dass das geht, und du kannst über so einen Klinkenstecker auch eine LED anschließen und die zum Blinken bringen oder ähnliches.
+
+422
+00:39:23,500 --> 00:39:32,500
+ Ich habe schon die ersten Apps hier gesehen, die es erlauben, die Flowers miteinander zu verbinden und dann Daten zu übertragen über die Kopfhörerbuchse.
+
+423
+00:39:32,500 --> 00:39:36,500
+ Aber das heißt, es kann auch MIDI dann, also dieses Steuerungsding?
+
+424
+00:39:36,500 --> 00:39:47,500
+ Ja, also du könntest jetzt MIDI über USB machen, und wir haben die Hardware so designed, dass sie prinzipiell mit den meisten MIDI-Geräten, die so dreieinhalb Millimeter-Klinke machen, funktioniert.
+
+425
+00:39:47,500 --> 00:39:51,500
+ Es ist ein bisschen hacky, es sollte funktionieren.
+
+426
+00:39:51,500 --> 00:40:00,500
+ Ich habe ja auf dem Camp auch schon Installationen gesehen, wo du tatsächlich deinen Badge dann anstecken musstest, und dann hast du irgendwie eine Tastatur und Musik oder sowas gemacht.
+
+427
+00:40:00,500 --> 00:40:03,500
+ Das heißt, auch da gab es dann auch lustige Dinge.
+
+428
+00:40:03,500 --> 00:40:12,500
+ Das ist das, was es sein soll. Ich habe gestern Leute gesehen, die hatten die Sampler-Apps so vor sich, irgendjemand hat es so auf der Höhe gehalten,
+
+429
+00:40:12,500 --> 00:40:19,500
+ und alle standen im Kreis außen rum und haben so drauf rumgetippt und die Samples abgespült, hatten sehr viel Spaß und waren erleuchtet von den LEDs.
+
+430
+00:40:19,500 --> 00:40:21,500
+ Das ist genau das, was wir sehen heute.
+
+431
+00:40:21,500 --> 00:40:25,500
+ Gibt es schon ein Simon Says, wo man dann immer nachtippen muss, was kommt?
+
+432
+00:40:25,500 --> 00:40:27,500
+ Ja, Simon ist im App-Store.
+
+433
+00:40:27,500 --> 00:40:31,500
+ Okay, sehr gut. Wie viele Apps sind im App-Store aktuell?
+
+434
+00:40:31,500 --> 00:40:34,500
+ Gestern Nacht waren es 58.
+
+435
+00:40:34,500 --> 00:40:37,500
+ Und das ist MicroPython? Was schreibt man die?
+
+436
+00:40:37,500 --> 00:40:39,500
+ In MicroPython, ja.
+
+437
+00:40:39,500 --> 00:40:40,500
+ Okay.
+
+438
+00:40:40,500 --> 00:40:52,500
+ Wie sieht die Zukunft aus? Erst mal kein Badge mehr, wie jedes Mal, und dann doch wieder? Oder wie sehen eure Pläne da aus?
+
+439
+00:40:52,500 --> 00:41:04,500
+ Es gibt keine konkreten Pläne. Am vierten Mal ist es kein Selbstzweck.
+
+440
+00:41:04,500 --> 00:41:13,500
+ Es geht darum, eine gute Idee zu haben, die motiviert. Nur dann ist es sinnvoll, so etwas zu tun, nur dann kann man da die Energie reinstecken.
+
+441
+00:41:13,500 --> 00:41:17,500
+ Bisher haben es immer die Münchner gemacht, aber das ist ja auch nicht gegeben.
+
+442
+00:41:17,500 --> 00:41:22,500
+ Du freust dich, wenn du nur noch Coach spielen kannst und nicht mehr Prägt-Coordinator machen musst?
+
+443
+00:41:22,500 --> 00:41:26,500
+ Ich gebe gerne Weisheit weiter.
+
+444
+00:41:26,500 --> 00:41:33,500
+ Aber es ist jetzt nicht so, dass der CCC sagt, die Münchner machen das Badge.
+
+445
+00:41:33,500 --> 00:41:39,500
+ Es ist nur scheinbar so, dass wir meistens irgendwann an die Tür klopfen und sagen, dürfen wir nochmal?
+
+446
+00:41:39,500 --> 00:41:43,500
+ Und die Prägt-Leitung sagt dann, ja, gerne. Und so viele.
+
+447
+00:41:43,500 --> 00:41:48,500
+ So gerne sagt sie das gar nicht. Sie mag das nicht, weil das kostet Geld.
+
+448
+00:41:48,500 --> 00:41:55,500
+ Es war ja hier jetzt auch wieder im Shop und ihr konntet dadurch auch die Nachfrage relativ gut abfragen an der Stelle.
+
+449
+00:41:55,500 --> 00:42:04,500
+ Das Modell hat sich ja über die Zeit geändert. Bei der Rocket war es ja so einfach im Preis inbegriffen, das war ja auch neu und ich glaube ziemlich cool.
+
+450
+00:42:04,500 --> 00:42:17,500
+ Das war auch relativ günstig von der Produktion her. Und beim Radio sind die Kosten dann deutlich gestiegen, ein bisschen auch über das, was es eigentlich hätte sein sollen, auch mit dem ganzen Sponsoring.
+
+451
+00:42:17,500 --> 00:42:26,500
+ Und beim Cardio wurde es dann schon so langsam, wollen wir das wirklich noch allen Leuten in den Ticketpreis reintun?
+
+452
+00:42:26,500 --> 00:42:29,500
+ Wäre es nicht besser, sie entscheiden zu lassen? Und das finde ich auch sehr gut.
+
+453
+00:42:29,500 --> 00:42:39,500
+ Und das Modell haben wir dann jetzt auch weitergeführt bei der Flower und sogar noch ausgebaut zum Thema "Hey".
+
+454
+00:42:39,500 --> 00:42:46,500
+ Ich meine, da hinten hängt ja auch eine Menge Lithium hinten dran. Und vielleicht wollen das die Leute auch nicht.
+
+455
+00:42:46,500 --> 00:42:53,500
+ Also haben wir gesagt, okay, die Batterie ist optional und wir machen sie kompatibel zu einem niederländischen Badge.
+
+456
+00:42:53,500 --> 00:42:59,500
+ Damit Leute zumindest sagen können, ja, ich finde das eine Idee, aber ich will jetzt nicht noch mehr Lithium durch die Gegend ballern.
+
+457
+00:42:59,500 --> 00:43:03,500
+ Am Ende haben doch 95 Prozent der Leute die Batterie dazu gegeben.
+
+458
+00:43:03,500 --> 00:43:06,500
+ Aber ihr habt dann entsprechend weniger Batterien gekauft und die dann draußen geholt werden.
+
+459
+00:43:06,500 --> 00:43:11,500
+ Das ging sich alles jetzt gerade noch so aus, dass wir dann die Bestellung kleiner machen konnten.
+
+460
+00:43:11,500 --> 00:43:17,500
+ Eine Frage, die mir gestellt wurde, weil es irgendwo geteht ist, aber "Does the drum do?"
+
+461
+00:43:17,500 --> 00:43:19,500
+ It does.
+
+462
+00:43:19,500 --> 00:43:21,500
+ Okay. Great.
+
+463
+00:43:21,500 --> 00:43:26,500
+ Oder hat mal. Es gibt die Demo, sie ist noch nicht portiert in unser neues App-Framework.
+
+464
+00:43:26,500 --> 00:43:32,500
+ Aber wenn jemand Doom drauf sehen will, fragt mal Q3K, der hat da so ein Proof of Concept.
+
+465
+00:43:32,500 --> 00:43:34,500
+ Und ich glaube, das ist so ein, zwei Stunden Arbeit.
+
+466
+00:43:34,500 --> 00:43:38,500
+ Ja, und es gibt dann auch Doku im Wiki, spätestens wenn ihr den Talk dann in der Aufzeichnung seht.
+
+467
+00:43:38,500 --> 00:43:44,500
+ Genau. Wo kann man sich denn noch mehr Infos zu dem Projekt holen? Wie ist eure Webseite?
+
+468
+00:43:44,500 --> 00:43:46,500
+ Ich vergesse die Clément-Competition nicht.
+
+469
+00:43:46,500 --> 00:43:52,500
+ Die Webseite ist flower.garden mit einer 3 statt einem e in Flower.
+
+470
+00:43:52,500 --> 00:43:55,500
+ Genau, also immer die Zahl im Batch ist sozusagen die...
+
+471
+00:43:55,500 --> 00:44:00,500
+ Oh meine Güte. Also die Rocket hatte ja eine 0 und das Radio hatte die 1.
+
+472
+00:44:00,500 --> 00:44:04,500
+ Und beim Cardio haben wir extrem lange gesucht bis wir eine 1,0 hatten.
+
+473
+00:44:04,500 --> 00:44:09,500
+ Und dieses Jahr ist es uns einfach nicht gelungen, eine 1,1 unterzubringen. Es ist eine 3 geworden.
+
+474
+00:44:09,500 --> 00:44:10,500
+ Okay.
+
+475
+00:44:10,500 --> 00:44:12,500
+ Ja, es ist immer eine Zahl drin.
+
+476
+00:44:12,500 --> 00:44:18,500
+ Ich wollte, ich meinte nur, du wolltest noch von der Demo-Competition, die heute Abend stattfindet, erzählen.
+
+477
+00:44:18,500 --> 00:44:20,500
+ Genau. Mach doch.
+
+478
+00:44:20,500 --> 00:44:33,500
+ Du weißt mehr. Also es gibt eine Demo-Competition, bei der auch ein Block oder ein Eintrag, die Demos auf der Flower sind.
+
+479
+00:44:33,500 --> 00:44:36,500
+ Die findet heute Abend um, was war das, 21 Uhr?
+
+480
+00:44:36,500 --> 00:44:37,500
+ In NordX.
+
+481
+00:44:37,500 --> 00:44:44,500
+ In NordX statt Ende der Einreichungen ist glaube ich bis 18 Uhr oder so, wenn jemand coole Demos macht.
+
+482
+00:44:44,500 --> 00:44:47,500
+ Also ich habe gestern eine Person gesehen, die an der Demo gearbeitet hat.
+
+483
+00:44:47,500 --> 00:44:52,500
+ Sie sah extrem cool aus, war noch nicht fertig zu dem Zeitpunkt, aber da war es ja auch erst gestern Abend.
+
+484
+00:44:52,500 --> 00:44:57,500
+ Deswegen rechne ich mit dem besten heute. Und es gibt bestimmt viele andere Leute.
+
+485
+00:44:57,500 --> 00:45:01,500
+ Also es wird sicherlich interessant, wenn jemand in der Richtung Interesse hat.
+
+486
+00:45:01,500 --> 00:45:04,500
+ Genau, gibt es dann auch im Livestream in NordX sozusagen.
+
+487
+00:45:04,500 --> 00:45:05,500
+ Genau.
+
+488
+00:45:05,500 --> 00:45:09,500
+ Alles klar. Haben wir noch irgendwas vergessen, was ihr noch sagen wollt?
+
+489
+00:45:09,500 --> 00:45:18,500
+ Super. Also die ganzen Leute, die an diesen Badges mitgearbeitet haben, das ist echt krass.
+
+490
+00:45:18,500 --> 00:45:25,500
+ Das sind echt krasse Leute. Und ich bin unglaublich froh Teil immer gewesen zu sein.
+
+491
+00:45:27,500 --> 00:45:35,500
+ Wenn ihr die Leute seht und sie sagen, sie haben mal hier irgendwie mitgearbeitet oder so und das schätzt nicht, was das bedeutet.
+
+492
+00:45:35,500 --> 00:45:36,500
+ Kauft ihnen eine Mate.
+
+493
+00:45:36,500 --> 00:45:37,500
+ Kauft ihnen eine Mate.
+
+494
+00:45:37,500 --> 00:45:38,500
+ Oder einen Schunk.
+
+495
+00:45:38,500 --> 00:45:48,500
+ Also im gleichen Spirit würde ich dazu sagen, man soll sich im Zweifelsfall nicht abschrecken lassen davon, dass das jetzt alles sehr anstrengend und groß klingt.
+
+496
+00:45:50,500 --> 00:46:01,500
+ Es hat sich im Laufe der Zeit größer entwickelt, aber es ist nicht so, dass irgendjemand von uns irgendwie spezielle Fähigkeiten oder großes Vorwissen in der Richtung gehabt hätte.
+
+497
+00:46:01,500 --> 00:46:06,500
+ Sondern wir haben auch einfach nur gedacht, ach das wäre cool, wenn man das mal ausprobiert.
+
+498
+00:46:06,500 --> 00:46:15,500
+ Und bei der Rocket waren wir alle bis kurz vor knapp noch nicht davon überzeugt, dass das überhaupt klappt.
+
+499
+00:46:15,500 --> 00:46:23,500
+ Wir waren bis wenige Tage vorher nicht sicher, ob wir überhaupt den Teilnehmern ein Ding in die Hand drücken können, was funktioniert.
+
+500
+00:46:23,500 --> 00:46:27,500
+ Oder ob es überhaupt rechtzeitig da ist. Irgendwann waren dann Teile da.
+
+501
+00:46:27,500 --> 00:46:33,500
+ Natürlich macht das ein bisschen Angst, wenn man das nicht weiß.
+
+502
+00:46:33,500 --> 00:46:38,500
+ Aber das ist ja das Schöne, dass in dem Zitizium fällt, ich kann es halt einfach ausprobieren.
+
+503
+00:46:38,500 --> 00:46:45,500
+ Und es ist nicht so, dass ich, wenn ich jetzt in der Arbeit irgendwie das Gefühl habe, ich werde dafür bezahlt und muss ein Produkt abliefern.
+
+504
+00:46:45,500 --> 00:46:54,500
+ Wenn es nicht klappt, dann klappt es halt nicht. Es wird einem auch keiner den fünf Jahre lang vorhalten, dass man irgendein Projekt nicht geschafft hat.
+
+505
+00:46:54,500 --> 00:46:58,500
+ Sondern man hat es halt versucht und wenn man es...
+
+506
+00:46:58,500 --> 00:46:59,500
+ Wer macht das Recht.
+
+507
+00:46:59,500 --> 00:47:10,500
+ Ja, auch das. Einfach mal mitmachen und sich halt eventuell erstmal nur einen kleinen Teil anschauen und dann halt im Laufe der Zeit größer werden lassen.
+
+508
+00:47:10,500 --> 00:47:17,500
+ Das ist doch ein schönes Schlusswort. Dann vielen Dank, dass ihr hier vorbeigeschaut habt und uns erzählt habt.
+
+509
+00:47:17,500 --> 00:47:22,500
+ Und ihr könnt alle anderen Folgen von "Frag den Teams" auf media.cd/e schauen.
+
+510
+00:47:22,500 --> 00:47:29,500
+ Teilweise auch in MeLife. Schönes Restcamp und viel Spaß. Ciao.
+
+511
+00:47:29,500 --> 00:47:44,500
+ [Krachen]
+

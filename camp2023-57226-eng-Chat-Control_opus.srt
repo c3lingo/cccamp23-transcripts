@@ -1,0 +1,1884 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:34,000
+ >> Welcome to the next talk, Chat Control.
+
+4
+00:00:34,000 --> 00:00:38,000
+ Khaleesi, Konstantin and Tim will tell us about the current state
+
+5
+00:00:38,000 --> 00:00:41,000
+ and inform us about the Chat Control.
+
+6
+00:00:41,000 --> 00:00:43,000
+ A huge applause for them.
+
+7
+00:00:43,000 --> 00:00:51,000
+ [APPLAUSE]
+
+8
+00:00:51,000 --> 00:00:53,000
+ >> Good evening, everybody.
+
+9
+00:00:53,000 --> 00:00:59,000
+ I think it's our first time in an outside location.
+
+10
+00:00:59,000 --> 00:01:01,000
+ We're the Chat Control.
+
+11
+00:01:01,000 --> 00:01:02,000
+ I'm Khaleesi.
+
+12
+00:01:02,000 --> 00:01:05,000
+ I'm the spokesperson with the CCC.
+
+13
+00:01:05,000 --> 00:01:09,000
+ Usually I'm in the new studio and no one lets me out.
+
+14
+00:01:09,000 --> 00:01:14,000
+ Besides that, Chat Control is my life.
+
+15
+00:01:14,000 --> 00:01:16,000
+ I can pretty much say that.
+
+16
+00:01:16,000 --> 00:01:19,000
+ I have those two charming men with me.
+
+17
+00:01:19,000 --> 00:01:25,000
+ It's Tom from the Digital Gesellschaft and Konstantin,
+
+18
+00:01:25,000 --> 00:01:28,000
+ who are an amazing team.
+
+19
+00:01:28,000 --> 00:01:32,000
+ So we are really happy to be with you tonight
+
+20
+00:01:32,000 --> 00:01:36,000
+ and not so happy to be still talking about Chat Control.
+
+21
+00:01:36,000 --> 00:01:42,000
+ However, we would like to give you a longer update
+
+22
+00:01:42,000 --> 00:01:45,000
+ on what is going on and what are the stats
+
+23
+00:01:45,000 --> 00:01:50,000
+ for all of those that haven't heard from Chat Control yet.
+
+24
+00:01:50,000 --> 00:01:55,000
+ Because in September, when the summer break is over,
+
+25
+00:01:55,000 --> 00:01:58,000
+ the fight will continue.
+
+26
+00:01:58,000 --> 00:02:03,000
+ And if we don't act, like really act with a lot of power,
+
+27
+00:02:03,000 --> 00:02:06,000
+ and I think this is the right place to find people
+
+28
+00:02:06,000 --> 00:02:10,000
+ to act with a lot of power, we won't win this fight.
+
+29
+00:02:10,000 --> 00:02:14,000
+ But first, let's start at the beginning.
+
+30
+00:02:14,000 --> 00:02:19,000
+ And at the beginning, we firstly talk about the structure.
+
+31
+00:02:19,000 --> 00:02:23,000
+ We will tell you who we are, which I did already.
+
+32
+00:02:23,000 --> 00:02:28,000
+ And then we will talk about how Chat Control is more than
+
+33
+00:02:28,000 --> 00:02:31,000
+ client-side scanning, because usually we only talk about
+
+34
+00:02:31,000 --> 00:02:34,000
+ encrypted communication when talking about Chat Control.
+
+35
+00:02:34,000 --> 00:02:39,000
+ We will talk about the topic of age assurance and age verification,
+
+36
+00:02:39,000 --> 00:02:44,000
+ the juristic aspects of the whole file,
+
+37
+00:02:44,000 --> 00:02:49,000
+ and the new quality of surveillance we are seeing here.
+
+38
+00:02:49,000 --> 00:02:54,000
+ And in the end, we will give you a little guide on how to take action.
+
+39
+00:02:54,000 --> 00:02:57,000
+ So let's start at the beginning.
+
+40
+00:02:57,000 --> 00:03:00,000
+ It all started with this woman.
+
+41
+00:03:00,000 --> 00:03:03,000
+ Some of you might know her already.
+
+42
+00:03:03,000 --> 00:03:08,000
+ She's almost as problematic as Ursula von der Leyen.
+
+43
+00:03:08,000 --> 00:03:11,000
+ This is Commissioner Ilva Johansson.
+
+44
+00:03:11,000 --> 00:03:14,000
+ She's the Commissioner for Home Affairs.
+
+45
+00:03:14,000 --> 00:03:19,000
+ And she's the person who initiated and also is in charge
+
+46
+00:03:19,000 --> 00:03:22,000
+ of the whole Chat Control file.
+
+47
+00:03:22,000 --> 00:03:28,000
+ The Chat Control file started one year ago in May, at May 11th,
+
+48
+00:03:28,000 --> 00:03:33,000
+ as a file in the European Parliament.
+
+49
+00:03:33,000 --> 00:03:37,000
+ And, yeah, what did it bring us?
+
+50
+00:03:37,000 --> 00:03:44,000
+ So it's meant to be as the continuation of the derogation
+
+51
+00:03:44,000 --> 00:03:48,000
+ of the e-privacy regulation or directive.
+
+52
+00:03:48,000 --> 00:03:52,000
+ And the idea is that we want to protect children.
+
+53
+00:03:52,000 --> 00:03:57,000
+ At least that's the narrative that we have been told over the last year.
+
+54
+00:03:57,000 --> 00:04:02,000
+ But what it really means is breaking end-to-end encrypted communication,
+
+55
+00:04:02,000 --> 00:04:06,000
+ scanning end-to-end encrypted communication.
+
+56
+00:04:06,000 --> 00:04:09,000
+ It's a bit similar to the online safety bill,
+
+57
+00:04:09,000 --> 00:04:12,000
+ which a lot of you might have heard of,
+
+58
+00:04:12,000 --> 00:04:16,000
+ and the issue with the online safety bill is that it's already there
+
+59
+00:04:16,000 --> 00:04:18,000
+ and it is coming.
+
+60
+00:04:18,000 --> 00:04:23,000
+ So when we hear Chat Control, we think about breaking encryption.
+
+61
+00:04:23,000 --> 00:04:26,000
+ This is like the first thing we think about.
+
+62
+00:04:26,000 --> 00:04:31,000
+ But firstly, this is not how any of this works.
+
+63
+00:04:31,000 --> 00:04:33,000
+ We all know that.
+
+64
+00:04:33,000 --> 00:04:37,000
+ We can scan encrypted communication without breaking it.
+
+65
+00:04:37,000 --> 00:04:40,000
+ But there's a big but.
+
+66
+00:04:40,000 --> 00:04:47,000
+ There are really a lot more problematic points in this file.
+
+67
+00:04:47,000 --> 00:04:52,000
+ And this is where we come to age assurance.
+
+68
+00:04:52,000 --> 00:04:56,000
+ So let's talk about age assurance.
+
+69
+00:04:56,000 --> 00:05:00,000
+ Who knows the banner at some interesting website
+
+70
+00:05:00,000 --> 00:05:04,000
+ where you are being asked, "Are you over 18?"
+
+71
+00:05:04,000 --> 00:05:06,000
+ (Laughter)
+
+72
+00:05:06,000 --> 00:05:08,000
+ Well, OK.
+
+73
+00:05:08,000 --> 00:05:12,000
+ A lot of you know this banner, and we all know this is not how it works.
+
+74
+00:05:12,000 --> 00:05:16,000
+ And I think politicians realize that too.
+
+75
+00:05:16,000 --> 00:05:21,000
+ So this age assurance of just like click, "Are you over 18?"
+
+76
+00:05:21,000 --> 00:05:24,000
+ don't really work in our universe.
+
+77
+00:05:24,000 --> 00:05:29,000
+ And there are a few things they are trying to do with this file.
+
+78
+00:05:29,000 --> 00:05:34,000
+ They are trying to really roll out age assurance on a big scale.
+
+79
+00:05:34,000 --> 00:05:40,000
+ So the idea is that there are applications that can be used
+
+80
+00:05:40,000 --> 00:05:44,000
+ to distribute child sexual abuse material,
+
+81
+00:05:44,000 --> 00:05:50,000
+ and there are some things that can be used to groom children,
+
+82
+00:05:50,000 --> 00:05:54,000
+ which means like adult persons contacting children.
+
+83
+00:05:54,000 --> 00:06:00,000
+ And the idea is to keep kids away from those applications.
+
+84
+00:06:00,000 --> 00:06:04,000
+ But if you think further, it's really clear to every one of us
+
+85
+00:06:04,000 --> 00:06:09,000
+ that almost every application can be potentially used
+
+86
+00:06:09,000 --> 00:06:13,000
+ to distribute material in any kind of sense
+
+87
+00:06:13,000 --> 00:06:17,000
+ and to chat with anyone over the internet.
+
+88
+00:06:17,000 --> 00:06:22,000
+ So what would happen to us would be that like every application
+
+89
+00:06:22,000 --> 00:06:26,000
+ would need to implement an age assurance.
+
+90
+00:06:26,000 --> 00:06:31,000
+ And this is problematic on many levels.
+
+91
+00:06:31,000 --> 00:06:35,000
+ Firstly, let's look at the technologies that are being used.
+
+92
+00:06:35,000 --> 00:06:38,000
+ So the first option, we all know this in Germany,
+
+93
+00:06:38,000 --> 00:06:42,000
+ we have post-ident, where you can identify yourself with your ID,
+
+94
+00:06:42,000 --> 00:06:47,000
+ and then the people know who you are, and they can verify that online.
+
+95
+00:06:47,000 --> 00:06:54,000
+ And there are also some functionalities where you can use your PASO in Germany
+
+96
+00:06:54,000 --> 00:06:58,000
+ and put it in there, and then there's a token generated to check your age.
+
+97
+00:06:58,000 --> 00:07:03,000
+ But what that would mean, and then we are like at the wallet issue,
+
+98
+00:07:03,000 --> 00:07:10,000
+ as Lilith said before, we are getting used to flashing our IDs everywhere on the internet.
+
+99
+00:07:10,000 --> 00:07:15,000
+ So being anonymous on the internet wouldn't be possible anymore.
+
+100
+00:07:15,000 --> 00:07:19,000
+ That's like a really problematic development.
+
+101
+00:07:19,000 --> 00:07:26,000
+ And the second thing they discovered, which is also in their point of opinion really nice,
+
+102
+00:07:26,000 --> 00:07:32,000
+ is the whole thing about age estimation technologies.
+
+103
+00:07:32,000 --> 00:07:38,000
+ And if you talk to politicians about those technologies, they say, "It's so nice."
+
+104
+00:07:38,000 --> 00:07:43,000
+ You just hold your face into the camera and then it estimates your age,
+
+105
+00:07:43,000 --> 00:07:50,000
+ and you don't need to show your ID. It's great, right? Because you could stay anonymous.
+
+106
+00:07:50,000 --> 00:07:56,000
+ Well, the whole issue is they are using biometric data to do this.
+
+107
+00:07:56,000 --> 00:08:03,000
+ So from what we learned, I think it was around Christmas when the CCC,
+
+108
+00:08:03,000 --> 00:08:10,000
+ Cantorkel and Snoopy, who will be here later, hacked those biometric devices of the US military
+
+109
+00:08:10,000 --> 00:08:15,000
+ and said that every database that contains biometric data is a ticking time bomb,
+
+110
+00:08:15,000 --> 00:08:22,000
+ and it will be opened up. And the trouble with biometric data is that it's really hard to change.
+
+111
+00:08:22,000 --> 00:08:29,000
+ So the politicians basically telling us that it's okay that young people upload their faces
+
+112
+00:08:29,000 --> 00:08:39,000
+ into whatever cloud to be identified so they can use the media they use to participate in democracy.
+
+113
+00:08:39,000 --> 00:08:46,000
+ So this is also a really problematic and pushing aspect of the chat control file.
+
+114
+00:08:46,000 --> 00:08:55,000
+ Maybe to backtrack a little bit, remember this file is meant to protect children
+
+115
+00:08:55,000 --> 00:09:01,000
+ from the distribution of child sexual abuse material or the creation.
+
+116
+00:09:01,000 --> 00:09:07,000
+ So what this would do is basically keeping them away, both from the medias,
+
+117
+00:09:07,000 --> 00:09:13,000
+ they are participating in, but also from the help options that would make it much harder.
+
+118
+00:09:13,000 --> 00:09:19,000
+ And there's another layer to this, and this is something some people don't think about that much,
+
+119
+00:09:19,000 --> 00:09:26,000
+ is what it would do to the open source community. Because what happens if I offer an application,
+
+120
+00:09:26,000 --> 00:09:33,000
+ I don't know, in any distribution, Signal, for example, in the Arch Linux universe,
+
+121
+00:09:33,000 --> 00:09:40,000
+ they don't have any central data about their users, you can use whatever mirror pleases you
+
+122
+00:09:40,000 --> 00:09:48,000
+ to download your software. And here the issue could also be that they would force open source community
+
+123
+00:09:48,000 --> 00:09:56,000
+ to build some kind of centralized Azure source and centralize some things, and that could be really bad.
+
+124
+00:09:56,000 --> 00:10:03,000
+ We've seen that before in other European files, but it's something that people don't think about that much,
+
+125
+00:10:03,000 --> 00:10:10,000
+ and I think we should all keep that in mind, and to try to not only keep the whole breaking encryption thing away,
+
+126
+00:10:10,000 --> 00:10:17,000
+ but also the whole Azure insurance thing, so we can stay anonymous on the Internet.
+
+127
+00:10:17,000 --> 00:10:24,000
+ And I already said her name, there's another woman involved we already know and love,
+
+128
+00:10:24,000 --> 00:10:28,000
+ and she became famous in Germany for this.
+
+129
+00:10:28,000 --> 00:10:39,000
+ So, short explanation for the non-German guests, this is Ursula von der Leyen,
+
+130
+00:10:39,000 --> 00:10:45,000
+ and Ursula von der Leyen wanted to implement stop signs on the Internet.
+
+131
+00:10:45,000 --> 00:10:52,000
+ So if you surf somewhere that isn't age appropriate, you would see a big stop sign, and then you couldn't go there.
+
+132
+00:10:52,000 --> 00:10:59,000
+ And what they wanted to do is just like DNS based blocking, as always.
+
+133
+00:10:59,000 --> 00:11:05,000
+ And we've known for years that it's super easy to circumvent those kind of things,
+
+134
+00:11:05,000 --> 00:11:10,000
+ and we also know for years that this is also a cause for Internet shutdowns,
+
+135
+00:11:10,000 --> 00:11:16,000
+ because if Cloudflare ends up at some kind of blocking list, we all have a big problem.
+
+136
+00:11:16,000 --> 00:11:25,000
+ So that's about the whole cool shit that's also in the file, and we are trying to fight off,
+
+137
+00:11:25,000 --> 00:11:30,000
+ which would change the Internet for the worst of it.
+
+138
+00:11:30,000 --> 00:11:36,000
+ And the big question is what should we do now and what happened already?
+
+139
+00:11:36,000 --> 00:11:44,000
+ And as I said before, this is a European file, and the European Union united through diversity,
+
+140
+00:11:44,000 --> 00:11:50,000
+ it's a bit complicated. Not only our relationship, but also what is happening.
+
+141
+00:11:50,000 --> 00:11:57,000
+ So we are now one year in, and you would think that we are pretty far along,
+
+142
+00:11:57,000 --> 00:12:01,000
+ and we are pretty far along, but there are still things happening.
+
+143
+00:12:01,000 --> 00:12:10,000
+ What you can see here is the important part for now, which is what is happening in the Parliament.
+
+144
+00:12:10,000 --> 00:12:20,000
+ And when a file starts in the European Union, you have a few parties, you have the Commission,
+
+145
+00:12:20,000 --> 00:12:26,000
+ so Commissioner Johansen, the person who started the file, who initiated the text,
+
+146
+00:12:26,000 --> 00:12:30,000
+ and then we have the Council and the Parliament.
+
+147
+00:12:30,000 --> 00:12:37,000
+ And the Council and the Parliament are deliberating over what changes they need to see
+
+148
+00:12:37,000 --> 00:12:40,000
+ so they can adopt the whole file.
+
+149
+00:12:40,000 --> 00:12:48,000
+ And we have committees in the Parliament who have specific knowledge,
+
+150
+00:12:48,000 --> 00:12:52,000
+ so we have the IMCO committee, which is the Internet Market Committee,
+
+151
+00:12:52,000 --> 00:12:59,000
+ we have the Culture and Education Committee, the Women's Rights Committee, and the Budget Committee.
+
+152
+00:12:59,000 --> 00:13:02,000
+ And we have a main committee, which is the LIBE committee,
+
+153
+00:13:02,000 --> 00:13:07,000
+ which is the Civil Liberties and Justice and Home Affairs Committee,
+
+154
+00:13:07,000 --> 00:13:15,000
+ and they all deliver reports, which are guidance to the Parliament on how to decide on those files.
+
+155
+00:13:15,000 --> 00:13:24,000
+ And we already have all reports of all committees, like all the committees on the upper side of the picture,
+
+156
+00:13:24,000 --> 00:13:29,000
+ but the really important committee is the LIBE committee, because it's the main committee.
+
+157
+00:13:29,000 --> 00:13:34,000
+ And they will have their vote in... it's October right now, right?
+
+158
+00:13:34,000 --> 00:13:36,000
+ They pushed it to October.
+
+159
+00:13:36,000 --> 00:13:41,000
+ So this report will be really important, because it will be guidance to the Parliament,
+
+160
+00:13:41,000 --> 00:13:51,000
+ and then the Parliament will vote on the things they want to change in this whole law.
+
+161
+00:13:51,000 --> 00:13:55,000
+ And then we go off into the Trialogue.
+
+162
+00:13:55,000 --> 00:14:04,000
+ We will hear some more about what the Council did later, but first we go to the boring stuff.
+
+163
+00:14:04,000 --> 00:14:08,000
+ No, law usually isn't that boring, but...
+
+164
+00:14:08,000 --> 00:14:12,000
+ Yes, law is usually that boring, but especially here.
+
+165
+00:14:12,000 --> 00:14:17,000
+ Obviously I'm talking also about the detection orders, which we didn't mention so much yet,
+
+166
+00:14:17,000 --> 00:14:27,000
+ but a lot of you know that with the detection orders, any provider can be forced to implement
+
+167
+00:14:27,000 --> 00:14:32,000
+ client-side scanning and other stuff.
+
+168
+00:14:32,000 --> 00:14:36,000
+ And you probably think, this can't be legal.
+
+169
+00:14:36,000 --> 00:14:41,000
+ And it's obviously not legal within the European Charter.
+
+170
+00:14:41,000 --> 00:14:48,000
+ Like all the legal experts on the matter who said something about it say it's definitely not legal.
+
+171
+00:14:48,000 --> 00:14:53,000
+ For example, even the Council, which is the hardest part, you'll hear something about it.
+
+172
+00:14:53,000 --> 00:14:57,000
+ Council is where the governments of the national states gather.
+
+173
+00:14:57,000 --> 00:15:04,000
+ Even the legal service of the Council said that detection orders would compromise the essence of the rights,
+
+174
+00:15:04,000 --> 00:15:06,000
+ the privacy and data protection.
+
+175
+00:15:06,000 --> 00:15:15,000
+ In legal terms, violating or compromising the essence of a fundamental right is like the stop sign we heard about.
+
+176
+00:15:15,000 --> 00:15:22,000
+ Usually cases are won over whether something is necessary or proportionate or something,
+
+177
+00:15:22,000 --> 00:15:28,000
+ but if something violates the essence of a fundamental right, then it's definitely not legal.
+
+178
+00:15:28,000 --> 00:15:35,000
+ So you might think, okay, then the Court of Justice of the European Union will stop this law.
+
+179
+00:15:35,000 --> 00:15:47,000
+ We hope they will, but we would not want to depend on these elderly people with funny clothes for some reasons.
+
+180
+00:15:47,000 --> 00:15:51,000
+ First, it would take years until the Court would decide.
+
+181
+00:15:51,000 --> 00:15:56,000
+ In this time, client-side scanning, the whole technology would be implemented.
+
+182
+00:15:56,000 --> 00:16:04,000
+ There's also, they want to build up a huge centre close to Europol, which would be established then.
+
+183
+00:16:04,000 --> 00:16:06,000
+ And we would not want this.
+
+184
+00:16:06,000 --> 00:16:11,000
+ Also, the legal framework of the chat control file is very complicated,
+
+185
+00:16:11,000 --> 00:16:17,000
+ so we can't be sure whether they might find some way to pass it through.
+
+186
+00:16:17,000 --> 00:16:22,000
+ And also, the Court of Justice is simply not predictable.
+
+187
+00:16:22,000 --> 00:16:30,000
+ There are, in the past, for example, those of you who are interested in migration policies,
+
+188
+00:16:30,000 --> 00:16:35,000
+ a few years ago, two years ago or something, they decided on illegal pushbacks,
+
+189
+00:16:35,000 --> 00:16:40,000
+ and no one thought they would legalise pushbacks like they did.
+
+190
+00:16:40,000 --> 00:16:46,000
+ So you can't be sure on what the Court of Justice of the European Union will do.
+
+191
+00:16:46,000 --> 00:16:53,000
+ You can't trust or rely that they will definitely comply to the European Carta.
+
+192
+00:16:53,000 --> 00:17:03,000
+ And also, we fear that even if they say, okay, detection orders are in the way that they are being implemented,
+
+193
+00:17:03,000 --> 00:17:07,000
+ are not okay, but if they change it a little bit here and a little bit there,
+
+194
+00:17:07,000 --> 00:17:13,000
+ and if there's a judge in between and something, they might say then it might be illegal,
+
+195
+00:17:13,000 --> 00:17:19,000
+ especially client-side scanning, this whole technology, and also the European Centre and stuff like this,
+
+196
+00:17:19,000 --> 00:17:26,000
+ age verification, all these things, they might say, okay, a few parts are not okay, but some of them are okay,
+
+197
+00:17:26,000 --> 00:17:33,000
+ and then the European Union, the Commission and the Council, then they would know what they are allowed to do.
+
+198
+00:17:33,000 --> 00:17:43,000
+ And we notice from Germany, also probably from other states, that it's like a strategy they have been using for years now,
+
+199
+00:17:43,000 --> 00:17:46,000
+ that they do laws that are obviously unconstitutional,
+
+200
+00:17:46,000 --> 00:17:52,000
+ and then they're going to find out, okay, what the Constitutional Court says might be a little okay,
+
+201
+00:17:52,000 --> 00:17:54,000
+ and then they push the boundaries.
+
+202
+00:17:54,000 --> 00:17:58,000
+ They not only test the boundaries, but also push it and push it,
+
+203
+00:17:58,000 --> 00:18:05,000
+ and we've come a long way from the '80s, where the Constitutional Court of Germany decided on data protection,
+
+204
+00:18:05,000 --> 00:18:10,000
+ and nowadays they would never have decided then what they are deciding now.
+
+205
+00:18:10,000 --> 00:18:18,000
+ So the boundaries, the legal boundaries of what is constitutional just, justifiable, are always pushed, pushed further and further,
+
+206
+00:18:18,000 --> 00:18:26,000
+ so we're fearing that the Commission is now just adapting the strategy, which we already know so much.
+
+207
+00:18:26,000 --> 00:18:36,000
+ So, and there's also, and of course, we are pretty sure that it's not, that CSAM is like,
+
+208
+00:18:36,000 --> 00:18:44,000
+ the CSAR is some kind of, in Germany you say test balloon, like a test, what they can do, what they can implement,
+
+209
+00:18:44,000 --> 00:18:49,000
+ and we already know that they're planning on implementing stuff in other ways.
+
+210
+00:18:49,000 --> 00:18:55,000
+ For example, in November 2020, they already, some of you might know this famous paper called
+
+211
+00:18:55,000 --> 00:18:59,000
+ "Security through Encryption and Security Despite Encryption,"
+
+212
+00:18:59,000 --> 00:19:06,000
+ they already said something like that they want to have an active discussion with the technology industry to define
+
+213
+00:19:06,000 --> 00:19:13,000
+ and establish innovative approaches in view of the new technologies to access electronic evidence to effectively fight terrorism,
+
+214
+00:19:13,000 --> 00:19:21,000
+ organized crime, child sexual abuse, as well as a variety of other cyber crime and cyber-enabled crimes.
+
+215
+00:19:21,000 --> 00:19:31,000
+ So sexual abuse is just a very small part of it, and what they had in mind obviously was client-side scanning back then already.
+
+216
+00:19:31,000 --> 00:19:37,000
+ It was before Apple decided to implement it and there was a huge discussion about it.
+
+217
+00:19:37,000 --> 00:19:47,000
+ So we probably know that they want to do it in other cases, they don't want to, they want to establish these technologies.
+
+218
+00:19:47,000 --> 00:19:52,000
+ You already mentioned the online safety bill from the UK.
+
+219
+00:19:52,000 --> 00:20:03,000
+ They're already discussing using these technologies to prevent people from crossing the borders and prevent migration.
+
+220
+00:20:03,000 --> 00:20:09,000
+ They're already discussing this, though the bill is just a couple of weeks old.
+
+221
+00:20:09,000 --> 00:20:21,000
+ And also there is a French MEP from the Rassemblement National, a member of the European Parliament,
+
+222
+00:20:21,000 --> 00:20:27,000
+ who wanted to extend this to drag shows and indecent art.
+
+223
+00:20:27,000 --> 00:20:43,000
+ So if implemented, this is going to be like... sorry. Sorry, I got a new computer.
+
+224
+00:20:43,000 --> 00:20:49,000
+ Okay, I'm going to try to remember what I wrote down.
+
+225
+00:20:49,000 --> 00:21:03,000
+ We see and also we really fear that the Court of Justice or a lot of lawyers don't understand that we are handling with a new quality of surveillance.
+
+226
+00:21:03,000 --> 00:21:11,000
+ In general, for example in Germany, legal discussions about surveillance are always about collecting data.
+
+227
+00:21:11,000 --> 00:21:18,000
+ Data retention is the main thing, but also in other points, I showed this picture just over there,
+
+228
+00:21:18,000 --> 00:21:27,000
+ there's our Justice Minister protesting against data retention a couple of years ago.
+
+229
+00:21:27,000 --> 00:21:33,000
+ But still the discussions are about collecting data.
+
+230
+00:21:33,000 --> 00:21:40,000
+ Client-side scanning and this whole technology wouldn't rely on collecting a lot of data.
+
+231
+00:21:40,000 --> 00:21:51,000
+ It would rely on that in real time our communication is being analyzed, in real time everybody's communication is all the time analyzed in real time.
+
+232
+00:21:51,000 --> 00:21:56,000
+ They're not collecting a lot of data, they're just sending the data they need.
+
+233
+00:21:56,000 --> 00:22:04,000
+ But this really constitutes some kind of new quality of surveillance.
+
+234
+00:22:04,000 --> 00:22:10,000
+ Surveillance, like in modern, you probably know this Foucault, this panopticon.
+
+235
+00:22:10,000 --> 00:22:16,000
+ Modern surveillance is often seen as a panopticon, that there's a place from where you can look.
+
+236
+00:22:16,000 --> 00:22:23,000
+ And the people who are being surveyed don't know if they're being looked at.
+
+237
+00:22:23,000 --> 00:22:31,000
+ Probably not, because the controller just can see very few people.
+
+238
+00:22:31,000 --> 00:22:36,000
+ There's always the possibility that you're being looked at or controlled.
+
+239
+00:22:36,000 --> 00:22:43,000
+ But actually at your discipline, because you have the feeling, there's the possibility that you're being looked at.
+
+240
+00:22:43,000 --> 00:22:54,000
+ Now these new technologies like client-side scanning, but also for example video behavioral analysis on videos,
+
+241
+00:22:54,000 --> 00:22:59,000
+ what we're seeing in Hamburg at the moment, they're doing it in real time.
+
+242
+00:22:59,000 --> 00:23:08,000
+ It's not that it's cop watches or something, but that everybody who's within the focus of this surveillance,
+
+243
+00:23:08,000 --> 00:23:13,000
+ everybody's communication is analyzed all the time.
+
+244
+00:23:13,000 --> 00:23:24,000
+ So this is a new quality of surveillance that we really don't see that it's, in the legal discussion at least, being seen that way.
+
+245
+00:23:24,000 --> 00:23:27,000
+ So I think we're a little over.
+
+246
+00:23:27,000 --> 00:23:33,000
+ Thanks for the lawyer talk. Really great. We all love it.
+
+247
+00:23:33,000 --> 00:23:35,000
+ Back to the tech stuff.
+
+248
+00:23:35,000 --> 00:23:44,000
+ So I already talked about age assurance and I talked about the stop signs, which we all know are obviously crazy.
+
+249
+00:23:44,000 --> 00:23:55,000
+ But we shortly want to backtrack to the technology where chat control got its name from, which is Tom already mentioned it,
+
+250
+00:23:55,000 --> 00:24:02,000
+ client-side scanning. I could talk about client-side scanning for hours, but we want to smooth out a few things.
+
+251
+00:24:02,000 --> 00:24:08,000
+ So what is the issue with client-side scanning?
+
+252
+00:24:08,000 --> 00:24:12,000
+ A lot of experts named it the box in our pockets.
+
+253
+00:24:12,000 --> 00:24:19,000
+ And when we talk about client-side scanning, the whole chat control file and also the politicians talking about it,
+
+254
+00:24:19,000 --> 00:24:28,000
+ mostly are talking about detecting unknown abuse material. They don't talk about the already known material.
+
+255
+00:24:28,000 --> 00:24:41,000
+ So client-side scanning is like artificial intelligence screening the pictures and saying, OK, this could be child sexual abuse material.
+
+256
+00:24:41,000 --> 00:24:46,000
+ And they send an alarm. And the issue is that it can go wrong on a lot of places.
+
+257
+00:24:46,000 --> 00:24:55,000
+ So firstly, of course, all our communication is screened and it gets sent to an entity to be screened.
+
+258
+00:24:55,000 --> 00:25:00,000
+ But also we don't know how the sets are being trained.
+
+259
+00:25:00,000 --> 00:25:12,000
+ A lot of studies show that LGBTQIA+ communities are targeted way more and it's way more often marked as an appropriate material.
+
+260
+00:25:12,000 --> 00:25:15,000
+ So this is the whole issue with detecting unknown material.
+
+261
+00:25:15,000 --> 00:25:23,000
+ Another issue is detecting known material. We all would say, OK, detecting known material, that's easy.
+
+262
+00:25:23,000 --> 00:25:32,000
+ Besides, it's really problematic to detect known material with client-side scanning technology installed on our phone,
+
+263
+00:25:32,000 --> 00:25:38,000
+ interrupting our encrypted communication. But there's also another big issue with that.
+
+264
+00:25:38,000 --> 00:25:46,000
+ Because if you try to detect known material, you would say, OK, here's a picture compared to the other picture.
+
+265
+00:25:46,000 --> 00:25:52,000
+ And then it should be fine. Right. But we can't do like the typical.
+
+266
+00:25:52,000 --> 00:25:57,000
+ We use a hash function, build a hash. And if it's the same hash, it's the same picture.
+
+267
+00:25:57,000 --> 00:26:03,000
+ Because if you flip one pixel, your algorithm wouldn't work anymore.
+
+268
+00:26:03,000 --> 00:26:11,000
+ So what they do is train big neural networks to generate the same hashes for really similar pictures.
+
+269
+00:26:11,000 --> 00:26:18,000
+ So if like some points on the picture are the same, there will be the same hash generated.
+
+270
+00:26:18,000 --> 00:26:24,000
+ And some of you might know there are attacks on neural networks, of course.
+
+271
+00:26:24,000 --> 00:26:32,000
+ For example, adversarial attacks. So you can easily reverse engineer this whole network and then fake pictures.
+
+272
+00:26:32,000 --> 00:26:35,000
+ Either being flagged or not being flagged.
+
+273
+00:26:35,000 --> 00:26:47,000
+ So the whole thing about telling people that detecting known material isn't as problematic as detecting unknown material is like really blunt.
+
+274
+00:26:47,000 --> 00:26:52,000
+ So this is something we will talk about a lot in the future.
+
+275
+00:26:52,000 --> 00:26:59,000
+ Because what we see in the discussions that are happening now, we will have, with a lot of luck,
+
+276
+00:26:59,000 --> 00:27:04,000
+ we will get out detection of unknown material with client-side scanning.
+
+277
+00:27:04,000 --> 00:27:08,000
+ But there are still ongoing discussions on known material.
+
+278
+00:27:08,000 --> 00:27:13,000
+ So keep that in mind for the rest of our talk.
+
+279
+00:27:13,000 --> 00:27:18,000
+ Okay, cool. Then as it was teased before, I will tell you a bit about the council.
+
+280
+00:27:18,000 --> 00:27:22,000
+ What we are fighting against basically in this case.
+
+281
+00:27:22,000 --> 00:27:28,000
+ And what you should know as the council is representing the member states and the governments of them.
+
+282
+00:27:28,000 --> 00:27:32,000
+ Typically they are the ones in favour of more surveillance.
+
+283
+00:27:32,000 --> 00:27:38,000
+ They are the ones for civil rights. That's not so much of an importance.
+
+284
+00:27:38,000 --> 00:27:41,000
+ There's insecurity and we want to do something about it.
+
+285
+00:27:41,000 --> 00:27:47,000
+ So then they are typically not our allies. The European Parliament would normally be.
+
+286
+00:27:47,000 --> 00:27:50,000
+ They are also a bit of a tough catch this time.
+
+287
+00:27:50,000 --> 00:27:55,000
+ But I will give you a bit of an idea where governments are here.
+
+288
+00:27:55,000 --> 00:28:02,000
+ As it has been leaked in May, Spain, who is now holding the presidency of the EU council,
+
+289
+00:28:02,000 --> 00:28:06,000
+ the council of the EU, wants to ban end-to-end encryption.
+
+290
+00:28:06,000 --> 00:28:09,000
+ They want to prevent you from having secure end-to-end encryption.
+
+291
+00:28:09,000 --> 00:28:14,000
+ And that is something that they say behind closed doors when the commission was asking,
+
+292
+00:28:14,000 --> 00:28:16,000
+ how do you feel about encryption?
+
+293
+00:28:16,000 --> 00:28:19,000
+ So yeah, that doesn't look too good.
+
+294
+00:28:19,000 --> 00:28:22,000
+ They are the ones facilitating the internal discussions within council.
+
+295
+00:28:22,000 --> 00:28:30,000
+ And the other governments in there are not really going to help us that much more.
+
+296
+00:28:30,000 --> 00:28:34,000
+ Because, well, typically we learn through leaks, right?
+
+297
+00:28:34,000 --> 00:28:38,000
+ Thank you to NetPolitik.org, by the way, who tend to be the ones leaking a lot of stuff.
+
+298
+00:28:38,000 --> 00:28:44,000
+ [Applause]
+
+299
+00:28:44,000 --> 00:28:49,000
+ So because of that, we know, because of these kind of leaks,
+
+300
+00:28:49,000 --> 00:28:56,000
+ that governments, after us telling them over and over again that this is a risk to IT security,
+
+301
+00:28:56,000 --> 00:29:01,000
+ this is a risk to the confidentiality of communications, this is killing privacy,
+
+302
+00:29:01,000 --> 00:29:08,000
+ it always was said by the European Commission, well, you know, this is not true.
+
+303
+00:29:08,000 --> 00:29:11,000
+ We can do math that distinguishes between good and bad,
+
+304
+00:29:11,000 --> 00:29:15,000
+ and therefore this will not affect any of the law-abiding kind citizens.
+
+305
+00:29:15,000 --> 00:29:18,000
+ Well, but somehow governments must have now figured out,
+
+306
+00:29:18,000 --> 00:29:21,000
+ well, this actually does affect us, and we do have secrets too.
+
+307
+00:29:21,000 --> 00:29:29,000
+ So in a leak from June we learned that within council they're discussing now exceptions for government chats.
+
+308
+00:29:29,000 --> 00:29:34,000
+ [Laughter]
+
+309
+00:29:34,000 --> 00:29:42,000
+ It's true, yeah, but it seems like they finally understood that this is a real problem to IT security and privacy.
+
+310
+00:29:42,000 --> 00:29:47,000
+ But they have taken a really, I don't want to curse, they have taken a very bad conclusion from that.
+
+311
+00:29:47,000 --> 00:29:52,000
+ Instead of doing the only right thing that they should do right now, and that is to reject chat control,
+
+312
+00:29:52,000 --> 00:29:58,000
+ they said, well, let's protect ourselves and leave people to their own suffering.
+
+313
+00:29:58,000 --> 00:30:03,000
+ And personally I think it's quite a scandal, and we can't let them do that.
+
+314
+00:30:03,000 --> 00:30:10,000
+ So we really need every single individual here, we need everyone listening now, watching in the live stream,
+
+315
+00:30:10,000 --> 00:30:16,000
+ and I'm going to tell you a bit more about how we can now take action to protect our civil rights.
+
+316
+00:30:16,000 --> 00:30:21,000
+ Yeah, this is a later version, they put it in a different part as well.
+
+317
+00:30:21,000 --> 00:30:24,000
+ So, oh yeah, I forgot I have memes.
+
+318
+00:30:24,000 --> 00:30:26,000
+ You forgot his memes.
+
+319
+00:30:26,000 --> 00:30:29,000
+ Yeah, that's my favourite one.
+
+320
+00:30:29,000 --> 00:30:31,000
+ That's what we can do.
+
+321
+00:30:31,000 --> 00:30:34,000
+ Yeah, and actually, thanks Carisi for the hint.
+
+322
+00:30:34,000 --> 00:30:44,000
+ Of course on the websites that we have, so chatcontrolle.eu, and stopscanningme.eu,
+
+323
+00:30:44,000 --> 00:30:50,000
+ you will find nice materials that you can use pictures to share online on social media.
+
+324
+00:30:50,000 --> 00:30:52,000
+ Everyone spreading the word is going to help.
+
+325
+00:30:52,000 --> 00:30:56,000
+ And there's a couple of other things, you may have done some of those already,
+
+326
+00:30:56,000 --> 00:31:00,000
+ but you can do them again, let's be honest, in some cases.
+
+327
+00:31:00,000 --> 00:31:07,000
+ If you are part of an organisation, you want to join the movement and become a part of stopscanningme.
+
+328
+00:31:07,000 --> 00:31:11,000
+ And if you're from here on, I don't have notes, so, but thanks.
+
+329
+00:31:11,000 --> 00:31:18,000
+ And yeah, you can either join, if you're an international non-German organisation,
+
+330
+00:31:18,000 --> 00:31:20,000
+ join stopscanningme.
+
+331
+00:31:20,000 --> 00:31:24,000
+ If you operate in Germany, please join chatcontrolle.stoppen.
+
+332
+00:31:24,000 --> 00:31:27,000
+ If you are an individual, you can join as well, of course, in the struggle,
+
+333
+00:31:27,000 --> 00:31:29,000
+ and we need every individual here.
+
+334
+00:31:29,000 --> 00:31:36,000
+ You can sign a petition that is aimed at European policymakers who will receive that before the vote,
+
+335
+00:31:36,000 --> 00:31:42,000
+ and with that you can show that you are one of many, many people, more than 100 NGOs as well,
+
+336
+00:31:42,000 --> 00:31:47,000
+ that say to the European Commission and to the European Parliament, reject this proposal,
+
+337
+00:31:47,000 --> 00:31:50,000
+ because, yeah, it's obvious why.
+
+338
+00:31:50,000 --> 00:31:53,000
+ You can find it at stopscanningme.eu,
+
+339
+00:31:53,000 --> 00:31:58,000
+ and there you will also find a newsletter organised by E3,
+
+340
+00:31:58,000 --> 00:32:02,000
+ who is facilitating the stopscanningme coalition,
+
+341
+00:32:02,000 --> 00:32:07,000
+ and of course on chatcontrolle.eu you also find our newsletter.
+
+342
+00:32:07,000 --> 00:32:13,000
+ And there's something more fun than signing petitions, which is easy to do and very important,
+
+343
+00:32:13,000 --> 00:32:17,000
+ but you can also dance, you can promote privacy and celebrate encryption,
+
+344
+00:32:17,000 --> 00:32:23,000
+ and there's a social media challenge in which you basically find symbols,
+
+345
+00:32:23,000 --> 00:32:27,000
+ find something that displays security, encryption, safety, messaging,
+
+346
+00:32:27,000 --> 00:32:31,000
+ and share it with celebrate encryption on social media.
+
+347
+00:32:31,000 --> 00:32:34,000
+ So these are like one or two examples.
+
+348
+00:32:34,000 --> 00:32:36,000
+ People just, you know, you may have your sunglasses,
+
+349
+00:32:36,000 --> 00:32:41,000
+ you may have like nice stickers on something that relates to these topics,
+
+350
+00:32:41,000 --> 00:32:50,000
+ so do anything that you think is kind of creative and share it at celebrate encryption with #celebrateencryption.
+
+351
+00:32:50,000 --> 00:32:55,000
+ Then of course we've asked you before to do this, and it's still important,
+
+352
+00:32:55,000 --> 00:32:57,000
+ and the closer we get to the vote the more important it gets.
+
+353
+00:32:57,000 --> 00:33:00,000
+ Contact your members of the European Parliament.
+
+354
+00:33:00,000 --> 00:33:05,000
+ You can also contact the members of your national parliament and tell them to reject chatcontrol.
+
+355
+00:33:05,000 --> 00:33:11,000
+ And we want to make that easier, and for that we have a great ally with Epicenter Works,
+
+356
+00:33:11,000 --> 00:33:15,000
+ and they are currently developing a so-called Dear MVP tool,
+
+357
+00:33:15,000 --> 00:33:22,000
+ and they will present tomorrow at 11.10pm in the Digital Courage stage on how to use that.
+
+358
+00:33:22,000 --> 00:33:27,000
+ They will give you a sneak peek, and that will make it easier for each and every one of you
+
+359
+00:33:27,000 --> 00:33:30,000
+ to call your MEPs, to contact them, and make your voices heard,
+
+360
+00:33:30,000 --> 00:33:35,000
+ because European policymakers, only if you tell them that you're there and that you want them to act,
+
+361
+00:33:35,000 --> 00:33:38,000
+ then only then they will take notice.
+
+362
+00:33:38,000 --> 00:33:46,000
+ And of course we're doing a how to take action workshop in two days, so on day four at 2.30.
+
+363
+00:33:46,000 --> 00:33:52,000
+ Maybe a short information for everyone again, MEPs are members of the European Parliament,
+
+364
+00:33:52,000 --> 00:33:58,000
+ and you can also create your own memes, I'm really up for more chatcontrol memes and age verification memes.
+
+365
+00:33:58,000 --> 00:34:06,000
+ And of course we have stickers with the Congress-themed chatcontrol logo,
+
+366
+00:34:06,000 --> 00:34:14,000
+ so pick up your stickers, get to your keyboards, always encrypt your emails,
+
+367
+00:34:14,000 --> 00:34:18,000
+ and don't let them take encryption away from us, I would say.
+
+368
+00:34:18,000 --> 00:34:25,000
+ And with that, we got a little bit more, yes, because you have to organize actions.
+
+369
+00:34:25,000 --> 00:34:31,000
+ We need you to find allies in your local community, stage small protests, inform people,
+
+370
+00:34:31,000 --> 00:34:37,000
+ do something creative like the dancing, but whatever, like you feel like you're artsy,
+
+371
+00:34:37,000 --> 00:34:42,000
+ you want to write poems, do anything really, every single help is really needed,
+
+372
+00:34:42,000 --> 00:34:46,000
+ and share with us what you're going to do, we can amplify your actions,
+
+373
+00:34:46,000 --> 00:34:51,000
+ and also it's really important for us to know if you do have capacities for actions in September and October,
+
+374
+00:34:51,000 --> 00:34:55,000
+ so we can get an idea how big a protest can be organized,
+
+375
+00:34:55,000 --> 00:35:01,000
+ because the bigger the protest, of course, the stronger the impact on European policymakers.
+
+376
+00:35:01,000 --> 00:35:06,000
+ And these are just two examples now from actions that we have done in the past,
+
+377
+00:35:06,000 --> 00:35:12,000
+ you don't need really many people to create a press event that they can report on, and that is really helpful.
+
+378
+00:35:12,000 --> 00:35:16,000
+ But we need more people and bigger protests. Exactly, because that's really impressive,
+
+379
+00:35:16,000 --> 00:35:22,000
+ and I do hope that if we manage to call for huge protests, that every one of you will attend
+
+380
+00:35:22,000 --> 00:35:25,000
+ and bring your most interesting and creative signs.
+
+381
+00:35:25,000 --> 00:35:29,000
+ And with that, we can now go to the Q&A, and thank you for your attention.
+
+382
+00:35:29,000 --> 00:35:32,000
+ Also, this is how the stickers look.
+
+383
+00:35:32,000 --> 00:35:44,000
+ [Applause]
+
+384
+00:35:44,000 --> 00:35:46,000
+ Questions?
+
+385
+00:35:46,000 --> 00:35:58,000
+ Thank you for your wonderful talk, we have about, I think, six minutes left for questions, remarks, whatever.
+
+386
+00:35:58,000 --> 00:36:04,000
+ Please queue up in the middle, where the person is pointing,
+
+387
+00:36:04,000 --> 00:36:09,000
+ and then there will be a microphone for your questions.
+
+388
+00:36:09,000 --> 00:36:18,000
+ Okay. Are there any questions from the internet?
+
+389
+00:36:18,000 --> 00:36:21,000
+ Alright.
+
+390
+00:36:21,000 --> 00:36:23,000
+ We'll be around if you want to...
+
+391
+00:36:23,000 --> 00:36:25,000
+ Ah, there's someone coming up.
+
+392
+00:36:27,000 --> 00:36:31,000
+ You mentioned that we already have statements from some of the...
+
+393
+00:36:31,000 --> 00:36:33,000
+ It wasn't the Council, this was the...
+
+394
+00:36:33,000 --> 00:36:35,000
+ The Logistics Service of some...
+
+395
+00:36:35,000 --> 00:36:38,000
+ Like, we have some statements of the...
+
+396
+00:36:38,000 --> 00:36:41,000
+ "Juristic Service" is the right term, right?
+
+397
+00:36:41,000 --> 00:36:44,000
+ Like a lot of legal opinions.
+
+398
+00:36:44,000 --> 00:36:47,000
+ This was the legal opinion of the Council of the European Union.
+
+399
+00:36:47,000 --> 00:36:50,000
+ They decided to just ignore it.
+
+400
+00:36:50,000 --> 00:36:52,000
+ They are also like...
+
+401
+00:36:52,000 --> 00:36:56,000
+ The Bundestag's legal service got a legal opinion which says, "This is not okay."
+
+402
+00:36:56,000 --> 00:36:58,000
+ A lot of...
+
+403
+00:36:58,000 --> 00:37:05,000
+ Like, actually every written opinion on this matter is like, obvious that it's not legal.
+
+404
+00:37:05,000 --> 00:37:13,000
+ And maybe even the European Commission's internal committee that is in charge of telling the Commission before it officially proposes a law,
+
+405
+00:37:13,000 --> 00:37:18,000
+ they told them, "Hey, this is not going to fly with European rights."
+
+406
+00:37:18,000 --> 00:37:20,000
+ And they still did it.
+
+407
+00:37:20,000 --> 00:37:23,000
+ But we really can't rely on this.
+
+408
+00:37:23,000 --> 00:37:25,000
+ We have to apply this politically.
+
+409
+00:37:25,000 --> 00:37:32,000
+ We have to stop this before it gets a law, because it would take years and we can't trust the Court of Justice.
+
+410
+00:37:32,000 --> 00:37:34,000
+ And you know what happened with data retention.
+
+411
+00:37:34,000 --> 00:37:37,000
+ Like, everything gets struck down, someone proposes it again.
+
+412
+00:37:37,000 --> 00:37:45,000
+ So once the genie is out of the bag, or whatever you call it, like, they're going to keep coming back with this.
+
+413
+00:37:45,000 --> 00:37:51,000
+ You mentioned talking to your MEP, but I'm from the UK so I don't have any anymore.
+
+414
+00:37:51,000 --> 00:37:55,000
+ You have the online safety bill now.
+
+415
+00:37:55,000 --> 00:37:58,000
+ Yes, I'm kind of screwed. What can I do?
+
+416
+00:37:58,000 --> 00:38:02,000
+ I mean, like, no, but I mean, like, yeah, move to Ireland.
+
+417
+00:38:02,000 --> 00:38:05,000
+ You can talk to Irish MEPs.
+
+418
+00:38:05,000 --> 00:38:11,000
+ And I mean, like, I feel like if you tell people some things in British, they always react nice to it.
+
+419
+00:38:11,000 --> 00:38:15,000
+ So you can also talk to MEPs, just give them the arguments.
+
+420
+00:38:15,000 --> 00:38:22,000
+ It's not like maybe not only the pressure if you're like, I'm not voting you again, but the explanatory thing.
+
+421
+00:38:22,000 --> 00:38:25,000
+ I mean, we can still try to explain the Internet to politicians.
+
+422
+00:38:25,000 --> 00:38:29,000
+ We know they don't understand, but we can try.
+
+423
+00:38:29,000 --> 00:38:33,000
+ And of course you can support the fight against the online safety bill.
+
+424
+00:38:33,000 --> 00:38:37,000
+ With the open rights group, I'm sure they're always looking for allies to help you with that as well.
+
+425
+00:38:37,000 --> 00:38:41,000
+ They're leading the fight in the UK on that file there.
+
+426
+00:38:41,000 --> 00:38:47,000
+ So we of course don't want the UK to be... I'm avoiding the cursing again.
+
+427
+00:38:47,000 --> 00:38:54,000
+ I have a small question about the terminology used in this sort of politics.
+
+428
+00:38:54,000 --> 00:38:58,000
+ Is the word key escrow in the form of encryption also discussed in those documents?
+
+429
+00:38:58,000 --> 00:39:01,000
+ Or because...
+
+430
+00:39:01,000 --> 00:39:03,000
+ Can you talk a bit louder?
+
+431
+00:39:03,000 --> 00:39:08,000
+ Yeah, is the word key escrow being used in politics about this subject?
+
+432
+00:39:08,000 --> 00:39:12,000
+ They're a big fan of homomorphic encryption.
+
+433
+00:39:12,000 --> 00:39:16,000
+ So no, there are a lot of legal terms.
+
+434
+00:39:16,000 --> 00:39:19,000
+ There is no technical specification yet.
+
+435
+00:39:19,000 --> 00:39:25,000
+ In the online safety bill we have seen that they just deliver like a little...
+
+436
+00:39:25,000 --> 00:39:30,000
+ Yeah, it's not even like really solid technology-wise.
+
+437
+00:39:30,000 --> 00:39:34,000
+ And also this is what the European Commission through there say, it's technology open.
+
+438
+00:39:34,000 --> 00:39:38,000
+ So we just think we can nerd harder and then we can solve these problems.
+
+439
+00:39:38,000 --> 00:39:43,000
+ But they don't really know what technology they can use.
+
+440
+00:39:43,000 --> 00:39:49,000
+ There's a technology they dream of, but client side scanning is not what they think.
+
+441
+00:39:49,000 --> 00:39:54,000
+ So no, we aren't as far in the discussion as key escrow.
+
+442
+00:39:54,000 --> 00:40:01,000
+ They want to leave a lot to the European Center, which basically would be very powerful on this.
+
+443
+00:40:01,000 --> 00:40:12,000
+ But if I remember correctly, the European Commission in a leaked document sometime last summer said that 10% of the error rate is kind of okay with them.
+
+444
+00:40:12,000 --> 00:40:17,000
+ Yeah, so we have a queue right now if I see that right.
+
+445
+00:40:17,000 --> 00:40:25,000
+ So you said we can't count on the Council and the situation with the European Parliament is kind of tricky.
+
+446
+00:40:25,000 --> 00:40:30,000
+ And we should all write to our MEPs. So why is the situation tricky with the MEPs?
+
+447
+00:40:30,000 --> 00:40:42,000
+ So the issue is it's a publicity game a little bit because this file is all about protecting the children and who doesn't want to protect children.
+
+448
+00:40:42,000 --> 00:40:46,000
+ And as it's a really technical file, it's also really complex.
+
+449
+00:40:46,000 --> 00:40:51,000
+ So there's a really complex social issue we have here.
+
+450
+00:40:51,000 --> 00:40:56,000
+ And the politician thinks, okay, we just throw some technology at it and then we have it solved.
+
+451
+00:40:56,000 --> 00:41:03,000
+ And it's an easy fix. And so they are really sensitive about the whole child protection issue.
+
+452
+00:41:03,000 --> 00:41:09,000
+ And that's why it's so tricky in the Parliament. We already like on a good way the report.
+
+453
+00:41:09,000 --> 00:41:15,000
+ This is what we call what those committees deliver in terms of their opinion on the file.
+
+454
+00:41:15,000 --> 00:41:20,000
+ Look for the IMCO committee, for example, look really good.
+
+455
+00:41:20,000 --> 00:41:33,000
+ We now have to get like a majority in Parliament, which is tricky. So it's really important to talk to the Parliament and to reassure them that protecting children is something we can do, but in a different way.
+
+456
+00:41:33,000 --> 00:41:44,000
+ And it's like a complex social issue we need to address in another way, but that you never can use technology to easily fix complex issues.
+
+457
+00:41:44,000 --> 00:41:53,000
+ And we heard that they are really afraid of people of protest on the street just before elections. So next year there's going to be an election and they're afraid of street protests.
+
+458
+00:41:53,000 --> 00:41:54,000
+ And we are over time.
+
+459
+00:41:54,000 --> 00:41:59,000
+ Yeah, we have like we do one last question afterwards. You can maybe talk to them.
+
+460
+00:41:59,000 --> 00:42:11,000
+ So with the online safety bill in the UK, we've seen the major chat platforms like WhatsApp and Signal actively speak out against this.
+
+461
+00:42:11,000 --> 00:42:16,000
+ Have we had any response to this proposal by any of the major type platforms?
+
+462
+00:42:16,000 --> 00:42:25,000
+ Yeah, it's like the same. So the online safety bill is now our showcase. So we will see if they would really walk out or if they want.
+
+463
+00:42:25,000 --> 00:42:37,000
+ But they stated the same in terms of chat control that they would treat us like they treat the UK with the online safety bill. If this file comes into force.
+
+464
+00:42:37,000 --> 00:42:43,000
+ OK, then at last, thank you for your talk and a huge applause for them.
+
+465
+00:42:44,000 --> 00:42:45,000
+ Thank you.
+
+466
+00:42:45,000 --> 00:42:47,000
+ Thank you.
+
+467
+00:42:47,000 --> 00:42:49,000
+ Thank you.
+
+468
+00:42:49,000 --> 00:42:51,000
+ Thank you.
+
+469
+00:42:51,000 --> 00:42:53,000
+ Thank you.
+
+470
+00:42:54,000 --> 00:42:56,000
+ Thank you.
+
+471
+00:42:56,000 --> 00:42:59,880
+ [Music]
+

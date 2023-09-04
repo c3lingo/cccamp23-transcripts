@@ -1,0 +1,461 @@
+ [Musik]
+ Herzlich willkommen zu "Frag doch mal die Teams", in dem wir euch die Teams vorstellen,
+ die sonst vielleicht nicht ganz so viel Aufmerksamkeit bekommen, wie sie sollten,
+ denn damit so Chaos-Veranstaltungen so hochprofessionell ablaufen können,
+ wie sie jetzt gerade ablaufen. Ihr seht, das ist alles sehr professionell.
+ Haben wir diverse Teams, die sehr, sehr viele Stunden ehrenamtliche Arbeit da reinstecken.
+ Und wir wollen euch, wie gestern auch schon, jeden Tag einen Einblick geben
+ in die tollen Teams, die wir haben. Und ich habe eine Couch voller Gäste,
+ die hier zu Besuch sind. Und wir sagen immer in jeder Sendung die Nummer vom Zert an
+ und die Nummer von der Crew-Crew. Und der eine oder die andere hat sich sicherlich gewundert, genau,
+ warum, wenn er die 110 wählt, er nicht bei der Polizei, der Feuerwehr oder sonst jemandem landet.
+ Und das liegt daran, dass wir auf Chaos-Veranstaltungen, wer es noch nicht kennt,
+ es ist jetzt ein Product Placement, nein, sehr häufig oder jeder eigentlich,
+ der länger dabei ist, entweder meistens einen Deck dabei hat.
+ Und ja, wir haben hier Sascha, der sich tatsächlich darum kümmert mit dem POG,
+ dass wir solche Decks haben können. Wir haben aber auch Harald und Jolly,
+ die noch mal ein bisschen mehr geilen Scheiß machen, nämlich Telefonanschlüsse
+ auf Chaos-Veranstaltungen oder so ähnlich. Sascha, was ist eigentlich dieses POG und was macht ihr eigentlich?
+ Das POG ist das Phone Operation Center. Wir haben auf diesen Events ein eigenes Telefonnetz,
+ was wir selber hier aufbauen. Das kann jeder von zu Hause sein schnurloses Telefon mitbringen,
+ was man so kennt, was man sonst zu Hause so in die Ladeschale legt. Das kann man mitbringen,
+ kann sich hier eine Nummer registrieren und ist dann auf dem kompletten Gelände erreichbar,
+ hat eine eigene Rufnummer und hat sogar auch eine Rufnummer, mit der er von außen erreicht werden kann,
+ also von Freunden oder der Familie oder sonst irgendetwas und kann darüber auch raustelefonieren.
+ Wir hatten bis gestern nur deutschlandweit, ab heute haben wir auch europa- und weltweit Dial-out-Möglichkeit für kostenlos.
+ Naja, ich glaube, dass gerade wenn man so irgendwo in Brandenburg ist, ganz praktisch,
+ wenn man ein eigenes Telefonnetz hat, zumindest mit den Leuten auf der Veranstaltung,
+ kann man ungestört telefonieren und ich meinte ja schon, ihr seid eher so Teamtelefonanschluss.
+ Was ist eigentlich ISDN und was stellt ihr eigentlich zur Verfügung?
+ Also ISDN ist quasi eine Technik, die jetzt gerade so ein bisschen im Aussterben ist.
+ Das ist quasi digitale Telefonie. Wir machen hier auf dem Camp, machen wir echte ISDN-Anschlüsse,
+ machen aber auch Analoganschlüsse und nutzen halt eben alte Technik,
+ um dann eben ISDN-Anschlüsse hier auf dem Camp bereitzustellen unter Analoganschlüsse.
+ Ok, das heißt, ich kann meinen Wahlscheiben-Telefon mitbringen?
+ Genau, man kann seinen Telefon mitbringen, dann haben wir die Möglichkeit, das hier dann auf dem Camp anzuschließen
+ und dann können wir das mit in das Pocknetz integrieren, das heißt, man kann dann auch dort raustelefonieren,
+ man kann zu Decktelefonieren, man kann auch von draußen rein telefonieren. Also das ist dann quasi integriert in das Netz.
+ Ja, da ist dann auch vielleicht noch zu erwähnen, dass es ja auch nicht nur Telefonie ist, was man anschließen kann.
+ Man kann natürlich auch das, wie soll ich sagen, in Deutschland ja immer noch sehr wichtige Faxgerät anschließen,
+ beispielsweise bei uns am Telefonienetz. Die Chaos-Post hat ein Faxgerät, was da angeschlossen wird.
+ Ich habe auch gehört, in der Selbsthilfegruppe für Verwaltungsdigitalisierung ist das sehr gefragt.
+ Ja, es ist unbestritten. Es gibt ja auch Retro-Computing-Nords, also Leute, die hier alte Computer oder ähnliches mitbringen,
+ die dann vielleicht auch mal ein Modem anschließen möchten, damit sie mal wieder die Pfeifgeräusche hören,
+ der Internet-Einwahl aus den 90ern. Das sind halt so die Dinge, die wir mit diesen alten Telefonietechniken mitbringen,
+ die das Pock eben nicht abdeckt. Ich sage mal, wir machen eher so Gebastel für Leute, die sich mit alter Technik beschäftigen möchten
+ und haben das eben verbunden mit dem Pocknetz, wo das eigentliche Pockteam eben die essenzielle Infrastruktur für das Camp zur Verfügung stellt.
+ Bevor wir gleich weiter darüber sprechen, wie man sich da eigentlich einbietet, was haben die bunten Streifen auf deinem T-Shirt zu bedeuten?
+ Das hier ist tatsächlich eines der vielen Logos, die die Deutsche Bundespost und dann später Telekom mal für ISDN hatte.
+ Die bunten Streifen stehen für Gott, Telefone, nee, was Sprache? Ich habe es jetzt auch nicht.
+ Sprache, Text, Telefonie und Daten. Also vier Elemente der Kommunikation.
+ An der Stelle vielleicht, das "i" in ISDN steht dafür "integriert", also integrated service digital network.
+ Das war damals eben das Novum in den 80ern, als man das entwickelt hat, dass man jetzt nicht nur telefonieren kann übers Telefonnetz,
+ sondern dass man eben auch Datenaustausch, also Interneteinwahl oder derartige Dinge tun kann im Telefonienetz oder Bildtelefonie und so.
+ Das ist alles integriert. Integriert auch deswegen, weil es alles in einem Netz war, wo man früher gesondte Netze hatte, historisch in der Kommunikationsgeschichte.
+ Okay. Und wie schließt dich dann der Kreis? Also wie, wenn ich jetzt mein ISDN-Telefon habe, wie komme ich dann bei den Deck draus?
+ Wie schließt ihr euch da zusammen? Aber ihr arbeitet ja, dann müssen eure Netze ja irgendwie integriert sein.
+ Also da benutzen wir dann SIP für die Schnittstelle an der Stelle. SIP ist ja das bekannteste und weitverbreiteste Internet-Telefonie-Protokoll.
+ Und Jolly und ich haben eben eine Software entwickelt, mit der wir diese alte ISDN-Zugangstechnik, die also aus tatsächlich gewöhnlichen Telefonvermittlungsstellen stammt,
+ wo das eben abgebaut wurde, weil ISDN kriegt man ja nicht mehr, gibt es ja nicht mehr, ist ja alles abgeschaltet.
+ Und diese Technik können wir halt mit unserer Software so adaptieren, dass sie über SIP mit dem Decknetz vom Vox spricht
+ und dann dadurch auch mit dem Mobilfunknetz, was hier am Campus und mit dem Rest der Welt.
+ Okay. Und wenn ich jetzt auf ein Chaos-Event fahre, du hast eben schon gesagt, wir können einfach diese Handtelefone von zu Hause mitbringen,
+ was muss ich dann machen, damit ich eine Decknummer bekomme und mich verbinden kann, hätte ich fast gesagt.
+ Eigentlich musst du gar nicht viel machen. Du musst dein Telefon halt mitbringen, es einschalten und einmal bei uns im Netz registrieren, also anmelden.
+ Das ist quasi, dass das Telefon mit unseren Basisstationen bekannt wird. Dann bekommst du automatisch eine lange Nummer von uns, die wird ausgewürfelt.
+ Das ist irgendeine x-beliebige Rufnummer. Wenn du jetzt eine kurze Nummer haben möchtest,
+ kann man auf eventphone.de auf unserer Webseite sich eine Nummer aussuchen. Die ist dann für gewöhnlich vierstellig.
+ Und die kann man dann auf sein Endgerät selber drauf wählen, indem man eine Nummer anruft, die einem angezeigt wird.
+ Und dann hat man die kurze Nummer und ist damit dann auch erreichbar, hat einen eigenen Eintrag im internen Telefonbuch,
+ wo man dann gefunden werden kann von anderen Teilnehmenden hier auf dem Gelände. Und dann kann man telefonieren und ist erreichbar. Kann Dinge koordinieren.
+ Wenn man mal kein Netz und kein WLAN hat, kann man auch gut mit anderen Leuten sprechen. Das ist ja manchmal auch eine kleine Herausforderung.
+ Wenn ich jetzt irgendwie ein Problem habe oder gerne mal wissen will, wie es bei euch so aussieht, wo finde ich euch denn auf dem Camp?
+ Du findest uns an dem großen Wall, da wo jetzt der Turm mit dieser Spiegelsonne installiert wurde heute im Laufe des Tages.
+ Am Fuße davon auf der linken Seite sind wir. Euer großes Zelt hat ein großes Eventphone-Logo auf der Seite. Ist eigentlich nicht zu verfehlen.
+ Okay. Und wie ist es bei euch? Was ist, wenn ich jetzt in dieses ISDN-Netz rein möchte? Was muss ich da machen?
+ Ja, dann müsst ihr vorbeikommen. Dann müsst ihr vorbeikommen und dann sagen, wo der ISDN-Anschluss oder der Analog-Anschluss geschaltet werden soll.
+ Ja, und dann legen wir entsprechend Kabel rein, wenn du keins mitbringst. Und dann richten wir das alles ein und dann schalten wir das.
+ Also legt ihr dann wirklich physisch so ganz lange, lange, lange Kabel so übers ganze Gelände?
+ Ja, genau. Das Problem ist ja, dass das schnurgebunden ist. Das heißt, ISDN und Analog-Technik war ja immer schnurgebunden.
+ Und das heißt, wir müssen ein Kabel legen. Und das zumindest zum nächsten Knotenpunkt.
+ Wir haben jetzt vier Knotenpunkte auf dem ganzen Gelände verteilt.
+ Und dann müssen wir halt gucken, dass wir möglichst einen Weg finden, wie man dann halt zu dem Knotenpunkt kommt.
+ Und dass das auch möglichst kurz ist, weil Kabellänge, welche Kabellänge haben wir maximal, ich glaube einen halben Kilometer?
+ Ja, also wir haben zwei Rollen mit einem halben Kilometer. Zwei Gäste haben jeweils 800 Meter mitgebracht.
+ Und ja, dann noch diverse andere Leute. Also bisher haben wir viel mehr Kabel, als es gebraucht wurde.
+ Weil wir haben also sozusagen erstmal eine Liste gehabt, ein ESA-Pad, wo alle Interessenten sich eintragen konnten, schon vor der Veranstaltung, die davon gehört hatten.
+ Und das haben wir dann schon in der Planung berücksichtigt, dass wir diese Knotenpunkte möglichst dort haben, wo die Teilnehmenden möglichst kurze Leitungslängen haben, damit nicht zu viel verlegt werden muss.
+ Ja, aber es sind ja auch sehr wenig Teilnehmer bei uns, wie gesagt. Das ist ja nur so ein, für ein paar Retro-Nerds, die halt mal gerne ihr altes Telefon wieder benutzen
+ und das interessant finden, ein Wählscheiben-Telefon oder ein Fax oder eben irgendwie ein ESDN-Telefon bei sich im Zelt zu stehen zu haben.
+ Weil man es halt kann. Das ist der Hack-Value. Weil es kann man halt sonst nirgendwo mehr.
+ Weil es gibt ja kein öffentliches ESDN-Network mehr. Man kann diese Geräte nicht benutzen. Und hier kann man die halt mal wieder in Betrieb setzen, sofern man sie noch hat.
+ Wie viele Geräte habt ihr gerade so in Betrieb? Wer ist das aus dem Kopf?
+ Also es hatten sich 27 Leute gemeldet, aber da gibt es auch Einzelne, die drei Anschlüsse haben. Also, sagen wir mal so in dem Individu.
+ Also die haben dann Faxgeräte, ein Wahlscheiben-Telefon und irgendwas anderes? Den Retro-Modem, so das volle Programm, oder?
+ Gibt's, ja. Es gab auch einer, der hat sich angemeldet. Der bringt ja seinen Amiga 2000 mit, mit irgendwie drei Modems zur Einwahl, damit sich Leute da in die Mailbox einwählen können.
+ Das ist dann so, ich sag mal, 80er und frühe 90er Jahre Technik, wo Leute noch kein Internet hatten und sich da so privat verbunden hatten, eben über BBSes, Mailboxen und so. Ja, das gibt's anscheinend auch.
+ Okay. Ja, krass. Ich hoffe, es sind, also wie sichert ihr die Kabel ab? Also was sagt das Zert dazu?
+ Die Kabel, wenn wir Wege queren, dann legen wir die natürlich nur in die Kabelbrücken rein oder gehen über die Kabelbrücken, das ist ja wohl logisch.
+ Also die liegen halt genau da, wo andere Kabel auch liegen, ob Strom oder Phase oder sonst irgendwas, ja. Und Wege werden eben nicht oder quer oder nur halt, wenn es durch die Kabelbrücken geht.
+ Also da sehe ich jetzt keinen Unterschied zu anderen Kabeln. Das hat sich noch keiner beschert. All cables are welcome, no?
+ Würde ich doch hoffen, dass es da keine Diskriminierung gibt, sonst müssten wir da ja mal mit Awareness sprechen, wenn irgendwie hier ESDN diskriminiert wird.
+ Also ich hoffe, das POG ist lieb zu euch. Die haben die Marktmacht.
+ Wir arbeiten schon viele, viele Jahre zusammen mit verschiedensten Projekten. Das funktioniert hervorragend.
+ Okay, und also die Frage habe ich für den VOG auch vorhin schon gestellt, wie lange seid ihr schon auf dem Gelände, damit ihr das alles aufbauen konntet?
+ Also vom POG her sind wir seit Donnerstag auf dem Gelände, also Tag minus drei, vier. Ich glaube, Tag minus vier oder so.
+ Das muss die Regie jetzt ausrechnen.
+ Ja, korrigiert das zur Not.
+ Und wir hängen ja sehr stark vom NOC ab, die ja das Netzwerk auf dem Gelände macht, weil wir unsere Deckt-Basis-Station, unsere Deckt-Antennen ja in das Netzwerk vom NOC einbauen.
+ Und deswegen müssen wir so ein bisschen warten, bis das NOC fertig ist, um dann unsere Anlagen in Betrieb zu nehmen und um die Konnektivität herzustellen.
+ Stehen dann Anlagen mit in den Datenklos oder wie?
+ Genau, wir haben eine Deckt-Antenne in jedem Datenklo oder fast jedem Datenklo.
+ Vielleicht einmal für die Zuschauer, die noch nie auf einem Chaos-Event waren. Es gibt auf dem gesamten Gelände, also auf dem Camp, sonst gibt es nicht so viele Datenklos, auf dem gesamten Camp gibt es Dixi-Klos.
+ Die ein oder andere mag denken, dass es eine Toilette ist, das ist es aber nicht. Das sind unsere sogenannten Datenklos und die werden genutzt für Netzwerktechnik.
+ Und die sorgen dafür, dass wir Internet haben und andere lustige Dinge.
+ Genau, da verschwindet ein Haufen Kabel drin. Unter anderem hängen da auch unsere Deckt-Antennen drin.
+ In zwei von diesen Datenklos steht auch die ISDN-Technik oder in drei steht auch ISDN-Technik dann drin.
+ Und damit sorgen wir, dass auf dem gesamten Gelände Deckt-Empfang möglich ist, auch in den Gebäuden, im Culture Club oder auch ganz hinten auf dem Parkplatz.
+ Das ist so die Deckt-Antenne, die am weitesten weg ist, weil die Engel, die da Einlasskontrolle machen und die die Parkaufkleber von den Autos kontrollieren, brauchen natürlich auch Kommunikation mit dem Rest und mit dem Himmel, um das Ganze zu koordinieren.
+ Und damit das funktioniert, haben wir dann natürlich auch Empfang.
+ Okay, und wie groß ist euer POG-Team?
+ Wir sind aktuell hier auf dem Gelände jetzt, glaube ich, mit 15 Leuten, 15 oder 16 Leute.
+ Das ist so der harte Kern, der alles aufbaut, der alles zusammenhält.
+ Wir haben aber auch einige Helfer, also einige Engel, die bei uns Schichten machen, die zum Beispiel dann Support für Leute machen, für User machen,
+ die irgendwie Probleme mit der Anmeldung aus Decktelefons haben oder die irgendwie Dinge wissen möchten, wie jetzt die Telefonnummer ist.
+ Wenn sie nicht klarkommen, dann können sie auch zu uns kommen. Da gibt es den POG-Help-Desk, da sitzen entsprechend von uns geschulte Engel, die das dann machen.
+ Okay, das heißt, ihr habt sozusagen die Infrastrukturenge, sage ich mal so, das ist der harte Kern wahrscheinlich,
+ und ihr macht den ganzen Aufbau, den ganzen Hardcore-Kram und dann gibt es immer noch Service-Desk-Engel.
+ Genau, richtig, ja.
+ Und seid ihr da so, wie ist die Lage so nachwuchstechnisch bei euch, weil ich weiß immer, viele Teams haben so Nachwuchsprobleme. Gibt es da, kommt da eine neue Generation nach oder müssen wir Angst haben, dass unser Telefonnetz aufgrund von Nachwuchsproblemen eingestellt wird?
+ Also bisher funktioniert das ganz gut. Ich mache das jetzt ja schon ein bisschen länger, seit 2001. Das waren so die ersten Anfänge vom Phone Operation Center und von Eventphone.
+ Aber es kommen immer noch neue Gesichter nach und es gibt da auch neue Impulse. Wir haben vor, ich weiß gerade, die Zahlkappe ist jetzt leider nicht im Kopf, der zweite Kongress, der in Leipzig stattgefunden ist.
+ Da haben wir zu diesem Kongress-Termin die komplette Technik getauscht. Alles, was wir vorher hatten, die 18 Jahre lang, die wir mit der alten Telefonanlage gemacht haben, die haben wir quasi ersetzt durch komplett neue Technik.
+ Und das in erster Linie, weil wir neue Impulse hatten durch neue Leute, die neue Dinge ausprobiert haben, gesagt haben, guck mal, das kann man auch anders machen, lass uns das mal probieren.
+ Und haben alles auf links gekrempelt, damit es spannend bleibt.
+ Hat gut geklappt.
+ Hat gut geklappt, ja.
+ Okay, und das heißt, wenn ich jetzt irgendwie ein Telefon, also muss ich ein Telefon-Nerd sein, um mal euch mitmachen zu können?
+ Also gut, Service-Desk ist wahrscheinlich relativ niedrigschwellig, aber gibt es da irgendwie so einen Weg, man macht erst beim Service-Desk Mist, um sich das mal anzugucken und dann wandert man weiter zu euch? Wie ist das so?
+ Also man muss da kein Telefon-Nerd sein. Im Zweifelsfall reicht es, wenn man eine Leiter bedienen kann und vielleicht einen Akkuschrauber oder irgendwie Kabel einstecken kann. Also wir suchen da beim Aufbau auch immer Leute, die gerne mit uns, mit ein oder zwei Leuten aus dem Kernteam rumlaufen, um Deckantennen auszurollen auf dem Feld, aufzuhängen, entsprechend Qualitätskontrolle zu machen, nachdem die dann hängen, ob sie alle funktionieren, wenn dann überall Strom eingeschaltet wird.
+ Diese ganzen Dinge, das sind alles Sachen, die müssen gemacht werden und da freuen wir uns natürlich jederzeit über Hilfe.
+ Okay, und ihr habt auch eure komplett eigene Hardware und alles, oder wie ist das? Die bringt ihr dann jedes Mal mit und dann wird die irgendwo in einen Lager geschoben, oder wie funktioniert das?
+ Genau, ja. Also ich habe eine große Garage und da steht sehr viel der POG-Hardware drin. Die bringen wir zu den ganzen Events immer mit.
+ Also ist deine Garage sozusagen kritische Infrastruktur?
+ So gesehen ja. Single point of failure vielleicht auch. Ja, da gibt es die ganzen Deckantennen drin, jede Menge Kabel, was man auch sonst so braucht an Technik und Equipment.
+ Und die nehmen wir mit zum Event, bauen das auf und dann geht es rund.
+ Okay, und bei euch, wie ist es eigentlich so dazu gekommen? Also habt ihr gedacht, ihr findet ISDN große Liebe und deswegen habt ihr euch gedacht, ihr baut etwas Neues oder wie ist es dazu gekommen, dass ihr angefangen habt damit?
+ Ja, also vom Prinzip habe ich angefangen Ende der 90er Jahre, dann habe ich angefangen bei der Versatel und habe mich da quasi mit der ISDN-Technik befasst.
+ Das heißt, ich war quasi Administrator der Technik. Eigentlich genau das, was wir jetzt hier aufgebaut haben.
+ Und da hat man natürlich dann ziemlich viel Erfahrung damit gesammelt und dann hat man auch so ein bisschen gesagt, okay, wie funktioniert das?
+ Und ja, hat dann auch später dann gesagt, ja, das möchte ich auch mal zu Hause nachbauen. Und dazu ist das gekommen. Und ja, danach.
+ Aber ist das jetzt die erste Chaos-Veranstaltung, der ihr das anbietet oder habt ihr das vorher schon mal gemacht?
+ Dieses ISDN-Analognetz mit dieser Technik ist so, dass es jetzt das erste Mal auf der Chaos-Veranstaltung ist.
+ Also bei Jolly und ich uns schon länger mit älterer Telefontechnik beschäftigen. Ja, ich war viel auf der Mobilfunkseite unterwegs.
+ Jolly war ein bisschen auf digitaler Mobilfunkseite, Jolly eher bei analogen Mobilfunk und anderen Techniken. Also mit der Technik sind wir schon lange befasst.
+ Wir haben auch schon viel auf Chaos-Veranstaltungen gemacht. Ich war früher das Mobilfunkteam, das hier Mobilfunknetz betreibt, das habe ich mal mit initiiert und die Software auch mit initiiert zu schreiben, die dafür benutzt wird und so.
+ Und man brauchte immer mal was Neues. Oder was Altes. Ja, also, das POC hat ihr ja gerade erwähnt.
+ Die haben dann auch mal die alte Technik rausgemissen und haben was Neues gemacht. Zwar für die gleichen Telefone, aber an so Infrastruktur.
+ Und ich suche mir halt dann auch immer gerne irgendwie mal ein neues Projekt. Ja, damit man nicht irgendwie 20 Jahre das gleiche macht, ist ja auch langweilig.
+ Und jetzt in dem konkreten Fall mit dem ISDN-Equipment, was wir jetzt hier haben, also das, was in den Datenklots steht, wo die Teilnehmer ihre Leitungen hinlegen, das sind halt eben jetzt ausgemusterte Technik von, äh, nicht mobil, von Telefonanbietern, Festnis-Telefonanbietern.
+ Und die haben wir ja nur jetzt zur Verfügung, weil sie jetzt ausgemustert ist, weil es kein ISDN mehr gibt im öffentlichen Netz.
+ Okay, und wie seid ihr da drangekommen? Also kann man die einfach kaufen?
+ Nee, das ist nur über persönliche Kontakte. Okay, also das ist sozusagen auf dem Schwarzmarkt gedierte Telefontechnik.
+ Nein, schwarz ist das nicht. Das ist alles ganz offiziell mit Kaufvertrag und allem.
+ Also, ja, okay, aber es ist eher so über, wir kennen uns und ISDN ist jetzt weg. Seit wann gibt es kein ISDN mehr?
+ Ich glaube, neue Anschlüsse offiziell werden nicht mehr geschaltet seit 2014 oder so, hab ich im Kopf.
+ Kommt, hängt vom Anbieter ab. Ja, hängt vom Anbieter ab, aber so ungefähr in dem Dreh, ja.
+ Es gibt immer noch ISDN, aber halt jetzt nicht mehr so für den privaten Menschen, der einen neuen Anschluss oder so haben möchte.
+ Ja, die sind alle abgeschaltet und das ist alles umgestellt, ja. Und wie gesagt, da war halt die Möglichkeit mit dieser Technik.
+ Ich war ja zu der Zeit, wo ISDN benutzt wurde. ISDN ist ja, sag mal, in der 80er-, 90er-Jahre Technik und da kenn ich das halt nur als Anwender.
+ Gut, Jolly ist ein bisschen älter, der war da Servicetechniker schon, der kennt das schon von damals.
+ Aber ich sag mal, wann hat man die Chance mit der Netzwerktechnik zu spielen, so aus persönlichen Interesse?
+ Das Equipment damals, als es neu war, war das ja für Privatleute unerhältlich und unbezahlbar.
+ Ja, und jetzt kann man halt mal, ja das ist, sag mal, die Kinderpost für Erwachsene.
+ Nur, dass man es halt nicht mit Briefmarken und Stempeln und mit Postkarten macht, gibt es ja auch hier, ist ja auch schön.
+ Können auch Erwachsene natürlich machen, das wollte ich jetzt nicht irgendwie diskreditieren.
+ Ja, aber dass man einfach mal diese Technik bis ins Letzte versteht und selber betreibt und damit seinen Spaß hat.
+ Man muss nicht immer am neuesten und tollsten und teuersten aktuellen irgendwie basteln, man kann auch alte Technik für sich erschließen und erforschen und damit interessante Dinge tun.
+ Okay, und wenn ich jetzt bei der Erwachsenenpost mal reingucken will, ihr seid wahrscheinlich beim POG mit angedockt, also gleiche Location.
+ Kann man bei euch einfach mal so reinschauen und gucken und Fragen stellen, wie ist das, seid ihr dann da, ist da jemand oder wie macht ihr das?
+ Wie groß ist euer Team, seid ihr nur ihr zwei oder gibt es da noch mehr?
+ Es gibt noch Helfer, ja, aber im Wesentlichen sind es Joli und ich.
+ Wir haben auch keine Engel, das ist ja jetzt hier nicht, das wäre ja ein bisschen komisch, wenn wir da hier so Bastelprojekte machen und dafür Engel noch irgendwie.
+ Das ist ja nicht so wichtig wie jetzt das POG mit seiner eigentlichen, sagen wir mal, die produktiv wichtigen Infrastruktur.
+ Ja, das ist ja so ein Hobbyprojekt, sage ich mal und ja, das ist auch okay.
+ Aber wenn ich jetzt Interesse habe, kann ich einfach bei euch vorbeikommen und euch ein Loch im Bauch fragen, also dafür muss man eigentlich für die Kamera zerren.
+ Selbstverständlich, wir sind da und wir beantworten die Fragen auch und wir haben im Vorfeld schon, wie gesagt, alle die interessiert sind, es gab ja auch im CCC Event Blog schon eine Ankündigung,
+ dass es hier dieses Netz geben wird und dass Leute doch bitte ihre Geräte mitbringen, wenn sie da irgendwie Interesse daran haben, aber auch Leute, die keine Geräte mitgebracht haben, können natürlich gerne zu uns kommen.
+ Ja, wir haben auch ein bisschen Technik, die wir verleihen könnten, notfalls, wenn jemand sagt, jetzt will ich aber doch da umgestimmt angeschlossen werden, aber ich habe kein Telefon mehr oder kein Gerät mehr.
+ Okay und so die Software, die ihr dafür geschrieben habt, kann man sich die irgendwo angucken? Ist die irgendwo verhältlich?
+ Ja, also Jolly und ich, wir haben viel Mobilfunk gemacht und da haben wir mal das Projekt OsmoCom, Open Source Mobile Communications, gestartet.
+ Das ist auch das, was verwendet wird für das 2G Netz hier auf dem Camp mit einem anderen Team und innerhalb dieses Projekts haben wir eben dann auch diese Software für dieses ISDN Netz, das nennt sich dann Osmo V5,
+ weil V5 die Abkürzung für die Schnittstelle ist, die wir da implementieren, das ist halt so, die sogenannte V5 Schnittstelle hat nichts mit einer Version 5 zu tun und die Software heißt halt Osmo für Open Source Mobile,
+ auch wenn es gar nicht mobile ist, das ist uns egal an der Stelle, man muss es ja irgendwie nennen, braucht ja irgendeinen Namen und wir haben halt schon diese ganze Infrastruktur,
+ wir haben irgendwie unser eigenes Git-Hosting, unser Code Review System und unser Issue Tracker und so weiter für die hunderte Projekte, die es gibt im OsmoCom-Feld sozusagen und das ISDN ist jetzt halt eines davon.
+ Das heißt, wenn man das in die Suchmaschine seiner Wahl oder ihrer Wahl reinschmeißt, dann findet man euch relativ gut, wenn man das jetzt mal anschauen will.
+ Ja, genau, das sollte kein Problem sein.
+ Ok, cool, jetzt haben wir ein bisschen was über eure Geschichte gehört, mich würde es interessieren, du hast gesagt, du machst das seit 2001 gerade, ne?
+ Richtig.
+ Ok, das ist schon ganz schön lange, da war ich klein, 2001, da konnte ich noch nicht mehr lesen.
+ Wie ist es dazu gekommen, dass ihr gedacht habt, Mensch, wir brauchen, also ich meine, wir haben auch gedacht, wir brauchen unbedingt ein eigenes Studio und das Vok hat gezaubert,
+ aber 2001 ist ja jetzt schon relativ früh, das so zu machen, wie seid ihr dazu gekommen?
+ Ja, das ist aus so einer Art Laune heraus entstanden, wir waren 2001 auf einem Hacker-Camp in den Niederlanden und ich habe zu dem Zeitpunkt Telefonanlagen für Großfirmen gebaut,
+ also eigentlich dasselbe, was wir hier auf dem Acker bauen, aber dann halt in Gebäuden und davon war halt einiges an Technik übrig und wenn man überlegt,
+ ja komm, wir nehmen einfach mal ein paar Telefone mit für in unser Zelt, dann kann man sich, wie man so rumspinnt, halt von der einen Ecke, von der einen Ecke vom Zelt,
+ die andere Ecke des Zeltes anrufen und muss nicht quer durchs Zelt brüllen und daraus entstand dann die Idee, guck mal, wir haben hier noch ein bisschen ein paar Meter Kabel und wir haben noch so eine Antenne
+ und dann lass man noch mal so in 30, 40 Metern Entfernung noch eine Antenne aufhängen, dann geht da hinten auch DECT und irgendwann sind wir dann zum NOC gegangen,
+ zum Network Operations Center und haben gesagt, wir hätten gerne 200 Meter Netzwerkkabel und haben die uns angeguckt und gesagt, ne, das funktioniert nicht mit Netzwerk,
+ haben gesagt, ne, wir wollen auch kein Netzwerk machen, wir würden gerne DECT machen damit, ja und so kam dann die Idee und so haben wir dann so kleine Teile dieses Areals in den Niederlanden mit DECT-Infrastruktur ausgeleuchtet
+ und überlegt, dass wir das eigentlich 2003 zum Camp in Atlansberg vom CCC, dass wir das da eigentlich auch haben wollen, um Engel zu koordinieren und um so ein bisschen Spaß auf dem Gelände zu haben.
+ Also das heißt, am Anfang war es erstmal ein Engelnetzwerk auch oder war es von Anfang an so gedacht, dass alle Teilnehmenden das benutzen sollen?
+ Das war von Anfang an so gedacht, dass alle Teilnehmer benutzen sollen, ja.
+ Ich erinnere mich noch sehr gut, wie wir 2003 bei der Begehung vom Gelände auf dieser Pferdekoppel standen und Tim Pridlove meinte dann so, ja und das sind irgendwie diese Leute, die wollen das mit diesem Telefon machen.
+ Da hatte noch überhaupt keine Ahnung, was das werden wird.
+ Das Telefon setzt sich nicht durch, sagte Tim Pridlove.
+ Genau, richtig, ja. Wir standen da und haben gesagt, ja, wir machen das, wir machen hier überall so Empfang und ihr könnt eure Telefone alle mitbringen und dann gucken wir mal, was daraus wird.
+ Ja und ich glaube, mittlerweile ist daraus das eine der Rückgrat der ganzen Organisationen geworden, wo die Engel mit koordiniert werden.
+ Es hat ja auch einen riesengroßen Vorteil gegenüber Funkgeräten, dass halt theoretisch so viele parallele Gespräche wie möglich stattfinden können.
+ Beim Funk ist man auch wenige Kanäle begrenzt, die gleichzeitig halt miteinander reden können.
+ Und bei, ich habe keine Ahnung, wie viele Engel wir hier haben, ich hätte immer geschätzt über 1000.
+ Das ist auf jeden Fall, wir haben nie genug Engel, aber es sind sehr viele.
+ Es ist schon eine ganz schöne Menge und die alle zu koordinieren und in ihre Schichten zu bekommen, dafür ist das mittlerweile echt unerlässlich und nicht mehr wegzudenken.
+ Okay, also 2003 auf dem Camp habt ihr das erste Mal so ein Netzwerk gemacht.
+ Gab es da schon Datenclos?
+ Da gab es schon Datenclos, ja.
+ Das heißt, das war dann auch schon sehr ähnlich zu dem, weißt du noch, wie viele Geräte ihr damals in Betrieb hattet?
+ Also Tim Pridlove wahrscheinlich nicht.
+ Unter 100 hätte ich gesagt, so beim allerersten in den Niederlanden, da war es so um die 100 Geräte.
+ 2003 hätte ich schon gesagt so 400, 500.
+ Wir haben aber auch eine Statistikseite, man kann auch in der Wikipedia gucken, da gibt es eine Liste mit Übersicht.
+ Und da kann man nachgucken, wie viele Nebenstellen, zu welchem Zeitpunkt überall registriert waren.
+ Vielleicht könnt ihr das auch gleich mal einspielen.
+ Da gibt es so ein Bild, wo man die aktuellen Zahlen sieht, was wir hier auf dem Gelände jetzt gerade installiert haben.
+ Wir gucken mal so ganz vorsichtig da hinten hin.
+ Ja, da kann man was sehen.
+ Vielleicht können wir es ja kurz stehen lassen. Genau, was sehen wir denn da?
+ Das ist so ein Foto, das was ich hier kurz vor der Sendung gemacht habe.
+ Da sieht man, dass wir aktuell 4791 Nebenstellen haben, die in irgendeiner Art und Weise, also 3152 davon deckt.
+ Das sind die digitalen Schnullustelefone, wie wir ja schon eben erwähnt haben.
+ Das ist das Protokoll, das Harald eben schon angesprochen hat, womit man über das Internet telefonieren kann.
+ Da gibt es auch einige Leute, die dann auf ihrem iPhone oder Android Gerät entsprechend eine App installiert haben.
+ Oder ein beliebiges anderes Gerät.
+ Ja, und was ich mittlerweile sehr beeindruckend finde und wo wir auch immer wieder darüber staunen, ist, dass wir mittlerweile bei,
+ wahrscheinlich mittlerweile jetzt über 80.000 Anrufe sind, die auf diesem Event, seit es gestartet ist, gemacht wurden.
+ Also diese Anzahl, die erstaunt uns doch immer wieder.
+ Jedes Mal, wenn wir irgendwie gucken, wie so die Auslastung der Deckt-Antennen ist, dann staunen wir, dass da überall telefoniert wird.
+ Meistens sind es nur kurze Anrufe. Wahrscheinlich sowas wie "Ja, wo bist du gerade?" "Ja, ich bin da oder da."
+ Aber genau das ist halt das, was diese Kommunikationstechnik möglich macht, um schnell gezielt irgendeine Person zu erreichen und zu sagen, wo bist du?
+ Ich komme auch dahin, wo du bist.
+ Und dafür ist es echt schön. Und wie gesagt, man sieht, es wächst. Es wird immer größer.
+ Und darüber freuen wir uns natürlich auch. Bringt mehr Decktelefone mit.
+ Bringt mehr Decktelefone, überfallt eure Mutti und Omos und geht in den Keller.
+ Die haben mit Sicherheit noch welche da, auch für die Generationen, die diese Funktion nicht mehr kennen, hätte ich fast gesagt.
+ Ihr seid ja nicht nur auf dem Camp, ihr seid ja bestimmt auch auf dem, nein, nicht bestimmt, ihr seid auch auf dem Kongress.
+ Wie ist es denn da? Das ist ja ein bisschen anders wahrscheinlich von Netzwerk und so.
+ Wie viel vorher müsst ihr da sein? Wie viel Meter Kabel verlegt ihr da, hätte ich fast gesagt. Wie kann man sich das vorstellen?
+ Ja, auf dem Kongress in Leipzig war das so, dass wir tatsächlich die lokale Netzwerkinfrastruktur auch mitbenutzt haben.
+ Wir teilen uns da ja immer mit dem NOC die Kabel.
+ In den Jahren davor, als es noch in Hamburg war, da hatten wir noch die alte Technik in Betrieb.
+ Da haben wir tatsächlich noch eigene Kabel gelegt und haben den Telefonverteiler im Gebäude übernommen.
+ Also haben wir einen riesigen großen Telefonverteiler damals im Gebäude gehabt.
+ Da haben wir unsere Anlage neben gestellt und dann auch, wie das Jolly und Harald jetzt machen,
+ Kabel in den ihr Telefonnetz, was sie eigentlich im Haus haben, reingeschaltet und dann damit quasi den ihr Telefonnetz mehr oder weniger übernommen.
+ Und jetzt habt ihr während der Renovierung heimlich auch schon gleich Kabel mit reingelegt?
+ Nee, wir machen ja jetzt IP. Wir machen das jetzt mit diesem Internet.
+ Verdammt.
+ Und wir brauchen jetzt nur noch irgendwo so ein Netzwerkport, wo wir unsere Deckantenne einstecken.
+ Aber der Unterschied zwischen Kongress und Camp ist, dass der Kongress deutlich größer ist und deutlich mehr Teilnehmer hat.
+ Und wir dann auch, wenn wir jetzt hier bei 4.000 Nebenstellen grob waren,
+ kommen die Kongresse doch teilweise in so Größenordnung von 7.000 Telefonen,
+ die dann da auf dem Gelände unterwegs sind und die dann miteinander kommunizieren.
+ Das ist immer eine ganz andere Herausforderung.
+ Aber auf dem Kongress haben wir ja auch irgendwie Sachen, die außerhalb sind.
+ Kann man mit Decks eigentlich auch draußen auch telefonieren?
+ Also wenn wir irgendwie so die Parking-Situation haben, um Engel zu koordinieren?
+ Wenn da entsprechend Deckantennen von uns aufgehangen werden und da der Bedarf angemeldet wird,
+ dass da gerne telefoniert werden soll, dann können wir das machen.
+ Wir haben auch auf den Kongressen oftmals einige Hotels mit angebunden, die im Stadtgebiet rund um die Messe sind.
+ Ach was.
+ Jawohl, dann gibt es dann...
+ Ein ausgewählter Hotels.
+ Genau. Also man kann theoretisch seine eigene Deckantenne, wenn man denn so eine Deckantenne hat, mitnehmen.
+ Dann kommt da ein VPN-Router dran, der die Verbindung zu uns herstellt.
+ Und dann hat man Deckt im Hotel.
+ Vielleicht willst du noch was zur Tram-Syne?
+ Stimmt, wir hatten auch Tram-Deckt in Leipzig.
+ Also in der Tram.
+ Wir haben einen Engel ausgestattet mit einer Tasche.
+ In der Tasche war eine Deckantenne, eine Powerbank und ein VPN-Router.
+ Und der ist dann nur Tram gefahren?
+ Genau, der hat sich in die Tram gesetzt, hatte die Tasche über der Schulter
+ und ist dann in dieser Tram-Linie gefahren.
+ Dann konnte man in der Tram mit dem normalen Kongressnetz, mit seinen Decktelefonen auf dem Weg zum Hotel und zurück zum Kongress telefonieren.
+ Okay, hat der Engel das freiwillig gemacht?
+ Ja, der Engel hat das...
+ Und dann habt ihr euch das ausgedacht und dann war da ein Multi-Purpose-Engel und ihr habt gesagt, du kriegst jetzt eine Tasche und musst leider das Gelände verlassen.
+ Nee, nee, der Engel hat das freiwillig gemacht.
+ Der fand das auch großartig.
+ Okay.
+ Wir haben das auch nicht die ganze Zeit gemacht.
+ Das war mal so Proof of Concept, ob das funktioniert.
+ Und die Leute waren sehr erstaunt, als sie in der Bahn saßen und plötzlich ihr Decktelefon immer noch klingelte,
+ als sie schon zehn Minuten vom Kongress weg waren.
+ Okay, vielleicht sollten wir das auf Sightseeing-Bussen anbieten.
+ Ja, das wäre auch gut.
+ Das könnten wir vielleicht überlegen.
+ Also, ihr hört, wenn ihr Decktantennen durch die Gegend tragen wollt zum Kongress, können wir uns noch wilde Dinge ausdenken.
+ Es war mir auch nicht klar, dass das so möglich ist.
+ Ja, ihr habt ja schon echt viel erzählt.
+ Ich habe überhaupt keine Ahnung von Telefontechnik.
+ Ich glaube, das ist jetzt auch schwierig abzubilden ohne Charts.
+ Kommt es manchmal dazu, dass das Netz irgendwie überlastet ist?
+ Also, weil du jetzt auch gerade meintest, beim Kongress ist das ja ein bisschen mehr Load.
+ Passiert sowas?
+ Das passiert hin und wieder schon mal.
+ Wir gucken uns das auch an regelmäßig, wie viel von diesen Sprachkanälen,
+ also wie viele gleichzeitig Gespräche pro Antenne möglich sind.
+ Und hin und da, also hier und da gibt es schon mal ein paar Engpässe.
+ Das ist dann so, dann kann man halt kein Gespräch aufbauen in dem Moment.
+ Wenn man es dann zehn Sekunden später probiert, funktioniert es meistens,
+ weil die Gespräche halt nicht wahnsinnig lange hier sind, sondern wirklich nur so,
+ wo bist du, ja, da komme ich auch hin und dann ist der Kanal wieder frei.
+ Das passiert, aber das ist tatsächlich die Seltenheit aktuell.
+ Okay, und wir hatten es glaube ich gestern auch, dass eure Basisstation offline war, oder?
+ Genau, das war gestern Morgen, ja.
+ Warum, woran lag das?
+ Das war ein lustiger kleiner F*ck-Up, den wir hatten.
+ Möchtest du ihnen erzählen, dass ich nicht weiter nachfrage?
+ Nein, nein, wir haben die Telefonanlage vor dem Event einmal komplett neu gemacht
+ und die Software neu installiert.
+ Wir haben das alles durchautomatisiert, also wir können da so Skripte laufen lassen,
+ die bauen uns so ein komplettes POC-Umfeld, was man braucht mit allen virtuellen Maschinen
+ und aller Hardware und Software, die so notwendig ist oder mit allen Schnittstellen.
+ Und der Default hatte sich gedacht, dass 30 Gigabyte für das ganze Ding ausreichend wären,
+ aber wir haben so zehn virtuelle Maschinen, die jeweils so alle 2-3 Gigabyte sind.
+ Da kann man schnell nachrechnen, dass das nicht reicht.
+ Und dann war einfach die Platte voll.
+ Dann war Ende.
+ Also Anfängerfehler eigentlich.
+ Anfängerfehler bei den Profis, okay.
+ Ja, richtig, passiert überall.
+ Jetzt hast du gesagt, ihr habt virtuelle Maschinen und so, wo steht das denn eigentlich alles?
+ Wir haben so eine Anlage, das ist so ein kleiner Server, zwei Höheneinheiten,
+ der steht im NOC, im Network Operation Center.
+ Den haben wir da am Anfang der Veranstaltung oder vor der Veranstaltung, als wir da angekommen sind,
+ bei denen hingestellt, angeschlossen.
+ Und seitdem steht er da und wird gut gekühlt und von den NOC-Leuten gehegt und gepflegt.
+ Und gestreichelt, wenn er down ist.
+ Ja, richtig.
+ Nee, das ist er ja meistens nicht.
+ Nur überlastet.
+ Genau.
+ Okay, und so zwischen den Events habt ihr irgendwie Aufwände.
+ Du meinst, bei euch war ja schon die Rede von Software,
+ da haben wir jetzt schon rausgefunden, das ist euer Open-Source-Projekt und so.
+ Wie ist das denn bei euch?
+ Entwickelt ihr irgendwie zwischen den Events?
+ Gibt es euch eigentlich nur auf dem Kongress und auf dem Camp oder gibt es euch auch woanders?
+ Nee, uns gibt es auch als Dauerinstallation quasi, das EPVPN, das Event von Virtual Phone Network.
+ Da kann man sich das ganze Jahr über registrieren, kann sich eine SIP-Nebenstelle konfigurieren,
+ die man dann zu Hause benutzen kann.
+ Und damit ist man dann auch zu Hause erreichbar unter seiner Telefonnummer, die man so hat.
+ Und kann zum Beispiel andere Hacker-Spaces anrufen, mit anderen Leuten kommunizieren.
+ Das ist mehr oder weniger so als Dauer-Event angelegt, das Ganze.
+ Und da gibt es auch eine Schnittstelle von da in das Eventnetz und umgekehrt.
+ Dann kann man auch hin und her telefonieren.
+ Also ist alles miteinander vernetzt und funktioniert alles zusammen.
+ Und wird das viel genutzt?
+ Das wissen wir nicht.
+ Wir haben nämlich keine Logfiles.
+ Wir pflegen Datensparsamkeit, wir haben auch hier auf dem Event keine Logfiles.
+ Wenn wir uns etwas angucken müssen, weil irgendwas nicht geht, dann müssen wir uns das live angucken,
+ in dem Moment, wo es passiert.
+ Aber wir schreiben keine Logfiles weg und deswegen wissen wir auch nicht, ob es benutzt wird.
+ Aber an der Anzahl der Tickets, die hin und wieder reinkommen, wissen wir schon, dass es offensichtlich benutzt wird.
+ Weil wenn irgendwas nicht geht, dann kommen die Leute und sagen, es geht nicht.
+ Okay, das heißt, wer betreut das, machst du das dann?
+ Oder habt ihr da irgendwie eine Armada an Ehrenamtlichen?
+ Das macht unsere komplette, unser harter Kern von 13, 14 Leuten, die sich darum kümmern, wer gerade Zeit hat.
+ Und dann werden auch Sachen entwickelt.
+ Die meisten Entwicklungen oder die meisten Innovationen passieren tatsächlich auf Events,
+ weil da dann die Anforderungen an uns herangetragen werden.
+ Wir haben gestern Abend innerhalb von drei Stunden so ein Notfall-Evakuierungssystem für das Zert gebaut,
+ womit sie alle Helfer Engel gleichzeitig anrufen können und ihnen einen Audiophile vorspielen können,
+ wo ihnen dann gesagt wird, dass sie sich zu ihrem Einsatzort begeben sollen,
+ falls wir hier mal eine Evakuierung machen müssen, wegen Unwetter.
+ Das war eine Anforderung, die wurde dann vorgestern an uns herangetragen, die haben wir gestern Abend implementiert.
+ Die ist jetzt einsatzfähig.
+ Okay, und was gibt es noch so an Sachen, die ihr entwickelt habt auf Events, so on the fly?
+ Ist das auch irgendwas total Absurdes, wo ihr gedacht habt, das braucht ihr nie?
+ Tatsächlich glaube ich, wir haben ja ganz viele Dinge, wo wir immer sagen, die brauchen wir nie.
+ Und dann stellen wir fest, Leute benutzen sie ja.
+ Es gibt zum Beispiel das Mateometer, das ist eine Nummer, die ruft man an und pustet dann in seine Mateflasche.
+ Dann macht es diesen Ton, der dann passiert mit der Mateflasche.
+ Und dann sagt einem das Telefon, wie viel Prozent Mate man noch in der Flasche hat.
+ Aha, okay.
+ Das sind so Dinge, die braucht man eigentlich überhaupt nicht.
+ Das macht halt Spaß.
+ Was gibt es noch? Was müsst ihr mir jetzt erzählen?
+ Also einen sinnvollen Ding haben wir zum Beispiel noch für das Zert, auch für dieses Event im Vorfeld ein System gebaut,
+ womit sie einzelne Dektelefone auf dem Gelände orten können.
+ Das heißt, wenn es Anrufe im Zert gibt und das Gespräch reißt ab, dann können die nachträglich gucken, wo ungefähr kam der Anruf her.
+ Und ansonsten, wenn sie Anrufe reinkriegen, können sie halt fragen, hier dürfen wir dich orten, damit unser Team dich schneller findet.
+ Dann können die ein Knöpfchen drücken und dann sehen die ganz grob, so im Umkreis von 100 Metern, wo denn dieser Anruf her kam.
+ Und unter anderem sehen die auch dann in ihrem Einsatzsystem, was wir für sie programmiert haben, wo gerade ihre Zertrunner sind.
+ Also die Leute, die Sanitäter, die übers Gelände laufen.
+ Und wie macht ihr das?
+ Die haben ja ein Telefon mit.
+ Jaja, genau.
+ Und wir messen tatsächlich die Laufzeit zwischen den Antennen zu dem Deckgerät und versuchen dann mit ein bisschen Wissenschaft rauszukriegen, wo die sich befinden.
+ Es klappt noch nicht hundertprozentig, aber es gab schon weitere Ideen, wie man das noch verbessern könnte.
+ Das sind die neuen AirTags.
+ Okay. Und was habt ihr noch? Ich bin jetzt voll gespannt.
+ Ich glaube, die Liste ist endlos lang.
+ Wir haben einen Labyrinth, da kann man per Telefon durchlaufen, mit den Falltasten kann man navigieren.
+ Man hört dann, ob man gerade ausgehen kann, links oder rechts.
+ Und dann kann man sich mit den Falltasten rauf, runter, links, rechts, kann man oder mit den Zahlen-Tasten auf dem Telefon,
+ die rauf, runter und links, rechts repräsentieren, durch diesen Labyrinth laufen.
+ Und die Labyrinthe sind für jeden unterschiedlich.
+ Die werden anhand der Telefonnummer abgeleitet und anhand des Eventnamens.
+ Das heißt also, jeder bekommt ein anderes Labyrinth.
+ Das erste Level, da ist das Labyrinth dreimal drei Felder groß.
+ Und es geht bis Level 50 und jedes Mal wird auf beiden Seiten ein Kästchen größer.
+ Es gibt Leute, die haben das durchgespielt.
+ Wie seid ihr darauf gekommen, so einen Labyrinth zu bauen?
+ Es gab irgendwo in TCL programmiert einen Code, der einen Labyrinth generiert als Grafik.
+ Und dann haben wir überlegt, das müsste man eigentlich mit dem Telefon begehbar machen.
+ Und dann haben wir das gebaut.
+ Das sind so Ideen, die kommen halt abends, wenn man gemütlich im Zelt sitzt.
+ Und die Infrastruktur pro Zelt dateilt.
+ Und die Infrastruktur funktioniert, dann kann man sich solche Dinge ausdenken und damit Spaß haben.
+ Es gibt tatsächlich Leute, die haben dieses Labyrinth durchgespielt bis Level 50.
+ In so einer Kassenschicht, wo nicht viel los war, hat ein Engel dieses Labyrinth nicht nur einmal durchgespielt,
+ sondern er hat es danach dann auch noch von seinem eigenen Telefon nochmal durchgespielt.
+ Wobei das dann auch noch ein komplett anderes Labyrinth ja wieder war, weil es von seiner eigenen Nummer gespielt hat.
+ Aber das sind Einzelfände, glaube ich.
+ Okay, also das heißt, man kann beim POC nicht nur mithelfen mit Leitern und Bohrmaschinen, hätte ich fast gesagt, und beim Aufbau helfen,
+ sondern wenn ihr schon immer Computerspiele auf Telefon bauen wolltet, die nicht dafür gedacht sind, dann seid ihr da auch auf der richtigen Adresse.
+ Wir nehmen da auch gerne noch Ideen entgegen.
+ Man kann natürlich auch selber Dinge bauen, wenn man ein bisschen programmieren kann oder eine lustige Idee hat.
+ Dann hängen wir diese Sachen gerne bei uns am System dran.
+ Also wenn ihr irgendwie Ideen habt für komische lustige Dinge, für Ansageservices oder sonst irgendwas, meldet euch einfach oder baut es einfach,
+ sucht euch eine Nummer aus und hängt es einfach an unser System dran.
+ Wir freuen uns darüber über komische Dinge.
+ Wir hatten heute Morgen einen Gast, der Telefone im Wald aussetzt und für Geocaching.
+ Und der hat auch eine Nummer im Decknetzwerk, die man anrufen kann und das Audio, was da dann mit einem spricht, ausprobieren kann.
+ Ja, sowas ist großartig.
+ Das ist kreative Nutzung des Systems.
+ Das ist hervorragend, ja.
+ Das mögen wir.
+ Genau, kreative Nutzung ist voll unser Ding und wir freuen uns natürlich, wenn viele Engel euch irgendwie helfen können oder wir gute Sachen zusammenbauen können.
+ Vielen Dank, dass ihr da wart.
+ Und möchtet ihr noch irgendwas dem Chaos mitgeben, bevor wir jetzt verschwinden?
+ Wir excellent, Tullich Aber.
+ Viel Spaß am Gerät.
+ Und wir sehen uns dann.
+ Was hier fehlt, ist ISDN.
+ *lachen*
+ *lachen*
+ Fisch.
+ *Grillen*
+ [Grillenzirpen]

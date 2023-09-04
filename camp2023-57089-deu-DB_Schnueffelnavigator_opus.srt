@@ -1,0 +1,1628 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:38,400
+ Dann begrüßen wir jetzt am Abend Julia Witte und ihr habt wahrscheinlich alle
+
+3
+00:00:38,400 --> 00:00:42,760
+ schon mal einen verspäteten Zug gehabt. Jetzt höre ich, der Zug soll uns auch noch
+
+4
+00:00:42,760 --> 00:00:48,520
+ ausspionieren. Und genau dazu wird Julia uns jetzt was erzählen.
+
+5
+00:00:48,520 --> 00:00:50,800
+ Viel Spaß damit.
+
+6
+00:00:50,800 --> 00:00:52,800
+ Vielen Dank.
+
+7
+00:00:52,800 --> 00:00:57,800
+ [Applaus]
+
+8
+00:00:57,800 --> 00:01:04,160
+ Ja, ich bin Julia Witte. Ich arbeite bei Digitalcourage als Campaignerin und als
+
+9
+00:01:04,160 --> 00:01:08,560
+ Redakteurin. Das heißt, ich betreue unsere Kampagnen und eine, die uns jetzt schon
+
+10
+00:01:08,560 --> 00:01:14,080
+ seit einigen Monaten beschäftigt, das ist gerade unsere Klage gegen die Deutsche
+
+11
+00:01:14,080 --> 00:01:18,640
+ Bahn bzw. genauer gesagt gegen die App der Deutschen Bahn, den DB Navigato.
+
+12
+00:01:18,640 --> 00:01:22,280
+ Tut mir leid, hätte ich gewusst, dass es so dunkel sein würde und die Wand so
+
+13
+00:01:22,280 --> 00:01:28,080
+ hell, hätte ich anderes Foliendesign gewählt. Jetzt müsst ihr leider irgendwie euch
+
+14
+00:01:28,080 --> 00:01:32,200
+ darauf einstellen. Es geht um den DB Navigator, aber wir nennen ihn noch
+
+15
+00:01:32,200 --> 00:01:36,520
+ gerne den DB Schnüffel Navigator. Ich würde gerne eine kleine Stichprobe
+
+16
+00:01:36,520 --> 00:01:42,520
+ machen. Wie viele von euch sind zum Camp mit dem Zug angereist? Ganz schön viele.
+
+17
+00:01:42,520 --> 00:01:50,160
+ Und wie viele davon haben an irgendeiner Stelle die DB App benutzt? Ja zählt auch.
+
+18
+00:01:50,160 --> 00:01:57,360
+ Next zählt auch. Ich erkläre euch später warum. Ja, also schon einige, ich würde
+
+19
+00:01:57,360 --> 00:02:05,680
+ sagen die meisten. Die DB App hat drei Millionen Nutzerinnen am Tag. Zu
+
+20
+00:02:05,680 --> 00:02:11,840
+ Spitzenzeiten 2,5 Millionen Nutzer*innen pro Stunde, die dort
+
+21
+00:02:11,840 --> 00:02:14,840
+ Informationen abrufen.
+
+22
+00:02:16,160 --> 00:02:20,040
+ Also es ist auf jeden Fall eine viel genutzte App. Ich würde aber auch sagen,
+
+23
+00:02:20,040 --> 00:02:24,440
+ genau die Ansicht kennen wir alle. Ich würde auch sagen, es ist eine fast
+
+24
+00:02:24,440 --> 00:02:31,120
+ unvermeidbare App. Das liegt daran, dass es ganz ganz viele Services gibt oder
+
+25
+00:02:31,120 --> 00:02:37,920
+ gegeben hat, die zunehmend jetzt nur noch digital angeboten werden. Ich weiß nicht,
+
+26
+00:02:37,920 --> 00:02:40,400
+ vielleicht erinnert sich der ein oder andere von euch oder hat das schon mal
+
+27
+00:02:40,400 --> 00:02:45,520
+ gemacht, in einem Fernverkehrszug. Da konnte man früher, wenn man einfach
+
+28
+00:02:45,520 --> 00:02:50,840
+ eingestiegen ist, auch 10, also man konnte einfach direkt zur Schaffnerin gehen und
+
+29
+00:02:50,840 --> 00:02:55,000
+ sagen, hey tut mir leid, kann ich noch schnell ein Ticket buchen? Und bis zehn
+
+30
+00:02:55,000 --> 00:02:57,000
+ Minuten nach Abfahrt war das überhaupt kein Problem.
+
+31
+00:02:57,000 --> 00:03:02,120
+ Das geht immer noch, aber jetzt geht es nur noch in der App.
+
+32
+00:03:02,120 --> 00:03:08,920
+ Das ist so auch ein Rest in Peace Bild, denn der Wagenreihungsplan wird
+
+33
+00:03:08,920 --> 00:03:13,800
+ abgeschafft. Den gibt es in Zukunft digital an den Bahnsteigen. Das heißt
+
+34
+00:03:13,800 --> 00:03:17,840
+ aber, wenn man zum Beispiel sehr nahe aufeinander folgende Züge hat und man
+
+35
+00:03:17,840 --> 00:03:23,240
+ will schon mal zu seinem hingehen, hat da eine weite Strecke vor sich, dann ist das
+
+36
+00:03:23,240 --> 00:03:25,760
+ vielleicht auch nicht so einfach. Ich habe auch eine kleine Umfrage mal gemacht
+
+37
+00:03:25,760 --> 00:03:31,240
+ auf dem Astrodon, mit was die Leute da so konfrontiert wurden, was dann dazu führt,
+
+38
+00:03:31,240 --> 00:03:33,280
+ dass man die App eigentlich zwingend benutzen muss.
+
+39
+00:03:33,280 --> 00:03:37,080
+ Vielleicht kennt ihr das auch. Anzeigetafeln, die nicht funktionieren,
+
+40
+00:03:37,080 --> 00:03:40,840
+ man steigt aus, irgendwas mit Gleisänderungen kriegt man noch so
+
+41
+00:03:40,840 --> 00:03:46,360
+ halb mit. Anzeigetafeln sind kaputt, naja gut, wenn ich keine App habe, dann habe
+
+42
+00:03:46,360 --> 00:03:49,840
+ ich eigentlich kaum noch eine Chance an diese Informationen ranzukommen.
+
+43
+00:03:49,840 --> 00:03:57,160
+ Viele Reisezentren werden geschlossen. Wenn es Reisezentren gibt, dann kriegt man
+
+44
+00:03:57,160 --> 00:04:02,360
+ so eine Notiz. Vielen Dank. In 45 Minuten ist der Zug dann vielleicht auch schon
+
+45
+00:04:02,360 --> 00:04:07,480
+ weg, den ich haben wollte. Da war mal eine digitale Abfahrtsanzeige, die ist
+
+46
+00:04:07,480 --> 00:04:10,240
+ leider nicht mehr dort. Wenn ich wissen will, auf welches Gleis ich jetzt gehen
+
+47
+00:04:10,240 --> 00:04:14,120
+ soll, dann kann ich das in der App nachschauen. Und manchmal legt die Bahn
+
+48
+00:04:14,120 --> 00:04:17,680
+ dann auch so was aus und sagt direkt nur noch "Bitte informieren Sie sich
+
+49
+00:04:17,680 --> 00:04:23,640
+ rechtzeitig vor Ihrer Reise im Netz".
+
+50
+00:04:23,640 --> 00:04:31,800
+ Deswegen also diese App nicht zu nutzen, ist unterwegs schon schwierig.
+
+51
+00:04:31,800 --> 00:04:39,800
+ Da muss man schon gute Methoden haben. Die Sache ist aber, dass diese App zwar
+
+52
+00:04:39,800 --> 00:04:47,920
+ praktisch ist, absolut, aber auch schnüffelt. Wir haben im Oktober 2022
+
+53
+00:04:47,920 --> 00:04:53,840
+ Klage eingereicht. Wir, das ist in dem Fall Digitalcourage, zusammen mit dem
+
+54
+00:04:53,840 --> 00:04:58,000
+ Blogger und IT-Sicherheitsexperten Mike Kuketz und mit dem Rechtsanwalt Peter
+
+55
+00:04:58,000 --> 00:05:03,880
+ Henze von Spirit Legal. Und wogegen klagen wir? Also wenn man die Bahn-App
+
+56
+00:05:03,880 --> 00:05:09,280
+ das allererste Mal aufmacht, dann kommt man zu dieser Ansicht, zum altbekannten
+
+57
+00:05:09,280 --> 00:05:16,960
+ und sehr beliebten Cookie-Banner. Wenn ich diese Abfrage öffne und ich möchte
+
+58
+00:05:16,960 --> 00:05:21,000
+ eigentlich nicht getrackt werden, dann klicke ich klar auf "nur erforderliche
+
+59
+00:05:21,000 --> 00:05:27,400
+ Cookies zulassen" und gehe davon aus, ich bin in Sicherheit, denn die Bahn sagt mir,
+
+60
+00:05:27,400 --> 00:05:32,920
+ wenn ich hier dann auf mehr Informationen gehe, dass diese Cookies die Kernfunktion
+
+61
+00:05:32,920 --> 00:05:36,440
+ der App sicherstellen. Das heißt, ich stelle mir so vor, also wenn ich nur die
+
+62
+00:05:36,440 --> 00:05:39,800
+ erforderlichen nehme, dann sende ich Informationen an die Deutsche Bahn und die
+
+63
+00:05:39,800 --> 00:05:45,400
+ sendet mir, also ich sende sowas wie, ich will von dem Bahnhof zu dem Bahnhof fahren
+
+64
+00:05:45,400 --> 00:05:49,480
+ um so und so viel Uhr und die Bahn sendet mir die Information zurück, wann dieser
+
+65
+00:05:49,480 --> 00:05:55,320
+ zu kommt. Tatsächlich ist es aber ganz anders und tatsächlich sendet diese App
+
+66
+00:05:55,320 --> 00:06:05,760
+ freudig Informationen an verschiedene Tracking-Anbieter und zwar nicht zu wenig.
+
+67
+00:06:05,760 --> 00:06:09,080
+ Das ist immer die gleiche Anzeige, also ich habe einfach nur runter gescrollt,
+
+68
+00:06:09,080 --> 00:06:12,120
+ damit wir die alle mal schön nebeneinander aufgelistet sehen können.
+
+69
+00:06:12,120 --> 00:06:18,560
+ Die sind angeblich alle erforderlich, um die Kernfunktion der App sicherzustellen.
+
+70
+00:06:18,560 --> 00:06:22,800
+ Ihr könnt ja mal schauen, was offensichtlich alles ganz wichtig ist.
+
+71
+00:06:22,800 --> 00:06:28,480
+ Ja genau, da gibt es einige, die in den USA sitzen, da gibt es auch welche, die in
+
+72
+00:06:28,480 --> 00:06:33,880
+ Irland sitzen, das sind unsere Freunde Google und Adobe. Und was machen diese
+
+73
+00:06:33,880 --> 00:06:40,160
+ ganzen Tracker, die machen dann sowas wie AB-Testing.
+
+74
+00:06:40,160 --> 00:06:50,080
+ Die Sache ist also, die Bahn versteht unter erforderlich etwas
+
+75
+00:06:50,080 --> 00:06:56,080
+ ganz anderes als wir verstehen. Die Bahn interpretiert erforderlich als alles,
+
+76
+00:06:56,080 --> 00:07:01,640
+ was wir und unsere Marketing-Abteilung dringend haben wollen. Und weil wir das
+
+77
+00:07:01,640 --> 00:07:05,560
+ unbedingt haben wollen, fragen wir auch die Kund*innen gar nicht erst, ob sie
+
+78
+00:07:05,560 --> 00:07:10,040
+ damit einverstanden sind. Das Tracking von Adobe beginnt sogar schon, bevor ich
+
+79
+00:07:10,040 --> 00:07:12,840
+ beim Cookie-Banner überhaupt irgendwas geklickt habe. Und jetzt kann man die
+
+80
+00:07:12,840 --> 00:07:18,200
+ Frage stellen, dürfen die das? Na ja unserer Auffassung nach nicht, deswegen
+
+81
+00:07:18,200 --> 00:07:21,760
+ klagen wir ja. Wir denken, dass diese Kategorie erforderlich eben kein
+
+82
+00:07:21,760 --> 00:07:27,720
+ Freifahrtsschein ist für alles, was man gerne haben möchte, sondern wir sehen,
+
+83
+00:07:27,720 --> 00:07:37,560
+ dass es hier schon recht eng eigentlich eingeschränkt ist. Genau, also es steht
+
+84
+00:07:37,560 --> 00:07:44,520
+ im Gesetz, man muss eingewilligt haben, dass es dann eben das, was nicht
+
+85
+00:07:44,520 --> 00:07:51,400
+ erforderlich ist, da kann ich einwilligen. Und wenn was gespeichert wird, dann steht
+
+86
+00:07:51,400 --> 00:07:56,840
+ hier unbedingt erforderlich, aber wir legen diesen Begriff so aus, dass es
+
+87
+00:07:56,840 --> 00:08:03,160
+ tatsächlich heißt, dass es technisch erforderlich ist. Genau und AB-Testing,
+
+88
+00:08:03,160 --> 00:08:09,440
+ Vergütung im Affiliate-System der Bahn, das Erzeugen von Nutzungsstatistiken, das
+
+89
+00:08:09,440 --> 00:08:15,720
+ ist unserer Meinung nach eben nicht erforderlich, um eine Auskunft über die
+
+90
+00:08:15,720 --> 00:08:20,440
+ nächsten Züge zu bekommen oder um mein Ticket zu bekommen.
+
+91
+00:08:20,440 --> 00:08:25,160
+ Deswegen sind wir aktiv geworden. Was ist passiert?
+
+92
+00:08:25,160 --> 00:08:31,560
+ Schon vor längerer Zeit, letztes Jahr im April, hat Mike Kuketz eine recht
+
+93
+00:08:31,560 --> 00:08:37,560
+ ausführliche Analyse verfasst und der Bahn, die auch zukommen lassen,
+
+94
+00:08:37,560 --> 00:08:44,600
+ der also das komplette Datensendeverhalten dieser App auseinander nimmt.
+
+95
+00:08:44,600 --> 00:08:51,200
+ Die Bahn hat daraufhin geantwortet, dass das alles so bleiben wird im
+
+96
+00:08:51,200 --> 00:08:58,640
+ Wesentlichen und wir haben daraufhin gemeinsam unsere Klage eingereicht.
+
+97
+00:08:58,640 --> 00:09:02,200
+ Das ist sozusagen vorher noch mal ein Schritt davor gewesen. Wir haben der
+
+98
+00:09:02,200 --> 00:09:09,240
+ Bahn erst gesagt, bitte ändern Sie das, ansonsten werden wir vor Gericht gehen und
+
+99
+00:09:09,240 --> 00:09:12,600
+ wie gesagt, die Bahn hat uns daraufhin eine lange detaillierte Antwort geschickt
+
+100
+00:09:12,600 --> 00:09:17,040
+ auch tatsächlich, in der sie erklären, dass das ihrer Meinung nach erforderlich
+
+101
+00:09:17,040 --> 00:09:23,640
+ ist und dass sie das einfach so weitermachen werden. In der Presse ist
+
+102
+00:09:23,640 --> 00:09:29,240
+ darüber auch recht munter berichtet worden.
+
+103
+00:09:29,240 --> 00:09:34,040
+ Die Bahn hat natürlich alles bestritten
+
+104
+00:09:34,040 --> 00:09:44,400
+ und hat unter anderem geschrieben, dass die Daten ja alle pseudonymisiert
+
+105
+00:09:44,400 --> 00:09:49,920
+ bzw. so pseudonymisiert sind, dass sie sich als anonyme Dateninhalte darstellen.
+
+106
+00:09:49,920 --> 00:09:52,800
+ Dazu werde ich gleich auch noch ein bisschen was sagen.
+
+107
+00:09:52,800 --> 00:09:56,320
+ Eine interessante Sache ist in der Zwischenzeit aber auch schon passiert.
+
+108
+00:09:56,320 --> 00:10:03,400
+ Die Bahn hat uns in ihrer langen Antwort noch geschrieben, also
+
+109
+00:10:03,400 --> 00:10:08,240
+ kurz zur Erklärung, dass eine Cookie Banner, das ist so, wie es gewesen ist zum
+
+110
+00:10:08,240 --> 00:10:12,400
+ Zeitpunkt, als Mike Kuketz diese App zum ersten Mal auseinander genommen hat und
+
+111
+00:10:12,400 --> 00:10:16,720
+ da sehen wir so diese ganz, ganz klassischen Dark-Pattern-Motive. Also es
+
+112
+00:10:16,720 --> 00:10:20,800
+ ist genau markiert, wo man klicken soll und da, wo man auf keinen Fall klicken
+
+113
+00:10:20,800 --> 00:10:24,200
+ soll, das ist auch gleich so dargestellt, dass man sich da gar nicht aus Versehen
+
+114
+00:10:24,200 --> 00:10:27,720
+ darauf verirrt, außer man liest es zufällig und hat Zeit.
+
+115
+00:10:27,720 --> 00:10:31,600
+ Also das sieht eigentlich gar nicht aus wie ein Button, auf dem man klicken
+
+116
+00:10:31,600 --> 00:10:35,440
+ sollen, dieses nur erforderliche Cookies zulassen, sondern eigentlich soll man
+
+117
+00:10:35,440 --> 00:10:39,800
+ ganz klar bei alle Cookies zulassen. Seid ihr vertraut mit dem Konzept der
+
+118
+00:10:39,800 --> 00:10:44,440
+ Dark-Patterns? Also es geht darum, psychologisch alles so aus der Trickkiste
+
+119
+00:10:44,440 --> 00:10:48,560
+ mal auszupacken, um dafür zu sorgen, dass die Kund*innen auch wirklich da klicken,
+
+120
+00:10:48,560 --> 00:10:55,320
+ wo sie klicken sollen. Genau und damals hat die Bahn uns noch geantwortet, dass
+
+121
+00:10:55,320 --> 00:11:01,320
+ das alles völlig in Ordnung ist, dass die Farben halt nun mal das
+
+122
+00:11:01,320 --> 00:11:11,400
+ Corporate Design sind und genau, der rote Button stellt die Empfehlung der DB da,
+
+123
+00:11:11,400 --> 00:11:16,080
+ heißt es da wörtlich. Hat ja auch niemand bestritten.
+
+124
+00:11:16,080 --> 00:11:20,160
+ Trotzdem haben sie dann wohl selber eingesehen, dass das ein bisschen zu viel
+
+125
+00:11:20,160 --> 00:11:26,080
+ ist und haben dieses Cookie-Bunder mittlerweile geändert.
+
+126
+00:11:26,600 --> 00:11:33,760
+ Genau, wir haben unsere Klage eingereicht und jetzt geht es also vor Gericht gerade
+
+127
+00:11:33,760 --> 00:11:40,000
+ hin und her. Die Bahn hat uns 148 Seiten Klage-Erwiderung
+
+128
+00:11:40,000 --> 00:11:44,120
+ zurückgeschickt und erklärt da ganz langartig, wie das interne Projekt
+
+129
+00:11:44,120 --> 00:11:49,040
+ ConsentLayer abgelaufen ist. Da stehen dann auch so interessante Sachen drin, wie
+
+130
+00:11:49,040 --> 00:11:54,280
+ dass es intensive Konsultation gegeben hat mit dem hessischen Beauftragten
+
+131
+00:11:54,280 --> 00:12:00,000
+ für Datenschutz und als Beweis sind zwei E-Mails angefügt. Da war ich schon
+
+132
+00:12:00,000 --> 00:12:03,640
+ ganz gespannt, was da drin steht in dem Anhang. In den E-Mails steht dann so was
+
+133
+00:12:03,640 --> 00:12:09,400
+ wie "An diesem und jedem Datum hatten wir Ihnen unsere Auffassung zu dem Thema
+
+134
+00:12:09,400 --> 00:12:12,560
+ ConsentLayer vorgestellt. Wäre es Ihnen möglich, uns bis Ende dieser Woche eine
+
+135
+00:12:12,560 --> 00:12:16,920
+ Rückmeldung zu geben? Beste Grüße, Konzern Datenschutz."
+
+136
+00:12:16,920 --> 00:12:21,360
+ Das ist der Anhang. Das ist die Konsultation. Das heißt, wir wissen
+
+137
+00:12:21,360 --> 00:12:26,480
+ leider gar nicht, ob die Datenschutzbehörde geantwortet hat oder nicht.
+
+138
+00:12:26,480 --> 00:12:30,280
+ Ob sie vielleicht so geantwortet hat, dass die Bahn es vorzieht, diese Antwort nicht
+
+139
+00:12:30,280 --> 00:12:34,800
+ in die Klageschrift aufzunehmen. Wir wissen es nicht.
+
+140
+00:12:34,800 --> 00:12:44,000
+ Jetzt hat die Bahn auch noch einen anderen interessanten Move gemacht und
+
+141
+00:12:44,000 --> 00:12:48,000
+ zwar sagt sie, dass es keine Wiederholungsgefahr gibt
+
+142
+00:12:48,000 --> 00:12:54,920
+ für diesen Fall, dass sie jemanden trackt, denn die Zuständigkeiten haben
+
+143
+00:12:54,920 --> 00:13:01,280
+ gewechselt. Vor wenigen Monaten hat die bisher zuständige DB Vertrieb sich
+
+144
+00:13:01,280 --> 00:13:06,240
+ gespalten und neben der DB Vertrieb gibt es jetzt noch eine DB Fernverkehr AG und
+
+145
+00:13:06,240 --> 00:13:11,200
+ die betreibt jetzt die App und deswegen ist unsere Klage jetzt nicht mehr
+
+146
+00:13:11,200 --> 00:13:19,720
+ gültig, sagt die Bahn, weil sie bieten ja gar keine App mehr an. Und ansonsten sagt
+
+147
+00:13:19,720 --> 00:13:25,040
+ die Bahn so Sachen wie "Tracker sind erforderlich, weil die App eben ganz
+
+148
+00:13:25,040 --> 00:13:31,320
+ komplexe Dinge macht." Jetzt könnte jemand sagen, was ist denn
+
+149
+00:13:31,320 --> 00:13:37,640
+ eigentlich so schlimm an Tracking? Da denke ich mal, dass die meisten von euch
+
+150
+00:13:37,640 --> 00:13:40,920
+ sicherlich sich schon ein bisschen mit dem Thema beschäftigt hat, deswegen nur
+
+151
+00:13:40,920 --> 00:13:47,840
+ ganz kurz. Also klar, jede Einbindung ist eine Einbindung von fremden Code, den ich
+
+152
+00:13:47,840 --> 00:13:52,360
+ in meine App einsetze. Das ist ein Vertrauensverhältnis, das nicht nur ich
+
+153
+00:13:52,360 --> 00:13:56,920
+ als Entwicklerin und auch als Konzern, der diese App in Auftrag gibt, eingeht,
+
+154
+00:13:56,920 --> 00:14:01,520
+ sondern ich setze ja auch meine Kundinnen und ihre Daten diesem Risiko
+
+155
+00:14:01,520 --> 00:14:05,360
+ aus. Also ich liefer eigentlich meine Kundinnen Daten aus. Die Kundinnen haben
+
+156
+00:14:05,360 --> 00:14:09,720
+ überhaupt keine Wahl, ob sie diesen Anbietern eigentlich vertrauen möchten
+
+157
+00:14:09,720 --> 00:14:15,160
+ oder nicht. Ich bin mir dabei Google nicht ganz sicher.
+
+158
+00:14:15,160 --> 00:14:21,160
+ Ja, und das sind, also ihr habt die Liste der Firmen eben gesehen, einige gehören
+
+159
+00:14:21,160 --> 00:14:24,540
+ auf jeden Fall zu den großen Überwachungskapitalismus-Playern und das
+
+160
+00:14:24,540 --> 00:14:28,080
+ ist auch eine infrastrukturelle Abhängigkeit, die sich da immer weiter
+
+161
+00:14:28,080 --> 00:14:32,080
+ verfestigt, wenn wir alle auf diese oder wenn alle Apps auf diese Tracking-
+
+162
+00:14:32,080 --> 00:14:35,760
+ Bibliotheken zurückgreifen und da einfach wahnsinnige Datenschätze
+
+163
+00:14:35,760 --> 00:14:39,320
+ entstehen und wir haben gar keine Ahnung, was dort eigentlich tatsächlich alles
+
+164
+00:14:39,320 --> 00:14:43,120
+ zusammengeführt wird oder auch nicht, was dort eigentlich weiter mit diesen Daten
+
+165
+00:14:43,120 --> 00:14:48,920
+ angestellt wird. Jetzt könnte jemand sagen, dann nutze ich eben die Website der Bahn
+
+166
+00:14:48,920 --> 00:14:55,560
+ und nicht die App, da kann ja auch mein Ticket kaufen. Klar, kannst du, macht aber
+
+167
+00:14:55,560 --> 00:14:59,560
+ nicht wirklich einen großen Unterschied. Also auch die Website der Bahn setzt
+
+168
+00:14:59,560 --> 00:15:06,880
+ Tracking ein. Jetzt kann natürlich jemand sagen, es gibt ja Tracking-Blocker, mit
+
+169
+00:15:06,880 --> 00:15:10,080
+ den entsprechenden Tools kann ich meine Privatsphäre wieder herstellen.
+
+170
+00:15:10,080 --> 00:15:16,880
+ Klar geht, wir finden halt Privatsphäre sollte eigentlich der Standardzustand
+
+171
+00:15:16,880 --> 00:15:20,640
+ sein, sollte nicht der Zustand sein, den man ganz mühsam ins Schweißes seines
+
+172
+00:15:20,640 --> 00:15:25,920
+ Angesichts erst wieder herstellen muss und den auch dann nur diejenigen herstellen
+
+173
+00:15:25,920 --> 00:15:30,160
+ können, die das entsprechende Wissen und die Ressourcen und auch die Zeit haben,
+
+174
+00:15:30,160 --> 00:15:34,800
+ sich damit auseinanderzusetzen, sondern das sollte eigentlich das sein, was ganz
+
+175
+00:15:34,800 --> 00:15:39,600
+ grundsätzlich jedem von uns zugestanden wird, vor allem auch wenn es um einen
+
+176
+00:15:39,600 --> 00:15:43,080
+ Anbeter geht, wie die Deutsche Bahn und wenn es um so was geht wie eine
+
+177
+00:15:43,080 --> 00:15:46,600
+ Mobilitätsgrundversorgung.
+
+178
+00:15:46,600 --> 00:16:01,360
+ Dann sagt die Bahn, die Daten sind doch pseudonymisiert, alles kein Problem.
+
+179
+00:16:01,360 --> 00:16:07,120
+ Der Datenschutzforscher Wolfi Kristl sagt dazu, solange Datensätze verarbeitet
+
+180
+00:16:07,120 --> 00:16:10,560
+ werden, die sich auf Einzelpersonen beziehen, kann keine Art der
+
+181
+00:16:10,560 --> 00:16:14,560
+ Anonymisierung mit vollständiger Sicherheit verhindern, dass Einzelpersonen
+
+182
+00:16:14,560 --> 00:16:20,240
+ reidentifiziert werden können. Dazu gibt es viele viele Studien und die immer
+
+183
+00:16:20,240 --> 00:16:25,880
+ wieder zeigen schon, ganz wenige Merkmale reichen manchmal aus, um eine eindeutige
+
+184
+00:16:25,880 --> 00:16:31,880
+ Zuordnung zu machen. Also es hat zum Beispiel 2019 eine Studie gegeben in der
+
+185
+00:16:31,880 --> 00:16:37,600
+ Fachzeitschrift Nature und da haben Forscher berechnet, dass sie 99,98
+
+186
+00:16:37,600 --> 00:16:43,880
+ Prozent der US-Amerikaner identifizieren können anhand nur von 15 Merkmalen wie
+
+187
+00:16:43,880 --> 00:16:47,760
+ Alter, Wohnort oder Nationalität. Da ging es damals um den Fall, glaube ich, einer
+
+188
+00:16:47,760 --> 00:16:53,480
+ günstigen Krankenkasse, die einen ganz geringen Prozentteil ihrer Datensätze
+
+189
+00:16:53,480 --> 00:16:57,440
+ veröffentlicht hat und die haben eben nachgewiesen, das kann alles problemlos auf
+
+190
+00:16:57,440 --> 00:17:01,360
+ die einzelnen Personen wieder zurück rechnet werden.
+
+191
+00:17:01,360 --> 00:17:12,240
+ Jetzt könnte man fragen, machen das denn nicht alle Apps? Das machen natürlich
+
+192
+00:17:12,240 --> 00:17:17,480
+ viele Apps. Wir haben die Bahn ausgesucht, wie ich eben schon gesagt habe, weil das
+
+193
+00:17:17,480 --> 00:17:22,640
+ natürlich was anderes ist als jetzt irgendeine x-beliebige Fitness-App, wo
+
+194
+00:17:22,640 --> 00:17:26,080
+ man sagen kann, okay, dann nutze ich das eben nicht.
+
+195
+00:17:26,080 --> 00:17:29,880
+ Das ist bei der Bahn natürlich ein bisschen anders. Wie gesagt, es gehört zu
+
+196
+00:17:29,880 --> 00:17:36,040
+ einer Mobilitätsgrundversorgung und es geht uns in diesem Fall um die Bahn, aber
+
+197
+00:17:36,040 --> 00:17:40,720
+ es geht uns natürlich auch darüber hinaus einfach um den Zustand, dass
+
+198
+00:17:40,720 --> 00:17:45,240
+ Tracker völlig selbstverständlich und gedankenlos überall genutzt werden,
+
+199
+00:17:45,240 --> 00:17:49,680
+ eingesetzt werden in Apps und wir wollen hier jetzt ein klares Urteil schaffen,
+
+200
+00:17:49,680 --> 00:17:58,480
+ an dem sich auch andere dann orientieren können, auch einfach um gegenüber solchen
+
+201
+00:17:58,480 --> 00:18:02,760
+ Konzernen sagen zu können, ich will das nicht einbauen und es gibt hier ein
+
+202
+00:18:02,760 --> 00:18:06,600
+ Urteil, das ist nämlich gar nicht legal. Also wir wollen es auch Entwickler*innen
+
+203
+00:18:06,600 --> 00:18:11,760
+ einfacher zu machen, eine Argumentationsgrundlage zu haben, warum
+
+204
+00:18:11,760 --> 00:18:19,320
+ sie das nicht machen können. Genau, dann kam eben schon der DBnext Navigator, die
+
+205
+00:18:19,320 --> 00:18:27,720
+ neue App, die soll Anfang 2024 den alten Navigator komplett ablösen.
+
+206
+00:18:27,720 --> 00:18:35,080
+ Die hat ein bisschen weniger Tracker bis jetzt,
+
+207
+00:18:35,080 --> 00:18:39,800
+ sie ist aber auch noch nicht vollständig in Betrieb, also ist noch
+
+208
+00:18:39,800 --> 00:18:44,080
+ nicht vollständig umgesetzt, deswegen wäre ich da mal ganz
+
+209
+00:18:44,080 --> 00:18:47,960
+ vorsichtig, was da noch kommt, aber die alten Bekannten sind hier auf jeden Fall
+
+210
+00:18:47,960 --> 00:18:51,080
+ auch teilweise schon wieder drin.
+
+211
+00:18:51,080 --> 00:19:00,000
+ Das ist tatsächlich schon der Kernteil meines Vortrags gewesen, ich
+
+212
+00:19:00,000 --> 00:19:06,320
+ habe aber noch eine kleine Bastelaufgabe für euch. Da draußen vor diesem Zelt
+
+213
+00:19:06,320 --> 00:19:13,640
+ findet ihr diese Dinger. Wir haben diese Memes gemacht, um auf unsere Kampagne
+
+214
+00:19:13,640 --> 00:19:18,560
+ aufmerksam zu machen, auf Tracking natürlich in der DB App aufmerksam zu
+
+215
+00:19:18,560 --> 00:19:22,040
+ machen, vielleicht auch um die Bahn ein bisschen zu ärgern.
+
+216
+00:19:22,040 --> 00:19:26,400
+ Und ihr könnt euch selber Sprüche ausdenken, da draußen da liegen weiße
+
+217
+00:19:26,400 --> 00:19:32,320
+ Addings und dann könnt ihr euch einfach so ein Zettel schnappen und könnt auch in
+
+218
+00:19:32,320 --> 00:19:37,880
+ diesem Style, das ist ja so den Werbeanzeigen der Bahn vielleicht leicht
+
+219
+00:19:37,880 --> 00:19:43,120
+ nachempfunden, aber wir wollen natürlich etwas ehrlichere Werbeanzeigen haben,
+
+220
+00:19:43,120 --> 00:19:49,400
+ und dann könnt ihr überlegen, wie man Werbung oder Gegenwerbung machen könnte
+
+221
+00:19:49,400 --> 00:19:55,920
+ für das Tracking in der Bahn App. Ja, super schnell, ich habe wahrscheinlich viel zu
+
+222
+00:19:55,920 --> 00:20:01,640
+ schnell geredet, aber ich würde gerne auf jeden Fall auch noch ein paar Fragen ins
+
+223
+00:20:01,640 --> 00:20:04,840
+ Publikum stellen, also vielleicht habt ihr Fragen, aber ich würde auch gerne mal
+
+224
+00:20:04,840 --> 00:20:08,400
+ fragen, vielleicht sind ja Entwickler*innen unter euch und dann würde ich gerne
+
+225
+00:20:08,400 --> 00:20:12,800
+ fragen, warum baut ihr so was ein in Apps?
+
+226
+00:20:12,800 --> 00:20:28,760
+ Vielen Dank für den Vortrag bisher. Gibt es denn Fragen?
+
+227
+00:20:28,920 --> 00:20:31,920
+ Da ganz hinten.
+
+228
+00:20:31,920 --> 00:20:43,440
+ Hallo, gab es schon? Hallo, vielen Dank erstmal für deinen Vortrag.
+
+229
+00:20:43,440 --> 00:20:47,840
+ Mich hätte interessiert, ob ihr beim hessischen Landesdatenschutzbeauftragten
+
+230
+00:20:47,840 --> 00:20:52,280
+ eine IFG-Anfrage einreichen könntet, um den Schriftverkehr zwischen der deutschen
+
+231
+00:20:52,280 --> 00:20:58,880
+ Bahn und dem Landesdatenschutzbeauftragten zu erfragen.
+
+232
+00:20:58,880 --> 00:21:09,920
+ Die sagen nichts. Will ich jetzt gar nicht weiter ausholen, aber ja, also die
+
+233
+00:21:09,920 --> 00:21:14,880
+ sagen, das ist ein laufenderer Prozess, das ist eine laufende Prüfung, über die
+
+234
+00:21:14,880 --> 00:21:18,720
+ sie gerade keine Informationen rausgeben können.
+
+235
+00:21:20,720 --> 00:21:25,520
+ Siehst du Gefahr, dass es jetzt tatsächlich fehlschlägt, weil die Bahn
+
+236
+00:21:25,520 --> 00:21:28,760
+ jetzt sagt, sie macht eine neue App oder sie teilt sich auf in verschiedene Firmen,
+
+237
+00:21:28,760 --> 00:21:33,000
+ die dann plötzlich die App veröffentlichen und dass dann die Klage
+
+238
+00:21:33,000 --> 00:21:37,320
+ irgendwie abgeschmettert wird aus diesen technischen Verfahrensgründen?
+
+239
+00:21:37,320 --> 00:21:41,360
+ Ich bin keine Richterin, kann ich jetzt nicht sagen, ob das ein zulässiges
+
+240
+00:21:41,360 --> 00:21:45,880
+ juristisches Argument ist. Für uns ist natürlich gar kein Argument und ja, ganz
+
+241
+00:21:45,880 --> 00:21:50,280
+ ehrlich, wenn das Gericht jetzt sagt, okay diese Frage, also diese Klage wird
+
+242
+00:21:50,280 --> 00:21:53,640
+ abgelehnt, weil der Empfänger nicht mehr der Richtige ist, dann stellen wir die
+
+243
+00:21:53,640 --> 00:22:01,200
+ Klage halt noch mal. Also das ist eine Art von Versteckspiel, mit der wir die Bahn
+
+244
+00:22:01,200 --> 00:22:04,520
+ sicherlich nicht durchkommen lassen.
+
+245
+00:22:04,520 --> 00:22:10,160
+ Was ist denn der aktuelle Stand von der Klage? Der aktuelle Stand ist, dass im
+
+246
+00:22:10,160 --> 00:22:13,680
+ Moment Schriftsetze ausgetauscht werden hin und her. Also es gibt noch keinen
+
+247
+00:22:13,680 --> 00:22:18,520
+ Termin für eine mündliche Verhandlung, genau. Wir tauschen im Moment
+
+248
+00:22:18,520 --> 00:22:22,160
+ interessante Schriftsetze aus.
+
+249
+00:22:22,160 --> 00:22:32,680
+ Was wäre eine Konsequenz? Also was wäre, wenn die Klage Erfolg hat?
+
+250
+00:22:32,680 --> 00:22:39,520
+ Also diese Klage jetzt ist tatsächlich ein ganz konkreter Fall einer
+
+251
+00:22:39,520 --> 00:22:44,560
+ Privatperson. Also in diesem ganz konkreten Fall hat eine Person von uns
+
+252
+00:22:44,560 --> 00:22:50,120
+ ein Ticket gekauft. Wir haben die Datenströme, die dabei hin und her
+
+253
+00:22:50,120 --> 00:22:56,560
+ gehen, gemessen und wir klagen jetzt darauf, dass die Bahn auf dem Handy
+
+254
+00:22:56,560 --> 00:23:01,400
+ unseres Nutzers, das ist Padellun, ich glaube das darf man sagen, keine Tracker
+
+255
+00:23:01,400 --> 00:23:09,000
+ einsetzen darf. Aber das heißt natürlich, logisch, wenn das so vor Gericht entschieden
+
+256
+00:23:09,000 --> 00:23:11,560
+ wird, dann wird das natürlich Auswirkungen haben. Dann wird das
+
+257
+00:23:11,560 --> 00:23:15,080
+ Auswirkungen haben natürlich nicht nur auf Padellun, sondern auch auf alle
+
+258
+00:23:15,080 --> 00:23:19,800
+ anderen Nutzer*innen dieser App und das wird natürlich auch Auswirkungen haben
+
+259
+00:23:19,800 --> 00:23:23,360
+ auf andere Firmen, die dann auch sehen, es gibt hier eine sehr sehr klare
+
+260
+00:23:23,360 --> 00:23:26,400
+ Rechtsprechung. Also klar, deswegen machen wir das Ganze. Deswegen machen wir auch
+
+261
+00:23:26,400 --> 00:23:30,760
+ Pressearbeit, weil wir natürlich wollen, dass alle anderen Firmen das auch sehen
+
+262
+00:23:30,760 --> 00:23:33,360
+ und auch denken, ah okay, dann müssen wir vielleicht auch noch mal einen kurzen
+
+263
+00:23:33,360 --> 00:23:38,560
+ Blick werfen auf unser Trackingverhalten. Das ist auf jeden Fall der
+
+264
+00:23:38,560 --> 00:23:44,240
+ Hintergedanke dabei. Ja, ich hätte eine Frage. Vielen Dank für deinen Vortrag.
+
+265
+00:23:44,240 --> 00:23:48,240
+ Offensichtlich ist es ja üblich und hier ganz konkret mal vorgeführt, wie
+
+266
+00:23:48,240 --> 00:23:52,760
+ Datenkriminelle im Slipstream von ganz anderen Anwendungen jetzt Daten sammeln
+
+267
+00:23:52,760 --> 00:23:56,800
+ und da ein Datenmodell draus machen. Jetzt unterstellt ja die Bahn wie andere
+
+268
+00:23:56,800 --> 00:23:59,880
+ auch, dass der mündige Bürger selbstverständlich versteht, worum es da
+
+269
+00:23:59,880 --> 00:24:03,840
+ geht und ist in der Lage ist, aktiv einzuwilligen. Das heißt jetzt mal
+
+270
+00:24:03,840 --> 00:24:07,800
+ unabhängig davon, dass hier vor der Einwilligung Daten abgesaugt werden.
+
+271
+00:24:07,800 --> 00:24:12,320
+ Ich kann ja auch einwilligen und sagen, ihr könnt alle meine Daten haben. Meine
+
+272
+00:24:12,320 --> 00:24:16,880
+ Frage an dich, inwieweit trifft es zu und wie würdest du es bewerten, dass damit
+
+273
+00:24:16,880 --> 00:24:23,360
+ von dem, der da einwilligt, auch Daten preisgegeben werden zur Verknüpfung, wie
+
+274
+00:24:23,360 --> 00:24:27,560
+ auch immer, Daten preisgegeben werden von dritten Personen, von unabhängigen
+
+275
+00:24:27,560 --> 00:24:32,320
+ Personen, von, was weiß ich, Familienangehörigen, von Personen, die in
+
+276
+00:24:32,320 --> 00:24:35,080
+ irgendeiner Weise auf dem Mobile mitgespeichert sind.
+
+277
+00:24:35,080 --> 00:24:39,520
+ Inwieweit kann das hier zutreffen und wie würdest du das im konkreten Fall oder
+
+278
+00:24:39,520 --> 00:24:43,960
+ auch allgemein die Weitergabe von Daten dritter, die nicht so gestimmt haben, nicht
+
+279
+00:24:43,960 --> 00:24:48,320
+ so stimmen können in dem Moment, wie würdest du das bewerten?
+
+280
+00:24:48,320 --> 00:24:55,680
+ Gute Frage. Also von Adobe wissen wir, dass die quasi jeden Schritt erfahren,
+
+281
+00:24:55,680 --> 00:25:00,240
+ den ich innerhalb der App tätige. Also das heißt, die erfahren, wie viele Personen
+
+282
+00:25:00,240 --> 00:25:05,880
+ reisen, fährt ein Kind mit, ja, nein und in dem Fall ist es dann ja schon ziemlich
+
+283
+00:25:05,880 --> 00:25:13,560
+ einfach runterbrechbar. Klar und du hast recht, also mein Kind, meine
+
+284
+00:25:13,560 --> 00:25:17,960
+ Beifahrerin hat natürlich in dem Moment nicht zugestimmt.
+
+285
+00:25:17,960 --> 00:25:28,560
+ Interessante Frage. Sind natürlich abstrakte Informationen in dem Fall.
+
+286
+00:25:28,560 --> 00:25:32,800
+ Also in dem Fall ist es dann erstmal die Informationen, zum Beispiel es ist ein
+
+287
+00:25:32,800 --> 00:25:36,720
+ Kind vorhanden. Ich glaube, es ist nicht nötig jetzt da zum
+
+288
+00:25:36,720 --> 00:25:41,120
+ Beispiel in jedem Fall den Namen einzugeben. Beim Kind auch?
+
+289
+00:25:41,120 --> 00:25:54,080
+ Ja, interessante Frage. Werde ich mal aufnehmen, werde ich mal weiter nachgehen.
+
+290
+00:25:54,080 --> 00:26:00,480
+ Danke. Es gibt ja in Europa nicht nur die deutsche Bahn. Ich habe auf meiner App
+
+291
+00:26:00,480 --> 00:26:06,720
+ habe ich von vier Bahnen, auf meinem Telefon habe ich von vier Bahnen von der
+
+292
+00:26:06,720 --> 00:26:11,680
+ ÖBB, SBB, von der ZSSK, das ist die slowakische Staatsbahn. Gibt es da
+
+293
+00:26:11,680 --> 00:26:16,000
+ Erkenntnisse oder habt ihr Erkenntnisse, wie bei denen das ist, bei den
+
+294
+00:26:16,000 --> 00:26:23,280
+ Nachbarländern? Ne, leider gar nicht, weil das, was ich euch vorgeführt habe, also
+
+295
+00:26:23,280 --> 00:26:27,880
+ auch das Recht, auf das wir uns da jetzt berufen, das ist ein deutsches Recht.
+
+296
+00:26:27,880 --> 00:26:33,600
+ Oh Gott, ich muss nachschauen. TTSG steht für Telekommunikations...
+
+297
+00:26:33,600 --> 00:26:46,280
+ Danke. Und das ist jetzt in dem Fall auch eine Umsetzung einer europäischen
+
+298
+00:26:46,280 --> 00:26:52,920
+ Richtlinie gewesen. Also müsste es schon da auch ähnliche Gesetze geben. Würde ich
+
+299
+00:26:52,920 --> 00:26:57,400
+ mal tippen. Aber was für Tracker die einsetzen? Keine Ahnung, aber kommt doch gerne mal
+
+300
+00:26:57,400 --> 00:27:00,080
+ später her, sagen wir mal die Namen der Apps, dann gucken wir uns die vielleicht
+
+301
+00:27:00,080 --> 00:27:02,880
+ mal einfach an. Vielleicht kann man das ja leicht rausfinden.
+
+302
+00:27:02,880 --> 00:27:07,320
+ Also die müssen ja auch eine Datenschutzerklärung haben und können
+
+303
+00:27:07,320 --> 00:27:13,360
+ wir einfach mal reinschauen. Aber die werden natürlich jetzt von unserer Klage
+
+304
+00:27:13,360 --> 00:27:16,840
+ nicht mit erfasst, ist ja klar.
+
+305
+00:27:19,920 --> 00:27:26,680
+ Erst mal danke für den Vortrag. Zwei Fragen habe ich. Und zwar gibt es einen
+
+306
+00:27:26,680 --> 00:27:32,520
+ Unterschied zwischen Privat- und Geschäftskunden bei dieser App und
+
+307
+00:27:32,520 --> 00:27:42,720
+ eventuell noch eine Alternative zur DB-App? Es gibt einige Alternativen, bei denen man
+
+308
+00:27:42,720 --> 00:27:49,680
+ natürlich keine Tickets buchen kann. Also zur Auskunft gibt es eine ganze
+
+309
+00:27:49,680 --> 00:27:59,480
+ Reihe von anderen Apps. Öffi ist glaube ich eine, dann gibt es eine, habe ich die,
+
+310
+00:27:59,480 --> 00:28:03,600
+ ich mag da gerade noch gar nicht so richtig gerne Empfehlungen
+
+311
+00:28:03,600 --> 00:28:07,760
+ rausgeben, weil ich mir die selber noch nicht ganz genau angeschaut habe.
+
+312
+00:28:07,760 --> 00:28:11,680
+ Ich empfehle immer unsicher Sachen, also ungern Sachen, bei denen ich mir nicht
+
+313
+00:28:11,680 --> 00:28:18,240
+ ganz sicher bin. Okay. Es gibt auch noch eine ganze Reihe mehr, die dann so auf
+
+314
+00:28:18,240 --> 00:28:21,160
+ unterschiedliche Anwendungsfälle spezialisiert sind. Es gibt zum Beispiel
+
+315
+00:28:21,160 --> 00:28:28,200
+ auch eine App im After-It-Store, die wenn du immer eine bestimmte Strecke pendelst,
+
+316
+00:28:28,200 --> 00:28:31,520
+ die dir immer die Fahrzeiten und Verspätungen für diese eine Strecke
+
+317
+00:28:31,520 --> 00:28:37,880
+ anzeigt. Genau, also da gibt es auf jeden Fall Möglichkeiten.
+
+318
+00:28:37,880 --> 00:28:42,320
+ Ansonsten klar, man kann Tracking blocken. Das kann man im Webbrowser noch ein
+
+319
+00:28:42,320 --> 00:28:46,240
+ bisschen einfacher machen als auf dem Handy, aber da ist es auch möglich.
+
+320
+00:28:46,240 --> 00:28:50,880
+ Genau, aber da sind wir wieder da, dass wir natürlich eigentlich wollen,
+
+321
+00:28:50,880 --> 00:28:56,800
+ dass es ein Zustand sein soll, den alle Leute genießen können.
+
+322
+00:28:56,800 --> 00:29:04,360
+ Die einzelnen Verkehrsverbund, also RMV oder der aus Berlin,
+
+323
+00:29:04,360 --> 00:29:08,600
+ die haben ja auch Apps. Habt ihr auch geschaut, wie es bei denen aussieht? Ich
+
+324
+00:29:08,600 --> 00:29:12,600
+ nicht, aber da kann man auf jeden Fall mal bei MyCuckat schauen. Da hat ja eine
+
+325
+00:29:12,600 --> 00:29:19,840
+ ganze Reihe von Apps auseinander genommen. Mal schauen, ob der da vielleicht schon
+
+326
+00:29:19,840 --> 00:29:28,800
+ was gemacht hat. Oder mal bei... Hat er? Weißt du mehr darüber? Weißt du das konkret?
+
+327
+00:29:28,800 --> 00:29:36,800
+ Willst du vielleicht ins Mikro sagen, damit der Stream auch was davon hat?
+
+328
+00:29:39,040 --> 00:29:43,960
+ Aktuell, es ist ein paar Monate her, hat er dann nochmal eine neue Artikelserie
+
+329
+00:29:43,960 --> 00:29:49,520
+ veröffentlicht wegen dem Deutschlandticket und hat da die einzelnen, also HVV bis zu
+
+330
+00:29:49,520 --> 00:29:53,880
+ whatever Bahn, da hat er das auseinander genommen und hat eigentlich keine so
+
+331
+00:29:53,880 --> 00:29:56,880
+ richtig gut abgeschnitten.
+
+332
+00:30:04,120 --> 00:30:11,880
+ Auch weitere Fragen? Ansonsten sind wir legendär früh fertig.
+
+333
+00:30:11,880 --> 00:30:18,880
+ Genau, ansonsten? Ich fand das ganz interessant. Die letzte Frage, die du
+
+334
+00:30:18,880 --> 00:30:24,040
+ selber gestellt hast am Ende des Vortrags, liebe Entwickler, warum baut ihr denn so
+
+335
+00:30:24,040 --> 00:30:27,240
+ was überhaupt ein? Möchtest du darauf antworten?
+
+336
+00:30:27,240 --> 00:30:31,360
+ Nee, aber ich habe in den Cookies standen so schöne Beschreibungen drinnen.
+
+337
+00:30:31,360 --> 00:30:37,120
+ Keine Ahnung, die App crasht und wir wollen dann wissen, was ging denn kaputt
+
+338
+00:30:37,120 --> 00:30:44,480
+ und so weiter. Und die Bahn wird das ja nicht einbauen, nur aus dem Grund, um uns
+
+339
+00:30:44,480 --> 00:30:47,360
+ zu ärgern oder die verdienen die Geld damit. Das würde ich jetzt auch
+
+340
+00:30:47,360 --> 00:30:52,120
+ mal so fragen, quasi verkaufen die auch unsere Daten oder ist das so ein Deal?
+
+341
+00:30:52,120 --> 00:30:56,640
+ Wir geben euch die ganzen Daten und kriegen ein bisschen Input zurück. Das
+
+342
+00:30:56,640 --> 00:31:00,960
+ wäre so das interessante eigentlich daran, weil eine Firma baut ja nichts ein und
+
+343
+00:31:00,960 --> 00:31:05,160
+ gibt Geld dafür aus, dass das jemand einbaut, um nichts zurückzukriegen oder so.
+
+344
+00:31:05,160 --> 00:31:12,000
+ Genau, klar, die kriegen sowas zurück wie bunte Statistiken. Nur, dass sie diese
+
+345
+00:31:12,000 --> 00:31:17,200
+ bunten Statistiken, also die Idee ist halt, klar, es ist eine Dienstleistung, die
+
+346
+00:31:17,200 --> 00:31:23,220
+ sie halt auslagern. Also sie möchten diese Statistiken zum Beispiel zur
+
+347
+00:31:23,220 --> 00:31:27,960
+ Websitenutzung nicht selber machen, sondern kaufen dafür dann Dienst von Adobe
+
+348
+00:31:27,960 --> 00:31:33,960
+ ein. Und das ist nachvollziehbar, klar, man versucht irgendwie Arbeit auszulagern,
+
+349
+00:31:33,960 --> 00:31:39,240
+ aber genau das ist die Sache, das ist auch super gefährlich, weil wenn alle diese
+
+350
+00:31:39,240 --> 00:31:43,600
+ Sachen einkaufen von Adobe und von Google, dann ist das halt eine Wahnsinns-
+
+351
+00:31:43,600 --> 00:31:47,080
+ Marktmacht, die entsteht bei Adobe und Google und das ist natürlich wie
+
+352
+00:31:47,080 --> 00:31:52,840
+ gesagt ein attraktiver Service, wenn man so will, aus Entwickler*innen-Sicht.
+
+353
+00:31:52,840 --> 00:32:00,360
+ Aber man muss sich da echt bewusst machen, was da geschieht.
+
+354
+00:32:00,360 --> 00:32:04,240
+ Das ist auch das, was ich gesagt habe, es ist ein Abhängigkeitsverhältnis.
+
+355
+00:32:04,240 --> 00:32:09,800
+ Und wir finden gerade bei einem großen Konzern, der auch das Geld hätte,
+
+356
+00:32:09,800 --> 00:32:15,240
+ selber seine Infrastruktur zu entwickeln, da können wir doch erwarten, dass sie
+
+357
+00:32:15,240 --> 00:32:20,120
+ dafür sorgen, dass sie ihre Sachen selber unter Kontrolle haben.
+
+358
+00:32:20,120 --> 00:32:23,720
+ Das ist glaube ich nicht auf so viele Firmen halt aufteilen, das ist halt
+
+359
+00:32:23,720 --> 00:32:27,560
+ richtig, ist das jetzt die eingeschränkte? Das ist die volle Coque.
+
+360
+00:32:27,560 --> 00:32:34,440
+ Genau, das ist jetzt komplett, genau, das ist alles, was in der DB-App und das ist
+
+361
+00:32:34,440 --> 00:32:41,440
+ nur der Bereich Erforderliche. Das ist nicht alles, was man, wenn man
+
+362
+00:32:41,440 --> 00:32:46,920
+ einfach nur auf alle akzeptieren klickt, was dann alles eingesetzt wird, sondern
+
+363
+00:32:46,920 --> 00:32:50,280
+ das ist nur der Bereich, den ich überhaupt gar nicht loswerden kann als
+
+364
+00:32:50,280 --> 00:32:52,360
+ Nutzerin.
+
+365
+00:32:52,360 --> 00:33:02,160
+ Gibt es? Ja, ja, beim anderen sind es natürlich noch ein paar mehr. Ob es einen
+
+366
+00:33:02,160 --> 00:33:07,200
+ Unterschied gibt, ob ich tatsächlich noch mehr bekomme, wenn ich auf alle
+
+367
+00:33:07,200 --> 00:33:15,000
+ akzeptieren klicke? Ja, dann bekomme ich noch mehr. Dann ist noch ganz viel an
+
+368
+00:33:15,000 --> 00:33:20,880
+ Marketing, weiteren Marketing-Analysen dabei, aber auch hier, also Vergütung von
+
+369
+00:33:20,880 --> 00:33:26,040
+ Partnern nach Buchung auf einer Partnerseite durch DB Affiliate, Werbemittel.
+
+370
+00:33:26,040 --> 00:33:32,960
+ Also, dass das technisch erforderlich ist, das klingt schon sehr, finde ich, nach es
+
+371
+00:33:32,960 --> 00:33:38,560
+ ist erforderlich für unsere internen Marketing-Prozesse, aber nicht nach es
+
+372
+00:33:38,560 --> 00:33:42,240
+ ohne das funktioniert die App nicht.
+
+373
+00:33:42,640 --> 00:33:48,960
+ Hier ist noch eine Frage hier vorne. Ich wollte noch was ergänzen, hier hinten.
+
+374
+00:33:48,960 --> 00:33:53,840
+ Tatsächlich, es gibt ja den Spruch, dass man nicht Bösartigkeit unterstellen
+
+375
+00:33:53,840 --> 00:34:00,160
+ soll, wenn auch Dummheit eine Möglichkeit wäre. Ich will jetzt da keinen Urteil
+
+376
+00:34:00,160 --> 00:34:05,040
+ darüber abgeben in diesem Fall, aber es gibt ein wissenschaftliches Paper von
+
+377
+00:34:05,040 --> 00:34:11,680
+ Tom Albee, hat er vor ein paar Monaten auf einer Konferenz vorgetragen und er hat
+
+378
+00:34:11,680 --> 00:34:19,240
+ untersucht, wer alles Google Analytics verwendet auf Webseiten und was die
+
+379
+00:34:19,240 --> 00:34:25,000
+ Webseitenbetreiber davon haben. Und tatsächlich ist es sehr oft so, dass da
+
+380
+00:34:25,000 --> 00:34:28,920
+ einfach Standardpakete genommen werden und dass Entwickler einfach das so machen,
+
+381
+00:34:28,920 --> 00:34:34,000
+ wie es alle machen und das deswegen einfach einbauen. Und die Webseite selber
+
+382
+00:34:34,000 --> 00:34:38,520
+ hat im Grunde nichts von diesen Erkenntnissen. Sie werden leichter bei
+
+383
+00:34:38,520 --> 00:34:43,160
+ Google natürlich gut gerenkt, das ist ein Vorteil, klar, aber eigene Erkenntnisse
+
+384
+00:34:43,160 --> 00:34:47,400
+ gewinnen sie daraus nicht, aber wer wirklich profitiert ist Google. Und ich
+
+385
+00:34:47,400 --> 00:34:52,120
+ glaube, diese Machtverhältnisse, die sollten wir uns klar machen und
+
+386
+00:34:52,120 --> 00:34:56,000
+ deswegen finde ich auch deinen Aufruf an die Entwicklerinnen und Entwickler
+
+387
+00:34:56,000 --> 00:35:01,320
+ wichtig, bitte prüft doch mal selber, ob das Zeug, die Pakete, die ihr da einbaut,
+
+388
+00:35:01,320 --> 00:35:04,800
+ ob die wirklich notwendig sind oder ob es da nicht möglich ist, andere zu
+
+389
+00:35:04,800 --> 00:35:10,080
+ verwenden. Also ich glaube, dass wir hier genau an dem richtigen Ort sind, um da
+
+390
+00:35:10,080 --> 00:35:16,800
+ auch einen Anstoß zu geben, das würde ich mich sehr darüber freuen.
+
+391
+00:35:16,800 --> 00:35:33,120
+ Ich wollte noch wissen, ob es auch alle Ablehnen gab, aber das sieht man ja nicht
+
+392
+00:35:33,120 --> 00:35:39,000
+ und ob ihr gefragt habt, warum es nicht alle Ablehnen gibt, Debatten. Also so sieht
+
+393
+00:35:39,000 --> 00:35:44,360
+ das Ganze aus, du kannst entweder alles zulassen oder nur erforderliches
+
+394
+00:35:44,360 --> 00:35:48,680
+ zulassen. Also das ist genau der Witz bei der Geschichte, alle Ablehnen gibt es
+
+395
+00:35:48,680 --> 00:35:53,080
+ nicht, weil die Bahn sagt, das ist erforderlich, das ist das Minimum, das
+
+396
+00:35:53,080 --> 00:35:55,680
+ musst du nehmen.
+
+397
+00:35:55,880 --> 00:36:03,640
+ Genau, also das ist genau dieses Zwangs-Tracking gegen das, wir klagen.
+
+398
+00:36:03,640 --> 00:36:09,520
+ Vielen Dank, oder? Das hat sich gelehrt.
+
+399
+00:36:09,520 --> 00:36:22,440
+ Wir freuen uns natürlich sehr, wenn ihr unsere Klage unterstützen möchtet.
+
+400
+00:36:22,440 --> 00:36:27,040
+ Digitalcourage finanziert sich ja ausschließlich durch Spenden und so eine
+
+401
+00:36:27,040 --> 00:36:35,800
+ Klage, also Öffentlichkeitsarbeit zu machen. Genau, das alles so die ganze Zeit
+
+402
+00:36:35,800 --> 00:36:40,920
+ zu begleiten und zu machen, das kostet uns natürlich auch viel, viel Zeit und
+
+403
+00:36:40,920 --> 00:36:45,160
+ Geld. Da wären wir sehr dankbar. Danke.
+
+404
+00:36:45,920 --> 00:36:47,920
+ [Applaus]
+
+405
+00:36:48,680 --> 00:36:51,720
+ [Musik]
+
+406
+00:36:51,720 --> 00:36:54,720
+ SWR 2020
+
+407
+00:36:54,720 --> 00:36:56,720
+ Copyright WDR 2018
+

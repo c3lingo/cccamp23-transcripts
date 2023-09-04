@@ -1,0 +1,236 @@
+ [MUSIC]
+ A lot of you probably use YubiKey for the two factor authentication, right?
+ Well, I have bad news for you. It's not as secure as you might think. What the fuck, right?
+ Our next speaker, Sergei, will show how he could exploit the system and cause a lot of headaches at the Federal Agency for Information Security in Germany.
+ Please give a warm welcome to Sergei.
+ Hello. Welcome everybody. It's so nice to see many people in this heat struggling.
+ So, the talk is going to be about a solution. It's called DeFact2, for whatever reason.
+ So, the outline of the talk is more or less just a few words about universal second factor, how the solution is working, what's the idea behind it.
+ Then, what is DeFact2 solution? Just a few words about certification. I'm not an expert on it at all, but just to understand why this attack is relevant, we'll have to look at it.
+ And talk about Java cards, how they work, what kind of weird stuff can happen there.
+ And finally, about the actual vulnerability, which I found in under 30 minutes, looking at the source code. So, this talk will take longer than finding actual issue in the code.
+ So, universal second factor, authenticators. So, the idea is to move from passwords only, and you have a dedicated device, just like Ubiqui.
+ There are many other solutions as well. Ubiqui is probably the most popular one. And it protects you from phishing, it protects you from some types of malware.
+ And the idea is you have a separate device, it has a key inside, and cryptographically signed challenges from the remote server sent to the device and back to the back end.
+ So, they can authenticate that not only your password is correct, but that also the device signed this action.
+ So, there are a bunch of different solutions, as I mentioned. You can see here quite a few of them. They can look different, but the idea is very similar behind them.
+ So, what is de facto? One day I was just going through Twitter stuff, and I've seen a bunch of popular Java card projects on GitHub.
+ You see, maybe not that popular, 16 stars, but something. And I've done quite a bit of Java card research, so I was kind of interested to take a look at it.
+ Just for no reason, it was my hobby project, unrelated to work. But when I opened it, it was kind of interesting because I didn't first pay attention to who is the owner of this wrapper,
+ but I just looked at the code, started to scroll through. I've seen there is a CC folder, which stands for Common Criteria.
+ And it turns out it is an actual official repository of the Bureau of Informatics of Germany. And I Googled a little bit what this solution is.
+ Is it like some test wrapper or something? And it turns out they advertise it as one of the solutions, which can possibly help you to protect your passwords.
+ So, I thought it can be nice to take a look at it. And interestingly enough, unlike many other repositories on GitHub, this one has some certificates next to it.
+ Not often you see that. So, this one is a Common Criteria certificate for this particular product.
+ They released it all on GitHub, some documentation, and all the code, which is normally not the case for any certified product.
+ And we'll see why later, just from certification points. And they have this nice certificate, which says that BSI has the certified FIDO product.
+ So, I thought it's nice to take a look at it. I read the readme. It says that this is not an actual product they want to release,
+ not something they're going to sell to anybody, they're not in the market of making tools. But this is more like a reference implementation,
+ just for other people to be inspired, to show how it can be done, and also how the certification of such a solution can be done.
+ So, what is CCC certification? Common Criteria certification. And it's especially fun to present it here at CCC, because it's very formal for such an informal group of people.
+ But the idea is quite simple. The vendor wants to certify it for whatever reasons, sometimes it's market requirements, sometimes it's just for marketing purposes, or any other reason.
+ They have some kind of target device, they design the way it should be used, the user guidance. They define the scope, and they say,
+ "This sort of attacker won't protect against, and these are our security features, the SFRs."
+ They go to an independent lab and say, "Hey, we have this product, can you verify that it works the way we state it works?"
+ And there's various testing, not necessarily only technical, there's also a lot of documentation review and stuff.
+ And finally, the lab presents the results to the certifier, and they say, "You got this certificate, and the job is done."
+ There's also different levels, it's starting from 1 to 7, so there's quite a bit of difference there.
+ Most of solutions, like your payment cards, they are level 5, and that's apparently enough to make sure that your bank card is secure against all kinds of attackers.
+ So, going back to the repository, there is a security target document, it has all kinds of actual security features, which this product has.
+ And one of them is user presence, and this is also in the standard for FIDO.
+ User presence ensures that the user of the FIDO token actually physically approves the transaction.
+ So, it cannot be done by software, it has to be user just pushing the button, or doing some action which physically ensures that this is done.
+ And if we go back to the picture, if you possibly can see it, there are red circles, every single solution I found has a button on it.
+ Even this tiny one on the top, it's a capacitive sensor, which just reads the user button push.
+ If you've seen smart cards before, usually smart cards don't have buttons.
+ And that's a bit of a problem, because you have one user physically approve the action, but there is nothing to push on a smart card.
+ There are some solutions which have, normally, they don't have buttons.
+ So, how did they do it? There is some code which nobody will be able to read, so I'll try to tell you a little bit.
+ It is Java card code. It is similar to Java, it's a subset, not all of the things are fully there.
+ But there is one interesting feature of Java card code.
+ So, normally, all your stuff, all your variables are in flash, they are persistent.
+ And if you want to have a volatile memory use, like variable in RAM, you make an array, you call an API to make a transient array, that's the second part in the code.
+ And this variable here is called scratch persistent.
+ So, what they do is they have an array of one byte, which initially, when you boot up the card, the value is initialized to zero.
+ And it's in RAM. So, when the card is powered and it runs, the value starts with zero.
+ And when they execute any sensitive transaction, if you can possibly read in the bottom one,
+ when it goes through the sensitive path, for example, you want to sign a transaction, or enroll the new website, then the value is set to one.
+ And when they set the value to one, it never goes programmatically to zero. So, you have to power off the card and power it on again.
+ So, the idea is the user would have a smart card reader, they have a card which has the solution on it.
+ So, you physically, every time, have to plug in the card in the reader when you sign.
+ And if you want to sign again, you pull it out, pull it back in in the reader.
+ And that's how you physically show that you're approving the transaction.
+ So, just to replace the button. And this is done with a bit of magic from JavaCard.
+ So, so far so good. The cycle, how it should work, more or less like this.
+ You plug in the card, you're in this state when user presence is zero, that's the default value. And then you execute any sensitive operation, the code sets it to one,
+ you stay in one, and you have to pull the card out, pull it back in, and then it goes back to zero because the RAM is reset because you powered down.
+ So, all of this makes sense, I guess, if you don't look too much into JavaCard standard.
+ Unfortunately, I've made too many wrong decisions to spend a lot of days reading it. So, at that moment, I already thought something is wrong.
+ So, I made a little demo. Let me see if it works.
+ Anything's happening? Oh, no.
+ Okay. Now, okay. So, this is a bit of application. I made a different script initially just for testing.
+ Then I made a GUI application for this time, hoping that I can show it on the screen. So, it's quite simple.
+ It's like what kind of application basically would do it. So, you have an open smart card button just to connect to the card.
+ In the back, you can see there is, it sends data to the card and it checks user presence here, and it just shows for us.
+ And we can do sign, and it signs the transaction, the value goes to one, user presence is zero now.
+ And when you pull out the card now in a second, oh, no, first I try to sign again and it's denied because the value is zero.
+ And when I will pull the card in a second, yeah, there's an exception which I didn't handle, but then user presence goes back to one.
+ And that's how it works. So, I just tested it with my card. I didn't have the same one as BSI because they certified to a specific product.
+ But I didn't really care about that because I wanted to take a look at the standard. And it is already quite interesting.
+ So, this is one of the fields which defines how you create this transaction byte array, this variable in RAM.
+ And the flag you give it to it is clear on reset. And you can see here then it says the value is reset, the value is cleared on reset or power on.
+ So, there's already two possible states. It's not necessarily when you plug in the card out or in, but if we can somehow programmatically reset the card, we can achieve the same behavior.
+ So, that's what I started to test right away. And you can see here it's already an interesting behavior.
+ When I just opened the smart card, just connect to it over the driver, the LED on the bottom changes.
+ So, when it's open, it is a solid green and when it's closed, it's blinking.
+ So, only programmatically just opening the driver already has effects on the reader.
+ So, I'm just wondering what about the card? Is the card going to be powered as well every time we open and close driver or not?
+ And that is quite simple. So, a smart card has only eight pads, not even all of them I used.
+ And what I care is VCC. I just need to check the power on one of the lines when I open the driver programmatically and close.
+ And that was my demo test, doesn't matter. Yeah, and that's the line.
+ So, you can see here first it's the VCC line, the power of the smart card.
+ First, when I open it, it goes up. Then when I close and open again, it goes down again and up.
+ And when I close the whole application, it goes fully down.
+ So, the power is controlled programmatically from our... it's my Python script, but can be anything.
+ Your browser eventually is going to use the driver as well.
+ So, every time you connect to the driver, it will power the card and when you disconnect, it will power down.
+ And now the problem is that the lifecycle, which they expected to be two simple circles, is a bit different.
+ So, now we can as well just plug in the card and improve transaction by removing it and putting the card back in.
+ Or we can just programmatically open and close device. And it achieves exactly the same result.
+ As you can see here, with the same application, I sign, I close the device, I open, I don't even touch the reader.
+ The present changes to one and I sign again. And I can infinitely sign as many transactions as I want.
+ And as you remember, it may be not... doesn't look like a big deal, but for these sort of products,
+ when you certify and you say this is your security feature and you say user presence has to be physically protected with the implementation,
+ it is not exactly the way it's supposed to be.
+ So, how these attacks are measured. So, normally for your web vulnerabilities or anything else, you have CVSS score.
+ So, here you have jail writing. It's kind of the same idea, but a bit different.
+ So, you just count what kind of equipment the attacker needs to identify the vulnerability and what they need to exploit it,
+ how much time they need, what kind of expertise and so on.
+ And eventually, you want to reach some nice number which is secure enough.
+ And if it's slower than that, it is failing the test pretty much.
+ So, it took me less than an hour to find the issue. So, you can see here, identification time is less than one day, so it's zero points.
+ And altogether, all of them end up to be nine. And this is very low for an attack.
+ There should be no such an attack which is possible to execute on one of the features in this time.
+ So, I reported all this to BSI through their disclosure program.
+ They facilitate disclosure to third parties and they also handle this case very nicely or quick to respond.
+ And the issue is fixed. And this is the best part of open source, which I like a lot when I report vulnerabilities to vendors.
+ When it's open source, it's nice to see also the effects of what you've done, how they fix the vulnerability.
+ So, you can see here, that's the, as far as I remember, the security target.
+ It was talking about user presence. This is one of the changes in the document.
+ It was saying that before, proof of presence means that a button or physically placed in a token to the NFC reader enables user presence.
+ With the fix, it says that the card cannot really detect that.
+ And so, the user must keep his system secure, that the host PC or the smartphone is free of malware and under full control of the user.
+ And the issue of this document...
+ The title is Assurance Continuity Maintenance Report.
+ And in there, there is pretty much also part of the process. That's what happens to every vendor.
+ If somebody found an issue in their certified product and they want to keep their certification, they have to assess the risk, figure out what they do with it, address it.
+ It says here, the vendor of the de facto authentication app BSI submitted impact analysis report to BSI for approval.
+ And so on. And finally, the certified product did not change. The security target was editorially updated.
+ So, that was the fix. Maybe not what I expected, to be honest. But this is part of the deal, I guess.
+ The conclusions... My talk was very fast, surprisingly.
+ The conclusions are simple. There are still no buttons on the smart card.
+ So, unless you have a special dedicated hardware, there is no easy trick you can use to implement a button, as far as I know.
+ In the initial note, BSI had in the readme of the whole project, at the end they were saying that they want to inspire other people to do certification projects.
+ But it might prove the process to be a tough challenge. And I think it was proven to be exactly that.
+ It's not easy to make something secure, especially when it has to be to a very high level.
+ And the last one. I really enjoyed that they released it, because there are so little projects you can see certified and public.
+ And so many of them probably still also have issues, but just never known to public.
+ And it is nice that they released it, and then we can take a look at it and see what kind of issues they also have and how they can be possibly handled.
+ So, it's really nice to have it open source and nice to find issues in open source.
+ And I enjoyed it myself a lot. And hope you enjoyed this talk. And if you have questions, we have a lot of time.
+ Thank you very much, Sergej. Yes, indeed, we have a lot of time for questions.
+ I see one over there. One with the white shirt, number one.
+ Thank you. Thank you for the talk. In the previous slides, did I read it correct that the vendor asked the BSI for approval?
+ Who was the vendor again? From what I read, vendor, from the certificate itself, it says vendor is BSI, that they developed it.
+ Okay, so the BSI submitted to the BSI for approval. It seems to be the case.
+ Glorious, thank you. Another question to people over. Yes.
+ Do you think, since you're an expert on Java cards, is there a technical solution to this problem that you found?
+ For example, store the user presence in Flash instead of in transient memory?
+ No, well, that's why when I started to look at it, initially I thought it's in Flash, but then I just misunderstood how it works.
+ The thing is, if you keep it in Flash, then you still need to somehow detect the act of the card being disconnected, and there is no way for the card to distinguish it.
+ And this is the only possible source of physical action for the card.
+ Like there is nothing else you can physically do to a card which it can detect.
+ Whatever you do, you cannot really indicate to the card you are pulling it out of the reader without just checking if it's powered or not.
+ So I don't think there is any other way. There are some solutions with buttons.
+ They maybe have multiple, not just the secure element, but the external MCU in one package and everything.
+ But for normal smart cards like this, it's just the reader and plastic, maybe also NFC antenna, but that's it.
+ So there is no actual way I can see myself.
+ Okay, thank you.
+ Any more questions?
+ Yes, back there.
+ Hi, thank you for the talk.
+ So it seems like the solution they propose is that the user system has to be free of malware,
+ which means that the vendor must make sure that the user system is free of malware,
+ which sounds like they need to rely on some form of trusted computing, so everyone who is running a free operating system will be out.
+ Yeah, so one of the things for the products is that there is the product itself and all the rest.
+ So of course, when certified product cannot expect for the system to be anything in particular.
+ But yeah, it's hard to say how it can be enforced technically, but it's also certification to a big part of it is somewhat like insurance.
+ So it's not necessarily always solve the issue, but it just somehow puts the boundaries on things.
+ So they don't necessarily always make technical sense fully, but it just the way it plays out for if it's a good thing or not.
+ I don't know, but that's the way it works.
+ All right, next question. Yes.
+ Hello. What would be the typical attack?
+ So someone leaves the card on the reader and then you have some malware which just glitches the driver and then you can sign anything without the user presented it or?
+ Yeah, yeah. So it would look something like this.
+ The idea is it should not be possible remotely for any software or even hardware given rating for the certification level.
+ Like a lot of things can be scoped, like even your reader cannot be fully trusted because you just bought something from eBay from China and then you can you really trust that reader?
+ Of course, it's difficult to imagine that for that case.
+ But even those things cannot always be considered benevolent.
+ Yes, so it would be something like this. You have your card plugged in.
+ You just didn't remove it right away, even if you do, like it's going to be microseconds to do execute multiple transactions.
+ So for user, there is no physical way to just really put the card in, sign your transaction, pull it out very quickly so no other malware can sign another action.
+ So it's indeed something like that.
+ I've read something about smart cards with a fingerprint reader on it.
+ Have you experience with that?
+ Yeah, they also exist and it would be possibly one of the ways.
+ So the thing is when the product is certified here somewhere in the slide, if we go all the way back.
+ Yeah, you cannot possibly see that, but I can tell you there is in the certificate.
+ It also states the operating system on which this applet runs.
+ So the applet is just the software and they got another certified smart card platform, like the actual physical hardware.
+ And for this particular platform, it only works.
+ So it cannot work on any random piece of hardware.
+ Technically, this is, of course, not certified because I run my applet on it because this is a different platform.
+ But the point is they could use some other solution, but maybe for the reason of price or just complexity of the solution, it becomes more difficult.
+ That's why they didn't use it.
+ All right, one more question there in the back.
+ Is it too far away?
+ This may be slightly off topic, but how did you dump the Java software from the card to reverse it?
+ I did not. It is all open source in the repository.
+ You can still see that they put the whole applet, they put all the documents and stuff.
+ So all of it was open source as they wanted to make a reference implementation.
+ It makes sense to release it, of course.
+ If you would have to dump it, it's a non-trivial task at all.
+ And they never released it as a solution.
+ So it was just a reference implementation.
+ All right.
+ Any more questions?
+ Yes, here right in the middle with the light blue shirt.
+ So I am no expert in smart cards, but wouldn't you typically also need some kind of pin to use the material on the card with Yubi keys, which also act like smart cards?
+ You need a pin.
+ This solution does not have the pin as far as I remember.
+ I would need to check the code as well, but as far as I remember, not. It's not needed.
+ All right.
+ There's one in front here.
+ The black shirt.
+ Hi. Do you know of any actual vendor who has used something similar to this technique to actually build and sell universal two-factor smart cards?
+ Is there anything on the market, or is it just this reference implementation?
+ Yeah. I see one fork.
+ I wonder if it's from YubiCo.
+ No, I don't know, to be honest. I doubt somebody used it.
+ It was released three years ago, I think, but I don't think it was used in production.
+ Similar idea was some companies tried to use for blockchain wallets, so they thought about using smart cards, but there is a similar problem.
+ You don't have a button, you don't have a screen, you don't really want to use it as a trusted device fully because you want to really see what you're signing.
+ All right. Yeah, I'll take it as the last question now.
+ The one with the white shirt, black mask in the back.
+ Is this on?
+ The application doesn't force the vendor to adhere to the original thing that was certified.
+ They basically changed the original product by specifying that you can't rely on it for the security anymore.
+ Just like that, they keep the certification. Don't they have to notify their customers or anything?
+ Yeah. Well, for this one it's particularly difficult because it's not like they have any customers, from what I can imagine.
+ You can see there is an official document for that reason, so it's not just changing the product. You cannot just update your software.
+ Fixing bugs becomes a problem when the product is certified because you know it's an issue, but the moment you change the code, it's not the same solution.
+ So it's not necessarily certified. But this is an official document, the Assurance Continuity Maintenance Report, which addresses the issue.
+ Yeah, but how it addresses is a different question.
+ Alright, thank you very much everyone. Let's give it up for Segei again.
+ Thank you for being here. Stay hydrated and have a nice camp.
+ [Music]

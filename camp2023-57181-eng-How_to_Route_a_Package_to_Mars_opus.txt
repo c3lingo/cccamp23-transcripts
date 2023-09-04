@@ -1,0 +1,290 @@
+ [MUSIC]
+ [MUSIC]
+ So this talk will be held in English.
+ [FOREIGN]
+ So there will be no translation for this talk, but today I'm very pleased to introduce Jaschow to you.
+ He's going to talk about protocols.
+ He's here.
+ Protocols and algorithms that help communicating through the vast expanse of space.
+ Exciting, isn't it?
+ And everything that has to do with networking and the title of the talk is how to route a package to Mars.
+ Jaschow, your stage.
+ [APPLAUSE]
+ Yeah, thank you very much.
+ Thanks for the introduction and thanks for coming to this episode of the space track at Nortex.
+ I think around this time is actually every day a talk about something space related.
+ Some of them already very good.
+ I already cut my script because other people explained it better.
+ So we have more time for the things that I think are particularly cool, which is generally space networking.
+ I think I don't have to convince you, but I'll tell you what I particularly think it's cool.
+ So strap in.
+ So I'm Jaschow.
+ Some people call me Johann Schöpfer.
+ Yeah, some stuff I am is there.
+ I studied informatics.
+ I'm some sort of researcher, I guess.
+ And I originally scoped this out as a PhD topic maybe.
+ And yeah, I still hope it's going to work out some day.
+ So we'll see.
+ So where should we start?
+ Here, I guess.
+ So networking layer models, maybe probably a lot of you have heard about it.
+ It is OK, how do you build computer networks?
+ Lots of machines talking to each other.
+ Data goes where it should.
+ You build protocols on top of each other.
+ Firstly, it's physical.
+ That's actual on the wire signals, radio stuff, fiber optics, whatever.
+ And above that, data link.
+ That's I think most of the time ethernet, other stuff, I guess.
+ And these protocols all package data off the protocol above it.
+ So you build little onion where you have low level protocols that do like point to point
+ stuff and more high level protocols do end to end stuff.
+ Probably very bad explanation of the concept.
+ Anyway, in reality, it's much more complicated.
+ So it is in space.
+ So the CCSDS protocol ecosystem is not the only one, but it has a lot of standards that
+ you can look at.
+ So I did that, and that's probably where a lot of this talk came from.
+ It's CCSDS is a board by most of the space agencies of the world where they work out
+ standards for how their SATCOM systems should communicate.
+ So they have some interoperability.
+ And other people use it too so they can rent out their equipment, I've heard.
+ So okay.
+ Why am I showing you all of this?
+ So anyway, down here we have, I guess, space ethernet stuff at the data link level where
+ yesterday's talk explained that pretty well.
+ So I'm just going to say it's space ethernet.
+ And above that, we have, yes, it's called something like shim protocols.
+ Basically those low level protocols, they only transport certain other types of protocols.
+ And if you want to do networking, so if you want to hand this stuff to other higher level
+ protocols who will then do complex routing stuff, you use the encapsulation protocol
+ and you, for example, talk to your satellites with IP.
+ But that's boring.
+ So I want to talk about the other stuff.
+ Actually, where is the next slide?
+ Oh, yeah.
+ I'm going to talk about LTP and BP over here.
+ We're going to learn what those mean.
+ Those are, I'd say, proper networking protocols for interplanetary activity.
+ But frankly, I think most of the space to space communication, so actual multi-hub communication
+ right now works with bent pipe style networking.
+ For example, this here is a TDRS satellite.
+ It's called tracking data relay system.
+ Anyway, it's how I think the International Space Station is actually reached.
+ So how those guys get internet, they need to get one of those satellites as a relay.
+ It's operated by NASA.
+ I hear the US military uses most of the bandwidth.
+ Doesn't matter too much, but it's not that interesting networking wise.
+ It's just those data link protocols are used and then it's manually told, okay, be a relay
+ here, be a relay there.
+ It's not that much more interesting than, I don't know, have you seen those guys who
+ have like an old school manual phone operator table where they plug in the cables and connect
+ phone lines next to a phone?
+ It's connecting the actual networking is pretty manual.
+ The satellite is just told connect here, connect there.
+ But that's not really what you understand as networking protocols.
+ So let's get to the first thing, Lick Liner Transmission Protocol.
+ This was developed for the express purpose of interplanetary missions or stuff that's
+ very far away.
+ The motivation for it was I think all of the missions that go in, let's say, past the moon
+ are using the deep space network which is I think a corporation of multiple agencies
+ with really big antennas on multiple places around the world to reach those really far
+ away crafts.
+ But they're really overbooked and it's any bandwidth you get is a premium.
+ So Lick Liner is trying to optimally use that.
+ And how is it doing that?
+ So I'm going to try to explain Lick Liner protocol very fast.
+ So you may see here some red arrows and some green arrows.
+ Lick Liner has two modes of data transportation.
+ One's called red part data.
+ That's important data that you really want to get through.
+ And it uses retransmission for anything that doesn't get acknowledged.
+ And the green part data is sort of okay, nice to have, but it's fire and forget transmission
+ basically.
+ And how it works is the red part data occasionally sends out checkpoints that requests an acknowledgement
+ back, okay, what have you received?
+ And the checkpoint has a timeout and when the timeout fails, then you politely inquire
+ again hey, did you get that data?
+ Or maybe you get a back acknowledgement that doesn't include enough data so you know what
+ to resend.
+ That's the basic gist of it.
+ But it was specifically designed to have I think lots of parallel timeouts running.
+ So you can just keep sending all the time and only when you're sure you need to resend
+ something, then you're rescheduling it.
+ That was the logic behind it as I'm aware.
+ Right.
+ But maybe you've noticed not so much networking yet going on.
+ This is still a single hop protocol.
+ One second.
+ Right.
+ Just checking the time.
+ Yeah, it's used for transmission to deep space, but it's still only recommended for single
+ hops from craft to ground station usually.
+ But that's not well, if you know something about IP and routing, that's not really what
+ we expect networking to do.
+ We want to automatically get from point A to point B across multiple devices.
+ Anyway, the system should be smart enough to figure it out.
+ But right.
+ I think the first protocol where they really found it necessary to implement something
+ like this was with bundle protocol.
+ I'll tell you shortly for what circumstances.
+ I guess I should go into what is DTN or delay tolerant networking.
+ When we're going into environments where we have very long delays, like we go to places
+ like Mars or Jupiter, we have many minutes or hours of transmission delay.
+ And also, orbital dynamics is a thing, and sometimes things disappear behind an object.
+ So you have intermittent connections.
+ And bundle protocol is sort of a framework for also dealing with intermittent connections,
+ and it basically introduces the concept of custody transfers, passive transmit.
+ I'll explain it here on this funny little graphic.
+ This is supposed to be a lunar rover or something, and here a lunar orbiter.
+ And you can easily imagine a lot of the time something, an object on the back of the moon,
+ doesn't actually get reached by the Earth ground station.
+ So you want to go through a relay of some kind.
+ So how I've drawn it.
+ You can basically have a direct connection link availability all the way, but it can
+ be that the orbiter also gets lost behind the object, and then you need to send stuff
+ first to the orbiter.
+ It needs to hang on to it, take over custody, and then it comes back around, and then it
+ can send stuff back.
+ Right.
+ And apparently these situations have a tendency to get a bit complicated, so they've actually
+ designed a routing protocol to deal with these situations.
+ There's actually also some terrestrial uses for bundle protocol.
+ Some of them pretty cool.
+ For example, when you have distributed sensors where there's not a lot of internet connection,
+ and you fly a drone overhead to collect the data with a data mule, also a place you can
+ use it.
+ I heard it's also been used for bus systems where the city buses pass each other all the
+ time.
+ So if you can transmit to the buses directly, then they can just exchange information between
+ each other.
+ For example, about schedule changes or emergency info of some kind.
+ I've heard that's what it's been used for.
+ There's also routing for these sorts of scenarios.
+ Also interesting stuff, epidemic routing is one way of doing it, which is just send everything
+ to everyone, and you see where it turns up.
+ But that's not for our use case here, where we still want to be pretty bandwidth efficient.
+ And the protocol that was developed to solve that was contact graph routing.
+ So now I'm going to explain contact graph routing in a slide.
+ I'm going to explain this little diagram over here.
+ So we have again a situation, ground station, a relay satellite, and the rover.
+ And here these little blocks, if you can see them, are supposed to be contacts.
+ Let's say we have a contact of one hour between the rover and the satellite with 100 kilobits
+ per second.
+ And later the satellite has a contact home to the ground station, also one hour 500 kilobits
+ per second.
+ Just some numbers.
+ That's called a contact plan.
+ You have to do it, even if you have line of sight between crafts, you still need to plan
+ out where is it facing, when are which crafts supposed to have a link.
+ This you know pretty much beforehand, unless something goes wrong.
+ So you have this contact plan and you turn this into a contact graph.
+ The contact graph is below.
+ Basically this thing here is connected into...
+ Well, you want to get something from the rover to the ground station.
+ So the rover is sort of a source node.
+ And every contact is also turned into a node and they are connected if something from one
+ contact can be transmitted to the next contact.
+ Like here, this edge means the satellite is holding on to the data and then transmitted
+ on.
+ And then there's basically, you run algorithms of path finding basically.
+ Do I have a file of a certain size?
+ Can I fit this through this graph?
+ You have to remember every contact has a limited data amount it can put through.
+ So that's contact graph routing in a nutshell, I guess.
+ Another thing to remember is contact graph routing needs to keep track of what data is
+ it sent where.
+ For example, if the rover has sent enough data to basically fill this contact entirely,
+ okay, it needs to remember, okay, this node is now out of the equation, no more space
+ on that.
+ And then if available, you have to choose another route.
+ But when we have multiple relays, multiple crafts available, then this becomes more complicated.
+ Then you need a proper algorithm for it.
+ You can at least not easily hard code it.
+ Yeah, and I guess to loop back around why I'm talking to you about this.
+ This was actually sort of stuff I found really interesting for research, because there's
+ -- and I have described it, there's a lot of things you can improve still.
+ One of it is, for example, model of fragmentation, which is if you have a data unit that is too
+ big to fit through a specific contact on a certain path, but you have still room, okay,
+ you can send a fragment, okay, this should be squeezed through.
+ Then the rest can be go through some other contact, maybe with a more expensive route.
+ This was actually implemented by someone already.
+ Or at least there's been a standard recommendation.
+ Unfortunately, I don't really know if these algorithms are in use right now in deep space.
+ It's a bit difficult to get the exact information on that.
+ At least I haven't found it.
+ But there's been work on this bundle fragmentation thing.
+ Another interesting topic for me is congestion control.
+ For example, if you go back, if we just imagine here two rovers who are using the same relay
+ and don't know about each other, how are they supposed to know when this red contact has
+ been exhausted?
+ They don't really.
+ So there's also been some work done on that, how nodes share with each other some information
+ about how much they've already been queued, so other nodes know when to expect delays
+ and they can reroute other places.
+ Usually it's optimised by shortest delivery time.
+ And if you can expect, okay, I'm going to wait on this node for hours and days, then, okay,
+ I might want to use another slower route.
+ That's sort of routing questions that arise.
+ And otherwise, you know, right now I think the most you can realistically apply this
+ is with the master rovers, curiosity and what's the other big one?
+ Opportunity, thanks.
+ And there's certainly orbiters overhead who could serve this function.
+ I think they already do it in some fashion like this, though I'm not sure if they use
+ the protocol.
+ But what if you have, I don't know, ten times the rover, five times the relays, multiple
+ hops?
+ I think it's I feel like this isn't figured out.
+ And I would be interested in doing it.
+ And this is where I'm complaining that it's kind of difficult.
+ So when you're, you know, come from the internet world, you expect, okay, these sort of standards,
+ surely there's reference implementation that I can just plug together somehow and run simulations.
+ Well, it's still tough.
+ There's not at least I didn't find so much.
+ And I found a implementation in a network simulator, NS3.
+ For bundle protocol, there is actually an implementation published by NASA.
+ But for some of the papers I've been looking at, I should mention Scott Burley and Sangeeta
+ Dara, which have been writing the papers about this stuff that I've been referring to.
+ Yeah, I've asked for the simulators, but they haven't sent it to me yet.
+ But maybe they will, or maybe they won't.
+ Sometimes there's weird export restrictions on space code.
+ And apparently NASA publishes a lot of code.
+ But a lot of code is, hey, we'll send it only to you if you're an American citizen.
+ Okay, I guess.
+ Not sure if that's a real security achievement.
+ But some stuff is difficult to guess.
+ But I've been dreaming up how would I want this simulation research to be conducted,
+ what would be really cool.
+ Then I think some sort of modular framework like this, where, for example, you have, I
+ guess what you would need is orbit simulations, link simulations, and node simulations.
+ In my head, that makes a lot of sense.
+ So you have one part, the trajectories of the crafts that you're trying to build a network
+ with, because that, of course, informs what kind of networks make sense.
+ Then you need to determine, okay, what's line of sight going to be if you're sending stuff
+ through the atmosphere?
+ Maybe there's a changing interference depending on what angle you send stuff.
+ So that's the other part of the simulation.
+ Then you need some sort of emulation of the network that's running on the node.
+ So that's what I would want.
+ And then you just combine it in some sort of mission compose.yaml.
+ But it doesn't exist yet.
+ So maybe I have time to write it.
+ And thanks for coming to my talk.
+ Some cool people I found, C3 space center, Libra space foundation.
+ They also try to do some open source space stuff.
+ And yeah.
+ Thanks for listening.
+ I'll be by the side for questions.
+ Thank you very much for your presentation.
+ So we're pretty much spot on for time.
+ So maybe the most important information would then be where can people find you to talk
+ to you about.
+ Oh, right.
+ I guess I'll hang out by the stage for a while and I'll be at the WTF village for a while.
+ Very good.
+ So unfortunately no time for questions since we're running a tight schedule here.
+ But let's thank again our speaker, Jaschop, for his nice presentation.
+ Thank you.
+ Thank you.
+ (music)

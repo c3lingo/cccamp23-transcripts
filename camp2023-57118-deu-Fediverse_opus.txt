@@ -1,0 +1,418 @@
+ [Musik]
+ Willkommen zurück auf der Bühne von "Digitalcourage".
+ Hier fängt jetzt der nächste Vortrag an.
+ Findet alle bitte schnell einen Platz.
+ Der Vortrag ist auf Deutsch.
+ Es gibt englische Simultanübersetzung.
+ Wenn ihr, die könnt ihr im Stream hören.
+ Oder wenn ihr im Raum seid, könnt ihr ein IR-Gerät erhalten, um das zu hören.
+ Der Vortrag wird auf Deutsch, aber es gibt englische Translations.
+ Ihr könnt ein Gerät erhalten, um die englische Translation zu hören.
+ Mit diesem Vortrag herzlich den Stadion "Pardeloon" willkommen.
+ Und Lena für die musikalische Unterstützung.
+ [Applaus]
+ Und dann viel Spaß mit den kleinen Firmen im Verdivers.
+ Ach, kalt in diesen Zelten.
+ Friert ihr auch den ganzen Tag schon so?
+ [Lachen]
+ Es ist ein seltsamer Titel.
+ Dieser Vortrag, ich hoffe, wie ich es sehe, von den Stuhlreihen her hat er nicht so viele Leute abgeschrieben.
+ Wir sollten vielleicht einmal erklären, dieser Titel kommt aus einem Fanny-Fan-Dannen-Lied.
+ Und dieses Mikrofon ist manchmal aus, aber dann stottert es halt, ist egal.
+ [Lachen]
+ Ah, danke schön.
+ Und jetzt in diesem Vortrag einmal klarzumachen, das ist natürlich leicht provokativ genannt,
+ weil wir sind ja alle ganz liebe Menschen und keiner von uns braucht Geld zum Leben.
+ Und eigentlich möchten wir den Menschen Glück und Seligkeit bringen.
+ Und ich habe das mit der Glück und Seligkeit schon ganz viele Jahre ausprobiert
+ und bin dabei auf ganz erstaunliche Ergebnisse gekommen.
+ Und habe mir dankenswerterweise unterstützenden musikalischen Support geholt von Lena Simon.
+ Dankeschön auch, liebe Lena.
+ [Applaus]
+ Und für die Leute im Stream, die endlich wissen wollen, wie eigentlich der Titel dieses Vortrags ist,
+ von diesem Fanny-Fan-Dannen-Lied, geht es los mit...
+ [Musik]
+ Okay, ich verspreche nicht mehr mitzusingen.
+ [Applaus]
+ Ich fange mal an, damals im Krieg.
+ Krieg war die Zeit, als wir entdeckten, dass man mit Computer nicht nur Raub kopieren kann,
+ sondern dass man ein Datenklo an die Telefonleitung anschrauben kann, was damals unglaublich verboten war.
+ Also ich sehe schon die älteren Herrschaften nicken und erinnern sich noch, es war strafbar.
+ Man wäre getötet worden, wenn man damit erwischt worden wäre.
+ Deswegen haben alle Leute heute so komische Nicknames.
+ Weil man hat sich natürlich nicht mit einem realen Namen in ein System eingetragen,
+ weil man hat sich strafbar gemacht und wollte nicht strafrechtlich verfolgt werden.
+ Deswegen haben alle heute komische Nicknames.
+ Das finde ich furchtbar, weil dann weiß man immer nicht, wer wer ist.
+ Dass das ein Typ namens Badelun sagt, ist natürlich besonders seltsam.
+ Ich habe aber nicht ein Nickname, der aus dieser Mailbox-Zeit damals kam,
+ sondern ich heiße es halt ein Künstlernname und tut mir leid, es ist mein realer Name.
+ Wir haben damals in den schönen End-79er-Jahren Mailbox-Systeme aufgebaut, also Kommunikation.
+ Also heute kennt ihr alle, man kriegt sich einen Account und ist im Internet.
+ Das war früher nicht so einfach. Wir haben Mailbox-Systeme aufgebaut.
+ Wir wollten Kommunikationssysteme in der Hand von den Menschen haben, die sie auch benutzen.
+ Wir wollten mitbestimmen, wir wollten es mit gestalten.
+ Ich selber habe damals einen Verein gegründet, FöBoot hieß der, mittlerweile ist das Digitalcourage.
+ Wir haben dort ein Mailbox-System aufgebaut und haben aber nicht so als Nerds und "geile Technik" mäßig das gemacht,
+ sondern so, was kann man darüber eigentlich politisch kommunizieren und über Verbraucherschutz erfahren
+ und so richtige Dinge halt machen und nicht nur wie so Amateurfunk,
+ "Ich habe eine Bandbreite von sowieso" da rüber schicken und haben da viel mit experimentiert.
+ Auch experimentiert, wie muss man sowas aufbauen.
+ Wir haben so verteilte Systeme gehabt, weil ich weiß nicht, die Älteren werden sich noch erinnern,
+ damals gab es so etwas wie eine Telefoneinheit, was heute ein Wort ist, wo man klingt super, Telefoneinheit,
+ aber eine Einheit, eine Telefoneinheit hatte nichts mit schönen Dingen zu tun,
+ sondern waren 23-Fenny im Zeitakt, die man bezahlen musste
+ und je weiter entfernt man anrief, desto schneller ratterte der Zähler
+ und man kenne einige Leute aus den Zeiten, deren gesamtes Vermögen, Haus, der Großmutter und sämtliches, der Post gehörte,
+ weil sie so viel im Netzen unterwegs waren.
+ Und wir haben jetzt verteilte Systeme aufgebaut, man konnte zum Ortstarif anrufen,
+ was am Anfang noch unendlich lange war, später dann einen 8-Minuten-Takt hatte.
+ Man hat dann dort in dem System seine ganzen Mail und News erledigt
+ und wenn man den Telefonhörer aufgelegt hat, so vier oder fünf oder achtmal am Tag oder einmal am Tag,
+ wurden dann mit verschiedenen Systemen diese Nachrichten ausgetauscht.
+ Ihr seid alle hier, weil ihr schon mal was vom Fediverse gehört habt und denkt,
+ was erzählt der da, das ist doch voll super, das ist doch federiert.
+ Aber das war damals noch nicht das Fediverse, das waren Mailbox-Netze, es gab verschiedene Protokolle,
+ Fido ist ein sehr bekanntes System, was wir damals nicht genommen haben, weil es keine Unterscheidung
+ zwischen Privatnachrichten und öffentlichen Nachrichten gab.
+ Wir haben im Cerberus-System gearbeitet und Protokolle mitentwickelt, Zconnect-Protokoll.
+ Und als es dann so richtig losging mit Internet und Leute dann diese textbasierten Mailboxen nicht so toll fand,
+ mehr so toll fand und cool fand, da war es dann halt so, bei allem, was ich so historisch erzähle,
+ das ist meine Sichtweise, das muss nicht stimmen unbedingt, was ich erzähle mit Historie,
+ aber es ist meine Sichtweise, die anderen Sichtweisen etwas hinzufügt, aber aus meinen Augen war es so,
+ Herr Mohn, der Chef von Bertelsmann, also dem das alles gehörte, hat so einen seiner Söhne
+ ein paar Milliarden gegeben, gesagt, mach mal Netz, das scheint jetzt cool zu sein, dann hat der AOL gekauft,
+ dann haben die in jedem Briefkasten erstmal eine Diskette, später CDs gesteckt und dann haben die Internet gemacht
+ und damit alles andere platt gemacht. Alles, was wir aufgebaut hatten, Netze, politische Vernetzungen,
+ die darüber liefen, wirklich sinnvolle Sachen, waren damit erstmal tot. Das Internet hat Kommunikation beerdigt.
+ Das Internet hat aus einer Kommunikationsgesellschaft eine Informationsgesellschaft gebaut.
+ Wir waren wieder an dem Status, dass einer sendet, alle anderen lesen.
+ So, ein bisschen aufgebrochen, weil man konnte einfacher selber Sender werden, aber das Prinzip,
+ da ist ein Nachrichtenfluss, man muss dabei sein, mit drauf auf diesem Fluss schwimmen,
+ bei Dingen, die einen interessieren, sich mal gucken, wo man weitere Informationen herbekommt,
+ also wirklich kommunizieren, war mit dem Internet in dem Sinne nicht möglich.
+ Wir hatten damals Mailboxen aufgebaut und ich habe auch damals schon erkannt, damit sowas funktionieren kann.
+ Ich bin sehr, da ich im Englischen nicht so gut bin, deshalb brauche ich immer Dolmetscherinnen und Dolmetscher,
+ die es in Englisch übersetzen, weil ich selber darin schlecht bin, ich rede gern auf Deutsch,
+ habe ich mich vor allen Dingen auf Deutsch, Österreich und die Schweiz eher konzentriert, vor allen Dingen Deutschland,
+ habe mir dann so überlegt, was muss man eigentlich machen, damit man stabile Netze aufbauen kann,
+ damals noch mit Mailboxnetzen.
+ Und wir haben in unserem Verein auch eine Sache anders gemacht als alle anderen,
+ weil Mailboxen sonst waren von Leuten, die technisch begeistert waren, aufgebaut,
+ die da Spaß dran hatten und gerne die privaten Nachrichten ihrer Userinnen lesen wollten,
+ weil es ein kleiner Seitenhieb, Entschuldigung, wir sagten, nein, wir machen das als eine richtige Dienstleistung.
+ Und das ist auch so, das System soll allen gehören, da wir aber nicht so anarcho-synäkalistisch drauf waren,
+ haben wir gesagt, wir gründen eine AG, eine Aktiengesellschaft, natürlich Arbeitsgemeinschaft, weil Aktiengesellschaft.
+ Aber ich fand die Idee toll, viele Leute legen Geld zusammen, damit das System betrieben werden kann
+ und die Leute, die das dann pflegen, sind die Systemputzfrauen.
+ Also bei uns gab es auch nicht das Wort Systemoperator, sondern wir waren die Systemputzfrauen.
+ Und wir haben auch in die Software etwas eingebaut, nämlich ein Verwaltungsmobil,
+ wir haben es mit den Programmierern dann zusammengetan, weil wir viele Ideen hatten,
+ wir fanden es klasse, haben wir eine Firma gemacht, dann haben wir das Handbuch geschrieben für die neue Version
+ und immer wenn wir Features haben wollten, die die Programmierer keinen Bock drauf hatten,
+ zum Beispiel ein Modul, mit dem man Geld einnehmen konnte, habe ich gedacht, das müsste jetzt schreiben,
+ steht schon im Handbuch. Also man kann auch Programmierer gut hacken.
+ Und weil wir damals schon die Idee hatten, so ein System muss eigentlich, wenn man das betreibt,
+ es ist viel Arbeit, Pflege, es gab noch die Fragen zu klären, wie es eigentlich mit den Inhalten ist,
+ wer finanziert dann Inhalte, wie macht man das, dass man Moderatorinnen und Moderatoren auch bezahlen kann,
+ die da stundenlang dran sitzen und auch versuchen Kommunikationsflüsse aufrechtzuhalten.
+ Und auch damals dachte ich schon, man müsste Folgendes tun.
+ Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+ Vielen Dank, Lena Simon.
+ Tatsächlich haben wir mit der Bionic Mailbox in Bielefeld im Monat 4000 Mark eingenommen.
+ Also 2000 Euro. Wir haben nämlich 5 Euro im Monat genommen und es war auch super,
+ die Leute haben es gern bezahlt, weil es war toll, Support zu haben, wir hatten Leute, die waren am Telefon,
+ die haben denen geholfen, Sachen einzurichten und niemand musste nett zu uns sein,
+ sondern er hat einfach seine 5 Mark bezahlt und damit war alles drin.
+ Man musste nicht um ein höheres Prio betteln oder sonst irgendwas, sondern die konnten uns auch beschimpfen
+ und waren trotzdem einfach Kunden und wir haben nicht in ihre Privatnachrichten geschaut,
+ weil wir auch damals den anderen Systembetreibern schon erzählt haben, das dürft ihr nicht verboten, das geht gar nicht.
+ Und wir haben dann auch PGP eingeführt, weil wir eine Ende-zu-Ende-Verschlüsselung haben wollten
+ und haben PGP in Deutschland bekannt gemacht darüber.
+ Und das war dann aber mit dem Internet plötzlich alles kaputt.
+ Weil auch, und jetzt muss ich ein bisschen schimpfen, wir haben mit der Zerberos Mailbox Software
+ den Leuten die Möglichkeit gegeben, das, was sie da als Dienstleistung machen, auch finanziell umzusetzen.
+ Aber sie waren zu feige, sie hatten Angst Geld zu nehmen, sonst gehen die ja weg.
+ Sonst habe ich ja keine Leute mehr, die bei mir was machen, was natürlich Quatsch ist.
+ Der beste Beweis war unsere Mailbox, wir hatten ganz viele, wir hatten auch nicht mal Zeit Werbung dafür zu machen,
+ weil wir uns immer auch ums Gesamtnetz gekümmert haben.
+ Das heißt diese Angst davor, Geld zu verlangen oder seinen eigenen Wert, wenn man sowas betreibt, gar nicht zu erkennen.
+ Das fanden wir halt furchtbar, weil es führte dazu, dass die Systeme so instabil waren,
+ dass sie von den paar Milliarden einfach mal an die Wand gefegt werden konnten.
+ So, und jetzt sind wir beim Fediverse.
+ So, wir haben, ah ich mache noch einen Zwischenschritt.
+ Vor wann war das mit Social? 2011 haben wir Social Swarm gegründet als so eine Idee,
+ weil es gab an ganz vielen Stellen Programmierer, die irgendwas mit Kommunikation, Chat und besser und schöner und andere Protokolle aufgebaut haben.
+ Und es ist schon so, dass wir dann ziemlich gescheitert sind damit, weil es hat nicht richtig funktioniert.
+ Und dann haben wir zwar das Wort, das steht glaube ich immer noch bei uns in der Mailbox, auf dem Web-Server,
+ aber wir haben einfach mal gesagt, ok, da können wir jetzt nichts machen. Man muss manchmal auch Kriege verlieren können.
+ Und plötzlich entdecken wir, es gibt Activitypub, ein Protokoll.
+ Einer unserer Ehrenamtliche sagte, seid ihr eigentlich bescheuert, warum habt ihr da noch nicht einen Server?
+ Ich mache euch das mal, unser Christian, also wirklich ohne den, ich weiß nicht wo ich jetzt wäre und wahrscheinlich nicht auf dieser Bühne.
+ Und er sagte, ja finde ich cool, lass uns mal, erklär mir mal, da habe ich mir das bisschen angeguckt,
+ dann war ich natürlich auch bei Chaos Social, übrigens vielen Dank an die, weil das ist eine super Fachschule gewesen, jetzt hat sie, also ganz toll.
+ Aber dann haben wir unseren eigenen Server gemacht, also digitalcourage.social und ich sagte Christian, gut wir machen es aber so, wir nehmen Geld.
+ Doch, wir machen das, wir machen das wie damals, wir sagen, wir sorgen dafür, dass das Server gut läuft, ihr zahlt ein Euro im Monat,
+ habe ich einfach mal so gesagt und wir werden uns zukünftig den nicht mehr monatlich einziehen, sondern jährlich,
+ aber das stellen wir gerade um, das war dann doch zu engagiert.
+ Aber wir machen das und wir hatten innerhalb kürzester Zeit 1000 Leute, sprich 1000 Euro im Monat, das heißt Christian hat jetzt einen Minijob,
+ also der hat noch einen anderen richtigen Job, aber der hat so viel geackert, dass ich dachte,
+ nee, also irgendwie, da muss schon auch Geld ran gehen, das ist auch weiter der Mensch, der alles irgendwie mitkriegt und daran arbeitet.
+ Und dann habe ich mich weiter mit dem ActivityPub-Protokoll beschäftigt, ich habe es in Diepel als PDF durchgeschickt, um es besser lesen zu können, also auf Deutsch dann.
+ Ja, es ist schon schön, dass so was geht, das war ein Tusch oder wie? Nein? Okay.
+ Dann habe ich halt überlegt, es gab ja schon so Ideen, wie viele Leute dürfen auf so einem Server sein, also auf einem,
+ und ich hatte heute jemand, der sagte, ja maximal 100 Leute, damit man es noch bewältigen kann, aber ernsthaft, will ich,
+ also wenn ich Teilnehmerin oder Teilnehmer in so einem Server bin, will ich, dass mein Betreiber alle Leute so gut kennt,
+ ich habe dann weiter überlegt, wie geht das, also auch wenn es ein Euro kostet, ich will ja, dass da Familien sich ernähren können darüber, dass sie das betreiben.
+ Dann kam ich auf so eine Summe von 50.000 Teilnehmerinnen und Teilnehmern, einfach mal so gesagt, weil ich weiß von meiner Erfahrung,
+ ich habe viele Demos-Veranstaltungen, mit 50.000 Leuten, da kommt man noch einigermaßen gut klar.
+ Einfach mal eine Größe aus meiner Lebenserfahrung heraus gesagt, und mit 50.000 Euro im Monat kann man schon ein paar Leute finanzieren,
+ also weniger als man denkt, weil da kommen noch andere Kosten, Arbeitgeberbrutto ist was anderes als Arbeitgebernetto und so weiter, Arbeitnehmernetto,
+ und habe jetzt einfach mal die Summe in den Raum gesteckt und auch mir gedacht, bevor man jetzt wieder diese ganzen Technik-Nerds
+ und diese lieben Menschen wieder Netze aufbauen, die auf reinem "ha, wir haben uns alle lieb" aufgebaut sind,
+ und dann vom nächsten Herrn Mohn oder Facebook, ich kriege das Wort "Meter" für den Konzern, ich auf über die Lippen,
+ das ist so eine Unverschämtheit, sich Meter zu nennen, sorry, also dass Facebook dann auch versucht, da schon wieder das zu übernehmen,
+ das muss verhindert werden, und das verhindern wir nicht durch eine Revolution und ein anarcho-synäkalistisches System,
+ an dem alle Deutschen tapferer mitmachen, sondern das muss einfach, da wir noch immer in einer Welt leben, in der wir bestimmte Rechnungsgrößen und Geld haben,
+ muss das einfach geschäftsmäßig aufgesetzt werden.
+ Geschäftsmäßig bedeutet uns noch nicht mal, dass da Geld fließen muss, in dem Moment, wo ich auch Liebe dafür bekomme,
+ dass ich etwas anbiete und tue, ist das auch ein Geschäft. Das Wort "kommerziell" gibt es im deutschen Rechtswesen übrigens nicht,
+ das möchte ich einmal zuvor fügen. Aber tatsächlich ist es natürlich toll, ich habe einen Server, ich kann den bezahlen,
+ suche mir natürlich einen coolen, meinetwegen Ubisoft oder so jemand aus, und hab die dort, und kann Leute bezahlen, die was machen,
+ kann auch mal was programmieren lassen, ohne Bitte-Bitte sagen zu müssen. Nicht, dass ich nicht auch Bitte-Bitte sage, aber ich kann jemand aus sagen,
+ du, deine Arbeit ist mir auch so viel wert, ich bezahle dich auch dafür. Und ich bin plötzlich in einer Situation,
+ nicht nur meine Feinde bezahlen zu müssen, was wir ja jeden Tag alle machen, sondern auch meine Freundinnen und Freunde,
+ die ich normalerweise nicht bezahlt habe, weil wir alle noch diese Idee aus den 60er Jahren hatten, dass wir eine Welt auch anders aufbauen können.
+ War damals alles richtig, war super, hat uns ganz viele neue Gedanken gebracht und ganz andere Lebensansätze bis heute,
+ dass wir solche Camps machen könnten. Stellt euch mal vor, das hätten wir vor 50 Jahren gemacht, sie hätten uns hier mit Panzern niedergewalzt.
+ Also, das muss man doch einfach sehen, aber die Zeiten sind doch andere. Allein, als ich Banker war in den 80er Jahren,
+ ich hatte kein Geld gebraucht, gar keins. Ich hab halt hier und da gewohnt, ab und zu hat mir jemand was zu essen gegeben,
+ und irgendwie hatte ich trotzdem immer Zigaretten, ich rauch nicht mehr, und das ist heute nicht mehr möglich,
+ allein weil ich ein Handy haben muss. Ohne Handy kann man, also Smartphone kann man ja quasi nicht leben, also nicht wirklich vernünftig,
+ es geht auch, aber das ist dann ein anderes Lebensmodell. Ich war Musiker und Filmer, wenn ich damals ein iPhone gekauft hätte,
+ aber allein die regelmäßigen Kosten, ich wäre heute weltberühmt, so bin ich halt nur, wie auf dieser Bühne, aber das gigantisch,
+ das sind tolle Möglichkeiten, wir brauchen heute und können das auch und müssen es auch anders mit Geld arbeiten,
+ und insofern denke ich, ist die Zeit reif dafür, diese Idee von alles müssen wir kostenlos an coole Leute geben, anders laufen,
+ wir müssen coole Leute finanzieren. Jede freie Softwarebude, jedes freie Softwareprojekt muss genügend Leute haben,
+ die das betreiben, und deswegen, liebe Lena.
+ Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+ Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+ Ok, das Versprechen, ich singe nicht mit, mehr habe ich jetzt gebrochen.
+ Das heißt, ich sitze hier, um einfach zu sagen, macht euch Gedanken darüber, das zu finanzieren, lasst Musk und Suckerman,
+ oder wie das heißt, nicht auch noch das kaputt machen, weil diese Kommunikationsform von einer Instanz, die irgendwo steht,
+ und alle gehen da drauf auf ein zentralistisches System. Als Admin ein Traum, weil ich habe alles im Griff, zumindest scheinbar, ist falsch.
+ Damit machen wir Gesellschaften komplett kaputt. Und zwar einfach nur, dass ich hier ein Zentralsystem habe, auf das alle an den Händen gehen.
+ Ich brauche noch nicht mal Algorithmen, ich brauche noch nicht mal Nazis hochrenken, damit wir Faschismus kriegen, sondern das ist Faschismus.
+ Da wirkt Technik in die Gesellschaft. Und wenn wir Firmen aufbauen, wenn wir Verantwortung übernehmen, wenn wir als Techniker uns Geschäftsführer suchen,
+ die unsere Chefs werden, weil wir zu blöd sind, Geschäfte zu machen, so ist es doch. Also wer scheitert alles daran, Business zu machen?
+ Ich habe mir für Digitalcourage vor zwölf Jahren, glaube ich, einen Geschäftsführer gesucht. Hey, das hat richtig gepoppt, der hat richtig was gerissen.
+ Und das ist ein Herzensprojekt und hat dabei noch das Projekt "Freie Softwareprojekt CWCAM". Daraus auch noch eine eigene Firma gebaut, mit der ganz viele NGOs mittlerweile arbeiten können.
+ Also ich glaube, dass wir wirklich lernen müssen, zu erkennen, was wir als Nerds oder als Techniker oder als ... Wie viele Leute studieren Sozialwissenschaften?
+ Alle denken, die werden nutzlos. Nein, die werden gebraucht. Die können wir echt gebrauchen und die können wir Jobs geben, wir können es finanzieren, wir können Steuern zahlen,
+ wir können mit viel mehr Selbstbewusstsein noch reingehen. Und deshalb ist es mir so wichtig, in die Köpfe reinzukriegen.
+ Baut kleine geile Genossenschaften auf! Baut kleine geile Genossenschaften auf! Baut kleine geile Genossenschaften auf!
+ Genau. So ist das, wenn man intelligente Menschen an Musikinstrumenten lästern lässt, dann fangen sie auch inhaltlich einem rein zu regieren.
+ Aber, vielen Dank, liebe Lena. Wie lange kennen wir uns jetzt? Okay. Ganz genau, es muss nicht immer eine Firma sein, weil welche Form wir wählen, ist egal.
+ Vielleicht ist für eine bestimmte Gruppe, eine bestimmte Betriebsart, eine Genossenschaft eine gute Idee. Also, ist anders als ein Verein, hat nochmal eine Kontrollinstanz drüber.
+ Man kann auch als Verein arbeiten. Digitalcourage ist ein Verein. Aber man könnte es auch als Firma machen und klare hierarchische Strukturen oder flache Hierarchien.
+ Es gibt viele Bücher darüber, wie man Firmen aufbaut. Aber auch wichtig ist zu erkennen, das ist mir ein bisschen aufgefallen, wenn ich mir so in die freie Software-Szene reingucke,
+ dass ganz viele, die gar nicht wissen, wie man eine Firma aufbaut, es tun. Eigentlich wollen sie programmieren, aber jetzt sind sie plötzlich dabei und fragen 20 Leute, dass sie ihre Stundenzettel abgeben müssen.
+ Das kann man auch andere Leute machen lassen, die man eben einstellt, die sich darum kümmern oder seinen Steuerberater zu bezahlen und Ähnliches.
+ Und deshalb ist es mir gerade auf diesem wunderbaren Chaos-Communication-Camp, wo wir so viel über die vielen, vielen Jahre in dieser Chaos-Computer-Club entsteht,
+ so viel zusammengekommen sind und eigentlich immer wieder versucht haben, Geld als Nebensache, notwendiges Übel, das ist ein bisschen schwierig bei 380 Euro Eintrittspreis, das so zu sehen.
+ Aber immer wieder diese Angst vor dem Geld, die Angst vor der Beschäftigung damit, wo man Angst hat, das Wort Macht auszusprechen,
+ wo man sich diesen ganzen Verantwortlichkeiten nicht stellt, weil es so einfach ist, so zu sagen, ich programmiere nur oder ich bin nur ein Nerd, ich will nur spielen, ich will Spaß am Gerät haben,
+ Discordia müssen auseinanderhalten, alles tolle Sachen sind super, bringen einen weiter, aber zum Weiterbringen gehört auch, sich weiter zu bewegen.
+ Und ich glaube, wir müssen in die Richtung hingehen, nämlich...
+ Und jetzt alle!
+ Baut kleine, geile Firmen auf!
+ Okay.
+ Eigentlich sollte dieser Talk noch länger gehen, aber eigentlich habe ich alles gesagt. Im Grunde habe ich jetzt Gehirnwäsche gemacht, trage das weiter, aber ich denke mal, da ich das, also was soll ich da groß vortragen, mir ging es darum, diese Message rauszubringen.
+ Natürlich haben wir schon ganz viel drüber überlegt, nachgedacht, wir waren jetzt gerade auf dem Fedicamp, das ist vor drei Wochen, glaube ich, gewesen in noch schlimmerer Wallach-Hei als hier, in der Nähe von Gorleben,
+ und eine Woche im Void mit 50 Leuten war toll, viel drüber nachgedacht, übrigens auch Leute dabei, die das ganz anders sehen, also die sagen, nein, auf gar keinen Fall, das macht alles kaputt, wir wollen da klein bleiben und es muss skalieren und so.
+ Also es ist nicht so, es kann nicht die einzige Meinung sein, die gilt, was ich jetzt hier sage oder reinbringen will, sondern es ist auch wichtig, sich damit zu beschäftigen, dass andere vielleicht ganz andere Vorstellungen haben.
+ Es kann sein, dass manche eben sagen, nee, wir haben da so eine Gruppe, wir machen das so, und das läuft halt so mit bei, und das ist auch gut und richtig, und das Schöne ist, im Fediverse kann das funktionieren.
+ So, nebeneinander, verschiedene Konzepte, der eine macht so, der andere macht so, was man verhindern sollte ist allzu große Server, also mastodon.social ist zu groß.
+ So, was können wir jetzt da machen?
+ Baut kleine geile Server auf, baut kleine geile Server auf, baut kleine geile Server auf.
+ Danke.
+ Ja, wir sind ein gutes Team.
+ Hast du heute Abend schon was vor?
+ Okay, wir sind verheiratet, ich will das mal öffentlich machen.
+ Genau, ich würde mal sagen, wir gehen jetzt einfach schon in so eine Fragerunde rein und Ideenrunde, weil es geht nicht darum, dass ich sage, wo es weitergeht, sondern das ist eine Sache, die alle letztendlich für sich allein entscheiden oder mitdenken müssen.
+ Ich bin überhaupt nicht sicher, ob allein die Zahl 50.000, die ich im Raum gestellt habe, ist die sinnvoll.
+ Das kann ich nicht sagen. Nach meinem Gefühl und meinen Erfahrungen ja, also ich weiß, wie man ein bisschen Community hinbekommt und ich bin halt auch jemand, ich habe auch nicht den Anspruch, alle wirklich zu kennen.
+ Also die, die mich hier auf dem Camp angesprochen haben, kennen das, wo ich dann als erste frage, okay, wer bist du?
+ Und ja, wir haben schon vor zwei Jahren, vor vier Jahren, vor 16 Jahren und 18 Jahren, oder schlimmste Erlebnis, Demo in Berlin, steht jemand vor mir, sagt, hallo Padelun.
+ So, ich völlig in Wahn organisieren, da die Polizei da das, komm, hilf mir mal, wer bist du?
+ Ja, dein Praktikant.
+ Aber trotzdem, so, Communities organisieren, ja danke für den Lacher, das war gut. Es ist halt auch eine Sache, die man eben lernen muss und es gibt Leute, die studieren auch so was, wie sowas geht und die kann man entsprechend einbinden.
+ Aber nochmal, ich würde jetzt gerne einfach Beiträge aus dem Publikum haben, weil so wichtig, was ich sage, ist das nur sekundär.
+ Da ist ein Mikrofon. Danke.
+ Also meine Frage ist, wenn man Geld nimmt, dann begibt man sich in Konkurrenz mit den kommerziellen Marktteilnehmern.
+ Das heißt, da ist man im Wettbewerb, muss vielleicht mehr bieten.
+ Es kann natürlich sein, dass einige Idealisten dabei sind und sagen, ja, wir wollen das trotzdem noch unterstützen, aber es wird das Klima rauer, es wird auch schwieriger.
+ Und jetzt konkret, jetzt wenn wir über Mastodon reden, dann hat mir irgendwer gesagt, ja gut, bei Twitter brauche ich nichts zahlen.
+ Sagen wir nicht direkt, also die Leute, die meisten Leute merken nicht, dass sie zahlen.
+ Und wenn ich jetzt irgendwie bei Mastodon ein Konto aufmache und dort dann regelmäßig was zahlen soll, warum, wozu?
+ Also es ist dann schon auch ein Hindernis, wenn wir User von großen Plattformen wegkriegen wollen
+ und die steigern den Wert unseres Netzwerkes, weil das eben mit der Teilnehmerzahl hochgeht.
+ Das ist ein dünnes Eis.
+ Ja, ich finde das Eis gar nicht so dünn.
+ Also ich will ja nicht, dass die Leute so dumm bleiben, wie sie sind. Also natürlich ist kein Mensch dumm, aber jetzt mal oberflächlich gesprochen.
+ Also wer noch bei Twitter ist, ist Nazi. Sorry. Also das kann ich nicht anders sehen.
+ Also da sind einige meiner Freunde dabei und einige meiner besten Freunde sind Nazis, weil sie noch auf Twitter sind.
+ Sorry, das geht nicht. Wir wissen, dass diese Systeme die Gesellschaft zerstören und zum Faschismus bringen.
+ Das ist einfach in Studien bewiesen. Du siehst das. Du darfst sowas nicht so aufbauen.
+ Also deswegen bin ich so böse auch über Facebook, weil zu dem Zeitpunkt wussten wir schon, so darf man das nicht machen.
+ Es ist bewusst gegen die Gesellschaft gesetzt, nur um Kohle zu machen.
+ Und wer einfach sagt, ich bleibe aber bei Twitter, weil das kostet nicht, ist, ich nehme anderes Wort, ich sage nicht dumm, ist ein Idiot.
+ Ich erzähle auch, warum ich Idiot verwende, weil Idiot ist ein sehr, sehr schöner Begriff.
+ Das kannst du vielleicht besser erklären, weil ich weiß das von dir und du hast es studiert. Moment. Darf ich?
+ Oder mache ich das wieder alles falsch? Du hast ja ein Mikro.
+ Nein, das ist voll in Ordnung. Ich habe ja ein Mikro. Du brauchst mir keins reichen.
+ Das kommt von Ollen Griechen. Idiotos, altgriechisch, das ist ein Mensch, der eigentlich wählen gehen könnte.
+ Wir müssen bedenken, in Griechenland gab es ja auch viele, die nicht Teil der Demokratie waren.
+ Also Sklaven, Frauen, Kinder wie heute auch. Aber von denen, die Teil der Demokratie waren, die ordentlichen Männer mit Herkunft.
+ Wer von denen aber sein demokratisches Recht nicht genutzt hat, also nicht an der Demokratie, an der Politik teilgenommen hat, das war der Idiot.
+ Ein unpolitischer Mensch.
+ Deswegen bitte streicht, also das können wir hinterher noch schneiden, dumm raus, das sind Idioten.
+ Auf guter griechischer Basis, glaube ich, ist das eine schöne Beschimpfungsform. Die gefällt mir.
+ Weil du hast die Wahl, du kannst für ein Euro im Monat, den haben sogar Obdachlose.
+ Also als ich noch betteln war, hatte ich den ein Euro in unter acht Minuten. Mit Saxophon schneller.
+ Ich konnte nicht Saxophon spielen, aber das war ja okay. Andere Geschichte.
+ Also das ist möglich. Ich kann für ein Euro was Gutes und Vernünftiges und Richtiges tun.
+ Oder für null Euro und aller Datenabgabe und meine Gesellschaft an die Wand fahren, bei Twitter bleiben oder zu Twitter gehen.
+ Sorry, für mich ist die Entscheidung klar, wer das falsch macht, ist ein Idiot.
+ Ausnahmen bestätigen die Regel. Also sorry, ja, also ich bin bei Twitter noch. Also ich habe den Account noch nicht gekündigt.
+ Ich benutze, ich gehe da aber nicht mehr durch die Timeline, aber ich kann noch Idioten erreichen.
+ Nämlich die, die noch im Bundestag sind und einige Journalisten per DM. Dafür benutze ich noch Twitter, weil die immer noch nicht rüber gekommen sind.
+ Und weil ich die noch darüber erreichen kann. Saskia Esken, die ist ordentlich empfedivers. Die kann ich vernünftig erreichen.
+ Die ist keine Idiotin. Äh, kein Idiot. Weil Idiot gibt es nur in der männlichen Form, weil Frauen durften nicht wählen.
+ So, eine kurze Nachfrage noch und dann möchten wir andere.
+ Weil es geht gar nicht um den einen Euro, sondern um das mühsame Einrichten der Zahlung.
+ Das ist viel mehr ein Hindernis als ein Euro im Monat, sondern ein Kreditkarten.
+ Also meine E-Bahn ist de6548501610002100214002. Die kann ich da einmal eintippen und dann habe ich meinen Account.
+ Was ist daran mühsam, außer dass ich mir die merken kann, was andere nicht, aber das steht auf meiner EC-Karte drauf.
+ Das kann man eintippen. Sorry, PayPal ist auch nicht leichter. Und trotzdem bin ich entsetzt, wie viele Leute per PayPal in unserem Shop Sachen bestellen,
+ weil wir PayPal irgendwann nicht mehr ignorieren konnten. Ich hasse jeden, der per PayPal bezahlt. Ich halte die Leute für Idioten.
+ Und trotzdem machen wir es. Also da sind wir genauso inkonsequent wie andere. Na, fast so inkonsequent.
+ Aber das ist eine Ausrede. Klar, kostenlos klicken ist super, aber es funktioniert auch nicht, weil es gehört auch zum Kommunizieren, gehört Committen dazu.
+ Und diesen Lastschrift anzuklicken, das ist halt auch Commitment und führt dazu, dass Leute sorgfältiger kommunizieren.
+ Also aus unserem System hast du keine Hatepostings, keinen Scheiß, keine großen Trollereien und das ohne, dass wir das wegmoderieren müssen.
+ Also das hat auch noch eine, hilft dem eigenen Geist, sich selber so ernst zu nehmen, dass man auch vernünftig kommuniziert.
+ Und ich finde das vom Rahmenbau her, Element her, auch sehr, sehr wichtig, eben Geld zu nehmen. Und deshalb ist es auch so wichtig.
+ Baut kleine, geile Firmen auf, baut kleine, geile Firmen auf, baut kleine, geile Firmen auf.
+ Wunderbar. Also fühl dich bitte nicht abgebügelt. Also ich bringe das so raus, weil es halt über 40 Jahre erworbene Überzeugung auch bei mir ist.
+ So lange arbeite ich bereits am Fediverse, ohne das zu wissen, dass es das Fediverse war. Und auch Digitalcourage.
+ Wir haben heute einen Umsatz von 1,2 Millionen Euro im Jahr. Das sind 4000 Mitglieder, 6000 Dauerspenderinnen und Spender.
+ Damit machen wir das. Das war extrem mühsam, das zusammenzukriegen und aufzubauen. Ich sage nicht, dass es leicht ist.
+ Aber ein Fediverse-Server in Oldenburg aufzubauen, sich per Flyer-Alarm oder einer Druckerei im Ort ein paar Fallblätter zu machen und einfach mal alle Briefkästen zu stecken, ja?
+ Und damit mal loszulegen. Das kann man einfach mal machen und ausprobieren. Und nicht gleich "Mhm, hm, hm, schwierig".
+ Also ich will wirklich dazu aufrufen, mach das doch mal. Weil was soll schon schief gehen? Immerhin ist man dann beschäftigt und guckt nicht dumme Sendungen auf ProSieben.
+ Der Signal Angel, nein nicht Signal Angel, vielleicht sind da Fragen aus dem Netz. Ansonsten entscheidest du dann, wer ein Mikro kriegt.
+ Da kommt noch jetzt super Nachricht auf der Konferenz oder auf der Veranstaltung zu sagen, man soll Geld verdienen und keiner wirft einen Stein aus dem Publikum. Hat mich überrascht. Finde ich total toll.
+ Aber jetzt reden wir darüber, für einen Service viele kleine Firmen aufzubauen. Das, was ich kenne aus Deutschland, ist da die Welt der kommunalen Rechenzentren zum Beispiel.
+ Und das ist alles relativ gräuslich. Also wenn viele klein den ähnlichen Service bauen, dass man dann trotzdem noch was Geiles rausbekommt.
+ Ich sehe das Problem nicht. Also ich habe mit kommunalen Rechenzentren wenig zu tun. Außer, dass ich sie manchmal Leute kenne, die die hacken.
+ Und dass ich Leute kenne, die mir sagen, guck da als Big Brother Award-Vergeber nicht hin. Weil, wenn du was da siehst, wird dich erschrecken.
+ Aber, hey, baut kleine, geile Firmen auf. Du hast halt irgendwo deinen Server. Du hast eine Software, die irgendwo in einem Git liegt.
+ Wir müssen uns noch überlegen, wie wir die Entwicklung finanzieren. Weil die kleinen, geilen Firmen müssen dann auch den Entwicklern, also den muss man dann Geld aufzwingen.
+ Weil einige wollen ja unbedingt gratis arbeiten, bis sie eine Freundin gefunden haben. Und dann ist das Projekt zum Abschluss freigegeben.
+ Entschuldigung, ich bin manchmal ein bisschen sehr böse. Aber ich liebe provokante Sprechen und, ja, Entschuldigung.
+ Aber, danke. Ich sehe das, also ich will dieses Problem gar nicht sehen. Weil ich will noch verdammt nochmal, und ich bin hier auf einer der geilsten Veranstaltungen der Welt,
+ wo nur richtig tolle Leute sind. Ihr macht das natürlich richtig. Und ihr macht nicht irgendeinen Scheiß drauf.
+ Trotzdem wird es so sein, dass man plötzlich eine Firma hat, wo Mobbing passiert, wo man sich mitsteuern, wo man plötzlich einen Coach holt, um sich wieder zu sprechen.
+ Auch das Fee-Diverse wird nicht das nette kleine Netz bleiben für alle, sondern da wird das Gleiche passieren wie in anderen Netzen auch.
+ Nur können wir viel besser damit umgehen. Und wir können es gestalten. Und wir können auch mal was umprogrammieren.
+ Lena hat eben einen Vortrag hier auch gehalten über, wer zum Beispiel so eine Rätedemokratie, eine Möglichkeit ins Fee-Diverse einzuziehen.
+ Also nicht ins Gesamte, sondern ein Teil davon. Weil man kann es ja nicht kolonialisieren und will es auch nicht kolonialisieren.
+ Also wo man sich vereinbart, wie soll denn etwas funktionieren und wie kriegen wir auch die Teilnehmerinnen und Teilnehmerinnen, zumindest die, die mitbestimmen wollen und mitentscheiden wollen,
+ dazu. Wie gibt man Leuten wirklich auch die Macht über diese Themen? Wie macht man das?
+ Also Rätedemokratie ist überhaupt eine Möglichkeit. Im Moment ist das halt, auch bei Digitalcourage, eine Wildküheherrschaft.
+ Also ich habe noch vier weitere Moderatorinnen und so, die es immer scheiße finden, dass ich mich immer durchsetze.
+ Also das, und wir müssen uns irgendwann wirklich mal hinsetzen und überlegen, so Grundregeln, auch das müssen wir machen.
+ Natürlich muss man sich auch juristisch viel überlegen. Also man muss sich das Plattformgesetz anschauen und halt gucken, was bedeutet das für einen.
+ Weil jetzt Gesetze, die gemacht worden sind, sind zur Eindämmung von Großkonzernen gemacht worden. Passen wir da noch rein als viele kleinen Firmen?
+ Vielleicht ja. Also ich habe das auch nicht alles immer verfolgt und ich habe jetzt kürzlich eine Politikerin getroffen,
+ zusammen mit ihrer Tochter, die auch Politikwissenschaften studiert, aber auf keinen Fall in die Politik gehen will.
+ Und dann sagte ich zu ihr, doch, doch, bitte tu das. Wir brauchen intelligente, junge Menschen, die schon durch ihre Eltern gelernt haben,
+ wie scheiße es ist, in der Politik zu sein, die deswegen resilienter sind und diese ganzen Scheißgesetze, die die Eltern gemacht haben,
+ dann wieder zurück abwickeln. Und das kann auch Spaß machen. Es ist nervig, das ist ein Saustall in der Politik, aber wenn man einmal akzeptiert,
+ dass alle ihre Interessen zusammenbringen, auch wenn die scheiße sind, und man drüber redet und versucht, Entscheidungsebene zu finden,
+ dann stellt man plötzlich fest, so bescheuert ist das gar nicht. Also das sind halt Elemente, gerade wenn man lauter, wir lassen das jetzt mal mit dem singen,
+ wenn man lauter, kleine, geile Firmen aufbaut. Also auch lernt dazu. Das Schöne ist ja, also anders als im Gesundheitswesen,
+ wo die Intelligenz aus der Landschaft rausgezogen wird, nur noch in Krankenhauskonzerne und Ärzte eigentlich nur noch dafür da sind,
+ die Patientin nach Vorschrift in die Konzerne zu leiten, damit mehr Geld in die amerikanischen Rentenfonds fließt und damit Leute nicht mehr lernen müssen,
+ also dümmer werden in der Breite, es nur noch Auslieferungsfahrer gibt und Roboter, die was herstellen, dass wir damit wieder Intelligenz zurückkriegen,
+ weil du musst was lernen, um eine Firma zu betreiben, du musst was lernen, um Menschen anzuleiten, du kannst nicht dumm bleiben.
+ Und das ist etwas, was mich als Künstler, das ist mein Hintergrund, ich bin Künstler, halt super interessiert. Intelligenz, wo Leute wirklich wieder sagen,
+ ja stimmt, das ist cool, wenn man das so macht. Oder überhaupt auch, was wir hier machen, also mit Regeln neu zu lernen, also geile Regeln überall
+ und jeder versucht zu übertreten. Ich habe Parkplatzmanagement gemacht, bei allen möchte ich mich herzlich entschuldigen, aber das war richtig geil,
+ wie die Leute versucht haben, die Regeln zu übertreten und für mich war es richtig geil, zu versuchen, das zu verhindern.
+ Es hat viel Spaß gemacht, ich müsste mal drüber was schreiben und ich glaube, das ist auch das Tolle, dass wir Intelligenz in die Breite bekommen,
+ deshalb ist es auch wichtig, dass es nicht einen großen Server gibt, sondern ganz viele, überall in der Stadt, wo Leute auch ansprechbar sind.
+ Das heißt, in Bielefeld, wenn wir da Unsinn machen, können Leute zu uns kommen, uns besuchen auf einen Kaffee und uns sagen, was wir schlecht gemacht haben.
+ Also wir sind nicht mehr die dumme Hotline, sondern Menschen, Menschen kommunizieren miteinander und nutzen dabei Technik, geil.
+ So, Entschuldigung, ich habe mich gehen lassen.
+ Rüchter, das ist dann schon die letzte Frage?
+ Oh Scheiße, ich habe zu viel geredet.
+ Genau, ich hätte noch eine Frage, also wenn man Richtung Profitorendiertes Unternehmen geht, ist es ja dann oft schon schwierig, dann noch die Freiwilligen zu finden,
+ die was halt ehrenamtlich mitmachen oder Spenden einzusammeln, weil dann ist man ja wirklich dann komplett in der Profitwelt sozusagen
+ und mich wird es wundern, wie habt ihr das zum Beispiel bei Digital Courage so geschafft, dass ihr trotzdem noch sozusagen so Non-Profit irgendwie noch bleibt?
+ Ja, wir sind ehrlich. Das ist das Wichtige. Wir sagen also A) wir sind ehrlich zu uns, indem wir sagen, wir, die wir bezahlt werden,
+ wir sind dafür da, dass die Arbeit der Ehrenamtlichen nicht für die Füße ist.
+ Also versuchen, uns klarzumachen, wir machen Service für Leute, die ehrenamtlich arbeiten.
+ Und Ehrenamtlichen erzählen wir auch ganz klar, du kannst super gerne ehrenamtlich hier arbeiten, du musst aber verstehen, wir als dein Servicepersonal,
+ wir werden bezahlt, du musst damit klarkommen. Und du hast es sogar relativ schwer, gerade für Ehrenamtliche, so eine Gruppe, die bezahlt wird und da sind,
+ noch schwieriger reinzukommen. Das sagen wir aber den Leuten. Wir sagen dir, das ist halt schwer, es muss auch trotzdem passen.
+ Das kann auch manchmal ein halbes Jahr dauern, bis jemand wirklich angedockt hat.
+ Dazu kommt, dass wir natürlich auch jemand eingestellt haben, nur dafür da, Ehrenamtliche nicht zu vergessen.
+ Etwas, was wir ganz häufig, also ich habe das beim Waffelbacken oder irgendeinem anderen Vortrag schon gesagt,
+ wie toll das ist, was der CCC aufgebaut hat, mit eben, nahezu ausschließlich ehrenamtlichen Strukturen, geschafft hat, so ein Festival selbstfinanziert auf die Beine zu stellen.
+ Wie hammertoll das ist. Ich weiß aber auch, genau einmal applaudieren dem...
+ Ich weiß aber auch, wie viele Leute dabei verbrannt wurden und richtig kaputt gegangen sind. Und das ist etwas, was mir auch schon in der Punk-Bewegung wirklich wehgetan hat,
+ geniale Leute zu sehen, die einfach verrecken, weil sie halt lieb sind, weil sie voll reinarbeiten und überhaupt nicht schaffen, auf sich selber zu achten.
+ Und das versuchen wir dann halt hinzukriegen. Und ich sage auch so, eine Welt ohne ehrenamtliches Mitarbeiten wird nicht funktionieren.
+ Gerade da, wo es um Bildung, Kulturen, ähnliches geht, wird immer auch schwierig sein, das gehört auch mit dazu, Sachen voneinander abzuringen.
+ Also Narziss und Goldmund, wer das Buch gelesen hat, also wirklich um das wahre, eine schöne zu ringen und dafür dem sein Leben zu widmen, das wird nie außer...
+ Also das wird nie anders sein. Man kann mit Geld auch Sachen, Strukturen komplett tot kriegen, aber man muss damit vor allen Dingen ehrlich umgehen.
+ Ja Lena, ich möchte dir ganz herzlich danken für deine musikalische Darbietung. Vielen Dank für deine musikalische Darbietung, das war sehr schön.
+ Ich finde es nicht nur schön, dass du Musik gemacht hast, ich finde es auch schön, dass du einen Künstler mitgebracht hast, dass du deinen persönlichen Künstler mitgebracht hast.
+ Und ich möchte ihm jetzt gerne, wenn du erlaubst, noch kurz die Frage stellen, wenn du sagst, bau kleine Firmen auf.
+ Mit deiner Erfahrung, welche Geschäftsmodelle schweben dir davor, welche Art von Unterstützung, wie würdest du das konkret zum Beispiel aufbauen wollen mit deinem Erfahrungshintergrund,
+ dass das ein Geschäftsmodell ist, was man ohne das Wissen nachzuhaben vorher einfach mal überlegen kann. Wie siehst du das aus deiner Perspektive?
+ Also ich bin ein bisschen naiv, gerade was auch Firmen betrifft, aber ich habe verschiedene Sachen gelernt.
+ Keine Investoren, ganz wichtig, keine Assets, die man irgendwie versilbert und hofft viel Geld zu machen.
+ Mein Modell sind kleine Handwerksbetriebe, also eine kleine Gruppe, ordentlich arbeiten, ein Kredit bei der KfW vielleicht.
+ Vielleicht können wir mal gemeinsam, das war so auch so eine Idee beim Fee Diverse, mal einen Basis-Businessplan ausarbeiten, wo so drin steht, das müsste man hinkriegen,
+ so könnte das Wachstum sein, muss man schauen in der Stadt mit so und so vielen Leuten, passiert das, im flachen Land muss man das irgendwie so ansiedeln,
+ da so, dass man schon mal mit der KfW das vorbespricht und wenn jemand ankommt, sagt, ich möchte sowas aufbauen, dass sie es angucken, den Menschen angucken,
+ würde das hinkriegen, also eher diese Form Kreditwürdigkeit, also nicht nur Kreditfähigkeit und dann eben arbeiten und dann das machen und vor allen Dingen sich nicht irritieren lassen.
+ Es wird dann nicht so sein, dass ich dann als erstes mir mal den dicken Benz hinstelle, also Elektro natürlich, selbstverständlich Elektro,
+ sondern ich werde halt weiter mit dem Fahrrad fahren, also bescheiden bleiben, aber nicht zu bescheiden, das ist auch wichtig, man muss auch schon die Ansprüche hochsetzen,
+ ja, weil es geht ja auch darum, das Geld in Umlauf zu bringen, ja, ich muss ja auch Geld ausgeben können und nicht nur an Vermieter und für das Allernotwendigste,
+ sondern auch mal den Ferienhausbesitzer hier im schönen Mildenberg oder so und dafür genügend haben, also zu bescheiden sollte man nicht sein,
+ einen guten Plan haben, sich auch mit Leuten eben zusammentun, von denen man schon hofft, dass sie das ordentlich machen, was denn ihre Aufgaben sind,
+ also auch bei Digitalcourage war es halt auch so, es ist manchmal auch Glück, also dann trifft man plötzlich genau die Person, also Detlef Sieber als Geschäftsführer,
+ also der Typ hat Ingenieur gelernt, ist Nerd, war dann in der Accenture, also davor die Agentur daraus Accenture geworden,
+ wurde dann Bürgermeister in einer kleinen Gemeinde bei Wiesbaden, hat dann eine Damen-Volleyball-Bundesliga-Mannschaft gemanagt,
+ wo er alles gelernt hat, was man für Digitalcourage braucht, nämlich diese verschiedenen Ebenen von Idealbetrieb, Geschäftsbetrieb, Spektbetrieb und so weiter,
+ und sowas ist halt Glück und dann hatte er noch als ex-ehmaliger Bürgermeister, der freigestellt wurde, weil der andere Kandidat und so weiter,
+ hatte der noch ein Einkommen und konnte dafür recht günstig bei uns arbeiten, sowas ist Glück und ich sag mal, das Glück gehört den Tüchtigen,
+ das ist ein blöder Satz, der hat mich immer geärgert, aber es stimmt, also einfach was machen, wenn man so sieht, es ist völlig aussichtslos,
+ erstmal rausgehen und Leute anquatschen, wie hier auf dem Feld, hier läuft man, versucht von einem Ende zum anderen zu kommen und hat dabei,
+ also kann man einen Tag mit zubringen, vielleicht schafft man doch nicht bis drüber zu kommen, weil halt so viele Möglichkeiten und Gelegenheiten da sind,
+ und dann, was, wie, was, also wir sollen enden, ja genau, und was sollt ihr also tun und singt bitte alle mit.
+ mit. Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+ Und nochmal! Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+ Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+ Danke schön, danke liebe Lena Simon. Kauft ihr Buch "Digitale Mündigkeit", Standardwerk.
+ Wirklich, wirklich. Ich wollte ich jetzt geschrieben, ich bin echt voll neidisch. Aber so gut bin ich
+ nicht. Nee, Mitgliedswerbung mache ich jetzt keine. Ihr habt es ja begriffen. Das kann nur
+ funktionieren mit Mitgliedsbeiträgen und Spenden. Aber das habe ich ja am Anfang schon erzählt.
+ Alles klar, dann vielen Dank für euren Vortrag und dann machen wir hier mal Platz für den letzten
+ Beitrag heute und genau, wir sehen uns die Tage. Dank an die Technik, Dank an die Übersetzerinnen
+ und Übersetzer, Dank ans Wok, Dank an die Angel, die hier mitgearbeitet haben und dem kranken Nachbarn
+ danken wir auch.
+ SWR 2020

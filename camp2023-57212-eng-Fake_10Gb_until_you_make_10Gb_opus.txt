@@ -1,0 +1,727 @@
+ [MUSIC]
+ So welcome our next speaker, Equinox.
+ Just take it away.
+ Yeah.
+ Hi, everyone.
+ I'm Equinox.
+ If you've looked at the Farplans, their schedule,
+ this is unfortunately a little bit of a rescue effort
+ because I had a hardware problem yesterday,
+ so I had to recreate the entire presentation.
+ I apologize ahead of time for this being a little bit less
+ polished than I would have liked it to be.
+ So let's start with a quick outline of what
+ I want to talk about here.
+ I hope you did look at the talk description.
+ If you don't know where you are, then maybe go figure that out.
+ This is mostly about how to do HF design without knowing
+ how to do HF design.
+ It's a bit of an experience report from having it done.
+ I'm first going to give some general framing so you
+ know what the goal is, what the target is.
+ I'm going to go talk a little bit about why this is generally
+ something people don't like doing, why it's hard,
+ how I ended up doing it without having the proper tools for it,
+ what the result was, and then there's
+ some room for general things about this thing.
+ I am a software person.
+ I don't build hardware as a job.
+ I never learned how to build hardware.
+ I pick up things.
+ If you talk to someone who knows how to do HF design,
+ raise your hand if you actually know how to do HF design with--
+ oh, there's someone here in the video team.
+ One more.
+ You will be incredibly bored, and if you
+ see me saying something that is wrong,
+ feel free to correct me.
+ OK.
+ Also, if you talk to someone afterwards and they tell you,
+ I said something that was completely wrong, that
+ is very easily possible.
+ This got started as a project from the CCZ NOC
+ from running event networks.
+ If you have been around for 29C3 till 33C3
+ when we were in Hamburg, the building
+ has a lot of shitty fiber, and yeah, it wasn't great.
+ And to deal with that, the idea was
+ to go look at maybe making some tool for helping with that.
+ In the particular case of the CCH,
+ the problem is actually dispersion,
+ which if you have multimode fiber,
+ the signal has multiple modes.
+ That's the definition of a multimode fiber that it can take,
+ and those have different speeds, so the signal
+ gets mushy kind of.
+ I don't have an installation of this,
+ but we can talk about this later in the talk.
+ It's going to come up again.
+ So the idea was born to make a kind of a fiber
+ tool for building networks, for debugging networks,
+ originally just to extend connections in the CCH
+ when we were range limited.
+ This kind of evolved into a more generic multi-tool later.
+ If you work with network equipment and home-built tools
+ in this area, you may know that there
+ are some PCBs that connect to fiber transceivers just
+ directly to each other.
+ This was not the goal here.
+ The goal was to have an active repeater.
+ I'm noticing a few confused faces.
+ I think I will go a little bit further in explaining
+ what the goal here is.
+ I didn't include slides for this.
+ Actually, the next slide is good for this.
+ This is the prototype of this project.
+ What you can see on the left, those two metal cages
+ with numbers 1 and 2, those are slots
+ for optical transceivers for running network over fiber.
+ You put a module into that that matches the infrastructure
+ that you need for your network.
+ That might be a multimode transceiver, a single mode
+ transceiver, a single mode transceiver with very long
+ range, depending on what your cabling is.
+ If you have an intercontinental fiber going through the ocean,
+ you may want to use a very long range transceiver
+ and some amplifiers in the middle.
+ It's made into separate modules so you
+ can adapt to the situation that you have at hand.
+ You use the transceiver that you need.
+ Those run at 1 gigabit, 10 gigabit, 25 gigabit, soon,
+ even more.
+ 25 is the current limit for this form factor.
+ But this talk is about 10 gigabit ethernet mostly,
+ which was current at the time that I started this project.
+ This thing has--
+ I've built it like four years ago.
+ It was just an attempt at getting something going.
+ You can see there is a small little chip immediately
+ to the right of those two slots.
+ And that is an active electrical repeater.
+ Let's go back to the previous slide for a little bit.
+ You can frequently find these boards
+ without that chip in there, which means the two transceivers
+ that you have for converting your fiber signal into the
+ interface that your system needs,
+ they are just connected back to back to each other.
+ So the output from one goes into the input from another.
+ That, in this case, was specifically a requirement
+ that this is not enough.
+ Because in a situation like in Hamburg with the building
+ with the shitty fibers, you get a shitty signal
+ and just retransmitting this shitty signal
+ is not going to help you.
+ So I hope I collected some more people
+ to see where this is going.
+ As I said, this is the first prototype.
+ It did actually work.
+ This is the current version.
+ The slide is mostly here, so you know what I'm actually
+ talking about in the next slides.
+ The actual problem here is there's a lot of high speed
+ signals, four in this case, coming from four receivers.
+ And you need to deal with those.
+ And dealing with, in this case, five gigahertz
+ of an electrical signal is not a lot of fun.
+ So let's get into the actual topic of this presentation.
+ It's not easy to do these designs.
+ The handbook for this, this is one of the references
+ that people point at when you try to get
+ started in this general area.
+ It's literally called the Handbook of Black Magic.
+ And it is appropriately called that.
+ As soon as your signals start to get a little bit faster,
+ you don't actually have rectangular waveforms anymore
+ for your signals.
+ Everything starts to get mushy.
+ And this is the first recommendation, basically,
+ that I have buried in this talk.
+ This book is still relevant.
+ The physics doesn't really change.
+ The chips have gotten a lot better.
+ And there is, basically, with chips getting better,
+ they also get better at dealing with 3D signals.
+ They get better at outputting clean signals.
+ So you can just multiply everything in this book
+ by some factor.
+ And it still applies.
+ It's just, if this book says something about 10 megahertz,
+ it might now apply for a higher frequency in some cases,
+ because the silicon has just gotten better.
+ This doesn't apply everywhere, but it applies somewhere.
+ This book is also great to get started
+ to understand what you don't understand.
+ So coming from a position of knowing exactly nothing
+ about this, this book for me was a good point of entry
+ to figure out, oh, this will be a problem.
+ That will be a problem.
+ That will be a problem.
+ Let's look at actual high frequency electronics
+ and considerations in this area.
+ You start from your naive assumption
+ of having an ideal cable, which is just a wire.
+ That works, I don't know, maybe to the megahertz range.
+ I think even in the higher megahertz range,
+ you get problems with this.
+ When you start getting problems, you
+ start considering the cable as a sequence of parasitic elements.
+ They're called parasitic because they're not
+ intended to be there.
+ So what you see at the bottom here is just a model
+ of what you treat the cable like.
+ Suddenly you have capacitance, you have resistance,
+ you have inductive elements.
+ The cable isn't built like this.
+ This is just a model of understanding
+ what the cable does.
+ But this is only the first level.
+ As soon as you start going into even higher frequencies,
+ in this case, this is a vertical cut simulated
+ through a printed circuit board with two signals.
+ And you can see on the right-hand side
+ is the energy distribution of the signal
+ being propagated along the trace on the PCB.
+ And you can see it's not actually uniform in the trace
+ anymore.
+ The trace is black.
+ All the energy is flowing on the outside of the trace.
+ So you really can't consider a wire or trace a wire anymore.
+ It behaves in odd ways.
+ When you go to higher frequencies again,
+ you should be simulating your design
+ in some software that just takes a 3D model of your entire
+ printed circuit board and divides it into very tiny elements
+ and just calculates Maxwell's equations
+ for every single element.
+ And by doing that, you can get a better impression
+ of what your printed circuit board actually
+ behaves like when you put a signal on it.
+ This currently-- I'm not sure how far the key cut support
+ for this has come.
+ When I started the project, there
+ was no open source implementation of this
+ that was really usable.
+ So I didn't really want to buy a software license for something
+ like this, which would have cost, I don't know, a few thousand
+ euros.
+ I didn't know people at the time who had the license,
+ so I just didn't do this, which is kind of, again,
+ the topic of the talk.
+ How do you do this without the proper tools?
+ And even worse, the simulation is not even
+ going to tell you what the actual result is from making
+ your printed circuit board.
+ At these frequencies, you start getting problems
+ with having corners in your traces where things are just
+ getting reflected.
+ Making your trace on the PCB wider or smaller
+ can cause reflections, can cause loss.
+ Having wires going through the board starts becoming a problem.
+ So at some point, when you go high enough
+ in the frequencies and the data rates that you want to handle,
+ you really need to build the boards, measure them,
+ take the feedback into account, build them again.
+ As with before, I didn't do this.
+ The lab gear for this is seriously expensive.
+ Even renting it is very expensive.
+ I could have shipped it out to some people to measure it.
+ I did, in fact, ask for that.
+ And people said, yeah, I will measure it for you.
+ Unfortunately, I didn't do it.
+ So the end result is what I call design by angst.
+ So all I could do was basically read as much as I could find,
+ read the application notes for the chips I'm using,
+ try to be as careful as possible, and use the tools
+ that I have available.
+ So if I go back to these--
+ what's the English word?--
+ cuts through the PCBs, those are for the actual PCB
+ that I ended up building.
+ And they seem to be not too far off.
+ And funnily enough, this is a very, very tool
+ from a PCB suite that has been discontinued.
+ It says at the bottom it's called AlterPCB_TLINE_SIM.
+ If anyone wants to play around with that,
+ you can still find the code by digging around on GitHub.
+ You need to build it yourself.
+ It's a very odd tool.
+ But this was the limit of tools I had access to at the time.
+ This is basically what ended up being my result from just
+ trying to, I guess, bullshit my way through the design.
+ So you can see on the top there is
+ the four ports for the transceivers
+ that I mentioned before.
+ I've drawn in what I could remember in precautions to take.
+ Some are kind of self-explanatory.
+ I did try to length match the differential pairs.
+ That's the circle thing on the bottom left.
+ Some application notes nowadays say
+ that you shouldn't do this, which I didn't understand.
+ So I just kept doing it.
+ I did keep distance between the differential pairs,
+ which is something every data sheet tells you to do.
+ There's something called the 3W rule, or even the 5W rule,
+ which says that whatever the distance between your pairs
+ is, you should have three times or five times that distance
+ as free area to your other traces.
+ I did make this design by keeping everything
+ as short as I could, which then people also
+ told me that that might not be a good idea, because if you
+ have a short line, it's basically less attenuation
+ for any reflections that you may have.
+ So if your signal starts going back and forth,
+ which it can very much do at these frequencies,
+ if it's a longer trace, it will get attenuated on the way back
+ and then attenuated again, so your reflections die down.
+ And this doesn't happen as much if you have a shorter trace.
+ I went with this.
+ I also used anti-pads, which is just
+ punching a hole in the ground plane that
+ is under the connector in this case,
+ because the connector has a much larger area on the printed
+ circuit board where the connector needs to be soldered onto.
+ And that doesn't match the behavior of the other traces
+ on your board.
+ So what you do is you cut a hole in the ground plane,
+ and that kind of compensates for that.
+ There are some things you can't see in the diagram.
+ You always have to have a continuous ground
+ with all of these things.
+ And that ground plane needs to be directly
+ below your high-speed traces.
+ Or if the high-speed traces are inside of the board,
+ you need to sandwich it in power supply planes.
+ You need to have decoupling for the chips you use.
+ Using wires makes things really hard.
+ So you can see I was able to get away
+ without using any wires, which probably--
+ if I had to use wires to go to the other side of the board,
+ then I'm guessing that this probably would not have worked.
+ So yeah, the layout in this case worked out.
+ To be fair, most chips in this area for high-speed signals
+ are designed to make the layout as easy as possible.
+ I did also invert the polarity on some of the traces here,
+ reversing plus and minus basically
+ inside of the differential pair.
+ The chips have a bit in the output
+ that you can set that just reverses that,
+ and you just need to set the bit correctly to change it back.
+ So the whole point of this talk is, did this work?
+ If you know HF, then you can understand it's a yes.
+ If you don't know HF, I will explain shortly
+ what these pictures mean.
+ However, if you understand HF, you also
+ mean that it didn't quite work.
+ So I can hear a few laughs.
+ All of these are eye diagrams.
+ What an eye diagram is is from your high-speed signal,
+ in this case, 10 gigabit ethernet.
+ You take one clock period and just keep
+ stacking it on top of itself.
+ So looking at these diagrams, you
+ have the signal going from a 1 to a 1 to a 1,
+ from a 1 to a 1 to a 0 or something,
+ or from a 0 to a 1 to a 0.
+ That creates these curves, basically.
+ And the horizontal is one period of the signal.
+ And you just stack it and stack it.
+ And five of these look good.
+ The sixth one in the bottom is actually still OK,
+ but much worse than the other ones.
+ The good thing in this case is that the chip I'm using
+ has a built-in monitor for generating these things,
+ because otherwise, I would need the expensive test equipment,
+ again, to even get this debugging information.
+ So that's also something to point out as part of this.
+ If you try to build high-speed electronics like this,
+ absolutely pay attention to the debugging
+ tools the chips give you.
+ Something I saw in more expensive other chips
+ was that they have a built-in error rate tester, which
+ this one doesn't.
+ So I wasn't yet able to run a bit error rate test.
+ I'm trying to find ways to do that.
+ But yeah, having this eye diagram monitor, it's a lifesaver.
+ Now, for that middle-bottom diagram,
+ that's where you really hit the limitations
+ of building something like this without the proper tools.
+ Essentially, I have no way to figure out
+ why that one connection is worse than the others.
+ It's probably still workable, but I'm not
+ comfortable with seeing that and knowing
+ that five of my connections are OK,
+ and the sixth one is somehow weird.
+ I was lucky in this case.
+ Well, lucky is maybe the wrong word.
+ I did just forget the AC coupling capacitors
+ on that connection.
+ The HF guys may laugh at me for this.
+ For everyone else, I may need to explain how many people don't
+ know what AC coupling is.
+ That's enough.
+ So for a signal like this--
+ let's go back to maybe this--
+ those two wires each are one signal,
+ and one wire goes in the positive direction,
+ the other goes to the negative direction.
+ And they go around a center point, basically.
+ And that is a DC component that just stays constant.
+ However, your receiver may have a requirement
+ for some specific midpoint voltage, which
+ means that you need to put a capacitor in the middle
+ so your receiver can shift the signal somewhere
+ where it likes to receive it.
+ And these ships have that requirement.
+ And the optical transceivers have this built in,
+ except I have some connections between the chips
+ where I completely forgot this.
+ So I'm hoping that I can get away without debugging
+ and just fix this.
+ For the record, I noticed this yesterday.
+ So oops.
+ It does actually work, though, which is kind of funny.
+ It hopefully is also the reason that this stuff is
+ getting hot as shit, because if you have some difference
+ in the DC levels between the two chips,
+ the sender might be outputting 1.6 volt common mode.
+ And the receiver might be trying to pull down
+ to 1.2 volt common mode.
+ And you have just 0.4 volts being
+ lost somewhere in the middle.
+ And that would explain why the ships are getting so hot.
+ I don't really have the stuff with me
+ to try and fix this here.
+ So I'll have to go back and try and debug this.
+ The other takeaway here is at some point,
+ you need to ask for help.
+ I did ask both RF guy and Andrew Zonberg for help.
+ And they both--
+ RF guy already was very helpful, gave me a lot of feedback.
+ Andrew, I asked for actually help in simulating this.
+ I got this lost on my end and never sent him design.
+ But the point of this talk, I guess,
+ is it is, in fact, possible to build things like this.
+ You need to be extremely careful about the tools you use.
+ In this case, the chip has a lot of built-in debugging features.
+ So yeah.
+ I kind of sprinted through my presentation.
+ I expected this to take 30 minutes.
+ It took 20 at best.
+ So I think there is a lot of room for questions.
+ I also have additional stories about building
+ this from parts that are not directly HF stuff.
+ I had those in the presentation, and I lost it on a broken
+ laptop.
+ I'm very sorry about that.
+ I have backups.
+ They are three months old.
+ [LAUGHTER]
+ Oops.
+ OK.
+ Let's try maybe to get started.
+ Does anyone have basic questions where I should just
+ explain some more?
+ Just quickly, before we get to the questions, maybe a big
+ round of applause for Equinox.
+ [APPLAUSE]
+ And if you have questions, the mic row--
+ or there will be a queue there for questions.
+ So go to the mic over there with the mic.
+ Yeah.
+ So thank you for the talk.
+ Great talk.
+ I've done a bit of HF in the past.
+ I would expect that going to 25 gigabits would be orders of
+ magnitude harder.
+ Do you think it would be possible to do it by hand like
+ you mostly did?
+ OK, for context, going to 25 gigabit is not--
+ there's some exponential scaling involved, which just
+ makes things extremely harder.
+ And I don't have the knowledge to answer your question.
+ So people have asked me if it's possible to build something
+ like this for 25 gigabit, especially because 4 times 25
+ is 100 gigabit link.
+ There are some chips around that I would
+ like to use for this.
+ The reason I haven't done it yet is--
+ and this is actually an important thing of this talk
+ that I wanted to do--
+ I want to give a kind of a negative shout out to one of
+ the vendors, in this case, Macom.
+ They have the perfect chip for this, but they don't give you
+ access to the data sheet.
+ You can find it by Googling, but it's only a basic sheet.
+ The chip is perfect for building something like this,
+ but they are extremely dismissive if you try to contact
+ them and try to get more information.
+ I may have another talk in two years, three years, about what
+ the story was with 25 gig, if it worked out.
+ Since at this point, KiCad is getting the support for--
+ I'm losing the microphone, sorry.
+ So since KiCad is getting the support for simulating the
+ boards, I would hope that this is sufficient to stretch the
+ possible some more, basically.
+ Sorry.
+ I honestly don't know.
+ I'm the person who is telling how far I was able to get
+ without knowing how it works.
+ We may need to find--
+ there were some people who raised their hands about being
+ HF engineers.
+ If someone else wants to throw in their two cents, I'd be
+ happy to hear.
+ And the next question?
+ Great talk, and you're a hero for attending this.
+ You had this really cool thing about the monitor of the chip
+ being used to give you the eye diagram.
+ Did you try to maybe do it with your own test equipment, to
+ hack the chip and just measure other devices' eye diagrams?
+ The chip has a built-in eye monitor.
+ However, the chip only works for certain ranges of signal.
+ It's a lot that it works for.
+ So the chip has a range of either 8 to 10 point something
+ or 9 to 12 point something gigabaud.
+ And it can divide that by 1, 2, 4, or 8.
+ So it works in kind of some areas.
+ You could connect that to get a rudimentary eye monitor.
+ I haven't thought about making my own test tool.
+ I was hoping that maybe someone would build an open
+ source VNA, which is the right tool for this.
+ It might also be possible to use, if you know, the nano VNA.
+ That's single-ended, but if you combine it with a balloon, it
+ might be possible to do differential measurements.
+ Again, so I don't feel comfortable building a test
+ tool myself with the limited understanding I have.
+ I feel like I can build an application, but I can't build
+ an actual measurement device.
+ Because if you build a measurement device, you should
+ know what you're doing.
+ You know?
+ That's my--
+ Oh.
+ Yeah, sure.
+ So for a proper test equipment, yeah, sure.
+ But just for hacking around, if you just have some sort of
+ breakout board to do this--
+ I wasn't even aware that these chips can do that.
+ So this is really cool.
+ You can take a copper direct attach cable and
+ just cut it open.
+ That should work if you have the right signal levels.
+ However, the signal levels are mostly the same anyway for all
+ of the high-speed stuff.
+ So that shouldn't be a problem, I would hope.
+ Yeah.
+ And then we have the next man.
+ So you said your motivation was like the faulty cables in
+ the CCH, but the CCH tear down and now rebuild.
+ Do you see any other cool stuff you can do?
+ They still have the same shitty fibers, unfortunately.
+ So if we go back to Hamburg, I'm not sure they have the
+ exact same type.
+ I do know that they still have multimode fiber.
+ And oh, I did mention that I wanted to go into a little bit
+ more detail why multimode fiber is a problem.
+ So normally, when the signal gets weaker, on the optical
+ signal-- this is the electrical signal, to be clear.
+ On the optical signal, you just get a closer and closer eye,
+ and at some point, the receiver doesn't work anymore.
+ With the shitty multimode fiber, you get horizontal eye
+ closure, because the signals take different paths, and they
+ get mushier and mushier on the time domain.
+ So the horizontal is the time on this.
+ I'm not sure if the CCH still has multimode fiber that is as
+ bad as it was before.
+ I only know that they put back multimode fiber in general.
+ I would hope that they did maybe replace it.
+ But yeah.
+ So if we go back to Hamburg, which seems likely, we may
+ want to use those again.
+ I don't know.
+ Maybe.
+ Apart from that, it is intended as a general fiber tool.
+ It does have batteries.
+ It's pocket-sized.
+ You can just put transceivers into it and use it as a helper
+ while you roll out your network.
+ We did have multiple occurrences at buildup during
+ camp where this would have been useful.
+ Unfortunately, this is not quite ready.
+ The hardware works.
+ I've connected my laptop to the internet through this at
+ 10 gig.
+ So I know it works, except the software still needs to be
+ done.
+ Right now, I need to do I2C register writes to set it up
+ correctly.
+ And it wasn't quite ready, because I ran out of time in
+ the run-up to the camp.
+ So yeah.
+ I think it's useful as a tool.
+ Sorry, next question.
+ Yeah, hi.
+ Thanks for your talk and your nice project.
+ Following up on the 25 gig, you are lucky.
+ You go to optical transceivers, to SME converters.
+ Traces are all short.
+ It's completely different when you do a layout that actually
+ goes then to 100 meter copper.
+ So this helps in your case.
+ Your proper job in analyzing and being very careful,
+ reading all the stuff, you do the same for 25 gig.
+ Probably you have to switch away from FR4 space material
+ to get more RF ready.
+ But it's doable.
+ You can still do it with KiCAD and analyze, with other
+ FEM tools, which are open source around.
+ It's just more work.
+ And you need to select properly your PCB when on all the
+ impedance control, which just costs more money.
+ Possibly this is going to the more debug features, as you
+ said, your chip has a built-in eye monitor, but for very
+ limited frequencies.
+ And you don't have the bit error rate tester.
+ If you are interested in doing debugging with these kind of
+ features, go for FPGA development boards, which have
+ SFP modules.
+ Then you don't have open source tools.
+ Then you just install the tool chain from the render.
+ From there you have eye belt or smart belt features inside
+ the transceivers of the FPGAs by a development kit with a
+ proper layout and done and connected to here.
+ And then you can still do loopback tests and get all
+ your features done.
+ I think this is a really long question.
+ But you have to finally the question.
+ OK.
+ There are some FPGAs where I think you can, in fact, also
+ get an eye diagram from the debug software.
+ Like, yeah, OK.
+ I know these features exist.
+ So if other people want to know more about this, I guess
+ they can come to you.
+ And yeah, the vendors certainly know how to make
+ their boards for their dev kits, because they want to
+ sell their hardware.
+ Next question.
+ Maybe just one very short question.
+ Did you try talking about the VNA stuff?
+ Did you try this in VNA front end, IC from analog, ADL,
+ 5960?
+ I have become aware that it exists.
+ I haven't looked at any of the details yet.
+ It's the same comment as before.
+ I'm not sure I have enough knowledge to look at measuring
+ equipment, because that analog device ship is really
+ targeted at building a VNA.
+ And I feel like I don't have enough knowledge to do that.
+ I would hope that in general, someone will build an open
+ source tool like that.
+ Maybe the nano VNA people will just make, I think, version
+ 6's next one.
+ But that would be very cool.
+ Oh, I did forget a comment to the previous--
+ this is also manufactured by GLCPCB, which is cheap
+ Chinese PCBs.
+ So that's another comment on the feasibility of this.
+ With 10 gig, you can get away with using cheap, mostly
+ specified PCBs.
+ The funny thing is that GLCPCB changed their specification
+ of their layer stack ups midway through me building this,
+ which is not nice either.
+ But this is certainly not precision PCBs.
+ This is just a cheap four layer board, which also four layer
+ boards are just cheap enough these days.
+ Don't even try to do this with a two layer board.
+ It's not going to work, I'm pretty sure.
+ Next question.
+ Yeah.
+ I think this is probably the last question.
+ And then if people want to find you after this to talk to you,
+ where can they find you?
+ You can find me in the knock.
+ I do have 10 more minutes, right?
+ Yeah, you have 10 more minutes.
+ Yeah.
+ Also, you can--
+ I think we can just fill with questions, right?
+ I mean, there seems to be one in queue, so.
+ Yeah, I just have a short comment about something you
+ just said.
+ You said that the FPGA vendors know how to build their
+ dev boards because they want to sell them.
+ Don't count on it.
+ [LAUGHTER]
+ OK.
+ OK.
+ Sure.
+ Well, switch vendors don't know how to build switches either.
+ I can tell you from experience.
+ Yeah.
+ Yeah.
+ Considering that I have 10 minutes left, I can't just go
+ into random other stuff.
+ Because-- oh, sorry.
+ There's one more.
+ Yeah, so you asked for comments from other people
+ who had experience doing this sort of thing.
+ I did a HDMI matrix switch.
+ And then a display port matrix switch.
+ And had very similar experiences to yours, except
+ mostly things just work.
+ Yeah.
+ And I think it's to do with receiver quality.
+ Yeah.
+ Did you have some measurement that you could do to get some
+ eye diagram or just some measure of whether you were
+ barely working or working well?
+ So I did actually do oscilloscope measurements at
+ low frequencies, which told me something.
+ And then I sent the board to Andrew, which
+ told me a lot more.
+ There is actually an HDMI re-timer chip, which can do eye
+ diagrams.
+ But it's out of stock.
+ But once it's back in stock, I'm also planning to make
+ measurements go like this.
+ Yeah.
+ This thing got delayed by two years as well, because the
+ microcontroller was just not available, and other chips were
+ just not available.
+ And yeah, luckily that has mostly come to an end.
+ If people are still interested, there's actually
+ two boards in this.
+ And as it turns out, most of the problems in building this
+ actually came from the power supply and building an
+ overcomplicated environment around all of the HF stuff.
+ I tried to build this as power-savvy as possible, which
+ caused more problems.
+ It has battery charging, which has caused problems.
+ So I think the closing sentence here is maybe try
+ one thing first.
+ The HF stuff can definitely be done.
+ And don't forget the other stuff.
+ If I had been a bit more careful, I think I could have
+ saved myself quite a few revisions.
+ I think this is revision five or six of this board as far as
+ manufacturing goes.
+ I do have prototypes with me if people want to go look at
+ the actual PCB.
+ You can find me in the NOC, which is over there near the
+ fence to the camping area.
+ It's a white tent.
+ Please be polite/restrained when entering the tent.
+ It's possible that people are working to debug the network.
+ So if there is a rush of activity, then maybe come back
+ a little bit later.
+ I haven't actually pushed this out on GitHub yet.
+ I plan to do that.
+ You can find me on Mastodon Equinox at chaos.social.
+ My GitHub is linked from Mastodon.
+ And I think that's--
+ cool.
+ Thanks for attending.
+ Big round of applause.
+ [APPLAUSE]
+ [MUSIC PLAYING]

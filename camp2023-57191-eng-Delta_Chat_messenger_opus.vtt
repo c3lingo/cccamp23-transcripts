@@ -1,0 +1,848 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:32.320
+ All right, welcome everybody.
+
+00:00:32.320 --> 00:00:36.040
+ First talk on day four at the Bits and Boim stage.
+
+00:00:36.040 --> 00:00:36.960
+ How's everybody doing?
+
+00:00:36.960 --> 00:00:40.160
+ >> [APPLAUSE]
+
+00:00:40.160 --> 00:00:42.440
+ >> Yeah, a bit tired and then there's the sun.
+
+00:00:42.440 --> 00:00:47.440
+ So please, as it's very warm today and sunny, take cover under our sun sails.
+
+00:00:47.440 --> 00:00:50.760
+ Also, drink more water, that's always important.
+
+00:00:50.760 --> 00:00:53.400
+ And yeah, be aware that there is recording in progress.
+
+00:00:53.400 --> 00:00:56.560
+ So if you are sitting in front here, please mind the camera.
+
+00:00:56.560 --> 00:01:00.760
+ We are now listening to a talk by Holger.
+
+00:01:00.760 --> 00:01:03.800
+ He will explain us something about the DeltaChat Messenger,
+
+00:01:03.800 --> 00:01:07.200
+ which is email based and has some unique features.
+
+00:01:07.200 --> 00:01:10.240
+ And he will also talk about the different functionalities and
+
+00:01:10.240 --> 00:01:12.320
+ security aspects of that.
+
+00:01:12.320 --> 00:01:15.080
+ Holger said that he likes to do the talk interactive.
+
+00:01:15.080 --> 00:01:18.360
+ So if you have questions, you can ask them throughout.
+
+00:01:18.360 --> 00:01:21.920
+ We have our stage manager Rico here with a microphone.
+
+00:01:21.920 --> 00:01:25.680
+ Raise your hand and he will come to you so everybody understands you well.
+
+00:01:25.680 --> 00:01:30.160
+ And yeah, if you want to post in the fatty verse about this talk,
+
+00:01:30.160 --> 00:01:34.080
+ it's the hashtag #BitsundBäume with an AE, obviously.
+
+00:01:34.080 --> 00:01:38.760
+ So with that, I have nothing more to say than a very warm welcome again to Holger.
+
+00:01:38.760 --> 00:01:39.320
+ Enjoy the talk.
+
+00:01:39.320 --> 00:01:45.800
+ >> [APPLAUSE]
+
+00:01:45.800 --> 00:01:47.080
+ >> Thanks.
+
+00:01:47.080 --> 00:01:50.800
+ Well, it's been a while since I stood in front of, I don't know, 50, 60 people.
+
+00:01:50.800 --> 00:01:52.720
+ I think it was actually before the pandemic.
+
+00:01:52.720 --> 00:01:57.520
+ So I used to give quite some talks before the pandemic, but
+
+00:01:57.520 --> 00:01:58.960
+ that's like long ago, I don't know.
+
+00:01:58.960 --> 00:02:03.800
+ Anyway, we are offline.
+
+00:02:03.800 --> 00:02:09.040
+ And one of the features of the DeltaChat Messenger is that it can work very well
+
+00:02:09.040 --> 00:02:09.760
+ offline.
+
+00:02:09.760 --> 00:02:11.360
+ This will be a recurring topic.
+
+00:02:11.360 --> 00:02:18.040
+ And first of all, I'd like to know who of you have tried once,
+
+00:02:18.040 --> 00:02:23.360
+ not continuously used, but tried once DeltaChat in the last year?
+
+00:02:23.360 --> 00:02:26.600
+ Okay, so that's like a quarter, I would say.
+
+00:02:26.600 --> 00:02:32.520
+ So I will say a few words about the state of messaging.
+
+00:02:32.520 --> 00:02:36.800
+ I mean, you probably know WhatsApp and Signal and Telegram and so on.
+
+00:02:36.800 --> 00:02:42.680
+ And they are centralized island basically where the devices
+
+00:02:42.680 --> 00:02:46.600
+ connect to the single authority and kind of route messages and
+
+00:02:46.600 --> 00:02:50.400
+ exchange their cryptographic identity through the central server.
+
+00:02:51.640 --> 00:02:57.760
+ Then we have a very long running, like 30, 40 years network,
+
+00:02:57.760 --> 00:03:03.160
+ which is federated and interoperable.
+
+00:03:03.160 --> 00:03:06.120
+ And basically, if I just say it like this,
+
+00:03:06.120 --> 00:03:10.680
+ then it could also be the kind of mobile number network.
+
+00:03:10.680 --> 00:03:15.880
+ But the thing with the email-based federated system is that,
+
+00:03:15.880 --> 00:03:21.040
+ at least conceptually, everybody can just instantiate an email server and
+
+00:03:21.040 --> 00:03:23.560
+ just have their own users and so on.
+
+00:03:23.560 --> 00:03:26.880
+ And that is not so easy in the mobile phone number network,
+
+00:03:26.880 --> 00:03:29.360
+ which is pretty closed on many levels.
+
+00:03:29.360 --> 00:03:33.640
+ So the email federated server system that we have on the planet
+
+00:03:33.640 --> 00:03:39.560
+ is the largest federated system that exists basically as an open system.
+
+00:03:39.560 --> 00:03:43.520
+ And DeltaChat is a messenger that uses that.
+
+00:03:43.520 --> 00:03:46.200
+ So instead of contacting a single authority,
+
+00:03:46.200 --> 00:03:50.760
+ you actually contact your email provider.
+
+00:03:50.760 --> 00:03:52.480
+ There's no other server involved.
+
+00:03:52.480 --> 00:03:58.520
+ You contact, I don't know, Posteo, some people use Hotmail,
+
+00:03:58.520 --> 00:04:04.000
+ or you use your own domain, or Gmail, and so on.
+
+00:04:04.000 --> 00:04:08.240
+ And then the mail providers talk with each other to exchange messages.
+
+00:04:08.240 --> 00:04:13.960
+ And your communication partner uses the email server of their choice.
+
+00:04:13.960 --> 00:04:17.960
+ So when you enter your email credentials in DeltaChat,
+
+00:04:17.960 --> 00:04:22.720
+ it is your username and password, but it doesn't go anywhere except to your
+
+00:04:22.720 --> 00:04:26.880
+ email provider to get your mails and to send mails.
+
+00:04:26.880 --> 00:04:31.200
+ So it's not like it's transferred to some secret DeltaChat server or something.
+
+00:04:31.200 --> 00:04:39.720
+ I said it's the largest federated open messaging system, email.
+
+00:04:41.640 --> 00:04:48.400
+ DeltaChat is not only able to talk with other people who have installed DeltaChat,
+
+00:04:48.400 --> 00:04:54.280
+ but actually any message that DeltaChat sends can also be sent to someone using
+
+00:04:54.280 --> 00:05:00.920
+ a web mail, or K9 mail, or various other email apps.
+
+00:05:00.920 --> 00:05:02.600
+ And they will just receive it as a message.
+
+00:05:02.600 --> 00:05:05.480
+ So if you actually attach a picture, it will be an attachment.
+
+00:05:05.480 --> 00:05:08.480
+ And if they reply, you will see it in your chat.
+
+00:05:08.480 --> 00:05:13.600
+ So in that sense, you can basically address from your DeltaChat messenger
+
+00:05:13.600 --> 00:05:15.200
+ anyone with an email address.
+
+00:05:15.200 --> 00:05:20.360
+ And you can also use it to subscribe to some services.
+
+00:05:20.360 --> 00:05:25.200
+ Like you just get chat messages, and it's like a nice quick interface to deal with
+
+00:05:25.200 --> 00:05:28.000
+ like notifications and other things.
+
+00:05:28.000 --> 00:05:36.320
+ One thing that I've been involved with, let's say peer to peer, crypto,
+
+00:05:36.320 --> 00:05:42.640
+ some other decentralization topics since about 10 years now quite deeply.
+
+00:05:42.640 --> 00:05:45.240
+ I mean, originally since 20 years, but in the last 10 years,
+
+00:05:45.240 --> 00:05:50.120
+ I really, it was actually past Snowden, like almost exactly 10 years ago.
+
+00:05:50.120 --> 00:05:54.600
+ But I thought, okay, I really want to use my expertise to
+
+00:05:54.600 --> 00:05:56.600
+ help do something different than what we have.
+
+00:05:56.600 --> 00:06:04.720
+ And in 2017, Bjorn was actually sitting somewhere here, there.
+
+00:06:04.720 --> 00:06:08.240
+ He started for his daughter like a WhatsApp alternative.
+
+00:06:08.240 --> 00:06:14.040
+ He took Telegram and ported it to use an email library.
+
+00:06:14.040 --> 00:06:15.880
+ And so you had the Telegram interface, but
+
+00:06:15.880 --> 00:06:20.400
+ instead of contacting Telegram servers, you just contact email servers.
+
+00:06:20.400 --> 00:06:24.240
+ And within like two or three months, it worked, and people started using it.
+
+00:06:24.240 --> 00:06:28.120
+ But then people got back and said, wow, what about end to end encryption?
+
+00:06:28.120 --> 00:06:33.400
+ And that's where I came in, because I was involved in the AutoCrypt standard and
+
+00:06:33.400 --> 00:06:37.080
+ some other security things in that years.
+
+00:06:37.080 --> 00:06:44.040
+ And this idea that you have something that is as usable as WhatsApp or Telegram,
+
+00:06:44.040 --> 00:06:47.480
+ and that you actually really try to offer something that
+
+00:06:47.480 --> 00:06:49.880
+ fully interoperates with the email system,
+
+00:06:49.880 --> 00:06:55.000
+ that's like a design drive that goes since its beginning.
+
+00:06:55.000 --> 00:06:59.960
+ We're also conducting various independent security audits.
+
+00:06:59.960 --> 00:07:04.600
+ But if you are actually interested in the details of security aspects, and
+
+00:07:04.600 --> 00:07:08.360
+ there are many, I suggest that you come later to our village and
+
+00:07:08.360 --> 00:07:12.280
+ we have a more detailed discussion because in a group like this,
+
+00:07:12.280 --> 00:07:14.920
+ it's easily lost in details.
+
+00:07:14.920 --> 00:07:19.680
+ One thing that we did since we met in 2019 in Kiev, in Ukraine,
+
+00:07:19.680 --> 00:07:26.160
+ is that we moved our C development that was the core of all the apps on Android,
+
+00:07:26.160 --> 00:07:29.040
+ iOS, desktop, and so on.
+
+00:07:29.040 --> 00:07:32.600
+ We moved this C development to Rust.
+
+00:07:32.600 --> 00:07:37.240
+ So before it came cool last year or something, I don't know.
+
+00:07:37.240 --> 00:07:42.680
+ So all of the networking, I guess,
+
+00:07:42.680 --> 00:07:47.320
+ is the only email messenger that has networking and all of the network
+
+00:07:47.320 --> 00:07:52.120
+ protocols, encryption, decryption, and of all of the APIs that processes
+
+00:07:52.120 --> 00:07:56.800
+ this completely implemented in Rust with security audits.
+
+00:07:56.800 --> 00:08:01.360
+ And that means it's quite fast and we can easily collaborate.
+
+00:08:01.360 --> 00:08:05.880
+ Like Rust is often, often you look at some language feature or so, but
+
+00:08:05.880 --> 00:08:09.440
+ there's this whole, you want to have an imagery size?
+
+00:08:09.440 --> 00:08:14.800
+ You use a crate to do imagery size and it works on iOS, on Android,
+
+00:08:14.800 --> 00:08:18.000
+ on desktop platforms and so on, and it just works.
+
+00:08:18.000 --> 00:08:20.800
+ We can just include it and use imagery sizing.
+
+00:08:20.800 --> 00:08:24.800
+ And that is, if you are familiar with C and C++,
+
+00:08:24.800 --> 00:08:29.200
+ getting this to work on five platforms is serious work.
+
+00:08:29.200 --> 00:08:32.520
+ So Rust is actually very good for collaboration between different
+
+00:08:32.520 --> 00:08:34.320
+ development groups.
+
+00:08:34.320 --> 00:08:44.200
+ The main thing we have been doing the last year, actually,
+
+00:08:44.200 --> 00:08:48.080
+ is that we have been developing an idea where we use the messenger not only for
+
+00:08:48.080 --> 00:08:52.160
+ the social messages that you have with your chat group, your family,
+
+00:08:52.160 --> 00:08:59.760
+ your hacker space, and so on, but you can also send a web application.
+
+00:08:59.760 --> 00:09:04.560
+ We call this WebXTC, WebXTC.org.
+
+00:09:04.560 --> 00:09:10.000
+ And it basically means that you have a zip file that contains an index HTML,
+
+00:09:10.000 --> 00:09:14.800
+ some JavaScript, some assets, and you just drop this as an attachment into a chat,
+
+00:09:14.800 --> 00:09:17.520
+ and everybody gets a start button and everybody can just start it.
+
+00:09:18.920 --> 00:09:22.760
+ So the distribution is not like some app store or something like this.
+
+00:09:22.760 --> 00:09:28.240
+ You can literally use your command line to zip to package this together,
+
+00:09:28.240 --> 00:09:33.320
+ and then drop it into the chat with your partner or
+
+00:09:33.320 --> 00:09:35.760
+ your friend's hacker space whatsoever.
+
+00:09:35.760 --> 00:09:37.680
+ And then anybody can run this app.
+
+00:09:37.680 --> 00:09:41.840
+ And these apps actually send their messages via the messenger.
+
+00:09:41.840 --> 00:09:43.960
+ We return to this point.
+
+00:09:46.120 --> 00:09:51.960
+ It means that when you write a web app, how many of you have touched web
+
+00:09:51.960 --> 00:09:54.760
+ application technology or website technology, actually?
+
+00:09:54.760 --> 00:10:00.080
+ Quite a few. So you probably know index HTML and all of these things.
+
+00:10:00.080 --> 00:10:02.880
+ You have heard of React and all of these frameworks.
+
+00:10:02.880 --> 00:10:06.640
+ The way how you write web apps that run in DeltaChat and
+
+00:10:06.640 --> 00:10:12.920
+ also to other messengers by now is by calling a send and
+
+00:10:12.920 --> 00:10:18.040
+ a receive function basically standard in, standard out for
+
+00:10:18.040 --> 00:10:20.520
+ pushing messages between your app instances.
+
+00:10:20.520 --> 00:10:25.800
+ If I drop a zip file into a chat and people start this in the chat,
+
+00:10:25.800 --> 00:10:30.240
+ and these apps call send update,
+
+00:10:30.240 --> 00:10:34.600
+ the other app instances will receive it in their update listener.
+
+00:10:34.600 --> 00:10:36.000
+ So that's the API.
+
+00:10:36.000 --> 00:10:41.640
+ There's no component, the thing, there's no React-like thing you have to use or
+
+00:10:41.640 --> 00:10:43.360
+ anything, and if you look at the example apps,
+
+00:10:43.360 --> 00:10:45.720
+ you'll find all kinds of frameworks, it doesn't matter.
+
+00:10:45.720 --> 00:10:50.680
+ It's only this send receive API that goes via the messenger and
+
+00:10:50.680 --> 00:10:53.320
+ is end-to-end encrypted to all of the endpoints.
+
+00:10:53.320 --> 00:10:58.520
+ We have just released, like before, camp on the blog.
+
+00:10:58.520 --> 00:11:03.400
+ You can also find this something called XStore.
+
+00:11:03.400 --> 00:11:07.440
+ Bit of a random name, has nothing to do with this other X that is floating around.
+
+00:11:09.320 --> 00:11:13.520
+ Or maybe it has something to do with it because it is actually true that you can,
+
+00:11:13.520 --> 00:11:17.920
+ like a lot of games have been actually ported to this zip file model, but
+
+00:11:17.920 --> 00:11:20.840
+ also something like a collaborative editor.
+
+00:11:20.840 --> 00:11:25.600
+ So that is like the second last row, second thing is the editor.
+
+00:11:25.600 --> 00:11:30.600
+ And it means that you can drop this and
+
+00:11:30.600 --> 00:11:35.280
+ edit with anybody in the chat and all of the messages between the,
+
+00:11:35.280 --> 00:11:38.560
+ that update the editor will be end-to-end encrypted.
+
+00:11:38.560 --> 00:11:40.120
+ And you can use it offline.
+
+00:11:40.120 --> 00:11:43.520
+ And there's no server that needs to mediate anything.
+
+00:11:43.520 --> 00:11:53.680
+ So if you really start using it, it's like surprisingly,
+
+00:11:53.680 --> 00:11:56.960
+ like what is important to note is what is not there.
+
+00:11:56.960 --> 00:12:01.600
+ There's no login, there's no OAuth, there's no username,
+
+00:12:01.600 --> 00:12:06.600
+ there's no password, there's no GDPR, there's no cookie consent and so on.
+
+00:12:06.600 --> 00:12:11.840
+ Because the web app runs in a totally isolated environment and
+
+00:12:11.840 --> 00:12:14.320
+ cannot communicate to the internet, just like here.
+
+00:12:14.320 --> 00:12:16.140
+ And.
+
+00:12:16.140 --> 00:12:25.280
+ And that means that the only way for the app to get out from its like very
+
+00:12:25.280 --> 00:12:30.040
+ restricted sandbox is to call send message and receive message.
+
+00:12:30.040 --> 00:12:34.160
+ And it has no direct HTTP to anything also, it cannot just, cannot do this.
+
+00:12:34.160 --> 00:12:37.320
+ So that's why we also sometimes say peer-to-peer apps.
+
+00:12:37.320 --> 00:12:42.320
+ Because you really send a message and it arrives at your other instances of
+
+00:12:42.320 --> 00:12:45.840
+ the same app and they can process the update they got from themselves,
+
+00:12:45.840 --> 00:12:46.920
+ like from the other instance.
+
+00:12:46.920 --> 00:12:55.720
+ So you have in an editor that runs as a WebXTC, you have a, I got it.
+
+00:12:55.720 --> 00:13:00.200
+ You have a basically, but without the server.
+
+00:13:00.200 --> 00:13:03.840
+ So everything is encrypted, also no login and so on.
+
+00:13:03.840 --> 00:13:11.200
+ But you can, like any XTC app, like even Tetris or
+
+00:13:11.200 --> 00:13:14.040
+ like the high score board of Tetris, end-to-end encrypted.
+
+00:13:14.040 --> 00:13:17.760
+ Little drawing board, end-to-end encrypted.
+
+00:13:17.760 --> 00:13:21.960
+ A little editor, the checklist app, like a couple of kilobytes, or
+
+00:13:21.960 --> 00:13:25.280
+ the poll app is like six kilobytes large, right?
+
+00:13:25.280 --> 00:13:28.040
+ Everything completely end-to-end encrypted, offline first.
+
+00:13:28.040 --> 00:13:32.800
+ You can use it even here and then later on when you go somewhere, updates and so on.
+
+00:13:32.800 --> 00:13:35.960
+ And you don't need to work very hard as a web developer.
+
+00:13:35.960 --> 00:13:43.720
+ We had a carpenter who had not done any HTML, JavaScript or GitHub.
+
+00:13:43.720 --> 00:13:49.840
+ And this person was, through education,
+
+00:13:49.840 --> 00:13:54.360
+ a few questions, able to write a functional app that is part of the app store.
+
+00:13:54.360 --> 00:13:57.400
+ I mean the store that we have, this X store, that you can mail and
+
+00:13:57.400 --> 00:14:00.400
+ it gives you a selection of apps.
+
+00:14:00.400 --> 00:14:02.640
+ That's the level of simplicity.
+
+00:14:02.640 --> 00:14:05.600
+ And his app is like end-to-end encrypted.
+
+00:14:05.600 --> 00:14:06.640
+ It works offline first.
+
+00:14:06.640 --> 00:14:12.160
+ So basically any web app that you put in there gains these properties.
+
+00:14:12.160 --> 00:14:14.800
+ And that's pretty interesting, I would say.
+
+00:14:14.800 --> 00:14:20.000
+ To give you a little bit of an overview of what are the numbers,
+
+00:14:20.000 --> 00:14:23.720
+ because we perceive reality, I heard, through numbers.
+
+00:14:23.720 --> 00:14:26.240
+ And then how many users, how many this and that, and so on.
+
+00:14:27.760 --> 00:14:33.080
+ We have currently three messengers that support it, that support WebXTC.
+
+00:14:33.080 --> 00:14:36.760
+ That is DeltaChat, of course, who's kind of like spearheading the effort and
+
+00:14:36.760 --> 00:14:43.080
+ also tries to get some funding to evolve some of the features so
+
+00:14:43.080 --> 00:14:47.200
+ that you can do something like this application store and things like this.
+
+00:14:47.200 --> 00:14:51.280
+ And then there's Geogram, an XMPP based messenger,
+
+00:14:51.280 --> 00:14:54.160
+ where you can use the same apps, the same zip file.
+
+00:14:54.160 --> 00:14:57.120
+ You just drop it into Geogram and it runs there.
+
+00:14:58.120 --> 00:15:04.680
+ It's independent from how the send update, receive update is implemented.
+
+00:15:04.680 --> 00:15:07.400
+ And in XMPP, it's like an XMPP message.
+
+00:15:07.400 --> 00:15:13.480
+ In DeltaChat, it's like a PGP encrypted message that goes via the providers.
+
+00:15:13.480 --> 00:15:16.960
+ In a prospective future system where you have some peer-to-peer connection,
+
+00:15:16.960 --> 00:15:18.640
+ it will be this peer-to-peer connection.
+
+00:15:18.640 --> 00:15:21.760
+ So the apps themselves, they run basically unmodified.
+
+00:15:21.760 --> 00:15:24.120
+ That's the idea.
+
+00:15:24.120 --> 00:15:26.120
+ We had four security audits.
+
+00:15:26.120 --> 00:15:30.920
+ You can read about this in the kind of earlier this year, the blog posts.
+
+00:15:30.920 --> 00:15:36.480
+ Around end-to-end encryption, the REST PGP implementation, the TLS setup,
+
+00:15:36.480 --> 00:15:41.960
+ network parsing, IMAP SMTP, and then also WebXTC security,
+
+00:15:41.960 --> 00:15:44.880
+ getting an isolated web view.
+
+00:15:44.880 --> 00:15:51.360
+ Read all the great story about how Chrome sucks in the blog post,
+
+00:15:51.360 --> 00:15:55.160
+ I think, from March or so, where we detail how bad it is.
+
+00:15:56.000 --> 00:16:03.800
+ We have, we push, actually, I said that we want to have it like WhatsApp and Tetragram.
+
+00:16:03.800 --> 00:16:08.320
+ We have DeltaChat in like ten different app stores, like of course Android,
+
+00:16:08.320 --> 00:16:16.080
+ Google Play, and F-Droid, and Apple Store, and often also on test flight.
+
+00:16:16.080 --> 00:16:22.000
+ But also some special app stores in Iran and some other places.
+
+00:16:24.160 --> 00:16:28.480
+ And we have, I would say, currently like 10 to 15 active contributors.
+
+00:16:28.480 --> 00:16:35.040
+ We also have a little community around setting up your own server so
+
+00:16:35.040 --> 00:16:37.960
+ you can easily give out email accounts to your friends.
+
+00:16:37.960 --> 00:16:41.120
+ We have QR code scan, you scan it, you have an account.
+
+00:16:41.120 --> 00:16:43.080
+ And then you can just use it for chatting.
+
+00:16:43.080 --> 00:16:47.440
+ That is actually something that we call the dedicated chat email account, so
+
+00:16:47.440 --> 00:16:50.920
+ that you really just have an email account that you just use for chat.
+
+00:16:50.920 --> 00:16:55.600
+ You can use your existing address and kind of share with your other email app.
+
+00:16:55.600 --> 00:16:57.560
+ Or you can use a dedicated.
+
+00:16:57.560 --> 00:16:59.880
+ And the dedicated is like a kind of a clear model.
+
+00:16:59.880 --> 00:17:02.280
+ It's very easy to just try and onboard and
+
+00:17:02.280 --> 00:17:05.520
+ you don't mess with your kind of existing email address.
+
+00:17:05.520 --> 00:17:10.720
+ But also like half the people who answered in the Fettyverse poll said they
+
+00:17:10.720 --> 00:17:14.960
+ use the existing email address, which is like the original model, but
+
+00:17:14.960 --> 00:17:17.680
+ the server guide is also important there.
+
+00:17:20.160 --> 00:17:22.360
+ I think with that I would like to close.
+
+00:17:22.360 --> 00:17:23.480
+ Maybe one or two questions.
+
+00:17:23.480 --> 00:17:27.200
+ I think that Neil actually wanted to say something earlier.
+
+00:17:27.200 --> 00:17:34.360
+ Otherwise, we are at the Delta Chat Village over there in Comona.
+
+00:17:34.360 --> 00:17:38.960
+ Might also, if there's interest, we can also do some sessions, but
+
+00:17:38.960 --> 00:17:41.520
+ you can always just come there and see who's there.
+
+00:17:41.520 --> 00:17:46.160
+ We are like six, seven people at least who are mostly sitting in the last bench.
+
+00:17:46.160 --> 00:17:49.000
+ Except the orange t-shirt maybe.
+
+00:17:49.000 --> 00:17:52.280
+ Are you also programming in Delta Chat?
+
+00:17:52.280 --> 00:17:54.120
+ No, okay.
+
+00:17:54.120 --> 00:17:54.640
+ So.
+
+00:17:54.640 --> 00:18:01.840
+ And yeah, so with that I'd like to close.
+
+00:18:01.840 --> 00:18:03.480
+ And maybe let Neil ask.
+
+00:18:03.480 --> 00:18:09.280
+ >> You gave as an example the collaborative editor.
+
+00:18:09.280 --> 00:18:13.040
+ And then you also said that you can use a standard in and
+
+00:18:13.040 --> 00:18:14.040
+ standard out model.
+
+00:18:14.040 --> 00:18:16.680
+ And I'm wondering how you get the file out.
+
+00:18:18.040 --> 00:18:20.480
+ >> The file out of the editor.
+
+00:18:20.480 --> 00:18:21.000
+ >> Yeah.
+
+00:18:21.000 --> 00:18:27.080
+ >> Yes, we implemented something funded by an earlier this year.
+
+00:18:27.080 --> 00:18:30.600
+ Where you can have an, there's another API, it's not just send and receive.
+
+00:18:30.600 --> 00:18:35.800
+ So the other IO that you have is send an attachment to a chat.
+
+00:18:35.800 --> 00:18:40.960
+ So any web app can just generate an image or generate a markdown file or
+
+00:18:40.960 --> 00:18:42.920
+ generate an ICS calendar file.
+
+00:18:42.920 --> 00:18:44.480
+ There's also a calendar.
+
+00:18:44.480 --> 00:18:48.880
+ And then you can actually send this item to whatever chat you choose.
+
+00:18:48.880 --> 00:18:51.680
+ So from the web app you say, you basically call this function and
+
+00:18:51.680 --> 00:18:53.680
+ then it switches back to the messenger.
+
+00:18:53.680 --> 00:18:56.200
+ And you send it the attachment to whatever chat you want.
+
+00:18:56.200 --> 00:18:59.240
+ And there's also import files so
+
+00:18:59.240 --> 00:19:05.240
+ you can actually import resources from the local file system into your web app.
+
+00:19:05.240 --> 00:19:08.000
+ And then do something and send it onto a chat.
+
+00:19:08.000 --> 00:19:11.440
+ Like taking an image and modifying it or whatever.
+
+00:19:11.440 --> 00:19:21.440
+ [BLANK_AUDIO]
+
+00:19:21.440 --> 00:19:24.780
+ Okay.
+
+00:19:24.780 --> 00:19:27.880
+ Thanks a lot.
+
+00:19:27.880 --> 00:19:29.720
+ >> It appears we are out of questions.
+
+00:19:29.720 --> 00:19:32.160
+ And so first of all, a big round of applause for Holger.
+
+00:19:32.160 --> 00:19:39.680
+ >> [APPLAUSE]
+
+00:19:39.680 --> 00:19:44.720
+ [MUSIC]
+

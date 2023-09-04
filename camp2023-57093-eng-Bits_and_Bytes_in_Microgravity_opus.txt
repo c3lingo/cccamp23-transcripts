@@ -1,0 +1,487 @@
+ [MUSIC]
+ [MUSIC]
+ Okay, we probably all had our fair share of experiments, right?
+ Maybe technical experience with some device, maybe some cooking experience,
+ or other substances, whatever.
+ Dying nodes, always experimental.
+ And yeah, but all those experiments have taken place in standard atmosphere, of course.
+ And maybe with no acceleration, just being there on Earth.
+ But what if you could change that?
+ Okay, you know, our next speakers, Martin and Jean-Claude,
+ working as computer scientists and mechanical electrical engineers
+ at the German Aerospace Center, DLR.
+ They will show us how to undertake experiments under microgravity conditions,
+ or with the extreme acceleration of hypersonic rockets.
+ Please give a warm welcome to Martin and Jean-Claude.
+ [APPLAUSE]
+ Thank you very much.
+ Thank you very much.
+ Hi, I'm Martin.
+ This is Jean-Claude.
+ Hi.
+ And yeah, we'd like to present to you bits and bytes in microgravity insights
+ into the hard and software of sounding rockets.
+ Yeah, so let's start a little bit about the DLR in general.
+ So the German Aerospace Center, DLR, is a research facility in Germany,
+ one of the biggest with approximately 10,000 employees across 58 institutes
+ and facilities at 30 sites, as you can see here in the picture on the right side.
+ And we work in one institute in DLR.
+ And in one department there called Moraba,
+ which is basically in English a mobile rocket base.
+ And this is, yeah, the base for the rocket base is in Oberfaffenhofen near Munich,
+ which is on the bottom right on the map.
+ And currently we are on the bottom top, as you can see.
+ Yeah, this is DLR in general.
+ But what is Moraba doing?
+ So basically what we are doing is we develop, build, and fly customized sounding rockets.
+ This means we customize sounding rockets for institutional research within DLR,
+ for example, material science, but also for industrial partners.
+ And we customize rockets for their experiments and their payloads.
+ And in addition, we also do some balloon experiments.
+ So, and this especially means that we build rocket vehicles,
+ payload support systems, and ground support systems.
+ Some facts about Moraba.
+ So since like 50 to 55 years, we had 550 plus launches with 30 different vehicles.
+ The heaviest of them weighed about seven metric tons.
+ And they started from about 20 launch sites on Earth.
+ So everywhere on Earth basically.
+ And yeah, we cover research fields from astronomy, aeronomy, microgravity, hypersonics.
+ And there's also student programs for student education.
+ So if you are a student, you can also build rockets and fly them at Moraba,
+ or together with Moraba actually.
+ And we also do technical demonstrations.
+ And yeah, of course, security and defense-related research is also involved.
+ So the first question here is, and this is basically the outline of the presentation,
+ is what is required to fly a sounding rocket or to operate a sounding rocket?
+ And it all starts with mission management and range coordination.
+ And then we go over to electrical and mechanical manufacturing,
+ as well as assembly integration and test.
+ And from there on, we have a full rocket.
+ And we can talk about the launch campaign itself.
+ And then of course, we have post-flight analysis for scientists and for ourselves, right?
+ So much for the outline.
+ So when we start a new campaign or a new mission, basically,
+ we first talk with our stakeholders and partners about the mission profile in general.
+ And basically, we cover two, actually three types of flight profiles.
+ And you can see in the picture on the right, this is on the first...
+ Firstly, it's hypersonic flight.
+ So you can see it's a rather shallow flight there,
+ because basically there, the interest is in speed and the effects.
+ And then we have somewhere in between the student program,
+ which is similar to the actual atmospheric physics and microgravity research,
+ which is basically the top trajectory, which is really high.
+ And there we have microgravity basically for about six minutes.
+ These are the two types, hypersonic flight and microgravity flights with rockets.
+ So once we've talked with our partners about the mission profile in general
+ and what we wanted to cover, what we wanted to do,
+ we can go to the vehicle selection.
+ So there's a whole set of vehicles.
+ That's basically a combination of different motors or solid rocket motors mostly.
+ And then of course, the payload, which is a little bit different every time.
+ When we fly a rocket.
+ So from left to right, you basically have small apogee, small rocket,
+ and to the right you have an orbital rocket,
+ which is in general able to fly into orbit with a small payload.
+ Once we've selected a vehicle for the mission profile,
+ we have to select a proper site for the flight in general.
+ And what you can see here is basically all the locations we have launched a rocket from.
+ The yellow locations here are the locations that are used frequently.
+ These are Kiruna in Sweden and Andernes in Norway, then also Spitsbergen, Norway.
+ And there's one site in Brazil and one site in Australia.
+ So from here on, we now have a whole plan.
+ We now know what we wanted to do.
+ And it's time to talk a little bit about how to build the rocket in general.
+ And I think that's the first time we switch.
+ So the rocket itself is divided into different sections.
+ First, we have the launch segment on the left.
+ The launch services are responsible for the aerodynamics, for the trajectory,
+ and for the decision on which engine we use.
+ Then we have the mechanical flight systems.
+ They do almost every structural thing,
+ like the hull, fins, the nose cone, the bulkheads, the insides, everything we need.
+ But they do also the recovery.
+ For the parachute, we come back to that later.
+ Then we have the data handling.
+ That's where we're from.
+ Data handling is what it says.
+ The experiment sends data from the inside the payload,
+ and we transmit it and distribute it on the ground.
+ Then we have control and instrumentation.
+ Some flights, especially the microgravity flights,
+ they have a cold gas thruster system to reduce movement during the micro-gea phase.
+ They're responsible for that.
+ And then we have the telemetry and tracking station.
+ They track the rocket during the flight with an antenna
+ and receive the telemetry or send the telecommand if necessary.
+ So that's all the departments.
+ You can see what a rocket can look like.
+ This is the VSB-30 vehicle.
+ From left to right, you have the booster, where is S-31,
+ and then the second stage, and then you have the payload.
+ The three modules on top are the recovery system and the motor adapter.
+ Then we have the rate control system and the attitude control system.
+ That's where the cold gas thrusters are.
+ And then the service module, of course, where everything comes together.
+ Since we're from the data handling group, we're responsible for the service module.
+ The service module is kind of modular.
+ So the experiments say, "We need that data rate, and we'd like to have so many power connections."
+ And we say, "Okay, we can do that for you."
+ We also have the batteries.
+ Then the experiment says, "Okay, we have, for example, 10 megabits of data,
+ and we'd like to transmit it to ground, and then we decide how to do it."
+ So the experiments are happy.
+ This is an explosion view.
+ It's a little bit crowded, but just short.
+ This is our largest service module we can offer.
+ You can decide on the national measurement unit, depending on your trajectory,
+ if you need very precision or not.
+ Then on the left, we have the e-box.
+ This is the brain from the service module.
+ There comes everything together.
+ And on the right, we have some GPS receivers.
+ And on the bottom, the telemetry transmitters or telecommand receivers.
+ And all of that, you can see, or most of that is built in-house, mechanics, PCBs,
+ wiring harness.
+ Yes.
+ And talking about the brain from the service module, the e-box,
+ has the multifunction card inside where it's basically the CPU,
+ where everything runs together.
+ And Martin will tell you some details about the MFC2.
+ Yeah, talking about the brain of the system,
+ having the multifunction card second generation here.
+ So this is the MFC2G, as we call it.
+ It basically is a processor, a dual-core Blackfin 561 with 500 MHz,
+ and also an FPGA Cyclone III.
+ You can see that it only has 64 megabytes of SD-ROM and 2 megabytes of DS-ROM.
+ So this hardware is about 10 years old.
+ And currently, actually this year, or in two or three weeks,
+ we started to design the next generation
+ computer or module, service module, actually the whole service module.
+ This also includes the redesign and new design of these circuit cards.
+ But coming back to the current generation,
+ currently we can support 16 422 serial ports and RS 424 eight times.
+ Then we have two CAN bus.
+ We have an Ethernet 10 to 100 base T possibility as a downlink from the experiments.
+ Then we have two GSMK modems for the telemetry inside so that we can send the data during flight,
+ which is coming basically from the experiments via serial.
+ So the next generation basically will use mostly, or this is our idea,
+ will use mostly Ethernet, of course, going a little bit more into the modern area here.
+ Nevertheless, we also have an FPGA which does a lot of work in the background.
+ For example, evaluating flags and stuff so that the CPU does not have to deal with it.
+ We also have an SD card on board here, a mass storage device.
+ That is basically for backup, meaning if we are not able to receive data,
+ via telemetry, for whatever reason, we also have a backup on an SD card from the experiments
+ from all the data that is sent to the ground.
+ This is basically the multifunction card here.
+ Once we've designed or finished the service module,
+ we can go over to the whole testing procedure.
+ We have the service module and then we have also the modules from the experimenters.
+ Then we have to test all of this on the ground before flight, of course.
+ Maybe a little bit to the software, sorry, let me go back again.
+ Just about the software here.
+ So the Blackfin is usually programmed in C++ and Assembler, of course.
+ Then we have the Cyclone processor, which is usually programmed using VHDL for FPGA.
+ I just want to mention that here.
+ If we then assemble the service module and the experiments are ready,
+ and also the mechanical structure is ready, for example, the fins,
+ that are also made in-house, we have to test the whole rocket on ground.
+ One of the first tests we do is basically the air-bearing test.
+ For example, if you have a cold-gas thruster system that controls the rocket in space,
+ we have to make sure that our software pushes the rocket into the right direction.
+ It's a little bit difficult.
+ If you do it wrong in space, yeah, that's too late.
+ So we have to check firstly on ground if all the thrusters work in the correct direction.
+ This is a little video here that shows that.
+ So you can see this is basically lifted by air pressure, the whole structure.
+ The rocket is currently flying basically in simulation mode,
+ and it's moving within the hull.
+ We can check then, okay, it's going into the right direction.
+ It's doing what it's supposed to do.
+ Then also included in this bench test is testing if everything is connected together,
+ if every signal is coming from the experiment to the rocket to the service module.
+ If everything goes to the ground, then we also look into the countdown phase.
+ So how we're supposed to start up the rocket, when we should turn on the batteries, for example,
+ and stuff like that.
+ After all of this, we do a final bench test, which is basically
+ the certificate it's working intended in the plan.
+ Nevertheless, we also do some environmental testing on the rocket.
+ Of course, it's a sounding rocket boosted by solid rocket boosters,
+ so you have a lot of G on the rocket.
+ So we do some shaker tests, which involve sign sweeps on all three axes of the rocket.
+ That basically means, if you basically build together the rocket,
+ then you have some sensors on it, and then you do a frequency measure
+ over some specified frequencies.
+ There's a standard for that.
+ I'm a computer scientist.
+ You know it a little bit better, I guess.
+ But basically what you do is you do a sweep, then you shake the rocket,
+ and then you can take another spectrum.
+ And if it looks different from the first time, you know something is loose inside, maybe a screw.
+ And then you have to take it apart and see what is wrong.
+ Then we also do a center of gravity check so that the rocket is stable in flight.
+ We do moments of inertial measurement and sometimes thermal vacuum testing.
+ Well, and if all this works out, we basically have a completed rocket.
+ For example, some examples here on the side,
+ different vehicles with different payloads, just to see how it could look like.
+ Yeah, so this is then the point where we basically have a completed rocket
+ in Oberpfaffenhofen, Germany, and then we have to go to the launch site.
+ And it's called Mobile Rocket Base, which basically means we take everything we have,
+ and that's a lot of stuff, like the whole telemetry station, the launcher rack,
+ everything you need to maintain and to fly a rocket, and we take it to the place
+ where it's going to be used for the launch.
+ And we take it to the place where we want to launch the rocket,
+ and we build up the whole mobile infrastructure.
+ And this also includes the electrical ground support equipment, or EGSE as we call it.
+ And this is basically on this little sketch here, it's the things on the right side.
+ So you have the rocket on the left with the service module and the experiments.
+ And then you have a serial connector or more than one serial connector or Ethernet
+ going to the service module interface rack, which is basically housed next to the rocket.
+ And from there we have Ethernet of fiber or Ethernet wire fiber to the data switching center,
+ which is basically also a software, again, written currently in C++
+ that is distributing all the data.
+ So taking the data stream, selecting the data streams, and pushing it to the correct experiments
+ or to the scientists and their monitoring stations.
+ Because we only push the data through and they have their own monitoring system
+ where they can do whatever they like with their data, because that's so different every time.
+ But we also have, of course, housekeeping of our own system, like temperatures,
+ and what is also involved, like position and stuff like gyroscope, accelerator, you name it.
+ And then, of course, we have an Ethernet and fiber also coming into our data switching system.
+ So you have the left side to the service module interface rack, which is basically the connection
+ while the rocket is on ground.
+ And then you have the telemetrications which feed the data in when the rocket is in flight.
+ So this is also then built up on ground.
+ And in parallel, basically, we also assemble the whole rocket together again.
+ And yeah, prepared for launch.
+ For example, the launch services then also attaches the motor and the boosters.
+ And then it's, that's your part, right?
+ Excuse me.
+ Yeah, as you can see on the left, we put all the modules together, check that every screw is tight,
+ check that there are no loose parts, no loose cables.
+ We tighten everything.
+ Sometimes a little bit tedious, but it's necessary.
+ And then when it's all done, we have the so-called rollout, as you can see in the right picture,
+ where the complete vehicle is rolled out to the launching side.
+ At the launching side, as you can see here, the rocket will be
+ slided onto the beam and then all the electrical connections are done.
+ They are called umbilicals.
+ They need to be rigged in some special way.
+ So after liftoff, they get pulled away from the rocket.
+ So the connectors and cables either won't fly with the rocket, which is bad, and also don't hit the fins,
+ which is also bad.
+ So you need to have, you need to take special care.
+ But then it looks something like that.
+ And on the right picture, you can see the lifted rocket on the launcher.
+ It's inside a building and then the building opens and the rocket goes outside.
+ And ready for launch.
+ Then, for example, we have here more details on the flight trajectory.
+ This is a macro gravity flight.
+ It's a little bit thin on the beamer, but hey.
+ You have to launch on the left side where the booster is ignited.
+ Then you have the, after the booster is burnt out and it's gone,
+ we ignite the second stage.
+ And after the second stage burnt out, we separate the payload.
+ So there are no, it's just the payload floating in space.
+ And then depending on the weight, of course, we have like five to 10 minutes microgravity
+ where the experiments will happen.
+ And after the experiment phase, since we're flying a parabola,
+ the payload is spun up to induce drag on the system and the atmosphere.
+ So it will slow down.
+ And after a couple meters or seconds or minutes or whatever,
+ we start the parachute phase.
+ We have two parachutes, a drogue chute and a main chute.
+ So the vehicle gets slower every time.
+ And on the last thing is the rocket will smoothly land on the ground.
+ And since this is a little bit abstract, we prepared a video for you.
+ And this is the launch of MAFOS 5.
+ It's a microgravity research for material science.
+ And yes, enjoy the flight.
+ [Music]
+ Get in.
+ [Music]
+ Now this is from an inside of the launcher.
+ [Music]
+ Turn off thrust side.
+ We look to second side.
+ [Music]
+ So this is, yeah, that was just the sound from the ground.
+ And now the second stage burned out.
+ And it flies a little bit further.
+ And then we de-spin it with the yoyo system and separate the payload.
+ And now you have five minutes microg and 250 kilometers apogee.
+ So that was the whole start, right?
+ So it takes like no cut.
+ Yeah, no cut.
+ Like 20 seconds to space.
+ Yeah.
+ And then after the reentry, experiment phase, we have the reentry phase.
+ Maybe it's a little bit not so good.
+ It's the earth in the background here and the payload in front.
+ And now you can hear the atmosphere coming back in a second.
+ So this is the cold-gas thruster, I think, trying to keep it stable.
+ And now you hear the little tone.
+ This is the atmosphere.
+ And it's coming fast.
+ [laughter]
+ So the reentry phase takes a little longer, of course, but then you have the parachute phase.
+ And if everything went so well, the landing will look like this.
+ [
+ And there you can see the parachute falling down.
+ Yes.
+ [applause]
+ Then after the successful flight, we recover everything with the helicopter.
+ Here you can see the rocket stuck in the ground.
+ It's a very nice picture.
+ And yes, after we recovered the payload, we tried to reuse everything.
+ So we have rockets that have flown like 10 times and we're using them until they're mechanically
+ unusable.
+ So yes.
+ And then the complete cycle starts again.
+ New experiments, new vehicle, new launch campaign.
+ Thank you very much for your attention.
+ [applause]
+ Thank you very much, Martin and Jean-Claude.
+ Well, do we have questions?
+ Yes, we have plenty of time for some questions.
+ Over there, third row with the head.
+ Sorry, can you repeat?
+ There's some...
+ Mass.
+ No, no, no, wait, wait.
+ There's some microphone coming around.
+ There's already one.
+ Hi, what's the mass of the payload?
+ The mass of the payload depends on the vehicle.
+ It's between 100 and 500 kilograms, I guess.
+ Over there.
+ Hello.
+ Sorry if this is a stupid question, but I don't think I got it.
+ Why are they called sounding rockets?
+ Good question.
+ It's a good question.
+ I'm not sure if I can answer it correctly because we don't often use the English terms, but it's...
+ Since the rocket is flying a parabola and it's not going into orbit, it's just
+ shortly in the atmosphere.
+ And sorry, I cannot explain the correct term why it's called sounding rocket.
+ It's just the English term for, in German, "Höhenforschungsrakete",
+ which is basically high research rocket or high flying research rocket.
+ But yeah, it's just a technical term.
+ I guess sounding is something like probing, maybe.
+ So we're probing the atmosphere.
+ Sorry.
+ Some nodding here in the audience.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Hi.
+ Okay.
+ How many times that you're doing the testing,
+ find something that it's so bad that you have to stop everything and start?
+ How many times do you find these errors?
+ Sorry, we cannot understand you to the microphone.
+ Maybe you have a second microphone?
+ It's a technical problem.
+ It's nothing to do with the microphone.
+ Maybe you can come over and I repeat the question.
+ Maybe you can come over here.
+ Maybe.
+ If you've got a question, queue up here on the side of the stage.
+ So we've, yeah.
+ How many times when you're doing the testing,
+ you find something that it's so bad or wrong that you have to stop the whole mission, let's call it, right?
+ How many times the testing is there?
+ Never.
+ Because we have to fly the mission, so we do everything to do it.
+ So maybe sometimes they're overtime, but all of the time are working.
+ So.
+ Usually you, if there's a problem, of course, usually you shift the schedule a bit, but yeah, not flying.
+ I don't know.
+ No.
+ Not usually, never, yeah.
+ And they are also not that many problems because they are very proven systems and they fly all the time.
+ And most of the time everything goes right.
+ So we tend to do things similar in every mission, in every campaign.
+ The structural, mechanical parts of the rocket are always built in a similar way or in the same way, standardized way.
+ Also electronic software, we try to use the heritage.
+ All right.
+ Next question over there with the green shirt.
+ I think I heard you say you use solid fuel.
+ Yes.
+ What is it made of and why are you using solid stuff?
+ Because I think I learned that most rockets use liquid fuel or like mixing hydrogen and oxygen.
+ Yeah, that's right.
+ The thing is liquid rockets are very complicated to build and to use.
+ And also hybrid rockets are a thing, but not very common.
+ And so let's rocket motors have the great thing that they're very simple to use because you just have to just have to ignite them and they're doing their job.
+ There's of course more involved into that, but you don't have to fuel the tanks.
+ You don't have to have some pumps and stuff.
+ So it's just more easy to use.
+ Also solid rocket boosters usually have a higher impulse, thrust on ground.
+ Coming back to that, how many Gs do you pull when you're going up?
+ With a liquid you can control that, with solid you can't.
+ No, we can't.
+ It depends on the vehicle of course between 10 or 20.
+ So it's a very tough ride.
+ You wouldn't be sending people up.
+ No, no people. Only experiments.
+ So you mentioned that you were going to redesign the control system for those rockets or upgrade it at least to modern technology.
+ Also you mentioned that currently it's programmed in C++.
+ Is it going to stay C++ or are you going to migrate to something like, I don't know, Rust or something like that?
+ Actually we are thinking about Rust for example because of the paradigm in the language.
+ But the problem here is also the manpower and the people who understand this new language.
+ People with knowledge are limited resource.
+ But currently the C++ is just because of the real-time OS that is running on the Blackfin processor.
+ Alright, there are still more questions. Please come up to the microphone.
+ More about the software stack. What is the architecture of the Blackfin processor and what kind of operating systems and what kind of libraries are you using there? Any open source stuff?
+ How is it called? It's an open source real-time Linus Rodos.
+ It's called Rodos in an older version.
+ But the Blackfin processor is basically a DSP, a signal processor.
+ But it's running basically Rodos bare on the CPU. So this is the assembler part.
+ Hi again. Do you do any pre-flight or in-flight hacking, pen testing, security test, radio or something?
+ Well, not in-flight. Because it should work in-flight.
+ So I think the scientists are not happy if you do some pen testing in between. They don't get any data back.
+ But yeah, of course we thrive to do that. But same problem here. People and resources.
+ Hi. So in the overview slide, did I get it right that you're developing also?
+ Sorry, the microphone went off again. Did I get it right that you're also developing an orbital rocket?
+ How does it differ from what you currently have?
+ Yes, there's the cooperation with the Brazilian Space Agency and it's a solid rocket orbital vehicle.
+ But it's still under development, so stay tuned.
+ One more question. I saw in the video that the second stage separated from the payload.
+ What's the point of that? The payload doesn't have any engine, so you're not taking advantage of the separating of them.
+ Is there another reason?
+ Let me shortly think about that. We separate the engine from the payload to have the center of gravity within the payload.
+ So you don't have any levers pushing on you, of course. Also the mass is reduced, so we don't need that much cold gas and the cold gas thrusters.
+ Sometimes the solid rocket motors have a little bit of fuel residue inside that maybe gasses out and destroys the quality of microgravity.
+ So you want to get rid of that. Also we don't need the weight on the motor on the parachute.
+ This is also something we didn't mention. The microgravity they talk about in the ISS, for example, it's not so clean gravity because it's a working machine with people in it.
+ The rocket has a really close to zero basically. It's a small machine with less vibrations and we have a very high quality of microgravity.
+ So you want to get rid of every disturbance around. But sometimes the motor keeps attached, I think. It depends.
+ All right, last question please. Hi again. Did you have any attack in flight or pre-flight on the rockets that you can tell us about? Real ones?
+ Not that I know about. Thank you.
+ All right, thank you very much. Give it up again for Martin and Jean-Claude. Thank you very much for that awesome talk.
+ [Applause]
+ [Music]

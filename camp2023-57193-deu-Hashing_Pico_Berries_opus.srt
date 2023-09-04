@@ -1,0 +1,600 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:33,000
+ Ja, schön, dass ihr euch am späten Abend noch hier getraut habt.
+
+3
+00:00:33,000 --> 00:00:41,000
+ Der nächste Vortrag ist auf Deutsch und ich freue mich, dass sich Professor Rüdiger Weiß von der...
+
+4
+00:00:41,000 --> 00:00:47,000
+ Welche Technische Hochschule Berlin... Berlinerschule für Technik. Es gibt zu viele Hochschulen in Berlin.
+
+5
+00:00:47,000 --> 00:00:50,000
+ Ich komme da selber hier. Also Berliner Hochschule für Technik.
+
+6
+00:00:50,000 --> 00:00:55,000
+ Professor Weiß wird uns was über Pico Berries erzählen.
+
+7
+00:00:57,000 --> 00:01:04,000
+ [Applaus]
+
+8
+00:01:04,000 --> 00:01:19,000
+ Geht das? Ja. Ja, also vielen Dank, dass so viele Leute da sind, obwohl der Untertitel des Talks war, also Post-Quantensignaturen für Raspberry Pi... Raspberry Pico.
+
+9
+00:01:20,000 --> 00:01:29,000
+ Und ja, das ist in der Tat, hört sich das Bild Mathematik schwierig an. Und es gibt eine gute und eine schlechte Nachricht.
+
+10
+00:01:29,000 --> 00:01:38,000
+ Es ist mathematisch schwierig, allerdings ist es aus Hackersicht überraschend, dass man da sehr einfache Lösungen fangen kann.
+
+11
+00:01:38,000 --> 00:01:46,000
+ Und die auch so gebaut sind, dass man wirklich in ganz wenigen Schritten da zu ganz faszinierenden Ergebnissen führen kann.
+
+12
+00:01:46,000 --> 00:01:55,000
+ Und die Sachen, die ich heute vorstelle, sind Teil einer laufenden Masterarbeit von Pierre Kotzler, der leider heute nicht da sein kann.
+
+13
+00:01:55,000 --> 00:02:08,000
+ Und es war wirklich unsere Überlegung, wir nehmen mal ein wirklich möglichst schwaches Gerät und gucken, ob wir damit wirklich zukunftskompatible Kryptographie machen können.
+
+14
+00:02:08,000 --> 00:02:18,000
+ Und irgendwie freut mich das Thema aus mindestens drei Gründen. Einmal ist es mathematisch interessant und es gibt eine sehr schöne Lösung,
+
+15
+00:02:18,000 --> 00:02:26,000
+ die Mathematik involviert, aber nicht mehr Mathematik involviert, als man in einem Masterseminar darstellen kann.
+
+16
+00:02:26,000 --> 00:02:34,000
+ Und das ist für sehr viele andere Sachen im Bereich Quanten, Computing und Postquanten wirklich nur in sehr beschränkendem Maße der Fall.
+
+17
+00:02:34,000 --> 00:02:45,000
+ Zum zweiten ist es ein hochinteressantes Hardware Device, dieser Raspberry Pico. Und was halt fasziniert ist, sind die geringen Kosten.
+
+18
+00:02:45,000 --> 00:02:59,000
+ Also die gehen für den einzelnen Chip auch durchaus auch knapp unter ein Euro. Und sehr ausgebaute Varianten mit auch sehr umfassender Bluetooth- und WLAN-Unterstützung sind jetzt glaube ich bei 5,70 Euro oder so.
+
+19
+00:02:59,000 --> 00:03:09,000
+ Also ganz faszinierend. Und der dritte interessante Aspekt ist, dass wir uns da mal micropytonäant haben und da finde ich es auch spannend,
+
+20
+00:03:09,000 --> 00:03:17,000
+ dass man mit einer sehr, sehr niedrigen ersten Lernschwelle da auch fantastische Ergebnisse machen kann.
+
+21
+00:03:17,000 --> 00:03:27,000
+ Da das hier aber ein CCC-Vortrag ist und ich ohnehin zu viel Mathe mache, kann ich auch versprechen, dass hier in dem Vortrag mindestens zwei Einhörner vorkommen
+
+22
+00:03:27,000 --> 00:03:34,000
+ und ansonsten auch einige andere Ideen, die glaube ich jetzt für Hacker-Projekte ganz wertvoll sein könnten.
+
+23
+00:03:34,000 --> 00:03:40,000
+ Fangen wir an mit dem ersten Einhorn und das ist durchaus eine kleine Verbeugung für Dieter Bernstein,
+
+24
+00:03:40,000 --> 00:03:52,000
+ weil Dieter Bernstein hat seit Mitte der 2000er Jahre oder früher die Probleme von Quantencomputern für normale Kryptographie aufgezeigt
+
+25
+00:03:52,000 --> 00:04:00,000
+ und hatte in einem seiner ersten Talks da in der Tat ein sehr schlecht gelauntes Einhorn im Hintergrund, das also alles verwüstet.
+
+26
+00:04:00,000 --> 00:04:11,000
+ Und naja, man kann sagen, Kryptographen haben manchmal eine sehr deutliche Bildsprache, aber eine interessantere Sache ist das von 2014,
+
+27
+00:04:11,000 --> 00:04:20,000
+ wo das NIST eigentlich geschrieben hat "The Sky is Falling" und da unten ist es auch eine meiner wenigen Folien,
+
+28
+00:04:20,000 --> 00:04:31,000
+ wo ich da was vom NIST direkt übernommen habe. Impact, RSA kaputt, elliptische Kurven kaputt, DSA, also Diffie-Hellman basierte Systeme kaputt
+
+29
+00:04:31,000 --> 00:04:35,000
+ und auch die Digital Signature Algorithmus.
+
+30
+00:04:35,000 --> 00:04:43,000
+ Hier sei mir doch mal erlaubt, dass ich jetzt doch auf einige Jahre CCC-Vorträge zurücksehen kann
+
+31
+00:04:43,000 --> 00:04:47,000
+ und da immer aus verschiedenen Gründen vor elliptischen Kurven gewarnt habe.
+
+32
+00:04:47,000 --> 00:04:52,000
+ Und ich kann ganz deutlich sagen, dass was ich damals als Warnung formuliert habe,
+
+33
+00:04:52,000 --> 00:05:01,000
+ nämlich dass wegen der kürzeren Schlüssellänge Quantencomputer elliptische Kurven noch viel schneller brechen würden als klassische Kryptoverfahren,
+
+34
+00:05:01,000 --> 00:05:14,000
+ das ist eine Position, die glaube ich 2017 auch von Koblitz und Miller, also den eigentlich Hauptentwicklern der elliptischen Kryptographie durchaus auch eingeräumt werden.
+
+35
+00:05:14,000 --> 00:05:20,000
+ Aber gehen wir mal weiter, hier unten sehen wir, symmetrische Krypto braucht längere Schlüssel.
+
+36
+00:05:20,000 --> 00:05:29,000
+ Längere Schlüssel ist im Fall von AES, kurz vorm AES-256, ist ausreichend lang.
+
+37
+00:05:29,000 --> 00:05:35,000
+ Bei DRIBBLE-DS bin ich ganz gespannt, wie sie da längere Schlüssel generieren wollen.
+
+38
+00:05:35,000 --> 00:05:39,000
+ Da gibt es durchaus ein paar Ideen, aber das dürfte ein bisschen schwieriger sein.
+
+39
+00:05:39,000 --> 00:05:50,000
+ Und die letzte Zeile, die wir auf dieser Folie haben, ist ein Punkt, wo uns schon ein bisschen Hoffnung erahnen lässt.
+
+40
+00:05:50,000 --> 00:05:57,000
+ Hechtfunktionen sind auch betroffen, aber da können wir mit einem längeren Output weiterarbeiten.
+
+41
+00:05:57,000 --> 00:06:06,000
+ Und wie ihr hier seht, haben wir Schar 1, Schar 2, Schar 3 und Schar 2 gibt es bei Schar 256 und Schar 512.
+
+42
+00:06:06,000 --> 00:06:15,000
+ Bei Schar 3 gibt es sogar höhere Flexibilität. Also die Kurzform ist, Hechtfunktionen haben wir einigermaßen unter Kontrolle.
+
+43
+00:06:15,000 --> 00:06:21,000
+ Wer ein bisschen tiefer da einsteigen will, das sind nochmal die beiden zentralen Algorithmen genannt.
+
+44
+00:06:21,000 --> 00:06:26,000
+ Einmal der Schor-Algorithmus, der Faktorisierung und diskrete Logarithmusprobleme adressiert.
+
+45
+00:06:26,000 --> 00:06:32,000
+ Und zum anderen der Grover-Algorithmus, der so suchen in großen Datenbanken sehr vereinfacht da ist.
+
+46
+00:06:32,000 --> 00:06:46,000
+ Und dieser Grover-Algorithmus führt in der Tat zu einer Reduzierung des Schlüsselraums, aber in einem Rasse, das noch beherrschbar erscheint.
+
+47
+00:06:46,000 --> 00:06:53,000
+ Insbesondere jetzt ganz vereinfacht gesagt hat man bei Schar 256 auch mit Quantencomputer noch so etwas,
+
+48
+00:06:53,000 --> 00:07:03,000
+ naja jetzt ein bisschen blumig gesprochen, aber immer noch 128 Bit Sicherheit, was für die meisten Anwendungen ausreichend sein sollte.
+
+49
+00:07:03,000 --> 00:07:11,000
+ Also das ist die Sache, die auch das NIST geschrieben hat, die die Kryptographen und das ist auch, jetzt sind wir ja nach 2014 fast zehn Jahren weiter,
+
+50
+00:07:11,000 --> 00:07:18,000
+ ist es auch so weit, dass es inzwischen auch einen interessanten Wettbewerb gab mit ersten Kandidaten.
+
+51
+00:07:18,000 --> 00:07:26,000
+ Zu dem TUM komme ich ganz später. Ganz interessant vielleicht Quantencomputer, eine Sache, wo ich doch lächeln müsste war Gasmak.
+
+52
+00:07:26,000 --> 00:07:33,000
+ Der Doom-Programmierer hat mal auf eine Frage Quantencomputern gesagt, der hat es sich angeguckt, aber es ist eine schreckliche Technologie,
+
+53
+00:07:33,000 --> 00:07:42,000
+ weil man kann es für kaum was brauchen oder für nichts brauchen, was ihn interessiert, aber es zerstört was, was nie zerstört werden sollte,
+
+54
+00:07:42,000 --> 00:07:49,000
+ nämlich die Sicherheit von RSA, elliptischen Kurven und anderen Kryptosystemen. Und nochmal um darauf hinzuweisen,
+
+55
+00:07:49,000 --> 00:07:56,000
+ das Problem ist bei diesen Verfahren wären dann, wenn der Quantencomputer in Arbeit nicht nur die aktuellen Kommunikation
+
+56
+00:07:56,000 --> 00:08:03,000
+ oder alle Kommunikation, die mit dem Verfahren geschützt wird, sondern alle aufgezeichnete Kommunikation auf einmal sperrangelweit offen.
+
+57
+00:08:03,000 --> 00:08:12,000
+ Also das ist ein Problem. Die Frage, wie schnell das kommt, ist eine Frage, die würde ich ganz gerne an die Physiker etwas weiterleiten,
+
+58
+00:08:12,000 --> 00:08:18,000
+ aber wir können sagen, dass inzwischen durchaus ein Problembewusstsein auch bei den Standardisierern drin ist.
+
+59
+00:08:18,000 --> 00:08:26,000
+ Wer die aktuellen Empfehlungen des BSI zum Signaturgesetz aufmerksam gelesen hat, sieht da durchaus eine Entwicklung,
+
+60
+00:08:26,000 --> 00:08:34,000
+ dass für längerfristige, immer einsatzsehende Systeme schon diese Quantenprobleme zu berücksichtigen sind.
+
+61
+00:08:34,000 --> 00:08:46,000
+ Aber kommen wir zu der guten Nachricht, was sehr gut formuliert ist, Hechtfunktionen und nicht nur, weil es sehr stabil gegen diese Quantencomputer,
+
+62
+00:08:46,000 --> 00:08:56,000
+ Sachen sind stabiler als DLP und RSA-Sachen, sondern weil man mit diesen Hechtfunktionen wirklich schon mit ganz alter Technologie,
+
+63
+00:08:56,000 --> 00:09:05,000
+ im Wesentlichen von Leslie Lamport, dem L von LaTeX und auch der anderen sehr wichtigen ergebenden Lamport-Uhr und so weiter,
+
+64
+00:09:05,000 --> 00:09:18,000
+ entwickelte System der One-Time-Signaturen, da es so wirklich militant einfach ist, dass selbst die Sicherheitsbeweise in einer normalen Vorlesung dargestellt werden können.
+
+65
+00:09:18,000 --> 00:09:25,000
+ Es bewahrt im Wesentlichen auf der Einwegeigenschaft von kryptographischen Funktionen und hier auch sehr blumig gesagt,
+
+66
+00:09:25,000 --> 00:09:32,000
+ wenn wir Probleme mit der Einwegeigenschaft von Hechtfunktionen haben, ist sowieso alles unter Wasser.
+
+67
+00:09:32,000 --> 00:09:42,000
+ Insofern ist es schon interessant, wir kommen nachher vielleicht bei den Treichen nochmal so, mit leichten Modifikationen kann man sogar erreichen,
+
+68
+00:09:42,000 --> 00:09:47,000
+ dass selbst eine kollisionsbehafte Hechtfunktion eine hohe Stabilität erreicht.
+
+69
+00:09:47,000 --> 00:09:54,000
+ Also mit anderen Worten, das habe ich mit diesem sehr lyrischen, kryptographisches, gutes Bauchgefühl da unten versucht zu kommunizieren,
+
+70
+00:09:54,000 --> 00:10:02,000
+ ich kann es auch "hatter" formulieren. Ich glaube und das bin ich mir relativ sicher, dass auch in der Kryptographischen Forschungsgemeinde,
+
+71
+00:10:02,000 --> 00:10:10,000
+ dessen Konsens ist, dass hechtbasierte Systeme das einzige sind, wo ich Sicherheit wirklich guten Gewissens empfehlen kann.
+
+72
+00:10:10,000 --> 00:10:18,000
+ Die neuen Verfahren sind sehr neue Verfahren, sind sehr faszinierende Verfahren, aber sagen wir mal,
+
+73
+00:10:18,000 --> 00:10:26,000
+ ein warm and fussy feeling, um Bruschneier zu zitieren, hat man eigentlich nur bei den hechtbasierten Signaturen.
+
+74
+00:10:26,000 --> 00:10:33,000
+ Also wie gesagt, es sind One-Time-Lempert-Signaturen, die sind sehr einfach, ich glaube die Arbeit ist von 1979.
+
+75
+00:10:33,000 --> 00:10:41,000
+ Man kombiniert es in der Regel mit zwei Zusatzsachen, nämlich mit einer Organisation der Schlüssel in einem Merkel-Tree,
+
+76
+00:10:41,000 --> 00:10:49,000
+ in den vortrittlicheren Sachen auch in Multi-Level-Trees, aber sagen wir mal, für die einfache Einführung reicht da Merkel-Trees.
+
+77
+00:10:49,000 --> 00:10:55,000
+ Und vielleicht sogar zwei Punkte, die jetzt in dem Vortrag etwas relevanter sind als diese Bohrkonstruktion,
+
+78
+00:10:55,000 --> 00:11:01,000
+ sind die sogenannten Winternetz-Time-Memory-Trade-Offs und Priefixes und Bitmask.
+
+79
+00:11:01,000 --> 00:11:07,000
+ Also Priefixes und Bitmask, da ich schon hier die 10 Minuten Warnung erhalten habe, werde ich nur kurz darauf eingehen,
+
+80
+00:11:07,000 --> 00:11:13,000
+ sind leichte Modifikationen, die dazu führen, dass die Anforderungen an die Hechtfunktion noch geringer werden.
+
+81
+00:11:13,000 --> 00:11:24,000
+ Und wer gerne drollt, kann mal reingucken, diese Winternetz-Parameter und Konstruktionen sind durchaus ganz generische Hechtchains.
+
+82
+00:11:24,000 --> 00:11:31,000
+ Und wer ein bisschen Leute ärgern will, kann natürlich auch von einem blockchainartigen Protokoll sprechen auf der unteren Ebene.
+
+83
+00:11:31,000 --> 00:11:38,000
+ Aber das will ich heute Abend nicht machen, aber bei der normalen Lektüre hätte man das durchaus so definieren können.
+
+84
+00:11:38,000 --> 00:11:47,000
+ Aber Spaß beiseite, es ist ein einfacher, sehr einfacher Memory-Trade-Off, der nachher bei den Folien, bei der Implementierung noch mal relativ wichtig sein muss.
+
+85
+00:11:47,000 --> 00:11:56,000
+ Aber vielleicht ist nochmal, um das mal aus kryptografischer als Professoren Sicht zu sehen, Lamport-Signaturen kann man wirklich in der Bachelor-Vorlesung umfassend erklären.
+
+86
+00:11:56,000 --> 00:12:04,000
+ Merkle, Trees, glaube ich auch, wenn Sie Datenbanken gehört haben. Winternetz-Trade-Parameter ist auch eine Sache, die noch ist.
+
+87
+00:12:04,000 --> 00:12:10,000
+ Das einzige, wo man vielleicht ein bisschen tiefer reingehen müsste in die Sicherheitsbereiche, Präfix, das ist eine Master-Vorlesung.
+
+88
+00:12:10,000 --> 00:12:16,000
+ Das ist eigentlich interessant, dass man der Vorlesung halten kann, weil ehrlich gesagt die anderen Krypto-Algorithmen,
+
+89
+00:12:16,000 --> 00:12:27,000
+ die jetzt in der Kandidaten-Schafe Post-Quantum-Kryptographie sind, sind so schwierig, dass glaube ich nur ganz wenige Leute das vernünftig vermitteln können.
+
+90
+00:12:27,000 --> 00:12:32,000
+ Ich habe es bisher noch nicht hingekriegt. Ich werde vielleicht bis zum nächsten Camp daran mal arbeiten.
+
+91
+00:12:32,000 --> 00:12:36,000
+ Aber jetzt kommen wir vielleicht für Hacker-relevantes Sachen nochmal.
+
+92
+00:12:36,000 --> 00:12:40,000
+ Oh, Entschuldigung, jetzt musste ich noch eine Mattefolie, aber dann kommen wir gleich zu den Hack-Sachen.
+
+93
+00:12:40,000 --> 00:12:46,000
+ Noch eine Mattefolie, ich gebe es zu. Ups, war ich das? Ja, danke.
+
+94
+00:12:46,000 --> 00:12:58,000
+ Die aktuellen Empfehlungen für Stateful-Signaturen sind einmal die Extended-Merkle-Signaturen, XMSS, so rum, Leit- und Michalli-Signaturen.
+
+95
+00:12:58,000 --> 00:13:04,000
+ Dazu gibt es passende RFCs, BA50-Seiten, relativ nett geschriebene Empfehlungen.
+
+96
+00:13:04,000 --> 00:13:13,000
+ Man kann diesen NIST-Standard von 2020 hören. Das ist immer das Problem von Professoren, wenn man meint, das ist eine nette Idee.
+
+97
+00:13:13,000 --> 00:13:26,000
+ Das hat noch niemand gemacht. Vor ein paar Wochen sind diese Leit- und Michalli-Signaturen auch ins Open-TDK, das ist irgendeine andere Programmiersprache, eingebaut worden.
+
+98
+00:13:26,000 --> 00:13:34,000
+ Kommen wir aber jetzt zu den Sachen, die mir als Hacker wirklich tief gute Laune machen, und das ist der Raspberry-Pico.
+
+99
+00:13:34,000 --> 00:13:40,000
+ Wenn man sich mal gammelt, das hat ziemlich genau die Größe von einem kleinen Finger.
+
+100
+00:13:40,000 --> 00:13:50,000
+ Überall, wo Sie einen kleinen Finger hin tun können, können Sie einen Pico hinstellen, aber nicht überall, aber könnten Sie von den Maßen.
+
+101
+00:13:50,000 --> 00:14:01,000
+ Das hat allerdings einen Dual-Cortex drin, und mein Kumpel, der in der Industrie arbeitet, sagt, wenn man die Prozessoren nur nimmt, geht es unter 1 Euro.
+
+102
+00:14:01,000 --> 00:14:13,000
+ Also der dumme "Bringen wir Chips mit Computerchips oder Kartoffelchips", was billiger ist, ist inzwischen so, dass er in der Tat immer in den 1-Euro-Bereich.
+
+103
+00:14:13,000 --> 00:14:21,000
+ Die Vollbluen-Version, mit der wir auch ganz gerne rumspielen, mit Wav-Line und Bluetooth, kostet 5,70 Euro.
+
+104
+00:14:21,000 --> 00:14:37,000
+ Da ist ein Dual-Core-Armprozessor drin, also nicht der ganz fixeste, allerdings immerhin mit flexibler Glocken-Möglichkeit bis zu 133 MHz, was für einige Anwendungen ausreicht.
+
+105
+00:14:37,000 --> 00:14:45,000
+ 206 kS RAM, 2 MB on-board vielleicht, und für Lehre, Forschung und Spielen auch höchst relevant.
+
+106
+00:14:45,000 --> 00:14:53,000
+ Er wird freundlicherweise in derselben Programmiersprache programmiert wie unser Blinker-Batch hier auf dem Camp, nämlich MicroPython.
+
+107
+00:14:53,000 --> 00:15:03,000
+ Man kann es natürlich auch mit C-Programmen, es wäre vielleicht sogar vernünftiger, einiges in C direkt zu machen, aber MicroPython fasziniert mich einfach wegen der Einfachheit des Zugangs.
+
+108
+00:15:03,000 --> 00:15:06,000
+ Insofern haben wir das jetzt erst mal adressiert.
+
+109
+00:15:06,000 --> 00:15:16,000
+ Ein Punkt, den ich auch in der Ankündigung hatten, wir nehmen es durchaus ernst, dass wir als Informatiker zu ein paar Sachen beitragen können, die die Welt potenziell besser machen können.
+
+110
+00:15:16,000 --> 00:15:24,000
+ Eine Sache ist, dass wir überlegt haben, wir programmieren für dieses Gerät, was für Sensoraufgaben wirklich fantastisch geeignet ist.
+
+111
+00:15:24,000 --> 00:15:35,000
+ Es hat einen Low-Power-Sleep-Modus, es hat sogar noch einen tieferen Sleep-Modus, wo wirklich die Stromverbrauchung unter einem Milliampere liegt.
+
+112
+00:15:35,000 --> 00:15:41,000
+ Es hat 26 GPIO-Pins, damit kann man alles anschließen, was nicht bei drei auf den Bäumen ist.
+
+113
+00:15:41,000 --> 00:15:43,000
+ Es hat einen eigenen Temperatursensor.
+
+114
+00:15:43,000 --> 00:15:51,000
+ Und für eine Sache, die ich nachher noch mal ganz kurz eingehe, weil ich mir in der Zeit doch schon ein bisschen zu stark hängen geblieben bin,
+
+115
+00:15:51,000 --> 00:15:58,000
+ es hat einen eigenen eingebauten Clock und einen eigenen On-Chip-Timer, da kommen wir später noch mal dazu.
+
+116
+00:15:58,000 --> 00:16:04,000
+ Also was haben wir da kurz gemacht? Die Arbeit läuft noch, ich glaube nach einer Verlängerung bis zum September.
+
+117
+00:16:04,000 --> 00:16:09,000
+ Also wir haben uns den passenden RFC angeschaut, wir haben das möglichst langweilig gemacht.
+
+118
+00:16:09,000 --> 00:16:25,000
+ Wir haben die Schlüssel aufs Online-Flash gemacht, wir haben die Cache für die Not des Hechtries gemacht und der Student hat dann die LM-Signatur gewählt.
+
+119
+00:16:25,000 --> 00:16:37,000
+ Das ist am Arbeiten. Was ich auch spannend finde, sind die Windernitz-Parameter, wo ich gesagt habe, dass da so eine Art Hecht-Chain gebaut wird.
+
+120
+00:16:37,000 --> 00:16:53,000
+ Da haben wir im Teil Memory-Trade-Off, also kurz gesagt, wir können mit kleineren Schlüsselarbeiten, wenn wir zwei hoch w, w ist dieser Windernitz-Parameter, Hecht ist berechnet.
+
+121
+00:16:53,000 --> 00:17:00,000
+ Wir haben aber für 4 gewählt, 2 hoch 4, das scheint mir eine relativ überschaubare Zahl zu sein.
+
+122
+00:17:00,000 --> 00:17:07,000
+ Und dann haben wir halt Schlüssel, nur Signaturlängen von etwa 2 Kilobyte.
+
+123
+00:17:07,000 --> 00:17:17,000
+ Das ist für die Leute, die die klassischen Signaturlängen kennen, natürlich immer noch sehr groß, aber ich glaube für sehr viele Anwendungen bewältigbar.
+
+124
+00:17:17,000 --> 00:17:31,000
+ Die Implementierung, wo der Student gerade arbeitet, arbeitet in der Tat mit Windernitz-Parameter 4 und da benutzt er 993,5 Kilobyte für 128 Schlüssel.
+
+125
+00:17:31,000 --> 00:17:38,000
+ Wir kommen noch später ganz schnell noch dazu, warum das durchaus relevant ist.
+
+126
+00:17:38,000 --> 00:17:51,000
+ Ein Vorschlag, der der Student abgegeben hat, ist für so ein Sensornetzwerk, da war wirklich unsere Idee möglich, also ein Sensornetzwerk, das wir aus ökologischen Gründen irgendwo hin schmeißen und das Messergebnisse schicken soll.
+
+127
+00:17:51,000 --> 00:17:56,000
+ Die Messergebnisse sollen signiert werden, auch der Update für die Dinger soll signiert werden.
+
+128
+00:17:56,000 --> 00:18:06,000
+ Wesentlich soll das Ding schlafen, soll manchmal Wehplanverbindungen machen, um wirklich es rauszukriegen, dass wir mit einer Fotozelle die Sache betreiben können.
+
+129
+00:18:06,000 --> 00:18:17,000
+ Da müssen wir gucken, wie weit wir kommen, aber das ist unser Anstreben, dass wir das möglichst limitiert, also mit der billigsten Version, adressieren.
+
+130
+00:18:17,000 --> 00:18:27,000
+ Der Ablauf ist auch nicht überreinbar, wir generieren Schlüssel, wir tun das Gerät mit dem Public Keeper und Webservice registrieren,
+
+131
+00:18:27,000 --> 00:18:36,000
+ wir sammeln die Sensoren an, schicken die an den Server, wenn der letzte Schlüssel da ist, generieren wir die Schlüssel neu und schicken das an den Server.
+
+132
+00:18:36,000 --> 00:18:41,000
+ Das ist jetzt ein Ding, da kann sich doch durchaus sehr viele andere Sachen dran.
+
+133
+00:18:41,000 --> 00:18:48,000
+ So, jetzt bin ich doch in der Zeit etwas knapp, insofern möchte ich dann mal zu noch ein paar kurzen Anregungen führen.
+
+134
+00:18:48,000 --> 00:18:54,000
+ Also ich möchte wirklich Werbung machen, dass man sich diese echtbasierten Signaturen anschaut.
+
+135
+00:18:54,000 --> 00:19:07,000
+ Sie sind die Lösung des Problems. Naja, genauer gesagt ist ein böses Wort da, das ich nur ganz kurz erwähnt habe, aber immer noch drin, das heißt "Stay it Full".
+
+136
+00:19:07,000 --> 00:19:15,000
+ Das bedeutet, das sind Signaturen, wo Sie sich merken müssen, ob der Schlüssel schon mal verwendet wurde.
+
+137
+00:19:15,000 --> 00:19:25,000
+ Und das ist natürlich eine neue Herausforderung an Public Key Infrastruktur. Auf der anderen Seite, um da mal wieder was zum Nachdenken in dem Bereich zu kriegen, gab es
+
+138
+00:19:25,000 --> 00:19:34,000
+ durchaus 1996 ein Paper von Ron Rives, der gemeint hat, wie eliminieren wir überhaupt die Notwendigkeit für Revocation-Listen.
+
+139
+00:19:34,000 --> 00:19:40,000
+ Und kurzpersonisch, dass er gesagt hat, arbeitet halt einfach mal mit kurzlebigen Schlüsseln.
+
+140
+00:19:40,000 --> 00:19:48,000
+ Und diese kurzlebigen Schlüsseln sind natürlich bei One-Time-Signaturen per Definition gegeben, weil man sie noch einmal verwenden darf.
+
+141
+00:19:48,000 --> 00:20:01,000
+ Und eine Sache, wo wir dann als nächstes weiterarbeiten, ist, dass wir einfach mal gucken, ob wir die Schlüssel so machen, dass sie an der eingebauten Uhr mitahmen.
+
+142
+00:20:01,000 --> 00:20:08,000
+ Ich sehe gerade eine Null, das bedeutet, die soll demnächst zum Ende kommen. Insofern komme ich dann für die verbrochene letzte Folie,
+
+143
+00:20:08,000 --> 00:20:17,000
+ wo auch ein fröhliches Einhorn ist vom letzten Camp und das steht zwar beeindruckend, aber immerhin doch machtlos vor einem mächtigen Hechbaum,
+
+144
+00:20:17,000 --> 00:20:23,000
+ der sich da aufgebaut hat. Jedenfalls war das meine Interpretation. Soweit vielen Dank für eure Aufmerksamkeit.
+
+145
+00:20:23,000 --> 00:20:31,000
+ Herzlichen Dank, Professor Rüdiger Weiß von der Berliner Technischen Bruchschule für Technik. Ich kriege es irgendwann noch hin.
+
+146
+00:20:31,000 --> 00:20:42,000
+ Ja, vielen Dank. Leider haben wir jetzt keine Zeit mehr für Fragen, aber man kann ihn bestimmt irgendwo hier auf dem Camp noch finden oder am Rande hier noch kurz ansprechen.
+
+147
+00:20:42,000 --> 00:20:51,000
+ Ansonsten vielen Dank. Noch einen schönen Abend. Trinkt auch nachts viel Wasser oder andere Dinge. Schlaft schön.
+
+148
+00:20:51,000 --> 00:20:56,000
+ Hört den nächsten Vortrag an, wird bestimmt auch spannend. Nochmal vielen Dank für den tollen Vortrag.
+
+149
+00:20:56,000 --> 00:21:01,000
+ [Applaus]
+
+150
+00:21:02,000 --> 00:21:07,000
+ [Musik]
+

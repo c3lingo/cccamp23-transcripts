@@ -1,0 +1,797 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:31.000 --> 00:00:41.000
+ Hello, welcome to the Bits and Boimers stage for the next talk. Please try to find a place in the shadows.
+
+00:00:41.000 --> 00:01:00.000
+ Have your water ready and so on. Yeah, I should remind you if you're leaving camp and you still have stuff you don't want to take back and it's too nice to trash,
+
+00:01:00.000 --> 00:01:10.000
+ you can go to InfoDesk and try to donate it there and they will try to do something useful with it.
+
+00:01:10.000 --> 00:01:24.000
+ As I guess the rumors have already spread that there's a little bit of COVID going around, it's not more than what would have been to expected as such a huge crowd.
+
+00:01:24.000 --> 00:01:42.000
+ If you have questions regarding that, you can go for testing at CERT and there are masks and whatever stuff available at CERT, Heaven and InfoDesk.
+
+00:01:42.000 --> 00:01:59.000
+ Welcome to the Bits and Boimers stage for the next talk and for that I welcome Holger on stage and he will talk about reproducible builds the first 10 years.
+
+00:01:59.000 --> 00:02:07.000
+ Give him a warm welcome and enjoy the talk.
+
+00:02:07.000 --> 00:02:19.000
+ Hello, thank you. I'm Holger, I live in Germany, I work a lot on Debian and since a long time I also work on reproducible builds since 10 years.
+
+00:02:19.000 --> 00:02:34.000
+ Even though I really love Debian, I try to make all software reproducible and this is a pretty complex topic so just talk to me anytime, I'm happy to talk about it.
+
+00:02:34.000 --> 00:02:37.000
+ I will miss lots of things in this talk.
+
+00:02:37.000 --> 00:02:51.000
+ So, reproducible builds. This is not my talk, this is a list of people working on this, it's from the webpage, it's about 100 people but I think the list is at least double as long.
+
+00:02:51.000 --> 00:02:57.000
+ So, who of you has heard about reproducible builds and why it's useful?
+
+00:02:57.000 --> 00:02:59.000
+ Nice.
+
+00:02:59.000 --> 00:03:03.000
+ Who has contributed or is contributing?
+
+00:03:03.000 --> 00:03:06.000
+ Ah, some people, nice.
+
+00:03:06.000 --> 00:03:11.000
+ Who knows, reproducible builds have been around for more than 10 years.
+
+00:03:11.000 --> 00:03:15.000
+ Few. For more than 30 years.
+
+00:03:15.000 --> 00:03:17.000
+ This is really an old idea actually.
+
+00:03:17.000 --> 00:03:20.000
+ Who has heard about S-bomb files?
+
+00:03:20.000 --> 00:03:26.000
+ Hey, hey, S-bomb is some fancy new thing that the US government wants.
+
+00:03:26.000 --> 00:03:37.000
+ Software build of materials and we have them since 9 years as build info files. They are basically the same, just the format is a bit different.
+
+00:03:37.000 --> 00:03:47.000
+ And, yeah, we need you, we need people in all upstream projects and elsewhere to make sure that their software builds are reproducible.
+
+00:03:47.000 --> 00:03:50.000
+ So, we need your help.
+
+00:03:50.000 --> 00:03:52.000
+ It's hot.
+
+00:03:52.000 --> 00:03:56.000
+ The goal of the talk is to get you involved.
+
+00:03:56.000 --> 00:04:01.000
+ Because we have done a lot but it's still a lot to do.
+
+00:04:01.000 --> 00:04:04.000
+ So, introduction.
+
+00:04:04.000 --> 00:04:12.000
+ The problem is that source code of free software is freely available but nobody uses source code, we all use binaries.
+
+00:04:12.000 --> 00:04:19.000
+ And there's no one really knows how they really correspond, even those building the binaries.
+
+00:04:19.000 --> 00:04:23.000
+ Because you need trust the computer and the build chain and what not.
+
+00:04:23.000 --> 00:04:29.000
+ So, there's various supply chain attacks.
+
+00:04:29.000 --> 00:04:41.000
+ And in 2007 somebody suggested on Debian Devil to make create reproducible binaries and that there was a huge threat with 50 mails and people said this is not possible.
+
+00:04:41.000 --> 00:04:48.000
+ And the same even happened earlier in the year 2000, same idea was shot down quite quickly.
+
+00:04:48.000 --> 00:04:57.000
+ And then in 2017 John Gilmore from Cycmas wrote that GCC was reproducible in the early 90s on several architectures.
+
+00:04:57.000 --> 00:05:01.000
+ And not only GCC but also the whole tool chain there.
+
+00:05:01.000 --> 00:05:04.000
+ And that bit rotted away.
+
+00:05:04.000 --> 00:05:14.000
+ And now five years ago the GCC people weren't even aware anymore that it was reproducible in the 90s.
+
+00:05:14.000 --> 00:05:22.000
+ And now fast forward to this year, in April there was a mail on the WireGuard mailing list that their VPN client is now reproducible on their webpage.
+
+00:05:22.000 --> 00:05:26.000
+ The build is identical in Google Play Store and F-Droid.
+
+00:05:26.000 --> 00:05:29.000
+ And that's pretty wow and we were not even informed.
+
+00:05:29.000 --> 00:05:31.000
+ They just did it.
+
+00:05:31.000 --> 00:05:33.000
+ And it's pretty, pretty cool.
+
+00:05:33.000 --> 00:05:37.000
+ I'm really happy.
+
+00:05:37.000 --> 00:05:50.000
+ So our mission is to enable anyone to independently verify that a given source produces bit by bit identical results.
+
+00:05:50.000 --> 00:05:57.000
+ So we are an important building block in the supply chain to make supply chains more secure, nothing more and nothing less.
+
+00:05:57.000 --> 00:06:03.000
+ Insecure software is still insecure software.
+
+00:06:03.000 --> 00:06:06.000
+ Just distributed securely.
+
+00:06:06.000 --> 00:06:11.000
+ So that has nothing to do with making the software more secure in itself.
+
+00:06:11.000 --> 00:06:13.000
+ And by now this has been widely understood.
+
+00:06:13.000 --> 00:06:15.000
+ We have documented this on the webpage.
+
+00:06:15.000 --> 00:06:21.000
+ The resources are like 50 talks we've been given on various conferences in the last 10 years.
+
+00:06:21.000 --> 00:06:25.000
+ Doc, we have common pitfalls and problems and solutions.
+
+00:06:25.000 --> 00:06:30.000
+ There's about 10 or 15 scientific publications by now.
+
+00:06:30.000 --> 00:06:39.000
+ And there was this White House government statement in 2001 which requires these SBOM files for governmental software.
+
+00:06:39.000 --> 00:06:44.000
+ And on page 42 they also required recommended reproducible builds.
+
+00:06:44.000 --> 00:06:48.000
+ And reproducible builds really are verified SBOMs.
+
+00:06:48.000 --> 00:06:51.000
+ Because SBOM is just a statement from the manufacturer.
+
+00:06:51.000 --> 00:06:55.000
+ This should be in there and everybody can lie about this.
+
+00:06:55.000 --> 00:07:00.000
+ And reproducible builds gives you verified SBOMs.
+
+00:07:00.000 --> 00:07:05.000
+ So we've made a definition to really define when is a build reproducible.
+
+00:07:05.000 --> 00:07:10.000
+ And a build is reproducible if given the same source code, build environment and build instructions.
+
+00:07:10.000 --> 00:07:16.000
+ Any party can recreate bit by bit identical copies of all specified artifacts.
+
+00:07:16.000 --> 00:07:23.000
+ And what's intended this to define what build environment means, what the source code means,
+
+00:07:23.000 --> 00:07:28.000
+ and this is there on this page so that we are all on the same page when discussing this.
+
+00:07:28.000 --> 00:07:31.000
+ And how did we get there?
+
+00:07:31.000 --> 00:07:35.000
+ With money was the reason and at what's known.
+
+00:07:35.000 --> 00:07:38.000
+ Why money? Bitcoin.
+
+00:07:38.000 --> 00:07:43.000
+ Bitcoin, I don't know when it, since Bitcoin is probably 2009 or something and 2011,
+
+00:07:43.000 --> 00:07:49.000
+ it's older, but in 2011 when Bitcoin has a market cap of $4 billion US,
+
+00:07:49.000 --> 00:07:54.000
+ they wanted to be secure that if there's a malice backdoored Bitcoin client
+
+00:07:54.000 --> 00:07:57.000
+ which stole, steals all your money, that they could not be blamed
+
+00:07:57.000 --> 00:08:01.000
+ because the sources are available and it's not backdoored.
+
+00:08:01.000 --> 00:08:05.000
+ So they made Bitcoin reproducible in 2011,
+
+00:08:05.000 --> 00:08:10.000
+ which then was an inspiration for the Tor browser people.
+
+00:08:10.000 --> 00:08:18.000
+ And Mike Perry made Tor browser available in 2013, directly after this known revelations.
+
+00:08:18.000 --> 00:08:23.000
+ And that was, is Firefox Tor browser and that's one of the biggest software projects in the world.
+
+00:08:23.000 --> 00:08:32.000
+ It's like 70 megabytes the binary and it was possible to make this bit by bit identical.
+
+00:08:32.000 --> 00:08:40.000
+ And of course it was not only this, but many, many people did a lot of work on this.
+
+00:08:40.000 --> 00:08:46.000
+ So Luna, fellow Debian developer, made a workshop at Debcom 13 in 2013
+
+00:08:46.000 --> 00:08:50.000
+ and gathered 30 Debian people and discussed whether it's possible.
+
+00:08:50.000 --> 00:08:54.000
+ And then there was another buff at Debcom 14.
+
+00:08:54.000 --> 00:09:00.000
+ There are patches for D-package to sort the files inside in a deterministic order
+
+00:09:00.000 --> 00:09:05.000
+ and create a build info file so that instructions, what is needed,
+
+00:09:05.000 --> 00:09:10.000
+ what's the build environment, what are the build instructions to build a package.
+
+00:09:10.000 --> 00:09:17.000
+ And in September 2014, I started systematic builds of Debian packages, built with them twice.
+
+00:09:17.000 --> 00:09:21.000
+ At first I just did 100 packages in a while loop,
+
+00:09:21.000 --> 00:09:26.000
+ and then I just wrote a bit of code and tested all of them.
+
+00:09:26.000 --> 00:09:33.000
+ And then Mike Perry and Seth Schoen gave the presentation at CCC Congress in 2014,
+
+00:09:33.000 --> 00:09:38.000
+ showing my graphs and I was sitting in the audience, did not expect that, it was really nice.
+
+00:09:38.000 --> 00:09:45.000
+ And I'll show you some slides of this talk because it's a really nice summary why it's useful.
+
+00:09:45.000 --> 00:09:53.000
+ So most people think, or there's a false issue that users should have the source code
+
+00:09:53.000 --> 00:09:56.000
+ and build the software themselves,
+
+00:09:56.000 --> 00:10:01.000
+ but they only prove that the binary comes from the source as somebody said so.
+
+00:10:01.000 --> 00:10:05.000
+ And that is probably not enough.
+
+00:10:05.000 --> 00:10:09.000
+ And most people think also, I know what's in the binary because I compiled it myself,
+
+00:10:09.000 --> 00:10:14.000
+ and I'm upstanding, careful, responsible, I always watch my laptop,
+
+00:10:14.000 --> 00:10:20.000
+ why should I have to worry about hypothetical risks in the contents of my binaries?
+
+00:10:20.000 --> 00:10:26.000
+ I'm not that interesting, but developers write code which is used by many people,
+
+00:10:26.000 --> 00:10:30.000
+ sometimes millions of people and billions, and they're interesting people.
+
+00:10:30.000 --> 00:10:36.000
+ So there's been theoretical and practical attacks against infrastructure used by Linux,
+
+00:10:36.000 --> 00:10:40.000
+ BSD anything, there's also been the Snowden papers,
+
+00:10:40.000 --> 00:10:46.000
+ the designs from the CIA how to attack this, and this has been found in the wild.
+
+00:10:46.000 --> 00:10:51.000
+ And they also showed nice compromises,
+
+00:10:51.000 --> 00:10:56.000
+ it's hard to attack, extremely possible, extremely harmful.
+
+00:10:56.000 --> 00:10:59.000
+ Imagine the most secure computer in the world.
+
+00:10:59.000 --> 00:11:04.000
+ Is this computer still secure if it's networked, accessible by others?
+
+00:11:04.000 --> 00:11:10.000
+ You put USB devices in there, it runs strange Java code,
+
+00:11:10.000 --> 00:11:14.000
+ several nation states want to access it.
+
+00:11:14.000 --> 00:11:20.000
+ What if access to this computer gives you access to hundreds of millions of other computers,
+
+00:11:20.000 --> 00:11:24.000
+ bank accounts, every Windows computer in the world,
+
+00:11:24.000 --> 00:11:30.000
+ and what money you can gain from it.
+
+00:11:30.000 --> 00:11:35.000
+ So they showed a small back door in OpenSSH, remote exploit,
+
+00:11:35.000 --> 00:11:42.000
+ where the diff is greater, equal, it was greater and it had to be greater equal,
+
+00:11:42.000 --> 00:11:46.000
+ and the diff in the binary is one bit.
+
+00:11:46.000 --> 00:11:53.000
+ So if you look at this 500 kilobyte, one bit decides whether this is secure or not secure.
+
+00:11:53.000 --> 00:11:55.000
+ And that's really hard to find.
+
+00:11:55.000 --> 00:11:59.000
+ And that's also why we say everything has to be bit by bit identical,
+
+00:11:59.000 --> 00:12:02.000
+ nor there should not be stuff which we can ignore,
+
+00:12:02.000 --> 00:12:06.000
+ because it's easier to say everything is the same.
+
+00:12:06.000 --> 00:12:11.000
+ They also built a nice kernel module, which modifies the source code
+
+00:12:11.000 --> 00:12:17.000
+ when the compiler builds it, but not when you look at it with an editor.
+
+00:12:17.000 --> 00:12:23.000
+ So the source code is fine unless you compile it.
+
+00:12:23.000 --> 00:12:25.000
+ And that was the graph they showed.
+
+00:12:25.000 --> 00:12:32.000
+ The green packages are reproducible packages, the yellow ones, orange ones are unreproducible,
+
+00:12:32.000 --> 00:12:37.000
+ and that is from end of 2014 to the end of 2015.
+
+00:12:37.000 --> 00:12:45.000
+ And you can see there we reach probably 70% reproducibility in Debian back then already.
+
+00:12:45.000 --> 00:12:54.000
+ [Applause]
+
+00:12:54.000 --> 00:12:58.000
+ So in 2015, Luna and myself gave a talk at FOSDEM,
+
+00:12:58.000 --> 00:13:03.000
+ inviting the free software world at large to collaborate and tackle this problem.
+
+00:13:03.000 --> 00:13:10.000
+ And here at CCCCAM, Luna gave a presentation showing many problems and their solutions,
+
+00:13:10.000 --> 00:13:14.000
+ like what to do with G-SIM, what to do with TAR, whatever this,
+
+00:13:14.000 --> 00:13:16.000
+ obviously options needed.
+
+00:13:16.000 --> 00:13:24.000
+ And we had a summit in Athens where 15 projects, I think, were there to collaborate.
+
+00:13:24.000 --> 00:13:30.000
+ And in 2014, we wrote the source data epoch specification, which I'll explain in a second.
+
+00:13:30.000 --> 00:13:34.000
+ And we started writing DifoScope.
+
+00:13:34.000 --> 00:13:40.000
+ So at first, the reasons for unreproduciabilities we found are timestamps,
+
+00:13:40.000 --> 00:13:44.000
+ timestamps, timestamps, and more, and build passes.
+
+00:13:44.000 --> 00:13:49.000
+ And the problem with build passes is really easily solved by just rebuilding the same build pass
+
+00:13:49.000 --> 00:13:53.000
+ and not randomizing the build pass on every build.
+
+00:13:53.000 --> 00:13:56.000
+ And then there's the rest.
+
+00:13:56.000 --> 00:14:02.000
+ And that's 422 issues we found, types of issues, and we have documented them.
+
+00:14:02.000 --> 00:14:05.000
+ Luna gave this talk to explain them.
+
+00:14:05.000 --> 00:14:10.000
+ And we made an unreproducible package which shows the problems you can have,
+
+00:14:10.000 --> 00:14:17.000
+ because it's way easier to show how not to do it than to show how to do it.
+
+00:14:17.000 --> 00:14:26.000
+ And so in the last 10 years, we've submitted 2,500 reproducibility-related bugs.
+
+00:14:26.000 --> 00:14:42.000
+ 500 bugs are still open, but we also did submit 20,000 bugs about mostly packages building some source.
+
+00:14:42.000 --> 00:14:48.000
+ So we found other problems while continuously testing the VM in this case.
+
+00:14:48.000 --> 00:14:53.000
+ And there's more unexpected benefits of reproducibility.
+
+00:14:53.000 --> 00:14:57.000
+ If the software builds reproducibility, then the compiler can cache a lot of more things,
+
+00:14:57.000 --> 00:15:00.000
+ so it's way faster, especially if you build big projects.
+
+00:15:00.000 --> 00:15:05.000
+ So it saves time for the developers and does money for the companies.
+
+00:15:05.000 --> 00:15:14.000
+ And for software development, it's also good to see if the change only really has the desired effect on this object and not other parts.
+
+00:15:14.000 --> 00:15:20.000
+ And license compliance, you can only be sure you're running free software if the binary comes from the source.
+
+00:15:20.000 --> 00:15:25.000
+ And the only way to find it out is to rebuild and have an identical result.
+
+00:15:25.000 --> 00:15:31.000
+ And yeah, you get reproducible verified S-bombs also.
+
+00:15:31.000 --> 00:15:37.000
+ So DifoScope. Who knows about DifoScope here?
+
+00:15:37.000 --> 00:15:40.000
+ A few, way too little.
+
+00:15:40.000 --> 00:15:45.000
+ Who uses DifoScope? Same people, more or less.
+
+00:15:45.000 --> 00:15:49.000
+ So DifoScope tries to get to the bottom of what makes files or directories different.
+
+00:15:49.000 --> 00:15:58.000
+ It will recursively unpack archives of many kinds and transform various binary formats into more human readable forms to compare them.
+
+00:15:58.000 --> 00:16:06.000
+ So it has text and HTML output and can support many file formats.
+
+00:16:06.000 --> 00:16:17.000
+ So it's whatever, Berkeley database, Debian packages, Elf binaries, Haskell files, ISO images, JPEG images, PGP signatures, whatever.
+
+00:16:17.000 --> 00:16:24.000
+ And if it doesn't know the file type, it goes back to Hexdom comparison.
+
+00:16:24.000 --> 00:16:27.000
+ It has fuzzy matching to Henry namings and much more.
+
+00:16:27.000 --> 00:16:29.000
+ And I show you a bit DifoScope.
+
+00:16:29.000 --> 00:16:37.000
+ So this is HTTPS Everywhere Firefox extension with two different versions.
+
+00:16:37.000 --> 00:16:42.000
+ And you see on the left side the 506 version, on the right the 507.
+
+00:16:42.000 --> 00:16:47.000
+ Or maybe you don't see it because the light is shitty.
+
+00:16:47.000 --> 00:16:53.000
+ And it will show there directly the diff in the file to what's in there.
+
+00:16:53.000 --> 00:16:56.000
+ So it takes a tar archive and goes in there, blah, blah, blah.
+
+00:16:56.000 --> 00:16:59.000
+ You have to be faster, you know.
+
+00:16:59.000 --> 00:17:11.000
+ And so that also shows you nicely the diffs.
+
+00:17:11.000 --> 00:17:17.000
+ So also try DifoScope where you can upload two files and DifoScope will then run for you.
+
+00:17:17.000 --> 00:17:20.000
+ It's the web page and you can install it everywhere.
+
+00:17:20.000 --> 00:17:23.000
+ SourceState Epoch.
+
+00:17:23.000 --> 00:17:28.000
+ I'll skip this because time stamps are meaningless because they vary at each bit.
+
+00:17:28.000 --> 00:17:34.000
+ So SourceState Epoch is the time of the last modification of the source code because that is useful.
+
+00:17:34.000 --> 00:17:39.000
+ And it's supported by a lot of software today, like 100 software, all the compilers,
+
+00:17:39.000 --> 00:17:43.000
+ and many documentation frameworks.
+
+00:17:43.000 --> 00:17:51.000
+ And we have a specification which is like one or two kilobytes in size and is very stable.
+
+00:17:51.000 --> 00:17:52.000
+ So we have many summits.
+
+00:17:52.000 --> 00:17:55.000
+ We have another summit this year in Hamburg.
+
+00:17:55.000 --> 00:18:01.000
+ And there were like 40 projects by now, which is really cool to collaborate.
+
+00:18:01.000 --> 00:18:03.000
+ Which brings me to funding.
+
+00:18:03.000 --> 00:18:07.000
+ We are a software freedom conservancy project now since 2018.
+
+00:18:07.000 --> 00:18:10.000
+ Four people are funded by this.
+
+00:18:10.000 --> 00:18:15.000
+ We need funding for the summit this year in Hamburg and we need funding for our general work.
+
+00:18:15.000 --> 00:18:19.000
+ Thank you for funding.
+
+00:18:19.000 --> 00:18:21.000
+ I skipped most of the things now.
+
+00:18:21.000 --> 00:18:28.000
+ This is the result for Debian unstable for the last 10 years, so it's pretty stable.
+
+00:18:28.000 --> 00:18:32.000
+ Trixie is pretty boring because Trixie is just two months old.
+
+00:18:32.000 --> 00:18:34.000
+ And this is the numbers for Debian.
+
+00:18:34.000 --> 00:18:40.000
+ So we -- it's harder to read.
+
+00:18:40.000 --> 00:18:45.000
+ The interesting part of the unreproducible packages, which are still way too many,
+
+00:18:45.000 --> 00:18:48.000
+ 1,100, but it's only 3.3% of the software archive.
+
+00:18:48.000 --> 00:18:49.000
+ The rest is reproducible.
+
+00:18:49.000 --> 00:18:53.000
+ And so each release, Debian release, we get 3,000 more packages.
+
+00:18:53.000 --> 00:18:59.000
+ But they are mostly the same number of unreproducible packages.
+
+00:18:59.000 --> 00:19:05.000
+ We managed to change Debian policy in 2017 saying packages should be reproducible.
+
+00:19:05.000 --> 00:19:08.000
+ I now want packages must not regret.
+
+00:19:08.000 --> 00:19:12.000
+ And then new packages also must be reproducible.
+
+00:19:12.000 --> 00:19:19.000
+ And then in '27 or whatever, all packages must be reproducible.
+
+00:19:19.000 --> 00:19:22.000
+ And I would also like to see this faster, to have it two years earlier,
+
+00:19:22.000 --> 00:19:27.000
+ that this year we already don't allow new packages which are unreproducible.
+
+00:19:27.000 --> 00:19:30.000
+ And this 100% is a political decision.
+
+00:19:30.000 --> 00:19:32.000
+ It's not technical.
+
+00:19:32.000 --> 00:19:39.000
+ So we need to change Debian policy and say whatever the last 2%, we just kick out.
+
+00:19:39.000 --> 00:19:43.000
+ Debian needs to change the policy, not we.
+
+00:19:43.000 --> 00:19:48.000
+ And 100% reproducibility in theory is not enough because we need to rebuild us.
+
+00:19:48.000 --> 00:19:53.000
+ And for Debian we need a working snapshot service, transparency logs also that we know
+
+00:19:53.000 --> 00:19:58.000
+ which binaries we have installed, also for the non-reproducible packages this is useful.
+
+00:19:58.000 --> 00:20:02.000
+ And we also need binary transparency logs.
+
+00:20:02.000 --> 00:20:05.000
+ And this is true for all projects, not Debian.
+
+00:20:05.000 --> 00:20:07.000
+ I skipped the other projects a bit now.
+
+00:20:07.000 --> 00:20:12.000
+ They are all in theory, it's nice.
+
+00:20:12.000 --> 00:20:21.000
+ Even Fedora has now enabled finally in macro to enable source.epoch when building up EM packages.
+
+00:20:21.000 --> 00:20:25.000
+ So today many projects support reproducibility, but it's unclear what it means,
+
+00:20:25.000 --> 00:20:29.000
+ how it's enforced and how users can know and be confident because it's just in theory.
+
+00:20:29.000 --> 00:20:33.000
+ We can do it, but we don't really do it.
+
+00:20:33.000 --> 00:20:38.000
+ I call that reproducibility in theory on CI, and that is a massive success.
+
+00:20:38.000 --> 00:20:42.000
+ This was thought impossible 10 years ago.
+
+00:20:42.000 --> 00:20:46.000
+ And this is again from this 2014, which is all the other part.
+
+00:20:46.000 --> 00:20:49.000
+ Infrastructure should be created independently.
+
+00:20:49.000 --> 00:20:53.000
+ This has not been done yet nowhere really.
+
+00:20:53.000 --> 00:21:00.000
+ So in theory we are done, in practice we are just done in theory.
+
+00:21:00.000 --> 00:21:03.000
+ So we need rebuilders, we need to store the results somewhere,
+
+00:21:03.000 --> 00:21:07.000
+ and we need to define criteria how tools should treat that data,
+
+00:21:07.000 --> 00:21:10.000
+ and then we need those tools also.
+
+00:21:10.000 --> 00:21:16.000
+ And those missing 5% are also still crucial.
+
+00:21:16.000 --> 00:21:22.000
+ At least 300 softwares need to be fixed to have the software which we all run.
+
+00:21:22.000 --> 00:21:26.000
+ So in summary, many projects support reproducibility in theory,
+
+00:21:26.000 --> 00:21:30.000
+ but it's unclear what it means in practice and how users can know and be confident.
+
+00:21:30.000 --> 00:21:43.000
+ And this is huge success.
+
+00:21:43.000 --> 00:21:45.000
+ Now we need to finish this last bit.
+
+00:21:45.000 --> 00:21:48.000
+ We need to create infrastructure for rebuilders.
+
+00:21:48.000 --> 00:21:54.000
+ We need to create infrastructure to processes and tools to securely use those results.
+
+00:21:54.000 --> 00:22:00.000
+ And we need project level consensus and commitment to reproducibility in practice.
+
+00:22:00.000 --> 00:22:08.000
+ Thank you.
+
+00:22:08.000 --> 00:22:09.000
+ Thank you Holger.
+
+00:22:09.000 --> 00:22:16.000
+ I think we have about time for one very urgent question, maybe two.
+
+00:22:16.000 --> 00:22:18.000
+ Thank you, great talk.
+
+00:22:18.000 --> 00:22:22.000
+ So you mentioned at the beginning some caveats and like known issues.
+
+00:22:22.000 --> 00:22:27.000
+ So is one of those the fact that when everybody runs the same binary,
+
+00:22:27.000 --> 00:22:31.000
+ one exploit is enough to own everybody?
+
+00:22:31.000 --> 00:22:34.000
+ Well, that is a side effect of course.
+
+00:22:34.000 --> 00:22:40.000
+ But the result is not everybody runs scrambled software.
+
+00:22:40.000 --> 00:22:46.000
+ Layers of protection or whatever you want to add there, but it's not.
+
+00:22:46.000 --> 00:22:48.000
+ I guess we can take that.
+
+00:22:48.000 --> 00:22:51.000
+ So you mentioned rebuilders, which are like a really interesting concept.
+
+00:22:51.000 --> 00:22:55.000
+ Are there existing projects which make it easy to, for example, set up a rebuilder
+
+00:22:55.000 --> 00:22:58.000
+ which automatically rebuilds like maybe all Debian packages and some others
+
+00:22:58.000 --> 00:23:01.000
+ and then exposes them in a standardized format.
+
+00:23:01.000 --> 00:23:06.000
+ So for example, clients can have a list of rebuilders they trust
+
+00:23:06.000 --> 00:23:10.000
+ and then check with all of them if the package is correct before installing it.
+
+00:23:10.000 --> 00:23:15.000
+ We have at least two rebuilder implementation which are both used by different people.
+
+00:23:15.000 --> 00:23:18.000
+ For Arch Linux it's really nice working.
+
+00:23:18.000 --> 00:23:21.000
+ For Debian we need the snapshot service which is not working.
+
+00:23:21.000 --> 00:23:28.000
+ So rebuilders for Debian don't work at the moment.
+
+00:23:28.000 --> 00:23:34.000
+ So with that I guess we have reached the end of our time.
+
+00:23:34.000 --> 00:23:41.000
+ And so I want to thank Holger again for giving this nice talk
+
+00:23:41.000 --> 00:23:44.000
+ and then enjoy the rest of camp.
+
+00:23:44.000 --> 00:23:46.580
+ (gentle music)
+
+00:23:46.580 --> 00:23:49.000
+ (soft music)
+

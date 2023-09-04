@@ -1,0 +1,325 @@
+ [Musik]
+ Dann herzlich willkommen zum nächsten Vortrag von Mona und Peter.
+ Wir wissen wahrscheinlich alle, dass Projekte scheitern können und jetzt erleben wir eine große Präsentation von was auch immer passiert ist in diesem Projekt und ich wünsche viel Spaß dabei.
+ [Applaus]
+ Mona, was wollen die ganzen Leute hier?
+ Ich glaube, die wollen, dass wir ihnen etwas über unser Projekt erzählen, wo wir zum Glück nicht ganz gescheitert sind, aber ziemlich oft eigentlich alles hinschmeißen wollten.
+ Ein kleiner Disclaimer im Vorfeld. Wir werden sehr viel fluchen während dieses Vortrags.
+ Wir werden uns sehr viel über Software und Hardware beschweren von Leuten, die sehr viel besser Software und Hardware herstellen können, als wir es hier könnten.
+ Wir meinen das nicht gegenüber diesen Menschenböse. Wir sind einfach zu inkompetent, sie richtig zu bauen und richtig zu bedienen.
+ In diesem Sinne, wenn wir hier uns über irgendwas beschweren, seht es einfach als wir waren einfach zu dämlich dafür, es richtig zu machen.
+ Ansonsten, dieses Projekt geht um eine Pick-and-Place-Maschine. Das ist eine Maschine zum Aufheben und Platzieren von kleinsten elektronischen Bauteilen.
+ Der Rest wird während des Vortrags nochmal erläutert. Ansonsten würde ich sagen, wir müssen relativ schnell über die Folien gehen, denn wir haben viel zu viele gemacht.
+ Viele davon sind einfach Bilder, die wir euch zeigen wollen. Keine Ahnung, warum wir das machen, aber vielleicht ist es spaßig für euch.
+ Ich würde sagen, wir fangen erstmal an mit einer Vorstellung von, wer sind diese Leute, die hier oben stehen eigentlich?
+ In diesem Sinne, wir haben uns hier ein bisschen an Herr der Ringe bedient. Zuerst fange ich mit Peter an.
+ Peter ist der Mensch, der am Ende dieses Projekt gestartet hat. Er ist das Brain hinter vielen solchen Projekten.
+ Mit Brain nehme ich, er nimmt sich immer sehr komplexe Projekte vor, dann landen sie in seine Restekiste, dann erwähnt er es irgendwann in der Nähe von Leuten bei uns aus dem Space.
+ Dann sagt irgendjemand, das klingt ja voll spannend, dann sagt er, dann machen wir jetzt dieses Projekt und dann haben wir mehrere Monate ganz viel Spaß und fluchen viel und sonst irgendwas.
+ Ansonsten kennt sich Peter im Gegensatz zu mir tatsächlich mit Elektrotechnik aus. Ich habe keine Ahnung von diesen ganzen Sachen.
+ Ich bin komplett Querensteigerin. Er hat einen großen Fehler gemacht, tatsächlich das zu arbeiten, was er gelernt hat.
+ Ich habe diesen Fehler nicht gemacht. Ich bin sehr froh darüber. Ich mache einfach komplett unsinniges Zeug im Vergleich zu dem, was ich gelernt habe.
+ Und alles in allem muss ich sagen, danke ich Peter sehr, dass er uns, also wir stellen jetzt gleich noch jemand dritten vor, der heute leider nicht hier ist, aber ich bin sehr froh, dass Peter uns immer wieder motiviert, solche Projekte zu machen.
+ Denn ich persönlich käme nie auf die Idee, weil ich noch nicht mal weiß, was diese Projekte meistens sind.
+ Von daher ist es immer ganz nett, dass er uns an die Hand nimmt und Dinge mit uns macht, die viel zu schwer für uns wären, wenn er nicht dabei wäre.
+ Neben mir seht ihr Mona. Die hat in ihrem früheren Leben mal so etwas wie Philosophie studiert.
+ Ich habe extra auf die Folie den Abschluss gepackt, also den akademischen Grad, um euch zu zeigen, dass sie auch das durchgezogen hat.
+ Und irgendwann in ihrem Leben hat sie dann entschieden, etwas Sinnvolles zu machen und arbeitet jetzt als professionelle IT Security irgendwas.
+ Leider ist Mona nicht besonders lernfähig, weil das ist wirklich nicht das erste katastrophale Projekt, bei dem sie bei mir eingestiegen ist.
+ Außerdem zu erwähnen, sie hat mich gezwungen auf diese Bühne. Ich muss dafür so weit aus meiner Komfortzone treten, dass es eigentlich nicht gesund sein kann.
+ Der dritte im Bunde, der heute leider nicht da ist, ist Eki. Er hat leider keinen Urlaub mehr gehabt, weil er den für irgendwelche wichtigeren Dinge wie Erholung und Ruhe nehmen wollte.
+ Verstehe ich überhaupt nicht.
+ Eki hat uns während des Projekts immer wieder auf den Boden der Tatsachen zurückgeholt und hat während ich irgendwo in irgendwelchen Kommandozeilen oder in irgendwelchen Frontends von irgendwelcher Software, die ich nicht verstehe, verschwunden bin, gefragt hat, was machen wir eigentlich gerade?
+ Außerdem hat er uns ständig mit Linux-Dingen, die wir beide nicht wirklich gut können, ausgeholfen und hat uns eigentlich auch immer wieder getrieben, das Projekt weiterzumachen und nicht bei einer der 10, 20, 500 Situationen, wo wir alles hinschmeißen wollten, es dann nicht zu machen.
+ Weiter zu erwähnen wäre da noch das ZDL. Das ist der Space-Hack-Maker-Space, aus dem wir kommen. Das ist das Zentrum für Technik und Kultur in Landau.
+ Ohne das ZDL hätten wir weder den Platz gehabt, um ständig auf die Schnauze zu fliegen mit diesem Projekt, noch hätten wir uns kennengelernt.
+ In diesem Sinne, wir geben dem ZDL im Prinzip die Schuld für alles, was passiert ist. Ich bin mir sicher, die Social-Media-Abteilung freut sich über diese Aussage jetzt sehr.
+ So, first things first, starten wir mit den Grundlagen, die Peter jetzt erläutern darf, denn er weiß, was es in diesem Projekt ging.
+ Also zu den Grundlagen, wir haben es schon mal eingangs gehört. Eine Pick-and-Place-Maschine ist, oder im Deutschen ein Bestückungsautomat,
+ ist eine Maschine, mit der man SMD-Bauteile auf Platinen automatisch platzieren kann. Wird in der Industrie eingesetzt, ist sehr teuer,
+ kann man aber auch als Bastelobjekt bauen, ist dann halt dumm. Vom Prinzip her stellt euch vor, ihr habt einen 3D-Drucker oder eine CNC-Fräse
+ und statt dem Toolhead sind da Düsen, mit denen man die Bauteile ansaugen kann und von ihrer Verpackung auf die Platine platzieren kann.
+ Es gibt Kameras, die dann dafür sorgen, dass die Bauteile erkannt werden und an der richtigen Stelle irgendwie dann landen.
+ Und das Ganze wird dann mit einer entsprechenden Software auf einem PC angesteuert.
+ Ihr habt die berechtigte Frage, warum sollte man so etwas bauen? Die offizielle Antwort ist, wir wollen in unserem Space die Toolchain komplett abbilden,
+ um Platinen Prototypen zu bauen. Also man fräst oder ätzt eine Platine, bestückt die automatisiert mit einer Pick-and-Place-Maschine,
+ packt die in einen Reflow-Ofen und dann hat man einem Abend seinen Prototypen fertig. Das mit dem Fräsen haben wir ausprobiert,
+ ging so mäßig gut und es macht viel mehr Sinn, das einfach in China fertigen zu lassen, weil es billiger, besser und schneller ist.
+ Den Reflow-Ofen haben wir tatsächlich schon gebaut, also blieb eigentlich nur noch die Pick-and-Place-Maschine übrig.
+ Und wir dachten wirklich, als eingefleischte 3D-Druckerbauer, Corona, MPC-NC-Bauer kann das alles nicht so schwer sein,
+ weil das ist ja alles das Gleiche, XY-Achse und bewegt sich und Software, kein Problem. Wir haben uns geirrt, also es war schwer.
+ Wir müssen jetzt, um ein bisschen klarzukommen, ein bisschen zurück in der Zeit, ins Jahr 2020. Da bin ich einem YouTube-Channel gefolgt von Stephen Horst.
+ Und der hat sich das Ziel gesetzt, oh es regnet. Wir würden jetzt einfach mal vorsichtig weitermachen und hoffen,
+ dass die Leute, die jetzt gerade panisch weggerannt sind, einfach mit Regenjacken und Schirmen zurückkommen und hoffentlich regnet es gleich nicht mehr.
+ Ich würde sagen, mach weiter. Okay, ich mach einfach weiter.
+ Genau, also Stephen Horst, cooler Typ, der hat sich zum Ziel gesetzt, eine Pick-and-Place, eine Open Source Pick-and-Place-Maschine zu entwickeln,
+ die erschwinglich ist und für jeden zugänglich. Ich habe damals in blindem Aktionismus einfach schon mal ein paar Bauteile gekauft.
+ Ich dachte, vielleicht baue ich das irgendwann und habe dann sehr, sehr schnell entschieden, dass das überhaupt keinen Sinn macht.
+ Hier habe ich ein paar Bilder, ich habe ein paar Aluminium Extrusions gekauft, aus denen habe ich dann später einen Laser-Gravierer gebaut.
+ Die Motoren und ein paar Mechanikteile sind einfach irgendwo in einer Restekiste gelandet.
+ Und die 3D-Druckteile, die habe ich dann einfach weggeschmissen, weil sie anschließend noch dreimal überholt wurden von dem Projekt.
+ Und dann kommt wieder ein Zeitsprung, es ist Winter 2022, irgendjemand meinte irgendwie so zu mir, ja, lass doch mal die Pick-and-Place bauen.
+ Und ich war halt dumm und habe gesagt, ja, okay, dann machen wir das jetzt halt einfach. Ich habe ja noch eine Restekiste, das ist ja fast schon alles gemacht quasi.
+ Mittlerweile ist das Projekt auch viel weiter gelaufen. Stephen Horst hat eine Firma gegründet namens Opulo.
+ Das Projekt hat seinen Namen geändert von Index-PnP zu Lumen-PnP, weil die Namensstreitigkeiten hatten.
+ Und er hat diese Pick-and-Place-Maschine, die kann man kaufen. Und dann dachten wir so, okay, das Projekt ist so weit, der verkauft das, das funktioniert alles, damit kommen wir zum Ziel.
+ Und wir wussten, das soll kein so Never-Ending-Story-Projekt werden. Wir wollen das zum Macherdach präsentieren.
+ Der Macherdach ist unser Maker-Day auf Pfälzisch, den unser Verein schon seit einigen Jahren, jedes Jahr in Landau veranstaltet.
+ Und jetzt im Herbst ist Stichtag, da wollten wir fertig sein. Und wir haben uns so gedacht, fast ein Jahr Zeit, gar kein Problem, alles easy. Wir haben uns geirrt.
+ Erster Schritt, ich gucke auf die Website von Opulo, gucke so, ja, oh, 2000 Euro kostet das Ding, kein Pappenstiel.
+ Vielleicht können wir einfach alles selber sourcen und sind damit ein bisschen günstiger. Ich habe ja schon 2020 sage und schreibe 167 Euro in das Projekt investiert gehabt.
+ Das kann man ja nicht einfach wegwerfen. Wir waren so dämlich.
+ Wir haben uns dann die Liste angeguckt, was wir alles brauchen, um das Projekt zu bauen.
+ Und es war irgendwie von Anfang an klar, ja, Mechanik kein Problem, kriegen wir hin, aber die Platinen, die Controller Boards zu bauen, super aufwendig, super viele Teile, wollen wir eigentlich nicht.
+ Und Opulo verkauft dieses Board eigentlich, fertig, aber es war 2022, die älteren von euch erinnern sich, Chips gab es damals einfach gar keine.
+ Entsprechend konnten wir auch dieses Controller Board nicht kaufen. Glücklicherweise haben wir eine Alternative gefunden.
+ Ich bin bei meiner Recherche über einen Artikel gestoßen auf Hackaday. Und zwar ging es da um alternative Controller Boards für genau diese Pick and Place Maschine, die von einer Entwicklerin namens Stargirl entwickelt wurden.
+ Und dann bin ich auf die Website, da war ein Blog-Eintrag über diese Controller Boards und das war so gut erklärt. Es war alles im Detail, wie diese Platinen gebaut wurden, was sie sich dabei gedacht hat, es war einfach so geil.
+ Dann weiter gesucht, ich habe sogar einen Artikel auf Hackster.io gefunden und ich habe so gedacht, ja, das ist überall im Internet, das muss total das populäre Projekt sein, das macht bestimmt jeder.
+ Dann habe ich gesehen, sie hat für ihre Boards den RP2040, also den Controller für das Raspberry Pi Pico verwendet, was ich schon super toll fand.
+ Und sie hatte die Idee, nicht nur ein Controller Board zu machen, sondern das aufzusplitten in ein Controller Board für die X- und Y-Achse und ein Controller Board für die Z-Achse.
+ Und ich war einfach super begeistert und obwohl wir die dann selber bauen mussten und nicht fertig kaufen konnten, haben wir gesagt, wir gehen diesen Weg.
+ Was wir damals nicht wussten, war, dass wir fast die Einzigen waren, die das so gemacht haben.
+ Es gab noch eine andere Person in den USA, die das auch gemacht hat, zumindest soweit wir wissen, dessen Forks auf GitHub wurden irgendwie gelöscht.
+ Wir haben keine Ahnung warum. Ja, war super.
+ Aber wir haben uns ins Getümmel gestürzt und haben gesagt, okay, wir legen jetzt einfach los und haben wirklich ohne Sinn und Verstand einfach Sachen gekauft.
+ Das führt uns zum Kapitel "The First Order of Chaos".
+ Der Plan bestand darin, einfach irgendwelches Zeug zu bestellen.
+ Bei Opulo war das noch ganz nett. Da gab es Spill of Materials mit allen Mechanikteilen, die Platinen waren super beschrieben.
+ Man konnte alles einfach bei LCSC, AliExpress oder Amazon bestellen.
+ Dachten wir zumindest.
+ Bei Stargirl war das eine ganz andere Geschichte. Da gab es überhaupt keine Booms.
+ Wir sind ins Github Repo gegangen, haben einfach alle Platinen Files geöffnet in Keycard, haben uns eigene Booms generiert, haben festgestellt,
+ es gibt viele Bestellnummern nicht, wir mussten alles raussuchen.
+ Ich habe dann ein komplettes Wochenende damit zugebracht, die Bauteile irgendwie auf Mauser zu finden und zu bestellen.
+ Während wir bestellt haben, hat Mona auf Twitter die Entwicklerin angeschrieben, weil so ein, zwei Sachen einfach aus der Datenlage nicht zu erkennen war.
+ Da kam dann als Rückmeldung, ja macht mal langsam, sie arbeitet gerade an einem neuen Release.
+ Die Antwort kam so eine Stunde nachdem ich sehr viel Geld ausgegeben hatte.
+ Dann sind so die Bauteile gekommen, ich habe so ein paar Schrauben bestellt.
+ Also Hutmuttern zum Beispiel habe ich zwei gebraucht, gekauft habe ich 500. Danke Mindestbestellmenge.
+ Bei den anderen Schrauben sah das alles nicht viel besser aus.
+ Reicheltbestellung, das was man auf dem Bild sieht, ich habe ungefähr 30 cm von einem dieser Kabelringe verwendet und so eine gute Hand voll von den Kabelbindern.
+ Der ganze Rest war dann irgendwie unnötig.
+ Hier noch ein bisschen was von Mauser und Amazon, da liegen etliche 100 Euro auf dem Tisch.
+ Das waren die ganzen Platinen die wir bestellt haben bei JLSCPCB, eben vor der uns Rückseite zu sehen.
+ Dann noch die Sachen von LCSC.
+ Noch ein Fun Fact, diese Pick and Place Maschine arbeitet mit Vakuum um die Bauteile aufzusaugen.
+ Es gibt Vakuumsensoren oder Drucksensoren mit denen man feststellen kann wie hoch der Druck ist.
+ Ich wollte zwei kaufen und ich habe mich gewundert warum die 70 Euro kosten.
+ Es sind dann 10 gekommen, ich hatte nicht gesehen dass es 2 mal 5 sind.
+ Wir haben sie gar nicht gebraucht und wir benutzen sie auch nicht.
+ Eine Sache konnten wir dann irgendwie nicht so über die offiziellen Kanäle sourcen und zwar die Mounting Plate auf der dann später alles festgemacht wird.
+ Das ist eine 3 mm dicke riesige Platine, ich glaube 60 cm lang oder so was.
+ Das bekommt man so nicht von JLSCPCB.
+ Also haben wir das bei Opulo bestellt, in den USA mit jeder Menge Spaß mit dem Zoll.
+ Lieferzeiten von 2 Monaten oder so was, es war ein Traum.
+ So kurzes Fazit, ich habe 4 verschiedene Platinen bestellt die aus dem Opulo Repo kamen, davon war eine unnötig.
+ 7 verschiedene Platinen die aus diesem Repo von Stargirl gekommen sind, da waren 5 unnötig.
+ Ich habe 9 Lötcherplonen bestellt, davon waren 5 unnötig.
+ Wie bei den Schrauben und der Reichelbestellung zu sehen hat sich das fortgesetzt.
+ Das Wasser muss einmal raus, falls ihr es nicht gehört habt.
+ Es ist genau so wie ich mir das heute vorgestellt habe.
+ Geil!
+ Gib zu, es ist nicht so wie du erhofft hast, der Vortrag hat trotzdem stattgefunden.
+ Ich hatte ein bisschen gehofft, dass es vorher regnet und nicht stattfindet.
+ Ok, weiter geht's.
+ Ich weiß nicht ob ihr euch an die Folie vorhin erinnert, da meinte Peter, dass ich mit der Entwicklerin in Kontakt stehe.
+ Und dass ich ihm kurz nachdem er sehr viel Geld ausgegeben hat geschrieben habe,
+ dass ich mit der Entwicklerin dachte, wir sollen warten, es könnte demnächst ein neues Release kommen.
+ Demnächst war ein Tag danach, diese unnötigen Platinen wurden dadurch erzeugt.
+ Wenn wir einen Tag gewartet hätten, hätten wir sehr viel Geld gespart.
+ Aber wir werfen einfach Geld auf das Projekt, dann wird es schon funktionieren.
+ Starfishport ist jetzt obsolit, das Herzstück dieses Projektes, also bestellen wir einfach das neue.
+ Gar kein Problem, warten wir ein bisschen, danach geht es weiter.
+ 2-3 Wochen später, keine Ahnung mehr, Zeit nehmen wir jetzt auch nicht mehr so genau.
+ Wir haben Anfang und Ende und alles dazwischen, wollen wir eigentlich gar nicht mehr so genau wissen, weil es tut einfach ein bisschen zu sehr weh.
+ Dann kommt das neue Board, das ist das neue Starfishport.
+ Wir denken, coole Sache, wir machen in unserem Space alles ready.
+ Wir legen die Silikonmatte hin, wir sortieren die Teile.
+ Wir legen alles in der Reihenfolge hin, wie wir es brauchen.
+ Wir drucken einen Plan aus und markieren mit Filzstift, wann wir welches Teil wo hinsetzen müssen, was Stunden gedauert hat und was sehr unnötig war.
+ Denn kurz danach hat Peter ein tolles Programm gefunden.
+ Wir machen einen kleinen Exkurs, ich muss zu meiner Entschuldigung sagen, ich habe das so gelernt.
+ Wenn man Platinen effizient bestücken möchte, dann druckt man sich Blätter aus und markiert alle gleichen Bauteile in einer Farbe und dann kommt man gut zurecht.
+ Dann habe ich festgestellt, es gibt ein Keycard-Plugin mit dem Namen "Eyebohm".
+ Und es ist wahnsinnig toll, denn es macht all das, was wir mit Papier und Stift in stundenlanger Arbeit gemacht haben, in einem Klick.
+ Vielleicht zwei, einer zum installieren, einer zum generieren.
+ Aber das wussten wir damals noch nicht, also alles vorbereitet, Stunden im Space verbracht, alles sortiert.
+ Wir nehmen den Rakel, wir legen die Platine drauf, wir ziehen die Lüttpaste drüber.
+ Ich fange an, Peter die Teile zu geben. Peter guckt sich das Teil an und fragt, wo soll das Teil hin?
+ Und ich sage, hey, da auf den Ausdruck, da unten in die Ecke soll das Teil hin.
+ Und Peter guckt da hin und sagt, diese Stelle gibt es auf dieser Platine nicht.
+ Und ich so, hä? Aber ich habe doch alles sortiert, ich habe es doch ausgedruckt.
+ Das ist doch genau das. Und dann stellen wir fest, da steht irgendwo, ich glaube, V2 auf dem Ausdruck.
+ Und auf unserer Platine steht V1 oder V2 und V3. Wir haben bis heute keine Ahnung, wie das passiert ist.
+ Wir gehen einfach davon aus, dass es irgendwie, keine Ahnung, vielleicht hat sich das Multiversum an dem Punkt gesplittet und wir sind in die falsche Richtung abgezweigt oder so.
+ Peter hat einfach aus Versehen so oft auf Bestellen geklickt. Das ist ebenfalls so ein Motto, das sich vielleicht durch den Vortrag zieht.
+ Aber ich will Peter da jetzt auch nicht rein.
+ Gut, aber hey, wir kennen uns schon damit aus, das falsche Board zu haben, also denken wir uns, okay, falsches Board, wir regen uns eine halbe Stunde auf.
+ Peter will zwar alles hinschmeißen, aber irgendwie motivieren wir uns, weil wir haben ja noch andere Bauteile.
+ Wir haben ein Ringlight für die Pick-and-Place-Maschine und das ist ja nicht von Stargirl, das wird auch nicht so schnell weiterentwickelt.
+ Das ist von Opolo, die verdienen ja Geld damit.
+ Da haben wir auch alles bestellt und die Platine geordert.
+ Also fangen wir dort an und ich gebe Peter einen Bauteil und Peter nimmt dieses Bauteil und sagt, wo soll das denn hin?
+ Und ich sage, ja genau dahin. Das sind ja nur acht Bauteile, so viel gibt es ja nicht.
+ Und Peter sagt, das passt da überhaupt nicht drauf. Und ich so, wieso passt das nicht drauf?
+ Da steht auf dieser Bauteilpackung genau drauf, das ist das Bauteil, das haben wir bestellt, das habe ich dir gegeben.
+ Und Peter sagt, ja, das passt halt nicht drauf.
+ Nun, Peter hat dann recherchiert.
+ Wie gesagt, von Opolo gab es Bill of Materials, also mit Bestellnummern und ich habe wirklich das bestellt, was da stand.
+ Dann habe ich halt mal geguckt, GitHub, Issues, Ringlight, oh Treffer.
+ Irgendjemand hatte das schon gemeldet, falscher Footprint für dieses Bauteil.
+ Das Issue ist, ich habe es am Wochenende geprüft, es ist immer noch offen.
+ Ich muss zu meiner Schande gestehen, ich war ein bisschen emotional angeschlagen an dem Tag.
+ Habe so einen ganz leicht passiv-aggressiven Kommentar darunter gestellt, hat nicht geholfen.
+ Das sind halt einfach die Freuden von Open Source-Projekten, das muss man wohl einfach so hinnehmen.
+ Aber jetzt, Dinge, die auch mal funktioniert haben.
+ Unsere Pick-and-Place-Maschine, die wir dann tatsächlich benutzt haben erstmal.
+ Peter ist tatsächlich sehr gut im Pick-and-Place, was das ganze Projekt auch wieder ein bisschen in Frage stellt, ehrlich gesagt.
+ Aber es ging um die Journey, die Reise ist das Ziel, wir wollen ja was lernen.
+ Wir haben tatsächlich das richtige Starfish-Board bekommen.
+ Wir hatten tatsächlich auch alle Teile, also haben wir uns hingesetzt und wirklich das Ding bestückt.
+ Wir, mein ich, hier mein Partner und ich haben Peter Teile gegeben und er hat sie draufgesetzt.
+ Dann haben wir dieses Board endlich dann auch wirklich mit Ei-Bohm sehr einfach bestücken können.
+ Also einfach für uns, für Peter weiß ich nicht, ich könnte das nicht, ich zitter viel zu sehr.
+ Aber der hat das einfach ruckzuck da runtergeplaced, sah einwandfrei aus.
+ Wir haben dann uns einen extrem hochwertigen Pizza-Lötofen genommen.
+ Man beachte dieses Gehäuse, das extra angepasst ist auf die Größe dieses Pizza-Offens und auch überhaupt nicht total weird aussieht und halb kaputt ist.
+ Aber es hat wunderbar funktioniert.
+ Mein Raumluftreiniger ist zwar extrem eskaliert, nachdem wir das angeschaltet haben und die Lötpaste irgendwie zum Schmelzen gebracht haben,
+ aber hey, die Platine sah einwandfrei aus.
+ Also ich weiß nicht, einwandfrei ist jetzt so eine Sache, ich weiß nicht, ob sich hier einige Leute auskennen.
+ Diese zwei Pins da, die sind absichtlich so.
+ Das ist wirklich so.
+ Also wir haben uns das angeguckt und dann dachten wir auch zuerst, Moment, aber die sind doch auf der gleichen Bar.
+ Das sieht nicht so gut aus, das haben wir wohl irgendwie mies gemacht.
+ Aber nachdem wir lange drum herum getänzelt sind, haben wir festgestellt, das ist wirklich Absicht.
+ Das ist richtig so und es war alles gut und Starfish lief super.
+ Jellyfish, das andere Board, das so ein bisschen dreieckig ist, das muss Peter dann einfach mal alleine nochmal komplett neu machen.
+ Aber wir waren motiviert.
+ Also wir waren richtig gut dabei und dann haben Dinge funktioniert.
+ Also Peter hat dann angefangen das Board zu testen.
+ Hier ein kleines Video.
+ Ich hoffe man hört es.
+ Ach, god damn it.
+ Das war nicht der Anfang.
+ So.
+ Seht ihr jetzt erstmal, wie Peter sich vertippt?
+ Das war der Moment.
+ Und jetzt seht ihr, wie sich etwas dreht. Ist es nicht toll?
+ Ich habe mich wirklich sehr gefreut an diesem Tag.
+ Wie gesagt, wir haben letztes Jahr im Winter angefangen und das war früher.
+ Ich glaube Februar.
+ Also es war natürlich nur wegen der Bestellzeit. Wir persönlich waren natürlich total kompetent.
+ Und wir haben Peter total unterstützt und wir wären viel schneller fertig gewesen, wenn nicht so falsche Board da gewesen wäre.
+ Ganz bestimmt.
+ Hier seht ihr auch tatsächlich Eki und Peter.
+ Das hier ist ein Symbolbild. Wir haben dann tatsächlich auch die Hardware zusammengesetzt.
+ Das Bild ist jetzt die erste Version. Ich würde lügen, wenn ich sagen würde, dass es beim ersten Mal alles perfekt gepasst hat.
+ Also wir haben es glaube ich dreimal komplett auseinander genommen und wieder zusammengebaut.
+ Unter anderem weil ein paar 3D-Dateile nicht gepasst haben.
+ Und Aluprofile und Linearschinen und was weiß ich was.
+ Wir machen später noch so einen Honorable Mentions, was alles noch so nebenbei schiefgegangen ist.
+ Aber das Frame hat funktioniert. Wir haben das Ganze erstmal zusammengesetzt und hatten dann tatsächlich auch einen Erfolgsmoment.
+ Es tut mir leid, dass es ein horizontales Video ist. Es tut mir leid, dass man vielleicht nicht alles direkt erkennt.
+ Ich hoffe man hört es. Das ist sehr wichtig, dass man jetzt gleich einen Moment hört.
+ Nämlich wenn wir gleich die Gesichter verziehen.
+ Dieser Moment. Habt ihr das leichte Knall gehört?
+ Es hat alles funktioniert, aber man sollte sie nicht irgendwie in eine Wand fahren.
+ Wir haben keine Endstops und das mit dem Motor-Homing hat am Anfang noch nicht so funktioniert.
+ Aber hey, es ist zusammengebaut, die Platine läuft, die Maschine tut Dinge.
+ Alles in allem, wir waren happy. Also was soll denn jetzt noch schief gehen?
+ Wir installieren jetzt noch eine Software und dann stellen wir ein paar Dinge ein und es funktioniert bestimmt alles ohne Probleme.
+ Ja, nein. Dann ging es erst richtig los mit den schlimmen Dingen.
+ Jemand hat die Spannungsversorgung verpolt.
+ Gestorben sind eine USB-Kamera, ein USB-Hub, eine USB-Dockingstation und man weiß es nicht mehr genau, aber ich denke auch ein USB-Anschluss an meinem Laptop.
+ Man beachte vielleicht unten links den Money-Counter. Wir sind jetzt so ganz ganz kurz vor dem Break-Even-Point, wo kaufen besser gewesen wäre.
+ Über den Motivations-Counter müssen wir vielleicht nicht reden.
+ Ich habe uns davon nicht beirren lassen. Wir haben dann gesagt, der Peter erkennt sich mit der Elektronik aus, der wird wissen, was er tut und er hat dann einfach weiter Geld auf das Problem geschmissen und die Hardware lief dann wieder.
+ Das Problem war eher, ich musste mich dann mit der Software auseinandersetzen. Wir haben ein Programm verwendet, das sich Open PNP nennt.
+ Ich werde jetzt ab diesem Zeitpunkt viel über dieses Programm schlecht reden.
+ Ich möchte noch einmal daran erinnern, Programm super, die Leute, die es entwickeln, absolut geniale Menschen.
+ Ich, not so much. Deswegen irgendwo dazwischen ist vielleicht ein kommunikative Engpass, weshalb manche Dinge vielleicht nicht ganz funktioniert haben.
+ Aus meiner Perspektive ist aber natürlich Open PNP schuld.
+ Open PNP ist dafür gedacht, also zum einen mal so sieht Open PNP aus, wenn man einen Job hat, dann hat man hier diese zwei Xs in Kameraansichten.
+ Normalerweise, wenn man die Kameras angeschlossen hat. Rechts neben dran sieht man die Bauteile, die man picken und placen will.
+ Problem an der ganzen Sache war ein bisschen, dass wir Boards hatten von einer sehr genialen Entwicklerin, die sehr genau wusste, was sie tut und mit Open PNP sehr gut umgehen kann.
+ Wir wussten bis zu dem Zeitpunkt noch nicht mal, was Open PNP ist und wir haben die Boards einfach nachgebaut.
+ Von daher ist es immer ein bisschen schwierig, wenn man Hardware, die genau ein Mensch sehr gut gebaut hat, nachbaut und nicht genau weiß, ob sie funktionieren wird.
+ Die haben wir bei Open PNP dann mal installiert. Eki hat dann eine tolle Anleitung geschrieben, was man nicht tun sollte, wenn man unter Arch Linux Open PNP installiert.
+ Zitat von dem Abend war, dass er irgendwann gesagt hat, jetzt geht gar nichts mehr.
+ Sein Arch Linux Laptop hat nur noch einen schwarzen Bildschirm gezeigt. Nicht, weil er nur auf Kommandozeilenbasis arbeitet, sondern weil tatsächlich einfach seine komplette GUI tot war, weil er installiert hat.
+ Keine Ahnung, wie das passiert ist, aber auch Eki ist von dem ganzen Spaß nicht verschont geblieben.
+ Bei mir hat es dann glücklicherweise besser funktioniert.
+ Nach der Installation haben wir dann gemerkt, Open PNP kann sehr individuell nahezu jede Maschine als Pick-and-Place-Maschine ansteuern.
+ Und für ein paar Maschinen gibt es auch vorgefertigte Einstellungen, die erkannt werden.
+ Du musst einfach nur die Maschine einstecken und Open PNP sagt, okay, das ist das Board, da haben wir die Konfiguration, gar kein Problem.
+ Vor allem sind es aber meistens Maschinen mit einem Controller-Board.
+ Wir haben eine Maschine mit zwei Controller-Boards und natürlich gibt es dafür keine vorgefertigte Konfiguration.
+ Das heißt, wir mussten sehr viele Dinge einfach ausprobieren und gucken, ob es funktioniert.
+ Hier gleich ein Beispiel für eine sehr gute Fehlerbeschreibung.
+ Uns ist an der Stelle einfach kein Wortwitz eingefallen. Ich bin ganz ehrlich, der Kommentare per G-Code-Sendefehler war einfach das beste, was mir eingefallen ist.
+ Wir hatten von Anfang an das Problem, wenn wir die Maschine homen, also dass sie guckt, wo ist X-Achse Null, wo ist Y-Achse Null, wo ist Z-Achse Null, macht sie das aus irgendwelchen Gründen immer zweimal.
+ Und unser Lock ist komplett voll mit Fehlern, die überhaupt gar keinen Sinn ergeben.
+ Peter sah im Prinzip wirklich genauso aus, jedes Mal, wenn er vor dem Laptop saß und das Lock geprüft hat.
+ Wir hatten eine falsche Annahme getroffen, gebe ich ehrlich zu. Ich habe hier irgendwann mal geschrieben, ich habe einen Major Breakthrough, aber an sich haben wir einfach eine sehr falsche Annahme getroffen.
+ Wir haben nämlich angenommen, wenn wir Kommentare an die Pick-and-Place-Maschine senden, in dem Format, wie G-Code Kommentare kennzeichnet, dann verwirft die Firmware den Kommentar und interpretiert den nicht weiter.
+ Das ist natürlich eine sehr falsche Annahme. Die Maschine hat einfach dann, ich glaube, die ersten paar Zeichen ignoriert und dann einfach angefangen zu sagen, das ist ein neuer Kommentar, den verarbeite ich jetzt und hat dann natürlich Fehler ohne Ende ausgeworfen.
+ Kaum haben wir dieses eine Häkchen "Remove comments" gesetzt, lief viel besser. Nicht perfekt, aber viel besser.
+ Nächstes Problem bei dem Ganzen war, die Open PNP ist eine Software, die unsere Maschine per USB ansteuert. Also die Pick-and-Place-Maschine von uns wird per USB an einen Laptop angeschlossen.
+ Unter Linux ist das jetzt so, wenn du ein USB-Gerät anschließt, dann wird es als TTY ACM 0 und ACM 1 und und und gekennzeichnet. Und wenn wir jetzt zwei unterschiedliche Boards haben, bei denen es sehr, sehr, sehr relevant ist, welches Board wie angesteuert wird, die aber zufällig TTY ACM 0 und 1 heißen, dann haben wir Probleme, weil wir nie genau wissen, welches Board stellen wir jetzt mit welchem Controller an.
+ Linux ist natürlich toll, deswegen kann man in Linux Regeln erstellen, dass diese USB-Geräte immer mit einem Namen gemountet werden und dieser Name, den kann man ja dann ganz einfach sehen und lesen. Da steht halt nicht mehr TTY ACM 0, sondern Starfish oder Jellyfish.
+ Pick-and-Place dachte sich so, keine Ahnung, ach, nö. Ich zeige euch das einfach weiter so an. Ja, es ist mir vollkommen egal, ob ihr da einen Link baut. Das heißt jetzt TTY ACM 0, weil das ist die ID, wie es gemountet ist und Eki und Peter saßen dann irgendwie in sehr, sehr, sehr langen Nachmittagen bei uns im Space und haben dann irgendwann festgestellt, okay, wir können statt über die Software zu gehen, die XML-Dateien,
+ von der Konfiguration öffnen und das manuell irgendwo eintragen und dann, dann funktioniert es. Also auch ein Problem, wir konnten es lösen, es hat uns keine Ahnung, zwei Wochen oder sowas gekostet, aber naja.
+ Alles in allem, tolle Software, funktioniert an sich sehr gut, wie gesagt, unsere Erfahrung ist vielleicht irgendwie ein kommunikativer Engpass. Alles in allem war es für uns ein ständiges, selbst wenn es funktioniert hat, ein Kalibriere, die Kalibrierungsroutine, damit die Kalibrierungsroutine kalibriert werden kann, um irgendwelche Dinge zu kalibrieren, damit wir keine Ahnung, Bauteile erkennen oder sonst irgendwas.
+ Also gerade Optik, am Schluss haben wir so den Höhepunkt der optischen Problematik gelöst, die Lösung wird euch überraschen. Und wenn man dann alles kalibriert hat, oh das Licht ist anders, fang noch mal von vorne an.
+ Oh, ihr habt die Kamera um zwei Millimeter nach links bewegt, der Widerstand der Z-Achse hat sich jetzt geändert, fang doch einfach noch mal von vorne an und und und. Also es war ziemlich anstrengend, manchmal da noch hinterher zu kommen.
+ Alles in allem haben wir die Software irgendwann zum Laufen gekriegt, wir haben jetzt hier noch so ein paar honorable mentions, wie ich vorhin angekündigt habe, wir haben zwischendurch falsche Welps gekauft, wir haben jetzt eine große Schleppkette bestellt, wir haben eine undefinierte Anzahl an Kameras verbrannt, weil sie einfach frustrierend waren, um mit ihnen zu arbeiten.
+ Wir mussten Lineage nachordern, wir mussten V-Slot Extrusion nachordern und ihr seht an dem Punkt vielleicht diese zwei da unten bei der Money Counter vorne. Vielleicht erinnert ihr euch noch, was die Polo PNP gekostet hätte.
+ Ja, aber gut, es ist Leergeld. Also ob wir jetzt 2000 Euro für ein fertiges Board bestellen und es einfach zusammenstecken oder selber machen, da lernt man ja was. Und wir waren ja jetzt so weit, jetzt so ein paar Tage und dann läuft es.
+ Und dann dachten wir, welchen messen Ort gibt es dafür als die GPN? Dachten wir uns vier Tage, wir nehmen das Ding mit, stellen uns auf die GPN in Karlsruhe und dann machen wir das Ding einfach fertig. Und dann haben wir eine tolle Pick and Place Maschine gebaut auf der GPN, dann können wir bei so einem Vortrag, den wir wahrscheinlich nicht gehalten hätten, wenn alles funktionieren würde, sagen können, cool, GPN Karlsruhe, tolles Event, wir haben eine Pick and Place Maschine dort fertig gebaut.
+ Tag eins. Die Transistoren und die Flyback Dioden von den Valves gehen kaputt, gehen in die Luft. Glücklicherweise war das nicht das erste Mal und ich wusste schon, auf was ich achten sollte. Beim ersten Mal habe ich noch so eine 1 zu 1 Ersetzung gemacht und die gleichen Bauteile wieder reingemacht.
+ Bei Nummer zwei habe ich dann die dickste Diode genommen, die ich in meinem Fundus gefunden habe und habe die dann reingespackst. Seitdem läuft es ohne Probleme.
+ Tag zwei. Ihr müsst jetzt mein Wort nehmen, wir haben jetzt hier ein kleines Video, wir sind sehr weit gekommen, wir hatten irgendwann Hilfe von einer Briechen, die uns viele Dinge erklärt hat. Seht, da ist ein Bauteil dran, es bewegt sich und und und.
+ Also ich weiß nicht, ob ihr das gesehen habt, das Bauteil wurde definitiv platziert und ist nicht runtergefallen, weil der Controller ausgefallen in dem Moment, als es platziert werden sollte. Am zweiten Tag haben wir wirklich einige Bauteile richtig platziert und es hat funktioniert und wir waren sehr euphorisch und wir dachten cool, Peter, morgen bringst du deinen Lötofen mit und Lötpaste und dann machen wir die Testplatine einfach einmal durch und alles ist richtig, richtig cool.
+ Und dann kam Tag drei. Symbolbild, das ein guter Freund geschossen hat. Es war schrecklich. Nichts hat funktioniert. Das Homing ist komplett schief gegangen.
+ Ich habe mittlerweile echt Zuckungen, wenn ich die Maschine home, weil ich immer denke, jetzt macht sie gleich ganz schlimme Dinge. Die Teile wurden nicht richtig erkannt. Alles war schlimm. Wirklich alles. Sogar die sympathische Britin namens Gwen hat irgendwann gesagt, it's gremlins, weil wir einfach nicht erklären konnten, warum zur Hölle es den Tag vorging und den Tag danach nicht.
+ Peter hat die Pick and Place Maschine dann einfach irgendwann genommen und nach Hause getragen und dann haben wir so ein paar Tage im Eisbad gebraucht, um wieder zu glauben, dass wir vielleicht noch irgendwas retten können.
+ Da wir uns massiv beeilen müssen, ich habe rausgefunden, dass eine von den Madenschrauben locker war und der Motorhol gedreht hat, die ganze Zeit auf der GPN, genauso wie wir. Wie haben wir das gefixt? Natürlich mit Locked-to-the-Lift von AliExpress.
+ Nächstes Problem. Wir haben rumgebastelt und immer wieder hatten wir dieses Problem, dass beim Home die Nozzle unten stehen geblieben ist.
+ Peter hat irgendwann ein Programm geschrieben, wo er einfach gesagt hat, hey, home einfach. Und dann haben wir mit Werten rumgespielt und wir haben irgendwie eine bahnbrechende Entdeckung gemacht.
+ Sound ist auch hier wichtig. Das ist, wenn man ein Wert hat für Z von irgendetwas, was nicht Komma 5 ist. Wenn man es auf Komma 5 stellt, egal welcher Wert vorne steht, passiert etwas Magisches.
+ Und man könnte sagen, das ist jetzt verlässlich, aber manchmal macht es sogar noch bessere Dinge.
+ Die Lösung des Problems war, naja, ich arbeite in der IT-Security und eigentlich hätte ich das Problem auch einfach selber merken können. Vielleicht machen wir einfach ein Update. Wir haben die Firma neu aufgespielt, beziehungsweise Peter, nachdem er keine Ahnung zwei Wochen damit verbracht hat oder viel zu viel Zeit und dann war es gar kein Problem mehr. Keine Ahnung, vielleicht haben wir irgendwas kaputt gemacht. Wir haben viele in der Firma herumgedockt.
+ So, wir hatten noch so ein Problem. Ja, ich hatte ja schon mal eingangs erwähnt, dass ein paar USB-Hubs kaputt gegangen sind. Das ist nur ein Symbolbild, es waren viel mehr.
+ Wir hatten nicht nur das Problem, uns sind auch immer wieder die Boards abgestürzt, die USB-Verbindung ist abgestürzt und irgendwann hat einer im Space Master gemeint, eh, EMV-Problem bestimmt wegen den Motoren.
+ Und dann habe ich getan, was ich immer getan habe, Geld auf das Problem gemessen. Und zwar habe ich galvanische Trennung für USB bestellt. Pro-Tipp, wenn ihr galvanische Trennung für USB braucht, nehmt nicht das, wo Audio dabei steht.
+ Das kostet dreimal so viel, hat aber exakt den gleichen Chip drin. Das hat das Problem auch vollständig gelöst. Alles war gut.
+ Dann dachten wir uns, cool, wir sind endlich so weit. Wir haben nur noch so kleine Probleme wie Licht, das haben wir schon 500 Mal gelöst, weil wir wieder von vorne anfangen mussten, ist doch gar kein Ding.
+ Alles läuft, wir versuchen endlich Teile zu erkennen und zu placen und es geht einfach nicht, weil wir es nicht hinbekommen den Kontrast richtig einzustellen.
+ Also hat Peter erneut gemacht, was er tut, wenn er ein Problem hat. Er ist in einen Baumarkt gefahren, hat Holz gekauft. Wir haben unseren tollen neuen Laser-Cutter genommen, den wir in unserem Space haben und haben einfach eine Box gebaut, um das andere Licht fernzuhalten.
+ Ich habe keine Pick-and-Place-Maschine gesehen, die eine Box braucht, um zu funktionieren. Das hat aber bestimmt nichts mit uns zu tun, sondern die machen irgendwas anders oder so. Die haben bestimmt irgendwas anders gemacht.
+ Den Money-Counter könnt ihr euch kurz zur Kenntnis nehmen, aber das ist nicht so wichtig. Denn viel wichtiger ist, am Ende sah das Ganze so aus.
+ Wir würden euch jetzt gerne noch mehr zeigen, aber die Zeit ist leider schon ziemlich um. Long story short, es funktioniert. Wir haben noch eine Platine gebaut.
+ Jetzt machen wir superfast. Am Anfang haben wir gesagt, wir wollen diese Maschine auf dem Macherdach zeigen. Und nur Maschine zeigen ist langweilig. Das heißt, wir haben noch ein Board entwickelt, das bestückt werden soll. Das Spiral-Board.
+ Die Idee habe ich alle geklaut, weil ich kreativ bin wie ein Stein. Ich habe die Dimensions von dem Calliope Mini genommen, habe die LED-Platzierungen von dem Fibonacci 32-Board genommen von Jason Kuhn, der Evil Genius Lab betreibt, habe den Schaltplan von Vemos D1 Mini genommen und habe VLED als Firmware benutzt.
+ Weil ich alt bin und konservativ, habe ich alles mit Stift und Papier designt. Schaltpläne mit einem Bleistift gezeichnet, aber immerhin dann das Software benutzt.
+ So ein bisschen 3D-View hier vorne hinten. Es gibt einen Akku, einen Laderegler, einen ESP8266. So sieht das Ganze jetzt aus. Rückseite.
+ Also im Prinzip ist es das gleiche wie das, was wir hier unter dem T-Shirt haben. Es leuchtet ein bisschen, es ist wahrscheinlich viel zu hell für die Kamera, deswegen mache ich das gleich wieder weg.
+ Das ist das Wichtigste, was Peters Geldbeutel gelernt hat. Dann auch Leute, die sich mit Elektronik auskennen, haben manchmal schlechte Tage und ein rotes und schwarzes Kabel können sich extrem ähnlich sehen.
+ Optik ist nicht trivial. Ganz und gar nicht trivial. Kameras sind sehr, sehr schwierig richtig einzustellen. Nummern sollte man immer nochmal checken und nochmal checken und nochmal checken. Man sollte Updates machen.
+ Und nur weil ein Artikel irgendwo im Internet vorhanden ist, heißt das nicht, dass es eine Community gibt, die sich sehr gut mit dem Board auskennt und ihr helfen kann.
+ Und Stargirl ist eine verdammt geniale Entwicklerin, aber wir sind es nicht. Und wir haben sehr viel Geld da reingesteckt, um festzustellen, dass wir es nicht haben.
+ Hier noch, Zahlen, Daten, Fakten. Wir haben über 2000 Euro gezahlt. Wie viel drüber, das erwähne ich jetzt nicht.
+ Wir haben so knapp 233 Tage gebraucht. Wir wollen uns mindestens zehnmal alles hinschmeißen. Die Genugtuung, dass es jetzt funktioniert, ist eher so, ja, wir haben uns einen Abend gefreut und jetzt denken wir so, ja, aber das Board haben wir jetzt noch nicht getestet.
+ Wir müssen mal schauen, ob das noch funktioniert. Und der Ich-würdest-wiedertun-Faktor ist bei ziemlich exakt 0,6 Periodik.
+ Ich werde jetzt nicht erwähnen, wer Nein gesagt hat, aber Ego und ich haben jetzt kein Problem damit.
+ So, jetzt noch der kurze shameless self-plug. Landau ist gar nicht weit weg, so quer durch Deutschland einmal.
+ Besucht uns zum Macherdach am 30. September, dann dürft ihr auch so ein Board bauen, wenn ihr wollt. Und ich würde sagen, wir machen fertig.
+ Danke an die Leute, die uns geholfen haben. Danke an die Leute, die Sachen gedruckt haben und die diese Projekte gebaut haben.
+ Genau, dann noch von mir. Danke für euren Talk. Sorry für das etwas Chaos, aber Wetter ist da.
+ Ach so, wir rennen hier rum. Falls ihr Fragen habt, sprecht uns einfach an.
+ Vielen Dank.
+ Vielen Dank.
+ Vielen Dank.
+ [Musik]

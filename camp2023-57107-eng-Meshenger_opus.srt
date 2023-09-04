@@ -1,0 +1,696 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:34,000
+ Okay, welcome to my talk. This is about Messenger,
+
+4
+00:00:34,000 --> 00:00:42,000
+ two P2P phone calls. There's a story behind it I want to tell and of course what it is and what it's about.
+
+5
+00:00:42,000 --> 00:00:49,000
+ Why I took it on me to learn Android and stuff. So let's go.
+
+6
+00:00:49,000 --> 00:00:58,000
+ Information about myself, my name is Moritz. Warning, funny name. It's not a Künstler name, it's really my name.
+
+7
+00:00:58,000 --> 00:01:07,000
+ I'm from Berlin. I'm a software programmer as I guess a lot of people here. And I feel associated with this Freifunk community.
+
+8
+00:01:07,000 --> 00:01:13,000
+ It's a grassroots mesh routing community in Germany. You have hundreds of those in Germany.
+
+9
+00:01:13,000 --> 00:01:21,000
+ And I would describe myself as a mesh routing enthusiast. Okay, let's go in it. What is it about? What is it?
+
+10
+00:01:21,000 --> 00:01:27,000
+ So you might have heard already that it's some kind of Android app. It's now written in Kotlin.
+
+11
+00:01:27,000 --> 00:01:33,000
+ And it's all about audio video calls. That doesn't sound very special at this point.
+
+12
+00:01:33,000 --> 00:01:39,000
+ Because of course you have WhatsApp, you have Facebook Messenger, you have all the other things.
+
+13
+00:01:39,000 --> 00:01:46,000
+ But this simple app, really it's kind of stupid, is all about just calling an IP address.
+
+14
+00:01:46,000 --> 00:01:53,000
+ So it doesn't use any servers, any mesh, no discovery, which is important for Freifunk, for mesh routing.
+
+15
+00:01:53,000 --> 00:02:00,000
+ Networks where you block almost all broadcasts and can't really do discovery.
+
+16
+00:02:00,000 --> 00:02:05,000
+ And of course it's a GPL. It's a free open source software.
+
+17
+00:02:05,000 --> 00:02:14,000
+ And now for a bit of background, why it came to be. It's basically case for no internet.
+
+18
+00:02:14,000 --> 00:02:21,000
+ So this Freifunk in Germany, most people see it as a Freifunk hotspot. I can connect, I have internet.
+
+19
+00:02:21,000 --> 00:02:31,000
+ And if I don't have internet, then it's broken. Which is a bit sad, because Freifunk is mostly about having a decentralized infrastructure.
+
+20
+00:02:31,000 --> 00:02:38,000
+ Where and in these networks the internet gateway that is provided usually by the community is all about...
+
+21
+00:02:38,000 --> 00:02:44,000
+ I mean it's just a very popular service. But it's not really what Freifunk is about.
+
+22
+00:02:44,000 --> 00:02:51,000
+ But the problem is also that since everybody knows, okay you can get internet over that.
+
+23
+00:02:51,000 --> 00:02:55,000
+ You don't need a password to log in these Freifunk networks, these mesh networks.
+
+24
+00:02:55,000 --> 00:02:58,000
+ Yeah, that's all what you know about.
+
+25
+00:02:58,000 --> 00:03:06,000
+ And there's not really a use case for mesh networks without internet access.
+
+26
+00:03:06,000 --> 00:03:13,000
+ Because there's a lack of apps, lots of lack of applications, how to find content, stuff like that.
+
+27
+00:03:13,000 --> 00:03:18,000
+ And I thought okay, maybe we need some kind of demo app for Freifunk.
+
+28
+00:03:18,000 --> 00:03:22,000
+ That is not only for Freifunk, but all kinds of other things.
+
+29
+00:03:22,000 --> 00:03:29,000
+ And I looked around, if there is something like that. But actually I couldn't find anything.
+
+30
+00:03:29,000 --> 00:03:37,000
+ I looked on Google Play, F-Droid, no not really. I couldn't find anything.
+
+31
+00:03:37,000 --> 00:03:45,000
+ And of course it's really important that we have something that is not really specific to a certain network.
+
+32
+00:03:45,000 --> 00:03:52,000
+ So this app, since it's only calling IP addresses directly, otherwise it doesn't work.
+
+33
+00:03:52,000 --> 00:04:00,000
+ It works at home in your own network, but you don't even need internet.
+
+34
+00:04:00,000 --> 00:04:08,000
+ You can use it at home, at your company in awkward situations, in general disaster areas.
+
+35
+00:04:08,000 --> 00:04:16,000
+ Maybe you can put up some Freifunk routers, have some Wi-Fi cloud, and then you can use it to call people.
+
+36
+00:04:16,000 --> 00:04:21,000
+ So a bit more background. This all started in 2018.
+
+37
+00:04:21,000 --> 00:04:28,000
+ Of course there will be some demo soon. But let's go a bit down and back in history.
+
+38
+00:04:28,000 --> 00:04:34,000
+ I had no idea of Android development in general. I knew a bit Java from university.
+
+39
+00:04:34,000 --> 00:04:46,000
+ That's not very good. But I had this idea, okay, I really would like to have some app like that to exist, but I can't program it.
+
+40
+00:04:46,000 --> 00:04:52,000
+ So there was a Google Summer of Code where Freifunk was participating in it.
+
+41
+00:04:52,000 --> 00:04:59,000
+ We submitted it as an idea and we found a student and he implemented that with WebRTC.
+
+42
+00:04:59,000 --> 00:05:07,000
+ Over the time there were ups and downs. In the meantime I was able to learn Android programming myself.
+
+43
+00:05:07,000 --> 00:05:14,000
+ I don't know, it was an interesting experience. Mixed.
+
+44
+00:05:14,000 --> 00:05:24,000
+ Now the software is mostly complete, I would say. A bit about how it works. It's basically you scan a QR code.
+
+45
+00:05:24,000 --> 00:05:33,000
+ So you have to meet the person you want to call. And in that QR code, like you see it maybe here in the app,
+
+46
+00:05:33,000 --> 00:05:45,000
+ it's just a JSON formatted block with some name fields, so it's some nickname, some public key and then some area of IP address. Usually it's just one.
+
+47
+00:05:45,000 --> 00:05:58,000
+ And it also has a lot of extra features. Here you see a bit how it looks like. You have a contact list, call history on the right side of the tabs there.
+
+48
+00:05:58,000 --> 00:06:08,000
+ And I've also opened here the context menu so you can delete, rename, ping that IP address and then the red dot will turn maybe green
+
+49
+00:06:08,000 --> 00:06:20,000
+ because you can reach that and then you can make the call. And of course you have all kinds of features.
+
+50
+00:06:20,000 --> 00:06:34,000
+ Also a bit weird features like you can also accept calls. So if you want to use it as an intercom system in your house and want to, I don't know, call the kitchen or something.
+
+51
+00:06:34,000 --> 00:06:42,000
+ So I think it's really important that you can use this software for all kinds of different applications, not just Freifunk.
+
+52
+00:06:42,000 --> 00:06:53,000
+ Okay, it's about calling. It calls an IP address. So that is basically how it looks like. On the right side you see, okay, this is also the debug menu that you see there
+
+53
+00:06:53,000 --> 00:07:01,000
+ where you can see what codec is currently used, bitrate, audio rate, resolution. But usually you don't see that.
+
+54
+00:07:01,000 --> 00:07:07,000
+ This is what you toggle by tapping on this eye icon on the left side, on the top, in the corner.
+
+55
+00:07:07,000 --> 00:07:17,000
+ And you can of course not only speak but also use video. So that's quite nice. And it's pretty basic.
+
+56
+00:07:17,000 --> 00:07:33,000
+ And lots of other features I won't go through. You can set a specific frame rate. You can disable the proximity sensor.
+
+57
+00:07:33,000 --> 00:07:40,000
+ You can use it with Bluetooth headset. At least I hope it works for most cases. I haven't really tested it a lot.
+
+58
+00:07:40,000 --> 00:07:49,000
+ And of course this is when you use expert settings. So this is like everything but by default it's really a small list.
+
+59
+00:07:49,000 --> 00:07:55,000
+ So people, I mean this is meant to be a simple app and I don't want to, we don't want to scare people.
+
+60
+00:07:55,000 --> 00:08:00,000
+ But this is the full list of all the options so it's a long list.
+
+61
+00:08:00,000 --> 00:08:11,000
+ Alright, this is a bit for experts. I mean this QR code usually you have the default IP address of your Wi-Fi adapter in there
+
+62
+00:08:11,000 --> 00:08:19,000
+ when you start it the first time. But you can configure it and put other stuff in there like other IP addresses on your system.
+
+63
+00:08:19,000 --> 00:08:27,000
+ You can add it manually, maybe even a host name. But this is more some expert thing.
+
+64
+00:08:27,000 --> 00:08:40,000
+ Yeah, the current state of the project. I said it started in 2018. It has been rewritten and a follow up, Google Summer of Code to Kotlin.
+
+65
+00:08:40,000 --> 00:08:48,000
+ Which I like a bit more than Java. More cleaned up. And well it has a lot of releases, lots of commits.
+
+66
+00:08:48,000 --> 00:08:58,000
+ So basically I would say the app is done. I mean, okay I've told you the name is Messenger.
+
+67
+00:08:58,000 --> 00:09:06,000
+ But I have to admit it doesn't really mesh itself. It's just calling an IP address and it's also not sending messages.
+
+68
+00:09:06,000 --> 00:09:11,000
+ Maybe in the future but I don't really have right now the resources to implement that.
+
+69
+00:09:11,000 --> 00:09:21,000
+ If anybody wants to fork it and do that or just commit a merge request you are really welcome. But for now it's good.
+
+70
+00:09:21,000 --> 00:09:34,000
+ This is a bit of a GitHub code graph where you see 2018. Let's see, yeah. Where it was initially done and then like in sports.
+
+71
+00:09:34,000 --> 00:09:45,000
+ There were lots of gaps where I said okay I want to work on different stuff. And then in the end you see one big spike where it got converted to Kotlin.
+
+72
+00:09:45,000 --> 00:09:51,000
+ And I did a lot of stuff on the right side. So I'm mostly the only person working on it.
+
+73
+00:09:51,000 --> 00:09:59,000
+ There were a few merge requests from other people fixing stuff. So that's always awesome and warms my heart.
+
+74
+00:09:59,000 --> 00:10:08,000
+ This is a GitHub homepage. Not that much to see here. More screenshots of the app itself.
+
+75
+00:10:08,000 --> 00:10:16,000
+ For the future I already told you I see it mostly as done. And I don't think I want to go into iOS development.
+
+76
+00:10:16,000 --> 00:10:26,000
+ I have other stuff to do with my life. Maybe someone wants to use Flutter or something. Or just fork the whole app.
+
+77
+00:10:26,000 --> 00:10:32,000
+ I don't care. It's open source. It's meant to be something to support communities.
+
+78
+00:10:32,000 --> 00:10:42,000
+ And yeah hopefully we get more translations. I think we have Chinese, Russian translations, Ukrainian even.
+
+79
+00:10:42,000 --> 00:10:48,000
+ I have to look. I don't know it. And there might be even some null pointer exceptions, some bugs.
+
+80
+00:10:48,000 --> 00:10:53,000
+ But this is still something I'm hunting. But it's more or less stable.
+
+81
+00:10:53,000 --> 00:11:01,000
+ And yeah where to get it? Yeah, FDroid. Primarily. On Google Play you can also find it.
+
+82
+00:11:01,000 --> 00:11:10,000
+ But I would prefer FDroid. Yeah there's also down there the website.
+
+83
+00:11:10,000 --> 00:11:15,000
+ For the use of the app, I mean it's always interesting to know how many people are using that app.
+
+84
+00:11:15,000 --> 00:11:21,000
+ I mean it has been around since 2018. Okay most features and bugs were fixed lately.
+
+85
+00:11:21,000 --> 00:11:26,000
+ For FDroid I don't know. They don't know. Which I think is a good idea.
+
+86
+00:11:26,000 --> 00:11:33,000
+ But at least I could since it's on Google Play store I can show you that data.
+
+87
+00:11:33,000 --> 00:11:42,000
+ So Google Play tracks a lot and you see by now it's somewhat over 500 installations I think.
+
+88
+00:11:42,000 --> 00:11:57,000
+ If I'm not blind. So that's interesting. So that's this graph that you can look at if you log into the developer console
+
+89
+00:11:57,000 --> 00:12:01,000
+ when you are signed up for Google Play as a developer for your app.
+
+90
+00:12:01,000 --> 00:12:09,000
+ And also have some GitHub statistics which shows that I guess there's some 40 people,
+
+91
+00:12:09,000 --> 00:12:14,000
+ big appeal dresses not people, per day accessing the GitHub project.
+
+92
+00:12:14,000 --> 00:12:19,000
+ And that's basically it. I can also now show you maybe a bit of a demo.
+
+93
+00:12:19,000 --> 00:12:24,000
+ I mean I can't really show you like my phone screen is a bit too small.
+
+94
+00:12:24,000 --> 00:12:31,000
+ But I can tell you, maybe you have just to believe me, I've installed it here and on this phone.
+
+95
+00:12:31,000 --> 00:12:37,000
+ And this is just a small travel Wi-Fi router which could of course be part of a mesh network.
+
+96
+00:12:37,000 --> 00:12:41,000
+ And then I can just, okay I've already did the scanning with the QR code.
+
+97
+00:12:41,000 --> 00:12:51,000
+ And then I press it and it says connection failed because I'm not in that same VLAN.
+
+98
+00:12:51,000 --> 00:12:58,000
+ So I need to switch. Okay let's see. Wrong menu. Let's do that quickly.
+
+99
+00:12:58,000 --> 00:13:08,000
+ Okay it doesn't show my travel router. Oh yeah I moved it and that's triggered it to restart.
+
+100
+00:13:08,000 --> 00:13:11,000
+ Of course the connector is kind of bad.
+
+101
+00:13:11,000 --> 00:13:17,000
+ Okay but maybe in the meantime I can tell you something like this app only works of course on local networks.
+
+102
+00:13:17,000 --> 00:13:24,000
+ It's called an IP address. There's no stun, turn, servers. I mean it's based on WebRTC.
+
+103
+00:13:24,000 --> 00:13:30,000
+ But it calls only an IP address so when you have some net going on then it doesn't work.
+
+104
+00:13:30,000 --> 00:13:38,000
+ I tried it on the internet via two routers with a public IP address, no firewall. Okay then it works.
+
+105
+00:13:38,000 --> 00:13:46,000
+ Also IP addresses of course change. So this is kind of a problem but the thing is with Freifunk networks
+
+106
+00:13:46,000 --> 00:13:52,000
+ you usually get the same IPv6 address for link local at least because there's your MAC address
+
+107
+00:13:52,000 --> 00:13:57,000
+ of the Wi-Fi adapter inside so that stays pretty consistent.
+
+108
+00:13:57,000 --> 00:14:03,000
+ And for those scenarios it's quite nice. It works.
+
+109
+00:14:03,000 --> 00:14:11,000
+ But of course you can just edit this QR code, this address management and then maybe add some host name or something.
+
+110
+00:14:11,000 --> 00:14:15,000
+ So that should also work. So let's see maybe if I can make a call.
+
+111
+00:14:15,000 --> 00:14:23,000
+ I hope the router has booted up again.
+
+112
+00:14:23,000 --> 00:14:36,000
+ Oh yeah, I need to connect to the Wi-Fi. Let's check if that phone is also in the same Wi-Fi.
+
+113
+00:14:36,000 --> 00:14:41,000
+ Please connect. Obtaining an IP address so that looks good.
+
+114
+00:14:41,000 --> 00:14:50,000
+ This one is connected and this is also connected so let's give it a call.
+
+115
+00:14:50,000 --> 00:14:54,000
+ That didn't work of course.
+
+116
+00:14:54,000 --> 00:15:01,000
+ That's the so called fof effect.
+
+117
+00:15:01,000 --> 00:15:08,000
+ Okay, so now it works. And then I can... Oh no, that was declining.
+
+118
+00:15:08,000 --> 00:15:12,000
+ That's not what I wanted to do. Okay, accept here.
+
+119
+00:15:12,000 --> 00:15:19,000
+ And then I can use the phone camera from one phone and then the strip on the other one.
+
+120
+00:15:19,000 --> 00:15:26,000
+ I can enable switch the cameras, use the camera from both sides.
+
+121
+00:15:26,000 --> 00:15:31,000
+ And yeah, that's it. So thank you very much for listening.
+
+122
+00:15:31,000 --> 00:15:34,000
+ If you have questions feel free to ask.
+
+123
+00:15:34,000 --> 00:15:38,000
+ And then... Oh yeah, already one question.
+
+124
+00:15:38,000 --> 00:16:03,000
+ But maybe we let this disco train pass by because otherwise nobody will hear.
+
+125
+00:16:03,000 --> 00:16:05,000
+ Okay, they got the notice. Thank you.
+
+126
+00:16:05,000 --> 00:16:13,000
+ Thanks. Couple of questions. One is how low bandwidth friendly is the voice code?
+
+127
+00:16:13,000 --> 00:16:20,000
+ Well, it uses WebRTC which is rather bandwidth friendly.
+
+128
+00:16:20,000 --> 00:16:26,000
+ I had some numbers for the video. It really depends on the resolution.
+
+129
+00:16:26,000 --> 00:16:33,000
+ There's some default automatic settings so the resolution will readjust to how much bandwidth is available.
+
+130
+00:16:33,000 --> 00:16:43,000
+ But I would expect it to for audio to be at a few kilobyte, slightly over 10 kilobyte maybe.
+
+131
+00:16:43,000 --> 00:16:46,000
+ Thanks. And second question is you mentioned file transfers.
+
+132
+00:16:46,000 --> 00:16:54,000
+ I suppose in that is also like sending an image and probably more importantly is a voicemail.
+
+133
+00:16:54,000 --> 00:16:59,000
+ How hard do you think those features would be to implement even if they're not on your to-do list?
+
+134
+00:16:59,000 --> 00:17:03,000
+ Okay, so I understood your question is about file transfer, voicemail.
+
+135
+00:17:03,000 --> 00:17:07,000
+ Okay, well these are all features that can be implemented.
+
+136
+00:17:07,000 --> 00:17:11,000
+ But well, no resources right now, no time.
+
+137
+00:17:11,000 --> 00:17:14,000
+ But of course it shouldn't be that hard.
+
+138
+00:17:14,000 --> 00:17:19,000
+ I mean, over WebRTC you can use specific channels to transfer files.
+
+139
+00:17:19,000 --> 00:17:26,000
+ It's mostly a UI thing I think. So the most work to do is to add the icons, the menus,
+
+140
+00:17:26,000 --> 00:17:31,000
+ and the transfer of the files is not even that much of a big of a problem.
+
+141
+00:17:31,000 --> 00:17:35,000
+ But it has to be implemented of course.
+
+142
+00:17:35,000 --> 00:17:40,000
+ More questions? Over there, please.
+
+143
+00:17:40,000 --> 00:17:43,000
+ Hello. Great app first.
+
+144
+00:17:43,000 --> 00:17:49,000
+ Regarding the auto acceptance, can you do this like only activators for all callers
+
+145
+00:17:49,000 --> 00:17:54,000
+ or can you also differentiate either all callers or only certain callers?
+
+146
+00:17:54,000 --> 00:17:58,000
+ I implemented it as a general feature.
+
+147
+00:17:58,000 --> 00:18:02,000
+ So I know somebody who has a 3D printer in the basement.
+
+148
+00:18:02,000 --> 00:18:10,000
+ I thought, okay, maybe he can just put his old phone next to it and then call that phone of the Wi-Fi
+
+149
+00:18:10,000 --> 00:18:15,000
+ and he doesn't have to go down and then he can check on his old 3D printer.
+
+150
+00:18:15,000 --> 00:18:21,000
+ But to answer your question more directly, it's just for everybody.
+
+151
+00:18:21,000 --> 00:18:25,000
+ But of course it could be made a per contact setting.
+
+152
+00:18:25,000 --> 00:18:28,000
+ But that's not how I did it right now.
+
+153
+00:18:28,000 --> 00:18:29,000
+ Okay, thanks.
+
+154
+00:18:29,000 --> 00:18:32,000
+ But it's no problem to do that, to implement that.
+
+155
+00:18:36,000 --> 00:18:42,000
+ So you said it only works on local networks, but can I use something like WireGuard or ZeroTier
+
+156
+00:18:42,000 --> 00:18:45,000
+ to connect two phones via some other tunnels?
+
+157
+00:18:45,000 --> 00:18:50,000
+ Yeah, sure. I mean you can use some tunnel on your phone.
+
+158
+00:18:50,000 --> 00:18:57,000
+ Then you go to this address management and then say, yeah, my QR code should also contain the address of this tunnel,
+
+159
+00:18:57,000 --> 00:18:59,000
+ local tunnel on your phone.
+
+160
+00:18:59,000 --> 00:19:04,000
+ And then you need to scan again to add that IP address.
+
+161
+00:19:04,000 --> 00:19:08,000
+ And yeah, if there's an IP, if it's reachable, then of course it works.
+
+162
+00:19:08,000 --> 00:19:14,000
+ So I can choose under which IP I want to be called and there's only one address in the QR code?
+
+163
+00:19:14,000 --> 00:19:16,000
+ Or is it all of my IPs?
+
+164
+00:19:16,000 --> 00:19:19,000
+ By default. Actually it's the MAC address.
+
+165
+00:19:19,000 --> 00:19:24,000
+ It's a special address basically of your Wi-Fi adapter.
+
+166
+00:19:24,000 --> 00:19:26,000
+ That's by default if you start the app.
+
+167
+00:19:26,000 --> 00:19:33,000
+ And from that, link local addresses are then created by default.
+
+168
+00:19:33,000 --> 00:19:38,000
+ And also the phone then looks at what kind of prefixes you have, IPv6 prefixes,
+
+169
+00:19:38,000 --> 00:19:42,000
+ and then it puts the MAC address of the person you want to contact.
+
+170
+00:19:42,000 --> 00:19:46,000
+ And hopefully it will get through. But for Firefox this works well.
+
+171
+00:19:46,000 --> 00:19:49,000
+ But there are a lot of configuration options.
+
+172
+00:19:49,000 --> 00:19:51,000
+ Okay, thank you.
+
+173
+00:19:51,000 --> 00:19:57,000
+ Alright, thanks for the nice talk and I hope you all found it enlightening.
+
+174
+00:19:57,000 --> 00:20:01,000
+ [music]
+

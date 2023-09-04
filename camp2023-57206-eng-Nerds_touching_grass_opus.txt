@@ -1,0 +1,328 @@
+ [MUSIC]
+ [MUSIC]
+ Now I'm really, really happy to announce Julian.
+ Julian is going to talk about biohack spaces and
+ is going to share their knowledge on them with us.
+ So please give a warm welcome, big applause to Julian.
+ >> [APPLAUSE]
+ >> Hi, okay.
+ That went faster than I thought.
+ Hi, I'm going to talk about biohack spaces.
+ This might be a little rushed because originally I had much more time in mind
+ when I applied for the talk.
+ I'm going to quickly tell you who I am.
+ I'm going to give you a very brief, like 120 seconds history of
+ how the hackerspace movement got its traction 16 years ago.
+ And then I'm going to go into biohack labs,
+ especially in the curious community labs, which I am a part of.
+ Talk a little about our projects.
+ And then I'm gonna tell you why this is all important and very dear to my heart.
+ Who am I?
+ I'm Julian.
+ Today I like to use they and then pronouns.
+ I'm 42, but I really don't have any answers for you.
+ I live in Hamburg and I'm part of the Curious Community Labs, which we founded
+ in 2020 out of a group of people who had been doing DIY biology before.
+ And I've also been part of the CCC for 20 years this year.
+ History of hackerspaces, and
+ I think this is sort of important to know your roots.
+ In 2007, who of you has been, went to the camp in 2007, or
+ who of you has been around in 2007?
+ In 2007, there was an inflection point because
+ there was, after the camp of 2007, there was a tour of European hackerspaces.
+ And a bunch of American hackers, most notably Dan Kaminsky,
+ we all dearly miss him, Nick Farr, Bree Petters, Mitch Altman,
+ a couple of others, did a tour around European hackerspaces and
+ visited the C-Base, MetaLab in Vienna, and Tropia in Karlsruhe,
+ Chaos Computer Club in Cologne, which was sort of the biggest and
+ most notable hackspaces around at that time.
+ And Joel and Poulon did a talk about hackspace blueprints.
+ And out of that came a whole explosion of hackspaces.
+ After that, NYC Resistor was founded in New York,
+ a noise bridge in San Francisco, and just, I don't know,
+ about 50 different hackspaces within the next 18 months.
+ So this entire explosion of hackspaces and
+ everything that has trickled down from there is sort of due to the camp in 2007
+ somehow, and due to these people I would like to give a shout out.
+ And also a shout out to the original sort of European hackspaces like C-Base and
+ MetaLab and Tropia, C4, and obviously don't forget the roots in the US as well,
+ like Loft and others.
+ The world is very different today.
+ The whole entire movement has changed, hackerspaces have changed, but this is,
+ I think it's quite important to know your roots and also understand that
+ small inflection points really can start a movement and can inspire others and so on.
+ I, after about 17 years in the hacker community in 2020,
+ started being very interested in growing my own mushrooms.
+ And out of that sort of started joining the biopunk movement,
+ which I'm going to quickly sort of give you an overview of what I mean when I say
+ that we very much about DIY grassroots biology, and
+ I understand that grassroots is a really funny word here.
+ We are very diverse and not entirely definable.
+ And just as you can't really grasp what nature actually is,
+ there's people doing stuff with DNA, there's people growing mushrooms,
+ there's people going foraging, picking stuff, fermenting,
+ playing with yeasts, inventing new foods, everything around that.
+ Very diverse, there's all sorts of projects all around Europe,
+ but very few actual dedicated biohack spaces.
+ We are curious about biology, we're curious about open source and sharing and
+ teaching and learning just as well as the electronics and computer based hack scene.
+ Some of us focus more on fungi, others on microbiology.
+ In Hamburg, we're very sort of fungi-focused group, but
+ we also do a couple of other things.
+ And we're sort of separate from what someone might understand as the sort of
+ old school biohacker body modification kind of scene.
+ People who work with their own body and try to optimize, and
+ so it's not really the same kind of people in any sense.
+ What we are more closely to is sort of the solar punk movement,
+ people are thinking about being autonomous, going off grid.
+ These kind of people, and then obviously we are sort of intertwined with the hacker
+ movement as well.
+ In Hamburg, we founded the Curious Community Labs, we have 42 square meters.
+ We have some extra areas, it's all in the Oberhafen in Hamburg.
+ If you ever come by, please have a look at us.
+ If you live in Hamburg, please come visit.
+ We have 23 members, and those numbers aren't made up, neither the 42 nor the 23.
+ And we have a bunch of gear standing around that we can use to do our own
+ DIY biology.
+ Some is very new, some is sort of foraged from industry,
+ from companies throwing out old hardware, and we give it a new life.
+ We grow mushrooms with a Flowhood, which is a sterile workbench.
+ We have a big massive autoclave, we have grow tents.
+ We have, someone sponsored us some DNA sequencing hardware.
+ We got a big grant to build the Garden of the Future,
+ which has a massive weather station and a greenhouse.
+ And we're certainly not the only biohack space around, but it's sort of hard to
+ grasp, and there's not really this sort of website collecting everything,
+ like there's on hackspaces.org.
+ So if you are part of your own biohack space, please contact me afterwards,
+ I'm happy to network.
+ There's a bunch of people around Berlin as well.
+ There's obviously online, there's a couple of groups and
+ people being interested in different topics.
+ Our lab looks a little like this.
+ There's also a bunch of equipment standing around that and
+ stuff that you can't see because it's sort of distributed.
+ And we have a bunch of projects.
+ Currently, most prominent is the Stadtpilze, or city mushrooms,
+ which got sponsored by the city of Hamburg.
+ We do some mushroom lamps, we build the Garden of the Future,
+ as I just said.
+ We go on foraging trips, we do food experiments and
+ experiment with all sorts of new ideas of ways of fermenting things and
+ growing yeasts and inventing new ways of doing things with
+ combining mycelium with grains.
+ And then we also have people who build a little company building
+ acoustic absorbing mycelium based composite materials and so on and so on.
+ So it's very diverse, and I really have to rush through there a little,
+ because I'm going to end the project a little more in depth now.
+ The Stadtpilze is basically idea of taking a bucket that you can get at
+ any restaurant you like, because they throw them out.
+ Filling it with cardboard, with coffee grounds,
+ with different other substrates, straw, and so on and so on.
+ And we built this whole brochure that makes it very accessible for
+ people to grow their own mushrooms.
+ And this looks like, come on, this.
+ Which is a pink oyster mushroom, which you can then grow yourself
+ on your windowsill and eat, and it's very delicious.
+ So being sustainable about your own food is sort of one part of what motivates us.
+ Then we work with novel mycelium based materials, most notably the mushroom lamp
+ which Matti built, which is a, and I'll show you how this stuff is made in a second,
+ but it's basically, it feels a little like polystyrene.
+ It has sort of a light weight, but it's very firm, and you can use it.
+ It's 100% biodegradable, and it is built out of straw and buckwheat and mycelium.
+ And then this becomes a lampshade.
+ We grow mushrooms.
+ We have our own grow tent, which looks about a little like this.
+ And we do this in a sterile work environment, so you need a flow hood or
+ some other way of keeping your environment sterile.
+ This puts pressured air through a HEPA filter, so
+ you disinfect obviously, but that allows you to keep the stuff clean.
+ I don't know if Sebastian is around?
+ No? Okay.
+ Sebastian has the project with building a planktoscope,
+ which is a high speed photography plankton analyzing water and
+ seeing what lives in there, and with raspberry pie and some high speed photography.
+ I think 8,000 pictures per second, and then you can see what flows through there and
+ what is actually in there, and count what is in there.
+ We have group activities.
+ We go out and forage mushrooms and prepare them and also learn about them,
+ understand how to identify them, etc., etc.
+ We go out into nature, which I know for some might be scary, but
+ we actually love to do this kind of stuff.
+ And then I'm going to talk a little about my own little project to
+ illustrate a little more what can be done, and
+ also because I know the most about what I do myself.
+ So last year I started playing the trumpet again,
+ which had been a hobby when I was like a child.
+ And then I stopped and then I started playing again, and
+ I live in the middle of the city.
+ So obviously my neighbors are not too happy about this.
+ Now, you can buy mutes and stick them in the trumpet, but
+ they restrict the airflow and that's sort of not really fun.
+ Or you can buy these things for about 500 euros, which is sort of a barrel
+ with some sound insulation, and you play inside and it's quiet and
+ nobody gets disturbed and it's quite nice, but it's also 500 euros.
+ And these things are made of plastic and not entirely great.
+ However, I still bought one because I needed one urgently.
+ And then I thought, well, I think I can make this myself.
+ So act one, I got myself a metal barrel and cut off the top.
+ Act two is that I 3D printed a mold that I could use to create
+ the waveform that reflects sound.
+ Act three is that I grew a bunch of mycelium.
+ And the way you do this is you take some carbohydrates like rye,
+ you sterilize it, you inject some liquid mycelium or spores in there.
+ You let it grow under good conditions and
+ then you mix it up with some substrate.
+ For example, in my case, I used rapeseed straw and
+ I used buckwheat shells and I mixed them in a two to one relation and
+ mixed it all up with mycelium and then I used reishi mushroom,
+ which is a medicinal mushroom.
+ But it also has incredible propagating properties,
+ like this stuff grows like crazy and
+ it's very hard to get any molding or rotting in there.
+ So I used that and then I shredded it all and ran it through a clean shredder.
+ And then I placed it all together and
+ placed it all together and let it grow for about a week.
+ And then I had this and then I took out the mold and then I dried it and
+ now I can play my trumpet into this and it is 100% compostable.
+ It is completely DIY and it also keeps my neighbors from complaining.
+ So that is what I built this winter.
+ So you can have a lot of fun and there's a million of applications of growing your
+ own mushrooms, of understanding nature around you, building your own food,
+ working with different kinds of components.
+ Also building tools and software and
+ hardware to help to make this even easier and
+ create less, what do you call it,
+ you don't have to throw that much away, for example.
+ Or understanding more about the strains you're building,
+ and microscopic stuff, organizing the different samples, etc, etc.
+ So there's a bunch of things to do and it's incredibly fun.
+ And I have only been at it for, if you're honest, about two years.
+ So there's a very, very steep learning curve in just doing your own stuff and
+ understanding a little more about what surrounds you.
+ And that's why I think this is important.
+ First of all, this planet is burning and this is very urgent.
+ We need to find solutions.
+ And we need to find big solutions but also small ones.
+ And we need to do this urgently and
+ without the sort of belief that capitalism can save any of this.
+ We need to go in there and do little quick projects to iterate and
+ to share our knowledge and to become more resilient.
+ We need to learn to grow our own stuff.
+ And we need to learn how to forage and preserve food and make it delicious.
+ And go out into nature and understand what surrounds us.
+ I think the idea that we are somehow as humans separate from nature is a deeply,
+ deeply patriarchal, colonialist, extractivist idea and this has to change.
+ We are not in any way separate from nature.
+ We are very much part of nature and we need to understand what surrounds us.
+ If we still believe we can somehow force nature under our will,
+ we will go under.
+ So please decolonize yourself.
+ Please understand that the idea of somehow conquering the world is a really,
+ really, really dreadful one.
+ >> [APPLAUSE]
+ >> Thank you.
+ And now you, hackers, people who are interested, we need you.
+ Many projects that we do require knowledge of computers and electronics.
+ Require an understanding of physics and mechanics.
+ And there's so much to discover and learn and share.
+ And there's so much fun in this because at the end, often it's very delicious as well.
+ And, or useful, or anything.
+ And it, you know, what we do usually is very, very sustainable.
+ Doesn't require shipping parts from the other part of the planet and
+ then throwing them out because you, you know, did the wrong solder.
+ You can't, as I said, you can't change the fundamental laws of nature.
+ But if you really start listening, nature can start changing you and
+ that is what we need as a society.
+ So please join a space, start your own, talk to us,
+ start doing some in your own hack spaces.
+ We offer some support.
+ We offer network.
+ We are open for networking to others.
+ You know, you can just reach me.
+ You can reach me after the talk.
+ You can go to our website, curious.bio.
+ You can write to me.
+ You can talk to me.
+ And I rushed through all of this to have two and a half minutes of questions.
+ Thank you.
+ >> [APPLAUSE]
+ >> Thank you so much, Julian, for
+ sharing your experiences and showing off this great mold you grew.
+ So if you have any questions, there is a wonderful angel with a microphone that
+ is smaller that you can go to and queue and ask maybe one or two questions.
+ So please shoot.
+ >> Hey, curious if you're doing anything with genetic engineering or
+ trying to figure out how to get approval to be allowed to do that within
+ the European Union.
+ >> No, we don't do it.
+ I know there's projects who do this kind of stuff.
+ It is obviously dangerous.
+ It also requires a shit ton of equipment that we do not have.
+ I have no idea about the approval.
+ That's why we grow mushrooms.
+ I mean, there's also a huge, most of the stuff we do is patented, so
+ you can't actually commercialize it.
+ But you very much can do your open source version of it.
+ And that's sort of for now.
+ I know there's some projects, but we don't.
+ >> Hello, how resistant is this material against humidity and this kind of-
+ >> Humidity, not so good.
+ Fire, quite good.
+ I don't know the exact specifications, but there's been a paper on fire
+ resistance and it doesn't burn, it just smolders, so it's decent.
+ Yeah, you don't want to put this stuff in your basement or outside.
+ That's just not, it's going to draw water.
+ And it needs to dry.
+ You need a drying chamber because it dies, the mycelium dies at 70 degrees.
+ So you need to get it to 70 degrees, often dry it for a while to get it really dry.
+ But once it's dry and it's in your home, it's great.
+ And if it's a little moist in your home, it'll just absorb moisture and
+ then just let it go once it stops being moist.
+ >> You almost answered my question already, but 70 degrees, that's centigrade?
+ >> Yes, yes, 70 degrees centigrade.
+ >> What do you think is the density?
+ Is it more like styrofoam, like very light, or is it more like cardboard?
+ >> It's more like polystyrene.
+ It depends on the, on very many factors.
+ You can tweak this.
+ You can play around with the substrate composition.
+ You can, the longer you let it grow, the denser it becomes, so
+ you have to stop it at a certain point, etc., etc.
+ So it really depends on what you, on what you, yeah.
+ >> And tweak it up and down.
+ >> You can tweak it up and down, yeah, you can totally do that.
+ >> I was wondering if there's a way to get more specific details on how to make
+ the audio tunnel?
+ >> On, yeah, it's, yeah.
+ >> There is, okay.
+ >> It's a 3D model I built basically by asking around on the Internet and
+ figuring out and asking, actually going on YouTube, seeing something similar,
+ talking to the guy who made the tutorial and asking me how he did it, and
+ he did the tutorial for me.
+ >> Okay, so it's all accessible online essentially.
+ >> Yeah, sort of.
+ I'll talk to you later.
+ >> Thank you.
+ >> We're done?
+ Thank you very much.
+ >> Oh, a question.
+ >> Yeah, but we are, we are over time.
+ Okay, here's the question.
+ >> Yeah, I just have a question to connect with people.
+ I'm looking for experienced people who have experience in DIY
+ hormone production for HRT.
+ So if you want to find me later, I'm at Art and Play over there, and
+ I will stay here a while and also post it on a bulletin.
+ >> That is super important.
+ I know there's a couple of projects around there.
+ There's none where we do, but I know this is a very, very important thing.
+ >> Just because it's biohacking here.
+ Yeah, thank you.
+ >> Hormone replacement therapy.
+ >> Replacement therapy, often for trans people, but also for women and menopause.
+ Yeah.
+ >> Okay.
+ >> I'll answer your question after the talk.
+ Thank you very much, everybody.
+ [MUSIC]

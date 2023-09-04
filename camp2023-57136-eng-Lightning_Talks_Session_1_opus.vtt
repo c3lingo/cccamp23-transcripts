@@ -1,0 +1,857 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:30.000
+ [MUSIC]
+
+00:00:30.000 --> 00:00:42.000
+ Okay, dann herzlich willkommen meine Daseinsformen und Menschen. Zum Glück ist nicht mehr ganz so heiß, sonst würde ich hier auf dieser Bühne wahrscheinlich ziemlich schnell verschmoren.
+
+00:00:43.000 --> 00:00:50.000
+ Willkommen zu Lightning Talks. Willkommen zu Lightning Talks, ladies and gentlemen. Who in this audience does not speak German?
+
+00:00:50.000 --> 00:00:55.000
+ Okay, that's a lot of people, so I will try to speak in English.
+
+00:00:55.000 --> 00:01:04.000
+ Basically, I think you might all know what this is all about. Lightning Talks. Anyone can come up to the stage, just talk about anything.
+
+00:01:04.000 --> 00:01:10.000
+ Any topic is allowed if it's not just political propaganda or something.
+
+00:01:11.000 --> 00:01:21.000
+ You have 10 minutes, then we will switch. We have a laptop, you can plug in your USB stick and display your PDF slides.
+
+00:01:21.000 --> 00:01:27.000
+ We have also Ethernet, so you can just call up the slides on your browser.
+
+00:01:27.000 --> 00:01:40.000
+ Yeah, we have a microphone. I had a list of people who want to have talks, but I have it on my other hard drive and the other hard drive is not here.
+
+00:01:40.000 --> 00:01:44.000
+ So, who wanted to hold a talk?
+
+00:01:44.000 --> 00:01:51.000
+ Alright. I wrote to you if you're number one or two or three on the list.
+
+00:01:51.000 --> 00:02:02.000
+ Yes. You want to come first? Okay. We have lots of time. We only have four people who came here in advance, so just come up and say something.
+
+00:02:03.000 --> 00:02:19.000
+ Another thing, you might see that the slides are not very well visible, but we have apparently on Media CCCDE there is a stream with slides only.
+
+00:02:19.000 --> 00:02:30.000
+ So, you can select the stream on your own device and have a little cheat sheet on your smartphone if you can't really see the slides.
+
+00:02:30.000 --> 00:02:37.000
+ Okay. That was the talk about BaseBanana. Then welcome!
+
+00:02:37.000 --> 00:02:43.000
+ [Applause]
+
+00:02:43.000 --> 00:02:49.000
+ [Background noise]
+
+00:02:49.000 --> 00:02:52.000
+ Here's the mouse.
+
+00:02:52.000 --> 00:03:02.000
+ [Background noise]
+
+00:03:03.000 --> 00:03:21.000
+ [Background noise]
+
+00:03:21.000 --> 00:03:25.000
+ Hello? Okay. It's working.
+
+00:03:26.000 --> 00:03:36.000
+ Hello. I'm Mitek. I speak about BaseBanana. That is my project. Stupid and funny project.
+
+00:03:36.000 --> 00:03:52.000
+ This project was talked for Italian language, so I don't know if it works fine in English or in German or in other languages, but I'm sure that in Italian it works fine.
+
+00:03:53.000 --> 00:04:11.000
+ It's banana fruit, but it's also a kind of word. A kind of word means that in the 90s when I was young I got this book from an Italian author that was speaking on play on words.
+
+00:04:12.000 --> 00:04:26.000
+ My favorite chapter was called Banana, Ananas, Avocado, and Ribes. Ananas is a pineapple in English, and ribes is a carrot.
+
+00:04:26.000 --> 00:04:37.000
+ The concept was that banana is a word that is formed by consonant and vowel, consonant and vowel, and so on.
+
+00:04:38.000 --> 00:04:50.000
+ And so ananas is the same, but starting with a vowel and ending with a consonant. Avocado is the same with both vowels and so on.
+
+00:04:50.000 --> 00:05:05.000
+ You can find a lot of words in Italian that are using this schema. In English it's more difficult, but I have some examples. Locate, legitimate, manage, moderate, negative, and so on.
+
+00:05:06.000 --> 00:05:22.000
+ I used ananas to create a random word that doesn't mean nothing, but can be spelled easy and can be also remembered well.
+
+00:05:23.000 --> 00:05:39.000
+ I used it for creating passwords because it was easy to remember, but it's very weak. I have also a service that is a URL shortener that is called vado.ly.
+
+00:05:40.000 --> 00:06:03.000
+ When you create the shortener, the random code is a banana word. It's easy also to speak on the phone and say go to this address, and it's easier than other strange codes with numbers and capital letters and so on.
+
+00:06:04.000 --> 00:06:08.000
+ So, yeah, it's sometimes useful.
+
+00:06:08.000 --> 00:06:21.000
+ Then I got in touch with Libre Mesh. Libre Mesh is a project about mesh networking, and it's a firmware to allow some routers to make mesh networks.
+
+00:06:22.000 --> 00:06:38.000
+ When you flash the firmware the first time, the name of the router is Lime and six digits of MAC address. This is done because you can create a random name, because if you flash it again it changes name.
+
+00:06:39.000 --> 00:06:53.000
+ It takes the last six charters from the MAC address, but it's difficult to remember and it's impossible to pronounce Lime 3, 4, 8, 9, F2. It's difficult.
+
+00:06:54.000 --> 00:07:07.000
+ I thought why not to convert this code in a banana? For example, Lime double-alo. It's easier to pronounce and also to remember. Make sense?
+
+00:07:08.000 --> 00:07:30.000
+ Yeah, okay. How I did it? When you have a basis, you have alphabets with symbols. For example, binary you have 0 and 1. For decimal you have from 0 to 9.
+
+00:07:31.000 --> 00:07:46.000
+ Base64 has 64 symbols. BaseBanana has two alphabets, one for consonant and one for vowels. When you are calculating you're taking consonant and vowel, consonant and vowel.
+
+00:07:47.000 --> 00:08:12.000
+ It's not the whole alphabet because in Italian we don't have some letters. For example, X, W are not used in Italian. Also, H and Q need U after that. It was difficult to create a word that sounds good.
+
+00:08:13.000 --> 00:08:30.000
+ Now we can start to count. It's difficult to see, but starting from 0, you have the first consonant is B and the first vowel is A. So 0 is BA.
+
+00:08:31.000 --> 00:08:49.000
+ Then you have BA, B, BA, BOO with the vowels. Then you switch to C. You go on until ZU is 69. The next number is BA.
+
+00:08:50.000 --> 00:09:08.000
+ You add two letters and you can count in BaseBanana. We have an example. I think it's not visible, but starting from 1, there are some examples.
+
+00:09:09.000 --> 00:09:20.000
+ When you add a word that is BA, you arrive to 1 million that is "per ame puga". In some way I can remember it.
+
+00:09:21.000 --> 00:09:44.000
+ There are different columns because if the banana word is short, you can add leading zeros. Like you add leading zeros in X, you can add BA that is 0.
+
+00:09:45.000 --> 00:09:53.000
+ B is the same as BABE. BABE is always the same number.
+
+00:09:54.000 --> 00:10:16.000
+ We are quite finished. I wrote a Python script that is also a library. You have different functions. You can encode, decode, generate random banana numbers and also check if it's a banana.
+
+00:10:17.000 --> 00:10:30.000
+ You can change the alphabet. You can change the alphabet of the letter you prefer. You also have more than two alphabets.
+
+00:10:31.000 --> 00:10:44.000
+ You can have three or four alphabets. It's difficult to see on the screen, but I use the Unicode and I have an alphabet made with animals and one with balls and one with fruit.
+
+00:10:44.000 --> 00:10:55.000
+ I can encode using this alphabet and also the number can be decoded using the same alphabet.
+
+00:10:56.000 --> 00:11:11.000
+ I did porting of the Python library. It's not complete porting. Only a few lines of code.
+
+00:11:11.000 --> 00:11:23.000
+ But I did it in JavaScript, Lua, PHP and Shell script. So if you want to test it or you want to improve it, you are free to do it.
+
+00:11:24.000 --> 00:11:35.000
+ Yesterday I had an engine shift in BGP that is for shipping packets.
+
+00:11:36.000 --> 00:12:03.000
+ The tracking code is a six digit hex. I thought why instead of having code 3C, 5B, 4, 5, you can use DENIFINA. It's easier to search something with a word that sounds and you can remember the sound for three seconds.
+
+00:12:04.000 --> 00:12:23.000
+ So it would be if you are presenting this project, it would be a good idea to include in your project. It can be useful for your projects to include the Banana library.
+
+00:12:24.000 --> 00:12:36.000
+ And I finished. Thanks to everyone. You can find the documentation, the code on GitHub and on the main site.
+
+00:12:36.000 --> 00:12:47.000
+ And you can write a mail or call me using that. Thank you.
+
+00:12:48.000 --> 00:13:00.000
+ Thank you very much. You should have brought a real banana and encode into the banana.
+
+00:13:00.000 --> 00:13:03.000
+ I have a banana with stickers on it.
+
+00:13:03.000 --> 00:13:12.000
+ We need more stickers. Does the stream version work with the slides? Can you guys see it? Nothing at all?
+
+00:13:13.000 --> 00:13:20.000
+ Question? What's his deck number in banana?
+
+00:13:21.000 --> 00:13:46.000
+ I don't know. Let me see. Firefox, if you go to base banana.
+
+00:13:47.000 --> 00:14:02.000
+ On the website you can see the demo page and you can find 4832 with no minimum length.
+
+00:14:03.000 --> 00:14:17.000
+ Zuby is 4832. It's easy on the website because there is a script running that can encode the code with the standard alphabet.
+
+00:14:17.000 --> 00:14:20.000
+ Perfect. Thank you.
+
+00:14:20.000 --> 00:14:30.000
+ I see the next speaker is already up. Come here. Welcome.
+
+00:14:30.000 --> 00:14:32.000
+ I knew my number.
+
+00:14:32.000 --> 00:14:40.000
+ Do you need a browser?
+
+00:14:40.000 --> 00:14:43.000
+ Free the wrist.
+
+00:14:43.000 --> 00:15:06.000
+ And you have a mouse too.
+
+00:15:06.000 --> 00:15:08.000
+ Perfect.
+
+00:15:09.000 --> 00:15:13.000
+ And you have a microphone. Does the microphone work? Yes, it works.
+
+00:15:13.000 --> 00:15:15.000
+ Ten minutes.
+
+00:15:15.000 --> 00:15:22.000
+ Hello everyone. I would like to say something about my tiny project which is called "Sorry Odro".
+
+00:15:22.000 --> 00:15:33.000
+ I'm Rotroth. My deck phone number is 4560. No idea how it will be in banana alphabet but I'll learn any time soon.
+
+00:15:34.000 --> 00:15:40.000
+ A very brief disclaimer. I'm a computer scientist. I'm not a biologist or ecologist.
+
+00:15:40.000 --> 00:15:49.000
+ Whatever is ecologically or biologically wrong here, that's my fault because I know zeros and ones.
+
+00:15:49.000 --> 00:15:55.000
+ I would like to say something about a river. A river that is basically linking three countries.
+
+00:15:56.000 --> 00:16:04.000
+ Czech Republic, Czechia, Poland and Germany. And apparently most likely some of you know which river I have in mind.
+
+00:16:04.000 --> 00:16:06.000
+ Do you?
+
+00:16:06.000 --> 00:16:08.000
+ Odra.
+
+00:16:08.000 --> 00:16:15.000
+ And the Odra River starts in Czechia. Kozlov. It's 866 kilometers long.
+
+00:16:15.000 --> 00:16:21.000
+ And flows through Poland and then becomes a natural border between Poland and Germany.
+
+00:16:22.000 --> 00:16:30.000
+ It also forms an inland sea where it ends and goes to Ostse and Moze Bautickie afterwards.
+
+00:16:30.000 --> 00:16:38.000
+ So it's a pretty long river, pretty wide river. Luckily it's not used anymore as an inland waterway.
+
+00:16:38.000 --> 00:16:46.000
+ It's regulated throughout the last 200 centuries but given near to zero water traffic it is fun to explore it.
+
+00:16:47.000 --> 00:16:53.000
+ And I did it some time back taking 600 kilometers out of it. So the majority of it.
+
+00:16:53.000 --> 00:17:01.000
+ Unfortunately given how well the pictures are seen you won't see a very nice portfolio of pictures from the Odra River.
+
+00:17:01.000 --> 00:17:08.000
+ So believe me or these who can see them on the slides I hope they'll appreciate.
+
+00:17:08.000 --> 00:17:13.000
+ Anyway, let me slowly move to the merits of the presentation.
+
+00:17:14.000 --> 00:17:17.000
+ Yeah, there is the stork on the lamp.
+
+00:17:17.000 --> 00:17:24.000
+ Some birds, some green areas, some river, more birds.
+
+00:17:24.000 --> 00:17:38.000
+ And if some of you are still willing to camp more after the camp you can go there and have a really nice enjoyable trip by, I don't know, kayak, inflatable boat whatsoever.
+
+00:17:39.000 --> 00:17:50.000
+ Anyway, I've got a number of fun facts about Odra. And these fun facts relate to Poland specifically because that's what I observed when I studied the whole problem.
+
+00:17:50.000 --> 00:18:04.000
+ So as of November 2022 there were 751 water permits to dump sewage into Odra River and its tribuaries in place, meaning nearly 800 of institutions threw sewage into the river.
+
+00:18:05.000 --> 00:18:12.000
+ But, but, and it's very important, only one permit application has been rejected ever, meaning we see some progress.
+
+00:18:12.000 --> 00:18:16.000
+ One of 752 has been rejected.
+
+00:18:16.000 --> 00:18:22.000
+ Unfortunately the environmental impact is not taken into account when deciding upon these permits.
+
+00:18:22.000 --> 00:18:28.000
+ So it's only a technical procedure to get the permit issued and you're good to go.
+
+00:18:29.000 --> 00:18:41.000
+ And some cities, majority of cities dump sewage, water from mines, rain waters, manufacturer companies, power plants, they do it all together and dump all that into the river.
+
+00:18:41.000 --> 00:18:52.000
+ Anyway, when you swim it you don't feel it. I mean there is a huge disconnection between how you feel when going through the river and what's being dumped into the river.
+
+00:18:53.000 --> 00:19:03.000
+ And most importantly after the permit has been issued no on-site verification is taking place, meaning they don't verify whether you actually dumped what you promised to dump.
+
+00:19:03.000 --> 00:19:07.000
+ So why not to overuse it, let me put it that way.
+
+00:19:07.000 --> 00:19:17.000
+ And for the ones that like numbers I've got some, they are pretty outdated, but from 2012 there was a study that proved that
+
+00:19:18.000 --> 00:19:31.000
+ Morze Bałtyckie or how Germans call it Ostse has been provided with 19 tons of zinc, 56 tons of copper, 7.5 tons of lead and 26 tons of nickel.
+
+00:19:31.000 --> 00:19:35.000
+ And that's official, that's what Polish government admitted.
+
+00:19:35.000 --> 00:19:42.000
+ And my feeling is that most likely the situation did not get better since 2012.
+
+00:19:43.000 --> 00:19:56.000
+ There is the water quality index which basically says that water in the Odra River is 4 or 5 out of 5 levels and as you may guess the best quality is 1.
+
+00:19:56.000 --> 00:20:01.000
+ So we are at the very bottom here and that's basically the reason why I'm here.
+
+00:20:02.000 --> 00:20:14.000
+ Okay, some of you might have heard about the 2022 other environmental disaster. Basically a mass mortality last year occurred in the Odra River.
+
+00:20:14.000 --> 00:20:25.000
+ That involved fish, beavers, crayfish and other wildlife. Tons of these, I'm not here to show you the pictures, I don't like to see these pictures at all.
+
+00:20:26.000 --> 00:20:32.000
+ Nevertheless the root causes are not known, but surely the following conditions contributed.
+
+00:20:32.000 --> 00:20:39.000
+ We can consider it like a black swan effect or accident, but on the other hand there was something going on before.
+
+00:20:39.000 --> 00:20:52.000
+ Anyway, low water levels, reduced oxygen levels, pollution and possibility of algal bloom definitely contributed, but these tons of precious metals contributed as well, that's my guess.
+
+00:20:53.000 --> 00:21:00.000
+ Unfortunately, and that's why the project is called "Sorry Odra", meaning you are apologized Odra River.
+
+00:21:00.000 --> 00:21:13.000
+ Poland was slow on reacting, there was near to zero information flow from Poland to Germany and despite some movement and activity in this area no real dynamics was observed.
+
+00:21:14.000 --> 00:21:26.000
+ And because of that I decided to run a small project which is called "Sorry Odra", because there was none to zero monitoring on the Polish side.
+
+00:21:26.000 --> 00:21:35.000
+ And after a year Polish officials decided to run nine stations that constantly monitor the river and share the data.
+
+00:21:36.000 --> 00:21:45.000
+ And this is why I'm here. They monitor oxygen, ACCT, temperature and conductivity.
+
+00:21:45.000 --> 00:22:02.000
+ Unfortunately if you were born in the 90s you don't know how data was shared in the 90s, but basically the data interface they provide you with is a crap, so I decided to do something about it and to create this project.
+
+00:22:03.000 --> 00:22:14.000
+ And the idea, the purpose of the project is to gather data from that source, integrate it, reshare it and visualize it in a very proper manner according to my standards at least.
+
+00:22:14.000 --> 00:22:30.000
+ And what's the goal of the whole project? The goal is to impose pressure on officials to make people aware and acting upon the quality of the water in Odra, but most likely in some more rivers.
+
+00:22:31.000 --> 00:22:44.000
+ And most of you I believe remember the Lufthatten project which changed a lot with respect to air pollution, so of course it's not that easy to run this kind of station, but you can still contribute to the project.
+
+00:22:45.000 --> 00:23:01.000
+ And given that I'm also doing some science, I don't like looking at scientists gathering data and doing data preprocessing, so my goal was to create that and take that obligation from them.
+
+00:23:02.000 --> 00:23:22.000
+ The website of the project is soreodro.pl, but I believe if you want you'll find it. It provides visualizations, it provides data about the station's reliability, so now I can inform the data sources about the problems in providing that data, maybe they don't look at it.
+
+00:23:23.000 --> 00:23:36.000
+ Technically speaking it's a composition of bash scripts, MariaDB structures, Finks and Grafana. It's MIT licensed and the source code is available on GitHub.
+
+00:23:36.000 --> 00:23:45.000
+ I believe you don't see any visualizations here, but if you know how Grafana works you know what to expect.
+
+00:23:46.000 --> 00:23:53.000
+ And lastly let me share some short and long term goals with you with respect to that project.
+
+00:23:53.000 --> 00:24:11.000
+ Firstly I would like to make that data coming from both sources, meaning from Poland and Germany, because now we are working in a separate manner, so maybe that could be a good meta project to integrate the data from both countries.
+
+00:24:12.000 --> 00:24:22.000
+ Obviously now the project is in Polish, but I'm also working on translating it into English and German.
+
+00:24:22.000 --> 00:24:39.000
+ I would like to collaborate with some people that are somehow aware of the water quality levels and parameter quality, because I would like to introduce a framework that notifies people that the quality dropped below certain thresholds.
+
+00:24:40.000 --> 00:25:00.000
+ And in a long term run I would like to provide a reliable data source for the society, researchers, decision makers, and would like to change the attitude of all the shareholders towards chemical waste and sewage dumping into Odra and hopefully more rivers as well.
+
+00:25:01.000 --> 00:25:14.000
+ So if you would like to contact me my phone is 4560 and the remaining links are barely visible, but the most important one is soryodro.pl.
+
+00:25:14.000 --> 00:25:24.000
+ And yes this is also the invitation for collaboration because I'm running the project myself and I would be very happy to see more people involved.
+
+00:25:24.000 --> 00:25:28.000
+ And that's pretty much everything I want to say. Thank you.
+
+00:25:28.000 --> 00:25:33.000
+ [Applause]
+
+00:25:33.000 --> 00:25:42.000
+ Thank you very much. Any questions for him? No? Okay. I think you got the website.
+
+00:25:42.000 --> 00:25:54.000
+ As a reminder the stream is also recorded so you can just have a look at it later and you will see all the links and everything. You can just copy it.
+
+00:25:55.000 --> 00:26:01.000
+ Alright. Next speaker already standing there. Of course come up. Sure no problem.
+
+00:26:01.000 --> 00:26:10.000
+ I will close this. Here you go.
+
+00:26:10.000 --> 00:26:12.000
+ Do you have the slides there?
+
+00:26:12.000 --> 00:26:14.000
+ Slides for all.
+
+00:26:14.000 --> 00:26:43.000
+ [Silence]
+
+00:26:43.000 --> 00:27:12.000
+ [Silence]
+
+00:27:12.000 --> 00:27:26.000
+ [Silence]
+
+00:27:27.000 --> 00:27:47.000
+ Okay. We apologize for technical difficulties. The talk was supposed to be about a cow sticker collection. We will make sure to get the slides tomorrow. So if you want to know everything about stickers come again tomorrow here same place and maybe we'll find a better solution for the beamer or something.
+
+00:27:47.000 --> 00:27:52.000
+ Anyway thank you and applause. We'll see you tomorrow.
+
+00:27:53.000 --> 00:28:18.000
+ [Silence]
+
+00:28:19.000 --> 00:28:35.000
+ Okay. Can you all hear me? Okay. Raise your hand if you can see the slides. Okay. Cool. Cool. Cool. So 50%. So there's not a lot on the slides. Some words and some flying spaghetti monsters so you won't miss much.
+
+00:28:35.000 --> 00:28:38.000
+ [Silence]
+
+00:28:39.000 --> 00:28:57.000
+ It's not full screen. Oh we have to talk to the people in the back for that. The beamer doesn't do that. Anyways hello. I'm Sather. I'm a volunteer angel for the camp and I also go by John. You can call me either.
+
+00:28:58.000 --> 00:29:14.000
+ I come from California. I don't work for the postal service but I love them and I have a message for you. There's something I think needs to happen and I'm here to help that happen. I think there needs to be a church of cryptography.
+
+00:29:15.000 --> 00:29:34.000
+ So let's talk about our agenda. We'll go over the why there needs to be a church of cryptography. What is a church of cryptography? How you make a church of cryptography? When you should make a church of cryptography? And how you can all help with the church of cryptography.
+
+00:29:35.000 --> 00:29:49.000
+ So let's begin. I hope this doesn't offend anyone. I'm not here to say one religion is better than another but I hope to convince you mine is the best at the end. I mean ours. Okay so why? Why are we here?
+
+00:29:50.000 --> 00:30:06.000
+ As creatures of the universe we have the religious rights to communicate with other creatures and gods of our choosing using mathematical principles that hold true across the universe, across time. It doesn't matter if you're on this side of the Milky Way or the other side.
+
+00:30:07.000 --> 00:30:20.000
+ Cryptographic primitives hold true and I think that's a beautiful thing and I think that's one of the unique things that we can all agree upon as creatures of the universe and we get to reflect upon that.
+
+00:30:20.000 --> 00:30:35.000
+ And that enables to do things. These cryptographic principles let us communicate with individual identities securely knowing that with some probability that no one will ever be able to read that and that probability is very high.
+
+00:30:36.000 --> 00:30:51.000
+ There's more particles of sand than unique identities for some keys and more identities than like atoms in space and time. And I think it's cool that we get to talk to each other securely.
+
+00:30:51.000 --> 00:31:04.000
+ I think it's great and when I have a child I want to talk to my child securely. I want to be Alice, I want my child to be Bob and I want Eve to stay way far away. Eve isn't needed here.
+
+00:31:05.000 --> 00:31:15.000
+ And I come from the land of the US of A and every couple of years, every couple of decades there always seems to be a war on crypto. I survived the war on drugs.
+
+00:31:15.000 --> 00:31:26.000
+ I grew up in the Emerald Triangle and where a lot of people grew cannabis and I understood what it meant to be watched upon by the state and I saw what that did to the people's mindset.
+
+00:31:27.000 --> 00:31:36.000
+ Privacy really mattered. It mattered for your freedom and it mattered for the health and life welfare of your children. And I never understood why weed was illegal. It just didn't make sense to me.
+
+00:31:36.000 --> 00:31:48.000
+ Now encryption, I don't understand why it's illegal. And the US government is constantly trying to edge their way into my matrix servers. I don't want to give them the decryption keys.
+
+00:31:49.000 --> 00:31:57.000
+ I don't know what's going to happen to me if I don't. And what ground do I stand upon to even... Oh I forgot to set my timer.
+
+00:31:57.000 --> 00:32:05.000
+ Anyways, so there's a lot of reasons why I want this and I do think a daughter should be able to talk to their mother in private.
+
+00:32:05.000 --> 00:32:12.000
+ A prayer should be able to send to the gods of your choosing in private and we have the right to maintain that.
+
+00:32:13.000 --> 00:32:27.000
+ So now what's a church? What's a church of cryptography? For me, a church of cryptography is just a place to meet and talk about crypto and what it is, how it is, how it came to be, where is it going.
+
+00:32:27.000 --> 00:32:36.000
+ There's all kinds of things in that space and society is dealing with cryptography in a lot of different applications it never thought it was going to have to deal with.
+
+00:32:37.000 --> 00:32:48.000
+ 30 years ago, nobody would believe that there was magic internet money. But cryptographic primitives made it so. And we all have to deal with those consequences and the freedoms of them.
+
+00:32:48.000 --> 00:32:56.000
+ So in America, creating a religion, it comes right before having the right to own guns. It's part of the First Amendment.
+
+00:32:56.000 --> 00:33:04.000
+ So the First Amendment gives American citizens the right to free speech and the right to practice the religion of their choosing.
+
+00:33:05.000 --> 00:33:13.000
+ And if that religion doesn't work for most of the people, that's okay. As long as it's not bothering anyone, it's welcome in America.
+
+00:33:13.000 --> 00:33:21.000
+ And so we have pastafarians who are welcome. They believe the flying spaghetti monster and stuff. We have the Native American Church.
+
+00:33:21.000 --> 00:33:34.000
+ They're allowed to participate in religious ceremonies where certain drugs that are classified as Schedule I narcotics, which are the most illegal drugs in America, they can have those, they can practice those, the people can use those.
+
+00:33:34.000 --> 00:33:46.000
+ And so creating a church is actually a pretty practiced thing in America. I don't know about the German government and the European states, but I imagine you also have similar freedoms here. And I apologize for my ignorance.
+
+00:33:46.000 --> 00:33:56.000
+ So for us, what do we do? Where's our first place of congregation? It's in the Matrix, and you don't need to take a red pill or a blue pill.
+
+00:33:57.000 --> 00:34:06.000
+ You just need to go to Church of Crypto, Matrix.org, and find us there, my friends and all these fellow creatures.
+
+00:34:06.000 --> 00:34:12.000
+ What are we going to be doing? We're going to be learning, we're going to be sharing the joys and pains of life in the cryptographic space.
+
+00:34:12.000 --> 00:34:17.000
+ We'll be using end-to-end encrypted cryptographic protocols to do so.
+
+00:34:17.000 --> 00:34:26.000
+ And yeah, maybe we'll create some nonprofits across the globe to help facilitate the resources and capital required to spread the love.
+
+00:34:26.000 --> 00:34:36.000
+ When? The best time is now. Four years ago I was at camp and I wanted to do something awesome, and I didn't know what to do.
+
+00:34:36.000 --> 00:34:47.000
+ And I stand upon the shoulders of giants every day in the open source community, and I see all of you here, and I feel the love, and I think this is one way I can give back.
+
+00:34:48.000 --> 00:34:57.000
+ And I may not be here tomorrow, but I am here today, and this is what I want to do, and I'd love to inspire you to help out. All creatures are welcome.
+
+00:34:57.000 --> 00:35:00.000
+ And it's a great motto, so let's live by it.
+
+00:35:00.000 --> 00:35:15.000
+ How can you help? Join the channel. Start asking questions, start teaching people what end-to-end encrypted communication is, how it came to be, what are the primitives that make it so, and yeah, learn, love, listen, and grow.
+
+00:35:15.000 --> 00:35:17.000
+ Thank you very much.
+
+00:35:17.000 --> 00:35:23.000
+ [Applause]
+
+00:35:23.000 --> 00:35:25.000
+ Amen, brother.
+
+00:35:25.000 --> 00:35:27.000
+ Thank you.
+
+00:35:27.000 --> 00:35:38.000
+ Actually, when you said that it's sort of a universal principle cryptography, that reminded me of a thing that Edward Snowden once said. He was talking to Neil deGrasse Tyson or something.
+
+00:35:39.000 --> 00:35:57.000
+ He was speculating about aliens and Fermi paradoxes, why we haven't seen them, and Edward Snowden said, well, maybe it's just standard for all civilizations to at some point develop cryptography, and it's just common sense to always make it, to always encrypt your stuff.
+
+00:35:58.000 --> 00:36:13.000
+ So good cryptography cannot be discerned from random noise. So all the space radiation that we get, all the random noise, might be just alien civilizations talking without us noticing. So yeah, maybe that's it.
+
+00:36:13.000 --> 00:36:16.000
+ [Laughter]
+
+00:36:16.000 --> 00:36:20.000
+ Okay, we're already next one.
+
+00:36:20.000 --> 00:36:49.000
+ [Silence]
+
+00:36:49.000 --> 00:37:18.000
+ [Silence]
+
+00:37:18.000 --> 00:37:47.000
+ [Silence]
+
+00:37:47.000 --> 00:37:58.000
+ [Silence]
+
+00:37:59.000 --> 00:38:22.000
+ Hello. Okay, one of the principles or advantages of lightning talks that is not being talked about is that you do not get to choose the topic, but I get to choose the topic. So it means that I can talk about something that you might not want to hear, like if you're far away from home, pay attention to where you put your glasses.
+
+00:38:23.000 --> 00:38:41.000
+ Or I can also tell you something that you always wanted to check out, but really never bothered. And depending on whether you can see my presentation, we might talk about one topic or the other. So give me a moment.
+
+00:38:41.000 --> 00:38:52.000
+ [Silence]
+
+00:38:52.000 --> 00:39:07.000
+ Is there anyone who has trouble reading it? Can you put up your hand? Anyone has trouble reading it, cannot read it? Very few people, so maybe you can rearrange yourselves.
+
+00:39:08.000 --> 00:39:25.000
+ Okay, so Prologue, what is it? It's a programming language, it's a logical programming language, and I bet you heard about it. It's like, what was it, sixth or fourth generation programming language, one generation more than the usual languages that we use today.
+
+00:39:26.000 --> 00:39:41.000
+ Is it actually, why is it different, why is it so, like, why was it hyped in two decades ago, or how is it special, what's so different about it, what can we learn from it, and where is it surprising?
+
+00:39:41.000 --> 00:39:53.000
+ I had this question a couple of months ago, and as a total newbie, I'm going to give you an introduction of what I learned from Prologue and why it's interesting.
+
+00:39:54.000 --> 00:40:12.000
+ So what I learned about is that Prologue can be thought of as a language that is basically a database language, and here in the example, we have some data on the top in the data file, can you read it?
+
+00:40:13.000 --> 00:40:25.000
+ Yeah, let's say, so there's three facts, there's a fact, cat Fido, cat Tom, and cat Fritz. So what can you do with the data? You can query the data.
+
+00:40:25.000 --> 00:40:38.000
+ If you load it into the interpreter using the data directive something, you can see the question mark is the prompt of the interpreter, SWIPL, you can query it using the cat X.
+
+00:40:39.000 --> 00:40:53.000
+ The capital X means what is it, and as an answer you get cat can be Fido, or it can be Tom, or it can be Fritz. So we query their database and return all the data that they had. Cool.
+
+00:40:54.000 --> 00:41:15.000
+ Another database example, a bit closer to reality, let's imagine that we have an image sensor that can emit data in two combinations, in combinations of formats. One is RGB, the other is UV, and it can return data in some frame rates, but not all combinations are possible.
+
+00:41:16.000 --> 00:41:24.000
+ So we put in the data, config, RGB, FPS24, and so on, we put on all the combinations, and that gives us a possibility to query it.
+
+00:41:24.000 --> 00:41:37.000
+ So in the first line you see here, there's config R and underscore. Underscore means we don't care, and R, capital R, means we want this to be listed.
+
+00:41:37.000 --> 00:41:44.000
+ What are the options when we don't care about the other one? We don't care about the frame rate, we just want the format.
+
+00:41:45.000 --> 00:41:59.000
+ So if we put in this as a prompt, you get two answers. It can be either RGB or UV. So we query their database for unique values of a certain column in some way, in some interpretation.
+
+00:42:00.000 --> 00:42:26.000
+ We can also set one column to UV and then query the frame rates, or we can do something more complex. We can return entire configs with this syntax. We only care about configs which have RGB as a result, and then we get the entire configs which have RGB, but also they are already filled in, and so on.
+
+00:42:27.000 --> 00:42:39.000
+ More general questions in the last line. You have it's flowing off the screen, but you get all the combinations where you query it with two variables.
+
+00:42:39.000 --> 00:42:47.000
+ And for the finish, can we have a combination of UV with 60 FPS and say false? There are no answers.
+
+00:42:48.000 --> 00:42:58.000
+ You might have noticed that there are multiple answers sometimes. So it's one of the query languages in this revision. But that's not all.
+
+00:42:58.000 --> 00:43:09.000
+ Let's see this example. This does not look like a query language. We are doing +123. 1+2=3? Yeah, that's right.
+
+00:43:10.000 --> 00:43:23.000
+ And then we are adding 1+2=what? And what is 3? No surprises there. Then we get +a23, like +what to get 3.
+
+00:43:24.000 --> 00:43:40.000
+ Okay, this is kind of unexpected. First we got an answer in the third part, and then we get an answer in the first argument. So it correctly gives us the answer. 1+2=3. So this is surprising, isn't it?
+
+00:43:40.000 --> 00:43:50.000
+ So you do not get that kind of behavior in normal programming languages. You cannot choose which argument is the output argument, and here you just did it.
+
+00:43:51.000 --> 00:44:00.000
+ So this is not a function after all. So this is kind of the mix between a query language and a language to figure out things in general.
+
+00:44:00.000 --> 00:44:08.000
+ Let's take a look at a more complicated example. There is a directive, I don't know what it's called.
+
+00:44:08.000 --> 00:44:19.000
+ There is a thing that is called append, and it appends a list to another list. And the answer is what? What is abc when we add ab to c?
+
+00:44:20.000 --> 00:44:29.000
+ Not surprising, but let's keep going. Here we have a more complicated example, just like we had a plus example.
+
+00:44:29.000 --> 00:44:42.000
+ So we add a... yes, what will we get if we... from a different perspective. The result is abc, and we are appending a and b to what?
+
+00:44:42.000 --> 00:44:46.000
+ Okay, five seconds for the answer. Who knows?
+
+00:44:46.000 --> 00:44:56.000
+ Yes, a list containing b. Let's take a look at the answer. And there's going to be another riddle, so think about it.
+
+00:44:56.000 --> 00:45:09.000
+ Wait, c. So there's another riddle. You get... yeah, that's actually more complicated. What do you append to what to get ab?
+
+00:45:10.000 --> 00:45:17.000
+ Okay, there are two positions that you have to fill in. How does a programming language manage to do that?
+
+00:45:17.000 --> 00:45:27.000
+ Five seconds for you to think. One, two, three, four, five. And the answer is, did you get it right?
+
+00:45:28.000 --> 00:45:41.000
+ There is a list of combinations. First, it's x and y is... x is empty, y is an a and b. Second combination is a is in the first position and b is in the second position.
+
+00:45:41.000 --> 00:45:52.000
+ Third combination is a and b are in the first position and the second position is empty. And I don't know why there is also the answer that is not possible, but okay, I'm just a beginner.
+
+00:45:53.000 --> 00:46:06.000
+ So who got it right? Hands up. Yay, you're learning. So as you can see, this is not something that can be described as functional programming or anything like that.
+
+00:46:06.000 --> 00:46:17.000
+ Those are not functions. This probably is more of an engine to solve problems that you have based on figuring out the relationship between the facts that you give it.
+
+00:46:18.000 --> 00:46:31.000
+ And yeah, how does it all happen? This is no magic. If you are trying to declare your own, I don't know, procedure equivalent, you just give it a couple of relationships.
+
+00:46:31.000 --> 00:46:41.000
+ Here the important relationships is a is lower than b, a is lower than c, c is lower than b. And I don't quite remember what it was about.
+
+00:46:42.000 --> 00:46:53.000
+ Ordering that one is between the other. But basically this is a simple example of a function. So you can actually write this. There is no arcane magic behind it.
+
+00:46:53.000 --> 00:47:04.000
+ Actually there is, but not on the level that you are going to deal with normally. Yeah, those are just ensuring that those numbers have been declared as facts before. It doesn't really matter that much.
+
+00:47:05.000 --> 00:47:16.000
+ But yeah, so this is what I wanted to tell you about Prolog. It's different, it's useful, it's an engine for querying facts, it's an engine for figuring out relationships between facts, and it's not using functions.
+
+00:47:16.000 --> 00:47:25.000
+ When I was learning it, there was a guy on IRC who was asking questions and trying to write basically Java in Prolog. It was really painful to watch.
+
+00:47:26.000 --> 00:47:40.000
+ If you try to learn Prolog after this talk, pay attention to unification and backtracking. Those are the two magical concepts that you should learn, because otherwise you're just not going to have fun at all.
+
+00:47:40.000 --> 00:47:49.000
+ And yeah, this is how you get multiple answers and this is how you solve things like Sudoku using Prolog.
+
+00:47:50.000 --> 00:47:58.000
+ And if you want to learn more random projects of mine, my website is dorotac.eu.
+
+00:47:58.000 --> 00:48:08.000
+ Or you can come on Friday to KSZone and I'm going to have a talk about embedded REST. I don't know what time yet, but it's going to happen.
+
+00:48:08.000 --> 00:48:13.000
+ Actually a workshop, so you can also participate, bring your laptops. Thank you very much.
+
+00:48:13.000 --> 00:48:16.000
+ [Applause]
+
+00:48:17.000 --> 00:48:22.000
+ Thank you. Oh, your glasses are broken? Ah, that's what you mentioned in the beginning.
+
+00:48:22.000 --> 00:48:35.000
+ Any questions for her? All right, we still have time for one more talk. Ah, you got it. All right, the sticker collection is back online, I think.
+
+00:48:35.000 --> 00:48:37.000
+ Second try, let's hope it works.
+
+00:48:37.000 --> 00:48:39.000
+ All right.
+
+00:48:39.000 --> 00:48:44.000
+ [Silence]
+
+00:48:45.000 --> 00:48:47.000
+ Stick.
+
+00:48:48.000 --> 00:49:17.000
+ [Silence]
+
+00:49:17.000 --> 00:49:27.000
+ [Silence]
+
+00:49:27.000 --> 00:49:37.000
+ Test, test. Okay, hello everyone. My name is Moritz. And when Corona hit, I was bored.
+
+00:49:38.000 --> 00:49:51.000
+ And well, basically the idea is I created a sticker collection because I missed cows, wrens and sticker boxes. And I also have to say that my laptop is like a sticker free zone for various reasons.
+
+00:49:51.000 --> 00:49:58.000
+ So I thought, okay, let's collect photographs or even better templates of stickers.
+
+00:49:59.000 --> 00:50:13.000
+ So, yeah, that's easy to replicate. And I went around the internet and looked up where I can find these templates for all these kind of stickers you see in sticker boxes over here, over there.
+
+00:50:13.000 --> 00:50:20.000
+ And lots of stickers I knew and it was a bit hard to track, but I got quite a lot.
+
+00:50:21.000 --> 00:50:34.000
+ It's not really good to see here, but basically it's now about over 500 stickers I've collected. It's not all templates.
+
+00:50:34.000 --> 00:50:40.000
+ Some of the stickers you see here, basically it's everything is on GitHub.
+
+00:50:41.000 --> 00:50:54.000
+ The code itself for this JavaScript and HTML, it's all on GitHub as a site. And you can just put some random name, sorry, some query in that search field, for example, Fryfunk or Chaos.
+
+00:50:54.000 --> 00:51:03.000
+ And then it will quickly filter out all the tagged images and the source and well, if possible, the author license and stuff.
+
+00:51:04.000 --> 00:51:12.000
+ And yeah, I did it on GitHub basically because it's easy to track, easy to extend for merge.
+
+00:51:12.000 --> 00:51:20.000
+ I just wanted to make it easier for other people to just copy and replicate and just in case I got get bored.
+
+00:51:20.000 --> 00:51:26.000
+ Again, well, let's call it distracted by other projects.
+
+00:51:27.000 --> 00:51:42.000
+ And yeah, and also a small shout out to other projects, for example, the Chaos sticker collection, no, Chaos sticker operation center, which does something similar.
+
+00:51:43.000 --> 00:51:59.000
+ There's also HackerArchive.org, thank you. I don't really remember all the links there, which is a bit more detailed with descriptions.
+
+00:52:00.000 --> 00:52:13.000
+ And yeah, so if you have stickers and you have even better as a template, maybe send it to you, sorry, not to you, to me by email or on GitHub, make a poll request.
+
+00:52:13.000 --> 00:52:21.000
+ I will integrate it and yeah, then it's for everybody to copy and to modify whatever the license allows.
+
+00:52:21.000 --> 00:52:27.000
+ And we will hopefully have more accessible stickers, more varieties. That's always good.
+
+00:52:28.000 --> 00:52:31.000
+ And thank you so much for your attention.
+
+00:52:31.000 --> 00:52:37.000
+ All right, thank you very much.
+
+00:52:37.000 --> 00:52:46.000
+ Actually, is there a sort of sticker box here at camp or are there several boxes? Does anyone know?
+
+00:52:46.000 --> 00:52:53.000
+ Yeah, you can tell me later, then I will ask you. Thank you.
+
+00:52:53.000 --> 00:52:55.000
+ Thank you very much.
+
+00:52:56.000 --> 00:53:00.000
+ The hour is basically already full. I apologize for the technical difficulties.
+
+00:53:00.000 --> 00:53:04.000
+ Are there any people here who still wanted to have a talk but didn't have the time?
+
+00:53:04.000 --> 00:53:07.000
+ Okay, I think we just made it.
+
+00:53:07.000 --> 00:53:19.000
+ Oh, yeah, okay. So tomorrow, same time, I will try and improve a bit the techniques. So see you again tomorrow.
+
+00:53:19.000 --> 00:53:20.000
+ See you again tomorrow.
+
+00:53:20.000 --> 00:53:29.000
+ [Music]
+

@@ -1,0 +1,1982 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:32.000
+ All right, welcome everybody.
+
+00:00:32.000 --> 00:00:34.000
+ Day three, first talk on the Bits and Bombers stage.
+
+00:00:34.000 --> 00:00:36.000
+ How's everybody doing?
+
+00:00:36.000 --> 00:00:39.000
+ [APPLAUSE]
+
+00:00:39.000 --> 00:00:43.000
+ Yes, still a bit tired, but we have nice weather today, not too much sun,
+
+00:00:43.000 --> 00:00:48.000
+ so you can fully enjoy the talk by Joseph Devo Geis.
+
+00:00:48.000 --> 00:00:56.000
+ He will talk briefly for about 25 minutes on the impact of software
+
+00:00:56.000 --> 00:01:01.000
+ on energy and resource consumption and give us an overview of the environmental harm
+
+00:01:01.000 --> 00:01:06.000
+ and the potentials for savings there and how free software in special
+
+00:01:06.000 --> 00:01:09.000
+ is well positioned to address the issue.
+
+00:01:09.000 --> 00:01:13.000
+ And in the end, we will have a Q&A session.
+
+00:01:13.000 --> 00:01:16.000
+ And, yeah, if you have any questions, you can raise your hands,
+
+00:01:16.000 --> 00:01:18.000
+ and we will get a mic to you.
+
+00:01:18.000 --> 00:01:23.000
+ So give Joseph a warm round of applause again and enjoy the talk.
+
+00:01:23.000 --> 00:01:26.000
+ [APPLAUSE]
+
+00:01:26.000 --> 00:01:28.000
+ Yeah, thank you. Thank you very much.
+
+00:01:28.000 --> 00:01:31.000
+ Thank you to the organizers at Bits and Bomber.
+
+00:01:31.000 --> 00:01:33.000
+ This has been great so far.
+
+00:01:33.000 --> 00:01:38.000
+ So the title of my talk today is Free Software, Software Design for the Environment.
+
+00:01:38.000 --> 00:01:43.000
+ And this is part of a larger KDE eco-initiative
+
+00:01:43.000 --> 00:01:48.000
+ working on sustainability issues in KDE and free software.
+
+00:01:48.000 --> 00:01:52.000
+ Before I get started, though, I like to make my talks a little bit interactive.
+
+00:01:52.000 --> 00:01:55.000
+ Feel free, if when I'm talking you have a question that's burning
+
+00:01:55.000 --> 00:01:57.000
+ and you want to ask it right away, you can just raise your hand,
+
+00:01:57.000 --> 00:02:02.000
+ and either the mic will come to you or I can repeat it for the audience.
+
+00:02:02.000 --> 00:02:04.000
+ Before we get started, though, I wanted to ask you,
+
+00:02:04.000 --> 00:02:10.000
+ what are some words and phrases that you associate with free software?
+
+00:02:10.000 --> 00:02:17.000
+ And I'll repeat here for the people who are online.
+
+00:02:17.000 --> 00:02:18.000
+ Great.
+
+00:02:18.000 --> 00:02:20.000
+ Great, yeah, good.
+
+00:02:20.000 --> 00:02:21.000
+ Empowerment.
+
+00:02:21.000 --> 00:02:22.000
+ Empowerment.
+
+00:02:22.000 --> 00:02:23.000
+ Powerful.
+
+00:02:23.000 --> 00:02:24.000
+ Say it again.
+
+00:02:24.000 --> 00:02:25.000
+ Powerful.
+
+00:02:25.000 --> 00:02:26.000
+ Powerful.
+
+00:02:26.000 --> 00:02:27.000
+ Customizable.
+
+00:02:27.000 --> 00:02:28.000
+ Customizable.
+
+00:02:28.000 --> 00:02:29.000
+ Collaboration.
+
+00:02:29.000 --> 00:02:30.000
+ Collaboration.
+
+00:02:30.000 --> 00:02:31.000
+ Collaboration.
+
+00:02:31.000 --> 00:02:32.000
+ Great.
+
+00:02:32.000 --> 00:02:33.000
+ Sustainable.
+
+00:02:33.000 --> 00:02:34.000
+ Sustainable.
+
+00:02:34.000 --> 00:02:36.000
+ So most people don't say sustainable,
+
+00:02:36.000 --> 00:02:38.000
+ and I hope by the end of this talk all of you,
+
+00:02:38.000 --> 00:02:43.000
+ next time someone asks you that question, will say sustainable.
+
+00:02:43.000 --> 00:02:45.000
+ I have many links in the slides.
+
+00:02:45.000 --> 00:02:48.000
+ If you want to download them, they're available at our repository.
+
+00:02:48.000 --> 00:02:55.000
+ I will also return to the slide if you remind me at the end of the talk.
+
+00:02:55.000 --> 00:02:56.000
+ Just wait a second.
+
+00:02:56.000 --> 00:02:58.000
+ Great.
+
+00:02:58.000 --> 00:03:03.000
+ So to get started, just to frame the issue that we're talking about.
+
+00:03:03.000 --> 00:03:06.000
+ So this is a post on Macedon from Ed Hawkins.
+
+00:03:06.000 --> 00:03:10.000
+ He's a climate scientist at the University of Reading,
+
+00:03:10.000 --> 00:03:11.000
+ in which he has a graph.
+
+00:03:11.000 --> 00:03:14.000
+ I don't expect you can really see the graph,
+
+00:03:14.000 --> 00:03:19.000
+ but I hope you can see that all but one have an upward slope to it.
+
+00:03:19.000 --> 00:03:20.000
+ Okay?
+
+00:03:20.000 --> 00:03:23.000
+ You can probably guess what these are measurements of.
+
+00:03:23.000 --> 00:03:28.000
+ This is the global temperature, CO2 emissions, sea levels.
+
+00:03:28.000 --> 00:03:30.000
+ There's only one that's going down.
+
+00:03:30.000 --> 00:03:34.000
+ That's the ice thickness.
+
+00:03:34.000 --> 00:03:36.000
+ And he writes in the post,
+
+00:03:36.000 --> 00:03:38.000
+ "Changes are emerging across the climate system.
+
+00:03:38.000 --> 00:03:41.000
+ Everywhere we look, the climate is changing rapidly.
+
+00:03:41.000 --> 00:03:43.000
+ These changes are not normal.
+
+00:03:43.000 --> 00:03:48.000
+ They're caused by the burning of fossil fuels."
+
+00:03:48.000 --> 00:03:52.000
+ Fossil fuels are also being burned in the ICT sector.
+
+00:03:52.000 --> 00:03:56.000
+ So information and communications technology is right now an area
+
+00:03:56.000 --> 00:04:00.000
+ that's being researched to figure out how much energy is consumed
+
+00:04:00.000 --> 00:04:04.000
+ and how much the ICT sector contributes to CO2 emissions.
+
+00:04:04.000 --> 00:04:09.000
+ This is a graph, again, all having upward slopes,
+
+00:04:09.000 --> 00:04:14.000
+ which is a meta study looking at various research papers
+
+00:04:14.000 --> 00:04:20.000
+ trying to estimate what the CO2 emissions are of the ICT sector.
+
+00:04:20.000 --> 00:04:25.000
+ One thing I want to point out here is that the estimates vary.
+
+00:04:25.000 --> 00:04:28.000
+ You can see some grow exponentially, some grow linearly.
+
+00:04:28.000 --> 00:04:30.000
+ However, they're all growing.
+
+00:04:30.000 --> 00:04:37.000
+ And if you take it, sort of try to average over what all of the studies seem to show,
+
+00:04:37.000 --> 00:04:44.000
+ it appears that ICT sector contributes between 2 and 4 percent of CO2 emissions globally.
+
+00:04:44.000 --> 00:04:46.000
+ To put that into perspective,
+
+00:04:46.000 --> 00:04:49.000
+ that's roughly the equivalent of the global aviation industry,
+
+00:04:49.000 --> 00:04:52.000
+ which is estimated around 2.5 percent.
+
+00:04:52.000 --> 00:04:57.000
+ This analysis for the ICT sector includes everything
+
+00:04:57.000 --> 00:05:01.000
+ from production, transportation, end-of-life treatment of devices,
+
+00:05:01.000 --> 00:05:04.000
+ to energy consumption of the Internet,
+
+00:05:04.000 --> 00:05:09.000
+ to energy consumption driven by the software you're running at home or in your office.
+
+00:05:09.000 --> 00:05:15.000
+ Also includes Bitcoin, machine learning, training, etc.
+
+00:05:15.000 --> 00:05:21.000
+ Right now, the current trajectory, if you look here as well as here,
+
+00:05:21.000 --> 00:05:24.000
+ if things don't change, it's going to continue growing.
+
+00:05:24.000 --> 00:05:30.000
+ And some estimates put that up to about 30 percent of global CO2 emissions by 2050.
+
+00:05:30.000 --> 00:05:37.000
+ So it's growing. It's increasing rapidly.
+
+00:05:37.000 --> 00:05:40.000
+ One thing I want to point out here, and I like this quote from this,
+
+00:05:40.000 --> 00:05:43.000
+ it's a tech brief from the Association of Computing Machinery,
+
+00:05:43.000 --> 00:05:45.000
+ computing can help mitigate climate change.
+
+00:05:45.000 --> 00:05:49.000
+ How? By substituting other activities that we're doing.
+
+00:05:49.000 --> 00:05:52.000
+ But it must first cease contributing to it,
+
+00:05:52.000 --> 00:05:58.000
+ because it's growing in some cases faster than it's substituting.
+
+00:05:58.000 --> 00:06:01.000
+ I'm going to focus today in this talk on the different ways
+
+00:06:01.000 --> 00:06:05.000
+ that software is driving energy consumption specifically.
+
+00:06:05.000 --> 00:06:09.000
+ Of course, energy consumption does contribute to CO2,
+
+00:06:09.000 --> 00:06:11.000
+ depending on what the power grid mix is.
+
+00:06:11.000 --> 00:06:13.000
+ I'm not going to talk too much about estimates of CO2.
+
+00:06:13.000 --> 00:06:15.000
+ I'm going to talk specifically about power consumption,
+
+00:06:15.000 --> 00:06:19.000
+ as well as production costs.
+
+00:06:19.000 --> 00:06:21.000
+ I'm going to do that in two different ways.
+
+00:06:21.000 --> 00:06:24.000
+ I'm going to talk about efficiency, energy efficiency,
+
+00:06:24.000 --> 00:06:29.000
+ in terms of achieving the same result when doing the same task,
+
+00:06:29.000 --> 00:06:34.000
+ but consuming less energy, as well as conservation,
+
+00:06:34.000 --> 00:06:37.000
+ that is reducing the waste that's driven by software.
+
+00:06:37.000 --> 00:06:40.000
+ And let's look at some examples of this.
+
+00:06:40.000 --> 00:06:43.000
+ First, in terms of efficiency.
+
+00:06:43.000 --> 00:06:47.000
+ This is a comparison of two word processors.
+
+00:06:47.000 --> 00:06:50.000
+ It's from the Umweltbundesamt.
+
+00:06:50.000 --> 00:06:53.000
+ It's some research done by the Umweltkampus Birkenfeld,
+
+00:06:53.000 --> 00:06:56.000
+ in which they compared various software products doing the same thing,
+
+00:06:56.000 --> 00:06:58.000
+ and then looking at their energy consumption differences.
+
+00:06:58.000 --> 00:07:01.000
+ Word processor one, the green bar plot,
+
+00:07:01.000 --> 00:07:04.000
+ is a free and open source software product.
+
+00:07:04.000 --> 00:07:05.000
+ They don't mention which one.
+
+00:07:05.000 --> 00:07:08.000
+ The blue one is a proprietary one.
+
+00:07:08.000 --> 00:07:10.000
+ Again, they don't mention which one.
+
+00:07:10.000 --> 00:07:13.000
+ And as you can see here, to do the exact same thing,
+
+00:07:13.000 --> 00:07:15.000
+ to achieve the same result,
+
+00:07:15.000 --> 00:07:20.000
+ word processor two consumes about four times the energy.
+
+00:07:20.000 --> 00:07:24.000
+ Okay, for an individual, this may not make much of a difference.
+
+00:07:24.000 --> 00:07:28.000
+ But you can't think of software's energy consumption on an individual basis.
+
+00:07:28.000 --> 00:07:32.000
+ Word processors are in every office, in every university,
+
+00:07:32.000 --> 00:07:33.000
+ on everyone's computer.
+
+00:07:33.000 --> 00:07:35.000
+ People are using it globally all the time.
+
+00:07:35.000 --> 00:07:38.000
+ If you think about these numbers when you scale it up,
+
+00:07:38.000 --> 00:07:40.000
+ they add up very quickly.
+
+00:07:40.000 --> 00:07:42.000
+ And to give an example of that,
+
+00:07:42.000 --> 00:07:47.000
+ this is from a talk from Hasso Plattner Institute, Detlef Thoms,
+
+00:07:47.000 --> 00:07:49.000
+ in which he does a back-of-the-envelope calculation,
+
+00:07:49.000 --> 00:07:54.000
+ in which you reduce a process by one CPU second.
+
+00:07:54.000 --> 00:07:56.000
+ Okay, it's a very minimal change.
+
+00:07:56.000 --> 00:08:01.000
+ That's about the equivalent of a savings of 10 watt seconds.
+
+00:08:01.000 --> 00:08:04.000
+ And if you multiply that by 1.5 million users,
+
+00:08:04.000 --> 00:08:07.000
+ now that's not very many users,
+
+00:08:07.000 --> 00:08:12.000
+ and you assume that there are 20 such reductions a day,
+
+00:08:12.000 --> 00:08:18.000
+ so this reduction in the CPU usage happens 20 times a day,
+
+00:08:18.000 --> 00:08:21.000
+ and you multiply that by 230 working days a year,
+
+00:08:21.000 --> 00:08:25.000
+ you end up with 19 megawatt hours of savings.
+
+00:08:25.000 --> 00:08:28.000
+ Now, if you're like me, that doesn't mean much to you.
+
+00:08:28.000 --> 00:08:31.000
+ To put that into perspective,
+
+00:08:31.000 --> 00:08:34.000
+ if you take a modern electric vehicle
+
+00:08:34.000 --> 00:08:38.000
+ and drive it back and forth from Shanghai six times,
+
+00:08:38.000 --> 00:08:41.000
+ that's about the equivalent of 19 megawatt hours.
+
+00:08:41.000 --> 00:08:43.000
+ Okay, so these are very simple changes
+
+00:08:43.000 --> 00:08:49.000
+ that result in big savings once you scale it up.
+
+00:08:49.000 --> 00:08:52.000
+ And the thing about software is that you're not only changing on one computer,
+
+00:08:52.000 --> 00:08:55.000
+ but you're changing every computer that gets that update, right?
+
+00:08:55.000 --> 00:08:58.000
+ And when you think about it on a global level,
+
+00:08:58.000 --> 00:09:00.000
+ these savings really add up very quickly.
+
+00:09:00.000 --> 00:09:04.000
+ If I can convince just 500 developers--
+
+00:09:04.000 --> 00:09:07.000
+ and I've been giving similar talks now for about a year and a half,
+
+00:09:07.000 --> 00:09:09.000
+ so this is a very realistic goal--
+
+00:09:09.000 --> 00:09:13.000
+ 500 developers to try to achieve just 10 of those efficiency gains,
+
+00:09:13.000 --> 00:09:16.000
+ multiply that by 19 megawatt hour savings,
+
+00:09:16.000 --> 00:09:18.000
+ and you're talking about the energy consumption
+
+00:09:18.000 --> 00:09:21.000
+ of 30,000 two-person households in one year.
+
+00:09:21.000 --> 00:09:28.000
+ So scaling it up, you get to really big efficiency gains.
+
+00:09:28.000 --> 00:09:31.000
+ Okay, now conservation.
+
+00:09:31.000 --> 00:09:33.000
+ Reducing the waste.
+
+00:09:33.000 --> 00:09:34.000
+ And when we're talking about waste,
+
+00:09:34.000 --> 00:09:38.000
+ let's start where the waste lands in the landfill.
+
+00:09:38.000 --> 00:09:45.000
+ And this is a graph--infographic representing the e-waste from 2016.
+
+00:09:45.000 --> 00:09:47.000
+ Already one year before that,
+
+00:09:47.000 --> 00:09:52.000
+ Akim Steiner from the UN commented that there's a tsunami of e-waste
+
+00:09:52.000 --> 00:09:55.000
+ rolling out over the world.
+
+00:09:55.000 --> 00:10:02.000
+ In 2015, there was 44.7 million tons of e-waste produced.
+
+00:10:02.000 --> 00:10:08.000
+ That's about the equivalent of 4,500 Eiffel Towers.
+
+00:10:08.000 --> 00:10:09.000
+ If you were to stack those Eiffel Towers,
+
+00:10:09.000 --> 00:10:12.000
+ it would be about 17 times Mount Everest high.
+
+00:10:12.000 --> 00:10:14.000
+ Okay, this is in one year, and it's growing.
+
+00:10:14.000 --> 00:10:18.000
+ In 2019, the World Economic Forum said
+
+00:10:18.000 --> 00:10:21.000
+ that e-waste is the fastest growing waste stream in the world.
+
+00:10:21.000 --> 00:10:29.000
+ In 2022, 60 million tons of e-waste, a 33% increase.
+
+00:10:29.000 --> 00:10:34.000
+ Of that e-waste, about 20% is estimated to be recycled.
+
+00:10:34.000 --> 00:10:36.000
+ And in what ends up in the landfill,
+
+00:10:36.000 --> 00:10:40.000
+ although e-waste accounts for about 2% of the total waste,
+
+00:10:40.000 --> 00:10:47.000
+ it's 70% of the toxic waste.
+
+00:10:47.000 --> 00:10:49.000
+ What does software have to do with e-waste, right?
+
+00:10:49.000 --> 00:10:52.000
+ So, e-waste is hardware.
+
+00:10:52.000 --> 00:10:54.000
+ Software can drive e-waste.
+
+00:10:54.000 --> 00:10:56.000
+ Some of you may have had this warning message
+
+00:10:56.000 --> 00:10:59.000
+ that your device is no longer supported.
+
+00:10:59.000 --> 00:11:01.000
+ If your software is tied to that device,
+
+00:11:01.000 --> 00:11:03.000
+ then that device becomes unusable,
+
+00:11:03.000 --> 00:11:07.000
+ at least not without serious disadvantages to you as a user.
+
+00:11:07.000 --> 00:11:10.000
+ The software might become more and more bloated
+
+00:11:10.000 --> 00:11:12.000
+ as more features are added,
+
+00:11:12.000 --> 00:11:15.000
+ and the energy that's consumed
+
+00:11:15.000 --> 00:11:18.000
+ or the processing power that's needed by the hardware
+
+00:11:18.000 --> 00:11:22.000
+ is so much that older hardware can no longer support that software.
+
+00:11:22.000 --> 00:11:25.000
+ As a result, what you have is devices that are now produced
+
+00:11:25.000 --> 00:11:27.000
+ and transported unnecessarily,
+
+00:11:27.000 --> 00:11:32.000
+ and functioning devices end up as e-waste in the landfill.
+
+00:11:32.000 --> 00:11:34.000
+ This is particularly problematic,
+
+00:11:34.000 --> 00:11:37.000
+ thinking about it in terms of CO2.
+
+00:11:37.000 --> 00:11:44.000
+ This is a graph from a book from Lange and Santorius
+
+00:11:44.000 --> 00:11:48.000
+ called "Smarta Kuhn-U-Neveld".
+
+00:11:48.000 --> 00:11:52.000
+ This is data from Apple's own sustainability reports
+
+00:11:52.000 --> 00:11:55.000
+ from an iPhone in which they estimate
+
+00:11:55.000 --> 00:11:57.000
+ how much CO2 is produced per device
+
+00:11:57.000 --> 00:11:59.000
+ and then what it's attributable to.
+
+00:11:59.000 --> 00:12:03.000
+ They find, Apple reports, that the production,
+
+00:12:03.000 --> 00:12:05.000
+ end-of-life treatment and transportation
+
+00:12:05.000 --> 00:12:09.000
+ accounts for about 80% of the CO2 emissions of a device.
+
+00:12:09.000 --> 00:12:13.000
+ So, sending a device into the landfill before its time
+
+00:12:13.000 --> 00:12:16.000
+ is a huge waste of resources.
+
+00:12:16.000 --> 00:12:31.000
+ So, to me, they're both the same thing, right?
+
+00:12:31.000 --> 00:12:35.000
+ I mean, if the hardware doesn't allow the software,
+
+00:12:35.000 --> 00:12:40.000
+ it's because the software can't function on that hardware.
+
+00:12:40.000 --> 00:12:42.000
+ So, what could the hardware vendors
+
+00:12:42.000 --> 00:12:45.000
+ where to open or provide support?
+
+00:12:45.000 --> 00:12:47.000
+ Right, okay, so the question is,
+
+00:12:47.000 --> 00:12:49.000
+ so things like bootloaders being proprietary
+
+00:12:49.000 --> 00:12:52.000
+ and then not allowing devices to then run other software, right?
+
+00:12:52.000 --> 00:12:54.000
+ That's a design decision.
+
+00:12:54.000 --> 00:13:01.000
+ That's maybe not directly a software in the sense of...
+
+00:13:01.000 --> 00:13:03.000
+ It is a software decision because that's proprietary.
+
+00:13:03.000 --> 00:13:08.000
+ You can't then access the device.
+
+00:13:08.000 --> 00:13:10.000
+ So, I would say, I mean, software and hardware,
+
+00:13:10.000 --> 00:13:12.000
+ those are the...what you're describing,
+
+00:13:12.000 --> 00:13:16.000
+ so the question was about when the hardware is so locked down
+
+00:13:16.000 --> 00:13:19.000
+ that you can't install other software on it.
+
+00:13:19.000 --> 00:13:23.000
+ And that's a situation where you have a device
+
+00:13:23.000 --> 00:13:26.000
+ that's tied to one particular software product, right?
+
+00:13:26.000 --> 00:13:29.000
+ But that's a design decision and it's still related to software.
+
+00:13:29.000 --> 00:13:31.000
+ And I would say we should all be fighting
+
+00:13:31.000 --> 00:13:34.000
+ for the right to repair, to include software,
+
+00:13:34.000 --> 00:13:36.000
+ including things like opening up bootloaders
+
+00:13:36.000 --> 00:13:43.000
+ so that you can install other software products on it.
+
+00:13:43.000 --> 00:13:46.000
+ So, yeah, production and end-of-life treatment
+
+00:13:46.000 --> 00:13:48.000
+ and transportation are going to contribute
+
+00:13:48.000 --> 00:13:52.000
+ to much of the CO2 emissions of a device.
+
+00:13:52.000 --> 00:13:55.000
+ But it's not only CO2 emissions.
+
+00:13:55.000 --> 00:13:57.000
+ The end-of-life treatment also contributes
+
+00:13:57.000 --> 00:14:02.000
+ to polluting air, soil, et cetera,
+
+00:14:02.000 --> 00:14:05.000
+ often in countries in the global south,
+
+00:14:05.000 --> 00:14:09.000
+ both where the devices are...the metals are mined,
+
+00:14:09.000 --> 00:14:11.000
+ often under horrible conditions,
+
+00:14:11.000 --> 00:14:14.000
+ and then they return there to then end up
+
+00:14:14.000 --> 00:14:18.000
+ in treatment centers or in landfills.
+
+00:14:18.000 --> 00:14:22.000
+ This here is in Ghana.
+
+00:14:22.000 --> 00:14:25.000
+ So, I mentioned at the beginning that there are cases
+
+00:14:25.000 --> 00:14:29.000
+ where digitization can substitute other activities,
+
+00:14:29.000 --> 00:14:31.000
+ and one of the questions there is is,
+
+00:14:31.000 --> 00:14:33.000
+ what is the relative harm difference
+
+00:14:33.000 --> 00:14:36.000
+ between the digital product and the non-digital one?
+
+00:14:36.000 --> 00:14:38.000
+ This is, again, from Lange and Centorious.
+
+00:14:38.000 --> 00:14:41.000
+ It's a comparison of e-readers
+
+00:14:41.000 --> 00:14:45.000
+ in terms of their environmental harm and books, paper books.
+
+00:14:45.000 --> 00:14:47.000
+ Paper book production also contributes
+
+00:14:47.000 --> 00:14:50.000
+ to environmental harm in terms of polluting water and soil
+
+00:14:50.000 --> 00:14:53.000
+ with the chemicals used to create the paper.
+
+00:14:53.000 --> 00:14:57.000
+ And the production of an e-reader contributes also
+
+00:14:57.000 --> 00:15:00.000
+ to environmental harm in terms of the different materials
+
+00:15:00.000 --> 00:15:02.000
+ that go into it, often toxic.
+
+00:15:02.000 --> 00:15:06.000
+ Per device, 300 liters of water are required,
+
+00:15:06.000 --> 00:15:09.000
+ and one estimate has CO2 emissions
+
+00:15:09.000 --> 00:15:11.000
+ at 170 kilograms per device.
+
+00:15:11.000 --> 00:15:15.000
+ And Lange and Centorious estimate that if you read
+
+00:15:15.000 --> 00:15:19.000
+ about 30 to 60 paper books or more,
+
+00:15:19.000 --> 00:15:21.000
+ at that point, the environmental harm,
+
+00:15:21.000 --> 00:15:23.000
+ it's worth getting the e-reader
+
+00:15:23.000 --> 00:15:25.000
+ from what you're contributing.
+
+00:15:25.000 --> 00:15:28.000
+ This is one estimate. These are very hard estimates to make.
+
+00:15:28.000 --> 00:15:31.000
+ The point being that these are things
+
+00:15:31.000 --> 00:15:33.000
+ that you have to consider.
+
+00:15:33.000 --> 00:15:36.000
+ Substitution is not in itself always better.
+
+00:15:36.000 --> 00:15:41.000
+ In the case of e-readers, statistics about how many books
+
+00:15:41.000 --> 00:15:43.000
+ people read per year in comparison
+
+00:15:43.000 --> 00:15:45.000
+ to how long devices are supported.
+
+00:15:45.000 --> 00:15:50.000
+ So one Wikipedia article had the start date
+
+00:15:50.000 --> 00:15:54.000
+ and end date for production of e-readers
+
+00:15:54.000 --> 00:15:57.000
+ as 1.5 years on average.
+
+00:15:57.000 --> 00:16:04.000
+ The average US-American reads 60% read less than five books per year.
+
+00:16:04.000 --> 00:16:06.000
+ So to get to the number of 30 to 60,
+
+00:16:06.000 --> 00:16:09.000
+ it's going to require using that device for a long time,
+
+00:16:09.000 --> 00:16:13.000
+ which likely won't be the case given the short-term lifespan
+
+00:16:13.000 --> 00:16:15.000
+ of these devices.
+
+00:16:15.000 --> 00:16:20.000
+ So one of the things I want to point out there in those parts
+
+00:16:20.000 --> 00:16:25.000
+ is software design in terms of the energy consumption,
+
+00:16:25.000 --> 00:16:28.000
+ as well as its support for hardware,
+
+00:16:28.000 --> 00:16:34.000
+ can influence the environmental harm of the ICT sector.
+
+00:16:34.000 --> 00:16:40.000
+ And this was the motivation for eco-certifying software.
+
+00:16:40.000 --> 00:16:43.000
+ Many people ask, well, what does software have to do with eco-certification?
+
+00:16:43.000 --> 00:16:45.000
+ That's what I'm going to talk about now.
+
+00:16:45.000 --> 00:16:50.000
+ The Blue Angel released the award criteria for software in 2020.
+
+00:16:50.000 --> 00:16:58.000
+ The award criteria are aligned with FOSS values of transparency
+
+00:16:58.000 --> 00:17:01.000
+ and user autonomy.
+
+00:17:01.000 --> 00:17:06.000
+ And there are three main categories to the award criteria--
+
+00:17:06.000 --> 00:17:08.000
+ resource and energy efficiency,
+
+00:17:08.000 --> 00:17:11.000
+ potential hardware operating life, and user autonomy.
+
+00:17:11.000 --> 00:17:16.000
+ Just to get an overview before I focus on some of the user autonomy characteristics,
+
+00:17:16.000 --> 00:17:21.000
+ which are inherent to software license with a free software license.
+
+00:17:21.000 --> 00:17:25.000
+ Before we get there, though, let's look at some of the different criteria--
+
+00:17:25.000 --> 00:17:30.000
+ resource and energy efficiency--that's related to the energy consumption of software.
+
+00:17:30.000 --> 00:17:35.000
+ The criteria don't have a threshold, but rather a transparency requirement
+
+00:17:35.000 --> 00:17:39.000
+ so that users are aware of how much energy this software consumes
+
+00:17:39.000 --> 00:17:42.000
+ when running typical tasks.
+
+00:17:42.000 --> 00:17:44.000
+ Potential hardware operating life--
+
+00:17:44.000 --> 00:17:47.000
+ the requirements are that it runs on hardware at least five years old.
+
+00:17:47.000 --> 00:17:49.000
+ I think this is a little too low,
+
+00:17:49.000 --> 00:17:55.000
+ especially given that many Linux distributions run on hardware much older than that.
+
+00:17:55.000 --> 00:17:59.000
+ And the user autonomy requirements include things like uninstallability,
+
+00:17:59.000 --> 00:18:05.000
+ modularity, which influences the sort of software feature creep and bloat,
+
+00:18:05.000 --> 00:18:08.000
+ continuity of support, documentation,
+
+00:18:08.000 --> 00:18:12.000
+ so that there's long-term reuse and repairability of software,
+
+00:18:12.000 --> 00:18:16.000
+ transparency so that users can decide which software products to use
+
+00:18:16.000 --> 00:18:19.000
+ so you're not locked into an inefficient program,
+
+00:18:19.000 --> 00:18:22.000
+ as well as offline capability and freedom from advertising,
+
+00:18:22.000 --> 00:18:25.000
+ both of which consume energy.
+
+00:18:25.000 --> 00:18:30.000
+ Just some background, the Blue Angel Oculus from KDE
+
+00:18:30.000 --> 00:18:32.000
+ is the first Blue Angel certified software.
+
+00:18:32.000 --> 00:18:34.000
+ Currently, it's the only one.
+
+00:18:34.000 --> 00:18:38.000
+ I hope to convince at least some people that it's worth at least meeting
+
+00:18:38.000 --> 00:18:41.000
+ the award criteria if you're interested in the topic
+
+00:18:41.000 --> 00:18:46.000
+ or considering applying for ECO certification.
+
+00:18:46.000 --> 00:18:49.000
+ So here, getting to the characteristics about free and open source software
+
+00:18:49.000 --> 00:18:54.000
+ and how it relates to energy efficiency and resource consumption.
+
+00:18:54.000 --> 00:18:57.000
+ So looking at the criteria,
+
+00:18:57.000 --> 00:19:02.000
+ it's hard to single out a single one when it comes to the topics of efficiency and conservation.
+
+00:19:02.000 --> 00:19:04.000
+ They're all interrelated.
+
+00:19:04.000 --> 00:19:08.000
+ But here, I want to focus on a couple of them together in three different parts.
+
+00:19:08.000 --> 00:19:12.000
+ So first, I want to look at the energy consumption and hardware performance
+
+00:19:12.000 --> 00:19:15.000
+ related to uninstallability and modularity,
+
+00:19:15.000 --> 00:19:21.000
+ and perhaps related to offline capability and freedom from advertising.
+
+00:19:21.000 --> 00:19:24.000
+ So we take it for granted in the free and open source software community
+
+00:19:24.000 --> 00:19:27.000
+ that you can uninstall software.
+
+00:19:27.000 --> 00:19:29.000
+ This is something that is obvious to us,
+
+00:19:29.000 --> 00:19:34.000
+ and many of us probably have never thought about that in terms of efficiency gains.
+
+00:19:34.000 --> 00:19:38.000
+ But unwanted software components that remain on a system
+
+00:19:38.000 --> 00:19:43.000
+ contribute to longer boot-up times, longer shutdown times,
+
+00:19:43.000 --> 00:19:47.000
+ perhaps extra processes running when you're using that software, et cetera.
+
+00:19:47.000 --> 00:19:51.000
+ All of which, if you go back to the one CPU second reduction,
+
+00:19:51.000 --> 00:19:56.000
+ all of which adds up when you multiply that over millions of users.
+
+00:19:56.000 --> 00:20:03.000
+ So uninstallability is a way to create a more efficient system.
+
+00:20:03.000 --> 00:20:08.000
+ Again, going back to this graph comparing the two different word processors,
+
+00:20:08.000 --> 00:20:12.000
+ if you want to take a deeper look at what the energy consumption looks like over time,
+
+00:20:12.000 --> 00:20:15.000
+ here's a plot, again, from that same measurement,
+
+00:20:15.000 --> 00:20:20.000
+ looking at the word processor, the open source word processor,
+
+00:20:20.000 --> 00:20:24.000
+ which is on the bottom plot in comparison to the proprietary word processor,
+
+00:20:24.000 --> 00:20:26.000
+ which is on the top plot.
+
+00:20:26.000 --> 00:20:31.000
+ And what you can see here is doing the exact same thing.
+
+00:20:31.000 --> 00:20:33.000
+ They have very different energy profiles.
+
+00:20:33.000 --> 00:20:37.000
+ The x-axis is showing over time while running different tasks,
+
+00:20:37.000 --> 00:20:42.000
+ things like opening a document, changing the layout, and then saving the document.
+
+00:20:42.000 --> 00:20:46.000
+ And I want to focus here on what happens after that blue line.
+
+00:20:46.000 --> 00:20:52.000
+ That's the point at which the document is saved and the software goes idle.
+
+00:20:52.000 --> 00:20:56.000
+ And what you can see here is that the proprietary software
+
+00:20:56.000 --> 00:20:58.000
+ continues doing things in the background.
+
+00:20:58.000 --> 00:21:01.000
+ It does it quite a bit, actually.
+
+00:21:01.000 --> 00:21:08.000
+ And in comparison, the free and open source software product goes idle as you would expect.
+
+00:21:08.000 --> 00:21:13.000
+ The report doesn't say what exactly is happening in this time period.
+
+00:21:13.000 --> 00:21:19.000
+ There is also measurements in this approach where they're looking at network traffic,
+
+00:21:19.000 --> 00:21:22.000
+ writing to disk, etc.
+
+00:21:22.000 --> 00:21:26.000
+ That data is not in the report, so I don't know what's happening here.
+
+00:21:26.000 --> 00:21:30.000
+ It might be telemetry.
+
+00:21:30.000 --> 00:21:34.000
+ I think that's a reasonable guess.
+
+00:21:34.000 --> 00:21:37.000
+ If it's proprietary software, you can't turn this off necessarily
+
+00:21:37.000 --> 00:21:40.000
+ unless the company decides that you're allowed to.
+
+00:21:40.000 --> 00:21:42.000
+ If this is free and open source software,
+
+00:21:42.000 --> 00:21:45.000
+ developers can then take a look, see what it's doing,
+
+00:21:45.000 --> 00:21:50.000
+ and then decide to remove this functionality if users don't want it.
+
+00:21:50.000 --> 00:21:57.000
+ All of this is contributing to that energy profile of these two word programs.
+
+00:21:57.000 --> 00:22:03.000
+ So, again, yeah, just that this adds up when you start thinking about it,
+
+00:22:03.000 --> 00:22:09.000
+ scaling it up across millions or billions of users.
+
+00:22:09.000 --> 00:22:14.000
+ Okay, the next topic, so potential hardware operating life,
+
+00:22:14.000 --> 00:22:16.000
+ as well as continuity of support,
+
+00:22:16.000 --> 00:22:20.000
+ which is what determines how long you can use that device
+
+00:22:20.000 --> 00:22:25.000
+ and not have disadvantages opening yourself up to malware and things like this,
+
+00:22:25.000 --> 00:22:28.000
+ known malware, documentation,
+
+00:22:28.000 --> 00:22:31.000
+ how long can that software be supported over time,
+
+00:22:31.000 --> 00:22:35.000
+ will depend to some extent on how well it's documented,
+
+00:22:35.000 --> 00:22:40.000
+ transparency that users can decide which software they want to use
+
+00:22:40.000 --> 00:22:44.000
+ and then move to different software products if they want to.
+
+00:22:44.000 --> 00:22:49.000
+ And this will all influence how long you can continue to use a particular piece of hardware.
+
+00:22:49.000 --> 00:22:56.000
+ This is an image from a 2009 Macbook.
+
+00:22:56.000 --> 00:23:02.000
+ This end of life was in 2019 where it was no longer supported by Apple.
+
+00:23:02.000 --> 00:23:08.000
+ And so the last version of MacOS that was supported was 1010.
+
+00:23:08.000 --> 00:23:12.000
+ This is from a KDE contributor who was asking around
+
+00:23:12.000 --> 00:23:18.000
+ if KDE users were using hardware that was no longer supported by the original vendors.
+
+00:23:18.000 --> 00:23:21.000
+ This is now currently still in use today,
+
+00:23:21.000 --> 00:23:26.000
+ running Kabuntu 22.04 with all of the security updates, et cetera,
+
+00:23:26.000 --> 00:23:29.000
+ and is apparently working just fine.
+
+00:23:29.000 --> 00:23:31.000
+ I know I have this experience.
+
+00:23:31.000 --> 00:23:35.000
+ I'm running also older hardware at home on my desktop computer,
+
+00:23:35.000 --> 00:23:39.000
+ which is no longer supported running Linux.
+
+00:23:39.000 --> 00:23:47.000
+ This device would otherwise end up in the closet or perhaps worst case
+
+00:23:47.000 --> 00:23:50.000
+ where it doesn't end up being treated or it goes to end of life treatment center
+
+00:23:50.000 --> 00:23:58.000
+ and all of that CO2 that is associated with the production has now been wasted.
+
+00:24:02.000 --> 00:24:11.000
+ Okay, and the last section that I want to talk about in terms of the user autonomy criteria
+
+00:24:11.000 --> 00:24:16.000
+ is the offline capability and freedom from advertising.
+
+00:24:16.000 --> 00:24:23.000
+ This is a report from a research and consultancy group
+
+00:24:23.000 --> 00:24:26.000
+ which does policy reports for the EU
+
+00:24:26.000 --> 00:24:30.000
+ in which they looked at what is called unwanted data use.
+
+00:24:30.000 --> 00:24:38.000
+ And they define unwanted data use as the data for data mining and advertising
+
+00:24:38.000 --> 00:24:40.000
+ that users can't shut off.
+
+00:24:40.000 --> 00:24:48.000
+ Given a statistic that in the EU, about 60% of users would shut it off if they could.
+
+00:24:48.000 --> 00:24:50.000
+ So they call this unwanted data use.
+
+00:24:50.000 --> 00:24:54.000
+ And they try to estimate what the energy consumption and CO2 emissions are
+
+00:24:54.000 --> 00:24:57.000
+ associated with that unwanted data use.
+
+00:24:57.000 --> 00:25:02.000
+ This graph here is just showing that there are several components to energy consumption.
+
+00:25:02.000 --> 00:25:04.000
+ I've been focusing on desktop software.
+
+00:25:04.000 --> 00:25:07.000
+ That's most of what KDE does.
+
+00:25:07.000 --> 00:25:10.000
+ But of course, if you're doing anything that's distributed,
+
+00:25:10.000 --> 00:25:13.000
+ client server or similar type systems,
+
+00:25:13.000 --> 00:25:18.000
+ you're also going to be consuming energy in the network and in data centers.
+
+00:25:18.000 --> 00:25:28.000
+ And this unwanted data use is at best attributable to about 3 million metric tons of CO2,
+
+00:25:28.000 --> 00:25:33.000
+ according to this report, at worst 8 million metric tons.
+
+00:25:33.000 --> 00:25:38.000
+ And this would be, according to this report, equal to the carbon footprint
+
+00:25:38.000 --> 00:25:43.000
+ of about 370,000 to 950,000 EU citizens.
+
+00:25:43.000 --> 00:25:47.000
+ This is for something people don't want.
+
+00:25:47.000 --> 00:25:52.000
+ So the blue angel recognizes that if users can turn it off when they want,
+
+00:25:52.000 --> 00:25:57.000
+ you remove this energy consumption from the ICT contributions
+
+00:25:57.000 --> 00:26:02.000
+ to energy consumption and CO2 emissions.
+
+00:26:02.000 --> 00:26:05.000
+ Of course, these things are all intertwined.
+
+00:26:05.000 --> 00:26:11.000
+ Things like advertising and data mining, et cetera,
+
+00:26:11.000 --> 00:26:17.000
+ might also make it hard to run a browser on an old piece of hardware.
+
+00:26:17.000 --> 00:26:21.000
+ In fact, I find one of the biggest problems when upcycling hardware
+
+00:26:21.000 --> 00:26:26.000
+ is opening a browser the minute you try to do anything on the internet.
+
+00:26:26.000 --> 00:26:35.000
+ Currently, website design is so energy consuming that it can break your system.
+
+00:26:35.000 --> 00:26:40.000
+ That's related to Roberta's great talk yesterday.
+
+00:26:40.000 --> 00:26:43.000
+ So these things are, of course, interrelated.
+
+00:26:43.000 --> 00:26:50.000
+ Offline capability for your advertising will influence how long you can run hardware, et cetera.
+
+00:26:50.000 --> 00:26:58.000
+ So we wanted to document our experience applying for the blue angel eco-certification
+
+00:26:58.000 --> 00:27:02.000
+ so that other free and open source software developers can also do this.
+
+00:27:02.000 --> 00:27:10.000
+ We released a handbook in February this year, Applying the Blue Angel Criteria to Free Software.
+
+00:27:10.000 --> 00:27:15.000
+ You're welcome to download it from our website, eco.kde.org.
+
+00:27:15.000 --> 00:27:23.000
+ The book goes over what I'm calling the three steps to eco-certification, measuring your software.
+
+00:27:23.000 --> 00:27:28.000
+ So to do that, you need to define what typical usage of that software would look like,
+
+00:27:28.000 --> 00:27:33.000
+ emulate it using a script, which is all documented in this handbook,
+
+00:27:33.000 --> 00:27:37.000
+ and then run it several times, run some statistical analyses,
+
+00:27:37.000 --> 00:27:41.000
+ which you can do with a tool provided by the Unveiled Compass called Oscar,
+
+00:27:41.000 --> 00:27:44.000
+ the open source software consumption analysis in R.
+
+00:27:44.000 --> 00:27:54.000
+ And once you have that, you document your user autonomy criteria that you're compatible with them and submit it.
+
+00:27:54.000 --> 00:27:56.000
+ The book, though, is more than that.
+
+00:27:56.000 --> 00:28:00.000
+ It's something that you can send to your friends if you're interested in this,
+
+00:28:00.000 --> 00:28:03.000
+ send it to your marketing department if you work at a company,
+
+00:28:03.000 --> 00:28:06.000
+ send to your project manager if you're on a team,
+
+00:28:06.000 --> 00:28:10.000
+ in which it goes over various aspects of this topic.
+
+00:28:10.000 --> 00:28:13.000
+ The first part is the why. Why does this matter?
+
+00:28:13.000 --> 00:28:17.000
+ So related to energy consumption, resource consumption driven by software.
+
+00:28:17.000 --> 00:28:23.000
+ What is the blue angel? What's its history?
+
+00:28:23.000 --> 00:28:28.000
+ How is it recognized internationally as well as in Germany?
+
+00:28:28.000 --> 00:28:33.000
+ And then how do you fulfill then the requirement for software?
+
+00:28:33.000 --> 00:28:38.000
+ You can also read it online here.
+
+00:28:38.000 --> 00:28:44.000
+ For those of you who are interested in this but don't have access to a power meter,
+
+00:28:44.000 --> 00:28:46.000
+ power meters are...
+
+00:28:46.000 --> 00:28:49.000
+ So the approach that the blue angel recommends and the one that we're using in our lab
+
+00:28:49.000 --> 00:28:56.000
+ is an external power meter attached to a machine that then is emulating user behavior.
+
+00:28:56.000 --> 00:28:59.000
+ Power meters are expensive.
+
+00:28:59.000 --> 00:29:02.000
+ Really good power meters are really expensive.
+
+00:29:02.000 --> 00:29:08.000
+ The off-the-shelf solutions, which are okay, they don't have great resolution.
+
+00:29:08.000 --> 00:29:14.000
+ The one that is recommended, the Guta power meter, gets like five measurements per second,
+
+00:29:14.000 --> 00:29:17.000
+ which you can then average and get an idea of what's happening.
+
+00:29:17.000 --> 00:29:22.000
+ Better ones can get like a thousand measurements per second.
+
+00:29:22.000 --> 00:29:26.000
+ However, you're going to be out of three to four hundred euros to buy one.
+
+00:29:26.000 --> 00:29:31.000
+ If you're interested in just checking this out but don't have five hundred euros,
+
+00:29:31.000 --> 00:29:37.000
+ you can invest ten euros and buy a power plug and hack it and turn it into a power meter
+
+00:29:37.000 --> 00:29:41.000
+ that gets about one measurement for every 200 milliseconds.
+
+00:29:41.000 --> 00:29:47.000
+ And that's also documented in this.
+
+00:29:47.000 --> 00:29:53.000
+ Say it again.
+
+00:29:53.000 --> 00:29:59.000
+ I don't know.
+
+00:29:59.000 --> 00:30:01.000
+ Can we ask that at the end?
+
+00:30:01.000 --> 00:30:03.000
+ Because I also wanted to open up...
+
+00:30:03.000 --> 00:30:05.000
+ I usually like to do Q&A where also other people in the crowd,
+
+00:30:05.000 --> 00:30:09.000
+ because I don't have a monopoly on this information at all.
+
+00:30:09.000 --> 00:30:15.000
+ So if someone here might know the answer to that but I don't know it, ask it again in the Q&A.
+
+00:30:15.000 --> 00:30:17.000
+ The lab setup looks like this.
+
+00:30:17.000 --> 00:30:20.000
+ You have a system under test. That's the machine that you're testing.
+
+00:30:20.000 --> 00:30:24.000
+ A power meter attached to it and then another computer that's then collecting the data
+
+00:30:24.000 --> 00:30:29.000
+ and then used to evaluate it.
+
+00:30:29.000 --> 00:30:33.000
+ We set up a lab in KDAB Berlin.
+
+00:30:33.000 --> 00:30:38.000
+ This is a picture of one of the sprints.
+
+00:30:38.000 --> 00:30:45.000
+ This is Arna Tarara from Green Coding Berlin who was very helpful with Folker Kausa,
+
+00:30:45.000 --> 00:30:53.000
+ Nicholas Fela and several others in the KDAB community who helped us get this lab setup.
+
+00:30:53.000 --> 00:30:59.000
+ The current setup is only accessible if someone is there in person.
+
+00:30:59.000 --> 00:31:02.000
+ We're working on that. I'm going to come back to those slides.
+
+00:31:02.000 --> 00:31:06.000
+ Right now in a project which should be done by next month
+
+00:31:06.000 --> 00:31:10.000
+ in which we are making the lab remotely accessible so that a developer,
+
+00:31:10.000 --> 00:31:13.000
+ and we want to open this up to all free software developers,
+
+00:31:13.000 --> 00:31:20.000
+ this is not only a KDE thing, can design their usage scenario that they want to measure,
+
+00:31:20.000 --> 00:31:25.000
+ upload it with their code and then it will automatically run in the lab in KDAB
+
+00:31:25.000 --> 00:31:30.000
+ and then give you a report back so that all you have to do is define the usage scenario
+
+00:31:30.000 --> 00:31:35.000
+ and then you get some energy consumption measurements related to your software.
+
+00:31:35.000 --> 00:31:46.000
+ And of course all of this is KDE free software so anyone can take it, adapt it to their needs as they see fit.
+
+00:31:46.000 --> 00:31:50.000
+ What you would need to do if you wanted to use a lab like this,
+
+00:31:50.000 --> 00:31:57.000
+ you have to define a standard usage scenario that requires identifying typical tasks done by a user,
+
+00:31:57.000 --> 00:32:03.000
+ perhaps identify particularly the high energy ones to get an idea of energy consumption related to that,
+
+00:32:03.000 --> 00:32:06.000
+ create a flowchart of actions and then emulate it.
+
+00:32:06.000 --> 00:32:08.000
+ There are many ways to emulate it.
+
+00:32:08.000 --> 00:32:17.000
+ Right now KDE is focused on using Selenium, which is often used for web emulation,
+
+00:32:17.000 --> 00:32:23.000
+ adapting that for desktop software.
+
+00:32:23.000 --> 00:32:28.000
+ There were several talks at Academy just a few weeks ago which you can watch about this approach,
+
+00:32:28.000 --> 00:32:32.000
+ but it's also useful for user emulation.
+
+00:32:32.000 --> 00:32:38.000
+ Once you have that, then you upload it to the machine you want to test,
+
+00:32:38.000 --> 00:32:45.000
+ you get the results back and then there's this tool, Oscar, where you can then upload the data and get a report back.
+
+00:32:45.000 --> 00:32:52.000
+ The nice thing is that with this lab set up with a remote access, all of that's automated.
+
+00:32:52.000 --> 00:32:58.000
+ Just a little bit more generally, KDE has a current goal of sustainable software.
+
+00:32:58.000 --> 00:33:03.000
+ Every two years we vote on three unifying goals for the community.
+
+00:33:03.000 --> 00:33:06.000
+ One of the things that we're working on is measuring our software,
+
+00:33:06.000 --> 00:33:09.000
+ but there are several other things related to this,
+
+00:33:09.000 --> 00:33:19.000
+ such as documentation of the ways that free software, in particular our software at KDE, supports sustainability.
+
+00:33:19.000 --> 00:33:25.000
+ Maybe I'll end on this and then we can open up to a Q&A.
+
+00:33:25.000 --> 00:33:32.000
+ When you look at the big picture, this can seem like small drops on hot stones.
+
+00:33:32.000 --> 00:33:40.000
+ This is perhaps nothing compared to what it's required to train a large language model
+
+00:33:40.000 --> 00:33:47.000
+ or the explosion of IoT devices, etc.
+
+00:33:47.000 --> 00:33:55.000
+ This is a comic from XKCD, of course there is a comic about this, in which Q-ball says,
+
+00:33:55.000 --> 00:34:00.000
+ "I'm trying to fix the problem of the world, can you help?"
+
+00:34:00.000 --> 00:34:07.000
+ White hat says, "It's obvious you don't actually care, if you did, we'd be trying to fix this other bigger problem."
+
+00:34:07.000 --> 00:34:10.000
+ Q-ball asks, "You want to help me fix that bigger problem?"
+
+00:34:10.000 --> 00:34:14.000
+ White hat says, "No, for another reason I'll think of later."
+
+00:34:14.000 --> 00:34:20.000
+ The bigger problem fallacy, saying there's something bigger that's a bigger problem than what you're trying to fix,
+
+00:34:20.000 --> 00:34:24.000
+ is a fallacy, it doesn't mean the other problem is not a problem.
+
+00:34:24.000 --> 00:34:30.000
+ Also, sometimes tackling the biggest problem is not the most effective approach.
+
+00:34:30.000 --> 00:34:34.000
+ You have to think about what resources you have available to you.
+
+00:34:34.000 --> 00:34:39.000
+ At KDE, we are desktop software developers, we can influence this.
+
+00:34:39.000 --> 00:34:44.000
+ I hope I've convinced you that it does add up, once you start looking at the numbers.
+
+00:34:44.000 --> 00:34:48.000
+ I'd also say climate change and combating climate change
+
+00:34:48.000 --> 00:34:53.000
+ require changes in every single aspect of society.
+
+00:34:53.000 --> 00:34:56.000
+ This is where we can contribute and where we can focus our energies.
+
+00:34:56.000 --> 00:34:59.000
+ There are areas that maybe you can contribute to.
+
+00:34:59.000 --> 00:35:02.000
+ I hope that I've convinced you it's worth working on,
+
+00:35:02.000 --> 00:35:06.000
+ because most people here are involved in some sense with ICT,
+
+00:35:06.000 --> 00:35:09.000
+ and you can make a change, and you can make a difference.
+
+00:35:09.000 --> 00:35:12.000
+ I want to leave it on that note, and then go to Q&A.
+
+00:35:12.000 --> 00:35:19.000
+ [applause]
+
+00:35:19.000 --> 00:35:23.000
+ Thank you. Thank you so much, Joseph, for that insightful talk.
+
+00:35:23.000 --> 00:35:30.000
+ By the way, before we start with the Q&A, just a reminder that if you found that talk so insightful as I did,
+
+00:35:30.000 --> 00:35:33.000
+ and learned something new, maybe you can post that out to the Fediverse.
+
+00:35:33.000 --> 00:35:37.000
+ The hashtag from this stage is #bitsandboimer.
+
+00:35:37.000 --> 00:35:41.000
+ Now to the Q&A. We have our wonderful stage manager, Rico,
+
+00:35:41.000 --> 00:35:48.000
+ who can come along and pass you a microphone, so everybody will hear you just fine.
+
+00:35:48.000 --> 00:35:51.000
+ As I said earlier, I don't have a monopoly on information.
+
+00:35:51.000 --> 00:35:55.000
+ If anyone here has an answer, please feel free to speak up.
+
+00:35:55.000 --> 00:36:01.000
+ I feel like this is a wonderful crowd to crowdsource information gathering.
+
+00:36:01.000 --> 00:36:09.000
+ Well, actually, it seems to me that this problem is an efficiency problem, more or less.
+
+00:36:09.000 --> 00:36:19.000
+ We want to do a task with the fewest resources possible in the fastest way, of course,
+
+00:36:19.000 --> 00:36:28.000
+ which is shouldn't we just continue to optimize our code, which is the way to do it,
+
+00:36:28.000 --> 00:36:32.000
+ and to remove stuff we don't need.
+
+00:36:32.000 --> 00:36:36.000
+ That's basically put it in a short way.
+
+00:36:36.000 --> 00:36:42.000
+ Is it this correct, or are there other things also to it?
+
+00:36:42.000 --> 00:36:47.000
+ So thinking about things like uninstallability, right?
+
+00:36:47.000 --> 00:36:49.000
+ That's beyond just optimization.
+
+00:36:49.000 --> 00:36:54.000
+ That's a design decision for how you then allow users to use that software.
+
+00:36:54.000 --> 00:36:57.000
+ So I would say it's beyond just this one efficiency.
+
+00:36:57.000 --> 00:37:02.000
+ I think that's absolutely important, but you have to think about it also in that holistic sense of
+
+00:37:02.000 --> 00:37:05.000
+ can users -- okay, you might make the most efficient software,
+
+00:37:05.000 --> 00:37:08.000
+ but can users uninstall it if they don't need it?
+
+00:37:08.000 --> 00:37:10.000
+ That's a design decision.
+
+00:37:10.000 --> 00:37:16.000
+ I don't think many people think of free software licensing as a design idea,
+
+00:37:16.000 --> 00:37:20.000
+ but in many ways it determines how users can interact with your software.
+
+00:37:20.000 --> 00:37:25.000
+ This is an example, one, of uninstalling something or only installing what you want.
+
+00:37:25.000 --> 00:37:30.000
+ So it's more than just optimization, I would say.
+
+00:37:30.000 --> 00:37:38.000
+ My question is that there is a sustainable supply chain law in the European Union
+
+00:37:38.000 --> 00:37:44.000
+ and in Germany, Lieferkettengesetz, which if it would be taken serious,
+
+00:37:44.000 --> 00:37:51.000
+ you could not import or sell any other phone here except the Fairphone,
+
+00:37:51.000 --> 00:37:59.000
+ because other phones would fall under this law, which is prohibiting importing things
+
+00:37:59.000 --> 00:38:08.000
+ where parts of it in the production process have violated human rights or environmental laws.
+
+00:38:08.000 --> 00:38:14.000
+ So my first question is, is there anybody talking about this in this community,
+
+00:38:14.000 --> 00:38:18.000
+ about this not fulfilling this law?
+
+00:38:18.000 --> 00:38:25.000
+ My second question is if this Lieferkettengesetz, this supply chain law,
+
+00:38:25.000 --> 00:38:29.000
+ could be applied also to software?
+
+00:38:29.000 --> 00:38:34.000
+ Is there some idea that you just say it could not be sold
+
+00:38:34.000 --> 00:38:43.000
+ if it doesn't comply some minimum standard of environmental responsibility?
+
+00:38:43.000 --> 00:38:47.000
+ So I don't know anyone talking about that, the supply chain issues,
+
+00:38:47.000 --> 00:38:50.000
+ maybe someone here does.
+
+00:38:50.000 --> 00:38:54.000
+ I'll let the moderator decide.
+
+00:38:54.000 --> 00:39:00.000
+ If someone has a comment on that, please feel free.
+
+00:39:00.000 --> 00:39:05.000
+ Well, I wanted to ask a question that goes into the similar direction,
+
+00:39:05.000 --> 00:39:11.000
+ because I was wondering, are there legislations being discussed
+
+00:39:11.000 --> 00:39:19.000
+ about reducing the energy consumption of software and to the supply chain law?
+
+00:39:19.000 --> 00:39:26.000
+ I personally thought that it's more about the human rights problem,
+
+00:39:26.000 --> 00:39:34.000
+ mainly about hardware then, and that then this law would not apply to software,
+
+00:39:34.000 --> 00:39:47.000
+ but that's only how...
+
+00:39:47.000 --> 00:39:58.000
+ Can you pass the mic so that...
+
+00:39:58.000 --> 00:40:01.000
+ So, yeah, so anyone else have a comment on that?
+
+00:40:01.000 --> 00:40:06.000
+ Yeah, software in general and Lieferketten,
+
+00:40:06.000 --> 00:40:13.000
+ we also have kind of Lieferketten supply chains, we have libraries,
+
+00:40:13.000 --> 00:40:17.000
+ we have operating systems, we have whatever,
+
+00:40:17.000 --> 00:40:20.000
+ and these things also need to be produced in some way,
+
+00:40:20.000 --> 00:40:23.000
+ someone needs to sit down and code them.
+
+00:40:23.000 --> 00:40:29.000
+ So it would make sense that it applies there.
+
+00:40:29.000 --> 00:40:34.000
+ I'm not a lawyer, I cannot really answer this question,
+
+00:40:34.000 --> 00:40:40.000
+ but it makes sense that we also look at our supply chains
+
+00:40:40.000 --> 00:40:46.000
+ and how they are ecologically, that we are good or bad.
+
+00:40:46.000 --> 00:40:50.000
+ For example, we could choose a framework that is more efficient,
+
+00:40:50.000 --> 00:40:54.000
+ we could choose a framework that makes stuff easier for us,
+
+00:40:54.000 --> 00:41:00.000
+ and of course, software can also be produced under conditions
+
+00:41:00.000 --> 00:41:03.000
+ which are not compatible to human rights.
+
+00:41:03.000 --> 00:41:07.000
+ You can force people to sit down and program stuff,
+
+00:41:07.000 --> 00:41:18.000
+ and this code would be unethical to use in a way as programmers.
+
+00:41:18.000 --> 00:41:25.000
+ Do we have time for another question?
+
+00:41:25.000 --> 00:41:29.000
+ Yeah, so what do you have to say about the law of diminishing returns?
+
+00:41:29.000 --> 00:41:33.000
+ For example, is there a way to know what's the point
+
+00:41:33.000 --> 00:41:36.000
+ when we already reached those diminishing returns
+
+00:41:36.000 --> 00:41:41.000
+ and we have to move on to something else to keep optimizing and doing that stuff?
+
+00:41:41.000 --> 00:41:47.000
+ Is there some finger rule?
+
+00:41:47.000 --> 00:41:54.000
+ I don't have a rule of thumb for when that is.
+
+00:41:54.000 --> 00:41:59.000
+ I do think we still have a lot of low-hanging fruit, to be honest,
+
+00:41:59.000 --> 00:42:03.000
+ before we get to the problem of diminishing returns.
+
+00:42:03.000 --> 00:42:08.000
+ I think there's enough that we could do in terms of designing your website,
+
+00:42:08.000 --> 00:42:13.000
+ following green-coding practices, being able to turn off advertising,
+
+00:42:13.000 --> 00:42:16.000
+ continuing to support hardware, opening up bootloaders
+
+00:42:16.000 --> 00:42:20.000
+ so you can install any software on any device that you bought.
+
+00:42:20.000 --> 00:42:23.000
+ These are all things I think are pretty low-hanging fruit,
+
+00:42:23.000 --> 00:42:27.000
+ which already make a big contribution before we're even at that point.
+
+00:42:27.000 --> 00:42:30.000
+ That's my personal opinion on that.
+
+00:42:30.000 --> 00:42:37.000
+ Thanks.
+
+00:42:37.000 --> 00:42:45.000
+ What's your opinion on these bloat solutions like Docker or Snap and stuff
+
+00:42:45.000 --> 00:42:49.000
+ who actually for a small application ship a whole operating system
+
+00:42:49.000 --> 00:42:56.000
+ and thus bloat my disk so that I think next time I need a bigger SSD in my laptop
+
+00:42:56.000 --> 00:43:01.000
+ because some applications take up to a couple of hundred gigabytes?
+
+00:43:01.000 --> 00:43:04.000
+ Is there an estimation?
+
+00:43:04.000 --> 00:43:10.000
+ What's the difference in CO2 footprint of half a terabyte and one terabyte?
+
+00:43:10.000 --> 00:43:14.000
+ What's your opinion there?
+
+00:43:14.000 --> 00:43:17.000
+ I don't have a particular opinion.
+
+00:43:17.000 --> 00:43:21.000
+ I do think it's an empirical question that we have a lab we could maybe start testing
+
+00:43:21.000 --> 00:43:25.000
+ to see if these differences in how you install,
+
+00:43:25.000 --> 00:43:28.000
+ which approach you take to installing software,
+
+00:43:28.000 --> 00:43:31.000
+ if that influences things like general energy consumption.
+
+00:43:31.000 --> 00:43:34.000
+ I think we could look at that and see it.
+
+00:43:34.000 --> 00:43:41.000
+ I can imagine that there are arguments that upgrades can result in more efficient software
+
+00:43:41.000 --> 00:43:47.000
+ that might outweigh the disadvantages of installing it through a flat pack
+
+00:43:47.000 --> 00:43:52.000
+ if there is a difference there, but I don't know.
+
+00:43:52.000 --> 00:43:54.000
+ We have two more questions left.
+
+00:43:54.000 --> 00:43:59.000
+ Unfortunately, then we have to close, but discussions can also unfold afterwards.
+
+00:43:59.000 --> 00:44:00.000
+ Maybe you're around here for a while.
+
+00:44:00.000 --> 00:44:01.000
+ I'm definitely around for a while.
+
+00:44:01.000 --> 00:44:04.000
+ Great. Please.
+
+00:44:04.000 --> 00:44:13.000
+ On the CO2 footprint of software, Docker Solutions and something else,
+
+00:44:13.000 --> 00:44:21.000
+ look just into the power consumption of Hello World in C or in Python.
+
+00:44:21.000 --> 00:44:31.000
+ It's 20 times more in Python to realize a Hello World program than in C or in some other languages.
+
+00:44:31.000 --> 00:44:38.000
+ All the time in the back head when we talk about software or something like that,
+
+00:44:38.000 --> 00:44:45.000
+ the big bloat solutions who do need Python and bigger compilers, Rust,
+
+00:44:45.000 --> 00:44:52.000
+ and whatever has a high power consumption.
+
+00:44:52.000 --> 00:45:04.000
+ We have to go in our mind if it's useful to make this all including big systems in software and hardware,
+
+00:45:04.000 --> 00:45:16.000
+ or if we do not split it in small pieces, which can be done in a sampler in C and save us a lot of energy.
+
+00:45:16.000 --> 00:45:17.000
+ Thank you.
+
+00:45:17.000 --> 00:45:18.000
+ Thank you for that comment.
+
+00:45:18.000 --> 00:45:22.000
+ Last question, but not least.
+
+00:45:22.000 --> 00:45:28.000
+ I would like to highlight that besides efficiency, there's another thing that I would say is rather important
+
+00:45:28.000 --> 00:45:35.000
+ and we talk too little about, which is sufficiency using less in general.
+
+00:45:35.000 --> 00:45:40.000
+ For example, the supplies to social media or streaming services,
+
+00:45:40.000 --> 00:45:49.000
+ being nudged into using those media for many hours a day, which is probably not very healthy for ourselves,
+
+00:45:49.000 --> 00:45:55.000
+ but also if we didn't use the software for that long and the hardware as well,
+
+00:45:55.000 --> 00:46:00.000
+ we might be happier in the first place and use less resources.
+
+00:46:00.000 --> 00:46:02.000
+ Fully agree.
+
+00:46:02.000 --> 00:46:05.000
+ Sufficiency is definitely a good question to ask.
+
+00:46:05.000 --> 00:46:06.000
+ Thank you so much.
+
+00:46:06.000 --> 00:46:11.000
+ I think these are good closing remarks. You want to add anything for the audience?
+
+00:46:11.000 --> 00:46:14.000
+ I would love to talk with you some more.
+
+00:46:14.000 --> 00:46:18.000
+ [Music]
+

@@ -1,0 +1,511 @@
+ [Musik]
+ Hallo und herzlich willkommen zu einer neuen Ausgabe oder Episode von Frag die Teams.
+ Ich habe mein Büro von hinter der Kamera jetzt auf die Couch verlegt, wie ich vorhin gesagt bekommen habe,
+ und habe mir zwei Leute hier eingeladen, ebenfalls aus München, aus dem Münchner Space,
+ aber jetzt hier vertreten hier sozusagen das Batchteam.
+ Stellt euch doch am besten selber mal kurz vor und sagt auch jeweils welche Rollen ihr in diesem Jahr im Batchteam habt.
+ Hallo, ich bin Schneider, involviert in den Camp-Batches seit zwölf Jahren jetzt.
+ Und ich glaube, ich war ja Teil von allen Teams bisher, es ist immer eine andere Zusammensetzung auch.
+ Und ich würde sagen, dieses Jahr unter anderem auch ganz von Anfang an so die Idee von
+ wollen wir es mit Audio machen, weil das ist etwas, was Leute zusammenbringt, da könnt ihr zusammen Spaß haben.
+ Und da vor eineinhalb Jahren oder so in das Projekt gestartet.
+ Ich bin der Zack, ich bin ähnlich lang wie der Schneider involviert in die Batchteams.
+ Allerdings auch angefangen hat das mit einem Münchner eigenen Batch, wo ich nur so peripher beteiligt war.
+ Aber danach hat mich auch das Interesse gepackt und ich habe eigentlich bei allen Batches mitgemacht.
+ Ich habe am Anfang sehr viel an der Software gemacht, allerdings auch ein bisschen an den Platinen.
+ Und in den letzten Jahren ein bisschen weniger, also hier am Camp habe ich mir jetzt um anderes drum rum gekümmert,
+ hier auf dem Camp ganz viel, dass die Sachen auch alle rechtzeitig ausgegeben werden können.
+ Genau und auch weiterhin ein bisschen Software.
+ Für den Kontext so ein bisschen, das wievielte Batch war das dann jetzt sozusagen in eurer Zählung, das ihr verantwortet habt?
+ Das ist das vierte Camp-Batch.
+ Und das heißt, das eStack-Batch, das Zack vorhin erzählt hat, eStack 2010, war dann das fünfte sozusagen.
+ Das ist Nullte. Wir zählen bei Null, ich vergaß. Also fünf Batches und jetzt ist es wieder.
+ Also für die Leute, die jetzt verwirrt sind, 2010 hatten wir in München eine kleinere Veranstaltung mit ein paar hundert Teilnehmern.
+ Und da haben wir uns gedacht, wir wollen so einen Platinen-Batch machen für die Leute zum Experimentieren.
+ Und wir waren uns total unsicher, ob das eine gute Idee ist oder nicht und haben für irgendwie zwei, drei Euro einzelne Platinen in Form eines Hasen gebaut.
+ Ein schwarzer Hase, der, wenn es dunkel wurde, die Augen angemacht hat mit so kleinen Leuchtaugen mit LEDs.
+ Und dann haben wir uns gedacht, okay, wenn wir jetzt schon die Platine haben, dann können wir da ja noch ein paar mehr Leiterbahnen drauf machen.
+ Und wir hatten, glaube ich, 300 Platinen gemacht und 100 Sets mit einzelnen Bauteilen, die wir dann dazu ausgegeben haben.
+ Und wir waren uns unsicher, oha, wollen das die Leute überhaupt?
+ Wie lange hat es gedauert, bis es ausverkauft war?
+ Ich weiß nicht, aber es war extrem schnell alles weg. Und wir haben gedacht, wo kriegt man das jetzt noch?
+ Und keine Ahnung, das Feedback war halt extrem gut von diesem Projekt.
+ Und dann war so die Frage, in einem Jahr ist ja dann auch Camp, ist das vielleicht etwas, was wir nochmal tun würden für das Camp 2011 dann damals?
+ Dieses erste Badge war halt große Motivation, das zu tun.
+ Wie hieß das Badge dann fürs Camp 2011?
+ Das war die Rocket. Also ich habe auch eine hier gerade oben.
+ Also es ist fast schon zum ikonischen Design geworden.
+ Es ist relativ simpel, einfach nur ein Mikrocontroller und ein Funkchip, ein Display und ein Akku hinten drauf.
+ Wir hatten uns damals gedacht, wir wollen irgendwas machen, das Leute dazu motiviert, mit so Embedded-Plattformen, also mit Mikrocontrollern zu interagieren, das nicht ein Arduino ist.
+ Wir wollten ihnen tatsächlich einfach mal was anderes geben.
+ Und auch etwas haben, dass zum Beispiel im amerikanischen Bereich gab es zu dem Zeitpunkt schon Badges, relativ lange für die Veranstaltung, die hatten aber immer nicht wiederaufladbare Batterien hinten drauf und ähnliches.
+ Und wir wollten etwas haben, dass zumindest ein Akku hat, der sich wieder aufladen lässt.
+ Dieses Gerät ist ja jetzt auch zwölf Jahre alt und es funktioniert einfach immer noch. Das finde ich ziemlich gut.
+ Aber das, was unten dran ist, ist eine Extension, oder?
+ Ja.
+ Wir hatten uns gedacht, das ist ja ein Hacker-Camp, aber dann machen wir hier jetzt einfach Stecker hin für Leute, um irgendwas zu machen.
+ Und dann plötzlich kam jemand und hat diese Dinger dazu produziert, so eine kleine Flamme als Antrieb.
+ Wir wussten gar nichts davon und da kann man hier draufstecken und dann hat man eine kleine Antriebsflamme hier.
+ Das war sehr schön.
+ Aber die Buchsen musst du dir dann von Hand löten wahrscheinlich, oder?
+ Ja, das ist eine Geschichte für sich.
+ Ich hatte damals die Entscheidung getroffen, diese Buchsen hier aufzulöten.
+ Das ist teuer. Das machen wir von Hand.
+ Dann haben wir das 3.000 Mal von Hand jeweils zwei Buchsen gemacht.
+ Und dann habe ich mir gedacht, nie wieder etwas tausendmal von Hand löten.
+ Wie war es dann 2015? Wie ist dann das Badge?
+ Vielleicht ein bisschen ein bisschen klammer.
+ Das nächste Badge war dann das Radio-Badge.
+ Das war zu einer Zeit, wo wir uns auch in München viel mit Software Defined Radio beschäftigt haben.
+ Und das damals für den Einsteiger günstigste, brauchbare Software Defined Radio war das HKF.
+ Und es schien möglich, mit den Connections, die wir in der Zwischenzeit hatten, dass wir relevante Bauteile für sowas gesponsert bekommen.
+ Und haben uns gedacht, das wäre auch cool, wenn wir einfach allen Camp-Teilnehmern ein Software Defined Radio in die Hand drücken könnten.
+ Und haben dann nach längeren Versuchen es auch geschafft, irgendwie große Teile der Chips da drauf zu bekommen.
+ Und haben uns gedacht, wir machen ein HKF-kompatibles Design.
+ Die ist natürlich viel größer geworden und sieht auch nicht so schön aus wie die Dings.
+ Das liegt einfach daran, dass sie so voll ist, dass einfach nicht mehr so viel Platz für Kreativität übrig war.
+ Da ist auch der größte Teil der Energie in das Bauen dieses Dings eingeflossen.
+ Deswegen ist auch die Software da drauf, also die Bench-Funktionalität, ist mehr oder minder abgekupfert.
+ Der Code von der Rocket wiederverwendet.
+ Und dann aber ist es halt ein vollwertiges Software Defined Radio.
+ Das ist im Prinzip ein HKF.
+ Also wir haben halt in besonders Schneider Software das HKF so modifiziert, dass sie mit den Änderungen, die wir machen mussten, klar kommt.
+ Und ich finde es bis heute einen extremen, sozusagen einen Meilenstein, den wir da geschafft haben.
+ Und ich hatte schon das Gefühl, dass wir auch viele Leute dazu gebracht haben, motiviert haben, sich mal das anzuschauen, was so mit Software Defined Radio geht.
+ Und es gibt doch viele Leute, die die heute noch verwenden, weil es funktioniert ja auch immer noch.
+ Normalerweise gab es da noch einen Akku dazu, aber den braucht man natürlich nicht, wenn man es eher an den Rechner anschließen will, um an Software Defined Radio zu sein.
+ Es gehen auch diverse Sachen Standalone drauf, das ist glaube ich etwas eingeschlafen.
+ Aber das war...
+ Aber sozusagen, das ist ein Universal Sender und Empfänger für den großen Frequenzbereich.
+ Ich glaube, ich habe auch schon Leute gesehen, die da Baustellenampeln damit gesteuert haben.
+ Ja, könnte sein.
+ Ich erinnere mich an...
+ Warum waren wir damals im Software Defined Radio so drin?
+ Weil wir uns das Iridium-Satellitentelefonienetzwerk angeschaut haben und da so reingekommen sind.
+ Dann hat man irgendwann so diesen Punkt, ich brauche mehr Software Defined Radios mit größerem Bandbreite und die sind einfach teuer.
+ Und das HKF damals war so, das war im 300 Euro Bereich und wir haben das hier für so irgendwo zwischen 20 und 30 Euro Selbstkosten zu bauen.
+ Das war einfach ein Campticket dabei für jeden Smartticket.
+ Ich kenne Leute, die haben das dann danach verkauft und Camptickets wieder rein bekommen.
+ Das war jetzt nicht die Intention und wir waren auch ein bisschen überrascht davon.
+ Aber ich glaube, das ist die Ausnahme gewesen.
+ Und wir kennen viele Leute, die haben gesagt, ja, ich bin jetzt nicht so im Software Defined Radio drin, aber Leute haben mich sofort gefragt, ob sie es haben können und weiterverwenden können.
+ Was einfach im Space zusammenkommt.
+ Genau, und das ist bis heute im Einsatz bei vielen Leuten und machen Dinge.
+ Ich erinnere mich, als wir dann einen Vortrag gehalten haben zum Thema Satellitentelefonie packen letztlich,
+ haben wir das Radio da auf den Tisch gelegt im Zelt und unsere Software gestartet und von den Satelliten Nachrichten empfangen mit dem Radio auf dem Camp im Zelt.
+ Und das war schon einfach super.
+ Generell, ihr könnt jetzt unter diesem Video hier auf MedaCCD auch auf die Empfehlung schauen.
+ Da findet man hoffentlich dann eure Talks zu Iridium.
+ Drei oder vier müssen das inzwischen sein.
+ Sucht einfach mal nach Sack und Schneider oder drückt hier oben neben dem Titel.
+ Da steht ein Personennamen, da landet direkt auf der Personennamen, suche und dann sind da die anderen Vorteile, die wir gerade defensiert haben an der Stelle.
+ 2019, wie hieß da das Badge?
+ Das ist Cardio Badge gewesen.
+ 1312, Zufall.
+ Weiß nicht, sieht man das hier?
+ Also es zeigt jetzt gerade die Uhrzeit an, es hat so einen Besteunigungs-Sensor drin und ein EKG und ähnliches.
+ Das kam, also wir hatten uns halt überlegt, was wollen wir machen?
+ Also wir hatten jetzt schon so ein pures Namensschild, das einfach ein schönes Design hat.
+ Wir hatten das Radio, das wirklich extrem auf Funktionalität getrimmt ist.
+ Also hier kam das Design irgendwie ganz am Ende.
+ Das war so, okay, wir haben eine rechteckige Platine und, äh, Sekunde, wir wollten eigentlich ein Badge machen und was machen wir denn jetzt?
+ Dann hat irgendjemand noch diese Antenne dazu designt, also das ist nur ein Wein für LEDs, das ist keine echte Antenne.
+ Das ist in keinem Fall bekannt.
+ Also so Platinmaterial ist ja extrem, das ist ein Display, das nicht angeklebt ist, aber so Platinmaterial ist ja extrem stabil.
+ Und dann war so, okay, aber was wollen wir denn jetzt machen?
+ Also mein persönlicher Anspruch ist so, ich will kein Telefon bauen, also ich oder anders, ich will Dinge machen, die ein Telefon nicht kann.
+ Oder wenn ich einfach so eine App auf dem Telefon machen könnte.
+ Und wir hatten dann überlegt, ist das ein LoRa-Warngerät oder ein Development Board mit Sachen zum draufstecken.
+ Weil es ist ja jetzt nicht ein Selbstzweck, einen Camp-Batch zu machen.
+ Also wir wollen ja nicht Camp-Batches machen, um Camp-Batches zu machen, sondern es soll auch irgendwie ein Sinn dahinter stehen.
+ Und einer unserer Kontakte bei einem Halbleiter-Hersteller meinte so, hey, wir haben hier diesen Chip, der ist für EKG-Signale aufnehmen gedacht.
+ Ist das irgendwie interessant für euch?
+ Und so aus rein persönlichem Interesse und Familienhistory habe ich mir gedacht, so EKG aufnehmen, das finde ich interessant.
+ Das ist etwas so Biosignature-Zeug, würde ich gerne den Leuten in die Hand geben zum Spielen.
+ Mal schauen, was rauskommt.
+ Und dann so, okay, wir haben diesen Chip, der kann EKG machen, was ist denn ein Formfaktor für ein Gerät?
+ Hängt das einem um den Oberkörper oder wo ist das?
+ Und naja, eine Uhr war dann ungefähr das, oder am Handgelenk besser gesagt, war der natürliche Ort für sowas.
+ Und damals war auch die Apple Watch gerade so mit EKG und keine Ahnung, aber ich glaube, man kam nicht an die Daten,
+ oder es war in Europa noch nicht freigeschaltet und so.
+ Und da habe ich gedacht, wir können das auch in frei machen.
+ Und dann können die Leute selber mit ihren Daten agieren, müssen das nicht in irgendein proprietäres Universum da reinschieben.
+ Ja, und daraus ist dann das Cardio entstanden und das ist dann auch immer so ein, du hast da so eine Funktionalität,
+ das ist vielleicht nur interessant für ein Subset der Leute, die da sind.
+ Aber bunte Lichter zum Beispiel ist immer etwas, was Leute interessiert.
+ Und meine Güte, also haben wir halt eine Menge LEDs draufgebaut und auch noch,
+ Leute haben dann halt lustige, zumindest ja, ein paar linke Sachen drauf gemacht, das kann man nachts anziehen, das wird Party.
+ Also wir haben auch noch andere Sensoren dazu gemacht, so ein Luftqualitätssensor, Luftdruck und so weiter.
+ Also wir haben jetzt gedacht, wenn wir da schon Sensoren draufpacken, dann schauen wir, was wir alles noch unterbringen in dem Formfaktor
+ und was wir von irgendwelchen Sponsoren bekommen können.
+ Und haben halt noch ein paar Sensoren mehr, Sachen mehr draufgebaut, damit das,
+ kann theoretisch auch den Puls über eine LED auf der Rückseite messen.
+ Auch dafür gibt es ja einen Talk bei der RZ3 dann.
+ Ich glaube, das war die größte Videofraktion, die wir hier als ihr bei uns im Club gemacht habt.
+ Metrahex und Schneider sozusagen, auch den findet ihr einfach in der MedaZity.de-Suche.
+ Da geht ja nochmal genauer drauf ein, wie die Software sich auch nochmal weiterentwickelt hat nach dem Camp sozusagen.
+ Da sollte ich da jetzt vielleicht auch nochmal erwähnen, also Seck und ich sitzen jetzt hier.
+ Warum sitzen wir hier? Weil wir wahrscheinlich so über die Jahre eine Konstante sind.
+ Aber die Teams sind natürlich viel größer, da sind jede Menge Leute drin,
+ die höchst unterschiedliche Aufgaben übernehmen und auch immer mal wieder tauschen
+ und neue Leute kommen dazu oder gehen wieder.
+ Also wir sind nur ein Repräsentativ wirklich.
+ Ich habe immer wieder den Effekt, mein Name wird ganz viel genannt mit den Badges,
+ aber es sind sehr viele Leute damit beschäftigt, die wahnsinnig gute Arbeit machen.
+ Und wir können nur nochmal betonen, wir sind nur Teil eines Teams oder Teilen mehrerer verschiedener Teams gewesen.
+ Wie fängt das an? Also wann fängst du damit die Intuition und das Flower-Batch an?
+ Dann hast du deinen ersten Pro-Typ zusammengebaut und wie suchst du dir dann das Team, das diesmal mitmacht?
+ Gehst du aktiv auf die Leute zu oder wie läuft sowas ab?
+ Erstmal ist ja immer die Frage, wer fängt denn irgendwann mal an?
+ Scheinbar landet das dann immer bei uns, aber das ist ja jetzt auch keine Gegebenheit direkt.
+ Und es ist immer auch eins, okay, macht es Sinn nochmal was zu tun?
+ Gibt es eine Idee, die relevant, aushaltend motivierend ist, um sich nochmal diesen ganzen Stress anzutun?
+ Und oft ist ja dann auch nach der Veranstaltung nochmal so eine Phase von
+ wir wollen das Projekt jetzt erstmal ausdehnen und nochmal in die Tiefe gehen mit dem, was wir gemacht haben.
+ Und dann so ein bis zwei Jahre vorher kommt so die Frage, wollen wir jetzt nochmal was machen?
+ Und in dem Fall war das jetzt so Anfang 2022, so Februar würde ich sagen,
+ war so die Synthesizer, lass mal das mit Audio und Synthesizer machen.
+ Und wir haben dann mit einer anderen Person dann ausgetauscht und wir haben uns überlegt,
+ ist das jetzt eine Loopstation oder hat es Knöpfe zum Drehen, ist das ein Keyboard,
+ hat es ein HDMI-Ausgang und ein FPGA, ganz, ganz high level, was könnte es denn überhaupt sein?
+ Und so wirklich auf den Punkt gekommen, was ist es, ist so ungefähr vor einem Jahr und zwei Wochen,
+ haben wir letztens festgestellt, hatten wir so das erste Meeting in München mit ein paar mehr Leuten.
+ Mikrofon ausgegangen? Okay.
+ Und wir hatten aber immer noch nicht so wirklich eine Idee, wie sieht es aus?
+ Und dann ist eine Person gekommen und hat gesagt, es könnte, also hat eine Zeichnung gezeigt, es könnte ungefähr so aussehen.
+ Also so eine zweilagige Struktur mit so Cap-Touch-Buttons und in der Mitte ein Display.
+ Und alle im Raum waren so, ja.
+ Das Design war schon so fertig sozusagen.
+ Also, ungefähr genauso. Also wir haben fast keine Änderungen vorgenommen.
+ Nur so minimal ist es ein bisschen größer geworden und die Proportionen haben sich ganz leicht geändert, aber es ist ungefähr genau das hier geworden.
+ Und es war dann hauptsächlich, also wir sind dann durch diverse Prototypen, Iterationen durchgegangen
+ und es gab dann auch irgendwann nochmal so Ideen von, wollen wir es vielleicht irgendwie asymmetrisch machen
+ und Leute haben 3D-Sachen gedruckt oder sollte es vielleicht ein bisschen eckiger werden und was für ein, aber insgesamt ist es genau das geworden am Ende.
+ Das war das Design. Also in dem Fall war jetzt die Entwicklung so ein Jahr ungefähr.
+ Aber nicht die Vollzeit, sondern als Zeitprojekt nebenher vermutlich mal, oder?
+ Manche Leute haben es vielleicht, würde ich sagen, eher so teilweise Vollzeit gemacht.
+ Beim Cardio habe ich mir damals ein Sympathicle genommen für ein halbes Jahr, dieses Mal nicht.
+ Aber gegen Ende haben Leute auch gesagt, hey, ich habe eh gerade keinen Bock auf meinen Job
+ und ich mache jetzt hier nochmal zwei Monate quasi Vollzeit rein.
+ Also das wächst dann so an. Am Anfang hast du gesagt, ihr wart zu zweit, habt euch ein bisschen gebrainstormt.
+ Dann kam wahrscheinlich von derselben Person dieses Design oder?
+ Genau.
+ Ihr wart alle geflasht. Wie groß war das Team denn da schon? Dieses erste Kickoff-Meeting sozusagen?
+ Ich würde sagen, es waren so ein Dutzend Leute im Raum, von denen dann ein halbes Dutzend direkt weitergemacht hat.
+ Und über Zeit haben wir dann wieder mehr Leute eingesammelt.
+ Es ist natürlich immer so, du brauchst manchmal sowas, was schon da ist, was Konkretes, damit Leute sich attaching können.
+ Und vor allem ganz am Anfang musst du irgendwie ein bisschen die Idee festzurren.
+ Weil wenn du zu weit dann rausgehst und das könnte man dann machen und du kommst ja nie zu Pott.
+ Du bist dann eigentlich fast eher in dieser Product-Owner-Rolle, die jetzt versucht, das alles irgendwie im Zaum zu halten
+ und eine Entscheidung in die Farbe zu führen, soll ich sagen?
+ Nee, nee. Also eher nur so, es geht sehr organisch.
+ Ich glaube, niemand hat da jetzt so den Hut auf von "das wird's", das muss das Team zusammen entscheiden und es muss ja auch Spaß machen.
+ Wir arbeiten hier und kriegen Geld und es ist ein gewisses Verantwortungsgefühl da.
+ Aber am Ende muss es den Leuten auch Spaß machen und dann entstehen die richtig coolen Sachen.
+ Das heißt, so zwei Monate vor jetzt, wie groß war das Team da angewachsen?
+ Ich würde sagen, da waren wir bei so einem Dutzend, vielleicht zwei Dutzend Leuten, die an verschiedensten Sachen irgendwas tun.
+ Und dann kurz vor dem Camp wachst du wahrscheinlich an, da tauchen auch die Leute auf, die das letzte Mal gemacht haben.
+ Dann kommen die Leute, die letztes Jahr im Zelt saßen und machen wieder ihre Dinge.
+ Die Leute, die das letzte Mal den Trailer gemacht haben, machen dieses Mal den Trailer, dann machen die das Mal wieder den Flyer.
+ Wie groß wird es das Team jetzt zu sehen?
+ So zwei Dutzend Leute würde ich sagen.
+ Dann zinkt es nach hinten aus wieder ab sozusagen.
+ Das wechselt dann. Du gehst ja dann aus dieser Phase von "wir müssen die Hardware fertig bekommen" zu "was können wir tolle Sachen in der Software machen".
+ Das ist ja ein anderes Skillset auch, das zieht andere Leute an.
+ Und die Tatsache, dass das Ding jetzt da ist und verteilt ist, motiviert natürlich auch weiter, viel Arbeit reinzuschecken.
+ Ich erinnere mich, für die Rocket hier, da hatten wir Text-Output quasi.
+ Und kurz vor knapp kommt jemand vorbei und meint so "ich habe hier so einen Vektor-Grafik-Renderer für in einem Kilobyte Flash geschrieben.
+ Können wir den irgendwie hier noch reinbekommen?"
+ Und die Person ist wieder hier und hat über Zeit, ich weiß nicht, ob das aus diesem Projekt entstanden ist, eine super coole Vektor-Grafik-Rendering-Engine gebaut,
+ die dann halt hier auch auf der Flower die ganz coolen Grafiken erzeugt und Animationen.
+ Und da haben wir auch irgendwann gesagt "Hey, wir haben das damals im Cardio so halb eingebaut, wollen wir das wiederverwenden und wollen wir die Person nicht aktivieren und mal einen Prototypen hochschicken?"
+ Und das hat super gefruchtet.
+ Rocket und Radio hatten wahrscheinlich das gleiche Display oder dasselbe gradratische Display, was eigentlich von Lux der Telefonen...
+ Das Radio-Display war dann das bunte, glaube ich, oder?
+ Also auf der Rocket waren wir mitgeliefert, ein einfarbiges LC-Display, aber man konnte auch einen fast gleichen Formfaktor farbiges Display drauf tun.
+ Das hatten wir in der Software dann auch irgendwann unterstützt, nicht an Tag Null, aber relativ bald.
+ Ich weiß gar nicht, auf dem Radio ist, glaube ich, gleich per Default das farbige Display drauf gewesen, wenn ich mich richtig erinnere.
+ Aber es ist quasi ein ähnliches Display.
+ Beim Cardio waren dann ja auch andere Größen-Constraints gefragt.
+ Genau, also so ein Zentimeter mal drei Zentimeter, also mehr so ein rechteckiges Display.
+ Was wird das normalste Benutzer für irgendwelche IoT-Anwendungen, oder?
+ Das ist tatsächlich so ein Display für so eine Smartwatch.
+ Normalerweise ist es so 90 Grad gedreht, diese Armbänder.
+ Aha, okay, verstehe.
+ Ich kann noch ein bisschen ausholen zum Thema Displays.
+ Wir haben dann, also als wir dieses Ding gebaut haben, das ist vielleicht auch noch eine andere Seite,
+ haben wir erstmal ein rechteckiges Platin, eine rechteckige Platine gebaut und einem Bekannten wurde uns gezeigt,
+ wir haben noch studiert, die meisten Leute in der Mensa, und ich erinnere mich an diesen Moment,
+ und er schaute uns einfach so, das würde ich niemals ansehen, das sieht total schlecht aus, ich weiß nicht, was ich das soll.
+ Und wir so, Gott, wir haben jetzt hier Monate in dieses Projekt gesteckt und die erste Person, die wir es zeigen, sagt, gar kein Interesse.
+ Und dann haben wir so kurz vor Knab noch irgendwie diese Rocketform hier entworfen, ganz am Ende mit internem Design-Contest.
+ Ja, wenn ihr mal im Münchner Space seid, da ist auch so ein schönes Brett, wo alle Instanzen, jedes Badge sozusagen mit seinen Prototypen dran ist
+ und ich glaube, jetzt müssen wir ein neues Brett unten anbauen für die ganze Flower-Prototyp.
+ Ja, ja. Und also Teil dieser ganzen Iteration war dann auch, welches Display wollen wir benutzen,
+ und wir waren extrem beschränkt im Bezug auf wie viel Geld können wir ausgeben,
+ und wir haben dann halt Sachen gesucht, die einfach auf des Shelves sind, die man einfach kaufen kann,
+ und wir hatten so längliche Displays, die quasi mehr für Integration in Produkte gedacht sind,
+ aber damals schon gab es so eine Szene in der Hardware-Szene diese Ideen von, wir benutzen alte Nokia-Displays aus alten Nokia-Telefonen,
+ irgendwo Restbestände, die halt rumliegen, und die waren halt super günstig, Qualität schwankend.
+ Das sind halt, man bestellt Nokia-Displays, aber das sind natürlich Ersatzteile von irgendwelchen chinesischen Herstellern,
+ die sich fast zu 99 Prozent an die Spezifikation halten und deswegen meistens kompatibel sind,
+ aber dadurch hast du natürlich auch Schwankungen in der Qualität, aber es ist halt ein extrem verbreitetes Telefondesplay gewesen,
+ von dem es halt auch extrem viel Bestände gibt und damit ist der Preis natürlich auch hinreichend günstig gewesen.
+ Und für uns war es damals wichtig, dass das was ist, was man im Sonnenlicht lesen kann, deswegen war das das einfarbige Display,
+ weil wir auch damals auch noch versucht haben, möglichst viel Strom zu sparen, dass sie auch möglichst lange hält
+ und deswegen tagsüber keine Hintergrundbeleuchtung auf dem Display anhasst.
+ Das waren damals die Beweggründe, um dann dieses Display zu wählen.
+ Und beim Cardio war es dann hauptsächlich getrieben durch, es muss klein sein und es stellt sich dann raus,
+ Displays, also es gibt nur eigentlich ganz wenige echte Displayhersteller und dann ganz viel Industrie hintendran,
+ die immer dieselben Displays mit einem anderen Glas verpackt oder ähnlichem und hier haben wir noch oft die Shelf-Sachen benutzt
+ und es professionalisiert sich dann über die Jahre von wir nehmen irgendwelche Restbestände von Nokia
+ zu wir nehmen ein Display, das eigentlich für so ein Produkt gedacht ist, bei der Flower, wir machen sogar custom spezifisch dieses Display
+ für das Produkt, um es exakt da drin zu haben. Aber wir sehen vor, trotzdem sollte das Display kaputt gehen,
+ können Leute auch auf Ebay irgendwo so ein relativ gut verfügbares anderes Display tun und da rein heiß kleben, wenn sie möchten.
+ Wie viele verschiedene Displays habt ihr euch da angeschaut für die Flower?
+ So drei bis vier oder so, also wir hatten auch zum Beispiel mal diesen Prototypen hier, das ist von der anderen Seite drauf geklebt, das Display.
+ Also von den Portortionen fanden wir das jetzt nicht so gut und haben uns willigst verbessert, das irgendwie von hinten zu haben.
+ Und da ist es dann bei dem Display gelandet.
+ Und jetzt ist es wirklich fast glatt, also es ist die selbe Ebene wie die Platine fast, oder?
+ Ja, wenn man hier so drauf schaut, ist es halt perfekt flach, also da geht auch kein Staub rein, also es ist fast ein Produkt, fast.
+ Fast. Die Leute müssen es noch selber zusammenbauen an der Stelle.
+ Da muss man dann vielleicht auch dazu sagen, also, ja klar, wenn du irgendwie zwölf Jahre lang sowas machst,
+ dann iterierst du natürlich ganz schön und weißt, was so die Strickfallen sind.
+ Und es wird immer besser und vielleicht ist dann auch so, die Hürde einzusteigen für neue Leute oder so, das können wir alles eh nicht,
+ aber das muss ja auch nicht so perfekt sein, das ist überhaupt nicht notwendig.
+ Ja, ich hatte mir vorhin noch zur Vorbereitung diesen How to Grow a Flower Talk von Tag 0 angeschaut
+ und da war ja auch dieses, es war nur ein Pro-Typ, der war glaube ich nicht zum Einsatz gekommen,
+ aber dieser Display Assembly Robot von Nahex, der kam ja leider nicht zum Einsatz, wenn ich das richtig sage,
+ aber schaut euch auf jeden Fall auch mal diesen Vortrag noch an, da werden ja noch nicht mehr gesehen.
+ Also es gibt zu jedem unserer Badges, gibt es jeweils auf dem jeweiligen Event auch einen Talk,
+ der tiefer in dieses Badge einsteigt, wer sich für das interessiert.
+ Ich glaube, sind alle ganz gut geworden, die Talks, man kann sich die schon anschauen,
+ wenn ein dieses Themengebiet interessiert.
+ Ja.
+ Und weil du gesagt hast, man iteriert und Sachen werden besser, aber nicht alle Sachen werden besser,
+ also es sind Probleme, die bleiben auch konstant, wie zum Beispiel der Zoll.
+ Das ist ein Problem, von dem weiß man, aber es wird trotzdem jedes Mal genau die gleichen Probleme machen.
+ Ja, also ihr habt ja irgendwie, wie viele verschiedenste Proton habt ihr dann noch angefordert
+ und wie viele Mal musstet ihr mit dem Zoll telefonieren, hast du da Statistik geführt?
+ Ich habe bestimmt über 100 Mal bei DHL aufgeholt.
+ In den letzten drei Monaten?
+ Im letzten paar Wochen.
+ Also Dinge laufen nicht immer ganz kreatlinig und gerade wenn man auch Teile,
+ wir haben ja immer viele gesponserte Teile da drauf und manchmal verlässt man sich dann auf Dinge
+ und denkt, das geht alles klar und plötzlich ist so, oh Sekunde, das ist doch noch kein,
+ weder ein Ja noch ein Nein und was machen wir jetzt?
+ Und dann muss man vielleicht noch mal einen Seitenzweig aufmachen im Design,
+ so jetzt designen wir das alles raus und nehmen irgendwo billige Bauteile her,
+ die wir zwar selber zahlen müssen, aber immerhin wäre es dann irgendwie möglich
+ und dann kurz vor knapp ist, ja doch, wir bekommen doch die Bauteile und dann gehst du wieder zurück,
+ aber hast aber halt viel Zeit verloren.
+ Wir wären gern viel früher fertig geworden, hätten mehr Puffer hinten raus gehabt,
+ aber jetzt ist es mal wieder, mal wieder genau so geworden.
+ Zwei Tage vor dem Camp stehen die Sachen auf dem Gelände und das ist geradezu früh gewesen dieses Mal.
+ Beim Cardio hatten wir Probleme mit irgendwo ist ein Prozess schiefgelaufen bei der Herstellung eines Wavers
+ und dann gab es einen Typhoon und dann hat die Bestückungsanlage gebrannt und so weiter und so fort
+ und am Ende hatten wir dann tagweise Lieferungen von hunderten Platinen auf das Gelände
+ und es war absolute Horror.
+ Weil ihr einfach nicht alles durchmachen konntet wie jetzt dieses Mal,
+ sondern wirklich dann immer so kontinuierliche Produktionszusammenbau.
+ Und ich sag jetzt, es ist immer wieder was anderes und es ist auch immer natürlich so,
+ man denkt sich, das könnten wir noch machen und hier könnte man noch nicht Platinenfarbe ändern
+ und das ist auch alles cool, aber irgendwann muss man auch mal sagen,
+ wir müssen jetzt fertig werden.
+ Und wie ihr wisst, hat es immer geklappt, aber es ist Blut und Wasserschwitzen.
+ Es wird schon in der Regel knapp.
+ Also dann muss man eben tatsächlich halt auch einfach ständig mit dem Zoll telefonieren,
+ damit das halt auch keine Minute länger da liegt als unbedingt nötig oder auch,
+ also ich erinnere mich da an, das war noch bei der Rocket, auch mal einen Prototypen mit dem ICE-Kurier
+ durch Deutschland schicken, damit er halt in vier Stunden da ist und nicht am nächsten Tag.
+ Wenn halt die Zeit ausgeht, dann muss man halt kreativ werden, um das zu bekommen.
+ Ja, und parallel zur Hardware müsst ihr natürlich die ganze Zeit die Firmware auch irgendwie zufügen bringen.
+ Wie viele Updates habt ihr jetzt, also wie viele neue Revisionen habt ihr jetzt hier auf dem Camp von der Firmware schon gebaut?
+ Ich glaube, wir sind jetzt bei eins, zwei, drei, vier.
+ Also es ist die dritte Major-Version und es gab zwischendurch noch eine Bugfix-Version.
+ Also jetzt ist eins, zwei, null gerade die aktuelle Version, aber das kann sich bis jetzt,
+ das Video sieht, schon längst geändert haben.
+ Für Leute, die das vielleicht mal machen wollen, folgende Beobachtung.
+ Software für so ein Gerät ist wahrscheinlich ungefähr zehnmal so kompliziert wie die Hardware
+ oder könnte zehnmal so viel Ressourcen verbrauchen.
+ Das sehe ich auch auf der Arbeit.
+ So ein Team von zwei Leuten, die Hardware machen, da kannst du 20 Leute beschäftigen, die Software dafür schreiben.
+ Problemlos.
+ Und früh Prototypen zu haben und ausreichend Prototypen ist A und O für gute Software.
+ Das heißt, ihr habt ja auch, sobald ihr Prototypen zusammengelötet habt, die dann auch entsprechend weiter verschickt, damit Leute dafür Software bauen.
+ Ja, leider ist es dann auch eine Geldfrage, Prototypen anfangs sind teuer und da investiert man schnell hunderte Euro.
+ Da muss man sich überlegen, an dem man sie gibt, wie viel man machen will.
+ Da ist es dann, also wir haben auch zum Beispiel dieses Jahr ist ein ESP32 zum ersten Mal drin, ein sehr verbreiteter Mikrocontroller.
+ Und zum Beispiel das Batchteam aus den Niederlanden verwendet den auch schon sehr lange.
+ Und wenn man so eine Plattform hat, auf der man aufbauen kann, geht das auch potenziell alles viel schneller und besser.
+ Und das ist das, was wir jetzt auch schon haben, das ist das, was wir jetzt auch schon haben, das ist das, was wir jetzt auch schon haben.
+ Und das ist das, was wir jetzt auch schon haben, das ist das, was wir jetzt auch schon haben.
+ Und das ist das, was wir jetzt auch schon haben.
+ Und das ist das, was wir jetzt auch schon haben.
+ Und das ist das, was wir jetzt auch schon haben.
+ Und das ist das, was wir jetzt auch schon haben.
+ Und das ist das, was wir jetzt auch schon haben.
+ Und das ist das, was wir jetzt auch schon haben.
+ Und das ist das, was wir jetzt auch schon haben.
+ Und wir haben Support für das Radio Upstream geliefert an Indie-HKF-Firmware.
+ Die wird jetzt gemaintained von der Firma auch, die das HKF produziert.
+ Da gibt es immer Software für die, die wird einfach weiter funktionieren.
+ Das ist echtes Open Source-Projekt in dem Sinne.
+ Das sind alles echte Open Source-Projekte.
+ Aber hier ist es auch noch so, dass es halt ein existierendes Projekt mit Community war.
+ Und das wird einfach weitergeführt.
+ Die neuen Features, die für das HKF kommen, sind mit guter Wahrscheinlichkeit auch auf dem Radio verfügbar.
+ Aber beim Cardio hier haben wir unsere komplett eigene Infrastruktur gebaut.
+ Und das ist natürlich dann, wenn du nur irgendwie 3.000 oder 4.500 Stück oder so hast
+ und es ist irgendwie extrem schwierig, dieses Ding nachzubauen,
+ kommst du in Probleme bezüglich der Community.
+ Weil wenn man das eben nicht frei kaufen kann, wird es echt kompliziert.
+ Beim Flower-Batch war es jetzt eher so, lass uns Komponenten nehmen, die man tatsächlich kaufen kann.
+ Lass uns einen Technologiestack wählen, also von der Platine her, dass man das auch nachbauen kann.
+ Du kannst bei diversen Platinen herstellen, einfach die Gerberdateien schicken, das machen.
+ Die Bauteile sind einfach zu kaufen.
+ Das heißt, es ist eher die Möglichkeit, hier nochmal einzusteigen, das Projekt, auch wenn man nicht auf dem Camp war.
+ Das ist auch unsere große Hoffnung, dass da mehr von der Community kommt.
+ Aber ansonsten, klare Empfehlung, wenn ihr einen Badge macht, versucht auf ein Ecosystem in der Software zu setzen, das schon existiert.
+ Das macht euch vorher das Leben einfacher und das bringt euch später viel mehr in Bezug auf Wahrscheinlichkeit,
+ dass das Projekt weiterleben wird in Zukunft.
+ Das heißt, wenn es ESP32 ist, dann hat der auch WLAN. Kann man dann die Firma tatsächlich übers WLAN hier auch updaten?
+ Oder kommt ihr jetzt so best zur Flashstation im Rocket?
+ Das ist jetzt so eine Radio-Erivan-Antwort, im Prinzip ja. Aber der Code ist noch nicht ganz da.
+ Also es gibt einen halbfertigen Prototyp für einen Semi-automatisierten Ding, der übers WLAN die Firmware runterlädt.
+ Dann muss man aber manuell auf dem Badge noch das Flashen. Da lässt sich sicherlich auch noch mehr automatisieren.
+ Das erfordert halt jemand, der das dann auch schreibt. Software schreibt, Resources.
+ Also es ist gut möglich, dass es das noch geben wird, aber im Moment, also manuell Flashen.
+ Es gibt ja verschiedene Varianten, um sie zu Flashen.
+ Es gibt diesen Web-Flasher mit Chromium, der relativ komfortabel ist, wenn man mehr developen möchte
+ und sich die ESP-Sachen installiert hat, kann man es auch mit dem ESP-Tool Flashen.
+ Oder es gibt auch eine Möglichkeit, da ist eine SD-Karte drin, die SD-Karte zu mounten, das Image da drauf zu legen
+ und dann intern in der Batch zu sagen, nimm jetzt dieses Image als Flash-Image her.
+ Und wir haben bei unserem Batch-Team auch eine Flashstation, wo man es anstecken kann.
+ Und es bekommt es mit der aktuellen Firmware geflasht.
+ Ich glaube, ihr habt diesmal auch einen App Store mit drin, inspiriert durch das hauländische Batch, wie ich es jetzt verstanden habe.
+ Richtig, ja. Das Batch-Team aus Nierlanden hat ja schon seit vielen Jahren diesen On-Batch-App Store.
+ Du lädst dich ins WLAN ein und kannst dann die Apps browsen und runterladen.
+ Das haben wir diesmal auch geschafft, aufs Batch zu bringen, während der Veranstaltung.
+ 24 Stunden haben die Leute hier so eine App Store zusammengebastelt.
+ Das darf man wahrscheinlich nicht App Store nennen. App Directory.
+ Und dafür, wie schnell das ging, funktioniert das wahnsinnig gut. Ich bin beeindruckt, also selbst.
+ Und das sind natürlich dann Apps, die laufen quasi in unserem Ecosystem.
+ Wir haben das Gerät aber von Grund auf so designt, dass es möglich ist, auch Standard-ESP32-Firmware da drauf zu tun.
+ Einfach das Binary auf die SD-Karte legen, im Recovery auswählen, weil so ESP-Easy geht einfach.
+ Das heißt, ich habe da wirklich so einen Bootloader, wo ich dann wie bei meinem X86-PC auch auswählen kann, was möchte ich jetzt dann für mein E-System.
+ Richtig, ja. Irgendwie haben Leute Ado-Ino-Sachen drauf gemacht.
+ Und die Idee ist ja auch schon, es ist ja auch vom Design her so ein bisschen, das kannst du dir zu Hause an die Wand hängen und Home Automation damit betreiben
+ oder irgendwie einen Smart Speaker draus bauen oder whatever. Und das muss ja nicht unbedingt auf unserer Firmware sein.
+ Und wir wollen es den Leuten möglichst einfach machen, Zugriff auf diese ganze Softwarewelt zu haben, die ja mit den ESP32 mitkommt.
+ Ja, aber das heißt, wenn wir jetzt nochmal das Batch selber anschauen, wir haben irgendwie dieses Display in der Mitte, das ist kein Touch.
+ Dafür touch vielleicht ein Ausendrum rum. Also sowohl das Weiße als auch das Lieder.
+ Das war übrigens eine bewusste Entscheidung, dass das Display nicht touch ist. Die Prototypen haben Touch.
+ Aber wir haben uns gedacht, wenn das Display kaputt geht oder Leute das nachbauen wollen, dieses spezielle Custom-Touch-Ding zu bekommen, ist extrem schwierig.
+ Wir machen es gar nicht erst rein. Dann baut auch niemand Software dafür.
+ Und wenn Leute das Gerät nachbauen wollen und kein Touch-Display haben, dann kommen sie nicht in das Problem, dass plötzlich Software da ist, die Touch auf dem Display will und sie kriegen das Display nicht.
+ Sehr bewusste Entscheidung. Und dann gibt es ja auch noch ein paar andere Taster und Schalter. Geht da da am besten noch mal kurz drauf ein?
+ Ja, wir haben uns überlegt, wo kann man auch ein paar Taster hin machen, weil nur Touch ist ein bisschen schwierig.
+ Und das war einfach, es gibt diese Taster, wir haben uns ja hingesetzt und dann uns später überlegt, was wir damit machen.
+ Und jetzt haben wir hier irgendwie so Menüführung drin und ganz wichtig war ein Volume-Control direkt, weil da sind ja Lautsprecher drin.
+ Und wenn man da jetzt Musik macht und plötzlich ist das Ding laut, ein bisschen den Volume runter drehen, dann ist das ein bisschen Menüführung.
+ Aber das heißt, das ist tatsächlich ein Synthesizer, auch wenn es viele Leute wahrscheinlich noch nicht verstanden haben, oder?
+ Also man kann damit Musik machen, man kann sie auch zusammen hängen.
+ Schauen wir mal. Music, was haben wir denn hier? Das wird jetzt bestimmt ganz, ganz, ganz schlimm, aber Shoegaze, das ist so eine Gitarrensimulation.
+ Also halt ein bisschen nach unten, um das man es besser sieht. Kannst du hier schauen, wie es in Griswil ist?
+ Ach so, aber das sind keine Beschleunigungssensoren.
+ Ja, diese Applikation nimmt den Neigungswinkel des Beschleunigungssensors und verstimmt damit das Instrument.
+ Okay, und dann habt ihr zwei Klinkenbuchsen, das ist Kopfhörer oder kann man da noch lustige Anträge damit machen?
+ Wir haben einen Headset-Anschluss, da kann auch ein Mikrofon, also ein Headset angeschlossen mit Mikrofone, also vierpoliger, und dann noch ein Line-In.
+ Und als Special-Feature haben wir uns gedacht, wäre doch cool, wenn man die Dinger mit so einem Audiokabel verbinden kann, die Flowers,
+ und dann darüber digital Daten übertragen. Wir haben extra Hardware eingebaut, dass das geht, und du kannst über so einen Klinkenstecker auch eine LED anschließen und die zum Blinken bringen oder ähnliches.
+ Ich habe schon die ersten Apps hier gesehen, die es erlauben, die Flowers miteinander zu verbinden und dann Daten zu übertragen über die Kopfhörerbuchse.
+ Aber das heißt, es kann auch MIDI dann, also dieses Steuerungsding?
+ Ja, also du könntest jetzt MIDI über USB machen, und wir haben die Hardware so designed, dass sie prinzipiell mit den meisten MIDI-Geräten, die so dreieinhalb Millimeter-Klinke machen, funktioniert.
+ Es ist ein bisschen hacky, es sollte funktionieren.
+ Ich habe ja auf dem Camp auch schon Installationen gesehen, wo du tatsächlich deinen Badge dann anstecken musstest, und dann hast du irgendwie eine Tastatur und Musik oder sowas gemacht.
+ Das heißt, auch da gab es dann auch lustige Dinge.
+ Das ist das, was es sein soll. Ich habe gestern Leute gesehen, die hatten die Sampler-Apps so vor sich, irgendjemand hat es so auf der Höhe gehalten,
+ und alle standen im Kreis außen rum und haben so drauf rumgetippt und die Samples abgespült, hatten sehr viel Spaß und waren erleuchtet von den LEDs.
+ Das ist genau das, was wir sehen heute.
+ Gibt es schon ein Simon Says, wo man dann immer nachtippen muss, was kommt?
+ Ja, Simon ist im App-Store.
+ Okay, sehr gut. Wie viele Apps sind im App-Store aktuell?
+ Gestern Nacht waren es 58.
+ Und das ist MicroPython? Was schreibt man die?
+ In MicroPython, ja.
+ Okay.
+ Wie sieht die Zukunft aus? Erst mal kein Badge mehr, wie jedes Mal, und dann doch wieder? Oder wie sehen eure Pläne da aus?
+ Es gibt keine konkreten Pläne. Am vierten Mal ist es kein Selbstzweck.
+ Es geht darum, eine gute Idee zu haben, die motiviert. Nur dann ist es sinnvoll, so etwas zu tun, nur dann kann man da die Energie reinstecken.
+ Bisher haben es immer die Münchner gemacht, aber das ist ja auch nicht gegeben.
+ Du freust dich, wenn du nur noch Coach spielen kannst und nicht mehr Prägt-Coordinator machen musst?
+ Ich gebe gerne Weisheit weiter.
+ Aber es ist jetzt nicht so, dass der CCC sagt, die Münchner machen das Badge.
+ Es ist nur scheinbar so, dass wir meistens irgendwann an die Tür klopfen und sagen, dürfen wir nochmal?
+ Und die Prägt-Leitung sagt dann, ja, gerne. Und so viele.
+ So gerne sagt sie das gar nicht. Sie mag das nicht, weil das kostet Geld.
+ Es war ja hier jetzt auch wieder im Shop und ihr konntet dadurch auch die Nachfrage relativ gut abfragen an der Stelle.
+ Das Modell hat sich ja über die Zeit geändert. Bei der Rocket war es ja so einfach im Preis inbegriffen, das war ja auch neu und ich glaube ziemlich cool.
+ Das war auch relativ günstig von der Produktion her. Und beim Radio sind die Kosten dann deutlich gestiegen, ein bisschen auch über das, was es eigentlich hätte sein sollen, auch mit dem ganzen Sponsoring.
+ Und beim Cardio wurde es dann schon so langsam, wollen wir das wirklich noch allen Leuten in den Ticketpreis reintun?
+ Wäre es nicht besser, sie entscheiden zu lassen? Und das finde ich auch sehr gut.
+ Und das Modell haben wir dann jetzt auch weitergeführt bei der Flower und sogar noch ausgebaut zum Thema "Hey".
+ Ich meine, da hinten hängt ja auch eine Menge Lithium hinten dran. Und vielleicht wollen das die Leute auch nicht.
+ Also haben wir gesagt, okay, die Batterie ist optional und wir machen sie kompatibel zu einem niederländischen Badge.
+ Damit Leute zumindest sagen können, ja, ich finde das eine Idee, aber ich will jetzt nicht noch mehr Lithium durch die Gegend ballern.
+ Am Ende haben doch 95 Prozent der Leute die Batterie dazu gegeben.
+ Aber ihr habt dann entsprechend weniger Batterien gekauft und die dann draußen geholt werden.
+ Das ging sich alles jetzt gerade noch so aus, dass wir dann die Bestellung kleiner machen konnten.
+ Eine Frage, die mir gestellt wurde, weil es irgendwo geteht ist, aber "Does the drum do?"
+ It does.
+ Okay. Great.
+ Oder hat mal. Es gibt die Demo, sie ist noch nicht portiert in unser neues App-Framework.
+ Aber wenn jemand Doom drauf sehen will, fragt mal Q3K, der hat da so ein Proof of Concept.
+ Und ich glaube, das ist so ein, zwei Stunden Arbeit.
+ Ja, und es gibt dann auch Doku im Wiki, spätestens wenn ihr den Talk dann in der Aufzeichnung seht.
+ Genau. Wo kann man sich denn noch mehr Infos zu dem Projekt holen? Wie ist eure Webseite?
+ Ich vergesse die Clément-Competition nicht.
+ Die Webseite ist flower.garden mit einer 3 statt einem e in Flower.
+ Genau, also immer die Zahl im Batch ist sozusagen die...
+ Oh meine Güte. Also die Rocket hatte ja eine 0 und das Radio hatte die 1.
+ Und beim Cardio haben wir extrem lange gesucht bis wir eine 1,0 hatten.
+ Und dieses Jahr ist es uns einfach nicht gelungen, eine 1,1 unterzubringen. Es ist eine 3 geworden.
+ Okay.
+ Ja, es ist immer eine Zahl drin.
+ Ich wollte, ich meinte nur, du wolltest noch von der Demo-Competition, die heute Abend stattfindet, erzählen.
+ Genau. Mach doch.
+ Du weißt mehr. Also es gibt eine Demo-Competition, bei der auch ein Block oder ein Eintrag, die Demos auf der Flower sind.
+ Die findet heute Abend um, was war das, 21 Uhr?
+ In NordX.
+ In NordX statt Ende der Einreichungen ist glaube ich bis 18 Uhr oder so, wenn jemand coole Demos macht.
+ Also ich habe gestern eine Person gesehen, die an der Demo gearbeitet hat.
+ Sie sah extrem cool aus, war noch nicht fertig zu dem Zeitpunkt, aber da war es ja auch erst gestern Abend.
+ Deswegen rechne ich mit dem besten heute. Und es gibt bestimmt viele andere Leute.
+ Also es wird sicherlich interessant, wenn jemand in der Richtung Interesse hat.
+ Genau, gibt es dann auch im Livestream in NordX sozusagen.
+ Genau.
+ Alles klar. Haben wir noch irgendwas vergessen, was ihr noch sagen wollt?
+ Super. Also die ganzen Leute, die an diesen Badges mitgearbeitet haben, das ist echt krass.
+ Das sind echt krasse Leute. Und ich bin unglaublich froh Teil immer gewesen zu sein.
+ Wenn ihr die Leute seht und sie sagen, sie haben mal hier irgendwie mitgearbeitet oder so und das schätzt nicht, was das bedeutet.
+ Kauft ihnen eine Mate.
+ Kauft ihnen eine Mate.
+ Oder einen Schunk.
+ Also im gleichen Spirit würde ich dazu sagen, man soll sich im Zweifelsfall nicht abschrecken lassen davon, dass das jetzt alles sehr anstrengend und groß klingt.
+ Es hat sich im Laufe der Zeit größer entwickelt, aber es ist nicht so, dass irgendjemand von uns irgendwie spezielle Fähigkeiten oder großes Vorwissen in der Richtung gehabt hätte.
+ Sondern wir haben auch einfach nur gedacht, ach das wäre cool, wenn man das mal ausprobiert.
+ Und bei der Rocket waren wir alle bis kurz vor knapp noch nicht davon überzeugt, dass das überhaupt klappt.
+ Wir waren bis wenige Tage vorher nicht sicher, ob wir überhaupt den Teilnehmern ein Ding in die Hand drücken können, was funktioniert.
+ Oder ob es überhaupt rechtzeitig da ist. Irgendwann waren dann Teile da.
+ Natürlich macht das ein bisschen Angst, wenn man das nicht weiß.
+ Aber das ist ja das Schöne, dass in dem Zitizium fällt, ich kann es halt einfach ausprobieren.
+ Und es ist nicht so, dass ich, wenn ich jetzt in der Arbeit irgendwie das Gefühl habe, ich werde dafür bezahlt und muss ein Produkt abliefern.
+ Wenn es nicht klappt, dann klappt es halt nicht. Es wird einem auch keiner den fünf Jahre lang vorhalten, dass man irgendein Projekt nicht geschafft hat.
+ Sondern man hat es halt versucht und wenn man es...
+ Wer macht das Recht.
+ Ja, auch das. Einfach mal mitmachen und sich halt eventuell erstmal nur einen kleinen Teil anschauen und dann halt im Laufe der Zeit größer werden lassen.
+ Das ist doch ein schönes Schlusswort. Dann vielen Dank, dass ihr hier vorbeigeschaut habt und uns erzählt habt.
+ Und ihr könnt alle anderen Folgen von "Frag den Teams" auf media.cd/e schauen.
+ Teilweise auch in MeLife. Schönes Restcamp und viel Spaß. Ciao.
+ [Krachen]

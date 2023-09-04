@@ -1,0 +1,860 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:29,000 --> 00:00:38,360
+ Herzlich willkommen zum nächsten Vortrag. Wenn wir über Technologieentwicklung
+
+3
+00:00:38,360 --> 00:00:45,240
+ sprechen, denken wir immer an Silicon Valley, der Ort der Innovation. Aktuell ist in der Presse
+
+4
+00:00:45,240 --> 00:00:49,880
+ auch mal von Silicon Saxony zu hören. Ich bin mir noch nicht sicher, was es damit auf sich haben
+
+5
+00:00:49,880 --> 00:00:54,560
+ wird. Wir werden sehen. Was wir da aus europäischer Perspektive häufig vergessen ist, dass die Welt
+
+6
+00:00:54,560 --> 00:01:01,360
+ auch außerhalb von Europa und den USA existiert. Und ein Einblick in eine andere Technologieszene
+
+7
+00:01:01,360 --> 00:01:07,160
+ wird uns heute Alef geben. Wenn ihr im Nachgang dazu Fragen habt, und ich hoffe, dass es dazu viele
+
+8
+00:01:07,160 --> 00:01:12,560
+ noch kommen werden, haben wir nach dem Vortrag Zeit darüber zu sprechen. Bis dahin viel Spaß.
+
+9
+00:01:12,560 --> 00:01:23,520
+ Danke Alef. Ja, hi. Ich freue mich, dass ihr so zahlreich da seid, obwohl es Badewetter ist.
+
+10
+00:01:23,520 --> 00:01:30,480
+ Ich werde euch heute Einblicke in Kenias Tech-Szene zeigen. Kurz zu mir, ich bin Alef,
+
+11
+00:01:30,480 --> 00:01:37,080
+ siehe ihr und arbeite bei Jugend Hackt in Berlin. Davor habe ich an der Uni gearbeitet und war
+
+12
+00:01:37,080 --> 00:01:42,200
+ immer wieder in Nairobi, also der Hauptstadt Kenias, um zu Start-ups und technischen Innovationen zu
+
+13
+00:01:42,200 --> 00:01:48,000
+ forschen. Und aus dieser Forschung werde ich euch heute den Teil präsentieren, der sich vor allem
+
+14
+00:01:48,000 --> 00:01:55,920
+ mit den Auswirkungen internationaler Investitionen in diese kenianischen Start-ups befasst. Das heißt,
+
+15
+00:01:55,920 --> 00:02:02,120
+ zuerst werde ich so ein paar Einblicke in die Tech-Szene Nairobis geben und dann werde ich
+
+16
+00:02:02,120 --> 00:02:08,200
+ darauf eingehen, inwiefern Technikentwicklung für Kenias Ingenieur*innen sich revolutionär anfühlt
+
+17
+00:02:08,200 --> 00:02:15,000
+ und auch wie das Land revolutionär scheint. Und um dann abschließend zu zeigen, dass internationale
+
+18
+00:02:15,000 --> 00:02:21,560
+ Investitionen vor allem aus den USA und Europa, also dem globalen Norden, kenianischen Akteuren nicht
+
+19
+00:02:21,560 --> 00:02:28,000
+ erlaubt, eigenmächtig zu handeln, eigenmächtig zu innovieren und dass durch diese Investitionen
+
+20
+00:02:28,000 --> 00:02:33,360
+ eigentlich koloniale Machtbeziehungen aufrechterhalten werden. Wundert euch nicht, ich habe hier so
+
+21
+00:02:33,360 --> 00:02:39,440
+ analoge Skripte, damit ich mich nicht verhaspel. Genau, das heißt, ich werde auf darauf schauen.
+
+22
+00:02:39,440 --> 00:02:48,560
+ Genau, Innovation, Digitalisierung, Industrie 4.0, Start-up, Co-working Space, diese Schlagwörter
+
+23
+00:02:48,560 --> 00:02:53,360
+ umgeben uns eigentlich mittlerweile tagtäglich. Das heißt, die Innovationsgesellschaft ist ein
+
+24
+00:02:53,360 --> 00:02:58,880
+ globales Phänomen geworden. Das bedeutet, die Innovation von Technologien wird nicht mehr
+
+25
+00:02:58,880 --> 00:03:04,480
+ vermeintlich einzelnen Genies wie Thomas Edison, dem nachgesagt wird, ganz alleine die Glühbirne
+
+26
+00:03:04,480 --> 00:03:10,920
+ entwickelt zu haben oder exklusiven Laboren wie dem CERN in Zürich zugeschrieben. Anstatt dessen
+
+27
+00:03:10,920 --> 00:03:17,960
+ gibt es DIY-Anleitungen oder Tipps erfolgreicher Geschäftsleute im Internet und diese scheinen
+
+28
+00:03:17,960 --> 00:03:23,280
+ jeder Person eigentlich die Möglichkeit zu eröffnen, mit ihrer technologischen Idee die Welt
+
+29
+00:03:23,280 --> 00:03:29,080
+ zu verändern. Und ich habe mich gefragt, was hat das eigentlich zur Auswirkung? Es hat zur Auswirkung,
+
+30
+00:03:29,080 --> 00:03:34,720
+ dass überall auf der Welt Arbeitsplätze aufpflücken, die so gestaltet werden, dass sie die Arbeit an
+
+31
+00:03:34,720 --> 00:03:39,840
+ technologischen Innovationen fördern sollen. Also Co-working Spaces, Makerspaces, wie wir hier auch
+
+32
+00:03:39,840 --> 00:03:47,680
+ am letzten Zelt haben. Genau, also kreative Orte, in denen jeder einen Arbeitsplatz mieten kann,
+
+33
+00:03:47,680 --> 00:03:52,720
+ wenn man das professionell macht. Es gibt Inkubatoren, Acceleratoren, die durch Hackathons,
+
+34
+00:03:52,720 --> 00:04:01,160
+ Wettbewerbe, Start-ups, technologische Ideen aussuchen und finanziell und ideell fördern.
+
+35
+00:04:01,160 --> 00:04:08,880
+ Genau, hier sieht man noch ein Makerspace. Und dieser Hype um diese innovativen Arbeitsplätze
+
+36
+00:04:08,880 --> 00:04:14,200
+ ist global, auch in Deutschland sehen wir das, aber in Afrika kann man eigentlich das rapide
+
+37
+00:04:14,200 --> 00:04:21,320
+ Aufkommen quantitativ sehr gut nachvollziehen. 2011 gab es insgesamt fünf Technology Hubs,
+
+38
+00:04:21,320 --> 00:04:25,640
+ also Co-working Spaces und Makerspaces, in vier verschiedenen Ländern Afrikas.
+
+39
+00:04:25,640 --> 00:04:32,960
+ Fünf Jahre später, 2016, wurden von der Weltbank 173 gezählt und laut der GSMA,
+
+40
+00:04:32,960 --> 00:04:41,560
+ das ist die weltweit größte Vereinigung von Mobilfunkanbietern, gibt es seit 2019 618 Tech Hubs
+
+41
+00:04:41,560 --> 00:04:46,080
+ in zahlreichen Ländern Afrikas. Und ich meine, das war vor vier Jahren, die Zahl wird sich
+
+42
+00:04:46,080 --> 00:04:51,520
+ wahrscheinlich wieder verdoppelt haben. So, und Hanno hat ja schon einleitend das Silicon Valley
+
+43
+00:04:51,520 --> 00:04:58,400
+ genannt. Vorbild der meisten innovativen Arbeitsplätze in Subsare Afrika ist das Silicon Valley.
+
+44
+00:04:58,400 --> 00:05:05,400
+ Genau, Mutua und Ali, das sind zwei Technikexperten aus Nairobi, nennen es die Globalisierung des
+
+45
+00:05:05,400 --> 00:05:10,320
+ Silicon Valleys. Für sie ist es selbstverständlich, das Silicon Valley als Fortbild zu nehmen,
+
+46
+00:05:10,320 --> 00:05:16,080
+ da sie, sie sagen, oder da es wie eine gut funktionierende Maschine ist, die nicht aufhört,
+
+47
+00:05:16,080 --> 00:05:21,680
+ Innovation zu produzieren, die die Welt verändern. Und so scheint es nicht zu verwundern,
+
+48
+00:05:21,680 --> 00:05:27,960
+ dass vermeintlich neue oder vom globalen Norden neu entdeckte Orte der Innovation als Aufstreben
+
+49
+00:05:27,960 --> 00:05:35,000
+ des Silicon Valleys oder Silicon Valley Kopien benannt werden. Also Shenzhen wird als Silicon
+
+50
+00:05:35,000 --> 00:05:42,080
+ Valley of Hardware genannt, Kapstadt wird Silicon Cape genannt und Nairobi, worüber ich sprechen
+
+51
+00:05:42,080 --> 00:05:49,200
+ würde, ist Silicon Savannah getauft worden. Und Nairobis Ruf als Silicon Savannah entstand
+
+52
+00:05:49,200 --> 00:05:56,360
+ um 2007 und ist auf zwei Software Innovationen zurückzuführen. Und zwar Ushahidi, das seht
+
+53
+00:05:56,360 --> 00:06:02,760
+ ihr oben und der M-Pesa unten. Ushahidi heißt auf Kiswahidi Beweis. Das ist eine Open Source
+
+54
+00:06:02,760 --> 00:06:07,600
+ Software, mit der jeder, die Zugang zum Internet hat, Ereignisse auf einer digitalen Karte
+
+55
+00:06:07,600 --> 00:06:15,680
+ einzeichnen kann. Und Ushahidi erlaubte Kenianerinnen und Kenianer während Unruhen nach den Wahlen
+
+56
+00:06:15,680 --> 00:06:22,000
+ 2007 Gewaltausbrüche zu kartieren und sie somit Transparenz zu machen. Und diese Software
+
+57
+00:06:22,000 --> 00:06:27,600
+ wurde dann weltweit bekannt. Also die USA hat es zum Beispiel benutzt bei Umweltkatastrophen,
+
+58
+00:06:27,600 --> 00:06:33,440
+ in denen benutzt Ushahidi für die Kartierung von Korruptionsverfällen. Das heißt plötzlich
+
+59
+00:06:33,440 --> 00:06:38,040
+ wurde eine technologische Innovation, die in Kenia entwickelt wurde, global anerkannt
+
+60
+00:06:38,040 --> 00:06:44,720
+ und genutzt. Genau, und durch diesen Erfolg von Ushahidi und das vielfach zitierte Beispiel
+
+61
+00:06:44,720 --> 00:06:50,680
+ M-Pesa, das heißt Mobile Money, das ermöglicht Geldtransfer per SMS, richtete sich dann die
+
+62
+00:06:50,680 --> 00:06:55,960
+ internationale Aufmerksamkeit zunehmend auf diese Tech-Szene in Nairobi. Und das heißt,
+
+63
+00:06:55,960 --> 00:07:02,760
+ wenn man so ein Auge hat dafür, dann findet man tatsächlich in jeglichen Zeitungen oder
+
+64
+00:07:02,760 --> 00:07:10,040
+ Blogs Berichte über technologische Erfolgsgeschichten in Kenia. Und je mehr in den Medien über
+
+65
+00:07:10,040 --> 00:07:15,080
+ diese Tech-Szene in Nairobis berichtet wird, desto mehr Menschen aus alteingesessenen Orten
+
+66
+00:07:15,080 --> 00:07:21,480
+ der Technikproduktion wie dem Silicon Valley oder Europa besuchen Nairobi. Als zum Beispiel
+
+67
+00:07:21,480 --> 00:07:28,880
+ Mark Zuckerberg, das ist der rosane Punkt in dem Bild, als Mark Zuckerberg zum Beispiel
+
+68
+00:07:28,880 --> 00:07:34,160
+ im August 2016 die Tech-Szene in Nairobis besuchte, um sich über Technologien zu informieren,
+
+69
+00:07:34,160 --> 00:07:38,680
+ die mobilen Geldtransfer verwenden, da wurde eigentlich deutlich, dass Nairobis Ruf als
+
+70
+00:07:38,680 --> 00:07:44,560
+ Innovationsstandort bis zu diesen globalen Tech-Gurus gelangt ist. Und dieses wirtschaftliche
+
+71
+00:07:44,560 --> 00:07:49,320
+ Potential der technischen Innovation und dem Know-how der Expertise in Kenia lässt
+
+72
+00:07:49,320 --> 00:07:54,000
+ Entwicklungszusammenarbeitsorganisationen und auch internationale Tech-Konzerne wie Google,
+
+73
+00:07:54,000 --> 00:08:01,640
+ IBM und Microsoft nicht kalt. Und die finanzieren mittlerweile im großen Maße Hackathons, andere
+
+74
+00:08:01,640 --> 00:08:12,040
+ Wettbewerbe, kreative Arbeitsplätze und Start-ups. Genau, diese innovativen Arbeitsplätze wie
+
+75
+00:08:12,040 --> 00:08:17,440
+ Co-Working Spaces und Maker Spaces fühlen sich für viele Technikentwickler*innen und
+
+76
+00:08:17,440 --> 00:08:22,960
+ Ingenieure*innen empowernd und revolutionär an, da sie die Möglichkeit bieten, Eigenideen umzusetzen.
+
+77
+00:08:22,960 --> 00:08:28,200
+ Zum Beispiel kennt ihr selber durch das Programmieren von Software oder das Bau uns
+
+78
+00:08:28,200 --> 00:08:32,560
+ innovativer Leitplatinen. Und für Kenias Arbeitsmarkt ist diese Technikentwicklung
+
+79
+00:08:32,560 --> 00:08:38,200
+ neu, denn für Ingenieure*innen nach dem Studium gibt es hauptsächlich Berufe, in denen Technik
+
+80
+00:08:38,200 --> 00:08:42,880
+ in Stand gehalten werden muss oder repariert werden muss, weil die meisten Geräte, Maschinen
+
+81
+00:08:42,880 --> 00:08:48,920
+ für die Industrie oder auch Autos kommen aus China, den USA, Europa. Und in diesem Sinne
+
+82
+00:08:48,920 --> 00:08:54,360
+ erzählte mir eine Maschinenbauerin, wieso sie innovative Arbeit so sehr schätzt, jetzt hier
+
+83
+00:08:54,360 --> 00:09:00,200
+ auf Deutsch übersetzt, sagte sie "Ich warte Maschinen nicht gerne, weil ich das Gefühl habe,
+
+84
+00:09:00,200 --> 00:09:05,360
+ bei dieser Aufgabe persönlich nicht zu wachsen. Aber ein Co-Working Space gibt mir die Plattform
+
+85
+00:09:05,360 --> 00:09:10,480
+ zu wachsen, weil wir Projekte haben, die zum Nachdenken, zum Erforschen und Abenteuer anregen.
+
+86
+00:09:10,480 --> 00:09:15,480
+ Heute arbeiten wir an einem Auto, am nächsten Tag an einer Pumpe. Ich entwickle mich hier
+
+87
+00:09:15,480 --> 00:09:21,600
+ also ständig weiter." Die Hightech-Szene in Nairobi empowert nicht nur einzelne Personen,
+
+88
+00:09:21,600 --> 00:09:26,560
+ wie wir es hier gehört haben, indem sie sich von der Reparatur importierter Technologien
+
+89
+00:09:26,560 --> 00:09:32,640
+ lossagen können, sondern ganz Kenia. Eine Technikforscherin sagte zu mir, dass sich
+
+90
+00:09:32,640 --> 00:09:36,800
+ durch all die Menschen, die in Nairobi Technik entwickeln, das Bild zu verändern beginnt
+
+91
+00:09:36,800 --> 00:09:41,760
+ und die Menschen global erkennen, dass auch sie einen Platz in der Tech-Szene haben, in
+
+92
+00:09:41,760 --> 00:09:48,200
+ Nairobi regional, also afrikaweit und weltweit. Und das bedeutet, dass die Technikentwicklung
+
+93
+00:09:48,200 --> 00:09:55,400
+ in Kenia und ihre globale mediale Sichtbarkeit dazu führt, die vorherrschende Vorstellung
+
+94
+00:09:55,400 --> 00:10:02,840
+ von einem Zentrum und einer Peripherie zu verändern. Hier nochmal kurzer Exkurs. Seit
+
+95
+00:10:02,840 --> 00:10:08,840
+ den Kolonialherrschaften Europas herrscht die Vorstellung, dass Europa und heutzutage auch
+
+96
+00:10:08,840 --> 00:10:14,120
+ und vor allem die USA das weltweite Zentrum von Wissenschaft und Technologie ist und somit
+
+97
+00:10:14,120 --> 00:10:19,760
+ alle anderen Länder auf dieser Welt die Peripherie ausmachen, die das europäische Wissen und
+
+98
+00:10:19,760 --> 00:10:26,040
+ Technik vor allem importieren. Und durch diese globale Anerkennung von Nairobi als Innovationsstandort
+
+99
+00:10:26,040 --> 00:10:31,440
+ wird gezeigt, dass es eben nicht nur ein einseitigen Austausch zwischen einem vermeintlichen Zentrum
+
+100
+00:10:31,440 --> 00:10:37,800
+ von Innovation und einer Peripherie des globalen Südens gibt, die nur aus Konsumentinnen europäischer
+
+101
+00:10:37,800 --> 00:10:45,520
+ Technik besteht. Genau und um genau gegen diese Vorstellung, dass Wissen und Technologie aus
+
+102
+00:10:45,520 --> 00:10:51,160
+ dem globalen Norden besser sei als andere anzukämpfen, werden Produkte aus Kenia als
+
+103
+00:10:51,160 --> 00:10:57,040
+ Made in Africa for Africa vermarktet. Das heißt, es kann sein, dass es ein Internetmodem ist,
+
+104
+00:10:57,080 --> 00:11:04,960
+ in Kenia entwickelt wurde, Wasserfässer oder der erste Makerspace Nairobi. Alle werden
+
+105
+00:11:04,960 --> 00:11:12,080
+ vermarktet als in afrikanischen Ländern für afrikanische Kontexte hergestellt. Genau hier
+
+106
+00:11:12,080 --> 00:11:19,720
+ kurz ein Nebenkommentar. Ich werde oft den Begriff Afrika verwenden, weil das so vor Ort passiert
+
+107
+00:11:19,720 --> 00:11:23,720
+ ist. Ich selber will aber darauf hinweisen, ich spreche heute nur über kenianische Technik
+
+108
+00:11:23,720 --> 00:11:28,720
+ Entwickler*innen und distanziere mich davon, dass man Afrika als irgendwie einheitlichen Kontext
+
+109
+00:11:28,720 --> 00:11:35,400
+ sehen kann. Genau, also zurück zu diesem Slogan "Made in Africa for Africa". Dieses Marketing ist
+
+110
+00:11:35,400 --> 00:11:41,720
+ für die Technik Entwicklerin in Kenia nicht nur ein Branding oder ein Marketing einer Technologie,
+
+111
+00:11:41,720 --> 00:11:49,120
+ sondern für sie betont dieser Slogan die lokale Expertise darüber, was für den eigenen Kontext
+
+112
+00:11:49,120 --> 00:11:54,160
+ am besten ist und was man dafür herstellen sollte und äußert somit den Wunsch nach Unabhängigkeit
+
+113
+00:11:54,160 --> 00:11:59,480
+ von Handelsabkommen mit der EU, aber auch von Programmen internationaler Entwicklungszusammenarbeit.
+
+114
+00:11:59,480 --> 00:12:07,680
+ Jetzt kommt das große Aber. Um stetig neue innovative Ideen zu entwickeln, sind diese
+
+115
+00:12:07,680 --> 00:12:13,880
+ Entwickler*innen auf Investitionen angewiesen. Und diese genau Finanzierung der eigenen Arbeit
+
+116
+00:12:13,880 --> 00:12:19,800
+ natürlich ist eins der Hauptthemen, auch in Nairobi. Das heißt, die meisten Menschen arbeiten
+
+117
+00:12:19,800 --> 00:12:24,840
+ projektbasiert. Das heißt, sie befinden sich, wie eine Start-up-Grunde war gesagt hat, in einem
+
+118
+00:12:24,840 --> 00:12:31,760
+ Dezember-zu-Dezember-Job. Jedes Jahr endet mit Aufregung und Ungewissheit. Genau, ein Programmierer
+
+119
+00:12:31,760 --> 00:12:36,440
+ sagte, wir haben bis jetzt noch keine finanziellen Zuschüsse und alle unsere Gespräche drehen sich
+
+120
+00:12:36,440 --> 00:12:41,120
+ nur um die Nachhaltigkeit unserer Projekte und wie wir nächstes Jahr mehr Geld für unsere Ideen
+
+121
+00:12:41,120 --> 00:12:47,720
+ akquirieren können. Und das erzählte er mir so Ende November, also vier Wochen bevor die seine
+
+122
+00:12:47,720 --> 00:12:53,720
+ Förderung ausging. Genau, es heißt, längerfristige Planungen für die Entwicklung einer neuen Software
+
+123
+00:12:53,720 --> 00:12:59,160
+ oder Hardware, die werden eigentlich durch die auf wenige Monate limitierte Finanzierung erheblich
+
+124
+00:12:59,160 --> 00:13:07,000
+ erschwert. Und diese projektbasierte Arbeit bestimmt eigentlich viele Start-ups sehen weltweit. Und der
+
+125
+00:13:07,000 --> 00:13:13,880
+ Kontext Nairobis unterscheidet sich jedoch zum Beispiel von der Start-up-Szene in Berlin, denn bis
+
+126
+00:13:13,880 --> 00:13:20,240
+ heute liegt die Priorität für kenianische Investoren im Immobilienmarkt. Der ist sicher, da kriegen sie
+
+127
+00:13:20,240 --> 00:13:25,320
+ auf jeden Fall Geld zurück, wenn sie investieren und Eigentum kaufen. Das heißt, das meiste Geld
+
+128
+00:13:25,320 --> 00:13:31,000
+ für Start-ups in Kenia kommt von internationalen Firmen, wie ich schon vorhin erwähnt habe, also
+
+129
+00:13:31,000 --> 00:13:37,720
+ Google, Microsoft, IBM, Intel oder auch Stiftungen oder auch Entwicklungszusammenarbeitsorganisationen.
+
+130
+00:13:37,720 --> 00:13:46,320
+ Genau, hier sieht man noch so ein Hackathon-Google-Bild. Genau, eine kenianische Technikexpertin
+
+131
+00:13:46,320 --> 00:13:52,680
+ beschreibt, was diese Investition von internationalen Geldgeber*innen für sie bedeutet. Sie sagt,
+
+132
+00:13:52,680 --> 00:13:58,000
+ viele Gelder der Entwicklungszusammenarbeit, privaten Unternehmen und individuellen Investoren
+
+133
+00:13:58,000 --> 00:14:03,560
+ sind sehr amerizentrisch. Das Geld kommt mit amerizentrischen Werten und Ansichten. Es gibt
+
+134
+00:14:03,560 --> 00:14:09,640
+ kein Geld ohne Bedingungen. Daher hängt alles von den Werten ab, die den Geldern angeheftet sind.
+
+135
+00:14:09,640 --> 00:14:16,240
+ Das heißt, ihrer Meinung nach wird die Finanzierung von innovativen Projekten von den Überzeugungen
+
+136
+00:14:16,240 --> 00:14:21,640
+ der Geldgeber*innen bestimmt. Sie sagt, sie muss für die diversen Geldgeber*innen eigentlich
+
+137
+00:14:21,640 --> 00:14:27,120
+ immer unterschiedliche Sprachen sprechen, je nachdem, was die Leute, von denen sie Geld haben möchte,
+
+138
+00:14:27,120 --> 00:14:35,800
+ hören möchte. Ja, ja klar, genau. Aber jetzt kommt der große Punkt. So zum Beispiel für
+
+139
+00:14:35,800 --> 00:14:40,880
+ vor allem US-amerikanische Investoren, dass Technologie die Welt verbessert. Das bedeutet,
+
+140
+00:14:40,880 --> 00:14:45,320
+ die Besonderheit der Investorenlandschaft in Nairobi ist, dass private Firmen und
+
+141
+00:14:45,320 --> 00:14:51,040
+ Non-Profit-Organisationen nur Technologien fördern, die kenia gesellschaftlich
+
+142
+00:14:51,040 --> 00:15:00,160
+ transformieren sollen. Sämtliche Entwickler*innen problematisieren aber diesen Fokus ihrer
+
+143
+00:15:00,160 --> 00:15:05,600
+ Investoren*innen auf den sogenannten Social Impact von Technologien. Hier sagt eine Programmiererin,
+
+144
+00:15:05,600 --> 00:15:10,240
+ wir befassen uns mit Menschen, die immer noch die Idee eines armen Afrikas, eines mangelnden
+
+145
+00:15:10,240 --> 00:15:16,520
+ Afrikas, eines ungleich wachsenden Afrikas vorantreiben. Ein Ingenieur eines Start-ups
+
+146
+00:15:16,520 --> 00:15:21,360
+ erzählte, die internationalen Investoren wollen einfach schöne Geschichten und Fotos. Aus diesem
+
+147
+00:15:21,360 --> 00:15:25,640
+ Grund ist es nicht genug, ein nachhaltiges Unternehmen zu haben, das Menschen beschäftigt,
+
+148
+00:15:25,640 --> 00:15:30,920
+ etwas Geld verdient und nicht auf finanzielle Darlehen angewiesen ist. Das ist meine Definition
+
+149
+00:15:30,920 --> 00:15:36,440
+ von Impact. Aber ein Investor oder ein Investoren will, dass wir die Welt retten, den Kohlenstoff-
+
+150
+00:15:36,440 --> 00:15:43,480
+ ausstoß reduzieren und den Zugang zu Strom verbessern. Die Messlatte für kenianische
+
+151
+00:15:43,480 --> 00:15:47,320
+ Unternehmen Investitionen zu erhalten ist also höher als für ein Unternehmen im Silicon Valley.
+
+152
+00:15:47,320 --> 00:15:53,800
+ Das heißt, betrachtet man diesen Kontrast zwischen der Forderung nach Social Impact von
+
+153
+00:15:53,800 --> 00:15:58,480
+ technischen Innovationen in Nairobi und dem profitorientierten Ansatz von Start-ups im globalen
+
+154
+00:15:58,480 --> 00:16:04,040
+ Norden, bedeutet das internationale Geldgeber*innen eigentlich mit zweierlei Maß messen. Technik-
+
+155
+00:16:04,040 --> 00:16:07,640
+ Entwickler*innen in Nairobi werden nur dann finanziert, wenn sie Social Impact in ein
+
+156
+00:16:07,640 --> 00:16:12,120
+ Geschäftsmodell integrieren, wobei Start-ups im Silicon Valley und Europa auch finanziert werden,
+
+157
+00:16:12,120 --> 00:16:17,760
+ wenn sie keine Sozialunternehmen sind. Das scheint also, dass kenianische Start-ups und ihre Ideen
+
+158
+00:16:17,760 --> 00:16:22,240
+ nicht als potenziell eigenständige Unternehmen angesehen werden, sondern eher als spannende
+
+159
+00:16:22,240 --> 00:16:31,560
+ Geschichten über technologischen Einfluss in Kenias Gesellschaft. Haben wir eigentlich
+
+160
+00:16:31,560 --> 00:16:35,960
+ eine eigene Kultur der Technikentwicklung oder tanzen wir einfach nach der Pfeife der Investor*innen?
+
+161
+00:16:35,960 --> 00:16:41,760
+ An Bevormundungen aus dem Westen sind Kenianer*innen schon seit dem Kolonialismus gewöhnt.
+
+162
+00:16:41,760 --> 00:16:47,160
+ Und dennoch braucht es viel Geduld und diverse Strategien, um nicht vollständig nach der Pfeife
+
+163
+00:16:47,160 --> 00:16:51,920
+ von internationalen Geldgeber*innen zu tanzen und trotzdem noch Investitionen in die eigenen
+
+164
+00:16:51,920 --> 00:16:57,600
+ Unternehmensideen zu halten. Genau als Beispiel möchte ich euch den Umgang mit Investor*innen
+
+165
+00:16:57,600 --> 00:17:05,200
+ von einem Start-up zeigen, das ein Prepaid Gas Ziel entwickelt hat. Das heißt, das erlaubt beim
+
+166
+00:17:05,200 --> 00:17:09,520
+ Kochen nur das verwendete Gas, also um kleinen Mengen zu zahlen und nicht sofort die fette
+
+167
+00:17:09,520 --> 00:17:15,520
+ Gasflasche, die ziemlich teuer ist, zu bezahlen. Und ein Mitgründer dieses Unternehmens nennt ihren
+
+168
+00:17:15,520 --> 00:17:20,080
+ Umgang mit problematischen Weltbildern von Investor*innen "to push back". Sie weisen die
+
+169
+00:17:20,080 --> 00:17:26,440
+ also zurück. Und da sagen sie, das ist jetzt auch relativ lang, wir behandeln unsere Kunden*innen
+
+170
+00:17:26,440 --> 00:17:32,400
+ wie Kunden*innen und nicht wie Problemfälle, denen wir helfen müssen. Wir weisen Investor*innen ab,
+
+171
+00:17:32,400 --> 00:17:37,200
+ wenn sie von uns fordern, dass wir die Laufstrecke messen sollen, die jemand gespart hat, in dem er
+
+172
+00:17:37,200 --> 00:17:42,920
+ oder sie mit Gas kocht und nicht mehr mit Holzkohle oder Spiritus. Manchmal sagen wir, anstatt den
+
+173
+00:17:42,920 --> 00:17:47,200
+ Einfluss unserer Technologie zu messen, lassen sie uns lieber darüber sprechen, womit sie lieber
+
+174
+00:17:47,200 --> 00:17:53,320
+ Investor zu Hause kochen. Kochen sie mit Holzkohle, haben sie einen Solarkocher. Und wenn Investor*innen
+
+175
+00:17:53,320 --> 00:18:00,880
+ sagen, ich möchte Kund*innen in ihren Wohnungen zu Hause besuchen, sagen wir dazu nein. Trotz der
+
+176
+00:18:00,880 --> 00:18:07,400
+ Versuche des zu Recht rückens oder "to push back" wegschiebens westlicher Vorstellungen von einem
+
+177
+00:18:07,400 --> 00:18:13,160
+ unterentwickelten Kenia, das Hilfe aus Europa braucht, sind Technikentwickler*innen nun mal
+
+178
+00:18:13,160 --> 00:18:18,880
+ auf Investitionen angewiesen, um ihrer Arbeit nachzugehen. Und so müssen sie ständig abwägen,
+
+179
+00:18:18,880 --> 00:18:25,880
+ zwischen ihrem Idealismus, diskriminierendes Verhalten zu kritisieren. Hier sagt noch mal der
+
+180
+00:18:25,880 --> 00:18:30,520
+ gleiche Start-up-Mitbegründer, wir versuchen unser Bestes, so viel wie möglich von uns abzuweisen und
+
+181
+00:18:30,520 --> 00:18:35,040
+ fernzuhalten, aber wir müssen manchmal auch realistisch sein und die Zähne zusammenbeißen,
+
+182
+00:18:35,040 --> 00:18:40,360
+ wenn es keine andere Finanzierung gibt. Und es bedeutet, dass Technikentwickler*innen weiterhin
+
+183
+00:18:40,360 --> 00:18:44,480
+ über ein vermeintlich rückständiges Kenia und gesellschaftlichen Fortschritt durch die eigene
+
+184
+00:18:44,480 --> 00:18:56,080
+ Technologie sprechen müssen, um finanziell unterstützt zu werden. Was finde ich jetzt an
+
+185
+00:18:56,080 --> 00:19:00,800
+ dieser Beziehung zwischen Entwickler*innen und Investor*innen eigentlich interessant? Meine
+
+186
+00:19:00,800 --> 00:19:08,000
+ Forschung, die so drei bis sieben Jahre lang lief, zeigt, dass kenianische Start-ups konstant
+
+187
+00:19:08,000 --> 00:19:12,640
+ zwischen ihren eigenen Zielen und den Vorstellungen der westlichen Investor*innen abwägen müssen.
+
+188
+00:19:12,640 --> 00:19:18,240
+ Somit sind diese Beziehungen nicht nur rein finanziell, sondern mit postkolonialen Macht-
+
+189
+00:19:18,240 --> 00:19:23,920
+ asymmetrien aufgeladen. Das bedeutet, dass die Macht zu bestimmen, wer oder was finanzierungswürdig
+
+190
+00:19:23,920 --> 00:19:28,440
+ ist, liegt bei den Investor*innen, die oftmals gar keine Ahnung vom kenianischen Kontext haben.
+
+191
+00:19:28,440 --> 00:19:34,840
+ Der Social Impact einer Technologie ist das ungeschriebene Gesetz, was und für welche
+
+192
+00:19:34,840 --> 00:19:39,120
+ Zielgruppe Technik entwickelt werden soll. Investor*innen finanzieren nämlich nur die
+
+193
+00:19:39,120 --> 00:19:44,200
+ Technik, die Nutzer*innen im ländlichen Raum als Zielgruppe haben, wie wir hier auf diesem Bild sehen.
+
+194
+00:19:44,200 --> 00:19:51,640
+ Und technische Ideen, die industrielle Prozesse verbessern sollen, erhalten kein Geld. Wir sehen
+
+195
+00:19:51,640 --> 00:19:55,960
+ also, dass die Stereotype eines einheitlichen Afrikas, in dem Menschen nur in Dörfern oder
+
+196
+00:19:55,960 --> 00:20:00,600
+ städtischen Slums leben, reproduziert werden. Und der Wunsch der Technikentwickler*innen,
+
+197
+00:20:00,600 --> 00:20:04,920
+ dass ihre Expertise und ihre technologischen Innovationen anerkannt werden, wird nicht wahr.
+
+198
+00:20:04,920 --> 00:20:11,240
+ Genau, die Macht der westlichen Investor*innen kritisieren, vergleicht ein lokaler Investor,
+
+199
+00:20:11,240 --> 00:20:17,680
+ die Aktivitäten in der Tech-Szene in Nairobi mit der Kolonialzeit. Karake sagt, wenn man die
+
+200
+00:20:17,680 --> 00:20:22,520
+ bisherigen Akteure, Kräfte und Ergebnisse in der ostafrikanischen Start-up-Szene beobachtet,
+
+201
+00:20:22,520 --> 00:20:26,840
+ muss man sich mit dem unbehaglichen Gefühl auseinandersetzen, dass sich die Geschichte
+
+202
+00:20:26,840 --> 00:20:31,760
+ wiederholen könnte. Der digitale Wettlauf im Afrika droht dem ursprünglichen Wettlauf im
+
+203
+00:20:31,760 --> 00:20:40,240
+ Afrika zugleichen. Das heißt, postkolonial bedeutet, dass der Kolonialismus zwar formell
+
+204
+00:20:40,240 --> 00:20:46,920
+ zu Ende ist. Kenya wurde beispielsweise 1963 ein eigener Staat, aber die Herrschaftsbeziehungen,
+
+205
+00:20:46,920 --> 00:20:53,680
+ die im Kolonialismus aufgebaut wurden, leben heute noch weiter. Das heißt, heutige koloniale
+
+206
+00:20:53,680 --> 00:20:56,840
+ Machtverhältnisse bestehen nicht mehr aus der brutalen Herrschaft von Land und Bevölkerung
+
+207
+00:20:56,840 --> 00:21:02,320
+ durch andere Staaten. Heutige koloniale Machtverhältnisse bestehen aus deren Auswirkungen,
+
+208
+00:21:02,320 --> 00:21:09,760
+ die in politischen, wirtschaftlichen und kulturellen Beziehungen überdauern. Zum Beispiel in globalen
+
+209
+00:21:09,760 --> 00:21:16,240
+ Rollenbildern eines Zentrums und einer Peripherie oder in Form von globalen Investitionen und
+
+210
+00:21:16,240 --> 00:21:19,560
+ Entwicklungszusammenarbeit, die bestimmen, welche Projekte finanziert werden und welche
+
+211
+00:21:19,560 --> 00:21:25,520
+ nicht. Oder hier vor unserer Haustür in Form von Straßennamen und Denkmälern, die gewalttätigen
+
+212
+00:21:25,520 --> 00:21:31,200
+ Kolonialherrn gedenken, in Form von strukturellem Rassismus wie racial profiling der Polizei
+
+213
+00:21:31,200 --> 00:21:39,120
+ oder den vielen Privilegien, die weiße Menschen auf der ganzen Welt noch immer besitzen. Vielen
+
+214
+00:21:39,120 --> 00:21:48,520
+ Dank für eure Aufmerksamkeit.
+
+215
+00:21:48,520 --> 00:21:53,520
+ [Musik]
+

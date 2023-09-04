@@ -1,0 +1,1652 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:32.520
+ Hello everybody.
+
+00:00:32.520 --> 00:00:36.400
+ At the Chaos Computer Club,
+
+00:00:36.400 --> 00:00:39.640
+ we have the tradition to include the option to
+
+00:00:39.640 --> 00:00:43.320
+ buy a badge at every single big event that we have.
+
+00:00:43.320 --> 00:00:46.080
+ So these technical gizmos got
+
+00:00:46.080 --> 00:00:49.600
+ way more complex during the past years.
+
+00:00:49.600 --> 00:00:53.580
+ Part of the team that created the badges for you,
+
+00:00:53.580 --> 00:00:58.040
+ is going to present how to get the most of it today.
+
+00:00:58.040 --> 00:01:04.200
+ Welcome with me to the talk of how to grow a flower,
+
+00:01:04.200 --> 00:01:09.360
+ Schneider, T-Mansku, and Q3K.
+
+00:01:09.360 --> 00:01:17.560
+ [APPLAUSE]
+
+00:01:17.560 --> 00:01:19.720
+ Hello. Thanks everyone for coming.
+
+00:01:19.720 --> 00:01:24.240
+ Next to me is Q3K and T-Mansku. I'm Schneider.
+
+00:01:24.240 --> 00:01:28.680
+ We're part of the team who developed the flower badge.
+
+00:01:28.680 --> 00:01:33.120
+ Some of you already have it around their necks and that's great.
+
+00:01:33.120 --> 00:01:35.360
+ I just want to make very clear,
+
+00:01:35.360 --> 00:01:37.540
+ we're just a part of the team.
+
+00:01:37.540 --> 00:01:40.120
+ There's so many people behind this project and
+
+00:01:40.120 --> 00:01:42.480
+ not everyone wants to stand in the limelight.
+
+00:01:42.480 --> 00:01:45.320
+ So big thanks to everyone who made this possible.
+
+00:01:45.320 --> 00:01:54.120
+ [APPLAUSE]
+
+00:01:54.120 --> 00:01:56.560
+ When we came up with the idea of the flower badge,
+
+00:01:56.560 --> 00:01:58.360
+ over one and a half years ago,
+
+00:01:58.360 --> 00:01:59.680
+ it was mainly about the idea,
+
+00:01:59.680 --> 00:02:03.160
+ hey, music is something which connects people and it's
+
+00:02:03.160 --> 00:02:06.240
+ something where you can start interacting without having
+
+00:02:06.240 --> 00:02:10.760
+ any other common ground and it's very easy to get in touch.
+
+00:02:10.760 --> 00:02:12.440
+ That's why we made it.
+
+00:02:12.440 --> 00:02:15.480
+ That's why we have it here at camp and I hope that's what you
+
+00:02:15.480 --> 00:02:17.800
+ will do and learn something,
+
+00:02:17.800 --> 00:02:20.680
+ make some music, play together.
+
+00:02:20.680 --> 00:02:23.720
+ That's the important thing. That's what I want to see.
+
+00:02:23.720 --> 00:02:30.040
+ Now to the most important part of this talk.
+
+00:02:30.040 --> 00:02:33.160
+ Please pick up your badge.
+
+00:02:33.440 --> 00:02:36.000
+ So this is the map of the camp.
+
+00:02:36.000 --> 00:02:38.520
+ The red arrow says where you can pick it up.
+
+00:02:38.520 --> 00:02:41.240
+ Why am I mentioning this?
+
+00:02:41.240 --> 00:02:42.960
+ This is how it looks like.
+
+00:02:42.960 --> 00:02:45.500
+ There's super happy angels
+
+00:02:45.500 --> 00:02:48.360
+ which will gladly hand you out your badge.
+
+00:02:48.360 --> 00:02:51.000
+ The thing is that we have a lot of them.
+
+00:02:51.000 --> 00:02:54.560
+ We need to get rid of them because we want to convert
+
+00:02:54.560 --> 00:02:57.200
+ our tent into a hack center where everyone can
+
+00:02:57.200 --> 00:02:59.640
+ sit and hack on their badges,
+
+00:02:59.640 --> 00:03:02.000
+ hack on software, hardware, whatever.
+
+00:03:02.000 --> 00:03:04.520
+ We're cleaning out this stuff a little bit at the moment,
+
+00:03:04.520 --> 00:03:09.600
+ but please, earlier we have all of this stuff gone.
+
+00:03:09.600 --> 00:03:12.800
+ The more space there is for you to hack on it
+
+00:03:12.800 --> 00:03:17.480
+ and us having time and energy for workshops and stuff like that.
+
+00:03:17.480 --> 00:03:19.640
+ Next most important thing,
+
+00:03:19.640 --> 00:03:23.160
+ there's a flyer inside your bag.
+
+00:03:23.160 --> 00:03:24.960
+ There's a small typo, flower.
+
+00:03:24.960 --> 00:03:26.400
+ You spell it with a three.
+
+00:03:26.400 --> 00:03:29.600
+ If you ever see a domain with an E inside,
+
+00:03:29.600 --> 00:03:31.280
+ replace the E with a three,
+
+00:03:31.280 --> 00:03:34.200
+ and then you actually get to the flower webpage and not
+
+00:03:34.200 --> 00:03:39.680
+ some $10,000 CIDO domain park thing.
+
+00:03:39.680 --> 00:03:44.320
+ We tried to get the domain and it's not that easy, the wrong one.
+
+00:03:44.320 --> 00:03:47.480
+ Next, this badge,
+
+00:03:47.480 --> 00:03:49.400
+ you paid a little bit of money for it,
+
+00:03:49.400 --> 00:03:55.960
+ but the components inside are mainly sponsored by generous donors.
+
+00:03:55.960 --> 00:04:00.400
+ So far, never at the camp we accepted cash donations.
+
+00:04:00.400 --> 00:04:03.680
+ We only accept material and labor.
+
+00:04:03.680 --> 00:04:07.000
+ This time, for the first time, actually labor.
+
+00:04:07.000 --> 00:04:14.120
+ Analog devices, Bosch, Espressif, Infineon, JLC, 3D printing,
+
+00:04:14.120 --> 00:04:17.840
+ and MakerFab gladly sponsored lots of parts of this badge.
+
+00:04:17.840 --> 00:04:19.800
+ Without them, this would not be possible.
+
+00:04:19.800 --> 00:04:25.280
+ So, from my side, big thanks to the sponsors.
+
+00:04:25.280 --> 00:04:32.360
+ [APPLAUSE]
+
+00:04:32.360 --> 00:04:35.040
+ And I hope that we chose a selection of chips,
+
+00:04:35.040 --> 00:04:42.280
+ which makes it easy for you to develop lots of apps for the flower.
+
+00:04:42.280 --> 00:04:47.560
+ Next, there are some difficult things about putting this thing together,
+
+00:04:47.560 --> 00:04:49.760
+ and we're just listing the most important parts.
+
+00:04:49.760 --> 00:04:52.280
+ So, you get a working badge,
+
+00:04:52.280 --> 00:04:55.240
+ which is not damaged and sounds nice and looks nice.
+
+00:04:55.240 --> 00:04:58.320
+ And number one is the little switch there.
+
+00:04:58.320 --> 00:05:00.080
+ Be gentle with it.
+
+00:05:00.080 --> 00:05:05.040
+ It's the number one failure case at the moment when you slide it that it breaks off.
+
+00:05:05.040 --> 00:05:08.200
+ Just be gentle and also make sure that it's in the off position
+
+00:05:08.200 --> 00:05:10.600
+ when you put together your flower,
+
+00:05:10.600 --> 00:05:15.800
+ so you don't put something together which is turned on and suddenly does stuff.
+
+00:05:15.800 --> 00:05:18.240
+ Off position is inside, right?
+
+00:05:18.240 --> 00:05:22.080
+ The idea of the switch is that if you move it in across the PCB,
+
+00:05:22.080 --> 00:05:27.040
+ it's protected and you can store your flower and it doesn't break off anymore.
+
+00:05:27.040 --> 00:05:31.680
+ Next most critical thing is the alignment of the two PCBs.
+
+00:05:31.680 --> 00:05:34.280
+ If you look straight down on your two PCBs,
+
+00:05:34.280 --> 00:05:36.840
+ make sure that the holes are perfectly aligned.
+
+00:05:36.840 --> 00:05:39.640
+ This is an example of a not aligned hole.
+
+00:05:39.640 --> 00:05:43.440
+ Don't try to put a screw inside that thing and turn it on.
+
+00:05:43.440 --> 00:05:46.640
+ Your badge might get hot or turn on some LEDs,
+
+00:05:46.640 --> 00:05:48.640
+ which it shouldn't and stuff like that.
+
+00:05:48.640 --> 00:05:50.320
+ It should look like this.
+
+00:05:50.320 --> 00:05:55.280
+ This is how exactly it should look like perfectly aligned when you look straight down.
+
+00:05:55.280 --> 00:05:58.040
+ Just put the badge in front of you, look straight at it.
+
+00:05:58.040 --> 00:06:02.800
+ If everything is aligned, not offset at all, then you can turn it on.
+
+00:06:02.800 --> 00:06:05.600
+ If you have a red microphone LED which turns on,
+
+00:06:05.600 --> 00:06:09.400
+ or if your top board gets hot,
+
+00:06:09.400 --> 00:06:14.280
+ turn off your badge, take the PCBs apart again and align them properly.
+
+00:06:14.280 --> 00:06:16.360
+ That's how you can see that it's not working.
+
+00:06:16.360 --> 00:06:21.320
+ Next thing is we have this 3D printed spacer thanks to JLCPCB,
+
+00:06:21.320 --> 00:06:26.560
+ and it sorts it flush with your PCBs.
+
+00:06:26.560 --> 00:06:29.240
+ Otherwise, you might not get a working display.
+
+00:06:29.240 --> 00:06:35.800
+ And most likely you have some cable between your spacer and your PCB.
+
+00:06:35.800 --> 00:06:40.040
+ Cable management is the most difficult part of putting this thing together.
+
+00:06:40.040 --> 00:06:44.640
+ And if you have everything put together nice and well,
+
+00:06:44.640 --> 00:06:51.560
+ you'll have perfectly flush and parallel PCBs with no air gap or anything like that inside.
+
+00:06:51.560 --> 00:06:53.440
+ [INAUDIBLE]
+
+00:06:53.440 --> 00:06:54.600
+ This is wrong.
+
+00:06:54.600 --> 00:06:56.720
+ You have a significant air gap in there.
+
+00:06:56.720 --> 00:06:59.920
+ Yeah, so it should not look like this.
+
+00:06:59.920 --> 00:07:00.880
+ Help each other out.
+
+00:07:00.880 --> 00:07:02.880
+ There's many people who have put this thing together,
+
+00:07:02.880 --> 00:07:06.320
+ many people who visited our camp already and got help.
+
+00:07:06.320 --> 00:07:11.640
+ And you can ask anyone and, you know, don't always have to come to us,
+
+00:07:11.640 --> 00:07:16.320
+ but there's a lot of people who already know how to do this.
+
+00:07:16.320 --> 00:07:19.080
+ Once more, thanks to the team.
+
+00:07:19.080 --> 00:07:20.440
+ Also, thanks to the angels.
+
+00:07:20.440 --> 00:07:26.680
+ We had around 200 hours of work from angels,
+
+00:07:26.680 --> 00:07:31.520
+ which were sent from heaven to us to flash all of these devices and put it into bags.
+
+00:07:31.520 --> 00:07:34.160
+ Otherwise, we couldn't hand them out.
+
+00:07:34.160 --> 00:07:35.640
+ Lots and lots of thanks to the angels.
+
+00:07:35.640 --> 00:07:39.200
+ They pushed through yesterday and backed everything together,
+
+00:07:39.200 --> 00:07:41.760
+ even though we thought we need two more shifts today.
+
+00:07:41.760 --> 00:07:43.440
+ And we were done yesterday evening.
+
+00:07:43.440 --> 00:07:52.520
+ [APPLAUSE]
+
+00:07:52.520 --> 00:07:57.480
+ And really, that made our evening because we knew who we don't have to figure out anymore
+
+00:07:57.480 --> 00:08:00.920
+ how we are going to organize this today.
+
+00:08:00.920 --> 00:08:05.600
+ You can see that's over, like, that's roughly a year of history now
+
+00:08:05.600 --> 00:08:10.200
+ on our Git repository of all the people who committed.
+
+00:08:10.200 --> 00:08:13.960
+ And, like, it must be a dozen or two dozen people behind the scenes
+
+00:08:13.960 --> 00:08:16.080
+ making all of this possible.
+
+00:08:16.080 --> 00:08:20.160
+ I cannot express my gratitude enough to all the hard work
+
+00:08:20.160 --> 00:08:25.280
+ and all the things which happened from mechanical design,
+
+00:08:25.280 --> 00:08:32.000
+ synthesizer design, application framework, getting stuff.
+
+00:08:32.000 --> 00:08:36.000
+ It's surprisingly hard sometimes to get something to the right place
+
+00:08:36.000 --> 00:08:39.920
+ and then ship it around the world two times, just so it ends up again here.
+
+00:08:39.920 --> 00:08:41.920
+ Not too much, but at least a little bit.
+
+00:08:41.920 --> 00:08:45.360
+ And without the expertise of a lot of people, this wouldn't have been possible.
+
+00:08:45.360 --> 00:08:50.200
+ I can't mention all of them right now.
+
+00:08:50.200 --> 00:08:51.800
+ Something about the hardware.
+
+00:08:51.800 --> 00:08:54.480
+ We are only using open source tools,
+
+00:08:54.480 --> 00:08:57.720
+ and we have a complete representation of this device
+
+00:08:57.720 --> 00:09:04.080
+ in several kinds of FreeCAD and KiCAD, and we have put all of this together.
+
+00:09:04.080 --> 00:09:07.320
+ You have a complete 3D model of everything of this batch.
+
+00:09:07.320 --> 00:09:10.800
+ So if you want to extend it or print something around it
+
+00:09:10.800 --> 00:09:15.920
+ or figure out how does it look like, even the cables are modeled inside.
+
+00:09:15.920 --> 00:09:18.120
+ It's there, it's in the repository.
+
+00:09:18.120 --> 00:09:23.120
+ And the person who made all of this possible, like the integration,
+
+00:09:23.120 --> 00:09:29.520
+ wanted me to give a shout out to the people of the assembly for workbench
+
+00:09:29.520 --> 00:09:33.120
+ and the KiCAD step-up workbench, which makes this possible.
+
+00:09:33.120 --> 00:09:38.120
+ And apparently these two plugins for the FreeCAD software
+
+00:09:38.120 --> 00:09:41.040
+ are maintained by one person each.
+
+00:09:41.040 --> 00:09:50.640
+ And sometimes open source just sits on one person, and that's not great.
+
+00:09:50.640 --> 00:09:54.760
+ We should change that, so huge thanks to these people.
+
+00:09:54.760 --> 00:09:56.760
+ They made this possible.
+
+00:09:56.760 --> 00:09:57.760
+ Thanks.
+
+00:09:57.760 --> 00:10:02.760
+ (Applause)
+
+00:10:02.760 --> 00:10:05.760
+ And thanks to these tools, you can do interesting stuff.
+
+00:10:05.760 --> 00:10:10.720
+ So for example, the shape of the flower, these are circles put together
+
+00:10:10.720 --> 00:10:15.000
+ and arranged so that it resembles this flower shape.
+
+00:10:15.000 --> 00:10:18.320
+ And how do you place LEDs exactly the right way,
+
+00:10:18.320 --> 00:10:20.720
+ at the right angle without going mad?
+
+00:10:20.720 --> 00:10:25.720
+ Well, you write Python in FreeCAD to export coordinates and angles,
+
+00:10:25.720 --> 00:10:28.720
+ and then you write Python in KiCAD to import it back in,
+
+00:10:28.720 --> 00:10:33.720
+ and automatically you get all of this stuff arranged and you don't go mad.
+
+00:10:33.720 --> 00:10:38.320
+ It's cool to work with these tools and the stuff which is possible today.
+
+00:10:38.320 --> 00:10:43.720
+ So I talked a lot about hardware and how to not break your batch.
+
+00:10:43.720 --> 00:10:47.720
+ Q3K is going to continue and talk a little bit about what to do with your batch,
+
+00:10:47.720 --> 00:10:51.720
+ specifically from a software perspective, because there's a lot to say
+
+00:10:51.720 --> 00:10:55.120
+ and a lot of cool stuff which is possible.
+
+00:10:55.120 --> 00:10:58.120
+ And we have a few more days to get it done.
+
+00:10:58.120 --> 00:11:05.120
+ (Applause)
+
+00:11:05.120 --> 00:11:08.840
+ So first, most important thing, we have docs.
+
+00:11:08.840 --> 00:11:11.240
+ We worked quite a bit of them being usable.
+
+00:11:11.240 --> 00:11:14.040
+ Please, any time you want to know anything about the batch,
+
+00:11:14.040 --> 00:11:18.040
+ just go to docs.flower.garden, flower with a 3, not an E,
+
+00:11:18.040 --> 00:11:21.040
+ and you'll find guides about everything from assembling your batch,
+
+00:11:21.040 --> 00:11:24.040
+ how to use the built-in software, how to program your batch,
+
+00:11:24.040 --> 00:11:28.040
+ and then also how to hack on your batch at a lower film or a lever.
+
+00:11:28.040 --> 00:11:30.040
+ So any time you want to know anything, go there.
+
+00:11:30.040 --> 00:11:33.040
+ If it's not there, that's a bug and it should be there and we'll fix it.
+
+00:11:33.040 --> 00:11:36.040
+ But yeah, I want to talk a bit about programming the batch,
+
+00:11:36.040 --> 00:11:41.040
+ and more importantly about programming the batch in the environment that we gave you.
+
+00:11:41.040 --> 00:11:43.840
+ The entire environment is based around MicroPython.
+
+00:11:43.840 --> 00:11:47.040
+ If you ever wrote Python, even if you dealt with MicroPython before,
+
+00:11:47.040 --> 00:11:49.040
+ you will feel more or less at home.
+
+00:11:49.040 --> 00:11:55.040
+ However, it's important to know that to get this batch to be a nice interactive toy
+
+00:11:55.040 --> 00:11:58.040
+ with audio, with graphics, with pretty LEDs,
+
+00:11:58.040 --> 00:12:00.040
+ we had to build our own framework on top of that.
+
+00:12:00.040 --> 00:12:02.040
+ So not only need to do with MicroPython,
+
+00:12:02.040 --> 00:12:07.040
+ but also we have to learn our tiny little app framework/ecosystem called STEM,
+
+00:12:07.040 --> 00:12:10.040
+ spelled with a 3, not an E.
+
+00:12:10.040 --> 00:12:12.040
+ And yeah, as I said before, it's all on docs.
+
+00:12:12.040 --> 00:12:17.040
+ In this case, the first thing you want to read when trying to program the batch
+
+00:12:17.040 --> 00:12:21.040
+ is to go to the programming section and then you'll learn how to connect to your batch
+
+00:12:21.040 --> 00:12:24.040
+ from a PC or from an Android phone, how to access the MicroPython REPL,
+
+00:12:24.040 --> 00:12:28.040
+ which is the Read/Evaluate print loop, which is the main console you interact with,
+
+00:12:28.040 --> 00:12:31.040
+ how to transfer files back and forth from the batch in different modes,
+
+00:12:31.040 --> 00:12:35.040
+ how to run your own code on the batch, and then finally how to get started
+
+00:12:35.040 --> 00:12:38.040
+ with writing applications against our app framework.
+
+00:12:38.040 --> 00:12:40.040
+ Just a few pointers, since I'm already here.
+
+00:12:40.040 --> 00:12:44.040
+ You want to look at three basic classes, Responder, View, Application,
+
+00:12:44.040 --> 00:12:47.040
+ and that goes you from drawing something on screen
+
+00:12:47.040 --> 00:12:51.040
+ to having an application that appears to your menu.
+
+00:12:51.040 --> 00:12:55.040
+ Inside the framework itself, other than just the stuff to get apps working,
+
+00:12:55.040 --> 00:12:57.040
+ there's also a sub-library called Bloombox,
+
+00:12:57.040 --> 00:13:01.040
+ and Bloombox is what makes your batch make music and/or sounds.
+
+00:13:01.040 --> 00:13:08.040
+ Bloombox is really cool, and here's a snippet on how you can get a simple synthesizer
+
+00:13:08.040 --> 00:13:10.040
+ playing a sound on your speakers.
+
+00:13:10.040 --> 00:13:14.040
+ You can press Ctrl+C in the REPL, paste this after importing Bloombox,
+
+00:13:14.040 --> 00:13:16.040
+ and you'll hear a sound.
+
+00:13:16.040 --> 00:13:20.040
+ And then you can take the third line from the bottom, which is the tone,
+
+00:13:20.040 --> 00:13:23.040
+ put it in a loop, and iterate over values 0, 4, and 7,
+
+00:13:23.040 --> 00:13:28.040
+ and your batch will place a nice arpeggio in a major as well.
+
+00:13:28.040 --> 00:13:31.040
+ Yeah, the docs are there. Read the docs.
+
+00:13:31.040 --> 00:13:34.040
+ If the docs are not understandable, please let us know.
+
+00:13:34.040 --> 00:13:36.040
+ We'll do our best to fix them.
+
+00:13:36.040 --> 00:13:39.040
+ The big component of the programming environment is CTX.
+
+00:13:39.040 --> 00:13:42.040
+ CTX is an amazing little library for drawing vector graphics.
+
+00:13:42.040 --> 00:13:45.040
+ All of the menu you will see, all of the graphics you see,
+
+00:13:45.040 --> 00:13:50.040
+ apart from one example, are all built real-time from vector graphics on the batch itself.
+
+00:13:50.040 --> 00:13:55.040
+ So you do not need to prerender fonts or upload image files.
+
+00:13:55.040 --> 00:13:59.040
+ You just write these little lines that let you create a rectangle in this case.
+
+00:13:59.040 --> 00:14:02.040
+ And in the case of the STEM environment,
+
+00:14:02.040 --> 00:14:06.040
+ you put that in the draw method of your responder class,
+
+00:14:06.040 --> 00:14:08.040
+ and every so often the batch will say,
+
+00:14:08.040 --> 00:14:10.040
+ "Hey, app, what can I render?"
+
+00:14:10.040 --> 00:14:14.040
+ You respond with this, and then you see a nice rectangle.
+
+00:14:14.040 --> 00:14:19.040
+ That was all about the kind of built-in ecosystem we have, built around STEM.
+
+00:14:19.040 --> 00:14:24.040
+ There's also this whole entire different world of if you want to work on the firmware itself.
+
+00:14:24.040 --> 00:14:27.040
+ It is unfortunately not fully in MicroPython.
+
+00:14:27.040 --> 00:14:30.040
+ It is C, and it is based around the ESP-IDF.
+
+00:14:30.040 --> 00:14:34.040
+ If you've ever worked with ESP32 chips before, you'll be familiar with ESP-IDF.
+
+00:14:34.040 --> 00:14:37.040
+ Same as with our MicroPython code, we had to take it,
+
+00:14:37.040 --> 00:14:40.040
+ and we had to sprinkle in some of our own code to make it work.
+
+00:14:40.040 --> 00:14:47.040
+ For example, all of the graphics stack interactions, all of the Bloombox interactions,
+
+00:14:47.040 --> 00:14:51.040
+ things like reading sensors that's all implanted in C.
+
+00:14:51.040 --> 00:14:56.040
+ And so it's managing the lifecycle of the application via MicroPython.
+
+00:14:56.040 --> 00:14:58.040
+ The docs are all there.
+
+00:14:58.040 --> 00:15:00.040
+ It will take you from installing all the dependencies.
+
+00:15:00.040 --> 00:15:02.040
+ If you're running NixOS, it's very easy.
+
+00:15:02.040 --> 00:15:06.040
+ If you're not, I'm sorry, but we did our best to document this.
+
+00:15:06.040 --> 00:15:09.040
+ It will tell you how to build the C firmware, how to flash and test it.
+
+00:15:09.040 --> 00:15:11.040
+ It will tell you how to debug it.
+
+00:15:11.040 --> 00:15:17.040
+ And here's a little mention that we have a little development board for the badge called the Flowerpot,
+
+00:15:17.040 --> 00:15:19.040
+ which Timon is going to talk about in a second.
+
+00:15:19.040 --> 00:15:22.040
+ It is not strictly necessary for day-to-day development,
+
+00:15:22.040 --> 00:15:24.040
+ but if you want to hack on the firmware, it's very useful,
+
+00:15:24.040 --> 00:15:30.040
+ especially if you want to, for example, maybe fix some of our USB issues because the USB stack is...
+
+00:15:30.040 --> 00:15:33.040
+ So yeah, please take a look.
+
+00:15:33.040 --> 00:15:39.040
+ Please send us your merge requests and file more issues or just come chat with us.
+
+00:15:39.040 --> 00:15:43.040
+ We will be implementing a lot of features over the next couple of days,
+
+00:15:43.040 --> 00:15:48.040
+ both in the stem-land in MicroPython as well as on the low-level firmware.
+
+00:15:48.040 --> 00:15:52.040
+ And I'll now let Timon talk a bit more about the Flowerpot.
+
+00:15:52.040 --> 00:15:54.040
+ Yeah.
+
+00:15:54.040 --> 00:16:03.040
+ So just quickly on what is that thing, who is it useful for.
+
+00:16:03.040 --> 00:16:05.040
+ I made the thing like two weeks ago.
+
+00:16:05.040 --> 00:16:08.040
+ It was like we need some way to access both like the U...
+
+00:16:08.040 --> 00:16:13.040
+ Like there's a JTAG UART thing with ESP bar chips,
+
+00:16:13.040 --> 00:16:19.040
+ and you need that if you need like early boot traces or if you need to work on USB
+
+00:16:19.040 --> 00:16:24.040
+ and need to debug at the same time because if you work on USB, you can't use it for debugging anymore.
+
+00:16:24.040 --> 00:16:26.040
+ So that is a bit of a difficult thing.
+
+00:16:26.040 --> 00:16:29.040
+ That's what this guy is for.
+
+00:16:29.040 --> 00:16:33.040
+ I designed it a little bit so it's useful for other stuff in the future.
+
+00:16:33.040 --> 00:16:40.040
+ How this works on USB-C, you get these extra pins called SBU, sideband pins,
+
+00:16:40.040 --> 00:16:43.040
+ and we place the TX and RX on those pins.
+
+00:16:43.040 --> 00:16:48.040
+ It's a little bit illegal, but it works and it doesn't damage any devices,
+
+00:16:48.040 --> 00:16:55.040
+ but just to be clear, it's not fully proper, but it's really cool for like just cheap way to get UART out of your devices.
+
+00:16:55.040 --> 00:16:59.040
+ And you can use this in the future as well for like other boards.
+
+00:16:59.040 --> 00:17:02.040
+ You can change the IO voltage and stuff like that.
+
+00:17:02.040 --> 00:17:08.040
+ So hopefully it has a use past the Flower if you do embedded stuff.
+
+00:17:08.040 --> 00:17:12.040
+ Right, what it is, USB hub and the USB to UART converter.
+
+00:17:12.040 --> 00:17:16.040
+ So you get serial and a USB hub in one.
+
+00:17:16.040 --> 00:17:20.040
+ So both devices connect to your computer. That is very important to do that kind of development.
+
+00:17:20.040 --> 00:17:23.040
+ You can buy one at the batch village right now.
+
+00:17:23.040 --> 00:17:27.040
+ There's not many of them, so like if you do plan on making really cool stuff,
+
+00:17:27.040 --> 00:17:31.040
+ more on the low level, you can get one.
+
+00:17:31.040 --> 00:17:34.040
+ But yeah, there's not like that many.
+
+00:17:42.040 --> 00:17:48.040
+ As the slide says, and as you might have noticed, the firmware is a bit buggy.
+
+00:17:48.040 --> 00:17:55.040
+ So we do encourage you to learn how to upgrade the batch firmware and upgrade it early, upgrade it often.
+
+00:17:55.040 --> 00:17:59.040
+ We will do our best to fix those bugs, but you know, you still have to upgrade your batch.
+
+00:17:59.040 --> 00:18:02.040
+ We don't have magical over the air upgrades yet.
+
+00:18:02.040 --> 00:18:09.040
+ If you have a browser which supports web serial, for example, Chromium or Chrome or Derivatives,
+
+00:18:09.040 --> 00:18:12.040
+ you should be able to just plug in your batch and go to this website,
+
+00:18:12.040 --> 00:18:17.040
+ and it's going to tell you what to do with the batch and then update it for you.
+
+00:18:17.040 --> 00:18:23.040
+ That is a full update. It is going to come out in the same way as we gave it to you just with a newer version of software.
+
+00:18:23.040 --> 00:18:31.040
+ There's also a special flow for upgrading where you can copy the file, part of the upgrade file, a bin file,
+
+00:18:31.040 --> 00:18:38.040
+ onto your batch, reboot into recovery mode by holding down the right trigger, like so, and select that file to flash.
+
+00:18:38.040 --> 00:18:46.040
+ This is not a full update, but if you don't happen to have Chromium on you or don't have a PC on you even, it's good enough.
+
+00:18:46.040 --> 00:18:53.040
+ Speaking of firmware, we have this entire stack we wrote, but we encourage you to not only extend that stack,
+
+00:18:53.040 --> 00:19:01.040
+ but if you want to make something new, make something crazy, port Doom, port Quake, rewrite it in Rust, I don't know, do something fun.
+
+00:19:01.040 --> 00:19:06.040
+ And the cool part is that as long as you conform to our existing partition layout,
+
+00:19:06.040 --> 00:19:11.040
+ which you can find in our main repository or in our example repository for an external application,
+
+00:19:11.040 --> 00:19:14.040
+ you will be able to coexist with the main firmware.
+
+00:19:14.040 --> 00:19:17.040
+ And you can distribute your little alternative firmware as a bin file,
+
+00:19:17.040 --> 00:19:23.040
+ which same as the main firmware can be uploaded by the user to the SD card and then flashed from recovery mode.
+
+00:19:23.040 --> 00:19:31.040
+ So we hope that within a couple of days we'll see some absolutely amazing stuff that you couldn't even envision to have in the main firmware,
+
+00:19:31.040 --> 00:19:34.040
+ but someone will implement them as a thing from scratch.
+
+00:19:34.040 --> 00:19:42.040
+ And yeah, I have an old Doom proof of concept work, if someone wants to move it forward to the new framework, hit me up.
+
+00:19:42.040 --> 00:19:52.040
+ And one last thing, two days before we arrived here I had this moment that made me realize I should run Ethernet on the badges.
+
+00:19:52.040 --> 00:19:55.040
+ You might notice they do not have an Ethernet port, but they did not stop me.
+
+00:19:55.040 --> 00:19:58.040
+ What they do have are 3.5 millimeter ports.
+
+00:19:58.040 --> 00:20:07.040
+ Turns out you can switch them to UART, connect these badges together and write a few hundred lines of C to turn every badge into a virtual switch.
+
+00:20:07.040 --> 00:20:13.040
+ And you can now chain your badges together and they will all bring up their own little Ethernet domain.
+
+00:20:13.040 --> 00:20:20.040
+ And with that you can use a protocol like IPv6 and UDP to just like blast packets between badges.
+
+00:20:20.040 --> 00:20:24.040
+ I'm waiting for someone to write an IRC client for this.
+
+00:20:24.040 --> 00:20:32.040
+ I'm waiting for someone else or maybe the same person to make a 3.5 millimeter adapter to Ethernet.
+
+00:20:32.040 --> 00:20:35.040
+ And then I'm waiting for C3NOG to get really angry at me.
+
+00:20:35.040 --> 00:20:46.040
+ That being said, this is it for the software pack.
+
+00:20:46.040 --> 00:20:52.040
+ Now I'm giving you back to Timon who will talk a lot about the production aspects of this badge.
+
+00:20:52.040 --> 00:21:04.040
+ Right, so that section could probably be a talk in itself, but we thought we'd just give you a little bit of impressions of what goes into producing thousands of these things for an event like this.
+
+00:21:04.040 --> 00:21:10.040
+ Yeah, what you see there is like intermediary steps of the PCBA aspects.
+
+00:21:10.040 --> 00:21:15.040
+ Let's see if those videos load.
+
+00:21:15.040 --> 00:21:16.040
+ Yeah.
+
+00:21:16.040 --> 00:21:21.040
+ So top left, that's the pick and place machine currently building some top boards.
+
+00:21:21.040 --> 00:21:23.040
+ Then there are testing.
+
+00:21:23.040 --> 00:21:34.040
+ So actually important aspect is like checking that all the PCBs work on a basic level so that when we hand them out to you and you have an issue that we can at least rule out there's no manufacturing fault there.
+
+00:21:34.040 --> 00:21:44.040
+ And the bottom video is automatic optical inspection with some very useful technology that just checks every solar joint automatically for you.
+
+00:21:50.040 --> 00:21:55.040
+ And yeah, one actually big aspect of this badge was making custom colors.
+
+00:21:55.040 --> 00:22:02.040
+ Usually for PCBs you get a very strict set of like colors that are just being made for PCBs.
+
+00:22:02.040 --> 00:22:03.040
+ You know, they are very technical colors.
+
+00:22:03.040 --> 00:22:09.040
+ They need to withstand a lot of heat and they're engineering colors, so to speak.
+
+00:22:09.040 --> 00:22:11.040
+ And that makes it kind of limited of what you can get.
+
+00:22:11.040 --> 00:22:25.040
+ So our manufacturing partner, Make-A-Fabs, helped us make custom colors, which is actually really hard to do because the badge colors, the event colors are very special Pantone colors that are neon.
+
+00:22:25.040 --> 00:22:28.040
+ You cannot do that in anything but that's both special colors.
+
+00:22:28.040 --> 00:22:30.040
+ They need additives and stuff like that.
+
+00:22:30.040 --> 00:22:37.040
+ But we tried our best to get as close to that pink and that green as possible.
+
+00:22:37.040 --> 00:22:47.040
+ But because the basic colors that are available are only RGB essentially, as soon as you mix them, the resulting color becomes darker than the original colors.
+
+00:22:47.040 --> 00:22:52.040
+ And then you need to add a little bit of white, which makes it lighter again, but it also reduces saturation.
+
+00:22:52.040 --> 00:22:58.040
+ So we had like more than a month of back and forth and different color variations and tests.
+
+00:22:58.040 --> 00:23:04.040
+ Like you see some of the pinks that came out of this at the top right, which not all of them looked like pink.
+
+00:23:04.040 --> 00:23:21.040
+ So this was a bit of a process, but yeah, that gave us custom silk screen and a nice pink top PCB.
+
+00:23:21.040 --> 00:23:28.040
+ And then there was a lot of accessories, which was almost more work than the PCBs, to be honest.
+
+00:23:28.040 --> 00:23:34.040
+ At least in hours, I would say, so a lot of little things go into things like this.
+
+00:23:34.040 --> 00:23:37.040
+ We have actually custom printed SD cards.
+
+00:23:37.040 --> 00:23:42.040
+ There was no need to custom print them, but turns out if you buy 4,000 of those, the printing comes for free.
+
+00:23:42.040 --> 00:23:46.040
+ So why not add it, you know?
+
+00:23:46.040 --> 00:23:53.040
+ Then top right, bottom right, sorry, that's the molding tool for the battery cover on the back.
+
+00:23:53.040 --> 00:23:56.040
+ So that was stamped steel.
+
+00:23:56.040 --> 00:23:59.040
+ Then yeah, the Oli cables, the only not custom part here.
+
+00:23:59.040 --> 00:24:06.040
+ Then the battery in the middle, that blue big thing, at least custom cabling there.
+
+00:24:06.040 --> 00:24:08.040
+ They made it a little thicker than we wanted it to be.
+
+00:24:08.040 --> 00:24:11.040
+ That's why, sorry, it's a bit hard to insert.
+
+00:24:11.040 --> 00:24:21.040
+ In the middle, a printed piece of, yeah, SLI printed piece of the spacer, we call it, that keeps your batch as a secure sandwich.
+
+00:24:21.040 --> 00:24:25.040
+ And then covered up by that, the lanyards, also custom colors,
+
+00:24:25.040 --> 00:24:28.040
+ trying to match the camp.
+
+00:24:28.040 --> 00:24:34.040
+ In most of these cases, if you order a lot of stuff, making it custom is essentially for free,
+
+00:24:34.040 --> 00:24:38.040
+ unless there's a high engineering fee to make the tooling for it.
+
+00:24:38.040 --> 00:24:43.040
+ So with the battery cover, for example, we mostly paid for the tool.
+
+00:24:43.040 --> 00:24:48.040
+ The resulting products become very cheap because most of that comes from the tooling.
+
+00:24:48.040 --> 00:24:50.040
+ Most of the costs come from the tooling.
+
+00:24:50.040 --> 00:24:57.040
+ The display is also a custom thing, at least the top glass, so that is a stepped glass display.
+
+00:24:57.040 --> 00:25:01.040
+ You don't really get to buy that usually.
+
+00:25:01.040 --> 00:25:08.040
+ And yeah, we had that custom made so that we can have a flush finish on the PCB
+
+00:25:08.040 --> 00:25:12.040
+ and it's not like a display sitting on top of it, which is very prone to breaking.
+
+00:25:12.040 --> 00:25:16.040
+ It's very robust, so at least the glass is thick.
+
+00:25:16.040 --> 00:25:20.040
+ It's like, you know, if you accidentally smash a bottle on it, please don't do that,
+
+00:25:20.040 --> 00:25:24.040
+ but it should hopefully survive.
+
+00:25:24.040 --> 00:25:29.040
+ The custom glue sheet, also something that didn't work out as well as intended.
+
+00:25:29.040 --> 00:25:39.040
+ It's a bit hard to separate, but yeah, that is used to insert the display onto the top PCB.
+
+00:25:39.040 --> 00:25:42.040
+ And there's a couple spare pieces to fix the wiring,
+
+00:25:42.040 --> 00:25:48.040
+ so I had to ask some questions about what the glue is for or the other pieces you're not using.
+
+00:25:48.040 --> 00:25:53.040
+ You can use those either to add little hardware yourself, like it's very strong glue actually.
+
+00:25:53.040 --> 00:25:58.040
+ You can just stick some stuff inside to it or the cabling is a bit weird,
+
+00:25:58.040 --> 00:26:06.040
+ so if your cable always goes under some weird spot, use the glue to just fix it in place.
+
+00:26:06.040 --> 00:26:10.040
+ Custom printed bags, actually food safe coloring, fully recyclable.
+
+00:26:10.040 --> 00:26:14.040
+ You can put that in the compost.
+
+00:26:14.040 --> 00:26:17.040
+ Speakers, also custom cables, and then little rubber feeds.
+
+00:26:17.040 --> 00:26:19.040
+ Some people are also confused about those.
+
+00:26:19.040 --> 00:26:30.040
+ You can add those to the bottom, and then it stands safely on the table, doesn't flick around.
+
+00:26:30.040 --> 00:26:34.040
+ Screws, little Allen key, and the sandpaper, also some questions there.
+
+00:26:34.040 --> 00:26:36.040
+ You can use that to hack your batch.
+
+00:26:36.040 --> 00:26:39.040
+ So inside there's what's called a quick connector.
+
+00:26:39.040 --> 00:26:41.040
+ It's basically I2C.
+
+00:26:41.040 --> 00:26:44.040
+ If you want to add a space where you can route a cable to the outside,
+
+00:26:44.040 --> 00:26:47.040
+ you can use the sandpaper to modify the spacer.
+
+00:26:47.040 --> 00:26:50.040
+ Or if you have issues with the battery cable slot, you can extend it a bit.
+
+00:26:50.040 --> 00:26:55.040
+ It's a little hacking tool. That's it.
+
+00:26:55.040 --> 00:27:01.040
+ And one thing that didn't make the cut in the production, not because it wasn't useful,
+
+00:27:01.040 --> 00:27:03.040
+ it was a really cool machine.
+
+00:27:03.040 --> 00:27:07.040
+ I'm sad we didn't get to use it, but for very many reasons, one of them being logistics,
+
+00:27:07.040 --> 00:27:10.040
+ we couldn't use that.
+
+00:27:29.040 --> 00:27:38.040
+ So mounting the display was a long process to figure out how we actually fixed the display in this thing.
+
+00:27:38.040 --> 00:27:49.040
+ Before we arrived at the actual solution, we considered building a machine which dispenses glue,
+
+00:27:49.040 --> 00:27:57.040
+ picks a display and puts it there perfectly, and does it for us.
+
+00:27:57.040 --> 00:28:00.040
+ A team member actually did build it.
+
+00:28:00.040 --> 00:28:02.040
+ Oh, come on.
+
+00:28:02.040 --> 00:28:08.040
+ So it's the most professional thing I've ever seen.
+
+00:28:08.040 --> 00:28:19.040
+ [Applause]
+
+00:28:19.040 --> 00:28:22.040
+ Yeah, shout out to Alex.
+
+00:28:22.040 --> 00:28:25.040
+ And...
+
+00:28:25.040 --> 00:28:41.040
+ [Applause]
+
+00:28:41.040 --> 00:28:44.040
+ If you're interested in this, hit up Rahix.
+
+00:28:44.040 --> 00:28:47.040
+ Yeah, exactly. He's on the metrics.
+
+00:28:47.040 --> 00:28:52.040
+ Yeah, and last thing, make apps. Please get started.
+
+00:28:52.040 --> 00:28:57.040
+ Write MicroPython stuff. No matter what your experience level is, I'm sure you can make something fun.
+
+00:28:57.040 --> 00:29:02.040
+ Especially instruments would be cool to just see more stuff out there.
+
+00:29:02.040 --> 00:29:07.040
+ We made the platform and we're hoping community will make really cool stuff in here.
+
+00:29:07.040 --> 00:29:12.040
+ One mentioned this thing has BLE. We haven't used anything yet, but that could be a cool thing to use.
+
+00:29:12.040 --> 00:29:16.040
+ And Wi-Fi, but that probably makes the NOC sad if we do something with that.
+
+00:29:16.040 --> 00:29:19.040
+ But it has Wi-Fi.
+
+00:29:19.040 --> 00:29:23.040
+ Yeah, if you are an embedded person, we need help with the main firmware.
+
+00:29:23.040 --> 00:29:27.040
+ And also if you're interested in writing docs, it would be really helpful.
+
+00:29:27.040 --> 00:29:30.040
+ There's so much stuff to document still.
+
+00:29:30.040 --> 00:29:33.040
+ Yeah, write native apps, write something cool that's completely different.
+
+00:29:33.040 --> 00:29:35.040
+ You don't have to use our firmware.
+
+00:29:35.040 --> 00:29:39.040
+ Come up with your own things, like Doom, for example.
+
+00:29:39.040 --> 00:29:43.040
+ Help each other out. Hack together on it, do something together.
+
+00:29:43.040 --> 00:29:48.040
+ It's fun to just do something together with that thing.
+
+00:29:48.040 --> 00:29:54.040
+ And one cool thing, on day four there will be a demo party that has a batch section.
+
+00:29:54.040 --> 00:30:01.040
+ So if you have something really cool to show off with your batch, you can enter that and show your batch demo.
+
+00:30:01.040 --> 00:30:07.040
+ Yeah, check out ontrack.camp. It's at NordX.
+
+00:30:07.040 --> 00:30:14.040
+ And also check out KSOcial Flower Batch on a Mastodon for any workshop announcements.
+
+00:30:14.040 --> 00:30:16.040
+ Thank you.
+
+00:30:16.040 --> 00:30:30.040
+ Thank you very much, guys. This was a really informative talk.
+
+00:30:30.040 --> 00:30:34.040
+ We have some time for questions. Are there any questions from the people here?
+
+00:30:34.040 --> 00:30:36.040
+ Yes, please.
+
+00:30:36.040 --> 00:30:40.040
+ I haven't had time to look at the schematics or anything yet, but how are you generating the sound?
+
+00:30:40.040 --> 00:30:46.040
+ Is it with PWM or UFD8 converters? What's the basic hardware?
+
+00:30:46.040 --> 00:30:51.040
+ So the question was how are you generating the sound, guys? Can you please answer that now?
+
+00:30:51.040 --> 00:30:56.040
+ There's a dedicated audio codec from Analog Devices.
+
+00:30:56.040 --> 00:31:08.040
+ It's connected via I2S to the ESP32S3 and it has a 48 kHz ADC/DAC combination in there.
+
+00:31:08.040 --> 00:31:12.040
+ It has multiple input and output channels.
+
+00:31:12.040 --> 00:31:18.040
+ So you can output something on the speakers or you can route it to the headphone jack.
+
+00:31:18.040 --> 00:31:24.040
+ And we also have a line in as well as a microphone. We didn't mention that here yet.
+
+00:31:24.040 --> 00:31:33.040
+ And you can in software select where you want to get your signal from and it does the A to D, D to A conversion for you.
+
+00:31:33.040 --> 00:31:39.040
+ I think in the board support package we have the Brown software for that.
+
+00:31:39.040 --> 00:31:48.040
+ So if you want to port some other ESP audio application, you can plumb this up somehow and get it going.
+
+00:31:48.040 --> 00:31:51.040
+ Yes, please. Next question.
+
+00:31:51.040 --> 00:31:59.040
+ So is there anything in the works on how to use this as a MIDI controller?
+
+00:31:59.040 --> 00:32:03.040
+ Can you please repeat that a bit louder so I can repeat your question?
+
+00:32:03.040 --> 00:32:07.040
+ Is there anything in the works on how to use this as a MIDI controller?
+
+00:32:07.040 --> 00:32:12.040
+ So is there anything in the works on how to use it as a MIDI controller?
+
+00:32:12.040 --> 00:32:16.040
+ The software should be there. What is missing is the documentation.
+
+00:32:16.040 --> 00:32:22.040
+ If you look at the docs section for BadgLink, that is one of the expected usages of it.
+
+00:32:22.040 --> 00:32:28.040
+ It should work with your current firmware, but we need to document that better. And we will.
+
+00:32:28.040 --> 00:32:31.040
+ I have a follow-up question.
+
+00:32:31.040 --> 00:32:40.040
+ I was searching a bit and I found someone had written some way to send MIDI via the serial connection.
+
+00:32:40.040 --> 00:32:43.040
+ How can you access the serial connection?
+
+00:32:43.040 --> 00:32:47.040
+ So the question was how to access the serial connection as a follow-up question?
+
+00:32:47.040 --> 00:32:50.040
+ So that is part of the docs not being good.
+
+00:32:50.040 --> 00:32:54.040
+ MIDI is basically serial or like a variation on the serial protocol.
+
+00:32:54.040 --> 00:32:59.040
+ The docs tell you how to attach the serial to one of the 3.5mm jacks.
+
+00:32:59.040 --> 00:33:04.040
+ That is one of the modes you can switch the 3.5mm jack to, is to just blast out serial.
+
+00:33:04.040 --> 00:33:11.040
+ And then you can enable MIDI on top of that. And that makes you have MIDI through the 3.5mm jacks.
+
+00:33:11.040 --> 00:33:16.040
+ But you already have the serial connection to the Bavaria USB.
+
+00:33:16.040 --> 00:33:21.040
+ There is more than one. There are three serials in this chip.
+
+00:33:21.040 --> 00:33:27.040
+ Basically what we can promise is that I will update the docs after this to make this more clear.
+
+00:33:27.040 --> 00:33:32.040
+ How to access the USB?
+
+00:33:32.040 --> 00:33:34.040
+ How to access the USB.
+
+00:33:34.040 --> 00:33:37.040
+ The USB serial connection.
+
+00:33:37.040 --> 00:33:42.040
+ I think maybe you should talk about it after the talk. This would be great.
+
+00:33:42.040 --> 00:33:44.040
+ Then you can clarify any further questions.
+
+00:33:44.040 --> 00:33:46.040
+ Quick note on that because we forget to tell everyone.
+
+00:33:46.040 --> 00:33:49.040
+ The 3.5mm jacks, we have two of those.
+
+00:33:49.040 --> 00:33:53.040
+ You can switch those to GPIO pins. You can put any peripheral on those GPIO pins.
+
+00:33:53.040 --> 00:33:59.040
+ If you are hardware hacking, you can use those jacks for that.
+
+00:33:59.040 --> 00:34:05.040
+ Any further questions? In the back, yes? You with the flower?
+
+00:34:05.040 --> 00:34:09.040
+ What's the problem with the USB stack? What help do you need?
+
+00:34:09.040 --> 00:34:14.040
+ Can you please come a bit closer? Repeat the question. We have some background noise.
+
+00:34:14.040 --> 00:34:19.040
+ What's the problem you mentioned with the USB stack? What help do you need?
+
+00:34:19.040 --> 00:34:23.040
+ The question was what is the problem with the USB stack I mentioned?
+
+00:34:23.040 --> 00:34:28.040
+ And the answer is I wrote it and it's not very good.
+
+00:34:28.040 --> 00:34:31.040
+ Currently we have issues with the serial connection sometimes dying.
+
+00:34:31.040 --> 00:34:35.040
+ We have a comment bearing decrease buffer size by one in there.
+
+00:34:35.040 --> 00:34:39.040
+ With a comment saying I don't know why I need this.
+
+00:34:39.040 --> 00:34:43.040
+ In more practical terms, if you have any USB knowledge, come talk to me afterwards.
+
+00:34:43.040 --> 00:34:47.040
+ Because I just need to talk with someone else and air my grievances.
+
+00:34:47.040 --> 00:34:52.040
+ Hopefully we can get things to work slightly better.
+
+00:34:52.040 --> 00:34:57.040
+ Yes, next question?
+
+00:34:57.040 --> 00:35:09.040
+ If you go to flower.garden, if you go to flower.garden, there's a link to our GitLab repository.
+
+00:35:09.040 --> 00:35:15.040
+ And there's a hardware repo inside with all the hardware design files.
+
+00:35:15.040 --> 00:35:19.040
+ I think PDF exports of the schematics as well.
+
+00:35:19.040 --> 00:35:24.040
+ Nicely rendered PDF exports. In pink.
+
+00:35:24.040 --> 00:35:31.040
+ Okay, person in the red t-shirt.
+
+00:35:31.040 --> 00:35:36.040
+ How are we going to distribute the application?
+
+00:35:36.040 --> 00:35:38.040
+ That's a very good question.
+
+00:35:38.040 --> 00:35:42.040
+ The question being how are you going to distribute the applications?
+
+00:35:42.040 --> 00:35:46.040
+ The answer is if we prepare slightly better, we would have ended this talk and
+
+00:35:46.040 --> 00:35:49.040
+ hey, here's this distribution thing we just came out with.
+
+00:35:49.040 --> 00:35:54.040
+ We have to wait a few more hours and hopefully we'll have something.
+
+00:35:54.040 --> 00:35:56.040
+ And you'll post that where?
+
+00:35:56.040 --> 00:35:59.040
+ We'll post that everywhere. The question was where will we post that?
+
+00:35:59.040 --> 00:36:02.040
+ The answer is we'll post that on Mastodon, on Matrix.
+
+00:36:02.040 --> 00:36:07.040
+ I'll make a smoke signal. I don't know. We'll make sure everyone knows.
+
+00:36:07.040 --> 00:36:09.040
+ Perfect, thank you.
+
+00:36:09.040 --> 00:36:12.040
+ Okay, we have another question in the back.
+
+00:36:12.040 --> 00:36:16.040
+ Can you come here a bit further so we can hear you?
+
+00:36:16.040 --> 00:36:20.040
+ Do you actually have a documentation of the machine that made the flower?
+
+00:36:20.040 --> 00:36:24.040
+ The machine that made the flower.
+
+00:36:24.040 --> 00:36:29.040
+ The question was do you have documentation for the machine that made the flower?
+
+00:36:29.040 --> 00:36:32.040
+ Which machine do you mean? Do you mean the video we showed of the...
+
+00:36:32.040 --> 00:36:35.040
+ That machine was unfortunately not used in production.
+
+00:36:35.040 --> 00:36:40.040
+ It was a proof of concept that could have been used but for many reasons we ended up not using it.
+
+00:36:40.040 --> 00:36:45.040
+ I think Rachix, who is the author, that's the person who should talk about this.
+
+00:36:45.040 --> 00:36:49.040
+ I wouldn't be surprised if he would put this up on his blog very soon.
+
+00:36:49.040 --> 00:36:51.040
+ Come to the badge tent.
+
+00:36:51.040 --> 00:36:57.040
+ What printer was it? Was Prusa the printer?
+
+00:36:57.040 --> 00:36:59.040
+ What printer was it?
+
+00:36:59.040 --> 00:37:03.040
+ So the question was was it a Prusa?
+
+00:37:03.040 --> 00:37:09.040
+ I am not Rachix but as far as I understand this project this was a fully self-built motion system from scratch.
+
+00:37:09.040 --> 00:37:13.040
+ The orange similarity is totally accidental.
+
+00:37:13.040 --> 00:37:17.040
+ There's one other question behind the box.
+
+00:37:17.040 --> 00:37:24.040
+ Will you allow anonymous access to Git or Flower.Garden?
+
+00:37:24.040 --> 00:37:28.040
+ The question was will you allow anonymous access to Git.Flower.Garden?
+
+00:37:28.040 --> 00:37:31.040
+ We didn't know this was an issue.
+
+00:37:31.040 --> 00:37:34.040
+ I cannot promise you we will enable anonymous access.
+
+00:37:34.040 --> 00:37:38.040
+ You mean like downloading or contributing?
+
+00:37:38.040 --> 00:37:41.040
+ You should be able to clone it over HTTPS.
+
+00:37:41.040 --> 00:37:45.040
+ When I go to the other page it just redirects me to a login page.
+
+00:37:45.040 --> 00:37:53.040
+ Oh, yes, the start page does redirect you to a login page if you go to Git.Flower.Garden/Flower.
+
+00:37:53.040 --> 00:37:55.040
+ Obvious.
+
+00:37:55.040 --> 00:38:04.040
+ Speaking of which, if anyone is really good at GitLab administration stuff, also come by the tent please.
+
+00:38:04.040 --> 00:38:07.040
+ Okay, next question.
+
+00:38:07.040 --> 00:38:12.040
+ So you have a 3.5 millimeter jack with line out or lighting or two.
+
+00:38:12.040 --> 00:38:20.040
+ Does this have a potential towards a USB ground or is it the same potential?
+
+00:38:20.040 --> 00:38:28.040
+ So the question is the ground on the 3.5 millimeter jacks compared to the USB ground, is there a potential in between?
+
+00:38:28.040 --> 00:38:31.040
+ Well, they are all the same ground I can say.
+
+00:38:31.040 --> 00:38:35.040
+ So you might have a few millivolts here and there maybe of noise.
+
+00:38:35.040 --> 00:38:44.040
+ [INAUDIBLE]
+
+00:38:44.040 --> 00:38:47.040
+ Okay, the person who asked the question said they had another badge at some point.
+
+00:38:47.040 --> 00:38:50.040
+ We had multiple volts of potential difference between that.
+
+00:38:50.040 --> 00:38:51.040
+ That's not the case here.
+
+00:38:51.040 --> 00:38:56.040
+ You can safely attach this stuff and multiples of them to a computer.
+
+00:38:56.040 --> 00:38:59.040
+ Attach them to each other and it should just work.
+
+00:38:59.040 --> 00:39:02.040
+ So I think we have time for one last question.
+
+00:39:02.040 --> 00:39:05.040
+ Is there any person? Sorry, you already have one.
+
+00:39:05.040 --> 00:39:06.040
+ So this.
+
+00:39:06.040 --> 00:39:15.040
+ Yeah, in the development, how many iterations for the hardware do you have and what was your manufacturer?
+
+00:39:15.040 --> 00:39:19.040
+ So manufacturing, that's why I said JLC 3D printing.
+
+00:39:19.040 --> 00:39:20.040
+ They come to be with 3D printing.
+
+00:39:20.040 --> 00:39:25.040
+ They do a lot of these things these days, also CNC machining, but they did not contribute PCBs at all.
+
+00:39:25.040 --> 00:39:31.040
+ MakerFabs did our PCBs and PCBA, also the testing and everything else.
+
+00:39:31.040 --> 00:39:35.040
+ They are also located in Shenzhen and we can highly recommend them.
+
+00:39:35.040 --> 00:39:42.040
+ They have been a huge help supporting us with so many things like taking packages and packing things.
+
+00:39:42.040 --> 00:39:44.040
+ Yeah, just general logistics.
+
+00:39:44.040 --> 00:39:51.040
+ And we had seven revisions in total until we committed to production.
+
+00:39:51.040 --> 00:39:58.040
+ So the very first revision was a Raspberry Pi with a CapTouch controller.
+
+00:39:58.040 --> 00:40:08.040
+ I hacked from a product I work on for my day job and then a quick turn PCB and all coupled together with lots of wires.
+
+00:40:08.040 --> 00:40:13.040
+ And I showed that to people and do you think this is nice?
+
+00:40:13.040 --> 00:40:20.040
+ And they were interested and then from that on we had like at least seven revisions, if not more,
+
+00:40:20.040 --> 00:40:25.040
+ because we at some point branched out and then didn't follow these branches.
+
+00:40:25.040 --> 00:40:30.040
+ If you look at the one branch which made it, that's seven revisions.
+
+00:40:30.040 --> 00:40:32.040
+ How many layers?
+
+00:40:32.040 --> 00:40:36.040
+ It's a four layer PCB, two times four layers.
+
+00:40:36.040 --> 00:40:42.040
+ Okay, then thank you so much for this interesting Q&A and I'm very happy that we have these beautiful badges.
+
+00:40:42.040 --> 00:40:44.040
+ Thank you.
+
+00:40:44.040 --> 00:40:57.040
+ [Applause]
+
+00:40:58.040 --> 00:41:02.040
+ [Music]
+

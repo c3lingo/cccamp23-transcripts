@@ -1,0 +1,1144 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ So
+
+3
+00:00:20,000 --> 00:00:34,680
+ welcome to the Chaos Communication Camp 23.
+
+4
+00:00:34,680 --> 00:00:37,360
+ Again, this is the Bitz and Boimer stage.
+
+5
+00:00:38,400 --> 00:00:44,320
+ And we have the next talk happening over here
+
+6
+00:00:44,320 --> 00:00:52,920
+ about open hardware and solar energy and open MPT project.
+
+7
+00:00:52,920 --> 00:01:00,320
+ And for that, I would like to welcome the Elektrowagenrat.
+
+8
+00:01:00,320 --> 00:01:02,360
+ >> Correct, that's correct.
+
+9
+00:01:02,360 --> 00:01:06,360
+ >> From Berlin, who is active in the local Freifunk community for
+
+10
+00:01:06,360 --> 00:01:08,960
+ a long time there and- >> 20 years.
+
+11
+00:01:08,960 --> 00:01:13,320
+ >> 20 years, and we will have some short Q&A in the end.
+
+12
+00:01:13,320 --> 00:01:15,000
+ The talk is 20 minutes.
+
+13
+00:01:15,000 --> 00:01:17,280
+ It's in English, there's no German translation, sorry.
+
+14
+00:01:17,280 --> 00:01:20,600
+ >> [APPLAUSE]
+
+15
+00:01:20,600 --> 00:01:22,240
+ >> Thank you very much.
+
+16
+00:01:22,240 --> 00:01:23,320
+ Thank you very much for coming.
+
+17
+00:01:23,320 --> 00:01:28,800
+ So as this is a short talk and I have 16 slides,
+
+18
+00:01:28,800 --> 00:01:32,840
+ it also comes down to what you know about the project.
+
+19
+00:01:32,840 --> 00:01:37,520
+ So it's an open software and open hardware project that
+
+20
+00:01:37,520 --> 00:01:42,880
+ you should be able to build yourself around the planet.
+
+21
+00:01:42,880 --> 00:01:47,520
+ And it should help you in many situations where you need
+
+22
+00:01:47,520 --> 00:01:49,880
+ independence from energy.
+
+23
+00:01:49,880 --> 00:01:56,040
+ It started in 2017, during the time when Freifunk was supporting refugees,
+
+24
+00:01:56,040 --> 00:02:00,880
+ in the refugee crisis, where people were living in informal camps.
+
+25
+00:02:00,880 --> 00:02:05,400
+ And they had no electricity and they had no communication basically.
+
+26
+00:02:05,400 --> 00:02:10,640
+ So we were thinking, how can we bring to informal refugee camps in the field
+
+27
+00:02:10,640 --> 00:02:15,680
+ somewhere solar powered energy and solar powered connectivity.
+
+28
+00:02:15,680 --> 00:02:18,080
+ We were mostly concerned about the connectivity,
+
+29
+00:02:18,080 --> 00:02:21,360
+ setting up independent wireless routers.
+
+30
+00:02:21,360 --> 00:02:29,440
+ That's how it started in 2017 and the project has evolved quite a lot.
+
+31
+00:02:29,440 --> 00:02:34,600
+ There's now three different devices that I have engineered over time.
+
+32
+00:02:34,600 --> 00:02:39,240
+ So it started in 2017, Mark 1.
+
+33
+00:02:39,240 --> 00:02:43,880
+ It is a 50 watt peak maximum power point tracker.
+
+34
+00:02:43,880 --> 00:02:48,080
+ Who of you does not know what a maximum power point tracker does?
+
+35
+00:02:48,080 --> 00:02:55,680
+ All right, I will be brief, but it's a complex subject to explain.
+
+36
+00:02:55,680 --> 00:03:02,120
+ If you run a solar module, you have a certain voltage where the module
+
+37
+00:03:02,120 --> 00:03:06,200
+ creates the most power, where the power output of the solar
+
+38
+00:03:06,200 --> 00:03:07,840
+ generator is the most efficient.
+
+39
+00:03:07,840 --> 00:03:13,560
+ If you connect it to a battery in an autonomous system,
+
+40
+00:03:13,560 --> 00:03:18,800
+ without a maximum power point tracker in between, the battery will just suck
+
+41
+00:03:18,800 --> 00:03:24,000
+ down the generator to the voltage of the battery while it is charging.
+
+42
+00:03:24,000 --> 00:03:28,080
+ Which means, for example, you have a panel that produces 30 volts at maximum power.
+
+43
+00:03:28,080 --> 00:03:34,520
+ And you connect it to a 12 volt battery and then the voltage in the solar panel
+
+44
+00:03:34,520 --> 00:03:37,360
+ drops down to the level of the battery.
+
+45
+00:03:37,360 --> 00:03:41,000
+ And the current amazingly stays almost the same.
+
+46
+00:03:41,000 --> 00:03:48,120
+ So if you could harvest 30 volts and one ampere, you will harvest 12 volts and
+
+47
+00:03:48,120 --> 00:03:52,920
+ one point a tiny bit of little more amperes.
+
+48
+00:03:52,920 --> 00:03:56,000
+ So you will lose a lot of the power.
+
+49
+00:03:56,000 --> 00:03:59,440
+ And a maximum power point tracker can help this.
+
+50
+00:03:59,440 --> 00:04:03,920
+ It can detect at which voltage the generator is the most happy and
+
+51
+00:04:03,920 --> 00:04:06,120
+ can produce the most power.
+
+52
+00:04:06,120 --> 00:04:10,600
+ And then it uses a step down converter, in my case, and
+
+53
+00:04:10,600 --> 00:04:15,360
+ tracks the voltage of the solar panel so it stays in that maximum power point.
+
+54
+00:04:15,360 --> 00:04:18,800
+ And then transforms it down to the level of the battery.
+
+55
+00:04:18,800 --> 00:04:24,080
+ And the result is that the current that charges the battery is increasing.
+
+56
+00:04:24,080 --> 00:04:25,960
+ Like in a 30 volt panel,
+
+57
+00:04:25,960 --> 00:04:29,480
+ it can be more than double the current that comes from the solar panel.
+
+58
+00:04:29,480 --> 00:04:35,880
+ So what you see here is Mark 1, actually the first prototype.
+
+59
+00:04:35,880 --> 00:04:41,640
+ I've etched it myself and of course you can find the files on the internet.
+
+60
+00:04:41,640 --> 00:04:45,280
+ And actually if you have a workshop and you know how to etch PCBs,
+
+61
+00:04:45,280 --> 00:04:48,480
+ then you can etch it yourself.
+
+62
+00:04:48,480 --> 00:04:51,200
+ You need a drill and a soldering iron and the components.
+
+63
+00:04:51,200 --> 00:04:54,480
+ You download the files.
+
+64
+00:04:54,480 --> 00:04:55,840
+ You print them on a laser printer.
+
+65
+00:04:55,840 --> 00:05:01,240
+ You use them to expose it to photosensitized PCB material.
+
+66
+00:05:01,240 --> 00:05:04,280
+ And you can etch it yourself.
+
+67
+00:05:04,280 --> 00:05:07,840
+ Or you just order PCBs from a manufacturer.
+
+68
+00:05:07,840 --> 00:05:15,640
+ So Mark 1 was designed to be used in combination with a wireless router
+
+69
+00:05:15,640 --> 00:05:16,880
+ running OpenWRT.
+
+70
+00:05:17,880 --> 00:05:24,960
+ The idea was to make the smallest and cheapest solar node
+
+71
+00:05:24,960 --> 00:05:30,480
+ that is energy autonomous for an entire year in the area of Berlin, for example.
+
+72
+00:05:30,480 --> 00:05:33,120
+ And you can monitor it from afar.
+
+73
+00:05:33,120 --> 00:05:39,240
+ So you deploy it somewhere and you can connect to that OpenWRT based router.
+
+74
+00:05:39,240 --> 00:05:42,880
+ And you can read the data from the maximum power point tracker.
+
+75
+00:05:42,880 --> 00:05:45,720
+ You can check the charge of the battery and so on.
+
+76
+00:05:45,720 --> 00:05:55,320
+ In 2018, three people including me,
+
+77
+00:05:55,320 --> 00:06:01,760
+ we got a grant from the prototype fund in their third round.
+
+78
+00:06:01,760 --> 00:06:06,080
+ So we could work on a web app and
+
+79
+00:06:06,080 --> 00:06:11,560
+ other software in OpenWRT, Lua programs,
+
+80
+00:06:11,560 --> 00:06:14,960
+ to do this monitoring and data aggregation.
+
+81
+00:06:15,920 --> 00:06:21,080
+ And that program needed a name, so it was called iSIMS,
+
+82
+00:06:21,080 --> 00:06:23,560
+ Independent Solar Energy Mesh System.
+
+83
+00:06:23,560 --> 00:06:33,080
+ So this is how we figured out would be a good way for
+
+84
+00:06:33,080 --> 00:06:36,840
+ such a mobile disaster recovery node.
+
+85
+00:06:36,840 --> 00:06:40,600
+ A solar panel at the ground, a telescopic mast, and
+
+86
+00:06:40,600 --> 00:06:45,200
+ on top a waterproof router with Wi-Fi and mesh capability.
+
+87
+00:06:45,200 --> 00:06:49,720
+ On the right side you see a little screenshot from the app.
+
+88
+00:06:49,720 --> 00:06:53,880
+ And it shows you the situation of that node.
+
+89
+00:06:53,880 --> 00:06:57,640
+ It's a node on the roof of my hut.
+
+90
+00:06:57,640 --> 00:07:00,800
+ And it's just showing the system is fine.
+
+91
+00:07:00,800 --> 00:07:05,400
+ It is supposed to give information that even if you're not too
+
+92
+00:07:05,400 --> 00:07:09,200
+ technically skilled, you learn something about the health of your system.
+
+93
+00:07:09,200 --> 00:07:16,000
+ And then came Mark II.
+
+94
+00:07:16,000 --> 00:07:23,320
+ I thought to further reduce the cost for some situations.
+
+95
+00:07:23,320 --> 00:07:27,680
+ For example, you live in a village that is cut off from the internet pretty much.
+
+96
+00:07:27,680 --> 00:07:30,880
+ And there's a hill between you and
+
+97
+00:07:30,880 --> 00:07:34,760
+ another place where you can get internet from via wireless.
+
+98
+00:07:36,280 --> 00:07:43,120
+ You could use a device that is based on the ESP32 chip that has Wi-Fi on board.
+
+99
+00:07:43,120 --> 00:07:45,080
+ As a Wi-Fi relay.
+
+100
+00:07:45,080 --> 00:07:50,640
+ So it became optional to add that open WT based router because
+
+101
+00:07:50,640 --> 00:07:56,760
+ the second generation became self-sufficient with regards to Wi-Fi.
+
+102
+00:07:56,760 --> 00:07:59,760
+ It cannot do completely mesh networking.
+
+103
+00:07:59,760 --> 00:08:03,320
+ It can do routing now.
+
+104
+00:08:04,720 --> 00:08:10,240
+ But it doesn't need the extra power to power an open WT based router.
+
+105
+00:08:10,240 --> 00:08:15,400
+ And it still gives you some megabytes per second in relaying traffic between
+
+106
+00:08:15,400 --> 00:08:17,920
+ two places if the RF signal is strong enough.
+
+107
+00:08:17,920 --> 00:08:21,640
+ Are you okay?
+
+108
+00:08:21,640 --> 00:08:23,640
+ [LAUGH]
+
+109
+00:08:23,640 --> 00:08:25,160
+ I hope I'm not boring you at all.
+
+110
+00:08:25,160 --> 00:08:29,480
+ [LAUGH]
+
+111
+00:08:29,480 --> 00:08:31,840
+ So and then people came and said, well,
+
+112
+00:08:33,640 --> 00:08:39,000
+ that ESP32 chip that has the Wi-Fi on board, it has many unused GPIOs.
+
+113
+00:08:39,000 --> 00:08:41,600
+ Please, why don't you expose these?
+
+114
+00:08:41,600 --> 00:08:44,880
+ We could use it for sensors and for whatnot.
+
+115
+00:08:44,880 --> 00:08:51,720
+ And people were asking, hey, why do you only want to power wireless routers?
+
+116
+00:08:51,720 --> 00:08:52,920
+ We need more power.
+
+117
+00:08:52,920 --> 00:08:55,080
+ Give us more power.
+
+118
+00:08:55,080 --> 00:09:00,520
+ Which was out of the scope of what I initially intended to do with this project.
+
+119
+00:09:01,880 --> 00:09:06,520
+ But I said, okay, well, it opens up the possibility to use it for
+
+120
+00:09:06,520 --> 00:09:12,280
+ other things as well, sensors, you will see a few examples later.
+
+121
+00:09:12,280 --> 00:09:14,560
+ Why not?
+
+122
+00:09:14,560 --> 00:09:19,520
+ So I extended the design, added one more pin header, and
+
+123
+00:09:19,520 --> 00:09:22,080
+ increased the power, I doubled it basically.
+
+124
+00:09:22,080 --> 00:09:29,800
+ But this wasn't the end, because people were saying, why only 100 watt peak?
+
+125
+00:09:30,800 --> 00:09:32,080
+ We need more power.
+
+126
+00:09:32,080 --> 00:09:39,560
+ Initially, I had thought, okay, there is commercial maximum
+
+127
+00:09:39,560 --> 00:09:42,920
+ PowerPoint trackers on the market that you can buy from companies.
+
+128
+00:09:42,920 --> 00:09:44,160
+ I don't mention those companies.
+
+129
+00:09:44,160 --> 00:09:49,880
+ But of course, there's a virtue in having an open source and
+
+130
+00:09:49,880 --> 00:09:52,920
+ open hardware project that you can extend and hack on.
+
+131
+00:09:52,920 --> 00:09:59,120
+ The devices, since I used the ESP32, you can tell it into the machine.
+
+132
+00:09:59,120 --> 00:10:02,440
+ Sorry, no SSH, but you can tell it into the machine.
+
+133
+00:10:02,440 --> 00:10:07,880
+ You can FTP programs into the machine or download it from there.
+
+134
+00:10:07,880 --> 00:10:12,080
+ You have, of course, a website, you have a web interface,
+
+135
+00:10:12,080 --> 00:10:14,520
+ you have MQTT protocol as a telemetry.
+
+136
+00:10:14,520 --> 00:10:21,120
+ You can configure it that it sends to two MQTT servers, its data.
+
+137
+00:10:21,120 --> 00:10:23,080
+ So you can monitor it from everywhere and
+
+138
+00:10:23,080 --> 00:10:25,440
+ you can run your own server to monitor it locally.
+
+139
+00:10:27,320 --> 00:10:30,400
+ And of course, since the device now expanded to, yeah,
+
+140
+00:10:30,400 --> 00:10:34,360
+ a device you can also use stationary, I also added the option to have a display
+
+141
+00:10:34,360 --> 00:10:39,920
+ in the 3D printed housing, so you can also 3D print your housing.
+
+142
+00:10:39,920 --> 00:10:45,480
+ But please use flame retardant PETG,
+
+143
+00:10:45,480 --> 00:10:50,400
+ because it's strong electronics, high currents.
+
+144
+00:10:50,400 --> 00:10:54,920
+ In the worst case, when you have like full power from the sun coming in and
+
+145
+00:10:54,920 --> 00:11:00,980
+ full power demanded from the battery it can deliver up to 50%
+
+146
+00:11:00,980 --> 00:11:01,710
+ 50 amperes to your consumers.
+
+147
+00:11:01,710 --> 00:11:05,190
+ So that's a current you can use for welding.
+
+148
+00:11:05,190 --> 00:11:14,070
+ And the peak currents inside the device, they can go to 30 amperes at 400 watts peak.
+
+149
+00:11:14,070 --> 00:11:23,870
+ So that's why you see this massive inductor coil which is used as the transformer.
+
+150
+00:11:23,870 --> 00:11:32,870
+ Step number two of this device has been tried in an experiment in Ant Hill in India.
+
+151
+00:11:32,870 --> 00:11:36,710
+ Because what can you do with 400 watts peak solar power?
+
+152
+00:11:36,710 --> 00:11:42,470
+ You can run a small server and have a community that doesn't have internet access and give
+
+153
+00:11:42,470 --> 00:11:49,110
+ them local services like local Wikipedia, local video streaming and whatnot.
+
+154
+00:11:49,110 --> 00:11:52,430
+ So this is another nice addition.
+
+155
+00:11:52,430 --> 00:11:57,070
+ The software running on the Frink Center is Nimble, it's another project.
+
+156
+00:11:57,070 --> 00:12:04,150
+ I don't know if Eric who is involved in the project is around.
+
+157
+00:12:04,150 --> 00:12:09,510
+ Two pictures of India, from India and also pictures that I use, I'm going to use in the
+
+158
+00:12:09,510 --> 00:12:18,370
+ printed documentation how not to use the device.
+
+159
+00:12:18,370 --> 00:12:24,510
+ The people in Ant Hill, they have built a bamboo tower with a metal housing where the
+
+160
+00:12:24,510 --> 00:12:28,950
+ sun is blaring on that metal housing.
+
+161
+00:12:28,950 --> 00:12:35,310
+ And they have put the batteries into the metal housing to make theft of the batteries more
+
+162
+00:12:35,310 --> 00:12:36,570
+ difficult.
+
+163
+00:12:36,570 --> 00:12:40,030
+ But at the same time they are frying the batteries.
+
+164
+00:12:40,030 --> 00:12:42,910
+ And they're also frying my electronics.
+
+165
+00:12:42,910 --> 00:12:47,630
+ The device is supposed to be mounted upright so you have some cool air streams to cool
+
+166
+00:12:47,630 --> 00:12:54,270
+ that powerful inductor because at full power only the inductor can produce five watts of
+
+167
+00:12:54,270 --> 00:12:57,070
+ heat and that heat has to go somewhere.
+
+168
+00:12:57,070 --> 00:13:04,670
+ It's not supposed to be accumulated in that housing.
+
+169
+00:13:04,670 --> 00:13:13,510
+ And then people came again and said, you know, why not build a device for watering plants
+
+170
+00:13:13,510 --> 00:13:15,390
+ independently?
+
+171
+00:13:15,390 --> 00:13:22,710
+ So I built a prototype based on the 100 watt version for irrigation.
+
+172
+00:13:22,710 --> 00:13:26,430
+ So it measures humidity of the soil.
+
+173
+00:13:26,430 --> 00:13:29,710
+ It controls water valves.
+
+174
+00:13:29,710 --> 00:13:33,990
+ It controls a pump to provide water to the system.
+
+175
+00:13:33,990 --> 00:13:40,310
+ And it also has a tank gauge to measure the amount of water that is remaining in the tank.
+
+176
+00:13:40,310 --> 00:13:45,750
+ And of course it sends everything via MQTT protocol to the service you like so you can
+
+177
+00:13:45,750 --> 00:13:47,750
+ monitor it.
+
+178
+00:13:47,750 --> 00:13:49,990
+ I think this is quite helpful.
+
+179
+00:13:49,990 --> 00:13:54,950
+ At the moment it's a prototype made with wiring on an existing device.
+
+180
+00:13:54,950 --> 00:14:01,350
+ But I consider also making a PCB for this purpose.
+
+181
+00:14:01,350 --> 00:14:03,110
+ Just yeah.
+
+182
+00:14:03,110 --> 00:14:14,050
+ In last autumn I took these pictures that these are these drop irrigation outlets.
+
+183
+00:14:14,050 --> 00:14:20,870
+ You can save a lot of water and you can treat your plants really well with this.
+
+184
+00:14:20,870 --> 00:14:26,350
+ I learned I'm not too much into gardening that you should water your plants about one
+
+185
+00:14:26,350 --> 00:14:29,870
+ hour before the sun goes up in the morning.
+
+186
+00:14:29,870 --> 00:14:35,670
+ That's the best time where you avoid fungi growing on your plants and the water is used
+
+187
+00:14:35,670 --> 00:14:36,910
+ most effectively.
+
+188
+00:14:36,910 --> 00:14:42,690
+ And in times of drought, yeah, that might be a really good thing.
+
+189
+00:14:42,690 --> 00:14:47,750
+ So I promised not to talk too much and spend too much time.
+
+190
+00:14:47,750 --> 00:14:52,910
+ So I thank you for your interest.
+
+191
+00:14:52,910 --> 00:14:55,630
+ And now we're ready for questions and answers.
+
+192
+00:14:55,630 --> 00:15:07,630
+ [Applause]
+
+193
+00:15:07,630 --> 00:15:11,830
+ So we have some questions.
+
+194
+00:15:11,830 --> 00:15:15,910
+ So raise your hands so that we can see you and then we try to accommodate as many as
+
+195
+00:15:15,910 --> 00:15:18,230
+ we can in five minutes.
+
+196
+00:15:18,230 --> 00:15:28,350
+ Hi, are the design files or the schematics for the Mark II or Mark III available anywhere?
+
+197
+00:15:28,350 --> 00:15:36,830
+ Mark II is available at electra.info and then you go to the site and you go to ffesp32.
+
+198
+00:15:36,830 --> 00:15:44,190
+ I have not published Mark III because I'm not completely done with the development yet.
+
+199
+00:15:44,190 --> 00:15:50,350
+ And if you want to produce them, please contact me for the latest files and also the support
+
+200
+00:15:50,350 --> 00:15:52,550
+ with some of the components.
+
+201
+00:15:52,550 --> 00:15:57,350
+ Because the chip crisis and the resource crisis also hit me.
+
+202
+00:15:57,350 --> 00:16:05,430
+ I'm still waiting for some power inductors for like two months now.
+
+203
+00:16:05,430 --> 00:16:08,230
+ Over there to the back.
+
+204
+00:16:08,230 --> 00:16:16,270
+ If you raise your hands a little bit earlier, we can be prepared where we need to appear
+
+205
+00:16:16,270 --> 00:16:17,270
+ after.
+
+206
+00:16:17,270 --> 00:16:22,270
+ And you have to talk because it's a long way for the microphone to reach the next question.
+
+207
+00:16:22,270 --> 00:16:23,270
+ And there we go.
+
+208
+00:16:23,270 --> 00:16:26,470
+ Hi, first of all, thank you for all of this.
+
+209
+00:16:26,470 --> 00:16:33,830
+ I have a good idea about what an MPP tracker is doing, but I have no clue how it is doing
+
+210
+00:16:33,830 --> 00:16:34,830
+ it.
+
+211
+00:16:34,830 --> 00:16:38,190
+ Could you maybe elaborate a bit on the implementation and how you specifically achieved this?
+
+212
+00:16:38,190 --> 00:16:44,150
+ Do you know what a DC/DC buck converter does and how it works?
+
+213
+00:16:44,150 --> 00:16:51,150
+ So basically you have in a standard DC/DC buck converter you have a feedback loop that controls
+
+214
+00:16:51,150 --> 00:16:53,150
+ the output.
+
+215
+00:16:53,150 --> 00:16:59,630
+ And there's just yet another feedback loop which is controlling the input.
+
+216
+00:16:59,630 --> 00:17:05,430
+ So the pulse width modulation is controlled by the voltage at the input and finally when
+
+217
+00:17:05,430 --> 00:17:09,190
+ you reach the charge end level at the output.
+
+218
+00:17:09,190 --> 00:17:14,790
+ So because a standard buck converter you can try this without such an outer feedback control
+
+219
+00:17:14,790 --> 00:17:20,510
+ loop it will just try to suck as much current as it gets and then you still have the same
+
+220
+00:17:20,510 --> 00:17:27,070
+ effect like well it's even worse than just connecting your battery to the solar panel
+
+221
+00:17:27,070 --> 00:17:29,790
+ without a DC/DC buck converter in between.
+
+222
+00:17:29,790 --> 00:17:33,910
+ Other than that of course it's a solar controller as well so it protects your battery from overcharging
+
+223
+00:17:33,910 --> 00:17:37,990
+ and deep discharging which would damage the batteries.
+
+224
+00:17:37,990 --> 00:17:46,590
+ Oh, but I forgot to mention so far I have been using AGM led batteries but at the moment
+
+225
+00:17:46,590 --> 00:17:57,270
+ I'm working on LiFePO, so lithium iron phosphate batteries and modify the charge controller
+
+226
+00:17:57,270 --> 00:17:58,270
+ in the software.
+
+227
+00:17:58,270 --> 00:18:02,550
+ I don't need to do anything in the hardware.
+
+228
+00:18:02,550 --> 00:18:03,550
+ Any questions?
+
+229
+00:18:03,550 --> 00:18:04,550
+ More questions?
+
+230
+00:18:04,550 --> 00:18:05,550
+ I see this guy.
+
+231
+00:18:05,550 --> 00:18:10,270
+ Oh there, yes.
+
+232
+00:18:10,270 --> 00:18:12,750
+ What is the voltage for the batteries?
+
+233
+00:18:12,750 --> 00:18:15,830
+ Can you configure it and in which range?
+
+234
+00:18:15,830 --> 00:18:16,830
+ That's a very good question.
+
+235
+00:18:16,830 --> 00:18:24,710
+ No, at the moment it's 12 volts so you can charge up to 14.7 volts and you can control
+
+236
+00:18:24,710 --> 00:18:26,230
+ it from software.
+
+237
+00:18:26,230 --> 00:18:29,910
+ So use the chemistry you like.
+
+238
+00:18:29,910 --> 00:18:36,670
+ If I would make some changes for like 24 volt systems then the power capacity would double
+
+239
+00:18:36,670 --> 00:18:37,670
+ also.
+
+240
+00:18:37,670 --> 00:18:43,870
+ But I'm personally using systems like these and I prefer having like a single 12 volt
+
+241
+00:18:43,870 --> 00:18:48,790
+ battery rather than have several in a row but I know many people are saying well why
+
+242
+00:18:48,790 --> 00:18:56,270
+ not get 24 or 36 or 48 volts but at one point I'm going to do it probably and of course
+
+243
+00:18:56,270 --> 00:19:05,830
+ the challenge for people asking hey why only 400 watts, it continues.
+
+244
+00:19:05,830 --> 00:19:10,670
+ Okay anyone else?
+
+245
+00:19:10,670 --> 00:19:13,310
+ Otherwise I would have a last question then but go.
+
+246
+00:19:13,310 --> 00:19:18,750
+ Or tell if it's, sorry, I would repeat it otherwise.
+
+247
+00:19:18,750 --> 00:19:22,630
+ One very short question about the autonomy of your project in Berlin.
+
+248
+00:19:22,630 --> 00:19:26,350
+ You're told you can reach about 100% of autonomy.
+
+249
+00:19:26,350 --> 00:19:29,670
+ Which calculator did you use for that assumption?
+
+250
+00:19:29,670 --> 00:19:32,310
+ There's a manual.
+
+251
+00:19:32,310 --> 00:19:38,030
+ When you go to the Electra site there is a big one, it's like 52 pages and I'm trying
+
+252
+00:19:38,030 --> 00:19:42,910
+ to cover, well not everything but as much as I can and I like a printed documentation.
+
+253
+00:19:42,910 --> 00:19:45,510
+ Of course it's a PDF, you can print it out, whatever.
+
+254
+00:19:45,510 --> 00:19:52,590
+ Maybe I'll publish it as a book and people can buy it to support me.
+
+255
+00:19:52,590 --> 00:19:56,630
+ Sorry, I'm lost.
+
+256
+00:19:56,630 --> 00:19:57,630
+ Say it again.
+
+257
+00:19:57,630 --> 00:19:58,630
+ The calculator.
+
+258
+00:19:58,630 --> 00:19:59,630
+ The calculator.
+
+259
+00:19:59,630 --> 00:20:01,710
+ The calculator.
+
+260
+00:20:01,710 --> 00:20:12,870
+ I used, there is some global irrigation calculator and a very conservative estimate of the storage
+
+261
+00:20:12,870 --> 00:20:17,230
+ for these dark times.
+
+262
+00:20:17,230 --> 00:20:23,910
+ But it might, the weather changes if there is like three weeks of absolutely no sunshine
+
+263
+00:20:23,910 --> 00:20:31,990
+ where the cars drive at noon with the lights on, then of course it could happen.
+
+264
+00:20:31,990 --> 00:20:36,190
+ So I can guarantee 100%.
+
+265
+00:20:36,190 --> 00:20:37,470
+ So I have also a question.
+
+266
+00:20:37,470 --> 00:20:43,270
+ So commercial MPPTs are available of course but they are quite expensive too.
+
+267
+00:20:43,270 --> 00:20:50,990
+ And if I want to use it with like low power solar batteries that I get often from second
+
+268
+00:20:50,990 --> 00:20:53,710
+ hand market or something, it's not really feasible.
+
+269
+00:20:53,710 --> 00:21:00,390
+ So how much is an invest to build open MPPT or like cheaply?
+
+270
+00:21:00,390 --> 00:21:06,350
+ The biggest one or just you pick the size that you want.
+
+271
+00:21:06,350 --> 00:21:09,950
+ When you build it on your own the question is how many are you going to build?
+
+272
+00:21:09,950 --> 00:21:12,950
+ Are you just building one or a few?
+
+273
+00:21:12,950 --> 00:21:21,630
+ I think if you order them in China, you can have them made in China, companies like Don
+
+274
+00:21:21,630 --> 00:21:26,150
+ mentioned, then it's fairly cheap.
+
+275
+00:21:26,150 --> 00:21:28,190
+ But of course you have to do some assembly.
+
+276
+00:21:28,190 --> 00:21:33,790
+ They wouldn't do through hole assemblies and you have to do some initial programming and
+
+277
+00:21:33,790 --> 00:21:34,790
+ so on.
+
+278
+00:21:34,790 --> 00:21:40,230
+ Probably for the 100 watt version maybe 35 euros.
+
+279
+00:21:40,230 --> 00:21:44,830
+ All in all.
+
+280
+00:21:44,830 --> 00:21:46,470
+ Thank you very much.
+
+281
+00:21:46,470 --> 00:21:47,470
+ Thank you very much.
+
+282
+00:21:47,470 --> 00:21:48,470
+ And that's our time.
+
+283
+00:21:48,470 --> 00:21:48,470
+ Thank you.
+
+284
+00:21:48,710 --> 00:21:50,710
+ Thank you.
+
+285
+00:21:50,710 --> 00:21:52,710
+ Thank you.
+
+286
+00:21:53,350 --> 00:21:57,350
+ [Music]
+

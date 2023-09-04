@@ -1,0 +1,600 @@
+ Okay, ich kriege das Zeichen, dass wir live sind.
+ Wir machen hier noch ein bisschen Nachtstudio.
+ Dazu muss jemand die Sonne noch ausschalten, aber das passiert gleich.
+ Sonnenuntergang ist jetzt...
+ Ja, ja, tatsächlich.
+ Also das hier ist eigentlich ein Podcast.
+ Wir hatten auch die Headset, die üblichen Headset,
+ die man zum Podcast in den deutschsprachigen Raum aufziehen könnte,
+ die da drüben im Regal.
+ Aber wir wollten uns der Technik, also uns selber, nicht zu schwer machen,
+ weil wir jetzt haben das Studio jetzt sozusagen im Selbstfahrermodus.
+ Ich habe hier irgendwie lustige Dinge vor mir,
+ mit der ich in der Theorie auch Hilfe, Kameras umschalten kann.
+ Also momentan sitzt noch jemand da hinten, aber je nachdem wie lange wir brauchen...
+ Die jeden Dinge, die wir trinken und wir...
+ Genau, müssen wir uns dann selber bedienen.
+ Und wir können auch hier, ich habe hier ein Tablet,
+ da kann man ein bisschen auf das Diagramm schauen.
+ Aber bevor wir das machen inhaltlich,
+ erst mal Hallo in dieser weiteren Folge von "Keine Ahnung,
+ wie wir die Senderei jeweils genennt haben".
+ Ich glaube, C3 Systeme oder...
+ Doch, wir hatten beim letzten Mal schon keinen Namen.
+ Ja, genau.
+ Es ist so ein...
+ Also die Idee ist, es gibt auf Media2City einen Kanal,
+ in den auch Podcasts laufen können.
+ Die Folge ist eigentlich fix und fertig zur Veröffentlichung.
+ Es fehlt nur jemand, der sich auskennt, wie man einen Podlauf-Player
+ in einen Rails-Plugin, also Media2City, einbindet,
+ ohne dass ich immer den Quelltextein kopieren muss.
+ Und das...
+ Das ist der Handbetrieb-Teil jetzt auch, Studio-Handbetrieb,
+ Rails-Handbetrieb.
+ Genau.
+ Ja, wie das halt immer so ist.
+ Aber genau, ich stelle euch am besten erst mal vor.
+ Hey, kennt ihr aus der anderen Folge schon,
+ aber gerne nochmal für die...
+ Ja, Hey, hey, wir...
+ Ja, RFA-Panaborn.
+ Ja, ich habe diesen Hub mitentwickelt,
+ da kommen wir aber gleich noch zu.
+ Ja.
+ Ja, ich glaube, alles weitere kommt gleich.
+ Ja, genau, keine Spoiler sozusagen.
+ Wir versuchen einen Spannungsbogen auf...
+ Nein, tun wir nicht, aber wir machen das chronologisch.
+ Genau.
+ Und ich Toto Thomas eigentlich, aber Toto natürlich...
+ Genau, ich bin eigentlich Abentwickler,
+ ursprünglich mal iOS-Abentwickler,
+ und jetzt habe ich eine Firma mit iOS-Abdevelopment,
+ aber genau, bin aus Berlin,
+ auch am CTC Berlin, so ein bisschen aktiv,
+ und mache jetzt schon seit vielen, vielen Jahren die iOS,
+ iPad und inzwischen auch MacOS ab fürs Camp
+ und natürlich auch für den Kongress.
+ Also, genau, und auch dieses Jahr,
+ ja, genau, viele Jahre, da ist es hier,
+ wir haben eben vorhin überlegt, 30 C3, 31 C3,
+ ich bin mir ehrlich gesagt nicht ganz sicher.
+ Genau, ich glaube, 30 C3 waren noch so vier Säle im CCH,
+ es steht da auch so schön.
+ Ja, genau.
+ Und 31 C3 hatte ich tatsächlich dicht an wahrgenommen,
+ weil da gab es das erste Mal ein Sendet-Centrum,
+ also eine extra Bühne.
+ Richtig, genau.
+ Und ich glaube, die habe ich gemercht,
+ das war damals noch irgendein Excel-File oder so ein Cloud-Ding oder so was,
+ und da hatte ich schon angefangen, irgendwie Dinge zu schreiben,
+ ich habe da sich mal nachgeschaut,
+ meine erste E-Mail mit Camp-Kontakt war tatsächlich,
+ im Wiki gab es eine Liste von Terminen, Self-Organized Sessions,
+ und da kann man die nicht auch mal als Chat-Ulixmail anbieten.
+ Ja, das hat er mit Wikidata, also das, ich erinnere mich, nicht.
+ Nein, das Plugin hieß tatsächlich Semantic Media Wiki.
+ Ja, ja, richtig, genau.
+ Und das hat man damals Stück für Stück eingebaut,
+ in der Hoffnung, dass mehr Leute an diesem Zeug mitmachen.
+ Aber Semantic Media Wiki ist so ein Monster,
+ dass irgendwie dann im kompletten Umfeld
+ nur drei Leute oder vier Leute verstanden haben.
+ Aber wir haben ja erst mal alles versucht, damit zu bauen,
+ und da die Arpies aber so schlimm waren,
+ also ich glaube, wir hatten dann die Self-Organized Sessions
+ als Event und als Session modelliert,
+ und die konnte man mit der eingebauten Arpie-Mechanik nicht merken.
+ Und das war der Grund, warum wir dann, dass sich dieses Python...
+ Das ist ja so RDF bei Kram und so, das ist ja ziemlich akademisch gewesen damals.
+ Das ist eine schöne Beschreibung.
+ In die Show notes packt man noch einen Link
+ von dem Erfinder von Semantic Media Wiki,
+ da kam neulich so ein nettes History-Review daraus,
+ der jetzt auch Wikidata macht,
+ dann später versucht, es nochmal richtig zu machen.
+ Okay, das ist eine böse Formel.
+ Ja, V2 halt, das erste Mal ist ja immer so viel.
+ Ja, genau, aber wir hatten halt irgendwie zwei Endpunkte,
+ einmal Sessions, einmal Events,
+ wobei halt so sogenannte Events, wenn ne Session mehrfach stattfindet.
+ Die haben wir nicht zusammenbekommen,
+ dafür braucht es dieses Python-Skript,
+ und damit hat das Ganze angefangen,
+ dass ich das Zeug gemercht habe.
+ Und ja, die Skripte sind, glaube ich, so 31, 32 entstanden.
+ Also ich hab hier irgendwo unten die Commit-Historie.
+ Oh Gott.
+ Ja, da hab ich dann irgendwie...
+ Im Februar, ja, ich hab das Reform-Woll einmal neu aufgesetzt.
+ Ich glaub, das sieht ungefähr so aus wie das "Mittelwehr-Repo"
+ von der Abz, so derzeit. - Ja.
+ Weil die Abz ist ja ursprünglich gar nicht für den Kongress entstanden,
+ die IOS-Abz, sondern für die Republika 2014.
+ Da hatten nämlich Michael Kral und jetzt, die auch hier sind,
+ die hatten nämlich so ein Redata-Format gebaut.
+ Und das hab ich dann gedacht, das wäre doch schön,
+ dann eine artliche Abzuhaben.
+ All People Ulf Burmeier hatte vorher eine abgebaut für die Republika.
+ Was? - Ja, natürlich.
+ Der hatte den Twitter-Account Republika ab
+ und hat mir den dann gegeben, weil er keine Zeit mehr hatte.
+ Genau.
+ Und dann hab ich die gebaut, weil ich halt ein bisschen Zeit hatte
+ und hab das so gebastelt.
+ Viel von dem Quellcode hab ich jetzt in Swift umgeschrieben
+ vor ein paar Wochen.
+ Vieles ist noch drinnen drin gewesen, ziemlich altes Zeug.
+ Genau, also z.B. wenn man auf dem iPad die IOS-Abz benutzt,
+ dann hast du ja so einen Fahrplan, diesen 2D-Fahrplan.
+ Und auf dem Telefon kann man das auch einschalten,
+ wie ich immer jedem erklären muss.
+ Das wüsste ich auch besser machen.
+ Und da hab ich diesen Code, den Layoutcode und so,
+ das ist alles noch von damals.
+ Also das ist halt so Pixel-Layout-Berechnung für so einen Fahrplan.
+ Und das hab ich nicht angefasst seitdem eigentlich.
+ Also aus der Zeit neu geschrieben in Swift, weil aus Gründen.
+ Genau, das war so 2015, da waren die Skripte dann da.
+ Und tatsächlich war in dem selben, naja, in dem darausfolgenden Jahr,
+ weil der Kongress ja immer noch formal zum Jahr davor zählt,
+ das Camp 2015.
+ Und als ich das vorbereitet habe damals,
+ hab ich diese lustige Zeichnung gefunden,
+ wo ich so mal ein bisschen versucht hab zu skizzieren,
+ wie das Ganze damals lief.
+ Also wir hatten dieses Public-Wiki.
+ Also damals wurde noch jedes Jahr
+ eine eigene Media-Wiki-Instanz kopiert und angefasst.
+ Sowohl öffentlich als auch intern, aber die Internet ignoriert.
+ Auch damals gab's schon ein BEL, stell ich gerade fest,
+ das dann danach "Street Headed Monkeys" und jetzt "UFO" heißt,
+ wenn ich das richtig im Kopf habe.
+ Und wir hatten damals auch schon eine Maps-City, der Wok.de,
+ das war tatsächlich eine komplette Open-Street-Map-Instanz,
+ wo ich damals halt dann alles hier in einer eigenen OSM-Instanz gemapt habe.
+ Ja, es gab verschiedene Wege, viel...
+ Und Wiki to Schedule war das Python-Skript, das bewähnte, ne?
+ Ja, das war so ein Monster, ne?
+ Das ist ein richtig langes...
+ Ja, ich habe es sigma-refracted in der Zwischenzeit,
+ aber das war so mein Projekt um Pysons zu laden eigentlich.
+ Nachdem ich die... Ich glaub, die erste Fassung war tatsächlich PHP.
+ Aber jetzt noch davor, als noch nicht mal Semantic Media Wiki im Einsatz war,
+ sondern einfach nur eine Wikitabelle,
+ wo dann die Leute ja immer die Spalten kaputt gemacht haben.
+ Und ja, wir müssen noch mal zurück an die Regie genau.
+ Und hier sieht man jetzt diesen Redata Scraper auch schon.
+ Genau, das war halt so ein... Das hatte ursprünglich, glaube ich, jetzt geschrieben.
+ Das war so ein JavaScript-File, was die Daten wiederum hat.
+ Am oben ging es rein, die Daten, und unten kam dann Kram aus,
+ und dann war das noch... Dann wurde das noch in einen Couch-DB
+ of all things reingepackt.
+ Und dann war das noch so eine Couch-DB-Instanzlaufnahme,
+ weil man halt damit benutzen wollte.
+ Ich weiß nicht gar nicht, warum er das gemacht hat.
+ Auf jeden Fall war es halt da. In der Couch-DB wurde das dann importiert,
+ von diesem Skript.
+ Und dann habe ich halt für jeden Kongress und jede Republik
+ ja immer dieses Skript genommen, wie er das passiert, kopiert.
+ Und dann hatte jeder so seine speziellen...
+ Dann habe ich immer so irgendwelche Patches reingemacht,
+ wenn irgendwas kaputt war und so.
+ Das war dann irgendwann so 900 Zeilen lang oder 2000 Zeilen lang,
+ und dann konntest du nicht mehr debuggen.
+ Ich weiß gar nicht, wann ich das neu geschrieben habe.
+ Ich glaube so 2018 oder 2017 gewesen habe ich gesagt,
+ ich schmeiße die jetzt weg und mache es ordentlich und neu in TypeScript und so.
+ Und dann... Also ja, gut. Aber...
+ Das ist die Basis für das jetzige. - Das ist die jetzige, genau.
+ Das ist jetzt so ein Plagebild. Du kannst das halt in Importer haben,
+ kannst da verschiedene versprachen.
+ Deswegen kann ich jetzt, wenn jetzt... Wir hatten ja jetzt das Problem mit dem Hub,
+ dass das am Anfang nicht ging. - Spoiler, Spoiler!
+ Spoiler, kommt nachher.
+ Da konnte ich das einfach reinplagen.
+ Ja, genau. Also wir sehen ja hier auch,
+ was wir jetzt heute auch noch so haben,
+ wir haben einen komplett anderen Weg für die iOS-App als für die Android-App.
+ Für die Android-App gab es diese, damals hieß sie noch anders,
+ Kongressfahrplan oder so, inzwischen heißt sie Eventfahrplan.
+ Das war doch früher aus Pentabuf ursprünglich mal
+ und dann irgendwann aus FRAP und dann irgendwann aus...
+ Also das selbe XML-Format, immer noch das gleiche.
+ Genau, wir haben also nicht genau das gleiche, aber immer erweitert.
+ Und es gibt tatsächlich auch noch eine Konferenz,
+ die immer noch Pentabuf einsetzt,
+ highly customized.
+ Und zwar die FOSDEM in Brüssel.
+ Ach was? - Ja, genau.
+ Ich habe neulich festgestellt, dass der Mensch,
+ einer der Leute, da aus München kommt und hat ihm angeschrieben,
+ wann plant ihr denn das Pentabuf endlich abzulösen?
+ Und meint sie, ja, dieses Jahr war irgendwie schwierig,
+ weil es musste erst aus Corona auswachen und so.
+ Aber nächstes oder übernächstes Jahr ersetzen sie dann auch das Pentabuf da.
+ Die haben halt auch ihr Engelsystem reingebaut
+ und noch irgendwie der Raum ist Vollmeldung.
+ Und da gibt es dann wieder ein komplett eigenes App-Ecosystem
+ für diesen speziellen Fork, der...
+ Ich habe auch irgendwann mal für Tim, glaube ich,
+ auch für irgendeine Kongressplanung mal so ein Plugin für Pentabuf geschrieben,
+ was irgendwie PDFs generiert hat, damit man das Ausdrucken
+ und auf dem Boden den Fahrplan machen konnte.
+ Lange her. - Das gibt es tatsächlich immer noch,
+ dieses Plugin in einer gewissen Form. - Oh, unheimlich mit meinem Code.
+ Das war nämlich nicht schön. - Nee, nee.
+ Da hätte man noch mal andere Leute einladen können
+ für die Geschichte der Fahrplan-Apps.
+ Aber wir wollen jetzt nur gegen diesen Unterschied bleiben.
+ Genau. 32.3 ist der Code dann natürlich wiederverwendet worden.
+ Und dann sind wir ja umgezogen. Und mit diesem Umzug...
+ Also ich habe zu viele Hüte auf, stelle ich immer wieder fest.
+ Und unter anderem war ich auch in diesem Lust im Wikiteam.
+ Und langsam ist das Semantic Media Wiki halt einfach...
+ Es haben immer nur dieselben drei Leute gemacht.
+ Das war nicht erweiterbar genug.
+ Manchmal hätte man doch halt irgendwie einfach
+ so ein Standard-Framework in Python oder sonst irgendwas nehmen müssen.
+ Und ein Team, das sehr darunter gelitten hat,
+ war halt das Assembly-Planungsteam.
+ Und da ist irgendwie...
+ Wie ist da eigentlich der Kontakt zustande gekommen?
+ Hey... - Das war ein Regio-Treffen,
+ wo wir zusammensaßen.
+ Und irgendwie war da eine entspannte Runde.
+ Und damals SMTV war es, der sagte,
+ das ist irgendwie total doof, irgendwie, wie das gerade läuft.
+ Man müsste doch eigentlich irgendwie mal eine App bauen,
+ wo die Leute irgendwie die Daten eintragen können,
+ dass das irgendwie ein Formular ist,
+ wo wir dann quasi die Anmeldung akzeptieren können,
+ im Sinne von wir nehmen das Village an,
+ oder die Assembly an auf dem Kongress.
+ Und können dann vielleicht noch mit denen ein bisschen kommunizieren.
+ Aber eigentlich brauchen wir nur eine, böse formuliert,
+ etwas bessere Exit-Tabelle.
+ Mit ein bisschen Individualisierung.
+ Strukturierte Daten. - Strukturierte Daten, genau.
+ Gut, das hat man im Wiki grundsätzlich auch.
+ Aber da kann halt dann jeder editieren,
+ mit Annehmen, Ablehnen und so weiter.
+ Und naja, ich hatte zu der Zeit auch schon relativ viel Django gemacht.
+ Und dann haben wir halt einfach mal,
+ während er so erzählt, da habe ich einfach mal so einen Mock abgebaut mit Django.
+ Also ein paar Models runtergeschrieben.
+ Genau, ein paar Models einfach mal grob hingenbaut.
+ Und gar nicht groß Interaktionslogik oder sonst was.
+ Und dann einfach nur über diesen eingebauten Django-Admin halt gesagt,
+ okay, ist das jetzt so ungefähr schon mal das,
+ was du gerade abbilden willst?
+ Und ich weiß noch, wie er so ein bisschen sprachlos wurde.
+ Und als er dann merkte, so Moment, das ist gerade nicht nur,
+ das ist schon irgendwie interaktiv, was hier gerade läuft.
+ Vor allem, er hat da halt auch gemerkt,
+ wie viel Aufwand das in Mathematik-Wiki immer war.
+ Und du machst das einfach in Python, Django, Framework kurz runter.
+ Genau, und man hat ja wirklich gesehen,
+ so wie in dem Moment, dass irgendwie diese Erwartungshaltung
+ gerade überhaupt nicht mehr gematcht hat.
+ Und dann haben wir halt in den folgenden Monaten das weiter ausgebaut.
+ Und dann auf dem 34C3 ist dann dieses, also wir waren halt wenig kreativ beim Namen.
+ Wir haben halt Assembly-Anmeldungen.
+ Ja, wir müssen jetzt irgendwas mit Assembly, wir packen ein X hinter.
+ Okay, schreibweise müssen wir das anpassen.
+ Okay, Assemblix.
+ Also da war nicht wirklich viel Kreativität hinter.
+ Das haben wir ja dann auf dem 34C3 schon für die Assembly-Anmeldung benutzt.
+ 35C3 genauso, mit ja leichten Erweiterungen, irgendwie bei irgendwelche Exports, die dann dazukamen.
+ Aber das war halt immer noch ein Tool einfach nur für die Assembly-Orger,
+ wo wir ja die Anmeldung geplant haben, abgelehnt haben, Dinge aggregiert haben.
+ Und dann konnten dann irgendwann in den späteren Versionen auch anfangen,
+ halt irgendwie befreundete Assemblix zu markieren,
+ was halt dann für die gesamte Planung benutzt wurde,
+ um befreundete oder thematisch zueinander passende Assemblix zu gruppieren,
+ dass die halt nah beieinander sind.
+ Und ja, da haben wir halt angefangen.
+ Das Tool an sich ist relativ statisch geblieben,
+ weil es halt einfach erst mal die Funktion, die es haben sollte, einfach erfüllt hat.
+ Nämlich Assembly-Anmeldung.
+ Und ja, dazwischen war dann halt vor vier Jahren das Camp.
+ Da saßen wir dann in einer Vierer-Runde zusammen und...
+ Genau, SMTV, Hey, ich und...
+ Also Russ.
+ Russ, der jetzt auch die Camp-Karte macht.
+ Der jetzt auch die Camp-Karte macht, genau.
+ Und ja, wir haben uns halt mal ein bisschen zusammen getroffen und haben halt mal ein bisschen unterhalten,
+ wie müsste man das eigentlich mal ein bisschen größer machen, dass man diese Assemblix-Anmeldung und diese Karte...
+ Weil, also, wenn man Assemblix anmeldet, dass man die dann auf eine Karte bringt, wäre ja eigentlich mal fantastisch.
+ Und natürlich.
+ Und haben wir halt mal angefangen, ein bisschen rumzuspinnen, was man so machen könnte.
+ Und naja, gut, im Sommer, dann... Nächste Kongress war schon nah dran.
+ Wir waren auch eher so ein bisschen wegen Karte auch in dem Camp-Modus, wegen Outdoor.
+ Naja, die Camp ab 15 war auch die erste.
+ Da habe ich dann gleich erstmal einen POI-Karte eingeführt, aus genauer dem Grund, weil es ist halt auf dem Camp einfach viel wichtiger.
+ Genau, und ja, da haben wir halt uns ein bisschen mal Gedanken gemacht, wie müsste das grob aussehen.
+ Letztendlich, auf dem 36.3., ist aber dann auch wieder einfach das normale Assemblix noch wieder gelaufen.
+ Und ja, dann kam so eine Pandemie um die Ecke, aber... Ja.
+ Genau, ich hatte dann mal so ein bisschen... Also wir haben dann irgendwie so...
+ War klar, okay, wir müssen irgendwas machen.
+ Und dann hatte ich hier angefangen, so ein bisschen Altitude ja gar nicht zu schreiben.
+ Also so, wir haben eigentlich mit dem Namen rumgetan, ob es das Hub oder Plattform oder was weiß ich noch haben und wie sich alles verbindet.
+ Und wir dachten dann, ja, okay, es gibt dann eine Listen-Clienten, ein Welt-Frontend-Tee ist es damals noch, also irgendwie eine 2D-Karte oder so was.
+ Damals wirklich so noch mit, ja, müssen wir wohl alles selber bauen.
+ Und es gab auch die Idee, so ein Text-Adventure, ja, sich doch als Alternative einen Klein zu haben, ja.
+ Und das Hub wirklich nur so als Mittelwehr, der halt eine definierte Schnittstelle hat.
+ Aber eben auch schon, wie man es hier so ein bisschen sieht, mit einer... mit einer... mit der bekannten Schnittstelle, mit der Shettle-Chasing.
+ Ich kann ja eigentlich ja auch malen. Ja.
+ Ja, aber da ist ja schon... Aber nicht so dick und grün.
+ Nicht so dick, ja. Ando, oder?
+ Genau. Aber du musstest da jetzt eigentlich schon dazu sagen, das ist jetzt ja auch schon wirklich RC3.
+ Ja. Wo das mit der Welt und so dazukam, weil das war halt dann einfach der Punkt.
+ Dann kam halt diese Pandemie um die Ecke und es hatten ja ein paar Leute mitbekommen, dass wir da so ein bisschen am Planen waren und am Überlegen waren.
+ Und ja, ich weiß nicht mehr, wie genau der Kontakt zur Shande kam.
+ Auf jeden Fall irgendwann kam die Anfrage, hey, ihr habt doch da was gebaut.
+ Kann man das nicht irgendwie... Ihr habt ja was angefangen zu bauen. Kann man das nicht irgendwie aufbauten, erweitern?
+ Wir haben davor so eine Online-Uniconferenz zu machen, weil Kongress kann nicht stattfinden.
+ Geht da was? Und ja, da ging was.
+ Ich glaube, das war das beste, oxtanisiertste Software-Projekt im CC, das ich je gesehen habe. Es gab User-Stories.
+ Mit Nummern und allem.
+ Ich erinnere mich, ich habe da was gesehen. Ich habe die Issues, glaube ich, gesehen.
+ Genau. Also es gab halt wirklich ausgearbeitete User-Stories. Also bei den User-Stories war ich tatsächlich gar nicht mit dabei.
+ Ich bin erst später dazugekommen und habe halt einfach so User-Stories schon vorgefunden, war geplättet.
+ Man hatte hinterher gemerkt, dass manche User-Stories halt einfach erst mal nur noch Ideen waren, die halt noch nicht irgendwie wirklich ein ernsthaftes Konzept ergeben haben.
+ Und naja, wir haben dann halt irgendwann angefangen, diesen Hub zu bauen.
+ Wir haben halt versucht, diese Assemblies, virtuelle Räume irgendwie miteinander zu verknüpfen.
+ Bei virtuellen Räumen ging es insbesondere darum, dass man Jitsis, Group-Lattens erstellt, dass Leute sich zusammensetzen können.
+ Also die Idee war, so eine Art virtuelle Lagerfeuer zu bauen.
+ Dann gab es halt irgendwann noch diese Idee mit dem Text-Adventure. Die gab es da irgendwie in den User-Stories schon.
+ Irgendjemand kam dann irgendwie auf die Idee so, hey, da gibt es jetzt gerade irgendwie so ein 2D-Ding, das nennt sich Work-Adventure.
+ Die Datenspuren waren da.
+ Ah, die Datenspuren, ja genau, richtig.
+ Das kam eigentlich ziemlich genau zu dem hin, was wir auch in dieser Konzeptionsgruppe da so überlegt hatten, wie so eine 2D-Charakter aussehen könnte oder so was.
+ Und als haben wir hier gegeneinander überlebt, was kann man machen von der Firmenweihnachtsfeier bis zum Kongress, hat jeder irgendwie etwas gemacht.
+ Genau, und es waren ein paar von uns aus diesem Projektteam, natürlich alles ehrenamtlich und so weiter, auch virtuell auf den Datenspuren.
+ Und da haben sich auch Leute eingeladen und so.
+ Und das hat irgendwie sehr gut gepasst.
+ Und plötzlich waren wir als Hub auch halb für die Betrieb dieser Work-Adventure-Plattform zuständig koordinieren. Keine Ahnung, wie das genannt hat.
+ Wir haben tatsächlich dann letztendlich, also am Anfang war halt einfach eine Riesensorge, wenn wir jetzt einfach Kongress einfach mal eben auf dieses, insoweit auf das Work-Adventure drauf werfen,
+ also die einfach Zahl der Teilnehmenden von einem Kongress nehmen und das auf so einen Work-Adventure-Instanz drauf werfen.
+ Also die ersten Versionen haben halt irgendwie so auf einem relativ dick ausgestattetenen Server irgendwie 100 Clients oder so ausgehalten.
+ Das wäre halt eine Materialschlacht geworden.
+ Gut, dann haben halt mal ein paar Leute auf diesen Code draufgeschaut und haben den ein bisschen optimiert.
+ Am Ende waren es glaube ich dann irgendwie so 800 pro Instanz, die funktionierten. Und dann ist halt auf der ersten RZ3 ein Riesenkoloss gebaut worden,
+ wo wir halt automatisch Instanzen gespawnt haben, pro Assembly irgendwie eigene Instanzen.
+ Und wenn man halt zwischen den Instanzen hier und her gehüpft ist, hat man technisch die Instanz gewechselt.
+ Das haben wir aber über die Load Valencia versteckt. Die Login-Tokens dafür hat er abverteilt und hat das Ganze koordiniert.
+ Darüber sind dann auch neue Versionen gespawnt worden. Also da ist ein Riesengetriebe-Uhrwerk im Hintergrund am Laufen gewesen,
+ die ganzen Sachen miteinander zu koordinieren, was man halt nach außen nicht mehr groß gemerkt hat.
+ Die zentrale Idee dabei war, dass wir diesen Hub halt auch dafür benutzen, eine Anmeldung zu ermöglichen.
+ Also die Idee war, exklusiv so ein SSO anzubieten, dass halt einzelne Hacker-Spaces, lokale Events eingebunden werden können
+ und man einfach quasi mit einem Login überall hin hüpfen kann. Das ist am Ende, das Engelsystem hat es definitiv genutzt.
+ Und es gibt noch so zwei, drei andere, die es genutzt haben. So richtig gut viel genutzt wurde es leider nicht.
+ Aber diese Grundidee war halt geboren, dass wir halt eine Komponente schaffen, die Sachen zusammenbindet.
+ Und naja, das zentrale Element war hier ja auch, dass wir die Fahrpläne dann angefangen haben zu synchronisieren.
+ Denn die RC3 war, jetzt ist es die zweite Instanz, gab es mehrere lokale Bühnen, mehrere lokale Fahrpläne,
+ die sich halt die lokalen Bühnen ausgedacht haben und einfach auch teilweise sehr unkoordiniert zueinander erstellt haben.
+ Und die mussten halt irgendwie gemeinsam auf ein gemeinsames Tablo gewandt, damit es einfach ein Dach, ein Schirm wurde einer gemeinsamen Veranstaltung,
+ auch wenn die komplett dezentral war.
+ Ja, also ich habe hier mal wieder einen Diagramm dafür aufgerufen.
+ Also da gab es aus Gründen dann doch noch eine FRAP-Instanz, die magisch aufgetaucht ist, die einen Teil der Leute benutzt hat.
+ Andere hatten dann keine Lust auf Dinge. Dann gab es auf FRAP, das war sozusagen die zweite Generation, das DC, keine Ahnung, wie man da genau zählt.
+ Ich sage immer, die nullte Generation sind die Filemaker-Datenbanken von Tim, die aber auch dieses XML-Format wohl schon ausgespuckt haben,
+ wenn ich das richtig verstanden habe. Da hat einfach jemand ein RC3-Punkt-Studio-Domain geholt und da ein PTOX draufgeworfen.
+ Und da war ein Teil und da gab es natürlich trotzdem noch mal der CCC-Lied, die Dezentralität, weitere PTOX-Instanzen und die habe ich mir einfach zusammengezogen.
+ Und damals tatsächlich noch die Idee war, ja, das läuft dann alles schön in den Git-Repo, da sieht man was passiert.
+ Da ist dann das Git-Repo, da hatten wir damals schon eine CheX hinten dran, die das dann machen. Das ist natürlich eigentlich völlig geworden,
+ sodass dieses Skript dann einfach für alle Updates immer so einen Rest-Upsert-Call Richtung Hub gemacht hat.
+ Aber auch da war schon das Problem, irgendwann ist es mal auseinandergelaufen, fragt mich nicht warum, also muss man da komplett zynk machen.
+ Und dann waren die Leute wieder verwundert, was dann passiert ist und dann hat Hey halt gesagt, okay, er versucht mal diesen Code zu nehmen und sinnvoll als erfahrener Django-Entwickler da zu integrieren.
+ Und das war sozusagen dann die nächste Iteration, wo das Ganze so geplant war und größtenteils auch so stattgefunden hat.
+ Also in dem Fall hat dann das Vox gesagt, ja, dann machen wir halt das mal eine PTOX-Instanz, wenn es jemand andert.
+ Leute im Vox haben das getan und einfach gemacht, wie das halt immer so läuft im Club.
+ Wer macht das Recht? Ist das immer so?
+ Ja, genau. Da gab es natürlich noch ein paar Dinge und auch damals ist schon, deswegen haben wir diese Verbindung hier unten noch drin, kamen dann irgendwie Toto auf mich zu mit, es ist immer noch viel zu groß.
+ Was?
+ Das sind ja die Bilder gar nicht drin. Die Bilder der Speaker sozusagen. Die fehlen halt in dieser Schedule.xml-Spec und in der JSON waren sie halt ein extra Pfeil nebendran.
+ Genau, da gab es noch so ein Speaker, also wenn das früher auch aus dem Frab das rausgeblieben hat, hat der immer zwei Pfeils ausgespuckt, nämlich das Schedule.xml und dann gibt es eine JSON-Version davon, dass er nicht nur umbesetzt ist und dann halt Speakers.json.
+ Speakers.json ist halt, also die App hat halt, also wenn du so eine App baust, dann willst du ja nicht nur so Textwüste haben und eine Sache, die ich habe, ich habe nicht viel, also Bilder oder so ist ja, aber eine Sache, die du hast, sind halt die Avatare von den Speekern und das macht es ja auch nett, dann erkennt man die Leute wieder und so weiter und die will ich halt drin haben.
+ Naja und die kriegst du halt aus dem Pre-Talks raus, weil die Leute das da hochladen, die pflegen da auch ihre Beschreibungen und so weiter und das ist halt alles nicht, wenn du nur das Schedule.xml exportierst, dann ist das halt nicht drin.
+ Und dann ja, und dann hab ich halt, ich hatte ja diesen Exporter eh gebaut für die Republikan-Dame, dann hab ich gesagt, naja gut, dann baue ich jetzt noch einen.
+ Also da hat die Republikan-Dame schon auf Pre-Talks umgebracht.
+ Die Republikan-Dame macht ja ja ja, die machen ja ja ja ja.
+ Die machen es ja jetzt ja. Nein auch nicht, die, die machen es ja jetzt ja ja. Nein auch nicht, die politik schon, aber Pre-Talks haben es ja ja ja ja. Nein auch nicht, die politik schon, aber Pre-Talks haben es ja ja ja ja. Nein sie benutzen das PHP, das PHP mit dem Drupal.
+ Drupal, ja, genau. Zu meinem Leidwesen benutzt sie Drupal, ja. Also nichts gegen Drupal, aber also ich kenne mich die Drupal nicht aus, aber wenn ich von außen damit zu tun habe, ist es immer anstrengend.
+ Es ist eine eskepte/. Ja ja, Jace, ja auch klassische PHP Krankheit, ist was wie, oh ist das eine leere Liste, dann muss es wohl ein leeres Array sein, wenn auch ein leeres Hash sein sollte und solche Dinge.
+ In Jace, ne, ja ganz beliebt. Aber ne und dann, genau, da hab ich da die Daten, da hab ich halt einen Pre-Talks-Importer geschrieben, weil Pre-Talks hat ja eine Latter-S API, da kann man ja gut, die ist auch gut dokumentiert und so.
+ Da hab ich die Sachen da rausgezogen, dann direkt und dadurch, dass ich mein neues Skript jetzt schon hatte, ne, hab ich dann halt gesagt, ok dann pack ich halt zwei Daten, dann schau ich halt wo ist die Liste der Pre-Talks und dann hol ich es mir halt selber von den ganzen.
+ Ist jetzt ehrlich gesagt auf dem Camp auch aus genau dem gleichen Grund genau wieder so gebaut, weil natürlich, es gibt zwar ein zentrales System, ne, aber das Problem ist, dass ich halt viele Daten nicht bekomme und dann hab ich gesagt, ja gut, ich hab die Importer schon, ich muss nichts tun, also schreib ich einfach ein paar Konfigurationsdoteien da rein und fertig ist.
+ Ich hab ja auch noch viel mehr Datenquellen, also die Points of Interest hier auch noch drin, die kommen dann wiederum aus dem Maps Seite und so.
+ Die dann wieder aus dem Hub kommen?
+ Ja, die wieder aus dem API.
+ Oder wie ist denn da jetzt der aktuelle Workflow?
+ Es gibt tatsächlich noch zwei Arten von Points of Interest, also es gibt mittlerweile viele, die tatsächlich von der Village Orga verwaltet werden und auch angelegt werden und vom Hub ausgespielt werden, sodass sie dann von Rustkarte wieder eingelesen werden.
+ Das allerdings auch nicht live, sondern irgendwie momentan noch in einem, glaube ich sogar manuellen Bild.
+ Er macht halt mal irgendwie der Deploy und dann wird halt alles wieder zusammen.
+ Ja, also mehr oder minder regelmäßig werden die aktualisiert, das heißt die Daten, die eigentlich live aus dem Hub kommen könnten, sind momentan dadurch noch ein bisschen unterbrochen.
+ Nichtsdestotraus gibt es separat dazu noch mal einfach eine separate Liste von Points, die vorher oder über andere Quellen definiert sind.
+ Also wir haben zum Beispiel den ganzen Datenklos haben wir einfach nicht.
+ Und die Gebäude sind sehr...
+ Genau, die sind momentan nicht drin. Das ist zwar perspektivisch durchaus die Überlegung, das auch mal miteinander zu verheiraten, die beiden Projekte.
+ Also wir sind halt, als wir vor vier Jahren tatsächlich hier bei Millieways abends saßen, die Idee war damals schon, dass wir die, das Assemblix, die Assemblyverwaltung mit der, mit Rustkarte vom EMF Camp miteinander irgendwie vertüdelten.
+ Das ja.
+ Und ein bisschen halt noch CC-Flausch für andere Sachen draufpacken und dann haben wir ein fertiges Produkt.
+ Dann war die Pandemie.
+ Genau, dann die Pandemie, aber so oder so ganz so weit sind wir noch nicht gekommen.
+ Naja, aber dieser Giz Branch ist da schon wieder reingekommen.
+ Also ich muss jetzt jeder auf mein Mac OS installieren, was im Zug ein bisschen...
+ Tut mir leid.
+ Lustig war, aber ja.
+ Tatsächlich hatten wir am Anfang schon Giz Support drin, den haben wir dann halt so im Rahmen der RC3 wieder erstmal wieder ausgebaut, weil es halt einfach nervig war, die ganzen Abhängigkeiten mitzuschleppen, wenn man nur rein virtuell war.
+ Und naja, jetzt vor ein paar Wochen haben wir es dann doch wieder mit reingenommen, weil gut, also wir haben halt einen alten Code auch reaktiviert.
+ Und jetzt haben wir halt den ganzen Giz Support wieder mit drin, das heißt die Village Orga, ja, platziert halt Assemblies, weist die Plätze zu.
+ Momentan sind es noch tatsächlich zwei verschiedene...
+ Am Anfang ist es halt so ein AutoCAD Planungsding, weil das halt für die ganzen Behörden und so, die wollen Pläne in AutoCAD haben.
+ Da ist DWG waschen.
+ Genau, DWG ist das Format, ist halt das AutoCAD Format und irgendwie...
+ Proprietär.
+ Proprietär.
+ Sie haben das Gespeck.
+ Zum Paar sind die absolute Hölle.
+ Wir haben mehrere Versuche gestartet, die alle gescheitert sind, aus den unterschiedlichen Gründen, dass dieses Format ist einfach die absolute Hölle.
+ Aber wie war das Pipeline da jetzt aussieht?
+ Ich glaube, wir warten jetzt in DXF und das ist wieder Handelsspeck, ja?
+ Ja, und er muss aber, also auch die Village Orga muss auch teilweise aufpassen, wie sie exportiert, was sie wo irgendwie einträgt.
+ Und dann gibt es ein paar auch Fallstricke, das macht halt keinen Spaß.
+ Das ist momentan die einzig wirklich praktikable Variante, weil halt für die ganzen behördlichen Genehmigungen und so weiter wird das momentan noch benötigt.
+ Perspektivisch vielleicht, so unsere Hoffnung zumindest, kriegen wir es irgendwann mal hin, dass wir sagen, okay, wir haben die ganze Planung vorbereitet.
+ Okay, wir haben den Grundlayer irgendwie mal vom, zum Beispiel jetzt hier, Ziegeler Park Mildenberg bekommen, werfen die anderen unsere Sachen drauf, exportieren daraus wieder ein DWG und können das halt hier an die Stadt Zedenik oder was das genau ist Gemeinde weitergeben.
+ Und alle sind glücklich.
+ Wir können vernünftig arbeiten und Behörden und sonstige Architekten, was auch immer hier alles, haben ihre Daten.
+ Oder die Behörden stellen mal auf ein offenes Format um, aber das wird wahrscheinlich passieren.
+ Tatsächlich, ich habe ja mal Architekturinformatik studiert als Nebenfach.
+ Und die nordischen Sender sind uns das so schoven, so viel weiter.
+ Also da gibt es dieses EFC-Format, Industry Foundation Classes, war ursprünglich so für Kaffeemaschinen, Gebäude und so.
+ Also da kommt das Step-Format noch her.
+ Hast du dir schon mal von erzählt, ja.
+ Aber es gibt irgendwelche Richtlinien oder Gesetze, dass das ab einem gewissen Zeitraum alles, was öffentlich gebaut und geplant wird, auch in diesem Format stattfinden muss.
+ Und dann müssen sie ja damit umgehen können.
+ Richtig.
+ Und das ist, also ich muss da mal wieder bei dem Lehrstuhl nachfragen oder bei der Kratzstelle, wie nennen die das da?
+ Also Computer-Aided Design, da hast du ZUG und CAD, ja genau.
+ Was daraus geworden ist, aber es kann sich nur noch um wenige Jahre handeln, bis das tatsächlich für alle neu gebauten Dinge Pflicht wird.
+ Also lass mich bitte in meine Utopie werden.
+ Also müssen wir jetzt bei den nächsten Camp-Locations immer aufpassen, dass es in den jüngsten Jahren erst gebaut wurde.
+ Damit wir CAD da schicken.
+ Das ist eine Open-Data-Checkliste.
+ Ja, genau.
+ Gut.
+ Ich habe jetzt hier nochmal, ich muss tatsächlich auf das Wiki wechseln.
+ Ich mache mal kurz wieder selbstfahre.
+ Das ist das Diagramm von diesem Jahr.
+ Das war tatsächlich hier oben unser neues Playout System für das Studio.
+ Das sollte eigentlich auch einen automatischen Import bekommen, aber das ist dann leider erstmal weggefallen und der Importer bin jetzt ich.
+ Es gibt hier zwei Pre-Talks-Instanzen.
+ In dem Fall einmal wieder das CTAVOC-Pre-Talks, in dem es tatsächlich mehrere Konferenzen oder so ähnlich.
+ Zwei.
+ Ja, ich weiß nicht mehr, ob es Konferenz in Pre-Talks-Sprache ist oder die haben nochmal ein bisschen andere Namen.
+ Event heißt es glaube ich da in der Sprache.
+ Genau.
+ Event und Talk ist es in Pre-Talks?
+ Nein, also in Pre-Talks ist es erstmal als Submission.
+ Erst wenn es platziert ist, ist es formal ein Talk.
+ Details, details.
+ Richtig.
+ Es fragt mich nicht, wo diese Querlinie hierher kommt, aber generell, ich glaube du importierst gerade beides parallel und merchtest das.
+ Genau, ich habe drei Pre-Talk RP Endpoints und die merge ich dann wieder und jetzt, was du jetzt noch nicht drauf hast, ist den Hub, nehme ich jetzt auch noch die Daten hier.
+ Das ist diese Linie hier oben.
+ Ah, die hast du jetzt dazu gekommen.
+ Die Wallet ist hier mal schon drin, weil wir das auch da schon überdiskutiert haben.
+ Genau, weil ursprünglich wollte ich es nur vom Hub nehmen, aber aus bestimmten Gründen habe ich es dann doch wieder geändert, aber ich nehme jetzt die Self-Organisation von da.
+ Denen fehlen allerdings noch für die Up-D Locations, deswegen sind sie so ein bisschen unholprig.
+ Die müssten halt irgendeine Location von uns noch zu bekommen, dann könnte man es noch schön drin haben, aber das ist ja Work in Progress halt.
+ Also da müssen wir uns halt auch nochmal allgemein zusammen mit auch den anderen Client Entwicklern, also ich denke vor allem an Tobias, der dieses Mal leider nicht da sein kann, weil er auf einem anderen Kontinent ist, so wie ich das verstanden habe, auch nochmal zusammensetzen wie immer mit so fahrplanlosen Events.
+ Also es hat halt auch...
+ Mehrtages-Events gibt es auch noch, gibt es ein paar Bausteine...
+ Ja, also Don't Get Me Started, 48 Stunden Events, die aus Versehen entstanden sind, die dann...
+ Oder ganz kurze hatten wir jetzt, also ich filtre zum Beispiel jetzt alles raus, was unter 15 Minuten ist, weil es einfach...
+ Wir filtern schon alles raus, was unter 5 Minuten ist.
+ Ich habe auch noch eine extra gemerchete Shattel-Variante mit den alten Tools bauen müssen, wo alle Lightning Talks dann ein Talk war, weil das Engel-System halt nicht wollte, dass alle 5 Minuten die Engel für die Schicht wechseln oder sowas.
+ Also da kann man tausende Storys in dem Bezirk erlernen.
+ Wir haben jetzt auch wirklich in der gesamten Vorbereitung noch haufenweise Stolpersteine gefunden, wo wir einfach gemerkt haben, so unsere Theorie kollidiert hier mit der Praxis.
+ Also das gesamte Hub-Projekt wird sich auch noch massiv weiterentwickeln und wir haben noch haufenweise auch Ideen dabei.
+ Und genau halt solche Probleme, wie halt irgendwie, dass man dann so von Spekern irgendwelche Bilder mit anzeigt, wenn die schon hochgeladen wurden.
+ Ja, da müssen wir halt gucken, wie wir das exportieren.
+ Den Change dafür habe ich tatsächlich auch schon in meinen lokalen Dingern wiedergefunden und in der Zwischenzeit hat es auch einen Pull-Request geschafft und ich bin zuversichtlich, dass das dann mit dem anstehenden T-Talks-Release Ende des Monats, also Ende August 2023, dann auch alles da drin sein wird.
+ Und wir nicht mehr doppelt und dreifach Zeug merchen müssen.
+ Ich war kurz irritiert, welchen Merchrequest, den habe ich noch nicht gesehen, aber ich meine, das ist ein Quersystem, weil daran krankt das halt momentan, dass wir halt, wenn wir halt die Daten nicht irgendwie gut rausbekommen bisher, dann können wir sie noch nicht importieren.
+ Aber selbst dann haben wir immer noch das Problem, dass wir uns jetzt ja wieder überlegen müssen, der eine und derselbe Speaker in dem einen Pre-Talks, ist dann technisch erstmal eine andere Person im anderen Pre-Talks.
+ Wie verbinden wir die beiden?
+ Soll ich dir mal sagen, wie der ab das macht?
+ Und ich weiß sogar, wie das macht. Ich weiß nicht, ob du sagen möchtest. Und dann halt zusätzlich noch wieder die Überlegung, wenn jetzt irgendwie dann sich jemand tatsächlich beim Hub hier auch anmeldet und sich dort irgendwie registriert, dass wir dann halt auch wieder sagen können, so das hier sind deine Events, dass man dann diese selbe Person wieder irgendwie miteinander, dass man irgendwie einen Weg schafft,
+ dass die sich untereinander identifizieren können. Also kann man natürlich jetzt, wie im Pd-Verse, halt irgendwie gucken, dass man irgendwelche Trust Anchor...
+ Webfinger wäre vielleicht eine Variante dafür.
+ Webfinger, welche? Also es gibt ja 17 verschiedene Varianten. Da müssen wir überhaupt noch jetzt diskutieren, was wir sinnvoll machen können.
+ Ja, und es haben sie ja auch, Speaker, geschafft, einfach mehrfach sich Accounts zu machen, weil sie vergessen haben, wie die Mail-Adress von ihrem anderen Account war. Also gerade die Leute, die immer für jede Seite eine eigene Mail-Adresse benutzen, die musst du extra nochmal als eigenen Case für so eine Person, G-ID, wie ich das Ding mal überschrieben habe, vorsehen.
+ Ich dachte noch so ein bisschen, man könnte über die Mail-Adressen was machen. Also früher bei Frap und Vorgänger konnte man sagen, ja, Mail-Adress ist öffentlich. Damals war halt Mail noch so ein primäres Kommunikationsmedien und nicht so dieses ganze andere Zeug.
+ Stimmt, da gab es die Mail-Adresse öffentlich teilweise.
+ Ja, und dann kann man auch mal sagen, wer der Speaker entscheiden möchte, die Anzeige oder nicht. Mit Pre-Talks gibt es das nicht mehr, die Mail-Adresse ist ein rein intern, was heutzutage einfach mehr üblich ist an der Stelle, CS-BAM. Wie gehst du dann noch um?
+ Also ich hatte noch ein bisschen über, wie herrschen die Mail-Adresse, aber da hat mich Hey leider dann ein bisschen abgeholt, dass man es dann doch wieder raten könnte und wie geheim ist es. Also da rufe ich auch gerne alle Leute dazu auf, die irgendwie an diesem Kosmos mitentwickeln und damit konzentrieren, dass wir uns da mal gemeinsam was ausdenken, wie wir das hinbekommen.
+ Ja, eine Art von quasi federated identity brauchst du ja de facto.
+ Das wäre Webfinger in dem Sinn. Also da schaust du in der Zeit so einen Well-Known-Ordner, gibst den Nutzer und da steht dann halt der Primera Identifier.
+ Also wir haben da auch schon andere Ideen mit irgendwelchen Tokens, die man dann anzeigen lassen kann und abfragen kann und wir haben schon ein paar Ideen mal durchgespielt, haben alle ihre Vor- und Nachteile und wir haben noch keine Lösung, wenn da draußen gerade jemand sagt so, holen wir mal, ich habe doch hier die Lösung, bitte schickt uns eine Mail hub.cccv.de. Ja, wir freuen uns über Input.
+ Das ist vielleicht generell so ein Thema, also wenn man jetzt beim Hub mitmachen möchte, wo findet man denn den Code davon?
+ Genau, der Code ist auch öffentlich abrufbar auf git.cccv.de/hub/hub. Dieses doppelte Hub hat ein bisschen historische Gründe.
+ Ja, das ist eine GitLab Instanz, da kann man auf jeden Fall den Code auch klonen. Die Mail-Adresse habe ich glaube immer noch nicht in der Projektbeschreibung eingetragen, ist wie gerade schon gesagt hub.cccv.de und ja, da gibt es haufenweise Infos, wie man das lokal auch starten kann.
+ Wir haben den Wogonischen Kongress als Demo-Daten, es gibt auch von den RC3, also die öffentlich verfügbaren Daten auch als Demo-Daten.
+ Das heißt, man kann sich so eine RC3-Edition 2020/2021, kann man sich beide spawnen. Camp 23 wird wahrscheinlich dann auch mit Ende des, wenn wir einen Stand haben mit allen Villages und so weiter, wird der wieder sanitized, das heißt die personenbezogenen Daten fliegen raus.
+ Und dann werden wir das Fiction wahrscheinlich auch da mit rein tun, dass man dann halt auch das wieder spawnen kann. Das heißt, man kann das relativ gut auch ja selber starten, selber weiter entwickeln.
+ Wir freuen uns über Input und auch um fleißige Hände, die mit entwickeln und weiter Ideen bringen.
+ Was man gerade eben schon kurz angeteasert gesehen hat, ist, wir haben auch eine API, die wird auch mittlerweile schon von einigen benutzt.
+ Also wir haben schon ein paar Anfragen gehabt, die jetzt irgendwie, also irgendein Village hier benutzt jetzt schon die API, um die eigenen Vorträge, die sie haben, wieder auf irgendeinem Art Infobeamer, auf irgendeinem speziellen Display wieder hier vor Ort anzuzeigen.
+ Das heißt, sie pflegen ihre Daten irgendwie in der Pre-Talks Instanz, die werden vom Hub rein synchronisiert, werden dort über die API für deren Village wieder mit ausgespielt.
+ Also da filtern sie dann auf ihr eigenes Village nur, weil sie dort die Sachen als Teil eines größeren einbauen und spielen das halt dann über die API wieder auf ihr Display.
+ Ich habe es selber noch nicht gesehen, ich habe nur die Kommunikation dazu gesehen.
+ Ja, also wie gesagt, für mich hat es halt, ich habe da in einem Hub-Projekt dann einfach diese APIs gebaut, das war das selbe Shattrille XM-Element, das rausfällt, wie wir sonst gewohnt sind.
+ In dem Zug dann haben wir auch mal für das Shattrille-Chasing ein Schema geschrieben, das jetzt auch noch eine schöne ID hat und da wo auch das Schema liegt und so.
+ Das was ich gerade erzähle, ich meinte, war wirklich noch die Rest-API.
+ Ja, genau, zum Beispiel da wäre es ja auch, die Favoriten wären glaube ich das erste Ding, dass man die irgendwie aus den Fahrplan-Apps irgendwie da reinbekommt oder so was.
+ Ja, aus der Decation und so was, klar, das ist natürlich ein spannendes Thema.
+ Genau, also im Hub haben wir ja auch, also wenn man sich auf der Webseite sich das anschaut, kann man sich ja auch Events markieren, kann sagen, so hey, das ist in meinem persönlichen Fahrplan,
+ man kann sich seinen persönlichen Fahrplan zusammenstellen, ähnlich wie die Apps das machen und da müssen wir uns halt auch mal jetzt irgendwie unterhalten, wie kriegen wir das jetzt irgendwie synchronisiert,
+ dass man halt irgendwie auf seiner iOS-App Sachen sich markiert, dann im Hub irgendwie nochmal zwei, drei weitere Sachen markiert, um dann in der Android-App die Sachen auch schon zu sehen und dann halt irgendwie doch wieder einen rauszuwerfen, dass wir da halt wirklich so ein...
+ Klar, da gibt es viele, viele Themen, also man könnte sich zum Beispiel, also ich meine, das ist ja beim Wok hier, anschauen der Recordings, die Recordings da dran zu haben als Information,
+ dann auch zum Beispiel die iOS-App, speichert sich ja so was wie Watch Progress und welche du angeschaut hast und so weiter, dass man das noch mit synchronisiert, wenn man da schon mal...
+ Auf Wunsch vielleicht nur.
+ Ja, natürlich, wenn man will, genau.
+ Ja, also für Leute, die sich mehr noch für das Thema interessieren, da gibt es dieses, der Tim Berners-Lee hat doch jetzt so ein lustiges Start-up/Open Source-Project namens Solid,
+ wo sie genau solche Daten auch nochmal, also unabhängig von, also allgemein für Mediatheken oder sowas auch absperren können, ja, da hat er sich die Büsi neulich auch angeschaut und vorgutbefunden,
+ wenn wir mal Zeit haben, hätte ich da auch mal Lust draufzuschauen, ob das nicht auch unsere Use-Cases abdeckt und da ist es halt wirklich so, du kannst dann irgendwie so auch den Pod bei dir daheim hosten und nicht zwingend irgendwie in deiner Nextcloud oder in einer Nextcloud.
+ Ja, lass uns da mal wirklich nochmal gucken.
+ Ja, ja, ich wollte nur mal für Leute, die sich mehr einlesen möchten, ein paar Point da dalassen, speziell für das Schedule-Personenthema, gibt es auch schon ein Issue und tatsächlich in dem allgemeinen Schedule-Rebo bei uns,
+ die Laute 10 von, ja, ist auch schon wieder 2015.
+ Das Problem geht ja nicht weg davon, dass man es liegen lässt, ne?
+ Ja, ne, tatsächlich, den Use-Case habe ich jetzt hier nochmal extra formuliert, jetzt aus der Diskussion, die wir im Vorhinein hatten, aber da könnt ihr gerne auch drunter kommentieren, wenn ihr es gleich öffentlich machen möchtet oder den euren Issues dann refanzieren wollt.
+ Ja, genau. Gut, dein Fahrplan-App ist nicht open source, so weit ich dich jetzt weiß.
+ Ja, das ist nicht so sehr, weil sie nicht größer nicht open source sein sollte, sondern mehr so, weil ja.
+ Es macht mehr Arbeit.
+ Ja, naja, und sie ist auch momentan in keinem Zustand, den ich open sourcen wollte.
+ Die wächst halt immer so nebenan hin und das muss man auch bedienen können. Die ganze Infrastruktur ist, ich müsste irgendwann mal einen Diagramm dafür malen, ist schon sehr viel handgestreckt.
+ Das würde ich gerne mal sauber und open machen, fehlt mir momentan die Zeit dafür. Ich habe eine Kernbibliothek, die quasi dieses Redata Format da, oder was mal Redata war, lesen kann und die auch so die Datenbank import und so weiter das macht.
+ Die habe ich jetzt gerade neu gebaut in Swift, die könnte ich theoretisch mal open sourcen, weil das kann jeder, die kann man anders verstehen, also den Rest, das würde ich niemanden antun müssen.
+ Also wenn da Leute interessiert haben, könntest du dich wahrscheinlich über MasterDone bei gemeldet haben.
+ Auf MasterDone, genau, es gibt einen CampUp Account, campup@mrtoto.net, genau, und der ist aber auch, genau, auch noch mein eigener MrToto@mrtoto.net, da kann man mich erreichen, bzw. die CampUp direkt erreichen und ich, genau, ich verspreche mal nichts, aber ich hatte schon vor, die Core Library zumindest mal zu open sourcen, weil es auch nett wäre, wenn andere Leute mithelfen könnten.
+ Ja, ok, wie gesagt, muss ich eigentlich nur euch sagen, wie mich erreicht, wobei ich weiß, an der Stelle placke ich nochmal den Easter Egg Vortrag zu den IDs, das war auch so eine andere Thematik, die aber relativ weit jetzt ist, also wir haben jetzt für all Raume Geo IDs, wir haben für Events Geo IDs ja schon eigentlich relativ lang, ja das kam mir damals mit dem Shattered Chasing mit rein.
+ Jetzt müssten nur noch alle Kleinstes benutzen, ja also ihr wisst, wer gemeint ist, sodass man vielleicht von diesen Integer IDs langsam mal wegkommt, das wäre langsam nach, was weiß ich, wie viele Jahren wir dieses Format jetzt schon parallel mit Geo IDs und Integer IDs auch mal ganz nett.
+ Ja, das stimmt. Ok, wenn ihr keine Themen mehr habt, sind wir glaube ich durch soweit. Das war doch eine schöne Abriss, würde ich sagen. Ja, genau.
+ Allgemein mein Wunsch wäre einfach, wenn irgendwie noch Ideen, irgendjemand da draußen Ideen hat, was man in die Apps irgendwie gemeinsam in Use Case, dass man irgendwie Synchronationen schafft, dass man eben welche Zusatzinformationen bereitstellen kann.
+ Wir wollen halt mit dem Hub Daten integrieren, also verschiedene Quellen einfach zusammenführen und halt aufbereiten in die Fahreform-Apps, in die Infobima, ins Wok überführen.
+ Wenn da jemand Ideen hat, bitte, bitte meldet euch. Ja und am besten halt gleich Pull-Request stellen, oder?
+ Das ist Stufe 2, da gibt es dann extra Fleißpunkte für. Aber einfach auch, wenn einfach nur eine dumme Idee dabei ist, also dumme in Gänsefüßchen Idee dabei ist, bitte her damit.
+ Also es mag für euch komplett offensichtlich sein, dass es ja das da, das gerade fehlt. Wir haben es potenziell einfach in dem ganzen Trubel.
+ Man übersieht schnell was, das ist kompliziert. Wie zum Beispiel, als Andy mir dann irgendwann sagte, hey, die Speaker-Bilder fehlen, ich so, what?
+ Du hast es ja indirekt mitbekommen, weil ich mache ja so ein bisschen immer die Außenkommunikation zum Thema Schedule und ich glaube, das letzte Mal hatte ich das einfach nicht gesagt, weil es erstmal eine Baustelle bei mir war.
+ Du warst total überrascht, wie da fehlen Speaker-Bilder und eigentlich müssen wir die Personen noch mal viel besser modellieren.
+ Genau, also genau so eine Situation fand ich halt sehr exemplarisch. Wir haben nicht, also ich habe zumindest überhaupt nicht darüber nachgedacht, dass das ja relevant sein könnte.
+ Im Nachhinein denke ich so, ok, Bauschutt geraucht der Typ, warum hat er denn nicht dran gedacht? Aber genau so was, deswegen meine Bitte an alle, wenn euch sowas auffällt, meldet euch.
+ Dumme Ideen sind gerne gesehen, Mithilfe im Rahmen von Pull-Request, Merchrequest, wie auch immer, noch viel mehr.
+ Das haben wir gar nicht ganz vergessen, die Plane-UI, also das aktuelle Frontend, was wir haben, das war eigentlich nur so die Fallback-UI.
+ Wir warten eigentlich immer noch mal auf…
+ Wenn es mal ernst wird.
+ Echte Frontend-Entwickler, ja, wir sind alle in dem Team, in dem Hub-Team jetzt irgendwie Backend-Entwickler, die halt jetzt Frontend machen, weil keine Frontend-Entwickler da sind.
+ Und es wäre halt schön, wenn einfach die API mal benutzt werden würde und einfach…
+ Ja, das war auch so ein, das war eigentlich genau dieselbe Situation, dass wir dann während der LC3 hatten wir halt die ganzen Sachen vorbereitet und wir sind die ganze Zeit so in den Modus gefahren, so ja ok, wir stellen die Daten bereit,
+ wenn wir per API und dann wird die halt irgendwie aufbereitet, da gibt es irgendwie Design-Team. Das war leider eine Fehlkommunikation, es gab kein Design-Team und wir hatten halt die ganze Zeit unsere Debug-Seite, um halt überhaupt mal ein bisschen mit den Daten spielen zu können, um irgendwie zu verstehen.
+ Und naja, Kommunikations-Fuck-Up an der Stelle, die anderen hatten halt fast dann so, ja, die haben ja schon irgendwie eine UI gebaut, die muss halt noch ein bisschen hübscher werden, aber steht ja schon.
+ Und dann irgendwann ist dieses Missverständnis aufgeklärt, also entdeckt worden.
+ Und dann haben wir noch versucht zu retten, was zu retten ist, die erste Play-UI war ein bisschen, deswegen, also die heißt intern auch noch Play-UI, weil sie war halt als Debug an sich gedacht.
+ Mittlerweile haben wir das deutlich, also es ist mittlerweile aufgebohrt worden, es ist leichter anpassbar, dass wir halt jetzt die nächsten Veranstaltungen auch mit deutlich, deutlich, deutlich weniger Aufwand an Designs anpassen können.
+ Es war bisher so viel, ja, Customized Design und mittlerweile ist es halt jetzt erstmal, damit es auch für uns einfacher wird, Bootstrap basiert, umgesetzt worden. Wenn es da draußen Designer gibt, die sagen Bootstrap seid ihr bescheuert, tut das nicht, ja bitte.
+ Voll ökonomisch.
+ Das ist eben so, wer macht hat recht.
+ Ja, genau. Also an der Stelle, also wir sind da nicht drauf irgendwie fixiert, aber im Rahmen der geringen Ressourcen haben wir jetzt das erstmal genommen und wir haben jetzt schon gemerkt, dass das einfach die Mitarbeitsquote erhöht hat, weil einfach mehr Leute da mithelfen können.
+ Und ja, insofern, wir freuen uns über Mitarbeit.
+ Alles klar, wer macht hat recht ist doch ein gutes Schlusswort. Vielen Dank fürs spontane Vorbeischauen hier im Nachtstudio und wir schalten jetzt langsam die Lichter aus. Tschüss.
+ Noch mehr gedimmt gleich.
+ Ja, genau.
+ Tschau und gute Nacht.
+ Gute Nacht.

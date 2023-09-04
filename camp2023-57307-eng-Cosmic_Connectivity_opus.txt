@@ -1,0 +1,430 @@
+ [MUSIC]
+ [MUSIC]
+ [FOREIGN]
+ >> More or less.
+ Hi, I'm Oliver.
+ Who of you has heard of Starlink?
+ That's great.
+ Who of you has played with a Starlink?
+ Oh, one?
+ That's not a lot.
+ All right, so that's why I think it's a good time to talk about what's happening in space
+ and what the next frontier not only from a technology perspective
+ but also for the hacker community might look like.
+ So yeah, we're talking about things that may go boom
+ and it's exciting times and everyone that's following also what's happening with SpaceX
+ but also the greater space theme is quite excited what's happening right now.
+ Really interesting times.
+ So what's my motivation for being here?
+ So I have long time contacts with CCC even though I'm not a member,
+ even though the Burger House, I'm Spittel, no, Eidelstedt.
+ So long time ago, so I know a bit what I'm doing.
+ But what took me here is that I did some testing, part of my job for a client,
+ and I looked at how does this thing perform?
+ How does a Starlink work when it's in motion?
+ And yes, we even have Autobahn that look like railways.
+ So you may draw your own conclusions what that means.
+ So I filled my car, had a Starlink mounted to it,
+ and looked at how can we quantify what's going on, especially when that thing is in motion.
+ So basic setup, took the data there, measured power, put that in a time series database,
+ graphed it a little.
+ So nothing super strange and serious, but the outcome was quite interesting.
+ So just as an example, I saw that the performance of that thing was surprisingly good.
+ So the ping performance when you're driving at German Autobahn speed,
+ even when this overhead power line is moving over that thing,
+ is really good and very often beats what's happening in the mobile world.
+ So you can see throughput, and this is not an advertisement section,
+ it's more like my personal experience, what really draw my attention to it.
+ So this was more casual test that I can talk about.
+ So 280 megabits down, 50 plus megabits up, and very nice latency figures.
+ Power was not something that you would be concerned of,
+ so this is the high power antenna setup, the consumer thing is more or less equal,
+ but works really nice.
+ So after all, it draws little power, it has high performance, and ping is super cool.
+ I see ping rates of like 30 to 60 milliseconds,
+ which is a very good performance even in a mobile network setting.
+ So wow, how does that work? Why does it work? And what makes it so amazing?
+ So just from a technology perspective, I tried to condense it a little bit.
+ What do we want to have? We want to have a user terminal and a ground terminal,
+ and there's one or multiple satellites flying above in the skies,
+ and somehow this gets connected to the Internet.
+ So easy peasy, nothing super complex, obviously behind the scenes,
+ there's a lot of stuff happening.
+ But also we see now that these mega constellations are popping up,
+ and every couple of weeks we hear a new announcement
+ with even bigger numbers of how many satellites we're expecting to see.
+ So the world is changing here.
+ In previous times we had the Iridium, the VSSAT, and also SAS as players
+ that were mostly working from geostationary orbit,
+ and now we have these LEO low earth orbit constellations,
+ like Starlink, Amazon, Project Kuiper is about to come,
+ OneWeb is also up and running by now.
+ So we see a lot of players that are already there and there's much more to come.
+ And the benefit of what's happening there is they're flying really low.
+ So low earth orbit is anything up to 2,000 kilometers in height,
+ whereas geostationary is like 35,000 kilometers.
+ And you can really see the difference when you look at the calculated ping times
+ or round trip times for a signal when you take into account speed of light.
+ So something in the 3 to 4 milliseconds for the orbits that Starlink is using,
+ 8 milliseconds for what OneWeb is using, O3b is like 53 milliseconds,
+ all that is really, it feels like you're using a proper network more or less.
+ Whereas in previous times the geostationary players had these 250, 240 milliseconds,
+ and that's just the time it takes the signal to travel back and forth.
+ The real problem also on top of that is what's the network infrastructure
+ and is it just a bent pipe on the satellite that is just downlinking the signal
+ that is being sent to him or is it networking equipment that's somewhere up in the air.
+ So all that adds latency.
+ So just to give you a perspective on how this thing works mechanically,
+ there's Newton's cannonball.
+ So how do you put a satellite into orbit?
+ First you need to launch it up there, but then it needs to be really fast.
+ So it tries to drop down to earth and the speed of it needs to be higher,
+ so it always misses earth when it drops.
+ And so that's what we're aiming for is a radial orbit that nicely circles the earth there.
+ And the problem you will find there is it's moving quite quickly.
+ So 7,600 meters per second, that's quite quick.
+ And that brings the next challenge.
+ So you see the earth and you see the antennas
+ and the new generation of low earth orbit constellations tends to use flat panel antennas.
+ These are really marvels of radio design and can really do wonders
+ and be it patch antennas or Lundenberg lenses and whatever is happening there.
+ Lots of development going on in that area.
+ And the aim is to really drive down costs and to make it more or less a consumer device.
+ But these antennas have a field of view and depending what technology,
+ more or less it's 110 or 140 degrees give or take.
+ So that's a fixed angle and when you're looking up to the sky, the satellite passes over you
+ and you only have a small time window of like 160, maybe 240 seconds depending on the orbit
+ where you can see what's happening.
+ So anything above the horizon is not of interest to you.
+ You don't want to use that because there's more attenuation
+ and also the antennas have some limits on how fast they can steal the beam electronically.
+ So clever calculations going on there and depending on the orbit, how high you fly,
+ it more or less tells you how many satellites you need.
+ So you end up making your calculations, how do I build a constellation?
+ And you come up with quite exciting numbers depending on what your orbit is,
+ what your business model is, what kind of customers you're serving.
+ So you tend to build a Walker Delta constellation where you space the separate shells around the globe
+ and they fly around the globe and you define more or less when you're designing that
+ how many segments are flying at the same time.
+ And you can also have them fly over the polar region if your customers are up into Arctic and Antarctic business,
+ whatever that is, and you can also stagger them and that becomes of interest, for example,
+ when you want to communicate between your satellites.
+ We come later to that.
+ So that's the key factor for dimensioning your minimum viable constellation.
+ The next factor that adds on to that is what business do you expect?
+ So what bandwidth do you have? Where do you expect your customers to be?
+ How big will be your cells that you're serving?
+ And that also comes down to where are your customers?
+ So you design your network also where the customers are.
+ So you want to have pops that exfiltrate the user traffic to the Internet,
+ but also you want to have gateways that are more or less close to the customer
+ so that the distance of travel for the signal can be optimized.
+ And there is lots of thinking.
+ For example, in Germany currently we have two gateway stations,
+ whereas in the US where there seems to be more customers for Starlink, there are many more stations.
+ What you also can do is to route the traffic between satellites,
+ and that becomes very interesting and useful when you're, for example, serving the marine industry.
+ I recently spoke to a guy that's working with oil platforms, and he said,
+ "Wow, Leo is just a godsend for me. I've been really ripped off for nothing, like two megabits,
+ and always could saturate that link, and now we can really do remote management.
+ We can do even a Teams call from our oil rig, and for costs that's next to nothing compared to what they paid in previous times."
+ So how do you reach these remote areas?
+ You just hand over to hop via the satellites that are orbiting in Earth.
+ So it's just another opportunity to have a network mesh flying above our heads.
+ So when you launch a satellite, what happens?
+ First of all, you shoot them up.
+ Probably many have watched these SpaceX or whatever videos, and then the satellite gets released.
+ And that's not the final orbit, usually.
+ They are staged there, and then they are checked if they work, and then they are raised in the orbit.
+ And remember the picture we saw about these orbital shells?
+ So every satellite has a pre-assigned space where it needs to end up.
+ So you need to get the timing right to raise the satellites, and you see that this tends to work.
+ For example, in this case, the famous Johnston McDowell is the data pope for anything satellite-related.
+ He's creating all these cool graphs, so definitely needs that mentioning here.
+ But what also can happen is that the satellites do not reach their orbit.
+ In the left part of the scale, you see lots of satellites dropping out.
+ So what happened? We had a sun storm.
+ So the solar activity warmed up the Earth atmosphere, which resulted in additional drag.
+ So the atmosphere expanded, and the satellites got slower and slower.
+ You remember Newton's cannon. That didn't work out well.
+ So many just returned to Earth before they could be placed in the destination orbit.
+ Tough luck, but when you're dealing with large numbers, that's something that just happens.
+ But also when you're putting new technology into the game, just recently SpaceX launched a new version,
+ the V2 Mini, and that cohort also had some issues that needed to be resolved.
+ So some of them were raised, and then they were lowering their orbit.
+ Some were already deorbiting, and some probably could fix their issues, and then they reached orbit.
+ But that batch didn't look too well.
+ But usually, if you look at it, it's more a mixed bag.
+ Some make it, some don't make it, and you see that the numbers, it's in the lower 1% range that doesn't really make it.
+ So overall, in the bigger scheme of things, it's not such a tough loss.
+ You also see the difference between, for example, Starlink and OneWeb.
+ Where Starlink seems to be also very much focused on consumer business,
+ OneWeb seems to be more focused on a reseller B2B business, and also has a lower density of satellites there.
+ But that also tells you about what's the maximum throughput of the total constellation,
+ or the maximum throughput you can get when many consumers subscribe in a certain area to that service.
+ So lots of arbitrage happening here.
+ And another thing is service availability.
+ You need to liaise with every regulator in every market, every country you want to serve,
+ because they want to have their say.
+ You're not generating subscribers.
+ So probably some have heard about the Iran story that SpaceX was asked to allow people to use it in Iran,
+ even though it's not being sold in Iran.
+ What's happening is, well, the Emirates and other places seem to be interesting places to ship stuff in that area.
+ But slowly it's growing, and just in the last two weeks, I guess, Malaysia was at it.
+ So it's all moving quite swiftly.
+ And even right now, if you look at the satellite tracker sites,
+ usually you see like 10, 12, 15 even satellites that have a line of sight between you and the gateway.
+ So for the terminal you're having, it has a lot of choice which satellite to talk to.
+ And it's not a given that always the shortest path is used.
+ So there's lots of scheduling and algorithms working there just to, from a constellation perspective,
+ manage the traffic as best as possible.
+ And the satellites also move, and they also can avoid, for example, running into other satellites.
+ So how do you get that data?
+ And there's some cool companies out there like Leo Labs,
+ and they basically used something that was used in science for ionospheric science radars.
+ They were tracking satellites.
+ Because they needed to more or less subtract that information
+ and found out that the subtraction was more of a business.
+ So there's a lot of data providers that tell you where at any given point in time a satellite is
+ and what the trajectory of that satellite will be.
+ So you can forecast over time is there the risk of a conjunction.
+ And then you need to move your satellite, and hopefully you get enough fuel left over
+ so you can replace it, move it upwards, downwards, just to avoid any traffic collisions.
+ Which is not something you want to have happening because that very quickly has the chance to spoil your whole orbit.
+ So what's the key advances that are happening?
+ Again, this is not a SpaceX sales show, but certainly these guys moved the needle quite significantly,
+ both with their Falcon 9 and potentially with their Starship.
+ So the reusability and the launch cadence that they can launch, even multiple flights per week,
+ is truly impressive, and that has not happened before.
+ And that's really what is the game changer in all of this.
+ And if you look at the cost to orbit, that's a key indicator,
+ how much it costs to send one kilogram into low Earth orbit.
+ You see that more or less the cost to orbit has remained the same,
+ give or take $10,000 or $12,000 per kilogram.
+ And you can have serious and long discussions about the validity of this data, trust me.
+ You don't want to really dig down deep into this.
+ You come into discussions that maybe even reusability doesn't work and raises costs, whatever.
+ But just as a key indicator for the calculation,
+ it's how much does it cost me to send one kilogram up to orbit and also for a given size.
+ So we're not talking about these small cube sets, but solid piece of kit,
+ not like a geostationary one that's tons, but hundreds of kilograms.
+ And over time, if you highlight that,
+ these guys are really rocking the boat by lowering or saying they will be able to lower costs by orders of magnitude.
+ I don't know how this plays out. We all know these Elon Musk announcements.
+ But if that becomes true, that really changes the game for anything happening in space.
+ And that's what's really, really impressive right now.
+ In the meantime, there's quite some supply gap in the market
+ because there's lots of constellations trying to get their stuff up in the air,
+ hundreds and thousands of satellites and also Russia not being able to launch currently.
+ So there is a supply gap. And even worse, if you have a constellation,
+ the key limiting factor is the frequencies you use there.
+ And you had to apply for these and the licenses usually say you need to be able to demonstrate
+ that you have like 50% of your constellation up and running and are using these frequencies.
+ However, there's a supply gap right now and many players in the market are currently battling with that.
+ So very interesting times and some extensions are being granted right now.
+ And certainly there is someone who can profit from that.
+ If you look at the absolute figures of how many large objects were being put into space,
+ that's from end of last year, you really see that there has been an explosion.
+ And the growth rate has just never happened before in history.
+ So these mega constellations really change also the demand on the space launch site.
+ And at least until the end of last year, the dominant player was not one web.
+ And customers seem to like that. So there's good growth.
+ Well, 1.5 million Starlink subscribers in the biggest scheme of things.
+ That's not something that really moves the needle when you're working in telco.
+ But anyhow, that's strong growth that's happening right now.
+ And that's also being shown in the valuation.
+ Don't want to go deep into that one.
+ It's really crazy what's happening there. A company that's worth 150 billion.
+ And the key value driver for that is not the rocket business of SpaceX, but also certainly the Starlink business.
+ But there's others there. So just to give you an image,
+ Amazon will probably end of this year, early next year, demonstrate their service.
+ And what they showed as terminals looks really nice.
+ And if you look at the size of it, the small one, that's really neat.
+ You can put it next to your coffee mug and feel cozy somewhere out in the woods.
+ But there's also other ones that are more geared towards business uses.
+ For example, what one web you ordered from Hughes.
+ So there's lots of stuff happening and also on the terminal side.
+ So expect terminals, the antennas to become much smaller, much more lightweight.
+ Also power consumption will go down.
+ There's serious development happening right there.
+ But certainly that has some security implications.
+ And you might have heard about the VSAT hack that happened on the first day when Ukraine was attacked.
+ You saw the traffic dropping there.
+ And what happened there was that some malware was used and that they access VSAT.
+ They were, as they state, poorly configured VPN and then were able to move into the network
+ and the management network and then into the part that's able to control the software downloads.
+ And unfortunately, there was some collateral damage.
+ So like 11 gigawatts in wind turbines were left without being controllable
+ because they were using VSAT.
+ So that's a bit unfortunate.
+ And there may be reasons why you want to be able to control that.
+ So you see things are happening and that's government actors here.
+ And yes, if you read what's really being talked there,
+ there might have been some 14 VPN appliances involved.
+ And the question is, was that patched and has anybody learned from previous attacks on these devices?
+ Usual security practice should be applied there.
+ And yes, there's more moving targets in there like ground station operators.
+ Some are controlling everything in their value chain.
+ Others are using existing players in that market, also like distributors, resellers,
+ and everyone needs to have access to parts of the network.
+ Another one happening recently was Dozor Teleport.
+ That's a Russian provider that works for the military.
+ And that was attacked a couple of days ago.
+ And there was data exfiltrated and not such a long time it was off if you look at the data.
+ But what was exfiltrated, believe it or not, because it was attributed to Wagner,
+ but some would say that that should be taken with more than a grain of salt.
+ Some basic infrastructure how a satellite provider works.
+ So lots of interesting data out there if you fancy looking into that.
+ There's also official hackathons going on.
+ So Hackaset just happened and also ESA did some hack size with Thales.
+ That was very interesting to watch what happened there.
+ They provided a dummy satellite, a real satellite, and Hackaset also used a real satellite this time.
+ So there was an exercise being done.
+ How can you hack a satellite?
+ And even though that is a platform where you can more or less register your payload
+ that gets uploaded and executed, you can download the pictures, whatever,
+ you can gain control if you know how.
+ And the intrusion more or less persisted, the threat there.
+ And so that would have been some uncontrolled environment.
+ This was all friendly work that was done.
+ That's not so nice to have happening.
+ But that's nothing new.
+ There's lots of stories on how satellites were hacked over the years.
+ And even satellites were brought down and crashed back to Earth.
+ So what do you do?
+ First of all, don't trust the network.
+ It may be compromised as any other network.
+ And certainly do not assume availability.
+ For example, if you're running wind turbines and always also use encryption if you're doing that.
+ And maybe even look if the network looks trustworthy for you over time,
+ like some crazy BGP stuff happening.
+ But from a hacker's perspective, this is not a new thing.
+ You may remember Captain Midnight that was jamming the cable TV signal back in the US.
+ Or Max Hatroom where some guy broadcasts signals up to the satellite that was distributing.
+ And not that long ago, in the Czech Republic, you remember these TV channels where a camera is panning over nice landscapes.
+ So that should stimulate tourism.
+ Some folks changed that and also showed some nuclear explosion in that imagery.
+ So that raised an eyebrow or two.
+ But I mentioned that earlier, there's lots of attack vectors here.
+ So there's the end user devices, the router, the antenna that's being used.
+ And that's all in the hands of many, many, many people.
+ So security researchers as well.
+ But you can also have a look at all the internal structure.
+ We talked about the command and control that's necessary to keep the constellation at work,
+ the collision avoidance that's happening there.
+ So that's absolutely critical and of highest importance to keep alive.
+ But there's lots of other customer facing systems like billing or websites that allow for interesting work.
+ What I want to convey is the message.
+ There's lots and lots of moving wheels in this whole thing.
+ It's a highly complex thing.
+ And I'm even tending to compare it to what's happening in a mobile network.
+ It's really super complex.
+ And you can even look at physical avenues of making contact.
+ And I don't know if you can see that.
+ That's not a James Bond movie.
+ That's a mission that's due to happen in the not too distant future by ESA.
+ That's going to capture a satellite.
+ And you will see many more players in that field that, for example, will be refueling satellites or repositioning satellites.
+ So there's interesting stuff happening in that arena.
+ But you can also be more down to earth and just use open source intelligence.
+ When a player is, for example, applying for licenses with a local council to build a gateway,
+ they make nice presentations and tell you how these antennas work, how much power is being used.
+ One of the more interesting pieces of work in the recent time was done by Leonard Wouters at BlackHat.
+ So he was glitching the older version of the Starlink terminal and more or less achieved full control of that one.
+ Very nice attack.
+ And so he was able to get root and be persistent there and also played fairly with Starlink.
+ And also Starlink moved very swiftly and professionally on that side.
+ There's this interesting work on reverse engineering the network infrastructure.
+ So Pan and others are measuring latency and trace routes at scale so they can have a decent information on how this works.
+ And you can make your inferences on how the network and the back hole backlinks look like.
+ There's also interesting work happening on how the Starlink scheduler works.
+ And it turns out that what has been circulating through Reddit and whatever,
+ there is a 15 second scheduling window in the terminal and every 15 seconds the terminal might pick a new satellite.
+ And you see this difference in ping situation happening there.
+ And you see also that different devices or MAC addresses might be treated differently,
+ possibly in their internal routing happening there.
+ Interesting work.
+ Also, for example, which satellites are being preferred?
+ So they looked at the obstruction maps in the Starlink terminal.
+ So the terminal maps the trajectory of a satellite to find out if there are any obstructions in its field of vision.
+ And they found that more or less it tends to use anything with an inclination of 45 to 90 degrees.
+ There may be variances depending on where the terminal is.
+ And also, for example, there's an exclusion zone.
+ You don't want your Starlink to beam into the geostationary orbit because there's some frequency reuse happening there.
+ Another way of getting information about that providers work by Microsoft,
+ where they looked at screenshots from speed tests posted on Reddit and also the user sentiment happening there.
+ So they found out that speed seemed to decrease or latency seemed to increase over time.
+ And now it's going down as the constellation is expanding.
+ So there's lots of alternative ways to look at that.
+ And another one was how to break the service.
+ There was a way to tell the terminal to be a GPRC to style the antenna and then break the router.
+ More or less that made it incapable of being without power cycling being used again.
+ There's a nice SSH console available or not available with a nice greeting.
+ And there's also bug bounty programs from one web, SpaceX is doing the same.
+ That also, let's say, that gives inspiration on where to look or hopefully not to look.
+ And also one web is doing that, so I'm speeding up a little.
+ Yeah, lots of interesting things happening here.
+ And there's one more thing.
+ Mobile is going satellite as well.
+ You may have heard about T-Mobile cooperating with Starlink.
+ And there's other players out in that market that will more or less fly base stations over your head.
+ And that's also happening in the standardization circuit of 3GPP.
+ That is defining 5G, 6G, 7G over time.
+ Lots of interesting stuff to happen there because that will provide mobile access pretty much all around the globe.
+ So complex systems, many angles of attack, lots of uncharted territory.
+ So this is more an invitation from my point of view to look into this.
+ Because over time the importance of these mega constellations will be high.
+ And I expect the services to grow.
+ And I'd rather have them safe and sound and work well and not being shut down by, for example, military aggressors.
+ So overall I'm super excited what's going on right now.
+ Really attractive products coming out.
+ I would expect that Amazon will be an aggressive and value-driven consumer offer.
+ Reliability is high. It works.
+ I'm a happy farmer using that.
+ And I'm being shown the five minutes sign now.
+ So I'm opening up for questions now.
+ [Applause]
+ So are there any questions?
+ We have microphones.
+ If you have a question, wait for the microphone so the stream can also hear you.
+ Anyone? Yes.
+ It might be a dummy question. Sorry for that, Aba.
+ Can you speak up? There's lots of...
+ I wonder why other satellites have a fixed orbit scope, like the web one is 1000 kilometers, etc.
+ Aba, the space thing is 350 to 550 kilometers.
+ So why is that? Why is the difference all the time? Is there any explanation of that?
+ These are just considerations, I guess, on how much bandwidth you want to provide in your constellation.
+ And if you fly lower, you more or less can put more satellites in your shells and create less interference between.
+ He was in the microphone. That was not a question.
+ So you said it yourself, the economic viability is not yet proven.
+ So do you see a way that this whole crumbles again when it's not going to be profitable anyway?
+ It's a big bet. You're asking about the economic viability.
+ That needs to be proven. People need to buy that service and pay good money for that.
+ And I expect there will be dropouts in that game. And there already have been dropouts.
+ And it's a highly competitive space. So I'm not making any bets right now.
+ However, there seems to be huge confidence from the financial community, at least in some players, that they're investing money there.
+ So they have maybe found the magic formula there.
+ And perhaps the last question from the gentleman with the ESA cap.
+ Just so happens. Yeah, you said that you were using the Starlink user terminals from the moving car at German Autobahn speeds, which can be scary high.
+ As far as I understand, that's not actually supported.
+ So did you see any weird effects? Did they detect that you were having too high Doppler speeds and drop you out?
+ Did you see handover issues, stuff like that?
+ No, they actually support certain speeds. And there's a moving subscription there.
+ But they also provide service for planes. So technically, the Doppler speeds of a satellite passing over your head versus the speed I'm running on a German highway is not that big, the delta there.
+ But certainly they can detect a lot. And I know that in the early days they were not using geofencing, so they were very liberal.
+ And now they are trying to more or less slice and dice their product portfolio for different use cases, which they have any right to do, even if it may be annoying for me.
+ But they have a lot of telemetry, I'm pretty sure.
+ One of the words you most used in your speech was market.
+ So these marks that really, there was a change from the last century when space was done by governments or international organizations like ESA, and now it's private companies.
+ So I have three questions. One is, do you think, as these are the same Amazon and Elon Musk, who are already the digital feudalism of five American men defining the rules of our digital communication, will this be reinforced by the satellite thing?
+ And my second question would be, is there some movement of people who say space should be a common, which is owned by us all and not by private companies?
+ There is some legal framework there. There's the space treaty. But what's happening right now is not a regulated market.
+ So it's really a first come first serve. And there's interesting papers, for example, from China, where they look at that highly critical and say, we must be in that game in order to be able to compete.
+ Otherwise, the orbits will all be polluted by other players, for example.
+ Regarding the, is it US only? No. China, for example, will bring up a huge constellation. There's a wasp here. You go away, please. Thanks.
+ There, Europe will have a constellation up and running, Iris 2. However, that will look like. It's up in the air for me, but the tender is out now.
+ That will be more focused on government and critical infrastructure users, but also to provide benefits, especially for Africa, where satellite Internet certainly has a high net benefit for the local communities, because providing high bandwidth through traditional means in rural places is super costly and therefore not happening in many times.
+ So I see your point. You need the money to bring the satellites up there. We're talking about billions. And that's where market dynamics kick in. I guess that's the sad truth.
+ Well, thank you very much. I think it was exceptionally good talk. Very interesting topic. So thank you very much for coming. And we are out of time now because the next talk is also be here in 14 minutes now. And we need some time to change the stage. And thank you very much for coming. And if you have more questions, you can do it privately.
+ I will be around here for a minute.
+ Thank you.

@@ -1,0 +1,728 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:36,000
+ Dann zum Talk. Wie synthetisiert man DNA von XRO?
+
+3
+00:00:36,000 --> 00:00:39,000
+ DNA ist wichtig, aber wie stellt man sie eigentlich hier?
+
+4
+00:00:39,000 --> 00:00:42,000
+ Vor allem, wenn man keine Körperzelle ist oder irgendeine Zelle.
+
+5
+00:00:42,000 --> 00:00:47,000
+ Das Verfahren heißt Phosphoramiditsynthese.
+
+6
+00:00:47,000 --> 00:00:51,000
+ Und wenn ihr genauso viel Ahnung habt, was das sein könnte oder wissen wollt, was es eigentlich ist,
+
+7
+00:00:51,000 --> 00:00:54,000
+ dann wird er es euch jetzt vorstellen. Viel Spaß beim Talk.
+
+8
+00:00:54,000 --> 00:01:02,000
+ Ja, hi, grüß euch. Ich bin der XRO.
+
+9
+00:01:02,000 --> 00:01:09,000
+ Und bin in meiner Profisleinlaufbahn ein bisschen mit DNA-Synthese berühren gekommen
+
+10
+00:01:09,000 --> 00:01:14,000
+ und haben gedacht, na gut, erzählen wir mal aus Informatikersicht, wie das passiert.
+
+11
+00:01:14,000 --> 00:01:23,000
+ Und für alle, die jetzt keine Chemiegeek sind, sondern wie ich da neu eingestiegen bin irgendwann vor ein paar Jahren.
+
+12
+00:01:23,000 --> 00:01:29,000
+ Okay, zu mir. Ich habe normales Informatik, Elektronik, Wissenschaft.
+
+13
+00:01:29,000 --> 00:01:36,000
+ Ich sehe gerne Leute, habe ein bisschen Startup-XP, leider oder hoffentlich, je nachdem, wie man es sieht.
+
+14
+00:01:36,000 --> 00:01:40,000
+ Und baue DNA-Synthesizer und Automatisierung.
+
+15
+00:01:40,000 --> 00:01:44,000
+ Sonst bastelt gerne Zeugs, wie da am Camp.
+
+16
+00:01:44,000 --> 00:01:48,000
+ Und ihr könnt mich für Fragen anrufen unter 2XRO.
+
+17
+00:01:48,000 --> 00:01:53,000
+ Oder sonst findet ihr mich da hinten bei der Reall-ROM-Ville.
+
+18
+00:01:53,000 --> 00:01:58,000
+ Wir haben einen Hacker-Space in Graz und der hat auch einen Biohacker-Space dazu.
+
+19
+00:01:58,000 --> 00:02:03,000
+ Das war so 2013 die erste Berührung, wo ich da in die Richtung,
+
+20
+00:02:03,000 --> 00:02:08,000
+ also eigentlich haben wir den gegründet, weil ich da mit in Berührung kommen wollte, aber genau.
+
+21
+00:02:08,000 --> 00:02:14,000
+ Da gibt es auch ein schönes offenes Labor, da kann man Dinge machen und sich ein bisschen mit der Materie beschäftigen.
+
+22
+00:02:14,000 --> 00:02:19,000
+ Und ja, genau. Warnung, wie gesagt, ich bin kein Molekularbiologe.
+
+23
+00:02:19,000 --> 00:02:22,000
+ Ich hoffe, ich kann eure Fragen beantworten nachher.
+
+24
+00:02:22,000 --> 00:02:27,000
+ Aber ich habe das auch gelernt. Vielleicht ist es dann gut, anderen Leuten beizubringen.
+
+25
+00:02:27,000 --> 00:02:30,000
+ So, DNA-Synthese.
+
+26
+00:02:30,000 --> 00:02:36,000
+ Prinzipiell, was heißt das? Das heißt, wir haben eine Textsequenz, G, A, T, irgendwas,
+
+27
+00:02:36,000 --> 00:02:43,000
+ aus vier oder mehr Buchstaben, weil man könnte ja auch synthetische DNA haben, das gibt es.
+
+28
+00:02:43,000 --> 00:02:56,000
+ Und wollen diese Textdatei, diese Information in ein echtes physikalisches Modul in Realität bringen, also quasi drucken.
+
+29
+00:02:56,000 --> 00:03:03,000
+ Warum, was braucht man dafür? Das kann man verwenden für Diagnostik, therapeutische Methoden
+
+30
+00:03:03,000 --> 00:03:08,000
+ und wie wir jetzt nach den letzten zwei Jahren alle wissen, auch für Impfungen.
+
+31
+00:03:08,000 --> 00:03:15,000
+ Die klassische Messenger mRNA und eigentlich ist es sogar so, dass ich glaube, 50 Prozent aller Medikamente derzeit
+
+32
+00:03:15,000 --> 00:03:21,000
+ mit Molekularbiologischen Methoden hergestellt werden und Tendenz stark steigend.
+
+33
+00:03:21,000 --> 00:03:28,000
+ Funktioniert zum Beispiel so, ich habe eine Zelle und ich programmiere einfach um, was diese Zelle tut
+
+34
+00:03:28,000 --> 00:03:34,000
+ und bringe sie dazu, einen Wirkstoff herzustellen, der dann halt medizinische Anwendungen hat.
+
+35
+00:03:34,000 --> 00:03:41,000
+ Oder wie ich kenne auch Leute, die haben sich überlegt, okay, wir wollen Wolle ersetzen durch einen String,
+
+36
+00:03:41,000 --> 00:03:49,000
+ Keffler-ähnige Eigenschaften, so Heckfisch-Strings oder Spinnenseide und programmieren Zellen um, um das herzustellen
+
+37
+00:03:49,000 --> 00:03:55,000
+ und dann müssen sie das nur mehr rausfiltern. Das rausfiltern stellt sich raus, ist dann das Schwierige.
+
+38
+00:03:55,000 --> 00:04:03,000
+ Genau, so aber wie synthetisiert man DNA? Tatsächlich gibt es abhängig von der Länge unterschiedliche Methoden.
+
+39
+00:04:03,000 --> 00:04:10,000
+ Wir fokussieren uns jetzt mal hauptsächlich auf die Oligonuklidizynthese, so bis zu 200 Basen.
+
+40
+00:04:10,000 --> 00:04:20,000
+ Also das ist das ziemlich obere Maximum. Üblich ist so 100 bis 50 oder so für diese vier kurzen Basensequenzen
+
+41
+00:04:20,000 --> 00:04:27,000
+ genannt Oligonuklide, weil Oligo wenig und da geht es um chemische Synthese.
+
+42
+00:04:27,000 --> 00:04:34,000
+ Das heißt, ich mische der Reihe nach Chemikalien, die ich mir irgendwo herbesorge in der richtigen Reihenfolge,
+
+43
+00:04:34,000 --> 00:04:40,000
+ in der richtigen Menge und dann bildet sich ein Molekül, also am Strangsynthesieren.
+
+44
+00:04:40,000 --> 00:04:46,000
+ Es gibt auch noch andere Methoden, wie die enzymatische Synthese, das ist jetzt voll der Hype und das kommt immer wieder
+
+45
+00:04:46,000 --> 00:04:52,000
+ und crasht auch wieder ein bisschen, weil es dann doch immer noch nicht so gut funktioniert, wie Leute das ganz gern hätten.
+
+46
+00:04:52,000 --> 00:04:59,000
+ Oder so viel besser, muss man fast sagen. Aber ja, das ist die andere Methode natürlich, die theoretisch coolere Methode.
+
+47
+00:04:59,000 --> 00:05:06,000
+ Ich bringe Enzyme dazu, meine DNA aufzubauen, genauso wie es im Körper funktioniert.
+
+48
+00:05:06,000 --> 00:05:13,000
+ Man ist noch dabei, das zu optimieren, das Stand der Dinge ist die chemische Synthese.
+
+49
+00:05:13,000 --> 00:05:23,000
+ Und natürlich für lange Sequenzen geht es vereinfacht gesagt daran, dass ich dann die kurzen Sequenzen irgendwie zusammenstoppele.
+
+50
+00:05:23,000 --> 00:05:28,000
+ Zu den kurzen, zu den Oligos, wie man es so schön im Umgangssprache nennt.
+
+51
+00:05:28,000 --> 00:05:38,000
+ Wo kommt das über her? Wie gesagt, Oligo ist wenig und Nukleodid, es halten Nukleosid plus Phosphor. Ja, genau.
+
+52
+00:05:38,000 --> 00:05:46,000
+ Aber was macht man mit diesen kurzen Stücken? Tut man die einfach nur nehmen, um dann die großen Langen daraus zu machen,
+
+53
+00:05:46,000 --> 00:05:52,000
+ wie man die DNA an der Zelle hat? Oder tun die auch selber was? Ja, die haben selber auch eine Funktion.
+
+54
+00:05:52,000 --> 00:06:00,000
+ Und zwar reicht es schon, wenn ich so ein 50 bis 100 Basenstück nehme, damit kann ich auch schon ganz viel tun, und zwar Enzyme steuern.
+
+55
+00:06:00,000 --> 00:06:06,000
+ Also nur weil ihr euch fragt, warum tut man das überhaupt, warum synthetisiert man DNA, warum überhaupt der Vortrag?
+
+56
+00:06:06,000 --> 00:06:13,000
+ Also es gibt ganz viele Methoden, vielleicht hat schon mal jemand gehört von CRISPR-Cas9, ganz sicher habt ihr schon gehört von PCA-Methode,
+
+57
+00:06:13,000 --> 00:06:20,000
+ weil ich würde mal sagen, 100% haben wir mal einen PCA-Test gemacht in den letzten zwei Jahren.
+
+58
+00:06:20,000 --> 00:06:28,000
+ Da geht es im Prinzip darum, dass ich schaue, ob ein DNA-Stück matcht auf die Probe, dass ich reindufe.
+
+59
+00:06:28,000 --> 00:06:34,000
+ Also die Probe ist mein Speichel natürlich, und ich will schauen, welche DNA in dieser Probe drin ist.
+
+60
+00:06:34,000 --> 00:06:40,000
+ Da wird alles Mögliche drin sein, von allem, was ich gerade gegessen habe, plus meine DNA, plus irgendwelche Viren.
+
+61
+00:06:40,000 --> 00:06:51,000
+ Und jetzt kann ich halt schauen, ich synthetisier ein kurzes Stück, und dann schaue ich, matcht das zu irgendetwas, was in meiner Probe drin ist.
+
+62
+00:06:51,000 --> 00:06:56,000
+ Das macht eben diese PCA-Methode, und das, was ich matche, ist das, was ich drucke quasi.
+
+63
+00:06:56,000 --> 00:07:06,000
+ Das heißt, ich könnte jetzt auf Covid testen, ich könnte auf Pferdefleisch versus kühner Fleisch testen, was ich halt machen will.
+
+64
+00:07:06,000 --> 00:07:10,000
+ Ich muss es nur drucken, in die Pierzemische reintun und testen.
+
+65
+00:07:10,000 --> 00:07:22,000
+ Tatsächlich ist es ein bisschen modifizierter, den A, weil die hat dann auch leuchtende Moleküle drauf, damit ich dann auch optisch messen kann, aber das ist es im Prinzip.
+
+66
+00:07:22,000 --> 00:07:28,000
+ Und woher bekomme ich diese Oligos? Mehr oder weniger, sage ich jetzt mal, drei Methoden.
+
+67
+00:07:28,000 --> 00:07:36,000
+ Entweder ich mache es so, wie in den 80er Jahren, als die Methode erfunden wurde, ich pippetiere es selbst im Labor.
+
+68
+00:07:36,000 --> 00:07:39,000
+ Das kann quasi jeder machen, es dauert halt nur.
+
+69
+00:07:39,000 --> 00:07:50,000
+ Das komplett Opposite davon ist, ich order es im Internet, gebe meine Sequenz ein, und dann warte ich halt ein paar Tage oder Wochen, bis das Ding irgendwann bei mir ankommt.
+
+70
+00:07:50,000 --> 00:08:00,000
+ Oder ich habe einen Oligosynthesizer im Labor, tippe einfach die Sequenz ein, drücke auf Print und dann ein paar Stunden später arbeite ich weiter.
+
+71
+00:08:00,000 --> 00:08:05,000
+ Aber wie funktioniert der? Das wäre zum Beispiel so ein Beispiel Oligosynthesizer.
+
+72
+00:08:05,000 --> 00:08:10,000
+ Das eine Ding, das haben wir mal zum Spaß vor vielen, vielen Jahren selbst gebaut im Labor.
+
+73
+00:08:10,000 --> 00:08:19,000
+ Das ist quasi so ein fertiges Produkt, das so streamlined gut funktioniert, dem man eine Sequenz gibt, eindrückt, Print drückt und wie arbeiten die?
+
+74
+00:08:19,000 --> 00:08:21,000
+ Darum geht es jetzt im Prinzip.
+
+75
+00:08:21,000 --> 00:08:26,000
+ Und ich würde sagen, am besten schauen wir uns ein Beispiel an.
+
+76
+00:08:26,000 --> 00:08:30,000
+ Was synthetisieren wir? Natürlich Gatagra, eh klar.
+
+77
+00:08:30,000 --> 00:08:36,000
+ Wie synthetisieren wir? Ja, okay, keine Doppelhelix.
+
+78
+00:08:36,000 --> 00:08:43,000
+ Wir machen Single Molekülstrand, wir machen ein langes Molekül, wo wir Molekül an Molekül an Molekül der Reihe nach anhängen.
+
+79
+00:08:43,000 --> 00:08:54,000
+ Wenn ich dann eine Doppelhelix daraus machen will, fahre ich zum Beispiel PCA und mache da nochmal die Methode drüber, die mir das invers verdoppelt.
+
+80
+00:08:54,000 --> 00:09:02,000
+ Also dann wird es natürlich noch stabiler, aber für die meisten Methoden reicht die, oder will ich sogar die nicht stabile Version haben.
+
+81
+00:09:02,000 --> 00:09:05,000
+ Ja, ich habe natürlich die vier Bausteine.
+
+82
+00:09:05,000 --> 00:09:13,000
+ Gurnin, Cytisin, Adenin, Thymin, das sind die klassischen in der Natur vorkommenden vier Basen.
+
+83
+00:09:13,000 --> 00:09:21,000
+ Und was ich jetzt quasi einkaufe, sind die Phosphoarmedite, die vier Phosphoarmedite, die diesen vier Basen entsprechen.
+
+84
+00:09:21,000 --> 00:09:26,000
+ Das ist quasi mein Baukasten. Aus der Chemie baue ich das dann zusammen.
+
+85
+00:09:26,000 --> 00:09:34,000
+ Wie schaut so ein Phosphoarmedit aus? Ich stresse euch nicht zu viel damit, aber man hat halt eine Schutzgruppe,
+
+86
+00:09:34,000 --> 00:09:44,000
+ da ist das TMT drauf, man hat die Phase, die ich anhängen will der Reihe nach und dann habe ich so einen Stützzucker.
+
+87
+00:09:44,000 --> 00:09:48,000
+ Und irgendwie muss das Ding ja am Platz bleiben.
+
+88
+00:09:48,000 --> 00:09:56,000
+ Das heißt, im Prinzip spüle ich Flüssigkeiten, Chemikalien der Reihe nach hintereinander und dann würde ich ja eigentlich auch alles wegspülen.
+
+89
+00:09:56,000 --> 00:10:01,000
+ Wie bleibt die DNA am Platz? Meistens habe ich sie in so einem CPG-Linkenmuster.
+
+90
+00:10:01,150 --> 00:10:07,150
+ also ein CPG ist halt so ein Salt Support, Controlled Poreglass, das ist genauso groß,
+
+91
+00:10:07,150 --> 00:10:12,150
+ dass ich drinnen ein großes Molekül synthetisieren kann, das bleibt dann drin, das kann auch nicht raus.
+
+92
+00:10:12,150 --> 00:10:19,150
+ An dieses Molekül hänge ich ein anderes Molekül an, so einen langen Spacer, und an dem starte ich meine Synthese.
+
+93
+00:10:19,150 --> 00:10:26,150
+ Und weil ich das Glaskühlchen quasi wirklich festhalte, kann das nicht weg, an dem kann ich Chemikalien vorbeispülen
+
+94
+00:10:26,150 --> 00:10:31,150
+ oder das drin reagieren lassen, und am Schluss kann ich das rausnehmen auf irgendeine Art und Weise.
+
+95
+00:10:31,150 --> 00:10:35,150
+ Also es gibt auch ferromagnetische Kügelchen, Glaskübelchen, ich kann das rausschieben,
+
+96
+00:10:35,150 --> 00:10:39,150
+ ich kann es aufreinigen und dann ausspülen, ich kann es abtrennen.
+
+97
+00:10:39,150 --> 00:10:45,150
+ Ja, wie funktioniert das? Wie gesagt, wir haben unsere Schutzgruppe, wir haben unser Base, unsere Linke,
+
+98
+00:10:45,150 --> 00:10:52,150
+ wir haben die Base, und im Gegensatz zur Natur arbeiten wir von hinten, von 3 Strich auf 5 Strich.
+
+99
+00:10:52,150 --> 00:10:57,150
+ Nur falls es jemand vermiert die Natur, geht 5 nach 3. Und das ist der Kreislauf.
+
+100
+00:10:57,150 --> 00:11:03,150
+ Darum geht es eigentlich, das wollte ich euch zeigen. Ich mache der Reihe nach diese Dinge,
+
+101
+00:11:03,150 --> 00:11:07,150
+ ich tue diese Art von Chemikalien der Reihe nach über dieses Control Poor Glass,
+
+102
+00:11:07,150 --> 00:11:13,150
+ über den Solid Support drüberspülen und baue damit der Reihe nach das lange Molekül auf.
+
+103
+00:11:13,150 --> 00:11:19,150
+ Das Nummer 1, ich habe die Detrivelierung, das heißt von dieser Schutzgruppe, die nehme ich runter,
+
+104
+00:11:19,150 --> 00:11:24,150
+ dann habe ich das Molekül frei, dann kann ich was nächstes anhängen, dann kommt die Kopplung,
+
+105
+00:11:24,150 --> 00:11:29,150
+ dann kommt ein bisschen Stabilisierung, in dem Fall nehmen wir dafür Sauerstoff, Oxidier,
+
+106
+00:11:29,150 --> 00:11:33,150
+ und dann machen wir sogenannte Capping. Und was ist das? Erzähle ich auch alles.
+
+107
+00:11:33,150 --> 00:11:39,150
+ Und am Schluss Cleaving, ich spalte das von diesem Solid Support runter, damit ich das in freier,
+
+108
+00:11:39,150 --> 00:11:46,150
+ frei verfügbar habe, das Molekül in meiner Lösung. Und das kann ich dann zum Beispiel in eine PCA-Maschine tun.
+
+109
+00:11:46,150 --> 00:11:53,150
+ So, Beispiel. Hier habe ich das so aufgebaut, wir fangen an mit Coupling, das L steht für Linker,
+
+110
+00:11:53,150 --> 00:12:00,150
+ G steht für die erste Base und am Schluss von dem String ist dann DMT, meine Schutzgruppe.
+
+111
+00:12:00,150 --> 00:12:07,150
+ Das heißt ich mache einmal ein Coupling, ich starte mit Linker, tue ein G dran, das mit dem DMT gleich kommt,
+
+112
+00:12:07,150 --> 00:12:13,150
+ und dann tue ich irgendwann das DMT runter, dann hänge ich ein A dran, das wieder mit seinem DMT kommt,
+
+113
+00:12:13,150 --> 00:12:19,150
+ dann nehme ich ein T und tue das mit seinem DMT dran und fertig. Und so wird eine Reihe nach der String aufgebaut,
+
+114
+00:12:19,150 --> 00:12:23,150
+ bis ich bei meinem Ziel Gatagar bin. Und am Schluss mache ich eben das Cleaving,
+
+115
+00:12:23,150 --> 00:12:29,150
+ tue ich das DMT und die Schutzgruppen weg und dann ist das Gatagar schwind halt frei rum
+
+116
+00:12:29,150 --> 00:12:34,150
+ und kann ich es irgendwo in meiner Lösung verwenden. Und ja, das DMT unten hinten, ja warum?
+
+117
+00:12:34,150 --> 00:12:41,150
+ Warum detritüliere ich eigentlich? Also der erste Schritt. Ja, wenn ich das nicht machen würde,
+
+118
+00:12:41,150 --> 00:12:47,150
+ wenn die Basen nicht mit einer so Schutzgruppe schon fix fertig dran kommen würden und ich habe so ein Gat
+
+119
+00:12:47,150 --> 00:12:54,150
+ und ich spüle ein T und das ist ja probabilistische Reaktion, da spüle ich ja ganz ganz ganz viele T's drüber,
+
+120
+00:12:54,150 --> 00:12:57,150
+ dann würde ich ja, oder A's, dann würde ich sie alle auf einmal anhängen.
+
+121
+00:12:57,150 --> 00:13:05,150
+ Deswegen habe ich eben diese Phosphor-Medite, die alle mit der Schutzgruppe kommen, das heißt hinter ein T plus DMT,
+
+122
+00:13:05,150 --> 00:13:12,150
+ da kann sie nicht noch ein T anhängen, bevor ich das DMT wegnehme, weil sonst wird das eben so ausschauen.
+
+123
+00:13:12,150 --> 00:13:21,150
+ So, und warum Capping? Reden wir kurz über Coupling Efficiency, wie gesagt, probabilistisches Verfahren.
+
+124
+00:13:21,150 --> 00:13:27,150
+ Ich hoffe, dass es funktioniert. Es gibt eine gewisse Wahrscheinlichkeit, dass die chemischen Reaktionen funktionieren.
+
+125
+00:13:27,150 --> 00:13:36,150
+ Die liegt normalerweise eh ganz gut, so bis 0,99 bis 100%, aber ich mache das ja oft und wie wir es wissen,
+
+126
+00:13:36,150 --> 00:13:44,150
+ Fehlerverpflanzung, mit jedem Mal multipliziere ich meine Fehlerwahrscheinlichkeit und nach 100, 200 Basen
+
+127
+00:13:44,150 --> 00:13:51,150
+ bin ich dann so unter 50%, dass ich wirklich das habe, was ich haben will und ganz viele Fehler schwimmen dann nebenbei herum.
+
+128
+00:13:51,150 --> 00:13:56,150
+ Die müsste ich entweder aufreinigen, irgendwo wegspülen oder sonst was.
+
+129
+00:13:56,150 --> 00:14:03,150
+ Weil die reagieren dann ja auch in der Methode und tun dann vielleicht etwas anderes, was sie machen, machen sie einen Fehlersignal.
+
+130
+00:14:03,150 --> 00:14:10,150
+ Daher Capping. Capping passiert so, dass wenn ich dann meine erste Base angehängt habe,
+
+131
+00:14:10,150 --> 00:14:21,150
+ dann hänge ich noch einmal bei allem, was nicht reagiert hat, sprich wo dann nicht hinten ein DMT draufhängt,
+
+132
+00:14:21,150 --> 00:14:26,150
+ weil das DMT kommt ja von dem Phosphormedit, das ich anhänge, dafür habe ich es ja gekauft.
+
+133
+00:14:26,150 --> 00:14:37,150
+ Und dann cappe ich einfach alles weg, wo das neue DMT nicht hinten anhängt und damit kann ich das nachher wegfiltern.
+
+134
+00:14:37,150 --> 00:14:42,150
+ Das heißt ich verhindere weitere Reaktionen von allem, was nicht fertig sanitisiert hat.
+
+135
+00:14:42,150 --> 00:14:53,150
+ Genau, wenn ich das nicht hätte, dann würde einfach zum Beispiel ein Fehler passieren können im Strang F,
+
+136
+00:14:53,150 --> 00:15:01,150
+ also dass es da so wie es gehen soll, GAT, GATT, GATAC, aber da würde halt ein T fehlen,
+
+137
+00:15:01,150 --> 00:15:05,150
+ aber wir würden das ACA ganz normal weiter dranbauen. Das wollen wir eben nicht,
+
+138
+00:15:05,150 --> 00:15:13,150
+ weil dann am Schluss hätten wir neben unserem Ziel Länge 20 auch noch ganz viele mit 19 und mit 18
+
+139
+00:15:13,150 --> 00:15:17,150
+ und wenn das dann alles dieselbe Masse hat, wird es umso schwieriger wegzufiltern.
+
+140
+00:15:17,150 --> 00:15:22,150
+ Daher wollen wir, dass die fehlerhaften Stränge möglichst kurz bleiben.
+
+141
+00:15:22,150 --> 00:15:29,150
+ Deswegen Capping. Überall dort, wo das DMT es nicht drauf geschafft hat, das Table DMT,
+
+142
+00:15:29,150 --> 00:15:33,150
+ kommt dann ein Cap hinten dran und während der andere String weiter wächst,
+
+143
+00:15:33,150 --> 00:15:37,150
+ bleibt das kurz und lässt sich nachher leichter wegfiltern.
+
+144
+00:15:37,150 --> 00:15:42,150
+ So, genau, maximal Länge, ich habe es vorhin schon erwähnt, die coupling-efficient ist schuld.
+
+145
+00:15:42,150 --> 00:15:51,150
+ Ich kann mit dieser Methode nicht beliebig lange synthesisieren, ohne dass die Menge des erfolgreichen Produktes
+
+146
+00:15:51,150 --> 00:15:53,150
+ verschwindend klein wird.
+
+147
+00:15:53,150 --> 00:16:02,150
+ Genau, und wie weiß ich dann am Schluss, ob das, was ich synthesisiert habe, überhaupt funktioniert hat?
+
+148
+00:16:02,150 --> 00:16:09,150
+ Ja, tatsächlich bei so kurzen Methoden funktionieren die klassischen Sequenzierungsmethoden sehr schwer,
+
+149
+00:16:09,150 --> 00:16:17,150
+ deswegen gehe ich auf die Masse des Moleküls oft und mache halt Nassenspektrokopie und HPLC
+
+150
+00:16:17,150 --> 00:16:22,150
+ und dann versuche ich halt wegzufiltern, was nicht funktioniert hat.
+
+151
+00:16:22,150 --> 00:16:29,150
+ Genau, was wir auch zum Beispiel gemacht haben, man kann zum Beispiel online Prozesskontrolle machen,
+
+152
+00:16:29,150 --> 00:16:35,150
+ das Trithyl, das ich wegspüle, hat eine Farbe und ich kann zum Beispiel anhand dessen,
+
+153
+00:16:35,150 --> 00:16:41,150
+ wie viel von dem weggespült hat, sagen, wie gut die Reaktion funktioniert hat.
+
+154
+00:16:41,150 --> 00:16:50,150
+ Ja, genau, und dann habe ich einen fertigen Single-DNA-Strang und den kann ich dann eben verwenden,
+
+155
+00:16:50,150 --> 00:16:55,150
+ um längere DNA-Stränge zu bauen oder eben direkt in irgendwelche Methoden verwenden, um Dinge zu machen.
+
+156
+00:16:55,150 --> 00:17:03,150
+ Zum Beispiel Analyse, BCA, so Realtime QPCA ist das, was ich mit dem leuchtenden Molekül vorher erwähnt habe,
+
+157
+00:17:03,150 --> 00:17:10,150
+ da tue ich auf meinen Linker oder hinten dran dann nochmal eine Sonde oder so,
+
+158
+00:17:10,150 --> 00:17:14,150
+ die mir dann im UV-Licht zum Beispiel zeigt, wie viel dann reagiert hat.
+
+159
+00:17:14,150 --> 00:17:20,150
+ Oder ich editiere tatsächlich Gene, ich nehme zum Beispiel die CRISPR-Cas9-Methode
+
+160
+00:17:20,150 --> 00:17:27,150
+ und sage mit Primers schneide von hier bis hier irgendwas aus der DNA raus oder tue dann was wieder rein.
+
+161
+00:17:27,150 --> 00:17:41,150
+ Oder in der Therapie für genetisch bedingte Krankheiten oder auch, wenn ich irgendein Gene-Silencing in Viren oder Zellen machen will
+
+162
+00:17:41,150 --> 00:17:47,150
+ oder Bakterien, die mich angreifen, aber hauptsächlich geht es darum in Patienten, wenn die irgendeine Mutation haben,
+
+163
+00:17:47,150 --> 00:17:55,150
+ dann kann ich regelmäßig so siRNA verabreichen, die dann gewisse Gene-Mechanismen ausschalten.
+
+164
+00:17:55,150 --> 00:17:59,150
+ Kann ich auch mit diesen kurzen Stücken machen.
+
+165
+00:17:59,150 --> 00:18:03,150
+ Ja, das ist im Prinzip die kurze DNA-Synthese.
+
+166
+00:18:03,150 --> 00:18:07,150
+ Weil jemand vielleicht fragt, ok, was ist mit langen Stücken?
+
+167
+00:18:07,150 --> 00:18:13,150
+ Nur ganz kurzer Ausblick, wie gesagt, ich kann die kurzen Stücke nehmen,
+
+168
+00:18:13,150 --> 00:18:22,150
+ kann dann zum Beispiel sowas wie Gibson Assembly machen, das heißt ich synthetisee so, dass ich immer überlappende Stücke habe
+
+169
+00:18:22,150 --> 00:18:27,150
+ und dann mit einem bestimmten Unzym verkopple ich die zu langen Stücken.
+
+170
+00:18:27,150 --> 00:18:33,150
+ Oder es gibt auch die Methode, dass ich ganz kurze Oligonautik-Lieder mit so drei Basen nehme
+
+171
+00:18:33,150 --> 00:18:45,150
+ und durch eine Computerinformatikoptimierung mir die beste Kombination näher, wie ich am schnellsten das zusammenhängen kann,
+
+172
+00:18:45,150 --> 00:18:48,150
+ aneinanderhängen kann und daraus lange Sequenzen machen kann.
+
+173
+00:18:48,150 --> 00:18:58,150
+ Oder ich mache so ein Massive Parallel Chip-Ding, wo ich bei 1024 kleinen Cavities auf einem kleinen mikrophilischen Chip
+
+174
+00:18:58,150 --> 00:19:05,150
+ parallel synthetisiere, indem ich halt jedes von diesen Kammern, wo parallel diese Phosphor-Methy-Synthese passiert,
+
+175
+00:19:05,150 --> 00:19:11,150
+ ein ausschalte, ob sie an dem aktuellen Drüberspülen von Chemikalien teilhaben soll oder nicht.
+
+176
+00:19:11,150 --> 00:19:23,150
+ Und dann habe ich so 1024 kurze Sequenzen nebeneinander und dann lasse ich die auf einmal frei und verbinde sie zum Beispiel mit Gibson Assembly.
+
+177
+00:19:23,150 --> 00:19:28,150
+ Das war's. 0 Minuten. Vielen Dank fürs Zuhören.
+
+178
+00:19:28,150 --> 00:19:40,150
+ Vielen Dank für den Talk. War sehr informativ. Wir haben leider keine Zeit für Fragen, aber ich vermute, du bist eh im Village hier nebenan,
+
+179
+00:19:40,150 --> 00:19:45,150
+ einfach zu finden gleich. Also wenn jemand sich noch unterhalten will oder Fragen hat, er steht zur Verfügung.
+
+180
+00:19:45,150 --> 00:19:52,150
+ Ja, entweder beim Dom da hinten, beim Meterlab oder beim Realraum. Und da bin ich auch noch ein bisschen.
+
+181
+00:19:52,150 --> 00:19:57,150
+ Hervorragend. Dann will ich noch einmal, ja genau, sind wir am Ende. Ich mache die Absagen quasi.
+
+182
+00:19:57,150 --> 00:20:02,150
+ [Musik]
+

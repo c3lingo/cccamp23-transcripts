@@ -1,0 +1,2416 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:33,120
+ And we're running with a one minute delay.
+
+4
+00:00:33,120 --> 00:00:36,160
+ Welcome, good evening, welcome to Digital Courage.
+
+5
+00:00:36,160 --> 00:00:40,080
+ Tonight we're talking about sex workers versus surveillance.
+
+6
+00:00:40,080 --> 00:00:42,200
+ If you're on the Fediverse,
+
+7
+00:00:42,200 --> 00:00:48,240
+ you can add us with the hashtag #CCCcamp23DigitalCourage.
+
+8
+00:00:48,240 --> 00:00:53,200
+ And without further ado, I'm gonna leave my field to the fabulous Maggie Mayhem.
+
+9
+00:00:53,200 --> 00:01:01,200
+ >> [APPLAUSE]
+
+10
+00:01:01,200 --> 00:01:03,520
+ >> Thank you so much for such a warm introduction.
+
+11
+00:01:03,520 --> 00:01:08,280
+ And I am so happy to be here and to see so many people who are interested about
+
+12
+00:01:08,280 --> 00:01:13,560
+ this topic that is so near and dear to my heart, really having a wonderful time.
+
+13
+00:01:13,560 --> 00:01:16,280
+ Thank you so much to the Digital Courage Village for
+
+14
+00:01:16,280 --> 00:01:19,280
+ accepting this talk and give me this space.
+
+15
+00:01:19,280 --> 00:01:23,600
+ Thank you to everyone who has done any work or labor to make this camp happen.
+
+16
+00:01:23,600 --> 00:01:27,120
+ I hope everyone has been having as much fun as I have been.
+
+17
+00:01:27,120 --> 00:01:33,720
+ >> [APPLAUSE]
+
+18
+00:01:33,720 --> 00:01:35,640
+ >> My name is Maggie Mayhem, and
+
+19
+00:01:35,640 --> 00:01:40,800
+ it has been my pleasure to be a companion to people during times of sex, birth, and
+
+20
+00:01:40,800 --> 00:01:46,120
+ death, all underscored by 20 years of experience with harm reduction.
+
+21
+00:01:46,120 --> 00:01:50,080
+ Harm reduction is a practice that I think is so important.
+
+22
+00:01:50,080 --> 00:01:53,120
+ It comes from the drug user community.
+
+23
+00:01:53,120 --> 00:01:54,720
+ It was created by drug users.
+
+24
+00:01:54,720 --> 00:01:56,880
+ It's intended for drug users.
+
+25
+00:01:56,880 --> 00:02:03,200
+ But it ultimately has a belief that what we need to work for is any positive change.
+
+26
+00:02:03,200 --> 00:02:09,960
+ And that is a theme that I hope that you will all consider as I go through this talk.
+
+27
+00:02:09,960 --> 00:02:12,440
+ I am available on the Internet in many forms.
+
+28
+00:02:12,440 --> 00:02:14,360
+ You will not find me on Facebook.
+
+29
+00:02:14,360 --> 00:02:15,520
+ I am not there.
+
+30
+00:02:15,520 --> 00:02:19,040
+ I am affiliated with some different organizations.
+
+31
+00:02:19,040 --> 00:02:23,040
+ I am currently involved with the Distributed Denial of Secrets.
+
+32
+00:02:23,040 --> 00:02:28,320
+ I am formally on the Sex Worker Outreach Project USA Board of Directors.
+
+33
+00:02:28,320 --> 00:02:34,040
+ I am also a former trainer and leader with the Bay Area Abortion Support Team.
+
+34
+00:02:34,040 --> 00:02:39,080
+ And doing reproductive rights activism is one of my other many hats.
+
+35
+00:02:39,080 --> 00:02:44,040
+ Today we are gonna be talking about sex worker rights.
+
+36
+00:02:44,040 --> 00:02:47,360
+ These are some of the things that we're going to be going over.
+
+37
+00:02:47,360 --> 00:02:52,000
+ And one of the reasons that I'm in this room today is because sex workers
+
+38
+00:02:52,000 --> 00:02:53,640
+ are a part of this community.
+
+39
+00:02:53,640 --> 00:02:56,040
+ We're here.
+
+40
+00:02:56,040 --> 00:02:58,360
+ We have always been here.
+
+41
+00:02:58,360 --> 00:02:59,760
+ And we are never going away.
+
+42
+00:02:59,760 --> 00:03:06,440
+ I also think that it is so important for the people who build, support, and
+
+43
+00:03:06,440 --> 00:03:13,160
+ subvert our digital infrastructure to know about this community, what our needs are,
+
+44
+00:03:13,160 --> 00:03:17,120
+ and what some of the challenges we face are, so that we can have a better,
+
+45
+00:03:17,120 --> 00:03:20,880
+ safer future as we engage with our lives.
+
+46
+00:03:20,880 --> 00:03:26,480
+ I'm gonna be doing a brief introduction to some very kind of basic sex worker
+
+47
+00:03:26,480 --> 00:03:28,560
+ rights topics and jargon.
+
+48
+00:03:28,560 --> 00:03:30,680
+ I'll be talking a little bit about tech.
+
+49
+00:03:30,680 --> 00:03:35,400
+ I'll be talking about borders and information biopolitics.
+
+50
+00:03:35,400 --> 00:03:39,440
+ And I will be doing a little bit of a talk about subverting surveillance.
+
+51
+00:03:39,440 --> 00:03:40,760
+ I only have 45 minutes.
+
+52
+00:03:40,760 --> 00:03:42,120
+ I have a lot of slides.
+
+53
+00:03:42,120 --> 00:03:47,840
+ I tend to speak very fast, so my apologies to anyone who is a German speaker.
+
+54
+00:03:47,840 --> 00:03:52,240
+ I'll do my best.
+
+55
+00:03:52,240 --> 00:03:55,480
+ This talk is being recorded and it is being streamed.
+
+56
+00:03:55,480 --> 00:03:59,600
+ But you can also feel free to take a picture of a slide if there's a big,
+
+57
+00:03:59,600 --> 00:04:02,800
+ overwhelming block of text that you want to review.
+
+58
+00:04:02,800 --> 00:04:04,880
+ Pictures of me are okay.
+
+59
+00:04:04,880 --> 00:04:08,120
+ Cats out of the bag in terms of this content.
+
+60
+00:04:08,120 --> 00:04:11,120
+ So I feel very comfortable with that.
+
+61
+00:04:11,120 --> 00:04:15,920
+ As a content note, I will be talking a little bit about discussion of some human
+
+62
+00:04:15,920 --> 00:04:17,560
+ trafficking and abuse.
+
+63
+00:04:17,560 --> 00:04:20,560
+ So be aware that that is something that might come up.
+
+64
+00:04:20,560 --> 00:04:23,680
+ And I trust that you will know yourselves and that if you're here today,
+
+65
+00:04:23,680 --> 00:04:26,800
+ you're prepared to hear some conversation about that.
+
+66
+00:04:26,800 --> 00:04:36,280
+ There is a chant in the sex worker rights community when there has been labor
+
+67
+00:04:36,280 --> 00:04:40,080
+ activism, and I would like to share that with you.
+
+68
+00:04:40,080 --> 00:04:45,600
+ This came out of a unionization struggle at a strip club in San Francisco.
+
+69
+00:04:45,600 --> 00:04:48,680
+ There were lots of protests and one of those chants was,
+
+70
+00:04:48,680 --> 00:04:52,320
+ when sex worker rights are under attack, what do we do?
+
+71
+00:04:52,320 --> 00:04:54,520
+ Get dressed, fight back.
+
+72
+00:04:54,520 --> 00:04:56,400
+ So let's do that.
+
+73
+00:04:56,400 --> 00:04:57,800
+ What is sex work?
+
+74
+00:04:57,800 --> 00:05:00,360
+ Sex work is a very broad umbrella term.
+
+75
+00:05:00,360 --> 00:05:04,000
+ It covers so many different kinds of labor.
+
+76
+00:05:04,000 --> 00:05:05,600
+ There's also a lot of other language.
+
+77
+00:05:05,600 --> 00:05:10,400
+ Some of it is very dehumanizing, but people sometimes reclaim it for themselves.
+
+78
+00:05:10,400 --> 00:05:12,720
+ They may use it as a self identifier.
+
+79
+00:05:12,720 --> 00:05:16,400
+ It's also, there's some language that is part of criminal, legal, or
+
+80
+00:05:16,400 --> 00:05:19,360
+ penal codes that may still be used, but
+
+81
+00:05:19,360 --> 00:05:23,320
+ it may not be favored by people in the trade themselves.
+
+82
+00:05:23,320 --> 00:05:27,760
+ There is such a diversity of things that people do in terms of erotic sexual
+
+83
+00:05:27,760 --> 00:05:28,920
+ commerce.
+
+84
+00:05:28,920 --> 00:05:32,920
+ Instead of breaking things down into legal or illegal, because there is so
+
+85
+00:05:32,920 --> 00:05:37,280
+ much variation about what that might mean in any given location,
+
+86
+00:05:37,280 --> 00:05:42,840
+ I would like to think about it more in terms of high contact and lower contact.
+
+87
+00:05:42,840 --> 00:05:46,680
+ But that does not mean visibility necessarily, because there are people who
+
+88
+00:05:46,680 --> 00:05:50,520
+ have less contact with their clients and their customer base,
+
+89
+00:05:50,520 --> 00:05:54,640
+ who are very highly visible, and that comes with its own risks.
+
+90
+00:05:54,640 --> 00:05:59,000
+ But in general, it is the people who have the highest amount of immediate contact
+
+91
+00:05:59,000 --> 00:06:03,600
+ with their clients and their customers who face the brunt of violence,
+
+92
+00:06:03,600 --> 00:06:05,720
+ and extreme violence at that.
+
+93
+00:06:05,720 --> 00:06:11,120
+ They also face risks of infection, exposure, and also to say that those
+
+94
+00:06:11,120 --> 00:06:14,480
+ infections are not necessarily just sexually transmitted infections.
+
+95
+00:06:14,480 --> 00:06:18,120
+ That includes any possible disease exposure, including COVID,
+
+96
+00:06:18,120 --> 00:06:20,920
+ tuberculosis, any bug that's going around.
+
+97
+00:06:20,920 --> 00:06:23,920
+ They are up close and personal with people.
+
+98
+00:06:23,920 --> 00:06:29,680
+ So the population of people who are performing outdoor sex work are very,
+
+99
+00:06:29,680 --> 00:06:32,120
+ very visible on our public streets.
+
+100
+00:06:32,120 --> 00:06:37,080
+ They are subjected to the highest amount of violence, and they also face the highest
+
+101
+00:06:37,080 --> 00:06:38,640
+ amounts of criminalization.
+
+102
+00:06:38,640 --> 00:06:44,160
+ They're the people who are really at the center of this conversation.
+
+103
+00:06:44,160 --> 00:06:48,320
+ It's also important to note that there is a great deal of intersectionality in terms
+
+104
+00:06:48,320 --> 00:06:50,800
+ of who is the brunt of this violence.
+
+105
+00:06:50,800 --> 00:06:55,280
+ People of color, especially people who lack citizenship status in the place
+
+106
+00:06:55,280 --> 00:06:58,480
+ where they are working, are particularly at risk.
+
+107
+00:06:58,480 --> 00:07:04,600
+ People who may be transgender, gender nonconforming, they also face a great deal
+
+108
+00:07:04,600 --> 00:07:06,600
+ of violence in what they do.
+
+109
+00:07:06,600 --> 00:07:11,400
+ There's a lot of overlap in the International Day to End Violence Against Sex
+
+110
+00:07:11,400 --> 00:07:17,600
+ Workers and the Transgender Day of Remembrance, where there are people in the center.
+
+111
+00:07:17,600 --> 00:07:22,320
+ And those people in the center are just so, so important, and the rights
+
+112
+00:07:22,320 --> 00:07:27,560
+ conversation is really about them and the overlap and why they are facing those
+
+113
+00:07:27,560 --> 00:07:34,960
+ types of consequences for work where other people might experience more safety.
+
+114
+00:07:34,960 --> 00:07:37,000
+ There's also some ambiguity.
+
+115
+00:07:37,000 --> 00:07:41,440
+ People may engage in multiple forms of sex work over the course of their career.
+
+116
+00:07:41,440 --> 00:07:44,160
+ Some people may use different types of personas.
+
+117
+00:07:44,160 --> 00:07:47,160
+ They may do little bits to keep them separate.
+
+118
+00:07:47,160 --> 00:07:50,680
+ They may have different names that they use for different forms of work, but
+
+119
+00:07:50,680 --> 00:07:54,160
+ different -- uh-oh.
+
+120
+00:07:54,160 --> 00:07:57,600
+ I think it's just a sensitive cord.
+
+121
+00:07:57,600 --> 00:07:58,600
+ I can keep talking.
+
+122
+00:07:58,600 --> 00:08:00,600
+ Oh, okay.
+
+123
+00:08:00,600 --> 00:08:01,760
+ Maybe it needs to be taped down.
+
+124
+00:08:01,760 --> 00:08:06,760
+ We'll get through it.
+
+125
+00:08:06,760 --> 00:08:09,080
+ I have an idea.
+
+126
+00:08:09,080 --> 00:08:10,080
+ Let's try that.
+
+127
+00:08:10,080 --> 00:08:14,440
+ Let's see if that little bit of support -- problem solve it.
+
+128
+00:08:14,440 --> 00:08:18,120
+ There can be some ambiguity that goes on.
+
+129
+00:08:18,120 --> 00:08:22,520
+ Criminalization and stigma also mean that people may hide their participation in the
+
+130
+00:08:22,520 --> 00:08:24,360
+ trade, so they may not be disclosing.
+
+131
+00:08:24,360 --> 00:08:27,240
+ They may not be as open about what they do.
+
+132
+00:08:27,240 --> 00:08:30,640
+ People may also need fronts, not rants.
+
+133
+00:08:30,640 --> 00:08:33,000
+ Fronts are plausible deniability.
+
+134
+00:08:33,000 --> 00:08:37,840
+ For example, I'm a former sex worker.
+
+135
+00:08:37,840 --> 00:08:41,960
+ I'm absolutely retired.
+
+136
+00:08:41,960 --> 00:08:43,160
+ Never happens anymore.
+
+137
+00:08:43,160 --> 00:08:50,600
+ That's long in the past, you know, or as good as the next offer is.
+
+138
+00:08:50,600 --> 00:08:55,000
+ Sex trafficking is of significant concern, and I want to talk about what that actually
+
+139
+00:08:55,000 --> 00:09:01,280
+ is in detail, so this is where we're going to have some real talk going on.
+
+140
+00:09:01,280 --> 00:09:05,240
+ There's a spectrum of participation in terms of sex work.
+
+141
+00:09:05,240 --> 00:09:10,800
+ There are people who essentially are, you know, part of this trade by choice because
+
+142
+00:09:10,800 --> 00:09:17,180
+ it's -- they find enjoyment or pleasure out of it, and they are real.
+
+143
+00:09:17,180 --> 00:09:18,940
+ They are part of our trade.
+
+144
+00:09:18,940 --> 00:09:21,560
+ There are people who are here by circumstance.
+
+145
+00:09:21,560 --> 00:09:23,160
+ They're kind of in the middle.
+
+146
+00:09:23,160 --> 00:09:28,160
+ It's the work that they're doing because it meets their needs, but maybe something better
+
+147
+00:09:28,160 --> 00:09:31,780
+ will come along, or maybe they'll pay off that debt.
+
+148
+00:09:31,780 --> 00:09:33,080
+ Maybe they'll be more established.
+
+149
+00:09:33,080 --> 00:09:34,440
+ They'll secure their housing.
+
+150
+00:09:34,440 --> 00:09:39,280
+ They'll be able to move on to something else, something that they would rather be doing.
+
+151
+00:09:39,280 --> 00:09:43,840
+ And there are people who are in this trade by coercion or by force.
+
+152
+00:09:43,840 --> 00:09:45,600
+ They may not be consenting adults.
+
+153
+00:09:45,600 --> 00:09:47,440
+ They may not be over the age of 18.
+
+154
+00:09:47,440 --> 00:09:52,960
+ They may be people who were given a false bill of goods about what kind of work they
+
+155
+00:09:52,960 --> 00:09:56,520
+ might be doing in their path of migration.
+
+156
+00:09:56,520 --> 00:10:01,240
+ They might be people who are in an intimate partner violence situation in their relationship
+
+157
+00:10:01,240 --> 00:10:07,880
+ where a partner or even a parent or a loved one compelled them to do this work.
+
+158
+00:10:07,880 --> 00:10:11,000
+ Rights encompass all of these people.
+
+159
+00:10:11,000 --> 00:10:14,140
+ Rights are not predicated upon empowerment.
+
+160
+00:10:14,140 --> 00:10:19,320
+ Rights are about addressing the way power imbalances have lethal consequences.
+
+161
+00:10:19,320 --> 00:10:21,640
+ So rights are necessary for that.
+
+162
+00:10:21,640 --> 00:10:25,120
+ Respectability politics have no currency with me.
+
+163
+00:10:25,120 --> 00:10:28,700
+ That's not what this struggle is fundamentally about.
+
+164
+00:10:28,700 --> 00:10:34,080
+ So understanding that there is this range is a very important thing to really think
+
+165
+00:10:34,080 --> 00:10:36,880
+ about.
+
+166
+00:10:36,880 --> 00:10:43,200
+ Human trafficking for non-sexual labor represents the overwhelming majority of cases, and that's
+
+167
+00:10:43,200 --> 00:10:49,080
+ simply because there is more labor in this world that is non-sexual than there is labor
+
+168
+00:10:49,080 --> 00:10:51,040
+ that is sexual.
+
+169
+00:10:51,040 --> 00:10:56,560
+ Human trafficking is also about the food that we eat, the clothing that we wear, the things
+
+170
+00:10:56,560 --> 00:11:01,480
+ that we do every day where we don't have as many people jumping up to talk about their
+
+171
+00:11:01,480 --> 00:11:04,440
+ rights and the way that they are being trafficked.
+
+172
+00:11:04,440 --> 00:11:09,360
+ Criminalizing sex work isn't going to have a benefit for the people who are being trafficked
+
+173
+00:11:09,360 --> 00:11:10,880
+ in that way.
+
+174
+00:11:10,880 --> 00:11:16,320
+ Those types of laws and penalties don't necessarily correspond or come to support them in the
+
+175
+00:11:16,320 --> 00:11:19,520
+ situation that they are facing.
+
+176
+00:11:19,520 --> 00:11:24,640
+ And oftentimes anti-trafficking organizations will really do a lot of shock and awe to talk
+
+177
+00:11:24,640 --> 00:11:30,800
+ about how hard and brutal human trafficking in sexual cases is, and I'm not going to deny
+
+178
+00:11:30,800 --> 00:11:31,800
+ it.
+
+179
+00:11:31,800 --> 00:11:34,280
+ It can be absolutely abhorrent and it can be brutal.
+
+180
+00:11:34,280 --> 00:11:39,180
+ And there is that brutality that is present in all forms of human trafficking.
+
+181
+00:11:39,180 --> 00:11:41,680
+ The more you look into that, the more that that can be seen.
+
+182
+00:11:41,680 --> 00:11:47,800
+ When we treat people as disposable, when we treat people as individuals that we can just
+
+183
+00:11:47,800 --> 00:11:57,120
+ have, do our labor and disregard and throw away, bad, bad, bad things happen.
+
+184
+00:11:57,120 --> 00:12:02,360
+ There are multiple regulatory models of sex work.
+
+185
+00:12:02,360 --> 00:12:07,280
+ Legalization is one of them, and oftentimes it's what a lot of people think would be the
+
+186
+00:12:07,280 --> 00:12:13,760
+ best because we have this idea that legal means good, illegal means bad.
+
+187
+00:12:13,760 --> 00:12:18,040
+ But that's not necessarily the case because whenever there is a legal or regulated form
+
+188
+00:12:18,040 --> 00:12:22,240
+ of sex work, there are going to be people who don't fit into that very well, who fall
+
+189
+00:12:22,240 --> 00:12:30,440
+ into the cracks, and they still face significant penalties for their participation.
+
+190
+00:12:30,440 --> 00:12:33,840
+ And in one case, I think it's really important to say that that's something that's happening
+
+191
+00:12:33,840 --> 00:12:34,840
+ here in Germany.
+
+192
+00:12:34,840 --> 00:12:39,640
+ I've had some conversations with people throughout the day who have been telling me that this
+
+193
+00:12:39,640 --> 00:12:45,980
+ sounds like a very interesting talk, but here in Germany we have some regulated legal forms
+
+194
+00:12:45,980 --> 00:12:49,240
+ of sex work, so we're doing pretty good.
+
+195
+00:12:49,240 --> 00:12:55,320
+ This is not necessarily what people who are doing activism here have to say.
+
+196
+00:12:55,320 --> 00:12:57,880
+ I'm going to drink some water and hope.
+
+197
+00:12:57,880 --> 00:13:00,160
+ All right.
+
+198
+00:13:00,160 --> 00:13:02,860
+ That's not necessarily what the activists here have to say.
+
+199
+00:13:02,860 --> 00:13:07,160
+ And it's not my place to speak over the German sex worker rights activists who are doing
+
+200
+00:13:07,160 --> 00:13:11,680
+ lots of hard work, who are the most informed.
+
+201
+00:13:11,680 --> 00:13:16,660
+ But some of the things that they have wanted to address are the fact that licensing creates
+
+202
+00:13:16,660 --> 00:13:19,360
+ a potential risk for data breaches.
+
+203
+00:13:19,360 --> 00:13:23,600
+ If you have to apply for a license, if you have your information, your personal identifying
+
+204
+00:13:23,600 --> 00:13:28,460
+ information and a photograph attached to this kind of work, you are at risk.
+
+205
+00:13:28,460 --> 00:13:31,400
+ That's a database of people who are involved in sex work.
+
+206
+00:13:31,400 --> 00:13:35,320
+ There are some people who might want to get their hands on it who don't have the best
+
+207
+00:13:35,320 --> 00:13:36,520
+ intentions.
+
+208
+00:13:36,520 --> 00:13:37,880
+ That could be very problematic.
+
+209
+00:13:37,880 --> 00:13:39,800
+ They could be outed.
+
+210
+00:13:39,800 --> 00:13:43,800
+ There are exclusionary zones where people can still be penalized.
+
+211
+00:13:43,800 --> 00:13:48,440
+ And in general, just any time we have a form of policing, it is going to target marginalized
+
+212
+00:13:48,440 --> 00:13:54,020
+ identities and people who are non-citizens may not have full access to the rights and
+
+213
+00:13:54,020 --> 00:13:57,300
+ protections that come from a legal framework.
+
+214
+00:13:57,300 --> 00:14:02,040
+ So if you want to know more in depth about what's happening here in Germany, it is upon
+
+215
+00:14:02,040 --> 00:14:05,800
+ me to refer you to German sex workers themselves.
+
+216
+00:14:05,800 --> 00:14:07,720
+ Hydra is that organization.
+
+217
+00:14:07,720 --> 00:14:09,560
+ Their website is listed.
+
+218
+00:14:09,560 --> 00:14:14,700
+ And this is a QR code that goes to a very detailed paper analyzing the policies that
+
+219
+00:14:14,700 --> 00:14:16,180
+ are happening here.
+
+220
+00:14:16,180 --> 00:14:19,120
+ This is the one that is in German.
+
+221
+00:14:19,120 --> 00:14:21,600
+ And this is in the English.
+
+222
+00:14:21,600 --> 00:14:25,160
+ This QR code will not be available for more than two weeks.
+
+223
+00:14:25,160 --> 00:14:28,020
+ So it's really for those of you who are here in the audience.
+
+224
+00:14:28,020 --> 00:14:35,400
+ If you're watching this later on, you can still get this information on their website.
+
+225
+00:14:35,400 --> 00:14:39,440
+ Full criminalization is what we see in most of the world.
+
+226
+00:14:39,440 --> 00:14:42,120
+ In most places, sex work is prohibited.
+
+227
+00:14:42,120 --> 00:14:48,280
+ It is criminalized with a full set of laws detailing what that looks like.
+
+228
+00:14:48,280 --> 00:14:54,680
+ And the reason that these laws can be so precise, they're so detailed, is because communication
+
+229
+00:14:54,680 --> 00:15:00,200
+ and association are the only ways that we can distinguish a sex act that is commercial from
+
+230
+00:15:00,200 --> 00:15:03,160
+ one that is recreational or relational.
+
+231
+00:15:03,160 --> 00:15:09,160
+ So ultimately, it does become a matter of expression, the way people are communicating.
+
+232
+00:15:09,160 --> 00:15:13,640
+ It comes down to the way people are dressing on the street, the way they can be visibly
+
+233
+00:15:13,640 --> 00:15:14,640
+ identified.
+
+234
+00:15:14,640 --> 00:15:18,440
+ It has to do with who they're associating with.
+
+235
+00:15:18,440 --> 00:15:21,560
+ You know, if they're with someone who has already been known or identified as a sex
+
+236
+00:15:21,560 --> 00:15:26,560
+ worker and they're in that company, you can be held accountable for their actions too,
+
+237
+00:15:26,560 --> 00:15:28,600
+ or you can be lumped in with them.
+
+238
+00:15:28,600 --> 00:15:33,560
+ So the fact that that's such a nebulous issue means that all of these laws are always going
+
+239
+00:15:33,560 --> 00:15:39,480
+ to be, are going to have collateral damage and they're going to ultimately extend beyond
+
+240
+00:15:39,480 --> 00:15:46,860
+ their "intended targets" because it's just not as clear what makes a legal sex act different
+
+241
+00:15:46,860 --> 00:15:53,120
+ from an illegal one other than biases, judgments, stigmas, and perception of the people that
+
+242
+00:15:53,120 --> 00:15:57,880
+ you're looking at when you're thinking about it.
+
+243
+00:15:57,880 --> 00:16:03,920
+ The Nordic model, or end demand, is the, it sounds great on paper, it's the idea that
+
+244
+00:16:03,920 --> 00:16:10,360
+ we could criminalize the purchase of sex only, but not the people who are selling it.
+
+245
+00:16:10,360 --> 00:16:15,480
+ Asymmetric enforcement of laws will always infringe upon the fundamental rights of the
+
+246
+00:16:15,480 --> 00:16:17,220
+ non-criminal party.
+
+247
+00:16:17,220 --> 00:16:21,320
+ And one way to explain this is, if I told you that we were going to propose a law that
+
+248
+00:16:21,320 --> 00:16:27,600
+ it was totally okay and totally legal to attend a concert, but not to be a musician playing
+
+249
+00:16:27,600 --> 00:16:32,660
+ one, that would mean we're not going to have too many concerts because people would not
+
+250
+00:16:32,660 --> 00:16:34,240
+ be able to go there.
+
+251
+00:16:34,240 --> 00:16:36,240
+ They're still going to be surveilled.
+
+252
+00:16:36,240 --> 00:16:39,260
+ The whole event is going to be shut down.
+
+253
+00:16:39,260 --> 00:16:42,040
+ It's going to be impossible to do.
+
+254
+00:16:42,040 --> 00:16:52,520
+ So it does, it sounds really, really great, but it just doesn't work out that way in practice.
+
+255
+00:16:52,520 --> 00:16:57,120
+ Decriminalization is the idea that we can just take the laws governing forms of sex
+
+256
+00:16:57,120 --> 00:17:03,560
+ work off the book entirely and just move away from the form of policing.
+
+257
+00:17:03,560 --> 00:17:08,280
+ Full decriminalization is never going to be possible in a world with any form of policing
+
+258
+00:17:08,280 --> 00:17:13,800
+ and criminalization, in many ways for the same reason that end demand is problematic.
+
+259
+00:17:13,800 --> 00:17:21,500
+ If we still have laws that criminalize people, then we can't actually accomplish decriminalization.
+
+260
+00:17:21,500 --> 00:17:25,480
+ But this is the model that has been most preferred by people in the sex trade.
+
+261
+00:17:25,480 --> 00:17:31,240
+ New Zealand is an example of a place that has had successful decriminalization happening,
+
+262
+00:17:31,240 --> 00:17:35,900
+ but it also too has its own limits because as I said again, when there's anyone in society
+
+263
+00:17:35,900 --> 00:17:40,960
+ who is being criminalized, then this type of work can still be subject to penalties
+
+264
+00:17:40,960 --> 00:17:46,000
+ and punitive reactions.
+
+265
+00:17:46,000 --> 00:17:50,980
+ We've also been moving away from the idea that we need to criminalize or eliminate sex
+
+266
+00:17:50,980 --> 00:17:54,360
+ work because it's a moral bad issue.
+
+267
+00:17:54,360 --> 00:17:59,400
+ And we're moving on to a new era of humanitarian securitization.
+
+268
+00:17:59,400 --> 00:18:03,280
+ That's the idea that we're going to have laws and surveillance and policies that aren't
+
+269
+00:18:03,280 --> 00:18:10,240
+ necessarily just intended to be mean and bad to people who are in the sex trade or with
+
+270
+00:18:10,240 --> 00:18:16,560
+ a moralizing idea, but rather for humanitarian purposes to end trafficking.
+
+271
+00:18:16,560 --> 00:18:19,740
+ The anti-trafficking movement relies on this.
+
+272
+00:18:19,740 --> 00:18:24,320
+ But humanitarian securitization is still a form of securitization.
+
+273
+00:18:24,320 --> 00:18:27,460
+ It's still the implementation of mass surveillance.
+
+274
+00:18:27,460 --> 00:18:34,900
+ It's still another way to justify establishing stronger policing, but it sounds good and
+
+275
+00:18:34,900 --> 00:18:39,840
+ sometimes people don't realize it's creeping up on them too, even though they're not in
+
+276
+00:18:39,840 --> 00:18:40,840
+ the sex trade.
+
+277
+00:18:40,840 --> 00:18:46,560
+ It just means that those apparatuses are emboldened and they have more money, they have more power,
+
+278
+00:18:46,560 --> 00:18:51,040
+ they have further reach.
+
+279
+00:18:51,040 --> 00:18:57,640
+ Violence not rescue is one of the ways that we can address the wrongs, the brutality of
+
+280
+00:18:57,640 --> 00:18:59,160
+ trafficking.
+
+281
+00:18:59,160 --> 00:19:02,600
+ We really cannot arrest our way out of this kind of violence.
+
+282
+00:19:02,600 --> 00:19:07,680
+ We need to start establishing a world that provides resources for people, regardless
+
+283
+00:19:07,680 --> 00:19:10,560
+ of how they came into the sex trade.
+
+284
+00:19:10,560 --> 00:19:15,480
+ We need to have resources for people who are escaping intimate partner violence that have
+
+285
+00:19:15,480 --> 00:19:19,300
+ very low barriers that are accessible beyond business hours.
+
+286
+00:19:19,300 --> 00:19:22,760
+ We need to have a full set of resources and support for people who may have substance
+
+287
+00:19:22,760 --> 00:19:25,520
+ use disorders that don't have barriers.
+
+288
+00:19:25,520 --> 00:19:30,280
+ So the moment that they're ready to start detoxing or enter recovery, there's a place
+
+289
+00:19:30,280 --> 00:19:35,400
+ for them that's open, that has a bed where they feel safe.
+
+290
+00:19:35,400 --> 00:19:39,440
+ Those places, all of these places have to be ready to handle people of all identities,
+
+291
+00:19:39,440 --> 00:19:43,640
+ of all genders, of all races, of all kinds of relationship statuses.
+
+292
+00:19:43,640 --> 00:19:47,120
+ They have to be safe spaces and there has to be enough of them.
+
+293
+00:19:47,120 --> 00:19:48,880
+ They must be well funded.
+
+294
+00:19:48,880 --> 00:19:54,960
+ They cannot just be something that are done cheaply or with so many barriers, they just
+
+295
+00:19:54,960 --> 00:19:58,600
+ don't work for the people who need those resources.
+
+296
+00:19:58,600 --> 00:20:05,160
+ All raids are going to be violent and rescue is just a nice way of saying a raid.
+
+297
+00:20:05,160 --> 00:20:06,160
+ That's all that it is.
+
+298
+00:20:06,160 --> 00:20:07,960
+ It's just a euphemism.
+
+299
+00:20:07,960 --> 00:20:14,880
+ There are no teddy bears and hot cocoa when they come in to shut these things down.
+
+300
+00:20:14,880 --> 00:20:21,080
+ The UN, UN AIDS, the World Health Organization and Amnesty International have all recognized
+
+301
+00:20:21,080 --> 00:20:24,840
+ that the rights not rescue model is what is important and that decriminalization is a
+
+302
+00:20:24,840 --> 00:20:29,000
+ step that will help protect the rights, the dignity, the health and the safety of people
+
+303
+00:20:29,000 --> 00:20:30,500
+ who are in the sex trade.
+
+304
+00:20:30,500 --> 00:20:38,240
+ So it's not just me, it's some very big organizations and experts who do work in human rights.
+
+305
+00:20:38,240 --> 00:20:43,080
+ It's also important to note that rescue industries receive most of the money and most of the
+
+306
+00:20:43,080 --> 00:20:46,040
+ funds and there is a lot on the table.
+
+307
+00:20:46,040 --> 00:20:50,780
+ They get a lot of money for a lot of programs and a lot of that will go to their overhead
+
+308
+00:20:50,780 --> 00:20:56,600
+ or their staff budget and it doesn't necessarily go to a full range of services.
+
+309
+00:20:56,600 --> 00:21:01,680
+ In the United States there's a very big anti-trafficking organization called Polaris.
+
+310
+00:21:01,680 --> 00:21:08,460
+ They get millions upon millions of dollars and very often they would refer people who
+
+311
+00:21:08,460 --> 00:21:14,200
+ were looking to get information or support who were in the sex trade to the swap USA
+
+312
+00:21:14,200 --> 00:21:19,720
+ hotline and we funded that with volunteer hours and a very small budget from our like
+
+313
+00:21:19,720 --> 00:21:21,480
+ meager ability to fundraise.
+
+314
+00:21:21,480 --> 00:21:27,040
+ So we were doing work that they claimed to be doing without getting any of that monetary
+
+315
+00:21:27,040 --> 00:21:28,960
+ support to do it.
+
+316
+00:21:28,960 --> 00:21:34,240
+ We simply are just not necessarily eligible for the same kind of grants or we're not trusted
+
+317
+00:21:34,240 --> 00:21:38,760
+ to be able to do this work within the community.
+
+318
+00:21:38,760 --> 00:21:41,640
+ Police militarization budgets have all gotten so much bigger.
+
+319
+00:21:41,640 --> 00:21:47,520
+ They get a lot more money to get a lot more tools and so there's all this money is not
+
+320
+00:21:47,520 --> 00:21:51,280
+ going to sex workers themselves.
+
+321
+00:21:51,280 --> 00:21:56,400
+ Having these types of laws can really result in a lot of censorship, limited speech for
+
+322
+00:21:56,400 --> 00:21:58,740
+ everybody who is communicating.
+
+323
+00:21:58,740 --> 00:22:02,280
+ The more surveillance networks we have the more people who will be caught in that kind
+
+324
+00:22:02,280 --> 00:22:05,440
+ of a dragnet no matter what you're talking about.
+
+325
+00:22:05,440 --> 00:22:11,720
+ So sexual speech and sexual education is all going to be potentially at risk and we are
+
+326
+00:22:11,720 --> 00:22:15,200
+ definitely seeing consequences of that in the United States.
+
+327
+00:22:15,200 --> 00:22:20,400
+ This also means that reproductive health information is going to be limited and we are seeing this
+
+328
+00:22:20,400 --> 00:22:23,560
+ as a consequence as well.
+
+329
+00:22:23,560 --> 00:22:26,480
+ Information for people who are looking for transgender resources or queer resources.
+
+330
+00:22:26,480 --> 00:22:31,120
+ resources, they're going to lose those because it could possibly be associated
+
+331
+00:22:31,120 --> 00:22:35,720
+ or people are going to be afraid to possibly be associated with trafficking
+
+332
+00:22:35,720 --> 00:22:41,240
+ for having any of the buzzwords or the keywords that are the same or held in
+
+333
+00:22:41,240 --> 00:22:46,040
+ common. So this collateral damage is important because these are resources
+
+334
+00:22:46,040 --> 00:22:50,920
+ that we need that need to be really fully fleshed out because people have a
+
+335
+00:22:50,920 --> 00:22:55,080
+ right to information, unrestricted information, they need to get the best
+
+336
+00:22:55,080 --> 00:23:03,280
+ tools that they need to live their best lives. And in response to these shifts in
+
+337
+00:23:03,280 --> 00:23:08,280
+ public perception, a lot of religious organizations have actually started to
+
+338
+00:23:08,280 --> 00:23:12,740
+ do some deceptive things in their marketing and their practices so they
+
+339
+00:23:12,740 --> 00:23:17,080
+ may sound like a secular organization but they're not. They're actually far
+
+340
+00:23:17,080 --> 00:23:24,440
+ right Christian organizations. The Moral Majority was a group that started in the
+
+341
+00:23:24,440 --> 00:23:28,280
+ United States in the 1960s. They are evangelical Christians. They are now
+
+342
+00:23:28,280 --> 00:23:34,440
+ rebranded as the National Coalition to oppose sexual exploitation of children
+
+343
+00:23:34,440 --> 00:23:39,200
+ and they chose that their name because it was so similar to another
+
+344
+00:23:39,200 --> 00:23:42,920
+ organization that had been long established to help children who were
+
+345
+00:23:42,920 --> 00:23:46,520
+ missing or vulnerable, who were exploited. But the difference between
+
+346
+00:23:46,520 --> 00:23:50,880
+ those orgs is in their ideological agenda. The legitimate one was really
+
+347
+00:23:50,880 --> 00:23:55,680
+ working with the hard reality that children who go missing or are exploited
+
+348
+00:23:55,680 --> 00:24:00,320
+ are often being harmed by someone they know and love. It is often a parent. It is
+
+349
+00:24:00,320 --> 00:24:05,520
+ often someone in their family and it's not because there was a big bad sex
+
+350
+00:24:05,520 --> 00:24:09,360
+ trafficker who threw them in a van. It's because there was someone they loved who
+
+351
+00:24:09,360 --> 00:24:15,600
+ was hurting them and oftentimes it's also as simple as a custody dispute issue
+
+352
+00:24:15,600 --> 00:24:20,200
+ where parents have split and one parent has decided they don't like the
+
+353
+00:24:20,200 --> 00:24:23,040
+ arrangement or how things have worked out and they're going to come take their
+
+354
+00:24:23,040 --> 00:24:27,520
+ kid and go somewhere else far away that may not be safe or the best place for
+
+355
+00:24:27,520 --> 00:24:34,200
+ them. One great example is there is a movie that is making waves in the US. I
+
+356
+00:24:34,200 --> 00:24:39,480
+ don't know if it's out here yet but it's called The Sound of Freedom and it's
+
+357
+00:24:39,480 --> 00:24:44,920
+ simply a propaganda piece that has a lot of very very bad information and it
+
+358
+00:24:44,920 --> 00:24:49,760
+ comes from some very bad practices. I don't know if anyone here is familiar
+
+359
+00:24:49,760 --> 00:24:54,760
+ with Pizzagate. That was a problem in the United States. It was a conservative
+
+360
+00:24:54,760 --> 00:25:00,120
+ political just nightmare where some people on the internet suggested that
+
+361
+00:25:00,120 --> 00:25:04,280
+ there was a pizza parlor that was responsible for sex trafficking
+
+362
+00:25:04,280 --> 00:25:09,040
+ children. They were being held in the basement by Hillary Clinton and it was
+
+363
+00:25:09,040 --> 00:25:13,240
+ going to be necessary to storm the pizza parlor to save the children and
+
+364
+00:25:13,240 --> 00:25:18,600
+ this was a bad tip. There were no children in the basement. It was just a
+
+365
+00:25:18,600 --> 00:25:24,600
+ pizza parlor and someone showed up with a very large weapon and there was no one
+
+366
+00:25:24,600 --> 00:25:28,000
+ there to rescue. That was what was happening with the people who were
+
+367
+00:25:28,000 --> 00:25:35,160
+ making this happen. They actually started by traveling to the Caribbean
+
+368
+00:25:35,160 --> 00:25:41,400
+ and they would try to set up their own stings. They were not professionals. They
+
+369
+00:25:41,400 --> 00:25:43,800
+ didn't have a background in this. They really didn't know what they were doing.
+
+370
+00:25:43,800 --> 00:25:48,400
+ They were possibly driving up the demand for child sex trafficking by even trying
+
+371
+00:25:48,400 --> 00:25:53,720
+ to facilitate this or make it happen and they would storm the situation with guns
+
+372
+00:25:53,720 --> 00:25:58,000
+ and they would terrify those kids. They would pat themselves on the back but
+
+373
+00:25:58,000 --> 00:26:00,640
+ they didn't make sure that those children were safe afterwards. No one
+
+374
+00:26:00,640 --> 00:26:04,840
+ heard where they went or what happened to them. No one made sure they were okay
+
+375
+00:26:04,840 --> 00:26:09,960
+ after experiencing that and they're just very misleading and when we have these
+
+376
+00:26:09,960 --> 00:26:14,240
+ propaganda pieces we're not able to do the work that we need to do to get
+
+377
+00:26:14,240 --> 00:26:20,920
+ people out of these situations and into something safer. Here's some example of
+
+378
+00:26:20,920 --> 00:26:24,760
+ some of these organizations. This is just one that I picked because I like to pick
+
+379
+00:26:24,760 --> 00:26:30,640
+ on them. The National Anti-Human Trafficking Coalition and they also
+
+380
+00:26:30,640 --> 00:26:35,240
+ encourage just a lot of religious volunteers to jump into work that they
+
+381
+00:26:35,240 --> 00:26:40,760
+ are not trained or ready to do. So they have, this may not be clear on the slide,
+
+382
+00:26:40,760 --> 00:26:45,560
+ but at their level four the highest honor is after you've volunteered enough
+
+383
+00:26:45,560 --> 00:26:51,400
+ and done enough church work you too can join in on the rescue. So again people
+
+384
+00:26:51,400 --> 00:26:56,480
+ who just aren't ready to do this work and they can make situations worse. Some
+
+385
+00:26:56,480 --> 00:27:00,160
+ of these organizations have also done a little bit of what we might call tourism
+
+386
+00:27:00,160 --> 00:27:04,880
+ of various sex trade districts where they would get people together in prayer
+
+387
+00:27:04,880 --> 00:27:10,740
+ groups to get in a shuttle and go by outdoor sex markets to look and gawk at
+
+388
+00:27:10,740 --> 00:27:16,240
+ the people who were there and you know pray the rosary but really that's
+
+389
+00:27:16,240 --> 00:27:22,520
+ just that's not helpful and it's degrading. It's absolutely degrading. They
+
+390
+00:27:22,520 --> 00:27:26,560
+ also collaborate with law enforcement so they may not actually be in law
+
+391
+00:27:26,560 --> 00:27:30,880
+ enforcement but they they like to work with them and sometimes law enforcement
+
+392
+00:27:30,880 --> 00:27:34,440
+ really likes these groups because these groups can do things that they wouldn't
+
+393
+00:27:34,440 --> 00:27:39,280
+ necessarily be able to do because they don't have the same types of policies or
+
+394
+00:27:39,280 --> 00:27:44,480
+ body cams or accountability. So there is that little bit of a joint partnership
+
+395
+00:27:44,480 --> 00:27:50,360
+ there with the rank amateurs who make everything worse. There's a fantastic
+
+396
+00:27:50,360 --> 00:27:54,520
+ project called Rape That Rescue. It is a sex worker led project. It does cover
+
+397
+00:27:54,520 --> 00:27:59,640
+ rescues internationally and it analyzes what the budgets are, what the outcomes
+
+398
+00:27:59,640 --> 00:28:03,280
+ are and whether or not the people who are involved felt that their life was
+
+399
+00:28:03,280 --> 00:28:07,360
+ better as a result of that rescue.
+
+400
+00:28:08,240 --> 00:28:13,480
+ The US Department of Homeland Security is of course very concerned with human
+
+401
+00:28:13,480 --> 00:28:18,080
+ trafficking because they want to have a good way to justify a lot of
+
+402
+00:28:18,080 --> 00:28:22,920
+ surveillance that they're doing that is extending as far as possible to extend
+
+403
+00:28:22,920 --> 00:28:26,800
+ that reach and I want to focus in particular with what they were doing
+
+404
+00:28:26,800 --> 00:28:30,760
+ with the hospitality industry. They were doing a lot of mandatory training with
+
+405
+00:28:30,760 --> 00:28:38,280
+ hotel chains to help people there spot the scourge of trafficking and here are
+
+406
+00:28:38,280 --> 00:28:42,720
+ some of the indicators of human trafficking and some of these might
+
+407
+00:28:42,720 --> 00:28:47,000
+ whether or not you're in the trade might sound familiar such as simply leaving
+
+408
+00:28:47,000 --> 00:28:52,640
+ the do not disturb sign up for multiple days in a row, having lots of technical
+
+409
+00:28:52,640 --> 00:28:57,200
+ devices, anyone travel with a few computers or some extra things like that?
+
+410
+00:28:57,200 --> 00:29:03,760
+ Very suspicious. Good reason to check in. You could be a trafficker. So some of
+
+411
+00:29:03,760 --> 00:29:07,080
+ these things might actually be kind of accurate and helpful but a lot of them
+
+412
+00:29:07,080 --> 00:29:12,120
+ are also quite obvious. Sometimes their guides will have things like you know if
+
+413
+00:29:12,120 --> 00:29:16,640
+ there's a child who's you know talking about overt sexual acts and looking for
+
+414
+00:29:16,640 --> 00:29:24,160
+ money in the lobby be suspicious and yes perhaps that is suspicious but it's
+
+415
+00:29:24,160 --> 00:29:27,880
+ interesting to see the other things that get thrown in there as reasonable cause
+
+416
+00:29:27,880 --> 00:29:32,440
+ for a search or reasonable cause to call law enforcement in to investigate the
+
+417
+00:29:32,440 --> 00:29:39,760
+ situation. The private sector of course is coming in to charge you know every
+
+418
+00:29:39,760 --> 00:29:44,160
+ kind of business possible with their model of training so lots of these
+
+419
+00:29:44,160 --> 00:29:48,620
+ companies are opening up and they have their own how to spot and stop human
+
+420
+00:29:48,620 --> 00:29:53,640
+ trafficking. They're making a lot of money off of this industry and we have
+
+421
+00:29:53,640 --> 00:29:57,040
+ no way to tell if they're actually doing anything to prevent it. They just sell
+
+422
+00:29:57,040 --> 00:30:07,200
+ courses and certification for people. Palantir, they're fun. We all love
+
+423
+00:30:07,200 --> 00:30:13,240
+ Palantir. I think they are definitely being making fantastic use of the human
+
+424
+00:30:13,240 --> 00:30:18,520
+ trafficking rhetoric to justify the expanded scope of the surveillance that
+
+425
+00:30:18,520 --> 00:30:24,480
+ they have been doing everywhere that they possibly can and one of the things
+
+426
+00:30:24,480 --> 00:30:28,200
+ they wrote in this article I thought that was quite interesting is to give
+
+427
+00:30:28,200 --> 00:30:33,120
+ non-technical people a view of the world as discrete objects relationships and
+
+428
+00:30:33,120 --> 00:30:38,760
+ they're describing data and that's a good thing right. We're all just data and
+
+429
+00:30:38,760 --> 00:30:42,600
+ relationships that can be mined and pulled for different purposes but they
+
+430
+00:30:42,600 --> 00:30:47,760
+ can expand the scope they can keep growing especially when they have this
+
+431
+00:30:47,760 --> 00:30:53,080
+ type of a project that they can push to the forefront. We're not here to invade
+
+432
+00:30:53,080 --> 00:30:57,320
+ your digital privacy and your rights we're just trying to find the bad guys
+
+433
+00:30:57,320 --> 00:31:04,380
+ and that's all we'll do and they're getting some major contracts with the
+
+434
+00:31:04,380 --> 00:31:08,400
+ US government and they are absolutely putting that to the forefront of their
+
+435
+00:31:08,400 --> 00:31:12,160
+ website and their promotional materials. They're spending a lot of time going
+
+436
+00:31:12,160 --> 00:31:17,520
+ into conferences and occupying a lot of space in this domain but I think we all
+
+437
+00:31:17,520 --> 00:31:24,040
+ have some questions about what their intentions really are. This is a poster
+
+438
+00:31:24,040 --> 00:31:29,200
+ that was made by traffic brothel workers in Thailand and these are people who
+
+439
+00:31:29,200 --> 00:31:32,900
+ were experiencing some of the worst outcomes of trafficking and they had an
+
+440
+00:31:32,900 --> 00:31:40,080
+ opportunity to to share some of that and what it was and this is some of the text
+
+441
+00:31:40,080 --> 00:31:43,840
+ that they wrote to transcribe it in case it was hard to read on the poster and
+
+442
+00:31:43,840 --> 00:31:47,800
+ this was the experience of people who were in the midst of trafficking who
+
+443
+00:31:47,800 --> 00:31:52,040
+ were doing work that they wouldn't have chosen otherwise who were looking for a
+
+444
+00:31:52,040 --> 00:31:55,560
+ different or a better kind of life and they made it a point to say that their
+
+445
+00:31:55,560 --> 00:32:00,640
+ their income their savings their money was seized that they were locked up that
+
+446
+00:32:00,640 --> 00:32:05,040
+ they were detained detained that they were interrogated by many people for
+
+447
+00:32:05,040 --> 00:32:09,200
+ many long hours that they were forced and compelled to be witnesses even if
+
+448
+00:32:09,200 --> 00:32:13,120
+ that might be dangerous for them that they were held until their court case
+
+449
+00:32:13,120 --> 00:32:16,320
+ and did not have the ability to move freely in the place where they were
+
+450
+00:32:16,320 --> 00:32:20,600
+ living that they were forced into retraining into industries that they
+
+451
+00:32:20,600 --> 00:32:24,840
+ didn't necessarily find any better for example the garment industry that were
+
+452
+00:32:24,840 --> 00:32:28,680
+ gonna save you and pull you out of the sex trade and now you're gonna go work
+
+453
+00:32:28,680 --> 00:32:33,440
+ in front of a sewing machine not necessarily for much more money in fact
+
+454
+00:32:33,440 --> 00:32:37,360
+ oftentimes less than they were making before they were not compensated by
+
+455
+00:32:37,360 --> 00:32:42,200
+ anyone for their loss of wages or income their family was then having to do more
+
+456
+00:32:42,200 --> 00:32:46,200
+ work to help support everybody they were of course worried because they're out of
+
+457
+00:32:46,200 --> 00:32:50,040
+ contact and they don't know where their loved one is they had to deal with the
+
+458
+00:32:50,040 --> 00:32:53,720
+ stigma and judgment of people after being subjected to a raid if you are
+
+459
+00:32:53,720 --> 00:32:58,800
+ pulled out by a lot of police and dragged through town people tend to make
+
+460
+00:32:58,800 --> 00:33:04,400
+ some pretty big judgments about that soldiers and other people were looking
+
+461
+00:33:04,400 --> 00:33:07,800
+ for more information about them and therefore asking questions of their
+
+462
+00:33:07,800 --> 00:33:12,600
+ friends and their family and people in their community bribes have to be paid
+
+463
+00:33:12,600 --> 00:33:18,400
+ they're sent back home where it could be dangerous to have this kind of you know
+
+464
+00:33:18,400 --> 00:33:23,320
+ experience and this knowledge in your community where people might really have
+
+465
+00:33:23,320 --> 00:33:28,380
+ some serious judgment about that their family then has maybe some more debt to
+
+466
+00:33:28,380 --> 00:33:33,400
+ pay and that regardless of whether or not they were rescued they had to find
+
+467
+00:33:33,400 --> 00:33:37,680
+ a way to get back because that was the way the only means that they had to keep
+
+468
+00:33:37,680 --> 00:33:42,600
+ making a living was to go back into really bad brothel conditions and since
+
+469
+00:33:42,600 --> 00:33:46,200
+ nothing improved all they could do is go through the arduous journey once again
+
+470
+00:33:46,200 --> 00:33:50,680
+ go back into those conditions once again just recycling the experience
+
+471
+00:33:50,680 --> 00:33:57,800
+ re-traumatizing over and over this is what raids look like and this is what
+
+472
+00:33:57,800 --> 00:34:02,920
+ rescues look like I just have a few examples taken from the media about the
+
+473
+00:34:02,920 --> 00:34:07,640
+ dehumanizing type of photos that are used and the way that people who are
+
+474
+00:34:07,640 --> 00:34:13,560
+ victims are being treated Detroit Michigan this is Anaheim these guys look
+
+475
+00:34:13,560 --> 00:34:17,160
+ so friendly isn't this exactly who you would want to see if you were having a
+
+476
+00:34:17,160 --> 00:34:25,600
+ really bad day this is London this raid in particular was in SoHo and they
+
+477
+00:34:25,600 --> 00:34:30,240
+ actually called the police or the media ahead of time to document what they were
+
+478
+00:34:30,240 --> 00:34:34,440
+ doing I haven't included any of the photos that they were using of the
+
+479
+00:34:34,440 --> 00:34:39,120
+ people inside but they were of course in their work gear and their negligee so
+
+480
+00:34:39,120 --> 00:34:42,560
+ they were very vulnerable they were very exposed and this was about
+
+481
+00:34:42,560 --> 00:34:47,520
+ gentrification about upsetting that type of industry not because they were
+
+482
+00:34:47,520 --> 00:34:53,800
+ worried about anyone in it but because the real estate was really valuable of
+
+483
+00:34:53,800 --> 00:34:58,160
+ course in India again here's some more of a dehumanizing stock footage that is
+
+484
+00:34:58,160 --> 00:35:05,600
+ used they have used that handcuff picture for like pretty much any non-
+
+485
+00:35:05,600 --> 00:35:10,360
+ western raid like that's the raid photo you see so that's probably not from that
+
+486
+00:35:10,360 --> 00:35:14,960
+ exact raid and you can see the people who were arrested and what their ages
+
+487
+00:35:14,960 --> 00:35:18,840
+ were and whether or not they were victims is really not fully taken into
+
+488
+00:35:18,840 --> 00:35:24,040
+ consideration in New York there was a raid that went very very very horribly
+
+489
+00:35:24,040 --> 00:35:28,720
+ wrong and this was Yang Song who was in an Asian massage parlor that's where she
+
+490
+00:35:28,720 --> 00:35:33,080
+ worked she had had previous negative experiences of sexual violence from the
+
+491
+00:35:33,080 --> 00:35:38,280
+ police and they were so bad they were so traumatic that when she was
+
+492
+00:35:38,280 --> 00:35:42,640
+ experiencing a raid once again rather than just kind of comply with what they
+
+493
+00:35:42,640 --> 00:35:47,480
+ were saying and go along with them she jumped out of a four-story window where
+
+494
+00:35:47,480 --> 00:35:53,240
+ she was working and she died to any members of law enforcement who may be
+
+495
+00:35:53,240 --> 00:35:59,800
+ here with us today or watching from the comfort of their own homes I strongly
+
+496
+00:35:59,800 --> 00:36:05,920
+ suggest that you find new employment because someday there may be people who
+
+497
+00:36:05,920 --> 00:36:13,760
+ come to rescue them too. Sex worker rights really are inextricably linked
+
+498
+00:36:13,760 --> 00:36:17,920
+ to migrant rights because oftentimes this is the only work that people have
+
+499
+00:36:17,920 --> 00:36:20,960
+ when they are not considered full citizens in the places that they are
+
+500
+00:36:20,960 --> 00:36:26,240
+ going it is just simply the only possible form of income that is available
+
+501
+00:36:26,240 --> 00:36:30,880
+ and so that really has to be the important focus of what we're doing
+
+502
+00:36:30,880 --> 00:36:35,800
+ because migration is something that has happened for a long time and it's
+
+503
+00:36:35,800 --> 00:36:39,320
+ something that we're gonna see more and more of with climate change we're gonna
+
+504
+00:36:39,320 --> 00:36:43,400
+ see more people who are gonna be forced to leave their homeland not by choice
+
+505
+00:36:43,400 --> 00:36:51,800
+ but because they are facing extreme danger or a total lack of resources. Of
+
+506
+00:36:51,800 --> 00:36:55,840
+ course some more the ways that sex trafficking and sex work can be linked
+
+507
+00:36:55,840 --> 00:37:02,440
+ to a lot of xenophobia and a lot of our anti-migrant sentiments for example the
+
+508
+00:37:02,440 --> 00:37:07,000
+ Twitter account the border observer complaining about the sex workers who
+
+509
+00:37:07,000 --> 00:37:11,400
+ are available and the the rhetoric that they're using you can see is really it's
+
+510
+00:37:11,400 --> 00:37:17,160
+ not one of care or concern or love it's about we need to stop this because these
+
+511
+00:37:17,160 --> 00:37:21,720
+ people are coming and that's their intent and that is their dehumanizing
+
+512
+00:37:21,720 --> 00:37:28,680
+ tone and again deportation is a big consequence of these laws there is no
+
+513
+00:37:28,680 --> 00:37:33,040
+ guarantee for a victim that they will be given safety and a chance to stay in the
+
+514
+00:37:33,040 --> 00:37:36,180
+ place that they have moved to in the long term they will not be granted
+
+515
+00:37:36,180 --> 00:37:41,600
+ housing they're simply deported so we have to ask when people are rescued
+
+516
+00:37:41,600 --> 00:37:46,160
+ because they were trafficked what were they offered what happened to them let's
+
+517
+00:37:46,160 --> 00:37:49,800
+ follow up on that story we can't just end the sentence with they were rescued
+
+518
+00:37:49,800 --> 00:37:57,080
+ we have to ask what does rescue mean another example of a Ukrainian OnlyFans
+
+519
+00:37:57,080 --> 00:38:01,800
+ model who was barred from being able to evacuate from war because she was linked
+
+520
+00:38:01,800 --> 00:38:07,120
+ to her information and couldn't get over the borders so there is a lot of border
+
+521
+00:38:07,120 --> 00:38:11,600
+ problems that are happening right now where people simply cannot move because
+
+522
+00:38:11,600 --> 00:38:16,760
+ they are being associated with sex work from their digital footprint so the
+
+523
+00:38:16,760 --> 00:38:21,160
+ criminalization of sex work it does not alter a remedy the socioeconomic context
+
+524
+00:38:21,160 --> 00:38:25,080
+ that precipitates entry into the trade whether that is by choice coercion or
+
+525
+00:38:25,080 --> 00:38:31,600
+ force all sex workers all workers benefit from rights and solidarity and
+
+526
+00:38:31,600 --> 00:38:35,640
+ destigmatization destigmatization protection from violence protection from
+
+527
+00:38:35,640 --> 00:38:40,480
+ the police and the freedom of movement the world that we live in is what shapes
+
+528
+00:38:40,480 --> 00:38:44,320
+ our choices and we cannot prosecute our way out of an inequitable world we
+
+529
+00:38:44,320 --> 00:38:49,000
+ simply can't we have to change our world we have to make it better for the people
+
+530
+00:38:49,000 --> 00:38:54,800
+ who are trying to live thrive and survive in it so how do sex workers use
+
+531
+00:38:54,800 --> 00:38:59,360
+ technology many different ways I'm running out of time so I'm going to
+
+532
+00:38:59,360 --> 00:39:03,360
+ really be rushing through this but they've had a long history of finding
+
+533
+00:39:03,360 --> 00:39:08,080
+ innovations at the forefront of technology to facilitate their work and
+
+534
+00:39:08,080 --> 00:39:12,520
+ they also help advance things like streaming video digital anonymous
+
+535
+00:39:12,520 --> 00:39:18,160
+ currencies a lot of technologies that people use were really developed from
+
+536
+00:39:18,160 --> 00:39:23,080
+ the use of sex workers and of course all those technologies have the other side
+
+537
+00:39:23,080 --> 00:39:27,520
+ of harm and ways that there can be negative outcomes simply from how
+
+538
+00:39:27,520 --> 00:39:32,920
+ prevalent they can be banking bans are increasingly a big one that that may not
+
+539
+00:39:32,920 --> 00:39:36,640
+ be a form of criminalization but if you can't have a bank account you really
+
+540
+00:39:36,640 --> 00:39:41,280
+ can't function in the place where you live automated license plate readers
+
+541
+00:39:41,280 --> 00:39:45,880
+ deep web search tools all of these things can be used to create harm in the
+
+542
+00:39:45,880 --> 00:39:51,240
+ lives of people in the sex trade and we can see a positive effect for example
+
+543
+00:39:51,240 --> 00:39:54,580
+ this is a study on craigslist effect on violence against women in the United
+
+544
+00:39:54,580 --> 00:40:00,460
+ States where craigslist was associated with a 17% reduction in the homicide
+
+545
+00:40:00,460 --> 00:40:06,520
+ rate for women in the country 17% for all women and most of those was
+
+546
+00:40:06,520 --> 00:40:10,280
+ understood to be involved in the sex trade some people have said this could
+
+547
+00:40:10,280 --> 00:40:13,840
+ be a correlation or causation but I can tell you as an outreach worker that when
+
+548
+00:40:13,840 --> 00:40:17,760
+ craigslist went down that we saw an eightfold increase in outdoor sex
+
+549
+00:40:17,760 --> 00:40:22,400
+ workers that people were using phones to book ads and I don't have to tell this
+
+550
+00:40:22,400 --> 00:40:27,440
+ crowd that opening an email can sometimes have a negative outcome but it is always
+
+551
+00:40:27,440 --> 00:40:32,000
+ safer to open an email than it is to stick your head in a car window in a
+
+552
+00:40:32,000 --> 00:40:36,280
+ remote part of town where no one can hear you or come help you so having that
+
+553
+00:40:36,280 --> 00:40:41,720
+ distance and ability to move indoors is very protective here's a migrant sex
+
+554
+00:40:41,720 --> 00:40:45,360
+ worker who benefited and was actually able to move out of a trafficking
+
+555
+00:40:45,360 --> 00:40:49,920
+ situation through her adoption of technology she was able to move away
+
+556
+00:40:49,920 --> 00:40:54,240
+ from brothel and outdoor work and what is she using it's kind of blurry but
+
+557
+00:40:54,240 --> 00:40:58,800
+ she's using a phone and she's able to clients and although she's still
+
+558
+00:40:58,800 --> 00:41:03,680
+ ambivalent being in the sex trade she's having a much safer experience of it and
+
+559
+00:41:03,680 --> 00:41:08,160
+ she's making enough money to support her family so not perfect but better
+
+560
+00:41:08,160 --> 00:41:12,440
+ project doxy spotting is another example of the way people are using technology
+
+561
+00:41:12,440 --> 00:41:17,880
+ to harass sex workers they're using Google search kind of images to identify
+
+562
+00:41:17,880 --> 00:41:22,800
+ and make a giant database and of course there are always going to be some limits
+
+563
+00:41:22,800 --> 00:41:26,720
+ and our government this is a quote from president brought former president
+
+564
+00:41:26,720 --> 00:41:32,240
+ Barack Obama about using technology specifically to target traffickers but
+
+565
+00:41:32,240 --> 00:41:37,280
+ they really mean sex workers in general these are some examples of border
+
+566
+00:41:37,280 --> 00:41:43,080
+ crossing issues that people are facing all over where they're finding that just
+
+567
+00:41:43,080 --> 00:41:47,200
+ going or they are being identified and they are being halted and they're being
+
+568
+00:41:47,200 --> 00:41:52,880
+ denied entry and this is happening more and more and more as AI and facial
+
+569
+00:41:52,880 --> 00:41:56,320
+ recognition software gets more sophisticated so even though it may not
+
+570
+00:41:56,320 --> 00:42:01,860
+ be apparent they are being recognized simply from these these smarter machine
+
+571
+00:42:01,860 --> 00:42:08,360
+ tools sesta FOSTA in 2018 has had a major global impact because we live on
+
+572
+00:42:08,360 --> 00:42:13,120
+ an American dominated internet so companies that are based in America of
+
+573
+00:42:13,120 --> 00:42:17,440
+ course have to answer to the policies that they have there so cloud flyer for
+
+574
+00:42:17,440 --> 00:42:21,760
+ example based in the US does a lot of hosting and they certainly have to
+
+575
+00:42:21,760 --> 00:42:26,800
+ answer to this and people are being discriminated against not just for using
+
+576
+00:42:26,800 --> 00:42:31,880
+ being doing commerce but for using these tools I still have two minutes I'm gonna
+
+577
+00:42:31,880 --> 00:42:35,840
+ rush I see they're getting ready to kick me out digital safety has many
+
+578
+00:42:35,840 --> 00:42:40,080
+ interdependent axes and we have to reconceive of the fact that we don't
+
+579
+00:42:40,080 --> 00:42:44,840
+ just have external territorial borders anymore our borders are internal they
+
+580
+00:42:44,840 --> 00:42:49,080
+ are omnipresent they are always watching us and they are distinguishing fit
+
+581
+00:42:49,080 --> 00:42:53,760
+ citizens from unfit citizens so we can't just think of them as a place that we
+
+582
+00:42:53,760 --> 00:42:59,800
+ cross one time this is gonna rush through this one of the some of the key
+
+583
+00:42:59,800 --> 00:43:03,960
+ things if you're traveling and you are a sex worker say as little as you
+
+584
+00:43:03,960 --> 00:43:08,600
+ possibly can know as much as possible about what your crossing process will
+
+585
+00:43:08,600 --> 00:43:13,080
+ be understand that there is going to be a lot more involuntary facial
+
+586
+00:43:13,080 --> 00:43:17,800
+ recognition I experienced that on my flight from San Francisco over here for
+
+587
+00:43:17,800 --> 00:43:23,600
+ the first time being about to board my plane I had to undergo facial recognition
+
+588
+00:43:23,600 --> 00:43:26,840
+ biometrics literally right before boarding so that's going to be
+
+589
+00:43:26,840 --> 00:43:33,920
+ happening to everybody so please use some of these practical steps please
+
+590
+00:43:33,920 --> 00:43:40,120
+ look at the this show later to see what they are and remember that borders are
+
+591
+00:43:40,120 --> 00:43:44,680
+ systems of domination but not absolute domination we can figure out some ways
+
+592
+00:43:44,680 --> 00:43:49,360
+ to get around it this was a great paper got me real hot that some of these facial
+
+593
+00:43:49,360 --> 00:43:54,120
+ recognition aren't always insurmountable so don't tell me the odds because the
+
+594
+00:43:54,120 --> 00:43:59,640
+ odds are really bad this is some big technology it's very widespread instead
+
+595
+00:43:59,640 --> 00:44:03,840
+ please let's talk about the goal and the goal is that people need to live freely
+
+596
+00:44:03,840 --> 00:44:07,800
+ in this world and we need to support others in living freely in this world
+
+597
+00:44:07,800 --> 00:44:12,800
+ too that's our goal these are pictures of me from my work in Maurya camp I was
+
+598
+00:44:12,800 --> 00:44:17,280
+ there in 2015 before it burned to the ground and I am never going to forget
+
+599
+00:44:17,280 --> 00:44:20,920
+ the people that I met and the work that I did there many of those people are
+
+600
+00:44:20,920 --> 00:44:26,840
+ going to go on to do sex work voluntary or involuntary and I hope that they have
+
+601
+00:44:26,840 --> 00:44:30,880
+ the best lives possible and that by teaching these things that can that can
+
+602
+00:44:30,880 --> 00:44:34,640
+ happen for them thank you so much
+
+603
+00:44:34,640 --> 00:44:49,520
+ you
+
+604
+00:44:49,520 --> 00:44:52,100
+ (gentle music)
+

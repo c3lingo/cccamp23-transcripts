@@ -1,0 +1,230 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:37.520
+ Hi, we are here to talk about that in our hacker space in Copenhagen,
+
+00:00:37.520 --> 00:00:44.240
+ we have a fiber connection and have a BDP setup and
+
+00:00:44.240 --> 00:00:49.960
+ have a rack that looks like this next to our fridge with all our matter.
+
+00:00:49.960 --> 00:00:52.200
+ And if we go a little bit closer,
+
+00:00:52.200 --> 00:00:55.280
+ you can see that we have a lot of small single board computers.
+
+00:00:55.280 --> 00:01:02.720
+ And that's because that we have a lot of small bit devices.
+
+00:01:02.720 --> 00:01:06.840
+ But to go a little bit back, we have since 2017,
+
+00:01:06.840 --> 00:01:13.600
+ had a fiber connection and had a BDP setup with a public ASN.
+
+00:01:13.600 --> 00:01:19.520
+ And we got a 24 sponsored by a friendly organization.
+
+00:01:19.520 --> 00:01:20.840
+ So it's quite nice.
+
+00:01:20.840 --> 00:01:23.760
+ And then we started doing members machines a little bit later.
+
+00:01:23.760 --> 00:01:30.400
+ So that members can have some more experience playing with network and
+
+00:01:30.400 --> 00:01:35.080
+ BDP and routing and trying to have a machine on the Internet.
+
+00:01:35.080 --> 00:01:39.120
+ And VPS is also available and stuff like that, but
+
+00:01:39.120 --> 00:01:40.600
+ it's a bit more fun to have physical hardware.
+
+00:01:40.600 --> 00:01:48.600
+ So yeah, low power devices and just best effort service,
+
+00:01:48.600 --> 00:01:50.000
+ no service level agreement.
+
+00:01:50.000 --> 00:01:56.160
+ We have dual stack, so both IPv6 and IPv4.
+
+00:01:56.160 --> 00:02:00.280
+ And we have the ability to write your own IP addresses as well.
+
+00:02:00.280 --> 00:02:06.960
+ So we have some members that have their own mostly IPv6 space and their own ASNs.
+
+00:02:06.960 --> 00:02:12.880
+ And we are currently around 15 machines on this setup.
+
+00:02:12.880 --> 00:02:18.280
+ But we expect it to be growing a bit soon.
+
+00:02:18.280 --> 00:02:23.480
+ But yeah, it's still small scale, but it's a fun, small,
+
+00:02:23.480 --> 00:02:24.400
+ HackerSpace project.
+
+00:02:24.400 --> 00:02:29.680
+ So in order for us to cover some of the costs associated with it,
+
+00:02:29.680 --> 00:02:33.560
+ like power wise, we have small monthly fee on it.
+
+00:02:33.560 --> 00:02:37.640
+ But the main thing is just that we want people to also be full member of Laptap and
+
+00:02:37.640 --> 00:02:40.600
+ have access to the HackerSpace and so on, so
+
+00:02:40.600 --> 00:02:42.680
+ that they can service machines themselves and so on.
+
+00:02:42.680 --> 00:02:52.000
+ But yeah, then Oliver wants to talk a bit about managing all these machines physically.
+
+00:02:52.000 --> 00:02:56.720
+ >> Yes, just a word of clarification.
+
+00:02:56.720 --> 00:03:03.320
+ This is not only for BGP playing, it is also just for micro hosting of any kind.
+
+00:03:03.320 --> 00:03:08.680
+ So it might sound like it might need quite a bit of experience.
+
+00:03:08.680 --> 00:03:09.640
+ That's not the case.
+
+00:03:09.640 --> 00:03:14.520
+ You could just start with a pie and host your own services or a website or
+
+00:03:14.520 --> 00:03:15.280
+ whatever that is.
+
+00:03:15.280 --> 00:03:21.520
+ So I want to talk a bit about the takeaways from five years of Labicolo.
+
+00:03:21.520 --> 00:03:25.520
+ The first one is the big one.
+
+00:03:25.520 --> 00:03:29.760
+ The thing about computers are not made to live in large communities.
+
+00:03:29.760 --> 00:03:32.440
+ They are not made for scalability.
+
+00:03:32.440 --> 00:03:35.520
+ They have cables sticking out in all four directions,
+
+00:03:35.520 --> 00:03:37.760
+ sometimes a fifth if there's a header on it.
+
+00:03:37.760 --> 00:03:47.200
+ They, We all know how that looks.
+
+00:03:47.200 --> 00:03:52.800
+ They, these power strips out there have many different kinds of
+
+00:03:52.800 --> 00:03:57.520
+ small power supplies that can overheat and that can just fall out.
+
+00:03:57.520 --> 00:04:02.280
+ All these things are quite challenging if it's in the same rack that
+
+00:04:02.280 --> 00:04:05.480
+ you also need for infrastructure and where you want reliability.
+
+00:04:05.480 --> 00:04:11.920
+ So the main takeaway is it needs to be managed.
+
+00:04:11.920 --> 00:04:19.640
+ And these are, this is a work in progress.
+
+00:04:19.640 --> 00:04:25.320
+ If you want it to be accessible for many members, you need to,
+
+00:04:25.320 --> 00:04:30.320
+ with very little complication, be able to add more devices pretty much spontaneously.
+
+00:04:30.320 --> 00:04:38.240
+ And that only goes if that's, if it's not a huge spaghetti mess of loose cables,
+
+00:04:38.240 --> 00:04:42.120
+ which the pictures don't show.
+
+00:04:42.120 --> 00:04:43.600
+ That is right after tidying up.
+
+00:04:43.600 --> 00:04:48.400
+ It is, believe me, it's super neat.
+
+00:04:49.400 --> 00:04:56.280
+ So what our idea is for the future is to make a kind of a campsite kind of setup
+
+00:04:56.280 --> 00:05:01.880
+ where you come in from the back and each shelf has a little maybe ten port switch.
+
+00:05:01.880 --> 00:05:05.080
+ And then we can get away with very short cables.
+
+00:05:05.080 --> 00:05:06.720
+ So to keep it manageable.
+
+00:05:06.720 --> 00:05:14.600
+ The main goal is to get more members on board that have a tiny machine and
+
+00:05:14.600 --> 00:05:15.600
+ get to play with it.
+
+00:05:15.600 --> 00:05:19.680
+ So more machines is the entire idea.
+
+00:05:19.680 --> 00:05:24.240
+ More people that have more experience with small things on the internet.
+
+00:05:24.240 --> 00:05:27.800
+ And more ASNs.
+
+00:05:27.800 --> 00:05:36.920
+ >> Yeah, so if we look on BDP, then we are tied for
+
+00:05:36.920 --> 00:05:41.360
+ the seventh largest neutral facility in Denmark.
+
+00:05:41.360 --> 00:05:45.120
+ So we hope to get up to the top four soon.
+
+00:05:45.960 --> 00:05:48.640
+ And then the last thing is just that we have,
+
+00:05:48.640 --> 00:05:52.280
+ there's another talk about our internet exchange on day three.
+
+00:05:52.280 --> 00:05:57.480
+ And we have a meet up on day three after that as well to talk more about
+
+00:05:57.480 --> 00:05:59.440
+ the BDP experiences and hack experiences.
+
+00:05:59.440 --> 00:06:02.440
+ >> Thank you.
+
+00:06:02.440 --> 00:06:03.440
+ >> [APPLAUSE]
+
+00:06:03.440 --> 00:06:08.440
+ [MUSIC]
+

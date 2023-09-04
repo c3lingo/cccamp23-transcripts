@@ -1,0 +1,1514 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:35.120
+ So, please welcome Johannes Klöck with how to use internet scans and
+
+00:00:35.120 --> 00:00:40.480
+ passive measurements to analyze Russian attacks and their impact in Ukraine.
+
+00:00:40.480 --> 00:00:47.920
+ >> [APPLAUSE]
+
+00:00:47.920 --> 00:00:49.320
+ >> Hello, welcome.
+
+00:00:49.320 --> 00:00:50.400
+ My name is Johannes Klöck.
+
+00:00:50.400 --> 00:00:54.000
+ I'm here for talking to you about how to use internet scans and
+
+00:00:54.000 --> 00:00:58.480
+ passive measurements to analyze Russian attacks and the impact in Ukraine.
+
+00:00:58.480 --> 00:01:00.280
+ I'm Sion Kofon of IFAS Strike Labs,
+
+00:01:00.280 --> 00:01:03.520
+ it's a company about which is does scanning whole the day, the internet.
+
+00:01:03.520 --> 00:01:05.280
+ And then we do also a lot of research,
+
+00:01:05.280 --> 00:01:08.800
+ have also published last CAHOS communication camp.
+
+00:01:08.800 --> 00:01:14.080
+ I have published here a talk how to set up a search engine and
+
+00:01:14.080 --> 00:01:17.360
+ which ways you can globally scan the internet several times.
+
+00:01:17.360 --> 00:01:21.600
+ And now we use much more of this data for making advanced research.
+
+00:01:21.600 --> 00:01:25.240
+ So, but before we start with the Russian attacks and
+
+00:01:25.240 --> 00:01:28.680
+ how we can measure the impact using global internet scans.
+
+00:01:28.680 --> 00:01:32.960
+ I'm here more also to talk about why the resilience of the Ukraine in terms of
+
+00:01:32.960 --> 00:01:34.360
+ internet is so high.
+
+00:01:34.360 --> 00:01:39.200
+ So maybe, so at first it's really sad that the power of the beamer is not that high.
+
+00:01:39.200 --> 00:01:41.840
+ I hope you can see something.
+
+00:01:41.840 --> 00:01:48.240
+ Interesting point is that when we talk about Ukraine,
+
+00:01:48.240 --> 00:01:54.600
+ we can see that approximate 55% of all end users in Ukraine
+
+00:01:54.600 --> 00:01:57.240
+ are served by very small ISPs.
+
+00:01:57.240 --> 00:01:59.560
+ So we can see this there in a circle.
+
+00:01:59.560 --> 00:02:03.640
+ We can see that like 45% are served by larger ISPs,
+
+00:02:03.640 --> 00:02:07.240
+ which serve more than 1% of the whole end clients.
+
+00:02:07.240 --> 00:02:12.240
+ But 55% of all end clients in Ukraine are served by an ISP that
+
+00:02:12.240 --> 00:02:16.560
+ is managing less than 1% of the whole clients in Ukraine.
+
+00:02:16.560 --> 00:02:19.680
+ When you compare it to Germany, on the next slide,
+
+00:02:19.680 --> 00:02:25.160
+ we can see that in Germany in comparison to that only 18%
+
+00:02:25.160 --> 00:02:29.760
+ of end users are managed by very small ISPs, less than 1%.
+
+00:02:29.760 --> 00:02:35.240
+ So we can see that in Ukraine we have much more diversity in terms of small ISPs.
+
+00:02:35.240 --> 00:02:37.320
+ They are each connected to each other.
+
+00:02:37.320 --> 00:02:41.440
+ And when one ISP has maybe no power or maybe fails out,
+
+00:02:41.440 --> 00:02:44.200
+ the traffic can go route through another ISP.
+
+00:02:44.200 --> 00:02:46.560
+ And this makes it much more resilient.
+
+00:02:46.560 --> 00:02:50.920
+ Here in Germany we have approximate one third of all end clients
+
+00:02:50.920 --> 00:02:52.320
+ on Deutsche Telekom.
+
+00:02:52.320 --> 00:02:54.080
+ The other third is on Vodafone.
+
+00:02:54.080 --> 00:02:58.800
+ This means at least when one of these ISPs get knocked out by somehow a strike,
+
+00:02:58.800 --> 00:03:00.560
+ we will have big troubles here in Germany.
+
+00:03:00.560 --> 00:03:03.440
+ And we are not thinking-- the next point is also the day kicks, right?
+
+00:03:03.440 --> 00:03:04.440
+ That's also a point.
+
+00:03:04.440 --> 00:03:11.560
+ But in Ukraine, they have a huge amount of very small ISPs serving approximate half
+
+00:03:11.560 --> 00:03:13.800
+ of the whole end clients we have there.
+
+00:03:13.800 --> 00:03:16.960
+ And this makes the internet itself in Ukraine very robust
+
+00:03:16.960 --> 00:03:21.360
+ compared to Western countries.
+
+00:03:21.360 --> 00:03:25.040
+ Before I explain about the results we have,
+
+00:03:25.040 --> 00:03:28.200
+ I just want to tell something about how we collected the data.
+
+00:03:28.200 --> 00:03:31.400
+ So what we are, we have our own internet service provider.
+
+00:03:31.400 --> 00:03:35.680
+ We have our two different slash 22s.
+
+00:03:35.680 --> 00:03:39.560
+ This means over 2,000 different IP addresses which we use for internet scanning.
+
+00:03:39.560 --> 00:03:41.400
+ This means we are scanning the internet.
+
+00:03:41.400 --> 00:03:45.280
+ And each time when we connect to a new system, we use a new IP address.
+
+00:03:45.280 --> 00:03:48.560
+ And this leads to the fact that we like half an hour,
+
+00:03:48.560 --> 00:03:51.320
+ we visit with the same address, the same network.
+
+00:03:51.320 --> 00:03:52.680
+ So each 30 minutes.
+
+00:03:52.680 --> 00:03:58.760
+ This gives us a very good opportunity to be another radar of a lot of intrusion detection systems
+
+00:03:58.760 --> 00:04:01.880
+ and prevents a lot of blocking.
+
+00:04:01.880 --> 00:04:05.680
+ Our staff has been developed in a free university of Berlin
+
+00:04:05.680 --> 00:04:09.360
+ financed by the Federal Ministry of Education Research and Former Times.
+
+00:04:09.360 --> 00:04:14.120
+ This was around '14 to '15, '17.
+
+00:04:14.120 --> 00:04:18.920
+ Then we found out of that a company and did some cool interesting stuff.
+
+00:04:18.920 --> 00:04:25.120
+ And now we are coming to the point that when we are doing all the time the internet scans
+
+00:04:25.120 --> 00:04:28.920
+ and see, okay, where are the clients we have seen, especially in Ukraine,
+
+00:04:28.920 --> 00:04:32.600
+ when the war started, that a lot of clients availability dropped.
+
+00:04:32.600 --> 00:04:35.080
+ And they said, okay, that's very interesting.
+
+00:04:35.080 --> 00:04:39.200
+ We need to investigate it because it makes sense when maybe a lot of power outage we have.
+
+00:04:39.200 --> 00:04:43.680
+ And we know that the Russians have attacked a lot of critical infrastructure
+
+00:04:43.680 --> 00:04:44.760
+ in the Ukraine.
+
+00:04:44.760 --> 00:04:48.160
+ Then where there's no power, there's also a high chance that you have no internet
+
+00:04:48.160 --> 00:04:51.120
+ because also routers and so on need a lot of power, right?
+
+00:04:51.120 --> 00:04:56.240
+ And especially in the end, in the small office, home office from the people,
+
+00:04:56.240 --> 00:05:00.040
+ where there's not so small routers, no power, there will be also no internet.
+
+00:05:00.040 --> 00:05:05.040
+ That is why we have taken as base reference for our analyzers October 21,
+
+00:05:05.040 --> 00:05:09.280
+ which is approximately half a year before the Russians started their attacks,
+
+00:05:09.280 --> 00:05:15.640
+ as the reference said, okay, these amount of servers we have seen is the 100%,
+
+00:05:15.640 --> 00:05:16.400
+ the baseline.
+
+00:05:16.400 --> 00:05:23.000
+ And then we have seen how are the services behaving when the Russians started their attack.
+
+00:05:23.000 --> 00:05:24.880
+ And here we see the first chart.
+
+00:05:24.880 --> 00:05:27.000
+ I hope you can see it somehow.
+
+00:05:27.000 --> 00:05:33.080
+ On the left, we have started by 100% for different protocols for HTTPS, SSH,
+
+00:05:33.080 --> 00:05:36.680
+ HTTP host, DNS host, SMTP hosts.
+
+00:05:36.680 --> 00:05:44.440
+ And we can see in the middle of the chart that there is approximately the end of February,
+
+00:05:44.440 --> 00:05:50.400
+ beginning of March 22, where the red arrow is somehow seeable.
+
+00:05:50.400 --> 00:05:54.120
+ We can see there's a huge drop in service availability.
+
+00:05:54.120 --> 00:05:57.160
+ This is here, for instance, this is a special area of Ukraine.
+
+00:05:57.160 --> 00:05:58.680
+ This is in the northeast Ukraine.
+
+00:05:58.680 --> 00:06:01.040
+ This is northeast also from Kiev.
+
+00:06:01.040 --> 00:06:05.920
+ This is the region where when we have here, Charnivy, this is the oblast of Kiev,
+
+00:06:05.920 --> 00:06:13.760
+ got invaded by Belarus and by Russia and got occupied by approximately 70%.
+
+00:06:13.760 --> 00:06:20.600
+ And we can see that during the occupation, a lot of services in that area went down,
+
+00:06:20.600 --> 00:06:23.720
+ especially the web services and also the mail services.
+
+00:06:23.720 --> 00:06:26.960
+ But one service still was very steady.
+
+00:06:26.960 --> 00:06:28.920
+ This was DNS.
+
+00:06:28.920 --> 00:06:31.640
+ And this was some of the thought, okay, that's very interesting.
+
+00:06:31.640 --> 00:06:38.360
+ We can see a lot of services dropped by approximately 60%, but only DNS is quite still stable.
+
+00:06:38.360 --> 00:06:45.760
+ When we compare now, especially the results from the beginning of March with the end of
+
+00:06:45.760 --> 00:06:50.880
+ the beginning of April, we can see that in the beginning of April, remember, the Russians
+
+00:06:50.880 --> 00:06:52.320
+ had a lot of logistic problems.
+
+00:06:52.320 --> 00:06:56.920
+ They needed to retreat going back to Belarus, et cetera, and then they released Kiev, right?
+
+00:06:56.920 --> 00:07:00.360
+ And then we can see the services are going up again.
+
+00:07:00.360 --> 00:07:05.800
+ So some people said that, oh, maybe they have just fixed the infrastructure and then the
+
+00:07:05.800 --> 00:07:07.360
+ services go up, right?
+
+00:07:07.360 --> 00:07:10.600
+ But we see that all the time DNS is very steady.
+
+00:07:10.600 --> 00:07:14.760
+ We have talked to some companies that have third-party providers based in Ukraine, and
+
+00:07:14.760 --> 00:07:20.200
+ they told us that before the Russians have invaded them, they have shut down their system
+
+00:07:20.200 --> 00:07:24.640
+ for data integrity protection and also data theft protection, right?
+
+00:07:24.640 --> 00:07:30.960
+ And that's why they have brought down their servers, but DNS was still active because
+
+00:07:30.960 --> 00:07:36.240
+ if you have ever tried to boot up a whole AD Windows infrastructure without DNS, it's
+
+00:07:36.240 --> 00:07:37.240
+ not possible, right?
+
+00:07:37.240 --> 00:07:42.480
+ That is the last core services you will remain, and that is why we see that we have seen DNS
+
+00:07:42.480 --> 00:07:48.660
+ was quite steady and all other services went down by 60%, and after the Russians retreated
+
+00:07:48.660 --> 00:07:53.160
+ and went back to their country, to Belarus, it went up again, right?
+
+00:07:53.160 --> 00:07:54.160
+ This was very interesting.
+
+00:07:54.160 --> 00:07:58.360
+ We have seen this kind of behavior and seen, okay, we need to now make more intense scans
+
+00:07:58.360 --> 00:08:04.960
+ on an hourly basis to understand and to see maybe we can also see where some Russian rockets
+
+00:08:04.960 --> 00:08:09.000
+ attack some power plants and if we can maybe see in that region, we can see that a lot
+
+00:08:09.000 --> 00:08:14.760
+ of servers are also going down and going up after some other hours when the power is up
+
+00:08:14.760 --> 00:08:15.760
+ again.
+
+00:08:15.760 --> 00:08:19.200
+ And I will show that.
+
+00:08:19.200 --> 00:08:23.920
+ Here we can see also a very special case that is a Mario pole.
+
+00:08:23.920 --> 00:08:29.120
+ You can maybe see we have also set 100% for all protocols, and then for all protocols,
+
+00:08:29.120 --> 00:08:31.760
+ it goes down by 90%, right?
+
+00:08:31.760 --> 00:08:38.040
+ Mario pole is a city that's very close to the cities that were attacked very hard, very
+
+00:08:38.040 --> 00:08:42.800
+ first by a lot of critical airstrikes and so on.
+
+00:08:42.800 --> 00:08:46.680
+ On the right side, you could normally see data from the European Space Administration.
+
+00:08:46.680 --> 00:08:51.440
+ They have done some radar scans and have seen that approximately 90% of all buildings are
+
+00:08:51.440 --> 00:08:58.080
+ now like 10 up to 50 meters lower than before because they got completely destroyed, right?
+
+00:08:58.080 --> 00:09:02.360
+ And using our internet scans, we can also see that approximately 90% of all network
+
+00:09:02.360 --> 00:09:07.480
+ services we have identified in that region are also not existing anymore since the beginning
+
+00:09:07.480 --> 00:09:09.920
+ of the invasions and the attacks of the Russians.
+
+00:09:09.920 --> 00:09:15.440
+ This means we could also just sitting here in Berlin scanning from our IP addresses,
+
+00:09:15.440 --> 00:09:18.680
+ we can just use it like a radar looking if you're up, are you up, are you up?
+
+00:09:18.680 --> 00:09:19.680
+ Oh no, you're down.
+
+00:09:19.680 --> 00:09:24.720
+ And then we can see that 90% of all service in Mario pole went down like in the first
+
+00:09:24.720 --> 00:09:29.200
+ two weeks of the attacks by the Russians and 90% are not still available anymore.
+
+00:09:29.200 --> 00:09:34.880
+ And this shows us that also for a long time, for at least three months, this shows us that
+
+00:09:34.880 --> 00:09:42.240
+ you can use internet scans for use some kind of battle damage assessment to see how big
+
+00:09:42.240 --> 00:09:48.600
+ is the attack and how big is the result of the attack also for the region.
+
+00:09:48.600 --> 00:09:54.440
+ This information is for instance important for when you are the Ministry for Foreign
+
+00:09:54.440 --> 00:09:57.000
+ Affairs and you support some NGOs, for instance, right?
+
+00:09:57.000 --> 00:10:01.400
+ Then it would be very interesting to see how big is the grade of destructions in a certain
+
+00:10:01.400 --> 00:10:02.400
+ area.
+
+00:10:02.400 --> 00:10:07.240
+ And you can use this kind of information for rough estimation.
+
+00:10:07.240 --> 00:10:12.960
+ So what we then did is that we said, okay, we have selected 400,000 static IP addresses
+
+00:10:12.960 --> 00:10:14.040
+ in Ukraine.
+
+00:10:14.040 --> 00:10:18.920
+ It's like having vantage points for measuring.
+
+00:10:18.920 --> 00:10:24.640
+ And then we have scanned these 400,000 static IP addresses every four hours just for looking
+
+00:10:24.640 --> 00:10:29.760
+ where in the region services are going up or going down.
+
+00:10:29.760 --> 00:10:33.680
+ Very important, static is very important because if you use dynamic IP addresses, dynamic IP
+
+00:10:33.680 --> 00:10:38.120
+ addresses are very often up or down because people switch off their mobile router or get
+
+00:10:38.120 --> 00:10:39.760
+ a new IP address, whatever.
+
+00:10:39.760 --> 00:10:43.200
+ That is why we have chosen static IP addresses.
+
+00:10:43.200 --> 00:10:49.800
+ And as you can remember, we know that especially in October 2022, this was the first big attack
+
+00:10:49.800 --> 00:10:54.600
+ of the Russians against the critical infrastructure of the Ukraine.
+
+00:10:54.600 --> 00:10:59.360
+ A lot of reports also from Reuters has shown this was the first well-known Russian attack
+
+00:10:59.360 --> 00:11:01.320
+ against the critical infrastructure.
+
+00:11:01.320 --> 00:11:04.680
+ And then we have chosen open source intelligence.
+
+00:11:04.680 --> 00:11:10.280
+ Here on the right side, you can see somehow a map from Wikipedia, which has collected
+
+00:11:10.280 --> 00:11:16.680
+ tons of reports from social media and also from newspapers where in a certain region
+
+00:11:16.680 --> 00:11:23.600
+ Russian have attacked and where we have received a power outage in that region.
+
+00:11:23.600 --> 00:11:31.480
+ And the interesting point is that in all regions where we have seen that the open source intelligence
+
+00:11:31.480 --> 00:11:35.920
+ says, or here the social media says there was a power outage, we can also see that we
+
+00:11:35.920 --> 00:11:37.680
+ have a drop in our scans.
+
+00:11:37.680 --> 00:11:42.400
+ So for instance, here we can see on the map on Chenevy, which is in the northeast, this
+
+00:11:42.400 --> 00:11:51.000
+ is a country that which got not, this is an uplast like a state of the Ukraine, which
+
+00:11:51.000 --> 00:11:56.520
+ got not directly hit, also received not a power outage, but all surrounding states or
+
+00:11:56.520 --> 00:12:00.320
+ uplasts of Chenevy have received power outages.
+
+00:12:00.320 --> 00:12:03.220
+ And we can also see this in the data.
+
+00:12:03.220 --> 00:12:09.080
+ On the right side, when you can see a small drop, this is a drop we can see on the power
+
+00:12:09.080 --> 00:12:14.240
+ outages in Chenevy because all the border regions also received a power loss.
+
+00:12:14.240 --> 00:12:22.000
+ And for making, showing you that also the opposite also works very well, we can see
+
+00:12:22.000 --> 00:12:27.840
+ that in Odessa, which is in the southwest of Ukraine, we can see there was no power outage
+
+00:12:27.840 --> 00:12:31.080
+ given by the social media and in other newspapers.
+
+00:12:31.080 --> 00:12:37.560
+ And there we can see the data acquired steady, steady, steady line on the availability of
+
+00:12:37.560 --> 00:12:39.480
+ the network services.
+
+00:12:39.480 --> 00:12:45.000
+ Now we are going directly to Sumi, which is an uplast, which received a bigger power outage
+
+00:12:45.000 --> 00:12:52.400
+ and there we can see here on the right side, a big drop by approximately 90 up to 80% across
+
+00:12:52.400 --> 00:12:54.120
+ all protocols.
+
+00:12:54.120 --> 00:12:59.200
+ When we remember we have seen the Chenevy first stuff we have seen there was still DNS
+
+00:12:59.200 --> 00:13:05.680
+ was still running. In that case, we can see that HTTP, SSH, HTTPS and DNS, all services
+
+00:13:05.680 --> 00:13:10.840
+ went down exactly at the moment as the social media also reports there has been Russian
+
+00:13:10.840 --> 00:13:14.800
+ attacks in the security infrastructure and also says there was a power outage.
+
+00:13:14.800 --> 00:13:20.400
+ And we can just say, okay, yes, we can also measure that.
+
+00:13:20.400 --> 00:13:24.560
+ This is also, we can also estimate here, we can see the power drop and we can just estimate
+
+00:13:24.560 --> 00:13:27.640
+ that the power outage was around 12 hours.
+
+00:13:27.640 --> 00:13:35.000
+ So we say when approximately 80% of all services up again, we say the power outage is over.
+
+00:13:35.000 --> 00:13:42.800
+ We can see after 12 hours 80% are reached and then they took three further days to get
+
+00:13:42.800 --> 00:13:44.920
+ up to 100%.
+
+00:13:44.920 --> 00:13:45.920
+ That is very interesting.
+
+00:13:45.920 --> 00:13:51.600
+ Also when you are an NGO it is very interesting to understand how many fuel I need to take
+
+00:13:51.600 --> 00:13:58.600
+ or how to cover these power outage time for instance or how to maybe what kind of turbines
+
+00:13:58.600 --> 00:14:01.760
+ do energy turbines do as you create need.
+
+00:14:01.760 --> 00:14:05.560
+ And so this is very interesting data because you can just on a social media you can just
+
+00:14:05.560 --> 00:14:10.440
+ see there was some kind of power outage but you can't half measure how long it is.
+
+00:14:10.440 --> 00:14:13.200
+ And here we have very good qualified data for doing that.
+
+00:14:13.200 --> 00:14:16.440
+ So this data here was for Sumi.
+
+00:14:16.440 --> 00:14:18.440
+ We can also see this for Poltava.
+
+00:14:18.440 --> 00:14:20.840
+ Poltava is the same.
+
+00:14:20.840 --> 00:14:25.840
+ We can see here on the right side a drop across all protocols and also here in this time this
+
+00:14:25.840 --> 00:14:28.800
+ was eight hours but it was not that big.
+
+00:14:28.800 --> 00:14:32.880
+ It was approximately only by 40% drop.
+
+00:14:32.880 --> 00:14:36.960
+ We can also see this here for Ternopil.
+
+00:14:36.960 --> 00:14:43.520
+ There was a first strike on the night from the 6th to the 7th October and also on the
+
+00:14:43.520 --> 00:14:46.200
+ 10th October we can see also a bigger drop.
+
+00:14:46.200 --> 00:14:51.040
+ And then what's very interesting you can see here they have been fighting really really long
+
+00:14:51.040 --> 00:14:55.960
+ for getting up to the 100% because at first they just went to the 80% and then you get
+
+00:14:55.960 --> 00:14:57.520
+ up and they get down and so on.
+
+00:14:57.520 --> 00:15:05.600
+ You can see that the energy grid was very unstable for at least three up to four days.
+
+00:15:05.600 --> 00:15:14.160
+ So here we have just a table which shows us where power outage has been detected by the
+
+00:15:14.160 --> 00:15:19.800
+ open source and social media and what our results are showing.
+
+00:15:19.800 --> 00:15:24.520
+ We can see that very often when we have power outage detected we also have our mechanisms
+
+00:15:24.520 --> 00:15:27.520
+ detected in it or our algorithm.
+
+00:15:27.520 --> 00:15:34.480
+ And we did a Pearson correlation coefficient analyzer and we got a strong correlation because
+
+00:15:34.480 --> 00:15:41.000
+ we got a result from 0.74 which indicates a strong correlation using our methodology
+
+00:15:41.000 --> 00:15:43.200
+ for detecting power outages in Ukraine.
+
+00:15:43.200 --> 00:15:49.240
+ It has a strong correlation to the open source and social media reports.
+
+00:15:49.240 --> 00:15:53.160
+ So this means that the algorithm and the technology is working and it's very interesting.
+
+00:15:53.160 --> 00:15:59.640
+ So now we can see the next like approximately half a year later on the 9th of March the
+
+00:15:59.640 --> 00:16:04.000
+ Russians attacked again the critical infrastructure of the Ukraine.
+
+00:16:04.000 --> 00:16:09.480
+ And the very interesting point is that we measured it again and this time we can see
+
+00:16:09.480 --> 00:16:20.840
+ for instance here for Dnipropetrovsk Oblast there was only a small power outage like 20%
+
+00:16:20.840 --> 00:16:21.840
+ for eight hours.
+
+00:16:21.840 --> 00:16:28.480
+ We can also see this here for Kivororod which was also a very small power outage like 40%
+
+00:16:28.480 --> 00:16:30.280
+ only for eight hours.
+
+00:16:30.280 --> 00:16:36.320
+ So when we now go further and investigate it we understand we have seen here that on
+
+00:16:36.320 --> 00:16:42.920
+ the October the power outage was every time like 80% for 12 up to 15 hours.
+
+00:16:42.920 --> 00:16:47.840
+ And then it took like three days they recovered completely to 100%.
+
+00:16:47.840 --> 00:16:52.800
+ But half a year later the Russian attacks are not so have not such big impact because
+
+00:16:52.800 --> 00:16:58.400
+ here we can see power outages now only maximum 80% very close to the 100% 100% and then it's
+
+00:16:58.400 --> 00:16:59.400
+ easier.
+
+00:16:59.400 --> 00:17:05.040
+ I talked to some Ukraine guys and they said yes because we learned to deal with that.
+
+00:17:05.040 --> 00:17:11.960
+ A lot of Ukrainian civilian people have now small energy turbines, generators and so on
+
+00:17:11.960 --> 00:17:16.760
+ and they self power them for the time of the outage.
+
+00:17:16.760 --> 00:17:25.440
+ We have also the United States have provided big very big power generators, huge turbines
+
+00:17:25.440 --> 00:17:32.040
+ like big cars that are able to distribute power for the whole district of a city.
+
+00:17:32.040 --> 00:17:36.840
+ So they distributed the power supply of the Ukraine using mobile generators, the civilians
+
+00:17:36.840 --> 00:17:41.640
+ on their own and also by the government supported by the Germans and the United States.
+
+00:17:41.640 --> 00:17:46.120
+ And we can see in our measurements that the impact of the power outages are much lower
+
+00:17:46.120 --> 00:17:51.640
+ than before because we can see it's not over the 50% before we had like 80-90% now it's
+
+00:17:51.640 --> 00:17:57.480
+ maximum 50% and also the time of the power outages has decreased by 50% because we now
+
+00:17:57.480 --> 00:18:01.080
+ have only like eight hours up to the 100%.
+
+00:18:01.080 --> 00:18:08.120
+ It's very interesting to see that the Russian attacks against the power grid is less efficient
+
+00:18:08.120 --> 00:18:12.240
+ than before in October and that is measurable by internet scans.
+
+00:18:12.240 --> 00:18:16.600
+ This is so fascinating right that you can sit here and see the data and analyze it from
+
+00:18:16.600 --> 00:18:21.320
+ home not being there but you can make very interesting research about these kind of topics.
+
+00:18:21.320 --> 00:18:25.960
+ Okay now we are also looking for the Russian control right so we have here Zaborozhina
+
+00:18:25.960 --> 00:18:30.440
+ which is under Russian control and we can see that the power attacks against the Zaborozhina
+
+00:18:30.440 --> 00:18:34.440
+ against the Russian controlled area has no impact.
+
+00:18:34.440 --> 00:18:38.800
+ So we can see that the Russians are not attacking their own region right they are not impacted
+
+00:18:38.800 --> 00:18:42.400
+ by their own attacks because there's also cross-check you have to do right maybe there's
+
+00:18:42.400 --> 00:18:47.400
+ some general failure in my methodology but this is very interesting to see that the Russians
+
+00:18:47.400 --> 00:18:51.760
+ are all the time steady in their controlled area and that they attack only the Ukraine
+
+00:18:51.760 --> 00:18:55.880
+ power grid system and they do not impact themselves.
+
+00:18:55.880 --> 00:19:01.960
+ Okay this was about kinetic strike detection and to understand how you can use internet
+
+00:19:01.960 --> 00:19:05.240
+ scans for detection and to analyze it.
+
+00:19:05.240 --> 00:19:11.320
+ Now we are going to more presumably Russian attacks so very interesting is we have Kherson.
+
+00:19:11.320 --> 00:19:21.080
+ Kherson is a city which was very heavily contested and which went under control in the end of
+
+00:19:21.080 --> 00:19:28.000
+ March and April under the Russians and what we can see here is the BGP dependency graph
+
+00:19:28.000 --> 00:19:33.640
+ this means we can see here from Kherson Telecom which is an ISP an internet service provider
+
+00:19:33.640 --> 00:19:41.120
+ of Kherson we can see where do they give or who is the main upstream provider of Kherson
+
+00:19:41.120 --> 00:19:45.840
+ Telecom right so this means when you serve on your network where is the traffic for Kherson
+
+00:19:45.840 --> 00:19:48.000
+ Telecom clients going through.
+
+00:19:48.000 --> 00:19:55.700
+ And here we can see it was taken by Ucomline, Ucomline was the upstream provider of Kherson
+
+00:19:55.700 --> 00:20:01.000
+ Telecom and in the beginning of May in the first May we can see there is a switch.
+
+00:20:01.000 --> 00:20:05.720
+ The switch there is a switch that say have give 100 percent of the traffic to Ucomline
+
+00:20:05.720 --> 00:20:11.320
+ which is Ukraine ISP and then there was a switch to Miranda AS Miranda Autonomous System
+
+00:20:11.320 --> 00:20:13.040
+ so who is Miranda?
+
+00:20:13.040 --> 00:20:18.120
+ Just looking Miranda Media Limited is the ISP is the new upstream provider of Kherson
+
+00:20:18.120 --> 00:20:22.320
+ Telecom in the first of May there was a change on the BGP data very interesting first of
+
+00:20:22.320 --> 00:20:29.560
+ May is also a holiday in Ukraine right day of labor and we can see Miranda Limited is
+
+00:20:29.560 --> 00:20:37.320
+ ISP which is has been founded in 2014 on the Crimea interesting right and when we see also
+
+00:20:37.320 --> 00:20:43.160
+ on the right data they states it's in Crimea and belongs to the Russian Federation so we
+
+00:20:43.160 --> 00:20:51.920
+ see it looks like a Russian ISP doing some more investigation we can see here that also
+
+00:20:51.920 --> 00:20:59.320
+ Miranda Limited is responsible for the internet C cable that connected Crimea and Russia mainland
+
+00:20:59.320 --> 00:21:07.040
+ right and very interesting point is that these internet cable was finished in 2014 very close
+
+00:21:07.040 --> 00:21:16.760
+ to the invasion to Crimea and these internet cable was also provided by a Chinese cable
+
+00:21:16.760 --> 00:21:22.840
+ layer called Ying Gong Wan right isn't fascinating to understand these political behaviors behind
+
+00:21:22.840 --> 00:21:30.560
+ that so we have here clearly an Russian ISP and ISP that is also operating a C cable connecting
+
+00:21:30.560 --> 00:21:34.760
+ Crimea and Russian mainland and so it makes totally sense that they are the new upstream
+
+00:21:34.760 --> 00:21:41.160
+ provider of Kherson Telecom a city they have invaded and very interesting is that you can
+
+00:21:41.160 --> 00:21:47.920
+ see later as there was on the 4th of May we can see there is somehow back switch to data
+
+00:21:47.920 --> 00:21:55.560
+ group as of going back to Ukraine ISP and then there is also New York Times report which
+
+00:21:55.560 --> 00:22:03.320
+ says yes very important a lot of different reports especially in Kherson Russian people
+
+00:22:03.320 --> 00:22:08.800
+ arrived Russian soldiers arrived and tried to get control about the internet infrastructure
+
+00:22:08.800 --> 00:22:12.760
+ and also telecommunication companies so this time here in the first time of war we can
+
+00:22:12.760 --> 00:22:17.960
+ really see that the internet as part of critical infrastructure is also a tactical objective
+
+00:22:17.960 --> 00:22:24.960
+ obviously right so Russians came and say please switch off your routes going to Miranda ISP
+
+00:22:24.960 --> 00:22:31.520
+ that's how it's working and interesting point is that we can see so here we can see that
+
+00:22:31.520 --> 00:22:36.760
+ on the 4th of May there was switch back to the Ukraine ISP and it looks like then they
+
+00:22:36.760 --> 00:22:44.120
+ used maybe more forces or so that different there's a huge topic on the Facebook channel
+
+00:22:44.120 --> 00:22:50.920
+ of Kherson Telecom where the CEO says yes there was no connection I was not forced by
+
+00:22:50.920 --> 00:22:54.320
+ the Russians but I thought it's better to use the Russian internet than the Ukrainian
+
+00:22:54.320 --> 00:22:58.960
+ because it's more stable and so on and so on right so but it's very hard to say here
+
+00:22:58.960 --> 00:23:06.720
+ from Germany what's the retry but we can see that in the end of May 31 May we can see since
+
+00:23:06.720 --> 00:23:12.920
+ November 2022 it was all the time Miranda as was the primary upstream provider of Kherson
+
+00:23:12.920 --> 00:23:20.400
+ Telecom and then we can remember that in 9 November the Russians retreated from Kherson
+
+00:23:20.400 --> 00:23:25.280
+ they went back and the interesting is we can also see this in the BGP data because exactly
+
+00:23:25.280 --> 00:23:29.760
+ to the 9th November Kherson Telecom has no upstream provider anymore the Russians have
+
+00:23:29.760 --> 00:23:34.000
+ cut the lines and then they moved away from Kherson right and this is also seeable by
+
+00:23:34.000 --> 00:23:39.360
+ the BGP data very interesting is Kherson Telecom went never up again they are now completely
+
+00:23:39.360 --> 00:23:44.440
+ away and I have heard some rumors that the CEO of Kherson Telecom went also in prison
+
+00:23:44.440 --> 00:23:49.200
+ or gets accused but there's still some some social media stuff right it's very hard to
+
+00:23:49.200 --> 00:23:54.560
+ prove the truth we can just see here the data on the BGP and we can see that the Russians
+
+00:23:54.560 --> 00:24:00.160
+ have somehow tried to get control about the upstream of Kherson Telecom in the end of May
+
+00:24:00.160 --> 00:24:05.080
+ they have received the control all traffic went through Kherson Telecom it's very important
+
+00:24:05.080 --> 00:24:10.720
+ because for censorship of course you can also identify maybe partisan troops try to communicate
+
+00:24:10.720 --> 00:24:16.880
+ using the internet whatever and then when they retreated from Kherson the lines got cut
+
+00:24:16.880 --> 00:24:23.240
+ and we can see no connection anymore for Kherson Telecom so this was the second part now we
+
+00:24:23.240 --> 00:24:32.040
+ are coming to the third part of the talk we also operate a third /22 just as a black sensor
+
+00:24:32.040 --> 00:24:38.920
+ network it's an under name from a different company and the black sensor network we call
+
+00:24:38.920 --> 00:24:45.360
+ internally the cyber echelon right this means it's just collecting the data just when you
+
+00:24:45.360 --> 00:24:50.960
+ make some ping probe some TCP-SYN traffic whatever it's just it's a sinkhole it's just recording
+
+00:24:50.960 --> 00:24:57.400
+ all the data and enriches the data who is connecting what is the what is the autonomous
+
+00:24:57.400 --> 00:25:01.880
+ system from the IP addresses that get sent from and so on but you will never receive
+
+00:25:01.880 --> 00:25:07.000
+ an answer from this black hole network using this we can also understand how are people
+
+00:25:07.000 --> 00:25:12.520
+ scanning and if maybe there's a new RDP vulnerability for instance we can use this kind of technology
+
+00:25:12.520 --> 00:25:17.120
+ to see who is scanning for new RDP ports or for new vulnerabilities and so on that is
+
+00:25:17.120 --> 00:25:22.720
+ for why we have these sensor network but the interesting point is that we have approximately
+
+00:25:22.720 --> 00:25:31.360
+ 160 million packets per day and the over 90 percent of all the data is TCP data we receive
+
+00:25:31.360 --> 00:25:39.480
+ 5% UDP data 3% ICMP pings so and the interesting point here is that we can see here on the
+
+00:25:39.480 --> 00:25:45.320
+ left or you can see nothing but I will now explain the chart okay so imagine it's like
+
+00:25:45.320 --> 00:25:51.640
+ that and then we have time of war and then immediate increase of the TCP packets we receive
+
+00:25:51.640 --> 00:25:57.000
+ from the Ukraine so suddenly this war begins and we receive a lot of traffic from the Ukraine
+
+00:25:57.000 --> 00:26:02.280
+ on our sensor network and that's very interesting we thought why so when we try to understand
+
+00:26:02.280 --> 00:26:06.720
+ TCP handshake normally you send a SYN you get a SYN ACK back then you send an ACK connection
+
+00:26:06.720 --> 00:26:13.120
+ established layer 4 communication very easily and then we have looked what kind of packets
+
+00:26:13.120 --> 00:26:19.000
+ do we receive and then we have seen we receive SYN ACK packets so this means we receive packets
+
+00:26:19.000 --> 00:26:25.840
+ from server they say yes we it's okay that you tries to connect to me I want to set up
+
+00:26:25.840 --> 00:26:30.120
+ a connection also to you right makes no sense because we have a black hole sensor network
+
+00:26:30.120 --> 00:26:36.200
+ we have never sent some kind of connection request so why do we receive SYN ACK communication
+
+00:26:36.200 --> 00:26:43.080
+ and then we have thought about it okay makes sense somebody is spoofing randomly IP addresses
+
+00:26:43.080 --> 00:26:48.080
+ sending it out against Ukraine targets and then Ukraine targets are responding with SYN
+
+00:26:48.080 --> 00:26:54.600
+ ACK packets back to our sensor network because when you randomly spoof IP addresses you will
+
+00:26:54.600 --> 00:26:59.240
+ also randomly spoof some IP addresses of our black hole sensor networks we have 1000 IP
+
+00:26:59.240 --> 00:27:03.760
+ addresses there will be some when you send tons of packets there's a very good chance
+
+00:27:03.760 --> 00:27:10.320
+ that you will also spoof some of our IP addresses so just it's illustrated the attacker is sending
+
+00:27:10.320 --> 00:27:15.200
+ spoofed SYN packets to the Ukraine victim and the victim is replying with SYN ACK packets
+
+00:27:15.200 --> 00:27:22.320
+ and some of the SYN ACK packets are also hitting our sensor network and in that way we can
+
+00:27:22.320 --> 00:27:31.320
+ identify who is the victim of the DDoS attack right so we can see we can see that especially
+
+00:27:31.320 --> 00:27:37.600
+ in the beginning of April so on a chart you can't see here but you have to imagine now
+
+00:27:37.600 --> 00:27:43.680
+ we can see that in the beginning of April the first April there's a high spike up to the
+
+00:27:43.680 --> 00:27:50.440
+ end of May and then there's anything anymore right so somebody has somehow fired a DDoS
+
+00:27:50.440 --> 00:27:55.600
+ attack against Ukraine server and in that case we have looking who is the IP address
+
+00:27:55.600 --> 00:28:02.600
+ that's sending us the SYN ACK packet it was President Gov UA right so somebody DDoSed
+
+00:28:02.600 --> 00:28:09.000
+ President Gov UA by randomly spoofing IP addresses and it's very easy to do that and it's also
+
+00:28:09.000 --> 00:28:14.760
+ hard to fight against this kind of traffic and you just rent some bulletproof holster
+
+00:28:14.760 --> 00:28:21.640
+ which allows SYN TCP IP spoofing and then you can I don't know for 500 euros you can
+
+00:28:21.640 --> 00:28:27.640
+ also get 10 gigabit connection and then you try to fire against it the problem is against
+
+00:28:27.640 --> 00:28:32.520
+ this kind of traffic is it's very hard it's not that you receive DDoS traffic from a certain
+
+00:28:32.520 --> 00:28:38.600
+ autonomous system and then it's very hard to block because you receive completely different
+
+00:28:38.600 --> 00:28:43.400
+ packets from a lot of different ISPs because they randomly spoof the IP addresses but the
+
+00:28:43.400 --> 00:28:48.160
+ other point on these kind of attackers you have to buy a lot of bandwidth but normally
+
+00:28:48.160 --> 00:28:54.280
+ there was also another talk today two hours before very often DDoS attacks are also executed
+
+00:28:54.280 --> 00:28:59.540
+ that you try to identify a multiplier like DNS or NTP server you send traffic and they
+
+00:28:59.540 --> 00:29:05.240
+ send a 10 or 20 times amount back to the victim in that case here we have people that are
+
+00:29:05.240 --> 00:29:10.080
+ spoofing IP addresses and sending it directly to the victim and the victim is replying somehow
+
+00:29:10.080 --> 00:29:14.880
+ to us because they also spoofed our IP addresses and we can see that the exact in the beginning
+
+00:29:14.880 --> 00:29:19.600
+ of April the first April is it they started the attack and the end of April they finished
+
+00:29:19.600 --> 00:29:25.220
+ and then we can also see that in the beginning of May they started the attack winding up
+
+00:29:25.220 --> 00:29:28.920
+ going down the end of May and then exact and the beginning on June they are starting the
+
+00:29:28.920 --> 00:29:33.720
+ attack and the end of June they stopped so we can really see a very good pattern on these
+
+00:29:33.720 --> 00:29:39.560
+ kind of Russian attacks it's so it's in the beginning of the month it looks like somebody
+
+00:29:39.560 --> 00:29:44.160
+ has paid maybe somebody for doing something and then starting on the first of May yes
+
+00:29:44.160 --> 00:29:48.080
+ sir we are starting on the first of May you know so it makes no sense that you really
+
+00:29:48.080 --> 00:29:54.420
+ start it's begin exactly the beginning of the month you DDoS attacks so that's a freelancer
+
+00:29:54.420 --> 00:29:58.880
+ the hacker would never work like that right so starting exactly on the first of the month
+
+00:29:58.880 --> 00:30:06.440
+ yeah very interesting to see that so the second attack we have investigated here on the beginning
+
+00:30:06.440 --> 00:30:13.440
+ of June and the beginning of July was booking Gov. UA this is a portal where you can book
+
+00:30:13.440 --> 00:30:17.440
+ your train stuff where you can get your tickets where you can travel around Ukraine which
+
+00:30:17.440 --> 00:30:22.120
+ is also important for truth movements because also the Russian soldiers move by train of
+
+00:30:22.120 --> 00:30:26.960
+ course when they go home for some stuff and so on and so we can also see they have attacked
+
+00:30:26.960 --> 00:30:32.440
+ the presidential website and also the critical infrastructure the train systems the booking
+
+00:30:32.440 --> 00:30:41.600
+ system okay so also so now putting stuff in a nutshell we can use internet scans combined
+
+00:30:41.600 --> 00:30:47.200
+ with open source intelligence data and also a satellite imagery we remember on the European
+
+00:30:47.200 --> 00:30:53.320
+ space administration picture of Mario Pol and we can also to make strong correlations
+
+00:30:53.320 --> 00:30:58.400
+ for various events in the Ukraine in the in the Ukraine Russian conflict we can use very
+
+00:30:58.400 --> 00:31:02.800
+ intense internet scans like we have done in the scanning Ukraine's aesthetic server every
+
+00:31:02.800 --> 00:31:09.440
+ four hours to measure the impact of kinetic attacks by the Russians or to do or to use
+
+00:31:09.440 --> 00:31:14.000
+ it for some kind of better damage assessment to see how efficient are the Russian attacks
+
+00:31:14.000 --> 00:31:22.500
+ and we can also is also another point imagine that somebody on social media says a huge
+
+00:31:22.500 --> 00:31:28.000
+ nuclear bomb or whatever has exploded somewhere you could also use this kind of stance to
+
+00:31:28.000 --> 00:31:32.680
+ make some kind of fake news detection because if you have really really large damage event
+
+00:31:32.680 --> 00:31:38.000
+ somewhere you could use these internet scans also to verify these kind of information are
+
+00:31:38.000 --> 00:31:43.320
+ they really strongly hit is there really a large bombing whatever then we would see that
+
+00:31:43.320 --> 00:31:48.360
+ in our data so you could also use this kind of approach for fake news detection in the
+
+00:31:48.360 --> 00:31:55.200
+ end or for verification we have also learned that Ukraine internet consists of much more
+
+00:31:55.200 --> 00:32:00.480
+ small ISPs compared to the Germany they are much more resilient because more than 50 percent
+
+00:32:00.480 --> 00:32:06.100
+ of the end clients are are served by very small ISPs that serve less than one percent
+
+00:32:06.100 --> 00:32:15.840
+ of the whole clients we can use the BGP data to understand who is trying to capture critical
+
+00:32:15.840 --> 00:32:20.440
+ infrastructure special communication infrastructure and to route traffic through their own country
+
+00:32:20.440 --> 00:32:25.300
+ for censorship for instance and we have also learned that we can use a black hole sensor
+
+00:32:25.300 --> 00:32:32.920
+ network for understanding who is the victim in the Ukraine for a certain type of DDoS
+
+00:32:32.920 --> 00:32:38.760
+ attacks and we have also seen that in the DDoS attacks we have investigated there is
+
+00:32:38.760 --> 00:32:44.800
+ a some kind of campaign of campaigning because the attacks started every time on the first
+
+00:32:44.800 --> 00:32:49.520
+ of the month and ended in the end of the month which shows us this is a some kind of foreign
+
+00:32:49.520 --> 00:32:55.280
+ cyber campaign maybe behind it okay so this was my talk I thank you very much for your
+
+00:32:55.280 --> 00:33:08.800
+ attention I know it was very hard and we do have a few minutes for questions please line
+
+00:33:08.800 --> 00:33:21.680
+ up at the microphone countries in Europe are divided approximately equally right now in
+
+00:33:21.680 --> 00:33:26.960
+ terms of which ones require registration of identity to obtain SIM cards and those that
+
+00:33:26.960 --> 00:33:31.960
+ don't the Russo-Ukrainian war is between two powers on opposite ends of this spectrum and
+
+00:33:31.960 --> 00:33:36.600
+ Ukraine no registration is required in the Russian Federation it is well this is less
+
+00:33:36.600 --> 00:33:42.600
+ relevant now as the Russian troops retreat early in the war Russian troops were obtaining
+
+00:33:42.600 --> 00:33:49.840
+ Ukrainian SIM cards through looting and other measures that enables them to stay in touch
+
+00:33:49.840 --> 00:33:56.840
+ and coordinate because they were given inadequate radio signals equipment and one of the interesting
+
+00:33:56.840 --> 00:34:02.320
+ questions at the time was how open source foreign open source intelligence operatives
+
+00:34:02.320 --> 00:34:10.080
+ or the Ukrainian government could try to determine which cellular signals to intercept or disrupt
+
+00:34:10.080 --> 00:34:13.240
+ given that no registration was available is this a problem you've encountered how would
+
+00:34:13.240 --> 00:34:18.240
+ you recommend as a strategy in this theoretical scenario well so mobile network communications
+
+00:34:18.240 --> 00:34:23.920
+ was not part of my talk it's a very it's it's a very good question but in the end I'm not
+
+00:34:23.920 --> 00:34:28.200
+ expert for the mobile network communication I can just say from a network perspective
+
+00:34:28.200 --> 00:34:32.120
+ that the mobile communications are mostly behind the network address translation and
+
+00:34:32.120 --> 00:34:36.480
+ that and that you can't reach them via the scans very often so that's why they are out
+
+00:34:36.480 --> 00:34:40.800
+ of my scope because I cannot scan them right so that's why I'm not dealing about I'm sorry
+
+00:34:40.800 --> 00:34:48.640
+ I have no good question ma'am it's not my my subject hi thank you for the talk you mentioned
+
+00:34:48.640 --> 00:34:54.720
+ this provider in cherson which is now gone do you have any indication what the clients
+
+00:34:54.720 --> 00:35:00.120
+ of this provider are now doing have they switched to another one did you see any increase for
+
+00:35:00.120 --> 00:35:05.800
+ in another isp a good question this is a very interesting point we have not investigated
+
+00:35:05.800 --> 00:35:11.160
+ that but if you maybe give me later a card or contact information we can do this and
+
+00:35:11.160 --> 00:35:17.480
+ and I can send you this right very good point so very often they have their own ranges and
+
+00:35:17.480 --> 00:35:23.520
+ they are belong to the ripe and I think that the IP addresses are now dead until they get
+
+00:35:23.520 --> 00:35:27.600
+ released by the ripe again because of course so that's that what I would think now but
+
+00:35:27.600 --> 00:35:34.040
+ maybe we can identify some HTTPS certificates and can see where these servers I have maybe
+
+00:35:34.040 --> 00:35:38.040
+ moved to another isp it's a very good idea we can investigate it very good point good
+
+00:35:38.040 --> 00:35:44.800
+ idea hello and thank you for your talk I was very interesting I wanted to ask about the
+
+00:35:44.800 --> 00:35:53.400
+ coordination like you scan like 400,000 IPs on Ukraine every four hours did you have any
+
+00:35:53.400 --> 00:35:58.280
+ kind of coordination with them because it's a war right so I imagine from the other side
+
+00:35:58.280 --> 00:36:05.360
+ they are trying to defend and then you're just hitting the things and not only you but like
+
+00:36:05.360 --> 00:36:09.920
+ all the other companies right so did you do any coordination like these are our IPs like
+
+00:36:09.920 --> 00:36:16.160
+ we are doing this sir it's so when you for instance when you go when you look who is
+
+00:36:16.160 --> 00:36:19.640
+ the IP address who's scanning you can see it's IFA strike lab it's research net you
+
+00:36:19.640 --> 00:36:24.280
+ have an abuse address when you email to the abuse address you get a complete answer about
+
+00:36:24.280 --> 00:36:28.800
+ the research project we are doing technically it's like every four hours one packet per
+
+00:36:28.800 --> 00:36:35.800
+ system it's nothing right so it's it's yeah but but the traffic we issue is very it's
+
+00:36:35.800 --> 00:36:44.040
+ it's just a sin a sin packet on HTTP on HTTPS it's it's it's it's really under the backscatter
+
+00:36:44.040 --> 00:36:48.240
+ of all scanning we have all the time so it's like this is some kind of background noise
+
+00:36:48.240 --> 00:36:53.440
+ all the time that's everybody everybody is getting everybody like that and this one packet
+
+00:36:53.440 --> 00:36:59.480
+ every four hours they are they are not even identifying it we know so we got no compliance
+
+00:36:59.480 --> 00:37:05.760
+ complaints on from Ukraine so that point it was like there was no Korean nation because
+
+00:37:05.760 --> 00:37:12.960
+ there was no impact in the end and was also predicted by several be no impact okay hello
+
+00:37:12.960 --> 00:37:18.800
+ thanks for the talk and I would assume that especially owners of static IP addresses have
+
+00:37:18.800 --> 00:37:25.680
+ a quite professional hardware setup containing uninterruptible power supply of some sort
+
+00:37:25.680 --> 00:37:32.360
+ so is it really that four hours accurate what you showed off or might there be a heavily
+
+00:37:32.360 --> 00:37:38.200
+ impact because they might be able to power up from scratch even in the beginning of the
+
+00:37:38.200 --> 00:37:43.400
+ war you're from Germany right yes yes okay very typically because that every 24 hour
+
+00:37:43.400 --> 00:37:48.800
+ you get a new IP address is a very typical German stuff right so especially when you
+
+00:37:48.800 --> 00:37:53.600
+ think on cable modems you have even now in Germany very often static IP addresses so
+
+00:37:53.600 --> 00:37:59.640
+ I have also static IP address at my home so and especially when you go abroad having static
+
+00:37:59.640 --> 00:38:05.200
+ IP addresses on a broadband connection it's very usual in the foreign countries so yes
+
+00:38:05.200 --> 00:38:09.760
+ of course it's more likely that you have maybe more professional setup because each professional
+
+00:38:09.760 --> 00:38:16.520
+ setup will have a static IP address but compared to to like standard DSL connections here in
+
+00:38:16.520 --> 00:38:24.200
+ Germany and even they have now more than 24 hours a static IP address yes there could
+
+00:38:24.200 --> 00:38:31.840
+ be a somehow small shift that will be more professional and we receive lower or maybe
+
+00:38:31.840 --> 00:38:36.860
+ not that good results but when this effect would be really there then we wouldn't have
+
+00:38:36.860 --> 00:38:42.240
+ seen like 90 percent power loss on the on the attacks in October right and because we have
+
+00:38:42.240 --> 00:38:47.120
+ seen that I would say this is not a factor that impacts our result very much because
+
+00:38:47.120 --> 00:38:51.760
+ the special equipment could be maximum 10 percent of our results because we have seen
+
+00:38:51.760 --> 00:38:58.280
+ a drop on 90 percent and the 10 percent remaining have maybe professional equipment yes sure
+
+00:38:58.280 --> 00:39:05.080
+ hey thanks for the talk I was wondering whether you have any insight and type of devices or
+
+00:39:05.080 --> 00:39:12.240
+ the locality of the static IPs you are measuring so is it a representative sample of the Ukrainian
+
+00:39:12.240 --> 00:39:16.840
+ infrastructure internet infrastructure yes so what we have done is we have looked for
+
+00:39:16.840 --> 00:39:23.160
+ ISPs so we have seen that we have really from all ISPs a good sample rights and from all
+
+00:39:23.160 --> 00:39:28.080
+ prefixes and so on so this it's not like we have four one hundred thousand IP addresses
+
+00:39:28.080 --> 00:39:32.560
+ from like two ISPs that's something of course we have checked and that's a very good distribution
+
+00:39:32.560 --> 00:39:38.880
+ across all ISPs and also across all locations in the Ukraine so yeah sure thank you very
+
+00:39:38.880 --> 00:39:45.760
+ much very good question hi question previous reports on scanning the infrastructure send
+
+00:39:45.760 --> 00:39:50.520
+ the reports to the Ukrainian government for approval before publishing did you ask them
+
+00:39:50.520 --> 00:39:56.680
+ before publishing if you can so what we have done as I was on a conference from the Ministry
+
+00:39:56.680 --> 00:40:01.820
+ for Foreign Affairs of Germany and there I have met the vice deputy for the Ministry
+
+00:40:01.820 --> 00:40:07.200
+ of Communication and IT something like that and I talked to him and he said oh very interesting
+
+00:40:07.200 --> 00:40:13.340
+ data please send it to me right so there was not so so for him it was not like it's very
+
+00:40:13.340 --> 00:40:17.720
+ sensitive data or something like that and from our perspective I'm here in Germany and
+
+00:40:17.720 --> 00:40:22.280
+ we have freedom of research and when I found out those very interesting results I want
+
+00:40:22.280 --> 00:40:26.360
+ to publish it and to explain to people that you can use these very interesting types of
+
+00:40:26.360 --> 00:40:30.680
+ data and this internet scanning stuff also to understand what goes up in the Ukraine
+
+00:40:30.680 --> 00:40:35.360
+ also to fight against fake news and some other stuff right so that's so but in the end this
+
+00:40:35.360 --> 00:40:41.120
+ I have there was no coordination because how you I cannot just pick up a phone say hi I'm
+
+00:40:41.120 --> 00:40:44.280
+ Johannes Klick I want to talk with the vice president whatever and I want to internet
+
+00:40:44.280 --> 00:40:48.560
+ scan it is okay for you that's not how it's how it's working right it's like I will get
+
+00:40:48.560 --> 00:40:54.000
+ in a spam and then I wait for two hours and then it works right so that's but but nobody
+
+00:40:54.000 --> 00:41:00.280
+ was complaining and it's so yeah there's a word of course yes and they they they have
+
+00:41:00.280 --> 00:41:05.120
+ been very thankful for the insights because they have not been aware that we could have
+
+00:41:05.120 --> 00:41:10.400
+ been able to measure that the second Russian attacks are less powerful than the first wave
+
+00:41:10.400 --> 00:41:15.920
+ we have seen so in the end all Ukrainian guys I have talked to they have been very thankful
+
+00:41:15.920 --> 00:41:19.960
+ for these very interesting insights and to prove that they have been more resilient against
+
+00:41:19.960 --> 00:41:25.560
+ the Russian attacks that was all feedback I have received all the time thank you so much
+
+00:41:25.560 --> 00:41:30.000
+ for your research I'm wondering are you able to see starlink devices are able to see people
+
+00:41:30.000 --> 00:41:36.200
+ move to satellite internet or is this something that you're blind to so we have not investigated
+
+00:41:36.200 --> 00:41:43.320
+ that so when the star like when you have a device that is it depends I have not investigated
+
+00:41:43.320 --> 00:41:48.160
+ when they have IP addresses and known net network behind it you will have direct contact
+
+00:41:48.160 --> 00:41:53.040
+ to these networks but very often satellite networks and other stuff is netted or like
+
+00:41:53.040 --> 00:41:59.440
+ mobile communications but you have also every time the opportunity to have m2m connections
+
+00:41:59.440 --> 00:42:03.400
+ machine to machine connections static IP addresses I don't know what the exact setup is I have
+
+00:42:03.400 --> 00:42:08.040
+ not investigated starlink because a lot of other researchers concentrating on starlink
+
+00:42:08.040 --> 00:42:13.660
+ and what's going up in Ukraine and I wanted to make other stuff in the end but it's still
+
+00:42:13.660 --> 00:42:18.000
+ interesting so I can look up if you maybe find something and if I find no connection
+
+00:42:18.000 --> 00:42:23.040
+ to starlink I would highly bet that they have a network address translation okay thank you
+
+00:42:23.040 --> 00:42:29.360
+ good question thank you your house click thanks
+
+00:42:29.360 --> 00:42:32.360
+ (audience applause)
+
+00:42:32.760 --> 00:42:35.520
+ (ethereal music)
+
+00:42:35.520 --> 00:42:38.280
+ [MUSIC PLAYING]
+

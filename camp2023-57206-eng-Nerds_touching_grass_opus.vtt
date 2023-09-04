@@ -1,0 +1,986 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:35.920
+ Now I'm really, really happy to announce Julian.
+
+00:00:35.920 --> 00:00:40.520
+ Julian is going to talk about biohack spaces and
+
+00:00:40.520 --> 00:00:43.120
+ is going to share their knowledge on them with us.
+
+00:00:43.120 --> 00:00:46.600
+ So please give a warm welcome, big applause to Julian.
+
+00:00:46.600 --> 00:00:48.960
+ >> [APPLAUSE]
+
+00:00:48.960 --> 00:00:51.480
+ >> Hi, okay.
+
+00:00:51.480 --> 00:00:55.680
+ That went faster than I thought.
+
+00:00:55.680 --> 00:00:58.040
+ Hi, I'm going to talk about biohack spaces.
+
+00:00:58.040 --> 00:01:01.240
+ This might be a little rushed because originally I had much more time in mind
+
+00:01:01.240 --> 00:01:05.120
+ when I applied for the talk.
+
+00:01:05.120 --> 00:01:07.320
+ I'm going to quickly tell you who I am.
+
+00:01:07.320 --> 00:01:11.960
+ I'm going to give you a very brief, like 120 seconds history of
+
+00:01:11.960 --> 00:01:17.920
+ how the hackerspace movement got its traction 16 years ago.
+
+00:01:17.920 --> 00:01:20.240
+ And then I'm going to go into biohack labs,
+
+00:01:20.240 --> 00:01:23.640
+ especially in the curious community labs, which I am a part of.
+
+00:01:23.640 --> 00:01:25.440
+ Talk a little about our projects.
+
+00:01:25.440 --> 00:01:30.360
+ And then I'm gonna tell you why this is all important and very dear to my heart.
+
+00:01:30.360 --> 00:01:30.920
+ Who am I?
+
+00:01:30.920 --> 00:01:31.840
+ I'm Julian.
+
+00:01:31.840 --> 00:01:34.000
+ Today I like to use they and then pronouns.
+
+00:01:34.000 --> 00:01:36.880
+ I'm 42, but I really don't have any answers for you.
+
+00:01:36.880 --> 00:01:42.600
+ I live in Hamburg and I'm part of the Curious Community Labs, which we founded
+
+00:01:42.600 --> 00:01:49.760
+ in 2020 out of a group of people who had been doing DIY biology before.
+
+00:01:49.760 --> 00:01:52.800
+ And I've also been part of the CCC for 20 years this year.
+
+00:01:52.800 --> 00:01:55.520
+ History of hackerspaces, and
+
+00:01:55.520 --> 00:01:58.720
+ I think this is sort of important to know your roots.
+
+00:01:58.720 --> 00:02:03.720
+ In 2007, who of you has been, went to the camp in 2007, or
+
+00:02:03.720 --> 00:02:06.360
+ who of you has been around in 2007?
+
+00:02:06.360 --> 00:02:13.360
+ In 2007, there was an inflection point because
+
+00:02:13.360 --> 00:02:19.160
+ there was, after the camp of 2007, there was a tour of European hackerspaces.
+
+00:02:19.160 --> 00:02:22.520
+ And a bunch of American hackers, most notably Dan Kaminsky,
+
+00:02:22.520 --> 00:02:25.600
+ we all dearly miss him, Nick Farr, Bree Petters, Mitch Altman,
+
+00:02:25.600 --> 00:02:29.360
+ a couple of others, did a tour around European hackerspaces and
+
+00:02:29.360 --> 00:02:33.280
+ visited the C-Base, MetaLab in Vienna, and Tropia in Karlsruhe,
+
+00:02:33.280 --> 00:02:36.560
+ Chaos Computer Club in Cologne, which was sort of the biggest and
+
+00:02:36.560 --> 00:02:39.880
+ most notable hackspaces around at that time.
+
+00:02:39.880 --> 00:02:46.200
+ And Joel and Poulon did a talk about hackspace blueprints.
+
+00:02:46.200 --> 00:02:50.920
+ And out of that came a whole explosion of hackspaces.
+
+00:02:50.920 --> 00:02:53.600
+ After that, NYC Resistor was founded in New York,
+
+00:02:53.600 --> 00:02:57.800
+ a noise bridge in San Francisco, and just, I don't know,
+
+00:02:57.800 --> 00:03:01.080
+ about 50 different hackspaces within the next 18 months.
+
+00:03:01.080 --> 00:03:05.120
+ So this entire explosion of hackspaces and
+
+00:03:05.120 --> 00:03:09.640
+ everything that has trickled down from there is sort of due to the camp in 2007
+
+00:03:09.640 --> 00:03:12.960
+ somehow, and due to these people I would like to give a shout out.
+
+00:03:12.960 --> 00:03:16.760
+ And also a shout out to the original sort of European hackspaces like C-Base and
+
+00:03:16.760 --> 00:03:22.120
+ MetaLab and Tropia, C4, and obviously don't forget the roots in the US as well,
+
+00:03:22.120 --> 00:03:23.800
+ like Loft and others.
+
+00:03:23.800 --> 00:03:25.400
+ The world is very different today.
+
+00:03:25.400 --> 00:03:28.800
+ The whole entire movement has changed, hackerspaces have changed, but this is,
+
+00:03:30.800 --> 00:03:34.800
+ I think it's quite important to know your roots and also understand that
+
+00:03:34.800 --> 00:03:40.840
+ small inflection points really can start a movement and can inspire others and so on.
+
+00:03:40.840 --> 00:03:50.800
+ I, after about 17 years in the hacker community in 2020,
+
+00:03:50.800 --> 00:03:54.200
+ started being very interested in growing my own mushrooms.
+
+00:03:54.200 --> 00:03:57.760
+ And out of that sort of started joining the biopunk movement,
+
+00:03:57.760 --> 00:04:02.000
+ which I'm going to quickly sort of give you an overview of what I mean when I say
+
+00:04:02.000 --> 00:04:05.480
+ that we very much about DIY grassroots biology, and
+
+00:04:05.480 --> 00:04:08.200
+ I understand that grassroots is a really funny word here.
+
+00:04:08.200 --> 00:04:10.960
+ We are very diverse and not entirely definable.
+
+00:04:10.960 --> 00:04:13.600
+ And just as you can't really grasp what nature actually is,
+
+00:04:13.600 --> 00:04:18.000
+ there's people doing stuff with DNA, there's people growing mushrooms,
+
+00:04:18.000 --> 00:04:21.440
+ there's people going foraging, picking stuff, fermenting,
+
+00:04:21.440 --> 00:04:24.480
+ playing with yeasts, inventing new foods, everything around that.
+
+00:04:26.200 --> 00:04:30.520
+ Very diverse, there's all sorts of projects all around Europe,
+
+00:04:30.520 --> 00:04:33.600
+ but very few actual dedicated biohack spaces.
+
+00:04:33.600 --> 00:04:37.280
+ We are curious about biology, we're curious about open source and sharing and
+
+00:04:37.280 --> 00:04:41.880
+ teaching and learning just as well as the electronics and computer based hack scene.
+
+00:04:41.880 --> 00:04:47.440
+ Some of us focus more on fungi, others on microbiology.
+
+00:04:47.440 --> 00:04:52.480
+ In Hamburg, we're very sort of fungi-focused group, but
+
+00:04:52.480 --> 00:04:54.560
+ we also do a couple of other things.
+
+00:04:54.560 --> 00:04:59.880
+ And we're sort of separate from what someone might understand as the sort of
+
+00:04:59.880 --> 00:05:03.800
+ old school biohacker body modification kind of scene.
+
+00:05:03.800 --> 00:05:11.360
+ People who work with their own body and try to optimize, and
+
+00:05:11.360 --> 00:05:14.800
+ so it's not really the same kind of people in any sense.
+
+00:05:14.800 --> 00:05:17.680
+ What we are more closely to is sort of the solar punk movement,
+
+00:05:17.680 --> 00:05:21.240
+ people are thinking about being autonomous, going off grid.
+
+00:05:22.400 --> 00:05:25.800
+ These kind of people, and then obviously we are sort of intertwined with the hacker
+
+00:05:25.800 --> 00:05:26.560
+ movement as well.
+
+00:05:26.560 --> 00:05:32.760
+ In Hamburg, we founded the Curious Community Labs, we have 42 square meters.
+
+00:05:32.760 --> 00:05:35.600
+ We have some extra areas, it's all in the Oberhafen in Hamburg.
+
+00:05:35.600 --> 00:05:39.480
+ If you ever come by, please have a look at us.
+
+00:05:39.480 --> 00:05:41.840
+ If you live in Hamburg, please come visit.
+
+00:05:41.840 --> 00:05:46.720
+ We have 23 members, and those numbers aren't made up, neither the 42 nor the 23.
+
+00:05:46.720 --> 00:05:51.320
+ And we have a bunch of gear standing around that we can use to do our own
+
+00:05:51.320 --> 00:05:52.680
+ DIY biology.
+
+00:05:52.680 --> 00:05:59.200
+ Some is very new, some is sort of foraged from industry,
+
+00:05:59.200 --> 00:06:05.160
+ from companies throwing out old hardware, and we give it a new life.
+
+00:06:05.160 --> 00:06:08.480
+ We grow mushrooms with a Flowhood, which is a sterile workbench.
+
+00:06:08.480 --> 00:06:11.920
+ We have a big massive autoclave, we have grow tents.
+
+00:06:11.920 --> 00:06:15.480
+ We have, someone sponsored us some DNA sequencing hardware.
+
+00:06:15.480 --> 00:06:17.920
+ We got a big grant to build the Garden of the Future,
+
+00:06:17.920 --> 00:06:21.080
+ which has a massive weather station and a greenhouse.
+
+00:06:21.080 --> 00:06:24.400
+ And we're certainly not the only biohack space around, but it's sort of hard to
+
+00:06:24.400 --> 00:06:28.840
+ grasp, and there's not really this sort of website collecting everything,
+
+00:06:28.840 --> 00:06:30.760
+ like there's on hackspaces.org.
+
+00:06:30.760 --> 00:06:36.760
+ So if you are part of your own biohack space, please contact me afterwards,
+
+00:06:36.760 --> 00:06:38.520
+ I'm happy to network.
+
+00:06:38.520 --> 00:06:41.280
+ There's a bunch of people around Berlin as well.
+
+00:06:41.280 --> 00:06:45.440
+ There's obviously online, there's a couple of groups and
+
+00:06:45.440 --> 00:06:47.800
+ people being interested in different topics.
+
+00:06:47.800 --> 00:06:51.320
+ Our lab looks a little like this.
+
+00:06:51.320 --> 00:06:55.600
+ There's also a bunch of equipment standing around that and
+
+00:06:55.600 --> 00:06:59.000
+ stuff that you can't see because it's sort of distributed.
+
+00:06:59.000 --> 00:07:01.960
+ And we have a bunch of projects.
+
+00:07:01.960 --> 00:07:05.960
+ Currently, most prominent is the Stadtpilze, or city mushrooms,
+
+00:07:05.960 --> 00:07:08.720
+ which got sponsored by the city of Hamburg.
+
+00:07:08.720 --> 00:07:11.320
+ We do some mushroom lamps, we build the Garden of the Future,
+
+00:07:11.320 --> 00:07:12.400
+ as I just said.
+
+00:07:12.400 --> 00:07:15.880
+ We go on foraging trips, we do food experiments and
+
+00:07:15.880 --> 00:07:20.600
+ experiment with all sorts of new ideas of ways of fermenting things and
+
+00:07:20.600 --> 00:07:27.080
+ growing yeasts and inventing new ways of doing things with
+
+00:07:27.080 --> 00:07:30.000
+ combining mycelium with grains.
+
+00:07:30.000 --> 00:07:34.320
+ And then we also have people who build a little company building
+
+00:07:34.320 --> 00:07:39.880
+ acoustic absorbing mycelium based composite materials and so on and so on.
+
+00:07:39.880 --> 00:07:44.080
+ So it's very diverse, and I really have to rush through there a little,
+
+00:07:44.080 --> 00:07:47.560
+ because I'm going to end the project a little more in depth now.
+
+00:07:47.560 --> 00:07:53.320
+ The Stadtpilze is basically idea of taking a bucket that you can get at
+
+00:07:53.320 --> 00:07:56.440
+ any restaurant you like, because they throw them out.
+
+00:07:56.440 --> 00:07:59.680
+ Filling it with cardboard, with coffee grounds,
+
+00:07:59.680 --> 00:08:04.200
+ with different other substrates, straw, and so on and so on.
+
+00:08:04.200 --> 00:08:07.280
+ And we built this whole brochure that makes it very accessible for
+
+00:08:07.280 --> 00:08:08.640
+ people to grow their own mushrooms.
+
+00:08:08.640 --> 00:08:12.080
+ And this looks like, come on, this.
+
+00:08:12.080 --> 00:08:20.120
+ Which is a pink oyster mushroom, which you can then grow yourself
+
+00:08:20.120 --> 00:08:24.840
+ on your windowsill and eat, and it's very delicious.
+
+00:08:24.840 --> 00:08:30.560
+ So being sustainable about your own food is sort of one part of what motivates us.
+
+00:08:30.560 --> 00:08:38.440
+ Then we work with novel mycelium based materials, most notably the mushroom lamp
+
+00:08:38.440 --> 00:08:45.160
+ which Matti built, which is a, and I'll show you how this stuff is made in a second,
+
+00:08:45.160 --> 00:08:49.040
+ but it's basically, it feels a little like polystyrene.
+
+00:08:49.040 --> 00:08:53.160
+ It has sort of a light weight, but it's very firm, and you can use it.
+
+00:08:53.160 --> 00:09:03.040
+ It's 100% biodegradable, and it is built out of straw and buckwheat and mycelium.
+
+00:09:03.040 --> 00:09:04.800
+ And then this becomes a lampshade.
+
+00:09:04.800 --> 00:09:07.000
+ We grow mushrooms.
+
+00:09:07.000 --> 00:09:10.560
+ We have our own grow tent, which looks about a little like this.
+
+00:09:10.560 --> 00:09:17.200
+ And we do this in a sterile work environment, so you need a flow hood or
+
+00:09:17.200 --> 00:09:19.680
+ some other way of keeping your environment sterile.
+
+00:09:19.680 --> 00:09:24.040
+ This puts pressured air through a HEPA filter, so
+
+00:09:24.040 --> 00:09:31.520
+ you disinfect obviously, but that allows you to keep the stuff clean.
+
+00:09:31.520 --> 00:09:33.440
+ I don't know if Sebastian is around?
+
+00:09:33.440 --> 00:09:34.680
+ No? Okay.
+
+00:09:34.680 --> 00:09:37.720
+ Sebastian has the project with building a planktoscope,
+
+00:09:37.720 --> 00:09:45.960
+ which is a high speed photography plankton analyzing water and
+
+00:09:45.960 --> 00:09:50.920
+ seeing what lives in there, and with raspberry pie and some high speed photography.
+
+00:09:50.920 --> 00:09:54.320
+ I think 8,000 pictures per second, and then you can see what flows through there and
+
+00:09:54.320 --> 00:09:57.800
+ what is actually in there, and count what is in there.
+
+00:09:57.800 --> 00:09:58.920
+ We have group activities.
+
+00:09:58.920 --> 00:10:03.960
+ We go out and forage mushrooms and prepare them and also learn about them,
+
+00:10:03.960 --> 00:10:06.840
+ understand how to identify them, etc., etc.
+
+00:10:06.840 --> 00:10:10.880
+ We go out into nature, which I know for some might be scary, but
+
+00:10:10.880 --> 00:10:12.400
+ we actually love to do this kind of stuff.
+
+00:10:12.400 --> 00:10:18.520
+ And then I'm going to talk a little about my own little project to
+
+00:10:18.520 --> 00:10:22.120
+ illustrate a little more what can be done, and
+
+00:10:22.120 --> 00:10:24.480
+ also because I know the most about what I do myself.
+
+00:10:24.480 --> 00:10:29.880
+ So last year I started playing the trumpet again,
+
+00:10:29.880 --> 00:10:32.400
+ which had been a hobby when I was like a child.
+
+00:10:32.400 --> 00:10:35.240
+ And then I stopped and then I started playing again, and
+
+00:10:35.240 --> 00:10:37.360
+ I live in the middle of the city.
+
+00:10:37.360 --> 00:10:40.320
+ So obviously my neighbors are not too happy about this.
+
+00:10:40.320 --> 00:10:43.520
+ Now, you can buy mutes and stick them in the trumpet, but
+
+00:10:43.520 --> 00:10:46.920
+ they restrict the airflow and that's sort of not really fun.
+
+00:10:46.920 --> 00:10:51.840
+ Or you can buy these things for about 500 euros, which is sort of a barrel
+
+00:10:51.840 --> 00:10:55.720
+ with some sound insulation, and you play inside and it's quiet and
+
+00:10:55.720 --> 00:10:58.960
+ nobody gets disturbed and it's quite nice, but it's also 500 euros.
+
+00:10:58.960 --> 00:11:03.960
+ And these things are made of plastic and not entirely great.
+
+00:11:03.960 --> 00:11:08.400
+ However, I still bought one because I needed one urgently.
+
+00:11:08.400 --> 00:11:11.800
+ And then I thought, well, I think I can make this myself.
+
+00:11:11.800 --> 00:11:16.160
+ So act one, I got myself a metal barrel and cut off the top.
+
+00:11:16.160 --> 00:11:24.000
+ Act two is that I 3D printed a mold that I could use to create
+
+00:11:24.000 --> 00:11:25.960
+ the waveform that reflects sound.
+
+00:11:27.240 --> 00:11:30.080
+ Act three is that I grew a bunch of mycelium.
+
+00:11:30.080 --> 00:11:37.880
+ And the way you do this is you take some carbohydrates like rye,
+
+00:11:37.880 --> 00:11:43.720
+ you sterilize it, you inject some liquid mycelium or spores in there.
+
+00:11:43.720 --> 00:11:46.080
+ You let it grow under good conditions and
+
+00:11:46.080 --> 00:11:48.560
+ then you mix it up with some substrate.
+
+00:11:48.560 --> 00:11:54.280
+ For example, in my case, I used rapeseed straw and
+
+00:11:54.280 --> 00:12:02.120
+ I used buckwheat shells and I mixed them in a two to one relation and
+
+00:12:02.120 --> 00:12:06.200
+ mixed it all up with mycelium and then I used reishi mushroom,
+
+00:12:06.200 --> 00:12:08.000
+ which is a medicinal mushroom.
+
+00:12:08.000 --> 00:12:11.120
+ But it also has incredible propagating properties,
+
+00:12:11.120 --> 00:12:14.000
+ like this stuff grows like crazy and
+
+00:12:14.000 --> 00:12:17.920
+ it's very hard to get any molding or rotting in there.
+
+00:12:19.800 --> 00:12:25.960
+ So I used that and then I shredded it all and ran it through a clean shredder.
+
+00:12:25.960 --> 00:12:28.480
+ And then I placed it all together and
+
+00:12:28.480 --> 00:12:31.920
+ placed it all together and let it grow for about a week.
+
+00:12:31.920 --> 00:12:37.520
+ And then I had this and then I took out the mold and then I dried it and
+
+00:12:37.520 --> 00:12:44.720
+ now I can play my trumpet into this and it is 100% compostable.
+
+00:12:44.720 --> 00:12:51.560
+ It is completely DIY and it also keeps my neighbors from complaining.
+
+00:12:51.560 --> 00:12:54.360
+ So that is what I built this winter.
+
+00:12:54.360 --> 00:13:00.040
+ So you can have a lot of fun and there's a million of applications of growing your
+
+00:13:00.040 --> 00:13:04.320
+ own mushrooms, of understanding nature around you, building your own food,
+
+00:13:04.320 --> 00:13:06.320
+ working with different kinds of components.
+
+00:13:06.320 --> 00:13:13.840
+ Also building tools and software and
+
+00:13:13.840 --> 00:13:21.680
+ hardware to help to make this even easier and
+
+00:13:21.680 --> 00:13:27.320
+ create less, what do you call it,
+
+00:13:27.320 --> 00:13:32.040
+ you don't have to throw that much away, for example.
+
+00:13:32.040 --> 00:13:36.240
+ Or understanding more about the strains you're building,
+
+00:13:36.240 --> 00:13:42.000
+ and microscopic stuff, organizing the different samples, etc, etc.
+
+00:13:42.000 --> 00:13:45.760
+ So there's a bunch of things to do and it's incredibly fun.
+
+00:13:45.760 --> 00:13:50.240
+ And I have only been at it for, if you're honest, about two years.
+
+00:13:50.240 --> 00:13:55.520
+ So there's a very, very steep learning curve in just doing your own stuff and
+
+00:13:55.520 --> 00:13:58.120
+ understanding a little more about what surrounds you.
+
+00:13:58.120 --> 00:14:01.240
+ And that's why I think this is important.
+
+00:14:01.240 --> 00:14:04.040
+ First of all, this planet is burning and this is very urgent.
+
+00:14:04.040 --> 00:14:05.760
+ We need to find solutions.
+
+00:14:05.760 --> 00:14:09.600
+ And we need to find big solutions but also small ones.
+
+00:14:09.600 --> 00:14:13.280
+ And we need to do this urgently and
+
+00:14:13.280 --> 00:14:18.560
+ without the sort of belief that capitalism can save any of this.
+
+00:14:18.560 --> 00:14:25.040
+ We need to go in there and do little quick projects to iterate and
+
+00:14:25.040 --> 00:14:27.560
+ to share our knowledge and to become more resilient.
+
+00:14:27.560 --> 00:14:31.000
+ We need to learn to grow our own stuff.
+
+00:14:31.000 --> 00:14:37.160
+ And we need to learn how to forage and preserve food and make it delicious.
+
+00:14:37.160 --> 00:14:41.480
+ And go out into nature and understand what surrounds us.
+
+00:14:41.480 --> 00:14:47.320
+ I think the idea that we are somehow as humans separate from nature is a deeply,
+
+00:14:47.320 --> 00:14:53.400
+ deeply patriarchal, colonialist, extractivist idea and this has to change.
+
+00:14:53.400 --> 00:14:56.480
+ We are not in any way separate from nature.
+
+00:14:56.480 --> 00:15:00.480
+ We are very much part of nature and we need to understand what surrounds us.
+
+00:15:00.480 --> 00:15:04.880
+ If we still believe we can somehow force nature under our will,
+
+00:15:04.880 --> 00:15:06.720
+ we will go under.
+
+00:15:06.720 --> 00:15:11.640
+ So please decolonize yourself.
+
+00:15:11.640 --> 00:15:16.560
+ Please understand that the idea of somehow conquering the world is a really,
+
+00:15:16.560 --> 00:15:17.840
+ really, really dreadful one.
+
+00:15:17.840 --> 00:15:26.320
+ >> [APPLAUSE]
+
+00:15:26.320 --> 00:15:26.840
+ >> Thank you.
+
+00:15:26.840 --> 00:15:31.880
+ And now you, hackers, people who are interested, we need you.
+
+00:15:31.880 --> 00:15:36.640
+ Many projects that we do require knowledge of computers and electronics.
+
+00:15:36.640 --> 00:15:40.600
+ Require an understanding of physics and mechanics.
+
+00:15:40.600 --> 00:15:46.960
+ And there's so much to discover and learn and share.
+
+00:15:46.960 --> 00:15:51.040
+ And there's so much fun in this because at the end, often it's very delicious as well.
+
+00:15:51.040 --> 00:15:55.520
+ And, or useful, or anything.
+
+00:15:55.520 --> 00:16:01.320
+ And it, you know, what we do usually is very, very sustainable.
+
+00:16:01.320 --> 00:16:05.280
+ Doesn't require shipping parts from the other part of the planet and
+
+00:16:05.280 --> 00:16:09.000
+ then throwing them out because you, you know, did the wrong solder.
+
+00:16:09.000 --> 00:16:15.040
+ You can't, as I said, you can't change the fundamental laws of nature.
+
+00:16:15.040 --> 00:16:18.160
+ But if you really start listening, nature can start changing you and
+
+00:16:18.160 --> 00:16:20.360
+ that is what we need as a society.
+
+00:16:20.360 --> 00:16:24.560
+ So please join a space, start your own, talk to us,
+
+00:16:24.560 --> 00:16:29.840
+ start doing some in your own hack spaces.
+
+00:16:29.840 --> 00:16:31.480
+ We offer some support.
+
+00:16:31.480 --> 00:16:32.640
+ We offer network.
+
+00:16:32.640 --> 00:16:35.400
+ We are open for networking to others.
+
+00:16:35.400 --> 00:16:38.480
+ You know, you can just reach me.
+
+00:16:38.480 --> 00:16:39.960
+ You can reach me after the talk.
+
+00:16:39.960 --> 00:16:42.800
+ You can go to our website, curious.bio.
+
+00:16:42.800 --> 00:16:44.080
+ You can write to me.
+
+00:16:44.080 --> 00:16:44.920
+ You can talk to me.
+
+00:16:44.920 --> 00:16:52.160
+ And I rushed through all of this to have two and a half minutes of questions.
+
+00:16:52.160 --> 00:16:52.680
+ Thank you.
+
+00:16:52.680 --> 00:17:01.480
+ >> [APPLAUSE]
+
+00:17:01.480 --> 00:17:03.920
+ >> Thank you so much, Julian, for
+
+00:17:03.920 --> 00:17:09.360
+ sharing your experiences and showing off this great mold you grew.
+
+00:17:09.360 --> 00:17:14.200
+ So if you have any questions, there is a wonderful angel with a microphone that
+
+00:17:14.200 --> 00:17:21.200
+ is smaller that you can go to and queue and ask maybe one or two questions.
+
+00:17:21.200 --> 00:17:23.360
+ So please shoot.
+
+00:17:23.360 --> 00:17:27.280
+ >> Hey, curious if you're doing anything with genetic engineering or
+
+00:17:27.280 --> 00:17:31.400
+ trying to figure out how to get approval to be allowed to do that within
+
+00:17:31.400 --> 00:17:32.080
+ the European Union.
+
+00:17:32.080 --> 00:17:35.040
+ >> No, we don't do it.
+
+00:17:35.040 --> 00:17:37.520
+ I know there's projects who do this kind of stuff.
+
+00:17:37.520 --> 00:17:40.520
+ It is obviously dangerous.
+
+00:17:40.520 --> 00:17:45.240
+ It also requires a shit ton of equipment that we do not have.
+
+00:17:45.240 --> 00:17:49.400
+ I have no idea about the approval.
+
+00:17:49.400 --> 00:17:50.640
+ That's why we grow mushrooms.
+
+00:17:50.640 --> 00:17:55.200
+ I mean, there's also a huge, most of the stuff we do is patented, so
+
+00:17:55.200 --> 00:17:57.640
+ you can't actually commercialize it.
+
+00:17:57.640 --> 00:18:00.320
+ But you very much can do your open source version of it.
+
+00:18:00.320 --> 00:18:02.360
+ And that's sort of for now.
+
+00:18:02.360 --> 00:18:03.840
+ I know there's some projects, but we don't.
+
+00:18:03.840 --> 00:18:12.960
+ >> Hello, how resistant is this material against humidity and this kind of-
+
+00:18:12.960 --> 00:18:17.680
+ >> Humidity, not so good.
+
+00:18:17.680 --> 00:18:20.160
+ Fire, quite good.
+
+00:18:20.160 --> 00:18:25.160
+ I don't know the exact specifications, but there's been a paper on fire
+
+00:18:25.160 --> 00:18:30.120
+ resistance and it doesn't burn, it just smolders, so it's decent.
+
+00:18:30.520 --> 00:18:35.480
+ Yeah, you don't want to put this stuff in your basement or outside.
+
+00:18:35.480 --> 00:18:37.720
+ That's just not, it's going to draw water.
+
+00:18:37.720 --> 00:18:39.120
+ And it needs to dry.
+
+00:18:39.120 --> 00:18:43.720
+ You need a drying chamber because it dies, the mycelium dies at 70 degrees.
+
+00:18:43.720 --> 00:18:47.960
+ So you need to get it to 70 degrees, often dry it for a while to get it really dry.
+
+00:18:47.960 --> 00:18:50.320
+ But once it's dry and it's in your home, it's great.
+
+00:18:50.320 --> 00:18:57.000
+ And if it's a little moist in your home, it'll just absorb moisture and
+
+00:18:57.000 --> 00:18:59.920
+ then just let it go once it stops being moist.
+
+00:18:59.920 --> 00:19:05.720
+ >> You almost answered my question already, but 70 degrees, that's centigrade?
+
+00:19:05.720 --> 00:19:08.160
+ >> Yes, yes, 70 degrees centigrade.
+
+00:19:08.160 --> 00:19:09.960
+ >> What do you think is the density?
+
+00:19:09.960 --> 00:19:14.000
+ Is it more like styrofoam, like very light, or is it more like cardboard?
+
+00:19:14.000 --> 00:19:17.120
+ >> It's more like polystyrene.
+
+00:19:17.120 --> 00:19:20.400
+ It depends on the, on very many factors.
+
+00:19:20.400 --> 00:19:21.360
+ You can tweak this.
+
+00:19:21.360 --> 00:19:25.080
+ You can play around with the substrate composition.
+
+00:19:25.080 --> 00:19:29.080
+ You can, the longer you let it grow, the denser it becomes, so
+
+00:19:29.080 --> 00:19:31.760
+ you have to stop it at a certain point, etc., etc.
+
+00:19:31.760 --> 00:19:37.960
+ So it really depends on what you, on what you, yeah.
+
+00:19:37.960 --> 00:19:39.080
+ >> And tweak it up and down.
+
+00:19:39.080 --> 00:19:42.400
+ >> You can tweak it up and down, yeah, you can totally do that.
+
+00:19:42.400 --> 00:19:47.640
+ >> I was wondering if there's a way to get more specific details on how to make
+
+00:19:47.640 --> 00:19:48.400
+ the audio tunnel?
+
+00:19:48.400 --> 00:19:52.240
+ >> On, yeah, it's, yeah.
+
+00:19:52.240 --> 00:19:53.800
+ >> There is, okay.
+
+00:19:53.800 --> 00:19:58.640
+ >> It's a 3D model I built basically by asking around on the Internet and
+
+00:19:58.640 --> 00:20:03.480
+ figuring out and asking, actually going on YouTube, seeing something similar,
+
+00:20:03.480 --> 00:20:07.000
+ talking to the guy who made the tutorial and asking me how he did it, and
+
+00:20:07.000 --> 00:20:08.600
+ he did the tutorial for me.
+
+00:20:08.600 --> 00:20:10.440
+ >> Okay, so it's all accessible online essentially.
+
+00:20:10.440 --> 00:20:11.280
+ >> Yeah, sort of.
+
+00:20:11.280 --> 00:20:12.240
+ I'll talk to you later.
+
+00:20:12.240 --> 00:20:12.740
+ >> Thank you.
+
+00:20:12.740 --> 00:20:16.000
+ >> We're done?
+
+00:20:16.000 --> 00:20:17.200
+ Thank you very much.
+
+00:20:17.200 --> 00:20:19.880
+ >> Oh, a question.
+
+00:20:19.880 --> 00:20:22.440
+ >> Yeah, but we are, we are over time.
+
+00:20:22.440 --> 00:20:24.080
+ Okay, here's the question.
+
+00:20:24.080 --> 00:20:27.400
+ >> Yeah, I just have a question to connect with people.
+
+00:20:27.400 --> 00:20:32.200
+ I'm looking for experienced people who have experience in DIY
+
+00:20:32.200 --> 00:20:34.520
+ hormone production for HRT.
+
+00:20:34.520 --> 00:20:38.960
+ So if you want to find me later, I'm at Art and Play over there, and
+
+00:20:38.960 --> 00:20:41.960
+ I will stay here a while and also post it on a bulletin.
+
+00:20:41.960 --> 00:20:43.720
+ >> That is super important.
+
+00:20:43.720 --> 00:20:45.560
+ I know there's a couple of projects around there.
+
+00:20:45.560 --> 00:20:49.800
+ There's none where we do, but I know this is a very, very important thing.
+
+00:20:49.800 --> 00:20:51.600
+ >> Just because it's biohacking here.
+
+00:20:51.600 --> 00:20:52.120
+ Yeah, thank you.
+
+00:20:52.120 --> 00:20:55.160
+ >> Hormone replacement therapy.
+
+00:20:55.160 --> 00:20:59.040
+ >> Replacement therapy, often for trans people, but also for women and menopause.
+
+00:20:59.040 --> 00:20:59.540
+ Yeah.
+
+00:20:59.540 --> 00:21:01.360
+ >> Okay.
+
+00:21:01.360 --> 00:21:03.080
+ >> I'll answer your question after the talk.
+
+00:21:03.080 --> 00:21:04.240
+ Thank you very much, everybody.
+
+00:21:04.600 --> 00:21:09.600
+ [MUSIC]
+

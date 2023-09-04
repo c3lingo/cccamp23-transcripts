@@ -1,0 +1,728 @@
+ [Musik]
+ Herzlich willkommen. Hier hat sich ja schon eine ganz schöne Meute gesammelt, um hier heute Abend mit Dampfkatze ein lustiges Spiel zu spielen.
+ Schlag den Nerd! Viel Spaß!
+ [Applaus]
+ Einen wunderschönen guten Abend.
+ Lauter!
+ Wir spielen heute an die Audiotechnik. Wir sind wohl noch zu leise.
+ Wir spielen heute Schlag den Nerd aus dem Fernsehen, bekannt vielleicht als Schlag den Raab oder Schlag den Star.
+ Heute mit etwas nerdigeren Spielen.
+ Als erstes benötigen wir zwei Kandidaten.
+ Wer aus dem Publikum wäre denn bereit, vor die Kamera zu treten?
+ Der da unten, wo alle drauf zeigen, dann kommst du mal hoch.
+ Wir spielen sehr vielfältige Spiele, die sowohl ein bisschen handwerkliches Geschick als auch Softwarekenntnis erfordern.
+ Ich hoffe, da bist du der richtige Führer.
+ Ja, das ist Spiel-Software.
+ Und wer möchte noch? Wen möchten wir als zweiten Kandidaten? Du da unten.
+ Sehr schön.
+ Ihr habt hier auch eigene Mikrofone.
+ Guten Tag.
+ Dann dürft ihr euch mal kurz vorstellen.
+ Fangen du mal an hier.
+ Hi, ich bin Noah, bin 21 Jahre alt. Ich studiere Informatik, aber das heißt nichts.
+ Lauter!
+ Ich glaube, wir sind noch ein bisschen zu leise.
+ Ja, dann stell du dich mal noch vor.
+ Ich bin Steffen, ich bin Hardware-Bitler und Kandidat-Software.
+ Ich glaube, lauter wird es nicht mehr.
+ Oder?
+ Wir sollten mal anders sprechen.
+ Ja. Ich würde doch dann mal sagen, fangen wir direkt mit dem ersten Spiel an.
+ Dieses Spiel trägt den wunderschönen Titel "Lötkolben".
+ Und zwar für ein späteres Spiel brauchen wir zwei Lötkolben, ich habe aber keine gefunden.
+ Deshalb müsst ihr euch selber welche organisieren.
+ Hier ist ein Deck für jeden von euch.
+ Wer zuerst einen Lötkolben an der Bühne organisiert hat, hat dieses Spiel gewonnen und bekommt den ersten Punkt.
+ Also an die Deck. Fertig. Los telefonieren.
+ Ihr dürft auch gerne an den PCs das Event-Phone-Phonebook aufmachen und euch dort Nummern raussuchen.
+ Ich habe gehört, das Hardware-Hacking-Area hat zum Beispiel ganz viele Lötkolben, wenn ihr da anrufen wollt.
+ Ach so, du hängst noch am Entsperren?
+ Ja, okay, das geht so.
+ Danke schön.
+ Ja, das ist schwierig, ne?
+ Wenn du das aufs Lautsprecher stellst und ans Mikrofon hältst, dann hören wir auch, was ihr so redet.
+ Aber ich glaube, da tutelst du nur, ne?
+ Oh Gott, hört sich das schrecklich an.
+ Diese Ringbacktones gehören echt verboten, ne?
+ Ich glaube, du musst mal bei jemand anderem noch versuchen.
+ Wie schaut es bei dir aus? Da klingelt es auch nur, ne?
+ Der Rufzeichen ist da, aber...
+ Tja.
+ Martin, komm auf.
+ Du kannst es auch im Telefonbuch nachschauen, wenn du jemanden kennst, ne?
+ Ach so, das Passwort ist Player2 kleingeschrieben.
+ Bei dir Player1 kleingeschrieben.
+ Du gehst einfach auf den Browser und machst guru3.eventphone.de.
+ Da ist das Telefonbuch, da kannst du dir Leute raussuchen.
+ Wie schaut es bei dir aus? Hast du schon die zweite Nummer?
+ Ja, aber...
+ guru3.eventphone.de
+ Ja.
+ Ach du rufst...du kennst gar niemanden, du rufst einfach random Nummern ran.
+ Okay.
+ Du kannst hier oben suchen, ne?
+ Oh, er hat jemanden dran.
+ Player2 hat schon jemand am Telefon.
+ Oh, oh, oh, oh, oh, zählt das?
+ Player1 hat einen Leutkolben, ohne jemanden angerufen zu haben.
+ Ja, da müssen wir jetzt glaube ich das Publikum befragen, ob das jetzt zählt.
+ Okay, Player2 hat auch einen.
+ Also, Moment, da fehlt noch was.
+ Ja, er muss funktionieren.
+ Tja, beide Spieler haben jetzt einen Leutkolben, aber nur einer hat eine Leutstation.
+ Das hätte ich so auch nicht erwartet, dass das so passiert, ne?
+ Also ich mein, du kannst ja eigentlich aufhören zu telefonieren, weil du hast ja alles was du brauchst.
+ Naja, zwei können auch nicht anrufen.
+ Achso, du darfst für Lötzin noch anrufen, weil da ist keins dabei.
+ Lötzin auch, würde ich empfehlen.
+ Hi, Susi, kannst du mir Lötzin zum Marktwertsparadien bringen? Ich bin hier gerade auf der Bühne.
+ Am besten schnell.
+ Ja, schnell ist gut. Also ich würde vorschlagen, wenn er es schafft das Lötzin herzubekommen, dann lassen wir das als Gewinn zählen.
+ Naja, nur ganz kurz. Das Spiel geht, also die ganze Show geht eine Stunde, ne?
+ So, wie sieht es aus bei dir?
+ Ja, ja, ja, ist immer gut. Woanders anrufen, ja. Na, einfach das Problem weiterleiten, ne?
+ Oh, er ruft den Info-Desk an, das ist der Telefon-Joker. Und er hat einen Lötkolben bekommen. Mit Lötzin sogar.
+ Dann würde ich mal sagen, würde ich behaupten, dieser Punkt geht an Spieler 2.
+ Ja.
+ Oh, mit Netzteil oder ohne? Mit Powerbank, das ist okay. So, ihr habt jetzt beide funktionierenden Lötkolben.
+ Gehe ich mal davon aus. Ja, das Lötzin, das Lötzin könnt ihr euch dann teilen.
+ Dann würde ich mal sagen, können wir die Lötkolben erstmal beiseite legen und spielen was anderes.
+ Und zwar haben wir noch ein wunderschönes Spiel. Ein Moment.
+ Wir haben das schöne Spiel Potentiometer einstellen. Dazu möchte ich Kato auf die Bühne bitten, welcher das Messgerät bereithält.
+ So, jeder von euch bekommt ein lineares Potentiometer. 2,2 Kiloohm.
+ Und ich möchte, dass ihr das auf bestimmte Werte einstellt. Wer näher an dem gesuchten Wert ist, gewinnt die Runde.
+ Wir spielen dreimal, also best of three.
+ Genau, ihr dürft... erst am Ende wird ausgewertet. So, nochmal hallo an Kato, der gleich den Schiedsrichter gibt.
+ So, jeder von euch kriegt ein Potentiometer. Wir messen den Widerstand zwischen den ersten beiden Pins.
+ Und der erste Wert ist 1,3 Kiloohm. Es ist insgesamt ein 2,2 Kiloohm Potentiometer.
+ Ihr dürft auch gerne den Taschenrechner auf den... genau, von vorne, von der Achse gesehen.
+ Ihr dürft auch gerne den Taschenrechner auf den Laptops benutzen, um das Verhältnis auszurechnen, um ein Gefühl dafür zu bekommen.
+ Ich weiß definitiv, was das für ein Bauteil ist. Was ist denn ein... was? Ich weiß definitiv, was das für ein Gerät hier ist.
+ Das ist ein Potentiometer. Das ist ein einstellbarer Widerstand. Und du hast einen festen Widerstand zwischen Pin 1 und 3.
+ Und der Mittelabgriff ist an Pin 2. Und den schiebst du über diesen festen Widerstand drüber.
+ Ist das lineal oder wirklich? Das ist linear. Also ihr könnt auch gerne den Winkel messen und ausrechnen.
+ Irgendwo haben wir dann schon ein Zeitlimit, aber... Du sagst, du bist bereit. Dann warten wir noch auf den anderen Spieler.
+ Das stimmt. Okay, ihr seid beide bereit. Dann, Kato, walte deines Amtes.
+ 1,259. Das ist verdammt gut.
+ Oh, 0,5. Irgendwas. Okay, der erste Punkt der Runde geht an dich.
+ So, die nächste Runde. Ihr dreht mal eure Potentiometer beide auf Endanschlag, dass ihr nicht den jetzigen Punkt noch nutzen könnt.
+ So, Kato, sag mal einen Wert kleiner wie 2,2 Kiloohm. 1,75 Kiloohm.
+ Was ich vielleicht noch dazusagen sollte, wie auch beim Original "Schlag den Star" geht es hier mit den Punkten immer weiter von der Wertigkeit.
+ Das heißt, das erste Spiel gab jetzt einen Punkt, das zweite Spiel gibt zwei, das dritte drei und so weiter.
+ Das heißt, es ist noch nichts verloren. Ihr seid beide so weit? Ja. Ihr seid beide so weit. Dann, Kato, Werte aus.
+ 1,615. Nicht schlecht. Nicht schlecht.
+ 1,23. So, wir haben "Best of Three" gespielt. Du legst 2 zu 0 in Führung. Damit gehen die zwei Punkte von Spiel Nummer 2 an dich.
+ So, das nächste Spiel. Also danke, Kato. Wir brauchen dich vielleicht später nochmal.
+ So, für das nächste Spiel müsst ihr beide mal euren Browser öffnen. Spiel Nummer 3 heißt "User in your face".
+ Einige im Publikum kennen es schon, glaube ich. Ich zeige euch mal, wie das geschrieben wird. Du gehst einfach hier auf userinyourface.com, ist das glaube ich.
+ Oder war das .com?
+ Ja. Nee. Punkt net vielleicht. Das hätte ich mir natürlich aufschreiben sollen. Das wäre praktisch gewesen.
+ Das wäre auch vorbereitet gewesen. Ja, das wäre Arbeit gewesen.
+ Punkt net ist überwacht. Weiß jemand die Webseite URL von "User in your face" von dem Spiel?
+ Habt ihr keine Suchmaschine? Ist das diese?
+ Jawoll. Oh, dann... Nee, User... Ja, genau. Okay, ihr habt beide die richtige Webseite offen.
+ Sehr gut. Dafür gibt es aber noch keine Punkte.
+ Bevor ihr auf "Weiter" drückt. Bei diesem Spiel geht es darum, ihr müsst ein User-Interface ausfüllen.
+ Und es wird euch nicht gerade leicht gemacht. Ihr werdet auch nach personenbezogenen Daten gefragt.
+ Da tragt ihr natürlich bitte einfach irgendeinen Bullshit ein. Was ihr eintragt ist relativ egal. Ihr werdet es auch sehr schnell merken.
+ Das Spiel hat auch einen eingebauten Timer. Und ich würde mal sagen, auf die Plätze, fertig, los!
+ So, ich hoffe der Screen Capture funktioniert auch ordentlich. Könnt ihr auf dem Bildschirm was sehen?
+ Geht so. Geht so? So, wir sind bei 12 Sekunden.
+ Die Button sind gut versteckt, ne? Und wie sieht es bei dir aus? Oh, du bist schon...
+ Du bist aber schon ein Stück weiter. Du hast gute Chancen. Wenn du dieses Spiel gewinnst, dann ist wieder Gleichstand.
+ Wo ist hier noch eine Maus? Hier ist auch noch eine Maus.
+ Hier, bitteschön. Du kriegst auch eine. Hier ist noch eine Maus. Die könnte helfen.
+ Nagelneue, original verpackt.
+ Siehst du?
+ Ja, jetzt hast du es groß gemacht. Ne, das ist falsch.
+ Darf ich hier auch das Element da röschern?
+ Du darfst es closen. Da steht "close". Ah ja. Ja, genau.
+ Wie sieht es bei dir aus? Was ist das? Ja, beeil dich, hat es doch gesagt.
+ An diesem kann ich die brechenlose Kabel antreuen.
+ Ich helfe dir mal ein bisschen. Komm.
+ Ey!
+ Ich denke schon, dass du keine Zeit mehr gegräst hast.
+ Ich bin mir sicher, ich muss jetzt vorwärts.
+ Jaja, ne? Liebst du auch brav mit?
+ Die ist auch in der Session. Ich bin nicht da, aber ich bin da.
+ Ah.
+ Jetzt hast du abgebrochen. Jetzt musst du von vorne anfangen.
+ Danke. Ja.
+ Sehr, sehr gut, auf jeden Fall.
+ Das ist nicht von mir, das nutze ich nur gastweise.
+ Aber es sieht gut aus.
+ Unser Spieler 1 liegt vorne und wenn er dieses Spiel gewinnt, dann haben wir wieder Gleichstand.
+ Aber da sieht man auch, der Informatik-Student in ihm geht in diesem Spiel richtig auf.
+ Da lernt er auch mal, wie man richtige Nutzerinterfaces designt.
+ Es ist nicht ungesichert. Eine kurdische Kabel.
+ Ähm, ja. Schwierig, ne?
+ Ich hab Google, die Lüge ist nicht kurdisch, scheiße. Oder?
+ Du darfst Google nutzen, ne? Oder eine beliebige andere Suchmaschine.
+ So.
+ So.
+ So, du befragst gleich Wikipedia.
+ Und wie sieht es bei dir aus?
+ Du hängst immer noch bei der E-Mail-Adresse?
+ Ne, du bist schon bei Passwort. Ah, jetzt bist du auch bei den Terms and Conditions.
+ Die musst du durchscrollen.
+ Oh nein. Oh nein.
+ Was?
+ Oh.
+ Und ich mein, das Passwort ist noch das einfache bei dem Spiel.
+ Was?
+ Okay, ich bin schon fast bei der Hälfte.
+ Sehr gut. Immer gut mitlesen, das könnte noch wichtig werden.
+ Oh nein.
+ Den ist der E-Mail hier.
+ So, du bist bei vier Minuten und du hast leider die Zeit zurückgesetzt.
+ Ja.
+ Aber gut, so ist das nun.
+ Okay.
+ Wo hängst du gerade?
+ Na ja, 10 Charakters, 1 Kapital Letter, 1 Numeral.
+ Ja, der Passwort ist not unsafe.
+ Ja, das können wir aber nehmen.
+ Ja, du möchtest vielleicht die Terms and Conditions akzeptieren.
+ Ja, liest mal genau.
+ Bums.
+ Please do not forget to accept the Terms and Conditions.
+ I do not accept. Okay, danke schön.
+ Sehr gut.
+ I have any image. 2-3 Interests.
+ Okay.
+ Genau, du musst, ach so genau, da darfst du dir aus dem Internet auch erstmal noch ein Bild runterladen, um es wieder hochzuladen, weil ich glaube, auf den Laptops, auf den frischen Installationen sind keine Beispielbilder drauf.
+ Oh, danke schön. Oh Gott.
+ Ich wusste doch, ich hätte mehr vorbereiten sollen.
+ The Passwort needs at least one letter of your E-Mail. Okay.
+ Ja, ich hoffe du weißt deine E-Mail-Adresse noch.
+ Oh, ein süßes Pony, das ist ja schön.
+ Ja, unten rechts ist irgendwo Speichern, glaube ich.
+ Ach so.
+ Wenn das Passwort zu lang wird, dann sagt er, es ist unsafe.
+ Hör'r ab, beil' dich.
+ Du musst genau lesen, es kann ja eventuell auch sein, dass da ganz blöde Negierungen drin sind.
+ Ja, ja, I see.
+ Ah, du bist schon bei den persönlichen Daten.
+ Hä, okay, hallo hallo.
+ Ja, tap funktioniert da nicht, das ist gemein, ne?
+ Stauken A auch nicht.
+ Oh Gott, sieht man was ich schreibe?
+ So, du bist wieder, ah nee, du bist noch beim Passwort.
+ Kann mich mal deine Zange vorbeibringen?
+ Er fragt nach einer Zange.
+ Darf ich da auch anrufen? Nee, ich hab's, ich hab's.
+ Okay, er hat's geschafft.
+ So, ja, irgendeinen Straßenname brauchst du noch, ne?
+ Oh no.
+ Also ich geb' dir schon mal den Hinweis, es wird nicht auf Validität der Adresse überprüft.
+ Zumindest nicht vollständig.
+ Das wär' glaub' ich ein bisschen zu gemein.
+ Hier gibt's keine Bilder auf dem Computer, die ich hochladen kann.
+ Ja, dann musst du eins runterladen.
+ Erstmal runterladen, dann hochladen.
+ Okay, okay.
+ So, wie sieht's bei dir aus? Du bist beim Land angekommen.
+ Ja, genau, dein Geburtsdatum muss mit dem Alter, das du angibst, übereinstimmen.
+ Das wird separat abgefragt.
+ Oh, du hast dir das einfach gemacht, du hast einfach Google das Logo genommen.
+ So, jetzt bist du auch bei den persönlichen Daten. Ihr seid grad auf der gleichen Seite.
+ Oh, can I help? Kann ich das klein machen?
+ Du kannst das send to bottom machen.
+ Und dann verschwindet's aber ganz langsam.
+ Oh, wir sind beim Capture angelangt. 7 Minuten und 50 Sekunden.
+ Das ist keine schlechte Zeit fürs erste Mal. Bei den Testrunden haben die Leute auch alle so zwischen 5 und 10 Minuten gebraucht.
+ Hallo Number One.
+ Was war die Frage, was musst du selecten?
+ Select all pictures with a bow. Bow or bow, it's both, because homonyms.
+ Ja.
+ But isn't it all?
+ Is anything I'm missing?
+ Okay.
+ Und wir haben einen Gewinner von dem Spiel. Spieler 1 hat's geschafft in 8 Minuten 24.
+ Hast du gut gemacht.
+ Sehr gut.
+ Digital native.
+ Hast du einfach irgendeine Flagge genommen, Landervlagge?
+ Einfach Argentinien.
+ Und die Stadt war egal? Ich wollte noch Deutschland suchen.
+ Das sieht man, dass du Informatik studierst und dass du weißt, wie man ein gutes User Interface bedient.
+ Ja. So, schauen wir mal, was haben wir denn hier jetzt noch für Spiele?
+ Ach so, genau. Was ich am Anfang noch vergessen habe zu sagen, ihr habt jeweils einen Joker.
+ Wenn ihr sagt, bei einem Spiel, das könnt ihr so gar nicht, dann dürft ihr euch einen Ersatzkandidaten suchen.
+ Ah. Ja, weil wir haben auch ein bisschen spezifischere Spiele, da könnte das ein bisschen schwierig werden.
+ So, unser nächstes Spiel begibt sich auch wieder in die Weiten des Internets und da muss ich gerade mal die richtige Seite suchen.
+ Hast du keine Suchmaschine?
+ Ja, doch integriert, die ist nicht so gut.
+ So, und zwar das nächste Spiel heißt Wikilink. Ihr geht auf Wikipedia und möchte mal einer aus dem Publikum eine Seite auf Wikipedia nennen, auf die die beiden sich zum Start des Spiels begeben wollen.
+ Klar, Ton!
+ Klar, Ton!
+ Ja, Ton!
+ Was?
+ Okay, ja, okay, Platon der Philosoph. Habt ihr das beide offen? Du hast es offen? Du auch? Okay.
+ Eure Aufgabe ist es jetzt, ihr müsst auf eine andere Wikipediasite kommen, die ich euch vorgebe.
+ Ihr dürft dabei nur auf links innerhalb von Wikipedia drücken. Ihr dürft nichts in die Wikipediasuche eingeben.
+ Das einzige, was ihr machen dürft, ist ihr dürft mit Steuerung F auf der Seite nach Inhalten suchen. Habt ihr das soweit verstanden?
+ Ja.
+ Wir spielen wieder Best of Three, also maximal drei Runden. Und als erstes müsst ihr auf die Seite des Chaos-Communication-Camps kommen. Los geht's!
+ Ja, gut. So, Katas.
+ So.
+ Darf man zurück?
+ Du, äh, ja.
+ Wahrscheinlich nicht, oder?
+ Nee, zurück darf man nicht.
+ Das könnte zu einfach werden später.
+ So.
+ Wie schaut's denn aus?
+ Du bist im Mittelmeerraum angekommen. Okay, das ist nicht ganz die geografische Region, wo wir gerade sind.
+ Naja, Europa kann nicht so weit entfernt sein.
+ Ja. Und wie sieht's bei dir aus? Du bist bei Wissen angelangt. Okay, Wissen ist schon mal nicht verkehrt. Wissen wird hier einiges verbreitet. Du bist, oh, du bist in Deutschland angekommen.
+ Verklig.
+ Tja, schlecht, ne?
+ Zurück nach Deutschland für dich. Und du bist?
+ Äh, wieder bei der Übersicht.
+ Du hast es auf die Übersicht-Seite geschafft, okay.
+ Deutschland. Wissen ist schon mal.
+ Hat Deutschland Vereine?
+ Äh, das ist eine gute Frage.
+ Aber ich glaube, beim Test bin ich tatsächlich auch über Deutschland gekommen. Das heißt, du bist der Sache, glaube ich, auf der Spur.
+ Es ist, es hört sich, dieses Spiel hört sich erstaunlich schwierig an, aber es ist doch ziemlich machbar, wenn man so ein bisschen um die Ecke denkt.
+ Man kommt eigentlich von quasi allem auf alles.
+ Feuerwehrverein, okay.
+ Freiwillige Feuerwehr, das ist, ja gut, ich meine, wir haben die Feuerwehr hier vor Ort zur Sicherheit.
+ Aber, ähm, ob die das verdient haben.
+ Okay, du hast dich ganz woanders hingeklickt.
+ Okay, Computer Vision, da ist schon mal das Wort Computer drin. Das ist schon mal nicht verkehrt. Wir nähern uns der Sache an.
+ Ehrenamt, okay.
+ Netzwerke. Netzwerke, oh Netzwerke, sehr gut.
+ Haben wir hier auch viel mit zu tun?
+ Und wo bist du angelangt? Künstliche Intelligenz, okay.
+ Open Street Map, ja. Nutzen wir hier auch?
+ Open Source, ja, leider kein Link, ne?
+ Hier, guck mal hier.
+ Computer Virus, bitte nicht runterladen.
+ Die Laptops sind bei mir in der Firma ausgeliehen.
+ Gnutaler, okay.
+ Auf das hab ich jetzt, ich weiß nicht mal was das ist, aber okay.
+ Ich muss noch mal zurück.
+ Und du bist Portal Informatik, okay, ja.
+ Ja, jetzt geht's, jetzt wird's spannend, ne?
+ Ihr hängt glaub ich beide grad ein bisschen fest.
+ Das Publikum fängt an zu pfeifen, du bist bei Freie Software, das klingt doch schon mal...
+ Also wenn ich euch einen Tipp geben darf, ich bin über die Orte, also ich bin, ich glaube ich bin beim Test tatsächlich über den Ort hierher gekommen.
+ Also nicht über das Thema Chaos Computer Club, sondern über die geografische Region.
+ Quatsch, wo so Region?
+ Personal Firewall, das ist keine geografische Region.
+ Ha!
+ Hast du's? Ja!
+ Ne, ja, das ist noch nicht ganz, das Camp. Du bist zur Seite vom Camp, aber du bist auf der Seite vom Chaos Computer Club, du bist ganz nah dran.
+ Ich kann dir auch sagen, wo die drin steht, bei Personal Firewall.
+ Ja, dann jetzt kommt hier Personal Firewall, das findest du doch, oder?
+ Ich gebe zu, der Chaos Computer Club in Ulm einen Vortrag über Personal Firewalls.
+ Ja, da war der drin.
+ Ja, jetzt musst du nur noch das Camp finden.
+ Das lässt sich doch jetzt machen.
+ Das bleibt spannend, der aktuelle ist gleichstandig, ne?
+ Ja, kann ja auch.
+ Jawoll, wir haben einen Gewinner. Spieler 2 hat die erste Runde dieses Spiels gewonnen.
+ So, damit ihr wieder die gleiche Ausgangslage habt, darfst du jetzt auch wieder auf die Seite vom Camp gehen, weil das Camp ist die Ausgangslage für die nächste Seite, die ihr finden müsst.
+ So, ok, dazu muss ich euch bitten Wikipedia auf Englisch umzustellen, weil die folgende Seite gibt es nur auf Englisch.
+ Habt ihr das beide?
+ Ja.
+ So, ein kleiner Tipp, ich meine, man braucht dafür nur zwei Klicks und zwar es gibt einen Twitter-Account, der nennt sich "Devs of Wikipedia".
+ Der postet immer ganz obskures Zeug über Wikipedia.
+ Dieser Twitter-Account hat eine eigene Wiki-Page, die heißt "Devs of Wikipedia" und auf die müsst ihr euch jetzt klicken.
+ 3, 2, 1, los!
+ Darf man Taps öffnen? Was? Nein, du darfst keine Taps öffnen.
+ Können wir die Suche noch benutzen?
+ Nein, die Suche nicht. Du darfst nur mit "STRG+F" innerhalb von der Seite den Text durchsuchen.
+ Ja, mein ich ja.
+ Ja, achso, ja, das darfst du.
+ Ich meine, beim Test habe ich einen Hack gefunden, um das in zwei Klicks zu bekommen.
+ *unverständliche Stimme*
+ Es ist sehr gefährlich von dieser Seite wegzuklicken.
+ Ja, wenn du einmal weggeklickt bist, bist du weg, wobei ich glaube, der Trick, ich will nicht zu viel verraten.
+ *unverständliche Stimme*
+ Ja, du bist ja Sache auf der Spur. Jetzt ist es fast so weit.
+ Devs, wie die Tiefe.
+ Also kleiner Tipp, ihr kommt natürlich nicht direkt auf Devs oder so.
+ Aber es gibt in Wikipedia auch so Metapages, also Pages über Pages. Und wenn man so eine Liste findet, ah, genau, du bist auf Wikipedia about.
+ Da bist du der Sache schon mal sehr auf der Spur.
+ Und wie sieht es bei dir aus?
+ Du bist immer noch auf Freedom of Information.
+ Devs auf Wikipedia.
+ Ja, hast du es?
+ Er hat es. So, damit steht es in diesem Spiel 1 zu 1.
+ Das heißt, die nächste Runde entscheidet, wer die Punkte bekommt.
+ Und ich möchte von euch...
+ Gehen wir von der Devs auf Wikipedia Seite wieder aus?
+ Genau, ihr geht von der Devs auf Wikipedia, geht ihr weiter.
+ Auf Englisch?
+ Die Seite gibt es auf Englisch und Deutsch, ihr könnt aber auch auf Englisch bleiben einfach.
+ So, und zwar möchte ich, dass ihr mir die Wikipedia-Seite mit der Liste von sexuell aktiven Pepsten findet.
+ Ja, die Seite gibt es wirklich.
+ Okay.
+ Das ging schnell.
+ What?
+ War die da? Wie hast du das? Das musst du mir jetzt erklären.
+ Drück mal auf zurück.
+ Okay, oh, die war direkt verlinkt.
+ Okay, mein Fehler.
+ Okay.
+ Ja, dann würde ich sagen...
+ Okay.
+ Fair game, du hast das direkt gefunden. Der Punkt geht an dich.
+ Okay.
+ So, damit steht es 7 zu 3.
+ Okay.
+ Jedes Spiel gibt dir einen Punkt mehr als das vorherige, ne?
+ Ah.
+ So.
+ Als nächstes möchte ich meinen Gastmoderator Mardonius auf die Bühne bitten.
+ Beziehungsweise, wie wir ihn heute nennen, The Elton mit "Äh", er kommt aus The Land.
+ Und er spielt mit uns eine Variation von blamieren oder kassieren.
+ Wir spielen nämlich "GPT or Human".
+ Das Spiel sieht wie folgt aus. Ich habe mehrere Prompts, sowohl Menschen als auch einer KI vorgesetzt.
+ Und Mardonius wird euch sowohl die Prompt als auch eine Antwort darauf vorlesen.
+ Wer von euch meint zu wissen, ob diese Antwort von einem Menschen oder einer KI stammt, darf rausrufen.
+ Wenn es richtig ist, geht der Punkt an euch. Wenn es falsch ist, geht der Punkt an den Gegner.
+ Wir spielen "Best of Five", das heißt maximal 5 Runden.
+ Und wir haben eine Bonusfrage. Wollen wir die eigentlich besonders bewerten?
+ Welche Bonusfrage meinst du denn?
+ Ich meine die da.
+ Die gibt es genauso.
+ Die gibt es genauso. Wollen wir dann drei Optionen?
+ Okay. Ja, es gibt bei einer Frage drei Optionen.
+ Gibt es drei Optionen? Erwachsener Mensch, fünfjähriges Kind oder KI?
+ Also, genau. Ich würde als erstes die Prompt vorlesen, dann die Antworten und erst dann,
+ ich meine, wenn ihr euch sicher seid, könnt ihr mich auch unterbrechen, während ich eine Prompt vorlese und reingrätschen.
+ Wenn nicht, dann werdet ihr halt ausgelacht, wenn ihr dann trotzdem falsch bleibt.
+ Das ist euer Problem, ne? Okay.
+ Also, Prompt Nummer eins. Erkläre in wenigen Sätzen, was eine Grafikkarte ist.
+ Technische Details sind nicht notwendig.
+ Erste Antwort. Die Grafikkarte ist eine Erweiterungskarte für einen Computer,
+ welcher die Videoausgabe steuert. Das wurde so nicht geschrieben, das ist einfach nur meine Unfähigkeit vorzulesen.
+ Antwort Nummer zwei. Die Grafikkarte dient dazu, das Bild auf einen oder mehreren Bild angeschlossenen Monitore anzuzeigen.
+ Soll ich reinrufen?
+ Ja, wenn du glaubst.
+ Also, ich glaube, das erste ist von einer KI und das zweite ist von einem Menschen.
+ Das, um was sagst du? Also eigentlich nicht, ne?
+ Also, wenn er jetzt falsch lag, dann kriegt er es. Ja, du lagst falsch. Gratuliere, du hast einen Punkt.
+ Um die Punkte zu dranken, darfst du die Karte behalten.
+ Mit meiner wunderschönen Handschrift zusammengeknaupert.
+ Das sagt gar nichts mehr.
+ So, zwei. Nenne in drei Stichpunkten, was beim Löten zu beachten ist.
+ A. Lötkolben erhitzen. Lötstellen erhitzen, Löt aufbringen und mit dem Kolben erhitzen.
+ Zwei. Ein Lötkolben muss die richtige Temperatur haben, das Löt muss die richtige Temperatur haben.
+ Die Lötstelle muss lang genug erhitzt werden, um einen guten Kontakt zu erhalten.
+ Darf ich mal kurz die Karte zurück haben? Danke, wir müssen die falten.
+ Ich hab's zwar randomisiert, aber trotzdem.
+ Ich lass dir den Vortritt, ich hab wieder eine falsche Vermutung.
+ Ich glaub, das längere, das ist das zweite von der KI.
+ Das zweite? Ja. Das ist richtig.
+ Falten und geben. Hätte ich doch geantwortet.
+ So, Frage Nummer eins. Achso, Frage Nummer drei.
+ Es geht hier gerade um Matchpoint, wenn er den kriegt, war's das.
+ Muss aufpassen. Beschreibe mir kurz die Funktion eines Computergehäuses
+ und versuche mich dabei, mich davon zu überzeugen, dass du ein Mensch bist.
+ Ein Computergehäuse schützt die Komponenten im Computer und hilft bei der Kühlung, indem er den Luftzug definiert.
+ Ich bin ein Mensch. Das war von der KI.
+ Okay, der hat geantwortet. Du hast gesagt, das sei von Menschen gewesen.
+ Ja. Lalalala, ich muss gerade kurz identifizieren, was ich hier gerade vor...
+ Ich weiß es selber nicht.
+ Du hast gesagt, es ist ein Mensch. Das erste. Hat er auch gesagt, es ist ein Mensch.
+ Ja. Darf ich das zweite vorlesen? Wir behalten das mal. Ich lese trotzdem das zweite mal vor.
+ Computergehäuse sind dafür da, alle PC-Komponenten aufgeräumt und kompakt zu verstauen und zu schützen.
+ Ich bin ein Mensch. Ah nein.
+ Bleibst du bei deiner Antwort? Ja, danke. Danke.
+ So, das ist immer noch der Matchpoint. Diesmal gibt es drei Optionen.
+ Ich würde sagen, das Kind und der Mensch zählt als... Also beides gilt als Antwort.
+ Das war ein Mensch oder in dem Fall keine KI. Wer erräht, was das Kind gesagt hat, kriegt einen halben Punkt extra.
+ Ich weiß nicht, wie du das auswerten willst, aber ja. Halber Punkt extra.
+ Es macht zwar am Ende keinen Unterschied, aber es gibt ein bisschen was extra.
+ So. Ja bitte. Beschreibe mir... Wie alt ist das Kind? Das wirst du erfahren.
+ Beschreibe mir, wie ein fünfjähriges Kind, wie man mit einem ECE fährt. Eins. Und dann sind wir mit dem schnellen Zug in den Urlaub gefahren.
+ Zwei. Du gehst an den Bahnhof und dann steht da ganz viele Züge.
+ Dann steigst du in deinen Zug ein, wo ECE drauf steht, und dann versteckst du dich vor der Fahrkartenkontrolle.
+ Drei. Zur Haltestelle warten, hinsetzen und dann fahren.
+ Ich gebe einen extra halben Punkt, weil ich großzügig bin.
+ Magst du das erste nochmal vorlesen? Und dann sind wir mit dem schnellen Zug in den Urlaub gefahren.
+ Ja. Soll ich als erstes machen? Wenn du magst. Ich traue mich nicht.
+ Also ich kann mir vorstellen, dass das erste von einer KI kommt, das zweite von einem Kind und das dritte von einem Erwachsenen.
+ Dann nochmal die Zettel sehen. Ich muss ja noch einmal...
+ Muss er jetzt alle drei korrekt zugewiesen haben? Oder reicht das?
+ Wenn er den Bonuspunkt will, dann muss er alle drei richtig haben.
+ Wenn eins falsch ist?
+ Wenn er die KI richtig findet, dann gibt es den Punkt.
+ Dann?
+ Was hast du gesagt, was das erste ist?
+ Das erste habe ich gesagt, ist die KI gewesen. Das zweite ist ein Kind und das dritte wäre Erwachsener.
+ Matchpoint. Und zwar diesmal wirklich. Du legst mit nur einem Punkt vor. Du hast das Kind und das Erwachsenen komplett vertauscht.
+ Ich bin auch überrascht, wie effizient Fünfjährige kommunizieren können. Da sollten manche Erwachsene wohl lernen.
+ Also, die Prompt. Letzter Punkt. Jetzt geht es um das Spiel, um die Runde.
+ Was ist der Unterschied zwischen Laptop und Desktop? Antworten in drei Sätzen.
+ Erste Antwort. Der Unterschied zwischen Laptop und Desktop ist der Formfaktor. Laptops sind transportabel und aufgrund des Formfaktors haben meist mehr Platz, was es erlaubt größere und leistungsfähige Komponenten zu verbauen.
+ Zwei. Ein Laptop passt auf deinen Schoß, ist zusammenklappbar und hat eingebaute Peripherie. Bildschirme, Tastatur, Touchpad.
+ Ein Desktop steht auf deinem Schreibtisch, ist meist größer und hat keine eingebaute Peripherie. Also unterscheiden sich Laptop und Desktop durch die Peripherie und Mobilität.
+ Das zweite ist die KI.
+ Er war schneller. Was hast du gesagt?
+ Das zweite ist die KI.
+ Hat er das auch wirklich gesagt? Ok, sehr gut.
+ Ja, ähm...
+ Das ist dein Punkt, oder? Nee, mach ich.
+ Wenn es falsch wäre... Moment.
+ Gratuliere. Aber weißt du, zum Trost, du hättest auch einfach nur mit einem halben Punkt hinten liegen können, statt einem ganzen.
+ Dann, schön, Dank, dass ich da sein durfte.
+ Vielen Dank an Der Eltert mit Äh.
+ So, dann muss ich mal meine Punkte-Liste aktualisieren. Du hast gewonnen mit, hast damit fünf Punkte mehr. So, wie liegen wir denn in der Zeit? Wir haben noch zehn Minuten.
+ Oh, schnell was löten. Ja.
+ Eine Person hat mir vorhin einen Kugelschreiber geliehen. Ich bin hier neben der Bühne.
+ Ok.
+ Ok.
+ So.
+ Da wir nur noch zehn Minuten haben und etwas hinten liegen, müssen wir leider zwei Spiele ausfallen lassen. Das eine ist, wofür ihr den Lötkolben gebraucht hättet.
+ Oh, schade. Ist natürlich ein bisschen schade.
+ Machen wir Big Stage. Ja.
+ Eins gegen eins.
+ Alle Spiele, dann müsst ihr mit dem DJ, der nach mir kommt, reden, dass der später anfängt.
+ Ja.
+ Du sorgst dafür oder wie?
+ Ok, gut. Dann spielen wir jetzt doch das Lötspiel.
+ Ihr kriegt Bausätze und müsst die löten. So. Wie ist denn eure Löterfahrung so?
+ Gut.
+ Jo.
+ Ok. Wolltet ihr die einfachen oder die schwierigen Bausätze?
+ Schwierig.
+ Sicher? Ganz sicher, dass ihr die schwierigen wollt?
+ Ich hoffe, dieser Akku sollte erreichen.
+ Haben wir Strom?
+ Ja, hier unten ist irgendwo Strom. Du darfst dich anstecken, du hast deinen Strom selber dabei.
+ So.
+ Es gibt hier diese wunderschönen Hilfskärtchen.
+ So, da brauchen wir dann auch gleich unsere Close-Up-Kamera vor Ort.
+ Genau, die Laptops schieben wir einfach mal ein bisschen in die Mitte.
+ Ihr kriegt diese Kärtchen und jeder bekommt einen Bausatz, der heißt Nibble++ und ist eine Löt-Challenge.
+ Einige im Publikum kennen die Löt-Challenge.
+ Noch nicht auspacken bitte, wir warten bis ihr beide bereit seid.
+ Ich würde ein Zeitlimit setzen und im Zweifelsfall gewinnt derjenige, der innerhalb der Zeit weiter ist.
+ Ich würde sagen, wir nehmen einfach mal 10 Minuten.
+ Kennst du das?
+ Ähm, kennst du es?
+ Nein, ich kenn's nicht.
+ Ich vorbereite mal kurz den Timer.
+ So, wo ist denn die Uhr hier? Timer auf 10 Minuten.
+ 10 Minuten.
+ An die Lötkolben, fertig und los!
+ Passt auf, dass ihr nichts verliert, ne?
+ Für die, die diese Löt-Challenge nicht kennen,
+ das Nibble++ ist eine kleine Runde Platine mit Widerständen und LEDs drauf.
+ Und die Bauteile werden nach und nach immer kleiner.
+ Es sind alles Surface-Mount-Teile, die sind also alle auf der Oberfläche drauf.
+ Ja, sehr cool.
+ Und die werden immer kleiner. Ich glaube, das kleinste Bauteil ist irgendwie 0,5 auf 0,5 Millimeter.
+ Darf ich jemanden für eine Pinzette anrufen?
+ Natürlich, das deckt das Ganze dir.
+ Ja, ich brauch auch eine Pinzette.
+ Ja, ihr dürft auch, also ihr dürft gerne den Telefon-Joker nutzen.
+ Äh, SMD ohne Pinzette löten, wie soll das gehen?
+ Ja, das hätte ich mir vielleicht auch vorher überlegen müssen.
+ Warte, ich hab eine.
+ Du hast eine? Du hast dir eine gebaut, oh, sehr kreativ.
+ Okay, unser Spieler 1 fängt schon an zu löten, einfach ganz grob ohne allem.
+ Wenn man löten kann, funktioniert das auch?
+ Gibt's hier noch?
+ Beziehungsweise, nee, es sind bereits, nee, ihr habt noch 8 Minuten 40, Sohn.
+ Oh, Spieler 2 bekommt eine Pinzette zur Verfügung gestellt.
+ Danke.
+ Vielleicht kommt für Spieler 1 auch noch eine.
+ Was ist das Bewertungskriterium?
+ Naja, ich glaub, die Batterie fehlt, oder? Ist keine dabei?
+ Ja, dann zählen wir wohl, wer die meisten Bauteile auflötet, glaube ich.
+ Wir bewerten aber auch, ob sie gut aussehen.
+ Also wenn die Bauteile da einfach nur drauf gestreut sind, wie so eine Prise Salz, das zählt natürlich nicht.
+ So, du hast den Schalter schon dran, so halb.
+ Wie sieht's bei dir aus?
+ Du verzinnst erst mal alles vor, okay.
+ Ja, ist schlau.
+ Ich hätte nicht beide Seiten machen sollen, ich hab mich irgendwie vergessen.
+ Tja.
+ So.
+ Ist natürlich schlau, du fängst mit den groben Bauteilen an.
+ Du hast ja natürlich direkt den IC mit den vielen Beinchen gesucht.
+ Den richtig anzulöten.
+ Mein Mikrofon ist leer.
+ Ja, der Akku von meinem Mikrofon ist grad leer gegangen und beim Tontechnikstand ist niemand mehr.
+ Wenn da mal jemand herkommen möchte, wär das ganz toll.
+ Ich brauch's grad nicht, du kannst es hier auch mitnehmen.
+ Soll ich hier was reden?
+ Ist unfair zu lachen.
+ So, hallo hallo.
+ Ja, was wäre so eine Show ohne technische Schwierigkeiten, ne?
+ Wir haben noch 6 Minuten für euch.
+ Wie sieht's aus?
+ Du bist auf der einen Seite schon fast fertig, so wie es aussieht.
+ Und was machst du?
+ Ich hab noch 6 Minuten für euch.
+ Und was machst du?
+ Ich hab noch 6 Minuten für euch.
+ Und was machst du?
+ Ich habe keine Pinzette.
+ Du hast doch da eine liegen neben dir.
+ Ok, du hast eine schlechte Pinzette, das ist natürlich auch schlecht.
+ So, wie sieht's bei dir aus?
+ Hast du eine gute Pinzette?
+ Ne, ich hab keine gute Pinzette und ich glaub deinen Gegner auch nicht.
+ Der hat auch eine, aber nutzt sie nicht.
+ Ok, so, noch 5,5 Minuten.
+ Oh nee.
+ So, Spieler 1 ist jetzt auch hier am Schalter angekommen, den Spieler 2 als erstes aufgelötet hat.
+ Ich glaube, da ist gerade was runtergefallen.
+ Und dir ist gerade wieder was runtergefallen?
+ Ja.
+ Das ist natürlich schlecht, ich hoffe nicht auf den Boden, oder?
+ Also wenn dir was auf den Boden gefallen ist, ist schlecht, weil die Teile sind klein.
+ Also auch ein bisschen gemein, nur 10 Minuten für die Challenge zu haben.
+ Ich glaube laut Webseite braucht man 20 oder so, wenn man geübt ist.
+ So, du hast jetzt auch den einen IC mit aufgelötet und du beginnst nun mit den Widerständen oder LEDs.
+ Ich weiß nicht genau, was es ist.
+ Widerstände.
+ Ok, du fängst mit den ganz kleinen Teilen an oder machst mit den ganz kleinen Teilen weiter.
+ Und Spieler 1 ist derweil an aufgegeben.
+ Du hast aufgegeben?
+ Den Schalter anzuwirken.
+ Ach, den Schalter, oh, du hast am Schalter schon aufgegeben.
+ Ja, es ist nicht so heiß hier.
+ Ja, der ist schon auf Maximum, die Lötstation ist wohl nicht so toll.
+ Nee.
+ Ihr habt noch knapp 4 Minuten Zeit, die Hälfte der Zeit, nee, über die Hälfte der Zeit ist um.
+ Du machst gerade die größten Pads mit dem schwächsten Lötkolben, ne?
+ Kann man natürlich auch versuchen.
+ So, wie sieht es bei dir aus?
+ Du, oh, da gibt es Service.
+ Ich würde sagen, das Set dürfen sich beide teilen.
+ Oh ja.
+ Doch, sag ich jetzt so, das Pinzettenset dürfen sich beide teilen.
+ Na, ich hab ja.
+ Ok, wenn du zufrieden bist.
+ Der Wind macht es halt auch nicht einfacher, falls die Bauteile gleich wegfliegen.
+ Ja, ich halte hier drauf, das passiert nicht, das ist ein bisschen schlimm.
+ Noch 3 Minuten.
+ Fertig werden wohl beide nicht.
+ Aber wir schauen trotzdem mal, wer die meisten Bauteile drauf bekommt.
+ Eins wäre nicht schlecht bei mir.
+ Ihr dürft die Set natürlich auch mitnehmen und daheim fertig machen.
+ Du versuchst es doch nochmal mit dem Schalter.
+ Ok.
+ Ja, der Batteriehalter ist auch ein bisschen, der braucht ein bisschen viel Energie, glaube ich.
+ So.
+ Oh, was ist das denn? Ich hab mir die falsche rausgenommen.
+ Ja, das ist natürlich schlecht, wenn du dir die falsche Pinzette rausnimmst.
+ Jetzt hast du schon die Auswahl, ne?
+ Ah.
+ Na?
+ So, aber es sieht ganz danach aus, als würde Spieler 2 deutlich vorne liegen in dieser Runde.
+ Noch 1 Minute und 50 Sekunden.
+ Ja, der Zeitdruck, der macht natürlich auch nicht die Hände ruhiger, ne?
+ Ja, das ist ein bisschen ein bisschen zu spät.
+ Aber es ist ein bisschen zu spät.
+ Ja, das ist ein bisschen zu spät.
+ Ja, der Zeitdruck, der macht natürlich auch nicht die Hände ruhiger, ne?
+ Ja, das ist ein bisschen zu spät.
+ Ja, das ist ein bisschen zu spät.
+ Du wirst dich nochmal an den Batteriefach, während du hier in die SMD-Bauteile versuchst auszupacken.
+ Noch 1 Minute.
+ Ich mach den Controller. Ich mach den Hauptcontroller auf die Rückseite.
+ Ja, versuch dich mal dran. 50 Sekunden.
+ Okay.
+ Okay.
+ So, wir dürfen ein bisschen überziehen, habe ich gerade gesagt, bekommen.
+ Das heißt, ich denke mal, ein kleines Spiel kriegen wir danach noch durch.
+ Ihr habt noch 22 Sekunden.
+ 20.
+ 15.
+ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1. Stopp! Lötkolben weg!
+ So, wir werten aus, wer hat mehr Bauteile aufgelötet?
+ Das ist nur eins.
+ Na gut, ich würde mal sagen, alle die nicht... Ja, okay.
+ Das fällt runter, das zählt nicht. Du hast ein Bauteil.
+ Spieler 2 hingegen hat 1, 2, 3, 4, 5, 6, ja, 5,5.
+ 5,5.
+ So, der Punkt geht an Spieler 2.
+ Das war Spiel Nummer 6 und gibt somit 6 Punkte.
+ Als letztes Spiel, da wir ein bisschen überziehen können, würde ich sagen, spielen wir eine Runde Lockpicking.
+ Dazu begrüße ich unseren Lockpicking-Meister auf die Bühne.
+ Er wird euch auch kurz einweisen und erklären, was ihr machen müsst.
+ Kurzum, ihr habt eine Box mit zwei Schlössern.
+ Oder ich würde sagen, wir machen nur eins.
+ Wir machen nur eins, damit wir schneller durch sind.
+ Ihr kriegt Werkzeuge und das Schloss. Wer es zuerst aufkriegt, hat gewonnen. Ganz einfach.
+ Wisst ihr denn, wie das geht überhaupt? Oder soll ich euch vorher noch mal kurz zeigen, wie das geht? Die Schlösser sind noch nicht dran.
+ Ich hätte gerne eine Einweisung.
+ Ihr hättet gerne eine Einweisung. Dann musst du mal kurz für mich das Mikro halten, während ich zeige, wie das geht.
+ Und der Kameramann kann ja auch mal näher kommen.
+ Damit das Publikum auch was von hat.
+ So, wir haben hier in der Kiste ein paar Schlösser und zwei Werkzeuge.
+ Die in diesem Falle nur ein Werkzeug zum Stifte bewegen sind und ein Werkzeug zum Spannen.
+ In dem Falle eine Haarnadel. Also sehr minimalistisch, aber die Schlösser sind auch sehr klein.
+ Ich gebe mir Mühe. Mit diesen beiden Werkzeugen, ich mache mal das Schloss zu.
+ So, dass die Kamera es sehen kann. Warte mal, ich muss es wieder so umdrehen, dass die Kamera es sehen kann.
+ Das eine Werkzeug, diese Haarnadel in dem Falle, führe ich so in das Schloss ein, dass ich an dem Kern, das was der Schlüssel dreht, ein bisschen drehen kann.
+ Jetzt kann ich so vorsichtig hier Spannen, nehme das andere Werkzeug und mit dem bewege ich die Stifte, die in dem Schließkern sind und die normalerweise von den Zacken des Schlüssels eingestellt werden.
+ Und mit etwas Gefühl geht das Schloss auf.
+ Dann gibt den Kandidaten ihre Werkzeuge, rüste die Boxen mit den Schlössern aus.
+ Ihr könnt euch schon mal mit den Werkzeugen vertraut machen. Fragen gibt es von euch keine?
+ Ich habe die Frage, wo ist das Halsband?
+ Welches Halsband?
+ Da musst du um Null Ort zu unserem Lockpick Village kommen, da wird doch mal eine Runde Shockpicking gespielt.
+ Da sind ja normalerweise Fernbedienungen für den anderen drin und alle haben so ein Halsband um.
+ Ja, das wäre nicht ganz familienfreundlich gewesen, glaube ich.
+ Wir müssen aber die Werkzeuge rausnehmen.
+ Achso, stimmt, ja. Okay, das wäre sonst ein bisschen unfair.
+ Wer sein eigenes Pickset bei hat, darf das natürlich einsetzen.
+ Habe ich nicht.
+ Im Übrigen, es steht gerade... Oh, da kommt jemand mit einem Lockpicking-Set.
+ Nein, das ist nah. Optional, nein, machen wir nicht.
+ Diese Zuschauerinteraktion hier, herrlich.
+ Nimmst du auch nur die Nadel, die hier? Ja, ja.
+ Im Übrigen, das Stand ist aktuell 12 zu 9 für Player 1.
+ Diese Runde kann entscheiden.
+ Diese Runde gibt nämlich... Noch nicht anfangen.
+ Die Runde gibt nämlich 7 Punkte. Die Runde kann entscheiden.
+ So, wir können das so machen, dass wir es machen wie bei richtigen Wettkämpfen.
+ Die deutschen Regeln sagen, ihr dürft den Spanner schon ausprobieren.
+ Ihr dürft also schon mal probieren, wie ihr den Spanner ansetzt.
+ Und dann gibt es die Signal-Start-Signal.
+ Und dann dürft ihr erst den Handpick, das Tastbesteck, ins Schloss einführen
+ und anfangen zu versuchen, die Schifte zu bewegen.
+ Okay, machen wir so.
+ So, ihr seid beide bereit. Geben wir dir noch ein bisschen Zeit zum Überlegen.
+ Und noch ein Hinweis. Die Schlösser öffnen nur im Uhrzeigersinn.
+ Wenn ihr im Uhrzeigersinn zu versuchen seid, da werdet ihr nicht vorankommen.
+ Okay, das ist ein guter Hinweis.
+ So, ich würde sagen, an die Schlösser, fertig und los!
+ Das ist die entscheidende Runde. Unsere letzte Spielrunde, entscheidendes Spiel.
+ Wer das Schloss zuerst aufkriegt, hat gewonnen, hat das ganze Spiel gewonnen.
+ So, beide sind dran. Spieler 2 ist schon ganz tief drin im Schloss.
+ Spieler 1, er struggelt noch ein bisschen mit den Werkzeugen.
+ Sieht aktuell ganz klar nach Vorteil Spieler 2 aus, aber noch ist nichts entschieden.
+ Spieler 2 ist ausgerutscht, Spieler 1 versucht es weiter.
+ Man könnte ja auch wieder den Telefonjoker nutzen und versuchen jemanden anzurufen, der einen Schloss öffnen kann.
+ Könnte man, ja. Die Telefone liegen da, aber ich glaube unsere Kandidaten versuchen es selbst.
+ Das ist etwas zu klein, diese Nadel.
+ Ja, die Nadel ist jetzt zu klein. Eine größere passt nicht so richtig rein, wurde mir gesagt.
+ Die liegt da auf dem Tisch, aber kann ich das jetzt nehmen?
+ Die wurde Spieler 1 gegeben, nicht dir.
+ Mir wurde auch im Vorhinein gesagt, mit einem richtigen Spanner wird es schwierig, weil er einfach ein bisschen zu groß ist.
+ Der spannt gar nicht. Okay, mir wurde gesagt, wir haben noch eine Minute.
+ Hast du jetzt einen anderen genommen? Nein. Okay, er gibt mir auch einen.
+ So, eine Minute ab jetzt.
+ Wenn es niemand schafft, das Schloss zu öffnen, ist das schon... Er hat es geschafft.
+ Spieler 2 hat es geschafft, gewinnt das Spiel Lockpick und damit die komplette Show.
+ Da wir hier vom Privatfernsehen sind, brauchen wir natürlich auch Sponsoring.
+ Dein Hauptpreis ist ein Blinken-Rocket, gesponsert von Blinken-Rockets.
+ Morgen seht ihr an derselben Stelle die Kollegen vom öffentlich-rechtlichen Fernsehen mit einem viel größeren Budget und einer viel größeren Crew.
+ Aber viel schlechteren Spiele. Das weiß ich nicht, kann ich nicht beurteilen.
+ Aber ja, das war es von uns vom Privatfernsehen. Wir wünschen euch noch einen wunderschönen Abend und Gratulation an den Gewinner.
+ Danke schön. Danke schön.
+ Gute Spiele. Danke schön.
+ Vielen Dank.
+ [Musik]

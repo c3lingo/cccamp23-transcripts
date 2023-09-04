@@ -1,0 +1,1132 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:33,000
+ >> Thank you all for coming today.
+
+4
+00:00:33,000 --> 00:00:36,000
+ This is Erla and we are going to get a fantastic presentation.
+
+5
+00:00:36,000 --> 00:00:38,000
+ Put it together for Erla.
+
+6
+00:00:38,000 --> 00:00:43,000
+ [APPLAUSE]
+
+7
+00:00:43,000 --> 00:00:44,000
+ >> Am I live?
+
+8
+00:00:44,000 --> 00:00:45,000
+ Okay.
+
+9
+00:00:45,000 --> 00:00:48,000
+ So I'm going to talk about build system failure modes.
+
+10
+00:00:48,000 --> 00:00:52,000
+ Like I can't see most of you, but like if there's a build system,
+
+11
+00:00:52,000 --> 00:00:55,000
+ you might have used it as a developer,
+
+12
+00:00:55,000 --> 00:01:02,000
+ especially in an iterative way that you change some stuff and then you rebuild.
+
+13
+00:01:02,000 --> 00:01:06,000
+ And this is all about what can go wrong and how you shouldn't do it
+
+14
+00:01:06,000 --> 00:01:09,000
+ and you might be able to fix this.
+
+15
+00:01:09,000 --> 00:01:12,000
+ So first question is like what's the topic of the talk?
+
+16
+00:01:12,000 --> 00:01:13,000
+ What is a build system?
+
+17
+00:01:13,000 --> 00:01:17,000
+ And it's most basic way a build system evaluates rules
+
+18
+00:01:17,000 --> 00:01:19,000
+ and consumes inputs, generates outputs,
+
+19
+00:01:19,000 --> 00:01:23,000
+ and you can, if you only change some of the inputs,
+
+20
+00:01:23,000 --> 00:01:27,000
+ partially evaluate the build and not recompute everything,
+
+21
+00:01:27,000 --> 00:01:30,000
+ but only the things that should be recomputed,
+
+22
+00:01:30,000 --> 00:01:34,000
+ which necessarily leads us to, okay, make is a build system,
+
+23
+00:01:34,000 --> 00:01:36,000
+ CMake is a build system, Ninja is a build system,
+
+24
+00:01:36,000 --> 00:01:39,000
+ but Excel in that sense is also a build system.
+
+25
+00:01:39,000 --> 00:01:42,000
+ Yeah, you have formulas and inputs, and no one prevents you from like,
+
+26
+00:01:42,000 --> 00:01:44,000
+ I don't know, making a rogue like in Excel.
+
+27
+00:01:44,000 --> 00:01:50,000
+ But it's actually relevant to like the formalisms that you would use to analyze this.
+
+28
+00:01:50,000 --> 00:01:53,000
+ You want your outputs to change when you change the inputs,
+
+29
+00:01:53,000 --> 00:01:57,000
+ but you do not want to recalculate entire spreadsheets when you press one key.
+
+30
+00:01:57,000 --> 00:02:02,000
+ So the thing is build times matter.
+
+31
+00:02:02,000 --> 00:02:07,000
+ Someone suggested I should include this compiling comic from XKCD,
+
+32
+00:02:07,000 --> 00:02:13,000
+ but she also said if you had one dirty sock, would you wash all your socks again?
+
+33
+00:02:13,000 --> 00:02:18,000
+ And same is like if you have one dirty file, how would you get a clean build?
+
+34
+00:02:18,000 --> 00:02:20,000
+ Like how would you like it?
+
+35
+00:02:20,000 --> 00:02:24,000
+ If it didn't take like 40 minutes, but like four minutes,
+
+36
+00:02:24,000 --> 00:02:27,000
+ the only way you get there is partially rebuilding,
+
+37
+00:02:27,000 --> 00:02:31,000
+ only that's what you need to change.
+
+38
+00:02:31,000 --> 00:02:33,000
+ Many people think build times don't matter.
+
+39
+00:02:33,000 --> 00:02:37,000
+ That's usually because they have beefy computers or I don't know pipelines or whatever.
+
+40
+00:02:37,000 --> 00:02:39,000
+ Your reality might change.
+
+41
+00:02:39,000 --> 00:02:42,000
+ It might be that stuff takes hours.
+
+42
+00:02:42,000 --> 00:02:46,000
+ I personally got to build systems because I had a podcast that excites generator,
+
+43
+00:02:46,000 --> 00:02:51,000
+ and if you mess anything up, then there are like lots of audio files which want to be re-encoded.
+
+44
+00:02:51,000 --> 00:02:55,000
+ So I had no really motivation to get this wrong.
+
+45
+00:02:55,000 --> 00:03:03,000
+ If I accidentally do stuff that I shouldn't, it would have taken hours.
+
+46
+00:03:03,000 --> 00:03:09,000
+ And if I had always rebuilt everything, I wouldn't be done at any point.
+
+47
+00:03:09,000 --> 00:03:15,000
+ So now the thing is you want to rebuild target files when their prerequisites change,
+
+48
+00:03:15,000 --> 00:03:19,000
+ and this talk is like structure three parts.
+
+49
+00:03:19,000 --> 00:03:21,000
+ First, like common issues.
+
+50
+00:03:21,000 --> 00:03:25,000
+ You might have noticed these but only like have a feeling or like ignored them or something.
+
+51
+00:03:25,000 --> 00:03:29,000
+ Many people do notice them but think, yeah, it just happens.
+
+52
+00:03:29,000 --> 00:03:32,000
+ Then why do these happen? Why I think they do happen?
+
+53
+00:03:32,000 --> 00:03:38,000
+ Maybe you have different opinions, but I think I'm right because obviously.
+
+54
+00:03:38,000 --> 00:03:44,000
+ And then an example of how to do that correctly, which is like not as seen as an advertisement,
+
+55
+00:03:44,000 --> 00:03:48,000
+ but more like if you change how you approach the problem,
+
+56
+00:03:48,000 --> 00:03:54,000
+ then you can actually do a lot of tasks in a much simpler way.
+
+57
+00:03:54,000 --> 00:03:59,000
+ So first, common issues.
+
+58
+00:03:59,000 --> 00:04:05,000
+ So your target files do depend on source files, and you can simplify this.
+
+59
+00:04:05,000 --> 00:04:10,000
+ Well, if you build some other target files, they can also become source files for some next step.
+
+60
+00:04:10,000 --> 00:04:13,000
+ And there are three popular approaches.
+
+61
+00:04:13,000 --> 00:04:16,000
+ Well, the first one is very popular, the last modified timestamp.
+
+62
+00:04:16,000 --> 00:04:18,000
+ When did I touch this last?
+
+63
+00:04:18,000 --> 00:04:24,000
+ And if you touch it, then the target is out of date and something needs to be rebuilt.
+
+64
+00:04:24,000 --> 00:04:26,000
+ There's a file, you edited it.
+
+65
+00:04:26,000 --> 00:04:28,000
+ The thing doesn't even check if you changed anything.
+
+66
+00:04:28,000 --> 00:04:32,000
+ You just like you open and saved it, and the timestamp in the file system gets updated.
+
+67
+00:04:32,000 --> 00:04:36,000
+ The build system figures out, oh, no, the source file has changed.
+
+68
+00:04:36,000 --> 00:04:42,000
+ Now I need to compile again, or I don't know what, or convert some media files.
+
+69
+00:04:42,000 --> 00:04:48,000
+ A more correct approach, so to say, that lets you rebuild less is hashing everything.
+
+70
+00:04:48,000 --> 00:04:51,000
+ But the problem is that hashing again takes time.
+
+71
+00:04:51,000 --> 00:04:59,000
+ So a really good approach is check the last modified timestamp, and if it's mismatching, only then hash.
+
+72
+00:04:59,000 --> 00:05:02,000
+ Depending on what approach you use, you might have problems.
+
+73
+00:05:02,000 --> 00:05:08,000
+ For example, with the first approach, you have the problem that Git touches everything it sees when you do a checkout,
+
+74
+00:05:08,000 --> 00:05:13,000
+ so stuff gets rebuilt all the time, uselessly, if you use make.
+
+75
+00:05:13,000 --> 00:05:19,000
+ But with the hashing, I once generated a 16 GB sparse image for some SD card.
+
+76
+00:05:19,000 --> 00:05:23,000
+ Yeah, and then the build system hashed it, and it took a long time.
+
+77
+00:05:23,000 --> 00:05:26,000
+ That was not very smart of me.
+
+78
+00:05:26,000 --> 00:05:31,000
+ But basically, you know this issue.
+
+79
+00:05:31,000 --> 00:05:36,000
+ The second thing, well, that's the same, I'm sorry, I should have gone there.
+
+80
+00:05:36,000 --> 00:05:40,000
+ The first is wrong, the second is slow, and the third is fast and correct.
+
+81
+00:05:40,000 --> 00:05:48,000
+ So there's no excuse for build systems that use the last modified timestamp to not hash to avoid useless busy work.
+
+82
+00:05:48,000 --> 00:05:53,000
+ So then the second thing is dependencies are actually recursive.
+
+83
+00:05:53,000 --> 00:05:59,000
+ People only often think, oh, I checked the file, it's up to date, and that's okay.
+
+84
+00:05:59,000 --> 00:06:08,000
+ Now I can just forget about it. But you not only have to check the thing, your dependency,
+
+85
+00:06:08,000 --> 00:06:11,000
+ you have to check all the dependencies of all your dependencies.
+
+86
+00:06:11,000 --> 00:06:16,000
+ If you generate some source code file from something else and then you compile something from that,
+
+87
+00:06:16,000 --> 00:06:23,000
+ one thing taints the entire chain, and if any prerequisites of anything, regardless of how far away it is, changes,
+
+88
+00:06:23,000 --> 00:06:26,000
+ the target needs to be rebuilt.
+
+89
+00:06:26,000 --> 00:06:30,000
+ Some build systems forget this, too, which are becoming.
+
+90
+00:06:30,000 --> 00:06:36,000
+ So one thing that often happens is that people under-specify their dependencies.
+
+91
+00:06:36,000 --> 00:06:41,000
+ You have to list all of them and maybe you have to list them manually.
+
+92
+00:06:41,000 --> 00:06:46,000
+ The timestamp-based build systems rebuild often anyway because you use Git,
+
+93
+00:06:46,000 --> 00:06:50,000
+ or maybe you figure all the files and have them all open in your editor and it auto-saves.
+
+94
+00:06:50,000 --> 00:06:56,000
+ The problem is that the second thing that the timestamp-based build systems rebuild so often that masks it,
+
+95
+00:06:56,000 --> 00:07:00,000
+ like you will maybe never as a developer get a failing build,
+
+96
+00:07:00,000 --> 00:07:10,000
+ because, yeah, it rebuilds lots of useless stuff anyway without needing to, and that prevents you from noticing it.
+
+97
+00:07:10,000 --> 00:07:16,000
+ The prime suspect is Git checkout, and it's really hard to convince people that this is happening,
+
+98
+00:07:16,000 --> 00:07:24,000
+ but what you can do is make a post-checkout hook for Git that sets the timestamp of the files that you checked out
+
+99
+00:07:24,000 --> 00:07:27,000
+ to when they were last committed, and lots of things will break.
+
+100
+00:07:27,000 --> 00:07:31,000
+ I can guarantee it because I tried it and then people were like, "Yeah, that just don't do that,"
+
+101
+00:07:31,000 --> 00:07:35,000
+ but it's more like proving that the dependencies are under-specified.
+
+102
+00:07:35,000 --> 00:07:38,000
+ Pretty easy experiment.
+
+103
+00:07:38,000 --> 00:07:43,000
+ So one thing that is often ignored is that target files actually depend on their own build rules.
+
+104
+00:07:43,000 --> 00:07:47,000
+ So if the build rules change, the target needs to be rebuilt. That sounds obvious, right?
+
+105
+00:07:47,000 --> 00:07:51,000
+ I have a different build rule, and my favorite build system, Excel, does this right.
+
+106
+00:07:51,000 --> 00:07:55,000
+ If you change the formula, the cell is updated, but Make does not,
+
+107
+00:07:55,000 --> 00:07:59,000
+ and neither do a lot of other systems that basically work like Make.
+
+108
+00:07:59,000 --> 00:08:05,000
+ The trick question is, should targets depend on the Make file? I have rarely seen this in the world.
+
+109
+00:08:05,000 --> 00:08:08,000
+ The advantage is whenever you change your build rule, your target is rebuilt.
+
+110
+00:08:08,000 --> 00:08:14,000
+ The disadvantage is whenever you change any build rule, all targets are rebuilt.
+
+111
+00:08:14,000 --> 00:08:19,000
+ To me it suggests that maybe the idea of putting all the rules in one file and so on and so on is done.
+
+112
+00:08:19,000 --> 00:08:23,000
+ But it's a funny trick question. Maybe if you meet someone who didn't go to this talk
+
+113
+00:08:23,000 --> 00:08:30,000
+ and they're really enthusiastic about build systems, it could make them shut up.
+
+114
+00:08:30,000 --> 00:08:37,000
+ So then something that is ignored even more often is that targets actually depend on non-existent files.
+
+115
+00:08:37,000 --> 00:08:42,000
+ It might be that a new file appears and the target needs to be rebuilt.
+
+116
+00:08:42,000 --> 00:08:46,000
+ A header file appears in the current directory and the OP processor would find it.
+
+117
+00:08:46,000 --> 00:08:49,000
+ Or you have an image gallery, a new image appears.
+
+118
+00:08:49,000 --> 00:08:55,000
+ You do not want to rebuild all the thumbnails, but the index file that shows all the pictures
+
+119
+00:08:55,000 --> 00:08:59,000
+ needs to be invalidated when a new image appears.
+
+120
+00:08:59,000 --> 00:09:03,000
+ And if you have a webcam that does a photo every minute or so,
+
+121
+00:09:03,000 --> 00:09:09,000
+ you already know the file name of the non-existent file that as soon as it appears invalidates your build.
+
+122
+00:09:09,000 --> 00:09:15,000
+ A surprisingly large number of build systems are entirely unable by architecture,
+
+123
+00:09:15,000 --> 00:09:20,000
+ like architectural limits, to actually do this and ignore it entirely.
+
+124
+00:09:20,000 --> 00:09:23,000
+ But the problem is this is a very common thing.
+
+125
+00:09:23,000 --> 00:09:31,000
+ And basically every one of these non-existent dependencies is the case of
+
+126
+00:09:31,000 --> 00:09:35,000
+ I make a new file in the file system and this invalidates my build.
+
+127
+00:09:35,000 --> 00:09:41,000
+ And if I then rebuild, I might get a binary that does not correspond to my source code.
+
+128
+00:09:41,000 --> 00:09:47,000
+ All of the problems where you have a build that seemingly succeeds,
+
+129
+00:09:47,000 --> 00:09:53,000
+ but does not build enough, mean your result is not guaranteed to be correct.
+
+130
+00:09:53,000 --> 00:09:58,000
+ Maybe some of you had this, that they partially rebuilt something, it did not work,
+
+131
+00:09:58,000 --> 00:10:02,000
+ and you deleted all the make and CMake files and whatever,
+
+132
+00:10:02,000 --> 00:10:05,000
+ and then you rebuilt completely and then it worked.
+
+133
+00:10:05,000 --> 00:10:10,000
+ Yeah, that was one, maybe not this one, but this is one of the common issues.
+
+134
+00:10:10,000 --> 00:10:14,000
+ Often people do not know why it happened, but you can blame the build systems basically
+
+135
+00:10:14,000 --> 00:10:18,000
+ for not tracking something that it should have tracked.
+
+136
+00:10:18,000 --> 00:10:22,000
+ So now the thing is even more specifically, a combination,
+
+137
+00:10:22,000 --> 00:10:24,000
+ targets depend on non-existent build rules.
+
+138
+00:10:24,000 --> 00:10:29,000
+ It might be that in the future a target is built using a general rule,
+
+139
+00:10:29,000 --> 00:10:33,000
+ like a rule for all HTML files or all object files or something.
+
+140
+00:10:33,000 --> 00:10:38,000
+ In the future you have a more specific rule that would override this.
+
+141
+00:10:38,000 --> 00:10:41,000
+ Yeah, well, when this rule appears in the make file,
+
+142
+00:10:41,000 --> 00:10:47,000
+ which we already know is rarely considered anyway, you also need to rebuild the target.
+
+143
+00:10:47,000 --> 00:10:57,000
+ I've actually never seen this in software that is unrelated to the proposed solution.
+
+144
+00:10:57,000 --> 00:11:04,000
+ It seems to be often forgotten, or people use weird domain-specific languages to handle this.
+
+145
+00:11:04,000 --> 00:11:08,000
+ So the thing is, why do these problems happen?
+
+146
+00:11:08,000 --> 00:11:14,000
+ And I am convinced that the reason is because the common approach to build systems
+
+147
+00:11:14,000 --> 00:11:19,000
+ is you treat everything as a directed graphic graph, that's an image from Wikipedia,
+
+148
+00:11:19,000 --> 00:11:24,000
+ where the nodes are files, like in the graph, and the edges are dependencies.
+
+149
+00:11:24,000 --> 00:11:31,000
+ To build A, I need to build C, and B, and B and C both need D, and D need E,
+
+150
+00:11:31,000 --> 00:11:38,000
+ so I first start... yeah, I have this information, and then the procedure is,
+
+151
+00:11:38,000 --> 00:11:43,000
+ I construct this graph, I topologically sort it, so I have an ordering in which I can build these things
+
+152
+00:11:43,000 --> 00:11:48,000
+ so that they satisfy all these errors there, and then I schedule the build task.
+
+153
+00:11:48,000 --> 00:11:54,000
+ And this is very easy to implement, it's very easy to parallelize, and it's obvious but wrong.
+
+154
+00:11:54,000 --> 00:12:00,000
+ Because while your idealized build, the spherical cow in a vacuum,
+
+155
+00:12:00,000 --> 00:12:07,000
+ might sometimes be modeled like that, usually you don't want that.
+
+156
+00:12:07,000 --> 00:12:12,000
+ Because at the point where you construct the graph, you do not have enough info,
+
+157
+00:12:12,000 --> 00:12:19,000
+ you cannot actually do this successfully in almost all cases that I can say,
+
+158
+00:12:19,000 --> 00:12:23,000
+ for example, because you do not know the non-existence dependencies,
+
+159
+00:12:23,000 --> 00:12:29,000
+ you do not know which file the preprocessor did not find, did not include, but would find in the future.
+
+160
+00:12:29,000 --> 00:12:34,000
+ And as soon as you have scheduled the build task, you might get new information.
+
+161
+00:12:34,000 --> 00:12:41,000
+ The thing is, to deal with this, people pretend, for example, that the world is frozen,
+
+162
+00:12:41,000 --> 00:12:45,000
+ that the entire file system is the same as when you started the build,
+
+163
+00:12:45,000 --> 00:12:50,000
+ but the problem is, obviously it isn't, because you're outputting stuff and generating files left and right,
+
+164
+00:12:50,000 --> 00:12:52,000
+ because that's the purpose of your system.
+
+165
+00:12:52,000 --> 00:12:56,000
+ So it's kind of a bit weird that people then, for their dependency evaluation,
+
+166
+00:12:56,000 --> 00:13:00,000
+ pretend that it's still in the start, it doesn't work.
+
+167
+00:13:00,000 --> 00:13:04,000
+ The second thing is, some people are like, "Oh, just list every dependency,
+
+168
+00:13:04,000 --> 00:13:07,000
+ you're a programmer, list every file."
+
+169
+00:13:07,000 --> 00:13:12,000
+ This obviously does work, and embedded developers rarely have these kind of problems,
+
+170
+00:13:12,000 --> 00:13:19,000
+ because they seem to be like a special breed and have very little in terms of dependencies.
+
+171
+00:13:19,000 --> 00:13:23,000
+ They know absolutely nothing compared to application developers.
+
+172
+00:13:23,000 --> 00:13:26,000
+ But if you have a build system that says, "Oh, if you don't list a dependency,
+
+173
+00:13:26,000 --> 00:13:32,000
+ it will not show up in the file system view for the build because of some overlay or so,"
+
+174
+00:13:32,000 --> 00:13:39,000
+ then you will be annoyed pretty fast, because it's fucking robot work to figure out which files are there.
+
+175
+00:13:39,000 --> 00:13:42,000
+ Why should you do that if the computer can do it for you?
+
+176
+00:13:42,000 --> 00:13:49,000
+ So the most popular approach to make it work is just ignore the issues,
+
+177
+00:13:49,000 --> 00:13:53,000
+ like the previously mentioned problems and similar problems that result from this,
+
+178
+00:13:53,000 --> 00:14:03,000
+ because it's so seducing to have a way that you can easily model something, and maybe it's sometimes wrong,
+
+179
+00:14:03,000 --> 00:14:07,000
+ but it's fast, right, and you totally understand it.
+
+180
+00:14:07,000 --> 00:14:12,000
+ Build system authors do not like it when you point out that they're ignoring stuff.
+
+181
+00:14:12,000 --> 00:14:18,000
+ I've literally seen people say, "Well, then just don't do that, don't have that build,
+
+182
+00:14:18,000 --> 00:14:23,000
+ but that doesn't help me because I have the build and I want to like, I want results."
+
+183
+00:14:23,000 --> 00:14:26,000
+ So how would you do it correctly?
+
+184
+00:14:26,000 --> 00:14:34,000
+ What I figured is that actually you can treat builds as some kind of huge function
+
+185
+00:14:34,000 --> 00:14:38,000
+ that you can partially evaluate to partially rebuild,
+
+186
+00:14:38,000 --> 00:14:44,000
+ and then you can rebuild recursively until the outputs are not changed, until you reach a fixed point.
+
+187
+00:14:44,000 --> 00:14:46,000
+ Obviously, the one iteration is a common case.
+
+188
+00:14:46,000 --> 00:14:50,000
+ You get something, you get the output. If you would do it again, you get the same thing.
+
+189
+00:14:50,000 --> 00:14:59,000
+ But if you use this make-depends thing where you use make and the compiler outputs the dependencies
+
+190
+00:14:59,000 --> 00:15:05,000
+ in a format that make understands, and then you rebuild a second time, and then you get the same output,
+
+191
+00:15:05,000 --> 00:15:08,000
+ you have two iterations and you have found your fixed point,
+
+192
+00:15:08,000 --> 00:15:13,000
+ and perhaps the most common example that people are familiar with is Lattes.
+
+193
+00:15:13,000 --> 00:15:19,000
+ Like you have these line numbers and references and figure stuff, and you need to compile three times
+
+194
+00:15:19,000 --> 00:15:28,000
+ because the build needs to be iterated until you reach the fixed point where everything points to the correct page.
+
+195
+00:15:28,000 --> 00:15:37,000
+ This is kind of obvious once you see it. You see it everywhere that intuitively you expect the thing to have a fixed point.
+
+196
+00:15:37,000 --> 00:15:39,000
+ If not, you have a halting problem.
+
+197
+00:15:39,000 --> 00:15:44,000
+ But obviously you cannot model the Lattes thing with a directed acyclic graph.
+
+198
+00:15:44,000 --> 00:15:53,000
+ Daniel J. Bernstein, a long time ago, put some notes on the website and never released a tool.
+
+199
+00:15:53,000 --> 00:15:59,000
+ I met him twice and he didn't. How to fix a bunch of stuff.
+
+200
+00:15:59,000 --> 00:16:04,000
+ I read them at some point when I did the podcast thing.
+
+201
+00:16:04,000 --> 00:16:09,000
+ Someone else wrote a thesis on the topic, like how build systems should work.
+
+202
+00:16:09,000 --> 00:16:13,000
+ Several implementations of this idea were created, mostly incomplete.
+
+203
+00:16:13,000 --> 00:16:16,000
+ I also have one, I consider it incomplete.
+
+204
+00:16:16,000 --> 00:16:24,000
+ But the important thing is because Bernstein never released it, I still don't know if he has one,
+
+205
+00:16:24,000 --> 00:16:30,000
+ but he writes make files the way someone would translate them from another tool sometimes,
+
+206
+00:16:30,000 --> 00:16:33,000
+ or maybe he does it in his head.
+
+207
+00:16:33,000 --> 00:16:41,000
+ The same way you can spot the Python code that was written by the C programmer who is barely familiar with Python.
+
+208
+00:16:41,000 --> 00:16:48,000
+ So the essentials is basically the idea allows any language to create some targets.
+
+209
+00:16:48,000 --> 00:16:55,000
+ No special thing like use shell scripts, use Python scripts, use Ruby, whatever, random executables.
+
+210
+00:16:55,000 --> 00:16:58,000
+ But you have to build top down instead of bottom up.
+
+211
+00:16:58,000 --> 00:17:06,000
+ Which means when you start the build, you do not start at the leaf nodes, at the stuff that you need to build higher stuff,
+
+212
+00:17:06,000 --> 00:17:08,000
+ but you start at the end target.
+
+213
+00:17:08,000 --> 00:17:12,000
+ Like I want this binary, what do I need to do to get it?
+
+214
+00:17:12,000 --> 00:17:16,000
+ Then you recurse down to the sub-targets more and more.
+
+215
+00:17:16,000 --> 00:17:20,000
+ This is for some reason people don't like this approach,
+
+216
+00:17:20,000 --> 00:17:24,000
+ but you avoid the topological sorting and a bunch of other issues like that.
+
+217
+00:17:24,000 --> 00:17:29,000
+ And also build rules are files, this will become important later.
+
+218
+00:17:29,000 --> 00:17:37,000
+ Because each build rule is one file, this means you can change the build rules the same way you track change to files.
+
+219
+00:17:37,000 --> 00:17:41,000
+ You do not need a different first class primitive that you can depend on.
+
+220
+00:17:41,000 --> 00:17:44,000
+ And if a build rule changes, all its targets are rebuilt.
+
+221
+00:17:44,000 --> 00:17:48,000
+ And obviously if you have more specific build rules, they will have different file names,
+
+222
+00:17:48,000 --> 00:17:54,000
+ and you can have a non-existence dependency on this not yet existing more specific build rule.
+
+223
+00:17:54,000 --> 00:17:58,000
+ And if that file is ever created and you write a build rule in it, the target will be rebuilt.
+
+224
+00:17:58,000 --> 00:18:03,000
+ Solves a bunch of issues, people hate it because then they suddenly have more files.
+
+225
+00:18:03,000 --> 00:18:07,000
+ There are four commands which make this possible.
+
+226
+00:18:07,000 --> 00:18:12,000
+ I have a separate talk that I can give you, like not here, but that explains how to use them.
+
+227
+00:18:12,000 --> 00:18:14,000
+ But basically these are primitives.
+
+228
+00:18:14,000 --> 00:18:19,000
+ If you implement these four primitives in your top-down recursive build systems,
+
+229
+00:18:19,000 --> 00:18:26,000
+ I think you can avoid most of these problems and have something that is very small in terms of implementation,
+
+230
+00:18:26,000 --> 00:18:31,000
+ very flexible because you can combine them in weird ways, and actually is correct.
+
+231
+00:18:31,000 --> 00:18:37,000
+ And faster than the toposort thing for many common cases.
+
+232
+00:18:37,000 --> 00:18:40,000
+ So the first command is a redo if change.
+
+233
+00:18:40,000 --> 00:18:44,000
+ Basically you have some script that builds something, maybe a shell script or something,
+
+234
+00:18:44,000 --> 00:18:50,000
+ and redo if change is a command that only has a meaning within a build script for a target.
+
+235
+00:18:50,000 --> 00:18:54,000
+ And it means first it checks if the file is out of date.
+
+236
+00:18:54,000 --> 00:18:57,000
+ Like it can be something that you generated or it can be a source file.
+
+237
+00:18:57,000 --> 00:18:59,000
+ Then it rebuilds it if necessary.
+
+238
+00:18:59,000 --> 00:19:02,000
+ Obviously it will only happen for stuff that you generate.
+
+239
+00:19:02,000 --> 00:19:07,000
+ And third, if that thing was out of date at the point where this command was executed,
+
+240
+00:19:07,000 --> 00:19:12,000
+ like the argument to this command, a file name, then the current target is rebuilt.
+
+241
+00:19:12,000 --> 00:19:18,000
+ This is a bit weird, but it's a really powerful primitive that enables you to make a...
+
+242
+00:19:18,000 --> 00:19:21,000
+ Basically this means, oh yeah, this thing is a dependency,
+
+243
+00:19:21,000 --> 00:19:29,000
+ but it enables you to declare this in an imperative way from within a shell script or from within a Python OC program.
+
+244
+00:19:29,000 --> 00:19:31,000
+ As I said, it's a bit weird.
+
+245
+00:19:31,000 --> 00:19:35,000
+ Second, redo if create, basically the same thing for the non-existence dependency.
+
+246
+00:19:35,000 --> 00:19:38,000
+ First, you check that the file argument does not exist.
+
+247
+00:19:38,000 --> 00:19:42,000
+ Second, if that thing exists in the future, the current target will be rebuilt.
+
+248
+00:19:42,000 --> 00:19:45,000
+ Don't think too hard about how this is implemented.
+
+249
+00:19:45,000 --> 00:19:50,000
+ It's a bit brain teaser.
+
+250
+00:19:50,000 --> 00:19:57,000
+ Then people often forgot this, but makers' phony rules and other systems have as well.
+
+251
+00:19:57,000 --> 00:20:01,000
+ There's a command that you need to mark a target as always out of date.
+
+252
+00:20:01,000 --> 00:20:06,000
+ Here you see the directed acyclic graph thing will have a problem with that,
+
+253
+00:20:06,000 --> 00:20:10,000
+ because if you have something that's always out of date and then you do the toposort,
+
+254
+00:20:10,000 --> 00:20:17,000
+ it only appears once in the list, but it may need to appear several times,
+
+255
+00:20:17,000 --> 00:20:20,000
+ because it's always out of date when you want it.
+
+256
+00:20:20,000 --> 00:20:25,000
+ You always need to rebuild it whenever anything depends on it.
+
+257
+00:20:25,000 --> 00:20:30,000
+ You can actually spot build systems that do not handle a case correctly
+
+258
+00:20:30,000 --> 00:20:34,000
+ by figuring out how they make targets always out of date,
+
+259
+00:20:34,000 --> 00:20:38,000
+ and then figuring out if you have several things depending on an always out of date target,
+
+260
+00:20:38,000 --> 00:20:40,000
+ is it built only one time?
+
+261
+00:20:40,000 --> 00:20:48,000
+ If yes, the build system is faulty in a way that makes it way easier to implement parallel builds,
+
+262
+00:20:48,000 --> 00:20:52,000
+ but also makes them incorrect.
+
+263
+00:20:52,000 --> 00:20:56,000
+ There's one fourth thing that you need for some reasons,
+
+264
+00:20:56,000 --> 00:21:01,000
+ because sometimes you might notice during a build that something that you build,
+
+265
+00:21:01,000 --> 00:21:08,000
+ while it was considered out of date, is actually up to date.
+
+266
+00:21:08,000 --> 00:21:12,000
+ For example, if you have a target that depends on something that is always out of date,
+
+267
+00:21:12,000 --> 00:21:16,000
+ you might want that always out of date thing to be regenerated,
+
+268
+00:21:16,000 --> 00:21:23,000
+ but the thing that depends on it by the transitive property would also be always out of date,
+
+269
+00:21:23,000 --> 00:21:27,000
+ and then you would end up rebuilding everything all the time that depends on anything
+
+270
+00:21:27,000 --> 00:21:32,000
+ that at some distant point in the graph is out of date.
+
+271
+00:21:32,000 --> 00:21:38,000
+ Basically, this tool reads the standard input, and in any future build the input is the same,
+
+272
+00:21:38,000 --> 00:21:41,000
+ then the build is only speculatively executed up until this point,
+
+273
+00:21:41,000 --> 00:21:45,000
+ and it says, "Oh no, no, no, the target is up to date. Everything is okay."
+
+274
+00:21:45,000 --> 00:21:51,000
+ This is very rarely needed, but when you need this and your build system cannot provide it,
+
+275
+00:21:51,000 --> 00:21:57,000
+ like actually canceling a scheduled build command during a build to save time,
+
+276
+00:21:57,000 --> 00:22:02,000
+ because it would be useless busy work, you will totally notice it missing.
+
+277
+00:22:02,000 --> 00:22:07,000
+ This is the end of the explanation, and I have a few more slides.
+
+278
+00:22:07,000 --> 00:22:10,000
+ I hope, can I continue?
+
+279
+00:22:10,000 --> 00:22:16,000
+ Then come to me afterwards, and they are very predictable questions, I can answer most of them,
+
+280
+00:22:16,000 --> 00:22:20,000
+ and if you want to fix a build system or whatever, talk to me.
+
+281
+00:22:20,000 --> 00:22:23,000
+ Let's have a great round of applause for Ella.
+
+282
+00:22:23,000 --> 00:22:31,000
+ [Applause]
+
+283
+00:22:32,000 --> 00:22:36,000
+ [Music]
+

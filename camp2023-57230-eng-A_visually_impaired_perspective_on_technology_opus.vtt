@@ -1,0 +1,182 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:36.240
+ Welcome everybody. Life in Toxic Bits of Boimer. We're starting with AJ Hamilton, who is presenting
+
+00:00:36.240 --> 00:00:53.520
+ a visually impaired perspective on technology. Welcome AJ Hamilton.
+
+00:00:53.520 --> 00:00:58.600
+ Hi, really excited to be here. First lightning talk of CCC. My name is AJ, my pronouns are
+
+00:00:58.600 --> 00:01:06.320
+ they them. My email is on the screen, aj@martinh.net. Here's my talk, a visually impaired perspective
+
+00:01:06.320 --> 00:01:13.040
+ on technology. I would like to start by saying I cannot answer any questions about things
+
+00:01:13.040 --> 00:01:19.480
+ like CSS or HTML because I do not have any design experience making accessibility features.
+
+00:01:19.480 --> 00:01:26.700
+ Apologies. But it's the truth. Okay. So, yes, I'm a visually impaired person. My condition
+
+00:01:26.700 --> 00:01:31.840
+ is a rare genetic one that causes my sight to sort of slowly get blurrier throughout
+
+00:01:31.840 --> 00:01:39.040
+ my life. And currently it's at a level where I basically use like zooming and stuff like
+
+00:01:39.040 --> 00:01:45.080
+ that just to do anything with technology. And I don't use screen readers. So you may
+
+00:01:45.080 --> 00:01:50.400
+ be familiar with screen readers. May not be. But basically they read out the screen for
+
+00:01:50.400 --> 00:01:55.960
+ visually impaired people. So here I've got what my vision looks like. This is through
+
+00:01:55.960 --> 00:02:00.640
+ a handy app which I can explain if anyone wants me to. It's got a bit of a complicated
+
+00:02:00.640 --> 00:02:07.560
+ set up but it can simulate different vision levels for a few conditions. So we've got
+
+00:02:07.560 --> 00:02:14.200
+ this here. This is me making this PowerPoint. I don't think you can see that well anyway.
+
+00:02:14.200 --> 00:02:21.000
+ But basically it's not very good. Then you've got here a bit of Terraria. And you can't
+
+00:02:21.000 --> 00:02:26.000
+ really tell what is going on on the screen. You can't see where the inventory is, what's
+
+00:02:26.000 --> 00:02:32.520
+ selected, anything like that. So some specific problems that I've highlighted as sort of
+
+00:02:32.520 --> 00:02:40.560
+ day to day problems that visually impaired technology users have. First one. I meant
+
+00:02:40.560 --> 00:02:48.880
+ to hide that slide. Fixed font sizes. So a lot of apps and some websites but it is mostly
+
+00:02:48.880 --> 00:02:54.280
+ apps for this problem do not have adjustable font sizes. And especially some of them don't
+
+00:02:54.280 --> 00:03:00.240
+ adjust to your system preferences which is quite annoying because, you know, you do all
+
+00:03:00.240 --> 00:03:05.520
+ this work to set up your preferences and then it's just ignored. And even the Apple notes
+
+00:03:05.520 --> 00:03:10.760
+ app which Apple is normally very good but the notes app has no way of changing the font
+
+00:03:10.760 --> 00:03:17.960
+ size. And then even when you do have adjustable font sizes, you can often get it to break
+
+00:03:17.960 --> 00:03:24.480
+ like this. So we have here we have three screen shots, one of Spotify where you've got some
+
+00:03:24.480 --> 00:03:29.760
+ menu items clipping into each other. Song names not being fully shown. You've got a
+
+00:03:29.760 --> 00:03:35.520
+ laundry app in the middle which is almost completely unreadable. And then you've got
+
+00:03:35.520 --> 00:03:41.320
+ a Sane 3's email there on the end which has text just completely squashed into each other.
+
+00:03:41.320 --> 00:03:51.760
+ It is really not very good. Old text. That has come out interestingly. Yeah, so old text,
+
+00:03:51.760 --> 00:03:55.400
+ if there's anyone who doesn't know what old text is, it is an alternative description
+
+00:03:55.400 --> 00:04:04.280
+ of an image for blind visually impaired people. So this was a tweet by Spencer Kelly, a tech
+
+00:04:04.280 --> 00:04:10.360
+ journalist with the BBC. Now the tweet says my dear friends came to visit today and they're
+
+00:04:10.360 --> 00:04:14.720
+ extremely gifted son provided this service free of charge. And it took him less than
+
+00:04:14.720 --> 00:04:19.320
+ a minute. Now this image did not come there was an image that came with this and it did
+
+00:04:19.320 --> 00:04:26.680
+ not come with any old text. So my granddad who sent this to me, he really he did not
+
+00:04:26.680 --> 00:04:33.840
+ know what was going on. Now eventually he managed to figure it out. It was this. A Rubik's
+
+00:04:33.840 --> 00:04:41.120
+ Cube. Now, yes, it is very important to have old text and especially old text generated
+
+00:04:41.120 --> 00:04:48.480
+ by humans because when an AI was used to attempt to generate old text for this image, it generated
+
+00:04:48.480 --> 00:04:54.780
+ a person wearing a red shirt and standing in front of a blue background. AI is not good
+
+00:04:54.780 --> 00:05:03.240
+ enough for this. You need humans. And okay, as a summary, I've put together four points
+
+00:05:03.240 --> 00:05:08.200
+ of general really basic things that can just make our lives a lot easier as visually impaired
+
+00:05:08.200 --> 00:05:13.320
+ technology users. We've got number one, make your font sizes adjustable and test them to
+
+00:05:13.320 --> 00:05:20.440
+ make sure that they work at all levels. Number two, always add old text, please, please, please.
+
+00:05:20.440 --> 00:05:25.520
+ It helps so many people and it saves a lot of time. Number three, test all of your accessibility
+
+00:05:25.520 --> 00:05:29.840
+ features and combine them. So for example, if you've got a colorblind mode and a dark
+
+00:05:29.840 --> 00:05:35.920
+ mode, put them together and see if you get a disco. And final one, number four, keep
+
+00:05:35.920 --> 00:05:42.480
+ your design simple and consistent. A simple design can be amazing because you don't have
+
+00:05:42.480 --> 00:05:47.140
+ to go around looking at 20 different buttons, trying to figure out what all of them do.
+
+00:05:47.140 --> 00:05:53.320
+ And consistency means that we can actually work by memorizing what the buttons do because
+
+00:05:53.320 --> 00:05:59.000
+ a lot of the time we can't actually see what we're clicking on. We're just memorizing positions.
+
+00:05:59.000 --> 00:06:05.440
+ So when your UI changes, it is a massive problem. Yeah. So try and keep UI changes to a minimal
+
+00:06:05.440 --> 00:06:11.240
+ or just better make it accessible in the first place. All right. And thank you for coming.
+
+00:06:11.240 --> 00:06:17.040
+ Yeah. My name is AJ, pronounce they/them, email on the board, and I will be around to answer
+
+00:06:17.040 --> 00:06:21.240
+ any questions, talk about accessibility, if you have any software you want me to look
+
+00:06:21.240 --> 00:06:23.920
+ at, anything like that. Thank you for listening.
+
+00:06:23.920 --> 00:06:27.160
+ [APPLAUSE]
+
+00:06:27.840 --> 00:06:31.200
+ [MUSIC PLAYING]
+
+00:06:31.200 --> 00:06:33.260
+ you
+

@@ -1,0 +1,379 @@
+ Herzlich willkommen zu einer neuen Folge Chaos Family. Ich bin Khaleesi und ich sitze heute
+ hier wieder mit sehr vielen Gästen auf unserer Couch. Bei Chaos Family stellen wir euch immer
+ Projekte, Villages, Assemblies, naja was auch immer die Veranstaltung gerade sagt,
+ über die Gruppierung vor und heute haben wir alles hier. Kein Witz, das hat in der Regie auch schon
+ für sehr viel Firmung gesorgt. Ich habe hier die K. Tim und Thomas und die drei sind alles,
+ aber ich glaube, da gehören noch ein paar mehr Leute dazu. Schön, dass ihr heute da seid.
+ Danke schön. Und ja, was ist eigentlich alles? Ja, wir sind ein CTF Team. CTF sollten vielleicht
+ erst mal erklären. Das sind Wettbewerbe im Bereich von der IT-Security. Da hat man dann
+ verschiedene Challenges. Bei diesen Challenges geht es dann darum, eine Webseite zu hacken oder
+ ein Programm zu hacken oder einen Server. Okay, also ihr seid ein CTF Team, das heißt ihr spielt
+ CTFs. Vielleicht nochmal für alle. CTF steht eigentlich für Capture the Flag. Ihr spielt CTF,
+ aber ihr macht auch CTFs. Habe ich das richtig in Erinnerung? Genau, also ab und zu organisieren wir
+ dann auch CTFs. Wie zum Beispiel dieses Jahr haben wir das Camp CTF organisiert, so wie wir das auch
+ die vor vier Jahren gemacht haben. Okay, und wie kann man sich das vorstellen, so ein CTF? Also ist
+ es dann so, muss ich mich da irgendwo anmelden, macht man das im Team, macht man das allein? Gibt es da
+ unterschiedliche Arten von CTFs? Meistens spielt man im Team. Es gibt auch CTFs, den wir organisieren,
+ ganz große. Da kann man auch alleine spielen, aber typischerweise spielt man im Team und der Spielmodus,
+ den man typischerweise spielt, der nennt sich "Jurperdin". Da werden online auf der CTF-Plattform
+ ganz viele Aufgaben veröffentlicht und die kann man dann unabhängig voneinander lösen. Das heißt,
+ man macht so eine Aufgabe, da kann es drin sein, so hier hast du eine Webseite, lese mal die Datenbank
+ aus, da ist die sogenannte Flag drin und die Flag ist dann meistens ein Zeichensatz, den klaut man
+ sich, gibt ihn ab und dann kriegt man Punkte dafür. Und das Team mit den meisten Punkten ist dann am
+ End oben. Ok, relativ simpel so von den Spielregeln. Jetzt stellen wir natürlich die Frage, wie ist es
+ eigentlich so am CTF sich auszudenken? Wie macht ihr das? Wie geht ihr da dran? CTF besteht ja größtenteils
+ aus den Aufgaben, die man stellt und typischerweise findet man im Laufe seiner Arbeit oder
+ seiner Studiumswahl, was auch immer man sich beschäftigt, immer wieder so coole Aufhänge, wo man sich denkt,
+ das ist doch unerwartet und schon irgendwie interessant, wie ein bestimmtes Programm funktioniert oder
+ bestimmte Hardware sich unter bestimmten Voraussetzungen verhält und dann versucht man das im Rahmen von
+ seiner Aufgabe nachzubauen. Das heißt, man baut eine Aufgabe, wo man genau das, was man gerade
+ herausgefunden hat, was interessant ist, herausfinden soll, also die Teilnehmer, was rausfinden soll, man baut
+ den Rahmen der Aufgabe so, dass die Teilnehmer da einigermaßen draufkommen. Also sei es jetzt
+ vielleicht eine Schwachstelle, die man gefunden und gemeldet hat und die inzwischen behoben ist oder
+ irgendein lustiges Verhalten bei irgendeiner bestimmten Option, die man setzen kann, schreibt man eine
+ Aufgabe, die dann so konzipiert ist, dass die Teilnehmer da nach einer Zeit und nach ein bisschen
+ eigener Forschung an der Aufgabe draufkommen und sich dann ausdenken, wie man diese Schwachstelle oder
+ dieses seltsame Verhalten irgendwie ausnutzen kann, um an Daten zu kommen, die man nicht kommen sollte.
+ Also vielleicht kann man das ja mal irgendwie so ganz konkret machen, wenn wir irgendwie einen CTF haben,
+ was irgendeine Website ist, dann wäre wahrscheinlich so SQL-Injection so eins von den Low Hanging Fruits.
+ Genau.
+ Vielleicht kannst du ja mal erklären, was eine SQL-Injection ist oder einer von euch drei,
+ wer auch mal möchte, du hast so viel Redeanteil gehabt. Also ich melde mich zum Alles-CTF an und dann
+ gehe ich auf den Alles-Shop und suche eine Flagge und was würde man dann so machen?
+ Also typischerweise, wenn man jetzt eine Aufgabe konzentrieren würde, hätte man wahrscheinlich so einen Shop,
+ wo man eine Flagge kaufen kann, die kostet irgendwie 1000 Tokens, man hat immer nur 100, das heißt,
+ man kann sich die halt gar nicht kaufen, so im kompletten Spiel eigentlich überhaupt nicht.
+ Und dann muss man erstmal ein bisschen, man schaut sich halt erstmal an, okay, was macht denn diese Website überhaupt?
+ Und dann geht man weiter und sieht, okay, ich habe hier irgendwie Eingabefelder, mit denen ich irgendwie interagieren kann.
+ Und SQL-Injection ist jetzt eine sehr bekannte Vulnerability, das heißt, man testet jetzt einfach mal dafür
+ und gibt man diese Eingabefelder einfach mal irgendeinen Quatsch ein.
+ Und da kommen wir vielleicht mal einen Fehler zurück, der irgendwie unerwartet ist, wo dann irgendwie so eine ganz normale Fehlermeldung,
+ die aber schon ein bisschen verrät, wie diese Website im Hintergrund funktioniert.
+ Und das SQL-Injection-spezifisch wäre etwas, es gibt halt dieses SQL, damit frage ich Datenbanken an, was da drin steht.
+ Da würde ich dann sagen, select product from product table oder sowas und dann würde ich quasi alle Produkte aus der Produktdatenbank zurückbekommen.
+ Und häufig gibt es da so Filter, wo man dann sagen kann, zeig mir nur alle Produkte an, die Flagge im Namen haben oder sowas.
+ Und wenn ich dann genügend Kontrolle über diesen Parameter habe, kann ich da andere Sachen reinschreiben.
+ Dann kann ich einfach sagen, diese erste SQL-Anfrage ist quasi vorbei, ich mache noch eine zweite.
+ Und in der zweite kann ich reinschreiben, was ich will. Das ist vielleicht etwas, was der Entwickler gar nicht so berücksichtigt hat,
+ dass ich hier irgendwie zwei Anfragen auf einmal senden kann oder die verbinden kann oder sowas.
+ Und dann kann ich mir vielleicht auch Produktdetails anzeigen von Produkten, die ich noch gar nicht gekauft habe.
+ Genau, und dann würde ich so an die Flagge rankommen.
+ Ja, wir prüfen das im Frontend, das ist immer eine gute Idee.
+ Also, SQL-Anzeigen sind typisch auch Prüfungen im Backend, die halt fehlerhaft sind.
+ Aber genau, Frontend-Checks, klassischer Fehler.
+ Ja, okay, also so kann man sich das ungefähr vorstellen.
+ Das ist in so einem Hacker-Jepardee, vielleicht, oder in einem Jeopardy, das haben wir nicht gesagt.
+ Da gibt es auch einfach unterschiedlich viele Punkte für unterschiedliche Aufgaben.
+ Da kann man sich das dann auch raussuchen. Das ist immer ganz gut für Teams.
+ Gerade wenn die Erfahrungen unterschiedlich sind in Teams, dann können die neueren Leute sich die einfacheren Tickets sozusagen rausziehen
+ und die alten Hasen machen dann irgendwelche crazy reverse Sachen und hauen sich irgendwie whatever,
+ welche Programmiersprache gerade in ist, um die Ohren.
+ Wie seid ihr denn dazu gekommen, CTF zu spielen und jetzt auch selber CTF zu machen?
+ Alle auf die gleiche Art und Weise, glaube ich.
+ Ja, über einen der Wettbewerbe, den wir inzwischen mitorganisieren.
+ Okay.
+ Vor dem wir die Orga mehr oder weniger adoptiert haben.
+ Okay, anders gefragt, wie lange macht ihr schon CTF?
+ Ich habe das erste Mal 2016 gespielt, glaube ich.
+ Ich habe 2017 angefangen und bin dann quasi 2018 durch diesen Wettbewerb mit in alles reingekommen.
+ Und vorher habe ich es so ein bisschen alleine gemacht.
+ Also mit in alles wieder in Anführungsstrichen gesetzt.
+ Alles meint das Team.
+ Alles meint unser CTF Team.
+ Ich selber bin erst relativ neu, im Gegensatz zu den anderen dabei, ich bin erst seit 2020 dabei.
+ Generell in der CTF Szene.
+ Okay, und dann habt ihr sozusagen alle zusammen irgendwie an diesem Wettbewerb teilgenommen
+ und seid da steckengeblieben.
+ Genau, also dieser Wettbewerb speziell, da spielt jeder alleine für sich.
+ Und dort haben wir uns dann qualifiziert fürs Finale und sind dann darüber in das Team alles gekommen.
+ Okay, und trefft ihr euch auch regelmäßig?
+ Wie kann man sich das vorstellen?
+ Muss man dafür trainieren?
+ Ist das so ein bisschen wie E-Sports?
+ Oder wie stellt man sich so ein CTF Training Team Treffen vor?
+ Also ich weiß, dass mein CTF Team meistens eher so am Socializing hängen bleibt und nicht so richtig viel CTF.
+ Aber das liegt auch an dem Flauschigkeitsgrad.
+ Wie ist das bei euch?
+ Treffen ist bei uns meistens eher schwieriger, weil wir ein Team sind, welches in ganz Deutschland verteilt ist.
+ Aber wir versuchen uns einmal im Jahr, was in Corona etwas schwieriger war, oder auch öfter, zu treffen.
+ Und vor allem gibt es dann auch häufiger mal Finale von CTFs, wo man erstmal eine Qualifikation hat.
+ Wo man sich danach für ein Finale qualifiziert hat, welches dann auch oft vor Ort irgendwo stattfindet, im Ausland oder auch in Deutschland.
+ Okay, und um jetzt nochmal darauf zurückzukommen, ihr macht ja auch sozusagen selber CTFs.
+ Jetzt haben wir irgendwie darüber gesprochen, wie ihr euch die Aufgaben ausdenkt.
+ Das sind häufig irgendwelche Challenges, die man vielleicht selber schon gelöst hat oder wenn man Sicherheitsforscherin ist, bei anderen Firmen mal gefunden hat.
+ Aber wie kann man sich das denn mit der Infrastruktur vorstellen?
+ Also ich meine, ihr stellt da ja sozusagen Infrastruktur zum Hacken hin.
+ Sie brennt, das ist die Frage.
+ Genau, sie brennt immer.
+ Infrastruktur CTF ist inzwischen bei uns relativ stabil, weil wir diese Plattform, die wir haben, einfach schon zum zehnten Mal hintereinander verwenden.
+ Also niemand hatte Probleme bei diesen CTF gestern.
+ Aber vielleicht nochmal von Anfang an.
+ Also ihr denkt euch jetzt die Aufgaben aus.
+ Keine Ahnung, Hacker, Jeopardy, wir haben unterschiedliche Schwierigkeitsgrade.
+ Und irgendwie sind dann natürlich auch Maschinen, auf die man sich verbinden kann.
+ Und dann kann man sich da irgendwie drin bewegen und irgendwie versucht man da ja was kaputt zu machen, damit man die Flagge bekommt.
+ So und ihr betreibt diese Infrastruktur wahrscheinlich auch selber.
+ Ja, exakt.
+ Okay, und wie kann man sich das vorstellen?
+ Also wie stellt man Infrastruktur hin, die dafür intended ist, kaputt gemacht zu werden, wo man aber auch irgendwie ja doch wahrscheinlich ein bisschen Kontrolle haben will, aber irgendwie auch nicht?
+ Da gibt es jetzt quasi verschiedenste Möglichkeiten.
+ Viele CTF Teams, wir auch, denken sich halt, okay, wir sind Hacker, wir basteln jetzt unser eigenes, weil wir können das besser als alle anderen.
+ Kann natürlich keiner, deswegen brennt alles.
+ Aber was wir jetzt ganz konkret machen, ist wir spawnen für jedes Team jede Aufgabe einzeln in einen Container.
+ Okay. Also Container ist diese Virtualisierungstechnologie, wo man relativ viel Sandboxing hat.
+ Vielleicht nochmal sagen, was Sandboxing ist für die höhere, höhere, höhere Person.
+ Genau, wo man einfach so einen Sicherheitskontext aufbaut, auf den man nicht so einfach raus kann.
+ Also man hat sein eigenes Dateisystem, man hat seine eigenen CPU-Resourcen, man hat sein eigenes Memory-Limit.
+ Und trotzdem ist man halt quasi auf einem, viele verschiedene Container auf einem PC, aber alle sind unabhängig voneinander und können eigentlich erstmal nicht miteinander interagieren.
+ Zumindest, wenn die Sandbox sicher ist, aber davon gehen wir meistens unseren CTFs dann aus, wenn wir da die neuesten Versionen verwenden.
+ Die gehen auch nie kaputt.
+ Die gehen auch nie kaputt, genau.
+ Sonst hat man halt die Bonusflagge gewonnen.
+ Oder mehr.
+ Und da gibt es dann quasi für jedes Team, für die Aufgabe, kann das Team quasi sagen, ich will jetzt diese Aufgabe bearbeiten.
+ Und dann spawnen wir wirklich für dieses Team extra diese Aufgabe in einem eigenen Container.
+ Und die sind dann wirklich nur für sich da drin und können das Ding komplett kaputt machen, machen damit was sie wollen.
+ Wenn es zu kaputt ist, löschen die das Ding wieder, setzen es neu auf und dann ist es wieder neu da.
+ Das ist sehr angenehm fürs Bauen der Aufgaben, weil man sich nicht so Gedanken machen muss, dass irgendwie viele Teams auf eine Aufgabe zugreifen und dann ein Team, das für ein anderes Team kaputt machen kann oder so.
+ Okay, aber ihr betreibt das alles irgendwie selber.
+ Habt ihr da, habt ihr eigene Server irgendwo stehen oder wie macht ihr das? Mietet euch da was oder?
+ Server kriegen wir meistens alle gesponsert von Firmen, die auch CTFs cool finden.
+ Genau.
+ Und wie kommt das dann zustande?
+ Ihr habt ja jetzt gesagt, jetzt habt ihr gerade das Camp CTF organisiert.
+ Macht ihr auch für den Kongress das CTF oder macht das dann andere?
+ Kommt ihr dazu CTFs zu organisieren?
+ Kommen da Leute auf euch zu oder sagt ihr so, ja, es ist jetzt gerade wieder so langweilig in der Uni, Bachelorarbeit, Progressionieren läuft.
+ Und jetzt setzen wir ein neues CTF auf?
+ Genau, also da gibt es eine Webseite, CTF Time ist das.
+ Da kann jeder seinen Wettbewerb quasi anmelden und irgendwann haben wir uns einfach gedacht, wir spielen häufiger bei diesen CTFs mit.
+ Und eigentlich wäre es ja auch ganz lustig, mal die andere Seite zu sehen und zu sehen, wie es von der Orga Seite ist.
+ Und man hat ja auch immer tolle Ideen für Challenges und möchte auch mal Leute leiden lassen.
+ Genau und so kommt man halt irgendwie dazu.
+ Okay und wie stelle ich mir das vor, wenn ihr jetzt so ein CTF organisiert, was macht ihr dann?
+ Also ihr stellt dann das da alles hin, aber wie ist dann so der Aufwand hinter den Kulissen, so ein CTF zu organisieren und zu betreuen?
+ Groß.
+ Also die Meisterarbeit geht eigentlich darin, ganz viele Challenges zu bauen.
+ Also in jeder Challenge sitzt man halt dann, je nachdem wie komplex man sie macht, eine Stunde bis ein paar Wochen.
+ Also wenn man ein ganzes Videospiel drumherum schreibt, dann dauert das eine ganze Weile länger.
+ Die Meisteraufgaben gehen die Meisterzeit gewillig darin, Aufgaben zu bauen und die Plattform, die dahinter, die das Ganze orchestriert, die baut man dann einmal und dann tut sie.
+ Theoretisch.
+ Bis sie jedes Mal wieder abfackelt, weil man irgendwas vergessen hat.
+ Aktuell sind sie zwischen dem Tim ziemlich stabil, diesmal haben wir Probleme mit...
+ Außer X anad.
+ Ja.
+ Ihr müsst alles erklären, worüber ihr lacht. Das ist euch hoffentlich klar, oder?
+ Ja, also wir hatten ein Problem dieses Jahr mit einer Challenge, die hat X anad, das ist eine Software, ich weiß gar nicht genau, was die tut, Thomas.
+ Die stellt so ein Programm zu, okay wenn ich ein Programm lokal bei mir laufen lasse, habe ich vielleicht so ein schwarzes Feld, wo ein bisschen Text drin steht, ich kann Text reintippen, Text kommt zurück.
+ Wenn ich das übers Internet machen will, brauche ich irgendwas, was dieses Programm, dieses Textinterface ins Internet freigibt.
+ Und weil das Programm normalerweise das halt nicht kann.
+ Dann gibt es Software, die ich davor tun kann, zum Beispiel X anad, das würde das dann machen, dann würde ich diese Software mit X anad starten, so davor.
+ Dann kann ich mich von außen hin connecten und dann eigentlich mit dieser Software reden, die dahinter läuft.
+ Das ist ja typisch bei so CTF Aufgaben, wenn ich irgendwie lokal mit einem Service interagieren will, aber eigentlich bin ich gar nicht auf dem Server, sondern ich bin zu Hause bei mir.
+ Und ja, wir haben immer X anad verwendet, die Software, die kann das so, wir hatten jetzt andere Ressourcenlimits auf unseren Servern konfiguriert, die haben X anad sehr verwirrt und uns auch.
+ Und deswegen haben unsere Challenges alle 10 Minuten gebraucht.
+ Man hat gesagt, ich will die Challenge haben, musste 10 Minuten warten bis sie zur Verfügung stand.
+ War ein bisschen schade, das haben wir auch erst beim Live gehen des CTFs bemerkt, dass das ein Problem ist.
+ Und unsere Spieler waren halt so, ich kann nicht auf diese Aufgabe zugreifen und wir so, hä, das muss funktionieren, das hat schon immer funktioniert.
+ Im Endeffekt hat NXD in einer Endlosschleife alle Dateien, die existieren können, geschlossen.
+ Das macht überhaupt keinen Sinn, weil es war überhaupt null Dateien offen und das weiß es auch.
+ Und wenn eine Datei offen gewesen wäre, wäre es abgestürzt.
+ Aber es hat es getan und auf unserem Server kannst du sehr viele Millionen Dateien offen haben, weil du bist ein großer Server und deswegen war es sehr langsam.
+ Okay, also jede Menge Stress, alles brennt, ja deswegen das T-Shirt.
+ Aber sitzt ihr dann irgendwie alle zusammen, wenn ihr so ein CTF organisiert habt oder macht ihr das dann dezentral oder wie ist das dann?
+ Meistens laufen die auch manchmal über mehrere Wochen oder Monate, ne?
+ Also je nachdem, wenn es so ein Qualifier ist, dann läuft das ja schon eine ganz schön lange Weile.
+ Wie macht ihr das, wie managt ihr das?
+ Meistens, wenn wir nicht gerade vor Ort zusammensitzen in unserem Zelt, dann läuft das natürlich alles dezentral und man arbeitet auch asynchron.
+ In dem Moment, wo der Webwerb live geht und man startet, sind meistens ein paar Leute da, weil das meistens der Punkt ist, an dem es entweder gut läuft oder alles anfängt zu brennen.
+ Es gibt nichts dazwischen anscheinend?
+ Nein.
+ Okay.
+ Es gibt auch das Gutlaufen eigentlich nicht.
+ Ja, das ist die Definitiv-Besetzung als Zustand.
+ Man weiß dann nur nicht, wo es brennt.
+ Ja, genau.
+ Oder dass es schon brennt.
+ Oder dass es schon brennt.
+ Genau.
+ Aber meistens sitzt man dezentral dran und auch asynchron.
+ Wir sind über ganz Deutschland verteilt, das heißt, es ist eh schwer vor Ort zusammen zu sitzen.
+ Wenn, dann sitzen wir halt in einem Discord-Channel zusammen.
+ Und wenn z.B. die CSCG, das ist eine Webwerb, bei der wir mit organisieren, läuft über zwei Monate, dann sitzen wir auch nicht zwei Monate lang in einem Discord-Channel.
+ Und auch nicht im Zelt?
+ Auch nicht im Zelt.
+ Da kommt man dann immer mal wieder online, wenn was brennt.
+ Genau.
+ Okay, das ist ganz schön viel Technik. Wenn ich jetzt sage, okay, eigentlich habe ich gar nicht so viel Ahnung vom Computer.
+ Und ich sage mal so, wir reden über erstes Semester Informatik, aber irgendwie finde ich CTF klingt ziemlich cool.
+ Und was würdet ihr so sagen, wie steigt man am besten ein in so diese CTF-Szene?
+ Also es sind ja nicht alle so crazy wie er und spielen dann CSCG durch.
+ Der T-Stick ist Spielen.
+ Die CSCG hat tatsächlich ziemlich viele Einsteiger-Aufgaben, die auch von Null auf erklären, wie man an diese Aufgaben rangehen soll.
+ Dann gibt es aber auch andere Wettbewerbe, die genau dasselbe auch tun.
+ Da gibt es zum Beispiel Pico-CTF, das ist ein anderes CTF, die machen auch relativ einfache Aufgaben für Einsteiger gedacht.
+ Okay, das heißt einfach anfangen zu spielen ist so euer Tipp?
+ Genau, vielleicht like-minded people suchen, die auch Lust haben, mal da reinzusteigen.
+ An vielen Universitäten gibt es CTF-Teams, die in einem Team spielen und schon Leute haben mit Erfahrungen, mit denen die einem auch was erklären können.
+ Okay, und was muss ich so mitbringen, wenn ich so anfangen will mit CTF?
+ Also ich meine, es gibt natürlich immer wieder diese Situation, man kommt in den Hacker-Space und dann sitzt da so ein Althacker und dann sagt jetzt, wenn du kein Vim benutzt, dann kannst du hier nicht mitmachen.
+ Das ist ja irgendwie so der Klassiker, aber ich glaube, das ist irgendwie so ein bisschen Quatsch.
+ Was muss ich mitbringen und wovon sollte ich mich auch einfach... Vim ist total gut, ich benutze auch Vim.
+ I use Arch, by the way, aber das ist ein ganz anderes Thema.
+ Ich habe aber diese Situation auch erlebt in einem Hacker-Space und ich glaube, man darf sich nicht davon dem Mutigen lassen, dass da irgendein grummelliger Typ sitzt, der meint, Vim ist das beste seit geschnitten Brot.
+ Aber was sollte man denn machen?
+ Was sollte man machen?
+ Das Wichtigste ist, was ich...
+ Motivation mitbringen.
+ Ja, Motivation. Also du musst halt wirklich... Ich glaube, wir alle hatten Null Ahnung von Computer Security, als wir angefangen haben.
+ Ich habe immer noch in großen Bereichen Null Ahnung, in einigen Bereichen habe ich jetzt aber inzwischen Ahnung.
+ Aber ihr habt Ahnung von Computern.
+ Hatte ich aber vorher auch nicht so. Du hast halt PC-Schwiele gespielt, hast halt immer schön Game, immer schön zocken, immer ein paar Dateien und vielleicht hast du mal ein Spiel irgendwo gecrackt.
+ Aber dann hat man so, wie funktioniert das überhaupt? Was ist denn hier überhaupt so ein Kopierschutz?
+ Und auch so, wie funktioniert so ein Computer?
+ Also einfach quasi für mich persönlich war es sehr viel einfach neugier, wie funktioniert das alles überhaupt, wo zumindest für mich Schule halt absolut nutzlos war.
+ So, weil das ist ja auch... Ist klar, das ist ein sehr, sehr spezifisches Nischenthema.
+ Das ist nicht breite Bevölkerungsfähig.
+ Und so CTFs ist halt einfach eine Möglichkeit, wo man die Möglichkeit hat, so eine Aufgabe zu haben, wo man einfach komplett bei Scheitert.
+ Aber am Ende guckt man sich an, was andere Leute gemacht haben und lernt super, super viel dabei.
+ Weil man hat sich selber schon einen Tag, zwei Tage mit dieser Aufgabe auseinandergesetzt, hat sich selber super viele Gedanken gemacht, hat Dokumentationen gelesen, hat ganz viel Zeug verstanden,
+ aber hat es irgendwie trotzdem nicht geschafft.
+ Und am Ende sieht man dann trotzdem so, was man hätte noch tun müssen, um es halt doch zu schaffen.
+ Und dann weißt du jetzt, was du, wenn du das nächste Mal wieder ein ähnliches Problem hast, erinnerst du dich dann zurück, okay damals gab es irgendwie dieses Tool noch, das kannte ich noch gar nicht.
+ Oder genau, also einfach so diese Lösungswege.
+ Und das finde ich, was bei CTFs für mich persönlich so super motivierend ist, dass man einfach so eine Aufgabe hat, wo man sich die Zähne dran ausbeißen kann.
+ Und selbst wenn man sie nicht schafft, hinterher weißt du, so hätte ich es machen können und nächstes Mal schaffst du es dann.
+ Und selbst wenn man, also ich würde auch sagen, es ist eigentlich der Default, dass man an eine Aufgabe rangeht und erstmal keine Ahnung, was man tun soll.
+ Wenn man viel CTF gespielt hat, dann findet man hin und wieder so Schema-F-Aufgaben, wo man sagt so, okay, ja, habe ich schon in abgehörender Form mal gemacht, schmeiße ich das drauf, fertig ist, fünf Minuten ist die Aufgabe offen.
+ Aber eigentlich ist auch, ob man jetzt das erste Mal CTF spielt oder halt das seit Jahren macht und da kommt eine neue Aufgabe in die Ecke, fängt man meistens erstmal an mit so, bäh.
+ Und dann geht es halt darum, dass man sich halt auch über Stunden oder wenn man halt so ein Qualifier mitspielt, über ein paar Monate geht, auch gerne mal ein paar Tage, sich einfach einliest ins Zeug.
+ Dass man geht von, ich habe diese Programmierungssprache, was ist das überhaupt für eine Architektur, keine Ahnung.
+ Hingeht zu, okay, wie gehe ich überhaupt dran, was finde ich so an Dokumentation, da steht irgendwie ein Online-Guide, da ist irgendwie ein YouTube-Tutorial, da ist irgendwie ein Software-Projekt mit ein paar Exampl-Files.
+ Dass man sich einfach einliest, wie das Zeug funktioniert und dann nach und nach an diese Lösung ran arbeitet.
+ Also, dass man nicht weiß, was man tun soll, ist eigentlich der Standard.
+ Da muss man aufhören, dass einen das am Anfang nicht abschrägt, weil das bleibt auch so.
+ Also vielleicht ist der Take-Away so, wir haben eigentlich alle keine Ahnung von dem, was wir da tun, wir werden nur besser darin Lösungen zu entwickeln.
+ Und Python-Scripte helfen sehr viel manchmal.
+ Ich glaube, das sind wahrscheinlich alle einig, wenn man mal eben schnell irgendwas zusammen hacken muss.
+ Man lernt es aber auch schnell zusammen zu hacken.
+ Man lernt es auch schnell zusammen zu hacken, aber Python ist euer Freund.
+ Auf jeden Fall kann ich aus eigener Erfahrung sagen.
+ Was ist denn so eure coolste CTF-Challenge gewesen?
+ Von uns organisiert?
+ Nee, die ihr auch selber vielleicht gelöst habt, wo ihr gedacht habt, boah krass, ich hab hier so...
+ Also man lernt natürlich immer sehr viele neue Sachen, aber wo ihr so völlig so mindblown wart.
+ Vielleicht ist es nicht mindblown, aber das ist eine Sache, die bei mir sehr hängen geblieben ist, war eine Gamehacking-Aufgabe bei dem CSCG-Wettbewerb,
+ die von Life Overflow auch mitentwickelt wurde.
+ Vielleicht müssen wir einmal noch kurz genauer erklären, was CSCG ist.
+ Okay, sorry. CSCG ist dieser Wettbewerb Cyber Security Challenge Germany.
+ Das ist der, wo wir drei alle mitgespielt haben, woraus jetzt quasi auch alles dann irgendwann mal entstanden ist.
+ Das ist so eine deutschlandweite Qualifikation, wo dann am Ende auch Leute ausgewählt werden für ein deutsches Team,
+ was dann bei einer europäischen Meisterschaft mitspielt.
+ Das existiert jedes Jahr, die Qualifiers sind immer im Februar oder März.
+ Im März beginnen die.
+ Genau, gehen dann halt immer zwei, drei Monate, je nachdem, wie viele Aufgaben wir gerade fertig haben.
+ Kommen dann auch manchmal welche dazu?
+ Nee, also wir sagen schon am Anfang fest, welcher Zeitrahmen das ist, und jeden Monat gibt es dann quasi eine neuen Staffel Aufgaben dazu.
+ Okay.
+ Genau, das ist CSCG.
+ Und da gab es vor ein paar Jahren mal eine Gamehacking-Aufgabe.
+ Und ich selber hatte vorher noch nie Gamehacking selber betrieben.
+ War halt aber immer schon interessiert, weil wenn du irgendwie Counter-Strike spielst,
+ und dann ist da der Gegner und der hackt irgendwie und dann macht er deine Aimboard und keine Ahnung, das ist ja scheiße für dich.
+ Aber es ist halt trotzdem technisch interessant, wie funktioniert denn das überhaupt?
+ Wie würde ich jetzt hingehen und so ein Spiel mal irgendwie untersuchen?
+ Aber das ist ja auch interessant, weil ich habe immer das Gefühl, viele Leute kommen über Gamehacking zu CTF und in Hacking.
+ Jetzt mal mit jemandem zu sprechen, der auf der anderen Seite war und schon vorher CTF gemacht hat und irgendwie so ein bisschen rumgehackt hat und jetzt erst sozusagen darüber kommt.
+ Spannend. Okay, erzähl weiter.
+ Genau, aber das waren halt einfach zehn Aufgaben oder so was halt im Rahmen von so einem Spiel,
+ wo man irgendwie dann, man musste mal durch eine Wand durchglitschen oder man musste mal irgendwie ganz schnell irgendwo hin rennen.
+ Man musste irgendwie, ach was war denn das alles, man musste fliegen, man musste unverwundbar werden.
+ Also so die ganzen typischen Sachen, die man vielleicht in so Spielen irgendwie so machen kann, mal irgendwie alle so interessant irgendwie dargestellt.
+ Das fand ich einfach super, super beeindruckend, hat mir Spaß gemacht und genau.
+ Okay. Habt ihr auch noch Lieblingschallenges?
+ Das war es mir, das ist relativ noch gar nicht so weit weg.
+ Das war letztes Jahr, da gab es Hackeset.
+ Es war so ein Wettbewerb, da geht es darum, Satelliten zu hacken.
+ Also die Idee war, dass Satelliten ein ziemlich wenig erforschtes Gebiet in Richtung Security ist
+ und dass man ja mehr Security-Leute in die Satellitentechnik bringen sollte.
+ Und da haben sich dann Leute überlegt, wir könnten ja mal ein Wettbewerb draus machen
+ und haben dann in einer simulierten Umgebung uns quasi virtuelle Satelliten zur Fügung gestellt.
+ Und dann hatten wir uns dafür das Finale qualifiziert und ich erinnere mich gut wie wir letztes Jahr
+ haben wir dann auf ein Bildschirm gestartet und gewartet, bis unser Satellit endlich in Reichweite unserer Base Station auf dem Boden war,
+ damit wir endlich unsere Exploits testen können und dagegen werfen können.
+ Ich fand das einfach ziemlich cool, dass man dann da warten musste und das hat sich ziemlich real angefühlt, obwohl es simuliert war alles.
+ Das ist sehr cool, da habe ich auch noch nie drüber nachgedacht, dass man natürlich auch in Reichweite sein muss.
+ Genau.
+ Ja, klar, macht doch total viel Sinn.
+ Okay, hast du auch noch was?
+ Ich muss gerade drüber nachdenken.
+ Wenn ich eine wählen würde, würde ich sie nicht wegen der Challenge, sondern wegen der Erfahrung drum herum.
+ Beim letzten Congress, als HXP das CTF gemacht hat, hatten wir eine Challenge, in der saß ich glaube ich 24 Stunden.
+ Bestimmt, also die hat mich alles gekostet diese Challenge.
+ Aber die war extrem geil, weil sie aus vielen kleinen Schichten hintereinander bestand.
+ Und wir da mit vielen verschiedenen Leuten gearbeitet haben.
+ Es sind immer wieder Leute dazugekommen, es sind immer wieder Leute weg.
+ Wir hatten da zeitweise saßen ich glaube ich mit sechs, sieben Leuten vor einem Bildschirm und haben irgendwas gemacht.
+ Und von hinten rief einer, der mit dem Laptop so so "da, guck mal da" und dann haben wir noch so einen Puzzleteil dazugekriegt.
+ Und es sind über 24 Stunden immer wieder Leute gegangen und gekommen.
+ Auf dem Congress hat man natürlich auch noch anderes zu tun.
+ Und dann nach 24 Stunden ist dann mal die Flagge poppen.
+ Das war ziemlich geil, das war eine ziemlich geiles Glückserlese.
+ Nicht weil die Challenge so cool war, sondern weil die so viele Schichten bestanden hat und wirklich an diesem Tisch lokal mit den Leuten zu sitzen.
+ Und da kommen immer wieder Leute dazu und haben irgendwie eine coole Idee.
+ Oder irgendwer kennt das so "ah ja, das hast du aber schon mal benutzt hier, die Option da, das verhält sich dann anders."
+ Und also das macht was? Und da guckst du es nach und so "wow".
+ Also das ist schon, die Erfahrung bei CTF ist schon geil.
+ Das ist auch so wirklich so, wenn du eine Flagge am Ende kriegst irgendwo, ist eigentlich der geilste Moment in so einem CTF.
+ Wenn du 24 Stunden an so einer Aufgabe gearbeitet hast und dann geht die auf.
+ Wunderbares Gefühl.
+ Okay und wenn man jetzt hier gerade auf dem Camp ist und Lust bekommt, CTF zu machen, kann man euch irgendwo finden?
+ Alles tent bei Milliways da im...
+ Genau, also wir haben ein Zelt mit ein bisschen Sitzmöglichkeiten bei Milliways.
+ Aber im Alles Village, das findet man auf der Karte bestimmt irgendwo. Genau, da können gerne Leute vorbeikommen und sich hinsetzen.
+ Da sind auch andere Leute, die auch kein eigenes Team haben, also auch Leute suchen, mit denen man mitspielen kann.
+ Und spielen zusammen dann das Camp CTF.
+ Okay und ist das Camp CTF auch Einsteigerinnen geeignet?
+ Zum Mittel. Also es hat keine sehr sehr schweren Aufgaben.
+ Also es hat keine wirklich super Heap Exploitation von irgendwelchen Binary's.
+ Keine Ahnung, was es sonst schon mal in so Elite CTFs quasi gibt.
+ Es hat kein Defqon CTF oder so.
+ Es gibt relativ viele einfache Aufgaben, aber es sind immer noch einfache im Rahmen von CTF Aufgaben.
+ Also ich glaube, wenn man halt vorher wirklich noch nie CTF gemacht hat, wird man sich auch an den einfachen Aufgaben die Zähne ausbeißen.
+ Aber das ist auch wirklich gut. Also ich mag das auch, mir bei Aufgaben Zähne auszubeißen.
+ Wir haben ja vorhin schon darüber geredet.
+ Und ich denke auch, bei dem CTF ist es durchaus gut machbar, sich mal so eine einfache Aufgabe dazu nehmen und sich einfach mal hinzusetzen und sagen,
+ okay, ich werde jetzt hier nicht im Scorbot irgendwo weit oben landen, aber ich hätte diese eine Aufgabe, die hört sich cool an,
+ die macht eine Technologie, die ich interessant finde, damit wollte ich mich schon immer beschäftigen, die schaue ich mir jetzt einfach mal an und dann mache ich die.
+ Und wahrscheinlich kann man ja auch einfach bei euch vorbeikommen und keine Ahnung, Bandit oder Pico CTF oder whatever,
+ in den Einstiegsringen irgendwie spielen, einfach nur, dass man irgendwie einen Ort hat, wo andere Menschen sind, die auch CTF spielen und vielleicht auch ein bisschen flauschig sind,
+ wenn man irgendwie Fragen hat und man nicht danach schreit bei Grant, weil ich glaube, das ist irgendwie so ein bisschen wichtig,
+ dass man, das ist halt, also die Frustrationstoleranz ist doch manchmal, die wird auf eine harte Probe gestellt, wenn man versucht, so eine CTF-Aufgabe zu lösen
+ und wenn dann irgendjemand so grummelig neben einem sitzt und sagt, ja, dann liest doch mal die Man-Page,
+ dann ist das manchmal so ein bisschen kritisch vielleicht für die ein oder andere Einsteigerin, die irgendwie gerade eh an ihrem Technik-Know-How zweifelt
+ und ich glaube, das ist irgendwie ganz nett. Also ja, Dokumentationslesen fühlt sich immer sehr unsexy an, aber meistens hilft es halt doch.
+ Man muss das nur manchmal ein bisschen positiver angehen, glaube ich. Also man darf sich auch nicht doof fühlen, wenn man in die Dokumentation gucken muss oder nichts findet
+ und ich glaube vielleicht, das jetzt so aus meiner ganz persönlichen Perspektive ist, auch eher früher irgendjemanden fragen, wenn man gerade komplett am Absaufen ist
+ und sagen könnte, so, hey, ich versuche dir die und die Challenge zu lösen, die Sachen habe ich alle schon probiert, ich komme nicht weiter, was kann ich machen
+ und dann kommt man dann meistens doch relativ schnell weiter, weil die alten Hasen dann doch wissen, dass man gerade dreimal falsch abgebogen ist und ja.
+ Das können wir auch super, super gerne machen, also wenn Leute quasi mit Fragen zu uns kommen über irgendwelche Aufgaben.
+ Jetzt spezifisch für das Camp CTF können wir das leider nicht machen als Organizer für einen Live-Wettbewerb, das hatten wir jetzt schon ein paar Mal,
+ dass Leute quasi kommen und sagen, ja, ich habe das hier fast und ich habe das und das schon probiert, genau das, was du erzählt hast.
+ Da tut es manchmal ein bisschen weh zu sagen, sorry, das ist gerade ein Live-Wettbewerb, da gibt es einen Scorbert, da können wir dir jetzt gerade nicht bei helfen.
+ Aber klar, wenn ihr Pico CTF spielt, wenn ihr andere von diesen CT-Aufgaben spielt, die jetzt nicht spezifisch für dieses Live-Camp CTF gerade sind, helfen wir sehr, sehr gerne weiter.
+ Genau, also keine Angst vor Hackern, die sind meistens sehr, sehr nett und wenn ihr Lust habt, euch irgendwie mit Technologien auseinanderzusetzen und nicht so Lust auf Programmieren habt,
+ also ihr müsst keine guten Programmierer sein, um CTF zu spielen, das glaube ich ein wichtiges Take-Away, sondern einfach nur Lust haben, euch mit Technologien zu beschäftigen,
+ lasst euch davon nicht abschrecken und ich glaube auch, wenn ihr noch nie ein Terminal von innen gesehen habt, selbst dann kann man trotzdem ganz gut einsteigen,
+ also so einen Webshop auseinandernehmen, das geht auch ohne irgendwie Terminal-Erfahrung, hätte ich fast gesagt.
+ Dann geht zu den netten Menschen im Alles-CTF-Village, schaut da mal vorbei, wenn ihr zu Hause seid, sucht euch jetzt ein CTF-Team, das ist jetzt der Aufruf,
+ wir können immer mehr davon gebrauchen und das macht auf jeden Fall sehr, sehr viel Spaß. Möchtet ihr den Zuschauern noch irgendwas mitgeben?
+ Spielt CSCG.
+ Spielt mit CTFs.
+ Spielt mit CTFs, finde ich gut.
+ Spielt mit CTFs, ja.
+ Und bildet Flinter-CTF-Banden.
+ Das ist der explizite Aufruf, ich habe gerade die Hoodie Girls heißen, oder? Ich habe gerade vergessen, wie dieses CTF-Team gespielt wird, ein sehr cooles Flinter-CTF-Team.
+ Wir reichen es nach, aber wir freuen uns auch über Flinter-CTF-Teams, auf jeden Fall, ich glaube, da ist für jeden etwas dabei und es macht wirklich, wirklich viel Spaß
+ und gerade wenn ihr Bock habt, euch mal mit Sicherheit zu beschäftigen, ist das so das richtige Environment, weil da kann auch nichts passieren
+ und da müsst ihr auch nicht mit dem CTF-Team sprechen, wenn ihr irgendwas kaputt gemacht habt, weil das ist alles nicht ganz so schlimm, aber es ist eine gute Fingerübung
+ und damit würde ich sagen, vielen Dank und zurück zum Infobiemer.

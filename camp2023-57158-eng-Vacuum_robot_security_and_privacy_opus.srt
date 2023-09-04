@@ -1,0 +1,5128 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:33,000
+ All right, good evening again, everybody.
+
+4
+00:00:33,000 --> 00:00:34,560
+ How's everybody doing tonight?
+
+5
+00:00:34,560 --> 00:00:35,560
+ >> [APPLAUSE]
+
+6
+00:00:35,560 --> 00:00:38,160
+ >> Yay, wonderful.
+
+7
+00:00:38,160 --> 00:00:41,360
+ However, I must tell you, it's already day four.
+
+8
+00:00:41,360 --> 00:00:43,240
+ >> [APPLAUSE]
+
+9
+00:00:43,240 --> 00:00:44,840
+ >> But to cheer us up,
+
+10
+00:00:44,840 --> 00:00:48,200
+ we have a great last talk for today here at Millieways.
+
+11
+00:00:48,200 --> 00:00:51,560
+ By the way, the Fettyverse hashtag, as always,
+
+12
+00:00:51,560 --> 00:00:55,120
+ is #cccamp23millerways.
+
+13
+00:00:55,120 --> 00:00:58,600
+ And who here in the crowd owns a vacuum robot?
+
+14
+00:00:58,600 --> 00:01:01,440
+ >> [APPLAUSE]
+
+15
+00:01:01,440 --> 00:01:05,160
+ >> I would say not great, not terrible.
+
+16
+00:01:05,160 --> 00:01:09,400
+ But wow, I didn't expect that from a hacker crowd.
+
+17
+00:01:09,400 --> 00:01:13,280
+ So then, especially for those of you who own one, the next talk is for you.
+
+18
+00:01:13,280 --> 00:01:17,720
+ In the next 45 minutes, our speaker, Dennis Gieser,
+
+19
+00:01:17,720 --> 00:01:22,400
+ will tell us all the latest news about vacuum robots, their security, and
+
+20
+00:01:22,400 --> 00:01:25,320
+ their privacy issues, so that hopefully in the end,
+
+21
+00:01:25,320 --> 00:01:27,840
+ your robot will not suck your data.
+
+22
+00:01:27,840 --> 00:01:30,360
+ Please give a warm welcome to Dennis and enjoy the talk.
+
+23
+00:01:30,360 --> 00:01:36,600
+ >> [APPLAUSE]
+
+24
+00:01:36,600 --> 00:01:39,440
+ >> All right, welcome to my talk.
+
+25
+00:01:39,440 --> 00:01:42,640
+ Thank you very much for being here at this late time.
+
+26
+00:01:42,640 --> 00:01:44,200
+ It's great that you had four days of camp.
+
+27
+00:01:44,200 --> 00:01:48,200
+ I mean, I came a little bit late because I had some stuff to do.
+
+28
+00:01:48,200 --> 00:01:51,600
+ But it's kind of great here, except for a little bit warm.
+
+29
+00:01:51,600 --> 00:01:57,000
+ So my talk today is kind of like an update about making robots security and
+
+30
+00:01:57,000 --> 00:02:02,280
+ privacy, and I know people think, wait, that's always the same topic every two
+
+31
+00:02:02,280 --> 00:02:06,960
+ years, but I mean, there's a lot of development, so let's do a quick update.
+
+32
+00:02:06,960 --> 00:02:14,400
+ So for people who don't know me, which is the slides are kind of a little broken.
+
+33
+00:02:14,400 --> 00:02:19,000
+ I'm a PhD student at Northeastern University, and
+
+34
+00:02:19,000 --> 00:02:23,240
+ primarily my research field is in wireless and embedded security and privacy.
+
+35
+00:02:24,760 --> 00:02:28,720
+ I think due to the amount of many, many robots, vacuum robots which I have,
+
+36
+00:02:28,720 --> 00:02:32,280
+ I can call myself a vacuum robot collector.
+
+37
+00:02:32,280 --> 00:02:36,480
+ So I think nowadays something like 45 robots.
+
+38
+00:02:36,480 --> 00:02:40,760
+ And I have interest in the reverse engineering of interesting devices.
+
+39
+00:02:40,760 --> 00:02:43,760
+ And this can be anything, I mean robots obviously, but
+
+40
+00:02:43,760 --> 00:02:48,880
+ I've also like smart speakers, look at flash memory and other things.
+
+41
+00:02:48,880 --> 00:02:52,960
+ Let me quickly ask this to format kind of weird, a little bit.
+
+42
+00:02:52,960 --> 00:02:58,040
+ Is it my laptop?
+
+43
+00:02:58,040 --> 00:03:04,600
+ >> It's your laptop.
+
+44
+00:03:04,600 --> 00:03:07,600
+ >> Okay, let me fix that maybe real quick.
+
+45
+00:03:07,600 --> 00:03:20,000
+ How many security experts do we need to fix issues?
+
+46
+00:03:20,000 --> 00:03:20,760
+ Okay.
+
+47
+00:03:20,760 --> 00:03:22,600
+ >> How many laptops?
+
+48
+00:03:22,600 --> 00:03:24,600
+ >> Yeah, the laptop, it should be 6 x 8.
+
+49
+00:03:24,600 --> 00:03:34,600
+ [BLANK_AUDIO]
+
+50
+00:03:52,800 --> 00:03:54,640
+ >> Okay, great.
+
+51
+00:03:54,640 --> 00:03:57,320
+ All right, perfect.
+
+52
+00:03:57,320 --> 00:03:59,040
+ Working with experts, that's great.
+
+53
+00:03:59,040 --> 00:04:03,200
+ Okay, so like I said, I am interested in vacuum robot smart speakers and
+
+54
+00:04:03,200 --> 00:04:05,920
+ all other interesting IoT devices.
+
+55
+00:04:05,920 --> 00:04:10,960
+ Some of my recent work is, some time ago I was looking at Amazon's smart speakers,
+
+56
+00:04:10,960 --> 00:04:15,760
+ like EchoDots, and I bought 86 used EchoDots from eBay,
+
+57
+00:04:15,760 --> 00:04:18,000
+ from other sources like Kleinenzeig in Germany.
+
+58
+00:04:18,000 --> 00:04:22,320
+ I was doing some forensics, and let's say it was very bad news for Amazon.
+
+59
+00:04:22,320 --> 00:04:26,600
+ So if you have used IoT devices, don't sell them, or
+
+60
+00:04:26,600 --> 00:04:29,120
+ bad people like me might buy them.
+
+61
+00:04:29,120 --> 00:04:33,000
+ Some other recent projects, I do a lot of flash forensics.
+
+62
+00:04:33,000 --> 00:04:36,440
+ For example, on the left you see like the Pixel Watch, but
+
+63
+00:04:36,440 --> 00:04:39,800
+ I look at embedded devices and see what kind of data I can extract from flash
+
+64
+00:04:39,800 --> 00:04:42,680
+ memory, but also look at flash memory itself.
+
+65
+00:04:42,680 --> 00:04:46,880
+ Surprisingly, a lot of flash memories have their own processor on them, and
+
+66
+00:04:46,880 --> 00:04:49,760
+ you can hack the flash from there to maybe do malicious things.
+
+67
+00:04:49,760 --> 00:04:52,640
+ So this is kind of like a current research project of me.
+
+68
+00:04:52,640 --> 00:04:55,480
+ Another thing which I run is robotinfo.dev,
+
+69
+00:04:55,480 --> 00:05:00,640
+ which is basically a website where I do a systematic analysis of robots.
+
+70
+00:05:00,640 --> 00:05:02,360
+ For example, which operations system they're running,
+
+71
+00:05:02,360 --> 00:05:05,200
+ what kind of sensors they have, if they have vulnerabilities or not.
+
+72
+00:05:05,200 --> 00:05:10,240
+ The primary focus of that site is more or less to look at security and privacy.
+
+73
+00:05:10,240 --> 00:05:14,520
+ And what I use it also for, kind of like in the back end,
+
+74
+00:05:14,520 --> 00:05:15,680
+ to track for the changes.
+
+75
+00:05:15,680 --> 00:05:17,520
+ So basically every time there's a new firmware update,
+
+76
+00:05:17,520 --> 00:05:22,120
+ there's an automatic process which downloads it, extracts it, and compares it.
+
+77
+00:05:22,120 --> 00:05:24,320
+ So we kind of get an idea of what the vendors are doing.
+
+78
+00:05:24,320 --> 00:05:29,920
+ One of the sources how I get all this information is basically by buying
+
+79
+00:05:29,920 --> 00:05:33,440
+ devices, disassembling them, and kind of start to emulate them.
+
+80
+00:05:33,440 --> 00:05:38,240
+ So I have something like 50 or 60 emulated vacuum robots,
+
+81
+00:05:38,240 --> 00:05:41,240
+ which are kind of behaving like real robots to the clouds and kind of just look
+
+82
+00:05:41,240 --> 00:05:43,560
+ like, okay, do we get pushed firmware updates?
+
+83
+00:05:43,560 --> 00:05:44,280
+ Is there anything new?
+
+84
+00:05:45,360 --> 00:05:48,080
+ But also on the other side, what we do is we take a look at the app.
+
+85
+00:05:48,080 --> 00:05:50,600
+ So we decompile the app and look if anything changes.
+
+86
+00:05:50,600 --> 00:05:53,760
+ This is also the basis for further research.
+
+87
+00:05:53,760 --> 00:05:56,400
+ I mean, for example, right now I'm working on machine learning models and
+
+88
+00:05:56,400 --> 00:05:57,000
+ some other things.
+
+89
+00:05:57,000 --> 00:06:01,480
+ By the way, the rack, which you see there is one of my few racks of robots.
+
+90
+00:06:01,480 --> 00:06:07,760
+ So I keep a set of robots from basically a reference model from each of the models
+
+91
+00:06:07,760 --> 00:06:09,960
+ which we support for routing.
+
+92
+00:06:09,960 --> 00:06:12,160
+ And every time there's a new firmware update or if I need to check something,
+
+93
+00:06:12,160 --> 00:06:16,080
+ I just go to the rack and just grab one and test the things which I need to test and
+
+94
+00:06:16,080 --> 00:06:17,720
+ just put it back.
+
+95
+00:06:17,720 --> 00:06:21,840
+ Which also means, and I get this question quite often also on Twitter or X,
+
+96
+00:06:21,840 --> 00:06:26,800
+ or via email like, hey, I want to buy a vacuum robot, which cleans the best?
+
+97
+00:06:26,800 --> 00:06:29,400
+ I have no idea.
+
+98
+00:06:29,400 --> 00:06:33,080
+ I root those devices, but I mean, I'm not actually using them except for one which
+
+99
+00:06:33,080 --> 00:06:37,320
+ I use and it does the job good enough, so I have no idea.
+
+100
+00:06:37,320 --> 00:06:40,360
+ So don't ask me which one is the best for cleaning X, Y, and Z.
+
+101
+00:06:41,400 --> 00:06:44,400
+ All right, so what is the goal of this talk?
+
+102
+00:06:44,400 --> 00:06:47,720
+ Well, I want to give you an overview over the development of the vacuum robot
+
+103
+00:06:47,720 --> 00:06:50,160
+ hacking over the last five years.
+
+104
+00:06:50,160 --> 00:06:53,840
+ And I want to give you some idea about vulnerabilities and
+
+105
+00:06:53,840 --> 00:06:55,840
+ backdoors which exist today.
+
+106
+00:06:55,840 --> 00:07:00,080
+ And give you some understanding about which routing methods we have.
+
+107
+00:07:00,080 --> 00:07:04,520
+ The ultimate goal typically which I have is to get root access onto a device with
+
+108
+00:07:04,520 --> 00:07:05,440
+ all this assembly.
+
+109
+00:07:05,440 --> 00:07:10,520
+ Sometimes it works, sometimes it doesn't work, but we try our best to find ways and
+
+110
+00:07:10,520 --> 00:07:12,280
+ sneak ways around to kind of get root access.
+
+111
+00:07:12,280 --> 00:07:20,920
+ As a side note, generally we have some, I mean,
+
+112
+00:07:20,920 --> 00:07:23,840
+ me and the vendors don't hate each other necessarily, but
+
+113
+00:07:23,840 --> 00:07:26,320
+ the thing is we have a very competitive kind of setting.
+
+114
+00:07:26,320 --> 00:07:28,840
+ So every time they fix something, we fix something, and
+
+115
+00:07:28,840 --> 00:07:30,520
+ it's kind of like always competitive thing.
+
+116
+00:07:30,520 --> 00:07:33,440
+ So I know, for example, when I was giving this talk at DefCon, but
+
+117
+00:07:33,440 --> 00:07:37,440
+ they were watching live and right now we're probably working on firmware updates.
+
+118
+00:07:37,440 --> 00:07:43,000
+ So yeah, so some of the devices which are covered in this talk,
+
+119
+00:07:43,000 --> 00:07:46,880
+ they are the current Roborock vacuum robots.
+
+120
+00:07:46,880 --> 00:07:49,320
+ Some of them just came out kind of very recently.
+
+121
+00:07:49,320 --> 00:07:52,120
+ They are more or less all the dreamy robots,
+
+122
+00:07:52,120 --> 00:07:55,440
+ like all the new generation, like our generation vacuum robots.
+
+123
+00:07:55,440 --> 00:08:00,400
+ We have also a new routing method for all the older ones which came out like one and
+
+124
+00:08:00,400 --> 00:08:04,440
+ a half years and before that, so the so-called P models.
+
+125
+00:08:04,440 --> 00:08:09,320
+ And everything you see here can be also technically applied to other robots,
+
+126
+00:08:09,320 --> 00:08:13,680
+ for example, Dnava robots which are more used in America.
+
+127
+00:08:13,680 --> 00:08:17,680
+ Shark AI robots and also some lawn mowers like the ZEGWay.
+
+128
+00:08:17,680 --> 00:08:22,720
+ Everything which is like underlined is basically robots which have like cameras
+
+129
+00:08:22,720 --> 00:08:24,080
+ which you can access in one way or the other.
+
+130
+00:08:24,080 --> 00:08:29,760
+ Right, as a general thing is, I mean, why we just as a comment kind of,
+
+131
+00:08:29,760 --> 00:08:32,800
+ why we jumping around on Roborock and dreamy, why not iRobot?
+
+132
+00:08:32,800 --> 00:08:36,840
+ The thing is, surprisingly Roborock and dreamy have some of the best value
+
+133
+00:08:36,840 --> 00:08:38,920
+ propositions in terms of features and price.
+
+134
+00:08:38,920 --> 00:08:44,120
+ But iRobot nowadays, they're very, very good in reducing the amount of hardware
+
+135
+00:08:44,120 --> 00:08:47,720
+ which we put into the devices to make it barely work for the use case which it's
+
+136
+00:08:47,720 --> 00:08:51,360
+ used to, which means it doesn't make any sense to root them because we don't have
+
+137
+00:08:51,360 --> 00:08:53,440
+ any resources anymore to run our own stuff on them.
+
+138
+00:08:53,440 --> 00:08:57,040
+ So there's a particular reason why, I mean, technically I have rooted these devices,
+
+139
+00:08:57,040 --> 00:08:58,880
+ but I'm not touching them basically.
+
+140
+00:08:58,880 --> 00:09:02,720
+ Okay, so about this talk.
+
+141
+00:09:02,720 --> 00:09:06,760
+ The result which you see here will be basically the result of 50 months of
+
+142
+00:09:06,760 --> 00:09:10,960
+ research and experiments, which is a little bit annoying in the sense of like
+
+143
+00:09:10,960 --> 00:09:14,680
+ if you're sitting for this long time on kind of, I wouldn't say zero days,
+
+144
+00:09:14,680 --> 00:09:18,160
+ it sounds always like very important, but on vulnerabilities which you can tell
+
+145
+00:09:18,160 --> 00:09:20,960
+ anyone and disclose to anyone because basically as soon as they get burned,
+
+146
+00:09:20,960 --> 00:09:21,800
+ they basically get burned.
+
+147
+00:09:21,800 --> 00:09:26,640
+ This talk is collaborative effort with me and Zun Baeyer.
+
+148
+00:09:26,640 --> 00:09:30,200
+ And Zun Baeyer is the developer of ValleTudo.
+
+149
+00:09:30,200 --> 00:09:34,600
+ Traditionally, we had the separation of me doing all the routing part and
+
+150
+00:09:34,600 --> 00:09:38,040
+ all the hardware stuff and he's basically taking care of the cloud replacement,
+
+151
+00:09:38,040 --> 00:09:38,920
+ ValleTudo.
+
+152
+00:09:38,920 --> 00:09:43,240
+ Nowadays, we're kind of like, he's also going into routing part because
+
+153
+00:09:43,240 --> 00:09:47,320
+ that's the cooler part and he wants to enjoy his life too.
+
+154
+00:09:47,320 --> 00:09:51,800
+ So we would be also here if it wasn't the community.
+
+155
+00:09:51,800 --> 00:09:56,160
+ So a lot of people from the community support us by testing routing methods,
+
+156
+00:09:56,160 --> 00:09:59,560
+ giving feedback to about software, catching things which we
+
+157
+00:09:59,560 --> 00:10:03,120
+ messed up potentially, donating devices, donating money.
+
+158
+00:10:03,120 --> 00:10:04,840
+ So there's a lot of support from the community.
+
+159
+00:10:04,840 --> 00:10:11,000
+ Typically what we do is we don't disclose things to the vendors.
+
+160
+00:10:11,000 --> 00:10:14,600
+ So the vendors are kind of unaware of the findings.
+
+161
+00:10:14,600 --> 00:10:17,800
+ Well, technically not today because I gave this talk basically at DefCon like
+
+162
+00:10:17,800 --> 00:10:18,400
+ five days ago.
+
+163
+00:10:18,400 --> 00:10:22,120
+ So they basically weren't aware five days ago and we didn't see any updates so
+
+164
+00:10:22,120 --> 00:10:26,680
+ far, so we are still working on that, I assume.
+
+165
+00:10:26,680 --> 00:10:30,240
+ But expect firmware updates and patches over the next couple days, I assume.
+
+166
+00:10:30,240 --> 00:10:33,360
+ Okay, so what's the motivation of this talk?
+
+167
+00:10:33,360 --> 00:10:36,000
+ So why the heck do we want to route devices?
+
+168
+00:10:36,000 --> 00:10:39,520
+ Well, one of the things is, for me at least,
+
+169
+00:10:39,520 --> 00:10:41,600
+ when I started that is to play with cool hardware.
+
+170
+00:10:41,600 --> 00:10:44,880
+ These devices are very powerful.
+
+171
+00:10:44,880 --> 00:10:49,640
+ It's basically, imagine for a Raspberry Pi or a smartphone on tires,
+
+172
+00:10:49,640 --> 00:10:52,320
+ very compact driving around here in your house.
+
+173
+00:10:52,320 --> 00:10:55,640
+ So it's a very interesting platform for devices.
+
+174
+00:10:55,640 --> 00:10:57,920
+ The other thing is because it's so powerful,
+
+175
+00:10:57,920 --> 00:11:01,600
+ I want to basically stop the devices from constantly phoning home.
+
+176
+00:11:01,600 --> 00:11:05,840
+ And phoning home is kind of a thing with these devices, so
+
+177
+00:11:05,840 --> 00:11:09,200
+ you can expect a couple hundred megabytes per month in telemetry data,
+
+178
+00:11:09,200 --> 00:11:09,960
+ pictures, whatever.
+
+179
+00:11:09,960 --> 00:11:17,680
+ The other thing is if people want to use custom software like Home Assistant,
+
+180
+00:11:17,680 --> 00:11:22,240
+ it's very, very difficult to integrate these devices in that system
+
+181
+00:11:22,240 --> 00:11:24,080
+ without relying on the clouds.
+
+182
+00:11:24,080 --> 00:11:27,920
+ And sometimes the cloud can also go down, so there's a lot of problems.
+
+183
+00:11:27,920 --> 00:11:31,400
+ One thing which becomes more and more important nowadays is diagnosis of
+
+184
+00:11:31,400 --> 00:11:32,200
+ broken devices.
+
+185
+00:11:32,200 --> 00:11:36,560
+ This is not necessarily, I mean, it's still an issue in Europe, but
+
+186
+00:11:36,560 --> 00:11:39,080
+ in America you have a warranty period of one year.
+
+187
+00:11:39,080 --> 00:11:42,400
+ And these devices tend to break exactly after one year.
+
+188
+00:11:42,400 --> 00:11:47,720
+ And so a lot of people in the US have the issue, okay, we cannot get it
+
+189
+00:11:47,720 --> 00:11:50,800
+ repaired under warranty, so we need to find a different way and we can help out
+
+190
+00:11:50,800 --> 00:11:54,760
+ people by diagnosing what kind of things might be broken.
+
+191
+00:11:54,760 --> 00:11:59,920
+ And the thing which is related to my research is basically to verify the
+
+192
+00:11:59,920 --> 00:12:01,920
+ privacy claims of the vendors.
+
+193
+00:12:01,920 --> 00:12:08,360
+ So why do we don't trust the great companies who develop these nice IoT
+
+194
+00:12:08,360 --> 00:12:09,200
+ products?
+
+195
+00:12:09,200 --> 00:12:12,720
+ Well, if you think about these devices, these devices are directly connected to
+
+196
+00:12:12,720 --> 00:12:16,520
+ your home network and can talk to everything typically in your home and
+
+197
+00:12:16,520 --> 00:12:18,600
+ have some internet connection.
+
+198
+00:12:18,600 --> 00:12:22,880
+ I know some people put them in some VLANs and stuff like that, but
+
+199
+00:12:22,880 --> 00:12:26,200
+ I mean, let's be realistic, most like 99% of the users probably just put them in
+
+200
+00:12:26,200 --> 00:12:27,680
+ their normal Wi-Fi and call it a day.
+
+201
+00:12:27,680 --> 00:12:32,120
+ The communication to the cloud is encrypted and
+
+202
+00:12:32,120 --> 00:12:33,680
+ you have no idea what the content is.
+
+203
+00:12:33,680 --> 00:12:37,560
+ Also, even if the vendor is not malicious,
+
+204
+00:12:37,560 --> 00:12:39,440
+ developing secure hardware and software is hard.
+
+205
+00:12:39,440 --> 00:12:42,680
+ So nothing says that the vendor can get hacked at one day or that there's some
+
+206
+00:12:42,680 --> 00:12:46,520
+ weird kind of vulnerability in the device which can be used remotely.
+
+207
+00:12:46,520 --> 00:12:50,240
+ If you remember the Mirai botnets many, many years ago,
+
+208
+00:12:50,240 --> 00:12:53,520
+ which basically where IP cameras got hacked from the internet and
+
+209
+00:12:53,520 --> 00:12:55,160
+ create like a huge botnet.
+
+210
+00:12:55,160 --> 00:12:58,040
+ So we want to kind of figure out if there's some hidden vulnerabilities which
+
+211
+00:12:58,040 --> 00:13:01,000
+ the vendor didn't put in on purpose but which exist there.
+
+212
+00:13:01,000 --> 00:13:06,680
+ And one of the things why I'm a little bit paranoid is because vendor claims
+
+213
+00:13:06,680 --> 00:13:07,640
+ might contradict each other.
+
+214
+00:13:07,640 --> 00:13:14,040
+ So I have my favorite go-to example for claims of vendors and
+
+215
+00:13:14,040 --> 00:13:17,680
+ I use always Roborock but technically all the other vendors do more or less the same thing.
+
+216
+00:13:17,680 --> 00:13:22,440
+ Roborock claim for the S6 Max-V like hey, it's built for privacy,
+
+217
+00:13:22,440 --> 00:13:24,520
+ it's certified by the TIF, my favorite company.
+
+218
+00:13:24,520 --> 00:13:27,840
+ Nothing is ever duplicated, nothing is ever stored,
+
+219
+00:13:27,840 --> 00:13:30,840
+ nothing is ever sent to the cloud, the cameras are only used for AI detection.
+
+220
+00:13:30,840 --> 00:13:34,840
+ It never leaves the robot, everything is fine, trust us please.
+
+221
+00:13:34,840 --> 00:13:37,440
+ But if you scroll down a little bit more, it says by the way,
+
+222
+00:13:37,440 --> 00:13:41,640
+ you can watch your pets remotely from your phone and can talk to it and
+
+223
+00:13:41,640 --> 00:13:44,720
+ you can see what's going on in your home and you can drive around in your home and
+
+224
+00:13:44,720 --> 00:13:46,680
+ basically watch if everything is okay.
+
+225
+00:13:46,680 --> 00:13:50,040
+ So now the question is like okay, on one side nothing is ever sent to the cloud and
+
+226
+00:13:50,040 --> 00:13:53,240
+ it's not possible to access the camera, basically the pictures, but
+
+227
+00:13:53,240 --> 00:13:55,480
+ on the other side you can access it remotely, so what is it?
+
+228
+00:13:55,480 --> 00:14:00,120
+ As a side note, I mean there's different ways to interpret what the exact thing is,
+
+229
+00:14:00,120 --> 00:14:01,760
+ but I mean it's very, very unclear here.
+
+230
+00:14:01,760 --> 00:14:09,680
+ The other thing is I recently caught how they uploaded pictures of users,
+
+231
+00:14:09,680 --> 00:14:14,040
+ well, development devices basically which they gave away for free to users to the
+
+232
+00:14:14,040 --> 00:14:17,680
+ cloud and where they used gig workers in Venezuela to kind of label them.
+
+233
+00:14:17,680 --> 00:14:22,240
+ Which was a little bit unsettling because most of the users didn't realize that
+
+234
+00:14:22,240 --> 00:14:24,840
+ it's somewhere hidden in the terms of service, but the pictures would be used by
+
+235
+00:14:24,840 --> 00:14:28,920
+ people and some pictures which were uploaded were like people sitting on the
+
+236
+00:14:28,920 --> 00:14:31,880
+ toilet, naked kids, whatever, you can be creative.
+
+237
+00:14:31,880 --> 00:14:35,600
+ I have some examples from the MIT Tech Review article.
+
+238
+00:14:35,600 --> 00:14:38,920
+ I was helping the journalists to figure out which device it was because I have
+
+239
+00:14:38,920 --> 00:14:43,560
+ from all the devices to camera perspective, so I really quickly figured out it's iRobot.
+
+240
+00:14:43,560 --> 00:14:45,680
+ And it turned out to be actually iRobot.
+
+241
+00:14:45,680 --> 00:14:49,320
+ And the question is why do we need to know what kind of AC you have,
+
+242
+00:14:49,320 --> 00:14:50,840
+ what kind of switches you have and everything else?
+
+243
+00:14:50,840 --> 00:14:56,720
+ So this is basically the stuff which was labeled in Venezuela from the gig workers.
+
+244
+00:14:56,720 --> 00:15:00,720
+ As a small fun fact, as soon as the article came out or
+
+245
+00:15:00,720 --> 00:15:03,520
+ as soon as the journalists actually started to send out requests to all the vendors and
+
+246
+00:15:03,520 --> 00:15:07,280
+ asking about them, that things, many of the vendors panicked and
+
+247
+00:15:07,280 --> 00:15:11,280
+ started to change their firmwares, apps and also privacy policies.
+
+248
+00:15:11,280 --> 00:15:16,200
+ So you see a lot of privacy policies being changed around November, December 2022,
+
+249
+00:15:16,200 --> 00:15:17,080
+ which is kind of interesting.
+
+250
+00:15:17,080 --> 00:15:20,760
+ The other thing, which is a motivation for me also,
+
+251
+00:15:20,760 --> 00:15:23,520
+ these kind of devices have more and more sensors.
+
+252
+00:15:23,520 --> 00:15:27,360
+ So, I mean, at some point we got cameras, which is kind of bad.
+
+253
+00:15:27,360 --> 00:15:29,920
+ But nowadays some of the robots have even microphones.
+
+254
+00:15:29,920 --> 00:15:31,920
+ And one of the things which I want to mention here is like,
+
+255
+00:15:31,920 --> 00:15:34,480
+ when we started five years ago, we were kind of joking like, okay,
+
+256
+00:15:34,480 --> 00:15:41,640
+ we tried to find a way to use the ultrasonic sensor to basically listen to people.
+
+257
+00:15:41,640 --> 00:15:45,120
+ Or maybe you can use some other sensor to kind of spy on people.
+
+258
+00:15:45,120 --> 00:15:46,960
+ But nowadays you don't need to do that.
+
+259
+00:15:46,960 --> 00:15:50,200
+ The robots come with microphones themselves.
+
+260
+00:15:50,200 --> 00:15:53,280
+ As a quick note, I know there's some papers out there which claim that you can use
+
+261
+00:15:53,280 --> 00:15:58,840
+ the ladder to snoop on people by flashing the firmware and stuff like that.
+
+262
+00:15:58,840 --> 00:16:02,120
+ But I can tell you today that it's not possible that the paper is more or
+
+263
+00:16:02,120 --> 00:16:02,760
+ less not accurate.
+
+264
+00:16:02,760 --> 00:16:06,800
+ So I know it's out there, but shocker in academia,
+
+265
+00:16:06,800 --> 00:16:10,200
+ people might be not super accurate with papers.
+
+266
+00:16:10,200 --> 00:16:13,720
+ So you cannot use the ladder as a microphone, just as a hint.
+
+267
+00:16:13,720 --> 00:16:16,560
+ All right, so what are risks of devices with cameras?
+
+268
+00:16:16,560 --> 00:16:20,160
+ Well, some of the devices might store pictures indefinitely.
+
+269
+00:16:20,160 --> 00:16:24,720
+ Sad news is also a lot of them do both in cloud and locally.
+
+270
+00:16:24,720 --> 00:16:27,520
+ There's some ways how I was able to figure that out.
+
+271
+00:16:27,520 --> 00:16:31,160
+ So far I can't tell you exactly which companies there are, but there's some.
+
+272
+00:16:32,320 --> 00:16:37,200
+ Also, if you buy used devices from, for example, Amazon Marketplace,
+
+273
+00:16:37,200 --> 00:16:39,280
+ you need to be a little bit careful.
+
+274
+00:16:39,280 --> 00:16:41,360
+ You don't know what was installed previously on the device.
+
+275
+00:16:41,360 --> 00:16:45,400
+ So the previous user might have installed a rootkit.
+
+276
+00:16:45,400 --> 00:16:49,280
+ The new owner cannot verify the software, and as a result,
+
+277
+00:16:49,280 --> 00:16:51,200
+ you might have a malicious device in your network.
+
+278
+00:16:51,200 --> 00:16:53,800
+ So we are in a hacker conference, and I just want to say it's super illegal to do
+
+279
+00:16:53,800 --> 00:16:54,640
+ that, so don't do that.
+
+280
+00:16:54,640 --> 00:16:58,920
+ Don't buy devices on Amazon and root them, put some rootkit onto that, and
+
+281
+00:16:58,920 --> 00:17:00,160
+ send it back to Amazon.
+
+282
+00:17:00,160 --> 00:17:03,400
+ That's very rude and probably illegal, I assume.
+
+283
+00:17:03,400 --> 00:17:05,040
+ I hope so, at least.
+
+284
+00:17:05,040 --> 00:17:09,680
+ Okay, so rooting is more or less the only way how you know that the device is clean
+
+285
+00:17:09,680 --> 00:17:10,080
+ in a way.
+
+286
+00:17:10,080 --> 00:17:15,160
+ So one of the things which is kind of interesting,
+
+287
+00:17:15,160 --> 00:17:18,560
+ especially in Germany from some German press articles.
+
+288
+00:17:18,560 --> 00:17:28,120
+ Some vendors got a little bit creative in sense of users which are privacy aware.
+
+289
+00:17:28,120 --> 00:17:31,800
+ And they try to avoid the word camera as far as they can.
+
+290
+00:17:31,800 --> 00:17:35,040
+ And instead, they try to use the word optical sensor.
+
+291
+00:17:35,040 --> 00:17:37,280
+ And I have here an article from Golem.
+
+292
+00:17:37,280 --> 00:17:40,360
+ I don't want to shame Golem, but I mean, many do that.
+
+293
+00:17:40,360 --> 00:17:43,200
+ And they kind of asked the vendor, and the vendor said, yeah, optical sensor is
+
+294
+00:17:43,200 --> 00:17:43,720
+ accurate.
+
+295
+00:17:43,720 --> 00:17:47,600
+ So it's not a shaming thing, it's just like an info thing here.
+
+296
+00:17:47,600 --> 00:17:51,400
+ So what Roborock kind of said is like, so we don't have cameras in there.
+
+297
+00:17:51,400 --> 00:17:54,480
+ For privacy reasons, we just put an optical sensor which detects lasers.
+
+298
+00:17:54,480 --> 00:17:57,920
+ So it's good for your privacy, so don't worry.
+
+299
+00:17:57,920 --> 00:17:59,320
+ Everything will be fine.
+
+300
+00:17:59,320 --> 00:18:04,520
+ And I have an output of the optical sensor on the right.
+
+301
+00:18:04,520 --> 00:18:08,440
+ By the way, sorry it says, hello, Defqon, but I was too lazy to create another
+
+302
+00:18:08,440 --> 00:18:09,520
+ picture for that.
+
+303
+00:18:09,520 --> 00:18:12,480
+ So yeah, so as you see, there's an output of optical sensors.
+
+304
+00:18:12,480 --> 00:18:15,120
+ So no camera involved.
+
+305
+00:18:15,120 --> 00:18:16,520
+ Nothing to see here.
+
+306
+00:18:16,520 --> 00:18:17,680
+ Right.
+
+307
+00:18:17,680 --> 00:18:20,040
+ Also, certifications are very important.
+
+308
+00:18:20,040 --> 00:18:25,320
+ Most of the devices which have cameras have some kind of certification,
+
+309
+00:18:25,320 --> 00:18:27,840
+ either by TÜV Rheinland or by TÜV Süd.
+
+310
+00:18:27,840 --> 00:18:33,560
+ So both of them are kind of testing all the devices, and all these devices met
+
+311
+00:18:33,560 --> 00:18:35,760
+ the European cybersecurity standards.
+
+312
+00:18:35,760 --> 00:18:38,280
+ So I think we can't end the talk here because all of them are secure, I assume,
+
+313
+00:18:38,280 --> 00:18:41,880
+ because they got tested.
+
+314
+00:18:41,880 --> 00:18:43,560
+ Yeah.
+
+315
+00:18:43,560 --> 00:18:45,560
+ Sadly, yeah, we can't end here.
+
+316
+00:18:45,560 --> 00:18:46,040
+ All right.
+
+317
+00:18:46,040 --> 00:18:47,280
+ So what happened so far?
+
+318
+00:18:47,280 --> 00:18:50,760
+ Let me give you a quick rundown here.
+
+319
+00:18:50,760 --> 00:18:55,120
+ Let's start with a general observation, like what we saw in the last five years.
+
+320
+00:18:55,120 --> 00:19:01,280
+ So every time we release a routing method, developers react in weird, sometimes
+
+321
+00:19:01,280 --> 00:19:02,400
+ different ways.
+
+322
+00:19:02,400 --> 00:19:08,440
+ So sometimes they even react in a way that they break things.
+
+323
+00:19:08,440 --> 00:19:12,720
+ And there was some case where they pushed a very quick firmware update which
+
+324
+00:19:12,720 --> 00:19:16,360
+ started to break hundreds of vacuum robots permanently because they kind of
+
+325
+00:19:16,360 --> 00:19:22,280
+ started to panic and started to do weird things, which is kind of sad, which we
+
+326
+00:19:22,280 --> 00:19:23,960
+ want to avoid, obviously.
+
+327
+00:19:23,960 --> 00:19:27,600
+ The best case for us if they react is that our routing method just fails in a way
+
+328
+00:19:27,600 --> 00:19:31,360
+ that says, hey, the file system is broken, we don't accept it, we don't boot it,
+
+329
+00:19:31,360 --> 00:19:32,760
+ so whatever.
+
+330
+00:19:32,760 --> 00:19:33,440
+ That's the best case.
+
+331
+00:19:33,440 --> 00:19:38,360
+ So sadly, some vendors started to do things which are a little bit more mean.
+
+332
+00:19:38,360 --> 00:19:42,680
+ The routing succeeds, everything is fine, but the device will break randomly.
+
+333
+00:19:42,680 --> 00:19:46,480
+ For example, white cleans, at some point it will just crash, and it's very hard to
+
+334
+00:19:46,480 --> 00:19:48,200
+ debug.
+
+335
+00:19:48,200 --> 00:19:51,520
+ In particular cases, it's also so if it detects manipulations or routed
+
+336
+00:19:51,520 --> 00:19:55,440
+ firmware, it will just destroy itself permanently, so it will just delete its
+
+337
+00:19:55,440 --> 00:19:58,640
+ keys and it will be kind of like a problem.
+
+338
+00:19:58,640 --> 00:20:01,400
+ So that's the reason why we need to buy the device in advance to kind of figure
+
+339
+00:20:01,400 --> 00:20:03,160
+ stuff like that out.
+
+340
+00:20:03,160 --> 00:20:07,160
+ So let's start with the first work in 2017.
+
+341
+00:20:07,160 --> 00:20:13,160
+ This was a work together with Dani Wiggema, and it was about the Xiaomi
+
+342
+00:20:13,160 --> 00:20:16,800
+ first generation and the Roborock S5, which was also kind of like the first
+
+343
+00:20:16,800 --> 00:20:18,960
+ generation device back then.
+
+344
+00:20:18,960 --> 00:20:22,760
+ Some of the findings which we found were that the firmware images are unsigned
+
+345
+00:20:22,760 --> 00:20:26,480
+ and only encrypted with a very weak key, and I think the very weak key was just
+
+346
+00:20:26,480 --> 00:20:29,440
+ Roborock as the name of the company.
+
+347
+00:20:29,440 --> 00:20:32,240
+ This by itself wouldn't be a big issue.
+
+348
+00:20:32,240 --> 00:20:36,360
+ The problem is that you could push custom firmware on the local network,
+
+349
+00:20:36,360 --> 00:20:42,360
+ and so basically you could just flash the device over the network.
+
+350
+00:20:42,360 --> 00:20:45,560
+ This is not necessarily a problem for us of people who want to root the devices,
+
+351
+00:20:45,560 --> 00:20:48,200
+ but it's a bigger problem if you have malicious people who want to do bad
+
+352
+00:20:48,200 --> 00:20:49,040
+ things.
+
+353
+00:20:49,040 --> 00:20:51,840
+ Now people might say, okay, I don't have access, so typically attackers don't
+
+354
+00:20:51,840 --> 00:20:54,440
+ have access to your personal network.
+
+355
+00:20:54,440 --> 00:20:59,120
+ The problem is if your device is in provisioning mode, basically, so it opens
+
+356
+00:20:59,120 --> 00:21:02,440
+ its own Wi-Fi access point and waits for you from pushing it into your private
+
+357
+00:21:02,440 --> 00:21:05,160
+ Wi-Fi, then you can do the same pushing.
+
+358
+00:21:05,160 --> 00:21:08,080
+ Basically, you can push the firmware onto that too.
+
+359
+00:21:08,080 --> 00:21:13,000
+ When I was living in Darmstadt, I saw some of my neighbors had Xiaomi vacuum
+
+360
+00:21:13,000 --> 00:21:14,880
+ robots which were paranoid.
+
+361
+00:21:14,880 --> 00:21:18,000
+ They didn't put them into their Wi-Fi, so they had open Wi-Fi access points on
+
+362
+00:21:18,000 --> 00:21:19,480
+ the robot.
+
+363
+00:21:19,480 --> 00:21:24,640
+ I didn't do it, but technically I could have pushed a malicious firmware onto
+
+364
+00:21:24,640 --> 00:21:27,800
+ that and just wait one day, they will probably put it in their Wi-Fi, and then
+
+365
+00:21:27,800 --> 00:21:29,120
+ they would be screwed.
+
+366
+00:21:29,120 --> 00:21:29,880
+ Still don't do that.
+
+367
+00:21:29,880 --> 00:21:32,880
+ If you see improvised robots in your neighborhood, don't hack them.
+
+368
+00:21:32,880 --> 00:21:34,920
+ That's very mean and annoying.
+
+369
+00:21:34,920 --> 00:21:37,800
+ Anyway, so what's the result of these two facts?
+
+370
+00:21:37,800 --> 00:21:41,240
+ One of the things is we could root the devices for disassembly, and we could
+
+371
+00:21:41,240 --> 00:21:43,440
+ start the development of custom software and voice packages.
+
+372
+00:21:43,440 --> 00:21:48,480
+ A lot of people in Germany apparently are very interested in voice packages.
+
+373
+00:21:48,480 --> 00:21:52,960
+ I mean, for me, English is fine, but a lot of people got very creative with
+
+374
+00:21:52,960 --> 00:21:55,960
+ like GLaDOS and some other things.
+
+375
+00:21:55,960 --> 00:22:02,200
+ This was published on the CCC Congress in 2017 and also DEF CON in 2018, so
+
+376
+00:22:02,200 --> 00:22:03,280
+ exactly five years ago.
+
+377
+00:22:03,280 --> 00:22:07,200
+ So as you see, I do that stuff for a very long time already.
+
+378
+00:22:07,200 --> 00:22:10,960
+ The reaction from that was Roborock, who developed both the devices, was not
+
+379
+00:22:10,960 --> 00:22:12,040
+ very happy about that.
+
+380
+00:22:12,040 --> 00:22:16,360
+ So what they started to do is they started to block local firmware updates
+
+381
+00:22:16,360 --> 00:22:17,320
+ in the firmware.
+
+382
+00:22:17,320 --> 00:22:20,880
+ Which is technically OK from a cyber security perspective, so I wasn't super
+
+383
+00:22:20,880 --> 00:22:22,040
+ mad about that.
+
+384
+00:22:22,040 --> 00:22:24,960
+ But also then what we started to introduce is we basically signed all
+
+385
+00:22:24,960 --> 00:22:28,800
+ the firmware and voice packages, so we couldn't necessarily create our own
+
+386
+00:22:28,800 --> 00:22:29,680
+ anymore.
+
+387
+00:22:29,680 --> 00:22:33,320
+ And each of the device models basically used the firmware encryption keys.
+
+388
+00:22:33,320 --> 00:22:38,560
+ So we had to basically get every device individually, like every model, and
+
+389
+00:22:38,560 --> 00:22:41,520
+ extract the keys to kind of look in the firmware.
+
+390
+00:22:41,520 --> 00:22:44,360
+ One of the things where we got a little bit annoyed about people buying cheap
+
+391
+00:22:44,360 --> 00:22:48,440
+ devices in China and using them in Europe was basically that they started
+
+392
+00:22:48,440 --> 00:22:52,680
+ to enforce region locks so that you couldn't import device anymore, but you
+
+393
+00:22:52,680 --> 00:22:56,520
+ can't run them in Germany for whatever reason.
+
+394
+00:22:56,520 --> 00:22:58,800
+ I mean, we just want to avoid that.
+
+395
+00:22:58,800 --> 00:23:02,840
+ However, one of the interesting things is that the hardware mostly remains
+
+396
+00:23:02,840 --> 00:23:03,640
+ the same.
+
+397
+00:23:03,640 --> 00:23:07,960
+ So if you bought every two years a vacuum robot from Roborock and you take
+
+398
+00:23:07,960 --> 00:23:10,760
+ the PCBs out and compare them to each other, the layout was more or less the
+
+399
+00:23:10,760 --> 00:23:11,040
+ same.
+
+400
+00:23:11,040 --> 00:23:16,320
+ So they sell you more or less the same hardware configuration all over again
+
+401
+00:23:16,320 --> 00:23:18,200
+ every two years or every year even.
+
+402
+00:23:18,200 --> 00:23:20,360
+ So that's their business model, I guess.
+
+403
+00:23:20,360 --> 00:23:23,200
+ They can't charge you for updates, but they can charge you for new hardware,
+
+404
+00:23:23,200 --> 00:23:25,000
+ just as a side note.
+
+405
+00:23:25,000 --> 00:23:27,920
+ Anyway, the problem which we had now is we needed to disassemble the device,
+
+406
+00:23:27,920 --> 00:23:30,240
+ which was kind of like a problem.
+
+407
+00:23:30,240 --> 00:23:31,080
+ I have here an example.
+
+408
+00:23:31,080 --> 00:23:33,880
+ So basically you need to completely unscrew the device.
+
+409
+00:23:33,880 --> 00:23:36,960
+ You need to solder maybe a few things.
+
+410
+00:23:36,960 --> 00:23:45,680
+ One of the good things here was that we figured out a way to bypass that,
+
+411
+00:23:45,680 --> 00:23:47,320
+ which required assembly.
+
+412
+00:23:47,320 --> 00:23:52,760
+ And this worked for the robot S6, S5 Max, S7, and also others.
+
+413
+00:23:52,760 --> 00:23:57,920
+ The initial idea which we had was that we accessed the U-boot shell by UART.
+
+414
+00:23:57,920 --> 00:24:00,520
+ Sadly, they figured that out at some point and fixed that.
+
+415
+00:24:00,520 --> 00:24:04,160
+ And the new approach was that we get the device into bootloader mode and just
+
+416
+00:24:04,160 --> 00:24:05,880
+ patch the file system over USB.
+
+417
+00:24:05,880 --> 00:24:09,720
+ And this turned out to be the more efficient way to do that.
+
+418
+00:24:09,720 --> 00:24:10,720
+ Again, there's advantages.
+
+419
+00:24:10,720 --> 00:24:12,880
+ We need to disassemble the device, which is annoying.
+
+420
+00:24:12,880 --> 00:24:16,240
+ But that's the price of doing business, I guess.
+
+421
+00:24:16,240 --> 00:24:20,320
+ One of the interesting facts is that this method still works until today.
+
+422
+00:24:20,320 --> 00:24:29,000
+ For all the other 16-based devices, so for example, S6 Pro Ultra and Q7.
+
+423
+00:24:29,000 --> 00:24:32,400
+ When they saw that we have a new way to root the devices, they reacted again.
+
+424
+00:24:32,400 --> 00:24:33,720
+ And we're not necessarily happy.
+
+425
+00:24:33,720 --> 00:24:36,600
+ So as mentioned before, they locked the bootloader down so
+
+426
+00:24:36,600 --> 00:24:38,800
+ we don't have a U-boot shell anymore.
+
+427
+00:24:38,800 --> 00:24:42,280
+ And then they basically got through the book of all security methods and started
+
+428
+00:24:42,280 --> 00:24:45,200
+ to introduce things like Secure Boot, SA Linux.
+
+429
+00:24:45,200 --> 00:24:47,000
+ They introduced the M-variety.
+
+430
+00:24:47,000 --> 00:24:54,560
+ And even newer device have encrypted file systems where the user data and
+
+431
+00:24:54,560 --> 00:24:55,520
+ applications encrypted.
+
+432
+00:24:55,520 --> 00:24:58,480
+ So we can't even figure out, OK, what is the application actually doing?
+
+433
+00:24:58,480 --> 00:25:02,160
+ So we only see a partial of the portion of the system.
+
+434
+00:25:02,160 --> 00:25:08,080
+ And they started to use Trust Zone where they stored the keys in OPT, basically.
+
+435
+00:25:08,080 --> 00:25:10,840
+ Which has also the risk if you do any sketchy things,
+
+436
+00:25:10,840 --> 00:25:12,440
+ where the keys just get wiped.
+
+437
+00:25:12,440 --> 00:25:15,840
+ So you need to be careful with that.
+
+438
+00:25:15,840 --> 00:25:19,200
+ One thing which we introduced at some point were custom LF binary signatures,
+
+439
+00:25:19,200 --> 00:25:20,000
+ which I never saw before.
+
+440
+00:25:20,000 --> 00:25:24,280
+ So they basically were assigning all LF binaries which exist in a system.
+
+441
+00:25:24,280 --> 00:25:28,600
+ And every time you try to execute an unsigned binary, it just wouldn't execute.
+
+442
+00:25:28,600 --> 00:25:30,520
+ It would get a second thought.
+
+443
+00:25:30,520 --> 00:25:35,120
+ So in 2021, we fight back.
+
+444
+00:25:35,120 --> 00:25:41,600
+ So this was a thing which I presented at DEF CON.
+
+445
+00:25:41,600 --> 00:25:44,000
+ Oh, this is actually not accurate.
+
+446
+00:25:44,000 --> 00:25:46,880
+ I presented at DEF CON 21.
+
+447
+00:25:46,880 --> 00:25:47,920
+ Not here.
+
+448
+00:25:47,920 --> 00:25:53,560
+ And the method was basically to bypass the LF binary verification and security.
+
+449
+00:25:53,560 --> 00:25:58,600
+ So one of the ideas was to modify the configuration partition.
+
+450
+00:25:58,600 --> 00:26:01,680
+ But it required basically the desoldering of the EMMC flash strip,
+
+451
+00:26:01,680 --> 00:26:04,720
+ which most of the people can't do or don't want to do,
+
+452
+00:26:04,720 --> 00:26:07,440
+ because it will very likely brick your device.
+
+453
+00:26:07,440 --> 00:26:08,720
+ Or you need some ISP access.
+
+454
+00:26:08,720 --> 00:26:12,800
+ So this was a very specific method for a very specifically specific people
+
+455
+00:26:12,800 --> 00:26:14,320
+ who are good with soldering.
+
+456
+00:26:14,320 --> 00:26:16,280
+ But it's not a broad thing.
+
+457
+00:26:16,280 --> 00:26:20,680
+ And that was the reason why we said, OK, we want to maybe take a look
+
+458
+00:26:20,680 --> 00:26:24,800
+ at different vendors for now and just wait until Roborock kind of cools down
+
+459
+00:26:24,800 --> 00:26:29,080
+ and kind of gets more relaxed and stops being mean.
+
+460
+00:26:29,080 --> 00:26:33,760
+ And one thing which we found was a new vendor, which is Dreamy.
+
+461
+00:26:33,760 --> 00:26:35,920
+ And we have very similar devices to Roborock.
+
+462
+00:26:35,920 --> 00:26:37,240
+ Basically, they were powerful.
+
+463
+00:26:37,240 --> 00:26:39,200
+ They had cameras.
+
+464
+00:26:39,200 --> 00:26:40,920
+ They had an extremely easy routing method,
+
+465
+00:26:40,920 --> 00:26:43,000
+ basically, before disassembling.
+
+466
+00:26:43,000 --> 00:26:46,520
+ And we were able to basically flash them over USB.
+
+467
+00:26:46,520 --> 00:26:48,480
+ One of the problems with the flashing over USB part
+
+468
+00:26:48,480 --> 00:26:50,000
+ was that some devices got soft-bricked.
+
+469
+00:26:50,000 --> 00:26:53,880
+ But I think we solve that problem nowadays.
+
+470
+00:26:53,880 --> 00:26:58,400
+ So how did Roborock react onto our Defqon talk back then?
+
+471
+00:26:58,400 --> 00:27:03,960
+ Well, I got a very nice email from the Roborock CEO one day after my talk.
+
+472
+00:27:03,960 --> 00:27:04,960
+ Oh, thank you for the talk.
+
+473
+00:27:04,960 --> 00:27:08,080
+ Our engineers watched the talk live and are fixing right now
+
+474
+00:27:08,080 --> 00:27:09,440
+ all the vulnerabilities.
+
+475
+00:27:09,440 --> 00:27:14,120
+ So that's the reason why I know that we are watching those talks.
+
+476
+00:27:14,120 --> 00:27:16,480
+ What we did now is we encrypted all the partitions,
+
+477
+00:27:16,480 --> 00:27:21,000
+ except the system partition, which we can do for technical reasons.
+
+478
+00:27:21,000 --> 00:27:23,600
+ They started to obfuscate the ALF binary signature.
+
+479
+00:27:23,600 --> 00:27:27,440
+ So we cannot find it that easily and patch it.
+
+480
+00:27:27,440 --> 00:27:31,280
+ And we started to add custom code into the random libraries
+
+481
+00:27:31,280 --> 00:27:33,640
+ to kind of detect if we try to bypass the traffic.
+
+482
+00:27:33,640 --> 00:27:37,240
+ So one of the ways how we kind of disconnected us from the cloud
+
+483
+00:27:37,240 --> 00:27:41,680
+ is that we redirect traffic via DNS to the robot itself
+
+484
+00:27:41,680 --> 00:27:43,680
+ so that basically nothing goes to the cloud.
+
+485
+00:27:43,680 --> 00:27:45,360
+ Everything stays on the robot.
+
+486
+00:27:45,360 --> 00:27:48,960
+ And they figured out, hey, you still wanted to expel traffic from the robot.
+
+487
+00:27:48,960 --> 00:27:50,320
+ So how can we do that?
+
+488
+00:27:50,320 --> 00:27:52,960
+ We just have a detection, which detects
+
+489
+00:27:52,960 --> 00:27:57,560
+ if you want to upload something to your roborock.com domain.
+
+490
+00:27:57,560 --> 00:28:00,120
+ And if you do that, it has some obfuscated way
+
+491
+00:28:00,120 --> 00:28:03,120
+ to kind of do DNS queries on itself in the libcurl library.
+
+492
+00:28:03,120 --> 00:28:06,720
+ So at some point, we noticed, wait, we have still traffic going off
+
+493
+00:28:06,720 --> 00:28:09,760
+ to Roborock, even though we have blocked all the domains.
+
+494
+00:28:09,760 --> 00:28:12,440
+ And so we figured out that they introduced some sneaky way
+
+495
+00:28:12,440 --> 00:28:14,920
+ to still exfutrate log files and some other stuff,
+
+496
+00:28:14,920 --> 00:28:17,760
+ even if the device is rooted.
+
+497
+00:28:17,760 --> 00:28:18,480
+ We figured it out.
+
+498
+00:28:18,480 --> 00:28:19,360
+ We patch it nowadays.
+
+499
+00:28:19,360 --> 00:28:20,680
+ But this is one of the things.
+
+500
+00:28:20,680 --> 00:28:24,920
+ They try to find ways to bypass our routing methods.
+
+501
+00:28:24,920 --> 00:28:27,880
+ And notice they love obfuscation.
+
+502
+00:28:27,880 --> 00:28:30,040
+ They use XOR everywhere they can use it.
+
+503
+00:28:30,040 --> 00:28:34,600
+ So it's kind of like it gets a little bit annoying from time to time.
+
+504
+00:28:34,600 --> 00:28:39,120
+ So how does their stuff look like?
+
+505
+00:28:39,120 --> 00:28:44,760
+ So as mentioned, they noticed check for L signatures in the kernel.
+
+506
+00:28:44,760 --> 00:28:49,760
+ So basically, they use the doMMap function,
+
+507
+00:28:49,760 --> 00:28:55,680
+ which basically creates a memory area for if you try to run a program.
+
+508
+00:28:55,680 --> 00:28:59,280
+ And if the file is not signed correctly, it will basically secfault.
+
+509
+00:28:59,280 --> 00:29:01,320
+ So every time you try to execute your own custom binary,
+
+510
+00:29:01,320 --> 00:29:04,040
+ it will just secfault. Nothing happens.
+
+511
+00:29:04,040 --> 00:29:07,520
+ And they got really creative in naming the functions.
+
+512
+00:29:07,520 --> 00:29:09,760
+ So I have an example on the right, which is basically
+
+513
+00:29:09,760 --> 00:29:12,960
+ the doMMap function from the S8.
+
+514
+00:29:12,960 --> 00:29:16,960
+ And they started to use names like clock set rate DSP0.
+
+515
+00:29:16,960 --> 00:29:18,520
+ There's no DSP0, by the way.
+
+516
+00:29:18,520 --> 00:29:20,080
+ Or clock set, whatever thing.
+
+517
+00:29:20,080 --> 00:29:22,520
+ So these functions are actually just to verify the signature.
+
+518
+00:29:22,520 --> 00:29:26,560
+ But they named them in the super weird way so that we would think,
+
+519
+00:29:26,560 --> 00:29:28,960
+ oh, that's probably something important, so we don't touch it.
+
+520
+00:29:28,960 --> 00:29:32,480
+ But in reality, that's where obfuscated signature check.
+
+521
+00:29:32,480 --> 00:29:34,120
+ And they do some weird other stuff.
+
+522
+00:29:34,120 --> 00:29:36,480
+ So I think they use some code obfuscation tools
+
+523
+00:29:36,480 --> 00:29:39,360
+ to basically try to get a soft track.
+
+524
+00:29:39,360 --> 00:29:43,160
+ So at the same time, Dreamy started also to panic directly after the talk.
+
+525
+00:29:43,160 --> 00:29:45,040
+ So they did a lot of changes in their firmware.
+
+526
+00:29:45,040 --> 00:29:51,920
+ They removed the UART lock-in shell and the UBoot shell.
+
+527
+00:29:51,920 --> 00:29:54,280
+ So they just patched UBoot.
+
+528
+00:29:54,280 --> 00:29:57,840
+ And they pushed changes, which started apparently to break robots
+
+529
+00:29:57,840 --> 00:30:00,040
+ if their firmware version was too old.
+
+530
+00:30:00,040 --> 00:30:00,800
+ So it was kind of weird.
+
+531
+00:30:00,800 --> 00:30:04,800
+ So we got a lot of feedback back from people who didn't have rooted vacuum
+
+532
+00:30:04,800 --> 00:30:08,680
+ robots, but their device was bricked from a firmware update.
+
+533
+00:30:08,680 --> 00:30:10,760
+ And especially this happened outside of the warranty.
+
+534
+00:30:10,760 --> 00:30:13,960
+ So they kind of parametric devices.
+
+535
+00:30:13,960 --> 00:30:16,800
+ One of the fun facts is because we compared firmware updates,
+
+536
+00:30:16,800 --> 00:30:21,040
+ we found a way simpler routing methods which we weren't aware of.
+
+537
+00:30:21,040 --> 00:30:25,920
+ So they patched something where we didn't know that it was there.
+
+538
+00:30:25,920 --> 00:30:28,880
+ And it was very helpful because one thing which we noticed
+
+539
+00:30:28,880 --> 00:30:31,360
+ was that they removed this function.
+
+540
+00:30:31,360 --> 00:30:34,000
+ And what it does is if you press the reset button for one second,
+
+541
+00:30:34,000 --> 00:30:36,560
+ it will pop a lock-in shell.
+
+542
+00:30:36,560 --> 00:30:39,520
+ And we had no idea because we thought, OK, we removed the lock-in shell,
+
+543
+00:30:39,520 --> 00:30:42,320
+ so we need to do the USB and whatever.
+
+544
+00:30:42,320 --> 00:30:44,320
+ And then we noticed, wait, they removed that.
+
+545
+00:30:44,320 --> 00:30:46,680
+ And it took many, many months until it got actually
+
+546
+00:30:46,680 --> 00:30:50,240
+ pushed into all the devices which were newly produced.
+
+547
+00:30:50,240 --> 00:30:51,880
+ And we saw that and we were like, oh, wait,
+
+548
+00:30:51,880 --> 00:30:55,880
+ there's a way safer method because now you can connect over UART,
+
+549
+00:30:55,880 --> 00:30:58,560
+ press the reset button for one second, and just get a lock-in shell.
+
+550
+00:30:58,560 --> 00:31:00,440
+ And you can lock in with a particular password.
+
+551
+00:31:00,440 --> 00:31:02,400
+ So this was very helpful.
+
+552
+00:31:02,400 --> 00:31:04,320
+ So thanks for showing us this thing.
+
+553
+00:31:04,320 --> 00:31:06,040
+ That's not the only time it just happened.
+
+554
+00:31:06,040 --> 00:31:09,680
+ So we found a couple other things which were also kind of useful.
+
+555
+00:31:09,680 --> 00:31:10,480
+ Right.
+
+556
+00:31:10,480 --> 00:31:11,920
+ But we started to panic even more.
+
+557
+00:31:11,920 --> 00:31:16,600
+ And they introduced like a secure boot and have set the if-uses,
+
+558
+00:31:16,600 --> 00:31:19,120
+ which was kind of being expected.
+
+559
+00:31:19,120 --> 00:31:23,840
+ They signed the system partition and are doing the verification
+
+560
+00:31:23,840 --> 00:31:25,800
+ of a U-boot, which is the bootloader.
+
+561
+00:31:25,800 --> 00:31:28,760
+ And they started to pair the kernel with a particular version
+
+562
+00:31:28,760 --> 00:31:30,840
+ of the system partition.
+
+563
+00:31:30,840 --> 00:31:33,960
+ And this is kind of important for the thing which we did next.
+
+564
+00:31:33,960 --> 00:31:39,800
+ They basically introduced the judge countermeasures.
+
+565
+00:31:39,800 --> 00:31:43,600
+ So judge countermeasurements, what is that?
+
+566
+00:31:43,600 --> 00:31:46,760
+ This is one of the things which we introduced in 2020
+
+567
+00:31:46,760 --> 00:31:47,560
+ in all new firmwares.
+
+568
+00:31:47,560 --> 00:31:50,640
+ So if you have a firmware which is newer than-- or a device also
+
+569
+00:31:50,640 --> 00:31:54,080
+ which is newer than 2022, you have it.
+
+570
+00:31:54,080 --> 00:31:57,480
+ Rooted firmwares would start to crash randomly.
+
+571
+00:31:57,480 --> 00:32:00,120
+ And it was super weird for us to debug that.
+
+572
+00:32:00,120 --> 00:32:02,240
+ And at the end of the day, we figured it out.
+
+573
+00:32:02,240 --> 00:32:03,400
+ But this was super annoying.
+
+574
+00:32:03,400 --> 00:32:04,920
+ And it was super mean by them.
+
+575
+00:32:04,920 --> 00:32:06,640
+ And I think it was directed directly at us.
+
+576
+00:32:06,640 --> 00:32:08,440
+ This was not a thing against other vendors.
+
+577
+00:32:08,440 --> 00:32:10,680
+ It was directly directed at us.
+
+578
+00:32:10,680 --> 00:32:11,840
+ So what does it do?
+
+579
+00:32:11,840 --> 00:32:15,880
+ So they bake the expected SHA-256 hash of the root file
+
+580
+00:32:15,880 --> 00:32:17,800
+ system into the kernel.
+
+581
+00:32:17,800 --> 00:32:21,160
+ Then as soon as you run the cleaning process,
+
+582
+00:32:21,160 --> 00:32:23,040
+ at some random time in the cleaning process,
+
+583
+00:32:23,040 --> 00:32:26,040
+ it will compute the hash of the actual system partition,
+
+584
+00:32:26,040 --> 00:32:29,880
+ compared if it matches to the hash which the kernel expects.
+
+585
+00:32:29,880 --> 00:32:31,880
+ If the hash is not correct, they will just
+
+586
+00:32:31,880 --> 00:32:36,440
+ start spawning your threads and run malloc in a loop, which
+
+587
+00:32:36,440 --> 00:32:38,360
+ will basically cause the whole memory--
+
+588
+00:32:38,360 --> 00:32:41,240
+ that you get the memory leak, basically, randomly.
+
+589
+00:32:41,240 --> 00:32:42,520
+ This can be after five minutes.
+
+590
+00:32:42,520 --> 00:32:43,480
+ This can be after 10 minutes.
+
+591
+00:32:43,480 --> 00:32:45,020
+ But the robot will at some point crash
+
+592
+00:32:45,020 --> 00:32:46,880
+ and just stop at some point.
+
+593
+00:32:46,880 --> 00:32:48,640
+ And this is extremely difficult to debug,
+
+594
+00:32:48,640 --> 00:32:52,360
+ because the thing is there's no locks.
+
+595
+00:32:52,360 --> 00:32:54,480
+ You can't run trace the whole time, because it just
+
+596
+00:32:54,480 --> 00:32:55,200
+ happens randomly.
+
+597
+00:32:55,200 --> 00:32:56,800
+ So at some point, we figured it out.
+
+598
+00:32:56,800 --> 00:32:59,240
+ But this was extremely annoying.
+
+599
+00:32:59,240 --> 00:33:01,960
+ It cost me weeks of reverse engineering
+
+600
+00:33:01,960 --> 00:33:04,800
+ and figuring out what's going on, basically comparing firmwares.
+
+601
+00:33:04,800 --> 00:33:06,160
+ Why it doesn't crash with this firmware?
+
+602
+00:33:06,160 --> 00:33:07,360
+ Why it crashed with this firmware?
+
+603
+00:33:07,360 --> 00:33:08,800
+ What changed?
+
+604
+00:33:08,800 --> 00:33:11,160
+ That's just very sad.
+
+605
+00:33:11,160 --> 00:33:13,920
+ Anyway, so that was the past.
+
+606
+00:33:13,920 --> 00:33:15,120
+ We figured it out.
+
+607
+00:33:15,120 --> 00:33:19,640
+ So let's talk about the current state of robot security.
+
+608
+00:33:19,640 --> 00:33:21,560
+ I want to just use one device, which
+
+609
+00:33:21,560 --> 00:33:24,320
+ I think is the one which has the most protections
+
+610
+00:33:24,320 --> 00:33:25,720
+ and is the most secure one.
+
+611
+00:33:25,720 --> 00:33:29,120
+ And that's the Roborock S8 Pro Ultra.
+
+612
+00:33:29,120 --> 00:33:32,440
+ That's the current flagship model by Roborock.
+
+613
+00:33:32,440 --> 00:33:36,000
+ So that's the newest kind of thing which we have.
+
+614
+00:33:36,000 --> 00:33:41,920
+ This device runs an all-winner MR813,
+
+615
+00:33:41,920 --> 00:33:46,000
+ which is a quad-core sock and runs a couple more MCUs.
+
+616
+00:33:46,000 --> 00:33:49,520
+ It has either 502 megabytes of RAM or 1 gigabyte of RAM.
+
+617
+00:33:49,520 --> 00:33:51,400
+ The reason why they have two different things
+
+618
+00:33:51,400 --> 00:33:52,840
+ is I think they started with 1 gigabyte
+
+619
+00:33:52,840 --> 00:33:54,640
+ and figured out they can get away with 512.
+
+620
+00:33:54,640 --> 00:33:58,920
+ So it's kind of like a cost-cutting measurement.
+
+621
+00:33:58,920 --> 00:34:03,560
+ And they have 4 gigabyte of flash.
+
+622
+00:34:03,560 --> 00:34:05,360
+ This device has two cameras.
+
+623
+00:34:05,360 --> 00:34:07,120
+ One LIDAR sensor and two line lasers.
+
+624
+00:34:07,120 --> 00:34:09,680
+ So it's kind of interesting from a platform.
+
+625
+00:34:09,680 --> 00:34:11,680
+ And security-wise, we checked everything in the book.
+
+626
+00:34:11,680 --> 00:34:13,920
+ Basically, secure boot, the MBRT-protected root of S,
+
+627
+00:34:13,920 --> 00:34:18,840
+ everything encrypted, SA Linux, and ALF signatures.
+
+628
+00:34:18,840 --> 00:34:20,040
+ All right.
+
+629
+00:34:20,040 --> 00:34:23,160
+ I want to give you a short rundown
+
+630
+00:34:23,160 --> 00:34:27,560
+ about the boot process of the S8 Ultra.
+
+631
+00:34:27,560 --> 00:34:29,200
+ It looks a little bit complicated,
+
+632
+00:34:29,200 --> 00:34:34,280
+ but it's important to kind of understand that for our attack.
+
+633
+00:34:34,280 --> 00:34:35,680
+ Let me just get a quick drink here.
+
+634
+00:34:35,680 --> 00:34:40,920
+ All right.
+
+635
+00:34:40,920 --> 00:34:43,520
+ So we start at the boot ROM, which is basically
+
+636
+00:34:43,520 --> 00:34:45,520
+ baked into the SOC.
+
+637
+00:34:45,520 --> 00:34:48,600
+ The boot ROM checks the baked in hash,
+
+638
+00:34:48,600 --> 00:34:52,520
+ which is like in the effuses of the TOC0, which is kind
+
+639
+00:34:52,520 --> 00:34:54,440
+ of like the first-stage bootloader.
+
+640
+00:34:54,440 --> 00:34:56,280
+ The first-stage bootloader initializes the RAM,
+
+641
+00:34:56,280 --> 00:34:58,960
+ so from there we can do other things.
+
+642
+00:34:58,960 --> 00:35:00,800
+ Then TOC0, or the first-stage bootloader,
+
+643
+00:35:00,800 --> 00:35:02,280
+ checks the signature of TOC1, which
+
+644
+00:35:02,280 --> 00:35:07,480
+ is like a technical term here, which launches the trust zone
+
+645
+00:35:07,480 --> 00:35:11,160
+ component, which is OPT, which then verifies and launches
+
+646
+00:35:11,160 --> 00:35:13,040
+ your boot.
+
+647
+00:35:13,040 --> 00:35:15,680
+ You would guess it's a boot configuration.
+
+648
+00:35:15,680 --> 00:35:19,000
+ Then verifies and launches the actual Linux kernel.
+
+649
+00:35:19,000 --> 00:35:21,200
+ The Linux kernel has baked in the DMVariety key,
+
+650
+00:35:21,200 --> 00:35:24,920
+ which will basically verify and mount the root file system.
+
+651
+00:35:24,920 --> 00:35:28,440
+ And the Linux kernel has also the ALF binary signature thing,
+
+652
+00:35:28,440 --> 00:35:31,480
+ which will basically check all the in-head software, which
+
+653
+00:35:31,480 --> 00:35:33,480
+ will be launched after that.
+
+654
+00:35:33,480 --> 00:35:35,720
+ The in-head software itself will talk again to trust zone,
+
+655
+00:35:35,720 --> 00:35:37,220
+ and it will get the keys for the partitions,
+
+656
+00:35:37,220 --> 00:35:39,920
+ and will start to decrypt the software partition,
+
+657
+00:35:39,920 --> 00:35:42,480
+ and will decrypt the user data partition.
+
+658
+00:35:42,480 --> 00:35:45,280
+ So basically what this means is everything
+
+659
+00:35:45,280 --> 00:35:49,440
+ checked everything else, which is kind of an issue.
+
+660
+00:35:49,440 --> 00:35:50,680
+ Or does it?
+
+661
+00:35:50,680 --> 00:35:52,080
+ So the question is, is everything
+
+662
+00:35:52,080 --> 00:35:53,520
+ actually checked by everything?
+
+663
+00:35:53,520 --> 00:35:56,720
+ Well, there's one thing which is a little bit questionable,
+
+664
+00:35:56,720 --> 00:35:59,000
+ and this is the U-Boot portion.
+
+665
+00:35:59,000 --> 00:36:00,600
+ So what is U-Boot?
+
+666
+00:36:00,600 --> 00:36:03,360
+ It's the de facto default bootloader for embedded devices,
+
+667
+00:36:03,360 --> 00:36:05,720
+ so you find it in all the embedded devices, more or less.
+
+668
+00:36:05,720 --> 00:36:07,840
+ It's very powerful software.
+
+669
+00:36:07,840 --> 00:36:10,320
+ It does some setup of hardware.
+
+670
+00:36:10,320 --> 00:36:13,040
+ It sets also the command line arguments for the kernel.
+
+671
+00:36:13,040 --> 00:36:15,360
+ It verifies the kernel and boots it.
+
+672
+00:36:15,360 --> 00:36:18,680
+ And the important thing here is it uses an environment
+
+673
+00:36:18,680 --> 00:36:19,600
+ to configure itself.
+
+674
+00:36:19,600 --> 00:36:20,880
+ And why we need to use this environment
+
+675
+00:36:20,880 --> 00:36:22,320
+ is if you do firmware updates, you
+
+676
+00:36:22,320 --> 00:36:24,200
+ don't want to do it on the operating system which
+
+677
+00:36:24,200 --> 00:36:25,120
+ you're running right now.
+
+678
+00:36:25,120 --> 00:36:27,980
+ You want to do it on a copy, and then just switch to copy.
+
+679
+00:36:27,980 --> 00:36:31,520
+ So you need to have the mechanism to switch between both.
+
+680
+00:36:31,520 --> 00:36:34,220
+ So this is like the AB booting.
+
+681
+00:36:34,220 --> 00:36:36,160
+ And it supports a very powerful command set.
+
+682
+00:36:36,160 --> 00:36:38,600
+ For example, it allows you to loading partitions into memories
+
+683
+00:36:38,600 --> 00:36:40,000
+ which you need for the kernel load.
+
+684
+00:36:40,000 --> 00:36:42,160
+ It allows you to access memory, and it allows you also
+
+685
+00:36:42,160 --> 00:36:44,080
+ to change memory.
+
+686
+00:36:44,080 --> 00:36:48,400
+ So access memory and changing memory.
+
+687
+00:36:48,400 --> 00:36:49,920
+ Can we do anything with that?
+
+688
+00:36:49,920 --> 00:36:53,840
+ Well, the question is, can we ask U-Boot very nicely
+
+689
+00:36:53,840 --> 00:36:55,180
+ to just modify itself?
+
+690
+00:36:55,180 --> 00:36:57,240
+ And so the theory would be here, well,
+
+691
+00:36:57,240 --> 00:36:58,860
+ can we use the read and write commands
+
+692
+00:36:58,860 --> 00:37:01,740
+ to overwrite instructions in the sense of can we just
+
+693
+00:37:01,740 --> 00:37:03,440
+ patch the signature functions?
+
+694
+00:37:03,440 --> 00:37:05,240
+ And so what we need to do here is
+
+695
+00:37:05,240 --> 00:37:06,280
+ we need to do a little bit of math.
+
+696
+00:37:06,280 --> 00:37:08,520
+ So we need to figure out where the signature function is
+
+697
+00:37:08,520 --> 00:37:09,760
+ actually in the memory.
+
+698
+00:37:09,760 --> 00:37:11,760
+ We need to figure out where U-Boot is basically
+
+699
+00:37:11,760 --> 00:37:13,760
+ relocating itself, which is a kind of technical thing which
+
+700
+00:37:13,760 --> 00:37:14,760
+ U-Boot is doing.
+
+701
+00:37:14,760 --> 00:37:17,440
+ And we need to calculate the exact place in memory.
+
+702
+00:37:17,440 --> 00:37:19,920
+ And then we can use this command basically
+
+703
+00:37:19,920 --> 00:37:24,080
+ which writes this E0 1 6 at this particular memory address.
+
+704
+00:37:24,080 --> 00:37:26,040
+ And this basically overwrites all the instructions
+
+705
+00:37:26,040 --> 00:37:28,320
+ of the signature check function.
+
+706
+00:37:28,320 --> 00:37:30,400
+ Which means, so what's the consequence of that?
+
+707
+00:37:30,400 --> 00:37:34,440
+ Well, if we supply U-Boot with malicious config,
+
+708
+00:37:34,440 --> 00:37:36,560
+ what it will do is it will basically
+
+709
+00:37:36,560 --> 00:37:40,720
+ ask U-Boot to patch itself very nicely, which
+
+710
+00:37:40,720 --> 00:37:42,740
+ will disable the verify function so we can
+
+711
+00:37:42,740 --> 00:37:44,520
+ start to modify the kernel.
+
+712
+00:37:44,520 --> 00:37:45,960
+ Because we have modified the kernel,
+
+713
+00:37:45,960 --> 00:37:48,480
+ we can basically disable the elf signature verification.
+
+714
+00:37:48,480 --> 00:37:51,280
+ And we can disable the root file system verification.
+
+715
+00:37:51,280 --> 00:37:53,640
+ And from there, we can just pull out the keys from upt
+
+716
+00:37:53,640 --> 00:37:56,600
+ and we have everything compromised basically at this point.
+
+717
+00:37:56,600 --> 00:37:57,800
+ So we can run our own kernels.
+
+718
+00:37:57,800 --> 00:37:59,720
+ We can run our own file systems.
+
+719
+00:37:59,720 --> 00:38:03,680
+ So what we did achieve with that method generally,
+
+720
+00:38:03,680 --> 00:38:06,160
+ well, we bypassed the secure boot process.
+
+721
+00:38:06,160 --> 00:38:07,400
+ We can modify the kernel.
+
+722
+00:38:07,400 --> 00:38:10,040
+ We can remove all these checks which are in there.
+
+723
+00:38:10,040 --> 00:38:11,880
+ We can also disable the ELINOS, which sometimes
+
+724
+00:38:11,880 --> 00:38:13,000
+ gets a little bit annoying.
+
+725
+00:38:13,000 --> 00:38:16,080
+ And we can modify the root file system.
+
+726
+00:38:16,080 --> 00:38:18,320
+ From there, we can start to install custom software
+
+727
+00:38:18,320 --> 00:38:20,400
+ and get SSH access.
+
+728
+00:38:20,400 --> 00:38:22,680
+ One quick comment here is it's not limited only
+
+729
+00:38:22,680 --> 00:38:23,680
+ on all WinRSOC.
+
+730
+00:38:23,680 --> 00:38:25,920
+ So this attack method surprisingly
+
+731
+00:38:25,920 --> 00:38:27,800
+ works for many, many other devices.
+
+732
+00:38:27,800 --> 00:38:29,520
+ So I tested this on other robots.
+
+733
+00:38:29,520 --> 00:38:30,680
+ I tested it on smart speakers.
+
+734
+00:38:30,680 --> 00:38:31,840
+ I tested it on media devices.
+
+735
+00:38:31,840 --> 00:38:34,120
+ So this works generally wherever you have U-Boot.
+
+736
+00:38:34,120 --> 00:38:37,640
+ You can use the memory commands to just overwrite and patch
+
+737
+00:38:37,640 --> 00:38:40,000
+ U-Boot itself basically as long as you have access to somehow
+
+738
+00:38:40,000 --> 00:38:42,280
+ to your environment partition, which brings us
+
+739
+00:38:42,280 --> 00:38:43,080
+ to the next problem.
+
+740
+00:38:43,080 --> 00:38:45,920
+ So how can we modify the environment partition?
+
+741
+00:38:45,920 --> 00:38:48,240
+ So the problem is without root access,
+
+742
+00:38:48,240 --> 00:38:51,240
+ we cannot modify it for obvious reasons.
+
+743
+00:38:51,240 --> 00:38:53,160
+ And we cannot also modify root file system
+
+744
+00:38:53,160 --> 00:38:55,520
+ if you don't have shell access to the device.
+
+745
+00:38:55,520 --> 00:38:58,360
+ And one thing which I can do, but probably most of the people
+
+746
+00:38:58,360 --> 00:39:01,000
+ in here can do, is to disorder the flash memory, which
+
+747
+00:39:01,000 --> 00:39:02,320
+ is kind of a little bit dangerous
+
+748
+00:39:02,320 --> 00:39:05,480
+ and will definitely void your warranty.
+
+749
+00:39:05,480 --> 00:39:07,160
+ So the good news is I figured out a way
+
+750
+00:39:07,160 --> 00:39:08,560
+ to do that for each of the devices.
+
+751
+00:39:08,560 --> 00:39:12,720
+ So for the old P models, we have a new method,
+
+752
+00:39:12,720 --> 00:39:15,840
+ which is the USB stick method, which I will explain in a minute.
+
+753
+00:39:15,840 --> 00:39:18,640
+ For the newer devices, we use like FEL boot.
+
+754
+00:39:18,640 --> 00:39:20,600
+ So we get it into bootloader.
+
+755
+00:39:20,600 --> 00:39:22,880
+ And for all the Robrock devices, we
+
+756
+00:39:22,880 --> 00:39:25,080
+ have a thing which we call scary FEL boot.
+
+757
+00:39:25,080 --> 00:39:27,440
+ And I will explain why it's scary.
+
+758
+00:39:27,440 --> 00:39:30,000
+ So as a quick recap for people who saw the presentation
+
+759
+00:39:30,000 --> 00:39:32,640
+ two years ago, Dreamy is very, very nice
+
+760
+00:39:32,640 --> 00:39:34,440
+ and gave us lots of debug pins, which
+
+761
+00:39:34,440 --> 00:39:36,820
+ are accessible without completely disassembling the device.
+
+762
+00:39:36,820 --> 00:39:38,760
+ You just need to basically remove a cover
+
+763
+00:39:38,760 --> 00:39:40,480
+ and you have access there.
+
+764
+00:39:40,480 --> 00:39:42,760
+ And all the new devices have exactly the same pinout.
+
+765
+00:39:42,760 --> 00:39:44,800
+ So if you have a routing adapter,
+
+766
+00:39:44,800 --> 00:39:46,320
+ which you can get today for free here,
+
+767
+00:39:46,320 --> 00:39:50,040
+ if I have still some left, you can just connect to that
+
+768
+00:39:50,040 --> 00:39:53,600
+ and you get access to your UART, USB, and some other things.
+
+769
+00:39:53,600 --> 00:39:58,360
+ So let's talk about the USB stick method.
+
+770
+00:39:58,360 --> 00:40:02,880
+ So Dreamy left a back drawer in all the P models
+
+771
+00:40:02,880 --> 00:40:03,800
+ for whatever reason.
+
+772
+00:40:03,800 --> 00:40:05,400
+ I think they just forgot about that.
+
+773
+00:40:05,400 --> 00:40:07,760
+ There's this script which gets executed as soon as you
+
+774
+00:40:07,760 --> 00:40:10,520
+ attach an empty USB stick.
+
+775
+00:40:10,520 --> 00:40:12,640
+ And this is how it looks like.
+
+776
+00:40:12,640 --> 00:40:14,840
+ So basically, if you attach an empty USB stick,
+
+777
+00:40:14,840 --> 00:40:16,960
+ there's a function which will try to check something.
+
+778
+00:40:16,960 --> 00:40:18,280
+ But as you see, this function is basically
+
+779
+00:40:18,280 --> 00:40:19,440
+ doing exactly the same thing.
+
+780
+00:40:19,440 --> 00:40:20,880
+ You just pop a login shell.
+
+781
+00:40:20,880 --> 00:40:23,840
+ So if you just attach an empty USB stick,
+
+782
+00:40:23,840 --> 00:40:25,960
+ they forgot to do the actual authentication.
+
+783
+00:40:25,960 --> 00:40:27,920
+ So you have a shell and from there
+
+784
+00:40:27,920 --> 00:40:30,600
+ you can just do the old methods of routing.
+
+785
+00:40:30,600 --> 00:40:32,320
+ Very, very easy.
+
+786
+00:40:32,320 --> 00:40:34,480
+ And so after locking, you can just patch the environment
+
+787
+00:40:34,480 --> 00:40:35,560
+ and install custom software.
+
+788
+00:40:35,560 --> 00:40:37,040
+ It's super trivial.
+
+789
+00:40:37,040 --> 00:40:39,080
+ The sad news is, apparently for the new models,
+
+790
+00:40:39,080 --> 00:40:39,800
+ we didn't forget that.
+
+791
+00:40:39,800 --> 00:40:41,200
+ So I assume they have two branches which
+
+792
+00:40:41,200 --> 00:40:42,200
+ at some point separated.
+
+793
+00:40:42,200 --> 00:40:44,360
+ They did the implementation of the authentication
+
+794
+00:40:44,360 --> 00:40:46,760
+ of the new models, but they forgot to patch it back.
+
+795
+00:40:46,760 --> 00:40:51,920
+ So they have, I think, some weird issues with their code
+
+796
+00:40:51,920 --> 00:40:53,760
+ management.
+
+797
+00:40:53,760 --> 00:40:58,800
+ For the new RuboRub models, we have this method of FEL boot,
+
+798
+00:40:58,800 --> 00:40:59,840
+ FEL root.
+
+799
+00:40:59,840 --> 00:41:02,440
+ And basically what it does is we need to use some adapter.
+
+800
+00:41:02,440 --> 00:41:04,800
+ We need to use a cable to just get it into bootloader mode.
+
+801
+00:41:04,800 --> 00:41:07,920
+ So we need to short the boot selection pin down to ground.
+
+802
+00:41:07,920 --> 00:41:11,280
+ And then we have custom Phoenix Suite image,
+
+803
+00:41:11,280 --> 00:41:15,160
+ which will basically give us fast boot interface
+
+804
+00:41:15,160 --> 00:41:16,320
+ to access the flash memory.
+
+805
+00:41:16,320 --> 00:41:18,160
+ So it's actually not really a firmware update.
+
+806
+00:41:18,160 --> 00:41:19,700
+ It's kind of like a weird, sketchy thing
+
+807
+00:41:19,700 --> 00:41:22,480
+ which got zombie together out of different parts, which
+
+808
+00:41:22,480 --> 00:41:23,240
+ barely works.
+
+809
+00:41:23,240 --> 00:41:26,440
+ But it works perfectly fine for whatever we try to do.
+
+810
+00:41:26,440 --> 00:41:28,280
+ So what it allows us to automatically patch
+
+811
+00:41:28,280 --> 00:41:31,040
+ the bootloader and the environment.
+
+812
+00:41:31,040 --> 00:41:34,320
+ And it allows us to send the root file system and the kernel
+
+813
+00:41:34,320 --> 00:41:36,640
+ onto the robots via USB.
+
+814
+00:41:36,640 --> 00:41:38,000
+ And it's very, very safe.
+
+815
+00:41:38,000 --> 00:41:39,880
+ So so far, we had zero brick robots.
+
+816
+00:41:39,880 --> 00:41:41,240
+ And even if the robot is brick, we
+
+817
+00:41:41,240 --> 00:41:43,880
+ can recover any robot by doing this method without erasing
+
+818
+00:41:43,880 --> 00:41:46,320
+ data which existed before.
+
+819
+00:41:46,320 --> 00:41:50,640
+ There's a how-to on my website, which you can just look at.
+
+820
+00:41:50,640 --> 00:41:52,440
+ It's lots of pictures.
+
+821
+00:41:52,440 --> 00:41:53,840
+ So it should be very trivial.
+
+822
+00:41:53,840 --> 00:41:56,720
+ If you want to get adapters, there's some [INAUDIBLE]
+
+823
+00:41:56,720 --> 00:41:57,400
+ online.
+
+824
+00:41:57,400 --> 00:41:58,760
+ But you also can get some from me.
+
+825
+00:41:58,760 --> 00:42:00,040
+ I have still some parts left.
+
+826
+00:42:00,040 --> 00:42:02,840
+ So in case you were interested, just hit me up.
+
+827
+00:42:02,840 --> 00:42:06,320
+ Let's talk about the scary FL root.
+
+828
+00:42:06,320 --> 00:42:08,120
+ So the problem which we have with Roborock,
+
+829
+00:42:08,120 --> 00:42:09,160
+ we're a little bit smarter.
+
+830
+00:42:09,160 --> 00:42:12,480
+ They don't give us any debug pins outside, except for USB.
+
+831
+00:42:12,480 --> 00:42:15,440
+ And so I got a little desperate.
+
+832
+00:42:15,440 --> 00:42:17,200
+ So the first approach which I typically do
+
+833
+00:42:17,200 --> 00:42:19,600
+ is I need to complete the device down.
+
+834
+00:42:19,600 --> 00:42:23,120
+ So I spend $1,000, get the device assembled,
+
+835
+00:42:23,120 --> 00:42:24,240
+ remove the PCB.
+
+836
+00:42:24,240 --> 00:42:26,240
+ One thing which I typically do is I remove also
+
+837
+00:42:26,240 --> 00:42:29,360
+ the main processor, which is like 400-something pins,
+
+838
+00:42:29,360 --> 00:42:33,680
+ and start to map out where the tracks are going.
+
+839
+00:42:33,680 --> 00:42:38,080
+ I remove also the EMMC on the backside and do the same thing.
+
+840
+00:42:38,080 --> 00:42:41,280
+ So then the big question is like, OK, I take both pictures,
+
+841
+00:42:41,280 --> 00:42:45,160
+ put them above each other in my favorite hacking tool, MSPaint,
+
+842
+00:42:45,160 --> 00:42:48,400
+ and look at the data sheet and just map down, OK,
+
+843
+00:42:48,400 --> 00:42:49,120
+ where are the pins.
+
+844
+00:42:49,120 --> 00:42:51,680
+ So you see there, I started to kind of map down, like, oh, OK,
+
+845
+00:42:51,680 --> 00:42:54,120
+ I have like RX, TX, FEL.
+
+846
+00:42:54,120 --> 00:42:56,480
+ I have like the data lines of the UART.
+
+847
+00:42:56,480 --> 00:42:58,440
+ And the same thing I do at the front.
+
+848
+00:42:58,440 --> 00:43:00,360
+ So basically I run all the things down
+
+849
+00:43:00,360 --> 00:43:03,400
+ and figure out where are the traces for what,
+
+850
+00:43:03,400 --> 00:43:04,920
+ so that I have some idea.
+
+851
+00:43:04,920 --> 00:43:07,320
+ And one of the things I noticed is actually
+
+852
+00:43:07,320 --> 00:43:11,840
+ I can get access to all the EMMC data lines and pins
+
+853
+00:43:11,840 --> 00:43:15,040
+ which I need to access EMMC memory from the holes
+
+854
+00:43:15,040 --> 00:43:15,600
+ of the buttons.
+
+855
+00:43:15,600 --> 00:43:17,520
+ So basically I will just do a quick thing
+
+856
+00:43:17,520 --> 00:43:19,400
+ in more that don't have much time.
+
+857
+00:43:19,400 --> 00:43:21,040
+ Basically if you just assemble the device,
+
+858
+00:43:21,040 --> 00:43:23,480
+ you just remove-- without disassembling the device,
+
+859
+00:43:23,480 --> 00:43:28,200
+ you just remove the one cover, and you remove the rubber cover,
+
+860
+00:43:28,200 --> 00:43:30,520
+ and you can access everything from this hole
+
+861
+00:43:30,520 --> 00:43:32,600
+ without touching any screws on the back.
+
+862
+00:43:32,600 --> 00:43:34,320
+ So you don't need to disassemble the device.
+
+863
+00:43:34,320 --> 00:43:37,240
+ You don't trash any warranty seals.
+
+864
+00:43:37,240 --> 00:43:41,400
+ You can access everything from the holes of the buttons.
+
+865
+00:43:41,400 --> 00:43:43,040
+ I think my presentation is gone.
+
+866
+00:43:43,040 --> 00:43:43,680
+ Is this my laptop?
+
+867
+00:43:43,680 --> 00:43:57,240
+ OK, no, OK, that's me.
+
+868
+00:43:57,240 --> 00:43:58,000
+ Sorry about that.
+
+869
+00:43:58,000 --> 00:44:02,540
+ OK.
+
+870
+00:44:02,540 --> 00:44:10,780
+ This is a faster way to do that, actually.
+
+871
+00:44:10,780 --> 00:44:16,980
+ All right, I promise I will be very quick for the last five
+
+872
+00:44:16,980 --> 00:44:20,380
+ minutes because I'm running a little bit of the time.
+
+873
+00:44:20,380 --> 00:44:25,180
+ OK, so the good news was that I can access all the pins from--
+
+874
+00:44:25,180 --> 00:44:32,060
+ I'm so sorry.
+
+875
+00:44:32,060 --> 00:44:33,700
+ I promise it worked better at Defqon.
+
+876
+00:44:33,700 --> 00:44:38,720
+ OK.
+
+877
+00:44:38,720 --> 00:44:48,460
+ So was it scary?
+
+878
+00:44:48,460 --> 00:44:52,860
+ Basically we can route the device now without tear down.
+
+879
+00:44:52,860 --> 00:44:54,820
+ We can access it from under the cover.
+
+880
+00:44:54,820 --> 00:44:58,300
+ And that applies both for S8 and S8 for Ultra.
+
+881
+00:44:58,300 --> 00:45:00,660
+ What we can do with that is if you short the data zero pin
+
+882
+00:45:00,660 --> 00:45:04,260
+ to ground at boot up, it can't load the file system,
+
+883
+00:45:04,260 --> 00:45:05,260
+ even the bootloader.
+
+884
+00:45:05,260 --> 00:45:06,500
+ And it will go into bootloader mode,
+
+885
+00:45:06,500 --> 00:45:07,420
+ which is kind of great for us.
+
+886
+00:45:07,420 --> 00:45:10,060
+ And then we can just splash it again over USB.
+
+887
+00:45:10,060 --> 00:45:12,580
+ So it's basically the same approach as for the L10 Ultra
+
+888
+00:45:12,580 --> 00:45:14,260
+ or the ARM models.
+
+889
+00:45:14,260 --> 00:45:18,300
+ And there will be also how to do that very easily.
+
+890
+00:45:18,300 --> 00:45:19,620
+ The question is why is it scary?
+
+891
+00:45:19,620 --> 00:45:22,220
+ And the scary part is you need to basically find
+
+892
+00:45:22,220 --> 00:45:23,860
+ where the trace is and then kind of market it
+
+893
+00:45:23,860 --> 00:45:24,940
+ in this presentation.
+
+894
+00:45:24,940 --> 00:45:26,780
+ And you need to scratch off the solder mask
+
+895
+00:45:26,780 --> 00:45:28,100
+ and access the copper trace.
+
+896
+00:45:28,100 --> 00:45:29,540
+ I would give you a demonstration,
+
+897
+00:45:29,540 --> 00:45:31,460
+ but I think I'm running definitely out of time.
+
+898
+00:45:31,460 --> 00:45:34,300
+ So maybe hit me up later and I can just show you
+
+899
+00:45:34,300 --> 00:45:36,580
+ with a microscope how to do that.
+
+900
+00:45:36,580 --> 00:45:38,900
+ Don't do this method by the way if you feel uncomfortable.
+
+901
+00:45:38,900 --> 00:45:40,660
+ As an alternative, you can still tear it down.
+
+902
+00:45:40,660 --> 00:45:42,180
+ So before you break your device,
+
+903
+00:45:42,180 --> 00:45:44,220
+ it might be safer to disassemble it
+
+904
+00:45:44,220 --> 00:45:46,260
+ and just connect to the actual pin on the back
+
+905
+00:45:46,260 --> 00:45:47,500
+ of the mainboard.
+
+906
+00:45:47,500 --> 00:45:50,980
+ If unsure, please ask others.
+
+907
+00:45:50,980 --> 00:45:52,980
+ There's a Telegram group where a lot of people
+
+908
+00:45:52,980 --> 00:45:55,340
+ did already a lot of experiments of that
+
+909
+00:45:55,340 --> 00:45:57,080
+ and did it on their own.
+
+910
+00:45:57,080 --> 00:45:59,300
+ So they know how to do that.
+
+911
+00:45:59,300 --> 00:46:01,660
+ For the other RoboWork models, a little more complicated.
+
+912
+00:46:01,660 --> 00:46:05,060
+ So sadly for most robots, the process model is the same,
+
+913
+00:46:05,060 --> 00:46:07,980
+ but we cannot access the flash or the back pins
+
+914
+00:46:07,980 --> 00:46:10,340
+ from outside, so you need to disassemble them.
+
+915
+00:46:10,340 --> 00:46:14,820
+ Here the alternative way to get into FAL mode
+
+916
+00:46:14,820 --> 00:46:16,300
+ is to basically connect to a UART
+
+917
+00:46:16,300 --> 00:46:21,300
+ and press the keyboard to while basically accessing it.
+
+918
+00:46:21,300 --> 00:46:24,420
+ You can check out also my website,
+
+919
+00:46:24,420 --> 00:46:27,940
+ robotinfo.dev for the pinouts,
+
+920
+00:46:27,940 --> 00:46:30,100
+ or again ask in the community.
+
+921
+00:46:30,100 --> 00:46:31,900
+ So for the last few slides,
+
+922
+00:46:31,900 --> 00:46:33,640
+ what can we do with root access?
+
+923
+00:46:33,640 --> 00:46:34,880
+ So what do we have now?
+
+924
+00:46:34,880 --> 00:46:36,580
+ So we have secure boot defeated.
+
+925
+00:46:36,580 --> 00:46:38,460
+ We can run custom software,
+
+926
+00:46:38,460 --> 00:46:40,340
+ but what kind of software can we run?
+
+927
+00:46:40,340 --> 00:46:44,700
+ And the question is can we build something of our own
+
+928
+00:46:44,700 --> 00:46:46,900
+ with like as an operation system of SLAM,
+
+929
+00:46:46,900 --> 00:46:48,600
+ navigation and IEI models.
+
+930
+00:46:48,600 --> 00:46:51,400
+ Well, to do our own software is a little bit complicated.
+
+931
+00:46:51,400 --> 00:46:52,620
+ So our main idea is like,
+
+932
+00:46:52,620 --> 00:46:54,420
+ can we just disconnect the device from the cloud
+
+933
+00:46:54,420 --> 00:46:56,460
+ and just keep all the vendor logic in place
+
+934
+00:46:56,460 --> 00:46:59,520
+ and just run the original software?
+
+935
+00:46:59,520 --> 00:47:02,020
+ So one of the questions is like,
+
+936
+00:47:02,020 --> 00:47:03,920
+ what kind of different ways we can we do that?
+
+937
+00:47:03,920 --> 00:47:06,460
+ Some people think we can just disconnect the cloud.
+
+938
+00:47:06,460 --> 00:47:09,540
+ This will make the robot work in most cases,
+
+939
+00:47:09,540 --> 00:47:10,640
+ like if you press the buttons,
+
+940
+00:47:10,640 --> 00:47:13,260
+ but you will lose the features like live maps
+
+941
+00:47:13,260 --> 00:47:15,180
+ or advanced features and map editing.
+
+942
+00:47:15,180 --> 00:47:17,020
+ And why root the device if you just basically
+
+943
+00:47:17,020 --> 00:47:18,540
+ lose all this functionality?
+
+944
+00:47:18,540 --> 00:47:20,940
+ So instead what we try to do is like we try to redirect
+
+945
+00:47:20,940 --> 00:47:22,880
+ the cloud traffic to our own software.
+
+946
+00:47:22,880 --> 00:47:24,980
+ And for that we need to extract some firmware secrets
+
+947
+00:47:24,980 --> 00:47:29,620
+ and basically point it to like a fake cloud emulation.
+
+948
+00:47:29,620 --> 00:47:32,820
+ So let's talk quickly about replacing the cloud.
+
+949
+00:47:32,820 --> 00:47:34,940
+ The initial approach which we had was to redirect
+
+950
+00:47:34,940 --> 00:47:38,020
+ DNS traffic and this was kind of easy.
+
+951
+00:47:38,020 --> 00:47:39,500
+ We were just changing the host files
+
+952
+00:47:39,500 --> 00:47:41,740
+ and we used IP tables to reroute that.
+
+953
+00:47:41,740 --> 00:47:45,500
+ Sadly, Xiaomi who runs the ecosystem, the backend,
+
+954
+00:47:45,500 --> 00:47:46,380
+ kind of figured it out.
+
+955
+00:47:46,380 --> 00:47:48,820
+ And so what we did is like they started to introduce
+
+956
+00:47:48,820 --> 00:47:50,980
+ some content measurements and they basically hard coded
+
+957
+00:47:50,980 --> 00:47:53,460
+ IP addresses in the cloud binary,
+
+958
+00:47:53,460 --> 00:47:55,140
+ which was a little bit mean because that means
+
+959
+00:47:55,140 --> 00:47:57,300
+ that DNS redirection doesn't work anymore.
+
+960
+00:47:57,300 --> 00:48:01,980
+ Our content measurement was basically we counter measured
+
+961
+00:48:01,980 --> 00:48:04,340
+ their stuff, we just replaced their hard coded IP addresses
+
+962
+00:48:04,340 --> 00:48:05,860
+ with our hard coded IP addresses
+
+963
+00:48:05,860 --> 00:48:08,300
+ and it was just working fine.
+
+964
+00:48:08,300 --> 00:48:10,220
+ So this allowed us to run Balotudu,
+
+965
+00:48:10,220 --> 00:48:13,020
+ which is like the custom software which is developed by Zoom
+
+966
+00:48:13,020 --> 00:48:15,700
+ and it completely replaces the cloud and the vendor apps.
+
+967
+00:48:15,700 --> 00:48:17,980
+ It runs locally in a robot, so you have like one package
+
+968
+00:48:17,980 --> 00:48:21,020
+ which has everything in it, like on the robot itself.
+
+969
+00:48:21,020 --> 00:48:22,800
+ It features everything which the cloud offers you,
+
+970
+00:48:22,800 --> 00:48:24,860
+ like full the robot control, live maps,
+
+971
+00:48:24,860 --> 00:48:27,340
+ map editing, the robot configuration.
+
+972
+00:48:27,340 --> 00:48:30,400
+ It has a responsive web interface
+
+973
+00:48:30,400 --> 00:48:33,220
+ and it works both in mobile and desktop.
+
+974
+00:48:33,220 --> 00:48:35,580
+ It gives you also REST RP and the MQTT functionality,
+
+975
+00:48:35,580 --> 00:48:38,780
+ which is important for people who run home automation software.
+
+976
+00:48:38,780 --> 00:48:41,740
+ The weird thing choice from Zoom was basically
+
+977
+00:48:41,740 --> 00:48:43,100
+ to use embedded JavaScript.
+
+978
+00:48:43,100 --> 00:48:44,260
+ There might be something more performant,
+
+979
+00:48:44,260 --> 00:48:45,420
+ but I mean, it works.
+
+980
+00:48:45,420 --> 00:48:47,260
+ These devices are powerful enough.
+
+981
+00:48:47,260 --> 00:48:49,460
+ Anyway, to give you some ideas how this looks like,
+
+982
+00:48:49,460 --> 00:48:51,420
+ I mean, it's a very nice interface
+
+983
+00:48:51,420 --> 00:48:54,340
+ and it gives you all the functionality which you need.
+
+984
+00:48:54,340 --> 00:49:00,460
+ One thing, how do you get the custom software generated?
+
+985
+00:49:00,460 --> 00:49:02,020
+ There's a website called DustBlooder
+
+986
+00:49:02,020 --> 00:49:03,820
+ and one of the reasons why I created this website
+
+987
+00:49:03,820 --> 00:49:06,060
+ was basically that Mac users started to break their devices
+
+988
+00:49:06,060 --> 00:49:08,020
+ because Macs are kind of behaving a little bit weird
+
+989
+00:49:08,020 --> 00:49:11,100
+ how they unpack file systems and repack them again.
+
+990
+00:49:11,100 --> 00:49:12,740
+ So I just want to avoid the support cases
+
+991
+00:49:12,740 --> 00:49:17,300
+ and just have a website which takes care of that.
+
+992
+00:49:17,300 --> 00:49:19,540
+ So basically with this website,
+
+993
+00:49:19,540 --> 00:49:22,860
+ you can build your own robot firmwares
+
+994
+00:49:22,860 --> 00:49:26,060
+ and they're most of the time reproducible builds.
+
+995
+00:49:26,060 --> 00:49:26,900
+ It's easy to use.
+
+996
+00:49:26,900 --> 00:49:30,240
+ It works for Dreamy, Roborock, and VioMe, and some others.
+
+997
+00:49:30,240 --> 00:49:34,180
+ If you don't trust it, the scripts are online on GitHub.
+
+998
+00:49:34,180 --> 00:49:35,320
+ You can just do it themselves.
+
+999
+00:49:35,320 --> 00:49:36,220
+ You just need the firmware file,
+
+1000
+00:49:36,220 --> 00:49:38,780
+ which we can provide you out of legal reasons.
+
+1001
+00:49:38,780 --> 00:49:40,740
+ But if you're interested in that,
+
+1002
+00:49:40,740 --> 00:49:42,620
+ you can go to this website.
+
+1003
+00:49:42,620 --> 00:49:44,880
+ All right, there's a couple more interesting things,
+
+1004
+00:49:44,880 --> 00:49:47,980
+ but I think I will get torn down by from the,
+
+1005
+00:49:47,980 --> 00:49:50,700
+ let me maybe quickly go through that.
+
+1006
+00:49:50,700 --> 00:49:53,820
+ - Exactly, we have a proposal for you guys.
+
+1007
+00:49:53,820 --> 00:49:56,940
+ As the time has elapsed already and due to technical issues,
+
+1008
+00:49:56,940 --> 00:49:59,180
+ we already are five minutes over.
+
+1009
+00:49:59,180 --> 00:50:01,860
+ We just want to give everybody the opportunity
+
+1010
+00:50:01,860 --> 00:50:04,220
+ to go to the next talk perhaps.
+
+1011
+00:50:04,220 --> 00:50:08,860
+ However, as this stage will only continue at 12.30
+
+1012
+00:50:08,860 --> 00:50:11,700
+ with a movie night with War Games,
+
+1013
+00:50:11,700 --> 00:50:14,200
+ which you could definitely have a watch,
+
+1014
+00:50:14,200 --> 00:50:16,420
+ we want to also give you the opportunity
+
+1015
+00:50:16,420 --> 00:50:19,100
+ to share and demonstrate especially the robots
+
+1016
+00:50:19,100 --> 00:50:22,420
+ you brought here until 12 o'clock.
+
+1017
+00:50:22,420 --> 00:50:23,260
+ - Yeah, I think--
+
+1018
+00:50:23,260 --> 00:50:24,300
+ - If that's fine for the crowd.
+
+1019
+00:50:24,300 --> 00:50:27,060
+ (audience cheering)
+
+1020
+00:50:27,060 --> 00:50:30,260
+ Looks like it, so please continue.
+
+1021
+00:50:30,260 --> 00:50:32,740
+ - All right, yeah, sorry for the technical issues.
+
+1022
+00:50:32,740 --> 00:50:35,600
+ I tested everything before, but you never know.
+
+1023
+00:50:35,600 --> 00:50:37,660
+ Anyway, what kind of interesting things did you find?
+
+1024
+00:50:37,660 --> 00:50:40,820
+ Well, we have some camera access.
+
+1025
+00:50:40,820 --> 00:50:44,380
+ All the devices use the video for Linux subsystem
+
+1026
+00:50:44,380 --> 00:50:45,840
+ for their cameras.
+
+1027
+00:50:45,840 --> 00:50:47,560
+ So if you have root access on the device,
+
+1028
+00:50:47,560 --> 00:50:50,500
+ you can just talk to the cameras via the device notes
+
+1029
+00:50:50,500 --> 00:50:52,440
+ like video zero, video one.
+
+1030
+00:50:52,440 --> 00:50:54,820
+ And some of the vendors were even so nice
+
+1031
+00:50:54,820 --> 00:50:57,660
+ and left us debugging tools for the cameras,
+
+1032
+00:50:57,660 --> 00:50:59,660
+ like camera demo, which is an all-in-one tool
+
+1033
+00:50:59,660 --> 00:51:01,700
+ where you can just pull pictures
+
+1034
+00:51:01,700 --> 00:51:03,860
+ and configurations from the camera.
+
+1035
+00:51:03,860 --> 00:51:07,940
+ So let me show you some examples from the optical sensors.
+
+1036
+00:51:07,940 --> 00:51:11,620
+ This is like the Roborock G10S,
+
+1037
+00:51:11,620 --> 00:51:14,380
+ which is mostly used in China and I think in Russia
+
+1038
+00:51:14,380 --> 00:51:15,700
+ and some other Eastern European states
+
+1039
+00:51:15,700 --> 00:51:17,620
+ because we can get it cheaper.
+
+1040
+00:51:17,620 --> 00:51:20,700
+ On the left, you see the robot seeing itself in the mirror.
+
+1041
+00:51:20,700 --> 00:51:23,140
+ So some philosophical picture, basically.
+
+1042
+00:51:23,140 --> 00:51:25,780
+ And on the right is some example of the output.
+
+1043
+00:51:25,780 --> 00:51:27,860
+ Dreamy is a little bit better,
+
+1044
+00:51:27,860 --> 00:51:29,300
+ has better, nicer cameras.
+
+1045
+00:51:29,300 --> 00:51:31,580
+ So on the left, you see the Dreamy L10S Ultra,
+
+1046
+00:51:31,580 --> 00:51:32,980
+ again, in the mirror.
+
+1047
+00:51:32,980 --> 00:51:34,980
+ Under the right, you see one of the pictures
+
+1048
+00:51:34,980 --> 00:51:36,740
+ which it does use for object detection.
+
+1049
+00:51:36,740 --> 00:51:38,860
+ This is in our lab in Boston.
+
+1050
+00:51:38,860 --> 00:51:42,480
+ So this is the kind of quality of pictures you get nowadays.
+
+1051
+00:51:43,580 --> 00:51:48,580
+ This is one where I, this is from the S8.
+
+1052
+00:51:48,580 --> 00:51:50,780
+ Basically, on the left, it's a little bit weird
+
+1053
+00:51:50,780 --> 00:51:54,460
+ because I think I didn't have the exposure correctly.
+
+1054
+00:51:54,460 --> 00:51:56,420
+ On the right, you see my blue elephant,
+
+1055
+00:51:56,420 --> 00:51:59,220
+ which I left in the tent, I think.
+
+1056
+00:51:59,220 --> 00:52:00,060
+ So it's not blue here
+
+1057
+00:52:00,060 --> 00:52:01,500
+ because it has like an infrared camera.
+
+1058
+00:52:01,500 --> 00:52:05,000
+ So it sees basically just in black and white.
+
+1059
+00:52:05,000 --> 00:52:07,860
+ Right, let's talk about quick findings
+
+1060
+00:52:07,860 --> 00:52:09,420
+ which we found at Dreamy.
+
+1061
+00:52:09,420 --> 00:52:12,040
+ So last time, if people saw the last time presentation,
+
+1062
+00:52:12,040 --> 00:52:14,900
+ you might have seen some very sketchy things
+
+1063
+00:52:14,900 --> 00:52:16,840
+ which were left in the firmware.
+
+1064
+00:52:16,840 --> 00:52:19,820
+ Good news this time, they didn't leave SSH credentials
+
+1065
+00:52:19,820 --> 00:52:21,680
+ to the backend service in the firmware this time.
+
+1066
+00:52:21,680 --> 00:52:24,840
+ So that was good for them, I assume.
+
+1067
+00:52:24,840 --> 00:52:26,820
+ They made a lot of improvements in the software.
+
+1068
+00:52:26,820 --> 00:52:29,340
+ So the software is more stable, it's more clean,
+
+1069
+00:52:29,340 --> 00:52:31,380
+ which is also very good for us.
+
+1070
+00:52:31,380 --> 00:52:33,800
+ One of the bad news is that they introduced a lot of
+
+1071
+00:52:33,800 --> 00:52:35,700
+ calling home functions
+
+1072
+00:52:35,700 --> 00:52:37,780
+ and started to enforce geo-blocking by IP addresses.
+
+1073
+00:52:37,780 --> 00:52:39,460
+ So they introduced a lot of functions
+
+1074
+00:52:39,460 --> 00:52:44,460
+ where they will detect if you buy a cheap device in China
+
+1075
+00:52:44,460 --> 00:52:47,740
+ and use it anywhere else, and I think vice versa.
+
+1076
+00:52:47,740 --> 00:52:50,340
+ So there's kind of some weird stuff going on.
+
+1077
+00:52:50,340 --> 00:52:51,640
+ Also, one quick thing is,
+
+1078
+00:52:51,640 --> 00:52:54,900
+ many robots will detect where we are.
+
+1079
+00:52:54,900 --> 00:52:56,220
+ Roborock does it, Dreamy does it,
+
+1080
+00:52:56,220 --> 00:52:58,380
+ and a couple other companies do that too.
+
+1081
+00:52:58,380 --> 00:53:00,220
+ If you're, for example, in America,
+
+1082
+00:53:00,220 --> 00:53:02,620
+ they will disable some functions in the software basically.
+
+1083
+00:53:02,620 --> 00:53:04,320
+ So you don't have edge cleaning anymore
+
+1084
+00:53:04,320 --> 00:53:08,620
+ if you are in the US, if it detects that it's in the US.
+
+1085
+00:53:08,620 --> 00:53:10,660
+ And part of the reason is apparently that iRobot
+
+1086
+00:53:10,660 --> 00:53:12,700
+ has patents on that which expire I think next year.
+
+1087
+00:53:12,700 --> 00:53:14,620
+ So I would expect that this function
+
+1088
+00:53:14,620 --> 00:53:16,740
+ gets enabled magically next year.
+
+1089
+00:53:16,740 --> 00:53:19,020
+ Also, some devices have a dust sensor
+
+1090
+00:53:19,020 --> 00:53:22,180
+ to test how dusty the air is,
+
+1091
+00:53:22,180 --> 00:53:23,220
+ but it's not enabled in software
+
+1092
+00:53:23,220 --> 00:53:25,060
+ because iRobot has again a patent on that
+
+1093
+00:53:25,060 --> 00:53:26,020
+ which expires next year.
+
+1094
+00:53:26,020 --> 00:53:28,460
+ So I think it's kind of weird patent stuff.
+
+1095
+00:53:28,460 --> 00:53:31,860
+ So in case of you wondering why they so livid
+
+1096
+00:53:31,860 --> 00:53:35,980
+ about geo-blocking, it's one of the legal reasons also.
+
+1097
+00:53:35,980 --> 00:53:39,380
+ So the other thing is Dreamy robots and also other robots
+
+1098
+00:53:39,380 --> 00:53:42,860
+ support camera monitoring so you can watch your pets remotely.
+
+1099
+00:53:42,860 --> 00:53:45,260
+ And for legal reasons, most of the time,
+
+1100
+00:53:45,260 --> 00:53:47,340
+ if you're for actually all the devices,
+
+1101
+00:53:47,340 --> 00:53:49,260
+ if you enable the remote camera feature,
+
+1102
+00:53:49,260 --> 00:53:51,740
+ it will warn you via voice prompt and say like,
+
+1103
+00:53:51,740 --> 00:53:53,420
+ oh, camera monitoring is enabled
+
+1104
+00:53:53,420 --> 00:53:56,700
+ and it will repeat that every three minutes or so.
+
+1105
+00:53:56,700 --> 00:54:00,500
+ The, this is I think a legal requirement
+
+1106
+00:54:00,500 --> 00:54:01,820
+ in many, many countries.
+
+1107
+00:54:01,820 --> 00:54:03,900
+ And so, yeah.
+
+1108
+00:54:05,360 --> 00:54:08,140
+ One of the things is that these voice prompts
+
+1109
+00:54:08,140 --> 00:54:09,600
+ they need obviously to be localized.
+
+1110
+00:54:09,600 --> 00:54:12,180
+ So for example, you don't wanna hear like a,
+
+1111
+00:54:12,180 --> 00:54:13,820
+ you know, English voice prompt if you're in Germany
+
+1112
+00:54:13,820 --> 00:54:14,860
+ and some other things.
+
+1113
+00:54:14,860 --> 00:54:17,940
+ So the, these audio files are part of an externally
+
+1114
+00:54:17,940 --> 00:54:20,300
+ downloaded audio pack.
+
+1115
+00:54:20,300 --> 00:54:21,620
+ The problem with this audio pack is
+
+1116
+00:54:21,620 --> 00:54:22,780
+ they are not signed or encrypted.
+
+1117
+00:54:22,780 --> 00:54:25,060
+ So basically you can just override the audio prompt,
+
+1118
+00:54:25,060 --> 00:54:26,940
+ like this warning audio prompt with an empty file
+
+1119
+00:54:26,940 --> 00:54:29,460
+ and basically push it onto the device
+
+1120
+00:54:29,460 --> 00:54:32,340
+ and just disable this prompt and it can spy on people
+
+1121
+00:54:32,340 --> 00:54:34,040
+ which is probably I think a little bit illegal.
+
+1122
+00:54:34,040 --> 00:54:36,020
+ So don't do that again.
+
+1123
+00:54:36,020 --> 00:54:38,820
+ That's probably very illegal in Germany, I think.
+
+1124
+00:54:38,820 --> 00:54:42,180
+ And the important aspect here is it works on all devices,
+
+1125
+00:54:42,180 --> 00:54:43,220
+ not only rooted devices.
+
+1126
+00:54:43,220 --> 00:54:44,740
+ So be a little bit careful
+
+1127
+00:54:44,740 --> 00:54:47,380
+ if you get device from somewhere else.
+
+1128
+00:54:47,380 --> 00:54:50,500
+ One of the biggest fails I saw so far for a very long time
+
+1129
+00:54:50,500 --> 00:54:52,220
+ was how they signed the signatures.
+
+1130
+00:54:52,220 --> 00:54:55,240
+ So I think this is part of a panic process
+
+1131
+00:54:55,240 --> 00:54:58,340
+ which we had last year or two years ago.
+
+1132
+00:54:58,340 --> 00:55:03,000
+ So new robots of Dreamy encrypt and sign the firmware,
+
+1133
+00:55:03,000 --> 00:55:05,140
+ but in a very weird way.
+
+1134
+00:55:05,140 --> 00:55:06,780
+ So the firmware payload looks like this.
+
+1135
+00:55:06,780 --> 00:55:08,940
+ So you have an outside zip archive
+
+1136
+00:55:08,940 --> 00:55:10,380
+ which is encrypted with static passwords
+
+1137
+00:55:10,380 --> 00:55:12,400
+ which is different for each of the models.
+
+1138
+00:55:12,400 --> 00:55:15,540
+ Then they have a random file
+
+1139
+00:55:15,540 --> 00:55:18,040
+ which is signed with a private key by Dreamy
+
+1140
+00:55:18,040 --> 00:55:19,880
+ which you don't have.
+
+1141
+00:55:19,880 --> 00:55:22,660
+ And then you have a zip archive inside
+
+1142
+00:55:22,660 --> 00:55:25,520
+ which is encrypted with the random files, the password.
+
+1143
+00:55:25,520 --> 00:55:29,100
+ Well, what's the problem here?
+
+1144
+00:55:29,100 --> 00:55:30,660
+ Well, the actual firmware is not signed,
+
+1145
+00:55:30,660 --> 00:55:31,860
+ only the password is.
+
+1146
+00:55:31,860 --> 00:55:34,060
+ So basically they signed the password,
+
+1147
+00:55:34,060 --> 00:55:37,700
+ but they didn't sign the actual firmware.
+
+1148
+00:55:37,700 --> 00:55:40,280
+ So you can basically create your fake firmware update
+
+1149
+00:55:40,280 --> 00:55:43,240
+ by just reusing the password which we used before.
+
+1150
+00:55:43,240 --> 00:55:44,980
+ As an analogy, what I would say is,
+
+1151
+00:55:44,980 --> 00:55:48,220
+ imagine you could prove that the phone is yours
+
+1152
+00:55:48,220 --> 00:55:50,140
+ if the pin on the phone is the same as yours.
+
+1153
+00:55:50,140 --> 00:55:51,780
+ So it's kind of like if I have a phone
+
+1154
+00:55:51,780 --> 00:55:53,780
+ which has the password 1234,
+
+1155
+00:55:53,780 --> 00:55:55,220
+ well, actually, now that I think about it,
+
+1156
+00:55:55,220 --> 00:55:56,060
+ the analogy is kind of weird.
+
+1157
+00:55:56,060 --> 00:55:57,180
+ But okay, it's a huge problem.
+
+1158
+00:55:57,180 --> 00:56:00,240
+ So that's a very, very huge fail.
+
+1159
+00:56:00,240 --> 00:56:03,340
+ So basically you can create your own firmware updates
+
+1160
+00:56:03,340 --> 00:56:05,500
+ which are correctly signed in a way
+
+1161
+00:56:05,500 --> 00:56:07,940
+ without the private key of Dreamy
+
+1162
+00:56:07,940 --> 00:56:09,340
+ because we just signed the password
+
+1163
+00:56:09,340 --> 00:56:11,340
+ and not the actual firmware.
+
+1164
+00:56:11,340 --> 00:56:13,100
+ All right, as a summary, finally.
+
+1165
+00:56:13,100 --> 00:56:16,320
+ So we have routing methods for most of the current release,
+
+1166
+00:56:16,320 --> 00:56:18,220
+ Dreamy and Roborock models.
+
+1167
+00:56:18,220 --> 00:56:19,700
+ So we can bypass secure boot,
+
+1168
+00:56:19,700 --> 00:56:22,240
+ we can bypass any other security mechanism.
+
+1169
+00:56:22,240 --> 00:56:26,060
+ We have persistence, we can run our own custom software.
+
+1170
+00:56:26,060 --> 00:56:28,420
+ Now we can validate and verify vendor claims
+
+1171
+00:56:28,420 --> 00:56:29,860
+ which is a very good thing.
+
+1172
+00:56:29,860 --> 00:56:32,760
+ It's probably what the TÜV should have done some time ago.
+
+1173
+00:56:32,760 --> 00:56:36,380
+ And the bootloader attack is also pliable
+
+1174
+00:56:36,380 --> 00:56:37,540
+ to many, many other devices.
+
+1175
+00:56:37,540 --> 00:56:39,500
+ So if you have smart speakers and they run your boot,
+
+1176
+00:56:39,500 --> 00:56:41,460
+ then just take a quick look into that
+
+1177
+00:56:41,460 --> 00:56:43,180
+ if you can manipulate that.
+
+1178
+00:56:43,180 --> 00:56:47,100
+ And this whole routing method basically allows us also
+
+1179
+00:56:47,100 --> 00:56:50,060
+ to do further research into IoT and AI.
+
+1180
+00:56:50,060 --> 00:56:52,860
+ As some final notes,
+
+1181
+00:56:52,860 --> 00:56:55,380
+ please don't use the knowledge for bad things.
+
+1182
+00:56:55,380 --> 00:56:59,100
+ If you do routing, please help others
+
+1183
+00:56:59,100 --> 00:57:00,460
+ if they need help with routing.
+
+1184
+00:57:00,460 --> 00:57:04,500
+ Not many people are feeling comfortable with doing that.
+
+1185
+00:57:04,500 --> 00:57:06,220
+ Especially if you have routing PCBs,
+
+1186
+00:57:06,220 --> 00:57:08,820
+ feel free to share them in your hacker space.
+
+1187
+00:57:08,820 --> 00:57:11,400
+ The tools are mostly published already,
+
+1188
+00:57:11,400 --> 00:57:13,100
+ but there's still some work to do
+
+1189
+00:57:13,100 --> 00:57:16,860
+ because I was a little bit busy over the last couple days.
+
+1190
+00:57:16,860 --> 00:57:18,780
+ So if there's something not published yet,
+
+1191
+00:57:18,780 --> 00:57:21,260
+ please be patient, this will be published very soon.
+
+1192
+00:57:21,260 --> 00:57:23,540
+ If you're interested in more vacuum robot hacking
+
+1193
+00:57:23,540 --> 00:57:25,940
+ or flash forensics, you can join me
+
+1194
+00:57:25,940 --> 00:57:27,380
+ at the hardware I own in the Netherlands,
+
+1195
+00:57:27,380 --> 00:57:30,020
+ which is in the beginning of November.
+
+1196
+00:57:30,020 --> 00:57:31,900
+ There might or might not be a talk
+
+1197
+00:57:31,900 --> 00:57:33,940
+ maybe about vacuum robots again.
+
+1198
+00:57:33,940 --> 00:57:38,080
+ This time not about Robrock or Dreamy, so we will see.
+
+1199
+00:57:38,080 --> 00:57:39,820
+ So some announcements.
+
+1200
+00:57:39,820 --> 00:57:41,380
+ I want to thank Dani Wiggema,
+
+1201
+00:57:41,380 --> 00:57:44,520
+ Giban Obeer, Zirn Baier and Mikael Kolkin,
+
+1202
+00:57:44,520 --> 00:57:47,720
+ and obviously also all the testers in the community.
+
+1203
+00:57:47,720 --> 00:57:50,780
+ And yeah, that's my presentation.
+
+1204
+00:57:50,780 --> 00:57:53,140
+ If you have any questions, feel free to contact me
+
+1205
+00:57:53,140 --> 00:57:56,920
+ on via Telegram, Twitter or email.
+
+1206
+00:57:56,920 --> 00:57:58,820
+ And thank you very much.
+
+1207
+00:57:58,820 --> 00:58:01,260
+ I can also do a quick demonstration of the microscope
+
+1208
+00:58:01,260 --> 00:58:04,020
+ if you're interested, are you interested?
+
+1209
+00:58:04,020 --> 00:58:04,860
+ All right, okay.
+
+1210
+00:58:04,860 --> 00:58:08,020
+ (audience applauding)
+
+1211
+00:58:08,020 --> 00:58:11,980
+ Let me just change to the camera.
+
+1212
+00:58:11,980 --> 00:58:13,900
+ By the way, the camp is very dusty as you can see.
+
+1213
+00:58:13,900 --> 00:58:17,700
+ These robots are not meant for being on a camp.
+
+1214
+00:58:17,700 --> 00:58:20,060
+ So as mentioned before, for the Robrock,
+
+1215
+00:58:20,060 --> 00:58:21,660
+ it's a little bit sketchy or a little bit scary
+
+1216
+00:58:21,660 --> 00:58:24,740
+ because you have to basically remove the cover,
+
+1217
+00:58:24,740 --> 00:58:26,060
+ which is very easy, you can just remove it
+
+1218
+00:58:26,060 --> 00:58:29,700
+ and you have here the plastic part, the rubber part.
+
+1219
+00:58:29,700 --> 00:58:35,620
+ And then you need to find the trace.
+
+1220
+00:58:35,620 --> 00:58:39,500
+ Oh, oops.
+
+1221
+00:58:39,500 --> 00:58:46,460
+ As you see, CS people are always tricky.
+
+1222
+00:58:46,460 --> 00:58:47,300
+ All right.
+
+1223
+00:58:47,300 --> 00:58:55,660
+ Now let me just change it real quick.
+
+1224
+00:58:55,660 --> 00:58:58,820
+ (audience chattering)
+
+1225
+00:58:58,820 --> 00:59:03,340
+ So this is the left button basically.
+
+1226
+00:59:03,340 --> 00:59:07,280
+ And as you can see in a second, we have there a trace.
+
+1227
+00:59:07,280 --> 00:59:15,620
+ Which is basically here comes the via out
+
+1228
+00:59:15,620 --> 00:59:19,380
+ and then goes through here and goes there.
+
+1229
+00:59:19,380 --> 00:59:21,100
+ So one thing which you can do to basically route it,
+
+1230
+00:59:21,100 --> 00:59:23,380
+ you take like something pointy, you don't wanna cut it,
+
+1231
+00:59:23,380 --> 00:59:26,260
+ you just wanna scrape off the trace a little bit.
+
+1232
+00:59:26,260 --> 00:59:28,740
+ So you take it and you find it anyway here
+
+1233
+00:59:28,740 --> 00:59:32,740
+ and you just start to scratch.
+
+1234
+00:59:32,740 --> 00:59:42,340
+ And at some point, so if you use a knife,
+
+1235
+00:59:42,340 --> 00:59:45,100
+ just scratch it, don't cut it please.
+
+1236
+00:59:45,100 --> 00:59:46,540
+ And at some point you will see the copper
+
+1237
+00:59:46,540 --> 00:59:47,660
+ and that should be more or less enough
+
+1238
+00:59:47,660 --> 00:59:50,740
+ to kind of hold it down for like in a moment
+
+1239
+00:59:50,740 --> 00:59:52,420
+ when you power the device on
+
+1240
+00:59:52,420 --> 00:59:54,220
+ and it will go into bootloader mode.
+
+1241
+00:59:54,220 --> 00:59:55,860
+ So just scratch a little bit.
+
+1242
+00:59:55,860 --> 00:59:57,780
+ I know it looks scary and you need to have
+
+1243
+00:59:57,780 --> 00:59:59,260
+ some very good eyes if you have a microscope,
+
+1244
+00:59:59,260 --> 01:00:01,860
+ it's bonus points but you might use also phone.
+
+1245
+01:00:01,860 --> 01:00:02,900
+ And as you can see a little bit,
+
+1246
+01:00:02,900 --> 01:00:05,780
+ you see like already now the copper and that's enough.
+
+1247
+01:00:05,780 --> 01:00:07,700
+ You just need to have like a very short contact.
+
+1248
+01:00:07,700 --> 01:00:12,700
+ It's not mission critical basically to keep it in place.
+
+1249
+01:00:12,700 --> 01:00:14,860
+ Actually, do I see the copper?
+
+1250
+01:00:14,860 --> 01:00:17,420
+ Yeah, I can scratch even a little bit more.
+
+1251
+01:00:17,420 --> 01:00:21,900
+ It's a little bit tricky to do it on camera.
+
+1252
+01:00:21,900 --> 01:00:25,060
+ (audience chattering)
+
+1253
+01:00:25,060 --> 01:00:28,740
+ The more effort you put into that, the less it's visible.
+
+1254
+01:00:28,740 --> 01:00:33,700
+ All right, I think it should be.
+
+1255
+01:00:33,700 --> 01:00:38,140
+ Okay, just imagine but do you see the copper there?
+
+1256
+01:00:38,140 --> 01:00:39,740
+ You should see at some point a copper.
+
+1257
+01:00:39,740 --> 01:00:41,140
+ Again, don't cut the trace
+
+1258
+01:00:41,140 --> 01:00:44,500
+ but you can scratch it off anywhere you want.
+
+1259
+01:00:44,500 --> 01:00:47,060
+ For the other devices, it's a little bit easier.
+
+1260
+01:00:48,340 --> 01:00:52,060
+ The scary aspect of rooting the Dreamy devices
+
+1261
+01:00:52,060 --> 01:00:54,940
+ is to remove the cover and it will feel wrong
+
+1262
+01:00:54,940 --> 01:00:57,100
+ because you need to use a lot of force.
+
+1263
+01:00:57,100 --> 01:00:59,100
+ And because I did that already probably 50 times
+
+1264
+01:00:59,100 --> 01:01:01,940
+ for these ones, this is easier but at some point
+
+1265
+01:01:01,940 --> 01:01:04,660
+ it just comes off and you have the back pins
+
+1266
+01:01:04,660 --> 01:01:06,340
+ very nicely here.
+
+1267
+01:01:06,340 --> 01:01:09,700
+ So from a rooting perspective, Dreamy is great
+
+1268
+01:01:09,700 --> 01:01:11,380
+ but nowadays we can also root Roborock.
+
+1269
+01:01:11,380 --> 01:01:12,780
+ So it's kinda like, I mean, you're not limited
+
+1270
+01:01:12,780 --> 01:01:14,260
+ to one company or the other.
+
+1271
+01:01:14,260 --> 01:01:16,340
+ You can just decide freely.
+
+1272
+01:01:17,140 --> 01:01:18,860
+ All right, if you have any questions,
+
+1273
+01:01:18,860 --> 01:01:22,660
+ feel free to ask them probably after this thing outside.
+
+1274
+01:01:22,660 --> 01:01:25,740
+ Have a bag of couple rooting adapters left.
+
+1275
+01:01:25,740 --> 01:01:27,740
+ Sorry for the technical issues.
+
+1276
+01:01:27,740 --> 01:01:30,020
+ It worked for me before but I mean, you never know.
+
+1277
+01:01:30,020 --> 01:01:31,100
+ It's computer stuff.
+
+1278
+01:01:31,100 --> 01:01:33,420
+ All right, thank you very much for being here
+
+1279
+01:01:33,420 --> 01:01:35,580
+ and thank you very much for your patience.
+
+1280
+01:01:35,580 --> 01:01:38,740
+ (audience applauding)
+
+1281
+01:01:39,020 --> 01:01:41,600
+ (gentle music)
+
+1282
+01:01:41,600 --> 01:01:44,180
+ (upbeat music)
+

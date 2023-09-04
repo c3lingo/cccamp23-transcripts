@@ -1,0 +1,2348 @@
+1
+00:00:00,000 --> 00:00:29,980
+ [ Music ]
+
+2
+00:00:29,980 --> 00:00:33,060
+ >> Hello and good evening on day two
+
+3
+00:00:33,060 --> 00:00:37,060
+ of the Chaos Communication Camp 2023.
+
+4
+00:00:37,060 --> 00:00:39,580
+ It's late in the evening.
+
+5
+00:00:39,580 --> 00:00:42,180
+ This is Millie Way stage, in case you're wondering.
+
+6
+00:00:42,180 --> 00:00:48,340
+ And the next talk is going to be about incident responses.
+
+7
+00:00:48,340 --> 00:00:52,400
+ So if you're curious about how do you even get there
+
+8
+00:00:52,400 --> 00:00:55,540
+ to have an incident response, how you could prepare
+
+9
+00:00:55,540 --> 00:00:58,500
+ for an incident response, and how you could support
+
+10
+00:00:58,500 --> 00:01:02,180
+ in your organization the incident response team
+
+11
+00:01:02,180 --> 00:01:06,700
+ in doing their job and trying to fix whatever broke.
+
+12
+00:01:06,700 --> 00:01:08,440
+ Let's put it that way.
+
+13
+00:01:08,440 --> 00:01:11,180
+ We have the right talk for you.
+
+14
+00:01:11,180 --> 00:01:14,200
+ This is stories from the life of an incident --
+
+15
+00:01:14,200 --> 00:01:17,120
+ from incident responders, Harry and Chris.
+
+16
+00:01:17,120 --> 00:01:19,020
+ Please, a very warm round of applause.
+
+17
+00:01:20,020 --> 00:01:28,380
+ [ Applause ]
+
+18
+00:01:28,380 --> 00:01:30,640
+ So good evening.
+
+19
+00:01:30,640 --> 00:01:32,740
+ Thank you for joining us today.
+
+20
+00:01:32,740 --> 00:01:38,300
+ We will tell you a little bit of our life as incident responders.
+
+21
+00:01:38,300 --> 00:01:40,980
+ And I'm Chris.
+
+22
+00:01:40,980 --> 00:01:45,040
+ I did my computer science studies at the University
+
+23
+00:01:45,040 --> 00:01:46,260
+ of Erlangen-Nuremberg.
+
+24
+00:01:46,260 --> 00:01:50,900
+ I do this security stuff for over 10 years now.
+
+25
+00:01:50,900 --> 00:01:54,540
+ So my CV is a little bit longer at the moment.
+
+26
+00:01:54,540 --> 00:01:55,960
+ I'm a detection engineer.
+
+27
+00:01:55,960 --> 00:02:00,580
+ Before that, I was a long time working in DFIR,
+
+28
+00:02:00,580 --> 00:02:02,420
+ so Digital Forensic Incident Response
+
+29
+00:02:02,420 --> 00:02:04,420
+ in different organizations.
+
+30
+00:02:04,420 --> 00:02:05,960
+ And --
+
+31
+00:02:05,960 --> 00:02:08,060
+ >> Yeah, I'm Harry.
+
+32
+00:02:08,060 --> 00:02:10,740
+ I studied electrical and computer engineering
+
+33
+00:02:10,740 --> 00:02:13,020
+ at RWTH Aachen University.
+
+34
+00:02:13,460 --> 00:02:16,860
+ And I played a lot of CTF and did some hacking stuff
+
+35
+00:02:16,860 --> 00:02:18,380
+ at Chaos Computer Club Aachen.
+
+36
+00:02:18,380 --> 00:02:23,100
+ During my master's, I worked at X41 DSEC doing pen testing
+
+37
+00:02:23,100 --> 00:02:24,460
+ and patch analysis.
+
+38
+00:02:24,460 --> 00:02:28,260
+ So I also have some kind of offensive security background.
+
+39
+00:02:28,260 --> 00:02:31,280
+ And for around one year now, I'm working
+
+40
+00:02:31,280 --> 00:02:34,660
+ at GData Advanced Analytics doing digital forensics
+
+41
+00:02:34,660 --> 00:02:36,000
+ and incident handling.
+
+42
+00:02:36,000 --> 00:02:40,600
+ First, Christian will give you a short introduction,
+
+43
+00:02:40,840 --> 00:02:44,780
+ and then he will tell you how a classical ransomware attack
+
+44
+00:02:44,780 --> 00:02:45,340
+ looks like.
+
+45
+00:02:45,340 --> 00:02:47,920
+ And in the second part of the talk,
+
+46
+00:02:47,920 --> 00:02:52,400
+ I will tell you how the incident responders work
+
+47
+00:02:52,400 --> 00:02:55,980
+ and what you can do in advance to make it go as smooth
+
+48
+00:02:55,980 --> 00:02:58,980
+ as possible and support the incident response team.
+
+49
+00:02:58,980 --> 00:03:04,840
+ >> So as Harry told you, I will probably --
+
+50
+00:03:04,840 --> 00:03:06,960
+ we'll talk about ransomware,
+
+51
+00:03:06,960 --> 00:03:12,420
+ because the customers we usually have are small
+
+52
+00:03:12,420 --> 00:03:15,640
+ and medium-sized businesses, universities, and hospitals.
+
+53
+00:03:15,640 --> 00:03:17,940
+ And those are regularly --
+
+54
+00:03:17,940 --> 00:03:25,020
+ unfortunately, regularly hit by ransomware gangs.
+
+55
+00:03:25,020 --> 00:03:28,420
+ The main reason for this -- and that's --
+
+56
+00:03:28,420 --> 00:03:35,400
+ if you heard the last talk, why they may be not that responsive
+
+57
+00:03:35,400 --> 00:03:40,100
+ and not so interested in -- they just lack the resources,
+
+58
+00:03:40,100 --> 00:03:45,420
+ so the manpower to do proper security measurements
+
+59
+00:03:45,420 --> 00:03:50,100
+ and to secure their systems, especially in situations
+
+60
+00:03:50,100 --> 00:03:53,500
+ where you are, for example, in a hospital, have medical devices
+
+61
+00:03:53,500 --> 00:03:59,020
+ where you cannot simply install an AV on or even patch the
+
+62
+00:03:59,020 --> 00:04:02,180
+ system, because you lose the certification
+
+63
+00:04:02,180 --> 00:04:03,920
+ as a medical device then.
+
+64
+00:04:04,480 --> 00:04:09,720
+ But also in companies, manufacturing companies,
+
+65
+00:04:09,720 --> 00:04:13,160
+ on the shop floor, we are talking about systems
+
+66
+00:04:13,160 --> 00:04:16,520
+ that have run times of 25-plus years.
+
+67
+00:04:16,520 --> 00:04:19,880
+ So if you look back now, 2023,
+
+68
+00:04:19,880 --> 00:04:23,780
+ we are talking about XP and older systems.
+
+69
+00:04:23,780 --> 00:04:29,220
+ Fun fact, I was in a ransomware case in a WannaCry in 2017
+
+70
+00:04:29,220 --> 00:04:34,320
+ when I got a call from a person from the shop floor
+
+71
+00:04:34,640 --> 00:04:41,000
+ asking me if we have an NT4 expert that can tell us
+
+72
+00:04:41,000 --> 00:04:46,160
+ if WannaCry is affecting NT4.
+
+73
+00:04:46,160 --> 00:04:50,800
+ Of course, you don't need to be an expert on NT4 in this.
+
+74
+00:04:50,800 --> 00:04:54,680
+ WannaCry is, of course, not affecting NT4 systems.
+
+75
+00:04:54,680 --> 00:05:01,000
+ So due to the time slot, we thought memes are the best way
+
+76
+00:05:01,000 --> 00:05:02,920
+ to tell you those stories.
+
+77
+00:05:03,720 --> 00:05:05,160
+ And we have a lot of them.
+
+78
+00:05:05,160 --> 00:05:10,760
+ So in the first section, I tell you a little bit
+
+79
+00:05:10,760 --> 00:05:12,360
+ about how an attack works.
+
+80
+00:05:12,360 --> 00:05:16,880
+ There are a lot of different possibilities how you can
+
+81
+00:05:16,880 --> 00:05:21,320
+ describe and how to structure how an attack works.
+
+82
+00:05:21,320 --> 00:05:24,640
+ There's the MITRE ATT&CK framework, for example.
+
+83
+00:05:24,640 --> 00:05:29,800
+ There was a talk yesterday by Meika Sauko here on the stage.
+
+84
+00:05:29,800 --> 00:05:33,520
+ There's the original cyber kill chain from Lockheed Martin.
+
+85
+00:05:34,200 --> 00:05:39,600
+ You have stuff from companies like Mandiant.
+
+86
+00:05:39,600 --> 00:05:41,600
+ They're targeting the tech lifecycle.
+
+87
+00:05:41,600 --> 00:05:45,880
+ But that's all, in my opinion, too fine-grained.
+
+88
+00:05:45,880 --> 00:05:50,760
+ That's the reason I just take three simple steps.
+
+89
+00:05:50,760 --> 00:05:55,880
+ Get a foothold in the door, look, move, play around,
+
+90
+00:05:55,880 --> 00:05:57,280
+ and cash out.
+
+91
+00:05:57,280 --> 00:06:00,920
+ Those three I will just go over.
+
+92
+00:06:03,160 --> 00:06:07,040
+ So start with get a foot in the door.
+
+93
+00:06:07,040 --> 00:06:11,640
+ So normally, we see three ways how attackers can get
+
+94
+00:06:11,640 --> 00:06:15,680
+ into the environment in ransomware cases.
+
+95
+00:06:15,680 --> 00:06:20,200
+ You have vulnerabilities in remote or internet-facing systems.
+
+96
+00:06:20,200 --> 00:06:23,320
+ You have the remote services itself.
+
+97
+00:06:23,320 --> 00:06:25,600
+ And you have malware.
+
+98
+00:06:25,600 --> 00:06:29,640
+ Starting with the vulnerabilities.
+
+99
+00:06:30,360 --> 00:06:36,480
+ And I just looked up the last four years.
+
+100
+00:06:36,480 --> 00:06:40,360
+ And maybe somebody remembers Netscaler,
+
+101
+00:06:40,360 --> 00:06:44,680
+ the so-called shit tricks vulnerability in December 2019.
+
+102
+00:06:44,680 --> 00:06:50,760
+ It was released mid of 2019, December 2019.
+
+103
+00:06:50,760 --> 00:06:54,840
+ The first POC, publicly available POC,
+
+104
+00:06:54,840 --> 00:06:56,560
+ was in the beginning of January.
+
+105
+00:06:56,560 --> 00:06:59,240
+ And the patch was available in mid of January.
+
+106
+00:06:59,240 --> 00:07:02,840
+ So there was around one week to one and a half weeks
+
+107
+00:07:02,840 --> 00:07:06,320
+ between a public proof of concept for the vulnerability
+
+108
+00:07:06,320 --> 00:07:08,640
+ and a patch for the vulnerability.
+
+109
+00:07:08,640 --> 00:07:15,520
+ And what we saw during 2020, a lot of companies patched,
+
+110
+00:07:15,520 --> 00:07:18,640
+ but the patch didn't remove the compromise.
+
+111
+00:07:18,640 --> 00:07:20,520
+ So they were already compromised.
+
+112
+00:07:20,520 --> 00:07:26,800
+ And yeah, with the patch, they didn't remove the compromise.
+
+113
+00:07:27,680 --> 00:07:31,960
+ So what we found, what we could provably see
+
+114
+00:07:31,960 --> 00:07:38,360
+ or prove evidence for was a nine-month customer
+
+115
+00:07:38,360 --> 00:07:42,320
+ was breached after nine months using this vulnerability.
+
+116
+00:07:42,320 --> 00:07:46,520
+ And we had other customers where we could see
+
+117
+00:07:46,520 --> 00:07:50,200
+ that the Netscaler was affected after two years.
+
+118
+00:07:50,200 --> 00:07:54,400
+ But we couldn't prove that this compromise
+
+119
+00:07:54,400 --> 00:07:59,320
+ was the reason for the actual ransomware case.
+
+120
+00:07:59,320 --> 00:08:03,200
+ And of course, such vulnerabilities
+
+121
+00:08:03,200 --> 00:08:05,160
+ happen not that often.
+
+122
+00:08:05,160 --> 00:08:14,120
+ Yeah, so 2021 gave us a Hafnium exchange vulnerability.
+
+123
+00:08:14,120 --> 00:08:19,400
+ Also, a similar situation, the patch appeared
+
+124
+00:08:19,400 --> 00:08:21,240
+ as an out-of-band patch from Microsoft
+
+125
+00:08:21,240 --> 00:08:24,760
+ on a Tuesday evening, 10 o'clock in German time.
+
+126
+00:08:24,760 --> 00:08:31,480
+ We saw during our incidents or the assessments we did
+
+127
+00:08:31,480 --> 00:08:37,680
+ that the first exploitation attempts
+
+128
+00:08:37,680 --> 00:08:42,720
+ were seen on Wednesday in the morning at 5 a.m.
+
+129
+00:08:42,720 --> 00:08:45,440
+ So around seven, eight hours later.
+
+130
+00:08:45,440 --> 00:08:50,600
+ I know one guy who could patch
+
+131
+00:08:50,600 --> 00:08:53,200
+ because he was online when the patch was released.
+
+132
+00:08:53,200 --> 00:08:57,080
+ Otherwise, Germany was unable to patch in time.
+
+133
+00:08:57,080 --> 00:09:02,760
+ And of course, we can go on with 2021.
+
+134
+00:09:02,760 --> 00:09:05,640
+ Proxy shell also exchanged vulnerability.
+
+135
+00:09:05,640 --> 00:09:08,800
+ Proxy not shell also exchanged vulnerability.
+
+136
+00:09:08,800 --> 00:09:13,400
+ We have in 2022 VMware Horizon,
+
+137
+00:09:13,400 --> 00:09:17,400
+ the virtual desktop infrastructure from VMware.
+
+138
+00:09:18,480 --> 00:09:21,160
+ Just to name also open source stuff,
+
+139
+00:09:21,160 --> 00:09:25,080
+ Zimbra, a collaboration platform including an email server,
+
+140
+00:09:25,080 --> 00:09:28,200
+ has had a vulnerability.
+
+141
+00:09:28,200 --> 00:09:32,640
+ Actually, the vulnerability was in CPIO from 2015, I think,
+
+142
+00:09:32,640 --> 00:09:39,000
+ which led to a compromise using via email.
+
+143
+00:09:39,000 --> 00:09:41,840
+ So you send an email with a CPIO,
+
+144
+00:09:41,840 --> 00:09:46,320
+ with a specially crafted archive file,
+
+145
+00:09:46,920 --> 00:09:50,760
+ and you could drop a web shell in one of the directories.
+
+146
+00:09:50,760 --> 00:09:55,320
+ Yeah, you have, of course, 40 OS,
+
+147
+00:09:55,320 --> 00:10:02,240
+ which is the 40 gate VPN and firewall operating system.
+
+148
+00:10:02,240 --> 00:10:08,600
+ And if you read the news, we started the beginning again.
+
+149
+00:10:08,600 --> 00:10:11,680
+ Netscaler had some issues several weeks ago.
+
+150
+00:10:12,600 --> 00:10:14,960
+ According to Fox IT, we have 1,900
+
+151
+00:10:14,960 --> 00:10:18,120
+ still unpatched Netscalers worldwide.
+
+152
+00:10:18,120 --> 00:10:23,880
+ How many patched Netscalers exist
+
+153
+00:10:23,880 --> 00:10:27,720
+ that have not been checked for compromise?
+
+154
+00:10:27,720 --> 00:10:28,840
+ We do not know, of course.
+
+155
+00:10:28,840 --> 00:10:32,280
+ So that will be a nice year, probably.
+
+156
+00:10:32,280 --> 00:10:38,400
+ So what can you do against this kind of attack vector?
+
+157
+00:10:38,400 --> 00:10:41,240
+ Patch your systems is one thing.
+
+158
+00:10:41,800 --> 00:10:45,400
+ As you see, that doesn't lead to the --
+
+159
+00:10:45,400 --> 00:10:51,080
+ or what you need to do afterwards in such cases,
+
+160
+00:10:51,080 --> 00:10:57,200
+ you need to check your systems for possible compromise.
+
+161
+00:10:57,200 --> 00:10:59,640
+ That is important.
+
+162
+00:10:59,640 --> 00:11:03,720
+ To reduce this, I highly suggest
+
+163
+00:11:03,720 --> 00:11:07,560
+ put your services behind some VPN
+
+164
+00:11:08,320 --> 00:11:12,880
+ so that only people who already have connection to the VPN
+
+165
+00:11:12,880 --> 00:11:17,480
+ can access your services or the services they need.
+
+166
+00:11:17,480 --> 00:11:22,880
+ And that would reduce the attack surface,
+
+167
+00:11:22,880 --> 00:11:24,760
+ at least to the VPN server.
+
+168
+00:11:24,760 --> 00:11:31,720
+ So, but of course, we can also think about remote services
+
+169
+00:11:31,720 --> 00:11:33,320
+ without vulnerabilities.
+
+170
+00:11:35,520 --> 00:11:38,960
+ There can be configuration mistakes,
+
+171
+00:11:38,960 --> 00:11:40,640
+ so the admin does something wrong.
+
+172
+00:11:40,640 --> 00:11:45,640
+ There can be insecure default configurations like this.
+
+173
+00:11:45,640 --> 00:11:51,480
+ I don't know if you know it, but the local admins
+
+174
+00:11:51,480 --> 00:11:53,840
+ or the administrators on a Windows system
+
+175
+00:11:53,840 --> 00:11:58,720
+ are automatically in the remote desktop users group.
+
+176
+00:11:58,720 --> 00:12:03,040
+ And so we had several cases,
+
+177
+00:12:03,040 --> 00:12:04,440
+ especially in the beginning of the pandemic
+
+178
+00:12:04,440 --> 00:12:08,280
+ when everybody moved to the home offices
+
+179
+00:12:08,280 --> 00:12:13,520
+ and they needed to put people fast in the position
+
+180
+00:12:13,520 --> 00:12:16,920
+ to access the internal systems again.
+
+181
+00:12:16,920 --> 00:12:20,080
+ They just put an RDP server on the internet
+
+182
+00:12:20,080 --> 00:12:22,280
+ and hoped for the best.
+
+183
+00:12:22,280 --> 00:12:28,120
+ Additionally, if you put services on the internet,
+
+184
+00:12:28,120 --> 00:12:30,960
+ of course, brute forcing and credential stuffing
+
+185
+00:12:30,960 --> 00:12:33,080
+ are attacks that are possible.
+
+186
+00:12:33,800 --> 00:12:35,320
+ So, brute forcing,
+
+187
+00:12:35,320 --> 00:12:38,680
+ just trying the username and password combinations,
+
+188
+00:12:38,680 --> 00:12:43,400
+ credential stuffing using already leaked passwords
+
+189
+00:12:43,400 --> 00:12:46,760
+ or credentials from leaks you find on the internet.
+
+190
+00:12:46,760 --> 00:12:52,000
+ What you can do about this kind of attack vector
+
+191
+00:12:52,000 --> 00:12:56,320
+ is just, as I said, use multi-factor authentication
+
+192
+00:12:56,320 --> 00:13:00,520
+ and reduce the attack surface,
+
+193
+00:13:00,520 --> 00:13:03,360
+ as in the vulnerabilities before,
+
+194
+00:13:03,360 --> 00:13:06,000
+ by moving the services behind a VPN
+
+195
+00:13:06,000 --> 00:13:09,400
+ and then use multi-factor authentication on a VPN,
+
+196
+00:13:09,400 --> 00:13:11,000
+ of course.
+
+197
+00:13:11,000 --> 00:13:15,360
+ The last vector that we see normally
+
+198
+00:13:15,360 --> 00:13:20,120
+ that attackers can get in the network is malware.
+
+199
+00:13:20,120 --> 00:13:26,400
+ We all know this about those funny emails
+
+200
+00:13:26,400 --> 00:13:28,600
+ you get with the attachments.
+
+201
+00:13:28,600 --> 00:13:35,840
+ Include that have either Word documents attached,
+
+202
+00:13:35,840 --> 00:13:40,640
+ either zip files with visual basic scripts,
+
+203
+00:13:40,640 --> 00:13:42,560
+ JavaScripts, and what you can get,
+
+204
+00:13:42,560 --> 00:13:46,720
+ ISOs you see a lot these days.
+
+205
+00:13:46,720 --> 00:13:51,040
+ Or what you can also have,
+
+206
+00:13:51,040 --> 00:13:54,000
+ that you can have just a link inside the email
+
+207
+00:13:54,000 --> 00:13:56,200
+ and you download the respective file
+
+208
+00:13:56,200 --> 00:14:01,120
+ from some shady file sharing website.
+
+209
+00:14:01,120 --> 00:14:09,600
+ What we saw over the last year was USB sticks again, funnily.
+
+210
+00:14:09,600 --> 00:14:14,000
+ I am not sure if you have heard about Raspberry Robin,
+
+211
+00:14:14,000 --> 00:14:19,640
+ which is a malware that warms via USB sticks.
+
+212
+00:14:21,840 --> 00:14:28,120
+ But I have not seen it as a vector for ransomware yet
+
+213
+00:14:28,120 --> 00:14:29,440
+ on my own.
+
+214
+00:14:29,440 --> 00:14:34,200
+ But there are people who said that it is an initial access
+
+215
+00:14:34,200 --> 00:14:36,480
+ broker for some of the ransomware gangs.
+
+216
+00:14:36,480 --> 00:14:40,480
+ What can you do about this?
+
+217
+00:14:40,480 --> 00:14:46,240
+ If you think you can, of course,
+
+218
+00:14:46,240 --> 00:14:51,520
+ ban simply some file extensions in your mail server
+
+219
+00:14:51,520 --> 00:14:55,640
+ or you change the file association types
+
+220
+00:14:55,640 --> 00:14:59,560
+ in your operating system,
+
+221
+00:14:59,560 --> 00:15:03,720
+ meaning that you do not open the JavaScript
+
+222
+00:15:03,720 --> 00:15:06,120
+ and visual basic script files using, for example,
+
+223
+00:15:06,120 --> 00:15:10,920
+ the Windows Scripting host, but open it with Notepad.
+
+224
+00:15:10,920 --> 00:15:14,760
+ And that will, of course, some people will be --
+
+225
+00:15:14,760 --> 00:15:21,400
+ some people will think about what this is then
+
+226
+00:15:21,400 --> 00:15:22,960
+ and ask the IT guys,
+
+227
+00:15:22,960 --> 00:15:26,160
+ but it is better than running the script itself.
+
+228
+00:15:26,160 --> 00:15:34,240
+ One thing I do not like to say, but keep your AD updated.
+
+229
+00:15:34,240 --> 00:15:40,040
+ This is one thing, keep it updated and read the logs.
+
+230
+00:15:40,040 --> 00:15:47,280
+ We see a lot of incidents where we see that already days
+
+231
+00:15:47,280 --> 00:15:48,840
+ or weeks before,
+
+232
+00:15:48,840 --> 00:15:51,720
+ we could have seen that there is something going on
+
+233
+00:15:51,720 --> 00:15:53,320
+ in your network.
+
+234
+00:15:53,320 --> 00:16:01,560
+ And if you see malware in your AV logs, then react to it.
+
+235
+00:16:01,560 --> 00:16:02,960
+ Just check it.
+
+236
+00:16:02,960 --> 00:16:07,160
+ You do not know how long this malware has been on your system.
+
+237
+00:16:07,160 --> 00:16:13,440
+ The thing is that just because your AV detected it now,
+
+238
+00:16:13,440 --> 00:16:18,160
+ it might have received an update for its signatures.
+
+239
+00:16:18,920 --> 00:16:22,560
+ And the malware was active for days or weeks before.
+
+240
+00:16:22,560 --> 00:16:28,000
+ When they are inside,
+
+241
+00:16:28,000 --> 00:16:33,440
+ then they usually look, move, and play around a little bit.
+
+242
+00:16:33,440 --> 00:16:43,840
+ When they look around, what they do is they enumerate AD.
+
+243
+00:16:44,440 --> 00:16:48,200
+ They do port scans. They search for vulnerabilities.
+
+244
+00:16:48,200 --> 00:16:55,400
+ They check how they can escalate their privileges.
+
+245
+00:16:55,400 --> 00:16:58,920
+ They try to find credentials.
+
+246
+00:16:58,920 --> 00:17:02,080
+ Kerberoasting, we heard in the talk before,
+
+247
+00:17:02,080 --> 00:17:03,680
+ for example, is this one thing.
+
+248
+00:17:03,680 --> 00:17:13,320
+ They try to identify accounts you have running on your systems.
+
+249
+00:17:13,320 --> 00:17:16,800
+ They can get the credentials from and reuse.
+
+250
+00:17:16,800 --> 00:17:22,200
+ For that reason, one of the most important things,
+
+251
+00:17:22,200 --> 00:17:27,360
+ I think, is that you have a principle
+
+252
+00:17:27,360 --> 00:17:29,680
+ of least privileges in your environment.
+
+253
+00:17:29,680 --> 00:17:34,720
+ Only what an account needs, you should be able to do.
+
+254
+00:17:34,720 --> 00:17:39,600
+ You should use dedicated service accounts
+
+255
+00:17:39,600 --> 00:17:41,640
+ for your services, of course.
+
+256
+00:17:42,960 --> 00:17:47,040
+ Just for your information, a service account is not an account
+
+257
+00:17:47,040 --> 00:17:50,440
+ that has an SVC underscore in front of it
+
+258
+00:17:50,440 --> 00:17:52,800
+ and is otherwise a normal user account.
+
+259
+00:17:52,800 --> 00:17:57,680
+ There are dedicated service accounts in Windows environments.
+
+260
+00:17:57,680 --> 00:18:01,240
+ Use them. Use strong passwords.
+
+261
+00:18:01,240 --> 00:18:06,320
+ Today, I know companies who still use
+
+262
+00:18:06,320 --> 00:18:09,000
+ eight-character-long passwords.
+
+263
+00:18:11,280 --> 00:18:14,440
+ I think that is 20 minutes on a decent graphics card today.
+
+264
+00:18:14,440 --> 00:18:19,160
+ Use strong passwords. Length matters.
+
+265
+00:18:19,160 --> 00:18:25,640
+ Twelve-plus characters is the minimum, in my opinion.
+
+266
+00:18:25,640 --> 00:18:32,920
+ Do not reuse passwords, especially on your systems.
+
+267
+00:18:32,920 --> 00:18:34,920
+ The local administrator,
+
+268
+00:18:34,920 --> 00:18:37,240
+ especially in small and medium-sized businesses,
+
+269
+00:18:37,920 --> 00:18:43,480
+ you see a lot that people use the same password
+
+270
+00:18:43,480 --> 00:18:45,720
+ for all local administrators.
+
+271
+00:18:45,720 --> 00:18:48,800
+ If I have it on one system, I have the whole company.
+
+272
+00:18:48,800 --> 00:18:51,920
+ Do not reuse it.
+
+273
+00:18:51,920 --> 00:19:06,960
+ When they move around in your network
+
+274
+00:19:06,960 --> 00:19:09,800
+ using either password hashes they found,
+
+275
+00:19:09,800 --> 00:19:13,520
+ valid credentials they discovered somewhere,
+
+276
+00:19:13,520 --> 00:19:18,440
+ vulnerabilities are also used to move around in your environment.
+
+277
+00:19:18,440 --> 00:19:22,360
+ They try to establish persistence mechanisms.
+
+278
+00:19:22,360 --> 00:19:26,560
+ We heard also in the talk before about the C2 channels,
+
+279
+00:19:26,560 --> 00:19:28,480
+ command and control channels they use.
+
+280
+00:19:28,480 --> 00:19:33,800
+ They install, in some cases, directly any desk,
+
+281
+00:19:33,800 --> 00:19:37,560
+ a team viewer, or other remote control software.
+
+282
+00:19:37,560 --> 00:19:42,080
+ Or sometimes they also use tunneling softwares like ngrok,
+
+283
+00:19:42,080 --> 00:19:45,160
+ or recently they started using CloudFlare D.
+
+284
+00:19:45,160 --> 00:19:51,720
+ What you need to do is have a proper network segmentation.
+
+285
+00:19:51,720 --> 00:19:54,720
+ With a proper network segmentation,
+
+286
+00:19:54,720 --> 00:19:56,320
+ I do not talk about subnetting.
+
+287
+00:19:56,320 --> 00:20:02,640
+ Subnetting means you just have different subnets.
+
+288
+00:20:02,640 --> 00:20:04,600
+ You need to have a firewall between them,
+
+289
+00:20:04,600 --> 00:20:07,440
+ and you need to have rules between them
+
+290
+00:20:07,440 --> 00:20:13,280
+ that restrict access between your subnets.
+
+291
+00:20:13,280 --> 00:20:17,200
+ One thing is especially important,
+
+292
+00:20:17,200 --> 00:20:26,920
+ please use network segmentation to restrict access
+
+293
+00:20:26,920 --> 00:20:29,360
+ to your backup and your management systems
+
+294
+00:20:29,360 --> 00:20:30,960
+ as far as possible.
+
+295
+00:20:31,640 --> 00:20:34,000
+ We see a lot, especially as I said,
+
+296
+00:20:34,000 --> 00:20:35,840
+ in the small and medium-sized businesses
+
+297
+00:20:35,840 --> 00:20:38,840
+ or in the other organizations we have as customers,
+
+298
+00:20:38,840 --> 00:20:46,560
+ that they tell us in workshops,
+
+299
+00:20:46,560 --> 00:20:50,120
+ "Yes, we have network segmentation.
+
+300
+00:20:50,120 --> 00:20:52,120
+ Every building is one segment."
+
+301
+00:20:52,120 --> 00:20:56,960
+ And the question, "Yes, you can move in a segment.
+
+302
+00:20:56,960 --> 00:20:59,240
+ You can access everything."
+
+303
+00:20:59,240 --> 00:21:02,040
+ "Yes, you can, and between the buildings,
+
+304
+00:21:02,040 --> 00:21:06,200
+ you have also a firewall and you cannot access anything."
+
+305
+00:21:06,200 --> 00:21:08,360
+ "No, you can access everything."
+
+306
+00:21:08,360 --> 00:21:13,000
+ And also your VMware management console,
+
+307
+00:21:13,000 --> 00:21:15,840
+ "Oh, yes, yes, we can, so everybody can access it."
+
+308
+00:21:15,840 --> 00:21:18,320
+ "Yes, of course." And that does not work.
+
+309
+00:21:27,600 --> 00:21:29,200
+ When they play around,
+
+310
+00:21:29,200 --> 00:21:31,880
+ they normally try to gain more privileges.
+
+311
+00:21:31,880 --> 00:21:34,000
+ So privilege escalation is a thing,
+
+312
+00:21:34,000 --> 00:21:36,880
+ local privilege escalations normally,
+
+313
+00:21:36,880 --> 00:21:42,480
+ but also using vulnerabilities or misconfigurations,
+
+314
+00:21:42,480 --> 00:21:44,560
+ insecure default configurations.
+
+315
+00:21:44,560 --> 00:21:50,080
+ My personal favorites are group policy preferences
+
+316
+00:21:50,080 --> 00:21:52,560
+ or passwords in group policy preferences.
+
+317
+00:21:54,640 --> 00:21:56,760
+ This is no longer possible since, I think,
+
+318
+00:21:56,760 --> 00:22:02,080
+ 2014 to put passwords in group policy preferences.
+
+319
+00:22:02,080 --> 00:22:06,440
+ However, if you had your password stored
+
+320
+00:22:06,440 --> 00:22:10,480
+ in those preferences before the patch in 2015,
+
+321
+00:22:10,480 --> 00:22:13,720
+ 2014, then they're still there.
+
+322
+00:22:13,720 --> 00:22:18,080
+ And yeah, they are AES encrypted,
+
+323
+00:22:18,080 --> 00:22:20,880
+ but the encryption key is on the Microsoft website.
+
+324
+00:22:22,320 --> 00:22:24,720
+ So you can just download it,
+
+325
+00:22:24,720 --> 00:22:26,640
+ just take it and decrypt the keys.
+
+326
+00:22:26,640 --> 00:22:32,280
+ During that phase, they also try to disable
+
+327
+00:22:32,280 --> 00:22:33,880
+ your security measures.
+
+328
+00:22:33,880 --> 00:22:38,840
+ The thing you can do is, of course, patch your systems.
+
+329
+00:22:38,840 --> 00:22:41,760
+ So try to get your vulnerabilities
+
+330
+00:22:41,760 --> 00:22:43,600
+ out of this equation.
+
+331
+00:22:43,600 --> 00:22:46,360
+ Try to configure your system.
+
+332
+00:22:46,360 --> 00:22:53,240
+ systems in a secure way, this is not always possible due to some shitty third-party software.
+
+333
+00:22:53,240 --> 00:23:05,480
+ And keep your AV updated and please, as I said already, check the locks and act accordingly.
+
+334
+00:23:05,480 --> 00:23:16,500
+ So in the last phase, they cash out, that's when they start using your backup service,
+
+335
+00:23:16,500 --> 00:23:25,120
+ so they copy data from your environment using file sharing platforms, for example, Mega
+
+336
+00:23:25,120 --> 00:23:32,880
+ NZ was once a thing, WeTransfer, we had already every other file sharing platform you can
+
+337
+00:23:32,880 --> 00:23:37,840
+ think about as a possible way to exfiltrate data.
+
+338
+00:23:37,840 --> 00:23:45,340
+ They also use their C2 communication channels, so sometimes they just use the possibilities
+
+339
+00:23:45,340 --> 00:23:50,720
+ in any desk or in RDP clients.
+
+340
+00:23:50,720 --> 00:23:59,480
+ Or they use file transfer protocols like SFTP.
+
+341
+00:23:59,480 --> 00:24:04,420
+ We saw, for example, in one case that they tried to install FileZilla on every machine
+
+342
+00:24:04,420 --> 00:24:09,880
+ they had access to, because on the first one it didn't work, on the second it didn't work,
+
+343
+00:24:09,880 --> 00:24:14,860
+ on the third it didn't work, because SFTP was blocked outgoing.
+
+344
+00:24:14,860 --> 00:24:24,960
+ And that is one of the things you can do to prevent exfiltration, block at least protocols
+
+345
+00:24:24,960 --> 00:24:31,600
+ you know that you don't need in your environment, and proper network segmentation, of course,
+
+346
+00:24:31,600 --> 00:24:35,660
+ is a general thing.
+
+347
+00:24:35,660 --> 00:24:43,000
+ So in the last step, that's when they start the encryption.
+
+348
+00:24:43,000 --> 00:24:49,040
+ They're running the ransomware, normally they have domain admins at that point, so they
+
+349
+00:24:49,040 --> 00:24:53,640
+ can run it on all domain-connected systems.
+
+350
+00:24:53,640 --> 00:24:58,920
+ They can also disable, of course, when they are domain admin, they can disable the AV
+
+351
+00:24:58,920 --> 00:25:02,480
+ before they start the ransomware.
+
+352
+00:25:02,480 --> 00:25:08,440
+ Ransomwares today disable services like databases and such things, so that they have the full
+
+353
+00:25:08,440 --> 00:25:16,280
+ power of the machine for the encryption.
+
+354
+00:25:16,280 --> 00:25:24,400
+ If you get lucky, not everything works perfectly, because they use group names, and Windows
+
+355
+00:25:24,400 --> 00:25:34,720
+ is especially picky when you have non-English Windows installed.
+
+356
+00:25:34,720 --> 00:25:43,840
+ For example, in Germany, the group everybody is called jeder, and we had cases where the
+
+357
+00:25:43,840 --> 00:25:49,240
+ server didn't work that well because they couldn't change the permissions of the files
+
+358
+00:25:49,240 --> 00:25:53,720
+ first.
+
+359
+00:25:53,720 --> 00:26:00,280
+ They use different encryption schemas, normally they come with an asymmetric and a symmetric
+
+360
+00:26:00,280 --> 00:26:05,840
+ encryption type, the asymmetric public key cryptography, the public key comes with the
+
+361
+00:26:05,840 --> 00:26:14,240
+ ransomware and is used to encrypt the symmetric keys they generate in your environment.
+
+362
+00:26:14,240 --> 00:26:19,960
+ Depending on the ransomware, they generate one key for each system or even one key for
+
+363
+00:26:19,960 --> 00:26:20,960
+ each file.
+
+364
+00:26:20,960 --> 00:26:27,000
+ It depends a little bit on the ransomware, how it works, but that's the usual thing they
+
+365
+00:26:27,000 --> 00:26:29,600
+ use.
+
+366
+00:26:29,600 --> 00:26:40,880
+ I would never count on the fact that there are possibly, maybe, there could be decryptable
+
+367
+00:26:40,880 --> 00:26:45,120
+ things.
+
+368
+00:26:45,120 --> 00:26:55,080
+ In my world, the ransomware gangs have learned and used the standard Microsoft Windows or
+
+369
+00:26:55,080 --> 00:27:00,800
+ some other publicly available libraries to do their encryption.
+
+370
+00:27:00,800 --> 00:27:12,680
+ They execute it via remote tools like PSX, PowerShell, or some use GPOs, group policies,
+
+371
+00:27:12,680 --> 00:27:19,360
+ to execute the ransomware on every machine connected to the domain.
+
+372
+00:27:19,360 --> 00:27:21,320
+ What can you do about this?
+
+373
+00:27:21,320 --> 00:27:31,920
+ It's hard, but the most important thing is have offline backups.
+
+374
+00:27:31,920 --> 00:27:37,160
+ You see, online backups are great, but not that great.
+
+375
+00:27:37,160 --> 00:27:43,280
+ Offline backups is the most important thing.
+
+376
+00:27:43,280 --> 00:27:46,960
+ Don't have it connected to your environment.
+
+377
+00:27:46,960 --> 00:27:55,960
+ The USB disk on a system is not an offline backup.
+
+378
+00:27:55,960 --> 00:28:04,920
+ In my opinion, if you see that something is still encrypting, I'm always hesitant to say
+
+379
+00:28:04,920 --> 00:28:10,040
+ shut down the system, because you can break the encryption and maybe the file that is
+
+380
+00:28:10,040 --> 00:28:17,680
+ currently under encryption or the files will never be decryptable if you want to buy a
+
+381
+00:28:17,680 --> 00:28:29,680
+ decryptor or get a decryptor through some discussions with the ransomware guys.
+
+382
+00:28:29,680 --> 00:28:34,240
+ If it's a VM, just suspend it, and that's it.
+
+383
+00:28:34,240 --> 00:28:51,920
+ If everything is already encrypted, keep cool and call your incident responder.
+
+384
+00:28:51,920 --> 00:28:54,800
+ So now let's talk about incident response.
+
+385
+00:28:54,800 --> 00:28:59,720
+ What happens when it's already too late, and what can you do to support your incident response
+
+386
+00:28:59,720 --> 00:29:00,720
+ team?
+
+387
+00:29:00,720 --> 00:29:07,280
+ First, the things I'll say in this chapter are for our company and how we work, so other
+
+388
+00:29:07,280 --> 00:29:11,840
+ companies might work a little bit different than that.
+
+389
+00:29:11,840 --> 00:29:19,960
+ First, for some reason, incidents always come on Friday afternoon.
+
+390
+00:29:19,960 --> 00:29:25,920
+ Some customers think it is a good idea to try to solve a case by themselves, maybe until
+
+391
+00:29:25,920 --> 00:29:30,560
+ the end of the week, and if they didn't solve it until the end of the week, they call the
+
+392
+00:29:30,560 --> 00:29:32,160
+ incident response team.
+
+393
+00:29:32,160 --> 00:29:33,480
+ Please don't do that.
+
+394
+00:29:33,480 --> 00:29:38,480
+ It doesn't help your company and it doesn't make your incident response team happy to
+
+395
+00:29:38,480 --> 00:29:41,440
+ have to work on the weekend.
+
+396
+00:29:41,440 --> 00:29:46,720
+ In addition, the longer you wait with calling the incident response team, the longer the
+
+397
+00:29:46,720 --> 00:29:53,080
+ incident response will take and the more complicated forensics will be, because you have lock retention
+
+398
+00:29:53,080 --> 00:29:59,600
+ times while trying to do stuff by yourself, maybe you modify some of the systems, and
+
+399
+00:29:59,600 --> 00:30:05,520
+ it becomes much more harder to do precise forensics.
+
+400
+00:30:05,520 --> 00:30:10,160
+ So what happens on our side when such a new incident ticket arrives?
+
+401
+00:30:10,160 --> 00:30:13,940
+ The first thing we do is team internal coordination.
+
+402
+00:30:13,940 --> 00:30:18,680
+ So we discuss do we have enough people, do we have a person for each role.
+
+403
+00:30:18,680 --> 00:30:26,560
+ In our team we have three roles, incident handling, forensics analyst, and malware analyst.
+
+404
+00:30:26,560 --> 00:30:31,200
+ So first let's talk about incident handling.
+
+405
+00:30:31,200 --> 00:30:35,920
+ Incident handler is responsible for all the tasks that our customer is facing, and the
+
+406
+00:30:35,920 --> 00:30:41,160
+ first point is always get the customer out of that headless chicken mode, like we call
+
+407
+00:30:41,160 --> 00:30:47,000
+ it, because when an incident comes at our customer site, everyone is running around
+
+408
+00:30:47,000 --> 00:30:53,560
+ in circles like headless chicken, doing something, but not doing anything helpful.
+
+409
+00:30:53,560 --> 00:30:57,160
+ So this is always the first task for the incident handler.
+
+410
+00:30:57,160 --> 00:31:03,160
+ Handler structure the customer, do meetings, and then do all the relevant decisions, leading
+
+411
+00:31:03,160 --> 00:31:06,200
+ to a secure emergency operation mode.
+
+412
+00:31:06,200 --> 00:31:11,840
+ That means in this case that you have working core infrastructure, so working domain controller,
+
+413
+00:31:11,840 --> 00:31:18,520
+ maybe a working email server, and whatever you need, or whatever you define as very business
+
+414
+00:31:18,520 --> 00:31:21,480
+ critical systems.
+
+415
+00:31:21,480 --> 00:31:23,680
+ Let's go a little bit more in detail.
+
+416
+00:31:23,680 --> 00:31:29,120
+ Probably the first measure will be to cut off the internet connection, because you just
+
+417
+00:31:29,120 --> 00:31:31,620
+ buy you a lot of time with doing that.
+
+418
+00:31:31,620 --> 00:31:36,080
+ No matter how many back doors the attackers placed in the network, if you cut off the
+
+419
+00:31:36,080 --> 00:31:41,120
+ internet connection, the attackers can't access their back doors anymore.
+
+420
+00:31:41,120 --> 00:31:44,600
+ And then you will start to rebuild your network.
+
+421
+00:31:44,600 --> 00:31:50,480
+ You will define everything in your current infrastructure as red network, and then start
+
+422
+00:31:50,480 --> 00:31:54,000
+ building up a green network with clean systems.
+
+423
+00:31:54,000 --> 00:32:01,000
+ Maybe you will start with some admin workstations so that the administrators can work properly.
+
+424
+00:32:01,000 --> 00:32:07,600
+ And then we go through a prioritized system list and build up the most important systems.
+
+425
+00:32:07,600 --> 00:32:13,780
+ This can be of course, like I said, domain controllers, email servers, but also whatever
+
+426
+00:32:13,780 --> 00:32:18,500
+ is important for your current company and for the business.
+
+427
+00:32:18,500 --> 00:32:24,060
+ This is of course in a hospital something very different from a small business or maybe
+
+428
+00:32:24,060 --> 00:32:25,460
+ a university.
+
+429
+00:32:25,460 --> 00:32:30,500
+ And please have such a prioritized list before your first incident.
+
+430
+00:32:30,500 --> 00:32:36,340
+ Because when you start discussing in an incident which system is the most important, then everyone
+
+431
+00:32:36,340 --> 00:32:38,580
+ in the company will tell you something else.
+
+432
+00:32:38,580 --> 00:32:44,420
+ And everyone will tell you that their system is the most important and has to be migrated
+
+433
+00:32:44,420 --> 00:32:47,340
+ and checked and analyzed at first.
+
+434
+00:32:47,340 --> 00:32:50,700
+ And this isn't really helpful.
+
+435
+00:32:50,700 --> 00:32:55,460
+ So during incident handling, there might also be obstacles.
+
+436
+00:32:55,460 --> 00:33:00,820
+ For example, if you have backups and you encrypted your backups, this is great.
+
+437
+00:33:00,820 --> 00:33:05,500
+ But you should think about where to store that encryption key.
+
+438
+00:33:05,500 --> 00:33:09,820
+ Because when you store it in your password manager and the password manager database
+
+439
+00:33:09,820 --> 00:33:15,660
+ is in a VM, which then gets encrypted by the ransomware, well, you have backups, but you
+
+440
+00:33:15,660 --> 00:33:18,380
+ don't have your key to decrypt the backups.
+
+441
+00:33:18,380 --> 00:33:21,700
+ So this doesn't help you very much.
+
+442
+00:33:21,700 --> 00:33:26,060
+ And this is not only true for password.
+
+443
+00:33:26,060 --> 00:33:31,580
+ This is also true for, like, everything else which you could need during an incident, like
+
+444
+00:33:31,580 --> 00:33:38,980
+ contact lists or network lists and so on.
+
+445
+00:33:38,980 --> 00:33:45,600
+ So working with third parties is also a task for the incident handler.
+
+446
+00:33:45,600 --> 00:33:50,300
+ This could be a data protection agency or the customer's customers, because they also
+
+447
+00:33:50,300 --> 00:33:55,920
+ often have some panic and have questions which the customer maybe can't answer.
+
+448
+00:33:55,920 --> 00:33:59,620
+ So this is also a task for the incident handler.
+
+449
+00:33:59,620 --> 00:34:02,900
+ And of course, also working with law enforcement.
+
+450
+00:34:02,900 --> 00:34:04,900
+ But there's one thing to keep in mind.
+
+451
+00:34:04,900 --> 00:34:08,740
+ Law enforcement wants to do criminal investigation.
+
+452
+00:34:08,740 --> 00:34:12,740
+ Incident response wants to bring you back to business as soon as possible.
+
+453
+00:34:12,740 --> 00:34:18,620
+ This is not necessarily the same goal, but it finally makes sense to allow your incident
+
+454
+00:34:18,620 --> 00:34:23,800
+ responders to share all information with law enforcement, because this is beneficial for
+
+455
+00:34:23,800 --> 00:34:27,100
+ everyone.
+
+456
+00:34:27,100 --> 00:34:30,660
+ So why do I do forensics at all, one could ask.
+
+457
+00:34:30,660 --> 00:34:36,300
+ Well, the less precise the forensic results are, the more conservative the rebuild needs
+
+458
+00:34:36,300 --> 00:34:37,300
+ to be.
+
+459
+00:34:37,300 --> 00:34:43,600
+ So if you don't know anything about the attack, you have to rebuild everything from scratch.
+
+460
+00:34:43,600 --> 00:34:49,860
+ So let's say you have maybe two week old backups and you know the initial access of the attackers
+
+461
+00:34:49,860 --> 00:34:51,720
+ was only one week ago.
+
+462
+00:34:51,720 --> 00:34:57,460
+ Then you could use the two weeks old backups for rebuilding, which is really great.
+
+463
+00:34:57,460 --> 00:35:03,360
+ But if you don't know how long the attackers were in the network, then it's really hard
+
+464
+00:35:03,360 --> 00:35:07,360
+ to say.
+
+465
+00:35:07,360 --> 00:35:12,880
+ A second point why you should do forensics is to estimate the impact, especially in an
+
+466
+00:35:12,880 --> 00:35:16,100
+ early phase of an attack.
+
+467
+00:35:16,100 --> 00:35:20,480
+ It is important to know that the attackers only compromised some user devices or that
+
+468
+00:35:20,480 --> 00:35:26,000
+ they already gained domain administrative privileges, because then the incident handling
+
+469
+00:35:26,000 --> 00:35:29,160
+ is completely different.
+
+470
+00:35:29,160 --> 00:35:35,000
+ And of course it is also relevant to know which attack path the attackers used, so you
+
+471
+00:35:35,000 --> 00:35:40,400
+ can harden your network and improve in the future.
+
+472
+00:35:40,400 --> 00:35:43,220
+ How should forensics be?
+
+473
+00:35:43,220 --> 00:35:47,920
+ It should of course be correct, it should be non-disruptive for the customer, so that
+
+474
+00:35:47,920 --> 00:35:52,880
+ they can concentrate on rebuilding their infrastructure and it should be fast.
+
+475
+00:35:52,880 --> 00:35:54,400
+ What means correct?
+
+476
+00:35:54,400 --> 00:36:00,000
+ You want to have a dedicated forensics analyst, so you want to have incident response team,
+
+477
+00:36:00,000 --> 00:36:04,480
+ which is doing incident response in their day-to-day business.
+
+478
+00:36:04,480 --> 00:36:10,000
+ And you want in your forensics teams one person who can really concentrate on forensics and
+
+479
+00:36:10,000 --> 00:36:14,600
+ is not also doing the incident handling and the malware analysis and so on, because then
+
+480
+00:36:14,600 --> 00:36:19,440
+ you can't really concentrate on doing the technical work.
+
+481
+00:36:19,440 --> 00:36:22,120
+ It also should be non-disruptive, as I said.
+
+482
+00:36:22,120 --> 00:36:27,080
+ That means for our company we do remote triage collection, we use the tool Velociraptor for
+
+483
+00:36:27,080 --> 00:36:28,080
+ it.
+
+484
+00:36:28,080 --> 00:36:30,800
+ This is an unofficial logo of Velociraptor.
+
+485
+00:36:30,800 --> 00:36:36,960
+ It's a really nice tool, because we just send our customers an exe file, the customer just
+
+486
+00:36:36,960 --> 00:36:43,520
+ has to execute the exe file and then it collects all the logs we need, all the information
+
+487
+00:36:43,520 --> 00:36:51,600
+ we need and uploads it to our infrastructure, so we don't need to drive to the customer
+
+488
+00:36:51,600 --> 00:36:58,640
+ and start copying hard disks for weeks, because this doesn't help anyone.
+
+489
+00:36:58,640 --> 00:37:04,760
+ I should also say it should be fast, so we have a lot of automation and tooling to make
+
+490
+00:37:04,760 --> 00:37:12,600
+ the work really fast, automatically pushing the uploaded files to our analysis infrastructure,
+
+491
+00:37:12,600 --> 00:37:14,960
+ automatically doing reporting and so on.
+
+492
+00:37:14,960 --> 00:37:20,600
+ I won't go into detail here, because this is enough for a single talk about it, maybe
+
+493
+00:37:20,600 --> 00:37:23,760
+ on Congress, let's see.
+
+494
+00:37:23,760 --> 00:37:28,960
+ So what happens when we do manual forensic analysis?
+
+495
+00:37:28,960 --> 00:37:32,000
+ There are some questions you normally want to answer.
+
+496
+00:37:32,000 --> 00:37:36,720
+ One is of course about the vectors, you want to find all vectors, the attackers placed
+
+497
+00:37:36,720 --> 00:37:38,560
+ in the network.
+
+498
+00:37:38,560 --> 00:37:43,440
+ Of course you want to have general IOCs, so indicators of compromise, so maybe which
+
+499
+00:37:43,440 --> 00:37:48,680
+ IP addresses did the attackers use, so you can block them in the firewall, or which tools
+
+500
+00:37:48,680 --> 00:37:54,760
+ did they use, so you can scan over the whole IT infrastructure and find further compromised
+
+501
+00:37:54,760 --> 00:38:00,520
+ systems and if you have the IOCs you can also cross correlate between cases or share them
+
+502
+00:38:00,520 --> 00:38:03,560
+ with law enforcement.
+
+503
+00:38:03,560 --> 00:38:08,680
+ Another important thing is of course lettering movement, because you can use lettering movement
+
+504
+00:38:08,680 --> 00:38:14,920
+ to build a timeline of the attack, so the mythology here is to look where the attackers
+
+505
+00:38:14,920 --> 00:38:17,600
+ came from and where the attackers went.
+
+506
+00:38:17,600 --> 00:38:22,700
+ So if you have a system A and you see the attackers came from system B, then you analyse
+
+507
+00:38:22,700 --> 00:38:28,520
+ system B and go back in time, and the same you could do forward in time until you found
+
+508
+00:38:28,520 --> 00:38:36,720
+ all relevant systems which were compromised and have a proper timeline of the case.
+
+509
+00:38:36,720 --> 00:38:42,760
+ Another common thing in the life of an incident responder is to fall in a rabbit hole, because
+
+510
+00:38:42,760 --> 00:38:49,560
+ it can be really, really interesting to do forensics, but you need to check what the
+
+511
+00:38:49,560 --> 00:38:55,360
+ customer really wants to know or what your incident handler really wants to know, and
+
+512
+00:38:55,360 --> 00:39:02,120
+ not just analyse something and fall into the rabbit hole, because this really doesn't help
+
+513
+00:39:02,120 --> 00:39:03,120
+ anyone.
+
+514
+00:39:03,120 --> 00:39:09,200
+ Here also the 80/20 rule applies, so I'd say you get like 80% of the relevant forensics
+
+515
+00:39:09,200 --> 00:39:14,440
+ results in 20% of the time, and often this is enough for the incident handler to do the
+
+516
+00:39:14,440 --> 00:39:21,680
+ right decisions to rebuild the customer's networks as fast as possible.
+
+517
+00:39:21,680 --> 00:39:25,760
+ So let's go into reporting.
+
+518
+00:39:25,760 --> 00:39:32,840
+ Nobody really likes reporting, but producing fancy forensics results, doing fancy technical
+
+519
+00:39:32,840 --> 00:39:38,020
+ stuff is worthless if you can't explain it to a manager.
+
+520
+00:39:38,020 --> 00:39:43,420
+ Nobody pays us to do fancy technical stuff, nobody understands, but we are paid to help
+
+521
+00:39:43,420 --> 00:39:48,720
+ our customers and explain the situation to them and to do the right decisions, so yeah,
+
+522
+00:39:48,720 --> 00:39:54,960
+ nobody likes reporting, but it is a really, really important thing.
+
+523
+00:39:54,960 --> 00:39:59,920
+ So after delivering the report, the incident is over and all work is done, right?
+
+524
+00:39:59,920 --> 00:40:07,840
+ No, not really, because such a report normally contains a lot of recommendations, what to
+
+525
+00:40:07,840 --> 00:40:15,720
+ do for the customers, and as I already said, incident response more or less stops when
+
+526
+00:40:15,720 --> 00:40:19,800
+ the customer is in an emergency operation mode with the core infrastructure and the
+
+527
+00:40:19,800 --> 00:40:26,800
+ most critical systems working, but there's still a lot to do, and of course security
+
+528
+00:40:26,800 --> 00:40:33,960
+ is a process, so there's always something to improve to stay ahead of the attackers.
+
+529
+00:40:33,960 --> 00:40:44,240
+ So now let's go into a quick recap.
+
+530
+00:40:44,240 --> 00:40:51,560
+ To protect against those kind of attacks, we have these topics just as a recap.
+
+531
+00:40:51,560 --> 00:41:00,040
+ Patch your systems, it's important, keep them updated, vulnerabilities come and go, that's
+
+532
+00:41:00,040 --> 00:41:01,320
+ one thing.
+
+533
+00:41:01,320 --> 00:41:10,760
+ Have a sane, privileged account management, so use the correct user accounts for the right
+
+534
+00:41:10,760 --> 00:41:21,880
+ task, use the second two-factor authentication for remote services, have a proper network
+
+535
+00:41:21,880 --> 00:41:29,600
+ segmentation, so put firewalls and access rules between your networks, check your AV
+
+536
+00:41:29,600 --> 00:41:38,760
+ locks regularly and act accordingly, and not really protecting against an attack, but keeping
+
+537
+00:41:38,760 --> 00:41:49,800
+ the symptoms a little bit, not that devastating, have offline backups.
+
+538
+00:41:49,800 --> 00:41:55,320
+ So how to make incident response easier for you, for yourself, and for the incident response
+
+539
+00:41:55,320 --> 00:41:56,520
+ team?
+
+540
+00:41:56,520 --> 00:42:01,840
+ First thing is don't try to solve the stuff by yourself, just call the incident response
+
+541
+00:42:01,840 --> 00:42:07,320
+ team of your trust as soon as you know you have an incident.
+
+542
+00:42:07,320 --> 00:42:12,680
+ The second thing is logging policy, because if you have a very short lock retention, for
+
+543
+00:42:12,680 --> 00:42:18,520
+ example, and you only have locks for the last, like, two days, then it might be hard to find
+
+544
+00:42:18,520 --> 00:42:24,160
+ out what happened, and if you don't lock stuff at all, especially in the cloud environments,
+
+545
+00:42:24,160 --> 00:42:29,960
+ this is a thing where you need to look at, then it might also be hard to get proper forensic
+
+546
+00:42:29,960 --> 00:42:30,960
+ results.
+
+547
+00:42:31,960 --> 00:42:37,800
+ Then, as I said, have offline contact lists, because your main server is down, your accounts
+
+548
+00:42:37,800 --> 00:42:42,320
+ are compromised, so you can't use, like, your Microsoft Teams or whatever you use in your
+
+549
+00:42:42,320 --> 00:42:50,240
+ company, you need an alternative way to communicate to your colleagues and/or employees.
+
+550
+00:42:50,240 --> 00:42:57,320
+ Then as I said, prioritize asset list and network plans, and a disaster recovery plan
+
+551
+00:42:57,320 --> 00:43:04,640
+ in best case, and please all have all that in a secure place in best case on paper.
+
+552
+00:43:04,640 --> 00:43:12,240
+ Well, nobody likes doing stuff with dead trees, I know, but dead trees don't get ransomwared,
+
+553
+00:43:12,240 --> 00:43:14,480
+ right?
+
+554
+00:43:14,480 --> 00:43:19,080
+ So that's it from our side, more or less.
+
+555
+00:43:19,080 --> 00:43:25,080
+ Normally this is the point where you can ask us questions, but we want to spin that around
+
+556
+00:43:25,080 --> 00:43:32,080
+ and give you some questions, maybe someone can guess the right answer.
+
+557
+00:43:32,080 --> 00:43:35,040
+ What do you think is the shortest time to domain admin?
+
+558
+00:43:35,040 --> 00:43:39,640
+ We saw an incident between initial compromise and the attacker scanning domain admin.
+
+559
+00:43:39,640 --> 00:43:50,280
+ Yeah, it's not -- somebody said 17 seconds, two minutes, well, it's not that bad.
+
+560
+00:43:50,280 --> 00:43:55,200
+ Six minutes is what we have seen in the incident.
+
+561
+00:43:55,200 --> 00:43:59,200
+ What do you think is the shortest lock retention on a domain controller?
+
+562
+00:43:59,200 --> 00:44:03,400
+ So how long -- zero?
+
+563
+00:44:03,400 --> 00:44:05,400
+ Ten hours, I hear?
+
+564
+00:44:05,400 --> 00:44:14,400
+ Well, it is 2.5 minutes.
+
+565
+00:44:14,400 --> 00:44:21,800
+ What do you think is the highest number of domain administrator accounts we saw in an
+
+566
+00:44:21,800 --> 00:44:22,800
+ incident?
+
+567
+00:44:22,800 --> 00:44:23,800
+ 200?
+
+568
+00:44:23,800 --> 00:44:24,800
+ 50?
+
+569
+00:44:24,800 --> 00:44:25,800
+ 64?
+
+570
+00:44:25,800 --> 00:44:33,480
+ With 120 people working in IT?
+
+571
+00:44:33,480 --> 00:44:35,520
+ What do you think is the longest dwell time?
+
+572
+00:44:35,520 --> 00:44:42,920
+ So the longest time between being initially compromised and realizing that you are compromised?
+
+573
+00:44:42,920 --> 00:44:44,480
+ 60?
+
+574
+00:44:44,480 --> 00:44:47,120
+ No, it's not that bad.
+
+575
+00:44:47,120 --> 00:44:48,800
+ I hear a lot of years.
+
+576
+00:44:48,800 --> 00:44:53,880
+ Well, it is like around two years.
+
+577
+00:44:53,880 --> 00:44:58,040
+ So now that's really it from our side.
+
+578
+00:44:58,040 --> 00:44:59,280
+ No time for questions.
+
+579
+00:44:59,280 --> 00:45:09,440
+ Thank you.
+
+580
+00:45:09,440 --> 00:45:13,160
+ If you have questions, we will be there outside waiting.
+
+581
+00:45:13,160 --> 00:45:15,560
+ Come and join us.
+
+582
+00:45:15,560 --> 00:45:18,320
+ Thank you.
+
+583
+00:45:18,320 --> 00:45:19,320
+ Thank you, Herring.
+
+584
+00:45:19,320 --> 00:45:20,320
+ Chris, a warm round of applause.
+
+585
+00:45:20,320 --> 00:45:21,320
+ Thank you.
+
+586
+00:45:21,320 --> 00:45:21,320
+ [ Applause ]
+
+587
+00:45:21,320 --> 00:45:32,200
+ [ Music ]
+

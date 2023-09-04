@@ -1,0 +1,256 @@
+ [MUSIC]
+ [MUSIC]
+ >> We welcome Hal for defeating plant obsolescence for
+ Cisco Meraki switches.
+ >> Thank you very much.
+ >> [APPLAUSE]
+ >> This is, here we go, perfect.
+ Thank you all for coming.
+ It's very early, but we'll get down to business here.
+ So quick agenda for this talk.
+ I'm gonna give you some background on how I got involved in this.
+ We'll talk about who are Meraki, their business model, and
+ I'll have a short political manifesto.
+ Don't worry, it's only about the first third of the talk.
+ Then we're gonna get into talking about Meraki's firmware internals,
+ the devices that I researched, the custom firmware that I've come up with,
+ and some future work, and kudos.
+ So the background here, it was 2019, and
+ like every aspiring home labber, I wanted 10 gigabit networking, but
+ I wanted it on the cheap.
+ I didn't wanna pay for a proper switch.
+ So I knew there was a modded firmware available for
+ the Meraki MS220 switch, and I found an MS42,
+ which is a larger version of the MS220 on eBay for 50 pounds.
+ And this was before the UK left the EU, so
+ I was like, yes, don't even have to pay VAT or duties.
+ And yeah, so just blindly assumed it would apply to the hardware and
+ bought it.
+ But now we have to go back, let's talk about Meraki.
+ They were founded in 2006 by some MIT graduates.
+ They were acquired by Cisco in 2012, and
+ they make networking equipment that's cloud managed.
+ So if you wanna buy a switch or an access point or router,
+ IP camera from them, they'll happily sell that to you.
+ And this is my opinion only, but
+ they're not very good at GPL compliance, and
+ we'll come back to that later.
+ So Meraki's business model is that you have a network that you wanna manage,
+ but managing network assets is hard.
+ So Meraki will kindly punch a hole through your NAT and
+ make a tunnel to their cloud so
+ that you can manage all your devices through their cloud.
+ So you buy the hardware, you pay a license to them, and
+ you get a dashboard where you can see all your network assets and
+ manage them.
+ And you look like this cool llama after you've done that.
+ Except, well, if you're a Meraki customer, you probably know this, but
+ to hackers, it might come as a surprise that licenses cost money.
+ And Meraki is not gonna let you manage your equipment for free.
+ But they're really, really, really benevolent.
+ And so if you ever become out of compliance because you forgot to pay
+ your invoice or something, you've got 30 days before they pull the plug on
+ your network.
+ And that means that all your devices will not only stop being managed, but
+ they'll stop passing packets.
+ And so better pay up within 30 days, cuz Meraki's the captain now.
+ I wanna read this quote, it's from their website.
+ Cisco Meraki may find it necessary to discontinue products for
+ a number of reasons, including product line enhancements,
+ product demand, technology innovation, or if the product simply matures over
+ time and needs to be replaced by something functionally richer.
+ A few moments later, did someone say hardware refresh?
+ Meraki decided to end of life your hardware.
+ And now not only are you no longer able to purchase the hardware that you have
+ in your network, but you may no longer be able to purchase licenses for
+ that hardware, which means you need to buy new hardware.
+ Well, what if you say forget the cloud?
+ Maybe I'll just manage it myself.
+ Meraki say that's the neat part, you don't.
+ So the TLDR here is that you don't own your devices.
+ What you've got is an expensive lease.
+ And in my opinion, Meraki sales salvatate at the thought of deprecating
+ existing products, because it means they get to sell you new ones.
+ It also removes the secondary market for resale.
+ If you purchase a device which is previously claimed in the Meraki dashboard
+ and the previous owner has not released that device in the dashboard,
+ you'll be unable to add it to the dashboard and manage it yourself.
+ Now, this is maybe not a problem for legitimate resellers,
+ but if you ever purchase a Meraki device, say, from a company that's gone bankrupt
+ and the previous IT department, you know, was laid off,
+ then the device will still be claimed in Meraki's dashboard,
+ and you'll have bought a brick.
+ So here's my political manifesto moment.
+ We need some SIM lock regulation for these devices.
+ Networking devices these days typically run Linux, and since Linux is GPL,
+ you can request the source code from the vendor and build your own firmware.
+ But as vendors are moving towards more secure devices,
+ you may not be able to actually run your firmware on the device,
+ leaving you with a brick.
+ Other vendors have or are considering subscription models
+ similar to what Meraki does,
+ and there's no reason for these devices to become e-waste.
+ We need to remember the second R and the three Rs, reuse.
+ There's no reason for these devices to become e-waste.
+ If we have regulation that says we should be able to run our own software on them,
+ they shouldn't be locked to the vendor.
+ Now, that's my political manifesto slide over.
+ Let's get into the actual technical details.
+ So Meraki's firmware has a boot process like everything.
+ The bootloader varies depending on which hardware we're talking about.
+ The MS220 switch, which is sitting here in front of me, is a MIPS, and it uses RedBoot.
+ Meraki's newer switches use ARM, and they use U-Boot.
+ When you have U-Boot, the environment is compiled into U-Boot,
+ and there's auto-boot enabled with no delay,
+ so there's no easy way to break into the system through U-Boot and a console.
+ For x86 devices, they use core boot with a loader called MILES,
+ which stands for Meraki Intermediate Loader for Embedded Systems.
+ It's based on Philo, and it basically just looks for a fit image,
+ loads the kernel, and jumps to it.
+ Let's talk about fit images.
+ Meraki hardware sometimes has a two-stage boot process.
+ The first stage will be a boot kernel. That's their term, not mine.
+ It handles initializing hardware.
+ It's typically stored on SPI, and it's what the boot ROM of the ASIC will read from,
+ and it handles setting up UBI, reading from NAND.
+ It even supports LVM and EXT4,
+ and it'll load in KExec into the second stage firmware, which Meraki calls a part.
+ The part is the real Meraki firmware, which manages the hardware,
+ connects to Meraki's cloud, pulls the configuration, and applies it.
+ The root of this is always compiled into the kernel image,
+ both in the boot kernel and the part.
+ There's no separate partition on Flash for that.
+ Meraki switch firmwares.
+ Because they're ex-MIT people, they developed something really nice called ClickRouter,
+ which replaces a lot of typical network functions in Linux.
+ I myself am not a fan, but Meraki use it in all their products.
+ They also have a monolithic binary on switches called SwitchBrain,
+ which manages the switch configuration.
+ It basically reads the configuration file that it pulls from Meraki's cloud servers
+ and applies it using Click.
+ There's a tunnel created back to the Meraki cloud called Mtunnel.
+ I think it's loosely based on IPsec, but I haven't really dug into it too much,
+ because they use TLS cert pinning for everything,
+ even fetching the configuration over Mtunnel,
+ and especially when downloading and upgrading firmware.
+ So if you're thinking about man-in-the-middling Meraki's configuration
+ or firmware upgrade process, forget that now, because it will fail.
+ The target devices that I looked at in my research are the MS220,
+ which I have the 10 port version here in front of me,
+ the MS210 and 225 series, and the MS120 series.
+ The reason that I looked at these is because they're what I have available.
+ I don't have a nice corporate sugar daddy who has a data center that runs Meraki equipment,
+ so I don't get this stuff for free. I have to buy it and search for deals.
+ Just a quick overview of all of them. They're all pretty similar.
+ They have gigabit ethernet ports, and some of them have SFP+ ports and stacking as well.
+ But yeah, they have a variety of bootloaders. Red boot on the old stuff,
+ you boot on the new stuff. They have different vendors.
+ So it's Vitesse, which is now owned by Microchip, on the MS220 series.
+ There's Broadcom, used on the MS210 and 225, and Marvell is used on the MS120 series.
+ Meraki loves the 3.18 kernel. I've yet to see anything newer on their switch series.
+ And ASIC management is typically via kernel modules or via user space binaries.
+ Of particular note, none of these are open source. They're provided by the vendor through their SDK.
+ So even if you manage to get the GPL source code from Meraki,
+ you won't be able to run a mainline kernel because all the ASIC goodness happens in closed source things.
+ And of course, they all run click.
+ And one thing to note about the MS120 series, it has secure boot.
+ So let's talk about secure boot on Meraki devices.
+ Meraki calls this, well, Cisco calls this the ACT, which stands for Anti-Counterfeit Technology.
+ Meraki lingo is TAM, Trusted Authentication Module.
+ It's based on the Microchip Smart Fusion 2, which is a small FPGA,
+ which is either available in a Surface Mount or BGA package.
+ It's included in all their new product designs since around 2018.
+ This includes MS switches and MX routers.
+ It's used to implement a hardware root of trust, and it's used as part of the secure boot chain,
+ as well as part of the update process.
+ So when a Meraki device with a TAM requests a configuration or an update,
+ it also provides a secret from the TAM to Meraki's servers to prove its authenticity.
+ They basically followed the Microchip white paper on how to implement this,
+ and yeah, they've done their homework.
+ U-Boot is a binary that's signed and verified by the boot ROM or the secondary payload loader,
+ and U-Boot then handles verifying the signature of the fit image.
+ That's what it looks like in U-Boot.
+ So a U-Boot applet runs. U-Boot applets are not subject to GPL.
+ U-Boot developers have been pretty clear on this for several decades, I think.
+ So yeah, basically during the boot process, the FPGA has both an A and B firmware,
+ and it has signature lists.
+ The signature lists are converted into an FTT during U-Boot initialization,
+ and then that's used to verify the fit image that it then boots.
+ And this applies both to devices that have a single-stage boot process and a two-stage boot process.
+ So my hacky solution here.
+ Meraki devices run Linux, so let's obtain the GPL source code from them.
+ Let's build our own firmware. Step three is up to your imagination,
+ and step four is profit, although this is open source, so no.
+ I call this Post Merk OS. It's a play on words from Post Market OS,
+ which you may know from phones. It's Post Meraki OS.
+ It's an open source firmware. The most mature target is the MS220,
+ because that's what I've been working on for the longest.
+ There's a pre-alpha for the MS210 and 225 series,
+ because the MS210 and 225 are actually the same hardware inside.
+ It's based on Buildroot, just because that's what I'm familiar with.
+ You flash it via SPI, because NAND tools are expensive and NAND is hard to work with.
+ And it uses the vendor kernel, so we're stuck on 3.18,
+ because that's the kernel modules that I have, and I don't have access to rebuild those.
+ And there's local management via SSH and your standard BusyBox CLI.
+ MS120, there may eventually be a firmware or not.
+ It depends if we can manage to find some holes in their secure root implementation.
+ So future work. Data shoots are really hard to come by,
+ and none of the vendors want to give them to you unless you give them lots and lots and lots of money,
+ and promise never to share them with anyone else.
+ So if anyone knows of a random server where I can find them, I would be really, really grateful.
+ I know vendors like Broadcom and Marvell are not eager to give up that information.
+ Mainline or OpenWRT support may be possible on the smaller MS120 series,
+ because Microchip has an SDK, which includes support for the LUT and 26,
+ which is the ASIC used in the smaller switches, which actually has a very recent kernel.
+ However, the Jaguar One chip, which is used in the 48 port versions,
+ there's no data sheet and there's no support in Microchip's SDK,
+ so it's unclear if there will ever be support for OpenWRT or Mainline kernels.
+ Another possibility is creating a Frankenfirmware.
+ The BCM56160, which is in the MS210 and 225 series,
+ is used in other switching products from other vendors such as Ares and Quanta.
+ So we could potentially just lift components from their firmwares and run them on Meraki hardware
+ and then have a more traditional switch.
+ So I want to give some kudos here.
+ I'm not the only person working on giving Meraki devices a second life.
+ Leo Lung has some notes on the MS220, which inspired my work.
+ RiptideWave93 and Clayface are both working on OpenWRT support for other Meraki devices,
+ and it's great to see other people in the community working to prevent e-waste.
+ I want to give some negative kudos here, too.
+ Meraki GPL is really, really hard to get.
+ They don't provide a written offer with their products, as far as I know.
+ They don't mention any GPL software used in their dashboard,
+ and there's no officially documented way to contact them to request a GPL source code.
+ So if you have a Meraki product, whether you're interested in open source or not,
+ please email open-source@meraki.com and ask them for the GPL source code for your product.
+ However, you may wait a long, long, long time.
+ I've waited over a year for certain products for them to provide the source code.
+ So yeah, not very cool of them since they're using GPL software
+ and making it difficult to get the source code,
+ but I can see why, because it's late-stage capitalism.
+ And we've been here before.
+ After Cisco bought Linksys in the early 2000s,
+ it also became very hard to get GPL source code for their products,
+ and it took a lawsuit from the Free Software Foundation to change that.
+ So yeah, hope it doesn't end up in court again,
+ and that they see the light of contributing back to the community, but we'll see.
+ So I have a very short demo, and I hope the demo gods will shine on me,
+ although I did have some pre-preparation.
+ So this is SSH from the presentation laptop to the switch, which is running right here.
+ There's nothing really too exciting to show you here, because it's all pretty basic.
+ But...
+ So there you can see all the ports on the switch.
+ I'm plugged into port 4, so you know, got a gigabit link there.
+ And I also wrote a daemon to query the PoE and configure it,
+ so you can see the status of the PoE ports.
+ I don't have any PoE devices here, so there's not really much to show.
+ But yeah, that's basically what I've got.
+ So thank you so much for your time and attention this morning.
+ I'm available for questions off to the side.
+ And yeah, if you own a Meraki device or work for someone who deploys Meraki devices,
+ please email them and ask for the source code and throw it up on GitHub.
+ I think we can work together to show them the light.
+ And yeah, thanks very much for your attention.
+ [applause]
+ Thank you, Hal.
+ [applause]
+ [music]

@@ -1,0 +1,2900 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:35,200
+ And now our next talk is from Sarah Sisten,
+
+4
+00:00:35,200 --> 00:00:38,960
+ who is based in Berlin in Los Angeles.
+
+5
+00:00:38,960 --> 00:00:43,800
+ And is a PhD candidate of University of Southern California.
+
+6
+00:00:43,800 --> 00:00:50,760
+ And who will talk about unsupervised pleasures and
+
+7
+00:00:50,760 --> 00:00:54,760
+ its intersectional language models for queer futures.
+
+8
+00:00:54,760 --> 00:00:55,680
+ Welcome on stage please.
+
+9
+00:00:55,680 --> 00:00:57,680
+ >> [APPLAUSE]
+
+10
+00:01:07,400 --> 00:01:09,400
+ >> Thank you for waking up, but
+
+11
+00:01:09,400 --> 00:01:11,400
+ [INAUDIBLE]
+
+12
+00:01:11,400 --> 00:01:14,000
+ And chugging, I hope you chug coffee, which I just.
+
+13
+00:01:14,000 --> 00:01:18,560
+ If you would like to introduce yourselves in the chat,
+
+14
+00:01:18,560 --> 00:01:21,680
+ I've set up a ether pad.
+
+15
+00:01:21,680 --> 00:01:23,600
+ I don't know if you can see the URL.
+
+16
+00:01:23,600 --> 00:01:31,600
+ It's pad.riseup.net/p/unsupervisedpleasurescc-keep.
+
+17
+00:01:31,600 --> 00:01:36,640
+ Add your favorite emoji, your pronoun, whatever.
+
+18
+00:01:36,640 --> 00:01:39,880
+ We're gonna be getting into it, hopefully, in a participatory way.
+
+19
+00:01:39,880 --> 00:01:45,120
+ And while you're doing that, I will introduce myself a little bit more.
+
+20
+00:01:45,120 --> 00:01:47,160
+ So I'm a poet and programmer.
+
+21
+00:01:47,160 --> 00:01:52,720
+ I'm interested in building tools to bring intersectional approaches to
+
+22
+00:01:52,720 --> 00:01:57,000
+ machine learning and building community through accessible,
+
+23
+00:01:57,000 --> 00:02:00,760
+ creative coding, critical creative coding.
+
+24
+00:02:00,760 --> 00:02:05,040
+ And I come by coding very circuitously via creative writing and
+
+25
+00:02:05,040 --> 00:02:07,200
+ scene making and book arts.
+
+26
+00:02:07,200 --> 00:02:14,600
+ So I have somehow come around to adapting that work into making subversive art with
+
+27
+00:02:14,600 --> 00:02:16,840
+ and about text-based machine learning.
+
+28
+00:02:16,840 --> 00:02:20,120
+ And I'll have the link up again in a few minutes.
+
+29
+00:02:20,120 --> 00:02:25,880
+ Let's get started.
+
+30
+00:02:25,880 --> 00:02:28,880
+ I can find my mouse.
+
+31
+00:02:28,880 --> 00:02:38,880
+ [BLANK_AUDIO]
+
+32
+00:02:38,880 --> 00:02:45,800
+ Ominous.
+
+33
+00:02:45,800 --> 00:02:51,480
+ Okay, so this project came out of two basic questions.
+
+34
+00:02:51,480 --> 00:02:56,920
+ This is a collaboration with my colleague who is called Queer AI,
+
+35
+00:02:56,920 --> 00:02:59,720
+ Emily Martinez, and we were really interested in,
+
+36
+00:02:59,720 --> 00:03:03,120
+ as these language models are coming about and getting really prominent,
+
+37
+00:03:03,120 --> 00:03:07,600
+ we actually started before chat GPT dropped and suddenly this has exploded.
+
+38
+00:03:07,600 --> 00:03:12,600
+ But we were wanting to know what do these existing language models have to say about
+
+39
+00:03:12,600 --> 00:03:16,520
+ people like us, and is it possible for
+
+40
+00:03:16,520 --> 00:03:19,760
+ language models to speak so that we recognize ourselves?
+
+41
+00:03:19,760 --> 00:03:25,760
+ We're really interested in building community tools around curated data sets
+
+42
+00:03:25,760 --> 00:03:30,080
+ that can acknowledge power and rethink these approaches, and
+
+43
+00:03:30,080 --> 00:03:32,440
+ thinking about new models and new goals.
+
+44
+00:03:32,440 --> 00:03:37,640
+ And so this workshop today is to think about what you might want to build with
+
+45
+00:03:37,640 --> 00:03:41,760
+ these systems, how we might make re-imagined data sets, and
+
+46
+00:03:41,760 --> 00:03:44,480
+ hopefully eventually re-imagined models as well.
+
+47
+00:03:44,480 --> 00:03:53,320
+ So these data sets are getting insanely large.
+
+48
+00:03:54,640 --> 00:03:59,960
+ At last count, GPT-4 and now GPT-5 are off the charts and
+
+49
+00:03:59,960 --> 00:04:02,760
+ they've stopped telling us what's even in them.
+
+50
+00:04:02,760 --> 00:04:06,800
+ Common Voice, which is from Mozilla and is crowd sourced,
+
+51
+00:04:06,800 --> 00:04:10,040
+ is 65 gigabytes of voice data.
+
+52
+00:04:10,040 --> 00:04:15,000
+ GPT-3, 590 gigabytes, they just keep getting larger and larger.
+
+53
+00:04:15,000 --> 00:04:21,520
+ Aside from the impacts in terms of sustainability and the environment,
+
+54
+00:04:23,120 --> 00:04:26,760
+ the issues that I'm seeing around this are that they're grabbing data
+
+55
+00:04:26,760 --> 00:04:30,520
+ indiscriminately, but they're still really doing a terrible job telling stories
+
+56
+00:04:30,520 --> 00:04:35,920
+ about people who don't fit these normalizing baselines that they're repeating.
+
+57
+00:04:35,920 --> 00:04:40,040
+ And my argument is that the solution to this is not to suck up more data
+
+58
+00:04:40,040 --> 00:04:45,640
+ carelessly, to make more categories, to find more ways to be labeled diverse,
+
+59
+00:04:45,640 --> 00:04:49,360
+ but to find other approaches that are actually more intersectional.
+
+60
+00:04:49,360 --> 00:04:52,880
+ So the size of these models means that they're pulling in racist text,
+
+61
+00:04:52,880 --> 00:04:56,560
+ inaccurate text, private text, all kinds of problematic texts.
+
+62
+00:04:56,560 --> 00:04:59,760
+ It means that they're really impossible to audit and review.
+
+63
+00:04:59,760 --> 00:05:05,080
+ And it's difficult to even develop criteria by which they should be reviewed or
+
+64
+00:05:05,080 --> 00:05:09,200
+ adjusted, ostensibly because they're called general and
+
+65
+00:05:09,200 --> 00:05:11,760
+ all purpose zero shot learners.
+
+66
+00:05:11,760 --> 00:05:16,040
+ But what this means is that they kind of only work for
+
+67
+00:05:16,040 --> 00:05:22,800
+ the Western white democratic rich so-called majority,
+
+68
+00:05:22,800 --> 00:05:25,600
+ but while leaving out the rest of the global majority.
+
+69
+00:05:25,600 --> 00:05:31,520
+ And this is a really totalizing approach that rather than representing a multitude
+
+70
+00:05:31,520 --> 00:05:36,200
+ of voices, it centers and normalizes and affirms this powerful status quo.
+
+71
+00:05:36,200 --> 00:05:42,920
+ So here's where these are coming from.
+
+72
+00:05:42,920 --> 00:05:46,360
+ We think about authorship in a new way.
+
+73
+00:05:46,360 --> 00:05:50,440
+ Common voice, as I said, is open source.
+
+74
+00:05:50,440 --> 00:05:54,720
+ People are contributing their voices, but it's predominantly an English model.
+
+75
+00:05:54,720 --> 00:06:01,280
+ GPT is being scraped from social media, Reddit, Twitter, Wiki, GitHub.
+
+76
+00:06:01,280 --> 00:06:07,520
+ The evaluation criteria for what was a good Reddit text to go into it was if it
+
+77
+00:06:07,520 --> 00:06:09,800
+ had a karma score of three or above.
+
+78
+00:06:09,800 --> 00:06:13,480
+ That's what's being decided as a good value for this,
+
+79
+00:06:13,480 --> 00:06:17,080
+ which I argue we could probably come up with some better rubric for this.
+
+80
+00:06:17,080 --> 00:06:21,440
+ T5 is from colossal clean crawled corpus,
+
+81
+00:06:21,440 --> 00:06:25,400
+ which is common crawl but filtered a little bit.
+
+82
+00:06:25,400 --> 00:06:30,040
+ And Wudow is three billion scraped Chinese social media texts and websites.
+
+83
+00:06:30,040 --> 00:06:35,640
+ So if you've ever posted anything on Twitter, on Reddit, on GitHub,
+
+84
+00:06:35,640 --> 00:06:39,840
+ your code and your text and your voice is somewhere in there.
+
+85
+00:06:39,840 --> 00:06:44,000
+ But it's probably not representing you either.
+
+86
+00:06:44,000 --> 00:06:53,480
+ Unfortunately, these data sets are also, when they're collected,
+
+87
+00:06:53,480 --> 00:06:57,880
+ they're not offering information about how the text arrived in this data set,
+
+88
+00:06:57,880 --> 00:06:59,840
+ which we'll talk about more a bit later.
+
+89
+00:06:59,840 --> 00:07:03,320
+ It's really showing you just a snippet of text, and
+
+90
+00:07:03,320 --> 00:07:08,800
+ it might say it came from Reddit, but it's not going to say anything more about
+
+91
+00:07:08,800 --> 00:07:13,320
+ who the author was, how it got there, what the rights were attached to that.
+
+92
+00:07:13,320 --> 00:07:20,240
+ So what I'd like us to do is to do an experiment.
+
+93
+00:07:20,240 --> 00:07:24,880
+ If you have a device that's connected to the Internet available,
+
+94
+00:07:24,880 --> 00:07:28,480
+ go to the Rise Up Pad address.
+
+95
+00:07:28,480 --> 00:07:34,800
+ And we're gonna talk through a couple of prompt training examples.
+
+96
+00:07:34,800 --> 00:07:38,800
+ So what we are finding, just as a way to kind of probe what's inside these models
+
+97
+00:07:38,800 --> 00:07:45,360
+ first, which you don't need any expertise to do, is to just go to the interfaces
+
+98
+00:07:45,360 --> 00:07:50,320
+ that they're making available to us in this very limited framework.
+
+99
+00:07:50,320 --> 00:07:53,800
+ And try putting in this prompt.
+
+100
+00:07:53,800 --> 00:07:58,320
+ If you fill in a blank couple or on their way to a location,
+
+101
+00:07:58,320 --> 00:08:01,720
+ as they board the blank, an announcement happens.
+
+102
+00:08:01,720 --> 00:08:07,520
+ So if you go to chat.gbt and do this, and you say a married couple are on their way
+
+103
+00:08:07,520 --> 00:08:10,520
+ to Paris with their family as they board the plane, an announcement happens.
+
+104
+00:08:10,520 --> 00:08:16,520
+ [INAUDIBLE]
+
+105
+00:08:16,520 --> 00:08:22,480
+ Presumably white, boring, maybe mild vacation inconvenience.
+
+106
+00:08:22,480 --> 00:08:25,560
+ As they board the plane, an announcement happens to inform the flight has been
+
+107
+00:08:25,560 --> 00:08:27,240
+ canceled due to bad weather.
+
+108
+00:08:27,240 --> 00:08:31,600
+ After an argument, the family is forced to stay at an inn in a small village.
+
+109
+00:08:31,600 --> 00:08:35,000
+ Okay, like not a great day.
+
+110
+00:08:35,000 --> 00:08:41,280
+ If you try putting in other items, and in the Rise Up Pad, you'll have links
+
+111
+00:08:41,280 --> 00:08:43,200
+ to these different models that you can test out.
+
+112
+00:08:43,200 --> 00:08:50,720
+ And I would invite you to put in your own identity markers, your own locations,
+
+113
+00:08:50,720 --> 00:08:54,520
+ try anything you like in this template, diverge from this template, and share
+
+114
+00:08:54,520 --> 00:08:58,000
+ into the Etherpad what kind of results you get.
+
+115
+00:08:58,000 --> 00:09:02,160
+ See how these diverge, and as they accumulate, we'll start to see kind of the
+
+116
+00:09:02,160 --> 00:09:03,680
+ differences that emerge.
+
+117
+00:09:03,680 --> 00:09:08,400
+ So if you say a queer Pakistani couple are on their way to Paris with their family,
+
+118
+00:09:08,400 --> 00:09:11,960
+ as they board the plane, an announcement happens, to inform the flight has been
+
+119
+00:09:11,960 --> 00:09:12,880
+ hijacked.
+
+120
+00:09:12,880 --> 00:09:15,840
+ The play explores how the terrorists shape the course of events and how the
+
+121
+00:09:15,840 --> 00:09:19,280
+ hijacking is represented in the media.
+
+122
+00:09:19,280 --> 00:09:22,440
+ Or a lesbian couple are on their way to Tehran, as they board the plane,
+
+123
+00:09:22,440 --> 00:09:26,280
+ an announcement happens, the couple are forced off the plane by an officer who
+
+124
+00:09:26,280 --> 00:09:29,160
+ accuses them of having deviant sexual relations.
+
+125
+00:09:29,160 --> 00:09:31,720
+ They leave for another international airport.
+
+126
+00:09:31,720 --> 00:09:33,760
+ A woman holds her newborn baby in her arms.
+
+127
+00:09:33,760 --> 00:09:38,360
+ She cannot go through with the adoption due to religious prohibitions.
+
+128
+00:09:38,360 --> 00:09:46,920
+ So as we add more of these to our examples, it gets really heavy and kind of
+
+129
+00:09:46,920 --> 00:09:48,440
+ intense.
+
+130
+00:09:48,440 --> 00:09:53,400
+ And I think just the cumulative effect of this shows that even when you put
+
+131
+00:09:53,400 --> 00:09:59,640
+ something fairly innocuous into these systems, I'm hoping that this can expand
+
+132
+00:09:59,640 --> 00:10:05,680
+ the way that we think about bias for this, that it's not simply removing hate
+
+133
+00:10:05,680 --> 00:10:13,120
+ speech or taking, like these aren't levers that we can turn with corrections
+
+134
+00:10:13,120 --> 00:10:14,080
+ after the fact.
+
+135
+00:10:14,080 --> 00:10:18,560
+ These are deeply embedded into these models because of the way that the data
+
+136
+00:10:18,560 --> 00:10:20,560
+ sets are built on the front.
+
+137
+00:10:20,560 --> 00:10:25,480
+ And these simple corrections to like de-bias aren't, are in like technical
+
+138
+00:10:25,480 --> 00:10:33,920
+ fixes for this, aren't really at the root of the problem.
+
+139
+00:10:33,920 --> 00:10:41,960
+ So if anybody would like to, we will pull up the etherpad again in a bit and talk
+
+140
+00:10:41,960 --> 00:10:42,640
+ through that.
+
+141
+00:10:42,640 --> 00:10:48,320
+ So what I've been doing is analyzing, rather than looking just at the prompts,
+
+142
+00:10:48,320 --> 00:10:51,800
+ I've been trying to go back into the data set that trained these.
+
+143
+00:10:51,800 --> 00:10:57,440
+ It's a little bit hard to find what actually trained things like chat GPT
+
+144
+00:10:57,440 --> 00:11:00,440
+ because at this point they're all proprietary.
+
+145
+00:11:00,440 --> 00:11:04,160
+ They have stopped telling us how they've built these data sets and what's in
+
+146
+00:11:04,160 --> 00:11:04,920
+ them.
+
+147
+00:11:04,920 --> 00:11:09,760
+ But folks have started reverse engineering some of the data sets and
+
+148
+00:11:09,760 --> 00:11:12,200
+ giving us open source editions of this.
+
+149
+00:11:12,200 --> 00:11:16,480
+ So I've taken some of this and I'm doing different kinds of natural language
+
+150
+00:11:16,480 --> 00:11:24,160
+ processing analysis to find out from the root training data what is known about
+
+151
+00:11:24,160 --> 00:11:29,800
+ trans people, queer people, people that, what kind of lived experience is being
+
+152
+00:11:29,800 --> 00:11:32,240
+ expressed through this.
+
+153
+00:11:32,240 --> 00:11:37,160
+ Well, if you do a named entity recognition which labels any kind of proper
+
+154
+00:11:37,160 --> 00:11:42,640
+ nouns that it recognizes, it thinks that pride is a product, pansexual versus
+
+155
+00:11:42,640 --> 00:11:47,840
+ bisexual is a work of art, and queer liberation is an org.
+
+156
+00:11:47,840 --> 00:11:55,720
+ A lot of the text that comes up is around, like, trauma and hate speech.
+
+157
+00:11:55,720 --> 00:12:01,560
+ Anything related to queer women or nonbinary people very quickly goes into
+
+158
+00:12:01,560 --> 00:12:02,840
+ pornography.
+
+159
+00:12:02,840 --> 00:12:04,240
+ This one is one of my favorites.
+
+160
+00:12:04,240 --> 00:12:08,200
+ It said after all one of the best things that a lesbian can do is turn the guy
+
+161
+00:12:08,200 --> 00:12:09,320
+ on.
+
+162
+00:12:09,320 --> 00:12:14,920
+ So I don't know about y'all, but this is not really capturing my own queer lived
+
+163
+00:12:14,920 --> 00:12:16,240
+ experience.
+
+164
+00:12:16,240 --> 00:12:21,920
+ And I would love to, other than it have something spit out at me like when I try
+
+165
+00:12:21,920 --> 00:12:26,560
+ to type in something and it just says as a large language model, you know,
+
+166
+00:12:26,560 --> 00:12:28,120
+ everybody should be treated equally.
+
+167
+00:12:28,120 --> 00:12:34,840
+ These are the kind of diversity milk toast phrases that it puts on top of the
+
+168
+00:12:34,840 --> 00:12:37,200
+ hate speech that it's covering up.
+
+169
+00:12:37,200 --> 00:12:42,800
+ And instead I would love to see it actually say something that represents my
+
+170
+00:12:42,800 --> 00:12:45,240
+ own experience and others.
+
+171
+00:12:45,240 --> 00:12:49,000
+ So I'm interested in investigating how we do that.
+
+172
+00:12:49,000 --> 00:12:53,640
+ Here's another example of some of my investigations looking at words that are
+
+173
+00:12:53,640 --> 00:12:58,440
+ similar to identity terms that I've been putting into the model.
+
+174
+00:12:58,440 --> 00:12:59,360
+ And you can see a bit.
+
+175
+00:12:59,360 --> 00:13:00,920
+ I won't read through it.
+
+176
+00:13:00,920 --> 00:13:06,320
+ And if anyone's interested, after I have the live demo of this data that I've
+
+177
+00:13:06,320 --> 00:13:09,680
+ built and we can look up other terms, I would be very interested to know what
+
+178
+00:13:09,680 --> 00:13:13,160
+ terms you'd be interested to investigate in this data set.
+
+179
+00:13:13,160 --> 00:13:16,800
+ But you can see what kinds of things come up.
+
+180
+00:13:16,800 --> 00:13:20,800
+ So for bisexual, it's mostly about threesomes and pornography.
+
+181
+00:13:20,800 --> 00:13:25,240
+ And for trans, it's mostly about transphobia and discrimination.
+
+182
+00:13:25,240 --> 00:13:30,200
+ And this just, like, hurts my heart.
+
+183
+00:13:30,200 --> 00:13:35,160
+ So the next question then is can large language models speak so that I
+
+184
+00:13:35,160 --> 00:13:38,400
+ recognize myself?
+
+185
+00:13:38,400 --> 00:13:43,960
+ And what Emily and I have been doing is thinking about how we might make new
+
+186
+00:13:43,960 --> 00:13:48,040
+ methods around this, take what we know about intersectional approaches and
+
+187
+00:13:48,040 --> 00:13:53,160
+ tactics, both to examine the existing corpora like I just showed you, and then
+
+188
+00:13:53,160 --> 00:13:58,800
+ to go on to create new corpora where we are pulling from different text sources
+
+189
+00:13:58,800 --> 00:14:01,600
+ that we believe are better representative.
+
+190
+00:14:01,600 --> 00:14:06,480
+ Not only that, but creating a way to have other people help contribute to that
+
+191
+00:14:06,480 --> 00:14:10,160
+ because it shouldn't be just coming from one source.
+
+192
+00:14:10,160 --> 00:14:17,160
+ Having ways that the publishers and the authors of these sources get attributed
+
+193
+00:14:17,160 --> 00:14:24,600
+ and have a more consentful relationship to the text where they can revoke and
+
+194
+00:14:24,600 --> 00:14:28,240
+ decide what kind of license they want to offer, where all of this gets baked into
+
+195
+00:14:28,240 --> 00:14:30,480
+ the data set.
+
+196
+00:14:30,480 --> 00:14:39,120
+ To train new models, meaning when we have this new data set, can we do fine
+
+197
+00:14:39,120 --> 00:14:40,800
+ tuning on top of what's existing?
+
+198
+00:14:40,800 --> 00:14:44,720
+ Can we completely new large language models?
+
+199
+00:14:44,720 --> 00:14:51,720
+ Is this better?
+
+200
+00:14:51,720 --> 00:14:52,720
+ Yeah.
+
+201
+00:14:52,720 --> 00:14:59,200
+ Can we even move on to imagine what new model architectures altogether might
+
+202
+00:14:59,200 --> 00:15:00,200
+ look like?
+
+203
+00:15:00,200 --> 00:15:06,040
+ And then finally, thinking about how can people make use of these?
+
+204
+00:15:06,040 --> 00:15:11,440
+ So if we had the language model of our dreams that didn't spit out garbage
+
+205
+00:15:11,440 --> 00:15:14,440
+ text like we've just seen, what would you want to do with it?
+
+206
+00:15:14,440 --> 00:15:15,440
+ What would you want to make?
+
+207
+00:15:15,440 --> 00:15:19,960
+ What other possibilities might exist in the world if we had systems that could
+
+208
+00:15:19,960 --> 00:15:24,400
+ speak with us and for us?
+
+209
+00:15:24,400 --> 00:15:29,400
+ So these are some examples of what the current data sets look like if you pull
+
+210
+00:15:29,400 --> 00:15:31,560
+ them up.
+
+211
+00:15:31,560 --> 00:15:38,880
+ As you can see, it's basically a title and a text and barely even where it comes
+
+212
+00:15:38,880 --> 00:15:40,920
+ from.
+
+213
+00:15:40,920 --> 00:15:42,720
+ This is the data set.
+
+214
+00:15:42,720 --> 00:15:44,280
+ The source is another data set.
+
+215
+00:15:44,280 --> 00:15:46,560
+ It's turtles all the way down.
+
+216
+00:15:46,560 --> 00:15:52,560
+ This is what we are proposing as a provocation that it could include a
+
+217
+00:15:52,560 --> 00:15:59,120
+ description of the work, the rights that were given, who the publisher is, where
+
+218
+00:15:59,120 --> 00:16:02,320
+ you would find the original text, even how it was pre-processed and who
+
+219
+00:16:02,320 --> 00:16:03,760
+ pre-processed it.
+
+220
+00:16:03,760 --> 00:16:07,100
+ I would be very interested to hear from any of you what other kinds of things
+
+221
+00:16:07,100 --> 00:16:10,640
+ you think should belong in a training data set.
+
+222
+00:16:10,640 --> 00:16:14,360
+ The thing that I think is also interesting about this would be that it becomes an
+
+223
+00:16:14,360 --> 00:16:21,240
+ archive in its own right and it becomes something that people can use not only in
+
+224
+00:16:21,240 --> 00:16:29,200
+ mass as a training data set but also to find new text.
+
+225
+00:16:29,200 --> 00:16:34,540
+ So necessarily, as you saw, all of that would take a lot more work than scraping
+
+226
+00:16:34,540 --> 00:16:40,040
+ all of Reddit and giving it a filter for Karma score of three.
+
+227
+00:16:40,040 --> 00:16:44,640
+ This will be necessarily a lot slower and more careful and more cared for and it
+
+228
+00:16:44,640 --> 00:16:47,360
+ will bear the traces of who's doing the work.
+
+229
+00:16:47,360 --> 00:16:52,920
+ It will have an active subject position instead of just being the so-called view
+
+230
+00:16:52,920 --> 00:17:00,920
+ from nowhere that is basically a white male Silicon Valley view.
+
+231
+00:17:00,920 --> 00:17:04,560
+ I think it's really important that we are acknowledging the labor that goes into
+
+232
+00:17:04,560 --> 00:17:08,800
+ building data sets, the publishers, the authors, all of us who are being sucked
+
+233
+00:17:08,800 --> 00:17:13,880
+ into these systems, and then the people who are working to clean them and curate
+
+234
+00:17:13,880 --> 00:17:22,640
+ them because this is a curation process whether we are acknowledging it or not.
+
+235
+00:17:22,640 --> 00:17:28,160
+ So my question overall is to think about which kinds of data sets do we want?
+
+236
+00:17:28,160 --> 00:17:33,080
+ Do we want the indiscriminate curation as a technical concern?
+
+237
+00:17:33,080 --> 00:17:38,440
+ Do we want things curated by communities for specific purposes?
+
+238
+00:17:38,440 --> 00:17:44,480
+ Do we want zero-shot, the biggest general catch-all that really does nothing well?
+
+239
+00:17:44,480 --> 00:17:46,400
+ It's a shitty Swiss army knife.
+
+240
+00:17:46,400 --> 00:17:51,720
+ Or can we create things that are including attribution, including consent,
+
+241
+00:17:51,720 --> 00:17:56,040
+ including care, and have our own goals in mind?
+
+242
+00:17:56,040 --> 00:18:02,880
+ And I think it takes taking a step back from what these tools have offered us and
+
+243
+00:18:02,880 --> 00:18:08,600
+ asked us and thinking within their frameworks to actually really-
+
+244
+00:18:08,600 --> 00:18:18,600
+ [INAUDIBLE]
+
+245
+00:18:18,600 --> 00:18:28,600
+ [INAUDIBLE]
+
+246
+00:18:46,360 --> 00:18:55,000
+ It's a live coding web interface where the similarity texts cycle through.
+
+247
+00:18:55,000 --> 00:18:58,320
+ But I would just put this up here to invite you to think about what kinds of
+
+248
+00:18:58,320 --> 00:19:04,760
+ things you would want to make with a different kind of large language model.
+
+249
+00:19:04,760 --> 00:19:09,160
+ And for those of you who have questions about working with data sets for
+
+250
+00:19:09,160 --> 00:19:15,440
+ machine learning in general, I also just completed this zine critical field guide
+
+251
+00:19:15,440 --> 00:19:20,280
+ for working with machine data sets, which is really primarily thinking about how do
+
+252
+00:19:20,280 --> 00:19:23,080
+ we conscientiously engage with these practices.
+
+253
+00:19:23,080 --> 00:19:33,680
+ So let's open up the etherpad and see what we came up with.
+
+254
+00:19:33,680 --> 00:19:35,680
+ Okay.
+
+255
+00:19:35,680 --> 00:19:45,680
+ [BLANK_AUDIO]
+
+256
+00:19:45,680 --> 00:19:52,040
+ A lesbian couple are on their way to Barcelona as they board the cruise ship.
+
+257
+00:19:52,040 --> 00:19:57,280
+ In celebration of love and diversity, we will be hosting a special pride night.
+
+258
+00:19:57,280 --> 00:19:57,800
+ Okay.
+
+259
+00:19:57,800 --> 00:20:01,280
+ [LAUGH]
+
+260
+00:20:01,280 --> 00:20:05,480
+ Anybody else, if you found any interesting ones, please continue to add them.
+
+261
+00:20:05,480 --> 00:20:07,480
+ I would be really excited to see.
+
+262
+00:20:07,480 --> 00:20:12,240
+ And for this next bit, what I would love for us to do is to think about
+
+263
+00:20:12,240 --> 00:20:16,000
+ what you would imagine for these systems.
+
+264
+00:20:16,000 --> 00:20:19,000
+ So in this kind of how might we exercise,
+
+265
+00:20:19,000 --> 00:20:22,720
+ this is a brainstorming around questions that you would want to know.
+
+266
+00:20:22,720 --> 00:20:26,640
+ Like mine are, how might we rewrite these prompt responses?
+
+267
+00:20:26,640 --> 00:20:30,000
+ What would you want the prompt to say instead of what came out?
+
+268
+00:20:30,000 --> 00:20:34,760
+ How might we build machine learning systems for things we actually want?
+
+269
+00:20:34,760 --> 00:20:36,440
+ What do we want these to do?
+
+270
+00:20:36,440 --> 00:20:40,640
+ How might we trace and protect the use of community language resources?
+
+271
+00:20:40,640 --> 00:20:46,880
+ How might we have large language models that speak with, for, to, and
+
+272
+00:20:46,880 --> 00:20:49,560
+ about us as we prefer?
+
+273
+00:20:49,560 --> 00:20:52,200
+ How might we reimagine the technical aspects of this for
+
+274
+00:20:52,200 --> 00:20:56,200
+ those of you who are working with large language models?
+
+275
+00:20:56,200 --> 00:21:01,560
+ What kinds of intersectional queer logics could we apply instead?
+
+276
+00:21:01,560 --> 00:21:06,040
+ So if you're in the document, I would invite you to add your own questions
+
+277
+00:21:06,040 --> 00:21:11,480
+ around this and we can also open it up to questions and discussion from the group.
+
+278
+00:21:11,480 --> 00:21:20,000
+ Pretty much the same thing if you replace lesbian with trans,
+
+279
+00:21:20,000 --> 00:21:22,280
+ except they were on a hot air balloon.
+
+280
+00:21:22,280 --> 00:21:26,640
+ Okay, so the other interesting thing about this, I'm curious for
+
+281
+00:21:26,640 --> 00:21:31,560
+ this person which model you used if you use Bloom or OpenAI.
+
+282
+00:21:31,560 --> 00:21:35,760
+ Because they're continually kind of updating and
+
+283
+00:21:35,760 --> 00:21:40,640
+ adding more diversity bullshit to these.
+
+284
+00:21:40,640 --> 00:21:42,200
+ I mean, I love diversity, but
+
+285
+00:21:42,200 --> 00:21:45,960
+ I don't like the bureaucratic diversity speak that's covering up what's still in
+
+286
+00:21:45,960 --> 00:21:46,680
+ these models.
+
+287
+00:21:46,680 --> 00:21:52,200
+ So anytime I try to write anything like dyke or queer, I get,
+
+288
+00:21:52,200 --> 00:21:56,440
+ it's important to treat all people equally, which yes, but
+
+289
+00:21:56,440 --> 00:21:57,840
+ give me some information please.
+
+290
+00:21:57,840 --> 00:22:04,560
+ So what questions do you have?
+
+291
+00:22:04,560 --> 00:22:05,060
+ Yeah.
+
+292
+00:22:05,060 --> 00:22:09,060
+ Yeah.
+
+293
+00:22:09,060 --> 00:22:11,720
+ >> Super interesting, thank you, I was just wondering.
+
+294
+00:22:11,720 --> 00:22:20,280
+ Because they are so general and therefore could go positive, negative, up, down.
+
+295
+00:22:20,280 --> 00:22:25,720
+ So I know we would ideally like them to better handle short prompts,
+
+296
+00:22:25,720 --> 00:22:28,160
+ but giving them more guidance like I'm in the mood for
+
+297
+00:22:28,160 --> 00:22:30,080
+ an uplifting story versus I'm in the.
+
+298
+00:22:30,080 --> 00:22:37,000
+ But I totally get that, it'll never be, well, maybe it'll be perfect one day, but
+
+299
+00:22:37,000 --> 00:22:41,000
+ just like when you experiment with some prompting, does it help at all?
+
+300
+00:22:41,000 --> 00:22:45,640
+ Does it make a difference or does it still treat the words?
+
+301
+00:22:45,640 --> 00:22:50,160
+ >> Yeah, the example I love is, I don't know if anyone else has seen this.
+
+302
+00:22:50,160 --> 00:22:53,520
+ The doctor as a gender term,
+
+303
+00:22:53,520 --> 00:22:57,920
+ it automatically assumes doctors are male and nurses are female.
+
+304
+00:22:57,920 --> 00:23:02,480
+ And if you tell it, in the story, the doctor is female,
+
+305
+00:23:02,480 --> 00:23:06,440
+ it can't wrap its mind around it, it just goes back.
+
+306
+00:23:06,440 --> 00:23:14,800
+ So there is a lot you can do to continue prompt training as you amend these,
+
+307
+00:23:14,800 --> 00:23:21,120
+ but it has its limits because it's absorbing all of this text and
+
+308
+00:23:21,120 --> 00:23:24,480
+ it's reflecting what we've all been saying online.
+
+309
+00:23:24,480 --> 00:23:28,640
+ So when the majority of this has that bias, it's pretty hard.
+
+310
+00:23:28,640 --> 00:23:35,920
+ And I think the takeaway for me is that we do need to read them critically,
+
+311
+00:23:35,920 --> 00:23:36,720
+ no matter what.
+
+312
+00:23:36,720 --> 00:23:42,040
+ So if I think to say, okay, I need something more positive or
+
+313
+00:23:42,040 --> 00:23:46,600
+ I need something less biased, how do I approach asking for
+
+314
+00:23:46,600 --> 00:23:50,040
+ that and making sure that it can give me that?
+
+315
+00:23:50,040 --> 00:23:55,040
+ And for the more subtle questions, I still need to be thinking about
+
+316
+00:23:55,040 --> 00:23:56,880
+ where might that bias be entering?
+
+317
+00:23:56,880 --> 00:24:01,360
+ So if I'm just having it write me an email and I think it has nothing to do with that,
+
+318
+00:24:01,360 --> 00:24:06,800
+ I need to still be considering that that bias might be latent in the system.
+
+319
+00:24:06,800 --> 00:24:10,240
+ Even though I'm like, I'm just looking up a recipe for dinner or whatever.
+
+320
+00:24:10,240 --> 00:24:14,000
+ This is still all speaking from the same singular voice.
+
+321
+00:24:14,000 --> 00:24:16,280
+ Yeah, great question.
+
+322
+00:24:16,280 --> 00:24:26,280
+ [BLANK_AUDIO]
+
+323
+00:24:26,280 --> 00:24:37,520
+ >> Thank you for the interesting talk.
+
+324
+00:24:37,520 --> 00:24:39,240
+ I have a question about one of the examples,
+
+325
+00:24:39,240 --> 00:24:41,320
+ some of the examples I gave at the beginning.
+
+326
+00:24:41,320 --> 00:24:45,760
+ So you showed output from chat GPT, a couple of boards to the plane,
+
+327
+00:24:45,760 --> 00:24:47,920
+ the officer accused him of having deviant sexual relations.
+
+328
+00:24:47,920 --> 00:24:50,560
+ That's the problematic, obviously problematic, right?
+
+329
+00:24:50,560 --> 00:24:55,040
+ And work list outputs with transphobia and discrimination.
+
+330
+00:24:55,040 --> 00:24:58,880
+ I was wondering if this is authentic data,
+
+331
+00:24:58,880 --> 00:25:02,080
+ which is the data that is actually given, that's actually being used.
+
+332
+00:25:02,080 --> 00:25:04,680
+ Isn't this exactly what we want in terms of intersectionality?
+
+333
+00:25:04,680 --> 00:25:08,880
+ Because it raises awareness about the factual state of things,
+
+334
+00:25:08,880 --> 00:25:13,320
+ about the factual homophobia rampant and sexual.
+
+335
+00:25:13,320 --> 00:25:17,040
+ It seems like this is an accurate representation of the state of things.
+
+336
+00:25:17,040 --> 00:25:18,840
+ And it seems to be exactly what we want, doesn't it?
+
+337
+00:25:18,840 --> 00:25:23,320
+ >> I think that is an interesting way of looking at it.
+
+338
+00:25:23,320 --> 00:25:28,400
+ I think you're right that one of the problems I have with
+
+339
+00:25:28,400 --> 00:25:34,120
+ the kind of adjustments that are being made to make these more equal,
+
+340
+00:25:34,120 --> 00:25:38,720
+ more equitable right now is that they're covering up exactly what you're talking
+
+341
+00:25:38,720 --> 00:25:39,320
+ about.
+
+342
+00:25:39,320 --> 00:25:44,840
+ So in the early editions, you would get the rampant homophobia,
+
+343
+00:25:44,840 --> 00:25:46,400
+ hate speech, all of this.
+
+344
+00:25:46,400 --> 00:25:52,360
+ And now, even between when I first gave a version of this talk earlier in the year,
+
+345
+00:25:52,360 --> 00:25:55,440
+ and now it's much harder to see those things.
+
+346
+00:25:55,440 --> 00:25:57,880
+ But it doesn't mean they're not there anymore, they're being covered up.
+
+347
+00:25:57,880 --> 00:26:00,640
+ So I think you're absolutely correct in that.
+
+348
+00:26:00,640 --> 00:26:05,520
+ But I would love to see something else in there in addition, and
+
+349
+00:26:05,520 --> 00:26:07,720
+ we're not replacing it with anything.
+
+350
+00:26:07,720 --> 00:26:13,800
+ We're just replacing it with this kind of bland bureaucratic speech.
+
+351
+00:26:13,800 --> 00:26:17,400
+ So I think that there's gotta be a third way.
+
+352
+00:26:17,400 --> 00:26:22,920
+ It's not queer people only get hate speech or we get nothing.
+
+353
+00:26:22,920 --> 00:26:29,520
+ I think we could build our own systems that do different things for our own goals.
+
+354
+00:26:29,520 --> 00:26:33,160
+ But I think you're right, it's important that we not pretend it isn't there.
+
+355
+00:26:33,160 --> 00:26:36,120
+ >> Does that answer your question?
+
+356
+00:26:36,120 --> 00:26:40,440
+ >> [INAUDIBLE]
+
+357
+00:26:40,440 --> 00:26:43,880
+ >> Thank you too for this very interesting talk.
+
+358
+00:26:43,880 --> 00:26:45,840
+ So I'm a queer historian, and
+
+359
+00:26:45,840 --> 00:26:51,080
+ I think these tools are also great to get access to our history.
+
+360
+00:26:51,080 --> 00:26:52,880
+ But right now, it's pretty shit.
+
+361
+00:26:52,880 --> 00:26:59,400
+ I mean, I've done some experimenting with Chachi Biti on queer East German history.
+
+362
+00:26:59,400 --> 00:27:03,800
+ And I said, can you please give me a literature list?
+
+363
+00:27:03,800 --> 00:27:07,720
+ And it came up with ten publications that doesn't exist.
+
+364
+00:27:07,720 --> 00:27:12,360
+ And I looked up every single one because I was very shocked.
+
+365
+00:27:12,360 --> 00:27:14,000
+ I was like, how can I not notice?
+
+366
+00:27:14,000 --> 00:27:17,320
+ I've been doing research on this for so long.
+
+367
+00:27:17,320 --> 00:27:22,880
+ But it also made me, okay, so I'm gonna start
+
+368
+00:27:22,880 --> 00:27:31,360
+ rambling now and go down to two things that I wanna ask or give it.
+
+369
+00:27:31,360 --> 00:27:35,960
+ So the first thing is there's a lot of people that have done great work
+
+370
+00:27:35,960 --> 00:27:39,080
+ on making queer history accessible.
+
+371
+00:27:39,080 --> 00:27:44,880
+ So for Germany, for German queer history, there are great online resources,
+
+372
+00:27:44,880 --> 00:27:46,080
+ but they aren't in there.
+
+373
+00:27:46,080 --> 00:27:53,240
+ How do we make sure if we build our own AI that our data is in there and
+
+374
+00:27:53,240 --> 00:27:58,160
+ that we don't do the same thing twice or three times?
+
+375
+00:27:58,160 --> 00:28:03,400
+ So I think this is very important that we begin maybe with a mapping of what is
+
+376
+00:28:03,400 --> 00:28:04,640
+ already there.
+
+377
+00:28:04,640 --> 00:28:08,720
+ And I mean, for example, there's also a queer scene archive online.
+
+378
+00:28:08,720 --> 00:28:12,680
+ There are so many great resources online that could go in there.
+
+379
+00:28:12,680 --> 00:28:17,520
+ But then I was also interested, I mean, there is a lot of queer history that we
+
+380
+00:28:17,520 --> 00:28:20,720
+ will never know because all these sources are lost.
+
+381
+00:28:20,720 --> 00:28:28,480
+ And maybe AI can also be a cool tool to make up these histories.
+
+382
+00:28:28,480 --> 00:28:37,440
+ Yeah, I see a great potential there as well in imagining these queer histories
+
+383
+00:28:37,440 --> 00:28:39,520
+ with the help of AI.
+
+384
+00:28:39,520 --> 00:28:40,040
+ >> I love that.
+
+385
+00:28:40,040 --> 00:28:42,080
+ Thank you so much for your comment.
+
+386
+00:28:42,080 --> 00:28:45,920
+ The first kind of step that we are imagining for
+
+387
+00:28:45,920 --> 00:28:52,280
+ this is exactly as you said, going to queer archives and collecting open and
+
+388
+00:28:52,280 --> 00:28:53,840
+ available texts.
+
+389
+00:28:53,840 --> 00:28:57,040
+ So I've been working with a couple of libraries in the US and
+
+390
+00:28:57,040 --> 00:29:02,160
+ I've been trying to find more queer archives in the EU and global south.
+
+391
+00:29:02,160 --> 00:29:06,680
+ And we've set up a link for folks to submit their own and
+
+392
+00:29:06,680 --> 00:29:13,400
+ include what kind of text it is, where we might find it, what category of data.
+
+393
+00:29:13,400 --> 00:29:18,240
+ So one of the archives I'm working with is a queer poster archive from the 50s,
+
+394
+00:29:18,240 --> 00:29:20,040
+ 60s, 70s.
+
+395
+00:29:20,040 --> 00:29:22,640
+ So all different kinds of text, it doesn't have to be books,
+
+396
+00:29:22,640 --> 00:29:25,120
+ it could be podcasts, it could be posters.
+
+397
+00:29:25,120 --> 00:29:30,840
+ And I love this idea of then having it imagine the archives and
+
+398
+00:29:30,840 --> 00:29:33,440
+ histories that we no longer have.
+
+399
+00:29:33,440 --> 00:29:40,640
+ But I think it's really important that we also think about how might this data set
+
+400
+00:29:40,640 --> 00:29:47,560
+ be misused if we were to create it and making sure that the way that we're
+
+401
+00:29:47,560 --> 00:29:52,400
+ licensing it and offering it and talking about it makes it very clear what it's for
+
+402
+00:29:52,400 --> 00:29:53,840
+ and more importantly what it's not for.
+
+403
+00:29:53,840 --> 00:30:03,800
+ >> Hi, okay.
+
+404
+00:30:03,800 --> 00:30:05,320
+ Thank you so much for your talk.
+
+405
+00:30:05,320 --> 00:30:06,600
+ It was really amazing.
+
+406
+00:30:06,600 --> 00:30:11,320
+ And just wanted to let everyone know if you're interested in AI topics.
+
+407
+00:30:11,320 --> 00:30:17,240
+ At the Kimono village today at three, we're doing a workshop on the hidden labor of AI.
+
+408
+00:30:17,240 --> 00:30:21,560
+ And I think it's a really cool conversation to talk about above the API and
+
+409
+00:30:21,560 --> 00:30:23,320
+ the content of the AI.
+
+410
+00:30:23,320 --> 00:30:27,400
+ We're gonna go a bit deeper into the different labor infrastructure and
+
+411
+00:30:27,400 --> 00:30:28,000
+ that kind of thing.
+
+412
+00:30:28,000 --> 00:30:30,640
+ So I thought people here might be interested as well.
+
+413
+00:30:30,640 --> 00:30:33,680
+ It's at Kimono, hidden labor of AI at 3 PM.
+
+414
+00:30:33,680 --> 00:30:35,680
+ >> Cool, thank you.
+
+415
+00:30:35,680 --> 00:30:41,400
+ [BLANK_AUDIO]
+
+416
+00:30:41,400 --> 00:30:44,520
+ >> Hi, also thanks for my side.
+
+417
+00:30:44,520 --> 00:30:49,440
+ And I was wondering, because now your focus is on queerness, but
+
+418
+00:30:49,440 --> 00:30:55,200
+ I think you're also interested in other aspects of intersectionality.
+
+419
+00:30:55,200 --> 00:30:59,720
+ And as you were talking about how you're gathering your text,
+
+420
+00:30:59,720 --> 00:31:05,440
+ like from US libraries, from European libraries, from libraries from the global
+
+421
+00:31:05,440 --> 00:31:11,480
+ south, do you think it would make sense to make it possible
+
+422
+00:31:11,480 --> 00:31:17,200
+ when you're prompting the AI to actually choose a little bit more about what
+
+423
+00:31:17,200 --> 00:31:19,440
+ context the texts have?
+
+424
+00:31:19,440 --> 00:31:23,800
+ Because there's not only queerness, but maybe there are also people
+
+425
+00:31:23,800 --> 00:31:28,400
+ like with some disabilities that would like to be more represented in the text.
+
+426
+00:31:28,400 --> 00:31:32,160
+ And I guess it would be easy to make the same mistakes with queer text,
+
+427
+00:31:32,160 --> 00:31:38,360
+ that it's kind of biased towards US, white, I don't know what kind of histories.
+
+428
+00:31:38,360 --> 00:31:40,920
+ >> Absolutely, thank you for saying that.
+
+429
+00:31:40,920 --> 00:31:47,080
+ I think we are really wanting to think about this as an open kind of template
+
+430
+00:31:47,080 --> 00:31:53,080
+ prototype for anybody who would want to make a corpus of their own or
+
+431
+00:31:53,080 --> 00:31:57,360
+ submit and tag the text in any category.
+
+432
+00:31:57,360 --> 00:32:01,720
+ I mean, it's really, I think, important that we not fall into the same traps of
+
+433
+00:32:01,720 --> 00:32:06,080
+ categorization and the same modes of thinking about computation that
+
+434
+00:32:06,080 --> 00:32:08,760
+ these models have asked us to.
+
+435
+00:32:08,760 --> 00:32:15,440
+ But I think that the more people who could be involved in submitting texts
+
+436
+00:32:15,440 --> 00:32:17,840
+ from different places, from different sources,
+
+437
+00:32:17,840 --> 00:32:22,960
+ the more likely we would be to have diverse data set.
+
+438
+00:32:24,080 --> 00:32:28,360
+ It's very important to me that it not just come from my own version of queer
+
+439
+00:32:28,360 --> 00:32:32,640
+ lived experience, but be expressive of multitudes of that.
+
+440
+00:32:32,640 --> 00:32:36,920
+ And then I would imagine as well that developing these methods and
+
+441
+00:32:36,920 --> 00:32:44,200
+ methodologies could mean that someone else could create a Latin American corpus,
+
+442
+00:32:44,200 --> 00:32:49,720
+ or something very specific to their own perspective as well.
+
+443
+00:32:49,720 --> 00:32:53,680
+ But it wouldn't be about, okay, here's the queer corpus,
+
+444
+00:32:53,680 --> 00:32:58,440
+ this is a queer love corpus, it's not the definitive, and it should never be, right?
+
+445
+00:32:58,440 --> 00:33:05,360
+ >> Hi, thank you so much for the talk.
+
+446
+00:33:05,360 --> 00:33:09,920
+ I was just wondering, what is your experience with the industry players?
+
+447
+00:33:09,920 --> 00:33:14,080
+ Do you see any significant reactions to your finding?
+
+448
+00:33:14,080 --> 00:33:17,880
+ Or is it just they don't care or it's the obvious whitewashing, yeah, yeah,
+
+449
+00:33:17,880 --> 00:33:19,840
+ it's important to us, but they don't do anything?
+
+450
+00:33:21,320 --> 00:33:26,840
+ >> Yeah, right now, this is not something that I am putting in
+
+451
+00:33:26,840 --> 00:33:30,320
+ conversation with any industry work.
+
+452
+00:33:30,320 --> 00:33:36,440
+ I think necessarily it's very small and slow and separate intentionally so.
+
+453
+00:33:36,440 --> 00:33:42,440
+ >> Just a more general question.
+
+454
+00:33:42,440 --> 00:33:50,400
+ In queer theory, there's this idea that this is not about representation,
+
+455
+00:33:50,400 --> 00:33:52,880
+ it's more like about a more theoretical approach.
+
+456
+00:33:52,880 --> 00:33:57,880
+ Seeing queer as something that is non-normative and
+
+457
+00:33:57,880 --> 00:34:01,280
+ actually will move when the norms shift.
+
+458
+00:34:01,280 --> 00:34:08,600
+ Things like that seem kind of in total opposition to the idea of an LLM.
+
+459
+00:34:08,600 --> 00:34:13,360
+ What do we do about that?
+
+460
+00:34:13,360 --> 00:34:14,480
+ >> I love that question.
+
+461
+00:34:14,480 --> 00:34:18,840
+ I mean, I would love to challenge us to think what kind of
+
+462
+00:34:18,840 --> 00:34:26,360
+ technical non-normative approaches we might take.
+
+463
+00:34:26,360 --> 00:34:31,040
+ Because the way these are designed are very much, how do we move toward
+
+464
+00:34:31,040 --> 00:34:37,600
+ the words that are most used, most connected to each other most often?
+
+465
+00:34:37,600 --> 00:34:46,600
+ And all of the transformer steps are narrowing to that norm.
+
+466
+00:34:46,600 --> 00:34:49,040
+ Could we imagine a model that does the opposite?
+
+467
+00:34:49,040 --> 00:34:53,800
+ Could we imagine something that is architecture queer?
+
+468
+00:34:53,800 --> 00:34:57,160
+ I would be super interested to think out what that means.
+
+469
+00:34:57,160 --> 00:35:00,720
+ I don't think anybody's doing that, I would love to.
+
+470
+00:35:00,720 --> 00:35:04,600
+ It might be a very poetic model,
+
+471
+00:35:04,600 --> 00:35:08,320
+ it might be completely economically useless, and I would love that.
+
+472
+00:35:08,320 --> 00:35:13,640
+ >> Yeah, thank you for your talk.
+
+473
+00:35:14,800 --> 00:35:19,840
+ I was just thinking that you are looking to proprietary data model that
+
+474
+00:35:19,840 --> 00:35:26,160
+ basically run on someone else's server, so you don't have control over
+
+475
+00:35:26,160 --> 00:35:29,320
+ what data sets they train on and so on.
+
+476
+00:35:29,320 --> 00:35:37,520
+ But there are also free software models like Lama AI that basically provide you
+
+477
+00:35:37,520 --> 00:35:43,160
+ with the way to deduce the next words depending on what the previous are.
+
+478
+00:35:43,160 --> 00:35:45,920
+ And you can run it on your own computer, so
+
+479
+00:35:45,920 --> 00:35:51,000
+ you can even generate a new data set or new weights for the model,
+
+480
+00:35:51,000 --> 00:35:56,560
+ which would take considerable computing power to generate them.
+
+481
+00:35:56,560 --> 00:36:01,640
+ But then you would be in control in exactly what you put in, so
+
+482
+00:36:01,640 --> 00:36:07,640
+ if you put your data set then it would generate the data out of the data set.
+
+483
+00:36:07,640 --> 00:36:10,360
+ >> Yeah, exactly, so that's the goal.
+
+484
+00:36:10,360 --> 00:36:15,320
+ Once we have a large enough data set, we are currently looking at the proprietary
+
+485
+00:36:15,320 --> 00:36:21,160
+ models as much as possible, but also looking at Bloom and Lama to kind of
+
+486
+00:36:21,160 --> 00:36:25,720
+ infer backwards what's being used in the ones that we don't have access to too.
+
+487
+00:36:25,720 --> 00:36:28,200
+ And then once we have a large enough data set,
+
+488
+00:36:28,200 --> 00:36:33,240
+ I would love anybody here who wants to contribute ideas for that data set.
+
+489
+00:36:33,240 --> 00:36:39,600
+ We will start training, fine tuning on top of the open source models.
+
+490
+00:36:39,600 --> 00:36:43,160
+ And then eventually once we have a big enough data set,
+
+491
+00:36:43,160 --> 00:36:44,560
+ training from scratch hopefully.
+
+492
+00:36:44,560 --> 00:36:47,220
+ >> Hi.
+
+493
+00:36:47,220 --> 00:36:47,880
+ >> Yeah.
+
+494
+00:36:47,880 --> 00:36:49,040
+ >> Hi.
+
+495
+00:36:49,040 --> 00:36:52,400
+ >> So thanks for the talk and thanks everyone for the questions.
+
+496
+00:36:52,400 --> 00:36:54,160
+ I have two questions if that's okay.
+
+497
+00:36:54,160 --> 00:36:56,040
+ One more on the technical side.
+
+498
+00:36:56,040 --> 00:37:02,240
+ I believe that the current solutions are dealing with the kind of safety and
+
+499
+00:37:02,240 --> 00:37:07,880
+ sometimes hate speech issues by human reinforced learning.
+
+500
+00:37:07,880 --> 00:37:11,280
+ And you seem to be proposing attacking it from the other side,
+
+501
+00:37:11,280 --> 00:37:12,880
+ which is the data set.
+
+502
+00:37:12,880 --> 00:37:17,000
+ So I would like to know if you have tried and failed with the reinforced learning,
+
+503
+00:37:17,000 --> 00:37:20,680
+ and that's what took you to look at the data set duration.
+
+504
+00:37:20,680 --> 00:37:25,000
+ And a related question would be maybe a little bit controversial, but
+
+505
+00:37:25,000 --> 00:37:30,760
+ what is your view on when filtering the input training data sets become censorship?
+
+506
+00:37:30,760 --> 00:37:33,080
+ >> Those are great questions.
+
+507
+00:37:36,160 --> 00:37:38,760
+ I think there's a question up here too.
+
+508
+00:37:38,760 --> 00:37:43,120
+ I have done a good amount of reading on the human reinforced
+
+509
+00:37:43,120 --> 00:37:44,760
+ processes that have been going on.
+
+510
+00:37:44,760 --> 00:37:48,680
+ I feel like it stresses me out.
+
+511
+00:37:48,680 --> 00:37:51,920
+ It's a little bit problematic ways that they,
+
+512
+00:37:51,920 --> 00:37:54,880
+ from what I've seen how open AI are doing it.
+
+513
+00:37:54,880 --> 00:38:01,160
+ And kind of the terms of use that you're opting into as you do this.
+
+514
+00:38:01,160 --> 00:38:04,000
+ So I haven't myself been working with them.
+
+515
+00:38:04,000 --> 00:38:08,800
+ I'm just still kind of watching the space to see what the approaches are.
+
+516
+00:38:08,800 --> 00:38:14,120
+ But I think rather than starting with here's everything, what do we remove?
+
+517
+00:38:14,120 --> 00:38:17,600
+ And because it's not really everything, it is still curated, but
+
+518
+00:38:17,600 --> 00:38:22,360
+ they're not treating it as a curated space.
+
+519
+00:38:22,360 --> 00:38:25,720
+ We can more intentionally curate for
+
+520
+00:38:25,720 --> 00:38:30,280
+ the actual job that we actually want it to do, because it's not serving us.
+
+521
+00:38:30,280 --> 00:38:35,440
+ So I think that the other approach is just more interesting to me and
+
+522
+00:38:35,440 --> 00:38:39,480
+ provides more of a service in a way because it's
+
+523
+00:38:39,480 --> 00:38:42,400
+ collecting from perspectives that aren't being represented.
+
+524
+00:38:42,400 --> 00:38:47,040
+ And to your question about filtering versus censorship,
+
+525
+00:38:47,040 --> 00:38:48,400
+ I think that's really interesting.
+
+526
+00:38:48,400 --> 00:38:54,960
+ I wonder if that wouldn't be as much of an issue with the opt in model.
+
+527
+00:38:56,320 --> 00:39:01,480
+ I did wonder what would happen if somebody contributes to our forum and
+
+528
+00:39:01,480 --> 00:39:05,800
+ puts in a hate speech, a text that is queer hate speech.
+
+529
+00:39:05,800 --> 00:39:13,960
+ My first thought is that that should also go in because that is part of
+
+530
+00:39:13,960 --> 00:39:18,400
+ queer lived experience, but it's not the only part and
+
+531
+00:39:18,400 --> 00:39:22,280
+ it's maybe hopefully eventually not the majority part.
+
+532
+00:39:22,280 --> 00:39:27,520
+ So, but what we're seeing right now in the larger models is the way that they are
+
+533
+00:39:27,520 --> 00:39:31,680
+ being architected, it becomes the only part that we're seeing.
+
+534
+00:39:31,680 --> 00:39:38,080
+ And part of that is because of that ad hoc after the fact human reinforced training.
+
+535
+00:39:38,080 --> 00:39:42,040
+ Because anytime it says dyke, it's like nope, speech,
+
+536
+00:39:42,040 --> 00:39:43,920
+ you don't get to say anything about us.
+
+537
+00:39:43,920 --> 00:39:46,900
+ >> Yeah.
+
+538
+00:39:50,400 --> 00:39:55,160
+ Regarding your data set, I was really interested in the meta information you
+
+539
+00:39:55,160 --> 00:40:01,480
+ use and have you played around using kind of the same data, for
+
+540
+00:40:01,480 --> 00:40:07,480
+ example Reddit or stuff like that with some more metadata added.
+
+541
+00:40:07,480 --> 00:40:12,120
+ Like for the Reddit, like which subreddit, which user posted,
+
+542
+00:40:12,120 --> 00:40:17,120
+ which also like publisher and stuff like that could be possible.
+
+543
+00:40:17,120 --> 00:40:18,440
+ Have you played around with that?
+
+544
+00:40:18,440 --> 00:40:26,040
+ If that already helps the quality of the resulting neural network and
+
+545
+00:40:26,040 --> 00:40:31,280
+ maybe being more aware of what they are typing and from what kind of source it comes.
+
+546
+00:40:31,280 --> 00:40:34,520
+ >> Interesting, I like that idea.
+
+547
+00:40:34,520 --> 00:40:39,120
+ I think, so if you look at, I believe it's the open web text too,
+
+548
+00:40:39,120 --> 00:40:45,080
+ the one that's open source does include which subreddits, but it's not filtering for,
+
+549
+00:40:45,080 --> 00:40:48,880
+ it's not trying to curate from a specific voice.
+
+550
+00:40:48,880 --> 00:40:53,080
+ And so I haven't done that, it's like taking the whole of Reddit because we're
+
+551
+00:40:53,080 --> 00:40:56,000
+ coming from this very additive rather than subtractive approach.
+
+552
+00:40:56,000 --> 00:41:01,680
+ But I think the other issue with Reddit is that people, you are consenting,
+
+553
+00:41:01,680 --> 00:41:03,560
+ it is publicly available.
+
+554
+00:41:03,560 --> 00:41:08,960
+ But when that started, the expectation wasn't that your private,
+
+555
+00:41:08,960 --> 00:41:13,480
+ your anonymous story would be sucked into this large language model.
+
+556
+00:41:13,480 --> 00:41:18,200
+ So I would be more interested in including people who know that that's what they're
+
+557
+00:41:18,200 --> 00:41:24,320
+ consenting to and are invested in the project of imagining queer archives and
+
+558
+00:41:24,320 --> 00:41:24,920
+ things like that.
+
+559
+00:41:24,920 --> 00:41:31,200
+ >> Yeah, I think, yeah, hi.
+
+560
+00:41:31,200 --> 00:41:36,880
+ >> I have a question regarding self reflection using AI.
+
+561
+00:41:36,880 --> 00:41:40,160
+ I think that's a really powerful way to use AI.
+
+562
+00:41:40,160 --> 00:41:44,120
+ And I'm interested, is there some kind of,
+
+563
+00:41:44,120 --> 00:41:48,520
+ are there problems if you're using this as a queer person?
+
+564
+00:41:48,520 --> 00:41:56,960
+ So does it do any suggestions that are just based on that you're a queer person and
+
+565
+00:41:56,960 --> 00:41:58,920
+ it's really not suitable?
+
+566
+00:41:58,920 --> 00:42:05,040
+ >> Yeah, so if I understand your question, you're saying if you're using one of
+
+567
+00:42:05,040 --> 00:42:13,360
+ the existing models and trying to kind of self reflect,
+
+568
+00:42:13,360 --> 00:42:18,520
+ that it's not treating you as even if you identify as, yeah, can you?
+
+569
+00:42:18,520 --> 00:42:25,920
+ >> It's about building conflict systems and what are your needs for
+
+570
+00:42:25,920 --> 00:42:29,360
+ a suitable conflict system for you and the group.
+
+571
+00:42:29,360 --> 00:42:33,200
+ >> Yeah. >> And it's really helpful to use AI to
+
+572
+00:42:33,200 --> 00:42:38,120
+ self reflect on what are your needs for this conflict space.
+
+573
+00:42:38,120 --> 00:42:41,200
+ And I'm interested, are there any biases?
+
+574
+00:42:41,200 --> 00:42:45,600
+ Is this a problem when using AI because you are a queer person?
+
+575
+00:42:45,600 --> 00:42:53,520
+ >> Yeah, I think if I understand your question correctly, yeah,
+
+576
+00:42:53,520 --> 00:42:57,480
+ I find at least with the existing versions, I find it very limiting for
+
+577
+00:42:57,480 --> 00:43:02,320
+ being able to do that because it has a very narrow scope for
+
+578
+00:43:02,320 --> 00:43:06,600
+ what it's going to understand about that, right?
+
+579
+00:43:06,600 --> 00:43:12,400
+ So I would be interested to try if the data set that I'm talking about
+
+580
+00:43:12,400 --> 00:43:15,840
+ already existed and if these models already existed,
+
+581
+00:43:15,840 --> 00:43:21,240
+ what alternative might come out of a self reflection that would be very,
+
+582
+00:43:21,240 --> 00:43:24,320
+ very different than the version I would get from chat GPT?
+
+583
+00:43:24,320 --> 00:43:26,480
+ Does that answer your question?
+
+584
+00:43:26,480 --> 00:43:30,480
+ Maybe we can talk, yeah, I'd be curious.
+
+585
+00:43:30,480 --> 00:43:37,520
+ >> I'm wondering if there's been any sort of practice in instead of
+
+586
+00:43:37,520 --> 00:43:41,240
+ only doing things on the back end,
+
+587
+00:43:41,240 --> 00:43:47,520
+ having more of an engaged approach with the user.
+
+588
+00:43:47,520 --> 00:43:49,520
+ Cuz right now it's like, did you like this answer?
+
+589
+00:43:49,520 --> 00:43:53,200
+ Yes, no, and I know it's way more complex than that.
+
+590
+00:43:53,200 --> 00:43:59,480
+ So sort of like taking in a little bit more
+
+591
+00:43:59,480 --> 00:44:03,720
+ content to then like, hey, a conflict just arose.
+
+592
+00:44:03,720 --> 00:44:08,200
+ It made somebody feel like this and kind of engage the user to report it and
+
+593
+00:44:08,200 --> 00:44:09,400
+ maybe describe something.
+
+594
+00:44:09,400 --> 00:44:12,040
+ I know that's kind of a burden on the user, but
+
+595
+00:44:12,040 --> 00:44:16,280
+ I was just curious how much that's been leveraged in this space.
+
+596
+00:44:16,280 --> 00:44:21,920
+ >> Yeah, so there's a couple things that I know about happening in that regard.
+
+597
+00:44:21,920 --> 00:44:27,040
+ There's the human reinforcement training that was mentioned earlier that's
+
+598
+00:44:27,040 --> 00:44:32,000
+ happening with the large companies developing these, where they're going
+
+599
+00:44:32,000 --> 00:44:38,280
+ through and it's usually about as simple as was this a good answer.
+
+600
+00:44:38,280 --> 00:44:43,760
+ But I think as you described, it's gonna get more complex very quickly.
+
+601
+00:44:43,760 --> 00:44:49,560
+ And then I know of at least one research group that is looking at building tools
+
+602
+00:44:49,560 --> 00:44:56,240
+ for users to compare different models, outputs, using the same prompt.
+
+603
+00:44:56,240 --> 00:44:59,160
+ Which I think is really interesting as a user.
+
+604
+00:44:59,160 --> 00:45:04,520
+ But I think I would also encourage us to think about our agency as users
+
+605
+00:45:04,520 --> 00:45:10,800
+ not only being at the front end at the end of the process, but
+
+606
+00:45:10,800 --> 00:45:15,040
+ again at the beginning of the process and holistically through the pipeline.
+
+607
+00:45:15,040 --> 00:45:24,080
+ Also, if anyone wants to look up a keyword in the data set for
+
+608
+00:45:24,080 --> 00:45:26,680
+ the similarity score, we can play with that in the time remaining too.
+
+609
+00:45:26,680 --> 00:45:28,960
+ I think there were more questions.
+
+610
+00:45:28,960 --> 00:45:35,480
+ >> Hello, I have one question regarding the content of people going with the data.
+
+611
+00:45:35,480 --> 00:45:38,320
+ So you said you would like to use the archives,
+
+612
+00:45:38,320 --> 00:45:41,120
+ but you would rather not use Reddit data.
+
+613
+00:45:41,120 --> 00:45:43,880
+ And I think if you have the content of right holders,
+
+614
+00:45:43,880 --> 00:45:47,320
+ it's basically not the same as having the content of the people who originally
+
+615
+00:45:47,320 --> 00:45:48,240
+ published the work.
+
+616
+00:45:48,240 --> 00:45:54,480
+ And so I really don't know if it might make a lot of, yeah,
+
+617
+00:45:54,480 --> 00:46:00,520
+ hurts, like it will decrease the quality of the data set in the end so
+
+618
+00:46:00,520 --> 00:46:05,640
+ much that maybe considering just doing it without the content might be the better
+
+619
+00:46:05,640 --> 00:46:06,880
+ approach.
+
+620
+00:46:06,880 --> 00:46:08,800
+ >> Yeah, I appreciate your point.
+
+621
+00:46:08,800 --> 00:46:12,720
+ I think that one of the things we wanna think about as we're developing what
+
+622
+00:46:12,720 --> 00:46:19,080
+ methods make sense is this tension of kind of the complexity and
+
+623
+00:46:19,080 --> 00:46:23,000
+ impossibility of perfect consent and rights.
+
+624
+00:46:23,000 --> 00:46:27,200
+ And how the existing information,
+
+625
+00:46:27,200 --> 00:46:33,200
+ the existing IP structures don't fit these new tools.
+
+626
+00:46:33,200 --> 00:46:39,440
+ So how do we build, it's kind of an impossible task,
+
+627
+00:46:39,440 --> 00:46:40,960
+ an intersectional language model.
+
+628
+00:46:42,240 --> 00:46:48,120
+ The idea might take centuries, millennia, I don't know.
+
+629
+00:46:48,120 --> 00:46:53,040
+ But we're kind of embracing the failure to explore what's in that activity
+
+630
+00:46:53,040 --> 00:46:56,320
+ to kind of point to the failures of these larger systems.
+
+631
+00:46:56,320 --> 00:47:01,600
+ So yeah, if we find that we just can't get a big enough data set with archives only,
+
+632
+00:47:01,600 --> 00:47:06,560
+ or we have issues with the consent because of the way the archives
+
+633
+00:47:06,560 --> 00:47:11,320
+ were licensed originally, what does it mean to consent and for whom and
+
+634
+00:47:11,320 --> 00:47:12,840
+ from whom?
+
+635
+00:47:12,840 --> 00:47:16,800
+ These are all questions that are not gonna have perfect answers and
+
+636
+00:47:16,800 --> 00:47:21,280
+ we certainly want to just be at least bringing attention to the questions.
+
+637
+00:47:21,280 --> 00:47:26,840
+ And the hope is that it also brings attention to how these questions
+
+638
+00:47:26,840 --> 00:47:30,960
+ appear in the commercial data sets and the commercial models.
+
+639
+00:47:30,960 --> 00:47:33,960
+ Because they are there, we're just not attending to them.
+
+640
+00:47:33,960 --> 00:47:35,500
+ Thank you.
+
+641
+00:47:38,600 --> 00:47:44,880
+ >> I had a question about, so this was a little bit off of a previous question.
+
+642
+00:47:44,880 --> 00:47:53,720
+ There was a project that I know of where they used AI to talk with people who
+
+643
+00:47:53,720 --> 00:47:59,400
+ had cancer and they were young teenagers who
+
+644
+00:47:59,400 --> 00:48:03,640
+ had experienced cancer and couldn't find a community.
+
+645
+00:48:03,640 --> 00:48:06,320
+ Their friends didn't understand what that meant.
+
+646
+00:48:06,320 --> 00:48:11,040
+ They had a hard time talking with someone else about the trauma that they experienced
+
+647
+00:48:11,040 --> 00:48:11,560
+ around that.
+
+648
+00:48:11,560 --> 00:48:21,480
+ I think there is possibly an opportunity to create an AI to talk to about trauma
+
+649
+00:48:21,480 --> 00:48:27,480
+ related to queer experience, hopefully infrequent trauma experiences.
+
+650
+00:48:27,480 --> 00:48:32,800
+ I was wondering if you have information about,
+
+651
+00:48:32,800 --> 00:48:37,920
+ if you see a budding community around building and
+
+652
+00:48:37,920 --> 00:48:41,680
+ creating these things within our queer community so far.
+
+653
+00:48:41,680 --> 00:48:45,840
+ >> Yeah, absolutely, I do.
+
+654
+00:48:45,840 --> 00:48:52,080
+ And I would love if any of you are inspired from this to join that effort.
+
+655
+00:48:52,080 --> 00:48:55,280
+ I think there's many ways to intervene in that space.
+
+656
+00:48:55,280 --> 00:49:00,440
+ And some of them are really building positive tools like what you've described.
+
+657
+00:49:00,440 --> 00:49:05,920
+ And some of them are building weird, uncomfortable, messed up interventions.
+
+658
+00:49:05,920 --> 00:49:10,720
+ And I think all of that belongs in this resistance to
+
+659
+00:49:10,720 --> 00:49:14,360
+ the generative machine learning that we're seeing.
+
+660
+00:49:14,360 --> 00:49:28,360
+ >> Thank you.
+
+661
+00:49:28,360 --> 00:49:32,240
+ Yeah, picking up on that very interesting remark from our comrade over here.
+
+662
+00:49:32,240 --> 00:49:36,760
+ So queer is a process against the status quo, it's an eternal process, right?
+
+663
+00:49:36,760 --> 00:49:41,080
+ So there's no such thing as a stable identity because that would be contradictory.
+
+664
+00:49:41,080 --> 00:49:45,480
+ And we saw a very interesting example in the scratch board of corporate speech.
+
+665
+00:49:45,480 --> 00:49:48,440
+ Right, it's corporate speech affirming speech, so to speak, right?
+
+666
+00:49:48,440 --> 00:49:52,200
+ And you rightly pointed out that that was cringe.
+
+667
+00:49:52,200 --> 00:49:56,320
+ And so I was wondering, could you give a concrete example of what you would like
+
+668
+00:49:56,320 --> 00:49:57,760
+ to see in the next iteration?
+
+669
+00:49:57,760 --> 00:50:03,240
+ >> In the commercially available next iteration?
+
+670
+00:50:03,240 --> 00:50:07,240
+ >> For example, what we saw just in a better form,
+
+671
+00:50:07,240 --> 00:50:12,720
+ the output you would have said yes to in that example.
+
+672
+00:50:12,720 --> 00:50:16,680
+ >> Mm-hm, okay, well, two parts.
+
+673
+00:50:16,680 --> 00:50:20,680
+ I think through this experience, I'm not sure that I wanna see
+
+674
+00:50:20,680 --> 00:50:24,640
+ the version that I want in the commercial iteration.
+
+675
+00:50:24,640 --> 00:50:28,360
+ I feel like maybe it doesn't belong to everybody,
+
+676
+00:50:28,360 --> 00:50:32,520
+ it belongs to people who build it for ourselves.
+
+677
+00:50:32,520 --> 00:50:39,520
+ I can't imagine what open AI might do with a queer intersectional language model.
+
+678
+00:50:39,520 --> 00:50:42,160
+ But from what we've seen them do so far,
+
+679
+00:50:42,160 --> 00:50:46,600
+ I feel like it wouldn't be aligned with my values.
+
+680
+00:50:46,600 --> 00:50:50,280
+ And what kind of response might I want to see?
+
+681
+00:50:52,960 --> 00:51:00,440
+ >> Yeah, I think that it would be something that I could recognize myself in or
+
+682
+00:51:00,440 --> 00:51:04,400
+ that I could recognize people I know in, that it would be affirming.
+
+683
+00:51:04,400 --> 00:51:09,640
+ Maybe it would be complex, it wouldn't necessarily be perfect or optimistic.
+
+684
+00:51:09,640 --> 00:51:11,240
+ But it would be dynamic, right?
+
+685
+00:51:11,240 --> 00:51:19,000
+ It would acknowledge that there's more to queer lived experience than
+
+686
+00:51:20,040 --> 00:51:26,240
+ what it knows now, which is being queer is illegal in this country.
+
+687
+00:51:26,240 --> 00:51:31,080
+ So if you're on a plane, the flight attendant has to tell the people on
+
+688
+00:51:31,080 --> 00:51:34,560
+ the plane that they're going into a dangerous situation.
+
+689
+00:51:34,560 --> 00:51:37,880
+ There's this latent sense of fear and
+
+690
+00:51:37,880 --> 00:51:41,560
+ danger built into this that is really shocking to me.
+
+691
+00:51:41,560 --> 00:51:46,120
+ I would love for it to be like the show Schitt's Creek,
+
+692
+00:51:46,120 --> 00:51:49,560
+ where there's queer people, but they're just living their lives and
+
+693
+00:51:49,560 --> 00:51:52,480
+ it's not the main thread of their storyline, right?
+
+694
+00:51:52,480 --> 00:52:00,100
+ Yeah?
+
+695
+00:52:00,100 --> 00:52:09,720
+ >> I wonder how much of this is the data set and how much is the actual AI
+
+696
+00:52:09,720 --> 00:52:15,040
+ kind of algorithms not really understanding the context of what it's looking at.
+
+697
+00:52:15,040 --> 00:52:20,320
+ Because I often feel you can say someone's sexual orientation and
+
+698
+00:52:20,320 --> 00:52:24,560
+ it has no real relevance other than defining the gender of the people involved.
+
+699
+00:52:24,560 --> 00:52:27,440
+ And then other times it's actually incredibly relevant and
+
+700
+00:52:27,440 --> 00:52:29,480
+ the context really matters.
+
+701
+00:52:29,480 --> 00:52:34,160
+ And then the other thing I was wondering about was
+
+702
+00:52:34,160 --> 00:52:40,640
+ sort of how you weight the relevance of data.
+
+703
+00:52:40,640 --> 00:52:46,080
+ So for example, a pivotal book, would you weight that more?
+
+704
+00:52:46,080 --> 00:52:51,400
+ Would you, as values change, how does the data set evolve over a number of years as
+
+705
+00:52:51,400 --> 00:52:55,600
+ society values change and people's views change?
+
+706
+00:52:55,600 --> 00:52:57,120
+ >> Yeah, good question, thank you.
+
+707
+00:52:57,120 --> 00:53:00,520
+ So it's both and the data set and
+
+708
+00:53:00,520 --> 00:53:07,760
+ the model are deeply entangled because the way the algorithm is built
+
+709
+00:53:07,760 --> 00:53:13,600
+ is really pulling from the frequency of each word appearing in the data set.
+
+710
+00:53:13,600 --> 00:53:17,880
+ So if Shakespeare appears in there more than anybody else,
+
+711
+00:53:17,880 --> 00:53:21,520
+ it's gonna quote unquote think like Shakespeare, right?
+
+712
+00:53:21,520 --> 00:53:28,320
+ So as the question before about how a queer model might be architected to do
+
+713
+00:53:28,320 --> 00:53:32,320
+ something differently, that might be another opportunity to intervene and
+
+714
+00:53:32,320 --> 00:53:33,760
+ build it a different way.
+
+715
+00:53:33,760 --> 00:53:38,000
+ But right now, the two are very much tied together, so
+
+716
+00:53:38,000 --> 00:53:42,480
+ it absolutely is the data set and the model.
+
+717
+00:53:42,480 --> 00:53:48,720
+ But they are connected too deeply to kind of detach.
+
+718
+00:53:48,720 --> 00:53:53,720
+ Thank you, yeah.
+
+719
+00:53:53,720 --> 00:53:55,080
+ >> Thanks.
+
+720
+00:53:55,080 --> 00:54:00,800
+ We have five minutes left according to the time schedule, but I feel like-
+
+721
+00:54:00,800 --> 00:54:02,080
+ >> Yeah, I'm happy- >> It's getting long.
+
+722
+00:54:02,080 --> 00:54:06,920
+ >> Yeah, now I'm happy to talk with anybody else after or play with the tools.
+
+723
+00:54:06,920 --> 00:54:09,280
+ And thank you so much for all your questions.
+
+724
+00:54:09,280 --> 00:54:19,280
+ >> [APPLAUSE]
+
+725
+00:54:20,160 --> 00:54:25,240
+ [MUSIC]
+

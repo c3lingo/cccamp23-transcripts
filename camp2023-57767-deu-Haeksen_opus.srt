@@ -1,0 +1,1704 @@
+1
+00:00:00,000 --> 00:00:16,000
+ [Musik]
+
+2
+00:00:16,000 --> 00:00:22,000
+ Hallo und herzlich willkommen zu einer weiteren Folge von dem neuen Format "Chaos Family".
+
+3
+00:00:22,000 --> 00:00:25,000
+ Und für die Leute, die sich wirklich auf dem Camp befinden,
+
+4
+00:00:25,000 --> 00:00:30,000
+ ist vielleicht schon aufgefallen, dass sich vor dem Heaven so ein sehr cooles Knoblauchzelt befindet,
+
+5
+00:00:30,000 --> 00:00:34,000
+ mit der Aufschrift "Hexen" und mit sehr vielen Fintermenschen davor.
+
+6
+00:00:34,000 --> 00:00:37,000
+ Und da haben wir uns gefragt, wer sind die Hexen überhaupt
+
+7
+00:00:37,000 --> 00:00:40,000
+ und haben heute Neren und Mulana zu uns ins Studio geholt.
+
+8
+00:00:40,000 --> 00:00:44,000
+ Und Neren kennen vielleicht einige von euch aus den Hexen Podcasts.
+
+9
+00:00:44,000 --> 00:00:49,000
+ Und Mulana macht ganz viele super coole Sticker, Grafiken und viele Sachen mehr.
+
+10
+00:00:49,000 --> 00:00:52,000
+ Und deshalb herzlich willkommen an euch.
+
+11
+00:00:52,000 --> 00:00:55,000
+ Hallo. Schön, hier zu sein. - Genau.
+
+12
+00:00:55,000 --> 00:00:58,000
+ Es freut uns sehr. Ihr könnt euch auch noch ein bisschen erzählen,
+
+13
+00:00:58,000 --> 00:01:01,000
+ wie ihr seit gestern angekommen habt, habe ich gehört.
+
+14
+00:01:01,000 --> 00:01:04,000
+ Unterschiedlich. Du bist länger hier, ne? - Ich bin seit Freitag hier.
+
+15
+00:01:04,000 --> 00:01:08,000
+ Wunderbar. - Ich hatte eine etwas turbulentere Anreise
+
+16
+00:01:08,000 --> 00:01:12,000
+ und bin erst an Tag eins, noch nicht mal mehr an Tag eins angekommen,
+
+17
+00:01:12,000 --> 00:01:18,000
+ sondern an Tag zwei um fünf Uhr morgens, weil mein Gefährte von der DEF CON aus Vegas gekommen ist
+
+18
+00:01:18,000 --> 00:01:20,000
+ und da gab es Flugprobleme.
+
+19
+00:01:20,000 --> 00:01:24,000
+ Ist sein Gepäck inzwischen da? - Er soll heute hier ankommen.
+
+20
+00:01:24,000 --> 00:01:28,000
+ Da freuen wir uns umso mehr, dass ihr heute hier bei uns seid.
+
+21
+00:01:28,000 --> 00:01:33,000
+ So, dann fangen wir mal an mit, wer sind eigentlich alles Teil von den Hexen?
+
+22
+00:01:33,000 --> 00:01:35,000
+ Wer gehört zu euch?
+
+23
+00:01:35,000 --> 00:01:41,000
+ Wir sind eine kunterbunte Truppe von diversen Finter-Menschen.
+
+24
+00:01:41,000 --> 00:01:45,000
+ Nicht nur krasser Hacker, sondern wirklich alle Leute.
+
+25
+00:01:45,000 --> 00:01:52,000
+ Wir haben von Opernsängern über Journalistinnen einfach eine bunte Mischung an Menschen.
+
+26
+00:01:52,000 --> 00:01:54,000
+ Das ist sehr cool. - Ja.
+
+27
+00:01:54,000 --> 00:01:57,000
+ Also es ist so ganz schön aufgeteilt.
+
+28
+00:01:57,000 --> 00:02:01,000
+ Die Hexen sind nicht zwangsläufig alles Hacker*innen,
+
+29
+00:02:01,000 --> 00:02:04,000
+ sondern vor allem technisch interessierte Menschen,
+
+30
+00:02:04,000 --> 00:02:09,000
+ die sich gerne auch vielleicht mit Technikfolgenabschätzung auseinandersetzen.
+
+31
+00:02:09,000 --> 00:02:14,000
+ Wir haben Philosoph*innen dabei, die sich aus dieser Richtung mit Themen beschäftigen.
+
+32
+00:02:14,000 --> 00:02:19,000
+ Also es ist ein ganz breites Spektrum an vielen verschiedenen Themen, die da zusammenkommen,
+
+33
+00:02:19,000 --> 00:02:26,000
+ was Making angeht, Gesellschaft, Feminismus und alles eigentlich.
+
+34
+00:02:26,000 --> 00:02:28,000
+ Das ist super.
+
+35
+00:02:28,000 --> 00:02:33,000
+ Seit wann gab es eure Gruppe eigentlich und wie kam es dazu, dass sie ins Leben gerufen wurde?
+
+36
+00:02:33,000 --> 00:02:36,000
+ Seit den 80er Jahren?
+
+37
+00:02:36,000 --> 00:02:39,000
+ Puh, eine Weile.
+
+38
+00:02:39,000 --> 00:02:48,000
+ Ich habe die Legende gehört, dass es begab sich, dass zwei Frauen sich auf einem Kongress getroffen haben
+
+39
+00:02:48,000 --> 00:02:52,000
+ und festgestellt haben, dass sie tendenziell etwas in der Minderheit sind
+
+40
+00:02:52,000 --> 00:02:57,000
+ und haben miteinander geredet und haben darüber geredet, mit noch mehr Menschen zu reden.
+
+41
+00:02:57,000 --> 00:03:01,000
+ So sind dann wohl irgendwie über die Zeit die Hexen entstanden.
+
+42
+00:03:01,000 --> 00:03:03,000
+ Ihr seid schon eine relativ große Gruppierung.
+
+43
+00:03:03,000 --> 00:03:07,000
+ Es sind schon sehr viele Hexen und ihr seid, so weit ich weiß, auch nicht an einem Standort,
+
+44
+00:03:07,000 --> 00:03:09,000
+ sondern schon ein bisschen verteilt.
+
+45
+00:03:09,000 --> 00:03:14,000
+ Genau. Also nach den 80er Jahren gab es mal so eine Hexenphase, dann wurde das ein bisschen dümpelig
+
+46
+00:03:14,000 --> 00:03:19,000
+ und ich glaube, 2004 kamen das wieder so richtig auf, so die Neugebote der Hexen
+
+47
+00:03:19,000 --> 00:03:27,000
+ und seitdem steigen wir konstant jedes Jahr und ich glaube, wir sind um die 650 Mitglieder seit diesem Camp.
+
+48
+00:03:27,000 --> 00:03:29,000
+ Oh wow, das sind sehr viele.
+
+49
+00:03:29,000 --> 00:03:33,000
+ Ja, und diese Phase mit der Pandemie hat auch noch ein bisschen dazu beigetragen,
+
+50
+00:03:33,000 --> 00:03:40,000
+ weil, wie du gerade sagtest, es gibt nicht den einen Ort, wo die Hexen existieren, es gibt nicht den einen Space
+
+51
+00:03:40,000 --> 00:03:47,000
+ und das hat sich dann doch dezentral noch eine ganze Ecke entwickelt, dadurch, dass dann plötzlich viel online stattfand,
+
+52
+00:03:47,000 --> 00:03:51,000
+ in Konferenzen, neue Projekte haben sich gefunden und gegründet,
+
+53
+00:03:51,000 --> 00:03:57,000
+ Menschen hatten, naja, Zeit sich umzugucken und mit Dingen zu beschäftigen
+
+54
+00:03:57,000 --> 00:04:00,000
+ und dann sind sukzessive immer mehr dazugekommen.
+
+55
+00:04:00,000 --> 00:04:11,000
+ Und so, dass jetzt über die 650 Menschen auf unserer Mailingliste, sozusagen unserem Hauptorgan, sage ich mal, eingetragen sind.
+
+56
+00:04:11,000 --> 00:04:14,000
+ Ich habe gerade davon gesprochen, dass super viele Menschen dazugekommen sind.
+
+57
+00:04:14,000 --> 00:04:18,000
+ Jetzt stellt sich mir natürlich die Frage, wie kann man eine Hexe werden, wie kann man dazukommen?
+
+58
+00:04:18,000 --> 00:04:23,000
+ Also im Prinzip, indem man eine Hexe kennt, das heißt, man kann einfach zu uns kommen
+
+59
+00:04:23,000 --> 00:04:27,000
+ und wenn man erstmal so ein bisschen was über die Hexen erfahren will und so weiter,
+
+60
+00:04:27,000 --> 00:04:30,000
+ dann gibt es auch immer ein Hexenfrühstück, so nennen wir das.
+
+61
+00:04:30,000 --> 00:04:38,000
+ Es ist selten früh, aber im Prinzip kommen wir zusammen in Essen, stellen die Hexen vor,
+
+62
+00:04:38,000 --> 00:04:43,000
+ teilen uns vielleicht ein bisschen Gruppen auf, es gibt teilweise auch Regionalgruppen von den Hexen
+
+63
+00:04:43,000 --> 00:04:48,000
+ und dann ist da einfach so ein Kennenlernen und danach kann man sich eintragen auf der Mailingliste, wenn man mag.
+
+64
+00:04:48,000 --> 00:04:50,000
+ Und es ist dann eine Hexe.
+
+65
+00:04:50,000 --> 00:04:53,000
+ Also im Grunde, weitere Voraussetzungen gibt es nicht, man muss interessiert sein
+
+66
+00:04:53,000 --> 00:04:58,000
+ und sonst wahrscheinlich eurem Leitbild folgen. Ich habe auf der Website gesehen, ihr habt ein Leitbild,
+
+67
+00:04:58,000 --> 00:05:02,000
+ könnt ihr das vielleicht so ein bisschen kurz anschneiden. Was ist das Leitbild der Hexen?
+
+68
+00:05:02,000 --> 00:05:06,000
+ Hu! Prüfungsrunde.
+
+69
+00:05:06,000 --> 00:05:16,000
+ Eine bessere Gesellschaft schaffen für Finter Menschen und Perspektiven mit reinbringen in verschiedene Sachen,
+
+70
+00:05:16,000 --> 00:05:19,000
+ dass dann am Ende allen Menschen geholfen ist.
+
+71
+00:05:19,000 --> 00:05:25,000
+ Das hört sich doch so gut an. Das würde ich auch unterstützen. Ich glaube, ich sollte unbedingt auf eine Zeugnizeit kommen.
+
+72
+00:05:25,000 --> 00:05:27,000
+ Gerne, gerne.
+
+73
+00:05:27,000 --> 00:05:32,000
+ Wir würden gerne jetzt ein bisschen über deinen Podcast sprechen. Und zwar machst du den Podcast für die Hexen.
+
+74
+00:05:32,000 --> 00:05:38,000
+ Worum geht es da? Wie viel covers hast du vom Camp? Was kann man noch alles so erfahren? Was kann man alles lernen?
+
+75
+00:05:38,000 --> 00:05:44,000
+ Ja, eine ganze Menge, glaube ich. Es ist das Hexenwerk, so heißt der Podcast.
+
+76
+00:05:44,000 --> 00:05:50,000
+ Ich bin in dieses Projekt reingeschlittert, als ich bei den Hexen anfing.
+
+77
+00:05:50,000 --> 00:05:53,000
+ Als ich mich auf die Mailingliste eingetragen habe, war das so,
+
+78
+00:05:53,000 --> 00:05:59,000
+ über die Mailingliste kommen immer die aktuellen Treffen und Dinge, wo man teilnehmen kann.
+
+79
+00:05:59,000 --> 00:06:05,000
+ Das war das erste Podcast-Kick-Off. Dann dachte ich, ich podcaste jetzt seit anderthalb Jahren selber,
+
+80
+00:06:05,000 --> 00:06:13,000
+ dann gehste da mal hin. Und irgendwie hat sich das dann so entwickelt, dass ich das jetzt koordiniere mit.
+
+81
+00:06:13,000 --> 00:06:20,000
+ Das heißt, ich bin nicht selbst in jeder Folge zu hören, aber ich habe den Hut auf, wie es bei uns heißt, für den Podcast.
+
+82
+00:06:20,000 --> 00:06:26,000
+ Und es können alle Themen rein. Unser Untertitel ist "Technik, Kultur, Feminismus".
+
+83
+00:06:26,000 --> 00:06:30,000
+ Und wir versuchen da auch, die Bandbreite abzubilden, die bei den Hexen selbst ist.
+
+84
+00:06:30,000 --> 00:06:37,000
+ Das heißt, wir haben zum Beispiel Pico bei den Hexen, die wahrscheinlich sehr viele Menschen kennen.
+
+85
+00:06:37,000 --> 00:06:44,000
+ Und da haben wir eine Folge über den Anfänger*innen-Workshop für Pysen gemacht,
+
+86
+00:06:44,000 --> 00:06:49,000
+ weil Pico unterrichtet Pysen und macht da Kurse regelmäßig.
+
+87
+00:06:49,000 --> 00:06:55,000
+ Und da gab es dann zum Beispiel eine Folge zu "Wie kann ich an dem Kurs teilnehmen? Was passiert in dem Kurs?"
+
+88
+00:06:55,000 --> 00:07:00,000
+ und so ein bisschen Pysen-Rumgenörde gab es auch noch, glaube ich, in der Folge.
+
+89
+00:07:00,000 --> 00:07:02,000
+ Die letzte Folge war über die Flower-Batch.
+
+90
+00:07:02,000 --> 00:07:03,000
+ Genau.
+
+91
+00:07:03,000 --> 00:07:04,000
+ Auf Hörnswert.
+
+92
+00:07:04,000 --> 00:07:04,000
+ Ja.
+
+93
+00:07:04,000 --> 00:07:05,000
+ Sehr aktuell vor allem.
+
+94
+00:07:05,000 --> 00:07:10,000
+ Genau. Die hatten wir schon im Juni aufgenommen. Die haben wir noch vor dem Camp geschafft auszustrahlen.
+
+95
+00:07:10,000 --> 00:07:12,000
+ Dann seid ihr schnell zu vortragen und hier selber.
+
+96
+00:07:12,000 --> 00:07:21,000
+ Genau. Pico hat Timon aus dem Badge-Team interviewt und eine Dreiviertelstunde über das Badge geht dann die Folge.
+
+97
+00:07:21,000 --> 00:07:25,000
+ Was haben wir noch für Folgen? Ich muss gerade überlegen.
+
+98
+00:07:25,000 --> 00:07:28,000
+ Ich mache gerade eine Folge, die ist noch nicht erschienen, darauf freue ich mich schon.
+
+99
+00:07:28,000 --> 00:07:34,000
+ Eine Frankenstein-Lesung von Mary Shelley, um auch mal diesen Kulturaspekt wieder mehr mit reinzubringen.
+
+100
+00:07:34,000 --> 00:07:39,000
+ Und so eine kleine Verortung. Was hat eigentlich Frankenstein schon mit Science-Fiction zu tun?
+
+101
+00:07:39,000 --> 00:07:45,000
+ Das hört sich super interessant an. Ich bin froh, dass wir hier so einen kleinen Einblick in die zukünftigen Folgen bekommen haben.
+
+102
+00:07:45,000 --> 00:07:49,000
+ Sonst, ihr habt auch über Projekte gesprochen. Was für Projekte macht ihr da?
+
+103
+00:07:49,000 --> 00:07:55,000
+ Sind viele über die Corona-Zeit entstanden, haben wir gehört, weil vieles online umgebucht wurde.
+
+104
+00:07:55,000 --> 00:07:59,000
+ Dementsprechend, erzählt mal, ihr könnt bei einem anfangen, ihr könnt alle gleichzeitig erwähnen.
+
+105
+00:07:59,000 --> 00:08:06,000
+ Es gibt inzwischen total viele Untergruppen von den Hexen. Wir organisieren uns viel neben der Mailing-Liste über Rocketjet.
+
+106
+00:08:06,000 --> 00:08:10,000
+ Da gibt es verschiedene Kanäle, wie schon erwähnt die Philosophie-Hexen.
+
+107
+00:08:10,000 --> 00:08:17,000
+ Als Corona war, gab es die RC3, den Kongressersatz sozusagen.
+
+108
+00:08:17,000 --> 00:08:22,000
+ Da gab es ein riesen Team an Hexen und wir haben quasi das eigene Programm organisiert.
+
+109
+00:08:22,000 --> 00:08:30,000
+ Was gibt es noch? Netzwerk, Hexen, für jede Interessengruppe eigentlich Rollenspiele.
+
+110
+00:08:30,000 --> 00:08:42,000
+ Die Security-Hexen, manche lagern sich dann ein bisschen aus, haben dann auch eigene Mailing-Disten,
+
+111
+00:08:42,000 --> 00:08:46,000
+ über die sie sich sozusagen Sub-Einheiten bilden und da auch organisieren.
+
+112
+00:08:46,000 --> 00:08:53,000
+ Aber das wird alles immer über die Große geteilt, sodass auch alle immer von allen Projekten mitbekommen oder von allen Gruppen, die sich gerade aktiv treffen.
+
+113
+00:08:53,000 --> 00:09:01,000
+ Wir haben eine ADHS-Gruppe, weil gerade das Thema bei Finter Menschen auch sehr spannend ist,
+
+114
+00:09:01,000 --> 00:09:08,000
+ weil die inner Diagnostik unterrepräsentiert sind, waren bisher, ich weiß nicht, ob das Verhältnis sich jetzt schon nachhaltig geändert hat.
+
+115
+00:09:08,000 --> 00:09:11,000
+ Aber da ist in den letzten Jahren viel passiert.
+
+116
+00:09:11,000 --> 00:09:19,000
+ Ich denke, die Pandemie hat da auch so ein bisschen Druck ausgelöst bei vielen, weil viele Alltagsstrukturen weggebrochen waren,
+
+117
+00:09:19,000 --> 00:09:23,000
+ was wiederum dazu geführt hat, dass sich Leute anders mit sich selbst auseinandergesetzt haben.
+
+118
+00:09:23,000 --> 00:09:27,000
+ Und da ist das auch irgendwie, glaube ich, als Thema mit reingekommen.
+
+119
+00:09:27,000 --> 00:09:35,000
+ Und ja, da gibt es auch eine Gruppe zu, um sich da auszutauschen, Erfahrungswerte oder einfach gegenseitig so ein bisschen erzählen und Hilfestellung leisten.
+
+120
+00:09:35,000 --> 00:09:36,000
+ Genau.
+
+121
+00:09:36,000 --> 00:09:40,000
+ Das ist sehr gut. Auch schön, dass ihr es erwähnt, weil es vielleicht auch interessant für unser Publikum sein könnte.
+
+122
+00:09:40,000 --> 00:09:45,000
+ Sonst die Frage, die sich mir noch stellt, die Security-Hexen, was genau machen die?
+
+123
+00:09:45,000 --> 00:09:49,000
+ Ist es in Bezug auf IT, ist es in Bezug auf Awareness, in Bezug auf Sicherheit?
+
+124
+00:09:49,000 --> 00:09:52,000
+ Was genau ist diese Untergruppe der Hexen?
+
+125
+00:09:52,000 --> 00:09:54,000
+ Es ist eine IT-Security-Gruppe.
+
+126
+00:09:54,000 --> 00:09:56,000
+ Ja, IT-Defense-Security.
+
+127
+00:09:56,000 --> 00:09:59,000
+ Zu Awareness haben wir auch noch einen Code of Conduct ganz frisch geschrieben.
+
+128
+00:09:59,000 --> 00:10:04,000
+ Der wurde an Tag eins auf dem Hexen-Technik statt Frühstück verlesen.
+
+129
+00:10:04,000 --> 00:10:11,000
+ Genau. Und wir haben auch noch so, es gibt auch eine Gruppe, die Sicherheit für Frauenhäuser und so etwas macht, glaube ich.
+
+130
+00:10:11,000 --> 00:10:16,000
+ Ja, genau. Das Anti-Stalking-Projekt ist auch ein ziemlich großes Projekt.
+
+131
+00:10:16,000 --> 00:10:27,000
+ Da gab es auch auf dem letzten Feierabschoss, der letzten RC3, einen Talk zu, wo Wifi-Cable, glaube ich, das Anti-Stalking-Projekt vorgestellt hat.
+
+132
+00:10:27,000 --> 00:10:37,000
+ Das ist eine Gruppe von Hexen, die sich auch mit Anti-Cyberstalking auseinandersetzt.
+
+133
+00:10:37,000 --> 00:10:46,000
+ Also, welche Mechanismen gibt es eigentlich und wie kann ich vielleicht gegensteuern, wie kann ich verhindern, dass ich vielleicht von Cyberstalking betroffen bin?
+
+134
+00:10:46,000 --> 00:10:52,000
+ Und da gibt es eine Internetseite, antistalking.hexen.org ist, glaube ich, die Adresse.
+
+135
+00:10:52,000 --> 00:10:59,000
+ Und da kann man sich eben über das Projekt informieren, über verschiedene Hilfestellungen informieren.
+
+136
+00:10:59,000 --> 00:11:05,000
+ Und ganz wichtig, diese Seite hat auch einen Button, über den man ganz schnell rauskommt.
+
+137
+00:11:05,000 --> 00:11:12,000
+ Das heißt, sie ist auch relativ sicher in einem Umfeld zu benutzen, das vielleicht nicht sicher ist, weil wenn ich auf den Knopf drücke,
+
+138
+00:11:12,000 --> 00:11:17,000
+ weil vielleicht jemand das Zimmer betritt, von dem ich nicht möchte, dass die Person mitbekommt, dass ich auf dieser Seite war,
+
+139
+00:11:17,000 --> 00:11:24,000
+ dann wird das auch aus der Browser-Historie gelöscht und man landet sofort auf irgendeiner anderen Seite,
+
+140
+00:11:24,000 --> 00:11:31,000
+ sodass da auch nicht die Befürchtungen entstehen müssen, man hinterlasse vielleicht Spuren, wenn man sich irgendwie ausklinken möchte.
+
+141
+00:11:31,000 --> 00:11:33,000
+ Also, solche Themen werden auch behandelt.
+
+142
+00:11:33,000 --> 00:11:40,000
+ Das ist sehr gut mitgedacht, daran hätte ich jetzt spontan, gerade über den kurzen Einflug, nicht dran gedacht, aber das ist sehr, sehr praktisch auf jeden Fall.
+
+143
+00:11:40,000 --> 00:11:48,000
+ Und ich höre, ihr engagiert euch super viel, nicht nur in IT, sondern auch politisch, sondern auch einfach kulturell,
+
+144
+00:11:48,000 --> 00:11:51,000
+ alles, was euch so interessiert und bewegt, und das finde ich super toll.
+
+145
+00:11:51,000 --> 00:11:55,000
+ Vor allem finde ich es cool, ihr seid super einsteigerfreundlich von dem, was ich über euch weiß.
+
+146
+00:11:55,000 --> 00:12:00,000
+ Also, ihr macht viele Einsteiger-Workshops, wir haben ja gerade von dem Python-Workshop gehört, der für Einsteiger*innen ist.
+
+147
+00:12:00,000 --> 00:12:05,000
+ Könnt ihr mehr dazu erzählen? Was macht ihr noch? Wie schwer ist es bei euch anzufangen?
+
+148
+00:12:05,000 --> 00:12:09,000
+ Ich habe schon gehört, im Grunde braucht man keine Vorkenntnisse in irgendwas, auch nicht technisch.
+
+149
+00:12:09,000 --> 00:12:14,000
+ Man muss auch gar nicht technisch, also außer technisches Interesse vielleicht, muss man nicht viel mitbringen.
+
+150
+00:12:14,000 --> 00:12:17,000
+ Habt ihr da noch ein bisschen was für mich an Informationen?
+
+151
+00:12:17,000 --> 00:12:21,000
+ Ja, also erstmal, der Python-Kurs startet im September in der Neue Runde.
+
+152
+00:12:21,000 --> 00:12:30,000
+ Ich glaube, es geht nochmal ein bisschen, lass das mal über Richtung Generative Art, und ich glaube, dieses Mal wird es auch wieder ein bisschen in die Richtung gehen.
+
+153
+00:12:30,000 --> 00:12:34,000
+ Genau, das ist halt ein spaßiger Einstieg, macht schon leicht.
+
+154
+00:12:34,000 --> 00:12:49,000
+ Genau, auf dem Camp haben wir super viele Einsteiger-Workshops, also wir hatten schon Netzwerke für Einsteiger, auch Security, so die persönliche Internet-Security sozusagen.
+
+155
+00:12:49,000 --> 00:12:58,000
+ Wir haben Wolle-Spinnen, heute noch.
+
+156
+00:12:58,000 --> 00:13:00,000
+ Wolle-Spinnen?
+
+157
+00:13:00,000 --> 00:13:04,000
+ Ja, selber Wollfasern zu Garn verarbeiten.
+
+158
+00:13:04,000 --> 00:13:06,000
+ Oh, das hat sich super gefallen.
+
+159
+00:13:06,000 --> 00:13:15,000
+ Ja, das gehört zu den Post-Apokalyptik-Skills, Dinge, die Menschen können, sollten, wenn sie, falls alles krachen geht und wir keine Techniken mehr haben, überleben möchten.
+
+160
+00:13:15,000 --> 00:13:22,000
+ Genau, und einen Flower-Batch-Workshop haben wir auch noch, der auch total einsteigerfreundlich sein wird, wo man dann eben landet, da mit Python zu programmieren.
+
+161
+00:13:22,000 --> 00:13:25,000
+ Der findet heute statt, und wir glauben, das Zelt wird voll.
+
+162
+00:13:25,000 --> 00:13:30,000
+ Ja, ich glaube, ich sollte auch dabei kommen, weil so gut bin ich mit Python und mit den Badges immer noch nicht.
+
+163
+00:13:30,000 --> 00:13:34,000
+ Das ist auch meine erste richtige Badge, die ich bis jetzt überhaupt versucht habe, irgendwie anzupassen.
+
+164
+00:13:34,000 --> 00:13:41,000
+ Dementsprechend kann ich da sehr mitfühlen und bin sehr froh, dass sie solche Angebote anbietet, weil auch ich habe am Anfang mich manchmal ein bisschen verloren gefühlt
+
+165
+00:13:41,000 --> 00:13:44,000
+ und habe das Gefühl, dass ich vieles einfach nicht verstehe von den Sachen, die erwähnt werden.
+
+166
+00:13:44,000 --> 00:13:54,000
+ Der Einstieg ist manchmal hart, und ich finde es gut, dass es auch einige Gruppierungen, nicht nur euch, aber auch viele Gruppierungen gibt, die versuchen, den Einstieg für neue Menschen, die uns besuchen wollen, ein bisschen zu vereinfachen.
+
+167
+00:13:54,000 --> 00:13:56,000
+ Und das ist auf jeden Fall sehr hilfreich.
+
+168
+00:13:56,000 --> 00:14:08,000
+ Also was auch immer schön ist auf dem Congress oder auf dem Camp wird ja auch gesagt, wenn du Dinge kennenlernen möchtest und dich in der Umgebung mit den Menschen vernetzen möchtest, dann werd Engel.
+
+169
+00:14:08,000 --> 00:14:15,000
+ Und mache solche Dinge, du lernst verschiedene Ecken kennen. Und im Prinzip kann man sowas bei den Hexen auch machen.
+
+170
+00:14:15,000 --> 00:14:23,000
+ Komm einfach zu Teams dazu, zu Gruppen, guck dir an, was die machen, und lerne, während du Dinge tust.
+
+171
+00:14:23,000 --> 00:14:27,000
+ Also ich bin dieses Mal aus Versehen in die Workshop-Orga rein für unser Zelt.
+
+172
+00:14:27,000 --> 00:14:38,000
+ Ich habe schon hier und da mal bei der Event-Orga mitgemacht bei den Hexen, aber jetzt nicht so, dass ich einzelne Parts mit dem Hut übernommen habe, dem ominösen.
+
+173
+00:14:38,000 --> 00:14:44,000
+ Weil wer den Hut auf hat, hat so ein bisschen die Verantwortung dafür, dass Dinge gut koordiniert werden.
+
+174
+00:14:44,000 --> 00:14:54,000
+ Und da bin ich so reingerutscht. Ich wollte eigentlich nur helfen und unterstützen und dann war es leider oder zum Glück mehr.
+
+175
+00:14:54,000 --> 00:15:03,000
+ Und dann habe ich auch Dinge kennengelernt, wie ich sie benutzen kann, wie ich koordiniere, wie ich mit Menschen interagiere, damit das am Ende vielleicht alles klappt.
+
+176
+00:15:03,000 --> 00:15:06,000
+ Also das klassische Konzept von Learning by Doing.
+
+177
+00:15:06,000 --> 00:15:15,000
+ Wir spannen gerne jeden ein, der nicht rechtzeitig wegläuft, aber langsamer. Man wird meistens jemandem zugeordnet und lernt dann erstmal.
+
+178
+00:15:15,000 --> 00:15:20,000
+ Also grundsätzlich zwingt einen niemand, sondern es ist immer so ein bisschen das eigene Messen, wie viel man machen möchte.
+
+179
+00:15:20,000 --> 00:15:27,000
+ Aber man wird auch unterstützt, wenn man sich nicht ganz traut, aber eigentlich Lust hat, dass man da vielleicht ein bisschen Rückenwind bekommt, dass man sich dann doch traut.
+
+180
+00:15:27,000 --> 00:15:37,000
+ Und wir haben auch das "Buddy-Projekt", heißt das glaube ich. Also vorher war es "Mentoring", aber der Begriff war irgendwie nicht ganz so glücklich.
+
+181
+00:15:37,000 --> 00:15:49,000
+ Deswegen haben wir das anders genannt und da ist es auch so, wenn man als Neuhäxe zum Beispiel auf der Liste ist, kann man sich an das Buddy-Projekt wenden und bekommt quasi eine Hexe zugeteilt.
+
+182
+00:15:49,000 --> 00:15:59,000
+ Also ein bisschen so wie die Chaos-Parten, würde ich mal sagen. So dass halt einfach Begleitung stattfindet, wenn man sich jetzt nicht ganz zu einem Treffen traut oder so ein bisschen schüchtern ist.
+
+183
+00:15:59,000 --> 00:16:09,000
+ Dann hat man halt eine Person, mit der man sich vernetzen kann und die dann mitkommt oder auch so ein bisschen Fragen beantwortet im Hintergrund.
+
+184
+00:16:09,000 --> 00:16:21,000
+ Das ist auf jeden Fall sehr gut immer einen Ansprechpartner oder eine Ansprechpartnerin zu haben und die Möglichkeit zu haben einfach mal Fragen zu stellen oder auch mal zu sagen "Hey, ich weiß gerade nicht wohin mit mir, kannst du mir vielleicht helfen?"
+
+185
+00:16:21,000 --> 00:16:23,000
+ Ja, genau.
+
+186
+00:16:23,000 --> 00:16:31,000
+ Das ist sehr gut. Und wie kommt es, dass ihr beiden bei den Hexen seid? Also wie habt ihr die Hexen entdeckt? Wie seid ihr dazu gestoßen? Wie lange seid ihr schon dabei?
+
+187
+00:16:31,000 --> 00:16:33,000
+ Fangen du an.
+
+188
+00:16:33,000 --> 00:16:43,000
+ Ich bin tatsächlich seit dem letzten Camp bei den Hexen. Da meint eine Freundin so "Hey, komm doch zu den Hexen." Es war auch mal mein allererstes Camp.
+
+189
+00:16:43,000 --> 00:16:49,000
+ Dann ist man gleich in der Gruppe und so. Und dann bin ich in den Rocket-Chat gekommen und plötzlich war ich eingespannt.
+
+190
+00:16:49,000 --> 00:16:58,000
+ Und habe dann auch gleich diese Briefmarken-Motive gemacht von den Frauen aus der IT-Geschichte mit den Hexen zusammen.
+
+191
+00:16:58,000 --> 00:17:01,000
+ Die habe ich auch gesehen und die sind wunderschön.
+
+192
+00:17:01,000 --> 00:17:13,000
+ Ja, bei mir war es so, ich bin auch am Anfang eher so mitgefahren auf Congress etc. und auf verschiedene Veranstaltungen.
+
+193
+00:17:13,000 --> 00:17:24,000
+ Immer schon auch technisch interessiert gewesen, aber halt eher begleitend. Und habe dann so versucht meine eigenen Ecken zu finden und bin auch öfter an den Hexen vorbeigeschlichen auf dem einen oder anderen Congress.
+
+194
+00:17:24,000 --> 00:17:35,000
+ Ich hatte nämlich auch das Problem, nicht so ganz getraut, da so den Schritt zu machen und zu sagen "Hallo, was passiert hier?"
+
+195
+00:17:35,000 --> 00:17:48,000
+ Und da war es bei mir dann auch einfach, dass ich mal zu einem Hexenfrühstück bin während der ersten RC3. Also 2021.
+
+196
+00:17:48,000 --> 00:17:56,000
+ Genau. Und dann war ich auf der Mailing-Liste, dann kam das Podcast-Projekt dadurch gerutscht und plötzlich war ich mittendrin.
+
+197
+00:17:56,000 --> 00:18:01,000
+ Also geht das auch relativ schnell bei euch? Wenn man einmal auftaucht, dann ist man schon schnell eingespannt, wenn man möchte.
+
+198
+00:18:01,000 --> 00:18:02,000
+ Genau.
+
+199
+00:18:02,000 --> 00:18:07,000
+ Das ist super. Und ich erzähle dir gesamt, ihr habt super viele Projekte und super viele Sachen gemacht.
+
+200
+00:18:07,000 --> 00:18:14,000
+ Wo kann man denn überhaupt sehen, wann es eine neue Podcast-Folge gibt? Wo werden die Sachen veröffentlicht? Wo können wir mal nachschauen, was die Hexen so treiben?
+
+201
+00:18:14,000 --> 00:18:24,000
+ Es gibt die Internetseite Hexen.org. Da sind alle im Wesentlichen so Neuerungen bei. Und da werden auch die Podcast-Folgen veröffentlicht.
+
+202
+00:18:24,000 --> 00:18:34,000
+ Aber wir sind auch noch auf Twitter unter @hexenc und auf Bastodon unter Hexen@chaos.social.
+
+203
+00:18:34,000 --> 00:18:47,000
+ Und da werden eigentlich auch immer die Frühstücke oder Dinner oder Picknicks verbreitet, wenn wieder was stattfindet oder neue Podcast-Folgen oder auch andere Projekte.
+
+204
+00:18:47,000 --> 00:18:52,000
+ Das hört sich super an. Da muss ich gleich mal gucken, wenn wir nach der Folge durch sind, dass ich dir ganz mal folge.
+
+205
+00:18:52,000 --> 00:18:53,000
+ Sehr gern.
+
+206
+00:18:53,000 --> 00:19:05,000
+ Und ja, was würdet ihr, also, Moulana, ich würde dich gerne fragen, wie genau gehst du ran, wenn du Grafiken erstellst für die Hexen? Woher kommt die Motivation? Was genau, wie kommst du auf die Motive?
+
+207
+00:19:05,000 --> 00:19:14,000
+ Weil ich bin selbst künstlerisch nicht wirklich versiert und habe nicht wirklich Ahnung, wie man Kunst kreiert. Zumindest grafisch nicht. Und dementsprechend würde mich das sehr interessieren.
+
+208
+00:19:14,000 --> 00:19:24,000
+ Ja, also die Idee für die Briefmarken zum Beispiel kam schon von den Hexen auf und das war eben gerade, als ich dazugestoßen bin.
+
+209
+00:19:24,000 --> 00:19:34,000
+ Genau, und da war eigentlich, also ich wollte für die Briefmarken das so aussehen lassen, wie so richtig alte Briefmarken, die so in Radierungen gemacht sind.
+
+210
+00:19:34,000 --> 00:19:52,000
+ Also mit, also das ist so eine Drucktechnik, wo man quasi in Metall reinritzt und das dann aufätzt. Also feine Strichzeichnungen. Und ja, das Hauptding war eigentlich die Auswahl der Frauen, die wir da drauf haben wollten.
+
+211
+00:19:52,000 --> 00:19:54,000
+ Da hatte ich noch die Hilfe von anderen Hexen.
+
+212
+00:19:54,000 --> 00:19:59,000
+ Wie kamen sie dazu? Also wie habt ihr die Frauen ausgewählt, die jetzt auf den Briefmarken schlussendlich gelandet sind?
+
+213
+00:19:59,000 --> 00:20:08,000
+ Also Ada Lovelace war relativ einfach, weil die ja quasi die erste Programmiererin war.
+
+214
+00:20:08,000 --> 00:20:19,000
+ Grace Hopper ist auch super bekannt, die bei der NASA war und den ersten Bug gefunden hat, also wirklich ein Käfer und so weiter.
+
+215
+00:20:19,000 --> 00:20:31,000
+ Und Margaret Hamilton, die quasi den Code für Apollo, was war es, 13? Keine Ahnung, für eine Apollo Mission geschrieben hat. Da gibt es ein berühmtes Bild, wo sie quasi neben so einem Stapel an Codes...
+
+216
+00:20:31,000 --> 00:20:34,000
+ Oh ja, das habe ich gesehen, das hat mich damals super beeindruckt, als ich das erste Mal gehört habe.
+
+217
+00:20:34,000 --> 00:20:46,000
+ Genau, und Katherine Johnson und Dale Goldberg waren beim letzten Mal auf dem Camp, ich glaube von den Workshops zelten die Namen.
+
+218
+00:20:46,000 --> 00:20:48,000
+ Das kann sein.
+
+219
+00:20:48,000 --> 00:20:54,000
+ Also irgendwie ergab sich es dann, wir hätten noch so viele Frauen gehabt und auch Frauengruppen, die wir gerne auf Briefmarken hätten.
+
+220
+00:20:54,000 --> 00:21:00,000
+ Aber die zwei kamen dann eben dazu, weil sich es dafür ergeben hat, dass man dann auch weiß, warum das Zelt so heißt.
+
+221
+00:21:00,000 --> 00:21:08,000
+ Ja, und ich glaube, das hängt auch, also da stecke ich nicht ganz so drin, aber das hängt auch so ein bisschen zusammen mit den Memorials, die es gab.
+
+222
+00:21:08,000 --> 00:21:20,000
+ Also am Anfang hieß das Projekt Schrein und das haben Menschen sich halt mit den Geschichten dieser Frauen auseinandergesetzt und auf einem Congress so Installationen gemacht.
+
+223
+00:21:20,000 --> 00:21:33,000
+ Poster und so kleine Boxen, wo was zu der Geschichte, was diese Frauen geleistet haben mit ihrer Arbeit drin erklärt war und das konnte sich so angeguckt werden.
+
+224
+00:21:33,000 --> 00:21:45,000
+ Und daraus sind dann sozusagen die Memorials entstanden, auch ein Projekt, das wir gerne irgendwie nochmal weiter und fortführen würden, weil es so viele mehr Menschen gibt, die da erwähnt gehören würden.
+
+225
+00:21:45,000 --> 00:21:57,000
+ Ich meine, auf dem Camp hier, wenn man sich umguckt, die Straßenschilder sind ja auch alles ist nach Frauen benannt, zum Beispiel Simone Giltz oder Maite Way und so weiter.
+
+226
+00:21:57,000 --> 00:22:05,000
+ Das sind alles auch noch Personen, die genau dahin gehören und die irgendwo auch mehr Beachtung finden, über was da eigentlich alles hinter steckt.
+
+227
+00:22:05,000 --> 00:22:11,000
+ Definitiv, ich fände es auch schade, dass ihr so spät davon erfahren habt, dass es so viele coole Frauen gibt, auch in der technischen Schiene.
+
+228
+00:22:11,000 --> 00:22:14,000
+ Irgendwie ist das irgendwie über mich drüber gegangen, ich weiß auch nicht.
+
+229
+00:22:14,000 --> 00:22:23,000
+ Ich finde es super, dass ihr das macht und jetzt für die Memorials, wenn ihr das nochmal machen wollen würdet, vielleicht jetzt auch auf den nächsten Veranstaltungen, die jetzt noch kommen, braucht ihr ja noch Unterstützung.
+
+230
+00:22:23,000 --> 00:22:29,000
+ Was muss man da alles machen, was muss man da vielleicht mitbringen können an Skits, damit man da mithelfen kann?
+
+231
+00:22:29,000 --> 00:22:38,000
+ Genau, die Idee bei den Memorials ist ja, dass wir im Prinzip nur kuratieren und sagen, hier ist eine Liste an Vorschlägen von Frauen, die wir erwähnenswert finden.
+
+232
+00:22:38,000 --> 00:22:41,000
+ Oder Finterpersonen inzwischen, ich glaube wir haben es auch erweitert.
+
+233
+00:22:41,000 --> 00:22:50,000
+ Und dann machen andere Gruppen, andere Alpha, andere Assemblies quasi die Memorials.
+
+234
+00:22:50,000 --> 00:23:00,000
+ Also genau, das heißt im Prinzip ist bei uns die Organisation, das bekannt zu machen, was wir jetzt tun,
+
+235
+00:23:00,000 --> 00:23:06,000
+ zu sagen, dass es das Projekt gibt und ein bisschen Werbe drumherum zu rühren, dass das gemacht wird.
+
+236
+00:23:06,000 --> 00:23:08,000
+ Und dann liegt es in den Händen der anderen Gruppen.
+
+237
+00:23:08,000 --> 00:23:11,000
+ Das wird uns auf jeden Fall gut finden, wenn es das noch mal gebe.
+
+238
+00:23:11,000 --> 00:23:12,000
+ Ja, ich auch auf jeden Fall.
+
+239
+00:23:12,000 --> 00:23:22,000
+ Und was mitgebracht werden kann, also Vorwissen ist nicht nötig, nur das Interesse, sich vielleicht in die Geschichte einzulesen und zu recherchieren
+
+240
+00:23:22,000 --> 00:23:28,000
+ und zu gucken, was steckt da alles hinter, über welche Themen kann ich da vielleicht einen Anker setzen,
+
+241
+00:23:28,000 --> 00:23:35,000
+ dass andere Menschen auch interessiert daran sind, mehr über diese Personen zu erfahren und die Dinge, die dahinter stecken.
+
+242
+00:23:35,000 --> 00:23:40,000
+ Also war die da auch vor allem Unterstützung für den ganzen anderen Teams, die so vor Ort sein werden bei den nächsten Veranstaltungen,
+
+243
+00:23:40,000 --> 00:23:42,000
+ die vielleicht auch Lust haben, eins dieser...
+
+244
+00:23:42,000 --> 00:23:44,000
+ Genau, die gerne basteln.
+
+245
+00:23:44,000 --> 00:23:46,000
+ Das ist doch super.
+
+246
+00:23:46,000 --> 00:23:49,000
+ Da habe ich sogar vielleicht ein paar Leute für euch, die sehr gut künstlerisch begabt sind.
+
+247
+00:23:49,000 --> 00:23:50,000
+ Sehr schön.
+
+248
+00:23:50,000 --> 00:23:51,000
+ Das kann ich mal weiterleiten.
+
+249
+00:23:51,000 --> 00:23:53,000
+ Das darf auch gerne mit LEDs zu tun haben und beleuchtet werden.
+
+250
+00:23:53,000 --> 00:23:55,000
+ Lichter lieben wir alle hier.
+
+251
+00:23:55,000 --> 00:23:57,000
+ Gut.
+
+252
+00:23:57,000 --> 00:24:01,000
+ Und wegen, wir haben über die Podcast gesprochen.
+
+253
+00:24:01,000 --> 00:24:08,000
+ Was mich interessiert, weil ich habe überlegt, ob ich das vielleicht auch irgendwann mal machen möchte, was genau muss man bedenken,
+
+254
+00:24:08,000 --> 00:24:11,000
+ wenn man einen Podcast macht, weil ich finde, das ist relativ schwierig.
+
+255
+00:24:11,000 --> 00:24:14,000
+ Hier sind super viele Podcasts aufgetaucht in letzter Zeit, vor allem über die Corona-Zeit.
+
+256
+00:24:14,000 --> 00:24:17,000
+ Was braucht man vielleicht auch für technisches Equipment, um damit anzufangen?
+
+257
+00:24:17,000 --> 00:24:23,000
+ Vielleicht möchte irgendwer von unserem Publikum heute auch mal einen Podcast starten oder bei euch mitmachen.
+
+258
+00:24:23,000 --> 00:24:27,000
+ Vielleicht haben die Personen remote nicht so viel dabei und würden da aber trotzdem mithelfen.
+
+259
+00:24:27,000 --> 00:24:29,000
+ Und deshalb würde mich das interessieren.
+
+260
+00:24:29,000 --> 00:24:31,000
+ Sehr gern, ja.
+
+261
+00:24:31,000 --> 00:24:34,000
+ Eigentlich nur ein Mikro, das halbwegs funktioniert.
+
+262
+00:24:34,000 --> 00:24:41,000
+ Laptop-Mikros sind meistens nicht so wundervoll, aber eigentlich nicht viel.
+
+263
+00:24:41,000 --> 00:24:47,000
+ Also auch da gilt, ich habe Interesse daran, Dinge zu tun und es vielleicht auszuprobieren.
+
+264
+00:24:47,000 --> 00:24:52,000
+ Ich bin ja auch mehr so autodidaktisch unterwegs und habe mir das Podcast ein bisschen selbst beigebracht.
+
+265
+00:24:52,000 --> 00:24:55,000
+ Es fing mit einem Buch an, ein Podcast-Ding.
+
+266
+00:24:55,000 --> 00:24:57,000
+ So, das habe ich einmal durchgearbeitet.
+
+267
+00:24:57,000 --> 00:25:01,000
+ Danach habe ich Dinge ausprobiert, habe mir ein relativ günstiges Mikro erstmal gekauft,
+
+268
+00:25:01,000 --> 00:25:05,000
+ das USB-Ansteck-Mikro für den Laptop.
+
+269
+00:25:05,000 --> 00:25:07,000
+ Und dann habe ich angefangen und ausprobiert.
+
+270
+00:25:07,000 --> 00:25:10,000
+ Und eigentlich geht es sehr schnell.
+
+271
+00:25:10,000 --> 00:25:14,000
+ Wir geben übrigens auch kleine Einführungsworkshops dafür.
+
+272
+00:25:14,000 --> 00:25:19,000
+ Also mindestens wer bei den Hexen ist und sich mit Podcasting auseinandersetzen möchte, kann mich immer gerne ansprechen.
+
+273
+00:25:19,000 --> 00:25:22,000
+ Sobald ich so zwei, drei Leute zusammen habe, mache ich mal wieder eine Gruppe.
+
+274
+00:25:22,000 --> 00:25:26,000
+ Dann machen wir entweder Aufnahme oder Schnitt oder etwas anderes.
+
+275
+00:25:26,000 --> 00:25:30,000
+ Und ansonsten einfach mitmachen bei einer Folge zum Beispiel.
+
+276
+00:25:30,000 --> 00:25:36,000
+ Themen vorschlagen, vielleicht selber etwas recherchieren, ins Redaktionsteam für eine Folge einsteigen.
+
+277
+00:25:36,000 --> 00:25:38,000
+ Das ist auch eher dezentral organisiert.
+
+278
+00:25:38,000 --> 00:25:43,000
+ Also wer von den Hexen eine Hexenwerkfolge produzieren möchte, kann das jederzeit tun.
+
+279
+00:25:43,000 --> 00:25:50,000
+ Es muss nur ein Thema sein und Interesse daran, das auszuarbeiten und dann loslegen.
+
+280
+00:25:50,000 --> 00:25:52,000
+ Wisst ihr, wie viele Folgen ihr ungefähr schon habt?
+
+281
+00:25:52,000 --> 00:25:57,000
+ Noch nicht so viele. Ich glaube, es waren jetzt Folgen sechzehn, siebzehn?
+
+282
+00:25:57,000 --> 00:25:58,000
+ Das ist schon einiges.
+
+283
+00:25:58,000 --> 00:26:02,000
+ Schon ordentlich, aber ich glaube, so schnell gehen die Themen dann doch noch nicht aus.
+
+284
+00:26:02,000 --> 00:26:03,000
+ Nein, überhaupt nicht.
+
+285
+00:26:03,000 --> 00:26:06,000
+ Ich glaube, es ist eher das Problem, die Zeit zu finden, die dann eine ganze aufzunehmen.
+
+286
+00:26:06,000 --> 00:26:13,000
+ Machst du beide Schnitt von deinen eigenen Voiceaufnahmen und auch die Aufnahmen selbst oder hast du da Unterstützung?
+
+287
+00:26:13,000 --> 00:26:14,000
+ Das kommt ganz drauf an.
+
+288
+00:26:14,000 --> 00:26:17,000
+ Also je mehr Menschen mitmachen, desto schneller können wir auch Folgen veröffentlichen.
+
+289
+00:26:17,000 --> 00:26:19,000
+ Das ist auch Fakt.
+
+290
+00:26:19,000 --> 00:26:22,000
+ Ich freue mich über alle, die da mitarbeiten.
+
+291
+00:26:22,000 --> 00:26:27,000
+ Jetzt hatte eine neue Person gerade angefangen und die letzte, die Batchfolge geschnitten.
+
+292
+00:26:27,000 --> 00:26:28,000
+ Die habe ich nicht geschnitten.
+
+293
+00:26:28,000 --> 00:26:35,000
+ Da habe ich bloß sozusagen die Sachen zusammengeklebt mit unserem Intro und dann die Veröffentlichung gemacht.
+
+294
+00:26:35,000 --> 00:26:41,000
+ Also was da noch hintersteckt mit den Show-Notes und das Einpflegen für den Feed und so weiter.
+
+295
+00:26:41,000 --> 00:26:47,000
+ Und da freue ich mich auf jeden Fall immer über Menschen, die sich da auch engagieren möchten und auch Folgen selber schneiden möchten.
+
+296
+00:26:47,000 --> 00:26:53,000
+ Und ansonsten mache ich aber auch im Zweifel alles, wenn ich unbedingt total Lust drauf habe.
+
+297
+00:26:53,000 --> 00:26:58,000
+ Ich war mit Pico zum Beispiel bei einem Verein in Berlin "Gefährliche Arbeit e.V."
+
+298
+00:26:58,000 --> 00:27:11,000
+ Das ist eine Gruppe von Finter-Menschen, die sich als Theater- und Veranstaltungstechniker*innen organisieren und selber auch untereinander Workshops geben.
+
+299
+00:27:11,000 --> 00:27:14,000
+ Und da waren wir eingeladen für ein Podcasting-Workshop.
+
+300
+00:27:14,000 --> 00:27:19,000
+ Und da haben wir die Gelegenheit auch genutzt, zwei Menschen von denen zu interviewen.
+
+301
+00:27:19,000 --> 00:27:23,000
+ Die Folge möchte ich auch unbedingt selbst schneiden, weil ich da einfach sehr viel Lust drauf habe.
+
+302
+00:27:23,000 --> 00:27:26,000
+ Weil mir das Wochenende auch sehr viel Spaß gemacht hat.
+
+303
+00:27:26,000 --> 00:27:28,000
+ Das hat sich noch im sehr guten Wochenende an, auf jeden Fall.
+
+304
+00:27:28,000 --> 00:27:33,000
+ Und habt ihr noch so Gruppen, mit denen ihr zusammen viel kooperiert oder Gruppen, mit denen ihr quasi befreundet?
+
+305
+00:27:33,000 --> 00:27:38,000
+ Natürlich mag man im Grunde ja alle Gruppen, die hier so unterwegs sind.
+
+306
+00:27:38,000 --> 00:27:43,000
+ Aber habt ihr so welche, mit denen ihr häufiger mal Kooperationen habt oder wo ihr mal mehr zusammen macht?
+
+307
+00:27:43,000 --> 00:27:49,000
+ Das Gute an den Hexen ist eigentlich, dass wir unsere Fühler in so ziemlich allen Alphas haben.
+
+308
+00:27:49,000 --> 00:27:54,000
+ Und von überall gibt es einen Hexer, der so halb so in dem Alpa gehört.
+
+309
+00:27:54,000 --> 00:27:58,000
+ Doppelstaatsbürgerschaften sind erlaubt.
+
+310
+00:27:58,000 --> 00:28:00,000
+ Auf jeden Fall.
+
+311
+00:28:00,000 --> 00:28:03,000
+ Und wir sind jetzt auch, das Village ist mit Moin zusammen.
+
+312
+00:28:03,000 --> 00:28:05,000
+ Mehrere Orte im Norden.
+
+313
+00:28:05,000 --> 00:28:06,000
+ Genau.
+
+314
+00:28:06,000 --> 00:28:10,000
+ Was ist da Lübeck dabei? Ach, gehören die zu uns? Ich weiß gar nicht.
+
+315
+00:28:10,000 --> 00:28:15,000
+ Ich weiß es auch nicht. Aber ja, das Village ist in Kooperation mit Moin entstanden.
+
+316
+00:28:15,000 --> 00:28:20,000
+ Beim Feier Jones war die Rhein-Ruhr-Stage mit dabei.
+
+317
+00:28:20,000 --> 00:28:25,000
+ Beim letzten RC3-Event sozusagen, das dann gemacht wurde.
+
+318
+00:28:25,000 --> 00:28:28,000
+ Nach Hamburg haben wir auch viele Connections.
+
+319
+00:28:28,000 --> 00:28:35,000
+ Ja, Geekfam im Hamburg ist auch ein Ort, wo sich getroffen werden kann.
+
+320
+00:28:35,000 --> 00:28:42,000
+ Wer in Hamburg an Hexen interessiert ist, sollte mal auch nach Geekfam Ausschau halten, weil da trifft man automatisch Hexen.
+
+321
+00:28:42,000 --> 00:28:50,000
+ Aber habt ihr im Grunde auch irgendwo eher diese Hotspot-Punkte, wo dann mehrere Hexen eher zusammen sind in einem Standort?
+
+322
+00:28:50,000 --> 00:28:53,000
+ Vielleicht ein paar Standorte, die häufiger verwendet werden oder ähnliches?
+
+323
+00:28:53,000 --> 00:28:55,000
+ Es gibt ein paar Lokalgruppen.
+
+324
+00:28:55,000 --> 00:28:58,000
+ Ja, es gibt eine lokale Gruppe in Berlin. Hallo, Wespe.
+
+325
+00:28:58,000 --> 00:28:59,000
+ Hallo, Wespe.
+
+326
+00:28:59,000 --> 00:29:06,000
+ Und es gibt eine in Stuttgart, da ist auch im Wesentlichen sozusagen das Anti-Stalking-Projekt so ein bisschen mit drin.
+
+327
+00:29:06,000 --> 00:29:13,000
+ Wo noch Leipzig gibt, ist auch eine Gruppe, die sich regelmäßig trifft.
+
+328
+00:29:13,000 --> 00:29:18,000
+ Genau. In meiner Region gab es noch Bamberg.
+
+329
+00:29:18,000 --> 00:29:23,000
+ Und ich bin auch gerade dabei, zumindest in Nürnberg so eine kleine Gruppe zu künden.
+
+330
+00:29:23,000 --> 00:29:27,000
+ Bisher ist das nur ein Telegram-Kanal, aber das wird noch.
+
+331
+00:29:27,000 --> 00:29:33,000
+ Ist auch gar nicht so einfach, so eine Gruppe zu gründen, beziehungsweise dann auch teils passend Räumlichkeiten zu finden und ähnliches.
+
+332
+00:29:33,000 --> 00:29:35,000
+ Vor allem, wenn man sich da schon viel macht.
+
+333
+00:29:35,000 --> 00:29:41,000
+ Vor allem jetzt in Zeiten von Schwierigkeiten mit Räumlichkeiten, auch mit Wohnraum.
+
+334
+00:29:41,000 --> 00:29:47,000
+ Wie sieht das aus? Wie kriegt ihr es hin, quasi Räumlichkeiten für eure Veranstaltungen zu finden?
+
+335
+00:29:47,000 --> 00:29:52,000
+ Macht ihr die eher draußen? Habt ihr irgendwelche Orte, mit denen ihr kooperiert, wo ihr halt hin könnt und euch da zum Beispiel Räume buchen?
+
+336
+00:29:52,000 --> 00:29:54,000
+ Oder habt ihr einen festen Standort vielleicht?
+
+337
+00:29:54,000 --> 00:30:01,000
+ Also unser Plan ist erstmal quasi alle Hackspaces in Nürnberg abzuklappern und dann da zu bleiben, was uns am besten gefällt.
+
+338
+00:30:01,000 --> 00:30:03,000
+ Das hört sich auf jeden Fall sehr gut an.
+
+339
+00:30:03,000 --> 00:30:05,000
+ Man muss ja nicht unbedingt den eigenen Raum haben.
+
+340
+00:30:05,000 --> 00:30:06,000
+ Das stimmt.
+
+341
+00:30:06,000 --> 00:30:10,000
+ Genau. Wie heißt denn der Hackspace in Hannover nochmal? Megahertz?
+
+342
+00:30:10,000 --> 00:30:11,000
+ Ja.
+
+343
+00:30:11,000 --> 00:30:22,000
+ Da war auch kürzlich ein Hexenfrühstück, weil halt dann auch, wenn in Hackspaces Hexen auch aktiv sind, dann vielleicht da mal ein Hexenfrühstück hinholen.
+
+344
+00:30:22,000 --> 00:30:24,000
+ Genau, wir planen auch einen in Nürnberg.
+
+345
+00:30:24,000 --> 00:30:26,000
+ Ja, genau, sowas findet dann statt.
+
+346
+00:30:26,000 --> 00:30:27,000
+ Und ein Quake-Code.
+
+347
+00:30:27,000 --> 00:30:28,000
+ Das ist super.
+
+348
+00:30:28,000 --> 00:30:33,000
+ Und ansonsten online. Also das ist auch immer noch sehr viel, was online stattfindet.
+
+349
+00:30:33,000 --> 00:30:36,000
+ Also ihr macht das auch online, und das kriegt man dann einfach über die Mailing-Liste mit.
+
+350
+00:30:36,000 --> 00:30:37,000
+ Genau.
+
+351
+00:30:37,000 --> 00:30:38,000
+ Und kann da einfach mit dran teilnehmen.
+
+352
+00:30:38,000 --> 00:30:39,000
+ Ja.
+
+353
+00:30:39,000 --> 00:30:42,000
+ Ja gut. Frühstück kriegt man vielleicht über was anderes mit, weil da kommt man ja dann erst auf die Mailing-Liste.
+
+354
+00:30:42,000 --> 00:30:43,000
+ Ja. Das stimmt.
+
+355
+00:30:43,000 --> 00:30:46,000
+ Das ist mehr so Mastodon dann, dass es darüber verbreitet wird.
+
+356
+00:30:46,000 --> 00:30:49,000
+ Mastodon oder halt einfach ihr findet Leute und sagt, hey jo, kommt mal vorbei zum Frühstück.
+
+357
+00:30:49,000 --> 00:30:50,000
+ Ja, genau.
+
+358
+00:30:50,000 --> 00:30:51,000
+ Das ist cool.
+
+359
+00:30:51,000 --> 00:30:55,000
+ Gibt es noch irgendetwas, wo ihr sagt, das müssen die Leute wissen?
+
+360
+00:30:55,000 --> 00:30:58,000
+ Das ist etwas, was uns super im Herzen liegt.
+
+361
+00:30:58,000 --> 00:31:03,000
+ Gibt es Leute, die ihr noch dringend braucht, oder Gruppierungen, wo ihr gerne Interesse hättet, dass sie entstehen,
+
+362
+00:31:03,000 --> 00:31:07,000
+ aber gerade einfach die Menschen zu fehlen oder einfach bestimmte andere Sachen?
+
+363
+00:31:07,000 --> 00:31:11,000
+ Oder Unterstützung vielleicht auch von den anderen Teams hier so vor Ort?
+
+364
+00:31:11,000 --> 00:31:15,000
+ Also es kann jederzeit jemand kommen und eine Gruppe neu gründen.
+
+365
+00:31:15,000 --> 00:31:16,000
+ Ja.
+
+366
+00:31:16,000 --> 00:31:21,000
+ Ansonsten bei der Village Olga können wir natürlich auch immer Hilfe gebrauchen.
+
+367
+00:31:21,000 --> 00:31:26,000
+ Das ist so ein Event wie ein Kongress oder ein Camp.
+
+368
+00:31:26,000 --> 00:31:29,000
+ Das ist schon immer eine Kraftanstrengung für viele Leute.
+
+369
+00:31:29,000 --> 00:31:30,000
+ Auf jeden Fall.
+
+370
+00:31:30,000 --> 00:31:35,000
+ Ich meine, das Zelt, das ihr habt, das heißt nicht Knoblochzelt oder wie heißt es eigentlich?
+
+371
+00:31:35,000 --> 00:31:39,000
+ Also offiziell ist der Produktname "Touch my heart".
+
+372
+00:31:39,000 --> 00:31:42,000
+ Wir haben das von einem befreundeten Verein geliehen.
+
+373
+00:31:42,000 --> 00:31:46,000
+ Das sieht sehr kompliziert im Aufbau aus. Ist das wirklich so kompliziert?
+
+374
+00:31:46,000 --> 00:31:49,000
+ Nein, es ist überhaupt nicht kompliziert. Es gibt ein Video dazu.
+
+375
+00:31:49,000 --> 00:31:51,000
+ Oh, sehr kompliziert mit Anleitungen.
+
+376
+00:31:51,000 --> 00:31:55,000
+ Ich war leider nicht beim Aufbau mit dabei, aber soweit ich das verstanden habe,
+
+377
+00:31:55,000 --> 00:31:58,000
+ können das zwei Menschen in circa einer Stunde aufbauen.
+
+378
+00:31:58,000 --> 00:32:00,000
+ Okay, aber es ist doch schon ein bisschen Zeit, bis man da ...
+
+379
+00:32:00,000 --> 00:32:02,000
+ Ja, weil es auch groß ist.
+
+380
+00:32:02,000 --> 00:32:03,000
+ Es ist auf jeden Fall sehr groß.
+
+381
+00:32:03,000 --> 00:32:04,000
+ It's big on the inside.
+
+382
+00:32:04,000 --> 00:32:08,000
+ Von draußen sieht es so niedlich klein und gedrungen aus.
+
+383
+00:32:08,000 --> 00:32:12,000
+ Und ich dachte, oh, wie sollen da Workshops für circa 30 Personen reinpassen?
+
+384
+00:32:12,000 --> 00:32:13,000
+ Aber es passt.
+
+385
+00:32:13,000 --> 00:32:15,000
+ Es geht auf jeden Fall.
+
+386
+00:32:15,000 --> 00:32:17,000
+ Und man zieht bei euch ja auch die Schuhe aus, bevor man ins Zelt geht.
+
+387
+00:32:17,000 --> 00:32:19,000
+ Das ist wirklich sehr cozy, sehr sauber.
+
+388
+00:32:19,000 --> 00:32:22,000
+ Ihr habt da so kleine Teppiche und alles ausgelegt.
+
+389
+00:32:22,000 --> 00:32:25,000
+ Ich finde euer Zelt ist mit eins der hübsches.
+
+390
+00:32:25,000 --> 00:32:29,000
+ Das ist sehr nah an meiner Village dran. Das heißt, ich komme da sehr oft vorbei.
+
+391
+00:32:29,000 --> 00:32:30,000
+ Das ist sehr schön.
+
+392
+00:32:30,000 --> 00:32:31,000
+ Dann bleibt mal sitzen.
+
+393
+00:32:31,000 --> 00:32:33,000
+ Mach ich auf jeden Fall.
+
+394
+00:32:33,000 --> 00:32:38,000
+ Ich bin super froh, dass wir euch hier haben konnten.
+
+395
+00:32:38,000 --> 00:32:40,000
+ Ich weiß jetzt so viel über die Hexen.
+
+396
+00:32:40,000 --> 00:32:42,000
+ Die einzige Frage, die sich mir jetzt noch stellt, ist,
+
+397
+00:32:42,000 --> 00:32:44,000
+ kann ich einfach vorbeikommen?
+
+398
+00:32:44,000 --> 00:32:47,000
+ Könnte ich auch Männer aus meiner Village mitbringen?
+
+399
+00:32:47,000 --> 00:32:49,000
+ Oh ja, fast jederzeit.
+
+400
+00:32:49,000 --> 00:32:53,000
+ Manchmal haben wir Workshops, die nur für flinter Personen sind.
+
+401
+00:32:53,000 --> 00:32:57,000
+ Wegen dem Wohlfühlen manchmal ist es eben so,
+
+402
+00:32:57,000 --> 00:33:02,000
+ dass manche gerne Dinge an sich reißen und dann die Frauen daneben stehen.
+
+403
+00:33:02,000 --> 00:33:04,000
+ Nur zuschauen.
+
+404
+00:33:04,000 --> 00:33:06,000
+ Das wollen wir verhindern.
+
+405
+00:33:06,000 --> 00:33:09,000
+ Aber grundsätzlich ist es trotzdem erwünscht.
+
+406
+00:33:09,000 --> 00:33:11,000
+ In dem Fall haben wir Schilder am Eingang hängen,
+
+407
+00:33:11,000 --> 00:33:15,000
+ wo es nur "flinter" heißt.
+
+408
+00:33:15,000 --> 00:33:18,000
+ Und ansonsten hängt da ein All-Creatures-Welcome-Schild.
+
+409
+00:33:18,000 --> 00:33:20,000
+ Dann kann jeder kommen und Hallo sagen.
+
+410
+00:33:20,000 --> 00:33:22,000
+ Und im Stickerexchange wühlen.
+
+411
+00:33:22,000 --> 00:33:24,000
+ Oh, ihr habt auch einen Stickerexchange.
+
+412
+00:33:24,000 --> 00:33:27,000
+ Ja, bei uns ist ein offizieller Stickerexchange-Tisch.
+
+413
+00:33:27,000 --> 00:33:29,000
+ Ich suche gerade noch ganz viele Stickerexchanges.
+
+414
+00:33:29,000 --> 00:33:31,000
+ Hexen-Sticker habe ich leider auch keine mehr.
+
+415
+00:33:31,000 --> 00:33:33,000
+ Deshalb komme ich definitiv vorbei.
+
+416
+00:33:33,000 --> 00:33:36,000
+ Dann bin ich sehr froh, dass wir diese Folge drehen konnten.
+
+417
+00:33:36,000 --> 00:33:38,000
+ Vielen Dank, dass ihr hier wart.
+
+418
+00:33:38,000 --> 00:33:41,000
+ Ich hoffe, ihr kommt ja hexen-mal besuchen.
+
+419
+00:33:41,000 --> 00:33:44,000
+ Oder schaut euch mal an, was ihr alles für coole Sachen macht.
+
+420
+00:33:44,000 --> 00:33:46,000
+ Vielen Dank.
+
+421
+00:33:46,000 --> 00:33:48,000
+ Danke schön.
+
+422
+00:33:49,000 --> 00:33:51,000
+ *Vogelgezwitscher*
+
+423
+00:33:52,000 --> 00:33:54,000
+ *Vogelgezwitscher*
+
+424
+00:33:55,000 --> 00:33:57,000
+ *Vogelgezwitscher*
+
+425
+00:33:58,000 --> 00:34:00,000
+ *Vogelgezwitscher*
+
+426
+00:34:00,000 --> 00:34:02,000
+ (Grillenzirpen)
+

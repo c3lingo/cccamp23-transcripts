@@ -1,0 +1,769 @@
+ [Musik]
+ Guten Abend. Ab und zu hat man so wunderbare
+ Gelegenheiten, die sich einem nur selten ergeben. Typischerweise, wenn man mit
+ Politik interagiert, geht das durch Mitarbeitende hindurch, durch Büros,
+ E-Mails und Telefonanrufe. Und nur in seltenen Fällen sitzen dann die Menschen
+ auf einmal auf einer Bühne und sind bereit, Fragen zu beantworten und zu
+ erklären, was es eigentlich bedeutet, in der Politik tätig zu sein.
+ Herzlich willkommen Anke Domscheit-Berg.
+ [Applaus]
+ Vielen Dank. Ich schätze die Gelegenheit ja auch selber sehr, weil man dann nicht
+ immer irgendwelche Filter dazwischen hat, aber auch weil, ich glaube, es nicht nur
+ ein Eindruck ist, dass viele Menschen sehr wenig darüber wissen, was eigentlich
+ Politik in der Praxis heißt, wie so ein Bundestag funktioniert, wie Gesetze
+ entstehen, warum das Plenum immer so leer ist. Ja, da gibt es ganz viele, ganz
+ viele Halbwissen oder gar kein Wissen. Es gibt auch nicht viele Informationen
+ darüber, die man so niedrigschwellig kriegen kann. Aber es ist ja total wichtig,
+ dass man die hat, dass man also zum einen weiß, wie kommen bestimmte Dinge zustande,
+ zum anderen, welche Einflussmöglichkeiten hat man vielleicht, welche funktionieren
+ gut oder schlecht. Und am Ende ist es ja so, dass Politik zu ignorieren für einen
+ selber auch blöd ist, langfristig. Denn das hat ja Auswirkungen auf unser aller
+ Leben, das hat Auswirkungen auf die Zukunft. Da werden Weichen gestellt, die
+ entweder als Abseits führen, Stichwort digitale Verwaltung oder Infrastrukturausbau.
+ Ja, da sind wir schon ziemlich abgehängt im Vergleich. Aber es können ja auch
+ Weichen in positive Richtung gestellt werden und natürlich muss man oder
+ sollte man ein Interesse daran haben, dass es dazu auch kommt. Und da ist es
+ hilfreich, auch um vorzubeugen, auf bestimmte Desinformationen reinzufallen,
+ dass man einfach besser versteht, wieso im Maschinenraum des Bundestages das Leben
+ einfach aussieht. Und deswegen dachte ich, ich stelle mich hier einfach mal hin und
+ ihr könnt mich fragen, was immer ihr wollt. Zum Bundestag, zur Digitalpolitik,
+ aber von mir aus auch, welche Haustiere ich habe und wie die heißen, oder was
+ ich gerne esse oder meiner Freizeit mache. Das ist mir wirklich Schnurz. Ihr könnt
+ fragen, was ihr wollt. Das heißt nicht umsonst "Ask me anything". Aber so eine
+ ganz kurze Intro, dass ihr wisst, wer hier überhaupt sitzt, wollte ich euch
+ vorher noch geben. Mein Name wurde ja schon gesagt,
+ lesen kann man ja auch, das ist meine Webseite. Keine Preso vorbereitet, ich dachte,
+ sowas braucht man hier eher nicht. Für die Jugend-Hack-Besucher*innen bin ich
+ wahrscheinlich mehr so ein Fossil, Jahrgang 1968, schon echt lange her.
+ Ich komme aus der DDR, bin da also noch richtig in eurem Alter, war ich quasi
+ DDR-Ossi und als die Mauer gefallen ist, war ich schon 21 Jahre alt. Ich habe
+ damals angewandte Kunst studiert, das war ein bisschen rotlos nach dem Mauerfall,
+ deswegen habe ich ein paar Jahre gearbeitet, Geld gespart, dafür gibt es
+ nämlich nicht, wenn man schon mal DDR-Stipendium hatte. Hab noch mal studiert,
+ internationale Betriebswirtschaft und bin eigentlich durch ein Versehen in der
+ IT gelandet, in einer IT-Beratung, dann noch in einer anderen IT-Beratung und
+ dann zum Schluss bei Microsoft, das insgesamt waren fast 15 Jahre. Hab mich
+ dann 2011 selbstständig gemacht als Publizistin, habe Bücher geschrieben,
+ Artikel geschrieben, eine Kolumne geschrieben, zusammen mit meinem Mann, den
+ viele hier wahrscheinlich kennen, das ist Daniel, der dieses Zelt da mit
+ der offenen Werkstatt da hinten macht. Ja und bin seit 2017 im Bundestag dort
+ reingekommen, gar nicht weil ich selber die Idee hatte, sondern ich war als
+ sogenannte Netzaktivistin öffentlich schon unterwegs. Ich habe mich sehr
+ eingesetzt für Themen, die alle irgendwie mit Open anfangen, insbesondere für
+ Open Government und dahinter verbirgt sich die Vorstellung, dass man das
+ Internet dafür nutzen kann und dafür nutzen sollte, Politik und alles das,
+ was staatliches Handeln ist, transparenter zu machen, nachvollziehbarer
+ zu machen, aber auch partizipativer zu machen. Also mehr Möglichkeiten der
+ Mitgestaltung für stinknormale Menschen einzuräumen. Da habe ich also kleine
+ NGOs gegründet und jede Menge Aktivismus an den Tag gelegt und das sind ja schon
+ sehr linke Ansätze, deswegen war es wahrscheinlich auch nicht verwunderlich,
+ dass irgendwann von der linken Menschen auf mich zu gekommen sind und gefragt
+ haben, ob ich mir vorstellen kann, Digitalpolitik auch im Bundestag zu
+ machen. Ich konnte mir das erst nicht vorstellen, ich habe also gesagt, ich
+ brauchte jetzt ein bisschen Bedenkzeit. Ich hatte mit Daniel gerade ein kleines
+ Unternehmen gegründet, drei Monate vorher. Das passte zeitlich also wirklich
+ schlecht, aber es gab im Grunde drei Gründe, warum ich nach ein paar Wochen
+ dann gesagt habe, ich mache das. Ich war übrigens gar nicht Mitglied bei der
+ linken und die drei Gründe waren, dass ich zum einen mich das unfassbar aufgeregt
+ hatte, dass die Digitalkompetenz im Bundestag praktisch inexistent war. Da wurde
+ also eine Digitalpolitik gemacht, die den Namen nicht wirklich verdient hat. Sehr
+ viele Leute haben dort sehr wenig Ahnung, da wurden die Weichen also zumindest nach
+ meiner Überzeugung entweder gar nicht oder in falsche Richtungen gestellt.
+ Das heißt, wenn man darüber die ganze Zeit öffentlich rum lästert, kann man ja
+ schlecht nein sagen, wenn man gefragt wird, jetzt daran mitzuwirken, da ein
+ bisschen mehr Digitalkompetenz reinzubringen und ein ähnliches Thema
+ war der Umstand, ich bin als Feministin sehr aktiv gewesen und auch immer noch
+ und habe mich auch immer darüber aufgeregt, dass so wenig Frauen im
+ Bundestag sind. Damals waren es glaube ich 32 Prozent, das heißt fast 70 Prozent
+ Männeranteil haben darüber bestimmt, zum Beispiel ob Frauen abtreiben dürfen, ob
+ sie Informationen zu Schwangerschaftsabbrüchen überhaupt
+ erhalten dürfen von seriösen Quellen, die Ärzt*innen zum Beispiel und das hat
+ mich also natürlich auch sehr aufgeregt, weil es ist ungerecht, es gehört nicht in
+ unsere Zeit, Gesetze müssen von allen Menschen gemacht werden können, auf die
+ sie sich auswirken und das sind normal zur Hälfte Frauen*.
+ Ja und deswegen war natürlich auch die Möglichkeit als Frau da eine mehr zu
+ sein, eine, die man dann auch durchaus mal ergreifen kann und das dritte
+ Argument, das ist heute fast noch relevanter als damals 2016, als ich
+ gefragt worden bin. Damals war zum allerersten Mal in einer Umfrage im Land
+ Brandenburg die AfD stärkste Partei und für mich war das ein bisschen wie DDR
+ 1988, muss ich den Jüngeren vielleicht ein bisschen erklären.
+ Man konnte sich in der DDR nämlich ziemlich gut aus Politik raushalten, wer
+ da keinen Bock drauf hatte, hatte kein Problem eigentlich mit der Regierung,
+ in der es sehr wenig bürgerrechtliche Freiheiten gab, also sowas wie
+ Redefreiheit, Pressefreiheit, das gab es da ja nicht, aber wer sich darum nicht
+ geschoren hat und nichts Schlimmes gesagt hat, konnte ein hervorragend normales
+ Leben führen, ohne dass da die Stasi um die Ecke kam und brauchte keinerlei
+ Position beziehen und das hat sich 1988 geändert, so im letzten Jahr vor dem
+ Mauerfall, da musste eigentlich jeder irgendwie Position beziehen und für oder
+ gegen irgendwas sein und so ähnlich war das für mich im Jahr 2016. Ich finde auch,
+ jetzt haben wir erst recht so eine Zeit, ich hatte das Gefühl, ich muss auch mit
+ meinem Gesicht und mit meinem Namen für eine bestimmte Sache stehen und das ist
+ genau auf der anderen Seite der AfD, gegen Rassismus, gegen die Abschaffung
+ der Demokratie und alle diese menschenfeindlichen Dinge, die da im Gang
+ sind und das waren im Grunde die drei Gründe, warum ich entschieden habe, ja zu
+ sagen, mich aufstellen zu lassen, bin dann auch gewählt worden, man kann das ja nicht
+ von alleine entscheiden und bin jetzt seit 2017 digitalpolitische Sprecherin
+ der Linksfraktion im Bundestag, ich bin Opferaum, Digitalausschuss, ich bin noch
+ Stellvertretungsmitglied im Bildungsausschuss, der auch für Forschung
+ und Technikfolgen zuständig ist und in einem Ausschuss für Entwicklungszusammenarbeit
+ und da man auch noch andere Dinge nebenbei machen muss, bin ich auch noch in
+ zwei Gremien, nämlich einmal im Beirat der Bundesnetzagentur, da allerdings nur
+ für alle Dinge, die irgendwie mit Telekommunikation zu tun haben,
+ also mit Funklöcherschließen zum Beispiel oder Frequenzversteigerungen für 5G und
+ derartige Dinge und ich bin noch in einer sogenannten EU-KaAK-Kommission, die
+ befasst sich mit der IT und der Telekommunikationsinfrastruktur im
+ Bundestag selber, vom Videokonferenzsystem bis zum Hackerangriff, alles was direkt
+ mit dem Bundestag zu tun hat, bin ich da sozusagen auch involviert und in der
+ politischen Arbeit, da ist es eigentlich alles, was irgendwie mit Digitalisierung
+ zu tun hat und da ihr ja hier seid und euch ein bisschen wahrscheinlich damit
+ beschäftigt, habt ihr vielleicht eine ungefähre Vorstellung, wie breit dieses
+ Feld ist, das geht also von elektronischen Patientenakten bis digitaler
+ Verwaltung, ja so BAföG online beantragen zum Beispiel, wird übrigens
+ hintenrum wieder ausgedruckt, aber das habt ihr wahrscheinlich schon mitgekriegt,
+ der online Antrag, aber auch Breitbandausbau, autonome Waffensysteme,
+ IT-Sicherheit, Datenschutz, Überwachung durch den Staat, also alle diese Themen,
+ ja der Roboter am Arbeitsplatz, digitale Monopole, Hate Speech im Internet, digitale
+ Gewalt im Allgemeinen, also alles diese Themen und noch sehr viel mehr sind
+ sozusagen meine und das soll es jetzt als Intro auch schon gewesen sein, ab jetzt
+ ist der Ball bei euch, ihr könnt mich fragen was ihr wollt und loslegen.
+ Gibt es direkt erste Fragen?
+ Ganz einfache Frage, sind sie ja auch sonst einfach nur so auf dem Camp oder sind sie nur mal heute vorbeigekommen?
+ Ich war seit 2011 bei jedem Camp und jedes Mal die ganze Zeit.
+ Ich war auch bei jedem Kongress seit 2011, ich finde es einfach geil.
+ Ist es nicht etwas weird von Microsoft, einem der größten Technologie-Giganten der Welt,
+ der Linkspartei zu kommen, also irgendwie stelle ich mir das sehr weird vor.
+ Ich verstehe das Argument, da lagen jetzt aber auch 14 Jahre dazwischen
+ und es klingt immer ein bisschen komisch, aber tatsächlich habe ich mich
+ hauptsächlich bei Microsoft damals auch schon mit den Open-Themen befasst und im
+ Bereich Open Government hatte Microsoft ausschließlich Open Source Produkte im
+ Angebot, die auch kostenfrei verfügbar waren, also so schwarz-weiß ist die Welt
+ auch nicht überall, aber trotzdem bin ich heute sehr viel kritischer demgegenüber.
+ Manchmal finde ich es aber auch schwierig, wenn man Menschen, also heute haben wir
+ ja einen extremen Fachkräftemangel, das war damals nicht so, also da war ein
+ guten Job zu kriegen schon noch ein bisschen anstrengend und als Frau im IT-Bereich
+ war es noch mal doppelt schwierig, das heißt man hat dann auch nicht so alles
+ auf die Goldwaage legen können, weil so viele Jobs gibt es bei Greenpeace nicht,
+ die auch noch so bezahlt sind, dass man, ich war damals zum Teil auch
+ alleinerziehend, auch alleine davon leben kann und ich war vorher bei zwei
+ Unternehmensberatungen ausschließlich im IT-Bereich unterwegs und muss sagen, das
+ war von 1997 bis 2008 dieser anderen, ich habe wirklich massive Diskriminierung
+ erlebt, also wirklich harte Benachteiligungen, nur weil ich eine Frau
+ war, ging auch anderen Frauen so, also das war sehr unangenehm und das war auch der
+ Grund, warum ich gewechselt bin und ich habe damals eine Lektion gelernt in
+ diesen beiden anderen Unternehmen, dass der einzige Unterscheider für oder, also
+ wie ernst ein Unternehmen es meint mit dem Thema Gleichberechtigung von Frauen,
+ dass es ist auf die oberste Führungsebene zu gucken und als da so die
+ Headhunter kamen und mich für Microsoft abgeworben haben, damals war ich im
+ Business Technology Office von McKinsey, also auch kein direkter Weg zur linken,
+ das ist mir schon klar, aber da habe ich die auch gefragt, wie
+ sieht es denn aus mit Frauen in Top-Führungspositionen und die grinsen
+ nur und sagten, 40 Prozent der obersten Führungsebene bei Microsoft Deutschland
+ sind Frauen, alle haben Kinder unter drei und das fand ich schon ziemlich
+ bemerkenswert, eine davon ist dann meine Chefin geworden, als ich da gewechselt
+ bin und ich will noch eine kleine Geschichte erzählen, die unterstreicht,
+ wie groß Unterschiede sein können, also zum Beispiel bin ich in dieser
+ Bewerbungsphase, so eine Headhunter Phase, ist ja nicht drei Tage, da finden dann
+ mehrere Gespräche statt, dazwischen liegen ja auch ein paar Wochen oder manchmal
+ Monate und in dieser Zeit bin ich schwanger geworden,
+ da bin ich also zum nächsten Termin hin und habe gesagt, hat sich erledigt, bin
+ schwanger geworden und da meinte diese Vorstandsfrau von Microsoft zu mir, wieso
+ ist jetzt ein Grund mehr für Microsoft, weil bei ihnen könnte man das viel
+ besser vereinbaren, als bei mir Kind zu sehen und ich soll sie mal angucken, ihr
+ Kind ist zwei, geht super, sie weiß wie das geht, sie glaubt auch, dass ich weiß wie
+ das geht und ich hätte ja auch schon ein Kind, sie wüsste also auch von mir,
+ dass ich weiß wie es geht, da habe ich ja auch gearbeitet, seitdem das Kind sechs
+ Monate alt war, befindet sich übrigens auch hier auf dem Camp. Ja und dann ein
+ paar Wochen später war das nächste Gespräch, das hatte mir schon zu denken
+ gegeben, ich hatte dann aber dieses Kind verloren, ich hatte eine Fehlgeburt, bin zu
+ ihr hin und habe gesagt, so das Thema hat sich übrigens erledigt, ich wäre übrigens
+ genau in Elternzeit gegangen, da man ja auch Kündigungsfristen hat, ungefähr vier
+ Wochen nachdem ich da angefangen hätte, also so eine Firma habe ich noch weder
+ vorher noch nachher jemals getroffen, die sagen komm her, sei ruhig schwanger, vier
+ Wochen später kannst du in Elternzeit gehen, das ist schon echt ungewöhnlich,
+ aber ich habe es ja dann verloren und dann hat diese diese Frau Vorständin
+ von Microsoft zu mir gesagt, das ist auch kein Problem, aber ich soll nicht darauf
+ hören, was die Ärzte sagen, ich muss nicht sechs Monate warten, um wieder
+ schwanger zu werden, ich soll es viel schneller probieren und schneller wieder
+ schwanger werden, ich dachte, what the fuck, jetzt sagen die mir sogar, ich soll bei ihnen
+ anfangen möglichst schnell wieder schwanger werden, also das fand ich schon
+ sehr eindrucksvoll und damit haben die mich gekriegt, also es gibt nicht
+ schwarz-weiß, gerade in der IT-Industrie ist es wirklich schwer Unternehmen zu
+ finden, die auf dieser Seite auch was zu bieten haben, würde heute trotzdem nicht
+ noch mal hingehen, also ich würde zu keinem großen
+ Unternehmen, eigentlich zu gar keinem Unternehmen mehr hingehen, also ich finde
+ unabhängig arbeiten eigentlich immer noch das Beste, war jetzt ein bisschen
+ länger die Antwort, aber
+ es ist ja, ich glaube, egal für welche Partei man sich entscheidet, nie so, dass
+ man hundertprozentig exakt dem Parteiprogramm folgt mit seiner eigenen
+ Meinung, wie stark muss man zum Beispiel überlegen, wenn man irgendwie was auf
+ Twitter postet, dass man noch mal überlegt, ist das, was ich jetzt
+ persönlich denke in Leinen mit der Partei, muss ich darüber nachdenken, ob
+ das, was ich öffentlich sage, für mich selber auch Teil der Parteimeinung ist,
+ ist das so, dass man sich persönlich einschränken muss, wenn man Teil einer
+ Partei wird? Also als ich angesprochen bin damals, habe ich gesagt, ich werde aber
+ nicht Mitglied und ich werde auch nicht immer hundertprozentiger Meinung der
+ Partei sein, ist es für euch okay, da denke ich drüber nach, wenn nicht, denke ich
+ nicht drüber nach und die haben gesagt, ist okay, also das ist so, ich habe
+ auch Bücher geschrieben und in einem der Bücher habe ich ja so lange und breit
+ darüber geschrieben, wie schrecklich der Fraktionszwang ist und den gibt es ja im
+ Prinzip auch, er wirkt aber anders, als ich das vorher gedacht habe, tatsächlich
+ ist es so, dass man völlig überarbeitet ist und Mühe hat, sein eigenes Politikfeld,
+ meins mit Digitalisierung, ist ja eh schon breit, da halbwegs aktuell durch
+ zu steigen und wenn dann eine Abstimmung kommt zum Thema Sozialpolitik, Rentenpolitik,
+ Arbeitspolitik, Verkehrspolitik, ich habe doch keinen Schimmer davon, ich kann mich
+ da nicht einarbeiten und es gibt pro Woche allein an den Abstimmungsunterlagen, die
+ da so bereit liegen, ich habe das mal mit so einem kleines Video getwittert,
+ die werden ja da ausgedruckt, liegen die bereit, man kann ja auch, elektronisch gibt es die auch,
+ aber die liegen auch immer im Hinterraum des Plenums, so auf ganz langen Tischen
+ und ich bin da echt so 20 Sekunden vorbei gelaufen an diesen Tischen, weil da so
+ endlos Papierberge waren, kein Mensch kann sich das durchlesen, wirklich niemand,
+ das heißt, ich kann mich nicht in die anderen Themen einarbeiten und ich bin
+ im Prinzip fachlich gezwungen, mich darauf zu verlassen, dass diejenigen in
+ meiner Fraktion, die Spezialisten oder Spezialist*innen für dieses Thema sind,
+ dass die eine vernünftige Empfehlung dafür abgeben,
+ das heißt, in den meisten Fällen stimme ich so, wie die mir das empfehlen, einfach
+ weil ich glaube, die wissen das besser als ich, aber es gibt natürlich Fälle,
+ damit beschäftigt man sich automatisch, weil alle darüber reden, ja Waffenexporte
+ oder so ein schwieriges Thema, also es gibt so ein paar Themen, da ist es
+ kontrovers und in der Linken haben wir auch Fälle gehabt, da hat ein Drittel
+ dafür gestimmt, ein Drittel dagegen und ein Drittel hat sich enthalten, haben wir
+ dann auch nicht so witzig gefunden in der Fraktion, ja da wird dann drüber
+ diskutiert, wo soll die draußen denn wissen, was wir jetzt eigentlich für eine
+ Meinung haben, manchmal ist das aber so, ja wir sind halt nicht alle in einer
+ Schublade und da kann die Linke relativ viel aushalten und es gab glaube ich
+ jetzt in den sechs Jahren zwei Abstimmungen, wo ich bereut habe der
+ Empfehlung gefolgt zu sein und das aber auch nicht noch mal tun würde, wenn das
+ gleiche noch mal zur Abstimmung käme und ich glaube nicht, dass ich bei einem
+ Tweet jemals überlegt habe, wie die Linke das finden würde.
+ Gerade jetzt in dem Fachgebiet Digitalisierung, wie kommen denn dann so
+ technische Eckpunkte dabei zustande, das würde mich mal interessieren, also
+ Beispiel Breitbandausbau, das gibt es ja hier gerade in der UK-Markt, ist es ja
+ so, dass irgendjemand festgelegt hat, wenn ich theoretisch 50 MBit
+ asynchronous DSL haben kann, dann bin ich raus und wenn nicht, dann kriege ich geile
+ Glasfaser. Wie kommen denn da solche, a) die Festlegung 50 MBit zustande und b) das
+ asynchron dann immer noch reicht, da muss doch irgendeiner, ja weiß nicht was
+ gegessen haben. Na vor allem haben sie keine Ahnung von
+ Digitalisierung und sind natürlich beeinflusst, das waren mehrere
+ Legislaturen, CSU-Ministerium, an die Scheuer und Konsorten haben das verbockt
+ und es war ein maßgeschneiderte Förderrichtlinie mit diesen 50 MBit, das
+ war nämlich gerade noch mit Vectoring erreichbar und das wollte die Deutsche
+ Telekom, die wollte nämlich nicht, dass man Glasfaser als Infrastrukturziel
+ fördert, man hat also die Richtlinie falsch definiert, man hat ein falsches Ziel
+ definiert, man hat ein Breitbandziel, nämlich diese 50 MBit seinerzeit
+ gesetzt als Aufgreifschwelle sozusagen und man hat nicht ein Infrastrukturziel,
+ das einzig sinnvolle langfristig ist Glasfaser, das hat man nicht dort
+ reingeschrieben, weil es die Telekom nicht geschafft hätte und dann hätten
+ Wettbewerber eine Chance gehabt, so kam dann, wenn eine Kommune was ausgeschrieben
+ hat und Fördergelder wollte, kamen dann zwei Angebote oder drei, ja der eine
+ wollte Glasfaser, das kostet natürlich mehr, weil ich muss überall aufbuddeln,
+ das andere war die Deutsche Telekom, die hat ihre alten Kupferdrähte so ein
+ bisschen abgegradet und das nennt sich dann Vectoring und dann sind sie halt 50 MBit,
+ haben sie im günstigsten Fall erreicht oder das zumindest erklärt, da mussten
+ aber dann überall diese blöden Boxen rumstehen und einen Kilometer weiter sind
+ dann die 50 auch gar nicht mehr angekommen. Der Rechnungshof der
+ Europäischen Union hat uns danach bescheinigt, dass diese Strategie eine
+ Anti-Glasfaser-Ausbau-Strategie war, dass sie aktiv den Ausbau von Glasfaser
+ verhindert hat und dass wir deswegen zu den Ländern, nicht nur in Europa, in der
+ ganzen Welt gehören, die besonders wenig Glasfaserausbau haben. Wir liegen glaube
+ ich inzwischen bei 12 Prozent Glasfaseranteil an den Haushalten, das ist
+ also wirklich grottig, ich glaube Rumänien hat dreimal so viel, das ist schlimm und
+ ist verbockt worden und zwei Gründe, woran das ungefähr auch noch liegen kann,
+ viele wissen das gar nicht, aber der Finanzminister, aktuell ein gewisser Herr
+ Lindner, ist der größte Einzelaktionär der deutschen Telekom. Woanders würde man
+ sowas Insider-Handel nennen, ja wenn die eine Regulierung machen, die die Telekom
+ begünstigt, die damit mehr Gewinne machen, die dann beim größten Einzelaktionär in
+ der Tasche landen. Der verdient also quasi daran, wenn er eine Telekom
+ freundliche Regulierung macht. Ich wette, das war nicht ohne Einfluss und außerdem
+ gab es damals eine Abfrage, man kann ja als Abgeordnete auch die Bundesregierung
+ Sachen fragen, die müssen per Gesetz antworten und da hat, ich weiß nicht mehr
+ wer, aber irgendein Abgeordnete hat gefragt, wen haben denn Vertreter der
+ Bundesregierung von Seitenindustrie wie oft getroffen in den letzten, weiß ich
+ nicht mehr, vielleicht zwei Jahren und das war zu der Zeit, wo diese Entscheidungen
+ gefallen sind. Mit Abstand auf Platz 1 war die deutsche Telekom.
+ Die hat Angela Merkel war damals in der Regierung, sie am häufigsten getroffen,
+ die an einem Minister am häufigsten getroffen. Da kam ganz lange nichts und
+ dann kamen die anderen und ich wette, das hat auch einen gewissen Zusammenhang zu
+ dieser völlig bekloppten Entscheidung. Also es ist im Prinzip so, als würde man
+ sagen, wir bauen keine Autobahn, ja wir nehmen Pferdekutschen, aber haben jetzt
+ elektrische Peitschen. Bringt halt nichts. Und übrigens macht man diese Fehler
+ immer wieder. Da hat sich nichts geändert.
+ Aber irgendjemand muss ja dann im Bundestag gesagt haben, jawohl die 50
+ Mbitzins. Naja die jeweilige Regierung hat ja eine Mehrheit im Bundestag, deswegen
+ ist die Regierung und wenn die dann von ihrem zuständigen Minister die Ansage
+ kriegen, das ist es, dann wird das halt so abgestimmt.
+ Ein bisschen feilen kann man noch über die Ausschussarbeit, aber die drücken
+ ihre Mehrheit manchmal einfach durch. Also das gleiche haben wir mit dem
+ Gesetz, das kam ich glaube vor zwei Jahren, das haben die zuerst recht auf
+ schnelles Internet genannt. Ich habe das Recht auf LAMIS-Internet umgetauft, weil
+ da kann man heute über die Bundesnetzagentur einklagen, wenn man
+ weniger als 10 Mbitzins downstream hat und ich glaube, war es 1,75 oder 2,
+ ein bisschen war es Upload, also wirklich lächerlich. Das steht da drin als
+ Anrecht. Dann kann man über die Bundesnetzagentur in einem Prozess, der
+ auch noch mal viele Monate dauert, ein Recht darauf bekommen, dass die
+ Bundesnetzagentur eine Telekom-Firma, es muss ja nicht die Deutsche Telekom sein,
+ kann auch eine der anderen sein, dazu verdonnert, einen mit Internet in
+ mindestens dieser Geschwindigkeit zu versorgen. Meine Anfrage, da laufen
+ deshalb jetzt übrigens Gutachten, so viel kann man als oppositionelle, die ja
+ Gesetze nicht durchkriegen kann, aber man kann trotzdem was bewirken.
+ Ich habe dafür gesorgt, dass es eine Anhörung gab zu dem Thema und in der
+ Anhörung habe ich die Vertreter der Bundesnetzagentur gefragt, Auslöser für
+ dieses Recht auf schnelles Internet war nämlich die Corona-Pandemie und dass so
+ viele Menschen sich beschwert haben, dass sie weder digitale Schule noch Homeoffice
+ machen können, mangels schnelles Internet. Und da habe ich die halt gefragt in
+ dieser Anhörung, wenn man jetzt eine normale Familie mit zwei Eltern und zwei
+ Kindern, die Homeoffice und digitale Schule machen sollen, funktioniert
+ das mit dieser Geschwindigkeit? Ich meine, ich weiß die Antwort. Natürlich nicht, nie
+ im Leben kriege ich da vier parallele Videokonferenzen hin und dann haben die
+ gesagt, na das weiß man nicht so genau und deswegen wurde beschlossen, Gutachten
+ zu beauftragen. Vier Gutachten sind beauftragt worden, die laufen noch, die
+ sollen Ende des Jahres fertig sein und dann werden wir alle wissen,
+ schwarz auf weiß, dass man mit diesem Recht auf lahmes Internet immer noch nicht
+ für so eine Durchschnittsfamilie sinnvolles Internet hat und vielleicht
+ bessert man danach.
+ Was würdest du sagen, welchen Stellenwert hat Digitalpolitik
+ im gesamten Wahlprogramm der Linken? Weil du hattest ja gerade auch
+ schon die FDP genannt und ich habe das Gefühl, das ist die Partei, die sich
+ Digitalisierung auf die Stirn geschrieben hat und somit halt auch sehr viele junge
+ Wähler*innen anlockt. Genau. Mir ist ehrlich gesagt immer noch ein Rätsel, wie sie die
+ jungen Wähler angelockt haben. Ich hatte im letzten Wahlkampf auch Termine in
+ Gymnasien und war also total erschüttert, wie viele da erklärt haben, die FDP
+ wählen zu wollen und da Tonkraft toll zu finden.
+ Das hat mich ein wenig irritiert, weil ich junge Menschen eher mit
+ anderen Ausrichtungen assoziiert habe. Das schien aber ein bisschen mehr daran
+ zu liegen, dass sie zum Beispiel ganz krass auf Social Media Wahlkampf und
+ insbesondere auf TikTok gesetzt haben und die Linke zum Beispiel überhaupt nicht.
+ Also das ist wahrscheinlich ein Nachteil, dass die da einfach talentierter sind,
+ bestimmte Medien zu nutzen, die an bestimmte demografische Gruppen, gerade
+ jüngere, besser rankommen. Im Wahlprogramm selber, also das von der
+ Linken ist ja sehr sehr umfangreich, das hatte glaube ich über 100 Seiten, die
+ lesen die meisten Menschen ja nicht, auch nicht in der Kurzfassung. Das ist aber in
+ digitalen Fragen richtig toll und auch sehr ausführlich gewesen.
+ Nicht weil der Anke ein bisschen dran mitgeschrieben hat, aber ich habe es sehr
+ sehr gerne und sehr gut vertreten können und es war, ich meine ich bin dabei jetzt,
+ aber natürlich viel viel besser als das, was die FDP da wollte, weil die FDP will
+ ja eine andere Digitalisierung als wir und im übrigen hält die FDP ja nicht
+ mal das, was sie versprochen hat. Also sie tut das ja einfach nicht. Wir haben im
+ Digital, also das Ministerium, das manche so Digitalministerium nennen, das ist ja
+ eigentlich keins, das Ministerium für Verkehr und Digitalisierung.
+ Da sitzt ja ein FDP-Mann an der Spitze und diesen Minister Volker Wissing, dem habe
+ ich ja nur schon öfter getroffen. Also ich kann euch versichern,
+ Digitalisierung ist nicht sein Thema. Der ist Verkehrsminister vorher gewesen,
+ ich glaube in Nordrhein-Westfalen, er war Finanzminister, er war zuständig, er war
+ zuständig für Finanzpolitik, Steuerpolitik und Geldpolitik, da fallen
+ einem Dinge auf, das hat irgendwie alles ein bisschen mit sich zu tun und mit
+ Geld. Für Digitalisierung, Landwirtschaftsminister war er auch mal
+ gewesen, er hatte noch nie mit Digitalisierung vorher zu tun, das interessiert
+ ihn auch nicht und darum kümmert er sich auch extrem wenig.
+ Das wird immer wieder so werbemäßig verkündet, ja auch von Christian Linden am
+ Wahlkampf, aber wo passiert denn Digitalisierung mit dieser Bundesregierung?
+ Der Koalitionsvertrag war nicht mal schlecht, da standen ganz viele gute
+ Sachen drin und ich habe gedacht, okay, die Linke ist zwar leider nicht an der
+ Regierung, aber da stehen wirklich viele Dinge drin, die gut sind, die wir haben
+ wollen. Nachhaltigkeit von Digitalisierung, ganz viel Open Source,
+ digitale Verwaltung für alle, digitale Bildung, aber was davon passiert denn?
+ Digitale Verwaltung ist genauso analog wie früher, da wird immer noch gestempelt
+ und gefaxt bis zum Abwinken, es geht nichts vorwärts, Breitbandausbau hat
+ sich nichts bewegt, digitale Bildung ist nichts passiert, also ich bin in
+zwischen so desillusioniert, dass ich da nichts mehr erwarte für die nächsten
+ zwei Jahre, aber was mich betrübt ist, dass unsere Digitalpolitik zwar in meinen
+ Augen super ist, aber das praktisch keiner weiß.
+ Jetzt liegt es vielleicht auch daran, dass die Linke sehr viel mit sich selber zu
+ tun hat und die Medien am liebsten über Zankt berichten, also wird halt sehr wenig
+ über fachpolitische Positionen der Linken gesprochen, nur viele weiß ich
+ über Sarah Wagenknecht und wer sie jetzt doof oder nicht doof findet, das ist
+ total bedauerlich und ich würde mir schon wünschen, dass klärt sich irgendwann mal
+ und dass man wieder über Sach- und Fachpolitik reden kann und da mehr
+ Menschen verstehen, was eigentlich linke Digitalpolitik ist.
+ Vielleicht fragt das ja noch einer, dann antworte ich da gern drauf.
+ Was würdest du in den letzten 30 Jahren Digitalpolitik am ehesten ändern?
+ Die Zuständigkeit vermutlich. Ich würde da also jedenfalls weder die FDP noch die CSU
+ draufsetzen und ausschließlich nach Kompetenz die entscheidende Person
+ besetzen. Ich würde aber auch dafür sorgen, dass man im Kanzleramt davon
+ Ahnung hat und es wichtig findet und beides ist nicht der Fall.
+ Weder in der letzten noch in der aktuellen Bundesregierung, das allererste,
+ einer der ersten Amtshandlungen von Olaf Scholz überhaupt in der allerersten
+ Woche im Amt war, alles was mit Digitalisierungspolitik zu tun hatte,
+ abzugeben. Der hat es also weggeworfen wie heiße Kartoffeln, wahrscheinlich weil er
+ dachte, fällt ihm auf die Füße, lieber nicht, aber wahrscheinlich auch, weil er
+ es nicht so richtig verstanden hat und es ihm auch einfach nicht am Herzen lag und
+ das ist schlecht, weil du hast in der Digitalpolitik Dinge ja auf viele
+ Ressorten verteilt, Ressorten so nennt man die Ministerien in der Politik und die
+ zanken sich auch ständig und die sind ja mehr oder weniger in der gleichen
+ hierarchischen Ebene und wenn die sich dann zanken, dann hast du so eine
+ Deadlock Situation, nichts geht vor nichts zurück und dann brauchst du eigentlich
+ jemanden, der so ein bisschen hierarchisch drüber ist, zum Beispiel eine Kanzlerin
+ oder ein Kanzler, die dann ein berühmtes Kanzlermachtwort sprechen und dann
+ passiert irgendwas. Wenn aber diese eine Person, die das tun könnte, sagt auch
+ Digitalisierung interessiert mich nicht, es lieber Bratwurst am Wahlkampf stand
+ oder was weiß ich, was der so macht, dann passiert da nichts und wenn die sich dann
+ zanken und sich nicht klar sind, wer eigentlich zuständig ist für was, das hat
+ neun Monate gedauert, bis die die Zuständigkeit im Bereich Digitalisierung
+ geklärt haben, dann passieren halt Dinge wie, dass sie trotzdem nicht
+ geklärt werden, zum Beispiel digitale Identitäten, das ist ein ganz wichtiges Thema,
+ also von elektronischer Personalausweis bis Bundes-ID, also alles womit man sich
+ authentifizieren kann im Internet, ist ein wahnsinnig wichtiges Thema, davon hängt
+ auch, ob und wie man digitale Verwaltung machen kann.
+ Da konnten die sich auch nicht einigen, wer zuständig ist. Das sind jetzt vier
+ verschiedene Ministerien federführend. Also man möge sich vorstellen, ja so eine
+ Feder, Menschen haben so eine Feder in der Hand und zwar vier verschiedene Hände
+ von vier verschiedenen Menschen umklammern eine Feder und versuchen
+ lesbare Wörter zu schreiben, wird garantiert nicht funktionieren und
+ deswegen funktioniert auch das nicht. Da sagt der eine Hü bei der digitalen
+ ID und will das unbedingt mit Blockchain machen, völlig beklopptes Konzept, andere
+ wollen den digitalen Personalausweis, der eigentlich ein ganz gutes Konzept hat und
+ so passiert dann halt nicht wirklich was und diese Governance ist vielleicht
+ mit das wichtigste, dass man also die Art und Weise, wie Verantwortung verteilt wird,
+ wer kann was entscheiden, wer ist für was zuständig, wer hat wie viele Ressourcen,
+ das ist wahrscheinlich der eine Hebel, wo man am meisten bewirken könnte und
+ hätte man das 30 Jahre lang anders besetzt und anders gemacht, würden wir in
+ einer anderen Gesellschaft leben.
+ Noch mal auf das Zanken zurückkommen, also ich sehe es irgendwie als Problem, dass
+ Politik derzeit relativ viel zankt, während gleichzeitig die AfD auf Rekord
+ werden ist, Bürgermeister stellt und so weiter und so fort.
+ Was ist Ihre Meinung, sollte man es so zeugnet, einfach quasi sein, also quasi
+ die Debatte oder den Streit nicht unbedingt aktiv suchen, sondern ganz im
+ Gegenteil versuchen, den Streit möglichst beizulegen, um der eigentlichen
+ Gefahr, nämlich der von rechts quasi herzuwerden.
+ Ich würde das nicht so beantworten, ich glaube die AfD ist auch deshalb im
+ Aufschwung, zum einen weil die Politik nicht besonders gut ist, aber hauptsächlich
+ weil alle denken, oh die AfD steigt, da müssen wir ein bisschen so ähnlich sein,
+ damit die AfD-Wähler*innen nicht die AfD wählen, sondern uns, machen sie natürlich
+ nicht. Was man damit aber erreicht, dass man normalisiert die Politik der AfD, was
+ sie akzeptabler macht für noch mehr Wähler und dann habe ich im Prinzip so
+ einen Teufelskreislauf, wo sich das am Ende immer mehr hochschaukelt, aber die
+ schlechte Politik ist mindestens genauso wichtig, denn also ich will jetzt, dass
+ man eine rassistische Partei wählt, nicht entschuldigen, aber wenn ich zum Beispiel
+ in Osten gucke und da komme ich ja her und da gibt es, also es gibt auch in
+ Baden-Württemberg bei Landtagsprognosen, übrigens ist die AfD auf Platz drei, bei
+ der Bundestagswahl in Dortmund, in manchen Wahlkreisen hatten die 30%, also
+ nicht nur ein Ostphänomen, das wäre nicht richtig, das wird oft so dargestellt,
+ Tatsache ist aber trotzdem, dass wir tendenziell in großen Bereichen im
+ Osten sehr viele höhere AfD-Wähler*innen Anteile haben und das hat auch damit zu
+ tun, wie zum Beispiel die Zeit nach dem Mauerfall organisiert worden ist, wo viele
+ wissen das nicht, jedenfalls im Westen weiß man das nicht, 80 Prozent der
+ Erwerbstätigen innerhalb von zwei Jahren ihre Arbeit verloren haben.
+ Das hat schon eine ganze Gesellschaft geprägt, es hat Verlust, Ängste
+ hervorgerufen, alles hat sich verändert, die ganze Gesellschaft war auf einmal
+ alles was richtig war, war auf einmal falsch, wer Macht hatte, hatte auf einmal gar
+ nichts mehr zu sagen, alles wurde umgekrempelt, so viel Veränderung hat man
+ im Westen nie erlebt und Menschen, die so eine riesige Veränderung selbst erlebt
+ haben, sich noch gut erinnern können oder mindestens deren Eltern, wenn dann
+ einer kommt und jetzt Klimakrise, alles wird sich ändern oder kommen Migrant*innen,
+ alles wird sich ändern, dir wird es wieder schlecht gehen,
+ die wissen sie hatten sowas schon mal, dass sich ganz viel verändert hat und
+ dann ging es ihnen schlecht, das ist für sie ja so kein abwegiges Szenario, sondern
+ es ist für sie bedrohlich und wenn man dann eine Politik macht, wo man weiß man
+ muss mit der Klimakrise schwierige Entscheidungen treffen, wir müssen eine
+ Verkehrs- und Energiewende hinkriegen und dann lässt man die Leute aber alleine,
+ die die sich Sorgen machen, wie sie das als Menschen mit kleineren Geldbeuteln
+ gebacken kriegen sollen, das kann man so nicht machen, da wird also schlecht
+ kommuniziert, es gibt jede Menge Desinformation, die man viel zu wenig
+ macht, die die AfD gnadenlos ausnutzt, die erzählt überall rum, dass der
+ arme Oma mit dem Häuschen eine funktionierende Gasheizung quasi
+ ausgerissen wird und sie muss die jetzt ersetzen durch eine Wärmepumpe, das
+ glatt gelogen, das ist einfach komplett falsch, aber da wird glaube ich zu wenig
+ erklärt, aber es wird auch zu wenig darauf geachtet, dass man solche großen
+ Veränderungen, ob das jetzt Klimakrise, Kriegsauswirkungen oder Klimakrise sind,
+ dass man die wirklich sozial gerecht macht und da abfedert, wo es nötig ist,
+ also das passiert zu wenig und dann alle diese Aspekte zusammenführen dazu, dass
+ die AfD da einfach so einen Läufer hat. Ich glaube nicht, dass das
+ hauptsächlich am Streit liegt.
+ Die AfD zankt sich übrigens auch oft. Ich bin ja selber jahrgangsfit
+ wie du, komme auch aus Brandenburg und habe sozusagen die Wende genauso erlebt als
+ Einschnitt, aber davor die Zeit, als das Land war gelebend und jetzt haben wir
+ wieder den gleichen Zustand, dass wir leben und immer das Gefühl haben, es ist alles
+ gelebend, es geht nicht vorwärts. So und die Frage, die ich mir stelle ist, die
+ Änderung 89/90 war ja im Prinzip, wie du auch sagtest, massiver Einschnitt für viele
+ Leute. So und letztendlich wird ja auch, wenn man jetzt was ändern will, wird es
+ wieder Einschnitte geben und ich bin mir nicht sicher, wie man aus diesem Dilemma
+ rauskommt, weil wir brauchen definitiv irgendwie größere Veränderungen im Land,
+ auf der ganzen Welt. Aber wie macht man das? Also wie geht, ich habe keine
+ Antwort darauf, deswegen frage ich so ein bisschen, aber ich sehe ein Problem
+ drin. Ich finde die Frage gar nicht wirr. Also ein mindestens Ding, das man tun muss,
+ ist die Menschen mit einbeziehen und nicht über ihre Köpfe hinweg irgendwelche
+ Dinge bestimmen. Also viel mehr direkte Einbeziehung, da sind wir wieder bei
+ Partizipationen, mehr direkte Einbeziehung der Bevölkerung bei solchen
+ wichtigen Fragen. Und ich komme noch mal zurück zur Kommunikation. Ich glaube,
+ gerade im Zusammenhang mit Klimakrise, wie wir damit umgehen, wird viel zu viel
+ kommuniziert im Sinne von Verboten und Verzichten und was alles schlecht ist,
+ was weggenommen wird, anders sein soll. Es muss und wird viel anders sein, aber das
+ meiste davon ist richtig gut und die meisten Menschen haben richtig viel davon.
+ Und das kommt ja gar nicht rüber. Es kommt ja immer nur rüber, was einem
+ weggenommen wird und wo man sich ändern oder einschränken soll, aber nicht, was
+ man alles Tolles davon hat. Also so eine Stadt, in der weniger Autos fahren und
+ mehr Grün ist und der Nahverkehr einfach richtig geil ist und pünktlich und oft
+ und ich brauche dieses Auto gar nicht saubere Luft zum Atmen. Wer hat denn da
+ was dagegen? Das hat doch total viele Vorteile, aber
+ wie oft kriegt man dann kommuniziert, wie schön und erstrebenswert diese Zukunft
+ für uns alle ist. Das passiert mir viel zu wenig. Ja, so solarpunk-mäßig, schöne
+ Visionen malen, von denen wir alle was haben, aber eben auch die Leute
+ beteiligen darin, wie man dahin hinkommt, auf welchen Wegen und wie man sich
+ gegenseitig unterstützen kann. Das fängt an mit Bürokratieabbau und hat
+ unendlich viele andere Aspekte, wo man glaube ich einfach das viel besser machen
+ könnte. So macht man Leuten Angst und Angst ist einfach ein schlechter
+ Ratgeber. Aus Angst wählt man AfD.
+ Ja, Dankeschön. Danke auch für die Vorstellung. Ich
+ finde es schon ein sehr beeindruckender Lebensweg, auch über diese vielen
+ verschiedenen Facetten von Künstlerinnen, IT-Unternehmerinnen und jetzt Politiker*innen.
+ Ich kenne sie von diesem Film "Die fünfte Gewalt", diese WikiLeaks-Sache,
+ das haben wir jetzt gar nicht erwähnt. Genau und deswegen wäre meine Frage, was
+ sie vielleicht auch gerade jungen Frauen somit auf den Weg geben würden, wie es
+ gut geht, so ein Leben zu führen. Weil ich habe das Gefühl, dass das schon
+ vielleicht sogar noch herausfordernder wird gerade und dass es uns auch total an
+ Vorbildern mangelt und genau deswegen fände ich es schön zu hören, dass da so
+ Ratschläge mit auf den Weg wären. Ich finde es ganz wichtig, dass junge Frauen,
+ übrigens auch junge Männer, darüber nachdenken, denn ich höre relativ oft
+ "Wieso? Wir haben noch schon Gleichberechtigung." Aber nur weil es in
+ Artikel 3 des Grundgesetzes drin steht, heißt es ja nicht, dass wir das haben.
+ Also da brauchen wir ja nur mal angucken, wer im Bundestag sitzt. Da hat sich ja
+ nur unwesentlich was geändert. Jetzt sind 36,5 Prozent, also immer noch eine
+ weit männliche Mehrheit, die über die Körper von Frauen entscheidet und
+ deswegen haben wir ja auch Entscheidungen, die so sind, wie sie sind. Der Paragraph 218
+ ist immer noch da. Für die Nicht-Ossis, wir hatten ein freies Abtreibungsrecht
+ seit 1972 und ich war mit 17 mal schwanger, ungewollt und bin echt heil froh, dass ich
+ damals nicht im heutigen Deutschland gelebt habe, weil 30 Jahre später mir
+ immer noch Rückschritt. Eine 17-jährige heute hätte das viel schwerer als ich das
+ damals hatte und das sollte einfach nicht sein. Deswegen müssen wir als Frauen uns
+ aber auch aktiver einbringen und uns auch nicht abschrecken lassen.
+ Aber wir haben halt noch ein Patriarchat. Die Regeln sind immer noch
+ patriarchale Regeln. Das heißt, es gibt die Barrieren noch, es gibt die
+ Widerstände noch, es gibt die Stereotype noch, es gibt die von außen und von innen,
+ mit anderen Worten, wir haben die auch verinnerlicht, aber sie werden uns auch
+ externen entgegen gebracht und da muss man vor allem Banden bilden, also in
+ Netzwerken aktiv sein, weil man gemeinsam einfach viel stärker ist, viel
+ mehr ausrichten kann und man muss aktiv Beteiligung einfordern.
+ Das fällt sehr oft Frauen schwerer als Männern. Männer geben aber außerdem macht
+ auch ungern ab. Das heißt, sie sagen zwar oft sie möchten mehr Frauen, die sich für
+ irgendwas bewerben, sei es jetzt als Direktkandidatin oder für was anderes,
+ aber wenn es dann um die Wurst geht, dann wollen sie doch wieder ihresgleichen
+ irgendwo sehen. Also man muss da schon hart kämpfen und sich auch nicht
+ abwimmeln lassen. Eine CDU-Politikerin, die ich trotz CDU außerordentlich schätze,
+ ist die inzwischen schon uralte, aber immer noch Mops-Fidel-Rita-Süßmut, die hat
+ mal die Maulwurf-Strategie empfohlen, die fand ich einfach mega geil.
+ Die hat gesagt, ja so Vorbild Maulwurf, wenn der so im Garten kommt, man kennt es,
+ kleiner Hügel, dann kommt er die Gärtnerin an und dann kriegt der Maulwurf
+ so eine Schippe auf den Kopf, aber der haut ja nicht ab. So ein typischer Maulwurf im
+ Garten, der geht einfach einen Meter weiter, macht sein nächstes kleines
+ Hügelchen, kommt wieder hoch, kriegt wieder die Schippe, macht einfach ein
+ drittes, ein viertes und dann zwei vierfünftes und ein sechstes Mal und irgendwann ist
+ keine Gärtnerin und kein Gärtner mit der Schippe daneben und dann hat der
+ Maulwurf gewonnen und so müssen wir sein. Wir dürfen einfach nicht aufgeben, wenn es
+ nicht klappt, ja wenn wir hinfliegen, aufstehen, Krone richten, weitermachen,
+ das muss die Devise sein, aber trotzdem, ja hier gibt es ja auch männlich gelesene
+ Wesen, wir brauchen auch die Solidarität der Männer, die haben ja im Moment noch
+ die Mehrheit in der Macht und wir müssen das gemeinsam schaffen.
+ Und man sieht diese fehlende Gleichberechtigung ein bisschen in der
+ Fragen stellenden Runde, die Menge an männlich klingenden Stimmen überwiegt
+ doch recht deutlich. Bitte versteht das nicht als Kritik, sondern als Ermutigung,
+ euch zu beteiligen und weitere Fragen zu stellen. Da rechts auch.
+ Apropos AFD, es gibt ein paar Online-Trends, die quasi die Sichtweise mehr
+ unterstützen, zum Beispiel Thread Wives, da bleibt eine Frau zu Hause und kocht und
+ putzt und das finden sie cool und es gibt ein Modetrend, wo man jetzt alle
+ Anzüge trägt, Old Money und das unterstützt halt die Ideen der AFD und wenn
+ solche Trends aufkommen und die AFD wächst, kommen vielleicht auch junge
+ Menschen eher drauf oder alte, die das cool finden. Und AFD nutzt halt sehr viel
+ TikTok und TikTok ist ja nicht gerade für Menschen recht freundliche Inhalte
+ bekannt. Ja vor allem hat TikTok immer sehr kurze plakative Botschaften, man kann
+ komplexe Themen dort nicht gut erklären und das ist glaube ich, also du bringst
+ mich noch auf einen ganz wichtigen Aspekt, denn wir leben wirklich in einer
+ außerordentlich komplizierten Zeit mit sehr komplexen Herausforderungen,
+ auf die es keine einfachen Antworten gibt, aber komplizierte Rahmenbedingungen
+ machen Menschen auch Angst und einfache Antworten versprechen einfache Lösungen,
+ für die man sich selber nicht ändern muss, nicht einschränken muss, es kann
+ alles so sein wie vorvorgestern und das beruhigt irgendwie und das ist
+ verführerisch, aber es ist ja trotzdem falsch, weshalb es nicht übrigens nicht
+ zufällig einen Zusammenhang zwischen Wählerverhalten und Bildungsgrad gibt,
+ also der niedrigste Bildungsgrad ist bei AFD-Wähler*innen zu finden, das ist
+ statistisch so, was nicht heißt, dass da nur mentale Deppen sind, das ist ja auch
+ nicht richtig, aber wir haben ein Problem mit politischer Bildung, wir haben
+ generell ein Problem mit Bildung und das ist Teil des Problems und dass Menschen
+ halt vielleicht auch eine sinkende Aufmerksamkeitsspanne haben, was auch
+ wiederum mit sozialen Medien zu tun hat und insbesondere bei Heavy-TikTok-Usern
+ ja diese diese 15 Sekunden-Dinger führen halt dazu, dass man sich dann eine halbe
+ Stunde Podcast vielleicht gar nicht mehr anhören will, ich glaube hier auf diesem
+ Acker quasi, da finden wir noch überdurchschnittlich viele Leute, die
+ sich auch mal längere Botschaften anhören, aber wir haben schon tendenziell
+ eine Entwicklung zu kurzen, einfachen Erklärungen, was aber zur Lebensrealität
+ nicht passt.
+ Ja, hey, danke für die offenen Antworten bisher. Ich habe eine Frage als Person, die
+ ich habe selber keine Erinnerung an ein Deutschland, in dem es eine DDR gab und ich
+ glaube die meisten Leute, die hier auch im Jugend Village sind, bei denen ist es
+ noch mehr so der Fall und ich glaube gerade, wenn man in Westdeutschland
+ aufwächst, ist es auch sehr einfach, also es dauert eine Weile, bis man das irgendwie
+ mitbekommt, dass es überhaupt mal so war, deswegen würde mich, du hast jetzt öfters
+ schon darüber geredet heute, mich würde total interessieren, was du glaubst, gerade
+ jüngere Menschen, die das irgendwie auch aus der eigenen Erfahrung gar nicht so
+ mitbekommen haben und irgendwann mal lernen muss nach Deutschland, war mal
+ geteilt, was sie davon auf jeden Fall mitnehmen sollten oder was sie
+ darüber auf jeden Fall wissen sollten über diese Wende, vor allem in Bezug darauf,
+ inwieweit das heute noch relevant ist, also wie wirkt das irgendwie nach und was
+ sollten wir da irgendwie, was möchtest du, was wir auf jeden Fall darüber wissen?
+ Vielen Dank für diese Frage. Ich würde mir zum Beispiel wünschen, dass man im
+ Westen viel mehr über den Osten weiß und leider ist es so, dass ich auch über 30
+ Jahre nach dem Mauerfall große Teile des Westens, also der westdeutsche Menschen,
+ einfach nicht wirklich interessieren und das wird auch von Medien so bedient.
+ Also wenn es zum Beispiel Filme gibt, wie es gab einen Dokumentarfilm über die
+ Rolle von Ostfrauen in der Wendezeit, der wurde nur in ostdeutschen Sendern
+ ausgestrahlt, als wäre das nur so ein Ossi-Thema und Wessis interessieren
+ sich dafür nicht oder sollen sich dafür nicht interessieren.
+ Wie sollen sie dann aber mehr darüber erfahren?
+ Also viele gucken ja so ihre Stammregionalsender oder ARD und ZDF, da
+ ist es halt nicht gelaufen. Das lief bei RBB, das lief bei MDR. Ich bin sehr
+ gespannt, jetzt kommt gerade ein Dokumentarkinofilm in die Kinos im
+ September, der wird ab nächstes Jahr auch im Fernsehen laufen, ob der dann, also
+ auch in westdeutschen Kinos läuft und auch in westdeutschen Sendern läuft, der
+ heißt Frauen in Landschaften, das ist über vier ostdeutsche Politikerinnen. Ich bin
+ einer davon, also wenn ihr wollt und ja im Osten läuft er, das weiß ich schon, aber
+ ob er im Westen auch laufen wird, keine Ahnung, aber da könnte man ja mal
+ nachfragen, aber hauptsächlich war ja deine Frage, was sollte man wissen.
+ Also für mich wäre besonders wichtig, dass man von dieser sehr einseitigen
+ Vorstellung der Osten, bestand nur aus Stasi und Mauer-Toten, dass man davon
+ wegkommt. Das hat es natürlich gegeben und ich will auch nichts beschönigen, das
+ war furchtbar, ich will das auch nie wieder haben, aber die DDR bestand nicht
+ nur aus diesen Dingen, sondern aus sehr viel mehr, zum Beispiel aus super
+ Kinderbetreuung, aus viel mehr Geschlechtergerechtigkeit. Wir werden in
+ der Darstellung deutscher Geschichte einfach immer vergessen, also wie oft
+ muss ich irgendwo, wenn es um historische Betrachtung der
+ Geschlechtergerechtigkeit geht, lesen, bis 1978 konnten Männern den Frauen
+ verbieten zu arbeiten. Ja im Westen, im Osten war das seit
+ 1949 nicht mehr so. Bis Anfang der 90er Jahre hinein haben
+ alleinerziehende Mütter im Westen, nie im Osten, die nicht angegeben haben, wer der
+ Vater ihres Kindes ist, einen Amtsvormund bekommen. Irgendjemand vom Amt, der sagen
+ konnte, nee auf diese Schule geht ihr Kind nicht, nein diese Impfung kriegt ihr
+ Kind nicht, der hatte der alleinerziehende Mutter was zu sagen, eine wildfremde
+ Person vom Amt. Bis in die 90er Jahre hinein, in den Einigungsvertrag, weil im
+ Osten gab es sehr viele alleinerziehende Mütter, hat man eine Sonderklausel
+ reingeschrieben, dass dieses Gesetz nicht für die neuen Länder gilt, weil man
+ sonst einen neuen Aufstand im Osten hätte mit den ganzen Frauen, das kann man denen
+ nicht vermitteln. Im Bau Hauptgewerbe waren Frauen im Westen verboten.
+ Typischer Frauenberuf war Kranfahrerin, die wurden alle entlassen.
+ Also sowas weiß auch kein Mensch. Es waren im Westen Frauen in der Bundeswehr
+ verboten. Noch Jahre nach der Wiedervereinigung im Osten gab es aber bis
+ zur Generalin Frauen auf allen Ebenen. Gab nicht die Wehrpflicht für Frauen, aber
+ sie konnten, wenn sie wollten, hin und waren auch überall in sämtlichen
+ Waffengattungen überall vertreten. Bin jetzt kein Fan von Armee und von Waffen,
+ aber eine Frage der Geschlechtergerechtigkeit, das ist ja trotzdem.
+ Mit der Wiedervereinigung wurden ja auch alle entlassen.
+ Also Gehaltsunterschiede zum Beispiel, eine kleine Anekdote, die das sehr gut
+ illustriert. Ich habe eine Rechtsanwältin kennengelernt, die war auf
+ Scheidungsrecht spezialisiert und die praktizierte 20 Jahre in Berlin-
+ Charlottenburg, Westberlin und hat gesagt, sie ist dann nach Potsdam
+ gezogen, und sie hat gesagt, sie musste im Prinzip alles neu
+ lernen. Sie war hochspezialisiert auf Ehefrauen, die betrogen worden sind von
+ Männern, die sich eine Jüngere gesucht haben und die kamen alle zu ihr und
+ sagten, dieses Arschloch, der soll bluten bis an sein Lebensende, maximalen Unterhalt
+ rausholen, darauf war sie spezialisiert, konnte sie super.
+ Dann zog sie in den Osten, das Phänomen war das gleiche, ja die Männer haben mit
+ einer Jüngeren und sind abgehauen, die Frauen kamen auch, haben genauso angefangen,
+ haben gesagt, dieses Arschloch. Dann ging es aber ganz anders weiter.
+ Ich will die nie wieder sehen, möglichst schnelle Scheidung und dann kein Wort
+ mehr von dem und sie nach und unterhalten. Unterhalt? Ich kann mich selbst versorgen,
+ was will ich denn von dem, ich habe immer mein eigenes Geld gehabt.
+ Sie muss ihre komplette Strategie ändern, einmal von vorne anfangen und das ist
+ auch was, was viele nicht wissen, diese ökonomische Selbstständigkeit, wie
+ verankert die auch heute noch, die Unterschiede existieren noch, im Osten
+ waren und im Osten sind. Und wir lesen ja immer zum Beispiel so einmal im Jahr den
+ Gehaltsunterschied, da gibt es immer eine gesamtdeutsche Zahl, ich glaube im Moment
+ ist die Pi mal Daumen 20%, in Meck Pomm ist die 4, im Baden-Württemberg ist die 27.
+ Der Durchschnitt im Osten liegt bei 8%, irgendwas zwischen 7 und 9, so pendelt
+ immer ein bisschen. Das wissen viele gar nicht, also man kann, wenn man sich manche
+ Statistiken anguckt, egal ob das Gehaltsunterschiede sind, Rentenunterschiede
+ sind, Kinderbetreuungsgrade sind, Anteile Alleinerziehender sind, übrigens auch
+ Einkommen, Vermögen, Löhne, überall ist die Mauer noch da in der Statistik.
+ Man sieht also genau eine andere Farbe, auch bei Glasfaser übrigens. Ostdeutschland
+ hat auch viel weniger Glasfaser als der Westen, keine Ahnung warum, ist vielleicht
+ irgendwie weniger wichtig gewesen für so ein CSU, regiertes Bundesministerium, aber
+ ich gleite ab. Und vielleicht noch eine letzte Sache, die mir wichtig ist zu
+ erklären zum Osten, also die Bildung war sehr anders, damals nannten sich die
+ Schulen bei uns, Polytechnische Allgemeinbildung, eine Oberschule, das fanden
+ wir damals normal, heute finde ich klingt ein bisschen hölzern, aber wir haben
+ damals alle Kinder, alle Fächer, auch mit Technik, auch mit Mathe, Physik, wir hatten
+ ein Fach, das nannte sich ESP, Einführung in die sozialistische
+ Produktion, klingt völlig bekloppt, aber da haben wir zum Beispiel Einführungen
+ in BMSR Technik erhalten, wir haben Stromkreise selber gebaut, wir sind in
+ die Produktion gegangen, ich habe da an öligen Maschinen gesessen und
+ Zeug gestanzt, kein Mädel bei uns wäre jemals auf die Idee gekommen,
+ Naturwissenschaften und Mindfächer sind irgendwie was, was mit Jungs zu tun hat.
+ Im Leben nicht, bei uns waren die vier besten in sämtlichen Mindfächern, waren
+ alles Mädels. Wenn man in den Spielzeugladen gegangen ist, da war da nicht
+ die eine Hälfte Prinzessinnen und Rosa und Einhörner und die andere Hälfte
+ dunkelbunte Monster und Waffen, sondern da war ein Regal, da stand drauf 0 bis 3,
+ dann stand 1 so 3 bis 6, dann stand 1 6 bis 12 und da waren halt die Grundfarben
+ drin und dann hast du nach Alter für dein Kind Spielzeug gekauft und natürlich
+ hat sich das ausgewirkt, das gab zum Beispiel an der TU Dresden,
+ einer der besten Universitäten, die wir in der DDR hatten, 40 Prozent Frauenanteil
+ bei Informatik. Ich bin von der Agitation und Propaganda in der
+ elften Klasse ewig agitiert worden, ich möge doch bitte Informatik studieren.
+ Habe ich nicht gemacht, weil wir schrieben damals das Jahr 1985, ich habe
+ noch nicht mal einen Computer gesehen, ich hatte keine Ahnung was das ist,
+ interessierte mich die Bohne, aber irgendwelche Agitatoren hatten schon die
+ Vorstellungen davon, dass sie haben mir die jedenfalls die ganze Zeit erzählt,
+ der Sozialismus braucht Computer und Informatik und du bist irgendwie super in
+ Mathe und Physik und mach das doch, wir brauchen dich und ich nö, keinen Bock, ich
+ mache Textilkunst, aber das zeigt so ein bisschen, da können wir uns doch auch
+ noch was abgucken und diesen Gedanken vermisse ich komplett,
+ da kommt nicht vor, dass man überlegt, was damals im Osten war denn auch gut, das
+ gibt es praktisch nicht, das muss alles schlecht gewesen sein und wenn heute
+ Bildungsminister*innen aus Deutschland nach Finnland reisen, um sich das tolle
+ Bildungssystem dort anzugucken, wissen die in der Regel nicht, dass in den
+ 80ern die finnischen Bildungsminister*innen der DDR waren, um sich dort das
+ Bildungssystem anzugucken und es von da abzukupfern, war aber so.
+ Ja das war jetzt auch eine etwas längere Antwort, aber die Frage wird so selten
+ gestellt und ich beantworte sie so gern.
+ Wir haben noch genau Zeit für eine weitere Frage,
+ ich sehe da hinten noch einen an.
+ Ich habe eine Frage zur Digitalisierung, Sie meinen digitale Identitäten, ich würde
+ gerne wissen, welche Vorteile Sie daran sehen?
+ Naja wir sind ja unbestritten in einer digitalen Gesellschaft und gute,
+ sichere digitale Identitäten, die uns schützen, gleichzeitig aber ermöglichen
+ und sicher irgendwo zu authentifizieren, sind ja hilfreich. Jetzt gibt es das zu
+ wenig oder schlecht kommuniziert und zu wenig angeboten auch von Diensten,
+ deshalb ganz viele Leute auf identifizieren mit Facebook, identifizieren
+ mit Google klicken oder identifizieren mit Apple, das ist ja blöd, also das will
+ ich ja nicht, möchte nicht dass so etwas wie meine Identifizierung und
+ Authentifizierung irgendeinem amerikanischen Großkonzern Daten
+ übermittelt und die dann Profile über mich bilden können aufgrund dieser Daten,
+ wo immer ich mich für irgendwas authentifiziert habe.
+ Ich möchte zum Beispiel der elektronische Personalausweis, der kann
+ ja ganz viel, aber der wird da zum Beispiel nicht angeboten und ich möchte
+ aber auch nicht, dass es eine Überidentifizierung gibt, dass ich dann
+ überall quasi digital meinen Ausweis zeigen soll, sondern ich möchte, dass ich
+ auch davor geschützt werde, es denken ja auch nicht alle hin, reichen viel drüber
+ nach, dass es zu dieser Überidentifizierung kommt, sondern dass zum
+ Beispiel wenn eine Plattform, reden wir mal von Jugendschutz, sicherstellen will,
+ dass nicht Kinder in Kontakt mit Inhalten kommen, die einfach für Kinder
+ richtig schlimm sind, dass man dann zum Beispiel die Plattform fragen kann, bist
+ du volljährig, ja oder nein und dann verrät halt mein digitaler Personalausweis
+ nicht mein Geburtsdatum, weil das ist ja völlig irrelevant und will ich auch gar
+ nicht teilen, sondern sagt halt nur ja oder nein auf diese Frage und das eben
+ nicht über Apple, Google irgendwas, weil die sollen ja, was sollen die mein Alter
+ wissen, das hat die nicht zu interessieren, sondern ich möchte da eine
+ sichere Möglichkeit haben, das zu tun. Jetzt hatten wir zum Beispiel, habe ich gerade
+ gelesen, ganz kurz, auf Instagram, da hat so ein Typ, der kommt irgendwie, ich glaube
+ aus Trier, war zum Urlaub in Barcelona, am Tag danach ist er nach Australien
+ geflogen und hat aber in Barcelona sich seinen Führerschein klauen lassen, hat
+ sich gedacht, naja ich muss jetzt aber halt nach Australien, mein Flieger geht, ist
+ dahin geflogen und hat sich eingebildet, er könne dort aus der Ferne die
+ Verlustmeldung für seinen Führerschein machen und sich einen neuen ausstellen
+ lassen, der muss wirklich zurückfliegen, der war x-mal in der Botschaft, CO2 will
+ ich gar nicht wissen, 3000 Euro muss er dafür bezahlen, nur weil er physisch
+ irgendwo in so einem blöden Amt auftauchen muss und das nicht aus der Ferne machen
+ kann, mit einer digitalen, sicheren Identifizierungsmöglichkeit, die der
+ elektronische Personalausweis bietet, aber von dieser Führerscheinstelle nicht
+ angeboten wird, wäre das kein Problem. Also wenn man das gut macht und richtig,
+ haben wir viel davon, wenn man das schlecht macht, haben große Konzerne was
+ davon.
+ Ein sehr passendes Schlusswort für eine Digitalpolitikerin, über
+ digitale Identitäten sprechen zu können, vielen Dank an alle Fragenstellenden
+ für die Fragen und vielen Dank fürs offene Beantworten.
+ Ich vermute, wenn im Laufe der nächsten Tage weitere Fragen auftauchen, kann man
+ das gerade anbieten. Also ich habe ja meistens diesen roten Hut, man findet
+ mich also ganz gut in irgendwelchen Mengen, wenn ihr noch offene Fragen habt,
+ kommt einfach rum, fragt mich was ihr wollt, das gilt also auch für die nächsten
+ Tage noch. Ihr findet mich auch in relativ vielen sozialen Medien, auf TikTok
+ nicht, also da könnt ihr mich auch fragen. Ich schaffe das nicht immer sofort,
+ aber dass das Angebot steht.
+ Blut!
+ [Applaus]
+ [Musik]
+ SWR 2015

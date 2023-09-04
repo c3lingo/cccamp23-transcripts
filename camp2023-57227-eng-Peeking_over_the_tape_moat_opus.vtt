@@ -1,0 +1,692 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:34.000
+ Good morning to the Mini Bear stage, to the opening session on day four.
+
+00:00:35.000 --> 00:00:40.000
+ It's nice of you to be so early and attend this session.
+
+00:00:40.000 --> 00:00:45.000
+ We will look into the past for present dangers.
+
+00:00:45.000 --> 00:00:55.000
+ Welcome Richard for peeking over the tape mode.
+
+00:00:55.000 --> 00:01:01.000
+ Wonderful, thank you. And thank you all for being here indeed this bright and early.
+
+00:01:01.000 --> 00:01:04.000
+ Enjoy the shade while it lasts.
+
+00:01:04.000 --> 00:01:09.000
+ So yes, for the next 20 or so minutes I will be speaking about magnetic tape storage.
+
+00:01:09.000 --> 00:01:12.000
+ The title of this talk is Peeking Over the Tape Mode.
+
+00:01:12.000 --> 00:01:20.000
+ So the idea is we'll be spending half the time looking at how modern large-scale magnetic tape storage systems work.
+
+00:01:20.000 --> 00:01:25.000
+ And then the second half we'll be looking at what this implies for the security.
+
+00:01:25.000 --> 00:01:31.000
+ The motivation behind this talk is that we're storing more data now than ever before.
+
+00:01:32.000 --> 00:01:37.000
+ And still in this sort of ecosystem of various storage media, tape is still a very central pillar.
+
+00:01:37.000 --> 00:01:44.000
+ At the same time, tape is taking on a dual purpose, besides being a cheap and efficient way of storage.
+
+00:01:44.000 --> 00:01:52.000
+ It's also becoming a sort of safeguard against many cyber attacks that are happening against organizations.
+
+00:01:52.000 --> 00:01:57.000
+ For instance, ransomware, where tape is an important protector nowadays.
+
+00:01:58.000 --> 00:02:02.000
+ So before we proceed into the details, why should you listen to me?
+
+00:02:02.000 --> 00:02:06.000
+ I don't have this, you know, the long gray beard usually associated with your local tape wizard.
+
+00:02:06.000 --> 00:02:14.000
+ Instead I've worked with magnetic tape for only two years, but I've had the pleasure of doing so at CERN,
+
+00:02:14.000 --> 00:02:20.000
+ the European Center for Nuclear Research, where I've been, well, in the IT group, specializing in it.
+
+00:02:20.000 --> 00:02:24.000
+ This, of course, warrants a small disclaimer.
+
+00:02:25.000 --> 00:02:31.000
+ It's not a way, shape, or form organized by, approved by, or associated with the CERN, the organization.
+
+00:02:31.000 --> 00:02:35.000
+ This talk does not represent CERN's moral values. This talk is my own.
+
+00:02:35.000 --> 00:02:39.000
+ So, no.
+
+00:02:39.000 --> 00:02:43.000
+ Yes. Why are we speaking about magnetic tape?
+
+00:02:43.000 --> 00:02:48.000
+ Magnetic tape is still very important for data storage.
+
+00:02:48.000 --> 00:02:52.000
+ And the data on magnetic tape is oftentimes very interesting.
+
+00:02:53.000 --> 00:02:59.000
+ There's a bit more of an overhead usually to using these tapes compared to your disk, which you just plug into your PC.
+
+00:02:59.000 --> 00:03:04.000
+ And so people tend to be, you know, curating the data that is on the tape.
+
+00:03:04.000 --> 00:03:10.000
+ Tape storages may include, you know, important data that you want to keep for future generations,
+
+00:03:10.000 --> 00:03:12.000
+ you want to keep it for the next decade or so.
+
+00:03:12.000 --> 00:03:16.000
+ It may also include personal information, you know.
+
+00:03:16.000 --> 00:03:20.000
+ Odds are your government is using tape archives somewhere in their storage ecosystem.
+
+00:03:21.000 --> 00:03:25.000
+ As do, you know, your friendly hyperscaler cloud providers,
+
+00:03:25.000 --> 00:03:29.000
+ either through services which are directly exposed to the customer or in the back,
+
+00:03:29.000 --> 00:03:34.000
+ where they keep their, you know, the personal data they've accumulated over the decades.
+
+00:03:34.000 --> 00:03:37.000
+ There's also backup data, you know.
+
+00:03:37.000 --> 00:03:41.000
+ If you want to do a backup, we're better to put it than magnetic tape storage,
+
+00:03:41.000 --> 00:03:45.000
+ which lasts for longer than the life expectancy of a hard drive,
+
+00:03:45.000 --> 00:03:49.000
+ and where it is less accessible to mean hackers.
+
+00:03:50.000 --> 00:03:55.000
+ Tape is also becoming popular again because it is less bad for the environment.
+
+00:03:55.000 --> 00:04:03.000
+ It has a lower impact both energy-wise and for the whole life cycle of the tape and the related infrastructure
+
+00:04:03.000 --> 00:04:08.000
+ than spinning disks or other tape storage systems, or other storage systems.
+
+00:04:08.000 --> 00:04:15.000
+ So there is a sort of push to use more tape in various institutions because of its environmental friendliness.
+
+00:04:16.000 --> 00:04:22.000
+ And then, as I mentioned, tape is becoming this sort of last line of defense against ransomware attacks.
+
+00:04:22.000 --> 00:04:30.000
+ Data written onto a magnetic tape cartridge is, in this state right now, inaccessible to an attacker.
+
+00:04:30.000 --> 00:04:36.000
+ So if your ransomware attack is going on and you make this thing hard to get to,
+
+00:04:36.000 --> 00:04:39.000
+ then you have data that is safe from the whole thing.
+
+00:04:39.000 --> 00:04:45.000
+ And, well, it's not just that this is a nice thing for organizations to have as a protection.
+
+00:04:45.000 --> 00:04:56.000
+ It's also becoming mandated. So here, for instance, for the European Digital Operation Resilience Act,
+
+00:04:56.000 --> 00:05:04.000
+ the DOOR Act, it makes it a requirement for financial institutions to have the appropriate safeguards in place in their system.
+
+00:05:04.000 --> 00:05:07.000
+ And then magnetic tape will be one of these.
+
+00:05:07.000 --> 00:05:12.000
+ Finally, magnetic tape is still storing a lot of data at the end of the day.
+
+00:05:13.000 --> 00:05:20.000
+ Just to hammer this home, here I have some... there we are.
+
+00:05:20.000 --> 00:05:25.000
+ Just an estimate from back home at CERN how much data will be needed.
+
+00:05:25.000 --> 00:05:32.000
+ So here we see, for the Atlas experiment alone, you just need to look at the y-axis.
+
+00:05:32.000 --> 00:05:40.000
+ You see that we are looking at the exabytes, units, for the coming decade.
+
+00:05:41.000 --> 00:05:47.000
+ Times this by more experiments, by more institutions which will have even higher requirements,
+
+00:05:47.000 --> 00:05:50.000
+ we'll be in set-abytes of data storage.
+
+00:05:50.000 --> 00:05:59.000
+ And so we need to be efficient and scrape all the bits or put all the bits on media where we can.
+
+00:05:59.000 --> 00:06:05.000
+ So what does a magnetic tape system look like?
+
+00:06:05.000 --> 00:06:10.000
+ At scale or at medium-ish scale, it looks something like this.
+
+00:06:11.000 --> 00:06:18.000
+ There is data input on the left side, where the data first hits what we call a disk buffer.
+
+00:06:18.000 --> 00:06:26.000
+ This is because tape can be fiddly to interact with and most external systems know how to deal with disks instead of tape.
+
+00:06:26.000 --> 00:06:29.000
+ So a disk buffer is a nice interface for those.
+
+00:06:29.000 --> 00:06:34.000
+ Then the disk buffer servers will be speaking the protocol, the transfer protocol that you want to use.
+
+00:06:34.000 --> 00:06:38.000
+ They'll be an intermediate buffer for both data going in and out.
+
+00:06:39.000 --> 00:06:42.000
+ And then that makes the whole operation smoother.
+
+00:06:42.000 --> 00:06:46.000
+ It's generally a bad idea to write to tape systems directly through the Internet.
+
+00:06:46.000 --> 00:06:50.000
+ So this is a nice buffer that smooths things out.
+
+00:06:50.000 --> 00:06:53.000
+ However, this is a filthy disk system, so we won't be speaking about it anymore.
+
+00:06:53.000 --> 00:06:56.000
+ So for the rest of this talk, we won't dedicate more time to it.
+
+00:06:56.000 --> 00:07:02.000
+ After the disk buffer, the data goes to the tape server and the tape drive.
+
+00:07:03.000 --> 00:07:09.000
+ The tape server is the intermediate for connecting a drive to your local IT system.
+
+00:07:09.000 --> 00:07:12.000
+ So it'll be connected to the Internet or the local network at least.
+
+00:07:12.000 --> 00:07:14.000
+ It will have the appropriate drivers.
+
+00:07:14.000 --> 00:07:20.000
+ It will have some disk storage as well to also buffer the files going in and out locally.
+
+00:07:20.000 --> 00:07:30.000
+ And then it will have the tape drive connected somehow, usually as a SCSI device and by way of fiber channel for the data transfer.
+
+00:07:31.000 --> 00:07:34.000
+ The tape drive is responsible for writing to these things.
+
+00:07:34.000 --> 00:07:46.000
+ So as you may note, in a normal hard drive you have both your storage media and the reading infrastructure in one unit.
+
+00:07:46.000 --> 00:07:48.000
+ For tape this is not the case.
+
+00:07:48.000 --> 00:07:51.000
+ So the drive is a separate I/O device.
+
+00:07:51.000 --> 00:07:57.000
+ A tape drive is housed within the tape library and as are the cartridges.
+
+00:07:58.000 --> 00:08:05.000
+ The tape library is a container. It can have many shapes. It can be round. It can be container shaped.
+
+00:08:05.000 --> 00:08:11.000
+ And inside of there you have shelves of these magnetic tape cartridges and the drives for reading.
+
+00:08:11.000 --> 00:08:18.000
+ In addition to that you have some robotics for moving the cartridge to the drive and getting them into contact.
+
+00:08:18.000 --> 00:08:24.000
+ And yes, so now we can look at these components a bit more in detail individually.
+
+00:08:27.000 --> 00:08:28.000
+ The media.
+
+00:08:28.000 --> 00:08:35.000
+ The media or tape cartridge is what in the end stores your data.
+
+00:08:35.000 --> 00:08:46.000
+ It is, if you open one up, well it's a plastic container and inside you have this wonderful tape all coiled up,
+
+00:08:46.000 --> 00:08:51.000
+ which is composed of magnetic media and some polymers to keep it all together.
+
+00:08:52.000 --> 00:09:00.000
+ The media comes in two flavors, Enterprise and LTO. Enterprise is the more expensive option, usually a bit more feature rich and more capacity rich.
+
+00:09:00.000 --> 00:09:08.000
+ And then LTO or Linear Tape Open, which is a more open standard by the LTO consortium.
+
+00:09:08.000 --> 00:09:15.000
+ It's usually more focused on cost effectiveness, so a bit cheaper, but you get more bang for your buck.
+
+00:09:16.000 --> 00:09:26.000
+ Around this time, the time of writing or speaking, a tape cartridge of the present generation holds about 18 to 20 terabytes of data each.
+
+00:09:26.000 --> 00:09:31.000
+ And it has this nifty property that this doubles every couple of years.
+
+00:09:31.000 --> 00:09:40.000
+ So whereas your disk storage at this time is sort of struggling to scale because it has reached its paramagnetic limit,
+
+00:09:41.000 --> 00:09:49.000
+ where the bits are becoming so small that it's really hard to keep them magnetized and to have the technology around it to actually magnetize more stable media,
+
+00:09:49.000 --> 00:09:53.000
+ Tape Media still has lots of easy victories ahead.
+
+00:09:53.000 --> 00:10:02.000
+ The bits are relatively big in contrast to disk or optical storage, but it makes up for that by virtue of having a big surface area.
+
+00:10:03.000 --> 00:10:13.000
+ So the band inside the tape cartridge is one centimeter wide, but one kilometer long, which gives it a lot of surface area to work with.
+
+00:10:13.000 --> 00:10:19.000
+ This however introduces a cost in that it may take time to seek to your files.
+
+00:10:19.000 --> 00:10:31.000
+ So we'll get back to that. So once you actually have the drive mounting the tape and are reading or writing it, it takes some time to get to where you want to go.
+
+00:10:32.000 --> 00:10:39.000
+ The media may be formatted, similar to how you would format a disk file system.
+
+00:10:39.000 --> 00:10:52.000
+ The baseline sort of is the LTFS file system where your tape is sort of like a disk file system with all the metadata attached.
+
+00:10:52.000 --> 00:10:56.000
+ But at scale you will find lots of systems which don't use this.
+
+00:10:57.000 --> 00:11:04.000
+ This means that the metadata such as the file name will not be on the tape itself, which also has implications.
+
+00:11:04.000 --> 00:11:08.000
+ Moving on to the tape drive.
+
+00:11:08.000 --> 00:11:14.000
+ As mentioned, it's the input/output device used for reading and writing tapes.
+
+00:11:14.000 --> 00:11:20.000
+ These also come in the flavors of Enterprise and LTO, Enterprise being more feature rich and LTO being more bang for your buck.
+
+00:11:20.000 --> 00:11:24.000
+ And also they come into shapes. They come in full height and half height.
+
+00:11:25.000 --> 00:11:29.000
+ Full height is the sort of standard size that you would put into your tape library.
+
+00:11:29.000 --> 00:11:35.000
+ And half height is the sort of smaller desktop or desk sized edition.
+
+00:11:35.000 --> 00:11:41.000
+ It can go up to 400 megabytes per second, about there about at present.
+
+00:11:41.000 --> 00:11:52.000
+ But this is under ideal conditions. If you write your data stupidly and you need to seek back and forth, you will of course incur a great cost to your read times.
+
+00:11:53.000 --> 00:11:58.000
+ The drive is connected to the tape server as mentioned. This is also known as the data mover in the lingo.
+
+00:11:58.000 --> 00:12:01.000
+ And yes, connected by SCSI.
+
+00:12:01.000 --> 00:12:05.000
+ The drive is capable of performing encryption and compression.
+
+00:12:05.000 --> 00:12:12.000
+ Which makes it nice so then you don't need all that hardware in the tape server. You can offload that to the drive.
+
+00:12:12.000 --> 00:12:20.000
+ What does writing to tape look like? It's something like this. This won't be on the test, don't worry.
+
+00:12:21.000 --> 00:12:30.000
+ You mount a tape drive onto your tape server. You get these ST0, ST1, NST0, NST1 and so forth devices showing up.
+
+00:12:30.000 --> 00:12:35.000
+ These are your destinations or your ways to interact with the drive.
+
+00:12:35.000 --> 00:12:47.000
+ For bigger systems you would then have some sort of command to get the correct cartridge from your library to your drive.
+
+00:12:48.000 --> 00:12:54.000
+ And then you can operate it on it using actual tools or Linux tools which may or may not already be present on your machine.
+
+00:12:54.000 --> 00:12:58.000
+ Fun fact, TAR was used to interact with tape storage.
+
+00:12:58.000 --> 00:13:03.000
+ The MT command is maybe not installed on your laptop but it's easy to install on most distros.
+
+00:13:03.000 --> 00:13:08.000
+ This allows you to interact with the drive, to read its status, to load tapes into an active state and so forth.
+
+00:13:08.000 --> 00:13:11.000
+ Yes.
+
+00:13:12.000 --> 00:13:26.000
+ Do note for the two devices, one of them rewinds, one of them doesn't. So once you have written a file to your tape, STX will go back to the start of the tape.
+
+00:13:26.000 --> 00:13:33.000
+ So if you go, I'll write my file number one, thank you. And then later on go, I'll write file number two, it will overwrite the first one. So beware.
+
+00:13:37.000 --> 00:13:46.000
+ And then there are some more examples on Red Hat site and on IBM's pages for more details.
+
+00:13:46.000 --> 00:13:52.000
+ The library, very quickly done. It's the physical container.
+
+00:13:52.000 --> 00:13:57.000
+ The library maintains the air gap between the reading and writing device.
+
+00:13:57.000 --> 00:14:01.000
+ This is what gives you this nice property of defense against, for example, ransomware attacks.
+
+00:14:02.000 --> 00:14:07.000
+ The attacker has more troublesome time getting to your storage than the disks which have to be connected all the time.
+
+00:14:07.000 --> 00:14:12.000
+ There may be robots inside, usually one. There may be two for redundancy.
+
+00:14:12.000 --> 00:14:20.000
+ And these, together with the rest of the internals, all communicate by way of CAN bus or ethernet, depending on the model of library.
+
+00:14:20.000 --> 00:14:27.000
+ Very important, a library may be partitioned into logical libraries, similar to how you would partition your disk.
+
+00:14:28.000 --> 00:14:35.000
+ So a logical library would show up to your software as a separate library to interact with.
+
+00:14:35.000 --> 00:14:40.000
+ So then you can split your physical one into multiple logical ones which is useful, as we will see.
+
+00:14:40.000 --> 00:14:48.000
+ Alright, finally, security, the part you've been waiting for. What does this all mean for the security of the tape system?
+
+00:14:51.000 --> 00:15:02.000
+ Overwriting takes time. As we've mentioned, seeking takes time, getting to the right place, also just getting the tape from the library to the drive takes time.
+
+00:15:02.000 --> 00:15:08.000
+ There's usually a queuing system because you have not so many drives in contrast to how many tapes you have.
+
+00:15:08.000 --> 00:15:14.000
+ So it's a system of patience. You may have to wait a day to get to your data.
+
+00:15:15.000 --> 00:15:21.000
+ Conversely, the deletion process is not as you would expect it, perhaps.
+
+00:15:21.000 --> 00:15:32.000
+ You may know that on a disk you may delete a file and then it's still like someone scraping the data from the disk and after the fact may recover it, depending on how you've actively been writing.
+
+00:15:32.000 --> 00:15:39.000
+ It's similar on tape. Usually the deletion process is just a metadata operation.
+
+00:15:40.000 --> 00:15:46.000
+ So wherever you keep your metadata is where you just do the deletion and you don't actually touch the tape.
+
+00:15:46.000 --> 00:15:53.000
+ That means the data is still on the tape. So if someone steals the tape after the fact, after you thought you deleted everything, data might still be fine.
+
+00:15:53.000 --> 00:16:03.000
+ To remedy that, it's important, use encryption by default on your tapes so that if someone runs off with them, they still can't read them.
+
+00:16:04.000 --> 00:16:25.000
+ Also use this key management system called Leather. I don't have the time to go into the details, but it's basically a neat way to organize encryption keys so that you can on a more fine-grained level delete files by just deleting encryption keys, which is then compliant with, for example, GDPR and other data management systems.
+
+00:16:25.000 --> 00:16:32.000
+ Also be sure to wipe and destroy used tapes. Don't just throw them in the trash. Someone might be able to recover them.
+
+00:16:33.000 --> 00:16:40.000
+ In addition, if you overwrite the start of the tape, your data may be completely gone.
+
+00:16:40.000 --> 00:16:48.000
+ I mentioned this NST0 and NST, these devices which may rewind and not rewind.
+
+00:16:48.000 --> 00:16:58.000
+ If you by accident go, "Oh, I'll write my 18 terabytes of data and now I'll just add another file and whoops, I wrote them to the wrong device. It's now at the beginning."
+
+00:16:59.000 --> 00:17:09.000
+ You've overwritten the tape. The data is no longer accessible to you because these tracks on the tape media don't line up.
+
+00:17:09.000 --> 00:17:20.000
+ They will no longer line up and so without special equipment you will not be able to read any successive data on the tape without special equipment,
+
+00:17:21.000 --> 00:17:37.000
+ which you can get to you by your local three-letter agency or which you will have to ask your tape manufacturer or distributor for, which is usually a costly operation.
+
+00:17:37.000 --> 00:17:45.000
+ An attacker may exploit this by very quickly just overwriting as many tapes as they can, so be aware of that.
+
+00:17:46.000 --> 00:17:53.000
+ It just takes the time to queue in the system, the time to mount the tape into the drive and then just to write a few bits.
+
+00:17:53.000 --> 00:18:00.000
+ Remember to protect yourself against that by restricting access, of course, as much as possible.
+
+00:18:00.000 --> 00:18:05.000
+ Monitor access patterns, so log and monitor the log files for suspicious activity.
+
+00:18:05.000 --> 00:18:14.000
+ Is someone mounting 2,000 tapes in my library and just writing the first bits? That's odd. Beware of that.
+
+00:18:15.000 --> 00:18:19.000
+ Also, put in logical libraries with read-only access.
+
+00:18:19.000 --> 00:18:26.000
+ I mentioned these partitionings, these logical libraries. You can put, for instance, replicas of your tapes.
+
+00:18:26.000 --> 00:18:31.000
+ If you have data on one tape and you want to be really sure that it's safe, you create a double copy.
+
+00:18:31.000 --> 00:18:37.000
+ Put the replica into one of these logical libraries, which in the tape library does not have a drive associated with it.
+
+00:18:38.000 --> 00:18:45.000
+ Then you suddenly have a separate partition where the data cannot be easily read from or overwritten.
+
+00:18:45.000 --> 00:18:51.000
+ Tapes can be moved in between usually by way of special administrator commands or command line tools.
+
+00:18:51.000 --> 00:18:59.000
+ I believe REST APIs are on their way as well, so this will be the way to protect against sudden overwrites.
+
+00:18:59.000 --> 00:19:04.000
+ The patient attackers encryption key switch attack.
+
+00:19:05.000 --> 00:19:09.000
+ Tape is often used for backups where you will have to encrypt for your users.
+
+00:19:09.000 --> 00:19:14.000
+ A patient attacker can compromise a host and then just wait, observe.
+
+00:19:14.000 --> 00:19:19.000
+ Then they may switch the encryption keys if they find them.
+
+00:19:19.000 --> 00:19:25.000
+ Maybe you have put the encryption keys onto a file on disk or you have put the encryption key into a database.
+
+00:19:25.000 --> 00:19:32.000
+ The attacker can switch it. Just, you know, they look at the cron job, they see the backup starts at 1.45 each day.
+
+00:19:33.000 --> 00:19:39.000
+ We switch the key just before and just after so that the backup takes place with the wrong encryption key.
+
+00:19:39.000 --> 00:19:46.000
+ Do that for the duration of the data retention policy and then suddenly if an incident happens,
+
+00:19:46.000 --> 00:19:54.000
+ if an attacker pulls the switch on the ransomware attack, then the backups are inaccessible to the horror of the system administrator.
+
+00:19:54.000 --> 00:20:02.000
+ So to remedy that, try to outsource key management to your users.
+
+00:20:02.000 --> 00:20:07.000
+ It's nice to not centralize everything in your tape service to the best of your abilities.
+
+00:20:07.000 --> 00:20:13.000
+ If the software you use for the backups allows the user to manage the keys, that's great.
+
+00:20:13.000 --> 00:20:20.000
+ Also monitor, of course, make your users take samples of their backups, read them back,
+
+00:20:20.000 --> 00:20:23.000
+ and do the same yourself for the case where you manage the keys.
+
+00:20:23.000 --> 00:20:27.000
+ And then finally distribute your architecture.
+
+00:20:28.000 --> 00:20:34.000
+ If you don't make everything central, then it is certainly easier to avoid attacks on these files.
+
+00:20:34.000 --> 00:20:41.000
+ Finally, one more. As we mentioned, you may have tape which is not self-describing,
+
+00:20:41.000 --> 00:20:44.000
+ so your metadata may not be on the tape. What does this mean?
+
+00:20:44.000 --> 00:20:48.000
+ It may mean that the metadata is on a central database somewhere.
+
+00:20:48.000 --> 00:20:52.000
+ The central database is a very juicy target for an attacker.
+
+00:20:53.000 --> 00:20:58.000
+ So remember to back it up and make sure you are not keeping the backup of the database.
+
+00:20:58.000 --> 00:21:06.000
+ If you are speaking to your local database guy and ask him what's your database policy,
+
+00:21:06.000 --> 00:21:09.000
+ don't worry about it, we put it on tape, they will say.
+
+00:21:09.000 --> 00:21:17.000
+ And if your tape is then not self-describing, you will not be able to recover in the time of an incident.
+
+00:21:18.000 --> 00:21:24.000
+ So that puts me at the end. To conclude, it's good to understand tape systems
+
+00:21:24.000 --> 00:21:28.000
+ because they are still part of our mix of data storage media.
+
+00:21:28.000 --> 00:21:35.000
+ Attackers may understand these by just observing, so you should understand them too.
+
+00:21:35.000 --> 00:21:39.000
+ And then I move on to questions. You can ask me questions here,
+
+00:21:39.000 --> 00:21:42.000
+ or later on I will be at the Cold North area most likely,
+
+00:21:43.000 --> 00:21:51.000
+ and I have about ten of these souvenir CERN LHC tapes for the interested people to claim.
+
+00:21:51.000 --> 00:21:53.000
+ Thank you for listening.
+
+00:21:53.000 --> 00:21:55.000
+ Thank you, Richard.
+
+00:21:55.000 --> 00:22:03.000
+ Okay, there's a microphone. One or two questions.
+
+00:22:07.000 --> 00:22:14.000
+ Thank you for your tape and for a blast from the past, which I understand is also the future.
+
+00:22:14.000 --> 00:22:20.000
+ You talked about an act, a European act, that requires using tapes,
+
+00:22:20.000 --> 00:22:25.000
+ which is a nice thing because tape is a great media that has been forgotten.
+
+00:22:25.000 --> 00:22:34.000
+ However, do you know if large companies have actually started implementing it and going back to tape?
+
+00:22:34.000 --> 00:22:40.000
+ I think they never left tape actually.
+
+00:22:40.000 --> 00:22:51.000
+ Sorry to hear that. You should tell your management about the security benefits.
+
+00:22:51.000 --> 00:22:56.000
+ But tape is for sure used still at scale.
+
+00:22:56.000 --> 00:23:00.000
+ I know that CERN used to be big players in the market back in the day.
+
+00:23:01.000 --> 00:23:04.000
+ Now we have been sort of eclipsed by the hyperscalers.
+
+00:23:04.000 --> 00:23:13.000
+ Before we were the big buyers for the vendors of tape, IBM, the producers of our Sony and Fujifilm nowadays.
+
+00:23:13.000 --> 00:23:19.000
+ But the use of tape has probably never been greater.
+
+00:23:19.000 --> 00:23:26.000
+ It's just that as more people move to the cloud, I suppose they implicitly use it through the cloud services more and more.
+
+00:23:27.000 --> 00:23:31.000
+ Of course, maintaining a tape system by yourself is hard.
+
+00:23:31.000 --> 00:23:34.000
+ There's lots of proprietary software around.
+
+00:23:34.000 --> 00:23:37.000
+ And robots keep breaking.
+
+00:23:37.000 --> 00:23:40.000
+ Exactly. And you have to take responsibility for the breakage.
+
+00:23:40.000 --> 00:23:49.000
+ We're trying to reduce the cost somewhat by, well, we develop our own open source software for the data management on tape.
+
+00:23:49.000 --> 00:23:56.000
+ So this reduces the cost of running it yourself.
+
+00:23:56.000 --> 00:24:00.000
+ But yeah, I see for medium sized companies it can be tough.
+
+00:24:00.000 --> 00:24:08.000
+ Thank you Richard for your view on our tape storage solutions.
+
+00:24:08.000 --> 00:24:10.000
+ One more time?
+
+00:24:10.000 --> 00:24:13.000
+ One more? No.
+
+00:24:13.000 --> 00:24:16.000
+ Alright. Speak to me after.
+
+00:24:16.000 --> 00:24:18.000
+ Thank you all.
+
+00:24:18.000 --> 00:24:21.000
+ [Applause]
+
+00:24:22.000 --> 00:24:27.000
+ [Music]
+

@@ -1,0 +1,461 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:16.000
+ Ladies and
+
+00:00:16.000 --> 00:00:20.000
+ gentlemen,
+
+00:00:20.000 --> 00:00:26.000
+ welcome to the talk at
+
+00:00:26.000 --> 00:00:32.000
+ the Millway stage about how to use AI in penetration testing.
+
+00:00:32.000 --> 00:00:38.000
+ Jacob and Richard are gonna talk about this today.
+
+00:00:38.000 --> 00:00:48.000
+ >> [APPLAUSE]
+
+00:00:48.000 --> 00:00:51.000
+ >> Good morning and welcome to our presentation.
+
+00:00:51.000 --> 00:00:54.000
+ We are mastering the maze.
+
+00:00:54.000 --> 00:00:59.000
+ There is like a small company icon in some of the corners.
+
+00:00:59.000 --> 00:01:04.000
+ We got like a training deal, so please don't mind that.
+
+00:01:04.000 --> 00:01:10.000
+ Let's first talk about motivation and/or agenda.
+
+00:01:10.000 --> 00:01:13.000
+ So how did we came up with this topic?
+
+00:01:13.000 --> 00:01:21.000
+ Both Richard and I wanted to learn a bit about AI and security is a nice topic.
+
+00:01:21.000 --> 00:01:26.000
+ So we thought about like combining those two.
+
+00:01:26.000 --> 00:01:30.000
+ And yeah, what did we want to do?
+
+00:01:30.000 --> 00:01:36.000
+ We wanted a bit learning by doing and tried to create a neural network
+
+00:01:36.000 --> 00:01:45.000
+ that could find an optimal action in a pen testing environment.
+
+00:01:45.000 --> 00:01:53.000
+ Yeah, so today in this talk, you will hear me talking a bit about deep Q learning,
+
+00:01:53.000 --> 00:02:01.000
+ how it works and how the best solution is found.
+
+00:02:01.000 --> 00:02:11.000
+ And then Richard will explain how this deep Q network can be used in penetration testing.
+
+00:02:11.000 --> 00:02:17.000
+ So first we started using some tutorials.
+
+00:02:17.000 --> 00:02:24.000
+ And there are actually a lot of tutorials for deep Q agents that are related to gaming.
+
+00:02:24.000 --> 00:02:38.000
+ So we had a look at these and started with some of the tutorials.
+
+00:02:38.000 --> 00:02:51.000
+ So the games, the camp tutorials kind of make sense because in the video game you have like a state
+
+00:02:51.000 --> 00:02:56.000
+ and there are a few actions you can take, but there are a lot of states.
+
+00:02:56.000 --> 00:03:06.000
+ And these actions and states, we will have a look at them later, are perfect for Q learning or deep Q learning.
+
+00:03:06.000 --> 00:03:17.000
+ We also tried to make an own agent for Amaze and the title is from that, but that went okay.
+
+00:03:17.000 --> 00:03:22.000
+ So how does Q learning actually work?
+
+00:03:22.000 --> 00:03:33.000
+ So I already mentioned states and there are some elements that are required for Q learning.
+
+00:03:33.000 --> 00:03:39.000
+ First we have an environment. The environment is like the thing the agent interacts with.
+
+00:03:39.000 --> 00:03:46.000
+ So that can be a game and the agent can interact with that.
+
+00:03:46.000 --> 00:03:53.000
+ Or the environment is like a real world environment and that's also possible.
+
+00:03:53.000 --> 00:03:59.000
+ In this environment the agent has some actions.
+
+00:03:59.000 --> 00:04:03.000
+ That's like the steps it can perform.
+
+00:04:03.000 --> 00:04:11.000
+ So for example in this example game environment Mario can jump or go right or go left.
+
+00:04:11.000 --> 00:04:18.000
+ That are possible actions and it's like the things you have on the controller, the buttons you can press.
+
+00:04:18.000 --> 00:04:23.000
+ That's like the actions the agent can do.
+
+00:04:23.000 --> 00:04:30.000
+ There also is the agent itself. It's represented as Mario here.
+
+00:04:30.000 --> 00:04:45.000
+ But the agent is like all of the things combined kind of because it's like the main part of the AI.
+
+00:04:45.000 --> 00:04:49.000
+ One of the most important things is the reward.
+
+00:04:49.000 --> 00:04:54.000
+ So there is like the score in the upper left corner of the environment.
+
+00:04:54.000 --> 00:05:02.000
+ That's not really the reward, but that's what you might associate with the reward.
+
+00:05:02.000 --> 00:05:09.000
+ Also maybe the time both of the things are in the dotted boxes.
+
+00:05:09.000 --> 00:05:21.000
+ But the actual reward we are aiming for are the game failed or the game one state kind of.
+
+00:05:21.000 --> 00:05:28.000
+ So if the level is completed then there is a big positive reward.
+
+00:05:28.000 --> 00:05:36.000
+ And if the level is failed there is a huge negative reward to influence training.
+
+00:05:36.000 --> 00:05:44.000
+ And also the kind of most important element in the learning algorithm is the state.
+
+00:05:44.000 --> 00:05:49.000
+ That is some kind of representation of the environment.
+
+00:05:49.000 --> 00:05:54.000
+ And the state is kind of what the agent sees.
+
+00:05:54.000 --> 00:06:03.000
+ It can be for example the position of an object or its velocity or things like that.
+
+00:06:03.000 --> 00:06:07.000
+ So in Q-learning we have some tables.
+
+00:06:07.000 --> 00:06:13.000
+ These tables have a state and actions associated.
+
+00:06:13.000 --> 00:06:18.000
+ And for every state action pair there is a Q-value.
+
+00:06:18.000 --> 00:06:24.000
+ And the Q-value inside the table is the expected reward over the time.
+
+00:06:24.000 --> 00:06:39.000
+ So if I have a state X and I look at the table and if I go right now then I expect the reward in the end to be one.
+
+00:06:39.000 --> 00:06:47.000
+ And if I go left then I expect the reward to be minus ten or something like that.
+
+00:06:47.000 --> 00:06:56.000
+ The rewards over the time, so looking into the future, kind of the rewards always are a bit discounted.
+
+00:06:56.000 --> 00:07:02.000
+ So the reward in the action itself is a bit higher than future rewards.
+
+00:07:02.000 --> 00:07:15.000
+ And also using Q-learning table if it is fully trained it kind of memorizes the perfect way.
+
+00:07:15.000 --> 00:07:18.000
+ And you can find a perfect path.
+
+00:07:18.000 --> 00:07:26.000
+ But that is quite problematic if you have a lot of states or infinite states.
+
+00:07:26.000 --> 00:07:30.000
+ So therefore we use the Deep Q-learning network.
+
+00:07:30.000 --> 00:07:32.000
+ It is a neural net.
+
+00:07:32.000 --> 00:07:38.000
+ And as first layer you input state parameters.
+
+00:07:38.000 --> 00:07:46.000
+ It is not like the state itself but for example a position and velocity and things like that.
+
+00:07:46.000 --> 00:07:55.000
+ So you input a state and after some hidden layer magic then an action pops out.
+
+00:07:55.000 --> 00:08:09.000
+ So instead of memorizing the table the nodes in the neural network use an approximated optimal Q-value.
+
+00:08:09.000 --> 00:08:17.000
+ And therefore find the perfect action if there are a lot of different states.
+
+00:08:17.000 --> 00:08:23.000
+ And then there can be infinite states instead of a list that is in the table like before.
+
+00:08:23.000 --> 00:08:30.000
+ I hope you understand the basic concept of Q-learning.
+
+00:08:30.000 --> 00:08:34.000
+ And Richard will now show what you can do with that.
+
+00:08:34.000 --> 00:08:37.000
+ Thank you Jacob.
+
+00:08:37.000 --> 00:08:44.000
+ So to use this kind of algorithm for our real world example we have an agent.
+
+00:08:44.000 --> 00:08:47.000
+ This handy person sitting in the middle.
+
+00:08:47.000 --> 00:08:58.000
+ And the goal is to have a network of systems so the landscape of all the systems with vulnerabilities
+
+00:08:58.000 --> 00:09:03.000
+ accounted to one of them or even more than one.
+
+00:09:03.000 --> 00:09:06.000
+ And the goal is to find the optimal path through the network.
+
+00:09:06.000 --> 00:09:10.000
+ So to attack the first system, gain access to the second,
+
+00:09:10.000 --> 00:09:17.000
+ which vulnerabilities get the highest reward which are most prominent to attack.
+
+00:09:17.000 --> 00:09:22.000
+ So instead of the game example we heard earlier we want to train an algorithm
+
+00:09:22.000 --> 00:09:29.000
+ that decides on the given network which is the optimal path, the optimal attack path through the network.
+
+00:09:29.000 --> 00:09:34.000
+ And what actions to take to gain the highest rewards.
+
+00:09:34.000 --> 00:09:43.000
+ Therefore we have some systems with low hanging fruits for example.
+
+00:09:43.000 --> 00:09:48.000
+ So very easy to exploit vulnerabilities or very hard to exploit vulnerabilities.
+
+00:09:48.000 --> 00:09:54.000
+ So the low hanging fruits would be optimal to attack first, gain access to the system.
+
+00:09:54.000 --> 00:10:00.000
+ Or some systems have higher rewards because some critical data is accounted to it.
+
+00:10:00.000 --> 00:10:03.000
+ More traffic runs through the system or something like that.
+
+00:10:03.000 --> 00:10:08.000
+ So there could be many parameters to account for this.
+
+00:10:08.000 --> 00:10:16.000
+ And the agent itself knows in the beginning a list of systems in our case.
+
+00:10:16.000 --> 00:10:24.000
+ So we have a list with for example 100 systems.
+
+00:10:24.000 --> 00:10:31.000
+ And then the algorithm would go and find vulnerabilities at the beginning system.
+
+00:10:31.000 --> 00:10:35.000
+ Such as is it worth to attack a found vulnerability?
+
+00:10:35.000 --> 00:10:42.000
+ Is it giving us a reward that is acceptable for the algorithm?
+
+00:10:42.000 --> 00:10:48.000
+ If for example an SSH service is configured in a way that it's easy to exploit,
+
+00:10:48.000 --> 00:10:51.000
+ this would give us access to the system, maybe root access.
+
+00:10:51.000 --> 00:10:54.000
+ So it will generate a higher reward.
+
+00:10:54.000 --> 00:11:04.000
+ And the algorithm decides to use an attack vector or it has an option to select a new system,
+
+00:11:04.000 --> 00:11:10.000
+ do some reconnaissance dates and find new vulnerabilities on the new selected system.
+
+00:11:10.000 --> 00:11:15.000
+ And then jump from system to system deciding is it worth to attack a vulnerability on the system
+
+00:11:15.000 --> 00:11:19.000
+ or even more than one or is it worth to go to the next system.
+
+00:11:19.000 --> 00:11:30.000
+ So in order to have it do that, we give the rewards explained depending on how great of an impact the vulnerability is.
+
+00:11:30.000 --> 00:11:34.000
+ But we also give a penalty for actions taken.
+
+00:11:34.000 --> 00:11:40.000
+ So we don't want to create a lot of noise, scan all the system at once and so on.
+
+00:11:40.000 --> 00:11:55.000
+ So for example the selecting of a new target would be a penalty to encourage the algorithm to do some exploitation of the vulnerabilities found on the service.
+
+00:11:55.000 --> 00:12:03.000
+ And depending on what reward will we get back from each action, we have the landscape
+
+00:12:03.000 --> 00:12:13.000
+ and in the best case an algorithm that decides go to system A, then go to system C attack there
+
+00:12:13.000 --> 00:12:22.000
+ and have at the end a big path through the network that we can use afterwards to do our exploitation.
+
+00:12:22.000 --> 00:12:31.000
+ So the goal of this algorithm is not to exploit the vulnerability itself, but is to decide if it's worth to exploit it or not.
+
+00:12:31.000 --> 00:12:50.000
+ So the final exploitation and more in-depth research would still be done by a pen tester or maybe in some stage or another to the algorithm itself, but we come to that later.
+
+00:12:50.000 --> 00:13:04.000
+ In this research we've done for this presentation we have set up a small project with a very simple environment and a very simple landscape to train the Deep Q network.
+
+00:13:04.000 --> 00:13:11.000
+ You can see we got a result of -29, so we averaged more penalties than we got results back.
+
+00:13:11.000 --> 00:13:22.000
+ At first sight when we compare it to the Socratic Optimal Result it's not the best score you would hope for.
+
+00:13:22.000 --> 00:13:29.000
+ So at first sight our algorithm may not have taken the best route through the network
+
+00:13:29.000 --> 00:13:40.000
+ and we could explain this by the very few data points we've given and the very rudimental network we set up.
+
+00:13:40.000 --> 00:13:54.000
+ So to answer the questions we come into with this talk, is it possible to master the maze to find the way through our system landscape with the Deep Q learning algorithm?
+
+00:13:54.000 --> 00:14:02.000
+ First of all, as we've seen in the last slide, there are some problems for the algorithm to work properly.
+
+00:14:02.000 --> 00:14:17.000
+ We need more diverse and also more data overall to train the algorithm and it's not very easy to obtain for a wide variety of systems to train the algorithm.
+
+00:14:17.000 --> 00:14:28.000
+ Without this data it is also possible to say that the Deep Q learning algorithm is maybe not the best way to achieve this goal.
+
+00:14:28.000 --> 00:14:40.000
+ So you need a lot of extensive knowledge about the server, about the vulnerabilities to train the algorithm.
+
+00:14:40.000 --> 00:14:55.000
+ But if you have enough data, if you have enough knowledge, the outlook for this algorithm is that it can produce a sophisticated attack vector on our system landscape
+
+00:14:55.000 --> 00:15:05.000
+ and it's very useful if you have a very large system landscape, a very complex system landscape, maybe one that has grown over time,
+
+00:15:05.000 --> 00:15:11.000
+ nobody knows exactly what is running where, what is going on in the network,
+
+00:15:11.000 --> 00:15:26.000
+ and you can use it to do automated pen testing stages in this landscape, use the data recovered by the algorithm to do further investigation
+
+00:15:26.000 --> 00:15:38.000
+ or even as said, train or extend the algorithm to do the actual exploit in the steps where we have the attack vector.
+
+00:15:38.000 --> 00:15:58.000
+ And then it could be generating automated results of the network, we can use it to harden our network without the need of extensive human resource for a set very large networks.
+
+00:15:58.000 --> 00:16:14.000
+ So to summarize it, the lessons we've learned, so our goal was to know something about the Deep Q network, Deep Q learning and use it in pen testing.
+
+00:16:14.000 --> 00:16:27.000
+ We have achieved that, we have gained a lot of knowledge about both of this, and we have a good understanding of how to develop it further to be useful in our showcase.
+
+00:16:27.000 --> 00:16:29.000
+ Example.
+
+00:16:29.000 --> 00:16:39.000
+ [Applause]
+
+00:16:39.000 --> 00:16:41.000
+ Thank you for your interesting talk.
+
+00:16:41.000 --> 00:16:43.000
+ We still have time for a few questions.
+
+00:16:43.000 --> 00:16:49.000
+ Anyone wants to ask a question, we have a microphone over here, please go to the microphone to ask your question.
+
+00:16:49.000 --> 00:16:52.000
+ Signal Angel, does the Internet have a question?
+
+00:16:52.000 --> 00:16:57.000
+ The Internet does not have a question yet, they are still asleep, but we have one in the audience.
+
+00:16:57.000 --> 00:17:02.000
+ How does this compare to things like Ponegotchi?
+
+00:17:02.000 --> 00:17:04.000
+ I'm sorry, I have a question.
+
+00:17:04.000 --> 00:17:09.000
+ Ponegotchi, which is used for Wi-Fi attacks and uses an actor critic model.
+
+00:17:09.000 --> 00:17:22.000
+ Yes, our goal was first of all to gain knowledge, and in this case it is possible to design the algorithm for your own use case.
+
+00:17:22.000 --> 00:17:33.000
+ So to provide it for the network you have and optimize it.
+
+00:17:33.000 --> 00:17:48.000
+ In terms of the exploits, does it basically check service version and then has some local database with exploits,
+
+00:17:48.000 --> 00:17:56.000
+ or can we also hope for misconfigurations or keys in BuzzFest 3 or something like that?
+
+00:17:56.000 --> 00:18:07.000
+ Yes, so in the current state it does not use very sophisticated databases and servicing,
+
+00:18:07.000 --> 00:18:19.000
+ but our goal is to extend it to have more advanced data set, the algorithm used to evaluate what vulnerability is useful or not.
+
+00:18:19.000 --> 00:18:31.000
+ And then the more data it has to evaluate all those things, the higher impact the result is of the systems,
+
+00:18:31.000 --> 00:18:40.000
+ what is vulnerable, what is not, and what could be exploited or not.
+
+00:18:40.000 --> 00:18:54.000
+ So how is the training of the neural network actually done, because we don't have direct feedback what action will result in the desired state or final state?
+
+00:18:54.000 --> 00:18:58.000
+ So how do you train it so supervised?
+
+00:18:58.000 --> 00:19:21.000
+ So in the training we used kind of a test environment, so we did not really have good data because we realized that companies are not so willing to share network scans and things like that.
+
+00:19:21.000 --> 00:19:42.000
+ So we had kind of not really mock, but quite mock environment, so there was not really good...
+
+00:19:42.000 --> 00:20:09.000
+ I'm not quite sure how to phrase it, so we kind of used a mock environment, so we gave the answer if it's vulnerable or not a vulnerable service.
+
+00:20:09.000 --> 00:20:18.000
+ And that rounds up our talks. Please give another round of applause to Jacob and Richard. Thank you for your talk.
+
+00:20:18.000 --> 00:20:23.000
+ Thank you.
+

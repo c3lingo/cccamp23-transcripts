@@ -1,0 +1,548 @@
+ [MUSIC]
+ [MUSIC]
+ Good morning, everyone.
+ It's so nice to see your faces on this beautiful day.
+ I'm here to give you a message from C3,
+ Wetterfrosch from C3 Heldesk.
+ And we expect a very bright and sunny day with temperatures up to 31 degrees Celsius.
+ Please drink enough, use sunscreen, search for shady places.
+ Tonight around 11 PM, there might be some thunderstorms passing by north of Sydenyck,
+ so there might be some rain, but this is not confirmed yet.
+ But please take care of each other and also look out for your fellow creatures.
+ Also, if you really like Millie Race and the Millie Race stage,
+ you can still support the program and the volunteers providing it by buying
+ Millie Race coins behind me, like making a donation.
+ And they are very beautiful.
+ You can also just look at them and maybe think about it.
+ And now, I'm very pleased to announce our speaker today.
+ Here is Mike.
+ Mike is a physicist and working for the Fraunhofer IEE on sustainability topics and
+ technology, and I'm really excited to hear what he's going to tell us about that.
+ So hello for Mike, and please give him a warm round of applause.
+ Yeah, thank you for the nice introduction and thanks for having me here.
+ Thanks to the technical team.
+ Everything seems to be working.
+ I'm Mike.
+ Nice to welcome all of you guys and all the online people.
+ And I'd like to talk a little bit about energy transition, especially in Germany,
+ since that's the part I know most about.
+ OK, everything's fine.
+ OK, perfect.
+ So, and I'd like to talk about not only the energy transition, but also a bit about the ICT.
+ I got called two days ago that people are not sure what ICT means.
+ So, sorry for that.
+ It means Internet Communication Technologies, which is like the scientific word for everything
+ regarding Internet data communication and so on.
+ But first of all, I have a short break because I'd like to tell you a little bit about my institute
+ for which I'm working.
+ So we're the Fraunhofer EAA, and we are located in Kassel.
+ The first slide you could see was a picture of our new building.
+ And as you can see, we are about 450 employees and we have an annual budget of about 30 million euros.
+ And what we are doing is we did develop technical and economic solutions for the transformation of our energy system.
+ So, and my institute is set up in several different research fields.
+ You can see here.
+ And I'm personally working in the grid planning and grid operation field.
+ So my talk will be mainly focused about this part.
+ So feel free and expect something about grid planning and grid operation.
+ These are topics normally not known to people.
+ And there's a German guy who's making jokes.
+ Somebody of you might know him.
+ He's called Jan Philipp Zimny.
+ And he once said in one of his joke programs, he said, OK, what does the normal German know about electricity?
+ Yes, it comes out of a hole in the wall and it tastes like AWA.
+ So I'd like to change this a little bit.
+ So then let's get started with our power grids and how do they work.
+ So basically, I think all of you know this kind of idea behind this.
+ We have on the left side, we have generating stations like power generators, nuclear power plants and everything.
+ And they produce energy which gets stepped up, then transmits over large areas or large distances with high voltages.
+ And then through a transformer near you, it gets stepped down so that you can use it or the industry can use it.
+ So that's a basic idea behind our power grid.
+ But it gets more complicated if you look in detail into it.
+ For example, if you look at the distribution level, you can see the lower voltages.
+ You're not directly connected to a power transformer, but you're connected over several lines and several other transformers.
+ And as you can see, these grids have a different topology.
+ We call it radially driven, which means you have your substation from where lines radially go away.
+ So this means if the line goes out, you don't have any power anymore.
+ So that's not cool.
+ And therefore we do n minus 1 safety, which means we calculate, OK, what happens if one line fails?
+ And how can we resupply everything?
+ So the normal answer is to just double everything.
+ So as you can see on the left side in the picture, you have like two legs coming to your distribution station and then they can switch between these two legs.
+ This is also a nice feature because we can hand over if one leg is too overloaded, we can switch over and can use the other leg to supply your local transformer.
+ So the nice thing is these parts are automated, but it depends on the voltage level you're looking at.
+ So in the transmission system, which is the highest voltage we have, like 380 kV, there everything is automated.
+ In the low voltage, where you at your home like 20 kV or 400 volts, there's not so much automated at the moment.
+ But we're in the process of changing this.
+ And if you take a complete view, you can see it like here.
+ You have the generation, for example, on the left on the right side, and then you have a transmission grid.
+ In this example, it's built up like a net.
+ In German, it's called a Masche, which means that the energy can travel left hand and right hand to the sub transmission station, for example.
+ And therefore you get currents which will run counterclockwise and clockwise, which makes everything a little bit complicated.
+ And therefore everything is automated to be able to control this kind of power.
+ And if you look in the red box in the lower left, you see that there is a distribution substation which will then step it down and distribute it further.
+ And there you can see we don't have these Maschen anymore because there we are feeding the power readily.
+ And therefore sometimes if we have a bad condition, this can lead to power failure.
+ And yeah, normally in Germany, we are quite good at managing this kind of stuff.
+ So that we have a power availability which is really, really high.
+ Like I think we have power loss for less than five minutes a year.
+ In other countries, this is not so good.
+ I know it from a science project in Italy.
+ There it was like they had their own unadulterated USB for supplying power because they have power failures of about two to three hours a year.
+ So yeah, depends on the power grid and how everything else is.
+ But let's take a deeper look.
+ A substation is the part you are normally connected to.
+ And how is such a substation built up or set up?
+ You can see we have a source at the top and then we have several protection equipment.
+ For example, this lightning arrestor, which is for if there's a lightning, it's over voltage.
+ Then we have a circuit breaker, which is the same thing you know from your normal household installation.
+ We have the possibility to isolate, which means we can simply shut it off.
+ And we have other transformers and stuff which will lead or transform down the power to go to you.
+ So the thing is some of these components are controlled and are remotely controllable.
+ For example, transformers are normally these big heavy blocks which take a lot of power and transform it down.
+ And they have or they can have a changeable tap, which means you can change how much or how much voltage they produce by changing like which winding you are using to transform the power down.
+ And this part is in the high voltage grids.
+ It's automated in the low voltage grids.
+ This is normally not automated, but we are at the moment at the point to automate these things.
+ Also, most of the time they have like a local controller which keeps track of the local voltage and changes the taps accordingly.
+ There's one big problem.
+ These things are really expensive and take a lot of time to build.
+ And as you can see, I've written it here.
+ They weigh about 20 to 50 tons.
+ So you need like a crane to supply them.
+ And if you go and visit a substation, you will see they always have like one spare unit standing around to in case of exchange it.
+ So normally there you have two transformers because of n minus one safety.
+ And these two transformers are normally calculated so that if one transformer fails, the other can take over the whole load because normally building such a transformer takes years.
+ So if you need one now, you will have normally to wait a year or even longer.
+ And normally they are oil insulated.
+ So there is PCB in it.
+ Please don't ask me what this is especially, but I know it's a very good insulator, but it's probably cancer inducing.
+ So yeah, but somehow you need to isolate these things because of the high voltages.
+ And I once spoken with the personal, they said normally if they change taps more often because of flashes going in through the tap changing, this is like a big cylinder you rotate and then you can change the taps.
+ There you have flashes in it and these flashes can destroy the PCB.
+ So they normally change these PCB oil oils quite often.
+ And what's also funny, this oil is actively cooled and pumped around in the transformer.
+ So you see normally like cooling equipment around it where these oil is cooled.
+ So the other big thing we have, which is remotely controllable, are switches.
+ These are basically what you know from your normal switch, but they are quite larger.
+ And this is just a control box.
+ So the switch equipment is more up and you can see in the upper right, there's like these metal rods going up.
+ And this system works like that you can either use it by hand.
+ So you can put in a hand crank and crank the switch on your own or you can toggle a switch and then it will switch or you can send it a command.
+ So that when it receives the command, it will go open, it will close and we are using these switches to change topologies.
+ For example, you can isolate buses with this.
+ You can disconnect stuff.
+ You can ground buses and so on, which is quite important for getting our power grid to run.
+ So how do we control all of this?
+ So the networks, as I've told you, is normally remotely controlled.
+ Most of the parts even in the high voltage.
+ So but how does this work?
+ And now it gets complicated.
+ At the moment, most of the systems are using a skater.
+ And most of them or many of them are using the IEC 6087-5 standard.
+ And this is a quite old standard.
+ As I've written here, it's from the 90s and it's basically a serial connection which has data transfer rates of up to 9k6.
+ So we're basically running our whole energy infrastructure with a serial cable.
+ So and they've changed this because they needed more power and more data communication speed.
+ So they defined the 103 standard extension, which allows for even more faster speeds.
+ And then the 104 standard is the one which is at the moment widely used because it allows to transport these serial data via TCP/IP.
+ So and how does such a packet look?
+ I've shown it here.
+ If you're interested, Wikipedia has a really good write up about this, how this in detail works.
+ But basically you have two kinds of ideas, IDs or addresses.
+ So you have a unit identifier and you have an information object.
+ So you can say, OK, my switch, for example, has an address and it has several sub addresses or identifiers where you can ask, OK, are you open?
+ Are you closed?
+ Are you healthy?
+ Depending on the equipment installed.
+ So and if you've seen on the slide beforehand, the system is just doubled.
+ Everything you have in the power grid is just doubled.
+ Even the racks, everything is simply doubled and all the systems are built so that they are able to digest all messages two times.
+ So even the switch has two contactors, which are completely physically separated.
+ And if one contactor doesn't work and the other one works, you still have a failover in this moment.
+ So and as you can see, here are some commands defined and these types got also enhanced with the 103 standard for even more or for even better able to do energy related stuff.
+ And now comes the 104 standard, which is the one we are using at the moment.
+ And I liked the quote from Wikipedia, which said the security of 104 by design has proven to be problematic.
+ So the IEC published a security standard, which is not that well adopted at the moment by most of the network operators.
+ So what many of them do is the following.
+ They just use a VPN.
+ So you have these boxes and I think many of you guys know what these boxes do or that these boxes are interesting on a security standpoint.
+ And they transfer the communication via VPN tunnel to the light water to the control center where everything gets then controlled and directed and decided.
+ So and what recently happened was an attack, so to say, on the satellite system of the network.
+ And it seems to be that this was not a direct attack on the German energy infrastructure,
+ but more or less because the satellite also runs U.S. military communication.
+ The problem was somehow the attackers were able to take down the communication to the satellite,
+ which also was used by wind turbines and meant that the Euroskypark system wasn't able to be reached.
+ And then the following happened.
+ Eleven gigawatts, which is quite a lot of power of German wind turbines, weren't controllable anymore.
+ So they were just running and nobody knew the state of these things.
+ It was about 5,800 wind turbines which couldn't be reached anymore.
+ So sounds quite devastating.
+ But let me tell you, since we know in the energy system that we need to build everything N minus one safety.
+ So these have local controllers, but these local controllers are basically able to sustain a basic kind of operation.
+ And as you will see, not being able to control your wind turbines can lead to bigger problems.
+ So why has this happened?
+ The problem is most of the time wind turbines are put in remote locations.
+ And basically you have three kinds of ways to communicate with your wind turbines.
+ The first one is you just dig a cable and throw a fiber optic cable to the wind turbine or to the wind park.
+ And then you can control everything.
+ The other version is you have like a mobile connection like normal GSM LTE or directed radio systems.
+ And the last option is you use satellite.
+ And satellite is like the fallback solution, which always works because satellites.
+ And normally you send commands to these stations not that often.
+ So that even like clouds or stuff like this is not that big of a deal.
+ But if you have satellites and the satellite communication breaks down because of other reasons, yeah, you get a problem.
+ So let's head on.
+ What I'm doing is a power flow calculations.
+ And this is the part where I want to make a little bit advertisement for a software we are building and we are maintaining.
+ And it's called Panda Power.
+ So this is a name derived from the fact that we are using pandas, Python, and we are doing power calculations.
+ And therefore it's clear for us that we call it Panda Power.
+ And if you are interested in learning about how to do power calculations and power flow calculations and want to fiddle around a little bit with the power grid, please go to pandapower.org.
+ We are always welcoming pull requests for new features and new stuff.
+ And then we have also a sister program, which I don't show today because I want to talk about the power grid.
+ But also we have also Panda Pipes, which is also open source about calculating flows in pipes so that you are able to simulate water, heat, gas and stuff like this.
+ So these are our two big open source softwares.
+ And as you can see, this is developed by us and the University of Kassel, especially the E2N department.
+ This does power flow calculations in Python.
+ And what a really nice thing is that the Bundesnetz Agentur is using this, our tool, to do the Netz Entwicklungsplan, the development plan for the grid from Germany.
+ And they're using our software as a standard to do this.
+ So this was quite a big moment for us and we liked it a lot.
+ And how does power flow calculation work?
+ So don't fear the mathematics on the left side.
+ I won't go too much into detail.
+ But the basic idea is that the power you inject in a bus needs to be the power that you take out.
+ And now you have the Kirchhoff rules.
+ Maybe some of you know this from the physics class in your school.
+ And it basically says the energy coming in is the energy you take out.
+ And if you do more fancy math around it, you can do power flow calculations with it.
+ And on the right side, I have a simple version of a grid we've seen earlier with all of the equipment around.
+ And you can see we have a grid connection normally, like to a higher voltage level.
+ Then we have a transformer.
+ And at the bottom, there's a load.
+ So what we can do now is we can say to the system, "Okay, this is our grid setup.
+ Please do a power flow calculation.
+ And if you do this, you will get this kind of result."
+ So like I said, it uses pandas under the HUD.
+ And the problem is for you guys, probably not, but the normal grid operators don't like fancy tables.
+ They want to have something they can look at and not just columns of numbers.
+ But our tool normally spits out color columns of numbers, as you can see here.
+ You get result tables where you can see the voltages and the powers and the line loadings for every component in your grid model.
+ And when your net gets larger, so this is like the case for three buses and one load, so it's quite easy.
+ But if your net gets larger, it's getting quite complicated to understand what's happening there.
+ Therefore, we wrote some kind of visualization which is able to take geographical data to show what's happening in the grid.
+ And this you can see here.
+ Basically, if you have geodata, you can attach it to your power grid model and then you can run the power flow simulation.
+ And then you get a graphics like this.
+ Here you can see lines and dots.
+ These dots are the buses, substations, as I've shown earlier.
+ And the lines are the connecting power lines.
+ And the colors will tell you what's up about this.
+ So red means overloaded for the lines.
+ And for the buses, you have like a per unit voltage level.
+ So this means you have multiple factors in your power network.
+ On the one hand, you have the power lines which shouldn't get too much current.
+ If they get too much current, they tend to get hot.
+ And if they get hot, they will get longer and longer and they will start to sag.
+ And if they touch anything, you have a big problem.
+ So this is mainly the part you want to keep track of.
+ And on the other hand, you have your buses and you need to monitor the voltage on the buses.
+ Maybe you've seen this on your power supplies for your computer nets, for your laptops and so on.
+ And there's normally written a voltage range on it, like 200 volts until 240 or 250 volts.
+ There are also the modern power supplies which can handle 100 volts or 90 volts to 260 volts.
+ This is basically what you see here.
+ Normally, we give the voltage in a PU per unit measure, which means we normalize it to the voltage level of the bus.
+ So if we have a 20 kV bus, then one PU means 20 kV.
+ So it is defined to diverge about 10 percent, so plus 5 and minus 5 percent.
+ I know it's a bit complicated, but you can see this on the right scale.
+ The right color map is for the bus voltages. And as you can see in this example, all the buses are blue,
+ which means that they are in a good state and are not overloaded, except for in the upper left corner of this example.
+ So if you want to try this, this is the MV Oberrein network, which is included in Panda Power for playing around, basically.
+ And you can see there are some lines which are red.
+ Red means bad, so this is normally the part where we need to do something.
+ And how do you derive normally such kind of geodata if it's not provided?
+ Therefore, we've written a plug-in for this, which you can see here, which is a QGIS plug-in,
+ which allows you to import and export Panda Power networks into QGIS,
+ and where you can use QGIS to draw basically buses and lines based on OSM data.
+ And therefore, we are at the next point. The problem is how do we get such grid models?
+ Not always are we getting the grid models from grid operators,
+ because to be honest, much of our grid isn't digitalized at the moment.
+ So yeah, the biggest grid architectures you can get, but if you go deeper and deeper and deeper in the distribution levels,
+ sometimes you only have paper plans.
+ And these paper plans are written by people who are very good at doing electrical stuff,
+ but they don't have geodata.
+ So you have an electrical circuit plan before you, and you don't know where these lines are.
+ And you're basically sitting there and trying to get everything somehow mixed together.
+ And not always in all projects we are working together with grid operators,
+ so we needed some other ways to figure out how to derive such grid data.
+ And I think this is an interesting part, that's why I'm talking a little bit about it.
+ How can we derive grid data from open source data, data sources?
+ So the first point, as always, is the open street map.
+ And as you can see here, this is Flosim.
+ This is like an overlay for open street map, but basically it uses parts from open street map,
+ like for example the locations of the lines and where the lines are running.
+ And here you can see an example from Schleswig-Holstein.
+ You can see Sylt in the upper left corner.
+ And you can see all of the power lines and you can see the generation units drawn in here.
+ And this you can just query via an API.
+ I've made once the thing that I looked deeply into it,
+ and most of the stuff in Schleswig-Holstein was entered into OSM by a guy called Bahnpirat.
+ And I'm eager to meet him because he has done so much for this data acquisition.
+ And I'm so thankful because we can make science projects in Schleswig-Holstein
+ because he is, I don't know, running around and putting in like the power lines.
+ So I'm very eager to get to know him.
+ Maybe you guys can drop him a note.
+ I don't know, I'd like to talk to him.
+ But this is only the grid.
+ Now you can derive some kind of grid architecture.
+ You know where the power plants are, you know where the lines are and where the buses are.
+ You can put this into Panda Power, but then you're missing generation data.
+ And this is the next point.
+ Here you can see a Renewables.Ninja.
+ This is also an open source project or open source system
+ where you can just select a region on the world and can download the generation data.
+ And these are based on satellite data.
+ I've written it here, the NASA MIRRA reanalysis and the CMSAFS-SARA data set.
+ The nice thing is you get this as power schedule.
+ So you can just take this and plug it directly into Panda Power
+ and then you know how much Renewables you are generating.
+ Quite fun.
+ Now we don't not only need the generation, we also need the consumption.
+ And consumption is a bit more complicated
+ because this data is normally not available.
+ But there are many open source projects which has done lots of research in the field of power consumption.
+ So you get, for example, standard load profiles, you get synthetic load profiles,
+ you get also measured profiles.
+ And as I've shown here, the Open Energy Platform,
+ there are many different versions of these Open Energy Platforms
+ where you can download data sets from different projects
+ which will show you how the consumption is, for example,
+ for an industrial load or for an electrical vehicle or you name it, you will find something.
+ So if you plug everything together, for example, for the Schleswig-Holstein area,
+ you get something comparable to this.
+ As you can see, Schleswig-Holstein with all of its lines and nodes.
+ And this is the EHV, so the high voltage transmission lines
+ and also the distribution crits at the 110 kV.
+ And this is about 600 nodes, so 600 substations with about 500 flex providers,
+ which is like the over category for wind parks, power to X, batteries, electrolyzers, and so on and so on.
+ This is what I'm showing here coming from an old project we've done.
+ It's called the NAV 4.0, which was the idea to look into the Schleswig-Holstein
+ and find a path for the future how we can use more of the wind power in Schleswig-Holstein.
+ And this is the key point for the next minutes of my talk,
+ because if we look into the installed power in Schleswig-Holstein,
+ you can see here it's a quite complicated graph, which is from a colleague of mine.
+ We have the interesting bubble is in the lower left,
+ which shows the offshore wind production power, which was at 2035 estimated for 3.24 GW.
+ But this is the old grid development plan.
+ This is everything based on.
+ At the moment, they are re-consulting the next grid development plan, which will increase these numbers.
+ So the total energy capacity was 16.4 GW for Schleswig-Holstein in conventional power.
+ And in renewable power, we had like again 15.98 GW.
+ So here's everything in a nice handy table.
+ Probably it's not that good of a read or readable.
+ But for 2025, we estimate a production power of 42.5 TWH.
+ And for 2035, we estimated 54.1 TWH of production.
+ So and energy consumption is the next.
+ We have for 2035 about 27 TWH of consumption.
+ As you can see, we have much more energy production than consumption,
+ which means Schleswig-Holstein, for example, is a net exporter of power,
+ which is understandable because they have lots of wind power up there.
+ And now comes the big problem.
+ If you look into the power flow calculations, it's hard to see,
+ but you can see that one of the biggest lines,
+ so you have like two lines connecting Denmark to the south, which is simply congested.
+ So it's too much power.
+ And what can we do if this line is overloaded?
+ Yeah, we need to shut off the power sources, which are the easiest to shut down.
+ And sadly, at the moment, these are the renewables.
+ So we are shutting down the wind power because the lines installed can't handle this.
+ And it gets worse.
+ If you look into the 2030 scenario, you can see it's getting better.
+ It's getting worse.
+ And in 2035, you can see it's getting even worse.
+ So we need to shut off a lot of power, about two terawatt hours,
+ just to be able to transport the reminder of the energy.
+ So what I've shown here is a OPF, an optimal power flow calculation,
+ which means I take the normal power flow I've shown you guys
+ and then I try to play around with the numbers until the lines are not overloaded anymore.
+ And here you can see for this one line, which was red,
+ you can see several other line types, which increase the power transfer capacity.
+ And yeah, we are at the point that even if you take the biggest line our system has available,
+ you still have to shut off a big amount of power, like about 11 terawatts of power,
+ which will cost you about 500 million euros.
+ And that this is kind of realistic, you will see at the number below.
+ I've taken this from the Bundesnetzagentur, the Quartalsbericht,
+ and they said, yeah, about 3.8 terawatt hours.
+ No, sorry, I've read the wrong number, about 500 gigawatt hours needed to be shut off,
+ which costs about 380 million euros.
+ And this is like costs we all are paying because this kind of costs will be turned over in our energy price.
+ How does this work? If we shut down so much power in the north, we still need this power.
+ So this power needs to come from somewhere else.
+ So normally in the grid control operation center, they will take the phone and they will call the other power plant
+ because our power plants are always in pairs.
+ If you shut one down, you will need to increase the other power plant to get it balanced out.
+ And this is what's happening here.
+ And as you can see on the lower table, I've done this for the other scenarios,
+ you will see that this is getting worse.
+ So why am I doing this?
+ Because I'm at the moment working on the next project.
+ So this was NEV 4.0 and now I'm working at NRL, which is Norddeutsches Reallabor,
+ which is like the follow-up project.
+ And they're saying, okay, guys, we need to do something.
+ So and we need to figure out what can we do.
+ And the big idea, this is also why this is such a large project
+ with about 60 partners from industry, science and everything,
+ is we want to try out, can we use hydrogen, for example, to get this, to get a hold on this.
+ So the next slide is the one I'm a bit fearsome of because as you can see here,
+ it's the road to the future.
+ The current grid development plan, I've looked it up the last two, three or three days
+ because in June there was the last review of it.
+ They say they want to increase the offshore wind power production
+ from currently 8 gigawatts to up to 70 gigawatts in 2045.
+ So in 20 years, we will have installed 10 times the power in wind in the North Sea.
+ The PV power will increase from about 60 gigawatts to about 400 to 450 gigawatts in 2045.
+ And this will cost us only for the offshore grid connection about 150 billion euros.
+ So as you can imagine, this is like a really, really huge endeavor.
+ And everybody's at the moment like, okay, what the hell can we do about this?
+ Maybe some of you guys know the South Link project, which is currently in the building by Tenet.
+ So what they are doing is from Brunspittel, which is in Schleswig-Holstein,
+ they are building a DC coupling line, where completely through Germany to the southern parts.
+ And this line has a capacity of 2 gigawatts.
+ So for getting 70 gigawatts down to the south, we would need 35 of these South Links.
+ And 2 gigawatts is kind of crazy amount of power.
+ So and we need like 35 of them.
+ So as you can see, we have much to do.
+ And yeah, this is the part where I am sitting at the moment.
+ So Tenet is planning at the moment to do a large scale electrolyzers.
+ They're talking about electrolyzation in the order of gigawatts.
+ For everybody who doesn't know what electrolyzing means, it means we take water,
+ put energy in it and we get hydrogen.
+ And yeah, the largest electrolyzers I've seen until now are in the megawatt scale.
+ And they are talking about gigawatts, thousands of megawatts they want to install there.
+ So and what I am doing and what we all can do is develop new algorithms to help them find suitable locations,
+ continue the research on better strategies to increase the renewable feed in.
+ And yeah, we are at the moment at the point to utilize AI and now everybody is like, oh now AI.
+ And last but not least, we are at the moment in the middle of creating a new kind of redispatch process,
+ which is not only for the high energy power plants, but also for your solar rooftop power plants.
+ So that's the power companies or the power controllers are able to finely tune what's happening in the grid
+ that we can increase the renewable feed in.
+ And I know what you guys are thinking.
+ Hopefully they're using a better communication strategy.
+ And yeah, I can only say I'm trying my best that this will get like a modern architecture,
+ which will not provide security problems.
+ So thank you guys for your attention and yeah.
+ Thank you so much, Mike, for giving us these insights.
+ We have time for questions.
+ Over there is an angel and you can go to the angel if you want to ask questions.
+ Is there anyone or was it just so comprehensive that you understood everything
+ and Mike has done such a great job that you all now know?
+ Okay, someone someone is coming.
+ You can also ask in German, so that's not a problem.
+ I would try in English anyway.
+ You would like to contact that old street map user that should be easy for any user,
+ but just direct sending him a message.
+ Okay.
+ Yeah, I'm not not into this how this everything works.
+ But yeah, maybe I'll try that.
+ It's like he's the guy who has entered most of the power lines in Schleswig-Holstein.
+ And I was like, okay, interesting.
+ Who's this guy?
+ Another just in the beginning you mentioned about resilience of the power grid and we
+ saw in the war in Ukraine that it is a very critical piece of infrastructure and how well
+ is the I think you know more about the German grid.
+ How well suited is how resilient is that great against attacks, physical attacks?
+ Yeah, it depends on your attack vector.
+ I'd like to say so.
+ There's several attack vectors you can imagine.
+ The point is how large will it be your attack.
+ So, for example, if you somehow manage to break into a transformer substation in your
+ local area, you can possibly shut off the power for a small part, but they will fix this in
+ about an hour.
+ So, this is the normal round trip time they have to do this kind of stuff.
+ But if your attack gets bigger and worse, for example, as you've seen, the calculations
+ are n minus one.
+ Sometimes they're doing n minus two.
+ So, this means we have n components in our network and we do n times n minus one calculations
+ to make sure that this system is working for every conceivable grid state.
+ And, as you can see, this is kind of large of endeavor to do.
+ So, you need to do a lot of calculations for this and this takes time and effort.
+ So, maybe if you do a coordinated attack on multiple locations at the same time, you will
+ get problems which are not that easy to handle.
+ I've once been at Rotterdam where they supply London with power and they have a 1000 gigawatts.
+ They have like a really large connection there.
+ I'm not sure about the numbers at the moment.
+ And, I was standing in front of such a large transformer.
+ This was a really big one, like 300 tons, was incredibly large and they have two of them.
+ And, there was a third one standing there.
+ And, I asked the guy, "Okay, what happens if the transformer breaks?"
+ And, he said, "Yeah, okay, basically we need to get a crane to put it over.
+ It takes about six weeks."
+ And, I said, "Okay, what happens if this spare unit is broken?"
+ And, he says, "Yeah, okay, then we need to order a new one.
+ It takes five years."
+ And, I was like, "Hmm, okay."
+ So, and basically the security is like a fence.
+ And, what we've seen already in the grid, in the European grid,
+ the European power grid is interconnected and all of the transmission system operators are working together.
+ They have also communications protocols to exchange data about what's the grid state in my area and so on.
+ And, this is all interconnected.
+ And, what we can see is there was once an effect where you have some kind of disturbance in Poland, for example,
+ which creates like a big scale wave over all of Europe,
+ which you could see as a big voltage fluctuation in Spain.
+ So, effects are happening.
+ That's why we are building components which allow to adjust the power flow.
+ So, normally electrical energy is like the worst good you can have,
+ because you need to produce exactly the same amount you use.
+ Otherwise, your power system will get out of hand.
+ You can see this at the frequency of your power.
+ 50.0 Hertz is like perfect.
+ And, if you differ by only, I think, 20 millihertz, you have like huge amounts of too much or too less generation.
+ So, maybe there was a sun out, because a...
+ Now, the words are missing.
+ Solar eclipse. Thank you, thank you, thank you.
+ There was a solar eclipse, and Tenet and the other transmission system operators
+ asked us to do studies what will happen in the whole European grid,
+ because the sun will be out for like, I don't know, five minutes or so.
+ And, we looked into it and tried to figure out how big of an effect will this have.
+ So, it was noticeable, but, yeah, they managed to get around it.
+ So, yeah, depends on the effect size or the attack vector.
+ We're going to take this question, and then we are going to close the Q&A.
+ Okay, so basically my question was, you mentioned in the ending that we can use hydrogen, kind of solve all this.
+ And I would like to get some scale estimations, like how expensive and big would a fuel cell be to do like,
+ that's to the two gigawatts you were saying about the line,
+ and also what kind of volumes would need to be transported of hydrogen to like have an equivalent to such a line
+ and transport the energy like that.
+ So, the project is at the moment at the beginning,
+ and this is the revision of the grid development plan from a month ago.
+ So, we are still in the process of figuring it out.
+ And, to be honest, I can't tell you.
+ So, I know some numbers for some electrolyzers, but not at that large kind of scale.
+ Like I said, I know for megawatts of electrolyzers, but not of gigawatts of electrolyzers.
+ And the next problem is the infrastructure.
+ Not only the power, which needs like large power connections, you also need water.
+ So, this is like the biggest problematic factor for electrolyzers is to get water, which you can electrolyze.
+ If you think about, you don't need much water for electrolyzers,
+ but if you want to turn a gigawatt worth of power over, you will need a lot of water simply.
+ And salt water is not that good to use.
+ So, TANET is at the moment discussing to not transport the energy from the offshore wind power plants to the shore,
+ but to turn it over into hydrogen directly in the offshore region, so that they produce hydrogen offshore.
+ And this means you need to first desalinate the water and then to turn it over.
+ And this is like probably giving you an idea how big this is.
+ So, the next problem is how do we transport the hydrogen to somewhere else?
+ Because if you have hydrogen, you need to get it away.
+ At the first stages of the project, they discussed, and I was quite shocked, to just put it on a semi-truck and drive it around.
+ It was like, okay, interesting.
+ So, basically if your semi-truck runs on hydrogen, yeah, but no.
+ And the next problem is your gas infrastructure, which you can by the way calculate with PANAPIPS, needs to be suited for hydrogen.
+ So, maybe you guys know that you can feed in hydrogen in the normal gas infrastructure,
+ but this depends on so many factors that studies are estimating wild, wild, wild values.
+ Some studies say you can feed in like less than 2% of hydrogen, and other studies suggest that you can feed in about 30%.
+ So, one way they're doing it at the moment, they're putting liners into the pipe.
+ So, this is like a big plastic snake, which is snaking through the line, and then you have like a plastic coating on the inside, which allows to transport hydrogen.
+ It's the smallest molecule we have, and it will just diffuse through steel. So, it just disappears, it dissipates.
+ And yeah, if you're losing like, I don't know, 10 to 20% just through the process of transporting, it's not that beneficial.
+ Good. So, thank you so much, Mike.
+ If you have any more questions to him, you can, of course, just talk to him at the side of the tent.
+ Our next talk here is going to be "Hack My Handicap" in a quarter at 11 a.m.
+ So, I hope to see you all there and stay hydrated. Please give a round of applause to Mike for his applause.
+ Thank you, guys.
+ [Music]

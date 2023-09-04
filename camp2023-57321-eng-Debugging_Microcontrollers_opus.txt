@@ -1,0 +1,372 @@
+ [MUSIC]
+ [MUSIC]
+ Hello everybody, welcome to the Millway Stage.
+ How are you doing? Are you having a good evening?
+ [APPLAUSE]
+ Do you like the Millway Stage? Do you think it's great?
+ Do you think we should support Millways?
+ [APPLAUSE]
+ That's great because I have the perfect way to do it in my pocket.
+ It is a Millways coin and you can get one in the village behind me for a donation of 30 euros
+ that they are using to build beautiful stages like this and prepare the camp and everything around it.
+ They also have vintage coins from former camps that you can look at if you have one that you particularly like.
+ This one for example is from this year, so it has the logo of this year.
+ But there are also even more coins, this one with resource exhaustion on it.
+ Maybe just check it out after the talk.
+ Now, without further ado, I have to check in with my beautiful angels. Is the camera ready?
+ All right, we're going live and I'm very, very, very happy that we have Niklas here.
+ Niklas really, really likes microcontrollers and is going to tell us all about them.
+ Please give a hand for Niklas.
+ [APPLAUSE]
+ So, thank you for the introduction. Thanks to Millways for the stage here and thanks to everyone for this amazing camp.
+ My name is Niklas. I really like microcontrollers.
+ That's the short introduction, the longer introduction as I studied computer science at the RWTH Aachen University some time ago.
+ And by studying, I mean I was building autonomous robots at the Roboterklub Aachen since 2010.
+ And out of this project fell the C++ library that is known as modem.io, which is a C++23 library that supports 3,700 Cortex-M devices, which I co-maintain.
+ And then I got bored and I started working at ARM on ARM V8M sandboxing before I got bored of that and returned to the university to study for my master's degree.
+ And by studying, I mean digitizing the railway signaling lab in the transportation engineering department and designing a 32-second scale modular signaling systems out of PCBs and 3D prints, because why not?
+ And so I finally finished my master's degree and now I started working at Autarion, which is mostly debugging the open source PX4 autopilot for commercial drones.
+ So, you know, in summary, my name is Niklas and I like microcontrollers.
+ And for my day job, I debug the SkyNote autopilot that you can see here on the right.
+ It contains a very fast STM32H7 running at 480 megahertz and a bunch of sensors.
+ And the rest of the board is not my job. It runs Linux and communication, probably not important.
+ And the autopilot runs PX4, which is actually open source.
+ It runs the Nuttyx real time operating system, which is fairly complex and it has some small subtle bugs here and there.
+ And my job is just debug. It's not actually embedded software engineer. That's a common misconception. It's just debug.
+ And it's quite difficult because the code base is quite large and the processor is quite fast.
+ And today I want to share how I debug and some of the tools that I wrote to help me debug.
+ So what are microcontrollers? Microcontrollers, when I talk about them, I specifically mean ARM Cortex-M microcontrollers.
+ They contain a microprocessor from ARM. Here are Cortex-M7 in light green on the left,
+ which is connected to a bus system to non-volatile memories like flash and volatile memories like SRAM here in yellow,
+ as well as a bunch of special purpose peripherals. And these architectures can be quite complex.
+ You can see here the CPU is connected to several internal buses, several different peripherals and different clock domains.
+ You can also see the direct memory access, the DMA peripherals in dark green.
+ So there's a lot of stuff going on inside this that's not just controlled by the CPU.
+ And these peripherals can be internal, like the random number generator,
+ or they can be external, like the Ethernet peripheral, which connects to the PHY via the microcontroller pins.
+ And the memories here are typically in the kilobytes, so you don't really have the opportunity to run Linux,
+ which is why they use custom purpose real-time operating systems like NuttX.
+ And the really interesting part here is on the left, the CPU also has external signals for debugging.
+ And that's what we're going to talk about in this talk.
+ So if you want to debug a microcontroller, you first need to connect to the serial wire debug pins.
+ And there's a ST-Link V3, which costs about 12 euros. It's the cheapest and most capable debug probe that I've ever seen.
+ It comes with a built-in serial. It's very fast. I highly recommend it.
+ I'm not sponsored, not by ST.
+ The debug probe then communicates over USB to the driver software, which is typically OpenOCD,
+ which stands for on-chip debug, not the other thing.
+ And it implements the GDB server protocol.
+ And you can then connect GDB over TCP and then debug the device via the command line interface.
+ But this is typically then also wrapped via the GDB machine interface inside your IDE.
+ And this machine interface is mostly for exchanging state, which is useful for a user interface.
+ And of course, this has a lot of latency.
+ You have to walk several stacks, networking stacks, USB stacks.
+ It's definitely not real time. And it's particularly bad if you connect it over GDB.
+ So what is GDB? GDB is the debugger that comes with your Arm non-ABI toolchain.
+ Arm provides you with an officially tested and precompiled toolchain.
+ Please use that for compilation. I've seen so many bugs from weird toolchains.
+ But the GDB, unfortunately, is not compiled with Python 3 support.
+ So you need to install another toolchain, but just symlink the GDB. Don't compile with that toolchain.
+ And here's quickly how you launch a GDB session.
+ You first launch the driver software, which is OpenOCD with the correct target configuration and initialization.
+ And then you launch GDB with the ELF file, which contains all of the debug symbols. That's very important.
+ And then you connect to this GDB server, which is created by OpenOCD.
+ And then there are a bunch of super basic commands. There's Ctrl+C for halting the CPU.
+ And then the CPU isn't running anymore.
+ So if you have a drone that's flying in the sky and you start the GDB, it tends to stop doing that.
+ So be careful, particularly if you have spinny things connected to your microcontroller.
+ You can, of course, single step through your code using these commands. You can use backtrace to show where you are.
+ There are many better tutorials on the internet. Just consult them.
+ GDB has its own scripting language, but it's really quite limited. It's not that great.
+ So instead of fixing that, they just implemented a Python API.
+ And you can source Python scripts using the source command inside GDB.
+ And then you can import GDB. And this module really only exists inside GDB.
+ It's not Python. It is actually an implementation in C directly inside GDB.
+ So that's fun to debug. And there are some limitations.
+ The Python API cannot write variables. You must use the workaround by calling the GDB scripting API from inside the Python API.
+ Bit weird. You cannot access some of the debug information like the C preprocessor.
+ And it's a language independent API. So pointer semantics and C and C++ are sometimes a bit weird.
+ I'm not going to show you a lot of code. I'm going to talk mostly about concepts.
+ Let's start with something simple. I started working on Terion about seven months ago.
+ And the PX4 autopilot project has four million lines of code, which is a lot.
+ So I needed to get an overview. And the simplest thing is just to start your debugger and see a couple of backtraces to understand what function is being called by what.
+ And the easy way to do this is to set a breakpoint on a function and then do a backtrace.
+ And you can do this fast automatically with the command, which adds commands to the breakpoint and then just continues immediately.
+ And then you can lock this into a file and then post process it with Python to get the actual call graph.
+ I've used graph viz. It looks like this. Quite complex. There were a couple of issues with an SD card.
+ There was some grounding of drones. Don't look it up.
+ And there was an issue inside this code. And so I needed to know what is actually talking to this SD card, what peripheral is responsible for this.
+ So I created this call graph. And you can see this is the resulting call graph.
+ It's here. It's a bit closer. You can see it's split into three parts.
+ So this is the SD MMC peripheral that actually does talk to the SD card. It's the lowest level thing.
+ And you can see the three marked functions down there. Read, write and modify registers.
+ And it only really has two entry points at the top left and right. The read and write data.
+ And this interface then talks to the FAT file system implementation, which is available here in yellow.
+ That's a lot of code. Great for debugging.
+ And finally, above here, you can see the standard libc functions. On the left, you can see fsync.
+ And on the right, you can see open. Of course, you can't see it because it's too small.
+ You're just going to have to take my word for it.
+ The yellow task is then the actual logger code. So there's a lot going on in this thing.
+ And in a way, PX4 is kind of the perfect laboratory for all of these tools because it's got everything implemented in it.
+ It's really quite impressive in a negative way and a positive way.
+ And the great thing about this is that you don't even need to instrument your code. You can just do this in GDB.
+ You don't need to modify your firmware. It's very slow.
+ So, again, don't do it in the sky or in any system that requires safety.
+ But it's very helpful to get to know a code base.
+ And if you want to know how this is implemented, you can look this up in detail in the open source embedded debug tools.
+ It's a Python 3 library. It's BSD licensed. It's fully open source on GitHub with lots of documentation.
+ It's highly modular. So you can reuse some of the parts that are not useful for you because it is, of course, specific for STM32, PX4, and NuttX.
+ And it's actively maintained. So feel free to contribute or just use it as a reference or just ask questions.
+ And the reference at the bottom right of the slide refers to the Python module. So if you want to look something up quickly.
+ Okay. Let's look at some more GDB tools. NuttX is a real time operating system with preemptive threading.
+ And so PX4 uses a lot of threads. We start, I think, 1,700, mostly because of historical reasons.
+ And here I've created the first GDB Python tool, which is PX4 Tasks.
+ And it lists all of the threads with their PID, name, CPU, stack usage, and most importantly what it's waiting for.
+ Because, again, my job is just debug. And the most common source of problems is semaphores. I hate semaphores so much.
+ They are the bane of my existence. And being able to see them and see their address pointer where they live is great for my sanity.
+ So this is very useful. How does it work? This is implemented as a custom GDB user command.
+ GDB can look up symbols in various scopes. Here we're looking at a global symbol, but you can also have a function symbol or a file symbol.
+ And NuttX, like many of the RTOS out there, uses something called a ready list of tasks that are ready to run.
+ And we can take this linked list and just iterate over each task and then look at simple things.
+ It's usually a struct task control block, TCB, that's what it's called. And typically it contains all of the relevant information.
+ But some of the stuff is more indirect. Like if we want to look at the stack usage, we need to do a binary search to figure out where the watermark is.
+ Or we need to look at some timers to figure out the CPU time. So you can scale this up or down how you want.
+ I mean, it's Python, you know, import anti-gravity and so on.
+ Here's another example. NuttX implements its own dynamic interrupt dispatcher in assembly. Because why not?
+ Therefore, every interrupt handler inside the official NVIC table interrupt table is the same function, which is of course not particularly useful.
+ So I wrote this small tool that finds this dispatch tails and just renders it.
+ And you can see they all have the same priority because NuttX doesn't support nested interrupts. It doesn't need to. It's fine.
+ And you can see whether the interrupt is enabled, pending or active. And here you can see the IRQ 59, for example, is currently active.
+ So we halted by coincidence inside this very short interrupt, which is currently servicing the DMA.
+ You can also see the argument to the private DMA buffer over there.
+ And you can see that IRQ 65 is pending. So it will be executed next, right after this interrupt.
+ And this is super useful to figure out what function to actually put the breakpoint on.
+ Okay, that's enough NuttX. You're all damaged now. You're welcome.
+ Let's look at some STM32 specific tools. So STM32 is the actual microcontroller on there. It's hardware. It cannot be changed.
+ I often need to know what the actual state of the microcontroller pins are.
+ So this tool just shows it to you. You can see the pin name, the configuration, the input and output state.
+ You can see the alternate function. You can see the signal names and functions that are, of course, specific to our autopilot.
+ So, for example, the pin A6 and A8 are inputs with pull-ups and they're currently high, which you can see by the caray.
+ If they're low, they have the lower bar. Again, unlimited to ASCII, I think. Maybe Unicode. I'm not entirely sure. That would be interesting.
+ And then there's also pin A13 and A14, which are the serial wire debug connection that we're currently using to debug this chip.
+ And we can see that they're internally connected to the alternate function 5 and 0.
+ And you can also see that the data connection is configured for a very high rate, very high data rate, which is +vh. So this is a compact description.
+ How does this work? Well, the debugger cannot only access the internal SRAM, but it can actually access the entire bus system.
+ So it first goes through the 64-bit bus and then it goes down here through another 32-bit bus, because why not?
+ And then it finally accesses the GPIO register files. I don't know what port K did. Maybe it was Naughty, but it's separate from the other ports. Who knows? ST.
+ And for this to work, I need to know the exact address of the GPIO peripheral, which I can find in the STM32H7 reference manual, which is thousands of pages long.
+ It's a giant PDF, which is very fun to copy stuff out of. So not great to work with, but I need to know.
+ So this is the address. I need to know what the bit fields inside the register mean.
+ So I can also look this up here and then I can write this into a short Python script to read iterate over each pin and then condense this into this table.
+ But of course, I cannot write a custom parser for every peripheral on the STM32 because it's got dozens of peripherals and I'm not getting paid to do that.
+ So wouldn't it be nice if there were a machine readable data source of this information? And yes, there is. People have already thought about this.
+ It's called the system view description files, which is standardized in the CMSIS standard, and it's an XML format that describes the entire register map.
+ So you don't have to copy it out of the PDFs anymore. You can use this machine readable data source.
+ Unfortunately, it's not super accurate. Maybe like 90%. There are some issues because ST.
+ And so these SVD files are a little bit broken, but there are some manual patches available.
+ And I also wrote my master thesis about improving this. And there is a great GDB plugin already from Pengi, which does all of the heavy lifting for you.
+ It loads the SVD file. It tells the debug probe where to load the memory and how to interpret and then render it in a structured form.
+ And our or my embedded debug tools just wrap this tool and also provides you a difference viewer.
+ So this is what it looks like. Right. So again, it's a custom GDB user command where you tell the peripheral dot the register that you want to look at.
+ And then you get this view, the raw binary. In this case, we're looking at the DMA2 stream zero configuration register, S0CR, worlds off the tongue.
+ And you can see the raw register value here and then below the raw register value, all of the bit fields with the name and the description.
+ All of this information comes from the SVD file.
+ And this is extremely helpful for just quickly checking the configuration of a peripheral without manually fiddling around with bits and then doing mistakes, which I've done plenty of times.
+ You still, of course, need to read the reference manual to understand the entire context, but just to quickly understand what this means, it's very helpful.
+ There's also a there's the possibility to combine this with hardware watch points.
+ So inside the STM inside the Cortex M, you can declare a memory region that should be watched for writes and reads.
+ And then it triggers a break point. And if you keep the previous state of the register, you can render this a difference.
+ You can see in gray what it was before and then in black plus what it's now.
+ And this is, of course, even more helpful because you can step literally step through the rights.
+ You're not stepping through lines of codes. You're stepping through register rights, which is very helpful, particularly when you combine it with a backtrace.
+ And maybe you can see it in the front row, but this is again SD card stuff, which sets up the DMA transfer to transfer the file to the SD card.
+ So very helpful.
+ Finally, the last GDB tool that I want to show you is core dumping support, which is not really natively implemented in GDB because Cortex M's are a bit weird and they're very specific.
+ So there is no generic implementation, but it's actually relatively simple.
+ You only need to read out all of the volatile memories like SRAM and all of the peripherals and then store that in a file.
+ The nonvolatile memory from flash that already comes from the ELF file.
+ So the SVD files here are used to not have to read out the whole 32 bit address space, which would be four gigabytes would take forever.
+ I'm only reading about a megabyte here because I can only read the actual parts of the memory map that are used, which I know from the SVD file.
+ And then you would write a GDB server that just pretends to be connected to a device instead of actually being connected to the device.
+ And GDB cannot actually tell the difference.
+ And this tool is already, of course, you know, other smart people have already thought about this.
+ And one of these smart people is Adam Green, who implemented the crash debug utility, which does exactly this, as you can see here.
+ I can strongly recommend that.
+ It's extremely useful for if you're tired, just taking a core dump and then shutting the device down, throwing it out the window, you know, setting the office on fire.
+ Not that I would do that.
+ And you can archive these buggy devices in their current state, and then you can either try again later or you can send it to another engineer who's maybe more tolerant of this bullshit.
+ And then finally, all of these tools, except this one, are running while the CPU is halted.
+ This one is running when the CPU is on fire because I set it on fire.
+ But there are certain things where you cannot actually halt the CPU, like if the drone is currently flying around.
+ So here you need to profile your application.
+ And the simplest profiling method is logging.
+ It's usually on a microcontroller done over the serial link.
+ It's very low cost.
+ It's built in.
+ It's very effective, unfortunately.
+ Everyone loves it.
+ Everyone uses it.
+ And of course, it's a necessary tool, particularly if you log the actual output here, not over the serial device, but onto, for example, an SD card, which is great because then you have a crash log.
+ Unless, of course, the bug is inside the SD card handler, then you don't have a crash log.
+ But it's, of course, way too slow for our processor.
+ We are running at 480 megahertz.
+ It produces several million events per second.
+ You're not going to push that over the microcontroller serial link.
+ There are lots of events.
+ So we need a higher bandwidth connection.
+ And there is a simple idea.
+ Just log everything to a ring buffer inside SRAM.
+ It can be as large as you want.
+ And then let the debug probe do the transfer because the debug probe is attached.
+ It can access the SRAM, as we've shown before.
+ And it can just periodically poll asynchronously in the background without disturbing the CPU at a low priority.
+ And this is the entire idea behind SEGR's system view, which provides a library for you to serialize RTOS events and then also to timestamp them at a microsecond resolution.
+ But it's all done in software.
+ So the serialization, the threading, the scheduling, the semaphores, the interrupt, all of that is done in software.
+ So it's actually quite a large overhead.
+ And of course, it's proprietary and it costs money.
+ And unfortunately, there is no nutmeg support.
+ So I thought, well, I can do that.
+ Please, how hard can it be?
+ Wouldn't it be great if instead of doing everything in software, there was some hardware peripheral that did that for you?
+ And you don't have to look any further, but the instrumentation trace macrocell and the data watch point and trace peripheral, it really rolls off the tongue.
+ ARM is really good at abbreviations.
+ I love it.
+ And here you have 32 channels that you can write 8, 16 or 32-bit values to.
+ And it also logs the exception entry and exits without any code modification.
+ Just does it in the background.
+ And this whole thing is implemented in hardware, including the timestamping at cycle accuracy.
+ So it's in every Cortex-M except the Cortex-M zeros, but we don't talk about that anyway.
+ The whole thing, you really only need to add the single line which writes the value that you want to log to the port.
+ In this case, it's port 3, so the fourth channel.
+ So this is then serialized and multiplexed into a single pin which is called the serial wire output, which is basically a very fast UART.
+ And the ST-Link V3, the $12 probe that I showed you at the beginning, can read this up to 2 megabytes per second, which is fast.
+ We can write maybe 300 kilobytes to the SD card because of the overhead, but 2 megabytes is saying that's good.
+ So this is enough to output all of the scheduling information.
+ But unfortunately, it is a fairly compact binary format and we need to parse it.
+ And this is where the orb code project comes in because those are the people that thought, well, we can also do what SEGR does,
+ but we can do it better because we can do it open source and then other people can contribute.
+ And they've implemented a parser for this byte stream which can demultiplex this and then convert it into something useful.
+ It's a C API and I have written the orb beto tool, which is a C++ tool that then takes this data and converts it into F trace packets,
+ which is the standard or de facto standard way of storing trace information on Linux.
+ And it's called orb beto because I use the Perfetto UI to visualize this.
+ So orb code and Perfetto, orb beto, are you getting it?
+ Hey. And then this is visualized by Perfetto, which originally, as I said, was used by Android and Linux traces,
+ but, you know, why not use it? It's great.
+ And here at the top, you can see the CPU, which is shared by all of these different threads.
+ And you can also in the line just below it see all of the interrupts.
+ You can see a very long interrupt there in the middle, the SVC call.
+ And this is not real. This is only because the exception entry and exits have a lower priority than the other packets.
+ So there's often a packet drop and sometimes the exit gets lost.
+ And so that's why you have these very long... It's not a problem in real life. You just need to know it.
+ On the left here, you can see all of the threads with their names and PIDs.
+ PX4 uses a lot of NuttX threads. So this is a long, long list.
+ If you scroll down there, you can try this yourself. There is a file. You can drag this into your web browser.
+ And it just works and happy scrolling around.
+ And by the way, this is just... Every tick up there is 100 microseconds. So this is very, very fast.
+ You can see each of the threads here, for example.
+ We have a bunch of work queues that run all of these sensors. They periodically pull them and read out the values.
+ And you can see that the work queue has started and then the thread was interrupted.
+ And then the thread returns and the work queue concludes.
+ So just having the threading information is not enough. You need to know what the actual work queue is doing here.
+ So this is incredibly useful and also just incredibly educational to understand how a real-time operating system works.
+ Because you can see the scheduling happening when, for example, there is an interrupt.
+ You can correlate the edges to the interrupts and this is exactly how the RTOS works.
+ An event arrives and oh, this interrupt happened. I need to reschedule immediately another thread.
+ So just scrolling around this in your free own time is very educational and very fun.
+ But it actually becomes much more interesting if we zoom out because we can suddenly see some patterns.
+ You can see here, as I said before, the work queues, they pull the sensors every couple of milliseconds.
+ You can see every tick here is one millisecond and we pull it approximately every two milliseconds.
+ So 500 hertz. I think the update rate is 400 hertz or something.
+ And this is a nice visual way of just seeing if there are any timing issues.
+ Because if we zoom out further, here you can see a 100 millisecond tick.
+ We suddenly see a hiccup. The I2C1 task has become irregular.
+ The work queues have become very long, several hundred, several dozen milliseconds long.
+ And the reason for this is there was a power glitch, a brownout on the external sensor bus because somebody plugged in too many sensors.
+ And so the sensors had to be reinitialized. Again, my job is just debug. I don't know how power works.
+ So this kind of visual debugging with your eyes, I mean how else would you do it,
+ but is incredibly fast to spot timing issues. You can just look at this thing and be like, "Regular, regular, regular."
+ "Oh, it's not regular anymore. There's the problem." And it also makes you look like a wizard because it's cool.
+ You can zoom around in it and other people are like, "Wow."
+ So unfortunately, the serial wire output is still limited in bandwidth.
+ Two megabytes per second is not enough. So ARM decided, you know, ARM is a hardware company,
+ so they decided to solve the problem with even more hardware. Who would have guessed?
+ So there is parallel tracing, which gives you a four-bit wide bus up to one gigabit per second in theory.
+ In practice, of course, it depends on the signal quality. But you know, it's more than enough.
+ A couple of dozen megabytes should be enough per second.
+ And in addition to all of the previous functionality of the ITM and the DWT,
+ there's also a compressed instruction trace that allows you to reconstruct the entire program flow off-device.
+ It has to be compressed, obviously, because you cannot log every single instruction because at 480 megahertz, it would be a lot of data.
+ So it only actually logs the branching because the rest is known, right? You just follow along.
+ And this is very fast. It requires custom hardware, usually an FPGA with a USB 3 connection to really get the one gigabit per second in the standard.
+ But the J-trace, which is sort of the cheapest de facto standard for this interface, costs a lot of money.
+ And I got one for work and it was not as well documented as I had hoped.
+ And the ORP trace instead, again from the ORP code community, is actually open source and you can buy it and it's 10 times cheaper.
+ It's not fully working yet, but it's definitely more documented and I could get it to work faster.
+ So it's working for me, which is important.
+ So there is a very helpful community around it. There are some smart people that work on it.
+ And if you want to hack around with this, this is like the ultimate thing.
+ It can do everything that I've previously said, including SWO input and debugging, of course.
+ And I think it even has a serial link.
+ The question is what do you do with this data? Because now you get several hundred megabytes of instructions and what do you do with this data?
+ And the most useful thing that I found is a research paper called Micro AFL, which stands for Micro American Fuzzy Lop,
+ which does fuzzing on the device using this branching information, because that's exactly what American Fuzzy Lop needs, branches.
+ And it found a lot of bugs inside the SDM32 hardware drivers, the QPAL drivers.
+ And it would be very interesting to use this, perhaps in an open source setting, to test our autopilot before it takes off.
+ That would be a great idea.
+ So I'm looking for interns to work on this right now, because apparently I need to do Jira tickets.
+ It's my job now.
+ And yeah, so this is the end of the line. There is no more hardware, there is no more tooling.
+ We're out of stuff to do.
+ So in conclusion, debug all the things, right? Use more GDB, use more debug hardware.
+ Check out my cool open source BSD licensed project, maybe just for inspiration, maybe just you're curious, want to see how it works.
+ And the Orp code project is always looking for competent embedded people, so if you want to contribute there, have fun.
+ Maybe liberate all of the debug tools from the commercial hands would be very nice.
+ And thank you. And do you have questions?
+ So thank you so much, Niklas, for your talk.
+ Over there you see an angel. This angel is willing to take questions. Please signal him your wish.
+ One moment.
+ Thank you for your talk. You mentioned at the beginning that peripherals like spinny things wouldn't react too good to halting the CPU or changing the timing.
+ Do you have experiences which kind of peripherals like memory, displays, other chips work good or not so good?
+ Can you share experiences with that?
+ As always, it depends. Because, of course, ST also thought about this and they have the debug MCU peripheral,
+ which controls how other peripherals are behaving while the CPU is halted.
+ So you can actually not halt timers, for example, if they control a motor.
+ So you can halt the CPU but not the timers that control the motors.
+ But in general, in practice, the entire system is not as autonomous that it would keep running with only the timer.
+ So the drone needs to read out the sensors and then does the control loop.
+ So it's not actually that useful. It's really only useful for stuff like motor control.
+ Things that don't work well also are communication protocols because usually there is another participant that waits for packets and then timeouts happen.
+ And then you have weird states where the microcontroller still thinks it's communicating but it's actually not.
+ The other partner has already left.
+ So unfortunately, this halting stuff is really, using GDB is really only useful for a bench setup.
+ And that's really how I use it in my work.
+ We never ever attach a debugger to a drone because they cost a lot of money.
+ And again, my job is just debug.
+ To anyone watching us from the ether, it's also still possible to ask questions to our Signal Angel.
+ The stream is down.
+ Okay, the stream is down. So sadly not. But there is a question here.
+ I have a question. Do you also use GDB for regression tests or integrated in your testing environment?
+ Not yet. But I am looking for an intern to do exactly that.
+ Because of course, there's some more stuff that I didn't talk about which is scripting GDB from the outside.
+ Both of these were user commands from the inside. But the machine interface you can use to call GDB from the outside and orchestrate other things like logic analyzers or waveform generators.
+ And then actually do the inspection from the outside and the inside of the device.
+ But of course, the problem is, do you program this manually?
+ Is there a standard definition of an I2C protocol that you can then fuzz around with?
+ The stuff doesn't really exist. There are manual implementations of this.
+ But there's no formal stuff that you can just put into a constraint solver or something and play around with this.
+ So those are unfortunately still quite a lot of research questions.
+ The tooling is kind of in place. You can certainly see where this is going. But the specifics are not there yet.
+ But yes, very good idea.
+ Any more questions? Please show your hand or stand up if you have another question.
+ I will look at you very intensely and count in my head to three.
+ So thank you so much, Niklas, for being here and bringing us into the beautiful world of microcontrollers.
+ Please, a warm applause.
+ Thank you.
+ Our next talk is going to start at 10 p.m. It's going to be electronics prototyping.
+ It's way too easy and there's no reason you can't do it.
+ So I hope to see every one of you here and if not have a really nice camp anyway. So goodbye.
+ Thanks. One more thing. While I have you here, it's not related to the talk.
+ I still have old badges from EMF camp, from SHA and from Gulasch Programmiernacht.
+ So if you want to have unused free badges, please don't throw them away because I don't have anything to do with them.
+ Yes, excellent. All right. Thank you.
+ [Music]

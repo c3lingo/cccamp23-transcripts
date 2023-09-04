@@ -1,0 +1,370 @@
+ [MUSIC]
+ [MUSIC]
+ Hello on day two on CCC Camp 2023.
+ We are here at Bits and Boymay if I'm not mistaken, yes.
+ Thank you, thanks for the confirmation.
+ As you probably know, otherwise you wouldn't be here.
+ There are services that people are denied or
+ that are buried behind legal barriers that cost a lot of money,
+ a lot of time, a lot of effort, and a lot of knowledge, and
+ language knowledge, and all the other stuff to get behind to.
+ So here, our next speaker is here to talk about how technology
+ could address the cost and help these people defend their human rights.
+ So please welcome with a very warm round of applause for
+ Access to Justice for Human-Centered Design Tech, Viraj.
+ >> Hey all, just wanted to say firstly, thank you for coming.
+ I appreciate it.
+ This talk is largely gonna be about human rights issues that
+ I've encountered, human rights issues that I've encountered while working.
+ And then kind of use technology to address these issues.
+ If you guys wanna ask questions or
+ just chat throughout my presentation, feel free to do so.
+ So I'll- >> [INAUDIBLE]
+ >> Like this, is this better?
+ Okay, thank you.
+ Yeah, so I think the first slide's gonna go through specifically my experience.
+ But then also, I think the first question to ask for
+ is whether technology should even have a place.
+ So on the left is places where I worked and
+ have seen technology to really help.
+ I was a refugee lawyer, so I conduct refugee applications.
+ A lot of it is form filling before you get to the courts.
+ Police accountability, it's more how do you actually stop police and
+ then provide accountability during the interaction.
+ Genocide in Myanmar, we found that a lot of people that in internal displaced camps
+ would have access to phones, but they didn't have access to any other type of
+ information.
+ General legal advice, I'll talk about that more in the next slide.
+ But where I've really found that technology did not have a role was in
+ First Nations or indigenous populations where no one has a phone,
+ you don't have landlines, you don't have access to computers at all.
+ And they are still trying to be interventions through technology to
+ address some type of structural problems in remote communities.
+ So this is one example where I think technology should have a role.
+ And prototype fund has, they funded one of my projects called my rights.info,
+ which applies human centered design principles to the European Court of Human
+ Rights.
+ And this is the world's largest human rights database in terms of case law.
+ This court produces the most amount of cases that has ever existed on human
+ rights.
+ But its functionality is so flawed that if you filter by English,
+ you'll get cases that are only available in French.
+ So as a lawyer, this has, like it first to me sounded funny, but
+ then it became quite problematic quickly.
+ So if a refugee comes into my office and then I start looking for
+ cases that are descriptive of their issues to start advocating for them,
+ I have no comfort that if I type in their factual description,
+ that I'll actually see the cases that apply to this person.
+ There's no comfort at all.
+ And for me, that's quite scary if it's like,
+ especially if it's in a human rights situation.
+ If it's something like tax or commerce, it's a little bit less scary because their
+ lives literally not at danger.
+ So this is where I think tech would have a role and should have a role.
+ So I'll go into some of the project that I worked on,
+ structural problems that I've seen.
+ And then how I think technology should be viewed to change human rights issues.
+ The first one I'd like to talk about is police accountability.
+ And then this is how my journey in human rights started.
+ When I was 18, I was arrested without charge, put into cells overnight,
+ did not know what happened.
+ I'd been searched multiple times throughout my life.
+ And then at this point, I was always looking at what could I have done in that
+ situation, what information should have had at that situation that could have
+ helped, and then after that violation happened,
+ how could I obtain some type of remedy?
+ And then that's kind of what put me into the crack of law, human rights and
+ tech, because if you, and in that situation, I wasn't able to access lawyers.
+ I didn't have money.
+ I didn't have information about, like my family didn't know lawyers.
+ They didn't know the system, right?
+ So it's like, can I challenge this?
+ How should I challenge this?
+ I knew something bad happened to me, but I felt powerless.
+ I made an app in New Zealand that basically tells people,
+ it's not what not to do, which is how the law is framed, right?
+ Don't commit a crime.
+ Don't do X.
+ But it tells people what they can do.
+ Everything's linked to specific case law where people have,
+ where people successfully challenge the cops.
+ You can also see case law where the judge will literally say that police have been
+ caught to be lying, forging evidence.
+ And if most of the information that exists about police accountability, again,
+ is these are your rights, this is what you can do, this is what you can't do.
+ But I think the narrative really needs to change to be something like the people
+ that are going to be stopping you are trying to violate your rights.
+ And in that situation, you have to take proactive action.
+ So the police accountability app that I made, it records the police, and
+ then also depending on which factual scenario you're in,
+ will lead you to a set of information.
+ So if, are you walking in public?
+ Are you walking down the street?
+ So it's kind of like having a lawyer in your pocket.
+ That if a police officer stops you, you can be like, hey,
+ I'm not holding anything.
+ Like, you don't have the right to do this for me.
+ It tells you what to say, and everything's linked out to the case law.
+ The second issue that I've had was as a refugee lawyer, you get a lot of
+ situations where a refugee will come into your office or other client's offices.
+ And they've suffered political persecution, like grievous bodily harm.
+ They've seen multiple people dying around them.
+ But they can't speak English, and they don't know what the legal process is.
+ When you're working at a not-for-profit legal space,
+ you have about 20 minutes, I'd say, at maximum with each refugee.
+ The classic situation that happens is a refugee will come in, and
+ they immediately start talking about the harm that they've faced.
+ And that's obvious, right?
+ But that's not the information a lawyer requires to actually advance their claim.
+ This literally results in this, like I've seen it happen multitudes of time,
+ where you'll have to tell the person, hey, stop, we need this information.
+ People are gonna cry, they're emotional.
+ And then the questions that you have to ask are,
+ how many family members do you have in Australia?
+ And obviously, the future will be like, why?
+ Why are you asking me this?
+ This has nothing to do with my harm.
+ And the majority of time that you spend on these type of humanitarian visa
+ applications is completely bureaucratic.
+ There's also an issue that, so that in addition to these interviewing issues,
+ you have invisible requirements.
+ So let's say that you, again, the same question.
+ There's a field that says, do you have family in Australia?
+ If you are a competent refugee and you can speak English and you have the ability,
+ let's say you were a lawyer in your home country and you can fill out a form,
+ you could submit this form and your form would fail.
+ Because these certain paragraphs have invisible requirements,
+ which you're only told once you've failed.
+ So in that same places, do you have family in Australia?
+ You have to put commas slash slashes and say where they live and
+ also provide contact information.
+ And this information's not on that form.
+ So basically, what I started building was a refugee form filler,
+ where you can change the question language to any language that you're in.
+ It also has decision key logic.
+ That same form, it's called the 861 application form,
+ asks you for your name eight times, right?
+ And section three will be like, give out your family information,
+ even though you would say, no, I have no family in the first question.
+ So you can use decision key logic to really simplify this process.
+ But the biggest thing is that if you translate this form to Arabic,
+ now you have your client who's actually aware of the process that they're going
+ through.
+ They know the challenge that you're facing and the problem to solve.
+ So again, it's like looking at technology, it's not so much like,
+ we're just gonna make this application easier.
+ But it's literally about allowing people to empower themselves through the process
+ that you're engaging in.
+ And the next project that I've working on is general legal advice,
+ which I think brings this together.
+ So prototype funded a project that I'm working on called myrightstoreinfo,
+ which relates to this database.
+ Myrightstoreinfo took, the purpose of it was people don't understand the law,
+ cuz it's complex.
+ It's hard to access a terrible database that doesn't even work if you imagine
+ that it works by principle.
+ And it was how, if you're walking down the street and
+ a police officer stopped you, or let's say your child was taken away by
+ social services and you don't know what your rights are.
+ How do you solve this problem?
+ And what's the best way of going about this?
+ And again, it was kind of look from the human center design principle of looking
+ at the problem and looking up instead of looking down on how to provide information.
+ So myrightstoreinfo has three different points that you can access this
+ information for three different audience members.
+ The first is by filling out a questionnaire that just has binary options,
+ like did this harm happen to you, yes or no.
+ At the end of that questionnaire, you'll be presented with the violations that
+ apply to you.
+ You can go further and then look at all the cases that apply to you.
+ Then there's also the second application,
+ which is looking at law more in terms of a social aspect.
+ So all the cases in this database have been fed into an infographic.
+ So if you're a researcher and you wanna see, hey, how did the court
+ start deciding on, let's say, gay marriage rights?
+ And at what year did they do this?
+ And how did they look at that compared to the right to torture?
+ Now you can choose which articles that you wanna view across a timeframe and
+ then see what the court is thinking.
+ And the third one is just, it's an advanced text search feature,
+ which is like your classic search feature.
+ But again, something that the QDoc database doesn't do,
+ is they don't even have a spell check.
+ And legal names are difficult and law words are difficult.
+ So I think just introducing a spell check has made a huge improvement in
+ the lives of lawyers.
+ So it's kind of just looking at basic access principles,
+ basic human centered design principles to break down these problems.
+ So as I was saying, everything is designed with accessibility in mind.
+ And I think one of the issues that really comes to play is that the average
+ reading age, I probably shouldn't have talked.
+ >> You feel really hot?
+ >> [LAUGH]
+ >> It's a good place.
+ >> 23.5 degrees Celsius.
+ >> Let's go to the lake.
+ >> Drink enough water and have a great time.
+ >> You get two more minutes.
+ >> Two minutes?
+ >> No, no, you get the dish in two minutes.
+ >> I just feel bad if some really important information was provided.
+ Yeah, okay.
+ [LAUGH]
+ So the average reading age of the world is the age of a ten year old.
+ Legal information, I find difficult to understand.
+ So how do you provide, you can't even achieve a basic accessibility
+ principle just on the information that you're seeing.
+ So how do you solve this, right?
+ It's such a weird obstacle that everyone here is owed human rights, but
+ I doubt 95% of people even know what that means and
+ how to actually use your rights.
+ And it's done by, I think it's done by purpose.
+ But so this My Rights for Info is also looking at it from not just accessibility,
+ but people that have accessibility issues also need to be able to access the law.
+ And most legal information websites don't have this.
+ So the entire website's built in grayscale,
+ which allows people with visual disabilities to be able to access the information.
+ Everything apart from the legal information that's provided is written that
+ a ten year old can understand this.
+ Screen readers are utilized, so if you have visual impairments as well,
+ you can utilize the screen reader to start understanding legal information.
+ And I think that's also a really big gap,
+ is targeting invisible populations that have their rights discriminated, but
+ then also targeting them to actually receive rights-based information that
+ they can utilize.
+ And that's the end of the show.
+ If anyone has questions, feel free to ask.
+ >> [APPLAUSE]
+ >> So no need for additional two minutes, awesome.
+ >> Unless we have very many questions.
+ Let's start with the first one.
+ >> Thank you very much, it was a really nice talk.
+ And I'm really, really happy, so I'm actually part of a project called
+ Access to Justice, funny enough.
+ Much smaller scope, so it's kind of German perspective.
+ And we have two kind of projects, and one is kind of open data for
+ law and cases and so on, so kind of the third part.
+ And the second project is on kind of simplifying access for
+ getting your rights, so kind of form filler.
+ So it's super nice that you kind of exactly talked about these two projects.
+ And yeah, I think it's really, really hard to build services that
+ work for everyone and that do the right thing.
+ And we're kind of also trying to do the next step of actually sending your,
+ like filling out your form and actually sending it digitally,
+ which currently isn't possible in Germany.
+ As a private person,
+ you can't send anything into the digital justice system in Germany.
+ Only lawyers can do this.
+ This is supposed to come, who knows, like Q1 this year, supposedly.
+ But postponed.
+ So yeah, I would love to chat afterwards.
+ And yeah, accessibility is super important, and we're trying to test this.
+ And it's really hard, but at least it's really nice that you're doing this and
+ people are working on this.
+ >> Yeah, and I should say all the tools that I've built,
+ I'm still like a practicing lawyer.
+ And I think, unfortunately, any human rights system that's not radical in
+ nature has to be conformed to the actual limits of the system.
+ So most of the tools that I create will help people that will really reduce this
+ distress of a lawyer, right?
+ Like tries to take away 80% of their work where they can just focus on
+ the substantive aspect.
+ So even if you do have this form filling exercise,
+ as you've correctly pointed out, you still have to send it to a lawyer.
+ A lawyer will never believe anyone apart from themselves.
+ So they'll still check everything.
+ But if you can make their lives easier, they could focus on more clients per day,
+ focus on the tougher challenges.
+ And Australia and New Zealand, where these applications are predominantly made,
+ apart from my rights for info, unfortunately,
+ I think a lawyer still has to be in the picture.
+ >> Next question over here.
+ >> First of all, thank you so much.
+ This has been enlightening.
+ And one thing that I wonder is, in the aspect,
+ I understand that you are building technology and
+ that you are working with these people who need aid.
+ My question is, how do you get to those people?
+ Because most of the time when they need that help, they don't know where to find it.
+ And that is something that as hacktivists,
+ we have all these spaces that we can help, but
+ there's no way to reach someone that really needs it.
+ Right now, because we are small, we are not fully funded.
+ >> Yeah, so this is my personal experience.
+ I don't know if I can provide advice generally, but I've always worked as a
+ lawyer and then in activist communities.
+ And I know the issue that you're talking about.
+ So the police accountability app that I've made, certain communities in
+ Australia will see any app as something that they can't trust and rely.
+ But I was part of Melbourne activist legal support where we go into protests and
+ then provide legal advice to people that have stopped completely.
+ I sued the police for a living basically.
+ So I did have groups where, thank you.
+ >> [APPLAUSE]
+ >> I had groups that I could gain trust and
+ knowledge and I think that's also another big thing with technology.
+ You have to be invested in that community.
+ You have to be part of it for that really to have any type of hold and trust.
+ I don't know if that answers your question, but that's how I went about it.
+ >> Totally, it's exactly what we do.
+ >> Can you look into the microphone, please?
+ >> No, yes.
+ >> [LAUGH]
+ >> All right, cool.
+ Further questions apart from, behind me, sorry.
+ >> Hi, I was listening to you on live stream and I just rushed here.
+ >> Thank you. >> Because I didn't want to miss
+ the question.
+ But this is not a question actually.
+ I'm a designer and I was wondering if there is any way we could help you do
+ these things because I work with accessibility and
+ all kinds of guidelines related to colors and everything that is there.
+ And I really like what you're doing and I would love to chat.
+ That's all.
+ >> Yeah, 100%, let's talk after, okay.
+ >> Yeah, right now we have- >> Further questions,
+ let me check behind my back, nope.
+ In the audience, someone there who could build a fax interface for
+ the German government.
+ >> [LAUGH]
+ >> Yeah, of course.
+ Yes, over there, give me a second.
+ >> And I wanted to ask the question after the last one.
+ You said that you are very active in the community and
+ that you talk to people in protests that were mistreated by police.
+ >> Yeah. >> Is that most of the,
+ cuz that lets me ask the question, is there anybody else you can reach or
+ is it mostly just the people directly in a community, directly there?
+ Are you mostly working with the people that are in your communities or
+ do you have ways to reach outside of those or
+ maybe people that don't have any communities?
+ >> Well, I wouldn't know how to reach people that have no communities.
+ [LAUGH]
+ If they have, yeah, I mean, I've never thought about it like that.
+ Again, I can give you my personal experience.
+ So most of the police accountability work that I did as a lawyer,
+ like either working in volunteer organizations or
+ litigating the police happened in a span of about three to four years.
+ And in that time, it took me about two to three years to get into the right networks.
+ And in these networks, let's say I'm working as a strategic litigation lawyer,
+ you'll be working with a community law center, and
+ then you'll also be working with a police accountability organization.
+ Those two organizations will get community members, normally a youth member,
+ normally someone who's part of that community and has a political space in there.
+ And then you inform those community members of what you have and
+ then they can distribute it if they'd like.
+ But I think if I see most of the downloads that I have for
+ a lot of the applications I do are global.
+ So if you type in know your rights into the Play Store,
+ the police accountability app comes to the top.
+ But that's just for New Zealand.
+ So it's kind of like, you're right,
+ it's like getting to that community is definitely the hardest part.
+ But again, it's like you have to just be there.
+ >> All right, and with that, we are at the end of our time.
+ >> Awesome, thank you. >> Thank you very much.
+ So please give a very warm round of applause for Las Vilas.
+ Thank you very much.
+ >> Thank you.
+ >> [APPLAUSE]
+ [MUSIC]

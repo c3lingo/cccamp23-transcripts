@@ -1,0 +1,299 @@
+ [MUSIC]
+ [MUSIC]
+ >> Do actual exit routes.
+ Now I'm on. Hello everybody.
+ [APPLAUSE]
+ So in order to not waste too much time in my yabbering,
+ but instead listen to somebody smart,
+ welcome to the next talk.
+ I'm not sure if you're actually here by your own choice,
+ or if somebody has had a spell on you,
+ but maybe you'll find out after 20 minutes,
+ after the talk by Uwe Hecker about identifying social engineering.
+ Thank you.
+ [APPLAUSE]
+ Thank you very much.
+ Yeah, welcome.
+ 20 minutes and I want to show you a bit what I did,
+ well, almost the last 10 years to identify social engineering,
+ because it's quite a challenge.
+ Okay, let's start.
+ Why I am doing that?
+ So the first thing is after years in information security,
+ I always had the feeling that
+ digital and physical security measures are not really
+ capable of dealing with the human element.
+ So you do everything, firewalls, antivirus and so on,
+ physical access control, and then at the end,
+ someone can social engineer or just get into the building
+ or bypass anything with a malicious USB stick, etc.
+ So there's always this kind of human element,
+ and we had a very famous paper in 1999,
+ which is "Why Johnny Can't Encrypt",
+ and it's about PGP 4.0, so a long time ago,
+ but still we have the challenge how to get security measures used,
+ and do we want that end users use security measures directly?
+ So it was PGP 5.0.
+ We are still having that issue.
+ If an end user who is not security savvy
+ needs to interact with security mechanisms,
+ something like memorizing a password,
+ recalling a password, entering a password,
+ and then we tell them, "Okay, please use a complex long password,"
+ and then we say, "Okay, use multi-factor authentication,"
+ and the user says, "Okay, so much security, are you paranoid?"
+ So that's maybe the end user perspective,
+ "Why are you doing all that stuff?"
+ And the security engineer says, "Why?
+ It's just that easy, just do it."
+ But from a workflow perspective, you always get interrupted.
+ There's a pop-up, "Ah, VPN down."
+ So I need then multi-factor authentication again,
+ and your workflow gets interrupted, which costs time.
+ So there is this approach, "Okay, then use opportunistic encryption,
+ and let's see later maybe if it was secure."
+ Maybe the key changed,
+ and then you will see something, the safety number change.
+ And for an end user, what does that tell an end user?
+ They just say, "Okay, safety number changed, and now?"
+ "Don't know, let's go on."
+ So we still have to tackle this issue.
+ It's called, the research topic is usable security.
+ On the other hand, if you force an end user
+ to use security-related mechanisms,
+ then they become a part of the attack vector, of the attack surface.
+ They can be attacked as well.
+ You have digital, physical security measures,
+ and then you force them, and then you can attack them as well.
+ You can exploit that factor,
+ which makes it quite difficult to deal with,
+ to protect our assets, whatever that is, against such attacks.
+ If you use the complex password, long password, an MFA,
+ then social engineering is quite easy to circumvent that,
+ to just make all these kind of cool ideas,
+ cool, we will see in use of security maybe a few years later, obsolete.
+ So obsolete in the sense of, no, this factor can be exploited.
+ So what my question was at the beginning, over 10 years ago,
+ is we always have to deal with this factor,
+ and how can we go further there?
+ How can we understand that? Why are maybe some end users more susceptible to,
+ for example, social engineering than others?
+ So I was looking for a suitable social engineering definition,
+ which means suitable for interdisciplinary research,
+ for finding then social engineering stories, anecdotes in the wild.
+ How to get such insights?
+ How does social engineering work, the modus operandi?
+ So we need somehow evidence.
+ What kind of evidence ever?
+ Or you can use experimental designs.
+ But the point is, what is social engineering?
+ How can I identify it?
+ So my first approach was looking for indicators
+ in a cycle of interlocking deduction and induction,
+ so it was over the years, and looking for a definition.
+ And of course, you know the famous XKCD.
+ I have a new one.
+ But the point for me was that it's not single use.
+ These indicators can be used as well for identifying social engineering in the wild.
+ So it's dual use.
+ In the end, it's for me for identifying social engineering.
+ So when I was looking for a definition,
+ I came up, ah, there's an RFC, perfect, RFC 4949.
+ Yeah, they say don't use that.
+ It's too widely used.
+ And the majority of papers or talks, et cetera, say social engineering.
+ You know, everyone knows something, and everyone has a different view.
+ Me as well, no?
+ So I'm standing here.
+ And please don't use that.
+ And using just examples to define it is not the best approach.
+ I was looking for a good definition and then find the indicators.
+ The challenge, so, was as well to do this interdisciplinary research
+ because social engineering is not just computer science.
+ And suitable, of course, I already mentioned that.
+ But also, it should not be too general.
+ Some people say every human interaction is social engineering.
+ A kid at the checkout in the supermarket sees some sweets.
+ OK, social engineers may be the parents, but is this social engineering?
+ So this was all the cycle I was thinking of.
+ And sometimes too vague, missing something or too strict,
+ such as saying only digital technology, only via IT.
+ But social engineering is not something new.
+ This is my view, and we can discuss this maybe later somewhere in the corner
+ because we only have 20 minutes.
+ So the point was that it's nothing new.
+ It's not only IT related.
+ For example, the Spanish prisoner scam, which is OK, short info there,
+ which is via prisoners that should be sending mails,
+ should be telling people, please, if you give me money,
+ so a kind of advanced fee scam,
+ and then I will reward you because I'm a millionaire and I'm in prison.
+ And this worked in some pubs, telling people, please, we need money to get him out,
+ and then he will reward you later.
+ But we need money first to do this.
+ So these are the things that is nothing new, like grandparents scam as well.
+ Could be on the door, person to person, no telephone scam, no IT, no Internet.
+ So therefore, I was looking into just finding indicators.
+ So first thing, here you see the first three of the five.
+ What you need to know here is that I have two perspectives, two views.
+ That is the target person.
+ I use targeted person and not victim because the person is targeted
+ and becomes a victim if successful.
+ So that's a different thing.
+ And you see the capital letters, which is the RFC 2119,
+ about how to put some operators, what is really important here.
+ So first thing, target person is the human enabler.
+ And this was quite the key for me, a key enabler, meaning only if there is a human element
+ that is exploited enables the attack.
+ So some people say dumpster diving is social engineering.
+ No, it's not for me.
+ There's no human element in the majority of times.
+ It's a pre-attack information gathering to then maybe make a social attack
+ or to use this could be then social engineering to manipulate someone
+ to throw something in the bin, which you later gather.
+ So that could be social engineering.
+ So just to give that a difference.
+ And this is for me the most important indicator.
+ The second one is the attacker must initiate the communication,
+ which could be three different types, like bidirectional,
+ meaning there's really a communication.
+ You receive a facsimile scam, like you just get a lot of money,
+ please call this lawyer somewhere in Spain.
+ And then you have bidirectional communication.
+ Unidirectional, which is just the typical scams without not just a phishing email,
+ spear phishing as well, where you just click on a link, for example.
+ And indirect means that you would maybe drop a malicious USB, a bad USB,
+ stick somewhere in the parking lot and hope that people picks it up,
+ goes through the physical access measures, turnpile anything,
+ then puts it into the laptop in the company,
+ where you have firewalls protection, etc.
+ But you can use the USB port and then have maybe a malicious payload there.
+ So this is intentional communication, unawareness of the targeted person.
+ So as well, you will see in the next slide, it goes on vice versa.
+ So someone who is bribed and knows about that is not social engineered.
+ He knows about this.
+ So there's an unawareness factor about the real attacker's intention.
+ It could be something different than we can think of social engineering.
+ Then we have the malicious intent of the attacker.
+ So some people say maybe a teacher who has the best interest of a pupil is social engineering.
+ But that's the best interest.
+ Well, we can discuss what is best teaching, etc. and education,
+ but there's best interest like parents as well.
+ So is this social engineering? No.
+ And the last one, which I will elaborate a bit more, is deceptive techniques.
+ So this is the other part of unawareness.
+ The attacker used deceptive techniques and get the targeted person comply with the request,
+ which could be anything, but I won't go into detail in 20 minutes.
+ So deceptive techniques.
+ We have many different types and a long list and it's not finished,
+ but you can see it in literature.
+ For example, Kevin Mitnick used name dropping.
+ If you know someone's name in a company, then you call someone else and tell them,
+ "Hey, this person, your colleague, wants this done, please help me."
+ Or phishing.
+ There are types of opportunistic social engineering.
+ If you use phishing and jump onto a bandwagon, for example,
+ GDPR compliance, that you send out a bank phish and telling the people,
+ "You need to comply or your bank account will be deactivated."
+ Such things.
+ Or the pandemic as well, of course.
+ Impersonation is quite interesting technique.
+ Many people think about the Captain of Köppenick as quite a funny story,
+ which has real life roots, but the Standgericht Herholt, in English the drum,
+ had a court martial, was really happening at the end of the World War II,
+ where someone, a chimney sweeper from Chemnitz, used a military uniform from the military police
+ and pretended to be military police, got other soldiers following him and then executing people.
+ So this is about techniques.
+ And one part of my definition is that a deceptive technique must have an underlying persuasion principles.
+ One or more.
+ There are different types.
+ Of course, people who are into social engineering have heard about Cialdini.
+ It's from marketing and marketing uses some techniques that can quite easily be used for malicious intent.
+ And if you think of marketing techniques, you have viral marketing, you can use dark patterns, etc.
+ And then we have a gray area and could be maybe not in the best interest of the targeted person, of the audience.
+ So there are some, like I will go faster over it, but as well, this is nothing new.
+ Loss aversion is something for the historians maybe, that Adam Smith already used.
+ If there's a good, scarce, then people tend to be motivated to buy that product,
+ even if they maybe at the moment don't need that.
+ So this is something as well, nothing new.
+ And Stajano and Wilson as well, an interesting paper.
+ And for those who want to see some episodes, the real hustle is the series.
+ Quite nice to see how they do.
+ I would say most of them are social engineering in the wild.
+ Okay, so far persuasion principles.
+ That's for now.
+ I don't know if you trust me that this is not a malicious link or failure or anything,
+ but this is the link to my thesis, which has quite more interesting pieces.
+ For example, I analyzed court documents looking for phishing in German court documents.
+ Or I organized with some friends the social engineering poetry slam on one of the conferences or congresses a few years back.
+ Okay, so far I think I am in time.
+ Then thank you very much and stay safe.
+ Yep.
+ Okay, thanks a lot.
+ So we have a couple of minutes so we can have a couple of questions.
+ So if you have a question, line up here.
+ You see the mic is here.
+ There.
+ Yeah.
+ So, yes.
+ If you want to talk privately with the Google Hacker,
+ they promised to be on that side of the tent after the talk.
+ So, yes, we have a question there.
+ Hi.
+ So malicious intent seems to be a bit vague.
+ So your social engineering definition for your attempt to make it less vague is based on something that is also vague.
+ Yeah, malicious intent is as well vague.
+ I have in my thesis more examples.
+ So if you think it's not everything is monetary,
+ but the majority I would think is monetary even if you have tried to harm the reputation of a company
+ and the reputation leads to some losses.
+ No, it's again a bit financial, but there are many things.
+ If you want to harass someone, then this could be as well.
+ So, yes, you can do that.
+ But the whole social engineering depends on how you do it.
+ So there are many things.
+ And therefore this is vague as well.
+ I agree.
+ And maybe this would be important to have there more definition as well.
+ But, yeah, thank you.
+ Yes, we have time for one question more.
+ So, please.
+ Thank you for your talk.
+ I have done some assessments and we tried to get in the building and usually it works.
+ But at the same time, I sometimes thinking how often does this happen for real?
+ With malicious intent.
+ With malicious intent getting into the building.
+ Because I have a get out of the jail free card with me.
+ But a malicious attacker won't have and has to answer if they are caught to the police.
+ So the stakes are pretty high for an attacker.
+ They are.
+ As well, there's a challenge.
+ One thing is tailgating is nothing new.
+ You do this maybe of kindness.
+ Someone, okay, just come in or you get an access card without many questions or details.
+ But in the end, this was the challenge for me.
+ I need evidence.
+ But how can I find evidence that is suitable, meaning has enough information what happened?
+ And this is quite difficult.
+ Because some people don't want to talk about incidents in their company.
+ And others say I heard from someone.
+ And then you as a from researching from scientific perspective,
+ you can't really tell if it's true or not.
+ As an extreme, if you take some book of a security engineer and they tell a story,
+ how can I prove or be sure that this is correct?
+ And of course, some books are cited quite often.
+ But you can't be sure that it's correct.
+ Citing is good.
+ But what is the source?
+ Can I ask someone?
+ And even news articles are not very honest always.
+ Therefore, it was my approach to use the court documents.
+ Because they have a truth-finding process in itself.
+ Okay.
+ We're unfortunately out of time.
+ You can, Google Hacker will be available here at the side of the stage for a while for like extra questions.
+ So let's give one more huge applause.
+ Thank you very much.
+ Thank you very much.
+ [ Applause ]
+ [ Music ]

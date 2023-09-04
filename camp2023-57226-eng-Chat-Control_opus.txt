@@ -1,0 +1,471 @@
+ [MUSIC]
+ [MUSIC]
+ >> Welcome to the next talk, Chat Control.
+ Khaleesi, Konstantin and Tim will tell us about the current state
+ and inform us about the Chat Control.
+ A huge applause for them.
+ [APPLAUSE]
+ >> Good evening, everybody.
+ I think it's our first time in an outside location.
+ We're the Chat Control.
+ I'm Khaleesi.
+ I'm the spokesperson with the CCC.
+ Usually I'm in the new studio and no one lets me out.
+ Besides that, Chat Control is my life.
+ I can pretty much say that.
+ I have those two charming men with me.
+ It's Tom from the Digital Gesellschaft and Konstantin,
+ who are an amazing team.
+ So we are really happy to be with you tonight
+ and not so happy to be still talking about Chat Control.
+ However, we would like to give you a longer update
+ on what is going on and what are the stats
+ for all of those that haven't heard from Chat Control yet.
+ Because in September, when the summer break is over,
+ the fight will continue.
+ And if we don't act, like really act with a lot of power,
+ and I think this is the right place to find people
+ to act with a lot of power, we won't win this fight.
+ But first, let's start at the beginning.
+ And at the beginning, we firstly talk about the structure.
+ We will tell you who we are, which I did already.
+ And then we will talk about how Chat Control is more than
+ client-side scanning, because usually we only talk about
+ encrypted communication when talking about Chat Control.
+ We will talk about the topic of age assurance and age verification,
+ the juristic aspects of the whole file,
+ and the new quality of surveillance we are seeing here.
+ And in the end, we will give you a little guide on how to take action.
+ So let's start at the beginning.
+ It all started with this woman.
+ Some of you might know her already.
+ She's almost as problematic as Ursula von der Leyen.
+ This is Commissioner Ilva Johansson.
+ She's the Commissioner for Home Affairs.
+ And she's the person who initiated and also is in charge
+ of the whole Chat Control file.
+ The Chat Control file started one year ago in May, at May 11th,
+ as a file in the European Parliament.
+ And, yeah, what did it bring us?
+ So it's meant to be as the continuation of the derogation
+ of the e-privacy regulation or directive.
+ And the idea is that we want to protect children.
+ At least that's the narrative that we have been told over the last year.
+ But what it really means is breaking end-to-end encrypted communication,
+ scanning end-to-end encrypted communication.
+ It's a bit similar to the online safety bill,
+ which a lot of you might have heard of,
+ and the issue with the online safety bill is that it's already there
+ and it is coming.
+ So when we hear Chat Control, we think about breaking encryption.
+ This is like the first thing we think about.
+ But firstly, this is not how any of this works.
+ We all know that.
+ We can scan encrypted communication without breaking it.
+ But there's a big but.
+ There are really a lot more problematic points in this file.
+ And this is where we come to age assurance.
+ So let's talk about age assurance.
+ Who knows the banner at some interesting website
+ where you are being asked, "Are you over 18?"
+ (Laughter)
+ Well, OK.
+ A lot of you know this banner, and we all know this is not how it works.
+ And I think politicians realize that too.
+ So this age assurance of just like click, "Are you over 18?"
+ don't really work in our universe.
+ And there are a few things they are trying to do with this file.
+ They are trying to really roll out age assurance on a big scale.
+ So the idea is that there are applications that can be used
+ to distribute child sexual abuse material,
+ and there are some things that can be used to groom children,
+ which means like adult persons contacting children.
+ And the idea is to keep kids away from those applications.
+ But if you think further, it's really clear to every one of us
+ that almost every application can be potentially used
+ to distribute material in any kind of sense
+ and to chat with anyone over the internet.
+ So what would happen to us would be that like every application
+ would need to implement an age assurance.
+ And this is problematic on many levels.
+ Firstly, let's look at the technologies that are being used.
+ So the first option, we all know this in Germany,
+ we have post-ident, where you can identify yourself with your ID,
+ and then the people know who you are, and they can verify that online.
+ And there are also some functionalities where you can use your PASO in Germany
+ and put it in there, and then there's a token generated to check your age.
+ But what that would mean, and then we are like at the wallet issue,
+ as Lilith said before, we are getting used to flashing our IDs everywhere on the internet.
+ So being anonymous on the internet wouldn't be possible anymore.
+ That's like a really problematic development.
+ And the second thing they discovered, which is also in their point of opinion really nice,
+ is the whole thing about age estimation technologies.
+ And if you talk to politicians about those technologies, they say, "It's so nice."
+ You just hold your face into the camera and then it estimates your age,
+ and you don't need to show your ID. It's great, right? Because you could stay anonymous.
+ Well, the whole issue is they are using biometric data to do this.
+ So from what we learned, I think it was around Christmas when the CCC,
+ Cantorkel and Snoopy, who will be here later, hacked those biometric devices of the US military
+ and said that every database that contains biometric data is a ticking time bomb,
+ and it will be opened up. And the trouble with biometric data is that it's really hard to change.
+ So the politicians basically telling us that it's okay that young people upload their faces
+ into whatever cloud to be identified so they can use the media they use to participate in democracy.
+ So this is also a really problematic and pushing aspect of the chat control file.
+ Maybe to backtrack a little bit, remember this file is meant to protect children
+ from the distribution of child sexual abuse material or the creation.
+ So what this would do is basically keeping them away, both from the medias,
+ they are participating in, but also from the help options that would make it much harder.
+ And there's another layer to this, and this is something some people don't think about that much,
+ is what it would do to the open source community. Because what happens if I offer an application,
+ I don't know, in any distribution, Signal, for example, in the Arch Linux universe,
+ they don't have any central data about their users, you can use whatever mirror pleases you
+ to download your software. And here the issue could also be that they would force open source community
+ to build some kind of centralized Azure source and centralize some things, and that could be really bad.
+ We've seen that before in other European files, but it's something that people don't think about that much,
+ and I think we should all keep that in mind, and to try to not only keep the whole breaking encryption thing away,
+ but also the whole Azure insurance thing, so we can stay anonymous on the Internet.
+ And I already said her name, there's another woman involved we already know and love,
+ and she became famous in Germany for this.
+ So, short explanation for the non-German guests, this is Ursula von der Leyen,
+ and Ursula von der Leyen wanted to implement stop signs on the Internet.
+ So if you surf somewhere that isn't age appropriate, you would see a big stop sign, and then you couldn't go there.
+ And what they wanted to do is just like DNS based blocking, as always.
+ And we've known for years that it's super easy to circumvent those kind of things,
+ and we also know for years that this is also a cause for Internet shutdowns,
+ because if Cloudflare ends up at some kind of blocking list, we all have a big problem.
+ So that's about the whole cool shit that's also in the file, and we are trying to fight off,
+ which would change the Internet for the worst of it.
+ And the big question is what should we do now and what happened already?
+ And as I said before, this is a European file, and the European Union united through diversity,
+ it's a bit complicated. Not only our relationship, but also what is happening.
+ So we are now one year in, and you would think that we are pretty far along,
+ and we are pretty far along, but there are still things happening.
+ What you can see here is the important part for now, which is what is happening in the Parliament.
+ And when a file starts in the European Union, you have a few parties, you have the Commission,
+ so Commissioner Johansen, the person who started the file, who initiated the text,
+ and then we have the Council and the Parliament.
+ And the Council and the Parliament are deliberating over what changes they need to see
+ so they can adopt the whole file.
+ And we have committees in the Parliament who have specific knowledge,
+ so we have the IMCO committee, which is the Internet Market Committee,
+ we have the Culture and Education Committee, the Women's Rights Committee, and the Budget Committee.
+ And we have a main committee, which is the LIBE committee,
+ which is the Civil Liberties and Justice and Home Affairs Committee,
+ and they all deliver reports, which are guidance to the Parliament on how to decide on those files.
+ And we already have all reports of all committees, like all the committees on the upper side of the picture,
+ but the really important committee is the LIBE committee, because it's the main committee.
+ And they will have their vote in... it's October right now, right?
+ They pushed it to October.
+ So this report will be really important, because it will be guidance to the Parliament,
+ and then the Parliament will vote on the things they want to change in this whole law.
+ And then we go off into the Trialogue.
+ We will hear some more about what the Council did later, but first we go to the boring stuff.
+ No, law usually isn't that boring, but...
+ Yes, law is usually that boring, but especially here.
+ Obviously I'm talking also about the detection orders, which we didn't mention so much yet,
+ but a lot of you know that with the detection orders, any provider can be forced to implement
+ client-side scanning and other stuff.
+ And you probably think, this can't be legal.
+ And it's obviously not legal within the European Charter.
+ Like all the legal experts on the matter who said something about it say it's definitely not legal.
+ For example, even the Council, which is the hardest part, you'll hear something about it.
+ Council is where the governments of the national states gather.
+ Even the legal service of the Council said that detection orders would compromise the essence of the rights,
+ the privacy and data protection.
+ In legal terms, violating or compromising the essence of a fundamental right is like the stop sign we heard about.
+ Usually cases are won over whether something is necessary or proportionate or something,
+ but if something violates the essence of a fundamental right, then it's definitely not legal.
+ So you might think, okay, then the Court of Justice of the European Union will stop this law.
+ We hope they will, but we would not want to depend on these elderly people with funny clothes for some reasons.
+ First, it would take years until the Court would decide.
+ In this time, client-side scanning, the whole technology would be implemented.
+ There's also, they want to build up a huge centre close to Europol, which would be established then.
+ And we would not want this.
+ Also, the legal framework of the chat control file is very complicated,
+ so we can't be sure whether they might find some way to pass it through.
+ And also, the Court of Justice is simply not predictable.
+ There are, in the past, for example, those of you who are interested in migration policies,
+ a few years ago, two years ago or something, they decided on illegal pushbacks,
+ and no one thought they would legalise pushbacks like they did.
+ So you can't be sure on what the Court of Justice of the European Union will do.
+ You can't trust or rely that they will definitely comply to the European Carta.
+ And also, we fear that even if they say, okay, detection orders are in the way that they are being implemented,
+ are not okay, but if they change it a little bit here and a little bit there,
+ and if there's a judge in between and something, they might say then it might be illegal,
+ especially client-side scanning, this whole technology, and also the European Centre and stuff like this,
+ age verification, all these things, they might say, okay, a few parts are not okay, but some of them are okay,
+ and then the European Union, the Commission and the Council, then they would know what they are allowed to do.
+ And we notice from Germany, also probably from other states, that it's like a strategy they have been using for years now,
+ that they do laws that are obviously unconstitutional,
+ and then they're going to find out, okay, what the Constitutional Court says might be a little okay,
+ and then they push the boundaries.
+ They not only test the boundaries, but also push it and push it,
+ and we've come a long way from the '80s, where the Constitutional Court of Germany decided on data protection,
+ and nowadays they would never have decided then what they are deciding now.
+ So the boundaries, the legal boundaries of what is constitutional just, justifiable, are always pushed, pushed further and further,
+ so we're fearing that the Commission is now just adapting the strategy, which we already know so much.
+ So, and there's also, and of course, we are pretty sure that it's not, that CSAM is like,
+ the CSAR is some kind of, in Germany you say test balloon, like a test, what they can do, what they can implement,
+ and we already know that they're planning on implementing stuff in other ways.
+ For example, in November 2020, they already, some of you might know this famous paper called
+ "Security through Encryption and Security Despite Encryption,"
+ they already said something like that they want to have an active discussion with the technology industry to define
+ and establish innovative approaches in view of the new technologies to access electronic evidence to effectively fight terrorism,
+ organized crime, child sexual abuse, as well as a variety of other cyber crime and cyber-enabled crimes.
+ So sexual abuse is just a very small part of it, and what they had in mind obviously was client-side scanning back then already.
+ It was before Apple decided to implement it and there was a huge discussion about it.
+ So we probably know that they want to do it in other cases, they don't want to, they want to establish these technologies.
+ You already mentioned the online safety bill from the UK.
+ They're already discussing using these technologies to prevent people from crossing the borders and prevent migration.
+ They're already discussing this, though the bill is just a couple of weeks old.
+ And also there is a French MEP from the Rassemblement National, a member of the European Parliament,
+ who wanted to extend this to drag shows and indecent art.
+ So if implemented, this is going to be like... sorry. Sorry, I got a new computer.
+ Okay, I'm going to try to remember what I wrote down.
+ We see and also we really fear that the Court of Justice or a lot of lawyers don't understand that we are handling with a new quality of surveillance.
+ In general, for example in Germany, legal discussions about surveillance are always about collecting data.
+ Data retention is the main thing, but also in other points, I showed this picture just over there,
+ there's our Justice Minister protesting against data retention a couple of years ago.
+ But still the discussions are about collecting data.
+ Client-side scanning and this whole technology wouldn't rely on collecting a lot of data.
+ It would rely on that in real time our communication is being analyzed, in real time everybody's communication is all the time analyzed in real time.
+ They're not collecting a lot of data, they're just sending the data they need.
+ But this really constitutes some kind of new quality of surveillance.
+ Surveillance, like in modern, you probably know this Foucault, this panopticon.
+ Modern surveillance is often seen as a panopticon, that there's a place from where you can look.
+ And the people who are being surveyed don't know if they're being looked at.
+ Probably not, because the controller just can see very few people.
+ There's always the possibility that you're being looked at or controlled.
+ But actually at your discipline, because you have the feeling, there's the possibility that you're being looked at.
+ Now these new technologies like client-side scanning, but also for example video behavioral analysis on videos,
+ what we're seeing in Hamburg at the moment, they're doing it in real time.
+ It's not that it's cop watches or something, but that everybody who's within the focus of this surveillance,
+ everybody's communication is analyzed all the time.
+ So this is a new quality of surveillance that we really don't see that it's, in the legal discussion at least, being seen that way.
+ So I think we're a little over.
+ Thanks for the lawyer talk. Really great. We all love it.
+ Back to the tech stuff.
+ So I already talked about age assurance and I talked about the stop signs, which we all know are obviously crazy.
+ But we shortly want to backtrack to the technology where chat control got its name from, which is Tom already mentioned it,
+ client-side scanning. I could talk about client-side scanning for hours, but we want to smooth out a few things.
+ So what is the issue with client-side scanning?
+ A lot of experts named it the box in our pockets.
+ And when we talk about client-side scanning, the whole chat control file and also the politicians talking about it,
+ mostly are talking about detecting unknown abuse material. They don't talk about the already known material.
+ So client-side scanning is like artificial intelligence screening the pictures and saying, OK, this could be child sexual abuse material.
+ And they send an alarm. And the issue is that it can go wrong on a lot of places.
+ So firstly, of course, all our communication is screened and it gets sent to an entity to be screened.
+ But also we don't know how the sets are being trained.
+ A lot of studies show that LGBTQIA+ communities are targeted way more and it's way more often marked as an appropriate material.
+ So this is the whole issue with detecting unknown material.
+ Another issue is detecting known material. We all would say, OK, detecting known material, that's easy.
+ Besides, it's really problematic to detect known material with client-side scanning technology installed on our phone,
+ interrupting our encrypted communication. But there's also another big issue with that.
+ Because if you try to detect known material, you would say, OK, here's a picture compared to the other picture.
+ And then it should be fine. Right. But we can't do like the typical.
+ We use a hash function, build a hash. And if it's the same hash, it's the same picture.
+ Because if you flip one pixel, your algorithm wouldn't work anymore.
+ So what they do is train big neural networks to generate the same hashes for really similar pictures.
+ So if like some points on the picture are the same, there will be the same hash generated.
+ And some of you might know there are attacks on neural networks, of course.
+ For example, adversarial attacks. So you can easily reverse engineer this whole network and then fake pictures.
+ Either being flagged or not being flagged.
+ So the whole thing about telling people that detecting known material isn't as problematic as detecting unknown material is like really blunt.
+ So this is something we will talk about a lot in the future.
+ Because what we see in the discussions that are happening now, we will have, with a lot of luck,
+ we will get out detection of unknown material with client-side scanning.
+ But there are still ongoing discussions on known material.
+ So keep that in mind for the rest of our talk.
+ Okay, cool. Then as it was teased before, I will tell you a bit about the council.
+ What we are fighting against basically in this case.
+ And what you should know as the council is representing the member states and the governments of them.
+ Typically they are the ones in favour of more surveillance.
+ They are the ones for civil rights. That's not so much of an importance.
+ There's insecurity and we want to do something about it.
+ So then they are typically not our allies. The European Parliament would normally be.
+ They are also a bit of a tough catch this time.
+ But I will give you a bit of an idea where governments are here.
+ As it has been leaked in May, Spain, who is now holding the presidency of the EU council,
+ the council of the EU, wants to ban end-to-end encryption.
+ They want to prevent you from having secure end-to-end encryption.
+ And that is something that they say behind closed doors when the commission was asking,
+ how do you feel about encryption?
+ So yeah, that doesn't look too good.
+ They are the ones facilitating the internal discussions within council.
+ And the other governments in there are not really going to help us that much more.
+ Because, well, typically we learn through leaks, right?
+ Thank you to NetPolitik.org, by the way, who tend to be the ones leaking a lot of stuff.
+ [Applause]
+ So because of that, we know, because of these kind of leaks,
+ that governments, after us telling them over and over again that this is a risk to IT security,
+ this is a risk to the confidentiality of communications, this is killing privacy,
+ it always was said by the European Commission, well, you know, this is not true.
+ We can do math that distinguishes between good and bad,
+ and therefore this will not affect any of the law-abiding kind citizens.
+ Well, but somehow governments must have now figured out,
+ well, this actually does affect us, and we do have secrets too.
+ So in a leak from June we learned that within council they're discussing now exceptions for government chats.
+ [Laughter]
+ It's true, yeah, but it seems like they finally understood that this is a real problem to IT security and privacy.
+ But they have taken a really, I don't want to curse, they have taken a very bad conclusion from that.
+ Instead of doing the only right thing that they should do right now, and that is to reject chat control,
+ they said, well, let's protect ourselves and leave people to their own suffering.
+ And personally I think it's quite a scandal, and we can't let them do that.
+ So we really need every single individual here, we need everyone listening now, watching in the live stream,
+ and I'm going to tell you a bit more about how we can now take action to protect our civil rights.
+ Yeah, this is a later version, they put it in a different part as well.
+ So, oh yeah, I forgot I have memes.
+ You forgot his memes.
+ Yeah, that's my favourite one.
+ That's what we can do.
+ Yeah, and actually, thanks Carisi for the hint.
+ Of course on the websites that we have, so chatcontrolle.eu, and stopscanningme.eu,
+ you will find nice materials that you can use pictures to share online on social media.
+ Everyone spreading the word is going to help.
+ And there's a couple of other things, you may have done some of those already,
+ but you can do them again, let's be honest, in some cases.
+ If you are part of an organisation, you want to join the movement and become a part of stopscanningme.
+ And if you're from here on, I don't have notes, so, but thanks.
+ And yeah, you can either join, if you're an international non-German organisation,
+ join stopscanningme.
+ If you operate in Germany, please join chatcontrolle.stoppen.
+ If you are an individual, you can join as well, of course, in the struggle,
+ and we need every individual here.
+ You can sign a petition that is aimed at European policymakers who will receive that before the vote,
+ and with that you can show that you are one of many, many people, more than 100 NGOs as well,
+ that say to the European Commission and to the European Parliament, reject this proposal,
+ because, yeah, it's obvious why.
+ You can find it at stopscanningme.eu,
+ and there you will also find a newsletter organised by E3,
+ who is facilitating the stopscanningme coalition,
+ and of course on chatcontrolle.eu you also find our newsletter.
+ And there's something more fun than signing petitions, which is easy to do and very important,
+ but you can also dance, you can promote privacy and celebrate encryption,
+ and there's a social media challenge in which you basically find symbols,
+ find something that displays security, encryption, safety, messaging,
+ and share it with celebrate encryption on social media.
+ So these are like one or two examples.
+ People just, you know, you may have your sunglasses,
+ you may have like nice stickers on something that relates to these topics,
+ so do anything that you think is kind of creative and share it at celebrate encryption with #celebrateencryption.
+ Then of course we've asked you before to do this, and it's still important,
+ and the closer we get to the vote the more important it gets.
+ Contact your members of the European Parliament.
+ You can also contact the members of your national parliament and tell them to reject chatcontrol.
+ And we want to make that easier, and for that we have a great ally with Epicenter Works,
+ and they are currently developing a so-called Dear MVP tool,
+ and they will present tomorrow at 11.10pm in the Digital Courage stage on how to use that.
+ They will give you a sneak peek, and that will make it easier for each and every one of you
+ to call your MEPs, to contact them, and make your voices heard,
+ because European policymakers, only if you tell them that you're there and that you want them to act,
+ then only then they will take notice.
+ And of course we're doing a how to take action workshop in two days, so on day four at 2.30.
+ Maybe a short information for everyone again, MEPs are members of the European Parliament,
+ and you can also create your own memes, I'm really up for more chatcontrol memes and age verification memes.
+ And of course we have stickers with the Congress-themed chatcontrol logo,
+ so pick up your stickers, get to your keyboards, always encrypt your emails,
+ and don't let them take encryption away from us, I would say.
+ And with that, we got a little bit more, yes, because you have to organize actions.
+ We need you to find allies in your local community, stage small protests, inform people,
+ do something creative like the dancing, but whatever, like you feel like you're artsy,
+ you want to write poems, do anything really, every single help is really needed,
+ and share with us what you're going to do, we can amplify your actions,
+ and also it's really important for us to know if you do have capacities for actions in September and October,
+ so we can get an idea how big a protest can be organized,
+ because the bigger the protest, of course, the stronger the impact on European policymakers.
+ And these are just two examples now from actions that we have done in the past,
+ you don't need really many people to create a press event that they can report on, and that is really helpful.
+ But we need more people and bigger protests. Exactly, because that's really impressive,
+ and I do hope that if we manage to call for huge protests, that every one of you will attend
+ and bring your most interesting and creative signs.
+ And with that, we can now go to the Q&A, and thank you for your attention.
+ Also, this is how the stickers look.
+ [Applause]
+ Questions?
+ Thank you for your wonderful talk, we have about, I think, six minutes left for questions, remarks, whatever.
+ Please queue up in the middle, where the person is pointing,
+ and then there will be a microphone for your questions.
+ Okay. Are there any questions from the internet?
+ Alright.
+ We'll be around if you want to...
+ Ah, there's someone coming up.
+ You mentioned that we already have statements from some of the...
+ It wasn't the Council, this was the...
+ The Logistics Service of some...
+ Like, we have some statements of the...
+ "Juristic Service" is the right term, right?
+ Like a lot of legal opinions.
+ This was the legal opinion of the Council of the European Union.
+ They decided to just ignore it.
+ They are also like...
+ The Bundestag's legal service got a legal opinion which says, "This is not okay."
+ A lot of...
+ Like, actually every written opinion on this matter is like, obvious that it's not legal.
+ And maybe even the European Commission's internal committee that is in charge of telling the Commission before it officially proposes a law,
+ they told them, "Hey, this is not going to fly with European rights."
+ And they still did it.
+ But we really can't rely on this.
+ We have to apply this politically.
+ We have to stop this before it gets a law, because it would take years and we can't trust the Court of Justice.
+ And you know what happened with data retention.
+ Like, everything gets struck down, someone proposes it again.
+ So once the genie is out of the bag, or whatever you call it, like, they're going to keep coming back with this.
+ You mentioned talking to your MEP, but I'm from the UK so I don't have any anymore.
+ You have the online safety bill now.
+ Yes, I'm kind of screwed. What can I do?
+ I mean, like, no, but I mean, like, yeah, move to Ireland.
+ You can talk to Irish MEPs.
+ And I mean, like, I feel like if you tell people some things in British, they always react nice to it.
+ So you can also talk to MEPs, just give them the arguments.
+ It's not like maybe not only the pressure if you're like, I'm not voting you again, but the explanatory thing.
+ I mean, we can still try to explain the Internet to politicians.
+ We know they don't understand, but we can try.
+ And of course you can support the fight against the online safety bill.
+ With the open rights group, I'm sure they're always looking for allies to help you with that as well.
+ They're leading the fight in the UK on that file there.
+ So we of course don't want the UK to be... I'm avoiding the cursing again.
+ I have a small question about the terminology used in this sort of politics.
+ Is the word key escrow in the form of encryption also discussed in those documents?
+ Or because...
+ Can you talk a bit louder?
+ Yeah, is the word key escrow being used in politics about this subject?
+ They're a big fan of homomorphic encryption.
+ So no, there are a lot of legal terms.
+ There is no technical specification yet.
+ In the online safety bill we have seen that they just deliver like a little...
+ Yeah, it's not even like really solid technology-wise.
+ And also this is what the European Commission through there say, it's technology open.
+ So we just think we can nerd harder and then we can solve these problems.
+ But they don't really know what technology they can use.
+ There's a technology they dream of, but client side scanning is not what they think.
+ So no, we aren't as far in the discussion as key escrow.
+ They want to leave a lot to the European Center, which basically would be very powerful on this.
+ But if I remember correctly, the European Commission in a leaked document sometime last summer said that 10% of the error rate is kind of okay with them.
+ Yeah, so we have a queue right now if I see that right.
+ So you said we can't count on the Council and the situation with the European Parliament is kind of tricky.
+ And we should all write to our MEPs. So why is the situation tricky with the MEPs?
+ So the issue is it's a publicity game a little bit because this file is all about protecting the children and who doesn't want to protect children.
+ And as it's a really technical file, it's also really complex.
+ So there's a really complex social issue we have here.
+ And the politician thinks, okay, we just throw some technology at it and then we have it solved.
+ And it's an easy fix. And so they are really sensitive about the whole child protection issue.
+ And that's why it's so tricky in the Parliament. We already like on a good way the report.
+ This is what we call what those committees deliver in terms of their opinion on the file.
+ Look for the IMCO committee, for example, look really good.
+ We now have to get like a majority in Parliament, which is tricky. So it's really important to talk to the Parliament and to reassure them that protecting children is something we can do, but in a different way.
+ And it's like a complex social issue we need to address in another way, but that you never can use technology to easily fix complex issues.
+ And we heard that they are really afraid of people of protest on the street just before elections. So next year there's going to be an election and they're afraid of street protests.
+ And we are over time.
+ Yeah, we have like we do one last question afterwards. You can maybe talk to them.
+ So with the online safety bill in the UK, we've seen the major chat platforms like WhatsApp and Signal actively speak out against this.
+ Have we had any response to this proposal by any of the major type platforms?
+ Yeah, it's like the same. So the online safety bill is now our showcase. So we will see if they would really walk out or if they want.
+ But they stated the same in terms of chat control that they would treat us like they treat the UK with the online safety bill. If this file comes into force.
+ OK, then at last, thank you for your talk and a huge applause for them.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ [Music]

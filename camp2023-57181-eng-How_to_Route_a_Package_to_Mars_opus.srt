@@ -1,0 +1,1160 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:32,240
+ So this talk will be held in English.
+
+4
+00:00:32,240 --> 00:00:38,240
+ [FOREIGN]
+
+5
+00:00:38,240 --> 00:00:55,480
+ So there will be no translation for this talk, but today I'm very pleased to introduce Jaschow to you.
+
+6
+00:00:55,480 --> 00:00:58,600
+ He's going to talk about protocols.
+
+7
+00:00:58,600 --> 00:00:59,680
+ He's here.
+
+8
+00:00:59,680 --> 00:01:06,240
+ Protocols and algorithms that help communicating through the vast expanse of space.
+
+9
+00:01:06,240 --> 00:01:07,480
+ Exciting, isn't it?
+
+10
+00:01:07,480 --> 00:01:14,160
+ And everything that has to do with networking and the title of the talk is how to route a package to Mars.
+
+11
+00:01:14,160 --> 00:01:16,160
+ Jaschow, your stage.
+
+12
+00:01:16,160 --> 00:01:20,320
+ [APPLAUSE]
+
+13
+00:01:20,320 --> 00:01:22,320
+ Yeah, thank you very much.
+
+14
+00:01:22,320 --> 00:01:28,200
+ Thanks for the introduction and thanks for coming to this episode of the space track at Nortex.
+
+15
+00:01:28,200 --> 00:01:34,400
+ I think around this time is actually every day a talk about something space related.
+
+16
+00:01:34,400 --> 00:01:35,920
+ Some of them already very good.
+
+17
+00:01:35,920 --> 00:01:39,240
+ I already cut my script because other people explained it better.
+
+18
+00:01:39,240 --> 00:01:46,800
+ So we have more time for the things that I think are particularly cool, which is generally space networking.
+
+19
+00:01:46,800 --> 00:01:52,480
+ I think I don't have to convince you, but I'll tell you what I particularly think it's cool.
+
+20
+00:01:52,480 --> 00:01:55,360
+ So strap in.
+
+21
+00:01:55,360 --> 00:01:58,040
+ So I'm Jaschow.
+
+22
+00:01:58,040 --> 00:02:02,520
+ Some people call me Johann Schöpfer.
+
+23
+00:02:02,520 --> 00:02:04,080
+ Yeah, some stuff I am is there.
+
+24
+00:02:04,080 --> 00:02:05,360
+ I studied informatics.
+
+25
+00:02:05,360 --> 00:02:08,520
+ I'm some sort of researcher, I guess.
+
+26
+00:02:08,520 --> 00:02:13,560
+ And I originally scoped this out as a PhD topic maybe.
+
+27
+00:02:13,560 --> 00:02:16,440
+ And yeah, I still hope it's going to work out some day.
+
+28
+00:02:16,440 --> 00:02:18,840
+ So we'll see.
+
+29
+00:02:18,840 --> 00:02:23,040
+ So where should we start?
+
+30
+00:02:23,040 --> 00:02:24,200
+ Here, I guess.
+
+31
+00:02:24,200 --> 00:02:32,920
+ So networking layer models, maybe probably a lot of you have heard about it.
+
+32
+00:02:32,920 --> 00:02:36,120
+ It is OK, how do you build computer networks?
+
+33
+00:02:36,120 --> 00:02:37,960
+ Lots of machines talking to each other.
+
+34
+00:02:37,960 --> 00:02:39,880
+ Data goes where it should.
+
+35
+00:02:39,880 --> 00:02:43,960
+ You build protocols on top of each other.
+
+36
+00:02:43,960 --> 00:02:45,240
+ Firstly, it's physical.
+
+37
+00:02:45,240 --> 00:02:51,160
+ That's actual on the wire signals, radio stuff, fiber optics, whatever.
+
+38
+00:02:51,160 --> 00:02:53,840
+ And above that, data link.
+
+39
+00:02:53,840 --> 00:02:59,240
+ That's I think most of the time ethernet, other stuff, I guess.
+
+40
+00:02:59,240 --> 00:03:05,480
+ And these protocols all package data off the protocol above it.
+
+41
+00:03:05,480 --> 00:03:11,600
+ So you build little onion where you have low level protocols that do like point to point
+
+42
+00:03:11,600 --> 00:03:17,400
+ stuff and more high level protocols do end to end stuff.
+
+43
+00:03:17,400 --> 00:03:20,080
+ Probably very bad explanation of the concept.
+
+44
+00:03:20,080 --> 00:03:23,400
+ Anyway, in reality, it's much more complicated.
+
+45
+00:03:23,400 --> 00:03:25,920
+ So it is in space.
+
+46
+00:03:25,920 --> 00:03:36,720
+ So the CCSDS protocol ecosystem is not the only one, but it has a lot of standards that
+
+47
+00:03:36,720 --> 00:03:38,280
+ you can look at.
+
+48
+00:03:38,280 --> 00:03:42,840
+ So I did that, and that's probably where a lot of this talk came from.
+
+49
+00:03:42,840 --> 00:03:50,360
+ It's CCSDS is a board by most of the space agencies of the world where they work out
+
+50
+00:03:50,360 --> 00:03:53,960
+ standards for how their SATCOM systems should communicate.
+
+51
+00:03:53,960 --> 00:03:56,360
+ So they have some interoperability.
+
+52
+00:03:56,360 --> 00:04:00,720
+ And other people use it too so they can rent out their equipment, I've heard.
+
+53
+00:04:00,720 --> 00:04:03,500
+ So okay.
+
+54
+00:04:03,500 --> 00:04:12,660
+ Why am I showing you all of this?
+
+55
+00:04:12,660 --> 00:04:20,720
+ So anyway, down here we have, I guess, space ethernet stuff at the data link level where
+
+56
+00:04:20,720 --> 00:04:24,040
+ yesterday's talk explained that pretty well.
+
+57
+00:04:24,040 --> 00:04:27,520
+ So I'm just going to say it's space ethernet.
+
+58
+00:04:27,520 --> 00:04:35,000
+ And above that, we have, yes, it's called something like shim protocols.
+
+59
+00:04:35,000 --> 00:04:42,520
+ Basically those low level protocols, they only transport certain other types of protocols.
+
+60
+00:04:42,520 --> 00:04:47,720
+ And if you want to do networking, so if you want to hand this stuff to other higher level
+
+61
+00:04:47,720 --> 00:04:53,960
+ protocols who will then do complex routing stuff, you use the encapsulation protocol
+
+62
+00:04:53,960 --> 00:04:59,840
+ and you, for example, talk to your satellites with IP.
+
+63
+00:04:59,840 --> 00:05:00,840
+ But that's boring.
+
+64
+00:05:00,840 --> 00:05:02,720
+ So I want to talk about the other stuff.
+
+65
+00:05:02,720 --> 00:05:05,920
+ Actually, where is the next slide?
+
+66
+00:05:05,920 --> 00:05:06,920
+ Oh, yeah.
+
+67
+00:05:06,920 --> 00:05:11,520
+ I'm going to talk about LTP and BP over here.
+
+68
+00:05:11,520 --> 00:05:13,360
+ We're going to learn what those mean.
+
+69
+00:05:13,360 --> 00:05:19,320
+ Those are, I'd say, proper networking protocols for interplanetary activity.
+
+70
+00:05:19,320 --> 00:05:26,040
+ But frankly, I think most of the space to space communication, so actual multi-hub communication
+
+71
+00:05:26,040 --> 00:05:29,600
+ right now works with bent pipe style networking.
+
+72
+00:05:29,600 --> 00:05:32,960
+ For example, this here is a TDRS satellite.
+
+73
+00:05:32,960 --> 00:05:38,240
+ It's called tracking data relay system.
+
+74
+00:05:38,240 --> 00:05:45,240
+ Anyway, it's how I think the International Space Station is actually reached.
+
+75
+00:05:45,240 --> 00:05:50,040
+ So how those guys get internet, they need to get one of those satellites as a relay.
+
+76
+00:05:50,040 --> 00:05:51,040
+ It's operated by NASA.
+
+77
+00:05:51,040 --> 00:05:55,280
+ I hear the US military uses most of the bandwidth.
+
+78
+00:05:55,280 --> 00:05:59,520
+ Doesn't matter too much, but it's not that interesting networking wise.
+
+79
+00:05:59,520 --> 00:06:06,760
+ It's just those data link protocols are used and then it's manually told, okay, be a relay
+
+80
+00:06:06,760 --> 00:06:08,840
+ here, be a relay there.
+
+81
+00:06:08,840 --> 00:06:13,440
+ It's not that much more interesting than, I don't know, have you seen those guys who
+
+82
+00:06:13,440 --> 00:06:20,160
+ have like an old school manual phone operator table where they plug in the cables and connect
+
+83
+00:06:20,160 --> 00:06:24,320
+ phone lines next to a phone?
+
+84
+00:06:24,320 --> 00:06:28,560
+ It's connecting the actual networking is pretty manual.
+
+85
+00:06:28,560 --> 00:06:33,240
+ The satellite is just told connect here, connect there.
+
+86
+00:06:33,240 --> 00:06:38,520
+ But that's not really what you understand as networking protocols.
+
+87
+00:06:38,520 --> 00:06:42,600
+ So let's get to the first thing, Lick Liner Transmission Protocol.
+
+88
+00:06:42,600 --> 00:06:49,600
+ This was developed for the express purpose of interplanetary missions or stuff that's
+
+89
+00:06:49,600 --> 00:06:52,200
+ very far away.
+
+90
+00:06:52,200 --> 00:07:01,960
+ The motivation for it was I think all of the missions that go in, let's say, past the moon
+
+91
+00:07:01,960 --> 00:07:07,080
+ are using the deep space network which is I think a corporation of multiple agencies
+
+92
+00:07:07,080 --> 00:07:14,760
+ with really big antennas on multiple places around the world to reach those really far
+
+93
+00:07:14,760 --> 00:07:16,880
+ away crafts.
+
+94
+00:07:16,880 --> 00:07:22,940
+ But they're really overbooked and it's any bandwidth you get is a premium.
+
+95
+00:07:22,940 --> 00:07:28,320
+ So Lick Liner is trying to optimally use that.
+
+96
+00:07:28,320 --> 00:07:32,720
+ And how is it doing that?
+
+97
+00:07:32,720 --> 00:07:40,320
+ So I'm going to try to explain Lick Liner protocol very fast.
+
+98
+00:07:40,320 --> 00:07:47,120
+ So you may see here some red arrows and some green arrows.
+
+99
+00:07:47,120 --> 00:07:49,520
+ Lick Liner has two modes of data transportation.
+
+100
+00:07:49,520 --> 00:07:51,680
+ One's called red part data.
+
+101
+00:07:51,680 --> 00:07:54,880
+ That's important data that you really want to get through.
+
+102
+00:07:54,880 --> 00:07:59,840
+ And it uses retransmission for anything that doesn't get acknowledged.
+
+103
+00:07:59,840 --> 00:08:05,560
+ And the green part data is sort of okay, nice to have, but it's fire and forget transmission
+
+104
+00:08:05,560 --> 00:08:08,080
+ basically.
+
+105
+00:08:08,080 --> 00:08:18,760
+ And how it works is the red part data occasionally sends out checkpoints that requests an acknowledgement
+
+106
+00:08:18,760 --> 00:08:22,080
+ back, okay, what have you received?
+
+107
+00:08:22,080 --> 00:08:28,320
+ And the checkpoint has a timeout and when the timeout fails, then you politely inquire
+
+108
+00:08:28,320 --> 00:08:30,600
+ again hey, did you get that data?
+
+109
+00:08:30,600 --> 00:08:37,040
+ Or maybe you get a back acknowledgement that doesn't include enough data so you know what
+
+110
+00:08:37,040 --> 00:08:38,640
+ to resend.
+
+111
+00:08:38,640 --> 00:08:40,640
+ That's the basic gist of it.
+
+112
+00:08:40,640 --> 00:08:45,940
+ But it was specifically designed to have I think lots of parallel timeouts running.
+
+113
+00:08:45,940 --> 00:08:51,400
+ So you can just keep sending all the time and only when you're sure you need to resend
+
+114
+00:08:51,400 --> 00:08:56,520
+ something, then you're rescheduling it.
+
+115
+00:08:56,520 --> 00:09:01,760
+ That was the logic behind it as I'm aware.
+
+116
+00:09:01,760 --> 00:09:03,920
+ Right.
+
+117
+00:09:03,920 --> 00:09:09,540
+ But maybe you've noticed not so much networking yet going on.
+
+118
+00:09:09,540 --> 00:09:12,360
+ This is still a single hop protocol.
+
+119
+00:09:12,360 --> 00:09:14,360
+ One second.
+
+120
+00:09:14,360 --> 00:09:15,360
+ Right.
+
+121
+00:09:15,360 --> 00:09:17,280
+ Just checking the time.
+
+122
+00:09:17,280 --> 00:09:24,800
+ Yeah, it's used for transmission to deep space, but it's still only recommended for single
+
+123
+00:09:24,800 --> 00:09:30,880
+ hops from craft to ground station usually.
+
+124
+00:09:30,880 --> 00:09:36,360
+ But that's not well, if you know something about IP and routing, that's not really what
+
+125
+00:09:36,360 --> 00:09:38,040
+ we expect networking to do.
+
+126
+00:09:38,040 --> 00:09:43,640
+ We want to automatically get from point A to point B across multiple devices.
+
+127
+00:09:43,640 --> 00:09:48,120
+ Anyway, the system should be smart enough to figure it out.
+
+128
+00:09:48,120 --> 00:09:51,320
+ But right.
+
+129
+00:09:51,320 --> 00:09:57,720
+ I think the first protocol where they really found it necessary to implement something
+
+130
+00:09:57,720 --> 00:10:00,680
+ like this was with bundle protocol.
+
+131
+00:10:00,680 --> 00:10:07,080
+ I'll tell you shortly for what circumstances.
+
+132
+00:10:07,080 --> 00:10:16,720
+ I guess I should go into what is DTN or delay tolerant networking.
+
+133
+00:10:16,720 --> 00:10:23,180
+ When we're going into environments where we have very long delays, like we go to places
+
+134
+00:10:23,180 --> 00:10:29,840
+ like Mars or Jupiter, we have many minutes or hours of transmission delay.
+
+135
+00:10:29,840 --> 00:10:40,280
+ And also, orbital dynamics is a thing, and sometimes things disappear behind an object.
+
+136
+00:10:40,280 --> 00:10:43,400
+ So you have intermittent connections.
+
+137
+00:10:43,400 --> 00:10:49,720
+ And bundle protocol is sort of a framework for also dealing with intermittent connections,
+
+138
+00:10:49,720 --> 00:10:57,840
+ and it basically introduces the concept of custody transfers, passive transmit.
+
+139
+00:10:57,840 --> 00:11:03,240
+ I'll explain it here on this funny little graphic.
+
+140
+00:11:03,240 --> 00:11:10,160
+ This is supposed to be a lunar rover or something, and here a lunar orbiter.
+
+141
+00:11:10,160 --> 00:11:14,920
+ And you can easily imagine a lot of the time something, an object on the back of the moon,
+
+142
+00:11:14,920 --> 00:11:19,040
+ doesn't actually get reached by the Earth ground station.
+
+143
+00:11:19,040 --> 00:11:23,780
+ So you want to go through a relay of some kind.
+
+144
+00:11:23,780 --> 00:11:25,680
+ So how I've drawn it.
+
+145
+00:11:25,680 --> 00:11:32,760
+ You can basically have a direct connection link availability all the way, but it can
+
+146
+00:11:32,760 --> 00:11:41,880
+ be that the orbiter also gets lost behind the object, and then you need to send stuff
+
+147
+00:11:41,880 --> 00:11:42,880
+ first to the orbiter.
+
+148
+00:11:42,880 --> 00:11:48,160
+ It needs to hang on to it, take over custody, and then it comes back around, and then it
+
+149
+00:11:48,160 --> 00:11:50,600
+ can send stuff back.
+
+150
+00:11:50,600 --> 00:11:52,960
+ Right.
+
+151
+00:11:52,960 --> 00:12:03,080
+ And apparently these situations have a tendency to get a bit complicated, so they've actually
+
+152
+00:12:03,080 --> 00:12:06,560
+ designed a routing protocol to deal with these situations.
+
+153
+00:12:06,560 --> 00:12:12,560
+ There's actually also some terrestrial uses for bundle protocol.
+
+154
+00:12:12,560 --> 00:12:13,560
+ Some of them pretty cool.
+
+155
+00:12:13,560 --> 00:12:20,680
+ For example, when you have distributed sensors where there's not a lot of internet connection,
+
+156
+00:12:20,680 --> 00:12:28,760
+ and you fly a drone overhead to collect the data with a data mule, also a place you can
+
+157
+00:12:28,760 --> 00:12:29,760
+ use it.
+
+158
+00:12:29,760 --> 00:12:34,920
+ I heard it's also been used for bus systems where the city buses pass each other all the
+
+159
+00:12:34,920 --> 00:12:35,920
+ time.
+
+160
+00:12:35,920 --> 00:12:42,960
+ So if you can transmit to the buses directly, then they can just exchange information between
+
+161
+00:12:42,960 --> 00:12:43,960
+ each other.
+
+162
+00:12:43,960 --> 00:12:50,360
+ For example, about schedule changes or emergency info of some kind.
+
+163
+00:12:50,360 --> 00:12:52,600
+ I've heard that's what it's been used for.
+
+164
+00:12:52,600 --> 00:12:55,960
+ There's also routing for these sorts of scenarios.
+
+165
+00:12:55,960 --> 00:13:01,160
+ Also interesting stuff, epidemic routing is one way of doing it, which is just send everything
+
+166
+00:13:01,160 --> 00:13:05,520
+ to everyone, and you see where it turns up.
+
+167
+00:13:05,520 --> 00:13:11,600
+ But that's not for our use case here, where we still want to be pretty bandwidth efficient.
+
+168
+00:13:11,600 --> 00:13:18,060
+ And the protocol that was developed to solve that was contact graph routing.
+
+169
+00:13:18,060 --> 00:13:24,280
+ So now I'm going to explain contact graph routing in a slide.
+
+170
+00:13:24,280 --> 00:13:26,940
+ I'm going to explain this little diagram over here.
+
+171
+00:13:26,940 --> 00:13:35,880
+ So we have again a situation, ground station, a relay satellite, and the rover.
+
+172
+00:13:35,880 --> 00:13:40,800
+ And here these little blocks, if you can see them, are supposed to be contacts.
+
+173
+00:13:40,800 --> 00:13:46,680
+ Let's say we have a contact of one hour between the rover and the satellite with 100 kilobits
+
+174
+00:13:46,680 --> 00:13:49,060
+ per second.
+
+175
+00:13:49,060 --> 00:13:54,840
+ And later the satellite has a contact home to the ground station, also one hour 500 kilobits
+
+176
+00:13:54,840 --> 00:13:56,200
+ per second.
+
+177
+00:13:56,200 --> 00:13:59,440
+ Just some numbers.
+
+178
+00:13:59,440 --> 00:14:03,880
+ That's called a contact plan.
+
+179
+00:14:03,880 --> 00:14:07,600
+ You have to do it, even if you have line of sight between crafts, you still need to plan
+
+180
+00:14:07,600 --> 00:14:16,200
+ out where is it facing, when are which crafts supposed to have a link.
+
+181
+00:14:16,200 --> 00:14:21,820
+ This you know pretty much beforehand, unless something goes wrong.
+
+182
+00:14:21,820 --> 00:14:31,440
+ So you have this contact plan and you turn this into a contact graph.
+
+183
+00:14:31,440 --> 00:14:33,640
+ The contact graph is below.
+
+184
+00:14:33,640 --> 00:14:36,720
+ Basically this thing here is connected into...
+
+185
+00:14:36,720 --> 00:14:41,360
+ Well, you want to get something from the rover to the ground station.
+
+186
+00:14:41,360 --> 00:14:43,960
+ So the rover is sort of a source node.
+
+187
+00:14:43,960 --> 00:14:52,960
+ And every contact is also turned into a node and they are connected if something from one
+
+188
+00:14:52,960 --> 00:14:55,360
+ contact can be transmitted to the next contact.
+
+189
+00:14:55,360 --> 00:15:00,440
+ Like here, this edge means the satellite is holding on to the data and then transmitted
+
+190
+00:15:00,440 --> 00:15:02,280
+ on.
+
+191
+00:15:02,280 --> 00:15:08,360
+ And then there's basically, you run algorithms of path finding basically.
+
+192
+00:15:08,360 --> 00:15:11,680
+ Do I have a file of a certain size?
+
+193
+00:15:11,680 --> 00:15:14,600
+ Can I fit this through this graph?
+
+194
+00:15:14,600 --> 00:15:26,880
+ You have to remember every contact has a limited data amount it can put through.
+
+195
+00:15:26,880 --> 00:15:34,540
+ So that's contact graph routing in a nutshell, I guess.
+
+196
+00:15:34,540 --> 00:15:42,280
+ Another thing to remember is contact graph routing needs to keep track of what data is
+
+197
+00:15:42,280 --> 00:15:44,000
+ it sent where.
+
+198
+00:15:44,000 --> 00:15:55,760
+ For example, if the rover has sent enough data to basically fill this contact entirely,
+
+199
+00:15:55,760 --> 00:16:00,920
+ okay, it needs to remember, okay, this node is now out of the equation, no more space
+
+200
+00:16:00,920 --> 00:16:02,040
+ on that.
+
+201
+00:16:02,040 --> 00:16:05,920
+ And then if available, you have to choose another route.
+
+202
+00:16:05,920 --> 00:16:11,480
+ But when we have multiple relays, multiple crafts available, then this becomes more complicated.
+
+203
+00:16:11,480 --> 00:16:15,720
+ Then you need a proper algorithm for it.
+
+204
+00:16:15,720 --> 00:16:20,280
+ You can at least not easily hard code it.
+
+205
+00:16:20,280 --> 00:16:26,520
+ Yeah, and I guess to loop back around why I'm talking to you about this.
+
+206
+00:16:26,520 --> 00:16:32,240
+ This was actually sort of stuff I found really interesting for research, because there's
+
+207
+00:16:32,240 --> 00:16:40,160
+ -- and I have described it, there's a lot of things you can improve still.
+
+208
+00:16:40,160 --> 00:16:49,960
+ One of it is, for example, model of fragmentation, which is if you have a data unit that is too
+
+209
+00:16:49,960 --> 00:16:56,280
+ big to fit through a specific contact on a certain path, but you have still room, okay,
+
+210
+00:16:56,280 --> 00:17:00,720
+ you can send a fragment, okay, this should be squeezed through.
+
+211
+00:17:00,720 --> 00:17:08,540
+ Then the rest can be go through some other contact, maybe with a more expensive route.
+
+212
+00:17:08,540 --> 00:17:11,920
+ This was actually implemented by someone already.
+
+213
+00:17:11,920 --> 00:17:14,080
+ Or at least there's been a standard recommendation.
+
+214
+00:17:14,080 --> 00:17:21,480
+ Unfortunately, I don't really know if these algorithms are in use right now in deep space.
+
+215
+00:17:21,480 --> 00:17:25,360
+ It's a bit difficult to get the exact information on that.
+
+216
+00:17:25,360 --> 00:17:27,880
+ At least I haven't found it.
+
+217
+00:17:27,880 --> 00:17:31,560
+ But there's been work on this bundle fragmentation thing.
+
+218
+00:17:31,560 --> 00:17:35,160
+ Another interesting topic for me is congestion control.
+
+219
+00:17:35,160 --> 00:17:42,600
+ For example, if you go back, if we just imagine here two rovers who are using the same relay
+
+220
+00:17:42,600 --> 00:17:47,640
+ and don't know about each other, how are they supposed to know when this red contact has
+
+221
+00:17:47,640 --> 00:17:49,600
+ been exhausted?
+
+222
+00:17:49,600 --> 00:17:51,320
+ They don't really.
+
+223
+00:17:51,320 --> 00:18:01,200
+ So there's also been some work done on that, how nodes share with each other some information
+
+224
+00:18:01,200 --> 00:18:08,760
+ about how much they've already been queued, so other nodes know when to expect delays
+
+225
+00:18:08,760 --> 00:18:12,560
+ and they can reroute other places.
+
+226
+00:18:12,560 --> 00:18:18,320
+ Usually it's optimised by shortest delivery time.
+
+227
+00:18:18,320 --> 00:18:23,480
+ And if you can expect, okay, I'm going to wait on this node for hours and days, then, okay,
+
+228
+00:18:23,480 --> 00:18:27,000
+ I might want to use another slower route.
+
+229
+00:18:27,000 --> 00:18:29,240
+ That's sort of routing questions that arise.
+
+230
+00:18:29,240 --> 00:18:35,920
+ And otherwise, you know, right now I think the most you can realistically apply this
+
+231
+00:18:35,920 --> 00:18:43,240
+ is with the master rovers, curiosity and what's the other big one?
+
+232
+00:18:43,240 --> 00:18:48,200
+ Opportunity, thanks.
+
+233
+00:18:48,200 --> 00:18:51,120
+ And there's certainly orbiters overhead who could serve this function.
+
+234
+00:18:51,120 --> 00:18:54,680
+ I think they already do it in some fashion like this, though I'm not sure if they use
+
+235
+00:18:54,680 --> 00:18:58,160
+ the protocol.
+
+236
+00:18:58,160 --> 00:19:04,320
+ But what if you have, I don't know, ten times the rover, five times the relays, multiple
+
+237
+00:19:04,320 --> 00:19:06,120
+ hops?
+
+238
+00:19:06,120 --> 00:19:10,680
+ I think it's I feel like this isn't figured out.
+
+239
+00:19:10,680 --> 00:19:13,080
+ And I would be interested in doing it.
+
+240
+00:19:13,080 --> 00:19:17,860
+ And this is where I'm complaining that it's kind of difficult.
+
+241
+00:19:17,860 --> 00:19:27,560
+ So when you're, you know, come from the internet world, you expect, okay, these sort of standards,
+
+242
+00:19:27,560 --> 00:19:31,960
+ surely there's reference implementation that I can just plug together somehow and run simulations.
+
+243
+00:19:31,960 --> 00:19:36,160
+ Well, it's still tough.
+
+244
+00:19:36,160 --> 00:19:38,600
+ There's not at least I didn't find so much.
+
+245
+00:19:38,600 --> 00:19:45,920
+ And I found a implementation in a network simulator, NS3.
+
+246
+00:19:45,920 --> 00:19:53,040
+ For bundle protocol, there is actually an implementation published by NASA.
+
+247
+00:19:53,040 --> 00:19:59,520
+ But for some of the papers I've been looking at, I should mention Scott Burley and Sangeeta
+
+248
+00:19:59,520 --> 00:20:07,800
+ Dara, which have been writing the papers about this stuff that I've been referring to.
+
+249
+00:20:07,800 --> 00:20:13,000
+ Yeah, I've asked for the simulators, but they haven't sent it to me yet.
+
+250
+00:20:13,000 --> 00:20:16,280
+ But maybe they will, or maybe they won't.
+
+251
+00:20:16,280 --> 00:20:20,760
+ Sometimes there's weird export restrictions on space code.
+
+252
+00:20:20,760 --> 00:20:24,400
+ And apparently NASA publishes a lot of code.
+
+253
+00:20:24,400 --> 00:20:30,040
+ But a lot of code is, hey, we'll send it only to you if you're an American citizen.
+
+254
+00:20:30,040 --> 00:20:31,880
+ Okay, I guess.
+
+255
+00:20:31,880 --> 00:20:34,840
+ Not sure if that's a real security achievement.
+
+256
+00:20:34,840 --> 00:20:37,920
+ But some stuff is difficult to guess.
+
+257
+00:20:37,920 --> 00:20:46,240
+ But I've been dreaming up how would I want this simulation research to be conducted,
+
+258
+00:20:46,240 --> 00:20:48,080
+ what would be really cool.
+
+259
+00:20:48,080 --> 00:20:53,960
+ Then I think some sort of modular framework like this, where, for example, you have, I
+
+260
+00:20:53,960 --> 00:21:01,320
+ guess what you would need is orbit simulations, link simulations, and node simulations.
+
+261
+00:21:01,320 --> 00:21:03,160
+ In my head, that makes a lot of sense.
+
+262
+00:21:03,160 --> 00:21:08,360
+ So you have one part, the trajectories of the crafts that you're trying to build a network
+
+263
+00:21:08,360 --> 00:21:14,000
+ with, because that, of course, informs what kind of networks make sense.
+
+264
+00:21:14,000 --> 00:21:20,520
+ Then you need to determine, okay, what's line of sight going to be if you're sending stuff
+
+265
+00:21:20,520 --> 00:21:21,880
+ through the atmosphere?
+
+266
+00:21:21,880 --> 00:21:28,100
+ Maybe there's a changing interference depending on what angle you send stuff.
+
+267
+00:21:28,100 --> 00:21:30,120
+ So that's the other part of the simulation.
+
+268
+00:21:30,120 --> 00:21:37,360
+ Then you need some sort of emulation of the network that's running on the node.
+
+269
+00:21:37,360 --> 00:21:40,080
+ So that's what I would want.
+
+270
+00:21:40,080 --> 00:21:46,280
+ And then you just combine it in some sort of mission compose.yaml.
+
+271
+00:21:46,280 --> 00:21:47,680
+ But it doesn't exist yet.
+
+272
+00:21:47,680 --> 00:21:52,320
+ So maybe I have time to write it.
+
+273
+00:21:52,320 --> 00:21:54,120
+ And thanks for coming to my talk.
+
+274
+00:21:54,120 --> 00:22:00,880
+ Some cool people I found, C3 space center, Libra space foundation.
+
+275
+00:22:00,880 --> 00:22:04,160
+ They also try to do some open source space stuff.
+
+276
+00:22:04,160 --> 00:22:06,080
+ And yeah.
+
+277
+00:22:06,080 --> 00:22:07,080
+ Thanks for listening.
+
+278
+00:22:07,080 --> 00:22:13,400
+ I'll be by the side for questions.
+
+279
+00:22:13,400 --> 00:22:15,700
+ Thank you very much for your presentation.
+
+280
+00:22:15,700 --> 00:22:20,040
+ So we're pretty much spot on for time.
+
+281
+00:22:20,040 --> 00:22:24,520
+ So maybe the most important information would then be where can people find you to talk
+
+282
+00:22:24,520 --> 00:22:25,520
+ to you about.
+
+283
+00:22:25,520 --> 00:22:26,520
+ Oh, right.
+
+284
+00:22:26,520 --> 00:22:35,520
+ I guess I'll hang out by the stage for a while and I'll be at the WTF village for a while.
+
+285
+00:22:35,520 --> 00:22:36,780
+ Very good.
+
+286
+00:22:36,780 --> 00:22:42,460
+ So unfortunately no time for questions since we're running a tight schedule here.
+
+287
+00:22:42,460 --> 00:22:47,400
+ But let's thank again our speaker, Jaschop, for his nice presentation.
+
+288
+00:22:47,400 --> 00:22:48,400
+ Thank you.
+
+289
+00:22:48,400 --> 00:22:52,120
+ Thank you.
+
+290
+00:22:52,120 --> 00:22:56,120
+ (music)
+

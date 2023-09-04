@@ -1,0 +1,938 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+ [Musik]
+
+00:00:30.000 --> 00:00:36.000
+ Also Karten sind super, um Informationen darzustellen und geobezogene Sachen zu visualisieren.
+
+00:00:36.000 --> 00:00:40.000
+ Und wenn die dann auch noch interaktiv sind, dann sind zumindest alle meine Freunde und ich begeistert.
+
+00:00:40.000 --> 00:00:46.000
+ Und Michael und jetzt würden euch mal vorstellen, wie man das realisieren kann mit ihrem Projekt Versat-Tiles.
+
+00:00:46.000 --> 00:00:49.000
+ Gut, dann eine Runde Applaus und viel Spaß.
+
+00:00:49.000 --> 00:00:52.000
+ [Applaus]
+
+00:00:52.000 --> 00:00:57.000
+ Vielen Dank. Mein Name ist Michael Krall. Ich bin Datenschönlist bei S beim Südwestrundfunk.
+
+00:00:57.000 --> 00:01:02.000
+ Und das ist ... Genau, ich bin jetzt. Ich bin auch Datenschönlist in und zwar bei der Funke Mediengruppe.
+
+00:01:02.000 --> 00:01:08.000
+ Und zusammen haben wir ganz viele Datenvisualisierungen gemacht und haben festgestellt,
+
+00:01:08.000 --> 00:01:12.000
+ Karten sind ein total wichtiges Instrument, um Daten darzustellen.
+
+00:01:12.000 --> 00:01:15.000
+ Aber leider sind die Daten nicht immer frei.
+
+00:01:15.000 --> 00:01:21.000
+ Und die Anbieter, die sich da etabliert haben, geben die Daten nicht immer frei raus.
+
+00:01:21.000 --> 00:01:23.000
+ Und dagegen wollen wir was tun.
+
+00:01:23.000 --> 00:01:26.000
+ Wir haben was dagegen. Ich gebe mal ein typisches Beispiel in Corona.
+
+00:01:26.000 --> 00:01:31.000
+ Ihr Berliner Kurier, die 14 kleinen Testzentren der Senats, ist eine lange Auflistung von Adressen.
+
+00:01:31.000 --> 00:01:34.000
+ Das hilft einem nicht. Man möchte gerne wissen, was ist in der Nähe.
+
+00:01:34.000 --> 00:01:36.000
+ Eine Kartendarstellung würde helfen.
+
+00:01:36.000 --> 00:01:38.000
+ Kartendarstellungen sind aber extrem schwierig.
+
+00:01:38.000 --> 00:01:44.000
+ Zum einen gibt es natürlich den Ansatz, man kann auf OpenStreetMap.org einfach die Kartenkacheln frei verwenden.
+
+00:01:44.000 --> 00:01:46.000
+ Die sind aber nicht hübsch.
+
+00:01:46.000 --> 00:01:49.000
+ Und das liegt auch einfach daran, dass die Aufgabe von OpenStreetMap eine andere ist.
+
+00:01:49.000 --> 00:01:53.000
+ Sie versuchen alle Daten in dieser Datenbank in einer Karte darzustellen.
+
+00:01:53.000 --> 00:01:57.000
+ Da geht es nicht um Übersichtlichkeit, sondern um hohen Informationsgehalt.
+
+00:01:57.000 --> 00:02:00.000
+ Da gibt es kommerzielle Anbieter, die machen schönere Karten, die man einkaufen kann.
+
+00:02:00.000 --> 00:02:02.000
+ Aber zum einen machen die eine Menge Tracking.
+
+00:02:02.000 --> 00:02:06.000
+ Also zum Beispiel, wenn ich eine Google Maps-Karte einbinde, müsste ich eigentlich eine Zwei-Click-Lösung,
+
+00:02:06.000 --> 00:02:09.000
+ eine Cookie-Warnung und eine Datenschutz-Grundverordnung berücksichtigen.
+
+00:02:09.000 --> 00:02:11.000
+ Und sie sind extrem teuer.
+
+00:02:11.000 --> 00:02:13.000
+ Mal ein Beispiel.
+
+00:02:13.000 --> 00:02:15.000
+ Ein Beispielsszenario. Ich habe eine Million Besucher.
+
+00:02:15.000 --> 00:02:19.000
+ Die klicken ungefähr so zehn Kacheln, wenn sie reinzoomen.
+
+00:02:19.000 --> 00:02:21.000
+ Das macht ungefähr einen Terabyte an Traffic.
+
+00:02:21.000 --> 00:02:24.000
+ Das ist ein Szenario typisch für ein Medium, auch für eine NGO.
+
+00:02:24.000 --> 00:02:27.000
+ Für private Anbieter jetzt erstmal, oder sozusagen private Webseiten nicht.
+
+00:02:27.000 --> 00:02:31.000
+ Aber wenn ihr jetzt mal irgendwie Netzpolitik.org oder vieles auf euch verlinkt,
+
+00:02:31.000 --> 00:02:34.000
+ dann seid ihr auch relativ schnell in diesem Bereich drin.
+
+00:02:34.000 --> 00:02:38.000
+ Bei Mapbox würde euch das 2.800 Euro kosten.
+
+00:02:38.000 --> 00:02:42.000
+ Wenn man es komplett selber macht, hat man eigentlich bei Hetzner ein bisschen Hosting
+
+00:02:42.000 --> 00:02:44.000
+ und hauptsächlich Traffic-Kosten.
+
+00:02:44.000 --> 00:02:46.000
+ Da sind wir dann bei 1,19 Euro.
+
+00:02:46.000 --> 00:02:48.000
+ Also hier hat Mapbox auch ein Geschäftsmodell gefahren,
+
+00:02:48.000 --> 00:02:52.000
+ das einfach Faktor 2000 den Traffic vergoldet.
+
+00:02:52.000 --> 00:02:57.000
+ Das heißt, wir brauchen eigentlich mal einen eigenen hübschen Kartenserver,
+
+00:02:57.000 --> 00:02:59.000
+ haben wir uns dann auch beim Südwestrundfunk gedacht.
+
+00:02:59.000 --> 00:03:01.000
+ Und den machen wir dann auch gleich mal Open Source.
+
+00:03:01.000 --> 00:03:03.000
+ Die Daten sind ja schon Open Source.
+
+00:03:03.000 --> 00:03:05.000
+ Und wir müssen jetzt halt noch eine Infrastruktur drum rumbauen,
+
+00:03:05.000 --> 00:03:10.000
+ dass alle, die benutzen können, ohne dass dann kommerzielle Anbieter wie Mapbox oder MapTiler
+
+00:03:10.000 --> 00:03:15.000
+ für das Hosting und den Service Unmengen Geld verlangt.
+
+00:03:15.000 --> 00:03:18.000
+ So, ich zeige euch hier einfach mal, ab sofort geht es im Browser weiter.
+
+00:03:18.000 --> 00:03:20.000
+ Das ist jetzt zum Beispiel mal so eine Waldbrandgefahrenkarte,
+
+00:03:20.000 --> 00:03:22.000
+ die wir beim S-Ware gemacht haben.
+
+00:03:22.000 --> 00:03:25.000
+ Da sieht man sozusagen die europäischen Waldbrandgefahrenstufen.
+
+00:03:25.000 --> 00:03:27.000
+ Und die müssen wir halt auch auf eine Karte dahinter setzen.
+
+00:03:27.000 --> 00:03:30.000
+ Und die ist halt mit unserem Kartenserver gebaut.
+
+00:03:30.000 --> 00:03:34.000
+ Und das Ding haben wir Open Source und haben es genannt Versatiles.
+
+00:03:34.000 --> 00:03:37.000
+ Hier auf der Webseite versatiles.org, mal so ein kleines Demo,
+
+00:03:37.000 --> 00:03:41.000
+ da kann man sich das halt im Prinzip angucken.
+
+00:03:41.000 --> 00:03:44.000
+ Und jetzt gehe ich mal im Schnelldurchlauf durch.
+
+00:03:44.000 --> 00:03:48.000
+ Ich will jetzt mehr euch Zeit lassen, Fragen dazu zu stellen.
+
+00:03:48.000 --> 00:03:50.000
+ Oh Gott, wir sind zu fix.
+
+00:03:50.000 --> 00:03:53.000
+ Dann können wir sogar noch eine Schweigennude zwischen euch machen.
+
+00:03:53.000 --> 00:03:58.000
+ Also, es gibt, die Idee von Versatiles ist, dass wir sozusagen mehrere Varianten anbieten
+
+00:03:58.000 --> 00:04:02.000
+ für alle Leute, wie sie dann einen eigenen Kartenserver aufsetzen oder nutzen können.
+
+00:04:02.000 --> 00:04:05.000
+ Die erste Variante ist Use Our Maps Server.
+
+00:04:05.000 --> 00:04:09.000
+ Das ist sozusagen der fertige Code, wo JavaScript, CSS drinne steht und den Style, den er braucht.
+
+00:04:09.000 --> 00:04:12.000
+ Und dann könnt ihr einfach unseren Kartenserver benutzen.
+
+00:04:12.000 --> 00:04:15.000
+ Den zahlen wir jetzt gerade privat.
+
+00:04:15.000 --> 00:04:17.000
+ Vorteil ist, es ist einfach und kostenlos.
+
+00:04:17.000 --> 00:04:22.000
+ Nachteil ist, wir können euch jetzt noch nicht eine 24/7 Availability und Performance Maximum garantieren.
+
+00:04:22.000 --> 00:04:25.000
+ Da müssen wir glaube ich noch Strukturen im Hintergrund sozusagen aufbauen.
+
+00:04:25.000 --> 00:04:29.000
+ Wir wünschen uns, dass es irgendwann vielleicht zu einem größeren Community Projekt wird,
+
+00:04:29.000 --> 00:04:33.000
+ wo die Community einfach hosting Infrastruktur stellt und die Daten da einfach liegen.
+
+00:04:33.000 --> 00:04:35.000
+ Die Ansprüche sind relativ gering.
+
+00:04:35.000 --> 00:04:40.000
+ Das große, was weggeht, ist Traffic, wenn es populär wird irgendwann.
+
+00:04:40.000 --> 00:04:45.000
+ Die zweite Variante ist, ihr könnt unseren Kartenserver benutzen und ihr könnt einen CDN davor setzen.
+
+00:04:45.000 --> 00:04:50.000
+ Also da kann man sich einen Anbieter, ich habe jetzt hier mal Bunnynet genommen, den legt man einfach davor.
+
+00:04:50.000 --> 00:04:57.000
+ Sorgt dafür, dass sozusagen die Performance besser ist und sichergestellt ist,
+
+00:04:57.000 --> 00:05:00.000
+ dass wenn unser Server mal ausfällt, dass weiterhin bei euch Kartenkacheln ankommen.
+
+00:05:00.000 --> 00:05:04.000
+ Ich will es mal erwähnt haben, weil ihr dürft das bei kommerziellen Anbietern nämlich nicht machen.
+
+00:05:04.000 --> 00:05:07.000
+ Die sagen explizit, ihr dürft deren Kartenkacheln nicht cashen,
+
+00:05:07.000 --> 00:05:10.000
+ damit ihr nämlich schön den kompletten Traffic bezahlt.
+
+00:05:10.000 --> 00:05:12.000
+ Das muss ja sozusagen auch eine Anquelle sein.
+
+00:05:12.000 --> 00:05:17.000
+ Wir sagen im Gegenteil, nutzt den CDN, entlastet unseren Server und macht eure Anwendung schneller.
+
+00:05:17.000 --> 00:05:22.000
+ Und es gibt keine besonderen Ansprüche an das CDN, sondern das ist einfach eins von der Stange.
+
+00:05:22.000 --> 00:05:27.000
+ Es ist ganz normal HTTPS Traffic, der da durchläuft.
+
+00:05:27.000 --> 00:05:30.000
+ Dann könnt ihr natürlich einen eigenen Server aufsetzen.
+
+00:05:30.000 --> 00:05:34.000
+ Da haben wir auch schon alles dazu fertig, zeigen wir euch gleich.
+
+00:05:34.000 --> 00:05:37.000
+ Und ihr müsst halt auch den ganzen Kartenkacheln kramen.
+
+00:05:37.000 --> 00:05:41.000
+ Das ist extrem aufwendig, diese Vector-Kartenkacheln alle vorzubereiten.
+
+00:05:41.000 --> 00:05:45.000
+ Die ganze Welt, bis Zoom-Stufe 14 hat dann 360 Millionen Kartenkacheln.
+
+00:05:45.000 --> 00:05:47.000
+ Das haben wir schon alles vorbereitet.
+
+00:05:47.000 --> 00:05:51.000
+ Auf Download-Versatiles.org könnt ihr das dann einfach runterladen.
+
+00:05:51.000 --> 00:05:55.000
+ Und wir haben schon alles vorbereitet, dass ihr das auch in einem Cloud-Service machen könnt.
+
+00:05:55.000 --> 00:06:00.000
+ Was weiß ich so, Kubernetes, Digital Ocean, Google Cloud One, AWS und was es nicht alles gibt.
+
+00:06:00.000 --> 00:06:05.000
+ Und ansonsten planen wir alle paar Wochen den kompletten Planeten neu zusammenzupacken
+
+00:06:05.000 --> 00:06:09.000
+ und allen einfach zur Verfügung zu stellen, sodass alle Menschen ihn benutzen können.
+
+00:06:09.000 --> 00:06:14.000
+ Hier ist mal ein Beispiel, dass jetzt hier Versatiles, also der letzte Stand ist Juni.
+
+00:06:14.000 --> 00:06:16.000
+ Ich bin jetzt momentan im 3-Monate-Takt, ok?
+
+00:06:16.000 --> 00:06:18.000
+ Also September gibt es noch wieder ein Update.
+
+00:06:18.000 --> 00:06:23.000
+ Das ist eine sehr, sehr große, fette Maschine, die halt den kompletten Planeten durchrechnet.
+
+00:06:23.000 --> 00:06:26.000
+ Da braucht es mehrere Stunden dran und machen jetzt erst mal so einen Quartalsmodus.
+
+00:06:26.000 --> 00:06:29.000
+ Und dann gucken wir mal, ob wir da irgendwann häufiger werden.
+
+00:06:29.000 --> 00:06:34.000
+ Wie ihr gesehen habt, es gibt sowohl MB-Tiles als auch eine Datei, die heißt .Versatiles.
+
+00:06:34.000 --> 00:06:38.000
+ Und die ist deutlich kleiner. .Versatiles ist unser eigenes Containerformat,
+
+00:06:38.000 --> 00:06:41.000
+ das wir unter Open-Source-Lizenz veröffentlicht haben
+
+00:06:41.000 --> 00:06:44.000
+ und wo es auch schon Software für gibt, um das zu benutzen.
+
+00:06:44.000 --> 00:06:46.000
+ Kann ich auch gleich was dazu erzählen.
+
+00:06:46.000 --> 00:06:50.000
+ Hier ist nochmal kurz, ich habe mal den Ziegeleihpark Mildenberg hier mal gemacht,
+
+00:06:50.000 --> 00:06:52.000
+ nur mal zu zeigen, an was wir gerade so arbeiten.
+
+00:06:52.000 --> 00:06:56.000
+ Klassisch eine Karte und da möchte man aber jetzt gerne was im Vordergrund machen.
+
+00:06:56.000 --> 00:06:59.000
+ Das habe ich schon eingebaut, dass man das Ding schwarz-weiß machen kann
+
+00:06:59.000 --> 00:07:05.000
+ oder den Kontrast verändern oder man möchte es gerne einfärben oder in einer anderen Farbe.
+
+00:07:05.000 --> 00:07:08.000
+ Dass man sich einfach relativ schnell so eine Karte selber machen kann,
+
+00:07:08.000 --> 00:07:14.000
+ die dann blasser ist, um dann rote Punkte vorne rein zu machen oder so was.
+
+00:07:14.000 --> 00:07:18.000
+ Jetzt wird es etwas nerdiger. Wie funktioniert der Kram?
+
+00:07:18.000 --> 00:07:21.000
+ Die Kernidee von Versatiles ist eigentlich ganz einfach.
+
+00:07:21.000 --> 00:07:26.000
+ Man sieht es nicht, aber die Idee ist sozusagen das große Problem.
+
+00:07:26.000 --> 00:07:30.000
+ Ich möchte gerne eine interaktive Karte haben, in fünf Schritten zu zerlegen.
+
+00:07:30.000 --> 00:07:33.000
+ Das erste ist, ich mache aus Open-Street-Map-Daten diese Kartenkacheln.
+
+00:07:33.000 --> 00:07:36.000
+ Der zweite Schritt ist, ich bereite diese Kartenkacheln vor,
+
+00:07:36.000 --> 00:07:42.000
+ dass ich sie dann im Internet ausbreiten oder serven verbreiten kann, publizieren kann.
+
+00:07:42.000 --> 00:07:45.000
+ Und dann setzen wir zum Beispiel explizit da rein,
+
+00:07:45.000 --> 00:07:48.000
+ dass wir nicht das in einem MB-Tiles-Format liegen haben.
+
+00:07:48.000 --> 00:07:53.000
+ Das ist eine SQLite-Datenbank, das ist ein bisschen hacky, was ich Mapbox damals ausgedacht hatte.
+
+00:07:53.000 --> 00:07:56.000
+ Da haben wir ein eigenes Container-Format gemacht, das kleiner und schneller ist
+
+00:07:56.000 --> 00:07:58.000
+ und das jetzt extrem cloud-kompatibel ist.
+
+00:07:58.000 --> 00:08:01.000
+ Und dass man über HTTP-Range-Requests auch direkt querien kann.
+
+00:08:01.000 --> 00:08:04.000
+ Genau. Dann gibt es einen Server.
+
+00:08:04.000 --> 00:08:06.000
+ Da haben wir jetzt schon mehrere Implementierungen fertig.
+
+00:08:06.000 --> 00:08:08.000
+ Das ist hier das mittlere Feld, was ihr nicht seht.
+
+00:08:08.000 --> 00:08:11.000
+ Dann kommt dann sozusagen Poxi davor.
+
+00:08:11.000 --> 00:08:14.000
+ Das ist derjenige, der sich um den ganzen Netzwerkkram kümmert.
+
+00:08:14.000 --> 00:08:18.000
+ Also SSL-Verschlüsselung, das ist irgendwie HTTPS ausliefert.
+
+00:08:18.000 --> 00:08:20.000
+ Caching, CDN, Load Balancing.
+
+00:08:20.000 --> 00:08:22.000
+ Was macht man noch so?
+
+00:08:22.000 --> 00:08:26.000
+ Die Details notwendig noch manipulieren und leer rausschmeißen, die man nicht haben möchte.
+
+00:08:26.000 --> 00:08:29.000
+ Ja, dann müssen wir mal gucken. Ich mache mal ein Issue auf.
+
+00:08:29.000 --> 00:08:31.000
+ Teilblaster kann das.
+
+00:08:31.000 --> 00:08:35.000
+ Ja. Die größten Konkurrenten arbeiten in einem Team.
+
+00:08:35.000 --> 00:08:37.000
+ Das kann ja nur perfekt werden.
+
+00:08:37.000 --> 00:08:40.000
+ Und zum Schluss gibt es einen Frontend vorne drauf.
+
+00:08:40.000 --> 00:08:43.000
+ Da ziehe ich dann sozusagen auf der Webseite noch ein bisschen genauer, wie das funktioniert
+
+00:08:43.000 --> 00:08:47.000
+ und für die ganz harten sieht man hier so ein Strukturdiagramm.
+
+00:08:47.000 --> 00:08:51.000
+ Da sieht man sozusagen im Flowchart, welche Sachen für alles zuständig ist.
+
+00:08:51.000 --> 00:08:53.000
+ Hier gibt es dann so einen Docker-Container.
+
+00:08:53.000 --> 00:08:55.000
+ Da ist dann Versatiles drin und Teilmaker.
+
+00:08:55.000 --> 00:08:57.000
+ Ihr könnt es auf der Webseite anschauen.
+
+00:08:57.000 --> 00:08:59.000
+ Der sich sozusagen darum kümmert.
+
+00:08:59.000 --> 00:09:02.000
+ Für die Leute, die hier keine Lust drauf haben, wie gesagt, ignoriert das.
+
+00:09:02.000 --> 00:09:05.000
+ Ihr könnt einfach die fertigen Kartenkarten bei uns runterladen.
+
+00:09:05.000 --> 00:09:09.000
+ Hier gibt es einmal den Node-Server von Sebastian, Node.js.
+
+00:09:09.000 --> 00:09:13.000
+ Dann habe ich noch mal einen Server in Rust geschrieben.
+
+00:09:13.000 --> 00:09:17.000
+ Der ist noch mal in einem Docker-Container, auch extrem klein drin.
+
+00:09:17.000 --> 00:09:21.000
+ Genau. Wir haben das Frontend schon komplett vorbereitet.
+
+00:09:21.000 --> 00:09:23.000
+ Da haben wir jetzt mehrere Stile drin.
+
+00:09:23.000 --> 00:09:28.000
+ Wir haben jetzt Sprites, also so kleine Symbole, wie man in einem Hauptbahnhof oder Restaurants darstellen möchte.
+
+00:09:28.000 --> 00:09:31.000
+ Wir haben Fonds vorgerendert, das brauchen wir ja auch.
+
+00:09:31.000 --> 00:09:34.000
+ Die müssen ja speziell dann sozusagen vorgerendert werden, damit es dann im Frontend läuft.
+
+00:09:34.000 --> 00:09:36.000
+ Ja, Sprites und Glyphs haben wir auch rumliegen.
+
+00:09:36.000 --> 00:09:41.000
+ Alles da und hier unten sind dann sozusagen die ganzen Repositories, die das bauen.
+
+00:09:41.000 --> 00:09:48.000
+ Und wenn ihr helfen wollt, wir brauchen Feedback.
+
+00:09:48.000 --> 00:09:50.000
+ Wir brauchen Leute, die das nutzen.
+
+00:09:50.000 --> 00:09:53.000
+ Also momentan essen wir gerade die ganze Zeit unser eigenes Hundefutter, sagt man.
+
+00:09:53.000 --> 00:09:54.000
+ In your Dogfood.
+
+00:09:54.000 --> 00:09:55.000
+ Genau, wir Dogfooding.
+
+00:09:55.000 --> 00:09:57.000
+ Genau, wir brauchen mehr Leute, die Hundefutter essen.
+
+00:09:57.000 --> 00:09:59.000
+ Wir brauchen mehr Leute, die das mal austesten.
+
+00:09:59.000 --> 00:10:01.000
+ Wir haben noch ein paar Probleme.
+
+00:10:01.000 --> 00:10:06.000
+ Ich würde gerne diesen Docker-Container mit Versatize und Engines mit Let's Encrypt drin richtig machen.
+
+00:10:06.000 --> 00:10:09.000
+ Der Versatize-Server läuft noch nicht unter Windows.
+
+00:10:09.000 --> 00:10:11.000
+ Wäre nice to have.
+
+00:10:11.000 --> 00:10:12.000
+ Vielleicht braucht das jemand.
+
+00:10:12.000 --> 00:10:19.000
+ Also ich habe ihn immerhin auf Linux unter GNU und MUSE, läuft auf ARM und AMD.
+
+00:10:19.000 --> 00:10:23.000
+ Mac haben wir auch, Intel und ARM Prozessoren.
+
+00:10:23.000 --> 00:10:26.000
+ Aber Windows ist dann einfach damit die Reihe voll ist.
+
+00:10:26.000 --> 00:10:29.000
+ Ja, auf die BSD.
+
+00:10:29.000 --> 00:10:33.000
+ So, Homebrew, wir würden ihn auch gerne, damit ihn für Mac leichter genutzt werden kann.
+
+00:10:33.000 --> 00:10:38.000
+ Ich brauche einen besseren Workerpool, um irgendwie die Kachen besser vorzukomprimieren.
+
+00:10:38.000 --> 00:10:40.000
+ Momentan sind sie in GZIP, wir würden sie in Brodli.
+
+00:10:40.000 --> 00:10:44.000
+ Dann sind die Daten einfach noch mal kleiner, wenn er sie ausspielt, spart halt auch noch mehr Kosten.
+
+00:10:44.000 --> 00:10:45.000
+ Genau.
+
+00:10:45.000 --> 00:10:50.000
+ Und die obersten Zoom-Stufen sieht man auch so ein bisschen, wenn man jetzt hier mal ganz weit rauszoomt.
+
+00:10:50.000 --> 00:10:53.000
+ Die Erde ist ein bisschen...
+
+00:10:53.000 --> 00:10:54.000
+ Langweilig.
+
+00:10:54.000 --> 00:10:57.000
+ Ja, sie ist ein bisschen sozusagen leer.
+
+00:10:57.000 --> 00:11:01.000
+ Das liegt halt einfach daran, wie das Layer Scheme aufgebaut ist.
+
+00:11:01.000 --> 00:11:07.000
+ Und da müssen wir natürlich noch ein bisschen das Layer Scheme tweaken, damit auch mehr Informationen in den höheren Zoom-Stufen,
+
+00:11:07.000 --> 00:11:11.000
+ sprich niedrigeren Zoom-Stufen, wo man weiter rauszoomt, das zu sehen sind.
+
+00:11:11.000 --> 00:11:15.000
+ So ist es noch relativ wenig, aber das ist alles noch anpassungsfähig.
+
+00:11:15.000 --> 00:11:18.000
+ Dass man da irgendwie so Vegetation oder sowas hat oder Wälder oder so.
+
+00:11:18.000 --> 00:11:19.000
+ Genau.
+
+00:11:19.000 --> 00:11:23.000
+ Falls sich Leute fragen, das Layer Scheme, das wir da verwenden, ist eins, das von der Geofabrik entwickelt wurde,
+
+00:11:23.000 --> 00:11:28.000
+ explizit unter der FTWPL, also "The F*ck The Warranty Public License".
+
+00:11:28.000 --> 00:11:34.000
+ Im Gegensatz zu der proprietären License, die zum Beispiel Mapbox oder auch Open Map Pass verwenden,
+
+00:11:34.000 --> 00:11:40.000
+ ist das ein freies Layer Scheme, wo niemand irgendwie ein Copyright unterschreiben muss oder irgendwelche Ansprüche erheben kann.
+
+00:11:40.000 --> 00:11:41.000
+ Ja.
+
+00:11:41.000 --> 00:11:46.000
+ Wir haben drauf geachtet, dass es keinerlei proprietäre oder sonst welche Lizenz und Bedingungen oder sonst was dran gibt.
+
+00:11:46.000 --> 00:11:51.000
+ Das einzige ist sozusagen Quelle OpenStreetMap-Contributors.
+
+00:11:51.000 --> 00:11:55.000
+ Das ist zumindest das einzige. Alles andere ist absolut lizenzfrei.
+
+00:11:55.000 --> 00:11:56.000
+ Genau.
+
+00:11:56.000 --> 00:11:59.000
+ Und das war es mal im Schnelldurchlauf. Dankeschön.
+
+00:11:59.000 --> 00:12:07.000
+ Dann vielen Dank. Und wenn ihr Fragen habt, dann bitte immer raus damit.
+
+00:12:07.000 --> 00:12:12.000
+ Ich würde dann meinem Mikro genau einmal ein bisschen durch die Gegend reichen. Hervorragend.
+
+00:12:12.000 --> 00:12:16.000
+ Hallo. Ja, ich finde das Projekt super spannend.
+
+00:12:16.000 --> 00:12:20.000
+ Und ich habe auch letztens mal so ein ähnliches Projekt gesehen, das heißt ProtoMaps.
+
+00:12:20.000 --> 00:12:25.000
+ Das macht, glaube ich, also das ist sehr, sehr ähnlich auch zu eurem Format, nehme ich mal an.
+
+00:12:25.000 --> 00:12:29.000
+ Habt ihr da irgendwie Connections oder vielleicht Überlegungen, dann Standard zu schaffen?
+
+00:12:29.000 --> 00:12:34.000
+ Also wir haben auch schon miteinander gesprochen und es macht Sinn, sozusagen diese beiden Projekte auseinanderzuhalten.
+
+00:12:34.000 --> 00:12:37.000
+ Sie überlappen sich eigentlich nur in einem Punkt und zwar in diesem Container-Format.
+
+00:12:37.000 --> 00:12:42.000
+ Da ist sozusagen das PM-Tiles-Format oder auch COM-Tiles und anderes ähnlich wie unser Versatiles.
+
+00:12:42.000 --> 00:12:48.000
+ Der Unterschied von ihm ist aber, es geht darum, dass man sozusagen einen Container bei sich irgendwie online packt.
+
+00:12:48.000 --> 00:12:53.000
+ Und dann kann man da irgendwie, können da so ein paar Leute sozusagen ihre Karten anschauen.
+
+00:12:53.000 --> 00:12:56.000
+ Wir haben das so gemacht, dass es eine hoch skalierbare Karteninfrastruktur ist.
+
+00:12:56.000 --> 00:13:01.000
+ Das ist sowohl für Privatleute kostenlos nutzbar als auch, was weiß ich, für große Medienkonzerne.
+
+00:13:01.000 --> 00:13:05.000
+ Also wir können eine richtige skalierbare Infrastruktur machen. Das kann ProtoMaps nicht.
+
+00:13:05.000 --> 00:13:09.000
+ Genau. PM-Tiles ist sehr darauf zugeschnitten, dass es bei spezifisch Amazon liegt,
+
+00:13:09.000 --> 00:13:13.000
+ wo die HTTP Range Request eine gewisse Länge haben müssen, damit sie gut gecached werden können.
+
+00:13:13.000 --> 00:13:16.000
+ Und deswegen benutzen die da so ein, wie heißt das?
+
+00:13:16.000 --> 00:13:17.000
+ Hilbert Kurve.
+
+00:13:17.000 --> 00:13:22.000
+ Hilbert Kurve, um Details abzulegen und so. Das ist eigentlich viel zu kompliziert und uns ist das einfach deutlich einfacher zu implementieren.
+
+00:13:22.000 --> 00:13:26.000
+ Also nur noch zwei Stichworte. Das eine ist, PM-Tiles können nicht gecached werden.
+
+00:13:26.000 --> 00:13:29.000
+ Die sind nicht im Browser cache, weil es nur HTTP Range Request sind.
+
+00:13:29.000 --> 00:13:34.000
+ Und sie sind unkomprimiert. Das will er jetzt nachrüsten. Da will er jetzt in JavaScript sozusagen nochmal GZIP.
+
+00:13:34.000 --> 00:13:39.000
+ Genau. Der Browser hat keine API für Kompression. Das ist auch was, wieso unseres nicht im Browser läuft.
+
+00:13:39.000 --> 00:13:44.000
+ Also man kann das zieltsch machen. Du implementierst Bothly und GZIP direkt im Browser in JavaScript.
+
+00:13:44.000 --> 00:13:48.000
+ Und dann kannst du auch direkt auf unseren Codex hinterzugreifen. Aber es ist halt einfach unperformant.
+
+00:13:48.000 --> 00:13:50.000
+ Wir haben uns entschlossen, es eher lieber gut zu machen.
+
+00:13:50.000 --> 00:13:51.000
+ Hätte ich noch eine Frage?
+
+00:13:51.000 --> 00:13:53.000
+ Wo? Da, Herr Vorrogend.
+
+00:13:53.000 --> 00:14:02.000
+ Hallo, ja vielen Dank für den Vortrag. Ich war jetzt nicht von Anfang an dabei, aber gibt es zufällig eine Android Library,
+
+00:14:02.000 --> 00:14:06.000
+ die auf eure Tiles zugreifen kann? Zum Beispiel OSM Android heißt die, glaube ich.
+
+00:14:06.000 --> 00:14:15.000
+ Nein. Also unsere Vector-Tiles sind kompatibel mit MapLibreGL. Und da gibt es auch Native Libraries,
+
+00:14:15.000 --> 00:14:19.000
+ die für alle möglichen mobilen Betriebssysteme funktionieren. Danke.
+
+00:14:19.000 --> 00:14:28.000
+ Sieht eure Infrastruktur komplett vor, dass man quasi immer vorrendert und darstellt in getrennten Schritten?
+
+00:14:28.000 --> 00:14:35.000
+ Oder könnte man sich auch vorstellen, quasi on demand aus Open Street Maps direkt irgendwie Tiles zu generieren
+
+00:14:35.000 --> 00:14:36.000
+ und die dann zu cacheen?
+
+00:14:36.000 --> 00:14:42.000
+ Also wir wollten es einfacher machen. Also der klassische Stack für Kartenkacheln ist ja,
+
+00:14:42.000 --> 00:14:47.000
+ dass du sozusagen den kompletten Open Street Map Planeten in eine Postgist-Datenbank liest
+
+00:14:47.000 --> 00:14:50.000
+ und dann daraus sozusagen irgendwie deine Kartenkacheln generierst oder so.
+
+00:14:50.000 --> 00:14:56.000
+ Das macht aber das Ding enorm komplex mit dem einzigen Vorteil, ich kann irgendwie, wenn es auf Open Street Map ein Update gibt,
+
+00:14:56.000 --> 00:14:59.000
+ wenn es auf Open Street Map ein Update gibt, relativ schnell eine aktuelle Kartenkachel haben.
+
+00:14:59.000 --> 00:15:05.000
+ Wir gehen davon aus, dass jetzt so für eine Hintergrundkarte jetzt irgendwie Straßennamen sich nicht ständig ändern oder so was.
+
+00:15:05.000 --> 00:15:09.000
+ Wir gehen davon aus, so ein Startenstand von drei Monaten ist vollkommen okay.
+
+00:15:09.000 --> 00:15:14.000
+ Deswegen gehen wir jetzt mehr in die Richtung mit einmal sozusagen Update alle Monate oder Quartale.
+
+00:15:14.000 --> 00:15:15.000
+ Genau.
+
+00:15:15.000 --> 00:15:21.000
+ Okay, ich glaube, du hast es fast schon gerade beantwortet.
+
+00:15:21.000 --> 00:15:25.000
+ Wenn ich jetzt also eine Karte haben möchte, die alle fünf Minuten abgerätet ist,
+
+00:15:25.000 --> 00:15:29.000
+ sowie das andere machen, dann wäre Versateils die falsche Lösung.
+
+00:15:29.000 --> 00:15:34.000
+ Richtig, da bist du besser mit einer Postgist-Datenbank dran, wo du die Details live händerst.
+
+00:15:34.000 --> 00:15:37.000
+ Die Postgist, die neuen Versionen, haben auch schon eine Funktion eingebaut,
+
+00:15:37.000 --> 00:15:40.000
+ mit der du quasi Vector-Tiles direkt aus der Datenbank händern kannst.
+
+00:15:40.000 --> 00:15:43.000
+ Dafür ist das dann besser. Unser Anwendungsfall ist ein bisschen ein anderer.
+
+00:15:43.000 --> 00:15:47.000
+ Hat noch jemand Fragen? Perfekt.
+
+00:15:47.000 --> 00:15:51.000
+ Ich habe zwei Fragen.
+
+00:15:51.000 --> 00:15:56.000
+ Das eine ist, ist es einfacher zu subsetten, dass ich keine 50 GB Dateien auf meinem Rechner rumfliegen muss,
+
+00:15:56.000 --> 00:15:58.000
+ wenn ich mich eben nur für Berlin interessiere?
+
+00:15:58.000 --> 00:16:00.000
+ Ja. Ja und nein.
+
+00:16:00.000 --> 00:16:06.000
+ Also es gibt ein Feature, dass du sozusagen dieses Versateils-Tool nutzen kannst und sagen kannst,
+
+00:16:06.000 --> 00:16:13.000
+ ich möchte gerne aus dem großen Pfeil, das bei uns im Download liegt, nur sozusagen diese Bounding-Box runterladen.
+
+00:16:13.000 --> 00:16:17.000
+ Das geht aktuell. Wir bauen gerade, dass es noch performanter ist.
+
+00:16:17.000 --> 00:16:22.000
+ Denn dieses Datenformat ist in Blöcken so eingeteilt, dass er sozusagen weiß, ich muss jetzt nur noch diesen Daten,
+
+00:16:22.000 --> 00:16:26.000
+ also diesen ganzen Blob einmal im Stück runterladen oder diesen, dann stecke ich die hintereinander.
+
+00:16:26.000 --> 00:16:31.000
+ Das heißt, man könnte es extrem performant machen, dass man nur Deutschland beispielsweise, nur Europa runterlädt.
+
+00:16:31.000 --> 00:16:32.000
+ Kommt noch.
+
+00:16:32.000 --> 00:16:38.000
+ Genau und die andere Möglichkeit ist, du schmeißt anstatt von dem USM-Planeten einfach nur einen USM-Dampf für eine bestimmte Bounding-Box rein,
+
+00:16:38.000 --> 00:16:42.000
+ dann kommst du zu demselben Ergebnis. Du musst es halt dann nur selbst tun.
+
+00:16:42.000 --> 00:16:47.000
+ Genau, aber dass man sozusagen schon aus unseren fertigen Daten dann das extra machen kann, das machen wir noch performanter.
+
+00:16:47.000 --> 00:16:51.000
+ Das wäre nicht meine zweite Frage gewesen. Das heißt, es ist auch Teil eurer Pipeline, dass ich selbst,
+
+00:16:51.000 --> 00:16:55.000
+ wie die USM-Daten ziehen, irgendwas rausschneide und dann auch höhere Zoom-Stufen bekommen kann.
+
+00:16:55.000 --> 00:16:59.000
+ Weil ich habe gesagt, ich habe die Zeit bis 14, was jetzt nicht besonders viel ist.
+
+00:16:59.000 --> 00:17:04.000
+ Das könnte ich dann einfach in einer Config-Latei sagen, ich brauche jetzt so bis 17 und dann kann ich es schnell.
+
+00:17:04.000 --> 00:17:09.000
+ Du kannst mit den Vector-Tiles overzoomen, das heißt, du brauchst nicht bis 20. 14 ist meistens ausreichend.
+
+00:17:09.000 --> 00:17:17.000
+ Also eine Karten-Kachel hat sozusagen eine Koinaten-Auflösung von 4096 Pixeln sozusagen.
+
+00:17:17.000 --> 00:17:21.000
+ Das heißt, ich kann sie extrem overzoomen, ohne einen Qualitätsverlust zu haben.
+
+00:17:21.000 --> 00:17:24.000
+ Und es werden auch gar keine neuen Details, es werden jetzt nicht Gully-Deckel nachgeladen,
+
+00:17:24.000 --> 00:17:30.000
+ also wenn ich auf so einer Stufe bis 17 bin, sondern einfach nur ob die Häuserkante oder die Straßenkante mehr Details hat.
+
+00:17:30.000 --> 00:17:32.000
+ Die hat es halt nicht, sondern das steckt schon in den Vector.
+
+00:17:32.000 --> 00:17:34.000
+ Aber wenn du den Anwendungsfall hast, dann kannst du das tun.
+
+00:17:34.000 --> 00:17:41.000
+ Unser Idee ist, wir bieten alles an, so damit niemand was machen muss, aber alle können alles machen.
+
+00:17:41.000 --> 00:17:45.000
+ Du kannst jederzeit sozusagen einen Schritt rausschmeißen von den fünf und kannst die anderen vier benutzen.
+
+00:17:45.000 --> 00:17:48.000
+ Das ist auch die Frage, ob man einen anderen Server benutzt,
+
+00:17:48.000 --> 00:17:52.000
+ ob man statt Teilmaker einen anderen Prozess benutzt, um Karten-Kacheln zu generieren,
+
+00:17:52.000 --> 00:17:54.000
+ ob man ein anderes Frontend benutzt oder so.
+
+00:17:54.000 --> 00:17:58.000
+ Kann man explizit austauschen, deswegen haben wir es versucht, den fünf Subprobleme zu zerlegen.
+
+00:17:58.000 --> 00:18:02.000
+ Ob du nur einen Teil, das ist was wir anbieten oder was wir da zusammengesteckt haben, benutzt.
+
+00:18:02.000 --> 00:18:05.000
+ Ich zum Beispiel habe Daten in dem GeoJSON.
+
+00:18:05.000 --> 00:18:08.000
+ Ich benutze Tipp-Kano, um die dann umzuwandeln in Vector-Teils
+
+00:18:08.000 --> 00:18:11.000
+ und schmeiße diese Vector-Teils dann auch in ein VersaTeils-Container.
+
+00:18:11.000 --> 00:18:12.000
+ Funktioniert auch.
+
+00:18:12.000 --> 00:18:17.000
+ Es ist nicht nur für Base-Maps, aber das ist so der Anwendungsfall, den wahrscheinlich die meisten Leute haben,
+
+00:18:17.000 --> 00:18:20.000
+ den wir halt quasi auch noch servicen.
+
+00:18:20.000 --> 00:18:24.000
+ Ich habe einmal eine Anfängerfrage vielleicht.
+
+00:18:24.000 --> 00:18:30.000
+ Wenn ich jetzt einfach nur Marker zu einer Karte hinzufügen will, ist das hier das Richtige für mich?
+
+00:18:30.000 --> 00:18:34.000
+ Geht das schon oder ist das das Frontend, was ihr so genannt habt?
+
+00:18:34.000 --> 00:18:37.000
+ Im Frontend benutzen wir MAP-Libre-GLGS.
+
+00:18:37.000 --> 00:18:39.000
+ Ich weiß auch nicht, warum das so heißt.
+
+00:18:39.000 --> 00:18:40.000
+ MAP-Libre-GLGS.
+
+00:18:40.000 --> 00:18:45.000
+ Aber auf der Webseite maplibre.com findet man alles
+
+00:18:45.000 --> 00:18:48.000
+ und auch die komplette Dokumentation, wie man zum Beispiel Marker draufwirft.
+
+00:18:48.000 --> 00:18:53.000
+ Und bei der Frage, wo möchtest du denn die Karte dann eher haben, nimmst du einfach unsere Adresse.
+
+00:18:53.000 --> 00:18:57.000
+ Es kommt darauf an, wenn du sagen willst, ich muss jetzt fünf Marker auf einer Karte setzen,
+
+00:18:57.000 --> 00:19:02.000
+ wenn du das nicht auf der Webseite darstellen willst, dann machst du das am besten im Frontend mit MAP-Libre oder auch mit Leaflet.
+
+00:19:02.000 --> 00:19:05.000
+ Wenn du sagst, ich habe eine Milliarde Marker, die über den ganzen Planeten verteilt sind
+
+00:19:05.000 --> 00:19:10.000
+ und ich muss sie distributieren, dann machst du da spezielle Vector-Teils für.
+
+00:19:10.000 --> 00:19:14.000
+ Okay, wir hätten noch Zeit für eine schnelle Frage, wenn es noch was gibt.
+
+00:19:14.000 --> 00:19:16.000
+ Ja, nein.
+
+00:19:16.000 --> 00:19:18.000
+ Keine Fragen mehr, das haben wir noch nicht geschafft.
+
+00:19:18.000 --> 00:19:21.000
+ Im Zweifel hängen wir hier auch irgendwo rum und ihr könnt uns auch direkt anquatschen,
+
+00:19:21.000 --> 00:19:24.000
+ wenn euch das zu peinlich ist vor der großen Menge.
+
+00:19:24.000 --> 00:19:28.000
+ Auf jeden Fall vielen Dank für den Talk und einen runden Applaus bitte.
+
+00:19:29.000 --> 00:19:34.000
+ [Musik]
+

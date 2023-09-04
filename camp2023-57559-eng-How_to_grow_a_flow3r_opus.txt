@@ -1,0 +1,550 @@
+ [MUSIC]
+ Hello everybody.
+ At the Chaos Computer Club,
+ we have the tradition to include the option to
+ buy a badge at every single big event that we have.
+ So these technical gizmos got
+ way more complex during the past years.
+ Part of the team that created the badges for you,
+ is going to present how to get the most of it today.
+ Welcome with me to the talk of how to grow a flower,
+ Schneider, T-Mansku, and Q3K.
+ [APPLAUSE]
+ Hello. Thanks everyone for coming.
+ Next to me is Q3K and T-Mansku. I'm Schneider.
+ We're part of the team who developed the flower badge.
+ Some of you already have it around their necks and that's great.
+ I just want to make very clear,
+ we're just a part of the team.
+ There's so many people behind this project and
+ not everyone wants to stand in the limelight.
+ So big thanks to everyone who made this possible.
+ [APPLAUSE]
+ When we came up with the idea of the flower badge,
+ over one and a half years ago,
+ it was mainly about the idea,
+ hey, music is something which connects people and it's
+ something where you can start interacting without having
+ any other common ground and it's very easy to get in touch.
+ That's why we made it.
+ That's why we have it here at camp and I hope that's what you
+ will do and learn something,
+ make some music, play together.
+ That's the important thing. That's what I want to see.
+ Now to the most important part of this talk.
+ Please pick up your badge.
+ So this is the map of the camp.
+ The red arrow says where you can pick it up.
+ Why am I mentioning this?
+ This is how it looks like.
+ There's super happy angels
+ which will gladly hand you out your badge.
+ The thing is that we have a lot of them.
+ We need to get rid of them because we want to convert
+ our tent into a hack center where everyone can
+ sit and hack on their badges,
+ hack on software, hardware, whatever.
+ We're cleaning out this stuff a little bit at the moment,
+ but please, earlier we have all of this stuff gone.
+ The more space there is for you to hack on it
+ and us having time and energy for workshops and stuff like that.
+ Next most important thing,
+ there's a flyer inside your bag.
+ There's a small typo, flower.
+ You spell it with a three.
+ If you ever see a domain with an E inside,
+ replace the E with a three,
+ and then you actually get to the flower webpage and not
+ some $10,000 CIDO domain park thing.
+ We tried to get the domain and it's not that easy, the wrong one.
+ Next, this badge,
+ you paid a little bit of money for it,
+ but the components inside are mainly sponsored by generous donors.
+ So far, never at the camp we accepted cash donations.
+ We only accept material and labor.
+ This time, for the first time, actually labor.
+ Analog devices, Bosch, Espressif, Infineon, JLC, 3D printing,
+ and MakerFab gladly sponsored lots of parts of this badge.
+ Without them, this would not be possible.
+ So, from my side, big thanks to the sponsors.
+ [APPLAUSE]
+ And I hope that we chose a selection of chips,
+ which makes it easy for you to develop lots of apps for the flower.
+ Next, there are some difficult things about putting this thing together,
+ and we're just listing the most important parts.
+ So, you get a working badge,
+ which is not damaged and sounds nice and looks nice.
+ And number one is the little switch there.
+ Be gentle with it.
+ It's the number one failure case at the moment when you slide it that it breaks off.
+ Just be gentle and also make sure that it's in the off position
+ when you put together your flower,
+ so you don't put something together which is turned on and suddenly does stuff.
+ Off position is inside, right?
+ The idea of the switch is that if you move it in across the PCB,
+ it's protected and you can store your flower and it doesn't break off anymore.
+ Next most critical thing is the alignment of the two PCBs.
+ If you look straight down on your two PCBs,
+ make sure that the holes are perfectly aligned.
+ This is an example of a not aligned hole.
+ Don't try to put a screw inside that thing and turn it on.
+ Your badge might get hot or turn on some LEDs,
+ which it shouldn't and stuff like that.
+ It should look like this.
+ This is how exactly it should look like perfectly aligned when you look straight down.
+ Just put the badge in front of you, look straight at it.
+ If everything is aligned, not offset at all, then you can turn it on.
+ If you have a red microphone LED which turns on,
+ or if your top board gets hot,
+ turn off your badge, take the PCBs apart again and align them properly.
+ That's how you can see that it's not working.
+ Next thing is we have this 3D printed spacer thanks to JLCPCB,
+ and it sorts it flush with your PCBs.
+ Otherwise, you might not get a working display.
+ And most likely you have some cable between your spacer and your PCB.
+ Cable management is the most difficult part of putting this thing together.
+ And if you have everything put together nice and well,
+ you'll have perfectly flush and parallel PCBs with no air gap or anything like that inside.
+ [INAUDIBLE]
+ This is wrong.
+ You have a significant air gap in there.
+ Yeah, so it should not look like this.
+ Help each other out.
+ There's many people who have put this thing together,
+ many people who visited our camp already and got help.
+ And you can ask anyone and, you know, don't always have to come to us,
+ but there's a lot of people who already know how to do this.
+ Once more, thanks to the team.
+ Also, thanks to the angels.
+ We had around 200 hours of work from angels,
+ which were sent from heaven to us to flash all of these devices and put it into bags.
+ Otherwise, we couldn't hand them out.
+ Lots and lots of thanks to the angels.
+ They pushed through yesterday and backed everything together,
+ even though we thought we need two more shifts today.
+ And we were done yesterday evening.
+ [APPLAUSE]
+ And really, that made our evening because we knew who we don't have to figure out anymore
+ how we are going to organize this today.
+ You can see that's over, like, that's roughly a year of history now
+ on our Git repository of all the people who committed.
+ And, like, it must be a dozen or two dozen people behind the scenes
+ making all of this possible.
+ I cannot express my gratitude enough to all the hard work
+ and all the things which happened from mechanical design,
+ synthesizer design, application framework, getting stuff.
+ It's surprisingly hard sometimes to get something to the right place
+ and then ship it around the world two times, just so it ends up again here.
+ Not too much, but at least a little bit.
+ And without the expertise of a lot of people, this wouldn't have been possible.
+ I can't mention all of them right now.
+ Something about the hardware.
+ We are only using open source tools,
+ and we have a complete representation of this device
+ in several kinds of FreeCAD and KiCAD, and we have put all of this together.
+ You have a complete 3D model of everything of this batch.
+ So if you want to extend it or print something around it
+ or figure out how does it look like, even the cables are modeled inside.
+ It's there, it's in the repository.
+ And the person who made all of this possible, like the integration,
+ wanted me to give a shout out to the people of the assembly for workbench
+ and the KiCAD step-up workbench, which makes this possible.
+ And apparently these two plugins for the FreeCAD software
+ are maintained by one person each.
+ And sometimes open source just sits on one person, and that's not great.
+ We should change that, so huge thanks to these people.
+ They made this possible.
+ Thanks.
+ (Applause)
+ And thanks to these tools, you can do interesting stuff.
+ So for example, the shape of the flower, these are circles put together
+ and arranged so that it resembles this flower shape.
+ And how do you place LEDs exactly the right way,
+ at the right angle without going mad?
+ Well, you write Python in FreeCAD to export coordinates and angles,
+ and then you write Python in KiCAD to import it back in,
+ and automatically you get all of this stuff arranged and you don't go mad.
+ It's cool to work with these tools and the stuff which is possible today.
+ So I talked a lot about hardware and how to not break your batch.
+ Q3K is going to continue and talk a little bit about what to do with your batch,
+ specifically from a software perspective, because there's a lot to say
+ and a lot of cool stuff which is possible.
+ And we have a few more days to get it done.
+ (Applause)
+ So first, most important thing, we have docs.
+ We worked quite a bit of them being usable.
+ Please, any time you want to know anything about the batch,
+ just go to docs.flower.garden, flower with a 3, not an E,
+ and you'll find guides about everything from assembling your batch,
+ how to use the built-in software, how to program your batch,
+ and then also how to hack on your batch at a lower film or a lever.
+ So any time you want to know anything, go there.
+ If it's not there, that's a bug and it should be there and we'll fix it.
+ But yeah, I want to talk a bit about programming the batch,
+ and more importantly about programming the batch in the environment that we gave you.
+ The entire environment is based around MicroPython.
+ If you ever wrote Python, even if you dealt with MicroPython before,
+ you will feel more or less at home.
+ However, it's important to know that to get this batch to be a nice interactive toy
+ with audio, with graphics, with pretty LEDs,
+ we had to build our own framework on top of that.
+ So not only need to do with MicroPython,
+ but also we have to learn our tiny little app framework/ecosystem called STEM,
+ spelled with a 3, not an E.
+ And yeah, as I said before, it's all on docs.
+ In this case, the first thing you want to read when trying to program the batch
+ is to go to the programming section and then you'll learn how to connect to your batch
+ from a PC or from an Android phone, how to access the MicroPython REPL,
+ which is the Read/Evaluate print loop, which is the main console you interact with,
+ how to transfer files back and forth from the batch in different modes,
+ how to run your own code on the batch, and then finally how to get started
+ with writing applications against our app framework.
+ Just a few pointers, since I'm already here.
+ You want to look at three basic classes, Responder, View, Application,
+ and that goes you from drawing something on screen
+ to having an application that appears to your menu.
+ Inside the framework itself, other than just the stuff to get apps working,
+ there's also a sub-library called Bloombox,
+ and Bloombox is what makes your batch make music and/or sounds.
+ Bloombox is really cool, and here's a snippet on how you can get a simple synthesizer
+ playing a sound on your speakers.
+ You can press Ctrl+C in the REPL, paste this after importing Bloombox,
+ and you'll hear a sound.
+ And then you can take the third line from the bottom, which is the tone,
+ put it in a loop, and iterate over values 0, 4, and 7,
+ and your batch will place a nice arpeggio in a major as well.
+ Yeah, the docs are there. Read the docs.
+ If the docs are not understandable, please let us know.
+ We'll do our best to fix them.
+ The big component of the programming environment is CTX.
+ CTX is an amazing little library for drawing vector graphics.
+ All of the menu you will see, all of the graphics you see,
+ apart from one example, are all built real-time from vector graphics on the batch itself.
+ So you do not need to prerender fonts or upload image files.
+ You just write these little lines that let you create a rectangle in this case.
+ And in the case of the STEM environment,
+ you put that in the draw method of your responder class,
+ and every so often the batch will say,
+ "Hey, app, what can I render?"
+ You respond with this, and then you see a nice rectangle.
+ That was all about the kind of built-in ecosystem we have, built around STEM.
+ There's also this whole entire different world of if you want to work on the firmware itself.
+ It is unfortunately not fully in MicroPython.
+ It is C, and it is based around the ESP-IDF.
+ If you've ever worked with ESP32 chips before, you'll be familiar with ESP-IDF.
+ Same as with our MicroPython code, we had to take it,
+ and we had to sprinkle in some of our own code to make it work.
+ For example, all of the graphics stack interactions, all of the Bloombox interactions,
+ things like reading sensors that's all implanted in C.
+ And so it's managing the lifecycle of the application via MicroPython.
+ The docs are all there.
+ It will take you from installing all the dependencies.
+ If you're running NixOS, it's very easy.
+ If you're not, I'm sorry, but we did our best to document this.
+ It will tell you how to build the C firmware, how to flash and test it.
+ It will tell you how to debug it.
+ And here's a little mention that we have a little development board for the badge called the Flowerpot,
+ which Timon is going to talk about in a second.
+ It is not strictly necessary for day-to-day development,
+ but if you want to hack on the firmware, it's very useful,
+ especially if you want to, for example, maybe fix some of our USB issues because the USB stack is...
+ So yeah, please take a look.
+ Please send us your merge requests and file more issues or just come chat with us.
+ We will be implementing a lot of features over the next couple of days,
+ both in the stem-land in MicroPython as well as on the low-level firmware.
+ And I'll now let Timon talk a bit more about the Flowerpot.
+ Yeah.
+ So just quickly on what is that thing, who is it useful for.
+ I made the thing like two weeks ago.
+ It was like we need some way to access both like the U...
+ Like there's a JTAG UART thing with ESP bar chips,
+ and you need that if you need like early boot traces or if you need to work on USB
+ and need to debug at the same time because if you work on USB, you can't use it for debugging anymore.
+ So that is a bit of a difficult thing.
+ That's what this guy is for.
+ I designed it a little bit so it's useful for other stuff in the future.
+ How this works on USB-C, you get these extra pins called SBU, sideband pins,
+ and we place the TX and RX on those pins.
+ It's a little bit illegal, but it works and it doesn't damage any devices,
+ but just to be clear, it's not fully proper, but it's really cool for like just cheap way to get UART out of your devices.
+ And you can use this in the future as well for like other boards.
+ You can change the IO voltage and stuff like that.
+ So hopefully it has a use past the Flower if you do embedded stuff.
+ Right, what it is, USB hub and the USB to UART converter.
+ So you get serial and a USB hub in one.
+ So both devices connect to your computer. That is very important to do that kind of development.
+ You can buy one at the batch village right now.
+ There's not many of them, so like if you do plan on making really cool stuff,
+ more on the low level, you can get one.
+ But yeah, there's not like that many.
+ As the slide says, and as you might have noticed, the firmware is a bit buggy.
+ So we do encourage you to learn how to upgrade the batch firmware and upgrade it early, upgrade it often.
+ We will do our best to fix those bugs, but you know, you still have to upgrade your batch.
+ We don't have magical over the air upgrades yet.
+ If you have a browser which supports web serial, for example, Chromium or Chrome or Derivatives,
+ you should be able to just plug in your batch and go to this website,
+ and it's going to tell you what to do with the batch and then update it for you.
+ That is a full update. It is going to come out in the same way as we gave it to you just with a newer version of software.
+ There's also a special flow for upgrading where you can copy the file, part of the upgrade file, a bin file,
+ onto your batch, reboot into recovery mode by holding down the right trigger, like so, and select that file to flash.
+ This is not a full update, but if you don't happen to have Chromium on you or don't have a PC on you even, it's good enough.
+ Speaking of firmware, we have this entire stack we wrote, but we encourage you to not only extend that stack,
+ but if you want to make something new, make something crazy, port Doom, port Quake, rewrite it in Rust, I don't know, do something fun.
+ And the cool part is that as long as you conform to our existing partition layout,
+ which you can find in our main repository or in our example repository for an external application,
+ you will be able to coexist with the main firmware.
+ And you can distribute your little alternative firmware as a bin file,
+ which same as the main firmware can be uploaded by the user to the SD card and then flashed from recovery mode.
+ So we hope that within a couple of days we'll see some absolutely amazing stuff that you couldn't even envision to have in the main firmware,
+ but someone will implement them as a thing from scratch.
+ And yeah, I have an old Doom proof of concept work, if someone wants to move it forward to the new framework, hit me up.
+ And one last thing, two days before we arrived here I had this moment that made me realize I should run Ethernet on the badges.
+ You might notice they do not have an Ethernet port, but they did not stop me.
+ What they do have are 3.5 millimeter ports.
+ Turns out you can switch them to UART, connect these badges together and write a few hundred lines of C to turn every badge into a virtual switch.
+ And you can now chain your badges together and they will all bring up their own little Ethernet domain.
+ And with that you can use a protocol like IPv6 and UDP to just like blast packets between badges.
+ I'm waiting for someone to write an IRC client for this.
+ I'm waiting for someone else or maybe the same person to make a 3.5 millimeter adapter to Ethernet.
+ And then I'm waiting for C3NOG to get really angry at me.
+ That being said, this is it for the software pack.
+ Now I'm giving you back to Timon who will talk a lot about the production aspects of this badge.
+ Right, so that section could probably be a talk in itself, but we thought we'd just give you a little bit of impressions of what goes into producing thousands of these things for an event like this.
+ Yeah, what you see there is like intermediary steps of the PCBA aspects.
+ Let's see if those videos load.
+ Yeah.
+ So top left, that's the pick and place machine currently building some top boards.
+ Then there are testing.
+ So actually important aspect is like checking that all the PCBs work on a basic level so that when we hand them out to you and you have an issue that we can at least rule out there's no manufacturing fault there.
+ And the bottom video is automatic optical inspection with some very useful technology that just checks every solar joint automatically for you.
+ And yeah, one actually big aspect of this badge was making custom colors.
+ Usually for PCBs you get a very strict set of like colors that are just being made for PCBs.
+ You know, they are very technical colors.
+ They need to withstand a lot of heat and they're engineering colors, so to speak.
+ And that makes it kind of limited of what you can get.
+ So our manufacturing partner, Make-A-Fabs, helped us make custom colors, which is actually really hard to do because the badge colors, the event colors are very special Pantone colors that are neon.
+ You cannot do that in anything but that's both special colors.
+ They need additives and stuff like that.
+ But we tried our best to get as close to that pink and that green as possible.
+ But because the basic colors that are available are only RGB essentially, as soon as you mix them, the resulting color becomes darker than the original colors.
+ And then you need to add a little bit of white, which makes it lighter again, but it also reduces saturation.
+ So we had like more than a month of back and forth and different color variations and tests.
+ Like you see some of the pinks that came out of this at the top right, which not all of them looked like pink.
+ So this was a bit of a process, but yeah, that gave us custom silk screen and a nice pink top PCB.
+ And then there was a lot of accessories, which was almost more work than the PCBs, to be honest.
+ At least in hours, I would say, so a lot of little things go into things like this.
+ We have actually custom printed SD cards.
+ There was no need to custom print them, but turns out if you buy 4,000 of those, the printing comes for free.
+ So why not add it, you know?
+ Then top right, bottom right, sorry, that's the molding tool for the battery cover on the back.
+ So that was stamped steel.
+ Then yeah, the Oli cables, the only not custom part here.
+ Then the battery in the middle, that blue big thing, at least custom cabling there.
+ They made it a little thicker than we wanted it to be.
+ That's why, sorry, it's a bit hard to insert.
+ In the middle, a printed piece of, yeah, SLI printed piece of the spacer, we call it, that keeps your batch as a secure sandwich.
+ And then covered up by that, the lanyards, also custom colors,
+ trying to match the camp.
+ In most of these cases, if you order a lot of stuff, making it custom is essentially for free,
+ unless there's a high engineering fee to make the tooling for it.
+ So with the battery cover, for example, we mostly paid for the tool.
+ The resulting products become very cheap because most of that comes from the tooling.
+ Most of the costs come from the tooling.
+ The display is also a custom thing, at least the top glass, so that is a stepped glass display.
+ You don't really get to buy that usually.
+ And yeah, we had that custom made so that we can have a flush finish on the PCB
+ and it's not like a display sitting on top of it, which is very prone to breaking.
+ It's very robust, so at least the glass is thick.
+ It's like, you know, if you accidentally smash a bottle on it, please don't do that,
+ but it should hopefully survive.
+ The custom glue sheet, also something that didn't work out as well as intended.
+ It's a bit hard to separate, but yeah, that is used to insert the display onto the top PCB.
+ And there's a couple spare pieces to fix the wiring,
+ so I had to ask some questions about what the glue is for or the other pieces you're not using.
+ You can use those either to add little hardware yourself, like it's very strong glue actually.
+ You can just stick some stuff inside to it or the cabling is a bit weird,
+ so if your cable always goes under some weird spot, use the glue to just fix it in place.
+ Custom printed bags, actually food safe coloring, fully recyclable.
+ You can put that in the compost.
+ Speakers, also custom cables, and then little rubber feeds.
+ Some people are also confused about those.
+ You can add those to the bottom, and then it stands safely on the table, doesn't flick around.
+ Screws, little Allen key, and the sandpaper, also some questions there.
+ You can use that to hack your batch.
+ So inside there's what's called a quick connector.
+ It's basically I2C.
+ If you want to add a space where you can route a cable to the outside,
+ you can use the sandpaper to modify the spacer.
+ Or if you have issues with the battery cable slot, you can extend it a bit.
+ It's a little hacking tool. That's it.
+ And one thing that didn't make the cut in the production, not because it wasn't useful,
+ it was a really cool machine.
+ I'm sad we didn't get to use it, but for very many reasons, one of them being logistics,
+ we couldn't use that.
+ So mounting the display was a long process to figure out how we actually fixed the display in this thing.
+ Before we arrived at the actual solution, we considered building a machine which dispenses glue,
+ picks a display and puts it there perfectly, and does it for us.
+ A team member actually did build it.
+ Oh, come on.
+ So it's the most professional thing I've ever seen.
+ [Applause]
+ Yeah, shout out to Alex.
+ And...
+ [Applause]
+ If you're interested in this, hit up Rahix.
+ Yeah, exactly. He's on the metrics.
+ Yeah, and last thing, make apps. Please get started.
+ Write MicroPython stuff. No matter what your experience level is, I'm sure you can make something fun.
+ Especially instruments would be cool to just see more stuff out there.
+ We made the platform and we're hoping community will make really cool stuff in here.
+ One mentioned this thing has BLE. We haven't used anything yet, but that could be a cool thing to use.
+ And Wi-Fi, but that probably makes the NOC sad if we do something with that.
+ But it has Wi-Fi.
+ Yeah, if you are an embedded person, we need help with the main firmware.
+ And also if you're interested in writing docs, it would be really helpful.
+ There's so much stuff to document still.
+ Yeah, write native apps, write something cool that's completely different.
+ You don't have to use our firmware.
+ Come up with your own things, like Doom, for example.
+ Help each other out. Hack together on it, do something together.
+ It's fun to just do something together with that thing.
+ And one cool thing, on day four there will be a demo party that has a batch section.
+ So if you have something really cool to show off with your batch, you can enter that and show your batch demo.
+ Yeah, check out ontrack.camp. It's at NordX.
+ And also check out KSOcial Flower Batch on a Mastodon for any workshop announcements.
+ Thank you.
+ Thank you very much, guys. This was a really informative talk.
+ We have some time for questions. Are there any questions from the people here?
+ Yes, please.
+ I haven't had time to look at the schematics or anything yet, but how are you generating the sound?
+ Is it with PWM or UFD8 converters? What's the basic hardware?
+ So the question was how are you generating the sound, guys? Can you please answer that now?
+ There's a dedicated audio codec from Analog Devices.
+ It's connected via I2S to the ESP32S3 and it has a 48 kHz ADC/DAC combination in there.
+ It has multiple input and output channels.
+ So you can output something on the speakers or you can route it to the headphone jack.
+ And we also have a line in as well as a microphone. We didn't mention that here yet.
+ And you can in software select where you want to get your signal from and it does the A to D, D to A conversion for you.
+ I think in the board support package we have the Brown software for that.
+ So if you want to port some other ESP audio application, you can plumb this up somehow and get it going.
+ Yes, please. Next question.
+ So is there anything in the works on how to use this as a MIDI controller?
+ Can you please repeat that a bit louder so I can repeat your question?
+ Is there anything in the works on how to use this as a MIDI controller?
+ So is there anything in the works on how to use it as a MIDI controller?
+ The software should be there. What is missing is the documentation.
+ If you look at the docs section for BadgLink, that is one of the expected usages of it.
+ It should work with your current firmware, but we need to document that better. And we will.
+ I have a follow-up question.
+ I was searching a bit and I found someone had written some way to send MIDI via the serial connection.
+ How can you access the serial connection?
+ So the question was how to access the serial connection as a follow-up question?
+ So that is part of the docs not being good.
+ MIDI is basically serial or like a variation on the serial protocol.
+ The docs tell you how to attach the serial to one of the 3.5mm jacks.
+ That is one of the modes you can switch the 3.5mm jack to, is to just blast out serial.
+ And then you can enable MIDI on top of that. And that makes you have MIDI through the 3.5mm jacks.
+ But you already have the serial connection to the Bavaria USB.
+ There is more than one. There are three serials in this chip.
+ Basically what we can promise is that I will update the docs after this to make this more clear.
+ How to access the USB?
+ How to access the USB.
+ The USB serial connection.
+ I think maybe you should talk about it after the talk. This would be great.
+ Then you can clarify any further questions.
+ Quick note on that because we forget to tell everyone.
+ The 3.5mm jacks, we have two of those.
+ You can switch those to GPIO pins. You can put any peripheral on those GPIO pins.
+ If you are hardware hacking, you can use those jacks for that.
+ Any further questions? In the back, yes? You with the flower?
+ What's the problem with the USB stack? What help do you need?
+ Can you please come a bit closer? Repeat the question. We have some background noise.
+ What's the problem you mentioned with the USB stack? What help do you need?
+ The question was what is the problem with the USB stack I mentioned?
+ And the answer is I wrote it and it's not very good.
+ Currently we have issues with the serial connection sometimes dying.
+ We have a comment bearing decrease buffer size by one in there.
+ With a comment saying I don't know why I need this.
+ In more practical terms, if you have any USB knowledge, come talk to me afterwards.
+ Because I just need to talk with someone else and air my grievances.
+ Hopefully we can get things to work slightly better.
+ Yes, next question?
+ If you go to flower.garden, if you go to flower.garden, there's a link to our GitLab repository.
+ And there's a hardware repo inside with all the hardware design files.
+ I think PDF exports of the schematics as well.
+ Nicely rendered PDF exports. In pink.
+ Okay, person in the red t-shirt.
+ How are we going to distribute the application?
+ That's a very good question.
+ The question being how are you going to distribute the applications?
+ The answer is if we prepare slightly better, we would have ended this talk and
+ hey, here's this distribution thing we just came out with.
+ We have to wait a few more hours and hopefully we'll have something.
+ And you'll post that where?
+ We'll post that everywhere. The question was where will we post that?
+ The answer is we'll post that on Mastodon, on Matrix.
+ I'll make a smoke signal. I don't know. We'll make sure everyone knows.
+ Perfect, thank you.
+ Okay, we have another question in the back.
+ Can you come here a bit further so we can hear you?
+ Do you actually have a documentation of the machine that made the flower?
+ The machine that made the flower.
+ The question was do you have documentation for the machine that made the flower?
+ Which machine do you mean? Do you mean the video we showed of the...
+ That machine was unfortunately not used in production.
+ It was a proof of concept that could have been used but for many reasons we ended up not using it.
+ I think Rachix, who is the author, that's the person who should talk about this.
+ I wouldn't be surprised if he would put this up on his blog very soon.
+ Come to the badge tent.
+ What printer was it? Was Prusa the printer?
+ What printer was it?
+ So the question was was it a Prusa?
+ I am not Rachix but as far as I understand this project this was a fully self-built motion system from scratch.
+ The orange similarity is totally accidental.
+ There's one other question behind the box.
+ Will you allow anonymous access to Git or Flower.Garden?
+ The question was will you allow anonymous access to Git.Flower.Garden?
+ We didn't know this was an issue.
+ I cannot promise you we will enable anonymous access.
+ You mean like downloading or contributing?
+ You should be able to clone it over HTTPS.
+ When I go to the other page it just redirects me to a login page.
+ Oh, yes, the start page does redirect you to a login page if you go to Git.Flower.Garden/Flower.
+ Obvious.
+ Speaking of which, if anyone is really good at GitLab administration stuff, also come by the tent please.
+ Okay, next question.
+ So you have a 3.5 millimeter jack with line out or lighting or two.
+ Does this have a potential towards a USB ground or is it the same potential?
+ So the question is the ground on the 3.5 millimeter jacks compared to the USB ground, is there a potential in between?
+ Well, they are all the same ground I can say.
+ So you might have a few millivolts here and there maybe of noise.
+ [INAUDIBLE]
+ Okay, the person who asked the question said they had another badge at some point.
+ We had multiple volts of potential difference between that.
+ That's not the case here.
+ You can safely attach this stuff and multiples of them to a computer.
+ Attach them to each other and it should just work.
+ So I think we have time for one last question.
+ Is there any person? Sorry, you already have one.
+ So this.
+ Yeah, in the development, how many iterations for the hardware do you have and what was your manufacturer?
+ So manufacturing, that's why I said JLC 3D printing.
+ They come to be with 3D printing.
+ They do a lot of these things these days, also CNC machining, but they did not contribute PCBs at all.
+ MakerFabs did our PCBs and PCBA, also the testing and everything else.
+ They are also located in Shenzhen and we can highly recommend them.
+ They have been a huge help supporting us with so many things like taking packages and packing things.
+ Yeah, just general logistics.
+ And we had seven revisions in total until we committed to production.
+ So the very first revision was a Raspberry Pi with a CapTouch controller.
+ I hacked from a product I work on for my day job and then a quick turn PCB and all coupled together with lots of wires.
+ And I showed that to people and do you think this is nice?
+ And they were interested and then from that on we had like at least seven revisions, if not more,
+ because we at some point branched out and then didn't follow these branches.
+ If you look at the one branch which made it, that's seven revisions.
+ How many layers?
+ It's a four layer PCB, two times four layers.
+ Okay, then thank you so much for this interesting Q&A and I'm very happy that we have these beautiful badges.
+ Thank you.
+ [Applause]
+ [Music]

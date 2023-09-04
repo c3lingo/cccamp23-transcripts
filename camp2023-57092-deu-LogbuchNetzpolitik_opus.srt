@@ -1,0 +1,4820 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:35,000
+ Damit können wir dann noch anfangen mit Tim und Linus mit Lockbruch Netzpolitik.
+
+3
+00:00:35,000 --> 00:00:45,000
+ [Applaus]
+
+4
+00:00:45,000 --> 00:00:50,000
+ Das würde ich noch zeigen, ja.
+
+5
+00:00:50,000 --> 00:00:53,000
+ [Lachen]
+
+6
+00:00:53,000 --> 00:00:55,000
+ So.
+
+7
+00:00:56,000 --> 00:01:00,000
+ [Musik]
+
+8
+00:01:00,000 --> 00:01:03,000
+ Das könnte sogar funktionieren.
+
+9
+00:01:03,000 --> 00:01:05,000
+ Gucken wir mal.
+
+10
+00:01:05,000 --> 00:01:07,000
+ Ihr hättet doch so einen Soundcheck.
+
+11
+00:01:07,000 --> 00:01:09,000
+ Ja, ja, ja.
+
+12
+00:01:09,000 --> 00:01:12,000
+ Haben wir alles...
+
+13
+00:01:12,000 --> 00:01:16,000
+ [Husten]
+
+14
+00:01:16,000 --> 00:01:18,000
+ Gut?
+
+15
+00:01:18,000 --> 00:01:20,000
+ Gut, gut.
+
+16
+00:01:20,000 --> 00:01:23,000
+ [Husten]
+
+17
+00:01:24,000 --> 00:01:26,000
+ Guten Morgen, Linus.
+
+18
+00:01:26,000 --> 00:01:28,000
+ Guten Morgen, Tim.
+
+19
+00:01:28,000 --> 00:01:31,000
+ Sag mal, wie findest du eigentlich Österreich?
+
+20
+00:01:31,000 --> 00:01:33,000
+ [Lachen]
+
+21
+00:01:33,000 --> 00:01:36,000
+ Auf einer Karte müsste ich suchen.
+
+22
+00:01:37,000 --> 00:01:56,000
+ [Musik]
+
+23
+00:01:57,000 --> 00:02:11,000
+ Lockbruch Netzpolitik Nummer 466 vom 17. August 2023 live vom Chaos Communication Camp 2023 in Mildenberg.
+
+24
+00:02:11,000 --> 00:02:16,000
+ Wir sagen Hallo, herzlich willkommen. Viele Gäste, seid willkommen.
+
+25
+00:02:17,000 --> 00:02:29,000
+ [Applaus]
+
+26
+00:02:29,000 --> 00:02:32,000
+ Und ich meine, warst du schon mal da?
+
+27
+00:02:32,000 --> 00:02:34,000
+ Österreich?
+
+28
+00:02:34,000 --> 00:02:37,000
+ Ja, ja. Also ein Flugzeug fliegt da eigentlich zielstrebig hin.
+
+29
+00:02:37,000 --> 00:02:40,000
+ Und wie hast du es so gefunden, als du es gefunden hast?
+
+30
+00:02:40,000 --> 00:02:42,000
+ Ich war ja immer nur in Wien.
+
+31
+00:02:42,000 --> 00:02:45,000
+ Oder war ich mal woanders? Salzburg und Österreich?
+
+32
+00:02:46,000 --> 00:02:48,000
+ Ja, da war ich auch.
+
+33
+00:02:48,000 --> 00:02:50,000
+ Das war's. Salzburg und Wien, echt?
+
+34
+00:02:50,000 --> 00:02:52,000
+ Ja. Gibt es noch mehr in Österreich?
+
+35
+00:02:52,000 --> 00:02:54,000
+ Ja.
+
+36
+00:02:54,000 --> 00:02:56,000
+ Was denn?
+
+37
+00:02:56,000 --> 00:02:58,000
+ Graz.
+
+38
+00:02:58,000 --> 00:03:00,000
+ Da war ich nicht.
+
+39
+00:03:00,000 --> 00:03:06,000
+ Da gibt es Kürbiskernöl. Das machen die auf alles. Auf Eis, auf Steak, auf Fisch, auf deine Kartoffeln. Die kippen dir das wahrscheinlich sogar noch in die Cola, wenn du nicht aufpasst.
+
+40
+00:03:06,000 --> 00:03:08,000
+ Also...
+
+41
+00:03:08,000 --> 00:03:10,000
+ Das ist echt wahr.
+
+42
+00:03:10,000 --> 00:03:12,000
+ Fandest du gut da?
+
+43
+00:03:13,000 --> 00:03:18,000
+ Ich habe das übernommen, aber ansonsten ist alles sehr hübsch da. Also ich kann nicht klagen.
+
+44
+00:03:18,000 --> 00:03:21,000
+ Und ich war auch schon mal in Linz. Linz ist auch sehr schön.
+
+45
+00:03:21,000 --> 00:03:24,000
+ Da ist dieses Kunstding.
+
+46
+00:03:24,000 --> 00:03:26,000
+ Genau. AAS Elektronika.
+
+47
+00:03:26,000 --> 00:03:28,000
+ Ja, ja.
+
+48
+00:03:28,000 --> 00:03:30,000
+ Da habe ich schon mal ein Pokal eingesammelt.
+
+49
+00:03:30,000 --> 00:03:32,000
+ Pokal für die... wie hieß die nochmal?
+
+50
+00:03:32,000 --> 00:03:34,000
+ Die Goldenen Nika.
+
+51
+00:03:34,000 --> 00:03:36,000
+ Für das Lebenswerk, aber nicht meins.
+
+52
+00:03:36,000 --> 00:03:38,000
+ So weit ist es noch nicht.
+
+53
+00:03:39,000 --> 00:03:45,000
+ Nee, für die CCC. Der hat nämlich da die Goldenen Nika bekommen für sein Gesamtwirken.
+
+54
+00:03:45,000 --> 00:03:48,000
+ Ja. Die stand dann jahrelang in der Metaebene.
+
+55
+00:03:48,000 --> 00:03:52,000
+ Nee, die stand nicht jahrelang in der Metaebene. Die steht immer noch in der Metaebene.
+
+56
+00:03:52,000 --> 00:04:04,000
+ Weil natürlich der Rest des Hoffens davon nie so richtig Notiz genommen hat. Und ich immer Angst hatte, dass wenn das jetzt irgendwo im Club steht, dass das dann einfach bei irgendeiner Aufraumaktion wegkommt.
+
+57
+00:04:04,000 --> 00:04:06,000
+ Oder LED es irgendwo dran macht oder...
+
+58
+00:04:07,000 --> 00:04:09,000
+ Dann würde noch keiner zurückhaben.
+
+59
+00:04:09,000 --> 00:04:14,000
+ Das ist für mich so ein bisschen ein Ausgleich. Also so habe ich dann zumindest das Gefühl, ich hätte mal einen Preis gewonnen.
+
+60
+00:04:14,000 --> 00:04:17,000
+ Hab ich noch keinen Preis. Hast du schon mal einen Preis gewonnen?
+
+61
+00:04:17,000 --> 00:04:22,000
+ Ich habe in der Schule mal bei so einem Zeichenwettbewerb gewonnen.
+
+62
+00:04:22,000 --> 00:04:24,000
+ Ach, was hast du gemalt?
+
+63
+00:04:24,000 --> 00:04:26,000
+ Ähm...
+
+64
+00:04:26,000 --> 00:04:31,000
+ Kopflose Leute, die sich mit Baseballschlägern hauen.
+
+65
+00:04:31,000 --> 00:04:34,000
+ Dafür hast du einen Preis bekommen?
+
+66
+00:04:34,000 --> 00:04:36,000
+ Ja, es war Comics gegen Gewalt.
+
+67
+00:04:36,000 --> 00:04:38,000
+ Hast du so eine Woche keine Schule oder so?
+
+68
+00:04:38,000 --> 00:04:41,000
+ Nee, ein Scanner. Ich habe einen Scanner bekommen.
+
+69
+00:04:41,000 --> 00:04:44,000
+ Das habe ich noch für Preise. Das ist für überlegen.
+
+70
+00:04:44,000 --> 00:04:47,000
+ Na ja, okay, gut.
+
+71
+00:04:47,000 --> 00:04:49,000
+ Die anderen Preise sind uncool.
+
+72
+00:04:49,000 --> 00:04:57,000
+ Wir werden gleich viel über Österreich reden. Bevor wir über Österreich reden, müssen wir vielleicht noch mal kurz hier was zum Kontext sagen.
+
+73
+00:04:58,000 --> 00:05:06,000
+ Das ist das Communication Camp. Wir haben es ja schon erwähnt. Das gibt es alle vier Jahre. So auch dieses Jahr. Es ist ein weiteres Mal in Mildenberg.
+
+74
+00:05:06,000 --> 00:05:12,000
+ Es ist sehr bunt, oder? Das kann man auf jeden Fall schon mal festhalten, Linus. Du musst mir jetzt zustimmen.
+
+75
+00:05:12,000 --> 00:05:14,000
+ Ja, es ist bunt.
+
+76
+00:05:14,000 --> 00:05:16,000
+ Was guckst du so?
+
+77
+00:05:16,000 --> 00:05:18,000
+ Haben wir was Falsches gesagt?
+
+78
+00:05:18,000 --> 00:05:20,000
+ Es ist bunt.
+
+79
+00:05:21,000 --> 00:05:28,000
+ Also es steht vollkommen aus der Frage, ob es bunt ist. Genau. Du hast auch schon einen Vortrag gehalten.
+
+80
+00:05:28,000 --> 00:05:37,000
+ Ich habe einen Vortrag gehalten, ja. Zusammen mit meinen Kollegen und Freunden Dominik und Cantorkel haben wir über unsere Hacking-Abenteuer gesprochen.
+
+81
+00:05:37,000 --> 00:05:42,000
+ Einmal in der Disclosure von Vulnerabilities, so als CCC.
+
+82
+00:05:43,000 --> 00:05:52,000
+ Die haben eine Schwachstelle. Dann haben wir das noch ein bisschen verschärft durch einen Ransomware Gang übernommen.
+
+83
+00:05:52,000 --> 00:05:58,000
+ Die Ransomware Gang hat Leute gehackt und wir haben den Leuten gesagt, Achtung, ihr werdet gerade gehackt, macht das weg.
+
+84
+00:05:58,000 --> 00:06:01,000
+ Das war ganz interessant eigentlich.
+
+85
+00:06:01,000 --> 00:06:03,000
+ Okay.
+
+86
+00:06:03,000 --> 00:06:06,000
+ Aber auf Englisch. Deswegen habe ich dir nicht Bescheid gesagt.
+
+87
+00:06:06,000 --> 00:06:11,000
+ Du schwißt ja deine eigene Muttersprache nicht.
+
+88
+00:06:12,000 --> 00:06:13,000
+ Das ist nicht so gut.
+
+89
+00:06:13,000 --> 00:06:15,000
+ Das ist nicht meine Muttersprache.
+
+90
+00:06:15,000 --> 00:06:20,000
+ Ich weiß, Deutsch ist deine Muttersprache. Jetzt hast du ja auch einen Pass. Jetzt, Gott sei Dank, hat man einen Pass.
+
+91
+00:06:20,000 --> 00:06:24,000
+ Du hast das Thema aufgebracht. Ich wollte da gar nicht drüber reden.
+
+92
+00:06:24,000 --> 00:06:26,000
+ Hast du einen deutschen Pass?
+
+93
+00:06:26,000 --> 00:06:29,000
+ Nein, leider nicht. Ich habe sogar Asylbeantrag mit Deutsch gemacht.
+
+94
+00:06:29,000 --> 00:06:33,000
+ Ich habe das mal gemacht.
+
+95
+00:06:33,000 --> 00:06:40,000
+ Wir müssen jetzt ein kleines Ratespiel machen. Melden sich mal bitte alle, die wissen, wer er ist.
+
+96
+00:06:41,000 --> 00:06:42,000
+ Das ist gut.
+
+97
+00:06:42,000 --> 00:06:44,000
+ Das ist so 5%.
+
+98
+00:06:44,000 --> 00:06:47,000
+ 5% würdest du sagen?
+
+99
+00:06:47,000 --> 00:06:49,000
+ 10%?
+
+100
+00:06:49,000 --> 00:06:51,000
+ Nein, nicht 10%.
+
+101
+00:06:51,000 --> 00:06:53,000
+ 5%?
+
+102
+00:06:53,000 --> 00:06:55,000
+ Unter 5%.
+
+103
+00:06:55,000 --> 00:06:58,000
+ Jetzt kommen die vorsichtigen Hinweise. Ich stelle jetzt etwas auf den Tisch.
+
+104
+00:06:58,000 --> 00:07:00,000
+ Und zwar...
+
+105
+00:07:00,000 --> 00:07:03,000
+ Das ist so ein Schweindal jetzt.
+
+106
+00:07:03,000 --> 00:07:06,000
+ Das ist eine Flasche Wodka.
+
+107
+00:07:07,000 --> 00:07:12,000
+ Wie viele wissen jetzt, wer er ist?
+
+108
+00:07:12,000 --> 00:07:16,000
+ Jetzt dürfen sich nur die melden, die... Ach so, das ist schwierig.
+
+109
+00:07:16,000 --> 00:07:18,000
+ Das ist immer noch 5%.
+
+110
+00:07:18,000 --> 00:07:25,000
+ Jetzt stellen wir Red Bull dazu.
+
+111
+00:07:25,000 --> 00:07:33,000
+ Weiß jetzt jemand, wer das ist?
+
+112
+00:07:33,000 --> 00:07:36,000
+ Immer noch dasselbe.
+
+113
+00:07:36,000 --> 00:07:43,000
+ Wer von euch hat einen Pass von spanischer Insel? Ibiza oder so?
+
+114
+00:07:43,000 --> 00:07:47,000
+ Wie viele wissen jetzt, wer er ist?
+
+115
+00:07:47,000 --> 00:07:49,000
+ Ein bisschen mehr.
+
+116
+00:07:49,000 --> 00:07:51,000
+ Das ist ja unglaublich.
+
+117
+00:07:51,000 --> 00:07:56,000
+ Was denn? Na ja gut, wir haben die Geschichte ja auch noch nicht ausreichend erzählt.
+
+118
+00:07:56,000 --> 00:07:58,000
+ Also das ist Julian Hessenthaler.
+
+119
+00:07:58,000 --> 00:08:00,000
+ Hallo.
+
+120
+00:08:00,000 --> 00:08:02,000
+ Herzlich willkommen.
+
+121
+00:08:03,000 --> 00:08:15,000
+ Und wenn man mit Julian Hessenthaler Wodka Red Bull trinkt, ist das üblicherweise ein Karriereende.
+
+122
+00:08:15,000 --> 00:08:24,000
+ Und wir haben uns überlegt, wir versuchen diesen Bann mal zu brechen, diesen Fluch, und lassen uns einfach drauf ein und trinken jetzt mit Julian...
+
+123
+00:08:24,000 --> 00:08:28,000
+ Oder wir riskieren auch das Karriereende.
+
+124
+00:08:28,000 --> 00:08:31,000
+ Karriereende Wodka Red Bull.
+
+125
+00:08:32,000 --> 00:08:33,000
+ Ich bin froh, dass du mir kein Glas hingestellt hast.
+
+126
+00:08:33,000 --> 00:08:35,000
+ Doch, das steht hinter deinem Bildschirm.
+
+127
+00:08:35,000 --> 00:08:37,000
+ Furchtbar.
+
+128
+00:08:37,000 --> 00:08:41,000
+ Darf ich an dieser Stelle meinen tiefen Dislike aussprechen zum Thema Red Bull?
+
+129
+00:08:41,000 --> 00:08:43,000
+ Das ist einfach für mich...
+
+130
+00:08:43,000 --> 00:08:45,000
+ Heißt doch gar nicht Red Bull, heißt doch Rasenballsport.
+
+131
+00:08:45,000 --> 00:08:47,000
+ Hör mal auf.
+
+132
+00:08:47,000 --> 00:08:53,000
+ Wenn das meine Fußballfreunde hören, dass ich Red Bull trinke, dann werde ich der Kurve verwiesen.
+
+133
+00:08:53,000 --> 00:08:56,000
+ So, die Eiswürfel sind...
+
+134
+00:08:56,000 --> 00:08:59,000
+ Super vorbereitet, das ist irgendwie auch sehr ästhetisch.
+
+135
+00:08:59,000 --> 00:09:01,000
+ Du willst mehr Eis?
+
+136
+00:09:01,000 --> 00:09:02,000
+ Ja, ich will mehr Eis.
+
+137
+00:09:02,000 --> 00:09:05,000
+ Du hast gesagt, du möchtest so viel Wasser und so wenig Red Bull wie möglich?
+
+138
+00:09:05,000 --> 00:09:07,000
+ Dann nimm mir Eiswürfel.
+
+139
+00:09:07,000 --> 00:09:11,000
+ Ihr ahnt es schon, wir müssen über Österreich reden.
+
+140
+00:09:11,000 --> 00:09:14,000
+ Das klingt immer so ein bisschen wie so eine Ermahnung.
+
+141
+00:09:14,000 --> 00:09:24,000
+ Wir haben ja nun auch im Podcast schon mehrfach über Österreich geredet und es ist immer super, um so ein bisschen die Hände über den Kopf zusammenzuschlagen.
+
+142
+00:09:24,000 --> 00:09:27,000
+ Aber es ist auch nicht alles schlecht, was aus Österreich kommt.
+
+143
+00:09:27,000 --> 00:09:30,000
+ Allerdings Red Bull schon.
+
+144
+00:09:30,000 --> 00:09:36,000
+ Ich verstehe überhaupt nicht, wie dieses Zeug... also warum?
+
+145
+00:09:36,000 --> 00:09:38,000
+ Ich verstehe nicht warum, meins ist lila, ist aber egal.
+
+146
+00:09:38,000 --> 00:09:40,000
+ Oh, das ist das Red Bull Blue, sorry.
+
+147
+00:09:40,000 --> 00:09:42,000
+ Passt zu FPÖ, alles gut.
+
+148
+00:09:42,000 --> 00:09:50,000
+ Okay, ich muss das jetzt hier... das Peer Pressure at Work, ja sorry.
+
+149
+00:09:50,000 --> 00:09:53,000
+ Wie viel macht man auf... oh Gott, das ist ja...
+
+150
+00:09:53,000 --> 00:09:55,000
+ Du kannst auch mehr Wodka machen.
+
+151
+00:09:55,000 --> 00:09:57,000
+ Ja, ja, ist ja beides schlimm.
+
+152
+00:09:58,000 --> 00:10:00,000
+ Ich muss ja noch... den Wodka schmeckst du nicht mehr drauf.
+
+153
+00:10:00,000 --> 00:10:02,000
+ Ich muss doch noch einen Podcast machen heute.
+
+154
+00:10:02,000 --> 00:10:04,000
+ Ja, du musst das ja auch nicht austrinken.
+
+155
+00:10:04,000 --> 00:10:06,000
+ Ist das so richtig?
+
+156
+00:10:06,000 --> 00:10:08,000
+ Ja, kannst du machen.
+
+157
+00:10:08,000 --> 00:10:10,000
+ Kommt darauf an, was du noch vorhast.
+
+158
+00:10:10,000 --> 00:10:12,000
+ Oh Gott.
+
+159
+00:10:12,000 --> 00:10:14,000
+ Ich hab eigentlich nichts mehr vor.
+
+160
+00:10:14,000 --> 00:10:18,000
+ So, Julian, vielen Dank fürs Kommen und dabei sein, ganz toll.
+
+161
+00:10:18,000 --> 00:10:20,000
+ Ja, auf dich.
+
+162
+00:10:20,000 --> 00:10:22,000
+ Auf Österreich, Julian.
+
+163
+00:10:22,000 --> 00:10:24,000
+ Puh.
+
+164
+00:10:25,000 --> 00:10:29,000
+ So, wie viel muss man davon trinken, bis man die Krone verkaufen will?
+
+165
+00:10:29,000 --> 00:10:33,000
+ Strahl hat ein paar gebraucht, zeig mal.
+
+166
+00:10:33,000 --> 00:10:36,000
+ Aber er wollte es doch nicht verkaufen, muss man ehrlich gesagt.
+
+167
+00:10:36,000 --> 00:10:44,000
+ So, für alle, die immer noch completely lost sind, worüber wir jetzt hier eigentlich reden wollen und wer das ist und überhaupt und so weiter.
+
+168
+00:10:44,000 --> 00:10:49,000
+ Wir haben es ja im Podcast auch ein paar Mal angesprochen und die Sache ging auch irgendwie um die Welt, also zumindest in der deutschsprachigen Welt.
+
+169
+00:10:49,000 --> 00:10:52,000
+ Ich weiß gar nicht, ist das so international eigentlich auch irgendwie?
+
+170
+00:10:53,000 --> 00:10:56,000
+ Ich sag mal, das Video, der Release wohl schon, aber danach ging es dann überhaupt nicht.
+
+171
+00:10:56,000 --> 00:11:02,000
+ Also es kam, glaube ich, weltweit, weil ich habe tatsächlich die Freigaben zeignen müssen, jeder einzeln, was mich ungefähr zwei Tage lang Zeit gekostet hat,
+
+172
+00:11:02,000 --> 00:11:10,000
+ irgendwelche verschlüsselten E-Mails an ein spezielles E-Mail-Postfach zu schicken, indem ich den diversen Sendern Freigaben erteile.
+
+173
+00:11:10,000 --> 00:11:13,000
+ Interessiert sich eigentlich irgendjemand für Österreich, ist das so?
+
+174
+00:11:13,000 --> 00:11:22,000
+ Man sollte, also ganz ehrlich sollte man, weil dann tatsächlich Österreich auf einem recht seltsamen Weg unterwegs ist die letzten Jahre und das wird irgendwie nicht besser.
+
+175
+00:11:22,000 --> 00:11:24,000
+ Ach du meinst so in a bad way sollte man sich für Österreich interessieren?
+
+176
+00:11:24,000 --> 00:11:26,000
+ Ja, so in a strange way.
+
+177
+00:11:26,000 --> 00:11:30,000
+ Super interessant, in a strange way.
+
+178
+00:11:30,000 --> 00:11:41,000
+ Genau, also wir reden natürlich über die ganze Ibiza-Affäre, ausgelöst nicht ohne deinen Zutun, da wollen wir jetzt auch gleich nochmal drüber reden.
+
+179
+00:11:42,000 --> 00:11:59,000
+ Es gab dieses ominöse Video, wo sehr viel Wodka Red Bull getrunken wurde und was dann so in der Folge allerlei Aufhebens gemacht hat und letzten Endes zum Sturz der Regierung Kurz führte, also die ÖVP-FPO-Regierung.
+
+180
+00:11:59,000 --> 00:12:09,000
+ Und ja, seitdem geht es ja auch unter die Polter wild weiter, man kann darüber reissieren, ob sich da jetzt etwas verbessert hat oder nicht, aber zumindest hat sich mal was verändert.
+
+181
+00:12:10,000 --> 00:12:12,000
+ Wir müssen uns auf jeden Fall festhalten.
+
+182
+00:12:12,000 --> 00:12:15,000
+ Ja, ich glaube wir haben den 5. Bundeskanzler in 4 Jahren los.
+
+183
+00:12:15,000 --> 00:12:25,000
+ Ja, genau, dieses Video ist von 2017, das ist wenn ich mich jetzt richtig erinnere vor den Wahlen, wo es dann zu dieser Koalition kam, aufgenommen worden.
+
+184
+00:12:25,000 --> 00:12:34,000
+ Zwei Jahre später erst wurde es publik und dann dauerte es nochmal so ein anderthalb Jahr und dann kamst du oder ein Jahr, ich weiß nicht ganz genau.
+
+185
+00:12:34,000 --> 00:12:36,000
+ Bis zu meiner Verhaftung hat es dann eineinhalb Jahre gedauert.
+
+186
+00:12:36,000 --> 00:12:38,000
+ Genau, aber dein Name fiel dann?
+
+187
+00:12:39,000 --> 00:12:41,000
+ Ja, das war aber auch klar, es war absinthbar.
+
+188
+00:12:41,000 --> 00:12:46,000
+ Aber nicht sofort, es war sozusagen ein ganz kleines Rätsel für kurze Zeit.
+
+189
+00:12:46,000 --> 00:13:01,000
+ Genau, und dann war sehr viel Brimborium und Aufhebens und Fingerpointing und natürlich wie das eben bei solchen Affären ist, wo mächtige Schaden nehmen, da wird dann erstmal ordentlich dran gearbeitet, möglichst die ganzen Messager zu erschießen.
+
+190
+00:13:02,000 --> 00:13:09,000
+ Und du bist zwar nicht tot, aber ganz schadfrei bist du ja aus der Sache nun auch nicht hervorragend.
+
+191
+00:13:09,000 --> 00:13:11,000
+ Auch nicht, ne.
+
+192
+00:13:11,000 --> 00:13:17,000
+ Genau, so viel vielleicht mal so als Kontext, da habt ihr ja sicherlich alle schon mal was von gehört.
+
+193
+00:13:17,000 --> 00:13:28,000
+ Jetzt würde mich natürlich trotzdem nochmal interessieren, um das mal so ein bisschen auch festzumachen, wie bitte kam es dazu eigentlich?
+
+194
+00:13:29,000 --> 00:13:32,000
+ Wie weit müssen wir jetzt in der Geschichte zurückrudern?
+
+195
+00:13:32,000 --> 00:13:37,000
+ Ja, eigentlich so kurz, wenn du es ganz kurz runtergebrochen haben willst.
+
+196
+00:13:37,000 --> 00:13:41,000
+ Ne, du kannst das auch ausführlich blumenreich ausführen.
+
+197
+00:13:41,000 --> 00:13:43,000
+ Bei Tilojohn bin ich vier Stunden gesessen, glaube ich.
+
+198
+00:13:43,000 --> 00:13:47,000
+ Ja, naja, ich weiß nicht, wann soll ich es hier rausschmeißen, aber kommt da eigentlich noch irgendwas nach uns?
+
+199
+00:13:47,000 --> 00:13:49,000
+ Ne.
+
+200
+00:13:49,000 --> 00:13:52,000
+ Ich muss an der Markt das hier auflegen, aber ihr könnt ja unten.
+
+201
+00:13:52,000 --> 00:13:54,000
+ Das machen wir mal im Detail.
+
+202
+00:13:54,000 --> 00:13:56,000
+ Das Cap geht auch noch zwei Tage.
+
+203
+00:13:56,000 --> 00:13:58,000
+ Stimmt auch, oder?
+
+204
+00:13:58,000 --> 00:14:07,000
+ Ne, kurz gesagt, ich hatte einen Freund, der war Anwalt und der kam irgendwann zu mir und meinte, der hat einen Mandanten und der hat ihm irgendwie so brisantes Material anvertraut.
+
+205
+00:14:07,000 --> 00:14:12,000
+ War so relativ geheimnistorisch, sag ich mal.
+
+206
+00:14:12,000 --> 00:14:22,000
+ Und peua peua, der mir dann mehr oder weniger durchgesteckt, okay, er geht zum Strache und der Mandant ist halt offenbar Bodyguard vom Strache und der hat gesammelt alles mögliche Material,
+
+207
+00:14:23,000 --> 00:14:33,000
+ unter anderem Fotos von Geldtaschen im Kofferraum vom Strache und Rechnungen, die angeblich gefälscht sein sollten, damit er irgendwie seine private Lebensführung mit Spesen die Partei verrechnen kann.
+
+208
+00:14:33,000 --> 00:14:46,000
+ Und das Material war interessant, aber es hat keine Beweiskraft gehabt, also es waren halt Fotos und die kann jeder machen und es waren halt irgendwelche Ausdrucke von Rechnungen und die kann auch jeder mit Photoshop herstellen, wenn er will, also im Ende, ja.
+
+209
+00:14:47,000 --> 00:15:03,000
+ Die Geschichte war wohl schon glaubwürdig für mich, aber beweist halt nichts und der hat mich dann gefragt, mir war es einfallend, mir war das eigentlich, war wirklich nichts so eigentlich politisch ambitioniert oder wie auch immer, es war mehr so, da war ein Freund von mir, der hat halt so gewusst, was ich tu und ich war ihm so gewahrtens.
+
+210
+00:15:03,000 --> 00:15:05,000
+ Was hast du denn getan?
+
+211
+00:15:06,000 --> 00:15:26,000
+ Ich hab mich in der Beratung genannt, wir haben Großkonzerne beraten, im Endeffekt haben wir was im Englischen unter so Private Intelligence rent gemacht, also Großkonzerne geschützt einerseits vor Informationsabfluss etc., jetzt nicht im IT Bereich, sondern eher so im Real-World Bereich und auf der anderen Seite eben auch präventive Sachen Richtung Parteienverletzung etc.
+
+212
+00:15:27,000 --> 00:15:40,000
+ Und deswegen wusste er halt, dass ich so ein gewisses Talent in der Richtung hab, ein gewisses Know-how, Skill-Set wie auch immer und hat mich eben gefragt, ob mir was einfällt und ich hab so salopp hingeworfen, ja, nee, brauchst halt irgendwie ein Audio-Video, wo der das halt zugibt, mehr oder weniger am besten.
+
+213
+00:15:41,000 --> 00:15:55,000
+ Wir haben uns regelmäßig, muss man sagen, ähnlich wie heute hier mit ein paar Vodkas getroffen nach der Arbeit, aber ohne Red Bull tatsächlich, das war ein Strache sein Drink nicht meiner, ist zu meinem geworden leider.
+
+214
+00:15:56,000 --> 00:16:12,000
+ Und ja, wie es halt so ist, wenn man zu viel Vodka trinkt, kommt man auf lustige Ideen und seine lustige Idee war, hey komm lass machen und ich hab das nicht ernst genommen am Anfang, bis er dann tatsächlich ein Packen Geld ausgepackt hat und gemeint hat, komm was kostet's, organisier es mal und ich hab gesagt, ok cool.
+
+215
+00:16:12,000 --> 00:16:14,000
+ Aber was war denn seine Motivation?
+
+216
+00:16:15,000 --> 00:16:35,000
+ Ich glaub tatsächlich, also durchaus, er war schon ideologisch motiviert, zeig euch mal, also der war deutlich politischer als ich zu dem Zeitpunkt mit Sicherheit, also als Perhase muss man dazu sagen, damals war schon absehbar, dass die FPÖ in die Region kommen würde und wenn man halt irgendwie so gelernter Ausländer in Österreich ist, dann weiß man, dass das nicht so sonderlich gut für einen ist.
+
+217
+00:16:35,000 --> 00:16:37,000
+ Ja.
+
+218
+00:16:38,000 --> 00:16:56,000
+ Ja, das war wohl sicher mit ein Grund, auf der anderen Seite glaub ich, war ihm wohl auch, wahrscheinlich wollte er einfach was bewegen, also ich glaub das kennt jeder, wenn man halt mal so ein etwas trockenen Alltag hat, dass man dann halt auch mal das Gefühl hat, hey jetzt komm lass mal irgendwas machen, was so, was anderes ist, sonst war es wahrscheinlich auch mitgespielt im Rückblick.
+
+219
+00:16:57,000 --> 00:17:05,000
+ Und so kam's, wir haben dann ein paar nicht so wirklich professionelle Versuche unternommen, sag ich mal, also ich glaub die Geschichte ist oft erzählt.
+
+220
+00:17:05,000 --> 00:17:07,000
+ Ohne DSD-Karte?
+
+221
+00:17:07,000 --> 00:17:10,000
+ Ja, ja, ohne DSD-Karten. Also man muss dazu sagen.
+
+222
+00:17:10,000 --> 00:17:12,000
+ Aber das macht dich auch menschlich.
+
+223
+00:17:12,000 --> 00:17:16,000
+ Ja, nee, absolut, das beweist, die menschlichen Fehler sind überall zu finden.
+
+224
+00:17:16,000 --> 00:17:18,000
+ Was war denn mit den DSD-Karten?
+
+225
+00:17:19,000 --> 00:17:28,000
+ Vielleicht zuerst mal, also ich hab ihm gesagt, okay ich muss irgendwie an Strache rankommen, also wenn ich in der Lage sein soll, dass Strache da irgendwie in eine Falle zu locken, muss ich irgendwie an Strache ran.
+
+226
+00:17:28,000 --> 00:17:43,000
+ Und keiner von uns beiden kannte an Strache und es war zwar bekannt, dass Strache gerne weggeht und Strache mag kein Party und sonst was, aber du gehst jetzt nicht in irgendein Club und sagst, hey Strache komm mal, wir haben da irgendwie super geile, korrupte Sachen zu bereden, das heißt immer, das funktioniert auch in Österreich nicht.
+
+227
+00:17:44,000 --> 00:17:55,000
+ Und so kam halt die Idee, dass der Anwalt kannte eine Maklerin, eine Immobilienmaklerin und die war mit der rechten Hand von Strache, hatte mal einen Erferriger, Strache übrigens auch.
+
+228
+00:17:55,000 --> 00:18:01,000
+ Und übrigens auch Ausländerin, so nebenbei gesagt.
+
+229
+00:18:02,000 --> 00:18:23,000
+ Und da kam die Idee daher gut, der Anwalt war Immobilienanwalt unter anderem, hat gesagt, na komm ich ruf die Maklerin an und sag ich hab eine super wichtige Kundin oder Kunden, der will in irgendwelche Ländereien kaufen und zufälligerweise hat diese rechte Hand von Strache, der Gudenus sich nennt, die Familie hatte Ländereien recht weitreichende, außerhalb von Wien.
+
+230
+00:18:24,000 --> 00:18:42,000
+ Und dann kam uns halt, mir halt die Idee, na komm lass uns eine Legende kreieren und ich wollte im Ganzen damals, weil Österreich mittlerweile etwas offensichtlicher, aber damals auch für jeden das sehen wollte, so eine seltsame Liebe zu Russland pflegt, also irgendwie Russland ist so ein recht gewichtiger Faktor in Österreich.
+
+231
+00:18:42,000 --> 00:18:45,000
+ Diese Karin Kneisel ist jetzt nach Russland gezogen.
+
+232
+00:18:45,000 --> 00:18:49,000
+ Ja, ja, die hat auch heute irgendwie getwittert, das ist super geil, ist besser als Maritif und sich schenken und so.
+
+233
+00:18:49,000 --> 00:18:51,000
+ Also die ehemalige Außenministerin.
+
+234
+00:18:52,000 --> 00:18:54,000
+ Ja, ehemaliger Außenminister in Österreich, FPÖ.
+
+235
+00:18:54,000 --> 00:18:56,000
+ Die fuhr jetzt irgendwo in Russland, der Papa.
+
+236
+00:18:56,000 --> 00:19:08,000
+ Hat mal Putin zu ihrer Hochzeit eingeladen, Putin hat sich tatsächlich die Mühe genommen und ist mit einer Konvoi nach Graz, glaub ich, war es gefahren, weil du gerade Graz gesagt hast, und hat dort mit ihr getanzt und sie hat sich dann verborgt vor Putin, da gibt es wunderschöne Fotos zu finden.
+
+237
+00:19:08,000 --> 00:19:10,000
+ Als sie Außenministerin war.
+
+238
+00:19:10,000 --> 00:19:12,000
+ Als sie Außenministerin war, ja eben.
+
+239
+00:19:12,000 --> 00:19:14,000
+ Österreich.
+
+240
+00:19:14,000 --> 00:19:16,000
+ Weißte, geil, da ist bestimmt auch irgendwas mit Kurbeskellen übergelaufen.
+
+241
+00:19:16,000 --> 00:19:18,000
+ Man weiß es nicht.
+
+242
+00:19:19,000 --> 00:19:22,000
+ Aber ja, jedenfalls das Foto gibt es, das Foto hat für Aufsehen gesorgt.
+
+243
+00:19:22,000 --> 00:19:28,000
+ Er hat ihr dafür, glaub ich, ein Marakdorring für 50.000 Euro geschenkt, diesmal gleich eingesteckt hat und versucht hat mitzunehmen.
+
+244
+00:19:28,000 --> 00:19:30,000
+ Das ist einfach so.
+
+245
+00:19:30,000 --> 00:19:36,000
+ Also das ist ein geiler Finder an Österreich, die bemühen sich noch nicht mal irgendwie seriös rüberzukommen.
+
+246
+00:19:36,000 --> 00:19:39,000
+ Also einfach hier tun sie ja zumindest noch.
+
+247
+00:19:39,000 --> 00:19:47,000
+ Ja, ich sag ja, das ist der Unterschied, was ich hier Leuten, weil alle mir so sagen, ja, überall sind Politiker, sind überall korrupt, ja stimmt schon, aber in Österreich ist es tatsächlich so, die machen sich nicht mal die Mühe.
+
+248
+00:19:48,000 --> 00:19:57,000
+ Also in Italien sitzt du bei irgend wem, keine Ahnung, der will halt bestochen werden und dann dreht er sich um und zeigt dir aufs Bild hinter ihm, das fürchterlich unwichtig ist und sagt so, hey, was wäre dir das da wert?
+
+249
+00:19:57,000 --> 00:19:59,000
+ Und dann verstehst du, was er will.
+
+250
+00:19:59,000 --> 00:20:03,000
+ Aber in Österreich hältst du einfach so, gib mal, hier ist die Anzahl.
+
+251
+00:20:03,000 --> 00:20:11,000
+ Und das ist relativ absurd, aber es zeigt auch, dass in Österreich offenbar so eine Kultur eingekehrt ist, wo die Leute sich absolut nicht, also wo sie sich eben sicher sind.
+
+252
+00:20:12,000 --> 00:20:19,000
+ Das Problem ist wohl nicht, dass die Leute in Österreich besonders dumm, blöd oder korrupt sind, möglicherweise manche, aber nicht alle.
+
+253
+00:20:19,000 --> 00:20:25,000
+ Aber das Problem ist tatsächlich, glaube ich, eher, dass die Leute tatsächlich davon ausgehen, dass ihnen keine Konsequenzen drohen.
+
+254
+00:20:25,000 --> 00:20:32,000
+ Und die machen es deswegen. Also weil es einfach so sich eingeschleift hat, dass sie einfach sicher sind, dass egal was passiert, was soll denn passieren.
+
+255
+00:20:32,000 --> 00:20:41,000
+ Und dann ist es natürlich unglaublich leicht korrupt zu sein, weil am Ende des Tages, wo das Schlimmste was droht, vielleicht ein Rücktritt in irgendein Vorstand ist, dann ist es ja wohl auch egal.
+
+256
+00:20:41,000 --> 00:20:49,000
+ Ist denn das ein neues Phänomen oder ist das etwas, was du sagen wolltest, was so inherent in der österreichischen Kultur so drinsteckt?
+
+257
+00:20:49,000 --> 00:20:57,000
+ Also ich sag mal, Österreich ist für viele Sachen, speziell auch im Technikbereich, wie ich so mitgekriegt habe, so ein Testballon ein bisschen, also so UNTS Netzwerke und so weiter,
+
+258
+00:20:57,000 --> 00:21:01,000
+ weil so klassische Dinge würden in Österreich getestet, weil es ein kleines Land und doch gut ausgebaute Infrastruktur.
+
+259
+00:21:01,000 --> 00:21:06,000
+ Auf der anderen Seite ist Österreich halt auch fürchterlich hinterher. Also ich glaube, wenn man es vergleichen wollen würde,
+
+260
+00:21:07,000 --> 00:21:13,000
+ weil es schon in Bayern gab, diese Spesenskandale, vor mal Ewigkeiten gefüllt und das ist so ungefähr, wo Österreich jetzt steht.
+
+261
+00:21:13,000 --> 00:21:17,000
+ Also damit kann man vielleicht auch deutlich in was so der Punkt ist.
+
+262
+00:21:17,000 --> 00:21:19,000
+ Schlimmer als Bayern.
+
+263
+00:21:19,000 --> 00:21:23,000
+ So scheint es zumindest. Es gilt die Unschuldsvermutung, wie man so schön sagt.
+
+264
+00:21:23,000 --> 00:21:29,000
+ Heute geht es zum Thema richtig rund. Erst Rasenballsport trinken, dann gibt es noch was Schlimmeres als Bayern.
+
+265
+00:21:30,000 --> 00:21:40,000
+ Naja, ich versuche gerade so rauszukriegen, ist eigentlich irgendwas, also manchmal ist es ja schon die Geografie eines Landes,
+
+266
+00:21:40,000 --> 00:21:44,000
+ die in irgendeiner Form so bestimmt ist. Inwiefern das jetzt bei Österreich eine Rolle spielen kann, keine Ahnung.
+
+267
+00:21:44,000 --> 00:21:53,000
+ Oder irgendein anderes Element, was sozusagen so spezifisch irgendwas in der Gesellschaft ermöglicht, was woanders so nicht ohne Weiteres ist.
+
+268
+00:21:53,000 --> 00:21:59,000
+ Naja, es spielt sich geografisch mit, dass Österreich einfach klein ist. Und wie kleine Länder so sind, kennt man sich dann leicht untereinander.
+
+269
+00:21:59,000 --> 00:22:00,000
+ Ja, das stimmt natürlich.
+
+270
+00:22:00,000 --> 00:22:05,000
+ Und dann ist es so eine Bubble halt, wo man sich untereinander kennt, man will sich nicht gern wehtun, man macht sich gegen seine Gefälligkeiten und so weiter.
+
+271
+00:22:05,000 --> 00:22:16,000
+ Man schützt sich, spielt sich ja mit einer Rolle. Andererseits ist es halt auch einfach, dass Österreich jetzt eigentlich seit seiner Gründung der aktuellen Republik
+
+272
+00:22:16,000 --> 00:22:21,000
+ irgendwie so ein Problem mit Aufarbeitung hatte. Also in Österreich heißt es noch immer Hitler war so ein deutsches Problem.
+
+273
+00:22:21,000 --> 00:22:26,000
+ Ja, ist zwar bei uns geboren, aber eigentlich, die haben uns überfallen und wir können nichts dafür so ungefähr.
+
+274
+00:22:27,000 --> 00:22:32,000
+ Das ist die österreichische Thek und Things. Und das zeigt sich fort.
+
+275
+00:22:32,000 --> 00:22:36,000
+ Österreich hat eine geile Kultur entwickelt, keine Verantwortung zu übernehmen.
+
+276
+00:22:36,000 --> 00:22:44,000
+ Wir sind nicht NATO-Mitglied, aber mein Gott, wir werden halt geschützt, weil überall rundherum NATO-Länder und wir brauchen eigentlich auch die EU nicht, aber irgendwie ist es doch ganz geil.
+
+277
+00:22:44,000 --> 00:22:51,000
+ Und ja, so ist es halt. Also Österreich ist so. Österreich entwickelt sich so ein bisschen, ich glaube, Österreich grenzt halt nur mal an Ungarn.
+
+278
+00:22:52,000 --> 00:22:58,000
+ Und die haben gesehen, das, was der Orban abzieht, das funktioniert irgendwie so halbwegs gut. Und warum machen wir es nicht auch? Weil es ja gut für uns.
+
+279
+00:22:58,000 --> 00:23:01,000
+ Da kommt dann die alte Habsburger.
+
+280
+00:23:01,000 --> 00:23:09,000
+ Ja, irgendwie. Also das Monarchische schwingt schon noch mit. Also auch die Worte der Einstellung gegenüber dem Staat ist, glaube ich, in Österreich doch recht ausgeprägt.
+
+281
+00:23:09,000 --> 00:23:18,000
+ Im Gegensatz zu Deutschland. Ich habe das gemerkt in meinem Verfahren, dass es dann gelaufen ist. Die waren komplett schockiert, weil meine deutschen Anwälte halt angriffig waren.
+
+282
+00:23:19,000 --> 00:23:30,000
+ Die haben halt gesagt, hey, ihr seid korrupt und was alles nicht falsch ist. Und die Reaktion der Staatsanwaltschaft in Wien darauf war, dass sie mal meine Anwälte angezeigt haben, weil sie sich ungebührlich gegenüber der Staatsanwaltschaft fahrenden.
+
+283
+00:23:30,000 --> 00:23:43,000
+ Also eine Obrigkeitshörigkeit kombiniert mit einem Hang zur Korruption.
+
+284
+00:23:44,000 --> 00:23:51,000
+ Kombiniert mit so einer gewissen Hang zur Inszenierung und Operette. Also in Österreich muss es nur gut ausschauen. Österreich ist wichtig, dass es gut ausschaut.
+
+285
+00:23:51,000 --> 00:23:59,000
+ Vielleicht haben Sie von Bayern übernommen, so dieses schicke Micky-Ding ist so ein bisschen in Österreich angekommen. Hauptsache, es glänzt auf der Oberfläche und drunter. Nicht so wichtig.
+
+286
+00:23:59,000 --> 00:24:04,000
+ Wie so ein Ölfilm auf dem Ozean.
+
+287
+00:24:04,000 --> 00:24:07,000
+ Ja, möglicherweise.
+
+288
+00:24:07,000 --> 00:24:10,000
+ Ja, ach Österreich.
+
+289
+00:24:11,000 --> 00:24:16,000
+ Aber dieses Jahr trotzdem, wenn ich jetzt kurz vorspringe, also immerhin haben Sie, war es ja noch ein Skandal.
+
+290
+00:24:16,000 --> 00:24:28,000
+ Ja, ne, aber es war ein Skandal. Also ich würde heute noch immer behaupten, dass es waren ja SZ und Spiegel, also deutsche Medien, durchaus Schwergewichte in der Medienbranche in Deutschland, die veröffentlicht haben und waren auch die Medien, die wir uns gesucht haben dafür.
+
+291
+00:24:28,000 --> 00:24:34,000
+ Und ich bin bis heute noch der Überzeugung, wenn du das österreichischen Medien geben hättest, hättest du schon welche gefunden, die es veröffentlicht hätten.
+
+292
+00:24:35,000 --> 00:24:42,000
+ Ich glaube nicht, dass du welche gefunden hättest, die sich getraut hätten, das Video zu bringen. Die hätten transkribiert, die hätten mit Untertiteln belegt oder sonst was.
+
+293
+00:24:42,000 --> 00:24:58,000
+ Weil einfach Österreich hat unter anderem viele Probleme, lass uns noch ein paar davon aufzählen, die Medien hängen alle an der staatlichen Subvention, werden also gefördert und die können sich zwar erlauben, kritisch zu schreiben, aber da gibt es dann schon so Abstrafungen.
+
+294
+00:24:59,000 --> 00:25:14,000
+ Diese eine Boulevard-Zeitung, der man aktuell in Ermittlungsverfahren unterstellt, dass sie die Umfragen für den ehemaligen Bundeskanzler Kurz manipuliert haben, damit er gewählt wird, kriegen glaube ich keine Ahnung, das ist so eine Gratis-Zeitung, die kriegt man gratis in der U-Bahn ausgelegt, kann man so nehmen.
+
+295
+00:25:14,000 --> 00:25:26,000
+ Und die kriegen keine 5 Millionen Förderer im Jahr, haben komplett einen Schwach... also das lustige ist, die kriegen 5 Millionen staatliche Förderer im Jahr und werden dauernd verklagt, weil sie laut der Schwachsinn-Schreibe oder zahlt ja aus der staatlichen Förderung raus.
+
+296
+00:25:27,000 --> 00:25:29,000
+ Das ist ein Geschäftsmodell, nicht schlecht.
+
+297
+00:25:29,000 --> 00:25:31,000
+ Wie heißt das Blatt?
+
+298
+00:25:31,000 --> 00:25:43,000
+ Österreich. Viel sagen. Und Qualitätsblätter werden dann halt totgehungert. Und das ist auch so, in Österreich kannst du es dir nur bis zu einem gewissen Grad wirklich leisten.
+
+299
+00:25:44,000 --> 00:26:01,000
+ Damit will ich jetzt nicht den österreichischen Journalisten unrecht tun, es gibt schon Leute, die sich keinen Blatt vor den Mund nehmen, aber man merkt schon, dass es Themenbereiche gibt, die maximal so ein Journalist aufgriffen, die werden dann aber auch relativ schnell irgendwie weggeschoben mit "komm, das links-linker Journalismus" oder "Lügenpresse".
+
+300
+00:26:01,000 --> 00:26:09,000
+ Das gewinnt dann nicht die Art Gewicht, die das Video mit einer Veröffentlichung durch SZ und Spiel gewonnen hat. Weil da konnte man, das kann man nicht wegwischen.
+
+301
+00:26:10,000 --> 00:26:20,000
+ Österreich ist halt immer noch sehr dran gelegen im Ausland, weil wir sind ein Touristenland und es ist einfach für den Tourismus nicht gut, wenn klar wird, dass Österreich halt irgendwie so eine korrupte Halbbananen-Revue blieb, da fahrt man nicht so gerne hin.
+
+302
+00:26:20,000 --> 00:26:25,000
+ Man will in ein ordentliches, alpines, strammes Land fahren zum Schiefahren.
+
+303
+00:26:25,000 --> 00:26:29,000
+ Aber nicht, dass man was gegen die Korruption tut, sondern man redet einfach nicht drüber.
+
+304
+00:26:29,000 --> 00:26:31,000
+ Ja.
+
+305
+00:26:31,000 --> 00:26:32,000
+ Ok, das ist auch straightforward. Jetzt nochmal zurück zu dem Video.
+
+306
+00:26:33,000 --> 00:26:42,000
+ Du bist jetzt von deinem Anwalt angesprochen worden und dann hast du dich so ein bisschen beim Wodka verleiten lassen und hast Ideen entwickelt und dann habt ihr das sozusagen auch in die Tat umgesetzt.
+
+307
+00:26:42,000 --> 00:26:51,000
+ Ihr habt ihn angesprochen, ihr habt über diesen Gudenus sozusagen diesen Kontakt gefunden und dann kam es ja letzten Endes zu diesem Happening.
+
+308
+00:26:51,000 --> 00:26:57,000
+ Vielleicht kannst du ja nochmal so ein bisschen darstellen, wie das dann kam.
+
+309
+00:26:57,000 --> 00:26:59,000
+ Also das Punkt war ich...
+
+310
+00:26:59,000 --> 00:27:01,000
+ Wer war überhaupt die Russin?
+
+311
+00:27:02,000 --> 00:27:06,000
+ Wer die Russin war, werde ich mir jetzt mal weiterhin nicht darlegen, aber lassen wir es mal so stehen.
+
+312
+00:27:06,000 --> 00:27:10,000
+ Der Punkt war, ich habe eine Legende kreiert, dass es eine Oligarchen nicht ergibt.
+
+313
+00:27:10,000 --> 00:27:15,000
+ Wir haben die in den Familienkreis eines recht bekannten Oligarchen gerückt, der nachher auch ziemlich pissed war, muss man sagen.
+
+314
+00:27:15,000 --> 00:27:18,000
+ Was war denn der offizielle Name? Ist der bekannt?
+
+315
+00:27:18,000 --> 00:27:24,000
+ Der ist schon bekannt, der hat auch diverse Leute losgeschickt, um herauszufinden, wer diese besagte Oligarchin war.
+
+316
+00:27:24,000 --> 00:27:30,000
+ Ich will ihn jetzt nicht noch weiter provozieren, seinen Namen weiter hier aufdragen, aber man kann es googeln, man findet es.
+
+317
+00:27:31,000 --> 00:27:38,000
+ Jedenfalls habe ich eine Oligarchen kreiert, die angeblich sein Nichte wäre, mit knapp 350 Millionen Schwarzgeld,
+
+318
+00:27:38,000 --> 00:27:44,000
+ das aus dem zusammenbrechenden Landrömerzsystem herauskommen sollte, die eben gerne, wie so viele andere reiche Russen,
+
+319
+00:27:44,000 --> 00:27:50,000
+ aus irgendeinem Grund nach Österreich kommen würde und dort ihr Geld gerne anlegen würde bzw. auch vielleicht säubern wollen würde.
+
+320
+00:27:50,000 --> 00:27:52,000
+ Das war die Ursprungsgeschichte.
+
+321
+00:27:52,000 --> 00:27:58,000
+ Dadurch die Idee war, wir kaufen also Ländereien vom Gudenus als Entrée.
+
+322
+00:27:59,000 --> 00:28:04,000
+ Ivana, sagt ihr das dann auch? Ist das auch genau so, wie du das jetzt gesagt hast?
+
+323
+00:28:04,000 --> 00:28:11,000
+ Ja, nee, wir haben ihm gesagt, das ist kein Drogengeld, aber es kann auch nicht auf einer Bank.
+
+324
+00:28:11,000 --> 00:28:17,000
+ Wo wollte er das denn hin tun?
+
+325
+00:28:17,000 --> 00:28:22,000
+ Die Idee war, wir haben dann tatsächlich, das ist eben das, was man bei Ibiza vielleicht vergisst, weil die Leute bei Ibiza das Gefühl haben,
+
+326
+00:28:22,000 --> 00:28:24,000
+ das war halt ein Abend und die haben gesoffen und scheiße geredet.
+
+327
+00:28:25,000 --> 00:28:29,000
+ Wir haben das sieben Monate lang verhandeln und haben recht komplizierte Konstrukte gebaut.
+
+328
+00:28:29,000 --> 00:28:34,000
+ Wir haben gesagt, wir gründen eine Firma, eine zweite Firma, die kauft jetzt Immobilien, dann blasen wir mit Gutachten die Werte der Immobilien auf,
+
+329
+00:28:34,000 --> 00:28:40,000
+ verschieben es auf die zweite GmbH rüber, die macht dann mit Belehnungen und Besicherungen bei Bankenkredite,
+
+330
+00:28:40,000 --> 00:28:46,000
+ holt sich also über die erhöhten Gutachten Geld rein, wascht so das Geld durch, wir zahlen es aus, wir teilen es, da gab es Vertragsentwürfe.
+
+331
+00:28:46,000 --> 00:28:52,000
+ Das war schon recht gut durchdacht, das war jetzt nicht einfach nur, hey komm, Wort gewönt Bull und lass uns quatschen.
+
+332
+00:28:52,000 --> 00:28:54,000
+ War schon mehr als das.
+
+333
+00:28:54,000 --> 00:28:57,000
+ Und jedenfalls gab es diesen ersten Abend, weil du eben die SD-Karten angesprochen hast,
+
+334
+00:28:57,000 --> 00:29:02,000
+ wo wir dann richtig große Show gefahren haben, also wir haben da keine Ahnung, ich habe eben diese Oligarchin gefunden,
+
+335
+00:29:02,000 --> 00:29:06,000
+ diese Oligarchin-Nichte, eine Bekannte von mir, die ich für ideal geeignet gehalten habe, was sie auch war.
+
+336
+00:29:06,000 --> 00:29:15,000
+ Und haben am Maibach gemietet und die Bodyguards und ich in eine super teure Private Dining Room in einem 5-Sterne-Hotel und was, schießt mich tot.
+
+337
+00:29:15,000 --> 00:29:21,000
+ Und sind halt dort vorgefahren und haben halt gesagt, hey komm, da jetzt großes Happening.
+
+338
+00:29:22,000 --> 00:29:27,000
+ Und der Guteen ist halt einfach wie so viele in Österreich dumm und gierig, muss man einfach so sagen.
+
+339
+00:29:27,000 --> 00:29:32,000
+ Und hat uns halt versucht seine Ländereien, die so 5 MW sind, für 12 anzubieten.
+
+340
+00:29:32,000 --> 00:29:38,000
+ Und wir haben gesagt, ja ist kein Problem, weil wir haben sowieso genug Geld zu waschen, aber dann wollen wir Extras.
+
+341
+00:29:38,000 --> 00:29:42,000
+ Und damit war so da, damit haben wir mal angetestet, wie weiter geht.
+
+342
+00:29:42,000 --> 00:29:46,000
+ Und er ging dann auch recht weit, also man muss sich vorstellen, es war das erste Mal, wo man sich trifft,
+
+343
+00:29:46,000 --> 00:29:48,000
+ man hat noch nie vorher telefoniert und noch nie vorher geredet.
+
+344
+00:29:49,000 --> 00:29:55,000
+ Und da sitzt du dann mit jemandem und sagst ihm so, ja, also wir hätten gern so irgendwie bewaffnete Sicherheitsleute.
+
+345
+00:29:55,000 --> 00:30:02,000
+ Kannst du mit der Polizei irgendwie so klären, ja geht wahrscheinlich, kennt ihr irgendwie die Feuerpolizisten?
+
+346
+00:30:02,000 --> 00:30:11,000
+ Und da haben wir uns escaliert, da haben wir halt so gesagt, ja gut, okay, und dann, also wir wollen lang waffen, nicht, ja schwierig, aber ja okay, geht.
+
+347
+00:30:11,000 --> 00:30:15,000
+ Und so ging es dahin.
+
+348
+00:30:18,000 --> 00:30:24,000
+ Und ja, also der erste Amt war, dann ging es eben weiter von dem Hotel in eine Bar und dort haben wir dann, weil wir wussten,
+
+349
+00:30:24,000 --> 00:30:32,000
+ ich muss jetzt ein bisschen vorsichtig sein, aber sagen wir mal, es ging das Gerüchtigung, dass Herr Gudeno's gewissen Substanz nicht abgeneigt wäre.
+
+350
+00:30:32,000 --> 00:30:35,000
+ Und dann haben wir uns halt gedacht, komm tun wir in dem Gefallen auch noch.
+
+351
+00:30:35,000 --> 00:30:44,000
+ Und haben eine Suite in der, es war so ein Rooftop-Hotel-Bar und haben gesagt, okay, damit er die Chance hat dort, also belegbar, seinen Habits nachzugehen,
+
+352
+00:30:45,000 --> 00:30:53,000
+ mieten wir also in die Master Suite und bieten ihm anstatt, dass er aufs WC rein muss, wir sind cool genug, dass wir ihm also dafür die Master Suite zur Verfügung stellen auch noch.
+
+353
+00:30:53,000 --> 00:30:59,000
+ Was dann auch angeblich passiert ist, dann soll ich leider nicht dabei, und dort hatten wir eben Kamerasysteme platziert.
+
+354
+00:30:59,000 --> 00:31:05,000
+ Ich muss dazu sagen, ich habe noch nie vorher mit Kameras gearbeitet gehabt und bin froh, weil ich es nie wieder machen muss, ehrlich gesagt, weil es scheiße ist.
+
+355
+00:31:06,000 --> 00:31:18,000
+ Und der Punkt war, ich hatte also diese Kamerasysteme gekauft bei irgendeinem etwas fragwürdigen Garagenladen, der so Kina-Importware hatte, weil ich einfach ein Zeitproblem hatte.
+
+356
+00:31:18,000 --> 00:31:30,000
+ Und war naivert, dummerweise davon ausgegangen, dass die wahrscheinlich mit der Stapkarte bestückt sein würden, was sie nicht waren, wie ich nachher herausgefunden habe am nächsten Tag.
+
+357
+00:31:31,000 --> 00:31:41,000
+ Also es kam dazu, dass wir also ein Menge Geld verballert haben und in dem Abend Riesenschau gefahren haben, eigentlich relativ erfolgreich waren, das Problem war nunmal, es gab überhaupt kein Videomaterial, weil halt keine SD-Karten in der Kamera waren,
+
+358
+00:31:41,000 --> 00:31:49,000
+ was den Anwalt nicht glücklich gemacht hat, weil das so knapp 30.000 Euro seines Geldes waren in die Wand, die verflogen sind.
+
+359
+00:31:49,000 --> 00:31:55,000
+ Und das hat dann dazu geführt, dass er sein Handy bei mir gegen die Wand gepfeffert hat.
+
+360
+00:31:55,000 --> 00:31:57,000
+ Die olle Garchen.
+
+361
+00:31:58,000 --> 00:32:01,000
+ Ja, das Handy hat sich überlebt, war ein iPhone, guter Qualität.
+
+362
+00:32:01,000 --> 00:32:08,000
+ Aber nee, der Punkt war, die Olle Garchen ist in Lachen ausgebrochen und hat sich abgekugelt.
+
+363
+00:32:08,000 --> 00:32:13,000
+ Und mir war es halt peinlich, unglaublich peinlich, klarerweise.
+
+364
+00:32:13,000 --> 00:32:18,000
+ Und da habe ich halt groß gemeint, damit das Thema irgendwie vorbei geht, ja komm, dann lass einfach nochmal machen.
+
+365
+00:32:18,000 --> 00:32:21,000
+ Wir wissen ja jetzt, dass geht, wir machen das nochmal.
+
+366
+00:32:22,000 --> 00:32:28,000
+ Und das haben wir dann auch einfach nochmal gemacht, es hat auch erfolgreich funktioniert, deswegen gibt es so schöne Bilder von Herrn Gutenus,
+
+367
+00:32:28,000 --> 00:32:31,000
+ wie er sich über ein Tisch poigt und irgendwas sucht mit einem Nasenloch.
+
+368
+00:32:31,000 --> 00:32:40,000
+ Und da war aber noch immer der Strache nicht anwesend, also es hat eigentlich geheißen, er bringt uns zum Strache und irgendwie hat der Strache nie Zeit für uns gehabt offenbar.
+
+369
+00:32:40,000 --> 00:32:46,000
+ Dann kam der Gutenus eben durch mit der Info, er fliegt jetzt nach Ibiza und der Strache ist auch dort und ich habe mir gedacht, da komm, was solls.
+
+370
+00:32:46,000 --> 00:32:50,000
+ Na ja super, die hat eh ein Haus in Ibiza, wir fahren auch nach Ibiza, treffen uns dort.
+
+371
+00:32:51,000 --> 00:32:53,000
+ Ich meine natürlich hat er sich kein Haus in Ibiza, das muss ich anmieten.
+
+372
+00:32:53,000 --> 00:33:02,000
+ Und das Problem war auch noch, der Anwalt hat keinen Bock mehr gehabt, das anzumieten, was ich anmieten wollte, was so ungefähr 10.000 die nachgekostet hätte.
+
+373
+00:33:02,000 --> 00:33:10,000
+ Und deswegen wurde es dann eine kleine Finca, was alle bemängelt haben, nachher so quasi, oh mein Gott, wie soll das eine Oligarchenbilla darstellen.
+
+374
+00:33:10,000 --> 00:33:19,000
+ Aber fairerweise, man muss sagen, wir haben auch nicht gesagt, das ist die Oligarchenbilla, wir haben gesagt, die Oligarchenbilla, das sind ihre Kinder und ihr seid so komische Typen, ihr kommt nicht zu ihren Kindern nach Hause, keine Chance.
+
+375
+00:33:20,000 --> 00:33:22,000
+ Das ist ein anderes Haus, wo wir jetzt quatschen.
+
+376
+00:33:22,000 --> 00:33:29,000
+ Und so war es dann auch, die sind also gekommen, wir haben uns da extra ein Sportwagen und sonst was gecheckt, damit es zu mir so ein bisschen Oligarchen-Style ausschaut.
+
+377
+00:33:29,000 --> 00:33:33,000
+ Und haben halt kräftig eingekauft, Wodka etc.
+
+378
+00:33:33,000 --> 00:33:36,000
+ Und so entstand dann das, was man heute als Ibiza will.
+
+379
+00:33:36,000 --> 00:33:38,000
+ Und Red Bull.
+
+380
+00:33:38,000 --> 00:33:40,000
+ Und Red Bull, ne Menge Red Bull, ganze Palette, glaube ich, oder zwei sogar.
+
+381
+00:33:40,000 --> 00:33:46,000
+ Ja, also so kam Ibiza zustande und ich glaube der Rest ist relativ bekannt.
+
+382
+00:33:47,000 --> 00:33:51,000
+ Wenn man, also, dass das grundsätzlich irgendwie funktioniert.
+
+383
+00:33:51,000 --> 00:34:16,000
+ Also einerseits mit den Fuck-ups, aber andererseits auch wenn diese Dinge passieren, da kriegt man da nicht irgendwann mal so richtig, also hast du dir irgendwann nicht mal gedacht, bin ich bescheuert, was mache ich hier eigentlich?
+
+384
+00:34:16,000 --> 00:34:21,000
+ Also, oder sind die um dich herum einfach alle so doof, dass er auch...
+
+385
+00:34:21,000 --> 00:34:25,000
+ Das war eher der Punkt, also mich hat schockiert, wie doof die waren, oder wie naiv die waren.
+
+386
+00:34:25,000 --> 00:34:31,000
+ Weil ich hab eigentlich die ganze Zeit, ich komme aus dem Sicherheitsbereich und ich meine wir haben auch irgendwie jetzt so Kunden von uns, Klienten von uns geschult.
+
+387
+00:34:31,000 --> 00:34:35,000
+ Ich hab halt die ganze Zeit gewartet, ok, wann kommen die Sicherheitschecks?
+
+388
+00:34:35,000 --> 00:34:39,000
+ Also irgendwie, ich war auch schon in anderen Ländern mit irgendwelchen politisch nahen Leuten am Tisch.
+
+389
+00:34:40,000 --> 00:34:48,000
+ Und sogar bei irgendwelchen Staatssekretären hast du mal irgendeinen Sicherheitsdienst oder sowas, der dich mal zumindest passt, sonst was, Open Search, Open Source Intelligence, was auch immer.
+
+390
+00:34:48,000 --> 00:35:01,000
+ Da kam überhaupt nichts, also die hatten tatsächlich, das muss man sich mal verbildlichen, wir diskutieren also sieben Monate lang über die Waschung, Investition, von 350 Millionen Euro Schwarzgeld, die Manipulation von Wahlen und Medien.
+
+391
+00:35:01,000 --> 00:35:07,000
+ Und die haben von mir einen Vornamen, den sie nicht geprüft haben und eine Wegwerfnummer, also ein Burn-off-Nummer. Das war's.
+
+392
+00:35:08,000 --> 00:35:12,000
+ Das war alles. Also Profis, Profis.
+
+393
+00:35:12,000 --> 00:35:25,000
+ Ich würde das so ein bisschen anders interpretieren, wenn jemand das alles macht ohne jemals irgendwie zu überlegen, hm, vielleicht.
+
+394
+00:35:25,000 --> 00:35:27,000
+ Hat das schon vorher gemacht, ja klar.
+
+395
+00:35:27,000 --> 00:35:31,000
+ Genau, dann hat das schon vorher gemacht. Und das finde ich halt wichtig, das auch an der Stelle nochmal zu betonen.
+
+396
+00:35:32,000 --> 00:35:45,000
+ Also Punkt ist, weil die Leute ja teilweise einen Vorwurf gebracht haben, ja das sind so Stasi-Methonen, also dass da jemand in die Falle gelockt, aufgenommen, das ist so irgendwie fragwürdig moral, habe ich auch sogar von Leuten gehört, die jetzt sicher nicht irgendwie unbedingt in den Freundeskreis der FPÖ oder Rechtspopulisten zurück sind.
+
+397
+00:35:45,000 --> 00:35:54,000
+ Man muss dabei bedenken, wir haben jetzt nicht irgendwie gesagt, hey komm lass probieren, ob das funktioniert, sondern wir hatten Material durch diesen Bodyguard, das zwar nicht beweiskräftig war, aber doch eindeutig war.
+
+398
+00:35:54,000 --> 00:36:01,000
+ Und darauf haben wir aufgebaut. Also wir sind jetzt nicht hingegangen und haben gesagt, hey die FPÖ ist scheiße für uns und lass mal schauen was geht.
+
+399
+00:36:01,000 --> 00:36:09,000
+ Sondern wir haben halt gesagt, okay gut, wir sind uns eigentlich absolut sicher, dass der korrupt ist, aber wir können es halt momentan noch nicht wirklich beweisen.
+
+400
+00:36:09,000 --> 00:36:21,000
+ Was oft ein Problem bei Korruptionssachen ist. Das ist so ein klassisches Problem, das haben wir auch letztes Mal irgendwie, jetzt wie ich mich mit Journalisten doch immer wieder unterhalten habe, haben die gesagt, hey du hast keine Ahnung, wie oft zu uns Leute kommen mit den wildesten Geschichten von Korruption.
+
+401
+00:36:21,000 --> 00:36:27,000
+ Und dann sagen wir ihnen, okay beweise und der sagt, meine Zeugenaussage. Und der sagt, was soll ich mit deiner Zeugenaussage, was bringt mir was?
+
+402
+00:36:28,000 --> 00:36:33,000
+ Und das ist halt das Problem bei Korruption. Korruption ist halt eines der wenigen Delikte, wo eigentlich kein Opfer da ist.
+
+403
+00:36:33,000 --> 00:36:43,000
+ Ich meine es gibt schon Opfer, natürlich die Gesamtheit, das Volk, die Bevölkerung, wie auch immer, aber das Problem ist, es gibt also kein Opfer, das jetzt sich beklagen würde, weil im Endeffekt, wenn Korruption funktioniert, sind alle Seiten zufrieden.
+
+404
+00:36:43,000 --> 00:36:54,000
+ Und deswegen ist Korruption so ein einerseits wahrscheinlich anziehendes Delikt, wenn du so willst, oder ein Partysdelikt für manche Leute, auf der anderen Seite so schwer dann wirklich zu verurteilen.
+
+405
+00:36:55,000 --> 00:37:02,000
+ Es gibt halt oft Gerüchte über Korruption und auch Sachen, die wohl rational klar sind, aber halt gerichtsmäßig nicht beweisbar sind.
+
+406
+00:37:02,000 --> 00:37:05,000
+ Und das spielt wohl sicher mit deiner Rolle.
+
+407
+00:37:05,000 --> 00:37:10,000
+ Also ihr wart euch die ganze Zeit sicher, das klappt. Ihr hättet sonst den Aufwand auch nicht betrieben.
+
+408
+00:37:10,000 --> 00:37:12,000
+ Nee, da ist eine Menge Geld rangeflossen.
+
+409
+00:37:13,000 --> 00:37:27,000
+ Schon wirklich enorm und das Ergebnis sehenswert, kann man sagen. Habt ihr damals schon damit gerechnet, welchen Impact das haben würde?
+
+410
+00:37:28,000 --> 00:37:43,000
+ Also wir wollten ja eigentlich, was wir immer die ganze Zeit erreichen wollten, war, den Strache strafrechtlich für seine angenommenen korrupten Handlungen zu belangen.
+
+411
+00:37:43,000 --> 00:37:46,000
+ Die Idee war, also der Bodyguard hatte Material, eine Zeugenaussage, die aber nicht beweiskräftig war.
+
+412
+00:37:46,000 --> 00:37:49,000
+ Die Idee, warum das Video entstanden ist, war, um den Bodyguard glaubwürdig zu machen.
+
+413
+00:37:50,000 --> 00:37:59,000
+ Und was wir machen wollten, war, der Bodyguard sollte, der verlangt auch noch Absicherung, aber anderes Thema, er sollte also an die Öffentlichkeit gehen und der war Polizist gleichzeitig.
+
+414
+00:37:59,000 --> 00:38:02,000
+ Das heißt, er hatte seinen Amtzeitverletzten, den man nicht sofort selber gemeldet hat.
+
+415
+00:38:02,000 --> 00:38:06,000
+ Also hat das schon mal strafbar gemacht, was natürlich seiner Glaubwürdigkeit nicht unbedingt zuträglich ist.
+
+416
+00:38:06,000 --> 00:38:12,000
+ Und der hätte also an die Öffentlichkeit gehen sollen mit seinen Vorwürfen und seiner Zeugenaussage, worauf der Strache dann natürlich gesagt hätte,
+
+417
+00:38:12,000 --> 00:38:16,000
+ "Hahaha, kann ja jeder erzählen und paar blöde Fotos kann auch jeder bringen."
+
+418
+00:38:17,000 --> 00:38:24,000
+ Und in dem Moment, wo er dementiert und sagt, das ist alles scheiße, das alles mal poliert, dann legst du das Video hinterher und damit ist er dann richtig am Arsch, sag ich mal.
+
+419
+00:38:24,000 --> 00:38:34,000
+ Und das ging aber, deswegen hat es noch so lange gedauert, bis das Ding dann endlich 2019 rauskam, weil eben diese Zeit die ganze Zeit versucht wurde, diese Situation herstellbar zu machen.
+
+420
+00:38:34,000 --> 00:38:45,000
+ Dass der Bodyguard eben gebildet ist, der war jetzt weiß Gott nicht ideologisch motiviert, sondern der hatte so einen gewissen Gekränken, Stolz, ein bisschen Rache gelöst und sonst was aus diversen Gründen gegenüber Strache.
+
+421
+00:38:46,000 --> 00:38:55,000
+ Aber er war jetzt sicher nicht irgendjemand, der so quasi eine Strache unterwandert hatte und jetzt als politischer Idealist aufstehen wollte und der Welt die Wahrheit zeigen wollte, das war sicher nicht der Fall.
+
+422
+00:38:55,000 --> 00:39:02,000
+ Aber nichtsdestotrotz war er ein Whistleblower und ich fand es nicht illegitim, der Wunsch der Absicherung war für mich jetzt nicht illegitim.
+
+423
+00:39:02,000 --> 00:39:13,000
+ Das finde ich nämlich auch mal wichtig zu besprechen. Der hat also im Prinzip darum gebeten, einen Geldbetrag zu bekommen, dafür, dass er letztendlich sein Leben ruiniert.
+
+424
+00:39:14,000 --> 00:39:24,000
+ Also er wollte jetzt auch keinen Geldbetrag haben, er hat gesagt, schau, das wird mir eine Anklage einbringen, ich verliere meinen Job wahrscheinlich bei einer Pensionsbezüge, alles, ich habe Frau, Kind etc.
+
+425
+00:39:24,000 --> 00:39:37,000
+ Aber was er wollte oder was zur Diskussion stand, war so etwas wie eine Art Treuhandkonto, was gesucht wurde, war also die Einrichtung eines Betrages, den er definiert hatte, der sich danach sogar halbieren ließ, aber trotzdem nicht erreichbar war bei Weitem.
+
+426
+00:39:38,000 --> 00:39:52,000
+ Also er wollte anfängen mit 2,5, was ich weiß, dann 1,2,5 und der Punkt war, es hätte dann quasi ausgeschüttet werden sollen, ein Treuhandsystem, escrow service mäßig, der geht, macht seine Aussage, wird belangt und dann fängt an das Geld zu fließen nach Bedarf.
+
+427
+00:39:52,000 --> 00:40:03,000
+ Also weiß nichts, dass man sagt, komm, hier ist ein Kofferbargeld, plus muss man dazu sagen, ehrlicherweise auch noch, weil das Leute so immer bruskiert, warum jemand jetzt siebenstellige Beträge haben will, so ein Geld muss auch noch versteuern auch.
+
+428
+00:40:04,000 --> 00:40:31,000
+ Also das ist nicht, das ist nicht, der Kutino ist nicht, dass du Schwarzgeld gibst, sondern der zahlt 50% Steuern weg davon nachher und dann ist das, finde ich jetzt, natürlich kann man es besser finden, wenn der irgendwie sagt, ok, ich will abgesichert sein, oder ich will das aus ideologischen Motiven machen, egal was passiert, aber ich finde es jetzt nicht illegitim, wenn jemand sagt, ok, schau, am Ende des Tages muss ich nachher weiterleben, weil auch ich habe die Erfahrung gemacht, also das hat schon recht beachtende Konsequenzen, wenn man so etwas macht und kostet auch eine Stange Geld.
+
+429
+00:40:32,000 --> 00:40:49,000
+ Und ist also, ja, fand ich sicher was wünschenswert gewesen, es hätte auch wer anders möglich gewesen, war es dann am Ende nicht, lange Sache kurz gesagt, und deswegen kam dann eben zur EU-Wahl dann das Ibiza-Video raus, weil das dann eigentlich so der letzte mögliche Termin war, wenn man internationale Aufmerksamkeit haben wollte auf absehbare Zeit.
+
+430
+00:40:50,000 --> 00:41:05,000
+ Da war das Strache dann schon in der Region, was auch so ein Problem war, weil davor hatten wir einen Oppositionsführer auf Video, wo er mehr oder weniger sich halt blamiert und korrupt ist, oder mutmaßlich korrupt ist, und jetzt hatten wir einen Vizekanzler auf Video,
+
+431
+00:41:06,000 --> 00:41:23,000
+ dem seine Partei auch noch das Innenministerium, das Verteidigungsministerium innehatte und damit alle sicherheitsrelevanten Behörden, und dem seine Partei eine unglaubliche Nähe zu Putin Russland pflegte und diverse Gerüchte im Raum standen, dass da engste Verbindungen bestehen sollten,
+
+432
+00:41:24,000 --> 00:41:36,000
+ was auch nochmal ein Problem ist, weil natürlich, wenn das so wäre, angenommen, es geht auch hier die Unschuldvermutung, dann wären die Russen wahrscheinlich nicht sonderlicher Picht drauf, dass man ihnen genau das ins Gesicht drückt, was sie auch lustigerweise nicht waren,
+
+433
+00:41:36,000 --> 00:41:49,000
+ weil tatsächlich hat sich dann der Kreml gemüßigt gefühlt sich zu äußern, bzw. Ibiza-Videos, und wenn sich der Kreml dann offiziell so was äußert, dann weißt du, dass du ziemlich weit auf den Radar aufgepockt bist, und vielleicht auch andere Probleme hast, das ist nur die FPÖ.
+
+434
+00:41:50,000 --> 00:42:00,000
+ Ja, vor allem die Russen, die wissen, wie sie mit Problemen im Ausland umgehen können, aber es war nicht gerade etwas, was ein jetzt in Schlaf verantwortlich war.
+
+435
+00:42:00,000 --> 00:42:05,000
+ Ja, ja, ich hab mir gemerkt, dass es die Zeit von Skripperlizette war, da kam der Massselektor her und ist mit der Nobbi-Chok vor einem Spaziergang gegangen.
+
+436
+00:42:05,000 --> 00:42:10,000
+ Du hattest also schon durchaus berechtigte Angst vor der Veröffentlichung?
+
+437
+00:42:11,000 --> 00:42:21,000
+ Ja, also das war auch mit ein Grund, es gab sicher auch Momente, wo ich gesagt hab, ich scheiß drauf, es ist einfach zu riskant, lass stecken.
+
+438
+00:42:21,000 --> 00:42:33,000
+ Es war so ein permanenter Kampf auch mit mir selber, mir war nicht alle Auswirkungen bewusst, aber mir war schon klar, dass mein Leben kräftig in die Tonne kippen wird für die nächste Zeit.
+
+439
+00:42:33,000 --> 00:42:36,000
+ Hast du es denn bereut?
+
+440
+00:42:37,000 --> 00:42:53,000
+ Nein, ehrlich gesagt nicht wirklich, weil es ist einfach so viel Scheiße, sage ich mal ganz offen, an die Oberfläche gekommen, die sogar für mich tatsächlich undenkbar war, denk unmöglich.
+
+441
+00:42:54,000 --> 00:43:09,000
+ Es sind Sachen passiert, die offenbar so absurd sind und so grenzwertig sind, dass es einfach, es gibt so ein Limitbar, wo man Sachen akzeptieren kann und wegschauen kann und dann gibt es so einen Punkt, wo du sagst, hey, das ist zu viel.
+
+442
+00:43:09,000 --> 00:43:11,000
+ Und der Punkt war einfach erreicht.
+
+443
+00:43:12,000 --> 00:43:26,000
+ Es gibt sicher Sachen, die ich bereue bei der Durchführung, also speziell hinsichtlich dessen, dass wenn ich es nochmal machen müssen würde, dann würde ich es mit professionellen Dienstleistern anlegen, ich habe tatsächlich auch Bekannte und Freunde zurückgegriffen und die haben relativ harte Repriseden teilweise auch erfahren.
+
+444
+00:43:26,000 --> 00:43:36,000
+ Und das war auch sicher teilweise auch ungefragt, ich habe nicht gesagt, komm wir machen jetzt das und das ist der Plan und die haben gesagt, ich bin dabei, ich habe gesagt, komm ich brauche einen Gefallen, das kannst du jenes machen.
+
+445
+00:43:37,000 --> 00:43:42,000
+ Und die sind dann auf einmal auch irgendwie der Multiple House durchsucht worden, sonst irgendwas, es ist halt alles nicht schön.
+
+446
+00:43:42,000 --> 00:43:52,000
+ In der Medien verrissen worden, gehetzt worden und die haben halt nicht wirklich, ich meine sie wussten zwar ungefähr, warum sie da mitmachen, aber im Detail nicht.
+
+447
+00:43:52,000 --> 00:43:59,000
+ Und mit Sicherheit wussten sie nicht, worauf es rausläuft, also da ist schon etwas, was man sicher auch irgendwie mit sich trägt.
+
+448
+00:44:00,000 --> 00:44:15,000
+ So gesehen das mit Sicherheit bereue ich, auch was andere Leute betrifft, aber wie gesagt, also hört sich vielleicht dämlich an, aber die Zeit vor der Veröffentlichung war meine beschissenste Zeit.
+
+449
+00:44:15,000 --> 00:44:26,000
+ Also sogar die Zeit im Gefängnis war besser als die Zeit vor der Veröffentlichung, weil nach der Veröffentlichung war es so, weiß nicht ob man das irgendwie verstehen kann, als ob so eine riesen Last von dir runterfällt.
+
+450
+00:44:27,000 --> 00:44:34,000
+ Und das war, bis du halt die ganze Zeit, du tragst das mit dir rum, von dem du weißt, dass irgendwie die Welt nicht verändert, aber zumindest viel Veränderung anstoßen wird.
+
+451
+00:44:34,000 --> 00:44:42,000
+ Und passieren ja dann auch Dinge, die du dann gar nicht mehr unter Kontrolle hast, auf die du gar nicht mehr reagieren kannst, weil das ja schon passiert ist.
+
+452
+00:44:42,000 --> 00:44:47,000
+ Wie zum Beispiel, dass sie dann in der Regierung waren und sicherlich auch noch ein paar andere Aspekte.
+
+453
+00:44:48,000 --> 00:44:59,000
+ Ja, das war mir ganz sicher, also es waren viele Sachen, ich muss sagen, ich habe vieles davon antizipiert, also mir war ja schon klar, in welche Richtung die Angriffe bei mir gehen würden und welche Vektoren das sein würden.
+
+454
+00:44:59,000 --> 00:45:02,000
+ Ich habe die auch versucht vorzubauen in gewisser Art.
+
+455
+00:45:02,000 --> 00:45:08,000
+ Ich habe auch versucht, also ich hatte viel Zeit nachzudenken und ich bin ganz gut in der strategischen Planung etc.
+
+456
+00:45:09,000 --> 00:45:24,000
+ Und habe also vieles davon antizipiert, manches davon abfedern können, manches davon hat mich komplett überrascht, manche Sachen. Aber generell, sage ich jetzt, hat es sich im Rahmen meiner Erwartungen bewegt, mit einigen Ausreißern über die Amplituden hinaus.
+
+457
+00:45:24,000 --> 00:45:30,000
+ Aber mir war schon, also wenig von dem im Großen und Ganzen was passiert ist, hat mich wirklich dezidiert überrascht.
+
+458
+00:45:30,000 --> 00:45:37,000
+ Ich hätte mir gewünscht, dass es nicht so ist. Ich habe auch alles dafür getan, dass es nicht so ist. Aber es war jetzt nicht komplett undenkbar für mich vorher.
+
+459
+00:45:38,000 --> 00:45:42,000
+ Ich komme nun mal aus einer Branche, wo ich durchaus einen Einblick habe, wie Behörden arbeiten, speziell in Österreich.
+
+460
+00:45:42,000 --> 00:45:48,000
+ Und mir war schon klar, also ich weiß, meine Anwälte haben mich verrückt erklärt, wie ich damals kam.
+
+461
+00:45:48,000 --> 00:45:56,000
+ Die haben zuerst gesagt, die werden mich zumüllen mit Fingierter zusammen, Funde, no Scheiße, die werden mich versuchen mit allem zu belegen, was geht.
+
+462
+00:45:56,000 --> 00:46:03,000
+ Und ich habe mir gesagt, komm, ist ein EU-Land, ist ein Rechtsstaat, ist am Ende wie Deutschland. Keine Chance, ich glaube ja doch, genau das.
+
+463
+00:46:04,000 --> 00:46:13,000
+ Und dann kam es, ich habe dann tatsächlich alle meine Anwälte bekehrt. Also ich habe Anwälte gehabt, die tatsächlich in Brünstig an den Rechtsstaat geglaubt haben.
+
+464
+00:46:13,000 --> 00:46:22,000
+ Und je nach meiner Verurteilung, wie mir gesagt wurde, dann irgendwie bei zugezogenen Jalousien eine Woche im Büro gesessen sind und niemanden sprechen wollten, weil ja die komplette Welt zusammengestürzt war.
+
+465
+00:46:22,000 --> 00:46:27,000
+ Und ich habe gesagt, das geht nicht, das kann nicht sein. Und ich bin nur deutlich zynisch eingestellt.
+
+466
+00:46:28,000 --> 00:46:34,000
+ Also ich habe schon Sachen gesehen in Österreich, die halt die meisten Leute zum Glück nicht sehen und ja.
+
+467
+00:46:34,000 --> 00:46:38,000
+ Aber du bereust es trotzdem nicht?
+
+468
+00:46:38,000 --> 00:46:40,000
+ Ich bereue es?
+
+469
+00:46:40,000 --> 00:46:43,000
+ Nicht die Tat, aber halt die Umstände.
+
+470
+00:46:43,000 --> 00:46:45,000
+ Ich bereue es tatsächlich nicht.
+
+471
+00:46:45,000 --> 00:46:47,000
+ Das finde ich sehr wichtig, dass auch...
+
+472
+00:46:48,000 --> 00:47:01,000
+ Ich bin jemand, der recht stur wird, wenn er der Überzeugung ist, Recht zu haben. Und ich bin dann auch... für mich war es aber im gewissen Grad klar, dass ich schmerzen oder leiden werde, wenn du so willst.
+
+473
+00:47:01,000 --> 00:47:04,000
+ Und dann habe ich gesagt, war so irgendwann der Punkt, wo ich gesagt habe, okay, komm, dann lass mal.
+
+474
+00:47:04,000 --> 00:47:11,000
+ Und das hat eigentlich mehr dazu beigetragen fast noch. Also wenn die sich anders verhalten hätten, wäre ich vielleicht sogar nicht so entschlossen gewesen.
+
+475
+00:47:12,000 --> 00:47:24,000
+ Aber es war diese Art und Weise, weil ich weiß, als erstes passiert ist, es hat dann irgend so ein ultra rechter Blog die Wohnadresse meiner Mutter veröffentlicht, die dann mal gleich irgendwie Drohbriefe kassiert und ich weiß nicht was, und das attackiert worden, keine Ahnung.
+
+476
+00:47:24,000 --> 00:47:28,000
+ Und das war dann so richtig für mich nachgekommen, dann lass sehen, dann machen wir.
+
+477
+00:47:28,000 --> 00:47:37,000
+ Weil davor, ich wäre nicht mal, ich hatte eigentlich nichts zu verbergen. Ich wäre durchaus bereit gewesen mit gewissen Behördenstellen zu kooperieren.
+
+478
+00:47:38,000 --> 00:47:49,000
+ Und das Problem war, ich habe sehr schnell mitgekriegt, welche Behördenstelle eingesetzt wurde für die Ermittlungen und ich kannte das Umfeld dieser Behördenstelle gut. Oder ganz gut zumindest.
+
+479
+00:47:49,000 --> 00:48:00,000
+ Und alles das, was sich halt die Schritte, die sie gesetzt haben, waren so deutlich für sich sprechend, wenn man Ermittlungen versteht, dass mir klar war, dass das Ziel offenbar sein würde, mich...
+
+480
+00:48:00,000 --> 00:48:02,000
+ Darf ich dir retten?
+
+481
+00:48:02,000 --> 00:48:04,000
+ ... egal wie bezerrtig zu machen.
+
+482
+00:48:04,000 --> 00:48:06,000
+ Gar nicht so schlecht.
+
+483
+00:48:07,000 --> 00:48:08,000
+ Auf den Abend.
+
+484
+00:48:08,000 --> 00:48:11,000
+ Zu dem Thema braucht man auch...
+
+485
+00:48:11,000 --> 00:48:13,000
+ Ja, das hilft.
+
+486
+00:48:13,000 --> 00:48:17,000
+ Also du wusstest, was da...
+
+487
+00:48:17,000 --> 00:48:22,000
+ Ich hatte Vermutungen, ich hatte Vermutungen, die haben sich bestätigt.
+
+488
+00:48:22,000 --> 00:48:24,000
+ Wie gesagt, es gab, mir war nicht klar...
+
+489
+00:48:24,000 --> 00:48:27,000
+ Und die Ministerien waren ja auch in der Hand.
+
+490
+00:48:28,000 --> 00:48:37,000
+ Na ja, gut, die Regierung trat zurück. Also das Lustige ist, was wir tatsächlich unterschätzt hatten, wir, mich und den Anwalt, wir haben immer gedacht, die FPÖ ist unser Problem.
+
+491
+00:48:37,000 --> 00:48:43,000
+ Also quasi, wenn wir schaffen, in Strache zu stürzen und die Regierung irgendwie zusammenklappt, dann ist unser Problem weg, weil die sind ja nicht mehr in der Regierung.
+
+492
+00:48:44,000 --> 00:48:58,000
+ Was wir komplett missverstanden hatten, ist, dass die ÖVP, also die Kurzpartei, mindestens genauso interessiert war, die Sachen so zu belassen, wie sie waren. Mittlerweile versteht man vielleicht ein bisschen, warum, weil die diversen... nicht umsonst ist unser Herr Genie-Kind-Bundeskanzler Kurz zurückgetreten.
+
+493
+00:48:58,000 --> 00:49:09,000
+ Und ist unter Beschuldigungsdatum und sonst was, aber es war offenbar die FPÖ nur ein Teil des betreffenden Systems und wohl der kleinere Teil, wenn man ehrlich ist.
+
+494
+00:49:09,000 --> 00:49:11,000
+ Und der wenig professionellere Teil auch.
+
+495
+00:49:12,000 --> 00:49:21,000
+ Und das war eigentlich das Problem. Also unser Problem war dann tatsächlich, dass eben diese Sonderermittlungseinheit, die sich da gebildete, bildete sich in einer Zeit, wo kein Innenminister da war.
+
+496
+00:49:21,000 --> 00:49:27,000
+ Also was die Polizei hat tatsächlich eigenständig, eine Soko gebildet, ohne Auftrag an der Staatsanwaltschaft, ohne irgendwas.
+
+497
+00:49:27,000 --> 00:49:34,000
+ Die Regierung tritt zurück, der alte Innenminister geht, der neue ist noch nicht angelobt, das dauert so circa 36 Stunden.
+
+498
+00:49:35,000 --> 00:49:44,000
+ In diesen 36 Stunden geht das Bundeskriminalamt her und gründet eine Soko, ohne einen Auftrag und besetzt sie mit Beamten von irgendwas organisierter Kriminalität, Drogen, Raub.
+
+499
+00:49:44,000 --> 00:49:54,000
+ Beamten, die inner... okay, ich muss jetzt wieder sehr vorsichtig sein... von denen ein gewisser Ruf vorausheilt, sagen wir es mal so.
+
+500
+00:49:54,000 --> 00:50:01,000
+ Die nicht unbedingt normalerweise die klassischen Proponenten für so eine Soko wären vielleicht auch.
+
+501
+00:50:02,000 --> 00:50:07,000
+ Es werden angeblich durchaus auch Dorfpolizisten dabei gewesen sein. Aber es wird wohl einen Grund haben.
+
+502
+00:50:07,000 --> 00:50:14,000
+ Also dürfen die das? Eigentlich nicht. Es muss normalerweise ein Auftritt geben.
+
+503
+00:50:14,000 --> 00:50:22,000
+ Es muss einen Auftrag geben. Normalerweise kommt eine Staatsanwaltschaft und sagt, hey, wir haben jetzt vor der Staatsanwaltschaft, ist die Leiterin des Verfahrens.
+
+504
+00:50:22,000 --> 00:50:26,000
+ Das heißt, die Polizei arbeitet für die Staatsanwaltschaft, die Sonderermittlungsverfahren.
+
+505
+00:50:27,000 --> 00:50:32,000
+ Die Polizei sagt, wir wollen das machen und die Polizei sagt, okay, hier ist unsere Einheit X oder Y und sonst was.
+
+506
+00:50:32,000 --> 00:50:37,000
+ Okay, aber Staatsanwalt hat es ja gegeben. Aber auch der darf nicht ohne Minister oder so?
+
+507
+00:50:37,000 --> 00:50:41,000
+ Nee, aber die Soko wurde gegründet. Da war noch kein Akt angelegt oder sonstiges.
+
+508
+00:50:41,000 --> 00:50:45,000
+ Die haben einfach gesagt, wir werden eine Soko brauchen. Und bevor uns jemand fragt, eine zu machen...
+
+509
+00:50:45,000 --> 00:50:51,000
+ ... weil es gibt nämlich eine Behörde, die für Korruptionsanwettungen zuständig ist in Österreich. Aber die wollten sie nicht. Sie wollten das Bundeskriminalamt haben.
+
+510
+00:50:52,000 --> 00:50:57,000
+ Was möglicherweise auch seine Gründe hat, aber wie auch immer, ich will hier nichts unterstellen.
+
+511
+00:50:57,000 --> 00:51:01,000
+ Aber sie haben auch das Bundeskriminalamt gekriegt und das Bundeskriminalamt hat dann gemacht, was es gemacht hat.
+
+512
+00:51:01,000 --> 00:51:09,000
+ In Exzitivität, wie ich behaupten würde. Weil der Punkt war, die gingen davon aus, dass ich der übliche, dämliche Idiot bin, den sie normalerweise zu tun haben.
+
+513
+00:51:09,000 --> 00:51:15,000
+ Und haben halt so gesagt, keine Ahnung, lass mal TÜs machen und lass mal halt da machen.
+
+514
+00:51:15,000 --> 00:51:17,000
+ Technische Überwachung.
+
+515
+00:51:18,000 --> 00:51:23,000
+ Lass mal Standortdaten, lass mal historische Nachrichten abfragen etc. So ist üblich einmal eins, sag ich mal.
+
+516
+00:51:23,000 --> 00:51:33,000
+ Kam ich dabei raus, es gibt so ganz kurios, lustige Seiten im Akt, wo sie so schreiben, ja der hat irgendwie ein Handy, das kostet 800 Euro.
+
+517
+00:51:33,000 --> 00:51:38,000
+ Es ist zu erwarten, dass er also nur die SIM-Karte wechselt und nicht das Telefon. Haha. So in die Richtung gehend.
+
+518
+00:51:38,000 --> 00:51:42,000
+ Ist natürlich dann nicht passiert. Dann haben sie gedacht, okay gut, wir kommen ja nicht weiter.
+
+519
+00:51:43,000 --> 00:51:48,000
+ Aber das Lustige ist, sie haben auch nicht versucht, uns zu kontaktieren, sind meine Anwälte nicht angeschrieben, so quasi alle Vorladung.
+
+520
+00:51:48,000 --> 00:51:54,000
+ Wir haben sie sogar kontaktiert und haben gesagt, hey wir bieten euch an eine Einfahrenahme im Rechtshilfeweg in Deutschland, ich komme nur nicht nach Österreich, keine Chance.
+
+521
+00:51:54,000 --> 00:51:57,000
+ Kein Interesse. Okay.
+
+522
+00:51:57,000 --> 00:52:06,000
+ Und dann kam es eben, dann sind sie weiter gegangen und haben sich, da gibt es so das Lustige seit 2019, das nennt sich das Institut der Europäischen Ermittlungsanordnung.
+
+523
+00:52:07,000 --> 00:52:16,000
+ Und ohne jetzt allzu tief einzusteigen, heißt das, dass ein EU-Land einem anderen EU-Land auftragen kann, eine Ermittlungsmaßnahme durchzuführen, ohne dass in dem ausführenden Land ein Richter da drauf schaut.
+
+524
+00:52:16,000 --> 00:52:33,000
+ Das heißt, wenn jetzt ein angenommen rumänischer Richter sagt, er wird gern die, keine Ahnung was, die Nutte von seinem Kursanen in Deutschland finden und unterschreibt eine Europäische Ermittlungsanordnung zu einer Telefonüberwachung in Düsseldorf, dann wird das gemacht von der deutschen Polizei, wo er sich den Richter anschaut.
+
+525
+00:52:34,000 --> 00:52:46,000
+ Echt? Ja. Krass. Europäische Ermittlungsanordnung. In meinem Fall war es dann halt, dass ein österreichischer Staatsanwaltschaft in österreichischer Ermittlungsrichtung unterschrieben hat, den Funkzellenabgriff von knapp 130.000 Teilnehmern in Berlin.
+
+526
+00:52:46,000 --> 00:52:57,000
+ Was auch nicht zum Erfolg geführt hat und eigentlich sogar dann nachher auch in Österreich das Rechtswidrig anerkannt wurde, hat aber nicht geholfen, weil das war schon mal passiert noch mal.
+
+527
+00:52:58,000 --> 00:53:12,000
+ Und so ging es dahin, also wir haben dann die Funkzellen meiner Anwaltskanzlei abgegriffen, bei Sixt haben sie einen Mietwagen, den ich gehabt hatte, sich tatsächlich liefern lassen nach Österreich und auseinandergebaut, um auf dem Navigationssystem Daten zu ziehen.
+
+528
+00:53:13,000 --> 00:53:33,000
+ Server in Litauen beschlagnahmt, Flughaustarten von knapp 6000 Personen aus allen Flügen in dem relevanten Zeitraum, ich würde sagen, in ganz Europa gezogen, in Klarnamen lustigerweise im Akt, was auch recht geil ist.
+
+529
+00:53:34,000 --> 00:53:43,000
+ Also wir wissen ziemlich genau, wer zwischen dem 23. und 28. Juni 2017 geflogen ist, falls jemand Interesse hat.
+
+530
+00:53:43,000 --> 00:54:01,000
+ Das waren so die Ermittlungs-Schritte, und da gab es natürlich noch eine ganze Menge an Hausdurchsuchungen, meine Mutter wurde mehrmals durchsucht und keine Ahnung, wer alle, jede Ex-Freundin, die sie gefunden haben von mir, wurde durchsucht.
+
+531
+00:54:02,000 --> 00:54:06,000
+ Welche Taten haben Sie dir denn zulast gelegt?
+
+532
+00:54:06,000 --> 00:54:18,000
+ Ja ursprünglich, das war ja ganz lustig, ursprünglich war eben Ibiza-Video. Jetzt muss man dazu sagen, in Deutschland gibt es im Gesetz festgeschrieben, das ist überragender öffentlicher Interesse, dass die verdeckte Aufnahme rechtfertigt, also die Veröffentlichung der verdeckten Aufnahme eigentlich.
+
+533
+00:54:18,000 --> 00:54:23,000
+ Das gibt es in Österreich nicht, das wird zwar angewandter Grundsatz, aber steht nicht dezidiert im Gesetz drin.
+
+534
+00:54:24,000 --> 00:54:35,000
+ Diesen Fakt haben sie sich so eigen gemacht, um ein Strafverfahren wegen Verdeckteraufnahme, Weitergabe einer verdeckten Aufnahme zu machen. Das Punkt war aber, das Problem ist nun mal, die verdeckte Aufnahme hat in Spanien stattgefunden, in Spanien ist das Rechtssystem anders.
+
+535
+00:54:35,000 --> 00:54:44,000
+ In Spanien ist das Rechtssystem so, dass die verdeckte Aufnahme legal ist, solange man selber auf der verdeckten Aufnahme drauf ist. Was in dem Fall ja so war, also man sieht mich ja.
+
+536
+00:54:44,000 --> 00:54:46,000
+ Wusstet ihr das eigentlich vorher, oder war das...
+
+537
+00:54:46,000 --> 00:54:48,000
+ Ja, wie man sieht dich...
+
+538
+00:54:49,000 --> 00:54:55,000
+ Also der Typ in der weißen Hose im Ibiza Video, das ist meine Person. Das war in etwas schlechterer Form damals, aber das ist noch immer ich.
+
+539
+00:54:55,000 --> 00:55:00,000
+ Ja, und...
+
+540
+00:55:00,000 --> 00:55:02,000
+ Wusstet ihr das?
+
+541
+00:55:02,000 --> 00:55:09,000
+ Ja, weil mein Partner war Anwalt, der hatte... also wir haben das... das ist auch etwas, was die Leute missverstehen. Ich habe das, wir haben das relativ juristisch durchgeprüft vorher.
+
+542
+00:55:10,000 --> 00:55:29,000
+ Ich bin jetzt nicht verärgert und habe gesagt, hey komm lass Gesetze brechen, weil es eh scheißegal. Sondern wir haben gesagt, wir prüfen das juristisch und wir haben da drei verschiedene Anwälte eingebunden gehabt, die jetzt zwar nicht gesagt haben, was wir machen wollen, aber die Aktionen, also die Tathandlungen gesagt haben, die das geprüft haben und alle gesagt haben, mehr am Ende des Tages wird das als legal anerkannt werden müssen, das ist nicht illegal.
+
+543
+00:55:29,000 --> 00:55:37,000
+ Aber da habt ihr ja schnell reagieren müssen, wenn ich mich jetzt richtig erinnere, diese Ibiza Geschichte kam ja da verhältnismäßig kurzfristig zustande, dass der Strache da hinfährt, etc.
+
+544
+00:55:38,000 --> 00:56:07,000
+ Ja, das Problem bei der Kurzfristigkeit war jedes Mal eigentlich die Oligarchin. Also wie gesagt, mir fällt es ein bisschen schwer, da in das Detail zu gehen. Aber der Punkt war, dass die halt einerseits nicht wirklich wollte, also die hatte überhaupt kein Interesse an der Sache, die hat keinen Bock auf die Sache gehabt, sondern ich habe sie halt gekniet mehr oder weniger und hatte irgendwie ein Gefangengut bei ihr, der dann aber auch irgendwann rausgebracht war. Und die hat einfach keinen Bock gehabt. Und das war so, jedes Mal so ein, weiß nicht, wenn du das kennst, wenn du jemanden bittest, aber dir irgendwie hilfst und der sagt, äh äh äh. Und dann ist am letzten Mal gesagt, ja komm, ist er ja jetzt nicht mehr da.
+
+545
+00:56:07,000 --> 00:56:11,880
+ Und letztes Mal eggs mamy, so war es halt dort. Die hat halt dann so 48 Stunden vorhergegangen und
+
+546
+00:56:11,880 --> 00:56:14,980
+ hab ich sie dann weichgekocht gehabt, dann hab ich gesagt, komm, mach ich nochmal.
+
+547
+00:56:14,980 --> 00:56:18,260
+ Und da habe ich halt 48 Stunden Zeit gehabt, um das auf die Beine zu stellen, was recht knapp ist,
+
+548
+00:56:18,260 --> 00:56:24,080
+ was auch dazu geführt hat, dass ich dann diese Buchung-Villa Ibiza mit Echtkreditkarte getätigt habe,
+
+549
+00:56:24,080 --> 00:56:29,580
+ weswegen mir auch klar war, dass ich identifizierbar bin. Was aber auch okay war in meinen Augen,
+
+550
+00:56:29,580 --> 00:56:34,000
+ weil tatsächlich ich da dann irgendwann der Auffassung war, dass es sich mittlerweile,
+
+551
+00:56:34,000 --> 00:56:38,000
+ da ging es dann ja nicht mehr um Schwarzgeld, Waschung und so klassische Korruptionsdinge,
+
+552
+00:56:38,000 --> 00:56:44,080
+ sondern es gibt so eine Wahlmanipulation in Zeiten einer EU-Wahl. Und da war mir schon klar,
+
+553
+00:56:44,080 --> 00:56:47,640
+ dass das andere Interesse wecken würde und ich habe mir gedacht, tu dir einen Gefallen und schau,
+
+554
+00:56:47,640 --> 00:56:51,440
+ dass jemand, der wirklich suchen kann und will, was findet.
+
+555
+00:56:51,440 --> 00:56:56,480
+ Okay, aber in diesem 48 Stunden Zeitraum habt ihr dann sozusagen auch noch diesen juristischen Check ab.
+
+556
+00:56:56,480 --> 00:56:58,760
+ Achso, nee, nee, der juristische Check, was wir machen wollten, war schon klar.
+
+557
+00:56:58,760 --> 00:57:00,560
+ Nee, ich meine in Bezug auf Spanien, weil das die Spanien...
+
+558
+00:57:00,560 --> 00:57:05,560
+ Weiß ich, Spanien hatten wir schon vorher am Rader. Also wir wussten schon, dass Ibiza in Frage kommen würde.
+
+559
+00:57:05,560 --> 00:57:07,560
+ Ich wusste ja nicht, ob ich die Oligarchin habe.
+
+560
+00:57:07,560 --> 00:57:09,560
+ Okay, verstehe.
+
+561
+00:57:09,560 --> 00:57:20,560
+ Ja, also jetzt kam es ja letztens, also wir sind ja jetzt im Prinzip hier einmal so, okay, Ibiza-Video,
+
+562
+00:57:20,560 --> 00:57:29,560
+ die Fakten waren veröffentlicht, der Staat hat mehr oder weniger eigenmächtig sozusagen ohne politische Führung
+
+563
+00:57:29,560 --> 00:57:35,560
+ beschlossen, jetzt müssen wir hier mal den Überbringer der schlechten Botschaft mal ordentlich durch die Mangel nehmen
+
+564
+00:57:35,560 --> 00:57:41,560
+ und alles hat sich auf dich fokussiert. Du hast dich in Deutschland wahrscheinlich auch erst mal verhältnismäßig sicher gewähnt,
+
+565
+00:57:41,560 --> 00:57:44,560
+ aber auch nicht so zu 100 Prozent, nehme ich an.
+
+566
+00:57:44,560 --> 00:57:50,560
+ Naja, also der Punkt war, es gab ja tatsächlich, also anfänglich war es ja tatsächlich nur der Vorwurf der verdeckten Aufnahme.
+
+567
+00:57:50,560 --> 00:57:54,560
+ Eben darauf wichte ich die ganze Zeit hinaus. Das ist überhaupt gar kein Vorwurf.
+
+568
+00:57:54,560 --> 00:58:03,560
+ Also es ist einer, hier auf dem Camp wissen das alle, aber wenn, also dass da jetzt ein dermaßener Ermittlungsapparat
+
+569
+00:58:03,560 --> 00:58:08,560
+ entsteht, ist ja schon auch sehr erstaunlich, oder?
+
+570
+00:58:08,560 --> 00:58:15,560
+ Ja, Ermittlungsdruck ja, aber mitkriegst du halt keine internationale Rechtshilfe. Dafür ist das Delikt einfach zu schwach.
+
+571
+00:58:15,560 --> 00:58:21,560
+ Und was dann passiert ist, sie sind dann dahergekommen, das war dann zu meiner Überraschung, also ich weiß, ich habe Ibiza veröffentlicht,
+
+572
+00:58:21,560 --> 00:58:27,560
+ war dann noch irgendwie so zwei Wochen im Lande, also Deutschland in dem Fall, und bin dann in einem lang geplanten Urlaub gefahren.
+
+573
+00:58:27,560 --> 00:58:33,560
+ Das war auf etwas komplizierten Wegen, aber ich sei zu trotz, kam zurück irgendwann im August 2019 und lese in der Zeitung Strache,
+
+574
+00:58:33,560 --> 00:58:40,560
+ als er presst wurde. Zuck mit den Schultern, denk mal, cool. Bringe das nicht so zusammen, Hagen.
+
+575
+00:58:40,560 --> 00:58:46,560
+ Und das Lustige war, normalerweise hast du ja Akteneinsicht, das Beschuldigte, und in meinem Fall haben sie das zum Geheimakt erklärt,
+
+576
+00:58:46,560 --> 00:58:51,560
+ dass sie haben keine Akteneinsicht gewährt. Das heißt, ich wusste eigentlich nicht, was sie mir vorwerfen, was sie tun,
+
+577
+00:58:51,560 --> 00:58:57,560
+ aber was sie gemacht haben ist, auch hier muss man wieder vorsichtig sein, aber aus irgendeiner geheimnisvollen Quelle
+
+578
+00:58:57,560 --> 00:59:05,560
+ waren die Zeitungen immer bestens mit Akten gefüttert, also im Gegensatz zu mir, und haben also mir meine Akten quasi veröffentlicht
+
+579
+00:59:05,560 --> 00:59:12,560
+ in den Zeitungen, damit ich weiß, was los ist. So nett eigentlich auch, oder? Ja, eigentlich schon, aber sie haben es halt immer so teilweise veröffentlicht,
+
+580
+00:59:12,560 --> 00:59:18,560
+ das weiß ich so nicht. Aber wie auch immer, und da kam eben die Erpressung, und dann war mir klar, hey, der behauptet, dass ich ihn erpresst habe.
+
+581
+00:59:18,560 --> 00:59:24,560
+ Und für mich war es komplett absurd, weil die ganze Zeit vorher, über den ganzen Frühsommer hinweg, laufen die Telefone meiner Anwälte
+
+582
+00:59:24,560 --> 00:59:29,560
+ und alle meiner Bekannten heiß mit irgendwelchen komischen Angeboten, hey, wir zahlen dir zwei Millionen, drei Millionen für das Video,
+
+583
+00:59:29,560 --> 00:59:35,560
+ sagen nur, dass es der und der in Auftrag gegeben hat, gib uns das Video, keine Ahnung was, also das war ein richtig absurder Angebot dabei,
+
+584
+00:59:35,560 --> 00:59:43,560
+ auch teilweise garniert mit schönen Drohungen und sonst was, also die wollten unbedingt das Video, warum? Weil am 22. August kam das Buch dieser Obermeier aus
+
+585
+00:59:43,560 --> 00:59:48,560
+ auf den Markt, Absieber, und der Strache wollte was, was er dem entgegensetzen wollte, weil Strache hatte noch immer die Hoffnung,
+
+586
+00:59:48,560 --> 00:59:53,560
+ dass er zurückkommen kann. Und er wusste, dass das Buch für ihn natürlich nicht positiv ausfallen will, und er wollte das Video haben,
+
+587
+00:59:53,560 --> 01:00:00,560
+ damit er dort seine komischen Sequenzen rausschneiden kann, wo er sagt, aber es muss alles legal sein, so wie wenn du in der Bank gehst und sie ausraubst und sagst,
+
+588
+01:00:00,560 --> 01:00:07,560
+ alles legal, keine Sorge, die Waffe ist echt und ich will dich auch noch schießen, alles legal. So ungefähr war der Schmied, den Herr Strache probiert hat,
+
+589
+01:00:07,560 --> 01:00:14,560
+ und das wollte er ihm belegen, deswegen wollte das Video, und zwar deswegen wollte das bis zum Mitte, Ende August haben. Und als das nicht kam,
+
+590
+01:00:14,560 --> 01:00:23,560
+ Mitte, Ende August, welchen Jahres? - 1992, also direkt nach. Und als das nicht passiert, geht dann relativ schnell von einer
+
+591
+01:00:23,560 --> 01:00:35,560
+ FPÖ-nahen, glücksspielnahen Blog eines Glücksspiellobbyisten eine Anzeige bei einem Bundeskriminalamt ein, in der behauptet wird,
+
+592
+01:00:35,560 --> 01:00:42,560
+ ich handele Drogen, ich habe den Strache erpreist, ich bin mit Waffenhandel, ich weiß jetzt so circa 16 ziemlich schwere Paragrafen,
+
+593
+01:00:42,560 --> 01:00:50,560
+ belegt durch nichts, aber jetzt haben die Behörden die Möglichkeit, international tätig zu werden, weil jetzt haben sie einen Vorwurf,
+
+594
+01:00:50,560 --> 01:00:57,560
+ und die Argumentation des Vorwurfs ist, also ich lande den Strache vor und frage den Strache, wo ist der erpresst? Und er sagt nein.
+
+595
+01:00:57,560 --> 01:01:02,560
+ Und die Argumentation des Bundeskriminalamts ist, naja vielleicht schämt er sich, es zuzugeben, er könnte ja trotzdem erpresst worden sein,
+
+596
+01:01:02,560 --> 01:01:13,560
+ deswegen ist der Vorwurf glaubwürdig. - Geil. - Und damit kamen sie dann nach Deutschland, nach Spanien, nach Schweiz, nach Litauen,
+
+597
+01:01:13,560 --> 01:01:21,560
+ ich glaube es waren so sechs, sieben europäische Länder, wo sie aktiv geworden sind. Die waren dann richtig geil unterwegs, die haben dann so in Malaga ein Büro aufgemacht,
+
+598
+01:01:21,560 --> 01:01:27,560
+ und irgendwie Beamte nach Malaga gesetzt, drei Monate lang. - Die wollten auch mal Urlaub machen. - Das ist ein absoluter Irrsinn.
+
+599
+01:01:27,560 --> 01:01:39,560
+ - Ja. - Und damit haben sie sich dann sozusagen... - Ja nee, das ging dann so weiter, wir haben das natürlich bekämpft, wir haben dann Beschwerden ohne Hände gemacht,
+
+600
+01:01:39,560 --> 01:01:50,560
+ ich hatte dann recht streitlustige Berliner Anwälte, die da wie gesagt die Gepflogenheiten in Österreich nicht respektiert haben und dann alle angepisst haben mit ihren Schriftsetzen.
+
+601
+01:01:50,560 --> 01:02:01,560
+ - Ich hab eine Idee welcher Anwalt das ist, der polst aber auch mal die Leute an. - Ich wollte es nicht so ausfallen.
+
+602
+01:02:01,560 --> 01:02:11,560
+ - Der hat auf der Trauerfeier für Hans-Christian Ströbele das komplette Publikum beschimpft. - Ja, das wird sich schaden.
+
+603
+01:02:11,560 --> 01:02:21,560
+ - Das könnte zugreffen. Jetzt geht die Unschuldsvermutung. - Ich bin mir sicher, dass das juristisch alles astrein war was der gesagt hat, aber ich kann mir schon vorstellen, dass der eine oder andere...
+
+604
+01:02:21,560 --> 01:02:31,560
+ - Ja nee, er sagt nicht alle Juristen aber er hat ein sehr eigenwilliger Arzt. - Die kommen in Österreich nicht so an meinst du? - Nee, die haben tatsächlich bis heute einen Verfahren gegen ihn laufen.
+
+605
+01:02:31,560 --> 01:02:39,560
+ Also die haben tatsächlich versucht die nach Österreich zu einer Verhandlung zu zitieren und er hat gesagt geht scheiße, ich setze dich zuständig für mich.
+
+606
+01:02:39,560 --> 01:02:54,560
+ - Aber er meint, er geht nicht wieder nach Österreich. - Okay, wie ist denn jetzt der Stand in diesem Verfahren gegen dich? - Da haben wir es doch jetzt.
+
+607
+01:02:54,560 --> 01:03:17,560
+ - Ich bin mir jetzt nicht sicher, wir haben jetzt schon alles erzählt was jetzt hier relevant ist zur Beurteilung. - Dieser Glücksspiellobbyist, du erinnerst dich Thomas hat im Logbuch noch einiges von diesen Glücksspiellobbyisten und dem sich dann anschließenden Verfahren erzählt, denn so viel sei gesagt Julian wurde verurteilt.
+
+608
+01:03:17,560 --> 01:03:28,560
+ Ja, also dieser Glücksspiellobbyist hat also Anzeigen angebracht gegen mich ohne Ende und sein Blog quasi damit befeuert, dass er behauptet hat über Inside-Informationen zu verfügen.
+
+609
+01:03:28,560 --> 01:03:41,560
+ Was er tatsächlich gemacht hat, er hat sich also zwei ehemalige freie Mitarbeiter meiner Firma damals an die Hand genommen, die sich angeboten haben, ihm Geld Informationen zu liefern.
+
+610
+01:03:41,560 --> 01:03:51,560
+ Diese Informationen waren zu einem großen Teil einfach erfunden und falsch, das hat ihn aber nicht gestört, weil er wollte eigentlich nur möglichst nachteilige Informationen veröffentlichen können.
+
+611
+01:03:51,560 --> 01:04:07,560
+ Und so hat er dann quasi, je nachdem wie man es jetzt sieht, behaupten wir mal die freundliche Variante Justiz vor sich hergetrieben, indem er quasi Exklusiv-Stories veröffentlicht hat, die dann sogar bis zur großen deutschen Light-Medien seine Infos übernommen haben teilweise.
+
+612
+01:04:07,560 --> 01:04:25,560
+ Und behauptet hat, er hat halt irgendwie Zugänge-Informationen, Exklusiv-Quellen, die behaupten, wer im Waffenhandeltätig hätte, an einem Attentat mitgewirkt hätte, wer Zuhälter gewesen hätte, Drogen gehandelt hätte, eine Hanfplantage gehabt hätte, keine Ahnung was, also so ziemlich rauf und runter das Gesetzbuch.
+
+613
+01:04:25,560 --> 01:04:43,560
+ Und hat das unterfüttert mit angeblichen Belegen, die die ihm geliefert haben. Und einer dieser Belege nur zum Beispiel war das Blinden-Hanfplantage, das er beim BKA, also beim Bundeskanzleramt eingereicht hat, wo er gesagt hat, das ist eine Hanfplantage, die steht in Salzburg und die wird von Julien Hessenthaler betrieben.
+
+614
+01:04:43,560 --> 01:04:56,560
+ Und das BKA hat es dann also hergenommen und weil diese Leute da um diesen Glücksspiel-Lobbyisten nun mal technisch nicht die intelligentesten Jungs sind, haben sie halt die Metadaten nicht gelöscht.
+
+615
+01:04:56,560 --> 01:05:07,560
+ Und kam halt irgendwie raus, erklär das Ganze ist irgendwie runtergeladen von der Badischen Zeitung von 2013 und zeigt eine Plantage, die irgendwie 2013 hochgenommen wurde.
+
+616
+01:05:07,560 --> 01:05:21,560
+ Und kann also irgendwie schwerlich mit mir zusammenstehen und dann passiert was lustiges, dann ermittelt also das Bundeskriminalamt tatsächlich wegen Betrug gegen diese zwei anderen ehemaligen freien Mitarbeiter von mir und das Opfer ist das Lobbyist.
+
+617
+01:05:21,560 --> 01:05:23,560
+ Nicht du!
+
+618
+01:05:23,560 --> 01:05:31,560
+ Nee, der Opfer ist der Lobbyist, weil sie haben ja von ihm Geld genommen. Sie haben ihn betrogen indem sie falsche Informationen verkauft haben.
+
+619
+01:05:31,560 --> 01:05:45,560
+ Moment, Moment. So jetzt durchsucht aufgrund, jetzt hört das Bundeskriminalamt also diese zwei Idioten ab, diese ehemaligen freien Mitarbeiter von mir, die gleichzeitig auch V-Leute in derselben Abteilung des Bundeskriminalamts sind, aus der ich so bekomme.
+
+620
+01:05:45,560 --> 01:05:47,560
+ Langsam, es wird besser.
+
+621
+01:05:47,560 --> 01:06:00,560
+ Diese V-Leute unterhalten sich also auf offenen Telefonen, weil sie sich sicher wähnen, weil V-Leute des Bundeskriminalamts über Drogenhandel, den sie betreiben.
+
+622
+01:06:00,560 --> 01:06:10,560
+ Die BKA hört also jetzt drei Monate lang den Coke-Steals dieser Leute zu und beschließt dann, hey wir müssen eine Hausdurchsuchung bei denen machen, weil es geht nicht mehr.
+
+623
+01:06:10,560 --> 01:06:19,560
+ Das Problem war, das ist ein glamouröser Akt wie das in Österreich heißt, das heißt der muss zur Ministerebene raufgetragen werden zur Absegnung.
+
+624
+01:06:19,560 --> 01:06:27,560
+ Was das Bundeskriminalamt nämlich normalerweise sonst gemacht hätte, das hätte einfach seine V-Leute wahrscheinlich gedeckt, behaupte ich jetzt mal, es gibt Jungs als V-Motor und hätte einfach nichts gemacht.
+
+625
+01:06:27,560 --> 01:06:32,560
+ Aber es geht halt jetzt nun mal nicht, es geht zu hoch angesiedelt, wir müssen also eine Hausdurchsuchung machen.
+
+626
+01:06:32,560 --> 01:06:42,560
+ Und jetzt kommt der Witz an der Sache, die hören also drei Monate lang Telefone ab, wo die irgendwie darüber diskutieren, hey ich brauch noch drei Sieglinien und hast du noch weißes Papier übrig und keine Ahnung, so supergeile Codes.
+
+627
+01:06:42,560 --> 01:06:53,560
+ Und das Bundeskriminalamt geht also jetzt und sagt, hey wir brauchen Sondereinsatzkommando Cobra und keine Ahnung was, weil die sind vielleicht bewaffnet oder ich weiß nicht was, warst ja auch warm.
+
+628
+01:06:53,560 --> 01:06:59,560
+ Und der Durchsuchungsbefehl ist ausgestellt wegen Betrug.
+
+629
+01:06:59,560 --> 01:07:07,560
+ Also sie durchsuchen nicht wegen Drogenhandel den sie drei Monate abgehört haben, sondern sie durchsuchen wegen dem angeblichen Betrug gegen diesen Lobbyisten.
+
+630
+01:07:07,560 --> 01:07:17,560
+ Finden bei der Freundin das eine 130 Gramm Coke in einem Staubsaugerbeutel. Langsam.
+
+631
+01:07:17,560 --> 01:07:19,560
+ Saugt man ja auch mal schnell weg.
+
+632
+01:07:19,560 --> 01:07:28,560
+ *Gelächter*
+
+633
+01:07:28,560 --> 01:07:31,560
+ Ich sage Österreich ist speziell.
+
+634
+01:07:31,560 --> 01:07:33,560
+ Nee warte, warte, es wird besser.
+
+635
+01:07:33,560 --> 01:07:38,560
+ Staubsaugerbeutel 130 Gramm Coke.
+
+636
+01:07:38,560 --> 01:07:43,560
+ Nehmen also diese Freundin sagen, wem gehört das Coke, sie sagt, das kommt von irgendeinem Albaner.
+
+637
+01:07:43,560 --> 01:07:52,560
+ Okay, dann setzen sie sich irgendwie und sagen, glaubt ihr nicht, wem gehört das Coke, das gehört meinem Freund. Woher hat das von irgendeinem Albaner?
+
+638
+01:07:52,560 --> 01:08:07,560
+ Durchsuchen diesen Freund, das ist ein ehemaliger Mitarbeiter von mir, finden dort 10 Gramm Coke, ist eine Menge Waffen und sonstigen Schwachsinn und irgendeine geile, weil er einfach ein Genie ist, eine Aufstellung von seinen Ausgaben die letzten paar Monate, die so auf ca. 30.000 Euro im Monat belaufen für Philipp Plein und keine Ahnung was für Scheiße.
+
+639
+01:08:07,560 --> 01:08:13,560
+ Der hat eine Rolle gespielt in unserem Vortrag gestern. Philipp Plein, das ist der Krypto-King.
+
+640
+01:08:13,560 --> 01:08:15,560
+ *Gelächter*
+
+641
+01:08:15,560 --> 01:08:17,560
+ Nee, der kommt schon besaldet.
+
+642
+01:08:17,560 --> 01:08:21,560
+ Ja, klar, mit den Blitzerschuhen. 14.000 Euro Schuhe.
+
+643
+01:08:21,560 --> 01:08:26,560
+ Jetzt wissen wir endlich wer bei dem kauft, aber Kartoffel muss das eh schon vorher werden.
+
+644
+01:08:26,560 --> 01:08:29,560
+ *Gelächter*
+
+645
+01:08:29,560 --> 01:08:37,560
+ Sag mal, was die da eingekauft haben. Guck mal. Die haben die schon gehabt. Ist ein Ack drin, kannst du raus suchen. Nee, aber jedenfalls, okay, gut, die durchsuchen den auch.
+
+646
+01:08:37,560 --> 01:08:46,560
+ Der sagt, ja, das Coke ist für einen Eigenbedarf, die 130 Gramm bei seiner Freundin hat er keine Ahnung von woher kommen, weiß er nicht. Mein Name fällt nicht.
+
+647
+01:08:46,560 --> 01:08:58,560
+ Dann passiert was Kurioses. Das BKA, die es in Salzburg, die Durchsuchung gemacht hat, mit Salzburger Einsatzkräften, setzt also diese Freundin von dem Typen in ein Auto und überstellt sie nach Wien.
+
+648
+01:08:58,560 --> 01:09:09,560
+ Separat von ihm. Und laut einem Akt, man weiß es jetzt nicht, weil es leider nicht protokolliert, dauert diese Überstellung 7 Stunden lang. Der Fahrtweg Wien-Salzburg ist ca. 2,5-3 Stunden je nachdem.
+
+649
+01:09:09,560 --> 01:09:15,560
+ In diesen 7 Stunden ist protokolliert, es wurden mehrere Pausen gemacht, fertig, Punkt.
+
+650
+01:09:15,560 --> 01:09:19,560
+ In diesen Pausen wurden informelle Gespräche geführt, fertig, Punkt.
+
+651
+01:09:19,560 --> 01:09:28,560
+ Sie kommt in Wien an, in Wien auf einmal ist ihre Aussage, das Coke kommt von mir und ich hab noch viel mehr geliefert und nicht von einem Albaner.
+
+652
+01:09:28,560 --> 01:09:31,560
+ Er bestreitet das. Er sagt, nee, das stimmt alles nicht.
+
+653
+01:09:31,560 --> 01:09:39,560
+ Und sie sagt auf einmal, ja, wir haben 6 Kilo Coke verkauft und irgendwie ein Kilo kommt vom Julian.
+
+654
+01:09:39,560 --> 01:09:44,560
+ Die Polizei fragt nicht, woher die anderen 5 Kilo kommen sollen, sie sagt, wirklich vom Julian, ja vom Julian.
+
+655
+01:09:44,560 --> 01:09:51,560
+ Die Polizei fragt ihn, er sagt, nee, stimmt alles nicht, alles Blödsinn, sie redet irgendeinen Schwachsinn.
+
+656
+01:09:51,560 --> 01:09:58,560
+ Sie macht dann im Laufe, die gehen dann beide in Untersuchungshaft ewig lange, ca. 9 Monate später ist ihr Prozess.
+
+657
+01:09:58,560 --> 01:10:01,560
+ In diesen 9 Monaten macht sie 11 Aussagen bei der Polizei.
+
+658
+01:10:01,560 --> 01:10:06,560
+ In jeder dieser Aussagen sagt sie was anderes, also nämlich so was kausal anderes.
+
+659
+01:10:06,560 --> 01:10:18,560
+ Also es ist irgendwann 2017 gewesen, nee es war irgendwann 2018, es war Sommer, es war Winter, es war Linz, es war Salzburg, also man weiß es nicht.
+
+660
+01:10:18,560 --> 01:10:20,560
+ Jede Aussage differenziert von der nächsten.
+
+661
+01:10:20,560 --> 01:10:26,560
+ Sie hat mich bedroht, ich hab sie bedroht, man, ganz, also wie auch immer.
+
+662
+01:10:26,560 --> 01:10:33,560
+ Die gehen vor Gericht. Sie wird vor Gericht von der Richterin befragt.
+
+663
+01:10:33,560 --> 01:10:38,560
+ Und zwar normalerweise vor Gericht ist es normal, dass man quasi zu den Vorwürfen gefragt wird.
+
+664
+01:10:38,560 --> 01:10:44,560
+ Das heißt der Richter wird fragen, okay, die Staatsanwaltschaft behauptet, dass sie dralala, in ihrer Aussage haben sie das und das gesagt, was trifft zu.
+
+665
+01:10:44,560 --> 01:10:48,560
+ Die Richterin in dem Fall tut das nicht, weil die Richterin in dem Fall noch nie ein Strafverfahren geführt hat.
+
+666
+01:10:48,560 --> 01:10:54,560
+ Die Richterin will den Fall auch nicht, sie versucht ihn dreimal abzugeben, aber ihr werdet auch auferlegt, warum auch immer.
+
+667
+01:10:54,560 --> 01:11:01,560
+ Und in diesem Verfahren nimmt die Richterin den Strafantrag der Staatsanwaltschaft, liest ihn vor und fragt, sie stimmt das.
+
+668
+01:11:01,560 --> 01:11:04,560
+ Und die sagt ja, ja, ja, ja, ja. Fertig.
+
+669
+01:11:04,560 --> 01:11:18,560
+ Er sagt nein, nein, nein, nein, nein. Sie bekommt für den zugegebenen Verkauf und Handel von knapp, glaube ich, dreieinhalb Kilo Kokain sechs Monate fix und zwölf Monate auf Bewährung aufgebrummt mit einer Vorstrafe wegen Drogen schon.
+
+670
+01:11:18,560 --> 01:11:21,560
+ Was erstaunlich, also das hat noch nie jemand gehört, glaube ich.
+
+671
+01:11:21,560 --> 01:11:25,560
+ Er bekommt drei Jahre, weil er nicht zugibt.
+
+672
+01:11:25,560 --> 01:11:39,560
+ Dann passiert etwas ganz Kurioses. Drei Tage später taucht sein Freund und andere ehemalige Mitarbeiter, der nicht verhaftet wurde wegen Drogenhandel, beim Staatsanwalt auf und sagt, er möchte etwas zu Protokoll geben.
+
+673
+01:11:39,560 --> 01:11:47,560
+ Sein Freund, der jetzt drei Jahre bekommen hat, hat gelogen vorher und er weiß, das stimmt eigentlich, dass ich schon die Drogen geliefert habe.
+
+674
+01:11:47,560 --> 01:11:52,560
+ Daraufhin geht der Staatsanwaltschaft zu dem Typen, der jetzt sitzt mit drei Jahren.
+
+675
+01:11:52,560 --> 01:11:57,560
+ Es gibt wieder informelle Gespräche laut dem Akt mit dem Bundeskriminalamt, man weiß nicht, was geredet wird.
+
+676
+01:11:57,560 --> 01:12:08,560
+ Und dann stellt dieser Typ mit der sein drei Jahren Strafe einen Antrag bei der Staatsanwaltschaft, ob er denn die elektronische Fußfessel bekommen könnte, wenn er seine Aussage ändert.
+
+677
+01:12:08,560 --> 01:12:10,560
+ Schriftlich.
+
+678
+01:12:10,560 --> 01:12:14,560
+ Die Staatsanwaltschaft schreibt natürlich formell korrekt richtig zurück. Wir versprechen nichts.
+
+679
+01:12:14,560 --> 01:12:16,560
+ Je nachdem, wir werden sehen.
+
+680
+01:12:16,560 --> 01:12:19,560
+ Er ändert seine Aussage, sagt, nee, nee, ich habe vorher gelogen, stimmt doch.
+
+681
+01:12:19,560 --> 01:12:27,560
+ Ich habe Angst gehabt vor ihm, aber er hat mir die Drogen verkauft. Ein Monat später geht er auf Fußfessel.
+
+682
+01:12:27,560 --> 01:12:35,560
+ Und am Ende dieser Aussagegeschichte waren die so halbwegs frei oder zumindest nicht mehr ganz so eingesperrt und die ganze Last lag auf dir.
+
+683
+01:12:35,560 --> 01:12:41,560
+ Ja, weil sie haben bei so neun Monaten uhaft, die Freundin von ihm hat sechs Monate bekommen, damit war sie schon erledigt, nach dem Urteil nach Hause gegangen.
+
+684
+01:12:41,560 --> 01:12:46,560
+ Er hat, nachdem er seine Aussage ändert, die Fußfessel beantragen können, war er also knapp ein Jahr abgesessen von den drei Jahren.
+
+685
+01:12:46,560 --> 01:12:48,560
+ Uhaft. Deswegen.
+
+686
+01:12:48,560 --> 01:12:52,560
+ Jetzt haben sie also zwei Aussagen korrelierend, dass ich Drogen verkauft habe an sie angeblich.
+
+687
+01:12:52,560 --> 01:12:56,560
+ Die passen noch immer nicht ganz zusammen, aber wie auch immer, es reicht für einen Haftbefehl jetzt offenbar.
+
+688
+01:12:56,560 --> 01:13:04,560
+ Der wird uns aber nicht gesagt. Also der Punkt ist jetzt, wir kontaktieren monatlich die deutsche Polizei, die deutsche Generalstaatsanwaltschaft in Berlin,
+
+689
+01:13:04,560 --> 01:13:09,560
+ also auch die österreichische Polizei, und sagen, hey, gibt es einen Haftbefehl, wenn ja, da stellt sich auch kein Problem, nur nicht in Österreich.
+
+690
+01:13:09,560 --> 01:13:10,560
+ Sagen wir euch nicht.
+
+691
+01:13:10,560 --> 01:13:12,560
+ Wollt ihr ihn vorladen? Nee.
+
+692
+01:13:12,560 --> 01:13:19,560
+ Okay. In der Zwischenzeit bin ich irgendwo in Spanien unterwegs, bin gerade irgendwie mit dieser Wirecard-Schosse ein bisschen beschäftigt,
+
+693
+01:13:19,560 --> 01:13:27,560
+ und dann kommt eine Durchsuchung des Ferienhauses meiner Mutter in Frankreich durch eine Europol-Spezialenheit.
+
+694
+01:13:27,560 --> 01:13:36,560
+ Womit mir relativ klar ist, wenn eine Europol-Spezialenheit da irgendwie ausrückt, dann muss ein Haftbefehl irgendwo liegen, das geht sonst nicht.
+
+695
+01:13:36,560 --> 01:13:44,560
+ Redet mit meinen Anwälten, die meinen, hey, komm zurück nach Berlin, besser für dich, weil in Berlin zumindest können wir dich halbwegs rechtlich schützen.
+
+696
+01:13:44,560 --> 01:13:48,560
+ Komme also nach Berlin, Zeiten von Corona, verschlungene Wege, kompliziert.
+
+697
+01:13:48,560 --> 01:13:55,560
+ Und setz mich mal in Berlin hin und mach tatsächlich das, was ich immer gemacht hab, das heißt, ich geh zu meiner Hausbank, einmal die Woche,
+
+698
+01:13:55,560 --> 01:14:04,560
+ tätige Geschäfte am Bankschalter mit Ausweis, geh auf Krankenkarte zum Arzt für irgendwie so Standarduntersuchungen, warte, ob was passiert ist, passiert nichts.
+
+699
+01:14:04,560 --> 01:14:08,560
+ Also tatsächlich recht erstaunlich, wie ich nachher wusste, hab ich einen Interpol-Haftbefehl gehabt,
+
+700
+01:14:08,560 --> 01:14:14,560
+ aber offenbar kann man auch mit dem Interpol-Haftbefehl bei der Sparkasse Berlin um Alexanderplatz oder Probleme Bankgeschäfte tätigen.
+
+701
+01:14:14,560 --> 01:14:32,560
+ Dann kommt irgendwann also der Zugriff, ich merke, dass eine Observation rennt, die ich, ohne es jetzt in Detail gehen zu wollen, aus diversen Gründen nicht,
+
+702
+01:14:32,560 --> 01:14:37,560
+ also ich hätte die Observation wahrscheinlich entgehen können, als Problem wäre, da würden andere Probleme entstanden.
+
+703
+01:14:37,560 --> 01:14:41,560
+ Ich denk mir, es hat keinen Sinn mehr, komm lass, schauen wir mal, was passiert.
+
+704
+01:14:41,560 --> 01:14:47,560
+ Packen, patzen Geld ein, packen frisches Handy ein, packen USPS-Regal, frisch gewiped und gehen mal spazieren.
+
+705
+01:14:47,560 --> 01:14:52,560
+ Und werde dann auch vom BK Wiesbaden verhaftet, in Berlin.
+
+706
+01:14:52,560 --> 01:14:58,560
+ Tatsächlich Hintergrund dessen ist, dass die Berliner Polizei, laut der österreichischen Polizei, die Berliner Polizei,
+
+707
+01:14:58,560 --> 01:15:03,560
+ ich nehme das natürlich dem in Tieren an, aber ich bin trotzdem ganz dankbar, sich angeblich geweigert hat,
+
+708
+01:15:03,560 --> 01:15:07,560
+ irgendwie zu kooperieren nach diesen Funkzellenabgriffen, also zumindest nicht sonderlich aktiver.
+
+709
+01:15:07,560 --> 01:15:12,560
+ Und deswegen das Bundeskriminalamt in Österreich, ihre Kollegen in Wiesbaden gebeten haben,
+
+710
+01:15:12,560 --> 01:15:14,560
+ ob sie denn nicht irgendwie behilflich sein wollen könnten.
+
+711
+01:15:14,560 --> 01:15:21,560
+ Und die waren dann auch behilfreich und haben mich also in Prenzlauer Berg dann verhaftet am 10. Dezember 2020.
+
+712
+01:15:21,560 --> 01:15:27,560
+ Haben mich noch Moabit über, also das heißt Tempelhof glaube ich ist das bei euch, das Polizeianal der Zentrum.
+
+713
+01:15:27,560 --> 01:15:29,560
+ Berlin.
+
+714
+01:15:29,560 --> 01:15:31,560
+ Der Knast in Berlin?
+
+715
+01:15:31,560 --> 01:15:33,560
+ Ja, das Polizeianal der Zentrum ist Tempelhof.
+
+716
+01:15:33,560 --> 01:15:35,560
+ Moabit ist ein Knast.
+
+717
+01:15:35,560 --> 01:15:37,560
+ Ne Moabit ist ein Gefängnis, da vorne gibt es das komische...
+
+718
+01:15:37,560 --> 01:15:39,560
+ Die Polizei gibt es überall.
+
+719
+01:15:39,560 --> 01:15:41,560
+ Wie zugeben, dass du mal gewesen zu sein.
+
+720
+01:15:41,560 --> 01:15:46,560
+ Ja, also wie auch immer, ich komme nach Moabit, bin dann dort irgendwie so knapp dreieinhalb Monate,
+
+721
+01:15:46,560 --> 01:15:52,560
+ bekämpfte die Auslieferungsstellen, Asylantrag sogar in Deutschland, gehe zum Bundesverfassungsgericht,
+
+722
+01:15:52,560 --> 01:16:00,560
+ weil sich die Berliner Gerichte weigern, die Auslieferung hinsichtlich politischer Verfolgung zu prüfen,
+
+723
+01:16:00,560 --> 01:16:06,560
+ Verlier, alle Varianten, also auch beim Bundesverfassungsgericht,
+
+724
+01:16:06,560 --> 01:16:12,560
+ und werde dann zum Wirecard-Untersuchungsausschuss geladen, lustigerweise, im Bundestag.
+
+725
+01:16:12,560 --> 01:16:16,560
+ Direkt aus dem Knast sozusagen.
+
+726
+01:16:18,560 --> 01:16:22,560
+ Ich bin tatsächlich mit dem Justizbus zum Bundestag gefahren, in Handschellen,
+
+727
+01:16:22,560 --> 01:16:26,560
+ und wurde in Handschellen im Bundestag reingeführt, in den Urasschussraum des Bundestags.
+
+728
+01:16:26,560 --> 01:16:33,560
+ Können wir ganz kurz einen Exkurs zum Wirecard machen, oder führt das jetzt zu weit?
+
+729
+01:16:33,560 --> 01:16:40,560
+ Ich könnte mir vorstellen, dass sich jemand dafür interessiert.
+
+730
+01:16:40,560 --> 01:16:46,560
+ Ja, also der Punkt dahinter war, dass Wirecard ist ja nicht, weil man sich damit beschäftigt,
+
+731
+01:16:46,560 --> 01:16:50,560
+ eine ziemlich österreichische Angelegenheit, ich hatte tatsächlich ein Seitenaspekt,
+
+732
+01:16:50,560 --> 01:16:55,560
+ wird in Österreich auch nicht so gesehen, so ähnlich wie, der Deutsche muss überfallen,
+
+733
+01:16:55,560 --> 01:16:58,560
+ hat Wirecard in Österreich auch nichts mit Österreich zu tun.
+
+734
+01:16:58,560 --> 01:17:00,560
+ Das waren immer die Deutschen.
+
+735
+01:17:00,560 --> 01:17:05,560
+ Ja, nee, der Punkt ist, dass ich mich mit einem Seitenaspekt von Wirecard beschäftigt,
+
+736
+01:17:05,560 --> 01:17:10,560
+ der mir zufällig irgendwie über den Weg gelaufen ist, diese Libyen-Geschichte,
+
+737
+01:17:10,560 --> 01:17:16,560
+ seltener Truppenaufbau, und hatte da irgendwie ein paar Linien verfolgt, was auch mitunter
+
+738
+01:17:16,560 --> 01:17:19,560
+ auch mal ein Grund für meinen Aufenthalt in Spanien war, unter anderem.
+
+739
+01:17:19,560 --> 01:17:30,560
+ Aber ja, wie auch immer, ich hatte also ein paar Vermutungen, die der Untersuchungsausschuss hatte,
+
+740
+01:17:30,560 --> 01:17:33,560
+ bestätigen, ich konnte jetzt kleinenstatt natürlich neun Aspekte hinzufügen,
+
+741
+01:17:33,560 --> 01:17:36,560
+ ich konnte vielleicht ein paar Einblicke aus österreichischer Perspektive gewähren,
+
+742
+01:17:36,560 --> 01:17:42,560
+ und auch vielleicht ein paar bekannte Gerüchte bestätigen oder dementieren hier und da.
+
+743
+01:17:42,560 --> 01:17:46,560
+ Das war es im Prinzip. Das Lustige an der Geschichte ist, ich weiss es deswegen,
+
+744
+01:17:46,560 --> 01:17:50,560
+ weil die Österreicher gerade versucht haben, meinen Auftritt in Wirecard-Untersuchungsausschuss zu verhindern.
+
+745
+01:17:50,560 --> 01:17:54,560
+ Der Punkt dahinter war, dass es in der europäischen Rechtsgeflogenheit üblich ist,
+
+746
+01:17:54,560 --> 01:17:58,560
+ dass die Auslieferung, selbst wenn sie bekämpft wird, maximal drei Monate dauern darf.
+
+747
+01:17:58,560 --> 01:18:04,560
+ Mein Auftritt im Bundestag war exakt, ich glaube drei Monate und eine Woche später angesetzt.
+
+748
+01:18:04,560 --> 01:18:07,560
+ Die Österreicher haben darauf bestanden, mich auszuliefern.
+
+749
+01:18:07,560 --> 01:18:10,560
+ Der Bundestag hat gesagt, ne, wir wollen den Laden auszeigen.
+
+750
+01:18:10,560 --> 01:18:13,560
+ Die Österreicher haben gesagt, ne, das geht nicht, die haben es drei Monate frist, die müssen ihn ausliefern.
+
+751
+01:18:13,560 --> 01:18:14,560
+ Ne, wir wollen den Laden auszeigen, ne, das geht nicht.
+
+752
+01:18:14,560 --> 01:18:16,560
+ Hinten, hinten, hinten, hinten, hinten.
+
+753
+01:18:16,560 --> 01:18:21,560
+ Bis die Österreicher gesagt haben, hey, wenn ihr ihn jetzt ausliefert, dann zahlen wir die Auslieferung nicht.
+
+754
+01:18:21,560 --> 01:18:24,560
+ Normalerweise muss ich immer das Land, in dem du ausgeliefert bist, die Rechnung übernehmen.
+
+755
+01:18:24,560 --> 01:18:29,560
+ Und der Bundestag hat dann sagen müssen, ja gut, dann zahlen wir es.
+
+756
+01:18:29,560 --> 01:18:32,560
+ Also meine Auslieferung nach Österreich wurde aus Bundestagsbudget gezahlt.
+
+757
+01:18:32,560 --> 01:18:38,560
+ Weil sonst wäre es nicht möglich gewesen.
+
+758
+01:18:38,560 --> 01:18:43,560
+ Nur um zu verdeutlichen, wie sehr den Österreichern es wichtig war, dass ich nicht dort meinen Mund öffnen kann.
+
+759
+01:18:43,560 --> 01:18:47,560
+ Ja, dann wurde ich also nach Wien überstellt.
+
+760
+01:18:47,560 --> 01:18:54,560
+ Wien war dann auch, ja, mein Gott, von allen Gefängnissen, wo ich war, war Moabit mit Sicherheit das beste.
+
+761
+01:18:54,560 --> 01:18:56,560
+ Und wir sagen allen Leuten, Moabit ist richtig scheiße.
+
+762
+01:18:56,560 --> 01:18:58,560
+ In wie vielen Gefängnissen warst du denn schon?
+
+763
+01:18:58,560 --> 01:18:59,560
+ Ja, jetzt drei.
+
+764
+01:18:59,560 --> 01:19:00,560
+ Ach so.
+
+765
+01:19:00,560 --> 01:19:04,560
+ Also Moabit, Wien und dann bin ich tatsächlich nach St. Balken verlegt worden zu meiner Verhandlung.
+
+766
+01:19:04,560 --> 01:19:08,560
+ Bin ich also auf Wien überstellt.
+
+767
+01:19:08,560 --> 01:19:17,560
+ Wien ist Einzelhaft, ist Sicherheitsabteilung, ist also die Abteilung, wo irgendwie alle IS-Terroristen, Mörder und sonst was eingebracht sind.
+
+768
+01:19:17,560 --> 01:19:23,560
+ Und noch dazu dann dort in Einzelhaft, weil Sicherheitsbedenken geäußert werden.
+
+769
+01:19:23,560 --> 01:19:31,560
+ Bin dann dort knapp bei dreieinhalb Monaten oder so in Einzelhaft, was relativ anstrengend für den Kopf ist.
+
+770
+01:19:31,560 --> 01:19:34,560
+ Also irgendwie ungesund, Einzelhaft kann man nicht empfehlen.
+
+771
+01:19:34,560 --> 01:19:36,560
+ Merkt euch das.
+
+772
+01:19:36,560 --> 01:19:37,560
+ Ja, ne, ne, ne.
+
+773
+01:19:37,560 --> 01:19:38,560
+ So.
+
+774
+01:19:38,560 --> 01:19:41,560
+ Eine Woche ist angenehm, kannst abschalten und so, aber danach wird es anstrengend.
+
+775
+01:19:41,560 --> 01:19:56,560
+ Und wer dann also schafft es mich aus der Einzelhaft rauszulösen, indem ich der Anstalt schriftlich meine Einwilligung gebe, mich auf eigenes Risiko in die Generalpopulation zu überstellen.
+
+776
+01:19:56,560 --> 01:19:59,560
+ Generalpopulation, also Sicherheitsabteilung so weit gesagt.
+
+777
+01:19:59,560 --> 01:20:08,560
+ Und bin dann dort eigentlich, war sogar ganz gut dann, sobald ich in die Generalpopulation war, war eigentlich ganz vergleichsweise angenehm, soweit Gefängnis halt angenehm.
+
+778
+01:20:08,560 --> 01:20:11,560
+ Also mit den anderen Häftlingen zusammen heißt das?
+
+779
+01:20:11,560 --> 01:20:16,560
+ Ja, also mit den, ne, also bist schon noch immer, aber du bist jetzt nicht meiner, also davor war ich separiert.
+
+780
+01:20:16,560 --> 01:20:22,560
+ Ich hatte so eine Zelle, die keine Ahnung, was ist ich, was, so zwölf Quadratmeter groß war oder so.
+
+781
+01:20:22,560 --> 01:20:25,560
+ Und da geht halt tatsächlich die Klappe auf, du kriegst alles in die Klappe gezogen, was war.
+
+782
+01:20:25,560 --> 01:20:27,560
+ Also sie ist kein Arsch.
+
+783
+01:20:27,560 --> 01:20:36,560
+ Und danach warst du halt in der Zelle mit anderen Leuten, das ist zwar nicht immer angenehm, aber zumindest irgendwie, also Mensch ist ein Herdentier am Ende des Tages,
+
+784
+01:20:36,560 --> 01:20:40,560
+ und wenn du lange irgendwie separiert gehalten wirst, dann fahrt einfach der Organismus zurück.
+
+785
+01:20:40,560 --> 01:20:46,560
+ Du merkst einfach, der Kopf wird lang, sondern du wirst dumpf, du wirst apathisch, du wirst, hast Schlafstörungen.
+
+786
+01:20:46,560 --> 01:20:49,560
+ Es ist wie gesagt nicht zu empfehlen einfach.
+
+787
+01:20:49,560 --> 01:20:55,560
+ Und Folter, oder? Also ich mein, das ist doch schon hardcore, oder?
+
+788
+01:20:55,560 --> 01:21:04,560
+ Ja Folter, ich mein, ich bin immer, ja, ja, also es ist wohl schon, es, die Methodik mag schon Folter und Methodik haben,
+
+789
+01:21:04,560 --> 01:21:10,560
+ aber ich bin immer vorsichtig mit diesen Folter Sachen, weil tatsächlich gibt es Leute, die, also ich hab Leute auch sogar bei mir im Gefängnis gehabt,
+
+790
+01:21:10,560 --> 01:21:13,560
+ ich hab's Jury gehabt, die haben Namen am Rücken gehabt.
+
+791
+01:21:13,560 --> 01:21:16,560
+ Klar, also steigerungsfähig ist das, aber es ist, sagen wir mal.
+
+792
+01:21:16,560 --> 01:21:18,560
+ Deshalb bin ich immer so vorsichtig mit Folter vorgelegt.
+
+793
+01:21:18,560 --> 01:21:24,560
+ Ja, aber ich meine, wenn das Hauptziel ist, jemand erstmal der Öffentlichkeit zu entziehen, dann muss man ja nicht gleich in die Konkretivität so richtig runterfahren.
+
+794
+01:21:24,560 --> 01:21:36,560
+ Ich muss sagen, der Deutsche Bundestag, speziell die SPD, hat Bedenken geäußert nach meinem Auftritt im Urschuss und hat Bedenken gegenüber der österreichischen Justiz geäußert und auch Sicherheitsbedenken.
+
+795
+01:21:36,560 --> 01:21:41,560
+ Die Österreicher haben das dann hergenommen, als Grund mich in Einzelhaft zu nehmen, aus diesen geäußerten Sicherheitsbedenken.
+
+796
+01:21:41,560 --> 01:21:47,560
+ Was ihnen natürlich entgegengekommen sein mag, aber nichtsdestotrotz, ich kann ihnen jetzt nicht den Vorwurf formell machen, dass sie mich als quasi als Bestrafung...
+
+797
+01:21:47,560 --> 01:21:50,560
+ Also waren es wieder die Deutschen schuld?
+
+798
+01:21:50,560 --> 01:21:54,560
+ Was haben die Deutschen für Sicherheitsbedenken geäußert?
+
+799
+01:21:54,560 --> 01:21:57,560
+ Unterzeuge, aber ansonsten gefährlich oder was?
+
+800
+01:21:57,560 --> 01:21:58,560
+ Nee, nee, ungefähr.
+
+801
+01:21:58,560 --> 01:22:00,560
+ Das ist um seine Person.
+
+802
+01:22:00,560 --> 01:22:04,560
+ Achso, also sie haben Bedenken gehabt um deine Sicherheit und deswegen haben sie sich...
+
+803
+01:22:04,560 --> 01:22:06,560
+ Achso, um dich zu beschützen.
+
+804
+01:22:06,560 --> 01:22:07,560
+ Ja, dem passiert hier nichts.
+
+805
+01:22:07,560 --> 01:22:10,560
+ Dann passen wir auf, dann machen wir hier in den Zwischenkampf.
+
+806
+01:22:10,560 --> 01:22:11,560
+ Oh Gott.
+
+807
+01:22:11,560 --> 01:22:23,560
+ So, dann kam auf einmal aus dem Heiteren, aus dem Blauen heraus, die Anklage wird in St. Pölten stattfinden, nicht in Wien, was komplett unsinnig war, weil Wien war die ganze Zeit Staatsanwaltschaft Wien war damit befasst.
+
+808
+01:22:23,560 --> 01:22:30,560
+ Es gab keine Amt benommen an St. Pölten. St. Pölten muss man dazu sagen, gilt in Österreich so als relativ rückständiges, rechtseuridmiertes...
+
+809
+01:22:30,560 --> 01:22:33,560
+ Also was meinst du mit St. Pölten ist ein Ort?
+
+810
+01:22:33,560 --> 01:22:39,560
+ Ist ein Ort, Provinz Hauptstadt, also so wie, keine Ahnung, Bayern München die Hauptstadt, ist halt St. Pölten die Hauptstadt von Niederösterreich.
+
+811
+01:22:39,560 --> 01:22:45,560
+ Niederösterreich gilt halt generell so vielleicht ein bisschen so...
+
+812
+01:22:45,560 --> 01:22:46,560
+ Na?
+
+813
+01:22:46,560 --> 01:22:52,560
+ Na, nenn ich das mal rechtslastig vielleicht oder konservativ oder wie auch immer.
+
+814
+01:22:52,560 --> 01:22:55,560
+ Und St. Pölten ist nochmal ein spezielles Pflaster darin gehend.
+
+815
+01:22:55,560 --> 01:22:59,560
+ Und auch das Gericht in St. Pölten gilt als sehr polizeinah.
+
+816
+01:22:59,560 --> 01:23:07,560
+ Also es gibt das Gerücht unter den Anwälten in Österreich, dass wenn die Polizei was anklagen will, dass sie gerne, wo sie wenig Beweise hat, aber gerne eine Verurteilung hätte, geht sie nach St. Pölten damit.
+
+817
+01:23:07,560 --> 01:23:15,560
+ Wie auch immer, St. Pölten war ausgerufen, meine Anwälte haben mir gesagt, wenn du in St. Pölten angeklagt wirst, wirst du verurteilt, keine Chance.
+
+818
+01:23:15,560 --> 01:23:19,560
+ Bekämpfen wir das, wir haben es bekämpft, wir haben es wie immer verloren.
+
+819
+01:23:19,560 --> 01:23:29,560
+ Kram nach St. Pölten, dort komplett andere Show, also hab wieder erwartet, ok jetzt fängt diese Einzelhaft an und so weiter, wieder gleich in der Schmäh...
+
+820
+01:23:29,560 --> 01:23:36,560
+ Nein, überhaupt nicht, dem war das komplett egal, also ich hab mich da reingeholt, da nimmt er die Sachen, geht da eine.
+
+821
+01:23:36,560 --> 01:23:45,560
+ In Gefängnissen ist es üblich, dass man nach Nationalität und nach Religionsbekenntnis zusammengelegt wird, also es war logisch, dass man mit Österreichern zusammengelegt werden würde.
+
+822
+01:23:45,560 --> 01:24:00,560
+ In meinem Fall war die Kuriosität der Auswahl der Zelle dahin gehend zu sehen, dass die anderen Insassen der Zelle allesamt wegen irgendwelchen Hass und Neonazi oder wie sagt man so, Widerbetätigung heißt das in Österreich, also quasi...
+
+823
+01:24:00,560 --> 01:24:02,560
+ Rückfällige Nazis.
+
+824
+01:24:02,560 --> 01:24:11,560
+ Rückfälliger Nazi-Verbrechen in irgendeiner Form verurteilt worden, also der Einschlag war deutlich, sagen wir es mal so, die harten Kreuzchen an den Betten auch.
+
+825
+01:24:11,560 --> 01:24:19,560
+ Und warum auch immer, es kann sein, dass es ein Zufall ist, es kann auch einfach sein, dass irgendwer gedacht hat, hey das ist lustig, weiß ich nicht.
+
+826
+01:24:19,560 --> 01:24:22,560
+ War halt nichts anderes frei vielleicht.
+
+827
+01:24:22,560 --> 01:24:24,560
+ So hat man es mir auch gesagt.
+
+828
+01:24:24,560 --> 01:24:38,560
+ Wie auch immer, da wurde nicht so viel Wert auf diese Sicherheitsbedenken gelegt offenbar, war aber auch eigentlich kein Problem, weil ich drauf gekommen bin im Gefängnis, wenn so das Gefühl herstürzt, so quasi den Staat gefickt und bist dann einfach geil.
+
+829
+01:24:38,560 --> 01:24:50,560
+ Gesteigerter Coolness Faktor sozusagen.
+
+830
+01:24:50,560 --> 01:25:01,560
+ Ja, also es war wirklich, das kann ich wirklich nicht beschweren, weil alle immer so gemeint haben, hey wirst du bedroht, hast du... Nein überhaupt nicht, die Leute haben ja Kuchen gebacken und ich weiß nicht was.
+
+831
+01:25:01,560 --> 01:25:03,560
+ Im Knast?
+
+832
+01:25:03,560 --> 01:25:04,560
+ Ja.
+
+833
+01:25:04,560 --> 01:25:06,560
+ Echt, da kann man ja einfach so Kuchen backen finden.
+
+834
+01:25:06,560 --> 01:25:07,560
+ Die haben Zeit man.
+
+835
+01:25:07,560 --> 01:25:08,560
+ Nee, nee.
+
+836
+01:25:08,560 --> 01:25:09,560
+ Aber haben die auch einen Ofen?
+
+837
+01:25:09,560 --> 01:25:12,560
+ Nee, hast du nicht, aber ich hab sogar selber gelernt, ich stelle euch ja keine Kleider wie.
+
+838
+01:25:12,560 --> 01:25:23,560
+ Im Knast kannst du dir ausleihen, das geht in Deutschland übrigens nicht, das ist der einzige Nachteil, Moabit musst du das tatsächlich bauen mit irgendwelchen Tumfischdosen und Tocht und Öl in der Dose, aber... Nee, du kannst ja Kochplatten ausbauen.
+
+839
+01:25:23,560 --> 01:25:29,560
+ Und wenn du jetzt zwei Kochplatten nimmst und zwei Pfannen hast und die quasi gegengerecht übereinander legst, kannst du Ofen machen.
+
+840
+01:25:29,560 --> 01:25:31,560
+ Nein, das sind Ofen.
+
+841
+01:25:31,560 --> 01:25:45,560
+ Und wenn du ja noch weißt wie du Biskuitteig anrührst, was eigentlich nicht so schwierig ist, da kannst du tatsächlich Kuchenformen backen und ich hab tatsächlich am Ende vierstöckige Torten gebacken, also kann ich das...
+
+842
+01:25:45,560 --> 01:25:56,560
+ Echte rückfälligen Nazis haben dir einen Kuchen gebacken?
+
+843
+01:25:56,560 --> 01:25:57,560
+ Nee, das waren die Rumänischen einfach.
+
+844
+01:25:57,560 --> 01:25:58,560
+ Achso.
+
+845
+01:25:58,560 --> 01:26:10,560
+ Alter, die Nummer hat sich schon gelohnt, die Geschichten die du erzählen kannst, dein Rest des Lebens einfach unbezahlbar.
+
+846
+01:26:10,560 --> 01:26:12,560
+ Die Nazis wollten mich mit dir zu Barm füttern.
+
+847
+01:26:12,560 --> 01:26:17,560
+ Aber dann machen wir morgen mal einen Kuchen zusammen.
+
+848
+01:26:17,560 --> 01:26:18,560
+ Ja, klar.
+
+849
+01:26:18,560 --> 01:26:19,560
+ Zwei Kochplatten haben wir.
+
+850
+01:26:19,560 --> 01:26:20,560
+ Geht super easy.
+
+851
+01:26:20,560 --> 01:26:21,560
+ Ninos?
+
+852
+01:26:21,560 --> 01:26:22,560
+ Kommt gut raus.
+
+853
+01:26:22,560 --> 01:26:23,560
+ Alles gut.
+
+854
+01:26:23,560 --> 01:26:25,560
+ Ja, ist noch Red Bull da finde ich.
+
+855
+01:26:25,560 --> 01:26:28,560
+ Ja, ja, ich war gerade besorgt.
+
+856
+01:26:28,560 --> 01:26:32,560
+ Also dafür, dass du keinen Red Bull trinkst, ist es schnell nicht fest.
+
+857
+01:26:32,560 --> 01:26:34,560
+ Hat einen gewissen Suchtfaktor.
+
+858
+01:26:34,560 --> 01:26:37,560
+ Es ist die österreichischeisierung jetzt, ne?
+
+859
+01:26:37,560 --> 01:26:40,560
+ Jetzt verstehst du womit der Martin Schütze seine Fußballklubs zeigt.
+
+860
+01:26:40,560 --> 01:26:42,560
+ Ja, ja, so läuft es.
+
+861
+01:26:42,560 --> 01:26:47,560
+ Das ist alle durch dieses Getränk paralysiert.
+
+862
+01:26:47,560 --> 01:26:48,560
+ Ja.
+
+863
+01:26:48,560 --> 01:26:50,560
+ Damit wird Leipzig gezahlt.
+
+864
+01:26:50,560 --> 01:26:52,560
+ Und Salzburg.
+
+865
+01:26:52,560 --> 01:26:54,560
+ Und Salzburg.
+
+866
+01:26:54,560 --> 01:26:56,560
+ Und Salzburg.
+
+867
+01:26:56,560 --> 01:26:58,560
+ Und Salzburg.
+
+868
+01:26:58,560 --> 01:27:00,560
+ Gibt es noch geile Knastrezepte?
+
+869
+01:27:00,560 --> 01:27:02,560
+ Ja, ja, Knastrezepte gibt es eine Menge.
+
+870
+01:27:02,560 --> 01:27:04,560
+ Ich habe Kebabs gemacht.
+
+871
+01:27:04,560 --> 01:27:06,560
+ Im Knast ist das Essen erstaunlich schlecht.
+
+872
+01:27:06,560 --> 01:27:10,560
+ Aber ab und an einmal im Monat ist das Kochfleisch beschissen.
+
+873
+01:27:10,560 --> 01:27:14,560
+ Aber wenn du es trocknest, kleinschneidest, marinierst und abbratest,
+
+874
+01:27:14,560 --> 01:27:17,560
+ dann hast du so etwas ähnliches wie Kebapfleisch.
+
+875
+01:27:17,560 --> 01:27:18,560
+ Wie war es denn?
+
+876
+01:27:18,560 --> 01:27:19,560
+ Kebapfleisch.
+
+877
+01:27:19,560 --> 01:27:20,560
+ Döner heißt es?
+
+878
+01:27:20,560 --> 01:27:21,560
+ Döner.
+
+879
+01:27:21,560 --> 01:27:22,560
+ Ah, sorry.
+
+880
+01:27:22,560 --> 01:27:24,560
+ Nein, es geht gut.
+
+881
+01:27:24,560 --> 01:27:26,560
+ Es war ein enormer Aufwand.
+
+882
+01:27:26,560 --> 01:27:29,560
+ Ich habe dann angefangen, Fleisch einzutauschen.
+
+883
+01:27:29,560 --> 01:27:31,560
+ Ich habe dann an meinem Stock angeboten,
+
+884
+01:27:31,560 --> 01:27:33,560
+ dass ich die Wäsche prioritär wasche.
+
+885
+01:27:33,560 --> 01:27:36,560
+ Weil ich war in der Wäscherei dann nachher angestellt.
+
+886
+01:27:36,560 --> 01:27:40,560
+ Ich habe gesagt, wenn ihr eure Wäsche möglichst schnell und sauber haben wollt,
+
+887
+01:27:40,560 --> 01:27:42,560
+ dann gibt es Fleisch bei mir.
+
+888
+01:27:42,560 --> 01:27:47,560
+ Ist das auch mit Alkohol braun, dass da der Hefen gehandelt wird?
+
+889
+01:27:47,560 --> 01:27:51,560
+ Gibt es, aber es war nicht meiser.
+
+890
+01:27:51,560 --> 01:27:54,560
+ Die Leute machen so die absurdsten Sachen im Gefängnis.
+
+891
+01:27:54,560 --> 01:27:57,560
+ Die hauen sich Sachen rein, die du nicht einmal ...
+
+892
+01:27:57,560 --> 01:28:00,560
+ Da werden Medikamente missbraucht in einem Umfang,
+
+893
+01:28:00,560 --> 01:28:02,560
+ den du noch nie gesehen hast.
+
+894
+01:28:02,560 --> 01:28:06,560
+ Und Sachen gespritzt durch Kugelschreiber.
+
+895
+01:28:06,560 --> 01:28:07,560
+ Döner.
+
+896
+01:28:07,560 --> 01:28:10,560
+ Nein, es gibt eigentlich sehr viele Sachen.
+
+897
+01:28:10,560 --> 01:28:12,560
+ Es ist einfach nur unappetitlich.
+
+898
+01:28:12,560 --> 01:28:14,560
+ Okay, also Kuchen.
+
+899
+01:28:14,560 --> 01:28:16,560
+ Das ist ja eine Familiensalberie.
+
+900
+01:28:16,560 --> 01:28:17,560
+ Kuchen?
+
+901
+01:28:17,560 --> 01:28:18,560
+ Döner?
+
+902
+01:28:18,560 --> 01:28:19,560
+ Alles gut.
+
+903
+01:28:19,560 --> 01:28:23,560
+ Nein, also wie gesagt, das war so Zeit dann in St. Bölken.
+
+904
+01:28:23,560 --> 01:28:25,560
+ Mir war schon dann Prozessbeginn.
+
+905
+01:28:25,560 --> 01:28:27,560
+ Der Prozess hat sieben Monate lang gedauert.
+
+906
+01:28:27,560 --> 01:28:29,560
+ Es waren x-fragere Termine.
+
+907
+01:28:29,560 --> 01:28:35,560
+ Der Prozess lief ganz witzig, weil mir war eigentlich klar, ich wäre verurteilt.
+
+908
+01:28:35,560 --> 01:28:38,560
+ Und meine Anwälte haben so teilweise noch gesagt ...
+
+909
+01:28:38,560 --> 01:28:41,560
+ Ich meine, das Ding da stand doch auf dünnen ...
+
+910
+01:28:41,560 --> 01:28:44,560
+ Also, Töne an den Füßen ist ja sozusagen noch eine Übertreibung.
+
+911
+01:28:44,560 --> 01:28:50,560
+ Das ist ja eher so eine semipermeable Membran, auf der das Ganze aufgebaut ist.
+
+912
+01:28:50,560 --> 01:28:53,560
+ Ja, ne, aber das Lustige ist, dass ich das als subjektiv Betroffener sage, ist logischer.
+
+913
+01:28:53,560 --> 01:28:56,560
+ Was da tatsächlich war, und dafür bin ich auch ganz dankbar,
+
+914
+01:28:56,560 --> 01:28:59,560
+ gab es diverse NGOs, unter anderem Epicenter Works, die jetzt eh auch da sind.
+
+915
+01:28:59,560 --> 01:29:00,560
+ Thomas.
+
+916
+01:29:00,560 --> 01:29:01,560
+ Thomas da.
+
+917
+01:29:01,560 --> 01:29:10,560
+ Die dann tatsächlich sich die Mühe gemacht haben, nachdem wir ihnen den Act zur Verfügung gestellt haben,
+
+918
+01:29:10,560 --> 01:29:11,560
+ den Act durchzuschauen.
+
+919
+01:29:11,560 --> 01:29:14,560
+ Weil wir halt allen gesagt haben, hey, das ist komplett absurd.
+
+920
+01:29:14,560 --> 01:29:15,560
+ Das ist Kafkaesque.
+
+921
+01:29:15,560 --> 01:29:18,560
+ Und die Journalisten haben halt alle gesagt, hey, das ist die Staatsanwaltschaft,
+
+922
+01:29:18,560 --> 01:29:21,560
+ die wird jetzt nicht irgendwie an was zusammenfantasieren, die wird schon was haben, wenn sie sich anklagt.
+
+923
+01:29:21,560 --> 01:29:24,560
+ Wir haben gesagt, hey, die haben gar nichts. Das ist kompletter Bullshit.
+
+924
+01:29:24,560 --> 01:29:30,560
+ Aber es war halt ein 50.000 Seiten Akt, und die Journalisten sind halt nun mal Journalisten und ein bisschen faul oft.
+
+925
+01:29:30,560 --> 01:29:33,560
+ Vor allem, das ist jetzt nicht mehr die große Story, ob ich jetzt verurteilt werde oder nicht,
+
+926
+01:29:33,560 --> 01:29:39,560
+ das ist jetzt nicht mehr Ibiza Video, wo man irgendwie eine ganze Redaktion dransetzt, Tag und Nacht so, a la Obermeier's Secret,
+
+927
+01:29:39,560 --> 01:29:43,560
+ das Geheimer-Kämmerchen in der SZ, sondern das ist halt, ja, okay, geht ja ins Gefängnis oder nicht.
+
+928
+01:29:43,560 --> 01:29:46,560
+ Mein Gott, setzt man halt den lokalen Journalisten drauf an.
+
+929
+01:29:46,560 --> 01:29:51,560
+ Und die haben sich halt tatsächlich Mühe gemacht, den Act durchzuarbeiten, und sind halt zu demselben Schluss gekommen
+
+930
+01:29:51,560 --> 01:29:57,560
+ und sind dann nachher, glaube ich, mit, ich weiß nicht, 18, 19, 20 anderen NGOs public gegangen, einen Tag vor Prozessbeginn.
+
+931
+01:29:57,560 --> 01:30:01,560
+ Unter anderem mit Amnesty International und haben halt gesagt, hey, der Prozess stinkt.
+
+932
+01:30:01,560 --> 01:30:05,560
+ Also das passt hinten und vorne nicht zusammen. Wir haben uns das angeschaut und das ist einfach, das macht keinen Sinn.
+
+933
+01:30:05,560 --> 01:30:14,560
+ Die Orte, die Zeiten, die ist alles so irgendwie. Im Endeffekt, die Anklage war, der hat irgendwann, 2017, 18, irgendwo in Österreich
+
+934
+01:30:14,560 --> 01:30:18,560
+ bei drei Gelegenheiten Kokain übergeben in einer Gesamtmenge von 1,25 Kilo.
+
+935
+01:30:18,560 --> 01:30:26,560
+ Es ist nicht mehr möglich festzustellen, wo genau und wann genau, aber wir haben Zeugen, die das prinzipiell bestätigen, den Vorwurf.
+
+936
+01:30:26,560 --> 01:30:28,560
+ Nachdem Sie schon 20 andere Geschichten erzählt haben.
+
+937
+01:30:28,560 --> 01:30:36,560
+ Ja, ja, ne, ne, doch schon, aber der Punkt ist, also Sie sagen, Sie können, normalerweise brauchst Du einen Tatvorwurf, einen Tatort, eine Tatzeit, irgendwas.
+
+938
+01:30:36,560 --> 01:30:42,560
+ Da waren zwei, und das Lustige war, wir hatten auch noch Beweise gefunden, dass die Geld kassiert hatten.
+
+939
+01:30:42,560 --> 01:30:49,560
+ Also es gab E-Mail-Verkehr eben, dass dieser besagte Glücksspiel-Loboist der Novomatic, das ist in Österreich,
+
+940
+01:30:49,560 --> 01:30:55,560
+ die wird lustigerweise, um das zu verstehen, warum die Novomatic jetzt irgendwie relevant wäre, warum die sich da irgendwie einmischen sollte,
+
+941
+01:30:55,560 --> 01:30:59,560
+ weil was hat ein Glücksspiel-Konzern mit Ibiza zu tun? - Hochreguliert, oder?
+
+942
+01:30:59,560 --> 01:31:06,560
+ Hochreguliert, ja, es gab also offenbar Lobbying, die Glücksspiel-Gesetze zu ändern unter der Strache-Regierung, das ja.
+
+943
+01:31:06,560 --> 01:31:13,560
+ Aber warum dezidiert Novomatic, weil Strache in einer der wenigen veröffentlichten Sequenzen des Ibiza-Videos, die die SS veröffentlicht hat...
+
+944
+01:31:13,560 --> 01:31:17,560
+ Der hat sie alle, der zahlt sie alle. - Richtig, da sagt er, die Novomatic zahlt alle.
+
+945
+01:31:17,560 --> 01:31:23,560
+ Und das war natürlich ein unglaublicher Nachteil für die Novomatic, dass in Strafverfahren eingeladen worden und Ermittlungsverfahren und sonst was,
+
+946
+01:31:23,560 --> 01:31:28,560
+ und die Novomatic ist dafür bekannt, dass sie mit äußerst harten Bandagen kämpft, wenn sie unter Druck kommt.
+
+947
+01:31:28,560 --> 01:31:33,560
+ Und deswegen, das ist jetzt kein Beweis, und die Novomatic beschreitet das auch, muss man dazu sagen,
+
+948
+01:31:33,560 --> 01:31:39,560
+ die Novomatic hat immer von sich gewesen, dass sie je irgendwas damit zu tun hatte, sie hat überhaupt kein Interesse an mir.
+
+949
+01:31:39,560 --> 01:31:48,560
+ Auffällig ist, dass dieser Lobbyist, der übrigens mittlerweile kurioserweise in einem anderen Verfahren wegen Anstiftung zur falschen Zeugenaussage verurteilt wurde,
+
+950
+01:31:48,560 --> 01:31:55,560
+ was wir auch vorgeworfen haben, in meinem Fall war das komplett unglaubwürdig laut dem Gericht, warum sollte jemand sowas machen,
+
+951
+01:31:55,560 --> 01:32:00,560
+ aber wie auch immer, dieser Lobbyist ist weiterhin tätig für die Novomatic offenbar.
+
+952
+01:32:00,560 --> 01:32:05,560
+ Was kurios ist, weil ich habe tatsächlich in meinem Job für Großkonzerne gearbeitet, und ich weiß es aus meiner Erfahrung,
+
+953
+01:32:05,560 --> 01:32:10,560
+ Großkonzerne hassen nichts mehr als Bad Publicity, speziell in diesem Art Umfeld.
+
+954
+01:32:10,560 --> 01:32:15,560
+ Und die Novomatic ist nochmal in Geschäftsfeldern tätig, die sehr sensibel reguliert sind,
+
+955
+01:32:15,560 --> 01:32:23,560
+ unter anderem in Amerika, die Glücksspielkommission in Las Vegas ist bekannt dafür, dass sie bei Korruptionsverwürfen sehr ungehalten reagiert.
+
+956
+01:32:23,560 --> 01:32:29,560
+ Also normalerweise würde man davon ausgehen, dass ein Konzern wie die Novomatic aus reinem Eigeninteresse so jemanden abstößt und von sich weist.
+
+957
+01:32:29,560 --> 01:32:34,560
+ Ja, die normale logische Schritt. Das ist nicht passiert, warum auch immer, dem so ist, die Novomatic beschreitet das,
+
+958
+01:32:34,560 --> 01:32:37,560
+ und es gibt auch keinen Beweis, dass die Novomatic damit zu tun hat.
+
+959
+01:32:37,560 --> 01:32:47,560
+ Nichtsdestotrotz, Glücksspiellobbyist hat also Zahlungen geleistet an diese Zeugen in Höhe von knapp, ich glaube, was war es, 100.000 Euro knapp, glaube ich, haben wir hochgerechnet.
+
+960
+01:32:47,560 --> 01:32:51,560
+ Das sind die belegten Zahlungen, offen gesagt gehen wir davon aus, dass deutlich mehr waren, aber wie auch immer.
+
+961
+01:32:51,560 --> 01:32:55,560
+ Warum sind diese Zahlungen erfolgt und in welchem Umstand sind diese Zahlungen erfolgt?
+
+962
+01:32:55,560 --> 01:33:04,560
+ Der Punkt war, ganz am Anfang zurückzugehen zum Veröffentlichen des Ibiza-Videos, dieser Glücksspiellobbyist findet diese zwei ehemaligen Freien Mitarbeiter von mir,
+
+963
+01:33:04,560 --> 01:33:10,560
+ trifft sich mit ihnen, die sagen ihm, he he, wir können die Informationen geben, machen einen Vertrag mit ihm, wo drin steht,
+
+964
+01:33:10,560 --> 01:33:18,560
+ ok, wir liefern die Information, dafür zahlst du uns mal 40.000 Euro und du hast 10 Tage Zeit, die Information zu prüfen und wenn sie stimmen, zahlst du.
+
+965
+01:33:18,560 --> 01:33:23,560
+ Der unterschreibt das und zahlt am nächsten Tag 40.000 Euro.
+
+966
+01:33:23,560 --> 01:33:28,560
+ Ich habe auch immer die Information so schnell überprüft, weiß ich die Information, war noch falsch, nachweislich, aber egal.
+
+967
+01:33:28,560 --> 01:33:38,560
+ Und dann, ein paar Tage später gibt es noch eine E-Mail, wo die schreiben, he, für 15.000 Euro sagen wir dir, wer die Oligarchin ist.
+
+968
+01:33:38,560 --> 01:33:42,560
+ Und der sagt ja, super, schickt 15.000 Euro.
+
+969
+01:33:42,560 --> 01:33:49,560
+ Und dann gehen wir also zu Gericht und wir fragen also diese Zeugen, diese ehemaligen Mitarbeiter von mir, ihr habt 15.000 Euro bekommen,
+
+970
+01:33:49,560 --> 01:33:53,560
+ laut E-Mail, damit ihr erzählt wer die Oligarchin ist, wer ist sie denn nun? Ja wissen wir nicht.
+
+971
+01:33:53,560 --> 01:34:00,560
+ Ja ok, aber, wir haben sie ja 15.000 Euro, ich habe sie eben betrogen oder was, warum hat er dann gezahlt? Weiß ich jetzt nicht.
+
+972
+01:34:00,560 --> 01:34:07,560
+ Ok, dann haben wir also diesen Lobbyisten vorgeladen als Zeugen und haben gesagt, ok, sie haben jetzt irgendwie, keine Ahnung, 60.000, 70.000 Euro und diese Leute gezahlt.
+
+973
+01:34:07,560 --> 01:34:16,560
+ Warum denn, wofür denn? Also sie haben sich mit denen getroffen, irgendwie eine Stunde lang auf einer Raststation und danach zahlen sie denen mal 40.000 Euro und ein paar Tage später 15.000 Euro.
+
+974
+01:34:16,560 --> 01:34:20,560
+ Was haben die in der ein, zwei Stunden geliefert, ist ja ein ziemlich guter Stundensatz.
+
+975
+01:34:20,560 --> 01:34:27,560
+ Ne, das ist nicht so zu sehen, er hat die 5 Informationslieferungen auf die nächsten 6 Monate hinaus gezahlt. Ok, gut.
+
+976
+01:34:27,560 --> 01:34:35,560
+ Was für verifizierte Informationen haben die denn geliefert? Na ja, das kann man jetzt nicht so sagen, es waren schon wertvolle Informationen dabei. Ok.
+
+977
+01:34:35,560 --> 01:34:45,560
+ Moment, dann sagen wir ok, also für 6 Monate war diese erste Zahlung gedacht, ja. Warum haben sie 5 Tage später dann weitere 15.000 Euro gezahlt?
+
+978
+01:34:45,560 --> 01:34:53,560
+ Ja, das kann ich jetzt nicht so genau sagen. Ok, gut, gibt eine E-Mail, wo drin steht, sie zahlen 15.000 Euro für die Identität der Oligarchen, können Sie uns sagen, wer die Oligarchin ist?
+
+979
+01:34:53,560 --> 01:35:00,560
+ Nein, leider nicht. Könnte es sein, dass sie das Geld für etwas ganz anderes gezahlt haben? Nein, natürlich nicht, er weiß das weit von sich.
+
+980
+01:35:00,560 --> 01:35:11,560
+ Das alles war für alle Anwesenden, ich glaube ich spreche da auch für die Prozessbeobachter unter anderem, da, Thomas da hinten, war reichlich absurd.
+
+981
+01:35:11,560 --> 01:35:17,560
+ Der Richter hat das anders gesehen, so wie er so ziemlich alles anders gesehen hat, als die Anwesenden, die Personen in dem Gerichtssaal.
+
+982
+01:35:17,560 --> 01:35:25,560
+ Es lief darauf hinaus, dass nach 7 Monaten der Richter zum Schluss kam, dass ja, die Zeugen haben Geld erhalten und es ist unklar warum.
+
+983
+01:35:25,560 --> 01:35:31,560
+ Ja, es gibt eine Menge Zweifel an den Verfahren. Ja, die Zeugen widersprechen sich permanent.
+
+984
+01:35:31,560 --> 01:35:38,560
+ Ja, die Zeugen bezichtigen sich gegenseitig als Lügner und dass sie Wahnvorstellungen haben und drogensüchtig sind und generell irgendwie schlechter Menschen.
+
+985
+01:35:38,560 --> 01:35:42,560
+ Aber genau das macht sie glaubwürdig.
+
+986
+01:35:42,560 --> 01:35:46,560
+ Moment, warum?
+
+987
+01:35:46,560 --> 01:35:55,560
+ Ja, warum? Weil wenn unser Vorwurf stimmen würde, dass das ein Komplott wäre, dann hätten diese Zeugen sich ja abgestimmt und würden beide ohne Widersprüche die gleiche Geschichte haben.
+
+988
+01:35:55,560 --> 01:36:03,560
+ Und weil sie das nicht tun, ist das Beweis, dass sie sich nicht abgestimmt haben und deswegen sagen sie die Wahrheit und daher schuldig 3,5 Jahre Gefängnis. Danke, auf Wiedersehen.
+
+989
+01:36:03,560 --> 01:36:06,560
+ Das war das.
+
+990
+01:36:06,560 --> 01:36:10,560
+ Also ich bin offiziell verurteilt Drogendealer.
+
+991
+01:36:10,560 --> 01:36:13,560
+ Ganz kurze Frage.
+
+992
+01:36:13,560 --> 01:36:19,560
+ Diese beiden Leute, denen eigentlich nachgewiesen wurde, dass sie 6 Kilo gehandelt haben.
+
+993
+01:36:19,560 --> 01:36:24,560
+ Jetzt haben die gesagt, irgendwie 1,25 von dir.
+
+994
+01:36:24,560 --> 01:36:28,560
+ Hat sich irgendjemand dafür interessiert, wo die anderen 5 Kilo herkommen?
+
+995
+01:36:28,560 --> 01:36:32,560
+ Nee, das ist lustig. Ich habe ja viele Ermittlungsverfahren gesehen in meiner Zeit.
+
+996
+01:36:32,560 --> 01:36:36,560
+ Es hat sich keine Saufen interessiert.
+
+997
+01:36:36,560 --> 01:36:41,560
+ Das witzige ist ja, die haben ja damit argumentiert, diese zwei Zeugen, weil wir gesagt haben, warum?
+
+998
+01:36:41,560 --> 01:36:46,560
+ Ihr habt am Anfang, der eine hat gesagt, das stimmt nicht. Ich habe keinen Koks verkauft, der hat seine Aussage erinnert. Warum denn?
+
+999
+01:36:46,560 --> 01:36:50,560
+ Ja, weil er seine Seele erleichtern wollte, er wollte sich reinwaschen von seiner Ausrechnung.
+
+1000
+01:36:50,560 --> 01:36:54,560
+ Haben wir gesagt, ist ja kein Problem. Glauben wir dir alles, du willst ein besserer Mensch werden.
+
+1001
+01:36:54,560 --> 01:36:56,560
+ Dann sag doch, wer hat dir die anderen 5 Kilo geliefert?
+
+1002
+01:36:56,560 --> 01:36:58,560
+ Ja, will er nicht sagen.
+
+1003
+01:36:58,560 --> 01:37:01,560
+ Ja, aber warum denn nicht? Du willst deine Seele reinigen, was ist denn das Problem? Nee, will er nicht sagen.
+
+1004
+01:37:01,560 --> 01:37:03,560
+ Habt ihr die Polizei ein bisschen reinigen?
+
+1005
+01:37:03,560 --> 01:37:05,560
+ So ein bisschen.
+
+1006
+01:37:05,560 --> 01:37:07,560
+ So 55.000 Euro?
+
+1007
+01:37:07,560 --> 01:37:09,560
+ Ja, wie viel auch immer, es gibt die Unschuldvermutung.
+
+1008
+01:37:09,560 --> 01:37:17,560
+ Nee, der Punkt ist, wer mich dann gefragt hat, hat die Polizei denn jemals gefragt, woher diese anderen 5 Kilo kamen?
+
+1009
+01:37:17,560 --> 01:37:19,560
+ Nee, warum denn?
+
+1010
+01:37:19,560 --> 01:37:21,560
+ Also das ist das erste Ermittlungsverfahren, das ich jemals gesehen habe.
+
+1011
+01:37:21,560 --> 01:37:29,560
+ Ich habe auch eine Gewichtskost, geringe Menge gesehen an Ermittlungsverfahren, wo sich die Polizei nicht dafür interessiert, woher 5 Kilo Kokain importiert werden.
+
+1012
+01:37:29,560 --> 01:37:36,560
+ Das ist vielleicht eine höchste Spezialität, ich weiß es nicht, aber es ist eine der Auffälligkeiten des Verfahrens, sage ich mal.
+
+1013
+01:37:36,560 --> 01:37:38,560
+ Eine der vielen.
+
+1014
+01:37:38,560 --> 01:37:41,560
+ Du hast einfach zu wenig geliefert als ein Kleinfischel, wenn ich mal...
+
+1015
+01:37:41,560 --> 01:37:43,560
+ Ja, das kann sein.
+
+1016
+01:37:43,560 --> 01:37:49,560
+ Ich glaube das Hauptproblem war tatsächlich, dass die Freundin von ihm einfach am Anfang davon gerät, dass es 900 Gramm waren.
+
+1017
+01:37:49,560 --> 01:37:51,560
+ Dann hat er es schon irgendwie hochgedreht mit nicht, die jetzt sich dargelegt.
+
+1018
+01:37:51,560 --> 01:37:55,560
+ Das Problem ist, es gab tatsächlich, die waren zu dämlich und haben Buchhaltung geführt.
+
+1019
+01:37:55,560 --> 01:38:00,560
+ Und deswegen war es schwierig jetzt, dass irgendwie, also dem ein bisschen drauf drängen können, aber auf 6 Kilo sind sie einfach nicht gekommen.
+
+1020
+01:38:00,560 --> 01:38:06,560
+ Warum auch immer die gute Frau gesagt hat, sie hat 6 Kilo verkauft, vielleicht stimmt das sogar wirklich, und sie hat mir über die Jahre hinweg 6 Kilo verkauft, ich weiß es nicht.
+
+1021
+01:38:06,560 --> 01:38:12,560
+ Aber irgendwie war es halt nicht möglich, mir die 6 Kilo zuzuordnen, auch nur fiktional offenbar.
+
+1022
+01:38:12,560 --> 01:38:22,560
+ Aber es ist halt nicht so trotz Auffällig, dass es niemanden offenbar beim Bundeskriminal und den Österreich interessiert, woher 5 Kilo Kokain kommen, aber gut, soll so sein.
+
+1023
+01:38:22,560 --> 01:38:25,560
+ Die waren irgendwie Mitarbeiter von dir?
+
+1024
+01:38:25,560 --> 01:38:32,560
+ Die waren freie Mitarbeiter, also Punkt war, wir waren früher, früher gemeinsam in einer Firma tätig, wo ich auch um so, also quasi frei angestellt war.
+
+1025
+01:38:32,560 --> 01:38:41,560
+ Und nachher sich meine Firma übernahm, übernahm ich die als freie Mitarbeiter, weil die in ihrer Funktion als V-Leute extrem gute Zugänge zu den Polizeibehörden hatten.
+
+1026
+01:38:41,560 --> 01:38:53,560
+ Und in Österreich ist es, wie man vielleicht im Wirecardfall gemerkt hat, ist guter Zugang zu den Behörden in Österreich, lässt sich ummülzen in gute Informationsfluss aus Behörden raus.
+
+1027
+01:38:53,560 --> 01:38:55,560
+ Oh man ey.
+
+1028
+01:38:55,560 --> 01:38:57,560
+ Und das kann durchaus hilfreich sein, sag ich mal.
+
+1029
+01:38:57,560 --> 01:39:01,560
+ Dreieinhalb Jahre Urteil stehen jetzt am Ende des Verfahrens?
+
+1030
+01:39:01,560 --> 01:39:08,560
+ Ja, dreieinhalb Jahre Urteil, da sind allerdings schon, da sitze ich jetzt dann schon so knapp zwei Jahre fast.
+
+1031
+01:39:08,560 --> 01:39:13,560
+ Also eigentlich nicht mehr, ne, plötzlich ne, achzein Monate, also neunzein Monate.
+
+1032
+01:39:13,560 --> 01:39:18,560
+ Wir gehen also in Berufung, in Österreich gibt es tatsächlich im Gegensatz zu Deutschland keine Tatsacheinstanz, keine Zweite.
+
+1033
+01:39:18,560 --> 01:39:29,560
+ Das heißt der Punkt ist in Österreich so, so auch eine österreichische Spezialität, wenn du in Österreich verurteilt wirst und der Richter, es gilt in jedem Rechtssystem oder in jedem westlichen Rechtssystem, gilt die freie Beweiswürdigung.
+
+1034
+01:39:29,560 --> 01:39:33,560
+ Das heißt es obliegt dem Richter die Beweise frei zu würdigen.
+
+1035
+01:39:33,560 --> 01:39:42,560
+ Das heißt der Richter beurteilt unabhängig von der Beweislage, prinzipiell unabhängig von der Beweislage, in seiner Einschätzung das Gewicht der Beweise.
+
+1036
+01:39:42,560 --> 01:39:57,560
+ Und in Österreich ist es nun mal so, dass wenn ein Richter in einem Verfahren, das einem Strafrahmen von fünf Jahren übersteigt, zu dem Schluss kommt, dass die Beweise so zu sehen sind, wie er sie sieht, kannst du das in der oberen Instanz nicht mehr bekämpfen.
+
+1037
+01:39:57,560 --> 01:40:04,560
+ Das heißt wenn ein Richter einmal sagt, der Zeug ist glaubwürdig, obwohl er lügt, ist das so, das ist zementiert.
+
+1038
+01:40:04,560 --> 01:40:08,560
+ Das geht auch in der nächsten Instanz nicht mehr, du kannst in der nächsten Instanz nur mehr die Formalität bekämpfen.
+
+1039
+01:40:08,560 --> 01:40:14,560
+ Du kannst sagen, der hat formale Fehler gemacht, der hat keine Ahnung was, du kannst nicht mehr sagen, der Richter hat die Beweise falsch gewürdigt.
+
+1040
+01:40:14,560 --> 01:40:23,560
+ Das heißt wenn du einen verrückten oder einen sonst irgendwie anders motivierten Richter hast, das war es auch immer für einen Grund, der beschließt, er will ein komplett absurdes Urteil fällen,
+
+1041
+01:40:23,560 --> 01:40:29,560
+ dann ist deine Chance, dieses Urteil aufzuheben nicht gerade gut in Österreich, weil du die Beweiswürdigung nicht bekämpfen kannst.
+
+1042
+01:40:29,560 --> 01:40:36,560
+ Das war in meinem Fall auch so, das obere Gericht ist noch zurückgekommen und hat gesagt, das war die Beweiswürdigung des Richters, es gibt zwei Zeugen,
+
+1043
+01:40:36,560 --> 01:40:42,560
+ die mögen ja gelogen haben, aber wir haben am Ende nicht beweisen können, dass diese Zeugen Geld erhalten haben, um Falschaussagen zu tätigen,
+
+1044
+01:40:42,560 --> 01:40:50,560
+ was wiederum eine recht juristisch spezielle Position ist, weil wenn du in einem Anklagten...
+
+1045
+01:40:50,560 --> 01:40:57,560
+ Ich glaube, er wird immerhin zahlen. Ja, aber wenn du im Anklagten jetzt sagst, du hast nicht beweisen können, das ist so, das Staat muss dir beweisen.
+
+1046
+01:40:57,560 --> 01:41:03,560
+ Österreich ist ja quasi das Rechtssystem ein bisschen bewertiert, weil das in Strafverfahren oft so ist, dass du dich frei beweisen musst.
+
+1047
+01:41:03,560 --> 01:41:06,560
+ Also es kommt ein Vorwurf und dann wird es von dir erwartet, beweis mal, dass das nicht so ist.
+
+1048
+01:41:06,560 --> 01:41:13,560
+ Das Problem ist, ich habe das auch vor Gericht vorgebracht, weil Leute gesagt haben, wenn du es nicht warst, dann wirst du beweisen können, dass das nicht stimmt.
+
+1049
+01:41:13,560 --> 01:41:21,560
+ Ich habe gesagt, Moment mal, der Punkt, der Vorwurf ist, irgendwann 2017/2018 habe ich irgendwann entlang der Route Wien/München,
+
+1050
+01:41:21,560 --> 01:41:26,560
+ und ich hatte in München meine Firma, also jeder Mensch weiß, dass ich von Wien nach München pendel regelmäßig,
+
+1051
+01:41:26,560 --> 01:41:30,560
+ zwischen auf der Route Wien/München einen Kilo Kokain übergeben.
+
+1052
+01:41:30,560 --> 01:41:37,560
+ Das ist so, wie wenn ich irgendjemanden hier sagen würde, irgendwann letztes Jahr bist du auf deinem Weg zur Arbeit stehen geblieben und hast jemanden getroffen.
+
+1053
+01:41:37,560 --> 01:41:43,560
+ Das ist vielleicht falsch, aber beweis mal, dass es nicht so ist. Das ist ziemlich unmöglich.
+
+1054
+01:41:43,560 --> 01:41:48,560
+ Und das war die Problematik an dem Vorwurf. Er war so inkonkret, du kannst dich nicht frei beweisen.
+
+1055
+01:41:48,560 --> 01:41:55,560
+ Du kannst Widersprüche aufzeigen, du kannst alles Mögliche, aber wenn du halt einen Richter hast, der sagt, je mehr Widersprüche es, desto glaubwürdiger werden die Zeugen.
+
+1056
+01:41:55,560 --> 01:41:58,560
+ Was willst du machen? Keine Widersprüche mehr aufdecken.
+
+1057
+01:41:58,560 --> 01:42:06,560
+ Es war ja das, was sie von mir wollten. Es gab ja immer wieder so mehr oder weniger frausualisierte Angebote, ich soll doch das Urteil akzeptieren, ich soll nicht berufen.
+
+1058
+01:42:06,560 --> 01:42:09,560
+ Dann krieg ich die elektronische Fußfesslung und kann gehen.
+
+1059
+01:42:09,560 --> 01:42:15,560
+ Es ging nicht darum, ich jetzt irgendwie, denen war komplett egal, ob ich jetzt ein Jahr eingesperrt bin, 5 Jahre oder 10 Jahre, darum ging es nicht.
+
+1060
+01:42:15,560 --> 01:42:21,560
+ Die wollten unwidersprochen in Zeitungen stehen haben können, jeder Typ, der Ebezüge macht, ist ein Krimineller.
+
+1061
+01:42:21,560 --> 01:42:28,560
+ Und weil sie wussten, dass der Fall, den sie da verurteilt hatten, einfach so dünn ist, dass jeder, der ihn anschaut, gesehen hat, dass schwachsinnig ist,
+
+1062
+01:42:28,560 --> 01:42:35,560
+ war halt immer jetzt das Manko über der Verurteilung, dass die Hälfte der Bevölkerung sagt, naja gut, das ist ein bisschen seltsam, schaut irgendwie so politisch motiviert aus
+
+1063
+01:42:35,560 --> 01:42:38,560
+ und die andere Hälfte sagt, ey, scheiß drum, jeder hat bekommen, was er verdient.
+
+1064
+01:42:38,560 --> 01:42:47,560
+ Aber der Punkt ist halt, sie wollten es clean haben. Sie wollten einfach, kommt nicht nochmal auf die dämliche Idee, so was wie Ebezüge zu machen, weil jetzt ist eh was passiert.
+
+1065
+01:42:47,560 --> 01:42:53,560
+ Darum ging es. Und das ist halt, was wir ihnen nicht gegeben haben, was ich ihnen nicht gegeben habe und wofür ich aber am Ende auch relativ teuer bezahlt habe,
+
+1066
+01:42:53,560 --> 01:43:00,560
+ weil der Unterschied war nochmal irgendwie 14 Monate obendrauf, die ich halt extra gemacht hab, weil du musst dann natürlich in Haft bleiben, solange die Berufung rennt,
+
+1067
+01:43:00,560 --> 01:43:06,560
+ weil du nicht rechtskräftig verurteilt bist, sondern du rechtskräftig verurteilt bist, hast du kein Anrecht auf bedingte Entlassung etc.
+
+1068
+01:43:06,560 --> 01:43:14,560
+ So gesehen, das war also die Problematik dahinter, das heißt, dieser quasi, dieser Widerstand hat mir nochmal 14 Monate Gefängnis extra gekostet.
+
+1069
+01:43:14,560 --> 01:43:17,560
+ Zusätzlich zu 18 vorher.
+
+1070
+01:43:17,560 --> 01:43:27,560
+ Ne, das war, das erste Angebot kam vor dem Urteilsschluss, also es wären insgesamt, hätte ich quasi 14 Monate weniger machen müssen, wäre mit 14 Monaten hätte ich gehen können,
+
+1071
+01:43:27,560 --> 01:43:36,560
+ weil die mir die Halbstrafe, wie es in Österreich heißt, 50% nachgelassen hätten, plus die Fußfessel auf 12 Monate, dann bist du bei, keine Ahnung, was, dann...
+
+1072
+01:43:36,560 --> 01:43:38,560
+ Also wie lange warst du jetzt insgesamt im Gefängnis?
+
+1073
+01:43:38,560 --> 01:43:40,560
+ 28 Monate.
+
+1074
+01:43:40,560 --> 01:43:44,560
+ 28 Monate im Gefängnis, ey, fuck it.
+
+1075
+01:43:44,560 --> 01:43:49,560
+ Und jetzt ist es aber vorbei?
+
+1076
+01:43:49,560 --> 01:43:51,560
+ Ich bin nicht im Gefängnis offen.
+
+1077
+01:43:51,560 --> 01:43:54,560
+ Die Vermutung hat sich schon.
+
+1078
+01:43:54,560 --> 01:43:58,560
+ Wir haben mit den Lockpickern gesprochen.
+
+1079
+01:43:58,560 --> 01:44:02,560
+ Wir wollten nur kurz, dass du deine Aussage machst und kommst wieder knapp.
+
+1080
+01:44:02,560 --> 01:44:15,560
+ Ne, also ich hab 14 Monate jetzt Bewerbung offen, das heißt, die nächsten drei Jahre, wenn ich theoretisch jetzt rein, formal theoretisch bei Rot über die Ampel gehe, in Österreich zumindest, kann ich 14 weitere Monate ins Gefängnis eingesperrt werden.
+
+1081
+01:44:15,560 --> 01:44:25,560
+ Was wohl so ein gewisses Damoklash-Wert ist, deswegen bin ich auch so in gewissen Aussagen recht gehemmt und vorsichtig, die ich tätige, weil auch sowas wie eine Verleumdung, Ehrenbeleidigung, ähnliches dazu dienlich ist.
+
+1082
+01:44:25,560 --> 01:44:32,560
+ Deswegen bin ich etwas vorsichtig in meiner Einschätzung von anderen involvierten Stellen und Personen, aber ja.
+
+1083
+01:44:32,560 --> 01:44:38,560
+ Und die Novomatic schaut sich natürlich alles an. Schönen Gruß an die Kollegen.
+
+1084
+01:44:38,560 --> 01:44:48,560
+ Sag mal, was hast du denn jetzt sozusagen, was nimmst du denn daraus mit? Also ich meine, du warst ja vorher wahrscheinlich jetzt auch schon so ein bisschen im Bilde darüber, wie so Österreich so drauf ist.
+
+1085
+01:44:48,560 --> 01:44:56,560
+ Du hast ja schon gesagt, dass dich dann doch letztlich in diesem ganzen Prozess einiges überrascht hat.
+
+1086
+01:44:56,560 --> 01:45:06,560
+ Ja, ne, schau, der Punkt ist, dass, ich mein, mir war schon klar, wie Österreich drauf ist, aber ich hatte eben darauf gesetzt und das war auch mit ein Grund, warum ich die EU-Wahl für ein sinnvolles Datum-Akkord hatte,
+
+1087
+01:45:06,560 --> 01:45:15,560
+ weil ich davon ausging, dass internationale Druck oder Aufmerksamkeit die Österreicher darin hemmen würde, ihre komplette Perversität auszupacken, sag ich mal.
+
+1088
+01:45:15,560 --> 01:45:32,560
+ Das war nicht so. Ich habe auch gelernt, dass wenn es um Rechtsschutz geht, solange das irgendwie innereuropäisch ist, brauchst du jetzt auch nicht allzu viel erwarten, jetzt irgendwie von der Bundesrepublik Deutschland oder so.
+
+1089
+01:45:32,560 --> 01:45:40,560
+ Solange es nicht die Bundesrepublik betrifft, sind die dann schon irgendwie groß vorab mit der Fahne schwenkend von wegen Menschenrechte und sonst was.
+
+1090
+01:45:40,560 --> 01:45:47,560
+ Aber sobald sie selber involviert sind, sind sie dann auch recht schnell, dich irgendwie rauszuschmeißen, weil sie einfach den Stress nicht haben wollen.
+
+1091
+01:45:47,560 --> 01:45:53,560
+ Also das habe ich schon auch gelernt und auch meine Anwälte, ich weiß, ich hatte einen Anwalt, der lustigerweise auch den Assange vertreten hat mit Zeit lang.
+
+1092
+01:45:53,560 --> 01:46:03,560
+ Und der hat gemeint, ich habe immer gedacht, wenn der Assange in Deutschland verhaftet worden wäre, dann hätten wir ihn geschützt. Und er sagt, mittlerweile glaube ich das nicht mehr.
+
+1093
+01:46:03,560 --> 01:46:09,560
+ Mittlerweile glaube ich, dass es genauso gelaufen wäre wie bei dir, weil ich das der Staat einfach nicht antun will.
+
+1094
+01:46:09,560 --> 01:46:23,560
+ Wie dem auch sei, ich glaube, was man aus dem Sache jetzt genereller und breiter mitnehmen kann, ist, die Mechaniken, die wirken sind meistens gleich, glaube ich. Das ist etwas, was man generell sagen kann, wenn man sich jetzt diverse, und ich will mich da überhaupt nicht vergleichen.
+
+1095
+01:46:23,560 --> 01:46:33,560
+ Also ich finde das immer, es gab ab und an jetzt immer wieder so Vergleiche. Ich finde, Ibiza ist Ibiza und alles schon noch gut, aber es ist nochmal was komplett anderes als das Nono und das sonst und sonst was.
+
+1096
+01:46:33,560 --> 01:46:46,560
+ Der Vergleich ist ehrenvoll, aber ich würde ihn so nicht treffen wollen. Aber wie dem auch sei, die Mechaniken sind trotzdem gleich. Also der Punkt ist immer das gleiche. Es wird versucht, quasi die Leute zu delegitimieren.
+
+1097
+01:46:46,560 --> 01:46:58,560
+ Also jemand kommt, bringt irgendwas an die Öffentlichkeit, dann versucht man ihn zu delegitimieren, dann versucht man ihn unter Druck zu bringen, dann versucht man ihn mit irgendwelchen Vorwürfen mal öffentlich so in eine Ecke zu rücken, dass der öffentliche Rückhalt wegfällt.
+
+1098
+01:46:58,560 --> 01:47:10,560
+ Und dann versucht man ihn zu erledigen. Und das wird erfolgreich praktiziert. Ich glaube, das ist auch etwas, womit man sich, wenn man realistisch ist, auch wenn das vielleicht nicht wünschenswert ist, womit man sich auseinandersetzen sollte.
+
+1099
+01:47:10,560 --> 01:47:19,560
+ Nämlich, dass eigentlich kaum ein Fall, zumindest mir bekannt ist von einem Whistleblower, wenn man so will, und ich will mich jetzt auch da nicht unbedingt einreihen, aber ich sag's nur.
+
+1100
+01:47:19,560 --> 01:47:34,560
+ Der öffentlich bekannt wurde, der muss gut ausgegangen sein. Und das hat ja auch Methode, ne? Ja, ich sag ja, das ist die Methode. Es ist auch weniger der Rache, glaube ich, weil immer die Leute sagen ja, ne, es geht um ein Exempel-Statuiere.
+
+1101
+01:47:34,560 --> 01:47:51,560
+ Es geht einfach darum, dass du so bis zum gewissen Grad gehen kannst, aber so, wenn du was gewissen Grad überschreitest, dann ist einfach der Impuls, ein Exempel zu statuieren, und da ist es eigentlich schon fast teilweise gewollt, dass das Exempel möglichst absurd ausfällt, damit die breite Masse wahrnimmt.
+
+1102
+01:47:51,560 --> 01:48:03,560
+ Das eben das, weil sonst könnte man sagen, okay, das ist einfach ein normaler Strafverfahren, aber das ist schon gewünscht auch. Das ist eine Absurdität, bis du bis zum gewissen Grad, bin ich mittlerweile überzeugt, auch gewünscht, damit die Leute halt den Abschreckungseffekt sehen.
+
+1103
+01:48:03,560 --> 01:48:32,560
+ Egal wie unschuldig du bist, egal wie sauber du bist, egal wie moralisch edel du bist, du bist erledigt, wenn du so ein Blödsinn machst. Und das ist, glaube ich, warum es eigentlich geht. Und ich glaube, das ist, worüber man auch in breiterer Form diskutieren kann, was man auch diskutieren sollte und was man, weiß nicht, wie man es ändern kann, aber es ist definitiv etwas, weil überleg mal, wie viele durchaus wirklich relevante, will ich jetzt nicht sagen Weltbewege, relevante Sachen in den letzten Jahren über Whistleblower rausgekommen sind.
+
+1104
+01:48:32,560 --> 01:48:38,560
+ Weil man jetzt überlegt, wie viele Leute da irgendwo rum sitzen, die noch viel relevantere Sachen wissen und auch durchaus sagen wollen würden und nicht trauen.
+
+1105
+01:48:38,560 --> 01:48:46,560
+ Weil sie eben gesehen haben, was Leuten passiert, wie mit ihnen umgegangen wird, was für Kosten sie tragen müssen, was für Konsequenzen sie zu tragen haben.
+
+1106
+01:48:46,560 --> 01:49:04,560
+ Und das ist, glaube ich, wenn man da was ändern kann, also wenn man wirklich jetzt sagt, es gibt ja auch Leute, die sagen, es ist alles super, wie es ist und warum will man ein funktionierendes System rumfuschen, aber für den Teil, der sagt, es ist nicht so geil und da gibt es genug Sachen, die nicht gut sind, dann sollte man da vielleicht ansetzen.
+
+1107
+01:49:04,560 --> 01:49:16,560
+ Da gibt es mit Sicherheit, also immer wieder, am Ende des Tages, glaube ich, ist noch kein System von außen geändert worden, sondern immer nur von innen, wenn du so willst.
+
+1108
+01:49:16,560 --> 01:49:28,560
+ Und also das ist vielleicht auch eine Analogie zu dem, was hier ist, wegen CCC, im Endeffekt ist es, wenn ich jetzt überspitzt gesagt habe, aber Hacking ist ja auch nichts, du gehst rein und von drinnen machst du es quasi.
+
+1109
+01:49:28,560 --> 01:49:36,560
+ Und das ist das gleiche, also du wirst nicht von außen, wenn du von außen einfach nur dagegen rennst, dann wirst du vielleicht irgendwann einbrechen, aber der Effekt ist nicht das gleiche.
+
+1110
+01:49:36,560 --> 01:49:38,560
+ Es ist immer effektiver, wenn du von drinnen rauskommst.
+
+1111
+01:49:38,560 --> 01:49:48,560
+ Es ist im Ende auch das, was ich ja in meinem vorigen Job gemacht habe, wir haben es halt anders genannt, ihr nennt es Social Engineering und wir haben es halt, keine Ahnung, Filtration oder was auch immer genannt, aber der Punkt ist auch immer das gleiche, es passiert immer auf dem gleichen.
+
+1112
+01:49:48,560 --> 01:50:10,560
+ Da versuchst du dich also nicht mit dem Kopf durch die Wand gegen das System anzurennen, sondern versuchst dich halt irgendwie mal zu integrieren und irgendwie anzupassen und dann von drinnen heraus zu wirken. Und das ist auch glaube ich der effektivste und effizienteste Weg und auch der weitestführendste Weg, aber der Punkt ist, du musst es halt den Leuten auch ermöglichen bzw. ihnen Rahmenbedingungen schaffen, wo sie es machen wollen.
+
+1113
+01:50:10,560 --> 01:50:31,560
+ Es gibt sicher genug Leute, die der Überzeugung sind, hey es reicht irgendwann, ich meine, Menschen sind am Ende Menschen und jeder hat irgendwann mal so dieses Gefühl in sich gehabt, hey das ist einfach, das geht nicht mehr, das ist zu viel, das ist eine Stauraumschweinerei und dann siehst du halt so Leute wie Canard Sanschon, der dann 7 Jahre lang irgendwo eine Botschaft hat oder was auch immer und jetzt vielleicht irgendwie nochmal 100 Jahre unterab kriegt und da überlegst du dich dreimal, klar.
+
+1114
+01:50:31,560 --> 01:50:59,560
+ Und das sind so Sachen glaube ich, die, na darum sollte man reden und diskutieren, das sind, weil du wirst dem Impuls der Gegenseite, wenn du so willst, nicht vorbauen können, dass dieses Exempel statuiert werden soll und will, aber wenn du es ermöglicht irgendwie, dass solche Absurditäten nicht so leicht stattfinden, weil sie finden statt nur unter dem, wenn die Öffentlichkeit wegschaut oder sich blenden lässt mit irgendwelchen Fake Vorwürfen, Delegitimierenden oder sonst irgendwas.
+
+1115
+01:50:59,560 --> 01:51:26,560
+ Und am Ende des Tages, das ist das was uns vielleicht und ich sage absichtlich uns, weil ich es nicht immer auf mich beziehen will, uns Gemeinden und Anwalt auch bei Ibiza gefehlt hat, war eben dieser öffentliche Rückhalt, war ja auch unser Fehler, weil wir eben damals die Macht der Öffentlichkeit unterschätzt haben, wir sind eben nicht öffentlich gegangen und haben nicht öffentlich erklärt, was wie wo, auch mit anderem, weil wir eben noch diese Bodyguard Infos zu verwerten hatten und dass beides nicht gleichzeitig möglich war.
+
+1116
+01:51:26,560 --> 01:51:40,560
+ Aber der Punkt, der mich so trotz ist, ist trotzdem der, dass nicht jeder dieser Leute, die Informationen an die Öffentlichkeit tragt, wird perfekt sein, die meisten sind es wahrscheinlich nicht.
+
+1117
+01:51:40,560 --> 01:51:50,560
+ Viele davon mögen durchaus ihre Fehler haben und ich habe auch schon von, ich will jetzt gar keinen Namen nennen, ich habe schon gehört, dass charakterlich manche davon nicht unbedingt die angenehmsten Leute sein sollen, aber das macht keinen Unterschied.
+
+1118
+01:51:50,560 --> 01:51:58,560
+ Es geht nicht darum, dass du jetzt jemanden findest, der irgendwie ein super shiny white irgendwas ist, sondern der Punkt ist, die Zahl der perfekten Menschen ist auch sehr überschaubar.
+
+1119
+01:51:58,560 --> 01:52:06,560
+ Ja, der haben wir zu wenig gefällt.
+
+1120
+01:52:06,560 --> 01:52:08,560
+ Wie machst du jetzt weiter?
+
+1121
+01:52:08,560 --> 01:52:24,560
+ Tja, das ist eine gute Frage. Ich bin ja erst im April rausgekommen und habe jetzt irgendwie so acht Wochen oder was eigentlich selbst verschrieben gehabt, Medienrummel, einfach weil ich meine Sicht der Dinge darlegen wollte und habe mir dann eigentlich vorgenommen, irgendwie so einen längeren Campingurlaub zu machen.
+
+1122
+01:52:24,560 --> 01:52:38,560
+ Den habe ich nicht gemacht, aber das kann ich hier nachholen mit dem Zelt. So gesehen ist es. Aber nee, ich bastle an einem neuen Leben, wenn du so willst und das ist kompliziert genug mit all dem Drum und Dran.
+
+1123
+01:52:38,560 --> 01:52:56,560
+ Einerseits zu meinem eigenen Erstaunen ist dieser Medienrummel, wenn du so willst, hat recht viel Anklang auch in Österreich gefunden, was mir sowas wie ein politisches Gewicht verliehen hat bis zu einem gewissen Grad, dass ich durchaus geneigt bin zu nutzen, bis soweit wie möglich ist und soweit ich die Gelegenheit dazu bekomme.
+
+1124
+01:52:56,560 --> 01:53:05,560
+ Andererseits versuche ich halt auch immer irgendwie mir sowas zumindest zu bauen, was halt normal sowas wie Leben bedeutet, also Einkommen etc. was auch immer, Job.
+
+1125
+01:53:05,560 --> 01:53:17,560
+ Und ich versuche momentan, dass ich quasi durch das Kreis, ich versuche halt irgendwie einen Job zu finden, der mir erlaubt, locationunabhängig zu arbeiten im besten Fall und gleichzeitig die Zeit und Möglichkeiten erlaubt, mich da immer politisch und sonst wie zu betätigen.
+
+1126
+01:53:17,560 --> 01:53:41,560
+ Gleichzeitig bin ich in, weiß nicht ob ich da jetzt schon zu viel verrat, aber in den Anfangsstadien einer Gründung einer Plattform, wenn man so will, dann nennen wir es mal mit ein paar anderen, glaube ich zumindest in Österreich bekannten Gesichtern, um da weitere Thematiken zu bearbeiten, die da offen liegen, sage ich mal, mit Hinblick auf österreichische Politik etc.
+
+1127
+01:53:41,560 --> 01:53:59,560
+ Da hoffe ich, dass wir irgendwann im Herbst soweit sind, dass wir da irgendwie starten können, ohne ärgern können, wenn man so will.
+
+1128
+01:53:59,560 --> 01:54:16,560
+ Und ja ansonsten, mein Gott, ich suche, ja wie gesagt, Job suche ich noch immer, wenn da irgendjemand weiß, was locationunabhängig und Teilzeit-mäßig funktioniert, immer gern zu mir, aber ansonsten bin ich, glaube ich jetzt dann danach, werde ich hoffentlich mal wirklich in den Urlaub einlegen.
+
+1129
+01:54:16,560 --> 01:54:18,560
+ Das ist so momentan das, was du da verplant hast.
+
+1130
+01:54:18,560 --> 01:54:19,560
+ Würde ich empfehlen.
+
+1131
+01:54:19,560 --> 01:54:20,560
+ Ja absolut.
+
+1132
+01:54:20,560 --> 01:54:26,560
+ Das war ja nun wirklich ein wilder Ritt und das geht ja natürlich auch extrem auf die Psyche.
+
+1133
+01:54:26,560 --> 01:54:34,560
+ Vielleicht so zum Abschluss, was ist denn so, was würdest du sagen hast du gelernt über unsere Systeme?
+
+1134
+01:54:34,560 --> 01:54:53,560
+ Ich rede jetzt bewusst mal nicht von Österreich, weil Österreich ist ja eigentlich auch nur ein Extrem unter vielen und letztlich reden wir ja hier über Machtstrukturen, die zwangsläufig da sind, die sich so nie wahrscheinlich komplett verhindern lassen.
+
+1135
+01:54:53,560 --> 01:55:01,560
+ Und man hat halt mehr oder weniger krasse funktionierende Kontrollen, ja also krasse Auswüchse und funktionierende Kontrollen.
+
+1136
+01:55:01,560 --> 01:55:10,560
+ Manchen Staaten ist es irgendwie etwas balanciert da, weil sie mehr Geld haben, mehr Tradition haben, was weiß ich, weil es aus irgendwelchen Gründen funktioniert, dann anderen weniger.
+
+1137
+01:55:10,560 --> 01:55:23,560
+ Aber so mal jetzt so ganz allgemein gesprochen, was hat dich das gelehrt über unser Zusammenleben und über unsere Systeme, wie gut sie funktionieren oder wie gut sie funktionieren könnten?
+
+1138
+01:55:23,560 --> 01:55:40,560
+ Nur was ich gelernt habe ist einerseits für mich und das war etwas, was ich vielleicht in meiner Neuvität so nicht wahrgenommen hatte, ist, dass Medien bilden Meinung und die Meinung ist oft gebildet durch nicht unbedingt perfekte Informationen, sage ich mal.
+
+1139
+01:55:40,560 --> 01:55:50,560
+ Also ich war erstaunt darüber, was für Schwachsinn auch von Qualitätsmedien veröffentlicht wurde, einfach nur um irgendwas zu veröffentlichen und das bildet dann aber halt die Meinung der Leute, setzt den Narrativ.
+
+1140
+01:55:50,560 --> 01:55:58,560
+ Weil irgendwo muss man seine Information bekommen. Ich habe gelernt, dass Fake News erstaunlich effektiv ist, wenn sie einfach oft genug wiederholt wird.
+
+1141
+01:55:58,560 --> 01:56:07,560
+ Also das ist etwas, was ich auch gelernt habe. Das ist komplett wurscht, wie schwachsinnig es ist, wenn du es einfach hundertmal in die Öffentlichkeit besaunst und es wird nicht widersprochen, dann ist es irgendwie auch nochmal fucked einfach.
+
+1142
+01:56:07,560 --> 01:56:30,560
+ Das ist auch etwas, was ich so nicht wahrgenommen hatte. Ich habe gelernt, dass mehr prinzipiell gesprochen, dort wo Intransparenz herrscht, also wo Öffentlichkeit nicht hinschauen kann, passieren Dinge, die nicht passieren sollten, weil es der einfachste Weg ist, sage ich mal.
+
+1143
+01:56:30,560 --> 01:56:57,560
+ Das trifft auch auf Behörden zu. Ich glaube, es wird generell, da kann ich, glaube ich bin ich relativ legitimierter zu sprechen, es wird generell vielleicht hier in dem Umfeld ein bisschen weniger, aber dennoch unterschätzt, wie weit Behördengrenzen denen beugen brechen können in ihrer Suche nach einem Ziel, das sie erreichen wollen.
+
+1144
+01:56:57,560 --> 01:57:11,560
+ Ich glaube, es wird auch unterschätzt, wie die meisten oder viele Leute sehen Behörden so als ein monolithisches Konstrukt und Behörden sind eine Ansammlung von einzelnen Charakteren und diese Charaktere sind oft nicht die besten.
+
+1145
+01:57:11,560 --> 01:57:25,560
+ Und ich glaube, das wird auch unterschätzt, wie sehr da auch persönliche Anonymitäten mitspielen teilweise, also wie oft es auch einfach genügt, wenn du da irgendjemanden hast, der gegen dich ermittelt, arbeitet sonst was, der dir einfach aus irgendeinem Grund nicht leiden kann.
+
+1146
+01:57:25,560 --> 01:57:43,560
+ Das macht einen riesen Unterschied zu jemandem, der dich ganz cool findet am Ende des Tages. Ich glaube, es wird unterschätzt, wie unkritisch Staatsanwaltschaften behördliche Ermittlungsergebnisse übernehmen, also quasi ihrem Auftrag, die Ermittlungen zu prüfen, nicht nachkommen in Wirklichkeit.
+
+1147
+01:57:43,560 --> 01:57:57,560
+ Ich glaube, auch das lässt sich generell behaupten. Das mag auch durchaus, da gibt es viele Gründe dafür, sicher die Unterfinanzierung, Überlastung, sonst was, aber nichts draus ist es so, weil einfach Polizei ist Polizei. Ich sage immer, Polizei sind wie Hunde, die haben einen Spieltrieb und den wollen sie erfüllt haben.
+
+1148
+01:57:57,560 --> 01:58:09,560
+ Und wenn sie ihren Spieltrieb nicht erfüllt kriegen, dann sind sie einfach bissig. Und ja, es ist so, also das ist zutreffend.
+
+1149
+01:58:09,560 --> 01:58:17,560
+ Und das meine ich jetzt gar nicht despektierlich, aber es ist einfach so. Also das sind halt Leute, ich kenne das in meinem eigenen Ding, wenn du an was arbeitest, willst du ein Erfolgserlebnis haben.
+
+1150
+01:58:17,560 --> 01:58:21,560
+ Das Problem ist halt, wenn du dich verrannt hast und an etwas arbeitest, was nicht funktioniert, dann bist du halt frustriert.
+
+1151
+01:58:21,560 --> 01:58:31,560
+ Wenn du bei einer Position bist, wo du deine Frustration in einen Erfolg ändern kannst, indem du halt da einen Knopf drehst und da einen Knopf drehst, dann wirst du früher oder später relativ rasch Charaktere finden, die bereit sind, das zu tun.
+
+1152
+01:58:31,560 --> 01:58:40,560
+ Und das ist dann der Anfang von solchen Sachen. Ich glaube man sieht das immer so als die große Verschwörung. Nee, ist es nie.
+
+1153
+01:58:40,560 --> 01:58:46,560
+ Da haben sich vorher 20 Leute zusammengesetzt und haben irgendwie gebrainstompt und einen Masterplan gemacht, wie sie sich erledigen.
+
+1154
+01:58:46,560 --> 01:58:52,560
+ Da sind einzelne Akteure, die Schritte setzen und der andere sieht, dass es funktioniert und da setzen wir noch was drauf und da setzen wir noch was drauf.
+
+1155
+01:58:52,560 --> 01:59:00,560
+ Und am Ende kommt sowas dabei raus. Und ich glaube, das ist, was man realisieren muss. Und da sollte man irgendwelche Strukturen bauen, um den vorzubauen.
+
+1156
+01:59:00,560 --> 01:59:14,560
+ Ja, Julian, ich sag mal vielen, vielen Dank für die Einblicke in deine wilde Reise.
+
+1157
+01:59:14,560 --> 01:59:18,560
+ So hoch motiviert und schwer bestraft.
+
+1158
+01:59:18,560 --> 01:59:20,560
+ Beides zutreffend.
+
+1159
+01:59:20,560 --> 01:59:32,560
+ Du hast auf jeden Fall ordentlich eingesteckt für uns alle eigentlich. Und das kann man ja hoch anrechnen. Ich hoffe, es läuft jetzt besser für dich.
+
+1160
+01:59:32,560 --> 01:59:54,560
+ Ja. Danke schön.
+
+1161
+01:59:54,560 --> 02:00:12,560
+ Danke.
+
+1162
+02:00:12,560 --> 02:00:35,560
+ Es war uns eine Freude und Ehre und ich glaube, viel mehr haben wir gar nicht zu sagen. Teilweise kommen am Ende der Sendung manchmal Menschen zu Tim oder mir, die irgendwie zu viel Bargeld haben und uns bitten, dabei beim Tragen zu helfen.
+
+1163
+02:00:35,560 --> 02:00:50,560
+ Ich glaube, es ist klar, dass das nach dieser Sendung nicht an uns geht, sondern an Julian. Und ich glaube, damit können wir uns den wohlverdienten Abend verabschieden.
+
+1164
+02:00:50,560 --> 02:01:02,560
+ Vielen Dank, Julian. Vielen Dank fürs Zuhören. Das war Logbuch Netzpolitik 466 live vom Kraus Communication Camp. Wir haben noch eine kleine Überraschung am Ende für euch.
+
+1165
+02:01:02,560 --> 02:01:07,560
+ Stimmt, stimmt. Wir haben eine kleine Überraschung für euch am Ende. Ist die kleine Überraschung denn schon da?
+
+1166
+02:01:07,560 --> 02:01:13,560
+ Die kommt gleich. Ich sage auf jeden Fall erstmal, genau, wir sagen erstmal, was sagen wir denn mal?
+
+1167
+02:01:13,560 --> 02:01:14,560
+ Sagen wir an. Ja, müssen wir ansagen.
+
+1168
+02:01:14,560 --> 02:01:15,560
+ Jetzt sagen wir erstmal Tschüss.
+
+1169
+02:01:15,560 --> 02:01:16,560
+ Ah, okay.
+
+1170
+02:01:16,560 --> 02:01:24,560
+ Erstmal sagen wir Tschüss. Also vielen Dank fürs Zuhören. Das war es, Logbuch Netzpolitik. Habt noch ein schönes Camp.
+
+1171
+02:01:24,560 --> 02:01:38,560
+ Stimmt, die Bonustracks werden ja nie angeschrieben.
+
+1172
+02:01:38,560 --> 02:01:49,560
+ Es hat ja Tradition, dass die Bonustracks bei Logbuch Netzpolitik nie vorgestellt werden, sondern kommentaris abgespielt werden. Aber ich erkläre es trotzdem.
+
+1173
+02:01:49,560 --> 02:02:00,560
+ Vor vier Jahren haben wir hier einen Live-Vodgas gemacht im BER Village und da hatten wir zu Besuch Viktor und Sophia vom Systemabsturz.
+
+1174
+02:02:00,560 --> 02:02:05,560
+ Das war nicht im BER Village, das war vor acht Jahren. Das hieß vor vier Jahren anders.
+
+1175
+02:02:05,560 --> 02:02:06,560
+ Three-headed Monkey.
+
+1176
+02:02:06,560 --> 02:02:07,560
+ Genau, Three-headed Monkey.
+
+1177
+02:02:07,560 --> 02:02:09,560
+ Na, sag doch nicht, dass ich schon so alt bin.
+
+1178
+02:02:09,560 --> 02:02:10,560
+ Entschuldigung.
+
+1179
+02:02:10,560 --> 02:02:21,560
+ Genau, vor vier Jahren im Three-headed Monkey Village. Da, wo früher BER war. Und da haben wir mit dir und Sophia gesprochen und ihr habt danach ein Konzert gegeben.
+
+1180
+02:02:21,560 --> 02:02:32,560
+ Kleines Konzert. Und Viktor spielt jetzt wieder, allerdings mit seinem Soloprojekt, das heißt "Hitze frei".
+
+1181
+02:02:32,560 --> 02:02:33,560
+ Ja.
+
+1182
+02:02:33,560 --> 02:02:36,560
+ Möchtest du noch was dazu sagen oder geht es einfach los?
+
+1183
+02:02:36,560 --> 02:02:43,560
+ Nö, eigentlich nicht. Ich spiele, genau, das ist so die Musik, die im letzten halben Jahr zu mir gefunden hat.
+
+1184
+02:02:43,560 --> 02:02:50,560
+ Falls euch das dann gefallen hat, ich mache am Samstag um 16 Uhr am Marktplatz. Gibt es noch ein bisschen mehr Musik.
+
+1185
+02:02:50,560 --> 02:02:53,560
+ Und, ja.
+
+1186
+02:02:53,560 --> 02:02:57,560
+ So ist das dann. Dann räumen wir jetzt die Bühne für Viktor.
+
+1187
+02:02:57,560 --> 02:03:00,560
+ Vielen Dank.
+
+1188
+02:03:00,560 --> 02:03:07,560
+ Test, Test, Test. Jo. Ist jetzt auch mehr so als Gag gedacht gewesen.
+
+1189
+02:03:07,560 --> 02:03:11,560
+ Ja, haut rein.
+
+1190
+02:03:11,560 --> 02:03:22,560
+ [Musik]
+
+1191
+02:03:22,560 --> 02:03:39,560
+ Halt, stop, dieses Bild ist verboten. Halt, stop, das hab ich gesehen. Halt, stop, dieses Bild ist verboten. Halt, stop, das müsst ihr verstehen.
+
+1192
+02:03:39,560 --> 02:03:45,560
+ Wir haben irgendwann gemerkt, dass es eigentlich ziemlich praktisch. Geht da nicht noch mehr? Ich meine jetzt nur taktisch.
+
+1193
+02:03:45,560 --> 02:03:52,560
+ Auf einem Handy können Straftaten passieren und vor Kriminalität darf man nicht kapitulieren. Die schicken sich da auch politische Sachen.
+
+1194
+02:03:52,560 --> 02:04:12,560
+ Ein Blockadeaufruf, da muss man doch was machen. Halt, stop, dieses Bild ist verboten. Halt, stop, das hab ich gesehen. Halt, stop, dieses Bild ist verboten. Halt, stop, das müsst ihr verstehen.
+
+1195
+02:04:12,560 --> 02:04:23,560
+ Letzte Woche haben sich ein paar Leute überlebt, wie man den Scanner auf den Geräten umgeht. Warum sollte man das tun? Eine Straftat wird geplant. Wir müssen reagieren mit der harten Hand.
+
+1196
+02:04:23,560 --> 02:04:40,560
+ Halt, stop, das ist mit verboten. Halt, stop, das hab ich gesehen. Halt, stop, das Gerät ist verboten. Halt, stop, das müsst ihr verstehen. Halt, stop, das Gerät ist verboten. Halt, stop, das müsst ihr verstehen.
+
+1197
+02:04:40,560 --> 02:04:51,560
+ Halt, stop, das Gerät ist verboten. Halt, stop, das müsst ihr verstehen.
+
+1198
+02:04:51,560 --> 02:05:02,560
+ Auf Grafäen, einem Smartphonebetriebssystem hat es den Kleinsizeitscanner nie gegeben. Auch die Messenger werden ohne Scanner installiert, weshalb die Prävention von Bösem hier nicht funktioniert.
+
+1199
+02:05:02,560 --> 02:05:13,560
+ Wenn sich jetzt Menschenpinter schicken kann, der Scanner sie nicht sehen und Kriminelle können einfach so Straftaten begehen. Da müssen wir was tun, die Lösung liegt auf der Hand. Die Entwickler*innen zeigen wir alle an.
+
+1200
+02:05:13,560 --> 02:05:36,560
+ Halt, stop, das System ist verboten. Halt, stop, das hab ich gesehen. Halt, stop, das System ist verboten. Halt, stop, das müsst ihr verstehen. Halt, stop, das System ist verboten. Halt, stop, das hab ich gesehen. Halt, stop, das System ist verboten. Halt, stop, das müsst ihr verstehen.
+
+1201
+02:05:36,560 --> 02:06:00,560
+ Ein Graf flack blockieren. Halt, stop, links unten zitieren. Halt, stop, Geflüchtete retten. Halt, stop, bei Konzernen anketen. Halt, stop, ein Graf flack blockieren.
+
+1202
+02:06:00,560 --> 02:06:20,560
+ Halt, stop, links unten zitieren. Halt, stop, Geflüchtete retten. Halt, stop, bei Konzernen anketen. Halt, stop, ein Graf flack blockieren. Halt, stop, links unten zitieren. Halt, stop, Geflüchtete retten. Halt, stop, bei Konzernen anketen.
+
+1203
+02:06:20,560 --> 02:06:30,560
+ Yeah, das war's. War schön mit euch. Vielleicht sehen wir uns am Samstag um 4 am Marktplatz. Ich wünsche euch noch einen schönen Abend.
+
+1204
+02:06:30,560 --> 02:06:36,560
+ [Applaus]
+
+1205
+02:06:36,560 --> 02:06:41,560
+ [Musik]
+

@@ -1,0 +1,1672 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:29,000 --> 00:00:36,000
+ Willkommen zurück auf der Bühne von "Digitalcourage".
+
+3
+00:00:36,000 --> 00:00:39,000
+ Hier fängt jetzt der nächste Vortrag an.
+
+4
+00:00:39,000 --> 00:00:41,000
+ Findet alle bitte schnell einen Platz.
+
+5
+00:00:41,000 --> 00:00:44,000
+ Der Vortrag ist auf Deutsch.
+
+6
+00:00:44,000 --> 00:00:46,000
+ Es gibt englische Simultanübersetzung.
+
+7
+00:00:46,000 --> 00:00:51,000
+ Wenn ihr, die könnt ihr im Stream hören.
+
+8
+00:00:51,000 --> 00:00:57,000
+ Oder wenn ihr im Raum seid, könnt ihr ein IR-Gerät erhalten, um das zu hören.
+
+9
+00:00:57,000 --> 00:01:02,000
+ Der Vortrag wird auf Deutsch, aber es gibt englische Translations.
+
+10
+00:01:02,000 --> 00:01:07,000
+ Ihr könnt ein Gerät erhalten, um die englische Translation zu hören.
+
+11
+00:01:07,000 --> 00:01:12,000
+ Mit diesem Vortrag herzlich den Stadion "Pardeloon" willkommen.
+
+12
+00:01:12,000 --> 00:01:17,000
+ Und Lena für die musikalische Unterstützung.
+
+13
+00:01:17,000 --> 00:01:24,000
+ [Applaus]
+
+14
+00:01:24,000 --> 00:01:28,000
+ Und dann viel Spaß mit den kleinen Firmen im Verdivers.
+
+15
+00:01:28,000 --> 00:01:32,000
+ Ach, kalt in diesen Zelten.
+
+16
+00:01:32,000 --> 00:01:35,000
+ Friert ihr auch den ganzen Tag schon so?
+
+17
+00:01:35,000 --> 00:01:40,000
+ [Lachen]
+
+18
+00:01:40,000 --> 00:01:42,000
+ Es ist ein seltsamer Titel.
+
+19
+00:01:42,000 --> 00:01:49,000
+ Dieser Vortrag, ich hoffe, wie ich es sehe, von den Stuhlreihen her hat er nicht so viele Leute abgeschrieben.
+
+20
+00:01:49,000 --> 00:02:00,000
+ Wir sollten vielleicht einmal erklären, dieser Titel kommt aus einem Fanny-Fan-Dannen-Lied.
+
+21
+00:02:00,000 --> 00:02:08,000
+ Und dieses Mikrofon ist manchmal aus, aber dann stottert es halt, ist egal.
+
+22
+00:02:08,000 --> 00:02:23,000
+ [Lachen]
+
+23
+00:02:23,000 --> 00:02:25,000
+ Ah, danke schön.
+
+24
+00:02:25,000 --> 00:02:32,000
+ Und jetzt in diesem Vortrag einmal klarzumachen, das ist natürlich leicht provokativ genannt,
+
+25
+00:02:32,000 --> 00:02:36,000
+ weil wir sind ja alle ganz liebe Menschen und keiner von uns braucht Geld zum Leben.
+
+26
+00:02:36,000 --> 00:02:40,000
+ Und eigentlich möchten wir den Menschen Glück und Seligkeit bringen.
+
+27
+00:02:40,000 --> 00:02:44,000
+ Und ich habe das mit der Glück und Seligkeit schon ganz viele Jahre ausprobiert
+
+28
+00:02:44,000 --> 00:02:50,000
+ und bin dabei auf ganz erstaunliche Ergebnisse gekommen.
+
+29
+00:02:50,000 --> 00:02:56,000
+ Und habe mir dankenswerterweise unterstützenden musikalischen Support geholt von Lena Simon.
+
+30
+00:02:56,000 --> 00:02:59,000
+ Dankeschön auch, liebe Lena.
+
+31
+00:02:59,000 --> 00:03:02,000
+ [Applaus]
+
+32
+00:03:02,000 --> 00:03:08,000
+ Und für die Leute im Stream, die endlich wissen wollen, wie eigentlich der Titel dieses Vortrags ist,
+
+33
+00:03:08,000 --> 00:03:13,000
+ von diesem Fanny-Fan-Dannen-Lied, geht es los mit...
+
+34
+00:03:13,000 --> 00:03:38,000
+ [Musik]
+
+35
+00:03:38,000 --> 00:03:40,000
+ Okay, ich verspreche nicht mehr mitzusingen.
+
+36
+00:03:40,000 --> 00:03:46,000
+ [Applaus]
+
+37
+00:03:46,000 --> 00:03:51,000
+ Ich fange mal an, damals im Krieg.
+
+38
+00:03:51,000 --> 00:03:57,000
+ Krieg war die Zeit, als wir entdeckten, dass man mit Computer nicht nur Raub kopieren kann,
+
+39
+00:03:57,000 --> 00:04:04,000
+ sondern dass man ein Datenklo an die Telefonleitung anschrauben kann, was damals unglaublich verboten war.
+
+40
+00:04:04,000 --> 00:04:09,000
+ Also ich sehe schon die älteren Herrschaften nicken und erinnern sich noch, es war strafbar.
+
+41
+00:04:09,000 --> 00:04:13,000
+ Man wäre getötet worden, wenn man damit erwischt worden wäre.
+
+42
+00:04:13,000 --> 00:04:16,000
+ Deswegen haben alle Leute heute so komische Nicknames.
+
+43
+00:04:16,000 --> 00:04:20,000
+ Weil man hat sich natürlich nicht mit einem realen Namen in ein System eingetragen,
+
+44
+00:04:20,000 --> 00:04:29,000
+ weil man hat sich strafbar gemacht und wollte nicht strafrechtlich verfolgt werden.
+
+45
+00:04:29,000 --> 00:04:31,000
+ Deswegen haben alle heute komische Nicknames.
+
+46
+00:04:31,000 --> 00:04:35,000
+ Das finde ich furchtbar, weil dann weiß man immer nicht, wer wer ist.
+
+47
+00:04:35,000 --> 00:04:39,000
+ Dass das ein Typ namens Badelun sagt, ist natürlich besonders seltsam.
+
+48
+00:04:39,000 --> 00:04:44,000
+ Ich habe aber nicht ein Nickname, der aus dieser Mailbox-Zeit damals kam,
+
+49
+00:04:44,000 --> 00:04:50,000
+ sondern ich heiße es halt ein Künstlernname und tut mir leid, es ist mein realer Name.
+
+50
+00:04:50,000 --> 00:05:01,000
+ Wir haben damals in den schönen End-79er-Jahren Mailbox-Systeme aufgebaut, also Kommunikation.
+
+51
+00:05:01,000 --> 00:05:05,000
+ Also heute kennt ihr alle, man kriegt sich einen Account und ist im Internet.
+
+52
+00:05:05,000 --> 00:05:09,000
+ Das war früher nicht so einfach. Wir haben Mailbox-Systeme aufgebaut.
+
+53
+00:05:09,000 --> 00:05:16,000
+ Wir wollten Kommunikationssysteme in der Hand von den Menschen haben, die sie auch benutzen.
+
+54
+00:05:16,000 --> 00:05:19,000
+ Wir wollten mitbestimmen, wir wollten es mit gestalten.
+
+55
+00:05:19,000 --> 00:05:26,000
+ Ich selber habe damals einen Verein gegründet, FöBoot hieß der, mittlerweile ist das Digitalcourage.
+
+56
+00:05:26,000 --> 00:05:33,000
+ Wir haben dort ein Mailbox-System aufgebaut und haben aber nicht so als Nerds und "geile Technik" mäßig das gemacht,
+
+57
+00:05:33,000 --> 00:05:38,000
+ sondern so, was kann man darüber eigentlich politisch kommunizieren und über Verbraucherschutz erfahren
+
+58
+00:05:38,000 --> 00:05:43,000
+ und so richtige Dinge halt machen und nicht nur wie so Amateurfunk,
+
+59
+00:05:43,000 --> 00:05:49,000
+ "Ich habe eine Bandbreite von sowieso" da rüber schicken und haben da viel mit experimentiert.
+
+60
+00:05:49,000 --> 00:05:52,000
+ Auch experimentiert, wie muss man sowas aufbauen.
+
+61
+00:05:52,000 --> 00:05:57,000
+ Wir haben so verteilte Systeme gehabt, weil ich weiß nicht, die Älteren werden sich noch erinnern,
+
+62
+00:05:57,000 --> 00:06:05,000
+ damals gab es so etwas wie eine Telefoneinheit, was heute ein Wort ist, wo man klingt super, Telefoneinheit,
+
+63
+00:06:05,000 --> 00:06:10,000
+ aber eine Einheit, eine Telefoneinheit hatte nichts mit schönen Dingen zu tun,
+
+64
+00:06:10,000 --> 00:06:14,000
+ sondern waren 23-Fenny im Zeitakt, die man bezahlen musste
+
+65
+00:06:14,000 --> 00:06:18,000
+ und je weiter entfernt man anrief, desto schneller ratterte der Zähler
+
+66
+00:06:18,000 --> 00:06:27,000
+ und man kenne einige Leute aus den Zeiten, deren gesamtes Vermögen, Haus, der Großmutter und sämtliches, der Post gehörte,
+
+67
+00:06:27,000 --> 00:06:30,000
+ weil sie so viel im Netzen unterwegs waren.
+
+68
+00:06:30,000 --> 00:06:34,000
+ Und wir haben jetzt verteilte Systeme aufgebaut, man konnte zum Ortstarif anrufen,
+
+69
+00:06:34,000 --> 00:06:39,000
+ was am Anfang noch unendlich lange war, später dann einen 8-Minuten-Takt hatte.
+
+70
+00:06:39,000 --> 00:06:44,000
+ Man hat dann dort in dem System seine ganzen Mail und News erledigt
+
+71
+00:06:44,000 --> 00:06:49,000
+ und wenn man den Telefonhörer aufgelegt hat, so vier oder fünf oder achtmal am Tag oder einmal am Tag,
+
+72
+00:06:49,000 --> 00:06:53,000
+ wurden dann mit verschiedenen Systemen diese Nachrichten ausgetauscht.
+
+73
+00:06:53,000 --> 00:06:58,000
+ Ihr seid alle hier, weil ihr schon mal was vom Fediverse gehört habt und denkt,
+
+74
+00:06:58,000 --> 00:07:02,000
+ was erzählt der da, das ist doch voll super, das ist doch federiert.
+
+75
+00:07:02,000 --> 00:07:08,000
+ Aber das war damals noch nicht das Fediverse, das waren Mailbox-Netze, es gab verschiedene Protokolle,
+
+76
+00:07:08,000 --> 00:07:15,000
+ Fido ist ein sehr bekanntes System, was wir damals nicht genommen haben, weil es keine Unterscheidung
+
+77
+00:07:15,000 --> 00:07:19,000
+ zwischen Privatnachrichten und öffentlichen Nachrichten gab.
+
+78
+00:07:19,000 --> 00:07:26,000
+ Wir haben im Cerberus-System gearbeitet und Protokolle mitentwickelt, Zconnect-Protokoll.
+
+79
+00:07:26,000 --> 00:07:33,000
+ Und als es dann so richtig losging mit Internet und Leute dann diese textbasierten Mailboxen nicht so toll fand,
+
+80
+00:07:33,000 --> 00:07:43,000
+ mehr so toll fand und cool fand, da war es dann halt so, bei allem, was ich so historisch erzähle,
+
+81
+00:07:43,000 --> 00:07:48,000
+ das ist meine Sichtweise, das muss nicht stimmen unbedingt, was ich erzähle mit Historie,
+
+82
+00:07:48,000 --> 00:07:54,000
+ aber es ist meine Sichtweise, die anderen Sichtweisen etwas hinzufügt, aber aus meinen Augen war es so,
+
+83
+00:07:54,000 --> 00:08:00,000
+ Herr Mohn, der Chef von Bertelsmann, also dem das alles gehörte, hat so einen seiner Söhne
+
+84
+00:08:00,000 --> 00:08:05,000
+ ein paar Milliarden gegeben, gesagt, mach mal Netz, das scheint jetzt cool zu sein, dann hat der AOL gekauft,
+
+85
+00:08:05,000 --> 00:08:12,000
+ dann haben die in jedem Briefkasten erstmal eine Diskette, später CDs gesteckt und dann haben die Internet gemacht
+
+86
+00:08:12,000 --> 00:08:18,000
+ und damit alles andere platt gemacht. Alles, was wir aufgebaut hatten, Netze, politische Vernetzungen,
+
+87
+00:08:18,000 --> 00:08:25,000
+ die darüber liefen, wirklich sinnvolle Sachen, waren damit erstmal tot. Das Internet hat Kommunikation beerdigt.
+
+88
+00:08:25,000 --> 00:08:31,000
+ Das Internet hat aus einer Kommunikationsgesellschaft eine Informationsgesellschaft gebaut.
+
+89
+00:08:31,000 --> 00:08:36,000
+ Wir waren wieder an dem Status, dass einer sendet, alle anderen lesen.
+
+90
+00:08:36,000 --> 00:08:42,000
+ So, ein bisschen aufgebrochen, weil man konnte einfacher selber Sender werden, aber das Prinzip,
+
+91
+00:08:42,000 --> 00:08:46,000
+ da ist ein Nachrichtenfluss, man muss dabei sein, mit drauf auf diesem Fluss schwimmen,
+
+92
+00:08:46,000 --> 00:08:51,000
+ bei Dingen, die einen interessieren, sich mal gucken, wo man weitere Informationen herbekommt,
+
+93
+00:08:51,000 --> 00:08:56,000
+ also wirklich kommunizieren, war mit dem Internet in dem Sinne nicht möglich.
+
+94
+00:08:56,000 --> 00:09:06,000
+ Wir hatten damals Mailboxen aufgebaut und ich habe auch damals schon erkannt, damit sowas funktionieren kann.
+
+95
+00:09:06,000 --> 00:09:12,000
+ Ich bin sehr, da ich im Englischen nicht so gut bin, deshalb brauche ich immer Dolmetscherinnen und Dolmetscher,
+
+96
+00:09:12,000 --> 00:09:17,000
+ die es in Englisch übersetzen, weil ich selber darin schlecht bin, ich rede gern auf Deutsch,
+
+97
+00:09:17,000 --> 00:09:24,000
+ habe ich mich vor allen Dingen auf Deutsch, Österreich und die Schweiz eher konzentriert, vor allen Dingen Deutschland,
+
+98
+00:09:24,000 --> 00:09:30,000
+ habe mir dann so überlegt, was muss man eigentlich machen, damit man stabile Netze aufbauen kann,
+
+99
+00:09:30,000 --> 00:09:32,000
+ damals noch mit Mailboxnetzen.
+
+100
+00:09:32,000 --> 00:09:38,000
+ Und wir haben in unserem Verein auch eine Sache anders gemacht als alle anderen,
+
+101
+00:09:38,000 --> 00:09:43,000
+ weil Mailboxen sonst waren von Leuten, die technisch begeistert waren, aufgebaut,
+
+102
+00:09:43,000 --> 00:09:49,000
+ die da Spaß dran hatten und gerne die privaten Nachrichten ihrer Userinnen lesen wollten,
+
+103
+00:09:49,000 --> 00:09:55,000
+ weil es ein kleiner Seitenhieb, Entschuldigung, wir sagten, nein, wir machen das als eine richtige Dienstleistung.
+
+104
+00:09:55,000 --> 00:10:01,000
+ Und das ist auch so, das System soll allen gehören, da wir aber nicht so anarcho-synäkalistisch drauf waren,
+
+105
+00:10:01,000 --> 00:10:10,000
+ haben wir gesagt, wir gründen eine AG, eine Aktiengesellschaft, natürlich Arbeitsgemeinschaft, weil Aktiengesellschaft.
+
+106
+00:10:10,000 --> 00:10:17,000
+ Aber ich fand die Idee toll, viele Leute legen Geld zusammen, damit das System betrieben werden kann
+
+107
+00:10:17,000 --> 00:10:21,000
+ und die Leute, die das dann pflegen, sind die Systemputzfrauen.
+
+108
+00:10:21,000 --> 00:10:26,000
+ Also bei uns gab es auch nicht das Wort Systemoperator, sondern wir waren die Systemputzfrauen.
+
+109
+00:10:26,000 --> 00:10:32,000
+ Und wir haben auch in die Software etwas eingebaut, nämlich ein Verwaltungsmobil,
+
+110
+00:10:32,000 --> 00:10:35,000
+ wir haben es mit den Programmierern dann zusammengetan, weil wir viele Ideen hatten,
+
+111
+00:10:35,000 --> 00:10:40,000
+ wir fanden es klasse, haben wir eine Firma gemacht, dann haben wir das Handbuch geschrieben für die neue Version
+
+112
+00:10:40,000 --> 00:10:43,000
+ und immer wenn wir Features haben wollten, die die Programmierer keinen Bock drauf hatten,
+
+113
+00:10:43,000 --> 00:10:48,000
+ zum Beispiel ein Modul, mit dem man Geld einnehmen konnte, habe ich gedacht, das müsste jetzt schreiben,
+
+114
+00:10:48,000 --> 00:10:52,000
+ steht schon im Handbuch. Also man kann auch Programmierer gut hacken.
+
+115
+00:10:52,000 --> 00:10:58,000
+ Und weil wir damals schon die Idee hatten, so ein System muss eigentlich, wenn man das betreibt,
+
+116
+00:10:58,000 --> 00:11:04,000
+ es ist viel Arbeit, Pflege, es gab noch die Fragen zu klären, wie es eigentlich mit den Inhalten ist,
+
+117
+00:11:04,000 --> 00:11:10,000
+ wer finanziert dann Inhalte, wie macht man das, dass man Moderatorinnen und Moderatoren auch bezahlen kann,
+
+118
+00:11:10,000 --> 00:11:16,000
+ die da stundenlang dran sitzen und auch versuchen Kommunikationsflüsse aufrechtzuhalten.
+
+119
+00:11:16,000 --> 00:11:20,000
+ Und auch damals dachte ich schon, man müsste Folgendes tun.
+
+120
+00:11:20,000 --> 00:11:44,000
+ Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+
+121
+00:11:44,000 --> 00:11:46,000
+ Vielen Dank, Lena Simon.
+
+122
+00:11:46,000 --> 00:11:55,000
+ Tatsächlich haben wir mit der Bionic Mailbox in Bielefeld im Monat 4000 Mark eingenommen.
+
+123
+00:11:55,000 --> 00:12:04,000
+ Also 2000 Euro. Wir haben nämlich 5 Euro im Monat genommen und es war auch super,
+
+124
+00:12:04,000 --> 00:12:11,000
+ die Leute haben es gern bezahlt, weil es war toll, Support zu haben, wir hatten Leute, die waren am Telefon,
+
+125
+00:12:11,000 --> 00:12:17,000
+ die haben denen geholfen, Sachen einzurichten und niemand musste nett zu uns sein,
+
+126
+00:12:17,000 --> 00:12:25,000
+ sondern er hat einfach seine 5 Mark bezahlt und damit war alles drin.
+
+127
+00:12:25,000 --> 00:12:31,000
+ Man musste nicht um ein höheres Prio betteln oder sonst irgendwas, sondern die konnten uns auch beschimpfen
+
+128
+00:12:31,000 --> 00:12:35,000
+ und waren trotzdem einfach Kunden und wir haben nicht in ihre Privatnachrichten geschaut,
+
+129
+00:12:35,000 --> 00:12:43,000
+ weil wir auch damals den anderen Systembetreibern schon erzählt haben, das dürft ihr nicht verboten, das geht gar nicht.
+
+130
+00:12:43,000 --> 00:12:47,000
+ Und wir haben dann auch PGP eingeführt, weil wir eine Ende-zu-Ende-Verschlüsselung haben wollten
+
+131
+00:12:47,000 --> 00:12:50,000
+ und haben PGP in Deutschland bekannt gemacht darüber.
+
+132
+00:12:50,000 --> 00:12:56,000
+ Und das war dann aber mit dem Internet plötzlich alles kaputt.
+
+133
+00:12:56,000 --> 00:13:02,000
+ Weil auch, und jetzt muss ich ein bisschen schimpfen, wir haben mit der Zerberos Mailbox Software
+
+134
+00:13:02,000 --> 00:13:08,000
+ den Leuten die Möglichkeit gegeben, das, was sie da als Dienstleistung machen, auch finanziell umzusetzen.
+
+135
+00:13:08,000 --> 00:13:13,000
+ Aber sie waren zu feige, sie hatten Angst Geld zu nehmen, sonst gehen die ja weg.
+
+136
+00:13:13,000 --> 00:13:18,000
+ Sonst habe ich ja keine Leute mehr, die bei mir was machen, was natürlich Quatsch ist.
+
+137
+00:13:18,000 --> 00:13:24,000
+ Der beste Beweis war unsere Mailbox, wir hatten ganz viele, wir hatten auch nicht mal Zeit Werbung dafür zu machen,
+
+138
+00:13:24,000 --> 00:13:27,000
+ weil wir uns immer auch ums Gesamtnetz gekümmert haben.
+
+139
+00:13:27,000 --> 00:13:35,000
+ Das heißt diese Angst davor, Geld zu verlangen oder seinen eigenen Wert, wenn man sowas betreibt, gar nicht zu erkennen.
+
+140
+00:13:35,000 --> 00:13:41,000
+ Das fanden wir halt furchtbar, weil es führte dazu, dass die Systeme so instabil waren,
+
+141
+00:13:41,000 --> 00:13:45,000
+ dass sie von den paar Milliarden einfach mal an die Wand gefegt werden konnten.
+
+142
+00:13:45,000 --> 00:13:49,000
+ So, und jetzt sind wir beim Fediverse.
+
+143
+00:13:49,000 --> 00:13:52,000
+ So, wir haben, ah ich mache noch einen Zwischenschritt.
+
+144
+00:13:52,000 --> 00:14:01,000
+ Vor wann war das mit Social? 2011 haben wir Social Swarm gegründet als so eine Idee,
+
+145
+00:14:01,000 --> 00:14:10,000
+ weil es gab an ganz vielen Stellen Programmierer, die irgendwas mit Kommunikation, Chat und besser und schöner und andere Protokolle aufgebaut haben.
+
+146
+00:14:10,000 --> 00:14:20,000
+ Und es ist schon so, dass wir dann ziemlich gescheitert sind damit, weil es hat nicht richtig funktioniert.
+
+147
+00:14:20,000 --> 00:14:26,000
+ Und dann haben wir zwar das Wort, das steht glaube ich immer noch bei uns in der Mailbox, auf dem Web-Server,
+
+148
+00:14:26,000 --> 00:14:34,000
+ aber wir haben einfach mal gesagt, ok, da können wir jetzt nichts machen. Man muss manchmal auch Kriege verlieren können.
+
+149
+00:14:34,000 --> 00:14:40,000
+ Und plötzlich entdecken wir, es gibt Activitypub, ein Protokoll.
+
+150
+00:14:40,000 --> 00:14:44,000
+ Einer unserer Ehrenamtliche sagte, seid ihr eigentlich bescheuert, warum habt ihr da noch nicht einen Server?
+
+151
+00:14:44,000 --> 00:14:52,000
+ Ich mache euch das mal, unser Christian, also wirklich ohne den, ich weiß nicht wo ich jetzt wäre und wahrscheinlich nicht auf dieser Bühne.
+
+152
+00:14:52,000 --> 00:14:58,000
+ Und er sagte, ja finde ich cool, lass uns mal, erklär mir mal, da habe ich mir das bisschen angeguckt,
+
+153
+00:14:58,000 --> 00:15:06,000
+ dann war ich natürlich auch bei Chaos Social, übrigens vielen Dank an die, weil das ist eine super Fachschule gewesen, jetzt hat sie, also ganz toll.
+
+154
+00:15:06,000 --> 00:15:13,000
+ Aber dann haben wir unseren eigenen Server gemacht, also digitalcourage.social und ich sagte Christian, gut wir machen es aber so, wir nehmen Geld.
+
+155
+00:15:13,000 --> 00:15:22,000
+ Doch, wir machen das, wir machen das wie damals, wir sagen, wir sorgen dafür, dass das Server gut läuft, ihr zahlt ein Euro im Monat,
+
+156
+00:15:22,000 --> 00:15:29,000
+ habe ich einfach mal so gesagt und wir werden uns zukünftig den nicht mehr monatlich einziehen, sondern jährlich,
+
+157
+00:15:29,000 --> 00:15:36,000
+ aber das stellen wir gerade um, das war dann doch zu engagiert.
+
+158
+00:15:36,000 --> 00:15:47,000
+ Aber wir machen das und wir hatten innerhalb kürzester Zeit 1000 Leute, sprich 1000 Euro im Monat, das heißt Christian hat jetzt einen Minijob,
+
+159
+00:15:47,000 --> 00:15:51,000
+ also der hat noch einen anderen richtigen Job, aber der hat so viel geackert, dass ich dachte,
+
+160
+00:15:51,000 --> 00:15:58,000
+ nee, also irgendwie, da muss schon auch Geld ran gehen, das ist auch weiter der Mensch, der alles irgendwie mitkriegt und daran arbeitet.
+
+161
+00:15:58,000 --> 00:16:10,000
+ Und dann habe ich mich weiter mit dem ActivityPub-Protokoll beschäftigt, ich habe es in Diepel als PDF durchgeschickt, um es besser lesen zu können, also auf Deutsch dann.
+
+162
+00:16:10,000 --> 00:16:17,000
+ Ja, es ist schon schön, dass so was geht, das war ein Tusch oder wie? Nein? Okay.
+
+163
+00:16:17,000 --> 00:16:30,000
+ Dann habe ich halt überlegt, es gab ja schon so Ideen, wie viele Leute dürfen auf so einem Server sein, also auf einem,
+
+164
+00:16:30,000 --> 00:16:37,000
+ und ich hatte heute jemand, der sagte, ja maximal 100 Leute, damit man es noch bewältigen kann, aber ernsthaft, will ich,
+
+165
+00:16:37,000 --> 00:16:43,000
+ also wenn ich Teilnehmerin oder Teilnehmer in so einem Server bin, will ich, dass mein Betreiber alle Leute so gut kennt,
+
+166
+00:16:43,000 --> 00:16:51,000
+ ich habe dann weiter überlegt, wie geht das, also auch wenn es ein Euro kostet, ich will ja, dass da Familien sich ernähren können darüber, dass sie das betreiben.
+
+167
+00:16:51,000 --> 00:16:59,000
+ Dann kam ich auf so eine Summe von 50.000 Teilnehmerinnen und Teilnehmern, einfach mal so gesagt, weil ich weiß von meiner Erfahrung,
+
+168
+00:16:59,000 --> 00:17:04,000
+ ich habe viele Demos-Veranstaltungen, mit 50.000 Leuten, da kommt man noch einigermaßen gut klar.
+
+169
+00:17:04,000 --> 00:17:15,000
+ Einfach mal eine Größe aus meiner Lebenserfahrung heraus gesagt, und mit 50.000 Euro im Monat kann man schon ein paar Leute finanzieren,
+
+170
+00:17:15,000 --> 00:17:23,000
+ also weniger als man denkt, weil da kommen noch andere Kosten, Arbeitgeberbrutto ist was anderes als Arbeitgebernetto und so weiter, Arbeitnehmernetto,
+
+171
+00:17:23,000 --> 00:17:32,000
+ und habe jetzt einfach mal die Summe in den Raum gesteckt und auch mir gedacht, bevor man jetzt wieder diese ganzen Technik-Nerds
+
+172
+00:17:32,000 --> 00:17:39,000
+ und diese lieben Menschen wieder Netze aufbauen, die auf reinem "ha, wir haben uns alle lieb" aufgebaut sind,
+
+173
+00:17:39,000 --> 00:17:48,000
+ und dann vom nächsten Herrn Mohn oder Facebook, ich kriege das Wort "Meter" für den Konzern, ich auf über die Lippen,
+
+174
+00:17:48,000 --> 00:17:54,000
+ das ist so eine Unverschämtheit, sich Meter zu nennen, sorry, also dass Facebook dann auch versucht, da schon wieder das zu übernehmen,
+
+175
+00:17:54,000 --> 00:18:00,000
+ das muss verhindert werden, und das verhindern wir nicht durch eine Revolution und ein anarcho-synäkalistisches System,
+
+176
+00:18:00,000 --> 00:18:12,000
+ an dem alle Deutschen tapferer mitmachen, sondern das muss einfach, da wir noch immer in einer Welt leben, in der wir bestimmte Rechnungsgrößen und Geld haben,
+
+177
+00:18:12,000 --> 00:18:16,000
+ muss das einfach geschäftsmäßig aufgesetzt werden.
+
+178
+00:18:16,000 --> 00:18:22,000
+ Geschäftsmäßig bedeutet uns noch nicht mal, dass da Geld fließen muss, in dem Moment, wo ich auch Liebe dafür bekomme,
+
+179
+00:18:22,000 --> 00:18:31,000
+ dass ich etwas anbiete und tue, ist das auch ein Geschäft. Das Wort "kommerziell" gibt es im deutschen Rechtswesen übrigens nicht,
+
+180
+00:18:31,000 --> 00:18:38,000
+ das möchte ich einmal zuvor fügen. Aber tatsächlich ist es natürlich toll, ich habe einen Server, ich kann den bezahlen,
+
+181
+00:18:38,000 --> 00:18:46,000
+ suche mir natürlich einen coolen, meinetwegen Ubisoft oder so jemand aus, und hab die dort, und kann Leute bezahlen, die was machen,
+
+182
+00:18:46,000 --> 00:18:54,000
+ kann auch mal was programmieren lassen, ohne Bitte-Bitte sagen zu müssen. Nicht, dass ich nicht auch Bitte-Bitte sage, aber ich kann jemand aus sagen,
+
+183
+00:18:54,000 --> 00:18:59,000
+ du, deine Arbeit ist mir auch so viel wert, ich bezahle dich auch dafür. Und ich bin plötzlich in einer Situation,
+
+184
+00:18:59,000 --> 00:19:06,000
+ nicht nur meine Feinde bezahlen zu müssen, was wir ja jeden Tag alle machen, sondern auch meine Freundinnen und Freunde,
+
+185
+00:19:06,000 --> 00:19:14,000
+ die ich normalerweise nicht bezahlt habe, weil wir alle noch diese Idee aus den 60er Jahren hatten, dass wir eine Welt auch anders aufbauen können.
+
+186
+00:19:14,000 --> 00:19:21,000
+ War damals alles richtig, war super, hat uns ganz viele neue Gedanken gebracht und ganz andere Lebensansätze bis heute,
+
+187
+00:19:21,000 --> 00:19:28,000
+ dass wir solche Camps machen könnten. Stellt euch mal vor, das hätten wir vor 50 Jahren gemacht, sie hätten uns hier mit Panzern niedergewalzt.
+
+188
+00:19:28,000 --> 00:19:35,000
+ Also, das muss man doch einfach sehen, aber die Zeiten sind doch andere. Allein, als ich Banker war in den 80er Jahren,
+
+189
+00:19:35,000 --> 00:19:43,000
+ ich hatte kein Geld gebraucht, gar keins. Ich hab halt hier und da gewohnt, ab und zu hat mir jemand was zu essen gegeben,
+
+190
+00:19:43,000 --> 00:19:49,000
+ und irgendwie hatte ich trotzdem immer Zigaretten, ich rauch nicht mehr, und das ist heute nicht mehr möglich,
+
+191
+00:19:49,000 --> 00:19:56,000
+ allein weil ich ein Handy haben muss. Ohne Handy kann man, also Smartphone kann man ja quasi nicht leben, also nicht wirklich vernünftig,
+
+192
+00:19:56,000 --> 00:20:04,000
+ es geht auch, aber das ist dann ein anderes Lebensmodell. Ich war Musiker und Filmer, wenn ich damals ein iPhone gekauft hätte,
+
+193
+00:20:04,000 --> 00:20:15,000
+ aber allein die regelmäßigen Kosten, ich wäre heute weltberühmt, so bin ich halt nur, wie auf dieser Bühne, aber das gigantisch,
+
+194
+00:20:15,000 --> 00:20:21,000
+ das sind tolle Möglichkeiten, wir brauchen heute und können das auch und müssen es auch anders mit Geld arbeiten,
+
+195
+00:20:21,000 --> 00:20:30,000
+ und insofern denke ich, ist die Zeit reif dafür, diese Idee von alles müssen wir kostenlos an coole Leute geben, anders laufen,
+
+196
+00:20:30,000 --> 00:20:38,000
+ wir müssen coole Leute finanzieren. Jede freie Softwarebude, jedes freie Softwareprojekt muss genügend Leute haben,
+
+197
+00:20:38,000 --> 00:20:43,000
+ die das betreiben, und deswegen, liebe Lena.
+
+198
+00:20:43,000 --> 00:20:55,000
+ Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+
+199
+00:20:55,000 --> 00:21:07,000
+ Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+
+200
+00:21:07,000 --> 00:21:14,000
+ Ok, das Versprechen, ich singe nicht mit, mehr habe ich jetzt gebrochen.
+
+201
+00:21:14,000 --> 00:21:24,000
+ Das heißt, ich sitze hier, um einfach zu sagen, macht euch Gedanken darüber, das zu finanzieren, lasst Musk und Suckerman,
+
+202
+00:21:24,000 --> 00:21:34,000
+ oder wie das heißt, nicht auch noch das kaputt machen, weil diese Kommunikationsform von einer Instanz, die irgendwo steht,
+
+203
+00:21:34,000 --> 00:21:44,000
+ und alle gehen da drauf auf ein zentralistisches System. Als Admin ein Traum, weil ich habe alles im Griff, zumindest scheinbar, ist falsch.
+
+204
+00:21:44,000 --> 00:21:51,000
+ Damit machen wir Gesellschaften komplett kaputt. Und zwar einfach nur, dass ich hier ein Zentralsystem habe, auf das alle an den Händen gehen.
+
+205
+00:21:51,000 --> 00:21:59,000
+ Ich brauche noch nicht mal Algorithmen, ich brauche noch nicht mal Nazis hochrenken, damit wir Faschismus kriegen, sondern das ist Faschismus.
+
+206
+00:21:59,000 --> 00:22:08,000
+ Da wirkt Technik in die Gesellschaft. Und wenn wir Firmen aufbauen, wenn wir Verantwortung übernehmen, wenn wir als Techniker uns Geschäftsführer suchen,
+
+207
+00:22:08,000 --> 00:22:16,000
+ die unsere Chefs werden, weil wir zu blöd sind, Geschäfte zu machen, so ist es doch. Also wer scheitert alles daran, Business zu machen?
+
+208
+00:22:16,000 --> 00:22:24,000
+ Ich habe mir für Digitalcourage vor zwölf Jahren, glaube ich, einen Geschäftsführer gesucht. Hey, das hat richtig gepoppt, der hat richtig was gerissen.
+
+209
+00:22:24,000 --> 00:22:34,000
+ Und das ist ein Herzensprojekt und hat dabei noch das Projekt "Freie Softwareprojekt CWCAM". Daraus auch noch eine eigene Firma gebaut, mit der ganz viele NGOs mittlerweile arbeiten können.
+
+210
+00:22:34,000 --> 00:22:45,000
+ Also ich glaube, dass wir wirklich lernen müssen, zu erkennen, was wir als Nerds oder als Techniker oder als ... Wie viele Leute studieren Sozialwissenschaften?
+
+211
+00:22:45,000 --> 00:22:55,000
+ Alle denken, die werden nutzlos. Nein, die werden gebraucht. Die können wir echt gebrauchen und die können wir Jobs geben, wir können es finanzieren, wir können Steuern zahlen,
+
+212
+00:22:55,000 --> 00:23:02,000
+ wir können mit viel mehr Selbstbewusstsein noch reingehen. Und deshalb ist es mir so wichtig, in die Köpfe reinzukriegen.
+
+213
+00:23:02,000 --> 00:23:27,000
+ Baut kleine geile Genossenschaften auf! Baut kleine geile Genossenschaften auf! Baut kleine geile Genossenschaften auf!
+
+214
+00:23:27,000 --> 00:23:40,000
+ Genau. So ist das, wenn man intelligente Menschen an Musikinstrumenten lästern lässt, dann fangen sie auch inhaltlich einem rein zu regieren.
+
+215
+00:23:40,000 --> 00:23:54,000
+ Aber, vielen Dank, liebe Lena. Wie lange kennen wir uns jetzt? Okay. Ganz genau, es muss nicht immer eine Firma sein, weil welche Form wir wählen, ist egal.
+
+216
+00:23:54,000 --> 00:24:08,000
+ Vielleicht ist für eine bestimmte Gruppe, eine bestimmte Betriebsart, eine Genossenschaft eine gute Idee. Also, ist anders als ein Verein, hat nochmal eine Kontrollinstanz drüber.
+
+217
+00:24:08,000 --> 00:24:19,000
+ Man kann auch als Verein arbeiten. Digitalcourage ist ein Verein. Aber man könnte es auch als Firma machen und klare hierarchische Strukturen oder flache Hierarchien.
+
+218
+00:24:19,000 --> 00:24:28,000
+ Es gibt viele Bücher darüber, wie man Firmen aufbaut. Aber auch wichtig ist zu erkennen, das ist mir ein bisschen aufgefallen, wenn ich mir so in die freie Software-Szene reingucke,
+
+219
+00:24:28,000 --> 00:24:42,000
+ dass ganz viele, die gar nicht wissen, wie man eine Firma aufbaut, es tun. Eigentlich wollen sie programmieren, aber jetzt sind sie plötzlich dabei und fragen 20 Leute, dass sie ihre Stundenzettel abgeben müssen.
+
+220
+00:24:42,000 --> 00:24:50,000
+ Das kann man auch andere Leute machen lassen, die man eben einstellt, die sich darum kümmern oder seinen Steuerberater zu bezahlen und Ähnliches.
+
+221
+00:24:50,000 --> 00:25:05,000
+ Und deshalb ist es mir gerade auf diesem wunderbaren Chaos-Communication-Camp, wo wir so viel über die vielen, vielen Jahre in dieser Chaos-Computer-Club entsteht,
+
+222
+00:25:05,000 --> 00:25:18,000
+ so viel zusammengekommen sind und eigentlich immer wieder versucht haben, Geld als Nebensache, notwendiges Übel, das ist ein bisschen schwierig bei 380 Euro Eintrittspreis, das so zu sehen.
+
+223
+00:25:18,000 --> 00:25:26,000
+ Aber immer wieder diese Angst vor dem Geld, die Angst vor der Beschäftigung damit, wo man Angst hat, das Wort Macht auszusprechen,
+
+224
+00:25:26,000 --> 00:25:37,000
+ wo man sich diesen ganzen Verantwortlichkeiten nicht stellt, weil es so einfach ist, so zu sagen, ich programmiere nur oder ich bin nur ein Nerd, ich will nur spielen, ich will Spaß am Gerät haben,
+
+225
+00:25:37,000 --> 00:25:46,000
+ Discordia müssen auseinanderhalten, alles tolle Sachen sind super, bringen einen weiter, aber zum Weiterbringen gehört auch, sich weiter zu bewegen.
+
+226
+00:25:46,000 --> 00:26:14,000
+ Und ich glaube, wir müssen in die Richtung hingehen, nämlich...
+
+227
+00:26:14,000 --> 00:26:16,000
+ Und jetzt alle!
+
+228
+00:26:16,000 --> 00:26:40,000
+ Baut kleine, geile Firmen auf!
+
+229
+00:26:40,000 --> 00:26:45,000
+ Okay.
+
+230
+00:26:45,000 --> 00:27:02,000
+ Eigentlich sollte dieser Talk noch länger gehen, aber eigentlich habe ich alles gesagt. Im Grunde habe ich jetzt Gehirnwäsche gemacht, trage das weiter, aber ich denke mal, da ich das, also was soll ich da groß vortragen, mir ging es darum, diese Message rauszubringen.
+
+231
+00:27:02,000 --> 00:27:20,000
+ Natürlich haben wir schon ganz viel drüber überlegt, nachgedacht, wir waren jetzt gerade auf dem Fedicamp, das ist vor drei Wochen, glaube ich, gewesen in noch schlimmerer Wallach-Hei als hier, in der Nähe von Gorleben,
+
+232
+00:27:20,000 --> 00:27:37,000
+ und eine Woche im Void mit 50 Leuten war toll, viel drüber nachgedacht, übrigens auch Leute dabei, die das ganz anders sehen, also die sagen, nein, auf gar keinen Fall, das macht alles kaputt, wir wollen da klein bleiben und es muss skalieren und so.
+
+233
+00:27:37,000 --> 00:27:49,000
+ Also es ist nicht so, es kann nicht die einzige Meinung sein, die gilt, was ich jetzt hier sage oder reinbringen will, sondern es ist auch wichtig, sich damit zu beschäftigen, dass andere vielleicht ganz andere Vorstellungen haben.
+
+234
+00:27:49,000 --> 00:28:02,000
+ Es kann sein, dass manche eben sagen, nee, wir haben da so eine Gruppe, wir machen das so, und das läuft halt so mit bei, und das ist auch gut und richtig, und das Schöne ist, im Fediverse kann das funktionieren.
+
+235
+00:28:02,000 --> 00:28:14,000
+ So, nebeneinander, verschiedene Konzepte, der eine macht so, der andere macht so, was man verhindern sollte ist allzu große Server, also mastodon.social ist zu groß.
+
+236
+00:28:14,000 --> 00:28:17,000
+ So, was können wir jetzt da machen?
+
+237
+00:28:17,000 --> 00:28:27,000
+ Baut kleine geile Server auf, baut kleine geile Server auf, baut kleine geile Server auf.
+
+238
+00:28:27,000 --> 00:28:28,000
+ Danke.
+
+239
+00:28:28,000 --> 00:28:36,000
+ Ja, wir sind ein gutes Team.
+
+240
+00:28:36,000 --> 00:28:38,000
+ Hast du heute Abend schon was vor?
+
+241
+00:28:38,000 --> 00:28:42,000
+ Okay, wir sind verheiratet, ich will das mal öffentlich machen.
+
+242
+00:28:42,000 --> 00:28:58,000
+ Genau, ich würde mal sagen, wir gehen jetzt einfach schon in so eine Fragerunde rein und Ideenrunde, weil es geht nicht darum, dass ich sage, wo es weitergeht, sondern das ist eine Sache, die alle letztendlich für sich allein entscheiden oder mitdenken müssen.
+
+243
+00:28:58,000 --> 00:29:03,000
+ Ich bin überhaupt nicht sicher, ob allein die Zahl 50.000, die ich im Raum gestellt habe, ist die sinnvoll.
+
+244
+00:29:03,000 --> 00:29:17,000
+ Das kann ich nicht sagen. Nach meinem Gefühl und meinen Erfahrungen ja, also ich weiß, wie man ein bisschen Community hinbekommt und ich bin halt auch jemand, ich habe auch nicht den Anspruch, alle wirklich zu kennen.
+
+245
+00:29:17,000 --> 00:29:23,000
+ Also die, die mich hier auf dem Camp angesprochen haben, kennen das, wo ich dann als erste frage, okay, wer bist du?
+
+246
+00:29:23,000 --> 00:29:34,000
+ Und ja, wir haben schon vor zwei Jahren, vor vier Jahren, vor 16 Jahren und 18 Jahren, oder schlimmste Erlebnis, Demo in Berlin, steht jemand vor mir, sagt, hallo Padelun.
+
+247
+00:29:34,000 --> 00:29:40,000
+ So, ich völlig in Wahn organisieren, da die Polizei da das, komm, hilf mir mal, wer bist du?
+
+248
+00:29:40,000 --> 00:29:44,000
+ Ja, dein Praktikant.
+
+249
+00:29:44,000 --> 00:29:59,000
+ Aber trotzdem, so, Communities organisieren, ja danke für den Lacher, das war gut. Es ist halt auch eine Sache, die man eben lernen muss und es gibt Leute, die studieren auch so was, wie sowas geht und die kann man entsprechend einbinden.
+
+250
+00:29:59,000 --> 00:30:08,000
+ Aber nochmal, ich würde jetzt gerne einfach Beiträge aus dem Publikum haben, weil so wichtig, was ich sage, ist das nur sekundär.
+
+251
+00:30:08,000 --> 00:30:10,000
+ Da ist ein Mikrofon. Danke.
+
+252
+00:30:10,000 --> 00:30:19,000
+ Also meine Frage ist, wenn man Geld nimmt, dann begibt man sich in Konkurrenz mit den kommerziellen Marktteilnehmern.
+
+253
+00:30:19,000 --> 00:30:25,000
+ Das heißt, da ist man im Wettbewerb, muss vielleicht mehr bieten.
+
+254
+00:30:25,000 --> 00:30:35,000
+ Es kann natürlich sein, dass einige Idealisten dabei sind und sagen, ja, wir wollen das trotzdem noch unterstützen, aber es wird das Klima rauer, es wird auch schwieriger.
+
+255
+00:30:35,000 --> 00:30:43,000
+ Und jetzt konkret, jetzt wenn wir über Mastodon reden, dann hat mir irgendwer gesagt, ja gut, bei Twitter brauche ich nichts zahlen.
+
+256
+00:30:43,000 --> 00:30:49,000
+ Sagen wir nicht direkt, also die Leute, die meisten Leute merken nicht, dass sie zahlen.
+
+257
+00:30:49,000 --> 00:30:56,000
+ Und wenn ich jetzt irgendwie bei Mastodon ein Konto aufmache und dort dann regelmäßig was zahlen soll, warum, wozu?
+
+258
+00:30:56,000 --> 00:31:07,000
+ Also es ist dann schon auch ein Hindernis, wenn wir User von großen Plattformen wegkriegen wollen
+
+259
+00:31:07,000 --> 00:31:14,000
+ und die steigern den Wert unseres Netzwerkes, weil das eben mit der Teilnehmerzahl hochgeht.
+
+260
+00:31:14,000 --> 00:31:16,000
+ Das ist ein dünnes Eis.
+
+261
+00:31:16,000 --> 00:31:19,000
+ Ja, ich finde das Eis gar nicht so dünn.
+
+262
+00:31:19,000 --> 00:31:28,000
+ Also ich will ja nicht, dass die Leute so dumm bleiben, wie sie sind. Also natürlich ist kein Mensch dumm, aber jetzt mal oberflächlich gesprochen.
+
+263
+00:31:28,000 --> 00:31:34,000
+ Also wer noch bei Twitter ist, ist Nazi. Sorry. Also das kann ich nicht anders sehen.
+
+264
+00:31:34,000 --> 00:31:40,000
+ Also da sind einige meiner Freunde dabei und einige meiner besten Freunde sind Nazis, weil sie noch auf Twitter sind.
+
+265
+00:31:40,000 --> 00:31:46,000
+ Sorry, das geht nicht. Wir wissen, dass diese Systeme die Gesellschaft zerstören und zum Faschismus bringen.
+
+266
+00:31:46,000 --> 00:31:52,000
+ Das ist einfach in Studien bewiesen. Du siehst das. Du darfst sowas nicht so aufbauen.
+
+267
+00:31:52,000 --> 00:31:59,000
+ Also deswegen bin ich so böse auch über Facebook, weil zu dem Zeitpunkt wussten wir schon, so darf man das nicht machen.
+
+268
+00:31:59,000 --> 00:32:03,000
+ Es ist bewusst gegen die Gesellschaft gesetzt, nur um Kohle zu machen.
+
+269
+00:32:03,000 --> 00:32:12,000
+ Und wer einfach sagt, ich bleibe aber bei Twitter, weil das kostet nicht, ist, ich nehme anderes Wort, ich sage nicht dumm, ist ein Idiot.
+
+270
+00:32:12,000 --> 00:32:18,000
+ Ich erzähle auch, warum ich Idiot verwende, weil Idiot ist ein sehr, sehr schöner Begriff.
+
+271
+00:32:18,000 --> 00:32:25,000
+ Das kannst du vielleicht besser erklären, weil ich weiß das von dir und du hast es studiert. Moment. Darf ich?
+
+272
+00:32:25,000 --> 00:32:27,000
+ Oder mache ich das wieder alles falsch? Du hast ja ein Mikro.
+
+273
+00:32:27,000 --> 00:32:30,000
+ Nein, das ist voll in Ordnung. Ich habe ja ein Mikro. Du brauchst mir keins reichen.
+
+274
+00:32:30,000 --> 00:32:40,000
+ Das kommt von Ollen Griechen. Idiotos, altgriechisch, das ist ein Mensch, der eigentlich wählen gehen könnte.
+
+275
+00:32:40,000 --> 00:32:45,000
+ Wir müssen bedenken, in Griechenland gab es ja auch viele, die nicht Teil der Demokratie waren.
+
+276
+00:32:45,000 --> 00:32:58,000
+ Also Sklaven, Frauen, Kinder wie heute auch. Aber von denen, die Teil der Demokratie waren, die ordentlichen Männer mit Herkunft.
+
+277
+00:32:58,000 --> 00:33:07,000
+ Wer von denen aber sein demokratisches Recht nicht genutzt hat, also nicht an der Demokratie, an der Politik teilgenommen hat, das war der Idiot.
+
+278
+00:33:07,000 --> 00:33:11,000
+ Ein unpolitischer Mensch.
+
+279
+00:33:11,000 --> 00:33:16,000
+ Deswegen bitte streicht, also das können wir hinterher noch schneiden, dumm raus, das sind Idioten.
+
+280
+00:33:16,000 --> 00:33:22,000
+ Auf guter griechischer Basis, glaube ich, ist das eine schöne Beschimpfungsform. Die gefällt mir.
+
+281
+00:33:22,000 --> 00:33:28,000
+ Weil du hast die Wahl, du kannst für ein Euro im Monat, den haben sogar Obdachlose.
+
+282
+00:33:28,000 --> 00:33:38,000
+ Also als ich noch betteln war, hatte ich den ein Euro in unter acht Minuten. Mit Saxophon schneller.
+
+283
+00:33:38,000 --> 00:33:43,000
+ Ich konnte nicht Saxophon spielen, aber das war ja okay. Andere Geschichte.
+
+284
+00:33:43,000 --> 00:33:49,000
+ Also das ist möglich. Ich kann für ein Euro was Gutes und Vernünftiges und Richtiges tun.
+
+285
+00:33:49,000 --> 00:33:56,000
+ Oder für null Euro und aller Datenabgabe und meine Gesellschaft an die Wand fahren, bei Twitter bleiben oder zu Twitter gehen.
+
+286
+00:33:56,000 --> 00:34:01,000
+ Sorry, für mich ist die Entscheidung klar, wer das falsch macht, ist ein Idiot.
+
+287
+00:34:01,000 --> 00:34:09,000
+ Ausnahmen bestätigen die Regel. Also sorry, ja, also ich bin bei Twitter noch. Also ich habe den Account noch nicht gekündigt.
+
+288
+00:34:09,000 --> 00:34:14,000
+ Ich benutze, ich gehe da aber nicht mehr durch die Timeline, aber ich kann noch Idioten erreichen.
+
+289
+00:34:14,000 --> 00:34:22,000
+ Nämlich die, die noch im Bundestag sind und einige Journalisten per DM. Dafür benutze ich noch Twitter, weil die immer noch nicht rüber gekommen sind.
+
+290
+00:34:22,000 --> 00:34:29,000
+ Und weil ich die noch darüber erreichen kann. Saskia Esken, die ist ordentlich empfedivers. Die kann ich vernünftig erreichen.
+
+291
+00:34:29,000 --> 00:34:36,000
+ Die ist keine Idiotin. Äh, kein Idiot. Weil Idiot gibt es nur in der männlichen Form, weil Frauen durften nicht wählen.
+
+292
+00:34:36,000 --> 00:34:42,000
+ So, eine kurze Nachfrage noch und dann möchten wir andere.
+
+293
+00:34:42,000 --> 00:34:49,000
+ Weil es geht gar nicht um den einen Euro, sondern um das mühsame Einrichten der Zahlung.
+
+294
+00:34:49,000 --> 00:34:55,000
+ Das ist viel mehr ein Hindernis als ein Euro im Monat, sondern ein Kreditkarten.
+
+295
+00:34:55,000 --> 00:35:06,000
+ Also meine E-Bahn ist de6548501610002100214002. Die kann ich da einmal eintippen und dann habe ich meinen Account.
+
+296
+00:35:06,000 --> 00:35:13,000
+ Was ist daran mühsam, außer dass ich mir die merken kann, was andere nicht, aber das steht auf meiner EC-Karte drauf.
+
+297
+00:35:13,000 --> 00:35:24,000
+ Das kann man eintippen. Sorry, PayPal ist auch nicht leichter. Und trotzdem bin ich entsetzt, wie viele Leute per PayPal in unserem Shop Sachen bestellen,
+
+298
+00:35:24,000 --> 00:35:32,000
+ weil wir PayPal irgendwann nicht mehr ignorieren konnten. Ich hasse jeden, der per PayPal bezahlt. Ich halte die Leute für Idioten.
+
+299
+00:35:32,000 --> 00:35:38,000
+ Und trotzdem machen wir es. Also da sind wir genauso inkonsequent wie andere. Na, fast so inkonsequent.
+
+300
+00:35:38,000 --> 00:35:51,000
+ Aber das ist eine Ausrede. Klar, kostenlos klicken ist super, aber es funktioniert auch nicht, weil es gehört auch zum Kommunizieren, gehört Committen dazu.
+
+301
+00:35:51,000 --> 00:36:04,000
+ Und diesen Lastschrift anzuklicken, das ist halt auch Commitment und führt dazu, dass Leute sorgfältiger kommunizieren.
+
+302
+00:36:04,000 --> 00:36:15,000
+ Also aus unserem System hast du keine Hatepostings, keinen Scheiß, keine großen Trollereien und das ohne, dass wir das wegmoderieren müssen.
+
+303
+00:36:15,000 --> 00:36:25,000
+ Also das hat auch noch eine, hilft dem eigenen Geist, sich selber so ernst zu nehmen, dass man auch vernünftig kommuniziert.
+
+304
+00:36:25,000 --> 00:36:32,000
+ Und ich finde das vom Rahmenbau her, Element her, auch sehr, sehr wichtig, eben Geld zu nehmen. Und deshalb ist es auch so wichtig.
+
+305
+00:36:32,000 --> 00:36:43,000
+ Baut kleine, geile Firmen auf, baut kleine, geile Firmen auf, baut kleine, geile Firmen auf.
+
+306
+00:36:43,000 --> 00:36:54,000
+ Wunderbar. Also fühl dich bitte nicht abgebügelt. Also ich bringe das so raus, weil es halt über 40 Jahre erworbene Überzeugung auch bei mir ist.
+
+307
+00:36:54,000 --> 00:37:00,000
+ So lange arbeite ich bereits am Fediverse, ohne das zu wissen, dass es das Fediverse war. Und auch Digitalcourage.
+
+308
+00:37:00,000 --> 00:37:08,000
+ Wir haben heute einen Umsatz von 1,2 Millionen Euro im Jahr. Das sind 4000 Mitglieder, 6000 Dauerspenderinnen und Spender.
+
+309
+00:37:08,000 --> 00:37:15,000
+ Damit machen wir das. Das war extrem mühsam, das zusammenzukriegen und aufzubauen. Ich sage nicht, dass es leicht ist.
+
+310
+00:37:15,000 --> 00:37:27,000
+ Aber ein Fediverse-Server in Oldenburg aufzubauen, sich per Flyer-Alarm oder einer Druckerei im Ort ein paar Fallblätter zu machen und einfach mal alle Briefkästen zu stecken, ja?
+
+311
+00:37:27,000 --> 00:37:34,000
+ Und damit mal loszulegen. Das kann man einfach mal machen und ausprobieren. Und nicht gleich "Mhm, hm, hm, schwierig".
+
+312
+00:37:34,000 --> 00:37:44,000
+ Also ich will wirklich dazu aufrufen, mach das doch mal. Weil was soll schon schief gehen? Immerhin ist man dann beschäftigt und guckt nicht dumme Sendungen auf ProSieben.
+
+313
+00:37:44,000 --> 00:37:55,000
+ Der Signal Angel, nein nicht Signal Angel, vielleicht sind da Fragen aus dem Netz. Ansonsten entscheidest du dann, wer ein Mikro kriegt.
+
+314
+00:37:55,000 --> 00:38:06,000
+ Da kommt noch jetzt super Nachricht auf der Konferenz oder auf der Veranstaltung zu sagen, man soll Geld verdienen und keiner wirft einen Stein aus dem Publikum. Hat mich überrascht. Finde ich total toll.
+
+315
+00:38:06,000 --> 00:38:19,000
+ Aber jetzt reden wir darüber, für einen Service viele kleine Firmen aufzubauen. Das, was ich kenne aus Deutschland, ist da die Welt der kommunalen Rechenzentren zum Beispiel.
+
+316
+00:38:19,000 --> 00:38:27,000
+ Und das ist alles relativ gräuslich. Also wenn viele klein den ähnlichen Service bauen, dass man dann trotzdem noch was Geiles rausbekommt.
+
+317
+00:38:27,000 --> 00:38:38,000
+ Ich sehe das Problem nicht. Also ich habe mit kommunalen Rechenzentren wenig zu tun. Außer, dass ich sie manchmal Leute kenne, die die hacken.
+
+318
+00:38:38,000 --> 00:38:47,000
+ Und dass ich Leute kenne, die mir sagen, guck da als Big Brother Award-Vergeber nicht hin. Weil, wenn du was da siehst, wird dich erschrecken.
+
+319
+00:38:47,000 --> 00:38:57,000
+ Aber, hey, baut kleine, geile Firmen auf. Du hast halt irgendwo deinen Server. Du hast eine Software, die irgendwo in einem Git liegt.
+
+320
+00:38:57,000 --> 00:39:05,000
+ Wir müssen uns noch überlegen, wie wir die Entwicklung finanzieren. Weil die kleinen, geilen Firmen müssen dann auch den Entwicklern, also den muss man dann Geld aufzwingen.
+
+321
+00:39:05,000 --> 00:39:13,000
+ Weil einige wollen ja unbedingt gratis arbeiten, bis sie eine Freundin gefunden haben. Und dann ist das Projekt zum Abschluss freigegeben.
+
+322
+00:39:13,000 --> 00:39:20,000
+ Entschuldigung, ich bin manchmal ein bisschen sehr böse. Aber ich liebe provokante Sprechen und, ja, Entschuldigung.
+
+323
+00:39:20,000 --> 00:39:33,000
+ Aber, danke. Ich sehe das, also ich will dieses Problem gar nicht sehen. Weil ich will noch verdammt nochmal, und ich bin hier auf einer der geilsten Veranstaltungen der Welt,
+
+324
+00:39:33,000 --> 00:39:39,000
+ wo nur richtig tolle Leute sind. Ihr macht das natürlich richtig. Und ihr macht nicht irgendeinen Scheiß drauf.
+
+325
+00:39:39,000 --> 00:39:51,000
+ Trotzdem wird es so sein, dass man plötzlich eine Firma hat, wo Mobbing passiert, wo man sich mitsteuern, wo man plötzlich einen Coach holt, um sich wieder zu sprechen.
+
+326
+00:39:51,000 --> 00:39:58,000
+ Auch das Fee-Diverse wird nicht das nette kleine Netz bleiben für alle, sondern da wird das Gleiche passieren wie in anderen Netzen auch.
+
+327
+00:39:58,000 --> 00:40:04,000
+ Nur können wir viel besser damit umgehen. Und wir können es gestalten. Und wir können auch mal was umprogrammieren.
+
+328
+00:40:04,000 --> 00:40:16,000
+ Lena hat eben einen Vortrag hier auch gehalten über, wer zum Beispiel so eine Rätedemokratie, eine Möglichkeit ins Fee-Diverse einzuziehen.
+
+329
+00:40:16,000 --> 00:40:22,000
+ Also nicht ins Gesamte, sondern ein Teil davon. Weil man kann es ja nicht kolonialisieren und will es auch nicht kolonialisieren.
+
+330
+00:40:22,000 --> 00:40:33,000
+ Also wo man sich vereinbart, wie soll denn etwas funktionieren und wie kriegen wir auch die Teilnehmerinnen und Teilnehmerinnen, zumindest die, die mitbestimmen wollen und mitentscheiden wollen,
+
+331
+00:40:33,000 --> 00:40:40,000
+ dazu. Wie gibt man Leuten wirklich auch die Macht über diese Themen? Wie macht man das?
+
+332
+00:40:40,000 --> 00:40:49,000
+ Also Rätedemokratie ist überhaupt eine Möglichkeit. Im Moment ist das halt, auch bei Digitalcourage, eine Wildküheherrschaft.
+
+333
+00:40:49,000 --> 00:40:56,000
+ Also ich habe noch vier weitere Moderatorinnen und so, die es immer scheiße finden, dass ich mich immer durchsetze.
+
+334
+00:40:56,000 --> 00:41:04,000
+ Also das, und wir müssen uns irgendwann wirklich mal hinsetzen und überlegen, so Grundregeln, auch das müssen wir machen.
+
+335
+00:41:04,000 --> 00:41:12,000
+ Natürlich muss man sich auch juristisch viel überlegen. Also man muss sich das Plattformgesetz anschauen und halt gucken, was bedeutet das für einen.
+
+336
+00:41:12,000 --> 00:41:20,000
+ Weil jetzt Gesetze, die gemacht worden sind, sind zur Eindämmung von Großkonzernen gemacht worden. Passen wir da noch rein als viele kleinen Firmen?
+
+337
+00:41:20,000 --> 00:41:27,000
+ Vielleicht ja. Also ich habe das auch nicht alles immer verfolgt und ich habe jetzt kürzlich eine Politikerin getroffen,
+
+338
+00:41:27,000 --> 00:41:32,000
+ zusammen mit ihrer Tochter, die auch Politikwissenschaften studiert, aber auf keinen Fall in die Politik gehen will.
+
+339
+00:41:32,000 --> 00:41:38,000
+ Und dann sagte ich zu ihr, doch, doch, bitte tu das. Wir brauchen intelligente, junge Menschen, die schon durch ihre Eltern gelernt haben,
+
+340
+00:41:38,000 --> 00:41:46,000
+ wie scheiße es ist, in der Politik zu sein, die deswegen resilienter sind und diese ganzen Scheißgesetze, die die Eltern gemacht haben,
+
+341
+00:41:46,000 --> 00:41:55,000
+ dann wieder zurück abwickeln. Und das kann auch Spaß machen. Es ist nervig, das ist ein Saustall in der Politik, aber wenn man einmal akzeptiert,
+
+342
+00:41:55,000 --> 00:42:01,000
+ dass alle ihre Interessen zusammenbringen, auch wenn die scheiße sind, und man drüber redet und versucht, Entscheidungsebene zu finden,
+
+343
+00:42:01,000 --> 00:42:10,000
+ dann stellt man plötzlich fest, so bescheuert ist das gar nicht. Also das sind halt Elemente, gerade wenn man lauter, wir lassen das jetzt mal mit dem singen,
+
+344
+00:42:10,000 --> 00:42:18,000
+ wenn man lauter, kleine, geile Firmen aufbaut. Also auch lernt dazu. Das Schöne ist ja, also anders als im Gesundheitswesen,
+
+345
+00:42:18,000 --> 00:42:25,000
+ wo die Intelligenz aus der Landschaft rausgezogen wird, nur noch in Krankenhauskonzerne und Ärzte eigentlich nur noch dafür da sind,
+
+346
+00:42:25,000 --> 00:42:37,000
+ die Patientin nach Vorschrift in die Konzerne zu leiten, damit mehr Geld in die amerikanischen Rentenfonds fließt und damit Leute nicht mehr lernen müssen,
+
+347
+00:42:37,000 --> 00:42:47,000
+ also dümmer werden in der Breite, es nur noch Auslieferungsfahrer gibt und Roboter, die was herstellen, dass wir damit wieder Intelligenz zurückkriegen,
+
+348
+00:42:47,000 --> 00:42:53,000
+ weil du musst was lernen, um eine Firma zu betreiben, du musst was lernen, um Menschen anzuleiten, du kannst nicht dumm bleiben.
+
+349
+00:42:53,000 --> 00:43:01,000
+ Und das ist etwas, was mich als Künstler, das ist mein Hintergrund, ich bin Künstler, halt super interessiert. Intelligenz, wo Leute wirklich wieder sagen,
+
+350
+00:43:01,000 --> 00:43:10,000
+ ja stimmt, das ist cool, wenn man das so macht. Oder überhaupt auch, was wir hier machen, also mit Regeln neu zu lernen, also geile Regeln überall
+
+351
+00:43:10,000 --> 00:43:19,000
+ und jeder versucht zu übertreten. Ich habe Parkplatzmanagement gemacht, bei allen möchte ich mich herzlich entschuldigen, aber das war richtig geil,
+
+352
+00:43:19,000 --> 00:43:24,000
+ wie die Leute versucht haben, die Regeln zu übertreten und für mich war es richtig geil, zu versuchen, das zu verhindern.
+
+353
+00:43:24,000 --> 00:43:31,000
+ Es hat viel Spaß gemacht, ich müsste mal drüber was schreiben und ich glaube, das ist auch das Tolle, dass wir Intelligenz in die Breite bekommen,
+
+354
+00:43:31,000 --> 00:43:38,000
+ deshalb ist es auch wichtig, dass es nicht einen großen Server gibt, sondern ganz viele, überall in der Stadt, wo Leute auch ansprechbar sind.
+
+355
+00:43:38,000 --> 00:43:47,000
+ Das heißt, in Bielefeld, wenn wir da Unsinn machen, können Leute zu uns kommen, uns besuchen auf einen Kaffee und uns sagen, was wir schlecht gemacht haben.
+
+356
+00:43:47,000 --> 00:43:56,000
+ Also wir sind nicht mehr die dumme Hotline, sondern Menschen, Menschen kommunizieren miteinander und nutzen dabei Technik, geil.
+
+357
+00:43:56,000 --> 00:44:00,000
+ So, Entschuldigung, ich habe mich gehen lassen.
+
+358
+00:44:00,000 --> 00:44:03,000
+ Rüchter, das ist dann schon die letzte Frage?
+
+359
+00:44:03,000 --> 00:44:05,000
+ Oh Scheiße, ich habe zu viel geredet.
+
+360
+00:44:05,000 --> 00:44:18,000
+ Genau, ich hätte noch eine Frage, also wenn man Richtung Profitorendiertes Unternehmen geht, ist es ja dann oft schon schwierig, dann noch die Freiwilligen zu finden,
+
+361
+00:44:18,000 --> 00:44:28,000
+ die was halt ehrenamtlich mitmachen oder Spenden einzusammeln, weil dann ist man ja wirklich dann komplett in der Profitwelt sozusagen
+
+362
+00:44:28,000 --> 00:44:40,000
+ und mich wird es wundern, wie habt ihr das zum Beispiel bei Digital Courage so geschafft, dass ihr trotzdem noch sozusagen so Non-Profit irgendwie noch bleibt?
+
+363
+00:44:40,000 --> 00:44:49,000
+ Ja, wir sind ehrlich. Das ist das Wichtige. Wir sagen also A) wir sind ehrlich zu uns, indem wir sagen, wir, die wir bezahlt werden,
+
+364
+00:44:49,000 --> 00:44:54,000
+ wir sind dafür da, dass die Arbeit der Ehrenamtlichen nicht für die Füße ist.
+
+365
+00:44:54,000 --> 00:44:59,000
+ Also versuchen, uns klarzumachen, wir machen Service für Leute, die ehrenamtlich arbeiten.
+
+366
+00:44:59,000 --> 00:45:07,000
+ Und Ehrenamtlichen erzählen wir auch ganz klar, du kannst super gerne ehrenamtlich hier arbeiten, du musst aber verstehen, wir als dein Servicepersonal,
+
+367
+00:45:07,000 --> 00:45:15,000
+ wir werden bezahlt, du musst damit klarkommen. Und du hast es sogar relativ schwer, gerade für Ehrenamtliche, so eine Gruppe, die bezahlt wird und da sind,
+
+368
+00:45:15,000 --> 00:45:21,000
+ noch schwieriger reinzukommen. Das sagen wir aber den Leuten. Wir sagen dir, das ist halt schwer, es muss auch trotzdem passen.
+
+369
+00:45:21,000 --> 00:45:25,000
+ Das kann auch manchmal ein halbes Jahr dauern, bis jemand wirklich angedockt hat.
+
+370
+00:45:25,000 --> 00:45:33,000
+ Dazu kommt, dass wir natürlich auch jemand eingestellt haben, nur dafür da, Ehrenamtliche nicht zu vergessen.
+
+371
+00:45:33,000 --> 00:45:40,000
+ Etwas, was wir ganz häufig, also ich habe das beim Waffelbacken oder irgendeinem anderen Vortrag schon gesagt,
+
+372
+00:45:40,000 --> 00:45:54,000
+ wie toll das ist, was der CCC aufgebaut hat, mit eben, nahezu ausschließlich ehrenamtlichen Strukturen, geschafft hat, so ein Festival selbstfinanziert auf die Beine zu stellen.
+
+373
+00:45:54,000 --> 00:45:59,000
+ Wie hammertoll das ist. Ich weiß aber auch, genau einmal applaudieren dem...
+
+374
+00:46:04,000 --> 00:46:13,000
+ Ich weiß aber auch, wie viele Leute dabei verbrannt wurden und richtig kaputt gegangen sind. Und das ist etwas, was mir auch schon in der Punk-Bewegung wirklich wehgetan hat,
+
+375
+00:46:13,000 --> 00:46:22,000
+ geniale Leute zu sehen, die einfach verrecken, weil sie halt lieb sind, weil sie voll reinarbeiten und überhaupt nicht schaffen, auf sich selber zu achten.
+
+376
+00:46:22,000 --> 00:46:33,000
+ Und das versuchen wir dann halt hinzukriegen. Und ich sage auch so, eine Welt ohne ehrenamtliches Mitarbeiten wird nicht funktionieren.
+
+377
+00:46:33,000 --> 00:46:40,000
+ Gerade da, wo es um Bildung, Kulturen, ähnliches geht, wird immer auch schwierig sein, das gehört auch mit dazu, Sachen voneinander abzuringen.
+
+378
+00:46:40,000 --> 00:46:52,000
+ Also Narziss und Goldmund, wer das Buch gelesen hat, also wirklich um das wahre, eine schöne zu ringen und dafür dem sein Leben zu widmen, das wird nie außer...
+
+379
+00:46:52,000 --> 00:47:01,000
+ Also das wird nie anders sein. Man kann mit Geld auch Sachen, Strukturen komplett tot kriegen, aber man muss damit vor allen Dingen ehrlich umgehen.
+
+380
+00:47:01,000 --> 00:47:10,000
+ Ja Lena, ich möchte dir ganz herzlich danken für deine musikalische Darbietung. Vielen Dank für deine musikalische Darbietung, das war sehr schön.
+
+381
+00:47:10,000 --> 00:47:17,000
+ Ich finde es nicht nur schön, dass du Musik gemacht hast, ich finde es auch schön, dass du einen Künstler mitgebracht hast, dass du deinen persönlichen Künstler mitgebracht hast.
+
+382
+00:47:17,000 --> 00:47:22,000
+ Und ich möchte ihm jetzt gerne, wenn du erlaubst, noch kurz die Frage stellen, wenn du sagst, bau kleine Firmen auf.
+
+383
+00:47:22,000 --> 00:47:34,000
+ Mit deiner Erfahrung, welche Geschäftsmodelle schweben dir davor, welche Art von Unterstützung, wie würdest du das konkret zum Beispiel aufbauen wollen mit deinem Erfahrungshintergrund,
+
+384
+00:47:34,000 --> 00:47:44,000
+ dass das ein Geschäftsmodell ist, was man ohne das Wissen nachzuhaben vorher einfach mal überlegen kann. Wie siehst du das aus deiner Perspektive?
+
+385
+00:47:44,000 --> 00:47:53,000
+ Also ich bin ein bisschen naiv, gerade was auch Firmen betrifft, aber ich habe verschiedene Sachen gelernt.
+
+386
+00:47:53,000 --> 00:48:02,000
+ Keine Investoren, ganz wichtig, keine Assets, die man irgendwie versilbert und hofft viel Geld zu machen.
+
+387
+00:48:02,000 --> 00:48:17,000
+ Mein Modell sind kleine Handwerksbetriebe, also eine kleine Gruppe, ordentlich arbeiten, ein Kredit bei der KfW vielleicht.
+
+388
+00:48:17,000 --> 00:48:29,000
+ Vielleicht können wir mal gemeinsam, das war so auch so eine Idee beim Fee Diverse, mal einen Basis-Businessplan ausarbeiten, wo so drin steht, das müsste man hinkriegen,
+
+389
+00:48:29,000 --> 00:48:36,000
+ so könnte das Wachstum sein, muss man schauen in der Stadt mit so und so vielen Leuten, passiert das, im flachen Land muss man das irgendwie so ansiedeln,
+
+390
+00:48:36,000 --> 00:48:44,000
+ da so, dass man schon mal mit der KfW das vorbespricht und wenn jemand ankommt, sagt, ich möchte sowas aufbauen, dass sie es angucken, den Menschen angucken,
+
+391
+00:48:44,000 --> 00:48:56,000
+ würde das hinkriegen, also eher diese Form Kreditwürdigkeit, also nicht nur Kreditfähigkeit und dann eben arbeiten und dann das machen und vor allen Dingen sich nicht irritieren lassen.
+
+392
+00:48:56,000 --> 00:49:03,000
+ Es wird dann nicht so sein, dass ich dann als erstes mir mal den dicken Benz hinstelle, also Elektro natürlich, selbstverständlich Elektro,
+
+393
+00:49:03,000 --> 00:49:11,000
+ sondern ich werde halt weiter mit dem Fahrrad fahren, also bescheiden bleiben, aber nicht zu bescheiden, das ist auch wichtig, man muss auch schon die Ansprüche hochsetzen,
+
+394
+00:49:11,000 --> 00:49:20,000
+ ja, weil es geht ja auch darum, das Geld in Umlauf zu bringen, ja, ich muss ja auch Geld ausgeben können und nicht nur an Vermieter und für das Allernotwendigste,
+
+395
+00:49:20,000 --> 00:49:29,000
+ sondern auch mal den Ferienhausbesitzer hier im schönen Mildenberg oder so und dafür genügend haben, also zu bescheiden sollte man nicht sein,
+
+396
+00:49:29,000 --> 00:49:39,000
+ einen guten Plan haben, sich auch mit Leuten eben zusammentun, von denen man schon hofft, dass sie das ordentlich machen, was denn ihre Aufgaben sind,
+
+397
+00:49:39,000 --> 00:49:52,000
+ also auch bei Digitalcourage war es halt auch so, es ist manchmal auch Glück, also dann trifft man plötzlich genau die Person, also Detlef Sieber als Geschäftsführer,
+
+398
+00:49:52,000 --> 00:50:02,000
+ also der Typ hat Ingenieur gelernt, ist Nerd, war dann in der Accenture, also davor die Agentur daraus Accenture geworden,
+
+399
+00:50:02,000 --> 00:50:14,000
+ wurde dann Bürgermeister in einer kleinen Gemeinde bei Wiesbaden, hat dann eine Damen-Volleyball-Bundesliga-Mannschaft gemanagt,
+
+400
+00:50:14,000 --> 00:50:24,000
+ wo er alles gelernt hat, was man für Digitalcourage braucht, nämlich diese verschiedenen Ebenen von Idealbetrieb, Geschäftsbetrieb, Spektbetrieb und so weiter,
+
+401
+00:50:24,000 --> 00:50:34,000
+ und sowas ist halt Glück und dann hatte er noch als ex-ehmaliger Bürgermeister, der freigestellt wurde, weil der andere Kandidat und so weiter,
+
+402
+00:50:34,000 --> 00:50:42,000
+ hatte der noch ein Einkommen und konnte dafür recht günstig bei uns arbeiten, sowas ist Glück und ich sag mal, das Glück gehört den Tüchtigen,
+
+403
+00:50:42,000 --> 00:50:49,000
+ das ist ein blöder Satz, der hat mich immer geärgert, aber es stimmt, also einfach was machen, wenn man so sieht, es ist völlig aussichtslos,
+
+404
+00:50:49,000 --> 00:50:57,000
+ erstmal rausgehen und Leute anquatschen, wie hier auf dem Feld, hier läuft man, versucht von einem Ende zum anderen zu kommen und hat dabei,
+
+405
+00:50:57,000 --> 00:51:05,000
+ also kann man einen Tag mit zubringen, vielleicht schafft man doch nicht bis drüber zu kommen, weil halt so viele Möglichkeiten und Gelegenheiten da sind,
+
+406
+00:51:05,000 --> 00:51:14,000
+ und dann, was, wie, was, also wir sollen enden, ja genau, und was sollt ihr also tun und singt bitte alle mit.
+
+407
+00:51:14,000 --> 00:51:36,020
+ mit. Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+
+408
+00:51:36,020 --> 00:51:48,000
+ Und nochmal! Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+
+409
+00:51:48,000 --> 00:51:59,680
+ Baut kleine geile Firmen auf, baut kleine geile Firmen auf, baut kleine geile Firmen auf.
+
+410
+00:51:59,680 --> 00:52:12,840
+ Danke schön, danke liebe Lena Simon. Kauft ihr Buch "Digitale Mündigkeit", Standardwerk.
+
+411
+00:52:12,840 --> 00:52:20,440
+ Wirklich, wirklich. Ich wollte ich jetzt geschrieben, ich bin echt voll neidisch. Aber so gut bin ich
+
+412
+00:52:20,440 --> 00:52:26,800
+ nicht. Nee, Mitgliedswerbung mache ich jetzt keine. Ihr habt es ja begriffen. Das kann nur
+
+413
+00:52:26,800 --> 00:52:32,120
+ funktionieren mit Mitgliedsbeiträgen und Spenden. Aber das habe ich ja am Anfang schon erzählt.
+
+414
+00:52:32,120 --> 00:52:41,000
+ Alles klar, dann vielen Dank für euren Vortrag und dann machen wir hier mal Platz für den letzten
+
+415
+00:52:41,000 --> 00:52:47,440
+ Beitrag heute und genau, wir sehen uns die Tage. Dank an die Technik, Dank an die Übersetzerinnen
+
+416
+00:52:47,440 --> 00:52:54,720
+ und Übersetzer, Dank ans Wok, Dank an die Angel, die hier mitgearbeitet haben und dem kranken Nachbarn
+
+417
+00:52:54,720 --> 00:52:57,520
+ danken wir auch.
+
+418
+00:52:57,520 --> 00:53:00,520
+ SWR 2020
+

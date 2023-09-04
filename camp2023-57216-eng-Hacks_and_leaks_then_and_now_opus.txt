@@ -1,0 +1,819 @@
+ [MUSIC]
+ Hello.
+ Nice to see you all again in this sun coming from the rear,
+ grilling everybody.
+ Please still remember, drink more water and keep the walkways free.
+ As we talked so much already due to the power failure,
+ sadly, neither on the stream nor on the recording.
+ I without further ado give it to Gabriella Coleman and
+ to Jeremy Hammond to talk about activism.
+ >> Great, thanks so much.
+ >> [APPLAUSE]
+ >> All right, so I'll be contextualizing
+ the hack and leak, no surprise.
+ So I have a very specific definition for the hack and leak.
+ So it's a tactic executed by hacker outsiders who hack deliberately into
+ some org server place to snatch documents and material.
+ They publicize the intrusion, that's really important, and
+ stolen material to drum up interest in the leaks.
+ It was initially used mainly for whistle blowing, but
+ is now also used by different actors, like nation states, for different purposes.
+ I'll be concentrating more on this sort of hacktivist tactic.
+ Today, it's really a firm part of the hacktivist landscape.
+ Guacamaya, if you have not heard of them, are rocking the hack and
+ leak in Latin America.
+ They hacked the Mexican military, for example.
+ And really since 2011 and 12, you really just have a tremendous amount of
+ sort of hacktivist activity with this very deliberate tactic.
+ As I sort of mentioned after our technical snafu, this was so
+ not obvious to put together the chocolate hack and
+ the peanut butter leak and put them together.
+ And in fact, one of the fascinating things was that I interviewed for
+ a very different project.
+ A lot of hackers who were like pwning and owning systems in the 90s and 2000s.
+ And many were not ideologically inclined to do hacktivism, but
+ some certainly were, and there were a lot of hacktivists doing also website
+ defacements.
+ And one hacker actually from Europe during an interview said,
+ I wish we had done something about it, but we didn't.
+ I think we could have exposed a lot of corruption, a lot of wrongdoing of a lot
+ of high profile political people because they had access to their servers.
+ Now just to kind of give you a sense of how much more hacking and
+ leaking we have, here's a list from 2010 to the present and it's partial.
+ I could add another dozen examples.
+ And before 2010, you've really got four in that sort of English speaking world,
+ at least, and only two of them really kind of fit with my definition.
+ So as I mentioned, it was not obvious.
+ 2009 is really the first instance where you have this tactic fully formed.
+ But what's interesting about the two, which I'll get to later,
+ was that people didn't copycat them.
+ And it wasn't until anonymous hacktivists actually independently and
+ accidentally stumbled upon this tactic that then it really started to
+ cement into a template for emulation.
+ So here's a very truncated genealogy.
+ So even though I sort of identify 2009 as the kind of time where this
+ came into being, I often like to give analog examples.
+ And there is a really amazing example of a group of activists,
+ the Citizens Commission to expose the FBI, who has heard of them.
+ So a few, they actually broke into an FBI field office in media Pennsylvania,
+ took like three, four suitcases of files, photocopied the documents,
+ sent them to journalists, and eventually, co-intel pro,
+ one of the most horrific sort of programs against activists was exposed.
+ And this is a kind of hack and leak.
+ Obviously, it's very hard to break into a building and take documents, so
+ that wasn't really replicated very often.
+ Now, it wasn't until 2003 where you have something similar,
+ where you have some big email dumps that were not from hacks.
+ And one has to do with a deep old voting machine.
+ Someone found documents and source code and
+ email on unencrypted FTP server, took them.
+ And then some obscure government official kind of dumped the Enron emails,
+ they were involved in fraud.
+ And these were super interesting because basically journalists could not be
+ bothered to mind them, right?
+ And it took amazing amount of effort to even sort of cover the documents that
+ were found.
+ In the case of D-Bold, for example, there were some stories about
+ the vulnerabilities, but in this piece, actually,
+ Paul Krugman is reflecting why the fuck didn't anyone go into the documents and
+ emails and report on them.
+ Now, going through email is a bitch.
+ No one likes to do it.
+ It's difficult.
+ You didn't really have boutique tech reporting as much as you did today.
+ So there's reasons for that, but
+ I think it also shows that it really wasn't on people's mental map.
+ So in 2009, you have two bona fide hacks and leaks.
+ You have one against a university in England, and it was Climate Gate.
+ And we don't know who took those emails.
+ They dumped them to kind of seed mistrust around climate science.
+ And this got a lot of news.
+ It was all over the news.
+ I'm not gonna talk about it.
+ It didn't seem to inspire copycats.
+ The second one was given to WikiLeaks and was signed anti-fascist hackers.
+ And it was against Holocaust denier David Irving.
+ And it did make a little bit of the press.
+ And eventually, we learned that it was Jeremy Hammond.
+ He did it.
+ And this is, again, one of the first bona fide hacks and leaks.
+ >> Fucking hack-nappy website.
+ >> [APPLAUSE]
+ Now what's so interesting is that eventually, I could sort of interview him about this stuff.
+ And I sort of asked about, where did you get this idea?
+ What was your sort of inspiration, right?
+ It wasn't that one day he's like, here's the peanut butter, here's the chocolate,
+ I'll put it together.
+ He was part of the hacker underground.
+ And there was a cultural movement called Antisec.
+ Who here heard of Antisec?
+ Not the recent one, but the one from early 2000s.
+ Yeah, Antisec won.
+ Very few people.
+ So in the early 2000s, a bunch of hackers who were part of the underground were
+ professionalizing, they were getting jobs.
+ And there was a small crew of people who were like, screw that,
+ we wanna preserve our cultural kingdom.
+ We want our exploits and vulnerabilities.
+ So they went on a rampage against white hat hackers.
+ And what they did was they hacked them, took their emails, dumped them, but
+ not for whistle blowing, it was just for shaming them, right?
+ And Jeremy was like, that's badass, but maybe we can reformulate that and
+ reformat that for political purposes.
+ And initially, he would take emails and then share them with a small network of
+ people, not publicly.
+ And it wasn't till the WikiLeaks era where again,
+ the chocolate and peanut butter came together.
+ So he did this in 2009, he's on probation, very independently.
+ Anonymous comes into being, and very accidentally,
+ I don't have the time to go into the details.
+ They start to stumble on emails, into emails, sometimes not through hacks,
+ sometimes through hacks, and it's all over the news.
+ Jeremy's on the sidelines, he's super excited.
+ At a certain point, he's like, I can't help myself, I'm gonna kind of join.
+ And he does when LulzSec is disbanding, and very deliberately creates Antisec,
+ a kind of new version, where you're really deliberately hacking and
+ leaking and some side of sabotage as well.
+ Doing things like fuck FBI Fridays,
+ where you try to time a hack and leak every Friday.
+ So that's a very brief genealogy.
+ There's lots of interesting things else to say.
+ But in 2012, a lot of people get arrested, and
+ it's not really clear whether this would continue, right?
+ It's all over the news, but are people gonna basically copycat it, right?
+ And I wasn't sure myself.
+ I myself at this point also thought this tactic existed since the 1980s.
+ I took it for granted.
+ In 2014, the answer came with LulzSec Peru, with Phineas Fisher.
+ Then you also have Guardians of Peace, which is a nation state group, right?
+ So the tactic begins to morph, but
+ it really starts to grow some serious roots into the ground.
+ And what is also interesting, and
+ I'm wrapping up so that we could turn over to Jeremy, is that you have
+ groups like Phineas Fisher, who are not quite as visible.
+ They're not there doing 50 days of hacking in a row.
+ They're striking maybe one year or a few times, then in 2016 for
+ a few more times, but they're writing manifestos with extremely detailed
+ instructions for how not to get caught, right?
+ And indeed, whether it's Phineas Fisher or Guacamea,
+ now we have this tactic where these groups, individuals,
+ who knows who are doing this, but evading capture.
+ So that's all I'm gonna say.
+ If you're interested in the 40 page version, feel free to email me.
+ But otherwise, I'm now gonna turn it over to Jeremy for his bit.
+ Thank you.
+ >> [APPLAUSE]
+ >> Okay.
+ >> Okay.
+ >> Beale, you're the best.
+ >> I've been learning this for a long time.
+ I was just learning it myself, learning it by doing basically.
+ I'm a back encoder and I'm pretty skilled at remote intrusion, but
+ I'm not actually particularly the best, right?
+ None of us are, but what I found is that how many 15 million security
+ contractors are there that could be a potential Snowden but ain't?
+ Because in the United States, a lot of tech workers and
+ developers are basically complicit with the system.
+ How do I full screen this shit?
+ This is very embarrassing.
+ >> [LAUGH] >> I don't use PowerPoint, right?
+ My God.
+ Command F.
+ So anyways, white hats.
+ My God.
+ Thunderbird?
+ All right, so what to do?
+ This is also single slides, but I can just do it on mine.
+ Sorry about this.
+ There we go.
+ All right, let's burn some shit.
+ So it's time to draw a line of the sand.
+ And it's time for hackers to develop some class consciousness.
+ Occupy Wall Street, we're the 99%.
+ But there's obviously intersectionalities and so forth.
+ And I think honestly we've been a little bit too patient with those who are
+ complicit with the corporate security.
+ These professionals are harmless now.
+ Now granted, I am so inspired by what y'all have built here.
+ I wish we could do the same thing in the United States where it's desperately
+ needed.
+ But what we have right now, how things have changed,
+ I just got a smartphone like two years for the first time when I got out of prison.
+ I was on all these ridiculous monitoring shits.
+ And I was just coming to terms with the rise of big tech and
+ what Corey Doctorow calls in shitification and
+ all these new complex ideologies that test creals like the Musks and
+ the Peter Thiels and this crypto stuff.
+ This futures and where those are left behind.
+ And all this Panopticon surveillance stuff would only be made possible by
+ those developers who had chose the paycheck over principle.
+ And so, and hackers, the vision of information was just free.
+ We'd all just result in this utopian, but
+ unfortunately was not able to contend with the forces of neoliberal capitalism,
+ which is a masterful recuperation of hackers.
+ That's why you see hack labs turn to hacker spaces and now maker spaces and
+ stuff like that and DefCon and so forth, right?
+ So it's time to make hacking a threat again.
+ >> [APPLAUSE]
+ >> I love those little fishes, man.
+ But hey, so these are some tips and stuff like that that I thought what were our
+ strengths that made work.
+ Anonymity, encryption, ops, compartmentalization, need to know.
+ I will say that the reasons why I've been busted at any of these times is not
+ because of any of the failures of the technology itself.
+ First off, shout out to the Tor project.
+ I relied on that shit for nine months and that's not how they caught me.
+ I made my own mistakes by running my mouth mostly and trusting people and so
+ forth, but encryption works.
+ Al Snowden said it himself.
+ But if you just need to be precise though, of course, right?
+ What also works is memetic action.
+ Replicable action, creating openings, be like water like they said in Hong Kong,
+ I believe.
+ Basically, I've worked in a lot of protests and organizations and so forth, right?
+ And I'm an anarchist, but so we have a criticism of centralized and
+ hierarchical organizational structures and I think the future is more memetic
+ action. I think that's one of anonymous' strengths is to learn how to the virality.
+ And also because you don't have to wait to do it yourself.
+ You could just be inspired.
+ If you see something, it recognizes it.
+ Like I have some examples down here.
+ Stuff like graffiti, raves, flash mobs, hopping and turnstile, team takeovers and
+ so forth.
+ Or like in Chicago, we have like these team takeovers, these slides where people
+ just have these spontaneous public gatherings and so forth.
+ That just, it's guerrilla stuff, hit and run.
+ Diversity of tactics.
+ You know, there's no one way to do it.
+ There's many ways.
+ There's many worlds.
+ You know, sometimes you have to know what card to play at the right moment.
+ Sometimes it's just got to boil over though and you got to take action.
+ But I came up handing flyers and going to anti-war protests and stuff like that and
+ thinking possibly naively that you could change things by that the people in power
+ will be willing to listen to you or they'll be able to, you could achieve reforms
+ through this system.
+ It took my head being whacked by batons.
+ It took a lot of time in jail and a lot of bogus charges in jail.
+ Sometimes it is, sometimes it didn't do it though.
+ And I had to learn that the whole thing just has to go completely.
+ Right?
+ And so direct action, hey, it gets the goods, baby.
+ There's a lot of activism though.
+ You know, you don't all have to, we don't all got to be the hero to break stuff.
+ You know, we choose our own level of involvement.
+ We're all not uniquely positioned in our lives.
+ Again, there's all forms of defensive hacktivism.
+ These hacker spaces creating these incubations and developing software and
+ audits are all part of this diversity of tactics.
+ Decentralized deterrence, discourage recruitment of cops, law enforcement,
+ white hats.
+ If they thought, first off, a cop shouldn't be able to get a bar in any fucking place,
+ you know, anywhere, they shouldn't, you know, if white hats were like that too,
+ maybe we'd have less white hats developing the hacking team spy shit,
+ the surveillance, all that.
+ So Antisec, big fan, we chose targeting the white hats as the weak link because
+ also, first off, their emails, they got the credentials, they got the live
+ vulnerabilities, they got the keys to the kingdom.
+ So we're after that shit.
+ Get the mail, get it all.
+ All right.
+ Mistakes were made.
+ But they didn't stop us from learning our lessons and moving on.
+ You know, my first time I hacked a protest wire is like a right wing counter
+ counter protester thing.
+ They were kind of like doxing us.
+ And like Biela had said, a lot of the work I was doing was a lot of anti-fascist
+ work, knowing and mapping the right wing networks.
+ And again, like hacking that, all of it has to be spectacular front page news
+ defacement.
+ Sometimes it's like quietly and listen, right?
+ And knowing where to distribute that data to those that matter.
+ You know, we need to know who these Nazis are in our neighborhoods.
+ We need to know their connections, whether they are also police officers or
+ work in security themselves or generally.
+ And also it works.
+ You know what I mean?
+ So the David Irving one, I went after that because he was on a speaking tour.
+ And we did the secret location and all this type of stuff.
+ And so we were able to hack his emails, get all the meeting locations he had to
+ cancel it.
+ Also the attendees, those who attended, these neo-Nazis and so forth.
+ So now I chose to release it to WikiLeaks because that was a stable platform that
+ was at the time that distributed no questions asked, right?
+ And so it's like, you know, it's one of the difficult things for those who are
+ breaking in, whether it's physically, like the example you had mentioned, or
+ digitally, like.
+ But fortunately, y'all are fucking the greatest because there's now many
+ distributed distribution systems, D.secours, of course, right?
+ Anyways, back to this.
+ Imprecise and undisciplined technical execution, like you've got to be on point,
+ right?
+ You know, hacking and stuff is like you grind it.
+ They're doing it for the paycheck, nine to five, but we're all night online,
+ baby.
+ You know what I mean?
+ We just need to find that one mistake, right?
+ But the reverse is true because you also have to be 100% accurate 100% of the time.
+ And you might get away with it or so you thought, but years later, man, that log
+ file or whatever the fuck they did, come get your ass.
+ So just be precise.
+ Persistent identities and crossing streams.
+ Crossing streams, OK, so I hacked this site.
+ I was, you know, using aliases tied to my name.
+ I was young and I know what the hell I was doing.
+ But while at the same time also breaking into shit and then people are just
+ obviously able to see two and two together because I did not
+ compartmentalize my life and it was very easy for them to get.
+ So you can't really do above ground and underground stuff at the same time.
+ I mean, you can, but we all have a little bit of multiple personality stuff.
+ But persistent identities.
+ During anonymous, I attempted to have multiple a dozen nicknames or something
+ like that change at a different time and place, you know, and, you know,
+ if you do a hack, it's not really a good idea to use the same identity over and
+ over and over again because you keep them guessing, right?
+ It's best to keep them guessing that they don't know.
+ Unfortunately, I was talking to an informant who knew all the nicknames
+ anyways, or didn't even really matter in my case.
+ But that has to do with more of a choice about whether I chose to involve myself
+ with a larger phenomenon and get involved publicly.
+ We'll talk more about the to crew or not to crew later.
+ Leaders, hierarchies and pyramids, right?
+ You know, we already know all that.
+ Ambiguous politics.
+ I would say it's nice to know who you're getting involved with and know where you
+ stand and let others know how you would react to a situation politically.
+ Occupy Wall Street was the 99 percent, but then you'd also have like a lot of
+ right wing tea partiers and even folks who believe that the cops are part of
+ the 99 percent too.
+ And so again, they had to wait until they got kicked out of a dozen cities by
+ force by the police until they, oh, wait a minute, they're not on it, right?
+ No connection to local struggles.
+ Hacktivist actions are really, you can't just like parachute in and think that you
+ know what a local struggle or those who are being oppressed by some type of
+ corporation or government is going to do.
+ We're just going to come in and save the day.
+ You know, I mean, you really do have to understand the context and get involved
+ to see what folks actually want.
+ This the synergy of activism hacking is at those little intersections of Venn
+ diagrams is when you really are effective, though.
+ And it's there's in the United States is actually not that much overlap between
+ hacking and from my personal perspective.
+ You know, I've been to those 26 hundreds and they they just ain't into it.
+ They're saying into it.
+ You talk talk about anti-fascism to be like, oh, that's good.
+ It's extremely real.
+ I don't do that.
+ Other problems, exclusivity, elitism, not sharing the knowledge and fun.
+ And like I'm a black head.
+ I understand.
+ Don't publish exploit code.
+ Don't keep it private.
+ I respect it.
+ But also like we can't keep this specialized and insular direct action.
+ We need to show.
+ And so like like Biela had said, Phineas and the Decepticons, I believe not only
+ do they hack some shit and leak some shit, they've also published DIY guides
+ to showing first off how easy it is and that you could do it yourself, that
+ you don't need to wait.
+ Working within the system, you already know.
+ We ain't doing all that.
+ All right.
+ I just do this and mistakes are made.
+ I didn't really intend to talk in detail about how I was caught.
+ But I just do these couple slides here.
+ Just talk the tour correlation attack is with an informant.
+ But we'll talk about that later.
+ If you want to see me on a Saturday, come on.
+ We'll go on to how upset could go horribly wrong.
+ Here's some more fashion tips for the brave.
+ This black so they reduce identifying.
+ This is more of a physical.
+ But it also I thought it might have some analog stuff too, because you know,
+ writing in these RSC chat rooms and publishing press releases.
+ I'm always curious to see how these intelligence agencies like use language
+ analysis and so forth to identify and tie together stuff.
+ Or if you smash the window lately, well, like don't be wearing these the same
+ sneaks that you'd be wearing all the time to catch your ass.
+ And they do.
+ They do one mistake.
+ So this is right because these motherfuckers have mastered the counterinsurgency.
+ They know how to manage resistance and recuperate.
+ So and they did so.
+ With anonymous and a lot of it has to do with maybe a little weakness of the
+ open nature of decentralized communities, right?
+ They have just these chat rooms with thousands of people, you know,
+ who's in their logging, of course, informants, of course, entrapment that
+ we could talk a little bit about that as well later.
+ But they also try to discredit those who are working hard on the right shit.
+ They'll just go share co-option.
+ They'll try to I have a list down here.
+ The Dutch and formula, the divide and conquer other side of the coin are a few
+ good papers that talk about some of the different things that they're doing.
+ A few good papers that talk about some of the different divide and conquer
+ strategies, mostly between isolating good and bad protesters,
+ whatever the hell that means, or even try to reduce it to a narrative of law
+ in order of criminality, like oh, we could have got to be legal or we have to be
+ pacifist is the only way the one way or like that.
+ And so one of the strategies, they isolate the radicals.
+ They call us criminals.
+ They call us. But listen, what I found is that I was handing out flyers and
+ news will get my head beaten.
+ They still call me a terrorist.
+ I didn't even do that terrorist shit till many years later because they made me.
+ They made me a government corporate fascist co-opting the tactics and
+ aesthetics of hackers and revolutionaries.
+ We're seeing this with QAnon like they're trying to say that is the
+ type of lineage. There's obviously no lineage, but they like the aesthetics of
+ rebellion and resistance.
+ I always think it's hilarious for right put rage against the machine as example
+ because all these like anti-vax or right wingers and stuff might just hear it for
+ the first time because you know, they only know what the hell to do it and they
+ think that is then they wait.
+ These are commies. These are fucking lefties.
+ What the fuck is like, what the fuck Marjorie Taylor Greene was selling defund the FBI
+ shirts right, but there's or right wing thinking that like they're now trying to
+ claim the mantle of free speech and stuff like that because they got fucking
+ kicked off at Twitter.
+ How about you fucking try a month in the box because you posted some shit on
+ Twitter or how about you write a letter to your fucking judges sentencing and
+ stuff like that.
+ They take your email privileges away for fucking months, right?
+ You know, try just doing handing leaflets and get your ass whooped and not these
+ motherfuckers complaining about Twitter and stuff.
+ And then of course like Bielat had mentioned the hacked state and governments
+ also are now adopting the hacking leaks themselves, right?
+ Full circle I suppose.
+ You know, there's a Vault 7 revelation showed how also the US CIA specifically
+ has tools that could misattribute a hack and make it appear like it comes from
+ somewhere else.
+ And then they try to muddy the waters too also with this Hunter Biden laptop and
+ the DNC and stuff like that.
+ So they're learning that some things are effective and in a way that it's a little
+ bit more honest in a sense that they're not even they're dropping the pretense of
+ law and order because democracy is a sham in the first place and now they're doing
+ the same shit we are like at least in the United States they're just it's best past
+ the breaking point.
+ Alright, just some critiques of leaking is not enough.
+ Like Bielat said, a lot of the work is honestly the journalism digging through
+ the databases.
+ You know what I mean?
+ Like, okay, you could hack some shit and get like 80 gigs of emails and SQLs
+ and stuff like that.
+ Like, you know, who has time?
+ You know, when I was at my height, I had like hundreds and hundreds of targets,
+ man.
+ It's one of the reasons why I chose to go with WikiLeaks to release the Stratford
+ emails because they had teams of professionals and journalists to be able to go through
+ and look and find the stories to find the scandals because destroying is great.
+ I mean, believe it and I'll talk a little bit more about that later.
+ But leaking is kind of has a long-term scandals that could make or break a presidency
+ or aspiring right-wing politicians career.
+ So deep-ancing the empire.
+ Can I give one example?
+ Yes.
+ In Lulsec, Peru hacked the government and they released emails that showed massive
+ corruption and then they were voting to disintegrate the government and they didn't
+ but they needed one more vote to do so.
+ So making a difference.
+ You could shape public perception and consciousness of the problem by exposing it.
+ And as outsiders, we're a little bit different from whistleblowers.
+ You know, I mean, I've never we're not military.
+ We're not law enforcement.
+ You know, I mean, we're they're holding all the keys like in their little fortress and
+ stuff like that.
+ But again, if a smart person knows where to look to find the cracks in the windows and
+ the doors, right and find that shit and release it.
+ Okay, leaking is not enough.
+ Lack of stable distribution platforms in the early days.
+ But fortunately now, I think a little bit is better now with Torrance and you know,
+ a lot of the technology all developed.
+ A problem is over-saturation and desensitization.
+ So like in the early days, like it was a revelation that, you know, you have like a police
+ chief email sending races stuff like that and you could get a fire.
+ But now there's just they're muddying the water.
+ But by dumping so much fake news and disinfo that is hard to distinguish reality.
+ And so now it's just a everyone's perception is, you know, we all know it.
+ Diffusion by disinfo limits whistleblowing.
+ So yeah, a lot of whistleblowers, you know, who work within like these governments and
+ stuff like that.
+ First off, we do need to create incentives because we do want to welcome those.
+ A lot of them do have like these once they see the dirt.
+ Maybe the few of them do join these things with the good intentions.
+ Maybe not police, bullies and so forth.
+ But nevertheless, maybe they have a crisis of conscience and we need to create welcoming
+ environments to where they could we could embrace them.
+ But nevertheless, oftentimes I found that they have lingering allegiances and a belief
+ that you could still appeal to the authorities by, you know, there's like whistleblower programs
+ with the government like, oh, they'll protect you.
+ But you know what?
+ You know, look what they did to the ones who tried, you know, they prosecute and threaten
+ and discredit and all the rest.
+ And so I found that that resulted in a lot of half measures.
+ And also, I don't remember if I talked, okay, I'll talk about it later.
+ And then liberal media is complicit as well because either they're not going to be covering
+ it unless they have to.
+ Like for example, the Pentagon Papers, you know, or even Chelsea Manning went to several
+ reporting agencies and tried to release them, but they weren't trying to hear none of that,
+ right?
+ So they're kind of part of the problems.
+ That's why we need like independent DIY journalism and stuff like that.
+ This is where you all come in.
+ Unfortunately, leaking, I would say, has not stopped the death march because now that we
+ are aware of it, we all know government is spying on us.
+ They're going to war and stuff like that.
+ So just the knowledge of this fact, we've all known that, right?
+ So we need to make hacking a threat again.
+ Towards a more effective hacktivism, right?
+ So you know, again, like we can all be the warriors.
+ I would say that is extremely important that you know exactly what you're looking at before
+ you even get involved in it and also let those who are around you know what your limitations
+ are before you get involved.
+ And then also, it's super important to practice prisoner solidarity for those comrades got locked
+ up in the line of duty.
+ Now first, I want to shout out chaos camp because I got a lot of postcards from this camp years
+ ago and it meant everything to me.
+ It meant everything to me.
+ I'm so, I can't tell you how happy I am to be here with you all.
+ I think they are still also doing a jailed to the mail thing.
+ I mean, if I was talking about, so there's still lots of folks locked up behind bars.
+ And I will say enacting prisoner solidarity is not as important also because it emboldens
+ the next line of those who were willing to thinking about whether they take the adventure
+ because you are not alone.
+ You will have a movement that got your back.
+ And we'll see you through.
+ We'll see you through the other end, right?
+ So study court documents.
+ You know, the discovery, the indictments, read that shit, study the forensic reports,
+ the advisers, see how they're caught.
+ I threw in here reject law and order, the framing of ethical hacking.
+ Yeah, we all know this shit, right?
+ This is the big one though, know if and when to pull the trigger.
+ Like I alluded to it earlier, but you know, not always it's a good idea to release immediately
+ or attack immediately.
+ For one, I would say this is one of the, when I first started getting anonymous and started
+ looking at them, it was so amazing and inspiring because they're getting some big targets off
+ the rip, but there's an IRC, OSHA, SQA, StateGov, Wendeface, Wendeface.
+ I was like, nah, you got to go through the emails.
+ You got to test all those hashes.
+ You know, you got to probe and get all the mails at least.
+ If you ain't got the mails, you know, before you pull the trigger.
+ But then again, you can't wait too long either because of course the window might close.
+ Less spectacle and more damage.
+ All right, now smashing a window, it shatters the myth of law and order and creates openings
+ in which another world is possible.
+ But spectacle is great.
+ Defacements are great.
+ But man, why don't you just RMR off that shit?
+ You know what I mean?
+ Destroy that shit.
+ Stratford, it took them like six weeks because I deleted like four servers completely, DD
+ and shit like.
+ So a defacement that might take down, but damage is forever, baby.
+ Less redactions and more doxing.
+ So I put this in because I was kind of a little bit frustrated that for example, the Snowden
+ dox that released all these slides of like the NSA slides and all the prisms and all this
+ stuff, right?
+ They didn't even release the names of the NSA agents or whoever fucking wrote them.
+ Why the hell not?
+ Why the hell not?
+ Release that shit, man.
+ Like first off, in a lot of places around the world, police officers and stuff like that,
+ you should be known and we shouldn't have police in the first place.
+ All cops are bastards.
+ But it would be a thing to know who they are.
+ So what are you so, but nevermind.
+ Docs their addresses and all that shit.
+ I will say though that you do have to go with the data because it's a lot of responsibility
+ to be sitting on.
+ I was hacking a lot of police stuff like that and I'd have emails and stuff like that.
+ And for example, they would have jail rosters of people who are incarcerated in these jails
+ and people who are not even convicted of a crime for example, or also possibly victim
+ witness statements and so forth of domestic violence that we don't necessarily want to,
+ obviously we don't want to expose that stuff because, so you do have a tremendous responsibility
+ to parse through that data, which is again, a lot of the work when you hack some 80 gigs
+ of emails and shit.
+ Oh man, I need a team for this.
+ But there's no crew, only you.
+ Don't wait either.
+ But that's why there's like these networks.
+ We have these journalism networks and WikiLeaks and alternatives to WikiLeaks, how we do this.
+ And don't be afraid to be the first.
+ Don't be afraid to go all the way.
+ I will say this, when I started getting arrested and something like, my first time I had 5,000
+ credit cards, didn't use a single one.
+ I talked about using a little bit, oh we're going to donate to all these causes that they
+ hate.
+ It would be great to charities and comic groups and stuff like that, but I didn't use them.
+ But they still charged me as if I did it anyways.
+ And they gave me the sentencing gullet, 5,000 credit cards, $500, two and a half million dollars
+ in damages six years over the statutory maximum.
+ Anyways, come on man, they're going to sentence you as if you did it anyways, so you may as
+ well go all the way.
+ Hell, half the time I've been arrested, half the time, yeah, you already know man.
+ And that's really all I have to say to be honest.
+ That's it.
+ We're down for questions.
+ Please hit it.
+ I'm an open book.
+ I'm here all week, so hit it.
+ So there's plenty of time for questions.
+ I will help moderate them.
+ Jeremy?
+ Is there a microphone?
+ Yeah.
+ Stand over here because we need to be in the camera shot.
+ Oh hi, I will never thank you enough for all you've done in your entire life.
+ I love you so much, both of you.
+ I have a short comment.
+ I'll make it short and I have a question for you.
+ We heard 2009, we heard Wikileaks name three times, we heard Vault 7, but you mentioned
+ Wikileaks as a platform, a bunch of journalists.
+ My comment is that to me Wikileaks also taught the world how to do journalism and data journalism,
+ taught the world how to do anti-censorship publishing and not just a platform.
+ Also Wikileaks taught us about source protection.
+ Now I haven't heard the name of Assange in your talk and when the camp ended four years
+ ago he was mentioned because four years ago he was fucking arrested and he's still in
+ the worst prison in the UK for nothing today.
+ So I wanted to ask you, does this case of this violent character assassination campaign
+ with this fake doctored accusations, the Niels Melser, the UN reporter, demonstrated that
+ the Swedish rape case was fabricated?
+ This and the rest, is that the same tactics to discredit, to divide and the such that you
+ mentioned earlier?
+ And is there a US bias in the perception of the character of Assange that prevents the
+ unified and justified campaign of support that he and Wikileaks and everybody else in
+ Wikileaks deserves?
+ I could talk about the liberal media.
+ Well for one, for you Julian Assange and all political prisoners, all prisoners just saying.
+ Thanks for the question, it's a very heavy one, right?
+ I will say this, it's true like we mentioned earlier that the United States especially
+ uses the campaigns to discredit those who stand up, the nail that stands up gets hammered
+ down.
+ But it is also true that there is a history of patriarchy and sexual abuse that anyone
+ is capable of doing it and it is disappointing and people need to be held accountable for
+ their...
+ I can't comment on the specifics of the Assange, but I will say also that one thing I like
+ about the new generation of whistle blowing platforms is that it is not necessarily centered
+ around personalities or individuals, which that's why I mentioned earlier the martyrdom
+ thing is that because it's a failure, we all fail, right?
+ And Wikileaks lists a lot of examples, I'm not even specifically referring to Assange
+ here.
+ So I'm just saying that it has a way of lessening the problem of these abusers in our organizations
+ if we don't centralize power in that way.
+ And I could speak to the kind of bias against Assange in his case in the United States and
+ the liberal media.
+ I think you're absolutely right and I think it runs enormously deep for a couple of reasons.
+ I mean one of which is absolutely, you're right, that the American media in different
+ moments of its history has been extremely spineless, completely spineless.
+ And in fact, the Citizens Commission to expose the FBI, the Washington Post published the
+ story but they did not want to.
+ They did not want to, the New York Times didn't want to, a bunch of editors convinced Katherine
+ Graham to release the information.
+ At the time that Wikileaks came into being, you had Chelsea Manning who wanted to show
+ collateral murder, Reuters knew about that fucking video, they had seen it and they would
+ not publish, right?
+ And it was so important to have that platform.
+ And I think because in some ways, like if I was some Freudian, Lacanian psychoanalyst,
+ which I'm not, I think there's something really interesting about how Assange basically showed
+ how spineless the American media was.
+ Then things went sour, you know, and then it's insane to me because I've definitely
+ have done events around Assange and you know there have been a lot of people who have come
+ out and supported it but it's not receiving the attention it needs because that is a threat
+ to journalism, he does not deserve that.
+ So I really appreciate your question and Wikileaks is a key part of the story that we're telling.
+ But yeah, absolutely in many deep ways.
+ I will say also that they tried to, you know, when they held me in contempt and wanted me
+ to testify saying Assange was like, he asked you, he was paying you, whatever, he was like,
+ just because I don't necessarily agree with some of the Trump stuff earlier that I didn't
+ agree with, but that doesn't mean I still said fuck you, I ain't saying shit motherfucker,
+ free the man, free the man.
+ We have five minutes, so questions, comments?
+ We have a crisis of journalism that is we're almost past facts so nobody believes in anything
+ anymore.
+ So how can journalism still expose stuff if no one believes anything anyway?
+ I think there is an objective truth.
+ You know what I mean?
+ Despite their attempts to muddy the water with disinfo in this post-truth society, you're
+ right, you're right, that's why I said leaking may not be enough.
+ That's why, you know, if you get the docs, post it, yes, and maybe we can and we should
+ push hard to hold these people accountable once we find their information, right?
+ But you're right because then they could also create a counter narrative that just makes
+ shit up.
+ So that's why I say just delete their shit or just stalk them outside of the house or
+ do what you need to do, but they should not be around working military no more if you
+ know what you know about them.
+ I also, I'm an anthropologist and we sort of, our bread and butter is conspiracy at some
+ level and it's interesting because, you know, historically we tended to be like, oh, look
+ at the chupacabra which is this like goat sucking alien in Puerto Rico which is where
+ I'm from and I'm like, I love the chupacabra and it's really about colonialism and post
+ colonialism and extraction and I will say that as much as I hate the far right and the
+ right, I do actually think that part of the problem, again, I go back to like the liberal
+ media and these sorts of things is that, you know, they haven't been historically aggressive
+ enough going after the powerful, right?
+ And so sometimes you get these conspiracy theories that kind of have like a kernel of
+ truth, right?
+ And so as you sort of rebuild journalism, you also have to like, you know, I got my
+ vaccines and Pfizer helped create it, but Pfizer has done a lot of really fucked up
+ things as well, right?
+ And so we have to hold these corporations really accountable because I think that helps
+ breed conspiracy as well and as kind of Jeremy said, like if you're not doing that, then
+ that creates the conditions, but it's going to be a long time.
+ Obviously these have come in waves before, so I hope that we overcome the wave before
+ we destroy the planet with climate change.
+ That's my big worry now.
+ Okay, we have two more minutes.
+ We have one more question and we need to get that in those two minutes.
+ Can we take the two questions side by side and I'll just let...
+ So I'll be quick.
+ Thanks to both of you for all the great work you've done.
+ Thanks for coming and talking to us.
+ You said that the postcards from here helped you while you were in prison and I was wondering
+ because it was a long time, right?
+ And what helped you carry through?
+ What else is helpful to do?
+ And the second half of the question, now that you're out, are you completely free or are
+ you still under some conditions and what is your life like?
+ What is your situation?
+ Right, thanks.
+ You're right.
+ So prison and jail is an extremely dehumanizing and isolating place.
+ They're trying to break you.
+ They're trying to break your spirits.
+ But one thing I've learned is that they can take your body, but they can't take your mind.
+ It's that last inch.
+ You're free.
+ And so being an isolating place, it's a whole world of fences and walls trying to separate.
+ It is a whole micro nation where they're basically second classes and stuff.
+ So I do a lot of political prisoner work and books to prisoners and support now is one
+ of my main things.
+ And what we're trying to do is we're trying to pierce that wall.
+ We're trying to climb that wall and reach out and make connections with folks to let
+ them know that they're not alone.
+ It's a very despairing place.
+ And so just knowing that you're heard, for one, and just knowing that you got people out
+ there that got your back means everything.
+ And so what I do, like you said, what conditions and stuff.
+ When I got out, I had three years paper and I was on this internet monitoring program
+ where it's like a private company that I had to actually pay for all my devices that monitored
+ my messages and stuff like that.
+ And actually to upload my messages every day and my PO would be like, "Who is this you're
+ talking to?"
+ It was terrible.
+ So that's why I've been out two years though.
+ And fortunately I had some lawyers who all the way supported me.
+ Shout out to Legal Aid, shout out to National Lawyers Guild, by the way.
+ And I'm sure you all have the equivalence because they've always had my back and often for free.
+ So in my case they actually fought the conditions on free speech and associate.
+ They said I couldn't even associate with hackers, couldn't even associate with civil disobedience.
+ What the hell that means, right?
+ And it was like that the first time too as a matter of fact.
+ I still did what I did though.
+ But fortunately my lawyers did beat that with motions after we got the judges transferred
+ over to Chicago and stuff like that.
+ One thing I'll say though is that I did two federal sentences for hacking and got arrested
+ dozens of times.
+ I don't regret any of it.
+ My only regret is that I didn't give a chance to finish any of the targets I was working
+ on.
+ So, can you do the reading quick?
+ Because then I would take this as the last quick answer, quick question.
+ So if we're talking about hacking and leaking now, I'm wondering what you guys, obviously
+ not ideologically, but what you think about ransomware groups and if you think that journalists
+ or academics will touch the data that ransomware groups are leaking because they're pushing
+ out gigabytes and gigabytes of data from big companies, what do you think about that as
+ a phenomenon?
+ Yeah, it's interesting because I feel like I haven't monitored them as closely, but they
+ certainly have changed their tactics where they're pulling back a little bit against
+ like hospitals and then going against targets where they might hit a law firm that worked
+ for Trump, take the emails and then DDoS secrets host them.
+ And I actually really respect what DDoS secrets is doing, which takes a kind of equal opportunity
+ hosting the stuff.
+ They make some stuff public, some stuff they just give to researchers because that stuff
+ is really, really important.
+ And there still isn't quite enough people going through this material.
+ And I also do suspect that ransomware groups are probably strategizing a little bit in
+ terms of choosing targets that will help them monetarily, but maybe drawing a little bit
+ of public sympathy as well.
+ But there is material out there, right?
+ And I think having the public journalists, others really go through that stuff can yield
+ some really, really important insights.
+ And that is something that many of us are well positioned to do today.
+ I just want real quick, I just want to say that I don't think we should necessarily knock
+ criminal hacking or hacking for survival.
+ Those who as a means must learn how to scam copycars or credit card fraud just because
+ if people are going to do what they have to do to survive.
+ When I was in jail and stuff, I didn't think myself no better or no less than anybody else
+ that was in there.
+ And frankly, the second time when I got out, I made a decision to go hard as possible I
+ could and go after governments and all this stuff.
+ It was like all gas, right?
+ But I still got 10.
+ In the United States, that's actually relatively medium to low.
+ So there were 10s and 20s and 30s in life for people just wrong place, wrong time, they
+ have to just survive and stuff like that.
+ So I'm a little bit humbled and not so like judgment about criminal hacking, which I think
+ is still within our rubric.
+ So do what you got to do.
+ Okay, then thank the two of you for coming over here and actually giving the talk.
+ And ladies and gentlemen, Jeremy Annette, Biala Coleman.
+ Thank you.

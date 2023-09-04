@@ -1,0 +1,406 @@
+ [MUSIC]
+ [MUSIC]
+ Welcome to the Bittenboim stage.
+ We are continuing our program with the next talk by Petruselius and
+ Philippe, who are explaining to us what the Search Wing project is and
+ what it is doing for civil emergency operations with drones.
+ Welcome, enjoy the talk.
+ [APPLAUSE]
+ >> Yeah, hi and welcome.
+ My name is Philippe and who are you?
+ Petruselius.
+ And we are part of the Search Wing team and we build drones, UAVs,
+ unmanned aerial vehicles for search and rescue.
+ It's really nice to see you all here, the great interest in our work and
+ we are really happy to present our work here.
+ Thanks to all the people who made this talk possible to the whole Bittenboim
+ village.
+ Yeah.
+ So short overview about our talk.
+ So we will talk a little bit about motivation, why we do it, why it's
+ important to do it.
+ Then we will show you in detail our drone, how it works, how it looks like.
+ I mean, you can see it over here already, but we will also present some
+ pictures.
+ We talk a little bit about our organization.
+ We have an association now.
+ Then we will talk about the past and the present and maybe a little bit
+ about the future.
+ And then we also go into detail about image processing, which we do, and
+ future work, stuff we want to do in the future.
+ So what motivates us?
+ More and more people are fleeing, are on the move for several reasons.
+ One reason is war and terror, poverty, climate change.
+ There are a lot of reasons why people flee, and some people flee over the
+ ocean because they have no other way to get to safety.
+ And here you can see a map and some numbers about people on the move.
+ What's important to see here is that a lot of people die, so they are very
+ dangerous routes for people.
+ So it's our responsibility to help these people.
+ And what you can see here too is that there are multiple routes.
+ Even through the Mediterranean Sea, there are multiple routes which people
+ take.
+ For example, there is a route via Libya, which is a big war zone.
+ Then there's a route via Tunisia.
+ But then you also see on the left there's a route via the Mare Inge von
+ Gibraltar.
+ But also people come to Greece.
+ And what you don't see here at the moment is, for example, the English
+ Channel or the Atlantic Route, where people go to the Canary Islands, for
+ example, from Senegal.
+ So it's very dangerous and we should support these people.
+ What we see at the moment is that almost all states withdraw from the sea.
+ They leave it to a civil fleet to support people on the move.
+ Here you can see a few organizations which we are actually working with.
+ They have very different vessels.
+ Here on the left, it's an old picture.
+ Actually, now the ship is run by SOS Humanity, but before the Sea Watch
+ had the Sea Watch 4.
+ Then you can see the Alan Kodi, the ship of Sea Eyes.
+ It's also not a present situation right now.
+ So this ship is now owned by somebody else.
+ But there's also a rescue ship, a small sailing boat, which operates right
+ now in front of Lampedusa.
+ So what we want to do, we want to support a lot of NGOs in different
+ situations with our system.
+ And this then has some implications for our work.
+ Of course, there's the government or multiple governments doing work in
+ the Mediterranean too.
+ But what they mostly do, they fund corrupt and bad people, which you can
+ see on the left is so-called Libyan Coast Guard.
+ They get, for example, infrastructure, for example, vessels.
+ And then on the right, you see that Frontex, EU border agency more or less,
+ they operate drones in the Mediterranean Sea or above the sea.
+ There you can see some tracks of these drones.
+ But the image data is actually not public, so they only use it to inform,
+ for example, the Libyan Coast Guard about cases.
+ And then they start to do pullbacks, so they bring people back in the war
+ zone and not to a safe place where they actually belong.
+ Here you can see, get an impression of the area where the NGO boats operate
+ in this Mediterranean Sea in front of Lampedusa and Malta.
+ So it's quite a long way with the shitty boat to get to a safe place.
+ And then you can also see that's a very big area the ships have to cover.
+ And right now it's quite low-tech what the NGOs do.
+ They go on rusty ships.
+ They go to sea, and then they use the ice to check for people on the water.
+ Sometimes or most of the times they use binoculars.
+ Then the next technical device they have is radar, but the radar not always works
+ or it's not as great as we want it to be because they are rubber boats.
+ Or the people on the move, they use rubber boats,
+ so there's no real reflection of the radar signal.
+ So it's really hard to make out cases by radar.
+ Then the next tool we have are airplanes.
+ Some NGOs operate airplanes over the sea.
+ They of course can spot people, but they use binoculars,
+ ice or cameras to spot these people,
+ and they can only operate in very good conditions.
+ Then of course another tool we have is mobile phone,
+ but the mobile phone only works for a few miles out into the ocean,
+ and then people are more or less disconnected.
+ Some people have satellite phones and can call, for example, alarm phone.
+ Alarm phone is a hotline for people on the move,
+ so you can call them and tell them, "Hey, we are in distress.
+ Please forward this information to the Coast Guard or the Civil Fleet."
+ But of course you have to have, for example, a satellite phone.
+ Some countries forbid satellite phones,
+ so in some situations it's hard to get satellite phones.
+ Then it's possible to use satellites to detect cases on the water too,
+ but this is a really expensive process,
+ and it's also not as fast as, for example, an airplane.
+ Nowadays we start to use drones to find people,
+ but to this I come later.
+ Here you can see, for example, how people on a ship try to find people,
+ but as you can imagine, this on a moving ship, rocking ship,
+ is really a tiresome process and also prone to errors.
+ We actually want to show the video.
+ What we do, we build drones for search and rescue.
+ Here you can see our drone in operation.
+ But how did this all start?
+ It actually started in this wonderful community.
+ Some people saw that NGOs and other people started to do search and rescue at sea
+ with this quite low-tech approach.
+ These people are from the chaos community.
+ They thought, "Okay, hey, we have skills,
+ and there's quite a lot of free software and open hardware
+ which we can use to build a drone that helps in this use case."
+ So it actually started 2017.
+ We gave a talk here and the project started.
+ What's happening right now?
+ Yesterday evening we got a call from one of the ships.
+ They have a drone near to Lampedusa on the vessel,
+ and they did a search flight from the vessel.
+ So the drones are actually in operation.
+ Then there's another ship where we have two drones,
+ which are right now in the so-called Sa zone,
+ so the zone where we actually search for people,
+ and we are waiting for the next flight of one of our drones.
+ Right now three drones are in operation,
+ but in the past, of course, we did missions and test missions.
+ Here you can see a small overview.
+ We did the first mission with a rescue ship.
+ They operate from a small sailing vessel.
+ I think the person who actually did the mission is also somewhere here.
+ Then we tried to do a mission with CI,
+ but unfortunately our system failed before we actually went to sea.
+ Then you earlier saw the SeaWatch 4,
+ so we went on a short trip to the shipyard with SeaWatch 4,
+ where we intensively tested our system,
+ so one of the latest prototypes.
+ Then the last two missions we did with Mission Lifeline,
+ they operate near the Canary Islands,
+ and they operated the drone in 2021 for one week,
+ and then now they operated two drones for three months.
+ Now I want to tell you a little bit about the drone,
+ and we want to show you a short video about the process.
+ I guess it's a little bit hard to see,
+ but the idea is that we operate at sea,
+ therefore there's a lot of water.
+ For example, from a small sailing vessel,
+ normally we give two drones to the vessel if there's enough space.
+ Then we have a small tablet,
+ which we use for planning of the actual search pattern,
+ so normally we know about the case,
+ or know some information about the case,
+ and want to fly somewhere and fly a search pattern there.
+ It's not a big drone.
+ You have to invest right now 1,700 euros for one drone.
+ It's quite wind resistant.
+ Here you can see the hand launch of the drone,
+ where you just throw the drone in the air,
+ and then it starts to automatically fly the search pattern.
+ We fly in 550 meters.
+ Of course, we can also change this,
+ but in this height we see the most area,
+ and then our cruise speed now is actually a little bit faster.
+ Then we see an area,
+ our ground resolution is 20 centimeters per pixel right now.
+ Here you can see how a search pattern could look like.
+ We can cover roughly 200 square kilometers with our two cameras.
+ Then we have a base station where we always have a connection to the drone
+ and can also change the flight pattern in flight
+ if there's a need for that.
+ Then the drone automatically comes back to the ship,
+ and then the drone pilot initiates the landing.
+ Right now we do the landing by hand,
+ so we have a remote control and land the drone next to the ship.
+ It's even possible in very rough conditions,
+ for example waves of two meters are not a big problem.
+ Then the drone actually lands in the water
+ because we don't want to endanger any people on the ship.
+ Then we start the image download and automatic processing of the images.
+ Here you can see an old version of our system,
+ and one crew member goes through all the images we have.
+ Just to recap, we actually have a flying camera.
+ We can go 100 kilometers.
+ It's waterproof because we land in the water.
+ The flying is automatically, so it's not autonomous.
+ Then we have computer vision, but it's offline.
+ Of course, it's all free and open source software and hardware,
+ so if you want to build a drone, you can do this.
+ Here's a short overview about our system.
+ We actually have this frame. We buy it in Asia.
+ Then we have a waterproof box you can see in the middle.
+ Then we have a flight computer based on an STM32.
+ Then we have a Raspberry Pi with two cameras connected.
+ The Raspberry Pi then gets data from a flight computer,
+ and then we can fuse this data with the image data
+ and, for example, then tell where we took the image or at which time.
+ Of course, we also have a telemetry module or transceiver
+ to stay in contact with the drone,
+ but we only use this for, for example, position data and not for image transmission.
+ Then in front of our plane there's a big battery,
+ which weighs more or less one kilo.
+ In the back there we have the motor,
+ and of course we have a few servos to control the plane.
+ Then here you can see how we actually do the planning,
+ so we use free software here.
+ It's called QGroundControl. It's a QT app,
+ and you can draw a pattern which the drone then actually flies through.
+ Then we also developed a little bit of software
+ to actually take a look at the pictures we take.
+ Here you can see maybe a picture with one big ship,
+ and then maybe you could, or normally we ask people to count the ships in the image.
+ I think this is now really hard,
+ but what you can see that it's really hard to actually see the small ship.
+ So the big ship is the SeaWatch 4, and then we have a small rip,
+ which is next to the SeaWatch 4,
+ but with our camera system it's really hard by human eye to make out this ship.
+ Therefore we have this system to take a look at the images,
+ and then also the image processing to give hints in the image to actually see the case.
+ Here you can now see, for example, that we highlighted this case.
+ You can only see a few pixels of the case.
+ Now I give over to Julian, I think.
+ Thanks. I want to show you a few bits about the boat detection process we developed at Searchping.
+ You saw already in the previous images the result of it.
+ We have a software which shows the image and an overlay with the rectangle around where the boat is.
+ The steps I want to show you describe this process, how to generate these boxes.
+ There are a few things we thought, or we developed some knowledge, and I want to share this with you.
+ We can roughly build this process, and it's built out of five steps.
+ The first step is taking the actual image, then we download the images after the plane has landed,
+ and then we do the actual boat detection.
+ After this detection we do the fourth step, it's offline tracking,
+ which combines all the information we created in the previous step, and then in the end we visualize this.
+ So how do we do the actual image capturing?
+ As Philipp already said, there is a Raspberry Pi board in the plane which has two cameras connected to it.
+ It got eight megapixels, and this results in an altitude of 550 meters,
+ and a ground resolution of roughly 20 centimeters per pixel to 35 centimeters per pixel.
+ We can cover with both cameras a sweep width of two kilometers.
+ We take one photo every two seconds, and we also thought a bit about the exposure control,
+ because normally the exposure control for cameras is very optimized for big objects inside the image,
+ but as we wanted to detect very small objects, they tend to get overexposed,
+ so we really try to underexpose the images to get not overexposure of the boats,
+ to have some more contrast in the image.
+ So the second step after the actual image taking is then already the download of the image,
+ which is done after the plane has landed next to the ship, we get it on board, and then we download the images.
+ This takes about 35 minutes, and because it's a lot of data actually, it's 22 gigabytes, because of the high resolution,
+ and we also use some kind of prioritization to get first the most important images inside the data we created.
+ In the third step, we do the actual detection of the boats, so finding the boats inside the image,
+ and we realized this is a very much important step to do, because we had some users actually,
+ and they tried to check all of those images manually, and it was a very tiresome process,
+ and humans cannot keep that attention span for a very long time, especially if you're on the sea and get maybe seasick,
+ and you cannot analyze manually this huge amount of image.
+ So we think an algorithm which assists this process is very important, and therefore we decided to take
+ or use some algorithms from the neural networks family.
+ Some say it's AI, but it's more I think like a pattern recognition algorithm,
+ and there's one problem with these algorithms that they are more or less a black box,
+ which it's hard to understand and that you cannot guarantee as a programmer that it works as expected or intended.
+ So even if there are some boats detected, we cannot guarantee that other boats, which might look similar,
+ are then detected afterwards again, and also those algorithms need a lot of data,
+ which we don't have because we cannot fly that much at the sea, and also we cannot create images of every possible object,
+ which could be out there.
+ So we don't generally trust these algorithms, and we always tell the people who use our software
+ that they still need to check every image and just use this algorithm to rank or prioritize the images
+ to get the most important ones first, then check those according to the prioritization.
+ And this makes it then possible to actually get through the images in a meaningful time,
+ otherwise it's nearly impossible.
+ And yeah, just a detail maybe, the object detection algorithm we use is called FastRCNN.
+ It's a quite old one, but it works the best for us in our use case because we have a lot of small objects,
+ and other more modern ones don't work that well on small objects.
+ Then the next step is the offline tracking.
+ This step combines all the information from the previous ones.
+ So it takes all the detections and combines them in a meaningful way.
+ And you can see in this example here, we have here a plane at five time steps,
+ and you have a boat on the sea, on the ground there,
+ and in the first time step the boat is not detected, otherwise there would be a box around it,
+ and there are also no other waves which might have been false positively detected.
+ So in the next time step we fly, there is a wave on the left side and the boat on the right side.
+ We detect the wave, and for us as humans we can see this is a false positive,
+ and we create a track out of this which says, okay, we use this information from the image,
+ calculate the real position, and we remember this position for the next time step then,
+ and then check if the boat or wave in this case appears again,
+ and then we can see if it's going, because if it's going in the next time step,
+ then we know, or two time steps, then we know, okay, it might not be a real boat,
+ because a real boat differentiates from a wave that it stays there, but the wave disappears.
+ So let's see what happens. So at time step three, there now we detect the actual boat and the wave again,
+ as a true positive in this case, then we have at time step four the boat again,
+ it gets detected, and at time step five we only detect the boat as true positive,
+ it gets marked with a green cross, and this says, okay, this is a real boat,
+ because it was detected multiple times in contrast to the wave which disappeared at some point,
+ and is therefore a false positive. Okay.
+ Now the last step is the visualization. So we now combine all the information and visualize this,
+ and you can see here in the center, that's the image, there you have a boat,
+ and it got like a rectangular box and a circle around it, this is the detection and the tracking information.
+ On the right hand side you see two lists, one list for each of the cameras inside the drone,
+ and below there's a small map which shows where the drone is going to.
+ Okay, just a few more bits about the future work we're going to take with the drone.
+ So we want to put better cameras inside of it, because right now it's only 8 megapixels and a quite old sensor,
+ and with a new modern camera we might be able to detect more boats or smaller ones and so on.
+ We also experimented with thermal sensors which would enable us to also fly by night,
+ because right now with the regular RGB cameras we only can fly on the daytime,
+ and this limits us in a lot of use cases. So we tested those small thermal sensors,
+ they are like 200 to 300 euros, they fit into our small plane which you can see here,
+ but we haven't not integrated them in our real usage planes yet, but it works quite okay.
+ The image on the right hand side, yeah it's very hard I think to see, but in the top it shows the RGB image,
+ and on the lower side it shows the actual thermal image, and there you maybe in the stream can see
+ that the actual boats and even the small buoys which are also there,
+ you can see them in the thermal image and therefore it would work to use these cheap sensors also in our drone.
+ Okay, online boat detection is also one important thing we want to build in,
+ so right now we only work or do this detection of the boats after we landed,
+ but it would be also nice to directly get information about where the boats are while we are flying,
+ and there is ongoing work on this and we hope we can implement or deploy this soon,
+ and we can analyze one image with the half of the resolution in 500 milliseconds,
+ and it gives us already a rough information where a boat could be and they could alert the crew.
+ Okay, long range image download is also an important thing.
+ As I said already, we only can download the images after we landed,
+ but it would be very important to also give the NGOs the ability to get the images while they are flying,
+ and yeah we worked on this a lot in the recent years.
+ There are multiple possibilities, but we ended up with using just regular Wi-Fi
+ because this enables us to download regular images through it using TCP in contrast to streaming video or something,
+ and yeah we used their off-the-shelf hardware and we tested it with quite okay-ish results for our use case for 30 kilometers,
+ so maybe we hope that we can also put this into usage soon.
+ Okay, another group in our or another part of our group also in parallel works on a completely different concept,
+ building instead of using like the foam based drones, building a completely different one using fiber material,
+ and it's currently just a few days ago they flew some test missions on the Baltic Sea, I guess so,
+ and it was successful so maybe we can soon also get a more robust version than the foam based version
+ because it tends to, if there are some wakes, it might get some damage, but fiber material is way more stable in this regard.
+ Okay, yeah here you can see how damage could look like, so it's really not nice to hit the ground,
+ but if you want to experience this firsthand you can of course participate in our project,
+ we are always looking for new members to support our project,
+ but you can also just spread news about our project, tell people about our project,
+ we also take donations, so we have an association, a German association, non-profit association, so if you have some money somewhere you don't need, please send it our way,
+ and of course we have a lot of technical, but not only technical problems,
+ the whole aspect of bringing the system into operation is a big process and we also need experts for example in operating systems in maritime environments,
+ so if you have any experience please join our project, yeah, so over there we have a booth,
+ so if you have any questions you can come there and we can talk in detail about challenges you can tackle with us,
+ and now there is some more time for questions, yeah, do you have any questions?
+ I was waiting for your end slide, it didn't come, thank you for the talk,
+ I see one question at the front already, there is my colleague coming, oh sorry I was supposed to give you the microphone, yeah,
+ you already spoke about on device detection, what is your biggest constraint here, is it the power budget, is it the weight, is it the run time, why is that something that you hadn't done before, or is it just time?
+ Yeah it's time also, but also as we run on a Raspberry Pi it's not very, for image processing it's not the best platform, but I think for all the other things it's the best platform like regarding maintenance and stuff,
+ so it's not like super powerful for this, so we needed to find some way to find a usable option for online boat detection.
+ Two small questions, how do you seal the 3D printed case with epoxy?
+ Yeah we tried this too, but it didn't work out because epoxy doesn't stick to some of the printing filaments, so right now we use SLA printing,
+ we actually buy the waterproof box we built in Asia, so there's service to print these boxes and yeah this works quite well.
+ And isn't Wi-Fi using too much battery?
+ No, I think it's maybe 5 watts or so we actually use with our Wi-Fi module, but of course it's a high power Wi-Fi module and we operate at sea, a little bit like pirates,
+ so we have flying pirate radio somehow and yeah of course it consumes a little bit of energy.
+ Question over there.
+ So this is maybe slightly different, but have you thought about doing long endurance systems?
+ So I actually thought about some of this at one point in my life and I thought about building a long endurance flight that stays up for 24 hours and basically scans non-stop.
+ It's not impossible I think to do, when it's bad weather you might have some trouble, but if you fly higher you build a bigger train, I think it's not impossible.
+ Yeah it's not impossible, but of course we have to somehow manage our time, so we focused on this special use case,
+ start from the NGO vessel and then coming back to the NGO vessel and flying, I mean we have this airplane and this frame because we also want to operate this drone on different vessels,
+ but of course it's possible to build bigger systems and in the beginning we saw quite big systems from Frontex and so on and of course we can try to build bigger systems.
+ One big drawback is maybe that if we build big systems then we have to operate them from land and then of course there's new attack vector,
+ the whole regulation and for example the airplanes they face these problems, but maybe we are in quite good situation with the EU drone regulation,
+ but it's something we are thinking about and if you are interested in that we can talk about this.
+ Are the project specifications and the software published somewhere?
+ Yeah we have a wiki online, wikijs and there's almost everything documented, some parts are missing which we don't have time to, but normally you should be able to build a drone using this wiki.
+ Hi, you mentioned rescue missions, do you see your project being used one day for patrolling seas, especially when it comes to law enforcement and protecting environment against say illegal fishing?
+ Yeah, technically this is totally possible with this, but we totally focus on rescuing humans right now and cooperate with the NGOs.
+ Thank you, two questions, first of all have you tried an Nvidia Jetson instead of a Raspberry Pi?
+ Yeah we thought of this, but it's too big actually for our plane right now, I have some lying around at my home, but it just doesn't fit, but it would be a nice platform for us actually.
+ It's also possible to make it smaller by just creating custom baseboards, so maybe at some point we are going to use it, especially if we have bigger planes.
+ And second question, have you thought about looking for wifi pings or phone pings from people on boats, because that can travel quite far in the ocean?
+ Wifi pings not, but we thought of using actual GSM stuff for detecting GSM signals, there was also a test of us on the Baltic Sea, but we weren't that successful and we haven't gone into this again, but there are companies building those systems for everlaunch, people under everlaunches to detect them, so it should be possible.
+ But as far as I know there is nothing for open source, like the open source GSM stack, everyone should know about OsmoCom, so I haven't seen anything yet there.
+ Yeah, but what we actually did, we tested the base station at sea, so actually we are interested in not only drones, so if you have any other ideas you want to explore with our association, of course you are welcome.
+ So for example we tested the base station at sea, but unfortunately we don't have so much time to test all the ideas we come up with.
+ So I wonder how well does your drone do with bad weather? I mean the worse the weather, the more urgent the rescue is, but the less stuff works typically.
+ Yeah, so actually the waves are not a big problem, so as long as the waves are not crashing we can more or less land safely. I think in regards to waves it's more a question do you want to deploy your crew into the water?
+ And then we can fly at 25 knots, maybe even 30 knots of wind, so the whole system is very able to withstand bad conditions.
+ Of course it's waterproof, so we can in theory fly when it's rainy.
+ Thank you. How many uninteresting boats do you have in these areas?
+ Of course there are, so you mean boats which are not cases I assume, yeah of course there are for example fishermen, there's also just merchant vessels going through, yeah I mean some I can't give you any numbers, can you give any numbers? No, I don't think so.
+ But what our software can tell you for example also can tell you the size of an object in the image, so you can for example assume that a ship which is I don't know 50 or 100 meters long is of course not the case, but with smaller ships of course there's the possibility that we have a case or a fisherman is maybe the case and so on.
+ Thanks.
+ We still have a bit of time, and there is another question over there.
+ Thank you.
+ How many people have been rescued?
+ Yeah, so it's actually this year the first time we really use it in this mission context really. So beginning of this year in March we operated the drone near the Canary Islands, but there are not so many cases, so the drone actually only took pictures of the ocean,
+ so we can only say okay we didn't find somebody but we covered a lot of area, and then right now the drone side, yeah I mean in the next days they maybe will find the actual case, but until now the drone didn't find any case.
+ But of course it's good to also find no case.
+ Any more questions?
+ There is one at the front.
+ That might be a hypothetical question, but how hard is it for you to actually find the boat at sea, right? So it takes half an hour for the drone to get back, half an hour to download the pictures, an hour to go through them all, and then what you know is where the boat was two hours ago basically. And then with currents and them moving and you moving, like is it realistic to find them or how long does it take you to find them?
+ Yeah we don't know, so the assumption is it takes roughly two hours, the whole process is right. Of course we don't know because we never found somebody.
+ Yeah, I mean this two hours is the time it takes and then of course you can make assumptions. For example in the Mediterranean all people go to the north, at least if they have an engine on, and then you know maybe the speed.
+ We can also do assumptions by the image data about the speed of the ship, so we can tell, okay they maybe go north by I don't know three knots, and then it's maybe not so unrealistic to actually then find the case.
+ I think we still have two more minutes, checking with the signal, with the video people. If there are any more questions, I see you want to hear at the very front. Maybe I'm giving you just my mic.
+ Hello, have you thought about if you do successfully find a boat and it's a couple of hours later, maybe having a shorter range one that can maybe drop a starter or a radar reflector to the boat in question so that it makes it more easier for rescuers to find?
+ Yeah, I guess we thought about this too at some point. Yeah, but right now there's no plan to drop anything. Yeah, I think maybe not. From my point of view it would not be as necessary as might seem.
+ Yeah, but of course it's possible. I mean if we have a little bit bigger drone, we could think about something like that.
+ Yeah, I also think it's instead of trying to build a system which throws something, I think it's more important to just build a live transmission system that you get this information instantly and then you can directly go there.
+ But actually there are drones, big drones, which can drop rescue islands or rescue systems, floating devices, so this would be possible and would be maybe a demand to our politicians that they start using this and don't operate only cameras.
+ Okay, I would say that was it. If you have any more questions, go visit the search window booth. Thank you both very much for this presentation. It was very insightful. See you around. Come to our next talk.
+ Thank you very much.

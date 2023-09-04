@@ -1,0 +1,235 @@
+ [MUSIC]
+ [MUSIC]
+ So, good afternoon.
+ We are here at the nerds of the Oberrheinische Tiefebene and Krosshain stage at the CCC Camp 23.
+ And we have the next talk is called "Celeste, bringing an Indie classic to Pico system."
+ And it's from Andreas, also known as Pixelpunker.
+ And he is into retrocomputing and electronic music.
+ And before we go also to the stream out there, we have this stage have a hashtag.
+ It's on paper, but you can also use it.
+ It's a hashtag #CCCAMP23NOTX or #CCCCCAMP23NOTX.
+ And if you use it in Fediverse, we can take your questions and read them out loud here.
+ And without further ado, welcome to the stage.
+ Thank you.
+ [APPLAUSE]
+ Welcome to my talk, "Celeste, bringing an Indie classic to Pico system."
+ Thank you all for being here.
+ I hope you're enjoying the camp so far.
+ Show me with hands how many of you have heard of or played Celeste.
+ Okay, almost all of you.
+ That's good.
+ This talk is also not only about Celeste, but also about Pico system.
+ If you could switch once.
+ This little device, it's small handheld that is geared more towards people who like to
+ make their own games and not just play them.
+ But more about that in a minute.
+ Let me start with some background about what is pixel art.
+ From 1972 to 1995, pixel art was simply called computer graphics.
+ Starting with Pong all the way, it's been in 2D.
+ But then in 1995, the PlayStation came along and everything was about 3D.
+ 2D was obsolete, outdated, old hat.
+ Nobody was interested in it.
+ Everything moved to 3D even if those early worlds were pretty lacking in detail.
+ But then starting in 2004, there was an indie game called Cave Story, which started a sort
+ of pixel art renaissance.
+ It's still very popular, so it's not a trend.
+ It's here to stay.
+ Pixel art is very still in use today.
+ Today we have mainly free flavors of pixel art.
+ On one end of the spectrum we have new games for vintage hardware like SEMS Journey.
+ The great thing about these games is that with the culminated knowledge and experience,
+ these games often surpass the commercial games of the era.
+ Then in the middle of the spectrum we have games that look kind of old but are more advanced
+ underneath.
+ For example, they may not observe a strict sprite limit or they have bigger worlds than
+ used to be or they are simply programmed in more modern frameworks that take a lot more
+ resource.
+ Then we have at the high end what I would call high pixel art, which combines pixel
+ art with a next-gen look.
+ Pixel art is not an aesthetic and artistic choice, not a technical necessity anymore.
+ Which brings me to Celeste.
+ Celeste is certainly a high pixel art game.
+ It was released in 2018.
+ For an indie game it had an astounding number of copies sold over one million.
+ It's a game in the vein of a really difficult, precision platformer where you die a lot and
+ you learn by trial and error.
+ It also has a really great story and a quite deep story frankly with some topics of identity
+ if you read between the lines.
+ But inside Celeste, the full release, is hidden as an easter egg.
+ Celeste is now called Classic, which is a prototype done in Pico-8, which precedes the
+ full release.
+ But it's also inside the commercial game if you find it.
+ Which brings me to Pico-8.
+ Probably have heard about it as well.
+ It's a fantasy console.
+ It's like an emulator for a machine you've never heard of that did not really exist in
+ real life.
+ It's inspired by the BBC Micro, its creator Zep had this as a child.
+ If you boot it up you see a command line and you used to program this in basic but now
+ it's Lua.
+ And it has integrated tools for creating tiny games.
+ And it's still very popular for game gems if you have prototyping something, if you don't
+ have a lot of time.
+ And it has a lot of constraints and these are made to make you more creative so you're
+ not confused with too many choices.
+ And it still has a really strong community.
+ Which brings me finally to the Pico system.
+ It's a tiny handheld based on the Raspberry Pi Pico microcontroller.
+ But combines it in a nice form factor with a battery.
+ It's overclocked out of the box.
+ It has a small piece of speaker.
+ It does a little bit of tiny Casio style sounds.
+ And it gives you six hours of battery which is thanks to the Pi Pico that really consumes
+ a lot of tiny amount of power.
+ And it has a generous amount of 16 megabytes of flash form, executing place form which
+ I'll talk about in a minute.
+ And has a tiny square screen.
+ Inside it's powered by the Raspberry Pi Pico or RP2040.
+ It's a new microcontroller from Raspberry with two core zero cores.
+ But also some additional hardware like for example a hardware division unit, a interpolator,
+ lots of DMA channels and PIO, programmable I/O which is a special feature of the Pi
+ Pico.
+ It's quite a confusing for some if they see Pico 8 and Pico system they think it's the
+ same as it's not.
+ Here you see some differences and similarities.
+ Both do have a square and tiny screen.
+ Pico in name, Pico in size, reduced controls.
+ But Pico 8 has a runtime with some overhead.
+ Whereas Pico system by default runs with a compiled C++.
+ Pico 8 has lots of RAM.
+ Lua has a minimum of two megabytes and very little ROM.
+ The games are just 32K in size.
+ The Pico system it's reversed.
+ You have lots of ROM, 16 megabytes but very little RAM, 265 kilobytes.
+ And lastly Pico 8 needs a pretty beefy processor for what you're getting, 1 gigahertz at least.
+ Pico system is overclocked to 250 megahertz.
+ So when I began porting the first question is why don't we just port the Pico 8 runtime
+ that could play all kinds of games.
+ The question is that simply the RAM requirements make it impossible.
+ There was an attempt to expand the RAM but it ran at like 8 or 10 FPS because it's really
+ slow and there's no stripped down equivalent on the Lua side like MicroPython for Python.
+ So it's just too big for this tiny microcontroller.
+ If you try it on Pico 8 on a full Raspberry Pi 1 you will even have some slowdown.
+ So it's just too much.
+ So it's a direct port.
+ Pico system has an amazing amount of frameworks to offer.
+ There are six or seven of them that you could choose from.
+ I choose to go with the official Pico system SDK because it first has a reduced footprint
+ and if you look at the API you will notice some similarities.
+ Looks kind of the same but I want to mention two additional frameworks you could use.
+ 32 blitz SDK is the most powerful certainly from a bigger machine and a pretty new one
+ MicroJS, not Micro, which is easier to begin with, you just need a web browser.
+ So when I started porting the first step was to convert all the assets.
+ So I wrote Python scripts to import the sprite sheets and also do some color format conversion.
+ More about that in a minute.
+ We have map data which is the level data.
+ This is also converted.
+ Some Pico 8 games use compression because 32k is really little but that's not necessary
+ for Pico systems so we can remove compression.
+ There's no actual loading, it's just ROM addressed directly.
+ So it works like the consoles of old.
+ You're not loading, you're not pausing, you just access a memory address and your level
+ data is all there.
+ Lastly there's some sound conversion.
+ Pico 8 is known for its chip tunes.
+ Sadly they don't work on this one but they also converted what is there as sound effects.
+ All this conversion of the file formats, they're really explained in detail in the Pico 8 wiki
+ so that's a great resource.
+ Let me talk a bit more in detail about the colors.
+ I hope you can see those colors.
+ Pico 8 has just 16 colors but they're really cleverly chosen artistically so it looks a
+ lot more colorful than 16 colors suggest.
+ There's even a hidden palette of another 16 colors.
+ It works with old school tricks like palette swaps.
+ This is a chess prototype I did.
+ The chess pieces are the same sprite but just recolored with palette swaps.
+ In the old times you also used it for color cycling effects that look pretty amazing but
+ they don't use practically no resources even on old machines because the palette change
+ costs almost nothing and you can do some animation style that's just a cycling of colors.
+ That's the two reasons Pico 8 still uses palettes.
+ The system on the other hand uses the ST7789 display, a pretty common display with a controller
+ to power it.
+ It has 18 bits of color which is 260,000 colors.
+ Also works in 16-bit color mode with 62,000 colors and lastly in 12-bit mode which gives
+ you 4,000 colors.
+ And we go with this 12-bit color mode which gives us exactly the Amiga palette of 4,096
+ colors.
+ But there's a problem.
+ If you store 12 bits inside 16 bits you can't read them out efficiently via memory copy.
+ You have to skip four bits.
+ But there's some PyRO assembly.
+ It's connected via DMA to the memory and then it processes those bits and throws some away
+ and saves us 25% of the SBA bandwidth and this is great because SBA bandwidth is the
+ one limiting factor for the refresh of this display.
+ There are those 12 bits stored in two bytes, means one nibble, that's the word for four
+ bits, can be used for full alpha transparency which looks great and it's uncommon for an
+ 8 or 16-bit machine.
+ So what I did when porting the SDK out of the box has some so-called blend modes.
+ There's copy which is just a memory copy, so from source to the screen it ignores what's
+ there.
+ Then we have mask which is one bit transparency.
+ And finally we have a mode with full alpha transparency and of course this one is the
+ slowest.
+ Then I added additional PQ8 blend modes, a new one called sprite which uses a transparency
+ map.
+ This is a feature of PQ8 where you can assign some colors to be transparent or not.
+ Secondly palette, because there are palette effects and that means colors are changed
+ after the effect.
+ So the screen is already drawn and then we decide on a palette change, change it afterwards.
+ And to enable this I used this transparency nibble to store the original PQ8 color index
+ instead so I can reassign whenever there's a palette change.
+ But also want to use the full 4,000 colors so maybe combine or enhance on the existing
+ game.
+ So I finally have convert which copies those palette colors to full RGBA.
+ Okay secondly the game loop, every game has an internal game loop that reads data from
+ the controller, updates the game logic and finally draws the screen.
+ The ST789 has different refresh rates you can use.
+ 50 hertz is the default, I go here for 60 hertz.
+ And the great thing about this play is it has a dedicated v-sync pin so we can sync
+ to the display.
+ And this display I used to start the game loop so we don't have a timer but the display
+ drives the refresh and this saves up to one frame of latency for us.
+ And lastly PQ8 is made for exactly 30 FPS so I just wait twice and then I have exactly
+ 30 FPS and if you count up the time it really keeps the time correctly.
+ Just a bit of detail regarding the screen, PQ8 has 128 by 128 pixels, really odd and
+ unusual resolution.
+ PQ system has just 120 by 120, this doesn't sound like much of a difference.
+ If you have a scrolling game cutting off 4 pixels doesn't hurt but for a single screen
+ game like Celeste sometimes there are some important objects that would be hidden, I
+ hope you see the red outline.
+ So I implemented a moving camera that follows the player that also tries not to bounce back
+ and forth with some limits.
+ So only when it needs to.
+ Okay last important aspect of these piece of speaker sounds, we have lots of sounds in
+ the original but we are only left with wave and noise channels.
+ Let me show you what it sounds like.
+ Yeah that's what's left of the sound but still it gives a nice feedback.
+ And I used the second core to decouple the sound speed from the frame rate.
+ Okay before I come to this last slide let me just show you quickly what it looks like.
+ If you could switch to the camera.
+ So here's Celeste.
+ You can play it and it runs in full speed.
+ There are pickups and because it runs on a Raspberry Pi I changed the pickups to be a
+ Raspberry but you can always change it back to the original strawberry.
+ So that's one minor addition.
+ Okay the last point is I've done it again and tried to port it again.
+ This time in Rust using Asiakruna's embedded Rust and uses embedded graphics and embedded
+ graphics core.
+ I'm starting from scratch and the first thing I did was this sprite routine which pauses
+ the sprite sheet and now writes it using, you should switch back to the camera please.
+ It pauses the sprite sheet and displays it.
+ As you can see right now it's still a bit slow which is because we are not using a frame
+ buffer yet we are just moving directly to the SBI to display.
+ But yeah that's the future of this port and I also want to convert the Lua code this time
+ not by hand but with a Asiak Simplex Poser to make it a general framework for porting
+ Pico 8 games to the Pico system.
+ Thank you.
+ Well thank you very much Pixelbunker.
+ I think you could have used more time for getting more deeper into it but who ever wants
+ to know more can ask you like the side of the stage because we need to make space for
+ the next talk that is already in preparation and will happen here in 18 minutes so we need
+ that time to change the stage but thank you very much for coming and thank you very much
+ for coming here.
+ Thanks.
+ [Applause]
+ [Music]

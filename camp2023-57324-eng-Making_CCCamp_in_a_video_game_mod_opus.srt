@@ -1,0 +1,764 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:36,000
+ So essentially, I'm here to talk today about a game that I'm working on called Off Grid.
+
+4
+00:00:36,000 --> 00:00:40,000
+ I'll give you a bit of an overview of its development history so far.
+
+5
+00:00:40,000 --> 00:00:44,000
+ Some of you may have heard of it because Rich Smithson, who's making Off Grid,
+
+6
+00:00:44,000 --> 00:00:48,000
+ is always heavily involved with this event and Millie Waze.
+
+7
+00:00:48,000 --> 00:00:52,000
+ I want to go through a few of the hacking and social engineering mechanics in our game
+
+8
+00:00:52,000 --> 00:00:58,000
+ and also talk to you about what the talk is about, the modding that we're doing,
+
+9
+00:00:58,000 --> 00:01:04,000
+ and how on Friday you can come and join me in a workshop and we can put you inside the game.
+
+10
+00:01:04,000 --> 00:01:08,000
+ So who is this bozo? This is me, I'm Steph Keegan.
+
+11
+00:01:08,000 --> 00:01:10,000
+ I'm an artist, writer, developer.
+
+12
+00:01:10,000 --> 00:01:14,000
+ I've been working in the film industry and the games industry for several years.
+
+13
+00:01:14,000 --> 00:01:18,000
+ I've been working mostly in VR for the last decade.
+
+14
+00:01:18,000 --> 00:01:22,000
+ If any of you are VR fans out there, you may have heard of some of the things I've worked on,
+
+15
+00:01:22,000 --> 00:01:24,000
+ the Pixel Ripped and Winlands.
+
+16
+00:01:24,000 --> 00:01:28,000
+ And if you have played Winlands 2, you also might recognise my voice because that's me.
+
+17
+00:01:28,000 --> 00:01:30,000
+ I'm Sorala.
+
+18
+00:01:30,000 --> 00:01:32,000
+ It sort of tends to happen in indie games when you run out of budgets.
+
+19
+00:01:32,000 --> 00:01:36,000
+ The developers end up being the characters.
+
+20
+00:01:36,000 --> 00:01:42,000
+ Earlier this year, I joined the company Samaeopus, who are making Off Grid.
+
+21
+00:01:42,000 --> 00:01:46,000
+ I just wanted to give you all a warning that I know very little about code.
+
+22
+00:01:46,000 --> 00:01:48,000
+ I'm not a coder, I'm an artist.
+
+23
+00:01:48,000 --> 00:01:54,000
+ And that will become imminently clear when I try to talk about more technical stuff in this talk.
+
+24
+00:01:54,000 --> 00:01:56,000
+ Yeah, that's me.
+
+25
+00:01:56,000 --> 00:02:02,000
+ So, Samaeopus is very hard to spell.
+
+26
+00:02:02,000 --> 00:02:04,000
+ I'm always getting it wrong.
+
+27
+00:02:04,000 --> 00:02:08,000
+ It's an indie game studio founded by Rich Metzen and Pointers Schoenberg.
+
+28
+00:02:08,000 --> 00:02:14,000
+ Two very lovely guys, and sadly aren't here today, and they really wish they were.
+
+29
+00:02:14,000 --> 00:02:16,000
+ They want to make games that matter.
+
+30
+00:02:16,000 --> 00:02:22,000
+ So essentially, further the maturity of the medium and have something to say.
+
+31
+00:02:22,000 --> 00:02:30,000
+ And at a talk, at another hacking conference years ago, Rich saw a talk that inspired him to make this game.
+
+32
+00:02:30,000 --> 00:02:38,000
+ And they've been working Off Grid for roughly ten years, as is the way sometimes when you're trying to support yourself as an indie development team
+
+33
+00:02:38,000 --> 00:02:40,000
+ and don't want to take money from the man, you have to support yourself.
+
+34
+00:02:40,000 --> 00:02:42,000
+ So we're still going though.
+
+35
+00:02:42,000 --> 00:02:44,000
+ Anyone who may have backed us on Kickstarter, don't worry.
+
+36
+00:02:44,000 --> 00:02:47,000
+ It's still happening. We're still squirrelling away.
+
+37
+00:02:47,000 --> 00:02:52,000
+ And for those of you who don't know, here is a quick trailer.
+
+38
+00:02:52,000 --> 00:03:16,000
+ [no audio]
+
+39
+00:03:16,000 --> 00:03:39,000
+ [no audio]
+
+40
+00:03:39,000 --> 00:03:41,000
+ Okay.
+
+41
+00:03:41,000 --> 00:03:57,000
+ [no audio]
+
+42
+00:03:57,000 --> 00:03:59,000
+ Okay, so what is Off Grid?
+
+43
+00:03:59,000 --> 00:04:01,000
+ It's a moddable stealth hacking game.
+
+44
+00:04:01,000 --> 00:04:12,000
+ And it's not going to be, it's not broad, it's made by people who really care about the industry and know what they're talking about.
+
+45
+00:04:12,000 --> 00:04:17,000
+ And so there are themes of net neutrality, privacy, digital rights.
+
+46
+00:04:17,000 --> 00:04:25,000
+ But it's also made by British developers with a British sense of humour, so it's quite tongue in cheek and satirical.
+
+47
+00:04:25,000 --> 00:04:28,000
+ It's set in the not too distant Orwellian future.
+
+48
+00:04:28,000 --> 00:04:34,000
+ Or at least it was when we began making it 13 years ago, but it seems like it's just set in reality now, unfortunately.
+
+49
+00:04:34,000 --> 00:04:39,000
+ And a bit of an overview, as you play as this character Joe, he's kind of a technophobe.
+
+50
+00:04:39,000 --> 00:04:42,000
+ He doesn't know anything. He's basically me.
+
+51
+00:04:42,000 --> 00:04:49,000
+ But he's sort of pulled into this world unexpectedly when his daughter, Jen, is arrested.
+
+52
+00:04:49,000 --> 00:04:55,000
+ She's been involved in something, some sort of secretive hacking thing, fighting the man.
+
+53
+00:04:55,000 --> 00:05:01,000
+ And their house is raided in the first, say, level introduction.
+
+54
+00:05:01,000 --> 00:05:05,000
+ And suddenly Joe is thrust into this world and he doesn't know anything about it.
+
+55
+00:05:05,000 --> 00:05:11,000
+ But he is led by a mysterious stranger called Smedley, who is a hacker friend of Jen's.
+
+56
+00:05:11,000 --> 00:05:17,000
+ And with the help of Smedley, you begin to try and unravel what is going on.
+
+57
+00:05:17,000 --> 00:05:24,000
+ So yes, in 2013, when - I'm going to say we, even though I wasn't involved back then, but it's just easier.
+
+58
+00:05:24,000 --> 00:05:28,000
+ When we began thinking about it, we wanted it to be grounded for impact.
+
+59
+00:05:28,000 --> 00:05:32,000
+ We wanted to make jokes and laugh, but we wanted it to matter.
+
+60
+00:05:32,000 --> 00:05:36,000
+ So it was really important to us not to be alienating or confusing.
+
+61
+00:05:36,000 --> 00:05:40,000
+ And so we were worried that our lore would be too heightened.
+
+62
+00:05:40,000 --> 00:05:46,000
+ We're games developers, so we wanted to do weird things and exaggerate the tech and the things.
+
+63
+00:05:46,000 --> 00:05:52,000
+ And back in 2013, some of our ideas seemed a bit out there.
+
+64
+00:05:52,000 --> 00:05:58,000
+ We scaled back on some of our network and surveillance tech because they seemed too unrealistic.
+
+65
+00:05:58,000 --> 00:06:02,000
+ And we really wanted to make mundane household objects hackable.
+
+66
+00:06:02,000 --> 00:06:06,000
+ And some of them were ridiculous and in the end we were like, we can't put that in.
+
+67
+00:06:06,000 --> 00:06:09,000
+ No one would believe it.
+
+68
+00:06:09,000 --> 00:06:12,000
+ Now, a lot has changed.
+
+69
+00:06:12,000 --> 00:06:19,000
+ The real world is actually outpacing our fiction, which is depressing, but great for us as devs.
+
+70
+00:06:19,000 --> 00:06:23,000
+ Sorry, that's my fault, I'm wobbling around.
+
+71
+00:06:23,000 --> 00:06:28,000
+ Ideas that we rejected for being too out there have now got back into the game.
+
+72
+00:06:28,000 --> 00:06:31,000
+ Nothing ever stays on the clipping floor.
+
+73
+00:06:31,000 --> 00:06:37,000
+ Yeah, we had to actually make the network and surveillance tools more pervasive for it to become more realistic.
+
+74
+00:06:37,000 --> 00:06:39,000
+ So that was interesting.
+
+75
+00:06:39,000 --> 00:06:46,000
+ And as for mundane objects on Wi-Fi, this is a cat toilet.
+
+76
+00:06:46,000 --> 00:06:51,000
+ What really bothers me about this picture is this woman is not only watching her cat poop.
+
+77
+00:06:51,000 --> 00:06:53,000
+ She's monitoring on the Wi-Fi at the same time.
+
+78
+00:06:53,000 --> 00:06:56,000
+ What is that doing that your eyes aren't?
+
+79
+00:06:56,000 --> 00:06:59,000
+ Yeah, I actually own that toilet.
+
+80
+00:06:59,000 --> 00:07:03,000
+ Please don't hack my cat toilet.
+
+81
+00:07:03,000 --> 00:07:07,000
+ So the conception of the game is that it would be a game about data privacy.
+
+82
+00:07:07,000 --> 00:07:15,000
+ So inevitably mechanics are covering things like hiding, cloaking, covering your tracks, that kind of stuff.
+
+83
+00:07:15,000 --> 00:07:20,000
+ So it naturally fell into a stealth genre kind of game.
+
+84
+00:07:20,000 --> 00:07:26,000
+ But Rich and Pontus were keen to make it original and do their own thing.
+
+85
+00:07:26,000 --> 00:07:32,000
+ So they wanted to kind of merge it and mesh it with a twist on the hacking genre.
+
+86
+00:07:32,000 --> 00:07:38,000
+ And the way they've done that is they treat data like a tangible thing in the game.
+
+87
+00:07:38,000 --> 00:07:41,000
+ So it's like a breadcrumb trail which you can pick up.
+
+88
+00:07:41,000 --> 00:07:53,000
+ And I don't know if you can see that, but you have these kind of like Google glasses that can scan networks and you can see the data around you.
+
+89
+00:07:53,000 --> 00:08:00,000
+ So essentially as you play the game, the main goals are to get physical access to the building.
+
+90
+00:08:00,000 --> 00:08:07,000
+ You kind of want to scan for data and you use that to crackle social engineering to access networks.
+
+91
+00:08:07,000 --> 00:08:14,000
+ But also you want to be careful how much you do that. You don't want to be discovered on the network.
+
+92
+00:08:14,000 --> 00:08:21,000
+ And there's much more in depth, like Rich would tell you a lot more in detail about it, but I'm just going to give you a brief overview.
+
+93
+00:08:21,000 --> 00:08:24,000
+ So my favorite thing about it actually is the NPCs.
+
+94
+00:08:24,000 --> 00:08:29,000
+ So they built this NPC system and the NPCs are kind of driven by an AI that is goal oriented.
+
+95
+00:08:29,000 --> 00:08:38,000
+ And so when you build an NPC, and that's what we're doing at my talk on Friday, is building you with NPCs, is you create a character profile for the NPC.
+
+96
+00:08:38,000 --> 00:08:44,000
+ And there will be things like they like, things they dislike, their favorite song, their kind of personality type.
+
+97
+00:08:44,000 --> 00:08:56,000
+ And with that information, as you scan and build up a much more detailed profile on them, it will help you do things like distract them better or brute force their passwords.
+
+98
+00:08:56,000 --> 00:09:04,000
+ And in this picture is the guard is sleeping and the character Joe is scanning him for information, which he can then use to manipulate him later.
+
+99
+00:09:04,000 --> 00:09:14,000
+ Or you can just prank them. So yeah, you can distract them, send them somewhere, you know, like the whole "what was that?" kind of vibe.
+
+100
+00:09:14,000 --> 00:09:21,000
+ And things like sending black facts to keep a secretary busy or that kind of stuff. So that's quite fun.
+
+101
+00:09:21,000 --> 00:09:26,000
+ We've built a bunch of tools and devices that you can hack, but the software is open and moddable.
+
+102
+00:09:26,000 --> 00:09:29,000
+ So we encourage people to come up with any weird and wacky ideas they have.
+
+103
+00:09:29,000 --> 00:09:40,000
+ And there is no one way to solve a level. So you'll be able to figure out your own fun ways to distract these NPCs to get what you want.
+
+104
+00:09:40,000 --> 00:09:44,000
+ Yeah, so you can hack vending machines, send black facts and mess with monitors.
+
+105
+00:09:44,000 --> 00:09:53,000
+ Basically anything technical is hackable, which we thought was pushing our luck back in 2013 and now we're just making everything hackable.
+
+106
+00:09:53,000 --> 00:09:58,000
+ Yeah, so I'm just going to check my time. Okay, we're doing good.
+
+107
+00:09:58,000 --> 00:10:04,000
+ So the modding tools. This is some old footage of the sort of level kit we're building.
+
+108
+00:10:04,000 --> 00:10:10,000
+ Yeah, this is some of the art inside the game. But we make it in Unity.
+
+109
+00:10:10,000 --> 00:10:15,000
+ So when you do, obviously we are releasing the game as an individual game that we're making.
+
+110
+00:10:15,000 --> 00:10:20,000
+ But the modding tools and the level kit is really open and it's built in Unity.
+
+111
+00:10:20,000 --> 00:10:23,000
+ So if you wanted to build your own levels, you would use Unity.
+
+112
+00:10:23,000 --> 00:10:30,000
+ And it was really important to us and in the ethos of everything about the game is that we don't have any special magic tools that we don't give you.
+
+113
+00:10:30,000 --> 00:10:37,000
+ You know, normally in modding games the developers can do all these extra wonderful things because they have a whole team and those secret databases of their own stuff.
+
+114
+00:10:37,000 --> 00:10:42,000
+ But we don't want to do that. And it can be frustrating for me as an artist because I want to do things and they say,
+
+115
+00:10:42,000 --> 00:10:47,000
+ "Yeah, we can do that, but we're going to have to build a whole system so that the modders can do it too."
+
+116
+00:10:47,000 --> 00:10:55,000
+ It's always the answer. So yeah, if I make a level, you'll be able to make the exact same level, essentially.
+
+117
+00:10:55,000 --> 00:11:00,000
+ Using like Lua API and tools for scripting, you can create your own character purpose, as I mentioned.
+
+118
+00:11:00,000 --> 00:11:06,000
+ You can build interactive objects. And even having conversations with people via text message in the game.
+
+119
+00:11:06,000 --> 00:11:11,000
+ We have all these different modules you can use to build complex scenes.
+
+120
+00:11:11,000 --> 00:11:16,000
+ And we do envision that you will make really better scenes than us and better games than us.
+
+121
+00:11:16,000 --> 00:11:19,000
+ We're kind of excited to see what happens.
+
+122
+00:11:19,000 --> 00:11:24,000
+ And you can use my art, and there's been several excellent artists before me.
+
+123
+00:11:24,000 --> 00:11:29,000
+ Or you can import your own. There is no limit to what you do.
+
+124
+00:11:29,000 --> 00:11:35,000
+ And you can script your own tools. The Google Glasses that the character wears has a bunch of tools for scanning networks
+
+125
+00:11:35,000 --> 00:11:38,000
+ and all sorts of interesting things that Pontus and Rich have come up with.
+
+126
+00:11:38,000 --> 00:11:41,000
+ And we also have a ton we want to do.
+
+127
+00:11:41,000 --> 00:11:47,000
+ But there's no stopping you from developing your own tool in the game and scripting your own hacking tools.
+
+128
+00:11:47,000 --> 00:11:53,000
+ And just as an example, as a story, this story is called Fosterage.
+
+129
+00:11:53,000 --> 00:11:57,000
+ It was made in a mod by Yuri Martino, a very sweet man.
+
+130
+00:11:57,000 --> 00:12:03,000
+ And he told this story about a boy who was fostered, finds out that he's adopted.
+
+131
+00:12:03,000 --> 00:12:11,000
+ And it's just an example. You don't even have to set your mods in our world. You can do what you want.
+
+132
+00:12:11,000 --> 00:12:16,000
+ And Lua is user-friendly, which is great.
+
+133
+00:12:16,000 --> 00:12:23,000
+ And we're building a wiki that needs constant updating, as you all know.
+
+134
+00:12:23,000 --> 00:12:26,000
+ And hopefully we'll get more people updating it in the long run.
+
+135
+00:12:26,000 --> 00:12:32,000
+ But essentially it's all there. Like tomorrow I could give you everything you needed and you would be able to build a level.
+
+136
+00:12:32,000 --> 00:12:35,000
+ And even me, a total dumb dumb artist, can do it.
+
+137
+00:12:35,000 --> 00:12:39,000
+ And like I said before, I didn't know any code at the beginning of the year.
+
+138
+00:12:39,000 --> 00:12:46,000
+ And now I'm writing Lua scripts so that I can make my characters do all sorts of things and run timeline animations.
+
+139
+00:12:46,000 --> 00:12:50,000
+ And yeah, it's great.
+
+140
+00:12:50,000 --> 00:12:54,000
+ And so what this talk is about is Mealyways.
+
+141
+00:12:54,000 --> 00:12:59,000
+ So, McFly, as many of you probably know, I'm sure most of you know who McFly is.
+
+142
+00:12:59,000 --> 00:13:04,000
+ He actually and a bunch of people built in 2019 Mealyways inside our mod of all stuff.
+
+143
+00:13:04,000 --> 00:13:07,000
+ And it was really cool.
+
+144
+00:13:07,000 --> 00:13:12,000
+ There'll be things you recognise in here, like the Mealyways flags and the dome.
+
+145
+00:13:12,000 --> 00:13:16,000
+ And there's a rocket in here somewhere. I think you can see it very much in the distance of this picture.
+
+146
+00:13:16,000 --> 00:13:20,000
+ There's a rocket, tiny rocket on the screen.
+
+147
+00:13:20,000 --> 00:13:30,000
+ And so what they did is they built their own wiki page and sort of shared out the tasks to build all the art assets and took them up.
+
+148
+00:13:30,000 --> 00:13:35,000
+ And then they made their own version of Mealyways in the mod and put themselves in it.
+
+149
+00:13:35,000 --> 00:13:46,000
+ And if any of you know McFly online, you'll recognise his profile picture, you know, that 2D, that profile picture he uses, is actually his character in here.
+
+150
+00:13:46,000 --> 00:13:48,000
+ And there's a lot we can add.
+
+151
+00:13:48,000 --> 00:13:51,000
+ Obviously, things have changed. There's new things around.
+
+152
+00:13:51,000 --> 00:13:53,000
+ We never really finished the scene.
+
+153
+00:13:53,000 --> 00:13:56,000
+ So we're encouraging people to come on Friday and to add to the mod.
+
+154
+00:13:56,000 --> 00:13:58,000
+ You can build assets.
+
+155
+00:13:58,000 --> 00:14:02,000
+ Or there's updates 2023. There's things we don't have.
+
+156
+00:14:02,000 --> 00:14:06,000
+ We don't have you, so we can put you in it.
+
+157
+00:14:06,000 --> 00:14:08,000
+ And we encourage other villages to get involved.
+
+158
+00:14:08,000 --> 00:14:17,000
+ And, yeah, there's no limit, really. Come along and see what we can do.
+
+159
+00:14:17,000 --> 00:14:22,000
+ And these are the times that I will be running the workshops on Friday.
+
+160
+00:14:22,000 --> 00:14:28,000
+ So essentially, yeah, you'll come and put yourself in the video game at 2.30 to 4.30 and 5 to 7.
+
+161
+00:14:28,000 --> 00:14:36,000
+ And it's going to be in the workshop dome, which I believe is there somewhere.
+
+162
+00:14:36,000 --> 00:14:39,000
+ And I've talked really fast because I was nervous about time.
+
+163
+00:14:39,000 --> 00:14:44,000
+ So I have loads of time for questions. Who has questions?
+
+164
+00:14:44,000 --> 00:14:52,000
+ [Applause]
+
+165
+00:14:52,000 --> 00:14:54,000
+ The talk. So thank you very much for the talk.
+
+166
+00:14:54,000 --> 00:14:57,000
+ You already had applause. This is nice.
+
+167
+00:14:57,000 --> 00:15:00,000
+ But you can give a new round while you are thinking about if you have any questions.
+
+168
+00:15:00,000 --> 00:15:06,000
+ If you have any questions, please line up at the microphone in the middle there.
+
+169
+00:15:06,000 --> 00:15:11,000
+ If anyone wants to know something about the game or the workshop.
+
+170
+00:15:11,000 --> 00:15:15,000
+ Oh, you have a question.
+
+171
+00:15:15,000 --> 00:15:19,000
+ When is going to be released? Because I see it say coming soon.
+
+172
+00:15:19,000 --> 00:15:22,000
+ Oh, I was hoping someone would ask that because I meant to bring that up.
+
+173
+00:15:22,000 --> 00:15:25,000
+ So, yeah, it has been saying coming soon for a long time.
+
+174
+00:15:25,000 --> 00:15:30,000
+ It's actually been saying coming out in 2019 for a long time as well, which it hasn't.
+
+175
+00:15:30,000 --> 00:15:36,000
+ That's a very good question. So essentially, as is the way, it's been --
+
+176
+00:15:36,000 --> 00:15:40,000
+ it did go on for a little while while we tried to keep afloat as a company
+
+177
+00:15:40,000 --> 00:15:47,000
+ and did a lot of work just to build up money for ourselves and keep afloat.
+
+178
+00:15:47,000 --> 00:15:50,000
+ But what's really been great this year is we've kicked up a gear again.
+
+179
+00:15:50,000 --> 00:15:55,000
+ Especially one of the reasons I joined the team is to have a full-time artist working on it.
+
+180
+00:15:55,000 --> 00:15:57,000
+ We're building levels now.
+
+181
+00:15:57,000 --> 00:16:03,000
+ Pontus is working really hard on developing tools and vent crawling mechanics and that kind of stuff.
+
+182
+00:16:03,000 --> 00:16:07,000
+ So I don't have an exact date for you, but progress is happening.
+
+183
+00:16:07,000 --> 00:16:11,000
+ I would like to see it within a year.
+
+184
+00:16:11,000 --> 00:16:17,000
+ But I couldn't tell you for sure at the moment. But it is -- progress is happening.
+
+185
+00:16:17,000 --> 00:16:22,000
+ Okay. Thank you. Are there any more questions?
+
+186
+00:16:22,000 --> 00:16:28,000
+ No. So if you are thinking of some questions, she will be here and giving workshops as well.
+
+187
+00:16:28,000 --> 00:16:30,000
+ And she will be able to answer all your questions.
+
+188
+00:16:30,000 --> 00:16:34,000
+ Then thank you very much for this interesting talk and the overview of the game.
+
+189
+00:16:34,000 --> 00:16:38,000
+ And give one last round of applause, please. Thank you.
+
+190
+00:16:38,000 --> 00:16:43,000
+ [ Applause ]
+
+191
+00:16:43,000 --> 00:16:48,000
+ [ Music ]
+

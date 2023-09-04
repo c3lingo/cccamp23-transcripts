@@ -1,0 +1,687 @@
+ [MUSIC]
+ [MUSIC]
+ Yes, so welcome again to the CC camp.
+ I had the pleasure of being invited here from the whole camp organization,
+ also for my company, because we donated the two sensors on your batch.
+ I don't want to touch that now with the camera.
+ And I want to tell you in the first part a little bit about the sensors,
+ how they are working, and what it is all about with these mems things,
+ what's in the batch.
+ And the second part show a few examples how you can really with command line get
+ micropyton code running, getting an LED on off blinking, and
+ then also touch the measurements from those sensors.
+ The first sensor is the BMI 270.
+ This is an inertial, the I stands for inertial sensor.
+ So doing gravity things, so that's a big sensor.
+ Now I forgot to bring the white part of that sensor that I could show later
+ where you locate them.
+ So this is the big one with two and a half by three millimeters.
+ And it says the inertial thing for three axis and also gyro, so
+ the rotation things, you can measure how fast it's rotating.
+ And it's also quite useful for doing inertial navigation, things like that.
+ All those sensors are now widely used in a lot of things, in your mobile phones,
+ also in all those wearable devices which are around in your wristwatch that you get
+ monitored all the time if you do the right things.
+ They have a lot of coding already inside that chip, so
+ it's not only the hardware for detecting things like that, but
+ also microcontroller and the microcontroller itself can do step counting.
+ Can recognize if you do whatever with your hand.
+ So in this sense, it's still hard coded that you get some information.
+ It also has a free fall detection.
+ So if it's dropping, it can issue an interrupt to your microcontroller.
+ But everything also, the step counting is done internally,
+ that your host CPU doesn't need that much power, things like that.
+ The hero will have it for just tapping on it, for switching on or off, whatever.
+ I'm not using any of these devices, so it's pure theory for me.
+ And there's a lot of possibilities, and so
+ all those possibilities you also can now play around with your batch.
+ So you can tap on it, whatever, and you have to read the data sheet and
+ see how it's getting mapped into Python.
+ And maybe part of the firmware guys will give me this or that support.
+ Right now you see only the measurements for the angles and the rotation speeds.
+ But there is more options and this just must be part of the firmware in Python.
+ And a lot of fun stuff can be done.
+ But even with the basic setup, it's great.
+ And so right now it's working for some game things for drones,
+ all the variable things.
+ And the second sensor, which is in, it's a very new and
+ decent BMP-5100P stands for pressure.
+ So this is only doing the barometric air pressure.
+ You always can detect pressure sensors, typically they're all metal capped and
+ have a small hole.
+ This one even has two holes, very new.
+ And so that the pressure, the air can get in and out.
+ So whenever I see something with a gap, so something must get in and
+ out with a sensor four years ago for the cardio batch.
+ It is also metal capped thing, but there was a hole for the environmental sensor.
+ It also did pressure and humidity, but also this gas sensing.
+ The beam is exactly that, you can sniff gases and see to alcohol tests or whatever.
+ So that's a bit smaller, two by two millimeters here.
+ So it's very hard to find on the carton.
+ This is also being used since the pressure measurement right now,
+ does the slide any of the mentioned, yeah.
+ It has a very high precision, so it's measured in pascal, the pressure.
+ Typically we do hecto pascal, then it's at 1013 hecto pascal or
+ minibar, which is the standard pressure at sea level with great weather conditions and
+ whatever.
+ This one has a resolution of less, around about half a pascal.
+ And this is, if you just lift it up, you get resolutions,
+ absolute resolutions in the range of 50 centimeters unless you really can
+ try to show that afterwards with the cable.
+ That part is difficult with the camera.
+ We'll see.
+ No, that's easy with the camera.
+ That you really can measure in centimeters or
+ few centimeters how you're lifting that.
+ So this is now used for example also in mobile phones and other wearable devices
+ that you can measure in which floor in a building you're located.
+ You can do that without any GPS, whatever.
+ And this is horribly precise.
+ That if you're going upstairs, you can even with that one do step counting,
+ stair counting.
+ But you play around with that, just reading out.
+ And you will see if you drive up the lift and
+ leave first floor, second floor, tremendous different numbers.
+ And that way it's easy to have the floor level for
+ then rescuing people when it's not clear where you are, when you can't see things
+ anymore.
+ In United States, they are just planning that there will be requirements or
+ maybe it's already law that you have to have devices where you can track people
+ and know in which floor it is in case of fire and other accidents.
+ And you can read out the thing at a very high speed, at least with,
+ I think, 480 hertz, maybe even more.
+ Also there, data sheet tells a lot more.
+ So this is a pressure sensor, but it also provides, for example, a temperature.
+ Because the physics of the pressure sensor must be calibrated a bit.
+ So if the temperature is higher, they have to know the temperature and
+ just make sure the measurement of the pressure is always very precise.
+ And yeah, since you can detect movements, you can use it in a lot of indoor and
+ outdoor and whatever applications and getting better every year.
+ That was back.
+ And now there's a small movie, hope this is working.
+ No, that's going back.
+ I want to start the movie, please.
+ To show how, that's the PDFs, that's wrong.
+ We need the browser.
+ Here's the first example, a little bit.
+ How the acceleration sensor is working internally to get a rough idea on what
+ it's useful, can you hear anything?
+ So that should be it.
+ >> The sensors detect a vehicle impact as well as the smallest movements of
+ a smartphone or wearables.
+ [MUSIC]
+ The acceleration sensor consists of a signal processing chip and
+ a micro-mechanical comb-like structure.
+ These combs form a capacitor and
+ the distance between the microstructures determines its capacity.
+ The blue part of this structure is movable.
+ Depending on acceleration or deceleration,
+ they change their position relative to each other.
+ The resulting change in capacitance is detected by the integrated electronics,
+ converted into a measured value, and output into a voltage signal.
+ [MUSIC]
+ >> So there's a little bit of animation how that acceleration sensor works
+ internally, having that structure made of silicon, which is like a spring and
+ can move when you shift it around, then it's pulled down by gravity.
+ Or if you accelerate and throw away your mobile phone, these things will shake and
+ then you can detect what was moved and you have this in all three dimensions.
+ The z dimension looks a little bit different, but can be measured and
+ you get the measurements, that's quite nice.
+ Yes? >> This was only one dimension.
+ >> This is only an example for one dimension.
+ Then you have the terms for the second dimension for why.
+ Don't ask me about the second dimension.
+ It's a little bit different, but the physics is more or less the same.
+ So this pressure sensor is also a small animation here.
+ [MUSIC]
+ >> There are two chips in this housing, a circuit for
+ signal processing and the sensor itself.
+ The micro-mechanical sensor chip is furnished with a pressure-sensitive
+ membrane.
+ Electrical resistors on the membrane are connected together to form a wheat stone
+ bridge.
+ Changes in pressure cause the membrane to change shape.
+ An electrical voltage proportionate to the amount of distortion
+ is created at the resistors.
+ The change in voltage is the result of the ambient pressure.
+ In analog sensors, the typical signal voltage generated is between 0 and 5 volts.
+ [MUSIC]
+ I'm not sure if I can just tap in.
+ [MUSIC]
+ Analog sensors, the typical signal voltistors.
+ The chip.
+ >> Actually, that's not exactly what your sensor is doing.
+ So that membrane thing is the same.
+ It's a very, very thin slice of silicon.
+ It's moving up and down depending on where the pressure from the holes,
+ more or less, air is coming in.
+ But for the first time in our sensor history,
+ this sensor what you've got now is not with resistors anymore.
+ But it's a capacitive sensor.
+ So you have that silicon plane and another conducting plane.
+ So it's a capacity.
+ And if you press down, the capacity will change and
+ you're measuring the change in capacity.
+ One of the advantages is that you need less current, so it's more power efficient.
+ And also the resolution and
+ the noise level of the signal is quite much better than the generation before.
+ But just seeing there's a membrane, it's somehow getting pressed down and
+ up, that's all the principle of all those pressure sensors.
+ Before, you had some resistors and piezo resistive things.
+ And now we're doing that capacitive part.
+ And all those sensors which Bosch is doing both for
+ the consumer electronics and also for the automotive,
+ they're all produced in Reutlingen, so south of Stuttgart.
+ That's the only fab doing those technologies.
+ Those ASICs which do the software and
+ analog measurement things, then they are done somewhere in the world.
+ So that's regular technique for doing any chips, but
+ how the sensors are working with moving parts and this micro mechanics and so
+ things, that's very specific what Bosch and a few other companies are also doing.
+ And they are coming from that fab in Reutlingen.
+ Bosch recently built up a new fab in Dresden, so this,
+ I think there's a second slide on that.
+ Yeah, in Reutlingen we are producing things on 15 centimeters or
+ 20 centimeters modules, wafers, so 20 centimeters and around about that.
+ I have one in the tent, if you come to the tent,
+ I also can show how 20 centimeter wafer looks like.
+ In Dresden, they recently built up a new fab running at 30 centimeters, so
+ it's only 10 centimeters more, but it's two size the area.
+ So you get more chips out of a single wafer which you are processing and
+ those process things run for weeks.
+ You have to etch them, you have to cover them,
+ you have to keep them at a dedicated temperature.
+ It's a lot of steps getting any chip or also the MEMS,
+ even MEMS takes sometimes a little bit more.
+ And right now in Reutlingen they are building a new fab for
+ getting even more production because we can't produce as much chips and
+ sensors as the market is asking for, horrible.
+ Yeah, and it's just a portfolio what we also do in sensor tech.
+ It's not only the acceleration and gyro sensor, we have the gas sensors,
+ which you maybe got four years ago, the environmental sensor,
+ where you can try to detect volatile organic components.
+ I call other things not CO2 directly, but other gases.
+ We have the pressure things which you now got and
+ there are also other things you can use.
+ Since it's moving somehow, you can use it as a micro speaker,
+ you can move the same technology for microphones, things like that.
+ And there are magnets, so that's a lot of the third measurement thing.
+ Now we have the six degrees of freedom for three times acceleration,
+ that's gyro.
+ This is enough for having the orientation in room that I don't know exactly where
+ you're pointing to, but I don't have an absolute orientation if I'm looking north
+ or south with an extra three axis of a magnet compass.
+ I have the full control and measurement where it's going to.
+ And this is such a picture, again, you always have this mechanical thing,
+ the MEMS, which does physical effects.
+ And then you have to have a second chip where you do the analog measurements and
+ things like that.
+ And those things are getting smaller and smaller.
+ And now we stack multiple of the sensors and multiple of the chips in a whole
+ sensor which is less than a millimeter in height.
+ That as many of these things can get in a mobile phone because mobile phones are
+ getting so much smaller every year.
+ And the numbers, you may want to remember the chip is less than a millimeter height,
+ which is huge because then the final sensor sometimes should be only 0.6 or
+ 0.5 millimeters.
+ So after all the processing from the lower part, a lot of silicon is getting
+ removed and it's thin enough to fit in the requirements for the mobile phones,
+ things like that.
+ But since it's larger wafers of that size, 20 centimeters, you have plenty of them
+ if they're so small.
+ And just I think a last number.
+ So on this acceleration sensor, if you think having the same structure in
+ a football stadium, then the gap between this moving part and the lower part,
+ if it's the whole field of the football stadium, it's around about 10 centimeters
+ above the lawn, above the grass.
+ And the moving part itself, it's only one centimeter thin silicon structure,
+ which is then shaking around things as it's incredibly small and working incredibly
+ nice.
+ Ah, advertisement.
+ If you want to talk at Bosch, talk to me.
+ So even right now, it's a little bit difficult.
+ It's really, I'm now at Bosch only for 10 years and only for a single project,
+ not doing sensors, actually, but it's really a good company.
+ And Bosch SensorTech is a self-independent company.
+ We are GmbH in Germany.
+ But we belong to Bosch AE because everything comes from the automotive
+ fab, but we are quite independent of what's going on in the automotive market
+ because the customers are different, the speed is different.
+ The requirements for the chips are way different compared to the automotive chips.
+ So here it's all about size, power, power supply, whatever, and every new mobile
+ phone generation needs new sensors.
+ And in automobile industry, you have a lot of power, you have a lot of space,
+ and you also can dissipate heat, not a topic for modern sensors.
+ But they have to last for 25 and more years.
+ So it's very, very difficult, different, but the technology is identical.
+ Sometimes they are used more or less the same.
+ What?
+ Yeah.
+ I appreciate being there, and at least one guy at Bosch even has the opportunity
+ coming to the next camp maybe.
+ No need to be me.
+ So that was just getting in touch somewhere.
+ I brought a box with also small cards and info cards where you can get a community
+ portal where you can get in direct contact with other developers and also
+ with our developers inside Bosch Sensor Tech themselves and asking them questions
+ if you have ideas and things about these sensors and anything else which is on
+ public market.
+ Some of the sensors are made specific for a single customer.
+ They say, "We need that requirement and make the compass like this."
+ But a lot of the sensors you can get as a single chip and from all the small
+ companies doing like Seed Studio, Adafruit, whatever way can play around with
+ the single device because they're also small.
+ You don't want to handle that as a non-professional typically soldering the
+ small 2x2 millimeters and smaller things with a bulk-grid array.
+ That's for the slides.
+ Any questions about MEMS and things?
+ Otherwise, I would hurry into just showing a few lines of Python and how to do that.
+ Just one question.
+ For the controller, what chip do you use inside this chip?
+ I mean, what core?
+ The question was for the controllers inside those sensors, which cores will we use?
+ If it was ARC, whatever.
+ Some of them are dedicated IPs we're using internally for very low power, very small,
+ very code, whatever.
+ Right now, it's nothing which is on a regular market.
+ The old ones have a 16-bit CPU.
+ The new ones have a 32-bit CPU where the registers are 32-bit.
+ Typically, that's not running a lot of code.
+ Even if they're doing AI now these days for detecting easier, better detecting for gestures,
+ movement, styles, whatever that you can say, you're not moving equally on both legs, things
+ like that, you should go to your autobetist or whatever.
+ This is all in very, very few kilobytes of code.
+ There are plans.
+ Just Bosch joined the RISC-V, Quintin Solzhen, whatever, improving that.
+ But right now, except for doing lab stuff and playing around for next generation things,
+ I've not seen any RISC-V.
+ But it's very small things.
+ Since those sensors are running, even if you're a mobile phone, for example, or you're
+ a hearable and whatever, the small wearable devices which have a small battery anyway,
+ they must be as power efficient as possible.
+ That's the main part.
+ So no one will program them.
+ There are a few of the sensors even in the public market, you can upload your own firmware
+ and do things directly on that chip, which is very efficient.
+ Then you only signal the host CPU or something happened or I have measurement data for you
+ in a wider scale, things like that.
+ Okay.
+ So let's...
+ I have to rescale.
+ I want to show a little bit.
+ The USB cable is still missing.
+ Where's my USB cable?
+ So now the idea is, can you see the...
+ Can I see the video signal from the camera that the batch is running here?
+ Okay.
+ That's...
+ The contrast is not perfect, but that's fine.
+ If you can see it, it's good.
+ So if you want to program the thing, just use your USB cable, plug it in while it's running.
+ And I'm a command line guy, so you can have this wonderful IDE and whatever.
+ It depends a little bit on your operating systems.
+ But getting the first steps and also understanding a little bit how it's going on.
+ You can use any terminal program of your choice.
+ On Linux, on my thing.
+ Number one, but...
+ Oh, there was some garbage in front of the command line.
+ And if you do that, it's just connecting.
+ Nothing happens.
+ You still see the logo running.
+ And if I press Ctrl+C, I get a Python command line.
+ And then you can do everything you know, what you can do in Python.
+ You just start using it at the desktop, or whatever.
+ Who had never used Python so far?
+ So a few ones. Okay.
+ And Python is an interesting language.
+ I can't tell anything about it.
+ And for how to use it, the most important line is this one.
+ And it will give a lot of output how to use this console thing.
+ And the only important line of the whole thing, for me at least...
+ Oh, there's more stuff on the top, which I didn't notice.
+ Pin machine.
+ So this is how you control low-level things.
+ A single pin, if you have an eval board or playing around with that thing.
+ Not sure how valuable that part is for the patch.
+ I didn't even notice it.
+ There's even a small example how you can do basic Wi-Fi configuration on your own.
+ That's Python. It's all a few lines of code.
+ And you can connect to your Wi-Fi.
+ Or you can make your own Wi-Fi access point and run a web thing.
+ Just looking up in the internet for microPython, there's so many important things.
+ The only thing which I now want to show for the command line demo thing...
+ The Ctrl+E mode, which we'll use in a second.
+ And what's unfortunately not working, what I'm very used to...
+ In a normal shell, I could press Ctrl+L and it would clear the screen.
+ You can have my typing in the top.
+ Here it's not working.
+ And now you have to get started somewhere.
+ Somehow one possibility is just looking in the docs for the web page flower.garden.docs.
+ And... Oh, I should have prepared that.
+ Let's see.
+ Docs.
+ Doesn't work now.
+ So there you get explanation of several modules.
+ If you ever use Python a little bit, you can do some arithmetic thing.
+ So this is now floating point thing.
+ It doesn't know about Py, but if I import a module math...
+ And then I can do math.py.
+ And it even knows mathematics.
+ So there are modules which you can import, and then you have that function.
+ And things are in the same as true now, also for LEDs.
+ You only have to import LEDs.
+ You will find the LEDs things.
+ And now we have a lot of functions for LEDs.
+ And that's also because it's a lot of fun playing around.
+ And now you will notice in the display that the...
+ The patch will show that you're in wrapper mode.
+ This is the communication mode between that terminal thing.
+ I'm not exactly sure what it means.
+ You could stop it with pressing the left button or leaving here, but we don't want to do that now.
+ And why I like doing that on a command line, not in an editor is...
+ So this is now I have a lot of LEDs, whatever, and I can press tap.
+ And the Python system will tell me how to complete things.
+ So now we can see, for example, there is something which is...
+ LEDs, whatever.
+ Oh, it's just set.
+ When pressed tap, then we get a lot of set RGB. Let's start with the set RGB.
+ And it's a function.
+ And you always can do help in Python. It's quite nice.
+ Oh, and the problem in micropython is very small and all the help things, they have to be somewhere in memory.
+ Now we really have to go to...
+ Flour.
+ Go to bugs.
+ And going for programming somewhere, API.
+ And if you get that description, it does not tell us that you have to do import.
+ And then it will tell, for example, set LEDs.
+ This needs four parameters altogether.
+ It's the index of the LED from 0 to 39.
+ It's for the LEDs in the round circle and then values for R, G, and B.
+ And right now, let's see.
+ The first LED number 0 is this one. It's green or greenish or whatever.
+ And if I now go back and say set RGB, I have to give the LED number, the first one, and say...
+ Then it should go off.
+ Is this possible that you can see that? I'm not sure.
+ And you can do things like just make the red, green, and blue channel all three LEDs on.
+ And it should be...
+ Nothing happens. You cannot see anything.
+ And looking back on the documentation, the important thing is you have to call update.
+ So you can do a lot of set this LED, the first one, the second one, and only if you call update,
+ what the documentation is saying.
+ But it's not working that way because it's update from the last module.
+ And if I do that, now it should be white.
+ Can you see that, thanks, Sibar?
+ No, it's not.
+ It's about this LED, which is now white.
+ Let's do the same thing again.
+ So with only make it full red, green and blue, we're too off.
+ And now I have at least cursor functions in history, so it's quite easy now playing around.
+ It should be red.
+ Okay. At least I can see it and you can see it too.
+ On that way, you can experiment a little bit how it's working, and you have to do the update thing again.
+ So you're looking at either at the docs again, what's available, or just doing let's dot -- what is available?
+ What can I set?
+ You will notice it's also -- now I have to specify for every single LED what you want to do.
+ But I also set all RGB at once.
+ So I can do set all RGB at once.
+ And now I have to only remove the index and say, okay, make all the LEDs to full white.
+ And again, nothing happens because we need the update.
+ And now everything is white and black, and so we can play around with that one.
+ And that's the easy way how we can get to that larger font.
+ And I prepared a few small examples.
+ Now this is how I really -- if I use Python, figure out module dot what's available and how do I do GPIO and how the hardware is working.
+ And now if this is all working, then you can do things like import LEDs.
+ Time is giving me a time function where I can do time dot sleep.
+ And then in Python you always have to indent if you have while loops.
+ So this is an infinite loop while everything.
+ And now this is counting up from zero to 39.
+ So it's 40 steps from zero to 39.
+ And it's just doing a single LED.
+ The LED number one is getting all white.
+ It updates things.
+ It's all black.
+ And now I could copy that line by line.
+ The problem is if I now copy that and to cut and paste, then if it's getting lower, I really want to have that in an editor.
+ And if -- is that so intelligent that it's working?
+ Not sure.
+ Now you can see how the white LED is running around maybe depending on how -- where do you -- it's now in the upper left corner.
+ Okay.
+ I can see too.
+ Great.
+ I'm a bit surprised that this is now working because cutting and pasting, the indentation thing typically is not working with the micro Python things.
+ And this is what the control E in the help is for.
+ That's a cut and paste mode.
+ So typically you should press control E, then you can just put all the things from your editor, paste it in, press control D, what it says here, and it just runs your program.
+ And then you can have longer things and paste things or define a first function, define a second function.
+ If I were to do that in a function now, you could do that.
+ Not sure if I'm -- get that F.
+ I'm not a Python guy, so I could work like this hopefully.
+ Maybe.
+ Let's try.
+ At least there was no error.
+ It's not complaining.
+ And now I can call F.
+ And yeah, it's running again.
+ So things like that.
+ So you can start very small on the command line, explore how the things are working.
+ If you know a little bit better, you can do things like that here.
+ Now for a full example.
+ Very forceful.
+ Terminal tool of your choice and an editor.
+ The second option, because typically you don't have the terminal thing installed, and you can only do the Python command line and you want to do a little bit more, there's a command called MP remote, micro Python remote.
+ Very likely you don't have that installed -- not installed yet, but you can just do pip install.
+ So for my system it's pip 3.
+ So the Python command will -- oh.
+ And as you release.
+ So we'll do that later.
+ But that way you get the MP remote, and the MP remote is quite useful in a lot of methods.
+ That's sufficient for what I'm doing.
+ It automatically will detect where your controller is connected to.
+ With my terminal thing I had to specify that on my own.
+ And now nothing happened here on my terminal.
+ Let's go back to that one.
+ Yeah, works.
+ And here since it's still -- I have to press control C to stop what's running on the micro Python and still now I have the desktop calculator.
+ Yeah.
+ And it's exactly the same as the terminal.
+ I can press control E, go in the paste mode, get to my editor again.
+ Just cut and paste everything.
+ Using a different example now that's all the same.
+ Now it's doing just a color circle.
+ It's not RGB anymore, but there's other color options.
+ Use saturation value where you get a position in the color circle from 0 to 360 degrees.
+ And you can do the saturation if it's a little bit of red or going from between white and black and how intense it is.
+ Just get the color and make it full bright.
+ And you can run around.
+ Now circling.
+ All LEDs are the same.
+ So what it's doing is I said all HSV just update it, wait a little bit.
+ It's running now, things like that.
+ I can stop that again.
+ So if you don't specify any of the important information -- oops.
+ Always in the very top.
+ If you want to get out of that MP remote you just have to press control X and I'm back on my command line in the wrong directory.
+ Where is the right directory?
+ So next step.
+ Terminal is nice if you say like me I'm using that terminal thing for a lot of things.
+ Thank you.
+ But now it's more the command line again.
+ Right now it's quite static.
+ And you get a little bit of help.
+ Oops.
+ The help is only --help.
+ There's no main page, nothing.
+ I didn't look up the internet so it claims that by default it's connecting and other things which are quite helpful.
+ They can access the file system and things like that.
+ And you also can do run your file.
+ For example, for some LED things you just push the Python code and run it.
+ And now it's just doing some color circling.
+ It's a little bit change of the first script, of the second script.
+ So it's uploading that running and if I press control C the connection is stopped.
+ But you see it's because that 3.py is also just a simple infinite loop counting up.
+ And just doing --now not all the LEDs the same but oops.
+ I'm just preparing the color for every LED on its own.
+ The first LED getting color value or color circle degree zero and the next one is getting nine degrees further.
+ If you calculate that it's just making sure that the 40 LEDs run all around the color circle.
+ So now the color circle is turning around.
+ So it's very small follow.
+ You do that all.
+ So now you have 40 LEDs set at once before you do the update and say okay now change the color of all 40 LEDs.
+ Do that once and make a little sleep.
+ That's what's running right now.
+ So that way it's quite easy.
+ You can edit your files a little bit.
+ So keep for example the editor like this.
+ Doing that example and have a shorter path than I have.
+ So the very flusty thing in Unix.
+ So now we have a shorter prompt and now I have --then I can do run my script things like that.
+ That's quite nice.
+ The MP remote also can be helpful for playing around with your batch.
+ So that's for the Python things for now.
+ It's doing a little bit the other important commands.
+ You can list what's on your --these are the file systems.
+ You will notice it has a flash file system.
+ It has SD files.
+ I have no idea what console is all about.
+ And now if you try to look into the flash, it will complain with --for me not understandable error messages.
+ Oh and I just noticed that magic colon is showing up.
+ We'll have that in a minute.
+ Because you always have to start with a slash.
+ Don't ask me.
+ And the real command, which I didn't notice before, is really not.
+ So this is working.
+ Now you can look at the flash of your thing and you will see there's the nick.json.
+ And so this nick.json, unfortunately you cannot do an ls on a file but only a directory.
+ So what you see there is a file.
+ And forget about the file sizes.
+ Everything is size zero in that MP remote output.
+ Seems to be a very interesting tool.
+ But there is a nick thing and help again.
+ Somewhere we also see there's a copy command which is used like this.
+ And if I now try to just copy that nick thing.
+ So MP remote copy here to that thing.
+ It's not working.
+ And part of the trick is shown in the ls output because the ls which was working prepended a colon.
+ If you look at the internet thing you realize you really have to do the remote names are always with a colon.
+ Since this is for the ls, magically it prepends it and thinks about that for the copy.
+ It must know what's the remote side on your batch, what not.
+ So you can copy the nick file from notebook.
+ Copy it here and now I have a nick file.
+ Now you can edit that nick file with your favorite editor.
+ And then you can copy it back and say copy that nick file which is laying around here.
+ Either choose some name or here you're allowed to just say put it in the flash directory after you change your nick.
+ So this is the easiest way I've found so far using the MP remote copy the nick file.
+ Then you don't have to go in the system menu with the buttons and click around and do the mounting and unmounting.
+ Which does not work always for Macintosh notebooks.
+ Not sure if this is working.
+ You have to figure out.
+ But it's just Python things and the serial protocol hopefully it's working.
+ So I like that very much.
+ And then if you're looking in the system, time flyers.
+ Just we can't do that any.
+ You can look in the sys directory.
+ And you can look all the sys directory.
+ You will find an apps directory.
+ Yay.
+ But in apps there's all what I now installed or what came with it most recent thing.
+ Now you can look in one of the apps directors, for example, and get a little further.
+ Nick, how is it?
+ Oh, much.
+ And typically in such an application is always only showing up as two files.
+ This is just an it's just copied very quick.
+ Copy.
+ Copy that one to my local directory and copy the second one to my local directory.
+ And now we got that.
+ So it's not very large.
+ So it's just a description where it says this is the application name which you find in the menu.
+ This is going in the menu music or apps or whatever.
+ If you look at those examples, then it's the entry, how it's called and how it's getting started things.
+ So that way it's very easy now just creating a new directory.
+ There's an mcutter, whatever.
+ You can create a new directory.
+ Put in and the any file is just the Python code.
+ This you have to look at the documentation.
+ I typically learn these things all from just getting an example either from the GitHub so you can download it off from the Internet or you can directly access it now from the patch.
+ And since now we're running very much out of time.
+ That way you can collect that thing.
+ My plan was always I at least want to show how to access the sensor things because accessing sensor is very, very easy.
+ So I go just mp remote again on the command.
+ I've prepared something for that.
+ So the only thing we need for the sensors is that input state thing.
+ I've just looked into one of the demo applications.
+ Maybe hints from too many arguments from.
+ Oh, I dropped out of the sorry.
+ I want to press control. Maybe I press control X.
+ So let's import that module again from the big ST three M module.
+ I only want to have the sub module in its state and then I can do for example run from its state.
+ There's a method gather there.
+ You have to go.
+ We can look at what's in input state dot whatever.
+ That's the only thing which it provides.
+ And now I got an object G and with G dot whatever, I can look what's available and get rid of everything else.
+ And we noticed this getting something with our temperature.
+ So it's any questions.
+ And then for the rest is hidden in IMU.
+ This is the inertial measurement unit and IMU.
+ It's again an object.
+ So we can do dot what does the object provide and provides acceleration data.
+ And here you get now values for the acceleration.
+ Now it's laying a little bit flat.
+ So you can if you do it flat, just no matter what the camera is showing.
+ Oh, and I always get the same because I have to do the measurement.
+ I have to do data and if I do that, you will notice now in that direction, it's the zero point eight one whatever roundabout.
+ That's the gravity in a meter over a second squared.
+ And for X and Y, it's more or less zero.
+ And if I put it up, so that way you get the acceleration data.
+ And also here you can read the pressure thing.
+ This is now in Pascal and very last example.
+ Now this is just reading out the pressure and doing that in a loop and bring the values.
+ And if I try to run that in the right time, so it's quit that again, then I can do every run pressure one.
+ And here you get the temperature, the forty three whatever degrees.
+ That's the second temperature which is not working right now for that firmware.
+ And the pressure, I subtracted just some random number for what was the pressure two days ago.
+ And now this is in Hector Pascal.
+ It's noise of less than a Hector Pascal.
+ And then I transform it with something which is obviously not completely corrected in roundabout centimeters.
+ Now if I just move up, you will notice the second last column.
+ The last column moved from three eight to already three six.
+ So we have quite some.
+ If I drop it on the, I get real signal from the side which I don't understand at all.
+ And now you can do, let's claim the floor is forty centimeters high.
+ Meters, oh that's in meters.
+ And it's forty one point, so calibration for the right one is not working perfectly.
+ And a console, and our patch, the plan was now using that very first line without any more demos.
+ I can stop, yeah, stop that also with the left button.
+ Then we are getting out of this, whatever mode.
+ And a guy just took the time while I had flashing more patches, going to the music.
+ And he hacked exactly that application with Otama, Tone, whatever.
+ I don't know what.
+ Typically you have to press that left thing.
+ Let's see, maybe scale down sound a little bit.
+ I have no idea what now happens.
+ Headphone.
+ So there might be audio now.
+ And now it's measuring the pressure and keeps that as, oh now I'm limited by the file.
+ So while I press on the button, it's using that information for getting the frequency of the beeping.
+ The lower I go, so now the bass plate is a bit lower because I went below the table.
+ And there was a change of a few lines in that simple code.
+ He replaced just the frequency with reading out pressure sensors, scaling it a little bit, just reasonable values.
+ And they could play around.
+ Now you have all the tools, reading out things, playing around, hacking with sensors, with LEDs.
+ And have fun with the batch.
+ Thank you Harald König.
+ This was the last talk here.
+ So plenty of time for questions, or we can move to the batch tent and whatever.
+ You can move to the middle base info tent or to the middle base coffee tent.
+ We would ask you to collect some of the chairs and stack them up there somewhere.
+ So the next party can have a free area here.
+ There will be more. Cool.
+ So we have a nice view. Harald brought some swag with him from Bosch.
+ Maybe you can just move it in front.
+ Ah, okay. So some bags. I think four pencils, ball pens that come in more and small cards.
+ Ah, and stickers, very important stickers.
+ If you like them and then cards, how you get in contact with the community or get directly in contact with me.
+ And I will guide you also forward specific questions to the sensors to the developers.
+ Okay, thank you for your time. And enjoy the last few hours of the camp.
+ Thank you.
+ [Music]

@@ -1,0 +1,1139 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.440
+ Herzlich willkommen zu einer neuen Folge Chaos Family. Ich bin Khaleesi und ich sitze heute
+
+00:00:06.440 --> 00:00:12.880
+ hier wieder mit sehr vielen Gästen auf unserer Couch. Bei Chaos Family stellen wir euch immer
+
+00:00:12.880 --> 00:00:18.320
+ Projekte, Villages, Assemblies, naja was auch immer die Veranstaltung gerade sagt,
+
+00:00:18.320 --> 00:00:26.280
+ über die Gruppierung vor und heute haben wir alles hier. Kein Witz, das hat in der Regie auch schon
+
+00:00:26.280 --> 00:00:34.280
+ für sehr viel Firmung gesorgt. Ich habe hier die K. Tim und Thomas und die drei sind alles,
+
+00:00:34.280 --> 00:00:37.760
+ aber ich glaube, da gehören noch ein paar mehr Leute dazu. Schön, dass ihr heute da seid.
+
+00:00:37.760 --> 00:00:47.640
+ Danke schön. Und ja, was ist eigentlich alles? Ja, wir sind ein CTF Team. CTF sollten vielleicht
+
+00:00:47.640 --> 00:00:55.320
+ erst mal erklären. Das sind Wettbewerbe im Bereich von der IT-Security. Da hat man dann
+
+00:00:55.320 --> 00:01:04.040
+ verschiedene Challenges. Bei diesen Challenges geht es dann darum, eine Webseite zu hacken oder
+
+00:01:04.040 --> 00:01:12.000
+ ein Programm zu hacken oder einen Server. Okay, also ihr seid ein CTF Team, das heißt ihr spielt
+
+00:01:12.000 --> 00:01:20.360
+ CTFs. Vielleicht nochmal für alle. CTF steht eigentlich für Capture the Flag. Ihr spielt CTF,
+
+00:01:20.360 --> 00:01:25.960
+ aber ihr macht auch CTFs. Habe ich das richtig in Erinnerung? Genau, also ab und zu organisieren wir
+
+00:01:25.960 --> 00:01:30.920
+ dann auch CTFs. Wie zum Beispiel dieses Jahr haben wir das Camp CTF organisiert, so wie wir das auch
+
+00:01:30.920 --> 00:01:38.880
+ die vor vier Jahren gemacht haben. Okay, und wie kann man sich das vorstellen, so ein CTF? Also ist
+
+00:01:38.880 --> 00:01:43.600
+ es dann so, muss ich mich da irgendwo anmelden, macht man das im Team, macht man das allein? Gibt es da
+
+00:01:43.600 --> 00:01:50.280
+ unterschiedliche Arten von CTFs? Meistens spielt man im Team. Es gibt auch CTFs, den wir organisieren,
+
+00:01:50.280 --> 00:01:54.760
+ ganz große. Da kann man auch alleine spielen, aber typischerweise spielt man im Team und der Spielmodus,
+
+00:01:54.760 --> 00:01:59.480
+ den man typischerweise spielt, der nennt sich "Jurperdin". Da werden online auf der CTF-Plattform
+
+00:01:59.480 --> 00:02:04.720
+ ganz viele Aufgaben veröffentlicht und die kann man dann unabhängig voneinander lösen. Das heißt,
+
+00:02:04.720 --> 00:02:08.520
+ man macht so eine Aufgabe, da kann es drin sein, so hier hast du eine Webseite, lese mal die Datenbank
+
+00:02:08.520 --> 00:02:13.480
+ aus, da ist die sogenannte Flag drin und die Flag ist dann meistens ein Zeichensatz, den klaut man
+
+00:02:13.480 --> 00:02:18.000
+ sich, gibt ihn ab und dann kriegt man Punkte dafür. Und das Team mit den meisten Punkten ist dann am
+
+00:02:18.000 --> 00:02:24.200
+ End oben. Ok, relativ simpel so von den Spielregeln. Jetzt stellen wir natürlich die Frage, wie ist es
+
+00:02:24.200 --> 00:02:34.360
+ eigentlich so am CTF sich auszudenken? Wie macht ihr das? Wie geht ihr da dran? CTF besteht ja größtenteils
+
+00:02:34.360 --> 00:02:42.720
+ aus den Aufgaben, die man stellt und typischerweise findet man im Laufe seiner Arbeit oder
+
+00:02:42.720 --> 00:02:48.680
+ seiner Studiumswahl, was auch immer man sich beschäftigt, immer wieder so coole Aufhänge, wo man sich denkt,
+
+00:02:48.680 --> 00:02:53.840
+ das ist doch unerwartet und schon irgendwie interessant, wie ein bestimmtes Programm funktioniert oder
+
+00:02:53.840 --> 00:02:58.600
+ bestimmte Hardware sich unter bestimmten Voraussetzungen verhält und dann versucht man das im Rahmen von
+
+00:02:58.600 --> 00:03:04.200
+ seiner Aufgabe nachzubauen. Das heißt, man baut eine Aufgabe, wo man genau das, was man gerade
+
+00:03:04.200 --> 00:03:08.600
+ herausgefunden hat, was interessant ist, herausfinden soll, also die Teilnehmer, was rausfinden soll, man baut
+
+00:03:08.600 --> 00:03:12.440
+ den Rahmen der Aufgabe so, dass die Teilnehmer da einigermaßen draufkommen. Also sei es jetzt
+
+00:03:12.440 --> 00:03:17.320
+ vielleicht eine Schwachstelle, die man gefunden und gemeldet hat und die inzwischen behoben ist oder
+
+00:03:17.320 --> 00:03:22.080
+ irgendein lustiges Verhalten bei irgendeiner bestimmten Option, die man setzen kann, schreibt man eine
+
+00:03:22.080 --> 00:03:25.480
+ Aufgabe, die dann so konzipiert ist, dass die Teilnehmer da nach einer Zeit und nach ein bisschen
+
+00:03:25.480 --> 00:03:31.760
+ eigener Forschung an der Aufgabe draufkommen und sich dann ausdenken, wie man diese Schwachstelle oder
+
+00:03:31.760 --> 00:03:37.000
+ dieses seltsame Verhalten irgendwie ausnutzen kann, um an Daten zu kommen, die man nicht kommen sollte.
+
+00:03:37.000 --> 00:03:41.160
+ Also vielleicht kann man das ja mal irgendwie so ganz konkret machen, wenn wir irgendwie einen CTF haben,
+
+00:03:41.160 --> 00:03:46.280
+ was irgendeine Website ist, dann wäre wahrscheinlich so SQL-Injection so eins von den Low Hanging Fruits.
+
+00:03:46.280 --> 00:03:46.780
+ Genau.
+
+00:03:46.780 --> 00:03:51.080
+ Vielleicht kannst du ja mal erklären, was eine SQL-Injection ist oder einer von euch drei,
+
+00:03:51.080 --> 00:03:58.640
+ wer auch mal möchte, du hast so viel Redeanteil gehabt. Also ich melde mich zum Alles-CTF an und dann
+
+00:03:58.640 --> 00:04:05.440
+ gehe ich auf den Alles-Shop und suche eine Flagge und was würde man dann so machen?
+
+00:04:05.440 --> 00:04:08.800
+ Also typischerweise, wenn man jetzt eine Aufgabe konzentrieren würde, hätte man wahrscheinlich so einen Shop,
+
+00:04:08.800 --> 00:04:14.040
+ wo man eine Flagge kaufen kann, die kostet irgendwie 1000 Tokens, man hat immer nur 100, das heißt,
+
+00:04:14.040 --> 00:04:17.080
+ man kann sich die halt gar nicht kaufen, so im kompletten Spiel eigentlich überhaupt nicht.
+
+00:04:17.080 --> 00:04:22.440
+ Und dann muss man erstmal ein bisschen, man schaut sich halt erstmal an, okay, was macht denn diese Website überhaupt?
+
+00:04:22.440 --> 00:04:27.280
+ Und dann geht man weiter und sieht, okay, ich habe hier irgendwie Eingabefelder, mit denen ich irgendwie interagieren kann.
+
+00:04:27.280 --> 00:04:32.240
+ Und SQL-Injection ist jetzt eine sehr bekannte Vulnerability, das heißt, man testet jetzt einfach mal dafür
+
+00:04:32.240 --> 00:04:34.400
+ und gibt man diese Eingabefelder einfach mal irgendeinen Quatsch ein.
+
+00:04:34.400 --> 00:04:39.600
+ Und da kommen wir vielleicht mal einen Fehler zurück, der irgendwie unerwartet ist, wo dann irgendwie so eine ganz normale Fehlermeldung,
+
+00:04:39.600 --> 00:04:42.400
+ die aber schon ein bisschen verrät, wie diese Website im Hintergrund funktioniert.
+
+00:04:42.400 --> 00:04:49.040
+ Und das SQL-Injection-spezifisch wäre etwas, es gibt halt dieses SQL, damit frage ich Datenbanken an, was da drin steht.
+
+00:04:49.040 --> 00:04:57.280
+ Da würde ich dann sagen, select product from product table oder sowas und dann würde ich quasi alle Produkte aus der Produktdatenbank zurückbekommen.
+
+00:04:57.280 --> 00:05:04.000
+ Und häufig gibt es da so Filter, wo man dann sagen kann, zeig mir nur alle Produkte an, die Flagge im Namen haben oder sowas.
+
+00:05:04.000 --> 00:05:08.160
+ Und wenn ich dann genügend Kontrolle über diesen Parameter habe, kann ich da andere Sachen reinschreiben.
+
+00:05:08.160 --> 00:05:12.240
+ Dann kann ich einfach sagen, diese erste SQL-Anfrage ist quasi vorbei, ich mache noch eine zweite.
+
+00:05:12.240 --> 00:05:16.400
+ Und in der zweite kann ich reinschreiben, was ich will. Das ist vielleicht etwas, was der Entwickler gar nicht so berücksichtigt hat,
+
+00:05:16.400 --> 00:05:19.920
+ dass ich hier irgendwie zwei Anfragen auf einmal senden kann oder die verbinden kann oder sowas.
+
+00:05:19.920 --> 00:05:23.600
+ Und dann kann ich mir vielleicht auch Produktdetails anzeigen von Produkten, die ich noch gar nicht gekauft habe.
+
+00:05:23.600 --> 00:05:27.520
+ Genau, und dann würde ich so an die Flagge rankommen.
+
+00:05:27.520 --> 00:05:30.320
+ Ja, wir prüfen das im Frontend, das ist immer eine gute Idee.
+
+00:05:30.320 --> 00:05:35.040
+ Also, SQL-Anzeigen sind typisch auch Prüfungen im Backend, die halt fehlerhaft sind.
+
+00:05:35.040 --> 00:05:37.680
+ Aber genau, Frontend-Checks, klassischer Fehler.
+
+00:05:37.680 --> 00:05:42.560
+ Ja, okay, also so kann man sich das ungefähr vorstellen.
+
+00:05:42.560 --> 00:05:46.160
+ Das ist in so einem Hacker-Jepardee, vielleicht, oder in einem Jeopardy, das haben wir nicht gesagt.
+
+00:05:46.160 --> 00:05:49.360
+ Da gibt es auch einfach unterschiedlich viele Punkte für unterschiedliche Aufgaben.
+
+00:05:49.360 --> 00:05:53.360
+ Da kann man sich das dann auch raussuchen. Das ist immer ganz gut für Teams.
+
+00:05:53.360 --> 00:06:00.080
+ Gerade wenn die Erfahrungen unterschiedlich sind in Teams, dann können die neueren Leute sich die einfacheren Tickets sozusagen rausziehen
+
+00:06:00.080 --> 00:06:07.760
+ und die alten Hasen machen dann irgendwelche crazy reverse Sachen und hauen sich irgendwie whatever,
+
+00:06:07.760 --> 00:06:11.760
+ welche Programmiersprache gerade in ist, um die Ohren.
+
+00:06:11.760 --> 00:06:17.760
+ Wie seid ihr denn dazu gekommen, CTF zu spielen und jetzt auch selber CTF zu machen?
+
+00:06:17.760 --> 00:06:19.760
+ Alle auf die gleiche Art und Weise, glaube ich.
+
+00:06:19.760 --> 00:06:24.960
+ Ja, über einen der Wettbewerbe, den wir inzwischen mitorganisieren.
+
+00:06:24.960 --> 00:06:26.080
+ Okay.
+
+00:06:26.080 --> 00:06:28.880
+ Vor dem wir die Orga mehr oder weniger adoptiert haben.
+
+00:06:28.880 --> 00:06:31.600
+ Okay, anders gefragt, wie lange macht ihr schon CTF?
+
+00:06:31.600 --> 00:06:37.600
+ Ich habe das erste Mal 2016 gespielt, glaube ich.
+
+00:06:37.600 --> 00:06:43.120
+ Ich habe 2017 angefangen und bin dann quasi 2018 durch diesen Wettbewerb mit in alles reingekommen.
+
+00:06:43.120 --> 00:06:45.120
+ Und vorher habe ich es so ein bisschen alleine gemacht.
+
+00:06:45.120 --> 00:06:48.640
+ Also mit in alles wieder in Anführungsstrichen gesetzt.
+
+00:06:48.640 --> 00:06:50.640
+ Alles meint das Team.
+
+00:06:50.640 --> 00:06:52.640
+ Alles meint unser CTF Team.
+
+00:06:52.640 --> 00:06:59.200
+ Ich selber bin erst relativ neu, im Gegensatz zu den anderen dabei, ich bin erst seit 2020 dabei.
+
+00:06:59.200 --> 00:07:01.920
+ Generell in der CTF Szene.
+
+00:07:01.920 --> 00:07:06.640
+ Okay, und dann habt ihr sozusagen alle zusammen irgendwie an diesem Wettbewerb teilgenommen
+
+00:07:06.640 --> 00:07:08.640
+ und seid da steckengeblieben.
+
+00:07:08.640 --> 00:07:14.640
+ Genau, also dieser Wettbewerb speziell, da spielt jeder alleine für sich.
+
+00:07:14.640 --> 00:07:24.000
+ Und dort haben wir uns dann qualifiziert fürs Finale und sind dann darüber in das Team alles gekommen.
+
+00:07:24.000 --> 00:07:27.040
+ Okay, und trefft ihr euch auch regelmäßig?
+
+00:07:27.040 --> 00:07:28.160
+ Wie kann man sich das vorstellen?
+
+00:07:28.160 --> 00:07:29.680
+ Muss man dafür trainieren?
+
+00:07:29.680 --> 00:07:31.280
+ Ist das so ein bisschen wie E-Sports?
+
+00:07:31.280 --> 00:07:35.120
+ Oder wie stellt man sich so ein CTF Training Team Treffen vor?
+
+00:07:35.120 --> 00:07:40.240
+ Also ich weiß, dass mein CTF Team meistens eher so am Socializing hängen bleibt und nicht so richtig viel CTF.
+
+00:07:40.240 --> 00:07:46.080
+ Aber das liegt auch an dem Flauschigkeitsgrad.
+
+00:07:46.080 --> 00:07:48.080
+ Wie ist das bei euch?
+
+00:07:48.080 --> 00:07:56.000
+ Treffen ist bei uns meistens eher schwieriger, weil wir ein Team sind, welches in ganz Deutschland verteilt ist.
+
+00:07:56.000 --> 00:08:03.440
+ Aber wir versuchen uns einmal im Jahr, was in Corona etwas schwieriger war, oder auch öfter, zu treffen.
+
+00:08:03.440 --> 00:08:11.280
+ Und vor allem gibt es dann auch häufiger mal Finale von CTFs, wo man erstmal eine Qualifikation hat.
+
+00:08:11.280 --> 00:08:20.560
+ Wo man sich danach für ein Finale qualifiziert hat, welches dann auch oft vor Ort irgendwo stattfindet, im Ausland oder auch in Deutschland.
+
+00:08:20.560 --> 00:08:25.600
+ Okay, und um jetzt nochmal darauf zurückzukommen, ihr macht ja auch sozusagen selber CTFs.
+
+00:08:25.600 --> 00:08:29.840
+ Jetzt haben wir irgendwie darüber gesprochen, wie ihr euch die Aufgaben ausdenkt.
+
+00:08:29.840 --> 00:08:38.240
+ Das sind häufig irgendwelche Challenges, die man vielleicht selber schon gelöst hat oder wenn man Sicherheitsforscherin ist, bei anderen Firmen mal gefunden hat.
+
+00:08:38.240 --> 00:08:42.080
+ Aber wie kann man sich das denn mit der Infrastruktur vorstellen?
+
+00:08:42.080 --> 00:08:46.640
+ Also ich meine, ihr stellt da ja sozusagen Infrastruktur zum Hacken hin.
+
+00:08:46.640 --> 00:08:48.640
+ Sie brennt, das ist die Frage.
+
+00:08:48.640 --> 00:08:50.640
+ Genau, sie brennt immer.
+
+00:08:50.640 --> 00:08:59.280
+ Infrastruktur CTF ist inzwischen bei uns relativ stabil, weil wir diese Plattform, die wir haben, einfach schon zum zehnten Mal hintereinander verwenden.
+
+00:08:59.280 --> 00:09:01.280
+ Also niemand hatte Probleme bei diesen CTF gestern.
+
+00:09:01.280 --> 00:09:03.280
+ Aber vielleicht nochmal von Anfang an.
+
+00:09:03.280 --> 00:09:05.280
+ Also ihr denkt euch jetzt die Aufgaben aus.
+
+00:09:05.280 --> 00:09:08.800
+ Keine Ahnung, Hacker, Jeopardy, wir haben unterschiedliche Schwierigkeitsgrade.
+
+00:09:08.800 --> 00:09:12.080
+ Und irgendwie sind dann natürlich auch Maschinen, auf die man sich verbinden kann.
+
+00:09:12.080 --> 00:09:16.880
+ Und dann kann man sich da irgendwie drin bewegen und irgendwie versucht man da ja was kaputt zu machen, damit man die Flagge bekommt.
+
+00:09:16.880 --> 00:09:19.920
+ So und ihr betreibt diese Infrastruktur wahrscheinlich auch selber.
+
+00:09:19.920 --> 00:09:21.920
+ Ja, exakt.
+
+00:09:21.920 --> 00:09:23.920
+ Okay, und wie kann man sich das vorstellen?
+
+00:09:23.920 --> 00:09:32.880
+ Also wie stellt man Infrastruktur hin, die dafür intended ist, kaputt gemacht zu werden, wo man aber auch irgendwie ja doch wahrscheinlich ein bisschen Kontrolle haben will, aber irgendwie auch nicht?
+
+00:09:32.880 --> 00:09:35.680
+ Da gibt es jetzt quasi verschiedenste Möglichkeiten.
+
+00:09:35.680 --> 00:09:40.960
+ Viele CTF Teams, wir auch, denken sich halt, okay, wir sind Hacker, wir basteln jetzt unser eigenes, weil wir können das besser als alle anderen.
+
+00:09:40.960 --> 00:09:42.960
+ Kann natürlich keiner, deswegen brennt alles.
+
+00:09:42.960 --> 00:09:51.120
+ Aber was wir jetzt ganz konkret machen, ist wir spawnen für jedes Team jede Aufgabe einzeln in einen Container.
+
+00:09:51.120 --> 00:09:55.280
+ Okay. Also Container ist diese Virtualisierungstechnologie, wo man relativ viel Sandboxing hat.
+
+00:09:55.280 --> 00:09:59.760
+ Vielleicht nochmal sagen, was Sandboxing ist für die höhere, höhere, höhere Person.
+
+00:09:59.760 --> 00:10:02.880
+ Genau, wo man einfach so einen Sicherheitskontext aufbaut, auf den man nicht so einfach raus kann.
+
+00:10:02.880 --> 00:10:07.840
+ Also man hat sein eigenes Dateisystem, man hat seine eigenen CPU-Resourcen, man hat sein eigenes Memory-Limit.
+
+00:10:07.840 --> 00:10:15.600
+ Und trotzdem ist man halt quasi auf einem, viele verschiedene Container auf einem PC, aber alle sind unabhängig voneinander und können eigentlich erstmal nicht miteinander interagieren.
+
+00:10:15.600 --> 00:10:21.840
+ Zumindest, wenn die Sandbox sicher ist, aber davon gehen wir meistens unseren CTFs dann aus, wenn wir da die neuesten Versionen verwenden.
+
+00:10:21.840 --> 00:10:23.840
+ Die gehen auch nie kaputt.
+
+00:10:23.840 --> 00:10:24.880
+ Die gehen auch nie kaputt, genau.
+
+00:10:24.880 --> 00:10:26.880
+ Sonst hat man halt die Bonusflagge gewonnen.
+
+00:10:26.880 --> 00:10:28.880
+ Oder mehr.
+
+00:10:28.880 --> 00:10:34.960
+ Und da gibt es dann quasi für jedes Team, für die Aufgabe, kann das Team quasi sagen, ich will jetzt diese Aufgabe bearbeiten.
+
+00:10:34.960 --> 00:10:38.800
+ Und dann spawnen wir wirklich für dieses Team extra diese Aufgabe in einem eigenen Container.
+
+00:10:38.800 --> 00:10:42.960
+ Und die sind dann wirklich nur für sich da drin und können das Ding komplett kaputt machen, machen damit was sie wollen.
+
+00:10:42.960 --> 00:10:47.920
+ Wenn es zu kaputt ist, löschen die das Ding wieder, setzen es neu auf und dann ist es wieder neu da.
+
+00:10:47.920 --> 00:11:00.640
+ Das ist sehr angenehm fürs Bauen der Aufgaben, weil man sich nicht so Gedanken machen muss, dass irgendwie viele Teams auf eine Aufgabe zugreifen und dann ein Team, das für ein anderes Team kaputt machen kann oder so.
+
+00:11:00.640 --> 00:11:04.640
+ Okay, aber ihr betreibt das alles irgendwie selber.
+
+00:11:04.640 --> 00:11:09.680
+ Habt ihr da, habt ihr eigene Server irgendwo stehen oder wie macht ihr das? Mietet euch da was oder?
+
+00:11:09.680 --> 00:11:14.640
+ Server kriegen wir meistens alle gesponsert von Firmen, die auch CTFs cool finden.
+
+00:11:14.640 --> 00:11:16.640
+ Genau.
+
+00:11:16.640 --> 00:11:20.640
+ Und wie kommt das dann zustande?
+
+00:11:20.640 --> 00:11:24.080
+ Ihr habt ja jetzt gesagt, jetzt habt ihr gerade das Camp CTF organisiert.
+
+00:11:24.080 --> 00:11:27.600
+ Macht ihr auch für den Kongress das CTF oder macht das dann andere?
+
+00:11:27.600 --> 00:11:30.560
+ Kommt ihr dazu CTFs zu organisieren?
+
+00:11:30.560 --> 00:11:37.840
+ Kommen da Leute auf euch zu oder sagt ihr so, ja, es ist jetzt gerade wieder so langweilig in der Uni, Bachelorarbeit, Progressionieren läuft.
+
+00:11:37.840 --> 00:11:41.200
+ Und jetzt setzen wir ein neues CTF auf?
+
+00:11:41.200 --> 00:11:45.360
+ Genau, also da gibt es eine Webseite, CTF Time ist das.
+
+00:11:45.360 --> 00:11:55.760
+ Da kann jeder seinen Wettbewerb quasi anmelden und irgendwann haben wir uns einfach gedacht, wir spielen häufiger bei diesen CTFs mit.
+
+00:11:55.760 --> 00:12:01.360
+ Und eigentlich wäre es ja auch ganz lustig, mal die andere Seite zu sehen und zu sehen, wie es von der Orga Seite ist.
+
+00:12:01.360 --> 00:12:06.160
+ Und man hat ja auch immer tolle Ideen für Challenges und möchte auch mal Leute leiden lassen.
+
+00:12:06.160 --> 00:12:14.160
+ Genau und so kommt man halt irgendwie dazu.
+
+00:12:14.160 --> 00:12:19.120
+ Okay und wie stelle ich mir das vor, wenn ihr jetzt so ein CTF organisiert, was macht ihr dann?
+
+00:12:19.120 --> 00:12:25.840
+ Also ihr stellt dann das da alles hin, aber wie ist dann so der Aufwand hinter den Kulissen, so ein CTF zu organisieren und zu betreuen?
+
+00:12:25.840 --> 00:12:27.840
+ Groß.
+
+00:12:27.840 --> 00:12:32.720
+ Also die Meisterarbeit geht eigentlich darin, ganz viele Challenges zu bauen.
+
+00:12:32.720 --> 00:12:38.880
+ Also in jeder Challenge sitzt man halt dann, je nachdem wie komplex man sie macht, eine Stunde bis ein paar Wochen.
+
+00:12:38.880 --> 00:12:44.640
+ Also wenn man ein ganzes Videospiel drumherum schreibt, dann dauert das eine ganze Weile länger.
+
+00:12:44.640 --> 00:12:55.120
+ Die Meisteraufgaben gehen die Meisterzeit gewillig darin, Aufgaben zu bauen und die Plattform, die dahinter, die das Ganze orchestriert, die baut man dann einmal und dann tut sie.
+
+00:12:55.120 --> 00:12:56.160
+ Theoretisch.
+
+00:12:56.160 --> 00:12:59.120
+ Bis sie jedes Mal wieder abfackelt, weil man irgendwas vergessen hat.
+
+00:12:59.120 --> 00:13:03.200
+ Aktuell sind sie zwischen dem Tim ziemlich stabil, diesmal haben wir Probleme mit...
+
+00:13:03.200 --> 00:13:05.200
+ Außer X anad.
+
+00:13:05.200 --> 00:13:07.200
+ Ja.
+
+00:13:07.200 --> 00:13:10.880
+ Ihr müsst alles erklären, worüber ihr lacht. Das ist euch hoffentlich klar, oder?
+
+00:13:10.880 --> 00:13:20.560
+ Ja, also wir hatten ein Problem dieses Jahr mit einer Challenge, die hat X anad, das ist eine Software, ich weiß gar nicht genau, was die tut, Thomas.
+
+00:13:20.560 --> 00:13:27.600
+ Die stellt so ein Programm zu, okay wenn ich ein Programm lokal bei mir laufen lasse, habe ich vielleicht so ein schwarzes Feld, wo ein bisschen Text drin steht, ich kann Text reintippen, Text kommt zurück.
+
+00:13:27.600 --> 00:13:34.320
+ Wenn ich das übers Internet machen will, brauche ich irgendwas, was dieses Programm, dieses Textinterface ins Internet freigibt.
+
+00:13:34.320 --> 00:13:37.760
+ Und weil das Programm normalerweise das halt nicht kann.
+
+00:13:37.760 --> 00:13:44.240
+ Dann gibt es Software, die ich davor tun kann, zum Beispiel X anad, das würde das dann machen, dann würde ich diese Software mit X anad starten, so davor.
+
+00:13:44.240 --> 00:13:48.080
+ Dann kann ich mich von außen hin connecten und dann eigentlich mit dieser Software reden, die dahinter läuft.
+
+00:13:48.080 --> 00:13:54.640
+ Das ist ja typisch bei so CTF Aufgaben, wenn ich irgendwie lokal mit einem Service interagieren will, aber eigentlich bin ich gar nicht auf dem Server, sondern ich bin zu Hause bei mir.
+
+00:13:54.640 --> 00:14:04.720
+ Und ja, wir haben immer X anad verwendet, die Software, die kann das so, wir hatten jetzt andere Ressourcenlimits auf unseren Servern konfiguriert, die haben X anad sehr verwirrt und uns auch.
+
+00:14:04.720 --> 00:14:07.360
+ Und deswegen haben unsere Challenges alle 10 Minuten gebraucht.
+
+00:14:07.360 --> 00:14:11.280
+ Man hat gesagt, ich will die Challenge haben, musste 10 Minuten warten bis sie zur Verfügung stand.
+
+00:14:11.280 --> 00:14:15.920
+ War ein bisschen schade, das haben wir auch erst beim Live gehen des CTFs bemerkt, dass das ein Problem ist.
+
+00:14:15.920 --> 00:14:23.680
+ Und unsere Spieler waren halt so, ich kann nicht auf diese Aufgabe zugreifen und wir so, hä, das muss funktionieren, das hat schon immer funktioniert.
+
+00:14:23.680 --> 00:14:29.200
+ Im Endeffekt hat NXD in einer Endlosschleife alle Dateien, die existieren können, geschlossen.
+
+00:14:29.200 --> 00:14:33.440
+ Das macht überhaupt keinen Sinn, weil es war überhaupt null Dateien offen und das weiß es auch.
+
+00:14:33.440 --> 00:14:36.000
+ Und wenn eine Datei offen gewesen wäre, wäre es abgestürzt.
+
+00:14:36.000 --> 00:14:42.800
+ Aber es hat es getan und auf unserem Server kannst du sehr viele Millionen Dateien offen haben, weil du bist ein großer Server und deswegen war es sehr langsam.
+
+00:14:42.800 --> 00:14:48.960
+ Okay, also jede Menge Stress, alles brennt, ja deswegen das T-Shirt.
+
+00:14:48.960 --> 00:14:55.440
+ Aber sitzt ihr dann irgendwie alle zusammen, wenn ihr so ein CTF organisiert habt oder macht ihr das dann dezentral oder wie ist das dann?
+
+00:14:55.440 --> 00:14:58.480
+ Meistens laufen die auch manchmal über mehrere Wochen oder Monate, ne?
+
+00:14:58.480 --> 00:15:02.400
+ Also je nachdem, wenn es so ein Qualifier ist, dann läuft das ja schon eine ganz schön lange Weile.
+
+00:15:02.400 --> 00:15:05.440
+ Wie macht ihr das, wie managt ihr das?
+
+00:15:05.440 --> 00:15:12.400
+ Meistens, wenn wir nicht gerade vor Ort zusammensitzen in unserem Zelt, dann läuft das natürlich alles dezentral und man arbeitet auch asynchron.
+
+00:15:12.400 --> 00:15:22.960
+ In dem Moment, wo der Webwerb live geht und man startet, sind meistens ein paar Leute da, weil das meistens der Punkt ist, an dem es entweder gut läuft oder alles anfängt zu brennen.
+
+00:15:22.960 --> 00:15:26.080
+ Es gibt nichts dazwischen anscheinend?
+
+00:15:26.080 --> 00:15:26.640
+ Nein.
+
+00:15:26.640 --> 00:15:27.920
+ Okay.
+
+00:15:27.920 --> 00:15:29.440
+ Es gibt auch das Gutlaufen eigentlich nicht.
+
+00:15:29.440 --> 00:15:33.440
+ Ja, das ist die Definitiv-Besetzung als Zustand.
+
+00:15:33.440 --> 00:15:35.120
+ Man weiß dann nur nicht, wo es brennt.
+
+00:15:35.120 --> 00:15:35.920
+ Ja, genau.
+
+00:15:35.920 --> 00:15:36.880
+ Oder dass es schon brennt.
+
+00:15:36.880 --> 00:15:37.840
+ Oder dass es schon brennt.
+
+00:15:37.840 --> 00:15:38.480
+ Genau.
+
+00:15:38.480 --> 00:15:41.760
+ Aber meistens sitzt man dezentral dran und auch asynchron.
+
+00:15:41.760 --> 00:15:45.520
+ Wir sind über ganz Deutschland verteilt, das heißt, es ist eh schwer vor Ort zusammen zu sitzen.
+
+00:15:45.520 --> 00:15:47.520
+ Wenn, dann sitzen wir halt in einem Discord-Channel zusammen.
+
+00:15:47.520 --> 00:15:57.120
+ Und wenn z.B. die CSCG, das ist eine Webwerb, bei der wir mit organisieren, läuft über zwei Monate, dann sitzen wir auch nicht zwei Monate lang in einem Discord-Channel.
+
+00:15:57.120 --> 00:15:58.640
+ Und auch nicht im Zelt?
+
+00:15:58.640 --> 00:16:00.640
+ Auch nicht im Zelt.
+
+00:16:00.640 --> 00:16:04.800
+ Da kommt man dann immer mal wieder online, wenn was brennt.
+
+00:16:04.800 --> 00:16:05.600
+ Genau.
+
+00:16:05.600 --> 00:16:14.240
+ Okay, das ist ganz schön viel Technik. Wenn ich jetzt sage, okay, eigentlich habe ich gar nicht so viel Ahnung vom Computer.
+
+00:16:14.240 --> 00:16:22.560
+ Und ich sage mal so, wir reden über erstes Semester Informatik, aber irgendwie finde ich CTF klingt ziemlich cool.
+
+00:16:22.560 --> 00:16:31.840
+ Und was würdet ihr so sagen, wie steigt man am besten ein in so diese CTF-Szene?
+
+00:16:31.840 --> 00:16:37.120
+ Also es sind ja nicht alle so crazy wie er und spielen dann CSCG durch.
+
+00:16:37.120 --> 00:16:39.120
+ Der T-Stick ist Spielen.
+
+00:16:39.120 --> 00:16:49.600
+ Die CSCG hat tatsächlich ziemlich viele Einsteiger-Aufgaben, die auch von Null auf erklären, wie man an diese Aufgaben rangehen soll.
+
+00:16:49.600 --> 00:16:54.240
+ Dann gibt es aber auch andere Wettbewerbe, die genau dasselbe auch tun.
+
+00:16:54.240 --> 00:17:02.880
+ Da gibt es zum Beispiel Pico-CTF, das ist ein anderes CTF, die machen auch relativ einfache Aufgaben für Einsteiger gedacht.
+
+00:17:02.880 --> 00:17:06.320
+ Okay, das heißt einfach anfangen zu spielen ist so euer Tipp?
+
+00:17:06.320 --> 00:17:12.320
+ Genau, vielleicht like-minded people suchen, die auch Lust haben, mal da reinzusteigen.
+
+00:17:12.320 --> 00:17:24.160
+ An vielen Universitäten gibt es CTF-Teams, die in einem Team spielen und schon Leute haben mit Erfahrungen, mit denen die einem auch was erklären können.
+
+00:17:24.160 --> 00:17:27.840
+ Okay, und was muss ich so mitbringen, wenn ich so anfangen will mit CTF?
+
+00:17:27.840 --> 00:17:38.000
+ Also ich meine, es gibt natürlich immer wieder diese Situation, man kommt in den Hacker-Space und dann sitzt da so ein Althacker und dann sagt jetzt, wenn du kein Vim benutzt, dann kannst du hier nicht mitmachen.
+
+00:17:38.000 --> 00:17:44.720
+ Das ist ja irgendwie so der Klassiker, aber ich glaube, das ist irgendwie so ein bisschen Quatsch.
+
+00:17:44.720 --> 00:17:52.000
+ Was muss ich mitbringen und wovon sollte ich mich auch einfach... Vim ist total gut, ich benutze auch Vim.
+
+00:17:52.000 --> 00:17:56.400
+ I use Arch, by the way, aber das ist ein ganz anderes Thema.
+
+00:17:56.400 --> 00:18:07.600
+ Ich habe aber diese Situation auch erlebt in einem Hacker-Space und ich glaube, man darf sich nicht davon dem Mutigen lassen, dass da irgendein grummelliger Typ sitzt, der meint, Vim ist das beste seit geschnitten Brot.
+
+00:18:07.600 --> 00:18:09.600
+ Aber was sollte man denn machen?
+
+00:18:09.600 --> 00:18:12.080
+ Was sollte man machen?
+
+00:18:12.080 --> 00:18:13.600
+ Das Wichtigste ist, was ich...
+
+00:18:13.600 --> 00:18:14.400
+ Motivation mitbringen.
+
+00:18:14.400 --> 00:18:20.880
+ Ja, Motivation. Also du musst halt wirklich... Ich glaube, wir alle hatten Null Ahnung von Computer Security, als wir angefangen haben.
+
+00:18:20.880 --> 00:18:26.320
+ Ich habe immer noch in großen Bereichen Null Ahnung, in einigen Bereichen habe ich jetzt aber inzwischen Ahnung.
+
+00:18:26.320 --> 00:18:27.840
+ Aber ihr habt Ahnung von Computern.
+
+00:18:27.840 --> 00:18:36.080
+ Hatte ich aber vorher auch nicht so. Du hast halt PC-Schwiele gespielt, hast halt immer schön Game, immer schön zocken, immer ein paar Dateien und vielleicht hast du mal ein Spiel irgendwo gecrackt.
+
+00:18:36.080 --> 00:18:40.400
+ Aber dann hat man so, wie funktioniert das überhaupt? Was ist denn hier überhaupt so ein Kopierschutz?
+
+00:18:40.400 --> 00:18:44.400
+ Und auch so, wie funktioniert so ein Computer?
+
+00:18:44.400 --> 00:18:53.280
+ Also einfach quasi für mich persönlich war es sehr viel einfach neugier, wie funktioniert das alles überhaupt, wo zumindest für mich Schule halt absolut nutzlos war.
+
+00:18:53.280 --> 00:18:57.360
+ So, weil das ist ja auch... Ist klar, das ist ein sehr, sehr spezifisches Nischenthema.
+
+00:18:57.360 --> 00:19:00.560
+ Das ist nicht breite Bevölkerungsfähig.
+
+00:19:00.560 --> 00:19:07.840
+ Und so CTFs ist halt einfach eine Möglichkeit, wo man die Möglichkeit hat, so eine Aufgabe zu haben, wo man einfach komplett bei Scheitert.
+
+00:19:07.840 --> 00:19:12.880
+ Aber am Ende guckt man sich an, was andere Leute gemacht haben und lernt super, super viel dabei.
+
+00:19:12.880 --> 00:19:20.800
+ Weil man hat sich selber schon einen Tag, zwei Tage mit dieser Aufgabe auseinandergesetzt, hat sich selber super viele Gedanken gemacht, hat Dokumentationen gelesen, hat ganz viel Zeug verstanden,
+
+00:19:20.800 --> 00:19:22.800
+ aber hat es irgendwie trotzdem nicht geschafft.
+
+00:19:22.800 --> 00:19:26.560
+ Und am Ende sieht man dann trotzdem so, was man hätte noch tun müssen, um es halt doch zu schaffen.
+
+00:19:26.560 --> 00:19:34.800
+ Und dann weißt du jetzt, was du, wenn du das nächste Mal wieder ein ähnliches Problem hast, erinnerst du dich dann zurück, okay damals gab es irgendwie dieses Tool noch, das kannte ich noch gar nicht.
+
+00:19:34.800 --> 00:19:37.840
+ Oder genau, also einfach so diese Lösungswege.
+
+00:19:37.840 --> 00:19:44.160
+ Und das finde ich, was bei CTFs für mich persönlich so super motivierend ist, dass man einfach so eine Aufgabe hat, wo man sich die Zähne dran ausbeißen kann.
+
+00:19:44.160 --> 00:19:50.160
+ Und selbst wenn man sie nicht schafft, hinterher weißt du, so hätte ich es machen können und nächstes Mal schaffst du es dann.
+
+00:19:50.160 --> 00:19:58.640
+ Und selbst wenn man, also ich würde auch sagen, es ist eigentlich der Default, dass man an eine Aufgabe rangeht und erstmal keine Ahnung, was man tun soll.
+
+00:19:58.640 --> 00:20:05.920
+ Wenn man viel CTF gespielt hat, dann findet man hin und wieder so Schema-F-Aufgaben, wo man sagt so, okay, ja, habe ich schon in abgehörender Form mal gemacht, schmeiße ich das drauf, fertig ist, fünf Minuten ist die Aufgabe offen.
+
+00:20:05.920 --> 00:20:15.040
+ Aber eigentlich ist auch, ob man jetzt das erste Mal CTF spielt oder halt das seit Jahren macht und da kommt eine neue Aufgabe in die Ecke, fängt man meistens erstmal an mit so, bäh.
+
+00:20:15.040 --> 00:20:24.960
+ Und dann geht es halt darum, dass man sich halt auch über Stunden oder wenn man halt so ein Qualifier mitspielt, über ein paar Monate geht, auch gerne mal ein paar Tage, sich einfach einliest ins Zeug.
+
+00:20:24.960 --> 00:20:30.880
+ Dass man geht von, ich habe diese Programmierungssprache, was ist das überhaupt für eine Architektur, keine Ahnung.
+
+00:20:30.880 --> 00:20:40.240
+ Hingeht zu, okay, wie gehe ich überhaupt dran, was finde ich so an Dokumentation, da steht irgendwie ein Online-Guide, da ist irgendwie ein YouTube-Tutorial, da ist irgendwie ein Software-Projekt mit ein paar Exampl-Files.
+
+00:20:40.240 --> 00:20:44.320
+ Dass man sich einfach einliest, wie das Zeug funktioniert und dann nach und nach an diese Lösung ran arbeitet.
+
+00:20:44.320 --> 00:20:48.880
+ Also, dass man nicht weiß, was man tun soll, ist eigentlich der Standard.
+
+00:20:48.880 --> 00:20:53.920
+ Da muss man aufhören, dass einen das am Anfang nicht abschrägt, weil das bleibt auch so.
+
+00:20:53.920 --> 00:21:01.600
+ Also vielleicht ist der Take-Away so, wir haben eigentlich alle keine Ahnung von dem, was wir da tun, wir werden nur besser darin Lösungen zu entwickeln.
+
+00:21:01.600 --> 00:21:05.120
+ Und Python-Scripte helfen sehr viel manchmal.
+
+00:21:05.120 --> 00:21:10.400
+ Ich glaube, das sind wahrscheinlich alle einig, wenn man mal eben schnell irgendwas zusammen hacken muss.
+
+00:21:10.400 --> 00:21:13.440
+ Man lernt es aber auch schnell zusammen zu hacken.
+
+00:21:13.440 --> 00:21:16.320
+ Man lernt es auch schnell zusammen zu hacken, aber Python ist euer Freund.
+
+00:21:16.320 --> 00:21:19.840
+ Auf jeden Fall kann ich aus eigener Erfahrung sagen.
+
+00:21:19.840 --> 00:21:26.320
+ Was ist denn so eure coolste CTF-Challenge gewesen?
+
+00:21:26.320 --> 00:21:28.320
+ Von uns organisiert?
+
+00:21:28.320 --> 00:21:32.560
+ Nee, die ihr auch selber vielleicht gelöst habt, wo ihr gedacht habt, boah krass, ich hab hier so...
+
+00:21:32.560 --> 00:21:39.840
+ Also man lernt natürlich immer sehr viele neue Sachen, aber wo ihr so völlig so mindblown wart.
+
+00:21:39.840 --> 00:21:48.000
+ Vielleicht ist es nicht mindblown, aber das ist eine Sache, die bei mir sehr hängen geblieben ist, war eine Gamehacking-Aufgabe bei dem CSCG-Wettbewerb,
+
+00:21:48.000 --> 00:21:50.240
+ die von Life Overflow auch mitentwickelt wurde.
+
+00:21:50.240 --> 00:21:53.840
+ Vielleicht müssen wir einmal noch kurz genauer erklären, was CSCG ist.
+
+00:21:53.840 --> 00:21:57.600
+ Okay, sorry. CSCG ist dieser Wettbewerb Cyber Security Challenge Germany.
+
+00:21:57.600 --> 00:22:02.640
+ Das ist der, wo wir drei alle mitgespielt haben, woraus jetzt quasi auch alles dann irgendwann mal entstanden ist.
+
+00:22:02.640 --> 00:22:11.600
+ Das ist so eine deutschlandweite Qualifikation, wo dann am Ende auch Leute ausgewählt werden für ein deutsches Team,
+
+00:22:11.600 --> 00:22:13.920
+ was dann bei einer europäischen Meisterschaft mitspielt.
+
+00:22:13.920 --> 00:22:18.640
+ Das existiert jedes Jahr, die Qualifiers sind immer im Februar oder März.
+
+00:22:18.640 --> 00:22:20.080
+ Im März beginnen die.
+
+00:22:20.080 --> 00:22:24.160
+ Genau, gehen dann halt immer zwei, drei Monate, je nachdem, wie viele Aufgaben wir gerade fertig haben.
+
+00:22:24.160 --> 00:22:27.200
+ Kommen dann auch manchmal welche dazu?
+
+00:22:27.200 --> 00:22:34.560
+ Nee, also wir sagen schon am Anfang fest, welcher Zeitrahmen das ist, und jeden Monat gibt es dann quasi eine neuen Staffel Aufgaben dazu.
+
+00:22:34.560 --> 00:22:35.760
+ Okay.
+
+00:22:35.760 --> 00:22:37.520
+ Genau, das ist CSCG.
+
+00:22:37.520 --> 00:22:40.960
+ Und da gab es vor ein paar Jahren mal eine Gamehacking-Aufgabe.
+
+00:22:40.960 --> 00:22:44.640
+ Und ich selber hatte vorher noch nie Gamehacking selber betrieben.
+
+00:22:44.640 --> 00:22:47.920
+ War halt aber immer schon interessiert, weil wenn du irgendwie Counter-Strike spielst,
+
+00:22:47.920 --> 00:22:52.000
+ und dann ist da der Gegner und der hackt irgendwie und dann macht er deine Aimboard und keine Ahnung, das ist ja scheiße für dich.
+
+00:22:52.000 --> 00:22:55.040
+ Aber es ist halt trotzdem technisch interessant, wie funktioniert denn das überhaupt?
+
+00:22:55.040 --> 00:22:57.440
+ Wie würde ich jetzt hingehen und so ein Spiel mal irgendwie untersuchen?
+
+00:22:57.440 --> 00:23:03.360
+ Aber das ist ja auch interessant, weil ich habe immer das Gefühl, viele Leute kommen über Gamehacking zu CTF und in Hacking.
+
+00:23:03.360 --> 00:23:13.760
+ Jetzt mal mit jemandem zu sprechen, der auf der anderen Seite war und schon vorher CTF gemacht hat und irgendwie so ein bisschen rumgehackt hat und jetzt erst sozusagen darüber kommt.
+
+00:23:13.760 --> 00:23:16.160
+ Spannend. Okay, erzähl weiter.
+
+00:23:16.160 --> 00:23:20.640
+ Genau, aber das waren halt einfach zehn Aufgaben oder so was halt im Rahmen von so einem Spiel,
+
+00:23:20.640 --> 00:23:25.440
+ wo man irgendwie dann, man musste mal durch eine Wand durchglitschen oder man musste mal irgendwie ganz schnell irgendwo hin rennen.
+
+00:23:25.440 --> 00:23:29.680
+ Man musste irgendwie, ach was war denn das alles, man musste fliegen, man musste unverwundbar werden.
+
+00:23:29.680 --> 00:23:35.280
+ Also so die ganzen typischen Sachen, die man vielleicht in so Spielen irgendwie so machen kann, mal irgendwie alle so interessant irgendwie dargestellt.
+
+00:23:35.280 --> 00:23:39.760
+ Das fand ich einfach super, super beeindruckend, hat mir Spaß gemacht und genau.
+
+00:23:39.760 --> 00:23:43.680
+ Okay. Habt ihr auch noch Lieblingschallenges?
+
+00:23:43.680 --> 00:23:50.000
+ Das war es mir, das ist relativ noch gar nicht so weit weg.
+
+00:23:50.000 --> 00:23:52.240
+ Das war letztes Jahr, da gab es Hackeset.
+
+00:23:52.240 --> 00:23:59.520
+ Es war so ein Wettbewerb, da geht es darum, Satelliten zu hacken.
+
+00:23:59.520 --> 00:24:07.520
+ Also die Idee war, dass Satelliten ein ziemlich wenig erforschtes Gebiet in Richtung Security ist
+
+00:24:07.520 --> 00:24:12.400
+ und dass man ja mehr Security-Leute in die Satellitentechnik bringen sollte.
+
+00:24:12.400 --> 00:24:17.360
+ Und da haben sich dann Leute überlegt, wir könnten ja mal ein Wettbewerb draus machen
+
+00:24:17.360 --> 00:24:26.000
+ und haben dann in einer simulierten Umgebung uns quasi virtuelle Satelliten zur Fügung gestellt.
+
+00:24:26.000 --> 00:24:31.600
+ Und dann hatten wir uns dafür das Finale qualifiziert und ich erinnere mich gut wie wir letztes Jahr
+
+00:24:31.600 --> 00:24:42.960
+ haben wir dann auf ein Bildschirm gestartet und gewartet, bis unser Satellit endlich in Reichweite unserer Base Station auf dem Boden war,
+
+00:24:42.960 --> 00:24:50.000
+ damit wir endlich unsere Exploits testen können und dagegen werfen können.
+
+00:24:50.000 --> 00:25:00.240
+ Ich fand das einfach ziemlich cool, dass man dann da warten musste und das hat sich ziemlich real angefühlt, obwohl es simuliert war alles.
+
+00:25:00.240 --> 00:25:06.160
+ Das ist sehr cool, da habe ich auch noch nie drüber nachgedacht, dass man natürlich auch in Reichweite sein muss.
+
+00:25:06.160 --> 00:25:07.200
+ Genau.
+
+00:25:07.200 --> 00:25:09.200
+ Ja, klar, macht doch total viel Sinn.
+
+00:25:09.200 --> 00:25:13.680
+ Okay, hast du auch noch was?
+
+00:25:13.680 --> 00:25:16.720
+ Ich muss gerade drüber nachdenken.
+
+00:25:16.720 --> 00:25:21.520
+ Wenn ich eine wählen würde, würde ich sie nicht wegen der Challenge, sondern wegen der Erfahrung drum herum.
+
+00:25:21.520 --> 00:25:30.160
+ Beim letzten Congress, als HXP das CTF gemacht hat, hatten wir eine Challenge, in der saß ich glaube ich 24 Stunden.
+
+00:25:30.160 --> 00:25:33.680
+ Bestimmt, also die hat mich alles gekostet diese Challenge.
+
+00:25:33.680 --> 00:25:38.640
+ Aber die war extrem geil, weil sie aus vielen kleinen Schichten hintereinander bestand.
+
+00:25:38.640 --> 00:25:41.680
+ Und wir da mit vielen verschiedenen Leuten gearbeitet haben.
+
+00:25:41.680 --> 00:25:44.080
+ Es sind immer wieder Leute dazugekommen, es sind immer wieder Leute weg.
+
+00:25:44.080 --> 00:25:48.080
+ Wir hatten da zeitweise saßen ich glaube ich mit sechs, sieben Leuten vor einem Bildschirm und haben irgendwas gemacht.
+
+00:25:48.080 --> 00:25:53.040
+ Und von hinten rief einer, der mit dem Laptop so so "da, guck mal da" und dann haben wir noch so einen Puzzleteil dazugekriegt.
+
+00:25:53.040 --> 00:25:55.520
+ Und es sind über 24 Stunden immer wieder Leute gegangen und gekommen.
+
+00:25:55.520 --> 00:25:57.520
+ Auf dem Congress hat man natürlich auch noch anderes zu tun.
+
+00:25:57.520 --> 00:26:01.200
+ Und dann nach 24 Stunden ist dann mal die Flagge poppen.
+
+00:26:01.200 --> 00:26:04.720
+ Das war ziemlich geil, das war eine ziemlich geiles Glückserlese.
+
+00:26:04.720 --> 00:26:10.880
+ Nicht weil die Challenge so cool war, sondern weil die so viele Schichten bestanden hat und wirklich an diesem Tisch lokal mit den Leuten zu sitzen.
+
+00:26:10.880 --> 00:26:12.880
+ Und da kommen immer wieder Leute dazu und haben irgendwie eine coole Idee.
+
+00:26:12.880 --> 00:26:18.320
+ Oder irgendwer kennt das so "ah ja, das hast du aber schon mal benutzt hier, die Option da, das verhält sich dann anders."
+
+00:26:18.320 --> 00:26:22.320
+ Und also das macht was? Und da guckst du es nach und so "wow".
+
+00:26:22.320 --> 00:26:26.320
+ Also das ist schon, die Erfahrung bei CTF ist schon geil.
+
+00:26:26.320 --> 00:26:32.400
+ Das ist auch so wirklich so, wenn du eine Flagge am Ende kriegst irgendwo, ist eigentlich der geilste Moment in so einem CTF.
+
+00:26:32.400 --> 00:26:36.960
+ Wenn du 24 Stunden an so einer Aufgabe gearbeitet hast und dann geht die auf.
+
+00:26:36.960 --> 00:26:38.960
+ Wunderbares Gefühl.
+
+00:26:38.960 --> 00:26:44.720
+ Okay und wenn man jetzt hier gerade auf dem Camp ist und Lust bekommt, CTF zu machen, kann man euch irgendwo finden?
+
+00:26:44.720 --> 00:26:48.480
+ Alles tent bei Milliways da im...
+
+00:26:48.480 --> 00:26:55.360
+ Genau, also wir haben ein Zelt mit ein bisschen Sitzmöglichkeiten bei Milliways.
+
+00:26:55.360 --> 00:27:06.880
+ Aber im Alles Village, das findet man auf der Karte bestimmt irgendwo. Genau, da können gerne Leute vorbeikommen und sich hinsetzen.
+
+00:27:06.880 --> 00:27:12.640
+ Da sind auch andere Leute, die auch kein eigenes Team haben, also auch Leute suchen, mit denen man mitspielen kann.
+
+00:27:12.640 --> 00:27:15.360
+ Und spielen zusammen dann das Camp CTF.
+
+00:27:15.360 --> 00:27:19.360
+ Okay und ist das Camp CTF auch Einsteigerinnen geeignet?
+
+00:27:19.360 --> 00:27:26.320
+ Zum Mittel. Also es hat keine sehr sehr schweren Aufgaben.
+
+00:27:26.320 --> 00:27:31.280
+ Also es hat keine wirklich super Heap Exploitation von irgendwelchen Binary's.
+
+00:27:31.280 --> 00:27:34.000
+ Keine Ahnung, was es sonst schon mal in so Elite CTFs quasi gibt.
+
+00:27:34.000 --> 00:27:36.000
+ Es hat kein Defqon CTF oder so.
+
+00:27:36.000 --> 00:27:41.920
+ Es gibt relativ viele einfache Aufgaben, aber es sind immer noch einfache im Rahmen von CTF Aufgaben.
+
+00:27:41.920 --> 00:27:47.520
+ Also ich glaube, wenn man halt vorher wirklich noch nie CTF gemacht hat, wird man sich auch an den einfachen Aufgaben die Zähne ausbeißen.
+
+00:27:47.520 --> 00:27:51.920
+ Aber das ist auch wirklich gut. Also ich mag das auch, mir bei Aufgaben Zähne auszubeißen.
+
+00:27:51.920 --> 00:27:52.960
+ Wir haben ja vorhin schon darüber geredet.
+
+00:27:52.960 --> 00:28:00.160
+ Und ich denke auch, bei dem CTF ist es durchaus gut machbar, sich mal so eine einfache Aufgabe dazu nehmen und sich einfach mal hinzusetzen und sagen,
+
+00:28:00.160 --> 00:28:04.800
+ okay, ich werde jetzt hier nicht im Scorbot irgendwo weit oben landen, aber ich hätte diese eine Aufgabe, die hört sich cool an,
+
+00:28:04.800 --> 00:28:10.800
+ die macht eine Technologie, die ich interessant finde, damit wollte ich mich schon immer beschäftigen, die schaue ich mir jetzt einfach mal an und dann mache ich die.
+
+00:28:10.800 --> 00:28:17.600
+ Und wahrscheinlich kann man ja auch einfach bei euch vorbeikommen und keine Ahnung, Bandit oder Pico CTF oder whatever,
+
+00:28:17.600 --> 00:28:27.040
+ in den Einstiegsringen irgendwie spielen, einfach nur, dass man irgendwie einen Ort hat, wo andere Menschen sind, die auch CTF spielen und vielleicht auch ein bisschen flauschig sind,
+
+00:28:27.040 --> 00:28:33.840
+ wenn man irgendwie Fragen hat und man nicht danach schreit bei Grant, weil ich glaube, das ist irgendwie so ein bisschen wichtig,
+
+00:28:33.840 --> 00:28:41.760
+ dass man, das ist halt, also die Frustrationstoleranz ist doch manchmal, die wird auf eine harte Probe gestellt, wenn man versucht, so eine CTF-Aufgabe zu lösen
+
+00:28:41.760 --> 00:28:46.800
+ und wenn dann irgendjemand so grummelig neben einem sitzt und sagt, ja, dann liest doch mal die Man-Page,
+
+00:28:46.800 --> 00:28:58.160
+ dann ist das manchmal so ein bisschen kritisch vielleicht für die ein oder andere Einsteigerin, die irgendwie gerade eh an ihrem Technik-Know-How zweifelt
+
+00:28:58.160 --> 00:29:08.640
+ und ich glaube, das ist irgendwie ganz nett. Also ja, Dokumentationslesen fühlt sich immer sehr unsexy an, aber meistens hilft es halt doch.
+
+00:29:08.640 --> 00:29:19.600
+ Man muss das nur manchmal ein bisschen positiver angehen, glaube ich. Also man darf sich auch nicht doof fühlen, wenn man in die Dokumentation gucken muss oder nichts findet
+
+00:29:19.600 --> 00:29:29.680
+ und ich glaube vielleicht, das jetzt so aus meiner ganz persönlichen Perspektive ist, auch eher früher irgendjemanden fragen, wenn man gerade komplett am Absaufen ist
+
+00:29:29.680 --> 00:29:37.520
+ und sagen könnte, so, hey, ich versuche dir die und die Challenge zu lösen, die Sachen habe ich alle schon probiert, ich komme nicht weiter, was kann ich machen
+
+00:29:37.520 --> 00:29:48.480
+ und dann kommt man dann meistens doch relativ schnell weiter, weil die alten Hasen dann doch wissen, dass man gerade dreimal falsch abgebogen ist und ja.
+
+00:29:48.480 --> 00:29:52.400
+ Das können wir auch super, super gerne machen, also wenn Leute quasi mit Fragen zu uns kommen über irgendwelche Aufgaben.
+
+00:29:52.400 --> 00:29:57.600
+ Jetzt spezifisch für das Camp CTF können wir das leider nicht machen als Organizer für einen Live-Wettbewerb, das hatten wir jetzt schon ein paar Mal,
+
+00:29:57.600 --> 00:30:02.960
+ dass Leute quasi kommen und sagen, ja, ich habe das hier fast und ich habe das und das schon probiert, genau das, was du erzählt hast.
+
+00:30:02.960 --> 00:30:09.360
+ Da tut es manchmal ein bisschen weh zu sagen, sorry, das ist gerade ein Live-Wettbewerb, da gibt es einen Scorbert, da können wir dir jetzt gerade nicht bei helfen.
+
+00:30:09.360 --> 00:30:17.920
+ Aber klar, wenn ihr Pico CTF spielt, wenn ihr andere von diesen CT-Aufgaben spielt, die jetzt nicht spezifisch für dieses Live-Camp CTF gerade sind, helfen wir sehr, sehr gerne weiter.
+
+00:30:17.920 --> 00:30:28.800
+ Genau, also keine Angst vor Hackern, die sind meistens sehr, sehr nett und wenn ihr Lust habt, euch irgendwie mit Technologien auseinanderzusetzen und nicht so Lust auf Programmieren habt,
+
+00:30:28.800 --> 00:30:40.720
+ also ihr müsst keine guten Programmierer sein, um CTF zu spielen, das glaube ich ein wichtiges Take-Away, sondern einfach nur Lust haben, euch mit Technologien zu beschäftigen,
+
+00:30:40.720 --> 00:30:48.240
+ lasst euch davon nicht abschrecken und ich glaube auch, wenn ihr noch nie ein Terminal von innen gesehen habt, selbst dann kann man trotzdem ganz gut einsteigen,
+
+00:30:48.240 --> 00:30:55.360
+ also so einen Webshop auseinandernehmen, das geht auch ohne irgendwie Terminal-Erfahrung, hätte ich fast gesagt.
+
+00:30:55.360 --> 00:31:07.680
+ Dann geht zu den netten Menschen im Alles-CTF-Village, schaut da mal vorbei, wenn ihr zu Hause seid, sucht euch jetzt ein CTF-Team, das ist jetzt der Aufruf,
+
+00:31:07.680 --> 00:31:16.320
+ wir können immer mehr davon gebrauchen und das macht auf jeden Fall sehr, sehr viel Spaß. Möchtet ihr den Zuschauern noch irgendwas mitgeben?
+
+00:31:16.320 --> 00:31:19.360
+ Spielt CSCG.
+
+00:31:19.360 --> 00:31:22.960
+ Spielt mit CTFs.
+
+00:31:22.960 --> 00:31:24.400
+ Spielt mit CTFs, finde ich gut.
+
+00:31:24.400 --> 00:31:25.200
+ Spielt mit CTFs, ja.
+
+00:31:25.200 --> 00:31:28.560
+ Und bildet Flinter-CTF-Banden.
+
+00:31:28.560 --> 00:31:38.960
+ Das ist der explizite Aufruf, ich habe gerade die Hoodie Girls heißen, oder? Ich habe gerade vergessen, wie dieses CTF-Team gespielt wird, ein sehr cooles Flinter-CTF-Team.
+
+00:31:38.960 --> 00:31:51.040
+ Wir reichen es nach, aber wir freuen uns auch über Flinter-CTF-Teams, auf jeden Fall, ich glaube, da ist für jeden etwas dabei und es macht wirklich, wirklich viel Spaß
+
+00:31:51.040 --> 00:31:57.120
+ und gerade wenn ihr Bock habt, euch mal mit Sicherheit zu beschäftigen, ist das so das richtige Environment, weil da kann auch nichts passieren
+
+00:31:57.120 --> 00:32:06.480
+ und da müsst ihr auch nicht mit dem CTF-Team sprechen, wenn ihr irgendwas kaputt gemacht habt, weil das ist alles nicht ganz so schlimm, aber es ist eine gute Fingerübung
+
+00:32:06.480 --> 00:32:12.240
+ und damit würde ich sagen, vielen Dank und zurück zum Infobiemer.
+

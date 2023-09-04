@@ -1,0 +1,276 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:32,520
+ So now we have Sebastian, welcome.
+
+3
+00:00:32,520 --> 00:00:36,480
+ Sebastian is telling us about online selling without internet connection.
+
+4
+00:00:36,480 --> 00:00:38,680
+ >> Thank you.
+
+5
+00:00:38,680 --> 00:00:40,680
+ Hello, how many of you?
+
+6
+00:00:40,680 --> 00:00:43,000
+ >> [INAUDIBLE]
+
+7
+00:00:43,000 --> 00:00:44,280
+ >> Now, yes.
+
+8
+00:00:44,280 --> 00:00:48,200
+ How many of you use payment system, additional payment system?
+
+9
+00:00:48,200 --> 00:00:48,720
+ Raise your hand.
+
+10
+00:00:48,720 --> 00:00:52,800
+ How many of you like free software?
+
+11
+00:00:52,800 --> 00:00:57,360
+ How many of you know the software that the payment system is running?
+
+12
+00:00:57,360 --> 00:00:58,240
+ Okay, nobody.
+
+13
+00:00:58,240 --> 00:01:04,560
+ So how many of you know Nutaler already?
+
+14
+00:01:04,560 --> 00:01:06,360
+ Okay, couple of hands.
+
+15
+00:01:06,360 --> 00:01:13,240
+ So this is not about talking about Nutaler, you must already know it.
+
+16
+00:01:13,240 --> 00:01:16,360
+ But this is an update of what we are working on.
+
+17
+00:01:16,360 --> 00:01:20,280
+ So we are working on local currency lastly.
+
+18
+00:01:20,280 --> 00:01:23,600
+ This is how it works.
+
+19
+00:01:23,600 --> 00:01:30,200
+ So from the wallet, you first follow the one who doesn't have a use yet, Nutaler.
+
+20
+00:01:30,200 --> 00:01:34,720
+ You first withdraw the coins, you spend it, you get the ticket from the merchant,
+
+21
+00:01:34,720 --> 00:01:39,160
+ you spend it in the merchant with coins that are like the signature.
+
+22
+00:01:39,160 --> 00:01:44,840
+ So you cannot link the withdrawal from the payment, so no one can trace you.
+
+23
+00:01:44,840 --> 00:01:47,240
+ What are you buying?
+
+24
+00:01:47,240 --> 00:01:49,040
+ And then the merchant make the deposit and
+
+25
+00:01:49,040 --> 00:01:53,080
+ get the cash back from the merchant bank account, right?
+
+26
+00:01:53,080 --> 00:01:55,320
+ So this is, I already know.
+
+27
+00:01:55,320 --> 00:01:59,960
+ But we were thinking about if a merchant is going to be,
+
+28
+00:01:59,960 --> 00:02:04,000
+ like for example here, selling stuff and doesn't have internet connection.
+
+29
+00:02:04,000 --> 00:02:09,640
+ How do you trust that the wallet did the payment if you cannot check online?
+
+30
+00:02:09,640 --> 00:02:15,800
+ So we found a solution, basically without too much saying.
+
+31
+00:02:15,800 --> 00:02:19,280
+ We are using a TOTP,
+
+32
+00:02:19,280 --> 00:02:25,320
+ code generator that the merchant has with a shared key with a merchant device.
+
+33
+00:02:25,320 --> 00:02:29,800
+ So in the point of sales, you can check that the wallet's
+
+34
+00:02:29,800 --> 00:02:34,880
+ transaction has codes that are valid for the purchase.
+
+35
+00:02:34,880 --> 00:02:41,520
+ So when the wallet pays, you get information for the merchant back office, right?
+
+36
+00:02:41,520 --> 00:02:46,360
+ And it has some verification code that can be validated with the merchant point of
+
+37
+00:02:46,360 --> 00:02:47,800
+ sale.
+
+38
+00:02:47,800 --> 00:02:53,800
+ So as you can see here, the point of sales talks with the buyer,
+
+39
+00:02:53,800 --> 00:02:59,840
+ set the amounts, and it creates a contract that is going to be paid and
+
+40
+00:02:59,840 --> 00:03:05,880
+ generates the key that will generate the code that is going to be transferred to
+
+41
+00:03:05,880 --> 00:03:07,120
+ the point of sale.
+
+42
+00:03:07,120 --> 00:03:12,440
+ If the point of sales validate that the code is the correct one,
+
+43
+00:03:12,440 --> 00:03:15,280
+ it checks that the purchase is real.
+
+44
+00:03:15,280 --> 00:03:19,520
+ So you can do that without the point of sale being online with the merchant.
+
+45
+00:03:21,920 --> 00:03:28,320
+ So this is an example creating a QR code.
+
+46
+00:03:28,320 --> 00:03:33,080
+ The merchant can create a QR code that is going to be put in the point of sales.
+
+47
+00:03:33,080 --> 00:03:39,200
+ You set the description, the summary, and a fixed price.
+
+48
+00:03:39,200 --> 00:03:43,200
+ And then this is what can be printed in the point of sales.
+
+49
+00:03:43,200 --> 00:03:45,400
+ So you can scan it when you roll it and pay it.
+
+50
+00:03:45,400 --> 00:03:46,720
+ >> [LAUGH]
+
+51
+00:03:46,720 --> 00:03:48,360
+ >> When you pay it with the wallet,
+
+52
+00:03:48,360 --> 00:03:53,480
+ you're going to see the confirmation of the transaction with these codes.
+
+53
+00:03:53,480 --> 00:03:58,000
+ And these codes is what you can tell to the merchant to say, I made a purchase.
+
+54
+00:03:58,000 --> 00:04:02,400
+ This is my code, okay, and the merchant can verify that because there is
+
+55
+00:04:02,400 --> 00:04:05,520
+ an OTP validator in the merchant device.
+
+56
+00:04:05,520 --> 00:04:12,320
+ So there is no demo because there's too much thing happening right now.
+
+57
+00:04:12,320 --> 00:04:17,000
+ And we are going to be implementing this feature in the batch.
+
+58
+00:04:17,000 --> 00:04:20,880
+ And I think the SoCo village is running a merchant and
+
+59
+00:04:20,880 --> 00:04:25,280
+ title exchange and we are trying to implement that so it can be tested.
+
+60
+00:04:25,280 --> 00:04:29,800
+ We also will be in the house of tea.
+
+61
+00:04:29,800 --> 00:04:35,000
+ Every day at 3 PM we are going to be there just for talking about Tyler.
+
+62
+00:04:35,000 --> 00:04:39,240
+ And also maybe a workshop to set up local currencies.
+
+63
+00:04:39,240 --> 00:04:42,960
+ That's it.
+
+64
+00:04:42,960 --> 00:04:46,360
+ There is a lot of help wanted, testing, translations,
+
+65
+00:04:46,360 --> 00:04:47,640
+ also testing the deployments.
+
+66
+00:04:47,640 --> 00:04:51,520
+ That's it.
+
+67
+00:04:51,520 --> 00:04:52,020
+ Thank you.
+
+68
+00:04:52,020 --> 00:04:54,400
+ >> [APPLAUSE]
+
+69
+00:04:54,400 --> 00:04:59,480
+ [MUSIC]
+

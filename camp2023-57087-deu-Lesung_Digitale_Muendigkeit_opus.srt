@@ -1,0 +1,1592 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:37,640
+ Der nächste Talk hat den Titel "Digitale Mündigkeit" und ist von Lena, die sich mit
+
+3
+00:00:37,640 --> 00:00:42,800
+ digitaler Mündigkeit beschäftigt und Technikpaternalismus. Und was das ist,
+
+4
+00:00:42,800 --> 00:00:47,000
+ wird sie selber erzählen. Hallo.
+
+5
+00:00:47,000 --> 00:00:58,000
+ Ja, danke. Hi. So viel erzählen wollte ich gar nicht, weil bei der letzten Lesung, die ich gemacht habe,
+
+6
+00:00:58,000 --> 00:01:02,000
+ habe ich dann ganz viel geredet und dann hinterher dasselbe nochmal vorgelesen.
+
+7
+00:01:02,000 --> 00:01:08,000
+ Und deswegen dachte ich, ich fange einfach erstmal an mit Lesen.
+
+8
+00:01:08,000 --> 00:01:16,000
+ Ich habe im Mai nicht mein erstes Buch allgemein herausgebracht, denn diese
+
+9
+00:01:16,000 --> 00:01:21,000
+ kurz und mündig büchlein da hinten sind ja auch Bücher und davon habe ich schon ein paar geschrieben,
+
+10
+00:01:21,000 --> 00:01:29,000
+ aber das erste so richtige große. Und das ist ganz schön aufregend, so ein Buch geschrieben zu haben.
+
+11
+00:01:29,000 --> 00:01:35,000
+ Und vor allen Dingen ist es schön, wenn man später nochmal drin liest und weiterhin zufrieden mit dem,
+
+12
+00:01:35,000 --> 00:01:41,000
+ was da drin steht. Und es macht mir tatsächlich auch Spaß, da drin zu lesen. Und deswegen dachte ich,
+
+13
+00:01:41,000 --> 00:01:48,000
+ ich lese euch mal ein bisschen was daraus vor und freue mich natürlich, wenn es euch neugierig macht,
+
+14
+00:01:48,000 --> 00:01:56,000
+ mehr zu hören. Ja, und ich fange einfach mal an, oder? Aber erst trinke ich einen Schluck.
+
+15
+00:01:56,000 --> 00:01:58,000
+ Trinken nicht vergessen.
+
+16
+00:01:58,000 --> 00:02:14,000
+ Digital hat Charme. Der Traum vom perfekten DJ.
+
+17
+00:02:14,000 --> 00:02:21,000
+ In jungen Jahren wünschte ich mir einen persönlichen DJ. Eine Person, die mich unaufdringlich begleitet
+
+18
+00:02:21,000 --> 00:02:28,000
+ und mir in jedem Moment die Musik auflegt, die ich gerade hören möchte, die zu meinem Gemütszustand passt
+
+19
+00:02:28,000 --> 00:02:34,000
+ oder einen angestrebten Gemütszustand hervorruft. Diese Person müsste sich so gut mit meinem Musikgeschmack
+
+20
+00:02:34,000 --> 00:02:41,000
+ und mit meinen Stimmungen auskennen, dass sie sogar besser wüsste als ich, was ich gerade hören möchte.
+
+21
+00:02:41,000 --> 00:02:48,000
+ Dafür würde ich mich diese Person eine Zeit beobachten und mein Verhalten zu studieren.
+
+22
+00:02:48,000 --> 00:02:54,000
+ Es ließe sich nicht vermeiden, dass sie sich nicht nur über meinen Musikgeschmack, sondern über mein
+
+23
+00:02:54,000 --> 00:03:01,000
+ gesamtes Leben einen guten Überblick bekäme und mich vielleicht sogar besser kennenlernte als ich mich selbst.
+
+24
+00:03:01,000 --> 00:03:07,000
+ Diese Informationen sollte sie dann nutzen, um mir die passende Musik aufzulegen, noch ehe ich
+
+25
+00:03:07,000 --> 00:03:13,000
+ darüber nachdenken konnte, welche Musik eigentlich passen würde. Mein Beitrag würde sich darauf
+
+26
+00:03:13,000 --> 00:03:19,000
+ beschränken, festzustellen, dass es tatsächlich gerade die bestmögliche Musikauswahl wäre und
+
+27
+00:03:19,000 --> 00:03:26,000
+ meinem DJ anerkennend zuzunecken. Selbstverständlich wollte ich dazu keinen Menschen versklaven.
+
+28
+00:03:26,000 --> 00:03:32,000
+ Bezahlen kann man so einen Vollzeitbegleitservice auch nicht und abgesehen davon, dass ich es damals
+
+29
+00:03:32,000 --> 00:03:37,000
+ schon ablehnte, mich überwachen zu lassen und mir das Gefühl nicht gefallen hätte, ständig überall hin
+
+30
+00:03:37,000 --> 00:03:45,000
+ begleitet zu werden. Es blieb bei einer wilden Fantasie, auch deshalb, weil es recht unrealistisch ist,
+
+31
+00:03:45,000 --> 00:03:51,000
+ dass der eigene Musikgeschmack derart präzise erfasst werden könnte. Oder nicht?
+
+32
+00:03:51,000 --> 00:03:57,000
+ Als ich Mitte der Nullerjahre auf die Musikempfehlungsseite Last FM stieß, legte ich mir sofort einen
+
+33
+00:03:57,000 --> 00:04:03,000
+ Account an. Last FM zeichnete von da an die Musik auf, die ich am Rechner hörte und empfahl mir
+
+34
+00:04:03,000 --> 00:04:10,000
+ ähnliche Interpretinnen. Ich konnte mir sogar ansehen, was meine Freunde gerade hörten, Musik
+
+35
+00:04:10,000 --> 00:04:17,000
+ kommentieren und sogar meinen OK Player, damals war MP3 noch nicht frei und deswegen musste man
+
+36
+00:04:17,000 --> 00:04:24,000
+ natürlich für freie Formate das OK Format verwenden, an das System anschließen. Es erstellte mir
+
+37
+00:04:24,000 --> 00:04:28,000
+ eine Statistik meiner Lieblingslieder und Bands, verglich meinen Musikgeschmack mit dem meiner
+
+38
+00:04:28,000 --> 00:04:33,000
+ Freunde und stellte mir Menschen vor, die einen sehr ähnlichen Musikgeschmack hatten wie ich.
+
+39
+00:04:33,000 --> 00:04:39,000
+ Dies entsprach in weiten Teilen meinen Vorstellungen. Eine Software hat den Vorteil, dass man sie nicht
+
+40
+00:04:39,000 --> 00:04:45,000
+ versklaven muss, damit sie für einen rund um die Uhr arbeitet. Man muss allerdings andere Dinge in
+
+41
+00:04:45,000 --> 00:04:51,000
+ Kauf nehmen. Zum Beispiel gibt es keine Funktion, um mein Profil vor der Öffentlichkeit zu schützen.
+
+42
+00:04:51,000 --> 00:04:57,000
+ Die Geheimhaltung meines Nicknames war eigentlich die einzige Möglichkeit, meine Privatsphäre zu
+
+43
+00:04:57,000 --> 00:05:03,000
+ schützen. Doch den musste ich ja bekannt geben, wenn ich mit Freunden Musikempfehlungen tauschen
+
+44
+00:05:03,000 --> 00:05:10,000
+ wollte. Wer meinen Benutzernamen kannte, konnte sehr viel über mich herausfinden. Außerdem band das mich
+
+45
+00:05:10,000 --> 00:05:17,000
+ an den Computer. Einer meiner Lieblingsinterpreten rutschte auf der Skala weit nach unten, weil ich
+
+46
+00:05:17,000 --> 00:05:22,000
+ seine Musik noch häufig über die Schallplatte oder CD hörte, die eben nicht an das System angeschlossen
+
+47
+00:05:22,000 --> 00:05:28,000
+ sind. Andere Interpretinnen, die ich gar nicht besonders mochte, die sich aber als Hintergrundmusik
+
+48
+00:05:28,000 --> 00:05:34,000
+ gut eigneten und die ich gerne zum Arbeiten oder Aufräumen hörte, schnellten im Ranking nach oben.
+
+49
+00:05:34,000 --> 00:05:41,000
+ Das System konnte nicht wahrnehmen, mit welcher Intensität ich ein Stück hörte. Ob ich nebenbei
+
+50
+00:05:41,000 --> 00:05:48,000
+ telefonierte oder mit geschlossenen Augen jede einzelne Note verfolgte, wurde nicht erfasst.
+
+51
+00:05:48,000 --> 00:05:54,000
+ Das führte dazu, dass ich begann, mein Musikhörverhalten so zu verändern, dass die angezeigte
+
+52
+00:05:54,000 --> 00:06:01,000
+ Rangliste eher dem entsprach, wie ich selbst meinen Musikgeschmack einschätzte. So beeinflusste mich
+
+53
+00:06:01,000 --> 00:06:10,000
+ die Software in dem, was ich hörte und verursachte eine Art Rückkopplung. Was dem Programm zu dem von
+
+54
+00:06:10,000 --> 00:06:17,000
+ mir fantasierten leibhaftigen DJ noch fehlte, war die Einschätzung meines Gemütszustandes. Es konnte
+
+55
+00:06:17,000 --> 00:06:23,000
+ mir nicht sagen, welche Musik jetzt im Moment zu mir passt, sondern nur, welche mir allgemein
+
+56
+00:06:23,000 --> 00:06:30,000
+ gefallen könnte. Doch von der Berechnung des Gemütszustandes durch Software sind wir heute gar nicht
+
+57
+00:06:30,000 --> 00:06:37,000
+ mehr weit entfernt. Es ist nur noch eine Frage der Zeit, bis es diesen persönlichen DJ, der meine
+
+58
+00:06:37,000 --> 00:06:44,000
+ Stimmungen erkennen und anhand dieser bestimmen kann, was ich gerade hören möchte als App gibt.
+
+59
+00:06:44,000 --> 00:06:49,000
+ Vielleicht sogar mit all den Dingen, die ich mir damals gewünscht habe. Nicht mal als Luxusartikel,
+
+60
+00:06:49,000 --> 00:06:55,000
+ sondern für alle Menschen bezahlbar. Leider müssen wir befürchten, dass bezahlbar in einer Währung
+
+61
+00:06:55,000 --> 00:07:02,000
+ passieren wird, die wir alle haben und die uns kein Geld, sondern unsere Privatsphäre kostet.
+
+62
+00:07:02,000 --> 00:07:12,000
+ Denn es gibt einen wichtigen Unterschied zum persönlichen DJ. Er wäre nur ein Mensch, der mich
+
+63
+00:07:12,000 --> 00:07:17,000
+ beobachtet und sich ständig in meiner Umgebung aufhält. Ich würde diese Person ebenfalls kennenlernen
+
+64
+00:07:17,000 --> 00:07:22,000
+ und es bliebe ihr keine Zeit, etwas mit ihrem Wissen über mich zu machen, da sie ja immer damit
+
+65
+00:07:22,000 --> 00:07:27,000
+ beschäftigt wäre, mich zu beschaffen. Ein Unternehmen, das mir eine Software anbietet, die die
+
+66
+00:07:27,000 --> 00:07:33,000
+ gleiche Arbeit leistet, wird sich das genauso teuer bezahlen lassen wie ein persönlicher DJ nur eben
+
+67
+00:07:33,000 --> 00:07:39,000
+ in einer anderen Währung. Doch hierbei handelt es sich um mehrere Personen, die ich nicht kenne und
+
+68
+00:07:39,000 --> 00:07:46,000
+ nicht einschätzen kann. Würde ich den Dienst dennoch in Anspruch nehmen, wenn, wann passiert es schon
+
+69
+00:07:46,000 --> 00:07:52,000
+ mal, dass man eine derart unrealistische Jugendwunschstraum-Utopie so einfach erfüllt bekommt?
+
+70
+00:07:52,000 --> 00:07:58,000
+ Mein Computer kennt mich besser, als ich mich selbst kenne, denn er beobachtet mich dauerhaft und
+
+71
+00:07:58,000 --> 00:08:04,000
+ zeichnet alles unverfälscht auf. Oder vielleicht doch nicht? Anscheinend könnte es auch hier zu
+
+72
+00:08:04,000 --> 00:08:10,000
+ Fehlern kommen, denn ich habe ja schon bei meinem Experiment mit Last.fm bemerkt, dass ich mein
+
+73
+00:08:10,000 --> 00:08:17,000
+ Verhalten dem Programm bewusst anpasste, um Fehler auszugleichen. Wie oft ist das wohl unbewusst
+
+74
+00:08:17,000 --> 00:08:23,000
+ passiert? Und wie sehr würde ich mich einer Firma ausliefern, die derart gut über meinen Gemütszustand
+
+75
+00:08:23,000 --> 00:08:30,000
+ informiert ist? Würde ich ihr damit nicht auch die Macht geben, meine Stimmung zu manipulieren? Was,
+
+76
+00:08:30,000 --> 00:08:37,000
+ wenn der DJ auf einmal anfängt, mir meine mühsam erarbeitete melancholische Stimmung zu verderben,
+
+77
+00:08:37,000 --> 00:08:42,000
+ indem er mir statt "A Whiter Shade of Pale" mit "If You Want to Sing Out, Sing Out" das Lied
+
+78
+00:08:42,000 --> 00:08:49,000
+ auftischt, dem keine meiner schlechten Launen standhält? Im besten Fall könnte die Software
+
+79
+00:08:49,000 --> 00:08:56,000
+ entscheiden, ob ich meine Laune gerade konserviere oder ändere. Im schlimmsten Fall würde die
+
+80
+00:08:56,000 --> 00:09:01,000
+ Software das nicht anhand meiner Wünsche ermitteln, sondern anhand der Wünsche der Person, die meinen
+
+81
+00:09:01,000 --> 00:09:07,000
+ DJ-Dienst betreibt. Beide Fälle finde ich beunruhigend. Ich finde es beunruhigend, wenn ein Stück
+
+82
+00:09:07,000 --> 00:09:12,000
+ Technik besser über mich Bescheid weiß, als ich selbst oder meine engsten Freundinnen und Freunde.
+
+83
+00:09:12,000 --> 00:09:17,000
+ Ich finde es erst recht beunruhigend, wenn ich zu bequem werde, für mich selbst wahrzunehmen, welche
+
+84
+00:09:17,000 --> 00:09:23,000
+ Gefühle ich habe. Am beunruhigendsten finde ich es aber, wenn ich die Macht über meine Launen zu
+
+85
+00:09:23,000 --> 00:09:28,000
+ bestimmen, potentiell an Dritte abgebe, von denen ich nicht mehr weiß, wer das eigentlich ist,
+
+86
+00:09:28,000 --> 00:09:36,000
+ geschweige denn, was ihr Anliegen ist. Am allerbeunruhigendsten finde ich allerdings, wie wenige
+
+87
+00:09:36,000 --> 00:09:42,000
+ Menschen sich derartige Fragen stellen, bevor sie einen solchen Dienst nutzen. Welche Auswirkungen auf
+
+88
+00:09:42,000 --> 00:09:50,000
+ die Gesellschaft würde es haben, wenn wir alle einen solchen DJ-Dienst nutzen würden? Leider bleibt
+
+89
+00:09:50,000 --> 00:09:56,000
+ es nicht bei den Diensten, denen man sich freiwillig und unreflektiert unterwirft, weil sie einen
+
+90
+00:09:56,000 --> 00:10:02,000
+ albernen Wunschraum erfüllen. Immer mehr Anwendungen sind für uns gar nicht mehr vermeidbar, bzw. ein
+
+91
+00:10:02,000 --> 00:10:08,000
+ Verzicht darauf hat für uns ernsthafte Konsequenzen. Wenn ich dem Staat nicht meine Fingerabdrücke anvertrauen
+
+92
+00:10:08,000 --> 00:10:13,000
+ möchte, weil er entgegen aller ursprünglichen Beteuerungen mein biometrisches Bild nicht so gut geschützt
+
+93
+00:10:13,000 --> 00:10:20,000
+ und stattdessen an Staatsverfolgungsbehörden weitergegeben hat, dann kann ich den Schengenraum nicht
+
+94
+00:10:20,000 --> 00:10:25,000
+ mehr verlassen. Wenn ich anonym Bahn fahren will, muss ich mittlerweile viele Unannehmlichkeiten auf mich
+
+95
+00:10:25,000 --> 00:10:32,000
+ nehmen und in der Regel mehr Geld bezahlen. Wenn ich mit Freundinnen kommunizieren will, werde ich genötigt
+
+96
+00:10:32,000 --> 00:10:38,000
+ WhatsApp zu nutzen und wenn ich morgens ein warmes Büro vorfinden möchte, muss ich mir eine Smart-Home-App
+
+97
+00:10:38,000 --> 00:10:44,000
+ auf dem Handy installieren, mit der ich die Heizung bequem steuern kann. Ich kann nicht mal bei Klobetrotter
+
+98
+00:10:44,000 --> 00:10:50,000
+ im Laden ein paar Schuhe bestellen, ohne dass in meinem Namen ein Benutzer-Account bei deren Online-Shop
+
+99
+00:10:50,000 --> 00:10:56,000
+ erstellt wird, für den ich meine Postadresse nebst weiteren Informationen angeben muss. Viele Banken
+
+100
+00:10:56,000 --> 00:11:01,000
+ verlangen mittlerweile für Kreditkartenzahlungen, dass man ihre App installiert, die es natürlich auch
+
+101
+00:11:01,000 --> 00:11:08,000
+ nur im Google Play Store gibt, für die man die völlig inakzeptable Google-AGB akzeptieren muss.
+
+102
+00:11:08,000 --> 00:11:15,000
+ Besonders unausweichlich ist die Zwangsdigitalisierung im medizinischen Sektor. Ohne die elektronische
+
+103
+00:11:15,000 --> 00:11:20,000
+ Gesundheitskarte erhalte ich keine medizinische Versorgung und wenn ich meiner Krankenkasse einen analogen
+
+104
+00:11:20,000 --> 00:11:27,000
+ Brief schicke, dann adressiere ich den ans Scan-Zentrum, wo er, Sie ahnen es schon, digitalisiert wird,
+
+105
+00:11:27,000 --> 00:11:35,000
+ bevor er an meine Sachbearbeiterin weitergeleitet wird. Ich liebe Technik. Ich liebe mein Smartphone
+
+106
+00:11:35,000 --> 00:11:41,000
+ und meinen Computer. Ich liebe die vielen Möglichkeiten, die sich daraus für Demokratie und für die
+
+107
+00:11:41,000 --> 00:11:46,000
+ menschliche Kommunikation ergeben. Ich finde es herrlich, dass man für einen alten gebrauchten
+
+108
+00:11:46,000 --> 00:11:51,000
+ Staubsauger online eine Betriebsanleitung finden kann und dass einsame Menschen im Netz Gleichgesinnte
+
+109
+00:11:51,000 --> 00:11:57,000
+ finden. Und ich bin überaus glücklich darüber, dass kranke Menschen durch digitale Technik besser mit
+
+110
+00:11:57,000 --> 00:12:03,000
+ ihren Krankheiten umgehen und sogar die Heilungschancen verbessern können. Gerade weil ich das große
+
+111
+00:12:03,000 --> 00:12:08,000
+ Potential sehe, das in der Digitalisierung steckt, halte ich es für notwendig, sich kritisch damit
+
+112
+00:12:08,000 --> 00:12:15,000
+ auseinanderzusitzen, wohin uns die technische Entwicklung führen soll. Es gibt bis heute kein
+
+113
+00:12:15,000 --> 00:12:20,000
+ allgemeingültiges ethisches Gerüst, nachdem wir die Richtung, die die Technikentwicklung nehmen soll,
+
+114
+00:12:20,000 --> 00:12:26,000
+ ausrichten können. So verfolgen die Internetkonzerne zum Beispiel ganz andere Ziele als die Menschen,
+
+115
+00:12:26,000 --> 00:12:32,000
+ die früher Mailboxen betrieben haben und heute freie Netze fordern. Ich glaube, hier sitzen ein paar im
+
+116
+00:12:32,000 --> 00:12:42,000
+ Zelt. Jetzt habe ich mich selber rausgebracht. Wo sind denn jetzt die freien Netze?
+
+117
+00:12:42,000 --> 00:12:57,000
+ Da. Manchmal ist es ja wirklich. Regierungen und mächtige politische Kräfte nutzen das Netz für die
+
+118
+00:12:57,000 --> 00:13:03,000
+ Manipulation von Wahlen und politischen Entscheidungen. Siehe zum Beispiel Brexit. Anderen wiederum
+
+119
+00:13:03,000 --> 00:13:07,000
+ ermöglicht das Internet am Leben teilzunehmen. Menschen mit Behinderungen zum Beispiel. Oder sich
+
+120
+00:13:07,000 --> 00:13:13,000
+ weltweit Freunde zu suchen. Darin steckt die Chance im Sinne von Berthold Brechtz und Andy Warholz,
+
+121
+00:13:13,000 --> 00:13:20,000
+ dass jeder und jeder seinen persönlichen Raum bekommt, sich zu verwirklichen. Gleichzeitig aber
+
+122
+00:13:20,000 --> 00:13:25,000
+ stellen eben Konzerne diesen Raum zur Verfügung und nutzen ihn für ihre Geschäftsinteressen aus,
+
+123
+00:13:25,000 --> 00:13:31,000
+ indem sie Regeln diktieren und zentralisieren. Damit drohen sie, andere Pflanzen unseres
+
+124
+00:13:31,000 --> 00:13:37,000
+ Gemeinschaftslebens zu verdrängen. Gerade weil ich die technische Entwicklung begrüße und mir viel
+
+125
+00:13:37,000 --> 00:13:43,000
+ davon erhoffe, bin ich ihr gegenüber besonders kritisch. Gerade weil ich es als Privileg empfinde,
+
+126
+00:13:43,000 --> 00:13:49,000
+ in genau dieser Umbruchszeit zu leben, sehe ich mich in der Verantwortung, meinen Teil dazu beizutragen,
+
+127
+00:13:49,000 --> 00:13:58,000
+ dass sie sich in eine wünschenswerte Richtung entwickelt. Kommen wir zur Frage, wie wir mit den
+
+128
+00:13:58,000 --> 00:14:04,000
+ vielen Möglichkeiten, die uns die digitale vernetzte Kommunikation bietet, eigentlich umgehen wollen.
+
+129
+00:14:04,000 --> 00:14:09,000
+ Wenn daraus etwas werden soll, was den Menschen gut tut, was ihnen zur Demokratie und einer friedlichen
+
+130
+00:14:09,000 --> 00:14:14,000
+ Welt verhilft, dann sollten wir uns an unseren Umgang damit einen gewissen Anspruch stellen.
+
+131
+00:14:14,000 --> 00:14:20,000
+ Ein mündiger Umgang mit Technik, der sie weder verteufelt noch blind bejubelt, würde diesem Anliegen
+
+132
+00:14:20,000 --> 00:14:26,000
+ entsprechen. Mündigkeit nicht nur im Sinne von mature, weil uns jemand gesagt hat, dass wir das jetzt
+
+133
+00:14:26,000 --> 00:14:33,000
+ dürfen, weil juristisch und so, sondern auch im Sinne von responsible, weil wir bereit sind,
+
+134
+00:14:33,000 --> 00:14:40,000
+ Verantwortung für das zu tragen, was wir da tun. Digitale Mündigkeit ist das Bewusstsein, dass es ein
+
+135
+00:14:40,000 --> 00:14:46,000
+ Problem mit der Technik, die man benutzt, geben könnte. Es ist die Bereitschaft, Verantwortung für das
+
+136
+00:14:46,000 --> 00:14:52,000
+ eigene Handeln zu übernehmen, in Bezug auf die eigenen Interessen, aber auch in Bezug auf die
+
+137
+00:14:52,000 --> 00:14:58,000
+ Interessen anderer Menschen und auch in Bezug auf das Interesse der Menschen als Gesamtgruppe.
+
+138
+00:14:58,000 --> 00:15:02,000
+ So.
+
+139
+00:15:02,000 --> 00:15:16,000
+ Ich blättere mal ein bisschen vor, muss ja nicht alles aus dem Anfang sein.
+
+140
+00:15:19,000 --> 00:15:29,000
+ Ich habe ein recht großes KI-Kapitel. KI, wir wissen, komplexe Imitationen auf Englisch, Advanced Imitation,
+
+141
+00:15:29,000 --> 00:15:39,000
+ also AI, aber ich bleib mal bei KI und ich, ja wir reden so viel über KI, ich bin da mal so ein bisschen
+
+142
+00:15:39,000 --> 00:15:44,000
+ nach vorne gesprungen in das Kapitel, ich bin so froh, dass ich kein falsch positiv bin.
+
+143
+00:15:46,000 --> 00:15:52,000
+ Häufig geht es bei der KI um Zuordnung oder Vorhersagen. Ist jemand kreditwürdig? Wird jemand
+
+144
+00:15:52,000 --> 00:15:57,000
+ einen Verbrechen begehen? Ist eine Person empfänglich für Werbung meines Produkts? Soll ich eine Person
+
+145
+00:15:57,000 --> 00:16:04,000
+ einstellen? Befindet sich auf dem Foto ein Auto? Könnte die Person gleich einen Terroranschlag verüben?
+
+146
+00:16:04,000 --> 00:16:10,000
+ Der offensichtliche Wert, den man zunächst ins Auge fasst, ist, wie oft der Algorithmus Recht hat.
+
+147
+00:16:10,000 --> 00:16:18,000
+ Also wie viele Terroristen hat er tatsächlich erkannt? 100%? Na fantastisch, dann können wir ja nach Hause gehen.
+
+148
+00:16:18,000 --> 00:16:25,000
+ Leider nicht, denn neben dem Wert der korrekten Zuordnung, dem true positive, gibt es einen weiteren
+
+149
+00:16:25,000 --> 00:16:33,000
+ sehr relevanten Wert, das falsch positiv, also die falschlicherweise als Terroristen markierten Menschen,
+
+150
+00:16:33,000 --> 00:16:39,000
+ die aber ganz und gar keine Terroristen sind. Wenn eine KI die Hälfte aller Menschen als Terroristen
+
+151
+00:16:39,000 --> 00:16:46,000
+ einstuft, ist es nicht verwunderlich, wenn darunter auch 100% alle Terroristen sind. Beim falsch
+
+152
+00:16:46,000 --> 00:16:53,000
+ positiv kommt erschwerend hinzu, dass es für die Betroffenen sehr weitreichende Folgen haben kann und
+
+153
+00:16:53,000 --> 00:16:59,000
+ dass schon ein sehr kleiner Prozentsatz ein sehr großes Problem darstellt. Im Pilotprojekt zur
+
+154
+00:16:59,000 --> 00:17:06,000
+ Gesichtserkennung am Berliner Bahnhof Südkreuz wurde mit hervorragenden Ergebnissen geprahlt.
+
+155
+00:17:06,000 --> 00:17:16,000
+ 70 bis 80% true positives wurden gemessen und stolz verkündet. Der Wert der false positives
+
+156
+00:17:16,000 --> 00:17:22,000
+ blieb zunächst vage mit unter einem Prozent, was sich doch irgendwie nach richtig wenig anfühlt.
+
+157
+00:17:22,000 --> 00:17:28,000
+ Das Ganze wurde als Erfolg gefeiert. Doch wer nachrechnet und weiß, dass am Südkreuz täglich
+
+158
+00:17:28,000 --> 00:17:34,000
+ ca. 100.000 Menschen unterwegs sind, stellt fest, pro Tag würden bei dieser kleinen Rate bis zu
+
+159
+00:17:34,000 --> 00:17:41,000
+ 1.000 Menschen falsch zugeordnet. Selbst beim später verkündeten Wert von 0,1% wären das noch
+
+160
+00:17:41,000 --> 00:17:49,000
+ immer 100 falsche Kriminelle am Tag, 36.500 im Jahr. Gemessen am Ziel der Übung, nämlich Kriminelle
+
+161
+00:17:49,000 --> 00:17:57,000
+ zu erkennen, ist das eine viel zu hohe Zahl. Und das Problem ist real. Es sammeln sich immer mehr
+
+162
+00:17:57,000 --> 00:18:04,000
+ Beispiele für solche Fehler. In Georgia musste im Dezember 22 ein Mann fast eine Woche im Gefängnis
+
+163
+00:18:04,000 --> 00:18:08,000
+ verbringen, ehe sich herausstellte, dass ihn die Gesichtserkennungssoftware fälschlicherweise für
+
+164
+00:18:08,000 --> 00:18:14,000
+ einen gesuchten Dieb hielt. Das Beispiel ist besonders pikant, weil der Mann schwarz ist und die
+
+165
+00:18:14,000 --> 00:18:20,000
+ Gesichtserkennungssoftware hier rassistischerweise besonders fehleranfällig ist, weil sie vornehmlich
+
+166
+00:18:20,000 --> 00:18:26,000
+ an Weißen trainiert wird. Aber auch wenn die Gesichtserkennung korrekt arbeitet, wird sie in
+
+167
+00:18:26,000 --> 00:18:32,000
+ immer problematischeren Situationen eingesetzt. Stellen Sie sich vor, Sie wollen Ihr Kind zu einem
+
+168
+00:18:32,000 --> 00:18:39,000
+ Schulausflug ins Musical begleiten und werden als einzige Mutter nicht reingelassen. Warum? Weil Sie
+
+169
+00:18:39,000 --> 00:18:46,000
+ für eine Kanzlei arbeiten, die in einen Rechtsstaat gegen den Betreiber des Musicals involviert ist.
+
+170
+00:18:46,000 --> 00:18:53,000
+ Dies geschah ebenfalls Ende 22 in den USA, diesmal in New York. Während Gesichtserkennung immer
+
+171
+00:18:53,000 --> 00:18:59,000
+ häufiger, sehr willkürlich und fehlerhaft eingesetzt wird, ist Ihr Nutzen äußerst überschaubar.
+
+172
+00:18:59,000 --> 00:19:08,000
+ Angenommen, es laufen pro Monat 10 Kriminelle über den Bahnhof Südkreuz. Dann würde diese angeblich so
+
+173
+00:19:08,000 --> 00:19:14,000
+ erfolgreiche Software acht davon erkennen, bei 80 Prozent True Positives. Und gleichzeitig würde sie
+
+174
+00:19:14,000 --> 00:19:21,000
+ 3.000 Unschuldige als kriminell bezichtigen, 0,1 Prozent False Positives, und ihnen entsprechend die
+
+175
+00:19:21,000 --> 00:19:28,000
+ Polizei auf die Fersen jagen. Unberechtigte Befragung und zu spät kommen bei der Arbeit inklusive,
+
+176
+00:19:28,000 --> 00:19:34,000
+ während die Polizei versucht, unter den gut 3.000 Menschen die acht Kriminellen zu finden.
+
+177
+00:19:34,000 --> 00:19:41,000
+ Mag sein, dass Sie das anders sehen, aber ich betrachte das nicht als erfolgreichen Test. Zumal sogar
+
+178
+00:19:41,000 --> 00:19:47,000
+ diese denkbar schlechten Ergebnisse im Verdacht stehen, noch geschönt zu sein. Stellen Sie sich diese
+
+179
+00:19:47,000 --> 00:19:53,000
+ Rate an Falschpositiven mal bei einem Feueralarm in Ihrem Büro vor. Wenn täglich zehnmal der
+
+180
+00:19:53,000 --> 00:19:58,000
+ Feueralarm losgeht, werden Sie spätestens nach drei Tagen nicht mehr aufstehen und hinauseilen, wenn es
+
+181
+00:19:58,000 --> 00:20:04,000
+ wieder klingelt. Dumm nur, wenn es dann wirklich mal brennt und keiner mehr mit einem True Positiv
+
+182
+00:20:04,000 --> 00:20:11,000
+ rechnet. Es gibt übrigens auch True Negative und False Negative. Auch hier möchte man lieber nicht
+
+183
+00:20:11,000 --> 00:20:16,000
+ zu den Falschen gehören, denn hier geht es darum, fälschlicherweise aussortiert worden zu sein.
+
+184
+00:20:16,000 --> 00:20:21,000
+ Beispielsweise bei einer Arbeitsstelle, für die man eigentlich sehr wohl in Frage käme, aber
+
+185
+00:20:21,000 --> 00:20:27,000
+ versehentlich falsch bewertet wurde. Oder bei der Frage, ob man von der Bank einen Kredit erhält.
+
+186
+00:20:27,000 --> 00:20:33,000
+ Ein False Negative ist hier genauso gemein wie ein False Positiv beim Terroristen-Detektor.
+
+187
+00:20:33,000 --> 00:20:42,000
+ Ja, also ich versuche immer so ein bisschen, ich habe das tatsächlich durchgekämmt mit meinem
+
+188
+00:20:42,000 --> 00:20:51,000
+ bald, wie alt wird er? 80-jährigen Vater. Ich habe versucht, so zu schreiben, dass es also nicht
+
+189
+00:20:51,000 --> 00:21:01,000
+ viel Vorkenntnisse voraussetzt und trotzdem Spaß macht. Es ist also Eltern-kompatibel.
+
+190
+00:21:01,000 --> 00:21:10,000
+ So, jetzt habe ich leider festgestellt beim Probelesen, dass ich die paternalistische Ampel
+
+191
+00:21:10,000 --> 00:21:15,000
+ überspringen muss. Die wollte ich eigentlich auch mit vorlesen, weil das ist ein schönes, so eine
+
+192
+00:21:15,000 --> 00:21:20,000
+ Parabel. Philosophinnen machen das immer sehr gerne, dass sie irgendwelche abstrusen Beispiele
+
+193
+00:21:20,000 --> 00:21:26,000
+ vorstellen. Aber die überlasse ich dann mal euch, das selber zu lesen. Weil ich will lieber mal
+
+194
+00:21:26,000 --> 00:21:31,000
+ nochmal in den Bereich reinschnuppern, in dem es darum geht, wie sie Licht ins Dunkel der
+
+195
+00:21:31,000 --> 00:21:38,000
+ Black Box bringen. Die gute Nachricht ist, man kann sich aus der Entmündigung befreien.
+
+196
+00:21:38,000 --> 00:21:44,000
+ Das bedarf einiger Übungen und ist deshalb auch nicht ganz ohne Zeitinvestition zu erreichen.
+
+197
+00:21:44,000 --> 00:21:49,000
+ Doch mit der notwendigen Bereitschaft und mit Durchhaltevermögen lässt es sich durchaus in den
+
+198
+00:21:49,000 --> 00:21:55,000
+ Alltag integrieren. Die Größe der Schritte können Sie individuell anpassen. Ganz am Anfang steht ein
+
+199
+00:21:55,000 --> 00:22:00,000
+ Haltungswechsel. Indem Sie für sich in Anspruch nehmen, die Verantwortung für Ihre digitalen
+
+200
+00:22:00,000 --> 00:22:06,000
+ Handlungen zu tragen, haben Sie das Wichtigste schon getan. Die notwendigen Fragen werden sich
+
+201
+00:22:06,000 --> 00:22:12,000
+ dann von alleine aufwerfen. Hier geht es darum, wie das konkret aussehen kann.
+
+202
+00:22:12,000 --> 00:22:21,000
+ 30 mündige Minuten. Beachten Sie, so oft es Ihnen möglich ist, die goldene 30-Mündigkeits-Minuten-Regel.
+
+203
+00:22:21,000 --> 00:22:27,000
+ Sie lautet, versuchen Sie ein Computerproblem immer erst mindestens 30 Minuten lang selbst zu
+
+204
+00:22:27,000 --> 00:22:33,000
+ lösen. Der Einsatz von Suchmaschinen ist dabei ausdrücklich erlaubt. Bitten Sie erst dann nach
+
+205
+00:22:33,000 --> 00:22:42,000
+ um Hilfe. Inspiriert wurde diese Regel übrigens vom Nummer 627XKCD, Technical Support Cheat Sheet.
+
+206
+00:22:42,000 --> 00:22:51,000
+ Ich weiß nicht, wer ihn kennt, aber wer XKCD kennt, .com/627, kann man sich durchlesen.
+
+207
+00:22:51,000 --> 00:22:58,000
+ Das hat gleich zwei Vorteile. Erstens, Sie üben sich, Problemen selbst zu stellen, dem
+
+208
+00:22:58,000 --> 00:23:05,000
+ Erforderungsgefühl zu trotzen und lernen ganz nebenbei sehr viel dazu. Zweitens, Sie sieben die
+
+209
+00:23:05,000 --> 00:23:10,000
+ einfach zu lösenden Probleme vorher aus. Wenn Sie damit anfangen, werden Sie überrascht sein,
+
+210
+00:23:10,000 --> 00:23:17,000
+ wie häufig Sie in 5-10 Minuten selbst eine Lösung finden. Sie brauchen also viel seltener Hilfe
+
+211
+00:23:17,000 --> 00:23:22,000
+ in Anspruch zu nehmen. Die Menschen, die Sie bei Ihren Problemen unterstützen, werden es Ihnen
+
+212
+00:23:22,000 --> 00:23:30,000
+ danken. Denn die können sehr gut erkennen, ob es sich um ein wirkliches Problem handelt oder ob Sie
+
+213
+00:23:30,000 --> 00:23:38,000
+ nur zu faul waren, selbst zu meta gären. Ich spreche da aus Erfahrung und zwar aus beiden
+
+214
+00:23:38,000 --> 00:23:45,000
+ Richtungen. Wenn Sie sich dann doch Hilfe holen, lassen Sie sich nicht das Gerät bzw. die Tastatur
+
+215
+00:23:45,000 --> 00:23:51,000
+ aus den Händen nehmen. Auch wenn Sie von Tuten und Blasen keine Ahnung haben, behalten Sie die
+
+216
+00:23:51,000 --> 00:23:57,000
+ Kontrolle. Lassen Sie sich bei der Bedienung Ihrer Geräte helfen, aber geben Sie sie nicht ab.
+
+217
+00:23:57,000 --> 00:24:04,000
+ Passwörter kennen nur Sie und wenn sie gebraucht werden, geben Sie sie ein. Lassen Sie sich erklären,
+
+218
+00:24:04,000 --> 00:24:08,000
+ was man mit Ihrem Gerät gerade macht und führen Sie sich vor Augen, dass es auch dann in Ihrer
+
+219
+00:24:08,000 --> 00:24:17,000
+ Verantwortung liegt, was damit geschieht, wenn Sie gar nicht richtig verstehen, was da gerade passiert.
+
+220
+00:24:17,000 --> 00:24:24,000
+ Wirkere Flex überwinden. Ist ja alles schön und gut, werden Sie jetzt vielleicht sagen, aber ich habe
+
+221
+00:24:24,000 --> 00:24:29,000
+ nun mal kein Informatikdiplom und kenne mich nicht ausreichend mit Computern aus. Mit diesem Gefühl
+
+222
+00:24:29,000 --> 00:24:34,000
+ der Überforderung sind Sie wahrlich nicht alleine. Für einen mündigen Umgang mit digitalen Geräten ist
+
+223
+00:24:34,000 --> 00:24:40,000
+ es aber gar nicht nötig, Informatik zu studieren. Über Medienkompetenz haben wir schon hinlänglich
+
+224
+00:24:40,000 --> 00:24:46,000
+ gesprochen, weiter vorne, aber arbeiten Sie mit den Fähigkeiten, die Sie haben und eignen Sie
+
+225
+00:24:46,000 --> 00:24:52,000
+ sich Stück für Stück die an, die Sie brauchen. Wir hatten das bereits davon, dass Sie auch ohne eine
+
+226
+00:24:52,000 --> 00:24:58,000
+ Ausbildung als Lebensmitteltechnikerin einkaufen gehen können. Oder würden Sie sich mit dem Satz,
+
+227
+00:24:58,000 --> 00:25:02,000
+ ich kann das eh nicht, ich habe halt keine Lebensmitteltechnik studiert, eine verschimmelte
+
+228
+00:25:02,000 --> 00:25:09,000
+ Orange in den Einkaufswagen legen? Eben. Sie tragen Verantwortung für das, was Sie sich und Ihren
+
+229
+00:25:09,000 --> 00:25:16,000
+ Liebsten in den Mund schieben, unabhängig davon, wie gut Sie sich mit dem Produkt auskennen.
+
+230
+00:25:16,000 --> 00:25:21,000
+ Kant würde hier von einem Mangel an Entschlossenheit sprechen, doch anstatt Ihnen weiter mit einem
+
+231
+00:25:21,000 --> 00:25:27,000
+ erhobenen Zeigefinger zu kommen, möchte ich Ihnen lieber etwas von Ratten erzählen. Von zwei ganz
+
+232
+00:25:27,000 --> 00:25:33,000
+ speziellen Ratten, um genau zu sein. Beide sind animiert und stammen aus dem Disneyfilm Ratatouille.
+
+233
+00:25:33,000 --> 00:25:40,000
+ Remy und Emil sind Brüder. Der erste ein Feinschmecker, der andere ein Allesfresser. Als Emil sich mal wieder
+
+234
+00:25:40,000 --> 00:25:46,000
+ eine undefinierbare Ekelhaftigkeit in den Mund schiebt, fragt Remy, wie er das fressen kann.
+
+235
+00:25:46,000 --> 00:25:56,000
+ Emils lapidare Antwort, wenn man den Würgereflex erstmal überwunden hat, geht's. Solch einen Würgereflex
+
+236
+00:25:56,000 --> 00:26:04,000
+ kennen wir auch bei Computern. Um das zu verstehen, müsste ich mich jetzt erstmal schlau machen und
+
+237
+00:26:04,000 --> 00:26:11,000
+ eindecken, dafür habe ich gerade echt nicht den Nerv. So spucken wir viele Computerverständnisfragen
+
+238
+00:26:11,000 --> 00:26:16,000
+ wieder aus, noch bevor wir uns wirklich auf sie eingelassen haben. Und das geht nicht nur denen so,
+
+239
+00:26:16,000 --> 00:26:23,000
+ die sich kaum mit Computern auskennen. Diesen Würgereflex haben fast alle, die mit Computern zu tun
+
+240
+00:26:23,000 --> 00:26:30,000
+ haben, nur die einen haben gelernt, sich davon nicht abhalten zu lassen. Und auch hier gilt, wenn man den
+
+241
+00:26:30,000 --> 00:26:36,000
+ Würgereflex erstmal überwunden hat, ist das gar nicht mehr so schlimm. Es ist kein Wunder, dass wir uns
+
+242
+00:26:36,000 --> 00:26:43,000
+ nur ungern auf etwas einlassen, von dem wir gefühlt vielleicht 5% verstehen. Aber daran ändert auch ein
+
+243
+00:26:43,000 --> 00:26:49,000
+ Informatikstudium nichts. Das führt höchstens dazu, dass sie danach gefühlt 40% verstehen. Wer mit
+
+244
+00:26:49,000 --> 00:26:54,000
+ Computern arbeitet, wird nicht umhin kommen zu akzeptieren, dass einem stets ein bedeutender Anteil der
+
+245
+00:26:54,000 --> 00:27:01,000
+ Sache unklar ist. Diese Einsicht ist einer der wichtigsten Unterschiede zwischen Computermuggeln und
+
+246
+00:27:01,000 --> 00:27:08,000
+ Computerzauberern. Erstere lassen sich von den vielen Unbekannten abschrecken und verunsichern. Zweitere
+
+247
+00:27:08,000 --> 00:27:13,000
+ suchen im Wust der Unklarheiten nach dem, was sie kennen und brauchen und halten sich daran fest und
+
+248
+00:27:13,000 --> 00:27:19,000
+ ignorieren den Rest. Spucken Sie die Sache also nicht gleich wieder aus, wenn Sie sie nicht verstehen.
+
+249
+00:27:19,000 --> 00:27:23,000
+ Nehmen Sie den Würgereiz zur Kenntnis, wenn er auftaucht, begrüßen Sie ihn und dann stellen Sie ihn
+
+250
+00:27:23,000 --> 00:27:28,000
+ erstmal beiseite. Nach 30 Minuten können Sie ihn ja wieder rausholen, wenn er dann überhaupt noch
+
+251
+00:27:28,000 --> 00:27:30,000
+ nötig ist.
+
+252
+00:27:41,000 --> 00:27:48,000
+ Ich bräuchte mal eine Zeit. 15 Minuten. Oh, ich habe nämlich hinten, es kommt so ein schönes Kapitel,
+
+253
+00:27:48,000 --> 00:27:54,000
+ was mir sehr wichtig ist. Mal gucken, aber das braucht nämlich einen Moment. Mal sehen, wo wir da
+
+254
+00:27:54,000 --> 00:28:03,000
+ jetzt landen. Ich habe schon so viel rausgeschmissen. Ja doch, nein, aber es passt perfekt, weil wir
+
+255
+00:28:03,000 --> 00:28:09,000
+ kommen jetzt genau dahin. Jetzt bin ich mal ganz vorgesprungen in das Kapitel "Freiheit, Demokratie und
+
+256
+00:28:09,000 --> 00:28:15,000
+ Manipulation" und den Teil über die Polarisierung und den, was ich eigentlich auch gerne gelesen hätte,
+
+257
+00:28:15,000 --> 00:28:23,000
+ wäre das über den manipulierten Souverän. Also was passiert, wenn in einer Demokratie der Souverän
+
+258
+00:28:23,000 --> 00:28:29,000
+ eigentlich gar nicht mehr frei entscheidet, sondern so manipuliert wird, dass man gar nicht mehr weiß,
+
+259
+00:28:29,000 --> 00:28:38,000
+ ist das jetzt schon frei oder nicht oder was ist das jetzt. Aber es gibt ein anderes Kapitel, das mir
+
+260
+00:28:38,000 --> 00:28:45,000
+ tatsächlich sehr am Herzen liegt und für das ich mir noch ein kleines bisschen Zeit aufheben wollte.
+
+261
+00:28:45,000 --> 00:28:53,000
+ Das setzt auch, knüpft auch ein bisschen an einen Vortrag, den wir hier schon ganz am Anfang des
+
+262
+00:28:53,000 --> 00:29:00,000
+ Camps hatten von Annalisa Gonzior, der ich herzlich danke, weil sie mir nämlich auch Inspiration
+
+263
+00:29:00,000 --> 00:29:07,000
+ geliefert hat für dieses Kapitel. Es geht hier um Cyberkrieg und Infokrieg.
+
+264
+00:29:07,000 --> 00:29:16,000
+ Warum es demokratische Gesellschaften bis ins Mark erschüttern kann, wenn kein Vertrauen und keine
+
+265
+00:29:16,000 --> 00:29:22,000
+ gemeinsame Wissensbasis mehr besteht, haben wir schon besprochen. Beim sogenannten Cyberkrieg wird
+
+266
+00:29:22,000 --> 00:29:29,000
+ dieses Problem ganz besonders offensichtlich. Aber bevor wir uns auf dieses Thema stürzen, möchte ich
+
+267
+00:29:29,000 --> 00:29:35,000
+ kurz auf die Begriffe eingehen. Die Kriegsrhetorik ist nämlich nicht ganz unproblematisch. Zumindest
+
+268
+00:29:35,000 --> 00:29:40,000
+ kann man darüber streiten, ob die sprachliche Gleichsetzung mit Krieg ein Zustand, in dem Menschen
+
+269
+00:29:40,000 --> 00:29:47,000
+ einander physische Gewalt antun und einander töten, angemessen ist. Sascha Lobo empfiehlt, andere
+
+270
+00:29:47,000 --> 00:29:54,000
+ Begriffe zu verwenden und beispielsweise von Cyber-Sabotage oder von Diskursvergiftung zu sprechen.
+
+271
+00:29:54,000 --> 00:29:59,000
+ Das finde ich einerseits sehr sinnvoll, da ist klarer benennt, was eigentlich konkret passiert.
+
+272
+00:29:59,000 --> 00:30:06,000
+ Andererseits wird psychische Gewalt selten so ernst genommen wie physische Gewalt und hier richtet sich
+
+273
+00:30:06,000 --> 00:30:12,000
+ der psychologische Angriff gegen eine ganze Menschengruppe. Es ist wichtig, diesen Angriff auch in
+
+274
+00:30:12,000 --> 00:30:17,000
+ seiner Tragweite zu betrachten und sich klar zu machen, dass es sich tatsächlich um einen
+
+275
+00:30:17,000 --> 00:30:23,000
+ kriegerischen Akt handeln kann. Auch digitale Technik kann als Waffe eingesetzt werden und auch
+
+276
+00:30:23,000 --> 00:30:29,000
+ darüber müssen wir sprechen. Wer einen Staat angreifen oder nachhaltig schwächen möchte, kann
+
+277
+00:30:29,000 --> 00:30:35,000
+ dies ganz subtil durch Manipulation der Massen schaffen, beispielsweise indem man das Vertrauen in
+
+278
+00:30:35,000 --> 00:30:41,000
+ das politische Zusammenleben systematisch untergräbt. Im Infokrieg, also das was Sascha Lobo
+
+279
+00:30:41,000 --> 00:30:48,000
+ Diskursvergiftung nennt, verbreitet man gezielt Unwahrheiten, um ganze Systeme ins Wanken zu bringen.
+
+280
+00:30:48,000 --> 00:30:55,000
+ Dazu muss man nur eine vorhandene Unzufriedenheit von Menschen und Gruppen gezielt zu Wut katalysieren.
+
+281
+00:30:55,000 --> 00:31:03,000
+ Das hat verschiedene Wirkungen. Erstens, es destabilisiert direkt vor Ort. Das muss nicht unbedingt
+
+282
+00:31:03,000 --> 00:31:08,000
+ schlecht sein, Veränderungen setzen das sogar manchmal voraus. Nur sollten diese von den Leuten vor
+
+283
+00:31:08,000 --> 00:31:16,000
+ Ort initiiert sein. Zweitens, es verschleiert die wahren Akteure. Wenn Menschen zu einer bestimmten
+
+284
+00:31:16,000 --> 00:31:21,000
+ Protestform nur deshalb gelangt sind, weil ein externer Akteur ihnen diese professionell und unbemerkbar
+
+285
+00:31:21,000 --> 00:31:29,000
+ in den Kopf gelegt hat, werden Menschen mit Anliegen durch Machthaber anderer Staaten instrumentalisiert,
+
+286
+00:31:29,000 --> 00:31:36,000
+ die sich für das Anliegen an sich überhaupt nicht interessieren. Drittens, es verunsichert. Bei
+
+287
+00:31:36,000 --> 00:31:42,000
+ Protesten ist nicht mehr klar, ob diese tatsächlich aus sich heraus entstanden sind oder ob sie Teil einer
+
+288
+00:31:42,000 --> 00:31:50,000
+ Instrumentalisierung durch andere Machtinteressen sind. Cyberkrieg, also Cyber-Sabotage, kann
+
+289
+00:31:50,000 --> 00:31:56,000
+ unterschiedlich aussehen. Er kann auf die Gemüte der Bevölkerung des gegnerischen Landes abziehen.
+
+290
+00:31:56,000 --> 00:32:02,000
+ Er kann sich aber auch gegen kritische Infrastruktur wie Krankenhäuser oder die Stromversorgung richten.
+
+291
+00:32:02,000 --> 00:32:09,000
+ Oder er bleibt auf Militäreinrichtungen beschränkt. Aber wie soll man das je sicher feststellen können?
+
+292
+00:32:09,000 --> 00:32:15,000
+ Wenn Angriffe nicht mehr identifizierbar sind und deshalb fingierbar werden, besteht eine so große
+
+293
+00:32:15,000 --> 00:32:23,000
+ Unklarheit, dass sinnvolle Aktionen und Reaktionen gänzlich unmöglich werden. Man weiß also nicht mehr,
+
+294
+00:32:23,000 --> 00:32:29,000
+ war das nur ein Angriff, falls ja, also war das nun ein Angriff, falls ja, aus welcher Richtung kam er?
+
+295
+00:32:29,000 --> 00:32:37,000
+ Deuten die gefundenen Hinweise auf den tatsächlichen Angreifer hin? Oder sind es gefälschte Spuren, die
+
+296
+00:32:37,000 --> 00:32:42,000
+ mich gegen den Feind des Angriffers aufhetzen sollen? Wie kann man sicher sein, dass kritische
+
+297
+00:32:42,000 --> 00:32:49,000
+ Infrastruktur wie Krankenhaus- oder Feuerwehr-IT- oder Gaspipelines nicht zum Angriffsziel werden?
+
+298
+00:32:49,000 --> 00:32:56,000
+ Wie kann zwischen Zivilist*innen und Militär unterschieden werden? Nicht jede Manipulation kommt von
+
+299
+00:32:56,000 --> 00:33:02,000
+ Bots oder Geld fixierten Algorithmen. Überwachungskapitalismus habe ich weiter vorne geschrieben.
+
+300
+00:33:02,000 --> 00:33:10,000
+ Neben dem Streben nach Profit dienen Missinformationen, Destabilisierung, Zank und Krach auch der schnöden
+
+301
+00:33:10,000 --> 00:33:18,000
+ alten Macht. Die Politik bedient sich der destruktiven Mechanismen der Vernetzung sowohl zur Manipulation der
+
+302
+00:33:18,000 --> 00:33:26,000
+ eigenen Bevölkerung als auch dafür, sich in die Politik anderer Länder einzumischen. Und das geht so.
+
+303
+00:33:26,000 --> 00:33:32,000
+ Man mache sich bewusst, wer der Gegner ist. Dann suche man innerhalb dieses Umfelds nach bestehenden
+
+304
+00:33:32,000 --> 00:33:37,000
+ Meinungsverschiedenheiten. Je saftiger, desto besser. Besonders gut eignen sich dabei Themen wie
+
+305
+00:33:37,000 --> 00:33:44,000
+ Diskriminierung oder Antisemitismus. Wichtig ist, es muss ein wahrer Kern in der Sache stecken und es ist
+
+306
+00:33:44,000 --> 00:33:50,000
+ von Vorteil, wenn es keine offensichtliche, einfache Lösung für den Konflikt gibt. Und dann wendet man
+
+307
+00:33:50,000 --> 00:33:56,000
+ den alten Agententrick an und unterstützt beide Seiten. Dabei gibt man sich in der Regel viele verschiedene
+
+308
+00:33:56,000 --> 00:34:02,000
+ Identitäten auf Social Media, die sich als ganz normale Menschen ausgeben und den Disput immer weiter
+
+309
+00:34:02,000 --> 00:34:10,000
+ eskalieren. Es gibt diverse Taktiken. Die offensichtlichste ist, dass man die vielen verschiedenen Identitäten,
+
+310
+00:34:10,000 --> 00:34:16,000
+ die zunehmend den Ton angeben, einander zustimmen lässt. Aber man kann auch eine Seite schwächen, indem man
+
+311
+00:34:16,000 --> 00:34:23,000
+ jemanden in ihrem Namen auftreten lässt und dabei völligen Irrsinn verbreitet. Und da wären wir.
+
+312
+00:34:23,000 --> 00:34:29,000
+ Destabilisierung. Der Gegner ist zerstritten und damit abgelenkt und im schlimmsten Fall handlungsunfähig.
+
+313
+00:34:29,000 --> 00:34:35,000
+ Sie fragen sich, weshalb die Gesellschaft sich immer weiter polarisiert? Weil es Parteien gibt, die davon
+
+314
+00:34:35,000 --> 00:34:41,000
+ profitieren. Und das Schlimmste ist, der ausgewählte und zur Eskalation getriebene Konflikt beschreibt
+
+315
+00:34:41,000 --> 00:34:47,000
+ meist ein sehr wichtiges und ernstes Anliegen. Wenn sich eine Gruppe gegen fortwährende Diskriminierung
+
+316
+00:34:47,000 --> 00:34:53,000
+ zur Wehr setzt, hat sie alles Recht, sich zu freuen, wenn auf dieses Thema endlich Aufmerksamkeit fällt.
+
+317
+00:34:53,000 --> 00:34:59,000
+ Den Beteiligten ist selten bewusst, dass dies nur das Abfallprodukt eines Manövers ist, indem ihr Anliegen
+
+318
+00:34:59,000 --> 00:35:06,000
+ für ein ganz anderes Spiel instrumentalisiert wird. Das macht das Anliegen nicht weniger wichtig, aber es
+
+319
+00:35:06,000 --> 00:35:12,000
+ bedeutet eben, dass der geführte Dialog gar nicht auf die Lösung des Anliegens ausgerichtet ist, sondern im
+
+320
+00:35:12,000 --> 00:35:19,000
+ Gegenteil, die Fronten eher noch verhärten soll. Wenn man einmal anfängt, die Wirklichkeit auf diese Strategie
+
+321
+00:35:19,000 --> 00:35:27,000
+ hin abzuklopfen, muss man sehr aufpassen, nicht paranoid zu werden. Ich merke schon, wir brauchen wieder ein
+
+322
+00:35:27,000 --> 00:35:37,000
+ Beispiel. Als Präsident Putin am 24.02.22 der russischen Armee befahl, das Nachbarland Ukraine anzugreifen, gab es
+
+323
+00:35:37,000 --> 00:35:43,000
+ weltweit überwältigende Solidarität. Menschen nahmen Geflüchtete auf, Züge fuhren sie kostenlos in die
+
+324
+00:35:43,000 --> 00:35:49,000
+ Nachbarländer, Resolutionen wurden verabschiedet, Waffen geschickt, Sanktionen beschlossen. So einig hatten wir
+
+325
+00:35:49,000 --> 00:35:55,000
+ die westliche Welt schon lange nicht mehr gesehen. Dazu trug auch bei, dass die Ukraine, allen voran ihr
+
+326
+00:35:55,000 --> 00:36:01,000
+ Präsident Volodomir Zelensky, sehr gut darin war, die Öffentlichkeit auf charismatische Art und Weise
+
+327
+00:36:01,000 --> 00:36:08,000
+ anzusprechen. Während wir in Westeuropa den Wert der Demokratie immer mehr aus den Augen verloren, zeigten
+
+328
+00:36:08,000 --> 00:36:14,000
+ die Ukrainer sich selbst und der Weltöffentlichkeit, dass sie bereit waren, dafür alles zu riskieren.
+
+329
+00:36:14,000 --> 00:36:20,000
+ Doch die neue Einigkeit in der EU hatte selbstverständlich Risse und die zu finden war nicht schwer. Sie sprangen
+
+330
+00:36:20,000 --> 00:36:26,000
+ einem förmlich ins Auge, denn die große Solidarität mit den Geflüchteten musste allen befremdlich
+
+331
+00:36:26,000 --> 00:36:34,000
+ vorkommen, die sich jemals mit dem Gedanken beschäftigt hatten, dass Europa täglich Menschen im
+
+332
+00:36:34,000 --> 00:36:45,000
+ Mittelmeer ertrinken lässt, ja manchmal bewegt sein, und sich nicht an deren Rettung beteiligt und ihre
+
+333
+00:36:45,000 --> 00:36:54,000
+ Überlegungschancen sogar noch radikal sinkt. Menschen, die von dieser Gau, dieser größten anzunehmenden
+
+334
+00:36:54,000 --> 00:37:00,000
+ Unbarmherzigkeit betroffen sind oder die versucht hatten, etwas dagegen zu unternehmen, mussten sich natürlich
+
+335
+00:37:00,000 --> 00:37:07,000
+ fragen, weshalb sie nicht das gleiche Gehör gefunden hatten, wie jetzt zum Glück die Menschen aus der
+
+336
+00:37:07,000 --> 00:37:14,000
+ Ukraine. Da das jetzt sehr hilfreich Polen bis dahin mit einer völligen Verweigerungshaltung aufgefallen
+
+337
+00:37:14,000 --> 00:37:18,000
+ war, Menschen in Not zu helfen, war es nicht überraschend, dass bald Berichter darüber bekannt
+
+338
+00:37:18,000 --> 00:37:24,000
+ wurden, dass nicht weiße Menschen an der Grenze zurückgewiesen wurden. Nach unserem Kochrezept der
+
+339
+00:37:24,000 --> 00:37:29,000
+ perfekte Konflikt mit berechtigtem Anliegen und kaum sichtbare Lösung.
+
+340
+00:37:29,000 --> 00:37:40,000
+ An dieser Stelle muss ich blank ziehen. Ich habe keine Ahnung, was hier tatsächlich der Wahrheit
+
+341
+00:37:40,000 --> 00:37:45,000
+ entspricht. Die Wahrheit ist das erste Opfer des Krieges und ich mache mir keine Illusionen, dass ich
+
+342
+00:37:45,000 --> 00:37:51,000
+ aus meiner Perspektive darüber auch nur ansatzweise verfüge. Ich möchte nicht darauf hinaus, dass Sie mir
+
+343
+00:37:51,000 --> 00:37:55,000
+ die eine oder die andere Geschichte glauben. Ich verzichte an dieser Stelle ausdrücklich auf
+
+344
+00:37:55,000 --> 00:38:01,000
+ belastbare Belege. Ich habe sonst ziemlich viele Fußnoten. Es geht nicht darum, wer hier Recht hat.
+
+345
+00:38:01,000 --> 00:38:08,000
+ Es geht darum, zu verdeutlichen, dass es in einer solchen Situation eben nicht mehr möglich ist,
+
+346
+00:38:08,000 --> 00:38:15,000
+ wirklich Bescheid zu wissen. Wir wissen, dass wir alle vom Horizont unseres eigenen Tellerrandes und
+
+347
+00:38:15,000 --> 00:38:20,000
+ unserer Filterblase begrenzt sind. Wir wissen, dass diese Methoden von allen Parteien angewendet
+
+348
+00:38:20,000 --> 00:38:26,000
+ werden. Wir wissen, dass Manipulation auf tiefster psychologischer Ebene stattfindet. Wir wissen
+
+349
+00:38:26,000 --> 00:38:32,000
+ eigentlich nur, dass wir gar nichts richtig wissen. Und dann sollen wir aussuchen, wer unser
+
+350
+00:38:32,000 --> 00:38:38,000
+ Herzblatt ist. Die eine Stimme, jetzt habe ich hier wieder einen Verweis auf einen Twitter-Kommentar,
+
+351
+00:38:38,000 --> 00:38:43,000
+ die darauf aufmerksam macht, dass die berechtigte Kritik am Rassismus an der polnischen Grenze von
+
+352
+00:38:43,000 --> 00:38:50,000
+ Putin instrumentalisiert wird, um die europäische Einigkeit zu zerstreuen. Oder die andere Stimme,
+
+353
+00:38:50,000 --> 00:38:56,000
+ auch so ein Tweet, damals konnte man ja Twitter noch benutzen, die völlig zurecht moniert, dass es
+
+354
+00:38:56,000 --> 00:39:03,000
+ sich dabei wiederum um eine nicht belegte Propaganda handeln könnte. Vielleicht sind ja auch beide Stimmen
+
+355
+00:39:03,000 --> 00:39:08,000
+ von russischer Seite gesteuert, oder eine von Russland und eine von der NATO, oder keine von beiden.
+
+356
+00:39:08,000 --> 00:39:15,000
+ Vielleicht ist eine oder beide von anderen Stimmen auf die jeweilige Idee gebracht worden, die ihrerseits
+
+357
+00:39:15,000 --> 00:39:21,000
+ gesteuert sind. Und falls beide Stimmen völlig unabhängig sein sollten, wer hat dann eigentlich Recht?
+
+358
+00:39:21,000 --> 00:39:27,000
+ Und ist es nicht egal, ob man Beifall von der falschen Seite bekommt, wenn das Anliegen berechtigt ist?
+
+359
+00:39:27,000 --> 00:39:33,000
+ Ich habe keine Antwort. Ich weiß nur, dass ein Problem in der Regel nicht ausgeräumt wird, wenn es nur das
+
+360
+00:39:33,000 --> 00:39:39,000
+ Vehikel für ein ganz anderes Anliegen ist. Und ich weiß, dass wir uns auf diese Weise kein sinnvolles
+
+361
+00:39:39,000 --> 00:39:44,000
+ Bild von der Lage machen können. Ich weiß auch, dass wir die Lösung nicht finden, indem wir die
+
+362
+00:39:44,000 --> 00:39:49,000
+ Gräben immer tiefer ausheben. Wenn ich den Eindruck haben muss, dass eigentlich jede Information, die
+
+363
+00:39:49,000 --> 00:39:55,000
+ mich erreicht, ein potentieller Versuch ist, mich zum Spielball in einem mir unbekannten Machtspiel zu machen,
+
+364
+00:39:55,000 --> 00:40:04,000
+ steht mündiges digitales Verhalten nicht mehr zur Debatte. Aber nur, indem ich mir das bewusst mache, habe
+
+365
+00:40:04,000 --> 00:40:11,000
+ ich überhaupt eine Chance, mich zu ermündigen. Sokrates lässt grüßen. Auf den bin ich vorher eingegangen.
+
+366
+00:40:11,000 --> 00:40:18,000
+ Der Infokrieg, Diskursvergiftung, greift uns nicht auf molekularer oder medizinischer Ebene an.
+
+367
+00:40:18,000 --> 00:40:24,000
+ Er zielt auf das Fundament unseres Zusammenlebens, auf die Kommunikation. Er attackiert unser Vertrauen
+
+368
+00:40:24,000 --> 00:40:30,000
+ ineinander und unser Vertrauen in unser Urteilsvermögen. Er zersetzt den demokratischen Zusammenhalt bis hin
+
+369
+00:40:30,000 --> 00:40:38,000
+ zur tiefsten Ebene, dem Gesellschaftsvertrag. Er hat damit ein desaströses Potenzial. Und zwar auch dann,
+
+370
+00:40:38,000 --> 00:40:43,000
+ wenn seine Methoden gar keine Anwendungen mehr finden. Sobald wir alle paranoid genug geworden sind,
+
+371
+00:40:43,000 --> 00:40:49,000
+ verliert unser Gesellschaftsvertrag die Kohäsion und bricht auseinander. Das Spiel mit der Ungewissheit
+
+372
+00:40:49,000 --> 00:40:55,000
+ ist die Superkraft dieser Angriffe. Es geht den Trumps und Putins gar nicht darum, dass Leute ihnen glauben.
+
+373
+00:40:55,000 --> 00:41:02,000
+ Es geht ihnen darum, dass Leute gar nichts mehr glauben. Und das macht es zu einer wirklich dreckigen Form
+
+374
+00:41:02,000 --> 00:41:08,000
+ der Kriegsführung. Das zersetzt vor allem die Strukturen, die auf Mitbestimmung, offener Kommunikation
+
+375
+00:41:08,000 --> 00:41:15,000
+ und Demokratie basieren und hilft solchen, in denen einzelne Machthabe herrschen, den Ton angeben und die
+
+376
+00:41:15,000 --> 00:41:22,000
+ öffentliche Kommunikation kontrollieren. Demokratien können im Cyberkrieg nur verlieren. Deshalb sollten
+
+377
+00:41:22,000 --> 00:41:29,000
+ alle, die demokratisch sind und das auch bleiben wollen, nicht nur tunlich darauf verzichten, aktiv
+
+378
+00:41:29,000 --> 00:41:39,000
+ darauf hinarbeiten, dass es möglichst alle internationalen Player sich an diesem Verzicht beteiligen.
+
+379
+00:41:39,000 --> 00:41:45,000
+ Die vorhandenen Kräfte sollten auf Abwehr von Angriffen und auf IT-Sicherheit kritischer Infrastruktur
+
+380
+00:41:45,000 --> 00:41:56,000
+ konzentriert werden. Dazu gehören auch die Köpfe der einzelnen Menschen, die in die Lage versetzt werden
+
+381
+00:41:56,000 --> 00:42:02,000
+ müssen, zu erkennen, wann sie und ihre Interessen instrumentalisiert werden. Digitale Mündigkeit wird
+
+382
+00:42:02,000 --> 00:42:10,000
+ individuell und gemeinschaftlich zu einem Kernelement der Cyberabwehr. Deshalb gehören Methoden des
+
+383
+00:42:10,000 --> 00:42:16,000
+ Infokriegs, also der Diskursvergiftung, umgehend, international geächtet, mit allen Begleiterscheinungen,
+
+384
+00:42:16,000 --> 00:42:22,000
+ mit einer unabhängigen Kommission, die ständig ermittelt, mit klaren Kriterien zur Identifikation dieser
+
+385
+00:42:22,000 --> 00:42:29,000
+ Waffe und mit saftigen Konsequenzen für die, die sich nicht daran halten und damit aufgeflogen sind.
+
+386
+00:42:29,000 --> 00:42:35,000
+ Das ist allerdings leichter gesagt als getan. Denn wie will man ein Computerprogramm quantifizieren?
+
+387
+00:42:35,000 --> 00:42:42,000
+ Anders als eine Granate kann man es ja beliebig oft einsetzen. Vereinbarungen mit dem Tenor, jeder von uns
+
+388
+00:42:42,000 --> 00:42:49,000
+ darf nur einen Flugzeugträger besitzen, funktionieren hier nicht mehr. Außerdem müsste die Ächtung noch
+
+389
+00:42:49,000 --> 00:42:54,000
+ viel weitergehen. Wahlen, die im dringenden Verdacht stehen, aus dem Ausland beeinflusst worden zu sein,
+
+390
+00:42:54,000 --> 00:42:59,000
+ dürfen nicht einfach unangefochten stehen bleiben. Andererseits dürfen wir den demokratischen Prozess
+
+391
+00:42:59,000 --> 00:43:04,000
+ auch nicht dadurch blockieren, dass eine Wahl nach der anderen ihre Ungültigkeit verliert.
+
+392
+00:43:04,000 --> 00:43:11,000
+ Hier ist Feingefühl von Nöten. Man darf auf gar keinen Fall überreagieren und damit beispielsweise die
+
+393
+00:43:11,000 --> 00:43:16,000
+ Meinungsfreiheit touchieren. Es braucht Instrumente, die Sorge tragen, dass dieser Mechanismus nicht
+
+394
+00:43:16,000 --> 00:43:22,000
+ wiederum missbraucht wird. Und das alles muss international ausgehandelt und vorangetrieben werden.
+
+395
+00:43:22,000 --> 00:43:29,000
+ Es ist ein ziemlich dickes Brett, was wir hier bohren müssen. Doch wenn wir nicht endgültig Richtung
+
+396
+00:43:29,000 --> 00:43:34,000
+ Dystopie abbiegen wollen, sollten wir umgehend den Bohrer ansetzen.
+
+397
+00:43:34,000 --> 00:43:41,000
+ [Applaus]
+
+398
+00:43:42,000 --> 00:43:47,000
+ [Musik]
+

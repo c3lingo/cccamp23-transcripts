@@ -1,0 +1,1292 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:30.000 --> 00:00:40.000
+ [FOREIGN]
+
+00:00:40.000 --> 00:00:46.000
+ >> More or less.
+
+00:00:46.000 --> 00:00:48.000
+ Hi, I'm Oliver.
+
+00:00:48.000 --> 00:00:53.000
+ Who of you has heard of Starlink?
+
+00:00:53.000 --> 00:00:54.000
+ That's great.
+
+00:00:54.000 --> 00:00:59.000
+ Who of you has played with a Starlink?
+
+00:00:59.000 --> 00:01:01.000
+ Oh, one?
+
+00:01:01.000 --> 00:01:03.000
+ That's not a lot.
+
+00:01:03.000 --> 00:01:10.000
+ All right, so that's why I think it's a good time to talk about what's happening in space
+
+00:01:10.000 --> 00:01:17.000
+ and what the next frontier not only from a technology perspective
+
+00:01:17.000 --> 00:01:21.000
+ but also for the hacker community might look like.
+
+00:01:21.000 --> 00:01:25.000
+ So yeah, we're talking about things that may go boom
+
+00:01:25.000 --> 00:01:31.000
+ and it's exciting times and everyone that's following also what's happening with SpaceX
+
+00:01:31.000 --> 00:01:38.000
+ but also the greater space theme is quite excited what's happening right now.
+
+00:01:38.000 --> 00:01:40.000
+ Really interesting times.
+
+00:01:40.000 --> 00:01:43.000
+ So what's my motivation for being here?
+
+00:01:43.000 --> 00:01:50.000
+ So I have long time contacts with CCC even though I'm not a member,
+
+00:01:50.000 --> 00:01:55.000
+ even though the Burger House, I'm Spittel, no, Eidelstedt.
+
+00:01:55.000 --> 00:02:01.000
+ So long time ago, so I know a bit what I'm doing.
+
+00:02:01.000 --> 00:02:10.000
+ But what took me here is that I did some testing, part of my job for a client,
+
+00:02:10.000 --> 00:02:15.000
+ and I looked at how does this thing perform?
+
+00:02:15.000 --> 00:02:18.000
+ How does a Starlink work when it's in motion?
+
+00:02:18.000 --> 00:02:26.000
+ And yes, we even have Autobahn that look like railways.
+
+00:02:26.000 --> 00:02:32.000
+ So you may draw your own conclusions what that means.
+
+00:02:32.000 --> 00:02:38.000
+ So I filled my car, had a Starlink mounted to it,
+
+00:02:38.000 --> 00:02:45.000
+ and looked at how can we quantify what's going on, especially when that thing is in motion.
+
+00:02:45.000 --> 00:02:53.000
+ So basic setup, took the data there, measured power, put that in a time series database,
+
+00:02:53.000 --> 00:02:55.000
+ graphed it a little.
+
+00:02:55.000 --> 00:03:02.000
+ So nothing super strange and serious, but the outcome was quite interesting.
+
+00:03:02.000 --> 00:03:11.000
+ So just as an example, I saw that the performance of that thing was surprisingly good.
+
+00:03:11.000 --> 00:03:17.000
+ So the ping performance when you're driving at German Autobahn speed,
+
+00:03:17.000 --> 00:03:22.000
+ even when this overhead power line is moving over that thing,
+
+00:03:22.000 --> 00:03:28.000
+ is really good and very often beats what's happening in the mobile world.
+
+00:03:28.000 --> 00:03:34.000
+ So you can see throughput, and this is not an advertisement section,
+
+00:03:34.000 --> 00:03:40.000
+ it's more like my personal experience, what really draw my attention to it.
+
+00:03:40.000 --> 00:03:45.000
+ So this was more casual test that I can talk about.
+
+00:03:45.000 --> 00:03:54.000
+ So 280 megabits down, 50 plus megabits up, and very nice latency figures.
+
+00:03:54.000 --> 00:03:58.000
+ Power was not something that you would be concerned of,
+
+00:03:58.000 --> 00:04:05.000
+ so this is the high power antenna setup, the consumer thing is more or less equal,
+
+00:04:05.000 --> 00:04:07.000
+ but works really nice.
+
+00:04:07.000 --> 00:04:17.000
+ So after all, it draws little power, it has high performance, and ping is super cool.
+
+00:04:17.000 --> 00:04:23.000
+ I see ping rates of like 30 to 60 milliseconds,
+
+00:04:23.000 --> 00:04:29.000
+ which is a very good performance even in a mobile network setting.
+
+00:04:29.000 --> 00:04:36.000
+ So wow, how does that work? Why does it work? And what makes it so amazing?
+
+00:04:36.000 --> 00:04:42.000
+ So just from a technology perspective, I tried to condense it a little bit.
+
+00:04:42.000 --> 00:04:48.000
+ What do we want to have? We want to have a user terminal and a ground terminal,
+
+00:04:48.000 --> 00:04:53.000
+ and there's one or multiple satellites flying above in the skies,
+
+00:04:53.000 --> 00:04:56.000
+ and somehow this gets connected to the Internet.
+
+00:04:56.000 --> 00:05:02.000
+ So easy peasy, nothing super complex, obviously behind the scenes,
+
+00:05:02.000 --> 00:05:06.000
+ there's a lot of stuff happening.
+
+00:05:06.000 --> 00:05:13.000
+ But also we see now that these mega constellations are popping up,
+
+00:05:13.000 --> 00:05:17.000
+ and every couple of weeks we hear a new announcement
+
+00:05:17.000 --> 00:05:24.000
+ with even bigger numbers of how many satellites we're expecting to see.
+
+00:05:24.000 --> 00:05:27.000
+ So the world is changing here.
+
+00:05:27.000 --> 00:05:34.000
+ In previous times we had the Iridium, the VSSAT, and also SAS as players
+
+00:05:34.000 --> 00:05:38.000
+ that were mostly working from geostationary orbit,
+
+00:05:38.000 --> 00:05:43.000
+ and now we have these LEO low earth orbit constellations,
+
+00:05:43.000 --> 00:05:49.000
+ like Starlink, Amazon, Project Kuiper is about to come,
+
+00:05:49.000 --> 00:05:52.000
+ OneWeb is also up and running by now.
+
+00:05:52.000 --> 00:05:59.000
+ So we see a lot of players that are already there and there's much more to come.
+
+00:05:59.000 --> 00:06:04.000
+ And the benefit of what's happening there is they're flying really low.
+
+00:06:04.000 --> 00:06:09.000
+ So low earth orbit is anything up to 2,000 kilometers in height,
+
+00:06:09.000 --> 00:06:14.000
+ whereas geostationary is like 35,000 kilometers.
+
+00:06:14.000 --> 00:06:20.000
+ And you can really see the difference when you look at the calculated ping times
+
+00:06:20.000 --> 00:06:25.000
+ or round trip times for a signal when you take into account speed of light.
+
+00:06:25.000 --> 00:06:31.000
+ So something in the 3 to 4 milliseconds for the orbits that Starlink is using,
+
+00:06:31.000 --> 00:06:37.000
+ 8 milliseconds for what OneWeb is using, O3b is like 53 milliseconds,
+
+00:06:37.000 --> 00:06:43.000
+ all that is really, it feels like you're using a proper network more or less.
+
+00:06:43.000 --> 00:06:50.000
+ Whereas in previous times the geostationary players had these 250, 240 milliseconds,
+
+00:06:50.000 --> 00:06:55.000
+ and that's just the time it takes the signal to travel back and forth.
+
+00:06:55.000 --> 00:07:00.000
+ The real problem also on top of that is what's the network infrastructure
+
+00:07:00.000 --> 00:07:06.000
+ and is it just a bent pipe on the satellite that is just downlinking the signal
+
+00:07:06.000 --> 00:07:12.000
+ that is being sent to him or is it networking equipment that's somewhere up in the air.
+
+00:07:12.000 --> 00:07:15.000
+ So all that adds latency.
+
+00:07:15.000 --> 00:07:22.000
+ So just to give you a perspective on how this thing works mechanically,
+
+00:07:22.000 --> 00:07:25.000
+ there's Newton's cannonball.
+
+00:07:25.000 --> 00:07:30.000
+ So how do you put a satellite into orbit?
+
+00:07:30.000 --> 00:07:35.000
+ First you need to launch it up there, but then it needs to be really fast.
+
+00:07:35.000 --> 00:07:40.000
+ So it tries to drop down to earth and the speed of it needs to be higher,
+
+00:07:40.000 --> 00:07:45.000
+ so it always misses earth when it drops.
+
+00:07:45.000 --> 00:07:53.000
+ And so that's what we're aiming for is a radial orbit that nicely circles the earth there.
+
+00:07:53.000 --> 00:07:59.000
+ And the problem you will find there is it's moving quite quickly.
+
+00:07:59.000 --> 00:08:07.000
+ So 7,600 meters per second, that's quite quick.
+
+00:08:07.000 --> 00:08:11.000
+ And that brings the next challenge.
+
+00:08:11.000 --> 00:08:15.000
+ So you see the earth and you see the antennas
+
+00:08:15.000 --> 00:08:25.000
+ and the new generation of low earth orbit constellations tends to use flat panel antennas.
+
+00:08:25.000 --> 00:08:31.000
+ These are really marvels of radio design and can really do wonders
+
+00:08:31.000 --> 00:08:38.000
+ and be it patch antennas or Lundenberg lenses and whatever is happening there.
+
+00:08:38.000 --> 00:08:41.000
+ Lots of development going on in that area.
+
+00:08:41.000 --> 00:08:47.000
+ And the aim is to really drive down costs and to make it more or less a consumer device.
+
+00:08:47.000 --> 00:08:53.000
+ But these antennas have a field of view and depending what technology,
+
+00:08:53.000 --> 00:08:57.000
+ more or less it's 110 or 140 degrees give or take.
+
+00:08:57.000 --> 00:09:04.000
+ So that's a fixed angle and when you're looking up to the sky, the satellite passes over you
+
+00:09:04.000 --> 00:09:13.000
+ and you only have a small time window of like 160, maybe 240 seconds depending on the orbit
+
+00:09:13.000 --> 00:09:16.000
+ where you can see what's happening.
+
+00:09:16.000 --> 00:09:20.000
+ So anything above the horizon is not of interest to you.
+
+00:09:20.000 --> 00:09:25.000
+ You don't want to use that because there's more attenuation
+
+00:09:25.000 --> 00:09:32.000
+ and also the antennas have some limits on how fast they can steal the beam electronically.
+
+00:09:32.000 --> 00:09:42.000
+ So clever calculations going on there and depending on the orbit, how high you fly,
+
+00:09:42.000 --> 00:09:45.000
+ it more or less tells you how many satellites you need.
+
+00:09:45.000 --> 00:09:51.000
+ So you end up making your calculations, how do I build a constellation?
+
+00:09:51.000 --> 00:09:58.000
+ And you come up with quite exciting numbers depending on what your orbit is,
+
+00:09:58.000 --> 00:10:02.000
+ what your business model is, what kind of customers you're serving.
+
+00:10:02.000 --> 00:10:14.000
+ So you tend to build a Walker Delta constellation where you space the separate shells around the globe
+
+00:10:14.000 --> 00:10:20.000
+ and they fly around the globe and you define more or less when you're designing that
+
+00:10:20.000 --> 00:10:24.000
+ how many segments are flying at the same time.
+
+00:10:24.000 --> 00:10:34.000
+ And you can also have them fly over the polar region if your customers are up into Arctic and Antarctic business,
+
+00:10:34.000 --> 00:10:41.000
+ whatever that is, and you can also stagger them and that becomes of interest, for example,
+
+00:10:41.000 --> 00:10:45.000
+ when you want to communicate between your satellites.
+
+00:10:45.000 --> 00:10:47.000
+ We come later to that.
+
+00:10:47.000 --> 00:10:56.000
+ So that's the key factor for dimensioning your minimum viable constellation.
+
+00:10:56.000 --> 00:11:01.000
+ The next factor that adds on to that is what business do you expect?
+
+00:11:01.000 --> 00:11:06.000
+ So what bandwidth do you have? Where do you expect your customers to be?
+
+00:11:06.000 --> 00:11:10.000
+ How big will be your cells that you're serving?
+
+00:11:10.000 --> 00:11:14.000
+ And that also comes down to where are your customers?
+
+00:11:14.000 --> 00:11:19.000
+ So you design your network also where the customers are.
+
+00:11:19.000 --> 00:11:27.000
+ So you want to have pops that exfiltrate the user traffic to the Internet,
+
+00:11:27.000 --> 00:11:31.000
+ but also you want to have gateways that are more or less close to the customer
+
+00:11:31.000 --> 00:11:40.000
+ so that the distance of travel for the signal can be optimized.
+
+00:11:40.000 --> 00:11:42.000
+ And there is lots of thinking.
+
+00:11:42.000 --> 00:11:47.000
+ For example, in Germany currently we have two gateway stations,
+
+00:11:47.000 --> 00:11:55.000
+ whereas in the US where there seems to be more customers for Starlink, there are many more stations.
+
+00:11:55.000 --> 00:12:01.000
+ What you also can do is to route the traffic between satellites,
+
+00:12:01.000 --> 00:12:08.000
+ and that becomes very interesting and useful when you're, for example, serving the marine industry.
+
+00:12:08.000 --> 00:12:13.000
+ I recently spoke to a guy that's working with oil platforms, and he said,
+
+00:12:13.000 --> 00:12:22.000
+ "Wow, Leo is just a godsend for me. I've been really ripped off for nothing, like two megabits,
+
+00:12:22.000 --> 00:12:28.000
+ and always could saturate that link, and now we can really do remote management.
+
+00:12:28.000 --> 00:12:37.000
+ We can do even a Teams call from our oil rig, and for costs that's next to nothing compared to what they paid in previous times."
+
+00:12:37.000 --> 00:12:40.000
+ So how do you reach these remote areas?
+
+00:12:40.000 --> 00:12:48.000
+ You just hand over to hop via the satellites that are orbiting in Earth.
+
+00:12:48.000 --> 00:12:55.000
+ So it's just another opportunity to have a network mesh flying above our heads.
+
+00:12:55.000 --> 00:13:00.000
+ So when you launch a satellite, what happens?
+
+00:13:00.000 --> 00:13:02.000
+ First of all, you shoot them up.
+
+00:13:02.000 --> 00:13:11.000
+ Probably many have watched these SpaceX or whatever videos, and then the satellite gets released.
+
+00:13:11.000 --> 00:13:14.000
+ And that's not the final orbit, usually.
+
+00:13:14.000 --> 00:13:23.000
+ They are staged there, and then they are checked if they work, and then they are raised in the orbit.
+
+00:13:23.000 --> 00:13:27.000
+ And remember the picture we saw about these orbital shells?
+
+00:13:27.000 --> 00:13:31.000
+ So every satellite has a pre-assigned space where it needs to end up.
+
+00:13:31.000 --> 00:13:39.000
+ So you need to get the timing right to raise the satellites, and you see that this tends to work.
+
+00:13:39.000 --> 00:13:49.000
+ For example, in this case, the famous Johnston McDowell is the data pope for anything satellite-related.
+
+00:13:49.000 --> 00:13:58.000
+ He's creating all these cool graphs, so definitely needs that mentioning here.
+
+00:13:58.000 --> 00:14:03.000
+ But what also can happen is that the satellites do not reach their orbit.
+
+00:14:03.000 --> 00:14:11.000
+ In the left part of the scale, you see lots of satellites dropping out.
+
+00:14:11.000 --> 00:14:13.000
+ So what happened? We had a sun storm.
+
+00:14:13.000 --> 00:14:21.000
+ So the solar activity warmed up the Earth atmosphere, which resulted in additional drag.
+
+00:14:21.000 --> 00:14:25.000
+ So the atmosphere expanded, and the satellites got slower and slower.
+
+00:14:25.000 --> 00:14:29.000
+ You remember Newton's cannon. That didn't work out well.
+
+00:14:29.000 --> 00:14:37.000
+ So many just returned to Earth before they could be placed in the destination orbit.
+
+00:14:37.000 --> 00:14:45.000
+ Tough luck, but when you're dealing with large numbers, that's something that just happens.
+
+00:14:45.000 --> 00:14:54.000
+ But also when you're putting new technology into the game, just recently SpaceX launched a new version,
+
+00:14:54.000 --> 00:15:02.000
+ the V2 Mini, and that cohort also had some issues that needed to be resolved.
+
+00:15:02.000 --> 00:15:07.000
+ So some of them were raised, and then they were lowering their orbit.
+
+00:15:07.000 --> 00:15:16.000
+ Some were already deorbiting, and some probably could fix their issues, and then they reached orbit.
+
+00:15:16.000 --> 00:15:20.000
+ But that batch didn't look too well.
+
+00:15:20.000 --> 00:15:25.000
+ But usually, if you look at it, it's more a mixed bag.
+
+00:15:25.000 --> 00:15:37.000
+ Some make it, some don't make it, and you see that the numbers, it's in the lower 1% range that doesn't really make it.
+
+00:15:37.000 --> 00:15:43.000
+ So overall, in the bigger scheme of things, it's not such a tough loss.
+
+00:15:43.000 --> 00:15:50.000
+ You also see the difference between, for example, Starlink and OneWeb.
+
+00:15:50.000 --> 00:15:58.000
+ Where Starlink seems to be also very much focused on consumer business,
+
+00:15:58.000 --> 00:16:09.000
+ OneWeb seems to be more focused on a reseller B2B business, and also has a lower density of satellites there.
+
+00:16:09.000 --> 00:16:14.000
+ But that also tells you about what's the maximum throughput of the total constellation,
+
+00:16:14.000 --> 00:16:21.000
+ or the maximum throughput you can get when many consumers subscribe in a certain area to that service.
+
+00:16:21.000 --> 00:16:25.000
+ So lots of arbitrage happening here.
+
+00:16:25.000 --> 00:16:29.000
+ And another thing is service availability.
+
+00:16:29.000 --> 00:16:37.000
+ You need to liaise with every regulator in every market, every country you want to serve,
+
+00:16:37.000 --> 00:16:41.000
+ because they want to have their say.
+
+00:16:41.000 --> 00:16:46.000
+ You're not generating subscribers.
+
+00:16:46.000 --> 00:16:57.000
+ So probably some have heard about the Iran story that SpaceX was asked to allow people to use it in Iran,
+
+00:16:57.000 --> 00:16:59.000
+ even though it's not being sold in Iran.
+
+00:16:59.000 --> 00:17:08.000
+ What's happening is, well, the Emirates and other places seem to be interesting places to ship stuff in that area.
+
+00:17:08.000 --> 00:17:16.000
+ But slowly it's growing, and just in the last two weeks, I guess, Malaysia was at it.
+
+00:17:16.000 --> 00:17:20.000
+ So it's all moving quite swiftly.
+
+00:17:20.000 --> 00:17:25.000
+ And even right now, if you look at the satellite tracker sites,
+
+00:17:25.000 --> 00:17:34.000
+ usually you see like 10, 12, 15 even satellites that have a line of sight between you and the gateway.
+
+00:17:34.000 --> 00:17:40.000
+ So for the terminal you're having, it has a lot of choice which satellite to talk to.
+
+00:17:40.000 --> 00:17:45.000
+ And it's not a given that always the shortest path is used.
+
+00:17:45.000 --> 00:17:54.000
+ So there's lots of scheduling and algorithms working there just to, from a constellation perspective,
+
+00:17:54.000 --> 00:17:59.000
+ manage the traffic as best as possible.
+
+00:17:59.000 --> 00:18:08.000
+ And the satellites also move, and they also can avoid, for example, running into other satellites.
+
+00:18:08.000 --> 00:18:10.000
+ So how do you get that data?
+
+00:18:10.000 --> 00:18:14.000
+ And there's some cool companies out there like Leo Labs,
+
+00:18:14.000 --> 00:18:20.000
+ and they basically used something that was used in science for ionospheric science radars.
+
+00:18:20.000 --> 00:18:23.000
+ They were tracking satellites.
+
+00:18:23.000 --> 00:18:30.000
+ Because they needed to more or less subtract that information
+
+00:18:30.000 --> 00:18:35.000
+ and found out that the subtraction was more of a business.
+
+00:18:35.000 --> 00:18:43.000
+ So there's a lot of data providers that tell you where at any given point in time a satellite is
+
+00:18:43.000 --> 00:18:47.000
+ and what the trajectory of that satellite will be.
+
+00:18:47.000 --> 00:18:53.000
+ So you can forecast over time is there the risk of a conjunction.
+
+00:18:53.000 --> 00:18:58.000
+ And then you need to move your satellite, and hopefully you get enough fuel left over
+
+00:18:58.000 --> 00:19:08.000
+ so you can replace it, move it upwards, downwards, just to avoid any traffic collisions.
+
+00:19:08.000 --> 00:19:16.000
+ Which is not something you want to have happening because that very quickly has the chance to spoil your whole orbit.
+
+00:19:16.000 --> 00:19:25.000
+ So what's the key advances that are happening?
+
+00:19:25.000 --> 00:19:33.000
+ Again, this is not a SpaceX sales show, but certainly these guys moved the needle quite significantly,
+
+00:19:33.000 --> 00:19:39.000
+ both with their Falcon 9 and potentially with their Starship.
+
+00:19:39.000 --> 00:19:47.000
+ So the reusability and the launch cadence that they can launch, even multiple flights per week,
+
+00:19:47.000 --> 00:19:51.000
+ is truly impressive, and that has not happened before.
+
+00:19:51.000 --> 00:19:55.000
+ And that's really what is the game changer in all of this.
+
+00:19:55.000 --> 00:20:01.000
+ And if you look at the cost to orbit, that's a key indicator,
+
+00:20:01.000 --> 00:20:07.000
+ how much it costs to send one kilogram into low Earth orbit.
+
+00:20:07.000 --> 00:20:15.000
+ You see that more or less the cost to orbit has remained the same,
+
+00:20:15.000 --> 00:20:21.000
+ give or take $10,000 or $12,000 per kilogram.
+
+00:20:21.000 --> 00:20:27.000
+ And you can have serious and long discussions about the validity of this data, trust me.
+
+00:20:27.000 --> 00:20:32.000
+ You don't want to really dig down deep into this.
+
+00:20:32.000 --> 00:20:39.000
+ You come into discussions that maybe even reusability doesn't work and raises costs, whatever.
+
+00:20:39.000 --> 00:20:45.000
+ But just as a key indicator for the calculation,
+
+00:20:45.000 --> 00:20:51.000
+ it's how much does it cost me to send one kilogram up to orbit and also for a given size.
+
+00:20:51.000 --> 00:20:57.000
+ So we're not talking about these small cube sets, but solid piece of kit,
+
+00:20:57.000 --> 00:21:03.000
+ not like a geostationary one that's tons, but hundreds of kilograms.
+
+00:21:03.000 --> 00:21:09.000
+ And over time, if you highlight that,
+
+00:21:09.000 --> 00:21:20.000
+ these guys are really rocking the boat by lowering or saying they will be able to lower costs by orders of magnitude.
+
+00:21:20.000 --> 00:21:26.000
+ I don't know how this plays out. We all know these Elon Musk announcements.
+
+00:21:26.000 --> 00:21:33.000
+ But if that becomes true, that really changes the game for anything happening in space.
+
+00:21:33.000 --> 00:21:39.000
+ And that's what's really, really impressive right now.
+
+00:21:39.000 --> 00:21:44.000
+ In the meantime, there's quite some supply gap in the market
+
+00:21:44.000 --> 00:21:51.000
+ because there's lots of constellations trying to get their stuff up in the air,
+
+00:21:51.000 --> 00:22:00.000
+ hundreds and thousands of satellites and also Russia not being able to launch currently.
+
+00:22:00.000 --> 00:22:07.000
+ So there is a supply gap. And even worse, if you have a constellation,
+
+00:22:07.000 --> 00:22:11.000
+ the key limiting factor is the frequencies you use there.
+
+00:22:11.000 --> 00:22:18.000
+ And you had to apply for these and the licenses usually say you need to be able to demonstrate
+
+00:22:18.000 --> 00:22:24.000
+ that you have like 50% of your constellation up and running and are using these frequencies.
+
+00:22:24.000 --> 00:22:33.000
+ However, there's a supply gap right now and many players in the market are currently battling with that.
+
+00:22:33.000 --> 00:22:41.000
+ So very interesting times and some extensions are being granted right now.
+
+00:22:41.000 --> 00:22:56.000
+ And certainly there is someone who can profit from that.
+
+00:22:56.000 --> 00:23:04.000
+ If you look at the absolute figures of how many large objects were being put into space,
+
+00:23:04.000 --> 00:23:12.000
+ that's from end of last year, you really see that there has been an explosion.
+
+00:23:12.000 --> 00:23:19.000
+ And the growth rate has just never happened before in history.
+
+00:23:19.000 --> 00:23:27.000
+ So these mega constellations really change also the demand on the space launch site.
+
+00:23:27.000 --> 00:23:35.000
+ And at least until the end of last year, the dominant player was not one web.
+
+00:23:35.000 --> 00:23:40.000
+ And customers seem to like that. So there's good growth.
+
+00:23:40.000 --> 00:23:46.000
+ Well, 1.5 million Starlink subscribers in the biggest scheme of things.
+
+00:23:46.000 --> 00:23:50.000
+ That's not something that really moves the needle when you're working in telco.
+
+00:23:50.000 --> 00:23:56.000
+ But anyhow, that's strong growth that's happening right now.
+
+00:23:56.000 --> 00:24:01.000
+ And that's also being shown in the valuation.
+
+00:24:01.000 --> 00:24:04.000
+ Don't want to go deep into that one.
+
+00:24:04.000 --> 00:24:09.000
+ It's really crazy what's happening there. A company that's worth 150 billion.
+
+00:24:09.000 --> 00:24:19.000
+ And the key value driver for that is not the rocket business of SpaceX, but also certainly the Starlink business.
+
+00:24:19.000 --> 00:24:22.000
+ But there's others there. So just to give you an image,
+
+00:24:22.000 --> 00:24:28.000
+ Amazon will probably end of this year, early next year, demonstrate their service.
+
+00:24:28.000 --> 00:24:31.000
+ And what they showed as terminals looks really nice.
+
+00:24:31.000 --> 00:24:36.000
+ And if you look at the size of it, the small one, that's really neat.
+
+00:24:36.000 --> 00:24:43.000
+ You can put it next to your coffee mug and feel cozy somewhere out in the woods.
+
+00:24:43.000 --> 00:24:48.000
+ But there's also other ones that are more geared towards business uses.
+
+00:24:48.000 --> 00:24:52.000
+ For example, what one web you ordered from Hughes.
+
+00:24:52.000 --> 00:24:56.000
+ So there's lots of stuff happening and also on the terminal side.
+
+00:24:56.000 --> 00:25:01.000
+ So expect terminals, the antennas to become much smaller, much more lightweight.
+
+00:25:01.000 --> 00:25:04.000
+ Also power consumption will go down.
+
+00:25:04.000 --> 00:25:09.000
+ There's serious development happening right there.
+
+00:25:09.000 --> 00:25:13.000
+ But certainly that has some security implications.
+
+00:25:13.000 --> 00:25:21.000
+ And you might have heard about the VSAT hack that happened on the first day when Ukraine was attacked.
+
+00:25:21.000 --> 00:25:24.000
+ You saw the traffic dropping there.
+
+00:25:24.000 --> 00:25:37.000
+ And what happened there was that some malware was used and that they access VSAT.
+
+00:25:37.000 --> 00:25:45.000
+ They were, as they state, poorly configured VPN and then were able to move into the network
+
+00:25:45.000 --> 00:25:53.000
+ and the management network and then into the part that's able to control the software downloads.
+
+00:25:53.000 --> 00:25:57.000
+ And unfortunately, there was some collateral damage.
+
+00:25:57.000 --> 00:26:06.000
+ So like 11 gigawatts in wind turbines were left without being controllable
+
+00:26:06.000 --> 00:26:08.000
+ because they were using VSAT.
+
+00:26:08.000 --> 00:26:10.000
+ So that's a bit unfortunate.
+
+00:26:10.000 --> 00:26:16.000
+ And there may be reasons why you want to be able to control that.
+
+00:26:16.000 --> 00:26:22.000
+ So you see things are happening and that's government actors here.
+
+00:26:22.000 --> 00:26:29.000
+ And yes, if you read what's really being talked there,
+
+00:26:29.000 --> 00:26:34.000
+ there might have been some 14 VPN appliances involved.
+
+00:26:34.000 --> 00:26:44.000
+ And the question is, was that patched and has anybody learned from previous attacks on these devices?
+
+00:26:44.000 --> 00:26:48.000
+ Usual security practice should be applied there.
+
+00:26:48.000 --> 00:26:55.000
+ And yes, there's more moving targets in there like ground station operators.
+
+00:26:55.000 --> 00:26:59.000
+ Some are controlling everything in their value chain.
+
+00:26:59.000 --> 00:27:06.000
+ Others are using existing players in that market, also like distributors, resellers,
+
+00:27:06.000 --> 00:27:10.000
+ and everyone needs to have access to parts of the network.
+
+00:27:10.000 --> 00:27:14.000
+ Another one happening recently was Dozor Teleport.
+
+00:27:14.000 --> 00:27:19.000
+ That's a Russian provider that works for the military.
+
+00:27:19.000 --> 00:27:26.000
+ And that was attacked a couple of days ago.
+
+00:27:26.000 --> 00:27:37.000
+ And there was data exfiltrated and not such a long time it was off if you look at the data.
+
+00:27:37.000 --> 00:27:46.000
+ But what was exfiltrated, believe it or not, because it was attributed to Wagner,
+
+00:27:46.000 --> 00:27:53.000
+ but some would say that that should be taken with more than a grain of salt.
+
+00:27:53.000 --> 00:27:59.000
+ Some basic infrastructure how a satellite provider works.
+
+00:27:59.000 --> 00:28:05.000
+ So lots of interesting data out there if you fancy looking into that.
+
+00:28:05.000 --> 00:28:10.000
+ There's also official hackathons going on.
+
+00:28:10.000 --> 00:28:19.000
+ So Hackaset just happened and also ESA did some hack size with Thales.
+
+00:28:19.000 --> 00:28:22.000
+ That was very interesting to watch what happened there.
+
+00:28:22.000 --> 00:28:32.000
+ They provided a dummy satellite, a real satellite, and Hackaset also used a real satellite this time.
+
+00:28:32.000 --> 00:28:36.000
+ So there was an exercise being done.
+
+00:28:36.000 --> 00:28:38.000
+ How can you hack a satellite?
+
+00:28:38.000 --> 00:28:45.000
+ And even though that is a platform where you can more or less register your payload
+
+00:28:45.000 --> 00:28:51.000
+ that gets uploaded and executed, you can download the pictures, whatever,
+
+00:28:51.000 --> 00:28:54.000
+ you can gain control if you know how.
+
+00:28:54.000 --> 00:29:01.000
+ And the intrusion more or less persisted, the threat there.
+
+00:29:01.000 --> 00:29:07.000
+ And so that would have been some uncontrolled environment.
+
+00:29:07.000 --> 00:29:11.000
+ This was all friendly work that was done.
+
+00:29:11.000 --> 00:29:14.000
+ That's not so nice to have happening.
+
+00:29:14.000 --> 00:29:16.000
+ But that's nothing new.
+
+00:29:16.000 --> 00:29:22.000
+ There's lots of stories on how satellites were hacked over the years.
+
+00:29:22.000 --> 00:29:30.000
+ And even satellites were brought down and crashed back to Earth.
+
+00:29:30.000 --> 00:29:32.000
+ So what do you do?
+
+00:29:32.000 --> 00:29:35.000
+ First of all, don't trust the network.
+
+00:29:35.000 --> 00:29:39.000
+ It may be compromised as any other network.
+
+00:29:39.000 --> 00:29:42.000
+ And certainly do not assume availability.
+
+00:29:42.000 --> 00:29:50.000
+ For example, if you're running wind turbines and always also use encryption if you're doing that.
+
+00:29:50.000 --> 00:29:55.000
+ And maybe even look if the network looks trustworthy for you over time,
+
+00:29:55.000 --> 00:29:59.000
+ like some crazy BGP stuff happening.
+
+00:29:59.000 --> 00:30:06.000
+ But from a hacker's perspective, this is not a new thing.
+
+00:30:06.000 --> 00:30:18.000
+ You may remember Captain Midnight that was jamming the cable TV signal back in the US.
+
+00:30:18.000 --> 00:30:28.000
+ Or Max Hatroom where some guy broadcasts signals up to the satellite that was distributing.
+
+00:30:28.000 --> 00:30:41.000
+ And not that long ago, in the Czech Republic, you remember these TV channels where a camera is panning over nice landscapes.
+
+00:30:41.000 --> 00:30:44.000
+ So that should stimulate tourism.
+
+00:30:44.000 --> 00:30:52.000
+ Some folks changed that and also showed some nuclear explosion in that imagery.
+
+00:30:52.000 --> 00:30:56.000
+ So that raised an eyebrow or two.
+
+00:30:56.000 --> 00:31:01.000
+ But I mentioned that earlier, there's lots of attack vectors here.
+
+00:31:01.000 --> 00:31:07.000
+ So there's the end user devices, the router, the antenna that's being used.
+
+00:31:07.000 --> 00:31:11.000
+ And that's all in the hands of many, many, many people.
+
+00:31:11.000 --> 00:31:14.000
+ So security researchers as well.
+
+00:31:14.000 --> 00:31:19.000
+ But you can also have a look at all the internal structure.
+
+00:31:19.000 --> 00:31:28.000
+ We talked about the command and control that's necessary to keep the constellation at work,
+
+00:31:28.000 --> 00:31:33.000
+ the collision avoidance that's happening there.
+
+00:31:33.000 --> 00:31:38.000
+ So that's absolutely critical and of highest importance to keep alive.
+
+00:31:38.000 --> 00:31:53.000
+ But there's lots of other customer facing systems like billing or websites that allow for interesting work.
+
+00:31:53.000 --> 00:31:56.000
+ What I want to convey is the message.
+
+00:31:56.000 --> 00:32:02.000
+ There's lots and lots of moving wheels in this whole thing.
+
+00:32:02.000 --> 00:32:04.000
+ It's a highly complex thing.
+
+00:32:04.000 --> 00:32:09.000
+ And I'm even tending to compare it to what's happening in a mobile network.
+
+00:32:09.000 --> 00:32:11.000
+ It's really super complex.
+
+00:32:11.000 --> 00:32:16.000
+ And you can even look at physical avenues of making contact.
+
+00:32:16.000 --> 00:32:19.000
+ And I don't know if you can see that.
+
+00:32:19.000 --> 00:32:22.000
+ That's not a James Bond movie.
+
+00:32:22.000 --> 00:32:29.000
+ That's a mission that's due to happen in the not too distant future by ESA.
+
+00:32:29.000 --> 00:32:31.000
+ That's going to capture a satellite.
+
+00:32:31.000 --> 00:32:41.000
+ And you will see many more players in that field that, for example, will be refueling satellites or repositioning satellites.
+
+00:32:41.000 --> 00:32:48.000
+ So there's interesting stuff happening in that arena.
+
+00:32:48.000 --> 00:32:57.000
+ But you can also be more down to earth and just use open source intelligence.
+
+00:32:57.000 --> 00:33:04.000
+ When a player is, for example, applying for licenses with a local council to build a gateway,
+
+00:33:04.000 --> 00:33:14.000
+ they make nice presentations and tell you how these antennas work, how much power is being used.
+
+00:33:14.000 --> 00:33:22.000
+ One of the more interesting pieces of work in the recent time was done by Leonard Wouters at BlackHat.
+
+00:33:22.000 --> 00:33:33.000
+ So he was glitching the older version of the Starlink terminal and more or less achieved full control of that one.
+
+00:33:33.000 --> 00:33:35.000
+ Very nice attack.
+
+00:33:35.000 --> 00:33:46.000
+ And so he was able to get root and be persistent there and also played fairly with Starlink.
+
+00:33:46.000 --> 00:33:52.000
+ And also Starlink moved very swiftly and professionally on that side.
+
+00:33:52.000 --> 00:33:58.000
+ There's this interesting work on reverse engineering the network infrastructure.
+
+00:33:58.000 --> 00:34:11.000
+ So Pan and others are measuring latency and trace routes at scale so they can have a decent information on how this works.
+
+00:34:11.000 --> 00:34:20.000
+ And you can make your inferences on how the network and the back hole backlinks look like.
+
+00:34:20.000 --> 00:34:26.000
+ There's also interesting work happening on how the Starlink scheduler works.
+
+00:34:26.000 --> 00:34:32.000
+ And it turns out that what has been circulating through Reddit and whatever,
+
+00:34:32.000 --> 00:34:45.000
+ there is a 15 second scheduling window in the terminal and every 15 seconds the terminal might pick a new satellite.
+
+00:34:45.000 --> 00:34:50.000
+ And you see this difference in ping situation happening there.
+
+00:34:50.000 --> 00:34:56.000
+ And you see also that different devices or MAC addresses might be treated differently,
+
+00:34:56.000 --> 00:35:00.000
+ possibly in their internal routing happening there.
+
+00:35:00.000 --> 00:35:02.000
+ Interesting work.
+
+00:35:02.000 --> 00:35:07.000
+ Also, for example, which satellites are being preferred?
+
+00:35:07.000 --> 00:35:14.000
+ So they looked at the obstruction maps in the Starlink terminal.
+
+00:35:14.000 --> 00:35:23.000
+ So the terminal maps the trajectory of a satellite to find out if there are any obstructions in its field of vision.
+
+00:35:23.000 --> 00:35:32.000
+ And they found that more or less it tends to use anything with an inclination of 45 to 90 degrees.
+
+00:35:32.000 --> 00:35:35.000
+ There may be variances depending on where the terminal is.
+
+00:35:35.000 --> 00:35:39.000
+ And also, for example, there's an exclusion zone.
+
+00:35:39.000 --> 00:35:48.000
+ You don't want your Starlink to beam into the geostationary orbit because there's some frequency reuse happening there.
+
+00:35:48.000 --> 00:35:55.000
+ Another way of getting information about that providers work by Microsoft,
+
+00:35:55.000 --> 00:36:02.000
+ where they looked at screenshots from speed tests posted on Reddit and also the user sentiment happening there.
+
+00:36:02.000 --> 00:36:12.000
+ So they found out that speed seemed to decrease or latency seemed to increase over time.
+
+00:36:12.000 --> 00:36:17.000
+ And now it's going down as the constellation is expanding.
+
+00:36:17.000 --> 00:36:21.000
+ So there's lots of alternative ways to look at that.
+
+00:36:21.000 --> 00:36:25.000
+ And another one was how to break the service.
+
+00:36:25.000 --> 00:36:37.000
+ There was a way to tell the terminal to be a GPRC to style the antenna and then break the router.
+
+00:36:37.000 --> 00:36:47.000
+ More or less that made it incapable of being without power cycling being used again.
+
+00:36:47.000 --> 00:36:55.000
+ There's a nice SSH console available or not available with a nice greeting.
+
+00:36:55.000 --> 00:37:01.000
+ And there's also bug bounty programs from one web, SpaceX is doing the same.
+
+00:37:01.000 --> 00:37:10.000
+ That also, let's say, that gives inspiration on where to look or hopefully not to look.
+
+00:37:10.000 --> 00:37:16.000
+ And also one web is doing that, so I'm speeding up a little.
+
+00:37:16.000 --> 00:37:20.000
+ Yeah, lots of interesting things happening here.
+
+00:37:20.000 --> 00:37:25.000
+ And there's one more thing.
+
+00:37:25.000 --> 00:37:28.000
+ Mobile is going satellite as well.
+
+00:37:28.000 --> 00:37:34.000
+ You may have heard about T-Mobile cooperating with Starlink.
+
+00:37:34.000 --> 00:37:41.000
+ And there's other players out in that market that will more or less fly base stations over your head.
+
+00:37:41.000 --> 00:37:46.000
+ And that's also happening in the standardization circuit of 3GPP.
+
+00:37:46.000 --> 00:37:52.000
+ That is defining 5G, 6G, 7G over time.
+
+00:37:52.000 --> 00:38:03.000
+ Lots of interesting stuff to happen there because that will provide mobile access pretty much all around the globe.
+
+00:38:03.000 --> 00:38:12.000
+ So complex systems, many angles of attack, lots of uncharted territory.
+
+00:38:12.000 --> 00:38:18.000
+ So this is more an invitation from my point of view to look into this.
+
+00:38:18.000 --> 00:38:23.000
+ Because over time the importance of these mega constellations will be high.
+
+00:38:23.000 --> 00:38:26.000
+ And I expect the services to grow.
+
+00:38:26.000 --> 00:38:38.000
+ And I'd rather have them safe and sound and work well and not being shut down by, for example, military aggressors.
+
+00:38:38.000 --> 00:38:45.000
+ So overall I'm super excited what's going on right now.
+
+00:38:45.000 --> 00:38:49.000
+ Really attractive products coming out.
+
+00:38:49.000 --> 00:38:57.000
+ I would expect that Amazon will be an aggressive and value-driven consumer offer.
+
+00:38:57.000 --> 00:39:01.000
+ Reliability is high. It works.
+
+00:39:01.000 --> 00:39:03.000
+ I'm a happy farmer using that.
+
+00:39:03.000 --> 00:39:07.000
+ And I'm being shown the five minutes sign now.
+
+00:39:07.000 --> 00:39:12.000
+ So I'm opening up for questions now.
+
+00:39:12.000 --> 00:39:22.000
+ [Applause]
+
+00:39:22.000 --> 00:39:26.000
+ So are there any questions?
+
+00:39:26.000 --> 00:39:28.000
+ We have microphones.
+
+00:39:28.000 --> 00:39:33.000
+ If you have a question, wait for the microphone so the stream can also hear you.
+
+00:39:33.000 --> 00:39:38.000
+ Anyone? Yes.
+
+00:39:38.000 --> 00:39:42.000
+ It might be a dummy question. Sorry for that, Aba.
+
+00:39:42.000 --> 00:39:45.000
+ Can you speak up? There's lots of...
+
+00:39:45.000 --> 00:39:58.000
+ I wonder why other satellites have a fixed orbit scope, like the web one is 1000 kilometers, etc.
+
+00:39:58.000 --> 00:40:04.000
+ Aba, the space thing is 350 to 550 kilometers.
+
+00:40:04.000 --> 00:40:14.000
+ So why is that? Why is the difference all the time? Is there any explanation of that?
+
+00:40:14.000 --> 00:40:20.000
+ These are just considerations, I guess, on how much bandwidth you want to provide in your constellation.
+
+00:40:20.000 --> 00:40:30.000
+ And if you fly lower, you more or less can put more satellites in your shells and create less interference between.
+
+00:40:30.000 --> 00:40:36.000
+ He was in the microphone. That was not a question.
+
+00:40:36.000 --> 00:40:46.000
+ So you said it yourself, the economic viability is not yet proven.
+
+00:40:46.000 --> 00:40:55.000
+ So do you see a way that this whole crumbles again when it's not going to be profitable anyway?
+
+00:40:55.000 --> 00:41:02.000
+ It's a big bet. You're asking about the economic viability.
+
+00:41:02.000 --> 00:41:08.000
+ That needs to be proven. People need to buy that service and pay good money for that.
+
+00:41:08.000 --> 00:41:16.000
+ And I expect there will be dropouts in that game. And there already have been dropouts.
+
+00:41:16.000 --> 00:41:22.000
+ And it's a highly competitive space. So I'm not making any bets right now.
+
+00:41:22.000 --> 00:41:31.000
+ However, there seems to be huge confidence from the financial community, at least in some players, that they're investing money there.
+
+00:41:31.000 --> 00:41:37.000
+ So they have maybe found the magic formula there.
+
+00:41:37.000 --> 00:41:41.000
+ And perhaps the last question from the gentleman with the ESA cap.
+
+00:41:41.000 --> 00:41:51.000
+ Just so happens. Yeah, you said that you were using the Starlink user terminals from the moving car at German Autobahn speeds, which can be scary high.
+
+00:41:51.000 --> 00:41:55.000
+ As far as I understand, that's not actually supported.
+
+00:41:55.000 --> 00:42:02.000
+ So did you see any weird effects? Did they detect that you were having too high Doppler speeds and drop you out?
+
+00:42:02.000 --> 00:42:04.000
+ Did you see handover issues, stuff like that?
+
+00:42:04.000 --> 00:42:14.000
+ No, they actually support certain speeds. And there's a moving subscription there.
+
+00:42:14.000 --> 00:42:32.000
+ But they also provide service for planes. So technically, the Doppler speeds of a satellite passing over your head versus the speed I'm running on a German highway is not that big, the delta there.
+
+00:42:32.000 --> 00:42:43.000
+ But certainly they can detect a lot. And I know that in the early days they were not using geofencing, so they were very liberal.
+
+00:42:43.000 --> 00:42:54.000
+ And now they are trying to more or less slice and dice their product portfolio for different use cases, which they have any right to do, even if it may be annoying for me.
+
+00:42:54.000 --> 00:43:01.000
+ But they have a lot of telemetry, I'm pretty sure.
+
+00:43:01.000 --> 00:43:08.000
+ One of the words you most used in your speech was market.
+
+00:43:08.000 --> 00:43:21.000
+ So these marks that really, there was a change from the last century when space was done by governments or international organizations like ESA, and now it's private companies.
+
+00:43:21.000 --> 00:43:40.000
+ So I have three questions. One is, do you think, as these are the same Amazon and Elon Musk, who are already the digital feudalism of five American men defining the rules of our digital communication, will this be reinforced by the satellite thing?
+
+00:43:40.000 --> 00:43:54.000
+ And my second question would be, is there some movement of people who say space should be a common, which is owned by us all and not by private companies?
+
+00:43:54.000 --> 00:44:03.000
+ There is some legal framework there. There's the space treaty. But what's happening right now is not a regulated market.
+
+00:44:03.000 --> 00:44:18.000
+ So it's really a first come first serve. And there's interesting papers, for example, from China, where they look at that highly critical and say, we must be in that game in order to be able to compete.
+
+00:44:18.000 --> 00:44:25.000
+ Otherwise, the orbits will all be polluted by other players, for example.
+
+00:44:25.000 --> 00:44:39.000
+ Regarding the, is it US only? No. China, for example, will bring up a huge constellation. There's a wasp here. You go away, please. Thanks.
+
+00:44:39.000 --> 00:44:54.000
+ There, Europe will have a constellation up and running, Iris 2. However, that will look like. It's up in the air for me, but the tender is out now.
+
+00:44:54.000 --> 00:45:23.000
+ That will be more focused on government and critical infrastructure users, but also to provide benefits, especially for Africa, where satellite Internet certainly has a high net benefit for the local communities, because providing high bandwidth through traditional means in rural places is super costly and therefore not happening in many times.
+
+00:45:23.000 --> 00:45:38.000
+ So I see your point. You need the money to bring the satellites up there. We're talking about billions. And that's where market dynamics kick in. I guess that's the sad truth.
+
+00:45:38.000 --> 00:46:03.000
+ Well, thank you very much. I think it was exceptionally good talk. Very interesting topic. So thank you very much for coming. And we are out of time now because the next talk is also be here in 14 minutes now. And we need some time to change the stage. And thank you very much for coming. And if you have more questions, you can do it privately.
+
+00:46:03.000 --> 00:46:06.000
+ I will be around here for a minute.
+
+00:46:06.000 --> 00:46:11.000
+ Thank you.
+

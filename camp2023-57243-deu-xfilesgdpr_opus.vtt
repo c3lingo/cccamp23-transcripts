@@ -1,0 +1,1043 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+ [Musik]
+
+00:00:29.000 --> 00:00:39.000
+ Hallo, schönen Nachmittag hier auf der NordX-Bühne. Das ist die NURTS der
+
+00:00:39.000 --> 00:00:46.000
+ Oberrheinische Tiefebene und X-Hain auf dem CCC Camp 23. Wir haben einen
+
+00:00:46.000 --> 00:00:56.000
+ wunderschönen tollen Vortrag von Alva Freude und Tobias Kerber.
+
+00:00:56.000 --> 00:01:02.000
+ Ah, es tut mir echt leid. Tobias ist seit 1. Juli der neue Landesdatenschutzbeauftragte
+
+00:01:02.000 --> 00:01:09.000
+ im Baden-Württemberg und Alva arbeitet dort auch und ist Leiter für die Technik.
+
+00:01:09.000 --> 00:01:17.000
+ Und Sie erzählen uns gemeinsam, was die Mythen und Fakten aus fünf Jahren GDPR sind.
+
+00:01:17.000 --> 00:01:23.000
+ So richtig? Ja. Ah, eine Sache noch. Genau, für instream.
+
+00:01:23.000 --> 00:01:33.000
+ Diese Bühne hat einen Hashtag, das heißt #CCCCamp23NordX.
+
+00:01:33.000 --> 00:01:40.000
+ Wenn ihr im Failediverse das benutzt, dann können die Fragen hinterher auch hier vorgelesen werden und beantwortet werden.
+
+00:01:40.000 --> 00:01:46.000
+ Ja, hallo zusammen auch von unserer Seite. Wir starten gleich durch.
+
+00:01:46.000 --> 00:01:53.000
+ Ja, X-Files GDPR, 5 Jahre Best of Mythen. Das ist so ein bisschen die Idee.
+
+00:01:53.000 --> 00:02:00.000
+ Es gibt sehr viele Mythen rund um den Datenschutz, rund um die Datenschutzgrundverordnung oder GDPR.
+
+00:02:00.000 --> 00:02:08.000
+ Und wir haben uns da heute einfach mal so ein paar ausgesucht, zum Teil sehr klassische, aber auch etwas ganz Aktuelle.
+
+00:02:08.000 --> 00:02:12.000
+ Auch Aktuelle und die Weltherrschaft. Die Weltherrschaft, das Tentakel.
+
+00:02:12.000 --> 00:02:16.000
+ Der Datenschutz will die Weltherrschaft vielleicht, aber vielleicht ist das auch ein Mythos.
+
+00:02:16.000 --> 00:02:20.000
+ Vielleicht ist das auch ein Mythos, genau. Deswegen müssen wir uns das Ganze ein bisschen näher angucken.
+
+00:02:20.000 --> 00:02:25.000
+ Ja, was ist eigentlich ein Mythos? Kann man schön differenzieren im Gegensatz zu Logos.
+
+00:02:25.000 --> 00:02:30.000
+ Also ein Mythos behauptet was, was gar nicht stimmt, um es einfach zu sagen.
+
+00:02:30.000 --> 00:02:38.000
+ Und der Gegensatz ist Logos, also das Recht, dass man auf etwas anwenden kann, auf einen bestimmten Fall.
+
+00:02:38.000 --> 00:02:44.000
+ Und das steht also im Gegensatz zu diesem Narrativ. Also der Mythos hat ein Narrativ.
+
+00:02:44.000 --> 00:02:50.000
+ Und das versuchen wir heute gemeinsam da mal ein paar Beispiele uns anzuschauen und zu sagen, stimmt es eigentlich?
+
+00:02:50.000 --> 00:02:54.000
+ Und was sagt das Recht eigentlich dazu, wenn man das Ganze mal drüberlegt?
+
+00:02:54.000 --> 00:03:01.000
+ Also diese X-Files, die werden schon lange gesammelt. Damals, als ich noch aktiv bei "Damals hieß das noch Twitter" war.
+
+00:03:01.000 --> 00:03:07.000
+ Jetzt bin ich da ja nicht mehr aktiv, sondern das Ganze schläft und befülle Mastodon und das Fedi-Fas.
+
+00:03:07.000 --> 00:03:13.000
+ Ja, wir haben damals bei Twitter schon gesammelt, X-Files, GDPR, mit ganz vielen Beispielen.
+
+00:03:13.000 --> 00:03:21.000
+ Gab es einen eigenen Hashtag dazu. Und aus diesem Fundus haben wir heute das ein oder andere mitgebracht.
+
+00:03:21.000 --> 00:03:28.000
+ Das erste, da will ich euch gleich einbinden. Das ist eine sehr schöne Frage, weil sie zuteil rechtlich ist,
+
+00:03:28.000 --> 00:03:32.000
+ zum Teil auch sehr technisch und jeder hat vielleicht dazu eine Idee.
+
+00:03:32.000 --> 00:03:41.000
+ Das war relativ am Anfang, also 2018/2019. Seit 2018 ist die DSGVO unmittelbar anwendbar.
+
+00:03:41.000 --> 00:03:47.000
+ In Kraft ist sie ja schon länger. Und gerade am Anfang gab es da sehr, sehr viel Unkenntnis, Verwirrung.
+
+00:03:47.000 --> 00:03:53.000
+ Und jetzt kommt der Datenschutz, ja, reißt die Weltherrschaft an sich und nichts geht mehr.
+
+00:03:53.000 --> 00:03:59.000
+ So, und da gab es ein schönes Schild, das hing im Foyer einer Bank. So, und das muss ich ein bisschen erklären, wie das Setting war.
+
+00:03:59.000 --> 00:04:06.000
+ Das Setting war Bank, Foyer, und in diesem Foyer gab es ein Geldautomat und einen Kontoauszugsdrucker.
+
+00:04:06.000 --> 00:04:16.000
+ So, und früher gab es neben dem Kontoauszugsdrucker in diesem Foyer, in diesem Vorraum der Bank auch noch einen Mülleimer.
+
+00:04:16.000 --> 00:04:24.000
+ So, und jetzt gab es die DSGVO und den Mülleimer nicht mehr. Und warum gab es den Mülleimer nicht mehr?
+
+00:04:24.000 --> 00:04:31.000
+ Das hat die Bank dann erklärt und die Bank, die sagt jetzt hier, aus Datenschutzgründen ist das zur Verfügung stellen eines Mülleimers nicht gestattet.
+
+00:04:31.000 --> 00:04:36.000
+ Wir bitten nun höflich darum, ihren Müll nicht im Foyer der Bank zu entsorgen.
+
+00:04:36.000 --> 00:04:47.000
+ So, und was dahinter steckt, ist tatsächlich Folgendes. Kann man sich nicht ausdenken, ist aber wohl passiert, Menschen ziehen ihren Kontoauszug, schauen drauf.
+
+00:04:47.000 --> 00:04:48.000
+ Oder auch nicht.
+
+00:04:48.000 --> 00:04:52.000
+ Oder auch nicht. Minus 500 Euro. Und was machen die?
+
+00:04:52.000 --> 00:04:56.000
+ Die nehmen den Kontoauszug und stecken ihn in den Mülleimer, der vorher noch da war.
+
+00:04:56.000 --> 00:05:05.000
+ Und jetzt sagt die Bank, man muss Menschen schützen. Und wir sind, und das ist dann schon die Frage, die man vielleicht dann diskutieren kann,
+
+00:05:05.000 --> 00:05:17.000
+ ist die Bank eigentlich dafür verantwortlich, dass ein Mensch einen Kontoauszug zieht und dann noch in der Bank, in den Papierkorb wirft, der natürlich öffentlich zugänglich ist.
+
+00:05:17.000 --> 00:05:22.000
+ Jeder kann da reingreifen. Das muss man natürlich dazu sagen. Das war jetzt kein "very safe" Mülleimer, wo man da one way geht.
+
+00:05:22.000 --> 00:05:23.000
+ Kein Schredder.
+
+00:05:23.000 --> 00:05:26.000
+ Kein Schredder oder sowas. Das war ein hunsordinärer Papierkorb.
+
+00:05:26.000 --> 00:05:31.000
+ Und jetzt ist an der Stelle die Frage, ist die Bank dafür eigentlich noch verantwortlich?
+
+00:05:31.000 --> 00:05:40.000
+ Denn vielleicht für alle Nerds als Erklärung nach DSGVO richten sich die Vorschriften immer an den sogenannten Verantwortlichen.
+
+00:05:40.000 --> 00:05:50.000
+ Und der Verantwortliche ist nicht irgendwie der Herr Müller aus der IT-Abteilung oder sowas, sondern das Unternehmen, also in diesem Falle die Bank.
+
+00:05:50.000 --> 00:05:56.000
+ Ist also die Bank dafür verantwortlich für den Mülleimer, wenn da jemand was reinwirft?
+
+00:05:56.000 --> 00:06:04.000
+ Ja, ist auch definiert natürlich in der DSGVO, wer der Verantwortliche ist. Das ist irgendjemand, der über die Zwecke und die Mittel der Datenverarbeitung entscheidet.
+
+00:06:04.000 --> 00:06:11.000
+ Und jetzt ist die große und spannende Frage, wenn wir jetzt einen Kunden haben, der das da wegwirft, wer ist der Verantwortliche? Der Kunde oder die Bank?
+
+00:06:11.000 --> 00:06:15.000
+ Ja, wie seht ihr es?
+
+00:06:15.000 --> 00:06:17.000
+ Kunde.
+
+00:06:17.000 --> 00:06:22.000
+ Weil der Typ hat den Zähler in der Hand, der entscheidet, was er damit macht.
+
+00:06:22.000 --> 00:06:26.000
+ Ob er da Papierfliege baut und Mülleimer schmeißt, Anzüge und so weiter.
+
+00:06:26.000 --> 00:06:38.000
+ Genau so ist das. Also es ist der Kunde, der hier den Schwerpunkt hat der Datenverarbeitung. Er entscheidet das, ob er seine Daten preisgibt, indem er das Ding ohne es zu zerreißen einfach in den Papierkorb steckt.
+
+00:06:38.000 --> 00:06:41.000
+ Von daher, das geht mit der Bank gar nicht nach Hause.
+
+00:06:41.000 --> 00:06:46.000
+ Das heißt, man hätte diesen Papierkorb auch stehen lassen können.
+
+00:06:46.000 --> 00:06:48.000
+ Hätte man stehen lassen können, genau.
+
+00:06:48.000 --> 00:06:53.000
+ Außer Sie sagen natürlich, ihr müsst eure Kontauszüge da reinschöpfen, ihr dürft die nicht mit nach Hause nehmen.
+
+00:06:53.000 --> 00:06:58.000
+ Dann hätte ich auch ein Problem mit.
+
+00:06:58.000 --> 00:07:05.000
+ Eine Frage da hinten, einmal Mikro da hinten, sonst hört es der Stream nicht.
+
+00:07:05.000 --> 00:07:10.000
+ Hallo, ist das Leeren des Mülleimers Datenverarbeitung?
+
+00:07:10.000 --> 00:07:32.000
+ Ja, das ist ein guter Punkt. Das Leeren des Mülleimers, der im Foyer steht, da hätte ich wieder grundsätzlich schon, da würde ich sagen, die Bank muss hier technisch organisatorische Maßnahmen, also für den ganzen Mülleimer, die kann das nicht einfach ins Altpapier geben, sondern muss das ganz normal unter den Vorgaben, die es dafür auch technische Natur gibt, wie klein man es schreddern muss und so weiter.
+
+00:07:32.000 --> 00:07:35.000
+ Das würde ich an der Stelle dann schon sagen.
+
+00:07:35.000 --> 00:07:41.000
+ Das Wichtigste ist, wenn regelmäßig darin personenbezogene Daten entsorgt werden.
+
+00:07:41.000 --> 00:07:49.000
+ Wenn jetzt einmal auf der Straße irgendwo ein Mülleimer ist, an dem irgendjemand was Sensibles reinschreibt, dann würde ich jetzt nicht der Stadt die Aufgabe aufbürden.
+
+00:07:49.000 --> 00:07:57.000
+ Aber wenn es häufiger vorkommt, das war wohl tatsächlich so, kann man sich wie gesagt nicht ausdenken.
+
+00:07:57.000 --> 00:08:06.000
+ Der nächste Mythos, wir haben übrigens auch nachher noch einen extra Block für Fragen, also wenn wir jetzt an der Stelle, wir haben nachher noch ein bisschen Zeit, also hoffe ich zumindest, das ist ja alles ein bisschen Augenhalte hier.
+
+00:08:06.000 --> 00:08:11.000
+ Der nächste Mythos, geschützt werden Daten, Datenschutz schützt Daten, könnte man ja sagen.
+
+00:08:11.000 --> 00:08:19.000
+ Das ist so ein Debattenklassiker, da will ich jetzt auch nicht in die Tiefe gehen, aber das ist unter den Datenschützern die Schutzgutdebatte.
+
+00:08:19.000 --> 00:08:29.000
+ Was ist eigentlich Datenschutz? Geht es um Persönlichkeitsrechte? Geht es um Privacy? Ist Privacy dasselbe wie Datenschutz? Und ist natürlich nicht so. Informationelle Selbstbestimmung ist das alles dasselbe.
+
+00:08:29.000 --> 00:08:33.000
+ Wir wollen da jetzt nicht in die dogmatischen Tiefen abtauchen, aber diese Schutzgutdebatte gibt es.
+
+00:08:33.000 --> 00:08:41.000
+ Aber einfach gesagt, geschützt werden nicht Daten, sondern geschützt werden Menschen. Das ist schon mal ein ganz wichtiger Punkt.
+
+00:08:41.000 --> 00:08:49.000
+ Wenn ihr da Interesse habt an der Schutzgutdebatte, da gibt es den Winfried Weil, der sich damit schon sehr lange befasst und schöne Kacheln gebaut hat.
+
+00:08:49.000 --> 00:08:58.000
+ Das kann man jetzt hier schlecht sehen, was alles sozusagen unter dem Datenschutz subsumiert werden kann. Aber da wollen wir jetzt nicht in die dogmatische Tiefe gehen.
+
+00:08:58.000 --> 00:09:01.000
+ Und da kommt jetzt schon das erste etwas technischere Thema.
+
+00:09:01.000 --> 00:09:05.000
+ Jetzt kommt was hin und ich komme jetzt mal in die Kamera. Hallo Stream.
+
+00:09:05.000 --> 00:09:13.000
+ Ja, ganz häufig haben wir immer wieder die Aussage, wir haben hier ein Datum, eine Telefonnummer und die haschen wir.
+
+00:09:13.000 --> 00:09:20.000
+ Und deswegen ist das ein anonymes Datum, weil ich kann ja aus dem Hash nicht mehr die Telefonnummer zurückkriegen.
+
+00:09:20.000 --> 00:09:27.000
+ Was sagt ihr? Stimmt das? Nein? Sagt jemand Ja? Nein, keiner sagt Ja. Ja.
+
+00:09:27.000 --> 00:09:35.000
+ Also hier eine Zeile Quote, die ihr da nicht lesen könnt. Char 256 von der Telefonnummer. Wie lange braucht es zu berechnen?
+
+00:09:35.000 --> 00:09:42.000
+ Ich weiß nicht, wie viele Milliarden Hasches kann man aktuell Char 256 berechnen mit normaler Hardware?
+
+00:09:42.000 --> 00:09:47.000
+ Ich glaube, selbst mit dem Rechner da hinten sind es schon ein paar Milliarden pro Sekunde. Kann man sich ausrechnen, wie viele Telefonnummern haben wir?
+
+00:09:47.000 --> 00:09:54.000
+ Probiere ich alle durch Brutforce, zack, habe ich in einer Sekunde aus dem Hash die Telefonnummer zurückgerechnet.
+
+00:09:54.000 --> 00:10:02.000
+ Also Nö ist natürlich immer noch ein personenbezogenes Datum, wenn ich eine Telefonnummer hasche.
+
+00:10:02.000 --> 00:10:07.000
+ Das gleiche gilt für eine E-Mail Adresse genauso, weil die E-Mail Adresse in der Regel nicht zufällig ausgewürfelt ist,
+
+00:10:07.000 --> 00:10:15.000
+ sondern ich kann mir auch eine Liste von E-Mail Adressen besorgen und die dann entsprechend gegen den Hash prüfen.
+
+00:10:15.000 --> 00:10:22.000
+ Also Hasches sind keine personenbezogenen, keine anonymen Daten. Hasches sind in der Regel immer noch personenbezogene Daten.
+
+00:10:22.000 --> 00:10:30.000
+ Wenn ihr also mal bei eurem Arbeitgeber oder sonst wo auf diese Diskussion stößt und ein juristischer Kollege sagt,
+
+00:10:30.000 --> 00:10:36.000
+ oh wir haben hier einen Trick, da können wir mit den Daten noch irgendwas machen, aber sie sind ja gar nicht ein personenbezogen.
+
+00:10:36.000 --> 00:10:39.000
+ Nö, es sind weiterhin personenbezogene Daten. Da ist eine Frage.
+
+00:10:39.000 --> 00:10:45.000
+ Das wären dann noch pseudonymisierte Daten, oder?
+
+00:10:45.000 --> 00:10:50.000
+ Man könnte sie als pseudonymisierte Daten ansehen. Das kommt ein bisschen sicherlich auch mal auf den Kontext drauf an.
+
+00:10:50.000 --> 00:10:54.000
+ Aber es sind bestenfalls pseudonyme Daten, genau.
+
+00:10:54.000 --> 00:11:05.000
+ Gibt es irgendwie eine Liste, was explizit personenbezogen ist? So was wie Anzahl der Kinder, Einkommen, Bracket?
+
+00:11:05.000 --> 00:11:13.000
+ Da kommen wir nachher noch eine Story dazu. Also grundsätzlich ist alles personenbezogen, was irgendwie auf eine Person
+
+00:11:13.000 --> 00:11:17.000
+ oder teilweise auf eine Gruppe von Personen zurückzuführen, zurückführbar ist.
+
+00:11:17.000 --> 00:11:24.000
+ Es ist gerade ein Papier in der Mache, was genau hier die Abgrenzung zu anonymen noch mal darstellt auf europäischer Ebene.
+
+00:11:24.000 --> 00:11:31.000
+ Im Prinzip kann man das sagen, was in der DSGVO auch in der Werbungsgrund steht, dass tatsächlich alles,
+
+00:11:31.000 --> 00:11:35.000
+ wenn man eine einzelne Person rausgreifen kann, ist es auf jeden Fall ein personenbezogenes Datum.
+
+00:11:35.000 --> 00:11:43.000
+ Also ein zufällig ausgewürfelter Cookie mit einer ID, die irgendjemand von dem hier zugeordnet ist,
+
+00:11:43.000 --> 00:11:49.000
+ aber man nicht weiß, wem ist ein personenbezogenes Datum, weil es einer einzelnen Person zugeordnet ist.
+
+00:11:49.000 --> 00:11:55.000
+ Das ist dann ein Pseudonym. Das ist ein ganz klares Pseudonym, vielleicht ein relativ starkes, wenn die Gruppe groß genug ist,
+
+00:11:55.000 --> 00:11:59.000
+ aber es ist dann immer noch ein personenbezogenes Datum.
+
+00:11:59.000 --> 00:12:02.000
+ Okay, angesichts der Zeit machen wir einfach weiter, oder?
+
+00:12:02.000 --> 00:12:09.000
+ Wir gehen weiter und wir kommen zu fast einem meiner Lieblingsmythen, Datenschutz tötet.
+
+00:12:09.000 --> 00:12:17.000
+ Dieser Mythos, den gibt es in verschiedenen Abwandlungen, entweder so schön Datenschutz tötet, das ist schon, das ist griffig.
+
+00:12:17.000 --> 00:12:24.000
+ Es gibt so ein bisschen weichgespülter Datenschutz behindert die Patientenversorgung, Datenschutz behindert Forschung,
+
+00:12:24.000 --> 00:12:27.000
+ also in unterschiedlichen Ausprägungen kommt das immer wieder vor.
+
+00:12:27.000 --> 00:12:31.000
+ Ja, und da muss man natürlich sehr genau hinschauen, ist da was dran?
+
+00:12:31.000 --> 00:12:42.000
+ Es gab ein sehr schönes Battle, ich weiß nicht, ob man das sieht, das hat unsere Behörden interne Meme-Beauftragte, generiert dieses Bild.
+
+00:12:42.000 --> 00:12:49.000
+ Da boxen zwei Menschen, die eine ist links die Vorsitzende des Ethikrates, Frau Bücks,
+
+00:12:49.000 --> 00:12:57.000
+ und rechts mein Vorgänger, Stefan Brink, der Landesdatenschutzbeauftragte Bavu, bis letztes Jahr,
+
+00:12:57.000 --> 00:13:02.000
+ bis zum 1.1. Formal oder? Oder bis zum 31.12.
+
+00:13:02.000 --> 00:13:10.000
+ Ja, und was hat sie gesagt? Sie hat gesagt, wir kommen in Deutschland in der Forschung nicht weiter,
+
+00:13:10.000 --> 00:13:14.000
+ hat insbesondere Corona gezeigt, das würde alles nicht funktionieren,
+
+00:13:14.000 --> 00:13:24.000
+ und sie hat dann auch, ich sag mal, publikumswirksam, gab es im Handelsblatt unter anderem einen größeren Beitrag,
+
+00:13:24.000 --> 00:13:33.000
+ sie hat gesagt, es gäbe eine, und jetzt wird es richtig spannend, ethisch begründbare Pflicht zur Nutzung von Daten,
+
+00:13:33.000 --> 00:13:38.000
+ also was sie macht, ist Ethik gegen Recht ausspielen, das finde ich schon mal strukturell sehr interessant,
+
+00:13:38.000 --> 00:13:44.000
+ und also man müsse viel mehr Daten nutzen, und das ging eben, das ist die These mit dem Datenschutz,
+
+00:13:44.000 --> 00:13:48.000
+ so wie er momentan ist, nicht, also man kann nicht forschen.
+
+00:13:48.000 --> 00:13:56.000
+ Ja, da hat Stefan Brink schon interveniert und gesagt, das ist alles Quatsch, und das Schöne ist,
+
+00:13:56.000 --> 00:14:03.000
+ ich habe mal ein bisschen geforscht, dieses Narrativ, das geht lange, also vor die DSGVO, das ist gar kein DSGVO-Mythos,
+
+00:14:03.000 --> 00:14:10.000
+ Datenschutz- und Gesundheitsdatenforschung, geht alles nicht, 2011 gab es hier schon ein Fachpaper,
+
+00:14:10.000 --> 00:14:15.000
+ da hatten wir noch keine DSGVO, sondern das alte Bundesdatenschutzgesetz,
+
+00:14:15.000 --> 00:14:21.000
+ und da gab es in einer medizinischen Fachzeitschrift schon einen schönen Beitrag "Daten gesichert, Patient tot",
+
+00:14:21.000 --> 00:14:26.000
+ Datenschutz im Gesundheitswesen, ja, ist natürlich alles nicht so richtig,
+
+00:14:26.000 --> 00:14:32.000
+ also erstmal muss man hier ein bisschen genauer hingucken, wovon reden wir eigentlich, reden wir vom Datenschutz,
+
+00:14:32.000 --> 00:14:40.000
+ oh, wo bist du jetzt hingerutscht, genau, reden wir vom Datenschutz, oder reden wir von der, war schon richtig,
+
+00:14:40.000 --> 00:14:48.000
+ oder reden wir von der ärztlichen Schweigepflicht, was etwas anderes ist, was dann auch einmal berufsrechtlich bei den Ärzten geregelt ist,
+
+00:14:48.000 --> 00:14:52.000
+ die ärztliche Schweigepflicht dann sogar strafrechtlich sanktioniert ist, wenn man dagegen verstößt,
+
+00:14:52.000 --> 00:14:56.000
+ wenn man also rumläuft und sagt, pass mal auf, der Klaus Müller, der ist bei mir in Behandlung,
+
+00:14:56.000 --> 00:15:02.000
+ und der hat sich da so eine interessante sexuell übertragbare Krankheit gefangen,
+
+00:15:02.000 --> 00:15:06.000
+ das heißt, das ist das Strafrecht, das wir schon lange haben,
+
+00:15:06.000 --> 00:15:11.000
+ also von daher hat das an der Stelle immer nur bedingt was mit Datenschutz zu tun,
+
+00:15:11.000 --> 00:15:21.000
+ und natürlich, man kann Daten verarbeiten, also wenn ich jetzt auf der Straße jemanden ausbluten sehe nach einem Verkehrsunfall,
+
+00:15:21.000 --> 00:15:26.000
+ und ich muss jetzt in irgendeiner Weise sehr schnell rauskriegen, welche Blutgrube hatte er denn und so weiter,
+
+00:15:26.000 --> 00:15:32.000
+ dann sperrt das Datenschutzrecht nicht die Notversorgung, und dass ich also hier die Möglichkeiten habe,
+
+00:15:32.000 --> 00:15:40.000
+ das rauszukriegen auf die Schnelle, damit er nicht verblutet, da gibt es in der DSGVO explizit einen Erlaubnistatbestand,
+
+00:15:40.000 --> 00:15:45.000
+ von daher, ja, so geht Forschung nicht,
+
+00:15:45.000 --> 00:15:49.000
+ Der bewusstlose Patient muss auch nicht einwilligen,
+
+00:15:49.000 --> 00:15:56.000
+ ich glaube, der bewusstlose, das geht ja gar nicht, also von daher, das hat die Datenschutzgrundverordnung schon auf dem Schirm,
+
+00:15:56.000 --> 00:16:02.000
+ so, und kann man überhaupt nicht mehr forschen, es gibt in der DSGVO ein Forschungsprivileg,
+
+00:16:02.000 --> 00:16:09.000
+ das also sagt, bei der Forschung, da kann man Daten grundsätzlich ein bisschen mehr nutzen, als das sonst der Fall ist,
+
+00:16:09.000 --> 00:16:18.000
+ und wir haben momentan ganz viele gesetzgeberische, ja, Moves sozusagen, unter anderem über das Gesundheitsdatennutzungsgesetz,
+
+00:16:18.000 --> 00:16:23.000
+ wo es jetzt gerade einen Gesetzesentwurf gibt, das heißt, ja, da bewegt sich auch noch was,
+
+00:16:23.000 --> 00:16:27.000
+ von daher, Forschung geht, auch mit Datenschutz.
+
+00:16:27.000 --> 00:16:37.000
+ So, ja, der nächste, Datenschutz verhindert Innovation, den mache ich noch ein bisschen schneller,
+
+00:16:37.000 --> 00:16:43.000
+ das ist auch immer so ein Narrativ, geht alles nicht, hochautomatisiertes Fahren geht zum Beispiel nicht,
+
+00:16:43.000 --> 00:16:51.000
+ weil der Datenschutz um die Ecke kommt, und dann ist, das hat er geprägt, deswegen auch hier von unserer MIM-Beauftragten,
+
+00:16:51.000 --> 00:16:59.000
+ wer ist das? Axel Fors, ja, und Axel Fors hat, wir haben neulich sogar mit ihm diskutiert, in unserer Behörde,
+
+00:16:59.000 --> 00:17:03.000
+ in einer schönen Diskussionsrunde, kann man sich sogar angucken, ja, ist es, kann man sich sogar angucken,
+
+00:17:03.000 --> 00:17:11.000
+ ist auf unserem Piatube-Server, ja, genau, und er ist auch wirklich ein netter Mensch, also, aber hat eben zum Teil, ja,
+
+00:17:11.000 --> 00:17:18.000
+ Argumente, wo man sagen muss, okay, das kann man auch anders sehen, er hat zum Beispiel öffentlichkeitswirksam mal gesagt,
+
+00:17:18.000 --> 00:17:24.000
+ naja, der Reifendruck bei einem hochautomatisierten Kraftfahrzeug ist ja ein personenbezogenes Datum,
+
+00:17:24.000 --> 00:17:30.000
+ und weil das so ist, kann keiner mehr mit Tesla mithalten, und wir sind abgehängt.
+
+00:17:30.000 --> 00:17:36.000
+ Soweit will ich an der Stelle auch nicht gehen, ob der Reifendruck ein personenbezogenes Datum ist,
+
+00:17:36.000 --> 00:17:44.000
+ in einem Rechner auf Rädern, kann man ja so sagen, kommt es eben schon drauf an, welche Verknüpfungen entstehen,
+
+00:17:44.000 --> 00:17:50.000
+ also das Datum Reifendruck wird sicherlich erhoben von einem sehr cleveren Auto, ja, weil man dann sagt,
+
+00:17:50.000 --> 00:17:54.000
+ naja, mit einem Bar ist vielleicht schlecht oder so, loszufahren.
+
+00:17:54.000 --> 00:18:00.000
+ Die Frage ist, wie weit ist es verknüpft zu einem Nutzenden dieses Autos oder zum Halter,
+
+00:18:00.000 --> 00:18:04.000
+ da muss man auch noch auseinanderdividieren, wer ist es denn, ist es der Fahrer, ist es der Halter,
+
+00:18:04.000 --> 00:18:10.000
+ wo gibt es Verknüpfungen, da muss man schon genauer hingucken, aber selbst wenn der Reifendruck ein personenbezogenes Datum ist,
+
+00:18:10.000 --> 00:18:14.000
+ dann muss ich eben gucken, ob ich mit Anonymisierung oder Pseudonymisierung oder die Daten bleiben im Auto,
+
+00:18:14.000 --> 00:18:19.000
+ also lokal, werden nicht in der Cloud gepustet, es gibt tausend Lösungen, also der Datenschutz,
+
+00:18:19.000 --> 00:18:27.000
+ es geht auch automatisiertes und hochautomatisiertes und autonomes Fahren mit Datenschutz ist möglich.
+
+00:18:27.000 --> 00:18:32.000
+ Und abgesehen davon gilt natürlich die DSGVO auch für Tesla.
+
+00:18:32.000 --> 00:18:39.000
+ Da muss man halt mal gucken, dass die zuständige Aufsichtsbehörde das auch durchsetzt, aber das gilt auch für Tesla.
+
+00:18:39.000 --> 00:18:46.000
+ Wir haben ja eine europäische Niederlassung, also wenn sie keine hätten, dann wären alle zuständig, also dann gilt das auch.
+
+00:18:46.000 --> 00:18:53.000
+ Dann komme ich zu Clouddiensten, ja wir dürfen bestimmt Clouddienst vielleicht nutzen, nicht nutzen,
+
+00:18:53.000 --> 00:18:59.000
+ weil Drittstatentransfer hört man oft und jetzt gibt es ja den Angemessenheitsbeschluss.
+
+00:18:59.000 --> 00:19:06.000
+ Und wir haben mal gesagt, so Microsoft 365 an Schulen ist ein bisschen schwierig, um es mal vorsichtig zu sagen,
+
+00:19:06.000 --> 00:19:13.000
+ und haben empfohlen, das nicht weiter zu verfolgen, das Projekt, das das Kultusministerium in Baden-Württemberg gemacht hat.
+
+00:19:13.000 --> 00:19:17.000
+ Und jetzt kommen Schulen her und sagen, jetzt gibt es ja einen Angemessenheitsbeschluss, USA ist wieder sicher.
+
+00:19:17.000 --> 00:19:27.000
+ Und dann dürfen wir es doch nutzen. Darf man es nutzen? Ja, nein? Nö.
+
+00:19:27.000 --> 00:19:36.000
+ Weil Drittlandtransfer in die USA war auch ein Problem, aber von der Liste der Problemen, die wir hatten, war das so klein.
+
+00:19:36.000 --> 00:19:45.000
+ Ja, sondern die großen Probleme waren die Probleme, die der Hersteller sich aus seiner eigenen Entscheidung, die er gefällt hat, die damit zusammenhängen.
+
+00:19:45.000 --> 00:19:48.000
+ Er hat sich entschieden, bestimmte Verarbeitungen personenbezogener Daten zu machen.
+
+00:19:48.000 --> 00:19:55.000
+ Hier sehen wir zum Beispiel so ein paar Beispiele für Telemetriedaten, die da so geflossen sind, die wir im Pilotprojekt gemessen haben.
+
+00:19:55.000 --> 00:20:03.000
+ Und das ist eine Entscheidung des Herstellers. Und wenn der Hersteller sich dazu entscheidet, dann hat das überhaupt nichts damit zu tun, ob Drittlandtransfer stattfindet oder nicht.
+
+00:20:03.000 --> 00:20:13.000
+ Sondern es ist eine Frage, ob man diese Daten verarbeitet und an einen Dritten oder einen Auftragsverarbeiter zu dessen eigenen Zwecken, dann ist er wieder ein Dritter, übermitteln darf.
+
+00:20:13.000 --> 00:20:18.000
+ Also da ändert sich durch die Drittstaatentransferproblematik nichts.
+
+00:20:18.000 --> 00:20:28.000
+ Und es liegt bei den ganzen Clouddiensten, wenn man darüber diskutiert, ob etwas zulässig ist oder nicht, selten daran oder primär daran, dass Daten in die USA fließen.
+
+00:20:28.000 --> 00:20:32.000
+ Das ist auch ein zusätzliches Problem, vielleicht auf den ersten Blick das einfachste.
+
+00:20:32.000 --> 00:20:39.000
+ Aber es ist eigentlich nicht das ausschlaggebende Problem, sondern viele Clouddienste erheben einfach sehr viele Daten.
+
+00:20:39.000 --> 00:20:47.000
+ Und allein die Erhebung dieser Daten ist problematisch. Das würde also auch für den reinen deutschen Hersteller entsprechend gelten.
+
+00:20:47.000 --> 00:20:53.000
+ Gut, oh da komme ich ja gleich nochmal hintereinander, das war ja gar nicht so geplant.
+
+00:20:53.000 --> 00:21:00.000
+ Datenschutz nervt zwei. Ja, wer ist schuld an den Cookiebannern? Der Datenschutz oder jemand anderes?
+
+00:21:00.000 --> 00:21:04.000
+ Die Webseitenbetreiber. Die Webseitenbetreiber, sehr richtig, ganz genau.
+
+00:21:04.000 --> 00:21:10.000
+ Weil die Webseitenbetreiber, auch hier gilt wieder, haben sich entschieden, bestimmte Verarbeitung personenbezüger Daten durchzuführen.
+
+00:21:10.000 --> 00:21:22.000
+ Nämlich zum Beispiel die Leute an Google, Facebook, Microsoft, was gibt es noch, Reddit, Twitter, V-Kontakte oder TikTok zu verpetzen.
+
+00:21:22.000 --> 00:21:27.000
+ Und wer das machen möchte, der braucht eine Rechtsgrundlage für diese Verarbeitung.
+
+00:21:27.000 --> 00:21:34.000
+ Und die Rechtsgrundlage dafür kann in der Regel nur die freiwillige und informierte Einwilligung der betroffenen Personen sein.
+
+00:21:34.000 --> 00:21:43.000
+ Und das sollen diese Banner erreichen, dass das eine freiwillige und informierte Entscheidung der betroffenen Personen ist.
+
+00:21:43.000 --> 00:21:51.000
+ Und wenn man sich jetzt so einen Banner hier anschaut, ist das eine freiwillige und informierte Entscheidung, die man dann trifft?
+
+00:21:51.000 --> 00:21:59.000
+ Kann man so seine Zweifel haben. Das Vorortpublikum sieht jetzt hier leider nicht viel, aber das ist einer meiner Lieblingsbanner, die ich jemals gesehen habe.
+
+00:21:59.000 --> 00:22:08.000
+ In dieser Variante selbst nachgebaut, aber den gab es so ähnlich auch in echt. Da war er noch ein bisschen verwirrender als das, was hier draufsteht.
+
+00:22:08.000 --> 00:22:15.000
+ Also wer es richtig machen will, hat auf seiner Webseite am besten gar keinen Banner, weil ihr braucht keinen.
+
+00:22:15.000 --> 00:22:23.000
+ Also es ist nicht notwendig für eine Webseite einen Cookie-Banner zu haben, wenn ihr keine Verarbeitungen nutzt, die einwilligungsbedürftig sind.
+
+00:22:23.000 --> 00:22:27.000
+ Cookies zum Beispiel, die notwendig sind, dürft ihr nutzen, zum Beispiel Login-Cookie.
+
+00:22:27.000 --> 00:22:33.000
+ Aber ihr solltet, wenn man es dann ganz genau anschaut, auch bitte keinen Session-Cookie machen, bevor ihr eine Session braucht.
+
+00:22:33.000 --> 00:22:39.000
+ Sondern erst dann, wenn halt die Session losgeht, weil der User irgendwas eingestellt hat, hintergrundfarbe oder sonst was.
+
+00:22:39.000 --> 00:22:47.000
+ Das bitte dann background-color gleich black speichern und nicht in der User-ID mit einem eindeutigen Identifier und so weiter.
+
+00:22:47.000 --> 00:22:50.000
+ Dann braucht ihr keinen Banner und keine Einwilligung.
+
+00:22:50.000 --> 00:22:58.000
+ Übrigens wüsste ich jetzt für das Beispiel vorhin Google Analytics, Facebook, TikTok und so weiter nicht, wie ein Banner gelten würde, den ich nicht bemängeln würde.
+
+00:22:58.000 --> 00:23:04.000
+ Also von daher, es ist sehr schwierig, einen solchen Banner zu gestalten. Deswegen kann ich nur davon abraten.
+
+00:23:04.000 --> 00:23:08.000
+ Aber die Verarbeitung im Browser ist die Verarbeitung des Users, wie man meint.
+
+00:23:08.000 --> 00:23:14.000
+ Die Verarbeitung im Browser ist die Verarbeitung des Users, ja, aber die Verarbeitung im Browser ist in Ordnung.
+
+00:23:14.000 --> 00:23:20.000
+ Aber das Übermitteln an andere ist eine DSGVO. Also wir haben zwei, jetzt kommen wir ins Detail.
+
+00:23:20.000 --> 00:23:27.000
+ Wir haben zwei Bereiche, einmal die DSGVO und einmal das TTDSG, das Teledienst-Telekommunikations-Datenschutzgesetz.
+
+00:23:27.000 --> 00:23:34.000
+ Nach DSGVO brauchen wir eine Verarbeitung personenbezogener Daten. Die im Browser ist deine eigene.
+
+00:23:34.000 --> 00:23:44.000
+ Aber wenn jetzt zum Beispiel an TikTok geht oder an VK oder an Google oder an wem auch immer, dann ist das eine Übermittlung an den Dritten.
+
+00:23:44.000 --> 00:23:46.000
+ Dafür brauchen wir eine Rechtsgrundlage.
+
+00:23:46.000 --> 00:23:55.000
+ Der Request kommt vom Browser, aber der Seitenbetreiber hat das Image-Tech oder den iFrame oder was auch immer in die Webseite eingebaut.
+
+00:23:55.000 --> 00:24:02.000
+ Deswegen ist der Webseitenbetreiber gemeinsam verantwortlich mit TikTok, Facebook oder wem auch immer.
+
+00:24:02.000 --> 00:24:05.000
+ Das ist eine interessante Frage. Also wer ist eigentlich verantwortlich?
+
+00:24:05.000 --> 00:24:10.000
+ Das sind gerade diese gemischten Verantwortlichkeiten, wo man sagt, aber ich kann doch gar nichts dafür.
+
+00:24:10.000 --> 00:24:14.000
+ Ich habe eine Infrastruktur genutzt und es ist doch die Infrastruktur, die den ganzen Kram setzt.
+
+00:24:14.000 --> 00:24:20.000
+ Ich kann es doch gar nicht ändern. Man wird aber unter Umständen trotzdem mit verantwortlich, sagt jedenfalls der EGH.
+
+00:24:20.000 --> 00:24:28.000
+ Genau, EGH Fashion ID. Was doch ganz speziell ist, wenn man jetzt irgendeinen Website-Baukast bei irgendeinem Anbieter nutzt,
+
+00:24:28.000 --> 00:24:37.000
+ dann ist man noch mehr als, also man ist der kleine Friseursalon um die Ecke und der nimmt jetzt von xyz.com den Website-Baukasten
+
+00:24:37.000 --> 00:24:43.000
+ und wenn der dann irgendwelche Google Analytics einbaut und Facebook und V-Kontakte oder sonst was,
+
+00:24:43.000 --> 00:24:50.000
+ dann ist trotzdem der Friseur der Verantwortliche. Das ist für den Friseur ein Problem. Dann halt diesen Dienst dann nicht nutzen.
+
+00:24:50.000 --> 00:24:56.000
+ Ansonsten, was du noch gesagt hast, was im Browser passiert ist, wenn Daten auf dem Endgerät abgelegt werden,
+
+00:24:56.000 --> 00:25:02.000
+ dann sind wir im TTDSG und das ist auch wieder einwähligend bedürftig. Das könnte man eigenen Vortrag machen.
+
+00:25:02.000 --> 00:25:09.000
+ Wir haben eine Schulung bei uns, kleine Schleichwerbung für unser Bildungszentrum, BDip Bildungszentrum vom LFDI Baden-Württemberg.
+
+00:25:09.000 --> 00:25:13.000
+ Da gibt es eine dreieinhalb Stunden Schulung zu dem Thema, den macht eine Kollegin und ich zusammen.
+
+00:25:13.000 --> 00:25:20.000
+ Und es ist for free. Das ist der wichtige Punkt. Das war der Werbeblock.
+
+00:25:20.000 --> 00:25:23.000
+ Das war der Werbeblock und dann machen wir mit dem nächsten Mütung weiter.
+
+00:25:23.000 --> 00:25:31.000
+ Dann machen wir direkt weiter. Und zwar mit Datenschutz ist Täterschutz. Das hört man ja auch immer sehr gerne als Datenschützer.
+
+00:25:31.000 --> 00:25:35.000
+ Und da gibt es natürlich jetzt 1000 Beispiele dazu, an denen man das durchdeklinieren kann.
+
+00:25:35.000 --> 00:25:42.000
+ Ich habe eins mitgebracht, was ich ganz interessant fand und was uns auch in Baden-Württemberg ein bisschen umgetrieben hat.
+
+00:25:42.000 --> 00:25:50.000
+ Falschparker fotografieren. Darf man das? Ja, also ich sehe irgendwo ein Auto und es nervt mich extrem, dass das da parkt
+
+00:25:50.000 --> 00:25:59.000
+ und mal nur ganz kurz irgendwelche Brötchen holt oder so. Und ich kann mit meinem Fahrrad, mit meinem Hoverboard oder was auch immer da jetzt nicht langfahren.
+
+00:25:59.000 --> 00:26:07.000
+ Nervt. So und dann mache ich ein Foto und dann gibt es ja hier sogar schöne Webformulare bei der Stadt Köln, glaube ich, in dem Fall.
+
+00:26:07.000 --> 00:26:17.000
+ Da kann man also direkt ausfüllen. Welche Straße war das? Bild anhängen, Attach Bild oder es gibt Portale wie Wekli, wo man verpetzen kann.
+
+00:26:17.000 --> 00:26:25.000
+ Um das jetzt mal sprachlich ein bisschen gemein auszudrücken. Und jetzt ist die Frage, naja, ist ja schon eine Datenverarbeitung, die hier vorliegt.
+
+00:26:25.000 --> 00:26:34.000
+ Das heißt also, ich fertige ein Bild eines Fahrzeugs an, das falsch parkt. Und jetzt würden einige von euch wieder sagen, ja sitzt aber keiner drin.
+
+00:26:34.000 --> 00:26:40.000
+ Ja, aber ihr habt natürlich das Kfz-Kennzeichen als Pseudonym. Das ist ein Pseudonym.
+
+00:26:40.000 --> 00:26:48.000
+ Bei Pseudonymen sind wir innerhalb des Datenschutzrechts unterwegs. Wir sind nur bei der Anonymisierung draußen. Heißt, relevant ist dieser Vorgang.
+
+00:26:48.000 --> 00:26:59.000
+ Die Frage ist jetzt aber, ist es verboten zu verpetzen? Ja, also kann der Datenschutz sagen, ihr dürft das also nicht melden an die Datenschutzbehörden, dass da einer falsch parkt.
+
+00:26:59.000 --> 00:27:03.000
+ An die an die Dienstbüros. An die Polizeibehörde in dem Fall natürlich. Genau.
+
+00:27:03.000 --> 00:27:13.000
+ Als Hobbyjurist habe ich von den Juristen gelernt, die richtige Antwort ist immer, es kommt drauf an. Ganz genau. Jawohl.
+
+00:27:13.000 --> 00:27:16.000
+ Und ist es ja auch so.
+
+00:27:16.000 --> 00:27:39.000
+ Und hier interessant, die Bayern, also unsere Kollegen in Bayern, also die Länder haben ihre Landesdatenschutzbeauftragten und in dem Fall Bayern hat also jetzt hier einen Verpätzenden einen Bescheid geschickt und hat gesagt, pass mal auf Kollege, du hast gegen den Datenschutz verstoßen, weil darfst du nicht verpetzen. Hast ja hier Daten. Wo ist deine Rechtsgrundlage?
+
+00:27:39.000 --> 00:27:53.000
+ Dann hat der Verpätzende gesagt, das sehe ich jetzt aber nicht ein, diesen Bescheid, da klage ich jetzt mal dagegen. Das ist gut so. Wir sind ein Rechtsstaat, was Aufsichtsbehörden sagen und meinen ist, kann Gegenstand von Gerichtsverfahren sein.
+
+00:27:53.000 --> 00:27:59.000
+ Also waren wir hier im Verfahren und das Verwaltungsgericht Ansbach sagt, das darf man, das kann man machen.
+
+00:27:59.000 --> 00:28:09.000
+ Das ist die Datenverarbeitung, die folgt einem berechtigten Interesse. Dafür gibt es einen eigenen Tatbestand, den 6F DSGVO und ist eine Abwägung im Prinzip.
+
+00:28:09.000 --> 00:28:20.000
+ Also man schaut sich an, was sind die widerstreitenden Interessen, also die Interessen des Halters, der entweder selbst als Fahrer oder halt ein Fahrer falsch geparkt hat und dass das nicht rauskommt.
+
+00:28:20.000 --> 00:28:30.000
+ Dieses Interesse versus das Interesse, dass ich momentan mit meinem Fahrrad auf dem Gehweg nicht weiterfahren kann, weil es zugeparkt ist. Und das ist eine Interessenabwägung.
+
+00:28:30.000 --> 00:28:40.000
+ Verwaltungsgericht Ansbach sagt, kann man machen, kann man verpetzen. Also Datenschutz ist nicht immer Täterschutz. Das wäre mein Finding an dieser Stelle.
+
+00:28:40.000 --> 00:28:54.000
+ Was dann noch so ein bisschen tricky ist, wenn man dann diese Datenverarbeitung macht auf Basis von 6F, dann muss man ja auch immer informieren. Wenn man relevante Datenvorgänge hat, dann muss man Informationspflichten abbilden.
+
+00:28:54.000 --> 00:29:07.000
+ Da ist ja die Frage, ok, jetzt verpetze ich den und dann würde die DSGVO für meine Begriffe recht einfach gesagt dann auch noch fordern, dass ich ihm einen kleinen Zettel an die Windschutzscheibe mache und sage, pass mal auf Kollege, ich habe dich verpetzt.
+
+00:29:07.000 --> 00:29:15.000
+ Deine Daten sind auf dem Weg zur Polizeiinspektion Ansbach oder so und denk mal drüber nach.
+
+00:29:15.000 --> 00:29:18.000
+ Ist vielleicht auch eine ganz gute Erziehungsmaßnahme.
+
+00:29:18.000 --> 00:29:22.000
+ Ist vielleicht auch eine schöne Erziehungsmaßnahme in alle Richtungen.
+
+00:29:22.000 --> 00:29:31.000
+ Widerspruch 21 DSGVO, ist auch möglich. Schön, schön, schön.
+
+00:29:31.000 --> 00:29:44.000
+ Das sind schöne Fragen noch mit verbunden, aber jedenfalls, ja, es gibt da noch einen Punkt, das darf man nicht verwechseln, der lag ja auch bei uns bei der Behörde vor, wenn es zur kleinen Kausa, kannst du noch zwei, drei Sätze sagen.
+
+00:29:44.000 --> 00:30:08.000
+ Also wir haben, also unsere Abteilung ist ja nicht nur für Technik, sondern auch für Internetrecht zuständig und da kam eine, ein Hinweis ran, als ein gewisser Bürgermeister aus Baden-Württemberg, nämlich aus Tübingen, auf Facebook gelegentlich Falschparker, ja, die Fotos von Falschparken in Fahrzeugen veröffentlicht, wo natürlich auch das Nummernschild nicht geschwärzt ist.
+
+00:30:08.000 --> 00:30:18.000
+ Und was gilt denn dann? Ja, abgesehen davon, dass er natürlich der als Oberbürgermeister auch der Chef der ganzen Verwaltungsbehörde und so weiter ist.
+
+00:30:18.000 --> 00:30:26.000
+ Das lassen wir mal außen vor, das macht es wahrscheinlich nur noch schlimmer, vermute ich jetzt mal so ganz spontan, ohne darüber nachgedacht zu haben.
+
+00:30:26.000 --> 00:30:43.000
+ Aber es ist natürlich eine Veröffentlichung dieses personenbezogenen Datums und das ist dann wiederum nicht zulässig. Er könnte natürlich das Schwärzen des Nummernschilds etc. aber das Veröffentlichen des Nummernschildes ist nicht DSGVO konform, weil er keine Rechtsgrundlage dafür hat.
+
+00:30:43.000 --> 00:30:52.000
+ Ja, sind zwei Paar Schuhe, ob ich etwas melde an eine zuständige Stelle oder ob ich es auf Facebook puste und der ganzen Menschheit mitteile. Das sind Unterschiede.
+
+00:30:52.000 --> 00:31:10.000
+ Ja, das Datenlag. Das Datenlag, ja ganz kurz, wir sind in der Zeit, ihr habt bestimmt auch ein paar Fragen. Wenn ihr ein Datenlag entdeckt, irgendwo eine schlechte API, wo ich einfach die ID hochzählen kann oder so einen Spaß unter den ein paar Sekunden oder ein Limit.
+
+00:31:10.000 --> 00:31:25.000
+ Statt Limit 10 mache ich Limit 1 Million und mit einem Flop habe ich alle Daten. Ja, was darf ich tun, was darf ich nicht tun? Also ganz schnell, ganz kurz, ihr dürft das natürlich dem Verantwortlichen melden und hinweisen, hallo ihr habt ein Problem.
+
+00:31:25.000 --> 00:31:36.000
+ Ihr könnt das natürlich auch der Aufsichtsbürder, also uns melden. Und was machen wir dann üblicherweise? Wir gehen an den Verantwortlichen ran mit einer kurzen Frist und sagen, schaltet mal das ab.
+
+00:31:36.000 --> 00:31:45.000
+ Und zwar bitte zack zack. Und das klappt dann in der Regel auch. Also wir haben immer wieder auch aus dem Chaos-Umfeld entsprechende Meldungen, auf die nicht reagiert wurde, wo dann wochenlang nichts passiert ist.
+
+00:31:45.000 --> 00:31:54.000
+ Und bei uns war es bisher tatsächlich so, dass sie schnell reagiert haben. Wir mussten dann nicht mit Anordnung rausgehen, sondern der Hinweis hat schon mal gereicht.
+
+00:31:54.000 --> 00:32:03.000
+ Und dann gucken wir im Nachgang in Ruhe an, wie wir mit dem Datenlag noch umgehen, ob da noch irgendwelche Maßnahmen notwendig sind.
+
+00:32:03.000 --> 00:32:10.000
+ Also das kann man machen. Ihr könnt natürlich auch ein Pseudonym wählen, wenn ihr dann an den Verantwortlichen rangeht, damit ihr euch da ein bisschen besser schützt oder sowas.
+
+00:32:10.000 --> 00:32:19.000
+ Aber dieses Recht habt ihr erstmal grundsätzlich, dass ihr das machen könnt. Ich mache, wenn keine Frage dazu kommt, schnell weiter, wie gesagt, an sich der Zeit.
+
+00:32:19.000 --> 00:32:28.000
+ Ja genau, aber der ist noch schön, den müssen wir auf jeden Fall noch machen. Datenschutz versus Sicherheit. Also dass die sich angeblich nicht verstehen, das ist ja so eine uralte Frage.
+
+00:32:28.000 --> 00:32:35.000
+ Aber es gibt da zum Teil schon sehr schöne Beispiele. Also macht Datenschutz Sicherheit unmöglich.
+
+00:32:35.000 --> 00:32:41.000
+ Ich habe da ein schönes Beispiel rausgesucht, das in verschiedenen Bundesländern momentan eine Rolle spielt.
+
+00:32:41.000 --> 00:32:51.000
+ Da fällt mir ein Schwimmbad in Wiesbaden ein, um jetzt nicht selbst zuständig zu sein. Ja, aber in Baden-Württemberg gibt es auch Schwimmbäder, in Bayern glaube ich auch, die das machen.
+
+00:32:51.000 --> 00:33:03.000
+ Also ja, sicherer Schwimmen mit zwarter Videoüberwachung ist meine Frage. Und ich habe mal hier einfach ein bisschen aus der Presse, das ist jetzt nichts Internes, sondern das ist das, was jeder lesen kann.
+
+00:33:03.000 --> 00:33:13.000
+ Beim SWR war das zu lesen, Freuden statt intelligente Kameras sollen Badegäste überwachen. Okay, kann man sagen, nice, was ist das, was die da machen?
+
+00:33:13.000 --> 00:33:24.000
+ Naja, das ist ein Unternehmen, das smartet Videokameras auf. Also erstens, da stehen schon Videokameras in den Schwimmbädern, offensichtlich. Erstens mal nice to know.
+
+00:33:24.000 --> 00:33:31.000
+ Okay. Und so, in welchen Bereichen muss man natürlich gucken? Nicht in der Umkleidekabine, also da müssen wir jetzt gar nicht drüber reden, dass das keine gute Idee ist.
+
+00:33:31.000 --> 00:33:43.000
+ Aber im Rahmen der Schwimmbäcken. Und die sagen, ja, da machen wir jetzt noch das ein bisschen smarter, klemmen da noch eine KI dran und dann passieren keine Badeunfälle mehr.
+
+00:33:43.000 --> 00:33:53.000
+ Das ist die Idee. So einfach ist das? So einfach ist das. Alles ist sicher. Also das Überwachungssystem bekommt dann der Bademeister auf seine Smartwatch.
+
+00:33:53.000 --> 00:34:02.000
+ Da kommt dann so ein Alarm und da ertrinkt einer auf 5 Uhr oder so. Also das ist die Idee. Ich vereinfache jetzt sehr stark, aber naja.
+
+00:34:02.000 --> 00:34:10.000
+ Und das muss man sich natürlich sehr genau angucken. Sehr, sehr genau angucken. Ich sage gleich mal, welche Fragen ich da direkt hätte.
+
+00:34:10.000 --> 00:34:18.000
+ Und ich habe diese Fragen im Prinzip einfach mal über die Webseite. Also der Anbieter, Lynxide heißt das, ist ein israelisches Unternehmen.
+
+00:34:18.000 --> 00:34:26.000
+ Da kann man mal gucken. Die bieten das an und dann kann man sich natürlich die Frage stellen. Ja, wie machen die das genau? Wie geht es denn technisch eigentlich genau?
+
+00:34:26.000 --> 00:34:34.000
+ Also das ist ja das, was man als Datenschützer an der Stelle dann gerne wissen möchte. Und dann klickt man hier auf der Webseite und man erfährt das ehrlich gesagt auf der Webseite nicht.
+
+00:34:34.000 --> 00:34:41.000
+ Die haben eine Datenschutzerklärung, aber die Datenschutzerklärung, die sagt halt ihr seid hier auf einer Webseite und kuckis und so.
+
+00:34:41.000 --> 00:34:49.000
+ Aber die sagt zu dieser KI, also zu diesem Produkt, nichts, nix null nada niente. Ich hätte da schon Fragen.
+
+00:34:49.000 --> 00:34:54.000
+ Muss es da eine Einwilligung der Badegäste geben? Wenn ja, wie werden die informiert?
+
+00:34:54.000 --> 00:34:59.000
+ Werd ich, wenn ich in das Schwimmbad reingehe, darauf hingewiesen, dass es eine smarte, KI-gestützte Videoüberwachung gibt.
+
+00:34:59.000 --> 00:35:08.000
+ Wie funktioniert die überhaupt? Also werden meine Schwimmdaten, meine Schwimmkörpertaten, werden die in HD, werden die aufgezeichnet?
+
+00:35:08.000 --> 00:35:15.000
+ Oder werden die on the fly schon in irgendeiner Weise anonymisiert als Strichmännchen mit Bewegungsmodellen abgeglichen und so?
+
+00:35:15.000 --> 00:35:22.000
+ Tausend Fragen hätte ich da. Und ja, da gibt es auch ein Drittstaatentransferproblem möglicherweise.
+
+00:35:22.000 --> 00:35:29.000
+ Wenn die Daten, das Unternehmen ist ein israelisches Unternehmen, israelisches Start-up, werden die Daten dahin gekabelt?
+
+00:35:29.000 --> 00:35:34.000
+ Wird mit meinen Schwimmdaten weiter trainiert, die KI? Also ich habe da ganz, ganz viele Fragen.
+
+00:35:34.000 --> 00:35:46.000
+ Und ich weiß von einem Schwimmbad, in Hamburg war es so, dass die Datenschutzbehörde ganz viele Fragen hatten, also einen ganz großen Fragenkatalog an das Schwimmbad, die das einrichten wollten.
+
+00:35:46.000 --> 00:35:50.000
+ Und nach dem Fragenkatalog haben die es nicht mehr gemacht, weil sie gesagt haben, wir können die Fragen nicht beantworten.
+
+00:35:50.000 --> 00:35:56.000
+ Ja, das haben wir öfters mal. Wir schicken einen großen Fragenkatalog raus, weil wir ja auch nicht wissen, was ist.
+
+00:35:56.000 --> 00:36:02.000
+ Wir wollen es doch nur wissen. Wir wissen es doch nur wissen, um es beurteilen zu können. Und dann weiß der Verantwortliche auch nicht weiter.
+
+00:36:02.000 --> 00:36:08.000
+ Genau. Man kann sich bei solchen Sachen übrigens immer eine Frage stellen. Braucht man das?
+
+00:36:08.000 --> 00:36:15.000
+ Und wenn man sich jetzt hier mal so ein bisschen anguckt, wie viele Menschen ertrinken denn in Deutschland und wo ertrinken die?
+
+00:36:15.000 --> 00:36:26.000
+ Und wenn man sich diese Statistik anguckt, also diese große Balken, das sind See, Teich, Fluss, Meer, Kanal, Bach, da ertrinken Menschen.
+
+00:36:26.000 --> 00:36:38.000
+ Schwimmbad ist hier. Kaum Menschen ertrinken in Schwimmbädern. Und dann ist natürlich die nächste Frage, die ich mir grundsätzlich als natürlich technisch sehr naiver Mensch mir die Frage stellen würde.
+
+00:36:38.000 --> 00:36:46.000
+ Naja, also was kann denn das Modell? Wie erkennt das denn, dass jemand ertrinkt? Die naive Vorstellung ist ja, bevor jemand ertrinkt, fruchtelt der da und macht und tut.
+
+00:36:46.000 --> 00:36:56.000
+ Das tut er aber, wenn man mal mit Leuten vom DLRG spricht, überhaupt nicht. Also gerade Kinder ertrinken ganz leise. Die gehen einfach unter. Die zappeln nicht, die gehen einfach unter.
+
+00:36:56.000 --> 00:37:07.000
+ Kann die KI das überhaupt erkennen? Ich frage nur. Ja, also das muss man sich sicherlich genauer angucken. Es gibt da von der DSK auch was.
+
+00:37:07.000 --> 00:37:16.000
+ Das will ich jetzt mit Präxist auf die Zeit überblenden. Ja, dann wir neigen uns ja dem Schluss. Ein bisschen Zeit brauchen wir noch für Fragen.
+
+00:37:16.000 --> 00:37:23.000
+ Wir haben jetzt hier, man hat das vielleicht in den Folien gesehen, Alva hatte immer einen schwarzen Hintergrund. Mein Hintergrund war weiß.
+
+00:37:23.000 --> 00:37:30.000
+ Der Mythos Datenschutz ist schwarz-weiß. So einfach ist es halt oft nicht, weil es kommt drauf an auf den jeweiligen Fall.
+
+00:37:30.000 --> 00:37:39.000
+ Manchmal gibt es auch gerade bei Interessenabwägungen, da kann ein Ergebnis tatsächlich offen sein. Dann fragt man drei Juristen, kriegt fünf Antworten.
+
+00:37:39.000 --> 00:37:47.000
+ Das ist schon denkbar. Also gerade wenn es Abwägungsfragen sind. Dann fragt man den Techniker und kriegt nochmal drei Antworten.
+
+00:37:47.000 --> 00:38:01.000
+ Ja, von daher bleibt es komplex. Aber das können wir zusammenfassen. Großartig verhindern, töten oder ähnliches, das leistet der Datenschutz nicht. Das will er auch gar nicht leisten.
+
+00:38:01.000 --> 00:38:09.000
+ Er will Menschen schützen. Datenschutz ist kein Supergrundrecht. Das wäre ein Mythos, dass man sagt Datenschutz schlägt alles.
+
+00:38:09.000 --> 00:38:19.000
+ Datenschutz ist ein Grundrecht, mit vielen anderen Grundrechten auch. Und dann muss man eben, wenn die konfligieren, da können Eigentumsrechte noch eine Rolle spielen.
+
+00:38:19.000 --> 00:38:27.000
+ Ganz viele Dinge, die in unserer Verfassung, auch in der Grundrechtecharta drin stehen. Es ist also ein Grundrecht von vielen, aber ein sehr wichtiges.
+
+00:38:27.000 --> 00:38:41.000
+ Es schlägt nicht alles. Kein Supergrundrecht, das ist vielleicht die Menschenwürde, aber nicht der Datenschutz. Das wäre unser finales Standing. Datenschutz ist super und ein Grundrecht.
+
+00:38:41.000 --> 00:38:46.000
+ Also kein Supergrundrecht, super ist er und ein Grundrecht. Vielen Dank. Jetzt haben wir Zeit für Fragen.
+
+00:38:54.000 --> 00:39:00.000
+ Ich dachte nur noch fünf Minuten, theoretisch. Okay, ich mache es ganz kurz. Vielen, vielen Dank.
+
+00:39:00.000 --> 00:39:11.000
+ Zu dem letzten Punkt direkt. Das Schwimmbad, da könnte man beim Reingehen noch informieren, aber es gibt ja Fälle wie zum Beispiel am Südkreuz, wo Gesichtserkennung gemacht wurde.
+
+00:39:11.000 --> 00:39:21.000
+ Und da kann man im öffentlichen Nahverkehr nicht hingehen. Ich weiß gar nicht, was da rausgekommen ist. Es war irgendwie groß in den Medien vor ein paar Jahren und irgendwie habe ich nichts mehr davon gehört.
+
+00:39:21.000 --> 00:39:28.000
+ Ich glaube, es steht immer noch eine Warnung irgendwo, wenn man reinläuft. Hier Pilotprojekt der Bahn, aber ist da irgendwie was passiert?
+
+00:39:28.000 --> 00:39:38.000
+ Hast du den aktuellen Stand? Ich habe da aktuell den Stand auch nicht. Ich weiß auch auswendig tatsächlich nicht, was die Berliner Kolleginnen und Kollegen dazu sagen.
+
+00:39:38.000 --> 00:39:47.000
+ Wäre vielleicht ein Grund, dass wir dazu einfach mal nichts sagen, um denen nicht da zuständigkeitshalber irgendwie rein zu pfuschen. Aber klar, man muss sich das halt genau anschauen.
+
+00:39:47.000 --> 00:39:52.000
+ Auch welche Maßnahmen dann passieren, was passiert technisch da etc. etc.
+
+00:39:52.000 --> 00:40:01.000
+ Was in dem Fall wirklich sehr, sehr interessant ist und da muss man dann auch in den Maschinenraum und sich mit Leuten unterhalten, die wirklich auch Ahnung davon haben.
+
+00:40:01.000 --> 00:40:14.000
+ Man liest dann Aussagen, das ist jetzt wieder Pressewissen, zu wie groß sind die Trefferraten? Also wie viele Terroristen fische ich raus? Und auf der anderen Seite, was sind defaults positives?
+
+00:40:14.000 --> 00:40:28.000
+ Und dann muss man sich genau angucken, wie diese Zahlen zustande kommen. Und dann muss man sich am Ende des Tages die Frage stellen, wie viele false positives bin ich als Gesellschaft bereit zu tragen?
+
+00:40:28.000 --> 00:40:39.000
+ Ja, das ist ja immer die Frage, wer an solche VS-Daten, also ich meine, Behörden können ja dann auch, wenn sie Fragen haben, kriegen die schon Informationen.
+
+00:40:39.000 --> 00:40:52.000
+ Ja, ich glaube, die Behörden kommen dann schon ran an die Info. Aber das muss in der Bewertung wieder reinkommen und dann hilft es halt nicht, wenn nur dran steht 99,9% Trefferrate, wenn dann trotzdem 100 pro Tag falsch rausgefischt werden.
+
+00:40:52.000 --> 00:41:01.000
+ Vielleicht eine ganz kleine Kurzelabschlussfrage, dann sind wir am Ende der Zeit. Wer hat eine Kurze? Da vorne.
+
+00:41:04.000 --> 00:41:24.000
+ Moin, wenn man eine Website betreibt mit einem Team, nicht sicher gehen kann, dass das Team irgendwann auf der Website zum Beispiel ein YouTube-Video einbettet, sonst auf Datenspaßsamkeit achtet, aber dem vorbeugen möchte, kann man dann in der Datenschutzerklärung darauf schon hinweisen, obwohl das YouTube-Video noch nicht eingebunden ist.
+
+00:41:24.000 --> 00:41:39.000
+ Mir würde gesagt, es wäre falsch, das einzubinden in der Datenschutzerklärung zum Beispiel, wenn das nicht passiert. Weil ja der User, die Userin, vielleicht die einen das YouTube-Video sehen, die anderen nicht. Das heißt, von außen kann man das eigentlich eh nicht beurteilen.
+
+00:41:39.000 --> 00:41:55.000
+ Also grundsätzlich, ich mach mal, grundsätzlich würde ich sagen, sollte man es nicht aufnehmen, jetzt kommt es natürlich wieder drauf an. Also die richtige Antwort. Die Frage, will man überhaupt diese Möglichkeit den Leuten offen lassen?
+
+00:41:55.000 --> 00:42:08.000
+ Ansonsten würde ich sagen, mit CSP, also Content Security Policy, unterbinden, dann kann das nicht aus Versehen passieren, sondern nur, wenn es dann ganz bewusst ist, muss man sich nochmal genau überlegen, aber dann kann man sich genau auf die Situation einstellen.
+
+00:42:08.000 --> 00:42:22.000
+ Also wenn man jetzt nur die Situation hat, wir wollen es eigentlich nicht, es könnte aber sein, dass es jemand aus Versehen macht, CSP setzen und dann kriegt man es halt mit den meisten, nahezu allen aktuellen Browsern, allen aktuellen Browsern nicht mehr zu sehen und dann ist die Problematik nicht mehr da.
+
+00:42:22.000 --> 00:42:41.000
+ Ja, da ist im Kleintat, aber da würde ich jetzt sagen, in einem konkreten Fall, das würde mir als Maßnahme in diesem Fall ausreichen. Grundsätzlich zumindest mal. Einzelfall kann es ja wieder anders sein, aber grundsätzlich würde das ausreichen und ansonsten müsste man sich das halt anschauen.
+
+00:42:41.000 --> 00:42:46.000
+ Also die Datenschutzerklärung sollte eigentlich knapp und kurz sein und nicht ganz viel Laberlaber, was keiner versteht.
+
+00:42:46.000 --> 00:42:58.000
+ Vielen Dank, bevor jetzt noch mehr Laberlaber kommt. Das war eine zu gute Vorlage, sorry. Also ihr seid sicherlich noch ein paar Minuten in der Nähe, dass wir noch Fragen...
+
+00:42:58.000 --> 00:43:00.000
+ Wir sind auch morgen nochmal da.
+
+00:43:00.000 --> 00:43:14.000
+ Wir haben morgen eine Sprechstunde bei Digitalcourage drüben, da haben wir gar nichts vorbereitet, sondern da kommt einfach her, wenn ihr wollt und stellt tolle Fragen oder auch nicht so tolle und wir versuchen zu antworten.
+
+00:43:14.000 --> 00:43:20.000
+ Es gibt nur tolle Antworten. Und ihr macht also sicherlich jetzt noch ein paar Minuten hier neben der Bühne wahrscheinlich.
+
+00:43:20.000 --> 00:43:34.000
+ Ansonsten, wir sind bereit, den nächsten Talk vorzubereiten, der jetzt auch schon in 13 Minuten hier dran ist und deswegen tut mir leid, aber vielen, vielen Dank für die Zeit, die ihr euch genommen habt und es war ein toller Vortrag.
+
+00:43:34.000 --> 00:43:36.000
+ Danke.
+
+00:43:37.000 --> 00:43:41.000
+ [Musik]
+

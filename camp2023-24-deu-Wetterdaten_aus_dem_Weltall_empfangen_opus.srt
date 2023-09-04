@@ -1,0 +1,712 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:36,160
+ Wenn wir über Weltraumtechnik nachdenken, dann klingt das so nach unglaublich
+
+3
+00:00:36,160 --> 00:00:42,200
+ schwierigen großen Herausforderungen. Die Menge an Satelliten, die über unseren Kopf hinwegfliegen,
+
+4
+00:00:42,200 --> 00:00:48,840
+ das ist Rocket Science. Das kann man nicht verstehen. Konrad wird uns das Gegenteil beweisen,
+
+5
+00:00:48,840 --> 00:00:53,600
+ indem er uns erklärt, wie wir mit einfachsten Mitteln Wetterdaten aus dem Weltall empfangen
+
+6
+00:00:53,600 --> 00:01:04,040
+ können. Viel Spaß! Ja, dann vielen Dank für die Einführung und genau, mein Name ist Konrad,
+
+7
+00:01:04,040 --> 00:01:11,400
+ Neeride, EIM. Und wer von euch hat gestern eigentlich während dem Sturm eine Wetter-App mit
+
+8
+00:01:11,400 --> 00:01:19,360
+ Regenradar gesehen? Vielleicht mal Stimmungsumfrage. Ja, also eigentlich hat von jeder jeder von euch
+
+9
+00:01:19,360 --> 00:01:24,160
+ schon mal Kontakt zu der Technologie gehabt und so was Ähnliches werde ich euch heute auch zeigen,
+
+10
+00:01:24,160 --> 00:01:28,720
+ dass man das eigentlich nicht über große Wetterinstitute machen muss, sondern eigentlich mit
+
+11
+00:01:28,720 --> 00:01:34,320
+ den Sachen, die hier schon vor mir aufgebaut sind. Genauer, wie ging es eigentlich damit los? Also
+
+12
+00:01:34,320 --> 00:01:41,320
+ wo kommt das eigentlich her? Genau, das ziemlich unscheinbare Bild war das erste Bild von unserer
+
+13
+00:01:41,320 --> 00:01:48,160
+ Erde, von einem Satelliten. Das hat die NASA damals in den 60er Jahren. Ende der 50er Jahre
+
+14
+00:01:48,160 --> 00:01:56,040
+ wurde die Technik entwickelt und 1960 wurde der erste Satellit gestartet, der mit TV-Kameras
+
+15
+00:01:56,040 --> 00:02:02,240
+ ausgestattet war, um erst mal zu schauen, ob die Technologie überhaupt funktioniert und ob das
+
+16
+00:02:02,240 --> 00:02:09,840
+ überhaupt sinnvoll sein kann, Wetterdaten von der Erde, also aus dem Weltall zu senden und das hat
+
+17
+00:02:09,840 --> 00:02:16,600
+ sich eben rausgestellt, dass das ziemlich gut funktioniert hat. Der Satellit hat fast 70 Tage
+
+18
+00:02:16,600 --> 00:02:23,840
+ durchgehalten, hat eben einfach ganz standardmäßige TV-Kameras an Bord gehabt und man konnte gut die
+
+19
+00:02:23,840 --> 00:02:29,680
+ Wolken sehen, wie eben auch gezeigt und er hat sich eben ständig um unsere Erde bewegt und die
+
+20
+00:02:29,680 --> 00:02:35,880
+ Bilder ausgesendet. Eigentlich ziemlich ähnlich zu dem Verfahren, wo ich heute noch mal genauer
+
+21
+00:02:35,880 --> 00:02:43,240
+ darauf eingehen werde. Genau, aber wo fliegen die Satelliten eigentlich? Es wurde eingangs schon
+
+22
+00:02:43,240 --> 00:02:49,280
+ erwähnt, dass die Satelliten eben ständig über uns fliegen, aber wo eigentlich? Genau, hier sind
+
+23
+00:02:49,280 --> 00:02:56,880
+ schon verschiedene Orbits auf der Slide angedeutet, aber zuerst einmal für Wettersatelliten ein sehr
+
+24
+00:02:56,880 --> 00:03:04,120
+ wichtiger Orbit, eben der Low Earth Orbit. Der ist eben bei einer Höhe unter 2000 Kilometern und da
+
+25
+00:03:04,120 --> 00:03:12,040
+ fliegt der Satellit eben ständig um unseren Planeten und wir können ihn dann hier von uns aus zehn
+
+26
+00:03:12,040 --> 00:03:19,880
+ Minuten sehen, von einem Azimut zum anderen, also der im Optimalfall sehen wir ihn dann ganz niedrig
+
+27
+00:03:19,880 --> 00:03:24,880
+ im Süden oder im Norden. Es kommt dann immer darauf an, in welche Richtung er fliegt und er fliegt dann
+
+28
+00:03:24,880 --> 00:03:30,880
+ immer über die Polkappen. Da gibt es gleich noch mal eine schöne Animation, ebenso ähnlich wie die
+
+29
+00:03:30,880 --> 00:03:37,920
+ ISS. Der Vorteil für Wettersatelliten ist eben, dass wir eine gute Auflösung haben. Das hängt auch mit
+
+30
+00:03:37,920 --> 00:03:44,120
+ der Wellenlänge von Licht zusammen, wie gut wir das eben aufnehmen können und der Low Earth Orbit
+
+31
+00:03:44,120 --> 00:03:51,720
+ erlaubt eben eine sehr gute Auflösung und ist vor allem überall auf der Welt verfügbar. Die
+
+32
+00:03:51,720 --> 00:03:56,800
+ Satelliten, die wir uns später noch mal anschauen, das ist eine Flotte aus drei Satelliten und die
+
+33
+00:03:56,800 --> 00:04:03,400
+ fliegen eben einmal morgens und einmal abends über jeden Punkt der Erde, also in Europa zumindest.
+
+34
+00:04:03,400 --> 00:04:09,120
+ Und an anderen Orten, zu anderen Uhrzeiten, aber jeder Ort der Erde wird eben zweimal von den
+
+35
+00:04:09,120 --> 00:04:15,320
+ Satelliten überflogen. Genau, so sehen eben die Bilder aus, die der Satellit produziert. Jetzt hier
+
+36
+00:04:15,320 --> 00:04:20,720
+ ein Bild aus dem sichtbaren Spektrum, also das, was wir auch sehen würden, wenn wir jetzt in 500
+
+37
+00:04:20,720 --> 00:04:25,960
+ Kilometer Höhe uns befinden würden und nur schwarz-weiß sehen könnten, so würde das ungefähr
+
+38
+00:04:25,960 --> 00:04:32,240
+ aussehen. Man sieht eben ganz Europa, da ist eben eine Karte drunter gelegt, dass man sich besser
+
+39
+00:04:32,240 --> 00:04:38,880
+ orientieren kann. Das ist West- und Nordeuropa, Großbritannien und da sieht man eben ziemlich
+
+40
+00:04:38,880 --> 00:04:43,760
+ gut die Wolken. Aber wir kommen später noch mal darauf, wie genau, welche Instrumente eigentlich
+
+41
+00:04:43,760 --> 00:04:52,720
+ sich für was eignen. Genau, so sieht das eben aus. Die Erde oder der Satellit dreht sich und er fliegt
+
+42
+00:04:52,720 --> 00:04:56,760
+ eben einmal um die Erde, immer drum herum. Das ist eben noch mal eine schöne Animation.
+
+43
+00:04:56,760 --> 00:05:03,160
+ Ein weiterer Orbit, der für Satelliten eben interessant ist, vor allem für Wettersatelliten,
+
+44
+00:05:03,160 --> 00:05:07,880
+ nicht für Kommunikationssatelliten, wir sprechen immer nur über Wettersatelliten heute, ist eben
+
+45
+00:05:07,880 --> 00:05:15,200
+ der geostationäre Orbit. Der ist in 36.000 Kilometer über dem Äquator. Da ist auch noch
+
+46
+00:05:15,200 --> 00:05:23,320
+ mal eine Grafik. Der rote Teil ganz hinten ist der geostationäre Orbit und der Satellit bewegt
+
+47
+00:05:23,320 --> 00:05:30,160
+ sich dabei eben immer genauso schnell wie die Erde. Also für uns bleibt er halt immer am gleichen
+
+48
+00:05:30,160 --> 00:05:34,960
+ Punkt im Himmel stehen. Das hat man ja auch bei TV-Satelliten so, dass man seine Salidenschüssel
+
+49
+00:05:34,960 --> 00:05:41,600
+ einmal ausrichtet und dann nie wieder irgendwie was verändern muss. Genau. Und der Nachteil dabei ist,
+
+50
+00:05:41,600 --> 00:05:47,200
+ dass über Europa es leider keine Satelliten gibt, die man so einfach empfangen kann. Deswegen bleiben
+
+51
+00:05:47,200 --> 00:05:51,280
+ wir heute erstmal bei dem Low Earth Orbit, wo man eben schauen muss, dass der Satellit gerade über
+
+52
+00:05:51,280 --> 00:05:57,160
+ einem ist, bevor man ihn empfangen kann. Aber bei den geostationären Satelliten ist halt ein großer
+
+53
+00:05:57,160 --> 00:06:02,320
+ Vorteil, dass sie halt ständig einen Teil unserer Erde beobachten können. Also wenn er jetzt zum
+
+54
+00:06:02,320 --> 00:06:09,960
+ Beispiel über über dem Äquator gibt es einige Wettersatelliten, über den afrikanischen
+
+55
+00:06:09,960 --> 00:06:15,600
+ Äquator gibt es einige Satelliten, die sind halt sehr schwer zu empfangen, aber die decken halt
+
+56
+00:06:15,600 --> 00:06:23,480
+ den gesamten Planeten ab. Genau, das wie hier auch nochmal sichtbar jetzt hier über Amerika und
+
+57
+00:06:23,480 --> 00:06:31,160
+ Südamerika. Genau, der deckt dann halt eben, der rotiert sich halt wie die Erde und deckt dann eben
+
+58
+00:06:31,160 --> 00:06:36,640
+ diesen Teil ab. Und so sehen dann diese Bilder aus. Das ist jetzt vom Wettersatelliten GOES 16,
+
+59
+00:06:36,640 --> 00:06:43,600
+ der ist über Amerika und ist eben über dem pazifischen Ozean auf dem Äquator positioniert.
+
+60
+00:06:43,600 --> 00:06:50,440
+ Genau, so viel erstmal zu den Orbits. Was wird dann jetzt überhaupt oder welche Instrumente gibt
+
+61
+00:06:50,440 --> 00:06:56,160
+ es denn überhaupt? Ein sehr wichtiges Instrument sind eben die Radiometer und da hat sich seit dem
+
+62
+00:06:56,160 --> 00:07:04,840
+ ersten Satelliten sehr viel getan. Unter anderem ist es AVHRR, ein multispektrales Instrument,
+
+63
+00:07:04,840 --> 00:07:11,160
+ das heißt, er unterteilt eben das Spektrum, was wir sehen können, in ganz viele verschiedene
+
+64
+00:07:11,160 --> 00:07:17,920
+ Kanäle auf. Also man kann dann, es gibt zum Beispiel die Sea-Level Surface Temperature,
+
+65
+00:07:17,920 --> 00:07:24,400
+ die hat eben eine ganz bestimmte Wellenlänge, wenn sie eine ganz bestimmte Temperatur hat. Also kann
+
+66
+00:07:24,400 --> 00:07:30,920
+ man viel genauere Vorhersagen treffen, wie zum Beispiel die Wolken charakterisiert sind, wie
+
+67
+00:07:30,920 --> 00:07:38,920
+ die Vegetation auf der Erde ist und das kann man alles aus den Infrarot- und sichtbaren Spektralbereichen
+
+68
+00:07:38,920 --> 00:07:50,600
+ ableiten. Und das können diese AVHRR, also Advanced High Resolution Radiometers, genau können das eben
+
+69
+00:07:50,600 --> 00:07:57,000
+ sehr gut aufzeichnen. Genau, aber die Daten werden jetzt also aufgezeichnet auf dem Satelliten, aber
+
+70
+00:07:57,000 --> 00:08:02,600
+ wie werden die jetzt auf die Erde gesendet? Keine Angst, das ist jetzt das letzte theoretische
+
+71
+00:08:02,600 --> 00:08:09,760
+ Segment und dann zeige ich euch, wie man das praktisch macht. Genau, zum einen mit APT, also
+
+72
+00:08:09,760 --> 00:08:14,800
+ Automatic Picture Transmission, den Standard, der wurde ungefähr zeitgleich mit dem ersten
+
+73
+00:08:14,800 --> 00:08:20,480
+ Satelliten entwickelt, also auch in den 60er Jahren. Das ist eben ein analogisches Übertragungsverfahren,
+
+74
+00:08:20,480 --> 00:08:33,120
+ also wenn man dem zuhört, dann hat er so "bibibibi", so hört er sich an und da werden eben die Farbtöne in verschiedenen, also in Werten von 0 bis 100
+
+75
+00:08:33,120 --> 00:08:39,680
+ abgebildet und der Standard ist aber sehr verlustreich, weil die Daten eben nur schwarz-weiß
+
+76
+00:08:39,680 --> 00:08:46,520
+ übertragen werden können, weil eben ein Wert von 0 bis 100 Prozent eben angegeben wird immer in den
+
+77
+00:08:46,520 --> 00:08:57,160
+ Farbbereichen und die analogen Übertragungsverfahren, das Signal verschiebt sich immer weiter und dadurch
+
+78
+00:08:57,160 --> 00:08:58,800
+ verschiebt sich auch die
+
+79
+00:08:59,140 --> 00:09:03,340
+ von dem Signal, die eben die Informationen codiert.
+
+80
+00:09:03,340 --> 00:09:07,460
+ Und dadurch verschieben sich die Bilder in der Software immer, also muss man das
+
+81
+00:09:07,460 --> 00:09:12,940
+ auch korrigieren. Deswegen sieht man da unten immer so Korrektur-Ränder, an denen
+
+82
+00:09:12,940 --> 00:09:16,940
+ die Software dann festmacht, wie sie die Bilder eben korrigieren soll. Und das ist
+
+83
+00:09:16,940 --> 00:09:21,100
+ eben dieser Doppler-Shift. Also das berühmte Beispiel ist halt Krankenwagen.
+
+84
+00:09:21,100 --> 00:09:24,980
+ Da hört man auch, dass wenn er vorbeifährt, wenn er vor einem ist, dass da
+
+85
+00:09:24,980 --> 00:09:30,300
+ die Frequenz anders ist, als wenn er schon vorbeigefahren ist. Und das
+
+86
+00:09:30,300 --> 00:09:34,980
+ gleiche passiert bei den Saliten auch, wenn die sich da mit sehr hohen
+
+87
+00:09:34,980 --> 00:09:38,540
+ Geschwindigkeiten über uns drüber bewegen, dass sich die Signale auch da
+
+88
+00:09:38,540 --> 00:09:41,860
+ leicht verschieben. Und das kann man in diesen analogen Übertragungsverfahren
+
+89
+00:09:41,860 --> 00:09:46,420
+ eben nicht ausgleichen. Die Daten, die da übertragen werden, sind zum einen
+
+90
+00:09:46,420 --> 00:09:50,940
+ Infrarotdaten auf dem einen Kanal. Also es werden immer zwei Bilder gesendet,
+
+91
+00:09:50,940 --> 00:09:57,660
+ ein Infrarotkanal und ein tageszeitabhängiger Kanal. Tagsüber ist es
+
+92
+00:09:57,660 --> 00:10:01,380
+ eben das sichtbare Licht, das was wir zuerst gesehen hatten. Und nachts ist es
+
+93
+00:10:01,380 --> 00:10:06,300
+ eben ein Nah-Infrarotbereich. Und dann kann man eben da auch die Temperatur
+
+94
+00:10:06,300 --> 00:10:11,460
+ zum Beispiel ableiten. Genau. Und was man eben auch mit so einer Antenne machen kann,
+
+95
+00:10:11,460 --> 00:10:18,020
+ ist die Low-Rate Picture Transmission. Das wurde in Russland entwickelt und ist
+
+96
+00:10:18,020 --> 00:10:24,860
+ eben ein digitales Übertragungsverfahren. Also die Daten werden da eben noch mal
+
+97
+00:10:24,860 --> 00:10:29,460
+ verpackt in digitale Signale, die dann eben von den Saliten ausgesendet werden.
+
+98
+00:10:29,460 --> 00:10:32,860
+ Das kann man damit auch empfangen. Das Problem ist nur, man braucht einen
+
+99
+00:10:32,860 --> 00:10:40,060
+ Computer, einen SR, um das eben dann zu demodulieren. Aber man hat eben als Vorteil
+
+100
+00:10:40,060 --> 00:10:44,500
+ die zwölffache Auflösung und eben drei Kanäle, die zeitgleich übertragen
+
+101
+00:10:44,500 --> 00:10:49,620
+ werden bei den Saliten, um die es jetzt geht. Man könnte das anders auch
+
+102
+00:10:49,620 --> 00:10:54,500
+ einteilen. Also man hat 60 Kilobit pro Sekunde, die man eben maximal senden
+
+103
+00:10:54,500 --> 00:10:59,540
+ könnte. Und 40 Kilobit pro Sekunde werden aktuell für Bilddaten gesendet.
+
+104
+00:10:59,540 --> 00:11:05,780
+ Und genau, so sehen die da unten ungefähr aus. Die Aussetzer, das ist
+
+105
+00:11:05,780 --> 00:11:08,660
+ unbedingt von den Saliten, weil der schon ein bisschen älter ist. Der hat dann
+
+106
+00:11:08,660 --> 00:11:17,460
+ immer technische Probleme. Ja genau, aber jetzt gibt es einen neuen, den Metor M2-3.
+
+107
+00:11:17,460 --> 00:11:21,300
+ Vielleicht können wir den auch noch mal im Laufe des Camps empfangen.
+
+108
+00:11:21,300 --> 00:11:25,940
+ Genau, aber wie geht das jetzt eigentlich? Praktisch, wie kann man das praktisch
+
+109
+00:11:25,940 --> 00:11:30,980
+ umsetzen? Zu allererst braucht man eben eine Antenne. Die Wetterdaten werden
+
+110
+00:11:30,980 --> 00:11:39,140
+ ungefähr in dem Bereich von FM-Radiowellen oder noch darunter sind eben
+
+111
+00:11:39,140 --> 00:11:44,420
+ auch Flugfrequenzen. Also die Frequenzen, die die Tower benutzen, sind ganz in der
+
+112
+00:11:44,420 --> 00:11:52,140
+ Nähe. Und die sind ungefähr in dem Bereich bei zwei Meter. Und optimale
+
+113
+00:11:52,140 --> 00:11:58,540
+ Antennen sind immer bei Lambda halbe, weil sie eben nicht zu lang sind. Und die
+
+114
+00:11:58,540 --> 00:12:06,180
+ Antenne, die hier jetzt ist, ist eine V-Depol-Antenne. Also die hat eben auch
+
+115
+00:12:06,180 --> 00:12:11,580
+ die Wellenlänge Lambda halbe, also 35 Zentimeter hat jedes Stück, also insgesamt
+
+116
+00:12:11,580 --> 00:12:17,420
+ ein Meter, also genau die Hälfte von zwei Metern. Und die ist eben so
+
+117
+00:12:17,420 --> 00:12:21,700
+ geformt. Die einfachste Antenne wäre natürlich einfach zwei Stäbe, die einen
+
+118
+00:12:21,700 --> 00:12:27,900
+ Meter lang sind. Aber die hat eben noch diese V-Form, die ist bei 120 Grad.
+
+119
+00:12:27,900 --> 00:12:31,860
+ Weil sich dadurch eben die Empfangskarakteristiken stärker auf
+
+120
+00:12:31,860 --> 00:12:38,100
+ diese orbitale Form des Satellitens einstellt. Also wenn der Satellit, der
+
+121
+00:12:38,100 --> 00:12:42,700
+ fliegt, also man müsste diese Antenne dann eben Richtung Norden ausrichten. Und der
+
+122
+00:12:42,700 --> 00:12:48,460
+ Satellit fliegt immer von Norden nach Süden oder von Süden nach Norden. Und
+
+123
+00:12:48,460 --> 00:12:55,260
+ darauf kann man eben, stellt dieser Winkel eben die sich ein und man erhält eben
+
+124
+00:12:55,260 --> 00:13:02,500
+ bessere Empfangsergebnisse. Genau. Und dann geht das Signal eben weiter in so ein
+
+125
+00:13:02,500 --> 00:13:08,700
+ STR. Das kann eigentlich jedes STR sein. Die Frequenzen sind eben so
+
+126
+00:13:08,700 --> 00:13:15,780
+ nah an dem Radioband dran, dass man da eigentlich relativ viel Auswahl hat.
+
+127
+00:13:15,780 --> 00:13:23,860
+ Der abgebildete STR ist zum Beispiel einfach in einem DVB-T-Stick, die in China oder auch
+
+128
+00:13:23,860 --> 00:13:30,020
+ in vielen Ländern einfach für Fernsehempfang genutzt werden. Die kann man
+
+129
+00:13:30,020 --> 00:13:34,060
+ einfach an seinen Laptop anstecken und dann kann man Fernsehen damit gucken.
+
+130
+00:13:34,060 --> 00:13:39,020
+ Lustig bei denen ist, dass dafür gibt es eben spezielle Treiber, die diese
+
+131
+00:13:39,020 --> 00:13:43,340
+ Limitationen eben umgehen, die diese Sticks mit sich bringen. Und dann kann man
+
+132
+00:13:43,340 --> 00:13:49,980
+ die meisten Sticks unterstützen, glaube ich, 30 Megahertz bis 1 Gigahertz.
+
+133
+00:13:49,980 --> 00:13:55,100
+ Der unterstützt sogar noch weniger, weil das eine spezielle Version ist. Aber die meisten
+
+134
+00:13:55,100 --> 00:14:00,660
+ decken halt dieses Spektrum genau ab, was man da eben empfangen will. Und das ist
+
+135
+00:14:00,660 --> 00:14:03,940
+ eben eine sehr günstige Alternative, um das zu empfangen.
+
+136
+00:14:03,940 --> 00:14:09,340
+ Genau. Aber der erste Schritt ist eben zu wissen, wo der Satellit ist. Da gibt es
+
+137
+00:14:09,340 --> 00:14:15,860
+ eben ganz viele Programme. Hier ist die Software G-Predict, die das macht. Und da
+
+138
+00:14:15,860 --> 00:14:19,700
+ gibt man eben ein, an welchen Satelliten man interessiert ist. In dem Fall
+
+139
+00:14:19,700 --> 00:14:27,060
+ senden die NOAA-Flotte, das sind eben die Nachfolger der TRIOS-Serie, senden eben noch
+
+140
+00:14:27,060 --> 00:14:31,980
+ diese APT, also diese analogen Signale aus. Und da muss man halt schauen, dass
+
+141
+00:14:31,980 --> 00:14:37,500
+ sie eben über einem drüber sind, während des Zeitraums. Da gibt es eben
+
+142
+00:14:37,500 --> 00:14:41,980
+ viele Software, auch fürs Handy, die einem da eben im Tagesverlauf zeigt, welche
+
+143
+00:14:41,980 --> 00:14:46,780
+ Satelliten gerade verfügbar sind. Und sobald der Satellit eben über einem drüber
+
+144
+00:14:46,780 --> 00:14:50,420
+ ist, riechen die Antenne am besten nach Norden aus, ungefähr einen Meter über
+
+145
+00:14:50,420 --> 00:14:54,340
+ dem Grund, weil da die Empfangseigenschaften am besten sind, weil
+
+146
+00:14:54,340 --> 00:15:01,420
+ der Boden auch als Erde fungiert teilweise. Genau. Und dann während des
+
+147
+00:15:01,420 --> 00:15:06,700
+ Überfluges sieht dann das Signal so aus. In der Software werden also die
+
+148
+00:15:06,700 --> 00:15:14,860
+ Radiosignale werden da eben angezeigt. Und dann kann man das halt einfach aufnehmen
+
+149
+00:15:14,860 --> 00:15:18,460
+ und der speichert das dann ab. Oder man kann das auch direkt an einem Programm
+
+150
+00:15:18,460 --> 00:15:23,740
+ weitergeben, was eben diese Daten direkt verarbeitet. Da gibt es auch viele
+
+151
+00:15:23,740 --> 00:15:27,580
+ Software. Wir können vielleicht, wenn euch das interessiert, auch später noch mal
+
+152
+00:15:27,580 --> 00:15:34,300
+ darauf eingehen, wie das genau dekodiert wird und demoduliert wird. Aber genau,
+
+153
+00:15:34,300 --> 00:15:38,780
+ es reicht glaube ich jetzt einfach erst mal zu wissen, dass diese Signale das
+
+154
+00:15:38,780 --> 00:15:44,260
+ Wetterbild kodieren. Und das wird eben am Anfang, ist es ziemlich schwach, weil der
+
+155
+00:15:44,260 --> 00:15:51,300
+ Satellit auch weiter weg ist von einem. Und je weiter der Pass eben voranschreitet,
+
+156
+00:15:51,300 --> 00:15:57,100
+ desto stärker wird eben das Signal. Das ist eben ein Signal, wo der Satellit
+
+157
+00:15:57,100 --> 00:16:01,380
+ eben relativ hoch schon im Orbit-Stand. Genau, deswegen ist es so stark.
+
+158
+00:16:01,380 --> 00:16:06,020
+ Genau, ja und dann muss man eben das Signal demodulieren. Da können wir später
+
+159
+00:16:06,020 --> 00:16:09,780
+ vielleicht auch noch mal drauf eingehen. Und dann hat man eben am Ende ein ziemlich
+
+160
+00:16:09,780 --> 00:16:16,180
+ schräges Resultat, wegen dem Doppler-Shift. Also die Frequenzen verschieben sich da.
+
+161
+00:16:16,180 --> 00:16:23,020
+ Und das kann man eben korrigieren und erhält am Ende, vielleicht können wir noch mal
+
+162
+00:16:23,020 --> 00:16:28,060
+ noch mal zurück. Ich habe jetzt glaube ich keine extra Folie dafür. Und dann
+
+163
+00:16:28,060 --> 00:16:36,340
+ erhält man eben so ein Bild raus. Genau, ja und für die Zukunft
+
+164
+00:16:36,340 --> 00:16:46,380
+ senden die Satelliten auch noch andere Übertragungsverfahren aus, die eben
+
+165
+00:16:46,380 --> 00:16:54,740
+ deutlich mehr von der Auflösung der Radiometer übertragen. Das ist eben
+
+166
+00:16:54,740 --> 00:17:00,500
+ High Resolution Pictrotons Mission. Das hat jeder Satellit, der vor 20 Jahren
+
+167
+00:17:00,500 --> 00:17:03,660
+ gestartet wurde, auch schon an Bord. Aber das ist deutlich komplizierter. Die
+
+168
+00:17:03,660 --> 00:17:07,220
+ Signale sind teilweise so schwach, dass man Satellitenschüsseln braucht, die eben
+
+169
+00:17:07,220 --> 00:17:15,500
+ viel Signal bündeln und dann eben in eine Feed, die eben in dem Centerpoint
+
+170
+00:17:15,500 --> 00:17:21,660
+ befestigt wird, bündeln. Und dann erhält man natürlich, weil die Drähte auch
+
+171
+00:17:21,660 --> 00:17:25,940
+ ziemlich klein sind, die man dann im Endeffekt nutzt, auch noch ein relativ
+
+172
+00:17:25,940 --> 00:17:31,780
+ nutzbares Bild. Genau, das war jetzt einer meiner ersten Versuche von HRPT.
+
+173
+00:17:31,780 --> 00:17:39,300
+ Genau, aber so weit erstmal. Wir können dann später auch, wenn Interesse besteht,
+
+174
+00:17:39,300 --> 00:17:43,820
+ das mal praktisch machen. Ich habe geschaut, in 50 Minuten ist der nächste
+
+175
+00:17:43,820 --> 00:17:48,660
+ Überflug. Genau, vielen Dank für die Aufmerksamkeit.
+
+176
+00:17:49,140 --> 00:17:53,140
+ [Applaus]
+
+177
+00:17:53,620 --> 00:17:56,700
+ [Musik]
+
+178
+00:17:56,700 --> 00:17:59,700
+ SWR 2020
+

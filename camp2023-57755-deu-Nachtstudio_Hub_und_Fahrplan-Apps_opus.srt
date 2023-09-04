@@ -1,0 +1,2400 @@
+1
+00:00:00,000 --> 00:00:02,560
+ Okay, ich kriege das Zeichen, dass wir live sind.
+
+2
+00:00:02,560 --> 00:00:04,560
+ Wir machen hier noch ein bisschen Nachtstudio.
+
+3
+00:00:04,560 --> 00:00:08,880
+ Dazu muss jemand die Sonne noch ausschalten, aber das passiert gleich.
+
+4
+00:00:08,880 --> 00:00:09,880
+ Sonnenuntergang ist jetzt...
+
+5
+00:00:09,880 --> 00:00:11,280
+ Ja, ja, tatsächlich.
+
+6
+00:00:11,280 --> 00:00:12,920
+ Also das hier ist eigentlich ein Podcast.
+
+7
+00:00:12,920 --> 00:00:16,240
+ Wir hatten auch die Headset, die üblichen Headset,
+
+8
+00:00:16,240 --> 00:00:19,000
+ die man zum Podcast in den deutschsprachigen Raum aufziehen könnte,
+
+9
+00:00:19,000 --> 00:00:20,520
+ die da drüben im Regal.
+
+10
+00:00:20,520 --> 00:00:25,480
+ Aber wir wollten uns der Technik, also uns selber, nicht zu schwer machen,
+
+11
+00:00:25,480 --> 00:00:28,800
+ weil wir jetzt haben das Studio jetzt sozusagen im Selbstfahrermodus.
+
+12
+00:00:28,800 --> 00:00:31,880
+ Ich habe hier irgendwie lustige Dinge vor mir,
+
+13
+00:00:31,880 --> 00:00:37,440
+ mit der ich in der Theorie auch Hilfe, Kameras umschalten kann.
+
+14
+00:00:37,440 --> 00:00:42,200
+ Also momentan sitzt noch jemand da hinten, aber je nachdem wie lange wir brauchen...
+
+15
+00:00:42,200 --> 00:00:44,520
+ Die jeden Dinge, die wir trinken und wir...
+
+16
+00:00:44,520 --> 00:00:46,880
+ Genau, müssen wir uns dann selber bedienen.
+
+17
+00:00:46,880 --> 00:00:49,680
+ Und wir können auch hier, ich habe hier ein Tablet,
+
+18
+00:00:49,680 --> 00:00:52,000
+ da kann man ein bisschen auf das Diagramm schauen.
+
+19
+00:00:52,000 --> 00:00:53,760
+ Aber bevor wir das machen inhaltlich,
+
+20
+00:00:53,760 --> 00:00:58,000
+ erst mal Hallo in dieser weiteren Folge von "Keine Ahnung,
+
+21
+00:00:58,000 --> 00:00:59,720
+ wie wir die Senderei jeweils genennt haben".
+
+22
+00:00:59,720 --> 00:01:02,680
+ Ich glaube, C3 Systeme oder...
+
+23
+00:01:02,680 --> 00:01:04,160
+ Doch, wir hatten beim letzten Mal schon keinen Namen.
+
+24
+00:01:04,160 --> 00:01:05,120
+ Ja, genau.
+
+25
+00:01:05,120 --> 00:01:06,000
+ Es ist so ein...
+
+26
+00:01:06,000 --> 00:01:09,200
+ Also die Idee ist, es gibt auf Media2City einen Kanal,
+
+27
+00:01:09,200 --> 00:01:11,640
+ in den auch Podcasts laufen können.
+
+28
+00:01:11,640 --> 00:01:14,560
+ Die Folge ist eigentlich fix und fertig zur Veröffentlichung.
+
+29
+00:01:14,560 --> 00:01:18,120
+ Es fehlt nur jemand, der sich auskennt, wie man einen Podlauf-Player
+
+30
+00:01:18,120 --> 00:01:21,520
+ in einen Rails-Plugin, also Media2City, einbindet,
+
+31
+00:01:21,520 --> 00:01:24,080
+ ohne dass ich immer den Quelltextein kopieren muss.
+
+32
+00:01:24,080 --> 00:01:25,400
+ Und das...
+
+33
+00:01:25,400 --> 00:01:28,000
+ Das ist der Handbetrieb-Teil jetzt auch, Studio-Handbetrieb,
+
+34
+00:01:28,000 --> 00:01:28,960
+ Rails-Handbetrieb.
+
+35
+00:01:28,960 --> 00:01:29,760
+ Genau.
+
+36
+00:01:29,760 --> 00:01:31,280
+ Ja, wie das halt immer so ist.
+
+37
+00:01:31,280 --> 00:01:34,600
+ Aber genau, ich stelle euch am besten erst mal vor.
+
+38
+00:01:34,600 --> 00:01:36,240
+ Hey, kennt ihr aus der anderen Folge schon,
+
+39
+00:01:36,240 --> 00:01:37,800
+ aber gerne nochmal für die...
+
+40
+00:01:37,800 --> 00:01:40,240
+ Ja, Hey, hey, wir...
+
+41
+00:01:40,240 --> 00:01:42,440
+ Ja, RFA-Panaborn.
+
+42
+00:01:42,440 --> 00:01:45,840
+ Ja, ich habe diesen Hub mitentwickelt,
+
+43
+00:01:45,840 --> 00:01:47,080
+ da kommen wir aber gleich noch zu.
+
+44
+00:01:47,080 --> 00:01:49,360
+ Ja.
+
+45
+00:01:49,360 --> 00:01:51,080
+ Ja, ich glaube, alles weitere kommt gleich.
+
+46
+00:01:51,080 --> 00:01:53,400
+ Ja, genau, keine Spoiler sozusagen.
+
+47
+00:01:53,400 --> 00:01:55,520
+ Wir versuchen einen Spannungsbogen auf...
+
+48
+00:01:55,520 --> 00:01:58,320
+ Nein, tun wir nicht, aber wir machen das chronologisch.
+
+49
+00:01:58,320 --> 00:01:59,440
+ Genau.
+
+50
+00:01:59,440 --> 00:02:02,560
+ Und ich Toto Thomas eigentlich, aber Toto natürlich...
+
+51
+00:02:02,560 --> 00:02:05,560
+ Genau, ich bin eigentlich Abentwickler,
+
+52
+00:02:05,560 --> 00:02:07,000
+ ursprünglich mal iOS-Abentwickler,
+
+53
+00:02:07,000 --> 00:02:09,200
+ und jetzt habe ich eine Firma mit iOS-Abdevelopment,
+
+54
+00:02:09,200 --> 00:02:12,240
+ aber genau, bin aus Berlin,
+
+55
+00:02:12,240 --> 00:02:14,920
+ auch am CTC Berlin, so ein bisschen aktiv,
+
+56
+00:02:14,920 --> 00:02:17,960
+ und mache jetzt schon seit vielen, vielen Jahren die iOS,
+
+57
+00:02:17,960 --> 00:02:20,640
+ iPad und inzwischen auch MacOS ab fürs Camp
+
+58
+00:02:20,640 --> 00:02:22,200
+ und natürlich auch für den Kongress.
+
+59
+00:02:22,200 --> 00:02:25,480
+ Also, genau, und auch dieses Jahr,
+
+60
+00:02:25,480 --> 00:02:27,720
+ ja, genau, viele Jahre, da ist es hier,
+
+61
+00:02:27,720 --> 00:02:31,080
+ wir haben eben vorhin überlegt, 30 C3, 31 C3,
+
+62
+00:02:31,080 --> 00:02:32,080
+ ich bin mir ehrlich gesagt nicht ganz sicher.
+
+63
+00:02:32,080 --> 00:02:35,960
+ Genau, ich glaube, 30 C3 waren noch so vier Säle im CCH,
+
+64
+00:02:35,960 --> 00:02:37,040
+ es steht da auch so schön.
+
+65
+00:02:37,040 --> 00:02:38,520
+ Ja, genau.
+
+66
+00:02:38,520 --> 00:02:42,040
+ Und 31 C3 hatte ich tatsächlich dicht an wahrgenommen,
+
+67
+00:02:42,040 --> 00:02:44,000
+ weil da gab es das erste Mal ein Sendet-Centrum,
+
+68
+00:02:44,000 --> 00:02:45,000
+ also eine extra Bühne.
+
+69
+00:02:45,000 --> 00:02:45,840
+ Richtig, genau.
+
+70
+00:02:45,840 --> 00:02:49,240
+ Und ich glaube, die habe ich gemercht,
+
+71
+00:02:49,240 --> 00:02:53,760
+ das war damals noch irgendein Excel-File oder so ein Cloud-Ding oder so was,
+
+72
+00:02:53,760 --> 00:02:56,360
+ und da hatte ich schon angefangen, irgendwie Dinge zu schreiben,
+
+73
+00:02:56,360 --> 00:02:57,280
+ ich habe da sich mal nachgeschaut,
+
+74
+00:02:57,280 --> 00:03:01,360
+ meine erste E-Mail mit Camp-Kontakt war tatsächlich,
+
+75
+00:03:01,360 --> 00:03:05,600
+ im Wiki gab es eine Liste von Terminen, Self-Organized Sessions,
+
+76
+00:03:05,600 --> 00:03:07,920
+ und da kann man die nicht auch mal als Chat-Ulixmail anbieten.
+
+77
+00:03:07,920 --> 00:03:11,400
+ Ja, das hat er mit Wikidata, also das, ich erinnere mich, nicht.
+
+78
+00:03:11,400 --> 00:03:13,880
+ Nein, das Plugin hieß tatsächlich Semantic Media Wiki.
+
+79
+00:03:13,880 --> 00:03:14,880
+ Ja, ja, richtig, genau.
+
+80
+00:03:14,880 --> 00:03:17,560
+ Und das hat man damals Stück für Stück eingebaut,
+
+81
+00:03:17,560 --> 00:03:21,080
+ in der Hoffnung, dass mehr Leute an diesem Zeug mitmachen.
+
+82
+00:03:21,080 --> 00:03:24,120
+ Aber Semantic Media Wiki ist so ein Monster,
+
+83
+00:03:24,120 --> 00:03:26,280
+ dass irgendwie dann im kompletten Umfeld
+
+84
+00:03:26,280 --> 00:03:28,840
+ nur drei Leute oder vier Leute verstanden haben.
+
+85
+00:03:28,840 --> 00:03:30,960
+ Aber wir haben ja erst mal alles versucht, damit zu bauen,
+
+86
+00:03:30,960 --> 00:03:32,960
+ und da die Arpies aber so schlimm waren,
+
+87
+00:03:32,960 --> 00:03:35,520
+ also ich glaube, wir hatten dann die Self-Organized Sessions
+
+88
+00:03:35,520 --> 00:03:37,840
+ als Event und als Session modelliert,
+
+89
+00:03:37,840 --> 00:03:41,000
+ und die konnte man mit der eingebauten Arpie-Mechanik nicht merken.
+
+90
+00:03:41,000 --> 00:03:43,640
+ Und das war der Grund, warum wir dann, dass sich dieses Python...
+
+91
+00:03:43,640 --> 00:03:48,320
+ Das ist ja so RDF bei Kram und so, das ist ja ziemlich akademisch gewesen damals.
+
+92
+00:03:48,320 --> 00:03:50,240
+ Das ist eine schöne Beschreibung.
+
+93
+00:03:50,240 --> 00:03:53,160
+ In die Show notes packt man noch einen Link
+
+94
+00:03:53,160 --> 00:03:55,160
+ von dem Erfinder von Semantic Media Wiki,
+
+95
+00:03:55,160 --> 00:03:57,920
+ da kam neulich so ein nettes History-Review daraus,
+
+96
+00:03:57,920 --> 00:03:59,600
+ der jetzt auch Wikidata macht,
+
+97
+00:03:59,600 --> 00:04:02,200
+ dann später versucht, es nochmal richtig zu machen.
+
+98
+00:04:02,200 --> 00:04:04,200
+ Okay, das ist eine böse Formel.
+
+99
+00:04:04,200 --> 00:04:06,680
+ Ja, V2 halt, das erste Mal ist ja immer so viel.
+
+100
+00:04:06,680 --> 00:04:09,480
+ Ja, genau, aber wir hatten halt irgendwie zwei Endpunkte,
+
+101
+00:04:09,480 --> 00:04:11,640
+ einmal Sessions, einmal Events,
+
+102
+00:04:11,640 --> 00:04:15,640
+ wobei halt so sogenannte Events, wenn ne Session mehrfach stattfindet.
+
+103
+00:04:15,640 --> 00:04:17,640
+ Die haben wir nicht zusammenbekommen,
+
+104
+00:04:17,640 --> 00:04:19,640
+ dafür braucht es dieses Python-Skript,
+
+105
+00:04:19,640 --> 00:04:21,640
+ und damit hat das Ganze angefangen,
+
+106
+00:04:21,640 --> 00:04:23,640
+ dass ich das Zeug gemercht habe.
+
+107
+00:04:23,640 --> 00:04:28,120
+ Und ja, die Skripte sind, glaube ich, so 31, 32 entstanden.
+
+108
+00:04:28,120 --> 00:04:30,840
+ Also ich hab hier irgendwo unten die Commit-Historie.
+
+109
+00:04:30,840 --> 00:04:31,840
+ Oh Gott.
+
+110
+00:04:31,840 --> 00:04:33,840
+ Ja, da hab ich dann irgendwie...
+
+111
+00:04:33,840 --> 00:04:38,840
+ Im Februar, ja, ich hab das Reform-Woll einmal neu aufgesetzt.
+
+112
+00:04:38,840 --> 00:04:42,080
+ Ich glaub, das sieht ungefähr so aus wie das "Mittelwehr-Repo"
+
+113
+00:04:42,080 --> 00:04:44,080
+ von der Abz, so derzeit. - Ja.
+
+114
+00:04:44,080 --> 00:04:47,840
+ Weil die Abz ist ja ursprünglich gar nicht für den Kongress entstanden,
+
+115
+00:04:47,840 --> 00:04:51,840
+ die IOS-Abz, sondern für die Republika 2014.
+
+116
+00:04:51,840 --> 00:04:56,840
+ Da hatten nämlich Michael Kral und jetzt, die auch hier sind,
+
+117
+00:04:56,840 --> 00:05:00,840
+ die hatten nämlich so ein Redata-Format gebaut.
+
+118
+00:05:00,840 --> 00:05:03,840
+ Und das hab ich dann gedacht, das wäre doch schön,
+
+119
+00:05:03,840 --> 00:05:05,840
+ dann eine artliche Abzuhaben.
+
+120
+00:05:05,840 --> 00:05:09,840
+ All People Ulf Burmeier hatte vorher eine abgebaut für die Republika.
+
+121
+00:05:09,840 --> 00:05:11,840
+ Was? - Ja, natürlich.
+
+122
+00:05:11,840 --> 00:05:13,840
+ Der hatte den Twitter-Account Republika ab
+
+123
+00:05:13,840 --> 00:05:16,840
+ und hat mir den dann gegeben, weil er keine Zeit mehr hatte.
+
+124
+00:05:16,840 --> 00:05:18,840
+ Genau.
+
+125
+00:05:18,840 --> 00:05:22,840
+ Und dann hab ich die gebaut, weil ich halt ein bisschen Zeit hatte
+
+126
+00:05:22,840 --> 00:05:24,840
+ und hab das so gebastelt.
+
+127
+00:05:24,840 --> 00:05:27,840
+ Viel von dem Quellcode hab ich jetzt in Swift umgeschrieben
+
+128
+00:05:27,840 --> 00:05:29,840
+ vor ein paar Wochen.
+
+129
+00:05:29,840 --> 00:05:32,840
+ Vieles ist noch drinnen drin gewesen, ziemlich altes Zeug.
+
+130
+00:05:32,840 --> 00:05:35,840
+ Genau, also z.B. wenn man auf dem iPad die IOS-Abz benutzt,
+
+131
+00:05:35,840 --> 00:05:38,840
+ dann hast du ja so einen Fahrplan, diesen 2D-Fahrplan.
+
+132
+00:05:38,840 --> 00:05:40,840
+ Und auf dem Telefon kann man das auch einschalten,
+
+133
+00:05:40,840 --> 00:05:42,840
+ wie ich immer jedem erklären muss.
+
+134
+00:05:42,840 --> 00:05:44,840
+ Das wüsste ich auch besser machen.
+
+135
+00:05:44,840 --> 00:05:47,840
+ Und da hab ich diesen Code, den Layoutcode und so,
+
+136
+00:05:47,840 --> 00:05:49,840
+ das ist alles noch von damals.
+
+137
+00:05:49,840 --> 00:05:53,840
+ Also das ist halt so Pixel-Layout-Berechnung für so einen Fahrplan.
+
+138
+00:05:53,840 --> 00:05:56,840
+ Und das hab ich nicht angefasst seitdem eigentlich.
+
+139
+00:05:56,840 --> 00:05:59,840
+ Also aus der Zeit neu geschrieben in Swift, weil aus Gründen.
+
+140
+00:05:59,840 --> 00:06:03,840
+ Genau, das war so 2015, da waren die Skripte dann da.
+
+141
+00:06:03,840 --> 00:06:06,840
+ Und tatsächlich war in dem selben, naja, in dem darausfolgenden Jahr,
+
+142
+00:06:06,840 --> 00:06:09,840
+ weil der Kongress ja immer noch formal zum Jahr davor zählt,
+
+143
+00:06:09,840 --> 00:06:11,840
+ das Camp 2015.
+
+144
+00:06:11,840 --> 00:06:13,840
+ Und als ich das vorbereitet habe damals,
+
+145
+00:06:13,840 --> 00:06:15,840
+ hab ich diese lustige Zeichnung gefunden,
+
+146
+00:06:15,840 --> 00:06:19,840
+ wo ich so mal ein bisschen versucht hab zu skizzieren,
+
+147
+00:06:19,840 --> 00:06:21,840
+ wie das Ganze damals lief.
+
+148
+00:06:21,840 --> 00:06:23,840
+ Also wir hatten dieses Public-Wiki.
+
+149
+00:06:23,840 --> 00:06:25,840
+ Also damals wurde noch jedes Jahr
+
+150
+00:06:25,840 --> 00:06:28,840
+ eine eigene Media-Wiki-Instanz kopiert und angefasst.
+
+151
+00:06:28,840 --> 00:06:31,840
+ Sowohl öffentlich als auch intern, aber die Internet ignoriert.
+
+152
+00:06:31,840 --> 00:06:34,840
+ Auch damals gab's schon ein BEL, stell ich gerade fest,
+
+153
+00:06:34,840 --> 00:06:37,840
+ das dann danach "Street Headed Monkeys" und jetzt "UFO" heißt,
+
+154
+00:06:37,840 --> 00:06:39,840
+ wenn ich das richtig im Kopf habe.
+
+155
+00:06:39,840 --> 00:06:43,840
+ Und wir hatten damals auch schon eine Maps-City, der Wok.de,
+
+156
+00:06:43,840 --> 00:06:46,840
+ das war tatsächlich eine komplette Open-Street-Map-Instanz,
+
+157
+00:06:46,840 --> 00:06:50,840
+ wo ich damals halt dann alles hier in einer eigenen OSM-Instanz gemapt habe.
+
+158
+00:06:50,840 --> 00:06:54,840
+ Ja, es gab verschiedene Wege, viel...
+
+159
+00:06:54,840 --> 00:06:57,840
+ Und Wiki to Schedule war das Python-Skript, das bewähnte, ne?
+
+160
+00:06:57,840 --> 00:06:59,840
+ Ja, das war so ein Monster, ne?
+
+161
+00:06:59,840 --> 00:07:01,840
+ Das ist ein richtig langes...
+
+162
+00:07:01,840 --> 00:07:03,840
+ Ja, ich habe es sigma-refracted in der Zwischenzeit,
+
+163
+00:07:03,840 --> 00:07:06,840
+ aber das war so mein Projekt um Pysons zu laden eigentlich.
+
+164
+00:07:06,840 --> 00:07:10,840
+ Nachdem ich die... Ich glaub, die erste Fassung war tatsächlich PHP.
+
+165
+00:07:10,840 --> 00:07:15,840
+ Aber jetzt noch davor, als noch nicht mal Semantic Media Wiki im Einsatz war,
+
+166
+00:07:15,840 --> 00:07:17,840
+ sondern einfach nur eine Wikitabelle,
+
+167
+00:07:17,840 --> 00:07:20,840
+ wo dann die Leute ja immer die Spalten kaputt gemacht haben.
+
+168
+00:07:20,840 --> 00:07:24,840
+ Und ja, wir müssen noch mal zurück an die Regie genau.
+
+169
+00:07:24,840 --> 00:07:27,840
+ Und hier sieht man jetzt diesen Redata Scraper auch schon.
+
+170
+00:07:27,840 --> 00:07:30,840
+ Genau, das war halt so ein... Das hatte ursprünglich, glaube ich, jetzt geschrieben.
+
+171
+00:07:30,840 --> 00:07:34,840
+ Das war so ein JavaScript-File, was die Daten wiederum hat.
+
+172
+00:07:34,840 --> 00:07:38,840
+ Am oben ging es rein, die Daten, und unten kam dann Kram aus,
+
+173
+00:07:38,840 --> 00:07:41,840
+ und dann war das noch... Dann wurde das noch in einen Couch-DB
+
+174
+00:07:41,840 --> 00:07:43,840
+ of all things reingepackt.
+
+175
+00:07:43,840 --> 00:07:45,840
+ Und dann war das noch so eine Couch-DB-Instanzlaufnahme,
+
+176
+00:07:45,840 --> 00:07:47,840
+ weil man halt damit benutzen wollte.
+
+177
+00:07:47,840 --> 00:07:49,840
+ Ich weiß nicht gar nicht, warum er das gemacht hat.
+
+178
+00:07:49,840 --> 00:07:51,840
+ Auf jeden Fall war es halt da. In der Couch-DB wurde das dann importiert,
+
+179
+00:07:51,840 --> 00:07:53,840
+ von diesem Skript.
+
+180
+00:07:53,840 --> 00:07:55,840
+ Und dann habe ich halt für jeden Kongress und jede Republik
+
+181
+00:07:55,840 --> 00:07:58,840
+ ja immer dieses Skript genommen, wie er das passiert, kopiert.
+
+182
+00:07:58,840 --> 00:08:00,840
+ Und dann hatte jeder so seine speziellen...
+
+183
+00:08:00,840 --> 00:08:02,840
+ Dann habe ich immer so irgendwelche Patches reingemacht,
+
+184
+00:08:02,840 --> 00:08:04,840
+ wenn irgendwas kaputt war und so.
+
+185
+00:08:04,840 --> 00:08:07,840
+ Das war dann irgendwann so 900 Zeilen lang oder 2000 Zeilen lang,
+
+186
+00:08:07,840 --> 00:08:09,840
+ und dann konntest du nicht mehr debuggen.
+
+187
+00:08:09,840 --> 00:08:12,840
+ Ich weiß gar nicht, wann ich das neu geschrieben habe.
+
+188
+00:08:12,840 --> 00:08:15,840
+ Ich glaube so 2018 oder 2017 gewesen habe ich gesagt,
+
+189
+00:08:15,840 --> 00:08:18,840
+ ich schmeiße die jetzt weg und mache es ordentlich und neu in TypeScript und so.
+
+190
+00:08:18,840 --> 00:08:20,840
+ Und dann... Also ja, gut. Aber...
+
+191
+00:08:20,840 --> 00:08:23,840
+ Das ist die Basis für das jetzige. - Das ist die jetzige, genau.
+
+192
+00:08:23,840 --> 00:08:25,840
+ Das ist jetzt so ein Plagebild. Du kannst das halt in Importer haben,
+
+193
+00:08:25,840 --> 00:08:27,840
+ kannst da verschiedene versprachen.
+
+194
+00:08:27,840 --> 00:08:29,840
+ Deswegen kann ich jetzt, wenn jetzt... Wir hatten ja jetzt das Problem mit dem Hub,
+
+195
+00:08:29,840 --> 00:08:31,840
+ dass das am Anfang nicht ging. - Spoiler, Spoiler!
+
+196
+00:08:31,840 --> 00:08:33,840
+ Spoiler, kommt nachher.
+
+197
+00:08:33,840 --> 00:08:35,840
+ Da konnte ich das einfach reinplagen.
+
+198
+00:08:35,840 --> 00:08:37,840
+ Ja, genau. Also wir sehen ja hier auch,
+
+199
+00:08:37,840 --> 00:08:39,840
+ was wir jetzt heute auch noch so haben,
+
+200
+00:08:39,840 --> 00:08:42,840
+ wir haben einen komplett anderen Weg für die iOS-App als für die Android-App.
+
+201
+00:08:42,840 --> 00:08:45,840
+ Für die Android-App gab es diese, damals hieß sie noch anders,
+
+202
+00:08:45,840 --> 00:08:48,840
+ Kongressfahrplan oder so, inzwischen heißt sie Eventfahrplan.
+
+203
+00:08:48,840 --> 00:08:51,840
+ Das war doch früher aus Pentabuf ursprünglich mal
+
+204
+00:08:51,840 --> 00:08:54,840
+ und dann irgendwann aus FRAP und dann irgendwann aus...
+
+205
+00:08:54,840 --> 00:08:56,840
+ Also das selbe XML-Format, immer noch das gleiche.
+
+206
+00:08:56,840 --> 00:09:00,840
+ Genau, wir haben also nicht genau das gleiche, aber immer erweitert.
+
+207
+00:09:00,840 --> 00:09:02,840
+ Und es gibt tatsächlich auch noch eine Konferenz,
+
+208
+00:09:02,840 --> 00:09:04,840
+ die immer noch Pentabuf einsetzt,
+
+209
+00:09:04,840 --> 00:09:06,840
+ highly customized.
+
+210
+00:09:06,840 --> 00:09:09,840
+ Und zwar die FOSDEM in Brüssel.
+
+211
+00:09:09,840 --> 00:09:11,840
+ Ach was? - Ja, genau.
+
+212
+00:09:11,840 --> 00:09:13,840
+ Ich habe neulich festgestellt, dass der Mensch,
+
+213
+00:09:13,840 --> 00:09:16,840
+ einer der Leute, da aus München kommt und hat ihm angeschrieben,
+
+214
+00:09:16,840 --> 00:09:19,840
+ wann plant ihr denn das Pentabuf endlich abzulösen?
+
+215
+00:09:19,840 --> 00:09:21,840
+ Und meint sie, ja, dieses Jahr war irgendwie schwierig,
+
+216
+00:09:21,840 --> 00:09:24,840
+ weil es musste erst aus Corona auswachen und so.
+
+217
+00:09:24,840 --> 00:09:29,840
+ Aber nächstes oder übernächstes Jahr ersetzen sie dann auch das Pentabuf da.
+
+218
+00:09:29,840 --> 00:09:31,840
+ Die haben halt auch ihr Engelsystem reingebaut
+
+219
+00:09:31,840 --> 00:09:34,840
+ und noch irgendwie der Raum ist Vollmeldung.
+
+220
+00:09:34,840 --> 00:09:37,840
+ Und da gibt es dann wieder ein komplett eigenes App-Ecosystem
+
+221
+00:09:37,840 --> 00:09:40,840
+ für diesen speziellen Fork, der...
+
+222
+00:09:40,840 --> 00:09:43,840
+ Ich habe auch irgendwann mal für Tim, glaube ich,
+
+223
+00:09:43,840 --> 00:09:46,840
+ auch für irgendeine Kongressplanung mal so ein Plugin für Pentabuf geschrieben,
+
+224
+00:09:46,840 --> 00:09:49,840
+ was irgendwie PDFs generiert hat, damit man das Ausdrucken
+
+225
+00:09:49,840 --> 00:09:51,840
+ und auf dem Boden den Fahrplan machen konnte.
+
+226
+00:09:51,840 --> 00:09:53,840
+ Lange her. - Das gibt es tatsächlich immer noch,
+
+227
+00:09:53,840 --> 00:09:56,840
+ dieses Plugin in einer gewissen Form. - Oh, unheimlich mit meinem Code.
+
+228
+00:09:56,840 --> 00:09:58,840
+ Das war nämlich nicht schön. - Nee, nee.
+
+229
+00:09:58,840 --> 00:10:00,840
+ Da hätte man noch mal andere Leute einladen können
+
+230
+00:10:00,840 --> 00:10:02,840
+ für die Geschichte der Fahrplan-Apps.
+
+231
+00:10:02,840 --> 00:10:05,840
+ Aber wir wollen jetzt nur gegen diesen Unterschied bleiben.
+
+232
+00:10:05,840 --> 00:10:10,840
+ Genau. 32.3 ist der Code dann natürlich wiederverwendet worden.
+
+233
+00:10:10,840 --> 00:10:14,840
+ Und dann sind wir ja umgezogen. Und mit diesem Umzug...
+
+234
+00:10:14,840 --> 00:10:19,840
+ Also ich habe zu viele Hüte auf, stelle ich immer wieder fest.
+
+235
+00:10:19,840 --> 00:10:22,840
+ Und unter anderem war ich auch in diesem Lust im Wikiteam.
+
+236
+00:10:22,840 --> 00:10:25,840
+ Und langsam ist das Semantic Media Wiki halt einfach...
+
+237
+00:10:25,840 --> 00:10:28,840
+ Es haben immer nur dieselben drei Leute gemacht.
+
+238
+00:10:28,840 --> 00:10:30,840
+ Das war nicht erweiterbar genug.
+
+239
+00:10:30,840 --> 00:10:33,840
+ Manchmal hätte man doch halt irgendwie einfach
+
+240
+00:10:33,840 --> 00:10:37,840
+ so ein Standard-Framework in Python oder sonst irgendwas nehmen müssen.
+
+241
+00:10:37,840 --> 00:10:40,840
+ Und ein Team, das sehr darunter gelitten hat,
+
+242
+00:10:40,840 --> 00:10:42,840
+ war halt das Assembly-Planungsteam.
+
+243
+00:10:42,840 --> 00:10:44,840
+ Und da ist irgendwie...
+
+244
+00:10:44,840 --> 00:10:46,840
+ Wie ist da eigentlich der Kontakt zustande gekommen?
+
+245
+00:10:46,840 --> 00:10:49,840
+ Hey... - Das war ein Regio-Treffen,
+
+246
+00:10:49,840 --> 00:10:53,840
+ wo wir zusammensaßen.
+
+247
+00:10:53,840 --> 00:10:56,840
+ Und irgendwie war da eine entspannte Runde.
+
+248
+00:10:56,840 --> 00:11:00,840
+ Und damals SMTV war es, der sagte,
+
+249
+00:11:00,840 --> 00:11:04,840
+ das ist irgendwie total doof, irgendwie, wie das gerade läuft.
+
+250
+00:11:04,840 --> 00:11:06,840
+ Man müsste doch eigentlich irgendwie mal eine App bauen,
+
+251
+00:11:06,840 --> 00:11:08,840
+ wo die Leute irgendwie die Daten eintragen können,
+
+252
+00:11:08,840 --> 00:11:10,840
+ dass das irgendwie ein Formular ist,
+
+253
+00:11:10,840 --> 00:11:12,840
+ wo wir dann quasi die Anmeldung akzeptieren können,
+
+254
+00:11:12,840 --> 00:11:14,840
+ im Sinne von wir nehmen das Village an,
+
+255
+00:11:14,840 --> 00:11:16,840
+ oder die Assembly an auf dem Kongress.
+
+256
+00:11:16,840 --> 00:11:19,840
+ Und können dann vielleicht noch mit denen ein bisschen kommunizieren.
+
+257
+00:11:19,840 --> 00:11:23,840
+ Aber eigentlich brauchen wir nur eine, böse formuliert,
+
+258
+00:11:23,840 --> 00:11:25,840
+ etwas bessere Exit-Tabelle.
+
+259
+00:11:25,840 --> 00:11:27,840
+ Mit ein bisschen Individualisierung.
+
+260
+00:11:27,840 --> 00:11:30,840
+ Strukturierte Daten. - Strukturierte Daten, genau.
+
+261
+00:11:30,840 --> 00:11:32,840
+ Gut, das hat man im Wiki grundsätzlich auch.
+
+262
+00:11:32,840 --> 00:11:34,840
+ Aber da kann halt dann jeder editieren,
+
+263
+00:11:34,840 --> 00:11:36,840
+ mit Annehmen, Ablehnen und so weiter.
+
+264
+00:11:36,840 --> 00:11:41,840
+ Und naja, ich hatte zu der Zeit auch schon relativ viel Django gemacht.
+
+265
+00:11:41,840 --> 00:11:43,840
+ Und dann haben wir halt einfach mal,
+
+266
+00:11:43,840 --> 00:11:47,840
+ während er so erzählt, da habe ich einfach mal so einen Mock abgebaut mit Django.
+
+267
+00:11:47,840 --> 00:11:49,840
+ Also ein paar Models runtergeschrieben.
+
+268
+00:11:49,840 --> 00:11:51,840
+ Genau, ein paar Models einfach mal grob hingenbaut.
+
+269
+00:11:51,840 --> 00:11:53,840
+ Und gar nicht groß Interaktionslogik oder sonst was.
+
+270
+00:11:53,840 --> 00:11:57,840
+ Und dann einfach nur über diesen eingebauten Django-Admin halt gesagt,
+
+271
+00:11:57,840 --> 00:11:59,840
+ okay, ist das jetzt so ungefähr schon mal das,
+
+272
+00:11:59,840 --> 00:12:01,840
+ was du gerade abbilden willst?
+
+273
+00:12:01,840 --> 00:12:05,840
+ Und ich weiß noch, wie er so ein bisschen sprachlos wurde.
+
+274
+00:12:05,840 --> 00:12:08,840
+ Und als er dann merkte, so Moment, das ist gerade nicht nur,
+
+275
+00:12:08,840 --> 00:12:11,840
+ das ist schon irgendwie interaktiv, was hier gerade läuft.
+
+276
+00:12:11,840 --> 00:12:13,840
+ Vor allem, er hat da halt auch gemerkt,
+
+277
+00:12:13,840 --> 00:12:16,840
+ wie viel Aufwand das in Mathematik-Wiki immer war.
+
+278
+00:12:16,840 --> 00:12:20,840
+ Und du machst das einfach in Python, Django, Framework kurz runter.
+
+279
+00:12:20,840 --> 00:12:22,840
+ Genau, und man hat ja wirklich gesehen,
+
+280
+00:12:22,840 --> 00:12:25,840
+ so wie in dem Moment, dass irgendwie diese Erwartungshaltung
+
+281
+00:12:25,840 --> 00:12:27,840
+ gerade überhaupt nicht mehr gematcht hat.
+
+282
+00:12:27,840 --> 00:12:31,840
+ Und dann haben wir halt in den folgenden Monaten das weiter ausgebaut.
+
+283
+00:12:31,840 --> 00:12:38,840
+ Und dann auf dem 34C3 ist dann dieses, also wir waren halt wenig kreativ beim Namen.
+
+284
+00:12:38,840 --> 00:12:40,840
+ Wir haben halt Assembly-Anmeldungen.
+
+285
+00:12:40,840 --> 00:12:44,840
+ Ja, wir müssen jetzt irgendwas mit Assembly, wir packen ein X hinter.
+
+286
+00:12:44,840 --> 00:12:46,840
+ Okay, schreibweise müssen wir das anpassen.
+
+287
+00:12:46,840 --> 00:12:48,840
+ Okay, Assemblix.
+
+288
+00:12:48,840 --> 00:12:51,840
+ Also da war nicht wirklich viel Kreativität hinter.
+
+289
+00:12:51,840 --> 00:12:57,840
+ Das haben wir ja dann auf dem 34C3 schon für die Assembly-Anmeldung benutzt.
+
+290
+00:12:57,840 --> 00:13:05,840
+ 35C3 genauso, mit ja leichten Erweiterungen, irgendwie bei irgendwelche Exports, die dann dazukamen.
+
+291
+00:13:05,840 --> 00:13:10,840
+ Aber das war halt immer noch ein Tool einfach nur für die Assembly-Orger,
+
+292
+00:13:10,840 --> 00:13:18,840
+ wo wir ja die Anmeldung geplant haben, abgelehnt haben, Dinge aggregiert haben.
+
+293
+00:13:18,840 --> 00:13:21,840
+ Und dann konnten dann irgendwann in den späteren Versionen auch anfangen,
+
+294
+00:13:21,840 --> 00:13:23,840
+ halt irgendwie befreundete Assemblix zu markieren,
+
+295
+00:13:23,840 --> 00:13:26,840
+ was halt dann für die gesamte Planung benutzt wurde,
+
+296
+00:13:26,840 --> 00:13:31,840
+ um befreundete oder thematisch zueinander passende Assemblix zu gruppieren,
+
+297
+00:13:31,840 --> 00:13:33,840
+ dass die halt nah beieinander sind.
+
+298
+00:13:33,840 --> 00:13:37,840
+ Und ja, da haben wir halt angefangen.
+
+299
+00:13:37,840 --> 00:13:43,840
+ Das Tool an sich ist relativ statisch geblieben,
+
+300
+00:13:43,840 --> 00:13:47,840
+ weil es halt einfach erst mal die Funktion, die es haben sollte, einfach erfüllt hat.
+
+301
+00:13:47,840 --> 00:13:49,840
+ Nämlich Assembly-Anmeldung.
+
+302
+00:13:49,840 --> 00:13:54,840
+ Und ja, dazwischen war dann halt vor vier Jahren das Camp.
+
+303
+00:13:54,840 --> 00:13:58,840
+ Da saßen wir dann in einer Vierer-Runde zusammen und...
+
+304
+00:13:58,840 --> 00:14:01,840
+ Genau, SMTV, Hey, ich und...
+
+305
+00:14:01,840 --> 00:14:02,840
+ Also Russ.
+
+306
+00:14:02,840 --> 00:14:04,840
+ Russ, der jetzt auch die Camp-Karte macht.
+
+307
+00:14:04,840 --> 00:14:06,840
+ Der jetzt auch die Camp-Karte macht, genau.
+
+308
+00:14:06,840 --> 00:14:13,840
+ Und ja, wir haben uns halt mal ein bisschen zusammen getroffen und haben halt mal ein bisschen unterhalten,
+
+309
+00:14:13,840 --> 00:14:19,840
+ wie müsste man das eigentlich mal ein bisschen größer machen, dass man diese Assemblix-Anmeldung und diese Karte...
+
+310
+00:14:19,840 --> 00:14:24,840
+ Weil, also, wenn man Assemblix anmeldet, dass man die dann auf eine Karte bringt, wäre ja eigentlich mal fantastisch.
+
+311
+00:14:24,840 --> 00:14:26,840
+ Und natürlich.
+
+312
+00:14:26,840 --> 00:14:30,840
+ Und haben wir halt mal angefangen, ein bisschen rumzuspinnen, was man so machen könnte.
+
+313
+00:14:30,840 --> 00:14:35,840
+ Und naja, gut, im Sommer, dann... Nächste Kongress war schon nah dran.
+
+314
+00:14:35,840 --> 00:14:41,840
+ Wir waren auch eher so ein bisschen wegen Karte auch in dem Camp-Modus, wegen Outdoor.
+
+315
+00:14:41,840 --> 00:14:44,840
+ Naja, die Camp ab 15 war auch die erste.
+
+316
+00:14:44,840 --> 00:14:49,840
+ Da habe ich dann gleich erstmal einen POI-Karte eingeführt, aus genauer dem Grund, weil es ist halt auf dem Camp einfach viel wichtiger.
+
+317
+00:14:49,840 --> 00:14:55,840
+ Genau, und ja, da haben wir halt uns ein bisschen mal Gedanken gemacht, wie müsste das grob aussehen.
+
+318
+00:14:55,840 --> 00:15:02,840
+ Letztendlich, auf dem 36.3., ist aber dann auch wieder einfach das normale Assemblix noch wieder gelaufen.
+
+319
+00:15:02,840 --> 00:15:08,840
+ Und ja, dann kam so eine Pandemie um die Ecke, aber... Ja.
+
+320
+00:15:08,840 --> 00:15:12,840
+ Genau, ich hatte dann mal so ein bisschen... Also wir haben dann irgendwie so...
+
+321
+00:15:12,840 --> 00:15:14,840
+ War klar, okay, wir müssen irgendwas machen.
+
+322
+00:15:14,840 --> 00:15:18,840
+ Und dann hatte ich hier angefangen, so ein bisschen Altitude ja gar nicht zu schreiben.
+
+323
+00:15:18,840 --> 00:15:25,840
+ Also so, wir haben eigentlich mit dem Namen rumgetan, ob es das Hub oder Plattform oder was weiß ich noch haben und wie sich alles verbindet.
+
+324
+00:15:25,840 --> 00:15:35,840
+ Und wir dachten dann, ja, okay, es gibt dann eine Listen-Clienten, ein Welt-Frontend-Tee ist es damals noch, also irgendwie eine 2D-Karte oder so was.
+
+325
+00:15:35,840 --> 00:15:39,840
+ Damals wirklich so noch mit, ja, müssen wir wohl alles selber bauen.
+
+326
+00:15:39,840 --> 00:15:43,840
+ Und es gab auch die Idee, so ein Text-Adventure, ja, sich doch als Alternative einen Klein zu haben, ja.
+
+327
+00:15:43,840 --> 00:15:47,840
+ Und das Hub wirklich nur so als Mittelwehr, der halt eine definierte Schnittstelle hat.
+
+328
+00:15:47,840 --> 00:15:56,840
+ Aber eben auch schon, wie man es hier so ein bisschen sieht, mit einer... mit einer... mit der bekannten Schnittstelle, mit der Shettle-Chasing.
+
+329
+00:15:56,840 --> 00:15:59,840
+ Ich kann ja eigentlich ja auch malen. Ja.
+
+330
+00:15:59,840 --> 00:16:02,840
+ Ja, aber da ist ja schon... Aber nicht so dick und grün.
+
+331
+00:16:02,840 --> 00:16:04,840
+ Nicht so dick, ja. Ando, oder?
+
+332
+00:16:04,840 --> 00:16:09,840
+ Genau. Aber du musstest da jetzt eigentlich schon dazu sagen, das ist jetzt ja auch schon wirklich RC3.
+
+333
+00:16:09,840 --> 00:16:14,840
+ Ja. Wo das mit der Welt und so dazukam, weil das war halt dann einfach der Punkt.
+
+334
+00:16:14,840 --> 00:16:22,840
+ Dann kam halt diese Pandemie um die Ecke und es hatten ja ein paar Leute mitbekommen, dass wir da so ein bisschen am Planen waren und am Überlegen waren.
+
+335
+00:16:22,840 --> 00:16:25,840
+ Und ja, ich weiß nicht mehr, wie genau der Kontakt zur Shande kam.
+
+336
+00:16:25,840 --> 00:16:30,840
+ Auf jeden Fall irgendwann kam die Anfrage, hey, ihr habt doch da was gebaut.
+
+337
+00:16:30,840 --> 00:16:37,840
+ Kann man das nicht irgendwie... Ihr habt ja was angefangen zu bauen. Kann man das nicht irgendwie aufbauten, erweitern?
+
+338
+00:16:37,840 --> 00:16:42,840
+ Wir haben davor so eine Online-Uniconferenz zu machen, weil Kongress kann nicht stattfinden.
+
+339
+00:16:42,840 --> 00:16:47,840
+ Geht da was? Und ja, da ging was.
+
+340
+00:16:47,840 --> 00:16:54,840
+ Ich glaube, das war das beste, oxtanisiertste Software-Projekt im CC, das ich je gesehen habe. Es gab User-Stories.
+
+341
+00:16:54,840 --> 00:16:56,840
+ Mit Nummern und allem.
+
+342
+00:16:56,840 --> 00:17:00,840
+ Ich erinnere mich, ich habe da was gesehen. Ich habe die Issues, glaube ich, gesehen.
+
+343
+00:17:00,840 --> 00:17:05,840
+ Genau. Also es gab halt wirklich ausgearbeitete User-Stories. Also bei den User-Stories war ich tatsächlich gar nicht mit dabei.
+
+344
+00:17:05,840 --> 00:17:13,840
+ Ich bin erst später dazugekommen und habe halt einfach so User-Stories schon vorgefunden, war geplättet.
+
+345
+00:17:13,840 --> 00:17:24,840
+ Man hatte hinterher gemerkt, dass manche User-Stories halt einfach erst mal nur noch Ideen waren, die halt noch nicht irgendwie wirklich ein ernsthaftes Konzept ergeben haben.
+
+346
+00:17:24,840 --> 00:17:30,840
+ Und naja, wir haben dann halt irgendwann angefangen, diesen Hub zu bauen.
+
+347
+00:17:30,840 --> 00:17:37,840
+ Wir haben halt versucht, diese Assemblies, virtuelle Räume irgendwie miteinander zu verknüpfen.
+
+348
+00:17:37,840 --> 00:17:47,840
+ Bei virtuellen Räumen ging es insbesondere darum, dass man Jitsis, Group-Lattens erstellt, dass Leute sich zusammensetzen können.
+
+349
+00:17:47,840 --> 00:17:50,840
+ Also die Idee war, so eine Art virtuelle Lagerfeuer zu bauen.
+
+350
+00:17:50,840 --> 00:17:58,840
+ Dann gab es halt irgendwann noch diese Idee mit dem Text-Adventure. Die gab es da irgendwie in den User-Stories schon.
+
+351
+00:17:58,840 --> 00:18:06,840
+ Irgendjemand kam dann irgendwie auf die Idee so, hey, da gibt es jetzt gerade irgendwie so ein 2D-Ding, das nennt sich Work-Adventure.
+
+352
+00:18:06,840 --> 00:18:08,840
+ Die Datenspuren waren da.
+
+353
+00:18:08,840 --> 00:18:10,840
+ Ah, die Datenspuren, ja genau, richtig.
+
+354
+00:18:10,840 --> 00:18:18,840
+ Das kam eigentlich ziemlich genau zu dem hin, was wir auch in dieser Konzeptionsgruppe da so überlegt hatten, wie so eine 2D-Charakter aussehen könnte oder so was.
+
+355
+00:18:18,840 --> 00:18:24,840
+ Und als haben wir hier gegeneinander überlebt, was kann man machen von der Firmenweihnachtsfeier bis zum Kongress, hat jeder irgendwie etwas gemacht.
+
+356
+00:18:24,840 --> 00:18:32,840
+ Genau, und es waren ein paar von uns aus diesem Projektteam, natürlich alles ehrenamtlich und so weiter, auch virtuell auf den Datenspuren.
+
+357
+00:18:32,840 --> 00:18:34,840
+ Und da haben sich auch Leute eingeladen und so.
+
+358
+00:18:34,840 --> 00:18:36,840
+ Und das hat irgendwie sehr gut gepasst.
+
+359
+00:18:36,840 --> 00:18:48,840
+ Und plötzlich waren wir als Hub auch halb für die Betrieb dieser Work-Adventure-Plattform zuständig koordinieren. Keine Ahnung, wie das genannt hat.
+
+360
+00:18:48,840 --> 00:18:59,840
+ Wir haben tatsächlich dann letztendlich, also am Anfang war halt einfach eine Riesensorge, wenn wir jetzt einfach Kongress einfach mal eben auf dieses, insoweit auf das Work-Adventure drauf werfen,
+
+361
+00:18:59,840 --> 00:19:06,840
+ also die einfach Zahl der Teilnehmenden von einem Kongress nehmen und das auf so einen Work-Adventure-Instanz drauf werfen.
+
+362
+00:19:06,840 --> 00:19:12,840
+ Also die ersten Versionen haben halt irgendwie so auf einem relativ dick ausgestattetenen Server irgendwie 100 Clients oder so ausgehalten.
+
+363
+00:19:12,840 --> 00:19:15,840
+ Das wäre halt eine Materialschlacht geworden.
+
+364
+00:19:15,840 --> 00:19:20,840
+ Gut, dann haben halt mal ein paar Leute auf diesen Code draufgeschaut und haben den ein bisschen optimiert.
+
+365
+00:19:20,840 --> 00:19:30,840
+ Am Ende waren es glaube ich dann irgendwie so 800 pro Instanz, die funktionierten. Und dann ist halt auf der ersten RZ3 ein Riesenkoloss gebaut worden,
+
+366
+00:19:30,840 --> 00:19:35,840
+ wo wir halt automatisch Instanzen gespawnt haben, pro Assembly irgendwie eigene Instanzen.
+
+367
+00:19:35,840 --> 00:19:41,840
+ Und wenn man halt zwischen den Instanzen hier und her gehüpft ist, hat man technisch die Instanz gewechselt.
+
+368
+00:19:41,840 --> 00:19:47,840
+ Das haben wir aber über die Load Valencia versteckt. Die Login-Tokens dafür hat er abverteilt und hat das Ganze koordiniert.
+
+369
+00:19:47,840 --> 00:19:57,840
+ Darüber sind dann auch neue Versionen gespawnt worden. Also da ist ein Riesengetriebe-Uhrwerk im Hintergrund am Laufen gewesen,
+
+370
+00:19:57,840 --> 00:20:02,840
+ die ganzen Sachen miteinander zu koordinieren, was man halt nach außen nicht mehr groß gemerkt hat.
+
+371
+00:20:02,840 --> 00:20:13,840
+ Die zentrale Idee dabei war, dass wir diesen Hub halt auch dafür benutzen, eine Anmeldung zu ermöglichen.
+
+372
+00:20:13,840 --> 00:20:23,840
+ Also die Idee war, exklusiv so ein SSO anzubieten, dass halt einzelne Hacker-Spaces, lokale Events eingebunden werden können
+
+373
+00:20:23,840 --> 00:20:31,840
+ und man einfach quasi mit einem Login überall hin hüpfen kann. Das ist am Ende, das Engelsystem hat es definitiv genutzt.
+
+374
+00:20:31,840 --> 00:20:37,840
+ Und es gibt noch so zwei, drei andere, die es genutzt haben. So richtig gut viel genutzt wurde es leider nicht.
+
+375
+00:20:37,840 --> 00:20:43,840
+ Aber diese Grundidee war halt geboren, dass wir halt eine Komponente schaffen, die Sachen zusammenbindet.
+
+376
+00:20:43,840 --> 00:20:53,840
+ Und naja, das zentrale Element war hier ja auch, dass wir die Fahrpläne dann angefangen haben zu synchronisieren.
+
+377
+00:20:53,840 --> 00:21:03,840
+ Denn die RC3 war, jetzt ist es die zweite Instanz, gab es mehrere lokale Bühnen, mehrere lokale Fahrpläne,
+
+378
+00:21:03,840 --> 00:21:11,840
+ die sich halt die lokalen Bühnen ausgedacht haben und einfach auch teilweise sehr unkoordiniert zueinander erstellt haben.
+
+379
+00:21:11,840 --> 00:21:20,840
+ Und die mussten halt irgendwie gemeinsam auf ein gemeinsames Tablo gewandt, damit es einfach ein Dach, ein Schirm wurde einer gemeinsamen Veranstaltung,
+
+380
+00:21:20,840 --> 00:21:22,840
+ auch wenn die komplett dezentral war.
+
+381
+00:21:22,840 --> 00:21:26,840
+ Ja, also ich habe hier mal wieder einen Diagramm dafür aufgerufen.
+
+382
+00:21:26,840 --> 00:21:34,840
+ Also da gab es aus Gründen dann doch noch eine FRAP-Instanz, die magisch aufgetaucht ist, die einen Teil der Leute benutzt hat.
+
+383
+00:21:34,840 --> 00:21:43,840
+ Andere hatten dann keine Lust auf Dinge. Dann gab es auf FRAP, das war sozusagen die zweite Generation, das DC, keine Ahnung, wie man da genau zählt.
+
+384
+00:21:43,840 --> 00:21:52,840
+ Ich sage immer, die nullte Generation sind die Filemaker-Datenbanken von Tim, die aber auch dieses XML-Format wohl schon ausgespuckt haben,
+
+385
+00:21:52,840 --> 00:22:02,840
+ wenn ich das richtig verstanden habe. Da hat einfach jemand ein RC3-Punkt-Studio-Domain geholt und da ein PTOX draufgeworfen.
+
+386
+00:22:02,840 --> 00:22:10,840
+ Und da war ein Teil und da gab es natürlich trotzdem noch mal der CCC-Lied, die Dezentralität, weitere PTOX-Instanzen und die habe ich mir einfach zusammengezogen.
+
+387
+00:22:10,840 --> 00:22:16,840
+ Und damals tatsächlich noch die Idee war, ja, das läuft dann alles schön in den Git-Repo, da sieht man was passiert.
+
+388
+00:22:16,840 --> 00:22:22,840
+ Da ist dann das Git-Repo, da hatten wir damals schon eine CheX hinten dran, die das dann machen. Das ist natürlich eigentlich völlig geworden,
+
+389
+00:22:22,840 --> 00:22:30,840
+ sodass dieses Skript dann einfach für alle Updates immer so einen Rest-Upsert-Call Richtung Hub gemacht hat.
+
+390
+00:22:30,840 --> 00:22:38,840
+ Aber auch da war schon das Problem, irgendwann ist es mal auseinandergelaufen, fragt mich nicht warum, also muss man da komplett zynk machen.
+
+391
+00:22:38,840 --> 00:22:50,840
+ Und dann waren die Leute wieder verwundert, was dann passiert ist und dann hat Hey halt gesagt, okay, er versucht mal diesen Code zu nehmen und sinnvoll als erfahrener Django-Entwickler da zu integrieren.
+
+392
+00:22:50,840 --> 00:22:59,840
+ Und das war sozusagen dann die nächste Iteration, wo das Ganze so geplant war und größtenteils auch so stattgefunden hat.
+
+393
+00:22:59,840 --> 00:23:05,840
+ Also in dem Fall hat dann das Vox gesagt, ja, dann machen wir halt das mal eine PTOX-Instanz, wenn es jemand andert.
+
+394
+00:23:05,840 --> 00:23:09,840
+ Leute im Vox haben das getan und einfach gemacht, wie das halt immer so läuft im Club.
+
+395
+00:23:09,840 --> 00:23:11,840
+ Wer macht das Recht? Ist das immer so?
+
+396
+00:23:11,840 --> 00:23:26,840
+ Ja, genau. Da gab es natürlich noch ein paar Dinge und auch damals ist schon, deswegen haben wir diese Verbindung hier unten noch drin, kamen dann irgendwie Toto auf mich zu mit, es ist immer noch viel zu groß.
+
+397
+00:23:26,840 --> 00:23:27,840
+ Was?
+
+398
+00:23:27,840 --> 00:23:40,840
+ Das sind ja die Bilder gar nicht drin. Die Bilder der Speaker sozusagen. Die fehlen halt in dieser Schedule.xml-Spec und in der JSON waren sie halt ein extra Pfeil nebendran.
+
+399
+00:23:40,840 --> 00:23:51,840
+ Genau, da gab es noch so ein Speaker, also wenn das früher auch aus dem Frab das rausgeblieben hat, hat der immer zwei Pfeils ausgespuckt, nämlich das Schedule.xml und dann gibt es eine JSON-Version davon, dass er nicht nur umbesetzt ist und dann halt Speakers.json.
+
+400
+00:23:51,840 --> 00:24:10,840
+ Speakers.json ist halt, also die App hat halt, also wenn du so eine App baust, dann willst du ja nicht nur so Textwüste haben und eine Sache, die ich habe, ich habe nicht viel, also Bilder oder so ist ja, aber eine Sache, die du hast, sind halt die Avatare von den Speekern und das macht es ja auch nett, dann erkennt man die Leute wieder und so weiter und die will ich halt drin haben.
+
+401
+00:24:10,840 --> 00:24:21,840
+ Naja und die kriegst du halt aus dem Pre-Talks raus, weil die Leute das da hochladen, die pflegen da auch ihre Beschreibungen und so weiter und das ist halt alles nicht, wenn du nur das Schedule.xml exportierst, dann ist das halt nicht drin.
+
+402
+00:24:21,840 --> 00:24:29,840
+ Und dann ja, und dann hab ich halt, ich hatte ja diesen Exporter eh gebaut für die Republikan-Dame, dann hab ich gesagt, naja gut, dann baue ich jetzt noch einen.
+
+403
+00:24:29,840 --> 00:24:31,840
+ Also da hat die Republikan-Dame schon auf Pre-Talks umgebracht.
+
+404
+00:24:31,840 --> 00:24:34,840
+ Die Republikan-Dame macht ja ja ja, die machen ja ja ja ja.
+
+405
+00:24:34,840 --> 00:24:44,840
+ Die machen es ja jetzt ja. Nein auch nicht, die, die machen es ja jetzt ja ja. Nein auch nicht, die politik schon, aber Pre-Talks haben es ja ja ja ja. Nein auch nicht, die politik schon, aber Pre-Talks haben es ja ja ja ja. Nein sie benutzen das PHP, das PHP mit dem Drupal.
+
+406
+00:24:44,840 --> 00:24:55,840
+ Drupal, ja, genau. Zu meinem Leidwesen benutzt sie Drupal, ja. Also nichts gegen Drupal, aber also ich kenne mich die Drupal nicht aus, aber wenn ich von außen damit zu tun habe, ist es immer anstrengend.
+
+407
+00:24:55,840 --> 00:25:06,840
+ Es ist eine eskepte/. Ja ja, Jace, ja auch klassische PHP Krankheit, ist was wie, oh ist das eine leere Liste, dann muss es wohl ein leeres Array sein, wenn auch ein leeres Hash sein sollte und solche Dinge.
+
+408
+00:25:06,840 --> 00:25:14,840
+ In Jace, ne, ja ganz beliebt. Aber ne und dann, genau, da hab ich da die Daten, da hab ich halt einen Pre-Talks-Importer geschrieben, weil Pre-Talks hat ja eine Latter-S API, da kann man ja gut, die ist auch gut dokumentiert und so.
+
+409
+00:25:14,840 --> 00:25:26,840
+ Da hab ich die Sachen da rausgezogen, dann direkt und dadurch, dass ich mein neues Skript jetzt schon hatte, ne, hab ich dann halt gesagt, ok dann pack ich halt zwei Daten, dann schau ich halt wo ist die Liste der Pre-Talks und dann hol ich es mir halt selber von den ganzen.
+
+410
+00:25:26,840 --> 00:25:42,840
+ Ist jetzt ehrlich gesagt auf dem Camp auch aus genau dem gleichen Grund genau wieder so gebaut, weil natürlich, es gibt zwar ein zentrales System, ne, aber das Problem ist, dass ich halt viele Daten nicht bekomme und dann hab ich gesagt, ja gut, ich hab die Importer schon, ich muss nichts tun, also schreib ich einfach ein paar Konfigurationsdoteien da rein und fertig ist.
+
+411
+00:25:42,840 --> 00:25:49,840
+ Ich hab ja auch noch viel mehr Datenquellen, also die Points of Interest hier auch noch drin, die kommen dann wiederum aus dem Maps Seite und so.
+
+412
+00:25:49,840 --> 00:25:50,840
+ Die dann wieder aus dem Hub kommen?
+
+413
+00:25:50,840 --> 00:25:52,840
+ Ja, die wieder aus dem API.
+
+414
+00:25:52,840 --> 00:25:55,840
+ Oder wie ist denn da jetzt der aktuelle Workflow?
+
+415
+00:25:55,840 --> 00:26:13,840
+ Es gibt tatsächlich noch zwei Arten von Points of Interest, also es gibt mittlerweile viele, die tatsächlich von der Village Orga verwaltet werden und auch angelegt werden und vom Hub ausgespielt werden, sodass sie dann von Rustkarte wieder eingelesen werden.
+
+416
+00:26:13,840 --> 00:26:19,840
+ Das allerdings auch nicht live, sondern irgendwie momentan noch in einem, glaube ich sogar manuellen Bild.
+
+417
+00:26:19,840 --> 00:26:22,840
+ Er macht halt mal irgendwie der Deploy und dann wird halt alles wieder zusammen.
+
+418
+00:26:22,840 --> 00:26:32,840
+ Ja, also mehr oder minder regelmäßig werden die aktualisiert, das heißt die Daten, die eigentlich live aus dem Hub kommen könnten, sind momentan dadurch noch ein bisschen unterbrochen.
+
+419
+00:26:32,840 --> 00:26:43,840
+ Nichtsdestotraus gibt es separat dazu noch mal einfach eine separate Liste von Points, die vorher oder über andere Quellen definiert sind.
+
+420
+00:26:43,840 --> 00:26:47,840
+ Also wir haben zum Beispiel den ganzen Datenklos haben wir einfach nicht.
+
+421
+00:26:47,840 --> 00:26:48,840
+ Und die Gebäude sind sehr...
+
+422
+00:26:48,840 --> 00:26:57,840
+ Genau, die sind momentan nicht drin. Das ist zwar perspektivisch durchaus die Überlegung, das auch mal miteinander zu verheiraten, die beiden Projekte.
+
+423
+00:26:57,840 --> 00:27:12,840
+ Also wir sind halt, als wir vor vier Jahren tatsächlich hier bei Millieways abends saßen, die Idee war damals schon, dass wir die, das Assemblix, die Assemblyverwaltung mit der, mit Rustkarte vom EMF Camp miteinander irgendwie vertüdelten.
+
+424
+00:27:12,840 --> 00:27:13,840
+ Das ja.
+
+425
+00:27:13,840 --> 00:27:19,840
+ Und ein bisschen halt noch CC-Flausch für andere Sachen draufpacken und dann haben wir ein fertiges Produkt.
+
+426
+00:27:19,840 --> 00:27:22,840
+ Dann war die Pandemie.
+
+427
+00:27:22,840 --> 00:27:26,840
+ Genau, dann die Pandemie, aber so oder so ganz so weit sind wir noch nicht gekommen.
+
+428
+00:27:26,840 --> 00:27:29,840
+ Naja, aber dieser Giz Branch ist da schon wieder reingekommen.
+
+429
+00:27:29,840 --> 00:27:33,840
+ Also ich muss jetzt jeder auf mein Mac OS installieren, was im Zug ein bisschen...
+
+430
+00:27:33,840 --> 00:27:35,840
+ Tut mir leid.
+
+431
+00:27:35,840 --> 00:27:38,840
+ Lustig war, aber ja.
+
+432
+00:27:38,840 --> 00:27:48,840
+ Tatsächlich hatten wir am Anfang schon Giz Support drin, den haben wir dann halt so im Rahmen der RC3 wieder erstmal wieder ausgebaut, weil es halt einfach nervig war, die ganzen Abhängigkeiten mitzuschleppen, wenn man nur rein virtuell war.
+
+433
+00:27:48,840 --> 00:27:55,840
+ Und naja, jetzt vor ein paar Wochen haben wir es dann doch wieder mit reingenommen, weil gut, also wir haben halt einen alten Code auch reaktiviert.
+
+434
+00:27:55,840 --> 00:28:04,840
+ Und jetzt haben wir halt den ganzen Giz Support wieder mit drin, das heißt die Village Orga, ja, platziert halt Assemblies, weist die Plätze zu.
+
+435
+00:28:04,840 --> 00:28:09,840
+ Momentan sind es noch tatsächlich zwei verschiedene...
+
+436
+00:28:09,840 --> 00:28:17,840
+ Am Anfang ist es halt so ein AutoCAD Planungsding, weil das halt für die ganzen Behörden und so, die wollen Pläne in AutoCAD haben.
+
+437
+00:28:17,840 --> 00:28:19,840
+ Da ist DWG waschen.
+
+438
+00:28:19,840 --> 00:28:23,840
+ Genau, DWG ist das Format, ist halt das AutoCAD Format und irgendwie...
+
+439
+00:28:23,840 --> 00:28:24,840
+ Proprietär.
+
+440
+00:28:24,840 --> 00:28:25,840
+ Proprietär.
+
+441
+00:28:25,840 --> 00:28:26,840
+ Sie haben das Gespeck.
+
+442
+00:28:26,840 --> 00:28:28,840
+ Zum Paar sind die absolute Hölle.
+
+443
+00:28:28,840 --> 00:28:37,840
+ Wir haben mehrere Versuche gestartet, die alle gescheitert sind, aus den unterschiedlichen Gründen, dass dieses Format ist einfach die absolute Hölle.
+
+444
+00:28:37,840 --> 00:28:40,840
+ Aber wie war das Pipeline da jetzt aussieht?
+
+445
+00:28:40,840 --> 00:28:43,840
+ Ich glaube, wir warten jetzt in DXF und das ist wieder Handelsspeck, ja?
+
+446
+00:28:43,840 --> 00:28:55,840
+ Ja, und er muss aber, also auch die Village Orga muss auch teilweise aufpassen, wie sie exportiert, was sie wo irgendwie einträgt.
+
+447
+00:28:55,840 --> 00:29:00,840
+ Und dann gibt es ein paar auch Fallstricke, das macht halt keinen Spaß.
+
+448
+00:29:00,840 --> 00:29:09,840
+ Das ist momentan die einzig wirklich praktikable Variante, weil halt für die ganzen behördlichen Genehmigungen und so weiter wird das momentan noch benötigt.
+
+449
+00:29:09,840 --> 00:29:19,840
+ Perspektivisch vielleicht, so unsere Hoffnung zumindest, kriegen wir es irgendwann mal hin, dass wir sagen, okay, wir haben die ganze Planung vorbereitet.
+
+450
+00:29:19,840 --> 00:29:36,840
+ Okay, wir haben den Grundlayer irgendwie mal vom, zum Beispiel jetzt hier, Ziegeler Park Mildenberg bekommen, werfen die anderen unsere Sachen drauf, exportieren daraus wieder ein DWG und können das halt hier an die Stadt Zedenik oder was das genau ist Gemeinde weitergeben.
+
+451
+00:29:36,840 --> 00:29:38,840
+ Und alle sind glücklich.
+
+452
+00:29:38,840 --> 00:29:45,840
+ Wir können vernünftig arbeiten und Behörden und sonstige Architekten, was auch immer hier alles, haben ihre Daten.
+
+453
+00:29:45,840 --> 00:29:49,840
+ Oder die Behörden stellen mal auf ein offenes Format um, aber das wird wahrscheinlich passieren.
+
+454
+00:29:49,840 --> 00:29:53,840
+ Tatsächlich, ich habe ja mal Architekturinformatik studiert als Nebenfach.
+
+455
+00:29:53,840 --> 00:29:56,840
+ Und die nordischen Sender sind uns das so schoven, so viel weiter.
+
+456
+00:29:56,840 --> 00:30:03,840
+ Also da gibt es dieses EFC-Format, Industry Foundation Classes, war ursprünglich so für Kaffeemaschinen, Gebäude und so.
+
+457
+00:30:03,840 --> 00:30:06,840
+ Also da kommt das Step-Format noch her.
+
+458
+00:30:06,840 --> 00:30:08,840
+ Hast du dir schon mal von erzählt, ja.
+
+459
+00:30:08,840 --> 00:30:19,840
+ Aber es gibt irgendwelche Richtlinien oder Gesetze, dass das ab einem gewissen Zeitraum alles, was öffentlich gebaut und geplant wird, auch in diesem Format stattfinden muss.
+
+460
+00:30:19,840 --> 00:30:21,840
+ Und dann müssen sie ja damit umgehen können.
+
+461
+00:30:21,840 --> 00:30:22,840
+ Richtig.
+
+462
+00:30:22,840 --> 00:30:28,840
+ Und das ist, also ich muss da mal wieder bei dem Lehrstuhl nachfragen oder bei der Kratzstelle, wie nennen die das da?
+
+463
+00:30:28,840 --> 00:30:33,840
+ Also Computer-Aided Design, da hast du ZUG und CAD, ja genau.
+
+464
+00:30:33,840 --> 00:30:41,840
+ Was daraus geworden ist, aber es kann sich nur noch um wenige Jahre handeln, bis das tatsächlich für alle neu gebauten Dinge Pflicht wird.
+
+465
+00:30:41,840 --> 00:30:44,840
+ Also lass mich bitte in meine Utopie werden.
+
+466
+00:30:44,840 --> 00:30:50,840
+ Also müssen wir jetzt bei den nächsten Camp-Locations immer aufpassen, dass es in den jüngsten Jahren erst gebaut wurde.
+
+467
+00:30:50,840 --> 00:30:52,840
+ Damit wir CAD da schicken.
+
+468
+00:30:52,840 --> 00:30:54,840
+ Das ist eine Open-Data-Checkliste.
+
+469
+00:30:54,840 --> 00:30:55,840
+ Ja, genau.
+
+470
+00:30:55,840 --> 00:30:56,840
+ Gut.
+
+471
+00:30:56,840 --> 00:31:01,840
+ Ich habe jetzt hier nochmal, ich muss tatsächlich auf das Wiki wechseln.
+
+472
+00:31:01,840 --> 00:31:04,840
+ Ich mache mal kurz wieder selbstfahre.
+
+473
+00:31:04,840 --> 00:31:08,840
+ Das ist das Diagramm von diesem Jahr.
+
+474
+00:31:08,840 --> 00:31:12,840
+ Das war tatsächlich hier oben unser neues Playout System für das Studio.
+
+475
+00:31:12,840 --> 00:31:19,840
+ Das sollte eigentlich auch einen automatischen Import bekommen, aber das ist dann leider erstmal weggefallen und der Importer bin jetzt ich.
+
+476
+00:31:19,840 --> 00:31:21,840
+ Es gibt hier zwei Pre-Talks-Instanzen.
+
+477
+00:31:21,840 --> 00:31:27,840
+ In dem Fall einmal wieder das CTAVOC-Pre-Talks, in dem es tatsächlich mehrere Konferenzen oder so ähnlich.
+
+478
+00:31:27,840 --> 00:31:28,840
+ Zwei.
+
+479
+00:31:28,840 --> 00:31:32,840
+ Ja, ich weiß nicht mehr, ob es Konferenz in Pre-Talks-Sprache ist oder die haben nochmal ein bisschen andere Namen.
+
+480
+00:31:32,840 --> 00:31:34,840
+ Event heißt es glaube ich da in der Sprache.
+
+481
+00:31:34,840 --> 00:31:36,840
+ Genau.
+
+482
+00:31:36,840 --> 00:31:39,840
+ Event und Talk ist es in Pre-Talks?
+
+483
+00:31:39,840 --> 00:31:43,840
+ Nein, also in Pre-Talks ist es erstmal als Submission.
+
+484
+00:31:43,840 --> 00:31:45,840
+ Erst wenn es platziert ist, ist es formal ein Talk.
+
+485
+00:31:45,840 --> 00:31:49,840
+ Details, details.
+
+486
+00:31:49,840 --> 00:31:50,840
+ Richtig.
+
+487
+00:31:50,840 --> 00:31:57,840
+ Es fragt mich nicht, wo diese Querlinie hierher kommt, aber generell, ich glaube du importierst gerade beides parallel und merchtest das.
+
+488
+00:31:57,840 --> 00:32:07,840
+ Genau, ich habe drei Pre-Talk RP Endpoints und die merge ich dann wieder und jetzt, was du jetzt noch nicht drauf hast, ist den Hub, nehme ich jetzt auch noch die Daten hier.
+
+489
+00:32:07,840 --> 00:32:08,840
+ Das ist diese Linie hier oben.
+
+490
+00:32:08,840 --> 00:32:10,840
+ Ah, die hast du jetzt dazu gekommen.
+
+491
+00:32:10,840 --> 00:32:13,840
+ Die Wallet ist hier mal schon drin, weil wir das auch da schon überdiskutiert haben.
+
+492
+00:32:13,840 --> 00:32:20,840
+ Genau, weil ursprünglich wollte ich es nur vom Hub nehmen, aber aus bestimmten Gründen habe ich es dann doch wieder geändert, aber ich nehme jetzt die Self-Organisation von da.
+
+493
+00:32:20,840 --> 00:32:26,840
+ Denen fehlen allerdings noch für die Up-D Locations, deswegen sind sie so ein bisschen unholprig.
+
+494
+00:32:26,840 --> 00:32:32,840
+ Die müssten halt irgendeine Location von uns noch zu bekommen, dann könnte man es noch schön drin haben, aber das ist ja Work in Progress halt.
+
+495
+00:32:32,840 --> 00:32:47,840
+ Also da müssen wir uns halt auch nochmal allgemein zusammen mit auch den anderen Client Entwicklern, also ich denke vor allem an Tobias, der dieses Mal leider nicht da sein kann, weil er auf einem anderen Kontinent ist, so wie ich das verstanden habe, auch nochmal zusammensetzen wie immer mit so fahrplanlosen Events.
+
+496
+00:32:47,840 --> 00:32:48,840
+ Also es hat halt auch...
+
+497
+00:32:48,840 --> 00:32:51,840
+ Mehrtages-Events gibt es auch noch, gibt es ein paar Bausteine...
+
+498
+00:32:51,840 --> 00:32:56,840
+ Ja, also Don't Get Me Started, 48 Stunden Events, die aus Versehen entstanden sind, die dann...
+
+499
+00:32:56,840 --> 00:33:03,840
+ Oder ganz kurze hatten wir jetzt, also ich filtre zum Beispiel jetzt alles raus, was unter 15 Minuten ist, weil es einfach...
+
+500
+00:33:03,840 --> 00:33:06,840
+ Wir filtern schon alles raus, was unter 5 Minuten ist.
+
+501
+00:33:06,840 --> 00:33:18,840
+ Ich habe auch noch eine extra gemerchete Shattel-Variante mit den alten Tools bauen müssen, wo alle Lightning Talks dann ein Talk war, weil das Engel-System halt nicht wollte, dass alle 5 Minuten die Engel für die Schicht wechseln oder sowas.
+
+502
+00:33:18,840 --> 00:33:23,840
+ Also da kann man tausende Storys in dem Bezirk erlernen.
+
+503
+00:33:23,840 --> 00:33:34,840
+ Wir haben jetzt auch wirklich in der gesamten Vorbereitung noch haufenweise Stolpersteine gefunden, wo wir einfach gemerkt haben, so unsere Theorie kollidiert hier mit der Praxis.
+
+504
+00:33:34,840 --> 00:33:43,840
+ Also das gesamte Hub-Projekt wird sich auch noch massiv weiterentwickeln und wir haben noch haufenweise auch Ideen dabei.
+
+505
+00:33:43,840 --> 00:33:52,840
+ Und genau halt solche Probleme, wie halt irgendwie, dass man dann so von Spekern irgendwelche Bilder mit anzeigt, wenn die schon hochgeladen wurden.
+
+506
+00:33:52,840 --> 00:33:55,840
+ Ja, da müssen wir halt gucken, wie wir das exportieren.
+
+507
+00:33:55,840 --> 00:34:11,840
+ Den Change dafür habe ich tatsächlich auch schon in meinen lokalen Dingern wiedergefunden und in der Zwischenzeit hat es auch einen Pull-Request geschafft und ich bin zuversichtlich, dass das dann mit dem anstehenden T-Talks-Release Ende des Monats, also Ende August 2023, dann auch alles da drin sein wird.
+
+508
+00:34:11,840 --> 00:34:15,840
+ Und wir nicht mehr doppelt und dreifach Zeug merchen müssen.
+
+509
+00:34:15,840 --> 00:34:29,840
+ Ich war kurz irritiert, welchen Merchrequest, den habe ich noch nicht gesehen, aber ich meine, das ist ein Quersystem, weil daran krankt das halt momentan, dass wir halt, wenn wir halt die Daten nicht irgendwie gut rausbekommen bisher, dann können wir sie noch nicht importieren.
+
+510
+00:34:29,840 --> 00:34:46,840
+ Aber selbst dann haben wir immer noch das Problem, dass wir uns jetzt ja wieder überlegen müssen, der eine und derselbe Speaker in dem einen Pre-Talks, ist dann technisch erstmal eine andere Person im anderen Pre-Talks.
+
+511
+00:34:46,840 --> 00:34:47,840
+ Wie verbinden wir die beiden?
+
+512
+00:34:47,840 --> 00:34:49,840
+ Soll ich dir mal sagen, wie der ab das macht?
+
+513
+00:34:49,840 --> 00:35:18,840
+ Und ich weiß sogar, wie das macht. Ich weiß nicht, ob du sagen möchtest. Und dann halt zusätzlich noch wieder die Überlegung, wenn jetzt irgendwie dann sich jemand tatsächlich beim Hub hier auch anmeldet und sich dort irgendwie registriert, dass wir dann halt auch wieder sagen können, so das hier sind deine Events, dass man dann diese selbe Person wieder irgendwie miteinander, dass man irgendwie einen Weg schafft,
+
+514
+00:35:18,840 --> 00:35:26,840
+ dass die sich untereinander identifizieren können. Also kann man natürlich jetzt, wie im Pd-Verse, halt irgendwie gucken, dass man irgendwelche Trust Anchor...
+
+515
+00:35:26,840 --> 00:35:29,840
+ Webfinger wäre vielleicht eine Variante dafür.
+
+516
+00:35:29,840 --> 00:35:37,840
+ Webfinger, welche? Also es gibt ja 17 verschiedene Varianten. Da müssen wir überhaupt noch jetzt diskutieren, was wir sinnvoll machen können.
+
+517
+00:35:37,840 --> 00:35:56,840
+ Ja, und es haben sie ja auch, Speaker, geschafft, einfach mehrfach sich Accounts zu machen, weil sie vergessen haben, wie die Mail-Adress von ihrem anderen Account war. Also gerade die Leute, die immer für jede Seite eine eigene Mail-Adresse benutzen, die musst du extra nochmal als eigenen Case für so eine Person, G-ID, wie ich das Ding mal überschrieben habe, vorsehen.
+
+518
+00:35:56,840 --> 00:36:10,840
+ Ich dachte noch so ein bisschen, man könnte über die Mail-Adressen was machen. Also früher bei Frap und Vorgänger konnte man sagen, ja, Mail-Adress ist öffentlich. Damals war halt Mail noch so ein primäres Kommunikationsmedien und nicht so dieses ganze andere Zeug.
+
+519
+00:36:10,840 --> 00:36:12,840
+ Stimmt, da gab es die Mail-Adresse öffentlich teilweise.
+
+520
+00:36:12,840 --> 00:36:25,840
+ Ja, und dann kann man auch mal sagen, wer der Speaker entscheiden möchte, die Anzeige oder nicht. Mit Pre-Talks gibt es das nicht mehr, die Mail-Adresse ist ein rein intern, was heutzutage einfach mehr üblich ist an der Stelle, CS-BAM. Wie gehst du dann noch um?
+
+521
+00:36:25,840 --> 00:36:43,840
+ Also ich hatte noch ein bisschen über, wie herrschen die Mail-Adresse, aber da hat mich Hey leider dann ein bisschen abgeholt, dass man es dann doch wieder raten könnte und wie geheim ist es. Also da rufe ich auch gerne alle Leute dazu auf, die irgendwie an diesem Kosmos mitentwickeln und damit konzentrieren, dass wir uns da mal gemeinsam was ausdenken, wie wir das hinbekommen.
+
+522
+00:36:43,840 --> 00:36:46,840
+ Ja, eine Art von quasi federated identity brauchst du ja de facto.
+
+523
+00:36:46,840 --> 00:36:54,840
+ Das wäre Webfinger in dem Sinn. Also da schaust du in der Zeit so einen Well-Known-Ordner, gibst den Nutzer und da steht dann halt der Primera Identifier.
+
+524
+00:36:54,840 --> 00:37:19,840
+ Also wir haben da auch schon andere Ideen mit irgendwelchen Tokens, die man dann anzeigen lassen kann und abfragen kann und wir haben schon ein paar Ideen mal durchgespielt, haben alle ihre Vor- und Nachteile und wir haben noch keine Lösung, wenn da draußen gerade jemand sagt so, holen wir mal, ich habe doch hier die Lösung, bitte schickt uns eine Mail hub.cccv.de. Ja, wir freuen uns über Input.
+
+525
+00:37:19,840 --> 00:37:24,840
+ Das ist vielleicht generell so ein Thema, also wenn man jetzt beim Hub mitmachen möchte, wo findet man denn den Code davon?
+
+526
+00:37:24,840 --> 00:37:36,840
+ Genau, der Code ist auch öffentlich abrufbar auf git.cccv.de/hub/hub. Dieses doppelte Hub hat ein bisschen historische Gründe.
+
+527
+00:37:36,840 --> 00:38:02,840
+ Ja, das ist eine GitLab Instanz, da kann man auf jeden Fall den Code auch klonen. Die Mail-Adresse habe ich glaube immer noch nicht in der Projektbeschreibung eingetragen, ist wie gerade schon gesagt hub.cccv.de und ja, da gibt es haufenweise Infos, wie man das lokal auch starten kann.
+
+528
+00:38:02,840 --> 00:38:17,840
+ Wir haben den Wogonischen Kongress als Demo-Daten, es gibt auch von den RC3, also die öffentlich verfügbaren Daten auch als Demo-Daten.
+
+529
+00:38:17,840 --> 00:38:41,840
+ Das heißt, man kann sich so eine RC3-Edition 2020/2021, kann man sich beide spawnen. Camp 23 wird wahrscheinlich dann auch mit Ende des, wenn wir einen Stand haben mit allen Villages und so weiter, wird der wieder sanitized, das heißt die personenbezogenen Daten fliegen raus.
+
+530
+00:38:41,840 --> 00:38:54,840
+ Und dann werden wir das Fiction wahrscheinlich auch da mit rein tun, dass man dann halt auch das wieder spawnen kann. Das heißt, man kann das relativ gut auch ja selber starten, selber weiter entwickeln.
+
+531
+00:38:54,840 --> 00:39:02,840
+ Wir freuen uns über Input und auch um fleißige Hände, die mit entwickeln und weiter Ideen bringen.
+
+532
+00:39:02,840 --> 00:39:11,840
+ Was man gerade eben schon kurz angeteasert gesehen hat, ist, wir haben auch eine API, die wird auch mittlerweile schon von einigen benutzt.
+
+533
+00:39:11,840 --> 00:39:28,840
+ Also wir haben schon ein paar Anfragen gehabt, die jetzt irgendwie, also irgendein Village hier benutzt jetzt schon die API, um die eigenen Vorträge, die sie haben, wieder auf irgendeinem Art Infobeamer, auf irgendeinem speziellen Display wieder hier vor Ort anzuzeigen.
+
+534
+00:39:28,840 --> 00:39:38,840
+ Das heißt, sie pflegen ihre Daten irgendwie in der Pre-Talks Instanz, die werden vom Hub rein synchronisiert, werden dort über die API für deren Village wieder mit ausgespielt.
+
+535
+00:39:38,840 --> 00:39:50,840
+ Also da filtern sie dann auf ihr eigenes Village nur, weil sie dort die Sachen als Teil eines größeren einbauen und spielen das halt dann über die API wieder auf ihr Display.
+
+536
+00:39:50,840 --> 00:39:55,840
+ Ich habe es selber noch nicht gesehen, ich habe nur die Kommunikation dazu gesehen.
+
+537
+00:39:55,840 --> 00:40:06,840
+ Ja, also wie gesagt, für mich hat es halt, ich habe da in einem Hub-Projekt dann einfach diese APIs gebaut, das war das selbe Shattrille XM-Element, das rausfällt, wie wir sonst gewohnt sind.
+
+538
+00:40:06,840 --> 00:40:13,840
+ In dem Zug dann haben wir auch mal für das Shattrille-Chasing ein Schema geschrieben, das jetzt auch noch eine schöne ID hat und da wo auch das Schema liegt und so.
+
+539
+00:40:13,840 --> 00:40:16,840
+ Das was ich gerade erzähle, ich meinte, war wirklich noch die Rest-API.
+
+540
+00:40:16,840 --> 00:40:25,840
+ Ja, genau, zum Beispiel da wäre es ja auch, die Favoriten wären glaube ich das erste Ding, dass man die irgendwie aus den Fahrplan-Apps irgendwie da reinbekommt oder so was.
+
+541
+00:40:25,840 --> 00:40:28,840
+ Ja, aus der Decation und so was, klar, das ist natürlich ein spannendes Thema.
+
+542
+00:40:28,840 --> 00:40:38,840
+ Genau, also im Hub haben wir ja auch, also wenn man sich auf der Webseite sich das anschaut, kann man sich ja auch Events markieren, kann sagen, so hey, das ist in meinem persönlichen Fahrplan,
+
+543
+00:40:38,840 --> 00:40:47,840
+ man kann sich seinen persönlichen Fahrplan zusammenstellen, ähnlich wie die Apps das machen und da müssen wir uns halt auch mal jetzt irgendwie unterhalten, wie kriegen wir das jetzt irgendwie synchronisiert,
+
+544
+00:40:47,840 --> 00:41:02,840
+ dass man halt irgendwie auf seiner iOS-App Sachen sich markiert, dann im Hub irgendwie nochmal zwei, drei weitere Sachen markiert, um dann in der Android-App die Sachen auch schon zu sehen und dann halt irgendwie doch wieder einen rauszuwerfen, dass wir da halt wirklich so ein...
+
+545
+00:41:02,840 --> 00:41:12,840
+ Klar, da gibt es viele, viele Themen, also man könnte sich zum Beispiel, also ich meine, das ist ja beim Wok hier, anschauen der Recordings, die Recordings da dran zu haben als Information,
+
+546
+00:41:12,840 --> 00:41:22,840
+ dann auch zum Beispiel die iOS-App, speichert sich ja so was wie Watch Progress und welche du angeschaut hast und so weiter, dass man das noch mit synchronisiert, wenn man da schon mal...
+
+547
+00:41:22,840 --> 00:41:23,840
+ Auf Wunsch vielleicht nur.
+
+548
+00:41:23,840 --> 00:41:25,840
+ Ja, natürlich, wenn man will, genau.
+
+549
+00:41:25,840 --> 00:41:33,840
+ Ja, also für Leute, die sich mehr noch für das Thema interessieren, da gibt es dieses, der Tim Berners-Lee hat doch jetzt so ein lustiges Start-up/Open Source-Project namens Solid,
+
+550
+00:41:33,840 --> 00:41:43,840
+ wo sie genau solche Daten auch nochmal, also unabhängig von, also allgemein für Mediatheken oder sowas auch absperren können, ja, da hat er sich die Büsi neulich auch angeschaut und vorgutbefunden,
+
+551
+00:41:43,840 --> 00:41:57,840
+ wenn wir mal Zeit haben, hätte ich da auch mal Lust draufzuschauen, ob das nicht auch unsere Use-Cases abdeckt und da ist es halt wirklich so, du kannst dann irgendwie so auch den Pod bei dir daheim hosten und nicht zwingend irgendwie in deiner Nextcloud oder in einer Nextcloud.
+
+552
+00:41:57,840 --> 00:41:59,840
+ Ja, lass uns da mal wirklich nochmal gucken.
+
+553
+00:41:59,840 --> 00:42:11,840
+ Ja, ja, ich wollte nur mal für Leute, die sich mehr einlesen möchten, ein paar Point da dalassen, speziell für das Schedule-Personenthema, gibt es auch schon ein Issue und tatsächlich in dem allgemeinen Schedule-Rebo bei uns,
+
+554
+00:42:11,840 --> 00:42:15,840
+ die Laute 10 von, ja, ist auch schon wieder 2015.
+
+555
+00:42:15,840 --> 00:42:19,840
+ Das Problem geht ja nicht weg davon, dass man es liegen lässt, ne?
+
+556
+00:42:19,840 --> 00:42:32,840
+ Ja, ne, tatsächlich, den Use-Case habe ich jetzt hier nochmal extra formuliert, jetzt aus der Diskussion, die wir im Vorhinein hatten, aber da könnt ihr gerne auch drunter kommentieren, wenn ihr es gleich öffentlich machen möchtet oder den euren Issues dann refanzieren wollt.
+
+557
+00:42:32,840 --> 00:42:41,840
+ Ja, genau. Gut, dein Fahrplan-App ist nicht open source, so weit ich dich jetzt weiß.
+
+558
+00:42:41,840 --> 00:42:47,840
+ Ja, das ist nicht so sehr, weil sie nicht größer nicht open source sein sollte, sondern mehr so, weil ja.
+
+559
+00:42:47,840 --> 00:42:48,840
+ Es macht mehr Arbeit.
+
+560
+00:42:48,840 --> 00:42:51,840
+ Ja, naja, und sie ist auch momentan in keinem Zustand, den ich open sourcen wollte.
+
+561
+00:42:51,840 --> 00:43:01,840
+ Die wächst halt immer so nebenan hin und das muss man auch bedienen können. Die ganze Infrastruktur ist, ich müsste irgendwann mal einen Diagramm dafür malen, ist schon sehr viel handgestreckt.
+
+562
+00:43:01,840 --> 00:43:15,840
+ Das würde ich gerne mal sauber und open machen, fehlt mir momentan die Zeit dafür. Ich habe eine Kernbibliothek, die quasi dieses Redata Format da, oder was mal Redata war, lesen kann und die auch so die Datenbank import und so weiter das macht.
+
+563
+00:43:15,840 --> 00:43:26,840
+ Die habe ich jetzt gerade neu gebaut in Swift, die könnte ich theoretisch mal open sourcen, weil das kann jeder, die kann man anders verstehen, also den Rest, das würde ich niemanden antun müssen.
+
+564
+00:43:26,840 --> 00:43:29,840
+ Also wenn da Leute interessiert haben, könntest du dich wahrscheinlich über MasterDone bei gemeldet haben.
+
+565
+00:43:29,840 --> 00:43:53,840
+ Auf MasterDone, genau, es gibt einen CampUp Account, campup@mrtoto.net, genau, und der ist aber auch, genau, auch noch mein eigener MrToto@mrtoto.net, da kann man mich erreichen, bzw. die CampUp direkt erreichen und ich, genau, ich verspreche mal nichts, aber ich hatte schon vor, die Core Library zumindest mal zu open sourcen, weil es auch nett wäre, wenn andere Leute mithelfen könnten.
+
+566
+00:43:53,840 --> 00:44:17,840
+ Ja, ok, wie gesagt, muss ich eigentlich nur euch sagen, wie mich erreicht, wobei ich weiß, an der Stelle placke ich nochmal den Easter Egg Vortrag zu den IDs, das war auch so eine andere Thematik, die aber relativ weit jetzt ist, also wir haben jetzt für all Raume Geo IDs, wir haben für Events Geo IDs ja schon eigentlich relativ lang, ja das kam mir damals mit dem Shattered Chasing mit rein.
+
+567
+00:44:17,840 --> 00:44:37,840
+ Jetzt müssten nur noch alle Kleinstes benutzen, ja also ihr wisst, wer gemeint ist, sodass man vielleicht von diesen Integer IDs langsam mal wegkommt, das wäre langsam nach, was weiß ich, wie viele Jahren wir dieses Format jetzt schon parallel mit Geo IDs und Integer IDs auch mal ganz nett.
+
+568
+00:44:37,840 --> 00:44:47,840
+ Ja, das stimmt. Ok, wenn ihr keine Themen mehr habt, sind wir glaube ich durch soweit. Das war doch eine schöne Abriss, würde ich sagen. Ja, genau.
+
+569
+00:44:47,840 --> 00:45:00,840
+ Allgemein mein Wunsch wäre einfach, wenn irgendwie noch Ideen, irgendjemand da draußen Ideen hat, was man in die Apps irgendwie gemeinsam in Use Case, dass man irgendwie Synchronationen schafft, dass man eben welche Zusatzinformationen bereitstellen kann.
+
+570
+00:45:00,840 --> 00:45:13,840
+ Wir wollen halt mit dem Hub Daten integrieren, also verschiedene Quellen einfach zusammenführen und halt aufbereiten in die Fahreform-Apps, in die Infobima, ins Wok überführen.
+
+571
+00:45:13,840 --> 00:45:20,840
+ Wenn da jemand Ideen hat, bitte, bitte meldet euch. Ja und am besten halt gleich Pull-Request stellen, oder?
+
+572
+00:45:20,840 --> 00:45:33,840
+ Das ist Stufe 2, da gibt es dann extra Fleißpunkte für. Aber einfach auch, wenn einfach nur eine dumme Idee dabei ist, also dumme in Gänsefüßchen Idee dabei ist, bitte her damit.
+
+573
+00:45:33,840 --> 00:45:43,840
+ Also es mag für euch komplett offensichtlich sein, dass es ja das da, das gerade fehlt. Wir haben es potenziell einfach in dem ganzen Trubel.
+
+574
+00:45:43,840 --> 00:45:51,840
+ Man übersieht schnell was, das ist kompliziert. Wie zum Beispiel, als Andy mir dann irgendwann sagte, hey, die Speaker-Bilder fehlen, ich so, what?
+
+575
+00:45:51,840 --> 00:46:01,840
+ Du hast es ja indirekt mitbekommen, weil ich mache ja so ein bisschen immer die Außenkommunikation zum Thema Schedule und ich glaube, das letzte Mal hatte ich das einfach nicht gesagt, weil es erstmal eine Baustelle bei mir war.
+
+576
+00:46:01,840 --> 00:46:07,840
+ Du warst total überrascht, wie da fehlen Speaker-Bilder und eigentlich müssen wir die Personen noch mal viel besser modellieren.
+
+577
+00:46:07,840 --> 00:46:19,840
+ Genau, also genau so eine Situation fand ich halt sehr exemplarisch. Wir haben nicht, also ich habe zumindest überhaupt nicht darüber nachgedacht, dass das ja relevant sein könnte.
+
+578
+00:46:19,840 --> 00:46:32,840
+ Im Nachhinein denke ich so, ok, Bauschutt geraucht der Typ, warum hat er denn nicht dran gedacht? Aber genau so was, deswegen meine Bitte an alle, wenn euch sowas auffällt, meldet euch.
+
+579
+00:46:32,840 --> 00:46:41,840
+ Dumme Ideen sind gerne gesehen, Mithilfe im Rahmen von Pull-Request, Merchrequest, wie auch immer, noch viel mehr.
+
+580
+00:46:41,840 --> 00:46:50,840
+ Das haben wir gar nicht ganz vergessen, die Plane-UI, also das aktuelle Frontend, was wir haben, das war eigentlich nur so die Fallback-UI.
+
+581
+00:46:50,840 --> 00:46:52,840
+ Wir warten eigentlich immer noch mal auf…
+
+582
+00:46:52,840 --> 00:46:54,840
+ Wenn es mal ernst wird.
+
+583
+00:46:54,840 --> 00:47:01,840
+ Echte Frontend-Entwickler, ja, wir sind alle in dem Team, in dem Hub-Team jetzt irgendwie Backend-Entwickler, die halt jetzt Frontend machen, weil keine Frontend-Entwickler da sind.
+
+584
+00:47:01,840 --> 00:47:06,840
+ Und es wäre halt schön, wenn einfach die API mal benutzt werden würde und einfach…
+
+585
+00:47:06,840 --> 00:47:18,840
+ Ja, das war auch so ein, das war eigentlich genau dieselbe Situation, dass wir dann während der LC3 hatten wir halt die ganzen Sachen vorbereitet und wir sind die ganze Zeit so in den Modus gefahren, so ja ok, wir stellen die Daten bereit,
+
+586
+00:47:18,840 --> 00:47:35,840
+ wenn wir per API und dann wird die halt irgendwie aufbereitet, da gibt es irgendwie Design-Team. Das war leider eine Fehlkommunikation, es gab kein Design-Team und wir hatten halt die ganze Zeit unsere Debug-Seite, um halt überhaupt mal ein bisschen mit den Daten spielen zu können, um irgendwie zu verstehen.
+
+587
+00:47:35,840 --> 00:47:47,840
+ Und naja, Kommunikations-Fuck-Up an der Stelle, die anderen hatten halt fast dann so, ja, die haben ja schon irgendwie eine UI gebaut, die muss halt noch ein bisschen hübscher werden, aber steht ja schon.
+
+588
+00:47:47,840 --> 00:47:53,840
+ Und dann irgendwann ist dieses Missverständnis aufgeklärt, also entdeckt worden.
+
+589
+00:47:53,840 --> 00:48:08,840
+ Und dann haben wir noch versucht zu retten, was zu retten ist, die erste Play-UI war ein bisschen, deswegen, also die heißt intern auch noch Play-UI, weil sie war halt als Debug an sich gedacht.
+
+590
+00:48:08,840 --> 00:48:23,840
+ Mittlerweile haben wir das deutlich, also es ist mittlerweile aufgebohrt worden, es ist leichter anpassbar, dass wir halt jetzt die nächsten Veranstaltungen auch mit deutlich, deutlich, deutlich weniger Aufwand an Designs anpassen können.
+
+591
+00:48:23,840 --> 00:48:42,840
+ Es war bisher so viel, ja, Customized Design und mittlerweile ist es halt jetzt erstmal, damit es auch für uns einfacher wird, Bootstrap basiert, umgesetzt worden. Wenn es da draußen Designer gibt, die sagen Bootstrap seid ihr bescheuert, tut das nicht, ja bitte.
+
+592
+00:48:42,840 --> 00:48:44,840
+ Voll ökonomisch.
+
+593
+00:48:44,840 --> 00:48:47,840
+ Das ist eben so, wer macht hat recht.
+
+594
+00:48:47,840 --> 00:49:01,840
+ Ja, genau. Also an der Stelle, also wir sind da nicht drauf irgendwie fixiert, aber im Rahmen der geringen Ressourcen haben wir jetzt das erstmal genommen und wir haben jetzt schon gemerkt, dass das einfach die Mitarbeitsquote erhöht hat, weil einfach mehr Leute da mithelfen können.
+
+595
+00:49:01,840 --> 00:49:06,840
+ Und ja, insofern, wir freuen uns über Mitarbeit.
+
+596
+00:49:06,840 --> 00:49:18,840
+ Alles klar, wer macht hat recht ist doch ein gutes Schlusswort. Vielen Dank fürs spontane Vorbeischauen hier im Nachtstudio und wir schalten jetzt langsam die Lichter aus. Tschüss.
+
+597
+00:49:18,840 --> 00:49:19,840
+ Noch mehr gedimmt gleich.
+
+598
+00:49:19,840 --> 00:49:20,840
+ Ja, genau.
+
+599
+00:49:20,840 --> 00:49:21,840
+ Tschau und gute Nacht.
+
+600
+00:49:21,840 --> 00:49:22,840
+ Gute Nacht.
+

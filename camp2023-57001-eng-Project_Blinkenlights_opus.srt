@@ -1,0 +1,3880 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:32,640
+ Okay, let's start.
+
+4
+00:00:32,640 --> 00:00:37,760
+ Welcome this evening on the Bits and Bäume stage for
+
+5
+00:00:37,760 --> 00:00:41,200
+ our last talk for this day.
+
+6
+00:00:41,200 --> 00:00:45,640
+ I'm sure you're all familiar with Blinkenlights and
+
+7
+00:00:45,640 --> 00:00:49,160
+ who doesn't love Blinkenlights, you know?
+
+8
+00:00:49,160 --> 00:00:52,000
+ That's why we're all here in the end.
+
+9
+00:00:52,000 --> 00:00:56,320
+ So I think I don't have much to introduce to do.
+
+10
+00:00:56,320 --> 00:01:00,360
+ Just want to say please give a warm welcome to Tim Pritlove,
+
+11
+00:01:00,360 --> 00:01:04,240
+ who will give us a very thorough insight on the project
+
+12
+00:01:04,240 --> 00:01:05,280
+ Blinkenlights.
+
+13
+00:01:05,280 --> 00:01:05,920
+ Your stage.
+
+14
+00:01:05,920 --> 00:01:14,160
+ >> [APPLAUSE]
+
+15
+00:01:14,160 --> 00:01:15,800
+ >> Hello, hello, hello.
+
+16
+00:01:15,800 --> 00:01:20,880
+ I hope you do not know the project already with all its in and
+
+17
+00:01:20,880 --> 00:01:23,320
+ outs, but let's make a check.
+
+18
+00:01:23,320 --> 00:01:26,760
+ So who knows in general what I'm about to talk about?
+
+19
+00:01:26,760 --> 00:01:28,240
+ >> [LAUGH]
+
+20
+00:01:28,240 --> 00:01:29,640
+ >> That's by far too much.
+
+21
+00:01:29,640 --> 00:01:32,200
+ [LAUGH]
+
+22
+00:01:32,200 --> 00:01:33,600
+ Who has seen the first one?
+
+23
+00:01:33,600 --> 00:01:37,000
+ Who has seen the second one?
+
+24
+00:01:37,000 --> 00:01:39,400
+ Uh-huh, okay.
+
+25
+00:01:39,400 --> 00:01:41,840
+ Who knows about the third one?
+
+26
+00:01:41,840 --> 00:01:45,240
+ [LAUGH]
+
+27
+00:01:45,240 --> 00:01:47,000
+ All right, okay.
+
+28
+00:01:47,000 --> 00:01:50,440
+ So I'm going to talk a bit about the project.
+
+29
+00:01:50,440 --> 00:01:53,560
+ So there might be some duplication to your knowledge,
+
+30
+00:01:53,560 --> 00:01:57,280
+ but I think it's worthwhile looking back a bit and
+
+31
+00:01:57,280 --> 00:02:03,520
+ trying to have a slightly different view on
+
+32
+00:02:03,520 --> 00:02:08,880
+ what happened because it's also about failure and what didn't happen.
+
+33
+00:02:08,880 --> 00:02:10,280
+ [LAUGH]
+
+34
+00:02:10,280 --> 00:02:14,280
+ Because that's what comes with every project.
+
+35
+00:02:14,280 --> 00:02:17,240
+ So project Blinkenlights, where did it all start?
+
+36
+00:02:17,240 --> 00:02:24,920
+ It was a crazy idea that popped up in 2001, and
+
+37
+00:02:24,920 --> 00:02:29,400
+ it was kind of related to the death of Wau Hollad,
+
+38
+00:02:29,400 --> 00:02:34,840
+ who died in 2001 in May, 2001.
+
+39
+00:02:34,840 --> 00:02:39,280
+ Which was a disaster for us because we all expect him to be there when
+
+40
+00:02:39,280 --> 00:02:46,760
+ the CCC has its 20th birthday, which was coming up in the September of that year.
+
+41
+00:02:46,760 --> 00:02:53,640
+ And he just decided to quit early, which was quite bad.
+
+42
+00:02:53,640 --> 00:02:58,840
+ So we had to come up with a new idea, and we thought, okay, so let's do a party.
+
+43
+00:02:58,840 --> 00:03:04,840
+ Somehow, and in a way, that's how we found our way to this project,
+
+44
+00:03:04,840 --> 00:03:08,000
+ which was just beginning with the idea of having a party.
+
+45
+00:03:08,000 --> 00:03:11,760
+ And in the end, it all got more and more complicated.
+
+46
+00:03:11,760 --> 00:03:19,400
+ So here's an overview of what has happened in this project.
+
+47
+00:03:19,400 --> 00:03:24,000
+ So in 2001, we had this first installation in Berlin, and
+
+48
+00:03:24,000 --> 00:03:27,800
+ we didn't really expect anything to happen out of this.
+
+49
+00:03:27,800 --> 00:03:30,000
+ But there were quite some implications.
+
+50
+00:03:30,000 --> 00:03:35,200
+ It's a bit bad that the sun is shining directly on the screen.
+
+51
+00:03:35,200 --> 00:03:39,560
+ I hope you can somehow see something.
+
+52
+00:03:39,560 --> 00:03:44,560
+ 2002, we had the second installation in Paris.
+
+53
+00:03:44,560 --> 00:03:50,160
+ And six years later on, we had another installation of this large scale
+
+54
+00:03:50,160 --> 00:03:53,200
+ type in Toronto and Canada.
+
+55
+00:03:53,200 --> 00:03:57,560
+ And of course, we had a tiny presence here at the camp this year.
+
+56
+00:03:57,560 --> 00:04:00,360
+ That's basically what happened.
+
+57
+00:04:00,360 --> 00:04:02,720
+ So let's look back to the Blinkenleis project.
+
+58
+00:04:02,720 --> 00:04:07,680
+ So as I told you, it all started with this idea of having a party.
+
+59
+00:04:07,680 --> 00:04:12,800
+ And the idea was having a party actually in this building,
+
+60
+00:04:12,800 --> 00:04:15,320
+ Hauses Leras, which at that time was totally empty.
+
+61
+00:04:15,320 --> 00:04:21,800
+ It was in use before, because it was like this crazy concept of
+
+62
+00:04:21,800 --> 00:04:23,880
+ Zwischennotzung in Berlin.
+
+63
+00:04:23,880 --> 00:04:26,840
+ So they didn't know really what to do with it, so
+
+64
+00:04:26,840 --> 00:04:31,560
+ they threw in all those artists who lived there for quite some time.
+
+65
+00:04:31,560 --> 00:04:33,400
+ And had their crazy projects.
+
+66
+00:04:33,400 --> 00:04:36,000
+ And when we came to the empty building and
+
+67
+00:04:36,000 --> 00:04:40,600
+ looked if this is a good venue for a party, we found out it wasn't because
+
+68
+00:04:40,600 --> 00:04:45,360
+ it was stinking of all those parties that have already happened the years before.
+
+69
+00:04:45,360 --> 00:04:46,880
+ So that was not an option.
+
+70
+00:04:46,880 --> 00:04:53,680
+ The new owners of that building also own the BCC Conference Center
+
+71
+00:04:53,680 --> 00:04:57,720
+ next to this building, which was also home to the Chaos Communication Congress for
+
+72
+00:04:57,720 --> 00:04:58,920
+ many, many, many years.
+
+73
+00:04:58,920 --> 00:05:04,560
+ But not at that time, because it was about to be renovated in 2001.
+
+74
+00:05:04,560 --> 00:05:08,600
+ So they decided, why don't you do your party over there?
+
+75
+00:05:08,600 --> 00:05:10,800
+ It's much nicer and doesn't stink.
+
+76
+00:05:10,800 --> 00:05:13,840
+ So okay, we said, okay, fine, why not?
+
+77
+00:05:13,840 --> 00:05:17,000
+ And everything got a bit bigger and bigger and bigger,
+
+78
+00:05:17,000 --> 00:05:18,680
+ because there was lots of space to fill.
+
+79
+00:05:18,680 --> 00:05:22,600
+ So we had this huge cupola that we had to fill with a party.
+
+80
+00:05:22,600 --> 00:05:26,840
+ And there was this space around it, which we had to fill with something.
+
+81
+00:05:26,840 --> 00:05:30,560
+ So we came up with, well, then let's do an exhibition too.
+
+82
+00:05:30,560 --> 00:05:33,240
+ And so on.
+
+83
+00:05:33,240 --> 00:05:35,680
+ This all happened five weeks before the date.
+
+84
+00:05:35,680 --> 00:05:42,720
+ And somehow I had this idea of using those windows even for
+
+85
+00:05:42,720 --> 00:05:47,760
+ the party already just to write CCC on it with lights.
+
+86
+00:05:47,760 --> 00:05:52,160
+ Because it's a pixel display, why shouldn't you write something on it?
+
+87
+00:05:52,160 --> 00:05:58,240
+ And that's one of those moments where your life takes a turn somehow.
+
+88
+00:05:58,240 --> 00:06:02,640
+ Because I just dropped this idea in a group of people.
+
+89
+00:06:02,640 --> 00:06:07,360
+ And the first response was, well, then you can start playing Tetris on it, right?
+
+90
+00:06:07,360 --> 00:06:11,040
+ >> [LAUGH]
+
+91
+00:06:11,040 --> 00:06:13,080
+ >> Yeah, and that was this freeze moment
+
+92
+00:06:13,080 --> 00:06:17,040
+ was like, hmm, what if?
+
+93
+00:06:17,040 --> 00:06:21,160
+ And of course, five weeks later, we had this project.
+
+94
+00:06:21,160 --> 00:06:26,440
+ And as you might already know, it was quite interactive.
+
+95
+00:06:26,440 --> 00:06:29,760
+ So we coupled it with a telephone system, and
+
+96
+00:06:29,760 --> 00:06:32,120
+ it was possible to play pong on it with a mobile phone.
+
+97
+00:06:32,120 --> 00:06:36,080
+ Which at that point in time was rather innovative.
+
+98
+00:06:36,080 --> 00:06:38,520
+ There have been other installations like this.
+
+99
+00:06:38,520 --> 00:06:42,680
+ Actually, one year earlier, there was something in Brussels.
+
+100
+00:06:42,680 --> 00:06:48,520
+ And there have been some approaches to the same idea in the years before.
+
+101
+00:06:48,520 --> 00:06:51,840
+ So there were always nerds who knew that windows and
+
+102
+00:06:51,840 --> 00:06:55,560
+ pixels are sort of the same concept.
+
+103
+00:06:55,560 --> 00:06:59,840
+ So, and that was also our approach.
+
+104
+00:06:59,840 --> 00:07:07,760
+ So we didn't really think of this as being very special in a way.
+
+105
+00:07:07,760 --> 00:07:11,800
+ It was more obvious in our view.
+
+106
+00:07:11,800 --> 00:07:15,600
+ So the innovative part was of course the interactivity.
+
+107
+00:07:15,600 --> 00:07:18,680
+ And coupling it with the mobile phone was rather new.
+
+108
+00:07:18,680 --> 00:07:26,200
+ And we also wanted to embrace participation.
+
+109
+00:07:26,200 --> 00:07:31,800
+ So we had this idea of giving out a format description,
+
+110
+00:07:31,800 --> 00:07:35,960
+ of giving out tools so that people could do their own movies.
+
+111
+00:07:35,960 --> 00:07:39,840
+ And it was really interesting to see that although the resolution,
+
+112
+00:07:39,840 --> 00:07:41,440
+ that's what we thought.
+
+113
+00:07:41,440 --> 00:07:45,840
+ We thought, my god, it's just 144 pixels.
+
+114
+00:07:45,840 --> 00:07:48,400
+ Can anybody do something with it?
+
+115
+00:07:48,400 --> 00:07:51,800
+ And as you will see when we move over to the other project,
+
+116
+00:07:51,800 --> 00:07:54,920
+ I think it has actually made things easier for people.
+
+117
+00:07:54,920 --> 00:08:00,480
+ Because if you reduce the resolution, you also reduce the complexity.
+
+118
+00:08:00,480 --> 00:08:05,160
+ And then people had to be super, super creative in order to make something out of
+
+119
+00:08:05,160 --> 00:08:09,440
+ it. And I think the BlinkLines movies of this first installation are still the most
+
+120
+00:08:09,440 --> 00:08:11,240
+ creative that we've ever seen.
+
+121
+00:08:11,240 --> 00:08:15,600
+ Although you can't see it because the sun is shining on the screen.
+
+122
+00:08:15,600 --> 00:08:17,520
+ I apologize for the sun.
+
+123
+00:08:17,520 --> 00:08:18,880
+ Bad, bad.
+
+124
+00:08:18,880 --> 00:08:20,640
+ Evil day star.
+
+125
+00:08:20,640 --> 00:08:22,480
+ Anyway, you know, pixels on the screen.
+
+126
+00:08:22,480 --> 00:08:33,640
+ And this was also a simple idea here behind this to have this simple text format.
+
+127
+00:08:33,640 --> 00:08:38,280
+ I wouldn't choose zeros and ones in the text format if I would redo it.
+
+128
+00:08:38,280 --> 00:08:42,800
+ But these are the decisions you make and then you can never change it.
+
+129
+00:08:42,800 --> 00:08:45,000
+ So that's that's all you need.
+
+130
+00:08:45,000 --> 00:08:46,680
+ So you just have this.
+
+131
+00:08:46,680 --> 00:08:54,280
+ And with two frames, you just have an animation already.
+
+132
+00:08:54,280 --> 00:09:02,560
+ So this is what happens if you are inside the building because it was all built with
+
+133
+00:09:02,560 --> 00:09:09,480
+ simple relays and everything was very, very simple technology.
+
+134
+00:09:09,480 --> 00:09:14,960
+ And for anybody who was looking at it, you know, it looks like magic.
+
+135
+00:09:14,960 --> 00:09:17,800
+ It's like, how have you done this?
+
+136
+00:09:17,800 --> 00:09:19,640
+ You know, how does this work?
+
+137
+00:09:19,640 --> 00:09:25,800
+ People are so amazed about it, which is funny because it's super simple.
+
+138
+00:09:25,800 --> 00:09:31,280
+ Here's an explanation by our Russian friends who have kind of visualized this
+
+139
+00:09:31,280 --> 00:09:33,280
+ concept, what you have to do.
+
+140
+00:09:33,280 --> 00:09:51,400
+ So you take the building, empty it out, put windows, lights behind the windows.
+
+141
+00:09:51,400 --> 00:09:57,760
+ And then it's all about timing, you know, you have to make sure that the team is
+
+142
+00:09:57,760 --> 00:10:02,560
+ well prepared and knows everybody knows what to do when the time comes.
+
+143
+00:10:02,560 --> 00:10:06,520
+ You know, people press buttons when people press buttons.
+
+144
+00:10:06,520 --> 00:10:08,080
+ You have to go.
+
+145
+00:10:08,080 --> 00:10:09,800
+ There's no other option.
+
+146
+00:10:09,800 --> 00:10:13,720
+ So it was lots of running around and walking the stairs.
+
+147
+00:10:13,720 --> 00:10:15,800
+ And we did this for six months.
+
+148
+00:10:15,800 --> 00:10:16,800
+ Can you imagine?
+
+149
+00:10:16,800 --> 00:10:17,800
+ It's.
+
+150
+00:10:17,800 --> 00:10:26,360
+ Yeah.
+
+151
+00:10:26,360 --> 00:10:29,560
+ So game over. Of course, that's not how it worked.
+
+152
+00:10:29,560 --> 00:10:30,560
+ How it worked.
+
+153
+00:10:30,560 --> 00:10:31,560
+ You can see here.
+
+154
+00:10:31,560 --> 00:10:36,240
+ From dusk till dawn.
+
+155
+00:10:36,240 --> 00:10:37,240
+ Oops.
+
+156
+00:10:37,240 --> 00:10:40,280
+ No, you can't because I pushed the wrong button.
+
+157
+00:10:40,280 --> 00:10:45,040
+ Oh, my God, Tim, so professional.
+
+158
+00:10:45,040 --> 00:10:52,280
+ From dusk till dawn, Blinken lights continuously showed a variety of alternating
+
+159
+00:10:52,280 --> 00:10:56,920
+ animations on its monochrome matrix, eight pixels high by 18 across.
+
+160
+00:10:56,920 --> 00:11:03,240
+ By offering various options for participation, the CCC invited everyone to
+
+161
+00:11:03,240 --> 00:11:05,560
+ get involved in this interactive installation.
+
+162
+00:11:05,560 --> 00:11:11,160
+ The name of the work was derived from the hackers jargon for flashing computer
+
+163
+00:11:11,160 --> 00:11:13,440
+ consoles, Blinken lights.
+
+164
+00:11:13,440 --> 00:11:36,480
+ By dialing the Blinken lights computer with a mobile phone,
+
+165
+00:11:36,480 --> 00:11:40,080
+ passersby can play the classic computer game Pong on the giant screen.
+
+166
+00:11:40,800 --> 00:11:45,280
+ Typically, players are pitted against the computer, but if someone else dials in,
+
+167
+00:11:45,280 --> 00:11:48,800
+ they get to take over the paddle usually controlled by the computer.
+
+168
+00:11:48,800 --> 00:11:52,640
+ The game is going on as long as the connection remains established.
+
+169
+00:11:52,640 --> 00:11:57,520
+ When everybody is hung up, Blinken lights carried on to show its almost endless
+
+170
+00:11:57,520 --> 00:12:02,560
+ archive of specially designed movies until the next person decides to go for another game of Pong.
+
+171
+00:12:03,200 --> 00:12:23,360
+ The installation used the top eight floors of the house of the teacher.
+
+172
+00:12:28,960 --> 00:12:34,480
+ Behind the scenes, the pixels were brought to life by 144 floodlights standing directly
+
+173
+00:12:34,480 --> 00:12:38,880
+ behind the windows. The windows have been painted white to make them more translucent.
+
+174
+00:12:38,880 --> 00:12:49,280
+ Each light was connected to a simple relay switching the electricity source.
+
+175
+00:12:49,280 --> 00:12:56,480
+ From each relay, a long control cable spanned the distance to the control center in the eighth
+
+176
+00:12:56,480 --> 00:13:00,160
+ floor, totaling more than five kilometers of cable in the whole building.
+
+177
+00:13:00,160 --> 00:13:08,240
+ The control center consisted of three computers interconnected via a local area network.
+
+178
+00:13:08,240 --> 00:13:13,120
+ Each system was running self-developed software under the GNU Linux operating system.
+
+179
+00:13:13,120 --> 00:13:20,720
+ And this is how interaction with Blinken lights works. People either send their Blinken lights
+
+180
+00:13:20,720 --> 00:13:26,880
+ movies by email or directly call the system with their mobile phone. The chaos control center
+
+181
+00:13:26,880 --> 00:13:32,720
+ computer manages the animation playlist or reacts to incoming calls, effectively starting the Pong
+
+182
+00:13:32,720 --> 00:13:38,720
+ game at that very moment. The images to be displayed are constantly transmitted to the
+
+183
+00:13:38,720 --> 00:13:43,120
+ matrix control computer that is attached to the relays and is responsible for actually
+
+184
+00:13:43,120 --> 00:14:00,080
+ switching the individual lights on and off. This wild setup of cables actually worked flawlessly
+
+185
+00:14:00,080 --> 00:14:05,840
+ for 166 days and demonstrated that the hacker's approach to technology is sometimes pretty
+
+186
+00:14:05,840 --> 00:14:13,840
+ unconventional.
+
+187
+00:14:13,840 --> 00:14:33,840
+ [Music]
+
+188
+00:14:35,680 --> 00:14:46,480
+ Yeah, okay cut. This is just an excerpt of the whole, thanks. It's an excerpt of the of the whole
+
+189
+00:14:46,480 --> 00:14:54,800
+ full documentation video that's out on YouTube. And well I think it shows that we have accomplished
+
+190
+00:14:54,800 --> 00:15:01,760
+ something in that time and we've been very lucky that while we expected the whole system to blow
+
+191
+00:15:01,760 --> 00:15:08,560
+ up after two weeks because you've seen the cabling, you know, and we didn't really expect lamps and
+
+192
+00:15:08,560 --> 00:15:16,320
+ especially the relays to work for a significant amount of time. It actually, well, worked half a
+
+193
+00:15:16,320 --> 00:15:21,440
+ year and we didn't even know that we could use the building for half a year because we were basically
+
+194
+00:15:21,440 --> 00:15:28,160
+ waiting for renovation to start but this can take time and it took some time and this enabled us to
+
+195
+00:15:28,160 --> 00:15:36,320
+ not only improve the system and respond to user requests and wishes and new ideas that came up.
+
+196
+00:15:36,320 --> 00:15:45,280
+ So we could constantly adapt with the software to new ideas like this wish by many people to
+
+197
+00:15:45,280 --> 00:15:50,240
+ have their personal movie on screen on demand which we coupled with the Pong game so people could
+
+198
+00:15:50,240 --> 00:15:56,240
+ call the system Pong starts then they enter their code that we have provided to them and then their
+
+199
+00:15:56,240 --> 00:16:02,000
+ you know love letter movie starts playing so which was super enabling because you're standing in the
+
+200
+00:16:02,000 --> 00:16:06,480
+ city of the capital and you can just like with the press of a button you can just you know make a
+
+201
+00:16:06,480 --> 00:16:15,040
+ building play your movie to whoever you want to see and that was pretty amazing and it was for us
+
+202
+00:16:15,040 --> 00:16:22,160
+ also pretty amazing to see the reaction of the city in the beginning only the city and later on
+
+203
+00:16:22,160 --> 00:16:29,760
+ the rest of the world. I would go more into this aspect let me shed some light on the other projects
+
+204
+00:16:29,760 --> 00:16:34,880
+ first and I will show you some of the cultural implications this whole project had for us and
+
+205
+00:16:34,880 --> 00:16:41,440
+ me especially it was a wild ride I can tell you this was like the defining moment in my life and
+
+206
+00:16:41,440 --> 00:16:49,600
+ since then nothing was like before but then we got a call I think it actually was an email I don't
+
+207
+00:16:49,600 --> 00:16:57,520
+ know so somebody asked me well could you imagine doing this again and this was while the original
+
+208
+00:16:57,520 --> 00:17:10,080
+ Blinkenleid installation was still running and well I said okay where yeah in Paris and I said
+
+209
+00:17:10,080 --> 00:17:16,480
+ well okay so they had this new art festival that was coming up they had a new mayor and the new
+
+210
+00:17:16,480 --> 00:17:22,400
+ mayor wanted to do something awesome and he had this idea of doing a new art festival in Paris
+
+211
+00:17:22,400 --> 00:17:29,920
+ which still runs it's called Nuit Blanche I think it started in 2002 and it's still running as far
+
+212
+00:17:29,920 --> 00:17:37,120
+ as I know and they wanted us kind of as the headliner of this whole festival which was super
+
+213
+00:17:37,120 --> 00:17:42,480
+ amazing and I thought well yeah we could do it but only if you have an interesting building for us
+
+214
+00:17:43,280 --> 00:17:48,560
+ yeah and she said well I'm calling you back and she called me back and told me we could you know
+
+215
+00:17:48,560 --> 00:17:55,920
+ use the facade of the Bibliothèque nationale de France which was quite something and it was super
+
+216
+00:17:55,920 --> 00:18:03,040
+ big um here's some impressions if you can spot them so if you don't know the Bibliothèque nationale
+
+217
+00:18:03,040 --> 00:18:12,960
+ de France is a super huge area close to this to La Seine and it's basically four skyscraper buildings
+
+218
+00:18:12,960 --> 00:18:20,000
+ L-shaped so it's like books you know it's a library so it's supposed to be like four books
+
+219
+00:18:20,000 --> 00:18:28,480
+ that are standing next to each other there's a park inside but we only got one of the towers
+
+220
+00:18:28,480 --> 00:18:37,840
+ well I would have taken both but in the end I was quite happy that we didn't do that because it
+
+221
+00:18:37,840 --> 00:18:45,600
+ would have killed us because this had already killed us but we called it a card so as the reference of
+
+222
+00:18:45,600 --> 00:18:51,520
+ course to the arcade games and but also works as a french word which is also very important that you
+
+223
+00:18:51,520 --> 00:18:58,240
+ use french words if you're doing something in france to get acceptance and we improved on this
+
+224
+00:18:58,240 --> 00:19:03,600
+ gaming idea because now we had a larger screen and we would still wanted to retain this interactivity
+
+225
+00:19:04,400 --> 00:19:12,000
+ and we also wanted to work with gray scaling because before the original blink lights was
+
+226
+00:19:12,000 --> 00:19:18,000
+ like pure on off monochrome and nothing else because it was just simple relays and this time
+
+227
+00:19:18,000 --> 00:19:25,040
+ we improved the technology we use I mean improve the technology we didn't just use simple relays
+
+228
+00:19:25,040 --> 00:19:31,280
+ we just kind of came up with something we built our own demo boxes and it was still network based
+
+229
+00:19:31,280 --> 00:19:36,560
+ and this time we had this huge screen and we had new games like pick man and breakout and
+
+230
+00:19:36,560 --> 00:19:39,360
+ other games
+
+231
+00:19:39,360 --> 00:19:47,360
+ yeah of course using the higher resolution we could experiment with
+
+232
+00:19:47,360 --> 00:19:51,280
+ images and and and movies and that's also where the trouble starts I mean
+
+233
+00:19:51,280 --> 00:19:59,440
+ looking back I would have chosen at least to have less gray scaling you might wonder
+
+234
+00:19:59,440 --> 00:20:09,520
+ why isn't bigger better is more better I disagree we had like um eight did we have eight I think
+
+235
+00:20:09,520 --> 00:20:18,560
+ yeah I think we had um eight as three bits um eight gray scales and that was probably the maximum
+
+236
+00:20:18,560 --> 00:20:27,040
+ we should have used um because if you have too much granularity that all becomes kind of mushy
+
+237
+00:20:27,840 --> 00:20:34,240
+ and anyway but it was still looking great it all depended on how you design it and what I especially
+
+238
+00:20:34,240 --> 00:20:39,440
+ liked about it is that you could see it basically from from everywhere I mean you could this this
+
+239
+00:20:39,440 --> 00:20:45,200
+ photo is I think taken at least one kilometer from it away because it stands at the river
+
+240
+00:20:45,200 --> 00:20:52,000
+ saying and it's had the high visibility from many many places which was gorgeous and then
+
+241
+00:20:52,000 --> 00:21:00,720
+ it works much better but it's also important is that we should always think about these
+
+242
+00:21:00,720 --> 00:21:09,840
+ project as architecture projects and not displace although they are displaced but they're still
+
+243
+00:21:10,400 --> 00:21:23,040
+ architecture so we had all these um funny images and let's have a look at how this looked like in
+
+244
+00:21:23,040 --> 00:21:41,680
+ real real animations
+
+245
+00:21:41,680 --> 00:21:46,320
+ foreign
+
+246
+00:21:46,880 --> 00:21:50,960
+ foreign
+
+247
+00:21:50,960 --> 00:21:55,600
+ foreign
+
+248
+00:21:56,240 --> 00:22:00,240
+ foreign
+
+249
+00:22:00,880 --> 00:22:04,880
+ foreign
+
+250
+00:22:05,520 --> 00:22:09,520
+ foreign
+
+251
+00:22:10,160 --> 00:22:14,160
+ foreign
+
+252
+00:22:14,240 --> 00:22:16,800
+ foreign
+
+253
+00:22:16,880 --> 00:22:19,440
+ foreign
+
+254
+00:22:19,440 --> 00:22:34,720
+ these 20 etages with the 26 windows with this wonderful
+
+255
+00:22:34,720 --> 00:22:41,920
+ steam plan baham that are there for the fact that if the light shiner is shining on the disc
+
+256
+00:22:41,920 --> 00:22:45,760
+ that you don't see the light shiner but that the whole thing is more or less through
+
+257
+00:22:45,760 --> 00:22:50,960
+ this opaque area is consistent with this installation is now that we still have eight
+
+258
+00:22:50,960 --> 00:22:55,760
+ steps that we can represent but 0 to the whole cell eight times
+
+259
+00:22:55,760 --> 00:23:01,920
+ and the computer only takes its floor out
+
+260
+00:23:02,960 --> 00:23:19,440
+ so next to me and give you the answer to the signal here is the car along the lamp
+
+261
+00:23:20,080 --> 00:23:27,840
+ in the room here comes the cable goes into the break out boxes then goes into the mc buhain
+
+262
+00:23:27,840 --> 00:23:37,920
+ from there we have a network cable that goes into the cisco and from there a glass driver goes into the basement
+
+263
+00:23:38,480 --> 00:23:42,400
+ foreign
+
+264
+00:23:43,120 --> 00:23:46,880
+ foreign
+
+265
+00:23:46,960 --> 00:23:49,360
+ foreign
+
+266
+00:24:12,000 --> 00:24:26,000
+ i have no idea what's happening here with this video and you can't read the english text because it's covered by the sun but basically you get the gist of it this was a complicated installation but in a sense still
+
+267
+00:24:26,000 --> 00:24:32,560
+ you know using standard technology the twist was that for the first time we developed our own
+
+268
+00:24:32,560 --> 00:24:40,000
+ technology so we had this linux uh customized linux box that we have built to our specifications
+
+269
+00:24:40,000 --> 00:24:48,400
+ which was doing all the dimming because i mean we could have taken standard dmx lighting equipment i mean
+
+270
+00:24:48,400 --> 00:24:55,760
+ controlling lamps was not new in 2002 i mean this existed but it would have been super super
+
+271
+00:24:55,760 --> 00:25:02,560
+ expensive on the one hand and wouldn't have been as flexible as we wanted it to be because there's
+
+272
+00:25:02,560 --> 00:25:08,080
+ always a tiny twist where you want to optimize something which then you can't do because you
+
+273
+00:25:08,080 --> 00:25:15,760
+ know closed systems or limitations of the protocol and we wanted to be in control of everything that was the general idea
+
+274
+00:25:15,760 --> 00:25:22,800
+ so we finished that project in paris and then things calmed down a bit
+
+275
+00:25:22,800 --> 00:25:31,200
+ although we redid the original blinken lights version at the house of the teacher for i forgot like
+
+276
+00:25:31,200 --> 00:25:37,840
+ two three times to other occasions for a short period of time i'm not sure it was totally worth it but at least we did it
+
+277
+00:25:38,160 --> 00:25:44,640
+ then the renovation started and there was this construction sign and we actually built a replica
+
+278
+00:25:44,640 --> 00:25:51,120
+ version as led based inside this construction sign so as long as the building was redone you could
+
+279
+00:25:51,120 --> 00:25:57,520
+ still look at this and it was always our idea to you know make it permanent in a way i explained
+
+280
+00:25:57,520 --> 00:26:05,520
+ a bit more about this as well but let's move on to the third part stereoscope which was then done
+
+281
+00:26:05,520 --> 00:26:12,080
+ in 2008 and again it was a continuation of this new yblange story because the canadians thought
+
+282
+00:26:12,080 --> 00:26:17,600
+ well what paris is doing is super cool we need to do the same thing so they also started a new yblange
+
+283
+00:26:17,600 --> 00:26:22,880
+ and of course they wanted blinken lights to be the headliner because that's how it's done you know
+
+284
+00:26:22,880 --> 00:26:29,600
+ they learned this from paris and at that point in time our team was also you know
+
+285
+00:26:31,200 --> 00:26:38,480
+ not mostly but partly dismantled people move on doing other things but phil and i we decided okay
+
+286
+00:26:38,480 --> 00:26:45,840
+ we are going to do this even with a smaller team and so we flew into canada and looked at this
+
+287
+00:26:45,840 --> 00:26:52,160
+ building not sure you can probably see it but this is the toronto city hall which is an quite amazing
+
+288
+00:26:52,160 --> 00:26:59,760
+ building it's two sky two curved skyscrapers of different size standing more or less absurd to
+
+289
+00:26:59,760 --> 00:27:06,080
+ each other open towards the front where there's a big place what's the name of the place again
+
+290
+00:27:06,080 --> 00:27:15,440
+ nathan phillips square so quite iconic very good architecture i liked it and it was basically four
+
+291
+00:27:15,440 --> 00:27:21,840
+ screens because there are like breaks in the middle and two buildings mean meant okay even
+
+292
+00:27:21,840 --> 00:27:31,920
+ more windows we had 144 in berlin we had 520 in paris and now we were facing 1040 if i remember
+
+293
+00:27:31,920 --> 00:27:40,400
+ this correctly which is a lot you know because if you're doing these projects you really learn
+
+294
+00:27:40,400 --> 00:27:48,560
+ that things can get really messy if you have to multiply everything by 1040 you know if you do
+
+295
+00:27:48,560 --> 00:27:54,400
+ if you need something to do on one window that takes a minute it means you have another 1040
+
+296
+00:27:54,400 --> 00:28:02,240
+ minutes of work that needs to be spread out over people and so on so we gathered a small team in
+
+297
+00:28:02,240 --> 00:28:08,880
+ germany and we made a plan and we didn't know you know what would happen but at least we had a plan
+
+298
+00:28:08,880 --> 00:28:14,080
+ and we were kind of like okay we don't have enough people but we're probably going to make it somehow
+
+299
+00:28:16,800 --> 00:28:24,560
+ um and we would have failed i guess but then at the right moment these guys came in here andrew
+
+300
+00:28:24,560 --> 00:28:34,240
+ and his friends and jonathan and dan would send me an email said i don't when did you hear from
+
+301
+00:28:34,240 --> 00:28:42,400
+ this project because it wasn't officially i mean announced it was an article all right okay so
+
+302
+00:28:42,400 --> 00:28:48,640
+ somebody has told somebody something and you read it and you knew and he knew about the original
+
+303
+00:28:48,640 --> 00:28:55,680
+ project so we came together and as a new international team we uh we made it it was even
+
+304
+00:28:55,680 --> 00:29:02,080
+ more uh technology so our next focus was actually on the technology because we knew we couldn't do
+
+305
+00:29:02,080 --> 00:29:10,880
+ it with this dimming technology before and so this time we uh built a wireless dimming system so
+
+306
+00:29:10,880 --> 00:29:18,480
+ there was one of these wireless dimmers attached to the lamps and we still had the same concept of
+
+307
+00:29:18,480 --> 00:29:24,240
+ putting this um plastic sheets on it which is called dampfbremsfolie in german which is a
+
+308
+00:29:24,240 --> 00:29:32,160
+ name you should remember um it's usually worked for uh useful for construction you put it in your
+
+309
+00:29:32,160 --> 00:29:37,200
+ roof to you know prevent steam from entering or leaving the house i don't know anyway but it's
+
+310
+00:29:37,200 --> 00:29:44,560
+ perfect it's b1 it's fire approved and uh it's super cheap and it's like the perfect diffuser
+
+311
+00:29:44,560 --> 00:29:52,400
+ for for light it's really amazing we used it here uh as well so it was our focus new technology
+
+312
+00:29:52,400 --> 00:29:57,600
+ and of course again we were sending udp packets around the building this time it was two buildings
+
+313
+00:29:57,600 --> 00:30:06,720
+ and yeah by magic we made it work like a day before it it worked it was close it was really
+
+314
+00:30:06,720 --> 00:30:13,840
+ really close this time so some media impressions here as well we did a documentation video but it
+
+315
+00:30:13,840 --> 00:30:21,600
+ was not as good as this report done by daily planet on the discovery channel so let's have
+
+316
+00:30:21,600 --> 00:30:24,240
+ a look at this i hope the sun is not ruining it completely
+
+317
+00:30:24,240 --> 00:30:34,320
+ for my computer a team of computer hackers commandeers toronto's iconic city hall
+
+318
+00:30:34,320 --> 00:30:41,120
+ and the authorities don't mind calling themselves project blinkin lights the berlin-based group
+
+319
+00:30:41,120 --> 00:30:46,800
+ turns the building into a giant video display they unveil it during nuet blanche an all-night
+
+320
+00:30:46,800 --> 00:30:54,080
+ arts festival thousands flock to check it out in fact they get right into it the idea from
+
+321
+00:30:54,080 --> 00:31:00,960
+ of thinking lights is to turn the building into a display that can be used by anybody in the normal
+
+322
+00:31:00,960 --> 00:31:08,160
+ mode it just displays various animations there are there's a playlist of movies and just plays back
+
+323
+00:31:08,160 --> 00:31:13,440
+ one after the other but the really funny part is that you can actually play games on the go
+
+324
+00:31:13,440 --> 00:31:20,560
+ so you just take your mobile phone call a number and at that moment the display the building shows
+
+325
+00:31:20,560 --> 00:31:27,200
+ a game which you can command and control just using the keypad of your telephone i've got 28
+
+326
+00:31:28,400 --> 00:31:32,880
+ each of the 960 windows becomes a single pixel in a giant video screen
+
+327
+00:31:32,880 --> 00:31:39,440
+ they call the display the stereoscope because it takes advantage of the two curved towers unique
+
+328
+00:31:39,440 --> 00:31:46,160
+ design it's a huge project five months in the planning and more ambitious than the group's
+
+329
+00:31:46,160 --> 00:31:52,560
+ previous efforts in berlin and paris project Blinkenlights is a group of gifted people
+
+330
+00:31:52,560 --> 00:31:58,560
+ who are into technology who love technology who love to play around with it and to be a hacker
+
+331
+00:31:58,560 --> 00:32:05,040
+ is not a bad thing the term hacker is something very positive for us hacking is about breaking
+
+332
+00:32:05,040 --> 00:32:13,120
+ things in order to see how it works it's a very creative process so what other people call hackers
+
+333
+00:32:13,120 --> 00:32:18,800
+ should call should be called criminals all the programming originates from a central command
+
+334
+00:32:18,800 --> 00:32:25,200
+ station it relays instructions to small computers on each floor they send signals to custom-designed
+
+335
+00:32:25,200 --> 00:32:31,680
+ wireless dimmers attached to each light directing them to glow at one of 16 different intensities
+
+336
+00:32:31,680 --> 00:32:40,160
+ and every window has to be rigged individually the first thing you have to do is to put up these
+
+337
+00:32:40,160 --> 00:32:48,400
+ cover sheets so now the cover sheets are set up and now we can install the dimmers for the labs
+
+338
+00:32:48,400 --> 00:32:54,800
+ that's all that needs to be done now the dimmer is fully operational back at the control center
+
+339
+00:32:54,800 --> 00:33:00,320
+ the team monitors the display via a live video feed and a real-time simulation of what's being
+
+340
+00:33:00,320 --> 00:33:06,160
+ played in the windows some animations come from Blinkenlights members but anyone can download
+
+341
+00:33:06,160 --> 00:33:14,400
+ the code and send in a show project thinking lights is all about participation when we created our
+
+342
+00:33:14,400 --> 00:33:21,040
+ first installation we didn't consider it to be an art project we wanted it to be a platform
+
+343
+00:33:21,040 --> 00:33:28,640
+ a platform for people to get in contribute code contribute animation contribute new ideas
+
+344
+00:33:28,640 --> 00:33:36,080
+ and that's exactly what happened we are focusing on enabling technologies in order to make everybody
+
+345
+00:33:36,080 --> 00:33:42,240
+ participate and even if you don't contribute an animation or play a game you can interact with
+
+346
+00:33:42,240 --> 00:33:50,960
+ the stereoscope we have created this nice 3d simulation simulator that also shows the same
+
+347
+00:33:50,960 --> 00:33:59,120
+ stuff in real time but where you can change the view dynamically and choose from where you want
+
+348
+00:33:59,120 --> 00:34:10,320
+ to actually look at the building so the same program exists for the iphone and that way you
+
+349
+00:34:10,320 --> 00:34:18,160
+ can participate worldwide during new yblash chris palmer can't beat out the other 1200 visitors
+
+350
+00:34:18,160 --> 00:34:24,720
+ calling in to play video games but he can change his point of view without going anywhere i downloaded
+
+351
+00:34:24,720 --> 00:34:29,360
+ a little program for my iphone so what's cool is it's giving me a real-time feed of what's up on
+
+352
+00:34:29,360 --> 00:34:34,320
+ the building right now and you can kind of pan around and see what's on the other side of it
+
+353
+00:34:34,320 --> 00:34:39,520
+ you know zoom in see it up close change the angle that you're getting at see what it looks like from
+
+354
+00:34:39,520 --> 00:34:44,160
+ down on the square all of that it's really exciting to see you know what's possible with this kind of
+
+355
+00:34:44,160 --> 00:34:50,720
+ technology tim pritlov says that the Blinkenlights team are only artists by accident what
+
+356
+00:34:50,720 --> 00:34:56,960
+ they really do is create giant technologies for people to share with each other project blinking
+
+357
+00:34:56,960 --> 00:35:02,800
+ lights is also about reclaiming public space bringing such a building especially a city hall
+
+358
+00:35:02,800 --> 00:35:10,800
+ that's made for the people back to the people in a very literal sense so when you can play a game
+
+359
+00:35:10,800 --> 00:35:16,800
+ yourself on a building or you can even design your own animation and put it up on this huge screen
+
+360
+00:35:16,800 --> 00:35:23,280
+ that's something where people really reconnect to the public space kind of pan up see it from
+
+361
+00:35:23,280 --> 00:35:34,320
+ up in the air outer space view that is so cool so cool
+
+362
+00:35:34,320 --> 00:35:45,920
+ yeah dominic and martin they did this iphone app which was one of the first iphone apps in the
+
+363
+00:35:45,920 --> 00:35:58,720
+ app store wasn't it yeah it was one of the first probably the first okay um i think the sun is now
+
+364
+00:35:58,720 --> 00:36:06,080
+ completely ruining my presentation but i tried so what have we learned so far in this project so
+
+365
+00:36:06,080 --> 00:36:12,800
+ first of all it's all about architecture what i really dislike is this trend that has now evolved
+
+366
+00:36:12,800 --> 00:36:21,120
+ with buildings completely covered in led technology i mean if you've probably seen things like in in
+
+367
+00:36:21,120 --> 00:36:27,760
+ china where you have like whole areas many many many skyscrapers being one giant building which
+
+368
+00:36:27,760 --> 00:36:36,240
+ is super intrusive and the total opposite of what we try to do also i think you should focus if you
+
+369
+00:36:36,240 --> 00:36:42,320
+ work with light you should really focus on what the building itself provides in terms of windows
+
+370
+00:36:42,320 --> 00:36:51,200
+ and and other structures so it looks much better it is an architecture project um yeah and i think
+
+371
+00:36:51,200 --> 00:36:59,120
+ we always try to you know be hands-on we wanted to develop our own technology to the extent that it
+
+372
+00:36:59,120 --> 00:37:04,480
+ makes sense and of course we're not designing our own processors for this but anything you know that
+
+373
+00:37:04,480 --> 00:37:13,040
+ comes along that enables you to have cool features that were otherwise not possible that's always
+
+374
+00:37:13,040 --> 00:37:22,160
+ worth investing time time in i think and with this approach of trying to provide as many angles and
+
+375
+00:37:22,160 --> 00:37:33,760
+ ways to participate and to to integrate with such an installation is always helpful so we had this
+
+376
+00:37:33,760 --> 00:37:40,080
+ movie formats the editor with the first project and the second project we had this 3d visualization
+
+377
+00:37:40,080 --> 00:37:49,760
+ on the phone which is probably not necessary for this whole thing to work but adds more to it you
+
+378
+00:37:49,760 --> 00:37:58,000
+ know and then you also need to make sense you need to stay simple so that could still be understood
+
+379
+00:37:58,000 --> 00:38:06,480
+ and it's not too too weird i've always struggled with artists that have projects where you need
+
+380
+00:38:06,480 --> 00:38:12,640
+ to have like tons of text that you are supposed to read through to understand what it's all about
+
+381
+00:38:12,640 --> 00:38:19,520
+ and what its meaning is and how to use it actually i think if you do not understand how it works just
+
+382
+00:38:19,520 --> 00:38:29,680
+ by you know standing in front of it you have kind of failed so let's do a small detour on what
+
+383
+00:38:29,680 --> 00:38:38,400
+ hasn't worked and first of all we really struggled to somehow extend this original
+
+384
+00:38:38,400 --> 00:38:45,840
+ blink and lice project what you can't see now here is our idea of how to make the project
+
+385
+00:38:45,840 --> 00:38:53,280
+ survive on the renovated building so our idea was to leave the windows alone and use the space in
+
+386
+00:38:53,280 --> 00:38:59,360
+ between and light it up but we were too late for this planning has already started and wasn't clear
+
+387
+00:38:59,360 --> 00:39:06,720
+ if we would get funding for this but i think this would have worked pretty good although it was only
+
+388
+00:39:06,720 --> 00:39:14,080
+ seven lines and no longer eight lines then but you know at least we tried something else we tried
+
+389
+00:39:14,080 --> 00:39:24,320
+ which didn't work out because of reasons was um okay let me show you what this is you know you see
+
+390
+00:39:24,320 --> 00:39:33,840
+ here a wooden steel structure a mechanic button so this was basically supposed to be a button we
+
+391
+00:39:33,840 --> 00:39:39,600
+ built this prototype and actually worked but it was probably too complicated would have broken i
+
+392
+00:39:39,600 --> 00:39:47,440
+ don't know wouldn't have survived but the idea was to have a button that you can jump on a button
+
+393
+00:39:47,440 --> 00:39:54,400
+ that you can jump on and that also has some back pressure with spirals that you could not only jump
+
+394
+00:39:54,400 --> 00:39:59,520
+ on it but you can like constantly hop on it and being propelled into the air and back like a
+
+395
+00:39:59,520 --> 00:40:06,560
+ trampoline that was the idea and then of course a switch and this whole thing should be covered
+
+396
+00:40:07,120 --> 00:40:15,680
+ with some kind of acrylic button which is here which you can't see because the sun is completely
+
+397
+00:40:15,680 --> 00:40:25,440
+ ruining my presentation so use your imagination that's what we did we also did a small animation
+
+398
+00:40:25,440 --> 00:40:32,480
+ which might be visible somehow i don't know to make people understand what we were trying to
+
+399
+00:40:32,480 --> 00:40:36,800
+ achieve because there wasn't only supposed to be one button of course there should be one button
+
+400
+00:40:36,800 --> 00:40:45,200
+ for each window so here's the building with all the blinking windows but what we wanted to do is
+
+401
+00:40:45,200 --> 00:40:53,600
+ to provide a keyboard to this terminal and then have 144 of these buttons lying on the ground
+
+402
+00:40:53,600 --> 00:41:00,080
+ in front of it and then you should just imagine like a group of kids hopping around on these
+
+403
+00:41:00,080 --> 00:41:07,120
+ buttons to you know make it work maybe that's an inspiration for other projects we can't do it all
+
+404
+00:41:07,120 --> 00:41:15,120
+ and then there were like tons of dreams we got like buildings from all over the planet you know
+
+405
+00:41:15,120 --> 00:41:24,080
+ it was like everywhere australia south america asia we were very close to doing other projects in
+
+406
+00:41:24,720 --> 00:41:33,200
+ in dublin god i forgot it was so many i constantly people were sending us email here is a nice
+
+407
+00:41:33,200 --> 00:41:38,240
+ building what do you think and sometimes we even did some 3d rendering so there was a phase for a
+
+408
+00:41:38,240 --> 00:41:44,160
+ few years where we were like that close to the next installation and then it all erupted into
+
+409
+00:41:44,160 --> 00:41:51,440
+ nothingness because reasons because always like building owners didn't agree plans for
+
+410
+00:41:51,440 --> 00:42:00,560
+ renovation change money wasn't available or other reasons yeah it was um maybe it was good because
+
+411
+00:42:00,560 --> 00:42:06,080
+ somehow the story was already uh told but we were always dreamt of having a a third installation so
+
+412
+00:42:06,080 --> 00:42:14,000
+ we were quite happy that we did that with toronto and then you know it was kind of done so i told
+
+413
+00:42:14,000 --> 00:42:23,600
+ you that there were like lots of cultural uh implications um it's very difficult to explain
+
+414
+00:42:23,600 --> 00:42:30,160
+ but when you do such a project in the middle of a huge city that is you know crazy and and and
+
+415
+00:42:30,160 --> 00:42:38,160
+ people love crazy uh stuff we were really in a maelstrom of attention in a way with this
+
+416
+00:42:38,160 --> 00:42:45,200
+ installation it took a while especially because we started the project on september 11 2001 so we
+
+417
+00:42:45,200 --> 00:42:51,840
+ switched it on you know and then new york happened and nobody took notice of our project for for two
+
+418
+00:42:51,840 --> 00:42:58,560
+ weeks but after the dust has settled uh it all went wild and and then we were like busy on a daily
+
+419
+00:42:58,560 --> 00:43:07,760
+ basis for this and Blinkenlights has found its way in in in many uh many parts of of the culture
+
+420
+00:43:07,760 --> 00:43:16,000
+ uh for instance one i have actually forgotten to include in in these slides was that there was a
+
+421
+00:43:16,000 --> 00:43:24,160
+ remake of the movie uh berlin symphony and i grew start berlin symphony of a capital city
+
+422
+00:43:25,280 --> 00:43:35,200
+ and which was done 100 years ago and there was a remake done in exactly 20 2002 so the original
+
+423
+00:43:35,200 --> 00:43:42,960
+ movie by valter grossman i think was like daily scenes in berlin standard life so it's like a very
+
+424
+00:43:42,960 --> 00:43:49,360
+ interesting movie you should watch the original and the remake um where you could just like watch how
+
+425
+00:43:49,360 --> 00:43:57,360
+ people lived in berlin 100 years ago and now there's a remake uh how people lived in berlin in 2002
+
+426
+00:43:57,360 --> 00:44:03,600
+ so it shows all kinds of scenes uh around the city and big less was also included so that's a nice
+
+427
+00:44:03,600 --> 00:44:10,720
+ touch but it was especially uh welcomed by technology oriented uh culture for instance
+
+428
+00:44:10,720 --> 00:44:17,360
+ there is a replica of the original Blinkenlights building a miniature wonderland in hamberg
+
+429
+00:44:18,800 --> 00:44:26,080
+ which is uh if you don't know it it's like a railroad model superlative it's like i don't know
+
+430
+00:44:26,080 --> 00:44:33,120
+ how many kilometers of uh trains they're going and rails they're following it's uh super amazing if
+
+431
+00:44:33,120 --> 00:44:38,880
+ you haven't been there go there and of course they asked us also if they could include it they have
+
+432
+00:44:38,880 --> 00:44:45,120
+ no berlin section so it's somehow in in looks like if it's in hamburg but you know they should have a
+
+433
+00:44:45,120 --> 00:44:53,120
+ building section and of course also in this scene there are lots of um replicas there was um at the
+
+434
+00:44:53,120 --> 00:45:00,320
+ second camp i think there was this blinking area a village that kind of took up on the idea and
+
+435
+00:45:00,320 --> 00:45:07,360
+ produced all kinds of replicas of the original installation other stuff some of them even went
+
+436
+00:45:07,360 --> 00:45:14,560
+ and did similar installation on other buildings so um can't really see it this is like more or less
+
+437
+00:45:14,560 --> 00:45:20,720
+ a tiny chip just with leds on it which which looks like the uh other one and this is also very
+
+438
+00:45:20,720 --> 00:45:33,200
+ beautiful just believe me yeah um and of course now that we were kind of the official representation
+
+439
+00:45:33,200 --> 00:45:45,120
+ of everything that blinks you know uh a perfect storm of information went towards us you know so
+
+440
+00:45:45,120 --> 00:45:53,760
+ we got notice of everything that was blinking around the planet uh all the time and also some
+
+441
+00:45:53,760 --> 00:46:00,080
+ things happened just at the same time without us knowing and without them knowing so kind of we
+
+442
+00:46:00,080 --> 00:46:07,760
+ hit the tone of the time for instance kylie minogue brought out this uh can't get you out of my head
+
+443
+00:46:07,760 --> 00:46:16,960
+ now what did she do of course she was dancing in front of blinking skyscraper that looked like
+
+444
+00:46:16,960 --> 00:46:23,840
+ exactly like our installation that's of course fake you know i mean the building is not kind
+
+445
+00:46:23,840 --> 00:46:34,940
+ Kylie Minogue. But we honored this with Kylie Minogue dancing on Arcade in the Paris installation
+
+446
+00:46:34,940 --> 00:46:46,700
+ actually. But yeah, can you see more blinking? Yeah, we should have done this probably too.
+
+447
+00:46:46,700 --> 00:46:58,780
+ All those dancers. But it wasn't at the budget. And other artists also took notice. So now
+
+448
+00:46:58,780 --> 00:47:06,020
+ we were like the hip location to do your new music video. That was the first one was Miss
+
+449
+00:47:06,020 --> 00:47:18,620
+ Kitten which had this what's called Rippin Kitten. So they actually filmed it outside
+
+450
+00:47:18,620 --> 00:47:28,940
+ and on the building. So the girl is now sitting on the building actually. And if you ask yourself
+
+451
+00:47:28,940 --> 00:47:33,800
+ like oh there's a blinking window is this the original Blinkenlights? There's always
+
+452
+00:47:33,800 --> 00:47:41,500
+ one thing to look for. Because the windows are not completely covered in light. There's
+
+453
+00:47:41,500 --> 00:47:59,820
+ this one line that's dividing each window. Come on, show me one. Feet. Where is it? Okay.
+
+454
+00:47:59,820 --> 00:48:12,580
+ It will come. Anyway, switch to the next one. You can probably see it. And then people just
+
+455
+00:48:12,580 --> 00:48:20,660
+ use it for their own media appearances. Took their own videos. For instance, this is a
+
+456
+00:48:20,660 --> 00:48:28,980
+ video that the Hanf Museum, the Hampton Museum in Berlin took. And of course again they use
+
+457
+00:48:28,980 --> 00:48:33,020
+ Blinkenlights. And you can see it's real because you see this dividing line. That's
+
+458
+00:48:33,020 --> 00:48:37,100
+ what I was talking about. And also part of our documentation video which is totally fine.
+
+459
+00:48:37,100 --> 00:48:42,220
+ They didn't ask but we don't care. Was all out in the open. So they sent in this Hanf
+
+460
+00:48:42,220 --> 00:48:50,500
+ Museum movie as a love letter so they could activate it themselves. Perfect. I like this
+
+461
+00:48:50,500 --> 00:49:05,220
+ very much. Good music as well. Okay and to top it all off, we got a call of the managers
+
+462
+00:49:05,220 --> 00:49:12,180
+ of the Toten Hosen and they wanted to do as well. So they actually filmed the music video
+
+463
+00:49:12,180 --> 00:49:21,380
+ inside the building. So they were locating one room very close to the installation and
+
+464
+00:49:21,380 --> 00:49:32,980
+ doing their rock and roll. Should have started later on. Takes a while. Ah, here it's blinking.
+
+465
+00:49:32,980 --> 00:49:40,340
+ So we were in this frenzy of media attention and cultural attention. I could have given
+
+466
+00:49:40,340 --> 00:49:50,100
+ even more examples. It was used in TV advertisements and not everybody asked. Basically nobody.
+
+467
+00:49:50,100 --> 00:49:56,260
+ But we didn't care because we kind of considered Blinkenlights to be in the open anyway and
+
+468
+00:49:56,260 --> 00:50:03,200
+ what can you do. There was enough to do to just make it work. And you know we had the
+
+469
+00:50:03,200 --> 00:50:08,060
+ appreciation of the people when we announced that we have to take it down at the middle
+
+470
+00:50:08,060 --> 00:50:22,220
+ of 2002. Oh I can tell you people were depressed. But it goes further. I hope you can see it.
+
+471
+00:50:22,220 --> 00:50:28,180
+ It's a bad quality and I have no idea what this is. Actually I have no idea but somehow
+
+472
+00:50:28,180 --> 00:50:39,020
+ it finds its way to me. But somehow Blinkenlights was part of a strange Japanese TV show.
+
+473
+00:50:39,020 --> 00:50:48,260
+ And if you've ever seen Japanese TV shows, they're all strange. So I don't know what's
+
+474
+00:50:48,260 --> 00:50:54,140
+ going on but usually they come up with some weird story and do a quiz show around it or
+
+475
+00:50:54,140 --> 00:51:02,860
+ some kind of participation. I have no idea. So let's have a look. It's got the real mystery.
+
+476
+00:51:02,860 --> 00:51:19,300
+ So there's some riddle and something is happening. Can you make it louder? So there's a mystery
+
+477
+00:51:19,300 --> 00:51:34,580
+ with buildings. Does anyone speak Japanese? I've never translated it actually. I should
+
+478
+00:51:34,580 --> 00:51:48,060
+ have done this. So now he needs to go to the toilet. Obviously he is in Berlin because now
+
+479
+00:51:48,060 --> 00:52:10,700
+ there's this white guy. That's how Germans are probably seen.
+
+480
+00:52:10,700 --> 00:52:31,820
+ Something which is probably going on. He's super confused.
+
+481
+00:52:31,820 --> 00:52:52,740
+ I think no Japanese story is complete with some kind of horror or Godzilla like implications.
+
+482
+00:52:52,740 --> 00:52:53,880
+ I don't know.
+
+483
+00:52:54,880 --> 00:52:58,880
+ What is going on in this building?
+
+484
+00:52:59,880 --> 00:53:03,880
+ People gather in front of the building.
+
+485
+00:53:03,880 --> 00:53:09,880
+ The biggest battle in history begins in this obis building.
+
+486
+00:53:09,880 --> 00:53:13,880
+ Why?
+
+487
+00:53:13,880 --> 00:53:18,880
+ This question will be answered by Shinobu Matsumoto.
+
+488
+00:53:18,880 --> 00:53:21,880
+ Before that, let's show the other people the answer.
+
+489
+00:53:21,880 --> 00:53:23,880
+ This is what it is.
+
+490
+00:53:23,880 --> 00:53:26,880
+ The answer is...
+
+491
+00:53:26,880 --> 00:53:29,880
+ It's a mystery detective story.
+
+492
+00:53:29,880 --> 00:53:32,880
+ People should come up with answers.
+
+493
+00:53:32,880 --> 00:53:37,880
+ The first clue.
+
+494
+00:53:37,880 --> 00:53:40,880
+ A surprising conversation in Otsuka's ears.
+
+495
+00:53:40,880 --> 00:53:42,880
+ This is a good place to fight.
+
+496
+00:53:42,880 --> 00:53:44,880
+ This is the best place.
+
+497
+00:53:44,880 --> 00:53:46,880
+ The location is important.
+
+498
+00:53:46,880 --> 00:53:50,880
+ We're going to fight here?
+
+499
+00:53:50,880 --> 00:53:53,880
+ Excuse me, do you fight inside the building?
+
+500
+00:53:53,880 --> 00:53:55,880
+ We fight outside.
+
+501
+00:53:55,880 --> 00:54:05,880
+ The fight takes place outside the building.
+
+502
+00:54:05,880 --> 00:54:08,880
+ The clue is...
+
+503
+00:54:08,880 --> 00:54:11,880
+ People who are still here.
+
+504
+00:54:11,880 --> 00:54:16,880
+ I heard that there are 13 places to fight.
+
+505
+00:54:16,880 --> 00:54:18,880
+ Where are the other places?
+
+506
+00:54:18,880 --> 00:54:22,880
+ Of course, all the other places are in the building.
+
+507
+00:54:22,880 --> 00:54:25,880
+ Just the building?
+
+508
+00:54:25,880 --> 00:54:28,880
+ Yes, there are no fights outside the building.
+
+509
+00:54:28,880 --> 00:54:32,880
+ I'm sure the people of Berlin are ready for the fight.
+
+510
+00:54:32,880 --> 00:54:39,880
+ The fight only takes place in the building.
+
+511
+00:54:39,880 --> 00:54:43,880
+ The clue is...
+
+512
+00:54:43,880 --> 00:54:45,880
+ I'm going to give you a hint.
+
+513
+00:54:45,880 --> 00:54:48,880
+ To solve the mystery.
+
+514
+00:54:48,880 --> 00:54:53,880
+ This is the most important clue.
+
+515
+00:54:53,880 --> 00:54:56,880
+ I want to fight now.
+
+516
+00:54:56,880 --> 00:54:58,880
+ I want to go to bed now.
+
+517
+00:54:58,880 --> 00:55:00,880
+ What? In the afternoon?
+
+518
+00:55:00,880 --> 00:55:03,880
+ You can't fight in the afternoon.
+
+519
+00:55:03,880 --> 00:55:08,880
+ The fight takes place at night.
+
+520
+00:55:09,880 --> 00:55:14,880
+ People gather in front of the building.
+
+521
+00:55:14,880 --> 00:55:19,880
+ The biggest fight begins in this building.
+
+522
+00:55:19,880 --> 00:55:23,880
+ Why?
+
+523
+00:55:23,880 --> 00:55:25,880
+ What is it?
+
+524
+00:55:25,880 --> 00:55:27,880
+ The clue is...
+
+525
+00:55:27,880 --> 00:55:29,880
+ The word that Ida said.
+
+526
+00:55:29,880 --> 00:55:31,880
+ The word that Ida said.
+
+527
+00:55:31,880 --> 00:55:33,880
+ The word that Ida said.
+
+528
+00:55:33,880 --> 00:55:36,880
+ Let's solve the mystery.
+
+529
+00:55:36,880 --> 00:55:38,880
+ The mystery is...
+
+530
+00:55:38,880 --> 00:55:44,880
+ The whole video is much longer than I remembered.
+
+531
+00:55:44,880 --> 00:55:46,880
+ I would have cut it a bit.
+
+532
+00:55:46,880 --> 00:55:49,880
+ I think we're getting to the point now.
+
+533
+00:55:49,880 --> 00:55:53,880
+ Hopefully.
+
+534
+00:55:53,880 --> 00:56:01,880
+ I can't skip it.
+
+535
+00:56:04,880 --> 00:56:06,880
+ The truth of the mystery is...
+
+536
+00:56:06,880 --> 00:56:11,880
+ The mystery that happened in the Berlin office building.
+
+537
+00:56:11,880 --> 00:56:16,880
+ What is the biggest fight in history?
+
+538
+00:56:16,880 --> 00:56:21,880
+ What is the truth?
+
+539
+00:56:21,880 --> 00:56:30,880
+ What is the biggest fight in history that began in this building?
+
+540
+00:56:32,880 --> 00:56:36,880
+ The mystery became clear in the dark.
+
+541
+00:56:36,880 --> 00:56:42,880
+ This is what the fight was like.
+
+542
+00:56:42,880 --> 00:56:45,880
+ What did Otsuka see?
+
+543
+00:56:59,880 --> 00:57:02,880
+ It's a giant Tetris.
+
+544
+00:57:02,880 --> 00:57:08,880
+ How did he do that?
+
+545
+00:57:08,880 --> 00:57:09,880
+ Amazing!
+
+546
+00:57:09,880 --> 00:57:12,880
+ A giant Pac-Man.
+
+547
+00:57:12,880 --> 00:57:16,880
+ He's moving.
+
+548
+00:57:16,880 --> 00:57:20,880
+ A giant Pimps.
+
+549
+00:57:20,880 --> 00:57:24,880
+ This is real Japanese excitement, of course.
+
+550
+00:57:27,880 --> 00:57:29,880
+ I'm moving on.
+
+551
+00:57:29,880 --> 00:57:32,880
+ So they basically took our documentation videos and mixed it all in.
+
+552
+00:57:32,880 --> 00:57:34,880
+ It's a weird mix of everything.
+
+553
+00:57:34,880 --> 00:57:36,880
+ But...
+
+554
+00:57:36,880 --> 00:57:38,880
+ How does it work?
+
+555
+00:57:38,880 --> 00:57:39,880
+ Alright.
+
+556
+00:57:39,880 --> 00:57:40,880
+ So...
+
+557
+00:57:40,880 --> 00:57:43,880
+ That's the look back.
+
+558
+00:57:43,880 --> 00:57:52,880
+ So some time has passed now and we didn't really do any new projects.
+
+559
+00:57:52,880 --> 00:57:54,880
+ Although we have been talking about many, many more.
+
+560
+00:57:54,880 --> 00:57:58,880
+ But in the end this project is kind of over.
+
+561
+00:57:58,880 --> 00:58:06,880
+ But then I went to the first visiting event here before this camp.
+
+562
+00:58:06,880 --> 00:58:08,880
+ And then things happened.
+
+563
+00:58:08,880 --> 00:58:16,880
+ And so we did a new project, which you might have seen here, called Polychrome.
+
+564
+00:58:16,880 --> 00:58:20,880
+ And it's actually 640 pixels for you.
+
+565
+00:58:20,880 --> 00:58:23,880
+ 10 times 8 by 8.
+
+566
+00:58:23,880 --> 00:58:26,880
+ And yeah, we called it Polychrome.
+
+567
+00:58:26,880 --> 00:58:29,880
+ Why did we call it Polychrome?
+
+568
+00:58:29,880 --> 00:58:36,880
+ What you might not know is that Polychrome is a real established term.
+
+569
+00:58:36,880 --> 00:58:38,880
+ And it's hidden now behind the sun.
+
+570
+00:58:38,880 --> 00:58:44,880
+ And it reads, "It's the practice of decorating architectural elements in a variety of colors."
+
+571
+00:58:44,880 --> 00:58:45,880
+ Perfect match.
+
+572
+00:58:45,880 --> 00:58:47,880
+ That's what we do.
+
+573
+00:58:47,880 --> 00:58:50,880
+ So we saw dead pixels.
+
+574
+00:58:50,880 --> 00:58:55,880
+ So this area, maybe the next shows something.
+
+575
+00:58:55,880 --> 00:58:56,880
+ It's crazy.
+
+576
+00:58:56,880 --> 00:58:57,880
+ Okay.
+
+577
+00:58:57,880 --> 00:58:59,880
+ You've seen the windows over there.
+
+578
+00:58:59,880 --> 00:59:05,880
+ And they were filled with glass bricks just recently.
+
+579
+00:59:05,880 --> 00:59:07,880
+ Actually three years ago.
+
+580
+00:59:07,880 --> 00:59:10,880
+ But this has not existed at the last camp.
+
+581
+00:59:10,880 --> 00:59:15,880
+ So we came up with the idea of doing something about it.
+
+582
+00:59:15,880 --> 00:59:23,880
+ And well, this -- can you see this here?
+
+583
+00:59:23,880 --> 00:59:25,880
+ This is the windows from behind.
+
+584
+00:59:25,880 --> 00:59:28,880
+ That's an area where usually the train parks.
+
+585
+00:59:28,880 --> 00:59:31,880
+ So it just goes through this path.
+
+586
+00:59:31,880 --> 00:59:34,880
+ There's nothing more to see there.
+
+587
+00:59:34,880 --> 00:59:40,880
+ And we came up with an idea of how to do lights there.
+
+588
+00:59:40,880 --> 00:59:41,880
+ And of course, time has passed.
+
+589
+00:59:41,880 --> 00:59:43,880
+ 15 years is a long time.
+
+590
+00:59:43,880 --> 00:59:53,880
+ And when LED technology was totally in a different state of affairs when we started the original blink lights,
+
+591
+00:59:53,880 --> 00:59:55,880
+ there were only red and green LEDs.
+
+592
+00:59:55,880 --> 00:59:57,880
+ There were no blue LEDs.
+
+593
+00:59:57,880 --> 01:00:00,880
+ So at least there were no blue LEDs that you could buy and use.
+
+594
+01:00:00,880 --> 01:00:04,880
+ They were invented, but they were not ready for sale.
+
+595
+01:00:04,880 --> 01:00:07,880
+ And of course, there was no cheap LED.
+
+596
+01:00:07,880 --> 01:00:12,880
+ And there was also no cheap LED that you could do full color with.
+
+597
+01:00:12,880 --> 01:00:14,880
+ But this time it's possible.
+
+598
+01:00:14,880 --> 01:00:21,880
+ So we looked up our options on Alibaba and found this tiny piece, which is super cool.
+
+599
+01:00:21,880 --> 01:00:24,880
+ It's actually a round enclosure.
+
+600
+01:00:24,880 --> 01:00:31,880
+ You might see this here against the sun with three LEDs on one piece.
+
+601
+01:00:31,880 --> 01:00:37,880
+ And then they are wired with three wires, one after the other, as a bus.
+
+602
+01:00:37,880 --> 01:00:40,880
+ Technically, it's a TM8040 bus.
+
+603
+01:00:40,880 --> 01:00:44,880
+ It's a one-wire bus, so you've got power and ground.
+
+604
+01:00:44,880 --> 01:00:49,880
+ And then you have this data cable where you can address all these LEDs.
+
+605
+01:00:49,880 --> 01:00:50,880
+ It's nothing new.
+
+606
+01:00:50,880 --> 01:00:51,880
+ You see this here everywhere.
+
+607
+01:00:51,880 --> 01:00:59,880
+ The only difference between the TM8040 chip and others that are usually in use is that this supports RGBW.
+
+608
+01:00:59,880 --> 01:01:05,880
+ So it's not only RGB, but it also has a white, pure pixel, warm white, which we expected to use.
+
+609
+01:01:05,880 --> 01:01:10,880
+ Because the first idea was, let's do monochrome because monochrome is cool and retro and so on.
+
+610
+01:01:10,880 --> 01:01:12,880
+ In the end, we didn't do this at all.
+
+611
+01:01:12,880 --> 01:01:16,880
+ So we didn't use the W, but it's still there.
+
+612
+01:01:16,880 --> 01:01:19,880
+ And it's powered by 12 volts.
+
+613
+01:01:19,880 --> 01:01:25,880
+ We used the NeoPixel bus library to address this protocol.
+
+614
+01:01:25,880 --> 01:01:27,880
+ And it's pretty bright.
+
+615
+01:01:27,880 --> 01:01:35,880
+ And like all color LEDs that you can buy on the market, it's not calibrated.
+
+616
+01:01:35,880 --> 01:01:38,880
+ You will hopefully see this, what it means.
+
+617
+01:01:38,880 --> 01:01:42,880
+ I have my doubts here if the sun is still disturbing the presentation.
+
+618
+01:01:42,880 --> 01:01:44,880
+ Oh, no, it's behind the tree.
+
+619
+01:01:44,880 --> 01:01:45,880
+ It's getting better.
+
+620
+01:01:45,880 --> 01:01:48,880
+ I need to slow down.
+
+621
+01:01:48,880 --> 01:01:52,880
+ [laughter]
+
+622
+01:01:52,880 --> 01:01:56,880
+ Later.
+
+623
+01:01:56,880 --> 01:01:59,880
+ So you need to control this.
+
+624
+01:01:59,880 --> 01:02:03,880
+ And in order to control LEDs, you need an LED controller.
+
+625
+01:02:03,880 --> 01:02:06,880
+ That comes as a surprise to you.
+
+626
+01:02:06,880 --> 01:02:11,880
+ We bought a ready-made system called QuinnLED, which is super cool.
+
+627
+01:02:11,880 --> 01:02:16,880
+ It's an ESP32-based processor.
+
+628
+01:02:16,880 --> 01:02:19,880
+ We have got one of these controllers per window.
+
+629
+01:02:19,880 --> 01:02:24,880
+ And on top of this processor is a stack with an Ethernet shield
+
+630
+01:02:24,880 --> 01:02:29,880
+ and also all the power electronics you need in order to run the LEDs.
+
+631
+01:02:29,880 --> 01:02:32,880
+ So it's separate from the power supply for the processor.
+
+632
+01:02:32,880 --> 01:02:34,880
+ So it's pretty nice.
+
+633
+01:02:34,880 --> 01:02:36,880
+ It's not too expensive.
+
+634
+01:02:36,880 --> 01:02:37,880
+ Works pretty well.
+
+635
+01:02:37,880 --> 01:02:42,880
+ And on this we have our own firmware that does all the light control
+
+636
+01:02:42,880 --> 01:02:45,880
+ and also does the color calibration.
+
+637
+01:02:45,880 --> 01:02:49,880
+ And it also does something that you might not have seen, but it is there.
+
+638
+01:02:49,880 --> 01:02:56,880
+ It's also running an algorithm for afterglowing because we originally wanted to simulate
+
+639
+01:02:56,880 --> 01:03:01,880
+ the original Blinken lights lamps, which were halogen lamps.
+
+640
+01:03:01,880 --> 01:03:05,880
+ So they had this natural afterglow if you switched them off.
+
+641
+01:03:05,880 --> 01:03:09,880
+ And we wanted to simulate that.
+
+642
+01:03:09,880 --> 01:03:15,880
+ Although we didn't do this in particular, it came in handy because now it's software controlled.
+
+643
+01:03:15,880 --> 01:03:21,880
+ So whenever you run an app or run a certain animation, you can actually define the afterglow you want to have.
+
+644
+01:03:21,880 --> 01:03:24,880
+ And the afterglow goes through all the colors perfectly.
+
+645
+01:03:24,880 --> 01:03:29,880
+ So it's not only brightness actually mixing the colors as you go.
+
+646
+01:03:29,880 --> 01:03:36,880
+ So if you switch from blue to red and you have an afterglow of half a second,
+
+647
+01:03:36,880 --> 01:03:42,880
+ it's a slow, steady transition through the color space from one color to the other.
+
+648
+01:03:42,880 --> 01:03:47,880
+ And that makes for the special impression that we have.
+
+649
+01:03:47,880 --> 01:03:53,880
+ Of course, to make the system complete, each of these controllers are connected to the LED chain
+
+650
+01:03:53,880 --> 01:03:56,880
+ that's stuck behind these windows.
+
+651
+01:03:56,880 --> 01:04:00,880
+ And they are all interconnected using Ethernet.
+
+652
+01:04:00,880 --> 01:04:04,880
+ And so there's a central computer that's running all the software.
+
+653
+01:04:04,880 --> 01:04:11,880
+ And we have thrown, well, we didn't really throw away the old software, but we didn't use it.
+
+654
+01:04:11,880 --> 01:04:14,880
+ It's a completely new software stack.
+
+655
+01:04:14,880 --> 01:04:25,880
+ And it's mostly written in Elixir, which is the best programming language you've heard about at this camp.
+
+656
+01:04:25,880 --> 01:04:29,880
+ It's really amazing. It does wonder.
+
+657
+01:04:29,880 --> 01:04:34,880
+ And apart from the firmware and the part that does the audio part of the system,
+
+658
+01:04:34,880 --> 01:04:39,880
+ of course, we had also one loudspeaker on top of each window.
+
+659
+01:04:39,880 --> 01:04:43,880
+ Everything is written in Elixir and works beautifully.
+
+660
+01:04:43,880 --> 01:04:52,880
+ So this system, Elixir also comes with the Phoenix Web Library where you can do real-time web development.
+
+661
+01:04:52,880 --> 01:04:58,880
+ So on the right, you can't see the original simulator.
+
+662
+01:04:58,880 --> 01:05:06,880
+ So we had a web-based simulator for this installation months before we had the system itself ready.
+
+663
+01:05:06,880 --> 01:05:15,880
+ So on the web, you could see in real-time the same stuff, including the afterglow and everything in a real-time web application.
+
+664
+01:05:15,880 --> 01:05:18,880
+ It's also all written in Elixir.
+
+665
+01:05:18,880 --> 01:05:22,880
+ So it was really helpful to develop all the software.
+
+666
+01:05:22,880 --> 01:05:28,880
+ Then, of course, there's this audio output that I mentioned, which we're using the Druze Library
+
+667
+01:05:28,880 --> 01:05:35,880
+ and the controller input, which is the set of buttons on this table in front of the installation.
+
+668
+01:05:35,880 --> 01:05:41,880
+ The system allows for apps, small, tiny applications that run the games and everything else,
+
+669
+01:05:41,880 --> 01:05:51,880
+ and has idea of playlists and scheduling, all this stuff, and everything else runs on a UDP-based communication.
+
+670
+01:05:51,880 --> 01:05:57,880
+ So basically, all those frames are just thrown onto the Ethernet bus and then it displays.
+
+671
+01:05:57,880 --> 01:06:04,880
+ If you want to have a look at the code, it's all online at github.com/blinkenleits-polychrome.
+
+672
+01:06:04,880 --> 01:06:09,880
+ So if you approach this, you really need to find an approach.
+
+673
+01:06:09,880 --> 01:06:17,880
+ And of course, first we visit our old friend, the Dampfbremsfolie, which you have seen in the video, which is so amazing.
+
+674
+01:06:17,880 --> 01:06:25,880
+ It's so cheap, and you really need to use it if you do something with light, because the light distribution is so perfect.
+
+675
+01:06:25,880 --> 01:06:33,880
+ Although this pixel itself makes more or less a perfect circle, you can't see it if you put this crazy on top of it.
+
+676
+01:06:33,880 --> 01:06:35,880
+ So this was our first pixel.
+
+677
+01:06:35,880 --> 01:06:43,880
+ That was our second pixel, which actually contains one of those glass bricks, and we used that one to calibrate the color,
+
+678
+01:06:43,880 --> 01:06:49,880
+ and also to calibrate the right distance of the LED towards the glass bricks.
+
+679
+01:06:49,880 --> 01:06:56,880
+ That's something we need to test. How far away must it be? How close can it be? What's the perfect distance?
+
+680
+01:06:56,880 --> 01:06:59,880
+ Turns out 15 centimeters was right.
+
+681
+01:06:59,880 --> 01:07:08,880
+ And as we wanted to have these glass bricks, but you had to buy 10, we also did this 3x3 object here,
+
+682
+01:07:08,880 --> 01:07:12,880
+ which we didn't use, which you can't see because of the evil day star.
+
+683
+01:07:12,880 --> 01:07:19,880
+ Yes. And then we needed this enclosure for all these lamps.
+
+684
+01:07:19,880 --> 01:07:24,880
+ So that's basically like these ChocoCos cartons.
+
+685
+01:07:24,880 --> 01:07:29,880
+ It's a matrix of wood plates and with a cover in the back.
+
+686
+01:07:29,880 --> 01:07:35,880
+ You see Papillon drilling the holes for the LEDs, which you just plug in in the backside,
+
+687
+01:07:35,880 --> 01:07:46,880
+ and then we mounted this whole thing behind the windows, covered with these sheets, and stuck to the wall, which is super easy.
+
+688
+01:07:46,880 --> 01:07:51,880
+ Now that the sun starts cooperating, you can actually see it.
+
+689
+01:07:51,880 --> 01:08:01,880
+ This here is the structure that ensures 15 centimeter distance and also shields each pixel from each other
+
+690
+01:08:01,880 --> 01:08:07,880
+ because you don't want to have any light bleeding. And I think we succeeded in that pretty well.
+
+691
+01:08:07,880 --> 01:08:10,880
+ Here's the top view. So here's the LED in the middle.
+
+692
+01:08:10,880 --> 01:08:19,880
+ Eventually, this is a photo of the prototype where we thought having white walls is a good idea.
+
+693
+01:08:19,880 --> 01:08:25,880
+ Spoiler, it wasn't. It was too bright. Our problem wasn't brightness. Our problem was darkness.
+
+694
+01:08:25,880 --> 01:08:35,880
+ We wanted to have a steady and unnoticeable transition from total darkness to light.
+
+695
+01:08:35,880 --> 01:08:43,880
+ And if it's too bright, even if you put the LEDs on the lowest signal level, like one on each RGB,
+
+696
+01:08:43,880 --> 01:08:48,880
+ it's like switching on the room and all the cockroaches are running away.
+
+697
+01:08:48,880 --> 01:08:59,880
+ It was just too much. So we actually left it brown and added a second layer of this Damfress folia.
+
+698
+01:08:59,880 --> 01:09:06,880
+ And then it was kind of perfect because then if you switch on the light a bit, it's just almost visible
+
+699
+01:09:06,880 --> 01:09:10,880
+ and you could then really make a smooth transition.
+
+700
+01:09:10,880 --> 01:09:15,880
+ That's also why on this installation all those transitions look so smooth.
+
+701
+01:09:15,880 --> 01:09:19,880
+ Otherwise, it would have been really noisy. We tested that.
+
+702
+01:09:19,880 --> 01:09:24,880
+ So in the end, you put in the LEDs and mount it right in here.
+
+703
+01:09:24,880 --> 01:09:28,880
+ And we had this pole that just pressed it onto the window and that's it.
+
+704
+01:09:28,880 --> 01:09:31,880
+ So basically, that's the whole setup.
+
+705
+01:09:31,880 --> 01:09:36,880
+ So and then we switched it on and we tried color and we said, like, oh my God, this looks so cool.
+
+706
+01:09:36,880 --> 01:09:43,880
+ We need to do color because this glow was just perfect.
+
+707
+01:09:43,880 --> 01:09:49,880
+ Also, the glass bricks add a lot of structure and make it look interesting.
+
+708
+01:09:49,880 --> 01:09:53,880
+ But that's all the glass bricks do. They do know the fusion of any kind.
+
+709
+01:09:53,880 --> 01:09:56,880
+ That's all done by the Damfress folia.
+
+710
+01:09:56,880 --> 01:10:04,880
+ So now that the sun has gone, I can hopefully show you what the real astonishing thing is.
+
+711
+01:10:04,880 --> 01:10:10,880
+ If you take the standard LEDs and you switch them on and then you take your image
+
+712
+01:10:10,880 --> 01:10:20,880
+ with all the original RGB values that look so perfect on your monitor, it looks like this.
+
+713
+01:10:20,880 --> 01:10:23,880
+ That's like the generic Super Mario.
+
+714
+01:10:23,880 --> 01:10:28,880
+ And as you can see, there's too much blue. Everything is bleeding out.
+
+715
+01:10:28,880 --> 01:10:32,880
+ It just looked awful. We didn't know what to do.
+
+716
+01:10:32,880 --> 01:10:36,880
+ And then we played around a bit with curves and other things and found out,
+
+717
+01:10:36,880 --> 01:10:40,880
+ well, maybe color calibration is a good way to do it.
+
+718
+01:10:40,880 --> 01:10:46,880
+ And then Bjorn took the time and actually used this spider,
+
+719
+01:10:46,880 --> 01:10:53,880
+ the thing called the spider color calibration tool that you usually use if you're a professional
+
+720
+01:10:53,880 --> 01:10:58,880
+ Photoshop artist or something like this to calibrate your monitor and put it on this.
+
+721
+01:10:58,880 --> 01:11:01,880
+ Hacked a bit so that we could use it here with our installation.
+
+722
+01:11:01,880 --> 01:11:04,880
+ And now look what color calibration is doing.
+
+723
+01:11:04,880 --> 01:11:07,880
+ Same information.
+
+724
+01:11:07,880 --> 01:11:12,880
+ And like magic, it just looks great.
+
+725
+01:11:12,880 --> 01:11:16,880
+ And it not only looks great, and because there's less blue in it,
+
+726
+01:11:16,880 --> 01:11:22,880
+ we now could do colors that you're usually impossible to see on any LED installation that's not calibrated.
+
+727
+01:11:22,880 --> 01:11:26,880
+ So we have brown and dark pink tones and everything.
+
+728
+01:11:26,880 --> 01:11:30,880
+ So everything is really looking the way you expect it to be.
+
+729
+01:11:30,880 --> 01:11:39,880
+ And that enabled us to do much more vivid imagery here on this installation.
+
+730
+01:11:39,880 --> 01:11:44,880
+ And then we had this audio system. It's a 10 channel sound system,
+
+731
+01:11:44,880 --> 01:11:52,880
+ which was donated to us or at least we could rent it for free by D&P Audio Techniques.
+
+732
+01:11:52,880 --> 01:11:54,880
+ So it's very good loudspeakers.
+
+733
+01:11:54,880 --> 01:11:59,880
+ And they were just used for action and reaction sounds.
+
+734
+01:11:59,880 --> 01:12:02,880
+ We used this JOOS audio framework to do that.
+
+735
+01:12:02,880 --> 01:12:04,880
+ And we could have done even more with it.
+
+736
+01:12:04,880 --> 01:12:07,880
+ And we actually had a lot more plans what to do with it.
+
+737
+01:12:07,880 --> 01:12:14,880
+ But music makes light more interesting because then you can correlate much more to what's happening,
+
+738
+01:12:14,880 --> 01:12:16,880
+ especially for games, of course, and so on.
+
+739
+01:12:16,880 --> 01:12:22,880
+ And then we had this controller to control all the things.
+
+740
+01:12:22,880 --> 01:12:27,880
+ Actually, to be honest, we didn't really have any good idea of how to use it.
+
+741
+01:12:27,880 --> 01:12:30,880
+ We just knew like 10 buttons was probably a good choice.
+
+742
+01:12:30,880 --> 01:12:33,880
+ And we also need joysticks. That's all the magic we had.
+
+743
+01:12:33,880 --> 01:12:40,880
+ So we bought this standard arcade kit and these huge buttons, which are fun to hit on.
+
+744
+01:12:40,880 --> 01:12:42,880
+ And yeah, it kind of worked.
+
+745
+01:12:42,880 --> 01:12:48,880
+ It was, in a way, an experiment while doing all this.
+
+746
+01:12:48,880 --> 01:12:55,880
+ So we used it to control the games, to parametrize other apps.
+
+747
+01:12:55,880 --> 01:12:59,880
+ Yeah. And then it's usually, you know, you start out with something,
+
+748
+01:12:59,880 --> 01:13:03,880
+ and then you end up with something completely different.
+
+749
+01:13:03,880 --> 01:13:07,880
+ And we have now a variety of apps and games.
+
+750
+01:13:07,880 --> 01:13:12,880
+ So we have this interactive apps, especially the Pixel Fun one, which you have probably seen.
+
+751
+01:13:12,880 --> 01:13:17,880
+ You can see there, which is super, super, super, super simple idea.
+
+752
+01:13:17,880 --> 01:13:22,880
+ It's basically just one function that provides numbers from minus one to plus one.
+
+753
+01:13:22,880 --> 01:13:28,880
+ And then at random, we scale it, assign colors to those values.
+
+754
+01:13:28,880 --> 01:13:31,880
+ We rotate it, we transform it, we scale it.
+
+755
+01:13:31,880 --> 01:13:34,880
+ And that's what it makes so interesting.
+
+756
+01:13:34,880 --> 01:13:37,880
+ And in the latest iteration, we also coupling it with the music.
+
+757
+01:13:37,880 --> 01:13:43,880
+ So the music is actually triggering this function and does interesting stuff.
+
+758
+01:13:43,880 --> 01:13:48,880
+ So we have the Lemmings you can control. There's a Tetris game. There's a Snake game.
+
+759
+01:13:48,880 --> 01:13:56,880
+ There's a Super Mario. Martin did a Super Mario completely in 8x8, which is amazing.
+
+760
+01:13:56,880 --> 01:14:01,880
+ And maybe we even have a Wacom All today. I don't know. Could be.
+
+761
+01:14:01,880 --> 01:14:09,880
+ Yes. So what we wanted to do is also sound to light, so that something you can watch this night.
+
+762
+01:14:09,880 --> 01:14:14,880
+ So music will be running and you can see the impact of the music into the stuff.
+
+763
+01:14:14,880 --> 01:14:22,880
+ And to round it all up, there was also the option to import animations by whoever wants to contribute anything.
+
+764
+01:14:22,880 --> 01:14:26,880
+ The WebP format is perfect.
+
+765
+01:14:26,880 --> 01:14:34,880
+ And then we have lots of unfinished ideas and missed opportunities because we were running out of time.
+
+766
+01:14:34,880 --> 01:14:39,880
+ We have been working on this for four months now, I think. True? Yeah, kinda.
+
+767
+01:14:39,880 --> 01:14:46,880
+ So it was really a lot of work. We've been here like the first on this campground. We're probably going to be the last.
+
+768
+01:14:46,880 --> 01:14:54,880
+ But it's like the light installation has been installed here a month ago and probably takes some time to take it down.
+
+769
+01:14:54,880 --> 01:15:02,880
+ Yeah, that's it. So if you walk there tonight, you can see it working.
+
+770
+01:15:02,880 --> 01:15:17,880
+ You see the Pixel Fun real-time app running and you can see the impact of the music it has.
+
+771
+01:15:17,880 --> 01:15:21,880
+ So a lot more can be done with the installation. Unfortunately, we only have one night left.
+
+772
+01:15:21,880 --> 01:15:29,880
+ But if you like, join us and see what can be done. We were trying to bring up all the games we already had
+
+773
+01:15:29,880 --> 01:15:35,880
+ and add one or two new ones that haven't run yet throughout the night.
+
+774
+01:15:35,880 --> 01:15:42,880
+ And then it's time to say goodbye. Thanks for listening.
+
+775
+01:15:42,880 --> 01:15:51,880
+ [Applause]
+
+776
+01:15:51,880 --> 01:16:02,880
+ So any questions? Maybe the team can stand up, including the Canadians. Just say hello so that you know who's done it.
+
+777
+01:16:02,880 --> 01:16:14,880
+ Papillon, Björn, Dominique, Jonathan, Andrew, Dan, Alex, and one more.
+
+778
+01:16:14,880 --> 01:16:23,880
+ Where's Luca? Luca's over there. All right. So any questions?
+
+779
+01:16:23,880 --> 01:16:26,880
+ Your microphone is not working.
+
+780
+01:16:26,880 --> 01:16:32,880
+ Okay. Now that question. Okay, I come running with the microphone. Yes?
+
+781
+01:16:32,880 --> 01:16:39,880
+ You said you hacked something with the color collaboration tool. What did you hack?
+
+782
+01:16:39,880 --> 01:16:46,880
+ Yeah, I can answer that. So basically we used the Spider 3, which is like a standard tool
+
+783
+01:16:46,880 --> 01:16:53,880
+ used in photography to calibrate your monitors. There's open source software for it. We essentially use that.
+
+784
+01:16:53,880 --> 01:16:58,880
+ They have a web mode where they display the wanted colors on a web page.
+
+785
+01:16:58,880 --> 01:17:02,880
+ We essentially just scrape that and put that into our controllers.
+
+786
+01:17:02,880 --> 01:17:08,880
+ And that's what we do essentially to create the curves. So it wasn't just like plain calibrating the single colors,
+
+787
+01:17:08,880 --> 01:17:15,880
+ like toning down the blue. They were really off with the sizes. The curves are pretty hefty, specifically the blue.
+
+788
+01:17:15,880 --> 01:17:20,880
+ But yes, so that's what we did. We burned it in the firmware and you saw the result.
+
+789
+01:17:20,880 --> 01:17:23,880
+ Okay, there's more question over here.
+
+790
+01:17:23,880 --> 01:17:29,880
+ Do you still have the archive of the first project, of the animations?
+
+791
+01:17:29,880 --> 01:17:36,880
+ Yeah, it should all be on github.com/blinkenleids. If it's not, kick me.
+
+792
+01:17:36,880 --> 01:17:45,880
+ I've recently done a deep dive into the old archives. I know it's probably not perfect, not complete, but it's still all there.
+
+793
+01:17:45,880 --> 01:17:52,880
+ The software is there and it's actually running. I could recompile it after 20 years, so it's not all that bad.
+
+794
+01:17:52,880 --> 01:17:55,880
+ Yes. Next.
+
+795
+01:17:55,880 --> 01:18:03,880
+ I'm wondering about, like, this project apparently scales big with workload, but I'm also thinking about all the money.
+
+796
+01:18:03,880 --> 01:18:08,880
+ Do you get paid by the artist festivals? Where are you? Ah, there. Okay.
+
+797
+01:18:08,880 --> 01:18:18,880
+ Like, going to different countries and filling big buildings with light installations is not something cheap, I guess.
+
+798
+01:18:18,880 --> 01:18:30,880
+ No. So actually, well, the first one was pure fun and super low cost of everything. I mean, we used just the most basic stuff.
+
+799
+01:18:30,880 --> 01:18:41,880
+ I think in the end, we spent 10,000 DM, so something like 5,000 euros in total.
+
+800
+01:18:41,880 --> 01:18:49,880
+ Some of it was just paid by somebody else, so people came in and said, like, I'm going to buy the lamps and stuff like this.
+
+801
+01:18:49,880 --> 01:18:59,880
+ The remaining stuff, what I didn't tell you is we had this pong telephone line. It was actually running over a value added telephone line, so, you know, 0190.
+
+802
+01:18:59,880 --> 01:19:15,880
+ So actually, we would have made enough money to cover all the costs, but the provider company that was, like, running the line for us went bankrupt during the project, so it was all gone.
+
+803
+01:19:15,880 --> 01:19:24,880
+ But it didn't matter, you know, it was just something. Then Paris was expensive. This was paid by the art festival, of course.
+
+804
+01:19:24,880 --> 01:19:31,880
+ And same in Toronto. More or less covered the costs, so there was not much to earn from it.
+
+805
+01:19:31,880 --> 01:19:44,880
+ Here we got, yeah, there was a coverage by the event for, like, 10% of it, and the rest we just pay ourselves because we're idiots.
+
+806
+01:19:44,880 --> 01:19:49,880
+ [Applause]
+
+807
+01:19:49,880 --> 01:19:55,880
+ There's another question over here. The question is why polychrome needs to be torn down.
+
+808
+01:19:55,880 --> 01:20:01,880
+ Isn't there any way you could fit this into the whole museum concept in Mildenberg here?
+
+809
+01:20:01,880 --> 01:20:16,880
+ Sure, but this Zigeleipark is only open in summer and closes at 6, and the sun sets at 9. So you could do it, but nobody would see it.
+
+810
+01:20:16,880 --> 01:20:28,880
+ Any more questions? Someone over there? Is this thing on? Use it.
+
+811
+01:20:28,880 --> 01:20:41,880
+ I just wanted to ask about the calibration again, because the controller, the TM-15 something, does it have more than 255 levels, or is it...
+
+812
+01:20:41,880 --> 01:20:43,880
+ No, it's just 255.
+
+813
+01:20:43,880 --> 01:20:48,880
+ Okay, so you have probably a pretty granular resolution at the low end, basically, yeah.
+
+814
+01:20:48,880 --> 01:20:52,880
+ Yeah, so that's what we tried to mitigate by making it darker, essentially.
+
+815
+01:20:52,880 --> 01:21:00,880
+ So when we had the initial setup with the white walls, where we essentially tried to bring as much light as possible to the front, then we had exactly that problem.
+
+816
+01:21:00,880 --> 01:21:09,880
+ Like, the lowest levels were very bright, then we made it artificial darker by making the sides brown, by adding another layer of the famous Damfrensfolium.
+
+817
+01:21:09,880 --> 01:21:19,880
+ And that then actually made the calibration possible, because we had these low-level increases in the light, and then it worked much, much better.
+
+818
+01:21:19,880 --> 01:21:20,880
+ Alright, over there?
+
+819
+01:21:20,880 --> 01:21:35,880
+ One more question. Tim, from the first project, owner of the building, what feedback did he or she give to you after, you know, an increased interest in the building and word fame?
+
+820
+01:21:35,880 --> 01:21:47,880
+ Well, the owner is from East Berlin and told me that he spent all his money as a young kid to play Pong in the Wuhlheide, at the FEZ.
+
+821
+01:21:47,880 --> 01:21:56,880
+ And when we put up Pong on his new building, he was like in heaven.
+
+822
+01:21:56,880 --> 01:21:57,880
+ More questions?
+
+823
+01:21:57,880 --> 01:22:01,880
+ We still have a bit of time?
+
+824
+01:22:01,880 --> 01:22:05,880
+ There's one over here.
+
+825
+01:22:05,880 --> 01:22:22,880
+ And with the other buildings, was there also some impact from the, you said before, you integrated Blinkenlights basically into the architecture of the building, so changed the people to the building or something like this?
+
+826
+01:22:22,880 --> 01:22:26,880
+ Yes.
+
+827
+01:22:26,880 --> 01:22:37,880
+ Apart from us getting media architecture prizes, or one, which I don't really care about, but happened.
+
+828
+01:22:37,880 --> 01:22:44,880
+ And I can't really verify this, but this is like what people told me later on in Paris.
+
+829
+01:22:44,880 --> 01:22:52,880
+ Before the Bibliothèque nationale de France, which was the rather new building in Paris, was kind of non-accepted in the city.
+
+830
+01:22:52,880 --> 01:22:57,880
+ It was like super expensive, you know, when these huge projects started.
+
+831
+01:22:57,880 --> 01:23:05,880
+ I think it was the last project of Francois Mitterrand who really shaped the city with his whole style of big architecture.
+
+832
+01:23:05,880 --> 01:23:15,880
+ And I was told, you know, that with this project and its exposure at Nuit Blanche, people looked at the building differently.
+
+833
+01:23:15,880 --> 01:23:17,880
+ That's something I can't verify.
+
+834
+01:23:17,880 --> 01:23:20,880
+ It's just like what was related to me.
+
+835
+01:23:20,880 --> 01:23:24,880
+ Not sure what happened in Toronto.
+
+836
+01:23:24,880 --> 01:23:30,880
+ Did that have any long-lasting impact or reactions or anything?
+
+837
+01:23:30,880 --> 01:23:35,880
+ Can you say something about this? Anybody?
+
+838
+01:23:35,880 --> 01:23:40,880
+ Come on, because you are from Toronto and I have no idea.
+
+839
+01:23:40,880 --> 01:23:44,880
+ It made the front page of all the papers, of course, at the time.
+
+840
+01:23:44,880 --> 01:23:53,880
+ And people I talk to still remember it sometimes, like when they ask me, "Why are you going to Berlin for a nerd festival?"
+
+841
+01:23:53,880 --> 01:23:58,880
+ So...
+
+842
+01:23:58,880 --> 01:24:01,880
+ Yeah.
+
+843
+01:24:01,880 --> 01:24:06,880
+ Yeah, I think it was already a really favourite site, a favourite building in Toronto.
+
+844
+01:24:06,880 --> 01:24:08,880
+ Everybody liked it.
+
+845
+01:24:08,880 --> 01:24:15,880
+ It was a memorable use of the building.
+
+846
+01:24:15,880 --> 01:24:20,880
+ There's more questions. I just need to bring the microphone over there.
+
+847
+01:24:20,880 --> 01:24:23,880
+ So the first building was empty and unused.
+
+848
+01:24:23,880 --> 01:24:26,880
+ What about the other buildings in Paris and Toronto?
+
+849
+01:24:26,880 --> 01:24:32,880
+ And if they were in use, how did you deal with people working in the offices and things like that?
+
+850
+01:24:32,880 --> 01:24:33,880
+ Good question.
+
+851
+01:24:33,880 --> 01:24:41,880
+ The Bibliothèque nationale de France was especially suited to this kind of use because the way the architecture is built,
+
+852
+01:24:41,880 --> 01:24:51,880
+ you have the window, then there was a continuous aisle behind this line of windows.
+
+853
+01:24:51,880 --> 01:24:54,880
+ So you could just walk along all the windows and there were no offices.
+
+854
+01:24:54,880 --> 01:24:58,880
+ And then there was a... I think you could turn it, right?
+
+855
+01:24:58,880 --> 01:25:09,880
+ It was fixed in some levels and you could turn it like a huge swinging wooden door that separated the windows from the rest.
+
+856
+01:25:09,880 --> 01:25:14,880
+ And in the offices you could close and open them if you want the light to come in.
+
+857
+01:25:14,880 --> 01:25:15,880
+ You could also close them.
+
+858
+01:25:15,880 --> 01:25:19,880
+ So usually they are either open or closed.
+
+859
+01:25:19,880 --> 01:25:23,880
+ And during that project they were all closed and of course everybody was complaining.
+
+860
+01:25:23,880 --> 01:25:29,880
+ Because the mayor of Paris has said this has to happen.
+
+861
+01:25:29,880 --> 01:25:30,880
+ It happened.
+
+862
+01:25:30,880 --> 01:25:33,880
+ And nobody complained, at least not to us.
+
+863
+01:25:33,880 --> 01:25:38,880
+ In Toronto there was more complaining.
+
+864
+01:25:38,880 --> 01:25:43,880
+ I think we even tried to comfort the people by applying...
+
+865
+01:25:43,880 --> 01:25:50,880
+ Did we come up with an idea of opening and closing them with binder clips?
+
+866
+01:25:50,880 --> 01:25:54,880
+ So we had to come up with a solution. It was a constant fight.
+
+867
+01:25:54,880 --> 01:26:00,880
+ So all that worked for us was that there was a date when it was going to be dismantled anyway
+
+868
+01:26:00,880 --> 01:26:02,880
+ so people just calmed down and it was going to end.
+
+869
+01:26:02,880 --> 01:26:04,880
+ So yeah, it's a problem.
+
+870
+01:26:04,880 --> 01:26:14,880
+ And some of those projects I mentioned, at least one of them was like we didn't find any solution to this.
+
+871
+01:26:14,880 --> 01:26:17,880
+ Because every office was different.
+
+872
+01:26:17,880 --> 01:26:19,880
+ Desks very close to the window.
+
+873
+01:26:19,880 --> 01:26:21,880
+ Everything totally crammed.
+
+874
+01:26:21,880 --> 01:26:26,880
+ So the building needs to have some kind of...
+
+875
+01:26:26,880 --> 01:26:29,880
+ Needs to be prepared for us.
+
+876
+01:26:29,880 --> 01:26:31,880
+ That's what I would say.
+
+877
+01:26:31,880 --> 01:26:33,880
+ One question over there.
+
+878
+01:26:33,880 --> 01:26:37,880
+ The Minerva Huvunderland people, are they using your software?
+
+879
+01:26:37,880 --> 01:26:44,880
+ No, we talked about this, but I think we were too slow to react.
+
+880
+01:26:44,880 --> 01:26:46,880
+ I don't remember.
+
+881
+01:26:46,880 --> 01:26:51,880
+ But they hack everything themselves. They are the real hackers.
+
+882
+01:26:51,880 --> 01:26:53,880
+ So they had no problems.
+
+883
+01:26:53,880 --> 01:26:57,880
+ But they were using our original animations, partly.
+
+884
+01:26:57,880 --> 01:27:02,880
+ I still hope they are opening a Berlin area and redo this.
+
+885
+01:27:02,880 --> 01:27:06,880
+ Or a Paris area, then we could do the other bling lights there too.
+
+886
+01:27:06,880 --> 01:27:08,880
+ That would be cool.
+
+887
+01:27:08,880 --> 01:27:11,880
+ Hasn't come up yet.
+
+888
+01:27:11,880 --> 01:27:13,880
+ So, anything else?
+
+889
+01:27:13,880 --> 01:27:17,880
+ Yes, I think there's a question over here.
+
+890
+01:27:17,880 --> 01:27:19,880
+ Yeah, I have the question.
+
+891
+01:27:19,880 --> 01:27:23,880
+ I can admire all the technical details and the beauty of it.
+
+892
+01:27:23,880 --> 01:27:27,880
+ But tell me something about the joy of hacker collaboration.
+
+893
+01:27:27,880 --> 01:27:30,880
+ Because at the end, this is what this is about.
+
+894
+01:27:30,880 --> 01:27:33,880
+ Right after a million year long pandemic.
+
+895
+01:27:33,880 --> 01:27:36,880
+ It's all about connectedness again.
+
+896
+01:27:36,880 --> 01:27:47,880
+ Maybe you have an idea of how to share this joy of hacker collaboration that you obviously experience with Polychrome and the other projects.
+
+897
+01:27:47,880 --> 01:27:49,880
+ Yeah, sure.
+
+898
+01:27:49,880 --> 01:27:54,880
+ We all had, I think, projects lined up after the pandemic.
+
+899
+01:27:54,880 --> 01:27:56,880
+ Not able to implement something.
+
+900
+01:27:56,880 --> 01:28:00,880
+ So it was welcoming to many people.
+
+901
+01:28:00,880 --> 01:28:02,880
+ It was easy.
+
+902
+01:28:02,880 --> 01:28:05,880
+ With this idea with these windows, it was easy to get everyone together.
+
+903
+01:28:05,880 --> 01:28:09,880
+ And also with this one, it was specifically interesting because it was so wide.
+
+904
+01:28:09,880 --> 01:28:15,880
+ An area of different things from this woodworking, building, all these things behind the windows.
+
+905
+01:28:15,880 --> 01:28:18,880
+ To the hardware, like the electronics, all of it.
+
+906
+01:28:18,880 --> 01:28:21,880
+ Then the audio engine, which is a completely separate thing.
+
+907
+01:28:21,880 --> 01:28:25,880
+ Then the Alexier live view, all of these things, was very wide.
+
+908
+01:28:25,880 --> 01:28:29,880
+ And people from all these different areas working together was actually pretty nice.
+
+909
+01:28:29,880 --> 01:28:34,880
+ And in a short time, we actually made something happen that worked very well.
+
+910
+01:28:34,880 --> 01:28:36,880
+ All right.
+
+911
+01:28:36,880 --> 01:28:40,880
+ I think we have time for one last question over there, please.
+
+912
+01:28:40,880 --> 01:28:45,880
+ Yes, I was just wondering when you were developing it, you had to do testing.
+
+913
+01:28:45,880 --> 01:28:51,880
+ Did you worry about the public being confused or calling 911 or something like that?
+
+914
+01:28:51,880 --> 01:28:54,880
+ This public?
+
+915
+01:28:54,880 --> 01:28:55,880
+ No.
+
+916
+01:28:55,880 --> 01:28:56,880
+ For the previous project?
+
+917
+01:28:56,880 --> 01:28:57,880
+ Oh.
+
+918
+01:28:57,880 --> 01:29:02,880
+ Good question.
+
+919
+01:29:02,880 --> 01:29:04,880
+ There were incidents.
+
+920
+01:29:04,880 --> 01:29:06,880
+ What was it?
+
+921
+01:29:06,880 --> 01:29:11,880
+ Wasn't there something in Berlin that...
+
+922
+01:29:11,880 --> 01:29:22,880
+ Well, our major concern was how to deal with the 911, 911 problem.
+
+923
+01:29:22,880 --> 01:29:26,880
+ So it was not 911, 911 was our problem.
+
+924
+01:29:26,880 --> 01:29:34,880
+ Because it was like, as I said, we switched it on in the night from the 10th to the 11th of September 2001.
+
+925
+01:29:34,880 --> 01:29:36,880
+ And we're like ready to rumble.
+
+926
+01:29:36,880 --> 01:29:38,880
+ It's like, yeah, it works.
+
+927
+01:29:38,880 --> 01:29:40,880
+ Now everybody's going to see it.
+
+928
+01:29:40,880 --> 01:29:42,880
+ It's going to be so cool.
+
+929
+01:29:42,880 --> 01:29:47,880
+ And then everybody's attention was somewhere else.
+
+930
+01:29:47,880 --> 01:29:53,880
+ And everybody was totally...
+
+931
+01:29:53,880 --> 01:29:57,880
+ How would you describe this feeling that this event had?
+
+932
+01:29:57,880 --> 01:30:03,880
+ I mean, okay, some people thought like, okay, now the explosion is coming to my home city.
+
+933
+01:30:03,880 --> 01:30:12,880
+ But I think it was a situation where everybody experienced some kind of fear and nervousness and anxiety.
+
+934
+01:30:12,880 --> 01:30:17,880
+ And there we were, like in the middle of the city with a huge building.
+
+935
+01:30:17,880 --> 01:30:24,880
+ And we could have sent everything, any kind of annoying message that brings people to the edge.
+
+936
+01:30:24,880 --> 01:30:29,880
+ It was totally in our control to make everybody having a bad day.
+
+937
+01:30:29,880 --> 01:30:33,880
+ And we have also opened this editor to the public.
+
+938
+01:30:33,880 --> 01:30:39,880
+ And of course, it took like a few hours and we had animations with planes flying into skyscrapers and stuff.
+
+939
+01:30:39,880 --> 01:30:41,880
+ It was all there.
+
+940
+01:30:41,880 --> 01:30:46,880
+ It was sitting there like, if we do this, they will fry us.
+
+941
+01:30:46,880 --> 01:30:52,880
+ So we didn't add any of these animations.
+
+942
+01:30:52,880 --> 01:30:59,880
+ And I think for a few days we decided just to only have the blinking heart.
+
+943
+01:30:59,880 --> 01:31:03,880
+ Like for a couple of nights, just had this blinking heart.
+
+944
+01:31:03,880 --> 01:31:06,880
+ That's why it's the logo of the project as well.
+
+945
+01:31:06,880 --> 01:31:12,880
+ And when everybody calmed down, we kind of got more humorous and had like more stuff.
+
+946
+01:31:12,880 --> 01:31:14,880
+ And that worked pretty well.
+
+947
+01:31:14,880 --> 01:31:18,880
+ And lots of people turned to us and said like, oh yeah, everybody was confused.
+
+948
+01:31:18,880 --> 01:31:19,880
+ I was just at the airport.
+
+949
+01:31:19,880 --> 01:31:23,880
+ Like everybody was out of their mind.
+
+950
+01:31:23,880 --> 01:31:28,880
+ And then I came to Alexanderplatz and saw the building and life was going on again.
+
+951
+01:31:28,880 --> 01:31:30,880
+ So, okay, that was a very personal story.
+
+952
+01:31:30,880 --> 01:31:33,880
+ It might have been a different experience for somebody else.
+
+953
+01:31:33,880 --> 01:31:37,880
+ But the emotional attachment to this light installation was really amazing.
+
+954
+01:31:37,880 --> 01:31:46,880
+ I mean, people reacted to it in a very peculiar way, especially Berliners, you know,
+
+955
+01:31:46,880 --> 01:31:50,880
+ who also always think that Berlin is like the coolest place.
+
+956
+01:31:50,880 --> 01:31:56,880
+ And they somehow adopted this project immediately.
+
+957
+01:31:56,880 --> 01:32:01,880
+ So when we had to tell people that it's going to be dismantled, they were furious.
+
+958
+01:32:01,880 --> 01:32:05,880
+ It's like, no, you can't take it away from us.
+
+959
+01:32:05,880 --> 01:32:12,880
+ You know, it's Berlin.
+
+960
+01:32:12,880 --> 01:32:14,880
+ Who am I to argue with that?
+
+961
+01:32:14,880 --> 01:32:16,880
+ But, you know, we had no choice to do that.
+
+962
+01:32:16,880 --> 01:32:21,880
+ So in the end, we did a party and it was like the party of Berlin at that day.
+
+963
+01:32:21,880 --> 01:32:28,880
+ It's like all the other clubs had to suffer for a day.
+
+964
+01:32:28,880 --> 01:32:29,880
+ All right.
+
+965
+01:32:29,880 --> 01:32:30,880
+ All right.
+
+966
+01:32:30,880 --> 01:32:31,880
+ Thank you very much.
+
+967
+01:32:31,880 --> 01:32:34,880
+ Let's have it again for Tim and his team, for Blinkelites.
+
+968
+01:32:34,880 --> 01:32:36,880
+ And the rest of the team.
+
+969
+01:32:36,880 --> 01:32:42,880
+ Thank you.
+
+970
+01:32:42,880 --> 01:32:46,880
+ (music)
+

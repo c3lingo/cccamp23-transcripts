@@ -1,0 +1,705 @@
+ [MUSIC]
+ All right, without further ado,
+ I would like to present LaForge,
+ who will be speaking today,
+ Demystifying eSIM Technology.
+ Please, take it away.
+ [APPLAUSE]
+ Okay.
+ Yeah, thanks.
+ So we can get started.
+ Demystifying eSIM Technology.
+ So, yeah, so, well, very quick slide about me.
+ I'm a recovering Linux kernel hacker.
+ I did a lot of work in the OsmoCom project.
+ It's open source mobile communications.
+ That's like the actual communications part,
+ not eSIM so much.
+ It's a completely different topic.
+ Yeah, participating at the CCC camps
+ and other events for quite some time.
+ I work mostly on implementing
+ various telecommunication protocols.
+ And in my spare time,
+ I also implement telecommunications protocols,
+ but going back to the like 70s and 80s and so on.
+ So historical telecommunications.
+ And as part of that, there's also an ISDN
+ and a PSTN network at the camp.
+ So if anyone wants to still connect to that,
+ come talk to us.
+ So after the advertisement break,
+ yeah, overview.
+ So what is this about?
+ Going to do a little bit of a recap
+ on classic SIM, USIM kind of stuff.
+ Then talk about principles behind eSIM,
+ the different variants of eSIMs,
+ and how all of this is put together.
+ Be warned, this is a rather complex topic.
+ Like probably almost anything in telecommunications.
+ And yeah, this is just a very brief glimpse
+ into what is happening technically.
+ I mean, this is like dozens and dozens
+ of specification documents and so on.
+ So yeah, let's look a bit at the classic SIM
+ to put this into context.
+ So SIM cards in the telecom networks,
+ as we know today, were introduced with GSM,
+ the 2G technology.
+ That means it was first deployed commercially in 1991.
+ The idea of the original SIM card is what we call
+ a single purpose smart card.
+ I mean, it's a smart card,
+ a card that's not just memory,
+ but has a processor and an operating system
+ and so on inside the card.
+ And it only has a single purpose,
+ which is to be used in the GSM network.
+ The fundamental purpose of that classic SIM card
+ is that you store network configuration data
+ on the card, so you can move the,
+ like have operator-specific configuration
+ that you move between the devices.
+ You have to move the card between devices.
+ Back then, also storage of contacts
+ and storage of SMS messages was an important feature.
+ And last but not least, maybe the most critical part
+ to serve as a secure element for the per subscriber
+ key material for authenticating the subscriber to the network.
+ These are the functions of the classic SIM card.
+ So then, you know, a decade later,
+ around 2000, UMTS 3G was introduced.
+ And in that, we went from SIM to USIM.
+ And this means also to UICC.
+ So now, U-SIM probably some people will have heard,
+ so it's the UMTS SIM, basically the 3G and beyond SIM card.
+ And they didn't just create another single purpose card,
+ but they also introduced an additional layer,
+ which is the UICC, the universal integrated chip card.
+ So it's a general purpose multi-application card,
+ where multiple applications can run on the card.
+ And the USIM is just one application on the card.
+ A classic SIM, in addition for backwards compatibility,
+ might be another application on that card.
+ And later on, when Volte came around for LTE,
+ there was also an additional ISIM application,
+ ISIM for IMS, subscriber identity module.
+ That's what SIM stands for.
+ So again, configuration data that's for the IMS core,
+ IMS being the IP multimedia system,
+ being the strange SIP derivative that is used in voice-over LTE
+ and voice-over Wi-Fi networks.
+ So by now, we really have thousands of parameters
+ and hundreds of files in configuration on that.
+ But still, fundamentally, it's the functionality of the secure element
+ to authenticate the subscriber to the network.
+ And with the USIM also to authenticate the network to the subscriber.
+ Whereas in the classic GSM SIM, we only had one-way authentication.
+ Now with the USIM, we have mutual authentication.
+ The same USIM is used in 3G, in 4G, and in 5G.
+ There's no change to the authentication, nothing of that sort.
+ So a 3G SIM card works for 5G or for 4G or for 3G,
+ or even for 2G if it has the backwards SIM application on it.
+ Now with eSIM, basically, we arrive at a point where
+ technology has been created to virtualize the entire USIM.
+ So not the classic SIM card, but the USIM.
+ And what that means, we decouple, let's say, like in software virtualization,
+ we decouple the operating system and the software from the underlying hardware.
+ We do the same in the eSIM universe.
+ And that happens by having a special chip, which is called the EUICC.
+ We had the EUICC as the classic card on which the USIM
+ and potentially the iSIM application was running on top,
+ but it was still a plastic card that you plug into a phone.
+ And now we have the EUICC, the Embedded Universal Integrated Chip card,
+ which is a chip that's fixed most often.
+ It can also be a card form factor, we'll get to that later,
+ but in a general sense it is a fixed chip inside the device.
+ Also there's work being done to actually not have it as a separate chip,
+ but have it inside a multi-chip package or even have it virtualized inside a chip,
+ but that doesn't really matter to the eSIM specification point of view.
+ So you have something that behaves like an EUICC chip as specified,
+ and that is the physical secure element.
+ And then we have something called SIM profiles.
+ And the SIM profile is basically a software or data description format
+ that contains what a classic USIM would contain,
+ what meaning it contains.
+ Please mute your phone if possible, thanks.
+ So we have the contents of the USIM file system.
+ I think it was a slide, I didn't speak about it explicitly,
+ but all the configuration data is stored in files on a file system in the card.
+ And all the content of those files, basically there's a description format in ASN1 encoded
+ where you can say, well, this file with this name has this content,
+ and there's another file with some other content, and so on.
+ So that's part of this eSIM profile description.
+ And then in addition we have the key material for the cellular network authentication,
+ meaning the K and OP or K and OPC values.
+ These are the shared secret key material that only exists at the cellular network operator
+ and inside the SIM, and here in this case in the SIM profile.
+ In addition to that we have further key material for over-the-air SIM card communication, that's OTA.
+ There have been many talks before at CCC events about how OTA works
+ and all kinds of security issues in at least previous OTA implementations and so on.
+ Feel free to refer to that if you're interested in that.
+ But that also is part of the SIM.
+ And that's not part of the file system, so it's listed separately.
+ Also you have all your PIN values, PIN2, PAC2, the admin PIN,
+ and also all the SIM toolkit applets, which are Java applets that the operator can run on your classic SIM or USIM.
+ And those are also part of the profile package that gets put together just to form the SIM profile.
+ And the eSIM profiles are specified, the format of those profiles is specified in what's called an EUICC profile package format
+ that is authored by the Trusted Connectivity Alliance, which formerly was the SIM Alliance.
+ That's a different standardization body than all of the other stuff that I'm going to talk about.
+ It's an interesting split of, well, some guys do some specification here and some other guys do specification over there.
+ So let's have a quick look at the EUICC.
+ I'm sorry for the low contrast in bright sunlight kind of rendering here.
+ Hopefully on the recording we have that then digital.
+ So this is taken from the specs, a schematic overview of the EUICC.
+ Not going to go through every acronym in here.
+ But basically we have a fundamental operating system at the bottom.
+ And then we have these two large, well, sort of rectangular objects here.
+ So-called MNO enabled profile and the MNO disabled profile.
+ So basically on this card that is symbolized by this diagram, we have two eSIM profiles residing on a single EUICC.
+ And one of the profiles is enabled and the other profile is disabled.
+ So you can have multiple or even many different profiles on an EUICC, but only one of those profiles is always active at any given point in time.
+ And you can switch between them.
+ Now each of those profiles contains a number of things.
+ We said already the file system, the access credentials, some certificate authority, security domain.
+ We have applets, we have policy rules and whatnot.
+ In general, the important part for also later slides and so on is that we have the issuer security domain of the provider, the ISDP here.
+ And we have outside of the profile the issuer security domain, the ISDR.
+ That's sort of the root of the EUICC.
+ So we have different security domains within the card operating system.
+ And every time you install an additional profile, there will be a new security domain and a new container that is isolated from all the other containers running on your EUICC.
+ And there's no way how, at least if everything behaves according to spec, of course,
+ these containers can escape their protection mechanisms and so on.
+ So why do we have this kind of complex setup?
+ The reason is, and it will get much more complex if you look at all the other parts of the system,
+ but the reason is in the end what we are talking about here is the core revenue generator for mobile operators.
+ They need to be able to securely identify their subscribers and they need to rely on the fact that SIM cards
+ or even virtual SIM cards in the form of SIM profiles cannot be cloned.
+ If they would, the business model would fall apart.
+ And now we have different operators who are competitors in the market who both install something on a shared chip.
+ So they all must trust that the security promises that this chip and the system and everything has
+ protects their vital shared secrets, the key material inside those containers or inside those profiles.
+ So that's why there's all this procedural security and certification approvals that we will get into shortly.
+ So what's the EUICC? Well, it's a smart card chip.
+ We have higher requirements in all kinds of ways on the security side, more crypto,
+ more guarantees of isolation between different things on the card,
+ various additional cryptographic routines compared to classic SIM cards,
+ and all the other bits are really the same. So the electrical interface is identical to a SIM card,
+ even though it might be physically packaged in a different package, but it's the same protocol, same transport protocol.
+ You can actually purchase also EUICCs in a plastic card form factor.
+ You can plug them into a device that doesn't have an EUICC built in or doesn't have an EUICC with the features that you want or something like that.
+ So this is really just a packaging aspect.
+ Each EUICC is identified by what's called an EID. That's the EUICC identifier, unsurprisingly.
+ So that's the unique identifier of the EUICC. That is different from the ICC ID,
+ which was the unique identifier of a traditional SIM card or used SIM card.
+ And since everything is virtualized, the ICC ID of a former physical SIM card now becomes part of the profile package.
+ So every profile has its own ICC ID, since it's a virtualized card.
+ So we need a new unique identifier for the actual physical card, which is the EID in this context.
+ So the other thing to always keep in mind when talking about eSIM stuff is that there are three different flavors of eSIMs.
+ There is the machine-to-machine eSIM, there is the consumer eSIM, and now there is, since this year, at least specification-wise,
+ I don't think anyone has it in the market yet, the so-called IoTs.
+ Now, of course, the first question that every nerd asks me, "Well, where's the difference between M2M and IoT?
+ Is IoT not just the new acronym for M2M?" Yeah.
+ They could just also have called them the red, blue, and the green card.
+ Those names are just some random marketing terms.
+ Just, you know, there's three different systems with different properties and different aspects and so on,
+ which we will look into now in the remainder of the talk.
+ Just keep in mind those are different, and they're not interchangeable, and they're not compatible with each other.
+ So this is different systems.
+ They share a lot of technology, but they're intentionally different.
+ So the first eSIM standard that was specified is the M2M model, the machine-to-machine SIM,
+ because that was apparently the driving force early on to have some kind of massive fleet of devices out there somewhere
+ that remotely the owner of those devices can provision new profiles and can switch between operators
+ without having to replace physical cards, which makes a lot of sense, of course, from the point of the owner of those devices.
+ So in the machine-to-machine model, the user interaction of the end device, the modem or the phone or whatever,
+ is not desired or even possible because either there may not be a human user in front of the device
+ or the device may not have a user interface at all.
+ So it's some, you know, whatever, you say card tracking device or some whatever machine-to-machine thing.
+ Now, it uses a server-driven push model to provision and manage profiles.
+ So the initiation of deploying new profiles on the card comes from the backend side, from the owner of those devices.
+ Basically, they decide they want to switch mobile operators and install a new eSIM profile into it.
+ So that's a push model coming from the backend side.
+ The actual download happens over what's called the BIP, the Bearer Independent Protocol,
+ which is something that exists also for, I think, well, 25 years or so.
+ It's a way how on-card entities, being Java applets or the SIM card itself or parts on the SIM card,
+ can communicate with something typically called the OTA platform or the over-the-air platform at an operator.
+ So it's a channel between some code on the SIM card and some code at the operator that is transparent
+ and where those two pieces of code can exchange data, whatever they want.
+ And this is also used in this context. All the management is remote.
+ And since all the management is remote, the EUICC must also contain a provisioning profile,
+ meaning an initial profile, SIM profile, that's on the EUICC so that it can log onto some random cellular network
+ to then discover, oh, another profile needs to be pushed to me.
+ Without that provisioning profile, you have a chicken-and-egg situation.
+ That's different from the consumer model and other models.
+ So the elements, I mean, yeah, this diagram is probably hard to read here on the projector.
+ We have a couple of network elements here. We have the EUICC in the device.
+ We have the EUM, that's the EUICC manufacturer, so the company that produces the EUICCs.
+ We have the CI, the certificate infrastructure. We have the SMSR, the secure router.
+ And we have the SMDP, the acronyms. We will get to that in actually two slides, I think.
+ So, yeah, the data preparation, my bad, sorry.
+ So the SMDP is sort of the heart of the backend infrastructure of all of the three eSIM flavors that exist out there.
+ So data preparation in this context basically means putting together this eSIM profile from various different data sources,
+ signing it properly, delivering it properly to the EUICC and so on.
+ So it's the preparing, storing and protecting those SIM profiles and downloading those into the EUICCs that are somewhere in the field.
+ We have an additional component, the SMSR, which only exists in the machine-to-machine eSIM sphere.
+ SR is for secure routing. It's a bit of a sort of, let's say, a one-to-one relationship between the EUICC and an SMSR.
+ So an SMSR is some backend software thing running somewhere at some operator in the cloud or wherever.
+ And the EUICC is the chip that's in the phone.
+ And when the EUICC gets produced, there is a key material that ties it to one specific SMSR on the backend side.
+ So those are owned by the same entity or at least initially.
+ And SMDPs, there can be many. There can be many providers that operate SMDPs and that have SIM profiles and there's like a market and competition and so on.
+ But the EUICC and the SMSR are tied together.
+ And that's sort of the representation of the EUICC somewhere on the backend side.
+ The association is created by the manufacturer.
+ According to the spec, it's possible to replace it and move to a different SMSR operator.
+ But somehow the business and the commercial side of the technology don't really enable that to the extent that the specification authors would have envisioned.
+ So you again have a lock-in situation, right?
+ Previously, you were locked into the cellular operator of the physical card you put into your remote IoT or M2M device.
+ And now you're locked to an SMSR operator without whom you cannot deploy new SIM profiles to your cards.
+ So you've given control basically from one entity that you have no control over to another entity that you have no control over.
+ So it doesn't really solve the problem of enabling the owner of a fleet of M2M devices to actually do whatever they want remotely on their devices and switch operators as they please.
+ So this is an overview slide of the larger process.
+ So we have the mobile network operator on the left hand side that provides a profile description, meaning all this contents of the file system and whatever or not, to the SMDP operator.
+ The DP again is the data preparation, the core.
+ So there's many SMDP operators. I think it's like 20 or 30 even.
+ There's a list of GSMA accredited as a competition in the market.
+ And then they create first what's called an un-personalized profile.
+ And then there's additional personalization data that's also something that exists in classic SIM cards.
+ The personalization data is then basically the per subscriber unique data, right?
+ There's data that's shared across all the subscribers like the configuration which roaming networks and what not.
+ That's the identical on all the cards or SIM profiles.
+ But then there is card individual data like your IMSE, MSISD and all these kinds of things, ICC ID.
+ And that then gets part of that in the personalization process.
+ And then you end up with a personalized profile.
+ And then that profile gets encrypted and signed.
+ And then you have a protected profile.
+ And the protected profile then is downloaded onto the EU ICC through the SMSR.
+ So the SMSR is the gatekeeper, the proxy, the representation of the EU ICC.
+ And you must go through the SMSR.
+ And again, the entity who controls the SMSR controls what you do with your EU ICCs.
+ So, okay, that's the machine to machine model.
+ Now, for most of you guys probably more exciting, the consumer model, what you actually have on your smart devices,
+ is different where we have a pull model.
+ And not a push model from some backend, but we have a pull model where the user does something on the user interface
+ in front of their devices.
+ And that triggers the process of then downloading and installing and activating a new profile on the device.
+ The profile download is actually specified to use TCP/IP, not just BIP.
+ BIP is just a stream of bytes.
+ It could be any protocol inside, but in the consumer it's actually TCP/IP that is used in this context.
+ It introduces another new element, the SMDS.
+ There's no SMSR.
+ The DS is the discovery service.
+ And also you have something called an LPA, the local profile assistant.
+ Now, the local profile assistant is a piece of code that typically runs on your smart phone,
+ which provides you with some user interface and which then talks to the eSIM backend universe
+ somewhere out there in some data center.
+ And on the other hand, it talks to your EU ICC inside the device.
+ So it's some software, some app that runs onto your device,
+ either as part of iOS or Android or whatever the flavor of operating system is that you're using.
+ Now, the diagram looks slightly different, as you can see here.
+ We have no SMSR, so the SMDP can talk directly to the LPA,
+ which is the local profile assistant in your device,
+ and that talks to the EU ICC, to the chip card or the physical chip, not a card necessarily, inside your device.
+ And you have all kinds of other interfaces and whatnot.
+ I'm not going into all the details here. That would go too far.
+ Now, the local profile assistant, I mentioned is software on your device.
+ Now, there's also an evolution of that code, and now that's like the LPA on the device is the LPAD,
+ the local profile assistant on a device.
+ Now, we also have an LPAE, the local profile assistant on the EU ICC.
+ So since the EU ICC itself is a smart card with an operating system and software and all kinds of things,
+ you can actually move the local profile assistant completely into the EU ICC,
+ and then you have an embedded local profile assistant,
+ and that is something you can use in a legacy device that does not have a local profile assistant on the device,
+ but it's inside the EU ICC.
+ So you can use a legacy device that's not eSIM enabled with an EU ICC that has an LPAE embedded in it.
+ That's sort of one of the use cases of that.
+ The standard case, though, is the LPAD in the consumer sphere.
+ So we have the SMDP+.
+ I noticed, well, you noticed too, I hope, in the M2M model we had the SMDP,
+ and now we have the SMDP+, because it does something more than the SMDP did in the machine-to-machine model.
+ So it's the enhanced data preparation.
+ It does basically all of the things that the SMDP did, all this profile, you know,
+ profile personalization, profile protection, and all that stuff,
+ but it also has some additional features in there.
+ Now, again, going through the steps of what the SMDP is doing, or the SMDP+ in this case,
+ we first generate the profile package, that's the UPP, the un-personalized package.
+ Then we have the PPP, the protected profile,
+ and then it gets bound, the binding, to one specific EU ICC,
+ so it gets cryptographically assigned to that single EU ICC.
+ We will get to the PKI infrastructure that's behind that in a second.
+ It stores that profile as well until it is delivered to the EU ICC.
+ It takes also care of the delivery into the EU ICC, and also some other bits,
+ which I skip in considering the timing issues in this talk.
+ So we also have the Discovery Service, and the Discovery Service is something like a,
+ I can say a notification delivery system, because as I said,
+ all of the things that I've been talking about are initiated by the user.
+ So the user does something on their smartphone, and it triggers something,
+ and it goes to talk to some backend.
+ But maybe the backend doesn't really have the data yet that it's asking for, or something like that.
+ So maybe the eSIM profile is not ready yet, due to overload or whatnot, or what kind of situations,
+ and in this case, the SMDP+ can basically register at the SMDS
+ that there is something pending, some operation, some, I want to notify these cards,
+ these EU ICCs, and the LPA in the device is then polling regularly the SMDS.
+ Well, do you have some kind of notifications for me, yes or no?
+ And if yes, then inside the notification, it will know which SMDP+ has some pending operation,
+ and then the LPA-D will go to that SMDP+ and grab whatever is there for this EU ICC.
+ So it's some kind of, yeah, you could think of a poor man's SMSC or something like that.
+ So we have the security domains. I touched that very briefly initially when we talked about the EU ICC.
+ So we have the security domain of the certificate infrastructure that's all behind this.
+ That's sort of the root security domain on the card, on the EU ICC.
+ Then we have the ISDR that represents the SMSR, the secure router, inside the EU ICC,
+ and we have the ISDP. That's then for each of the providers, for each of the mobile operators
+ of which you install the EU eSIM profile, each of those eSIM profiles has an issue
+ or security domain of the provider.
+ And there can be multiple such issues of security, multiple eSIM profiles, each of those has an ISDP,
+ and each of those could point to a different SMDP, so a different backend server
+ who has been creating these eSIM profiles for that card.
+ Now the actual delivery from the backend side to the card goes through several tunnels,
+ which is illustrated in this diagram.
+ Roughly, let's say there's an outer tunnel that utilizes the existing encrypted over-the-air protocols
+ that exist for classic SIM cards and eSIM cards, and the least common denominator
+ for transporting this over is actually SMS transport, believe it or not.
+ And then if devices have further capabilities, and for eSIM they should,
+ there's other protocols like CATTP or HTTPS in modern implementations,
+ and yeah, so that's sort of the outer transport channel.
+ And then inside there we have an additional encrypted transport channel that's based on SCP-03.
+ If anyone has ever done work with Java cards, they will know SCP-03 as the secure protocol
+ how external programs interface with Java applets and Java cards.
+ If HTTPS is used as the protocol to deliver, it's TLS version 1.2 with pre-shared keys
+ and using the algorithm specified there, so it's a fixed set of ciphers and a fixed TLS version.
+ Now any people doing stuff with TLS will be like, "Hmm, this is strange."
+ But think about, well, if you actually implement this inside the EU ICC,
+ you're talking a very small microcontroller with constrained resources,
+ so you maybe cannot do public key cryptography with X.509 and RSA and whatnot,
+ but you go to pre-shared key and sort of try your best given the constraints you are.
+ So this is a diagram of the certificate change and the security relationships between the different elements.
+ I'm not going to walk through the diagram, which is probably impossible to read anyway.
+ So basically there is one route of trust operated by the GSMA,
+ the GSMA being the members club of the public operators of cell phone networks,
+ and they have a root certificate, or somebody has that on their behalf,
+ and this certificate is used to sign all the different elements in this universe.
+ So the root certificate is used to sign certificates for the EU ICC manufacturers,
+ so they can sign per EU ICC certificates on each EU ICC,
+ and then also the root certificate of the GSMA is used to sign certificates of approved SMDP pluses and SMDSs and all these network elements.
+ So all of them have to have certificates derived from the same single route of trust operated by the GSMA,
+ and in order to get access to that I think I have some slides, compliance security, exactly.
+ So the EU ICCs, there's a common protection profile on EAL 4 plus that needs to be certified for the EU ICC,
+ then you have certifications for the production environment, the process security,
+ so there is different, yeah, the SAS UP for the EU ICC personalization that's on the EU ICC side,
+ there is the SAS SM for the subscription management platform, so all the backend infrastructure,
+ the software must be certified, the hosting must be certified, the business processes must be certified,
+ and of course, I mean, I don't know, but I guess it costs a shitload of money to have any of these things certified,
+ I mean, given the complexity of these systems.
+ Interestingly, AWS now has a GSMA accredited hosting or cloud product,
+ so basically if you have a GSMA certified software, you can now run it in a GSMA certified cloud environment by AWS if you want that.
+ So in this case, you can afford not to have your data center certified, but you know, Amazon is doing that for you.
+ Yeah, then also there's functional compliance testing, so all of these software elements actually need to be tested
+ and also certified again by GSMA approved scheme that they have delegated to some entities that do this certification,
+ and then of course, all these manufacturers and so on all need to be accredited, and it's all enforced via this PKI.
+ Basically, if you do not comply with any of those rules, you do not get a certificate or your certificate gets revoked or something like that,
+ and then you cannot participate in this club anymore.
+ And of course, you need to be a GSMA member as far as I know as well in addition to all of that.
+ So, okay, a lot of talk about a lot of things.
+ Now let's look a bit at the procedures.
+ So we now know there are different elements.
+ There's sort of these SM things in the backend, and we have the EUICC in the device and the local profile assistant in the device,
+ and now each of these, they talk to each other, and there's a couple of different things that they talk to each other.
+ The first group of things is remote provisioning, meaning operations called profile download initiation,
+ which is a common mutual authentication profile download installation, sort of self-explanatory,
+ and then there are so-called local profile management operations about enabling and disabling a profile, listing the profiles on an EUICC.
+ You can even set nicknames, you know, can give them cute names, your profiles on the card,
+ and there is local EUICC management such as reading the EID from the device,
+ because if the local profile assistant, the LPA, wants to talk to the backend, of course it needs to tell the backend which EUICC is actually making the request,
+ as memory, that stuff, and so on and so on.
+ So let's look at a couple of common operations.
+ So this is the first step. If you as a consumer are getting an eSIM,
+ that's the first step that's happening, is something called the download initiation,
+ and it starts by some kind of contractual relationship between you and the mobile network operator that is issuing this eSIM to you.
+ That means billing information, whatever is exchanged,
+ and then the operator goes through a backend interface, so the so-called ES2+ interface,
+ and talks to the SMDP+ operator, which most often is a separate company that's providing it as a service, it's not your mobile operator.
+ And the SMDP+ then does some stuff, generates additional identifiers, and so on,
+ and it generates, most importantly also, the code that you will use to actually then install the activation code,
+ or the most often displayed as a QR code, but actually it's just a string that contains the domain name of the SMDP+ plus some token
+ that sort of identifies which eSIM profile we're talking about here in this operation.
+ So that's a pure, it starts with a business operation between you and the mobile network operator,
+ it continues with some backend operation to the SMDP+ provider,
+ and nothing has actually happened by the end of the concluding that other than you being billed.
+ Now the next step is the download installation phase, and that's, I know it's small and so on,
+ but it's really just a very high level overview of what's happening there.
+ We have elements, we have the operator that's the mobile network operator that's selling you a SIM subscription,
+ we have the SMDP+ operator, the guy who operates the eSIM backend,
+ we have the LPAD, that's again your local profile assistant and the device, and we have the EUICC.
+ And now there's some talking going on, so the LPAD needs to query the EUICC,
+ like what is your EID and what's the default SMDP+ address, and so on and so on.
+ And then there is one line here called just, well, refer to common mutual authentication procedures,
+ actions, such and such, and that expands into a diagram that's like three times the size of this,
+ which does the mutual authentication between the EUICC and the SMDP+.
+ So at the end of this mutual authentication process, by facilitating all these PKI X509 certificates in this entire chain,
+ the EUICC knows it's talking to a GSMA accredited and approved SMDP+,
+ and the SMDP+ knows it is talking to an EUICC that contains a profile that has been issued by an EUICC manufacturer
+ who has received a certificate from the GSMI public key infrastructure.
+ So basically they both know they can trust each other because they're part of the same chain of trust.
+ And from that point onward then, the actual profile building and so on gets started.
+ It goes on for some time, and then we come to a process called the profile installation,
+ where the LPAD and the EUICC exchange a number of commands, so-called APDUs, that's smart card packets,
+ basically communication packets that go back and forth.
+ And when all of this has happened, at some point we come to a profile that has been successfully installed on the EUICC.
+ Now, a newly installed profile is by definition explicitly not activated.
+ It's downloaded and installed, but it's not active.
+ The act of activation is something you have to do explicitly by using a local profile management operation
+ between your LPAD on your device and the EUICC.
+ And the next step is the enabled profile device, where really it's only the end user using the LUI,
+ the local user interface, doing some end user interactions, the thing that end users do.
+ And then we have the EUICC and the device baseband.
+ Now, where does the device baseband come into this?
+ If you switch your SIM profile, the baseband processor that handles all the cellular protocol stuff with the network,
+ it needs to invalidate all the information it may have ever read from the SIM before,
+ including the IMZ and everything else, because your SIM has completely changed now.
+ It basically needs to invalidate all that, and that happens by a so-called refresh command.
+ So during this process it's basically determined whether refresh is needed.
+ In most cases, yes.
+ And if a refresh is needed, the EUICC, using something called proactive SIM,
+ which inverts the direction of the SIM communication,
+ because a SIM card can normally not initiate communication to the baseband.
+ It's only the other way around.
+ So there's a piggyback mechanism, how it can tell basically the baseband,
+ hey, by the way, all the information you think you knew about the SIM card is now invalid.
+ You need to basically start from scratch.
+ And it comes, restarts, and starts to read all the information from the SIM card,
+ and it determines it now is a new IMZ, and it needs to roam to a different network,
+ and it does the network registration, and so on and so on.
+ So that's what's happening once you enable a new profile in the card.
+ Now, that is the consumer model.
+ Now let's get to the exciting new buzzword, the IoT model.
+ Now, machine-to-machine consumers and now IoT.
+ Now, the IoT model has been developed mostly to overcome problems
+ in the machine-to-machine eSIM model,
+ where I already hinted this, there's the problem of sort of the business side
+ and the legal side not really being able, the commercial side not being able to agree
+ on transferring sort of the SMSR from one SMSR operator to another
+ in the machine-to-machine case.
+ And now they created something which I think is actually really nice.
+ I'm rather happy with how it worked out.
+ So we take a lot from the consumer eSIM.
+ So the IoT eSIM has much more in common with the consumer eSIM
+ than with the machine-to-machine eSIM, which is sort of paradoxical if you think about it,
+ but it is the way, this is the way.
+ And it's sort of like a consumer eSIM that's remote controlled.
+ So instead of having this completely separate scheme with the SMSR
+ and whatever kind of operations and the push model,
+ what we do is we use the consumer model,
+ but instead of a local user entering an activation code,
+ we sort of have a remote user that injects the activation code
+ so it can do the thing to activate a new eSIM profile.
+ And that's nice in a way that we do away with this dependency on one entity
+ that has the control over this EU ICC,
+ and we get to the whatever, 30 or so entities that compete
+ which is slightly better than one entity.
+ And the way how they do it is they take the LPA,
+ so the local profile assistant that's running in your smartphone,
+ and they split that in half.
+ And the upper half of the LPA becomes the EIM, the EU ICC Identity Manager,
+ which is yet another piece of server software running somewhere in a data center.
+ And the lower part of it becomes the IPA.
+ It's not a beer unfortunately, it's the IoT profile assistant I think.
+ And the IPA is sort of a user interface less LPA
+ introducing an interface to the EIM, which is the server side infrastructure,
+ which then does the same thing as the user would have done,
+ such as sending an activation code to install a new eSIM profile in there.
+ So the goal I set was to work around these problems with SMSR migration and machine to machine.
+ So it turns out that IoT devices occasionally tend to be even smaller
+ in terms of CPU resources on their application processor
+ than the machine to machine devices in the past.
+ So it might be overkill to require that they actually implement a full blown HTTP and TLS stack
+ that might be difficult in some environments.
+ What they did is they worked this new interface between the IPA and the EIM,
+ the eSIM IoT Remote Manager, called ESIPA, that interface.
+ They designed this in a way that it can be spoken over.
+ First of all, there's two different encodings.
+ There's JSON encoding for high powered devices that can handle textual representation,
+ there's an ASN1 representation for low powered devices that need binary encoding formats,
+ and each of those encodings can be transported either over HTTPS or over CoAP,
+ which is an IoT related protocol for resource constrained devices with Datagram TLS,
+ which is simpler than the TCP based TLS as we know it in HTTPS.
+ You can even implement a completely custom transport if you want to,
+ because as an owner of a fleet of I don't know how many IoT devices out there,
+ you can of course put some code as IPA on your device and some other code as EIM in your backend
+ and they can talk about whatever protocol they want,
+ just as long as they can encapsulate all the operations and whatever that is needed.
+ Of course you won't be able to interoperate with other devices,
+ but technically it's possible in the spec even explicitly says,
+ "Yeah, if that's what you want to do, you can do it."
+ So, yeah, it can be remotely triggered.
+ So basically the customer of such an IoT subscription,
+ so you buy 100,000 IoT eSIM profiles and as a customer you would operate your own EIM
+ or you would contract some party, a third party that is neither your operator nor the EUICC manufacturer,
+ a third party that really just works for you to operate that EIM or your operator in-house.
+ And through this EIM you can remotely install whatever profiles you want on your IoT fleet of devices
+ and nobody else can basically tell you not to do that other than the GSMA,
+ but that's not their role.
+ So, yeah, that's sort of what's new in the IoT model.
+ Now, last part, just a couple of slides about eSIMs versus private networks,
+ which is a topic that's also relevant to here at the CCC because this private seller network operated here.
+ Now, the entire GSMA eSIM universe has been built around a couple of assumptions,
+ which I think were even wrong back then and they were even wrong right now.
+ So, well, a central root of trust, okay, I mean, if you're a GSMA, of course that's what you want, right?
+ I mean, you want to be the root of trust, that's sort of understandable.
+ GSMA members or accredited parties issuing profiles, okay, I can still understand that,
+ but then there is, for example, the requirement that you need public Internet access
+ to reach all of these SMDP, SMSR, SMDS devices, which, yeah, well, I have this private network of whatever.
+ I don't want those devices to talk to the public Internet,
+ but in order to install new eSIM profile, they now need Internet access.
+ Yeah, not the smartest idea.
+ And then also the OTA mechanisms, they all require an initial trigger of SMS.
+ So, in your private network where maybe you have data-only devices and you have no use for SMS or voice calls
+ and you would now have no technical reason to deploy that technology,
+ you now need to deploy an SMS service center just so you can trigger the HTTPS connection activation,
+ so you can download eSIM profiles over public Internet access from devices that you never wanted to have public Internet access before.
+ So, yeah, well, so in private networks, you know, and I'm talking about, you know, the event networks like here,
+ or also campus networks, let's say, at a car manufacturer or whatnot, that's not really what they want in the end.
+ Yeah, thanks. I'm coming to the end here.
+ Yeah, so, yeah, you might not be a GSMA member, your network might not be public,
+ you might not want public Internet access, and you might not want to have to deal with legacy SMS.
+ So, yeah, there is sort of a disconnect between what's happening in, you know, the cellular world and in the eSIM world to some extent.
+ Now, what you can do is basically give two options.
+ Either you are part of this GSMA world, and that means you have to comply with all those requirements and so on,
+ and your profiles are over the public Internet, and actually you're working in a system that's meant for public networks,
+ but actually you do use them in a private network because you have no other way,
+ or you theoretically, I don't think anyone does that, at least not yet, you would operate your alternative own route of trust,
+ like CA cert was created to sort of as an alternative to commercial CA's,
+ where then you would run your own SMTPs, SMSRs, and all that infrastructure.
+ The problem is then you cannot work with a normal consumer device because the EUICC in there has a certificate from the route of trust of GSMA,
+ and that would of course not accept any of the certificates of your own CA.
+ So that can only work in a situation where you produce your own devices and put EUICCs on those devices,
+ or like in a plastic form factory in a SIM slot that have certificates derived from your own PKI in there, right?
+ So that's sort of, yeah, both choices are rather bad.
+ So here at the camp the solution is obviously go for the first part because people come here with normal consumer devices,
+ so this time is the first time that the GSM team has some eSIMs available, if you ask them,
+ this is a limited supply because it's of course much easier to buy physical SIM cards than to buy a blob of data,
+ it's of course in much more limited supply than physical cards.
+ And the problem is, well, of course you have to do this through some service provider,
+ and it's all done by the service provider, you can't run off all of that, you can't run it on premises,
+ you can't control what's happening, it's basically all out of your hands, and that's sort of the negative part of it.
+ And it also means that this service provider then knows of course the EID of all the people who have joined this camp here,
+ and if you buy a physical card here nobody knows except maybe some of the people here,
+ but at least nobody off site and not some company somewhere.
+ So, yeah, I forgot, one more slide.
+ So me being an open source guy, what can we do with open source in this universe?
+ And the answer is, well, technically everything, but then how do we get all of this accredited and approved and whatnot,
+ and authorized so it can be used in production environments?
+ So all of the specs are public, you can implement all of that, but you can't really use it with consumer devices
+ because your software won't get the GSMA approval, and your hosting at home won't get GSMA approval,
+ and so yeah, sort of stuck there.
+ Now in the IoT eSIM, luckily there are two components which do not require GSMA certification,
+ which is the IPA, the local software running on the device, and also the EIM, the EICC identity manager,
+ which is the part that you as an operator of a fleet of IoT devices want under your control.
+ So there's some chance of at least having free and open source implementations there.
+ And for the LPA or IPA, Google actually released the one that's used in Chrome OS as open source software,
+ so if anyone wants to look at how this is done, you can do that and port that to a general,
+ you can buy an EICC in a normal form factor, plug that into your laptop,
+ and then try to run that local profile assistance from Chrome OS to get a feel of what's happening there,
+ what does the protocol messages look like, and so on. That's actually possible.
+ Okay, and with that we come to further reading and the end of file,
+ and we hopefully still have a few minutes for questions and hopefully some answers as well.
+ Please raise your hand as a signal angel, and yeah, thanks.
+ [Applause]
+ Yeah, so we...
+ So we have decided to extend Q&A if there are questions.
+ We are extending Q&A, so hopefully there will be enough time for questions.
+ Yeah, please line up here with the gentleman in the shirt over here, the violet shirt.
+ Yeah, blue shirt.
+ Yeah, thank you for the talk.
+ So I have a question. So I have a phone that can do eSIM, and it has two SIM slots,
+ so I can install ten SIM cards to my phone, but I can only activate two of them, so in whatever combination.
+ What is the reason for this?
+ Well, that is a general issue with cellular networks and how they work in a sense that
+ the entire spec and everything is designed in a way that there's one subscriber using one modem being attached to one network,
+ and if you think of it physically, how it works, different operators get different spectrum,
+ and your modem needs to tune to one particular frequency, right, and it can only be at any given point in time on that one frequency.
+ Now, if you have a dual SIM phone, that usually means you have also a dual baseband phone, at least these days,
+ which means you basically have two complete cellular modems in there,
+ and they can be on two channels of two operators or two technologies and so on.
+ Thank you for talk. One thing I didn't get is you've succeeded in doing eSIM here,
+ which means that you got through a lot of hoops, but what is the limiting factor for the eSIMs in the camp?
+ No, I mean, first of all, I had no involvement with the eSIM here at the camp, just to be clear.
+ As in the GSM team, I don't know what they did and whom they talked to and whatnot,
+ but I guess it's basically those limited number, I think it's about 350 or something like that,
+ they got for free from some company and that's the quantity they got for free.
+ I guess that's sort of the...
+ They rely on the company that's generated...
+ Yes, of course. There's no other way you can do it with a general consumer device that has the GSM able to trust that you can't do anything else.
+ Hello, if I were to route my phone and have control of the operating system, would that solve the problem with the certificate?
+ No, it does not, because all of this happens inside the EU ICC itself.
+ So there is no reason... like you can do whatever you want on the phone, on the baseband, you can route it, you can do whatever you want,
+ but in the end, let's say the secure connection is always between...
+ encrypted connection is always between some code inside your SIM card and some code somewhere in the cloud.
+ So the goal here obviously is to just get some numbers over the year into your EU ICC.
+ In your professional opinion, if I may say so, was there any way that the protocol suit could have been made simpler without compromising usability or security?
+ Yeah, I don't really know, to be honest.
+ It's not really my... I've never designed any of these systems.
+ I just look at them and think about them and work with them.
+ So yeah, I don't really know.
+ As usual, when you have some kind of specification group, there's different people with different interests.
+ Some of them, well, a very small amount of them being technically, and all the other interests are commercial, and then they clash,
+ and then everybody wants to get their pattern in the standard and whatnot, and then you end up with something horribly complex, you know, designed by a committee.
+ Thanks for the talk.
+ If I wanted to have my own commercial device, like a consumer device, and connect it to my own network,
+ and I wanted to put an eSIM on there, what hoops... So I understand that I would need to have that signed by the GSMA.
+ What hoops would I have to jump through to get that done, assuming that I want to have my own set of parameters that I put in the unpersonalized profile and the personalized profile?
+ Well, basically you need to find an SMDP+ operator with whom you enter in a commercial arrangement,
+ so you can give the profile data to them and they would create the protected profile for you assigned in this chain of trust and so on.
+ Yeah, and I don't know the commercial terms and so on.
+ If you want a list of those companies, there's a GSMA website that lists all of these accredited SMDP+ operators.
+ Yeah, but I guess, you know, mostly they would be interested, like, if you want tens of thousands or hundreds of thousands, but not fewer than that.
+ So that's sort of a bit of a problem there.
+ Hey, thank you for the great talk.
+ On the M2M eSIM model, what would happen if the SMSR provider were to go bankrupt?
+ It's probably a question of the escrow language in your commercial contract with that provider.
+ I don't know whether there's any... I'm not... like, that's more, I say, a business process kind of thing.
+ It's not really... I'm looking at the technical specs here.
+ It might be that they have foreseen this and there is some kind of part of the eSIM specs that cover those business aspects,
+ but I'm not aware of, like, any requirement there.
+ Hi, thanks for the talk.
+ I think early on you mentioned the possibility of virtualizing the EU ICC within the general processor.
+ Does this perhaps hint at the possibility of an EU ICC where multiple EU ICCs could be run perhaps with different routes of trust?
+ Yes, potentially.
+ Though it would mean that, of course, you would have to be able to execute code in the context of wherever this EU ICC,
+ if you want to call it like that. I think it's called an EU ICC then or something like that.
+ I think I've heard that term in the industry.
+ Yeah, you would have to execute it with that level of trust and I'm not sure in which kind of secure enclave Voodoo in those processes they're trying to do that.
+ So, also doesn't look like a very easy path.
+ So, speaking of secure enclaves, if I understand correctly, any profile could be installed in any EU ICC,
+ which means that there is a single key extraction standing between us and accessing all the secrets of all the possible EU ICC devices.
+ So, if we manage to extract one set of secrets, then we can create a fake EU ICC that would pass attestation?
+ No, I mean that would be the case if it was a shared secret symmetric cryptography thing.
+ But there's actually a public key. It depends on which specific interface and so on, but in the end,
+ if you get in any kind of PKI, if you get to the private key of the root CA, then the system is owned.
+ But, of course, in any PKI you try to make that as hard as possible.
+ If you just break the key of one particular device, you never would be that device, but not the overall system, right?
+ Yes, but I could install another eSIM profile in that same device and extract the keys from that eSIM profile too.
+ No, you would not, because in order to install an eSIM profile on an EU ICC, you need a certificate of an SMDP+.
+ And not a certificate of an EU ICC, right?
+ So, it's a different tree in the PKI hierarchy and all the code in place.
+ Of course, it makes sure that you cannot use a certificate of an EU ICC and impersonate an SMDP+ or something like that.
+ Okay, maybe next question. Yeah, thanks. We still have time? Okay.
+ Following the idea of PKI hierarchies, I mean, there are a lot of issuing CA's, however, they are probably called involved in here.
+ And this would require revocations. Are they being properly done? Are there such revocation events already happened?
+ And did they arrive at all devices? Can you say anything about that?
+ I did not look into that, sorry. I wish I knew. But yeah, sorry, didn't look at that.
+ In the IoT spec, how do we do the communication between the EIM and the IPA if we don't already have a different profile?
+ Is there like some facility or do we have to flash some initial network contract?
+ You can, well, I think there's different ways how you can do that.
+ Well, first of all, the device could have some other network technology by which you could reach, and there could be anything, right?
+ So assuming you're designing an IoT device and you can at least run some custom software on that IoT device,
+ you can implement whatever protocol you want to talk to whatever part of software you have somewhere else over whatever medium.
+ And then that software basically is a part of your EIM that talks over the public Internet to the SMDP+ and to all of that.
+ So because that is not possibly technically with the earlier E-SIM profiles, but because the way how the IoT was designed,
+ basically you are enabled to be a proxy in there, and the proxy can of course have multiple parties and tunnel over whatever protocol.
+ And it could also be that this other medium is a couple of test points in the factory while you're producing the device.
+ That's also a medium by which you could facilitate that transfer.
+ Okay.
+ All right, I believe that's all of the questions. Once again, thank you LaForge.
+ Yeah, thanks.
+ [Music]

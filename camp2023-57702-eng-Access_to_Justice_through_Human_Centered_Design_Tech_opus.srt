@@ -1,0 +1,1480 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:37,980
+ Hello on day two on CCC Camp 2023.
+
+4
+00:00:37,980 --> 00:00:42,440
+ We are here at Bits and Boymay if I'm not mistaken, yes.
+
+5
+00:00:42,440 --> 00:00:45,400
+ Thank you, thanks for the confirmation.
+
+6
+00:00:45,400 --> 00:00:49,320
+ As you probably know, otherwise you wouldn't be here.
+
+7
+00:00:49,320 --> 00:00:56,120
+ There are services that people are denied or
+
+8
+00:00:56,120 --> 00:01:00,680
+ that are buried behind legal barriers that cost a lot of money,
+
+9
+00:01:00,680 --> 00:01:03,800
+ a lot of time, a lot of effort, and a lot of knowledge, and
+
+10
+00:01:03,800 --> 00:01:07,920
+ language knowledge, and all the other stuff to get behind to.
+
+11
+00:01:07,920 --> 00:01:13,280
+ So here, our next speaker is here to talk about how technology
+
+12
+00:01:13,280 --> 00:01:19,840
+ could address the cost and help these people defend their human rights.
+
+13
+00:01:19,840 --> 00:01:23,240
+ So please welcome with a very warm round of applause for
+
+14
+00:01:23,240 --> 00:01:27,440
+ Access to Justice for Human-Centered Design Tech, Viraj.
+
+15
+00:01:27,440 --> 00:01:32,800
+ >> Hey all, just wanted to say firstly, thank you for coming.
+
+16
+00:01:32,800 --> 00:01:34,320
+ I appreciate it.
+
+17
+00:01:34,320 --> 00:01:37,480
+ This talk is largely gonna be about human rights issues that
+
+18
+00:01:37,480 --> 00:01:41,960
+ I've encountered, human rights issues that I've encountered while working.
+
+19
+00:01:41,960 --> 00:01:44,960
+ And then kind of use technology to address these issues.
+
+20
+00:01:44,960 --> 00:01:46,680
+ If you guys wanna ask questions or
+
+21
+00:01:46,680 --> 00:01:49,880
+ just chat throughout my presentation, feel free to do so.
+
+22
+00:01:49,880 --> 00:01:55,880
+ So I'll- >> [INAUDIBLE]
+
+23
+00:01:55,880 --> 00:01:57,120
+ >> Like this, is this better?
+
+24
+00:01:57,120 --> 00:01:58,440
+ Okay, thank you.
+
+25
+00:01:58,440 --> 00:02:03,040
+ Yeah, so I think the first slide's gonna go through specifically my experience.
+
+26
+00:02:03,040 --> 00:02:06,080
+ But then also, I think the first question to ask for
+
+27
+00:02:06,080 --> 00:02:09,200
+ is whether technology should even have a place.
+
+28
+00:02:09,200 --> 00:02:11,560
+ So on the left is places where I worked and
+
+29
+00:02:11,560 --> 00:02:14,760
+ have seen technology to really help.
+
+30
+00:02:14,760 --> 00:02:17,800
+ I was a refugee lawyer, so I conduct refugee applications.
+
+31
+00:02:17,800 --> 00:02:21,120
+ A lot of it is form filling before you get to the courts.
+
+32
+00:02:21,120 --> 00:02:24,600
+ Police accountability, it's more how do you actually stop police and
+
+33
+00:02:24,600 --> 00:02:27,600
+ then provide accountability during the interaction.
+
+34
+00:02:27,600 --> 00:02:31,480
+ Genocide in Myanmar, we found that a lot of people that in internal displaced camps
+
+35
+00:02:31,480 --> 00:02:34,600
+ would have access to phones, but they didn't have access to any other type of
+
+36
+00:02:34,600 --> 00:02:35,840
+ information.
+
+37
+00:02:35,840 --> 00:02:39,160
+ General legal advice, I'll talk about that more in the next slide.
+
+38
+00:02:39,160 --> 00:02:42,760
+ But where I've really found that technology did not have a role was in
+
+39
+00:02:42,760 --> 00:02:46,720
+ First Nations or indigenous populations where no one has a phone,
+
+40
+00:02:46,720 --> 00:02:50,840
+ you don't have landlines, you don't have access to computers at all.
+
+41
+00:02:50,840 --> 00:02:53,880
+ And they are still trying to be interventions through technology to
+
+42
+00:02:53,880 --> 00:02:58,480
+ address some type of structural problems in remote communities.
+
+43
+00:02:58,480 --> 00:03:05,680
+ So this is one example where I think technology should have a role.
+
+44
+00:03:05,680 --> 00:03:09,960
+ And prototype fund has, they funded one of my projects called my rights.info,
+
+45
+00:03:09,960 --> 00:03:13,040
+ which applies human centered design principles to the European Court of Human
+
+46
+00:03:13,040 --> 00:03:14,120
+ Rights.
+
+47
+00:03:14,120 --> 00:03:19,000
+ And this is the world's largest human rights database in terms of case law.
+
+48
+00:03:19,000 --> 00:03:23,200
+ This court produces the most amount of cases that has ever existed on human
+
+49
+00:03:23,200 --> 00:03:24,280
+ rights.
+
+50
+00:03:24,280 --> 00:03:29,000
+ But its functionality is so flawed that if you filter by English,
+
+51
+00:03:29,000 --> 00:03:32,080
+ you'll get cases that are only available in French.
+
+52
+00:03:32,080 --> 00:03:36,920
+ So as a lawyer, this has, like it first to me sounded funny, but
+
+53
+00:03:36,920 --> 00:03:39,320
+ then it became quite problematic quickly.
+
+54
+00:03:39,320 --> 00:03:44,120
+ So if a refugee comes into my office and then I start looking for
+
+55
+00:03:44,120 --> 00:03:48,440
+ cases that are descriptive of their issues to start advocating for them,
+
+56
+00:03:48,440 --> 00:03:53,040
+ I have no comfort that if I type in their factual description,
+
+57
+00:03:53,040 --> 00:03:56,920
+ that I'll actually see the cases that apply to this person.
+
+58
+00:03:56,920 --> 00:03:58,240
+ There's no comfort at all.
+
+59
+00:03:58,240 --> 00:04:00,200
+ And for me, that's quite scary if it's like,
+
+60
+00:04:00,200 --> 00:04:02,560
+ especially if it's in a human rights situation.
+
+61
+00:04:02,560 --> 00:04:06,640
+ If it's something like tax or commerce, it's a little bit less scary because their
+
+62
+00:04:06,640 --> 00:04:07,880
+ lives literally not at danger.
+
+63
+00:04:07,880 --> 00:04:13,160
+ So this is where I think tech would have a role and should have a role.
+
+64
+00:04:13,160 --> 00:04:19,080
+ So I'll go into some of the project that I worked on,
+
+65
+00:04:19,080 --> 00:04:20,760
+ structural problems that I've seen.
+
+66
+00:04:20,760 --> 00:04:26,440
+ And then how I think technology should be viewed to change human rights issues.
+
+67
+00:04:26,440 --> 00:04:29,400
+ The first one I'd like to talk about is police accountability.
+
+68
+00:04:29,400 --> 00:04:32,520
+ And then this is how my journey in human rights started.
+
+69
+00:04:32,520 --> 00:04:37,400
+ When I was 18, I was arrested without charge, put into cells overnight,
+
+70
+00:04:37,400 --> 00:04:38,720
+ did not know what happened.
+
+71
+00:04:38,720 --> 00:04:41,640
+ I'd been searched multiple times throughout my life.
+
+72
+00:04:41,640 --> 00:04:45,280
+ And then at this point, I was always looking at what could I have done in that
+
+73
+00:04:45,280 --> 00:04:48,800
+ situation, what information should have had at that situation that could have
+
+74
+00:04:48,800 --> 00:04:51,720
+ helped, and then after that violation happened,
+
+75
+00:04:51,720 --> 00:04:54,440
+ how could I obtain some type of remedy?
+
+76
+00:04:54,440 --> 00:04:58,920
+ And then that's kind of what put me into the crack of law, human rights and
+
+77
+00:04:58,920 --> 00:05:03,880
+ tech, because if you, and in that situation, I wasn't able to access lawyers.
+
+78
+00:05:03,880 --> 00:05:04,760
+ I didn't have money.
+
+79
+00:05:04,760 --> 00:05:07,520
+ I didn't have information about, like my family didn't know lawyers.
+
+80
+00:05:07,520 --> 00:05:09,080
+ They didn't know the system, right?
+
+81
+00:05:09,080 --> 00:05:10,800
+ So it's like, can I challenge this?
+
+82
+00:05:10,800 --> 00:05:11,920
+ How should I challenge this?
+
+83
+00:05:11,920 --> 00:05:14,600
+ I knew something bad happened to me, but I felt powerless.
+
+84
+00:05:14,600 --> 00:05:19,360
+ I made an app in New Zealand that basically tells people,
+
+85
+00:05:19,360 --> 00:05:23,160
+ it's not what not to do, which is how the law is framed, right?
+
+86
+00:05:23,160 --> 00:05:24,360
+ Don't commit a crime.
+
+87
+00:05:24,360 --> 00:05:25,360
+ Don't do X.
+
+88
+00:05:25,360 --> 00:05:27,440
+ But it tells people what they can do.
+
+89
+00:05:27,440 --> 00:05:31,400
+ Everything's linked to specific case law where people have,
+
+90
+00:05:31,400 --> 00:05:34,120
+ where people successfully challenge the cops.
+
+91
+00:05:34,120 --> 00:05:38,360
+ You can also see case law where the judge will literally say that police have been
+
+92
+00:05:38,360 --> 00:05:40,840
+ caught to be lying, forging evidence.
+
+93
+00:05:40,840 --> 00:05:45,160
+ And if most of the information that exists about police accountability, again,
+
+94
+00:05:45,160 --> 00:05:49,120
+ is these are your rights, this is what you can do, this is what you can't do.
+
+95
+00:05:49,120 --> 00:05:52,600
+ But I think the narrative really needs to change to be something like the people
+
+96
+00:05:52,600 --> 00:05:56,400
+ that are going to be stopping you are trying to violate your rights.
+
+97
+00:05:56,400 --> 00:05:59,720
+ And in that situation, you have to take proactive action.
+
+98
+00:05:59,720 --> 00:06:03,120
+ So the police accountability app that I made, it records the police, and
+
+99
+00:06:03,120 --> 00:06:06,280
+ then also depending on which factual scenario you're in,
+
+100
+00:06:06,280 --> 00:06:08,560
+ will lead you to a set of information.
+
+101
+00:06:08,560 --> 00:06:10,960
+ So if, are you walking in public?
+
+102
+00:06:10,960 --> 00:06:12,200
+ Are you walking down the street?
+
+103
+00:06:12,200 --> 00:06:14,800
+ So it's kind of like having a lawyer in your pocket.
+
+104
+00:06:14,800 --> 00:06:17,240
+ That if a police officer stops you, you can be like, hey,
+
+105
+00:06:17,240 --> 00:06:18,680
+ I'm not holding anything.
+
+106
+00:06:18,680 --> 00:06:20,520
+ Like, you don't have the right to do this for me.
+
+107
+00:06:20,520 --> 00:06:23,320
+ It tells you what to say, and everything's linked out to the case law.
+
+108
+00:06:24,680 --> 00:06:30,320
+ The second issue that I've had was as a refugee lawyer, you get a lot of
+
+109
+00:06:30,320 --> 00:06:34,920
+ situations where a refugee will come into your office or other client's offices.
+
+110
+00:06:34,920 --> 00:06:39,400
+ And they've suffered political persecution, like grievous bodily harm.
+
+111
+00:06:39,400 --> 00:06:42,040
+ They've seen multiple people dying around them.
+
+112
+00:06:42,040 --> 00:06:46,280
+ But they can't speak English, and they don't know what the legal process is.
+
+113
+00:06:46,280 --> 00:06:50,600
+ When you're working at a not-for-profit legal space,
+
+114
+00:06:50,600 --> 00:06:55,400
+ you have about 20 minutes, I'd say, at maximum with each refugee.
+
+115
+00:06:55,400 --> 00:06:58,640
+ The classic situation that happens is a refugee will come in, and
+
+116
+00:06:58,640 --> 00:07:02,720
+ they immediately start talking about the harm that they've faced.
+
+117
+00:07:02,720 --> 00:07:04,680
+ And that's obvious, right?
+
+118
+00:07:04,680 --> 00:07:10,480
+ But that's not the information a lawyer requires to actually advance their claim.
+
+119
+00:07:10,480 --> 00:07:14,760
+ This literally results in this, like I've seen it happen multitudes of time,
+
+120
+00:07:14,760 --> 00:07:19,200
+ where you'll have to tell the person, hey, stop, we need this information.
+
+121
+00:07:19,200 --> 00:07:21,920
+ People are gonna cry, they're emotional.
+
+122
+00:07:21,920 --> 00:07:24,520
+ And then the questions that you have to ask are,
+
+123
+00:07:24,520 --> 00:07:27,040
+ how many family members do you have in Australia?
+
+124
+00:07:27,040 --> 00:07:29,800
+ And obviously, the future will be like, why?
+
+125
+00:07:29,800 --> 00:07:31,120
+ Why are you asking me this?
+
+126
+00:07:31,120 --> 00:07:32,800
+ This has nothing to do with my harm.
+
+127
+00:07:32,800 --> 00:07:38,400
+ And the majority of time that you spend on these type of humanitarian visa
+
+128
+00:07:38,400 --> 00:07:42,960
+ applications is completely bureaucratic.
+
+129
+00:07:42,960 --> 00:07:48,120
+ There's also an issue that, so that in addition to these interviewing issues,
+
+130
+00:07:48,120 --> 00:07:50,080
+ you have invisible requirements.
+
+131
+00:07:50,080 --> 00:07:53,080
+ So let's say that you, again, the same question.
+
+132
+00:07:53,080 --> 00:07:57,920
+ There's a field that says, do you have family in Australia?
+
+133
+00:07:57,920 --> 00:08:01,960
+ If you are a competent refugee and you can speak English and you have the ability,
+
+134
+00:08:01,960 --> 00:08:05,720
+ let's say you were a lawyer in your home country and you can fill out a form,
+
+135
+00:08:05,720 --> 00:08:08,680
+ you could submit this form and your form would fail.
+
+136
+00:08:08,680 --> 00:08:12,600
+ Because these certain paragraphs have invisible requirements,
+
+137
+00:08:12,600 --> 00:08:15,000
+ which you're only told once you've failed.
+
+138
+00:08:15,000 --> 00:08:18,600
+ So in that same places, do you have family in Australia?
+
+139
+00:08:18,600 --> 00:08:22,160
+ You have to put commas slash slashes and say where they live and
+
+140
+00:08:22,160 --> 00:08:24,640
+ also provide contact information.
+
+141
+00:08:24,640 --> 00:08:27,200
+ And this information's not on that form.
+
+142
+00:08:27,200 --> 00:08:31,720
+ So basically, what I started building was a refugee form filler,
+
+143
+00:08:31,720 --> 00:08:36,280
+ where you can change the question language to any language that you're in.
+
+144
+00:08:36,280 --> 00:08:38,360
+ It also has decision key logic.
+
+145
+00:08:38,360 --> 00:08:41,720
+ That same form, it's called the 861 application form,
+
+146
+00:08:41,720 --> 00:08:44,520
+ asks you for your name eight times, right?
+
+147
+00:08:44,520 --> 00:08:49,000
+ And section three will be like, give out your family information,
+
+148
+00:08:49,000 --> 00:08:52,920
+ even though you would say, no, I have no family in the first question.
+
+149
+00:08:52,920 --> 00:08:56,320
+ So you can use decision key logic to really simplify this process.
+
+150
+00:08:56,320 --> 00:09:00,160
+ But the biggest thing is that if you translate this form to Arabic,
+
+151
+00:09:00,160 --> 00:09:04,680
+ now you have your client who's actually aware of the process that they're going
+
+152
+00:09:04,680 --> 00:09:05,200
+ through.
+
+153
+00:09:05,200 --> 00:09:09,280
+ They know the challenge that you're facing and the problem to solve.
+
+154
+00:09:09,280 --> 00:09:12,120
+ So again, it's like looking at technology, it's not so much like,
+
+155
+00:09:13,640 --> 00:09:15,760
+ we're just gonna make this application easier.
+
+156
+00:09:15,760 --> 00:09:20,080
+ But it's literally about allowing people to empower themselves through the process
+
+157
+00:09:20,080 --> 00:09:21,000
+ that you're engaging in.
+
+158
+00:09:21,000 --> 00:09:26,720
+ And the next project that I've working on is general legal advice,
+
+159
+00:09:26,720 --> 00:09:28,160
+ which I think brings this together.
+
+160
+00:09:28,160 --> 00:09:32,760
+ So prototype funded a project that I'm working on called myrightstoreinfo,
+
+161
+00:09:32,760 --> 00:09:35,240
+ which relates to this database.
+
+162
+00:09:35,240 --> 00:09:41,600
+ Myrightstoreinfo took, the purpose of it was people don't understand the law,
+
+163
+00:09:41,600 --> 00:09:43,000
+ cuz it's complex.
+
+164
+00:09:43,000 --> 00:09:47,840
+ It's hard to access a terrible database that doesn't even work if you imagine
+
+165
+00:09:47,840 --> 00:09:49,680
+ that it works by principle.
+
+166
+00:09:49,680 --> 00:09:53,040
+ And it was how, if you're walking down the street and
+
+167
+00:09:53,040 --> 00:09:58,360
+ a police officer stopped you, or let's say your child was taken away by
+
+168
+00:09:58,360 --> 00:10:02,120
+ social services and you don't know what your rights are.
+
+169
+00:10:02,120 --> 00:10:04,240
+ How do you solve this problem?
+
+170
+00:10:04,240 --> 00:10:07,480
+ And what's the best way of going about this?
+
+171
+00:10:07,480 --> 00:10:11,000
+ And again, it was kind of look from the human center design principle of looking
+
+172
+00:10:11,000 --> 00:10:15,800
+ at the problem and looking up instead of looking down on how to provide information.
+
+173
+00:10:15,800 --> 00:10:20,040
+ So myrightstoreinfo has three different points that you can access this
+
+174
+00:10:20,040 --> 00:10:22,120
+ information for three different audience members.
+
+175
+00:10:22,120 --> 00:10:26,000
+ The first is by filling out a questionnaire that just has binary options,
+
+176
+00:10:26,000 --> 00:10:29,440
+ like did this harm happen to you, yes or no.
+
+177
+00:10:29,440 --> 00:10:33,200
+ At the end of that questionnaire, you'll be presented with the violations that
+
+178
+00:10:33,200 --> 00:10:34,200
+ apply to you.
+
+179
+00:10:34,200 --> 00:10:37,280
+ You can go further and then look at all the cases that apply to you.
+
+180
+00:10:38,960 --> 00:10:41,920
+ Then there's also the second application,
+
+181
+00:10:41,920 --> 00:10:45,960
+ which is looking at law more in terms of a social aspect.
+
+182
+00:10:45,960 --> 00:10:50,800
+ So all the cases in this database have been fed into an infographic.
+
+183
+00:10:50,800 --> 00:10:55,400
+ So if you're a researcher and you wanna see, hey, how did the court
+
+184
+00:10:55,400 --> 00:10:59,600
+ start deciding on, let's say, gay marriage rights?
+
+185
+00:10:59,600 --> 00:11:01,200
+ And at what year did they do this?
+
+186
+00:11:01,200 --> 00:11:04,720
+ And how did they look at that compared to the right to torture?
+
+187
+00:11:04,720 --> 00:11:09,800
+ Now you can choose which articles that you wanna view across a timeframe and
+
+188
+00:11:09,800 --> 00:11:12,080
+ then see what the court is thinking.
+
+189
+00:11:12,080 --> 00:11:16,520
+ And the third one is just, it's an advanced text search feature,
+
+190
+00:11:16,520 --> 00:11:18,320
+ which is like your classic search feature.
+
+191
+00:11:18,320 --> 00:11:22,440
+ But again, something that the QDoc database doesn't do,
+
+192
+00:11:22,440 --> 00:11:24,560
+ is they don't even have a spell check.
+
+193
+00:11:24,560 --> 00:11:27,920
+ And legal names are difficult and law words are difficult.
+
+194
+00:11:27,920 --> 00:11:32,080
+ So I think just introducing a spell check has made a huge improvement in
+
+195
+00:11:32,080 --> 00:11:33,360
+ the lives of lawyers.
+
+196
+00:11:33,360 --> 00:11:36,360
+ So it's kind of just looking at basic access principles,
+
+197
+00:11:36,360 --> 00:11:40,280
+ basic human centered design principles to break down these problems.
+
+198
+00:11:40,280 --> 00:11:46,680
+ So as I was saying, everything is designed with accessibility in mind.
+
+199
+00:11:46,680 --> 00:11:50,880
+ And I think one of the issues that really comes to play is that the average
+
+200
+00:11:50,880 --> 00:11:55,160
+ reading age, I probably shouldn't have talked.
+
+201
+00:11:55,160 --> 00:11:56,720
+ >> You feel really hot?
+
+202
+00:11:56,720 --> 00:11:57,720
+ >> [LAUGH]
+
+203
+00:11:57,720 --> 00:11:59,800
+ >> It's a good place.
+
+204
+00:11:59,800 --> 00:12:03,360
+ >> 23.5 degrees Celsius.
+
+205
+00:12:03,360 --> 00:12:04,200
+ >> Let's go to the lake.
+
+206
+00:12:04,200 --> 00:12:09,800
+ >> Drink enough water and have a great time.
+
+207
+00:12:09,800 --> 00:12:10,760
+ >> You get two more minutes.
+
+208
+00:12:10,760 --> 00:12:11,280
+ >> Two minutes?
+
+209
+00:12:11,280 --> 00:12:14,240
+ >> No, no, you get the dish in two minutes.
+
+210
+00:12:14,240 --> 00:12:17,560
+ >> I just feel bad if some really important information was provided.
+
+211
+00:12:17,560 --> 00:12:18,080
+ Yeah, okay.
+
+212
+00:12:18,080 --> 00:12:20,160
+ [LAUGH]
+
+213
+00:12:20,160 --> 00:12:26,040
+ So the average reading age of the world is the age of a ten year old.
+
+214
+00:12:27,080 --> 00:12:31,200
+ Legal information, I find difficult to understand.
+
+215
+00:12:31,200 --> 00:12:37,080
+ So how do you provide, you can't even achieve a basic accessibility
+
+216
+00:12:37,080 --> 00:12:40,240
+ principle just on the information that you're seeing.
+
+217
+00:12:40,240 --> 00:12:42,800
+ So how do you solve this, right?
+
+218
+00:12:42,800 --> 00:12:47,280
+ It's such a weird obstacle that everyone here is owed human rights, but
+
+219
+00:12:47,280 --> 00:12:51,960
+ I doubt 95% of people even know what that means and
+
+220
+00:12:51,960 --> 00:12:53,800
+ how to actually use your rights.
+
+221
+00:12:53,800 --> 00:12:57,720
+ And it's done by, I think it's done by purpose.
+
+222
+00:12:57,720 --> 00:13:02,920
+ But so this My Rights for Info is also looking at it from not just accessibility,
+
+223
+00:13:02,920 --> 00:13:08,000
+ but people that have accessibility issues also need to be able to access the law.
+
+224
+00:13:08,000 --> 00:13:11,080
+ And most legal information websites don't have this.
+
+225
+00:13:11,080 --> 00:13:13,840
+ So the entire website's built in grayscale,
+
+226
+00:13:13,840 --> 00:13:17,560
+ which allows people with visual disabilities to be able to access the information.
+
+227
+00:13:17,560 --> 00:13:21,320
+ Everything apart from the legal information that's provided is written that
+
+228
+00:13:21,320 --> 00:13:23,320
+ a ten year old can understand this.
+
+229
+00:13:23,320 --> 00:13:26,320
+ Screen readers are utilized, so if you have visual impairments as well,
+
+230
+00:13:26,320 --> 00:13:30,120
+ you can utilize the screen reader to start understanding legal information.
+
+231
+00:13:30,120 --> 00:13:32,080
+ And I think that's also a really big gap,
+
+232
+00:13:32,080 --> 00:13:37,080
+ is targeting invisible populations that have their rights discriminated, but
+
+233
+00:13:37,080 --> 00:13:41,120
+ then also targeting them to actually receive rights-based information that
+
+234
+00:13:41,120 --> 00:13:42,080
+ they can utilize.
+
+235
+00:13:42,080 --> 00:13:47,000
+ And that's the end of the show.
+
+236
+00:13:47,000 --> 00:13:49,520
+ If anyone has questions, feel free to ask.
+
+237
+00:13:49,520 --> 00:13:54,840
+ >> [APPLAUSE]
+
+238
+00:13:54,840 --> 00:13:57,840
+ >> So no need for additional two minutes, awesome.
+
+239
+00:13:57,840 --> 00:14:00,160
+ >> Unless we have very many questions.
+
+240
+00:14:00,160 --> 00:14:01,280
+ Let's start with the first one.
+
+241
+00:14:01,280 --> 00:14:06,920
+ >> Thank you very much, it was a really nice talk.
+
+242
+00:14:06,920 --> 00:14:10,640
+ And I'm really, really happy, so I'm actually part of a project called
+
+243
+00:14:10,640 --> 00:14:13,080
+ Access to Justice, funny enough.
+
+244
+00:14:13,080 --> 00:14:16,320
+ Much smaller scope, so it's kind of German perspective.
+
+245
+00:14:18,200 --> 00:14:24,000
+ And we have two kind of projects, and one is kind of open data for
+
+246
+00:14:24,000 --> 00:14:29,160
+ law and cases and so on, so kind of the third part.
+
+247
+00:14:29,160 --> 00:14:34,840
+ And the second project is on kind of simplifying access for
+
+248
+00:14:34,840 --> 00:14:37,080
+ getting your rights, so kind of form filler.
+
+249
+00:14:37,080 --> 00:14:41,560
+ So it's super nice that you kind of exactly talked about these two projects.
+
+250
+00:14:43,280 --> 00:14:49,240
+ And yeah, I think it's really, really hard to build services that
+
+251
+00:14:49,240 --> 00:14:51,640
+ work for everyone and that do the right thing.
+
+252
+00:14:51,640 --> 00:14:55,800
+ And we're kind of also trying to do the next step of actually sending your,
+
+253
+00:14:55,800 --> 00:14:58,880
+ like filling out your form and actually sending it digitally,
+
+254
+00:14:58,880 --> 00:15:00,400
+ which currently isn't possible in Germany.
+
+255
+00:15:00,400 --> 00:15:01,600
+ As a private person,
+
+256
+00:15:01,600 --> 00:15:06,640
+ you can't send anything into the digital justice system in Germany.
+
+257
+00:15:06,640 --> 00:15:08,000
+ Only lawyers can do this.
+
+258
+00:15:08,000 --> 00:15:12,640
+ This is supposed to come, who knows, like Q1 this year, supposedly.
+
+259
+00:15:12,640 --> 00:15:14,840
+ But postponed.
+
+260
+00:15:14,840 --> 00:15:16,400
+ So yeah, I would love to chat afterwards.
+
+261
+00:15:16,400 --> 00:15:19,640
+ And yeah, accessibility is super important, and we're trying to test this.
+
+262
+00:15:19,640 --> 00:15:24,240
+ And it's really hard, but at least it's really nice that you're doing this and
+
+263
+00:15:24,240 --> 00:15:25,600
+ people are working on this.
+
+264
+00:15:25,600 --> 00:15:29,720
+ >> Yeah, and I should say all the tools that I've built,
+
+265
+00:15:29,720 --> 00:15:31,880
+ I'm still like a practicing lawyer.
+
+266
+00:15:31,880 --> 00:15:37,400
+ And I think, unfortunately, any human rights system that's not radical in
+
+267
+00:15:37,400 --> 00:15:42,360
+ nature has to be conformed to the actual limits of the system.
+
+268
+00:15:42,360 --> 00:15:46,600
+ So most of the tools that I create will help people that will really reduce this
+
+269
+00:15:46,600 --> 00:15:48,800
+ distress of a lawyer, right?
+
+270
+00:15:48,800 --> 00:15:52,640
+ Like tries to take away 80% of their work where they can just focus on
+
+271
+00:15:52,640 --> 00:15:54,160
+ the substantive aspect.
+
+272
+00:15:54,160 --> 00:15:56,880
+ So even if you do have this form filling exercise,
+
+273
+00:15:56,880 --> 00:16:00,200
+ as you've correctly pointed out, you still have to send it to a lawyer.
+
+274
+00:16:00,200 --> 00:16:03,120
+ A lawyer will never believe anyone apart from themselves.
+
+275
+00:16:03,120 --> 00:16:04,960
+ So they'll still check everything.
+
+276
+00:16:04,960 --> 00:16:09,160
+ But if you can make their lives easier, they could focus on more clients per day,
+
+277
+00:16:09,160 --> 00:16:11,120
+ focus on the tougher challenges.
+
+278
+00:16:11,120 --> 00:16:14,160
+ And Australia and New Zealand, where these applications are predominantly made,
+
+279
+00:16:14,160 --> 00:16:16,560
+ apart from my rights for info, unfortunately,
+
+280
+00:16:16,560 --> 00:16:18,560
+ I think a lawyer still has to be in the picture.
+
+281
+00:16:18,560 --> 00:16:21,840
+ >> Next question over here.
+
+282
+00:16:21,840 --> 00:16:24,920
+ >> First of all, thank you so much.
+
+283
+00:16:24,920 --> 00:16:26,720
+ This has been enlightening.
+
+284
+00:16:26,720 --> 00:16:32,200
+ And one thing that I wonder is, in the aspect,
+
+285
+00:16:32,200 --> 00:16:34,160
+ I understand that you are building technology and
+
+286
+00:16:34,160 --> 00:16:37,720
+ that you are working with these people who need aid.
+
+287
+00:16:37,720 --> 00:16:40,200
+ My question is, how do you get to those people?
+
+288
+00:16:40,200 --> 00:16:45,120
+ Because most of the time when they need that help, they don't know where to find it.
+
+289
+00:16:45,120 --> 00:16:48,120
+ And that is something that as hacktivists,
+
+290
+00:16:48,120 --> 00:16:52,440
+ we have all these spaces that we can help, but
+
+291
+00:16:52,440 --> 00:16:55,920
+ there's no way to reach someone that really needs it.
+
+292
+00:16:55,920 --> 00:16:59,680
+ Right now, because we are small, we are not fully funded.
+
+293
+00:16:59,680 --> 00:17:02,560
+ >> Yeah, so this is my personal experience.
+
+294
+00:17:02,560 --> 00:17:06,440
+ I don't know if I can provide advice generally, but I've always worked as a
+
+295
+00:17:06,440 --> 00:17:09,000
+ lawyer and then in activist communities.
+
+296
+00:17:09,000 --> 00:17:10,760
+ And I know the issue that you're talking about.
+
+297
+00:17:10,760 --> 00:17:15,920
+ So the police accountability app that I've made, certain communities in
+
+298
+00:17:15,920 --> 00:17:20,800
+ Australia will see any app as something that they can't trust and rely.
+
+299
+00:17:20,800 --> 00:17:24,440
+ But I was part of Melbourne activist legal support where we go into protests and
+
+300
+00:17:24,440 --> 00:17:27,400
+ then provide legal advice to people that have stopped completely.
+
+301
+00:17:27,400 --> 00:17:30,000
+ I sued the police for a living basically.
+
+302
+00:17:30,000 --> 00:17:33,680
+ So I did have groups where, thank you.
+
+303
+00:17:33,680 --> 00:17:34,960
+ >> [APPLAUSE]
+
+304
+00:17:34,960 --> 00:17:38,040
+ >> I had groups that I could gain trust and
+
+305
+00:17:38,040 --> 00:17:41,160
+ knowledge and I think that's also another big thing with technology.
+
+306
+00:17:41,160 --> 00:17:43,600
+ You have to be invested in that community.
+
+307
+00:17:43,600 --> 00:17:48,320
+ You have to be part of it for that really to have any type of hold and trust.
+
+308
+00:17:48,320 --> 00:17:51,240
+ I don't know if that answers your question, but that's how I went about it.
+
+309
+00:17:51,240 --> 00:17:53,000
+ >> Totally, it's exactly what we do.
+
+310
+00:17:53,000 --> 00:17:54,240
+ >> Can you look into the microphone, please?
+
+311
+00:17:54,240 --> 00:17:54,840
+ >> No, yes.
+
+312
+00:17:54,840 --> 00:17:55,640
+ >> [LAUGH]
+
+313
+00:17:55,640 --> 00:17:57,880
+ >> All right, cool.
+
+314
+00:17:57,880 --> 00:18:02,360
+ Further questions apart from, behind me, sorry.
+
+315
+00:18:02,360 --> 00:18:08,000
+ >> Hi, I was listening to you on live stream and I just rushed here.
+
+316
+00:18:08,000 --> 00:18:09,280
+ >> Thank you. >> Because I didn't want to miss
+
+317
+00:18:09,280 --> 00:18:10,520
+ the question.
+
+318
+00:18:10,520 --> 00:18:12,360
+ But this is not a question actually.
+
+319
+00:18:12,360 --> 00:18:16,120
+ I'm a designer and I was wondering if there is any way we could help you do
+
+320
+00:18:16,120 --> 00:18:20,240
+ these things because I work with accessibility and
+
+321
+00:18:20,240 --> 00:18:25,960
+ all kinds of guidelines related to colors and everything that is there.
+
+322
+00:18:25,960 --> 00:18:29,440
+ And I really like what you're doing and I would love to chat.
+
+323
+00:18:29,440 --> 00:18:30,160
+ That's all.
+
+324
+00:18:30,160 --> 00:18:32,320
+ >> Yeah, 100%, let's talk after, okay.
+
+325
+00:18:32,320 --> 00:18:35,840
+ >> Yeah, right now we have- >> Further questions,
+
+326
+00:18:35,840 --> 00:18:37,320
+ let me check behind my back, nope.
+
+327
+00:18:37,520 --> 00:18:42,600
+ In the audience, someone there who could build a fax interface for
+
+328
+00:18:42,600 --> 00:18:43,560
+ the German government.
+
+329
+00:18:43,560 --> 00:18:46,760
+ >> [LAUGH]
+
+330
+00:18:46,760 --> 00:18:48,480
+ >> Yeah, of course.
+
+331
+00:18:48,480 --> 00:18:50,120
+ Yes, over there, give me a second.
+
+332
+00:18:50,120 --> 00:18:57,920
+ >> And I wanted to ask the question after the last one.
+
+333
+00:18:57,920 --> 00:19:01,520
+ You said that you are very active in the community and
+
+334
+00:19:01,520 --> 00:19:06,720
+ that you talk to people in protests that were mistreated by police.
+
+335
+00:19:06,720 --> 00:19:08,120
+ >> Yeah. >> Is that most of the,
+
+336
+00:19:08,120 --> 00:19:13,440
+ cuz that lets me ask the question, is there anybody else you can reach or
+
+337
+00:19:13,440 --> 00:19:16,760
+ is it mostly just the people directly in a community, directly there?
+
+338
+00:19:16,760 --> 00:19:20,720
+ Are you mostly working with the people that are in your communities or
+
+339
+00:19:20,720 --> 00:19:23,040
+ do you have ways to reach outside of those or
+
+340
+00:19:23,040 --> 00:19:26,840
+ maybe people that don't have any communities?
+
+341
+00:19:26,840 --> 00:19:31,040
+ >> Well, I wouldn't know how to reach people that have no communities.
+
+342
+00:19:31,040 --> 00:19:31,840
+ [LAUGH]
+
+343
+00:19:31,840 --> 00:19:34,400
+ If they have, yeah, I mean, I've never thought about it like that.
+
+344
+00:19:34,400 --> 00:19:36,560
+ Again, I can give you my personal experience.
+
+345
+00:19:36,560 --> 00:19:40,760
+ So most of the police accountability work that I did as a lawyer,
+
+346
+00:19:40,760 --> 00:19:43,360
+ like either working in volunteer organizations or
+
+347
+00:19:43,360 --> 00:19:47,440
+ litigating the police happened in a span of about three to four years.
+
+348
+00:19:47,440 --> 00:19:51,560
+ And in that time, it took me about two to three years to get into the right networks.
+
+349
+00:19:51,560 --> 00:19:56,360
+ And in these networks, let's say I'm working as a strategic litigation lawyer,
+
+350
+00:19:56,360 --> 00:19:58,760
+ you'll be working with a community law center, and
+
+351
+00:19:58,760 --> 00:20:02,400
+ then you'll also be working with a police accountability organization.
+
+352
+00:20:02,400 --> 00:20:06,920
+ Those two organizations will get community members, normally a youth member,
+
+353
+00:20:06,920 --> 00:20:12,520
+ normally someone who's part of that community and has a political space in there.
+
+354
+00:20:12,520 --> 00:20:16,280
+ And then you inform those community members of what you have and
+
+355
+00:20:16,280 --> 00:20:18,600
+ then they can distribute it if they'd like.
+
+356
+00:20:18,600 --> 00:20:22,400
+ But I think if I see most of the downloads that I have for
+
+357
+00:20:22,400 --> 00:20:25,360
+ a lot of the applications I do are global.
+
+358
+00:20:25,360 --> 00:20:28,880
+ So if you type in know your rights into the Play Store,
+
+359
+00:20:28,880 --> 00:20:31,760
+ the police accountability app comes to the top.
+
+360
+00:20:31,760 --> 00:20:33,960
+ But that's just for New Zealand.
+
+361
+00:20:33,960 --> 00:20:36,160
+ So it's kind of like, you're right,
+
+362
+00:20:36,160 --> 00:20:39,280
+ it's like getting to that community is definitely the hardest part.
+
+363
+00:20:39,280 --> 00:20:40,920
+ But again, it's like you have to just be there.
+
+364
+00:20:40,920 --> 00:20:47,360
+ >> All right, and with that, we are at the end of our time.
+
+365
+00:20:47,360 --> 00:20:48,400
+ >> Awesome, thank you. >> Thank you very much.
+
+366
+00:20:48,400 --> 00:20:51,240
+ So please give a very warm round of applause for Las Vilas.
+
+367
+00:20:51,240 --> 00:20:52,080
+ Thank you very much.
+
+368
+00:20:52,080 --> 00:20:52,680
+ >> Thank you.
+
+369
+00:20:52,680 --> 00:20:58,680
+ >> [APPLAUSE]
+
+370
+00:20:58,680 --> 00:21:03,880
+ [MUSIC]
+

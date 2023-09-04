@@ -1,0 +1,283 @@
+ [MUSIC]
+ [MUSIC]
+ >> Thank you all for coming today.
+ This is Erla and we are going to get a fantastic presentation.
+ Put it together for Erla.
+ [APPLAUSE]
+ >> Am I live?
+ Okay.
+ So I'm going to talk about build system failure modes.
+ Like I can't see most of you, but like if there's a build system,
+ you might have used it as a developer,
+ especially in an iterative way that you change some stuff and then you rebuild.
+ And this is all about what can go wrong and how you shouldn't do it
+ and you might be able to fix this.
+ So first question is like what's the topic of the talk?
+ What is a build system?
+ And it's most basic way a build system evaluates rules
+ and consumes inputs, generates outputs,
+ and you can, if you only change some of the inputs,
+ partially evaluate the build and not recompute everything,
+ but only the things that should be recomputed,
+ which necessarily leads us to, okay, make is a build system,
+ CMake is a build system, Ninja is a build system,
+ but Excel in that sense is also a build system.
+ Yeah, you have formulas and inputs, and no one prevents you from like,
+ I don't know, making a rogue like in Excel.
+ But it's actually relevant to like the formalisms that you would use to analyze this.
+ You want your outputs to change when you change the inputs,
+ but you do not want to recalculate entire spreadsheets when you press one key.
+ So the thing is build times matter.
+ Someone suggested I should include this compiling comic from XKCD,
+ but she also said if you had one dirty sock, would you wash all your socks again?
+ And same is like if you have one dirty file, how would you get a clean build?
+ Like how would you like it?
+ If it didn't take like 40 minutes, but like four minutes,
+ the only way you get there is partially rebuilding,
+ only that's what you need to change.
+ Many people think build times don't matter.
+ That's usually because they have beefy computers or I don't know pipelines or whatever.
+ Your reality might change.
+ It might be that stuff takes hours.
+ I personally got to build systems because I had a podcast that excites generator,
+ and if you mess anything up, then there are like lots of audio files which want to be re-encoded.
+ So I had no really motivation to get this wrong.
+ If I accidentally do stuff that I shouldn't, it would have taken hours.
+ And if I had always rebuilt everything, I wouldn't be done at any point.
+ So now the thing is you want to rebuild target files when their prerequisites change,
+ and this talk is like structure three parts.
+ First, like common issues.
+ You might have noticed these but only like have a feeling or like ignored them or something.
+ Many people do notice them but think, yeah, it just happens.
+ Then why do these happen? Why I think they do happen?
+ Maybe you have different opinions, but I think I'm right because obviously.
+ And then an example of how to do that correctly, which is like not as seen as an advertisement,
+ but more like if you change how you approach the problem,
+ then you can actually do a lot of tasks in a much simpler way.
+ So first, common issues.
+ So your target files do depend on source files, and you can simplify this.
+ Well, if you build some other target files, they can also become source files for some next step.
+ And there are three popular approaches.
+ Well, the first one is very popular, the last modified timestamp.
+ When did I touch this last?
+ And if you touch it, then the target is out of date and something needs to be rebuilt.
+ There's a file, you edited it.
+ The thing doesn't even check if you changed anything.
+ You just like you open and saved it, and the timestamp in the file system gets updated.
+ The build system figures out, oh, no, the source file has changed.
+ Now I need to compile again, or I don't know what, or convert some media files.
+ A more correct approach, so to say, that lets you rebuild less is hashing everything.
+ But the problem is that hashing again takes time.
+ So a really good approach is check the last modified timestamp, and if it's mismatching, only then hash.
+ Depending on what approach you use, you might have problems.
+ For example, with the first approach, you have the problem that Git touches everything it sees when you do a checkout,
+ so stuff gets rebuilt all the time, uselessly, if you use make.
+ But with the hashing, I once generated a 16 GB sparse image for some SD card.
+ Yeah, and then the build system hashed it, and it took a long time.
+ That was not very smart of me.
+ But basically, you know this issue.
+ The second thing, well, that's the same, I'm sorry, I should have gone there.
+ The first is wrong, the second is slow, and the third is fast and correct.
+ So there's no excuse for build systems that use the last modified timestamp to not hash to avoid useless busy work.
+ So then the second thing is dependencies are actually recursive.
+ People only often think, oh, I checked the file, it's up to date, and that's okay.
+ Now I can just forget about it. But you not only have to check the thing, your dependency,
+ you have to check all the dependencies of all your dependencies.
+ If you generate some source code file from something else and then you compile something from that,
+ one thing taints the entire chain, and if any prerequisites of anything, regardless of how far away it is, changes,
+ the target needs to be rebuilt.
+ Some build systems forget this, too, which are becoming.
+ So one thing that often happens is that people under-specify their dependencies.
+ You have to list all of them and maybe you have to list them manually.
+ The timestamp-based build systems rebuild often anyway because you use Git,
+ or maybe you figure all the files and have them all open in your editor and it auto-saves.
+ The problem is that the second thing that the timestamp-based build systems rebuild so often that masks it,
+ like you will maybe never as a developer get a failing build,
+ because, yeah, it rebuilds lots of useless stuff anyway without needing to, and that prevents you from noticing it.
+ The prime suspect is Git checkout, and it's really hard to convince people that this is happening,
+ but what you can do is make a post-checkout hook for Git that sets the timestamp of the files that you checked out
+ to when they were last committed, and lots of things will break.
+ I can guarantee it because I tried it and then people were like, "Yeah, that just don't do that,"
+ but it's more like proving that the dependencies are under-specified.
+ Pretty easy experiment.
+ So one thing that is often ignored is that target files actually depend on their own build rules.
+ So if the build rules change, the target needs to be rebuilt. That sounds obvious, right?
+ I have a different build rule, and my favorite build system, Excel, does this right.
+ If you change the formula, the cell is updated, but Make does not,
+ and neither do a lot of other systems that basically work like Make.
+ The trick question is, should targets depend on the Make file? I have rarely seen this in the world.
+ The advantage is whenever you change your build rule, your target is rebuilt.
+ The disadvantage is whenever you change any build rule, all targets are rebuilt.
+ To me it suggests that maybe the idea of putting all the rules in one file and so on and so on is done.
+ But it's a funny trick question. Maybe if you meet someone who didn't go to this talk
+ and they're really enthusiastic about build systems, it could make them shut up.
+ So then something that is ignored even more often is that targets actually depend on non-existent files.
+ It might be that a new file appears and the target needs to be rebuilt.
+ A header file appears in the current directory and the OP processor would find it.
+ Or you have an image gallery, a new image appears.
+ You do not want to rebuild all the thumbnails, but the index file that shows all the pictures
+ needs to be invalidated when a new image appears.
+ And if you have a webcam that does a photo every minute or so,
+ you already know the file name of the non-existent file that as soon as it appears invalidates your build.
+ A surprisingly large number of build systems are entirely unable by architecture,
+ like architectural limits, to actually do this and ignore it entirely.
+ But the problem is this is a very common thing.
+ And basically every one of these non-existent dependencies is the case of
+ I make a new file in the file system and this invalidates my build.
+ And if I then rebuild, I might get a binary that does not correspond to my source code.
+ All of the problems where you have a build that seemingly succeeds,
+ but does not build enough, mean your result is not guaranteed to be correct.
+ Maybe some of you had this, that they partially rebuilt something, it did not work,
+ and you deleted all the make and CMake files and whatever,
+ and then you rebuilt completely and then it worked.
+ Yeah, that was one, maybe not this one, but this is one of the common issues.
+ Often people do not know why it happened, but you can blame the build systems basically
+ for not tracking something that it should have tracked.
+ So now the thing is even more specifically, a combination,
+ targets depend on non-existent build rules.
+ It might be that in the future a target is built using a general rule,
+ like a rule for all HTML files or all object files or something.
+ In the future you have a more specific rule that would override this.
+ Yeah, well, when this rule appears in the make file,
+ which we already know is rarely considered anyway, you also need to rebuild the target.
+ I've actually never seen this in software that is unrelated to the proposed solution.
+ It seems to be often forgotten, or people use weird domain-specific languages to handle this.
+ So the thing is, why do these problems happen?
+ And I am convinced that the reason is because the common approach to build systems
+ is you treat everything as a directed graphic graph, that's an image from Wikipedia,
+ where the nodes are files, like in the graph, and the edges are dependencies.
+ To build A, I need to build C, and B, and B and C both need D, and D need E,
+ so I first start... yeah, I have this information, and then the procedure is,
+ I construct this graph, I topologically sort it, so I have an ordering in which I can build these things
+ so that they satisfy all these errors there, and then I schedule the build task.
+ And this is very easy to implement, it's very easy to parallelize, and it's obvious but wrong.
+ Because while your idealized build, the spherical cow in a vacuum,
+ might sometimes be modeled like that, usually you don't want that.
+ Because at the point where you construct the graph, you do not have enough info,
+ you cannot actually do this successfully in almost all cases that I can say,
+ for example, because you do not know the non-existence dependencies,
+ you do not know which file the preprocessor did not find, did not include, but would find in the future.
+ And as soon as you have scheduled the build task, you might get new information.
+ The thing is, to deal with this, people pretend, for example, that the world is frozen,
+ that the entire file system is the same as when you started the build,
+ but the problem is, obviously it isn't, because you're outputting stuff and generating files left and right,
+ because that's the purpose of your system.
+ So it's kind of a bit weird that people then, for their dependency evaluation,
+ pretend that it's still in the start, it doesn't work.
+ The second thing is, some people are like, "Oh, just list every dependency,
+ you're a programmer, list every file."
+ This obviously does work, and embedded developers rarely have these kind of problems,
+ because they seem to be like a special breed and have very little in terms of dependencies.
+ They know absolutely nothing compared to application developers.
+ But if you have a build system that says, "Oh, if you don't list a dependency,
+ it will not show up in the file system view for the build because of some overlay or so,"
+ then you will be annoyed pretty fast, because it's fucking robot work to figure out which files are there.
+ Why should you do that if the computer can do it for you?
+ So the most popular approach to make it work is just ignore the issues,
+ like the previously mentioned problems and similar problems that result from this,
+ because it's so seducing to have a way that you can easily model something, and maybe it's sometimes wrong,
+ but it's fast, right, and you totally understand it.
+ Build system authors do not like it when you point out that they're ignoring stuff.
+ I've literally seen people say, "Well, then just don't do that, don't have that build,
+ but that doesn't help me because I have the build and I want to like, I want results."
+ So how would you do it correctly?
+ What I figured is that actually you can treat builds as some kind of huge function
+ that you can partially evaluate to partially rebuild,
+ and then you can rebuild recursively until the outputs are not changed, until you reach a fixed point.
+ Obviously, the one iteration is a common case.
+ You get something, you get the output. If you would do it again, you get the same thing.
+ But if you use this make-depends thing where you use make and the compiler outputs the dependencies
+ in a format that make understands, and then you rebuild a second time, and then you get the same output,
+ you have two iterations and you have found your fixed point,
+ and perhaps the most common example that people are familiar with is Lattes.
+ Like you have these line numbers and references and figure stuff, and you need to compile three times
+ because the build needs to be iterated until you reach the fixed point where everything points to the correct page.
+ This is kind of obvious once you see it. You see it everywhere that intuitively you expect the thing to have a fixed point.
+ If not, you have a halting problem.
+ But obviously you cannot model the Lattes thing with a directed acyclic graph.
+ Daniel J. Bernstein, a long time ago, put some notes on the website and never released a tool.
+ I met him twice and he didn't. How to fix a bunch of stuff.
+ I read them at some point when I did the podcast thing.
+ Someone else wrote a thesis on the topic, like how build systems should work.
+ Several implementations of this idea were created, mostly incomplete.
+ I also have one, I consider it incomplete.
+ But the important thing is because Bernstein never released it, I still don't know if he has one,
+ but he writes make files the way someone would translate them from another tool sometimes,
+ or maybe he does it in his head.
+ The same way you can spot the Python code that was written by the C programmer who is barely familiar with Python.
+ So the essentials is basically the idea allows any language to create some targets.
+ No special thing like use shell scripts, use Python scripts, use Ruby, whatever, random executables.
+ But you have to build top down instead of bottom up.
+ Which means when you start the build, you do not start at the leaf nodes, at the stuff that you need to build higher stuff,
+ but you start at the end target.
+ Like I want this binary, what do I need to do to get it?
+ Then you recurse down to the sub-targets more and more.
+ This is for some reason people don't like this approach,
+ but you avoid the topological sorting and a bunch of other issues like that.
+ And also build rules are files, this will become important later.
+ Because each build rule is one file, this means you can change the build rules the same way you track change to files.
+ You do not need a different first class primitive that you can depend on.
+ And if a build rule changes, all its targets are rebuilt.
+ And obviously if you have more specific build rules, they will have different file names,
+ and you can have a non-existence dependency on this not yet existing more specific build rule.
+ And if that file is ever created and you write a build rule in it, the target will be rebuilt.
+ Solves a bunch of issues, people hate it because then they suddenly have more files.
+ There are four commands which make this possible.
+ I have a separate talk that I can give you, like not here, but that explains how to use them.
+ But basically these are primitives.
+ If you implement these four primitives in your top-down recursive build systems,
+ I think you can avoid most of these problems and have something that is very small in terms of implementation,
+ very flexible because you can combine them in weird ways, and actually is correct.
+ And faster than the toposort thing for many common cases.
+ So the first command is a redo if change.
+ Basically you have some script that builds something, maybe a shell script or something,
+ and redo if change is a command that only has a meaning within a build script for a target.
+ And it means first it checks if the file is out of date.
+ Like it can be something that you generated or it can be a source file.
+ Then it rebuilds it if necessary.
+ Obviously it will only happen for stuff that you generate.
+ And third, if that thing was out of date at the point where this command was executed,
+ like the argument to this command, a file name, then the current target is rebuilt.
+ This is a bit weird, but it's a really powerful primitive that enables you to make a...
+ Basically this means, oh yeah, this thing is a dependency,
+ but it enables you to declare this in an imperative way from within a shell script or from within a Python OC program.
+ As I said, it's a bit weird.
+ Second, redo if create, basically the same thing for the non-existence dependency.
+ First, you check that the file argument does not exist.
+ Second, if that thing exists in the future, the current target will be rebuilt.
+ Don't think too hard about how this is implemented.
+ It's a bit brain teaser.
+ Then people often forgot this, but makers' phony rules and other systems have as well.
+ There's a command that you need to mark a target as always out of date.
+ Here you see the directed acyclic graph thing will have a problem with that,
+ because if you have something that's always out of date and then you do the toposort,
+ it only appears once in the list, but it may need to appear several times,
+ because it's always out of date when you want it.
+ You always need to rebuild it whenever anything depends on it.
+ You can actually spot build systems that do not handle a case correctly
+ by figuring out how they make targets always out of date,
+ and then figuring out if you have several things depending on an always out of date target,
+ is it built only one time?
+ If yes, the build system is faulty in a way that makes it way easier to implement parallel builds,
+ but also makes them incorrect.
+ There's one fourth thing that you need for some reasons,
+ because sometimes you might notice during a build that something that you build,
+ while it was considered out of date, is actually up to date.
+ For example, if you have a target that depends on something that is always out of date,
+ you might want that always out of date thing to be regenerated,
+ but the thing that depends on it by the transitive property would also be always out of date,
+ and then you would end up rebuilding everything all the time that depends on anything
+ that at some distant point in the graph is out of date.
+ Basically, this tool reads the standard input, and in any future build the input is the same,
+ then the build is only speculatively executed up until this point,
+ and it says, "Oh no, no, no, the target is up to date. Everything is okay."
+ This is very rarely needed, but when you need this and your build system cannot provide it,
+ like actually canceling a scheduled build command during a build to save time,
+ because it would be useless busy work, you will totally notice it missing.
+ This is the end of the explanation, and I have a few more slides.
+ I hope, can I continue?
+ Then come to me afterwards, and they are very predictable questions, I can answer most of them,
+ and if you want to fix a build system or whatever, talk to me.
+ Let's have a great round of applause for Ella.
+ [Applause]
+ [Music]

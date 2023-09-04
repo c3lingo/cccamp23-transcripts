@@ -1,0 +1,285 @@
+ [MUSIC]
+ [MUSIC]
+ [MUSIC]
+ Okay, dann herzlich willkommen meine Daseinsformen und Menschen. Zum Glück ist nicht mehr ganz so heiß, sonst würde ich hier auf dieser Bühne wahrscheinlich ziemlich schnell verschmoren.
+ Willkommen zu Lightning Talks. Willkommen zu Lightning Talks, ladies and gentlemen. Who in this audience does not speak German?
+ Okay, that's a lot of people, so I will try to speak in English.
+ Basically, I think you might all know what this is all about. Lightning Talks. Anyone can come up to the stage, just talk about anything.
+ Any topic is allowed if it's not just political propaganda or something.
+ You have 10 minutes, then we will switch. We have a laptop, you can plug in your USB stick and display your PDF slides.
+ We have also Ethernet, so you can just call up the slides on your browser.
+ Yeah, we have a microphone. I had a list of people who want to have talks, but I have it on my other hard drive and the other hard drive is not here.
+ So, who wanted to hold a talk?
+ Alright. I wrote to you if you're number one or two or three on the list.
+ Yes. You want to come first? Okay. We have lots of time. We only have four people who came here in advance, so just come up and say something.
+ Another thing, you might see that the slides are not very well visible, but we have apparently on Media CCCDE there is a stream with slides only.
+ So, you can select the stream on your own device and have a little cheat sheet on your smartphone if you can't really see the slides.
+ Okay. That was the talk about BaseBanana. Then welcome!
+ [Applause]
+ [Background noise]
+ Here's the mouse.
+ [Background noise]
+ [Background noise]
+ Hello? Okay. It's working.
+ Hello. I'm Mitek. I speak about BaseBanana. That is my project. Stupid and funny project.
+ This project was talked for Italian language, so I don't know if it works fine in English or in German or in other languages, but I'm sure that in Italian it works fine.
+ It's banana fruit, but it's also a kind of word. A kind of word means that in the 90s when I was young I got this book from an Italian author that was speaking on play on words.
+ My favorite chapter was called Banana, Ananas, Avocado, and Ribes. Ananas is a pineapple in English, and ribes is a carrot.
+ The concept was that banana is a word that is formed by consonant and vowel, consonant and vowel, and so on.
+ And so ananas is the same, but starting with a vowel and ending with a consonant. Avocado is the same with both vowels and so on.
+ You can find a lot of words in Italian that are using this schema. In English it's more difficult, but I have some examples. Locate, legitimate, manage, moderate, negative, and so on.
+ I used ananas to create a random word that doesn't mean nothing, but can be spelled easy and can be also remembered well.
+ I used it for creating passwords because it was easy to remember, but it's very weak. I have also a service that is a URL shortener that is called vado.ly.
+ When you create the shortener, the random code is a banana word. It's easy also to speak on the phone and say go to this address, and it's easier than other strange codes with numbers and capital letters and so on.
+ So, yeah, it's sometimes useful.
+ Then I got in touch with Libre Mesh. Libre Mesh is a project about mesh networking, and it's a firmware to allow some routers to make mesh networks.
+ When you flash the firmware the first time, the name of the router is Lime and six digits of MAC address. This is done because you can create a random name, because if you flash it again it changes name.
+ It takes the last six charters from the MAC address, but it's difficult to remember and it's impossible to pronounce Lime 3, 4, 8, 9, F2. It's difficult.
+ I thought why not to convert this code in a banana? For example, Lime double-alo. It's easier to pronounce and also to remember. Make sense?
+ Yeah, okay. How I did it? When you have a basis, you have alphabets with symbols. For example, binary you have 0 and 1. For decimal you have from 0 to 9.
+ Base64 has 64 symbols. BaseBanana has two alphabets, one for consonant and one for vowels. When you are calculating you're taking consonant and vowel, consonant and vowel.
+ It's not the whole alphabet because in Italian we don't have some letters. For example, X, W are not used in Italian. Also, H and Q need U after that. It was difficult to create a word that sounds good.
+ Now we can start to count. It's difficult to see, but starting from 0, you have the first consonant is B and the first vowel is A. So 0 is BA.
+ Then you have BA, B, BA, BOO with the vowels. Then you switch to C. You go on until ZU is 69. The next number is BA.
+ You add two letters and you can count in BaseBanana. We have an example. I think it's not visible, but starting from 1, there are some examples.
+ When you add a word that is BA, you arrive to 1 million that is "per ame puga". In some way I can remember it.
+ There are different columns because if the banana word is short, you can add leading zeros. Like you add leading zeros in X, you can add BA that is 0.
+ B is the same as BABE. BABE is always the same number.
+ We are quite finished. I wrote a Python script that is also a library. You have different functions. You can encode, decode, generate random banana numbers and also check if it's a banana.
+ You can change the alphabet. You can change the alphabet of the letter you prefer. You also have more than two alphabets.
+ You can have three or four alphabets. It's difficult to see on the screen, but I use the Unicode and I have an alphabet made with animals and one with balls and one with fruit.
+ I can encode using this alphabet and also the number can be decoded using the same alphabet.
+ I did porting of the Python library. It's not complete porting. Only a few lines of code.
+ But I did it in JavaScript, Lua, PHP and Shell script. So if you want to test it or you want to improve it, you are free to do it.
+ Yesterday I had an engine shift in BGP that is for shipping packets.
+ The tracking code is a six digit hex. I thought why instead of having code 3C, 5B, 4, 5, you can use DENIFINA. It's easier to search something with a word that sounds and you can remember the sound for three seconds.
+ So it would be if you are presenting this project, it would be a good idea to include in your project. It can be useful for your projects to include the Banana library.
+ And I finished. Thanks to everyone. You can find the documentation, the code on GitHub and on the main site.
+ And you can write a mail or call me using that. Thank you.
+ Thank you very much. You should have brought a real banana and encode into the banana.
+ I have a banana with stickers on it.
+ We need more stickers. Does the stream version work with the slides? Can you guys see it? Nothing at all?
+ Question? What's his deck number in banana?
+ I don't know. Let me see. Firefox, if you go to base banana.
+ On the website you can see the demo page and you can find 4832 with no minimum length.
+ Zuby is 4832. It's easy on the website because there is a script running that can encode the code with the standard alphabet.
+ Perfect. Thank you.
+ I see the next speaker is already up. Come here. Welcome.
+ I knew my number.
+ Do you need a browser?
+ Free the wrist.
+ And you have a mouse too.
+ Perfect.
+ And you have a microphone. Does the microphone work? Yes, it works.
+ Ten minutes.
+ Hello everyone. I would like to say something about my tiny project which is called "Sorry Odro".
+ I'm Rotroth. My deck phone number is 4560. No idea how it will be in banana alphabet but I'll learn any time soon.
+ A very brief disclaimer. I'm a computer scientist. I'm not a biologist or ecologist.
+ Whatever is ecologically or biologically wrong here, that's my fault because I know zeros and ones.
+ I would like to say something about a river. A river that is basically linking three countries.
+ Czech Republic, Czechia, Poland and Germany. And apparently most likely some of you know which river I have in mind.
+ Do you?
+ Odra.
+ And the Odra River starts in Czechia. Kozlov. It's 866 kilometers long.
+ And flows through Poland and then becomes a natural border between Poland and Germany.
+ It also forms an inland sea where it ends and goes to Ostse and Moze Bautickie afterwards.
+ So it's a pretty long river, pretty wide river. Luckily it's not used anymore as an inland waterway.
+ It's regulated throughout the last 200 centuries but given near to zero water traffic it is fun to explore it.
+ And I did it some time back taking 600 kilometers out of it. So the majority of it.
+ Unfortunately given how well the pictures are seen you won't see a very nice portfolio of pictures from the Odra River.
+ So believe me or these who can see them on the slides I hope they'll appreciate.
+ Anyway, let me slowly move to the merits of the presentation.
+ Yeah, there is the stork on the lamp.
+ Some birds, some green areas, some river, more birds.
+ And if some of you are still willing to camp more after the camp you can go there and have a really nice enjoyable trip by, I don't know, kayak, inflatable boat whatsoever.
+ Anyway, I've got a number of fun facts about Odra. And these fun facts relate to Poland specifically because that's what I observed when I studied the whole problem.
+ So as of November 2022 there were 751 water permits to dump sewage into Odra River and its tribuaries in place, meaning nearly 800 of institutions threw sewage into the river.
+ But, but, and it's very important, only one permit application has been rejected ever, meaning we see some progress.
+ One of 752 has been rejected.
+ Unfortunately the environmental impact is not taken into account when deciding upon these permits.
+ So it's only a technical procedure to get the permit issued and you're good to go.
+ And some cities, majority of cities dump sewage, water from mines, rain waters, manufacturer companies, power plants, they do it all together and dump all that into the river.
+ Anyway, when you swim it you don't feel it. I mean there is a huge disconnection between how you feel when going through the river and what's being dumped into the river.
+ And most importantly after the permit has been issued no on-site verification is taking place, meaning they don't verify whether you actually dumped what you promised to dump.
+ So why not to overuse it, let me put it that way.
+ And for the ones that like numbers I've got some, they are pretty outdated, but from 2012 there was a study that proved that
+ Morze Bałtyckie or how Germans call it Ostse has been provided with 19 tons of zinc, 56 tons of copper, 7.5 tons of lead and 26 tons of nickel.
+ And that's official, that's what Polish government admitted.
+ And my feeling is that most likely the situation did not get better since 2012.
+ There is the water quality index which basically says that water in the Odra River is 4 or 5 out of 5 levels and as you may guess the best quality is 1.
+ So we are at the very bottom here and that's basically the reason why I'm here.
+ Okay, some of you might have heard about the 2022 other environmental disaster. Basically a mass mortality last year occurred in the Odra River.
+ That involved fish, beavers, crayfish and other wildlife. Tons of these, I'm not here to show you the pictures, I don't like to see these pictures at all.
+ Nevertheless the root causes are not known, but surely the following conditions contributed.
+ We can consider it like a black swan effect or accident, but on the other hand there was something going on before.
+ Anyway, low water levels, reduced oxygen levels, pollution and possibility of algal bloom definitely contributed, but these tons of precious metals contributed as well, that's my guess.
+ Unfortunately, and that's why the project is called "Sorry Odra", meaning you are apologized Odra River.
+ Poland was slow on reacting, there was near to zero information flow from Poland to Germany and despite some movement and activity in this area no real dynamics was observed.
+ And because of that I decided to run a small project which is called "Sorry Odra", because there was none to zero monitoring on the Polish side.
+ And after a year Polish officials decided to run nine stations that constantly monitor the river and share the data.
+ And this is why I'm here. They monitor oxygen, ACCT, temperature and conductivity.
+ Unfortunately if you were born in the 90s you don't know how data was shared in the 90s, but basically the data interface they provide you with is a crap, so I decided to do something about it and to create this project.
+ And the idea, the purpose of the project is to gather data from that source, integrate it, reshare it and visualize it in a very proper manner according to my standards at least.
+ And what's the goal of the whole project? The goal is to impose pressure on officials to make people aware and acting upon the quality of the water in Odra, but most likely in some more rivers.
+ And most of you I believe remember the Lufthatten project which changed a lot with respect to air pollution, so of course it's not that easy to run this kind of station, but you can still contribute to the project.
+ And given that I'm also doing some science, I don't like looking at scientists gathering data and doing data preprocessing, so my goal was to create that and take that obligation from them.
+ The website of the project is soreodro.pl, but I believe if you want you'll find it. It provides visualizations, it provides data about the station's reliability, so now I can inform the data sources about the problems in providing that data, maybe they don't look at it.
+ Technically speaking it's a composition of bash scripts, MariaDB structures, Finks and Grafana. It's MIT licensed and the source code is available on GitHub.
+ I believe you don't see any visualizations here, but if you know how Grafana works you know what to expect.
+ And lastly let me share some short and long term goals with you with respect to that project.
+ Firstly I would like to make that data coming from both sources, meaning from Poland and Germany, because now we are working in a separate manner, so maybe that could be a good meta project to integrate the data from both countries.
+ Obviously now the project is in Polish, but I'm also working on translating it into English and German.
+ I would like to collaborate with some people that are somehow aware of the water quality levels and parameter quality, because I would like to introduce a framework that notifies people that the quality dropped below certain thresholds.
+ And in a long term run I would like to provide a reliable data source for the society, researchers, decision makers, and would like to change the attitude of all the shareholders towards chemical waste and sewage dumping into Odra and hopefully more rivers as well.
+ So if you would like to contact me my phone is 4560 and the remaining links are barely visible, but the most important one is soryodro.pl.
+ And yes this is also the invitation for collaboration because I'm running the project myself and I would be very happy to see more people involved.
+ And that's pretty much everything I want to say. Thank you.
+ [Applause]
+ Thank you very much. Any questions for him? No? Okay. I think you got the website.
+ As a reminder the stream is also recorded so you can just have a look at it later and you will see all the links and everything. You can just copy it.
+ Alright. Next speaker already standing there. Of course come up. Sure no problem.
+ I will close this. Here you go.
+ Do you have the slides there?
+ Slides for all.
+ [Silence]
+ [Silence]
+ [Silence]
+ Okay. We apologize for technical difficulties. The talk was supposed to be about a cow sticker collection. We will make sure to get the slides tomorrow. So if you want to know everything about stickers come again tomorrow here same place and maybe we'll find a better solution for the beamer or something.
+ Anyway thank you and applause. We'll see you tomorrow.
+ [Silence]
+ Okay. Can you all hear me? Okay. Raise your hand if you can see the slides. Okay. Cool. Cool. Cool. So 50%. So there's not a lot on the slides. Some words and some flying spaghetti monsters so you won't miss much.
+ [Silence]
+ It's not full screen. Oh we have to talk to the people in the back for that. The beamer doesn't do that. Anyways hello. I'm Sather. I'm a volunteer angel for the camp and I also go by John. You can call me either.
+ I come from California. I don't work for the postal service but I love them and I have a message for you. There's something I think needs to happen and I'm here to help that happen. I think there needs to be a church of cryptography.
+ So let's talk about our agenda. We'll go over the why there needs to be a church of cryptography. What is a church of cryptography? How you make a church of cryptography? When you should make a church of cryptography? And how you can all help with the church of cryptography.
+ So let's begin. I hope this doesn't offend anyone. I'm not here to say one religion is better than another but I hope to convince you mine is the best at the end. I mean ours. Okay so why? Why are we here?
+ As creatures of the universe we have the religious rights to communicate with other creatures and gods of our choosing using mathematical principles that hold true across the universe, across time. It doesn't matter if you're on this side of the Milky Way or the other side.
+ Cryptographic primitives hold true and I think that's a beautiful thing and I think that's one of the unique things that we can all agree upon as creatures of the universe and we get to reflect upon that.
+ And that enables to do things. These cryptographic principles let us communicate with individual identities securely knowing that with some probability that no one will ever be able to read that and that probability is very high.
+ There's more particles of sand than unique identities for some keys and more identities than like atoms in space and time. And I think it's cool that we get to talk to each other securely.
+ I think it's great and when I have a child I want to talk to my child securely. I want to be Alice, I want my child to be Bob and I want Eve to stay way far away. Eve isn't needed here.
+ And I come from the land of the US of A and every couple of years, every couple of decades there always seems to be a war on crypto. I survived the war on drugs.
+ I grew up in the Emerald Triangle and where a lot of people grew cannabis and I understood what it meant to be watched upon by the state and I saw what that did to the people's mindset.
+ Privacy really mattered. It mattered for your freedom and it mattered for the health and life welfare of your children. And I never understood why weed was illegal. It just didn't make sense to me.
+ Now encryption, I don't understand why it's illegal. And the US government is constantly trying to edge their way into my matrix servers. I don't want to give them the decryption keys.
+ I don't know what's going to happen to me if I don't. And what ground do I stand upon to even... Oh I forgot to set my timer.
+ Anyways, so there's a lot of reasons why I want this and I do think a daughter should be able to talk to their mother in private.
+ A prayer should be able to send to the gods of your choosing in private and we have the right to maintain that.
+ So now what's a church? What's a church of cryptography? For me, a church of cryptography is just a place to meet and talk about crypto and what it is, how it is, how it came to be, where is it going.
+ There's all kinds of things in that space and society is dealing with cryptography in a lot of different applications it never thought it was going to have to deal with.
+ 30 years ago, nobody would believe that there was magic internet money. But cryptographic primitives made it so. And we all have to deal with those consequences and the freedoms of them.
+ So in America, creating a religion, it comes right before having the right to own guns. It's part of the First Amendment.
+ So the First Amendment gives American citizens the right to free speech and the right to practice the religion of their choosing.
+ And if that religion doesn't work for most of the people, that's okay. As long as it's not bothering anyone, it's welcome in America.
+ And so we have pastafarians who are welcome. They believe the flying spaghetti monster and stuff. We have the Native American Church.
+ They're allowed to participate in religious ceremonies where certain drugs that are classified as Schedule I narcotics, which are the most illegal drugs in America, they can have those, they can practice those, the people can use those.
+ And so creating a church is actually a pretty practiced thing in America. I don't know about the German government and the European states, but I imagine you also have similar freedoms here. And I apologize for my ignorance.
+ So for us, what do we do? Where's our first place of congregation? It's in the Matrix, and you don't need to take a red pill or a blue pill.
+ You just need to go to Church of Crypto, Matrix.org, and find us there, my friends and all these fellow creatures.
+ What are we going to be doing? We're going to be learning, we're going to be sharing the joys and pains of life in the cryptographic space.
+ We'll be using end-to-end encrypted cryptographic protocols to do so.
+ And yeah, maybe we'll create some nonprofits across the globe to help facilitate the resources and capital required to spread the love.
+ When? The best time is now. Four years ago I was at camp and I wanted to do something awesome, and I didn't know what to do.
+ And I stand upon the shoulders of giants every day in the open source community, and I see all of you here, and I feel the love, and I think this is one way I can give back.
+ And I may not be here tomorrow, but I am here today, and this is what I want to do, and I'd love to inspire you to help out. All creatures are welcome.
+ And it's a great motto, so let's live by it.
+ How can you help? Join the channel. Start asking questions, start teaching people what end-to-end encrypted communication is, how it came to be, what are the primitives that make it so, and yeah, learn, love, listen, and grow.
+ Thank you very much.
+ [Applause]
+ Amen, brother.
+ Thank you.
+ Actually, when you said that it's sort of a universal principle cryptography, that reminded me of a thing that Edward Snowden once said. He was talking to Neil deGrasse Tyson or something.
+ He was speculating about aliens and Fermi paradoxes, why we haven't seen them, and Edward Snowden said, well, maybe it's just standard for all civilizations to at some point develop cryptography, and it's just common sense to always make it, to always encrypt your stuff.
+ So good cryptography cannot be discerned from random noise. So all the space radiation that we get, all the random noise, might be just alien civilizations talking without us noticing. So yeah, maybe that's it.
+ [Laughter]
+ Okay, we're already next one.
+ [Silence]
+ [Silence]
+ [Silence]
+ [Silence]
+ Hello. Okay, one of the principles or advantages of lightning talks that is not being talked about is that you do not get to choose the topic, but I get to choose the topic. So it means that I can talk about something that you might not want to hear, like if you're far away from home, pay attention to where you put your glasses.
+ Or I can also tell you something that you always wanted to check out, but really never bothered. And depending on whether you can see my presentation, we might talk about one topic or the other. So give me a moment.
+ [Silence]
+ Is there anyone who has trouble reading it? Can you put up your hand? Anyone has trouble reading it, cannot read it? Very few people, so maybe you can rearrange yourselves.
+ Okay, so Prologue, what is it? It's a programming language, it's a logical programming language, and I bet you heard about it. It's like, what was it, sixth or fourth generation programming language, one generation more than the usual languages that we use today.
+ Is it actually, why is it different, why is it so, like, why was it hyped in two decades ago, or how is it special, what's so different about it, what can we learn from it, and where is it surprising?
+ I had this question a couple of months ago, and as a total newbie, I'm going to give you an introduction of what I learned from Prologue and why it's interesting.
+ So what I learned about is that Prologue can be thought of as a language that is basically a database language, and here in the example, we have some data on the top in the data file, can you read it?
+ Yeah, let's say, so there's three facts, there's a fact, cat Fido, cat Tom, and cat Fritz. So what can you do with the data? You can query the data.
+ If you load it into the interpreter using the data directive something, you can see the question mark is the prompt of the interpreter, SWIPL, you can query it using the cat X.
+ The capital X means what is it, and as an answer you get cat can be Fido, or it can be Tom, or it can be Fritz. So we query their database and return all the data that they had. Cool.
+ Another database example, a bit closer to reality, let's imagine that we have an image sensor that can emit data in two combinations, in combinations of formats. One is RGB, the other is UV, and it can return data in some frame rates, but not all combinations are possible.
+ So we put in the data, config, RGB, FPS24, and so on, we put on all the combinations, and that gives us a possibility to query it.
+ So in the first line you see here, there's config R and underscore. Underscore means we don't care, and R, capital R, means we want this to be listed.
+ What are the options when we don't care about the other one? We don't care about the frame rate, we just want the format.
+ So if we put in this as a prompt, you get two answers. It can be either RGB or UV. So we query their database for unique values of a certain column in some way, in some interpretation.
+ We can also set one column to UV and then query the frame rates, or we can do something more complex. We can return entire configs with this syntax. We only care about configs which have RGB as a result, and then we get the entire configs which have RGB, but also they are already filled in, and so on.
+ More general questions in the last line. You have it's flowing off the screen, but you get all the combinations where you query it with two variables.
+ And for the finish, can we have a combination of UV with 60 FPS and say false? There are no answers.
+ You might have noticed that there are multiple answers sometimes. So it's one of the query languages in this revision. But that's not all.
+ Let's see this example. This does not look like a query language. We are doing +123. 1+2=3? Yeah, that's right.
+ And then we are adding 1+2=what? And what is 3? No surprises there. Then we get +a23, like +what to get 3.
+ Okay, this is kind of unexpected. First we got an answer in the third part, and then we get an answer in the first argument. So it correctly gives us the answer. 1+2=3. So this is surprising, isn't it?
+ So you do not get that kind of behavior in normal programming languages. You cannot choose which argument is the output argument, and here you just did it.
+ So this is not a function after all. So this is kind of the mix between a query language and a language to figure out things in general.
+ Let's take a look at a more complicated example. There is a directive, I don't know what it's called.
+ There is a thing that is called append, and it appends a list to another list. And the answer is what? What is abc when we add ab to c?
+ Not surprising, but let's keep going. Here we have a more complicated example, just like we had a plus example.
+ So we add a... yes, what will we get if we... from a different perspective. The result is abc, and we are appending a and b to what?
+ Okay, five seconds for the answer. Who knows?
+ Yes, a list containing b. Let's take a look at the answer. And there's going to be another riddle, so think about it.
+ Wait, c. So there's another riddle. You get... yeah, that's actually more complicated. What do you append to what to get ab?
+ Okay, there are two positions that you have to fill in. How does a programming language manage to do that?
+ Five seconds for you to think. One, two, three, four, five. And the answer is, did you get it right?
+ There is a list of combinations. First, it's x and y is... x is empty, y is an a and b. Second combination is a is in the first position and b is in the second position.
+ Third combination is a and b are in the first position and the second position is empty. And I don't know why there is also the answer that is not possible, but okay, I'm just a beginner.
+ So who got it right? Hands up. Yay, you're learning. So as you can see, this is not something that can be described as functional programming or anything like that.
+ Those are not functions. This probably is more of an engine to solve problems that you have based on figuring out the relationship between the facts that you give it.
+ And yeah, how does it all happen? This is no magic. If you are trying to declare your own, I don't know, procedure equivalent, you just give it a couple of relationships.
+ Here the important relationships is a is lower than b, a is lower than c, c is lower than b. And I don't quite remember what it was about.
+ Ordering that one is between the other. But basically this is a simple example of a function. So you can actually write this. There is no arcane magic behind it.
+ Actually there is, but not on the level that you are going to deal with normally. Yeah, those are just ensuring that those numbers have been declared as facts before. It doesn't really matter that much.
+ But yeah, so this is what I wanted to tell you about Prolog. It's different, it's useful, it's an engine for querying facts, it's an engine for figuring out relationships between facts, and it's not using functions.
+ When I was learning it, there was a guy on IRC who was asking questions and trying to write basically Java in Prolog. It was really painful to watch.
+ If you try to learn Prolog after this talk, pay attention to unification and backtracking. Those are the two magical concepts that you should learn, because otherwise you're just not going to have fun at all.
+ And yeah, this is how you get multiple answers and this is how you solve things like Sudoku using Prolog.
+ And if you want to learn more random projects of mine, my website is dorotac.eu.
+ Or you can come on Friday to KSZone and I'm going to have a talk about embedded REST. I don't know what time yet, but it's going to happen.
+ Actually a workshop, so you can also participate, bring your laptops. Thank you very much.
+ [Applause]
+ Thank you. Oh, your glasses are broken? Ah, that's what you mentioned in the beginning.
+ Any questions for her? All right, we still have time for one more talk. Ah, you got it. All right, the sticker collection is back online, I think.
+ Second try, let's hope it works.
+ All right.
+ [Silence]
+ Stick.
+ [Silence]
+ [Silence]
+ Test, test. Okay, hello everyone. My name is Moritz. And when Corona hit, I was bored.
+ And well, basically the idea is I created a sticker collection because I missed cows, wrens and sticker boxes. And I also have to say that my laptop is like a sticker free zone for various reasons.
+ So I thought, okay, let's collect photographs or even better templates of stickers.
+ So, yeah, that's easy to replicate. And I went around the internet and looked up where I can find these templates for all these kind of stickers you see in sticker boxes over here, over there.
+ And lots of stickers I knew and it was a bit hard to track, but I got quite a lot.
+ It's not really good to see here, but basically it's now about over 500 stickers I've collected. It's not all templates.
+ Some of the stickers you see here, basically it's everything is on GitHub.
+ The code itself for this JavaScript and HTML, it's all on GitHub as a site. And you can just put some random name, sorry, some query in that search field, for example, Fryfunk or Chaos.
+ And then it will quickly filter out all the tagged images and the source and well, if possible, the author license and stuff.
+ And yeah, I did it on GitHub basically because it's easy to track, easy to extend for merge.
+ I just wanted to make it easier for other people to just copy and replicate and just in case I got get bored.
+ Again, well, let's call it distracted by other projects.
+ And yeah, and also a small shout out to other projects, for example, the Chaos sticker collection, no, Chaos sticker operation center, which does something similar.
+ There's also HackerArchive.org, thank you. I don't really remember all the links there, which is a bit more detailed with descriptions.
+ And yeah, so if you have stickers and you have even better as a template, maybe send it to you, sorry, not to you, to me by email or on GitHub, make a poll request.
+ I will integrate it and yeah, then it's for everybody to copy and to modify whatever the license allows.
+ And we will hopefully have more accessible stickers, more varieties. That's always good.
+ And thank you so much for your attention.
+ All right, thank you very much.
+ Actually, is there a sort of sticker box here at camp or are there several boxes? Does anyone know?
+ Yeah, you can tell me later, then I will ask you. Thank you.
+ Thank you very much.
+ The hour is basically already full. I apologize for the technical difficulties.
+ Are there any people here who still wanted to have a talk but didn't have the time?
+ Okay, I think we just made it.
+ Oh, yeah, okay. So tomorrow, same time, I will try and improve a bit the techniques. So see you again tomorrow.
+ See you again tomorrow.
+ [Music]

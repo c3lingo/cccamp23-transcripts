@@ -1,0 +1,1720 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:38,000
+ Welcome back on the Nordic Stage for the next talk.
+
+3
+00:00:38,000 --> 00:00:40,000
+ This talk will be in English.
+
+4
+00:00:40,000 --> 00:00:47,000
+ Unfortunately, there will be no translations, but you will be able to follow, I guess, if you came here.
+
+5
+00:00:47,000 --> 00:00:50,000
+ I hope you have all nice places.
+
+6
+00:00:50,000 --> 00:01:01,000
+ And I welcome Jürgen Papel, who will talk about building a cloud-free digital voice assistant with free and open source software.
+
+7
+00:01:01,000 --> 00:01:09,000
+ Please give him a warm welcome and enjoy the talk.
+
+8
+00:01:09,000 --> 00:01:11,000
+ Thank you.
+
+9
+00:01:11,000 --> 00:01:15,000
+ Okay, so first slide, I guess, is always about who's talking up there.
+
+10
+00:01:15,000 --> 00:01:18,000
+ I'm from Cologne, Cologne.
+
+11
+00:01:18,000 --> 00:01:29,000
+ I work in security management, and I build stuff mostly for my kids, and I break stuff, whatever needs to be broken.
+
+12
+00:01:29,000 --> 00:01:37,000
+ So first we're going to talk about what our voice assistants actually composed of.
+
+13
+00:01:37,000 --> 00:01:41,000
+ Then we're going to do a demo.
+
+14
+00:01:41,000 --> 00:01:55,000
+ You are probably not going to be able to see what's happening on the display, but we'll get audio, so you'll be able to hear what the hell has to say.
+
+15
+00:01:55,000 --> 00:02:13,000
+ Then I'm going to talk about what is it that actually comprises this voice assistant, and then there's what's left to do for release 1.0, and what's on the agenda for beyond that.
+
+16
+00:02:13,000 --> 00:02:17,000
+ And at the end, there will be a Q&A.
+
+17
+00:02:17,000 --> 00:02:26,000
+ So when you're talking about voice assistants, there's really five components that make up the core logic.
+
+18
+00:02:26,000 --> 00:02:28,000
+ There's the wake word detector.
+
+19
+00:02:28,000 --> 00:02:35,000
+ And you presumably know this because it's, okay, Google, Alexa, Siri, whatever.
+
+20
+00:02:35,000 --> 00:02:37,000
+ That's the wake word detector.
+
+21
+00:02:37,000 --> 00:02:48,000
+ Because you don't want whatever voices you have to always just try to make sense of what's being spoken and interpret that as commands.
+
+22
+00:02:48,000 --> 00:02:52,000
+ So the wake word detector activates the assistant.
+
+23
+00:02:52,000 --> 00:03:00,000
+ Then there's speech to text, so it's recording whatever someone has to say, translates that into text.
+
+24
+00:03:00,000 --> 00:03:07,000
+ And the next part is the intent parser, so trying to make sense of what's being said.
+
+25
+00:03:07,000 --> 00:03:12,000
+ Skills, that's the execution of whatever the person requested.
+
+26
+00:03:12,000 --> 00:03:15,000
+ And then text to speech for the feedback.
+
+27
+00:03:15,000 --> 00:03:18,000
+ So that didn't work or whatever.
+
+28
+00:03:18,000 --> 00:03:22,000
+ So let's look at each of these just briefly.
+
+29
+00:03:22,000 --> 00:03:26,000
+ The wake word detector is a presumably easy task.
+
+30
+00:03:26,000 --> 00:03:31,000
+ You can do sort of like pattern matching on the acoustic signal, et cetera.
+
+31
+00:03:31,000 --> 00:03:43,000
+ But the issue here is that you want a really, really high or a very, very low false positive rate.
+
+32
+00:03:43,000 --> 00:03:50,000
+ Because otherwise the assistant will be going like, oh, yeah, what do you want from me every couple minutes?
+
+33
+00:03:50,000 --> 00:03:52,000
+ And that's very annoying.
+
+34
+00:03:52,000 --> 00:03:58,000
+ And of course the environment is, you know, as it is.
+
+35
+00:03:58,000 --> 00:04:00,000
+ We don't know.
+
+36
+00:04:00,000 --> 00:04:04,000
+ And I don't know how it will behave on here.
+
+37
+00:04:04,000 --> 00:04:06,000
+ I haven't tested it, so we'll see.
+
+38
+00:04:06,000 --> 00:04:15,000
+ And of course everybody has a different voice, so that task isn't really that easy.
+
+39
+00:04:15,000 --> 00:04:20,000
+ So as far as free open source implementation, there's Microsoft Precise.
+
+40
+00:04:20,000 --> 00:04:26,000
+ And the true and tried Parkinson's.
+
+41
+00:04:26,000 --> 00:04:27,000
+ And there's others.
+
+42
+00:04:27,000 --> 00:04:31,000
+ You know, I'm not trying to list everything here.
+
+43
+00:04:31,000 --> 00:04:40,000
+ And the selections is really more or less what I played with in my project.
+
+44
+00:04:40,000 --> 00:04:44,000
+ So the next part is the speech to text.
+
+45
+00:04:44,000 --> 00:04:47,000
+ So there's really two parts.
+
+46
+00:04:47,000 --> 00:04:54,000
+ There's the software that actually tries to make sense of whatever the audio signal is.
+
+47
+00:04:54,000 --> 00:04:57,000
+ And then there's the language model.
+
+48
+00:04:57,000 --> 00:04:59,000
+ You need a different language model for each language.
+
+49
+00:04:59,000 --> 00:05:09,000
+ And essentially the language model contains the words that are known to be able to be translated.
+
+50
+00:05:09,000 --> 00:05:15,000
+ So the critical parameter here, just like with the weight word detector, the false positive rate here,
+
+51
+00:05:15,000 --> 00:05:17,000
+ it's the word error rate.
+
+52
+00:05:17,000 --> 00:05:20,000
+ We'll get back to that later on.
+
+53
+00:05:20,000 --> 00:05:25,000
+ And again, two open source implementations, Mozilla Deep Speech, somewhat recent,
+
+54
+00:05:25,000 --> 00:05:34,000
+ and Kali that is really fairly old by today's means, but still a good system.
+
+55
+00:05:34,000 --> 00:05:37,000
+ So the next is the intent parser.
+
+56
+00:05:37,000 --> 00:05:47,000
+ So independent of whether I tell them turn yourself off, execute system shutdown, or go to run level zero,
+
+57
+00:05:47,000 --> 00:05:49,000
+ the intent is the same.
+
+58
+00:05:49,000 --> 00:05:54,000
+ So intent parser derived the meaning from what's being said.
+
+59
+00:05:54,000 --> 00:06:04,000
+ So in this case, it would map to the skill system shutdown with a default parameter now because I didn't tell him otherwise.
+
+60
+00:06:04,000 --> 00:06:08,000
+ Onto the skills.
+
+61
+00:06:08,000 --> 00:06:13,000
+ And that's really completely implementation specific.
+
+62
+00:06:13,000 --> 00:06:18,000
+ There are some that have already a lot of skills included.
+
+63
+00:06:18,000 --> 00:06:21,000
+ Some come at a bare minimum.
+
+64
+00:06:21,000 --> 00:06:29,000
+ And there's pretty much always some API or SDK that you have to implement additional skills.
+
+65
+00:06:29,000 --> 00:06:38,000
+ So text to speech, again, language model, training data.
+
+66
+00:06:38,000 --> 00:06:46,000
+ So of course, the function is to give the user feedback on what has happened.
+
+67
+00:06:46,000 --> 00:06:58,000
+ And two of the rather older ones, the F-Lite and Mary TTS, and very recent, I think last year, was MyCroftMimic 3.
+
+68
+00:06:58,000 --> 00:07:08,000
+ So with that in mind, we'll do the demo.
+
+69
+00:07:08,000 --> 00:07:11,000
+ I'm going to just leave this right here.
+
+70
+00:07:11,000 --> 00:07:13,000
+ I have a USB cable.
+
+71
+00:07:13,000 --> 00:07:14,000
+ That's just power.
+
+72
+00:07:14,000 --> 00:07:17,000
+ So I'm plugging it in right now.
+
+73
+00:07:17,000 --> 00:07:23,000
+ And it'll take a while.
+
+74
+00:07:23,000 --> 00:07:25,000
+ What's coming now?
+
+75
+00:07:25,000 --> 00:07:26,000
+ Oh, yeah.
+
+76
+00:07:26,000 --> 00:07:31,000
+ Disclaimer, I have taken some audio from the movie.
+
+77
+00:07:31,000 --> 00:07:33,000
+ So that's being used here.
+
+78
+00:07:33,000 --> 00:07:37,000
+ That's not part of the project because obviously you can't distribute that.
+
+79
+00:07:37,000 --> 00:07:43,000
+ According to German law, what I do is legal.
+
+80
+00:07:43,000 --> 00:07:48,000
+ So it's booting up for the Linux system boot up.
+
+81
+00:07:48,000 --> 00:07:50,000
+ It's roughly 30 seconds.
+
+82
+00:07:50,000 --> 00:07:55,000
+ And in the time in between, it's showing some animations.
+
+83
+00:07:55,000 --> 00:08:00,000
+ I have the animation on the slide right now.
+
+84
+00:08:00,000 --> 00:08:16,000
+ And what I did is essentially just rip artwork from two different projects and constructed something that would sort of make sense for the boot up phase.
+
+85
+00:08:16,000 --> 00:08:26,000
+ And once it booted up, there'll be the red eye popping up and I should say that I'm fully functional.
+
+86
+00:08:26,000 --> 00:08:29,000
+ And I haven't heard him.
+
+87
+00:08:29,000 --> 00:08:36,000
+ But we can, I guess, switch over to the hell now.
+
+88
+00:08:36,000 --> 00:08:39,000
+ Let me just take a look.
+
+89
+00:08:39,000 --> 00:08:40,000
+ It seems to be-- yep.
+
+90
+00:08:40,000 --> 00:08:41,000
+ It seems so.
+
+91
+00:08:41,000 --> 00:08:44,000
+ Two buttons or rotary encoders on top.
+
+92
+00:08:44,000 --> 00:08:50,000
+ For the volume and turning volume up.
+
+93
+00:08:50,000 --> 00:08:51,000
+ I don't think anybody can see it.
+
+94
+00:08:51,000 --> 00:08:57,000
+ There's like a volume indicator just like a tachometer on the car.
+
+95
+00:08:57,000 --> 00:09:05,000
+ So the wake word is OK hell.
+
+96
+00:09:05,000 --> 00:09:06,000
+ That didn't seem to work.
+
+97
+00:09:06,000 --> 00:09:15,000
+ Let me come around.
+
+98
+00:09:15,000 --> 00:09:19,000
+ OK hell.
+
+99
+00:09:19,000 --> 00:09:21,000
+ OK hell.
+
+100
+00:09:21,000 --> 00:09:27,000
+ OK demos are demos.
+
+101
+00:09:27,000 --> 00:09:32,000
+ So I can trigger this manually.
+
+102
+00:09:32,000 --> 00:09:35,000
+ Probably easier from down there.
+
+103
+00:09:35,000 --> 00:09:38,000
+ One button is the volume control.
+
+104
+00:09:38,000 --> 00:09:42,000
+ And the other button is an onscreen menu.
+
+105
+00:09:42,000 --> 00:09:44,000
+ And I have a menu voice command.
+
+106
+00:09:44,000 --> 00:09:49,000
+ When I push the button, the wake word detector triggered.
+
+107
+00:09:49,000 --> 00:09:56,000
+ So what it's doing now is actually loading the language model right now.
+
+108
+00:09:56,000 --> 00:10:01,000
+ So the first request is like a 10 second delay.
+
+109
+00:10:01,000 --> 00:10:03,000
+ And I want to move that into the boot up phase.
+
+110
+00:10:03,000 --> 00:10:08,000
+ So it doesn't have to be on the first spoken request.
+
+111
+00:10:08,000 --> 00:10:11,000
+ Hello Dave.
+
+112
+00:10:11,000 --> 00:10:12,000
+ Hello Dave.
+
+113
+00:10:12,000 --> 00:10:13,000
+ OK.
+
+114
+00:10:13,000 --> 00:10:18,000
+ Now it should work right away.
+
+115
+00:10:18,000 --> 00:10:22,000
+ So let's try that again.
+
+116
+00:10:22,000 --> 00:10:26,000
+ What date is it?
+
+117
+00:10:26,000 --> 00:10:34,000
+ It's processing now and rendering the speech output and maybe it will work.
+
+118
+00:10:34,000 --> 00:10:36,000
+ I'm sorry Dave.
+
+119
+00:10:36,000 --> 00:10:45,000
+ I'm afraid I can't do that.
+
+120
+00:10:45,000 --> 00:10:49,000
+ I guess it's still a good demo right?
+
+121
+00:10:49,000 --> 00:10:58,000
+ So I can power this down from telling me to turn yourself off etc.
+
+122
+00:10:58,000 --> 00:11:06,000
+ What happens then is it shuts down the system, shows the animation.
+
+123
+00:11:06,000 --> 00:11:10,000
+ And you probably can't see it right here but it will be in the recording.
+
+124
+00:11:10,000 --> 00:11:14,000
+ So it's the live animations, the live lines that go flat.
+
+125
+00:11:14,000 --> 00:11:19,000
+ And once it's gone flat, it's dead.
+
+126
+00:11:19,000 --> 00:11:23,000
+ So now I'll plug it off.
+
+127
+00:11:23,000 --> 00:11:28,000
+ But I actually have one more demo to show.
+
+128
+00:11:28,000 --> 00:11:31,000
+ So I'm going to plug it back in.
+
+129
+00:11:31,000 --> 00:11:38,000
+ And that's the part, well how do you configure that thing?
+
+130
+00:11:38,000 --> 00:11:45,000
+ So it has a web interface actually that I'm going to connect to in a second.
+
+131
+00:11:45,000 --> 00:11:49,000
+ And what I can do there is essentially configure the whole thing.
+
+132
+00:11:49,000 --> 00:11:57,000
+ I can configure commands that it should listen to, what actions to take etc.
+
+133
+00:11:57,000 --> 00:12:12,000
+ So we'll see whether or not that will work in a minute.
+
+134
+00:12:12,000 --> 00:12:18,000
+ Okay, let's boot it.
+
+135
+00:12:18,000 --> 00:12:27,000
+ So maybe you can see right here, just barely.
+
+136
+00:12:27,000 --> 00:12:31,000
+ Of course it has to be in the style of the movie.
+
+137
+00:12:31,000 --> 00:12:36,000
+ And so the first button is orders.
+
+138
+00:12:36,000 --> 00:12:42,000
+ So we did try what date is today.
+
+139
+00:12:42,000 --> 00:12:44,000
+ So that's this order.
+
+140
+00:12:44,000 --> 00:12:47,000
+ So it listens to the prompts.
+
+141
+00:12:47,000 --> 00:12:51,000
+ What is the date? What is today's date? What is today's date?
+
+142
+00:12:51,000 --> 00:13:01,000
+ And why that is exactly the way it is right there is something we'll talk about later on.
+
+143
+00:13:01,000 --> 00:13:08,000
+ So let's leave it at that for the demo.
+
+144
+00:13:08,000 --> 00:13:14,000
+ And get back to the slides.
+
+145
+00:13:14,000 --> 00:13:18,000
+ Oh, there it is.
+
+146
+00:13:18,000 --> 00:13:28,000
+ So what are the key takeaways from the demo, except for the demo gods weren't that good to me.
+
+147
+00:13:28,000 --> 00:13:30,000
+ There is the speech interface.
+
+148
+00:13:30,000 --> 00:13:35,000
+ Of course that's the main purpose of the voice assistant.
+
+149
+00:13:35,000 --> 00:13:45,000
+ But there's the physical interface, turning the knobs, getting feedback on the display, anything.
+
+150
+00:13:45,000 --> 00:13:50,000
+ And there's also a lot of little things that need attention.
+
+151
+00:13:50,000 --> 00:13:53,000
+ So the eye candy, these boot animations.
+
+152
+00:13:53,000 --> 00:13:57,000
+ Other people did the work, I just cut everything together.
+
+153
+00:13:57,000 --> 00:14:00,000
+ But that needs to be done.
+
+154
+00:14:00,000 --> 00:14:12,000
+ It is actually something where you know what is the device's date, so you can expect what is it going to do when you interact with it.
+
+155
+00:14:12,000 --> 00:14:19,000
+ The configuration and of course error handling and many, many other things.
+
+156
+00:14:19,000 --> 00:14:23,000
+ Why am I listing these? Because that's the core of my project.
+
+157
+00:14:23,000 --> 00:14:33,000
+ The actual voice part, so wake word detector, text to speech, intent parsing, etc.
+
+158
+00:14:33,000 --> 00:14:40,000
+ Is something that I'm using other software for.
+
+159
+00:14:40,000 --> 00:14:45,000
+ But as always, you fiddle with it and then you adapt it a little bit.
+
+160
+00:14:45,000 --> 00:14:51,000
+ So that part is also a little bit of part of my product.
+
+161
+00:14:51,000 --> 00:14:57,000
+ So what is essentially the idea, the goal?
+
+162
+00:14:57,000 --> 00:15:01,000
+ I want a voice assistant that is actually usable.
+
+163
+00:15:01,000 --> 00:15:12,000
+ So response times, boot up time, processing of commands is important so the user doesn't get bored while waiting for the response.
+
+164
+00:15:12,000 --> 00:15:17,000
+ Error rates, you want it to just work.
+
+165
+00:15:17,000 --> 00:15:23,000
+ And also important, everything should be done on the device.
+
+166
+00:15:23,000 --> 00:15:29,000
+ No connectivity required except for maybe skill executions.
+
+167
+00:15:29,000 --> 00:15:35,000
+ Then of course, or at least in this setting, it's open source.
+
+168
+00:15:35,000 --> 00:15:40,000
+ And it should be as easy as possible to build.
+
+169
+00:15:40,000 --> 00:15:52,000
+ And there's a couple of things like 3D printed enclosures. They were designed so that the print models are as easy to print as possible.
+
+170
+00:15:52,000 --> 00:15:55,000
+ So in the entire model, there's just one overhang.
+
+171
+00:15:55,000 --> 00:15:57,000
+ Well, actually, no, the second one is in there.
+
+172
+00:15:57,000 --> 00:16:06,000
+ But I essentially tried to make it as easy to build as possible.
+
+173
+00:16:06,000 --> 00:16:12,000
+ And also use components that are rather readily available.
+
+174
+00:16:12,000 --> 00:16:18,000
+ And yes, pies are hard to get nowadays, but the situations get better.
+
+175
+00:16:18,000 --> 00:16:24,000
+ So we hope that they become available again.
+
+176
+00:16:24,000 --> 00:16:27,000
+ Especially not a project goal was the price.
+
+177
+00:16:27,000 --> 00:16:35,000
+ So the components in here run up to roughly 120 to 200 euro, depending on what you put in there.
+
+178
+00:16:35,000 --> 00:16:38,000
+ So I put also an ID card reader in there.
+
+179
+00:16:38,000 --> 00:16:41,000
+ You know, you don't need it.
+
+180
+00:16:41,000 --> 00:16:44,000
+ Then you don't need that.
+
+181
+00:16:44,000 --> 00:16:51,000
+ So what's in there?
+
+182
+00:16:51,000 --> 00:16:54,000
+ We have the pie zero two.
+
+183
+00:16:54,000 --> 00:16:57,000
+ And that's where the Linux system is running on.
+
+184
+00:16:57,000 --> 00:17:02,000
+ And that's the greenish thing up here.
+
+185
+00:17:02,000 --> 00:17:07,000
+ Below it is the display with a microcontroller.
+
+186
+00:17:07,000 --> 00:17:12,000
+ And below that is essentially a sound board.
+
+187
+00:17:12,000 --> 00:17:17,000
+ It has two microphones and a speaker connector.
+
+188
+00:17:17,000 --> 00:17:23,000
+ And then we have a GPIO extender.
+
+189
+00:17:23,000 --> 00:17:26,000
+ So more pins to connect to.
+
+190
+00:17:26,000 --> 00:17:35,000
+ And in my part of the project, I have a requirement for RFID card because my kids have RFID cards.
+
+191
+00:17:35,000 --> 00:17:42,000
+ They put in a reader and the Peppa Pig or whatever starts playing.
+
+192
+00:17:42,000 --> 00:17:46,000
+ So I wanted that to be part of this project also.
+
+193
+00:17:46,000 --> 00:17:50,000
+ But that's just the bare components.
+
+194
+00:17:50,000 --> 00:17:52,000
+ How do we need to connect them?
+
+195
+00:17:52,000 --> 00:17:59,000
+ So the first part is we connect the pie zero with the hat.
+
+196
+00:17:59,000 --> 00:18:08,000
+ And that's actually, if you could get the camera right here, that's actually a cable in here.
+
+197
+00:18:08,000 --> 00:18:11,000
+ Is that in the picture?
+
+198
+00:18:11,000 --> 00:18:20,000
+ And it just runs down and connects the hat that's down here behind the wire mesh.
+
+199
+00:18:20,000 --> 00:18:23,000
+ So those are connected now.
+
+200
+00:18:23,000 --> 00:18:28,000
+ Then we have next the connection from the pie zero to the display with the microcontroller.
+
+201
+00:18:28,000 --> 00:18:31,000
+ That's just a regular USB cable.
+
+202
+00:18:31,000 --> 00:18:37,000
+ And that provides power and data channel to the microcontroller.
+
+203
+00:18:37,000 --> 00:18:43,000
+ Then I2C connection from the microcontroller to the GPIO board.
+
+204
+00:18:43,000 --> 00:18:55,000
+ Because maybe you can also just get the idea that these displays with microcontrollers, they don't have too many pinouts.
+
+205
+00:18:55,000 --> 00:19:04,000
+ So then I2C connection from the GPIO extender to my RFID reader.
+
+206
+00:19:04,000 --> 00:19:11,000
+ And then, of course, and I already mentioned this, we have the microphones on the board.
+
+207
+00:19:11,000 --> 00:19:13,000
+ Then we have a speaker.
+
+208
+00:19:13,000 --> 00:19:16,000
+ And then we need power.
+
+209
+00:19:16,000 --> 00:19:20,000
+ And now we're pretty much almost ready to go.
+
+210
+00:19:20,000 --> 00:19:25,000
+ Except we didn't talk about the rotary encoders as the user interface.
+
+211
+00:19:25,000 --> 00:19:30,000
+ So they wire up to the GPIO extender.
+
+212
+00:19:30,000 --> 00:19:35,000
+ And you need five connections per rotary encoder.
+
+213
+00:19:35,000 --> 00:19:38,000
+ It has a push button, so that's ten cables.
+
+214
+00:19:38,000 --> 00:19:48,000
+ And then we have quite a lot of cables in a very constrained area.
+
+215
+00:19:48,000 --> 00:19:54,000
+ So that's getting quite a bit fiddly at times.
+
+216
+00:19:54,000 --> 00:19:56,000
+ But wait, there's more.
+
+217
+00:19:56,000 --> 00:19:58,000
+ There's I2C polling.
+
+218
+00:19:58,000 --> 00:20:03,000
+ I2C is a command response protocol.
+
+219
+00:20:03,000 --> 00:20:16,000
+ So there's no way that a device that has an event, so the rotary controller, when you move it, it changes the state on the pins.
+
+220
+00:20:16,000 --> 00:20:20,000
+ I2C has no way to say, okay, hey, here's something that's happening.
+
+221
+00:20:20,000 --> 00:20:24,000
+ So you need to poll this.
+
+222
+00:20:24,000 --> 00:20:31,000
+ The microcontroller polls the states of the GPIOs every, I think, ten milliseconds.
+
+223
+00:20:31,000 --> 00:20:37,000
+ And when something changes, then it knows, okay, the button has been pushed or whatever.
+
+224
+00:20:37,000 --> 00:20:42,000
+ And obviously that's not such a nice solution.
+
+225
+00:20:42,000 --> 00:20:45,000
+ But what is the alternative?
+
+226
+00:20:45,000 --> 00:20:59,000
+ Well, this GPIO extender from Adafruit has two pins that you can actually use to notify the system that something has happened.
+
+227
+00:20:59,000 --> 00:21:01,000
+ Something has changed.
+
+228
+00:21:01,000 --> 00:21:08,000
+ And you connect that down into the song board.
+
+229
+00:21:08,000 --> 00:21:13,000
+ It has an additional pin out board.
+
+230
+00:21:13,000 --> 00:21:15,000
+ It's a growth port.
+
+231
+00:21:15,000 --> 00:21:19,000
+ And then at least you could detect right there, okay, something has happened.
+
+232
+00:21:19,000 --> 00:21:20,000
+ What has happened?
+
+233
+00:21:20,000 --> 00:21:21,000
+ We don't know.
+
+234
+00:21:21,000 --> 00:21:23,000
+ We need to poll that using I2C.
+
+235
+00:21:23,000 --> 00:21:37,000
+ And then you also connect the RFID card reader with that and have then also a means to get events from the card reader.
+
+236
+00:21:37,000 --> 00:21:38,000
+ I stopped there.
+
+237
+00:21:38,000 --> 00:21:39,000
+ I didn't do this.
+
+238
+00:21:39,000 --> 00:21:42,000
+ Yes, it would be the nicer solution.
+
+239
+00:21:42,000 --> 00:22:07,000
+ But with this small space and that many cables in there already, I was like, okay, no, let's leave it at I2C polling and no outside channel that notifies that there is an event just because of already the amount of stuff in there.
+
+240
+00:22:07,000 --> 00:22:34,000
+ So one thing that we also have to consider is when we were to connect these cables, the notification lines, so to say, that some I2C event would be or some GPIO change has occurred so that big poll.
+
+241
+00:22:34,000 --> 00:22:40,000
+ We need to talk about the voltages because the Raspberry Pi zeros are not five volt tolerant.
+
+242
+00:22:40,000 --> 00:22:51,000
+ So the I2C powering system and I2C is both three three or five volts capable or.
+
+243
+00:22:51,000 --> 00:23:01,000
+ Compliant, so you would have to pick a microcontroller with a display that runs on a three three system for for the I2C.
+
+244
+00:23:01,000 --> 00:23:07,000
+ Otherwise, you fry your pie zero or you need to do a level shifter, which adds even more stuff to that package.
+
+245
+00:23:07,000 --> 00:23:17,000
+ So I left it at that minimal set up, so to say.
+
+246
+00:23:17,000 --> 00:23:23,000
+ OK, this is the current state.
+
+247
+00:23:23,000 --> 00:23:27,000
+ There have been some components that were swapped out.
+
+248
+00:23:27,000 --> 00:23:39,000
+ So before the pie zero two came out, I did have a pie three B in there, which, of course, filled up that that that case even more.
+
+249
+00:23:39,000 --> 00:23:43,000
+ So I was glad that the Python
+
+250
+00:23:43,000 --> 00:23:53,410
+ to Pi 0.2 does have enough power, at least with some overclocking, to bring usable performance.
+
+251
+00:23:53,410 --> 00:23:59,450
+ Before the displays were available with embedded controllers on the back side from just regular
+
+252
+00:23:59,450 --> 00:24:09,770
+ shops where you buy that stuff. I did have just regular LCD in there with a display controller,
+
+253
+00:24:09,770 --> 00:24:15,730
+ and also just happy that I got rid of that stuff. And the last change really is I put
+
+254
+00:24:15,730 --> 00:24:21,210
+ in a bigger speaker in the bottom because the speaker I did have in there first was
+
+255
+00:24:21,210 --> 00:24:29,610
+ rather not so loud. So hardware was really, really stable. And now we get to the MCU options.
+
+256
+00:24:29,610 --> 00:24:40,170
+ So essentially the display what you see is behind the dome. So this is the component.
+
+257
+00:24:40,170 --> 00:24:46,810
+ And again for printability and for easy build, you print this, you print this, and this is
+
+258
+00:24:46,810 --> 00:24:54,690
+ the design casing for this microcontroller that I have in here. You have a different
+
+259
+00:24:54,690 --> 00:25:01,330
+ microcontroller, one of the three that I have modeling for. You just swap this and
+
+260
+00:25:01,330 --> 00:25:08,330
+ put it in and you're all good to go. So the first one that I started with is the Roundy
+
+261
+00:25:08,330 --> 00:25:16,210
+ Pi. That's a board with a round display, and that's actually the one that's built in right
+
+262
+00:25:16,210 --> 00:25:27,710
+ there. And it has an RP2040 in there. That's what's on the board known as the Pi Pico.
+
+263
+00:25:27,710 --> 00:25:34,610
+ It has six pinouts, works with 3.3 volts, so that's perfect for us. It has four GPIOs.
+
+264
+00:25:34,610 --> 00:25:40,850
+ Two of those are power and ground, and two of those are ITC capable. So it works just
+
+265
+00:25:40,850 --> 00:25:46,050
+ -- oh wait, no, power and ground I already have up there. We have two additional GPIOs.
+
+266
+00:25:46,050 --> 00:25:56,090
+ But we have ITC and that's all we need. That's what it looks like. It even has an SD card
+
+267
+00:25:56,090 --> 00:26:06,290
+ on the back side. I don't make use of that. The next one is a M5 stack core 2. And that's
+
+268
+00:26:06,290 --> 00:26:17,090
+ probably the most easiest accessible option to build because it is one of those monitor
+
+269
+00:26:17,090 --> 00:26:24,130
+ package thingies that they have with their M5 stack line. It also has a growth connector
+
+270
+00:26:24,130 --> 00:26:39,810
+ so that's just easy to connect. There's one issue with this. This board has a CH9102 chip
+
+271
+00:26:39,810 --> 00:26:48,050
+ for the USB connection for the communication. And it reports always connected. The serial
+
+272
+00:26:48,050 --> 00:26:57,370
+ CDC ACM connection is reported as always status connected. So there's no way for the Linux
+
+273
+00:26:57,370 --> 00:27:07,650
+ system to conclude in what state the processor is. It might not even have a working firmware
+
+274
+00:27:07,650 --> 00:27:21,410
+ on it. I'm connected. So I like this physically but that chip behavior is really not so nice.
+
+275
+00:27:21,410 --> 00:27:31,770
+ And then there's WaveShare also an RP2040. It does also have that CH9102 chip same behavior.
+
+276
+00:27:31,770 --> 00:27:42,170
+ The nice thing about it is it has 30 pinouts. That's what's in here. And they're really,
+
+277
+00:27:42,170 --> 00:27:53,570
+ really tiny because they're half the size of a regular GPIO. So instead of 2.54 millimeters,
+
+278
+00:27:53,570 --> 00:28:01,730
+ they're in 1.7 millimeters. So that's really, really tiny. So let's get to the software side
+
+279
+00:28:01,730 --> 00:28:10,650
+ and I need to hurry up a little bit. On the Linux side we have the speech processing software.
+
+280
+00:28:10,650 --> 00:28:18,090
+ I used Calliope and why that's the case we'll get to later on. That's for essentially all
+
+281
+00:28:18,090 --> 00:28:25,930
+ the voice interaction. And then there's the physical interaction with the buttons and
+
+282
+00:28:25,930 --> 00:28:35,770
+ the display. That's essentially what has been the core of my work for this project. And
+
+283
+00:28:35,770 --> 00:28:43,090
+ the last part is CommitUp. So that's a package that's readily available in Debian essentially
+
+284
+00:28:43,090 --> 00:28:51,650
+ for network configuration. So all the application part components, they are in Python. They
+
+285
+00:28:51,650 --> 00:29:00,930
+ run in micro-VSGI application server with the Python 3 plugin. And if you have never
+
+286
+00:29:00,930 --> 00:29:10,210
+ seen that application server software, I highly recommend it. It is one of the most extensively
+
+287
+00:29:10,210 --> 00:29:20,210
+ implemented application server software I've ever seen. So on the Arduino, the micro-controller,
+
+288
+00:29:20,210 --> 00:29:26,490
+ Arduino is the framework that I use there. And essentially what the thing does is just
+
+289
+00:29:26,490 --> 00:29:35,170
+ I/O handler. It just regularly pulls I2C, is there something that the user triggered
+
+290
+00:29:35,170 --> 00:29:43,010
+ for me. It also displays whatever needs to be displayed on the, shown on the display.
+
+291
+00:29:43,010 --> 00:29:49,250
+ And essentially as long as whatever device you have, as long as it can signal its state
+
+292
+00:29:49,250 --> 00:30:00,290
+ to just some pins on the GPIO extender, then you're all good. You can use it. So the firmware
+
+293
+00:30:00,290 --> 00:30:07,450
+ is in C++ because the animations, all the graphics that are in there take up quite a
+
+294
+00:30:07,450 --> 00:30:22,930
+ lot of space. And the RP 2040 only has 264 kilobytes of RAM. So that's rather constrained.
+
+295
+00:30:22,930 --> 00:30:28,810
+ The ESP32 has loads and loads of memory, so that wouldn't be an issue. But with the RP
+
+296
+00:30:28,810 --> 00:30:34,570
+ 2040, Python, micro-Python, circuit Python wouldn't have been an option due to memory
+
+297
+00:30:34,570 --> 00:30:43,810
+ constraint. So the micro-controller is really stateless, once in an up and running state.
+
+298
+00:30:43,810 --> 00:30:52,930
+ And I2C polling, we'll get to this just on the next slide. Because that's also where
+
+299
+00:30:52,930 --> 00:31:15,650
+ software history, let me skip over this. Okay. I moved my slides. Software history. MyCraft
+
+300
+00:31:15,650 --> 00:31:23,490
+ did build, and we've seen these MyCraft components for weight word detector and speech to text,
+
+301
+00:31:23,490 --> 00:31:32,250
+ I think, on the Earth's side. They wanted to do everything on device also. They put
+
+302
+00:31:32,250 --> 00:31:37,850
+ everything they made open source, except for the speech to text because they did rely on
+
+303
+00:31:37,850 --> 00:31:48,490
+ cloud services for that as well. So MyCraft was the initial voice assistant software that
+
+304
+00:31:48,490 --> 00:31:55,770
+ I tried, but then switched over to Calliope. For the weight word detectors, the open source
+
+305
+00:31:55,770 --> 00:32:04,170
+ detectors, they have too high false positive rate to be usable in just everyday situations.
+
+306
+00:32:04,170 --> 00:32:10,450
+ Right now, I actually use the Pico Voice Pocupyne 2, which is not open source, but which is
+
+307
+00:32:10,450 --> 00:32:18,530
+ free in terms of money. You can get a personal license for free. So that's not bad also,
+
+308
+00:32:18,530 --> 00:32:28,770
+ and it works quite nicely. And then we have the speech to text topic. So the open source
+
+309
+00:32:28,770 --> 00:32:34,850
+ information have usually a word error rate of around 10% or more than that, and that's
+
+310
+00:32:34,850 --> 00:32:41,330
+ really unusable for interacting with a device where you just expect to have, you know, you
+
+311
+00:32:41,330 --> 00:32:48,690
+ just want it to work. So the reason why this is so high is because the vocabulary is so
+
+312
+00:32:48,690 --> 00:32:55,770
+ big. You know, they have 50,000 words in that language model, and they don't know what to
+
+313
+00:32:55,770 --> 00:33:03,090
+ expect. So if we could reduce the vocabulary, then we could improve on the word error rate.
+
+314
+00:33:03,090 --> 00:33:10,250
+ And that's what Calliope allowed us to do, because the biggest drawback of Calliope is
+
+315
+00:33:10,250 --> 00:33:18,450
+ that it does no intent parsing. It does essentially string matching. So you have to configure all
+
+316
+00:33:18,450 --> 00:33:26,050
+ variations of the commands that you wanted to react to, and that's rather bothersome.
+
+317
+00:33:26,050 --> 00:33:33,770
+ But because we do that, we have a non-vocabulary. So we can reduce the vocabulary for the speech
+
+318
+00:33:33,770 --> 00:33:43,090
+ to text, and that has the effect that we have a word error rate of way, way, way less than
+
+319
+00:33:43,090 --> 00:33:50,690
+ 10%. I have to really try to, you know, under better conditions than this to get it to misunderstand
+
+320
+00:33:50,690 --> 00:33:59,210
+ me. So Calliope also has REST API, and all these components talk to each other, essentially
+
+321
+00:33:59,210 --> 00:34:08,290
+ MQTT for the different processes, USB, I already said, for talking to the Arduino controller.
+
+322
+00:34:08,290 --> 00:34:14,450
+ The web interface for configuration is done using flat dev, so it talks to the flat daemon,
+
+323
+00:34:14,450 --> 00:34:24,810
+ that's IPC, and the browser, of course, talks to the frontend that is the console. So talking
+
+324
+00:34:24,810 --> 00:34:31,170
+ to the microcontroller, we have around 15 commands that need to be sent to the device.
+
+325
+00:34:31,170 --> 00:34:38,170
+ The device needs to send a response. The device needs to send events when some IO event has
+
+326
+00:34:38,170 --> 00:34:45,290
+ been detected, and also just this lock or debug event from the microcontroller to the host.
+
+327
+00:34:45,290 --> 00:34:53,370
+ So various parameter types, so I decided to use JSON as the protocol, and essentially
+
+328
+00:34:53,370 --> 00:35:00,410
+ it's a JSON array. The first element is the command, the second element is a dictionary
+
+329
+00:35:00,410 --> 00:35:06,890
+ of key values for the parameters. So due to timing, I'm going to skip over this real quick.
+
+330
+00:35:06,890 --> 00:35:12,730
+ It's essentially booting up, configuring, I need to configure where the GPIO extender
+
+331
+00:35:12,730 --> 00:35:20,090
+ is on the I2C bus, and then I tell it, okay, start. Why did I put this in here? Because
+
+332
+00:35:20,090 --> 00:35:25,290
+ the I2C polling is done on the second core of the RP 2040 and also on the second core
+
+333
+00:35:25,290 --> 00:35:31,850
+ of the ESP32, because they both have two cores. We can just move the I2C polling issue to
+
+334
+00:35:31,850 --> 00:35:37,330
+ the second core and not worry about that anymore. End of configuration, and then it says I'm
+
+335
+00:35:37,330 --> 00:35:43,690
+ running, and then the Linux system says, okay, show the idle screen, which is just the current
+
+336
+00:35:43,690 --> 00:35:51,770
+ time. When an IO happens, there's an event from the microcontroller to the host, which
+
+337
+00:35:51,770 --> 00:35:56,610
+ essentially just say, okay, I have it on this pin. You told me this pin has the name volume,
+
+338
+00:35:56,610 --> 00:36:04,610
+ and it's an event that you configured as delta plus one, so I get consumable events for the
+
+339
+00:36:04,610 --> 00:36:10,270
+ applications inside the Linux system. And then the response is, okay, well, then show
+
+340
+00:36:10,270 --> 00:36:24,250
+ the overlay for the volume control. Let me skip over that. So anecdotes. Let me talk
+
+341
+00:36:24,250 --> 00:36:38,250
+ about the USB here first. I did plug in the hell into my laptop, and at home I have a
+
+342
+00:36:38,250 --> 00:36:44,490
+ docking station with a USB hub, and once I put this project aside for a couple weeks
+
+343
+00:36:44,490 --> 00:36:50,010
+ and then pull it out of the drawer, start working on it again, I plug it into the USB
+
+344
+00:36:50,010 --> 00:36:57,770
+ hub, and I hit every now and then errors that I'm unable to explain. And then it takes a
+
+345
+00:36:57,770 --> 00:37:01,570
+ while, and then it's like, oh, man, I forgot the USB hub doesn't have enough power for
+
+346
+00:37:01,570 --> 00:37:07,370
+ the thing to operate correctly, so it's really a power issue. And I've run into this many
+
+347
+00:37:07,370 --> 00:37:16,850
+ times, and then it's like, okay, I did forget about that again. And I'm going to skip over
+
+348
+00:37:16,850 --> 00:37:28,090
+ a couple of these. The dome that does really nicely, I can't get it apart, you know, it
+
+349
+00:37:28,090 --> 00:37:36,570
+ sits on the display that does the lighting, does very cool reflection effects. That was
+
+350
+00:37:36,570 --> 00:37:45,850
+ the hardest part to source. I bought like 20 or 30 different domes before I found one
+
+351
+00:37:45,850 --> 00:37:54,770
+ that was really a good fit for this project. And MyCraft, they just went bankrupt, I think,
+
+352
+00:37:54,770 --> 00:38:00,530
+ at the beginning of this year, at least they closed their operations, so their source code
+
+353
+00:38:00,530 --> 00:38:07,410
+ is still online. There have been a couple of commits to it, but, you know, it's probably
+
+354
+00:38:07,410 --> 00:38:15,570
+ more of a done deal now. So release 1.0. I need to finish quite a few bits here and there.
+
+355
+00:38:15,570 --> 00:38:24,810
+ And one important part is when you just, you know, put in the install image on the SD card,
+
+356
+00:38:24,810 --> 00:38:29,270
+ you need to configure the network card. So the idea is to show a QR code on the display
+
+357
+00:38:29,270 --> 00:38:33,250
+ that you scan with your mobile phone that has the connection for the Wi-Fi. You connect
+
+358
+00:38:33,250 --> 00:38:40,250
+ to the AP that's running on there. That's the CommitUp software. Then you configure
+
+359
+00:38:40,250 --> 00:38:50,010
+ and then you're all running. Oh, yeah, and I want to do documentation. So hardware. I
+
+360
+00:38:50,010 --> 00:38:58,570
+ really have no idea if there is anything else to add to it. So hardware is probably stable
+
+361
+00:38:58,570 --> 00:39:08,570
+ unless some Pi 0.3 comes out. Software. I want to take a look at other open source
+
+362
+00:39:08,570 --> 00:39:16,570
+ wakeboard detector implementations. And the other part is Calliope needs in some areas
+
+363
+00:39:16,570 --> 00:39:22,730
+ quite a bit of code refactoring. So that's what's down the road for me on that. And that's
+
+364
+00:39:22,730 --> 00:39:30,010
+ it. So thank you for all the organizers and angels for enabling us to be here. And now
+
+365
+00:39:30,010 --> 00:39:31,370
+ we have time for questions.
+
+366
+00:39:31,370 --> 00:39:40,170
+ [Applause]
+
+367
+00:39:40,170 --> 00:39:42,170
+ So do we have questions?
+
+368
+00:39:42,170 --> 00:39:55,770
+ Hello. Thank you. One thing I, by myself and others, usually observe with these devices
+
+369
+00:39:55,770 --> 00:40:01,450
+ by the usual known vendors with cloud and anything is kind of, hey, play this and that
+
+370
+00:40:01,450 --> 00:40:08,010
+ music and then you have a Spotify or YouTube music account in the background. Do you have
+
+371
+00:40:08,010 --> 00:40:14,970
+ any thoughts about solving this multimedia stuff and casting stuff to TVs or is this
+
+372
+00:40:14,970 --> 00:40:19,690
+ basically something where you have to go while the big windows close and we say we don't
+
+373
+00:40:19,690 --> 00:40:20,690
+ want that?
+
+374
+00:40:20,690 --> 00:40:28,370
+ Okay. What I already have implemented, that's really the other project, why the RFID card
+
+375
+00:40:28,370 --> 00:40:37,970
+ reader is in there. I actually have a Python implementation that's working for connecting
+
+376
+00:40:37,970 --> 00:40:45,210
+ to the Spotify API and playing that. And I don't think I've released that yet. Really
+
+377
+00:40:45,210 --> 00:40:56,210
+ just trivial code changes, but the last time I checked a year ago that didn't work. So that's
+
+378
+00:40:56,210 --> 00:41:05,890
+ a main use case, so to say, for this. In terms of putting that into this whole ecosystem
+
+379
+00:41:05,890 --> 00:41:12,370
+ of software that's running on there, it'll probably be a Kaliope plugin later on. So
+
+380
+00:41:12,370 --> 00:41:24,730
+ expect that sometime down the road. I think there was another question over here somewhere.
+
+381
+00:41:24,730 --> 00:41:31,090
+ How is the microphone performance of the system?
+
+382
+00:41:31,090 --> 00:41:43,570
+ Yeah. So on camp settings, not so good. When you're in a room, like your home, it's quite
+
+383
+00:41:43,570 --> 00:41:52,450
+ good. So three meters is the distance where you can reliably talk to it. So more than
+
+384
+00:41:52,450 --> 00:42:04,090
+ three meters, that's iffy, but three meters or closer is quite good. And I would say if
+
+385
+00:42:04,090 --> 00:42:09,050
+ you're like three meters away, you probably get a word error rate of, I don't know, just
+
+386
+00:42:09,050 --> 00:42:18,370
+ by feeling, I would say maybe 5% when you're up close, because it's right on the wall next
+
+387
+00:42:18,370 --> 00:42:23,050
+ to you or so, then way below 1%.
+
+388
+00:42:23,050 --> 00:42:30,650
+ Hi. How does your work relate to other existing solutions that do the whole thing in one,
+
+389
+00:42:30,650 --> 00:42:34,650
+ like Snips or Jasper or Open Assistant?
+
+390
+00:42:34,650 --> 00:42:44,330
+ Okay. Open Assistant is really like a home automation thing that has a voice interface,
+
+391
+00:42:44,330 --> 00:42:47,410
+ if I know.
+
+392
+00:42:47,410 --> 00:42:52,970
+ But Home Assistant, Open Assistant, that's like Snips or Jasper.
+
+393
+00:42:52,970 --> 00:43:03,570
+ Open Assistant I'm actually not aware of. Snips, I can't play Snips right now. I've
+
+394
+00:43:03,570 --> 00:43:14,130
+ heard I've looked at it, but I can't say right now what it was. So maybe we can talk afterwards.
+
+395
+00:43:14,130 --> 00:43:19,490
+ So all this work that you have done, do you have published it or is this still a plan?
+
+396
+00:43:19,490 --> 00:43:32,050
+ Well there's like a right now, not really working state on GitHub. I have around, I
+
+397
+00:43:32,050 --> 00:43:39,050
+ would say 50 to 70 commits that I haven't pushed to GitHub yet. But I'll do that rather
+
+398
+00:43:39,050 --> 00:43:49,570
+ soonish, so hopefully next week. So probably in a month, I would say, the state on the
+
+399
+00:43:49,570 --> 00:44:02,530
+ GitHub, oh and I didn't put in the URLs for the GitHub. Well, I mean, you can Google it.
+
+400
+00:44:02,530 --> 00:44:09,010
+ But probably in a month, I expect to have a working state in GitHub that you can just
+
+401
+00:44:09,010 --> 00:44:19,970
+ download and install script, etc. So hopefully by then it will be rather easy to deploy.
+
+402
+00:44:19,970 --> 00:44:27,130
+ Right now it's a lot of manual fiddling.
+
+403
+00:44:27,130 --> 00:44:28,130
+ You have the mic.
+
+404
+00:44:28,130 --> 00:44:36,850
+ So the first I didn't get is what's the easiest way, I mean, how easy it is to create new
+
+405
+00:44:36,850 --> 00:44:41,890
+ commands. So for example, is there a web UI for that or do you have to rebuild the whole
+
+406
+00:44:41,890 --> 00:44:42,890
+ thing?
+
+407
+00:44:42,890 --> 00:44:52,370
+ No, no, that was the web UI that I had shown. So this right here, it's not so visible. But
+
+408
+00:44:52,370 --> 00:44:54,410
+ you can edit the commands right here.
+
+409
+00:44:54,410 --> 00:44:59,890
+ But how does that interact with the model? Would you say you have a fixed model of words
+
+410
+00:44:59,890 --> 00:45:01,390
+ that are defined?
+
+411
+00:45:01,390 --> 00:45:11,370
+ So let's say you add a new order and introduce new words, right? What it does is it uses
+
+412
+00:45:11,370 --> 00:45:17,250
+ the Calliope REST API to say, okay, there's a new order, that's the term for it, with
+
+413
+00:45:17,250 --> 00:45:28,290
+ the given prompts, the words. And that is then used by the speech to text plugin on
+
+414
+00:45:28,290 --> 00:45:37,450
+ the request. So when the speech to text request is made, it looks at the working set of the
+
+415
+00:45:37,450 --> 00:45:47,050
+ words in the model, in the Calliope prompt model. So it's always up to date.
+
+416
+00:45:47,050 --> 00:45:50,770
+ Is it offline, that part as well?
+
+417
+00:45:50,770 --> 00:45:56,850
+ Yeah. Unless you have a skill that needs some sort of network connectivity, this thing wouldn't
+
+418
+00:45:56,850 --> 00:46:01,450
+ need anything.
+
+419
+00:46:01,450 --> 00:46:12,170
+ So well, maybe this last question.
+
+420
+00:46:12,170 --> 00:46:18,170
+ Do you have implemented any multi-device management? So I trigger the hot word and the device in
+
+421
+00:46:18,170 --> 00:46:23,090
+ the kitchen and in the living room can hear it. Do they speak to each other, hey, who
+
+422
+00:46:23,090 --> 00:46:25,850
+ will handle the job of us?
+
+423
+00:46:25,850 --> 00:46:31,290
+ It's actually somewhat already implemented, you need to configure it because the Calliope
+
+424
+00:46:31,290 --> 00:46:42,610
+ has HTTP REST and MQTT skills, so to say. So you could interact with whatever bus your
+
+425
+00:46:42,610 --> 00:46:49,410
+ home automation device or system has, like Home Assistant, Open Hub, whatever. It needs
+
+426
+00:46:49,410 --> 00:46:55,930
+ to be configured, but it technically will work.
+
+427
+00:46:55,930 --> 00:47:03,930
+ So unfortunately, we have reached the end of our time, but also most of the questions
+
+428
+00:47:03,930 --> 00:47:11,050
+ were answered, so I guess you are all ready to build your own hell now. And with that,
+
+429
+00:47:11,050 --> 00:47:18,930
+ I think we thank the speaker again.
+
+430
+00:47:18,930 --> 00:47:25,170
+ Thank you.
+

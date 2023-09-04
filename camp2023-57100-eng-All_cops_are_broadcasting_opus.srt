@@ -1,0 +1,1532 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:33,000
+ Welcome to the Millie Ray stage for our next talk.
+
+4
+00:00:33,000 --> 00:00:38,000
+ But first things first, I hope you all are well hydrated,
+
+5
+00:00:38,000 --> 00:00:42,000
+ are drinking enough water, and because of the windy conditions,
+
+6
+00:00:42,000 --> 00:00:48,000
+ have secured your tents safely so that they don't fly around and endanger people.
+
+7
+00:00:48,000 --> 00:00:53,000
+ I also would like to ask you if you took cups from the heaven kitchen,
+
+8
+00:00:53,000 --> 00:00:59,000
+ haven't returned them yet, to please return them so that the angels can drink their liquid fuel
+
+9
+00:00:59,000 --> 00:01:03,000
+ and can fly still fast and happily.
+
+10
+00:01:03,000 --> 00:01:07,000
+ Also, as we have a lot of guests here today, which is great,
+
+11
+00:01:07,000 --> 00:01:12,000
+ please keep the pathways here clear so that people can leave,
+
+12
+00:01:12,000 --> 00:01:19,000
+ and if people want to leave, please make way for them. Thank you very much.
+
+13
+00:01:19,000 --> 00:01:24,000
+ So I'm very pleased to announce the talk, All Cops are Broadcasting,
+
+14
+00:01:24,000 --> 00:01:31,000
+ Obtaining the Secret Tetra Primitives of After Decades in the Shadows.
+
+15
+00:01:31,000 --> 00:01:41,000
+ Here with me are Raute and Carlo. They are researchers who also founded a company called Midnight Blue,
+
+16
+00:01:41,000 --> 00:01:45,000
+ but they are going to tell you all this stuff way better themselves,
+
+17
+00:01:45,000 --> 00:01:48,000
+ so I'm going to fly away and give the word to you.
+
+18
+00:01:48,000 --> 00:01:51,000
+ And give applause please to our wonderful speakers.
+
+19
+00:01:51,000 --> 00:01:59,000
+ [APPLAUSE]
+
+20
+00:01:59,000 --> 00:02:02,000
+ Thank you. All right. Welcome everyone to our talk,
+
+21
+00:02:02,000 --> 00:02:07,000
+ All Cops are Broadcasting, Obtaining the Secret Tetra Primitives of After Decades in the Shadows.
+
+22
+00:02:07,000 --> 00:02:13,000
+ I'm very excited to finally present this to you all after two and a half years of silence on the matter.
+
+23
+00:02:13,000 --> 00:02:20,000
+ My name is Karde Meijer, and these are my colleagues Wouter Boxlag and unfortunately Jos Wetzels, who isn't here.
+
+24
+00:02:20,000 --> 00:02:25,000
+ Together we form Midnight Blue, a specialist security company firm from the Netherlands,
+
+25
+00:02:25,000 --> 00:02:32,000
+ and we focus on high-end security research, mainly in critical infrastructure and embedded systems.
+
+26
+00:02:32,000 --> 00:02:40,000
+ The three of us found vulnerabilities from everything from car immobilizers, the BlackBerry QNX operating systems,
+
+27
+00:02:40,000 --> 00:02:46,000
+ and MyFair Classic RFID cards. So what's Tetra?
+
+28
+00:02:46,000 --> 00:02:54,000
+ Tetra is a globally used radio technology that competes with the likes of P25, DMR, TetraPol.
+
+29
+00:02:54,000 --> 00:03:00,000
+ It was standardized in 1995 by the European standards organization ETSI,
+
+30
+00:03:00,000 --> 00:03:06,000
+ who is known for GSM, 3G, 4G, and 5.3, DMR, and the likes.
+
+31
+00:03:06,000 --> 00:03:15,000
+ And Tetra is used for conventional voice communication in handheld radios, but also data communication, including machine-to-machine.
+
+32
+00:03:15,000 --> 00:03:21,000
+ And the interesting thing is that it relies on secret proprietary cryptography.
+
+33
+00:03:21,000 --> 00:03:30,000
+ So Tetra is one of the most popular radio technologies used by police all around the world, with the exception of the US and France.
+
+34
+00:03:30,000 --> 00:03:38,000
+ It is used by national or regional police forces in countries like the UK, Germany, Scandinavia, and Eastern Europe,
+
+35
+00:03:38,000 --> 00:03:41,000
+ but also in large parts of South America and Asia.
+
+36
+00:03:41,000 --> 00:03:48,000
+ Now be aware that these maps we're showing are just the users we could confirm through open source intelligence.
+
+37
+00:03:48,000 --> 00:03:51,000
+ There may be more out there.
+
+38
+00:03:51,000 --> 00:04:01,000
+ Not only the police uses Tetra, it is also used by the military and intelligence agencies across the world in different capacities.
+
+39
+00:04:01,000 --> 00:04:11,000
+ And on top of that, it's also used by widely critical infrastructure, private security personnel at airports, harbors, and train stations.
+
+40
+00:04:11,000 --> 00:04:20,000
+ They use it for voice communication, but it's also deployed as a radio link in wide area SCADA networks to carry telecontrol traffic
+
+41
+00:04:20,000 --> 00:04:26,000
+ for electrical substations, oil, gas pipelines, or railway signaling.
+
+42
+00:04:26,000 --> 00:04:31,000
+ So while Tetra is a public standard, its cryptography is kept secret.
+
+43
+00:04:31,000 --> 00:04:37,000
+ In the figure on the right, you can see how they describe a lot of high-level schemes,
+
+44
+00:04:37,000 --> 00:04:46,000
+ but then the primitives within those schemes are essentially black boxes whose specifications are only available under NDA,
+
+45
+00:04:46,000 --> 00:04:54,000
+ which means you cannot publish the details of any findings if you're a researcher.
+
+46
+00:04:54,000 --> 00:04:59,000
+ Manufacturers are also required to protect algorithms against extraction.
+
+47
+00:04:59,000 --> 00:05:09,000
+ This kind of security theater, however, since any top-tier adversary will already have these specifications through either their own manufacturer,
+
+48
+00:05:09,000 --> 00:05:17,000
+ so for example, any major country in the world has a Tector manufacturer on their soil, for example, the US, the UK, China, Russia,
+
+49
+00:05:17,000 --> 00:05:22,000
+ or they'll simply snatch them off a SharePoint from a small manufacturer.
+
+50
+00:05:22,000 --> 00:05:33,000
+ Meanwhile, scientific researchers or the security community has to jump through significant hoops in order to get a look at these primitives, like we had to.
+
+51
+00:05:33,000 --> 00:05:40,000
+ Now, Tetra security mainly consists of two components, both of which are secret.
+
+52
+00:05:40,000 --> 00:05:49,000
+ This is the TAA-1 suite, which is used for authentication, key management, identity encryption, and remote terminal disabling.
+
+53
+00:05:49,000 --> 00:05:55,000
+ And then there's the TAA suite, which is used for voice and data encryption over the air.
+
+54
+00:05:55,000 --> 00:06:03,000
+ The TAA suite consists of four algorithms divided by use case, so TAA-1 and 4 being readily exportable.
+
+55
+00:06:03,000 --> 00:06:10,000
+ TAA-2 is only intended for European police forces as emergency services and military,
+
+56
+00:06:10,000 --> 00:06:19,000
+ and TAA-3 is intended for public safety outside of European countries, but with friendly relationship with the EU.
+
+57
+00:06:19,000 --> 00:06:25,000
+ So this means typically India, Mexico, China, those kind of countries.
+
+58
+00:06:25,000 --> 00:06:31,000
+ So with this in mind, let's talk about project reTetra that we undertook.
+
+59
+00:06:31,000 --> 00:06:35,000
+ We know all about Kirchhoff's principle, right?
+
+60
+00:06:35,000 --> 00:06:46,000
+ A crypto system should be secure even if everything about the system is known except for the key.
+
+61
+00:06:46,000 --> 00:06:50,000
+ So basically no security through obscurity.
+
+62
+00:06:50,000 --> 00:06:54,000
+ Violating this principle doesn't usually end well.
+
+63
+00:06:54,000 --> 00:07:03,000
+ There's plenty of examples of secret proprietary cryptography in GSM, GMR, GPRS, DECT, various RFID systems.
+
+64
+00:07:03,000 --> 00:07:08,000
+ And all of them turned out to be flawed or intentionally backdoored.
+
+65
+00:07:08,000 --> 00:07:12,000
+ So why would Tetra be different?
+
+66
+00:07:12,000 --> 00:07:15,000
+ Now Etsy has a different opinion on this.
+
+67
+00:07:15,000 --> 00:07:24,000
+ In an interview with Kim Zetter, the Etsy Tetra chairman explicitly said that they consider obscurity as also a way of maintaining security.
+
+68
+00:07:24,000 --> 00:07:26,000
+ Right.
+
+69
+00:07:26,000 --> 00:07:30,000
+ So we obviously disagree with such an approach.
+
+70
+00:07:30,000 --> 00:07:37,000
+ So we went to the NLNet Foundation for a research proposal.
+
+71
+00:07:37,000 --> 00:07:42,000
+ And they decided to fund us to open up Tetra for public review.
+
+72
+00:07:42,000 --> 00:07:50,000
+ NLNet is a non-profit organization which funds open source projects and research like this with the goal of promoting open standards.
+
+73
+00:07:50,000 --> 00:07:57,000
+ So if you have something that you would like to investigate which costs a significant amount of time, I would highly recommend approaching them.
+
+74
+00:07:57,000 --> 00:08:00,000
+ So let's break open a radio.
+
+75
+00:08:00,000 --> 00:08:05,000
+ So we had to start out by picking the right kind of radio.
+
+76
+00:08:05,000 --> 00:08:08,000
+ There's lots of vendor, models, architectures involved.
+
+77
+00:08:08,000 --> 00:08:12,000
+ And picking the wrong one can make you waste a ton of time.
+
+78
+00:08:12,000 --> 00:08:21,000
+ So we spent quite some time poring over manuals, data sheets in order to get an idea of the different architectures involved.
+
+79
+00:08:21,000 --> 00:08:25,000
+ And what kind of basements were actually used by which vendors.
+
+80
+00:08:25,000 --> 00:08:28,000
+ And what architectures they were based on.
+
+81
+00:08:28,000 --> 00:08:34,000
+ And if there were any ASICs or FPGAs that likely implemented the algorithms and so on and so forth.
+
+82
+00:08:34,000 --> 00:08:43,000
+ So thus we ended up with the Freon baseband from Motorola which is based on a TI OMAP 1L38 SoC.
+
+83
+00:08:43,000 --> 00:08:47,000
+ This thing is also used in DMR and P25 radios.
+
+84
+00:08:47,000 --> 00:08:53,000
+ So therefore it's highly unlikely that the algorithms are implemented in hardware.
+
+85
+00:08:53,000 --> 00:09:01,000
+ And also interestingly this baseband has a trusted execution environment so that immediately caught our attention.
+
+86
+00:09:01,000 --> 00:09:05,000
+ So it's highly suitable for implementing the algorithm software.
+
+87
+00:09:05,000 --> 00:09:10,000
+ So this baseband is used in Motorola MTM5400.
+
+88
+00:09:10,000 --> 00:09:14,000
+ That's a common radio model that you can buy for relatively cheap online.
+
+89
+00:09:14,000 --> 00:09:17,000
+ The baseband SoC is just a common TI chip.
+
+90
+00:09:17,000 --> 00:09:22,000
+ So it's unlikely that it has the tetra-kypto in hardware.
+
+91
+00:09:22,000 --> 00:09:32,000
+ And it has some software security features which we suspect make it a great candidate for protecting crypto from extraction.
+
+92
+00:09:32,000 --> 00:09:37,000
+ The high level architecture of the radio looks like this.
+
+93
+00:09:37,000 --> 00:09:43,000
+ As you can see on the right of the slide there's a control head which controls the microphone, the keyboard and so on.
+
+94
+00:09:43,000 --> 00:09:48,000
+ There's a rear connector for the depot programming of the radio.
+
+95
+00:09:48,000 --> 00:09:52,000
+ And inside there's a baseband chip which consists of two cores.
+
+96
+00:09:52,000 --> 00:09:57,000
+ There's an ARM core and that's for high level stuff.
+
+97
+00:09:57,000 --> 00:10:02,000
+ And there's a digital signal processor. That's for processing signals.
+
+98
+00:10:02,000 --> 00:10:09,000
+ And the DSP core has a trusted execution environment which is where the MAD-X SoC probably is.
+
+99
+00:10:09,000 --> 00:10:14,000
+ So the MTM firmware format is shipped in an RPK package.
+
+100
+00:10:14,000 --> 00:10:21,000
+ Turns out that this is just a zip archive with a bunch of Z19 files encrypted in it.
+
+101
+00:10:21,000 --> 00:10:30,000
+ But since the firmware files are not personalized for an individual radio, there has to be a general way to load them.
+
+102
+00:10:30,000 --> 00:10:34,000
+ And the programming software decrypts those files in the zip archive.
+
+103
+00:10:34,000 --> 00:10:37,000
+ The zip archive is password protected.
+
+104
+00:10:37,000 --> 00:10:44,000
+ So it gets the files out of them and then uses it to program the radio.
+
+105
+00:10:44,000 --> 00:10:49,000
+ So after some light .NET reverse engineering we found static passwords for these files.
+
+106
+00:10:49,000 --> 00:10:52,000
+ So this is an easy hurdle to take.
+
+107
+00:10:52,000 --> 00:10:56,000
+ So now we can extract the Z90 files and decrypt them with the password.
+
+108
+00:10:56,000 --> 00:11:01,000
+ Extract the S19 files which is a Motorola S-record file.
+
+109
+00:11:01,000 --> 00:11:11,000
+ Then parse them, identify firmware components within it like the kernel or file system or a baseband firmware image.
+
+110
+00:11:11,000 --> 00:11:13,000
+ And so on and so forth.
+
+111
+00:11:13,000 --> 00:11:18,000
+ And once we have that, let's look at the DSP firmware and see what's in there.
+
+112
+00:11:18,000 --> 00:11:23,000
+ Because we don't have tooling yet in order to properly reverse engineer it.
+
+113
+00:11:23,000 --> 00:11:28,000
+ We'll just have a very high level overview of it as of now.
+
+114
+00:11:28,000 --> 00:11:36,000
+ And well, if we look at entropy analysis, the entropy distribution of the DSP firmware,
+
+115
+00:11:36,000 --> 00:11:40,000
+ there's a single area with extremely high entropy.
+
+116
+00:11:40,000 --> 00:11:46,000
+ And it's referenced by a bunch of system calls that's related to the trusted execution of our API.
+
+117
+00:11:46,000 --> 00:11:50,000
+ So this is highly likely containing the secret sauce.
+
+118
+00:11:50,000 --> 00:11:54,000
+ So let's dive deeper.
+
+119
+00:11:54,000 --> 00:11:59,000
+ So now that we have a good idea of where to go, how do we break the trusted execution environment?
+
+120
+00:11:59,000 --> 00:12:03,000
+ Well, we first have to get code execution on the application processor.
+
+121
+00:12:03,000 --> 00:12:06,000
+ So that's the ARM core.
+
+122
+00:12:06,000 --> 00:12:09,000
+ So by the way, this thing has secure boot.
+
+123
+00:12:09,000 --> 00:12:14,000
+ So we cannot just go in and modify the memory chips.
+
+124
+00:12:14,000 --> 00:12:18,000
+ So this goes through three possibilities.
+
+125
+00:12:18,000 --> 00:12:25,000
+ The first one, the rear connector on the back has a modem 80 command interface.
+
+126
+00:12:25,000 --> 00:12:34,000
+ The other possibility was to modify the memory chips and see if we could find some memory corruption exploit through that.
+
+127
+00:12:34,000 --> 00:12:38,000
+ Or through some peripheral interface, for example, this thing talks to a GPS module.
+
+128
+00:12:38,000 --> 00:12:44,000
+ So maybe it's interesting to maybe those links are trusted and maybe we could get code execution through them.
+
+129
+00:12:44,000 --> 00:12:49,000
+ After that, we'd have to hop onto the DSP to get code execution there.
+
+130
+00:12:49,000 --> 00:12:54,000
+ This might be possible through direct memory access or the DSP link libraries,
+
+131
+00:12:54,000 --> 00:12:59,000
+ the library that passes messages back and forth between the ARM core and the DSP.
+
+132
+00:12:59,000 --> 00:13:05,000
+ And finally, we had to find a vulnerability or side channel in the TEE itself.
+
+133
+00:13:05,000 --> 00:13:08,000
+ So let's begin our journey.
+
+134
+00:13:08,000 --> 00:13:12,000
+ This is basically the last slide, but then a bit prettier.
+
+135
+00:13:12,000 --> 00:13:18,000
+ All right. So the MTM has a rear connector that exposes the 80 modem command interface.
+
+136
+00:13:18,000 --> 00:13:22,000
+ Here you can read and write parameters, for example.
+
+137
+00:13:22,000 --> 00:13:25,000
+ And analyzing the firmware gave us a list of commands.
+
+138
+00:13:25,000 --> 00:13:34,000
+ And we immediately started looking for commands that handle strings with variable lengths or some parsing involved.
+
+139
+00:13:34,000 --> 00:13:41,000
+ And there's this command that is used to set a talk group list entry and another one that enumerates them.
+
+140
+00:13:41,000 --> 00:13:51,000
+ And we found that there's a classic format string vulnerability in there that allows you to write any data in some address that is already on the stack.
+
+141
+00:13:51,000 --> 00:13:58,000
+ So you can basically interpret a value on the stack as a pointer and you can write to that address.
+
+142
+00:13:58,000 --> 00:14:04,000
+ Now, if we control a value on the stack, that would mean we could write anything anywhere.
+
+143
+00:14:04,000 --> 00:14:07,000
+ Unfortunately, we don't.
+
+144
+00:14:07,000 --> 00:14:11,000
+ So luckily there's frame pointers in this firmware.
+
+145
+00:14:11,000 --> 00:14:16,000
+ So frame pointers have the nice property that one frame pointer points to the next.
+
+146
+00:14:16,000 --> 00:14:24,000
+ And due to the circumstances that we have here, we can only write a single byte to an address that is on the stack.
+
+147
+00:14:24,000 --> 00:14:30,000
+ So what we do is we have three frame pointers here, one points to the other, which points to the next.
+
+148
+00:14:30,000 --> 00:14:42,000
+ So the first one, we write a single byte to the next and therefore we can change the least significant byte of that address where that pointer points to.
+
+149
+00:14:42,000 --> 00:14:49,000
+ So therefore we can use it as a cursor to write over the next address and therefore we control the full address.
+
+150
+00:14:49,000 --> 00:14:53,000
+ So now we have a write anything anywhere primitive.
+
+151
+00:14:53,000 --> 00:15:03,000
+ So now that we have that, we can use the fact that the read somehow has read write execute permissions.
+
+152
+00:15:03,000 --> 00:15:13,000
+ So we can just straightforwardly write the shellcode onto the heap, then overwrite some pointer to executable code, trigger that pointer execution and boom, we have a shellcode.
+
+153
+00:15:13,000 --> 00:15:16,000
+ We have a root shell on the ARM core.
+
+154
+00:15:16,000 --> 00:15:25,000
+ Right.
+
+155
+00:15:25,000 --> 00:15:26,000
+ Thank you.
+
+156
+00:15:26,000 --> 00:15:27,000
+ All right.
+
+157
+00:15:27,000 --> 00:15:30,000
+ The next step would be to move on to the DSP.
+
+158
+00:15:30,000 --> 00:15:44,000
+ So to recap, that would be exploiting vulnerability in DSP link, the message passing framework, or exploit some flaw and misconfiguration in the firewalls, let's say, between the ARM core and the DSP.
+
+159
+00:15:44,000 --> 00:15:48,000
+ So the two cores within the baseband need to communicate.
+
+160
+00:15:48,000 --> 00:15:54,000
+ They do this by having shared internal RAM and some external DDR memory.
+
+161
+00:15:54,000 --> 00:15:59,000
+ And this could present an interesting avenue for lateral movement towards the DSP.
+
+162
+00:15:59,000 --> 00:16:08,000
+ So the SOC in question has memory protection features, which allow for the segmentation of memory errors between cores and within cores.
+
+163
+00:16:08,000 --> 00:16:29,000
+ So the plan would be to dump the MPU configuration, then find ranges used by both the DSP and the application processor, and then identify and exploit an interface that uses these memory ranges, such as DSP link, that is used to have these cores talk to each other.
+
+164
+00:16:29,000 --> 00:16:36,000
+ However, when we dumped the configuration, we saw that essentially no segmentation was applied whatsoever.
+
+165
+00:16:36,000 --> 00:16:41,000
+ So these MPUs posed zero problems and made our life a lot easier.
+
+166
+00:16:41,000 --> 00:16:56,000
+ So this basically means that getting code execution on DSP is straightforward as like loading a kernel module, asking for a buffer that maps to this physical address that's supposed to be DSP memory, and just override parts of the DSP firmware.
+
+167
+00:16:56,000 --> 00:16:59,000
+ Microphone.
+
+168
+00:16:59,000 --> 00:17:04,000
+ Are we okay? Yeah, okay.
+
+169
+00:17:04,000 --> 00:17:10,000
+ So now that we have code execution on DSP, we implemented a framework for running code on it.
+
+170
+00:17:10,000 --> 00:17:23,000
+ We wrote multiple application processor kernel modules, which hijacked DSP control by allocating a shared buffer, copying our payload into it, and then redirect the DSP execution to that.
+
+171
+00:17:23,000 --> 00:17:32,000
+ And meanwhile, we made sure that there's this hardware peripheral called a watchdog, and it needs to be satisfied every now and then, otherwise it spontaneously reboots the board.
+
+172
+00:17:32,000 --> 00:17:36,000
+ So we got that on the control as well.
+
+173
+00:17:36,000 --> 00:17:42,000
+ All of this was kind of complicated by the fact that the DSP architecture is pretty hellish.
+
+174
+00:17:42,000 --> 00:17:50,000
+ It has delayed branches, very old degrees of concurrency, lots of conditionals, and no support for IDA.
+
+175
+00:17:50,000 --> 00:17:58,000
+ So we had to implement our own disassembler, and on top of that, we also ported the architecture to the RedDeck decompiler.
+
+176
+00:17:58,000 --> 00:18:03,000
+ So this is the disassembly output, and this is the decompiler output.
+
+177
+00:18:03,000 --> 00:18:08,000
+ So you can read, as you can see, this reads a lot easier than the disassembly.
+
+178
+00:18:08,000 --> 00:18:14,000
+ Good. All right. And with that, we had reliable DSP code execution.
+
+179
+00:18:14,000 --> 00:18:27,000
+ Thanks. So that brings us to the last part of this reverse engineering process.
+
+180
+00:18:27,000 --> 00:18:31,000
+ We now have to somehow break the DSP trusted execution environment.
+
+181
+00:18:31,000 --> 00:18:36,000
+ And in order to explain that to you, let's first dive into how this thing actually works.
+
+182
+00:18:36,000 --> 00:18:40,000
+ So the chip is a Texas Instruments chip with ROM code in it.
+
+183
+00:18:40,000 --> 00:18:44,000
+ And in this ROM code is embedded what they call a secure kernel.
+
+184
+00:18:44,000 --> 00:18:52,000
+ And this is like a lightweight library or operating system kind of thing that runs in a secure mode.
+
+185
+00:18:52,000 --> 00:18:59,000
+ So most code running on the DSP runs in insecure mode and can use the secure kernel, but cannot see it,
+
+186
+00:18:59,000 --> 00:19:07,000
+ and cannot interfere with anything that happens within this trusted execution environment or other secure context stuff.
+
+187
+00:19:07,000 --> 00:19:13,000
+ So what non-secure code can do is use functions like skload.
+
+188
+00:19:13,000 --> 00:19:20,000
+ And skload is a secure kernel call that allows for the runtime loading of an encrypted module.
+
+189
+00:19:20,000 --> 00:19:23,000
+ And this module is then copied to the secure context.
+
+190
+00:19:23,000 --> 00:19:28,000
+ It is decrypted using a factory set key, the customer encryption key.
+
+191
+00:19:28,000 --> 00:19:31,000
+ It is then validated using RSA.
+
+192
+00:19:31,000 --> 00:19:35,000
+ And if everything checks out, it remains present within this protected context.
+
+193
+00:19:35,000 --> 00:19:41,000
+ And it can be used by non-secure code through the use of the sklgo_invoke function.
+
+194
+00:19:41,000 --> 00:19:45,000
+ So it can then use the algorithms, but it cannot see them.
+
+195
+00:19:48,000 --> 00:19:55,000
+ So let's dive into cache architecture because we're going to use this in our attack.
+
+196
+00:19:55,000 --> 00:20:00,000
+ The OMAP L138 uses a two-tier cache architecture.
+
+197
+00:20:00,000 --> 00:20:04,000
+ It has a level one program and data cache, and it has a level two cache.
+
+198
+00:20:04,000 --> 00:20:13,000
+ And if the CPU performs a memory lookup, it will first check whether the data it wants to retrieve is already present in one of these caches.
+
+199
+00:20:13,000 --> 00:20:17,000
+ And if so, the read request is serviced very quickly.
+
+200
+00:20:17,000 --> 00:20:27,000
+ If not, it has to take a detour, or actually the full route, all the way to the memory chip, DDR2 chip, which takes significantly longer.
+
+201
+00:20:27,000 --> 00:20:35,000
+ Now, as we are running non-secure supervisor level code, we can manipulate some of the cache mechanics.
+
+202
+00:20:35,000 --> 00:20:39,000
+ What we can do is evict lines from the cache.
+
+203
+00:20:39,000 --> 00:20:45,000
+ So we can say, OK, this address, if it is in cache, I would like to throw it out of the cache.
+
+204
+00:20:45,000 --> 00:20:48,000
+ What we also can do is freeze the cache.
+
+205
+00:20:48,000 --> 00:20:56,000
+ This is a peculiar function that I haven't seen before in other chips, but it allows you to switch the entire cache to a read-only mode.
+
+206
+00:20:56,000 --> 00:21:03,000
+ So it will be used to accelerate the lookup if something is present, but the cache will not be updated.
+
+207
+00:21:03,000 --> 00:21:07,000
+ Now, we can use this.
+
+208
+00:21:07,000 --> 00:21:13,000
+ Some of you may be familiar with the structure of AES, but if you don't, the first few steps are listed here.
+
+209
+00:21:13,000 --> 00:21:19,000
+ I wonder who is able to read it, but the slides will be online, or some of them are already online.
+
+210
+00:21:19,000 --> 00:21:22,000
+ So you can always look back if you need to.
+
+211
+00:21:22,000 --> 00:21:30,000
+ In any case, the first thing that happens during a decryption is that the round key, an AES key, is XORed into the AES state.
+
+212
+00:21:30,000 --> 00:21:36,000
+ So a ciphertext goes in, a round key is XORed through it, and then further steps are taken.
+
+213
+00:21:36,000 --> 00:21:43,000
+ One of the later steps is inverse subbytes, which performs a lookup in a table.
+
+214
+00:21:43,000 --> 00:21:48,000
+ This table is called the S-Box. It's a 256-byte table.
+
+215
+00:21:48,000 --> 00:21:56,000
+ So a state byte is used as an index in this table, and whichever is there is then the new value for that state byte.
+
+216
+00:21:56,000 --> 00:22:04,000
+ So we do not know where this S-Box resides. It's somewhere in this Texas Instruments ROM code, but we cannot read all of it.
+
+217
+00:22:04,000 --> 00:22:08,000
+ So we somehow have to figure out where the S-Box lives.
+
+218
+00:22:08,000 --> 00:22:18,000
+ We do that by throwing out a small part of the secret ROM code from the cache using our eviction control,
+
+219
+00:22:18,000 --> 00:22:23,000
+ and then measure how long it takes to perform a module load.
+
+220
+00:22:23,000 --> 00:22:31,000
+ So we try to load a module and we see how long this takes on average, and then we throw out another part of the secret page,
+
+221
+00:22:31,000 --> 00:22:37,000
+ and we check how long that takes to load. And what we get is a plot something like this.
+
+222
+00:22:37,000 --> 00:22:46,000
+ Most addresses do not affect the running time, except a small portion where a drastic performance penalty is seen if we throw that out of the caches.
+
+223
+00:22:46,000 --> 00:22:52,000
+ So clearly these are the areas that the S-Box resides.
+
+224
+00:22:52,000 --> 00:23:02,000
+ So fully blindly we manage to locate the S-Box in ROM, and for the remainder we will assume the following setup.
+
+225
+00:23:02,000 --> 00:23:09,000
+ We ensure the entire table, the entire S-Box is loaded into cache memory by loading a module once.
+
+226
+00:23:09,000 --> 00:23:16,000
+ Then we use our eviction control to throw out the first 32 entries, and then we enable cache freeze.
+
+227
+00:23:16,000 --> 00:23:25,000
+ So what we have now is a situation where a lookup in the first part of the S-Box, which we call the first octant,
+
+228
+00:23:25,000 --> 00:23:35,000
+ will incur a performance penalty that we can see, and a lookup in any other part of the S-Box will be serviced quickly from cache and will not show the penalty.
+
+229
+00:23:35,000 --> 00:23:39,000
+ And this setup is assumed for the remainder of this section.
+
+230
+00:23:39,000 --> 00:23:49,000
+ So the attack will work as follows. We set our first ciphertext byte to zero and we randomize all the other ciphertext bytes.
+
+231
+00:23:49,000 --> 00:23:59,000
+ And then we ask the secure kernel to load this module. It will try to load it, of course it will fail validation, so it will reject the module, but it will decrypt it first.
+
+232
+00:23:59,000 --> 00:24:07,000
+ So we can see whether, if we set the ciphertext byte to zero, whether it incurs this penalty or not.
+
+233
+00:24:07,000 --> 00:24:17,000
+ So in short, you have this AES state byte. It goes as an index into the table. If it hits the first part, it will be slow. If it hits the rest, it will be fast.
+
+234
+00:24:17,000 --> 00:24:29,000
+ And we do that repeatedly for all values for the first ciphertext byte. And if we plot that, we see this. For those who do not see it, I shall describe it.
+
+235
+00:24:29,000 --> 00:24:39,000
+ The first 32 entries are fast, then we get 32 entries that are significantly slower, and the remainder is fast again.
+
+236
+00:24:39,000 --> 00:24:51,000
+ So what we have here is that the first ciphertext byte, XORed with the first round key byte, is exhibiting a performance penalty when it is between 32 and 64.
+
+237
+00:24:51,000 --> 00:25:13,000
+ So we have effectively recovered three bits of this byte. So we can repeat that for all the other bytes, and we can get 48 bits of a round key, which is amazing, but not enough, because 80 bits remain, and that's just too much to brute force, at least for someone with our equipment.
+
+238
+00:25:13,000 --> 00:25:29,000
+ So we somehow have to go deeper. Why doesn't this work? This doesn't work because the least significant bits of our ciphertext and of the round key byte do not influence in which octant the lookup will hit.
+
+239
+00:25:29,000 --> 00:25:55,000
+ So this is inherently limited. And as such, what we decided to do is take the attack one round further. We will not target the SBOX lookup in the first decryption round, but in the second decryption round, to make sure that the least significant bits are now indeed affecting the most significant three bits, and as such are affecting in which octant the lookup occurs.
+
+240
+00:25:55,000 --> 00:26:14,000
+ Now, it's complicated because you have to account for some stuff. There is some rows shifting around. There is another round key byte that is affecting the state, and also there is this mixed columns step that performs a computation over multiple state bytes, so this gets all mixed up.
+
+241
+00:26:14,000 --> 00:26:30,000
+ We were able to account for all of that. I'm not going into detail for the sake of time. But we managed to get it working, and I'll now show a short demo video.
+
+242
+00:26:30,000 --> 00:26:49,000
+ So what we see here is how we load some kernel modules on the application processor. I cannot read it myself, but oh yeah, I can't. Clearly here we are loading a module that kicks the watchdog, so we hijack the execution of the DSP, but the watchdog has to be serviced in order to prevent a board reset.
+
+243
+00:26:49,000 --> 00:27:11,000
+ And then we start gathering measurements from the DSP. We're collecting timing data and constantly comparing the timing data to a profile we built, and we can recover bytes of round key 10 in this way.
+
+244
+00:27:11,000 --> 00:27:24,000
+ This takes about a minute, and then it will have recovered all of the 16 round key bytes. If you have all round key bytes, you can reverse the key schedule AES uses and retrieve the original base key.
+
+245
+00:27:24,000 --> 00:27:43,000
+ [no audio]
+
+246
+00:27:43,000 --> 00:27:55,000
+ [no audio]
+
+247
+00:27:55,000 --> 00:28:15,000
+ Alright, so there we have it. Thank you. Cool. So in about a minute we recovered the cryptographic key from this radio, fully running on the radio.
+
+248
+00:28:15,000 --> 00:28:28,000
+ By the way, what you saw was not the actual Motorola key, we changed it because if not people would get really angry at us.
+
+249
+00:28:28,000 --> 00:28:38,000
+ We're good? We're good. Okay. So now that we were able to decrypt our module, there were some other hoops to jump through, but I'm going to skip that in the interest of time.
+
+250
+00:28:38,000 --> 00:28:50,000
+ We were able to decrypt the module that embeds the Tetra cryptographic primitives. Recapping, we first attacked the AT modem command interface, we found the format string vulnerability which we exploited.
+
+251
+00:28:50,000 --> 00:29:00,000
+ We pivoted to the DSP through unconfigured memory protection, and we then performed a cache timing side channel attack on the trusted execution environment.
+
+252
+00:29:00,000 --> 00:29:12,000
+ So, let's briefly discuss some of the findings on the Tetra primitives. We found the TAA1 suite, we recovered it, we reverse engineered it,
+
+253
+00:29:12,000 --> 00:29:22,000
+ and what's interesting is that we found that all primitives that are in the standard are called TA something, are based on a proprietary hurdle block cipher,
+
+254
+00:29:22,000 --> 00:29:34,000
+ and all the TB primitives are just simple XORs or some additions or really lightweight stuff. And also interesting is that we found that some blocks are identical or highly related.
+
+255
+00:29:34,000 --> 00:29:43,000
+ For instance, TA11 equals TA41, and we used our newfound knowledge on these primitives to construct some attacks.
+
+256
+00:29:43,000 --> 00:29:57,000
+ One is that we can under some circumstances pin a session key to zero, and another one is a de-anonymization attack that allows you to decrypt the identities that are using a Tetra network.
+
+257
+00:29:57,000 --> 00:30:09,000
+ Now, the actual encryption on a Tetra network is done by one of the four keystream generators that Carlo just pointed out, and what you see here is a schematic overview of TA2.
+
+258
+00:30:09,000 --> 00:30:15,000
+ You see the key register on the top, 80 bits, and you see the state register at the bottom that gets some influence from the key register.
+
+259
+00:30:15,000 --> 00:30:24,000
+ To us it looks robust, but further scrutiny is needed in order to be able to publicly determine that this is fit for purpose.
+
+260
+00:30:24,000 --> 00:30:34,000
+ What's definitely not fit for purpose is TA1, which shares the same structure, but the first thing it does is execute a secret key compression step.
+
+261
+00:30:34,000 --> 00:30:43,000
+ The 80-bit key is compressed to 32 bits, and only then it starts generating keystream based on those 32 bits of entropy.
+
+262
+00:30:43,000 --> 00:30:55,000
+ This is obviously trivial to attack. It takes about a minute on my graphics card, which is a 2016 GTX 1080.
+
+263
+00:30:55,000 --> 00:31:06,000
+ In the interview Carlo referred to previously with the Etsy chair, he made some statements on that an attacker would need a high-powered graphics card.
+
+264
+00:31:06,000 --> 00:31:12,000
+ I'm not sure. 25 years ago this could have been sufficient.
+
+265
+00:31:12,000 --> 00:31:21,000
+ Maybe, maybe, 32 bits was different back then than now, computational advances, blah, blah, blah, but still that you would need some pretty reasonable equipment.
+
+266
+00:31:21,000 --> 00:31:35,000
+ Now I don't think I have to explain to any of you that this is just not true, but instead of arguing, why not just throw overboard all these assumptions and reasonable ideas and just see what this bad boy can do.
+
+267
+00:31:45,000 --> 00:31:57,000
+ Hi, we're Midnight Blue. About two weeks ago we announced the Tetra burst vulnerabilities, consisting of five vulnerabilities in the Tetra radio standard, two of which are deemed critical.
+
+268
+00:31:57,000 --> 00:32:05,000
+ Since then Etsy, the standardization body responsible for Tetra, has made public statements in which they downplay the seriousness of the vulnerabilities.
+
+269
+00:32:05,000 --> 00:32:13,000
+ In these statements they resorted to a semantic discussion, not calling a spade a spade, or more specifically, not calling a backdoor a backdoor.
+
+270
+00:32:13,000 --> 00:32:26,000
+ Furthermore, they made a number of evidently false statements, such as claiming packet injection and TEA-1 encrypted networks would be impossible, and that 32 bits of cryptographic strength would have been sufficient in the late 90s.
+
+271
+00:32:26,000 --> 00:32:41,000
+ To any information security expert it's pretty clear that this is not the case, but to help remove those few remaining doubts we decided to take on the challenge of cracking TEA-1 on this beautiful machine produced in 1998, running good old Windows 95.
+
+272
+00:32:41,000 --> 00:32:48,000
+ [Music]
+
+273
+00:32:48,000 --> 00:32:52,000
+ Frankly, the hardware is so old that it wasn't easy to get our hands on.
+
+274
+00:32:52,000 --> 00:33:00,000
+ When we run the cracking tool we see it reports that it needs about 13 hours to go through the entire search base.
+
+275
+00:33:00,000 --> 00:33:10,000
+ After 12 and a half hours the key is found, demonstrating the feasibility of cracking TEA-1 on 90s consumer hardware.
+
+276
+00:33:11,000 --> 00:33:12,000
+ [Music]
+
+277
+00:33:12,000 --> 00:33:18,000
+ Alright Etsy, now that we've cleared up this issue, please let us know if you'd like us to demonstrate packet injection as well.
+
+278
+00:33:18,000 --> 00:33:25,000
+ Right, so I think we got that out of the way.
+
+279
+00:33:27,000 --> 00:33:42,000
+ Now you might think, okay this is TEA-1, it's back doors, how about the other ones? They're still safe right? TEA-2 used by European law enforcement and other parties should still be robust because the algorithm seems robust.
+
+280
+00:33:42,000 --> 00:33:45,000
+ Well not necessarily because we found a protocol level flaw.
+
+281
+00:33:48,000 --> 00:33:58,000
+ In short, it goes like this, these key stream generators, they obviously take a key but they also take an IV to make sure that every key stream differs from previous key streams.
+
+282
+00:33:58,000 --> 00:34:03,000
+ And this IV is constructed from the network time.
+
+283
+00:34:03,000 --> 00:34:12,000
+ So the frame counters, multi-frame counters and slot counters that increment through time are used in the generation of a key stream.
+
+284
+00:34:13,000 --> 00:34:18,000
+ And how does the radio know what time it is, what network time it is?
+
+285
+00:34:18,000 --> 00:34:21,000
+ Well it knows because the infrastructure tells it.
+
+286
+00:34:21,000 --> 00:34:37,000
+ There is this sync frame and sysinfo frame that together specify the network time and these frames are broadcast in an unencrypted fashion without any kind of integrity guarantee whatsoever, or cryptographic integrity in any case.
+
+287
+00:34:38,000 --> 00:34:45,000
+ And also just regular signaling messages also do not really carry any cryptographic authenticity guarantees.
+
+288
+00:34:45,000 --> 00:34:50,000
+ An attacker can just flip bits and it will be interpreted as face value after decryption.
+
+289
+00:34:50,000 --> 00:34:54,000
+ You can do whatever you want, the radio will decrypt and try to make sense of it.
+
+290
+00:34:54,000 --> 00:34:59,000
+ So the outline of the attack, very briefly, would be as follows.
+
+291
+00:34:59,000 --> 00:35:06,000
+ Imagine that we overpower, let me start again, sorry you put me off.
+
+292
+00:35:07,000 --> 00:35:11,000
+ So let's say we have captured an encrypted message at some time, T.
+
+293
+00:35:11,000 --> 00:35:16,000
+ We then can target a mobile station at a later point in time.
+
+294
+00:35:16,000 --> 00:35:21,000
+ It may be the same radio, it may also be another radio that has the same key material.
+
+295
+00:35:21,000 --> 00:35:28,000
+ And we use a directional antenna or just proximity in order to overpower the infrastructure signal.
+
+296
+00:35:28,000 --> 00:35:32,000
+ And we have then impersonated the infrastructure towards that radio.
+
+297
+00:35:33,000 --> 00:35:45,000
+ And what we can do is then tamper with these sync and sysinfo frames to put the radio in the time that was applicable at the moment we captured this message at time T.
+
+298
+00:35:45,000 --> 00:35:50,000
+ So we put the radio back in time and then it will start reusing these IVs, reusing this key stream.
+
+299
+00:35:50,000 --> 00:35:56,000
+ We then pull some tricks which are involved and I will not explain now.
+
+300
+00:35:56,000 --> 00:36:01,000
+ We pull some tricks in order to understand what key stream is being used at that time.
+
+301
+00:36:02,000 --> 00:36:07,000
+ We recover the key stream and we can then decrypt the message that we have previously captured.
+
+302
+00:36:07,000 --> 00:36:18,000
+ So when we told this to Etsy at a quite early stage of our disclosure process, they said okay this is a valid theoretical attack.
+
+303
+00:36:18,000 --> 00:36:24,000
+ They didn't think it was really feasible in practice and we were like yeah but this is really serious.
+
+304
+00:36:24,000 --> 00:36:28,000
+ Maybe you can provide us with a base station and we can instrument it.
+
+305
+00:36:28,000 --> 00:36:32,000
+ And in that way we can all know whether this is a big problem or not so much.
+
+306
+00:36:32,000 --> 00:36:37,000
+ So they said lol no. The wording was probably different.
+
+307
+00:36:37,000 --> 00:36:42,000
+ Some other stakeholders also responded like this so we had to look for alternatives.
+
+308
+00:36:42,000 --> 00:36:47,000
+ And what we did is, well the following, we got ourselves a base station.
+
+309
+00:36:47,000 --> 00:36:56,000
+ So meet our MBTS. It's old, it weighs 75 kilos, it's clear text so it didn't support encryption and it's cool as fuck.
+
+310
+00:36:57,000 --> 00:37:10,000
+ We instrumented it, we added encryption support, we added a module loading system that we could add our own console commands to it to implement a proof concept of our attack, which I will now briefly demonstrate.
+
+311
+00:37:10,000 --> 00:37:21,000
+ Hi, we are Midnight Blue. We have uncovered several serious vulnerabilities in the Tetra Radius standard, dubbed Tetra Burst.
+
+312
+00:37:22,000 --> 00:37:29,000
+ We will first demonstrate a decryption oracle attack to recover a text message, but the attack can also be applied to voice communication and data.
+
+313
+00:37:29,000 --> 00:37:33,000
+ The demonstration takes place on our lab setup.
+
+314
+00:37:33,000 --> 00:37:39,000
+ The radio receives an encrypted message, which is also captured by the attacker.
+
+315
+00:37:39,000 --> 00:37:47,000
+ We see the message says secret.
+
+316
+00:37:49,000 --> 00:37:56,000
+ The attacker now needs to target a radio and impersonate the infrastructure and carry out the attack to decrypt the previously captured message.
+
+317
+00:37:56,000 --> 00:38:02,000
+ We have sped up this process.
+
+318
+00:38:11,000 --> 00:38:20,000
+ The attacker has now recovered all he needs to decrypt the message. This attack applies to all Tetra configurations, but can be resolved with a firmware update.
+
+319
+00:38:20,000 --> 00:38:24,000
+ Further details will be disclosed on August 9th.
+
+320
+00:38:24,000 --> 00:38:29,000
+ Thank you.
+
+321
+00:38:29,000 --> 00:38:38,000
+ So it's not a real-time attack, but it definitely allows you to decrypt previously captured traffic.
+
+322
+00:38:40,000 --> 00:38:44,000
+ Also, since we were instrumenting this base station, we found some issues there.
+
+323
+00:38:44,000 --> 00:38:56,000
+ It accepts unauthenticated firmwares, which are stored on the side controller inside this thing, which was highly convenient to us, but maybe not such a good idea for a piece of equipment running critical communications.
+
+324
+00:38:56,000 --> 00:39:03,000
+ It has hard-coded backdoor passwords embedded in the firmware. As far as we know, they're undocumented.
+
+325
+00:39:04,000 --> 00:39:10,000
+ They provide you an authentication level beyond the level that the legitimate owner of the system would have.
+
+326
+00:39:10,000 --> 00:39:27,000
+ Lastly, if you manage to crash the side controller through some kind of unhandled exception, it will drop to a debug prompt offering you raw memory access and code execution, which allows for key exfiltration and everything basically.
+
+327
+00:39:28,000 --> 00:39:35,000
+ So, given the radio, given the mobile station, given some other experiences that we've had, there seems to be a larger problem here.
+
+328
+00:39:35,000 --> 00:39:49,000
+ Tetra equipment is not really up to speed when you compare it to something like an Android phone, and actually we start wondering whether anyone is taking a look at this at all from a security testing perspective.
+
+329
+00:39:50,000 --> 00:40:01,000
+ So briefly, on the coordinated vulnerability disclosure process, we started working on this in January 2021, and it took us four months to get the cryptography out of our MTM radio.
+
+330
+00:40:01,000 --> 00:40:10,000
+ In December that year, we contacted the Dutch NCSC, which then helped us relay our findings to many different stakeholders.
+
+331
+00:40:11,000 --> 00:40:22,000
+ In January 2022, we had meetings with the Dutch police, with Etsy, the standardization body. We had meetings with the intelligence agencies to discuss the impact of these things.
+
+332
+00:40:22,000 --> 00:40:30,000
+ And we distributed a preliminary advisory more oriented towards stakeholders about what they should probably be doing.
+
+333
+00:40:30,000 --> 00:40:40,000
+ We spent a year and a half in this coordinated disclosure process, and now we're finally here able to talk about this to all of you.
+
+334
+00:40:40,000 --> 00:40:46,000
+ Something about mitigations. The Keystream Recovery Attack can be resolved with firmware updates.
+
+335
+00:40:46,000 --> 00:40:52,000
+ It is important that you check whether these firmware updates actually address the issue, because it's quite a tricky thing to get right.
+
+336
+00:40:52,000 --> 00:41:02,000
+ Alternatively, end-to-end could help, or if you're using Tetra in a data carrying capacity, TLS or IPsec tunnels may help to add another layer of encryption on top of Tetra.
+
+337
+00:41:03,000 --> 00:41:14,000
+ The T1 backdoor cannot be resolved through a firmware update because it's in the standard, so you would need to switch to TA2, or if you cannot do that, maybe TA3 or end-to-end.
+
+338
+00:41:14,000 --> 00:41:20,000
+ The de-anonymization attack is not fixable as well, because it's also part of the standard.
+
+339
+00:41:20,000 --> 00:41:30,000
+ You'll have to wait for the new version of the Tetra standard to hit the markets, which embeds a suite called TAA2 with a new identity encryption primitive.
+
+340
+00:41:31,000 --> 00:41:35,000
+ And finally, the session keypinning attack can also be resolved in firmware.
+
+341
+00:41:35,000 --> 00:41:47,000
+ So, in conclusion, we have presented the first public in-depth security analysis of Tetris since its inception over 20 years, over 25 years I should say actually.
+
+342
+00:41:47,000 --> 00:41:53,000
+ We reverse engineered the secret cryptography audit, made it public for all of you to see, it's on GitHub.
+
+343
+00:41:54,000 --> 00:42:01,000
+ We covered multiple vulnerabilities, including a backdoor in an algorithm that's broadly used in critical infrastructure.
+
+344
+00:42:01,000 --> 00:42:06,000
+ The implications for these systems are quite immense.
+
+345
+00:42:06,000 --> 00:42:19,000
+ Patches are available for some, mitigations for others, and the new standard addresses some of these things, but the new standard introduces also new cryptographic primitives, which are again held secret.
+
+346
+00:42:20,000 --> 00:42:24,000
+ So, yeah, I'm not sure if I would recommend that. Actually, I am sure.
+
+347
+00:42:24,000 --> 00:42:31,000
+ So, that was that. I'll gladly take any questions if there's still some time left.
+
+348
+00:42:47,000 --> 00:42:57,000
+ So, thank you. Thank you. Thank you. Thank you. Thank you.
+
+349
+00:42:57,000 --> 00:43:02,000
+ I get a new microphone.
+
+350
+00:43:02,000 --> 00:43:08,000
+ Thank you. Yes.
+
+351
+00:43:08,000 --> 00:43:14,000
+ So, thank you, Wouter and Carlos, for your great talk.
+
+352
+00:43:15,000 --> 00:43:18,000
+ So, are there any questions from the Ether signal angel?
+
+353
+00:43:18,000 --> 00:43:26,000
+ Zero. Great. So, here is the angel with the microphone, so you can go to him to ask your questions.
+
+354
+00:43:26,000 --> 00:43:36,000
+ It's all symmetric keys.
+
+355
+00:43:36,000 --> 00:43:40,000
+ Can you please repeat the question because the internet cannot hear it?
+
+356
+00:43:41,000 --> 00:43:47,000
+ I just asked whether there is any public key cryptography and no, Tetra is fully based on symmetric keys.
+
+357
+00:43:47,000 --> 00:44:03,000
+ My questions are mostly geopolitical rather than technical, though there's one technical follow-up to that, which is, is there any evidence that these symmetric keys are partitioned according to alliances or political boundaries?
+
+358
+00:44:03,000 --> 00:44:10,000
+ For example, would Russian police have a different, access to a different symmetric key than some of the others?
+
+359
+00:44:10,000 --> 00:44:15,000
+ So, it's not really a matter of access to keys, but it is a matter of access to algorithms.
+
+360
+00:44:15,000 --> 00:44:27,000
+ What you see is that TEA2 was designed for emergency services within Europe, and TEA3 was intended for emergency services outside of Europe that we had good standing with.
+
+361
+00:44:28,000 --> 00:44:40,000
+ And probably interesting to you is that TEA1 was also given to emergency services that were less of allies to the European Union.
+
+362
+00:44:40,000 --> 00:44:48,000
+ So, in Eastern Europe, in the Balkan countries, you see police and military forces relying on a backdoor algorithm because at that time we were not best buddies.
+
+363
+00:44:49,000 --> 00:44:58,000
+ Maybe we are now, but yeah, these networks are there now, changing the algorithm is really hard, so we're stuck with this problem for a while.
+
+364
+00:44:58,000 --> 00:45:12,000
+ Let me interject. Also on top of that, for example, if you're a private party like a harbor or an airport or a critical infrastructure, you're not a police force, so you're stuck with TEA1 or no encryption at all.
+
+365
+00:45:12,000 --> 00:45:14,000
+ That's basically the two options that you have.
+
+366
+00:45:14,000 --> 00:45:16,000
+ Yeah, yeah, excellent addition.
+
+367
+00:45:17,000 --> 00:45:25,000
+ So, please, we don't have much time, so for one more question, please give it to another person and contact for another person afterwards. Thank you.
+
+368
+00:45:25,000 --> 00:45:32,000
+ Hello. I have a question. You kind of hinted at that different handsets can have the same keys.
+
+369
+00:45:33,000 --> 00:45:50,000
+ So, would that make the key stream extraction possible in real time that someone is intercepting an encrypted stream while someone else with the same key-heading handset runs your attack in real time, for example? Would that be possible?
+
+370
+00:45:51,000 --> 00:46:10,000
+ Yeah, so yeah, most keys are network-wide, like group keys for toll groups and stuff, they're network-wide. So, the thing with the key stream recovery is that it just recovers one bit at a time, so it is slower with a factor of the time of the transmission.
+
+371
+00:46:11,000 --> 00:46:26,000
+ What we theoretically do is target a hundred mobile stations in remote places, and in that way get a much quicker recovery of keys from you if you really want to. Does that answer? Perfect.
+
+372
+00:46:26,000 --> 00:46:28,000
+ Is it a short question?
+
+373
+00:46:28,000 --> 00:46:30,000
+ Yes.
+
+374
+00:46:30,000 --> 00:46:37,000
+ Okay, short answer, and then sadly we have to go, but you can of course always contact them for more questions.
+
+375
+00:46:38,000 --> 00:46:44,000
+ So, with a nice mobile station you hacked now, can we have now additional to deck those Tetra at the POK?
+
+376
+00:46:44,000 --> 00:46:48,000
+ If someone is willing to put the effort in.
+
+377
+00:46:48,000 --> 00:47:02,000
+ By the way, we got ours from eBay, and there's still two that you can buy.
+
+378
+00:47:02,000 --> 00:47:06,000
+ Ten thousand.
+
+379
+00:47:07,000 --> 00:47:10,000
+ There's one for 5K available, but it has fewer business.
+
+380
+00:47:10,000 --> 00:47:18,000
+ I think further discussions on this can be had on the side of the ten. Thank you again so much for your talk.
+
+381
+00:47:18,000 --> 00:47:19,000
+ Thank you.
+
+382
+00:47:19,000 --> 00:47:24,000
+ [Applause]
+
+383
+00:47:25,000 --> 00:47:29,000
+ [Music]
+

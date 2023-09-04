@@ -1,0 +1,1118 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:33.200
+ Hello everybody, welcome to the Millway Stage.
+
+00:00:33.200 --> 00:00:36.000
+ How are you doing? Are you having a good evening?
+
+00:00:36.000 --> 00:00:38.000
+ [APPLAUSE]
+
+00:00:38.000 --> 00:00:40.400
+ Do you like the Millway Stage? Do you think it's great?
+
+00:00:40.400 --> 00:00:43.000
+ Do you think we should support Millways?
+
+00:00:43.000 --> 00:00:43.700
+ [APPLAUSE]
+
+00:00:43.700 --> 00:00:49.000
+ That's great because I have the perfect way to do it in my pocket.
+
+00:00:49.000 --> 00:01:00.500
+ It is a Millways coin and you can get one in the village behind me for a donation of 30 euros
+
+00:01:00.500 --> 00:01:07.500
+ that they are using to build beautiful stages like this and prepare the camp and everything around it.
+
+00:01:07.500 --> 00:01:15.000
+ They also have vintage coins from former camps that you can look at if you have one that you particularly like.
+
+00:01:15.000 --> 00:01:21.000
+ This one for example is from this year, so it has the logo of this year.
+
+00:01:21.000 --> 00:01:26.000
+ But there are also even more coins, this one with resource exhaustion on it.
+
+00:01:26.000 --> 00:01:31.000
+ Maybe just check it out after the talk.
+
+00:01:31.000 --> 00:01:39.000
+ Now, without further ado, I have to check in with my beautiful angels. Is the camera ready?
+
+00:01:39.000 --> 00:01:47.000
+ All right, we're going live and I'm very, very, very happy that we have Niklas here.
+
+00:01:47.000 --> 00:01:52.500
+ Niklas really, really likes microcontrollers and is going to tell us all about them.
+
+00:01:52.500 --> 00:01:54.000
+ Please give a hand for Niklas.
+
+00:01:54.000 --> 00:02:00.000
+ [APPLAUSE]
+
+00:02:00.000 --> 00:02:10.000
+ So, thank you for the introduction. Thanks to Millways for the stage here and thanks to everyone for this amazing camp.
+
+00:02:10.000 --> 00:02:13.000
+ My name is Niklas. I really like microcontrollers.
+
+00:02:13.000 --> 00:02:21.000
+ That's the short introduction, the longer introduction as I studied computer science at the RWTH Aachen University some time ago.
+
+00:02:21.000 --> 00:02:28.000
+ And by studying, I mean I was building autonomous robots at the Roboterklub Aachen since 2010.
+
+00:02:28.000 --> 00:02:41.000
+ And out of this project fell the C++ library that is known as modem.io, which is a C++23 library that supports 3,700 Cortex-M devices, which I co-maintain.
+
+00:02:41.000 --> 00:02:50.500
+ And then I got bored and I started working at ARM on ARM V8M sandboxing before I got bored of that and returned to the university to study for my master's degree.
+
+00:02:50.500 --> 00:03:06.000
+ And by studying, I mean digitizing the railway signaling lab in the transportation engineering department and designing a 32-second scale modular signaling systems out of PCBs and 3D prints, because why not?
+
+00:03:06.000 --> 00:03:19.500
+ And so I finally finished my master's degree and now I started working at Autarion, which is mostly debugging the open source PX4 autopilot for commercial drones.
+
+00:03:19.500 --> 00:03:24.000
+ So, you know, in summary, my name is Niklas and I like microcontrollers.
+
+00:03:24.000 --> 00:03:29.500
+ And for my day job, I debug the SkyNote autopilot that you can see here on the right.
+
+00:03:29.500 --> 00:03:37.000
+ It contains a very fast STM32H7 running at 480 megahertz and a bunch of sensors.
+
+00:03:37.000 --> 00:03:43.500
+ And the rest of the board is not my job. It runs Linux and communication, probably not important.
+
+00:03:43.500 --> 00:03:49.000
+ And the autopilot runs PX4, which is actually open source.
+
+00:03:49.000 --> 00:03:58.000
+ It runs the Nuttyx real time operating system, which is fairly complex and it has some small subtle bugs here and there.
+
+00:03:58.000 --> 00:04:07.500
+ And my job is just debug. It's not actually embedded software engineer. That's a common misconception. It's just debug.
+
+00:04:07.500 --> 00:04:13.000
+ And it's quite difficult because the code base is quite large and the processor is quite fast.
+
+00:04:13.000 --> 00:04:19.500
+ And today I want to share how I debug and some of the tools that I wrote to help me debug.
+
+00:04:19.500 --> 00:04:28.000
+ So what are microcontrollers? Microcontrollers, when I talk about them, I specifically mean ARM Cortex-M microcontrollers.
+
+00:04:28.000 --> 00:04:33.500
+ They contain a microprocessor from ARM. Here are Cortex-M7 in light green on the left,
+
+00:04:33.500 --> 00:04:41.000
+ which is connected to a bus system to non-volatile memories like flash and volatile memories like SRAM here in yellow,
+
+00:04:41.000 --> 00:04:46.000
+ as well as a bunch of special purpose peripherals. And these architectures can be quite complex.
+
+00:04:46.000 --> 00:04:54.000
+ You can see here the CPU is connected to several internal buses, several different peripherals and different clock domains.
+
+00:04:54.000 --> 00:04:58.500
+ You can also see the direct memory access, the DMA peripherals in dark green.
+
+00:04:58.500 --> 00:05:03.500
+ So there's a lot of stuff going on inside this that's not just controlled by the CPU.
+
+00:05:03.500 --> 00:05:08.000
+ And these peripherals can be internal, like the random number generator,
+
+00:05:08.000 --> 00:05:16.500
+ or they can be external, like the Ethernet peripheral, which connects to the PHY via the microcontroller pins.
+
+00:05:16.500 --> 00:05:24.000
+ And the memories here are typically in the kilobytes, so you don't really have the opportunity to run Linux,
+
+00:05:24.000 --> 00:05:29.000
+ which is why they use custom purpose real-time operating systems like NuttX.
+
+00:05:29.000 --> 00:05:35.500
+ And the really interesting part here is on the left, the CPU also has external signals for debugging.
+
+00:05:35.500 --> 00:05:38.500
+ And that's what we're going to talk about in this talk.
+
+00:05:38.500 --> 00:05:46.500
+ So if you want to debug a microcontroller, you first need to connect to the serial wire debug pins.
+
+00:05:46.500 --> 00:05:54.000
+ And there's a ST-Link V3, which costs about 12 euros. It's the cheapest and most capable debug probe that I've ever seen.
+
+00:05:54.000 --> 00:05:58.000
+ It comes with a built-in serial. It's very fast. I highly recommend it.
+
+00:05:58.000 --> 00:06:01.500
+ I'm not sponsored, not by ST.
+
+00:06:01.500 --> 00:06:08.500
+ The debug probe then communicates over USB to the driver software, which is typically OpenOCD,
+
+00:06:08.500 --> 00:06:11.500
+ which stands for on-chip debug, not the other thing.
+
+00:06:11.500 --> 00:06:14.500
+ And it implements the GDB server protocol.
+
+00:06:14.500 --> 00:06:22.000
+ And you can then connect GDB over TCP and then debug the device via the command line interface.
+
+00:06:22.000 --> 00:06:27.500
+ But this is typically then also wrapped via the GDB machine interface inside your IDE.
+
+00:06:27.500 --> 00:06:34.500
+ And this machine interface is mostly for exchanging state, which is useful for a user interface.
+
+00:06:34.500 --> 00:06:37.500
+ And of course, this has a lot of latency.
+
+00:06:37.500 --> 00:06:41.500
+ You have to walk several stacks, networking stacks, USB stacks.
+
+00:06:41.500 --> 00:06:46.500
+ It's definitely not real time. And it's particularly bad if you connect it over GDB.
+
+00:06:46.500 --> 00:06:52.500
+ So what is GDB? GDB is the debugger that comes with your Arm non-ABI toolchain.
+
+00:06:52.500 --> 00:06:57.500
+ Arm provides you with an officially tested and precompiled toolchain.
+
+00:06:57.500 --> 00:07:01.500
+ Please use that for compilation. I've seen so many bugs from weird toolchains.
+
+00:07:01.500 --> 00:07:06.500
+ But the GDB, unfortunately, is not compiled with Python 3 support.
+
+00:07:06.500 --> 00:07:14.500
+ So you need to install another toolchain, but just symlink the GDB. Don't compile with that toolchain.
+
+00:07:14.500 --> 00:07:18.500
+ And here's quickly how you launch a GDB session.
+
+00:07:18.500 --> 00:07:24.500
+ You first launch the driver software, which is OpenOCD with the correct target configuration and initialization.
+
+00:07:24.500 --> 00:07:29.500
+ And then you launch GDB with the ELF file, which contains all of the debug symbols. That's very important.
+
+00:07:29.500 --> 00:07:35.500
+ And then you connect to this GDB server, which is created by OpenOCD.
+
+00:07:35.500 --> 00:07:41.500
+ And then there are a bunch of super basic commands. There's Ctrl+C for halting the CPU.
+
+00:07:41.500 --> 00:07:43.500
+ And then the CPU isn't running anymore.
+
+00:07:43.500 --> 00:07:49.500
+ So if you have a drone that's flying in the sky and you start the GDB, it tends to stop doing that.
+
+00:07:49.500 --> 00:07:55.500
+ So be careful, particularly if you have spinny things connected to your microcontroller.
+
+00:07:55.500 --> 00:08:01.500
+ You can, of course, single step through your code using these commands. You can use backtrace to show where you are.
+
+00:08:01.500 --> 00:08:07.500
+ There are many better tutorials on the internet. Just consult them.
+
+00:08:07.500 --> 00:08:12.500
+ GDB has its own scripting language, but it's really quite limited. It's not that great.
+
+00:08:12.500 --> 00:08:17.500
+ So instead of fixing that, they just implemented a Python API.
+
+00:08:17.500 --> 00:08:21.500
+ And you can source Python scripts using the source command inside GDB.
+
+00:08:21.500 --> 00:08:26.500
+ And then you can import GDB. And this module really only exists inside GDB.
+
+00:08:26.500 --> 00:08:32.500
+ It's not Python. It is actually an implementation in C directly inside GDB.
+
+00:08:32.500 --> 00:08:37.500
+ So that's fun to debug. And there are some limitations.
+
+00:08:37.500 --> 00:08:47.500
+ The Python API cannot write variables. You must use the workaround by calling the GDB scripting API from inside the Python API.
+
+00:08:47.500 --> 00:08:52.500
+ Bit weird. You cannot access some of the debug information like the C preprocessor.
+
+00:08:52.500 --> 00:09:00.500
+ And it's a language independent API. So pointer semantics and C and C++ are sometimes a bit weird.
+
+00:09:00.500 --> 00:09:05.500
+ I'm not going to show you a lot of code. I'm going to talk mostly about concepts.
+
+00:09:05.500 --> 00:09:09.500
+ Let's start with something simple. I started working on Terion about seven months ago.
+
+00:09:09.500 --> 00:09:15.500
+ And the PX4 autopilot project has four million lines of code, which is a lot.
+
+00:09:15.500 --> 00:09:25.500
+ So I needed to get an overview. And the simplest thing is just to start your debugger and see a couple of backtraces to understand what function is being called by what.
+
+00:09:25.500 --> 00:09:30.500
+ And the easy way to do this is to set a breakpoint on a function and then do a backtrace.
+
+00:09:30.500 --> 00:09:40.500
+ And you can do this fast automatically with the command, which adds commands to the breakpoint and then just continues immediately.
+
+00:09:40.500 --> 00:09:46.500
+ And then you can lock this into a file and then post process it with Python to get the actual call graph.
+
+00:09:46.500 --> 00:09:55.500
+ I've used graph viz. It looks like this. Quite complex. There were a couple of issues with an SD card.
+
+00:09:55.500 --> 00:09:58.500
+ There was some grounding of drones. Don't look it up.
+
+00:09:58.500 --> 00:10:07.500
+ And there was an issue inside this code. And so I needed to know what is actually talking to this SD card, what peripheral is responsible for this.
+
+00:10:07.500 --> 00:10:12.500
+ So I created this call graph. And you can see this is the resulting call graph.
+
+00:10:12.500 --> 00:10:16.500
+ It's here. It's a bit closer. You can see it's split into three parts.
+
+00:10:16.500 --> 00:10:23.500
+ So this is the SD MMC peripheral that actually does talk to the SD card. It's the lowest level thing.
+
+00:10:23.500 --> 00:10:28.500
+ And you can see the three marked functions down there. Read, write and modify registers.
+
+00:10:28.500 --> 00:10:34.500
+ And it only really has two entry points at the top left and right. The read and write data.
+
+00:10:34.500 --> 00:10:41.500
+ And this interface then talks to the FAT file system implementation, which is available here in yellow.
+
+00:10:41.500 --> 00:10:45.500
+ That's a lot of code. Great for debugging.
+
+00:10:45.500 --> 00:10:50.500
+ And finally, above here, you can see the standard libc functions. On the left, you can see fsync.
+
+00:10:50.500 --> 00:10:54.500
+ And on the right, you can see open. Of course, you can't see it because it's too small.
+
+00:10:54.500 --> 00:10:58.500
+ You're just going to have to take my word for it.
+
+00:10:58.500 --> 00:11:03.500
+ The yellow task is then the actual logger code. So there's a lot going on in this thing.
+
+00:11:03.500 --> 00:11:10.500
+ And in a way, PX4 is kind of the perfect laboratory for all of these tools because it's got everything implemented in it.
+
+00:11:10.500 --> 00:11:16.500
+ It's really quite impressive in a negative way and a positive way.
+
+00:11:16.500 --> 00:11:21.500
+ And the great thing about this is that you don't even need to instrument your code. You can just do this in GDB.
+
+00:11:21.500 --> 00:11:25.500
+ You don't need to modify your firmware. It's very slow.
+
+00:11:25.500 --> 00:11:33.500
+ So, again, don't do it in the sky or in any system that requires safety.
+
+00:11:33.500 --> 00:11:37.500
+ But it's very helpful to get to know a code base.
+
+00:11:37.500 --> 00:11:43.500
+ And if you want to know how this is implemented, you can look this up in detail in the open source embedded debug tools.
+
+00:11:43.500 --> 00:11:49.500
+ It's a Python 3 library. It's BSD licensed. It's fully open source on GitHub with lots of documentation.
+
+00:11:49.500 --> 00:11:59.500
+ It's highly modular. So you can reuse some of the parts that are not useful for you because it is, of course, specific for STM32, PX4, and NuttX.
+
+00:11:59.500 --> 00:12:05.500
+ And it's actively maintained. So feel free to contribute or just use it as a reference or just ask questions.
+
+00:12:05.500 --> 00:12:11.500
+ And the reference at the bottom right of the slide refers to the Python module. So if you want to look something up quickly.
+
+00:12:11.500 --> 00:12:18.500
+ Okay. Let's look at some more GDB tools. NuttX is a real time operating system with preemptive threading.
+
+00:12:18.500 --> 00:12:27.500
+ And so PX4 uses a lot of threads. We start, I think, 1,700, mostly because of historical reasons.
+
+00:12:27.500 --> 00:12:32.500
+ And here I've created the first GDB Python tool, which is PX4 Tasks.
+
+00:12:32.500 --> 00:12:39.500
+ And it lists all of the threads with their PID, name, CPU, stack usage, and most importantly what it's waiting for.
+
+00:12:39.500 --> 00:12:47.500
+ Because, again, my job is just debug. And the most common source of problems is semaphores. I hate semaphores so much.
+
+00:12:47.500 --> 00:12:55.500
+ They are the bane of my existence. And being able to see them and see their address pointer where they live is great for my sanity.
+
+00:12:55.500 --> 00:13:03.500
+ So this is very useful. How does it work? This is implemented as a custom GDB user command.
+
+00:13:03.500 --> 00:13:12.500
+ GDB can look up symbols in various scopes. Here we're looking at a global symbol, but you can also have a function symbol or a file symbol.
+
+00:13:12.500 --> 00:13:20.500
+ And NuttX, like many of the RTOS out there, uses something called a ready list of tasks that are ready to run.
+
+00:13:20.500 --> 00:13:26.500
+ And we can take this linked list and just iterate over each task and then look at simple things.
+
+00:13:26.500 --> 00:13:35.500
+ It's usually a struct task control block, TCB, that's what it's called. And typically it contains all of the relevant information.
+
+00:13:35.500 --> 00:13:42.500
+ But some of the stuff is more indirect. Like if we want to look at the stack usage, we need to do a binary search to figure out where the watermark is.
+
+00:13:42.500 --> 00:13:48.500
+ Or we need to look at some timers to figure out the CPU time. So you can scale this up or down how you want.
+
+00:13:48.500 --> 00:13:52.500
+ I mean, it's Python, you know, import anti-gravity and so on.
+
+00:13:52.500 --> 00:13:59.500
+ Here's another example. NuttX implements its own dynamic interrupt dispatcher in assembly. Because why not?
+
+00:13:59.500 --> 00:14:07.500
+ Therefore, every interrupt handler inside the official NVIC table interrupt table is the same function, which is of course not particularly useful.
+
+00:14:07.500 --> 00:14:11.500
+ So I wrote this small tool that finds this dispatch tails and just renders it.
+
+00:14:11.500 --> 00:14:18.500
+ And you can see they all have the same priority because NuttX doesn't support nested interrupts. It doesn't need to. It's fine.
+
+00:14:18.500 --> 00:14:26.500
+ And you can see whether the interrupt is enabled, pending or active. And here you can see the IRQ 59, for example, is currently active.
+
+00:14:26.500 --> 00:14:32.500
+ So we halted by coincidence inside this very short interrupt, which is currently servicing the DMA.
+
+00:14:32.500 --> 00:14:38.500
+ You can also see the argument to the private DMA buffer over there.
+
+00:14:38.500 --> 00:14:44.500
+ And you can see that IRQ 65 is pending. So it will be executed next, right after this interrupt.
+
+00:14:44.500 --> 00:14:48.500
+ And this is super useful to figure out what function to actually put the breakpoint on.
+
+00:14:48.500 --> 00:14:56.500
+ Okay, that's enough NuttX. You're all damaged now. You're welcome.
+
+00:14:56.500 --> 00:15:05.500
+ Let's look at some STM32 specific tools. So STM32 is the actual microcontroller on there. It's hardware. It cannot be changed.
+
+00:15:05.500 --> 00:15:12.500
+ I often need to know what the actual state of the microcontroller pins are.
+
+00:15:12.500 --> 00:15:17.500
+ So this tool just shows it to you. You can see the pin name, the configuration, the input and output state.
+
+00:15:17.500 --> 00:15:27.500
+ You can see the alternate function. You can see the signal names and functions that are, of course, specific to our autopilot.
+
+00:15:27.500 --> 00:15:36.500
+ So, for example, the pin A6 and A8 are inputs with pull-ups and they're currently high, which you can see by the caray.
+
+00:15:36.500 --> 00:15:45.500
+ If they're low, they have the lower bar. Again, unlimited to ASCII, I think. Maybe Unicode. I'm not entirely sure. That would be interesting.
+
+00:15:45.500 --> 00:15:53.500
+ And then there's also pin A13 and A14, which are the serial wire debug connection that we're currently using to debug this chip.
+
+00:15:53.500 --> 00:15:58.500
+ And we can see that they're internally connected to the alternate function 5 and 0.
+
+00:15:58.500 --> 00:16:09.500
+ And you can also see that the data connection is configured for a very high rate, very high data rate, which is +vh. So this is a compact description.
+
+00:16:09.500 --> 00:16:17.500
+ How does this work? Well, the debugger cannot only access the internal SRAM, but it can actually access the entire bus system.
+
+00:16:17.500 --> 00:16:24.500
+ So it first goes through the 64-bit bus and then it goes down here through another 32-bit bus, because why not?
+
+00:16:24.500 --> 00:16:37.500
+ And then it finally accesses the GPIO register files. I don't know what port K did. Maybe it was Naughty, but it's separate from the other ports. Who knows? ST.
+
+00:16:37.500 --> 00:16:50.500
+ And for this to work, I need to know the exact address of the GPIO peripheral, which I can find in the STM32H7 reference manual, which is thousands of pages long.
+
+00:16:50.500 --> 00:16:59.500
+ It's a giant PDF, which is very fun to copy stuff out of. So not great to work with, but I need to know.
+
+00:16:59.500 --> 00:17:04.500
+ So this is the address. I need to know what the bit fields inside the register mean.
+
+00:17:04.500 --> 00:17:13.500
+ So I can also look this up here and then I can write this into a short Python script to read iterate over each pin and then condense this into this table.
+
+00:17:13.500 --> 00:17:23.500
+ But of course, I cannot write a custom parser for every peripheral on the STM32 because it's got dozens of peripherals and I'm not getting paid to do that.
+
+00:17:23.500 --> 00:17:33.500
+ So wouldn't it be nice if there were a machine readable data source of this information? And yes, there is. People have already thought about this.
+
+00:17:33.500 --> 00:17:44.500
+ It's called the system view description files, which is standardized in the CMSIS standard, and it's an XML format that describes the entire register map.
+
+00:17:44.500 --> 00:17:52.500
+ So you don't have to copy it out of the PDFs anymore. You can use this machine readable data source.
+
+00:17:52.500 --> 00:17:58.500
+ Unfortunately, it's not super accurate. Maybe like 90%. There are some issues because ST.
+
+00:17:58.500 --> 00:18:04.500
+ And so these SVD files are a little bit broken, but there are some manual patches available.
+
+00:18:04.500 --> 00:18:13.500
+ And I also wrote my master thesis about improving this. And there is a great GDB plugin already from Pengi, which does all of the heavy lifting for you.
+
+00:18:13.500 --> 00:18:21.500
+ It loads the SVD file. It tells the debug probe where to load the memory and how to interpret and then render it in a structured form.
+
+00:18:21.500 --> 00:18:28.500
+ And our or my embedded debug tools just wrap this tool and also provides you a difference viewer.
+
+00:18:28.500 --> 00:18:37.500
+ So this is what it looks like. Right. So again, it's a custom GDB user command where you tell the peripheral dot the register that you want to look at.
+
+00:18:37.500 --> 00:18:50.500
+ And then you get this view, the raw binary. In this case, we're looking at the DMA2 stream zero configuration register, S0CR, worlds off the tongue.
+
+00:18:50.500 --> 00:18:58.500
+ And you can see the raw register value here and then below the raw register value, all of the bit fields with the name and the description.
+
+00:18:58.500 --> 00:19:01.500
+ All of this information comes from the SVD file.
+
+00:19:01.500 --> 00:19:13.500
+ And this is extremely helpful for just quickly checking the configuration of a peripheral without manually fiddling around with bits and then doing mistakes, which I've done plenty of times.
+
+00:19:13.500 --> 00:19:22.500
+ You still, of course, need to read the reference manual to understand the entire context, but just to quickly understand what this means, it's very helpful.
+
+00:19:22.500 --> 00:19:29.500
+ There's also a there's the possibility to combine this with hardware watch points.
+
+00:19:29.500 --> 00:19:37.500
+ So inside the STM inside the Cortex M, you can declare a memory region that should be watched for writes and reads.
+
+00:19:37.500 --> 00:19:45.500
+ And then it triggers a break point. And if you keep the previous state of the register, you can render this a difference.
+
+00:19:45.500 --> 00:19:50.500
+ You can see in gray what it was before and then in black plus what it's now.
+
+00:19:50.500 --> 00:19:55.500
+ And this is, of course, even more helpful because you can step literally step through the rights.
+
+00:19:55.500 --> 00:20:03.500
+ You're not stepping through lines of codes. You're stepping through register rights, which is very helpful, particularly when you combine it with a backtrace.
+
+00:20:03.500 --> 00:20:12.500
+ And maybe you can see it in the front row, but this is again SD card stuff, which sets up the DMA transfer to transfer the file to the SD card.
+
+00:20:12.500 --> 00:20:15.500
+ So very helpful.
+
+00:20:15.500 --> 00:20:28.500
+ Finally, the last GDB tool that I want to show you is core dumping support, which is not really natively implemented in GDB because Cortex M's are a bit weird and they're very specific.
+
+00:20:28.500 --> 00:20:33.500
+ So there is no generic implementation, but it's actually relatively simple.
+
+00:20:33.500 --> 00:20:40.500
+ You only need to read out all of the volatile memories like SRAM and all of the peripherals and then store that in a file.
+
+00:20:40.500 --> 00:20:44.500
+ The nonvolatile memory from flash that already comes from the ELF file.
+
+00:20:44.500 --> 00:20:53.500
+ So the SVD files here are used to not have to read out the whole 32 bit address space, which would be four gigabytes would take forever.
+
+00:20:53.500 --> 00:21:02.500
+ I'm only reading about a megabyte here because I can only read the actual parts of the memory map that are used, which I know from the SVD file.
+
+00:21:02.500 --> 00:21:09.500
+ And then you would write a GDB server that just pretends to be connected to a device instead of actually being connected to the device.
+
+00:21:09.500 --> 00:21:11.500
+ And GDB cannot actually tell the difference.
+
+00:21:11.500 --> 00:21:15.500
+ And this tool is already, of course, you know, other smart people have already thought about this.
+
+00:21:15.500 --> 00:21:23.500
+ And one of these smart people is Adam Green, who implemented the crash debug utility, which does exactly this, as you can see here.
+
+00:21:23.500 --> 00:21:25.500
+ I can strongly recommend that.
+
+00:21:25.500 --> 00:21:35.500
+ It's extremely useful for if you're tired, just taking a core dump and then shutting the device down, throwing it out the window, you know, setting the office on fire.
+
+00:21:35.500 --> 00:21:37.500
+ Not that I would do that.
+
+00:21:37.500 --> 00:21:50.500
+ And you can archive these buggy devices in their current state, and then you can either try again later or you can send it to another engineer who's maybe more tolerant of this bullshit.
+
+00:21:50.500 --> 00:21:57.500
+ And then finally, all of these tools, except this one, are running while the CPU is halted.
+
+00:21:57.500 --> 00:22:02.500
+ This one is running when the CPU is on fire because I set it on fire.
+
+00:22:02.500 --> 00:22:09.500
+ But there are certain things where you cannot actually halt the CPU, like if the drone is currently flying around.
+
+00:22:09.500 --> 00:22:12.500
+ So here you need to profile your application.
+
+00:22:12.500 --> 00:22:17.500
+ And the simplest profiling method is logging.
+
+00:22:17.500 --> 00:22:21.500
+ It's usually on a microcontroller done over the serial link.
+
+00:22:21.500 --> 00:22:23.500
+ It's very low cost.
+
+00:22:23.500 --> 00:22:24.500
+ It's built in.
+
+00:22:24.500 --> 00:22:26.500
+ It's very effective, unfortunately.
+
+00:22:26.500 --> 00:22:27.500
+ Everyone loves it.
+
+00:22:27.500 --> 00:22:29.500
+ Everyone uses it.
+
+00:22:29.500 --> 00:22:43.500
+ And of course, it's a necessary tool, particularly if you log the actual output here, not over the serial device, but onto, for example, an SD card, which is great because then you have a crash log.
+
+00:22:43.500 --> 00:22:48.500
+ Unless, of course, the bug is inside the SD card handler, then you don't have a crash log.
+
+00:22:48.500 --> 00:22:51.500
+ But it's, of course, way too slow for our processor.
+
+00:22:51.500 --> 00:22:53.500
+ We are running at 480 megahertz.
+
+00:22:53.500 --> 00:22:57.500
+ It produces several million events per second.
+
+00:22:57.500 --> 00:23:02.500
+ You're not going to push that over the microcontroller serial link.
+
+00:23:02.500 --> 00:23:03.500
+ There are lots of events.
+
+00:23:03.500 --> 00:23:07.500
+ So we need a higher bandwidth connection.
+
+00:23:07.500 --> 00:23:09.500
+ And there is a simple idea.
+
+00:23:09.500 --> 00:23:13.500
+ Just log everything to a ring buffer inside SRAM.
+
+00:23:13.500 --> 00:23:15.500
+ It can be as large as you want.
+
+00:23:15.500 --> 00:23:19.500
+ And then let the debug probe do the transfer because the debug probe is attached.
+
+00:23:19.500 --> 00:23:23.500
+ It can access the SRAM, as we've shown before.
+
+00:23:23.500 --> 00:23:30.500
+ And it can just periodically poll asynchronously in the background without disturbing the CPU at a low priority.
+
+00:23:30.500 --> 00:23:43.500
+ And this is the entire idea behind SEGR's system view, which provides a library for you to serialize RTOS events and then also to timestamp them at a microsecond resolution.
+
+00:23:43.500 --> 00:23:44.500
+ But it's all done in software.
+
+00:23:44.500 --> 00:23:52.500
+ So the serialization, the threading, the scheduling, the semaphores, the interrupt, all of that is done in software.
+
+00:23:52.500 --> 00:23:55.500
+ So it's actually quite a large overhead.
+
+00:23:55.500 --> 00:23:58.500
+ And of course, it's proprietary and it costs money.
+
+00:23:58.500 --> 00:24:01.500
+ And unfortunately, there is no nutmeg support.
+
+00:24:01.500 --> 00:24:04.500
+ So I thought, well, I can do that.
+
+00:24:04.500 --> 00:24:07.500
+ Please, how hard can it be?
+
+00:24:07.500 --> 00:24:15.500
+ Wouldn't it be great if instead of doing everything in software, there was some hardware peripheral that did that for you?
+
+00:24:15.500 --> 00:24:23.500
+ And you don't have to look any further, but the instrumentation trace macrocell and the data watch point and trace peripheral, it really rolls off the tongue.
+
+00:24:23.500 --> 00:24:25.500
+ ARM is really good at abbreviations.
+
+00:24:25.500 --> 00:24:27.500
+ I love it.
+
+00:24:27.500 --> 00:24:33.500
+ And here you have 32 channels that you can write 8, 16 or 32-bit values to.
+
+00:24:33.500 --> 00:24:38.500
+ And it also logs the exception entry and exits without any code modification.
+
+00:24:38.500 --> 00:24:40.500
+ Just does it in the background.
+
+00:24:40.500 --> 00:24:45.500
+ And this whole thing is implemented in hardware, including the timestamping at cycle accuracy.
+
+00:24:45.500 --> 00:24:51.500
+ So it's in every Cortex-M except the Cortex-M zeros, but we don't talk about that anyway.
+
+00:24:51.500 --> 00:25:01.500
+ The whole thing, you really only need to add the single line which writes the value that you want to log to the port.
+
+00:25:01.500 --> 00:25:06.500
+ In this case, it's port 3, so the fourth channel.
+
+00:25:06.500 --> 00:25:18.500
+ So this is then serialized and multiplexed into a single pin which is called the serial wire output, which is basically a very fast UART.
+
+00:25:18.500 --> 00:25:27.500
+ And the ST-Link V3, the $12 probe that I showed you at the beginning, can read this up to 2 megabytes per second, which is fast.
+
+00:25:27.500 --> 00:25:34.500
+ We can write maybe 300 kilobytes to the SD card because of the overhead, but 2 megabytes is saying that's good.
+
+00:25:34.500 --> 00:25:38.500
+ So this is enough to output all of the scheduling information.
+
+00:25:38.500 --> 00:25:44.500
+ But unfortunately, it is a fairly compact binary format and we need to parse it.
+
+00:25:44.500 --> 00:25:51.500
+ And this is where the orb code project comes in because those are the people that thought, well, we can also do what SEGR does,
+
+00:25:51.500 --> 00:25:56.500
+ but we can do it better because we can do it open source and then other people can contribute.
+
+00:25:56.500 --> 00:26:03.500
+ And they've implemented a parser for this byte stream which can demultiplex this and then convert it into something useful.
+
+00:26:03.500 --> 00:26:13.500
+ It's a C API and I have written the orb beto tool, which is a C++ tool that then takes this data and converts it into F trace packets,
+
+00:26:13.500 --> 00:26:20.500
+ which is the standard or de facto standard way of storing trace information on Linux.
+
+00:26:20.500 --> 00:26:27.500
+ And it's called orb beto because I use the Perfetto UI to visualize this.
+
+00:26:27.500 --> 00:26:31.500
+ So orb code and Perfetto, orb beto, are you getting it?
+
+00:26:31.500 --> 00:26:39.500
+ Hey. And then this is visualized by Perfetto, which originally, as I said, was used by Android and Linux traces,
+
+00:26:39.500 --> 00:26:42.500
+ but, you know, why not use it? It's great.
+
+00:26:42.500 --> 00:26:50.500
+ And here at the top, you can see the CPU, which is shared by all of these different threads.
+
+00:26:50.500 --> 00:26:54.500
+ And you can also in the line just below it see all of the interrupts.
+
+00:26:54.500 --> 00:26:58.500
+ You can see a very long interrupt there in the middle, the SVC call.
+
+00:26:58.500 --> 00:27:06.500
+ And this is not real. This is only because the exception entry and exits have a lower priority than the other packets.
+
+00:27:06.500 --> 00:27:10.500
+ So there's often a packet drop and sometimes the exit gets lost.
+
+00:27:10.500 --> 00:27:18.500
+ And so that's why you have these very long... It's not a problem in real life. You just need to know it.
+
+00:27:18.500 --> 00:27:24.500
+ On the left here, you can see all of the threads with their names and PIDs.
+
+00:27:24.500 --> 00:27:30.500
+ PX4 uses a lot of NuttX threads. So this is a long, long list.
+
+00:27:30.500 --> 00:27:35.500
+ If you scroll down there, you can try this yourself. There is a file. You can drag this into your web browser.
+
+00:27:35.500 --> 00:27:38.500
+ And it just works and happy scrolling around.
+
+00:27:38.500 --> 00:27:45.500
+ And by the way, this is just... Every tick up there is 100 microseconds. So this is very, very fast.
+
+00:27:45.500 --> 00:27:48.500
+ You can see each of the threads here, for example.
+
+00:27:48.500 --> 00:27:55.500
+ We have a bunch of work queues that run all of these sensors. They periodically pull them and read out the values.
+
+00:27:55.500 --> 00:28:00.500
+ And you can see that the work queue has started and then the thread was interrupted.
+
+00:28:00.500 --> 00:28:03.500
+ And then the thread returns and the work queue concludes.
+
+00:28:03.500 --> 00:28:10.500
+ So just having the threading information is not enough. You need to know what the actual work queue is doing here.
+
+00:28:10.500 --> 00:28:19.500
+ So this is incredibly useful and also just incredibly educational to understand how a real-time operating system works.
+
+00:28:19.500 --> 00:28:24.500
+ Because you can see the scheduling happening when, for example, there is an interrupt.
+
+00:28:24.500 --> 00:28:28.500
+ You can correlate the edges to the interrupts and this is exactly how the RTOS works.
+
+00:28:28.500 --> 00:28:35.500
+ An event arrives and oh, this interrupt happened. I need to reschedule immediately another thread.
+
+00:28:35.500 --> 00:28:41.500
+ So just scrolling around this in your free own time is very educational and very fun.
+
+00:28:41.500 --> 00:28:47.500
+ But it actually becomes much more interesting if we zoom out because we can suddenly see some patterns.
+
+00:28:47.500 --> 00:28:53.500
+ You can see here, as I said before, the work queues, they pull the sensors every couple of milliseconds.
+
+00:28:53.500 --> 00:28:58.500
+ You can see every tick here is one millisecond and we pull it approximately every two milliseconds.
+
+00:28:58.500 --> 00:29:02.500
+ So 500 hertz. I think the update rate is 400 hertz or something.
+
+00:29:02.500 --> 00:29:08.500
+ And this is a nice visual way of just seeing if there are any timing issues.
+
+00:29:08.500 --> 00:29:13.500
+ Because if we zoom out further, here you can see a 100 millisecond tick.
+
+00:29:13.500 --> 00:29:18.500
+ We suddenly see a hiccup. The I2C1 task has become irregular.
+
+00:29:18.500 --> 00:29:24.500
+ The work queues have become very long, several hundred, several dozen milliseconds long.
+
+00:29:24.500 --> 00:29:31.500
+ And the reason for this is there was a power glitch, a brownout on the external sensor bus because somebody plugged in too many sensors.
+
+00:29:31.500 --> 00:29:38.500
+ And so the sensors had to be reinitialized. Again, my job is just debug. I don't know how power works.
+
+00:29:38.500 --> 00:29:45.500
+ So this kind of visual debugging with your eyes, I mean how else would you do it,
+
+00:29:45.500 --> 00:29:52.500
+ but is incredibly fast to spot timing issues. You can just look at this thing and be like, "Regular, regular, regular."
+
+00:29:52.500 --> 00:29:59.500
+ "Oh, it's not regular anymore. There's the problem." And it also makes you look like a wizard because it's cool.
+
+00:29:59.500 --> 00:30:03.500
+ You can zoom around in it and other people are like, "Wow."
+
+00:30:03.500 --> 00:30:09.500
+ So unfortunately, the serial wire output is still limited in bandwidth.
+
+00:30:09.500 --> 00:30:15.500
+ Two megabytes per second is not enough. So ARM decided, you know, ARM is a hardware company,
+
+00:30:15.500 --> 00:30:20.500
+ so they decided to solve the problem with even more hardware. Who would have guessed?
+
+00:30:20.500 --> 00:30:28.500
+ So there is parallel tracing, which gives you a four-bit wide bus up to one gigabit per second in theory.
+
+00:30:28.500 --> 00:30:34.500
+ In practice, of course, it depends on the signal quality. But you know, it's more than enough.
+
+00:30:34.500 --> 00:30:38.500
+ A couple of dozen megabytes should be enough per second.
+
+00:30:38.500 --> 00:30:44.500
+ And in addition to all of the previous functionality of the ITM and the DWT,
+
+00:30:44.500 --> 00:30:53.500
+ there's also a compressed instruction trace that allows you to reconstruct the entire program flow off-device.
+
+00:30:53.500 --> 00:31:00.500
+ It has to be compressed, obviously, because you cannot log every single instruction because at 480 megahertz, it would be a lot of data.
+
+00:31:00.500 --> 00:31:07.500
+ So it only actually logs the branching because the rest is known, right? You just follow along.
+
+00:31:07.500 --> 00:31:18.500
+ And this is very fast. It requires custom hardware, usually an FPGA with a USB 3 connection to really get the one gigabit per second in the standard.
+
+00:31:18.500 --> 00:31:26.500
+ But the J-trace, which is sort of the cheapest de facto standard for this interface, costs a lot of money.
+
+00:31:26.500 --> 00:31:32.500
+ And I got one for work and it was not as well documented as I had hoped.
+
+00:31:32.500 --> 00:31:41.500
+ And the ORP trace instead, again from the ORP code community, is actually open source and you can buy it and it's 10 times cheaper.
+
+00:31:41.500 --> 00:31:47.500
+ It's not fully working yet, but it's definitely more documented and I could get it to work faster.
+
+00:31:47.500 --> 00:31:51.500
+ So it's working for me, which is important.
+
+00:31:51.500 --> 00:31:56.500
+ So there is a very helpful community around it. There are some smart people that work on it.
+
+00:31:56.500 --> 00:32:00.500
+ And if you want to hack around with this, this is like the ultimate thing.
+
+00:32:00.500 --> 00:32:06.500
+ It can do everything that I've previously said, including SWO input and debugging, of course.
+
+00:32:06.500 --> 00:32:09.500
+ And I think it even has a serial link.
+
+00:32:09.500 --> 00:32:17.500
+ The question is what do you do with this data? Because now you get several hundred megabytes of instructions and what do you do with this data?
+
+00:32:17.500 --> 00:32:25.500
+ And the most useful thing that I found is a research paper called Micro AFL, which stands for Micro American Fuzzy Lop,
+
+00:32:25.500 --> 00:32:33.500
+ which does fuzzing on the device using this branching information, because that's exactly what American Fuzzy Lop needs, branches.
+
+00:32:33.500 --> 00:32:39.500
+ And it found a lot of bugs inside the SDM32 hardware drivers, the QPAL drivers.
+
+00:32:39.500 --> 00:32:48.500
+ And it would be very interesting to use this, perhaps in an open source setting, to test our autopilot before it takes off.
+
+00:32:48.500 --> 00:32:50.500
+ That would be a great idea.
+
+00:32:50.500 --> 00:32:55.500
+ So I'm looking for interns to work on this right now, because apparently I need to do Jira tickets.
+
+00:32:55.500 --> 00:32:57.500
+ It's my job now.
+
+00:32:57.500 --> 00:33:02.500
+ And yeah, so this is the end of the line. There is no more hardware, there is no more tooling.
+
+00:33:02.500 --> 00:33:06.500
+ We're out of stuff to do.
+
+00:33:06.500 --> 00:33:15.500
+ So in conclusion, debug all the things, right? Use more GDB, use more debug hardware.
+
+00:33:15.500 --> 00:33:24.500
+ Check out my cool open source BSD licensed project, maybe just for inspiration, maybe just you're curious, want to see how it works.
+
+00:33:24.500 --> 00:33:32.500
+ And the Orp code project is always looking for competent embedded people, so if you want to contribute there, have fun.
+
+00:33:32.500 --> 00:33:39.500
+ Maybe liberate all of the debug tools from the commercial hands would be very nice.
+
+00:33:39.500 --> 00:33:43.500
+ And thank you. And do you have questions?
+
+00:33:53.500 --> 00:33:57.500
+ So thank you so much, Niklas, for your talk.
+
+00:33:57.500 --> 00:34:06.500
+ Over there you see an angel. This angel is willing to take questions. Please signal him your wish.
+
+00:34:06.500 --> 00:34:16.500
+ One moment.
+
+00:34:18.500 --> 00:34:31.500
+ Thank you for your talk. You mentioned at the beginning that peripherals like spinny things wouldn't react too good to halting the CPU or changing the timing.
+
+00:34:31.500 --> 00:34:41.500
+ Do you have experiences which kind of peripherals like memory, displays, other chips work good or not so good?
+
+00:34:41.500 --> 00:34:43.500
+ Can you share experiences with that?
+
+00:34:43.500 --> 00:34:51.500
+ As always, it depends. Because, of course, ST also thought about this and they have the debug MCU peripheral,
+
+00:34:51.500 --> 00:34:57.500
+ which controls how other peripherals are behaving while the CPU is halted.
+
+00:34:57.500 --> 00:35:04.500
+ So you can actually not halt timers, for example, if they control a motor.
+
+00:35:04.500 --> 00:35:08.500
+ So you can halt the CPU but not the timers that control the motors.
+
+00:35:08.500 --> 00:35:20.500
+ But in general, in practice, the entire system is not as autonomous that it would keep running with only the timer.
+
+00:35:20.500 --> 00:35:24.500
+ So the drone needs to read out the sensors and then does the control loop.
+
+00:35:24.500 --> 00:35:29.500
+ So it's not actually that useful. It's really only useful for stuff like motor control.
+
+00:35:29.500 --> 00:35:41.500
+ Things that don't work well also are communication protocols because usually there is another participant that waits for packets and then timeouts happen.
+
+00:35:41.500 --> 00:35:47.500
+ And then you have weird states where the microcontroller still thinks it's communicating but it's actually not.
+
+00:35:47.500 --> 00:35:49.500
+ The other partner has already left.
+
+00:35:49.500 --> 00:35:56.500
+ So unfortunately, this halting stuff is really, using GDB is really only useful for a bench setup.
+
+00:35:56.500 --> 00:36:00.500
+ And that's really how I use it in my work.
+
+00:36:00.500 --> 00:36:06.500
+ We never ever attach a debugger to a drone because they cost a lot of money.
+
+00:36:06.500 --> 00:36:09.500
+ And again, my job is just debug.
+
+00:36:09.500 --> 00:36:18.500
+ To anyone watching us from the ether, it's also still possible to ask questions to our Signal Angel.
+
+00:36:18.500 --> 00:36:20.500
+ The stream is down.
+
+00:36:20.500 --> 00:36:25.500
+ Okay, the stream is down. So sadly not. But there is a question here.
+
+00:36:25.500 --> 00:36:35.500
+ I have a question. Do you also use GDB for regression tests or integrated in your testing environment?
+
+00:36:35.500 --> 00:36:42.500
+ Not yet. But I am looking for an intern to do exactly that.
+
+00:36:42.500 --> 00:36:49.500
+ Because of course, there's some more stuff that I didn't talk about which is scripting GDB from the outside.
+
+00:36:49.500 --> 00:37:00.500
+ Both of these were user commands from the inside. But the machine interface you can use to call GDB from the outside and orchestrate other things like logic analyzers or waveform generators.
+
+00:37:00.500 --> 00:37:06.500
+ And then actually do the inspection from the outside and the inside of the device.
+
+00:37:06.500 --> 00:37:10.500
+ But of course, the problem is, do you program this manually?
+
+00:37:10.500 --> 00:37:18.500
+ Is there a standard definition of an I2C protocol that you can then fuzz around with?
+
+00:37:18.500 --> 00:37:22.500
+ The stuff doesn't really exist. There are manual implementations of this.
+
+00:37:22.500 --> 00:37:29.500
+ But there's no formal stuff that you can just put into a constraint solver or something and play around with this.
+
+00:37:29.500 --> 00:37:33.500
+ So those are unfortunately still quite a lot of research questions.
+
+00:37:33.500 --> 00:37:39.500
+ The tooling is kind of in place. You can certainly see where this is going. But the specifics are not there yet.
+
+00:37:39.500 --> 00:37:43.500
+ But yes, very good idea.
+
+00:37:43.500 --> 00:37:52.500
+ Any more questions? Please show your hand or stand up if you have another question.
+
+00:37:52.500 --> 00:38:02.500
+ I will look at you very intensely and count in my head to three.
+
+00:38:02.500 --> 00:38:08.500
+ So thank you so much, Niklas, for being here and bringing us into the beautiful world of microcontrollers.
+
+00:38:08.500 --> 00:38:16.500
+ Please, a warm applause.
+
+00:38:16.500 --> 00:38:18.500
+ Thank you.
+
+00:38:18.500 --> 00:38:23.500
+ Our next talk is going to start at 10 p.m. It's going to be electronics prototyping.
+
+00:38:23.500 --> 00:38:27.500
+ It's way too easy and there's no reason you can't do it.
+
+00:38:27.500 --> 00:38:35.500
+ So I hope to see every one of you here and if not have a really nice camp anyway. So goodbye.
+
+00:38:35.500 --> 00:38:40.500
+ Thanks. One more thing. While I have you here, it's not related to the talk.
+
+00:38:40.500 --> 00:38:47.500
+ I still have old badges from EMF camp, from SHA and from Gulasch Programmiernacht.
+
+00:38:47.500 --> 00:38:56.500
+ So if you want to have unused free badges, please don't throw them away because I don't have anything to do with them.
+
+00:38:56.500 --> 00:39:00.500
+ Yes, excellent. All right. Thank you.
+
+00:39:00.500 --> 00:39:05.500
+ [Music]
+

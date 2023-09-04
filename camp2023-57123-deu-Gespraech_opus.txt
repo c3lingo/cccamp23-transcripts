@@ -1,0 +1,1195 @@
+ [Musik]
+ Ich freue mich sehr hier auf der Bühne von Digitalcourage, die Gesprächsrunde "Eine digitale Währung mit Eigenschaft von Bargeld ist das möglich"
+ ankündigen zu dürfen und übergebe für die Moderation an Julia Witte von Digitalcourage und einen Applaus bitte für unser Panel.
+ [Applaus]
+ Vielen Dank. Wir werden versuchen, auch eine interaktive Diskussion daraus zu machen.
+ Also am Anfang werden wir erstmal ein bisschen grundsätzlich darüber sprechen, was wir uns unter digitalem Bargeld eigentlich vorstellen.
+ Und danach seid ihr dann alle herzlich eingeladen, auch mit zu diskutieren und eure Fragen mit einzubringen.
+ Wir machen jetzt eine kurze Vorstellungsrunde. Ich bin Julia Witte von Digitalcourage und werde versuchen darauf zu achten, dass hier jeder zu Wort kommt auf dieser Bühne.
+ Genau, und vielleicht fängt Christian kurz an mit ein paar Sätzen über dich.
+ Ja, ich bin Christian, ich bin Mitgründer von GNU/Taler und GNU-Maintener von GNU/Taler.
+ Mein Name ist Lena Simon, ich arbeite bei Digitalcourage und als Netzphilosophin und Projektmanagerin.
+ Und habe in meinem Buch, das im Mai rausgekommen ist, auch über digitales Bargeld geschrieben.
+ Ja, und ich bin Padelun und habe Digitalcourage damals als Führbund mitgeschrieben und mitgegründet.
+ Und freue mich heute hier zu sein bei einer Runde und wo es möglich ist, im CCC über Geld zu sprechen.
+ Ich würde gerne einsteigen mit der Frage, wofür braucht man denn eigentlich digitales Bargeld?
+ Wir haben doch schon Bargeld, was wäre mit dem digitalen Bargeld möglich, was mit bisherigen Bargeld nicht möglich ist mit dem physischen Bargeld?
+ Was könnte man damit anstellen?
+ Seit 100 Jahren begleiten Lena Tanges und ich die digitale Welt, die versucht miteinander zu kommunizieren.
+ Also sprich, wir haben in den späten 70er, frühen 80er Jahren ein Mailbox-System aufgebaut und haben sehr früh festgestellt,
+ dass alles ganz toll ist, aber zum Beispiel Leute, die auch Inhalte produzieren und helfen, dass Leute kommunizieren können,
+ dass die keine Möglichkeit haben, Geld zu verdienen.
+ Und wir haben uns überlegt, wie wäre es eigentlich, wenn es ein digitales Bargeld gäbe,
+ das ich digital überweisen kann, ohne dass es Spuren gibt, so wie die Oma ihrem Enkel 20 Euro in die Hand rücken kann und niemand anders bekommt das mit.
+ Sowas wollten wir immer haben und daran habe ich lange gearbeitet und bin bisher immer wieder gescheitert.
+ Fallen euch noch ein paar ganz konkrete Fälle ein, also was kann man damit machen?
+ Also mir fällt gerade das Autofahren ein. Mit Elektroauto laden, das geht eigentlich nicht mehr ohne, dass man überwacht wird, dass klar wird, wo man das Auto geladen hat,
+ weil es gibt keine einzige Ladestation, wo man Bargeld einwerfen kann.
+ Es gibt immer mehr Fälle, auch gerade zum Beispiel bei Online-Zeitungen, die fangen jetzt alle an, irgendwie durch Werbung und Tracking,
+ ihre Leute, ihre Leserinnen und Leser zu überwachen, weil die nicht unbedingt gerne bezahlen wollen.
+ Und wenn das Bezahlen, das Digitale einfacher wäre und eben anonym möglich wäre, dann könnten sich ganz neue Geschäftsmodelle auch entwickeln
+ und wir könnten mal aus diesem Zeitalter austreten, in dem alles auf Überwachungskapitalismus und Werbung,
+ die einen ausforscht und trägt und manipulieren will, hervortreten und tatsächlich mal für die Produkte sinnvoll bezahlen, die wir auch benutzen.
+ Riedlich Handel miteinander treiben.
+ Das würde also konkret so was bedeuten, wie ich mache die Seite Zeit Online auf oder Spiegel und da steht dann nicht "Bitte schließen Abo ab" über ein ganzes Jahr
+ und ich denke mir, aber ich will auch nur diesen einen Artikel lesen, sondern dann würde da eben stehen "Bitte zahl 7 Cent, 10, 15, 30, je nachdem wie lang der ist, kann man dann ja irgendwie..."
+ Das wird immer mehr sein, als man zahlen will.
+ Okay, 30 Cent und das könnte man dann in digitaler Währung schnell und unkompliziert und möglichst anonym bezahlen.
+ Wäre das so ein Modell für euch?
+ Ja, genau.
+ Modell Number One tatsächlich.
+ Ja, ich denke wir sollten auch einen Anwendungsfall auch nicht vergessen.
+ Wir haben ja hier viele freie Softwareentwickler.
+ Wenn ihr Spenden einwerben wollt und nicht von eurem proprietären Portal abhängt, wo dann proprietäres Software eingesetzt wird, was ja eigentlich gegen das freie Software ideal ist,
+ einfach mit freier Software an freie Softwareprojekte spenden, macht ja auch Sinn.
+ Okay, dann lass uns noch ein bisschen mehr darüber sprechen, was das für uns bedeutet, dass wir so ein bisschen in die Definition gehen, vielleicht auch so eine kleine Abgrenzung hinkriegen.
+ Also heißt das dann, das löst dann das physische Bargeld ab und es gibt gar keine Münzen und Schein mehr?
+ Um Gottes Willen.
+ Ist das die Vorstellung?
+ Nein, um Gottes Willen.
+ Also das Rascheln von Papier in der Kasse, also alle die ein bisschen Handel treiben wissen, wie schön das ist.
+ Also Münzen, die klingeln, das ist auch schön, aber jetzt irgendein Mikro macht Lärm.
+ Aber wie schön das ist und das, also mal Quatsch beiseite, natürlich wollen wir auch im realen Leben ohne Digitalzwang bezahlen können.
+ Und insofern wird das natürlich nicht abgeschafft, sondern es ist eine Ergänzung zum derzeitigen richtigen Bargeld, also analogen Bargeld.
+ Was sind denn die Anforderungen an ein gutes digitales Bargeld?
+ Also es gibt ja schon unheimlich viele Modelle, bei denen es irgendwie darum geht im Internet Sachen zu bezahlen.
+ Aber was macht ein gutes digitales Bargeld aus?
+ Also ich würde sagen, erstmal ist...
+ Moment mal gerade, irgendjemand hat noch ein Mikro und das...
+ Nein, das ist der Wind.
+ Das ist der Wind, ach wie schrecklich.
+ Kann man jemanden Wind abstellen?
+ Also erstmal sollte es auf freier Software basieren, es sollte eben wie gesagt anonym einsetzbar sein.
+ Es sollte auch für Kleinstbeträge funktionieren.
+ Es wäre natürlich auch super, wenn es solche Sachen wie Schwarzgeld und Steuerbetrug und so jetzt nicht super easy vergünstigen würde.
+ Also da gibt es ja auch beim Bargeld Mechanismen, die dazu beitragen, dass man zum Beispiel nicht unendlich große Mengen an Geld über eine Grenze transportieren kann,
+ allein weil die Stückelung halt irgendwann das nicht mehr zulässt.
+ Weil die Tasche irgendwann einfach zu groß wird oder wird es aufwendig?
+ Die Tasche wird irgendwann zu groß und das ist zum Beispiel so ein Faktor, bei dem muss man natürlich bei digitalem Bargeld darauf achten,
+ dass man auch ähnliche vergleichbare Mechanismen da an der Stelle auch hat.
+ Zumindest wenn man innerhalb des Gesellschaftsvertrags bleiben will.
+ Es ist total wichtig beim analogen Bargeld...
+ Ich denke er hat hier einen wichtigen Punkt gesagt, Finalität der Transaktion, es ist nicht rückabgewickelt werden kann, dass man sich ja...
+ Jetzt rennt er weg.
+ Ja und dass du eine Münze nicht zweimal ausgeben kannst, also dieses Double Spending, das ist auch beim analogen passiert das nicht, aber das könnte natürlich passieren.
+ Und ich fände es ja gar nicht so schlecht, wenn es staatlich reguliert wäre, wenn es also an eine Währung gekoppelt ist, weil diesen ganzen Kram Entscheidungen Staats...
+ Das ist für mich Politik und das soll auch in der Politik bleiben und da kommt genau der Punkt, im Moment sind die ganzen digitalen Bezahlmöglichkeiten hängen an Firmen,
+ die wieder Überwachungskapitalismus im Sinn haben, an großen Firmen, die dann alles Mögliche mit den Daten machen und das ist ein Riesenproblem.
+ Es muss ja auch irgendwie in der staatlichen Regulierbarkeit sein und gleichzeitig eben nicht von irgendwelchen Firmen abhängen.
+ Ich würde ganz gerne noch, dass wir einmal kurz die Liste...
+ Okay, also weil wir haben noch so ein paar Sachen, die wir zur Einführung ganz gerne erzählen würden und dann kommen wir auf jeden Fall bald in den interaktiven Teil mit euren Fragen.
+ Also es soll Mechanismen geben gegen Geldwäsche, es soll Mechanismen geben gegen Steuerhinterziehung, Thema Währungsspekulation hatten wir das schon?
+ Na ja, es darf halt nicht so sein, dass ich die Möglichkeit habe, Geld in großer Menge mal eben rund um den Globus zu schicken und damit Wirtschaftssysteme völlig gegen die Wand zu fahren.
+ Also was Soros mit dem englischen Fund gemacht hat zum Beispiel, sowas darf halt auch nicht sein. Wir müssen das so bauen, dass unsere Gesellschaft nicht daran kaputt geht, dass wir ein digitales Bargeld haben.
+ Sondern es geht darum, diese Gesellschaft zu sichern.
+ Also ich eben auch gerade sagte, man muss innerhalb des Gesellschaftsvertrags bleiben, bedeutet halt auch, ich habe keinen Bock auf irgendwelche libertären Faschisten, die ihr eigenes Geld machen und damit sozusagen Zockereien abbilden.
+ Darum geht es nicht. Es geht darum, dass wir friedlich miteinander Handel treiben können und unser Leben dadurch einfacher und schöner, besser und datenschutzfreundlicher wird.
+ Okay und...
+ Danke, ja natürlich, das ist schnell.
+ Also Benutzbarkeit, genau.
+ Er sagte gerade, schnell bezahlen wäre wichtig. Also PayPal würde so lange dauern. Dankeschön. Da ich PayPal nicht nutze, wusste ich das nicht.
+ Aber auf jeden Fall sicherlich auch eine Anforderung. Es muss gut zu benutzen sein, auch simpel zu benutzen. Aber wir haben jetzt schon gehabt, also absolute Nummer eins Anforderung wäre für uns Anonymität.
+ Ja, definitiv. Und dass es nicht zu einem großen Konzern gehört.
+ Klarer stellen, was meinen wir mit Anonymität? Weil es gibt ja immer denjenigen, der B zahlt und denen, der Geld B bekommt. Und ich denke, wir sind es relativ klar, wenn ich B zahle als Privatperson, dann möchte ich den Datenschutz haben.
+ Aber wenn ein Geschäft Geld einnimmt, dann soll es ja auch Steuern bezahlen und das soll es ja auch legal tun. Und normalerweise ist ja Geldverdienen unserer Gesellschaft eh angesehen.
+ Für mein Geldverdienen brauche ich mich nicht schämen. Insofern kann ich da auch transparent, zumindest gegenüber dem Staat sein.
+ Ja, das stimmt fast immer. Aber beim Enkel, der Geld von der Oma bekommt, da dürfen gerne beide anonym sein. Ich möchte kein Geld, wo es eine Unterscheidung zwischen Unternehmen und Einzelpersonen gibt, sondern das muss einfach zwischen Entitäten funktionieren.
+ Da würde ich unterscheiden mit dem Enkel, da gibt es ja ein sehr enges Vertrauensverhältnis. Und wenn wir jetzt eben von einer Geschäftsbeziehung reden, da möchte ich mich zum Beispiel für sowas wie Double Spending auch schützen.
+ Da kann ich nicht davon ausgehen, dass der Kunde ja schon ehrlich sein wird. Das heißt, da brauche ich eine finale Transaktion, wo ich sicher bin, die ist auch wirklich nicht rückabwickelbar und da habe ich das Geld.
+ Wohingegen, wenn ich meinem Enkel das Geld gebe, der kann auch einfach direkt auf mein Portemonnaie zugreifen. Das heißt, es ist ein anderer Use Case in Bezug auf die Sicherheitsanforderungen. Dadurch können wir das auch abdecken.
+ Was ist denn mit Diebstahlsicherheit? Jemand knackt meine Wallet und klaut mir mein digitales Geld. Was ist dann?
+ Also unsere Antwort ist relativ klar. Wenn man es anonym machen muss, muss es in Eigenverwahrung sein, das heißt noch unter meiner Verantwortung. Und wenn es unter meiner Verantwortung ist, kann ich es natürlich auch verlieren.
+ Genau wie beim echten Bargeld, beim physischen.
+ Wie beim echten Bargeld. Da kann ich auch nicht zur Bank gehen und sagen, ja mir ist mein Portemonnaie geklaut, wenn bitte, da waren 100 Euro, dann geben wir die wieder.
+ Also das ist in Eigenverantwortung. Ich muss dafür sorgen, dass das Bargeld, das ich habe, bei mir sicher ist. Aber natürlich kann ich im Gegensatz zum physischen Bargeld, bei elektronischem Bargeld zumindest einen Backup machen.
+ Wenn ich technisch da gut genug drauf bin, das muss man sich dann einfach machen für alle.
+ Jetzt haben wir eine Reihe von Anforderungen schon aufgestellt. Erfüllen Kryptowährungen diese Anforderungen?
+ Ich möchte eigentlich über Kryptowährung überhaupt nicht sprechen, weil das hat mit Geld überhaupt nichts zu tun. Das ist Gold. Das ist wie Goldschürfen, umweltschädlich, ohne Ende. Man kann mit dem Zeug eigentlich...
+ Also das ist kein Geld. Also bitte lasst das weg.
+ Sie können mit Kryptowährungen die staatlichen Währungen widerspiegeln?
+ Ja, das mag sein. Das ist trotzdem Dreck. Und mir geht es um digitales Bargeld. Mir geht es nicht um zocken. Mir geht es nicht um spekulieren.
+ Ich möchte, dass Leute, die ehrliche Arbeit machen, ehrliches Geld bekommen und davon leben und nicht dadurch, dass sie mit irgendwelchen Zockereien und sonst was irgendwie meinen, ihr eigene Faulheit finanzieren zu können.
+ Christian Gnuthaler, was ist der Unterschied von Gnuthaler zu Kryptowährungen? Was macht ihr anders?
+ Wir machen erst mal primär etwas weniger. Wir sind nämlich nur ein Bezahlsystem, sage ich immer. Wenn ich mir eine übliche Kryptowährung angucke, gibt es die Möglichkeit Transaktionen zu machen.
+ Aber gleichzeitig wird immer auch eine Währung erzeugt auf irgendeine Art und Weise. Das heißt, da wird sowohl die Zentralbank ersetzt, die eigentlich Währungen erzeugt, und auch das Transaktionssystem ersetzt.
+ Und Taler macht eben nur Transaktionen. Wir schränken uns darauf. Und man kann dann mit Taler in Euros bezahlen, in Dollars bezahlen, in Franken bezahlen oder auch in Bitcoin bezahlen.
+ Das ist erst mal ein Bezahlsystem. Ich kann mit allen Währungen, die irgendwo existieren, damit bezahlen und die einfach nur digitalisieren.
+ Das heißt, wir machen einfach weniger als die Krypto-Kalmstädte. Dafür machen wir den Teil dann sehr gut.
+ Kannst du noch ein bisschen mehr erzählen darüber, wie das in der Praxis funktioniert und wo ihr das schon einsetzt?
+ Ja, also wir haben an der Berner Fachhochschule ein einfaches erstes Deployment gemacht und das soll jetzt ausgebaut werden als Regionalwährung in Basel.
+ Es funktioniert dann so, dass man dort, also an der BFH wie in Basel, fängt man an mit Schweizer Franken und kann die dann erst mal umtauschen.
+ An der BFH in E-Franken. In Basel wird es dann in die Regionalwährung Netzbond sein.
+ Das heißt, ich gehe von meinem Frankenbargeld oder Konto her, überweise das Geld an den Betreiber des Systems.
+ Der Betreiber hält das dann in escrow. Das heißt, er hat einfach dann ein riesen Sparkonto oder seinen Geldstapel.
+ Und hat dann sozusagen für das E-Geld, was im Umlauf ist, das Geld sozusagen bei sich lokal auf dem Konto.
+ Und wenn jetzt jemand E-Geld hat, kann er es dann andere übertragen.
+ Dann wird immer der Empfänger festgestellt, also identifiziert.
+ Derjenige, der B zahlt, bleibt anonym, kann nicht mit irgendwas anderem verknüpft werden.
+ Jede Transaktion ist isoliert. Ich weiß nur, es hat ein Nutzer bezahlt.
+ Ich weiß nichts über welcher Nutzer das ist.
+ Der Empfänger ist aber identifizierbar und kann sich das Geld dann auszahlen lassen.
+ Zum Beispiel wieder auf sein Girokonto zurück überweisen oder eben auf sein Wallet schreiben lassen,
+ wo er es dann wieder an andere Leute im System ausgeben kann.
+ Und sag nochmal ganz konkret, also wo wird das jetzt schon eingesetzt? Wie wird das angenommen auch?
+ Also an der Berner Fachhochschule kann man in der Cafeteria Bargeld gegen E-Geld umtauschen und das dann da nutzen.
+ An einem Automaten oder wie muss ich mir das vorstellen?
+ An der Cafeteria, das Bargeld gibt man richtigen Menschen.
+ Wir arbeiten daran, dass es auch mal ein Geld in Einzahlautomaten geben soll.
+ Aber bisher gibt man es richtigen Menschen, bekommt dann einen QR-Code, mit dem man sein Wallet aufladen kann
+ und kann dann mit dem Wallet am Automaten dann Bücher, Elektronik und Essen und Getränke kaufen.
+ Ein Buch von Sibylle Berg, ne?
+ Zwei Bücher. Es gibt ein Buch von Sibylle Berg, was man kaufen kann
+ und es gibt ein Buch von unserem Blockchain-Professor zu Blockchain Kurz und Gut, was man gegen Bitcoin kaufen kann.
+ Das hat sich aber noch nicht verkauft.
+ Darf ich auch was fragen?
+ Also mal angenommen, ich weiß, ich will jetzt hier nichts ankündigen, aber mal angenommen, wir würden, wir haben ja auch hier den Shop vorne,
+ wir würden beim nächsten Kongress sagen wollen, wenn wir den Shop aufstellen, dann wollen wir, dass man da auch in Taler bezahlen kann.
+ Wie würde das dann gehen?
+ Das erste ist normalerweise, um so was im größeren Stil zu betreiben, also nicht so kleine Benutzergruppe wie an der Uni,
+ braucht man normalerweise in den meisten Ländern der Welt eine e-Money-Issue-Lizenz oder gar eine Bankenlizenz.
+ Das heißt, man muss erstmal ein Bankfinier-System betreiben, die dann ja auch das Konto hat für das im Umlaufende E-Geld
+ und das dann eben aufbewahrt und dann später dem Händler überträgt,
+ die dann auch die Verantwortung hat für die Geldwäsche und für die New Year Customer Regulation.
+ Also bildet Banken.
+ Na überzeugt Banken, redet mit eurer Hausbank und sagt, hey wie wäre es denn und so.
+ Also Bildung im Sinne von Weiterbilden.
+ Genau, genau, in diesem Sinne, bildet die Banken weiter.
+ Und dann kann man eben, würde man von seinem Girokonto aus das Geld an diese Bank, die dann die Taler Exchange-Kumplette betreibt,
+ überweisen, würde das E-Geld bekommen und dann könnte man darüber bezahlen.
+ Es gibt auch schon zum Beispiel eine Integration in das Predix-System, was sie alle für den Ticketverkauf genutzt hat.
+ Da gibt es bereits ein Taler-Plugin für, was von den Predix-Leuten entwickelt wurde.
+ Das heißt, das bräuchte man dann einfach nur als Konfigurationsoption aktivieren.
+ Es gibt Plugins für Hukommerce, es gibt Plugins für Joomla.
+ Es gibt also schon verschiedene Integration, die existieren.
+ Wenn ihr weitere schreiben wollt, meldet euch bei NL-NET.
+ Die haben da so ein NL-NET-Streckstrich "Propose".
+ Da kann man Anträge stellen, gegebenenfalls auch Fördergelder bekommen für sowas.
+ Also, wir müssen es natürlich überall integrieren.
+ Und dann, wenn eine Bank das dann annimmt, dann kann man dann auch seine Kongresstickets damit kaufen.
+ Und wie läuft euer kleiner Testfall bisher an der Fachschule?
+ Etwas schleppend, muss ich sagen.
+ Das Problem war, es gibt erst seit ganz neuestem das iOS-Wolle.
+ Das haben wir hier für den Kongress erstmal in begrenztem Umfang verfügbar gemacht.
+ Und in der Schweiz haben verdammt viele Leute so ein iOS-Telefon.
+ Und daher, größter Teil der Benutzerbasis gibt es das für iOS?
+ Nö.
+ Ja, das wird sich sehr schnell erinnern,
+ sobald wir das aus der Beta im iOS raushaben,
+ dass mehr Studierenden es nutzen können,
+ weil sie das richtige Telefon haben.
+ Ich höre raus, ihr habt vor, das noch für sehr viele Fälle einzusetzen.
+ Der nächste Fall ist, dass wir es in Basel deployen als Regionalwährung.
+ Da werden dann circa 70 Läden
+ nehmen bisher das physische Regionalwährungsgeld an.
+ Der Plan ist, die zu konvertieren,
+ dass sie auch das Elektronische annehmen werden.
+ Aber wir hatten jetzt eben Fälle, über die wir gesprochen haben,
+ die ja eher Online-Fälle sind.
+ Siehst du denn einen Vorteil für Läden, die vor Ort in Basel sind?
+ Worin besteht für die der Vorteil, wenn sie Taler nehmen?
+ Der Vorteil für Netzbonden besteht erst mal darin,
+ die haben ein Problem, ihr Geldschein zu drucken.
+ Die haben immer eine begrenzte Menge an Geldscheinen.
+ Geldscheindrucken ist nicht ganz so einfach.
+ Dann haben sie ihr Umlaufvolumen erreicht
+ und man kann nicht mehr im Umlauf bringen, weil man mehr drucken müsste.
+ Druckkosten versus Krypto ist ein Problem für den Verein.
+ Der andere Vorteil ist natürlich, dass die Läden durchaus sehen,
+ dass die Kunden gerne elektronisch bezahlen.
+ Und jetzt hier mehrere Regionalwährungen
+ im Portemonnaie zu haben, ist schwieriger als ein elektronisches Portemonnaie.
+ Und der Netzbauernverein möchte das Ganze auch ausweiten
+ auf elektronisch bezahlen online.
+ Nicht nur für wie bisher Läden, wo ich in Person hingehen möchte,
+ sondern auch in Richtung e-Commerce, lokalen E-Commerce ausweiten,
+ Lebensmittel, Lieferdienste usw.
+ Weil wenn ich nur mit physischem Geld bezahlen kann,
+ kann ich den ganzen E-Commerce vergessen.
+ Noch mal gerade, Netzbornverein, ich hab jetzt nicht genau verstanden.
+ Der Verein heißt Verein Soziale Ökonomie.
+ Und die Regionalwährung ist Netzborn. - Ah, okay.
+ Ist aber sehr witzig, ich hab mit dem Internetnetz nichts zu tun.
+ Na ja, Vernetzung ist ja auch zwischen Menschen.
+ Also Internet bildet es ja nur ab und ermöglicht ...
+ Genau, also das ist ja dann quasi noch mal ein besonderer Fall.
+ Du hast ja eben schon gesagt, man kann es an jede beliebige Währung koppeln.
+ In diesem Fall wäre es gekoppelt an eine Regionalwährung in Basel.
+ Genau, und der nächste Schritt ist,
+ wir haben mit der Schweizer FINMA, der Regulierungsbehörde, gesprochen.
+ Die haben uns gesagt, dass das System im Prinzip
+ unter die Sandbox-Regel der Schweiz fällt.
+ Das heißt, wir könnten das betreiben,
+ selber ohne eine Bankenlizenz in der Schweiz, ohne Lizenz.
+ Der Regulator sagt, ihr braucht keine Lizenz,
+ solange ihr euch an bestimmte Auflagen haltet
+ und weniger als eine Million Kundeinlagen verwaltet.
+ Das ist der nächste Plan.
+ Da sind wir dabei, die ganzen regulierenden Schritte,
+ die wir trotzdem noch haben, ohne Bankenlizenz vorzubereiten.
+ Wir werden dann hoffentlich in fünf, sechs Monaten in der Schweiz starten,
+ soweit wir alle diese Regeln erfüllen.
+ Aber das sprichst du jetzt auch von der Regionalwährung?
+ Nein, da spreche ich von einem schweizweilen System,
+ das dann die Taler Operations betreiben wird.
+ Den ich, glaube ich, sagen darf.
+ Die Wochenzeitung hat uns gesagt,
+ sie möchten dann über Talerspenden annehmen.
+ Cool. Also "What's", wer sie nicht kennt, ist eine coole Zeitung.
+ Genau. (Lachen)
+ Okay. Aber ...
+ Das heißt also, demnächst dann auch ...
+ ein größerer Maßstab in der Schweiz verfügbar hoffentlich?
+ Größer im Sinne von, wir haben immer die Regeln der Sandbox,
+ die uns beschränken, auf was für ein Volumen wir anbieten können.
+ Aber es ist eine schöne Spielwiese für die ganzen Hacker,
+ dass man es ausprobieren kann mit echtem Geld.
+ Wobei Regionalwährung ist ja auch vielleicht ...
+ Du meinst, "Zerforschung wetzt schon die Messer"?
+ Aber noch mal zurück zu meiner Frage von vorhin.
+ Also, wenn ich jetzt einen Laden habe, ein Geschäft vor Ort,
+ siehst du irgendeinen Vorteil, den ich habe,
+ wenn ich auch Gnu-Taler als Bezahlsystem anbiete?
+ Oder siehst du die Vorteile ...
+ Ich bin normalerweise ein großer Verfechter von Bargeld.
+ Wenn dir die Kunden mit Bargeld kommen,
+ solltest du die nicht wegscheuchen und sagen, "Nu lieber Taler".
+ Aber wenn dir die Kunden kommen mit Mastercard, Visa Card,
+ wo du zwei, drei Prozent Gebühren bezahlst
+ und nicht freies Software machst
+ und du musst dann noch PCI DSS über dich ergehen lassen,
+ das heißt, diese Sicherheitschecks,
+ dass du die Kreditkarten auch richtig verwaltest,
+ du musst den Sign-Up machen, teure Automaten kaufen usw.,
+ das kann Kunden kosten sparen.
+ Im Vergleich zu anderen elektronischen Bezahlsystemen
+ gibt es auch Vorteile als Händler.
+ Ja, und das ist ja heute schon ein Vorteil für einen Händler,
+ wenn ich eben die Möglichkeit hab, dass man auch mit Karte zahlen kann.
+ Weil viele ja gar nicht mehr so viel Bargeld mit sich führen.
+ Und das ist eben genau der Moment, wo man sagen kann,
+ ja, aber jetzt kannst du auch mit digitalem Bargeld zahlen.
+ Und was die Kundinnen und Kunden froh macht,
+ macht den Händler froh. Oder?
+ Ja, und was man sagen muss bei den Kosten für Kreditkarten,
+ wurde eben von jemandem hier gesagt, das ist Finalitätsproblem.
+ Der Händler zahlt mit Kreditkarte.
+ Und dann kommt irgendwann das System daher und sagt,
+ ja, aber das war eine falsche Transaktion,
+ war nicht autorisiert vom Kunden, wird zurückgebucht,
+ da muss er jetzt hinten noch eine Strafgebühr zahlen usw.
+ Also es ist bei der Kreditkarte nicht final.
+ Und ich habe gegebenenfalls noch hohe Kosten nachhinein.
+ Auch das gibt es bei uns nicht, jede Transaktion ist sofort final.
+ Was kostet denn ein Taler?
+ Also, weil da steckt ja auch Betrieb hinter.
+ Die Kreditkarten, die Betriebskosten, die Betriebskosten, die Betrachter,
+ die Betrachter, etc., die müssen ja auch Geld einnehmen,
+ damit sie existieren können. Das wird doch Taler betreffen.
+ Ja, also was wir haben gemacht,
+ auf der einen Seite sind die technischen Kosten.
+ Da haben wir versucht zu messen,
+ was eine Transaktion an Stromverbrauch, Bandbreite,
+ CPU, Speicherplatz usw. kostet.
+ Da sind wir pro Transaktion bei einem Tausendstel von einem Cent gelandet.
+ Ist aber ein bisschen schwer, das genau zu berechnen,
+ was wir immer haben usw.
+ Da kann man auf der einen Seite sagen, das regelt der Markt.
+ Wir werden natürlich kompetitiv sein wollen,
+ dass die Händler zu uns wechseln.
+ Und es ist eben freisoffe, das heißt,
+ wenn ein Betreiber extrem hohe Preise verlangt,
+ bei Visa kann ich nicht auf ein Visa 2 wechseln.
+ Bei Taler kann irgendeine andere Bank sagen,
+ ich betreibe das System auch und kann in Konkurrenz treten.
+ Das heißt, wir haben da mal nicht das technische Monopol,
+ was dann Gewinnabschöpfung betreibt.
+ Das sind natürlich schwierige technische Kosten.
+ Bei Visa gibt es ja auch die Kosten für,
+ ich muss eine neue Karte ausstellen,
+ der Kunde sagt, die Transaktion habe ich nicht gemacht.
+ Da das bei uns kryptographisch gesichert wird
+ und nicht auf der Identifizierung des Kunden basiert,
+ ich brauche den Kunden bei der Transaktion nicht identifizieren.
+ Das ist ja was Hartes.
+ Es gab eine kryptographische Signatur, die sagt, das ist in Ordnung.
+ Die zu verifizieren, ist total einfach für uns Techniker.
+ Wir haben eine Pause geprüft, die Signatur geprüft,
+ da hat die PIN gekannt und so weiter.
+ Das ist für uns als Benutzer auch nicht das zu machen.
+ Und trotzdem fehleranfällig.
+ Dadurch entstehen auch Kosten für diese bestehenden Systeme,
+ dass immer mal wieder ein Kunde sagt,
+ die Transaktion habe ich nicht autorisiert.
+ Nur die Beschwerde, die Rückabwicklung,
+ das sind auch Kosten, die bei uns wegfallen.
+ Bei uns fallen viele Kosten weg,
+ die technischen Transaktionskosten sind extrem niedrig
+ und wir müssen nicht nur die Kostüme laufen, weg ist weg.
+ Wie bei Bargeld.
+ Ich habe mein Bargeld verloren, Beschwerden werden nicht angenommen.
+ Klar, natürlich, ist billiger.
+ Hast du das Gefühl, dass das gut ...
+ Solche neuen Bezahlensysteme haben ja dann auch immer
+ was mit Vertrauen zu tun.
+ Man muss dann auch gut vermitteln können, warum sowohl Kund*innen
+ als auch die Ladengeschäfte und alle anderen,
+ die daran teilnehmen sollen,
+ aber auch die Banken, mit denen ihr zusammenarbeiten würdet.
+ Was ist da dein Eindruck?
+ Wo gibt es da auch vielleicht noch Überzeugungsaufwand zu leisten?
+ Ich denke sicherlich, wenn man das in der Sandbox betreibt,
+ ist das so das größte Problem, was man sagt, den Leuten sagen muss,
+ wir sind nicht so richtig reguliert.
+ Das weckt sofort Vertrauen, auch wenn man es ordentlich betreibt.
+ Das ist der Idealfall, dass eine kleine Bank wie die EZB
+ das System einführen würde.
+ Wenn die mit dem Euro Schmutz treibt, ist eh vorbei.
+ Aber das steht jetzt nicht zu erwarten.
+ Ich glaube, die EZB muss erst mal ein bisschen Lehrgeld zahlen.
+ Da habt ihr den Vortrag von Thomas Lohninger gesehen.
+ Insofern ist es natürlich gut, wenn man mit einer Bank zusammenarbeitet,
+ die eine gute Reputation hat, dass sie es auch ordentlich macht.
+ Die andere Seite ist aber auch, wir sind freie Software.
+ Ihr könnt euch allerdings gut angucken.
+ Ich hoffe, ihr macht Responsible Disclosure von irgendwelchen Problemen.
+ Aber zumindest könnt ihr euch davon überzeugen,
+ dass es nicht so leicht ist und dass die Software ordentlich geschrieben ist.
+ Also wenn man es in unseren Anforderungskatalog,
+ wir haben festgestellt, bestehende Kryptowährungen
+ erfüllen die von uns aufgestellten Anforderungen nicht.
+ Und das ist jetzt auch ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Das ist ein ganz besonderer Punkt.
+ Eine Anforderung, die ich vielleicht auch noch anregen würde,
+ ist, dass es mit Bargeld möglich ist,
+ dass auch abseits der staatlichen Kontrolle
+ ein Maß an Freiheit ausüben zu können,
+ was auch außerhalb der Legalität ist.
+ Und zwar möchte ich dazu das Beispiel geben von einer Person,
+ die zum Beispiel den Wehrdienst verweigert und das Land verlässt
+ und die auch noch die Möglichkeit haben möchte,
+ ihr Geld zu verwenden.
+ Also das...
+ Thema Zugänglichkeit vielleicht auch.
+ Also Bargeld kann jeder haben,
+ auch wenn ich aus verschiedenen organisatorischen Möglichkeiten...
+ Also wenn es Gründe gibt, warum ich kein Konto habe,
+ zum Beispiel bei einer Bank, hätte ich eine Möglichkeit...
+ Ich hätte den Fall erwähnt, wo der Staat sagt,
+ den wollen wir unterdrücken, den Menschen.
+ Und in diesem Fall hast du bei Tara zumindest die Sache,
+ dass du sagen kannst, das Geld, das ich bei mir in meinem Telefon drin habe
+ oder in meinem elektronischen Wallet, das kann mir keiner wegnehmen.
+ Okay, wenn mich die Polizei das Telefon wegnimmt.
+ Dann ist das Geld in den Händen gebunden.
+ Dein Konto können sie dir sperren, deine Einkommen können sie nehmen,
+ aber das Geld, das du bereits hast,
+ kann dir auf die Art und Weise nicht genommen werden.
+ Der Staat kann auch nicht mehr sehen, wie viel Geld du besitzt,
+ wenn du es anonym ausgeben kannst, wie bei Bargeld.
+ Das heißt, wenn du jetzt sagst, ich bin jetzt auf der Flucht
+ und hast schon etwas Geld, dann bist du gut.
+ Wenn du jetzt sagst, ich möchte noch mal Geld verdienen
+ und das System sagt, du bist aber Terrorist,
+ dann ist das Geld nicht mehr in deinem Handel.
+ Ich muss trotzdem jemanden finden,
+ der mir das in Bargeld umtauschen würde.
+ Wenn ich elektronisches Geld habe, kann ich es ja ausgeben.
+ Ich kann es ausgeben, aber okay.
+ Ich kann es auch ausgeben, weil jemand sagt, ich nehme E-Geld an,
+ gebe physisches Bargeld raus.
+ Das ist kein Problem, das ist ein einfacher Handel für den Händler.
+ Und was ist mit dem anderen Fall?
+ Also jemand, der kein Bankkonto hat,
+ weil er keine Meldeadresse hat, zum Beispiel keine gültige,
+ hätte der Zugriff auf Nutala oder nicht?
+ Das hängt davon ab, das ist ja ein regulatorisches Problem,
+ welche Informationen wir verlangen von den Banken,
+ dass sie über die Kunden erfassen.
+ Das heißt, wenn ich sage, liebe Bank,
+ du musst eine Meldeadresse für die Person haben,
+ sonst darf sie kein Einkommen haben, dann kann ich es nicht machen.
+ Wenn ich sage, die Bank muss mir nur sagen,
+ was ist die Personalausweisnummer,
+ und die Person hat einen Personalausweis, aber keine Anschrift,
+ und das erfüllt die KYC-Auflagen,
+ die die Kunden, die das Geld bekommen, auch ohne Bankkonto?
+ Aber das ist eben die Frage,
+ wie machen wir die Regulatorik so, dass wir inklusiv sind?
+ Allerdings, in einer optimalen Welt
+ wäre das wahrscheinlich auch völlig ausreichend.
+ Aber ich sehe schon tatsächlich so Punkte,
+ gerade wenn zum Beispiel Leute keine Arbeitserlaubnis haben
+ und ihnen letztlich nichts anderes übrig bleibt,
+ als schwarz zu arbeiten.
+ Irgendwie ...
+ Außerdem ist dann immer noch die Frage,
+ wie wir, bis wir es endlich legalisiert haben,
+ unsere Drogen kaufen.
+ Also, ich sehe da auch tatsächlich noch ein paar Fragen.
+ Müssen wir diese gesellschaftlichen Probleme
+ auf das Bezahlsystem auslagern?
+ Ich würde sagen, das T für "Tala" steht für "taxable",
+ und "Schwarzarbeit" steht gerade für "nicht besteuert".
+ Und heißt eben auch nicht "sozialversichert",
+ und heißt "prekäre Beschäftigung",
+ und heißt "sehr leicht erpressbar".
+ All das fällt dann schon mal weg. Das ist was Gutes.
+ Und das ist das Problem, wie die heute schwarz arbeiten.
+ Bei wem arbeiten die Leute schwarz?
+ Bei den Leuten, die wirklich richtig Kohle haben.
+ Ich bin da voll bei dir, dass wir die Probleme an der Stelle lösen.
+ Und das Gleiche bei der Drogenkriminalität ist die Frage.
+ Wenn wir jetzt als Gesellschaft sagen,
+ Drogen sind ein Riesenproblem, und wir müssen das bekämpfen, gut.
+ Oder wir sagen eben nein, diese Drogen können wir legalisieren.
+ Aber das müssen wir politisch lösen.
+ Das sollten wir nicht sagen, das Bezahlsystem muss jetzt für
+ die aktuelle politische Flagge auch immer die richtige Antwort liefern.
+ Das sage ich ja nicht.
+ Aber es ist schon klar, dass wir die Probleme am besten lösen sollten,
+ wo sie auftreten und sinnvoll lösen sollten.
+ Aber so optimal ist ja leider unsere Politik nicht.
+ Und dass es da so eine gewisse Flexibilität gibt.
+ Ähm ...
+ Ich ...
+ Also, komplett ablehnen tue ich das nicht.
+ Am analogen Bargeld.
+ Aber da muss ich selber zugeben,
+ dass ich ja auch noch zwiegespalten bin.
+ Man muss ja nicht immer ...
+ Analoges Bargeld kann ja bleiben.
+ Ich muss sagen, technisch versuchen wir,
+ Recht und Gesetz möglichst gut umzusetzen.
+ Weil das eigentlich die Basis unserer Gesellschaft sein sollte.
+ Und gleichzeitig wäre es gut, wenn legalisierte Personen
+ dann irgendwie auch eine Möglichkeit hätten,
+ nicht nur analog bar zu zahlen zu müssen,
+ sondern auch irgendwie ...
+ ihr analoges Bargeld auch digitalisieren könnten.
+ Jetzt fragen wir noch mal kurz ins Publikum.
+ Was denkt ihr?
+ Wie viel Anonymität ist eurer Meinung nach nötig
+ bei einem digitalen Bargeld?
+ Wir haben noch, glaub ich, eine Minute oder so, oder?
+ Zwei Minuten haben wir noch.
+ Dann machen wir die zwei Fragen, oder?
+ Danke. - Hoffentlich sind sie einfach.
+ (Lachen)
+ Ja, meine ist eigentlich zu der Diskussion,
+ dass wir für das Offline-Bezahlen schon eine Lösung haben,
+ die Bargeld heißt.
+ Und zwar eine Frage an die Lena.
+ Was mir noch nicht eingeleuchtet hat bei deinem Szenario,
+ wo du keine 50 Euro hast,
+ wie so es wahrscheinlicher ist, dass du keine 50 Bargeld-Euro hast,
+ könnte ja auch sein, dass du keine 50 Nutale-Euro hast.
+ Also ist für mich sozusagen die gleiche Wahrscheinlichkeit,
+ dass ich auf dem einen oder anderen Modus ...
+ Hängt ja vorab, wie dominant das Bezahlsystem wird.
+ Wenn ihr alle überall mit Taran noch bezahlt,
+ könnte das ja Realität werden.
+ Aber ich will, dass ihr Bargeld behaltet.
+ Und ... Ich sehr gerne auch.
+ Und das andere zudem sozusagen am Rande oder kurz außerhalb
+ der Legalität ...
+ hat natürlich sozusagen immer auch Grenzen in dem Sinne,
+ dass irgendwann, wenn der Abstand sehr groß wird,
+ dann müssen die Geschäfte halt in Naturalien passieren.
+ Also das ist sozusagen ein Limit. Wenn ich das auch noch verhindern will,
+ dann muss ich, glaube ich, sehr viel Überwachung machen.
+ Vielen Dank für die Einwürfe. Haben wir noch Zeit für die letzte Frage?
+ Ja.
+ Das war wohl ja.
+ Ja, vielen Dank für die interessante Diskussion.
+ Ich habe nur einen kurzen Kommentar dazu.
+ Bezüglich dessen, wie jetzt die Technologie
+ eigentlich politisch gedacht ist.
+ Also ich meine, schon vor über 20 Jahren
+ hat ja Larry Lassig drüber geschrieben "Code embeds values".
+ Und ich glaube, man macht es sich ein bisschen zu einfach,
+ wenn man jetzt einfach sagt, wir halten uns da raus.
+ Wir sind ... Ich sehe schon ...
+ Wir halten uns nicht raus. Wir haben sicher unsere Werte reinkodiert.
+ Aber die spezifischen Parameter, was ist legal,
+ was macht die Geldpolitik?
+ Wir beschränken uns auf einen sehr bestimmten Punkt,
+ wo wir eben sagen, ja, wir haben den Wert Datenschutz,
+ wir haben den Wert Legalität, Einkommenstransparenz,
+ wir haben den Wert Umweltschutz, das muss effizient laufen.
+ Aber wir sagen nicht, was die Geldpolitik sein soll,
+ was die Geldmengensteuerung sein soll, welche Geschäfte legal sind,
+ welche Drogen illegal sind.
+ Das sind andere Probleme, die wir eben nicht mehr machen.
+ Das ist ein Thema, wo ich da auch mitgehen würde persönlich.
+ Aber stellen wir uns vor, wir sind in einem anderen System
+ oder in einem anderen Land,
+ wo wir keine demokratischen Institutionen haben,
+ keine Mitbestimmung.
+ Und ich meine, es gibt wahrscheinlich kein perfektes
+ demokratisches System.
+ Und dann ist das ja auch Teil eines Aktivismus,
+ wenn man sich nicht komplett immer in diesem Rahmen bewegt.
+ Ich will da jetzt nichts aufrufen,
+ aber ich hoffe, Sie verstehen, wie ich das meine.
+ Ich wollte eigentlich genau die Frage, die du gestellt hast,
+ an euch noch mal stellen.
+ Ich hab's, glaube ich, noch nicht ganz gerafft, das mit Anonymität.
+ Also einerseits wollen wir Anonymität haben,
+ falls das überhaupt möglich ist.
+ Wenn ich Geld ausgebe? - Genau, wenn ich Geld ausgebe,
+ falls das überhaupt möglich ist, so eine Anonymität.
+ Und andererseits haben wir dann die Beispiele, die ihr genannt habt,
+ Geldwäsche, Drogenkriminalität,
+ ich meine, dann gibt es noch viele andere, nationale Sicherheit,
+ aber wie wollen wir das dann technisch umsetzen,
+ diese Grenze bei Anonymität?
+ Wir können es technisch so machen, dass Anonymitätregeln
+ komplett anders sind für den, der das Geld ausgibt
+ und für den, der das Geld bekommt.
+ Das heißt, bei Taler, der das ausgibt, hat Anonymität,
+ und gleichzeitig, der das bekommt, ist transparent und identifizierbar.
+ Ja, aber zu einem anderen Zeitpunkt, für einen anderen Zweck.
+ Das heißt, wenn du das Geld dann später wieder ausgibst,
+ bist du bei dem Ausgeben dann wieder anonym.
+ Ja, danke. - Also immer, wenn du was bekommst, transparent, ja, doch.
+ Mit blinden Signaturen geht das.
+ Ich wollte dir übrigens noch mal für den Kommentar oder den Hinweis
+ danken zu der Frage, was passiert denn in einem autoritären Regime.
+ Das finde ich tatsächlich auch wichtig, das zu bedenken,
+ zu berücksichtigen in dem Moment, wo man eine Technik
+ eben paternalistisch aufbaut, kann sie halt auch dem Schlechten dienen.
+ Und auch da ist es wichtig, nicht die Augen vorzuverschließen.
+ Dafür noch mal danke. - Da muss man sagen,
+ die Chinesen bauen ihre CBDC so auf,
+ dass einfach alles komplett transparent vom Staat gesehen
+ und überwacht werden kann.
+ Das heißt, die autoritären Regime würden Taler nie in Betracht sehen.
+ Also ich möchte vielleicht einen letzten Satz zum Abschluss sagen,
+ "Move slow and repair things."
+ Ja, und ich vielen Dank. Erst mal vielen Dank.
+ Für die Diskussion, für das Gespräch.
+ Vielen, vielen Dank auch an euch für eure Fragen.
+ Wir haben gemerkt, es sind noch total viele Fragezeichen da.
+ Ich wollte noch mal kurz hinweisen auf diese zwei Links,
+ die ich hier einfach nur so ganz dreckig und schnell
+ in der Präsentation kopiert habe.
+ Genau, aber ihr findet auf der Seite von "Digitalcourage"
+ einen Artikel aus diesem Buch über digitales Bargeld.
+ Und ihr findet natürlich auf der Seite von taler.net
+ noch mal ganz viele Informationen darüber,
+ wie genau Taler funktioniert.
+ Und könnt da auch weiter verfolgen,
+ was dann jetzt mit den neuen Projekten in der Schweiz passieren wird.
+ Und es gibt im Enquete-Bericht der Enquete-Kommission
+ "Internet und digitale Gesellschaft" aus 2013
+ auch in den Sondervoten ein riesiges Kapitel über digitales Bargeld.
+ Beim Bundestag ist da auch schon drüber geredet worden.
+ Und ich glaube, dass das auch noch in der nächsten Runde
+ mit anderen Überwachungspaketen nicht zustimmen wollte.
+ Gut, dann bitte Applaus für unsere Gesprächsrunde.
+ * Applaus *
+ Und auch Applaus für alle, die sich, die so viele gute Fragen gestellt haben
+ und das Thema weiter vertieft haben.
+ Vielen Dank, dass ihr euch so aktiv beteiligt habt an dieser Gesprächsrunde.
+ * Musik *
+ SWR 2021

@@ -1,0 +1,1694 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+ [Musik]
+
+00:00:30.000 --> 00:00:36.000
+ Herzlich willkommen auf der Bühne von "Bits und Bäume".
+
+00:00:36.000 --> 00:00:41.000
+ Gerne könnt ihr eure Gedanken zu dem Vortrag und allem anderen unter dem
+
+00:00:41.000 --> 00:00:46.000
+ Hashtag #BitsundBäume auch auf Mastodon publizieren.
+
+00:00:46.000 --> 00:00:52.000
+ Noch zwei kleine organisatorische Ansagen, bevor wir mit dem Vortrag anfangen,
+
+00:00:52.000 --> 00:00:55.000
+ auf den ihr euch alle schon so freut.
+
+00:00:55.000 --> 00:01:01.000
+ Wenn ihr euch gestört fühlt durch laute Musik, bitte klärt das zuerst mit den
+
+00:01:01.000 --> 00:01:07.000
+ verantwortlichen Wesen und ruft nicht die Security, den Himmel oder das
+
+00:01:07.000 --> 00:01:10.000
+ Awareness-Team an.
+
+00:01:10.000 --> 00:01:14.000
+ Zumindest, und selbst wenn ihr das versucht mit denen zu klären und ihr kommt zu
+
+00:01:14.000 --> 00:01:18.000
+ keinem Kompromiss, ruft immer noch nicht den Himmel und das Awareness-Team an,
+
+00:01:18.000 --> 00:01:19.000
+ weil die können euch nicht helfen.
+
+00:01:19.000 --> 00:01:23.000
+ Aber ihr könnt dann die auf dem Deck, die 110 auf jeden Fall wählen, bitte nicht
+
+00:01:23.000 --> 00:01:25.000
+ auf dem Mobiltelefon.
+
+00:01:25.000 --> 00:01:30.000
+ Ansonsten möchte ich öfter hinweisen, dass am Sonntag keine Müllabholung gibt.
+
+00:01:30.000 --> 00:01:34.000
+ Das bedeutet, wenn ihr Müll habt, der heute schon, also morgen früh schon
+
+00:01:34.000 --> 00:01:38.000
+ abgeholt werden kann, dann schmeißt ihr ihn doch bitte heute schon weg.
+
+00:01:38.000 --> 00:01:41.000
+ Das wäre echt super.
+
+00:01:41.000 --> 00:01:47.000
+ Gut, dann freue ich mich total, hier Viktor und Yannick auf der Bühne zu haben.
+
+00:01:47.000 --> 00:01:51.000
+ Die beiden beschäftigen sich mit IT-Forensik.
+
+00:01:51.000 --> 00:01:55.000
+ Viktor arbeitet bei Reporter ohne Grenzen und Yannick beschäftigt sich auch
+
+00:01:55.000 --> 00:01:57.000
+ damit und ist Aktivist.
+
+00:01:57.000 --> 00:01:58.000
+ Ich arbeite da auch.
+
+00:01:58.000 --> 00:01:59.000
+ Ach, du arbeitest da auch?
+
+00:01:59.000 --> 00:02:00.000
+ Ja.
+
+00:02:00.000 --> 00:02:01.000
+ Wow.
+
+00:02:01.000 --> 00:02:02.000
+ Was du alles machst.
+
+00:02:02.000 --> 00:02:03.000
+ Auf jeden Fall.
+
+00:02:03.000 --> 00:02:06.000
+ Sie machen viele unterschiedliche Dinge und arbeiten beide bei Reporter ohne
+
+00:02:06.000 --> 00:02:07.000
+ Grenzen.
+
+00:02:07.000 --> 00:02:12.000
+ Ich freue mich sehr auf Ihren Vortrag "Zivile Forensik gegen staatliche
+
+00:02:12.000 --> 00:02:15.000
+ Überwachung von Journalist*innen" und gebe Ihnen die Bühne frei und ihr
+
+00:02:15.000 --> 00:02:25.000
+ gebt Ihnen einen wunderbaren Applaus.
+
+00:02:25.000 --> 00:02:29.000
+ Danke für die Einladung.
+
+00:02:29.000 --> 00:02:35.000
+ Wir erzählen heute mal so ein bisschen, was wir tun, wenn wir arbeiten.
+
+00:02:35.000 --> 00:02:39.000
+ Und ich glaube, der Titel von dem Vortrag war so was wie "Zivile Forensik gegen
+
+00:02:39.000 --> 00:02:42.000
+ staatliche Überwachung" in der Art.
+
+00:02:42.000 --> 00:02:46.000
+ Und den Vortrag werden wir in zwei Teile teilen und zwar zum einen werden wir
+
+00:02:46.000 --> 00:02:51.000
+ euch erstmal einen Überblick geben, warum unserer Erfahrung nach die
+
+00:02:51.000 --> 00:02:55.000
+ Sicherheitslage von Journalist*innen oft relativ schlecht ist.
+
+00:02:55.000 --> 00:02:58.000
+ Und dann werden wir vorstellen, was wir dagegen tun und was man dagegen tun
+
+00:02:58.000 --> 00:03:02.000
+ kann.
+
+00:03:02.000 --> 00:03:05.000
+ Ein kurzer Disclaimer ganz am Anfang.
+
+00:03:05.000 --> 00:03:10.000
+ Reporter ohne Grenzen ist eine NGO und hat ein relativ präzises Mandat, und
+
+00:03:10.000 --> 00:03:15.000
+ zwar Menschen zu unterstützen, die wegen ihrer Tätigkeit, in der sie
+
+00:03:15.000 --> 00:03:19.000
+ Journalismus machen, von staatlichen Akteuren angegriffen werden.
+
+00:03:19.000 --> 00:03:23.000
+ Das heißt, auch wenn es technisch große Parallelen gibt, können wir zum
+
+00:03:23.000 --> 00:03:28.000
+ Beispiel nicht aktiv werden, wenn Aktivist*innen Probleme mit digitalen
+
+00:03:28.000 --> 00:03:30.000
+ Angriffen und digitale Sicherheit haben.
+
+00:03:30.000 --> 00:03:36.000
+ Allerdings sind wir natürlich trotzdem mit diesen Themen drin und genau vieles
+
+00:03:36.000 --> 00:03:39.000
+ davon kann man übertragen, was wir gleich erzählen, aber nur so als Disclaimer,
+
+00:03:39.000 --> 00:03:45.000
+ dass das, was Reporter ohne Grenzen macht, eine klare Ausrichtung ist, nur für
+
+00:03:45.000 --> 00:03:48.000
+ Journalist*innen gedacht.
+
+00:03:48.000 --> 00:03:53.000
+ Jetzt fange ich mal an, die Landschaft zu skizzieren, auf die wir da treffen,
+
+00:03:53.000 --> 00:03:58.000
+ wenn wir uns die Degener, die global die Sicherheitslage von Journalist*innen
+
+00:03:58.000 --> 00:04:00.000
+ angucken.
+
+00:04:00.000 --> 00:04:04.000
+ Vor allem könnte man sagen, wir stecken mitten in der Digitalisierung und da ist
+
+00:04:04.000 --> 00:04:06.000
+ manches gut gelaufen und vieles schlecht.
+
+00:04:06.000 --> 00:04:10.000
+ Es gibt einfach viele Sachen, die nicht so ganz optimal sind.
+
+00:04:10.000 --> 00:04:15.000
+ Das ist jetzt der erste Teil, dass ich einfach mal so eine Skizze werfe, von was
+
+00:04:15.000 --> 00:04:16.000
+ da alles nicht so gut ist.
+
+00:04:16.000 --> 00:04:22.000
+ Ein Problem ist zum Beispiel, dass immer wieder staatliche Akteure auf Zero
+
+00:04:22.000 --> 00:04:26.000
+ Days stoßen und dann gibt es ein Loch im Staudamm und das Problem ist, dass
+
+00:04:26.000 --> 00:04:30.000
+ staatliche Akteure, die allermeisten und die allermeisten Staaten aktuell anstatt
+
+00:04:30.000 --> 00:04:35.000
+ das Loch zu schließen, sagen, geil, da ist ein Loch, suchen wir nach noch einem und
+
+00:04:35.000 --> 00:04:38.000
+ nach einem und noch einem und das macht die ganze Welt eher unsicherer als
+
+00:04:38.000 --> 00:04:44.000
+ sicherer und das ist inherent ein politisches Problem, das können wir in
+
+00:04:44.000 --> 00:04:48.000
+ unserem Wirken überhaupt nicht beeinflussen und verändern, aber das führt
+
+00:04:48.000 --> 00:04:53.000
+ dazu, dass die Situation eher schlechter als besser wird und dass wir eher und
+
+00:04:53.000 --> 00:04:57.000
+ so weiter entfernen von einer Situation, in der man besonders gut Geräten mit dem
+
+00:04:57.000 --> 00:05:00.000
+ Quellenschutz vertrauen kann.
+
+00:05:00.000 --> 00:05:06.000
+ Dann haben wir das Problem, dass Cloud Office Anwendungen immer weiter
+
+00:05:06.000 --> 00:05:11.000
+ verbreitet sind und in vielen Fällen auch eigentlich eine relativ gute Idee
+
+00:05:11.000 --> 00:05:15.000
+ sein können, aber natürlich gibt es immer die Situation, dass deine Daten
+
+00:05:15.000 --> 00:05:18.000
+ irgendwo anders liegen auf dem Computer von irgendwelchen anderen Menschen, von
+
+00:05:18.000 --> 00:05:22.000
+ einem Unternehmen und natürlich kann man diesem Unternehmen nicht vertrauen, dass
+
+00:05:22.000 --> 00:05:26.000
+ wenn da staatliche Akteure, wenn da staatliche Stellen ankommen, dass sie sagen
+
+00:05:26.000 --> 00:05:30.000
+ nö, die Daten kriegt er nicht, weil die machen den Verdiener mit Geld, natürlich
+
+00:05:30.000 --> 00:05:36.000
+ werden die sagen, ja klar kriegt er und je nachdem, welche Staaten dann fragen,
+
+00:05:36.000 --> 00:05:40.000
+ entstehen dann schnell Konstrukte, in denen das dir dort auf die Füße fallen
+
+00:05:40.000 --> 00:05:46.000
+ kann. Auf der anderen Seite ist das natürlich auch nicht unaufwendig,
+
+00:05:46.000 --> 00:05:49.000
+ Infrastruktur selber zu vertreiben, selber zu hosten, da braucht man irgendwie ein
+
+00:05:49.000 --> 00:05:56.000
+ IT-Team und bis du erstmal selbst gehostete eigene Infrastruktur auf dem Level hast,
+
+00:05:56.000 --> 00:05:59.000
+ dass das auch sicher ist, dass das auch gepatcht wird, dass das gewartet wird,
+
+00:05:59.000 --> 00:06:05.000
+ brauchst du auch wieder relativ viel Know-how und Personalkapazitäten und Geld
+
+00:06:05.000 --> 00:06:10.000
+ und das ist glaube ich auch eine Sache, die wir aus unseren ersten
+
+00:06:10.000 --> 00:06:15.000
+ Beratungserfahrungen erzählen können, dass das immer wieder daran scheitert, dass
+
+00:06:15.000 --> 00:06:20.000
+ Menschen wissen, ok eigentlich ist es nicht so geil, dass wir Google Docs
+
+00:06:20.000 --> 00:06:24.000
+ für alles benutzen oder irgendwas anderes, aber es geht irgendwie auch nicht so
+
+00:06:24.000 --> 00:06:27.000
+ richtig anders, weil das Geld und die Ressourcen halt nicht dafür da sind, das
+
+00:06:27.000 --> 00:06:32.000
+ sauber selber zu hosten und das führt einfach zu Dilemma-Tar, die oft nicht
+
+00:06:32.000 --> 00:06:37.000
+ richtig gelöst werden können. Natürlich gibt es geopolitisch, kann man dann immer
+
+00:06:37.000 --> 00:06:40.000
+ überlegen, je nachdem wo das Unternehmen sitzt und je nachdem wo der Staat sitzt,
+
+00:06:40.000 --> 00:06:44.000
+ der da vermeintlich anfragt, werden die eher antworten oder nicht, kann man dann
+
+00:06:44.000 --> 00:06:47.000
+ irgendwie Vermutungen anstellen, ob die dann richtig sind, das ist natürlich auch
+
+00:06:47.000 --> 00:06:51.000
+ nicht klar und dann ist auch wieder die Frage, möchte man riskieren, dass man
+
+00:06:51.000 --> 00:06:56.000
+ sich mit diesen Vermutungen irrt, aber das macht es auf jeden Fall kompliziert.
+
+00:06:56.000 --> 00:07:00.000
+ Dann merkt, dass ist eigentlich alles total grundlegend, aber das sind die
+
+00:07:00.000 --> 00:07:04.000
+ Sachen, die in der Realität die großen Probleme sind. Die generelle
+
+00:07:04.000 --> 00:07:10.000
+ Digitalhygiene ist einfach weiterhin schlecht, also die generellen Aspekte mit,
+
+00:07:10.000 --> 00:07:14.000
+ dass Menschen wissen, sichert Updates zu installieren, starke Passwörter zu
+
+00:07:14.000 --> 00:07:20.000
+ benutzen, einfach so, was jetzt niemand hier irgendwie überraschen kann, aber
+
+00:07:20.000 --> 00:07:24.000
+ dass die Versorgung, ich sag mal die Grundversorgung mit diesem Basiswissen in
+
+00:07:24.000 --> 00:07:30.000
+ der Breite der Gesellschaft, merken wir immer wieder, tauchen uns immer wieder
+
+00:07:30.000 --> 00:07:35.000
+ sehr alte Handys auf, die schon lange keine Sicherheitsupdates mehr kriegen oder
+
+00:07:35.000 --> 00:07:40.000
+ wiederverwendete Passwörter und sowas. Also das ist immer noch eine Front und das
+
+00:07:40.000 --> 00:07:43.000
+ kriegt man natürlich auch nicht mit der einen guten technischen Idee gelöst,
+
+00:07:43.000 --> 00:07:49.000
+ sondern vermutlich für mehr besseren, sicheren digitalen Journalismus weltweit
+
+00:07:49.000 --> 00:07:55.000
+ ist es mehr eine Sache von auch Training und Awareness und immer weiter daran
+
+00:07:55.000 --> 00:07:58.000
+ arbeiten, das sind alles keine neuen Probleme, sich zu überlegen, wie man es
+
+00:07:58.000 --> 00:08:01.000
+ schafft, Menschen das zu erklären, dass das wichtig ist, Menschen zu empowern und
+
+00:08:01.000 --> 00:08:06.000
+ auch einfach diese Dilemma zu navigieren von eigentlich selbstgehosteter
+
+00:08:06.000 --> 00:08:09.000
+ Infrastruktur, aber die muss dann natürlich auch geil sein, aber die darf nicht
+
+00:08:09.000 --> 00:08:14.000
+ zu teuer sein und dann wird es sehr schnell sehr kompliziert. Dann haben wir
+
+00:08:14.000 --> 00:08:18.000
+ ein Problem in der Welt, wie sie gerade ist, dass Spyware käuflich ist, also man
+
+00:08:18.000 --> 00:08:22.000
+ kann einfach als staatlicher Akteur, kann man Unternehmen geben und da gibt es auch
+
+00:08:22.000 --> 00:08:26.000
+ viele und sagen, hey, wir würden gerne, aus Sicherheitsgründen müssen wir hier mal
+
+00:08:26.000 --> 00:08:31.000
+ Leute hacken, habt ihr so ein Straßentreuer-SS-Service-Angebot für uns
+
+00:08:31.000 --> 00:08:36.000
+ und dann sagen die, ja klar, kostet X und verkaufen dir das. Die bekannteste Firma
+
+00:08:36.000 --> 00:08:41.000
+ ist vielleicht die NSO Group, es gibt aber auch viele andere, die in vielen
+
+00:08:41.000 --> 00:08:43.000
+ Fällen auch eigentlich Interesse daran haben, dass sie gar nicht so bekannt sind,
+
+00:08:43.000 --> 00:08:48.000
+ weil ja, irgendwie, die oft in der Presseöffentlichkeit gar nicht als so die
+
+00:08:48.000 --> 00:08:54.000
+ allergeilsten Jungs gesehen werden, aber das ist halt trotzdem ein Problem, dass
+
+00:08:54.000 --> 00:09:01.000
+ im Prinzip Leute, die Geld dafür haben, kommen da ran und die stellen das
+
+00:09:01.000 --> 00:09:04.000
+ eigentlich auch immer sehr blumig auf ihren Websites, da hey, hier, nö genau,
+
+00:09:04.000 --> 00:09:09.000
+ Dataflow baut so Exploits, die sagen dann, ja, ja, genau, kommt zu uns und wir
+
+00:09:09.000 --> 00:09:14.000
+ optimieren eure Exploits und machen die richtig sicher und alles prima. Was noch
+
+00:09:14.000 --> 00:09:20.000
+ ein größeres Problem ist, das ist jetzt gar nicht die Remote-Situation, dass
+
+00:09:20.000 --> 00:09:24.000
+ Forensik-Tools, um Handys aufzumachen, noch leichter verkäuflich sind, also da
+
+00:09:24.000 --> 00:09:27.000
+ gibt es wirklich auch, gibt es im Prinzip Listenpreise und Kataloge, wo man sagen
+
+00:09:27.000 --> 00:09:32.000
+ kann, ja, ich hätte gerne hier, ne, einmal irgendwie dieses Handy aufmachen. Die
+
+00:09:32.000 --> 00:09:35.000
+ sagen dann natürlich, ja, die ganz heißen Exploits geben nur an staatliche
+
+00:09:35.000 --> 00:09:38.000
+ Akteure und vielleicht an besonders geprüfte Unternehmen, aber letztlich, wenn
+
+00:09:38.000 --> 00:09:43.000
+ Menschen Geld haben, ist es vermutlich sehr wahrscheinlich, dass Leute da dran
+
+00:09:43.000 --> 00:09:46.000
+ kommen und das heißt, spätestens, wenn eine Person physisch verhaftet wird und
+
+00:09:46.000 --> 00:09:51.000
+ der das Gerät abgenommen wird, ist es sehr wahrscheinlich, dass staatliche
+
+00:09:51.000 --> 00:09:55.000
+ Akteure das auch machen können und zum Beispiel die Identitäten von den Quellen
+
+00:09:55.000 --> 00:09:58.000
+ erfahren können, was dann wiederum natürlich ein riesiges Problem ist für
+
+00:09:58.000 --> 00:10:02.000
+ zukünftige Quellen, weil die dann halt denken, nö, das erzähle ich jetzt nicht,
+
+00:10:02.000 --> 00:10:09.000
+ weil ich da nicht dran glaube, dass meine Identität geschützt werden kann und das
+
+00:10:09.000 --> 00:10:13.000
+ einfach, also ich glaube, kann man nochmal kurz irgendwie innehalten, was für eine
+
+00:10:13.000 --> 00:10:17.000
+ Scheißsituation das ist, dass wir eigentlich nicht die Möglichkeit haben, mit
+
+00:10:17.000 --> 00:10:23.000
+ normalen Geräten, mit denen wir so rumlaufen, da Sachen vor Staaten, die stark
+
+00:10:23.000 --> 00:10:28.000
+ in die Pressefreiheit eingreifen und auch sonst Regeln überschreiten, gut genug
+
+00:10:28.000 --> 00:10:33.000
+ schützen zu können und es auch keinen easy way out gibt, weil einfach so viel
+
+00:10:33.000 --> 00:10:37.000
+ Geld in die Entwicklung von Exploits gesteckt wird und es so häufig passiert,
+
+00:10:37.000 --> 00:10:40.000
+ dass Exploits entwickelt werden, die dann aber nicht gemeldet werden, also
+
+00:10:40.000 --> 00:10:46.000
+ nicht schwachstellen, sondern eben weiterverkauft und das führt zu Problemen.
+
+00:10:46.000 --> 00:10:51.000
+ Ein weiteres Problem ist, wir haben das das naiv-paranoid-Spektrum genannt oder naiv-
+
+00:10:51.000 --> 00:10:56.000
+ übervorsichtig, könnte man es auch diplomatischer formulieren, es gibt ja im
+
+00:10:56.000 --> 00:11:02.000
+ Prinzip pro-Sicherheitssituation, gibt es ja ein Spektrum von, wie kann man sich
+
+00:11:02.000 --> 00:11:06.000
+ jetzt damit fühlen, also das eine ist ja so die empirische faktische Situation
+
+00:11:06.000 --> 00:11:12.000
+ und das andere ist dann, wie fühle ich mich, wie vorsichtig bin ich und dann gibt es im
+
+00:11:12.000 --> 00:11:16.000
+ Prinzip gibt es eigentlich erst mal zwei Enden und zwar das eine ist völlig naiv
+
+00:11:16.000 --> 00:11:20.000
+ und bläubig zu sein, ach ja, warum sollten sie denn mich angreifen, das andere ist
+
+00:11:20.000 --> 00:11:24.000
+ mega übervorsichtig zu sein und dann gibt es im Prinzip noch so eine Abzweigung,
+
+00:11:24.000 --> 00:11:28.000
+ das ist der Fatalismus, der uns auch oft begegnet, das sind so ein bisschen
+
+00:11:28.000 --> 00:11:35.000
+ Menschen, wo in vielen Fällen sie selber oder auch ihr Umfeld alle mit NSO-Pegasus
+
+00:11:35.000 --> 00:11:38.000
+ aufgenommen wurden und die sind so, was soll ich denn machen, die kriegen eh alles,
+
+00:11:38.000 --> 00:11:43.000
+ bin sowieso überwacht seit fünf Jahren, keine Chance und die haben es im Prinzip
+
+00:11:43.000 --> 00:11:48.000
+ einfach aufgegeben, was auch einfach gefährlich ist und genau, die
+
+00:11:48.000 --> 00:11:52.000
+ überfürchtigte Seite sieht so aus, dass Leute im Prinzip, das Handy wird mal warm
+
+00:11:52.000 --> 00:11:58.000
+ und so, okay, scheiße, ich wurde gehackt, das Gefühl, sie müssen jetzt was tun
+
+00:11:58.000 --> 00:12:04.000
+ und das ist natürlich auch nicht gut, weil erstens geht es der Person dann
+
+00:12:04.000 --> 00:12:08.000
+ nicht gut, weil sie sich Sorgen macht, obwohl das Handy nur kurz mal warm geworden ist,
+
+00:12:08.000 --> 00:12:13.000
+ plus, dass wenn man zum Beispiel jetzt in die Breite sagen würde, als wir, falls sie
+
+00:12:13.000 --> 00:12:18.000
+ gehackt wurde, kommt zu uns, dann kommt man in so einen Positivparadoxon, dass sich
+
+00:12:18.000 --> 00:12:21.000
+ natürlich viel mehr Menschen melden, wo das Handy mal warm geworden ist, als
+
+00:12:21.000 --> 00:12:25.000
+ Menschen melden, wo es tatsächlich einen Angriff gab, das macht so ein bisschen,
+
+00:12:25.000 --> 00:12:31.000
+ dass in die Breite offen allen alles anbieten, macht es kompliziert.
+
+00:12:31.000 --> 00:12:36.000
+ Die naive Seite sind so Sachen von "ich bin doch gar nicht wichtig" oder "die
+
+00:12:36.000 --> 00:12:40.000
+ überwache mich eh komplett" und das Problem ist, das ist alles nicht gut, also
+
+00:12:40.000 --> 00:12:45.000
+ alle Ecken, ich meine, im Leben, die goldene Mitte liegt immer irgendwo
+
+00:12:45.000 --> 00:12:51.000
+ dazwischen, das führt alles zu gefährlichen Sicherheitsentscheidungen, könnte man sagen.
+
+00:12:51.000 --> 00:12:57.000
+ In die Überversichtigkeit kommst du irgendwann in die Arbeitsunfähigkeit, wirst du
+
+00:12:57.000 --> 00:13:01.000
+ irgendwann handlungsunfähig, in der Naivität wirst du total ungeschützt, im
+
+00:13:01.000 --> 00:13:06.000
+ Fatalismus wirst du ungeschützt und gehst davon aus, dass du ungeschützt bist
+
+00:13:06.000 --> 00:13:14.000
+ und das Ideal wäre irgendwo dazwischen und dass der Idealzustand wäre vermutlich,
+
+00:13:14.000 --> 00:13:18.000
+ also woüber Menschen beibringen, wie man Threat Models sich überlegt und auch die
+
+00:13:18.000 --> 00:13:23.000
+ eigene Sicherheitssituation besser einzuschätzen, Menschen zu helfen, eher da
+
+00:13:23.000 --> 00:13:28.000
+ in der Mitte zu landen von ihrem Gefühl, also weder in einem Fatalismus noch in einer
+
+00:13:28.000 --> 00:13:33.000
+ Überversichtigkeit, sondern in einem möglichst informierten "naja, vermutlich
+
+00:13:33.000 --> 00:13:38.000
+ sollte ich da jetzt ein bisschen aufpassen, aber es bringt jetzt auch nichts, mir
+
+00:13:38.000 --> 00:13:41.000
+ irgendwie 25 Handys zu kaufen und nach irgendwelchen komplizierten Systemen da
+
+00:13:41.000 --> 00:13:48.000
+ SIM-Karten durchzuruhtieren und der Sicherheitsgewinn ist Null, aber auch nicht gut.
+
+00:13:48.000 --> 00:13:53.000
+ Und was wir leider auch sehen ist, dass es nicht selten passiert, dass Menschen
+
+00:13:53.000 --> 00:13:56.000
+ einfach Gefahren als Coping-Strategie ausblenden, also dass ich weiß nicht, wie
+
+00:13:56.000 --> 00:14:00.000
+ viele von euch schon mit Menschen zu tun hatten, die richtig heißen Scheiß gemacht
+
+00:14:00.000 --> 00:14:04.000
+ haben, ich glaube, das ist in manchen Fällen auch einfach, geht es dir besser
+
+00:14:04.000 --> 00:14:09.000
+ damit, wenn du einfach sagst, ja, was da passiert, passiert halt und um so einen
+
+00:14:09.000 --> 00:14:12.000
+ klaren Kopf zu behalten, das so ein bisschen auszublenden, was sicherlich auch
+
+00:14:12.000 --> 00:14:16.000
+ gar nicht schlecht ist, wenn Menschen dadurch handlungsfähig werden und bleiben,
+
+00:14:16.000 --> 00:14:21.000
+ aber natürlich auch dazu führen kann, dass sie ja dann entsprechende Schutzmaßnahmen
+
+00:14:21.000 --> 00:14:26.000
+ nicht treffen, die eigentlich angemessen gewesen wären.
+
+00:14:26.000 --> 00:14:31.000
+ Dann haben wir noch ein großes Problem, das ist oft...
+
+00:14:31.000 --> 00:14:35.000
+ Oh, stimmt.
+
+00:14:35.000 --> 00:14:43.000
+ Ja, genau, ich mach weiter, wir bleiben aber bei Problemen und genau gerade im
+
+00:14:43.000 --> 00:14:48.000
+ Journalismus ist es so, dass es ganz unterschiedliche Arbeitsstrukturen gibt.
+
+00:14:48.000 --> 00:14:53.000
+ Wenn ihr so eine Zeitung aufschlagt, denkt ihr eigentlich, alle, die da was
+
+00:14:53.000 --> 00:14:58.000
+ schreiben, die sind da bei dieser Zeitung angestellt und haben ganz normalen
+
+00:14:58.000 --> 00:15:02.000
+ Vertrag, es ist aber so, es gibt extrem viele selbstständige Journalist*innen,
+
+00:15:02.000 --> 00:15:06.000
+ heißen dann oft "reie Journalist*innen" und die schreiben mal hier, mal da und die
+
+00:15:06.000 --> 00:15:10.000
+ sind eben so wie auch IT-Freiberufler arbeiten die, also die kümmern sich
+
+00:15:10.000 --> 00:15:16.000
+ selber um ihre Hardware und um ihre IT-Security und wo man woanders vielleicht
+
+00:15:16.000 --> 00:15:20.000
+ ein ganzes Team für so eine Aufgabe hat, muss das alles eine Person machen und
+
+00:15:20.000 --> 00:15:24.000
+ ja, das funktioniert dann oft eher schlecht.
+
+00:15:24.000 --> 00:15:29.000
+ Genau, wenn man irgendwie wo angestellt ist, dann kriegt man eben zum Beispiel ein
+
+00:15:29.000 --> 00:15:34.000
+ Dienstlaptop gestellt, ein Dienst-Handy und das sind dann schon meistens gute,
+
+00:15:34.000 --> 00:15:38.000
+ moderne, aktuelle Geräte, da werden dann meistens die Updates installiert,
+
+00:15:38.000 --> 00:15:43.000
+ wenn es richtig professionelles sind, die Geräte in Mobile Device Management
+
+00:15:43.000 --> 00:15:48.000
+ integriert, dann kümmert sich ein Admin darum, dass die Updates installiert werden
+
+00:15:48.000 --> 00:15:53.000
+ und eventuell kann man dann sogar als User gar nicht weitere Apps installieren,
+
+00:15:53.000 --> 00:15:59.000
+ die vielleicht Surface Area für Exploits wären und das funktioniert schon ganz
+
+00:15:59.000 --> 00:16:04.000
+ gut. Das hat auch manchmal Probleme, weil wenn ich keine eigenen Apps installieren
+
+00:16:04.000 --> 00:16:09.000
+ kann und meine Quelle will aber jetzt unbedingt über Messenger X mit mir
+
+00:16:09.000 --> 00:16:12.000
+ kommunizieren und kann ich nicht installieren, außer ich frag irgendwie das
+
+00:16:12.000 --> 00:16:16.000
+ IT-Team und das Ticket zu bearbeiten dauert dann drei Wochen, dann ist die heiße
+
+00:16:16.000 --> 00:16:19.000
+ Info schon wieder weg und dann passiert es natürlich oft, dass Leute irgendwie
+
+00:16:19.000 --> 00:16:24.000
+ ausweichen, ihr Privathandy benutzen und dann so Sachen vermischen, das
+
+00:16:24.000 --> 00:16:30.000
+ funktioniert auch überhaupt nicht gut, aber an sich wäre das gut und die gute
+
+00:16:30.000 --> 00:16:34.000
+ Lösung dafür wäre eigentlich, da haben wir auch schon mit IT-Teams geredet, dass
+
+00:16:34.000 --> 00:16:41.000
+ es spezifische Konzepte gibt für Investigativrechercheteams, die vielleicht
+
+00:16:41.000 --> 00:16:46.000
+ auch extra Geräte kriegen und da muss dann auch nicht Windows installiert sein
+
+00:16:46.000 --> 00:16:53.000
+ und da macht man sich einfach mehr Gedanken und das wäre natürlich gut.
+
+00:16:53.000 --> 00:16:57.000
+ Das Problem vor allem bei Selbstständigen ist, wie funktioniert
+
+00:16:57.000 --> 00:17:02.000
+ Incident Response? Das geht eigentlich gar nicht so, die Leute haben eigentlich fast
+
+00:17:02.000 --> 00:17:06.000
+ nie ein Konzept, sie denken halt so "oh scheiße, meine Quelle ist aufgeflogen,
+
+00:17:06.000 --> 00:17:09.000
+ vielleicht wurde ich gehackt und ich habe vielleicht andere Indikatoren, zu
+
+00:17:09.000 --> 00:17:15.000
+ Indikatoren dazu kommen wir auch noch, aber was mache ich jetzt?" Und dann sind
+
+00:17:15.000 --> 00:17:22.000
+ das vielleicht wir, aber ohne das gibt es dann kein System und das ist natürlich
+
+00:17:22.000 --> 00:17:27.000
+ schlecht und da müsste es eigentlich bessere Lösungen für geben.
+
+00:17:27.000 --> 00:17:31.000
+ Ja, ein großes Problem da draußen ist, wir haben sehr viele ungepatchte Geräte,
+
+00:17:31.000 --> 00:17:34.000
+ das ist jetzt hauptsächlich in diesem selbstständigen Bereich, den ich euch eben
+
+00:17:34.000 --> 00:17:41.000
+ gezeigt habe und ja, ihr seht hier die Verbreitung von Android-Versionen von
+
+00:17:41.000 --> 00:17:45.000
+ Android 4 bis Android 11, ich erinnere mich auch noch an Android 4, das war echt
+
+00:17:45.000 --> 00:17:48.000
+ lange her, aber da laufen immer noch Geräte draußen rum, die haben das
+
+00:17:48.000 --> 00:17:53.000
+ installiert und rechts seht ihr, wann diese Android-Versionen keine
+
+00:17:53.000 --> 00:17:58.000
+ Sicherheitsupdates mehr gekriegt haben, also alles ab Android 10 ist End of
+
+00:17:58.000 --> 00:18:05.000
+ Life und potentiell, ja, einfach exploitable und von außen übernehmbar und das sind
+
+00:18:05.000 --> 00:18:12.000
+ jetzt so, wenn man zusammenrechnet, circa 30 Prozent aller Handys. Ja, also das ist
+
+00:18:12.000 --> 00:18:15.000
+ auch global sehr unterschiedlich dann, natürlich ist es schwieriger mit einem
+
+00:18:15.000 --> 00:18:22.000
+ Einkommen, weiß ich nicht, im Sudan als Journalistin sich ein neues Gerät zu
+
+00:18:22.000 --> 00:18:27.000
+ kaufen als in Deutschland und wir arbeiten mit Journalisten in der ganzen Welt
+
+00:18:27.000 --> 00:18:33.000
+ zusammen und ja, aber 30 Prozent ist einfach viel zu viel, das ist eine völlige
+
+00:18:33.000 --> 00:18:38.000
+ Katastrophe und bitte, bitte verwendet keine Handys, die keine Sicherheitsupdates
+
+00:18:38.000 --> 00:18:43.000
+ kriegen und lasst auch eure Freundinnen bitte nicht solche Handys verwenden und
+
+00:18:43.000 --> 00:18:46.000
+ wir sind ja hier bei Bits und Bäume, es geht auch um Nachhaltigkeit, ich finde das
+
+00:18:46.000 --> 00:18:50.000
+ auch immer echt furchtbar, aber man kann diese Geräte halt leider wirklich nur
+
+00:18:50.000 --> 00:18:53.000
+ noch verwenden für irgendwelche anderen Projekte wie zum Beispiel gab es mal so
+
+00:18:53.000 --> 00:18:57.000
+ Vogelbeobachtungsprojekte, wo man alte Smartphones spenden konnte, das ist eine
+
+00:18:57.000 --> 00:19:00.000
+ gute Lösung, aber sonst muss man die leider einfach entsorgen und das ist
+
+00:19:00.000 --> 00:19:05.000
+ einfach nicht verantwortlich. Genau, hier hat noch mal jemand geschätzt, das sind
+
+00:19:05.000 --> 00:19:09.000
+ sogar 40 Prozent, das ändert sich natürlich, Android 11 wird auch nicht
+
+00:19:09.000 --> 00:19:15.000
+ ewig unterstützt werden und genau das Problem sind eben die Hersteller von den
+
+00:19:15.000 --> 00:19:21.000
+ Smartphones, die teilweise nicht lang genug Updates bereitstellen. Ein weiteres
+
+00:19:21.000 --> 00:19:24.000
+ Problem, weniger ein IT-Sicherheitsproblem, aber wollten wir auch einmal darauf
+
+00:19:24.000 --> 00:19:30.000
+ hinweisen, ist digitale Gewalt gegen Journalist*innen, gab hier auch eine
+
+00:19:30.000 --> 00:19:36.000
+ Studie der Uni Leipzig, dass Hate Speech im Internet zunimmt und statt Geräte zu
+
+00:19:36.000 --> 00:19:41.000
+ hacken und Leute damit an ihrer Arbeit zu hindern, ist es auch oft so, dass einfach
+
+00:19:41.000 --> 00:19:46.000
+ so Hetzkampagnen, Hate Speech koordiniert wird, um ungeliebsame
+
+00:19:46.000 --> 00:19:51.000
+ Journalist*innen zu stören und genau dann werden vielleicht auch deren Twitter-
+
+00:19:51.000 --> 00:19:57.000
+ Accounts gesperrt, weil Leute ganz oft auf Melden drücken oder teilweise passiert
+
+00:19:57.000 --> 00:20:04.000
+ Doxing, also werden private Informationen geleakt. Genau und das führt natürlich auch
+
+00:20:04.000 --> 00:20:08.000
+ dazu, dass Leute ihre Arbeit einstellen oder sich mehr damit beschäftigen als mit
+
+00:20:08.000 --> 00:20:11.000
+ der Arbeit, die sie eigentlich machen wollen und wenn euch das mehr interessiert,
+
+00:20:11.000 --> 00:20:15.000
+ dann bleibt ihr einfach sitzen und 17 Uhr spricht Anne Roth zur digitale Gewalt,
+
+00:20:15.000 --> 00:20:21.000
+ die ist auf jeden Fall die bessere Expertin als wir. Genau, aber wir kommen jetzt auch
+
+00:20:21.000 --> 00:20:25.000
+ mal zu unseren Gegenmaßnahmen, was wir machen. Digital Security Lab haben wir im
+
+00:20:25.000 --> 00:20:29.000
+ letzten Sommer gegründet und man kann sich einfach an uns wenden, wenn man denkt,
+
+00:20:29.000 --> 00:20:33.000
+ man wurde einem digitalen Angriff ausgesetzt, hauptsächlich suchen wir eben
+
+00:20:33.000 --> 00:20:36.000
+ nach Staatsdrianern, aber teilweise auch andere Sachen, wie mein Account wurde
+
+00:20:36.000 --> 00:20:40.000
+ übernommen und ich weiß nicht, wie das passiert ist, ich hatte sichere Passwörter,
+
+00:20:40.000 --> 00:20:45.000
+ etc. Und die Sache, warum wir das machen, ist, dass ja digitale Angriffe, wie zum
+
+00:20:45.000 --> 00:20:49.000
+ Beispiel, ich habe einen Staatsdrianer auf dem Handy, das ist eigentlich unsichtbar,
+
+00:20:49.000 --> 00:20:53.000
+ das bekommst du ja nicht mit, sondern du merkst dann erst vielleicht so, oh Scheiße,
+
+00:20:53.000 --> 00:20:59.000
+ meine Quelle ist aufgeflogen und wurde verhaftet oder sowas und weil das so im
+
+00:20:59.000 --> 00:21:03.000
+ Verborgenen geschieht, versuchen wir eben durch IT-Forensik Berichte zu schreiben,
+
+00:21:03.000 --> 00:21:08.000
+ das öffentlich zu machen und nachweisbar, um dann eben auch die Verantwortlichen
+
+00:21:08.000 --> 00:21:15.000
+ dafür zur Verantwortung zu ziehen, zu kritisieren und das hat man nach dem
+
+00:21:15.000 --> 00:21:19.000
+ Pegasus-Projekt, wo wir jetzt nicht beteiligt waren, uns gibt es erst danach,
+
+00:21:19.000 --> 00:21:24.000
+ auch sehr gut gesehen, dass die NSO Group jetzt eigentlich keine gut angesehene
+
+00:21:24.000 --> 00:21:28.000
+ Firma ist, also wenn man da jetzt arbeiten würde und jetzt zum Camp kommt,
+
+00:21:28.000 --> 00:21:31.000
+ dann, weiß ich nicht, würde man sich schon schämen und vielleicht rausgeschmissen
+
+00:21:31.000 --> 00:21:35.000
+ werden und darum geht es und deswegen machen wir das und natürlich wollen wir
+
+00:21:35.000 --> 00:21:40.000
+ auch schauen, dass andere das leichter machen können und dann suchen wir zum
+
+00:21:40.000 --> 00:21:44.000
+ Beispiel sogenannte Indicators of Compromise, also Datenpunkte, die man
+
+00:21:44.000 --> 00:21:48.000
+ forensisch auf Geräten finden kann, um dann leichter nachzuweisen, ja, das ist ein
+
+00:21:48.000 --> 00:21:53.000
+ Staatsdrianer und da gibt es so Beispiele von anderen, zum Beispiel gab es mal einen
+
+00:21:53.000 --> 00:21:58.000
+ Exploit, der hat so funktioniert, dass man Kalenderinvite bekommen hat und dann hat
+
+00:21:58.000 --> 00:22:01.000
+ die Kalender-App halt einen Bug gehabt und dadurch konnte man die Kalender-App
+
+00:22:01.000 --> 00:22:05.000
+ übernehmen und dann am Ende irgendwann Staatsdrianer aufspielen und alle diese
+
+00:22:05.000 --> 00:22:10.000
+ Kalendereinträge, die waren halt zu irgendeinem Datum, weiß ich nicht, 1985,
+
+00:22:10.000 --> 00:22:14.000
+ 1. Mai, 18 Uhr und wenn man dann so einen Kalendereintrag hat, dann weiß man, oh,
+
+00:22:14.000 --> 00:22:18.000
+ ich habe einen Staatsdrianer und solche Indicators of Compromise teilt man dann
+
+00:22:18.000 --> 00:22:22.000
+ in der IT-Security-Community und dann muss man vielleicht gar nicht zu einem
+
+00:22:22.000 --> 00:22:27.000
+ Digital Security Lab gehen, sondern kann das einfach selber machen und leichter
+
+00:22:27.000 --> 00:22:30.000
+ Staatsdrianer finden und noch besser wäre es natürlich, wenn wir dann solche
+
+00:22:30.000 --> 00:22:35.000
+ Zero Days, also unveröffentlichte Sicherheitslücken finden und nachvollziehbar
+
+00:22:35.000 --> 00:22:38.000
+ können, wie die funktionieren, können die an die Hersteller melden und dann werden
+
+00:22:38.000 --> 00:22:43.000
+ die geschlossen und dann ist die IT-Landschaft sicherer für alle. Was wir auch
+
+00:22:43.000 --> 00:22:47.000
+ machen, ist Sicherheitsberatung für Redaktionen und Einzelpersonen, also man
+
+00:22:47.000 --> 00:22:51.000
+ kann sich einfach an uns per E-Mail wenden und wenn man einfach mal einen
+
+00:22:51.000 --> 00:22:55.000
+ Check braucht, so hey, ich habe hier ein heißes Projekt, könnt ihr mit mir noch
+
+00:22:55.000 --> 00:22:59.000
+ mal durchgehen, ob das, was ich tue, angemessen ist für meine Bedrohungslage
+
+00:22:59.000 --> 00:23:04.000
+ und dann vermitteln wir Trainer, die das dann machen oder wir machen das auch
+
+00:23:04.000 --> 00:23:09.000
+ selber direkt. Ein sehr großes Problem, was wir immer haben, hier dieses Meme,
+
+00:23:09.000 --> 00:23:13.000
+ hängt bei uns im Büro, weil es wirklich auch vorkommt, wenn die Journalist*innen
+
+00:23:13.000 --> 00:23:18.000
+ zu uns kommen, dann wollen die eigentlich meistens hören, mein Gerät ist sicher,
+
+00:23:18.000 --> 00:23:22.000
+ ich kann weiter arbeiten, das ist auch total nachvollziehbar und logisch, aber
+
+00:23:22.000 --> 00:23:26.000
+ das geht natürlich nicht, weil wir können halt durch IT-Forense keine negativen
+
+00:23:26.000 --> 00:23:30.000
+ Befunde produzieren, also wir können uns nicht ein Gerät anschauen und dann
+
+00:23:30.000 --> 00:23:34.000
+ sozusagen sagen, ja wir haben jede eins und jede null umgeguckt und da war keine
+
+00:23:34.000 --> 00:23:40.000
+ Malwert, das geht nicht und ja es gibt halt auch einfach immer neue Methoden,
+
+00:23:40.000 --> 00:23:43.000
+ neue Exploits, die vielleicht nicht bekannt sind, man kann nicht alles
+
+00:23:43.000 --> 00:23:47.000
+ angucken oder vielleicht versteckt sich die Melbe einfach so gut, dass es gar
+
+00:23:47.000 --> 00:23:50.000
+ nicht möglich ist, weil bei modernen Handys kann ich auch nicht einfach den
+
+00:23:50.000 --> 00:23:54.000
+ Flash auslöten und auslesen, weil die Daten sind verschlüsselt und da kommt man
+
+00:23:54.000 --> 00:23:59.000
+ nicht ran, im Prinzip geht das nicht, wir können nur sagen, wenn wir was finden,
+
+00:23:59.000 --> 00:24:05.000
+ da war was und wie ich gerade erklärt habe, wollen wir ja eben Melbe finden und
+
+00:24:05.000 --> 00:24:10.000
+ dann eben einen Bericht veröffentlichen, die Zero Days Patchen, IOCs veröffentlichen
+
+00:24:10.000 --> 00:24:13.000
+ und die Journalist*innen wollen aber genau das Gegenteil, also haben wir
+
+00:24:13.000 --> 00:24:17.000
+ eigentlich, kommen wir gar nicht so gut zusammen oft, weil wir gar nicht das
+
+00:24:17.000 --> 00:24:22.000
+ liefern, was die von uns wollen, aber natürlich macht das schon Sinn, wenn die
+
+00:24:22.000 --> 00:24:29.000
+ zu uns kommen, wir haben am Ende beide was davon, genau aber das fragen wir uns dann
+
+00:24:29.000 --> 00:24:33.000
+ immer, so meine Quelle ist sicher, ja kann ich weiter arbeiten, so, nee muss trotzdem
+
+00:24:33.000 --> 00:24:39.000
+ vorsichtig sein. Ja, wie kontaktiert man uns und wann am besten?
+
+00:24:39.000 --> 00:24:44.000
+ Natürlich, wenn man eine hohe Bedrohungslage hat, zum Beispiel recherchiert man zu, weiß
+
+00:24:44.000 --> 00:24:50.000
+ ich nicht, im Kriegsgebiet, in der Ukraine oder so und macht sich da unbeliebt, zum
+
+00:24:50.000 --> 00:24:53.000
+ Beispiel wurde man auch festgenommen, wenn man festgenommen wird, wird eigentlich
+
+00:24:53.000 --> 00:24:57.000
+ immer einem alle technischen Geräte abgenommen oder wenn nur die technischen
+
+00:24:57.000 --> 00:25:01.000
+ Geräte beschlagnahmt werden, zum Beispiel bei einer Hausdurchsuchung, wenn man die
+
+00:25:01.000 --> 00:25:06.000
+ dann wiederbekommt, können wir uns die angucken, weil wenn man physischen Zugriff
+
+00:25:06.000 --> 00:25:10.000
+ hat, ist es für Sicherheitsbehörden natürlich nochmal deutlich leichter, Staatsgranne
+
+00:25:10.000 --> 00:25:16.000
+ aufzuspielen, als wenn man das remote machen muss und die Exploits dafür sind günstiger,
+
+00:25:16.000 --> 00:25:20.000
+ also wird das eventuell so auch häufiger gemacht. Dann gibt es natürlich noch
+
+00:25:20.000 --> 00:25:26.000
+ technische Indikatoren, das ist aber schwierig, also es gibt dann eben so Sachen
+
+00:25:26.000 --> 00:25:33.000
+ wie, mein Akku wird warm, aber das ist natürlich ein schlechter Indikator, weil ich glaube
+
+00:25:33.000 --> 00:25:36.000
+ unsere Akkus waren alle ziemlich warm hier und wir können jetzt nicht von allen
+
+00:25:36.000 --> 00:25:42.000
+ vom Camp die Handys checken, aber es gibt natürlich so Sachen wie deine E-Mail-Adresse
+
+00:25:42.000 --> 00:25:47.000
+ von deinem Google-Account, die Wiederherstellungsadresse wurde geändert oder von deinem Facebook-Account
+
+00:25:47.000 --> 00:25:51.000
+ oder so und dann weiß man natürlich, wenn man das nicht wahrt, dann war es wer anders
+
+00:25:51.000 --> 00:25:57.000
+ und dann schreibt man uns mal eine E-Mail und dann gucken wir uns das an. Genau, also wenn
+
+00:25:57.000 --> 00:26:01.000
+ ihr jemanden kennt, der im Bereich Journalismus arbeitet, schreibt uns gerne eine E-Mail
+
+00:26:01.000 --> 00:26:07.000
+ lab@reporterohnegrenzen.de oder mail@lab.rsf.org. Wenn es keine Journalistinnen sind,
+
+00:26:07.000 --> 00:26:10.000
+ könnt ihr uns trotzdem fragen, vielleicht kennen wir eine andere NGO, die weiterhilft
+
+00:26:10.000 --> 00:26:23.000
+ und da würden wir uns darüber freuen. Wieso geht es nicht weiter? Ah ja. Genau, jetzt zum
+
+00:26:23.000 --> 00:26:27.000
+ Mitmachpart des Vortrags. Unser Auftrag an euch, gründet bitte mehr Security Labs.
+
+00:26:27.000 --> 00:26:36.000
+ Wir machen nur Journalismus und macht doch zum Beispiel mal ein Security Lab für Klimaschutz,
+
+00:26:36.000 --> 00:26:42.000
+ Aktivismus oder weiß ich nicht, das wäre sicherlich auch gut. Teilt bitte eure IOCs,
+
+00:26:42.000 --> 00:26:48.000
+ es gibt coole Projekte wie zum Beispiel die MISP-Plattform, wo es extra Software und
+
+00:26:48.000 --> 00:26:53.000
+ Datenbanken dafür gibt oder postet es einfach irgendwo ins Internet, das hilft. Und bitte
+
+00:26:53.000 --> 00:27:00.000
+ haltet gegen Staatsprojaner-Marketing, also es wird ja massiv Propaganda betrieben zu sagen,
+
+00:27:00.000 --> 00:27:05.000
+ wir brauchen Staatsprojaner, weil wir müssen irgendwie organisierte Kriminalität bekämpfen
+
+00:27:05.000 --> 00:27:10.000
+ oder sowas und das ist ja überhaupt kein großer Grundrechtseingriff, weil wir machen
+
+00:27:10.000 --> 00:27:15.000
+ nur Telekommunikationsüberwachung und der Blödsinn mit, wir nennen das irgendwie Quellen-TKÜ,
+
+00:27:15.000 --> 00:27:22.000
+ Quellen-TKÜ Plus oder auch Online-Durchsuchungen oder solche Späße und habe auch ein Beispiel
+
+00:27:22.000 --> 00:27:29.000
+ mitgebracht. Konstantin Notz, der netzpolitische Sprecher der Grünen hat mal gesagt, Staatsprojaner
+
+00:27:29.000 --> 00:27:34.000
+ seien wie ein Seil, also so einfach ein Werkzeug und damit kann man in Deutschland Schiffe
+
+00:27:34.000 --> 00:27:39.000
+ festmachen und in Saudi-Arabien Dissidenten aufknüpfen und deswegen ist das in Deutschland
+
+00:27:39.000 --> 00:27:45.000
+ beim BKA gut und in Saudi-Arabien schlecht. Das ist natürlich Blödsinn, weil für die
+
+00:27:45.000 --> 00:27:51.000
+ Staatsprojaner brauchst du einfach unveröffentliche Sicherheitslücken, die du zuhalten musst
+
+00:27:51.000 --> 00:27:56.000
+ und wenn Deutschland die nutzt, dann kann Saudi-Arabien die auch nutzen. Also Staatsprojaner
+
+00:27:56.000 --> 00:28:01.000
+ sind wirklich kein Seil, Staatsprojaner sind eigentlich eher wie Massenvernichtungswaffen,
+
+00:28:01.000 --> 00:28:06.000
+ die man völkerrechtlich ächten sollte, die sollte es nicht geben und wir sollten einfach
+
+00:28:06.000 --> 00:28:09.000
+ schauen, dass sie in der Gesellschaft nicht vorkommen.
+
+00:28:19.000 --> 00:28:28.000
+ Genau, ich weise gerne auch Strafverteidiger*innen darauf hin, wenn sie aus Akten sehen, dass
+
+00:28:28.000 --> 00:28:32.000
+ eventuell irgendwo ein Staatsprojaner eingesetzt wurde, dann leitet das weiter an Leute, die
+
+00:28:32.000 --> 00:28:35.000
+ sich das forensisch angucken, vielleicht finden wir Sicherheitslücken, vielleicht können
+
+00:28:35.000 --> 00:28:42.000
+ wir IOCs produzieren, weil natürlich gibt es meistens eine Anklage, wenn man einen Staatsprojaner
+
+00:28:42.000 --> 00:28:46.000
+ hatte, weil das ist ja in den meisten Ländern die Legitimation dafür, also zumindest in
+
+00:28:46.000 --> 00:28:56.000
+ Deutschland oder Europa oder anderen solchen Ländern. Ja, wenn ihr noch irgendwie Forensik-Expert*innen
+
+00:28:56.000 --> 00:29:01.000
+ seid, gerade iOS und Android, dann meldet euch gerne bei uns, wir sind immer an Austausch
+
+00:29:01.000 --> 00:29:08.000
+ interessiert oder wenn ihr Tipps braucht, teilen wir gerne unser Wissen und sprecht uns da
+
+00:29:08.000 --> 00:29:13.000
+ gerne einfach an, warum eigentlich Android und iOS, das ist auch eine unserer Beobachtungen,
+
+00:29:13.000 --> 00:29:19.000
+ Staatsprojaner auf Computern, wie so damals, als der CCC irgendwie ozapft ist, analysiert
+
+00:29:19.000 --> 00:29:24.000
+ hat, das gibt es eigentlich kaum noch, weil das macht auch Sinn, sich die Smartphones anzuschauen,
+
+00:29:24.000 --> 00:29:28.000
+ die Leute lesen ja auch ihre E-Mails meistens auf dem Smartphone und auf dem Smartphone
+
+00:29:28.000 --> 00:29:31.000
+ haben sie sonst auch Daten, die sie nicht auf dem Rechner haben, aber andersherum ist
+
+00:29:31.000 --> 00:29:39.000
+ das eher selten geworden, bei uns hier vielleicht nicht, aber so bei Journalist*innen ist das
+
+00:29:39.000 --> 00:29:43.000
+ auf jeden Fall unser Eindruck und deswegen macht es einfach total viel Sinn, die Smartphones
+
+00:29:43.000 --> 00:29:52.000
+ anzugreifen. Ja, ich glaube, das war's und wir haben noch einen Fragenteil. Ach so, genau,
+
+00:29:52.000 --> 00:29:58.000
+ Reporter ohne Grenzen ist ein gemeinnütziger Verein, man kann da Mitglied werden oder Fördermitglied,
+
+00:29:58.000 --> 00:30:05.000
+ das unterstützt natürlich unsere Arbeit, die Arbeit der Kolleginnen und ansonsten, bisher
+
+00:30:05.000 --> 00:30:10.000
+ hatten wir keine Veröffentlichungen, wo wir mal was gefunden oder analysiert haben, aber
+
+00:30:10.000 --> 00:30:12.000
+ das holen wir nach, bleibt gespannt.
+
+00:30:27.000 --> 00:30:35.000
+ Hab ich schon wieder ausgemacht, nee. Ja, vielen Dank an euch beide, Janik und Viktor, für euren Talk.
+
+00:30:35.000 --> 00:30:40.000
+ Für eure Fragen habe ich hier einen wunderbaren Engel mit einem Mikrofon, nachdem es jetzt
+
+00:30:40.000 --> 00:30:45.000
+ eine größere Menge ist, durch die es schwierig ist, immer drüber zu stolpern, wäre es total lieb,
+
+00:30:45.000 --> 00:30:51.000
+ wenn ihr zu diesem Engel hingehen würdet und euch in eine Schlange anstellt, falls ihr es mehr als
+
+00:30:51.000 --> 00:30:57.000
+ eine Person Fragen habt, um diese dann in das Mikrofon zu sprechen, damit auch das Internet
+
+00:30:57.000 --> 00:30:59.000
+ was hat von euren Fragen.
+
+00:30:59.000 --> 00:31:08.000
+ Wie viele Leute seid ihr in dem Lab und wie viele Klient*innen hattet ihr jetzt, seit ihr existiert?
+
+00:31:08.000 --> 00:31:15.000
+ Also wir sind drei Leute aktuell und wir haben gerade auch ein paar Stellen ausgeschrieben für
+
+00:31:15.000 --> 00:31:19.000
+ Werkstudierende, die uns bei der Arbeit unterstützen, schaut euch die gerne auf der Webseite an.
+
+00:31:19.000 --> 00:31:25.000
+ Genau, wie viele Fälle hatten wir, das hast du neulich erst beantwortet.
+
+00:31:25.000 --> 00:31:30.000
+ Ja, das ist immer die Frage, wie man das definiert. Wir kriegen von relativ vielen Menschen Daten,
+
+00:31:30.000 --> 00:31:36.000
+ das hat sich auch erst so ein bisschen, wie gesagt, im letzten Sommer hat das alles erst so langsam
+
+00:31:36.000 --> 00:31:42.000
+ angefangen, das steigt, dreistellig ist es auf jeden Fall, aber es ist halt die Frage, wo man
+
+00:31:42.000 --> 00:31:49.000
+ einfach in wenigen Fällen, gucken wir uns Sachen dann sehr tief an und in vielen Fällen guckt man
+
+00:31:49.000 --> 00:31:53.000
+ sich Sachen an und ist so, ok, da ist jetzt, da haben wir keine Indikatoren, wir wissen nicht,
+
+00:31:53.000 --> 00:31:58.000
+ wonach wir suchen sollen und dann ist es nicht so spannend, davon gibt es relativ viel.
+
+00:31:58.000 --> 00:32:09.000
+ Wenn das Android veraltet ist, wie sehr kann man sich auf den Custom-Room verlassen?
+
+00:32:09.000 --> 00:32:17.000
+ Das ist eine sehr gute Frage, die Antwort ist leider wenig, gerade der Nachhaltigkeitsaspekt,
+
+00:32:17.000 --> 00:32:21.000
+ man liest auch oft, wenn ihr keine Updates mehr kriegt, könnt ihr ja irgendwie Lineage-Wires
+
+00:32:21.000 --> 00:32:27.000
+ installieren und dadurch das länger benutzen, das stimmt leider nur bedingt, weil du die
+
+00:32:27.000 --> 00:32:30.000
+ Betriebssystem-Updates dadurch kriegst und da werden natürlich auch Sicherheitslücken
+
+00:32:30.000 --> 00:32:37.000
+ geschlossen, aber was du nicht kriegst, sind, also in fast allen Fällen, sind Updates zu den
+
+00:32:37.000 --> 00:32:41.000
+ Treibern, weil da eigentlich, zum Beispiel wenn du einen Sock von Qualcomm kaufst, dann sagt
+
+00:32:41.000 --> 00:32:45.000
+ Qualcomm halt, wir machen drei Jahre Updates und danach ist halt nicht mehr und wenn es dann
+
+00:32:45.000 --> 00:32:51.000
+ da einen Bug gibt, dann hast du eigentlich eher, also dann steht da zwar ein Security-Update-Level
+
+00:32:51.000 --> 00:32:55.000
+ in deinen Einstellungen, aber eigentlich ist es nicht richtig da.
+
+00:32:55.000 --> 00:33:00.000
+ Hi, ich hätte auch noch eine Frage zu dem Thema, habt ihr Erfahrung mit den einzelnen
+
+00:33:00.000 --> 00:33:05.000
+ Herstellern, ob die Updates zurückhalten oder einzelne Hersteller-Updates länger ausspielen?
+
+00:33:06.000 --> 00:33:12.000
+ Also du meinst, dass ein Smartphone-Hersteller ein Update zurückhält, weil ein staatlicher
+
+00:33:12.000 --> 00:33:14.000
+ Akteur die Sicherheitslücken ausnutzen will?
+
+00:33:14.000 --> 00:33:17.000
+ Nein, also ich meine mehr, dass wenn ich jetzt zum Beispiel ein eher billiges Smartphone
+
+00:33:17.000 --> 00:33:22.000
+ kaufe, dass dann der Hersteller das Qualcomm-Update einfach nicht ausliefert, weil es teuer kostet
+
+00:33:22.000 --> 00:33:24.000
+ Geld, muss geportet werden und so weiter.
+
+00:33:24.000 --> 00:33:30.000
+ Es ist ein sehr diverser Markt und das läuft in sehr vielen Fällen relativ schlecht und
+
+00:33:30.000 --> 00:33:36.000
+ die Empirie zeigt, ich hätte das nicht gedacht, dass ich mal hier auf einer Bitz und Bäume-Bühne stehe
+
+00:33:36.000 --> 00:33:40.000
+ und Gutes über dieses Unternehmen sage, aber dass die Google macht das ziemlich gut.
+
+00:33:40.000 --> 00:33:48.000
+ Google, iPhone, Samsung, OnePlus sind glaube ich so die Spitzenreiter an "Wir liefern lange Updates".
+
+00:33:48.000 --> 00:33:57.000
+ So, gibt es weitere Fragen?
+
+00:33:59.000 --> 00:34:01.000
+ Ja, eine interessante Frage hätte ich vielleicht noch.
+
+00:34:01.000 --> 00:34:06.000
+ Ihr habt das Problem mit den freien Journalistinnen angesprochen, die ja ihre Hardware selber
+
+00:34:06.000 --> 00:34:08.000
+ managen.
+
+00:34:08.000 --> 00:34:11.000
+ Habt ihr auch mal in Internetrouter geschaut?
+
+00:34:11.000 --> 00:34:18.000
+ Also die sind ja in Deutschland überall im Einsatz und da gibt es nicht so viele Modelle,
+
+00:34:18.000 --> 00:34:24.000
+ die voneinander abweichen, weil ein Hersteller den Markt ja ganz schön dominiert und das
+
+00:34:24.000 --> 00:34:26.000
+ sehe ich persönlich immer auch als möglichen Angriffspunkt.
+
+00:34:27.000 --> 00:34:29.000
+ War schon mal irgendwie Untersuchungen unternommen?
+
+00:34:29.000 --> 00:34:38.000
+ War bis jetzt kein, also bis jetzt sind uns da keine Fälle aufgetaucht und das ist natürlich
+
+00:34:38.000 --> 00:34:43.000
+ auch deutlich weniger heiß als das Smartphone, weil das Smartphone, da ist ja typischerweise
+
+00:34:43.000 --> 00:34:45.000
+ das gesamte digitale Leben drauf.
+
+00:34:45.000 --> 00:34:49.000
+ Wenn du einen Router aufmachst, dann hast du in einem langweiligen Homesetup, hast du halt
+
+00:34:49.000 --> 00:34:55.000
+ eine Art "Man in the Middle"-Angriff und dann das ist also ganz andere Skala an Explosionen.
+
+00:34:55.000 --> 00:35:00.000
+ Ist bis jetzt uns nicht aufgetaucht, dass es da irgendwie Indikatoren für gab.
+
+00:35:00.000 --> 00:35:09.000
+ So, ich betrachte euch scharf und ziele in meinem Kopf bis drei.
+
+00:35:09.000 --> 00:35:11.000
+ Ah, Bewegungen.
+
+00:35:11.000 --> 00:35:13.000
+ Scharfes Anblicken hat geholfen.
+
+00:35:13.000 --> 00:35:18.000
+ Ich habe noch eine Frage, ja, weil ich weiß nicht, ob ihr das sagen dürft.
+
+00:35:18.000 --> 00:35:26.000
+ Gibt es jetzt gewisse Staaten, die was jetzt wohl öfters halt so Trojaner findet?
+
+00:35:26.000 --> 00:35:34.000
+ Also, ganz allgemein kann man sagen, dass die Staatstrojaner-Verteilung der Welt sehr ungleich ist.
+
+00:35:34.000 --> 00:35:36.000
+ Also das ist auch so ein bisschen so eine Sache.
+
+00:35:36.000 --> 00:35:40.000
+ Wir sind ja sitzen ja in Deutschland und was bei uns oft fällt, ist die Phrase "Deutschland ist kein
+
+00:35:40.000 --> 00:35:46.000
+ Staatstrojanerland", weil jetzt im internationalen Vergleich das doch recht selten in Deutschland
+
+00:35:46.000 --> 00:35:51.000
+ angewendet wird und passiert und in anderen Ländern sehr, sehr viel häufiger.
+
+00:35:51.000 --> 00:35:56.000
+ Das sind natürlich auch interessante Vorausbedingungen, um jetzt auf die Jagd nach
+
+00:35:56.000 --> 00:36:00.000
+ Staatstrojanern zu gehen, mit einem riesigen Dunkelfeld.
+
+00:36:00.000 --> 00:36:04.000
+ Weil du kannst also immer nur von so kleinen Dingen, wo du irgendwas gefunden hast, kannst du
+
+00:36:04.000 --> 00:36:07.000
+ ein bisschen hochschätzen sagen, ah ja, da haben wir zehn Fälle gefunden.
+
+00:36:07.000 --> 00:36:11.000
+ Aber ich glaube, alle sind sich eigentlich einig, dass das Dunkelfeld riesig ist.
+
+00:36:11.000 --> 00:36:17.000
+ Sicherlich auch bei Android-Überwachungssoftware, dass Dunkelfeld riesig ist und eigentlich hat
+
+00:36:17.000 --> 00:36:21.000
+ niemand irgendeine Ahnung und es kann auch niemand irgendeine seriöse Statistik aufstellen,
+
+00:36:21.000 --> 00:36:24.000
+ von welchen Ländern sind jetzt hier die Däulsten.
+
+00:36:24.000 --> 00:36:29.000
+ Natürlich gibt es dann Reports und dann kann man zeigen, ok, hier wurden Sachen eingesetzt.
+
+00:36:29.000 --> 00:36:33.000
+ Aber es ist sehr wahrscheinlich, dass es da draußen doch noch deutlich mehr gibt.
+
+00:36:37.000 --> 00:36:44.000
+ Hi, ich habe zwei Fragen und zwar, welcher, ihr habt ja verschiedene Hersteller wahrscheinlich
+
+00:36:44.000 --> 00:36:50.000
+ schon untersucht, könnt ihr das immer rausfinden, welcher Hersteller sozusagen, zwei Hersteller
+
+00:36:50.000 --> 00:36:54.000
+ ihr untersucht, ihr quasi findet?
+
+00:36:54.000 --> 00:37:00.000
+ Und die Anschließendfrage, welcher Hersteller, also NSO haben wir jetzt schon gehört und
+
+00:37:00.000 --> 00:37:04.000
+ ein paar andere, welcher ist der Böseste, wenn man so will?
+
+00:37:04.000 --> 00:37:14.000
+ Ja, also das, es fällt mir jetzt schwierig, die Gegend an da aufzustellen.
+
+00:37:14.000 --> 00:37:16.000
+ Der kompetenteste vielleicht?
+
+00:37:16.000 --> 00:37:19.000
+ Der gefährlichste vielleicht, ja.
+
+00:37:19.000 --> 00:37:28.000
+ Ja, ich, nee, also die sind natürlich alle schon mal auf der Internet, Anti-Internet-Freiheitsgala
+
+00:37:28.000 --> 00:37:32.000
+ schon mal ganz da oben, weil sie halten halt Sicherheitslücken zurück und die sollte es
+
+00:37:32.000 --> 00:37:37.000
+ einfach nicht geben. Ich glaube, das macht nicht so viel Sinn und auch wenn eine Firma
+
+00:37:37.000 --> 00:37:42.000
+ geschlossen wird oder wenn jetzt zum Beispiel die USA kauft nicht mehr bei NSO ein, weil
+
+00:37:42.000 --> 00:37:47.000
+ es gegen US-Staatsbürger benutzt wurde, dann kaufen die halt woanders ein, das ist im Prinzip
+
+00:37:47.000 --> 00:37:53.000
+ egal, also irgendwer baut das Zeug, wenn es Staaten gibt, die das kaufen. Und genau zur
+
+00:37:53.000 --> 00:37:59.000
+ Frage, ob man das analysieren kann, von welchem Hersteller das war, spannend ist ja vielleicht
+
+00:37:59.000 --> 00:38:03.000
+ auch welches Land hat mich gehackt, das ist eigentlich spannender als der Hersteller meistens,
+
+00:38:03.000 --> 00:38:10.000
+ glaube ich, aber das geht halt immer nur bedingt, weil natürlich kann ich ja die Spuren, die
+
+00:38:10.000 --> 00:38:15.000
+ ich hinterlasse, bewusst so legen, dass man denkt, es sei wer anders gewesen. Also zum
+
+00:38:15.000 --> 00:38:21.000
+ Beispiel kann ich ja kyrillische Zeichen irgendwie in meinem Sourcecode verwenden, das
+
+00:38:21.000 --> 00:38:25.000
+ heißt dann ja aber natürlich nicht, dass es in Russland war oder man sieht dann oft
+
+00:38:25.000 --> 00:38:32.000
+ in Reports auch, ja das wurde irgendwie zu, da war irgendwie 10 Uhr früh in dem Land, deswegen
+
+00:38:32.000 --> 00:38:35.000
+ war da Arbeitszeit und nachts wird nicht gehackt oder so, weiß ich nicht, ich muss mich hier
+
+00:38:35.000 --> 00:38:41.000
+ nur abends am Camp umgucken, ist Quatsch. Aber manchmal kann man Educated Guests geben, aber
+
+00:38:41.000 --> 00:38:48.000
+ manchmal auch nicht. Also es gibt manche Fälle, wo dann einfach Leute witzige Sachen machen,
+
+00:38:48.000 --> 00:38:52.000
+ zum Beispiel ich glaube es gab eine Situation, wo Amnesty ein Report veröffentlicht hat,
+
+00:38:52.000 --> 00:38:58.000
+ wo sie eine Liste an Domains getrackt haben und am Tag danach sind die alle offline gegangen.
+
+00:38:58.000 --> 00:39:03.000
+ So und da konnten sie dann halt durch diese Kausalikette relativ gut zeigen, okay wir haben
+
+00:39:03.000 --> 00:39:10.000
+ hier diesen Satz an Handys, die haben alle E-Mails gekriegt oder SMS gekriegt mit diesem
+
+00:39:10.000 --> 00:39:14.000
+ Link in dieser Domain und wenn die alle nach unserem Report offline gehen, dann haben wir
+
+00:39:14.000 --> 00:39:18.000
+ uns vermutlich nicht geirrt, so da kann man Glück haben, aber it depends.
+
+00:39:21.000 --> 00:39:26.000
+ Ich wollte noch fragen, Android und IOS, also Google und Apple brüsten sich ja auch damit,
+
+00:39:26.000 --> 00:39:33.000
+ Journalist*innen zu schützen und zu unterstützen und geben ja auch Forensik Toolkits raus, werdet
+
+00:39:33.000 --> 00:39:37.000
+ ihr von denen direkt unterstützt oder läuft da keine Kooperation?
+
+00:39:37.000 --> 00:39:44.000
+ Also das Problem ist, das ist eigentlich immer in einem Kräfteverhältnis zwischen Privacy
+
+00:39:44.000 --> 00:39:49.000
+ und Forensik, weil für uns natürlich teilweise es interessanter wäre, mehr Daten aus den
+
+00:39:49.000 --> 00:39:54.000
+ Geräten rauszukriegen, um besser zu verstehen, was da in der Vergangenheit passiert ist und
+
+00:39:54.000 --> 00:39:58.000
+ natürlich ist auch je mehr Daten ein Gerät aufzeichnet, was in der Vergangenheit passiert
+
+00:39:58.000 --> 00:40:04.000
+ ist, desto besser kann eine Polizei, die da Daten rauskratzt, nachvollziehen für Straferfolgung,
+
+00:40:04.000 --> 00:40:06.000
+ was in der Vergangenheit passiert ist.
+
+00:40:06.000 --> 00:40:14.000
+ Das ist so, das wird sich glaube ich nie auflösen, ich würde sagen es ist okay, obwohl wir aktuell
+
+00:40:14.000 --> 00:40:20.000
+ schon bei IOS Geräten deutlich besser in die Vergangenheit gucken können als bei Android
+
+00:40:20.000 --> 00:40:24.000
+ Geräten und da kann man natürlich hoffen, dass sich das vielleicht in Zukunft nochmal
+
+00:40:24.000 --> 00:40:32.000
+ verändert, aber da sind glaube ich noch Potenziale, dass Privacy-freundlich Daten, die sehr wenig
+
+00:40:32.000 --> 00:40:37.000
+ mit Nutzungsverhalten zu tun haben, aber sehr interessant sind für eventuelle Kompromittierungen,
+
+00:40:37.000 --> 00:40:39.000
+ die irgendwie länger aufzuheben.
+
+00:40:40.000 --> 00:40:44.000
+ Also was es gibt, wo man sich bei Apple für bedanken kann, ist der Lockdown-Mode bei iPhones.
+
+00:40:44.000 --> 00:40:46.000
+ Wenn man ein iPhone hat, macht das an.
+
+00:40:46.000 --> 00:40:53.000
+ Also man hat oft bei, wenn man Apps oder Betriebssystem entwickelt, so eine Entscheidung, die man treffen
+
+00:40:53.000 --> 00:41:00.000
+ muss zwischen Sicherheit und Schnelligkeit oder komfortablen Sachen und zum Beispiel
+
+00:41:00.000 --> 00:41:06.000
+ der Just-in-Time-JavaScript-Compiler im Browser auf iPhones wird dann deaktiviert, dadurch
+
+00:41:06.000 --> 00:41:11.000
+ laden Webseiten ein bisschen langsamer, aber man hat deutlich weniger Angrifsoberfläche
+
+00:41:11.000 --> 00:41:16.000
+ und was Apple auch schon gemacht hat, ist, dass sie bei iPhones die Lockdown-Mode enabled
+
+00:41:16.000 --> 00:41:21.000
+ hatten, die Leute informiert haben, als sie dann mitbekommen haben, dass jemand versucht
+
+00:41:21.000 --> 00:41:26.000
+ hat, einen Exploit einzusetzen, der dann fehlgeschlagen ist und das natürlich super, weil dann können
+
+00:41:26.000 --> 00:41:29.000
+ die Leute sagen, oh ich gehe zu Reporter ohne Grenzen und die machen dann eine forensische
+
+00:41:29.000 --> 00:41:32.000
+ Analyse und können mir genau sagen, was ist passiert.
+
+00:41:35.000 --> 00:41:40.000
+ Wir wissen ja alle, man soll nicht einfach irgendwas aus dem Internet aus seinem Gerät installieren.
+
+00:41:40.000 --> 00:41:45.000
+ Jetzt ist aber auch so Dinge, die wir jetzt häufig viel besser halten, so was wie der
+
+00:41:45.000 --> 00:41:49.000
+ F-Droid-Store, letztlich was, wo irgendjemand Dinge hoch lädt, seien wir ehrlich, wer liest
+
+00:41:49.000 --> 00:41:56.000
+ schon den ganzen Quellcode, wie sehr ist das etwas, das genutzt wird oder etwas, dass man,
+
+00:41:56.000 --> 00:42:01.000
+ also ich installiere manchmal schon so fröhlich drauf los aus dem F-Droid-Store und ich glaube,
+
+00:42:01.000 --> 00:42:07.000
+ ich bin nicht alleine. Ist das etwas, wo man vorsichtig sein muss oder ist, keine Ahnung,
+
+00:42:07.000 --> 00:42:09.000
+ die offizielle Store immer noch gefährlicher?
+
+00:42:09.000 --> 00:42:13.000
+ Ich würde nur kurz reingreischen, um zu sagen, dass wir die drei Personen, die da stehen, noch
+
+00:42:13.000 --> 00:42:17.000
+ abarbeiten und ansonsten die Fragerunde schließen.
+
+00:42:17.000 --> 00:42:25.000
+ Ich glaube, da sind wir fast nicht die ganz richtigen für diese Frage. Das ist ja eher
+
+00:42:25.000 --> 00:42:31.000
+ eine sehr allgemeine Frage, die schon länger diskutiert wird, wer liest wirklich Sourcecode
+
+00:42:31.000 --> 00:42:35.000
+ von Open Source Apps und wenn wir dann gerne sagen, ja, da könnte man dann die Sourcecode
+
+00:42:35.000 --> 00:42:40.000
+ lesen und findet die Sicherheitslücken. In der Praxis passiert das ja teilweise dann auch
+
+00:42:40.000 --> 00:42:45.000
+ nicht. Ich glaube, Heartbleed war so ein großes Beispiel, wo irgendwie der Bug da eigentlich
+
+00:42:45.000 --> 00:42:51.000
+ jahrelang eben im öffentlichen Sourcecode war und dann hat halt keiner gefunden. Also du
+
+00:42:51.000 --> 00:42:59.000
+ hast natürlich trotzdem App-Sandboxes auf Android zum Beispiel. Aber wenn wir uns so
+
+00:42:59.000 --> 00:43:05.000
+ im Bereich Journalismus umgucken, dann muss man auch sagen, es wird wenig Open Source
+
+00:43:05.000 --> 00:43:12.000
+ Software eingesetzt, so von Anwendungssoftware. Ja, genau, es gibt Leute, keine Ahnung,
+
+00:43:12.000 --> 00:43:18.000
+ die benutzen Outlook, haben die Adobe Suite, um irgendwie Layout zu machen, wie man sich
+
+00:43:18.000 --> 00:43:28.000
+ das so vorstellen. Ja, hallo. Soweit ich informiert bin, ist Journalismus oder Medien in Deutschland
+
+00:43:28.000 --> 00:43:35.000
+ ja kritis und damit ab einer bestimmten Größe reguliert, oder? Okay, ich wollte fragen, was
+
+00:43:35.000 --> 00:43:41.000
+ aus regulatorischer Sicht, ob das eher das, was bisher läuft, ob ihr das für hilfreich
+
+00:43:41.000 --> 00:43:47.000
+ haltet und ich meine, es gibt viele kleine, also die überwiegende Anzahl an Medienunternehmen
+
+00:43:47.000 --> 00:43:53.000
+ werden, irgendwelche kleinen Zeitungen, Radiosender, was weiß ich was sein oder eben ein Heerscharen
+
+00:43:53.000 --> 00:44:00.000
+ von freien Journalist*innen, da greift das vermutlich nicht. Also regulatorisch habt
+
+00:44:00.000 --> 00:44:06.000
+ ihr, habt ihr euch damit beschäftigt, was es gibt und was es geben sollte, könnte und ob
+
+00:44:06.000 --> 00:44:11.000
+ das hilfreich ist? Also das ist auch nicht unser Scope. Also da wirst du ein großes Unternehmen
+
+00:44:11.000 --> 00:44:15.000
+ mit einer großen IT und dann ist ja im Prinzip egal, ob du Journalismus machst oder was
+
+00:44:15.000 --> 00:44:27.000
+ anderes. Wir sind mehr auf diesen Einzelgeräte, Zero Days, sowas unterwegs und ja. Es schien
+
+00:44:27.000 --> 00:44:32.000
+ vorher so, als wenn ihr sagt, Freie sind meistens miserabel geschützt und Festangestellte
+
+00:44:32.000 --> 00:44:37.000
+ ziemlich gut. Ich habe beide Hüte auf, ich bin mal frei und mal auch Festangestellt und
+
+00:44:37.000 --> 00:44:43.000
+ mein Gefühl ist, dass ich in meinem Festangestelltenverhältnis angreifbarer bin, weil ich doch auch abhängig
+
+00:44:43.000 --> 00:44:48.000
+ bin von dem Sicherheitsverhalten meiner Kolleginnen und Kollegen und auch davon, ob die IT, also
+
+00:44:48.000 --> 00:44:52.000
+ die Erfahrung ist, IT in großen Häusern reagiert halt auch extrem langsam, wenn man sagt, hier
+
+00:44:52.000 --> 00:44:57.000
+ ist irgendwas komisch. Also da muss man schon echt hinterher sein. Habt ihr sowas mit berücksichtigt
+
+00:44:57.000 --> 00:45:02.000
+ in dieser Analyse oder also würdet ihr tatsächlich sagen, Freie sind schlechter geschützt? Also
+
+00:45:02.000 --> 00:45:08.000
+ das in einer Absolutheit hier zu sagen, würde ich mich niemals trauen. Das sind mehr so
+
+00:45:08.000 --> 00:45:13.000
+ Erfahrungswerte von Dingen, die häufiger mal passiert. Natürlich ist das viel komplexer als so
+
+00:45:13.000 --> 00:45:18.000
+ pauschal zu sagen, das ist so, das ist so. Die IT in einem großen Haus, die kann richtig gut
+
+00:45:18.000 --> 00:45:23.000
+ sein, die kann auch schlecht sein. Einzelpersonen können richtig gut wissen, was sie tun.
+
+00:45:23.000 --> 00:45:28.000
+ Einzelpersonen können ein zehn Jahre altes Android-Handy benutzen. Oder andersrum gefragt,
+
+00:45:28.000 --> 00:45:32.000
+ habt ihr, ihr seht ja auch Fälle, dass eben Angriffe durch ein Netzwerk von dem Unternehmen
+
+00:45:32.000 --> 00:45:36.000
+ kommen und dann bei einem Einzelnen raus oder ist das wirklich eher so mein Handy ist im Fokus
+
+00:45:36.000 --> 00:45:43.000
+ und egal, ob ich das privat habe oder über ein Verlag, wird halt nur daran gearbeitet?
+
+00:45:43.000 --> 00:45:50.000
+ Also mir wären jetzt keine Fälle und Angriffe der letzten Zeit bekannt, wo über ein Angriff
+
+00:45:50.000 --> 00:45:57.000
+ auf das Gesamtnetzwerk dann Zugriff auf Daten, die eigentlich nur auf einem einzelnen Geräte
+
+00:45:57.000 --> 00:46:02.000
+ liegen sollten, passiert sind. Okay, danke. Dann verändert sich mein Gefühl vielleicht.
+
+00:46:02.000 --> 00:46:09.000
+ Vielen Dank. Gut, dann vielen Dank. Unsere Zeit hier ist abgelaufen. Bitte nochmal einen
+
+00:46:09.000 --> 00:46:12.000
+ herzlichen Applaus für unsere beiden Speaker, Victor und Janik.
+
+00:46:12.000 --> 00:46:19.000
+ [Applaus]
+
+00:46:20.000 --> 00:46:24.000
+ [Musik]
+

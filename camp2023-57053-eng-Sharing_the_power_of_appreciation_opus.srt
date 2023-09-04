@@ -1,0 +1,872 @@
+1
+00:00:00,000 --> 00:00:29,960
+ [MUSIC]
+
+2
+00:00:29,960 --> 00:00:34,080
+ >> Our next talk is starting now if anyone wants to join us.
+
+3
+00:00:34,080 --> 00:00:40,120
+ There is, it's a bad omen for appreciation talk that nobody's here.
+
+4
+00:00:40,120 --> 00:00:41,200
+ >> I was alright.
+
+5
+00:00:41,200 --> 00:00:44,360
+ >> Maybe we can run around and tell people to come appreciate.
+
+6
+00:00:44,360 --> 00:00:47,560
+ Dario, come here and listen to the talk.
+
+7
+00:00:47,560 --> 00:00:53,200
+ Okay. I am introducing you nevertheless,
+
+8
+00:00:53,200 --> 00:00:56,720
+ and I hope that more people join us in the course of next 15 minutes.
+
+9
+00:00:56,720 --> 00:00:59,680
+ This is Bonnie from the Free Software Foundation Europe.
+
+10
+00:00:59,680 --> 00:01:03,960
+ She's talking about sharing the power of appreciation. Thank you.
+
+11
+00:01:03,960 --> 00:01:09,720
+ >> Thank you. Hi. Thank you.
+
+12
+00:01:09,720 --> 00:01:13,840
+ I'm here today to talk to you about sharing the power for appreciation,
+
+13
+00:01:13,840 --> 00:01:16,280
+ and of course, the I Love Free Software Day.
+
+14
+00:01:16,280 --> 00:01:22,440
+ First of all, I would like to say that this is one of my favorite, most favorites.
+
+15
+00:01:22,440 --> 00:01:24,840
+ My English is not always perfect,
+
+16
+00:01:24,840 --> 00:01:28,680
+ but it's like the initiative that I like the most because
+
+17
+00:01:28,680 --> 00:01:31,120
+ there are several reasons for it which I will go
+
+18
+00:01:31,120 --> 00:01:36,200
+ through with you in the next 10-15 minutes.
+
+19
+00:01:36,200 --> 00:01:39,120
+ Those reasons are, first of all,
+
+20
+00:01:39,120 --> 00:01:43,840
+ I will talk to you about what it is that makes the Free Software Day,
+
+21
+00:01:43,840 --> 00:01:46,640
+ and that's the power behind this day.
+
+22
+00:01:46,640 --> 00:01:50,000
+ Then what is actually happening on this day?
+
+23
+00:01:50,000 --> 00:01:52,040
+ What are we supposed to do?
+
+24
+00:01:52,040 --> 00:01:55,600
+ How can we share our appreciation?
+
+25
+00:01:55,600 --> 00:02:01,760
+ How can we reach out to others and let them know that we are a positive and welcoming community?
+
+26
+00:02:01,760 --> 00:02:05,360
+ Why do we need something like the I Love Free Software Day?
+
+27
+00:02:05,360 --> 00:02:09,480
+ Of course, nevertheless, how do we celebrate it actually?
+
+28
+00:02:09,480 --> 00:02:13,800
+ Those are the points that I would like to introduce to you.
+
+29
+00:02:13,800 --> 00:02:17,160
+ First of all, I take you back on a journey.
+
+30
+00:02:17,160 --> 00:02:20,480
+ It's like a quick time travel back to 2010.
+
+31
+00:02:20,480 --> 00:02:22,160
+ It's like 13 years ago,
+
+32
+00:02:22,160 --> 00:02:24,680
+ and it was a very small initiative at the beginning.
+
+33
+00:02:24,680 --> 00:02:29,240
+ It was an idea that popped up in the FSFE
+
+34
+00:02:29,240 --> 00:02:33,960
+ about how can we make the Free Software communities more positive?
+
+35
+00:02:33,960 --> 00:02:37,240
+ How can we share appreciation for free software?
+
+36
+00:02:37,240 --> 00:02:42,040
+ How can we reach out to those people who are contributing to free software,
+
+37
+00:02:42,040 --> 00:02:44,880
+ make them seen by others so that others know,
+
+38
+00:02:44,880 --> 00:02:49,440
+ "Oh my God, it's not only developers who are doing something for free software.
+
+39
+00:02:49,440 --> 00:02:51,280
+ There are so many people in it."
+
+40
+00:02:51,280 --> 00:02:54,520
+ For this, we chose the Valentine's Day.
+
+41
+00:02:54,520 --> 00:03:01,040
+ I know it's several months before the Valentine's Day,
+
+42
+00:03:01,040 --> 00:03:06,080
+ and I know that the feeling for Valentine's Day is not yet there,
+
+43
+00:03:06,080 --> 00:03:10,920
+ and that it will pop up in February or early February.
+
+44
+00:03:10,920 --> 00:03:13,960
+ But still, it's a nice setting,
+
+45
+00:03:13,960 --> 00:03:17,480
+ and we are already in this mood for sharing our love,
+
+46
+00:03:17,480 --> 00:03:21,080
+ sharing appreciation for those people that we like and love.
+
+47
+00:03:21,080 --> 00:03:23,360
+ Why couldn't we do that for free software as well?
+
+48
+00:03:23,360 --> 00:03:26,880
+ Why couldn't we do it for something that we care so deeply about?
+
+49
+00:03:26,880 --> 00:03:30,640
+ Because free software is not only a software that we use,
+
+50
+00:03:30,640 --> 00:03:33,800
+ but it's something that empowers us,
+
+51
+00:03:33,800 --> 00:03:39,240
+ that gives us the power to use, study, share, and improve.
+
+52
+00:03:39,240 --> 00:03:44,200
+ So it's something that we thought might be a very good day for this.
+
+53
+00:03:44,200 --> 00:03:48,200
+ And that's how it all started 13 years ago.
+
+54
+00:03:48,200 --> 00:03:50,200
+ So what is this all about?
+
+55
+00:03:50,200 --> 00:03:54,200
+ Each year on the 14th of February, we share our love, appreciation,
+
+56
+00:03:54,200 --> 00:03:57,680
+ and gratitude for all those people contributing to free software.
+
+57
+00:03:57,680 --> 00:04:01,640
+ So as I said, it's not only developers, it's translators as well.
+
+58
+00:04:01,640 --> 00:04:03,640
+ It's those who do this design.
+
+59
+00:04:03,640 --> 00:04:06,440
+ So there are so many people involved in free software projects,
+
+60
+00:04:06,440 --> 00:04:10,280
+ and it's nice to highlight them and to say thank you,
+
+61
+00:04:10,280 --> 00:04:16,440
+ and to reach out to them and let them be seen by others.
+
+62
+00:04:16,440 --> 00:04:18,440
+ How do you do that?
+
+63
+00:04:18,440 --> 00:04:21,200
+ You can do this on social networks, of course,
+
+64
+00:04:21,200 --> 00:04:24,280
+ and highlight free software projects or contribute to those.
+
+65
+00:04:24,280 --> 00:04:27,280
+ And you can, of course, also do offline actions,
+
+66
+00:04:27,280 --> 00:04:30,960
+ with sending postcards, organizing events or meetups.
+
+67
+00:04:30,960 --> 00:04:33,680
+ And most importantly, you can donate money to them.
+
+68
+00:04:33,680 --> 00:04:36,440
+ Free software projects are worth something,
+
+69
+00:04:36,440 --> 00:04:39,520
+ and they are not only worth our time, they are also worth some money.
+
+70
+00:04:39,520 --> 00:04:44,320
+ And it's nice to think about free software
+
+71
+00:04:44,320 --> 00:04:47,000
+ as something that we can participate in
+
+72
+00:04:47,000 --> 00:04:51,640
+ and that we have the power to be part of.
+
+73
+00:04:51,640 --> 00:04:53,640
+ So that's what's happening on this day.
+
+74
+00:04:53,640 --> 00:04:56,800
+ That's why I think this day is very important.
+
+75
+00:04:56,800 --> 00:05:01,120
+ And now to the point, why do I think it's so important?
+
+76
+00:05:01,120 --> 00:05:02,840
+ Everybody appreciates a thank you.
+
+77
+00:05:02,840 --> 00:05:04,840
+ It's not only me who appreciates a thank you,
+
+78
+00:05:04,840 --> 00:05:06,840
+ it's everybody in this room here as well.
+
+79
+00:05:06,840 --> 00:05:10,240
+ It's like a nice thing to say thank you once a time.
+
+80
+00:05:10,240 --> 00:05:13,920
+ And also, as you probably know, in free software communities,
+
+81
+00:05:13,920 --> 00:05:16,640
+ we do not always have the nicest tone.
+
+82
+00:05:16,640 --> 00:05:19,600
+ We are sometimes like, "Why do you create this issue?
+
+83
+00:05:19,600 --> 00:05:20,600
+ Look up the doku."
+
+84
+00:05:20,600 --> 00:05:25,680
+ And it's not always very easy to take part in free software projects
+
+85
+00:05:25,680 --> 00:05:30,520
+ and to feel like the work that you're contributing to those projects
+
+86
+00:05:30,520 --> 00:05:32,160
+ is actually valued.
+
+87
+00:05:32,160 --> 00:05:38,680
+ So we should create a more positive and welcoming communities.
+
+88
+00:05:38,680 --> 00:05:41,720
+ And I do think that by saying thank you, we start something.
+
+89
+00:05:41,720 --> 00:05:45,480
+ We can motivate others to contribute, to keep doing this.
+
+90
+00:05:45,480 --> 00:05:50,160
+ Because if I say thank you to you, it's not like I'm just saying,
+
+91
+00:05:50,160 --> 00:05:54,320
+ "Hi, and good that you do that," whatever, continue.
+
+92
+00:05:54,320 --> 00:05:56,880
+ It's like, "I'm really appreciating what you're doing."
+
+93
+00:05:56,880 --> 00:05:58,880
+ So it's motivating.
+
+94
+00:05:58,880 --> 00:06:04,000
+ It also acknowledges the work that we are doing for this project.
+
+95
+00:06:04,000 --> 00:06:06,480
+ And it should be more than just some words.
+
+96
+00:06:06,480 --> 00:06:09,000
+ It should be very nice and...
+
+97
+00:06:13,000 --> 00:06:16,480
+ Now I'm thrown off at the time, I'm sorry.
+
+98
+00:06:16,480 --> 00:06:21,160
+ It should be nice and it should be valuing those people who are contributing.
+
+99
+00:06:21,160 --> 00:06:23,520
+ So we do raise awareness with the say as well,
+
+100
+00:06:23,520 --> 00:06:28,480
+ because a lot is happening on the social media networks with this.
+
+101
+00:06:28,480 --> 00:06:32,680
+ And people do see free software communities, free software projects
+
+102
+00:06:32,680 --> 00:06:35,560
+ that they might not have heard of before.
+
+103
+00:06:35,560 --> 00:06:39,560
+ So it's like we are also reaching out to other free software communities
+
+104
+00:06:39,560 --> 00:06:41,840
+ that we have not been in contact with before.
+
+105
+00:06:41,840 --> 00:06:46,280
+ For example, we had one of those I Love Free Software days about free software games.
+
+106
+00:06:46,280 --> 00:06:52,040
+ I'm not a big gamer and I never hear anything about
+
+107
+00:06:52,040 --> 00:06:54,640
+ all those things that are needed for free software games.
+
+108
+00:06:54,640 --> 00:07:00,640
+ It was a nice opportunity for us to connect more free software projects
+
+109
+00:07:00,640 --> 00:07:06,120
+ with each other and to create a welcoming and nice community.
+
+110
+00:07:06,120 --> 00:07:08,160
+ So this is also what we are doing with this day.
+
+111
+00:07:08,160 --> 00:07:12,640
+ We are raising awareness for the various free software communities out there,
+
+112
+00:07:12,640 --> 00:07:14,400
+ for free software itself.
+
+113
+00:07:14,400 --> 00:07:16,720
+ We can talk to other people, we can organize events,
+
+114
+00:07:16,720 --> 00:07:22,080
+ we can contact people that might be in the hack space,
+
+115
+00:07:22,080 --> 00:07:24,720
+ but have not yet heard so much about free software and say,
+
+116
+00:07:24,720 --> 00:07:27,720
+ "Hey, come on this day, let's share our knowledge,
+
+117
+00:07:27,720 --> 00:07:29,720
+ let's share our appreciation for free."
+
+118
+00:07:29,720 --> 00:07:33,020
+ free software.
+
+119
+00:07:33,020 --> 00:07:36,940
+ And of course, as I said before, I can't say it more often because it's very important
+
+120
+00:07:36,940 --> 00:07:40,920
+ for me to create a positive and welcoming community that appreciates the work that's
+
+121
+00:07:40,920 --> 00:07:49,220
+ done for free software projects and not only focusing on the negative but also on the positive.
+
+122
+00:07:49,220 --> 00:07:51,500
+ So how do we celebrate Dialogue Free Software Day?
+
+123
+00:07:51,500 --> 00:07:57,060
+ I have already given some examples, like the one with the free software games events that
+
+124
+00:07:57,060 --> 00:07:59,860
+ we organised, but there are more.
+
+125
+00:07:59,860 --> 00:08:05,620
+ So a few years ago, quite some years ago, we did, for example, send a lot of roses
+
+126
+00:08:05,620 --> 00:08:14,140
+ to every member of the German parliament attached with an open letter to, well, how
+
+127
+00:08:14,140 --> 00:08:21,580
+ to put it nicely, to basically make them aware of free software and to give the hint that
+
+128
+00:08:21,580 --> 00:08:28,340
+ it might be a cool thing to also do some more work for or to focus on free software and
+
+129
+00:08:28,340 --> 00:08:29,940
+ politics as well.
+
+130
+00:08:29,940 --> 00:08:32,780
+ So this was done by the Free Software Foundation in Europe.
+
+131
+00:08:32,780 --> 00:08:38,020
+ It was a lot of work because, as you can imagine, there are a lot of people in the German parliament,
+
+132
+00:08:38,020 --> 00:08:42,380
+ but it was worth our time because you get in contact with them, they are happy that
+
+133
+00:08:42,380 --> 00:08:47,820
+ you sent them a rose, like it's a very nice thing, and they also get some information
+
+134
+00:08:47,820 --> 00:08:50,340
+ about free software attached with the rose.
+
+135
+00:08:50,340 --> 00:08:55,800
+ So this was one of the events that has happened on the Dialogue Free Software Day.
+
+136
+00:08:55,800 --> 00:08:58,700
+ But also others are contributing to the state.
+
+137
+00:08:58,700 --> 00:09:03,980
+ This is Salando organising a panel for the Dialogue Free Software Day in 2019.
+
+138
+00:09:03,980 --> 00:09:07,740
+ Salando is doing a lot of work for open source, but this is not the point.
+
+139
+00:09:07,740 --> 00:09:11,540
+ They are also, like there are a lot of people out there, it's not only the Free Software
+
+140
+00:09:11,540 --> 00:09:17,180
+ Foundation Europe who are participating in the Dialogue Free Software Day, also companies.
+
+141
+00:09:17,180 --> 00:09:24,140
+ And some more recent examples, we have also made it easier for you by creating a share
+
+142
+00:09:24,140 --> 00:09:30,660
+ pick generator that you can use to share your love for free software very easily.
+
+143
+00:09:30,660 --> 00:09:35,940
+ So this was also done by one of our volunteers who wanted to make the Dialogue Free Software
+
+144
+00:09:35,940 --> 00:09:43,300
+ Day more accessible and more easy to attach a nice picture, a message by sharing a share
+
+145
+00:09:43,300 --> 00:09:46,740
+ pick on your favourite social media.
+
+146
+00:09:46,740 --> 00:09:52,460
+ And of course, we also sent a lot of postcards to a lot of free software projects that we
+
+147
+00:09:52,460 --> 00:09:55,740
+ liked or that we appreciated in the team.
+
+148
+00:09:55,740 --> 00:09:58,380
+ And yeah, say it, thank you to them.
+
+149
+00:09:58,380 --> 00:10:04,900
+ So it was quite a nice action, but it was a lot of writing, and I do think it was great
+
+150
+00:10:04,900 --> 00:10:06,620
+ fun in the office.
+
+151
+00:10:06,620 --> 00:10:08,940
+ So yeah.
+
+152
+00:10:08,940 --> 00:10:11,380
+ And of course others are also participating.
+
+153
+00:10:11,380 --> 00:10:14,320
+ As I said before, it's also other organisations.
+
+154
+00:10:14,320 --> 00:10:18,640
+ This is for example from this year's I Love Free Software Day and the share pick generator
+
+155
+00:10:18,640 --> 00:10:21,200
+ idea picked up quite good.
+
+156
+00:10:21,200 --> 00:10:25,160
+ So others are doing this now as well, different designs of course.
+
+157
+00:10:25,160 --> 00:10:27,020
+ And also participating.
+
+158
+00:10:27,020 --> 00:10:32,200
+ There's also a lot of other organisations who participate in this day very constantly
+
+159
+00:10:32,200 --> 00:10:33,280
+ every year.
+
+160
+00:10:33,280 --> 00:10:38,940
+ So it's something that's already quite established, but I still notice that a lot of people have
+
+161
+00:10:38,940 --> 00:10:46,500
+ not yet heard so much about it or thought about why they should participate personally.
+
+162
+00:10:46,500 --> 00:10:51,300
+ And of course we also organised meet ups and make it possible, especially after all those
+
+163
+00:10:51,300 --> 00:10:53,380
+ times where we had to stay apart.
+
+164
+00:10:53,380 --> 00:10:58,460
+ And it was quite a nice thing to meet people who are contributing to free software.
+
+165
+00:10:58,460 --> 00:11:03,500
+ This can also be a good thing to actually start projects again or to keep working on
+
+166
+00:11:03,500 --> 00:11:08,860
+ them because maybe you have also noticed not sitting in the hack space or not meeting up
+
+167
+00:11:08,860 --> 00:11:14,160
+ with your peers can be demotivating sometimes for programming, so this day can also be an
+
+168
+00:11:14,160 --> 00:11:21,140
+ option for you to restart something and to continue working on it.
+
+169
+00:11:21,140 --> 00:11:26,500
+ So what are we going to do for the next I Love Free Software Day?
+
+170
+00:11:26,500 --> 00:11:34,620
+ The next one will be focusing on organising workshops, meet ups in our local library,
+
+171
+00:11:34,620 --> 00:11:35,620
+ youth clubs, etc.
+
+172
+00:11:35,620 --> 00:11:40,980
+ So it's more about going outside of our realm and reaching out to other people who are not
+
+173
+00:11:40,980 --> 00:11:46,260
+ yet contributing to free software projects or who are not yet part of the free software
+
+174
+00:11:46,260 --> 00:11:49,940
+ communities and letting them know about free software.
+
+175
+00:11:49,940 --> 00:11:54,020
+ This day is supposed to be a day where we share our love for free software, where we
+
+176
+00:11:54,020 --> 00:12:00,220
+ share our appreciation and where we also raise awareness for free software projects.
+
+177
+00:12:00,220 --> 00:12:02,900
+ So that's the idea for the next I Love Free Software Day.
+
+178
+00:12:02,900 --> 00:12:09,980
+ As I said before, it's an initiative that lives by other people, so we can't do this on our
+
+179
+00:12:09,980 --> 00:12:10,980
+ own.
+
+180
+00:12:10,980 --> 00:12:16,060
+ We need you to participate in this day because if we only say thank you, then it's very nice
+
+181
+00:12:16,060 --> 00:12:21,620
+ and others are happy about this, yes, of course, but it's also nice to hear thank you from
+
+182
+00:12:21,620 --> 00:12:26,680
+ others as well and it's also nice if more people participate and share their appreciation
+
+183
+00:12:26,680 --> 00:12:32,740
+ and love for free software and create welcoming communities.
+
+184
+00:12:32,740 --> 00:12:39,340
+ So it's about spreading the word for free software, showing your love for free software,
+
+185
+00:12:39,340 --> 00:12:45,420
+ and being part of the I Love Free Software Day and the free software movement.
+
+186
+00:12:45,420 --> 00:12:51,620
+ And of course, most importantly, say thank you to other free software projects.
+
+187
+00:12:51,620 --> 00:13:01,020
+ So I think I put it all in there and I'm happy to take your questions if you have some.
+
+188
+00:13:01,020 --> 00:13:09,460
+ Contribute, spread the word, donate with time or money and yeah, we are over there at FSFE
+
+189
+00:13:09,460 --> 00:13:18,460
+ booth so you can also visit us there if you want.
+
+190
+00:13:18,460 --> 00:13:19,460
+ Thank you, Borne, for the talk.
+
+191
+00:13:19,460 --> 00:13:21,220
+ Are there any questions?
+
+192
+00:13:21,220 --> 00:13:30,860
+ How many of the members of the German Parliament replied and how?
+
+193
+00:13:30,860 --> 00:13:35,220
+ This is so many years ago that I can't tell you anymore.
+
+194
+00:13:35,220 --> 00:13:38,140
+ I'm so sorry.
+
+195
+00:13:38,140 --> 00:13:44,020
+ I will try to find out and I will look it up, okay?
+
+196
+00:13:44,020 --> 00:13:51,820
+ Are there any more questions?
+
+197
+00:13:51,820 --> 00:13:54,060
+ I mean it was pretty straightforward.
+
+198
+00:13:54,060 --> 00:13:57,420
+ I do think so as well.
+
+199
+00:13:57,420 --> 00:14:02,540
+ As I said before, it's an important initiative for me.
+
+200
+00:14:02,540 --> 00:14:03,780
+ I think it's a very nice thing.
+
+201
+00:14:03,780 --> 00:14:09,220
+ I also think it's something that we should not only do once a year but keep doing and
+
+202
+00:14:09,220 --> 00:14:14,380
+ it's something that we should keep in mind the whole time when we are communicating with
+
+203
+00:14:14,380 --> 00:14:18,220
+ other people who are contributing to free software projects.
+
+204
+00:14:18,220 --> 00:14:20,980
+ Maybe you want to say something about the stickers and the postcards which are down
+
+205
+00:14:20,980 --> 00:14:21,980
+ there.
+
+206
+00:14:21,980 --> 00:14:22,980
+ Oh yeah, that's a good idea.
+
+207
+00:14:22,980 --> 00:14:28,260
+ We have some stickers, postcards and yeah, you can use them to share your love for free
+
+208
+00:14:28,260 --> 00:14:29,260
+ software.
+
+209
+00:14:29,260 --> 00:14:32,900
+ You can also send those postcards to other free software contributors and don't forget
+
+210
+00:14:32,900 --> 00:14:34,740
+ there's the cows post.
+
+211
+00:14:34,740 --> 00:14:39,540
+ So you can even send them on the camp here and reach out to your favorite free software
+
+212
+00:14:39,540 --> 00:14:43,980
+ project here and let them know that you really appreciate them and that you think they are
+
+213
+00:14:43,980 --> 00:14:47,540
+ doing great work and say thank you.
+
+214
+00:14:47,540 --> 00:14:48,540
+ Good idea.
+
+215
+00:14:48,540 --> 00:14:50,500
+ Thank you for being here.
+
+216
+00:14:50,500 --> 00:14:50,820
+ Thank you.
+
+217
+00:14:50,820 --> 00:14:53,740
+ [Applause]
+
+218
+00:14:54,460 --> 00:14:59,340
+ [Music]
+

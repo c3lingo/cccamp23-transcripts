@@ -1,0 +1,1205 @@
+ [Musik]
+ Damit können wir dann noch anfangen mit Tim und Linus mit Lockbruch Netzpolitik.
+ [Applaus]
+ Das würde ich noch zeigen, ja.
+ [Lachen]
+ So.
+ [Musik]
+ Das könnte sogar funktionieren.
+ Gucken wir mal.
+ Ihr hättet doch so einen Soundcheck.
+ Ja, ja, ja.
+ Haben wir alles...
+ [Husten]
+ Gut?
+ Gut, gut.
+ [Husten]
+ Guten Morgen, Linus.
+ Guten Morgen, Tim.
+ Sag mal, wie findest du eigentlich Österreich?
+ [Lachen]
+ Auf einer Karte müsste ich suchen.
+ [Musik]
+ Lockbruch Netzpolitik Nummer 466 vom 17. August 2023 live vom Chaos Communication Camp 2023 in Mildenberg.
+ Wir sagen Hallo, herzlich willkommen. Viele Gäste, seid willkommen.
+ [Applaus]
+ Und ich meine, warst du schon mal da?
+ Österreich?
+ Ja, ja. Also ein Flugzeug fliegt da eigentlich zielstrebig hin.
+ Und wie hast du es so gefunden, als du es gefunden hast?
+ Ich war ja immer nur in Wien.
+ Oder war ich mal woanders? Salzburg und Österreich?
+ Ja, da war ich auch.
+ Das war's. Salzburg und Wien, echt?
+ Ja. Gibt es noch mehr in Österreich?
+ Ja.
+ Was denn?
+ Graz.
+ Da war ich nicht.
+ Da gibt es Kürbiskernöl. Das machen die auf alles. Auf Eis, auf Steak, auf Fisch, auf deine Kartoffeln. Die kippen dir das wahrscheinlich sogar noch in die Cola, wenn du nicht aufpasst.
+ Also...
+ Das ist echt wahr.
+ Fandest du gut da?
+ Ich habe das übernommen, aber ansonsten ist alles sehr hübsch da. Also ich kann nicht klagen.
+ Und ich war auch schon mal in Linz. Linz ist auch sehr schön.
+ Da ist dieses Kunstding.
+ Genau. AAS Elektronika.
+ Ja, ja.
+ Da habe ich schon mal ein Pokal eingesammelt.
+ Pokal für die... wie hieß die nochmal?
+ Die Goldenen Nika.
+ Für das Lebenswerk, aber nicht meins.
+ So weit ist es noch nicht.
+ Nee, für die CCC. Der hat nämlich da die Goldenen Nika bekommen für sein Gesamtwirken.
+ Ja. Die stand dann jahrelang in der Metaebene.
+ Nee, die stand nicht jahrelang in der Metaebene. Die steht immer noch in der Metaebene.
+ Weil natürlich der Rest des Hoffens davon nie so richtig Notiz genommen hat. Und ich immer Angst hatte, dass wenn das jetzt irgendwo im Club steht, dass das dann einfach bei irgendeiner Aufraumaktion wegkommt.
+ Oder LED es irgendwo dran macht oder...
+ Dann würde noch keiner zurückhaben.
+ Das ist für mich so ein bisschen ein Ausgleich. Also so habe ich dann zumindest das Gefühl, ich hätte mal einen Preis gewonnen.
+ Hab ich noch keinen Preis. Hast du schon mal einen Preis gewonnen?
+ Ich habe in der Schule mal bei so einem Zeichenwettbewerb gewonnen.
+ Ach, was hast du gemalt?
+ Ähm...
+ Kopflose Leute, die sich mit Baseballschlägern hauen.
+ Dafür hast du einen Preis bekommen?
+ Ja, es war Comics gegen Gewalt.
+ Hast du so eine Woche keine Schule oder so?
+ Nee, ein Scanner. Ich habe einen Scanner bekommen.
+ Das habe ich noch für Preise. Das ist für überlegen.
+ Na ja, okay, gut.
+ Die anderen Preise sind uncool.
+ Wir werden gleich viel über Österreich reden. Bevor wir über Österreich reden, müssen wir vielleicht noch mal kurz hier was zum Kontext sagen.
+ Das ist das Communication Camp. Wir haben es ja schon erwähnt. Das gibt es alle vier Jahre. So auch dieses Jahr. Es ist ein weiteres Mal in Mildenberg.
+ Es ist sehr bunt, oder? Das kann man auf jeden Fall schon mal festhalten, Linus. Du musst mir jetzt zustimmen.
+ Ja, es ist bunt.
+ Was guckst du so?
+ Haben wir was Falsches gesagt?
+ Es ist bunt.
+ Also es steht vollkommen aus der Frage, ob es bunt ist. Genau. Du hast auch schon einen Vortrag gehalten.
+ Ich habe einen Vortrag gehalten, ja. Zusammen mit meinen Kollegen und Freunden Dominik und Cantorkel haben wir über unsere Hacking-Abenteuer gesprochen.
+ Einmal in der Disclosure von Vulnerabilities, so als CCC.
+ Die haben eine Schwachstelle. Dann haben wir das noch ein bisschen verschärft durch einen Ransomware Gang übernommen.
+ Die Ransomware Gang hat Leute gehackt und wir haben den Leuten gesagt, Achtung, ihr werdet gerade gehackt, macht das weg.
+ Das war ganz interessant eigentlich.
+ Okay.
+ Aber auf Englisch. Deswegen habe ich dir nicht Bescheid gesagt.
+ Du schwißt ja deine eigene Muttersprache nicht.
+ Das ist nicht so gut.
+ Das ist nicht meine Muttersprache.
+ Ich weiß, Deutsch ist deine Muttersprache. Jetzt hast du ja auch einen Pass. Jetzt, Gott sei Dank, hat man einen Pass.
+ Du hast das Thema aufgebracht. Ich wollte da gar nicht drüber reden.
+ Hast du einen deutschen Pass?
+ Nein, leider nicht. Ich habe sogar Asylbeantrag mit Deutsch gemacht.
+ Ich habe das mal gemacht.
+ Wir müssen jetzt ein kleines Ratespiel machen. Melden sich mal bitte alle, die wissen, wer er ist.
+ Das ist gut.
+ Das ist so 5%.
+ 5% würdest du sagen?
+ 10%?
+ Nein, nicht 10%.
+ 5%?
+ Unter 5%.
+ Jetzt kommen die vorsichtigen Hinweise. Ich stelle jetzt etwas auf den Tisch.
+ Und zwar...
+ Das ist so ein Schweindal jetzt.
+ Das ist eine Flasche Wodka.
+ Wie viele wissen jetzt, wer er ist?
+ Jetzt dürfen sich nur die melden, die... Ach so, das ist schwierig.
+ Das ist immer noch 5%.
+ Jetzt stellen wir Red Bull dazu.
+ Weiß jetzt jemand, wer das ist?
+ Immer noch dasselbe.
+ Wer von euch hat einen Pass von spanischer Insel? Ibiza oder so?
+ Wie viele wissen jetzt, wer er ist?
+ Ein bisschen mehr.
+ Das ist ja unglaublich.
+ Was denn? Na ja gut, wir haben die Geschichte ja auch noch nicht ausreichend erzählt.
+ Also das ist Julian Hessenthaler.
+ Hallo.
+ Herzlich willkommen.
+ Und wenn man mit Julian Hessenthaler Wodka Red Bull trinkt, ist das üblicherweise ein Karriereende.
+ Und wir haben uns überlegt, wir versuchen diesen Bann mal zu brechen, diesen Fluch, und lassen uns einfach drauf ein und trinken jetzt mit Julian...
+ Oder wir riskieren auch das Karriereende.
+ Karriereende Wodka Red Bull.
+ Ich bin froh, dass du mir kein Glas hingestellt hast.
+ Doch, das steht hinter deinem Bildschirm.
+ Furchtbar.
+ Darf ich an dieser Stelle meinen tiefen Dislike aussprechen zum Thema Red Bull?
+ Das ist einfach für mich...
+ Heißt doch gar nicht Red Bull, heißt doch Rasenballsport.
+ Hör mal auf.
+ Wenn das meine Fußballfreunde hören, dass ich Red Bull trinke, dann werde ich der Kurve verwiesen.
+ So, die Eiswürfel sind...
+ Super vorbereitet, das ist irgendwie auch sehr ästhetisch.
+ Du willst mehr Eis?
+ Ja, ich will mehr Eis.
+ Du hast gesagt, du möchtest so viel Wasser und so wenig Red Bull wie möglich?
+ Dann nimm mir Eiswürfel.
+ Ihr ahnt es schon, wir müssen über Österreich reden.
+ Das klingt immer so ein bisschen wie so eine Ermahnung.
+ Wir haben ja nun auch im Podcast schon mehrfach über Österreich geredet und es ist immer super, um so ein bisschen die Hände über den Kopf zusammenzuschlagen.
+ Aber es ist auch nicht alles schlecht, was aus Österreich kommt.
+ Allerdings Red Bull schon.
+ Ich verstehe überhaupt nicht, wie dieses Zeug... also warum?
+ Ich verstehe nicht warum, meins ist lila, ist aber egal.
+ Oh, das ist das Red Bull Blue, sorry.
+ Passt zu FPÖ, alles gut.
+ Okay, ich muss das jetzt hier... das Peer Pressure at Work, ja sorry.
+ Wie viel macht man auf... oh Gott, das ist ja...
+ Du kannst auch mehr Wodka machen.
+ Ja, ja, ist ja beides schlimm.
+ Ich muss ja noch... den Wodka schmeckst du nicht mehr drauf.
+ Ich muss doch noch einen Podcast machen heute.
+ Ja, du musst das ja auch nicht austrinken.
+ Ist das so richtig?
+ Ja, kannst du machen.
+ Kommt darauf an, was du noch vorhast.
+ Oh Gott.
+ Ich hab eigentlich nichts mehr vor.
+ So, Julian, vielen Dank fürs Kommen und dabei sein, ganz toll.
+ Ja, auf dich.
+ Auf Österreich, Julian.
+ Puh.
+ So, wie viel muss man davon trinken, bis man die Krone verkaufen will?
+ Strahl hat ein paar gebraucht, zeig mal.
+ Aber er wollte es doch nicht verkaufen, muss man ehrlich gesagt.
+ So, für alle, die immer noch completely lost sind, worüber wir jetzt hier eigentlich reden wollen und wer das ist und überhaupt und so weiter.
+ Wir haben es ja im Podcast auch ein paar Mal angesprochen und die Sache ging auch irgendwie um die Welt, also zumindest in der deutschsprachigen Welt.
+ Ich weiß gar nicht, ist das so international eigentlich auch irgendwie?
+ Ich sag mal, das Video, der Release wohl schon, aber danach ging es dann überhaupt nicht.
+ Also es kam, glaube ich, weltweit, weil ich habe tatsächlich die Freigaben zeignen müssen, jeder einzeln, was mich ungefähr zwei Tage lang Zeit gekostet hat,
+ irgendwelche verschlüsselten E-Mails an ein spezielles E-Mail-Postfach zu schicken, indem ich den diversen Sendern Freigaben erteile.
+ Interessiert sich eigentlich irgendjemand für Österreich, ist das so?
+ Man sollte, also ganz ehrlich sollte man, weil dann tatsächlich Österreich auf einem recht seltsamen Weg unterwegs ist die letzten Jahre und das wird irgendwie nicht besser.
+ Ach du meinst so in a bad way sollte man sich für Österreich interessieren?
+ Ja, so in a strange way.
+ Super interessant, in a strange way.
+ Genau, also wir reden natürlich über die ganze Ibiza-Affäre, ausgelöst nicht ohne deinen Zutun, da wollen wir jetzt auch gleich nochmal drüber reden.
+ Es gab dieses ominöse Video, wo sehr viel Wodka Red Bull getrunken wurde und was dann so in der Folge allerlei Aufhebens gemacht hat und letzten Endes zum Sturz der Regierung Kurz führte, also die ÖVP-FPO-Regierung.
+ Und ja, seitdem geht es ja auch unter die Polter wild weiter, man kann darüber reissieren, ob sich da jetzt etwas verbessert hat oder nicht, aber zumindest hat sich mal was verändert.
+ Wir müssen uns auf jeden Fall festhalten.
+ Ja, ich glaube wir haben den 5. Bundeskanzler in 4 Jahren los.
+ Ja, genau, dieses Video ist von 2017, das ist wenn ich mich jetzt richtig erinnere vor den Wahlen, wo es dann zu dieser Koalition kam, aufgenommen worden.
+ Zwei Jahre später erst wurde es publik und dann dauerte es nochmal so ein anderthalb Jahr und dann kamst du oder ein Jahr, ich weiß nicht ganz genau.
+ Bis zu meiner Verhaftung hat es dann eineinhalb Jahre gedauert.
+ Genau, aber dein Name fiel dann?
+ Ja, das war aber auch klar, es war absinthbar.
+ Aber nicht sofort, es war sozusagen ein ganz kleines Rätsel für kurze Zeit.
+ Genau, und dann war sehr viel Brimborium und Aufhebens und Fingerpointing und natürlich wie das eben bei solchen Affären ist, wo mächtige Schaden nehmen, da wird dann erstmal ordentlich dran gearbeitet, möglichst die ganzen Messager zu erschießen.
+ Und du bist zwar nicht tot, aber ganz schadfrei bist du ja aus der Sache nun auch nicht hervorragend.
+ Auch nicht, ne.
+ Genau, so viel vielleicht mal so als Kontext, da habt ihr ja sicherlich alle schon mal was von gehört.
+ Jetzt würde mich natürlich trotzdem nochmal interessieren, um das mal so ein bisschen auch festzumachen, wie bitte kam es dazu eigentlich?
+ Wie weit müssen wir jetzt in der Geschichte zurückrudern?
+ Ja, eigentlich so kurz, wenn du es ganz kurz runtergebrochen haben willst.
+ Ne, du kannst das auch ausführlich blumenreich ausführen.
+ Bei Tilojohn bin ich vier Stunden gesessen, glaube ich.
+ Ja, naja, ich weiß nicht, wann soll ich es hier rausschmeißen, aber kommt da eigentlich noch irgendwas nach uns?
+ Ne.
+ Ich muss an der Markt das hier auflegen, aber ihr könnt ja unten.
+ Das machen wir mal im Detail.
+ Das Cap geht auch noch zwei Tage.
+ Stimmt auch, oder?
+ Ne, kurz gesagt, ich hatte einen Freund, der war Anwalt und der kam irgendwann zu mir und meinte, der hat einen Mandanten und der hat ihm irgendwie so brisantes Material anvertraut.
+ War so relativ geheimnistorisch, sag ich mal.
+ Und peua peua, der mir dann mehr oder weniger durchgesteckt, okay, er geht zum Strache und der Mandant ist halt offenbar Bodyguard vom Strache und der hat gesammelt alles mögliche Material,
+ unter anderem Fotos von Geldtaschen im Kofferraum vom Strache und Rechnungen, die angeblich gefälscht sein sollten, damit er irgendwie seine private Lebensführung mit Spesen die Partei verrechnen kann.
+ Und das Material war interessant, aber es hat keine Beweiskraft gehabt, also es waren halt Fotos und die kann jeder machen und es waren halt irgendwelche Ausdrucke von Rechnungen und die kann auch jeder mit Photoshop herstellen, wenn er will, also im Ende, ja.
+ Die Geschichte war wohl schon glaubwürdig für mich, aber beweist halt nichts und der hat mich dann gefragt, mir war es einfallend, mir war das eigentlich, war wirklich nichts so eigentlich politisch ambitioniert oder wie auch immer, es war mehr so, da war ein Freund von mir, der hat halt so gewusst, was ich tu und ich war ihm so gewahrtens.
+ Was hast du denn getan?
+ Ich hab mich in der Beratung genannt, wir haben Großkonzerne beraten, im Endeffekt haben wir was im Englischen unter so Private Intelligence rent gemacht, also Großkonzerne geschützt einerseits vor Informationsabfluss etc., jetzt nicht im IT Bereich, sondern eher so im Real-World Bereich und auf der anderen Seite eben auch präventive Sachen Richtung Parteienverletzung etc.
+ Und deswegen wusste er halt, dass ich so ein gewisses Talent in der Richtung hab, ein gewisses Know-how, Skill-Set wie auch immer und hat mich eben gefragt, ob mir was einfällt und ich hab so salopp hingeworfen, ja, nee, brauchst halt irgendwie ein Audio-Video, wo der das halt zugibt, mehr oder weniger am besten.
+ Wir haben uns regelmäßig, muss man sagen, ähnlich wie heute hier mit ein paar Vodkas getroffen nach der Arbeit, aber ohne Red Bull tatsächlich, das war ein Strache sein Drink nicht meiner, ist zu meinem geworden leider.
+ Und ja, wie es halt so ist, wenn man zu viel Vodka trinkt, kommt man auf lustige Ideen und seine lustige Idee war, hey komm lass machen und ich hab das nicht ernst genommen am Anfang, bis er dann tatsächlich ein Packen Geld ausgepackt hat und gemeint hat, komm was kostet's, organisier es mal und ich hab gesagt, ok cool.
+ Aber was war denn seine Motivation?
+ Ich glaub tatsächlich, also durchaus, er war schon ideologisch motiviert, zeig euch mal, also der war deutlich politischer als ich zu dem Zeitpunkt mit Sicherheit, also als Perhase muss man dazu sagen, damals war schon absehbar, dass die FPÖ in die Region kommen würde und wenn man halt irgendwie so gelernter Ausländer in Österreich ist, dann weiß man, dass das nicht so sonderlich gut für einen ist.
+ Ja.
+ Ja, das war wohl sicher mit ein Grund, auf der anderen Seite glaub ich, war ihm wohl auch, wahrscheinlich wollte er einfach was bewegen, also ich glaub das kennt jeder, wenn man halt mal so ein etwas trockenen Alltag hat, dass man dann halt auch mal das Gefühl hat, hey jetzt komm lass mal irgendwas machen, was so, was anderes ist, sonst war es wahrscheinlich auch mitgespielt im Rückblick.
+ Und so kam's, wir haben dann ein paar nicht so wirklich professionelle Versuche unternommen, sag ich mal, also ich glaub die Geschichte ist oft erzählt.
+ Ohne DSD-Karte?
+ Ja, ja, ohne DSD-Karten. Also man muss dazu sagen.
+ Aber das macht dich auch menschlich.
+ Ja, nee, absolut, das beweist, die menschlichen Fehler sind überall zu finden.
+ Was war denn mit den DSD-Karten?
+ Vielleicht zuerst mal, also ich hab ihm gesagt, okay ich muss irgendwie an Strache rankommen, also wenn ich in der Lage sein soll, dass Strache da irgendwie in eine Falle zu locken, muss ich irgendwie an Strache ran.
+ Und keiner von uns beiden kannte an Strache und es war zwar bekannt, dass Strache gerne weggeht und Strache mag kein Party und sonst was, aber du gehst jetzt nicht in irgendein Club und sagst, hey Strache komm mal, wir haben da irgendwie super geile, korrupte Sachen zu bereden, das heißt immer, das funktioniert auch in Österreich nicht.
+ Und so kam halt die Idee, dass der Anwalt kannte eine Maklerin, eine Immobilienmaklerin und die war mit der rechten Hand von Strache, hatte mal einen Erferriger, Strache übrigens auch.
+ Und übrigens auch Ausländerin, so nebenbei gesagt.
+ Und da kam die Idee daher gut, der Anwalt war Immobilienanwalt unter anderem, hat gesagt, na komm ich ruf die Maklerin an und sag ich hab eine super wichtige Kundin oder Kunden, der will in irgendwelche Ländereien kaufen und zufälligerweise hat diese rechte Hand von Strache, der Gudenus sich nennt, die Familie hatte Ländereien recht weitreichende, außerhalb von Wien.
+ Und dann kam uns halt, mir halt die Idee, na komm lass uns eine Legende kreieren und ich wollte im Ganzen damals, weil Österreich mittlerweile etwas offensichtlicher, aber damals auch für jeden das sehen wollte, so eine seltsame Liebe zu Russland pflegt, also irgendwie Russland ist so ein recht gewichtiger Faktor in Österreich.
+ Diese Karin Kneisel ist jetzt nach Russland gezogen.
+ Ja, ja, die hat auch heute irgendwie getwittert, das ist super geil, ist besser als Maritif und sich schenken und so.
+ Also die ehemalige Außenministerin.
+ Ja, ehemaliger Außenminister in Österreich, FPÖ.
+ Die fuhr jetzt irgendwo in Russland, der Papa.
+ Hat mal Putin zu ihrer Hochzeit eingeladen, Putin hat sich tatsächlich die Mühe genommen und ist mit einer Konvoi nach Graz, glaub ich, war es gefahren, weil du gerade Graz gesagt hast, und hat dort mit ihr getanzt und sie hat sich dann verborgt vor Putin, da gibt es wunderschöne Fotos zu finden.
+ Als sie Außenministerin war.
+ Als sie Außenministerin war, ja eben.
+ Österreich.
+ Weißte, geil, da ist bestimmt auch irgendwas mit Kurbeskellen übergelaufen.
+ Man weiß es nicht.
+ Aber ja, jedenfalls das Foto gibt es, das Foto hat für Aufsehen gesorgt.
+ Er hat ihr dafür, glaub ich, ein Marakdorring für 50.000 Euro geschenkt, diesmal gleich eingesteckt hat und versucht hat mitzunehmen.
+ Das ist einfach so.
+ Also das ist ein geiler Finder an Österreich, die bemühen sich noch nicht mal irgendwie seriös rüberzukommen.
+ Also einfach hier tun sie ja zumindest noch.
+ Ja, ich sag ja, das ist der Unterschied, was ich hier Leuten, weil alle mir so sagen, ja, überall sind Politiker, sind überall korrupt, ja stimmt schon, aber in Österreich ist es tatsächlich so, die machen sich nicht mal die Mühe.
+ Also in Italien sitzt du bei irgend wem, keine Ahnung, der will halt bestochen werden und dann dreht er sich um und zeigt dir aufs Bild hinter ihm, das fürchterlich unwichtig ist und sagt so, hey, was wäre dir das da wert?
+ Und dann verstehst du, was er will.
+ Aber in Österreich hältst du einfach so, gib mal, hier ist die Anzahl.
+ Und das ist relativ absurd, aber es zeigt auch, dass in Österreich offenbar so eine Kultur eingekehrt ist, wo die Leute sich absolut nicht, also wo sie sich eben sicher sind.
+ Das Problem ist wohl nicht, dass die Leute in Österreich besonders dumm, blöd oder korrupt sind, möglicherweise manche, aber nicht alle.
+ Aber das Problem ist tatsächlich, glaube ich, eher, dass die Leute tatsächlich davon ausgehen, dass ihnen keine Konsequenzen drohen.
+ Und die machen es deswegen. Also weil es einfach so sich eingeschleift hat, dass sie einfach sicher sind, dass egal was passiert, was soll denn passieren.
+ Und dann ist es natürlich unglaublich leicht korrupt zu sein, weil am Ende des Tages, wo das Schlimmste was droht, vielleicht ein Rücktritt in irgendein Vorstand ist, dann ist es ja wohl auch egal.
+ Ist denn das ein neues Phänomen oder ist das etwas, was du sagen wolltest, was so inherent in der österreichischen Kultur so drinsteckt?
+ Also ich sag mal, Österreich ist für viele Sachen, speziell auch im Technikbereich, wie ich so mitgekriegt habe, so ein Testballon ein bisschen, also so UNTS Netzwerke und so weiter,
+ weil so klassische Dinge würden in Österreich getestet, weil es ein kleines Land und doch gut ausgebaute Infrastruktur.
+ Auf der anderen Seite ist Österreich halt auch fürchterlich hinterher. Also ich glaube, wenn man es vergleichen wollen würde,
+ weil es schon in Bayern gab, diese Spesenskandale, vor mal Ewigkeiten gefüllt und das ist so ungefähr, wo Österreich jetzt steht.
+ Also damit kann man vielleicht auch deutlich in was so der Punkt ist.
+ Schlimmer als Bayern.
+ So scheint es zumindest. Es gilt die Unschuldsvermutung, wie man so schön sagt.
+ Heute geht es zum Thema richtig rund. Erst Rasenballsport trinken, dann gibt es noch was Schlimmeres als Bayern.
+ Naja, ich versuche gerade so rauszukriegen, ist eigentlich irgendwas, also manchmal ist es ja schon die Geografie eines Landes,
+ die in irgendeiner Form so bestimmt ist. Inwiefern das jetzt bei Österreich eine Rolle spielen kann, keine Ahnung.
+ Oder irgendein anderes Element, was sozusagen so spezifisch irgendwas in der Gesellschaft ermöglicht, was woanders so nicht ohne Weiteres ist.
+ Naja, es spielt sich geografisch mit, dass Österreich einfach klein ist. Und wie kleine Länder so sind, kennt man sich dann leicht untereinander.
+ Ja, das stimmt natürlich.
+ Und dann ist es so eine Bubble halt, wo man sich untereinander kennt, man will sich nicht gern wehtun, man macht sich gegen seine Gefälligkeiten und so weiter.
+ Man schützt sich, spielt sich ja mit einer Rolle. Andererseits ist es halt auch einfach, dass Österreich jetzt eigentlich seit seiner Gründung der aktuellen Republik
+ irgendwie so ein Problem mit Aufarbeitung hatte. Also in Österreich heißt es noch immer Hitler war so ein deutsches Problem.
+ Ja, ist zwar bei uns geboren, aber eigentlich, die haben uns überfallen und wir können nichts dafür so ungefähr.
+ Das ist die österreichische Thek und Things. Und das zeigt sich fort.
+ Österreich hat eine geile Kultur entwickelt, keine Verantwortung zu übernehmen.
+ Wir sind nicht NATO-Mitglied, aber mein Gott, wir werden halt geschützt, weil überall rundherum NATO-Länder und wir brauchen eigentlich auch die EU nicht, aber irgendwie ist es doch ganz geil.
+ Und ja, so ist es halt. Also Österreich ist so. Österreich entwickelt sich so ein bisschen, ich glaube, Österreich grenzt halt nur mal an Ungarn.
+ Und die haben gesehen, das, was der Orban abzieht, das funktioniert irgendwie so halbwegs gut. Und warum machen wir es nicht auch? Weil es ja gut für uns.
+ Da kommt dann die alte Habsburger.
+ Ja, irgendwie. Also das Monarchische schwingt schon noch mit. Also auch die Worte der Einstellung gegenüber dem Staat ist, glaube ich, in Österreich doch recht ausgeprägt.
+ Im Gegensatz zu Deutschland. Ich habe das gemerkt in meinem Verfahren, dass es dann gelaufen ist. Die waren komplett schockiert, weil meine deutschen Anwälte halt angriffig waren.
+ Die haben halt gesagt, hey, ihr seid korrupt und was alles nicht falsch ist. Und die Reaktion der Staatsanwaltschaft in Wien darauf war, dass sie mal meine Anwälte angezeigt haben, weil sie sich ungebührlich gegenüber der Staatsanwaltschaft fahrenden.
+ Also eine Obrigkeitshörigkeit kombiniert mit einem Hang zur Korruption.
+ Kombiniert mit so einer gewissen Hang zur Inszenierung und Operette. Also in Österreich muss es nur gut ausschauen. Österreich ist wichtig, dass es gut ausschaut.
+ Vielleicht haben Sie von Bayern übernommen, so dieses schicke Micky-Ding ist so ein bisschen in Österreich angekommen. Hauptsache, es glänzt auf der Oberfläche und drunter. Nicht so wichtig.
+ Wie so ein Ölfilm auf dem Ozean.
+ Ja, möglicherweise.
+ Ja, ach Österreich.
+ Aber dieses Jahr trotzdem, wenn ich jetzt kurz vorspringe, also immerhin haben Sie, war es ja noch ein Skandal.
+ Ja, ne, aber es war ein Skandal. Also ich würde heute noch immer behaupten, dass es waren ja SZ und Spiegel, also deutsche Medien, durchaus Schwergewichte in der Medienbranche in Deutschland, die veröffentlicht haben und waren auch die Medien, die wir uns gesucht haben dafür.
+ Und ich bin bis heute noch der Überzeugung, wenn du das österreichischen Medien geben hättest, hättest du schon welche gefunden, die es veröffentlicht hätten.
+ Ich glaube nicht, dass du welche gefunden hättest, die sich getraut hätten, das Video zu bringen. Die hätten transkribiert, die hätten mit Untertiteln belegt oder sonst was.
+ Weil einfach Österreich hat unter anderem viele Probleme, lass uns noch ein paar davon aufzählen, die Medien hängen alle an der staatlichen Subvention, werden also gefördert und die können sich zwar erlauben, kritisch zu schreiben, aber da gibt es dann schon so Abstrafungen.
+ Diese eine Boulevard-Zeitung, der man aktuell in Ermittlungsverfahren unterstellt, dass sie die Umfragen für den ehemaligen Bundeskanzler Kurz manipuliert haben, damit er gewählt wird, kriegen glaube ich keine Ahnung, das ist so eine Gratis-Zeitung, die kriegt man gratis in der U-Bahn ausgelegt, kann man so nehmen.
+ Und die kriegen keine 5 Millionen Förderer im Jahr, haben komplett einen Schwach... also das lustige ist, die kriegen 5 Millionen staatliche Förderer im Jahr und werden dauernd verklagt, weil sie laut der Schwachsinn-Schreibe oder zahlt ja aus der staatlichen Förderung raus.
+ Das ist ein Geschäftsmodell, nicht schlecht.
+ Wie heißt das Blatt?
+ Österreich. Viel sagen. Und Qualitätsblätter werden dann halt totgehungert. Und das ist auch so, in Österreich kannst du es dir nur bis zu einem gewissen Grad wirklich leisten.
+ Damit will ich jetzt nicht den österreichischen Journalisten unrecht tun, es gibt schon Leute, die sich keinen Blatt vor den Mund nehmen, aber man merkt schon, dass es Themenbereiche gibt, die maximal so ein Journalist aufgriffen, die werden dann aber auch relativ schnell irgendwie weggeschoben mit "komm, das links-linker Journalismus" oder "Lügenpresse".
+ Das gewinnt dann nicht die Art Gewicht, die das Video mit einer Veröffentlichung durch SZ und Spiel gewonnen hat. Weil da konnte man, das kann man nicht wegwischen.
+ Österreich ist halt immer noch sehr dran gelegen im Ausland, weil wir sind ein Touristenland und es ist einfach für den Tourismus nicht gut, wenn klar wird, dass Österreich halt irgendwie so eine korrupte Halbbananen-Revue blieb, da fahrt man nicht so gerne hin.
+ Man will in ein ordentliches, alpines, strammes Land fahren zum Schiefahren.
+ Aber nicht, dass man was gegen die Korruption tut, sondern man redet einfach nicht drüber.
+ Ja.
+ Ok, das ist auch straightforward. Jetzt nochmal zurück zu dem Video.
+ Du bist jetzt von deinem Anwalt angesprochen worden und dann hast du dich so ein bisschen beim Wodka verleiten lassen und hast Ideen entwickelt und dann habt ihr das sozusagen auch in die Tat umgesetzt.
+ Ihr habt ihn angesprochen, ihr habt über diesen Gudenus sozusagen diesen Kontakt gefunden und dann kam es ja letzten Endes zu diesem Happening.
+ Vielleicht kannst du ja nochmal so ein bisschen darstellen, wie das dann kam.
+ Also das Punkt war ich...
+ Wer war überhaupt die Russin?
+ Wer die Russin war, werde ich mir jetzt mal weiterhin nicht darlegen, aber lassen wir es mal so stehen.
+ Der Punkt war, ich habe eine Legende kreiert, dass es eine Oligarchen nicht ergibt.
+ Wir haben die in den Familienkreis eines recht bekannten Oligarchen gerückt, der nachher auch ziemlich pissed war, muss man sagen.
+ Was war denn der offizielle Name? Ist der bekannt?
+ Der ist schon bekannt, der hat auch diverse Leute losgeschickt, um herauszufinden, wer diese besagte Oligarchin war.
+ Ich will ihn jetzt nicht noch weiter provozieren, seinen Namen weiter hier aufdragen, aber man kann es googeln, man findet es.
+ Jedenfalls habe ich eine Oligarchen kreiert, die angeblich sein Nichte wäre, mit knapp 350 Millionen Schwarzgeld,
+ das aus dem zusammenbrechenden Landrömerzsystem herauskommen sollte, die eben gerne, wie so viele andere reiche Russen,
+ aus irgendeinem Grund nach Österreich kommen würde und dort ihr Geld gerne anlegen würde bzw. auch vielleicht säubern wollen würde.
+ Das war die Ursprungsgeschichte.
+ Dadurch die Idee war, wir kaufen also Ländereien vom Gudenus als Entrée.
+ Ivana, sagt ihr das dann auch? Ist das auch genau so, wie du das jetzt gesagt hast?
+ Ja, nee, wir haben ihm gesagt, das ist kein Drogengeld, aber es kann auch nicht auf einer Bank.
+ Wo wollte er das denn hin tun?
+ Die Idee war, wir haben dann tatsächlich, das ist eben das, was man bei Ibiza vielleicht vergisst, weil die Leute bei Ibiza das Gefühl haben,
+ das war halt ein Abend und die haben gesoffen und scheiße geredet.
+ Wir haben das sieben Monate lang verhandeln und haben recht komplizierte Konstrukte gebaut.
+ Wir haben gesagt, wir gründen eine Firma, eine zweite Firma, die kauft jetzt Immobilien, dann blasen wir mit Gutachten die Werte der Immobilien auf,
+ verschieben es auf die zweite GmbH rüber, die macht dann mit Belehnungen und Besicherungen bei Bankenkredite,
+ holt sich also über die erhöhten Gutachten Geld rein, wascht so das Geld durch, wir zahlen es aus, wir teilen es, da gab es Vertragsentwürfe.
+ Das war schon recht gut durchdacht, das war jetzt nicht einfach nur, hey komm, Wort gewönt Bull und lass uns quatschen.
+ War schon mehr als das.
+ Und jedenfalls gab es diesen ersten Abend, weil du eben die SD-Karten angesprochen hast,
+ wo wir dann richtig große Show gefahren haben, also wir haben da keine Ahnung, ich habe eben diese Oligarchin gefunden,
+ diese Oligarchin-Nichte, eine Bekannte von mir, die ich für ideal geeignet gehalten habe, was sie auch war.
+ Und haben am Maibach gemietet und die Bodyguards und ich in eine super teure Private Dining Room in einem 5-Sterne-Hotel und was, schießt mich tot.
+ Und sind halt dort vorgefahren und haben halt gesagt, hey komm, da jetzt großes Happening.
+ Und der Guteen ist halt einfach wie so viele in Österreich dumm und gierig, muss man einfach so sagen.
+ Und hat uns halt versucht seine Ländereien, die so 5 MW sind, für 12 anzubieten.
+ Und wir haben gesagt, ja ist kein Problem, weil wir haben sowieso genug Geld zu waschen, aber dann wollen wir Extras.
+ Und damit war so da, damit haben wir mal angetestet, wie weiter geht.
+ Und er ging dann auch recht weit, also man muss sich vorstellen, es war das erste Mal, wo man sich trifft,
+ man hat noch nie vorher telefoniert und noch nie vorher geredet.
+ Und da sitzt du dann mit jemandem und sagst ihm so, ja, also wir hätten gern so irgendwie bewaffnete Sicherheitsleute.
+ Kannst du mit der Polizei irgendwie so klären, ja geht wahrscheinlich, kennt ihr irgendwie die Feuerpolizisten?
+ Und da haben wir uns escaliert, da haben wir halt so gesagt, ja gut, okay, und dann, also wir wollen lang waffen, nicht, ja schwierig, aber ja okay, geht.
+ Und so ging es dahin.
+ Und ja, also der erste Amt war, dann ging es eben weiter von dem Hotel in eine Bar und dort haben wir dann, weil wir wussten,
+ ich muss jetzt ein bisschen vorsichtig sein, aber sagen wir mal, es ging das Gerüchtigung, dass Herr Gudeno's gewissen Substanz nicht abgeneigt wäre.
+ Und dann haben wir uns halt gedacht, komm tun wir in dem Gefallen auch noch.
+ Und haben eine Suite in der, es war so ein Rooftop-Hotel-Bar und haben gesagt, okay, damit er die Chance hat dort, also belegbar, seinen Habits nachzugehen,
+ mieten wir also in die Master Suite und bieten ihm anstatt, dass er aufs WC rein muss, wir sind cool genug, dass wir ihm also dafür die Master Suite zur Verfügung stellen auch noch.
+ Was dann auch angeblich passiert ist, dann soll ich leider nicht dabei, und dort hatten wir eben Kamerasysteme platziert.
+ Ich muss dazu sagen, ich habe noch nie vorher mit Kameras gearbeitet gehabt und bin froh, weil ich es nie wieder machen muss, ehrlich gesagt, weil es scheiße ist.
+ Und der Punkt war, ich hatte also diese Kamerasysteme gekauft bei irgendeinem etwas fragwürdigen Garagenladen, der so Kina-Importware hatte, weil ich einfach ein Zeitproblem hatte.
+ Und war naivert, dummerweise davon ausgegangen, dass die wahrscheinlich mit der Stapkarte bestückt sein würden, was sie nicht waren, wie ich nachher herausgefunden habe am nächsten Tag.
+ Also es kam dazu, dass wir also ein Menge Geld verballert haben und in dem Abend Riesenschau gefahren haben, eigentlich relativ erfolgreich waren, das Problem war nunmal, es gab überhaupt kein Videomaterial, weil halt keine SD-Karten in der Kamera waren,
+ was den Anwalt nicht glücklich gemacht hat, weil das so knapp 30.000 Euro seines Geldes waren in die Wand, die verflogen sind.
+ Und das hat dann dazu geführt, dass er sein Handy bei mir gegen die Wand gepfeffert hat.
+ Die olle Garchen.
+ Ja, das Handy hat sich überlebt, war ein iPhone, guter Qualität.
+ Aber nee, der Punkt war, die Olle Garchen ist in Lachen ausgebrochen und hat sich abgekugelt.
+ Und mir war es halt peinlich, unglaublich peinlich, klarerweise.
+ Und da habe ich halt groß gemeint, damit das Thema irgendwie vorbei geht, ja komm, dann lass einfach nochmal machen.
+ Wir wissen ja jetzt, dass geht, wir machen das nochmal.
+ Und das haben wir dann auch einfach nochmal gemacht, es hat auch erfolgreich funktioniert, deswegen gibt es so schöne Bilder von Herrn Gutenus,
+ wie er sich über ein Tisch poigt und irgendwas sucht mit einem Nasenloch.
+ Und da war aber noch immer der Strache nicht anwesend, also es hat eigentlich geheißen, er bringt uns zum Strache und irgendwie hat der Strache nie Zeit für uns gehabt offenbar.
+ Dann kam der Gutenus eben durch mit der Info, er fliegt jetzt nach Ibiza und der Strache ist auch dort und ich habe mir gedacht, da komm, was solls.
+ Na ja super, die hat eh ein Haus in Ibiza, wir fahren auch nach Ibiza, treffen uns dort.
+ Ich meine natürlich hat er sich kein Haus in Ibiza, das muss ich anmieten.
+ Und das Problem war auch noch, der Anwalt hat keinen Bock mehr gehabt, das anzumieten, was ich anmieten wollte, was so ungefähr 10.000 die nachgekostet hätte.
+ Und deswegen wurde es dann eine kleine Finca, was alle bemängelt haben, nachher so quasi, oh mein Gott, wie soll das eine Oligarchenbilla darstellen.
+ Aber fairerweise, man muss sagen, wir haben auch nicht gesagt, das ist die Oligarchenbilla, wir haben gesagt, die Oligarchenbilla, das sind ihre Kinder und ihr seid so komische Typen, ihr kommt nicht zu ihren Kindern nach Hause, keine Chance.
+ Das ist ein anderes Haus, wo wir jetzt quatschen.
+ Und so war es dann auch, die sind also gekommen, wir haben uns da extra ein Sportwagen und sonst was gecheckt, damit es zu mir so ein bisschen Oligarchen-Style ausschaut.
+ Und haben halt kräftig eingekauft, Wodka etc.
+ Und so entstand dann das, was man heute als Ibiza will.
+ Und Red Bull.
+ Und Red Bull, ne Menge Red Bull, ganze Palette, glaube ich, oder zwei sogar.
+ Ja, also so kam Ibiza zustande und ich glaube der Rest ist relativ bekannt.
+ Wenn man, also, dass das grundsätzlich irgendwie funktioniert.
+ Also einerseits mit den Fuck-ups, aber andererseits auch wenn diese Dinge passieren, da kriegt man da nicht irgendwann mal so richtig, also hast du dir irgendwann nicht mal gedacht, bin ich bescheuert, was mache ich hier eigentlich?
+ Also, oder sind die um dich herum einfach alle so doof, dass er auch...
+ Das war eher der Punkt, also mich hat schockiert, wie doof die waren, oder wie naiv die waren.
+ Weil ich hab eigentlich die ganze Zeit, ich komme aus dem Sicherheitsbereich und ich meine wir haben auch irgendwie jetzt so Kunden von uns, Klienten von uns geschult.
+ Ich hab halt die ganze Zeit gewartet, ok, wann kommen die Sicherheitschecks?
+ Also irgendwie, ich war auch schon in anderen Ländern mit irgendwelchen politisch nahen Leuten am Tisch.
+ Und sogar bei irgendwelchen Staatssekretären hast du mal irgendeinen Sicherheitsdienst oder sowas, der dich mal zumindest passt, sonst was, Open Search, Open Source Intelligence, was auch immer.
+ Da kam überhaupt nichts, also die hatten tatsächlich, das muss man sich mal verbildlichen, wir diskutieren also sieben Monate lang über die Waschung, Investition, von 350 Millionen Euro Schwarzgeld, die Manipulation von Wahlen und Medien.
+ Und die haben von mir einen Vornamen, den sie nicht geprüft haben und eine Wegwerfnummer, also ein Burn-off-Nummer. Das war's.
+ Das war alles. Also Profis, Profis.
+ Ich würde das so ein bisschen anders interpretieren, wenn jemand das alles macht ohne jemals irgendwie zu überlegen, hm, vielleicht.
+ Hat das schon vorher gemacht, ja klar.
+ Genau, dann hat das schon vorher gemacht. Und das finde ich halt wichtig, das auch an der Stelle nochmal zu betonen.
+ Also Punkt ist, weil die Leute ja teilweise einen Vorwurf gebracht haben, ja das sind so Stasi-Methonen, also dass da jemand in die Falle gelockt, aufgenommen, das ist so irgendwie fragwürdig moral, habe ich auch sogar von Leuten gehört, die jetzt sicher nicht irgendwie unbedingt in den Freundeskreis der FPÖ oder Rechtspopulisten zurück sind.
+ Man muss dabei bedenken, wir haben jetzt nicht irgendwie gesagt, hey komm lass probieren, ob das funktioniert, sondern wir hatten Material durch diesen Bodyguard, das zwar nicht beweiskräftig war, aber doch eindeutig war.
+ Und darauf haben wir aufgebaut. Also wir sind jetzt nicht hingegangen und haben gesagt, hey die FPÖ ist scheiße für uns und lass mal schauen was geht.
+ Sondern wir haben halt gesagt, okay gut, wir sind uns eigentlich absolut sicher, dass der korrupt ist, aber wir können es halt momentan noch nicht wirklich beweisen.
+ Was oft ein Problem bei Korruptionssachen ist. Das ist so ein klassisches Problem, das haben wir auch letztes Mal irgendwie, jetzt wie ich mich mit Journalisten doch immer wieder unterhalten habe, haben die gesagt, hey du hast keine Ahnung, wie oft zu uns Leute kommen mit den wildesten Geschichten von Korruption.
+ Und dann sagen wir ihnen, okay beweise und der sagt, meine Zeugenaussage. Und der sagt, was soll ich mit deiner Zeugenaussage, was bringt mir was?
+ Und das ist halt das Problem bei Korruption. Korruption ist halt eines der wenigen Delikte, wo eigentlich kein Opfer da ist.
+ Ich meine es gibt schon Opfer, natürlich die Gesamtheit, das Volk, die Bevölkerung, wie auch immer, aber das Problem ist, es gibt also kein Opfer, das jetzt sich beklagen würde, weil im Endeffekt, wenn Korruption funktioniert, sind alle Seiten zufrieden.
+ Und deswegen ist Korruption so ein einerseits wahrscheinlich anziehendes Delikt, wenn du so willst, oder ein Partysdelikt für manche Leute, auf der anderen Seite so schwer dann wirklich zu verurteilen.
+ Es gibt halt oft Gerüchte über Korruption und auch Sachen, die wohl rational klar sind, aber halt gerichtsmäßig nicht beweisbar sind.
+ Und das spielt wohl sicher mit deiner Rolle.
+ Also ihr wart euch die ganze Zeit sicher, das klappt. Ihr hättet sonst den Aufwand auch nicht betrieben.
+ Nee, da ist eine Menge Geld rangeflossen.
+ Schon wirklich enorm und das Ergebnis sehenswert, kann man sagen. Habt ihr damals schon damit gerechnet, welchen Impact das haben würde?
+ Also wir wollten ja eigentlich, was wir immer die ganze Zeit erreichen wollten, war, den Strache strafrechtlich für seine angenommenen korrupten Handlungen zu belangen.
+ Die Idee war, also der Bodyguard hatte Material, eine Zeugenaussage, die aber nicht beweiskräftig war.
+ Die Idee, warum das Video entstanden ist, war, um den Bodyguard glaubwürdig zu machen.
+ Und was wir machen wollten, war, der Bodyguard sollte, der verlangt auch noch Absicherung, aber anderes Thema, er sollte also an die Öffentlichkeit gehen und der war Polizist gleichzeitig.
+ Das heißt, er hatte seinen Amtzeitverletzten, den man nicht sofort selber gemeldet hat.
+ Also hat das schon mal strafbar gemacht, was natürlich seiner Glaubwürdigkeit nicht unbedingt zuträglich ist.
+ Und der hätte also an die Öffentlichkeit gehen sollen mit seinen Vorwürfen und seiner Zeugenaussage, worauf der Strache dann natürlich gesagt hätte,
+ "Hahaha, kann ja jeder erzählen und paar blöde Fotos kann auch jeder bringen."
+ Und in dem Moment, wo er dementiert und sagt, das ist alles scheiße, das alles mal poliert, dann legst du das Video hinterher und damit ist er dann richtig am Arsch, sag ich mal.
+ Und das ging aber, deswegen hat es noch so lange gedauert, bis das Ding dann endlich 2019 rauskam, weil eben diese Zeit die ganze Zeit versucht wurde, diese Situation herstellbar zu machen.
+ Dass der Bodyguard eben gebildet ist, der war jetzt weiß Gott nicht ideologisch motiviert, sondern der hatte so einen gewissen Gekränken, Stolz, ein bisschen Rache gelöst und sonst was aus diversen Gründen gegenüber Strache.
+ Aber er war jetzt sicher nicht irgendjemand, der so quasi eine Strache unterwandert hatte und jetzt als politischer Idealist aufstehen wollte und der Welt die Wahrheit zeigen wollte, das war sicher nicht der Fall.
+ Aber nichtsdestotrotz war er ein Whistleblower und ich fand es nicht illegitim, der Wunsch der Absicherung war für mich jetzt nicht illegitim.
+ Das finde ich nämlich auch mal wichtig zu besprechen. Der hat also im Prinzip darum gebeten, einen Geldbetrag zu bekommen, dafür, dass er letztendlich sein Leben ruiniert.
+ Also er wollte jetzt auch keinen Geldbetrag haben, er hat gesagt, schau, das wird mir eine Anklage einbringen, ich verliere meinen Job wahrscheinlich bei einer Pensionsbezüge, alles, ich habe Frau, Kind etc.
+ Aber was er wollte oder was zur Diskussion stand, war so etwas wie eine Art Treuhandkonto, was gesucht wurde, war also die Einrichtung eines Betrages, den er definiert hatte, der sich danach sogar halbieren ließ, aber trotzdem nicht erreichbar war bei Weitem.
+ Also er wollte anfängen mit 2,5, was ich weiß, dann 1,2,5 und der Punkt war, es hätte dann quasi ausgeschüttet werden sollen, ein Treuhandsystem, escrow service mäßig, der geht, macht seine Aussage, wird belangt und dann fängt an das Geld zu fließen nach Bedarf.
+ Also weiß nichts, dass man sagt, komm, hier ist ein Kofferbargeld, plus muss man dazu sagen, ehrlicherweise auch noch, weil das Leute so immer bruskiert, warum jemand jetzt siebenstellige Beträge haben will, so ein Geld muss auch noch versteuern auch.
+ Also das ist nicht, das ist nicht, der Kutino ist nicht, dass du Schwarzgeld gibst, sondern der zahlt 50% Steuern weg davon nachher und dann ist das, finde ich jetzt, natürlich kann man es besser finden, wenn der irgendwie sagt, ok, ich will abgesichert sein, oder ich will das aus ideologischen Motiven machen, egal was passiert, aber ich finde es jetzt nicht illegitim, wenn jemand sagt, ok, schau, am Ende des Tages muss ich nachher weiterleben, weil auch ich habe die Erfahrung gemacht, also das hat schon recht beachtende Konsequenzen, wenn man so etwas macht und kostet auch eine Stange Geld.
+ Und ist also, ja, fand ich sicher was wünschenswert gewesen, es hätte auch wer anders möglich gewesen, war es dann am Ende nicht, lange Sache kurz gesagt, und deswegen kam dann eben zur EU-Wahl dann das Ibiza-Video raus, weil das dann eigentlich so der letzte mögliche Termin war, wenn man internationale Aufmerksamkeit haben wollte auf absehbare Zeit.
+ Da war das Strache dann schon in der Region, was auch so ein Problem war, weil davor hatten wir einen Oppositionsführer auf Video, wo er mehr oder weniger sich halt blamiert und korrupt ist, oder mutmaßlich korrupt ist, und jetzt hatten wir einen Vizekanzler auf Video,
+ dem seine Partei auch noch das Innenministerium, das Verteidigungsministerium innehatte und damit alle sicherheitsrelevanten Behörden, und dem seine Partei eine unglaubliche Nähe zu Putin Russland pflegte und diverse Gerüchte im Raum standen, dass da engste Verbindungen bestehen sollten,
+ was auch nochmal ein Problem ist, weil natürlich, wenn das so wäre, angenommen, es geht auch hier die Unschuldvermutung, dann wären die Russen wahrscheinlich nicht sonderlicher Picht drauf, dass man ihnen genau das ins Gesicht drückt, was sie auch lustigerweise nicht waren,
+ weil tatsächlich hat sich dann der Kreml gemüßigt gefühlt sich zu äußern, bzw. Ibiza-Videos, und wenn sich der Kreml dann offiziell so was äußert, dann weißt du, dass du ziemlich weit auf den Radar aufgepockt bist, und vielleicht auch andere Probleme hast, das ist nur die FPÖ.
+ Ja, vor allem die Russen, die wissen, wie sie mit Problemen im Ausland umgehen können, aber es war nicht gerade etwas, was ein jetzt in Schlaf verantwortlich war.
+ Ja, ja, ich hab mir gemerkt, dass es die Zeit von Skripperlizette war, da kam der Massselektor her und ist mit der Nobbi-Chok vor einem Spaziergang gegangen.
+ Du hattest also schon durchaus berechtigte Angst vor der Veröffentlichung?
+ Ja, also das war auch mit ein Grund, es gab sicher auch Momente, wo ich gesagt hab, ich scheiß drauf, es ist einfach zu riskant, lass stecken.
+ Es war so ein permanenter Kampf auch mit mir selber, mir war nicht alle Auswirkungen bewusst, aber mir war schon klar, dass mein Leben kräftig in die Tonne kippen wird für die nächste Zeit.
+ Hast du es denn bereut?
+ Nein, ehrlich gesagt nicht wirklich, weil es ist einfach so viel Scheiße, sage ich mal ganz offen, an die Oberfläche gekommen, die sogar für mich tatsächlich undenkbar war, denk unmöglich.
+ Es sind Sachen passiert, die offenbar so absurd sind und so grenzwertig sind, dass es einfach, es gibt so ein Limitbar, wo man Sachen akzeptieren kann und wegschauen kann und dann gibt es so einen Punkt, wo du sagst, hey, das ist zu viel.
+ Und der Punkt war einfach erreicht.
+ Es gibt sicher Sachen, die ich bereue bei der Durchführung, also speziell hinsichtlich dessen, dass wenn ich es nochmal machen müssen würde, dann würde ich es mit professionellen Dienstleistern anlegen, ich habe tatsächlich auch Bekannte und Freunde zurückgegriffen und die haben relativ harte Repriseden teilweise auch erfahren.
+ Und das war auch sicher teilweise auch ungefragt, ich habe nicht gesagt, komm wir machen jetzt das und das ist der Plan und die haben gesagt, ich bin dabei, ich habe gesagt, komm ich brauche einen Gefallen, das kannst du jenes machen.
+ Und die sind dann auf einmal auch irgendwie der Multiple House durchsucht worden, sonst irgendwas, es ist halt alles nicht schön.
+ In der Medien verrissen worden, gehetzt worden und die haben halt nicht wirklich, ich meine sie wussten zwar ungefähr, warum sie da mitmachen, aber im Detail nicht.
+ Und mit Sicherheit wussten sie nicht, worauf es rausläuft, also da ist schon etwas, was man sicher auch irgendwie mit sich trägt.
+ So gesehen das mit Sicherheit bereue ich, auch was andere Leute betrifft, aber wie gesagt, also hört sich vielleicht dämlich an, aber die Zeit vor der Veröffentlichung war meine beschissenste Zeit.
+ Also sogar die Zeit im Gefängnis war besser als die Zeit vor der Veröffentlichung, weil nach der Veröffentlichung war es so, weiß nicht ob man das irgendwie verstehen kann, als ob so eine riesen Last von dir runterfällt.
+ Und das war, bis du halt die ganze Zeit, du tragst das mit dir rum, von dem du weißt, dass irgendwie die Welt nicht verändert, aber zumindest viel Veränderung anstoßen wird.
+ Und passieren ja dann auch Dinge, die du dann gar nicht mehr unter Kontrolle hast, auf die du gar nicht mehr reagieren kannst, weil das ja schon passiert ist.
+ Wie zum Beispiel, dass sie dann in der Regierung waren und sicherlich auch noch ein paar andere Aspekte.
+ Ja, das war mir ganz sicher, also es waren viele Sachen, ich muss sagen, ich habe vieles davon antizipiert, also mir war ja schon klar, in welche Richtung die Angriffe bei mir gehen würden und welche Vektoren das sein würden.
+ Ich habe die auch versucht vorzubauen in gewisser Art.
+ Ich habe auch versucht, also ich hatte viel Zeit nachzudenken und ich bin ganz gut in der strategischen Planung etc.
+ Und habe also vieles davon antizipiert, manches davon abfedern können, manches davon hat mich komplett überrascht, manche Sachen. Aber generell, sage ich jetzt, hat es sich im Rahmen meiner Erwartungen bewegt, mit einigen Ausreißern über die Amplituden hinaus.
+ Aber mir war schon, also wenig von dem im Großen und Ganzen was passiert ist, hat mich wirklich dezidiert überrascht.
+ Ich hätte mir gewünscht, dass es nicht so ist. Ich habe auch alles dafür getan, dass es nicht so ist. Aber es war jetzt nicht komplett undenkbar für mich vorher.
+ Ich komme nun mal aus einer Branche, wo ich durchaus einen Einblick habe, wie Behörden arbeiten, speziell in Österreich.
+ Und mir war schon klar, also ich weiß, meine Anwälte haben mich verrückt erklärt, wie ich damals kam.
+ Die haben zuerst gesagt, die werden mich zumüllen mit Fingierter zusammen, Funde, no Scheiße, die werden mich versuchen mit allem zu belegen, was geht.
+ Und ich habe mir gesagt, komm, ist ein EU-Land, ist ein Rechtsstaat, ist am Ende wie Deutschland. Keine Chance, ich glaube ja doch, genau das.
+ Und dann kam es, ich habe dann tatsächlich alle meine Anwälte bekehrt. Also ich habe Anwälte gehabt, die tatsächlich in Brünstig an den Rechtsstaat geglaubt haben.
+ Und je nach meiner Verurteilung, wie mir gesagt wurde, dann irgendwie bei zugezogenen Jalousien eine Woche im Büro gesessen sind und niemanden sprechen wollten, weil ja die komplette Welt zusammengestürzt war.
+ Und ich habe gesagt, das geht nicht, das kann nicht sein. Und ich bin nur deutlich zynisch eingestellt.
+ Also ich habe schon Sachen gesehen in Österreich, die halt die meisten Leute zum Glück nicht sehen und ja.
+ Aber du bereust es trotzdem nicht?
+ Ich bereue es?
+ Nicht die Tat, aber halt die Umstände.
+ Ich bereue es tatsächlich nicht.
+ Das finde ich sehr wichtig, dass auch...
+ Ich bin jemand, der recht stur wird, wenn er der Überzeugung ist, Recht zu haben. Und ich bin dann auch... für mich war es aber im gewissen Grad klar, dass ich schmerzen oder leiden werde, wenn du so willst.
+ Und dann habe ich gesagt, war so irgendwann der Punkt, wo ich gesagt habe, okay, komm, dann lass mal.
+ Und das hat eigentlich mehr dazu beigetragen fast noch. Also wenn die sich anders verhalten hätten, wäre ich vielleicht sogar nicht so entschlossen gewesen.
+ Aber es war diese Art und Weise, weil ich weiß, als erstes passiert ist, es hat dann irgend so ein ultra rechter Blog die Wohnadresse meiner Mutter veröffentlicht, die dann mal gleich irgendwie Drohbriefe kassiert und ich weiß nicht was, und das attackiert worden, keine Ahnung.
+ Und das war dann so richtig für mich nachgekommen, dann lass sehen, dann machen wir.
+ Weil davor, ich wäre nicht mal, ich hatte eigentlich nichts zu verbergen. Ich wäre durchaus bereit gewesen mit gewissen Behördenstellen zu kooperieren.
+ Und das Problem war, ich habe sehr schnell mitgekriegt, welche Behördenstelle eingesetzt wurde für die Ermittlungen und ich kannte das Umfeld dieser Behördenstelle gut. Oder ganz gut zumindest.
+ Und alles das, was sich halt die Schritte, die sie gesetzt haben, waren so deutlich für sich sprechend, wenn man Ermittlungen versteht, dass mir klar war, dass das Ziel offenbar sein würde, mich...
+ Darf ich dir retten?
+ ... egal wie bezerrtig zu machen.
+ Gar nicht so schlecht.
+ Auf den Abend.
+ Zu dem Thema braucht man auch...
+ Ja, das hilft.
+ Also du wusstest, was da...
+ Ich hatte Vermutungen, ich hatte Vermutungen, die haben sich bestätigt.
+ Wie gesagt, es gab, mir war nicht klar...
+ Und die Ministerien waren ja auch in der Hand.
+ Na ja, gut, die Regierung trat zurück. Also das Lustige ist, was wir tatsächlich unterschätzt hatten, wir, mich und den Anwalt, wir haben immer gedacht, die FPÖ ist unser Problem.
+ Also quasi, wenn wir schaffen, in Strache zu stürzen und die Regierung irgendwie zusammenklappt, dann ist unser Problem weg, weil die sind ja nicht mehr in der Regierung.
+ Was wir komplett missverstanden hatten, ist, dass die ÖVP, also die Kurzpartei, mindestens genauso interessiert war, die Sachen so zu belassen, wie sie waren. Mittlerweile versteht man vielleicht ein bisschen, warum, weil die diversen... nicht umsonst ist unser Herr Genie-Kind-Bundeskanzler Kurz zurückgetreten.
+ Und ist unter Beschuldigungsdatum und sonst was, aber es war offenbar die FPÖ nur ein Teil des betreffenden Systems und wohl der kleinere Teil, wenn man ehrlich ist.
+ Und der wenig professionellere Teil auch.
+ Und das war eigentlich das Problem. Also unser Problem war dann tatsächlich, dass eben diese Sonderermittlungseinheit, die sich da gebildete, bildete sich in einer Zeit, wo kein Innenminister da war.
+ Also was die Polizei hat tatsächlich eigenständig, eine Soko gebildet, ohne Auftrag an der Staatsanwaltschaft, ohne irgendwas.
+ Die Regierung tritt zurück, der alte Innenminister geht, der neue ist noch nicht angelobt, das dauert so circa 36 Stunden.
+ In diesen 36 Stunden geht das Bundeskriminalamt her und gründet eine Soko, ohne einen Auftrag und besetzt sie mit Beamten von irgendwas organisierter Kriminalität, Drogen, Raub.
+ Beamten, die inner... okay, ich muss jetzt wieder sehr vorsichtig sein... von denen ein gewisser Ruf vorausheilt, sagen wir es mal so.
+ Die nicht unbedingt normalerweise die klassischen Proponenten für so eine Soko wären vielleicht auch.
+ Es werden angeblich durchaus auch Dorfpolizisten dabei gewesen sein. Aber es wird wohl einen Grund haben.
+ Also dürfen die das? Eigentlich nicht. Es muss normalerweise ein Auftritt geben.
+ Es muss einen Auftrag geben. Normalerweise kommt eine Staatsanwaltschaft und sagt, hey, wir haben jetzt vor der Staatsanwaltschaft, ist die Leiterin des Verfahrens.
+ Das heißt, die Polizei arbeitet für die Staatsanwaltschaft, die Sonderermittlungsverfahren.
+ Die Polizei sagt, wir wollen das machen und die Polizei sagt, okay, hier ist unsere Einheit X oder Y und sonst was.
+ Okay, aber Staatsanwalt hat es ja gegeben. Aber auch der darf nicht ohne Minister oder so?
+ Nee, aber die Soko wurde gegründet. Da war noch kein Akt angelegt oder sonstiges.
+ Die haben einfach gesagt, wir werden eine Soko brauchen. Und bevor uns jemand fragt, eine zu machen...
+ ... weil es gibt nämlich eine Behörde, die für Korruptionsanwettungen zuständig ist in Österreich. Aber die wollten sie nicht. Sie wollten das Bundeskriminalamt haben.
+ Was möglicherweise auch seine Gründe hat, aber wie auch immer, ich will hier nichts unterstellen.
+ Aber sie haben auch das Bundeskriminalamt gekriegt und das Bundeskriminalamt hat dann gemacht, was es gemacht hat.
+ In Exzitivität, wie ich behaupten würde. Weil der Punkt war, die gingen davon aus, dass ich der übliche, dämliche Idiot bin, den sie normalerweise zu tun haben.
+ Und haben halt so gesagt, keine Ahnung, lass mal TÜs machen und lass mal halt da machen.
+ Technische Überwachung.
+ Lass mal Standortdaten, lass mal historische Nachrichten abfragen etc. So ist üblich einmal eins, sag ich mal.
+ Kam ich dabei raus, es gibt so ganz kurios, lustige Seiten im Akt, wo sie so schreiben, ja der hat irgendwie ein Handy, das kostet 800 Euro.
+ Es ist zu erwarten, dass er also nur die SIM-Karte wechselt und nicht das Telefon. Haha. So in die Richtung gehend.
+ Ist natürlich dann nicht passiert. Dann haben sie gedacht, okay gut, wir kommen ja nicht weiter.
+ Aber das Lustige ist, sie haben auch nicht versucht, uns zu kontaktieren, sind meine Anwälte nicht angeschrieben, so quasi alle Vorladung.
+ Wir haben sie sogar kontaktiert und haben gesagt, hey wir bieten euch an eine Einfahrenahme im Rechtshilfeweg in Deutschland, ich komme nur nicht nach Österreich, keine Chance.
+ Kein Interesse. Okay.
+ Und dann kam es eben, dann sind sie weiter gegangen und haben sich, da gibt es so das Lustige seit 2019, das nennt sich das Institut der Europäischen Ermittlungsanordnung.
+ Und ohne jetzt allzu tief einzusteigen, heißt das, dass ein EU-Land einem anderen EU-Land auftragen kann, eine Ermittlungsmaßnahme durchzuführen, ohne dass in dem ausführenden Land ein Richter da drauf schaut.
+ Das heißt, wenn jetzt ein angenommen rumänischer Richter sagt, er wird gern die, keine Ahnung was, die Nutte von seinem Kursanen in Deutschland finden und unterschreibt eine Europäische Ermittlungsanordnung zu einer Telefonüberwachung in Düsseldorf, dann wird das gemacht von der deutschen Polizei, wo er sich den Richter anschaut.
+ Echt? Ja. Krass. Europäische Ermittlungsanordnung. In meinem Fall war es dann halt, dass ein österreichischer Staatsanwaltschaft in österreichischer Ermittlungsrichtung unterschrieben hat, den Funkzellenabgriff von knapp 130.000 Teilnehmern in Berlin.
+ Was auch nicht zum Erfolg geführt hat und eigentlich sogar dann nachher auch in Österreich das Rechtswidrig anerkannt wurde, hat aber nicht geholfen, weil das war schon mal passiert noch mal.
+ Und so ging es dahin, also wir haben dann die Funkzellen meiner Anwaltskanzlei abgegriffen, bei Sixt haben sie einen Mietwagen, den ich gehabt hatte, sich tatsächlich liefern lassen nach Österreich und auseinandergebaut, um auf dem Navigationssystem Daten zu ziehen.
+ Server in Litauen beschlagnahmt, Flughaustarten von knapp 6000 Personen aus allen Flügen in dem relevanten Zeitraum, ich würde sagen, in ganz Europa gezogen, in Klarnamen lustigerweise im Akt, was auch recht geil ist.
+ Also wir wissen ziemlich genau, wer zwischen dem 23. und 28. Juni 2017 geflogen ist, falls jemand Interesse hat.
+ Das waren so die Ermittlungs-Schritte, und da gab es natürlich noch eine ganze Menge an Hausdurchsuchungen, meine Mutter wurde mehrmals durchsucht und keine Ahnung, wer alle, jede Ex-Freundin, die sie gefunden haben von mir, wurde durchsucht.
+ Welche Taten haben Sie dir denn zulast gelegt?
+ Ja ursprünglich, das war ja ganz lustig, ursprünglich war eben Ibiza-Video. Jetzt muss man dazu sagen, in Deutschland gibt es im Gesetz festgeschrieben, das ist überragender öffentlicher Interesse, dass die verdeckte Aufnahme rechtfertigt, also die Veröffentlichung der verdeckten Aufnahme eigentlich.
+ Das gibt es in Österreich nicht, das wird zwar angewandter Grundsatz, aber steht nicht dezidiert im Gesetz drin.
+ Diesen Fakt haben sie sich so eigen gemacht, um ein Strafverfahren wegen Verdeckteraufnahme, Weitergabe einer verdeckten Aufnahme zu machen. Das Punkt war aber, das Problem ist nun mal, die verdeckte Aufnahme hat in Spanien stattgefunden, in Spanien ist das Rechtssystem anders.
+ In Spanien ist das Rechtssystem so, dass die verdeckte Aufnahme legal ist, solange man selber auf der verdeckten Aufnahme drauf ist. Was in dem Fall ja so war, also man sieht mich ja.
+ Wusstet ihr das eigentlich vorher, oder war das...
+ Ja, wie man sieht dich...
+ Also der Typ in der weißen Hose im Ibiza Video, das ist meine Person. Das war in etwas schlechterer Form damals, aber das ist noch immer ich.
+ Ja, und...
+ Wusstet ihr das?
+ Ja, weil mein Partner war Anwalt, der hatte... also wir haben das... das ist auch etwas, was die Leute missverstehen. Ich habe das, wir haben das relativ juristisch durchgeprüft vorher.
+ Ich bin jetzt nicht verärgert und habe gesagt, hey komm lass Gesetze brechen, weil es eh scheißegal. Sondern wir haben gesagt, wir prüfen das juristisch und wir haben da drei verschiedene Anwälte eingebunden gehabt, die jetzt zwar nicht gesagt haben, was wir machen wollen, aber die Aktionen, also die Tathandlungen gesagt haben, die das geprüft haben und alle gesagt haben, mehr am Ende des Tages wird das als legal anerkannt werden müssen, das ist nicht illegal.
+ Aber da habt ihr ja schnell reagieren müssen, wenn ich mich jetzt richtig erinnere, diese Ibiza Geschichte kam ja da verhältnismäßig kurzfristig zustande, dass der Strache da hinfährt, etc.
+ Ja, das Problem bei der Kurzfristigkeit war jedes Mal eigentlich die Oligarchin. Also wie gesagt, mir fällt es ein bisschen schwer, da in das Detail zu gehen. Aber der Punkt war, dass die halt einerseits nicht wirklich wollte, also die hatte überhaupt kein Interesse an der Sache, die hat keinen Bock auf die Sache gehabt, sondern ich habe sie halt gekniet mehr oder weniger und hatte irgendwie ein Gefangengut bei ihr, der dann aber auch irgendwann rausgebracht war. Und die hat einfach keinen Bock gehabt. Und das war so, jedes Mal so ein, weiß nicht, wenn du das kennst, wenn du jemanden bittest, aber dir irgendwie hilfst und der sagt, äh äh äh. Und dann ist am letzten Mal gesagt, ja komm, ist er ja jetzt nicht mehr da.
+ Und letztes Mal eggs mamy, so war es halt dort. Die hat halt dann so 48 Stunden vorhergegangen und
+ hab ich sie dann weichgekocht gehabt, dann hab ich gesagt, komm, mach ich nochmal.
+ Und da habe ich halt 48 Stunden Zeit gehabt, um das auf die Beine zu stellen, was recht knapp ist,
+ was auch dazu geführt hat, dass ich dann diese Buchung-Villa Ibiza mit Echtkreditkarte getätigt habe,
+ weswegen mir auch klar war, dass ich identifizierbar bin. Was aber auch okay war in meinen Augen,
+ weil tatsächlich ich da dann irgendwann der Auffassung war, dass es sich mittlerweile,
+ da ging es dann ja nicht mehr um Schwarzgeld, Waschung und so klassische Korruptionsdinge,
+ sondern es gibt so eine Wahlmanipulation in Zeiten einer EU-Wahl. Und da war mir schon klar,
+ dass das andere Interesse wecken würde und ich habe mir gedacht, tu dir einen Gefallen und schau,
+ dass jemand, der wirklich suchen kann und will, was findet.
+ Okay, aber in diesem 48 Stunden Zeitraum habt ihr dann sozusagen auch noch diesen juristischen Check ab.
+ Achso, nee, nee, der juristische Check, was wir machen wollten, war schon klar.
+ Nee, ich meine in Bezug auf Spanien, weil das die Spanien...
+ Weiß ich, Spanien hatten wir schon vorher am Rader. Also wir wussten schon, dass Ibiza in Frage kommen würde.
+ Ich wusste ja nicht, ob ich die Oligarchin habe.
+ Okay, verstehe.
+ Ja, also jetzt kam es ja letztens, also wir sind ja jetzt im Prinzip hier einmal so, okay, Ibiza-Video,
+ die Fakten waren veröffentlicht, der Staat hat mehr oder weniger eigenmächtig sozusagen ohne politische Führung
+ beschlossen, jetzt müssen wir hier mal den Überbringer der schlechten Botschaft mal ordentlich durch die Mangel nehmen
+ und alles hat sich auf dich fokussiert. Du hast dich in Deutschland wahrscheinlich auch erst mal verhältnismäßig sicher gewähnt,
+ aber auch nicht so zu 100 Prozent, nehme ich an.
+ Naja, also der Punkt war, es gab ja tatsächlich, also anfänglich war es ja tatsächlich nur der Vorwurf der verdeckten Aufnahme.
+ Eben darauf wichte ich die ganze Zeit hinaus. Das ist überhaupt gar kein Vorwurf.
+ Also es ist einer, hier auf dem Camp wissen das alle, aber wenn, also dass da jetzt ein dermaßener Ermittlungsapparat
+ entsteht, ist ja schon auch sehr erstaunlich, oder?
+ Ja, Ermittlungsdruck ja, aber mitkriegst du halt keine internationale Rechtshilfe. Dafür ist das Delikt einfach zu schwach.
+ Und was dann passiert ist, sie sind dann dahergekommen, das war dann zu meiner Überraschung, also ich weiß, ich habe Ibiza veröffentlicht,
+ war dann noch irgendwie so zwei Wochen im Lande, also Deutschland in dem Fall, und bin dann in einem lang geplanten Urlaub gefahren.
+ Das war auf etwas komplizierten Wegen, aber ich sei zu trotz, kam zurück irgendwann im August 2019 und lese in der Zeitung Strache,
+ als er presst wurde. Zuck mit den Schultern, denk mal, cool. Bringe das nicht so zusammen, Hagen.
+ Und das Lustige war, normalerweise hast du ja Akteneinsicht, das Beschuldigte, und in meinem Fall haben sie das zum Geheimakt erklärt,
+ dass sie haben keine Akteneinsicht gewährt. Das heißt, ich wusste eigentlich nicht, was sie mir vorwerfen, was sie tun,
+ aber was sie gemacht haben ist, auch hier muss man wieder vorsichtig sein, aber aus irgendeiner geheimnisvollen Quelle
+ waren die Zeitungen immer bestens mit Akten gefüttert, also im Gegensatz zu mir, und haben also mir meine Akten quasi veröffentlicht
+ in den Zeitungen, damit ich weiß, was los ist. So nett eigentlich auch, oder? Ja, eigentlich schon, aber sie haben es halt immer so teilweise veröffentlicht,
+ das weiß ich so nicht. Aber wie auch immer, und da kam eben die Erpressung, und dann war mir klar, hey, der behauptet, dass ich ihn erpresst habe.
+ Und für mich war es komplett absurd, weil die ganze Zeit vorher, über den ganzen Frühsommer hinweg, laufen die Telefone meiner Anwälte
+ und alle meiner Bekannten heiß mit irgendwelchen komischen Angeboten, hey, wir zahlen dir zwei Millionen, drei Millionen für das Video,
+ sagen nur, dass es der und der in Auftrag gegeben hat, gib uns das Video, keine Ahnung was, also das war ein richtig absurder Angebot dabei,
+ auch teilweise garniert mit schönen Drohungen und sonst was, also die wollten unbedingt das Video, warum? Weil am 22. August kam das Buch dieser Obermeier aus
+ auf den Markt, Absieber, und der Strache wollte was, was er dem entgegensetzen wollte, weil Strache hatte noch immer die Hoffnung,
+ dass er zurückkommen kann. Und er wusste, dass das Buch für ihn natürlich nicht positiv ausfallen will, und er wollte das Video haben,
+ damit er dort seine komischen Sequenzen rausschneiden kann, wo er sagt, aber es muss alles legal sein, so wie wenn du in der Bank gehst und sie ausraubst und sagst,
+ alles legal, keine Sorge, die Waffe ist echt und ich will dich auch noch schießen, alles legal. So ungefähr war der Schmied, den Herr Strache probiert hat,
+ und das wollte er ihm belegen, deswegen wollte das Video, und zwar deswegen wollte das bis zum Mitte, Ende August haben. Und als das nicht kam,
+ Mitte, Ende August, welchen Jahres? - 1992, also direkt nach. Und als das nicht passiert, geht dann relativ schnell von einer
+ FPÖ-nahen, glücksspielnahen Blog eines Glücksspiellobbyisten eine Anzeige bei einem Bundeskriminalamt ein, in der behauptet wird,
+ ich handele Drogen, ich habe den Strache erpreist, ich bin mit Waffenhandel, ich weiß jetzt so circa 16 ziemlich schwere Paragrafen,
+ belegt durch nichts, aber jetzt haben die Behörden die Möglichkeit, international tätig zu werden, weil jetzt haben sie einen Vorwurf,
+ und die Argumentation des Vorwurfs ist, also ich lande den Strache vor und frage den Strache, wo ist der erpresst? Und er sagt nein.
+ Und die Argumentation des Bundeskriminalamts ist, naja vielleicht schämt er sich, es zuzugeben, er könnte ja trotzdem erpresst worden sein,
+ deswegen ist der Vorwurf glaubwürdig. - Geil. - Und damit kamen sie dann nach Deutschland, nach Spanien, nach Schweiz, nach Litauen,
+ ich glaube es waren so sechs, sieben europäische Länder, wo sie aktiv geworden sind. Die waren dann richtig geil unterwegs, die haben dann so in Malaga ein Büro aufgemacht,
+ und irgendwie Beamte nach Malaga gesetzt, drei Monate lang. - Die wollten auch mal Urlaub machen. - Das ist ein absoluter Irrsinn.
+ - Ja. - Und damit haben sie sich dann sozusagen... - Ja nee, das ging dann so weiter, wir haben das natürlich bekämpft, wir haben dann Beschwerden ohne Hände gemacht,
+ ich hatte dann recht streitlustige Berliner Anwälte, die da wie gesagt die Gepflogenheiten in Österreich nicht respektiert haben und dann alle angepisst haben mit ihren Schriftsetzen.
+ - Ich hab eine Idee welcher Anwalt das ist, der polst aber auch mal die Leute an. - Ich wollte es nicht so ausfallen.
+ - Der hat auf der Trauerfeier für Hans-Christian Ströbele das komplette Publikum beschimpft. - Ja, das wird sich schaden.
+ - Das könnte zugreffen. Jetzt geht die Unschuldsvermutung. - Ich bin mir sicher, dass das juristisch alles astrein war was der gesagt hat, aber ich kann mir schon vorstellen, dass der eine oder andere...
+ - Ja nee, er sagt nicht alle Juristen aber er hat ein sehr eigenwilliger Arzt. - Die kommen in Österreich nicht so an meinst du? - Nee, die haben tatsächlich bis heute einen Verfahren gegen ihn laufen.
+ Also die haben tatsächlich versucht die nach Österreich zu einer Verhandlung zu zitieren und er hat gesagt geht scheiße, ich setze dich zuständig für mich.
+ - Aber er meint, er geht nicht wieder nach Österreich. - Okay, wie ist denn jetzt der Stand in diesem Verfahren gegen dich? - Da haben wir es doch jetzt.
+ - Ich bin mir jetzt nicht sicher, wir haben jetzt schon alles erzählt was jetzt hier relevant ist zur Beurteilung. - Dieser Glücksspiellobbyist, du erinnerst dich Thomas hat im Logbuch noch einiges von diesen Glücksspiellobbyisten und dem sich dann anschließenden Verfahren erzählt, denn so viel sei gesagt Julian wurde verurteilt.
+ Ja, also dieser Glücksspiellobbyist hat also Anzeigen angebracht gegen mich ohne Ende und sein Blog quasi damit befeuert, dass er behauptet hat über Inside-Informationen zu verfügen.
+ Was er tatsächlich gemacht hat, er hat sich also zwei ehemalige freie Mitarbeiter meiner Firma damals an die Hand genommen, die sich angeboten haben, ihm Geld Informationen zu liefern.
+ Diese Informationen waren zu einem großen Teil einfach erfunden und falsch, das hat ihn aber nicht gestört, weil er wollte eigentlich nur möglichst nachteilige Informationen veröffentlichen können.
+ Und so hat er dann quasi, je nachdem wie man es jetzt sieht, behaupten wir mal die freundliche Variante Justiz vor sich hergetrieben, indem er quasi Exklusiv-Stories veröffentlicht hat, die dann sogar bis zur großen deutschen Light-Medien seine Infos übernommen haben teilweise.
+ Und behauptet hat, er hat halt irgendwie Zugänge-Informationen, Exklusiv-Quellen, die behaupten, wer im Waffenhandeltätig hätte, an einem Attentat mitgewirkt hätte, wer Zuhälter gewesen hätte, Drogen gehandelt hätte, eine Hanfplantage gehabt hätte, keine Ahnung was, also so ziemlich rauf und runter das Gesetzbuch.
+ Und hat das unterfüttert mit angeblichen Belegen, die die ihm geliefert haben. Und einer dieser Belege nur zum Beispiel war das Blinden-Hanfplantage, das er beim BKA, also beim Bundeskanzleramt eingereicht hat, wo er gesagt hat, das ist eine Hanfplantage, die steht in Salzburg und die wird von Julien Hessenthaler betrieben.
+ Und das BKA hat es dann also hergenommen und weil diese Leute da um diesen Glücksspiel-Lobbyisten nun mal technisch nicht die intelligentesten Jungs sind, haben sie halt die Metadaten nicht gelöscht.
+ Und kam halt irgendwie raus, erklär das Ganze ist irgendwie runtergeladen von der Badischen Zeitung von 2013 und zeigt eine Plantage, die irgendwie 2013 hochgenommen wurde.
+ Und kann also irgendwie schwerlich mit mir zusammenstehen und dann passiert was lustiges, dann ermittelt also das Bundeskriminalamt tatsächlich wegen Betrug gegen diese zwei anderen ehemaligen freien Mitarbeiter von mir und das Opfer ist das Lobbyist.
+ Nicht du!
+ Nee, der Opfer ist der Lobbyist, weil sie haben ja von ihm Geld genommen. Sie haben ihn betrogen indem sie falsche Informationen verkauft haben.
+ Moment, Moment. So jetzt durchsucht aufgrund, jetzt hört das Bundeskriminalamt also diese zwei Idioten ab, diese ehemaligen freien Mitarbeiter von mir, die gleichzeitig auch V-Leute in derselben Abteilung des Bundeskriminalamts sind, aus der ich so bekomme.
+ Langsam, es wird besser.
+ Diese V-Leute unterhalten sich also auf offenen Telefonen, weil sie sich sicher wähnen, weil V-Leute des Bundeskriminalamts über Drogenhandel, den sie betreiben.
+ Die BKA hört also jetzt drei Monate lang den Coke-Steals dieser Leute zu und beschließt dann, hey wir müssen eine Hausdurchsuchung bei denen machen, weil es geht nicht mehr.
+ Das Problem war, das ist ein glamouröser Akt wie das in Österreich heißt, das heißt der muss zur Ministerebene raufgetragen werden zur Absegnung.
+ Was das Bundeskriminalamt nämlich normalerweise sonst gemacht hätte, das hätte einfach seine V-Leute wahrscheinlich gedeckt, behaupte ich jetzt mal, es gibt Jungs als V-Motor und hätte einfach nichts gemacht.
+ Aber es geht halt jetzt nun mal nicht, es geht zu hoch angesiedelt, wir müssen also eine Hausdurchsuchung machen.
+ Und jetzt kommt der Witz an der Sache, die hören also drei Monate lang Telefone ab, wo die irgendwie darüber diskutieren, hey ich brauch noch drei Sieglinien und hast du noch weißes Papier übrig und keine Ahnung, so supergeile Codes.
+ Und das Bundeskriminalamt geht also jetzt und sagt, hey wir brauchen Sondereinsatzkommando Cobra und keine Ahnung was, weil die sind vielleicht bewaffnet oder ich weiß nicht was, warst ja auch warm.
+ Und der Durchsuchungsbefehl ist ausgestellt wegen Betrug.
+ Also sie durchsuchen nicht wegen Drogenhandel den sie drei Monate abgehört haben, sondern sie durchsuchen wegen dem angeblichen Betrug gegen diesen Lobbyisten.
+ Finden bei der Freundin das eine 130 Gramm Coke in einem Staubsaugerbeutel. Langsam.
+ Saugt man ja auch mal schnell weg.
+ *Gelächter*
+ Ich sage Österreich ist speziell.
+ Nee warte, warte, es wird besser.
+ Staubsaugerbeutel 130 Gramm Coke.
+ Nehmen also diese Freundin sagen, wem gehört das Coke, sie sagt, das kommt von irgendeinem Albaner.
+ Okay, dann setzen sie sich irgendwie und sagen, glaubt ihr nicht, wem gehört das Coke, das gehört meinem Freund. Woher hat das von irgendeinem Albaner?
+ Durchsuchen diesen Freund, das ist ein ehemaliger Mitarbeiter von mir, finden dort 10 Gramm Coke, ist eine Menge Waffen und sonstigen Schwachsinn und irgendeine geile, weil er einfach ein Genie ist, eine Aufstellung von seinen Ausgaben die letzten paar Monate, die so auf ca. 30.000 Euro im Monat belaufen für Philipp Plein und keine Ahnung was für Scheiße.
+ Der hat eine Rolle gespielt in unserem Vortrag gestern. Philipp Plein, das ist der Krypto-King.
+ *Gelächter*
+ Nee, der kommt schon besaldet.
+ Ja, klar, mit den Blitzerschuhen. 14.000 Euro Schuhe.
+ Jetzt wissen wir endlich wer bei dem kauft, aber Kartoffel muss das eh schon vorher werden.
+ *Gelächter*
+ Sag mal, was die da eingekauft haben. Guck mal. Die haben die schon gehabt. Ist ein Ack drin, kannst du raus suchen. Nee, aber jedenfalls, okay, gut, die durchsuchen den auch.
+ Der sagt, ja, das Coke ist für einen Eigenbedarf, die 130 Gramm bei seiner Freundin hat er keine Ahnung von woher kommen, weiß er nicht. Mein Name fällt nicht.
+ Dann passiert was Kurioses. Das BKA, die es in Salzburg, die Durchsuchung gemacht hat, mit Salzburger Einsatzkräften, setzt also diese Freundin von dem Typen in ein Auto und überstellt sie nach Wien.
+ Separat von ihm. Und laut einem Akt, man weiß es jetzt nicht, weil es leider nicht protokolliert, dauert diese Überstellung 7 Stunden lang. Der Fahrtweg Wien-Salzburg ist ca. 2,5-3 Stunden je nachdem.
+ In diesen 7 Stunden ist protokolliert, es wurden mehrere Pausen gemacht, fertig, Punkt.
+ In diesen Pausen wurden informelle Gespräche geführt, fertig, Punkt.
+ Sie kommt in Wien an, in Wien auf einmal ist ihre Aussage, das Coke kommt von mir und ich hab noch viel mehr geliefert und nicht von einem Albaner.
+ Er bestreitet das. Er sagt, nee, das stimmt alles nicht.
+ Und sie sagt auf einmal, ja, wir haben 6 Kilo Coke verkauft und irgendwie ein Kilo kommt vom Julian.
+ Die Polizei fragt nicht, woher die anderen 5 Kilo kommen sollen, sie sagt, wirklich vom Julian, ja vom Julian.
+ Die Polizei fragt ihn, er sagt, nee, stimmt alles nicht, alles Blödsinn, sie redet irgendeinen Schwachsinn.
+ Sie macht dann im Laufe, die gehen dann beide in Untersuchungshaft ewig lange, ca. 9 Monate später ist ihr Prozess.
+ In diesen 9 Monaten macht sie 11 Aussagen bei der Polizei.
+ In jeder dieser Aussagen sagt sie was anderes, also nämlich so was kausal anderes.
+ Also es ist irgendwann 2017 gewesen, nee es war irgendwann 2018, es war Sommer, es war Winter, es war Linz, es war Salzburg, also man weiß es nicht.
+ Jede Aussage differenziert von der nächsten.
+ Sie hat mich bedroht, ich hab sie bedroht, man, ganz, also wie auch immer.
+ Die gehen vor Gericht. Sie wird vor Gericht von der Richterin befragt.
+ Und zwar normalerweise vor Gericht ist es normal, dass man quasi zu den Vorwürfen gefragt wird.
+ Das heißt der Richter wird fragen, okay, die Staatsanwaltschaft behauptet, dass sie dralala, in ihrer Aussage haben sie das und das gesagt, was trifft zu.
+ Die Richterin in dem Fall tut das nicht, weil die Richterin in dem Fall noch nie ein Strafverfahren geführt hat.
+ Die Richterin will den Fall auch nicht, sie versucht ihn dreimal abzugeben, aber ihr werdet auch auferlegt, warum auch immer.
+ Und in diesem Verfahren nimmt die Richterin den Strafantrag der Staatsanwaltschaft, liest ihn vor und fragt, sie stimmt das.
+ Und die sagt ja, ja, ja, ja, ja. Fertig.
+ Er sagt nein, nein, nein, nein, nein. Sie bekommt für den zugegebenen Verkauf und Handel von knapp, glaube ich, dreieinhalb Kilo Kokain sechs Monate fix und zwölf Monate auf Bewährung aufgebrummt mit einer Vorstrafe wegen Drogen schon.
+ Was erstaunlich, also das hat noch nie jemand gehört, glaube ich.
+ Er bekommt drei Jahre, weil er nicht zugibt.
+ Dann passiert etwas ganz Kurioses. Drei Tage später taucht sein Freund und andere ehemalige Mitarbeiter, der nicht verhaftet wurde wegen Drogenhandel, beim Staatsanwalt auf und sagt, er möchte etwas zu Protokoll geben.
+ Sein Freund, der jetzt drei Jahre bekommen hat, hat gelogen vorher und er weiß, das stimmt eigentlich, dass ich schon die Drogen geliefert habe.
+ Daraufhin geht der Staatsanwaltschaft zu dem Typen, der jetzt sitzt mit drei Jahren.
+ Es gibt wieder informelle Gespräche laut dem Akt mit dem Bundeskriminalamt, man weiß nicht, was geredet wird.
+ Und dann stellt dieser Typ mit der sein drei Jahren Strafe einen Antrag bei der Staatsanwaltschaft, ob er denn die elektronische Fußfessel bekommen könnte, wenn er seine Aussage ändert.
+ Schriftlich.
+ Die Staatsanwaltschaft schreibt natürlich formell korrekt richtig zurück. Wir versprechen nichts.
+ Je nachdem, wir werden sehen.
+ Er ändert seine Aussage, sagt, nee, nee, ich habe vorher gelogen, stimmt doch.
+ Ich habe Angst gehabt vor ihm, aber er hat mir die Drogen verkauft. Ein Monat später geht er auf Fußfessel.
+ Und am Ende dieser Aussagegeschichte waren die so halbwegs frei oder zumindest nicht mehr ganz so eingesperrt und die ganze Last lag auf dir.
+ Ja, weil sie haben bei so neun Monaten uhaft, die Freundin von ihm hat sechs Monate bekommen, damit war sie schon erledigt, nach dem Urteil nach Hause gegangen.
+ Er hat, nachdem er seine Aussage ändert, die Fußfessel beantragen können, war er also knapp ein Jahr abgesessen von den drei Jahren.
+ Uhaft. Deswegen.
+ Jetzt haben sie also zwei Aussagen korrelierend, dass ich Drogen verkauft habe an sie angeblich.
+ Die passen noch immer nicht ganz zusammen, aber wie auch immer, es reicht für einen Haftbefehl jetzt offenbar.
+ Der wird uns aber nicht gesagt. Also der Punkt ist jetzt, wir kontaktieren monatlich die deutsche Polizei, die deutsche Generalstaatsanwaltschaft in Berlin,
+ also auch die österreichische Polizei, und sagen, hey, gibt es einen Haftbefehl, wenn ja, da stellt sich auch kein Problem, nur nicht in Österreich.
+ Sagen wir euch nicht.
+ Wollt ihr ihn vorladen? Nee.
+ Okay. In der Zwischenzeit bin ich irgendwo in Spanien unterwegs, bin gerade irgendwie mit dieser Wirecard-Schosse ein bisschen beschäftigt,
+ und dann kommt eine Durchsuchung des Ferienhauses meiner Mutter in Frankreich durch eine Europol-Spezialenheit.
+ Womit mir relativ klar ist, wenn eine Europol-Spezialenheit da irgendwie ausrückt, dann muss ein Haftbefehl irgendwo liegen, das geht sonst nicht.
+ Redet mit meinen Anwälten, die meinen, hey, komm zurück nach Berlin, besser für dich, weil in Berlin zumindest können wir dich halbwegs rechtlich schützen.
+ Komme also nach Berlin, Zeiten von Corona, verschlungene Wege, kompliziert.
+ Und setz mich mal in Berlin hin und mach tatsächlich das, was ich immer gemacht hab, das heißt, ich geh zu meiner Hausbank, einmal die Woche,
+ tätige Geschäfte am Bankschalter mit Ausweis, geh auf Krankenkarte zum Arzt für irgendwie so Standarduntersuchungen, warte, ob was passiert ist, passiert nichts.
+ Also tatsächlich recht erstaunlich, wie ich nachher wusste, hab ich einen Interpol-Haftbefehl gehabt,
+ aber offenbar kann man auch mit dem Interpol-Haftbefehl bei der Sparkasse Berlin um Alexanderplatz oder Probleme Bankgeschäfte tätigen.
+ Dann kommt irgendwann also der Zugriff, ich merke, dass eine Observation rennt, die ich, ohne es jetzt in Detail gehen zu wollen, aus diversen Gründen nicht,
+ also ich hätte die Observation wahrscheinlich entgehen können, als Problem wäre, da würden andere Probleme entstanden.
+ Ich denk mir, es hat keinen Sinn mehr, komm lass, schauen wir mal, was passiert.
+ Packen, patzen Geld ein, packen frisches Handy ein, packen USPS-Regal, frisch gewiped und gehen mal spazieren.
+ Und werde dann auch vom BK Wiesbaden verhaftet, in Berlin.
+ Tatsächlich Hintergrund dessen ist, dass die Berliner Polizei, laut der österreichischen Polizei, die Berliner Polizei,
+ ich nehme das natürlich dem in Tieren an, aber ich bin trotzdem ganz dankbar, sich angeblich geweigert hat,
+ irgendwie zu kooperieren nach diesen Funkzellenabgriffen, also zumindest nicht sonderlich aktiver.
+ Und deswegen das Bundeskriminalamt in Österreich, ihre Kollegen in Wiesbaden gebeten haben,
+ ob sie denn nicht irgendwie behilflich sein wollen könnten.
+ Und die waren dann auch behilfreich und haben mich also in Prenzlauer Berg dann verhaftet am 10. Dezember 2020.
+ Haben mich noch Moabit über, also das heißt Tempelhof glaube ich ist das bei euch, das Polizeianal der Zentrum.
+ Berlin.
+ Der Knast in Berlin?
+ Ja, das Polizeianal der Zentrum ist Tempelhof.
+ Moabit ist ein Knast.
+ Ne Moabit ist ein Gefängnis, da vorne gibt es das komische...
+ Die Polizei gibt es überall.
+ Wie zugeben, dass du mal gewesen zu sein.
+ Ja, also wie auch immer, ich komme nach Moabit, bin dann dort irgendwie so knapp dreieinhalb Monate,
+ bekämpfte die Auslieferungsstellen, Asylantrag sogar in Deutschland, gehe zum Bundesverfassungsgericht,
+ weil sich die Berliner Gerichte weigern, die Auslieferung hinsichtlich politischer Verfolgung zu prüfen,
+ Verlier, alle Varianten, also auch beim Bundesverfassungsgericht,
+ und werde dann zum Wirecard-Untersuchungsausschuss geladen, lustigerweise, im Bundestag.
+ Direkt aus dem Knast sozusagen.
+ Ich bin tatsächlich mit dem Justizbus zum Bundestag gefahren, in Handschellen,
+ und wurde in Handschellen im Bundestag reingeführt, in den Urasschussraum des Bundestags.
+ Können wir ganz kurz einen Exkurs zum Wirecard machen, oder führt das jetzt zu weit?
+ Ich könnte mir vorstellen, dass sich jemand dafür interessiert.
+ Ja, also der Punkt dahinter war, dass Wirecard ist ja nicht, weil man sich damit beschäftigt,
+ eine ziemlich österreichische Angelegenheit, ich hatte tatsächlich ein Seitenaspekt,
+ wird in Österreich auch nicht so gesehen, so ähnlich wie, der Deutsche muss überfallen,
+ hat Wirecard in Österreich auch nichts mit Österreich zu tun.
+ Das waren immer die Deutschen.
+ Ja, nee, der Punkt ist, dass ich mich mit einem Seitenaspekt von Wirecard beschäftigt,
+ der mir zufällig irgendwie über den Weg gelaufen ist, diese Libyen-Geschichte,
+ seltener Truppenaufbau, und hatte da irgendwie ein paar Linien verfolgt, was auch mitunter
+ auch mal ein Grund für meinen Aufenthalt in Spanien war, unter anderem.
+ Aber ja, wie auch immer, ich hatte also ein paar Vermutungen, die der Untersuchungsausschuss hatte,
+ bestätigen, ich konnte jetzt kleinenstatt natürlich neun Aspekte hinzufügen,
+ ich konnte vielleicht ein paar Einblicke aus österreichischer Perspektive gewähren,
+ und auch vielleicht ein paar bekannte Gerüchte bestätigen oder dementieren hier und da.
+ Das war es im Prinzip. Das Lustige an der Geschichte ist, ich weiss es deswegen,
+ weil die Österreicher gerade versucht haben, meinen Auftritt in Wirecard-Untersuchungsausschuss zu verhindern.
+ Der Punkt dahinter war, dass es in der europäischen Rechtsgeflogenheit üblich ist,
+ dass die Auslieferung, selbst wenn sie bekämpft wird, maximal drei Monate dauern darf.
+ Mein Auftritt im Bundestag war exakt, ich glaube drei Monate und eine Woche später angesetzt.
+ Die Österreicher haben darauf bestanden, mich auszuliefern.
+ Der Bundestag hat gesagt, ne, wir wollen den Laden auszeigen.
+ Die Österreicher haben gesagt, ne, das geht nicht, die haben es drei Monate frist, die müssen ihn ausliefern.
+ Ne, wir wollen den Laden auszeigen, ne, das geht nicht.
+ Hinten, hinten, hinten, hinten, hinten.
+ Bis die Österreicher gesagt haben, hey, wenn ihr ihn jetzt ausliefert, dann zahlen wir die Auslieferung nicht.
+ Normalerweise muss ich immer das Land, in dem du ausgeliefert bist, die Rechnung übernehmen.
+ Und der Bundestag hat dann sagen müssen, ja gut, dann zahlen wir es.
+ Also meine Auslieferung nach Österreich wurde aus Bundestagsbudget gezahlt.
+ Weil sonst wäre es nicht möglich gewesen.
+ Nur um zu verdeutlichen, wie sehr den Österreichern es wichtig war, dass ich nicht dort meinen Mund öffnen kann.
+ Ja, dann wurde ich also nach Wien überstellt.
+ Wien war dann auch, ja, mein Gott, von allen Gefängnissen, wo ich war, war Moabit mit Sicherheit das beste.
+ Und wir sagen allen Leuten, Moabit ist richtig scheiße.
+ In wie vielen Gefängnissen warst du denn schon?
+ Ja, jetzt drei.
+ Ach so.
+ Also Moabit, Wien und dann bin ich tatsächlich nach St. Balken verlegt worden zu meiner Verhandlung.
+ Bin ich also auf Wien überstellt.
+ Wien ist Einzelhaft, ist Sicherheitsabteilung, ist also die Abteilung, wo irgendwie alle IS-Terroristen, Mörder und sonst was eingebracht sind.
+ Und noch dazu dann dort in Einzelhaft, weil Sicherheitsbedenken geäußert werden.
+ Bin dann dort knapp bei dreieinhalb Monaten oder so in Einzelhaft, was relativ anstrengend für den Kopf ist.
+ Also irgendwie ungesund, Einzelhaft kann man nicht empfehlen.
+ Merkt euch das.
+ Ja, ne, ne, ne.
+ So.
+ Eine Woche ist angenehm, kannst abschalten und so, aber danach wird es anstrengend.
+ Und wer dann also schafft es mich aus der Einzelhaft rauszulösen, indem ich der Anstalt schriftlich meine Einwilligung gebe, mich auf eigenes Risiko in die Generalpopulation zu überstellen.
+ Generalpopulation, also Sicherheitsabteilung so weit gesagt.
+ Und bin dann dort eigentlich, war sogar ganz gut dann, sobald ich in die Generalpopulation war, war eigentlich ganz vergleichsweise angenehm, soweit Gefängnis halt angenehm.
+ Also mit den anderen Häftlingen zusammen heißt das?
+ Ja, also mit den, ne, also bist schon noch immer, aber du bist jetzt nicht meiner, also davor war ich separiert.
+ Ich hatte so eine Zelle, die keine Ahnung, was ist ich, was, so zwölf Quadratmeter groß war oder so.
+ Und da geht halt tatsächlich die Klappe auf, du kriegst alles in die Klappe gezogen, was war.
+ Also sie ist kein Arsch.
+ Und danach warst du halt in der Zelle mit anderen Leuten, das ist zwar nicht immer angenehm, aber zumindest irgendwie, also Mensch ist ein Herdentier am Ende des Tages,
+ und wenn du lange irgendwie separiert gehalten wirst, dann fahrt einfach der Organismus zurück.
+ Du merkst einfach, der Kopf wird lang, sondern du wirst dumpf, du wirst apathisch, du wirst, hast Schlafstörungen.
+ Es ist wie gesagt nicht zu empfehlen einfach.
+ Und Folter, oder? Also ich mein, das ist doch schon hardcore, oder?
+ Ja Folter, ich mein, ich bin immer, ja, ja, also es ist wohl schon, es, die Methodik mag schon Folter und Methodik haben,
+ aber ich bin immer vorsichtig mit diesen Folter Sachen, weil tatsächlich gibt es Leute, die, also ich hab Leute auch sogar bei mir im Gefängnis gehabt,
+ ich hab's Jury gehabt, die haben Namen am Rücken gehabt.
+ Klar, also steigerungsfähig ist das, aber es ist, sagen wir mal.
+ Deshalb bin ich immer so vorsichtig mit Folter vorgelegt.
+ Ja, aber ich meine, wenn das Hauptziel ist, jemand erstmal der Öffentlichkeit zu entziehen, dann muss man ja nicht gleich in die Konkretivität so richtig runterfahren.
+ Ich muss sagen, der Deutsche Bundestag, speziell die SPD, hat Bedenken geäußert nach meinem Auftritt im Urschuss und hat Bedenken gegenüber der österreichischen Justiz geäußert und auch Sicherheitsbedenken.
+ Die Österreicher haben das dann hergenommen, als Grund mich in Einzelhaft zu nehmen, aus diesen geäußerten Sicherheitsbedenken.
+ Was ihnen natürlich entgegengekommen sein mag, aber nichtsdestotrotz, ich kann ihnen jetzt nicht den Vorwurf formell machen, dass sie mich als quasi als Bestrafung...
+ Also waren es wieder die Deutschen schuld?
+ Was haben die Deutschen für Sicherheitsbedenken geäußert?
+ Unterzeuge, aber ansonsten gefährlich oder was?
+ Nee, nee, ungefähr.
+ Das ist um seine Person.
+ Achso, also sie haben Bedenken gehabt um deine Sicherheit und deswegen haben sie sich...
+ Achso, um dich zu beschützen.
+ Ja, dem passiert hier nichts.
+ Dann passen wir auf, dann machen wir hier in den Zwischenkampf.
+ Oh Gott.
+ So, dann kam auf einmal aus dem Heiteren, aus dem Blauen heraus, die Anklage wird in St. Pölten stattfinden, nicht in Wien, was komplett unsinnig war, weil Wien war die ganze Zeit Staatsanwaltschaft Wien war damit befasst.
+ Es gab keine Amt benommen an St. Pölten. St. Pölten muss man dazu sagen, gilt in Österreich so als relativ rückständiges, rechtseuridmiertes...
+ Also was meinst du mit St. Pölten ist ein Ort?
+ Ist ein Ort, Provinz Hauptstadt, also so wie, keine Ahnung, Bayern München die Hauptstadt, ist halt St. Pölten die Hauptstadt von Niederösterreich.
+ Niederösterreich gilt halt generell so vielleicht ein bisschen so...
+ Na?
+ Na, nenn ich das mal rechtslastig vielleicht oder konservativ oder wie auch immer.
+ Und St. Pölten ist nochmal ein spezielles Pflaster darin gehend.
+ Und auch das Gericht in St. Pölten gilt als sehr polizeinah.
+ Also es gibt das Gerücht unter den Anwälten in Österreich, dass wenn die Polizei was anklagen will, dass sie gerne, wo sie wenig Beweise hat, aber gerne eine Verurteilung hätte, geht sie nach St. Pölten damit.
+ Wie auch immer, St. Pölten war ausgerufen, meine Anwälte haben mir gesagt, wenn du in St. Pölten angeklagt wirst, wirst du verurteilt, keine Chance.
+ Bekämpfen wir das, wir haben es bekämpft, wir haben es wie immer verloren.
+ Kram nach St. Pölten, dort komplett andere Show, also hab wieder erwartet, ok jetzt fängt diese Einzelhaft an und so weiter, wieder gleich in der Schmäh...
+ Nein, überhaupt nicht, dem war das komplett egal, also ich hab mich da reingeholt, da nimmt er die Sachen, geht da eine.
+ In Gefängnissen ist es üblich, dass man nach Nationalität und nach Religionsbekenntnis zusammengelegt wird, also es war logisch, dass man mit Österreichern zusammengelegt werden würde.
+ In meinem Fall war die Kuriosität der Auswahl der Zelle dahin gehend zu sehen, dass die anderen Insassen der Zelle allesamt wegen irgendwelchen Hass und Neonazi oder wie sagt man so, Widerbetätigung heißt das in Österreich, also quasi...
+ Rückfällige Nazis.
+ Rückfälliger Nazi-Verbrechen in irgendeiner Form verurteilt worden, also der Einschlag war deutlich, sagen wir es mal so, die harten Kreuzchen an den Betten auch.
+ Und warum auch immer, es kann sein, dass es ein Zufall ist, es kann auch einfach sein, dass irgendwer gedacht hat, hey das ist lustig, weiß ich nicht.
+ War halt nichts anderes frei vielleicht.
+ So hat man es mir auch gesagt.
+ Wie auch immer, da wurde nicht so viel Wert auf diese Sicherheitsbedenken gelegt offenbar, war aber auch eigentlich kein Problem, weil ich drauf gekommen bin im Gefängnis, wenn so das Gefühl herstürzt, so quasi den Staat gefickt und bist dann einfach geil.
+ Gesteigerter Coolness Faktor sozusagen.
+ Ja, also es war wirklich, das kann ich wirklich nicht beschweren, weil alle immer so gemeint haben, hey wirst du bedroht, hast du... Nein überhaupt nicht, die Leute haben ja Kuchen gebacken und ich weiß nicht was.
+ Im Knast?
+ Ja.
+ Echt, da kann man ja einfach so Kuchen backen finden.
+ Die haben Zeit man.
+ Nee, nee.
+ Aber haben die auch einen Ofen?
+ Nee, hast du nicht, aber ich hab sogar selber gelernt, ich stelle euch ja keine Kleider wie.
+ Im Knast kannst du dir ausleihen, das geht in Deutschland übrigens nicht, das ist der einzige Nachteil, Moabit musst du das tatsächlich bauen mit irgendwelchen Tumfischdosen und Tocht und Öl in der Dose, aber... Nee, du kannst ja Kochplatten ausbauen.
+ Und wenn du jetzt zwei Kochplatten nimmst und zwei Pfannen hast und die quasi gegengerecht übereinander legst, kannst du Ofen machen.
+ Nein, das sind Ofen.
+ Und wenn du ja noch weißt wie du Biskuitteig anrührst, was eigentlich nicht so schwierig ist, da kannst du tatsächlich Kuchenformen backen und ich hab tatsächlich am Ende vierstöckige Torten gebacken, also kann ich das...
+ Echte rückfälligen Nazis haben dir einen Kuchen gebacken?
+ Nee, das waren die Rumänischen einfach.
+ Achso.
+ Alter, die Nummer hat sich schon gelohnt, die Geschichten die du erzählen kannst, dein Rest des Lebens einfach unbezahlbar.
+ Die Nazis wollten mich mit dir zu Barm füttern.
+ Aber dann machen wir morgen mal einen Kuchen zusammen.
+ Ja, klar.
+ Zwei Kochplatten haben wir.
+ Geht super easy.
+ Ninos?
+ Kommt gut raus.
+ Alles gut.
+ Ja, ist noch Red Bull da finde ich.
+ Ja, ja, ich war gerade besorgt.
+ Also dafür, dass du keinen Red Bull trinkst, ist es schnell nicht fest.
+ Hat einen gewissen Suchtfaktor.
+ Es ist die österreichischeisierung jetzt, ne?
+ Jetzt verstehst du womit der Martin Schütze seine Fußballklubs zeigt.
+ Ja, ja, so läuft es.
+ Das ist alle durch dieses Getränk paralysiert.
+ Ja.
+ Damit wird Leipzig gezahlt.
+ Und Salzburg.
+ Und Salzburg.
+ Und Salzburg.
+ Und Salzburg.
+ Gibt es noch geile Knastrezepte?
+ Ja, ja, Knastrezepte gibt es eine Menge.
+ Ich habe Kebabs gemacht.
+ Im Knast ist das Essen erstaunlich schlecht.
+ Aber ab und an einmal im Monat ist das Kochfleisch beschissen.
+ Aber wenn du es trocknest, kleinschneidest, marinierst und abbratest,
+ dann hast du so etwas ähnliches wie Kebapfleisch.
+ Wie war es denn?
+ Kebapfleisch.
+ Döner heißt es?
+ Döner.
+ Ah, sorry.
+ Nein, es geht gut.
+ Es war ein enormer Aufwand.
+ Ich habe dann angefangen, Fleisch einzutauschen.
+ Ich habe dann an meinem Stock angeboten,
+ dass ich die Wäsche prioritär wasche.
+ Weil ich war in der Wäscherei dann nachher angestellt.
+ Ich habe gesagt, wenn ihr eure Wäsche möglichst schnell und sauber haben wollt,
+ dann gibt es Fleisch bei mir.
+ Ist das auch mit Alkohol braun, dass da der Hefen gehandelt wird?
+ Gibt es, aber es war nicht meiser.
+ Die Leute machen so die absurdsten Sachen im Gefängnis.
+ Die hauen sich Sachen rein, die du nicht einmal ...
+ Da werden Medikamente missbraucht in einem Umfang,
+ den du noch nie gesehen hast.
+ Und Sachen gespritzt durch Kugelschreiber.
+ Döner.
+ Nein, es gibt eigentlich sehr viele Sachen.
+ Es ist einfach nur unappetitlich.
+ Okay, also Kuchen.
+ Das ist ja eine Familiensalberie.
+ Kuchen?
+ Döner?
+ Alles gut.
+ Nein, also wie gesagt, das war so Zeit dann in St. Bölken.
+ Mir war schon dann Prozessbeginn.
+ Der Prozess hat sieben Monate lang gedauert.
+ Es waren x-fragere Termine.
+ Der Prozess lief ganz witzig, weil mir war eigentlich klar, ich wäre verurteilt.
+ Und meine Anwälte haben so teilweise noch gesagt ...
+ Ich meine, das Ding da stand doch auf dünnen ...
+ Also, Töne an den Füßen ist ja sozusagen noch eine Übertreibung.
+ Das ist ja eher so eine semipermeable Membran, auf der das Ganze aufgebaut ist.
+ Ja, ne, aber das Lustige ist, dass ich das als subjektiv Betroffener sage, ist logischer.
+ Was da tatsächlich war, und dafür bin ich auch ganz dankbar,
+ gab es diverse NGOs, unter anderem Epicenter Works, die jetzt eh auch da sind.
+ Thomas.
+ Thomas da.
+ Die dann tatsächlich sich die Mühe gemacht haben, nachdem wir ihnen den Act zur Verfügung gestellt haben,
+ den Act durchzuschauen.
+ Weil wir halt allen gesagt haben, hey, das ist komplett absurd.
+ Das ist Kafkaesque.
+ Und die Journalisten haben halt alle gesagt, hey, das ist die Staatsanwaltschaft,
+ die wird jetzt nicht irgendwie an was zusammenfantasieren, die wird schon was haben, wenn sie sich anklagt.
+ Wir haben gesagt, hey, die haben gar nichts. Das ist kompletter Bullshit.
+ Aber es war halt ein 50.000 Seiten Akt, und die Journalisten sind halt nun mal Journalisten und ein bisschen faul oft.
+ Vor allem, das ist jetzt nicht mehr die große Story, ob ich jetzt verurteilt werde oder nicht,
+ das ist jetzt nicht mehr Ibiza Video, wo man irgendwie eine ganze Redaktion dransetzt, Tag und Nacht so, a la Obermeier's Secret,
+ das Geheimer-Kämmerchen in der SZ, sondern das ist halt, ja, okay, geht ja ins Gefängnis oder nicht.
+ Mein Gott, setzt man halt den lokalen Journalisten drauf an.
+ Und die haben sich halt tatsächlich Mühe gemacht, den Act durchzuarbeiten, und sind halt zu demselben Schluss gekommen
+ und sind dann nachher, glaube ich, mit, ich weiß nicht, 18, 19, 20 anderen NGOs public gegangen, einen Tag vor Prozessbeginn.
+ Unter anderem mit Amnesty International und haben halt gesagt, hey, der Prozess stinkt.
+ Also das passt hinten und vorne nicht zusammen. Wir haben uns das angeschaut und das ist einfach, das macht keinen Sinn.
+ Die Orte, die Zeiten, die ist alles so irgendwie. Im Endeffekt, die Anklage war, der hat irgendwann, 2017, 18, irgendwo in Österreich
+ bei drei Gelegenheiten Kokain übergeben in einer Gesamtmenge von 1,25 Kilo.
+ Es ist nicht mehr möglich festzustellen, wo genau und wann genau, aber wir haben Zeugen, die das prinzipiell bestätigen, den Vorwurf.
+ Nachdem Sie schon 20 andere Geschichten erzählt haben.
+ Ja, ja, ne, ne, doch schon, aber der Punkt ist, also Sie sagen, Sie können, normalerweise brauchst Du einen Tatvorwurf, einen Tatort, eine Tatzeit, irgendwas.
+ Da waren zwei, und das Lustige war, wir hatten auch noch Beweise gefunden, dass die Geld kassiert hatten.
+ Also es gab E-Mail-Verkehr eben, dass dieser besagte Glücksspiel-Loboist der Novomatic, das ist in Österreich,
+ die wird lustigerweise, um das zu verstehen, warum die Novomatic jetzt irgendwie relevant wäre, warum die sich da irgendwie einmischen sollte,
+ weil was hat ein Glücksspiel-Konzern mit Ibiza zu tun? - Hochreguliert, oder?
+ Hochreguliert, ja, es gab also offenbar Lobbying, die Glücksspiel-Gesetze zu ändern unter der Strache-Regierung, das ja.
+ Aber warum dezidiert Novomatic, weil Strache in einer der wenigen veröffentlichten Sequenzen des Ibiza-Videos, die die SS veröffentlicht hat...
+ Der hat sie alle, der zahlt sie alle. - Richtig, da sagt er, die Novomatic zahlt alle.
+ Und das war natürlich ein unglaublicher Nachteil für die Novomatic, dass in Strafverfahren eingeladen worden und Ermittlungsverfahren und sonst was,
+ und die Novomatic ist dafür bekannt, dass sie mit äußerst harten Bandagen kämpft, wenn sie unter Druck kommt.
+ Und deswegen, das ist jetzt kein Beweis, und die Novomatic beschreitet das auch, muss man dazu sagen,
+ die Novomatic hat immer von sich gewesen, dass sie je irgendwas damit zu tun hatte, sie hat überhaupt kein Interesse an mir.
+ Auffällig ist, dass dieser Lobbyist, der übrigens mittlerweile kurioserweise in einem anderen Verfahren wegen Anstiftung zur falschen Zeugenaussage verurteilt wurde,
+ was wir auch vorgeworfen haben, in meinem Fall war das komplett unglaubwürdig laut dem Gericht, warum sollte jemand sowas machen,
+ aber wie auch immer, dieser Lobbyist ist weiterhin tätig für die Novomatic offenbar.
+ Was kurios ist, weil ich habe tatsächlich in meinem Job für Großkonzerne gearbeitet, und ich weiß es aus meiner Erfahrung,
+ Großkonzerne hassen nichts mehr als Bad Publicity, speziell in diesem Art Umfeld.
+ Und die Novomatic ist nochmal in Geschäftsfeldern tätig, die sehr sensibel reguliert sind,
+ unter anderem in Amerika, die Glücksspielkommission in Las Vegas ist bekannt dafür, dass sie bei Korruptionsverwürfen sehr ungehalten reagiert.
+ Also normalerweise würde man davon ausgehen, dass ein Konzern wie die Novomatic aus reinem Eigeninteresse so jemanden abstößt und von sich weist.
+ Ja, die normale logische Schritt. Das ist nicht passiert, warum auch immer, dem so ist, die Novomatic beschreitet das,
+ und es gibt auch keinen Beweis, dass die Novomatic damit zu tun hat.
+ Nichtsdestotrotz, Glücksspiellobbyist hat also Zahlungen geleistet an diese Zeugen in Höhe von knapp, ich glaube, was war es, 100.000 Euro knapp, glaube ich, haben wir hochgerechnet.
+ Das sind die belegten Zahlungen, offen gesagt gehen wir davon aus, dass deutlich mehr waren, aber wie auch immer.
+ Warum sind diese Zahlungen erfolgt und in welchem Umstand sind diese Zahlungen erfolgt?
+ Der Punkt war, ganz am Anfang zurückzugehen zum Veröffentlichen des Ibiza-Videos, dieser Glücksspiellobbyist findet diese zwei ehemaligen Freien Mitarbeiter von mir,
+ trifft sich mit ihnen, die sagen ihm, he he, wir können die Informationen geben, machen einen Vertrag mit ihm, wo drin steht,
+ ok, wir liefern die Information, dafür zahlst du uns mal 40.000 Euro und du hast 10 Tage Zeit, die Information zu prüfen und wenn sie stimmen, zahlst du.
+ Der unterschreibt das und zahlt am nächsten Tag 40.000 Euro.
+ Ich habe auch immer die Information so schnell überprüft, weiß ich die Information, war noch falsch, nachweislich, aber egal.
+ Und dann, ein paar Tage später gibt es noch eine E-Mail, wo die schreiben, he, für 15.000 Euro sagen wir dir, wer die Oligarchin ist.
+ Und der sagt ja, super, schickt 15.000 Euro.
+ Und dann gehen wir also zu Gericht und wir fragen also diese Zeugen, diese ehemaligen Mitarbeiter von mir, ihr habt 15.000 Euro bekommen,
+ laut E-Mail, damit ihr erzählt wer die Oligarchin ist, wer ist sie denn nun? Ja wissen wir nicht.
+ Ja ok, aber, wir haben sie ja 15.000 Euro, ich habe sie eben betrogen oder was, warum hat er dann gezahlt? Weiß ich jetzt nicht.
+ Ok, dann haben wir also diesen Lobbyisten vorgeladen als Zeugen und haben gesagt, ok, sie haben jetzt irgendwie, keine Ahnung, 60.000, 70.000 Euro und diese Leute gezahlt.
+ Warum denn, wofür denn? Also sie haben sich mit denen getroffen, irgendwie eine Stunde lang auf einer Raststation und danach zahlen sie denen mal 40.000 Euro und ein paar Tage später 15.000 Euro.
+ Was haben die in der ein, zwei Stunden geliefert, ist ja ein ziemlich guter Stundensatz.
+ Ne, das ist nicht so zu sehen, er hat die 5 Informationslieferungen auf die nächsten 6 Monate hinaus gezahlt. Ok, gut.
+ Was für verifizierte Informationen haben die denn geliefert? Na ja, das kann man jetzt nicht so sagen, es waren schon wertvolle Informationen dabei. Ok.
+ Moment, dann sagen wir ok, also für 6 Monate war diese erste Zahlung gedacht, ja. Warum haben sie 5 Tage später dann weitere 15.000 Euro gezahlt?
+ Ja, das kann ich jetzt nicht so genau sagen. Ok, gut, gibt eine E-Mail, wo drin steht, sie zahlen 15.000 Euro für die Identität der Oligarchen, können Sie uns sagen, wer die Oligarchin ist?
+ Nein, leider nicht. Könnte es sein, dass sie das Geld für etwas ganz anderes gezahlt haben? Nein, natürlich nicht, er weiß das weit von sich.
+ Das alles war für alle Anwesenden, ich glaube ich spreche da auch für die Prozessbeobachter unter anderem, da, Thomas da hinten, war reichlich absurd.
+ Der Richter hat das anders gesehen, so wie er so ziemlich alles anders gesehen hat, als die Anwesenden, die Personen in dem Gerichtssaal.
+ Es lief darauf hinaus, dass nach 7 Monaten der Richter zum Schluss kam, dass ja, die Zeugen haben Geld erhalten und es ist unklar warum.
+ Ja, es gibt eine Menge Zweifel an den Verfahren. Ja, die Zeugen widersprechen sich permanent.
+ Ja, die Zeugen bezichtigen sich gegenseitig als Lügner und dass sie Wahnvorstellungen haben und drogensüchtig sind und generell irgendwie schlechter Menschen.
+ Aber genau das macht sie glaubwürdig.
+ Moment, warum?
+ Ja, warum? Weil wenn unser Vorwurf stimmen würde, dass das ein Komplott wäre, dann hätten diese Zeugen sich ja abgestimmt und würden beide ohne Widersprüche die gleiche Geschichte haben.
+ Und weil sie das nicht tun, ist das Beweis, dass sie sich nicht abgestimmt haben und deswegen sagen sie die Wahrheit und daher schuldig 3,5 Jahre Gefängnis. Danke, auf Wiedersehen.
+ Das war das.
+ Also ich bin offiziell verurteilt Drogendealer.
+ Ganz kurze Frage.
+ Diese beiden Leute, denen eigentlich nachgewiesen wurde, dass sie 6 Kilo gehandelt haben.
+ Jetzt haben die gesagt, irgendwie 1,25 von dir.
+ Hat sich irgendjemand dafür interessiert, wo die anderen 5 Kilo herkommen?
+ Nee, das ist lustig. Ich habe ja viele Ermittlungsverfahren gesehen in meiner Zeit.
+ Es hat sich keine Saufen interessiert.
+ Das witzige ist ja, die haben ja damit argumentiert, diese zwei Zeugen, weil wir gesagt haben, warum?
+ Ihr habt am Anfang, der eine hat gesagt, das stimmt nicht. Ich habe keinen Koks verkauft, der hat seine Aussage erinnert. Warum denn?
+ Ja, weil er seine Seele erleichtern wollte, er wollte sich reinwaschen von seiner Ausrechnung.
+ Haben wir gesagt, ist ja kein Problem. Glauben wir dir alles, du willst ein besserer Mensch werden.
+ Dann sag doch, wer hat dir die anderen 5 Kilo geliefert?
+ Ja, will er nicht sagen.
+ Ja, aber warum denn nicht? Du willst deine Seele reinigen, was ist denn das Problem? Nee, will er nicht sagen.
+ Habt ihr die Polizei ein bisschen reinigen?
+ So ein bisschen.
+ So 55.000 Euro?
+ Ja, wie viel auch immer, es gibt die Unschuldvermutung.
+ Nee, der Punkt ist, wer mich dann gefragt hat, hat die Polizei denn jemals gefragt, woher diese anderen 5 Kilo kamen?
+ Nee, warum denn?
+ Also das ist das erste Ermittlungsverfahren, das ich jemals gesehen habe.
+ Ich habe auch eine Gewichtskost, geringe Menge gesehen an Ermittlungsverfahren, wo sich die Polizei nicht dafür interessiert, woher 5 Kilo Kokain importiert werden.
+ Das ist vielleicht eine höchste Spezialität, ich weiß es nicht, aber es ist eine der Auffälligkeiten des Verfahrens, sage ich mal.
+ Eine der vielen.
+ Du hast einfach zu wenig geliefert als ein Kleinfischel, wenn ich mal...
+ Ja, das kann sein.
+ Ich glaube das Hauptproblem war tatsächlich, dass die Freundin von ihm einfach am Anfang davon gerät, dass es 900 Gramm waren.
+ Dann hat er es schon irgendwie hochgedreht mit nicht, die jetzt sich dargelegt.
+ Das Problem ist, es gab tatsächlich, die waren zu dämlich und haben Buchhaltung geführt.
+ Und deswegen war es schwierig jetzt, dass irgendwie, also dem ein bisschen drauf drängen können, aber auf 6 Kilo sind sie einfach nicht gekommen.
+ Warum auch immer die gute Frau gesagt hat, sie hat 6 Kilo verkauft, vielleicht stimmt das sogar wirklich, und sie hat mir über die Jahre hinweg 6 Kilo verkauft, ich weiß es nicht.
+ Aber irgendwie war es halt nicht möglich, mir die 6 Kilo zuzuordnen, auch nur fiktional offenbar.
+ Aber es ist halt nicht so trotz Auffällig, dass es niemanden offenbar beim Bundeskriminal und den Österreich interessiert, woher 5 Kilo Kokain kommen, aber gut, soll so sein.
+ Die waren irgendwie Mitarbeiter von dir?
+ Die waren freie Mitarbeiter, also Punkt war, wir waren früher, früher gemeinsam in einer Firma tätig, wo ich auch um so, also quasi frei angestellt war.
+ Und nachher sich meine Firma übernahm, übernahm ich die als freie Mitarbeiter, weil die in ihrer Funktion als V-Leute extrem gute Zugänge zu den Polizeibehörden hatten.
+ Und in Österreich ist es, wie man vielleicht im Wirecardfall gemerkt hat, ist guter Zugang zu den Behörden in Österreich, lässt sich ummülzen in gute Informationsfluss aus Behörden raus.
+ Oh man ey.
+ Und das kann durchaus hilfreich sein, sag ich mal.
+ Dreieinhalb Jahre Urteil stehen jetzt am Ende des Verfahrens?
+ Ja, dreieinhalb Jahre Urteil, da sind allerdings schon, da sitze ich jetzt dann schon so knapp zwei Jahre fast.
+ Also eigentlich nicht mehr, ne, plötzlich ne, achzein Monate, also neunzein Monate.
+ Wir gehen also in Berufung, in Österreich gibt es tatsächlich im Gegensatz zu Deutschland keine Tatsacheinstanz, keine Zweite.
+ Das heißt der Punkt ist in Österreich so, so auch eine österreichische Spezialität, wenn du in Österreich verurteilt wirst und der Richter, es gilt in jedem Rechtssystem oder in jedem westlichen Rechtssystem, gilt die freie Beweiswürdigung.
+ Das heißt es obliegt dem Richter die Beweise frei zu würdigen.
+ Das heißt der Richter beurteilt unabhängig von der Beweislage, prinzipiell unabhängig von der Beweislage, in seiner Einschätzung das Gewicht der Beweise.
+ Und in Österreich ist es nun mal so, dass wenn ein Richter in einem Verfahren, das einem Strafrahmen von fünf Jahren übersteigt, zu dem Schluss kommt, dass die Beweise so zu sehen sind, wie er sie sieht, kannst du das in der oberen Instanz nicht mehr bekämpfen.
+ Das heißt wenn ein Richter einmal sagt, der Zeug ist glaubwürdig, obwohl er lügt, ist das so, das ist zementiert.
+ Das geht auch in der nächsten Instanz nicht mehr, du kannst in der nächsten Instanz nur mehr die Formalität bekämpfen.
+ Du kannst sagen, der hat formale Fehler gemacht, der hat keine Ahnung was, du kannst nicht mehr sagen, der Richter hat die Beweise falsch gewürdigt.
+ Das heißt wenn du einen verrückten oder einen sonst irgendwie anders motivierten Richter hast, das war es auch immer für einen Grund, der beschließt, er will ein komplett absurdes Urteil fällen,
+ dann ist deine Chance, dieses Urteil aufzuheben nicht gerade gut in Österreich, weil du die Beweiswürdigung nicht bekämpfen kannst.
+ Das war in meinem Fall auch so, das obere Gericht ist noch zurückgekommen und hat gesagt, das war die Beweiswürdigung des Richters, es gibt zwei Zeugen,
+ die mögen ja gelogen haben, aber wir haben am Ende nicht beweisen können, dass diese Zeugen Geld erhalten haben, um Falschaussagen zu tätigen,
+ was wiederum eine recht juristisch spezielle Position ist, weil wenn du in einem Anklagten...
+ Ich glaube, er wird immerhin zahlen. Ja, aber wenn du im Anklagten jetzt sagst, du hast nicht beweisen können, das ist so, das Staat muss dir beweisen.
+ Österreich ist ja quasi das Rechtssystem ein bisschen bewertiert, weil das in Strafverfahren oft so ist, dass du dich frei beweisen musst.
+ Also es kommt ein Vorwurf und dann wird es von dir erwartet, beweis mal, dass das nicht so ist.
+ Das Problem ist, ich habe das auch vor Gericht vorgebracht, weil Leute gesagt haben, wenn du es nicht warst, dann wirst du beweisen können, dass das nicht stimmt.
+ Ich habe gesagt, Moment mal, der Punkt, der Vorwurf ist, irgendwann 2017/2018 habe ich irgendwann entlang der Route Wien/München,
+ und ich hatte in München meine Firma, also jeder Mensch weiß, dass ich von Wien nach München pendel regelmäßig,
+ zwischen auf der Route Wien/München einen Kilo Kokain übergeben.
+ Das ist so, wie wenn ich irgendjemanden hier sagen würde, irgendwann letztes Jahr bist du auf deinem Weg zur Arbeit stehen geblieben und hast jemanden getroffen.
+ Das ist vielleicht falsch, aber beweis mal, dass es nicht so ist. Das ist ziemlich unmöglich.
+ Und das war die Problematik an dem Vorwurf. Er war so inkonkret, du kannst dich nicht frei beweisen.
+ Du kannst Widersprüche aufzeigen, du kannst alles Mögliche, aber wenn du halt einen Richter hast, der sagt, je mehr Widersprüche es, desto glaubwürdiger werden die Zeugen.
+ Was willst du machen? Keine Widersprüche mehr aufdecken.
+ Es war ja das, was sie von mir wollten. Es gab ja immer wieder so mehr oder weniger frausualisierte Angebote, ich soll doch das Urteil akzeptieren, ich soll nicht berufen.
+ Dann krieg ich die elektronische Fußfesslung und kann gehen.
+ Es ging nicht darum, ich jetzt irgendwie, denen war komplett egal, ob ich jetzt ein Jahr eingesperrt bin, 5 Jahre oder 10 Jahre, darum ging es nicht.
+ Die wollten unwidersprochen in Zeitungen stehen haben können, jeder Typ, der Ebezüge macht, ist ein Krimineller.
+ Und weil sie wussten, dass der Fall, den sie da verurteilt hatten, einfach so dünn ist, dass jeder, der ihn anschaut, gesehen hat, dass schwachsinnig ist,
+ war halt immer jetzt das Manko über der Verurteilung, dass die Hälfte der Bevölkerung sagt, naja gut, das ist ein bisschen seltsam, schaut irgendwie so politisch motiviert aus
+ und die andere Hälfte sagt, ey, scheiß drum, jeder hat bekommen, was er verdient.
+ Aber der Punkt ist halt, sie wollten es clean haben. Sie wollten einfach, kommt nicht nochmal auf die dämliche Idee, so was wie Ebezüge zu machen, weil jetzt ist eh was passiert.
+ Darum ging es. Und das ist halt, was wir ihnen nicht gegeben haben, was ich ihnen nicht gegeben habe und wofür ich aber am Ende auch relativ teuer bezahlt habe,
+ weil der Unterschied war nochmal irgendwie 14 Monate obendrauf, die ich halt extra gemacht hab, weil du musst dann natürlich in Haft bleiben, solange die Berufung rennt,
+ weil du nicht rechtskräftig verurteilt bist, sondern du rechtskräftig verurteilt bist, hast du kein Anrecht auf bedingte Entlassung etc.
+ So gesehen, das war also die Problematik dahinter, das heißt, dieser quasi, dieser Widerstand hat mir nochmal 14 Monate Gefängnis extra gekostet.
+ Zusätzlich zu 18 vorher.
+ Ne, das war, das erste Angebot kam vor dem Urteilsschluss, also es wären insgesamt, hätte ich quasi 14 Monate weniger machen müssen, wäre mit 14 Monaten hätte ich gehen können,
+ weil die mir die Halbstrafe, wie es in Österreich heißt, 50% nachgelassen hätten, plus die Fußfessel auf 12 Monate, dann bist du bei, keine Ahnung, was, dann...
+ Also wie lange warst du jetzt insgesamt im Gefängnis?
+ 28 Monate.
+ 28 Monate im Gefängnis, ey, fuck it.
+ Und jetzt ist es aber vorbei?
+ Ich bin nicht im Gefängnis offen.
+ Die Vermutung hat sich schon.
+ Wir haben mit den Lockpickern gesprochen.
+ Wir wollten nur kurz, dass du deine Aussage machst und kommst wieder knapp.
+ Ne, also ich hab 14 Monate jetzt Bewerbung offen, das heißt, die nächsten drei Jahre, wenn ich theoretisch jetzt rein, formal theoretisch bei Rot über die Ampel gehe, in Österreich zumindest, kann ich 14 weitere Monate ins Gefängnis eingesperrt werden.
+ Was wohl so ein gewisses Damoklash-Wert ist, deswegen bin ich auch so in gewissen Aussagen recht gehemmt und vorsichtig, die ich tätige, weil auch sowas wie eine Verleumdung, Ehrenbeleidigung, ähnliches dazu dienlich ist.
+ Deswegen bin ich etwas vorsichtig in meiner Einschätzung von anderen involvierten Stellen und Personen, aber ja.
+ Und die Novomatic schaut sich natürlich alles an. Schönen Gruß an die Kollegen.
+ Sag mal, was hast du denn jetzt sozusagen, was nimmst du denn daraus mit? Also ich meine, du warst ja vorher wahrscheinlich jetzt auch schon so ein bisschen im Bilde darüber, wie so Österreich so drauf ist.
+ Du hast ja schon gesagt, dass dich dann doch letztlich in diesem ganzen Prozess einiges überrascht hat.
+ Ja, ne, schau, der Punkt ist, dass, ich mein, mir war schon klar, wie Österreich drauf ist, aber ich hatte eben darauf gesetzt und das war auch mit ein Grund, warum ich die EU-Wahl für ein sinnvolles Datum-Akkord hatte,
+ weil ich davon ausging, dass internationale Druck oder Aufmerksamkeit die Österreicher darin hemmen würde, ihre komplette Perversität auszupacken, sag ich mal.
+ Das war nicht so. Ich habe auch gelernt, dass wenn es um Rechtsschutz geht, solange das irgendwie innereuropäisch ist, brauchst du jetzt auch nicht allzu viel erwarten, jetzt irgendwie von der Bundesrepublik Deutschland oder so.
+ Solange es nicht die Bundesrepublik betrifft, sind die dann schon irgendwie groß vorab mit der Fahne schwenkend von wegen Menschenrechte und sonst was.
+ Aber sobald sie selber involviert sind, sind sie dann auch recht schnell, dich irgendwie rauszuschmeißen, weil sie einfach den Stress nicht haben wollen.
+ Also das habe ich schon auch gelernt und auch meine Anwälte, ich weiß, ich hatte einen Anwalt, der lustigerweise auch den Assange vertreten hat mit Zeit lang.
+ Und der hat gemeint, ich habe immer gedacht, wenn der Assange in Deutschland verhaftet worden wäre, dann hätten wir ihn geschützt. Und er sagt, mittlerweile glaube ich das nicht mehr.
+ Mittlerweile glaube ich, dass es genauso gelaufen wäre wie bei dir, weil ich das der Staat einfach nicht antun will.
+ Wie dem auch sei, ich glaube, was man aus dem Sache jetzt genereller und breiter mitnehmen kann, ist, die Mechaniken, die wirken sind meistens gleich, glaube ich. Das ist etwas, was man generell sagen kann, wenn man sich jetzt diverse, und ich will mich da überhaupt nicht vergleichen.
+ Also ich finde das immer, es gab ab und an jetzt immer wieder so Vergleiche. Ich finde, Ibiza ist Ibiza und alles schon noch gut, aber es ist nochmal was komplett anderes als das Nono und das sonst und sonst was.
+ Der Vergleich ist ehrenvoll, aber ich würde ihn so nicht treffen wollen. Aber wie dem auch sei, die Mechaniken sind trotzdem gleich. Also der Punkt ist immer das gleiche. Es wird versucht, quasi die Leute zu delegitimieren.
+ Also jemand kommt, bringt irgendwas an die Öffentlichkeit, dann versucht man ihn zu delegitimieren, dann versucht man ihn unter Druck zu bringen, dann versucht man ihn mit irgendwelchen Vorwürfen mal öffentlich so in eine Ecke zu rücken, dass der öffentliche Rückhalt wegfällt.
+ Und dann versucht man ihn zu erledigen. Und das wird erfolgreich praktiziert. Ich glaube, das ist auch etwas, womit man sich, wenn man realistisch ist, auch wenn das vielleicht nicht wünschenswert ist, womit man sich auseinandersetzen sollte.
+ Nämlich, dass eigentlich kaum ein Fall, zumindest mir bekannt ist von einem Whistleblower, wenn man so will, und ich will mich jetzt auch da nicht unbedingt einreihen, aber ich sag's nur.
+ Der öffentlich bekannt wurde, der muss gut ausgegangen sein. Und das hat ja auch Methode, ne? Ja, ich sag ja, das ist die Methode. Es ist auch weniger der Rache, glaube ich, weil immer die Leute sagen ja, ne, es geht um ein Exempel-Statuiere.
+ Es geht einfach darum, dass du so bis zum gewissen Grad gehen kannst, aber so, wenn du was gewissen Grad überschreitest, dann ist einfach der Impuls, ein Exempel zu statuieren, und da ist es eigentlich schon fast teilweise gewollt, dass das Exempel möglichst absurd ausfällt, damit die breite Masse wahrnimmt.
+ Das eben das, weil sonst könnte man sagen, okay, das ist einfach ein normaler Strafverfahren, aber das ist schon gewünscht auch. Das ist eine Absurdität, bis du bis zum gewissen Grad, bin ich mittlerweile überzeugt, auch gewünscht, damit die Leute halt den Abschreckungseffekt sehen.
+ Egal wie unschuldig du bist, egal wie sauber du bist, egal wie moralisch edel du bist, du bist erledigt, wenn du so ein Blödsinn machst. Und das ist, glaube ich, warum es eigentlich geht. Und ich glaube, das ist, worüber man auch in breiterer Form diskutieren kann, was man auch diskutieren sollte und was man, weiß nicht, wie man es ändern kann, aber es ist definitiv etwas, weil überleg mal, wie viele durchaus wirklich relevante, will ich jetzt nicht sagen Weltbewege, relevante Sachen in den letzten Jahren über Whistleblower rausgekommen sind.
+ Weil man jetzt überlegt, wie viele Leute da irgendwo rum sitzen, die noch viel relevantere Sachen wissen und auch durchaus sagen wollen würden und nicht trauen.
+ Weil sie eben gesehen haben, was Leuten passiert, wie mit ihnen umgegangen wird, was für Kosten sie tragen müssen, was für Konsequenzen sie zu tragen haben.
+ Und das ist, glaube ich, wenn man da was ändern kann, also wenn man wirklich jetzt sagt, es gibt ja auch Leute, die sagen, es ist alles super, wie es ist und warum will man ein funktionierendes System rumfuschen, aber für den Teil, der sagt, es ist nicht so geil und da gibt es genug Sachen, die nicht gut sind, dann sollte man da vielleicht ansetzen.
+ Da gibt es mit Sicherheit, also immer wieder, am Ende des Tages, glaube ich, ist noch kein System von außen geändert worden, sondern immer nur von innen, wenn du so willst.
+ Und also das ist vielleicht auch eine Analogie zu dem, was hier ist, wegen CCC, im Endeffekt ist es, wenn ich jetzt überspitzt gesagt habe, aber Hacking ist ja auch nichts, du gehst rein und von drinnen machst du es quasi.
+ Und das ist das gleiche, also du wirst nicht von außen, wenn du von außen einfach nur dagegen rennst, dann wirst du vielleicht irgendwann einbrechen, aber der Effekt ist nicht das gleiche.
+ Es ist immer effektiver, wenn du von drinnen rauskommst.
+ Es ist im Ende auch das, was ich ja in meinem vorigen Job gemacht habe, wir haben es halt anders genannt, ihr nennt es Social Engineering und wir haben es halt, keine Ahnung, Filtration oder was auch immer genannt, aber der Punkt ist auch immer das gleiche, es passiert immer auf dem gleichen.
+ Da versuchst du dich also nicht mit dem Kopf durch die Wand gegen das System anzurennen, sondern versuchst dich halt irgendwie mal zu integrieren und irgendwie anzupassen und dann von drinnen heraus zu wirken. Und das ist auch glaube ich der effektivste und effizienteste Weg und auch der weitestführendste Weg, aber der Punkt ist, du musst es halt den Leuten auch ermöglichen bzw. ihnen Rahmenbedingungen schaffen, wo sie es machen wollen.
+ Es gibt sicher genug Leute, die der Überzeugung sind, hey es reicht irgendwann, ich meine, Menschen sind am Ende Menschen und jeder hat irgendwann mal so dieses Gefühl in sich gehabt, hey das ist einfach, das geht nicht mehr, das ist zu viel, das ist eine Stauraumschweinerei und dann siehst du halt so Leute wie Canard Sanschon, der dann 7 Jahre lang irgendwo eine Botschaft hat oder was auch immer und jetzt vielleicht irgendwie nochmal 100 Jahre unterab kriegt und da überlegst du dich dreimal, klar.
+ Und das sind so Sachen glaube ich, die, na darum sollte man reden und diskutieren, das sind, weil du wirst dem Impuls der Gegenseite, wenn du so willst, nicht vorbauen können, dass dieses Exempel statuiert werden soll und will, aber wenn du es ermöglicht irgendwie, dass solche Absurditäten nicht so leicht stattfinden, weil sie finden statt nur unter dem, wenn die Öffentlichkeit wegschaut oder sich blenden lässt mit irgendwelchen Fake Vorwürfen, Delegitimierenden oder sonst irgendwas.
+ Und am Ende des Tages, das ist das was uns vielleicht und ich sage absichtlich uns, weil ich es nicht immer auf mich beziehen will, uns Gemeinden und Anwalt auch bei Ibiza gefehlt hat, war eben dieser öffentliche Rückhalt, war ja auch unser Fehler, weil wir eben damals die Macht der Öffentlichkeit unterschätzt haben, wir sind eben nicht öffentlich gegangen und haben nicht öffentlich erklärt, was wie wo, auch mit anderem, weil wir eben noch diese Bodyguard Infos zu verwerten hatten und dass beides nicht gleichzeitig möglich war.
+ Aber der Punkt, der mich so trotz ist, ist trotzdem der, dass nicht jeder dieser Leute, die Informationen an die Öffentlichkeit tragt, wird perfekt sein, die meisten sind es wahrscheinlich nicht.
+ Viele davon mögen durchaus ihre Fehler haben und ich habe auch schon von, ich will jetzt gar keinen Namen nennen, ich habe schon gehört, dass charakterlich manche davon nicht unbedingt die angenehmsten Leute sein sollen, aber das macht keinen Unterschied.
+ Es geht nicht darum, dass du jetzt jemanden findest, der irgendwie ein super shiny white irgendwas ist, sondern der Punkt ist, die Zahl der perfekten Menschen ist auch sehr überschaubar.
+ Ja, der haben wir zu wenig gefällt.
+ Wie machst du jetzt weiter?
+ Tja, das ist eine gute Frage. Ich bin ja erst im April rausgekommen und habe jetzt irgendwie so acht Wochen oder was eigentlich selbst verschrieben gehabt, Medienrummel, einfach weil ich meine Sicht der Dinge darlegen wollte und habe mir dann eigentlich vorgenommen, irgendwie so einen längeren Campingurlaub zu machen.
+ Den habe ich nicht gemacht, aber das kann ich hier nachholen mit dem Zelt. So gesehen ist es. Aber nee, ich bastle an einem neuen Leben, wenn du so willst und das ist kompliziert genug mit all dem Drum und Dran.
+ Einerseits zu meinem eigenen Erstaunen ist dieser Medienrummel, wenn du so willst, hat recht viel Anklang auch in Österreich gefunden, was mir sowas wie ein politisches Gewicht verliehen hat bis zu einem gewissen Grad, dass ich durchaus geneigt bin zu nutzen, bis soweit wie möglich ist und soweit ich die Gelegenheit dazu bekomme.
+ Andererseits versuche ich halt auch immer irgendwie mir sowas zumindest zu bauen, was halt normal sowas wie Leben bedeutet, also Einkommen etc. was auch immer, Job.
+ Und ich versuche momentan, dass ich quasi durch das Kreis, ich versuche halt irgendwie einen Job zu finden, der mir erlaubt, locationunabhängig zu arbeiten im besten Fall und gleichzeitig die Zeit und Möglichkeiten erlaubt, mich da immer politisch und sonst wie zu betätigen.
+ Gleichzeitig bin ich in, weiß nicht ob ich da jetzt schon zu viel verrat, aber in den Anfangsstadien einer Gründung einer Plattform, wenn man so will, dann nennen wir es mal mit ein paar anderen, glaube ich zumindest in Österreich bekannten Gesichtern, um da weitere Thematiken zu bearbeiten, die da offen liegen, sage ich mal, mit Hinblick auf österreichische Politik etc.
+ Da hoffe ich, dass wir irgendwann im Herbst soweit sind, dass wir da irgendwie starten können, ohne ärgern können, wenn man so will.
+ Und ja ansonsten, mein Gott, ich suche, ja wie gesagt, Job suche ich noch immer, wenn da irgendjemand weiß, was locationunabhängig und Teilzeit-mäßig funktioniert, immer gern zu mir, aber ansonsten bin ich, glaube ich jetzt dann danach, werde ich hoffentlich mal wirklich in den Urlaub einlegen.
+ Das ist so momentan das, was du da verplant hast.
+ Würde ich empfehlen.
+ Ja absolut.
+ Das war ja nun wirklich ein wilder Ritt und das geht ja natürlich auch extrem auf die Psyche.
+ Vielleicht so zum Abschluss, was ist denn so, was würdest du sagen hast du gelernt über unsere Systeme?
+ Ich rede jetzt bewusst mal nicht von Österreich, weil Österreich ist ja eigentlich auch nur ein Extrem unter vielen und letztlich reden wir ja hier über Machtstrukturen, die zwangsläufig da sind, die sich so nie wahrscheinlich komplett verhindern lassen.
+ Und man hat halt mehr oder weniger krasse funktionierende Kontrollen, ja also krasse Auswüchse und funktionierende Kontrollen.
+ Manchen Staaten ist es irgendwie etwas balanciert da, weil sie mehr Geld haben, mehr Tradition haben, was weiß ich, weil es aus irgendwelchen Gründen funktioniert, dann anderen weniger.
+ Aber so mal jetzt so ganz allgemein gesprochen, was hat dich das gelehrt über unser Zusammenleben und über unsere Systeme, wie gut sie funktionieren oder wie gut sie funktionieren könnten?
+ Nur was ich gelernt habe ist einerseits für mich und das war etwas, was ich vielleicht in meiner Neuvität so nicht wahrgenommen hatte, ist, dass Medien bilden Meinung und die Meinung ist oft gebildet durch nicht unbedingt perfekte Informationen, sage ich mal.
+ Also ich war erstaunt darüber, was für Schwachsinn auch von Qualitätsmedien veröffentlicht wurde, einfach nur um irgendwas zu veröffentlichen und das bildet dann aber halt die Meinung der Leute, setzt den Narrativ.
+ Weil irgendwo muss man seine Information bekommen. Ich habe gelernt, dass Fake News erstaunlich effektiv ist, wenn sie einfach oft genug wiederholt wird.
+ Also das ist etwas, was ich auch gelernt habe. Das ist komplett wurscht, wie schwachsinnig es ist, wenn du es einfach hundertmal in die Öffentlichkeit besaunst und es wird nicht widersprochen, dann ist es irgendwie auch nochmal fucked einfach.
+ Das ist auch etwas, was ich so nicht wahrgenommen hatte. Ich habe gelernt, dass mehr prinzipiell gesprochen, dort wo Intransparenz herrscht, also wo Öffentlichkeit nicht hinschauen kann, passieren Dinge, die nicht passieren sollten, weil es der einfachste Weg ist, sage ich mal.
+ Das trifft auch auf Behörden zu. Ich glaube, es wird generell, da kann ich, glaube ich bin ich relativ legitimierter zu sprechen, es wird generell vielleicht hier in dem Umfeld ein bisschen weniger, aber dennoch unterschätzt, wie weit Behördengrenzen denen beugen brechen können in ihrer Suche nach einem Ziel, das sie erreichen wollen.
+ Ich glaube, es wird auch unterschätzt, wie die meisten oder viele Leute sehen Behörden so als ein monolithisches Konstrukt und Behörden sind eine Ansammlung von einzelnen Charakteren und diese Charaktere sind oft nicht die besten.
+ Und ich glaube, das wird auch unterschätzt, wie sehr da auch persönliche Anonymitäten mitspielen teilweise, also wie oft es auch einfach genügt, wenn du da irgendjemanden hast, der gegen dich ermittelt, arbeitet sonst was, der dir einfach aus irgendeinem Grund nicht leiden kann.
+ Das macht einen riesen Unterschied zu jemandem, der dich ganz cool findet am Ende des Tages. Ich glaube, es wird unterschätzt, wie unkritisch Staatsanwaltschaften behördliche Ermittlungsergebnisse übernehmen, also quasi ihrem Auftrag, die Ermittlungen zu prüfen, nicht nachkommen in Wirklichkeit.
+ Ich glaube, auch das lässt sich generell behaupten. Das mag auch durchaus, da gibt es viele Gründe dafür, sicher die Unterfinanzierung, Überlastung, sonst was, aber nichts draus ist es so, weil einfach Polizei ist Polizei. Ich sage immer, Polizei sind wie Hunde, die haben einen Spieltrieb und den wollen sie erfüllt haben.
+ Und wenn sie ihren Spieltrieb nicht erfüllt kriegen, dann sind sie einfach bissig. Und ja, es ist so, also das ist zutreffend.
+ Und das meine ich jetzt gar nicht despektierlich, aber es ist einfach so. Also das sind halt Leute, ich kenne das in meinem eigenen Ding, wenn du an was arbeitest, willst du ein Erfolgserlebnis haben.
+ Das Problem ist halt, wenn du dich verrannt hast und an etwas arbeitest, was nicht funktioniert, dann bist du halt frustriert.
+ Wenn du bei einer Position bist, wo du deine Frustration in einen Erfolg ändern kannst, indem du halt da einen Knopf drehst und da einen Knopf drehst, dann wirst du früher oder später relativ rasch Charaktere finden, die bereit sind, das zu tun.
+ Und das ist dann der Anfang von solchen Sachen. Ich glaube man sieht das immer so als die große Verschwörung. Nee, ist es nie.
+ Da haben sich vorher 20 Leute zusammengesetzt und haben irgendwie gebrainstompt und einen Masterplan gemacht, wie sie sich erledigen.
+ Da sind einzelne Akteure, die Schritte setzen und der andere sieht, dass es funktioniert und da setzen wir noch was drauf und da setzen wir noch was drauf.
+ Und am Ende kommt sowas dabei raus. Und ich glaube, das ist, was man realisieren muss. Und da sollte man irgendwelche Strukturen bauen, um den vorzubauen.
+ Ja, Julian, ich sag mal vielen, vielen Dank für die Einblicke in deine wilde Reise.
+ So hoch motiviert und schwer bestraft.
+ Beides zutreffend.
+ Du hast auf jeden Fall ordentlich eingesteckt für uns alle eigentlich. Und das kann man ja hoch anrechnen. Ich hoffe, es läuft jetzt besser für dich.
+ Ja. Danke schön.
+ Danke.
+ Es war uns eine Freude und Ehre und ich glaube, viel mehr haben wir gar nicht zu sagen. Teilweise kommen am Ende der Sendung manchmal Menschen zu Tim oder mir, die irgendwie zu viel Bargeld haben und uns bitten, dabei beim Tragen zu helfen.
+ Ich glaube, es ist klar, dass das nach dieser Sendung nicht an uns geht, sondern an Julian. Und ich glaube, damit können wir uns den wohlverdienten Abend verabschieden.
+ Vielen Dank, Julian. Vielen Dank fürs Zuhören. Das war Logbuch Netzpolitik 466 live vom Kraus Communication Camp. Wir haben noch eine kleine Überraschung am Ende für euch.
+ Stimmt, stimmt. Wir haben eine kleine Überraschung für euch am Ende. Ist die kleine Überraschung denn schon da?
+ Die kommt gleich. Ich sage auf jeden Fall erstmal, genau, wir sagen erstmal, was sagen wir denn mal?
+ Sagen wir an. Ja, müssen wir ansagen.
+ Jetzt sagen wir erstmal Tschüss.
+ Ah, okay.
+ Erstmal sagen wir Tschüss. Also vielen Dank fürs Zuhören. Das war es, Logbuch Netzpolitik. Habt noch ein schönes Camp.
+ Stimmt, die Bonustracks werden ja nie angeschrieben.
+ Es hat ja Tradition, dass die Bonustracks bei Logbuch Netzpolitik nie vorgestellt werden, sondern kommentaris abgespielt werden. Aber ich erkläre es trotzdem.
+ Vor vier Jahren haben wir hier einen Live-Vodgas gemacht im BER Village und da hatten wir zu Besuch Viktor und Sophia vom Systemabsturz.
+ Das war nicht im BER Village, das war vor acht Jahren. Das hieß vor vier Jahren anders.
+ Three-headed Monkey.
+ Genau, Three-headed Monkey.
+ Na, sag doch nicht, dass ich schon so alt bin.
+ Entschuldigung.
+ Genau, vor vier Jahren im Three-headed Monkey Village. Da, wo früher BER war. Und da haben wir mit dir und Sophia gesprochen und ihr habt danach ein Konzert gegeben.
+ Kleines Konzert. Und Viktor spielt jetzt wieder, allerdings mit seinem Soloprojekt, das heißt "Hitze frei".
+ Ja.
+ Möchtest du noch was dazu sagen oder geht es einfach los?
+ Nö, eigentlich nicht. Ich spiele, genau, das ist so die Musik, die im letzten halben Jahr zu mir gefunden hat.
+ Falls euch das dann gefallen hat, ich mache am Samstag um 16 Uhr am Marktplatz. Gibt es noch ein bisschen mehr Musik.
+ Und, ja.
+ So ist das dann. Dann räumen wir jetzt die Bühne für Viktor.
+ Vielen Dank.
+ Test, Test, Test. Jo. Ist jetzt auch mehr so als Gag gedacht gewesen.
+ Ja, haut rein.
+ [Musik]
+ Halt, stop, dieses Bild ist verboten. Halt, stop, das hab ich gesehen. Halt, stop, dieses Bild ist verboten. Halt, stop, das müsst ihr verstehen.
+ Wir haben irgendwann gemerkt, dass es eigentlich ziemlich praktisch. Geht da nicht noch mehr? Ich meine jetzt nur taktisch.
+ Auf einem Handy können Straftaten passieren und vor Kriminalität darf man nicht kapitulieren. Die schicken sich da auch politische Sachen.
+ Ein Blockadeaufruf, da muss man doch was machen. Halt, stop, dieses Bild ist verboten. Halt, stop, das hab ich gesehen. Halt, stop, dieses Bild ist verboten. Halt, stop, das müsst ihr verstehen.
+ Letzte Woche haben sich ein paar Leute überlebt, wie man den Scanner auf den Geräten umgeht. Warum sollte man das tun? Eine Straftat wird geplant. Wir müssen reagieren mit der harten Hand.
+ Halt, stop, das ist mit verboten. Halt, stop, das hab ich gesehen. Halt, stop, das Gerät ist verboten. Halt, stop, das müsst ihr verstehen. Halt, stop, das Gerät ist verboten. Halt, stop, das müsst ihr verstehen.
+ Halt, stop, das Gerät ist verboten. Halt, stop, das müsst ihr verstehen.
+ Auf Grafäen, einem Smartphonebetriebssystem hat es den Kleinsizeitscanner nie gegeben. Auch die Messenger werden ohne Scanner installiert, weshalb die Prävention von Bösem hier nicht funktioniert.
+ Wenn sich jetzt Menschenpinter schicken kann, der Scanner sie nicht sehen und Kriminelle können einfach so Straftaten begehen. Da müssen wir was tun, die Lösung liegt auf der Hand. Die Entwickler*innen zeigen wir alle an.
+ Halt, stop, das System ist verboten. Halt, stop, das hab ich gesehen. Halt, stop, das System ist verboten. Halt, stop, das müsst ihr verstehen. Halt, stop, das System ist verboten. Halt, stop, das hab ich gesehen. Halt, stop, das System ist verboten. Halt, stop, das müsst ihr verstehen.
+ Ein Graf flack blockieren. Halt, stop, links unten zitieren. Halt, stop, Geflüchtete retten. Halt, stop, bei Konzernen anketen. Halt, stop, ein Graf flack blockieren.
+ Halt, stop, links unten zitieren. Halt, stop, Geflüchtete retten. Halt, stop, bei Konzernen anketen. Halt, stop, ein Graf flack blockieren. Halt, stop, links unten zitieren. Halt, stop, Geflüchtete retten. Halt, stop, bei Konzernen anketen.
+ Yeah, das war's. War schön mit euch. Vielleicht sehen wir uns am Samstag um 4 am Marktplatz. Ich wünsche euch noch einen schönen Abend.
+ [Applaus]
+ [Musik]

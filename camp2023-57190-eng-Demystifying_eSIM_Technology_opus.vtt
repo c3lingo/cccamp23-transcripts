@@ -1,0 +1,2117 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ All right, without further ado,
+
+00:00:20.000 --> 00:00:30.000
+ I would like to present LaForge,
+
+00:00:30.000 --> 00:00:36.000
+ who will be speaking today,
+
+00:00:36.000 --> 00:00:42.000
+ Demystifying eSIM Technology.
+
+00:00:42.000 --> 00:00:44.000
+ Please, take it away.
+
+00:00:44.000 --> 00:00:46.000
+ [APPLAUSE]
+
+00:00:46.000 --> 00:00:50.000
+ Okay.
+
+00:00:50.000 --> 00:00:51.000
+ Yeah, thanks.
+
+00:00:51.000 --> 00:00:52.000
+ So we can get started.
+
+00:00:52.000 --> 00:00:54.000
+ Demystifying eSIM Technology.
+
+00:00:54.000 --> 00:00:57.000
+ So, yeah, so, well, very quick slide about me.
+
+00:00:57.000 --> 00:00:59.000
+ I'm a recovering Linux kernel hacker.
+
+00:00:59.000 --> 00:01:02.000
+ I did a lot of work in the OsmoCom project.
+
+00:01:02.000 --> 00:01:04.000
+ It's open source mobile communications.
+
+00:01:04.000 --> 00:01:06.000
+ That's like the actual communications part,
+
+00:01:06.000 --> 00:01:07.000
+ not eSIM so much.
+
+00:01:07.000 --> 00:01:09.000
+ It's a completely different topic.
+
+00:01:09.000 --> 00:01:11.000
+ Yeah, participating at the CCC camps
+
+00:01:11.000 --> 00:01:13.000
+ and other events for quite some time.
+
+00:01:13.000 --> 00:01:15.000
+ I work mostly on implementing
+
+00:01:15.000 --> 00:01:18.000
+ various telecommunication protocols.
+
+00:01:18.000 --> 00:01:20.000
+ And in my spare time,
+
+00:01:20.000 --> 00:01:22.000
+ I also implement telecommunications protocols,
+
+00:01:22.000 --> 00:01:26.000
+ but going back to the like 70s and 80s and so on.
+
+00:01:26.000 --> 00:01:28.000
+ So historical telecommunications.
+
+00:01:28.000 --> 00:01:31.000
+ And as part of that, there's also an ISDN
+
+00:01:31.000 --> 00:01:33.000
+ and a PSTN network at the camp.
+
+00:01:33.000 --> 00:01:35.000
+ So if anyone wants to still connect to that,
+
+00:01:35.000 --> 00:01:37.000
+ come talk to us.
+
+00:01:37.000 --> 00:01:42.000
+ So after the advertisement break,
+
+00:01:42.000 --> 00:01:43.000
+ yeah, overview.
+
+00:01:43.000 --> 00:01:44.000
+ So what is this about?
+
+00:01:44.000 --> 00:01:46.000
+ Going to do a little bit of a recap
+
+00:01:46.000 --> 00:01:50.000
+ on classic SIM, USIM kind of stuff.
+
+00:01:50.000 --> 00:01:52.000
+ Then talk about principles behind eSIM,
+
+00:01:52.000 --> 00:01:54.000
+ the different variants of eSIMs,
+
+00:01:54.000 --> 00:01:57.000
+ and how all of this is put together.
+
+00:01:57.000 --> 00:02:01.000
+ Be warned, this is a rather complex topic.
+
+00:02:01.000 --> 00:02:04.000
+ Like probably almost anything in telecommunications.
+
+00:02:04.000 --> 00:02:09.000
+ And yeah, this is just a very brief glimpse
+
+00:02:09.000 --> 00:02:11.000
+ into what is happening technically.
+
+00:02:11.000 --> 00:02:14.000
+ I mean, this is like dozens and dozens
+
+00:02:14.000 --> 00:02:16.000
+ of specification documents and so on.
+
+00:02:16.000 --> 00:02:18.000
+ So yeah, let's look a bit at the classic SIM
+
+00:02:18.000 --> 00:02:20.000
+ to put this into context.
+
+00:02:20.000 --> 00:02:23.000
+ So SIM cards in the telecom networks,
+
+00:02:23.000 --> 00:02:26.000
+ as we know today, were introduced with GSM,
+
+00:02:26.000 --> 00:02:27.000
+ the 2G technology.
+
+00:02:27.000 --> 00:02:31.000
+ That means it was first deployed commercially in 1991.
+
+00:02:31.000 --> 00:02:34.000
+ The idea of the original SIM card is what we call
+
+00:02:34.000 --> 00:02:36.000
+ a single purpose smart card.
+
+00:02:36.000 --> 00:02:38.000
+ I mean, it's a smart card,
+
+00:02:38.000 --> 00:02:40.000
+ a card that's not just memory,
+
+00:02:40.000 --> 00:02:42.000
+ but has a processor and an operating system
+
+00:02:42.000 --> 00:02:44.000
+ and so on inside the card.
+
+00:02:44.000 --> 00:02:46.000
+ And it only has a single purpose,
+
+00:02:46.000 --> 00:02:49.000
+ which is to be used in the GSM network.
+
+00:02:49.000 --> 00:02:52.000
+ The fundamental purpose of that classic SIM card
+
+00:02:52.000 --> 00:02:54.000
+ is that you store network configuration data
+
+00:02:54.000 --> 00:02:56.000
+ on the card, so you can move the,
+
+00:02:56.000 --> 00:02:58.000
+ like have operator-specific configuration
+
+00:02:58.000 --> 00:03:00.000
+ that you move between the devices.
+
+00:03:00.000 --> 00:03:03.000
+ You have to move the card between devices.
+
+00:03:03.000 --> 00:03:05.000
+ Back then, also storage of contacts
+
+00:03:05.000 --> 00:03:08.000
+ and storage of SMS messages was an important feature.
+
+00:03:08.000 --> 00:03:11.000
+ And last but not least, maybe the most critical part
+
+00:03:11.000 --> 00:03:15.000
+ to serve as a secure element for the per subscriber
+
+00:03:15.000 --> 00:03:18.000
+ key material for authenticating the subscriber to the network.
+
+00:03:18.000 --> 00:03:20.000
+ These are the functions of the classic SIM card.
+
+00:03:20.000 --> 00:03:24.000
+ So then, you know, a decade later,
+
+00:03:24.000 --> 00:03:27.000
+ around 2000, UMTS 3G was introduced.
+
+00:03:27.000 --> 00:03:31.000
+ And in that, we went from SIM to USIM.
+
+00:03:31.000 --> 00:03:34.000
+ And this means also to UICC.
+
+00:03:34.000 --> 00:03:37.000
+ So now, U-SIM probably some people will have heard,
+
+00:03:37.000 --> 00:03:41.000
+ so it's the UMTS SIM, basically the 3G and beyond SIM card.
+
+00:03:41.000 --> 00:03:44.000
+ And they didn't just create another single purpose card,
+
+00:03:44.000 --> 00:03:46.000
+ but they also introduced an additional layer,
+
+00:03:46.000 --> 00:03:50.000
+ which is the UICC, the universal integrated chip card.
+
+00:03:50.000 --> 00:03:52.000
+ So it's a general purpose multi-application card,
+
+00:03:52.000 --> 00:03:55.000
+ where multiple applications can run on the card.
+
+00:03:55.000 --> 00:03:57.000
+ And the USIM is just one application on the card.
+
+00:03:57.000 --> 00:04:00.000
+ A classic SIM, in addition for backwards compatibility,
+
+00:04:00.000 --> 00:04:03.000
+ might be another application on that card.
+
+00:04:03.000 --> 00:04:06.000
+ And later on, when Volte came around for LTE,
+
+00:04:06.000 --> 00:04:09.000
+ there was also an additional ISIM application,
+
+00:04:09.000 --> 00:04:13.000
+ ISIM for IMS, subscriber identity module.
+
+00:04:13.000 --> 00:04:15.000
+ That's what SIM stands for.
+
+00:04:15.000 --> 00:04:20.000
+ So again, configuration data that's for the IMS core,
+
+00:04:20.000 --> 00:04:23.000
+ IMS being the IP multimedia system,
+
+00:04:23.000 --> 00:04:27.000
+ being the strange SIP derivative that is used in voice-over LTE
+
+00:04:27.000 --> 00:04:29.000
+ and voice-over Wi-Fi networks.
+
+00:04:29.000 --> 00:04:32.000
+ So by now, we really have thousands of parameters
+
+00:04:32.000 --> 00:04:34.000
+ and hundreds of files in configuration on that.
+
+00:04:34.000 --> 00:04:38.000
+ But still, fundamentally, it's the functionality of the secure element
+
+00:04:38.000 --> 00:04:40.000
+ to authenticate the subscriber to the network.
+
+00:04:40.000 --> 00:04:44.000
+ And with the USIM also to authenticate the network to the subscriber.
+
+00:04:44.000 --> 00:04:47.000
+ Whereas in the classic GSM SIM, we only had one-way authentication.
+
+00:04:47.000 --> 00:04:52.000
+ Now with the USIM, we have mutual authentication.
+
+00:04:52.000 --> 00:04:58.000
+ The same USIM is used in 3G, in 4G, and in 5G.
+
+00:04:58.000 --> 00:05:02.000
+ There's no change to the authentication, nothing of that sort.
+
+00:05:02.000 --> 00:05:07.000
+ So a 3G SIM card works for 5G or for 4G or for 3G,
+
+00:05:07.000 --> 00:05:10.000
+ or even for 2G if it has the backwards SIM application on it.
+
+00:05:10.000 --> 00:05:15.000
+ Now with eSIM, basically, we arrive at a point where
+
+00:05:15.000 --> 00:05:20.000
+ technology has been created to virtualize the entire USIM.
+
+00:05:20.000 --> 00:05:23.000
+ So not the classic SIM card, but the USIM.
+
+00:05:23.000 --> 00:05:28.000
+ And what that means, we decouple, let's say, like in software virtualization,
+
+00:05:28.000 --> 00:05:33.000
+ we decouple the operating system and the software from the underlying hardware.
+
+00:05:33.000 --> 00:05:35.000
+ We do the same in the eSIM universe.
+
+00:05:35.000 --> 00:05:41.000
+ And that happens by having a special chip, which is called the EUICC.
+
+00:05:41.000 --> 00:05:45.000
+ We had the EUICC as the classic card on which the USIM
+
+00:05:45.000 --> 00:05:48.000
+ and potentially the iSIM application was running on top,
+
+00:05:48.000 --> 00:05:51.000
+ but it was still a plastic card that you plug into a phone.
+
+00:05:51.000 --> 00:05:55.000
+ And now we have the EUICC, the Embedded Universal Integrated Chip card,
+
+00:05:55.000 --> 00:05:58.000
+ which is a chip that's fixed most often.
+
+00:05:58.000 --> 00:06:02.000
+ It can also be a card form factor, we'll get to that later,
+
+00:06:02.000 --> 00:06:06.000
+ but in a general sense it is a fixed chip inside the device.
+
+00:06:06.000 --> 00:06:10.000
+ Also there's work being done to actually not have it as a separate chip,
+
+00:06:10.000 --> 00:06:15.000
+ but have it inside a multi-chip package or even have it virtualized inside a chip,
+
+00:06:15.000 --> 00:06:19.000
+ but that doesn't really matter to the eSIM specification point of view.
+
+00:06:19.000 --> 00:06:22.000
+ So you have something that behaves like an EUICC chip as specified,
+
+00:06:22.000 --> 00:06:25.000
+ and that is the physical secure element.
+
+00:06:25.000 --> 00:06:28.000
+ And then we have something called SIM profiles.
+
+00:06:28.000 --> 00:06:35.000
+ And the SIM profile is basically a software or data description format
+
+00:06:35.000 --> 00:06:39.000
+ that contains what a classic USIM would contain,
+
+00:06:39.000 --> 00:06:41.000
+ what meaning it contains.
+
+00:06:41.000 --> 00:06:44.000
+ Please mute your phone if possible, thanks.
+
+00:06:44.000 --> 00:06:50.000
+ So we have the contents of the USIM file system.
+
+00:06:50.000 --> 00:06:52.000
+ I think it was a slide, I didn't speak about it explicitly,
+
+00:06:52.000 --> 00:06:56.000
+ but all the configuration data is stored in files on a file system in the card.
+
+00:06:56.000 --> 00:07:02.000
+ And all the content of those files, basically there's a description format in ASN1 encoded
+
+00:07:02.000 --> 00:07:05.000
+ where you can say, well, this file with this name has this content,
+
+00:07:05.000 --> 00:07:08.000
+ and there's another file with some other content, and so on.
+
+00:07:08.000 --> 00:07:10.000
+ So that's part of this eSIM profile description.
+
+00:07:10.000 --> 00:07:15.000
+ And then in addition we have the key material for the cellular network authentication,
+
+00:07:15.000 --> 00:07:18.000
+ meaning the K and OP or K and OPC values.
+
+00:07:18.000 --> 00:07:24.000
+ These are the shared secret key material that only exists at the cellular network operator
+
+00:07:24.000 --> 00:07:27.000
+ and inside the SIM, and here in this case in the SIM profile.
+
+00:07:27.000 --> 00:07:35.000
+ In addition to that we have further key material for over-the-air SIM card communication, that's OTA.
+
+00:07:35.000 --> 00:07:39.000
+ There have been many talks before at CCC events about how OTA works
+
+00:07:39.000 --> 00:07:44.000
+ and all kinds of security issues in at least previous OTA implementations and so on.
+
+00:07:44.000 --> 00:07:46.000
+ Feel free to refer to that if you're interested in that.
+
+00:07:46.000 --> 00:07:48.000
+ But that also is part of the SIM.
+
+00:07:48.000 --> 00:07:51.000
+ And that's not part of the file system, so it's listed separately.
+
+00:07:51.000 --> 00:07:56.000
+ Also you have all your PIN values, PIN2, PAC2, the admin PIN,
+
+00:07:56.000 --> 00:08:03.000
+ and also all the SIM toolkit applets, which are Java applets that the operator can run on your classic SIM or USIM.
+
+00:08:03.000 --> 00:08:09.000
+ And those are also part of the profile package that gets put together just to form the SIM profile.
+
+00:08:09.000 --> 00:08:18.000
+ And the eSIM profiles are specified, the format of those profiles is specified in what's called an EUICC profile package format
+
+00:08:18.000 --> 00:08:23.000
+ that is authored by the Trusted Connectivity Alliance, which formerly was the SIM Alliance.
+
+00:08:23.000 --> 00:08:28.000
+ That's a different standardization body than all of the other stuff that I'm going to talk about.
+
+00:08:28.000 --> 00:08:34.000
+ It's an interesting split of, well, some guys do some specification here and some other guys do specification over there.
+
+00:08:34.000 --> 00:08:37.000
+ So let's have a quick look at the EUICC.
+
+00:08:37.000 --> 00:08:42.000
+ I'm sorry for the low contrast in bright sunlight kind of rendering here.
+
+00:08:42.000 --> 00:08:46.000
+ Hopefully on the recording we have that then digital.
+
+00:08:46.000 --> 00:08:49.000
+ So this is taken from the specs, a schematic overview of the EUICC.
+
+00:08:49.000 --> 00:08:52.000
+ Not going to go through every acronym in here.
+
+00:08:52.000 --> 00:08:55.000
+ But basically we have a fundamental operating system at the bottom.
+
+00:08:55.000 --> 00:09:00.000
+ And then we have these two large, well, sort of rectangular objects here.
+
+00:09:00.000 --> 00:09:04.000
+ So-called MNO enabled profile and the MNO disabled profile.
+
+00:09:04.000 --> 00:09:11.000
+ So basically on this card that is symbolized by this diagram, we have two eSIM profiles residing on a single EUICC.
+
+00:09:11.000 --> 00:09:15.000
+ And one of the profiles is enabled and the other profile is disabled.
+
+00:09:15.000 --> 00:09:23.000
+ So you can have multiple or even many different profiles on an EUICC, but only one of those profiles is always active at any given point in time.
+
+00:09:23.000 --> 00:09:24.000
+ And you can switch between them.
+
+00:09:24.000 --> 00:09:27.000
+ Now each of those profiles contains a number of things.
+
+00:09:27.000 --> 00:09:34.000
+ We said already the file system, the access credentials, some certificate authority, security domain.
+
+00:09:34.000 --> 00:09:37.000
+ We have applets, we have policy rules and whatnot.
+
+00:09:37.000 --> 00:09:50.000
+ In general, the important part for also later slides and so on is that we have the issuer security domain of the provider, the ISDP here.
+
+00:09:50.000 --> 00:09:55.000
+ And we have outside of the profile the issuer security domain, the ISDR.
+
+00:09:55.000 --> 00:09:58.000
+ That's sort of the root of the EUICC.
+
+00:09:58.000 --> 00:10:01.000
+ So we have different security domains within the card operating system.
+
+00:10:01.000 --> 00:10:13.000
+ And every time you install an additional profile, there will be a new security domain and a new container that is isolated from all the other containers running on your EUICC.
+
+00:10:13.000 --> 00:10:18.000
+ And there's no way how, at least if everything behaves according to spec, of course,
+
+00:10:18.000 --> 00:10:23.000
+ these containers can escape their protection mechanisms and so on.
+
+00:10:23.000 --> 00:10:26.000
+ So why do we have this kind of complex setup?
+
+00:10:26.000 --> 00:10:31.000
+ The reason is, and it will get much more complex if you look at all the other parts of the system,
+
+00:10:31.000 --> 00:10:41.000
+ but the reason is in the end what we are talking about here is the core revenue generator for mobile operators.
+
+00:10:41.000 --> 00:10:46.000
+ They need to be able to securely identify their subscribers and they need to rely on the fact that SIM cards
+
+00:10:46.000 --> 00:10:50.000
+ or even virtual SIM cards in the form of SIM profiles cannot be cloned.
+
+00:10:50.000 --> 00:10:53.000
+ If they would, the business model would fall apart.
+
+00:10:53.000 --> 00:10:59.000
+ And now we have different operators who are competitors in the market who both install something on a shared chip.
+
+00:10:59.000 --> 00:11:04.000
+ So they all must trust that the security promises that this chip and the system and everything has
+
+00:11:04.000 --> 00:11:12.000
+ protects their vital shared secrets, the key material inside those containers or inside those profiles.
+
+00:11:12.000 --> 00:11:18.000
+ So that's why there's all this procedural security and certification approvals that we will get into shortly.
+
+00:11:18.000 --> 00:11:21.000
+ So what's the EUICC? Well, it's a smart card chip.
+
+00:11:21.000 --> 00:11:27.000
+ We have higher requirements in all kinds of ways on the security side, more crypto,
+
+00:11:27.000 --> 00:11:32.000
+ more guarantees of isolation between different things on the card,
+
+00:11:32.000 --> 00:11:38.000
+ various additional cryptographic routines compared to classic SIM cards,
+
+00:11:38.000 --> 00:11:45.000
+ and all the other bits are really the same. So the electrical interface is identical to a SIM card,
+
+00:11:45.000 --> 00:11:52.000
+ even though it might be physically packaged in a different package, but it's the same protocol, same transport protocol.
+
+00:11:52.000 --> 00:11:57.000
+ You can actually purchase also EUICCs in a plastic card form factor.
+
+00:11:57.000 --> 00:12:05.000
+ You can plug them into a device that doesn't have an EUICC built in or doesn't have an EUICC with the features that you want or something like that.
+
+00:12:05.000 --> 00:12:08.000
+ So this is really just a packaging aspect.
+
+00:12:08.000 --> 00:12:15.000
+ Each EUICC is identified by what's called an EID. That's the EUICC identifier, unsurprisingly.
+
+00:12:15.000 --> 00:12:21.000
+ So that's the unique identifier of the EUICC. That is different from the ICC ID,
+
+00:12:21.000 --> 00:12:26.000
+ which was the unique identifier of a traditional SIM card or used SIM card.
+
+00:12:26.000 --> 00:12:34.000
+ And since everything is virtualized, the ICC ID of a former physical SIM card now becomes part of the profile package.
+
+00:12:34.000 --> 00:12:38.000
+ So every profile has its own ICC ID, since it's a virtualized card.
+
+00:12:38.000 --> 00:12:44.000
+ So we need a new unique identifier for the actual physical card, which is the EID in this context.
+
+00:12:44.000 --> 00:12:52.000
+ So the other thing to always keep in mind when talking about eSIM stuff is that there are three different flavors of eSIMs.
+
+00:12:52.000 --> 00:13:00.000
+ There is the machine-to-machine eSIM, there is the consumer eSIM, and now there is, since this year, at least specification-wise,
+
+00:13:00.000 --> 00:13:04.000
+ I don't think anyone has it in the market yet, the so-called IoTs.
+
+00:13:04.000 --> 00:13:09.000
+ Now, of course, the first question that every nerd asks me, "Well, where's the difference between M2M and IoT?
+
+00:13:09.000 --> 00:13:12.000
+ Is IoT not just the new acronym for M2M?" Yeah.
+
+00:13:12.000 --> 00:13:16.000
+ They could just also have called them the red, blue, and the green card.
+
+00:13:16.000 --> 00:13:19.000
+ Those names are just some random marketing terms.
+
+00:13:19.000 --> 00:13:24.000
+ Just, you know, there's three different systems with different properties and different aspects and so on,
+
+00:13:24.000 --> 00:13:27.000
+ which we will look into now in the remainder of the talk.
+
+00:13:27.000 --> 00:13:32.000
+ Just keep in mind those are different, and they're not interchangeable, and they're not compatible with each other.
+
+00:13:32.000 --> 00:13:35.000
+ So this is different systems.
+
+00:13:35.000 --> 00:13:38.000
+ They share a lot of technology, but they're intentionally different.
+
+00:13:38.000 --> 00:13:47.000
+ So the first eSIM standard that was specified is the M2M model, the machine-to-machine SIM,
+
+00:13:47.000 --> 00:13:55.000
+ because that was apparently the driving force early on to have some kind of massive fleet of devices out there somewhere
+
+00:13:55.000 --> 00:14:00.000
+ that remotely the owner of those devices can provision new profiles and can switch between operators
+
+00:14:00.000 --> 00:14:06.000
+ without having to replace physical cards, which makes a lot of sense, of course, from the point of the owner of those devices.
+
+00:14:06.000 --> 00:14:14.000
+ So in the machine-to-machine model, the user interaction of the end device, the modem or the phone or whatever,
+
+00:14:14.000 --> 00:14:20.000
+ is not desired or even possible because either there may not be a human user in front of the device
+
+00:14:20.000 --> 00:14:23.000
+ or the device may not have a user interface at all.
+
+00:14:23.000 --> 00:14:29.000
+ So it's some, you know, whatever, you say card tracking device or some whatever machine-to-machine thing.
+
+00:14:29.000 --> 00:14:32.000
+ Now, it uses a server-driven push model to provision and manage profiles.
+
+00:14:32.000 --> 00:14:39.000
+ So the initiation of deploying new profiles on the card comes from the backend side, from the owner of those devices.
+
+00:14:39.000 --> 00:14:43.000
+ Basically, they decide they want to switch mobile operators and install a new eSIM profile into it.
+
+00:14:43.000 --> 00:14:47.000
+ So that's a push model coming from the backend side.
+
+00:14:47.000 --> 00:14:51.000
+ The actual download happens over what's called the BIP, the Bearer Independent Protocol,
+
+00:14:51.000 --> 00:14:55.000
+ which is something that exists also for, I think, well, 25 years or so.
+
+00:14:55.000 --> 00:15:04.000
+ It's a way how on-card entities, being Java applets or the SIM card itself or parts on the SIM card,
+
+00:15:04.000 --> 00:15:10.000
+ can communicate with something typically called the OTA platform or the over-the-air platform at an operator.
+
+00:15:10.000 --> 00:15:16.000
+ So it's a channel between some code on the SIM card and some code at the operator that is transparent
+
+00:15:16.000 --> 00:15:20.000
+ and where those two pieces of code can exchange data, whatever they want.
+
+00:15:20.000 --> 00:15:24.000
+ And this is also used in this context. All the management is remote.
+
+00:15:24.000 --> 00:15:30.000
+ And since all the management is remote, the EUICC must also contain a provisioning profile,
+
+00:15:30.000 --> 00:15:36.000
+ meaning an initial profile, SIM profile, that's on the EUICC so that it can log onto some random cellular network
+
+00:15:36.000 --> 00:15:40.000
+ to then discover, oh, another profile needs to be pushed to me.
+
+00:15:40.000 --> 00:15:45.000
+ Without that provisioning profile, you have a chicken-and-egg situation.
+
+00:15:45.000 --> 00:15:49.000
+ That's different from the consumer model and other models.
+
+00:15:49.000 --> 00:15:54.000
+ So the elements, I mean, yeah, this diagram is probably hard to read here on the projector.
+
+00:15:54.000 --> 00:15:58.000
+ We have a couple of network elements here. We have the EUICC in the device.
+
+00:15:58.000 --> 00:16:03.000
+ We have the EUM, that's the EUICC manufacturer, so the company that produces the EUICCs.
+
+00:16:03.000 --> 00:16:09.000
+ We have the CI, the certificate infrastructure. We have the SMSR, the secure router.
+
+00:16:09.000 --> 00:16:17.000
+ And we have the SMDP, the acronyms. We will get to that in actually two slides, I think.
+
+00:16:17.000 --> 00:16:20.000
+ So, yeah, the data preparation, my bad, sorry.
+
+00:16:20.000 --> 00:16:29.000
+ So the SMDP is sort of the heart of the backend infrastructure of all of the three eSIM flavors that exist out there.
+
+00:16:29.000 --> 00:16:36.000
+ So data preparation in this context basically means putting together this eSIM profile from various different data sources,
+
+00:16:36.000 --> 00:16:42.000
+ signing it properly, delivering it properly to the EUICC and so on.
+
+00:16:42.000 --> 00:16:49.000
+ So it's the preparing, storing and protecting those SIM profiles and downloading those into the EUICCs that are somewhere in the field.
+
+00:16:49.000 --> 00:16:57.000
+ We have an additional component, the SMSR, which only exists in the machine-to-machine eSIM sphere.
+
+00:16:57.000 --> 00:17:10.000
+ SR is for secure routing. It's a bit of a sort of, let's say, a one-to-one relationship between the EUICC and an SMSR.
+
+00:17:10.000 --> 00:17:16.000
+ So an SMSR is some backend software thing running somewhere at some operator in the cloud or wherever.
+
+00:17:16.000 --> 00:17:19.000
+ And the EUICC is the chip that's in the phone.
+
+00:17:19.000 --> 00:17:26.000
+ And when the EUICC gets produced, there is a key material that ties it to one specific SMSR on the backend side.
+
+00:17:26.000 --> 00:17:30.000
+ So those are owned by the same entity or at least initially.
+
+00:17:30.000 --> 00:17:39.000
+ And SMDPs, there can be many. There can be many providers that operate SMDPs and that have SIM profiles and there's like a market and competition and so on.
+
+00:17:39.000 --> 00:17:42.000
+ But the EUICC and the SMSR are tied together.
+
+00:17:42.000 --> 00:17:48.000
+ And that's sort of the representation of the EUICC somewhere on the backend side.
+
+00:17:48.000 --> 00:17:51.000
+ The association is created by the manufacturer.
+
+00:17:51.000 --> 00:17:57.000
+ According to the spec, it's possible to replace it and move to a different SMSR operator.
+
+00:17:57.000 --> 00:18:06.000
+ But somehow the business and the commercial side of the technology don't really enable that to the extent that the specification authors would have envisioned.
+
+00:18:06.000 --> 00:18:08.000
+ So you again have a lock-in situation, right?
+
+00:18:08.000 --> 00:18:15.000
+ Previously, you were locked into the cellular operator of the physical card you put into your remote IoT or M2M device.
+
+00:18:15.000 --> 00:18:20.000
+ And now you're locked to an SMSR operator without whom you cannot deploy new SIM profiles to your cards.
+
+00:18:20.000 --> 00:18:28.000
+ So you've given control basically from one entity that you have no control over to another entity that you have no control over.
+
+00:18:28.000 --> 00:18:39.000
+ So it doesn't really solve the problem of enabling the owner of a fleet of M2M devices to actually do whatever they want remotely on their devices and switch operators as they please.
+
+00:18:39.000 --> 00:18:42.000
+ So this is an overview slide of the larger process.
+
+00:18:42.000 --> 00:18:54.000
+ So we have the mobile network operator on the left hand side that provides a profile description, meaning all this contents of the file system and whatever or not, to the SMDP operator.
+
+00:18:54.000 --> 00:18:56.000
+ The DP again is the data preparation, the core.
+
+00:18:56.000 --> 00:19:00.000
+ So there's many SMDP operators. I think it's like 20 or 30 even.
+
+00:19:00.000 --> 00:19:04.000
+ There's a list of GSMA accredited as a competition in the market.
+
+00:19:04.000 --> 00:19:09.000
+ And then they create first what's called an un-personalized profile.
+
+00:19:09.000 --> 00:19:14.000
+ And then there's additional personalization data that's also something that exists in classic SIM cards.
+
+00:19:14.000 --> 00:19:18.000
+ The personalization data is then basically the per subscriber unique data, right?
+
+00:19:18.000 --> 00:19:23.000
+ There's data that's shared across all the subscribers like the configuration which roaming networks and what not.
+
+00:19:23.000 --> 00:19:26.000
+ That's the identical on all the cards or SIM profiles.
+
+00:19:26.000 --> 00:19:32.000
+ But then there is card individual data like your IMSE, MSISD and all these kinds of things, ICC ID.
+
+00:19:32.000 --> 00:19:37.000
+ And that then gets part of that in the personalization process.
+
+00:19:37.000 --> 00:19:39.000
+ And then you end up with a personalized profile.
+
+00:19:39.000 --> 00:19:42.000
+ And then that profile gets encrypted and signed.
+
+00:19:42.000 --> 00:19:44.000
+ And then you have a protected profile.
+
+00:19:44.000 --> 00:19:49.000
+ And the protected profile then is downloaded onto the EU ICC through the SMSR.
+
+00:19:49.000 --> 00:19:53.000
+ So the SMSR is the gatekeeper, the proxy, the representation of the EU ICC.
+
+00:19:53.000 --> 00:19:56.000
+ And you must go through the SMSR.
+
+00:19:56.000 --> 00:20:00.000
+ And again, the entity who controls the SMSR controls what you do with your EU ICCs.
+
+00:20:00.000 --> 00:20:03.000
+ So, okay, that's the machine to machine model.
+
+00:20:03.000 --> 00:20:09.000
+ Now, for most of you guys probably more exciting, the consumer model, what you actually have on your smart devices,
+
+00:20:09.000 --> 00:20:13.000
+ is different where we have a pull model.
+
+00:20:13.000 --> 00:20:18.000
+ And not a push model from some backend, but we have a pull model where the user does something on the user interface
+
+00:20:18.000 --> 00:20:20.000
+ in front of their devices.
+
+00:20:20.000 --> 00:20:27.000
+ And that triggers the process of then downloading and installing and activating a new profile on the device.
+
+00:20:27.000 --> 00:20:33.000
+ The profile download is actually specified to use TCP/IP, not just BIP.
+
+00:20:33.000 --> 00:20:35.000
+ BIP is just a stream of bytes.
+
+00:20:35.000 --> 00:20:42.000
+ It could be any protocol inside, but in the consumer it's actually TCP/IP that is used in this context.
+
+00:20:42.000 --> 00:20:46.000
+ It introduces another new element, the SMDS.
+
+00:20:46.000 --> 00:20:49.000
+ There's no SMSR.
+
+00:20:49.000 --> 00:20:51.000
+ The DS is the discovery service.
+
+00:20:51.000 --> 00:20:55.000
+ And also you have something called an LPA, the local profile assistant.
+
+00:20:55.000 --> 00:21:00.000
+ Now, the local profile assistant is a piece of code that typically runs on your smart phone,
+
+00:21:00.000 --> 00:21:05.000
+ which provides you with some user interface and which then talks to the eSIM backend universe
+
+00:21:05.000 --> 00:21:07.000
+ somewhere out there in some data center.
+
+00:21:07.000 --> 00:21:10.000
+ And on the other hand, it talks to your EU ICC inside the device.
+
+00:21:10.000 --> 00:21:13.000
+ So it's some software, some app that runs onto your device,
+
+00:21:13.000 --> 00:21:19.000
+ either as part of iOS or Android or whatever the flavor of operating system is that you're using.
+
+00:21:19.000 --> 00:21:23.000
+ Now, the diagram looks slightly different, as you can see here.
+
+00:21:23.000 --> 00:21:31.000
+ We have no SMSR, so the SMDP can talk directly to the LPA,
+
+00:21:31.000 --> 00:21:35.000
+ which is the local profile assistant in your device,
+
+00:21:35.000 --> 00:21:42.000
+ and that talks to the EU ICC, to the chip card or the physical chip, not a card necessarily, inside your device.
+
+00:21:42.000 --> 00:21:44.000
+ And you have all kinds of other interfaces and whatnot.
+
+00:21:44.000 --> 00:21:47.000
+ I'm not going into all the details here. That would go too far.
+
+00:21:47.000 --> 00:21:52.000
+ Now, the local profile assistant, I mentioned is software on your device.
+
+00:21:52.000 --> 00:21:58.000
+ Now, there's also an evolution of that code, and now that's like the LPA on the device is the LPAD,
+
+00:21:58.000 --> 00:22:01.000
+ the local profile assistant on a device.
+
+00:22:01.000 --> 00:22:06.000
+ Now, we also have an LPAE, the local profile assistant on the EU ICC.
+
+00:22:06.000 --> 00:22:11.000
+ So since the EU ICC itself is a smart card with an operating system and software and all kinds of things,
+
+00:22:11.000 --> 00:22:15.000
+ you can actually move the local profile assistant completely into the EU ICC,
+
+00:22:15.000 --> 00:22:18.000
+ and then you have an embedded local profile assistant,
+
+00:22:18.000 --> 00:22:24.000
+ and that is something you can use in a legacy device that does not have a local profile assistant on the device,
+
+00:22:24.000 --> 00:22:26.000
+ but it's inside the EU ICC.
+
+00:22:26.000 --> 00:22:32.000
+ So you can use a legacy device that's not eSIM enabled with an EU ICC that has an LPAE embedded in it.
+
+00:22:32.000 --> 00:22:35.000
+ That's sort of one of the use cases of that.
+
+00:22:35.000 --> 00:22:40.000
+ The standard case, though, is the LPAD in the consumer sphere.
+
+00:22:40.000 --> 00:22:44.000
+ So we have the SMDP+.
+
+00:22:44.000 --> 00:22:50.000
+ I noticed, well, you noticed too, I hope, in the M2M model we had the SMDP,
+
+00:22:50.000 --> 00:22:56.000
+ and now we have the SMDP+, because it does something more than the SMDP did in the machine-to-machine model.
+
+00:22:56.000 --> 00:22:58.000
+ So it's the enhanced data preparation.
+
+00:22:58.000 --> 00:23:02.000
+ It does basically all of the things that the SMDP did, all this profile, you know,
+
+00:23:02.000 --> 00:23:07.000
+ profile personalization, profile protection, and all that stuff,
+
+00:23:07.000 --> 00:23:12.000
+ but it also has some additional features in there.
+
+00:23:12.000 --> 00:23:17.000
+ Now, again, going through the steps of what the SMDP is doing, or the SMDP+ in this case,
+
+00:23:17.000 --> 00:23:22.000
+ we first generate the profile package, that's the UPP, the un-personalized package.
+
+00:23:22.000 --> 00:23:26.000
+ Then we have the PPP, the protected profile,
+
+00:23:26.000 --> 00:23:31.000
+ and then it gets bound, the binding, to one specific EU ICC,
+
+00:23:31.000 --> 00:23:35.000
+ so it gets cryptographically assigned to that single EU ICC.
+
+00:23:35.000 --> 00:23:39.000
+ We will get to the PKI infrastructure that's behind that in a second.
+
+00:23:39.000 --> 00:23:43.000
+ It stores that profile as well until it is delivered to the EU ICC.
+
+00:23:43.000 --> 00:23:47.000
+ It takes also care of the delivery into the EU ICC, and also some other bits,
+
+00:23:47.000 --> 00:23:53.000
+ which I skip in considering the timing issues in this talk.
+
+00:23:53.000 --> 00:24:00.000
+ So we also have the Discovery Service, and the Discovery Service is something like a,
+
+00:24:00.000 --> 00:24:05.000
+ I can say a notification delivery system, because as I said,
+
+00:24:05.000 --> 00:24:08.000
+ all of the things that I've been talking about are initiated by the user.
+
+00:24:08.000 --> 00:24:11.000
+ So the user does something on their smartphone, and it triggers something,
+
+00:24:11.000 --> 00:24:13.000
+ and it goes to talk to some backend.
+
+00:24:13.000 --> 00:24:17.000
+ But maybe the backend doesn't really have the data yet that it's asking for, or something like that.
+
+00:24:17.000 --> 00:24:24.000
+ So maybe the eSIM profile is not ready yet, due to overload or whatnot, or what kind of situations,
+
+00:24:24.000 --> 00:24:29.000
+ and in this case, the SMDP+ can basically register at the SMDS
+
+00:24:29.000 --> 00:24:34.000
+ that there is something pending, some operation, some, I want to notify these cards,
+
+00:24:34.000 --> 00:24:40.000
+ these EU ICCs, and the LPA in the device is then polling regularly the SMDS.
+
+00:24:40.000 --> 00:24:43.000
+ Well, do you have some kind of notifications for me, yes or no?
+
+00:24:43.000 --> 00:24:50.000
+ And if yes, then inside the notification, it will know which SMDP+ has some pending operation,
+
+00:24:50.000 --> 00:24:55.000
+ and then the LPA-D will go to that SMDP+ and grab whatever is there for this EU ICC.
+
+00:24:55.000 --> 00:25:01.000
+ So it's some kind of, yeah, you could think of a poor man's SMSC or something like that.
+
+00:25:01.000 --> 00:25:07.000
+ So we have the security domains. I touched that very briefly initially when we talked about the EU ICC.
+
+00:25:07.000 --> 00:25:13.000
+ So we have the security domain of the certificate infrastructure that's all behind this.
+
+00:25:13.000 --> 00:25:18.000
+ That's sort of the root security domain on the card, on the EU ICC.
+
+00:25:18.000 --> 00:25:24.000
+ Then we have the ISDR that represents the SMSR, the secure router, inside the EU ICC,
+
+00:25:24.000 --> 00:25:29.000
+ and we have the ISDP. That's then for each of the providers, for each of the mobile operators
+
+00:25:29.000 --> 00:25:33.000
+ of which you install the EU eSIM profile, each of those eSIM profiles has an issue
+
+00:25:33.000 --> 00:25:36.000
+ or security domain of the provider.
+
+00:25:36.000 --> 00:25:44.000
+ And there can be multiple such issues of security, multiple eSIM profiles, each of those has an ISDP,
+
+00:25:44.000 --> 00:25:48.000
+ and each of those could point to a different SMDP, so a different backend server
+
+00:25:48.000 --> 00:25:52.000
+ who has been creating these eSIM profiles for that card.
+
+00:25:52.000 --> 00:25:58.000
+ Now the actual delivery from the backend side to the card goes through several tunnels,
+
+00:25:58.000 --> 00:26:01.000
+ which is illustrated in this diagram.
+
+00:26:01.000 --> 00:26:08.000
+ Roughly, let's say there's an outer tunnel that utilizes the existing encrypted over-the-air protocols
+
+00:26:08.000 --> 00:26:13.000
+ that exist for classic SIM cards and eSIM cards, and the least common denominator
+
+00:26:13.000 --> 00:26:20.000
+ for transporting this over is actually SMS transport, believe it or not.
+
+00:26:20.000 --> 00:26:24.000
+ And then if devices have further capabilities, and for eSIM they should,
+
+00:26:24.000 --> 00:26:30.000
+ there's other protocols like CATTP or HTTPS in modern implementations,
+
+00:26:30.000 --> 00:26:34.000
+ and yeah, so that's sort of the outer transport channel.
+
+00:26:34.000 --> 00:26:40.000
+ And then inside there we have an additional encrypted transport channel that's based on SCP-03.
+
+00:26:40.000 --> 00:26:46.000
+ If anyone has ever done work with Java cards, they will know SCP-03 as the secure protocol
+
+00:26:46.000 --> 00:26:51.000
+ how external programs interface with Java applets and Java cards.
+
+00:26:51.000 --> 00:26:57.000
+ If HTTPS is used as the protocol to deliver, it's TLS version 1.2 with pre-shared keys
+
+00:26:57.000 --> 00:27:03.000
+ and using the algorithm specified there, so it's a fixed set of ciphers and a fixed TLS version.
+
+00:27:03.000 --> 00:27:08.000
+ Now any people doing stuff with TLS will be like, "Hmm, this is strange."
+
+00:27:08.000 --> 00:27:13.000
+ But think about, well, if you actually implement this inside the EU ICC,
+
+00:27:13.000 --> 00:27:17.000
+ you're talking a very small microcontroller with constrained resources,
+
+00:27:17.000 --> 00:27:22.000
+ so you maybe cannot do public key cryptography with X.509 and RSA and whatnot,
+
+00:27:22.000 --> 00:27:27.000
+ but you go to pre-shared key and sort of try your best given the constraints you are.
+
+00:27:27.000 --> 00:27:34.000
+ So this is a diagram of the certificate change and the security relationships between the different elements.
+
+00:27:34.000 --> 00:27:38.000
+ I'm not going to walk through the diagram, which is probably impossible to read anyway.
+
+00:27:38.000 --> 00:27:45.000
+ So basically there is one route of trust operated by the GSMA,
+
+00:27:45.000 --> 00:27:53.000
+ the GSMA being the members club of the public operators of cell phone networks,
+
+00:27:53.000 --> 00:27:58.000
+ and they have a root certificate, or somebody has that on their behalf,
+
+00:27:58.000 --> 00:28:03.000
+ and this certificate is used to sign all the different elements in this universe.
+
+00:28:03.000 --> 00:28:09.000
+ So the root certificate is used to sign certificates for the EU ICC manufacturers,
+
+00:28:09.000 --> 00:28:13.000
+ so they can sign per EU ICC certificates on each EU ICC,
+
+00:28:13.000 --> 00:28:24.000
+ and then also the root certificate of the GSMA is used to sign certificates of approved SMDP pluses and SMDSs and all these network elements.
+
+00:28:24.000 --> 00:28:29.000
+ So all of them have to have certificates derived from the same single route of trust operated by the GSMA,
+
+00:28:29.000 --> 00:28:34.000
+ and in order to get access to that I think I have some slides, compliance security, exactly.
+
+00:28:34.000 --> 00:28:43.000
+ So the EU ICCs, there's a common protection profile on EAL 4 plus that needs to be certified for the EU ICC,
+
+00:28:43.000 --> 00:28:48.000
+ then you have certifications for the production environment, the process security,
+
+00:28:48.000 --> 00:28:55.000
+ so there is different, yeah, the SAS UP for the EU ICC personalization that's on the EU ICC side,
+
+00:28:55.000 --> 00:29:00.000
+ there is the SAS SM for the subscription management platform, so all the backend infrastructure,
+
+00:29:00.000 --> 00:29:05.000
+ the software must be certified, the hosting must be certified, the business processes must be certified,
+
+00:29:05.000 --> 00:29:11.000
+ and of course, I mean, I don't know, but I guess it costs a shitload of money to have any of these things certified,
+
+00:29:11.000 --> 00:29:14.000
+ I mean, given the complexity of these systems.
+
+00:29:14.000 --> 00:29:23.000
+ Interestingly, AWS now has a GSMA accredited hosting or cloud product,
+
+00:29:23.000 --> 00:29:33.000
+ so basically if you have a GSMA certified software, you can now run it in a GSMA certified cloud environment by AWS if you want that.
+
+00:29:33.000 --> 00:29:40.000
+ So in this case, you can afford not to have your data center certified, but you know, Amazon is doing that for you.
+
+00:29:40.000 --> 00:29:47.000
+ Yeah, then also there's functional compliance testing, so all of these software elements actually need to be tested
+
+00:29:47.000 --> 00:29:53.000
+ and also certified again by GSMA approved scheme that they have delegated to some entities that do this certification,
+
+00:29:53.000 --> 00:29:59.000
+ and then of course, all these manufacturers and so on all need to be accredited, and it's all enforced via this PKI.
+
+00:29:59.000 --> 00:30:06.000
+ Basically, if you do not comply with any of those rules, you do not get a certificate or your certificate gets revoked or something like that,
+
+00:30:06.000 --> 00:30:09.000
+ and then you cannot participate in this club anymore.
+
+00:30:09.000 --> 00:30:15.000
+ And of course, you need to be a GSMA member as far as I know as well in addition to all of that.
+
+00:30:15.000 --> 00:30:18.000
+ So, okay, a lot of talk about a lot of things.
+
+00:30:18.000 --> 00:30:20.000
+ Now let's look a bit at the procedures.
+
+00:30:20.000 --> 00:30:22.000
+ So we now know there are different elements.
+
+00:30:22.000 --> 00:30:30.000
+ There's sort of these SM things in the backend, and we have the EUICC in the device and the local profile assistant in the device,
+
+00:30:30.000 --> 00:30:36.000
+ and now each of these, they talk to each other, and there's a couple of different things that they talk to each other.
+
+00:30:36.000 --> 00:30:43.000
+ The first group of things is remote provisioning, meaning operations called profile download initiation,
+
+00:30:43.000 --> 00:30:47.000
+ which is a common mutual authentication profile download installation, sort of self-explanatory,
+
+00:30:47.000 --> 00:30:54.000
+ and then there are so-called local profile management operations about enabling and disabling a profile, listing the profiles on an EUICC.
+
+00:30:54.000 --> 00:31:00.000
+ You can even set nicknames, you know, can give them cute names, your profiles on the card,
+
+00:31:00.000 --> 00:31:07.000
+ and there is local EUICC management such as reading the EID from the device,
+
+00:31:07.000 --> 00:31:18.000
+ because if the local profile assistant, the LPA, wants to talk to the backend, of course it needs to tell the backend which EUICC is actually making the request,
+
+00:31:18.000 --> 00:31:20.000
+ as memory, that stuff, and so on and so on.
+
+00:31:20.000 --> 00:31:23.000
+ So let's look at a couple of common operations.
+
+00:31:23.000 --> 00:31:27.000
+ So this is the first step. If you as a consumer are getting an eSIM,
+
+00:31:27.000 --> 00:31:31.000
+ that's the first step that's happening, is something called the download initiation,
+
+00:31:31.000 --> 00:31:38.000
+ and it starts by some kind of contractual relationship between you and the mobile network operator that is issuing this eSIM to you.
+
+00:31:38.000 --> 00:31:41.000
+ That means billing information, whatever is exchanged,
+
+00:31:41.000 --> 00:31:47.000
+ and then the operator goes through a backend interface, so the so-called ES2+ interface,
+
+00:31:47.000 --> 00:31:55.000
+ and talks to the SMDP+ operator, which most often is a separate company that's providing it as a service, it's not your mobile operator.
+
+00:31:55.000 --> 00:32:01.000
+ And the SMDP+ then does some stuff, generates additional identifiers, and so on,
+
+00:32:01.000 --> 00:32:10.000
+ and it generates, most importantly also, the code that you will use to actually then install the activation code,
+
+00:32:10.000 --> 00:32:17.000
+ or the most often displayed as a QR code, but actually it's just a string that contains the domain name of the SMDP+ plus some token
+
+00:32:17.000 --> 00:32:22.000
+ that sort of identifies which eSIM profile we're talking about here in this operation.
+
+00:32:22.000 --> 00:32:27.000
+ So that's a pure, it starts with a business operation between you and the mobile network operator,
+
+00:32:27.000 --> 00:32:31.000
+ it continues with some backend operation to the SMDP+ provider,
+
+00:32:31.000 --> 00:32:37.000
+ and nothing has actually happened by the end of the concluding that other than you being billed.
+
+00:32:37.000 --> 00:32:43.000
+ Now the next step is the download installation phase, and that's, I know it's small and so on,
+
+00:32:43.000 --> 00:32:47.000
+ but it's really just a very high level overview of what's happening there.
+
+00:32:47.000 --> 00:32:53.000
+ We have elements, we have the operator that's the mobile network operator that's selling you a SIM subscription,
+
+00:32:53.000 --> 00:32:57.000
+ we have the SMDP+ operator, the guy who operates the eSIM backend,
+
+00:32:57.000 --> 00:33:02.000
+ we have the LPAD, that's again your local profile assistant and the device, and we have the EUICC.
+
+00:33:02.000 --> 00:33:07.000
+ And now there's some talking going on, so the LPAD needs to query the EUICC,
+
+00:33:07.000 --> 00:33:11.000
+ like what is your EID and what's the default SMDP+ address, and so on and so on.
+
+00:33:11.000 --> 00:33:17.000
+ And then there is one line here called just, well, refer to common mutual authentication procedures,
+
+00:33:17.000 --> 00:33:21.000
+ actions, such and such, and that expands into a diagram that's like three times the size of this,
+
+00:33:21.000 --> 00:33:28.000
+ which does the mutual authentication between the EUICC and the SMDP+.
+
+00:33:28.000 --> 00:33:36.000
+ So at the end of this mutual authentication process, by facilitating all these PKI X509 certificates in this entire chain,
+
+00:33:36.000 --> 00:33:42.000
+ the EUICC knows it's talking to a GSMA accredited and approved SMDP+,
+
+00:33:42.000 --> 00:33:50.000
+ and the SMDP+ knows it is talking to an EUICC that contains a profile that has been issued by an EUICC manufacturer
+
+00:33:50.000 --> 00:33:53.000
+ who has received a certificate from the GSMI public key infrastructure.
+
+00:33:53.000 --> 00:33:58.000
+ So basically they both know they can trust each other because they're part of the same chain of trust.
+
+00:33:58.000 --> 00:34:05.000
+ And from that point onward then, the actual profile building and so on gets started.
+
+00:34:05.000 --> 00:34:10.000
+ It goes on for some time, and then we come to a process called the profile installation,
+
+00:34:10.000 --> 00:34:18.000
+ where the LPAD and the EUICC exchange a number of commands, so-called APDUs, that's smart card packets,
+
+00:34:18.000 --> 00:34:20.000
+ basically communication packets that go back and forth.
+
+00:34:20.000 --> 00:34:30.000
+ And when all of this has happened, at some point we come to a profile that has been successfully installed on the EUICC.
+
+00:34:30.000 --> 00:34:35.000
+ Now, a newly installed profile is by definition explicitly not activated.
+
+00:34:35.000 --> 00:34:38.000
+ It's downloaded and installed, but it's not active.
+
+00:34:38.000 --> 00:34:44.000
+ The act of activation is something you have to do explicitly by using a local profile management operation
+
+00:34:44.000 --> 00:34:47.000
+ between your LPAD on your device and the EUICC.
+
+00:34:47.000 --> 00:34:55.000
+ And the next step is the enabled profile device, where really it's only the end user using the LUI,
+
+00:34:55.000 --> 00:35:00.000
+ the local user interface, doing some end user interactions, the thing that end users do.
+
+00:35:00.000 --> 00:35:03.000
+ And then we have the EUICC and the device baseband.
+
+00:35:03.000 --> 00:35:06.000
+ Now, where does the device baseband come into this?
+
+00:35:06.000 --> 00:35:15.000
+ If you switch your SIM profile, the baseband processor that handles all the cellular protocol stuff with the network,
+
+00:35:15.000 --> 00:35:19.000
+ it needs to invalidate all the information it may have ever read from the SIM before,
+
+00:35:19.000 --> 00:35:24.000
+ including the IMZ and everything else, because your SIM has completely changed now.
+
+00:35:24.000 --> 00:35:28.000
+ It basically needs to invalidate all that, and that happens by a so-called refresh command.
+
+00:35:28.000 --> 00:35:32.000
+ So during this process it's basically determined whether refresh is needed.
+
+00:35:32.000 --> 00:35:33.000
+ In most cases, yes.
+
+00:35:33.000 --> 00:35:38.000
+ And if a refresh is needed, the EUICC, using something called proactive SIM,
+
+00:35:38.000 --> 00:35:41.000
+ which inverts the direction of the SIM communication,
+
+00:35:41.000 --> 00:35:45.000
+ because a SIM card can normally not initiate communication to the baseband.
+
+00:35:45.000 --> 00:35:47.000
+ It's only the other way around.
+
+00:35:47.000 --> 00:35:51.000
+ So there's a piggyback mechanism, how it can tell basically the baseband,
+
+00:35:51.000 --> 00:35:55.000
+ hey, by the way, all the information you think you knew about the SIM card is now invalid.
+
+00:35:55.000 --> 00:35:57.000
+ You need to basically start from scratch.
+
+00:35:57.000 --> 00:36:01.000
+ And it comes, restarts, and starts to read all the information from the SIM card,
+
+00:36:01.000 --> 00:36:05.000
+ and it determines it now is a new IMZ, and it needs to roam to a different network,
+
+00:36:05.000 --> 00:36:07.000
+ and it does the network registration, and so on and so on.
+
+00:36:07.000 --> 00:36:11.000
+ So that's what's happening once you enable a new profile in the card.
+
+00:36:11.000 --> 00:36:13.000
+ Now, that is the consumer model.
+
+00:36:13.000 --> 00:36:18.000
+ Now let's get to the exciting new buzzword, the IoT model.
+
+00:36:18.000 --> 00:36:21.000
+ Now, machine-to-machine consumers and now IoT.
+
+00:36:21.000 --> 00:36:25.000
+ Now, the IoT model has been developed mostly to overcome problems
+
+00:36:25.000 --> 00:36:29.000
+ in the machine-to-machine eSIM model,
+
+00:36:29.000 --> 00:36:34.000
+ where I already hinted this, there's the problem of sort of the business side
+
+00:36:34.000 --> 00:36:38.000
+ and the legal side not really being able, the commercial side not being able to agree
+
+00:36:38.000 --> 00:36:44.000
+ on transferring sort of the SMSR from one SMSR operator to another
+
+00:36:44.000 --> 00:36:46.000
+ in the machine-to-machine case.
+
+00:36:46.000 --> 00:36:50.000
+ And now they created something which I think is actually really nice.
+
+00:36:50.000 --> 00:36:52.000
+ I'm rather happy with how it worked out.
+
+00:36:52.000 --> 00:36:55.000
+ So we take a lot from the consumer eSIM.
+
+00:36:55.000 --> 00:36:58.000
+ So the IoT eSIM has much more in common with the consumer eSIM
+
+00:36:58.000 --> 00:37:02.000
+ than with the machine-to-machine eSIM, which is sort of paradoxical if you think about it,
+
+00:37:02.000 --> 00:37:05.000
+ but it is the way, this is the way.
+
+00:37:05.000 --> 00:37:10.000
+ And it's sort of like a consumer eSIM that's remote controlled.
+
+00:37:10.000 --> 00:37:15.000
+ So instead of having this completely separate scheme with the SMSR
+
+00:37:15.000 --> 00:37:18.000
+ and whatever kind of operations and the push model,
+
+00:37:18.000 --> 00:37:20.000
+ what we do is we use the consumer model,
+
+00:37:20.000 --> 00:37:23.000
+ but instead of a local user entering an activation code,
+
+00:37:23.000 --> 00:37:26.000
+ we sort of have a remote user that injects the activation code
+
+00:37:26.000 --> 00:37:31.000
+ so it can do the thing to activate a new eSIM profile.
+
+00:37:31.000 --> 00:37:36.000
+ And that's nice in a way that we do away with this dependency on one entity
+
+00:37:36.000 --> 00:37:39.000
+ that has the control over this EU ICC,
+
+00:37:39.000 --> 00:37:43.000
+ and we get to the whatever, 30 or so entities that compete
+
+00:37:43.000 --> 00:37:46.000
+ which is slightly better than one entity.
+
+00:37:46.000 --> 00:37:49.000
+ And the way how they do it is they take the LPA,
+
+00:37:49.000 --> 00:37:52.000
+ so the local profile assistant that's running in your smartphone,
+
+00:37:52.000 --> 00:37:54.000
+ and they split that in half.
+
+00:37:54.000 --> 00:37:58.000
+ And the upper half of the LPA becomes the EIM, the EU ICC Identity Manager,
+
+00:37:58.000 --> 00:38:03.000
+ which is yet another piece of server software running somewhere in a data center.
+
+00:38:03.000 --> 00:38:05.000
+ And the lower part of it becomes the IPA.
+
+00:38:05.000 --> 00:38:11.000
+ It's not a beer unfortunately, it's the IoT profile assistant I think.
+
+00:38:11.000 --> 00:38:17.000
+ And the IPA is sort of a user interface less LPA
+
+00:38:17.000 --> 00:38:23.000
+ introducing an interface to the EIM, which is the server side infrastructure,
+
+00:38:23.000 --> 00:38:26.000
+ which then does the same thing as the user would have done,
+
+00:38:26.000 --> 00:38:30.000
+ such as sending an activation code to install a new eSIM profile in there.
+
+00:38:30.000 --> 00:38:36.000
+ So the goal I set was to work around these problems with SMSR migration and machine to machine.
+
+00:38:36.000 --> 00:38:41.000
+ So it turns out that IoT devices occasionally tend to be even smaller
+
+00:38:41.000 --> 00:38:44.000
+ in terms of CPU resources on their application processor
+
+00:38:44.000 --> 00:38:47.000
+ than the machine to machine devices in the past.
+
+00:38:47.000 --> 00:38:55.000
+ So it might be overkill to require that they actually implement a full blown HTTP and TLS stack
+
+00:38:55.000 --> 00:38:58.000
+ that might be difficult in some environments.
+
+00:38:58.000 --> 00:39:06.000
+ What they did is they worked this new interface between the IPA and the EIM,
+
+00:39:06.000 --> 00:39:13.000
+ the eSIM IoT Remote Manager, called ESIPA, that interface.
+
+00:39:13.000 --> 00:39:16.000
+ They designed this in a way that it can be spoken over.
+
+00:39:16.000 --> 00:39:18.000
+ First of all, there's two different encodings.
+
+00:39:18.000 --> 00:39:24.000
+ There's JSON encoding for high powered devices that can handle textual representation,
+
+00:39:24.000 --> 00:39:29.000
+ there's an ASN1 representation for low powered devices that need binary encoding formats,
+
+00:39:29.000 --> 00:39:33.000
+ and each of those encodings can be transported either over HTTPS or over CoAP,
+
+00:39:33.000 --> 00:39:38.000
+ which is an IoT related protocol for resource constrained devices with Datagram TLS,
+
+00:39:38.000 --> 00:39:45.000
+ which is simpler than the TCP based TLS as we know it in HTTPS.
+
+00:39:45.000 --> 00:39:49.000
+ You can even implement a completely custom transport if you want to,
+
+00:39:49.000 --> 00:39:55.000
+ because as an owner of a fleet of I don't know how many IoT devices out there,
+
+00:39:55.000 --> 00:40:02.000
+ you can of course put some code as IPA on your device and some other code as EIM in your backend
+
+00:40:02.000 --> 00:40:04.000
+ and they can talk about whatever protocol they want,
+
+00:40:04.000 --> 00:40:08.000
+ just as long as they can encapsulate all the operations and whatever that is needed.
+
+00:40:08.000 --> 00:40:10.000
+ Of course you won't be able to interoperate with other devices,
+
+00:40:10.000 --> 00:40:13.000
+ but technically it's possible in the spec even explicitly says,
+
+00:40:13.000 --> 00:40:16.000
+ "Yeah, if that's what you want to do, you can do it."
+
+00:40:16.000 --> 00:40:19.000
+ So, yeah, it can be remotely triggered.
+
+00:40:19.000 --> 00:40:24.000
+ So basically the customer of such an IoT subscription,
+
+00:40:24.000 --> 00:40:31.000
+ so you buy 100,000 IoT eSIM profiles and as a customer you would operate your own EIM
+
+00:40:31.000 --> 00:40:36.000
+ or you would contract some party, a third party that is neither your operator nor the EUICC manufacturer,
+
+00:40:36.000 --> 00:40:42.000
+ a third party that really just works for you to operate that EIM or your operator in-house.
+
+00:40:42.000 --> 00:40:48.000
+ And through this EIM you can remotely install whatever profiles you want on your IoT fleet of devices
+
+00:40:48.000 --> 00:40:52.000
+ and nobody else can basically tell you not to do that other than the GSMA,
+
+00:40:52.000 --> 00:40:54.000
+ but that's not their role.
+
+00:40:54.000 --> 00:40:59.000
+ So, yeah, that's sort of what's new in the IoT model.
+
+00:40:59.000 --> 00:41:03.000
+ Now, last part, just a couple of slides about eSIMs versus private networks,
+
+00:41:03.000 --> 00:41:09.000
+ which is a topic that's also relevant to here at the CCC because this private seller network operated here.
+
+00:41:09.000 --> 00:41:14.000
+ Now, the entire GSMA eSIM universe has been built around a couple of assumptions,
+
+00:41:14.000 --> 00:41:18.000
+ which I think were even wrong back then and they were even wrong right now.
+
+00:41:18.000 --> 00:41:23.000
+ So, well, a central root of trust, okay, I mean, if you're a GSMA, of course that's what you want, right?
+
+00:41:23.000 --> 00:41:28.000
+ I mean, you want to be the root of trust, that's sort of understandable.
+
+00:41:28.000 --> 00:41:33.000
+ GSMA members or accredited parties issuing profiles, okay, I can still understand that,
+
+00:41:33.000 --> 00:41:38.000
+ but then there is, for example, the requirement that you need public Internet access
+
+00:41:38.000 --> 00:41:46.000
+ to reach all of these SMDP, SMSR, SMDS devices, which, yeah, well, I have this private network of whatever.
+
+00:41:46.000 --> 00:41:48.000
+ I don't want those devices to talk to the public Internet,
+
+00:41:48.000 --> 00:41:52.000
+ but in order to install new eSIM profile, they now need Internet access.
+
+00:41:52.000 --> 00:41:55.000
+ Yeah, not the smartest idea.
+
+00:41:55.000 --> 00:42:00.000
+ And then also the OTA mechanisms, they all require an initial trigger of SMS.
+
+00:42:00.000 --> 00:42:06.000
+ So, in your private network where maybe you have data-only devices and you have no use for SMS or voice calls
+
+00:42:06.000 --> 00:42:09.000
+ and you would now have no technical reason to deploy that technology,
+
+00:42:09.000 --> 00:42:14.000
+ you now need to deploy an SMS service center just so you can trigger the HTTPS connection activation,
+
+00:42:14.000 --> 00:42:20.000
+ so you can download eSIM profiles over public Internet access from devices that you never wanted to have public Internet access before.
+
+00:42:20.000 --> 00:42:27.000
+ So, yeah, well, so in private networks, you know, and I'm talking about, you know, the event networks like here,
+
+00:42:27.000 --> 00:42:33.000
+ or also campus networks, let's say, at a car manufacturer or whatnot, that's not really what they want in the end.
+
+00:42:33.000 --> 00:42:37.000
+ Yeah, thanks. I'm coming to the end here.
+
+00:42:37.000 --> 00:42:41.000
+ Yeah, so, yeah, you might not be a GSMA member, your network might not be public,
+
+00:42:41.000 --> 00:42:45.000
+ you might not want public Internet access, and you might not want to have to deal with legacy SMS.
+
+00:42:45.000 --> 00:42:53.000
+ So, yeah, there is sort of a disconnect between what's happening in, you know, the cellular world and in the eSIM world to some extent.
+
+00:42:53.000 --> 00:42:55.000
+ Now, what you can do is basically give two options.
+
+00:42:55.000 --> 00:43:02.000
+ Either you are part of this GSMA world, and that means you have to comply with all those requirements and so on,
+
+00:43:02.000 --> 00:43:07.000
+ and your profiles are over the public Internet, and actually you're working in a system that's meant for public networks,
+
+00:43:07.000 --> 00:43:10.000
+ but actually you do use them in a private network because you have no other way,
+
+00:43:10.000 --> 00:43:16.000
+ or you theoretically, I don't think anyone does that, at least not yet, you would operate your alternative own route of trust,
+
+00:43:16.000 --> 00:43:22.000
+ like CA cert was created to sort of as an alternative to commercial CA's,
+
+00:43:22.000 --> 00:43:28.000
+ where then you would run your own SMTPs, SMSRs, and all that infrastructure.
+
+00:43:28.000 --> 00:43:36.000
+ The problem is then you cannot work with a normal consumer device because the EUICC in there has a certificate from the route of trust of GSMA,
+
+00:43:36.000 --> 00:43:40.000
+ and that would of course not accept any of the certificates of your own CA.
+
+00:43:40.000 --> 00:43:47.000
+ So that can only work in a situation where you produce your own devices and put EUICCs on those devices,
+
+00:43:47.000 --> 00:43:54.000
+ or like in a plastic form factory in a SIM slot that have certificates derived from your own PKI in there, right?
+
+00:43:54.000 --> 00:43:57.000
+ So that's sort of, yeah, both choices are rather bad.
+
+00:43:57.000 --> 00:44:04.000
+ So here at the camp the solution is obviously go for the first part because people come here with normal consumer devices,
+
+00:44:04.000 --> 00:44:09.000
+ so this time is the first time that the GSM team has some eSIMs available, if you ask them,
+
+00:44:09.000 --> 00:44:19.000
+ this is a limited supply because it's of course much easier to buy physical SIM cards than to buy a blob of data,
+
+00:44:19.000 --> 00:44:22.000
+ it's of course in much more limited supply than physical cards.
+
+00:44:22.000 --> 00:44:28.000
+ And the problem is, well, of course you have to do this through some service provider,
+
+00:44:28.000 --> 00:44:34.000
+ and it's all done by the service provider, you can't run off all of that, you can't run it on premises,
+
+00:44:34.000 --> 00:44:39.000
+ you can't control what's happening, it's basically all out of your hands, and that's sort of the negative part of it.
+
+00:44:39.000 --> 00:44:46.000
+ And it also means that this service provider then knows of course the EID of all the people who have joined this camp here,
+
+00:44:46.000 --> 00:44:52.000
+ and if you buy a physical card here nobody knows except maybe some of the people here,
+
+00:44:52.000 --> 00:44:57.000
+ but at least nobody off site and not some company somewhere.
+
+00:44:57.000 --> 00:45:03.000
+ So, yeah, I forgot, one more slide.
+
+00:45:03.000 --> 00:45:09.000
+ So me being an open source guy, what can we do with open source in this universe?
+
+00:45:09.000 --> 00:45:15.000
+ And the answer is, well, technically everything, but then how do we get all of this accredited and approved and whatnot,
+
+00:45:15.000 --> 00:45:18.000
+ and authorized so it can be used in production environments?
+
+00:45:18.000 --> 00:45:24.000
+ So all of the specs are public, you can implement all of that, but you can't really use it with consumer devices
+
+00:45:24.000 --> 00:45:30.000
+ because your software won't get the GSMA approval, and your hosting at home won't get GSMA approval,
+
+00:45:30.000 --> 00:45:34.000
+ and so yeah, sort of stuck there.
+
+00:45:34.000 --> 00:45:40.000
+ Now in the IoT eSIM, luckily there are two components which do not require GSMA certification,
+
+00:45:40.000 --> 00:45:47.000
+ which is the IPA, the local software running on the device, and also the EIM, the EICC identity manager,
+
+00:45:47.000 --> 00:45:52.000
+ which is the part that you as an operator of a fleet of IoT devices want under your control.
+
+00:45:52.000 --> 00:45:55.000
+ So there's some chance of at least having free and open source implementations there.
+
+00:45:55.000 --> 00:46:01.000
+ And for the LPA or IPA, Google actually released the one that's used in Chrome OS as open source software,
+
+00:46:01.000 --> 00:46:08.000
+ so if anyone wants to look at how this is done, you can do that and port that to a general,
+
+00:46:08.000 --> 00:46:12.000
+ you can buy an EICC in a normal form factor, plug that into your laptop,
+
+00:46:12.000 --> 00:46:17.000
+ and then try to run that local profile assistance from Chrome OS to get a feel of what's happening there,
+
+00:46:17.000 --> 00:46:20.000
+ what does the protocol messages look like, and so on. That's actually possible.
+
+00:46:20.000 --> 00:46:24.000
+ Okay, and with that we come to further reading and the end of file,
+
+00:46:24.000 --> 00:46:30.000
+ and we hopefully still have a few minutes for questions and hopefully some answers as well.
+
+00:46:30.000 --> 00:46:34.000
+ Please raise your hand as a signal angel, and yeah, thanks.
+
+00:46:34.000 --> 00:46:43.000
+ [Applause]
+
+00:46:43.000 --> 00:46:46.000
+ Yeah, so we...
+
+00:46:46.000 --> 00:46:57.000
+ So we have decided to extend Q&A if there are questions.
+
+00:46:57.000 --> 00:47:02.000
+ We are extending Q&A, so hopefully there will be enough time for questions.
+
+00:47:02.000 --> 00:47:12.000
+ Yeah, please line up here with the gentleman in the shirt over here, the violet shirt.
+
+00:47:12.000 --> 00:47:14.000
+ Yeah, blue shirt.
+
+00:47:14.000 --> 00:47:18.000
+ Yeah, thank you for the talk.
+
+00:47:18.000 --> 00:47:27.000
+ So I have a question. So I have a phone that can do eSIM, and it has two SIM slots,
+
+00:47:27.000 --> 00:47:34.000
+ so I can install ten SIM cards to my phone, but I can only activate two of them, so in whatever combination.
+
+00:47:34.000 --> 00:47:37.000
+ What is the reason for this?
+
+00:47:37.000 --> 00:47:45.000
+ Well, that is a general issue with cellular networks and how they work in a sense that
+
+00:47:45.000 --> 00:47:53.000
+ the entire spec and everything is designed in a way that there's one subscriber using one modem being attached to one network,
+
+00:47:53.000 --> 00:47:57.000
+ and if you think of it physically, how it works, different operators get different spectrum,
+
+00:47:57.000 --> 00:48:03.000
+ and your modem needs to tune to one particular frequency, right, and it can only be at any given point in time on that one frequency.
+
+00:48:03.000 --> 00:48:08.000
+ Now, if you have a dual SIM phone, that usually means you have also a dual baseband phone, at least these days,
+
+00:48:08.000 --> 00:48:11.000
+ which means you basically have two complete cellular modems in there,
+
+00:48:11.000 --> 00:48:17.000
+ and they can be on two channels of two operators or two technologies and so on.
+
+00:48:17.000 --> 00:48:26.000
+ Thank you for talk. One thing I didn't get is you've succeeded in doing eSIM here,
+
+00:48:26.000 --> 00:48:36.000
+ which means that you got through a lot of hoops, but what is the limiting factor for the eSIMs in the camp?
+
+00:48:36.000 --> 00:48:41.000
+ No, I mean, first of all, I had no involvement with the eSIM here at the camp, just to be clear.
+
+00:48:41.000 --> 00:48:45.000
+ As in the GSM team, I don't know what they did and whom they talked to and whatnot,
+
+00:48:45.000 --> 00:48:49.000
+ but I guess it's basically those limited number, I think it's about 350 or something like that,
+
+00:48:49.000 --> 00:48:53.000
+ they got for free from some company and that's the quantity they got for free.
+
+00:48:53.000 --> 00:48:55.000
+ I guess that's sort of the...
+
+00:48:55.000 --> 00:49:00.000
+ They rely on the company that's generated...
+
+00:49:00.000 --> 00:49:08.000
+ Yes, of course. There's no other way you can do it with a general consumer device that has the GSM able to trust that you can't do anything else.
+
+00:49:08.000 --> 00:49:18.000
+ Hello, if I were to route my phone and have control of the operating system, would that solve the problem with the certificate?
+
+00:49:18.000 --> 00:49:22.000
+ No, it does not, because all of this happens inside the EU ICC itself.
+
+00:49:22.000 --> 00:49:29.000
+ So there is no reason... like you can do whatever you want on the phone, on the baseband, you can route it, you can do whatever you want,
+
+00:49:29.000 --> 00:49:33.000
+ but in the end, let's say the secure connection is always between...
+
+00:49:33.000 --> 00:49:44.000
+ encrypted connection is always between some code inside your SIM card and some code somewhere in the cloud.
+
+00:49:44.000 --> 00:49:50.000
+ So the goal here obviously is to just get some numbers over the year into your EU ICC.
+
+00:49:50.000 --> 00:50:01.000
+ In your professional opinion, if I may say so, was there any way that the protocol suit could have been made simpler without compromising usability or security?
+
+00:50:01.000 --> 00:50:08.000
+ Yeah, I don't really know, to be honest.
+
+00:50:08.000 --> 00:50:13.000
+ It's not really my... I've never designed any of these systems.
+
+00:50:13.000 --> 00:50:17.000
+ I just look at them and think about them and work with them.
+
+00:50:17.000 --> 00:50:20.000
+ So yeah, I don't really know.
+
+00:50:20.000 --> 00:50:25.000
+ As usual, when you have some kind of specification group, there's different people with different interests.
+
+00:50:25.000 --> 00:50:32.000
+ Some of them, well, a very small amount of them being technically, and all the other interests are commercial, and then they clash,
+
+00:50:32.000 --> 00:50:42.000
+ and then everybody wants to get their pattern in the standard and whatnot, and then you end up with something horribly complex, you know, designed by a committee.
+
+00:50:42.000 --> 00:50:44.000
+ Thanks for the talk.
+
+00:50:44.000 --> 00:50:54.000
+ If I wanted to have my own commercial device, like a consumer device, and connect it to my own network,
+
+00:50:54.000 --> 00:50:59.000
+ and I wanted to put an eSIM on there, what hoops... So I understand that I would need to have that signed by the GSMA.
+
+00:50:59.000 --> 00:51:11.000
+ What hoops would I have to jump through to get that done, assuming that I want to have my own set of parameters that I put in the unpersonalized profile and the personalized profile?
+
+00:51:11.000 --> 00:51:18.000
+ Well, basically you need to find an SMDP+ operator with whom you enter in a commercial arrangement,
+
+00:51:18.000 --> 00:51:25.000
+ so you can give the profile data to them and they would create the protected profile for you assigned in this chain of trust and so on.
+
+00:51:25.000 --> 00:51:28.000
+ Yeah, and I don't know the commercial terms and so on.
+
+00:51:28.000 --> 00:51:34.000
+ If you want a list of those companies, there's a GSMA website that lists all of these accredited SMDP+ operators.
+
+00:51:34.000 --> 00:51:43.000
+ Yeah, but I guess, you know, mostly they would be interested, like, if you want tens of thousands or hundreds of thousands, but not fewer than that.
+
+00:51:43.000 --> 00:51:45.000
+ So that's sort of a bit of a problem there.
+
+00:51:45.000 --> 00:51:52.000
+ Hey, thank you for the great talk.
+
+00:51:52.000 --> 00:52:00.000
+ On the M2M eSIM model, what would happen if the SMSR provider were to go bankrupt?
+
+00:52:00.000 --> 00:52:07.000
+ It's probably a question of the escrow language in your commercial contract with that provider.
+
+00:52:07.000 --> 00:52:12.000
+ I don't know whether there's any... I'm not... like, that's more, I say, a business process kind of thing.
+
+00:52:12.000 --> 00:52:15.000
+ It's not really... I'm looking at the technical specs here.
+
+00:52:15.000 --> 00:52:22.000
+ It might be that they have foreseen this and there is some kind of part of the eSIM specs that cover those business aspects,
+
+00:52:22.000 --> 00:52:28.000
+ but I'm not aware of, like, any requirement there.
+
+00:52:28.000 --> 00:52:29.000
+ Hi, thanks for the talk.
+
+00:52:29.000 --> 00:52:36.000
+ I think early on you mentioned the possibility of virtualizing the EU ICC within the general processor.
+
+00:52:36.000 --> 00:52:45.000
+ Does this perhaps hint at the possibility of an EU ICC where multiple EU ICCs could be run perhaps with different routes of trust?
+
+00:52:45.000 --> 00:52:51.000
+ Yes, potentially.
+
+00:52:51.000 --> 00:53:01.000
+ Though it would mean that, of course, you would have to be able to execute code in the context of wherever this EU ICC,
+
+00:53:01.000 --> 00:53:07.000
+ if you want to call it like that. I think it's called an EU ICC then or something like that.
+
+00:53:07.000 --> 00:53:11.000
+ I think I've heard that term in the industry.
+
+00:53:11.000 --> 00:53:19.000
+ Yeah, you would have to execute it with that level of trust and I'm not sure in which kind of secure enclave Voodoo in those processes they're trying to do that.
+
+00:53:19.000 --> 00:53:24.000
+ So, also doesn't look like a very easy path.
+
+00:53:24.000 --> 00:53:32.000
+ So, speaking of secure enclaves, if I understand correctly, any profile could be installed in any EU ICC,
+
+00:53:32.000 --> 00:53:41.000
+ which means that there is a single key extraction standing between us and accessing all the secrets of all the possible EU ICC devices.
+
+00:53:41.000 --> 00:53:49.000
+ So, if we manage to extract one set of secrets, then we can create a fake EU ICC that would pass attestation?
+
+00:53:49.000 --> 00:53:55.000
+ No, I mean that would be the case if it was a shared secret symmetric cryptography thing.
+
+00:53:55.000 --> 00:54:02.000
+ But there's actually a public key. It depends on which specific interface and so on, but in the end,
+
+00:54:02.000 --> 00:54:08.000
+ if you get in any kind of PKI, if you get to the private key of the root CA, then the system is owned.
+
+00:54:08.000 --> 00:54:12.000
+ But, of course, in any PKI you try to make that as hard as possible.
+
+00:54:12.000 --> 00:54:25.000
+ If you just break the key of one particular device, you never would be that device, but not the overall system, right?
+
+00:54:25.000 --> 00:54:32.000
+ Yes, but I could install another eSIM profile in that same device and extract the keys from that eSIM profile too.
+
+00:54:32.000 --> 00:54:40.000
+ No, you would not, because in order to install an eSIM profile on an EU ICC, you need a certificate of an SMDP+.
+
+00:54:40.000 --> 00:54:44.000
+ And not a certificate of an EU ICC, right?
+
+00:54:44.000 --> 00:54:49.000
+ So, it's a different tree in the PKI hierarchy and all the code in place.
+
+00:54:49.000 --> 00:54:57.000
+ Of course, it makes sure that you cannot use a certificate of an EU ICC and impersonate an SMDP+ or something like that.
+
+00:54:57.000 --> 00:55:02.000
+ Okay, maybe next question. Yeah, thanks. We still have time? Okay.
+
+00:55:02.000 --> 00:55:11.000
+ Following the idea of PKI hierarchies, I mean, there are a lot of issuing CA's, however, they are probably called involved in here.
+
+00:55:11.000 --> 00:55:17.000
+ And this would require revocations. Are they being properly done? Are there such revocation events already happened?
+
+00:55:17.000 --> 00:55:20.000
+ And did they arrive at all devices? Can you say anything about that?
+
+00:55:20.000 --> 00:55:28.000
+ I did not look into that, sorry. I wish I knew. But yeah, sorry, didn't look at that.
+
+00:55:28.000 --> 00:55:40.000
+ In the IoT spec, how do we do the communication between the EIM and the IPA if we don't already have a different profile?
+
+00:55:40.000 --> 00:55:48.000
+ Is there like some facility or do we have to flash some initial network contract?
+
+00:55:48.000 --> 00:55:52.000
+ You can, well, I think there's different ways how you can do that.
+
+00:55:52.000 --> 00:55:58.000
+ Well, first of all, the device could have some other network technology by which you could reach, and there could be anything, right?
+
+00:55:58.000 --> 00:56:04.000
+ So assuming you're designing an IoT device and you can at least run some custom software on that IoT device,
+
+00:56:04.000 --> 00:56:11.000
+ you can implement whatever protocol you want to talk to whatever part of software you have somewhere else over whatever medium.
+
+00:56:11.000 --> 00:56:17.000
+ And then that software basically is a part of your EIM that talks over the public Internet to the SMDP+ and to all of that.
+
+00:56:17.000 --> 00:56:27.000
+ So because that is not possibly technically with the earlier E-SIM profiles, but because the way how the IoT was designed,
+
+00:56:27.000 --> 00:56:34.000
+ basically you are enabled to be a proxy in there, and the proxy can of course have multiple parties and tunnel over whatever protocol.
+
+00:56:34.000 --> 00:56:41.000
+ And it could also be that this other medium is a couple of test points in the factory while you're producing the device.
+
+00:56:41.000 --> 00:56:48.000
+ That's also a medium by which you could facilitate that transfer.
+
+00:56:48.000 --> 00:56:49.000
+ Okay.
+
+00:56:49.000 --> 00:56:54.000
+ All right, I believe that's all of the questions. Once again, thank you LaForge.
+
+00:56:54.000 --> 00:57:00.000
+ Yeah, thanks.
+
+00:57:00.000 --> 00:57:05.000
+ [Music]
+

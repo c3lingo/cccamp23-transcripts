@@ -1,0 +1,328 @@
+ [MUSIC]
+ [MUSIC]
+ Thumbs up and so I'm happy to introduce Matthias Huit to you and
+ the Qualm Messenger Resilient Communication during blackouts and
+ internet shutdowns and I give the stage to you Matthias.
+ >> Thank you.
+ >> [APPLAUSE]
+ >> Welcome everybody.
+ In 2011, we started the project, CallNet.
+ Mainly because this has happened before in 2009.
+ It was called the Green Revolution in Iran and
+ it was called also the first social media revolution.
+ Because thousands of Twitter users just colored their Twitter profile in green.
+ And when Al Jazeera later then made a survey over
+ who was really kind of using Twitter within Iran.
+ There were I think about 60 accounts and all those other people were outside.
+ So what is such a social media revolution?
+ In 2011, the Arab Spring started and
+ it was called again a social media revolution.
+ But in all of the cases, during the peaks of the revolutions,
+ the internet was shut down for several days.
+ And the movements and the revolutions even grew.
+ And we have seen that in many cases.
+ So five years later, there became also critical articles about that.
+ However, internet shutdowns is not something which is not happening often.
+ This is just a list of internet shutdowns from governments this year.
+ And it's from several sources that we have collected that.
+ And it was mainly happened because the government was facing opposition.
+ An exception to that is for sure Ukraine, where it was introduced by Russia.
+ But how to communicate then when there is no internet?
+ This is our normal network structure that we usually have.
+ No, our device is connected to an ISP.
+ The ISP is connected to a backbone and peering with some others.
+ And then so when we want to send to another computer a message,
+ then it's usually kind of traveling this way to a server in the internet and
+ then back, even when this person is sitting next to us.
+ So we invented call to be able to communicate
+ directly from end to end devices.
+ And how can that happen?
+ Well, we want to mesh them together just into one big mesh.
+ And enable our Wi-Fi and other means the communication.
+ In 2012, we released our first version.
+ And since then we have gotten user feedback and
+ also supported people in many, many countries.
+ Including Germany, Switzerland, Greece, Tunisia, Taiwan, India, Syria, Egypt, and
+ Iran.
+ We have rewritten the project on a completely new stack in the last two years.
+ We want to be full stack, which means we support all the devices people
+ usually use that they have at their hands.
+ So it's not something for the server, it's really something for the end devices.
+ Which means we have a Linux client, we have an Android client,
+ a Windows client, an iOS client, and a Mac OS client.
+ We have three different modes of interconnection.
+ Bluetooth low energy, we implemented that only by last week.
+ Alarm mode, where you are automatically found within a local area network
+ with the other users when there is no client isolation such as on this camp,
+ unfortunately.
+ And static mode, where you can statically interconnect yourself with some nodes.
+ This can be a node kind of somewhere in this camp or in the internet.
+ It just needs to be reachable and when it's reachable, you are interconnected.
+ And all those devices that are somehow interconnected are meshed together.
+ In order to also make you as the user or
+ an other user aware of the situation, how you are interconnected.
+ So of your own view, we built the network view that shows you that.
+ And also all the users that are interconnected are automatically discovered
+ and shown in your contact list.
+ We have a shout out mode, so you can just send a public message to everyone
+ at this moment interconnected within the network.
+ We of course have a private chat, which is of course
+ fully end to end encrypted.
+ We also have a group chat, which is also fully end to end encrypted and
+ you can add as many people as you like.
+ We tried to make the onboarding process as simple as possible.
+ So there are basically two steps.
+ The language selection, which is usually done automatically due to the language you
+ have on your device.
+ And then the entrance of a username which can be any UTF
+ string even with spaces and so on.
+ Because you are not identified within the network via your username, but
+ via the hash of your public key, which is an idea and
+ is used for routing everything.
+ So these are our features and I would like to try quick,
+ live test.
+ Let's see what is happening.
+ So here we already did the onboarding.
+ Okay, so we have a bright mode and a dark mode and unfortunately,
+ I have chosen the dark mode.
+ So let's see whether we can change that.
+ So we are here on the network view.
+ You see how I am interconnected at this very moment.
+ Of course there is a settings page.
+ We have here the language selection.
+ It's really easy to add new languages at the moment.
+ I don't know, we have over ten different languages.
+ You're very welcome to just add new ones.
+ So the theme is just the default theme.
+ I would say we switch to something more visible.
+ Okay.
+ Then we have here the shout out mode where we can just send
+ a public note which will of course not be encrypted, but
+ it will be signed so it's absolutely clear that it's coming from you.
+ Let's send a quick hello.
+ Let's have a look who else is here.
+ Okay, Bob is here.
+ Maybe we can start a chat with someone else.
+ Alice is here.
+ So here when we go on the user profile of Alice,
+ we see the identification and we also see the public key.
+ Now we can just start a chat with Alice
+ by sending to Alice a message.
+ So now this message was sent to Alice,
+ which is this smartphone I have over here.
+ And Alice received it.
+ And at this very moment that we did, also the security,
+ the crypto handshake, we call it zero round encryption,
+ which is maybe a bit misleading.
+ It just means that the first message is already encrypted, but
+ it's encrypted not symmetrically, but
+ via your private key and the other one's public key.
+ And then this is part of the noise handshake that we are doing and
+ afterwards you have your static communication
+ encryption key that you both share.
+ And we see that this message has been arrived at Alice via this.
+ So let's see here.
+ I also have the possibility to, how do I do that?
+ To take a selfie.
+ And send pictures from here to another device.
+ They will just appear as any other chat message.
+ Of course, you can also send files and so on.
+ And when we have a look who else is here, for example,
+ then we can see that Bob is interconnected with Alice.
+ And this is done because Bob is in other mobile which is
+ interconnected over Bluetooth low energy with Alice.
+ And for example, we can also create a new chat group to
+ show this feature maybe quickly.
+ So let's call it, let's call it Camp.
+ We created, I can select the users that I would like to invite into these chat groups.
+ The users get sent an invitation.
+ The invitation is shown and they can accept it or of course deny it.
+ And then we see that the people have joined the chat.
+ So what else?
+ We also have an Internet overlay which means that you can have static
+ notes in the network and you can add your own and
+ you can connect to them or disconnect to them.
+ So all this kind of stuff.
+ And what happens now if somebody is not online?
+ Which can happen really easily.
+ For that, we have built a second level in our routing protocol,
+ which is called delay tolerant messaging.
+ This means that when somebody is not available, you first check,
+ is there some social distance or social proximity to another user?
+ Let's say you are in the same chat group with other users.
+ Then this user would most probably volunteer to transport this package,
+ now this message, which is fully encrypted.
+ The user cannot read it, just knows to whom he needs to send it.
+ And you can also manually say, okay, if the user is not available,
+ I want to send it to this other user and this other user will volunteer
+ to carry the packages to the other person.
+ I guess I went through quite a lot, so let's jump back to the presentation.
+ Maybe a very quick look into the technical setup of how we have done that.
+ As we try to be able to run on literally every device,
+ we created a library in the background which is called libcal.
+ Libcal is written in Rust.
+ Under the hood for some of our messaging, we are using Rust peer-to-peer.
+ This gives us already a trusted and transport encrypted connection.
+ In that, we have user discovery, identity creation,
+ the signing and the encryption of the transport,
+ the management and storage we added extra to that,
+ the messaging, the group chat, the file sending and so on.
+ For the interface, we have chosen another technology which is quite okay.
+ It's Flutter, which is an open source project also
+ that runs on all these five operating systems that we support.
+ So for most of the things, it's right, it runs and it runs everywhere.
+ Of course, there are always things that you need to tweak.
+ Maybe a quick look into our future.
+ We are shortly before the release of the call metrics bridge
+ to interconnect call also with other messengers.
+ We of course want to be able to run on OpenWRT.
+ We are working and still are looking for more collaborators
+ to find good ways to make user discoveries
+ in really large wireless community mesh networks.
+ Because what we usually use and what you usually use at home
+ for user discovery is called MDNS.
+ MDNS is fine if it's kind of a rather small network
+ to find your printer and so on.
+ But it does not work well in large mesh networks.
+ And this is something we really want to solve
+ and which would be very usable for many peer-to-peer projects.
+ We also want to extend our routing protocol to a multi-hop,
+ multi-route, delay tolerant networking.
+ We want to have public file sharing, voice and video chat.
+ So are there questions?
+ [ Applause ]
+ >> I think this one was first, then you and the rest.
+ >> Thanks so much for the great presentation
+ and for this awesome work.
+ I'm just curious, how do you help ensure that people in countries
+ that experience internet outages install and use this tool?
+ Can you repeat your question?
+ >> How do you engage communities in countries that are impacted
+ by internet outages or internet shutdowns?
+ >> We are not engaging.
+ They usually contact us.
+ It's all published on GitHub.
+ We are in some of the stores.
+ You can download the apps.
+ Usually then we get tickets on our GitHub.
+ We get contacted by email and they ask questions.
+ So it's the other way around.
+ >> Hi. Are you connected to the Pascucci store that's used
+ in Iran and a few other places?
+ >> There are quite a few Iranians that send us a lot
+ of great testing feedback and also pull requests.
+ I don't know which group they do belong to.
+ >> Okay.
+ >> Okay. There's one over there.
+ >> Hi. Thank you for the talk.
+ Kind of interesting project from a resilience point of view,
+ but as you mentioned Iran quite a lot, how do you actually prevent
+ from someone in the network, especially from broadcasting
+ to just fingerprinting the users?
+ Because fingerprinting those users is basically equally
+ like fingerprinting potential protesters
+ and bringing them into jail.
+ >> Yeah. That's true.
+ And I guess this is also one of the points
+ for which we have built call.
+ We have built call for communication.
+ If you don't want to communicate, if you don't want to be visible
+ to the people next to you, don't use it.
+ Use something else.
+ So it's great to use it in situations where you want
+ to communicate and you want to find other people and you want
+ to be able just to kind of shout out something.
+ I mean finding out what somebody
+ or in which way somebody is communicating is usually
+ when you have a network overview possible.
+ So when you are just locally, it already gets a bit more difficult
+ because you need there to be in place.
+ When you know or you expect that people can do that,
+ then kind of you can reflect on it what the risks are
+ and whether you want to do that or not.
+ But also one of the big problems we always see is
+ that when the onboarding process is really complex,
+ nobody is doing it.
+ There are private messengers that kind of, yeah,
+ it takes a while until you onboard and we tested
+ since quite a long time and then people are not using it.
+ So especially when you are also, it's not only for uprising
+ but also disaster recovery and so on.
+ There you don't have time.
+ So you don't have the possibility.
+ Maybe you have some structures,
+ but when it's an entire population, then these structures
+ that you may be built may be very, very small
+ and are not useful for larger communications.
+ Do you have a follow up?
+ You have ten seconds.
+ Okay, thanks for the clarification.
+ Just please make very, very clear on your website
+ that it's not for privacy reasons.
+ It's just to be able to communicate.
+ Please.
+ I would not say it's not for privacy reasons
+ because everything is transport encrypted.
+ Everything is end-to-end encrypted except what you do
+ in public chats and this is clearly noted.
+ This is public.
+ And with almost all the other messengers,
+ even with the very private ones, you can,
+ when you survive the network, see that this user
+ was communicating and even most probably to whom
+ this user was communicating.
+ So this is always a big chicken and egg problem.
+ Yeah, maybe going a little in the same direction.
+ If I got it right, the identifier for routing
+ will always be a hash of the public key, right?
+ And there have been approaches like Simplex
+ where they use temporary identifiers.
+ Would that be possible in such a mesh setting
+ to negotiate this?
+ Because that would mean that every device in the network
+ would have at least access to the metadata
+ of who communicated to whom, right?
+ So is that possible in a mesh setting
+ and is it on the roadmap to negotiate temporary identifiers?
+ No, this is not on our roadmap.
+ It would, of course, be very interesting to think about that.
+ But when you want to solve two things,
+ which means direct communication and delayed tolerance,
+ you cannot change your identifier
+ because when you change your identifier,
+ you have no idea where the packet should go.
+ Also, when you mesh and it has to travel,
+ when you change the identifier,
+ you have no idea where the things should go.
+ So this is something which we kind of do not have on our scope.
+ And, yeah.
+ Okay, last question.
+ Hi.
+ Have you had any problems with malicious users on the network,
+ flooding the network, or basically clogging up the pipes
+ between the devices,
+ given the fact that you're storing forwarding devices?
+ Because I've seen this quite a lot in Haggle,
+ in content-setting networking,
+ in data networking, that this is a problem.
+ This is actually something we have very high up in our to-do,
+ to really do spam protection very well,
+ to do blocking.
+ We have the feature to block other users,
+ so this is already the possibility to do.
+ I guess as we only release this new version,
+ which works quite different from the first that we have,
+ last September, and I would say it's now stable to use it.
+ We did not have these problems yet, but they will come.
+ Okay, we are out of time, unfortunately,
+ but maybe a final word, where can people find you
+ if they want to keep chatting and exchange on the tool?
+ There is this website called .net.
+ On it is everything.
+ There is the link GitHub repository.
+ We have a matrix discussion group.
+ Okay, very good.
+ Then thank Matthias again for his presentation.
+ Thank you.
+ [ Applause ]
+ [ Music ]

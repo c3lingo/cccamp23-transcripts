@@ -1,0 +1,1163 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+ [Musik]
+
+00:00:30.000 --> 00:00:35.880
+ Tatsächlich sprechen wir heute über das, was früher mal mit eBay zu tun hatte,
+
+00:00:35.880 --> 00:00:39.960
+ jetzt nur noch Kleinanzeige heißt, aber eigentlich am besten immer noch auf einem
+
+00:00:39.960 --> 00:00:44.400
+ Flohmarkt stattfindet und damit übergebe ich an den Speaker heute und zwar
+
+00:00:44.400 --> 00:00:59.520
+ Gerinthold. Ja, danke schön Till. Danke, ja ich möchte euch heute die Geschichte meines
+
+00:00:59.520 --> 00:01:06.440
+ mittlerweile halbjährigen Prototype One Projektes Flohmarkt erzählen. Vor etwa
+
+00:01:06.440 --> 00:01:12.600
+ einem Jahr hatte ich mal irgendwann die Idee, dass dieses Mastodon, dieses
+
+00:01:12.600 --> 00:01:16.920
+ dezentrale Twitter ja eigentlich ganz toll ist und dass es eigentlich sehr
+
+00:01:16.920 --> 00:01:21.040
+ schön wäre, wenn man da auch seine Gegenstände, die man nicht mehr haben
+
+00:01:21.040 --> 00:01:27.040
+ möchte, die man weiter benutzt wissen möchte, über ein solches System
+
+00:01:27.040 --> 00:01:32.360
+ verteilen könnte und ja, da ist die Idee Flohmarkt entstanden und dann habe ich
+
+00:01:32.360 --> 00:01:37.280
+ festgestellt, dass auf Mastodon schon sehr viele Leute sich das wünschen und
+
+00:01:37.280 --> 00:01:43.360
+ dachte mir, okay, ja, machen wir, machen wir. Was werdet ihr heute hören? Wir steigen ein
+
+00:01:43.360 --> 00:01:48.400
+ mit einem kleinen Rückblick über die Entwicklung selbst. Wie geht man
+
+00:01:48.400 --> 00:01:54.680
+ eigentlich vor, einen dezentralen Service im Activitypub-Universum zu bauen? Wir
+
+00:01:54.680 --> 00:01:58.080
+ sind ja schließlich auf der Hacker-Konferenz, da möchte man auch ein
+
+00:01:58.080 --> 00:02:03.600
+ bisschen technisch werden, also die ersten 15 Minuten wird es um das System
+
+00:02:03.600 --> 00:02:09.280
+ per se gehen. Was ist eigentlich dieses Fediverse? Wie ist es technisch? Dann
+
+00:02:09.280 --> 00:02:14.000
+ hoffen wir, dass oder ich hoffe, ihr hofft das mit mir, dass mir die Live-Demo-Götter
+
+00:02:14.000 --> 00:02:17.560
+ gewogen sind und dass das hier vorhandene WLAN ausreicht, um euch eine
+
+00:02:17.560 --> 00:02:24.480
+ akzeptable Präsentation darzubieten, wie man das System eigentlich benutzt und
+
+00:02:24.480 --> 00:02:29.880
+ anschließend daran würde ich sagen, machen wir eine Q&A-Session, da sich in meinem
+
+00:02:29.880 --> 00:02:33.960
+ letzten Vortrag gezeigt hat, dass da immer sehr viel Diskussionsbedarf besteht.
+
+00:02:33.960 --> 00:02:41.520
+ Würde ich sagen, fangen wir an. Was ist eigentlich dieses Fediverse? Das Fediverse
+
+00:02:41.520 --> 00:02:47.280
+ ist im Endeffekt eine Social-Media-Plattform, die nicht aus einem
+
+00:02:47.280 --> 00:02:54.000
+ zentralen Server besteht, so wie bei Facebook oder Twitter, sondern wo der
+
+00:02:54.000 --> 00:02:58.080
+ Service von einer Software bereitgestellt wird, die im Grunde jede
+
+00:02:58.080 --> 00:03:01.240
+ Person auf einem Server, auf einem eigenen betreiben kann.
+
+00:03:01.240 --> 00:03:05.800
+ Diese Services haben die Eigenschaft, miteinander zu kommunizieren. Wir sehen
+
+00:03:05.800 --> 00:03:10.440
+ hier schon ein paar Dienste. Ich habe hier mal als Beispiel Mastodon, PeerTube,
+
+00:03:10.440 --> 00:03:15.520
+ Pleroma und MIS-key genommen und wenn diese Server miteinander federieren,
+
+00:03:15.520 --> 00:03:22.080
+ dann werden Postings, die auf diesem Server gepostet werden,
+
+00:03:22.080 --> 00:03:25.680
+ auch quasi auf die anderen Systeme übertragen. Hier zum Beispiel auf einem
+
+00:03:25.680 --> 00:03:30.440
+ PeerTube, das ist ein Videodienst ähnlich wie YouTube, jemand ein Video postet und
+
+00:03:30.440 --> 00:03:35.840
+ jemand anderes nur einen Mastodon-Account hat, dann kann er mit dem Mastodon-Account
+
+00:03:35.840 --> 00:03:41.680
+ diese Videos kommentieren. Diese Interoperabilität wird eben
+
+00:03:41.680 --> 00:03:47.880
+ gewährleistet von einem Protokoll, das heißt ActivityPub. Was wir wollen, ist,
+
+00:03:47.880 --> 00:03:55.600
+ wir wollen da so einen Flohmarkt reinbauen. ActivityPub ist ein JSON-Standard,
+
+00:03:55.600 --> 00:03:59.840
+ also sämtliche Server-to-Server- Kommunikation findet über JSON statt,
+
+00:03:59.840 --> 00:04:07.760
+ also JSON over HTTP und so eine Message sieht im Grunde relativ gemütlich aus.
+
+00:04:07.760 --> 00:04:13.480
+ Du hast bei jeder Message einen Typ der Aktion, die ausgeführt werden soll. Hier
+
+00:04:13.480 --> 00:04:20.320
+ ist das zum Beispiel das Krieren eines Posts, also der Server, auf dem
+
+00:04:20.320 --> 00:04:25.360
+ der Post gepostet wird, gibt hier quasi den User an und ergibt dann quasi das
+
+00:04:25.360 --> 00:04:29.280
+ Inhalt, also den Inhalt des Objektes mit. Hier soll jetzt eine Node angelegt
+
+00:04:29.280 --> 00:04:35.160
+ werden mit dem Content, also Text "This is a Node", Veröffentlichungsdatum und einem
+
+00:04:35.160 --> 00:04:39.480
+ Adressaten, also wir können entweder an den ganzen Server, an die ganze Welt
+
+00:04:39.480 --> 00:04:44.480
+ Dinge senden oder an einzelne Leute, Gruppen von Leuten etc. Und das ist
+
+00:04:44.480 --> 00:04:49.160
+ nachher noch ein spannender Punkt, weil da ging viel Überlegungsarbeit rein, wie
+
+00:04:49.160 --> 00:04:54.600
+ wollen wir denn ActivityPub überhaupt nutzen, um diesen Anwendungsfall
+
+00:04:54.600 --> 00:04:58.520
+ im kleinen Inserrat überhaupt abzubilden?
+
+00:04:58.520 --> 00:05:07.680
+ Was ich denn rausgefunden habe, als ich mich tatsächlich damit beschäftigt habe,
+
+00:05:07.680 --> 00:05:11.120
+ ist, dass es überhaupt nicht nur ActivityPub ist. Je nachdem, mit welchem Server
+
+00:05:11.120 --> 00:05:15.880
+ man eben förderieren möchte, ist da auch Webfinger und Ostatus, also es ist ein
+
+00:05:15.880 --> 00:05:19.400
+ älteres Protokoll, mit dem dezentrale soziale Medien realisiert werden
+
+00:05:19.400 --> 00:05:27.960
+ sollten, immer noch quasi Altlasten in Gebrauch haben und dass man sich mit denen
+
+00:05:27.960 --> 00:05:31.160
+ da auch auseinandersetzen muss. Das hier ist jetzt, wir haben vorhin gesehen, in
+
+00:05:31.160 --> 00:05:35.200
+ dem letzten Post, da ist nur ein einziger Protokollheader, nämlich der von ActivityPub,
+
+00:05:35.200 --> 00:05:40.320
+ also dieses ActivityStreams hier oben. In der Realität werdet ihr vermutlich so
+
+00:05:40.320 --> 00:05:45.120
+ was finden. Da ist dann das erste Protokoll ActivityStreams, aber es leit
+
+00:05:45.120 --> 00:05:53.080
+ noch Semantik aus von Ostatus, von Atom, von Mastodon selber, also es ist spezifisch
+
+00:05:53.080 --> 00:05:57.720
+ und einige andere Dinge. Also das ist so der Punkt, wo es dann beim
+
+00:05:57.720 --> 00:06:02.720
+ Entwickeln ungemütlich wird und man auf sehr viele Fälle reagieren muss und die
+
+00:06:02.720 --> 00:06:05.720
+ einzelnen Testen.
+
+00:06:05.720 --> 00:06:10.760
+ Ja, auf jeden Fall. Und wenn du der Meinung bist, dass der Standard noch nicht
+
+00:06:10.760 --> 00:06:14.160
+ genügt, kannst du einen weiteren machen, da gibt es noch mehr. Also kennt man ja.
+
+00:06:14.160 --> 00:06:18.040
+ Genau, deswegen habe ich mir erst mal zu Hause so ein Fediverse Labor überhaupt
+
+00:06:18.040 --> 00:06:23.120
+ gebaut. Dazu habe ich mir einen NixOS Container Host genommen, habe da zwei
+
+00:06:23.120 --> 00:06:26.960
+ Mastodon Instanzen aufgesetzt, habe mir einen eigenen DNS daneben gestellt, weil
+
+00:06:26.960 --> 00:06:31.800
+ Mastodon arbeitet sehr gerne mit Hostnames und möchte die auch zur
+
+00:06:31.800 --> 00:06:36.480
+ Verfügung haben und dann ist da eben noch mein Entwicklerrechner drin. Also
+
+00:06:36.480 --> 00:06:40.240
+ das hier sind diese drei Container, das sind NixOS Container und die laufen da.
+
+00:06:40.240 --> 00:06:44.600
+ Jetzt ist es so, Mastodon ist im Grunde relativ sicher gebaut, das heißt Mastodon
+
+00:06:44.600 --> 00:06:49.680
+ möchte immer mit HTTPS laufen. Mastodon hat überhaupt keine Lust darauf, mit
+
+00:06:49.680 --> 00:06:54.160
+ unverschlüsseltem HTTPS zu laufen. Deswegen ist man gezwungen, sich da so
+
+00:06:54.160 --> 00:07:00.800
+ Zertifikate über Let's Encrypt zu holen oder sie selber zu machen und was man
+
+00:07:00.800 --> 00:07:05.920
+ dann eben tun muss, damit die miteinander reden, ist man muss in seiner PKI dafür
+
+00:07:05.920 --> 00:07:11.320
+ sorgen, dass jeder Server eben die Zertifikate der jeweils anderen im
+
+00:07:11.320 --> 00:07:18.960
+ Labornetz beteiligten Server hat. Das muss man manuell tun. Und was man dann eben als
+
+00:07:18.960 --> 00:07:23.160
+ nächstes feststellt ist, man möchte Traffic mitlesen. Man möchte ja quasi in
+
+00:07:23.160 --> 00:07:28.360
+ seinem Labornetz schauen, wenn ich jetzt von FloMarkt aus ein neues Inserat
+
+00:07:28.360 --> 00:07:33.400
+ starte, wie kommt das auf den Mastodon Server und gibt es da eventuell noch
+
+00:07:33.400 --> 00:07:39.440
+ Probleme und wenn ja, welche und welches Bit ist falsch. Also muss man jetzt
+
+00:07:39.440 --> 00:07:45.360
+ gucken, wie man da überhaupt rankommt. Und was mir aufgefallen ist bei Mastodon
+
+00:07:45.360 --> 00:07:51.760
+ ist, die Problematik ist, dass ich hier eben, da ich auf der Leitung HTTPS habe,
+
+00:07:51.760 --> 00:07:56.200
+ nicht reintappen kann, weil es ist ja verschlüsselter Traffic und deswegen
+
+00:07:56.200 --> 00:08:00.360
+ müssen wir jetzt irgendwie eine Möglichkeit bekommen, den Traffic auch
+
+00:08:00.360 --> 00:08:05.440
+ mitlesen zu können, damit wir daran entwickeln können. Und was dann eben bei
+
+00:08:05.440 --> 00:08:10.040
+ Mastodon der Fall ist, ist, dass Mastodon ein Engine X als Reverse-Proxy vorgeschaltet
+
+00:08:10.040 --> 00:08:17.000
+ hat und der direkt über einen Unix-Socket mit Mastodon kommuniziert und in den kann
+
+00:08:17.000 --> 00:08:20.560
+ man sich reintappen. Und bei FloMarkt ist es ganz angenehm, weil da habe ich ja
+
+00:08:20.560 --> 00:08:24.680
+ meine Entwicklerkonsole hinten dran hängen, da sehe ich ja auch die Logs. Und so ist
+
+00:08:24.680 --> 00:08:29.600
+ dieses Labor entstanden. Ein letztes Ding, wenn man einen Service bauen möchte, ist,
+
+00:08:29.600 --> 00:08:37.600
+ man muss Mastodon davon überzeugen, dass es in einem LAN laufen möchte. Mastodon möchte
+
+00:08:37.600 --> 00:08:42.040
+ nämlich auch nicht in einem LAN laufen. Und dafür gibt es diesen Patch. Es gibt
+
+00:08:42.040 --> 00:08:46.600
+ eine Funktion in Mastodon, die heißt Check Private Address. Wenn man da einfach
+
+00:08:46.600 --> 00:08:51.440
+ nur ein Return einfügt, so dass diese Funktion nichts mehr effektiv tut, dann
+
+00:08:51.440 --> 00:08:55.160
+ kann man das auch relativ simpel umgehen. Also das war die Patch, nachdem man mal
+
+00:08:55.160 --> 00:08:59.160
+ gefunden hat, woran es liegt. Man hat natürlich erstmal geschaut, okay, da kommt doch
+
+00:08:59.160 --> 00:09:04.000
+ keiner drauf, so etwas einzubauen. Wieso überhaupt? Deswegen war das ein bisschen
+
+00:09:04.000 --> 00:09:10.520
+ nicht ganz offensichtlich. So, das ist das letzte Stück Code, das mir sehr weiter
+
+00:09:10.520 --> 00:09:16.400
+ geholfen hat beim Debuggen. Das ist nämlich, wie tappe ich in einen Unix-Socket rein.
+
+00:09:16.400 --> 00:09:20.640
+ Das habe ich nämlich davor auch noch nie gemacht. Man kann mit dem Tool SoCut
+
+00:09:20.640 --> 00:09:24.720
+ quasi, man kann erst diesen Websocket umbenennen in etwas anderes.
+
+00:09:24.720 --> 00:09:32.320
+ Und dann kann man mit SoCut quasi eine Wipe-Hype reinhängen, die quasi der
+
+00:09:32.320 --> 00:09:38.200
+ Webanwendung ihren ursprünglichen erwarteten Websocket suggeriert. Und
+
+00:09:38.200 --> 00:09:41.560
+ zwischendrin kann man den Trafficer mitlesen. Also man gibt diesen Command ein
+
+00:09:41.560 --> 00:09:46.960
+ und dann fangen an quasi die In- und Outputs daraus zu purzeln.
+
+00:09:46.960 --> 00:09:51.160
+ Witzigerweise ohne Paketsortierung. Wenn zwei Pakete gleichzeitig kommen, dann
+
+00:09:51.160 --> 00:09:54.600
+ schreiben die ineinander und es sieht aus, als hätte Cthulhu irgendwie eine
+
+00:09:54.600 --> 00:10:03.880
+ Message überbracht. So, dann wollen wir mal live reingehen und uns das System mal
+
+00:10:03.880 --> 00:10:07.800
+ anschauen. Ich habe
+
+00:10:07.800 --> 00:10:16.000
+ Dinge mitgebracht. Das ist ein Flohmarkt. Ihr seht den Test-Flohmarkt, der hier für
+
+00:10:16.000 --> 00:10:23.760
+ das Chaos Communications Camp 2023 läuft. Die URL kriegt ihr später noch. Das ist
+
+00:10:23.760 --> 00:10:31.400
+ die Ansicht als eingelogter User. Und was ich hier tun kann, ist zum Beispiel ein
+
+00:10:31.400 --> 00:10:41.720
+ neues Inserat anlegen. Dazu wähle ich mir ein Foto, wie zum Beispiel
+
+00:10:42.000 --> 00:10:49.440
+ ich habe da so ein Net Neutrality-Poster. Dann kann ich dazu eine Image-Description
+
+00:10:49.440 --> 00:10:53.760
+ abgeben, also für Menschen mit Einschränkungen beim Sehen. Da sind die
+
+00:10:53.760 --> 00:11:03.800
+ immer sehr happy darüber. "A Poster with Net Neutrality".
+
+00:11:05.400 --> 00:11:14.560
+ Dann gebe ich dem Ganzen einen Titel. Dann gebe ich dem einen Preis. Verschenken zum
+
+00:11:14.560 --> 00:11:31.280
+ Beispiel ein schönes Andenken an das Camp 23. Und dann drücke ich "Create" und
+
+00:11:31.280 --> 00:11:34.400
+ dann habe ich da den Artikel. Und was ich jetzt zum Beispiel tun kann, ist mit
+
+00:11:34.400 --> 00:11:41.040
+ einem anderen User auf die Startseite gehen. Und entweder ich sehe das Poster
+
+00:11:41.040 --> 00:11:48.040
+ hier irgendwo in meinem... Habt ihr es schon? Da ist es ja schon. Also ich habe quasi
+
+00:11:48.040 --> 00:11:51.360
+ die Möglichkeit, dass es so die Startseite, auf der Startseite sind Artikel
+
+00:11:51.360 --> 00:11:58.080
+ aufgelistet, die entweder neu, sehr alt, populär oder random sind quasi. Also es ist
+
+00:11:58.080 --> 00:12:02.480
+ so der Versuch, ohne irgendwie groß KI benutzen zu müssen, halt so ein Feed, der
+
+00:12:02.480 --> 00:12:06.360
+ interessant für das erste Mal drauf schauen ist zu machen. Ich habe aber auch
+
+00:12:06.360 --> 00:12:09.920
+ die Möglichkeit oben mit einer Volltextsuche so nach diesem Poster zu
+
+00:12:09.920 --> 00:12:13.400
+ suchen, da habe ich das eben als Ergebnis angezeigt.
+
+00:12:13.400 --> 00:12:18.640
+ Und dann sehe ich hier so, okay, der Person kann ich jetzt mal Nachrichten
+
+00:12:18.640 --> 00:12:27.920
+ schreiben und sagen "Hallo, fällt mir". Was? Was? Letzte Preis ist natürlich sehr
+
+00:12:27.920 --> 00:12:33.680
+ relevant und in diesem Moment sehe ich hier... Wer war das? Einer von euch war das. Aus dem
+
+00:12:33.680 --> 00:12:39.840
+ Internet hat schon jemand hier geantwortet. Jedenfalls, die Nachricht ist
+
+00:12:39.840 --> 00:12:50.080
+ jetzt eben hier und hier kann ich eben antworten und sagen "Warum soll ich es dir geben?"
+
+00:12:50.080 --> 00:12:54.640
+ Und dann geht die Nachricht eben wieder zurück. So kennen wir das ja auch von
+
+00:12:54.640 --> 00:12:58.800
+ etablierten Plattformen, die das ganze Konzept schon seit ein paar Jahrzehnten
+
+00:12:58.800 --> 00:13:05.360
+ für uns machen. Aber da ist jetzt noch nichts mit Fediverse. Wie funktioniert das denn?
+
+00:13:05.360 --> 00:13:09.680
+ Ich mache jetzt einfach mal einen neuen Tab auf, gehe nochmal auf diese Instanz
+
+00:13:09.680 --> 00:13:17.600
+ als nicht angemeldeter User und suche mir jetzt auch mal dieses Poster raus. Als
+
+00:13:17.600 --> 00:13:22.720
+ nicht angemeldeter User sehe ich dann auf der Artikelseite hier so ein Text "To answer this offer,
+
+00:13:22.720 --> 00:13:30.480
+ please log in or create an account or use another Fediverse account". Auf Deutsch, um
+
+00:13:30.480 --> 00:13:34.240
+ auf dieses Insolat zu antworten, bitte loggt euch ein oder macht einen Account
+
+00:13:34.240 --> 00:13:39.360
+ oder benutzt einen anderen Fediverse Account. Und genau das machen wir jetzt mal. Also wir stellen uns
+
+00:13:39.360 --> 00:13:42.640
+ einfach mal vor, ich habe jetzt keinen Flohmarkt-Account, sondern ich habe nur
+
+00:13:42.640 --> 00:13:53.680
+ meinen "grinthold@chaos.social" Masterton-Account. Dann ich habe das eingegeben, ich tippe Enter
+
+00:13:53.680 --> 00:14:01.040
+ und auf einmal sehe ich hier diesen Post von meinem "grintholdsexuser@ccccamplet-feduem.grinthold.de"
+
+00:14:01.040 --> 00:14:09.200
+ und kann hier darauf antworten von Masterton aus. Und was hier ganz wichtig ist, ich hatte vorhin
+
+00:14:09.200 --> 00:14:14.400
+ eingangs erwähnt, dass man sich Gedanken machen musste, wer ist denn Adressat von so einem Posting.
+
+00:14:14.400 --> 00:14:21.760
+ Hier muss man jetzt als nicht Flohmarkt-User, sondern ein anderer Fediverse-Software-User dafür sorgen,
+
+00:14:21.760 --> 00:14:25.760
+ dass man eine private Nachricht schreibt. Wenn man jetzt eine Public Message schreibt, wir können
+
+00:14:25.760 --> 00:14:31.200
+ das mal testen. "Hallo, Interesse". Ich sehe nicht, was ich tippe, ich tippe wahrscheinlich
+
+00:14:31.200 --> 00:14:42.240
+ gerade voll den Unsinn. Dann bekomme ich hier gleich eine automatische Nachricht, die mir erzählt,
+
+00:14:42.240 --> 00:14:48.720
+ "You have made a public post to an item on Flohmarkt. This post is going to be ignored by the system.
+
+00:14:48.720 --> 00:14:53.440
+ Please use private posting." Also man möchte sich ja privat mit der Person unterhalten,
+
+00:14:53.440 --> 00:15:02.000
+ zu der man sich über was auch immer unterhält, was man haben möchte. Genau, deswegen ist der
+
+00:15:02.000 --> 00:15:09.920
+ eigentliche Weg, den man geht. "Respond". "Mentioned only".
+
+00:15:09.920 --> 00:15:20.880
+ "Mentioned only" und dann kann man hier schreiben, "Hallo, das hätte ich gerne".
+
+00:15:20.880 --> 00:15:32.000
+ Und dann können wir zurück auf Flohmarkt gucken und sehen, oh, da ist eine dritte Nachricht angekommen.
+
+00:15:32.000 --> 00:15:39.120
+ Und das ist die Nachricht aus dem Fediverse, die gerade zu mir kam. Das geht auch mit anderen
+
+00:15:39.120 --> 00:15:51.600
+ Services. Ich kann ja mal zum Beispiel Firefish benutzen. Firefish ist so ein Kelki-Klon, der
+
+00:15:51.600 --> 00:16:07.520
+ in letzter Zeit recht populär wird. Firefish.tech. Und schwupps, lande ich auf Firefish. Ach, ärgerlich.
+
+00:16:07.520 --> 00:16:22.560
+ Okay. Aber bisher hat es ganz gut funktioniert. Das war eh komisch. Das ist in der Vorführung.
+
+00:16:22.560 --> 00:16:32.160
+ Genau, aber das ist eben das Prinzip, mit dem man quasi die Messages austauschen kann
+
+00:16:32.160 --> 00:16:38.720
+ über Systemgrenzen hinweg. Und das Schöne daran ist auch, niemand, der von der Käuferseite
+
+00:16:38.720 --> 00:16:42.960
+ aus benötigt überhaupt einen Flohmarkt-Account. Also ihr könnt alle die bestehenden Accounts
+
+00:16:42.960 --> 00:16:48.640
+ benutzen. Also gute Erfahrung bisher mal gemacht mit, ja, klingt lustig, ist aber so, Firefish
+
+00:16:48.640 --> 00:16:55.600
+ hat bis gestern noch funktioniert, Mastodon, Kelki, MISKI, Pliroma. Pliroma, da ist so,
+
+00:16:55.600 --> 00:16:59.080
+ dass die Voraussetzungen sind einfach. Es muss Activity Pub sprechen und es muss dir
+
+00:16:59.080 --> 00:17:04.400
+ ermöglichen, private Nachrichten zu schreiben. Deswegen funktioniert zum Beispiel leider
+
+00:17:04.400 --> 00:17:23.640
+ PixelFed nicht. Ja. Denn gibt es bis zu diesem Punkt Fragen erst mal? Also ich hatte beim
+
+00:17:23.640 --> 00:17:28.160
+ letzten Mal schon an dieser Stelle sehr viele Fragen. Da ist eine erste Frage. Möchtest
+
+00:17:28.160 --> 00:17:38.600
+ du vielleicht, can we have a mic please? Wie kann man mit Blocking umgehen? Also kann man,
+
+00:17:38.600 --> 00:17:44.560
+ also wenn ich jetzt was reinstellen will und ich heute irgendwelche Schrottnachrichten
+
+00:17:44.560 --> 00:17:53.760
+ oder so kriege, kann ich die blocken? Kannst du als User hier hergehen auf Settings? Da
+
+00:17:53.760 --> 00:18:03.840
+ hast du ein Blocking-Tab, da gehst du drauf, dann sagst du zum Beispiel der User, grönfall@chaos.social
+
+00:18:03.840 --> 00:18:09.720
+ ist so ein Depp, den möchte ich nicht. Da gibst du den da ein, dann blockst du User
+
+00:18:09.720 --> 00:18:15.080
+ und dann kriegst du keine Nachrichten mehr von mir. Könnte man das nicht direkt rein
+
+00:18:15.080 --> 00:18:24.360
+ tun quasi? Keine Ahnung, es ist ja oft so, dass dann Frauen bei solchen Flohmarkt-Sachen
+
+00:18:24.360 --> 00:18:28.920
+ oder bei solchen Teilen irgendwelche anzüglichen Nachrichten kriegt, damit man einfach den
+
+00:18:28.920 --> 00:18:33.600
+ Glei ausschalten kann, jetzt sofort. Du meinst da einfach im Nachrichtendialog? Genau. Das
+
+00:18:33.600 --> 00:18:39.240
+ könnte man tun ja. Da spricht nichts dagegen. Gibt es noch eine Frage? Da hinten sehe ich
+
+00:18:39.240 --> 00:18:48.600
+ noch eine Frage. Was passiert, wenn dein Server weg ist? Und die zweite Frage ist, was passiert,
+
+00:18:48.600 --> 00:18:53.040
+ wenn die Polizei deinen Server mitnimmt? Das kommt darauf an, wie gut du ihn verschlüsselt
+
+00:18:53.040 --> 00:19:00.760
+ hast. Nö, also die Software selbst macht halt HTTPS, auf Netzwerkebene ist natürlich
+
+00:19:00.760 --> 00:19:07.360
+ alles verschlüsselt, aber wie du deine Festplatten sicherst, wenn du Dinge tun möchtest, die
+
+00:19:07.360 --> 00:19:12.240
+ relevant sind, dann bist du nach wie vor dein Server verantwortlich. Also wir versuchen so
+
+00:19:12.240 --> 00:19:16.360
+ safe wie möglich zu programmieren, aber mehr können wir auch nicht tun. Also kann ich das
+
+00:19:16.360 --> 00:19:25.600
+ auch selbst hosten? Da kommen wir nachher noch dazu. Also ich kann insofern sagen, es ist
+
+00:19:25.600 --> 00:19:31.880
+ freie Software und natürlich, ihr könnt theoretisch alle eine solche Plattform hosten, aber eben
+
+00:19:31.880 --> 00:19:37.880
+ unter den rechtlichen Voraussetzungen, auf die ich eben nachher noch zu sprechen kommen möchte.
+
+00:19:37.880 --> 00:19:46.120
+ AGPL, ja sorry. Auf den etablierten Plattformen gibt es ja oft diese Funktionalität "Pausieren".
+
+00:19:46.120 --> 00:19:51.080
+ Wie setzt ihr das hier um? Pausieren haben wir nicht. Und ist auch nicht geplant, oder? Ist
+
+00:19:51.080 --> 00:19:55.440
+ nicht geplant. Weil es ja manchmal so ganz praktisch ist, wenn es was ist, was viele haben wollen,
+
+00:19:55.440 --> 00:20:01.120
+ man 10.000 Anfragen gleichzeitig kriegt. Was wir haben, ist Assign. Also du kannst, wenn du
+
+00:20:01.120 --> 00:20:07.360
+ eine Message bekommen hast, die dir gefällt und wo du denkst, okay dieser Person möchte ich das
+
+00:20:07.360 --> 00:20:20.560
+ geben, dann kannst du hier sagen bla bla bla bla bla und dann auf Assign drücken, dann bekommen alle
+
+00:20:20.560 --> 00:20:24.400
+ Leute, die sich auf dieses Ding auch beworben haben oder halt mit dir darüber geredet haben,
+
+00:20:24.400 --> 00:20:30.320
+ eine Message, hey der Gegenstand ist jetzt leider zugeteilt worden und die Person, der du die
+
+00:20:30.320 --> 00:20:34.720
+ Nachricht geschrieben hast, die bekommt quasi deine special Nachricht mit, hey du hast das jetzt.
+
+00:20:34.720 --> 00:20:43.120
+ Dafür haben wir leider noch nichts. Aber das ist ein sechsmonatiger Prototyp. Es ist leider noch
+
+00:20:43.120 --> 00:20:50.360
+ kein voll ausgereiftes Produkt. Wenn einmal Assigned ist, dann ist glaube ich, dann ist
+
+00:20:50.360 --> 00:20:58.160
+ vorbei erstmal. Du kannst neue reinstellen. Im Moment hält dich technisch nichts davon ab,
+
+00:20:58.160 --> 00:21:12.000
+ aber es ist natürlich nicht sinnvoll, das zu tun. Frage? Die Überfahrung ist oft sehr meh. Macht
+
+00:21:12.000 --> 00:21:18.800
+ sie Design Patterns, die irgendwie die Erfahrung, die Interaktion zwischen den Verkäufer*innen und
+
+00:21:18.800 --> 00:21:27.160
+ den Käufer*innen verbessern könnte? Also dann komme ich mal kurz auf die Grundidee zurück. Die Idee
+
+00:21:27.160 --> 00:21:34.180
+ war es ursprünglich, dass es keine beliebe großen Server gibt, sondern dass jeder Flohmarktserver auf
+
+00:21:34.180 --> 00:21:40.480
+ eine bestimmte Area gegeofenst ist. Also du betreibst einen Flohmarktserver für deine Stadt,
+
+00:21:40.480 --> 00:21:45.640
+ sodass halt noch deine Nachbarstädte mit eingeschlossen sind, damit da die Leute auch
+
+00:21:45.640 --> 00:21:51.760
+ noch zu dir fahren können. Und eine der Strategien ist es, wir erhoffen uns, dass dadurch die Chance,
+
+00:21:51.760 --> 00:21:57.240
+ dass du noch mal mit einer Person zu tun hast, auf derselben Plattform höher ist und dass du dadurch
+
+00:21:57.240 --> 00:22:01.360
+ dir vielleicht überlegst, okay, ziehe ich den jetzt über den Tisch oder nicht, weil ich könnte nochmal
+
+00:22:01.360 --> 00:22:07.560
+ brauchen. Also diese große Anonymität ein bisschen aufzubrechen und eher ein Community-Feeling zu
+
+00:22:07.560 --> 00:22:13.720
+ etablieren auf Flohmarktinstanzen. Das idealerweise noch durch eine engagierte Moderation, die
+
+00:22:13.720 --> 00:22:20.440
+ Community Building gerne macht und ja daran Freude hat. Des Weiteren haben wir halt diese ganzen
+
+00:22:20.440 --> 00:22:25.240
+ Dark Patterns mit Pay to Win nicht drin, logischerweise. Also das finde ich auch sehr
+
+00:22:25.240 --> 00:22:29.440
+ schrecklich, wenn du möchtest, dass deine Anzeige wieder ganz oben gelistet ist, dann schmeißt du
+
+00:22:29.440 --> 00:22:33.160
+ nochmal irgendwie drei Euro in die Kasse, finde ich jetzt auch nicht so geil. Und solche Sachen haben
+
+00:22:33.160 --> 00:22:34.680
+ wir natürlich komplett draußen gelassen.
+
+00:22:46.680 --> 00:23:00.080
+ Bin ich live? Ja, ich habe hier noch eine Frage aus dem Internet. Hallo? Okay, hi-ho.
+
+00:23:00.080 --> 00:23:11.080
+ Okay, ich habe hier noch eine Frage aus dem Internet, schon darüber nachgedacht, dass eine
+
+00:23:11.080 --> 00:23:15.800
+ Flohmarktinstanz einer anderen folgen kann, um einen gemeinsamen Suchindex aufzubauen?
+
+00:23:15.800 --> 00:23:23.400
+ Natürlich. Instance-Following haben wir bereits implementiert, da müsste ich jetzt mal kurz auf
+
+00:23:23.400 --> 00:23:40.600
+ den Admin-Account wechseln. Ich kriege es gerade auf die Schnelle nicht hin, ich habe das Admin-Passwort
+
+00:23:40.600 --> 00:23:47.200
+ an einer anderen Stelle. Ja, es ist bereits implementiert, also wenn du als Admin-User auf den
+
+00:23:47.200 --> 00:23:52.800
+ Site Settings-Dialog gehst, dann kannst du einem ähnlich aussehen, das Menü mit diesem Blocking
+
+00:23:52.800 --> 00:23:57.600
+ gerade, nur du schreibst halt eine Instanz rein, dann bekommt die andere Instanz einen Follow Request,
+
+00:23:57.600 --> 00:24:05.880
+ dann kann der andere Admin oder die Admin entweder auf Accept oder Reject klicken und ab diesem
+
+00:24:05.880 --> 00:24:11.400
+ Zeitpunkt sind beide Instanzen miteinander verwoben, solange sie sich in ihren Geo-Ranges
+
+00:24:11.400 --> 00:24:25.360
+ schneiden. Also ja, ist da und funktioniert auch. Ja, ich hätte noch eine Frage, Puncto, wie sich
+
+00:24:25.360 --> 00:24:31.680
+ solche Inserate jetzt ins restliche Fediverse so reinfiltrieren, dass man die auch teilen und
+
+00:24:31.680 --> 00:24:39.480
+ boosten, was weiß ich kann. Genau, du kannst. Und noch eine kleine Follower-Frage, wie man es, ob du schon
+
+00:24:39.480 --> 00:24:47.320
+ mal nachgedacht hast, wie man es bei solchen viralen Anzeigen irgendwie machen könnte, dass manche
+
+00:24:47.320 --> 00:24:52.080
+ Informationen da live angezeigt werden, wie zum Beispiel ist das schon vergeben oder solche Sachen.
+
+00:24:52.080 --> 00:25:01.440
+ Tatsächlich ein interessanter Punkt. Also du kannst Flowmarkt Inserate boosten. Flowmarkt Inserate sind
+
+00:25:01.440 --> 00:25:06.520
+ technisch nichts anderes wie Nodes, also dieselben Objekte, die Mastodon beispielsweise auch handelt.
+
+00:25:06.520 --> 00:25:12.480
+ Das ist ein bisschen Text mit ein paar Bildern dran und im Grunde ist Flowmarkt nur ein anderer View
+
+00:25:12.480 --> 00:25:20.120
+ auf diese Daten. Und du kannst die boosten, dann können andere Leute wissen, okay, das ist ein
+
+00:25:20.120 --> 00:25:25.360
+ Inserat, da muss ich mit Private Message drauf antworten, wenn ich da auch drauf antworten möchte.
+
+00:25:25.360 --> 00:25:32.120
+ Aber wir haben auch gesehen von, du kriegst diese automatische Message, wenn du es nicht von selber.
+
+00:25:32.120 --> 00:25:36.840
+ Kann ich Verkäufern auch schon folgen? Wie bitte? Kann ich Verkäufern auch schon folgen?
+
+00:25:36.840 --> 00:25:39.920
+ Du kannst doch Verkäufern folgen. Wenn die regelmäßig irgendwie Zeug posten, wo du dir
+
+00:25:39.920 --> 00:25:44.280
+ denkst, geil, wenn da jemand irgendwie seine Keramik-Sammlung oder so vercheckt und immer
+
+00:25:44.280 --> 00:25:47.800
+ mal wieder interessante Stücke auftauchen, natürlich. Du kannst diesen Playern folgen,
+
+00:25:47.800 --> 00:26:02.640
+ du kannst hier die User URL nehmen. Zack. Dann haben wir hier den Grindhold 6 und gehen mal auf
+
+00:26:02.640 --> 00:26:14.200
+ Chaos.Social und den hier oben rein. Und dann kann ich dem folgen und ab dem Zeitpunkt kriege ich
+
+00:26:14.200 --> 00:26:23.400
+ dann halt seine Posts mit in die Timeline gespült. Ja, dann würde ich mal nochmal ein Segment
+
+00:26:23.400 --> 00:26:31.880
+ Präsentation. Noch eine. Kann man auch quasi gewisse, ich sag jetzt mal Hashtags machen,
+
+00:26:31.880 --> 00:26:38.800
+ also keine Ahnung, damit ich dann filtern kann. Ja, ich suche jetzt keine Ahnung Computer oder
+
+00:26:38.800 --> 00:26:46.040
+ das macht so über Kategorie heute und wenn dann so eine Computer drin steht, so ein Laptop oder
+
+00:26:46.040 --> 00:26:50.040
+ keine Ahnung was. Gibt es noch nicht. Dafür hat die Zeit nicht gereicht. Es gibt tatsächlich
+
+00:26:50.040 --> 00:26:54.240
+ aber schon einen Plan, wie das am geilsten wäre. Also einmal, wie du schon gesagt hast,
+
+00:26:54.240 --> 00:26:59.760
+ die Hashtags aus dem Text rausziehen und archivieren in der Datenbank und den Moderatoren eine
+
+00:26:59.760 --> 00:27:04.280
+ Möglichkeit geben, einen Baum aus diesen Hashtags zu bauen, sodass man quasi etwas wie Kategorien
+
+00:27:04.280 --> 00:27:10.960
+ erhält. Wer hat die Möglichkeit, Synonyme von Hashtags quasi anzulegen, damit falls sich irgendwie
+
+00:27:10.960 --> 00:27:15.720
+ auf dem einen Server das Wort Klamotten durchsetzt für Bekleidung und auf dem anderen das Wort
+
+00:27:15.720 --> 00:27:25.000
+ Bekleidung, dass man quasi die Bedeutung einfach erfasst und nicht die Syntax. Also dafür gibt es
+
+00:27:25.000 --> 00:27:33.240
+ Pläne, ist aber nicht umgesetzt. Ich würde jetzt gerne auch nochmal ein kleines Segment einsetzen.
+
+00:27:33.240 --> 00:27:40.400
+ Wir können gerne danach Q&A weitermachen. Was ich an der Stelle noch zeigen wollte, das ist eine ganz
+
+00:27:40.400 --> 00:27:47.280
+ nette Demo. Ich hatte gerade erwähnt, dass man auf Flohmarkt nur eine andere Sicht auf die Daten hat.
+
+00:27:47.280 --> 00:27:52.280
+ Das ist natürlich nicht die ganze Wahrheit, denn stellen wir uns jetzt mal vor, wir machen jetzt
+
+00:27:52.280 --> 00:27:57.240
+ so ein, wir haben jetzt hier irgendwie so einen Flohmarkt in Sarat. Machen wir kurz eins zum
+
+00:27:57.240 --> 00:28:14.200
+ testen. Nehmen einfach das B zum Beispiel. Keiner haben. So. Und wir nehmen uns jetzt dieses in Sarat
+
+00:28:14.200 --> 00:28:34.160
+ und antworten davon aus drauf. Und dann schreiben wir Verkäufer ja, hi, ich bin bereit dir 8 Euro
+
+00:28:34.160 --> 00:28:57.440
+ für das Zahlen. Dann posten wir das. Und dann wird dort zurückgeschrieben. Ja, cool. Kannst du da und
+
+00:28:57.440 --> 00:29:08.080
+ da hinkommen. Und dann denke ich mir hier so, ja, ich möchte eigentlich keine 80 Euro zahlen, weil
+
+00:29:08.080 --> 00:29:16.120
+ das ist teuer. Das taugt mir eigentlich gar nicht. Und dann denke ich mir so, hey, machst du das,
+
+00:29:16.120 --> 00:29:27.600
+ oder kann ich doch posteditieren. Also ich gehe jetzt einfach mal her und sage Dude, wo ist das
+
+00:29:27.600 --> 00:29:48.920
+ Editfeld? Sind. Edit. Jawoll. In der Suche, weil die Suche da offen ist. So, da sind wir. Genau, Edit.
+
+00:29:48.920 --> 00:29:55.240
+ Dann schreibe ich hier einfach mal rein, ja, ich würde dir gerne die 20 Euro dafür zahlen.
+
+00:29:55.240 --> 00:30:08.800
+ Weichere das und schreibe der Person dann zurück. Auf die neuere Message schreibe ich dann, ja klar,
+
+00:30:08.800 --> 00:30:17.800
+ kann ich dahin kommen. Und ich bring dir die 20 Euro mit. So als wäre das die ganze Zeit besprochen
+
+00:30:17.800 --> 00:30:23.040
+ gewesen. Und in Mastodon sieht es jetzt so aus. Da sieht es jetzt wirklich aus, so da ist das
+
+00:30:23.040 --> 00:30:30.520
+ Angebot, da ist hier das Angebot vom Verkäufer, da ist das Angebot vom Käufer, dann hier quasi
+
+00:30:30.520 --> 00:30:35.720
+ das Acknowledgement und dann da bestätige ich das nochmal. Also das ist die Perspektive von Mastodon
+
+00:30:35.720 --> 00:30:44.480
+ aus. Auf Flohmarkt hingegen, wenn wir uns diese Unterhaltung, wenn ich F5 drücke, nochmal anschauen,
+
+00:30:44.480 --> 00:30:51.880
+ da sehen wir noch Folgendes. Da ist diese Nachricht durchgestrichen und ich habe die neue quasi,
+
+00:30:51.880 --> 00:30:57.280
+ die ersetzte, unten dazu bekommen mit neuem Timestamp. Also es wird sofort offenbar, wenn
+
+00:30:57.280 --> 00:31:02.560
+ jemand versucht euch irgendwie über den Tisch zu ziehen. Sowas ist quasi mit der reinen Mastodon
+
+00:31:02.560 --> 00:31:13.920
+ Lösung auch nicht möglich. Anti-Gaslighting, exakt. So, dann soll ich noch über ein paar weitere
+
+00:31:13.920 --> 00:31:27.000
+ Punkte sprechen. Sprechen, nicht Folie machen. Das habt ihr alle schon gesehen. Weiter geht's.
+
+00:31:27.000 --> 00:31:34.440
+ Es wurde vorhin gefragt, jeder kann sich ein, ob sich jeder eine Instanz aufsetzen kann. Die
+
+00:31:34.440 --> 00:31:41.080
+ Antwort ist Ja und Nein. Ja, denn es ist freie Software, es ist alles unter AGPL lizenziert,
+
+00:31:41.080 --> 00:31:48.120
+ ihr dürft euch alles frei runterladen, verändern, daraus lernen, alle for freedoms nutzen. Allerdings
+
+00:31:48.120 --> 00:31:54.960
+ hat uns das Plattformsteuertransparenzgesetz so einen kleinen Dämpfer reingehauen, denn es gibt
+
+00:31:54.960 --> 00:32:01.680
+ da dieses Gesetz, was sämtliche Anbieter von, ich sag mal Handelsplattformen im Allgemeinen dazu
+
+00:32:01.680 --> 00:32:07.040
+ verpflichtet, dem Bundeszentralamt für Steuern sehr, sehr viele, sehr, sehr intime Daten zu melden.
+
+00:32:07.040 --> 00:32:15.640
+ Ich möchte ferne anmerken für dieses Segment "I am not a lawyer", ich habe keine fachliche
+
+00:32:15.640 --> 00:32:22.440
+ Kompetenz in Sachen Recht. Ich lese einfach Text und interpretiere ihn und genau das würde ich
+
+00:32:22.440 --> 00:32:27.880
+ jetzt mal tun. Die Plattformdefinition ist unsere große Hoffnung, nämlich dass Flohmag einfach
+
+00:32:27.880 --> 00:32:32.760
+ nicht in diese Plattformdefinition fällt. Eine Plattform ist jedes auf digitalen Technologien
+
+00:32:32.760 --> 00:32:37.360
+ beruhende System, das das Nutzen ermöglicht über das Internet mittels einer Software miteinander in
+
+00:32:37.360 --> 00:32:44.360
+ Kontakt zu treten und Rechtsgeschäfte abzuschließen, die gerichtet sind auf. Das Schöne hier in diesem
+
+00:32:44.360 --> 00:32:53.400
+ Segment ist diese Bedingung, weil das heißt quasi, ich muss mir das mal anschauen und gucken, ob ich
+
+00:32:53.400 --> 00:33:00.360
+ das irgendwie entkräften kann und wenn ich das entkräften kann, dann sieht es wieder ganz gut aus.
+
+00:33:00.360 --> 00:33:05.280
+ Das Rechtsgeschäft ist ja definiert als die Übereinstimmung zweier Willenserklärungen und
+
+00:33:05.280 --> 00:33:13.120
+ die kommt unserer bescheidenen Meinung nach dann zustande, wenn ich zu dir nach Hause gehe, sage
+
+00:33:13.120 --> 00:33:19.880
+ ok, schönen Computer hast du da, den will ich haben, hier sind gute Scheine dafür und dann tauschen wir
+
+00:33:19.880 --> 00:33:24.800
+ aus. Das ist der Moment, in dem eigentlich die Willenserklärung zustande kommt und deswegen
+
+00:33:24.800 --> 00:33:31.920
+ bilden wir auch den Preis als Freitext ab. Also alles, was mit dem eigentlichen Handel zu tun hat,
+
+00:33:31.920 --> 00:33:41.120
+ ist super freigestaltet und wir wollen alle Menschen dazu ermutigen, diese Handel wieder quasi von
+
+00:33:41.120 --> 00:33:48.920
+ Face to Face zu machen. Unter diesen Bedingungen können wir uns vorstellen, dass ein rechtssicherer
+
+00:33:48.920 --> 00:33:57.160
+ Betrieb möglich ist. Es gab da auch schon eine Interessensbekundung seitens Digitalcourage e.V.,
+
+00:33:57.160 --> 00:34:02.920
+ eine eigene Instanz betreiben zu wollen. Danke dafür, weil die Jungs, die ja unmedels, die haben
+
+00:34:02.920 --> 00:34:08.160
+ die entsprechenden Ressourcen, um so ein Konzept auch aufzusetzen und ich glaube, sie lassen euch
+
+00:34:08.160 --> 00:34:24.480
+ abschreiben, wenn sie da sind. Danke an Digitalcourage an der Stelle. Genau und bei Danke sind wir angekommen.
+
+00:34:24.480 --> 00:34:28.360
+ Ich möchte mich erstmal beim Prototype Fund bedanken und beim Bundesministerium für Bildung und
+
+00:34:28.360 --> 00:34:32.560
+ Forschung, die mein halbes Jahr Arbeit an dieser Software erst mal finanziert haben. Danke schön
+
+00:34:32.560 --> 00:34:38.120
+ dafür. Ich möchte mich ferner bei Digitalcourage nochmal bedanken, ohne dir dieser Talk gar
+
+00:34:38.120 --> 00:34:42.200
+ nicht hätte stattfinden können, weil ich mich ursprünglich bei Bits und Bäume beworben habe,
+
+00:34:42.200 --> 00:34:47.320
+ da aber hätte ich gar nicht talken können und dann hat Padelouni gesagt, ja Moment mal,
+
+00:34:47.320 --> 00:34:53.320
+ tritt doch bei uns auf. War sehr nice. Danke schön dafür. Und bei meinem Arbeitgeber,
+
+00:34:53.320 --> 00:34:58.960
+ der mich einfach mal irgendwie für ein halbes Jahr solche verrückten Ideen umsetzen lässt und mich
+
+00:34:58.960 --> 00:35:14.840
+ danach wieder nimmt. Danke schön dafür. Und damit möchte ich euch noch auf die URLs hinweisen. Die
+
+00:35:14.840 --> 00:35:23.080
+ Codebase, die ihr gerade gesehen habt, ist unter codeberg.org/grinthold/vormarkt. Hackt mit. Die
+
+00:35:23.080 --> 00:35:29.440
+ Camp Demo ist unter ccccamp.ladfathom.grinthold.de zu erreichen. Ich möchte euch explizit bitten,
+
+00:35:29.440 --> 00:35:36.440
+ es steht auch auf der Startseite, bitte zählt von Sicherheitsforschung auf dieser Seite ab und es
+
+00:35:36.440 --> 00:35:45.840
+ gibt für diesen Zweck vormarkt-zerforschen.ladfathom.grinthold.de. Da forscht, soviel ihr Bock habt,
+
+00:35:45.840 --> 00:35:50.920
+ solange ihr die unterliegende Infrastruktur nicht angreift. Es läuft auf dem gleichen Server. Ich wäre euch
+
+00:35:50.920 --> 00:35:57.400
+ sehr dankbar. Und nein, DDoS ist keine Sicherheitsforschung. Ihr erreicht mich bei
+
+00:35:57.400 --> 00:36:02.520
+ weiteren Fragen unter der 3564 oder jetzt direkt nach dem Talk können wir gerne noch eine Runde
+
+00:36:02.520 --> 00:36:09.920
+ quatschen oder ich bin Grinthold auf chaos.social in Mastodon. Dann vielen Dank für eure Aufmerksamkeit.
+
+00:36:09.920 --> 00:36:22.920
+ Vielen Dank für die Zeit. Hat Spaß gemacht. Gut, wir hatten zwar jetzt schon ein relativ
+
+00:36:22.920 --> 00:36:30.040
+ extensives Fragen und Antworten happening, aber gibt es denn weitere Fragen und Antworten,
+
+00:36:30.040 --> 00:36:35.920
+ zum Beispiel aus dem Internet? Ja, wieviel die Entscheidung auf den Objekt Typ Notes und nicht
+
+00:36:35.920 --> 00:36:50.560
+ etwa auf ein ... Moment, ich kann es nicht hören. Ja, ich habe noch eine Frage. Wieviel die Entscheidung
+
+00:36:50.560 --> 00:36:57.640
+ auf Objekt Typ Note, Notes und nicht etwa auf ein andere, im Gegensatz einem mehr spezifischen
+
+00:36:57.640 --> 00:37:03.120
+ Termin, Unterdaten, Hashtags, Kategorien, Ort, Abholung, Versand, im Hinblick auf Sortierbarkeit,
+
+00:37:03.120 --> 00:37:07.520
+ Filterbarkeit und mögliche weitere Features wie zum Beispiel auf meiner Flohmarkt Instanz
+
+00:37:07.520 --> 00:37:13.080
+ einer ganzen Kategorie zu folgen, gegebenenfalls mit Nachrichtigungssystem? Der Grund dafür
+
+00:37:13.080 --> 00:37:19.960
+ ist, dass die Note von den meisten abgebildet werden kann und die Alternative zum Artikel
+
+00:37:19.960 --> 00:37:25.480
+ Note, die Alternative zum Note ist ja der Artikel und der Artikel kann noch weniger als
+
+00:37:25.480 --> 00:37:30.800
+ die Note und da ist eben das Problem, du kannst schon hergehen und einen eigenen Datentyp erfinden
+
+00:37:30.800 --> 00:37:34.800
+ und total toll spezifizieren, bringt mir halt nichts, wenn Master dann nicht damit umgeht.
+
+00:37:34.800 --> 00:37:49.760
+ Das haben wir relativ schnell aufgegeben. Weitere Fragen? Ja, eine Frage. Könnte man
+
+00:37:49.760 --> 00:37:57.400
+ quasi auch so einen Finden Teil machen? Wir haben jetzt den "Ich biete an"-Teil, aber
+
+00:37:57.400 --> 00:38:03.000
+ auch quasi so "Ich brauche X, Y, Z", dass man quasi... Ach so, du machst einfach ein
+
+00:38:03.000 --> 00:38:07.360
+ Inserator, einschreibst dich, suche, haben wir einige Leute auf ccccamp.net/fessenden,
+
+00:38:07.360 --> 00:38:13.440
+ schreibst halt einfach in den Titel, ich suche das und das, schreibst halt was du dir
+
+00:38:13.440 --> 00:38:28.000
+ dafür ausgeben möchtest oder hergeben möchtest und die Beschreibung von dem ist... Ach ja,
+
+00:38:28.000 --> 00:38:29.520
+ irgendjemand hat bei der Flugsicherheit seinen Laptop liegen lassen und sucht nach einem
+
+00:38:29.520 --> 00:38:35.720
+ Ersatzlaptop, vielleicht hat er jemand von euch für den, ist auch das Inserat noch da.
+
+00:38:35.720 --> 00:38:44.120
+ Thema Rechtssicherheit und Moderatoren, wie geht man da mit illegalen Postings nach hinten?
+
+00:38:44.120 --> 00:38:48.280
+ Löschen. Okay, also als Moderator sehr aktiv werden. Das Moderationsmenü und löschen.
+
+00:38:48.280 --> 00:39:05.480
+ Okay. Genau. Da hinten ist eine Frage. Genau, einmal nach da hinten, oder? Ja, ich habe
+
+00:39:05.480 --> 00:39:11.520
+ eine Frage. Wie ist das Geofencing genau umgesetzt, weil wenn das irgendwie... Du als Administrator
+
+00:39:11.520 --> 00:39:17.520
+ legst beim Erstellen der Instanz fest, auf welcher Geokoordinat und mit welchem Perimeter deine
+
+00:39:17.520 --> 00:39:22.640
+ Instanz gelten soll. Eben solches machen die anderen Administ auch und dann gibt es quasi
+
+00:39:22.640 --> 00:39:29.880
+ eine Intersection über die Strecke. Kann die Seite dann nicht abgerufen werden von anderen
+
+00:39:29.880 --> 00:39:33.800
+ Bereichen oder anderen Domälen? Natürlich. Also es ist tatsächlich eher ein Gebrauchsmuster
+
+00:39:33.800 --> 00:39:37.680
+ als irgendwas sicheres, sage ich jetzt mal. Es ist einfach so, wie das System gedacht
+
+00:39:37.680 --> 00:39:42.440
+ ist. Es hält dich nichts davon ab, eine deutschlandweite Instanz zu machen. Wir können uns zum Beispiel
+
+00:39:42.440 --> 00:39:52.040
+ auch vorstellen, dass es sehr interessant ist für themenspezifische Leute, dass man themenspezifische
+
+00:39:52.040 --> 00:39:57.040
+ Instanzen macht. Also stell dir vor, keine Ahnung, der Club der seltenen Überraschungseiersammler,
+
+00:39:57.040 --> 00:40:01.440
+ die da irgendwie ihre Überraschungseilfiguren austauschen wollen, die haben da irgendwie
+
+00:40:01.440 --> 00:40:06.200
+ eine großartige Community-Expertise und wollen die dann auch bündeln und wollen dann berechtigter
+
+00:40:06.200 --> 00:40:10.080
+ Weise auch das Zeug austauschen oder Motorradschrauber für irgendwelche seltenen Ersatzteile für
+
+00:40:10.080 --> 00:40:14.120
+ Oldtimer. Beispiele fallen da genug ein. Von dem her, wir haben das nicht unterbunden,
+
+00:40:14.120 --> 00:40:18.360
+ weil das auch ein valider Use-Case ist. Was wir halt insgesamt erreichen wollen, ist halt
+
+00:40:18.360 --> 00:40:22.680
+ overall ein bisschen weniger CO2 beim Transport von Dingen und solange uns das gelingt, sind
+
+00:40:22.680 --> 00:40:30.880
+ wir eigentlich froh. Boah. Weitere Fragen? Gut. Otto?
+
+00:40:30.880 --> 00:40:38.440
+ Otto ist Internet nicht? Na dann, letzte Frage.
+
+00:40:38.440 --> 00:40:49.680
+ Könnte man sich als Moderator auch in eine Diskussion einklinken, wenn irgendein Mensch
+
+00:40:49.680 --> 00:41:05.440
+ überwältigt ist, dass er quasi so "Ich brauche hier Moderatoren-Unterstützung" sagt?
+
+00:41:05.440 --> 00:41:24.680
+ Oder nun? Wir haben es hier mit Einzelmitteilungen zu tun, um mal ein altes Wort aus BTX zu nehmen.
+
+00:41:24.680 --> 00:41:37.840
+ Wenn das nicht so ist, dann kann man das nicht so machen, dass man das nicht so macht, dass
+
+00:41:37.840 --> 00:41:44.320
+ man das nicht so macht. Ich habe hier mit einem anderen Modell von einem der Moderatoren-Unterstützungen
+
+00:41:44.320 --> 00:42:10.840
+ gesagt, dass man als Moderator dann sagen kann, dass man als Moderator auch Zugriff
+
+00:42:10.840 --> 00:42:30.680
+ hat, dass man als Moderator auch ein Modell von einem anderen Modell von einem anderen Modell,
+
+00:42:30.680 --> 00:42:46.120
+ das man nicht so macht, dass man als Moderator auch einen anderen Modell von einem anderen
+
+00:42:46.120 --> 00:42:58.200
+ Modell, das man nicht so macht, dass man als Moderator auch ein Modell von einem anderen
+
+00:42:58.200 --> 00:43:13.640
+ Modell von einem anderen Modell von einem anderen Modell von einem anderen Modell von einem
+
+00:43:13.640 --> 00:43:38.880
+ anderen Modell von einem anderen Modell von einem anderen Modell von einem anderen Modell
+
+00:43:38.880 --> 00:43:41.280
+ Gute Überleitung zum nächsten Vortrag,
+
+00:43:41.280 --> 00:43:42.780
+ der auf dieser Stage in ca.
+
+00:43:42.780 --> 00:43:44.080
+ 15 Minuten stattfindet.
+
+00:43:44.080 --> 00:43:48.160
+ Vielen Dank Krindholm für die sehr erleuchtenden Informationen.
+
+00:43:48.160 --> 00:43:48.660
+ Dankeschön!
+
+00:43:48.660 --> 00:43:49.160
+ Vielen Dank Krindholm für die sehr erleuchtenden Informationen.
+
+00:43:49.160 --> 00:43:49.660
+ Vielen Dank Krindholm für die sehr erleuchtenden Informationen.
+
+00:43:49.660 --> 00:43:50.160
+ Vielen Dank Krindholm für die sehr erleuchtenden Informationen.
+
+00:43:50.160 --> 00:43:50.660
+ Vielen Dank Krindholm für die sehr erleuchtenden Informationen.
+
+00:43:50.660 --> 00:43:51.160
+ Vielen Dank Krindholm für die sehr erleuchtenden Informationen.
+
+00:43:51.160 --> 00:43:51.660
+ Vielen Dank Krindholm für die sehr erleuchtenden Informationen.
+
+00:43:51.660 --> 00:43:52.160
+ Vielen Dank Krindholm für die sehr erleuchtenden Informationen.
+
+00:43:52.160 --> 00:43:52.660
+ Vielen Dank Krindholm für die sehr erleuchtenden Informationen.
+
+00:43:52.660 --> 00:43:55.660
+ SWR 2020
+
+00:43:55.660 --> 00:43:58.660
+ SWR 2020
+

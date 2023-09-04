@@ -1,0 +1,150 @@
+ [Musik]
+ Ja, schön, dass ihr euch am späten Abend noch hier getraut habt.
+ Der nächste Vortrag ist auf Deutsch und ich freue mich, dass sich Professor Rüdiger Weiß von der...
+ Welche Technische Hochschule Berlin... Berlinerschule für Technik. Es gibt zu viele Hochschulen in Berlin.
+ Ich komme da selber hier. Also Berliner Hochschule für Technik.
+ Professor Weiß wird uns was über Pico Berries erzählen.
+ [Applaus]
+ Geht das? Ja. Ja, also vielen Dank, dass so viele Leute da sind, obwohl der Untertitel des Talks war, also Post-Quantensignaturen für Raspberry Pi... Raspberry Pico.
+ Und ja, das ist in der Tat, hört sich das Bild Mathematik schwierig an. Und es gibt eine gute und eine schlechte Nachricht.
+ Es ist mathematisch schwierig, allerdings ist es aus Hackersicht überraschend, dass man da sehr einfache Lösungen fangen kann.
+ Und die auch so gebaut sind, dass man wirklich in ganz wenigen Schritten da zu ganz faszinierenden Ergebnissen führen kann.
+ Und die Sachen, die ich heute vorstelle, sind Teil einer laufenden Masterarbeit von Pierre Kotzler, der leider heute nicht da sein kann.
+ Und es war wirklich unsere Überlegung, wir nehmen mal ein wirklich möglichst schwaches Gerät und gucken, ob wir damit wirklich zukunftskompatible Kryptographie machen können.
+ Und irgendwie freut mich das Thema aus mindestens drei Gründen. Einmal ist es mathematisch interessant und es gibt eine sehr schöne Lösung,
+ die Mathematik involviert, aber nicht mehr Mathematik involviert, als man in einem Masterseminar darstellen kann.
+ Und das ist für sehr viele andere Sachen im Bereich Quanten, Computing und Postquanten wirklich nur in sehr beschränkendem Maße der Fall.
+ Zum zweiten ist es ein hochinteressantes Hardware Device, dieser Raspberry Pico. Und was halt fasziniert ist, sind die geringen Kosten.
+ Also die gehen für den einzelnen Chip auch durchaus auch knapp unter ein Euro. Und sehr ausgebaute Varianten mit auch sehr umfassender Bluetooth- und WLAN-Unterstützung sind jetzt glaube ich bei 5,70 Euro oder so.
+ Also ganz faszinierend. Und der dritte interessante Aspekt ist, dass wir uns da mal micropytonäant haben und da finde ich es auch spannend,
+ dass man mit einer sehr, sehr niedrigen ersten Lernschwelle da auch fantastische Ergebnisse machen kann.
+ Da das hier aber ein CCC-Vortrag ist und ich ohnehin zu viel Mathe mache, kann ich auch versprechen, dass hier in dem Vortrag mindestens zwei Einhörner vorkommen
+ und ansonsten auch einige andere Ideen, die glaube ich jetzt für Hacker-Projekte ganz wertvoll sein könnten.
+ Fangen wir an mit dem ersten Einhorn und das ist durchaus eine kleine Verbeugung für Dieter Bernstein,
+ weil Dieter Bernstein hat seit Mitte der 2000er Jahre oder früher die Probleme von Quantencomputern für normale Kryptographie aufgezeigt
+ und hatte in einem seiner ersten Talks da in der Tat ein sehr schlecht gelauntes Einhorn im Hintergrund, das also alles verwüstet.
+ Und naja, man kann sagen, Kryptographen haben manchmal eine sehr deutliche Bildsprache, aber eine interessantere Sache ist das von 2014,
+ wo das NIST eigentlich geschrieben hat "The Sky is Falling" und da unten ist es auch eine meiner wenigen Folien,
+ wo ich da was vom NIST direkt übernommen habe. Impact, RSA kaputt, elliptische Kurven kaputt, DSA, also Diffie-Hellman basierte Systeme kaputt
+ und auch die Digital Signature Algorithmus.
+ Hier sei mir doch mal erlaubt, dass ich jetzt doch auf einige Jahre CCC-Vorträge zurücksehen kann
+ und da immer aus verschiedenen Gründen vor elliptischen Kurven gewarnt habe.
+ Und ich kann ganz deutlich sagen, dass was ich damals als Warnung formuliert habe,
+ nämlich dass wegen der kürzeren Schlüssellänge Quantencomputer elliptische Kurven noch viel schneller brechen würden als klassische Kryptoverfahren,
+ das ist eine Position, die glaube ich 2017 auch von Koblitz und Miller, also den eigentlich Hauptentwicklern der elliptischen Kryptographie durchaus auch eingeräumt werden.
+ Aber gehen wir mal weiter, hier unten sehen wir, symmetrische Krypto braucht längere Schlüssel.
+ Längere Schlüssel ist im Fall von AES, kurz vorm AES-256, ist ausreichend lang.
+ Bei DRIBBLE-DS bin ich ganz gespannt, wie sie da längere Schlüssel generieren wollen.
+ Da gibt es durchaus ein paar Ideen, aber das dürfte ein bisschen schwieriger sein.
+ Und die letzte Zeile, die wir auf dieser Folie haben, ist ein Punkt, wo uns schon ein bisschen Hoffnung erahnen lässt.
+ Hechtfunktionen sind auch betroffen, aber da können wir mit einem längeren Output weiterarbeiten.
+ Und wie ihr hier seht, haben wir Schar 1, Schar 2, Schar 3 und Schar 2 gibt es bei Schar 256 und Schar 512.
+ Bei Schar 3 gibt es sogar höhere Flexibilität. Also die Kurzform ist, Hechtfunktionen haben wir einigermaßen unter Kontrolle.
+ Wer ein bisschen tiefer da einsteigen will, das sind nochmal die beiden zentralen Algorithmen genannt.
+ Einmal der Schor-Algorithmus, der Faktorisierung und diskrete Logarithmusprobleme adressiert.
+ Und zum anderen der Grover-Algorithmus, der so suchen in großen Datenbanken sehr vereinfacht da ist.
+ Und dieser Grover-Algorithmus führt in der Tat zu einer Reduzierung des Schlüsselraums, aber in einem Rasse, das noch beherrschbar erscheint.
+ Insbesondere jetzt ganz vereinfacht gesagt hat man bei Schar 256 auch mit Quantencomputer noch so etwas,
+ naja jetzt ein bisschen blumig gesprochen, aber immer noch 128 Bit Sicherheit, was für die meisten Anwendungen ausreichend sein sollte.
+ Also das ist die Sache, die auch das NIST geschrieben hat, die die Kryptographen und das ist auch, jetzt sind wir ja nach 2014 fast zehn Jahren weiter,
+ ist es auch so weit, dass es inzwischen auch einen interessanten Wettbewerb gab mit ersten Kandidaten.
+ Zu dem TUM komme ich ganz später. Ganz interessant vielleicht Quantencomputer, eine Sache, wo ich doch lächeln müsste war Gasmak.
+ Der Doom-Programmierer hat mal auf eine Frage Quantencomputern gesagt, der hat es sich angeguckt, aber es ist eine schreckliche Technologie,
+ weil man kann es für kaum was brauchen oder für nichts brauchen, was ihn interessiert, aber es zerstört was, was nie zerstört werden sollte,
+ nämlich die Sicherheit von RSA, elliptischen Kurven und anderen Kryptosystemen. Und nochmal um darauf hinzuweisen,
+ das Problem ist bei diesen Verfahren wären dann, wenn der Quantencomputer in Arbeit nicht nur die aktuellen Kommunikation
+ oder alle Kommunikation, die mit dem Verfahren geschützt wird, sondern alle aufgezeichnete Kommunikation auf einmal sperrangelweit offen.
+ Also das ist ein Problem. Die Frage, wie schnell das kommt, ist eine Frage, die würde ich ganz gerne an die Physiker etwas weiterleiten,
+ aber wir können sagen, dass inzwischen durchaus ein Problembewusstsein auch bei den Standardisierern drin ist.
+ Wer die aktuellen Empfehlungen des BSI zum Signaturgesetz aufmerksam gelesen hat, sieht da durchaus eine Entwicklung,
+ dass für längerfristige, immer einsatzsehende Systeme schon diese Quantenprobleme zu berücksichtigen sind.
+ Aber kommen wir zu der guten Nachricht, was sehr gut formuliert ist, Hechtfunktionen und nicht nur, weil es sehr stabil gegen diese Quantencomputer,
+ Sachen sind stabiler als DLP und RSA-Sachen, sondern weil man mit diesen Hechtfunktionen wirklich schon mit ganz alter Technologie,
+ im Wesentlichen von Leslie Lamport, dem L von LaTeX und auch der anderen sehr wichtigen ergebenden Lamport-Uhr und so weiter,
+ entwickelte System der One-Time-Signaturen, da es so wirklich militant einfach ist, dass selbst die Sicherheitsbeweise in einer normalen Vorlesung dargestellt werden können.
+ Es bewahrt im Wesentlichen auf der Einwegeigenschaft von kryptographischen Funktionen und hier auch sehr blumig gesagt,
+ wenn wir Probleme mit der Einwegeigenschaft von Hechtfunktionen haben, ist sowieso alles unter Wasser.
+ Insofern ist es schon interessant, wir kommen nachher vielleicht bei den Treichen nochmal so, mit leichten Modifikationen kann man sogar erreichen,
+ dass selbst eine kollisionsbehafte Hechtfunktion eine hohe Stabilität erreicht.
+ Also mit anderen Worten, das habe ich mit diesem sehr lyrischen, kryptographisches, gutes Bauchgefühl da unten versucht zu kommunizieren,
+ ich kann es auch "hatter" formulieren. Ich glaube und das bin ich mir relativ sicher, dass auch in der Kryptographischen Forschungsgemeinde,
+ dessen Konsens ist, dass hechtbasierte Systeme das einzige sind, wo ich Sicherheit wirklich guten Gewissens empfehlen kann.
+ Die neuen Verfahren sind sehr neue Verfahren, sind sehr faszinierende Verfahren, aber sagen wir mal,
+ ein warm and fussy feeling, um Bruschneier zu zitieren, hat man eigentlich nur bei den hechtbasierten Signaturen.
+ Also wie gesagt, es sind One-Time-Lempert-Signaturen, die sind sehr einfach, ich glaube die Arbeit ist von 1979.
+ Man kombiniert es in der Regel mit zwei Zusatzsachen, nämlich mit einer Organisation der Schlüssel in einem Merkel-Tree,
+ in den vortrittlicheren Sachen auch in Multi-Level-Trees, aber sagen wir mal, für die einfache Einführung reicht da Merkel-Trees.
+ Und vielleicht sogar zwei Punkte, die jetzt in dem Vortrag etwas relevanter sind als diese Bohrkonstruktion,
+ sind die sogenannten Winternetz-Time-Memory-Trade-Offs und Priefixes und Bitmask.
+ Also Priefixes und Bitmask, da ich schon hier die 10 Minuten Warnung erhalten habe, werde ich nur kurz darauf eingehen,
+ sind leichte Modifikationen, die dazu führen, dass die Anforderungen an die Hechtfunktion noch geringer werden.
+ Und wer gerne drollt, kann mal reingucken, diese Winternetz-Parameter und Konstruktionen sind durchaus ganz generische Hechtchains.
+ Und wer ein bisschen Leute ärgern will, kann natürlich auch von einem blockchainartigen Protokoll sprechen auf der unteren Ebene.
+ Aber das will ich heute Abend nicht machen, aber bei der normalen Lektüre hätte man das durchaus so definieren können.
+ Aber Spaß beiseite, es ist ein einfacher, sehr einfacher Memory-Trade-Off, der nachher bei den Folien, bei der Implementierung noch mal relativ wichtig sein muss.
+ Aber vielleicht ist nochmal, um das mal aus kryptografischer als Professoren Sicht zu sehen, Lamport-Signaturen kann man wirklich in der Bachelor-Vorlesung umfassend erklären.
+ Merkle, Trees, glaube ich auch, wenn Sie Datenbanken gehört haben. Winternetz-Trade-Parameter ist auch eine Sache, die noch ist.
+ Das einzige, wo man vielleicht ein bisschen tiefer reingehen müsste in die Sicherheitsbereiche, Präfix, das ist eine Master-Vorlesung.
+ Das ist eigentlich interessant, dass man der Vorlesung halten kann, weil ehrlich gesagt die anderen Krypto-Algorithmen,
+ die jetzt in der Kandidaten-Schafe Post-Quantum-Kryptographie sind, sind so schwierig, dass glaube ich nur ganz wenige Leute das vernünftig vermitteln können.
+ Ich habe es bisher noch nicht hingekriegt. Ich werde vielleicht bis zum nächsten Camp daran mal arbeiten.
+ Aber jetzt kommen wir vielleicht für Hacker-relevantes Sachen nochmal.
+ Oh, Entschuldigung, jetzt musste ich noch eine Mattefolie, aber dann kommen wir gleich zu den Hack-Sachen.
+ Noch eine Mattefolie, ich gebe es zu. Ups, war ich das? Ja, danke.
+ Die aktuellen Empfehlungen für Stateful-Signaturen sind einmal die Extended-Merkle-Signaturen, XMSS, so rum, Leit- und Michalli-Signaturen.
+ Dazu gibt es passende RFCs, BA50-Seiten, relativ nett geschriebene Empfehlungen.
+ Man kann diesen NIST-Standard von 2020 hören. Das ist immer das Problem von Professoren, wenn man meint, das ist eine nette Idee.
+ Das hat noch niemand gemacht. Vor ein paar Wochen sind diese Leit- und Michalli-Signaturen auch ins Open-TDK, das ist irgendeine andere Programmiersprache, eingebaut worden.
+ Kommen wir aber jetzt zu den Sachen, die mir als Hacker wirklich tief gute Laune machen, und das ist der Raspberry-Pico.
+ Wenn man sich mal gammelt, das hat ziemlich genau die Größe von einem kleinen Finger.
+ Überall, wo Sie einen kleinen Finger hin tun können, können Sie einen Pico hinstellen, aber nicht überall, aber könnten Sie von den Maßen.
+ Das hat allerdings einen Dual-Cortex drin, und mein Kumpel, der in der Industrie arbeitet, sagt, wenn man die Prozessoren nur nimmt, geht es unter 1 Euro.
+ Also der dumme "Bringen wir Chips mit Computerchips oder Kartoffelchips", was billiger ist, ist inzwischen so, dass er in der Tat immer in den 1-Euro-Bereich.
+ Die Vollbluen-Version, mit der wir auch ganz gerne rumspielen, mit Wav-Line und Bluetooth, kostet 5,70 Euro.
+ Da ist ein Dual-Core-Armprozessor drin, also nicht der ganz fixeste, allerdings immerhin mit flexibler Glocken-Möglichkeit bis zu 133 MHz, was für einige Anwendungen ausreicht.
+ 206 kS RAM, 2 MB on-board vielleicht, und für Lehre, Forschung und Spielen auch höchst relevant.
+ Er wird freundlicherweise in derselben Programmiersprache programmiert wie unser Blinker-Batch hier auf dem Camp, nämlich MicroPython.
+ Man kann es natürlich auch mit C-Programmen, es wäre vielleicht sogar vernünftiger, einiges in C direkt zu machen, aber MicroPython fasziniert mich einfach wegen der Einfachheit des Zugangs.
+ Insofern haben wir das jetzt erst mal adressiert.
+ Ein Punkt, den ich auch in der Ankündigung hatten, wir nehmen es durchaus ernst, dass wir als Informatiker zu ein paar Sachen beitragen können, die die Welt potenziell besser machen können.
+ Eine Sache ist, dass wir überlegt haben, wir programmieren für dieses Gerät, was für Sensoraufgaben wirklich fantastisch geeignet ist.
+ Es hat einen Low-Power-Sleep-Modus, es hat sogar noch einen tieferen Sleep-Modus, wo wirklich die Stromverbrauchung unter einem Milliampere liegt.
+ Es hat 26 GPIO-Pins, damit kann man alles anschließen, was nicht bei drei auf den Bäumen ist.
+ Es hat einen eigenen Temperatursensor.
+ Und für eine Sache, die ich nachher noch mal ganz kurz eingehe, weil ich mir in der Zeit doch schon ein bisschen zu stark hängen geblieben bin,
+ es hat einen eigenen eingebauten Clock und einen eigenen On-Chip-Timer, da kommen wir später noch mal dazu.
+ Also was haben wir da kurz gemacht? Die Arbeit läuft noch, ich glaube nach einer Verlängerung bis zum September.
+ Also wir haben uns den passenden RFC angeschaut, wir haben das möglichst langweilig gemacht.
+ Wir haben die Schlüssel aufs Online-Flash gemacht, wir haben die Cache für die Not des Hechtries gemacht und der Student hat dann die LM-Signatur gewählt.
+ Das ist am Arbeiten. Was ich auch spannend finde, sind die Windernitz-Parameter, wo ich gesagt habe, dass da so eine Art Hecht-Chain gebaut wird.
+ Da haben wir im Teil Memory-Trade-Off, also kurz gesagt, wir können mit kleineren Schlüsselarbeiten, wenn wir zwei hoch w, w ist dieser Windernitz-Parameter, Hecht ist berechnet.
+ Wir haben aber für 4 gewählt, 2 hoch 4, das scheint mir eine relativ überschaubare Zahl zu sein.
+ Und dann haben wir halt Schlüssel, nur Signaturlängen von etwa 2 Kilobyte.
+ Das ist für die Leute, die die klassischen Signaturlängen kennen, natürlich immer noch sehr groß, aber ich glaube für sehr viele Anwendungen bewältigbar.
+ Die Implementierung, wo der Student gerade arbeitet, arbeitet in der Tat mit Windernitz-Parameter 4 und da benutzt er 993,5 Kilobyte für 128 Schlüssel.
+ Wir kommen noch später ganz schnell noch dazu, warum das durchaus relevant ist.
+ Ein Vorschlag, der der Student abgegeben hat, ist für so ein Sensornetzwerk, da war wirklich unsere Idee möglich, also ein Sensornetzwerk, das wir aus ökologischen Gründen irgendwo hin schmeißen und das Messergebnisse schicken soll.
+ Die Messergebnisse sollen signiert werden, auch der Update für die Dinger soll signiert werden.
+ Wesentlich soll das Ding schlafen, soll manchmal Wehplanverbindungen machen, um wirklich es rauszukriegen, dass wir mit einer Fotozelle die Sache betreiben können.
+ Da müssen wir gucken, wie weit wir kommen, aber das ist unser Anstreben, dass wir das möglichst limitiert, also mit der billigsten Version, adressieren.
+ Der Ablauf ist auch nicht überreinbar, wir generieren Schlüssel, wir tun das Gerät mit dem Public Keeper und Webservice registrieren,
+ wir sammeln die Sensoren an, schicken die an den Server, wenn der letzte Schlüssel da ist, generieren wir die Schlüssel neu und schicken das an den Server.
+ Das ist jetzt ein Ding, da kann sich doch durchaus sehr viele andere Sachen dran.
+ So, jetzt bin ich doch in der Zeit etwas knapp, insofern möchte ich dann mal zu noch ein paar kurzen Anregungen führen.
+ Also ich möchte wirklich Werbung machen, dass man sich diese echtbasierten Signaturen anschaut.
+ Sie sind die Lösung des Problems. Naja, genauer gesagt ist ein böses Wort da, das ich nur ganz kurz erwähnt habe, aber immer noch drin, das heißt "Stay it Full".
+ Das bedeutet, das sind Signaturen, wo Sie sich merken müssen, ob der Schlüssel schon mal verwendet wurde.
+ Und das ist natürlich eine neue Herausforderung an Public Key Infrastruktur. Auf der anderen Seite, um da mal wieder was zum Nachdenken in dem Bereich zu kriegen, gab es
+ durchaus 1996 ein Paper von Ron Rives, der gemeint hat, wie eliminieren wir überhaupt die Notwendigkeit für Revocation-Listen.
+ Und kurzpersonisch, dass er gesagt hat, arbeitet halt einfach mal mit kurzlebigen Schlüsseln.
+ Und diese kurzlebigen Schlüsseln sind natürlich bei One-Time-Signaturen per Definition gegeben, weil man sie noch einmal verwenden darf.
+ Und eine Sache, wo wir dann als nächstes weiterarbeiten, ist, dass wir einfach mal gucken, ob wir die Schlüssel so machen, dass sie an der eingebauten Uhr mitahmen.
+ Ich sehe gerade eine Null, das bedeutet, die soll demnächst zum Ende kommen. Insofern komme ich dann für die verbrochene letzte Folie,
+ wo auch ein fröhliches Einhorn ist vom letzten Camp und das steht zwar beeindruckend, aber immerhin doch machtlos vor einem mächtigen Hechbaum,
+ der sich da aufgebaut hat. Jedenfalls war das meine Interpretation. Soweit vielen Dank für eure Aufmerksamkeit.
+ Herzlichen Dank, Professor Rüdiger Weiß von der Berliner Technischen Bruchschule für Technik. Ich kriege es irgendwann noch hin.
+ Ja, vielen Dank. Leider haben wir jetzt keine Zeit mehr für Fragen, aber man kann ihn bestimmt irgendwo hier auf dem Camp noch finden oder am Rande hier noch kurz ansprechen.
+ Ansonsten vielen Dank. Noch einen schönen Abend. Trinkt auch nachts viel Wasser oder andere Dinge. Schlaft schön.
+ Hört den nächsten Vortrag an, wird bestimmt auch spannend. Nochmal vielen Dank für den tollen Vortrag.
+ [Applaus]
+ [Musik]

@@ -1,0 +1,69 @@
+ [MUSIC]
+ So now we have Sebastian, welcome.
+ Sebastian is telling us about online selling without internet connection.
+ >> Thank you.
+ Hello, how many of you?
+ >> [INAUDIBLE]
+ >> Now, yes.
+ How many of you use payment system, additional payment system?
+ Raise your hand.
+ How many of you like free software?
+ How many of you know the software that the payment system is running?
+ Okay, nobody.
+ So how many of you know Nutaler already?
+ Okay, couple of hands.
+ So this is not about talking about Nutaler, you must already know it.
+ But this is an update of what we are working on.
+ So we are working on local currency lastly.
+ This is how it works.
+ So from the wallet, you first follow the one who doesn't have a use yet, Nutaler.
+ You first withdraw the coins, you spend it, you get the ticket from the merchant,
+ you spend it in the merchant with coins that are like the signature.
+ So you cannot link the withdrawal from the payment, so no one can trace you.
+ What are you buying?
+ And then the merchant make the deposit and
+ get the cash back from the merchant bank account, right?
+ So this is, I already know.
+ But we were thinking about if a merchant is going to be,
+ like for example here, selling stuff and doesn't have internet connection.
+ How do you trust that the wallet did the payment if you cannot check online?
+ So we found a solution, basically without too much saying.
+ We are using a TOTP,
+ code generator that the merchant has with a shared key with a merchant device.
+ So in the point of sales, you can check that the wallet's
+ transaction has codes that are valid for the purchase.
+ So when the wallet pays, you get information for the merchant back office, right?
+ And it has some verification code that can be validated with the merchant point of
+ sale.
+ So as you can see here, the point of sales talks with the buyer,
+ set the amounts, and it creates a contract that is going to be paid and
+ generates the key that will generate the code that is going to be transferred to
+ the point of sale.
+ If the point of sales validate that the code is the correct one,
+ it checks that the purchase is real.
+ So you can do that without the point of sale being online with the merchant.
+ So this is an example creating a QR code.
+ The merchant can create a QR code that is going to be put in the point of sales.
+ You set the description, the summary, and a fixed price.
+ And then this is what can be printed in the point of sales.
+ So you can scan it when you roll it and pay it.
+ >> [LAUGH]
+ >> When you pay it with the wallet,
+ you're going to see the confirmation of the transaction with these codes.
+ And these codes is what you can tell to the merchant to say, I made a purchase.
+ This is my code, okay, and the merchant can verify that because there is
+ an OTP validator in the merchant device.
+ So there is no demo because there's too much thing happening right now.
+ And we are going to be implementing this feature in the batch.
+ And I think the SoCo village is running a merchant and
+ title exchange and we are trying to implement that so it can be tested.
+ We also will be in the house of tea.
+ Every day at 3 PM we are going to be there just for talking about Tyler.
+ And also maybe a workshop to set up local currencies.
+ That's it.
+ There is a lot of help wanted, testing, translations,
+ also testing the deployments.
+ That's it.
+ Thank you.
+ >> [APPLAUSE]
+ [MUSIC]

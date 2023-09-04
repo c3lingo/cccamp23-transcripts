@@ -1,0 +1,60 @@
+ [MUSIC]
+ Welcome everybody. Life in Toxic Bits of Boimer. We're starting with AJ Hamilton, who is presenting
+ a visually impaired perspective on technology. Welcome AJ Hamilton.
+ Hi, really excited to be here. First lightning talk of CCC. My name is AJ, my pronouns are
+ they them. My email is on the screen, aj@martinh.net. Here's my talk, a visually impaired perspective
+ on technology. I would like to start by saying I cannot answer any questions about things
+ like CSS or HTML because I do not have any design experience making accessibility features.
+ Apologies. But it's the truth. Okay. So, yes, I'm a visually impaired person. My condition
+ is a rare genetic one that causes my sight to sort of slowly get blurrier throughout
+ my life. And currently it's at a level where I basically use like zooming and stuff like
+ that just to do anything with technology. And I don't use screen readers. So you may
+ be familiar with screen readers. May not be. But basically they read out the screen for
+ visually impaired people. So here I've got what my vision looks like. This is through
+ a handy app which I can explain if anyone wants me to. It's got a bit of a complicated
+ set up but it can simulate different vision levels for a few conditions. So we've got
+ this here. This is me making this PowerPoint. I don't think you can see that well anyway.
+ But basically it's not very good. Then you've got here a bit of Terraria. And you can't
+ really tell what is going on on the screen. You can't see where the inventory is, what's
+ selected, anything like that. So some specific problems that I've highlighted as sort of
+ day to day problems that visually impaired technology users have. First one. I meant
+ to hide that slide. Fixed font sizes. So a lot of apps and some websites but it is mostly
+ apps for this problem do not have adjustable font sizes. And especially some of them don't
+ adjust to your system preferences which is quite annoying because, you know, you do all
+ this work to set up your preferences and then it's just ignored. And even the Apple notes
+ app which Apple is normally very good but the notes app has no way of changing the font
+ size. And then even when you do have adjustable font sizes, you can often get it to break
+ like this. So we have here we have three screen shots, one of Spotify where you've got some
+ menu items clipping into each other. Song names not being fully shown. You've got a
+ laundry app in the middle which is almost completely unreadable. And then you've got
+ a Sane 3's email there on the end which has text just completely squashed into each other.
+ It is really not very good. Old text. That has come out interestingly. Yeah, so old text,
+ if there's anyone who doesn't know what old text is, it is an alternative description
+ of an image for blind visually impaired people. So this was a tweet by Spencer Kelly, a tech
+ journalist with the BBC. Now the tweet says my dear friends came to visit today and they're
+ extremely gifted son provided this service free of charge. And it took him less than
+ a minute. Now this image did not come there was an image that came with this and it did
+ not come with any old text. So my granddad who sent this to me, he really he did not
+ know what was going on. Now eventually he managed to figure it out. It was this. A Rubik's
+ Cube. Now, yes, it is very important to have old text and especially old text generated
+ by humans because when an AI was used to attempt to generate old text for this image, it generated
+ a person wearing a red shirt and standing in front of a blue background. AI is not good
+ enough for this. You need humans. And okay, as a summary, I've put together four points
+ of general really basic things that can just make our lives a lot easier as visually impaired
+ technology users. We've got number one, make your font sizes adjustable and test them to
+ make sure that they work at all levels. Number two, always add old text, please, please, please.
+ It helps so many people and it saves a lot of time. Number three, test all of your accessibility
+ features and combine them. So for example, if you've got a colorblind mode and a dark
+ mode, put them together and see if you get a disco. And final one, number four, keep
+ your design simple and consistent. A simple design can be amazing because you don't have
+ to go around looking at 20 different buttons, trying to figure out what all of them do.
+ And consistency means that we can actually work by memorizing what the buttons do because
+ a lot of the time we can't actually see what we're clicking on. We're just memorizing positions.
+ So when your UI changes, it is a massive problem. Yeah. So try and keep UI changes to a minimal
+ or just better make it accessible in the first place. All right. And thank you for coming.
+ Yeah. My name is AJ, pronounce they/them, email on the board, and I will be around to answer
+ any questions, talk about accessibility, if you have any software you want me to look
+ at, anything like that. Thank you for listening.
+ [APPLAUSE]
+ [MUSIC PLAYING]
+ you

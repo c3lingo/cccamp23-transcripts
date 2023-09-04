@@ -1,0 +1,5952 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:57,000
+ [Musik]
+
+3
+00:00:57,000 --> 00:01:22,000
+ [Musik]
+
+4
+00:01:23,000 --> 00:01:46,000
+ [Musik]
+
+5
+00:01:47,000 --> 00:02:09,000
+ [Musik]
+
+6
+00:02:10,000 --> 00:02:25,000
+ [Musik]
+
+7
+00:02:25,000 --> 00:02:40,000
+ [Musik]
+
+8
+00:02:41,000 --> 00:02:56,000
+ [Musik]
+
+9
+00:02:57,000 --> 00:03:12,000
+ [Musik]
+
+10
+00:03:13,000 --> 00:03:28,000
+ [Musik]
+
+11
+00:03:29,000 --> 00:03:44,000
+ [Musik]
+
+12
+00:03:45,000 --> 00:04:00,000
+ [Musik]
+
+13
+00:04:01,000 --> 00:04:16,000
+ [Musik]
+
+14
+00:04:17,000 --> 00:04:32,000
+ [Musik]
+
+15
+00:04:33,000 --> 00:04:48,000
+ [Musik]
+
+16
+00:04:49,000 --> 00:05:04,000
+ [Musik]
+
+17
+00:05:05,000 --> 00:05:20,000
+ [Musik]
+
+18
+00:05:21,000 --> 00:05:36,000
+ [Musik]
+
+19
+00:05:37,000 --> 00:05:52,000
+ [Musik]
+
+20
+00:05:53,000 --> 00:06:08,000
+ [Musik]
+
+21
+00:06:09,000 --> 00:06:24,000
+ [Musik]
+
+22
+00:06:25,000 --> 00:06:40,000
+ [Musik]
+
+23
+00:06:41,000 --> 00:07:06,000
+ [Applaus]
+
+24
+00:07:07,000 --> 00:07:22,000
+ [Applaus]
+
+25
+00:07:23,000 --> 00:07:38,000
+ [Applaus]
+
+26
+00:07:39,000 --> 00:08:04,000
+ [Applaus]
+
+27
+00:08:05,000 --> 00:08:17,000
+ [Applaus]
+
+28
+00:08:17,000 --> 00:08:21,000
+ [Applaus]
+
+29
+00:08:22,000 --> 00:08:37,000
+ [Applaus]
+
+30
+00:08:38,000 --> 00:08:53,000
+ [Applaus]
+
+31
+00:08:54,000 --> 00:09:09,000
+ [Applaus]
+
+32
+00:09:10,000 --> 00:09:35,000
+ [Applaus]
+
+33
+00:09:36,000 --> 00:09:51,000
+ [Applaus]
+
+34
+00:09:52,000 --> 00:10:07,000
+ [Applaus]
+
+35
+00:10:08,000 --> 00:10:23,000
+ [Applaus]
+
+36
+00:10:24,000 --> 00:10:39,000
+ [Applaus]
+
+37
+00:10:40,000 --> 00:10:55,000
+ [Applaus]
+
+38
+00:10:56,000 --> 00:11:11,000
+ [Applaus]
+
+39
+00:11:12,000 --> 00:11:27,000
+ [Applaus]
+
+40
+00:11:28,000 --> 00:11:43,000
+ [Applaus]
+
+41
+00:11:44,000 --> 00:11:59,000
+ [Applaus]
+
+42
+00:12:00,000 --> 00:12:15,000
+ [Applaus]
+
+43
+00:12:16,000 --> 00:12:31,000
+ [Applaus]
+
+44
+00:12:32,000 --> 00:12:47,000
+ [Applaus]
+
+45
+00:12:48,000 --> 00:13:03,000
+ [Applaus]
+
+46
+00:13:04,000 --> 00:13:19,000
+ [Applaus]
+
+47
+00:13:20,000 --> 00:13:35,000
+ [Applaus]
+
+48
+00:13:36,000 --> 00:13:51,000
+ [Applaus]
+
+49
+00:13:52,000 --> 00:14:07,000
+ [Applaus]
+
+50
+00:14:08,000 --> 00:14:23,000
+ [Applaus]
+
+51
+00:14:24,000 --> 00:14:39,000
+ [Applaus]
+
+52
+00:14:39,000 --> 00:14:49,000
+ [Applaus]
+
+53
+00:14:50,000 --> 00:15:05,000
+ [Applaus]
+
+54
+00:15:06,000 --> 00:15:21,000
+ [Applaus]
+
+55
+00:15:22,000 --> 00:15:37,000
+ [Applaus]
+
+56
+00:15:38,000 --> 00:15:53,000
+ [Applaus]
+
+57
+00:15:54,000 --> 00:16:09,000
+ [Applaus]
+
+58
+00:16:10,000 --> 00:16:25,000
+ [Applaus]
+
+59
+00:16:26,000 --> 00:16:41,000
+ [Applaus]
+
+60
+00:16:42,000 --> 00:16:57,000
+ [Applaus]
+
+61
+00:16:57,000 --> 00:17:11,000
+ [Applaus]
+
+62
+00:17:11,000 --> 00:17:26,000
+ [Applaus]
+
+63
+00:17:27,000 --> 00:17:42,000
+ [Applaus]
+
+64
+00:17:43,000 --> 00:17:58,000
+ [Applaus]
+
+65
+00:17:59,000 --> 00:18:14,000
+ [Applaus]
+
+66
+00:18:14,000 --> 00:18:22,000
+ [Applaus]
+
+67
+00:18:23,000 --> 00:18:38,000
+ [Applaus]
+
+68
+00:18:39,000 --> 00:18:54,000
+ [Applaus]
+
+69
+00:18:55,000 --> 00:19:10,000
+ [Applaus]
+
+70
+00:19:11,000 --> 00:19:26,000
+ [Applaus]
+
+71
+00:19:27,000 --> 00:19:42,000
+ [Applaus]
+
+72
+00:19:43,000 --> 00:19:58,000
+ [Applaus]
+
+73
+00:19:59,000 --> 00:20:14,000
+ [Applaus]
+
+74
+00:20:15,000 --> 00:20:30,000
+ [Applaus]
+
+75
+00:20:31,000 --> 00:20:56,000
+ [Applaus]
+
+76
+00:20:57,000 --> 00:21:12,000
+ [Applaus]
+
+77
+00:21:12,000 --> 00:21:22,000
+ [Applaus]
+
+78
+00:21:23,000 --> 00:21:38,000
+ [Applaus]
+
+79
+00:21:39,000 --> 00:21:54,000
+ [Applaus]
+
+80
+00:21:55,000 --> 00:22:10,000
+ [Applaus]
+
+81
+00:22:11,000 --> 00:22:26,000
+ [Applaus]
+
+82
+00:22:27,000 --> 00:22:42,000
+ [Applaus]
+
+83
+00:22:42,000 --> 00:22:52,000
+ [Applaus]
+
+84
+00:22:53,000 --> 00:23:08,000
+ [Applaus]
+
+85
+00:23:08,000 --> 00:23:18,000
+ [Applaus]
+
+86
+00:23:19,000 --> 00:23:41,000
+ [Applaus]
+
+87
+00:23:42,000 --> 00:23:56,000
+ [Applaus]
+
+88
+00:23:56,000 --> 00:24:07,000
+ [Applaus]
+
+89
+00:24:08,000 --> 00:24:23,000
+ [Applaus]
+
+90
+00:24:24,000 --> 00:24:39,000
+ [Applaus]
+
+91
+00:24:40,000 --> 00:24:55,000
+ [Applaus]
+
+92
+00:24:56,000 --> 00:25:11,000
+ [Applaus]
+
+93
+00:25:12,000 --> 00:25:27,000
+ [Applaus]
+
+94
+00:25:28,000 --> 00:25:43,000
+ [Applaus]
+
+95
+00:25:43,000 --> 00:25:57,000
+ [Applaus]
+
+96
+00:25:57,000 --> 00:26:12,000
+ [Applaus]
+
+97
+00:26:13,000 --> 00:26:28,000
+ [Applaus]
+
+98
+00:26:29,000 --> 00:26:44,000
+ [Applaus]
+
+99
+00:26:45,000 --> 00:27:00,000
+ [Applaus]
+
+100
+00:27:01,000 --> 00:27:16,000
+ [Applaus]
+
+101
+00:27:17,000 --> 00:27:32,000
+ [Applaus]
+
+102
+00:27:33,000 --> 00:27:48,000
+ [Applaus]
+
+103
+00:27:49,000 --> 00:28:04,000
+ [Applaus]
+
+104
+00:28:05,000 --> 00:28:20,000
+ [Applaus]
+
+105
+00:28:21,000 --> 00:28:36,000
+ [Applaus]
+
+106
+00:28:37,000 --> 00:28:52,000
+ [Applaus]
+
+107
+00:28:53,000 --> 00:29:08,000
+ [Applaus]
+
+108
+00:29:09,000 --> 00:29:24,000
+ [Applaus]
+
+109
+00:29:25,000 --> 00:29:40,000
+ [Applaus]
+
+110
+00:29:41,000 --> 00:29:56,000
+ [Applaus]
+
+111
+00:29:57,000 --> 00:30:12,000
+ [Applaus]
+
+112
+00:30:13,000 --> 00:30:28,000
+ [Applaus]
+
+113
+00:30:29,000 --> 00:30:44,000
+ [Applaus]
+
+114
+00:30:45,000 --> 00:31:00,000
+ [Applaus]
+
+115
+00:31:01,000 --> 00:31:16,000
+ [Applaus]
+
+116
+00:31:17,000 --> 00:31:32,000
+ [Applaus]
+
+117
+00:31:33,000 --> 00:31:48,000
+ [Applaus]
+
+118
+00:31:49,000 --> 00:32:17,000
+ [Applaus]
+
+119
+00:32:18,000 --> 00:32:25,000
+ [Applaus]
+
+120
+00:32:25,000 --> 00:32:33,000
+ [Applaus]
+
+121
+00:32:33,000 --> 00:32:43,000
+ [Applaus]
+
+122
+00:32:44,000 --> 00:33:02,000
+ [Applaus]
+
+123
+00:33:03,000 --> 00:33:18,000
+ [Applaus]
+
+124
+00:33:19,000 --> 00:33:34,000
+ [Applaus]
+
+125
+00:33:35,000 --> 00:33:50,000
+ [Applaus]
+
+126
+00:33:51,000 --> 00:34:06,000
+ [Applaus]
+
+127
+00:34:07,000 --> 00:34:22,000
+ [Applaus]
+
+128
+00:34:23,000 --> 00:34:38,000
+ [Applaus]
+
+129
+00:34:39,000 --> 00:34:54,000
+ [Applaus]
+
+130
+00:34:55,000 --> 00:35:10,000
+ [Applaus]
+
+131
+00:35:10,000 --> 00:35:20,000
+ [Applaus]
+
+132
+00:35:21,000 --> 00:35:36,000
+ [Applaus]
+
+133
+00:35:38,000 --> 00:35:53,000
+ [Applaus]
+
+134
+00:35:54,000 --> 00:36:09,000
+ [Applaus]
+
+135
+00:36:10,000 --> 00:36:25,000
+ [Applaus]
+
+136
+00:36:26,000 --> 00:36:41,000
+ [Applaus]
+
+137
+00:36:42,000 --> 00:36:57,000
+ [Applaus]
+
+138
+00:36:58,000 --> 00:37:13,000
+ [Applaus]
+
+139
+00:37:14,000 --> 00:37:29,000
+ [Applaus]
+
+140
+00:37:30,000 --> 00:37:45,000
+ [Applaus]
+
+141
+00:37:46,000 --> 00:38:01,000
+ [Applaus]
+
+142
+00:38:02,000 --> 00:38:17,000
+ [Applaus]
+
+143
+00:38:18,000 --> 00:38:33,000
+ [Applaus]
+
+144
+00:38:34,000 --> 00:38:49,000
+ [Applaus]
+
+145
+00:38:50,000 --> 00:39:05,000
+ [Applaus]
+
+146
+00:39:06,000 --> 00:39:21,000
+ [Applaus]
+
+147
+00:39:22,000 --> 00:39:37,000
+ [Applaus]
+
+148
+00:39:38,000 --> 00:39:53,000
+ [Applaus]
+
+149
+00:39:54,000 --> 00:40:09,000
+ [Applaus]
+
+150
+00:40:10,000 --> 00:40:25,000
+ [Applaus]
+
+151
+00:40:26,000 --> 00:40:41,000
+ [Applaus]
+
+152
+00:40:43,000 --> 00:40:58,000
+ [Applaus]
+
+153
+00:40:59,000 --> 00:41:14,000
+ [Applaus]
+
+154
+00:41:15,000 --> 00:41:30,000
+ [Applaus]
+
+155
+00:41:32,000 --> 00:41:47,000
+ [Applaus]
+
+156
+00:41:48,000 --> 00:42:03,000
+ [Applaus]
+
+157
+00:42:05,000 --> 00:42:20,000
+ [Applaus]
+
+158
+00:42:21,000 --> 00:42:36,000
+ [Applaus]
+
+159
+00:42:37,000 --> 00:42:52,000
+ [Applaus]
+
+160
+00:42:53,000 --> 00:43:08,000
+ [Applaus]
+
+161
+00:43:09,000 --> 00:43:24,000
+ [Applaus]
+
+162
+00:43:26,000 --> 00:43:41,000
+ [Applaus]
+
+163
+00:43:43,000 --> 00:43:58,000
+ [Applaus]
+
+164
+00:44:00,000 --> 00:44:15,000
+ [Applaus]
+
+165
+00:44:17,000 --> 00:44:32,000
+ [Applaus]
+
+166
+00:44:34,000 --> 00:44:49,000
+ [Applaus]
+
+167
+00:44:51,000 --> 00:45:06,000
+ [Applaus]
+
+168
+00:45:08,000 --> 00:45:23,000
+ [Applaus]
+
+169
+00:45:25,000 --> 00:45:50,000
+ [Applaus]
+
+170
+00:45:51,000 --> 00:46:06,000
+ [Applaus]
+
+171
+00:46:08,000 --> 00:46:23,000
+ [Applaus]
+
+172
+00:46:25,000 --> 00:46:40,000
+ [Applaus]
+
+173
+00:46:42,000 --> 00:46:57,000
+ [Applaus]
+
+174
+00:46:59,000 --> 00:47:14,000
+ [Applaus]
+
+175
+00:47:14,000 --> 00:47:27,000
+ [Applaus]
+
+176
+00:47:28,000 --> 00:47:43,000
+ [Applaus]
+
+177
+00:47:43,000 --> 00:47:57,000
+ [Applaus]
+
+178
+00:47:57,000 --> 00:48:11,000
+ [Applaus]
+
+179
+00:48:13,000 --> 00:48:28,000
+ [Applaus]
+
+180
+00:48:30,000 --> 00:48:45,000
+ [Applaus]
+
+181
+00:48:47,000 --> 00:49:02,000
+ [Applaus]
+
+182
+00:49:04,000 --> 00:49:19,000
+ [Applaus]
+
+183
+00:49:21,000 --> 00:49:36,000
+ [Applaus]
+
+184
+00:49:38,000 --> 00:49:53,000
+ [Applaus]
+
+185
+00:49:55,000 --> 00:50:10,000
+ [Applaus]
+
+186
+00:50:12,000 --> 00:50:27,000
+ [Applaus]
+
+187
+00:50:29,000 --> 00:50:44,000
+ [Applaus]
+
+188
+00:50:46,000 --> 00:51:01,000
+ [Applaus]
+
+189
+00:51:03,000 --> 00:51:18,000
+ [Applaus]
+
+190
+00:51:20,000 --> 00:51:35,000
+ [Applaus]
+
+191
+00:51:37,000 --> 00:51:52,000
+ [Applaus]
+
+192
+00:51:54,000 --> 00:52:09,000
+ [Applaus]
+
+193
+00:52:11,000 --> 00:52:26,000
+ [Applaus]
+
+194
+00:52:28,000 --> 00:52:43,000
+ [Applaus]
+
+195
+00:52:45,000 --> 00:53:00,000
+ [Applaus]
+
+196
+00:53:02,000 --> 00:53:17,000
+ [Applaus]
+
+197
+00:53:19,000 --> 00:53:44,000
+ [Applaus]
+
+198
+00:53:46,000 --> 00:53:56,000
+ [Applaus]
+
+199
+00:53:56,000 --> 00:54:11,000
+ So, ich komme kurz zu euch rüber und würde euch kurz vorstellen oder ihr stellt euch kurz vor oder E-Punk stellt euch kurz vor.
+
+200
+00:54:12,000 --> 00:54:23,000
+ Ihr habt... Was heißt Lady Macchiata? Applaus für Lady Macchiata!
+
+201
+00:54:23,000 --> 00:54:26,000
+ [Applaus]
+
+202
+00:54:26,000 --> 00:54:34,000
+ Auf der anderen Seite Dr. Respiralo und ich spiele die Rolle des Cuy.
+
+203
+00:54:35,000 --> 00:55:03,000
+ [Applaus]
+
+204
+00:55:04,000 --> 00:55:05,000
+ [Applaus]
+
+205
+00:55:05,000 --> 00:55:08,000
+ Die Coffee Balls, vielen, vielen Dank!
+
+206
+00:55:08,000 --> 00:55:16,000
+ So, und weil wir ja so pünktlich... Wir holen direkt zwei Gäste auf die Couch.
+
+207
+00:55:16,000 --> 00:55:22,000
+ Das geht da alles ein bisschen schneller. Und zwar ziehen wir dann vor, würde ich sagen die Katharina Nucun.
+
+208
+00:55:22,000 --> 00:55:29,000
+ Die Haare, die Haare. Ich war kurz beim Friseur in der Umbaupause. Ich schwitze mir da so ein drunter. Bitte entschuldigt das.
+
+209
+00:55:30,000 --> 00:55:35,000
+ Ich setze sie gleich nochmal auf, damit ihr was zu lachen habt. Aber jetzt muss ich atmen.
+
+210
+00:55:35,000 --> 00:55:42,000
+ Katharina Nucun, wo ist sie? Katharina, ihr kennt sie. Ihr kennt sie.
+
+211
+00:55:42,000 --> 00:55:44,000
+ [Applaus]
+
+212
+00:55:44,000 --> 00:55:48,000
+ Ihr Händel in den sozialen Medien. Da ist sie! Katha!
+
+213
+00:55:48,000 --> 00:55:52,000
+ Komm, setz dich. Was willst du trinken? Willst du einen Schunk?
+
+214
+00:55:52,000 --> 00:55:54,000
+ Ein Bier!
+
+215
+00:55:55,000 --> 00:56:02,000
+ Ein Bier ist auch warm. Ich mache das auf. Womit, weiß ich nicht. Ah hier.
+
+216
+00:56:02,000 --> 00:56:06,000
+ Ich habe es schon. Ach, ist offen. Ich habe gar nicht am schäumen.
+
+217
+00:56:06,000 --> 00:56:16,000
+ So, Frau Nucun, ich wollte nur sagen, was du für ein Händel hast. Du bist Katascha in den sozialen Medien. Auf diesem Mastodon und so weiter.
+
+218
+00:56:16,000 --> 00:56:22,000
+ Du bist Autorin. Du hast schon mehrere Bücher geschrieben. Du hast angefangen mit "Die Daten, die ich rief".
+
+219
+00:56:23,000 --> 00:56:28,000
+ Dann kamen True Facts, Fake Facts und jetzt zum Schluss Gefährlicher Glaube.
+
+220
+00:56:28,000 --> 00:56:30,000
+ Genau.
+
+221
+00:56:30,000 --> 00:56:34,000
+ So, da unterhalten wir uns dann gleich nochmal. Ich hole dann direkt den zweiten Gast dazu.
+
+222
+00:56:34,000 --> 00:56:39,000
+ Und das ist vielleicht auch ganz gut, dass du schon mit dabei bist, weil dann eskaliert der uns nicht.
+
+223
+00:56:39,000 --> 00:56:47,000
+ Wo ist der Holgi? Wo ist der Holgi? Da ist er! Guck mal, was der am grinsen ist. Holgi!
+
+224
+00:56:48,000 --> 00:56:54,000
+ Was habe ich bei dir aufgeschrieben? Rado-Moderator und Podcaster.
+
+225
+00:56:54,000 --> 00:56:59,000
+ Schon langjähriger Sympathisant des Chaos-Umfelds. Und du hast noch nie im Bikini moderiert.
+
+226
+00:56:59,000 --> 00:57:01,000
+ Nein.
+
+227
+00:57:01,000 --> 00:57:05,000
+ Wir hätten einen da in deiner Größe. Gut, dann setz dich.
+
+228
+00:57:05,000 --> 00:57:08,000
+ Nur? Beiden Mikro für dich?
+
+229
+00:57:08,000 --> 00:57:15,000
+ So, Holgi, du würdest uns jetzt...
+
+230
+00:57:16,000 --> 00:57:19,000
+ Warum ist mir kein Getränk angeboten worden?
+
+231
+00:57:19,000 --> 00:57:22,000
+ Weil ich das vergessen habe. Was willst du haben? Schum?
+
+232
+00:57:22,000 --> 00:57:25,000
+ Können wir noch... habt ihr Gläser mittlerweile?
+
+233
+00:57:25,000 --> 00:57:29,000
+ Müssen wir eins? Hier ist noch nicht leer. Wir können noch nichts zurückgeben. Schumkette der...
+
+234
+00:57:29,000 --> 00:57:31,000
+ Holgi gerne.
+
+235
+00:57:31,000 --> 00:57:33,000
+ Eine Katze, immerhin.
+
+236
+00:57:33,000 --> 00:57:37,000
+ Sei bitte vorsichtig. Das kommt aus der Forschung, ist richtig teuer.
+
+237
+00:57:37,000 --> 00:57:39,000
+ Geh damit bitte...
+
+238
+00:57:39,000 --> 00:57:41,000
+ Wenn man das Kraut-Schnur ist.
+
+239
+00:57:41,000 --> 00:57:44,000
+ Ich sag doch, ich sag doch.
+
+240
+00:57:45,000 --> 00:57:47,000
+ Ich hab neuerdings einen Hund.
+
+241
+00:57:47,000 --> 00:57:49,000
+ Der ist ähnlich.
+
+242
+00:57:49,000 --> 00:57:51,000
+ Der ist ähnlich?
+
+243
+00:57:51,000 --> 00:57:54,000
+ Das einzige ist, der will immer fressen.
+
+244
+00:57:54,000 --> 00:57:57,000
+ Ja, da kommt hinten glaube ich nichts raus.
+
+245
+00:57:57,000 --> 00:58:04,000
+ Gut, wir haben hier was vorbereitet. Und zwar bräuchten wir auch Hilfe aus dem...
+
+246
+00:58:04,000 --> 00:58:07,000
+ Ich hab mir das genauso vorgestellt.
+
+247
+00:58:07,000 --> 00:58:10,000
+ Genauso hatte ich mir das vorgestellt.
+
+248
+00:58:11,000 --> 00:58:15,000
+ Ich bereite das hier vorne. Du bereitest das auch hier vorne?
+
+249
+00:58:15,000 --> 00:58:18,000
+ Ja, wir haben hier was vorbereitet und wir brauchen jetzt euch.
+
+250
+00:58:18,000 --> 00:58:22,000
+ Und wenn ihr das hier seht, dann seht ihr gar nichts.
+
+251
+00:58:22,000 --> 00:58:28,000
+ Und wenn ihr auf die linke Seite, eure rechte guckt, oder ihr hört das vielleicht auch...
+
+252
+00:58:28,000 --> 00:58:31,000
+ Dann haben wir hier alle Knöpfe, alle Tasten.
+
+253
+00:58:31,000 --> 00:58:33,000
+ Wer macht das?
+
+254
+00:58:33,000 --> 00:58:35,000
+ In drei Minuten.
+
+255
+00:58:35,000 --> 00:58:37,000
+ Fünf.
+
+256
+00:58:37,000 --> 00:58:39,000
+ Wer macht das in fünf Minuten?
+
+257
+00:58:40,000 --> 00:58:41,000
+ Wer macht das in fünf Minuten?
+
+258
+00:58:41,000 --> 00:58:48,000
+ Wer ist freiwillig und setzt uns diese deutsche Querztastatur wieder zusammen?
+
+259
+00:58:48,000 --> 00:58:52,000
+ Mit den Nummern hier ist es einfach. Das würde ich auch hinkriegen. Die F-Tasten geht auch klar.
+
+260
+00:58:52,000 --> 00:58:54,000
+ Wer macht das? Wer ist freiwillig?
+
+261
+00:58:54,000 --> 00:58:56,000
+ Ey Leute!
+
+262
+00:58:56,000 --> 00:58:58,000
+ Wir können auch eine Mate anbieten, damit das schneller geht.
+
+263
+00:58:58,000 --> 00:59:03,000
+ Oder einen Schunk. Oder ich könnte auch den Gizmo auf die Bühne holen und dem die Perücke tragen lassen.
+
+264
+00:59:03,000 --> 00:59:05,000
+ Das könntest du auch machen.
+
+265
+00:59:05,000 --> 00:59:09,000
+ Gizmo! Jawoll, hier! Tastatur zusammensetzen!
+
+266
+00:59:09,000 --> 00:59:10,000
+ Ja!
+
+267
+00:59:10,000 --> 00:59:13,000
+ Nichts aber! Wieso bist du eigentlich schon wieder umgezogen?
+
+268
+00:59:13,000 --> 00:59:15,000
+ Fünf Minuten nachher?
+
+269
+00:59:15,000 --> 00:59:17,000
+ Fünf Minuten!
+
+270
+00:59:17,000 --> 00:59:19,000
+ Du bist unser Mann!
+
+271
+00:59:19,000 --> 00:59:21,000
+ *Applaus*
+
+272
+00:59:21,000 --> 00:59:24,000
+ So, gib mir mal eine Handfunke bitte.
+
+273
+00:59:24,000 --> 00:59:28,000
+ Können wir vom Ton noch ein paar Gurken haben, damit wir die hier über...
+
+274
+00:59:28,000 --> 00:59:33,000
+ So, Gizmo. Jetzt haben wir hier einen Qualifizierten.
+
+275
+00:59:33,000 --> 00:59:35,000
+ Der Tasten.
+
+276
+00:59:35,000 --> 00:59:37,000
+ Wer bist du?
+
+277
+00:59:38,000 --> 00:59:39,000
+ Andreas.
+
+278
+00:59:39,000 --> 00:59:42,000
+ Schön, dass du auf die Bühne gekommen bist. Du kriegst das in fünf Minuten zusammengesetzt.
+
+279
+00:59:42,000 --> 00:59:44,000
+ Wollt ihr das jetzt zusammen machen?
+
+280
+00:59:44,000 --> 00:59:46,000
+ Teamplay, oder?
+
+281
+00:59:46,000 --> 00:59:48,000
+ Gizmo, kriegst du das in fünf Minuten hin?
+
+282
+00:59:48,000 --> 00:59:50,000
+ Heide zusammen. Teamplay.
+
+283
+00:59:50,000 --> 00:59:52,000
+ Dann machen wir das jetzt zusammen.
+
+284
+00:59:52,000 --> 00:59:57,000
+ Was glaubst du, warum kannst du das?
+
+285
+00:59:57,000 --> 01:00:02,000
+ Was macht dich so sicher, aus welchem Umfeld kommst du? Warum schaffst du das in fünf Minuten?
+
+286
+01:00:02,000 --> 01:00:04,000
+ Ich mach so Dinge mit Computern.
+
+287
+01:00:04,000 --> 01:00:07,000
+ Ah, das hätte ich dir auf diese Veranstaltung gar nicht erwartet.
+
+288
+01:00:07,000 --> 01:00:08,000
+ Ich hab sowas schon mal gesehen.
+
+289
+01:00:08,000 --> 01:00:11,000
+ Und du hast sowas schon mal gesehen? Ja gut, dann würde ich sagen...
+
+290
+01:00:11,000 --> 01:00:13,000
+ Aber wir haben Henning, wir haben noch ein Problem.
+
+291
+01:00:13,000 --> 01:00:15,000
+ Was haben wir denn für ein Problem?
+
+292
+01:00:15,000 --> 01:00:17,000
+ Wir haben ein paar Handschuhe vorbereitet.
+
+293
+01:00:17,000 --> 01:00:20,000
+ Ah, ja, weil die Tastatur war 16 Jahre lang in einem Raucherbüro.
+
+294
+01:00:20,000 --> 01:00:24,000
+ Und da sind wirklich... Als wir die abgeholt haben, das war...
+
+295
+01:00:24,000 --> 01:00:26,000
+ Dann soll der okay essen.
+
+296
+01:00:26,000 --> 01:00:29,000
+ Gizmo, möchtest du vielleicht eine Perücke wieder haben?
+
+297
+01:00:29,000 --> 01:00:31,000
+ Nein, aber so bis zum Ende.
+
+298
+01:00:31,000 --> 01:00:33,000
+ Ein kleines.
+
+299
+01:00:34,000 --> 01:00:38,000
+ Okay, dann würde ich sagen... Wer muss jetzt eigentlich wetteln?
+
+300
+01:00:38,000 --> 01:00:40,000
+ Holgi, du musst wetteln. Schaffen die das?
+
+301
+01:00:40,000 --> 01:00:43,000
+ Die beiden Experten. Sind die glaubwürdig genug?
+
+302
+01:00:43,000 --> 01:00:46,000
+ Was wollt ihr machen? Ihr wollt eine Tastatur wieder zusammensetzen?
+
+303
+01:00:46,000 --> 01:00:48,000
+ Ja. Guck dir den Druck an.
+
+304
+01:00:48,000 --> 01:00:54,000
+ Ja, in fünf Minuten. Sind denn auch alle Buchstaben drin oder habt ihr da irgendwie...
+
+305
+01:00:54,000 --> 01:00:56,000
+ Nein, nein, da ist nichts gefakt.
+
+306
+01:00:56,000 --> 01:00:59,000
+ Wie gesagt, Rauchertastatur, 16 Jahre lang im Eintritt.
+
+307
+01:00:59,000 --> 01:01:02,000
+ Das sah gar nicht lecker aus, als wir die gekriegt haben.
+
+308
+01:01:03,000 --> 01:01:05,000
+ Aber da sind ja zwei Experten, sondern das der...
+
+309
+01:01:05,000 --> 01:01:07,000
+ Ist das schon oder hast du den Timer gestartet?
+
+310
+01:01:07,000 --> 01:01:10,000
+ Nee, nee, das machen wir gleich. Wir müssen erst mal abwarten, was Holgi sagt.
+
+311
+01:01:10,000 --> 01:01:12,000
+ Ob ihr das schafft, ob ihr euch vertraut. Fünf Minuten.
+
+312
+01:01:12,000 --> 01:01:14,000
+ Ja, schaffen die.
+
+313
+01:01:14,000 --> 01:01:17,000
+ Wenn nicht, weißt du was los? Ach, du kommst sowieso mit.
+
+314
+01:01:17,000 --> 01:01:20,000
+ Okay, dann würden wir sagen, damit wir es nicht wieder vergessen...
+
+315
+01:01:20,000 --> 01:01:23,000
+ Ak, die Wette gilt.
+
+316
+01:01:23,000 --> 01:01:30,000
+ So, ihr habt jetzt noch vier Minuten, 55 Sekunden.
+
+317
+01:01:31,000 --> 01:01:33,000
+ Das falsche Endteil wurde eingesetzt.
+
+318
+01:01:33,000 --> 01:01:35,000
+ Also wir hatten das ausprobiert, das hat eigentlich funktioniert.
+
+319
+01:01:35,000 --> 01:01:37,000
+ Wir haben es auseinander genommen.
+
+320
+01:01:37,000 --> 01:01:39,000
+ Bitte was?
+
+321
+01:01:39,000 --> 01:01:41,000
+ Wir haben es in der Zeit auseinander genommen.
+
+322
+01:01:41,000 --> 01:01:43,000
+ Ja, gut, okay, aber wir haben es auch kurz zusammengesetzt, um zu gucken, ob das funktioniert.
+
+323
+01:01:43,000 --> 01:01:46,000
+ Was ist hier mit Faxe? Warum kommen hier keine Faxe an?
+
+324
+01:01:46,000 --> 01:01:49,000
+ Schick doch mal Faxe bitte.
+
+325
+01:01:49,000 --> 01:01:52,000
+ Wo ist eigentlich mein Getränk? Das wurde aufgeräumt.
+
+326
+01:01:52,000 --> 01:01:54,000
+ Wo ist eigentlich mein Getränk?
+
+327
+01:01:54,000 --> 01:01:57,000
+ Die haben keine leeren Gläser, das ist alles in der Mache.
+
+328
+01:01:58,000 --> 01:02:01,000
+ Nein, das brauche ich noch, das halte ich mal fest hier.
+
+329
+01:02:01,000 --> 01:02:04,000
+ So, die erste Minute, nein, ist noch nicht rum.
+
+330
+01:02:04,000 --> 01:02:06,000
+ Die Leertaste sitzt.
+
+331
+01:02:06,000 --> 01:02:12,000
+ Ja, ein bisschen anfeuern ist bestimmt gut.
+
+332
+01:02:12,000 --> 01:02:18,000
+ Nächste Mal, was sagst du?
+
+333
+01:02:18,000 --> 01:02:21,000
+ Rollen, Pause, Drucken, wer weiß wie groß das ist.
+
+334
+01:02:26,000 --> 01:02:28,000
+ Die Windows-Taste wurde eingesetzt.
+
+335
+01:02:28,000 --> 01:02:31,000
+ Nein, die Spacebar haben sie falsch rum, das sehe ich jetzt schon.
+
+336
+01:02:31,000 --> 01:02:34,000
+ Aber gut, so klein, nicht von mir her.
+
+337
+01:02:34,000 --> 01:02:38,000
+ Enter-Taste sitzt drin auf dem Nummerblock.
+
+338
+01:02:38,000 --> 01:02:41,000
+ Ach, ihr seht das ja auch hier schön auf den Dingens.
+
+339
+01:02:41,000 --> 01:02:44,000
+ Jetzt habt ihr noch drei Minuten 40.
+
+340
+01:02:44,000 --> 01:02:47,000
+ Die vier steckt schon.
+
+341
+01:02:47,000 --> 01:02:52,000
+ Oh Mann, oh Mann, oh Mann, das sind spannende Bilder hier im Mittel der Märchen.
+
+342
+01:02:55,000 --> 01:02:57,000
+ Ich glaube auch, es dauert zu zweit länger als alleine.
+
+343
+01:02:57,000 --> 01:03:01,000
+ Also das sieht auch gar nicht so schlecht aus, als wir die Tastatur auseinander genommen haben.
+
+344
+01:03:01,000 --> 01:03:03,000
+ War da wesentlich mehr Gild und Glibber, oder?
+
+345
+01:03:03,000 --> 01:03:06,000
+ Nein, wir haben ja noch die Vergleichstastatur, das ist die, die richtig eklig ist.
+
+346
+01:03:06,000 --> 01:03:08,000
+ Ach, das war die, die richtig eklig ist, okay.
+
+347
+01:03:08,000 --> 01:03:10,000
+ Die holen wir nachher noch raus.
+
+348
+01:03:10,000 --> 01:03:12,000
+ Ja, die holen wir nachher noch raus, okay.
+
+349
+01:03:12,000 --> 01:03:15,000
+ So, wir kommen so langsam der 3-Minuten-Marke entgegen.
+
+350
+01:03:15,000 --> 01:03:19,000
+ Das heißt, ihr habt schon fast zwei Minuten geklickert und gemacht und getan.
+
+351
+01:03:19,000 --> 01:03:23,000
+ Und vielleicht ist ein bisschen, ja, klatschen gar nicht so verkehrt.
+
+352
+01:03:24,000 --> 01:03:26,000
+ Aber das wird ja auch, drei Minuten haben wir jetzt.
+
+353
+01:03:26,000 --> 01:03:34,000
+ Jetzt hört doch gleich der Jingle wieder auf, weil der geht nicht mehr weiter.
+
+354
+01:03:34,000 --> 01:03:38,000
+ Ach so, Wetter, der Jingle ist nicht lang genug, den müsstest du gleich noch mal einstarten.
+
+355
+01:03:38,000 --> 01:03:40,000
+ Wetter ist weg.
+
+356
+01:03:40,000 --> 01:03:42,000
+ Ah, Wetter ist weg.
+
+357
+01:03:42,000 --> 01:03:46,000
+ Wetter ist weg, ich guck mal hier kurz auf mein Ablaufplan.
+
+358
+01:03:46,000 --> 01:03:48,000
+ Jetzt weißt du auch, wie Wetter wird.
+
+359
+01:03:48,000 --> 01:03:50,000
+ Können wir, wir unterhalten uns gleich noch mit euch.
+
+360
+01:03:51,000 --> 01:03:55,000
+ Ich bin jetzt ein bisschen kurz gekommen, du erzählst mir was vom Wasser und dem Gedächtnis.
+
+361
+01:03:55,000 --> 01:03:58,000
+ Und der Holgi, der sieht einfach nur gut aus.
+
+362
+01:03:58,000 --> 01:04:04,000
+ Ja, oder dachtest du, ich würde mich mit dir mit über etwas Ernsthaftes unterhalten?
+
+363
+01:04:04,000 --> 01:04:07,000
+ So.
+
+364
+01:04:07,000 --> 01:04:10,000
+ Ach, dann wäre das doch noch hauflös.
+
+365
+01:04:10,000 --> 01:04:15,000
+ Okay, aber das wäre so, nur wegen Bildungsaufgaben machst du das gar nicht, ne?
+
+366
+01:04:15,000 --> 01:04:17,000
+ Nee, okay, na gut, ich hätte jetzt...
+
+367
+01:04:17,000 --> 01:04:19,000
+ Wo sind eigentlich deine Haare?
+
+368
+01:04:20,000 --> 01:04:22,000
+ Die sind hinten hingelegt, weil das ist am Jucken auf dem Kopf vor.
+
+369
+01:04:22,000 --> 01:04:25,000
+ Also es wird eigentlich deutsches Tastaturlayout.
+
+370
+01:04:25,000 --> 01:04:32,000
+ So, wir haben jetzt, wir sind unter zwei Minuten.
+
+371
+01:04:32,000 --> 01:04:39,000
+ Mein Gott, die beiden Experten.
+
+372
+01:04:39,000 --> 01:04:41,000
+ Also ich sehe, die Nummern sind in der richtigen Reihenfolge.
+
+373
+01:04:41,000 --> 01:04:43,000
+ Die Nummern sind schon mal, das ist ja toll.
+
+374
+01:04:43,000 --> 01:04:44,000
+ *Musik*
+
+375
+01:04:44,000 --> 01:04:59,000
+ Ja, vielleicht war das wirklich, dass wir den Gizmo da noch neben gestellt haben,
+
+376
+01:04:59,000 --> 01:05:01,000
+ bei einem wahrscheinlich wirklich erhöhten Schwierigkeitsgrad.
+
+377
+01:05:01,000 --> 01:05:03,000
+ Aber ist ja...
+
+378
+01:05:03,000 --> 01:05:06,000
+ So, ihr seid eine Minute zwanzig.
+
+379
+01:05:06,000 --> 01:05:09,000
+ Das ist jetzt das Ende vom Jingle, also wundert euch nicht.
+
+380
+01:05:09,000 --> 01:05:12,000
+ Der Wetter bereitet gerade was anderes vor, der ist schon unterwegs.
+
+381
+01:05:12,000 --> 01:05:14,000
+ Eine Minute zehn.
+
+382
+01:05:14,000 --> 01:05:16,000
+ Eine Minute zehn?
+
+383
+01:05:16,000 --> 01:05:18,000
+ Ja, eine Minute zehn.
+
+384
+01:05:18,000 --> 01:05:21,000
+ So, wir kommen langsam auf die letzte Minute.
+
+385
+01:05:21,000 --> 01:05:24,000
+ Eine Minute, oh, ich komme aus der Kautschneide hoch.
+
+386
+01:05:24,000 --> 01:05:27,000
+ So, unter das Mikrofon hängen wir.
+
+387
+01:05:27,000 --> 01:05:29,000
+ Oh, das ist ja fährlich.
+
+388
+01:05:29,000 --> 01:05:31,000
+ Kannst du mir mal einen Würdel stecken bitte?
+
+389
+01:05:31,000 --> 01:05:34,000
+ So, wir haben noch 50 Sekunden.
+
+390
+01:05:34,000 --> 01:05:37,000
+ Und da sind noch einige Tasten übrig.
+
+391
+01:05:37,000 --> 01:05:41,000
+ So, wir kommen jetzt auf die letzte Minute.
+
+392
+01:05:41,000 --> 01:05:44,000
+ So, wir kommen auf die 40 Sekunden.
+
+393
+01:05:44,000 --> 01:05:46,000
+ *Musik*
+
+394
+01:05:46,000 --> 01:05:49,000
+ Was haben wir denn, wie sieht das denn aus?
+
+395
+01:05:49,000 --> 01:05:52,000
+ So, können wir mal hier eine tot... oh, wow, das ist schon...
+
+396
+01:05:52,000 --> 01:05:57,000
+ Naja, so wie die vergiebt ist, könnte man die auch nach Farben sortieren.
+
+397
+01:05:57,000 --> 01:05:59,000
+ Stimmt, die könnte man eigentlich nach Farben sortieren.
+
+398
+01:05:59,000 --> 01:06:01,000
+ Die könnte man echt nach Farben sortieren.
+
+399
+01:06:01,000 --> 01:06:03,000
+ So, 23 Sekunden.
+
+400
+01:06:03,000 --> 01:06:05,000
+ 20!
+
+401
+01:06:05,000 --> 01:06:07,000
+ Das sieht nicht gut aus.
+
+402
+01:06:07,000 --> 01:06:09,000
+ 15!
+
+403
+01:06:10,000 --> 01:06:12,000
+ So, ihr wisst, was ihr zu tun habt.
+
+404
+01:06:12,000 --> 01:06:24,000
+ In 10, 9, 8, 7, 6, 5, 4, 3, 2, 1...
+
+405
+01:06:24,000 --> 01:06:26,000
+ Loser!
+
+406
+01:06:26,000 --> 01:06:29,000
+ Ja, ja und jetzt?
+
+407
+01:06:29,000 --> 01:06:31,000
+ Ja.
+
+408
+01:06:31,000 --> 01:06:33,000
+ *Gelächter*
+
+409
+01:06:33,000 --> 01:06:39,000
+ Schön, schön, dass ihr auf die Bühne gekommen seid.
+
+410
+01:06:39,000 --> 01:06:41,000
+ Gizmo, dir danke ich ganz besonders.
+
+411
+01:06:41,000 --> 01:06:44,000
+ Dir auch einen großen Dank, dass ihr da mitgemacht habt.
+
+412
+01:06:44,000 --> 01:06:46,000
+ Ihr kriegt aber trotzdem eine Chilisoße, ne?
+
+413
+01:06:46,000 --> 01:06:48,000
+ Genau, die kriegt eine Chilisoße.
+
+414
+01:06:48,000 --> 01:06:50,000
+ Aber wir haben nicht damit gerechnet, dass das zwei Leute machen.
+
+415
+01:06:50,000 --> 01:06:53,000
+ Nein, der Gizmo kriegt doch keine, wegen der Perücke alleine schon.
+
+416
+01:06:53,000 --> 01:06:56,000
+ So, hier hat ihr einen Keycap-Puller gebraucht.
+
+417
+01:06:56,000 --> 01:06:58,000
+ Daran lag es natürlich.
+
+418
+01:06:58,000 --> 01:07:00,000
+ Bitte was?
+
+419
+01:07:00,000 --> 01:07:02,000
+ Ein Keycap-Puller.
+
+420
+01:07:02,000 --> 01:07:04,000
+ Ach so, so noch?
+
+421
+01:07:04,000 --> 01:07:07,000
+ Ja, ja, aber du solltest die ja auch reinstecken.
+
+422
+01:07:08,000 --> 01:07:09,000
+ *Gelächter*
+
+423
+01:07:09,000 --> 01:07:12,000
+ Vielleicht hätten wir das auch am Anfang besser erklären müssen.
+
+424
+01:07:12,000 --> 01:07:14,000
+ Ich merke das schon.
+
+425
+01:07:14,000 --> 01:07:16,000
+ Ich gebe zu, es ist schwierig.
+
+426
+01:07:16,000 --> 01:07:18,000
+ Wir wissen auch gar nicht, wie wir den Jingle nochmal neu starten würden.
+
+427
+01:07:18,000 --> 01:07:20,000
+ Von daher vielen, vielen Dank.
+
+428
+01:07:20,000 --> 01:07:24,000
+ Das hat leider nicht geklappt, aber in vier Jahren gibt es mit Sicherheit nochmal eine Chance.
+
+429
+01:07:24,000 --> 01:07:26,000
+ *Gelächter*
+
+430
+01:07:26,000 --> 01:07:28,000
+ *Applaus*
+
+431
+01:07:28,000 --> 01:07:30,000
+ Danke!
+
+432
+01:07:30,000 --> 01:07:32,000
+ *Applaus*
+
+433
+01:07:32,000 --> 01:07:34,000
+ *Gelächter*
+
+434
+01:07:34,000 --> 01:07:36,000
+ *Gelächter*
+
+435
+01:07:37,000 --> 01:07:38,000
+ Holgi, was hast du eigentlich gewettet?
+
+436
+01:07:38,000 --> 01:07:41,000
+ Du hattest mir hoch und heilig versprochen, dass du dich hier benimmst.
+
+437
+01:07:41,000 --> 01:07:44,000
+ Ich, ich, ich, ich, dass der hat, der hat mir, dass ich das...
+
+438
+01:07:44,000 --> 01:07:46,000
+ Was hat, wie, was hat ich gewettet?
+
+439
+01:07:46,000 --> 01:07:48,000
+ Ich muss da mit?
+
+440
+01:07:48,000 --> 01:07:50,000
+ Ja, sicher. Du kommst gleich noch mit.
+
+441
+01:07:50,000 --> 01:07:52,000
+ Du musst, ich habe gesagt, ich muss mit, jetzt gehe ich mit.
+
+442
+01:07:52,000 --> 01:07:55,000
+ Aber nach der Sendung. Bleib erstmal sitzen, bleib erstmal sitzen.
+
+443
+01:07:55,000 --> 01:07:57,000
+ So.
+
+444
+01:07:57,000 --> 01:07:59,000
+ Wie sieht das denn noch aus, wenn ich jetzt aufstehe?
+
+445
+01:07:59,000 --> 01:08:01,000
+ Jetzt kriegen wir noch richtig hohen Besuch.
+
+446
+01:08:01,000 --> 01:08:03,000
+ Wir hätten hier noch so ein Stück Küchentuch für dich.
+
+447
+01:08:03,000 --> 01:08:05,000
+ Es ist auch noch nicht angerotzt.
+
+448
+01:08:06,000 --> 01:08:07,000
+ Du hast eine schöne Hose.
+
+449
+01:08:07,000 --> 01:08:09,000
+ Du bist auf die Hose.
+
+450
+01:08:09,000 --> 01:08:11,000
+ Danke, ja, das ist...
+
+451
+01:08:11,000 --> 01:08:13,000
+ Hier bitte nicht mit der Katze abgeschüttet.
+
+452
+01:08:13,000 --> 01:08:15,000
+ Nicht mit der Katze.
+
+453
+01:08:15,000 --> 01:08:17,000
+ Nein!
+
+454
+01:08:17,000 --> 01:08:19,000
+ Das ist, ach, das Tier hier lernt.
+
+455
+01:08:19,000 --> 01:08:22,000
+ Kannst du, Matthias, kannst du diesen Datensatz eigentlich auch einfach wieder löschen?
+
+456
+01:08:22,000 --> 01:08:24,000
+ Kriegst du das aus dem Tier?
+
+457
+01:08:24,000 --> 01:08:26,000
+ Ja, wird bestätigt.
+
+458
+01:08:26,000 --> 01:08:28,000
+ Das Fell ist waschbar.
+
+459
+01:08:28,000 --> 01:08:30,000
+ Das Fell ist waschbar, ok.
+
+460
+01:08:30,000 --> 01:08:32,000
+ Ich hörte auch, das wäre das Winterfell.
+
+461
+01:08:32,000 --> 01:08:34,000
+ Das ist schwer.
+
+462
+01:08:35,000 --> 01:08:36,000
+ Nein, Winterfell.
+
+463
+01:08:36,000 --> 01:08:38,000
+ Winterfell.
+
+464
+01:08:38,000 --> 01:08:40,000
+ So.
+
+465
+01:08:40,000 --> 01:08:42,000
+ Ok, dann machen wir weiter.
+
+466
+01:08:42,000 --> 01:08:44,000
+ Wir kommen zu unserem nächsten Gast und über unseren nächsten Gast freue ich mich ganz besonders.
+
+467
+01:08:44,000 --> 01:08:51,000
+ Denn uns war es wichtig, dass wir nicht nur Triple C-Promis auf die Bühne holen, die ihr alle schon kennt,
+
+468
+01:08:51,000 --> 01:08:56,000
+ sondern auch diejenigen vorstellen, die uns ermöglichen, dass wir überhaupt hier sein können
+
+469
+01:08:56,000 --> 01:09:00,000
+ und die jetzt schon bereit sind, uns zum dritten Mal aufzunehmen.
+
+470
+01:09:00,000 --> 01:09:03,000
+ Und deshalb grüße ich jetzt den Roy vom Ziegeleipark.
+
+471
+01:09:04,000 --> 01:09:05,000
+ Ein Applaus für den Roy.
+
+472
+01:09:05,000 --> 01:09:07,000
+ *Applaus*
+
+473
+01:09:07,000 --> 01:09:13,000
+ Hallo Roy.
+
+474
+01:09:13,000 --> 01:09:18,000
+ Setz dich neben dem Roy, was soll das sonst hier gehen?
+
+475
+01:09:18,000 --> 01:09:22,000
+ Genau, Roy, wir freuen uns wirklich ganz besonders, dass du hier bist.
+
+476
+01:09:22,000 --> 01:09:25,000
+ Und du sitzt hier für uns so ein bisschen stellvertretend für dein ganzes Team.
+
+477
+01:09:25,000 --> 01:09:27,000
+ Ich glaube, einige sind auch hier, oder?
+
+478
+01:09:27,000 --> 01:09:29,000
+ Könnt ihr mal rüchen, wer ist für Roy hier?
+
+479
+01:09:29,000 --> 01:09:31,000
+ Wo ist die Roy Crew?
+
+480
+01:09:31,000 --> 01:09:33,000
+ Jawohl, dahinten.
+
+481
+01:09:33,000 --> 01:09:34,000
+ Das wird richtig groß.
+
+482
+01:09:34,000 --> 01:09:36,000
+ Roy, was machst du im Ziegeleipark?
+
+483
+01:09:36,000 --> 01:09:39,000
+ Ja, ich bin Betriebsleiter hier.
+
+484
+01:09:39,000 --> 01:09:42,000
+ Schon seit zwölf Jahren glaube ich.
+
+485
+01:09:42,000 --> 01:09:44,000
+ Mittlerweile 26 Jahre hier in der Firma.
+
+486
+01:09:44,000 --> 01:09:46,000
+ Und ja, was machen wir?
+
+487
+01:09:46,000 --> 01:09:52,000
+ Wir bespaßen die Touristen in der Region und freuen uns natürlich, wenn der Carlos Computer Club hier ist.
+
+488
+01:09:52,000 --> 01:09:54,000
+ Sehr schön.
+
+489
+01:09:54,000 --> 01:09:56,000
+ *Applaus*
+
+490
+01:10:01,000 --> 01:10:04,000
+ Und bevor wir dir erzählen, worum es geht, schalten wir kurz zu sein.
+
+491
+01:10:04,000 --> 01:10:06,000
+ Moment, Moment, Moment, wir müssen erst einmal jetzt...
+
+492
+01:10:06,000 --> 01:10:08,000
+ Nein, wir müssen dem Roy was zu trinken anbieten.
+
+493
+01:10:08,000 --> 01:10:10,000
+ Ah, was zu trinken, was willst du haben, einen Schunk?
+
+494
+01:10:10,000 --> 01:10:12,000
+ Nee, ein Bier bitte.
+
+495
+01:10:12,000 --> 01:10:14,000
+ Geht kein Schunk.
+
+496
+01:10:14,000 --> 01:10:20,000
+ So, jetzt hat der gerade das Licht ausgeschaltet, das war so schön beleuchtet da oben.
+
+497
+01:10:20,000 --> 01:10:22,000
+ Wir geben aber jetzt trotzdem rüber.
+
+498
+01:10:22,000 --> 01:10:24,000
+ Wir geben rüber zu unserem Aussehen-Reporter.
+
+499
+01:10:24,000 --> 01:10:26,000
+ Ich sehe da irgendwie gar nichts.
+
+500
+01:10:26,000 --> 01:10:29,000
+ Jawohl, da ist der Schiedsrichter, Wetter, singt herum.
+
+501
+01:10:30,000 --> 01:10:31,000
+ Schiedsrichter, singt herum.
+
+502
+01:10:31,000 --> 01:10:33,000
+ Wenn ihr euch kurz umdreht.
+
+503
+01:10:33,000 --> 01:10:35,000
+ *Applaus*
+
+504
+01:10:35,000 --> 01:10:43,000
+ Wir kommen jetzt zur Außenwette, weil die findet draußen statt.
+
+505
+01:10:43,000 --> 01:10:46,000
+ Ja, hier ganz oben...
+
+506
+01:10:46,000 --> 01:10:50,000
+ Moment, ich habe hier so viele Kommunikationskanäle, Ton von hier oben.
+
+507
+01:10:50,000 --> 01:10:56,000
+ So, hier oben auf den Hügeln ist die große Staplerwette.
+
+508
+01:10:57,000 --> 01:11:02,000
+ Natürlich nichts ohne eine Staplerwette, unser Staplerfahrer Ahl hat sich hier beworben.
+
+509
+01:11:02,000 --> 01:11:04,000
+ Wie kamst du auf diese Wette?
+
+510
+01:11:04,000 --> 01:11:07,000
+ Wir haben zusammen beim Mittag gesessen, nein Quatsch.
+
+511
+01:11:07,000 --> 01:11:12,000
+ Also wir haben hier eine Weile aufgebaut, jetzt sind jetzt 4,5 Wochen rum, glaube ich.
+
+512
+01:11:12,000 --> 01:11:17,000
+ Und die Sachen waren immer groß und jetzt wollten wir was Kleines stapeln, aber hoch hinaus.
+
+513
+01:11:17,000 --> 01:11:20,000
+ Okay, und was stapelst du hier sonst zu?
+
+514
+01:11:20,000 --> 01:11:23,000
+ Das ist jetzt nicht Rocky, sondern Goldie, ne?
+
+515
+01:11:24,000 --> 01:11:27,000
+ Ja genau, das ist Goldie, mit Goldie stapel ich gar nichts, eigentlich stapel ich hier Akten,
+
+516
+01:11:27,000 --> 01:11:33,000
+ oder ein paar Klos oder Streu für die Toiletten.
+
+517
+01:11:33,000 --> 01:11:35,000
+ Na, ihr wisst schon, was wir sonst für hier stapeln.
+
+518
+01:11:35,000 --> 01:11:42,000
+ So, und die Wette ist, dass wir hier an der Zinke dieses Gabelstaplers ein Netzwerkkabel befestigt haben.
+
+519
+01:11:42,000 --> 01:11:44,000
+ *Gelächter*
+
+520
+01:11:44,000 --> 01:11:51,000
+ Und dort oben, ich würde mal sagen auf 4,5 Meter Höhe, eine Netzwerkdose.
+
+521
+01:11:52,000 --> 01:11:58,000
+ *Gelächter*
+
+522
+01:11:58,000 --> 01:12:00,000
+ Und der Aal wettet?
+
+523
+01:12:00,000 --> 01:12:11,000
+ Ja, ich wette, dass ich dieses Netzwerkkabel in ungefähr 4 Meter Höhe innerhalb von 5 Minuten in diese ganz normale AJ45-Boxe stecke.
+
+524
+01:12:11,000 --> 01:12:13,000
+ *Gelächter*
+
+525
+01:12:13,000 --> 01:12:17,000
+ Mit Anflag vom Dackel. Ja, na klar, also wenn wir noch ein bisschen.
+
+526
+01:12:18,000 --> 01:12:23,000
+ So, jetzt sind wir mal gespannt, was vor allem der Roy sagt, ne?
+
+527
+01:12:23,000 --> 01:12:25,000
+ Roy. Roy.
+
+528
+01:12:25,000 --> 01:12:29,000
+ Ja, Moment. Warte mal, haben wir schon mal was kaputt gemacht hier?
+
+529
+01:12:29,000 --> 01:12:31,000
+ Ist hier schon mal was kaputt gegangen?
+
+530
+01:12:31,000 --> 01:12:35,000
+ Also, nicht, das wissen wir nie, nichts Großes war mal so.
+
+531
+01:12:35,000 --> 01:12:38,000
+ Ja, ruhig, das Türmchen ist schon mal größer, ne?
+
+532
+01:12:38,000 --> 01:12:42,000
+ Das Türmchen ist schon mal größer. Nur zum Größenvergleich.
+
+533
+01:12:43,000 --> 01:12:51,000
+ Das ist die Buchse, das ist der Stecker. Die Buchse hängt da oben in 4 Meter Höhe, der Stecker ist auf der Zinke.
+
+534
+01:12:51,000 --> 01:12:56,000
+ Blümchen, Bienchen, brauch ich denn hier klären?
+
+535
+01:12:56,000 --> 01:13:04,000
+ Das passt gut ineinander und das will der Aal mit dem Stapler machen. Schafft er das?
+
+536
+01:13:04,000 --> 01:13:06,000
+ Dann hat er Zeit, zwei Tage.
+
+537
+01:13:06,000 --> 01:13:10,000
+ Nach 5 Minuten. Mit Anfahrt von unten.
+
+538
+01:13:11,000 --> 01:13:16,000
+ Der fährt gerade zurück, da oben blinkt das schon ganz, ganz gut. Guck dir das mal an, was haben wir den Berg jetzt sicher?
+
+539
+01:13:16,000 --> 01:13:19,000
+ Ist das schön beleuchtet, ist das schön beleuchtet.
+
+540
+01:13:19,000 --> 01:13:21,000
+ *Applaus*
+
+541
+01:13:21,000 --> 01:13:24,000
+ Schafft er das?
+
+542
+01:13:24,000 --> 01:13:38,000
+ Also normalerweise würde ich sagen nein, aber da ich ja Vertrauen in Aal habe und ihn ja auch schon ein paar Tage kenne, jetzt hier im Zickalei-Fahrt jetzt in den 14 Tagen, die ich hier bin, ich war ja vor dem Urlaub, denke ich mal, er schafft.
+
+543
+01:13:39,000 --> 01:13:44,000
+ *Applaus*
+
+544
+01:13:44,000 --> 01:13:48,000
+ Sehr gut, ist jemand auf dem Sofa schon mal einen Stapler gefahren?
+
+545
+01:13:48,000 --> 01:13:50,000
+ Ja.
+
+546
+01:13:50,000 --> 01:13:55,000
+ Nee, aber einen Trecker. Einen Trecker. Einen alten Fendt war geil.
+
+547
+01:13:55,000 --> 01:13:57,000
+ *Lachen*
+
+548
+01:13:57,000 --> 01:14:01,000
+ Du bist schon mal Stapler gefahren, das heißt du kannst das nachfühlen?
+
+549
+01:14:01,000 --> 01:14:06,000
+ Ja, wir haben ja hier einen Radlader und da habe ich auch die Berechtigung für, also ist ja sowas irgendwie.
+
+550
+01:14:07,000 --> 01:14:14,000
+ Aber ich habe dafür gesorgt, der Aal hat alle Führerscheine, die er braucht und das ist auch praktischerweise mit der Projektleitung abgesprochen. Das ist nämlich Teil der Risikoübernahme, die wir haben.
+
+551
+01:14:14,000 --> 01:14:25,000
+ Ja, ja, da der Stadt Aal auch die Projektleitung ist, mussten wir mit der Projektleitung nichts absprechen. Das war sehr, sehr einfach diese. Also nur zur Info für euch, in Saal 1 hätte das nicht funktioniert.
+
+552
+01:14:25,000 --> 01:14:27,000
+ *Lachen*
+
+553
+01:14:27,000 --> 01:14:29,000
+ *Applaus*
+
+554
+01:14:30,000 --> 01:14:41,000
+ Die ganze Sache wird da oben vorbereitet. Du sagst, die ganze Sache läuft, da kommen wir dann auf das Wettengeld, kommen wir gleich nochmal. Wir können uns jetzt eigentlich mit unseren Gästen so ein bisschen unterhalten.
+
+555
+01:14:41,000 --> 01:14:43,000
+ Wir können uns jetzt mit unseren Gästen unterhalten.
+
+556
+01:14:43,000 --> 01:14:51,000
+ Wir können die kleine Umbaupause hier nutzen, uns mit unseren Gästen zu unterhalten. Katharina, erzähl mir mal was über Wasser. Du hattest mir neulich gesagt, Wasser hat ein Gedächtnis?
+
+557
+01:14:51,000 --> 01:14:54,000
+ Ich habe das Gegenteil gesagt, aber das ist schon okay.
+
+558
+01:14:55,000 --> 01:15:06,000
+ Okay, weil hattest du nicht gesagt, dass Leute glauben, dass Wasser ein Gedächtnis hätte und wenn man mit dem Wasser spricht, dann würde das das behalten. Holgi, erzähl dem Wasser mal was.
+
+559
+01:15:06,000 --> 01:15:08,000
+ *Lachen*
+
+560
+01:15:08,000 --> 01:15:11,000
+ Na Holgi, du musst ein Mikro in die Hand nehmen.
+
+561
+01:15:11,000 --> 01:15:13,000
+ Was soll ich dem Wasser denn jetzt erzählen?
+
+562
+01:15:13,000 --> 01:15:15,000
+ Weiß ich nicht, also das ist irgendwas, woran das sich erinnern soll.
+
+563
+01:15:15,000 --> 01:15:17,000
+ Woran das sich erinnern soll?
+
+564
+01:15:17,000 --> 01:15:19,000
+ Von der Katze.
+
+565
+01:15:19,000 --> 01:15:21,000
+ Du bist eine Katze.
+
+566
+01:15:21,000 --> 01:15:23,000
+ *Lachen*
+
+567
+01:15:24,000 --> 01:15:29,000
+ Spaß beiseite, es gibt leider Leute, die tatsächlich sowas glauben. Du natürlich nicht.
+
+568
+01:15:29,000 --> 01:15:39,000
+ Es gibt so einen sehr bekannten, in der ESU-Szene sehr bekannten Wasservorscher in Anführungsstrichen, also der Vorscher nicht wirklich.
+
+569
+01:15:39,000 --> 01:15:50,000
+ Und der beschallt dann ein ernstes Wasser mit unterschiedlicher Musik, beispielsweise, also er hat ne Vorbliebe für Klassik anscheinend, so mit Tchaikowski und dann sagt er, oh, die Kristalle sind sehr schön geformt.
+
+570
+01:15:51,000 --> 01:15:59,000
+ Das wirkt sich positiv aus die Wasserqualität aus und als Gegenbeispiel hat er dann Heavy Metal genommen und der Kristall ist dann nicht so schön.
+
+571
+01:15:59,000 --> 01:16:01,000
+ Was ist bei Parkour?
+
+572
+01:16:01,000 --> 01:16:13,000
+ Und das ist übrigens in einem Buch, das allen Ernstes veröffentlicht wurde von so einem ESU-Verlag für Kinder, damit Kinder schon lernen, dass Wasser angeblich ein Gedächtnis hätte, also totaler Schwurbel.
+
+573
+01:16:13,000 --> 01:16:20,000
+ Dann hattest du mir in der Vorbesprechung auch von dem Gander erzählt, der ist wem begegnet und warum kommt ihr auf so Ideen?
+
+574
+01:16:20,000 --> 01:16:37,000
+ Ja, also ich weiß nicht, ob ihr schon mal von Gerandawasser was gehört habt, das ist so Wasser, das extrem teuer ist und ja, da wird behauptet, dass es halt irgendwie energetisch super toll behandelt werden würde, kann man wissenschaftlich jetzt nicht so wirklich nachvollziehen.
+
+575
+01:16:38,000 --> 01:16:51,000
+ Und das ist aber ultra erfolgreich, also da werden Millionen verdient damit, dass man beispielsweise Bäckereien halt diese Apparate verkauft und die sagen dann, das Brötchen ist halt irgendwie besonders dolle.
+
+576
+01:16:51,000 --> 01:16:53,000
+ Das ist mein Wasser hier, nicht?
+
+577
+01:16:54,000 --> 01:17:08,000
+ Und da fragt man sich natürlich, woher weiß der Herr Gander was, und was bei der Buchrecherche total spannend ist, sind wir auf so Gerichtsakten gestoßen und da war ein Ernstes dargelegt, dass Jesus Christus das übermittelt hätte.
+
+578
+01:17:08,000 --> 01:17:17,000
+ Ich wage das jetzt zu bezweifeln, aber es gibt Leute, die geben halt unglaublich viel Geld für dieses super tolle Wasser aus und glauben, sie würden sich damit heilen können beispielsweise.
+
+579
+01:17:17,000 --> 01:17:21,000
+ Hm hm hm hm hm hm hm hm hm hm hm hm. Wie sieht das da oben?
+
+580
+01:17:22,000 --> 01:17:25,000
+ Ja, also Mikrofon 4 hier oben, könnte man eigentlich loslegen.
+
+581
+01:17:25,000 --> 01:17:28,000
+ Ich frage den Kollegen, falls ihr das nicht verstanden habt, was ist mit Schwermwasser?
+
+582
+01:17:28,000 --> 01:17:31,000
+ Aber wir fragen jetzt eher mal, was ist eigentlich mit dem schweren Gerät?
+
+583
+01:17:31,000 --> 01:17:33,000
+ Was ist mit dem schweren Gerät?
+
+584
+01:17:33,000 --> 01:17:36,000
+ Unser Mensch in Schiedsrichteruniform, kannst du uns ein Signal geben?
+
+585
+01:17:36,000 --> 01:17:39,000
+ Wetter? Ja, also, ihr seht mich vielleicht nicht, aber...
+
+586
+01:17:39,000 --> 01:17:41,000
+ Doch, doch, du hast ein schönes Gelbchen.
+
+587
+01:17:41,000 --> 01:17:44,000
+ Ein schönes Hemd an. Ja, der Aal ist auf Position.
+
+588
+01:17:44,000 --> 01:17:46,000
+ Der Aal ist auf Position.
+
+589
+01:17:47,000 --> 01:17:52,000
+ Und jetzt, jetzt müsste ich das ja irgendwie wahrscheinlich sagen, mit dem Top-Gewettegeld. Das Lustige ist, also es eskaliert ja weiter.
+
+590
+01:17:52,000 --> 01:17:54,000
+ Du sollst dich top sagen.
+
+591
+01:17:54,000 --> 01:17:58,000
+ Und ein Intervall kommen und ich muss eigentlich allen zeitgleich Bescheid geben, dass es jetzt losgeht.
+
+592
+01:17:58,000 --> 01:18:04,000
+ Und auch noch, jetzt gibt es ja nicht nur mich, also weil ich ja hier oben stehe, gibt es ja unten den Lasse auf Mikro Nummer 3.
+
+593
+01:18:04,000 --> 01:18:07,000
+ Lasse, bist du auf Mikro Nummer 3?
+
+594
+01:18:07,000 --> 01:18:09,000
+ So, ja.
+
+595
+01:18:09,000 --> 01:18:12,000
+ Kannst du dich konzentrieren bitte, geht gleich los.
+
+596
+01:18:13,000 --> 01:18:18,000
+ Also, 5 Minuten haben wir die Musik dann und die Uhr schon mal einblenden und dann ist alles.
+
+597
+01:18:18,000 --> 01:18:20,000
+ Ja, die Uhr ist eingeblendet, können wir bestätigen.
+
+598
+01:18:20,000 --> 01:18:22,000
+ Wunderfein. Ja.
+
+599
+01:18:22,000 --> 01:18:27,000
+ Dann würde ich, Moment, jetzt muss ich noch zwei Knöpfe drücken, natürlich, weil sie hören mich auch sonst, nicht?
+
+600
+01:18:27,000 --> 01:18:31,000
+ Top. Die Wette, äh, ab. Die Wette gilt.
+
+601
+01:18:31,000 --> 01:18:36,000
+ Zack, und die Zeit läuft. So. Und die Zeit läuft.
+
+602
+01:18:36,000 --> 01:18:38,000
+ Die Zeit läuft, das Licht ist ab.
+
+603
+01:18:38,000 --> 01:18:42,000
+ Wir sehen den Stapler, wie er den Hügel hochfährt.
+
+604
+01:18:42,000 --> 01:18:43,000
+ So, was ist jetzt?
+
+605
+01:18:43,000 --> 01:18:48,000
+ Wir haben auch die Engel in Warnwesten verzichtet, weil wir vorher Leute geholt haben, um den Funk reinzulegen.
+
+606
+01:18:48,000 --> 01:18:53,000
+ Oh mein Gott, guck dir das mal, was der Aal für eine, ach, ist das ein schweres Gerät.
+
+607
+01:18:53,000 --> 01:19:01,000
+ Das ist, äh, und der Nebel extra und so viel Licht, was die alle angeschleppt haben.
+
+608
+01:19:01,000 --> 01:19:07,000
+ Guck dir das an, ach, und da hinten die Warnwesten von den Engeln.
+
+609
+01:19:08,000 --> 01:19:12,000
+ Der Aal schiebt sich nach vorne, die Stapler sind noch unten.
+
+610
+01:19:12,000 --> 01:19:15,000
+ Ach, guck mal, jetzt leuchtet er auch, ach, ist das alles schön hier.
+
+611
+01:19:15,000 --> 01:19:18,000
+ Ach, es leuchtet eigentlich auch, ganz gut. Dann sieht man die Warnwester.
+
+612
+01:19:18,000 --> 01:19:21,000
+ So, jetzt sehen wir den Stapler kurz, ja, jetzt sehen wir den Stapler wieder.
+
+613
+01:19:21,000 --> 01:19:23,000
+ Er ist weiterhin in der Anfahrt, aber er ist fast ab.
+
+614
+01:19:23,000 --> 01:19:27,000
+ So, das ist die erste Hindernis, war der da. Hoffentlich greißt er den Waggerni ab.
+
+615
+01:19:27,000 --> 01:19:30,000
+ Nee, da passt er durch. Ja, er ist fast ab.
+
+616
+01:19:30,000 --> 01:19:33,000
+ Das ist auch eine interessante Einstellung, ja, ja.
+
+617
+01:19:33,000 --> 01:19:36,000
+ Henning, wir können den auch in echt sehen, ne?
+
+618
+01:19:37,000 --> 01:19:40,000
+ Ja, guck mal, ja, guck doch mal das grüne Licht an, ist das alles schön.
+
+619
+01:19:40,000 --> 01:19:46,000
+ So, die Zinke geht schon hoch, und guck dir das an, ich guck mir das lieber hier, hör mal.
+
+620
+01:19:46,000 --> 01:19:52,000
+ Das ist schon mal knapp dran.
+
+621
+01:19:52,000 --> 01:19:57,000
+ Jetzt reißt er gleich um, nee, reißt er nicht ab, das ist nur die Perspektive, okay.
+
+622
+01:19:57,000 --> 01:20:00,000
+ Mein Gott, sind das spannende Bilder, ich fasse das gar nicht.
+
+623
+01:20:01,000 --> 01:20:07,000
+ Ja, da ist schon, da ist die Buchse, in drei Minuten rein, in die Buchse, in die Buchse.
+
+624
+01:20:07,000 --> 01:20:14,000
+ Also von hier, ja, das passt dann nicht, man, die Perspektive könnte auch eine falsche sein, wie wir hier sehen.
+
+625
+01:20:14,000 --> 01:20:17,000
+ Er ist also verdammt nah dran, verdammt nah dran.
+
+626
+01:20:17,000 --> 01:20:24,000
+ Ah, und wir wollten dann noch einen zweiten Kabelbinder dran machen, damit das Ding nicht verrutscht, falls der erste, ja gut, das ist dann auch zu einfach, ne?
+
+627
+01:20:24,000 --> 01:20:30,000
+ Ja, das ist, ja, mit schwacken Glück, dass da ein Knickschutz drauf ist.
+
+628
+01:20:30,000 --> 01:20:39,000
+ So, wir nehmen nochmal einen Lauch, und, ach, der ruckelt, der zappelt, was sagste?
+
+629
+01:20:39,000 --> 01:20:42,000
+ Sieht gar nicht schlecht aus.
+
+630
+01:20:42,000 --> 01:20:44,000
+ Ja, was kostet das Türmchen eigentlich?
+
+631
+01:20:44,000 --> 01:20:46,000
+ Bisschen Zeit hat er ja noch.
+
+632
+01:20:46,000 --> 01:20:50,000
+ Dann ist nicht denkmalgeschützt, das Türmchen da, oder? Da kriegt man nicht Ärger.
+
+633
+01:20:50,000 --> 01:20:52,000
+ Na ja, wär schon schön, wenn er stehen bleibt.
+
+634
+01:20:52,000 --> 01:20:57,000
+ Ja, ja, wenn man das nicht jetzt beim Arme und bei der Projektleitung an, die kannst du dich dann wenden, die Telefonnummern von denen hast du ja.
+
+635
+01:20:58,000 --> 01:21:00,000
+ Ja, wir treffen uns morgen früh um 9.
+
+636
+01:21:00,000 --> 01:21:04,000
+ Guck mal, wir sind nah dran, wir sind richtig nah dran, wir sind richtig nah dran.
+
+637
+01:21:04,000 --> 01:21:06,000
+ Ein bisschen hoch müsste er noch.
+
+638
+01:21:06,000 --> 01:21:08,000
+ 2 Minuten 30 haben wir noch.
+
+639
+01:21:08,000 --> 01:21:13,000
+ Hat der Arl eigentlich geübt? Ich glaube nicht, ne, der hatte eigentlich gar keine Zeit zu geben.
+
+640
+01:21:13,000 --> 01:21:17,000
+ Der hatte gar keine, der war nicht so sicher, dass das direkt auf Andi funktioniert, aber guck mal, das geht jetzt.
+
+641
+01:21:17,000 --> 01:21:19,000
+ Vielleicht wird der Arl den Applaus von unten, wenn wir ihn anfeuern.
+
+642
+01:21:19,000 --> 01:21:21,000
+ So.
+
+643
+01:21:21,000 --> 01:21:36,000
+ So, wir laufen auf die 2 Minuten Restzeit. Oh, das wird immer auch Mann, Mann, Mann, Mann, Mann, Mann, Mann.
+
+644
+01:21:36,000 --> 01:21:40,000
+ Ja, also vielleicht muss ich da, vielleicht ist der Ständer so ein bisschen schief.
+
+645
+01:21:40,000 --> 01:21:45,000
+ Oh, ja, nein.
+
+646
+01:21:46,000 --> 01:21:53,000
+ Ja, ja. Hattest du den Kleber richtig rum, äh, den Kabel richtig rum auf die Zinke geklebt?
+
+647
+01:21:53,000 --> 01:21:58,000
+ Ne, der Stecker hat sich ein bisschen verbogen, vielleicht wären wir so nett und würden Arl nochmal den Stecker ein bisschen gerader machen.
+
+648
+01:21:58,000 --> 01:22:04,000
+ Oh, da können wir aber nicht die Zeit für anhalten, das war so nicht ein Plan, die hat 1 Minuten 30, habt ihr noch.
+
+649
+01:22:04,000 --> 01:22:10,000
+ So. So, und wieder hoch mit dem Zinkel. Der Stecker ist gerade.
+
+650
+01:22:10,000 --> 01:22:22,000
+ 1 Minute 20. Die Musik ist aus, der Zinkel war nur 3 Minuten, noch einmal.
+
+651
+01:22:22,000 --> 01:22:27,000
+ Lasst euch da nicht aus der Irre, das ist, das kann man auch nochmal einstarten, aber muss man gar nicht.
+
+652
+01:22:27,000 --> 01:22:34,000
+ So, wir laufen langsam auf die 1 Minute zu. Oh, hoffentlich hat er sich gemerkt, wo er war mit dem Ding.
+
+653
+01:22:35,000 --> 01:22:45,000
+ Wir müssen übrigens dazusagen, der Arl sieht das Kamerabild nicht. Oh, ich werde, ich werde, oh, oh, nein.
+
+654
+01:22:45,000 --> 01:22:50,000
+ Hast du gesehen, wie knapp das war? Anna, hast du das gesehen?
+
+655
+01:22:50,000 --> 01:22:53,000
+ Ja, ich habe aber schon oft in den Turm geguckt, weil ich geguckt habe, ob das Lichtchen angeht.
+
+656
+01:22:53,000 --> 01:22:56,000
+ Dann ist der Turm angefangen zu wippen, habe ich das auch.
+
+657
+01:22:56,000 --> 01:23:01,000
+ Vielleicht hätten wir die Deko vorher abnehmen müssen, damit der nichts passiert.
+
+658
+01:23:02,000 --> 01:23:05,000
+ Ach, die brauchen wir doch in 4 Jahren wieder.
+
+659
+01:23:05,000 --> 01:23:09,000
+ So, wir fahren nochmal hoch, das schöpfen wir, also 30 Sekunden haben wir noch.
+
+660
+01:23:09,000 --> 01:23:15,000
+ Es wird langsam knapp. 1 Minute. 1 Minute, 23. Al, 23 hast du.
+
+661
+01:23:15,000 --> 01:23:25,000
+ Komm, da ist, na, wer hat denn da geguckt? So, das sieht auch wieder gut aus.
+
+662
+01:23:26,000 --> 01:23:36,000
+ 12 Sekunden, 10, ihr habt den Job. 9, 8, 7, 6, 5, 4, 3, 2, 1.
+
+663
+01:23:36,000 --> 01:23:50,000
+ Einen großen Applaus für den Alp.
+
+664
+01:23:50,000 --> 01:24:02,000
+ Also, der Roy hat an dich geglaubt, aber woran hat es gelegen?
+
+665
+01:24:02,000 --> 01:24:05,000
+ Gott sei Dank steht das Türmchen noch, also das war ein gutes Halt, das hat er auch.
+
+666
+01:24:05,000 --> 01:24:08,000
+ Roy, dafür lasse ich dein Geländer heilen.
+
+667
+01:24:08,000 --> 01:24:10,000
+ Was hast du gesagt?
+
+668
+01:24:10,000 --> 01:24:13,000
+ Na, ich sage Roy, dafür lasse ich dein Geländer heilen.
+
+669
+01:24:13,000 --> 01:24:15,000
+ Ja, hast du super gemacht.
+
+670
+01:24:16,000 --> 01:24:21,000
+ Ich gucke auf den Ablaufplan.
+
+671
+01:24:21,000 --> 01:24:23,000
+ Der Ablaufplan sagt, wir sind fast am Ende.
+
+672
+01:24:23,000 --> 01:24:25,000
+ Der Ablaufplan sagt, wir sind fast am Ende.
+
+673
+01:24:25,000 --> 01:24:27,000
+ Also, sowohl mit den Nerven, als auch mit dem Publikum.
+
+674
+01:24:27,000 --> 01:24:33,000
+ Ja, mit dem Publikum sind wir auch fast am Ende. Da sollte jetzt eigentlich was passieren, warum das nicht passiert, wissen wir nicht.
+
+675
+01:24:33,000 --> 01:24:35,000
+ Na ja, dann machen wir einfach weiter.
+
+676
+01:24:35,000 --> 01:24:37,000
+ Dann machen wir einfach weiter.
+
+677
+01:24:37,000 --> 01:24:40,000
+ So, es geht jetzt weiter und zwar eigentlich.
+
+678
+01:24:40,000 --> 01:24:42,000
+ Eigentlich haben wir einen neuen Liveact.
+
+679
+01:24:43,000 --> 01:24:46,000
+ Aber wo ist unser neuer Liveact?
+
+680
+01:24:46,000 --> 01:24:48,000
+ Wo ist unser neuer Liveact?
+
+681
+01:24:48,000 --> 01:24:50,000
+ Gungeon, bist du hier?
+
+682
+01:24:50,000 --> 01:24:52,000
+ Der Liveact ist da.
+
+683
+01:24:52,000 --> 01:24:54,000
+ Da ist er. Gungeon.
+
+684
+01:24:54,000 --> 01:24:56,000
+ Gungeon, genau.
+
+685
+01:24:56,000 --> 01:24:59,000
+ Komm hin, wir haben auch ein Mikrofon für dich.
+
+686
+01:24:59,000 --> 01:25:03,000
+ Aber du lebst ja den Traum.
+
+687
+01:25:03,000 --> 01:25:05,000
+ Genau, ich lebe den Traum.
+
+688
+01:25:05,000 --> 01:25:08,000
+ Ich habe früher IT gemacht und mache jetzt OLS.
+
+689
+01:25:08,000 --> 01:25:10,000
+ Gut.
+
+690
+01:25:11,000 --> 01:25:14,000
+ Wie hast du es geschafft, Schatzi?
+
+691
+01:25:14,000 --> 01:25:17,000
+ Meine Finger haben immer irgendwie die Terrasse.
+
+692
+01:25:17,000 --> 01:25:22,000
+ Das ist das dritte deutsche Fernsehen mit der Chaos-Schau.
+
+693
+01:25:22,000 --> 01:25:24,000
+ Die Nachrichten.
+
+694
+01:25:24,000 --> 01:25:28,000
+ Es werden immer noch verzweifelt Engel für die Nachtschichten gesucht.
+
+695
+01:25:28,000 --> 01:25:33,000
+ Und wir bitten euch, eure Chung-Gläser rechtzeitig zurückzubringen.
+
+696
+01:25:33,000 --> 01:25:36,000
+ Denn ohne Chung ist hacken das...
+
+697
+01:25:37,000 --> 01:25:41,000
+ Ich werde mir doch jetzt hier nicht von euch die Sendezeit wegnehmen lassen.
+
+698
+01:25:41,000 --> 01:25:43,000
+ Kalissi, Kalissi.
+
+699
+01:25:43,000 --> 01:25:45,000
+ Bist du die Krammel-Mioska aus der Tage?
+
+700
+01:25:45,000 --> 01:25:47,000
+ Schau einmal.
+
+701
+01:25:47,000 --> 01:25:49,000
+ Ich kann euch total nicht hören.
+
+702
+01:25:49,000 --> 01:25:51,000
+ Ich mache einfach weiter mit meiner Sendung.
+
+703
+01:25:51,000 --> 01:26:02,000
+ Bitte sorgt dafür, dass alle eure Chung's rechtzeitig zurückkommen.
+
+704
+01:26:02,000 --> 01:26:06,000
+ Und sorgt dafür, dass wir morgen früh ausreichend Kaffeetassen haben.
+
+705
+01:26:06,000 --> 01:26:09,000
+ Denkt daran, die Müllabfuhr kommt morgen um 7.
+
+706
+01:26:09,000 --> 01:26:18,000
+ Das heißt, die Zeit nach der Sendung genutzt werden kann, um noch Müll wegzubringen.
+
+707
+01:26:18,000 --> 01:26:20,000
+ Kalissi, bitte.
+
+708
+01:26:20,000 --> 01:26:22,000
+ Noch 5 Minuten.
+
+709
+01:26:22,000 --> 01:26:24,000
+ Wir haben noch einen Fax bekommen.
+
+710
+01:26:24,000 --> 01:26:26,000
+ Ich wette, dass die Zuschauer jetzt nicht fassen.
+
+711
+01:26:26,000 --> 01:26:28,000
+ Das Fax von mir?
+
+712
+01:26:28,000 --> 01:26:30,000
+ Kalissi, Kalissi, pass auf.
+
+713
+01:26:30,000 --> 01:26:34,000
+ Kannst du aus der Einblendung eine Ausblendung machen?
+
+714
+01:26:35,000 --> 01:26:36,000
+ Ja, ich kann das.
+
+715
+01:26:36,000 --> 01:26:39,000
+ Dann kommen wir nachher zu dir rüber, wenn wir fertig sind.
+
+716
+01:26:39,000 --> 01:26:41,000
+ Ja?
+
+717
+01:26:41,000 --> 01:26:44,000
+ Ja, hier wartet schon ein Überraschungsgast für euch.
+
+718
+01:26:44,000 --> 01:26:46,000
+ Ach du Scheiße.
+
+719
+01:26:46,000 --> 01:26:48,000
+ Das wird immer besser.
+
+720
+01:26:48,000 --> 01:26:50,000
+ Hat der auch die Haare offen?
+
+721
+01:26:50,000 --> 01:26:52,000
+ Ich gucke ihn mal an.
+
+722
+01:26:52,000 --> 01:26:54,000
+ Er hat die Haare auf jeden Fall schön.
+
+723
+01:26:54,000 --> 01:26:57,000
+ Hier wird auch etwas im Hintergrund aufgebaut.
+
+724
+01:26:57,000 --> 01:27:04,000
+ Ich erwarte, dass alle Wettpartnerinnen und alle Gewinnerinnen der Wetten vorbeikommen.
+
+725
+01:27:04,000 --> 01:27:05,000
+ Ich habe mich eingeladen.
+
+726
+01:27:05,000 --> 01:27:07,000
+ Ich werde dich ausrichten.
+
+727
+01:27:07,000 --> 01:27:09,000
+ Der muss erst mal fertig werden.
+
+728
+01:27:09,000 --> 01:27:13,000
+ Wir machen jetzt weiter mit der Sendung startenden Live-Act.
+
+729
+01:27:13,000 --> 01:27:16,000
+ Nach der Sendung kommen wir zu dir rüber.
+
+730
+01:27:16,000 --> 01:27:18,000
+ Wir beeilen uns.
+
+731
+01:27:18,000 --> 01:27:20,000
+ Dann machen wir Hacken dicht.
+
+732
+01:27:20,000 --> 01:27:22,000
+ Wir sehen uns bei Hacken dicht.
+
+733
+01:27:22,000 --> 01:27:24,000
+ Ist für Getränke gesorgt?
+
+734
+01:27:24,000 --> 01:27:26,000
+ Die Bar ist aufgebaut.
+
+735
+01:27:26,000 --> 01:27:28,000
+ Und kalt auch?
+
+736
+01:27:28,000 --> 01:27:30,000
+ Das weiß ich nicht.
+
+737
+01:27:30,000 --> 01:27:32,000
+ Ist egal, Hauptsache Bier.
+
+738
+01:27:33,000 --> 01:27:34,000
+ Das ist ein ganz schöner Tag.
+
+739
+01:27:34,000 --> 01:27:36,000
+ Das ist ein ganz schöner Tag.
+
+740
+01:27:36,000 --> 01:27:38,000
+ Das ist ein ganz schöner Tag.
+
+741
+01:27:38,000 --> 01:27:40,000
+ Das ist ein ganz schöner Tag.
+
+742
+01:27:40,000 --> 01:27:42,000
+ Du lebst ja den Traum überhaupt.
+
+743
+01:27:42,000 --> 01:27:45,000
+ Du hast aus der IT ins Holz verarbeitende Gewerk.
+
+744
+01:27:45,000 --> 01:27:47,000
+ Genau, ich bin umgestiegen.
+
+745
+01:27:47,000 --> 01:27:49,000
+ Und?
+
+746
+01:27:49,000 --> 01:27:51,000
+ Es fühlt sich wunderbar an.
+
+747
+01:27:51,000 --> 01:27:54,000
+ Ich kann nur sagen, tut das, ihr müsst euch trauen.
+
+748
+01:27:54,000 --> 01:27:56,000
+ Es ist eine Euchtung.
+
+749
+01:27:56,000 --> 01:27:59,000
+ Du hattest da was vorbereitet, sagtest du.
+
+750
+01:27:59,000 --> 01:28:01,000
+ Was habe ich vorbereitet?
+
+751
+01:28:02,000 --> 01:28:04,000
+ Auf jeden Fall habe ich einen Song vorbereitet.
+
+752
+01:28:04,000 --> 01:28:06,000
+ Holzi Holzi Holz.
+
+753
+01:28:06,000 --> 01:28:08,000
+ Holzi Holzi Holz, lass laufen, Wetter.
+
+754
+01:28:08,000 --> 01:28:10,000
+ Wetter ist noch gar nicht zurück.
+
+755
+01:28:10,000 --> 01:28:12,000
+ Doch, Wetter sitzt da.
+
+756
+01:28:12,000 --> 01:28:14,000
+ Moment, Moment.
+
+757
+01:28:14,000 --> 01:28:16,000
+ Da war gerade so ein Fax.
+
+758
+01:28:16,000 --> 01:28:18,000
+ Da war gerade so ein Fax, ja.
+
+759
+01:28:18,000 --> 01:28:21,000
+ Da ist die Meiner, wir haben ja jetzt schon, was haben wir jetzt?
+
+760
+01:28:21,000 --> 01:28:23,000
+ Wir haben Mitternacht.
+
+761
+01:28:23,000 --> 01:28:25,000
+ Wir haben einen Fax von Calici bekommen.
+
+762
+01:28:25,000 --> 01:28:28,000
+ Das zählt nicht, das ist vom Gelände.
+
+763
+01:28:28,000 --> 01:28:30,000
+ Vom Bock kam nichts?
+
+764
+01:28:31,000 --> 01:28:32,000
+ Oh, falsches Fax.
+
+765
+01:28:32,000 --> 01:28:36,000
+ Aber start doch mal die Musik an, damit wir hier irgendwie weitermachen können.
+
+766
+01:28:36,000 --> 01:28:38,000
+ Musik an, bitte.
+
+767
+01:28:38,000 --> 01:28:40,000
+ Hallo Musik.
+
+768
+01:28:40,000 --> 01:28:42,000
+ Ich und mein Holz.
+
+769
+01:28:42,000 --> 01:28:44,000
+ Ich und mein Holz.
+
+770
+01:28:44,000 --> 01:28:46,000
+ Ich und mein Holz.
+
+771
+01:28:46,000 --> 01:28:48,000
+ Ich und mein Holz.
+
+772
+01:28:48,000 --> 01:28:50,000
+ Das ist ja irgendwie ein Thema.
+
+773
+01:28:50,000 --> 01:28:52,000
+ Ich und mein Holz.
+
+774
+01:28:52,000 --> 01:28:54,000
+ Und das ist ja heute.
+
+775
+01:28:54,000 --> 01:28:56,000
+ Es heißt Holz.
+
+776
+01:28:56,000 --> 01:28:58,000
+ Ich und mein Holz.
+
+777
+01:28:59,000 --> 01:29:00,000
+ Ich und mein Holz.
+
+778
+01:29:00,000 --> 01:29:02,000
+ Das ist eine schöne Instruktion.
+
+779
+01:29:02,000 --> 01:29:04,000
+ Das ist ja vielseitig.
+
+780
+01:29:04,000 --> 01:29:06,000
+ Ich und mein Holz.
+
+781
+01:29:06,000 --> 01:29:08,000
+ Du kannst das verbrennen.
+
+782
+01:29:08,000 --> 01:29:10,000
+ Und das ist sehr gern.
+
+783
+01:29:10,000 --> 01:29:12,000
+ Ich und mein Holz.
+
+784
+01:29:12,000 --> 01:29:15,000
+ Wenn du es versägst, ist das ja bei sehr färbe.
+
+785
+01:29:15,000 --> 01:29:17,000
+ Ich und mein Holz.
+
+786
+01:29:17,000 --> 01:29:20,000
+ Aber wenn du es sägst, dann nicht.
+
+787
+01:29:20,000 --> 01:29:22,000
+ Und jetzt alle in der Rift.
+
+788
+01:29:22,000 --> 01:29:24,000
+ Ich und mein Holz.
+
+789
+01:29:24,000 --> 01:29:26,000
+ Ich und mein Holz.
+
+790
+01:29:26,000 --> 01:29:28,000
+ Holz, Holz, Holz.
+
+791
+01:29:28,000 --> 01:29:29,000
+ Holz, Holz, Holz.
+
+792
+01:29:29,000 --> 01:29:31,000
+ Ich und mein Holz.
+
+793
+01:29:31,000 --> 01:29:33,000
+ Holz, Holz, Holz.
+
+794
+01:29:33,000 --> 01:29:35,000
+ Ich und mein Holz.
+
+795
+01:29:35,000 --> 01:29:37,000
+ Ich und mein Holz.
+
+796
+01:29:37,000 --> 01:29:39,000
+ Holz, Holz, Holz.
+
+797
+01:29:39,000 --> 01:29:41,000
+ Ich und mein Holz.
+
+798
+01:29:41,000 --> 01:29:43,000
+ Holz, Holz, Holz.
+
+799
+01:29:43,000 --> 01:29:45,000
+ Holz, Holz, Holz.
+
+800
+01:29:45,000 --> 01:29:48,000
+ Holzberg, Pferd und Reweber, ADG, DL.
+
+801
+01:29:48,000 --> 01:29:51,000
+ Das ist eben tatsächlich unverständlich.
+
+802
+01:29:51,000 --> 01:29:53,000
+ Unverständlich, darum Holz zu tragen.
+
+803
+01:29:53,000 --> 01:29:55,000
+ Nicht jeder Besitzer ist wunderbar.
+
+804
+01:29:55,000 --> 01:29:57,000
+ Und ob das Holz sein kann.
+
+805
+01:29:57,000 --> 01:29:58,380
+ Ich bin ein kleines Gesamtbilder.
+
+806
+01:29:58,380 --> 01:30:03,100
+ Oh, kann er es auch.
+
+807
+01:30:03,100 --> 01:30:04,760
+ Hier werden wir...
+
+808
+01:30:04,760 --> 01:30:06,840
+ ...ist jetzt złoten auch.
+
+809
+01:30:06,840 --> 01:30:10,020
+ Ich und mein Holz, ich und mein Holz.
+
+810
+01:30:10,020 --> 01:30:12,480
+ Holz, die Holz, die Holz.
+
+811
+01:30:12,480 --> 01:30:14,980
+ Ich und mein Holz, mein Holz.
+
+812
+01:30:14,980 --> 01:30:17,000
+ Mein, ich und mein Holz.
+
+813
+01:30:17,000 --> 01:30:20,880
+ Ich und mein Holz, ich und mein Holz.
+
+814
+01:30:20,880 --> 01:30:22,380
+ Ich und mein Holz.
+
+815
+01:30:22,380 --> 01:30:22,880
+ *lacht*
+
+816
+01:30:22,880 --> 01:30:25,840
+ Ich und mein Holz, ich und mein Holz.
+
+817
+01:30:25,840 --> 01:30:27,880
+ Ich und mein Holz.
+
+818
+01:30:27,880 --> 01:30:28,700
+ Holz...
+
+819
+01:30:28,700 --> 01:30:31,440
+ Schau.
+
+820
+01:30:31,440 --> 01:30:34,380
+ Geblieben.
+
+821
+01:30:34,380 --> 01:30:59,380
+ *Musik*
+
+822
+01:31:00,380 --> 01:31:04,380
+ Enttänzen Sie, ich und mein Holz, ich und mein Holz.
+
+823
+01:31:04,380 --> 01:31:06,380
+ Holz, die Holz, die Holz.
+
+824
+01:31:06,380 --> 01:31:09,380
+ Ich und mein Holz, mein Holz.
+
+825
+01:31:09,380 --> 01:31:11,380
+ Mein, ich und mein Holz.
+
+826
+01:31:11,380 --> 01:31:15,380
+ Ich und mein Holz, ich und mein Holz.
+
+827
+01:31:15,380 --> 01:31:17,380
+ Holz, die Holz, die Holz.
+
+828
+01:31:17,380 --> 01:31:20,380
+ Ich und mein Holz, ich und mein Holz.
+
+829
+01:31:20,380 --> 01:31:22,380
+ Mein, ich und mein Holz.
+
+830
+01:31:22,380 --> 01:31:37,380
+ *Musik*
+
+831
+01:31:37,380 --> 01:31:38,380
+ Holz, die...
+
+832
+01:31:38,380 --> 01:31:39,380
+ Vielen Dank, meine Helfer.
+
+833
+01:31:39,380 --> 01:31:44,380
+ *Applaus*
+
+834
+01:31:44,380 --> 01:31:45,380
+ Danke.
+
+835
+01:31:45,380 --> 01:31:51,380
+ *Musik*
+
+836
+01:31:51,380 --> 01:31:53,380
+ Das war der nicht einfach tun.
+
+837
+01:31:53,380 --> 01:31:54,380
+ Einfach tun, einfach machen.
+
+838
+01:31:54,380 --> 01:31:55,380
+ Kein Problem.
+
+839
+01:31:55,380 --> 01:31:56,380
+ Wir danken dir.
+
+840
+01:31:56,380 --> 01:31:57,380
+ Wir danken dir.
+
+841
+01:31:57,380 --> 01:32:02,380
+ Das ist natürlich gut, dass wir jetzt die nächste Wette vorbereitet haben und jetzt hier alles voller Holz geben.
+
+842
+01:32:02,380 --> 01:32:03,380
+ Ja, wir haben alles voller Holz.
+
+843
+01:32:03,380 --> 01:32:06,380
+ Das ist suboptimal gelaufen, hätten wir auch mit rechnen können.
+
+844
+01:32:06,380 --> 01:32:07,380
+ Aber gut, was willst du machen?
+
+845
+01:32:07,380 --> 01:32:12,380
+ Wir räumen mal ein bisschen von der Deko an der Seite und dann müssen wir die nächste Wette vorbereiten.
+
+846
+01:32:12,380 --> 01:32:14,380
+ Soll ich den Puppe schon mal auf der Bühne holen?
+
+847
+01:32:14,380 --> 01:32:15,380
+ Na, hol den Puppe schon mal auf der Bühne.
+
+848
+01:32:15,380 --> 01:32:17,380
+ Also ich hole den Puppe mal auf der Bühne.
+
+849
+01:32:17,380 --> 01:32:19,380
+ Puppe, komm mal auf die Bühne.
+
+850
+01:32:19,380 --> 01:32:23,380
+ Puppe kennt ihr auch aus dem Umfeld hier, der macht sehr, sehr...
+
+851
+01:32:23,380 --> 01:32:30,380
+ *Musik*
+
+852
+01:32:30,380 --> 01:32:34,380
+ Test eins, test zwei, test drei, test vier, schon steht das Christkind vor der Tür.
+
+853
+01:32:34,380 --> 01:32:35,380
+ Wow, es geht.
+
+854
+01:32:35,380 --> 01:32:37,380
+ Puppe, Puppe, Puppe, Puppe, Puppe, das ist immer noch mein Job.
+
+855
+01:32:37,380 --> 01:32:38,380
+ Du stellst dich hier hin.
+
+856
+01:32:38,380 --> 01:32:45,380
+ So, Puppe, dich kennen die Leute, du bist auch schon lange im Chaos-Umfeld tätig und du heraldest auch sehr gerne.
+
+857
+01:32:45,380 --> 01:32:47,380
+ Ich habe dich hier auch schon auf der Bühne gesehen.
+
+858
+01:32:47,380 --> 01:32:49,380
+ Das kann sein, natürlich.
+
+859
+01:32:49,380 --> 01:32:52,380
+ So, erzähl uns doch mal, was hast du uns hier mitgebracht?
+
+860
+01:32:52,380 --> 01:32:54,380
+ Ach so, oh, ah, öh.
+
+861
+01:32:54,380 --> 01:32:56,380
+ Also ja, es ist mir eine riesige Freude und Ehre.
+
+862
+01:32:56,380 --> 01:33:01,380
+ Also viele von uns haben ja, ihr wisst, Kabelsalat ist gesund.
+
+863
+01:33:01,380 --> 01:33:09,380
+ Und mit 50 Jahren hat man halt in seinem ganzen Leben schon so ein, zwei Kabel mit sich mitgeschräbt und meistens vielleicht auch gar nicht weggeworfen.
+
+864
+01:33:09,380 --> 01:33:12,380
+ Und ich weiß nicht, gibt es irgendwie so eine Close-Up von der Kamera?
+
+865
+01:33:12,380 --> 01:33:21,380
+ In der Pandemie war ich plötzlich allein zu Hause und da kommt man halt auf Ideen, lass doch mal die Kabel sortieren, weil man hatte irgendwie extrem viel Zeit.
+
+866
+01:33:21,380 --> 01:33:29,380
+ Und dann war einfach klar, setze ich die mal ein und erst mal supergeil hier mit eurer wetten das mache ich so, wie kann ich hier was einreichen?
+
+867
+01:33:29,380 --> 01:33:31,380
+ Hacken das, hacken das, hacken das, hacken das.
+
+868
+01:33:31,380 --> 01:33:35,380
+ Weil hier sind ja eigentlich nur Profis, die irgendwas können, das bin ich ja gar nicht.
+
+869
+01:33:35,380 --> 01:33:40,380
+ Aber dann habe ich gehört, wenn man so die Augen zu macht und an wetten das denkt, ist doch klar, was wisst ihr noch alle?
+
+870
+01:33:40,380 --> 01:33:46,380
+ Die Buntstiftwette, wo wie heißt es jemand mit dem Mund erkennt hat, was für eine Farbenbuntstift hatte.
+
+871
+01:33:46,380 --> 01:33:49,380
+ Und wer kann sich daran nicht erinnern?
+
+872
+01:33:49,380 --> 01:33:55,380
+ Und im Endeffekt war es ja so, wie ist ein Motto vom Chaos Computer Club, wer weiß es, irgendwas mit Kabeln?
+
+873
+01:33:55,380 --> 01:33:58,380
+ Kabelsalat ist gesund.
+
+874
+01:33:58,380 --> 01:34:04,380
+ Und im Endeffekt ist es so, man muss mal gucken, wenn man gesund ist, kann man es ja auch essen, kann man es probieren, mal gucken wie es schmeckt.
+
+875
+01:34:04,380 --> 01:34:07,380
+ Und deshalb ist folgende Wette.
+
+876
+01:34:07,380 --> 01:34:11,380
+ Okay, also folgende Wette, dann erzähl du einfach weiter, ich will dir gar nicht ins Wort fahren.
+
+877
+01:34:11,380 --> 01:34:13,380
+ Die Wette war eigentlich ganz einfach.
+
+878
+01:34:13,380 --> 01:34:24,380
+ Ich erkenne ohne die Hände, ohne die Augen, also ohne viel Sensorik, außer mit dem Mund, sprich Lippe und Zunge, was ist für ein, ich nenne es mal Device.
+
+879
+01:34:24,380 --> 01:34:28,380
+ Wir hatten so eine Diskussion zum Thema, ist es ein Adapter, ein Stecker oder ein Lecker?
+
+880
+01:34:28,380 --> 01:34:34,380
+ Also wir müssen, du hättest gerne, du hättest nicht nur an einem Ende gerne getastet.
+
+881
+01:34:34,380 --> 01:34:35,380
+ Genau.
+
+882
+01:34:35,380 --> 01:34:39,380
+ Mit deiner Zunge ertastet, sondern du hättest gerne beide Enden ertastet.
+
+883
+01:34:39,380 --> 01:34:40,380
+ Genau.
+
+884
+01:34:40,380 --> 01:34:43,380
+ Und erzählst uns dann noch eine Geschichte zu dem Kabel.
+
+885
+01:34:43,380 --> 01:34:57,380
+ Wenn es ein Kabel ist, also zu manchen habe ich wirklich eine Beziehung, das hört sich vielleicht ein bisschen komisch an, aber ich weiß nicht, ohne zu viel zu spoilern, aber bei einigen Sachen kamen wirklich Erinnerungen hoch.
+
+886
+01:34:57,380 --> 01:35:05,380
+ Und dann ... Aber wir haben vorgesorgt, wir haben uns um deine Sicherheit geklutscht.
+
+887
+01:35:05,380 --> 01:35:20,380
+ Moment, Moment, Moment, Moment, also wir haben hier scharfkantige Sachen, wir haben das Zert informiert, habt ihr den, das war ganz ganz wichtig, Amputat Zunge.
+
+888
+01:35:20,380 --> 01:35:29,380
+ Das ist ein gekühlter, ich weiß nicht wie sowas funktioniert, das ist gekühlt, die wird dann direkt vor Ort fachmännisch getrennt, dass sie dann hinten ...
+
+889
+01:35:29,380 --> 01:35:31,380
+ Ah, Lanzler im Reichsbereich.
+
+890
+01:35:31,380 --> 01:35:34,380
+ Zedenig, du wirst ja wahrscheinlich ... Also hier kann nichts ...
+
+891
+01:35:34,380 --> 01:35:36,380
+ Das kann ich dann morgen auf meinem Brötchen haben.
+
+892
+01:35:36,380 --> 01:35:47,380
+ Nein, dann nimmst du keine, so auch hier, ich würde da nicht, aber gut, wenn du willst, wie gesagt, wir haben für medizinische Hilfe gesorgt, falls das passiert, der Amputationsbeutel Zunge liegt parat.
+
+893
+01:35:47,380 --> 01:35:50,380
+ Und wir danken dem Zert auf jeden Fall für den Einsatz.
+
+894
+01:35:50,380 --> 01:35:52,380
+ Applaus, Applaus, Applaus.
+
+895
+01:35:52,380 --> 01:36:08,380
+ Wir würden dir jetzt die Augen verbinden, Anna wird dann mit der Kiste rüber gehen an unsere Gäste und wir suchen uns da einfach fünf Kabel aus, oder sechs? Nein fünf.
+
+896
+01:36:08,380 --> 01:36:09,380
+ Ne, so viele Gäste.
+
+897
+01:36:09,380 --> 01:36:10,380
+ Vier von fünf.
+
+898
+01:36:10,380 --> 01:36:22,380
+ In was für einer Zeit? Wir haben keine Zeit. Nein, wir haben Zeit, aber nicht so viel. Also du musst dich dann schon beeilen.
+
+899
+01:36:22,380 --> 01:36:27,380
+ Was wäre eine Hacken-das-Sendung ohne richtige Brille mitgedürgen?
+
+900
+01:36:27,380 --> 01:36:29,380
+ Setz doch mal auf, ich nehme das Mikro mal ab hier.
+
+901
+01:36:29,380 --> 01:36:31,380
+ Hier haben wir extra weitergestellt.
+
+902
+01:36:31,380 --> 01:36:35,380
+ So.
+
+903
+01:36:35,380 --> 01:36:36,380
+ Ja, okay.
+
+904
+01:36:36,380 --> 01:36:39,380
+ Macht das einen guten Eindruck?
+
+905
+01:36:39,380 --> 01:36:41,380
+ Siehst du noch was?
+
+906
+01:36:41,380 --> 01:36:43,380
+ Wenn ich jetzt Ja sage, ist die Sendung kaputt.
+
+907
+01:36:43,380 --> 01:36:44,380
+ Ah ja, siehst du noch was?
+
+908
+01:36:44,380 --> 01:36:45,380
+ Nein.
+
+909
+01:36:45,380 --> 01:36:46,380
+ Dann ist ja gut.
+
+910
+01:36:46,380 --> 01:36:58,380
+ Okay, dann gehen wir jetzt durchs Publikum. Zwei Menschen aus dem Publikum sind wahrscheinlich gerade austreten. Oder weg. Vielleicht auch weggelaufen. Dann reuen Sie ein.
+
+911
+01:36:58,380 --> 01:36:59,380
+ Mit der, mit der, mit der.
+
+912
+01:36:59,380 --> 01:37:01,380
+ Ja, gut, wenn ein Mikrofon so einfach im Mund ist.
+
+913
+01:37:01,380 --> 01:37:02,380
+ Hallo, hallo.
+
+914
+01:37:02,380 --> 01:37:04,380
+ Ich stehe hier neben dir.
+
+915
+01:37:04,380 --> 01:37:08,380
+ Dann nehme ich das mit und stelle das schon mal auf die Bühne.
+
+916
+01:37:08,380 --> 01:37:14,380
+ Auf die Bühne, da steht auch drauf, was es ist, damit wir das aufwisten, weil ich habe nämlich nicht von jedem Kabel eine Ahnung, was es ist.
+
+917
+01:37:14,380 --> 01:37:16,380
+ Nee, ich auch nicht. Aber das ist auch nicht wichtig.
+
+918
+01:37:16,380 --> 01:37:19,380
+ Dann hol die, ziehe eine weitere Klopapierrolle.
+
+919
+01:37:19,380 --> 01:37:23,380
+ Ja, die sehen die mit den Klopapieren.
+
+920
+01:37:23,380 --> 01:37:33,380
+ Ja, die war grandios. Du hattest lange Wahl in der Pandemie, sagtest du. Du hast dich hingesetzt. Du hast das ganze Klopapier also gekauft.
+
+921
+01:37:33,380 --> 01:37:36,380
+ Du hast also das ganze Klopapier gekauft, hast dich dann dahingesetzt.
+
+922
+01:37:36,380 --> 01:37:40,380
+ Ich habe nur die Rolle genommen. Das Papier habe ich wieder gespendet und die Rolle habe ich dann leer.
+
+923
+01:37:40,380 --> 01:37:44,380
+ Okay. Tomatensoße, Nudeln, hatten Sie Sorgen noch im Haus?
+
+924
+01:37:44,380 --> 01:37:47,380
+ Ihr wollt das wirklich nicht wissen?
+
+925
+01:37:47,380 --> 01:37:57,380
+ Also eine Geschichte ist lustig. Ich hatte halt Angst, dass es nichts mehr zu essen gibt und habe mir dann ein Hanfbeleuchtungssystem besorgt, um Salat in meinem Wohnung zu machen.
+
+926
+01:37:57,380 --> 01:38:02,380
+ Wenn es keinen Salat und kein Gemüse mehr gibt, habe ich jetzt aber seitdem.
+
+927
+01:38:02,380 --> 01:38:07,380
+ Also wenn jemand was growen möchte, ich habe eine sehr große LED-Installationssache zu Hause.
+
+928
+01:38:07,380 --> 01:38:12,380
+ Ich habe zwei Hälfte verloren, deshalb lassen wir jetzt das Zert ziehen.
+
+929
+01:38:12,380 --> 01:38:19,380
+ Genau, die Zert. Nehmt etwas Scharfes. Wenn ihr schon hier seid, dann nehmt da so ein großer, richtig Scharfkantiger.
+
+930
+01:38:19,380 --> 01:38:23,380
+ Und wir haben auch eine Close-Up-Kamera, damit wir das sehen.
+
+931
+01:38:23,380 --> 01:38:28,380
+ Wir sind nach 24 Uhr, wir können das auch im Fernsehen zeigen, auch wenn nicht in Jena und Ilmenau.
+
+932
+01:38:28,380 --> 01:38:32,380
+ Aber immerhin. Ich habe schon drei Sachen hier stehen.
+
+933
+01:38:32,380 --> 01:38:35,380
+ Einen brauchen wir noch und dann können wir nämlich loslegen.
+
+934
+01:38:35,380 --> 01:38:39,380
+ Aber jetzt frage ich jetzt erstmal die Katascha. Katascha, du bist ja Web-Party.
+
+935
+01:38:39,380 --> 01:38:43,380
+ Was sagst du? Schafft er das?
+
+936
+01:38:43,380 --> 01:38:44,380
+ Ja.
+
+937
+01:38:44,380 --> 01:38:46,380
+ Also Katascha sagt ja.
+
+938
+01:38:46,380 --> 01:38:52,380
+ Ja, denn ich bin gestern noch über einen Campingplatz gelaufen und dann habe ich komische Szenen gesehen.
+
+939
+01:38:52,380 --> 01:38:54,380
+ Also du hast ja...
+
+940
+01:38:54,380 --> 01:39:01,380
+ Sagen wir mal so, ich glaube er hat viel trainiert. Das ist der Punkt.
+
+941
+01:39:01,380 --> 01:39:03,380
+ Hast du viel trainiert?
+
+942
+01:39:03,380 --> 01:39:07,380
+ Ich bin so scheiße ehrgeizig, wenn ich in dem Wetter abkriege, ja.
+
+943
+01:39:07,380 --> 01:39:18,380
+ Aber ich muss dazu sagen, ich habe so viel gelernt in den letzten zwei Tagen über Kabel, die ich seit Jahren benutze, aber eigentlich nie richtig wusste.
+
+944
+01:39:18,380 --> 01:39:20,380
+ Also dieses Thema Dienststecker ist schon...
+
+945
+01:39:20,380 --> 01:39:22,380
+ Red dich mal zum Publikum, du Kutz.
+
+946
+01:39:22,380 --> 01:39:24,380
+ Du hast eine Tabelle gemacht.
+
+947
+01:39:24,380 --> 01:39:28,380
+ So, wir fangen an mit dem ersten Kabel, würde ich sagen.
+
+948
+01:39:28,380 --> 01:39:32,380
+ Aber warte mal, stopp. Bevor ich was proben kann, muss ich den Mundraum neutralisieren.
+
+949
+01:39:32,380 --> 01:39:37,380
+ Bitte mir einmal so ein UFO da geben, damit die Party dann auch steigen kann.
+
+950
+01:39:37,380 --> 01:39:38,380
+ Du willst mit einem...
+
+951
+01:39:38,380 --> 01:39:39,380
+ Du hast eine Oplate.
+
+952
+01:39:39,380 --> 01:39:40,380
+ Ja.
+
+953
+01:39:40,380 --> 01:39:43,380
+ Ein Brausezim. Was hast du da drin?
+
+954
+01:39:43,380 --> 01:39:46,380
+ Lecker, lecker. Warum an der Stelle?
+
+955
+01:39:46,380 --> 01:39:50,380
+ Jetzt bin ich nämlich, habe ich einen EU-Dinorm Mund, sehr gut.
+
+956
+01:39:50,380 --> 01:39:52,380
+ So, dann würde ich dir jetzt...
+
+957
+01:39:52,380 --> 01:39:56,380
+ Ja, du müsstest natürlich etwas in die Knie gehen, weil das ist sehr...
+
+958
+01:39:56,380 --> 01:39:57,380
+ Nein, nein, ich würde das halten.
+
+959
+01:39:57,380 --> 01:39:59,380
+ Ich darf ja nicht mit der Hand.
+
+960
+01:39:59,380 --> 01:40:01,380
+ Ach, du würdest das halten?
+
+961
+01:40:01,380 --> 01:40:02,380
+ Ich würde das einführen, ja.
+
+962
+01:40:02,380 --> 01:40:04,380
+ Okay, du würdest das halten.
+
+963
+01:40:04,380 --> 01:40:06,380
+ Also gucke ich jetzt nach vorne, oder was?
+
+964
+01:40:06,380 --> 01:40:07,380
+ Ja, du guckst in die richtige Richtung.
+
+965
+01:40:07,380 --> 01:40:11,380
+ Und wir würden dir jetzt das erste...
+
+966
+01:40:11,380 --> 01:40:16,380
+ Habt ihr das... seht ihr das?
+
+967
+01:40:16,380 --> 01:40:18,380
+ Und wir müssen die andere Seite?
+
+968
+01:40:18,380 --> 01:40:19,380
+ Ja, ja.
+
+969
+01:40:19,380 --> 01:40:20,380
+ Okay.
+
+970
+01:40:20,380 --> 01:40:34,380
+ Warum habe ich mich dazu nur breitschlagen lassen?
+
+971
+01:40:34,380 --> 01:40:35,380
+ Ich hab's, ich hab's.
+
+972
+01:40:35,380 --> 01:40:36,380
+ Okay.
+
+973
+01:40:36,380 --> 01:40:37,380
+ Du hast es.
+
+974
+01:40:37,380 --> 01:40:38,380
+ Du hast es.
+
+975
+01:40:38,380 --> 01:40:44,380
+ Das ist Thunderbolt 1-2 auf RJ45 Netzwerk.
+
+976
+01:40:44,380 --> 01:40:45,380
+ Gut.
+
+977
+01:40:45,380 --> 01:40:47,380
+ Darf ich dir das zweite...
+
+978
+01:40:47,380 --> 01:41:00,380
+ Wir spannen das nächste Kabel ein.
+
+979
+01:41:00,380 --> 01:41:03,380
+ So, äh, zweite Kabel.
+
+980
+01:41:03,380 --> 01:41:08,380
+ Das zweite Kabel, ja.
+
+981
+01:41:08,380 --> 01:41:15,380
+ Also, wir müssen mal soviel den Puppe ein bisschen besser mikrofonieren und auch die Klopapierrollen ein bisschen mehr in die Kamera drehen.
+
+982
+01:41:15,380 --> 01:41:16,380
+ Ach so.
+
+983
+01:41:16,380 --> 01:41:18,380
+ Ja, warte mal so.
+
+984
+01:41:18,380 --> 01:41:22,380
+ Das ist... ah, hier kann man mal in die Kamera drehen, da kann man mal in die Kamera drehen.
+
+985
+01:41:22,380 --> 01:41:26,380
+ Das ist jetzt das Ding, das läuft, das ist das Ding, das schon richtig erraten wurde.
+
+986
+01:41:26,380 --> 01:41:27,380
+ Ich trau mich das nie anzufassen.
+
+987
+01:41:27,380 --> 01:41:29,380
+ Ich schieb das mal rüber, das Kabel.
+
+988
+01:41:29,380 --> 01:41:32,380
+ So, Puppe, geht los mit dem zweiten.
+
+989
+01:41:32,380 --> 01:41:38,380
+ Ach so, vielleicht sollte man sagen, das sind meine eigenen Kabel und nicht random gespendete.
+
+990
+01:41:38,380 --> 01:41:41,380
+ Aber man muss ja ein bisschen open-minded sein.
+
+991
+01:41:41,380 --> 01:41:42,380
+ Okay, jetzt hier, zack.
+
+992
+01:41:42,380 --> 01:41:43,380
+ Also, du musst halt...
+
+993
+01:41:43,380 --> 01:41:44,380
+ Ne, dreh dich nochmal zum Publikum.
+
+994
+01:41:44,380 --> 01:41:45,380
+ So, die Richtung ist richtig.
+
+995
+01:41:45,380 --> 01:41:46,380
+ Und jetzt, jetzt los, jetzt, jetzt los.
+
+996
+01:41:46,380 --> 01:41:47,380
+ Das geht los.
+
+997
+01:41:47,380 --> 01:41:48,380
+ Oh.
+
+998
+01:41:48,380 --> 01:41:49,380
+ Oh.
+
+999
+01:41:49,380 --> 01:42:00,380
+ Ne, ne, einmal die andere Seite.
+
+1000
+01:42:00,380 --> 01:42:05,380
+ Noch mal bitte zurück.
+
+1001
+01:42:05,380 --> 01:42:06,380
+ Okay.
+
+1002
+01:42:06,380 --> 01:42:13,380
+ Puppe, hast du schon eine Idee?
+
+1003
+01:42:13,380 --> 01:42:26,380
+ Ja, das ist ein DIN-Stecker, 6-polig, 180 Grad, Verlängerung für zum Beispiel Tastaturen.
+
+1004
+01:42:26,380 --> 01:42:30,380
+ Nicht ganz.
+
+1005
+01:42:30,380 --> 01:42:31,380
+ Nein, nein, nein.
+
+1006
+01:42:31,380 --> 01:42:32,380
+ Sag doch mal, du darfst doch am zweiten versuchen.
+
+1007
+01:42:32,380 --> 01:42:35,380
+ Nein, nein, warte, jetzt hab ich...
+
+1008
+01:42:35,380 --> 01:42:36,380
+ Nein.
+
+1009
+01:42:36,380 --> 01:42:37,380
+ So, probier das nochmal.
+
+1010
+01:42:37,380 --> 01:42:38,380
+ Das macht einen Scheiß.
+
+1011
+01:42:38,380 --> 01:42:39,380
+ Es war sein Nah dran.
+
+1012
+01:42:39,380 --> 01:42:41,380
+ Ich glaub, du hast doch einfach nur einen Denkfehler.
+
+1013
+01:42:41,380 --> 01:42:43,380
+ Sag nochmal, wie der Stecker heißt.
+
+1014
+01:42:43,380 --> 01:42:44,380
+ Wie heißt der Stecker?
+
+1015
+01:42:44,380 --> 01:42:55,380
+ Also, das ist auf jeden Fall ein DIN-6-polig, 180 Grad Stecker auf der einen Seite.
+
+1016
+01:42:55,380 --> 01:42:59,380
+ Und auf der anderen Seite kann ich nochmal schmecken oder flecken.
+
+1017
+01:42:59,380 --> 01:43:07,380
+ Henning, dein Mikro sitzt nicht richtig, du musst doch kurz herkommen.
+
+1018
+01:43:07,380 --> 01:43:09,380
+ Ja, warte, ich bin gerade mitten in der Wette.
+
+1019
+01:43:09,380 --> 01:43:10,380
+ Ich weiß noch, wer der ist.
+
+1020
+01:43:10,380 --> 01:43:12,380
+ Ja, aber du musst die Wette kommentieren, der Techniker kommt ja auf die Bühne.
+
+1021
+01:43:12,380 --> 01:43:15,380
+ Ich würde immer noch sagen, das ist ein DIN...
+
+1022
+01:43:15,380 --> 01:43:18,380
+ Warte mal, das sind 5-Pole.
+
+1023
+01:43:18,380 --> 01:43:19,380
+ Warte mal.
+
+1024
+01:43:19,380 --> 01:43:24,380
+ Meine Fresse, Gott sei Dank, dass du da noch...
+
+1025
+01:43:24,380 --> 01:43:31,380
+ Ja, DIN-5-polig, 180 Grad Stecker auf Buchse, sprich Verlängerung.
+
+1026
+01:43:31,380 --> 01:43:32,380
+ Genau.
+
+1027
+01:43:32,380 --> 01:43:35,380
+ So, also das haben wir.
+
+1028
+01:43:35,380 --> 01:43:40,380
+ Mein Gott, ich mein, das weiß ja jeder, dass ein DIN-Stecker nur 5-polig ist.
+
+1029
+01:43:40,380 --> 01:43:43,380
+ Nein, nein, nein, die gibt's in allen Sachen.
+
+1030
+01:43:43,380 --> 01:43:49,380
+ Ihr wollt den, ihr lest mal Wikipedia da drüber, ihr rastet aus.
+
+1031
+01:43:49,380 --> 01:43:51,380
+ So, wir kommen dann zur dritten Geschmackse.
+
+1032
+01:43:51,380 --> 01:43:54,380
+ Das wird ein bisschen herausfordernd, aber wir kriegen das hin.
+
+1033
+01:43:54,380 --> 01:43:55,380
+ Ja, das kriegt ihr auch hin.
+
+1034
+01:43:55,380 --> 01:43:57,380
+ Wo hast du die Hülle?
+
+1035
+01:43:57,380 --> 01:43:59,380
+ Wo hast du die Hülle?
+
+1036
+01:43:59,380 --> 01:44:06,380
+ So, das kommt auf dich zu.
+
+1037
+01:44:06,380 --> 01:44:09,380
+ Herr Ding, wo ist die braune Papiertüte, die ich mir eigentlich über den Kopf ziehen wollte?
+
+1038
+01:44:09,380 --> 01:44:12,380
+ Ja, du musst das Ding ja jetzt auch festhalten.
+
+1039
+01:44:12,380 --> 01:44:13,380
+ Das ist also mit der Papiertüte.
+
+1040
+01:44:13,380 --> 01:44:15,380
+ Dann einmal die andere Seite.
+
+1041
+01:44:15,380 --> 01:44:17,380
+ Die andere Seite ist im Anmarsch.
+
+1042
+01:44:17,380 --> 01:44:37,380
+ Stopp, stopp, stopp.
+
+1043
+01:44:37,380 --> 01:44:40,380
+ Also das ist ein Breitbandkabel, ist es klar?
+
+1044
+01:44:40,380 --> 01:44:42,380
+ Ja, sicher, sicher.
+
+1045
+01:44:42,380 --> 01:44:44,380
+ Ich fordere mal die andere Seite bitte.
+
+1046
+01:44:44,380 --> 01:44:47,380
+ Die andere Seite nochmal, warte, das war das Mikro, schuldigung.
+
+1047
+01:44:47,380 --> 01:44:49,380
+ Hoffentlich haben wir da nicht durcheinander gebracht.
+
+1048
+01:44:49,380 --> 01:44:51,380
+ Also bisher fließt hier noch kein Blut.
+
+1049
+01:44:51,380 --> 01:44:54,380
+ Was hast du denn von der Landflasche rein mitgebracht?
+
+1050
+01:44:54,380 --> 01:44:57,380
+ Aber wir können nachhelfen, ja, das ist eine gute Idee.
+
+1051
+01:44:57,380 --> 01:45:02,380
+ Ja, okay, das ist Breitband, 40-polig.
+
+1052
+01:45:02,380 --> 01:45:04,380
+ Wo ist das Ding denn?
+
+1053
+01:45:04,380 --> 01:45:05,380
+ Ja, ja, ja.
+
+1054
+01:45:05,380 --> 01:45:06,380
+ Ach, das steht da.
+
+1055
+01:45:06,380 --> 01:45:11,380
+ Ein IDE-30-polig IDE-Kabel.
+
+1056
+01:45:11,380 --> 01:45:12,380
+ Das ist korrekt.
+
+1057
+01:45:12,380 --> 01:45:22,380
+ So, das nächste Kabel.
+
+1058
+01:45:22,380 --> 01:45:25,380
+ Ich fasse das nicht an.
+
+1059
+01:45:25,380 --> 01:45:26,380
+ Wie viel haben wir denn jetzt?
+
+1060
+01:45:26,380 --> 01:45:28,380
+ Das hat der schon im Mund gehabt.
+
+1061
+01:45:28,380 --> 01:45:29,380
+ Wie viel haben wir denn jetzt?
+
+1062
+01:45:29,380 --> 01:45:31,380
+ Du bist jetzt bei drei.
+
+1063
+01:45:31,380 --> 01:45:34,380
+ Wenn du den klar machst, dann hast du gewonnen.
+
+1064
+01:45:34,380 --> 01:45:37,380
+ Ich mach's spannend.
+
+1065
+01:45:37,380 --> 01:45:39,380
+ Kann man das sehen?
+
+1066
+01:45:39,380 --> 01:45:42,380
+ Ja, ich bin bereit.
+
+1067
+01:45:42,380 --> 01:45:43,380
+ Du schaffst das.
+
+1068
+01:45:43,380 --> 01:45:44,380
+ Ich bin bereit.
+
+1069
+01:45:44,380 --> 01:45:45,380
+ Mund auf.
+
+1070
+01:45:45,380 --> 01:45:46,380
+ Moment, stopp.
+
+1071
+01:45:46,380 --> 01:45:47,380
+ Es besteht Verletzungsgefahr.
+
+1072
+01:45:47,380 --> 01:45:48,380
+ Vorsichtig.
+
+1073
+01:45:48,380 --> 01:45:49,380
+ Oh ja, da besteht wirklich ein Verletzungsgefahr.
+
+1074
+01:45:49,380 --> 01:45:51,380
+ Hätten wir da eigentlich auch eine Spannung drauf anlegen können?
+
+1075
+01:45:51,380 --> 01:45:55,380
+ Kannst du mal quer machen?
+
+1076
+01:45:55,380 --> 01:45:56,380
+ Ja.
+
+1077
+01:45:56,380 --> 01:46:00,380
+ Dann die Rückseite davon.
+
+1078
+01:46:00,380 --> 01:46:03,380
+ Das ist wirklich ein toller.
+
+1079
+01:46:03,380 --> 01:46:06,380
+ Das ist ein ganz seltener Stecker.
+
+1080
+01:46:06,380 --> 01:46:09,380
+ Nur noch die Veteranen werden sich erkennen.
+
+1081
+01:46:09,380 --> 01:46:13,380
+ Es gab früher so ein Kettenlaufwerkskabel.
+
+1082
+01:46:13,380 --> 01:46:16,380
+ 5,15 und 3,5 Zoll.
+
+1083
+01:46:16,380 --> 01:46:18,380
+ Und 5,15 war so gedreht.
+
+1084
+01:46:18,380 --> 01:46:21,380
+ Und das ist ein Adapterstecker.
+
+1085
+01:46:21,380 --> 01:46:25,380
+ Um in ein Kabel, wo eigentlich ein 5,15 Laufwerk reinkommt.
+
+1086
+01:46:25,380 --> 01:46:29,380
+ Zum Beispiel entweder ein 3,5 Zoll Kettenlaufwerk.
+
+1087
+01:46:29,380 --> 01:46:32,380
+ Oder es gab auch Streamer, die das brauchten.
+
+1088
+01:46:32,380 --> 01:46:34,380
+ Ich glaube, Quick 40 Streamer wurden irgendwann.
+
+1089
+01:46:34,380 --> 01:46:36,380
+ Und wie heißt das Kabel jetzt richtig?
+
+1090
+01:46:36,380 --> 01:46:38,380
+ Das ist ein Adapter.
+
+1091
+01:46:38,380 --> 01:46:40,380
+ Entschuldigung, wie heißt der Adapter richtig?
+
+1092
+01:46:40,380 --> 01:46:42,380
+ Was steht da auf der Rolle drauf?
+
+1093
+01:46:42,380 --> 01:46:55,380
+ Da würde ich sagen, Floppy 3,5 auf 5,15 Kabel.
+
+1094
+01:46:55,380 --> 01:46:56,380
+ Steht da drauf.
+
+1095
+01:46:56,380 --> 01:46:58,380
+ Ja, das ist wohl richtig.
+
+1096
+01:46:58,380 --> 01:46:59,380
+ Wir können ja...
+
+1097
+01:46:59,380 --> 01:47:02,380
+ Wolltest du dich jetzt auch noch richtig beweisen,
+
+1098
+01:47:02,380 --> 01:47:03,380
+ dass du drauf hast?
+
+1099
+01:47:03,380 --> 01:47:07,380
+ Ich dachte ehrlich, dass ihr so ein Gardener irgendwas vorgemacht hättet.
+
+1100
+01:47:07,380 --> 01:47:09,380
+ Damit hatte ich schon gerechnet.
+
+1101
+01:47:09,380 --> 01:47:12,380
+ Sind wir glücklich, oder sollen wir noch eins ertasten lassen?
+
+1102
+01:47:12,380 --> 01:47:14,380
+ Wir sind schon spät in der Lupe.
+
+1103
+01:47:14,380 --> 01:47:16,380
+ Einer geht doch noch, oder?
+
+1104
+01:47:16,380 --> 01:47:18,380
+ Wir sind schon spät in der Lupe.
+
+1105
+01:47:18,380 --> 01:47:20,380
+ Wir sind schon spät in der Lupe.
+
+1106
+01:47:20,380 --> 01:47:22,380
+ Wir sind schon spät in der Lupe.
+
+1107
+01:47:22,380 --> 01:47:24,380
+ Wir sind schon spät in der Lupe.
+
+1108
+01:47:24,380 --> 01:47:26,380
+ Wir sind schon spät in der Lupe.
+
+1109
+01:47:26,380 --> 01:47:28,380
+ Wir sind schon spät in der Lupe.
+
+1110
+01:47:28,380 --> 01:47:30,380
+ Wir sind schon spät in der Lupe.
+
+1111
+01:47:30,380 --> 01:47:32,380
+ Wir sind schon spät in der Lupe.
+
+1112
+01:47:32,380 --> 01:47:34,380
+ Wir sind schon spät in der Lupe.
+
+1113
+01:47:34,380 --> 01:47:36,380
+ Wir sind schon spät in der Lupe.
+
+1114
+01:47:36,380 --> 01:47:38,380
+ Wir sind schon spät in der Lupe.
+
+1115
+01:47:38,380 --> 01:47:40,380
+ Wir sind schon spät in der Lupe.
+
+1116
+01:47:40,380 --> 01:47:42,380
+ Wir sind schon spät in der Lupe.
+
+1117
+01:47:42,380 --> 01:47:44,380
+ Wir sind schon spät in der Lupe.
+
+1118
+01:47:44,380 --> 01:47:46,380
+ Wir sind schon spät in der Lupe.
+
+1119
+01:47:46,380 --> 01:47:48,380
+ Wir sind schon spät in der Lupe.
+
+1120
+01:47:48,380 --> 01:47:50,380
+ Wir sind schon spät in der Lupe.
+
+1121
+01:47:50,380 --> 01:47:52,380
+ Wir sind schon spät in der Lupe.
+
+1122
+01:47:52,380 --> 01:47:54,380
+ Wir sind schon spät in der Lupe.
+
+1123
+01:47:54,380 --> 01:47:56,380
+ Wir sind schon spät in der Lupe.
+
+1124
+01:47:56,380 --> 01:47:58,380
+ Wir sind schon spät in der Lupe.
+
+1125
+01:47:58,380 --> 01:48:00,380
+ Wir sind schon spät in der Lupe.
+
+1126
+01:48:00,380 --> 01:48:02,380
+ Wir sind schon spät in der Lupe.
+
+1127
+01:48:02,380 --> 01:48:04,380
+ Wir sind schon spät in der Lupe.
+
+1128
+01:48:04,380 --> 01:48:06,380
+ Wir sind schon spät in der Lupe.
+
+1129
+01:48:06,380 --> 01:48:08,380
+ Wir sind schon spät in der Lupe.
+
+1130
+01:48:08,380 --> 01:48:10,380
+ Wir sind schon spät in der Lupe.
+
+1131
+01:48:10,380 --> 01:48:12,380
+ Wir sind schon spät in der Lupe.
+
+1132
+01:48:12,380 --> 01:48:14,380
+ Wir sind schon spät in der Lupe.
+
+1133
+01:48:14,380 --> 01:48:16,380
+ Wir sind schon spät in der Lupe.
+
+1134
+01:48:16,380 --> 01:48:18,380
+ Wir sind schon spät in der Lupe.
+
+1135
+01:48:18,380 --> 01:48:20,380
+ Wir sind schon spät in der Lupe.
+
+1136
+01:48:20,380 --> 01:48:22,380
+ Wir sind schon spät in der Lupe.
+
+1137
+01:48:22,380 --> 01:48:24,380
+ Wir sind schon spät in der Lupe.
+
+1138
+01:48:24,380 --> 01:48:26,380
+ Wir sind schon spät in der Lupe.
+
+1139
+01:48:26,380 --> 01:48:28,380
+ Wir sind schon spät in der Lupe.
+
+1140
+01:48:28,380 --> 01:48:30,380
+ Wir sind schon spät in der Lupe.
+
+1141
+01:48:30,380 --> 01:48:32,380
+ Wir sind schon spät in der Lupe.
+
+1142
+01:48:32,380 --> 01:48:34,380
+ Wir sind schon spät in der Lupe.
+
+1143
+01:48:34,380 --> 01:48:36,380
+ Wir sind schon spät in der Lupe.
+
+1144
+01:48:36,380 --> 01:48:38,380
+ Wir sind schon spät in der Lupe.
+
+1145
+01:48:38,380 --> 01:48:40,380
+ Wir sind schon spät in der Lupe.
+
+1146
+01:48:40,380 --> 01:48:42,380
+ Wir sind schon spät in der Lupe.
+
+1147
+01:48:42,380 --> 01:48:44,380
+ Wir sind schon spät in der Lupe.
+
+1148
+01:48:44,380 --> 01:48:46,380
+ Wir sind schon spät in der Lupe.
+
+1149
+01:48:46,380 --> 01:48:48,380
+ Wir sind schon spät in der Lupe.
+
+1150
+01:48:48,380 --> 01:48:50,380
+ Wir sind schon spät in der Lupe.
+
+1151
+01:48:50,380 --> 01:48:52,380
+ Wir sind schon spät in der Lupe.
+
+1152
+01:48:52,380 --> 01:48:54,380
+ Wir sind schon spät in der Lupe.
+
+1153
+01:48:54,380 --> 01:48:56,380
+ Wir sind schon spät in der Lupe.
+
+1154
+01:48:56,380 --> 01:48:58,380
+ Wir sind schon spät in der Lupe.
+
+1155
+01:48:58,380 --> 01:49:00,380
+ Wir sind schon spät in der Lupe.
+
+1156
+01:49:00,380 --> 01:49:02,380
+ Wir sind schon spät in der Lupe.
+
+1157
+01:49:02,380 --> 01:49:04,380
+ Wir sind schon spät in der Lupe.
+
+1158
+01:49:04,380 --> 01:49:06,380
+ Wir sind schon spät in der Lupe.
+
+1159
+01:49:06,380 --> 01:49:08,380
+ Wir sind schon spät in der Lupe.
+
+1160
+01:49:08,380 --> 01:49:10,380
+ Wir sind schon spät in der Lupe.
+
+1161
+01:49:10,380 --> 01:49:12,380
+ Wir sind schon spät in der Lupe.
+
+1162
+01:49:12,380 --> 01:49:14,380
+ Wir sind schon spät in der Lupe.
+
+1163
+01:49:14,380 --> 01:49:16,380
+ Wir sind schon spät in der Lupe.
+
+1164
+01:49:16,380 --> 01:49:18,380
+ Wir sind schon spät in der Lupe.
+
+1165
+01:49:18,380 --> 01:49:20,380
+ Wir sind schon spät in der Lupe.
+
+1166
+01:49:20,380 --> 01:49:22,380
+ Wir sind schon spät in der Lupe.
+
+1167
+01:49:22,380 --> 01:49:24,380
+ Wir sind schon spät in der Lupe.
+
+1168
+01:49:24,380 --> 01:49:26,380
+ Wir sind schon spät in der Lupe.
+
+1169
+01:49:26,380 --> 01:49:28,380
+ Wir sind schon spät in der Lupe.
+
+1170
+01:49:28,380 --> 01:49:30,380
+ Wir sind schon spät in der Lupe.
+
+1171
+01:49:30,380 --> 01:49:32,380
+ Wir sind schon spät in der Lupe.
+
+1172
+01:49:32,380 --> 01:49:34,380
+ Wir sind schon spät in der Lupe.
+
+1173
+01:49:34,380 --> 01:49:36,380
+ Wir sind schon spät in der Lupe.
+
+1174
+01:49:36,380 --> 01:49:38,380
+ Wir sind schon spät in der Lupe.
+
+1175
+01:49:38,380 --> 01:49:40,380
+ Wir sind schon spät in der Lupe.
+
+1176
+01:49:40,380 --> 01:49:42,380
+ Wir sind schon spät in der Lupe.
+
+1177
+01:49:42,380 --> 01:49:44,380
+ Wir sind schon spät in der Lupe.
+
+1178
+01:49:44,380 --> 01:49:46,380
+ Wir sind schon spät in der Lupe.
+
+1179
+01:49:46,380 --> 01:49:48,380
+ Wir sind schon spät in der Lupe.
+
+1180
+01:49:48,380 --> 01:49:50,380
+ Wir sind schon spät in der Lupe.
+
+1181
+01:49:50,380 --> 01:49:52,380
+ Wir sind schon spät in der Lupe.
+
+1182
+01:49:52,380 --> 01:49:54,380
+ Wir sind schon spät in der Lupe.
+
+1183
+01:49:54,380 --> 01:49:56,380
+ Wir sind schon spät in der Lupe.
+
+1184
+01:49:56,380 --> 01:49:58,380
+ Wir sind schon spät in der Lupe.
+
+1185
+01:49:58,380 --> 01:50:00,380
+ Wir sind schon spät in der Lupe.
+
+1186
+01:50:00,380 --> 01:50:02,380
+ Wir sind schon spät in der Lupe.
+
+1187
+01:50:02,380 --> 01:50:04,380
+ Wir sind schon spät in der Lupe.
+
+1188
+01:50:04,380 --> 01:50:06,380
+ Wir sind schon spät in der Lupe.
+
+1189
+01:50:06,380 --> 01:50:08,380
+ Wir sind schon spät in der Lupe.
+
+1190
+01:50:08,380 --> 01:50:10,380
+ Wir sind schon spät in der Lupe.
+
+1191
+01:50:10,380 --> 01:50:12,380
+ Wir sind schon spät in der Lupe.
+
+1192
+01:50:12,380 --> 01:50:14,380
+ Wir sind schon spät in der Lupe.
+
+1193
+01:50:14,380 --> 01:50:16,380
+ Wir sind schon spät in der Lupe.
+
+1194
+01:50:16,380 --> 01:50:18,380
+ Wir sind schon spät in der Lupe.
+
+1195
+01:50:18,380 --> 01:50:20,380
+ Wir sind schon spät in der Lupe.
+
+1196
+01:50:20,380 --> 01:50:22,380
+ Wir sind schon spät in der Lupe.
+
+1197
+01:50:22,380 --> 01:50:24,380
+ Wir sind schon spät in der Lupe.
+
+1198
+01:50:24,380 --> 01:50:26,380
+ Wir sind schon spät in der Lupe.
+
+1199
+01:50:26,380 --> 01:50:28,380
+ Wir sind schon spät in der Lupe.
+
+1200
+01:50:28,380 --> 01:50:30,380
+ Wir sind schon spät in der Lupe.
+
+1201
+01:50:30,380 --> 01:50:32,380
+ Wir sind schon spät in der Lupe.
+
+1202
+01:50:32,380 --> 01:50:34,380
+ Wir sind schon spät in der Lupe.
+
+1203
+01:50:34,380 --> 01:50:36,380
+ Wir sind schon spät in der Lupe.
+
+1204
+01:50:36,380 --> 01:50:38,380
+ Wir sind schon spät in der Lupe.
+
+1205
+01:50:38,380 --> 01:50:40,380
+ Wir sind schon spät in der Lupe.
+
+1206
+01:50:40,380 --> 01:50:42,380
+ Wir sind schon spät in der Lupe.
+
+1207
+01:50:42,380 --> 01:50:44,380
+ Wir sind schon spät in der Lupe.
+
+1208
+01:50:44,380 --> 01:50:46,380
+ Wir sind schon spät in der Lupe.
+
+1209
+01:50:46,380 --> 01:50:48,380
+ Wir sind schon spät in der Lupe.
+
+1210
+01:50:48,380 --> 01:50:50,380
+ Wir sind schon spät in der Lupe.
+
+1211
+01:50:50,380 --> 01:50:52,380
+ Wir sind schon spät in der Lupe.
+
+1212
+01:50:52,380 --> 01:50:54,380
+ Wir sind schon spät in der Lupe.
+
+1213
+01:50:54,380 --> 01:50:56,380
+ Wir sind schon spät in der Lupe.
+
+1214
+01:50:56,380 --> 01:50:58,380
+ Wir sind schon spät in der Lupe.
+
+1215
+01:50:58,380 --> 01:51:00,380
+ Wir sind schon spät in der Lupe.
+
+1216
+01:51:00,380 --> 01:51:02,380
+ Wir sind schon spät in der Lupe.
+
+1217
+01:51:02,380 --> 01:51:04,380
+ Wir sind schon spät in der Lupe.
+
+1218
+01:51:04,380 --> 01:51:06,380
+ Wir sind schon spät in der Lupe.
+
+1219
+01:51:06,380 --> 01:51:08,380
+ Wir sind schon spät in der Lupe.
+
+1220
+01:51:08,380 --> 01:51:10,380
+ Wir sind schon spät in der Lupe.
+
+1221
+01:51:10,380 --> 01:51:12,380
+ Wir haben der Couch da keine Gummibär hingestellt.
+
+1222
+01:51:12,380 --> 01:51:14,380
+ Wir haben der Couch da keine Gummibär hingestellt.
+
+1223
+01:51:14,380 --> 01:51:16,380
+ So.
+
+1224
+01:51:16,380 --> 01:51:18,380
+ So.
+
+1225
+01:51:18,380 --> 01:51:20,380
+ Wir gehen nochmal ganz kurz im Schnelldurchlauf
+
+1226
+01:51:20,380 --> 01:51:22,380
+ alle Wetten durch.
+
+1227
+01:51:22,380 --> 01:51:24,380
+ Es gab eine Wetterfax-Wette von Christian.
+
+1228
+01:51:24,380 --> 01:51:26,380
+ Es gab eine Wetterfax-Wette von Christian.
+
+1229
+01:51:26,380 --> 01:51:28,380
+ Es gab die
+
+1230
+01:51:28,380 --> 01:51:30,380
+ Es gab die
+
+1231
+01:51:30,380 --> 01:51:32,380
+ Marte-Wette von Joel und Jetz.
+
+1232
+01:51:32,380 --> 01:51:34,380
+ Marte-Wette von Joel und Jetz.
+
+1233
+01:51:34,380 --> 01:51:36,380
+ Marte-Wette von Joel und Jetz.
+
+1234
+01:51:36,380 --> 01:51:38,380
+ Es gab die Tastaturwette,
+
+1235
+01:51:38,380 --> 01:51:40,380
+ Es gab die Tastaturwette,
+
+1236
+01:51:40,380 --> 01:51:42,380
+ wo sich Gizmo und Andreas getraut haben.
+
+1237
+01:51:42,380 --> 01:51:48,380
+ Die Außenwette mit Ahl.
+
+1238
+01:51:48,380 --> 01:51:54,380
+ Und dann hatten wir den Steckerlecker Puppe.
+
+1239
+01:51:54,380 --> 01:52:02,380
+ Ihr müsst jetzt mit eurem Applaus abstimmen.
+
+1240
+01:52:02,380 --> 01:52:04,380
+ Ihr müsst jetzt mit eurem Applaus abstimmen.
+
+1241
+01:52:04,380 --> 01:52:06,380
+ Und unsere Notarin wird das natürlich alles verfolgen,
+
+1242
+01:52:06,380 --> 01:52:08,380
+ weil wir die Aufmerksamkeitsspanne dafür sowieso nicht mehr haben.
+
+1243
+01:52:08,380 --> 01:52:10,380
+ Genau.
+
+1244
+01:52:10,380 --> 01:52:12,380
+ Die Notarin steht auf der Bühne.
+
+1245
+01:52:12,380 --> 01:52:14,380
+ Ich kenne mir kurz die Locken aus dem Gesicht.
+
+1246
+01:52:14,380 --> 01:52:16,380
+ Ich kenne mir kurz die Locken aus dem Gesicht.
+
+1247
+01:52:16,380 --> 01:52:18,380
+ Dann würde ich jetzt bitten,
+
+1248
+01:52:18,380 --> 01:52:20,380
+ mit wem fangen wir an?
+
+1249
+01:52:20,380 --> 01:52:22,380
+ Ich würde sagen, Mehrfachabstimmung ist erlaubt, oder?
+
+1250
+01:52:22,380 --> 01:52:24,380
+ Ja, natürlich.
+
+1251
+01:52:24,380 --> 01:52:26,380
+ Macht das ruhig kompliziert für uns.
+
+1252
+01:52:26,380 --> 01:52:28,380
+ Mit wem fangen wir an?
+
+1253
+01:52:28,380 --> 01:52:30,380
+ Mit der Nummer 1 würde ich sagen.
+
+1254
+01:52:30,380 --> 01:52:32,380
+ Mit der Nummer 1.
+
+1255
+01:52:32,380 --> 01:52:34,380
+ Unser Wetterfax.
+
+1256
+01:52:34,380 --> 01:52:36,380
+ Applaus für unser Wetterfax.
+
+1257
+01:52:36,380 --> 01:52:50,380
+ Okay, das war schon ziemlich viel Applaus.
+
+1258
+01:52:50,380 --> 01:52:52,380
+ Das war schon ziemlich viel Applaus.
+
+1259
+01:52:52,380 --> 01:52:54,380
+ Das war schon ziemlich viel.
+
+1260
+01:52:54,380 --> 01:52:56,380
+ Jetzt geht es zu Nummer 2.
+
+1261
+01:52:56,380 --> 01:52:58,380
+ Die Mate-Wette.
+
+1262
+01:52:58,380 --> 01:53:00,380
+ Die Mate-Wette.
+
+1263
+01:53:00,380 --> 01:53:02,380
+ Unsere Mate-Kandidaten.
+
+1264
+01:53:02,380 --> 01:53:04,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1265
+01:53:04,380 --> 01:53:06,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1266
+01:53:06,380 --> 01:53:08,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1267
+01:53:08,380 --> 01:53:10,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1268
+01:53:10,380 --> 01:53:12,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1269
+01:53:12,380 --> 01:53:14,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1270
+01:53:14,380 --> 01:53:16,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1271
+01:53:16,380 --> 01:53:18,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1272
+01:53:18,380 --> 01:53:20,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1273
+01:53:20,380 --> 01:53:22,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1274
+01:53:22,380 --> 01:53:24,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1275
+01:53:24,380 --> 01:53:26,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1276
+01:53:26,380 --> 01:53:28,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1277
+01:53:28,380 --> 01:53:30,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1278
+01:53:30,380 --> 01:53:32,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1279
+01:53:32,380 --> 01:53:34,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1280
+01:53:34,380 --> 01:53:36,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1281
+01:53:36,380 --> 01:53:38,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1282
+01:53:38,380 --> 01:53:40,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1283
+01:53:40,380 --> 01:53:42,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1284
+01:53:42,380 --> 01:53:44,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1285
+01:53:44,380 --> 01:53:46,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1286
+01:53:46,380 --> 01:53:48,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1287
+01:53:48,380 --> 01:53:50,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1288
+01:53:50,380 --> 01:53:52,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1289
+01:53:52,380 --> 01:53:54,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1290
+01:53:54,380 --> 01:53:56,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1291
+01:53:56,380 --> 01:53:58,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1292
+01:53:58,380 --> 01:54:00,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1293
+01:54:00,380 --> 01:54:02,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1294
+01:54:02,380 --> 01:54:04,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1295
+01:54:04,380 --> 01:54:06,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1296
+01:54:06,380 --> 01:54:08,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1297
+01:54:08,380 --> 01:54:10,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1298
+01:54:10,380 --> 01:54:12,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1299
+01:54:12,380 --> 01:54:14,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1300
+01:54:14,380 --> 01:54:16,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1301
+01:54:16,380 --> 01:54:18,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1302
+01:54:18,380 --> 01:54:20,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1303
+01:54:20,380 --> 01:54:22,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1304
+01:54:22,380 --> 01:54:24,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1305
+01:54:24,380 --> 01:54:26,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1306
+01:54:26,380 --> 01:54:28,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1307
+01:54:28,380 --> 01:54:30,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1308
+01:54:30,380 --> 01:54:32,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1309
+01:54:32,380 --> 01:54:34,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1310
+01:54:34,380 --> 01:54:36,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1311
+01:54:36,380 --> 01:54:38,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1312
+01:54:38,380 --> 01:54:40,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1313
+01:54:40,380 --> 01:54:42,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1314
+01:54:42,380 --> 01:54:44,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1315
+01:54:44,380 --> 01:54:46,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1316
+01:54:46,380 --> 01:54:48,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1317
+01:54:48,380 --> 01:54:50,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1318
+01:54:50,380 --> 01:54:52,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1319
+01:54:52,380 --> 01:54:54,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1320
+01:54:54,380 --> 01:54:56,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1321
+01:54:56,380 --> 01:54:58,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1322
+01:54:58,380 --> 01:55:00,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1323
+01:55:00,380 --> 01:55:02,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1324
+01:55:02,380 --> 01:55:04,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1325
+01:55:04,380 --> 01:55:06,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1326
+01:55:06,380 --> 01:55:08,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1327
+01:55:08,380 --> 01:55:10,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1328
+01:55:10,380 --> 01:55:12,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1329
+01:55:12,380 --> 01:55:14,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1330
+01:55:14,380 --> 01:55:16,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1331
+01:55:16,380 --> 01:55:18,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1332
+01:55:18,380 --> 01:55:20,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1333
+01:55:20,380 --> 01:55:22,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1334
+01:55:22,380 --> 01:55:24,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1335
+01:55:24,380 --> 01:55:26,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1336
+01:55:26,380 --> 01:55:28,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1337
+01:55:28,380 --> 01:55:30,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1338
+01:55:30,380 --> 01:55:32,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1339
+01:55:32,380 --> 01:55:34,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1340
+01:55:34,380 --> 01:55:36,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1341
+01:55:36,380 --> 01:55:38,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1342
+01:55:38,380 --> 01:55:40,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1343
+01:55:40,380 --> 01:55:42,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1344
+01:55:42,380 --> 01:55:44,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1345
+01:55:44,380 --> 01:55:46,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1346
+01:55:46,380 --> 01:55:48,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1347
+01:55:48,380 --> 01:55:50,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1348
+01:55:50,380 --> 01:55:52,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1349
+01:55:52,380 --> 01:55:54,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1350
+01:55:54,380 --> 01:55:56,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1351
+01:55:56,380 --> 01:55:58,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1352
+01:55:58,380 --> 01:56:00,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1353
+01:56:00,380 --> 01:56:02,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1354
+01:56:02,380 --> 01:56:04,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1355
+01:56:04,380 --> 01:56:06,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1356
+01:56:06,380 --> 01:56:08,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1357
+01:56:08,380 --> 01:56:10,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1358
+01:56:10,380 --> 01:56:12,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1359
+01:56:12,380 --> 01:56:14,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1360
+01:56:14,380 --> 01:56:16,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1361
+01:56:16,380 --> 01:56:18,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1362
+01:56:18,380 --> 01:56:20,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1363
+01:56:20,380 --> 01:56:22,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1364
+01:56:22,380 --> 01:56:24,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1365
+01:56:24,380 --> 01:56:26,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1366
+01:56:26,380 --> 01:56:28,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1367
+01:56:28,380 --> 01:56:30,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1368
+01:56:30,380 --> 01:56:32,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1369
+01:56:32,380 --> 01:56:34,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1370
+01:56:34,380 --> 01:56:36,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1371
+01:56:36,380 --> 01:56:38,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1372
+01:56:38,380 --> 01:56:40,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1373
+01:56:40,380 --> 01:56:42,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1374
+01:56:42,380 --> 01:56:44,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1375
+01:56:44,380 --> 01:56:46,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1376
+01:56:46,380 --> 01:56:48,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1377
+01:56:48,380 --> 01:56:50,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1378
+01:56:50,380 --> 01:56:52,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1379
+01:56:52,380 --> 01:56:54,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1380
+01:56:54,380 --> 01:56:56,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1381
+01:56:56,380 --> 01:56:58,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1382
+01:56:58,380 --> 01:57:00,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1383
+01:57:00,380 --> 01:57:02,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1384
+01:57:02,380 --> 01:57:04,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1385
+01:57:04,380 --> 01:57:06,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1386
+01:57:06,380 --> 01:57:08,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1387
+01:57:08,380 --> 01:57:10,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1388
+01:57:10,380 --> 01:57:12,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1389
+01:57:12,380 --> 01:57:14,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1390
+01:57:14,380 --> 01:57:16,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1391
+01:57:16,380 --> 01:57:18,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1392
+01:57:18,380 --> 01:57:20,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1393
+01:57:20,380 --> 01:57:22,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1394
+01:57:22,380 --> 01:57:24,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1395
+01:57:24,380 --> 01:57:26,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1396
+01:57:26,380 --> 01:57:28,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1397
+01:57:28,380 --> 01:57:30,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1398
+01:57:30,380 --> 01:57:32,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1399
+01:57:32,380 --> 01:57:34,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1400
+01:57:34,380 --> 01:57:36,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1401
+01:57:36,380 --> 01:57:38,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1402
+01:57:38,380 --> 01:57:40,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1403
+01:57:40,380 --> 01:57:42,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1404
+01:57:42,380 --> 01:57:44,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1405
+01:57:44,380 --> 01:57:46,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1406
+01:57:46,380 --> 01:57:48,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1407
+01:57:48,380 --> 01:57:50,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1408
+01:57:50,380 --> 01:57:52,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1409
+01:57:52,380 --> 01:57:54,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1410
+01:57:54,380 --> 01:57:56,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1411
+01:57:56,380 --> 01:57:58,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1412
+01:57:58,380 --> 01:58:00,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1413
+01:58:00,380 --> 01:58:02,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1414
+01:58:02,380 --> 01:58:04,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1415
+01:58:04,380 --> 01:58:06,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1416
+01:58:06,380 --> 01:58:08,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1417
+01:58:08,380 --> 01:58:10,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1418
+01:58:10,380 --> 01:58:12,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1419
+01:58:12,380 --> 01:58:14,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1420
+01:58:14,380 --> 01:58:16,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1421
+01:58:16,380 --> 01:58:18,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1422
+01:58:18,380 --> 01:58:20,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1423
+01:58:20,380 --> 01:58:22,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1424
+01:58:22,380 --> 01:58:24,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1425
+01:58:24,380 --> 01:58:26,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1426
+01:58:26,380 --> 01:58:28,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1427
+01:58:28,380 --> 01:58:30,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1428
+01:58:30,380 --> 01:58:32,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1429
+01:58:32,380 --> 01:58:34,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1430
+01:58:34,380 --> 01:58:36,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1431
+01:58:36,380 --> 01:58:38,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1432
+01:58:38,380 --> 01:58:40,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1433
+01:58:40,380 --> 01:58:42,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1434
+01:58:42,380 --> 01:58:44,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1435
+01:58:44,380 --> 01:58:46,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1436
+01:58:46,380 --> 01:58:48,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1437
+01:58:48,380 --> 01:58:50,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1438
+01:58:50,380 --> 01:58:52,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1439
+01:58:52,380 --> 01:58:54,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1440
+01:58:54,380 --> 01:58:56,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1441
+01:58:56,380 --> 01:58:58,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1442
+01:58:58,380 --> 01:59:00,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1443
+01:59:00,380 --> 01:59:02,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1444
+01:59:02,380 --> 01:59:04,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1445
+01:59:04,380 --> 01:59:06,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1446
+01:59:06,380 --> 01:59:08,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1447
+01:59:08,380 --> 01:59:10,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1448
+01:59:10,380 --> 01:59:12,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1449
+01:59:12,380 --> 01:59:14,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1450
+01:59:14,380 --> 01:59:16,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1451
+01:59:16,380 --> 01:59:18,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1452
+01:59:18,380 --> 01:59:20,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1453
+01:59:20,380 --> 01:59:22,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1454
+01:59:22,380 --> 01:59:24,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1455
+01:59:24,380 --> 01:59:26,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1456
+01:59:26,380 --> 01:59:28,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1457
+01:59:28,380 --> 01:59:30,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1458
+01:59:30,380 --> 01:59:32,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1459
+01:59:32,380 --> 01:59:34,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1460
+01:59:34,380 --> 01:59:36,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1461
+01:59:36,380 --> 01:59:38,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1462
+01:59:38,380 --> 01:59:40,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1463
+01:59:40,380 --> 01:59:42,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1464
+01:59:42,380 --> 01:59:44,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1465
+01:59:44,380 --> 01:59:46,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1466
+01:59:46,380 --> 01:59:48,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1467
+01:59:48,380 --> 01:59:50,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1468
+01:59:50,380 --> 01:59:52,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1469
+01:59:52,380 --> 01:59:54,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1470
+01:59:54,380 --> 01:59:56,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1471
+01:59:56,380 --> 01:59:58,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1472
+01:59:58,380 --> 02:00:00,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1473
+02:00:00,380 --> 02:00:02,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1474
+02:00:02,380 --> 02:00:04,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1475
+02:00:04,380 --> 02:00:06,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1476
+02:00:06,380 --> 02:00:08,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1477
+02:00:08,380 --> 02:00:10,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1478
+02:00:10,380 --> 02:00:12,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1479
+02:00:12,380 --> 02:00:14,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1480
+02:00:14,380 --> 02:00:16,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1481
+02:00:16,380 --> 02:00:18,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1482
+02:00:18,380 --> 02:00:20,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1483
+02:00:20,380 --> 02:00:22,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1484
+02:00:22,380 --> 02:00:24,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1485
+02:00:24,380 --> 02:00:26,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1486
+02:00:26,380 --> 02:00:28,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1487
+02:00:28,380 --> 02:00:30,380
+ Wir haben noch einen Applaus für unsere Kandidaten.
+
+1488
+02:00:30,380 --> 02:00:33,380
+ SWR 2020
+

@@ -1,0 +1,977 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+ [Musik]
+
+00:00:30.000 --> 00:00:35.000
+ Dann herzlich willkommen zum nächsten Vortrag von Mona und Peter.
+
+00:00:35.000 --> 00:00:44.000
+ Wir wissen wahrscheinlich alle, dass Projekte scheitern können und jetzt erleben wir eine große Präsentation von was auch immer passiert ist in diesem Projekt und ich wünsche viel Spaß dabei.
+
+00:00:44.000 --> 00:00:50.000
+ [Applaus]
+
+00:00:50.000 --> 00:00:53.000
+ Mona, was wollen die ganzen Leute hier?
+
+00:00:53.000 --> 00:01:04.000
+ Ich glaube, die wollen, dass wir ihnen etwas über unser Projekt erzählen, wo wir zum Glück nicht ganz gescheitert sind, aber ziemlich oft eigentlich alles hinschmeißen wollten.
+
+00:01:04.000 --> 00:01:10.000
+ Ein kleiner Disclaimer im Vorfeld. Wir werden sehr viel fluchen während dieses Vortrags.
+
+00:01:10.000 --> 00:01:19.000
+ Wir werden uns sehr viel über Software und Hardware beschweren von Leuten, die sehr viel besser Software und Hardware herstellen können, als wir es hier könnten.
+
+00:01:19.000 --> 00:01:27.000
+ Wir meinen das nicht gegenüber diesen Menschenböse. Wir sind einfach zu inkompetent, sie richtig zu bauen und richtig zu bedienen.
+
+00:01:27.000 --> 00:01:36.000
+ In diesem Sinne, wenn wir hier uns über irgendwas beschweren, seht es einfach als wir waren einfach zu dämlich dafür, es richtig zu machen.
+
+00:01:36.000 --> 00:01:48.000
+ Ansonsten, dieses Projekt geht um eine Pick-and-Place-Maschine. Das ist eine Maschine zum Aufheben und Platzieren von kleinsten elektronischen Bauteilen.
+
+00:01:48.000 --> 00:01:58.000
+ Der Rest wird während des Vortrags nochmal erläutert. Ansonsten würde ich sagen, wir müssen relativ schnell über die Folien gehen, denn wir haben viel zu viele gemacht.
+
+00:01:58.000 --> 00:02:06.000
+ Viele davon sind einfach Bilder, die wir euch zeigen wollen. Keine Ahnung, warum wir das machen, aber vielleicht ist es spaßig für euch.
+
+00:02:06.000 --> 00:02:14.000
+ Ich würde sagen, wir fangen erstmal an mit einer Vorstellung von, wer sind diese Leute, die hier oben stehen eigentlich?
+
+00:02:14.000 --> 00:02:20.000
+ In diesem Sinne, wir haben uns hier ein bisschen an Herr der Ringe bedient. Zuerst fange ich mit Peter an.
+
+00:02:20.000 --> 00:02:28.000
+ Peter ist der Mensch, der am Ende dieses Projekt gestartet hat. Er ist das Brain hinter vielen solchen Projekten.
+
+00:02:28.000 --> 00:02:39.000
+ Mit Brain nehme ich, er nimmt sich immer sehr komplexe Projekte vor, dann landen sie in seine Restekiste, dann erwähnt er es irgendwann in der Nähe von Leuten bei uns aus dem Space.
+
+00:02:39.000 --> 00:02:49.000
+ Dann sagt irgendjemand, das klingt ja voll spannend, dann sagt er, dann machen wir jetzt dieses Projekt und dann haben wir mehrere Monate ganz viel Spaß und fluchen viel und sonst irgendwas.
+
+00:02:49.000 --> 00:02:55.000
+ Ansonsten kennt sich Peter im Gegensatz zu mir tatsächlich mit Elektrotechnik aus. Ich habe keine Ahnung von diesen ganzen Sachen.
+
+00:02:55.000 --> 00:03:04.000
+ Ich bin komplett Querensteigerin. Er hat einen großen Fehler gemacht, tatsächlich das zu arbeiten, was er gelernt hat.
+
+00:03:04.000 --> 00:03:12.000
+ Ich habe diesen Fehler nicht gemacht. Ich bin sehr froh darüber. Ich mache einfach komplett unsinniges Zeug im Vergleich zu dem, was ich gelernt habe.
+
+00:03:12.000 --> 00:03:24.000
+ Und alles in allem muss ich sagen, danke ich Peter sehr, dass er uns, also wir stellen jetzt gleich noch jemand dritten vor, der heute leider nicht hier ist, aber ich bin sehr froh, dass Peter uns immer wieder motiviert, solche Projekte zu machen.
+
+00:03:24.000 --> 00:03:29.000
+ Denn ich persönlich käme nie auf die Idee, weil ich noch nicht mal weiß, was diese Projekte meistens sind.
+
+00:03:29.000 --> 00:03:36.000
+ Von daher ist es immer ganz nett, dass er uns an die Hand nimmt und Dinge mit uns macht, die viel zu schwer für uns wären, wenn er nicht dabei wäre.
+
+00:03:36.000 --> 00:03:48.000
+ Neben mir seht ihr Mona. Die hat in ihrem früheren Leben mal so etwas wie Philosophie studiert.
+
+00:03:48.000 --> 00:03:56.000
+ Ich habe extra auf die Folie den Abschluss gepackt, also den akademischen Grad, um euch zu zeigen, dass sie auch das durchgezogen hat.
+
+00:03:56.000 --> 00:04:06.000
+ Und irgendwann in ihrem Leben hat sie dann entschieden, etwas Sinnvolles zu machen und arbeitet jetzt als professionelle IT Security irgendwas.
+
+00:04:06.000 --> 00:04:17.000
+ Leider ist Mona nicht besonders lernfähig, weil das ist wirklich nicht das erste katastrophale Projekt, bei dem sie bei mir eingestiegen ist.
+
+00:04:17.000 --> 00:04:31.000
+ Außerdem zu erwähnen, sie hat mich gezwungen auf diese Bühne. Ich muss dafür so weit aus meiner Komfortzone treten, dass es eigentlich nicht gesund sein kann.
+
+00:04:37.000 --> 00:04:50.000
+ Der dritte im Bunde, der heute leider nicht da ist, ist Eki. Er hat leider keinen Urlaub mehr gehabt, weil er den für irgendwelche wichtigeren Dinge wie Erholung und Ruhe nehmen wollte.
+
+00:04:50.000 --> 00:04:52.000
+ Verstehe ich überhaupt nicht.
+
+00:04:52.000 --> 00:05:07.000
+ Eki hat uns während des Projekts immer wieder auf den Boden der Tatsachen zurückgeholt und hat während ich irgendwo in irgendwelchen Kommandozeilen oder in irgendwelchen Frontends von irgendwelcher Software, die ich nicht verstehe, verschwunden bin, gefragt hat, was machen wir eigentlich gerade?
+
+00:05:07.000 --> 00:05:26.000
+ Außerdem hat er uns ständig mit Linux-Dingen, die wir beide nicht wirklich gut können, ausgeholfen und hat uns eigentlich auch immer wieder getrieben, das Projekt weiterzumachen und nicht bei einer der 10, 20, 500 Situationen, wo wir alles hinschmeißen wollten, es dann nicht zu machen.
+
+00:05:26.000 --> 00:05:38.000
+ Weiter zu erwähnen wäre da noch das ZDL. Das ist der Space-Hack-Maker-Space, aus dem wir kommen. Das ist das Zentrum für Technik und Kultur in Landau.
+
+00:05:38.000 --> 00:05:48.000
+ Ohne das ZDL hätten wir weder den Platz gehabt, um ständig auf die Schnauze zu fliegen mit diesem Projekt, noch hätten wir uns kennengelernt.
+
+00:05:48.000 --> 00:05:57.000
+ In diesem Sinne, wir geben dem ZDL im Prinzip die Schuld für alles, was passiert ist. Ich bin mir sicher, die Social-Media-Abteilung freut sich über diese Aussage jetzt sehr.
+
+00:05:57.000 --> 00:06:07.000
+ So, first things first, starten wir mit den Grundlagen, die Peter jetzt erläutern darf, denn er weiß, was es in diesem Projekt ging.
+
+00:06:07.000 --> 00:06:18.000
+ Also zu den Grundlagen, wir haben es schon mal eingangs gehört. Eine Pick-and-Place-Maschine ist, oder im Deutschen ein Bestückungsautomat,
+
+00:06:18.000 --> 00:06:31.000
+ ist eine Maschine, mit der man SMD-Bauteile auf Platinen automatisch platzieren kann. Wird in der Industrie eingesetzt, ist sehr teuer,
+
+00:06:31.000 --> 00:06:44.000
+ kann man aber auch als Bastelobjekt bauen, ist dann halt dumm. Vom Prinzip her stellt euch vor, ihr habt einen 3D-Drucker oder eine CNC-Fräse
+
+00:06:44.000 --> 00:06:55.000
+ und statt dem Toolhead sind da Düsen, mit denen man die Bauteile ansaugen kann und von ihrer Verpackung auf die Platine platzieren kann.
+
+00:06:55.000 --> 00:07:03.000
+ Es gibt Kameras, die dann dafür sorgen, dass die Bauteile erkannt werden und an der richtigen Stelle irgendwie dann landen.
+
+00:07:03.000 --> 00:07:10.000
+ Und das Ganze wird dann mit einer entsprechenden Software auf einem PC angesteuert.
+
+00:07:10.000 --> 00:07:30.000
+ Ihr habt die berechtigte Frage, warum sollte man so etwas bauen? Die offizielle Antwort ist, wir wollen in unserem Space die Toolchain komplett abbilden,
+
+00:07:30.000 --> 00:07:39.000
+ um Platinen Prototypen zu bauen. Also man fräst oder ätzt eine Platine, bestückt die automatisiert mit einer Pick-and-Place-Maschine,
+
+00:07:39.000 --> 00:07:47.000
+ packt die in einen Reflow-Ofen und dann hat man einem Abend seinen Prototypen fertig. Das mit dem Fräsen haben wir ausprobiert,
+
+00:07:47.000 --> 00:07:55.000
+ ging so mäßig gut und es macht viel mehr Sinn, das einfach in China fertigen zu lassen, weil es billiger, besser und schneller ist.
+
+00:07:55.000 --> 00:08:04.000
+ Den Reflow-Ofen haben wir tatsächlich schon gebaut, also blieb eigentlich nur noch die Pick-and-Place-Maschine übrig.
+
+00:08:04.000 --> 00:08:17.000
+ Und wir dachten wirklich, als eingefleischte 3D-Druckerbauer, Corona, MPC-NC-Bauer kann das alles nicht so schwer sein,
+
+00:08:17.000 --> 00:08:31.000
+ weil das ist ja alles das Gleiche, XY-Achse und bewegt sich und Software, kein Problem. Wir haben uns geirrt, also es war schwer.
+
+00:08:31.000 --> 00:08:50.000
+ Wir müssen jetzt, um ein bisschen klarzukommen, ein bisschen zurück in der Zeit, ins Jahr 2020. Da bin ich einem YouTube-Channel gefolgt von Stephen Horst.
+
+00:08:50.000 --> 00:09:04.000
+ Und der hat sich das Ziel gesetzt, oh es regnet. Wir würden jetzt einfach mal vorsichtig weitermachen und hoffen,
+
+00:09:04.000 --> 00:09:12.000
+ dass die Leute, die jetzt gerade panisch weggerannt sind, einfach mit Regenjacken und Schirmen zurückkommen und hoffentlich regnet es gleich nicht mehr.
+
+00:09:12.000 --> 00:09:22.000
+ Ich würde sagen, mach weiter. Okay, ich mach einfach weiter.
+
+00:09:22.000 --> 00:09:35.000
+ Genau, also Stephen Horst, cooler Typ, der hat sich zum Ziel gesetzt, eine Pick-and-Place, eine Open Source Pick-and-Place-Maschine zu entwickeln,
+
+00:09:35.000 --> 00:09:48.000
+ die erschwinglich ist und für jeden zugänglich. Ich habe damals in blindem Aktionismus einfach schon mal ein paar Bauteile gekauft.
+
+00:09:48.000 --> 00:09:58.000
+ Ich dachte, vielleicht baue ich das irgendwann und habe dann sehr, sehr schnell entschieden, dass das überhaupt keinen Sinn macht.
+
+00:09:58.000 --> 00:10:09.000
+ Hier habe ich ein paar Bilder, ich habe ein paar Aluminium Extrusions gekauft, aus denen habe ich dann später einen Laser-Gravierer gebaut.
+
+00:10:09.000 --> 00:10:15.000
+ Die Motoren und ein paar Mechanikteile sind einfach irgendwo in einer Restekiste gelandet.
+
+00:10:15.000 --> 00:10:23.000
+ Und die 3D-Druckteile, die habe ich dann einfach weggeschmissen, weil sie anschließend noch dreimal überholt wurden von dem Projekt.
+
+00:10:23.000 --> 00:10:38.000
+ Und dann kommt wieder ein Zeitsprung, es ist Winter 2022, irgendjemand meinte irgendwie so zu mir, ja, lass doch mal die Pick-and-Place bauen.
+
+00:10:38.000 --> 00:10:51.000
+ Und ich war halt dumm und habe gesagt, ja, okay, dann machen wir das jetzt halt einfach. Ich habe ja noch eine Restekiste, das ist ja fast schon alles gemacht quasi.
+
+00:10:51.000 --> 00:11:00.000
+ Mittlerweile ist das Projekt auch viel weiter gelaufen. Stephen Horst hat eine Firma gegründet namens Opulo.
+
+00:11:00.000 --> 00:11:07.000
+ Das Projekt hat seinen Namen geändert von Index-PnP zu Lumen-PnP, weil die Namensstreitigkeiten hatten.
+
+00:11:07.000 --> 00:11:18.000
+ Und er hat diese Pick-and-Place-Maschine, die kann man kaufen. Und dann dachten wir so, okay, das Projekt ist so weit, der verkauft das, das funktioniert alles, damit kommen wir zum Ziel.
+
+00:11:18.000 --> 00:11:31.000
+ Und wir wussten, das soll kein so Never-Ending-Story-Projekt werden. Wir wollen das zum Macherdach präsentieren.
+
+00:11:31.000 --> 00:11:41.000
+ Der Macherdach ist unser Maker-Day auf Pfälzisch, den unser Verein schon seit einigen Jahren, jedes Jahr in Landau veranstaltet.
+
+00:11:41.000 --> 00:11:57.000
+ Und jetzt im Herbst ist Stichtag, da wollten wir fertig sein. Und wir haben uns so gedacht, fast ein Jahr Zeit, gar kein Problem, alles easy. Wir haben uns geirrt.
+
+00:11:57.000 --> 00:12:11.000
+ Erster Schritt, ich gucke auf die Website von Opulo, gucke so, ja, oh, 2000 Euro kostet das Ding, kein Pappenstiel.
+
+00:12:11.000 --> 00:12:23.000
+ Vielleicht können wir einfach alles selber sourcen und sind damit ein bisschen günstiger. Ich habe ja schon 2020 sage und schreibe 167 Euro in das Projekt investiert gehabt.
+
+00:12:23.000 --> 00:12:31.000
+ Das kann man ja nicht einfach wegwerfen. Wir waren so dämlich.
+
+00:12:31.000 --> 00:12:38.000
+ Wir haben uns dann die Liste angeguckt, was wir alles brauchen, um das Projekt zu bauen.
+
+00:12:38.000 --> 00:12:53.000
+ Und es war irgendwie von Anfang an klar, ja, Mechanik kein Problem, kriegen wir hin, aber die Platinen, die Controller Boards zu bauen, super aufwendig, super viele Teile, wollen wir eigentlich nicht.
+
+00:12:53.000 --> 00:13:08.000
+ Und Opulo verkauft dieses Board eigentlich, fertig, aber es war 2022, die älteren von euch erinnern sich, Chips gab es damals einfach gar keine.
+
+00:13:08.000 --> 00:13:17.000
+ Entsprechend konnten wir auch dieses Controller Board nicht kaufen. Glücklicherweise haben wir eine Alternative gefunden.
+
+00:13:17.000 --> 00:13:36.000
+ Ich bin bei meiner Recherche über einen Artikel gestoßen auf Hackaday. Und zwar ging es da um alternative Controller Boards für genau diese Pick and Place Maschine, die von einer Entwicklerin namens Stargirl entwickelt wurden.
+
+00:13:36.000 --> 00:13:53.000
+ Und dann bin ich auf die Website, da war ein Blog-Eintrag über diese Controller Boards und das war so gut erklärt. Es war alles im Detail, wie diese Platinen gebaut wurden, was sie sich dabei gedacht hat, es war einfach so geil.
+
+00:13:53.000 --> 00:14:06.000
+ Dann weiter gesucht, ich habe sogar einen Artikel auf Hackster.io gefunden und ich habe so gedacht, ja, das ist überall im Internet, das muss total das populäre Projekt sein, das macht bestimmt jeder.
+
+00:14:06.000 --> 00:14:21.000
+ Dann habe ich gesehen, sie hat für ihre Boards den RP2040, also den Controller für das Raspberry Pi Pico verwendet, was ich schon super toll fand.
+
+00:14:21.000 --> 00:14:35.000
+ Und sie hatte die Idee, nicht nur ein Controller Board zu machen, sondern das aufzusplitten in ein Controller Board für die X- und Y-Achse und ein Controller Board für die Z-Achse.
+
+00:14:35.000 --> 00:14:48.000
+ Und ich war einfach super begeistert und obwohl wir die dann selber bauen mussten und nicht fertig kaufen konnten, haben wir gesagt, wir gehen diesen Weg.
+
+00:14:48.000 --> 00:14:54.000
+ Was wir damals nicht wussten, war, dass wir fast die Einzigen waren, die das so gemacht haben.
+
+00:14:54.000 --> 00:15:04.000
+ Es gab noch eine andere Person in den USA, die das auch gemacht hat, zumindest soweit wir wissen, dessen Forks auf GitHub wurden irgendwie gelöscht.
+
+00:15:04.000 --> 00:15:13.000
+ Wir haben keine Ahnung warum. Ja, war super.
+
+00:15:13.000 --> 00:15:24.000
+ Aber wir haben uns ins Getümmel gestürzt und haben gesagt, okay, wir legen jetzt einfach los und haben wirklich ohne Sinn und Verstand einfach Sachen gekauft.
+
+00:15:24.000 --> 00:15:31.000
+ Das führt uns zum Kapitel "The First Order of Chaos".
+
+00:15:31.000 --> 00:15:36.000
+ Der Plan bestand darin, einfach irgendwelches Zeug zu bestellen.
+
+00:15:36.000 --> 00:15:43.000
+ Bei Opulo war das noch ganz nett. Da gab es Spill of Materials mit allen Mechanikteilen, die Platinen waren super beschrieben.
+
+00:15:43.000 --> 00:15:48.000
+ Man konnte alles einfach bei LCSC, AliExpress oder Amazon bestellen.
+
+00:15:48.000 --> 00:15:51.000
+ Dachten wir zumindest.
+
+00:15:51.000 --> 00:15:55.000
+ Bei Stargirl war das eine ganz andere Geschichte. Da gab es überhaupt keine Booms.
+
+00:15:55.000 --> 00:16:04.000
+ Wir sind ins Github Repo gegangen, haben einfach alle Platinen Files geöffnet in Keycard, haben uns eigene Booms generiert, haben festgestellt,
+
+00:16:04.000 --> 00:16:08.000
+ es gibt viele Bestellnummern nicht, wir mussten alles raussuchen.
+
+00:16:08.000 --> 00:16:16.000
+ Ich habe dann ein komplettes Wochenende damit zugebracht, die Bauteile irgendwie auf Mauser zu finden und zu bestellen.
+
+00:16:16.000 --> 00:16:29.000
+ Während wir bestellt haben, hat Mona auf Twitter die Entwicklerin angeschrieben, weil so ein, zwei Sachen einfach aus der Datenlage nicht zu erkennen war.
+
+00:16:29.000 --> 00:16:37.000
+ Da kam dann als Rückmeldung, ja macht mal langsam, sie arbeitet gerade an einem neuen Release.
+
+00:16:37.000 --> 00:16:43.000
+ Die Antwort kam so eine Stunde nachdem ich sehr viel Geld ausgegeben hatte.
+
+00:16:43.000 --> 00:16:50.000
+ Dann sind so die Bauteile gekommen, ich habe so ein paar Schrauben bestellt.
+
+00:16:50.000 --> 00:17:00.000
+ Also Hutmuttern zum Beispiel habe ich zwei gebraucht, gekauft habe ich 500. Danke Mindestbestellmenge.
+
+00:17:00.000 --> 00:17:05.000
+ Bei den anderen Schrauben sah das alles nicht viel besser aus.
+
+00:17:05.000 --> 00:17:19.000
+ Reicheltbestellung, das was man auf dem Bild sieht, ich habe ungefähr 30 cm von einem dieser Kabelringe verwendet und so eine gute Hand voll von den Kabelbindern.
+
+00:17:19.000 --> 00:17:23.000
+ Der ganze Rest war dann irgendwie unnötig.
+
+00:17:23.000 --> 00:17:31.000
+ Hier noch ein bisschen was von Mauser und Amazon, da liegen etliche 100 Euro auf dem Tisch.
+
+00:17:31.000 --> 00:17:40.000
+ Das waren die ganzen Platinen die wir bestellt haben bei JLSCPCB, eben vor der uns Rückseite zu sehen.
+
+00:17:40.000 --> 00:17:46.000
+ Dann noch die Sachen von LCSC.
+
+00:17:46.000 --> 00:17:55.000
+ Noch ein Fun Fact, diese Pick and Place Maschine arbeitet mit Vakuum um die Bauteile aufzusaugen.
+
+00:17:55.000 --> 00:18:03.000
+ Es gibt Vakuumsensoren oder Drucksensoren mit denen man feststellen kann wie hoch der Druck ist.
+
+00:18:03.000 --> 00:18:10.000
+ Ich wollte zwei kaufen und ich habe mich gewundert warum die 70 Euro kosten.
+
+00:18:10.000 --> 00:18:15.000
+ Es sind dann 10 gekommen, ich hatte nicht gesehen dass es 2 mal 5 sind.
+
+00:18:15.000 --> 00:18:21.000
+ Wir haben sie gar nicht gebraucht und wir benutzen sie auch nicht.
+
+00:18:21.000 --> 00:18:32.000
+ Eine Sache konnten wir dann irgendwie nicht so über die offiziellen Kanäle sourcen und zwar die Mounting Plate auf der dann später alles festgemacht wird.
+
+00:18:32.000 --> 00:18:39.000
+ Das ist eine 3 mm dicke riesige Platine, ich glaube 60 cm lang oder so was.
+
+00:18:39.000 --> 00:18:43.000
+ Das bekommt man so nicht von JLSCPCB.
+
+00:18:43.000 --> 00:18:48.000
+ Also haben wir das bei Opulo bestellt, in den USA mit jeder Menge Spaß mit dem Zoll.
+
+00:18:48.000 --> 00:18:53.000
+ Lieferzeiten von 2 Monaten oder so was, es war ein Traum.
+
+00:18:53.000 --> 00:19:03.000
+ So kurzes Fazit, ich habe 4 verschiedene Platinen bestellt die aus dem Opulo Repo kamen, davon war eine unnötig.
+
+00:19:03.000 --> 00:19:09.000
+ 7 verschiedene Platinen die aus diesem Repo von Stargirl gekommen sind, da waren 5 unnötig.
+
+00:19:09.000 --> 00:19:14.000
+ Ich habe 9 Lötcherplonen bestellt, davon waren 5 unnötig.
+
+00:19:14.000 --> 00:19:22.000
+ Wie bei den Schrauben und der Reichelbestellung zu sehen hat sich das fortgesetzt.
+
+00:19:22.000 --> 00:19:47.000
+ Das Wasser muss einmal raus, falls ihr es nicht gehört habt.
+
+00:19:47.000 --> 00:20:04.000
+ Es ist genau so wie ich mir das heute vorgestellt habe.
+
+00:20:04.000 --> 00:20:05.000
+ Geil!
+
+00:20:05.000 --> 00:20:09.000
+ Gib zu, es ist nicht so wie du erhofft hast, der Vortrag hat trotzdem stattgefunden.
+
+00:20:09.000 --> 00:20:17.000
+ Ich hatte ein bisschen gehofft, dass es vorher regnet und nicht stattfindet.
+
+00:20:17.000 --> 00:20:23.000
+ Ok, weiter geht's.
+
+00:20:23.000 --> 00:20:30.000
+ Ich weiß nicht ob ihr euch an die Folie vorhin erinnert, da meinte Peter, dass ich mit der Entwicklerin in Kontakt stehe.
+
+00:20:30.000 --> 00:20:35.000
+ Und dass ich ihm kurz nachdem er sehr viel Geld ausgegeben hat geschrieben habe,
+
+00:20:35.000 --> 00:20:40.000
+ dass ich mit der Entwicklerin dachte, wir sollen warten, es könnte demnächst ein neues Release kommen.
+
+00:20:40.000 --> 00:20:49.000
+ Demnächst war ein Tag danach, diese unnötigen Platinen wurden dadurch erzeugt.
+
+00:20:49.000 --> 00:20:55.000
+ Wenn wir einen Tag gewartet hätten, hätten wir sehr viel Geld gespart.
+
+00:20:55.000 --> 00:21:06.000
+ Aber wir werfen einfach Geld auf das Projekt, dann wird es schon funktionieren.
+
+00:21:06.000 --> 00:21:14.000
+ Starfishport ist jetzt obsolit, das Herzstück dieses Projektes, also bestellen wir einfach das neue.
+
+00:21:14.000 --> 00:21:19.000
+ Gar kein Problem, warten wir ein bisschen, danach geht es weiter.
+
+00:21:19.000 --> 00:21:27.000
+ 2-3 Wochen später, keine Ahnung mehr, Zeit nehmen wir jetzt auch nicht mehr so genau.
+
+00:21:27.000 --> 00:21:34.000
+ Wir haben Anfang und Ende und alles dazwischen, wollen wir eigentlich gar nicht mehr so genau wissen, weil es tut einfach ein bisschen zu sehr weh.
+
+00:21:34.000 --> 00:21:38.000
+ Dann kommt das neue Board, das ist das neue Starfishport.
+
+00:21:38.000 --> 00:21:43.000
+ Wir denken, coole Sache, wir machen in unserem Space alles ready.
+
+00:21:43.000 --> 00:21:47.000
+ Wir legen die Silikonmatte hin, wir sortieren die Teile.
+
+00:21:47.000 --> 00:21:50.000
+ Wir legen alles in der Reihenfolge hin, wie wir es brauchen.
+
+00:21:50.000 --> 00:22:02.000
+ Wir drucken einen Plan aus und markieren mit Filzstift, wann wir welches Teil wo hinsetzen müssen, was Stunden gedauert hat und was sehr unnötig war.
+
+00:22:02.000 --> 00:22:08.000
+ Denn kurz danach hat Peter ein tolles Programm gefunden.
+
+00:22:08.000 --> 00:22:17.000
+ Wir machen einen kleinen Exkurs, ich muss zu meiner Entschuldigung sagen, ich habe das so gelernt.
+
+00:22:17.000 --> 00:22:29.000
+ Wenn man Platinen effizient bestücken möchte, dann druckt man sich Blätter aus und markiert alle gleichen Bauteile in einer Farbe und dann kommt man gut zurecht.
+
+00:22:29.000 --> 00:22:35.000
+ Dann habe ich festgestellt, es gibt ein Keycard-Plugin mit dem Namen "Eyebohm".
+
+00:22:35.000 --> 00:22:45.000
+ Und es ist wahnsinnig toll, denn es macht all das, was wir mit Papier und Stift in stundenlanger Arbeit gemacht haben, in einem Klick.
+
+00:22:45.000 --> 00:22:50.000
+ Vielleicht zwei, einer zum installieren, einer zum generieren.
+
+00:22:50.000 --> 00:23:00.000
+ Aber das wussten wir damals noch nicht, also alles vorbereitet, Stunden im Space verbracht, alles sortiert.
+
+00:23:00.000 --> 00:23:06.000
+ Wir nehmen den Rakel, wir legen die Platine drauf, wir ziehen die Lüttpaste drüber.
+
+00:23:06.000 --> 00:23:13.000
+ Ich fange an, Peter die Teile zu geben. Peter guckt sich das Teil an und fragt, wo soll das Teil hin?
+
+00:23:13.000 --> 00:23:18.000
+ Und ich sage, hey, da auf den Ausdruck, da unten in die Ecke soll das Teil hin.
+
+00:23:18.000 --> 00:23:23.000
+ Und Peter guckt da hin und sagt, diese Stelle gibt es auf dieser Platine nicht.
+
+00:23:23.000 --> 00:23:28.000
+ Und ich so, hä? Aber ich habe doch alles sortiert, ich habe es doch ausgedruckt.
+
+00:23:28.000 --> 00:23:36.000
+ Das ist doch genau das. Und dann stellen wir fest, da steht irgendwo, ich glaube, V2 auf dem Ausdruck.
+
+00:23:36.000 --> 00:23:43.000
+ Und auf unserer Platine steht V1 oder V2 und V3. Wir haben bis heute keine Ahnung, wie das passiert ist.
+
+00:23:43.000 --> 00:23:52.000
+ Wir gehen einfach davon aus, dass es irgendwie, keine Ahnung, vielleicht hat sich das Multiversum an dem Punkt gesplittet und wir sind in die falsche Richtung abgezweigt oder so.
+
+00:23:52.000 --> 00:24:00.000
+ Peter hat einfach aus Versehen so oft auf Bestellen geklickt. Das ist ebenfalls so ein Motto, das sich vielleicht durch den Vortrag zieht.
+
+00:24:00.000 --> 00:24:04.000
+ Aber ich will Peter da jetzt auch nicht rein.
+
+00:24:04.000 --> 00:24:13.000
+ Gut, aber hey, wir kennen uns schon damit aus, das falsche Board zu haben, also denken wir uns, okay, falsches Board, wir regen uns eine halbe Stunde auf.
+
+00:24:13.000 --> 00:24:17.000
+ Peter will zwar alles hinschmeißen, aber irgendwie motivieren wir uns, weil wir haben ja noch andere Bauteile.
+
+00:24:17.000 --> 00:24:23.000
+ Wir haben ein Ringlight für die Pick-and-Place-Maschine und das ist ja nicht von Stargirl, das wird auch nicht so schnell weiterentwickelt.
+
+00:24:23.000 --> 00:24:25.000
+ Das ist von Opolo, die verdienen ja Geld damit.
+
+00:24:25.000 --> 00:24:28.000
+ Da haben wir auch alles bestellt und die Platine geordert.
+
+00:24:28.000 --> 00:24:34.000
+ Also fangen wir dort an und ich gebe Peter einen Bauteil und Peter nimmt dieses Bauteil und sagt, wo soll das denn hin?
+
+00:24:34.000 --> 00:24:38.000
+ Und ich sage, ja genau dahin. Das sind ja nur acht Bauteile, so viel gibt es ja nicht.
+
+00:24:38.000 --> 00:24:43.000
+ Und Peter sagt, das passt da überhaupt nicht drauf. Und ich so, wieso passt das nicht drauf?
+
+00:24:43.000 --> 00:24:49.000
+ Da steht auf dieser Bauteilpackung genau drauf, das ist das Bauteil, das haben wir bestellt, das habe ich dir gegeben.
+
+00:24:49.000 --> 00:24:52.000
+ Und Peter sagt, ja, das passt halt nicht drauf.
+
+00:24:52.000 --> 00:24:57.000
+ Nun, Peter hat dann recherchiert.
+
+00:24:57.000 --> 00:25:06.000
+ Wie gesagt, von Opolo gab es Bill of Materials, also mit Bestellnummern und ich habe wirklich das bestellt, was da stand.
+
+00:25:06.000 --> 00:25:14.000
+ Dann habe ich halt mal geguckt, GitHub, Issues, Ringlight, oh Treffer.
+
+00:25:14.000 --> 00:25:20.000
+ Irgendjemand hatte das schon gemeldet, falscher Footprint für dieses Bauteil.
+
+00:25:20.000 --> 00:25:26.000
+ Das Issue ist, ich habe es am Wochenende geprüft, es ist immer noch offen.
+
+00:25:26.000 --> 00:25:33.000
+ Ich muss zu meiner Schande gestehen, ich war ein bisschen emotional angeschlagen an dem Tag.
+
+00:25:33.000 --> 00:25:41.000
+ Habe so einen ganz leicht passiv-aggressiven Kommentar darunter gestellt, hat nicht geholfen.
+
+00:25:41.000 --> 00:25:48.000
+ Das sind halt einfach die Freuden von Open Source-Projekten, das muss man wohl einfach so hinnehmen.
+
+00:25:48.000 --> 00:25:58.000
+ Aber jetzt, Dinge, die auch mal funktioniert haben.
+
+00:26:00.000 --> 00:26:05.000
+ Unsere Pick-and-Place-Maschine, die wir dann tatsächlich benutzt haben erstmal.
+
+00:26:05.000 --> 00:26:14.000
+ Peter ist tatsächlich sehr gut im Pick-and-Place, was das ganze Projekt auch wieder ein bisschen in Frage stellt, ehrlich gesagt.
+
+00:26:14.000 --> 00:26:19.000
+ Aber es ging um die Journey, die Reise ist das Ziel, wir wollen ja was lernen.
+
+00:26:19.000 --> 00:26:24.000
+ Wir haben tatsächlich das richtige Starfish-Board bekommen.
+
+00:26:24.000 --> 00:26:29.000
+ Wir hatten tatsächlich auch alle Teile, also haben wir uns hingesetzt und wirklich das Ding bestückt.
+
+00:26:29.000 --> 00:26:34.000
+ Wir, mein ich, hier mein Partner und ich haben Peter Teile gegeben und er hat sie draufgesetzt.
+
+00:26:34.000 --> 00:26:40.000
+ Dann haben wir dieses Board endlich dann auch wirklich mit Ei-Bohm sehr einfach bestücken können.
+
+00:26:40.000 --> 00:26:44.000
+ Also einfach für uns, für Peter weiß ich nicht, ich könnte das nicht, ich zitter viel zu sehr.
+
+00:26:44.000 --> 00:26:48.000
+ Aber der hat das einfach ruckzuck da runtergeplaced, sah einwandfrei aus.
+
+00:26:48.000 --> 00:26:53.000
+ Wir haben dann uns einen extrem hochwertigen Pizza-Lötofen genommen.
+
+00:26:53.000 --> 00:27:02.000
+ Man beachte dieses Gehäuse, das extra angepasst ist auf die Größe dieses Pizza-Offens und auch überhaupt nicht total weird aussieht und halb kaputt ist.
+
+00:27:02.000 --> 00:27:04.000
+ Aber es hat wunderbar funktioniert.
+
+00:27:04.000 --> 00:27:12.000
+ Mein Raumluftreiniger ist zwar extrem eskaliert, nachdem wir das angeschaltet haben und die Lötpaste irgendwie zum Schmelzen gebracht haben,
+
+00:27:12.000 --> 00:27:15.000
+ aber hey, die Platine sah einwandfrei aus.
+
+00:27:15.000 --> 00:27:20.000
+ Also ich weiß nicht, einwandfrei ist jetzt so eine Sache, ich weiß nicht, ob sich hier einige Leute auskennen.
+
+00:27:20.000 --> 00:27:25.000
+ Diese zwei Pins da, die sind absichtlich so.
+
+00:27:25.000 --> 00:27:26.000
+ Das ist wirklich so.
+
+00:27:26.000 --> 00:27:31.000
+ Also wir haben uns das angeguckt und dann dachten wir auch zuerst, Moment, aber die sind doch auf der gleichen Bar.
+
+00:27:31.000 --> 00:27:34.000
+ Das sieht nicht so gut aus, das haben wir wohl irgendwie mies gemacht.
+
+00:27:34.000 --> 00:27:39.000
+ Aber nachdem wir lange drum herum getänzelt sind, haben wir festgestellt, das ist wirklich Absicht.
+
+00:27:39.000 --> 00:27:44.000
+ Das ist richtig so und es war alles gut und Starfish lief super.
+
+00:27:44.000 --> 00:27:51.000
+ Jellyfish, das andere Board, das so ein bisschen dreieckig ist, das muss Peter dann einfach mal alleine nochmal komplett neu machen.
+
+00:27:51.000 --> 00:27:55.000
+ Aber wir waren motiviert.
+
+00:27:55.000 --> 00:28:00.000
+ Also wir waren richtig gut dabei und dann haben Dinge funktioniert.
+
+00:28:00.000 --> 00:28:03.000
+ Also Peter hat dann angefangen das Board zu testen.
+
+00:28:03.000 --> 00:28:09.000
+ Hier ein kleines Video.
+
+00:28:09.000 --> 00:28:12.000
+ Ich hoffe man hört es.
+
+00:28:12.000 --> 00:28:15.000
+ Ach, god damn it.
+
+00:28:15.000 --> 00:28:19.000
+ Das war nicht der Anfang.
+
+00:28:19.000 --> 00:28:22.000
+ So.
+
+00:28:22.000 --> 00:28:26.000
+ Seht ihr jetzt erstmal, wie Peter sich vertippt?
+
+00:28:26.000 --> 00:28:32.000
+ Das war der Moment.
+
+00:28:32.000 --> 00:28:38.000
+ Und jetzt seht ihr, wie sich etwas dreht. Ist es nicht toll?
+
+00:28:38.000 --> 00:28:50.000
+ Ich habe mich wirklich sehr gefreut an diesem Tag.
+
+00:28:50.000 --> 00:28:55.000
+ Wie gesagt, wir haben letztes Jahr im Winter angefangen und das war früher.
+
+00:28:55.000 --> 00:28:58.000
+ Ich glaube Februar.
+
+00:28:58.000 --> 00:29:03.000
+ Also es war natürlich nur wegen der Bestellzeit. Wir persönlich waren natürlich total kompetent.
+
+00:29:03.000 --> 00:29:08.000
+ Und wir haben Peter total unterstützt und wir wären viel schneller fertig gewesen, wenn nicht so falsche Board da gewesen wäre.
+
+00:29:08.000 --> 00:29:10.000
+ Ganz bestimmt.
+
+00:29:10.000 --> 00:29:13.000
+ Hier seht ihr auch tatsächlich Eki und Peter.
+
+00:29:13.000 --> 00:29:18.000
+ Das hier ist ein Symbolbild. Wir haben dann tatsächlich auch die Hardware zusammengesetzt.
+
+00:29:18.000 --> 00:29:24.000
+ Das Bild ist jetzt die erste Version. Ich würde lügen, wenn ich sagen würde, dass es beim ersten Mal alles perfekt gepasst hat.
+
+00:29:24.000 --> 00:29:28.000
+ Also wir haben es glaube ich dreimal komplett auseinander genommen und wieder zusammengebaut.
+
+00:29:28.000 --> 00:29:32.000
+ Unter anderem weil ein paar 3D-Dateile nicht gepasst haben.
+
+00:29:32.000 --> 00:29:36.000
+ Und Aluprofile und Linearschinen und was weiß ich was.
+
+00:29:36.000 --> 00:29:41.000
+ Wir machen später noch so einen Honorable Mentions, was alles noch so nebenbei schiefgegangen ist.
+
+00:29:41.000 --> 00:29:49.000
+ Aber das Frame hat funktioniert. Wir haben das Ganze erstmal zusammengesetzt und hatten dann tatsächlich auch einen Erfolgsmoment.
+
+00:29:49.000 --> 00:29:55.000
+ Es tut mir leid, dass es ein horizontales Video ist. Es tut mir leid, dass man vielleicht nicht alles direkt erkennt.
+
+00:29:55.000 --> 00:29:59.000
+ Ich hoffe man hört es. Das ist sehr wichtig, dass man jetzt gleich einen Moment hört.
+
+00:29:59.000 --> 00:30:06.000
+ Nämlich wenn wir gleich die Gesichter verziehen.
+
+00:30:06.000 --> 00:30:10.000
+ Dieser Moment. Habt ihr das leichte Knall gehört?
+
+00:30:10.000 --> 00:30:14.000
+ Es hat alles funktioniert, aber man sollte sie nicht irgendwie in eine Wand fahren.
+
+00:30:14.000 --> 00:30:23.000
+ Wir haben keine Endstops und das mit dem Motor-Homing hat am Anfang noch nicht so funktioniert.
+
+00:30:23.000 --> 00:30:29.000
+ Aber hey, es ist zusammengebaut, die Platine läuft, die Maschine tut Dinge.
+
+00:30:29.000 --> 00:30:33.000
+ Alles in allem, wir waren happy. Also was soll denn jetzt noch schief gehen?
+
+00:30:33.000 --> 00:30:43.000
+ Wir installieren jetzt noch eine Software und dann stellen wir ein paar Dinge ein und es funktioniert bestimmt alles ohne Probleme.
+
+00:30:43.000 --> 00:30:52.000
+ Ja, nein. Dann ging es erst richtig los mit den schlimmen Dingen.
+
+00:30:52.000 --> 00:31:04.000
+ Jemand hat die Spannungsversorgung verpolt.
+
+00:31:04.000 --> 00:31:19.000
+ Gestorben sind eine USB-Kamera, ein USB-Hub, eine USB-Dockingstation und man weiß es nicht mehr genau, aber ich denke auch ein USB-Anschluss an meinem Laptop.
+
+00:31:19.000 --> 00:31:31.000
+ Man beachte vielleicht unten links den Money-Counter. Wir sind jetzt so ganz ganz kurz vor dem Break-Even-Point, wo kaufen besser gewesen wäre.
+
+00:31:31.000 --> 00:31:36.000
+ Über den Motivations-Counter müssen wir vielleicht nicht reden.
+
+00:31:36.000 --> 00:31:49.000
+ Ich habe uns davon nicht beirren lassen. Wir haben dann gesagt, der Peter erkennt sich mit der Elektronik aus, der wird wissen, was er tut und er hat dann einfach weiter Geld auf das Problem geschmissen und die Hardware lief dann wieder.
+
+00:31:49.000 --> 00:31:55.000
+ Das Problem war eher, ich musste mich dann mit der Software auseinandersetzen. Wir haben ein Programm verwendet, das sich Open PNP nennt.
+
+00:31:55.000 --> 00:32:01.000
+ Ich werde jetzt ab diesem Zeitpunkt viel über dieses Programm schlecht reden.
+
+00:32:01.000 --> 00:32:08.000
+ Ich möchte noch einmal daran erinnern, Programm super, die Leute, die es entwickeln, absolut geniale Menschen.
+
+00:32:08.000 --> 00:32:18.000
+ Ich, not so much. Deswegen irgendwo dazwischen ist vielleicht ein kommunikative Engpass, weshalb manche Dinge vielleicht nicht ganz funktioniert haben.
+
+00:32:18.000 --> 00:32:22.000
+ Aus meiner Perspektive ist aber natürlich Open PNP schuld.
+
+00:32:22.000 --> 00:32:34.000
+ Open PNP ist dafür gedacht, also zum einen mal so sieht Open PNP aus, wenn man einen Job hat, dann hat man hier diese zwei Xs in Kameraansichten.
+
+00:32:34.000 --> 00:32:40.000
+ Normalerweise, wenn man die Kameras angeschlossen hat. Rechts neben dran sieht man die Bauteile, die man picken und placen will.
+
+00:32:40.000 --> 00:32:52.000
+ Problem an der ganzen Sache war ein bisschen, dass wir Boards hatten von einer sehr genialen Entwicklerin, die sehr genau wusste, was sie tut und mit Open PNP sehr gut umgehen kann.
+
+00:32:52.000 --> 00:32:56.000
+ Wir wussten bis zu dem Zeitpunkt noch nicht mal, was Open PNP ist und wir haben die Boards einfach nachgebaut.
+
+00:32:56.000 --> 00:33:05.000
+ Von daher ist es immer ein bisschen schwierig, wenn man Hardware, die genau ein Mensch sehr gut gebaut hat, nachbaut und nicht genau weiß, ob sie funktionieren wird.
+
+00:33:05.000 --> 00:33:15.000
+ Die haben wir bei Open PNP dann mal installiert. Eki hat dann eine tolle Anleitung geschrieben, was man nicht tun sollte, wenn man unter Arch Linux Open PNP installiert.
+
+00:33:15.000 --> 00:33:19.000
+ Zitat von dem Abend war, dass er irgendwann gesagt hat, jetzt geht gar nichts mehr.
+
+00:33:19.000 --> 00:33:29.000
+ Sein Arch Linux Laptop hat nur noch einen schwarzen Bildschirm gezeigt. Nicht, weil er nur auf Kommandozeilenbasis arbeitet, sondern weil tatsächlich einfach seine komplette GUI tot war, weil er installiert hat.
+
+00:33:29.000 --> 00:33:34.000
+ Keine Ahnung, wie das passiert ist, aber auch Eki ist von dem ganzen Spaß nicht verschont geblieben.
+
+00:33:34.000 --> 00:33:38.000
+ Bei mir hat es dann glücklicherweise besser funktioniert.
+
+00:33:38.000 --> 00:33:47.000
+ Nach der Installation haben wir dann gemerkt, Open PNP kann sehr individuell nahezu jede Maschine als Pick-and-Place-Maschine ansteuern.
+
+00:33:47.000 --> 00:33:53.000
+ Und für ein paar Maschinen gibt es auch vorgefertigte Einstellungen, die erkannt werden.
+
+00:33:53.000 --> 00:33:59.000
+ Du musst einfach nur die Maschine einstecken und Open PNP sagt, okay, das ist das Board, da haben wir die Konfiguration, gar kein Problem.
+
+00:33:59.000 --> 00:34:02.000
+ Vor allem sind es aber meistens Maschinen mit einem Controller-Board.
+
+00:34:02.000 --> 00:34:08.000
+ Wir haben eine Maschine mit zwei Controller-Boards und natürlich gibt es dafür keine vorgefertigte Konfiguration.
+
+00:34:08.000 --> 00:34:14.000
+ Das heißt, wir mussten sehr viele Dinge einfach ausprobieren und gucken, ob es funktioniert.
+
+00:34:14.000 --> 00:34:19.000
+ Hier gleich ein Beispiel für eine sehr gute Fehlerbeschreibung.
+
+00:34:19.000 --> 00:34:28.000
+ Uns ist an der Stelle einfach kein Wortwitz eingefallen. Ich bin ganz ehrlich, der Kommentare per G-Code-Sendefehler war einfach das beste, was mir eingefallen ist.
+
+00:34:28.000 --> 00:34:40.000
+ Wir hatten von Anfang an das Problem, wenn wir die Maschine homen, also dass sie guckt, wo ist X-Achse Null, wo ist Y-Achse Null, wo ist Z-Achse Null, macht sie das aus irgendwelchen Gründen immer zweimal.
+
+00:34:40.000 --> 00:34:45.000
+ Und unser Lock ist komplett voll mit Fehlern, die überhaupt gar keinen Sinn ergeben.
+
+00:34:45.000 --> 00:34:50.000
+ Peter sah im Prinzip wirklich genauso aus, jedes Mal, wenn er vor dem Laptop saß und das Lock geprüft hat.
+
+00:34:50.000 --> 00:35:03.000
+ Wir hatten eine falsche Annahme getroffen, gebe ich ehrlich zu. Ich habe hier irgendwann mal geschrieben, ich habe einen Major Breakthrough, aber an sich haben wir einfach eine sehr falsche Annahme getroffen.
+
+00:35:03.000 --> 00:35:15.000
+ Wir haben nämlich angenommen, wenn wir Kommentare an die Pick-and-Place-Maschine senden, in dem Format, wie G-Code Kommentare kennzeichnet, dann verwirft die Firmware den Kommentar und interpretiert den nicht weiter.
+
+00:35:15.000 --> 00:35:29.000
+ Das ist natürlich eine sehr falsche Annahme. Die Maschine hat einfach dann, ich glaube, die ersten paar Zeichen ignoriert und dann einfach angefangen zu sagen, das ist ein neuer Kommentar, den verarbeite ich jetzt und hat dann natürlich Fehler ohne Ende ausgeworfen.
+
+00:35:29.000 --> 00:35:37.000
+ Kaum haben wir dieses eine Häkchen "Remove comments" gesetzt, lief viel besser. Nicht perfekt, aber viel besser.
+
+00:35:37.000 --> 00:35:51.000
+ Nächstes Problem bei dem Ganzen war, die Open PNP ist eine Software, die unsere Maschine per USB ansteuert. Also die Pick-and-Place-Maschine von uns wird per USB an einen Laptop angeschlossen.
+
+00:35:51.000 --> 00:36:19.000
+ Unter Linux ist das jetzt so, wenn du ein USB-Gerät anschließt, dann wird es als TTY ACM 0 und ACM 1 und und und gekennzeichnet. Und wenn wir jetzt zwei unterschiedliche Boards haben, bei denen es sehr, sehr, sehr relevant ist, welches Board wie angesteuert wird, die aber zufällig TTY ACM 0 und 1 heißen, dann haben wir Probleme, weil wir nie genau wissen, welches Board stellen wir jetzt mit welchem Controller an.
+
+00:36:19.000 --> 00:36:37.000
+ Linux ist natürlich toll, deswegen kann man in Linux Regeln erstellen, dass diese USB-Geräte immer mit einem Namen gemountet werden und dieser Name, den kann man ja dann ganz einfach sehen und lesen. Da steht halt nicht mehr TTY ACM 0, sondern Starfish oder Jellyfish.
+
+00:36:37.000 --> 00:37:06.000
+ Pick-and-Place dachte sich so, keine Ahnung, ach, nö. Ich zeige euch das einfach weiter so an. Ja, es ist mir vollkommen egal, ob ihr da einen Link baut. Das heißt jetzt TTY ACM 0, weil das ist die ID, wie es gemountet ist und Eki und Peter saßen dann irgendwie in sehr, sehr, sehr langen Nachmittagen bei uns im Space und haben dann irgendwann festgestellt, okay, wir können statt über die Software zu gehen, die XML-Dateien,
+
+00:37:06.000 --> 00:37:17.000
+ von der Konfiguration öffnen und das manuell irgendwo eintragen und dann, dann funktioniert es. Also auch ein Problem, wir konnten es lösen, es hat uns keine Ahnung, zwei Wochen oder sowas gekostet, aber naja.
+
+00:37:17.000 --> 00:37:42.000
+ Alles in allem, tolle Software, funktioniert an sich sehr gut, wie gesagt, unsere Erfahrung ist vielleicht irgendwie ein kommunikativer Engpass. Alles in allem war es für uns ein ständiges, selbst wenn es funktioniert hat, ein Kalibriere, die Kalibrierungsroutine, damit die Kalibrierungsroutine kalibriert werden kann, um irgendwelche Dinge zu kalibrieren, damit wir keine Ahnung, Bauteile erkennen oder sonst irgendwas.
+
+00:37:42.000 --> 00:37:59.000
+ Also gerade Optik, am Schluss haben wir so den Höhepunkt der optischen Problematik gelöst, die Lösung wird euch überraschen. Und wenn man dann alles kalibriert hat, oh das Licht ist anders, fang noch mal von vorne an.
+
+00:37:59.000 --> 00:38:14.000
+ Oh, ihr habt die Kamera um zwei Millimeter nach links bewegt, der Widerstand der Z-Achse hat sich jetzt geändert, fang doch einfach noch mal von vorne an und und und. Also es war ziemlich anstrengend, manchmal da noch hinterher zu kommen.
+
+00:38:14.000 --> 00:38:35.000
+ Alles in allem haben wir die Software irgendwann zum Laufen gekriegt, wir haben jetzt hier noch so ein paar honorable mentions, wie ich vorhin angekündigt habe, wir haben zwischendurch falsche Welps gekauft, wir haben jetzt eine große Schleppkette bestellt, wir haben eine undefinierte Anzahl an Kameras verbrannt, weil sie einfach frustrierend waren, um mit ihnen zu arbeiten.
+
+00:38:35.000 --> 00:38:49.000
+ Wir mussten Lineage nachordern, wir mussten V-Slot Extrusion nachordern und ihr seht an dem Punkt vielleicht diese zwei da unten bei der Money Counter vorne. Vielleicht erinnert ihr euch noch, was die Polo PNP gekostet hätte.
+
+00:38:49.000 --> 00:39:03.000
+ Ja, aber gut, es ist Leergeld. Also ob wir jetzt 2000 Euro für ein fertiges Board bestellen und es einfach zusammenstecken oder selber machen, da lernt man ja was. Und wir waren ja jetzt so weit, jetzt so ein paar Tage und dann läuft es.
+
+00:39:03.000 --> 00:39:29.000
+ Und dann dachten wir, welchen messen Ort gibt es dafür als die GPN? Dachten wir uns vier Tage, wir nehmen das Ding mit, stellen uns auf die GPN in Karlsruhe und dann machen wir das Ding einfach fertig. Und dann haben wir eine tolle Pick and Place Maschine gebaut auf der GPN, dann können wir bei so einem Vortrag, den wir wahrscheinlich nicht gehalten hätten, wenn alles funktionieren würde, sagen können, cool, GPN Karlsruhe, tolles Event, wir haben eine Pick and Place Maschine dort fertig gebaut.
+
+00:39:29.000 --> 00:39:52.000
+ Tag eins. Die Transistoren und die Flyback Dioden von den Valves gehen kaputt, gehen in die Luft. Glücklicherweise war das nicht das erste Mal und ich wusste schon, auf was ich achten sollte. Beim ersten Mal habe ich noch so eine 1 zu 1 Ersetzung gemacht und die gleichen Bauteile wieder reingemacht.
+
+00:39:52.000 --> 00:40:05.000
+ Bei Nummer zwei habe ich dann die dickste Diode genommen, die ich in meinem Fundus gefunden habe und habe die dann reingespackst. Seitdem läuft es ohne Probleme.
+
+00:40:05.000 --> 00:40:25.000
+ Tag zwei. Ihr müsst jetzt mein Wort nehmen, wir haben jetzt hier ein kleines Video, wir sind sehr weit gekommen, wir hatten irgendwann Hilfe von einer Briechen, die uns viele Dinge erklärt hat. Seht, da ist ein Bauteil dran, es bewegt sich und und und.
+
+00:40:25.000 --> 00:40:50.000
+ Also ich weiß nicht, ob ihr das gesehen habt, das Bauteil wurde definitiv platziert und ist nicht runtergefallen, weil der Controller ausgefallen in dem Moment, als es platziert werden sollte. Am zweiten Tag haben wir wirklich einige Bauteile richtig platziert und es hat funktioniert und wir waren sehr euphorisch und wir dachten cool, Peter, morgen bringst du deinen Lötofen mit und Lötpaste und dann machen wir die Testplatine einfach einmal durch und alles ist richtig, richtig cool.
+
+00:40:50.000 --> 00:41:05.000
+ Und dann kam Tag drei. Symbolbild, das ein guter Freund geschossen hat. Es war schrecklich. Nichts hat funktioniert. Das Homing ist komplett schief gegangen.
+
+00:41:05.000 --> 00:41:27.000
+ Ich habe mittlerweile echt Zuckungen, wenn ich die Maschine home, weil ich immer denke, jetzt macht sie gleich ganz schlimme Dinge. Die Teile wurden nicht richtig erkannt. Alles war schlimm. Wirklich alles. Sogar die sympathische Britin namens Gwen hat irgendwann gesagt, it's gremlins, weil wir einfach nicht erklären konnten, warum zur Hölle es den Tag vorging und den Tag danach nicht.
+
+00:41:27.000 --> 00:41:38.000
+ Peter hat die Pick and Place Maschine dann einfach irgendwann genommen und nach Hause getragen und dann haben wir so ein paar Tage im Eisbad gebraucht, um wieder zu glauben, dass wir vielleicht noch irgendwas retten können.
+
+00:41:38.000 --> 00:42:03.000
+ Da wir uns massiv beeilen müssen, ich habe rausgefunden, dass eine von den Madenschrauben locker war und der Motorhol gedreht hat, die ganze Zeit auf der GPN, genauso wie wir. Wie haben wir das gefixt? Natürlich mit Locked-to-the-Lift von AliExpress.
+
+00:42:03.000 --> 00:42:10.000
+ Nächstes Problem. Wir haben rumgebastelt und immer wieder hatten wir dieses Problem, dass beim Home die Nozzle unten stehen geblieben ist.
+
+00:42:10.000 --> 00:42:19.000
+ Peter hat irgendwann ein Programm geschrieben, wo er einfach gesagt hat, hey, home einfach. Und dann haben wir mit Werten rumgespielt und wir haben irgendwie eine bahnbrechende Entdeckung gemacht.
+
+00:42:19.000 --> 00:42:37.000
+ Sound ist auch hier wichtig. Das ist, wenn man ein Wert hat für Z von irgendetwas, was nicht Komma 5 ist. Wenn man es auf Komma 5 stellt, egal welcher Wert vorne steht, passiert etwas Magisches.
+
+00:42:37.000 --> 00:42:53.000
+ Und man könnte sagen, das ist jetzt verlässlich, aber manchmal macht es sogar noch bessere Dinge.
+
+00:42:53.000 --> 00:43:13.000
+ Die Lösung des Problems war, naja, ich arbeite in der IT-Security und eigentlich hätte ich das Problem auch einfach selber merken können. Vielleicht machen wir einfach ein Update. Wir haben die Firma neu aufgespielt, beziehungsweise Peter, nachdem er keine Ahnung zwei Wochen damit verbracht hat oder viel zu viel Zeit und dann war es gar kein Problem mehr. Keine Ahnung, vielleicht haben wir irgendwas kaputt gemacht. Wir haben viele in der Firma herumgedockt.
+
+00:43:13.000 --> 00:43:28.000
+ So, wir hatten noch so ein Problem. Ja, ich hatte ja schon mal eingangs erwähnt, dass ein paar USB-Hubs kaputt gegangen sind. Das ist nur ein Symbolbild, es waren viel mehr.
+
+00:43:28.000 --> 00:43:43.000
+ Wir hatten nicht nur das Problem, uns sind auch immer wieder die Boards abgestürzt, die USB-Verbindung ist abgestürzt und irgendwann hat einer im Space Master gemeint, eh, EMV-Problem bestimmt wegen den Motoren.
+
+00:43:43.000 --> 00:43:59.000
+ Und dann habe ich getan, was ich immer getan habe, Geld auf das Problem gemessen. Und zwar habe ich galvanische Trennung für USB bestellt. Pro-Tipp, wenn ihr galvanische Trennung für USB braucht, nehmt nicht das, wo Audio dabei steht.
+
+00:43:59.000 --> 00:44:13.000
+ Das kostet dreimal so viel, hat aber exakt den gleichen Chip drin. Das hat das Problem auch vollständig gelöst. Alles war gut.
+
+00:44:13.000 --> 00:44:24.000
+ Dann dachten wir uns, cool, wir sind endlich so weit. Wir haben nur noch so kleine Probleme wie Licht, das haben wir schon 500 Mal gelöst, weil wir wieder von vorne anfangen mussten, ist doch gar kein Ding.
+
+00:44:24.000 --> 00:44:34.000
+ Alles läuft, wir versuchen endlich Teile zu erkennen und zu placen und es geht einfach nicht, weil wir es nicht hinbekommen den Kontrast richtig einzustellen.
+
+00:44:34.000 --> 00:44:49.000
+ Also hat Peter erneut gemacht, was er tut, wenn er ein Problem hat. Er ist in einen Baumarkt gefahren, hat Holz gekauft. Wir haben unseren tollen neuen Laser-Cutter genommen, den wir in unserem Space haben und haben einfach eine Box gebaut, um das andere Licht fernzuhalten.
+
+00:44:49.000 --> 00:45:03.000
+ Ich habe keine Pick-and-Place-Maschine gesehen, die eine Box braucht, um zu funktionieren. Das hat aber bestimmt nichts mit uns zu tun, sondern die machen irgendwas anders oder so. Die haben bestimmt irgendwas anders gemacht.
+
+00:45:03.000 --> 00:45:14.000
+ Den Money-Counter könnt ihr euch kurz zur Kenntnis nehmen, aber das ist nicht so wichtig. Denn viel wichtiger ist, am Ende sah das Ganze so aus.
+
+00:45:14.000 --> 00:45:33.000
+ Wir würden euch jetzt gerne noch mehr zeigen, aber die Zeit ist leider schon ziemlich um. Long story short, es funktioniert. Wir haben noch eine Platine gebaut.
+
+00:45:33.000 --> 00:45:50.000
+ Jetzt machen wir superfast. Am Anfang haben wir gesagt, wir wollen diese Maschine auf dem Macherdach zeigen. Und nur Maschine zeigen ist langweilig. Das heißt, wir haben noch ein Board entwickelt, das bestückt werden soll. Das Spiral-Board.
+
+00:45:50.000 --> 00:46:14.000
+ Die Idee habe ich alle geklaut, weil ich kreativ bin wie ein Stein. Ich habe die Dimensions von dem Calliope Mini genommen, habe die LED-Platzierungen von dem Fibonacci 32-Board genommen von Jason Kuhn, der Evil Genius Lab betreibt, habe den Schaltplan von Vemos D1 Mini genommen und habe VLED als Firmware benutzt.
+
+00:46:14.000 --> 00:46:30.000
+ Weil ich alt bin und konservativ, habe ich alles mit Stift und Papier designt. Schaltpläne mit einem Bleistift gezeichnet, aber immerhin dann das Software benutzt.
+
+00:46:30.000 --> 00:46:46.000
+ So ein bisschen 3D-View hier vorne hinten. Es gibt einen Akku, einen Laderegler, einen ESP8266. So sieht das Ganze jetzt aus. Rückseite.
+
+00:46:46.000 --> 00:47:01.000
+ Also im Prinzip ist es das gleiche wie das, was wir hier unter dem T-Shirt haben. Es leuchtet ein bisschen, es ist wahrscheinlich viel zu hell für die Kamera, deswegen mache ich das gleich wieder weg.
+
+00:47:01.000 --> 00:47:17.000
+ Das ist das Wichtigste, was Peters Geldbeutel gelernt hat. Dann auch Leute, die sich mit Elektronik auskennen, haben manchmal schlechte Tage und ein rotes und schwarzes Kabel können sich extrem ähnlich sehen.
+
+00:47:17.000 --> 00:47:30.000
+ Optik ist nicht trivial. Ganz und gar nicht trivial. Kameras sind sehr, sehr schwierig richtig einzustellen. Nummern sollte man immer nochmal checken und nochmal checken und nochmal checken. Man sollte Updates machen.
+
+00:47:30.000 --> 00:47:36.000
+ Und nur weil ein Artikel irgendwo im Internet vorhanden ist, heißt das nicht, dass es eine Community gibt, die sich sehr gut mit dem Board auskennt und ihr helfen kann.
+
+00:47:36.000 --> 00:47:46.000
+ Und Stargirl ist eine verdammt geniale Entwicklerin, aber wir sind es nicht. Und wir haben sehr viel Geld da reingesteckt, um festzustellen, dass wir es nicht haben.
+
+00:47:46.000 --> 00:47:52.000
+ Hier noch, Zahlen, Daten, Fakten. Wir haben über 2000 Euro gezahlt. Wie viel drüber, das erwähne ich jetzt nicht.
+
+00:47:52.000 --> 00:48:05.000
+ Wir haben so knapp 233 Tage gebraucht. Wir wollen uns mindestens zehnmal alles hinschmeißen. Die Genugtuung, dass es jetzt funktioniert, ist eher so, ja, wir haben uns einen Abend gefreut und jetzt denken wir so, ja, aber das Board haben wir jetzt noch nicht getestet.
+
+00:48:05.000 --> 00:48:11.000
+ Wir müssen mal schauen, ob das noch funktioniert. Und der Ich-würdest-wiedertun-Faktor ist bei ziemlich exakt 0,6 Periodik.
+
+00:48:11.000 --> 00:48:18.000
+ Ich werde jetzt nicht erwähnen, wer Nein gesagt hat, aber Ego und ich haben jetzt kein Problem damit.
+
+00:48:18.000 --> 00:48:26.000
+ So, jetzt noch der kurze shameless self-plug. Landau ist gar nicht weit weg, so quer durch Deutschland einmal.
+
+00:48:26.000 --> 00:48:36.000
+ Besucht uns zum Macherdach am 30. September, dann dürft ihr auch so ein Board bauen, wenn ihr wollt. Und ich würde sagen, wir machen fertig.
+
+00:48:36.000 --> 00:48:45.000
+ Danke an die Leute, die uns geholfen haben. Danke an die Leute, die Sachen gedruckt haben und die diese Projekte gebaut haben.
+
+00:48:45.000 --> 00:48:54.000
+ Genau, dann noch von mir. Danke für euren Talk. Sorry für das etwas Chaos, aber Wetter ist da.
+
+00:48:54.000 --> 00:48:59.000
+ Ach so, wir rennen hier rum. Falls ihr Fragen habt, sprecht uns einfach an.
+
+00:48:59.000 --> 00:49:01.000
+ Vielen Dank.
+
+00:49:01.000 --> 00:49:03.000
+ Vielen Dank.
+
+00:49:03.000 --> 00:49:05.000
+ Vielen Dank.
+
+00:49:06.000 --> 00:49:10.000
+ [Musik]
+

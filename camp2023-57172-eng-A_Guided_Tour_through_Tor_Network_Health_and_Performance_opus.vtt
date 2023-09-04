@@ -1,0 +1,1667 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:33.840
+ >> Good evening. Hello.
+
+00:00:33.840 --> 00:00:35.840
+ Good evening. Hello.
+
+00:00:35.840 --> 00:00:38.080
+ Welcome to Millie Boys.
+
+00:00:38.080 --> 00:00:43.600
+ The evening talks at Millie Boys on day three.
+
+00:00:43.600 --> 00:00:46.960
+ I hope you had a great day already and we'll have
+
+00:00:46.960 --> 00:00:53.360
+ a much greater day in the evening today with nice talks.
+
+00:00:53.360 --> 00:00:59.640
+ The next talk will be
+
+00:00:59.640 --> 00:01:03.440
+ held by the network team of the Tor project.
+
+00:01:03.440 --> 00:01:06.280
+ They will present us with
+
+00:01:06.280 --> 00:01:09.760
+ a guided tour through Tor networking,
+
+00:01:09.760 --> 00:01:13.040
+ health, and performance.
+
+00:01:13.040 --> 00:01:23.160
+ >> Thanks everybody for coming.
+
+00:01:23.160 --> 00:01:26.520
+ We have collected a little group of people from the Tor project here,
+
+00:01:26.520 --> 00:01:29.440
+ who's going to talk a bit about general network status thing,
+
+00:01:29.440 --> 00:01:31.320
+ and particularly with focus on the health and
+
+00:01:31.320 --> 00:01:35.560
+ the performance that we've been working a lot on in the past few years.
+
+00:01:35.560 --> 00:01:37.720
+ I'll just do a quick introduction of everybody.
+
+00:01:37.720 --> 00:01:40.200
+ I'm Alex. I'm heading up towards network team.
+
+00:01:40.200 --> 00:01:43.600
+ We're the team responsible for writing the C Tor implementation
+
+00:01:43.600 --> 00:01:47.640
+ and the Rust implementation that we'll be talking a little bit about called RD.
+
+00:01:47.640 --> 00:01:50.000
+ Then we also have Yuka on stage.
+
+00:01:50.000 --> 00:01:53.960
+ Yuka is one of our bandwidth scanning experts and work together with
+
+00:01:53.960 --> 00:01:57.680
+ Geog who is the network health team lead.
+
+00:01:57.680 --> 00:02:02.240
+ Finally, we have Gus who's heading up our community team and
+
+00:02:02.240 --> 00:02:05.880
+ is doing a lot of the engagement with people in our community,
+
+00:02:05.880 --> 00:02:08.720
+ and the relay operating community and so forth.
+
+00:02:08.720 --> 00:02:12.520
+ If we start out with talking a bit about some of the features we've been working on
+
+00:02:12.520 --> 00:02:17.760
+ for the currently stable Tor release called 047.
+
+00:02:17.760 --> 00:02:21.000
+ One of the things we built in that was congestion control.
+
+00:02:21.000 --> 00:02:25.760
+ Tor had originally not had any good mechanisms like we see in TCP,
+
+00:02:25.760 --> 00:02:29.880
+ with regards to congestion control and handling congestion in the network,
+
+00:02:29.880 --> 00:02:37.520
+ which led to a higher variance in error conditions when you were using Tor
+
+00:02:37.520 --> 00:02:40.920
+ and the performance was not so good.
+
+00:02:40.920 --> 00:02:45.160
+ What the team did was that we evaluated a number of different options
+
+00:02:45.160 --> 00:02:46.840
+ for congestion control algorithm.
+
+00:02:46.840 --> 00:02:51.840
+ People who are into some of these TCP things might notice some of the names are similar.
+
+00:02:51.840 --> 00:02:55.560
+ They're very related from the general network world.
+
+00:02:55.560 --> 00:03:01.520
+ The three system we looked at was called Westwood and Vegas and NOLA.
+
+00:03:01.520 --> 00:03:05.040
+ While the team was looking at it, Google also came with a paper
+
+00:03:05.040 --> 00:03:07.840
+ with a congestion control system called BBR.
+
+00:03:07.840 --> 00:03:13.120
+ But many of these systems suffered from some issues that led to these runaway congestion conditions
+
+00:03:13.120 --> 00:03:16.200
+ which made them unsuitable for what we were trying to do.
+
+00:03:16.200 --> 00:03:23.520
+ We ended up spending a lot of time working in a simulator that we have called Shadow,
+
+00:03:23.520 --> 00:03:26.880
+ where we tried to test the different algorithms for seeing how they were performing,
+
+00:03:26.880 --> 00:03:30.600
+ having an idea about which parameters we could tune in various conditions,
+
+00:03:30.600 --> 00:03:32.480
+ and see how things are doing.
+
+00:03:32.480 --> 00:03:35.040
+ These plots are a little bit difficult to understand.
+
+00:03:35.040 --> 00:03:43.600
+ They're CDF plots, but the idea here is that the orange part of the curve is the 047 release
+
+00:03:43.600 --> 00:03:46.880
+ and the blue part is the 046 release.
+
+00:03:46.880 --> 00:03:51.760
+ And the left picture is a simulated instance where we tried to behave
+
+00:03:51.760 --> 00:03:56.720
+ like we're a client being in Germany, and on the right-hand side we see one in Hong Kong.
+
+00:03:56.720 --> 00:04:01.280
+ And what basically these things tell is that we see a higher amount of the traffic
+
+00:04:01.280 --> 00:04:06.280
+ being performant for the new system.
+
+00:04:06.280 --> 00:04:12.360
+ We are sort of moving towards this new release that are coming very soon,
+
+00:04:12.360 --> 00:04:16.560
+ where we have then decided to remove some of these algorithms because they're simply unused,
+
+00:04:16.560 --> 00:04:20.320
+ and Vegas is the only one currently that is left.
+
+00:04:20.320 --> 00:04:22.560
+ We will continue to tune on these things.
+
+00:04:22.560 --> 00:04:26.720
+ We will learn as more clients are coming on, as we do various upgrades in the network,
+
+00:04:26.720 --> 00:04:29.360
+ so we would likely have to tune different parameters.
+
+00:04:29.360 --> 00:04:32.640
+ And the entire system is made so that the directory authorities,
+
+00:04:32.640 --> 00:04:36.560
+ which is the nodes that are sort of the trust anchor in the Tor system,
+
+00:04:36.560 --> 00:04:45.680
+ will be able to tune certain parameters based on various ideas or experiments we want to try out.
+
+00:04:45.680 --> 00:04:50.160
+ So all of this sounds good, and many people will sort of say,
+
+00:04:50.160 --> 00:04:55.440
+ "Okay, is this then going to be super performant, or how is it actually going to change things?"
+
+00:04:55.440 --> 00:05:00.240
+ As some of you may know, we have had a denial of service going on on the network for quite a while,
+
+00:05:00.240 --> 00:05:04.240
+ so I'm trying to show this using some fairly old plots,
+
+00:05:04.240 --> 00:05:10.560
+ and then show it with some very current plots after the network has upgraded to the 047.
+
+00:05:10.560 --> 00:05:14.720
+ So if you look at this one, this is the time to complete a 5 MB download
+
+00:05:14.720 --> 00:05:17.120
+ to a public server over the Tor network.
+
+00:05:17.120 --> 00:05:20.080
+ As you can see, the variance is very, very high in this.
+
+00:05:20.080 --> 00:05:25.760
+ We have some error conditions where it took up to 50 seconds for these requests to go through,
+
+00:05:25.760 --> 00:05:29.680
+ and most likely the user will have abandoned the web request that was happening there.
+
+00:05:29.680 --> 00:05:32.960
+ So after we deployed congestion control, it now looks like this.
+
+00:05:32.960 --> 00:05:36.480
+ We're down to having sort of a 20 second boundary on this,
+
+00:05:36.480 --> 00:05:38.160
+ and it's starting to look a whole lot better,
+
+00:05:38.160 --> 00:05:41.680
+ and you will likely also experience this when you're using Tor browser in your daily life,
+
+00:05:41.680 --> 00:05:45.440
+ because ideally the request should go through quickly, right?
+
+00:05:45.920 --> 00:05:52.240
+ I believe there's a lot of you in this room, or in this stage, that is operating Tor relays.
+
+00:05:52.240 --> 00:05:56.880
+ A massive thank you to everybody who upgraded to 047 very, very quickly.
+
+00:05:56.880 --> 00:05:58.560
+ Yes, big round of applause for that.
+
+00:05:58.560 --> 00:06:08.160
+ It is so important that when we get releases out, that they get deployed to the network,
+
+00:06:08.160 --> 00:06:12.400
+ because many of the releases that we make requires us to upgrade the network,
+
+00:06:12.400 --> 00:06:15.280
+ before we can start upgrading the clients.
+
+00:06:15.280 --> 00:06:18.320
+ So before we can start including these features in, for example, Tor browser,
+
+00:06:18.320 --> 00:06:22.000
+ or other applications that use this Tor, then we need the network to be upgraded.
+
+00:06:22.000 --> 00:06:25.280
+ So huge thanks to everybody who's been doing this.
+
+00:06:25.280 --> 00:06:30.400
+ I think last week, I've been camping for a while,
+
+00:06:30.400 --> 00:06:34.880
+ but last week we released the release candidate for the Tor 048.
+
+00:06:34.880 --> 00:06:38.560
+ Just like with 047, which had the congestion control feature,
+
+00:06:38.560 --> 00:06:41.200
+ there's some pretty cool features that we have in there.
+
+00:06:41.200 --> 00:06:43.440
+ The congestion control feature, there's some pretty important features
+
+00:06:43.440 --> 00:06:47.120
+ that I'll be talking about in a moment, which is coming out in this release.
+
+00:06:47.120 --> 00:06:50.800
+ So we really hope that people will be very, very snappy with upgrading quickly again,
+
+00:06:50.800 --> 00:06:53.840
+ so we can start testing these things out on the live network.
+
+00:06:53.840 --> 00:07:01.040
+ So one of the big features that we are adding in 048 is very much related
+
+00:07:01.040 --> 00:07:03.440
+ to this denial of service attacks that we've seen.
+
+00:07:03.440 --> 00:07:09.680
+ The nature of the denial of service attack is not so that there is one denial of service attack.
+
+00:07:09.680 --> 00:07:13.120
+ We've likely seen many different kinds of attacks that's happening within the network.
+
+00:07:13.120 --> 00:07:16.800
+ But because of the design in Tor, we can't really go in and say,
+
+00:07:16.800 --> 00:07:18.640
+ and pinpoint what exactly is happening,
+
+00:07:18.640 --> 00:07:22.400
+ but we know that some of the attacks is happening towards onion service traffic,
+
+00:07:22.400 --> 00:07:26.080
+ which means that it stays within the network and never goes out over the exit nodes.
+
+00:07:26.080 --> 00:07:30.400
+ So one thing we've implemented is that we have implemented a proof of work scheme.
+
+00:07:30.400 --> 00:07:36.320
+ Some of you know these from blockchain projects and how they are burning down our planet.
+
+00:07:38.160 --> 00:07:41.680
+ This system is designed in a way so that by default it's not enabled,
+
+00:07:41.680 --> 00:07:45.200
+ but the onion service, if it sort of realizes that it's under attack
+
+00:07:45.200 --> 00:07:47.520
+ on various network conditions, seems bad.
+
+00:07:47.520 --> 00:07:50.000
+ It can enable it and slowly sort of increase the
+
+00:07:50.000 --> 00:07:54.160
+ difficulty that is used for clients to connect.
+
+00:07:54.160 --> 00:08:00.160
+ We have chosen a scheme that we got help from from a contributor called Tiverdoor.
+
+00:08:00.160 --> 00:08:02.640
+ Thanks to them for working on this.
+
+00:08:02.640 --> 00:08:06.800
+ If you are interested in sort of the technical details about how this scheme works,
+
+00:08:06.800 --> 00:08:12.320
+ we have this proposal called 327, which includes all the technical aspects for how to implement it.
+
+00:08:12.320 --> 00:08:18.400
+ And as of last week, I believe, we also have the documentation ready if you are operating onion
+
+00:08:18.400 --> 00:08:23.440
+ services for how to use this feature and testing it out in your production system.
+
+00:08:23.440 --> 00:08:30.560
+ There is one slight catch with this proof of work scheme.
+
+00:08:30.560 --> 00:08:31.840
+ It uses quite a lot of memory,
+
+00:08:32.640 --> 00:08:37.520
+ which means that particularly for Apple's very closed iOS platform,
+
+00:08:37.520 --> 00:08:40.480
+ we are likely not going to be able to enable it.
+
+00:08:40.480 --> 00:08:43.280
+ It's Guardian Project who is doing the ORBOT for iOS.
+
+00:08:43.280 --> 00:08:46.960
+ And because of Apple's network extension memory limits,
+
+00:08:46.960 --> 00:08:49.680
+ we are very unlikely to be able to support it there.
+
+00:08:49.680 --> 00:08:52.960
+ But the effect will likely be the same as if the feature was not there,
+
+00:08:52.960 --> 00:08:58.000
+ namely that if there is an error condition happening for the given onion service,
+
+00:08:58.000 --> 00:09:00.080
+ then the client will simply not be able to reach it.
+
+00:09:00.080 --> 00:09:02.320
+ And this will just impact iOS users more.
+
+00:09:02.880 --> 00:09:06.640
+ If you know anybody who works for Apple, then please ask them to bump this limit.
+
+00:09:06.640 --> 00:09:10.800
+ It has been bumped a few times, but it's still a bit too low for us at least.
+
+00:09:10.800 --> 00:09:18.240
+ The big feature that is going to come in 048 is a feature called conflux.
+
+00:09:18.240 --> 00:09:24.080
+ Historically, most people in here is probably aware of that when you have a torrent circuit,
+
+00:09:24.080 --> 00:09:28.400
+ you have a decline which connects to a guard node and you extend it to a middle node and
+
+00:09:28.400 --> 00:09:33.280
+ then finally to an exit node where you then make your TCP flows out to the internet.
+
+00:09:33.280 --> 00:09:40.000
+ One of the API features that we have now inside of Tor from the congestion control system
+
+00:09:40.000 --> 00:09:43.680
+ is that we can get information while the traffic is being sent and received
+
+00:09:43.680 --> 00:09:45.760
+ on how congested the link is.
+
+00:09:45.760 --> 00:09:51.120
+ This allows us to utilize this conflux feature to create multiple legs into the network
+
+00:09:51.120 --> 00:09:54.800
+ and sort of rendezvous at the exit node.
+
+00:09:54.800 --> 00:09:58.640
+ And then the client can learn which of these two paths through the network is the least
+
+00:09:58.640 --> 00:10:01.760
+ congested and switch over to transmit and receive on that one.
+
+00:10:01.760 --> 00:10:06.560
+ So hopefully, now that we have seen with the congestion control part that we have gotten
+
+00:10:06.560 --> 00:10:11.600
+ the variance of errors and delays down, then we hope with conflux we'll see sort of a greater
+
+00:10:11.600 --> 00:10:16.320
+ performance when you're downloading larger things and using the Tor network in general.
+
+00:10:18.880 --> 00:10:25.520
+ One of the really nice things with this whole performance project we've been running in the
+
+00:10:25.520 --> 00:10:30.640
+ network team for a while now has been how the team has been working together and developing
+
+00:10:30.640 --> 00:10:31.360
+ things.
+
+00:10:31.360 --> 00:10:33.600
+ We have historically used this tool called Chutney.
+
+00:10:33.600 --> 00:10:38.320
+ It's sort of a little Python thing where you can say give me a Tor network with 400
+
+00:10:38.320 --> 00:10:42.640
+ nodes and it then starts 400 Tor instances on your computer and you can test things.
+
+00:10:42.640 --> 00:10:48.400
+ We also have a system called Shadow which is like a more powerful simulator where you
+
+00:10:48.400 --> 00:10:52.960
+ can sort of simulate a whole Tor network and including having time change.
+
+00:10:52.960 --> 00:10:58.880
+ So we can, for example, simulate a year's use of the Tor system over like a couple of
+
+00:10:58.880 --> 00:11:03.120
+ hours and we can even do it in our CI tool chain which has been really, really awesome.
+
+00:11:03.120 --> 00:11:12.160
+ One really nice thing with sort of how we work, we work like many research projects.
+
+00:11:12.160 --> 00:11:13.680
+ So we get grants to do our work.
+
+00:11:15.120 --> 00:11:19.440
+ Often these denial of service conditions that happen have this impact that we need to drop
+
+00:11:19.440 --> 00:11:24.560
+ everything we're currently doing of deliverables and switch over to doing like mitigating the
+
+00:11:24.560 --> 00:11:25.440
+ attacks.
+
+00:11:25.440 --> 00:11:30.880
+ We fortunately now have a sponsor where we can do some of this work on denial of service
+
+00:11:30.880 --> 00:11:34.480
+ if something comes up and if you need to tune things or if we need to come up with new
+
+00:11:34.480 --> 00:11:35.440
+ mitigation techniques.
+
+00:11:35.440 --> 00:11:39.600
+ For people who are sort of nerding out on our GitLab, then these things are tracked as
+
+00:11:39.600 --> 00:11:44.400
+ like GitLab has this label thing and we have a denial of service label and we also have
+
+00:11:44.400 --> 00:11:45.440
+ a sponsor 112.
+
+00:11:45.440 --> 00:11:49.440
+ So if people are interested in seeing what kind of things we are planning, you can go
+
+00:11:49.440 --> 00:11:49.840
+ look there.
+
+00:11:49.840 --> 00:11:55.520
+ How many people in here have heard of RD?
+
+00:11:55.520 --> 00:11:58.000
+ Okay, not so many.
+
+00:11:58.000 --> 00:12:04.240
+ RD is our attempt, hopefully it's going to be successful, with trying to write a Rust
+
+00:12:04.240 --> 00:12:07.920
+ implementation of Tor that will eventually replace the C implementation.
+
+00:12:08.960 --> 00:12:15.040
+ One of the issues that exists with C Tor is it's a very old application by now that has
+
+00:12:15.040 --> 00:12:16.480
+ sort of evolved over time.
+
+00:12:16.480 --> 00:12:22.240
+ The architecture of it is not really fit for sort of the modern day world, how we do
+
+00:12:22.240 --> 00:12:24.880
+ applications, how we have mobile applications and so on.
+
+00:12:24.880 --> 00:12:32.160
+ So RD will become primarily an API for working with different kind of Tor objects like our
+
+00:12:32.160 --> 00:12:35.600
+ D network documents and making circuits and these kind of things.
+
+00:12:36.880 --> 00:12:41.920
+ And it will eventually allow you to both build a Tor binary like you're used to having today
+
+00:12:41.920 --> 00:12:46.800
+ where you can connect over a SOX port, but it will also allow you to have a Tor implementation
+
+00:12:46.800 --> 00:12:49.760
+ embedded into your applications if you want to do certain things.
+
+00:12:49.760 --> 00:12:54.240
+ And finally, it will also of course support onion services.
+
+00:12:54.240 --> 00:13:03.840
+ We - it's not an easy decision to make that you want to rewrite, like throw away so many
+
+00:13:03.840 --> 00:13:07.680
+ years of work and then try to rewrite it in another language.
+
+00:13:07.680 --> 00:13:12.640
+ We do some assessment on our issues.
+
+00:13:12.640 --> 00:13:15.840
+ When we have issues that we consider that they have such severity that they would be
+
+00:13:15.840 --> 00:13:17.120
+ considered security bugs.
+
+00:13:17.120 --> 00:13:22.800
+ And we could see at some point that 21 out of 34 of what we call troves, they're a bit
+
+00:13:22.800 --> 00:13:27.680
+ like our internal CVEs where we have some different categories that we use, would be
+
+00:13:27.680 --> 00:13:32.640
+ highly unlikely to happen if we were using more memory safe languages such as Rust.
+
+00:13:33.440 --> 00:13:38.720
+ Another big component of this is that the network team at Tor is much more excited about Rust
+
+00:13:38.720 --> 00:13:43.440
+ than they are with C and developer happiness is fairly important as well.
+
+00:13:43.440 --> 00:13:52.560
+ If we look a bit at the roadmap for RD, we are now at the point where we are working on onion
+
+00:13:52.560 --> 00:13:52.960
+ services.
+
+00:13:52.960 --> 00:13:55.120
+ We've just entered the year two funding for this.
+
+00:13:55.120 --> 00:14:00.000
+ There's already stuff that if people want to try around with having sort of a little
+
+00:14:00.000 --> 00:14:04.160
+ Rust library where you can build onion services, then you can start trying it out today.
+
+00:14:04.160 --> 00:14:09.120
+ The goal is that when we are at the end of this year, the browser team at Tor will be
+
+00:14:09.120 --> 00:14:13.920
+ start to be able to play around with embedding RD into the browser.
+
+00:14:13.920 --> 00:14:20.640
+ We are currently working on getting funding for building relays and bridges and directory
+
+00:14:20.640 --> 00:14:23.360
+ authorities and all these sort of things that are hosting the network.
+
+00:14:23.360 --> 00:14:27.360
+ But for now we are sort of focusing on the client side because the way Tor is designed,
+
+00:14:27.360 --> 00:14:29.440
+ the client side is sort of the difficult thing to build.
+
+00:14:29.440 --> 00:14:38.560
+ Right now it's almost the majority of the network team at Tor is working on RD or RD
+
+00:14:38.560 --> 00:14:39.520
+ related deliverables.
+
+00:14:39.520 --> 00:14:43.520
+ We also have a little VPN project that we are experimenting with that is also getting
+
+00:14:43.520 --> 00:14:44.160
+ some attention.
+
+00:14:44.160 --> 00:14:49.120
+ We hope to very soon have sort of the entire team focusing on this.
+
+00:14:49.120 --> 00:14:54.400
+ We are currently three people out of ten, I think, that is sort of left focusing on
+
+00:14:54.400 --> 00:14:54.960
+ C Tor.
+
+00:14:55.600 --> 00:15:00.160
+ What you will most likely see is that we will start limiting client features, so only do
+
+00:15:00.160 --> 00:15:06.320
+ the things that is needed to upgrade the network and then do the client features primarily
+
+00:15:06.320 --> 00:15:09.040
+ in RD itself.
+
+00:15:09.040 --> 00:15:12.560
+ One of the big things we want to work on soon is UDP, for example.
+
+00:15:12.560 --> 00:15:16.960
+ UDP will have a network upgrade in the C Tor implementation and then it will have
+
+00:15:16.960 --> 00:15:20.160
+ client feature support only existing in RD.
+
+00:15:20.160 --> 00:15:24.560
+ We will of course continue to support C Tor until we are ready to replace it.
+
+00:15:24.560 --> 00:15:26.320
+ It would be crazy to do anything else.
+
+00:15:26.320 --> 00:15:31.600
+ If you are interested in tracking some of these engineering efforts that we are doing,
+
+00:15:31.600 --> 00:15:37.520
+ I believe that one of the nice things we have with RD is that it will probably be easier
+
+00:15:37.520 --> 00:15:40.640
+ for more people such as yourself to contribute.
+
+00:15:40.640 --> 00:15:44.640
+ The C Tor codebase was a bit difficult to get, sort of wrap your head around when you
+
+00:15:44.640 --> 00:15:45.600
+ were just diving into it.
+
+00:15:45.600 --> 00:15:53.120
+ We have an RSC channel, Tor Dev, on the OFTC network and we also map it over to Matrix
+
+00:15:53.120 --> 00:15:53.760
+ as Tor Dev.
+
+00:15:54.320 --> 00:15:59.680
+ We have our GitLab account, well, our GitLab instance where you can track the engineering
+
+00:15:59.680 --> 00:16:02.320
+ efforts and what we are doing and so on.
+
+00:16:02.320 --> 00:16:05.520
+ If any of you are interested in this, you are also welcome to come and find me here at
+
+00:16:05.520 --> 00:16:07.280
+ camp and talk a bit about these things.
+
+00:16:07.280 --> 00:16:12.960
+ Now I'm going to pass the mic to Juga who is going to talk a bit about bandwidth scanning.
+
+00:16:22.080 --> 00:16:29.440
+ So, bandwidth scanners, we need them to monitor the Tor network performance, to better distribute
+
+00:16:29.440 --> 00:16:32.960
+ the load across the network and to help to verify relays bandwidth.
+
+00:16:32.960 --> 00:16:39.360
+ Because the relays themselves report the bandwidth they see that pass through them, but there
+
+00:16:39.360 --> 00:16:43.360
+ are no other relays to verify them, to verify that.
+
+00:16:43.360 --> 00:16:45.840
+ So, how it works.
+
+00:16:47.520 --> 00:16:54.320
+ The scanner builds two hub circuits between the relay that wants to measure and another
+
+00:16:54.320 --> 00:16:58.240
+ relay that helps to measure this relay with double bandwidth.
+
+00:16:58.240 --> 00:17:05.440
+ Then the load data through this circuit and write it in a file.
+
+00:17:05.440 --> 00:17:14.800
+ Every hour, this file is read by the director authorities and they vote on the consensus
+
+00:17:14.800 --> 00:17:18.080
+ with.
+
+00:17:18.080 --> 00:17:27.200
+ This is a graph of the number of relays measured by the bandwidth scanner by each directory
+
+00:17:27.200 --> 00:17:29.120
+ authority in the last four days.
+
+00:17:29.120 --> 00:17:36.160
+ What is new now is that we have also a bridge scanner.
+
+00:17:36.160 --> 00:17:41.760
+ The bridge scanner works in a very similar way, but it creates three hubs circuit.
+
+00:17:41.760 --> 00:17:51.680
+ This helps with the users to have a better experience because now, instead of just distributing
+
+00:17:51.680 --> 00:17:58.640
+ the bridges that are available, the bridge authority is distributing the bridges that
+
+00:17:58.640 --> 00:18:03.920
+ which bandwidth ratio is over a certain threshold.
+
+00:18:07.040 --> 00:18:12.400
+ This is a graph about the measured bridges in the last days.
+
+00:18:12.400 --> 00:18:18.000
+ The ones that were accepted over that ratio and the ones that are not.
+
+00:18:18.000 --> 00:18:25.920
+ Then Gecko is going to talk about more network health things.
+
+00:18:25.920 --> 00:18:29.280
+ Thanks.
+
+00:18:36.640 --> 00:18:37.120
+ Looks good.
+
+00:18:37.120 --> 00:18:38.080
+ Thanks.
+
+00:18:38.080 --> 00:18:45.840
+ You heard already from Alex and Hugo a lot about the performance angle of network health work.
+
+00:18:45.840 --> 00:18:52.880
+ As you might know, there are many more things we have to consider once we want to think
+
+00:18:52.880 --> 00:18:55.200
+ about whether a network is in a healthy state or not.
+
+00:18:55.200 --> 00:19:01.920
+ We have a project Alex has been mentioning already which we are currently focused on,
+
+00:19:01.920 --> 00:19:09.120
+ which is trying to defend more effectively against malicious relays, which is a considerable
+
+00:19:09.120 --> 00:19:11.200
+ issue for the Torrentburg for a long time.
+
+00:19:11.200 --> 00:19:12.320
+ You might have heard about this.
+
+00:19:12.320 --> 00:19:17.440
+ You can see the details in the blog post I wrote a while ago.
+
+00:19:17.440 --> 00:19:22.880
+ Having malicious relays in the network is definitely not good for the health of the
+
+00:19:22.880 --> 00:19:23.840
+ network overall.
+
+00:19:24.800 --> 00:19:34.800
+ What we want to do is improving the state of the art which is currently deployed and which
+
+00:19:34.800 --> 00:19:36.160
+ we currently have as tools.
+
+00:19:36.160 --> 00:19:39.840
+ That is only one of the things which needs improvements.
+
+00:19:39.840 --> 00:19:48.080
+ As we have seen over the years of fighting malicious relays, setting on having more and
+
+00:19:48.080 --> 00:19:53.840
+ more sophisticated tools to find and hunt down and kick out malicious relays is not going
+
+00:19:53.840 --> 00:19:55.520
+ to fly over the long run.
+
+00:19:55.520 --> 00:19:58.880
+ There is no way to win this arms race in that way.
+
+00:19:58.880 --> 00:20:06.560
+ We have to have a kind of a social approach as well, a different tool in our tool chain
+
+00:20:06.560 --> 00:20:10.000
+ for defending against malicious relays that way.
+
+00:20:10.000 --> 00:20:14.640
+ Gus will talk a bit about that, what we have in mind and what we plan in the next couple
+
+00:20:14.640 --> 00:20:16.160
+ of weeks and months.
+
+00:20:16.160 --> 00:20:19.760
+ But that is an important thing to keep in mind.
+
+00:20:19.760 --> 00:20:25.440
+ There is no technical only solution against malicious relays in the Tor network.
+
+00:20:25.440 --> 00:20:27.680
+ We are working on that part, getting this right.
+
+00:20:27.680 --> 00:20:34.400
+ The other important point when you are thinking about network health is that there are a lot
+
+00:20:34.400 --> 00:20:43.680
+ of relay attacks which we have seen over time over the years in practice and in papers.
+
+00:20:43.680 --> 00:20:48.480
+ We never found time to actually address those in our day-to-day work.
+
+00:20:48.480 --> 00:20:51.280
+ We got funding for that.
+
+00:20:51.280 --> 00:20:54.880
+ I will talk a bit later about what those attacks are we have in mind.
+
+00:20:54.880 --> 00:20:59.040
+ Alex mentioned one, which is a really hard one.
+
+00:20:59.040 --> 00:21:11.200
+ Because we have seen in this year four different attacks coming to the network at the same
+
+00:21:11.200 --> 00:21:18.720
+ time and all four of them would have needed totally different approaches to tackle them.
+
+00:21:18.720 --> 00:21:22.640
+ One, Alex mentioned already the proof of work thing and there are other ones.
+
+00:21:22.640 --> 00:21:28.000
+ But we want to make progress on those things as well in this upcoming work.
+
+00:21:28.000 --> 00:21:34.400
+ The timeline for the project was October 22 to October 24.
+
+00:21:34.400 --> 00:21:39.840
+ We are kind of in the middle of where we are with the work on this part.
+
+00:21:39.840 --> 00:21:43.280
+ We have to dig a bit deeper.
+
+00:21:43.280 --> 00:21:49.680
+ It is not just fixing tools for detecting malicious relays or fixing those attacks.
+
+00:21:49.680 --> 00:21:52.560
+ We have to redo our matrix pipeline as well.
+
+00:21:52.560 --> 00:22:00.320
+ The reason for that is, as I said, it is not really enough to have tools for detecting
+
+00:22:00.320 --> 00:22:02.560
+ malicious relays and then kicking them out.
+
+00:22:02.560 --> 00:22:09.680
+ Sometimes we have seen really persistent attackers in the network doing attacks over a month
+
+00:22:09.680 --> 00:22:12.560
+ and sometimes one or two years.
+
+00:22:12.560 --> 00:22:16.080
+ So we need to detect those things earlier.
+
+00:22:16.080 --> 00:22:23.100
+ And we need to do those detections by not having only compressed tables of descriptors
+
+00:22:23.100 --> 00:22:28.160
+ and consensus and whatnot over a month and years as we have it now.
+
+00:22:28.160 --> 00:22:32.720
+ Because that is really cumbersome to work with and slowing things down.
+
+00:22:32.720 --> 00:22:38.800
+ So what we want to do is we want to redo our matrix pipeline in a way, as you can see on
+
+00:22:38.800 --> 00:22:39.800
+ this picture here.
+
+00:22:39.800 --> 00:22:46.200
+ So we have a downloader which is downloading all the different descriptors and then macro
+
+00:22:46.200 --> 00:22:48.800
+ descriptors and consensus.
+
+00:22:48.800 --> 00:22:53.000
+ And it is writing things in an archive and at the same time it is putting things in a
+
+00:22:53.000 --> 00:23:00.000
+ Postgres QL database and then a Victoria matrix piece which is helping with the time series.
+
+00:23:00.000 --> 00:23:06.440
+ And then we want to do a RESTful API written in REST where we can query stuff and having
+
+00:23:06.440 --> 00:23:11.400
+ some shiny Grafana dashboards where you can easily see how things are going on.
+
+00:23:11.400 --> 00:23:18.720
+ This is not just meant to be for our internal usage, but of course at the first time we
+
+00:23:18.720 --> 00:23:21.560
+ would be the ones dog fooding our stuff.
+
+00:23:21.560 --> 00:23:27.600
+ But we plan to somehow expose this to interested operators and the wider community as well
+
+00:23:27.600 --> 00:23:33.720
+ where they can dig through the data and come up with issues in the network we might not
+
+00:23:33.720 --> 00:23:39.440
+ see and just play with stuff around at some point later.
+
+00:23:39.440 --> 00:23:42.200
+ You see how this goes.
+
+00:23:42.200 --> 00:23:47.640
+ At the second point we want to do while we are working on this project in the matrix
+
+00:23:47.640 --> 00:23:55.720
+ area is we want to build a small service to annotate our knowledge of the tool network
+
+00:23:55.720 --> 00:23:58.060
+ and this tool is called TagTool.
+
+00:23:58.060 --> 00:24:01.320
+ And it is basically like a relay search we have right now.
+
+00:24:01.320 --> 00:24:07.720
+ If you go to matrix.toolproject.org there is an option to look at the state of your
+
+00:24:07.720 --> 00:24:10.320
+ relays via a relay search.
+
+00:24:10.320 --> 00:24:16.840
+ And what you want to do here is we want to add a little node or category to tool routers
+
+00:24:16.840 --> 00:24:25.120
+ where we can keep kind of state of tool routers which would for instance say hey, maybe Gus
+
+00:24:25.120 --> 00:24:29.520
+ knows the operator or maybe I am knowing the operator or maybe Roger knows the operator
+
+00:24:29.520 --> 00:24:36.160
+ and maybe you can annotate and say hey, I have met this guy at the camp or at DefCon
+
+00:24:36.160 --> 00:24:37.240
+ or whatever.
+
+00:24:37.240 --> 00:24:42.820
+ So we can see a bit first how many of the operators we actually know.
+
+00:24:42.820 --> 00:24:44.320
+ Because nobody is knowing this nowadays.
+
+00:24:44.320 --> 00:24:50.520
+ And then we can ask, I know these number of operators and we can think about how many
+
+00:24:50.520 --> 00:24:55.560
+ of the capacity of the network do I actually know by operators.
+
+00:24:55.560 --> 00:24:57.120
+ This kind of stuff.
+
+00:24:57.120 --> 00:25:02.440
+ And this allows us later on to put actually tools for our bad relay work on top of that.
+
+00:25:02.440 --> 00:25:05.480
+ Gus mentioned some of those.
+
+00:25:05.480 --> 00:25:10.060
+ One thing that got mentioned in the past is we could say okay, in order to minimise the
+
+00:25:10.060 --> 00:25:17.360
+ risk for our users, we could just cap the total amount of exit capacity a single operator
+
+00:25:17.360 --> 00:25:19.900
+ can run in the network.
+
+00:25:19.900 --> 00:25:22.760
+ Right now it is not really a thing embedded in the code.
+
+00:25:22.760 --> 00:25:29.040
+ It is kind of operators contacting us and saying hey, I am now running 10% of the exit capacity,
+
+00:25:29.040 --> 00:25:32.000
+ is that okay or should I maybe do something else?
+
+00:25:32.000 --> 00:25:37.600
+ Because it might be exposing too much risk to your users.
+
+00:25:37.600 --> 00:25:43.080
+ But then we could think about building a thing, maybe say okay, maybe it is just allowed for
+
+00:25:43.080 --> 00:25:47.520
+ exit operators to run 5% of the exit capacity or maybe just 10 or whatever.
+
+00:25:47.520 --> 00:25:52.240
+ But first of all we need to know how many of those folks we actually know to have an
+
+00:25:52.240 --> 00:25:58.520
+ idea of how many people we trust in the network by now.
+
+00:25:58.520 --> 00:26:02.400
+ So for the relay attacks, here are some of the things we could think about and we are
+
+00:26:02.400 --> 00:26:03.400
+ actually thinking about.
+
+00:26:03.400 --> 00:26:09.840
+ You can find more details in this milestone where we have a detailed description of the
+
+00:26:09.840 --> 00:26:13.280
+ things we want to work on and managing those attacks.
+
+00:26:13.280 --> 00:26:19.520
+ There are really side channel attacks we have seen in the past where users got de-anonymised,
+
+00:26:19.520 --> 00:26:28.520
+ you want to investigate and finally fix tagging attacks, where we try to manipulate the routes
+
+00:26:28.520 --> 00:26:35.360
+ of the network users can use, not be, but attackers can use and we try to defend that.
+
+00:26:35.360 --> 00:26:37.920
+ And those attacks are already mentioned.
+
+00:26:37.920 --> 00:26:45.040
+ We have some traffic analysis papers, resistance papers seen in the past and we want to implement
+
+00:26:45.040 --> 00:26:51.640
+ the most promising things from them into the code we have.
+
+00:26:51.640 --> 00:26:54.180
+ And then there are bandwidth inflation attacks.
+
+00:26:54.180 --> 00:26:57.840
+ You might recall Huka talking about the bandwidth scanner.
+
+00:26:57.840 --> 00:27:03.160
+ One of the ideas was at some point building a bandwidth scanner, which is actually not
+
+00:27:03.160 --> 00:27:13.000
+ really only measuring the bandwidth, but detecting once relays try to claim they are able to
+
+00:27:13.000 --> 00:27:16.280
+ relay more traffic than they actually are.
+
+00:27:16.280 --> 00:27:22.800
+ Because there might be people around saying, oh, I just set up this relay and whenever
+
+00:27:22.800 --> 00:27:29.680
+ a user is coming, I just give it a really crappy service trying to minimise the cost
+
+00:27:29.680 --> 00:27:35.720
+ I have for running a relay, but once the bandwidth scanner is coming and measuring my relay,
+
+00:27:35.720 --> 00:27:41.400
+ I show there is a really big bandwidth I have available and that's why I get a higher consensus
+
+00:27:41.400 --> 00:27:46.840
+ rate which means more users are picking my router in the circuit.
+
+00:27:46.840 --> 00:27:52.200
+ And this kind of cheating and attacking the network you want to avoid at some point.
+
+00:27:52.200 --> 00:27:57.800
+ And there are ways we can do that actually and we are working in this project moving
+
+00:27:57.800 --> 00:28:00.640
+ forward in this direction.
+
+00:28:00.640 --> 00:28:02.800
+ So I think that's it for me.
+
+00:28:02.800 --> 00:28:08.800
+ I pass the mic to Gus for the final part.
+
+00:28:08.800 --> 00:28:15.800
+ [Applause]
+
+00:28:15.800 --> 00:28:17.720
+ Hello.
+
+00:28:17.720 --> 00:28:23.440
+ So this is a Tor exit node that is hosted here in CCC camp.
+
+00:28:23.440 --> 00:28:32.640
+ Thanks, Article 10, for her running this relay.
+
+00:28:32.640 --> 00:28:38.280
+ So I'm going to talk a little bit about the work that the Tor community team is doing.
+
+00:28:38.280 --> 00:28:45.720
+ The thing that we need to acknowledge is that Tor as an organisation, we developed the software.
+
+00:28:45.720 --> 00:28:52.720
+ As you see Alex talking about the complex stuff, about conflux, congestion control,
+
+00:28:52.720 --> 00:28:58.360
+ algorithms, Geekoo and Hugo talking about network health.
+
+00:28:58.360 --> 00:29:03.680
+ But there is a very important component that is the community who is running the software.
+
+00:29:03.680 --> 00:29:08.400
+ Like without relay operators we don't have Tor network or we don't have Tor.
+
+00:29:08.400 --> 00:29:16.640
+ So the idea of this, to mitigate the attacks against Tor, the idea is to improve the network
+
+00:29:16.640 --> 00:29:22.480
+ health or the community health of the Tor network.
+
+00:29:22.480 --> 00:29:29.280
+ So we talked before on building tools to fight bad relays like creating scanners and this
+
+00:29:29.280 --> 00:29:30.280
+ kind of stuff.
+
+00:29:30.280 --> 00:29:36.280
+ This is one way to fight bad relays but the other way is also using the social approach.
+
+00:29:36.280 --> 00:29:41.400
+ So instead of running scanners, this is also what we are going to do, but the idea is to
+
+00:29:41.400 --> 00:29:43.680
+ have a community that we know.
+
+00:29:43.680 --> 00:29:48.640
+ So we can say, oh, this person that is running 100 relays, we know them and they are cool
+
+00:29:48.640 --> 00:29:50.380
+ people.
+
+00:29:50.380 --> 00:29:57.400
+ So the idea is to make the community harder for infiltration.
+
+00:29:57.400 --> 00:29:59.240
+ So one quick question.
+
+00:29:59.240 --> 00:30:02.520
+ Please raise your hand if you are running a Tor node.
+
+00:30:02.520 --> 00:30:03.520
+ Okay.
+
+00:30:03.520 --> 00:30:06.920
+ I can see some people.
+
+00:30:06.920 --> 00:30:14.480
+ So according to our specialist on Twitter, called X, the NSA controls a significant amount
+
+00:30:14.480 --> 00:30:16.120
+ of Tor nodes.
+
+00:30:16.120 --> 00:30:17.480
+ Something like 90%.
+
+00:30:17.480 --> 00:30:19.560
+ I don't know how accurate is this.
+
+00:30:19.560 --> 00:30:21.560
+ I heard the day steps.
+
+00:30:21.560 --> 00:30:23.160
+ Nothing is truly safe.
+
+00:30:23.160 --> 00:30:32.040
+ So according to this random person on the Internet, 90% of people here are paid or part of NSA.
+
+00:30:32.040 --> 00:30:33.300
+ And this is ridiculous.
+
+00:30:33.300 --> 00:30:39.440
+ So we can see part of the network health discussion on the Internet is very low.
+
+00:30:39.440 --> 00:30:45.200
+ People do claims about who is running Tor relays and this is something that we want
+
+00:30:45.200 --> 00:30:46.480
+ to change.
+
+00:30:46.480 --> 00:30:54.240
+ Not about the reputation but also about knowing the community, showing the work that people
+
+00:30:54.240 --> 00:30:56.680
+ are doing is also rewarding.
+
+00:30:56.680 --> 00:31:02.640
+ People want to be seen like, hey, I'm contributing with the Tor network, 10% of the exit capacity
+
+00:31:02.640 --> 00:31:05.840
+ or 15% of the exit capacity.
+
+00:31:05.840 --> 00:31:10.520
+ And this is very important.
+
+00:31:10.520 --> 00:31:16.720
+ So there are many adversaries against Tor, but I believe there are two extreme positions
+
+00:31:16.720 --> 00:31:18.900
+ that are not helpful in this debate.
+
+00:31:18.900 --> 00:31:21.440
+ One is underestimating the problem.
+
+00:31:21.440 --> 00:31:23.080
+ Like well, everything is fine.
+
+00:31:23.080 --> 00:31:25.440
+ Please don't remove my super sketch relays.
+
+00:31:25.440 --> 00:31:26.960
+ They are just happy relays.
+
+00:31:26.960 --> 00:31:29.440
+ So we have this kind of attitude.
+
+00:31:29.440 --> 00:31:32.440
+ And the other one is like overestimation of the problem.
+
+00:31:32.440 --> 00:31:37.040
+ Like oh, well, the CIA is running the whole Tor network, so I'm going to use this other
+
+00:31:37.040 --> 00:31:40.160
+ solution here instead of the Tor network.
+
+00:31:40.160 --> 00:31:45.760
+ And this is obviously a good solution.
+
+00:31:45.760 --> 00:31:51.160
+ So one thing that we have been working to mitigate this problem of trust on the Tor
+
+00:31:51.160 --> 00:31:59.400
+ network is to create a process involving the relay operators.
+
+00:31:59.400 --> 00:32:02.280
+ Hello?
+
+00:32:02.280 --> 00:32:05.640
+ Hello?
+
+00:32:05.640 --> 00:32:12.880
+ Is it working?
+
+00:32:12.880 --> 00:32:13.880
+ Hello?
+
+00:32:13.880 --> 00:32:15.560
+ Okay.
+
+00:32:15.560 --> 00:32:20.920
+ So we have a process involving the Tor community.
+
+00:32:20.920 --> 00:32:28.520
+ So the idea is to have relay operators to submit proposals or ideas or comments or suggestions
+
+00:32:28.520 --> 00:32:34.600
+ how we can improve the Tor network and how we can improve the health of the Tor network.
+
+00:32:34.600 --> 00:32:42.920
+ We wrote recently a policy where you can understand how is the process, how you can submit a proposal
+
+00:32:42.920 --> 00:32:46.420
+ to improve the Tor network health.
+
+00:32:46.420 --> 00:32:49.040
+ So some examples of proposals.
+
+00:32:49.040 --> 00:32:56.280
+ First thing, first example, guideline for consensus that Geco was talking here.
+
+00:32:56.280 --> 00:33:04.580
+ Another thing was allowing allow limit consensus as a fraction by family.
+
+00:33:04.580 --> 00:33:10.720
+ So if you are running a family of nodes, you can only run 10% of the capacity.
+
+00:33:10.720 --> 00:33:15.800
+ No matter what, if you add 100 more relays, it will always be the same.
+
+00:33:15.800 --> 00:33:17.600
+ This is a proposal, it's not approved.
+
+00:33:17.600 --> 00:33:20.800
+ We are evaluating just kind of ideas.
+
+00:33:20.800 --> 00:33:27.280
+ And also we have another proposal, another example of proposal of how you can conduct
+
+00:33:27.280 --> 00:33:30.800
+ open source investigation when you're hunting malicious relays.
+
+00:33:30.800 --> 00:33:37.920
+ So one thing, one problem that we sometimes we have, people report that a relay is bad,
+
+00:33:37.920 --> 00:33:44.120
+ but when we ask them, okay, how that relay is bad, what they are doing, the person doesn't
+
+00:33:44.120 --> 00:33:47.480
+ explain how they came up with that result.
+
+00:33:47.480 --> 00:33:53.680
+ So if we cannot reproduce that thing, we cannot say that's a bad relay.
+
+00:33:53.680 --> 00:34:00.080
+ And if you look, for example, in Twitter and social media and other places, you can see
+
+00:34:00.080 --> 00:34:05.720
+ sometimes people saying crazy stuff about exit nodes or relays, saying like well, this
+
+00:34:05.720 --> 00:34:10.000
+ is clearly malicious because you can see by the contact info.
+
+00:34:10.000 --> 00:34:14.720
+ And sometimes relay operators are very funny people.
+
+00:34:14.720 --> 00:34:23.640
+ They sometimes create names of their associations as CIA about confidential integrity and authentication.
+
+00:34:23.640 --> 00:34:31.160
+ So sometimes people are very funny and users are not, they don't think that's a funny thing.
+
+00:34:31.160 --> 00:34:40.680
+ So this is why we have the guideline to have, to help people to do open source investigation.
+
+00:34:40.680 --> 00:34:47.600
+ So because Tor network is a public network, we should expect that people are checking
+
+00:34:47.600 --> 00:34:52.720
+ their relays and see the behaviour of these relays.
+
+00:34:52.720 --> 00:34:57.960
+ Another example of a proposal that was recently submitted from the community, like we have
+
+00:34:57.960 --> 00:35:03.340
+ a limit of how many relays you can run by IPv4.
+
+00:35:03.340 --> 00:35:04.960
+ So before was true.
+
+00:35:04.960 --> 00:35:10.280
+ And the idea was you cannot run with one single IPv4 address.
+
+00:35:10.280 --> 00:35:12.480
+ You cannot run 1,000 relays.
+
+00:35:12.480 --> 00:35:17.160
+ So to avoid this kind of attack, it was limited to two.
+
+00:35:17.160 --> 00:35:22.320
+ We bumped that number to four because some relay operators wrote a very nice proposal
+
+00:35:22.320 --> 00:35:27.520
+ saying hey, the IPv4 is very expensive and we have hardware, we have capacity, we have
+
+00:35:27.520 --> 00:35:28.520
+ bandwidth.
+
+00:35:28.520 --> 00:35:32.440
+ The only thing that we don't have and very expensive is to buy IPv4.
+
+00:35:32.440 --> 00:35:39.440
+ So the idea was okay, we can bump to four and see how the attackers are going to act,
+
+00:35:39.440 --> 00:35:41.040
+ what is their behaviour.
+
+00:35:41.040 --> 00:35:44.120
+ If everything is fine, we can bump to eight.
+
+00:35:44.120 --> 00:35:51.000
+ So right now you can see that we have, you can run eight relays per IPv4.
+
+00:35:51.000 --> 00:35:54.740
+ And that created a very interesting graphic here.
+
+00:35:54.740 --> 00:36:03.040
+ You can see that before this proposal, we were like 1,500 relays, as it is known, sorry.
+
+00:36:03.040 --> 00:36:08.440
+ And now after this proposal was approved, we have now almost 2,500 relays.
+
+00:36:08.440 --> 00:36:16.200
+ So this is how a policy made by the community and enforced by the project, just how we can
+
+00:36:16.200 --> 00:36:18.360
+ change the network.
+
+00:36:18.360 --> 00:36:23.720
+ So sometimes we believe how we are going to increase the capacity, how we are going to
+
+00:36:23.720 --> 00:36:29.440
+ make more people to collaborate or make the network faster.
+
+00:36:29.440 --> 00:36:33.940
+ Sometimes it's not an engineer thing but also a policy thing.
+
+00:36:33.940 --> 00:36:41.280
+ Like something that we can change on the Tor code, something we can change on the Tor network.
+
+00:36:41.280 --> 00:36:46.780
+ So the next activity that we have here in the camp, tomorrow we have the Tor relay operator
+
+00:36:46.780 --> 00:36:48.000
+ meet up.
+
+00:36:48.000 --> 00:36:51.140
+ You don't need to be running a relay to join this meet up.
+
+00:36:51.140 --> 00:36:56.260
+ If you are interested in Tor, if you have questions about Tor or Snowflake or other
+
+00:36:56.260 --> 00:37:01.880
+ plugable transports that we didn't talk about today, you are welcome to come and ask about
+
+00:37:01.880 --> 00:37:02.880
+ this.
+
+00:37:02.880 --> 00:37:07.520
+ It's going to be on Burn Hack Village at 4pm.
+
+00:37:07.520 --> 00:37:12.360
+ You can also check this very cool project from Article 10 on their village.
+
+00:37:12.360 --> 00:37:17.360
+ I don't know how to pronounce it in German so I'm not going to pronounce it.
+
+00:37:17.360 --> 00:37:21.640
+ And you can check their exit notes and make questions.
+
+00:37:21.640 --> 00:37:29.740
+ Article 10 is one of the top, one of the largest exit operators on the Tor network.
+
+00:37:29.740 --> 00:37:35.780
+ So if you think like, oh, NSA is running a bunch of relays, actually it's probably Article
+
+00:37:35.780 --> 00:37:42.600
+ 10, nothing to hide, that's the operator for Netherlands, many other operators here in
+
+00:37:42.600 --> 00:37:43.600
+ Germany.
+
+00:37:43.600 --> 00:37:49.880
+ So you have opportunity here to, I believe, meet 40% of the Tor exit capacity.
+
+00:37:49.880 --> 00:37:59.320
+ So if you walk around and talk with people, you are running the Tor network.
+
+00:37:59.320 --> 00:38:07.080
+ And we have another campaign happening with the Electronic Fund Foundation called the Tor
+
+00:38:07.080 --> 00:38:08.560
+ University Challenge.
+
+00:38:08.560 --> 00:38:10.760
+ It's diversity but means education.
+
+00:38:10.760 --> 00:38:16.680
+ So if you have a school, if you have an education project, you can join this challenge.
+
+00:38:16.680 --> 00:38:20.720
+ The idea is to have more universities running relays.
+
+00:38:20.720 --> 00:38:27.240
+ And you can see on this website how many universities are running relays.
+
+00:38:27.240 --> 00:38:31.800
+ And if you want to be part of the Tor community, like running relays, there are other ways
+
+00:38:31.800 --> 00:38:37.200
+ to contribute with the Tor project, like doing trainings, translation, et cetera.
+
+00:38:37.200 --> 00:38:39.800
+ But you can also join as an operator.
+
+00:38:39.800 --> 00:38:43.240
+ We have a mailing list that's open and you can subscribe.
+
+00:38:43.240 --> 00:38:44.880
+ We have the Tor forum.
+
+00:38:44.880 --> 00:38:50.480
+ It's a very easy tool for newcomers to join and ask questions.
+
+00:38:50.480 --> 00:38:54.520
+ We have a matrix and IRC to chat with us.
+
+00:38:54.520 --> 00:39:02.840
+ And we have monthly online meetups that are announced on the Tor relays mailing list.
+
+00:39:02.840 --> 00:39:06.320
+ But if you cannot run a relay, you can also run a Zoomflick proxy.
+
+00:39:06.320 --> 00:39:18.320
+ Again, we have more than 141,000 proxies of Zoomflick, which is very important right now
+
+00:39:18.320 --> 00:39:21.880
+ for people in Iran to access the free and open Internet.
+
+00:39:21.880 --> 00:39:24.440
+ And to run a Zoomflick proxy is very easy.
+
+00:39:24.440 --> 00:39:29.520
+ You need to install an add-on on your browser and you can help people.
+
+00:39:29.520 --> 00:39:35.760
+ And yeah, and very curious that Germany is also the top largest country contributing
+
+00:39:35.760 --> 00:39:37.000
+ with Zoomflick proxies.
+
+00:39:37.000 --> 00:39:46.880
+ So again, thank you for running a bunch of Zoomflick proxies.
+
+00:39:46.880 --> 00:39:48.880
+ And I think that's it from me.
+
+00:39:48.880 --> 00:40:01.120
+ A great round of applause for this tour through Tor Networking.
+
+00:40:01.120 --> 00:40:03.640
+ We now have an open mic.
+
+00:40:03.640 --> 00:40:09.640
+ You can queue up here for a few questions.
+
+00:40:09.640 --> 00:40:17.560
+ So if you have a few questions, please queue up back around the back, please.
+
+00:40:17.560 --> 00:40:20.480
+ Start running through the camera.
+
+00:40:20.480 --> 00:40:27.760
+ Hey, thanks for your talk.
+
+00:40:27.760 --> 00:40:31.480
+ I really do see that the attacks on the network are a big problem.
+
+00:40:31.480 --> 00:40:37.320
+ And I find the extra layer of social layer of trust you want to implement interesting.
+
+00:40:37.320 --> 00:40:40.440
+ I can see a few problems with that.
+
+00:40:40.440 --> 00:40:47.920
+ But I mainly wonder if it might undermine the spirit of Tor, the spirit of anonymity,
+
+00:40:47.920 --> 00:40:55.340
+ if I have to identify as a relay operator to you, especially in a country where to operating
+
+00:40:55.340 --> 00:40:56.340
+ might be illegal.
+
+00:40:56.340 --> 00:40:57.340
+ Thank you.
+
+00:40:57.340 --> 00:40:58.340
+ Hello.
+
+00:40:58.340 --> 00:40:59.340
+ Oh, here.
+
+00:40:59.340 --> 00:41:00.340
+ Okay, yeah.
+
+00:41:00.340 --> 00:41:06.000
+ So this is a great question about the transparency and privacy.
+
+00:41:06.000 --> 00:41:12.640
+ The Tor network requires user privacy, and who operates the Tor network, we require transparency.
+
+00:41:12.640 --> 00:41:19.720
+ It doesn't mean that we require phone number, identification, legal names, your passport
+
+00:41:19.720 --> 00:41:20.720
+ number.
+
+00:41:20.720 --> 00:41:21.720
+ We don't require that.
+
+00:41:21.720 --> 00:41:25.540
+ We require like a nickname and some way to contact you.
+
+00:41:25.540 --> 00:41:30.520
+ So we are not requiring your to disclose your legal identity to the Tor project or something
+
+00:41:30.520 --> 00:41:31.520
+ like that.
+
+00:41:31.520 --> 00:41:39.520
+ And this is very important because we wrote recently a document about that, like the Tor
+
+00:41:39.520 --> 00:41:48.880
+ relay expectation for Tor relay operators, which we say running a Tor relay requires
+
+00:41:48.880 --> 00:41:50.180
+ transparency.
+
+00:41:50.180 --> 00:41:54.880
+ So if you cannot do that, maybe running a relay is not the best way to contribute with
+
+00:41:54.880 --> 00:41:56.240
+ the Tor network.
+
+00:41:56.240 --> 00:42:00.640
+ Maybe it's running a training, maybe it's localizing Tor, maybe it's teaching others
+
+00:42:00.640 --> 00:42:04.760
+ about Tor, so you don't expose yourself to the Tor network because the Tor network is
+
+00:42:04.760 --> 00:42:06.000
+ a public network.
+
+00:42:06.000 --> 00:42:14.000
+ So if you are at risk, maybe you should not run a relay.
+
+00:42:14.000 --> 00:42:18.480
+ Thank you for these insights into Tor development.
+
+00:42:18.480 --> 00:42:19.720
+ Thank you for being here.
+
+00:42:19.720 --> 00:42:22.360
+ And I think we can find you somewhere.
+
+00:42:22.360 --> 00:42:27.840
+ If we have further questions, find them.
+
+00:42:27.840 --> 00:42:31.400
+ Thank you.
+
+00:42:31.400 --> 00:42:34.560
+ [APPLAUSE]
+
+00:42:34.560 --> 00:42:37.920
+ [MUSIC PLAYING]
+
+00:42:37.920 --> 00:42:39.360
+ (music ends)
+

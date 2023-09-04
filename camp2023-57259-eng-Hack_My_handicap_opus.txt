@@ -1,0 +1,314 @@
+ [MUSIC]
+ [MUSIC]
+ So hello everyone, welcome to the beautiful Millie Way stage.
+ It's so nice to see all of you on this nice and sunny day, which is going to be very hot.
+ So what do you have to do?
+ Drink water!
+ Oh, shit.
+ That's true.
+ Also use sunscreen and stay in the shade.
+ Take care of your fellow creatures.
+ So we are live.
+ Yes.
+ All right.
+ So also to my dear creatures on the internet.
+ I'm really pleased to announce Mellie Nooks.
+ Mellie Nooks likes to play with machines and is going to talk to us about a very
+ interesting and important topic.
+ It's going to be about open source technologies that promote accessibility.
+ Please everyone give a warm round of applause to Mellie Nooks.
+ Well, good morning CCC.
+ Today I'd like to talk to you about how open source technology can help compensate certain
+ handicaps.
+ I don't like to talk about myself, so let's just get rid of it first.
+ Who am I?
+ I'm a 46 year old web dev dropout who turned into an InfoSec consultant.
+ Got too many interests to be an expert with anything, but I like to play with machines.
+ And I fell in love with hardware hacking during a Mitch Altman's soldering workshop
+ during which I soldered the TV Begone.
+ And that was like 10 years ago.
+ And I've enjoyed playing with alternative ways to control devices ever since.
+ And I'm about to leak some of my most precious medical data and expose my biggest vulnerabilities
+ today so that you, dear best hackers in the universe, can gather enough information and
+ motivation to hack the hell out of not just mine, but as many handicaps as you can.
+ Well, the context is that we have an environment that's full of connected objects and other
+ gadgets and that makes our life way easier.
+ Now we can do about anything from a smart watch to a smartphone.
+ You can spy on your kid or turn on the heating or water the plants.
+ And these technologies are also very useful to help compensate certain handicaps,
+ but they have limits when it regards people whose handicap or combination thereof
+ prevents them from manipulating a smartphone, reading a screen or using vocal command.
+ And as a patient, it is very frustrating to be shut off from all these possibilities,
+ especially when they have the potential to improve our quality of life and to become
+ more independent.
+ Being as autonomous as possible is a need we all share and it shouldn't be a luxury.
+ The good news is that it's not necessary to reinvent the wheel because as you all know
+ here I think there are alternative ways to interact with our technological environment
+ and they already exist.
+ So define handicap.
+ A handicap or disability in proper English is a condition that restricts a person to
+ function physically, mentally or socially.
+ And they come in all shapes and forms.
+ They can be visible, invisible, painful, not painful, temporary, chronical.
+ And the impact that your handicap has on someone's life mainly depends on available
+ support, resources and surroundings.
+ From my own experience, there comes the leak.
+ I can safely say that being diagnosed with a serious form of endometriosis turned my
+ life upside down.
+ And for those who don't know what endometriosis is, like me, it causes, amongst other unpleasant
+ things, chronic pain and there's no cure yet.
+ Yet.
+ So I took a few years of hormone therapy and surgeries but now I'm able to sit, walk, stand
+ again.
+ But there were long periods of time where every single move and step was painful and
+ dangerous.
+ So precious and it had to be anticipated and optimized.
+ But I'm okay now.
+ Define hack my handicap.
+ Well, as a hacker, I made a mistake to consider my body like a complex yet fascinating machine
+ that was full of signals and electrical impulses and where the peripheral nervous system was
+ just another network to debug.
+ Senses like the sight of hearing or touch could be replaced by cameras, microphones, sensors
+ and a lot of MCUs since machines didn't need them to function.
+ And body movement limitation could be expanded by robotic and mechatronic solutions.
+ But yeah, in short, I wanted to treat my handicap like a vulgar bug or shortcut that needed
+ fixing.
+ But I was wrong.
+ My perspective changed when I met two other technophiles whose handicaps were different
+ from mine and we're also looking for alternative ways to improve our quality of life.
+ So we naturally became friends.
+ The target.
+ Well, our group is small but the combined list of our illnesses, symptoms and things
+ we cannot do is as long as my arm.
+ So I guess we are the targets with the notable exception that we are doing it willingly as
+ long as it's in a controlled and safe environment.
+ It's not that we don't appreciate our privacy, but let's face it, there's no such things
+ as problem solving without proper problem solving without proper information gathering.
+ None of us is smarter than all of us.
+ And it's an illusion to think that our medical data are safe anyway.
+ So we are represented by this little mascot.
+ She's called Nian as you can see.
+ She can do she represents the combination of our handicap and this is who you should
+ actually be hacking.
+ She's representing us.
+ So as you can see, she can communicate a bit, but it's painful and she can grab things
+ a little bit.
+ So that's the objective to make that makes it very difficult to use a mobile phone, for
+ instance.
+ So we need to find an alternative.
+ But she reminds us also of the things we can do instead of the things we cannot do.
+ And she's a cutie.
+ So define the scope.
+ Well, living with a handicap in 2023 isn't as effortless as it should be.
+ I mean, we have more knowledge, protective laws, medical equipment than ever.
+ But many disabilities cannot be compensated yet.
+ In my opinion, the main reason for this exclusion is not caused by the lack of available
+ technology called solution, but getting access to them.
+ In France, for instance, it's a bureaucratic hell to get equipment.
+ Their price is outrageously expensive.
+ So it usually takes at least a year between the request for adaptive equipment and its
+ actual delivery to the patient.
+ And that's the best case scenario.
+ Some patients have to wait years for a diagnosis without which with it's not possible to even
+ apply for medical equipment.
+ So you can really stay years without support.
+ And as long as you don't have the handicap stamp on your card, then you cannot even request
+ any equipment.
+ And even then, our profile has to fit a strict protocol that doesn't make any sense where
+ handicaps are categorized in a sort of spreadsheet and with percentages. And this spreadsheet
+ will determine whether your access to a better quality of life is granted or not.
+ The attack surface.
+ So I wish we could hack the whole planet to make it accessible for all.
+ But it's going to take years to make it happen, if ever.
+ Reason that this is not happening yet is money, of course.
+ Straight legislation, proprietary software, medical certification, because every device
+ is not used by somebody with a handicap has to be stamped with a CE.
+ It has to be certified to be used.
+ And all these things have to be taken into consideration.
+ But fortunately, there's a hack to bypass all these constraints.
+ Since it's not illegal yet to hack our own devices and our own homes, it is possible
+ to build interfaces that will only work for one patient and their environment.
+ And another tip is to avoid doing it for commercial purposes if you want to stay out of trouble.
+ So it would be, don't do this for money.
+ So long live open source technology.
+ So I guess the attack surface is located anywhere between what the patient can do
+ and what the patient really would like to do on their own.
+ How to?
+ Well, most of us know someone who lives with a handicap.
+ So that's a good place to start.
+ And in many cases, it's just sufficient to show patients or to explore the native
+ accessibility functions of their smartphones, like screen readers, vocal command, magnification,
+ color correction, or just adding shortcuts to the home screen, and many more.
+ And that really, really helps a lot because most people don't know how to fully exploit
+ the possibility of their smartphone.
+ You can also find a lot of information online, but it's not as efficient as joining the,
+ for instance, the open source medical supply community, or participate to the hacking health
+ marathon.
+ So you can just get your hands on it.
+ And as a tip, also, even if you really want to help, please do not impose your help
+ to someone with a handicap unless they really agree to it.
+ And don't call your beta testers guinea pigs.
+ It's not very appreciated.
+ Resources.
+ Well, nowadays, it's quite easy to find some affordable hardware that's well documented
+ and open source.
+ But my favorite tools to play with are the TV Begone.
+ It will always be my favorite because it was the first.
+ And it triggered a small revolution in my head because, yeah, soldering it, it taught
+ me so much.
+ It gave me countless hours of fun.
+ And it was also an excellent, and it brought me enough confidence, not a lot, but enough
+ confidence to start playing with hardware.
+ And that's, yeah, soldering the TV Begone and playing with the Arduino platform.
+ And it really opened my world to the open source hardware tools like Arduino, Raspberry Pi.
+ And there are many shields and clones.
+ Another tool I like to play with is the Easy 430 Kronos from Texas Instruments, which is
+ a wearable sports watch development kit that has a microcontroller MSP430 with an integrated
+ subgiga wireless transceiver.
+ And it also has a few sensors.
+ But basically, it can allow you to program custom wireless application.
+ That's back in 2013.
+ I think it's not sold anymore, but I have one with me if you want to play later.
+ And I found it particularly useful to use as a mouse replacement because sometimes I
+ needed to get a more comfortable position and the laptop on my legs and the mouse, and
+ it wasn't very handy.
+ So that also worked for lazy people, by the way.
+ So it was just easy to control my computer from, I couldn't do everything with it, but
+ I could at least scroll, select, and go back.
+ So that was, yeah, that's not open source, but it cost like 50 euros.
+ And there's a platform, a development platform with a graphical interface.
+ So it's a really good way to start playing with this kind of wireless application.
+ If you want something that's custom.
+ One thing I really like too, if anyone participated in making it, it's the radio badge from the
+ CCC camp from 2015.
+ That was basically, yeah, that's a full feature SDR, half-duplex transceiver,
+ software compatible with HAT ARRIVE.
+ And it can process data standalone or pass the samples to the computer where further
+ signal processing can take place with new radio, for example.
+ And also the robotic arm edge.
+ So it's a kit, a robotic arm kit from OUI kit, which is not open source, but that cost
+ also like 50 euros.
+ It's quite affordable, very fun to play with.
+ It comes with a serial remote, but it's possible to, yeah, it's like Arduino shield, let's
+ say, modify the Arduino with a shield motor in one, and then you can do about anything
+ you want with it.
+ Some people can control it with Bluetooth, for instance.
+ But I tried to control it with my sport watch.
+ It didn't work so far, but I'm not giving up.
+ Work in progress.
+ So I've been participating to the Hacking Health Marathon since 2019.
+ That's an event that takes place once again in my hometown.
+ It's co-organized by the Regional Hospital, the City Hall, and the Polymycotechnique,
+ which is a kind of federation that gathers 240 local industrial companies, and sharing
+ on the kits is perfectly legal.
+ About 20 challenges are selected every year, and each challenge represents a problem, a
+ problematic suggested by a patient or medical care provider for which no solution has been
+ found yet.
+ After that, we get 48 hours to provide a POC or a prototype with the support of many experts
+ and well equipped FabLab in a fantastic environment and amazing people.
+ And so far, from the previous participation, I'm glad I had the opportunity to work on
+ developing a communication model dedicated to people with Loctin syndrome.
+ Some kind of alternative universal control for someone who couldn't move a lot or two,
+ and an assistive robotic arm that help people eat on their own.
+ The impossible interface.
+ I was participating to the Hacking Health for three years, and last year I took all
+ my courage, but I suggested a challenge instead of just participating.
+ And the challenge I offered was to find a solution for people with low arm and finger
+ mobility, who couldn't use smartphone in the traditional ways, and that could allow an
+ easier interaction with their connected object as well with non-connected object, such as
+ the button of a lift or just a light switch.
+ And this is why it was nicknamed impossible, because you either can't control something
+ that's connected or you have an arm to press a switch, but there's no app that can press
+ a lift button.
+ Our time was limited, so we focused on Hacking the Lift and built a prototype that's basically
+ a servo motor on rails with an Arduino Uno controlled by the Arduino.
+ And we made a nice fake finger, so that it really was like a physical finger that could
+ be controlled with the Arduino, it was through Arduino infrared remote, because we didn't
+ have Bluetooth options at the time.
+ Infrared is not really good for people with low mobility, by the way, because you have
+ to be right in front of the receiver to be able to control it.
+ 19 minutes.
+ So playing with the lift was very instructive, but the solution had too many limits, and
+ only adapted lifts could have been used anyway.
+ So I went back to the original idea of building a universal remote control that could handle
+ several communication protocols like a Bluetooth, Wi-Fi, infrared, LoRa, and that could also
+ control a robotic arm when a physical interaction was needed.
+ So I'm still convinced it is possible to build it, so I changed the name from the Impossible
+ interface to Bucu, which fundamentally sounds like little cute in French.
+ However, there's still a long road ahead, and it's going to take a lot of time to get
+ there.
+ And that's why I like to take this opportunity to ask for your precious help to make Bucu
+ safer, stronger, and smarter.
+ So don't hesitate to contact me by mail if you have any question at project@albayus.tech.
+ And yeah, the help I need is not just sending money, because with the money I'm only going
+ to buy some hardware, and what we really need is technical expertise, because once again
+ none of us is smarter than all of us.
+ And for last, this is a picture of what Bucu looks like for now.
+ It's a five axis robot that's Arduino compatible.
+ There are actually six servo motors, and the extra one I put it on the top with this fake
+ finger to show that we could manipulate it like an extra finger if the hook wasn't enough.
+ And on the right hand side you have one of my beta tester, and it's not on scale, it's
+ just a prototype, but the idea would be to be able to clip it on a wheelchair tablet,
+ and then use this, we did the test with the badge from MCH from last year, and use it
+ as a Bluetooth remote control.
+ And there's Neoncast on it, so it's good.
+ Okay, so that's it for today.
+ Any questions?
+ Thank you so much, Merlinux, for your insights and sharing all your experiences.
+ We have five minutes for questions.
+ Over there is an angel.
+ If you wish to ask a question, please go over to the angel and speak into the microphone.
+ But maybe you could go a bit more into detail what kind of technical knowledge you need
+ right now.
+ Maybe can you say something to that?
+ Technique, mechatronics, signal treatment, any web developers, I think it would be nice
+ to build a website, I didn't do it yet, but it's in the pipe, so if someone could take
+ this out of my hand, that would be lovely.
+ But yeah, I always say if you want to help, I'd rather have a donation in time, but if
+ you have nothing else, you can offer money, but I'm only going to buy hardware with it,
+ so I'd rather have hardware and technical expertise.
+ Hello, thanks for sharing your experience and insights.
+ My question would be if I someday, or some of us might come into a company that is building
+ some kind of technologies like personal lifts or whatever, and we want to suggest optimisations,
+ but do not have ourselves the experience of having some kind of disability, is there some
+ kind of document of known issues I could just hand over and say, hey, maybe these are the
+ problems, let's go into it, because the usual problem as we all know is that often in these
+ rooms where the decisions are made, we have a lot of male-wide people sitting, no handicaps,
+ and no-one is just aware of, hey, it could be easy if we just implement it, but we are
+ not aware of it, is there some just a...
+ There's no centralised platform where you can, you know, like a weak page, not yet, that's
+ why I need a web there.
+ The plan is of course this is open source and the goal is to make it under 500 euros,
+ but that would be indeed ideal if we had just one platform where we could gather all the
+ information, work in progress, where do I need help, and there is the website of open
+ sourcemedicalsupplies.org that is very good and it was born during the first wave of Covid,
+ and so yeah, there's a whole community out there, we're not alone anymore, and so you
+ can already find a lot of solutions, alternative solutions, let's say, whether it's about making
+ water drinkable or making a face mask and some assistive, open source assistive robots.
+ I'm not the first one to try this, there's lots of co-documentation online, but I'm not
+ sure I answered your question.
+ I mean you can still drop an email if you're interested, don't hesitate.
+ To the email?
+ The email to the homepage on one of your first slides, hack my health or something?
+ Hack my handicap, I put my email right there as the here, take a picture if you want.
+ Christian?
+ Yeah, thank you for the talk, and you mentioned donations and hardware, is there anything
+ specifically that you'd like and can people send it to you and is, you know, what sort
+ of?
+ Anything, really, we can, I mean all the micro USB devices that are obsolete now, we can
+ still use them, you know, all the legacy tech, let's say, so if you have, I don't know, old
+ Raspberry Pi, servo motors, microcontrollers, yeah, the hardware is hard to get my hands
+ on, it's affordable now, but I break so much stuff that it costs me a lot of money.
+ But yeah, but the expertise is really the most precious for me, because this is like
+ my hobby, this is not my profession, and I'm not that smart on my own, so yeah, any help
+ really is welcome, but definitely hardware, if you have anything, you know, lots of people
+ get the badge, don't use it, so if you don't know what to do with your badge, you can recycle
+ it with me, I will take great care of it.
+ Thanks.
+ All right.
+ All right.
+ Thank you all for your questions.
+ This was the talk of Mellanox, hack my handicap, please give a warm round of applause for our
+ awesome speaker.
+ [Applause]
+ [Music]

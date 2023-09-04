@@ -1,0 +1,1646 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:31.400
+ Good morning, everyone.
+
+00:00:31.400 --> 00:00:35.600
+ It's so nice to see your faces on this beautiful day.
+
+00:00:35.600 --> 00:00:40.560
+ I'm here to give you a message from C3,
+
+00:00:40.560 --> 00:00:44.120
+ Wetterfrosch from C3 Heldesk.
+
+00:00:44.120 --> 00:00:49.600
+ And we expect a very bright and sunny day with temperatures up to 31 degrees Celsius.
+
+00:00:49.600 --> 00:00:54.240
+ Please drink enough, use sunscreen, search for shady places.
+
+00:00:54.240 --> 00:01:01.000
+ Tonight around 11 PM, there might be some thunderstorms passing by north of Sydenyck,
+
+00:01:01.000 --> 00:01:04.480
+ so there might be some rain, but this is not confirmed yet.
+
+00:01:04.480 --> 00:01:09.840
+ But please take care of each other and also look out for your fellow creatures.
+
+00:01:09.840 --> 00:01:13.080
+ Also, if you really like Millie Race and the Millie Race stage,
+
+00:01:13.080 --> 00:01:18.760
+ you can still support the program and the volunteers providing it by buying
+
+00:01:18.760 --> 00:01:21.800
+ Millie Race coins behind me, like making a donation.
+
+00:01:21.800 --> 00:01:23.000
+ And they are very beautiful.
+
+00:01:23.000 --> 00:01:25.920
+ You can also just look at them and maybe think about it.
+
+00:01:29.600 --> 00:01:36.680
+ And now, I'm very pleased to announce our speaker today.
+
+00:01:36.680 --> 00:01:38.040
+ Here is Mike.
+
+00:01:38.040 --> 00:01:47.320
+ Mike is a physicist and working for the Fraunhofer IEE on sustainability topics and
+
+00:01:47.320 --> 00:01:52.040
+ technology, and I'm really excited to hear what he's going to tell us about that.
+
+00:01:52.040 --> 00:01:55.280
+ So hello for Mike, and please give him a warm round of applause.
+
+00:01:55.280 --> 00:02:04.040
+ Yeah, thank you for the nice introduction and thanks for having me here.
+
+00:02:04.040 --> 00:02:05.520
+ Thanks to the technical team.
+
+00:02:05.520 --> 00:02:07.080
+ Everything seems to be working.
+
+00:02:07.080 --> 00:02:08.320
+ I'm Mike.
+
+00:02:08.320 --> 00:02:11.120
+ Nice to welcome all of you guys and all the online people.
+
+00:02:11.120 --> 00:02:17.480
+ And I'd like to talk a little bit about energy transition, especially in Germany,
+
+00:02:17.480 --> 00:02:22.480
+ since that's the part I know most about.
+
+00:02:22.480 --> 00:02:24.280
+ OK, everything's fine.
+
+00:02:24.280 --> 00:02:25.280
+ OK, perfect.
+
+00:02:25.280 --> 00:02:31.880
+ So, and I'd like to talk about not only the energy transition, but also a bit about the ICT.
+
+00:02:31.880 --> 00:02:37.680
+ I got called two days ago that people are not sure what ICT means.
+
+00:02:37.680 --> 00:02:39.560
+ So, sorry for that.
+
+00:02:39.560 --> 00:02:44.880
+ It means Internet Communication Technologies, which is like the scientific word for everything
+
+00:02:44.880 --> 00:02:48.960
+ regarding Internet data communication and so on.
+
+00:02:48.960 --> 00:02:58.760
+ But first of all, I have a short break because I'd like to tell you a little bit about my institute
+
+00:02:58.760 --> 00:03:00.160
+ for which I'm working.
+
+00:03:00.160 --> 00:03:04.360
+ So we're the Fraunhofer EAA, and we are located in Kassel.
+
+00:03:04.360 --> 00:03:09.360
+ The first slide you could see was a picture of our new building.
+
+00:03:09.360 --> 00:03:17.160
+ And as you can see, we are about 450 employees and we have an annual budget of about 30 million euros.
+
+00:03:17.160 --> 00:03:25.160
+ And what we are doing is we did develop technical and economic solutions for the transformation of our energy system.
+
+00:03:25.160 --> 00:03:31.960
+ So, and my institute is set up in several different research fields.
+
+00:03:31.960 --> 00:03:33.360
+ You can see here.
+
+00:03:33.360 --> 00:03:37.160
+ And I'm personally working in the grid planning and grid operation field.
+
+00:03:37.160 --> 00:03:42.360
+ So my talk will be mainly focused about this part.
+
+00:03:42.360 --> 00:03:49.360
+ So feel free and expect something about grid planning and grid operation.
+
+00:03:49.360 --> 00:03:52.560
+ These are topics normally not known to people.
+
+00:03:52.560 --> 00:03:57.360
+ And there's a German guy who's making jokes.
+
+00:03:57.360 --> 00:03:58.960
+ Somebody of you might know him.
+
+00:03:58.960 --> 00:04:00.560
+ He's called Jan Philipp Zimny.
+
+00:04:00.560 --> 00:04:08.960
+ And he once said in one of his joke programs, he said, OK, what does the normal German know about electricity?
+
+00:04:08.960 --> 00:04:15.560
+ Yes, it comes out of a hole in the wall and it tastes like AWA.
+
+00:04:15.560 --> 00:04:18.160
+ So I'd like to change this a little bit.
+
+00:04:18.160 --> 00:04:23.760
+ So then let's get started with our power grids and how do they work.
+
+00:04:23.760 --> 00:04:28.960
+ So basically, I think all of you know this kind of idea behind this.
+
+00:04:28.960 --> 00:04:35.960
+ We have on the left side, we have generating stations like power generators, nuclear power plants and everything.
+
+00:04:35.960 --> 00:04:47.360
+ And they produce energy which gets stepped up, then transmits over large areas or large distances with high voltages.
+
+00:04:47.360 --> 00:04:53.960
+ And then through a transformer near you, it gets stepped down so that you can use it or the industry can use it.
+
+00:04:53.960 --> 00:04:57.560
+ So that's a basic idea behind our power grid.
+
+00:04:57.560 --> 00:05:02.760
+ But it gets more complicated if you look in detail into it.
+
+00:05:02.760 --> 00:05:07.360
+ For example, if you look at the distribution level, you can see the lower voltages.
+
+00:05:07.360 --> 00:05:15.760
+ You're not directly connected to a power transformer, but you're connected over several lines and several other transformers.
+
+00:05:15.760 --> 00:05:19.660
+ And as you can see, these grids have a different topology.
+
+00:05:19.660 --> 00:05:28.160
+ We call it radially driven, which means you have your substation from where lines radially go away.
+
+00:05:28.160 --> 00:05:32.660
+ So this means if the line goes out, you don't have any power anymore.
+
+00:05:32.660 --> 00:05:34.560
+ So that's not cool.
+
+00:05:34.560 --> 00:05:41.560
+ And therefore we do n minus 1 safety, which means we calculate, OK, what happens if one line fails?
+
+00:05:41.560 --> 00:05:43.360
+ And how can we resupply everything?
+
+00:05:43.360 --> 00:05:46.960
+ So the normal answer is to just double everything.
+
+00:05:46.960 --> 00:05:57.160
+ So as you can see on the left side in the picture, you have like two legs coming to your distribution station and then they can switch between these two legs.
+
+00:05:57.160 --> 00:06:08.260
+ This is also a nice feature because we can hand over if one leg is too overloaded, we can switch over and can use the other leg to supply your local transformer.
+
+00:06:08.260 --> 00:06:15.260
+ So the nice thing is these parts are automated, but it depends on the voltage level you're looking at.
+
+00:06:15.260 --> 00:06:22.360
+ So in the transmission system, which is the highest voltage we have, like 380 kV, there everything is automated.
+
+00:06:22.360 --> 00:06:31.160
+ In the low voltage, where you at your home like 20 kV or 400 volts, there's not so much automated at the moment.
+
+00:06:31.160 --> 00:06:34.360
+ But we're in the process of changing this.
+
+00:06:34.360 --> 00:06:39.360
+ And if you take a complete view, you can see it like here.
+
+00:06:39.360 --> 00:06:44.660
+ You have the generation, for example, on the left on the right side, and then you have a transmission grid.
+
+00:06:44.660 --> 00:06:48.960
+ In this example, it's built up like a net.
+
+00:06:48.960 --> 00:06:58.660
+ In German, it's called a Masche, which means that the energy can travel left hand and right hand to the sub transmission station, for example.
+
+00:06:58.660 --> 00:07:06.060
+ And therefore you get currents which will run counterclockwise and clockwise, which makes everything a little bit complicated.
+
+00:07:06.060 --> 00:07:11.060
+ And therefore everything is automated to be able to control this kind of power.
+
+00:07:11.060 --> 00:07:20.860
+ And if you look in the red box in the lower left, you see that there is a distribution substation which will then step it down and distribute it further.
+
+00:07:20.860 --> 00:07:27.560
+ And there you can see we don't have these Maschen anymore because there we are feeding the power readily.
+
+00:07:27.560 --> 00:07:34.960
+ And therefore sometimes if we have a bad condition, this can lead to power failure.
+
+00:07:34.960 --> 00:07:40.860
+ And yeah, normally in Germany, we are quite good at managing this kind of stuff.
+
+00:07:40.860 --> 00:07:44.460
+ So that we have a power availability which is really, really high.
+
+00:07:44.460 --> 00:07:49.660
+ Like I think we have power loss for less than five minutes a year.
+
+00:07:49.660 --> 00:07:52.860
+ In other countries, this is not so good.
+
+00:07:52.860 --> 00:07:55.760
+ I know it from a science project in Italy.
+
+00:07:55.760 --> 00:08:06.660
+ There it was like they had their own unadulterated USB for supplying power because they have power failures of about two to three hours a year.
+
+00:08:06.660 --> 00:08:12.060
+ So yeah, depends on the power grid and how everything else is.
+
+00:08:12.060 --> 00:08:15.860
+ But let's take a deeper look.
+
+00:08:15.860 --> 00:08:19.860
+ A substation is the part you are normally connected to.
+
+00:08:19.860 --> 00:08:22.860
+ And how is such a substation built up or set up?
+
+00:08:22.860 --> 00:08:27.860
+ You can see we have a source at the top and then we have several protection equipment.
+
+00:08:27.860 --> 00:08:33.060
+ For example, this lightning arrestor, which is for if there's a lightning, it's over voltage.
+
+00:08:33.060 --> 00:08:39.360
+ Then we have a circuit breaker, which is the same thing you know from your normal household installation.
+
+00:08:39.360 --> 00:08:43.860
+ We have the possibility to isolate, which means we can simply shut it off.
+
+00:08:43.860 --> 00:08:50.860
+ And we have other transformers and stuff which will lead or transform down the power to go to you.
+
+00:08:50.860 --> 00:08:59.060
+ So the thing is some of these components are controlled and are remotely controllable.
+
+00:08:59.060 --> 00:09:08.760
+ For example, transformers are normally these big heavy blocks which take a lot of power and transform it down.
+
+00:09:08.760 --> 00:09:24.260
+ And they have or they can have a changeable tap, which means you can change how much or how much voltage they produce by changing like which winding you are using to transform the power down.
+
+00:09:24.260 --> 00:09:27.360
+ And this part is in the high voltage grids.
+
+00:09:27.360 --> 00:09:29.860
+ It's automated in the low voltage grids.
+
+00:09:29.860 --> 00:09:35.960
+ This is normally not automated, but we are at the moment at the point to automate these things.
+
+00:09:35.960 --> 00:09:45.160
+ Also, most of the time they have like a local controller which keeps track of the local voltage and changes the taps accordingly.
+
+00:09:45.160 --> 00:09:46.460
+ There's one big problem.
+
+00:09:46.460 --> 00:09:50.860
+ These things are really expensive and take a lot of time to build.
+
+00:09:50.860 --> 00:09:52.960
+ And as you can see, I've written it here.
+
+00:09:52.960 --> 00:09:56.760
+ They weigh about 20 to 50 tons.
+
+00:09:56.760 --> 00:09:59.160
+ So you need like a crane to supply them.
+
+00:09:59.160 --> 00:10:08.360
+ And if you go and visit a substation, you will see they always have like one spare unit standing around to in case of exchange it.
+
+00:10:08.360 --> 00:10:13.360
+ So normally there you have two transformers because of n minus one safety.
+
+00:10:13.360 --> 00:10:23.960
+ And these two transformers are normally calculated so that if one transformer fails, the other can take over the whole load because normally building such a transformer takes years.
+
+00:10:23.960 --> 00:10:29.260
+ So if you need one now, you will have normally to wait a year or even longer.
+
+00:10:29.260 --> 00:10:32.060
+ And normally they are oil insulated.
+
+00:10:32.060 --> 00:10:33.960
+ So there is PCB in it.
+
+00:10:33.960 --> 00:10:42.460
+ Please don't ask me what this is especially, but I know it's a very good insulator, but it's probably cancer inducing.
+
+00:10:42.460 --> 00:10:48.860
+ So yeah, but somehow you need to isolate these things because of the high voltages.
+
+00:10:48.860 --> 00:11:03.160
+ And I once spoken with the personal, they said normally if they change taps more often because of flashes going in through the tap changing, this is like a big cylinder you rotate and then you can change the taps.
+
+00:11:03.160 --> 00:11:07.760
+ There you have flashes in it and these flashes can destroy the PCB.
+
+00:11:07.760 --> 00:11:12.560
+ So they normally change these PCB oil oils quite often.
+
+00:11:12.560 --> 00:11:17.660
+ And what's also funny, this oil is actively cooled and pumped around in the transformer.
+
+00:11:17.660 --> 00:11:22.960
+ So you see normally like cooling equipment around it where these oil is cooled.
+
+00:11:22.960 --> 00:11:28.860
+ So the other big thing we have, which is remotely controllable, are switches.
+
+00:11:28.860 --> 00:11:33.860
+ These are basically what you know from your normal switch, but they are quite larger.
+
+00:11:33.860 --> 00:11:36.260
+ And this is just a control box.
+
+00:11:36.260 --> 00:11:43.360
+ So the switch equipment is more up and you can see in the upper right, there's like these metal rods going up.
+
+00:11:43.360 --> 00:11:47.560
+ And this system works like that you can either use it by hand.
+
+00:11:47.560 --> 00:11:57.460
+ So you can put in a hand crank and crank the switch on your own or you can toggle a switch and then it will switch or you can send it a command.
+
+00:11:57.460 --> 00:12:04.660
+ So that when it receives the command, it will go open, it will close and we are using these switches to change topologies.
+
+00:12:04.660 --> 00:12:08.060
+ For example, you can isolate buses with this.
+
+00:12:08.060 --> 00:12:09.260
+ You can disconnect stuff.
+
+00:12:09.260 --> 00:12:16.260
+ You can ground buses and so on, which is quite important for getting our power grid to run.
+
+00:12:16.260 --> 00:12:20.760
+ So how do we control all of this?
+
+00:12:20.760 --> 00:12:26.660
+ So the networks, as I've told you, is normally remotely controlled.
+
+00:12:26.660 --> 00:12:28.760
+ Most of the parts even in the high voltage.
+
+00:12:28.760 --> 00:12:30.760
+ So but how does this work?
+
+00:12:30.760 --> 00:12:33.260
+ And now it gets complicated.
+
+00:12:33.260 --> 00:12:38.060
+ At the moment, most of the systems are using a skater.
+
+00:12:38.060 --> 00:12:46.860
+ And most of them or many of them are using the IEC 6087-5 standard.
+
+00:12:46.860 --> 00:12:48.960
+ And this is a quite old standard.
+
+00:12:48.960 --> 00:12:58.360
+ As I've written here, it's from the 90s and it's basically a serial connection which has data transfer rates of up to 9k6.
+
+00:12:58.360 --> 00:13:04.260
+ So we're basically running our whole energy infrastructure with a serial cable.
+
+00:13:04.260 --> 00:13:10.060
+ So and they've changed this because they needed more power and more data communication speed.
+
+00:13:10.060 --> 00:13:17.460
+ So they defined the 103 standard extension, which allows for even more faster speeds.
+
+00:13:17.460 --> 00:13:26.860
+ And then the 104 standard is the one which is at the moment widely used because it allows to transport these serial data via TCP/IP.
+
+00:13:26.860 --> 00:13:29.560
+ So and how does such a packet look?
+
+00:13:29.560 --> 00:13:30.460
+ I've shown it here.
+
+00:13:30.460 --> 00:13:35.760
+ If you're interested, Wikipedia has a really good write up about this, how this in detail works.
+
+00:13:35.760 --> 00:13:40.760
+ But basically you have two kinds of ideas, IDs or addresses.
+
+00:13:40.760 --> 00:13:45.160
+ So you have a unit identifier and you have an information object.
+
+00:13:45.160 --> 00:13:54.160
+ So you can say, OK, my switch, for example, has an address and it has several sub addresses or identifiers where you can ask, OK, are you open?
+
+00:13:54.160 --> 00:13:55.460
+ Are you closed?
+
+00:13:55.460 --> 00:13:56.760
+ Are you healthy?
+
+00:13:56.760 --> 00:13:58.760
+ Depending on the equipment installed.
+
+00:13:58.760 --> 00:14:04.760
+ So and if you've seen on the slide beforehand, the system is just doubled.
+
+00:14:04.760 --> 00:14:07.560
+ Everything you have in the power grid is just doubled.
+
+00:14:07.560 --> 00:14:16.260
+ Even the racks, everything is simply doubled and all the systems are built so that they are able to digest all messages two times.
+
+00:14:16.260 --> 00:14:21.660
+ So even the switch has two contactors, which are completely physically separated.
+
+00:14:21.660 --> 00:14:28.860
+ And if one contactor doesn't work and the other one works, you still have a failover in this moment.
+
+00:14:28.860 --> 00:14:42.360
+ So and as you can see, here are some commands defined and these types got also enhanced with the 103 standard for even more or for even better able to do energy related stuff.
+
+00:14:42.360 --> 00:14:46.760
+ And now comes the 104 standard, which is the one we are using at the moment.
+
+00:14:46.760 --> 00:14:55.660
+ And I liked the quote from Wikipedia, which said the security of 104 by design has proven to be problematic.
+
+00:14:55.660 --> 00:15:07.660
+ So the IEC published a security standard, which is not that well adopted at the moment by most of the network operators.
+
+00:15:07.660 --> 00:15:11.560
+ So what many of them do is the following.
+
+00:15:11.560 --> 00:15:13.160
+ They just use a VPN.
+
+00:15:13.160 --> 00:15:23.660
+ So you have these boxes and I think many of you guys know what these boxes do or that these boxes are interesting on a security standpoint.
+
+00:15:23.660 --> 00:15:37.260
+ And they transfer the communication via VPN tunnel to the light water to the control center where everything gets then controlled and directed and decided.
+
+00:15:37.260 --> 00:15:48.160
+ So and what recently happened was an attack, so to say, on the satellite system of the network.
+
+00:15:48.160 --> 00:15:55.460
+ And it seems to be that this was not a direct attack on the German energy infrastructure,
+
+00:15:55.460 --> 00:16:01.160
+ but more or less because the satellite also runs U.S. military communication.
+
+00:16:01.160 --> 00:16:07.160
+ The problem was somehow the attackers were able to take down the communication to the satellite,
+
+00:16:07.160 --> 00:16:16.860
+ which also was used by wind turbines and meant that the Euroskypark system wasn't able to be reached.
+
+00:16:16.860 --> 00:16:18.760
+ And then the following happened.
+
+00:16:18.760 --> 00:16:25.660
+ Eleven gigawatts, which is quite a lot of power of German wind turbines, weren't controllable anymore.
+
+00:16:25.660 --> 00:16:29.860
+ So they were just running and nobody knew the state of these things.
+
+00:16:29.860 --> 00:16:35.160
+ It was about 5,800 wind turbines which couldn't be reached anymore.
+
+00:16:35.160 --> 00:16:38.660
+ So sounds quite devastating.
+
+00:16:38.660 --> 00:16:45.660
+ But let me tell you, since we know in the energy system that we need to build everything N minus one safety.
+
+00:16:45.660 --> 00:16:54.160
+ So these have local controllers, but these local controllers are basically able to sustain a basic kind of operation.
+
+00:16:54.160 --> 00:17:02.360
+ And as you will see, not being able to control your wind turbines can lead to bigger problems.
+
+00:17:02.360 --> 00:17:07.160
+ So why has this happened?
+
+00:17:07.160 --> 00:17:11.660
+ The problem is most of the time wind turbines are put in remote locations.
+
+00:17:11.660 --> 00:17:17.760
+ And basically you have three kinds of ways to communicate with your wind turbines.
+
+00:17:17.760 --> 00:17:24.760
+ The first one is you just dig a cable and throw a fiber optic cable to the wind turbine or to the wind park.
+
+00:17:24.760 --> 00:17:26.560
+ And then you can control everything.
+
+00:17:26.560 --> 00:17:36.860
+ The other version is you have like a mobile connection like normal GSM LTE or directed radio systems.
+
+00:17:36.860 --> 00:17:39.360
+ And the last option is you use satellite.
+
+00:17:39.360 --> 00:17:45.360
+ And satellite is like the fallback solution, which always works because satellites.
+
+00:17:45.360 --> 00:17:50.160
+ And normally you send commands to these stations not that often.
+
+00:17:50.160 --> 00:17:55.760
+ So that even like clouds or stuff like this is not that big of a deal.
+
+00:17:55.760 --> 00:18:03.060
+ But if you have satellites and the satellite communication breaks down because of other reasons, yeah, you get a problem.
+
+00:18:03.060 --> 00:18:06.260
+ So let's head on.
+
+00:18:06.260 --> 00:18:09.160
+ What I'm doing is a power flow calculations.
+
+00:18:09.160 --> 00:18:19.260
+ And this is the part where I want to make a little bit advertisement for a software we are building and we are maintaining.
+
+00:18:19.260 --> 00:18:21.360
+ And it's called Panda Power.
+
+00:18:21.360 --> 00:18:29.760
+ So this is a name derived from the fact that we are using pandas, Python, and we are doing power calculations.
+
+00:18:29.760 --> 00:18:33.360
+ And therefore it's clear for us that we call it Panda Power.
+
+00:18:33.360 --> 00:18:44.460
+ And if you are interested in learning about how to do power calculations and power flow calculations and want to fiddle around a little bit with the power grid, please go to pandapower.org.
+
+00:18:44.460 --> 00:18:50.060
+ We are always welcoming pull requests for new features and new stuff.
+
+00:18:50.060 --> 00:18:55.760
+ And then we have also a sister program, which I don't show today because I want to talk about the power grid.
+
+00:18:55.760 --> 00:19:09.060
+ But also we have also Panda Pipes, which is also open source about calculating flows in pipes so that you are able to simulate water, heat, gas and stuff like this.
+
+00:19:09.060 --> 00:19:13.260
+ So these are our two big open source softwares.
+
+00:19:13.260 --> 00:19:21.060
+ And as you can see, this is developed by us and the University of Kassel, especially the E2N department.
+
+00:19:21.060 --> 00:19:24.360
+ This does power flow calculations in Python.
+
+00:19:24.360 --> 00:19:36.560
+ And what a really nice thing is that the Bundesnetz Agentur is using this, our tool, to do the Netz Entwicklungsplan, the development plan for the grid from Germany.
+
+00:19:36.560 --> 00:19:39.660
+ And they're using our software as a standard to do this.
+
+00:19:39.660 --> 00:19:43.760
+ So this was quite a big moment for us and we liked it a lot.
+
+00:19:43.760 --> 00:19:46.660
+ And how does power flow calculation work?
+
+00:19:46.660 --> 00:19:49.160
+ So don't fear the mathematics on the left side.
+
+00:19:49.160 --> 00:19:51.560
+ I won't go too much into detail.
+
+00:19:51.560 --> 00:19:58.260
+ But the basic idea is that the power you inject in a bus needs to be the power that you take out.
+
+00:19:58.260 --> 00:20:00.460
+ And now you have the Kirchhoff rules.
+
+00:20:00.460 --> 00:20:04.660
+ Maybe some of you know this from the physics class in your school.
+
+00:20:04.660 --> 00:20:08.860
+ And it basically says the energy coming in is the energy you take out.
+
+00:20:08.860 --> 00:20:14.160
+ And if you do more fancy math around it, you can do power flow calculations with it.
+
+00:20:14.160 --> 00:20:21.160
+ And on the right side, I have a simple version of a grid we've seen earlier with all of the equipment around.
+
+00:20:21.160 --> 00:20:24.860
+ And you can see we have a grid connection normally, like to a higher voltage level.
+
+00:20:24.860 --> 00:20:26.360
+ Then we have a transformer.
+
+00:20:26.360 --> 00:20:28.560
+ And at the bottom, there's a load.
+
+00:20:28.560 --> 00:20:34.360
+ So what we can do now is we can say to the system, "Okay, this is our grid setup.
+
+00:20:34.360 --> 00:20:36.760
+ Please do a power flow calculation.
+
+00:20:36.760 --> 00:20:40.160
+ And if you do this, you will get this kind of result."
+
+00:20:40.160 --> 00:20:43.260
+ So like I said, it uses pandas under the HUD.
+
+00:20:43.260 --> 00:20:52.460
+ And the problem is for you guys, probably not, but the normal grid operators don't like fancy tables.
+
+00:20:52.460 --> 00:20:57.060
+ They want to have something they can look at and not just columns of numbers.
+
+00:20:57.060 --> 00:21:02.660
+ But our tool normally spits out color columns of numbers, as you can see here.
+
+00:21:02.660 --> 00:21:10.860
+ You get result tables where you can see the voltages and the powers and the line loadings for every component in your grid model.
+
+00:21:10.860 --> 00:21:18.660
+ And when your net gets larger, so this is like the case for three buses and one load, so it's quite easy.
+
+00:21:18.660 --> 00:21:23.560
+ But if your net gets larger, it's getting quite complicated to understand what's happening there.
+
+00:21:23.560 --> 00:21:34.260
+ Therefore, we wrote some kind of visualization which is able to take geographical data to show what's happening in the grid.
+
+00:21:34.260 --> 00:21:37.960
+ And this you can see here.
+
+00:21:37.960 --> 00:21:44.360
+ Basically, if you have geodata, you can attach it to your power grid model and then you can run the power flow simulation.
+
+00:21:44.360 --> 00:21:47.260
+ And then you get a graphics like this.
+
+00:21:47.260 --> 00:21:49.760
+ Here you can see lines and dots.
+
+00:21:49.760 --> 00:21:54.660
+ These dots are the buses, substations, as I've shown earlier.
+
+00:21:54.660 --> 00:21:58.060
+ And the lines are the connecting power lines.
+
+00:21:58.060 --> 00:22:02.060
+ And the colors will tell you what's up about this.
+
+00:22:02.060 --> 00:22:05.860
+ So red means overloaded for the lines.
+
+00:22:05.860 --> 00:22:10.760
+ And for the buses, you have like a per unit voltage level.
+
+00:22:10.760 --> 00:22:16.460
+ So this means you have multiple factors in your power network.
+
+00:22:16.460 --> 00:22:21.760
+ On the one hand, you have the power lines which shouldn't get too much current.
+
+00:22:21.760 --> 00:22:24.860
+ If they get too much current, they tend to get hot.
+
+00:22:24.860 --> 00:22:29.860
+ And if they get hot, they will get longer and longer and they will start to sag.
+
+00:22:29.860 --> 00:22:33.560
+ And if they touch anything, you have a big problem.
+
+00:22:33.560 --> 00:22:37.060
+ So this is mainly the part you want to keep track of.
+
+00:22:37.060 --> 00:22:41.760
+ And on the other hand, you have your buses and you need to monitor the voltage on the buses.
+
+00:22:41.760 --> 00:22:47.960
+ Maybe you've seen this on your power supplies for your computer nets, for your laptops and so on.
+
+00:22:47.960 --> 00:22:55.160
+ And there's normally written a voltage range on it, like 200 volts until 240 or 250 volts.
+
+00:22:55.160 --> 00:23:01.760
+ There are also the modern power supplies which can handle 100 volts or 90 volts to 260 volts.
+
+00:23:01.760 --> 00:23:03.960
+ This is basically what you see here.
+
+00:23:03.960 --> 00:23:11.560
+ Normally, we give the voltage in a PU per unit measure, which means we normalize it to the voltage level of the bus.
+
+00:23:11.560 --> 00:23:16.860
+ So if we have a 20 kV bus, then one PU means 20 kV.
+
+00:23:16.860 --> 00:23:24.160
+ So it is defined to diverge about 10 percent, so plus 5 and minus 5 percent.
+
+00:23:24.160 --> 00:23:27.560
+ I know it's a bit complicated, but you can see this on the right scale.
+
+00:23:27.560 --> 00:23:35.460
+ The right color map is for the bus voltages. And as you can see in this example, all the buses are blue,
+
+00:23:35.460 --> 00:23:43.160
+ which means that they are in a good state and are not overloaded, except for in the upper left corner of this example.
+
+00:23:43.160 --> 00:23:50.960
+ So if you want to try this, this is the MV Oberrein network, which is included in Panda Power for playing around, basically.
+
+00:23:50.960 --> 00:23:53.560
+ And you can see there are some lines which are red.
+
+00:23:53.560 --> 00:23:58.760
+ Red means bad, so this is normally the part where we need to do something.
+
+00:23:58.760 --> 00:24:07.960
+ And how do you derive normally such kind of geodata if it's not provided?
+
+00:24:07.960 --> 00:24:14.960
+ Therefore, we've written a plug-in for this, which you can see here, which is a QGIS plug-in,
+
+00:24:14.960 --> 00:24:19.560
+ which allows you to import and export Panda Power networks into QGIS,
+
+00:24:19.560 --> 00:24:26.560
+ and where you can use QGIS to draw basically buses and lines based on OSM data.
+
+00:24:26.560 --> 00:24:33.360
+ And therefore, we are at the next point. The problem is how do we get such grid models?
+
+00:24:33.360 --> 00:24:37.560
+ Not always are we getting the grid models from grid operators,
+
+00:24:37.560 --> 00:24:45.360
+ because to be honest, much of our grid isn't digitalized at the moment.
+
+00:24:45.360 --> 00:24:54.160
+ So yeah, the biggest grid architectures you can get, but if you go deeper and deeper and deeper in the distribution levels,
+
+00:24:54.160 --> 00:24:57.360
+ sometimes you only have paper plans.
+
+00:24:57.360 --> 00:25:04.760
+ And these paper plans are written by people who are very good at doing electrical stuff,
+
+00:25:04.760 --> 00:25:06.360
+ but they don't have geodata.
+
+00:25:06.360 --> 00:25:11.960
+ So you have an electrical circuit plan before you, and you don't know where these lines are.
+
+00:25:11.960 --> 00:25:17.960
+ And you're basically sitting there and trying to get everything somehow mixed together.
+
+00:25:17.960 --> 00:25:22.360
+ And not always in all projects we are working together with grid operators,
+
+00:25:22.360 --> 00:25:29.160
+ so we needed some other ways to figure out how to derive such grid data.
+
+00:25:29.160 --> 00:25:32.960
+ And I think this is an interesting part, that's why I'm talking a little bit about it.
+
+00:25:32.960 --> 00:25:39.160
+ How can we derive grid data from open source data, data sources?
+
+00:25:39.160 --> 00:25:43.960
+ So the first point, as always, is the open street map.
+
+00:25:43.960 --> 00:25:46.560
+ And as you can see here, this is Flosim.
+
+00:25:46.560 --> 00:25:53.160
+ This is like an overlay for open street map, but basically it uses parts from open street map,
+
+00:25:53.160 --> 00:25:57.760
+ like for example the locations of the lines and where the lines are running.
+
+00:25:57.760 --> 00:26:01.160
+ And here you can see an example from Schleswig-Holstein.
+
+00:26:01.160 --> 00:26:04.160
+ You can see Sylt in the upper left corner.
+
+00:26:04.160 --> 00:26:09.760
+ And you can see all of the power lines and you can see the generation units drawn in here.
+
+00:26:09.760 --> 00:26:14.560
+ And this you can just query via an API.
+
+00:26:14.560 --> 00:26:19.560
+ I've made once the thing that I looked deeply into it,
+
+00:26:19.560 --> 00:26:27.160
+ and most of the stuff in Schleswig-Holstein was entered into OSM by a guy called Bahnpirat.
+
+00:26:27.160 --> 00:26:36.160
+ And I'm eager to meet him because he has done so much for this data acquisition.
+
+00:26:36.160 --> 00:26:40.360
+ And I'm so thankful because we can make science projects in Schleswig-Holstein
+
+00:26:40.360 --> 00:26:45.760
+ because he is, I don't know, running around and putting in like the power lines.
+
+00:26:45.760 --> 00:26:49.760
+ So I'm very eager to get to know him.
+
+00:26:49.760 --> 00:26:52.160
+ Maybe you guys can drop him a note.
+
+00:26:52.160 --> 00:26:56.160
+ I don't know, I'd like to talk to him.
+
+00:26:56.160 --> 00:26:57.760
+ But this is only the grid.
+
+00:26:57.760 --> 00:27:00.560
+ Now you can derive some kind of grid architecture.
+
+00:27:00.560 --> 00:27:04.360
+ You know where the power plants are, you know where the lines are and where the buses are.
+
+00:27:04.360 --> 00:27:09.760
+ You can put this into Panda Power, but then you're missing generation data.
+
+00:27:09.760 --> 00:27:10.960
+ And this is the next point.
+
+00:27:10.960 --> 00:27:13.360
+ Here you can see a Renewables.Ninja.
+
+00:27:13.360 --> 00:27:16.960
+ This is also an open source project or open source system
+
+00:27:16.960 --> 00:27:22.560
+ where you can just select a region on the world and can download the generation data.
+
+00:27:22.560 --> 00:27:24.960
+ And these are based on satellite data.
+
+00:27:24.960 --> 00:27:31.960
+ I've written it here, the NASA MIRRA reanalysis and the CMSAFS-SARA data set.
+
+00:27:31.960 --> 00:27:36.960
+ The nice thing is you get this as power schedule.
+
+00:27:36.960 --> 00:27:40.960
+ So you can just take this and plug it directly into Panda Power
+
+00:27:40.960 --> 00:27:44.360
+ and then you know how much Renewables you are generating.
+
+00:27:44.360 --> 00:27:45.960
+ Quite fun.
+
+00:27:45.960 --> 00:27:50.160
+ Now we don't not only need the generation, we also need the consumption.
+
+00:27:50.160 --> 00:27:52.960
+ And consumption is a bit more complicated
+
+00:27:52.960 --> 00:27:57.560
+ because this data is normally not available.
+
+00:27:57.560 --> 00:28:06.960
+ But there are many open source projects which has done lots of research in the field of power consumption.
+
+00:28:06.960 --> 00:28:12.160
+ So you get, for example, standard load profiles, you get synthetic load profiles,
+
+00:28:12.160 --> 00:28:14.360
+ you get also measured profiles.
+
+00:28:14.360 --> 00:28:17.760
+ And as I've shown here, the Open Energy Platform,
+
+00:28:17.760 --> 00:28:21.560
+ there are many different versions of these Open Energy Platforms
+
+00:28:21.560 --> 00:28:25.360
+ where you can download data sets from different projects
+
+00:28:25.360 --> 00:28:28.360
+ which will show you how the consumption is, for example,
+
+00:28:28.360 --> 00:28:34.560
+ for an industrial load or for an electrical vehicle or you name it, you will find something.
+
+00:28:34.560 --> 00:28:39.560
+ So if you plug everything together, for example, for the Schleswig-Holstein area,
+
+00:28:39.560 --> 00:28:41.760
+ you get something comparable to this.
+
+00:28:41.760 --> 00:28:46.160
+ As you can see, Schleswig-Holstein with all of its lines and nodes.
+
+00:28:46.160 --> 00:28:50.560
+ And this is the EHV, so the high voltage transmission lines
+
+00:28:50.560 --> 00:28:56.360
+ and also the distribution crits at the 110 kV.
+
+00:28:56.360 --> 00:29:04.560
+ And this is about 600 nodes, so 600 substations with about 500 flex providers,
+
+00:29:04.560 --> 00:29:12.360
+ which is like the over category for wind parks, power to X, batteries, electrolyzers, and so on and so on.
+
+00:29:12.360 --> 00:29:15.560
+ This is what I'm showing here coming from an old project we've done.
+
+00:29:15.560 --> 00:29:21.560
+ It's called the NAV 4.0, which was the idea to look into the Schleswig-Holstein
+
+00:29:21.560 --> 00:29:27.760
+ and find a path for the future how we can use more of the wind power in Schleswig-Holstein.
+
+00:29:27.760 --> 00:29:31.560
+ And this is the key point for the next minutes of my talk,
+
+00:29:31.560 --> 00:29:36.360
+ because if we look into the installed power in Schleswig-Holstein,
+
+00:29:36.360 --> 00:29:40.760
+ you can see here it's a quite complicated graph, which is from a colleague of mine.
+
+00:29:40.760 --> 00:29:43.760
+ We have the interesting bubble is in the lower left,
+
+00:29:43.760 --> 00:29:53.760
+ which shows the offshore wind production power, which was at 2035 estimated for 3.24 GW.
+
+00:29:53.760 --> 00:29:56.760
+ But this is the old grid development plan.
+
+00:29:56.760 --> 00:29:58.360
+ This is everything based on.
+
+00:29:58.360 --> 00:30:06.160
+ At the moment, they are re-consulting the next grid development plan, which will increase these numbers.
+
+00:30:06.160 --> 00:30:16.560
+ So the total energy capacity was 16.4 GW for Schleswig-Holstein in conventional power.
+
+00:30:16.560 --> 00:30:21.560
+ And in renewable power, we had like again 15.98 GW.
+
+00:30:21.560 --> 00:30:25.360
+ So here's everything in a nice handy table.
+
+00:30:25.360 --> 00:30:29.360
+ Probably it's not that good of a read or readable.
+
+00:30:29.360 --> 00:30:37.360
+ But for 2025, we estimate a production power of 42.5 TWH.
+
+00:30:37.360 --> 00:30:45.360
+ And for 2035, we estimated 54.1 TWH of production.
+
+00:30:45.360 --> 00:30:47.760
+ So and energy consumption is the next.
+
+00:30:47.760 --> 00:30:53.160
+ We have for 2035 about 27 TWH of consumption.
+
+00:30:53.160 --> 00:30:57.760
+ As you can see, we have much more energy production than consumption,
+
+00:30:57.760 --> 00:31:02.760
+ which means Schleswig-Holstein, for example, is a net exporter of power,
+
+00:31:02.760 --> 00:31:07.760
+ which is understandable because they have lots of wind power up there.
+
+00:31:07.760 --> 00:31:09.560
+ And now comes the big problem.
+
+00:31:09.560 --> 00:31:13.360
+ If you look into the power flow calculations, it's hard to see,
+
+00:31:13.360 --> 00:31:15.960
+ but you can see that one of the biggest lines,
+
+00:31:15.960 --> 00:31:22.860
+ so you have like two lines connecting Denmark to the south, which is simply congested.
+
+00:31:22.860 --> 00:31:25.160
+ So it's too much power.
+
+00:31:25.160 --> 00:31:28.360
+ And what can we do if this line is overloaded?
+
+00:31:28.360 --> 00:31:34.760
+ Yeah, we need to shut off the power sources, which are the easiest to shut down.
+
+00:31:34.760 --> 00:31:38.460
+ And sadly, at the moment, these are the renewables.
+
+00:31:38.460 --> 00:31:44.860
+ So we are shutting down the wind power because the lines installed can't handle this.
+
+00:31:44.860 --> 00:31:46.860
+ And it gets worse.
+
+00:31:46.860 --> 00:31:51.360
+ If you look into the 2030 scenario, you can see it's getting better.
+
+00:31:51.360 --> 00:31:52.660
+ It's getting worse.
+
+00:31:52.660 --> 00:31:56.460
+ And in 2035, you can see it's getting even worse.
+
+00:31:56.460 --> 00:32:02.060
+ So we need to shut off a lot of power, about two terawatt hours,
+
+00:32:02.060 --> 00:32:06.660
+ just to be able to transport the reminder of the energy.
+
+00:32:06.660 --> 00:32:12.060
+ So what I've shown here is a OPF, an optimal power flow calculation,
+
+00:32:12.060 --> 00:32:15.860
+ which means I take the normal power flow I've shown you guys
+
+00:32:15.860 --> 00:32:23.660
+ and then I try to play around with the numbers until the lines are not overloaded anymore.
+
+00:32:23.660 --> 00:32:28.160
+ And here you can see for this one line, which was red,
+
+00:32:28.160 --> 00:32:36.160
+ you can see several other line types, which increase the power transfer capacity.
+
+00:32:36.160 --> 00:32:42.860
+ And yeah, we are at the point that even if you take the biggest line our system has available,
+
+00:32:42.860 --> 00:32:50.460
+ you still have to shut off a big amount of power, like about 11 terawatts of power,
+
+00:32:50.460 --> 00:32:54.660
+ which will cost you about 500 million euros.
+
+00:32:54.660 --> 00:32:58.660
+ And that this is kind of realistic, you will see at the number below.
+
+00:32:58.660 --> 00:33:02.060
+ I've taken this from the Bundesnetzagentur, the Quartalsbericht,
+
+00:33:02.060 --> 00:33:08.160
+ and they said, yeah, about 3.8 terawatt hours.
+
+00:33:08.160 --> 00:33:15.460
+ No, sorry, I've read the wrong number, about 500 gigawatt hours needed to be shut off,
+
+00:33:15.460 --> 00:33:19.560
+ which costs about 380 million euros.
+
+00:33:19.560 --> 00:33:28.760
+ And this is like costs we all are paying because this kind of costs will be turned over in our energy price.
+
+00:33:28.760 --> 00:33:34.160
+ How does this work? If we shut down so much power in the north, we still need this power.
+
+00:33:34.160 --> 00:33:36.960
+ So this power needs to come from somewhere else.
+
+00:33:36.960 --> 00:33:45.360
+ So normally in the grid control operation center, they will take the phone and they will call the other power plant
+
+00:33:45.360 --> 00:33:48.460
+ because our power plants are always in pairs.
+
+00:33:48.460 --> 00:33:56.560
+ If you shut one down, you will need to increase the other power plant to get it balanced out.
+
+00:33:56.560 --> 00:33:58.160
+ And this is what's happening here.
+
+00:33:58.160 --> 00:34:03.160
+ And as you can see on the lower table, I've done this for the other scenarios,
+
+00:34:03.160 --> 00:34:06.760
+ you will see that this is getting worse.
+
+00:34:06.760 --> 00:34:11.260
+ So why am I doing this?
+
+00:34:11.260 --> 00:34:14.160
+ Because I'm at the moment working on the next project.
+
+00:34:14.160 --> 00:34:21.060
+ So this was NEV 4.0 and now I'm working at NRL, which is Norddeutsches Reallabor,
+
+00:34:21.060 --> 00:34:23.060
+ which is like the follow-up project.
+
+00:34:23.060 --> 00:34:27.260
+ And they're saying, okay, guys, we need to do something.
+
+00:34:27.260 --> 00:34:30.360
+ So and we need to figure out what can we do.
+
+00:34:30.360 --> 00:34:34.360
+ And the big idea, this is also why this is such a large project
+
+00:34:34.360 --> 00:34:38.860
+ with about 60 partners from industry, science and everything,
+
+00:34:38.860 --> 00:34:46.360
+ is we want to try out, can we use hydrogen, for example, to get this, to get a hold on this.
+
+00:34:46.360 --> 00:34:53.160
+ So the next slide is the one I'm a bit fearsome of because as you can see here,
+
+00:34:53.160 --> 00:34:54.960
+ it's the road to the future.
+
+00:34:54.960 --> 00:35:01.560
+ The current grid development plan, I've looked it up the last two, three or three days
+
+00:35:01.560 --> 00:35:08.760
+ because in June there was the last review of it.
+
+00:35:08.760 --> 00:35:12.560
+ They say they want to increase the offshore wind power production
+
+00:35:12.560 --> 00:35:19.760
+ from currently 8 gigawatts to up to 70 gigawatts in 2045.
+
+00:35:19.760 --> 00:35:27.560
+ So in 20 years, we will have installed 10 times the power in wind in the North Sea.
+
+00:35:27.560 --> 00:35:37.060
+ The PV power will increase from about 60 gigawatts to about 400 to 450 gigawatts in 2045.
+
+00:35:37.060 --> 00:35:43.060
+ And this will cost us only for the offshore grid connection about 150 billion euros.
+
+00:35:43.060 --> 00:35:49.660
+ So as you can imagine, this is like a really, really huge endeavor.
+
+00:35:49.660 --> 00:35:56.260
+ And everybody's at the moment like, okay, what the hell can we do about this?
+
+00:35:56.260 --> 00:36:02.960
+ Maybe some of you guys know the South Link project, which is currently in the building by Tenet.
+
+00:36:02.960 --> 00:36:06.860
+ So what they are doing is from Brunspittel, which is in Schleswig-Holstein,
+
+00:36:06.860 --> 00:36:13.160
+ they are building a DC coupling line, where completely through Germany to the southern parts.
+
+00:36:13.160 --> 00:36:17.760
+ And this line has a capacity of 2 gigawatts.
+
+00:36:17.760 --> 00:36:25.960
+ So for getting 70 gigawatts down to the south, we would need 35 of these South Links.
+
+00:36:25.960 --> 00:36:30.160
+ And 2 gigawatts is kind of crazy amount of power.
+
+00:36:30.160 --> 00:36:32.960
+ So and we need like 35 of them.
+
+00:36:32.960 --> 00:36:35.960
+ So as you can see, we have much to do.
+
+00:36:35.960 --> 00:36:40.160
+ And yeah, this is the part where I am sitting at the moment.
+
+00:36:40.160 --> 00:36:45.960
+ So Tenet is planning at the moment to do a large scale electrolyzers.
+
+00:36:45.960 --> 00:36:50.460
+ They're talking about electrolyzation in the order of gigawatts.
+
+00:36:50.460 --> 00:36:53.560
+ For everybody who doesn't know what electrolyzing means, it means we take water,
+
+00:36:53.560 --> 00:36:55.960
+ put energy in it and we get hydrogen.
+
+00:36:55.960 --> 00:37:02.060
+ And yeah, the largest electrolyzers I've seen until now are in the megawatt scale.
+
+00:37:02.060 --> 00:37:07.460
+ And they are talking about gigawatts, thousands of megawatts they want to install there.
+
+00:37:07.460 --> 00:37:16.660
+ So and what I am doing and what we all can do is develop new algorithms to help them find suitable locations,
+
+00:37:16.660 --> 00:37:21.560
+ continue the research on better strategies to increase the renewable feed in.
+
+00:37:21.560 --> 00:37:27.860
+ And yeah, we are at the moment at the point to utilize AI and now everybody is like, oh now AI.
+
+00:37:27.860 --> 00:37:37.660
+ And last but not least, we are at the moment in the middle of creating a new kind of redispatch process,
+
+00:37:37.660 --> 00:37:46.060
+ which is not only for the high energy power plants, but also for your solar rooftop power plants.
+
+00:37:46.060 --> 00:37:54.760
+ So that's the power companies or the power controllers are able to finely tune what's happening in the grid
+
+00:37:54.760 --> 00:37:58.260
+ that we can increase the renewable feed in.
+
+00:37:58.260 --> 00:38:00.660
+ And I know what you guys are thinking.
+
+00:38:00.660 --> 00:38:03.460
+ Hopefully they're using a better communication strategy.
+
+00:38:03.460 --> 00:38:10.060
+ And yeah, I can only say I'm trying my best that this will get like a modern architecture,
+
+00:38:10.060 --> 00:38:13.360
+ which will not provide security problems.
+
+00:38:13.360 --> 00:38:17.360
+ So thank you guys for your attention and yeah.
+
+00:38:17.360 --> 00:38:30.160
+ Thank you so much, Mike, for giving us these insights.
+
+00:38:30.160 --> 00:38:31.660
+ We have time for questions.
+
+00:38:31.660 --> 00:38:39.660
+ Over there is an angel and you can go to the angel if you want to ask questions.
+
+00:38:39.660 --> 00:38:52.160
+ Is there anyone or was it just so comprehensive that you understood everything
+
+00:38:52.160 --> 00:38:56.660
+ and Mike has done such a great job that you all now know?
+
+00:38:56.660 --> 00:38:58.360
+ Okay, someone someone is coming.
+
+00:38:58.360 --> 00:39:04.760
+ You can also ask in German, so that's not a problem.
+
+00:39:04.760 --> 00:39:07.260
+ I would try in English anyway.
+
+00:39:07.260 --> 00:39:13.760
+ You would like to contact that old street map user that should be easy for any user,
+
+00:39:13.760 --> 00:39:16.260
+ but just direct sending him a message.
+
+00:39:16.260 --> 00:39:17.260
+ Okay.
+
+00:39:17.260 --> 00:39:20.960
+ Yeah, I'm not not into this how this everything works.
+
+00:39:20.960 --> 00:39:23.960
+ But yeah, maybe I'll try that.
+
+00:39:23.960 --> 00:39:28.160
+ It's like he's the guy who has entered most of the power lines in Schleswig-Holstein.
+
+00:39:28.160 --> 00:39:30.660
+ And I was like, okay, interesting.
+
+00:39:30.660 --> 00:39:34.260
+ Who's this guy?
+
+00:39:34.260 --> 00:39:38.760
+ Another just in the beginning you mentioned about resilience of the power grid and we
+
+00:39:38.760 --> 00:39:46.060
+ saw in the war in Ukraine that it is a very critical piece of infrastructure and how well
+
+00:39:46.060 --> 00:39:49.760
+ is the I think you know more about the German grid.
+
+00:39:49.760 --> 00:39:57.760
+ How well suited is how resilient is that great against attacks, physical attacks?
+
+00:39:57.760 --> 00:40:03.760
+ Yeah, it depends on your attack vector.
+
+00:40:03.760 --> 00:40:05.760
+ I'd like to say so.
+
+00:40:05.760 --> 00:40:09.660
+ There's several attack vectors you can imagine.
+
+00:40:09.660 --> 00:40:13.760
+ The point is how large will it be your attack.
+
+00:40:13.760 --> 00:40:21.460
+ So, for example, if you somehow manage to break into a transformer substation in your
+
+00:40:21.460 --> 00:40:28.460
+ local area, you can possibly shut off the power for a small part, but they will fix this in
+
+00:40:28.460 --> 00:40:29.460
+ about an hour.
+
+00:40:29.460 --> 00:40:33.460
+ So, this is the normal round trip time they have to do this kind of stuff.
+
+00:40:33.460 --> 00:40:40.460
+ But if your attack gets bigger and worse, for example, as you've seen, the calculations
+
+00:40:40.460 --> 00:40:41.460
+ are n minus one.
+
+00:40:41.460 --> 00:40:43.960
+ Sometimes they're doing n minus two.
+
+00:40:43.960 --> 00:40:50.960
+ So, this means we have n components in our network and we do n times n minus one calculations
+
+00:40:50.960 --> 00:40:59.460
+ to make sure that this system is working for every conceivable grid state.
+
+00:40:59.460 --> 00:41:04.960
+ And, as you can see, this is kind of large of endeavor to do.
+
+00:41:04.960 --> 00:41:10.960
+ So, you need to do a lot of calculations for this and this takes time and effort.
+
+00:41:10.960 --> 00:41:17.460
+ So, maybe if you do a coordinated attack on multiple locations at the same time, you will
+
+00:41:17.460 --> 00:41:20.960
+ get problems which are not that easy to handle.
+
+00:41:20.960 --> 00:41:31.460
+ I've once been at Rotterdam where they supply London with power and they have a 1000 gigawatts.
+
+00:41:31.460 --> 00:41:33.460
+ They have like a really large connection there.
+
+00:41:33.460 --> 00:41:35.460
+ I'm not sure about the numbers at the moment.
+
+00:41:35.460 --> 00:41:38.460
+ And, I was standing in front of such a large transformer.
+
+00:41:38.460 --> 00:41:43.960
+ This was a really big one, like 300 tons, was incredibly large and they have two of them.
+
+00:41:43.960 --> 00:41:45.460
+ And, there was a third one standing there.
+
+00:41:45.460 --> 00:41:48.460
+ And, I asked the guy, "Okay, what happens if the transformer breaks?"
+
+00:41:48.460 --> 00:41:53.960
+ And, he said, "Yeah, okay, basically we need to get a crane to put it over.
+
+00:41:53.960 --> 00:41:55.460
+ It takes about six weeks."
+
+00:41:55.460 --> 00:41:59.960
+ And, I said, "Okay, what happens if this spare unit is broken?"
+
+00:41:59.960 --> 00:42:02.460
+ And, he says, "Yeah, okay, then we need to order a new one.
+
+00:42:02.460 --> 00:42:03.960
+ It takes five years."
+
+00:42:03.960 --> 00:42:06.460
+ And, I was like, "Hmm, okay."
+
+00:42:06.460 --> 00:42:11.460
+ So, and basically the security is like a fence.
+
+00:42:11.460 --> 00:42:17.960
+ And, what we've seen already in the grid, in the European grid,
+
+00:42:17.960 --> 00:42:23.960
+ the European power grid is interconnected and all of the transmission system operators are working together.
+
+00:42:23.960 --> 00:42:31.460
+ They have also communications protocols to exchange data about what's the grid state in my area and so on.
+
+00:42:31.460 --> 00:42:33.460
+ And, this is all interconnected.
+
+00:42:33.460 --> 00:42:39.460
+ And, what we can see is there was once an effect where you have some kind of disturbance in Poland, for example,
+
+00:42:39.460 --> 00:42:44.960
+ which creates like a big scale wave over all of Europe,
+
+00:42:44.960 --> 00:42:48.460
+ which you could see as a big voltage fluctuation in Spain.
+
+00:42:48.460 --> 00:42:51.460
+ So, effects are happening.
+
+00:42:51.460 --> 00:42:56.460
+ That's why we are building components which allow to adjust the power flow.
+
+00:42:56.460 --> 00:43:01.460
+ So, normally electrical energy is like the worst good you can have,
+
+00:43:01.460 --> 00:43:05.460
+ because you need to produce exactly the same amount you use.
+
+00:43:05.460 --> 00:43:09.960
+ Otherwise, your power system will get out of hand.
+
+00:43:09.960 --> 00:43:13.460
+ You can see this at the frequency of your power.
+
+00:43:13.460 --> 00:43:17.460
+ 50.0 Hertz is like perfect.
+
+00:43:17.460 --> 00:43:25.960
+ And, if you differ by only, I think, 20 millihertz, you have like huge amounts of too much or too less generation.
+
+00:43:25.960 --> 00:43:33.460
+ So, maybe there was a sun out, because a...
+
+00:43:33.460 --> 00:43:36.460
+ Now, the words are missing.
+
+00:43:36.460 --> 00:43:38.460
+ Solar eclipse. Thank you, thank you, thank you.
+
+00:43:38.460 --> 00:43:43.460
+ There was a solar eclipse, and Tenet and the other transmission system operators
+
+00:43:43.460 --> 00:43:48.460
+ asked us to do studies what will happen in the whole European grid,
+
+00:43:48.460 --> 00:43:52.460
+ because the sun will be out for like, I don't know, five minutes or so.
+
+00:43:52.460 --> 00:43:58.460
+ And, we looked into it and tried to figure out how big of an effect will this have.
+
+00:43:58.460 --> 00:44:03.460
+ So, it was noticeable, but, yeah, they managed to get around it.
+
+00:44:03.460 --> 00:44:11.460
+ So, yeah, depends on the effect size or the attack vector.
+
+00:44:11.460 --> 00:44:16.460
+ We're going to take this question, and then we are going to close the Q&A.
+
+00:44:16.460 --> 00:44:26.460
+ Okay, so basically my question was, you mentioned in the ending that we can use hydrogen, kind of solve all this.
+
+00:44:26.460 --> 00:44:33.460
+ And I would like to get some scale estimations, like how expensive and big would a fuel cell be to do like,
+
+00:44:33.460 --> 00:44:37.460
+ that's to the two gigawatts you were saying about the line,
+
+00:44:37.460 --> 00:44:46.460
+ and also what kind of volumes would need to be transported of hydrogen to like have an equivalent to such a line
+
+00:44:46.460 --> 00:44:48.460
+ and transport the energy like that.
+
+00:44:48.460 --> 00:44:51.460
+ So, the project is at the moment at the beginning,
+
+00:44:51.460 --> 00:44:56.460
+ and this is the revision of the grid development plan from a month ago.
+
+00:44:56.460 --> 00:45:00.460
+ So, we are still in the process of figuring it out.
+
+00:45:00.460 --> 00:45:04.460
+ And, to be honest, I can't tell you.
+
+00:45:04.460 --> 00:45:10.460
+ So, I know some numbers for some electrolyzers, but not at that large kind of scale.
+
+00:45:10.460 --> 00:45:16.460
+ Like I said, I know for megawatts of electrolyzers, but not of gigawatts of electrolyzers.
+
+00:45:16.460 --> 00:45:19.460
+ And the next problem is the infrastructure.
+
+00:45:19.460 --> 00:45:24.460
+ Not only the power, which needs like large power connections, you also need water.
+
+00:45:24.460 --> 00:45:31.460
+ So, this is like the biggest problematic factor for electrolyzers is to get water, which you can electrolyze.
+
+00:45:31.460 --> 00:45:35.460
+ If you think about, you don't need much water for electrolyzers,
+
+00:45:35.460 --> 00:45:43.460
+ but if you want to turn a gigawatt worth of power over, you will need a lot of water simply.
+
+00:45:43.460 --> 00:45:47.460
+ And salt water is not that good to use.
+
+00:45:47.460 --> 00:45:54.460
+ So, TANET is at the moment discussing to not transport the energy from the offshore wind power plants to the shore,
+
+00:45:54.460 --> 00:46:02.460
+ but to turn it over into hydrogen directly in the offshore region, so that they produce hydrogen offshore.
+
+00:46:02.460 --> 00:46:08.460
+ And this means you need to first desalinate the water and then to turn it over.
+
+00:46:08.460 --> 00:46:14.460
+ And this is like probably giving you an idea how big this is.
+
+00:46:14.460 --> 00:46:20.460
+ So, the next problem is how do we transport the hydrogen to somewhere else?
+
+00:46:20.460 --> 00:46:23.460
+ Because if you have hydrogen, you need to get it away.
+
+00:46:23.460 --> 00:46:33.460
+ At the first stages of the project, they discussed, and I was quite shocked, to just put it on a semi-truck and drive it around.
+
+00:46:33.460 --> 00:46:37.460
+ It was like, okay, interesting.
+
+00:46:37.460 --> 00:46:43.460
+ So, basically if your semi-truck runs on hydrogen, yeah, but no.
+
+00:46:43.460 --> 00:46:53.460
+ And the next problem is your gas infrastructure, which you can by the way calculate with PANAPIPS, needs to be suited for hydrogen.
+
+00:46:53.460 --> 00:47:00.460
+ So, maybe you guys know that you can feed in hydrogen in the normal gas infrastructure,
+
+00:47:00.460 --> 00:47:08.460
+ but this depends on so many factors that studies are estimating wild, wild, wild values.
+
+00:47:08.460 --> 00:47:17.460
+ Some studies say you can feed in like less than 2% of hydrogen, and other studies suggest that you can feed in about 30%.
+
+00:47:17.460 --> 00:47:23.460
+ So, one way they're doing it at the moment, they're putting liners into the pipe.
+
+00:47:23.460 --> 00:47:33.460
+ So, this is like a big plastic snake, which is snaking through the line, and then you have like a plastic coating on the inside, which allows to transport hydrogen.
+
+00:47:33.460 --> 00:47:40.460
+ It's the smallest molecule we have, and it will just diffuse through steel. So, it just disappears, it dissipates.
+
+00:47:40.460 --> 00:47:54.460
+ And yeah, if you're losing like, I don't know, 10 to 20% just through the process of transporting, it's not that beneficial.
+
+00:47:54.460 --> 00:47:57.460
+ Good. So, thank you so much, Mike.
+
+00:47:57.460 --> 00:48:03.460
+ If you have any more questions to him, you can, of course, just talk to him at the side of the tent.
+
+00:48:03.460 --> 00:48:12.460
+ Our next talk here is going to be "Hack My Handicap" in a quarter at 11 a.m.
+
+00:48:12.460 --> 00:48:24.460
+ So, I hope to see you all there and stay hydrated. Please give a round of applause to Mike for his applause.
+
+00:48:24.460 --> 00:48:29.460
+ Thank you, guys.
+
+00:48:30.460 --> 00:48:34.460
+ [Music]
+

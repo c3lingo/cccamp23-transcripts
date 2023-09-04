@@ -1,0 +1,104 @@
+ [MUSIC]
+ [MUSIC]
+ How many people know what Nix is?
+ NixOS is a very basic language.
+ Well, Nix is a language and NixOS makes use of it.
+ And all you do is describe your computer in basic ways.
+ Like I want Firefox installed, or
+ I want this behavior when the system boots up.
+ And then it just goes ahead and does it.
+ And you can apply that, it turns out, to mobile devices.
+ So what is mobile NixOS?
+ You can find out about it at mobile.nixos.org.
+ And the author of this is Samuel Dior.
+ I didn't make it, I just use it.
+ So this is what it looks like.
+ I was gonna try and show you it here, but
+ I guess that's not gonna work out because it's too small of a
+ screen and it's too bright.
+ But you can hook it up to the monitor.
+ You can put a USB hub into it.
+ And you can have fun using your normal computer because
+ phones are never going to be the same again,
+ when people realize this.
+ So you can use it like this, or you can use it like this.
+ And this is the amount of code that I need to write, and
+ I appreciate that it's not a good environment to show it often.
+ But it's a very small diff.
+ It looks like one, two, three, four, it looks like ten lines of code.
+ I can make a NixOS configuration that already exists work on
+ my phone instead of on my laptop.
+ Now the work that made the kernel, the Linux kernel,
+ work on this device has been done by Caleb Connolly.
+ And they may be at this camp, I don't know if they're here, but
+ they've done amazing work over the past two years, all spare time.
+ And a lot of work is inherited from post market OS.
+ I'm using a window manager called SXMO, which makes use of Sway,
+ which is a tiling window manager.
+ And it turns it into a sort of mobile operating system.
+ By the way, you can also run Windows 10 on the phone if you
+ want via this UEFI implementation.
+ And by the way, we can run Android as well.
+ So if you want to just escape to Android for a second, you can.
+ You click one button and you've got Weidroid.
+ And then you swipe to the left and you're back in full Linux.
+ And how do we do that?
+ It's that single line of code right there.
+ So if anyone is skeptical of Nix and NixOS, you should check it out.
+ And by the way, we can emulate x86 programs.
+ So if we just run like Bitwig Studio or
+ some program that runs under Windows, under Wine,
+ it will just run on the device, just with this one line of code.
+ And you can do local speech processing on the device.
+ It doesn't take much time.
+ Potential future, well, maybe we'll get USB-C and
+ display ports everywhere.
+ The demo I showed you of making it work on a monitor,
+ that's just a hack because it works over USB.
+ This doesn't have display port mode out of the USB socket.
+ And by the way, everything's kind of insecure because there's no
+ secure boot implementation, but in the future that could change.
+ There's nothing stopping us from implementing secure boots on
+ this device because it has a trusted platform module, etc.
+ Phones that are worth using are rare.
+ This is one in a million because this is a OnePlus 6.
+ It's got 10 gigs of RAM.
+ It cost $100.
+ Maybe you should all go buy one, but then the price won't be $100
+ anymore.
+ Yeah, and this is kind of like the only phone that works this
+ well at this time.
+ Your phone is a computer.
+ If we can get USB-C on every device, maybe we can get an open
+ bootloader on every device as well.
+ And the European Commission reckons that the USB-C
+ connector saves a lot of money.
+ How much money could this save?
+ Because this isn't just a connector.
+ This allows you to run any piece of software you want on your
+ mobile device, and everyone's phone is probably enough
+ computation for them.
+ And that's it.
+ That's my talk.
+ Oh, actually, Stardust XR, it's a VR display thing.
+ It allows you to pick windows up with your fingers and stuff
+ like this.
+ You could use it with these glasses.
+ I've been using the phone with these glasses.
+ If you think the display is too small, don't, because you can
+ just put it on these glasses, and you can have a big monitor
+ or a world of monitors around you.
+ And many other disaster setups have been made by me that I
+ can't show off because I don't have any time.
+ Oh, yeah, the head computer.
+ [APPLAUSE]
+ Thank you.
+ Cool.
+ Oh, one last thing.
+ If you want to see more about this, come to the Nixos tent
+ next to Seabase, and you can hang out with me.
+ And I'll be doing a talk about this tomorrow, if you're
+ interested.
+ Thank you very much.
+ [APPLAUSE]
+ [MUSIC PLAYING]

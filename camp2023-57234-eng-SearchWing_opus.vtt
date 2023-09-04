@@ -1,0 +1,1220 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:34.000
+ Welcome to the Bittenboim stage.
+
+00:00:34.000 --> 00:00:38.000
+ We are continuing our program with the next talk by Petruselius and
+
+00:00:38.000 --> 00:00:43.000
+ Philippe, who are explaining to us what the Search Wing project is and
+
+00:00:43.000 --> 00:00:49.000
+ what it is doing for civil emergency operations with drones.
+
+00:00:49.000 --> 00:00:52.000
+ Welcome, enjoy the talk.
+
+00:00:52.000 --> 00:00:58.000
+ [APPLAUSE]
+
+00:00:58.000 --> 00:01:00.000
+ >> Yeah, hi and welcome.
+
+00:01:00.000 --> 00:01:03.000
+ My name is Philippe and who are you?
+
+00:01:03.000 --> 00:01:04.000
+ Petruselius.
+
+00:01:04.000 --> 00:01:09.000
+ And we are part of the Search Wing team and we build drones, UAVs,
+
+00:01:09.000 --> 00:01:14.000
+ unmanned aerial vehicles for search and rescue.
+
+00:01:14.000 --> 00:01:20.000
+ It's really nice to see you all here, the great interest in our work and
+
+00:01:20.000 --> 00:01:24.000
+ we are really happy to present our work here.
+
+00:01:24.000 --> 00:01:29.000
+ Thanks to all the people who made this talk possible to the whole Bittenboim
+
+00:01:29.000 --> 00:01:30.000
+ village.
+
+00:01:30.000 --> 00:01:31.000
+ Yeah.
+
+00:01:31.000 --> 00:01:35.000
+ So short overview about our talk.
+
+00:01:35.000 --> 00:01:39.000
+ So we will talk a little bit about motivation, why we do it, why it's
+
+00:01:39.000 --> 00:01:41.000
+ important to do it.
+
+00:01:41.000 --> 00:01:47.000
+ Then we will show you in detail our drone, how it works, how it looks like.
+
+00:01:47.000 --> 00:01:52.000
+ I mean, you can see it over here already, but we will also present some
+
+00:01:52.000 --> 00:01:53.000
+ pictures.
+
+00:01:53.000 --> 00:01:56.000
+ We talk a little bit about our organization.
+
+00:01:56.000 --> 00:01:58.000
+ We have an association now.
+
+00:01:58.000 --> 00:02:04.000
+ Then we will talk about the past and the present and maybe a little bit
+
+00:02:04.000 --> 00:02:06.000
+ about the future.
+
+00:02:06.000 --> 00:02:13.000
+ And then we also go into detail about image processing, which we do, and
+
+00:02:13.000 --> 00:02:18.000
+ future work, stuff we want to do in the future.
+
+00:02:18.000 --> 00:02:20.000
+ So what motivates us?
+
+00:02:20.000 --> 00:02:27.000
+ More and more people are fleeing, are on the move for several reasons.
+
+00:02:27.000 --> 00:02:33.000
+ One reason is war and terror, poverty, climate change.
+
+00:02:33.000 --> 00:02:40.000
+ There are a lot of reasons why people flee, and some people flee over the
+
+00:02:40.000 --> 00:02:45.000
+ ocean because they have no other way to get to safety.
+
+00:02:45.000 --> 00:02:50.000
+ And here you can see a map and some numbers about people on the move.
+
+00:02:50.000 --> 00:02:56.000
+ What's important to see here is that a lot of people die, so they are very
+
+00:02:56.000 --> 00:02:58.000
+ dangerous routes for people.
+
+00:02:58.000 --> 00:03:02.000
+ So it's our responsibility to help these people.
+
+00:03:02.000 --> 00:03:08.000
+ And what you can see here too is that there are multiple routes.
+
+00:03:08.000 --> 00:03:14.000
+ Even through the Mediterranean Sea, there are multiple routes which people
+
+00:03:14.000 --> 00:03:15.000
+ take.
+
+00:03:15.000 --> 00:03:21.000
+ For example, there is a route via Libya, which is a big war zone.
+
+00:03:21.000 --> 00:03:24.000
+ Then there's a route via Tunisia.
+
+00:03:24.000 --> 00:03:32.000
+ But then you also see on the left there's a route via the Mare Inge von
+
+00:03:32.000 --> 00:03:34.000
+ Gibraltar.
+
+00:03:34.000 --> 00:03:37.000
+ But also people come to Greece.
+
+00:03:37.000 --> 00:03:42.000
+ And what you don't see here at the moment is, for example, the English
+
+00:03:42.000 --> 00:03:48.000
+ Channel or the Atlantic Route, where people go to the Canary Islands, for
+
+00:03:48.000 --> 00:03:50.000
+ example, from Senegal.
+
+00:03:50.000 --> 00:03:58.000
+ So it's very dangerous and we should support these people.
+
+00:03:58.000 --> 00:04:09.000
+ What we see at the moment is that almost all states withdraw from the sea.
+
+00:04:09.000 --> 00:04:16.000
+ They leave it to a civil fleet to support people on the move.
+
+00:04:16.000 --> 00:04:22.000
+ Here you can see a few organizations which we are actually working with.
+
+00:04:22.000 --> 00:04:25.000
+ They have very different vessels.
+
+00:04:25.000 --> 00:04:28.000
+ Here on the left, it's an old picture.
+
+00:04:28.000 --> 00:04:34.000
+ Actually, now the ship is run by SOS Humanity, but before the Sea Watch
+
+00:04:34.000 --> 00:04:36.000
+ had the Sea Watch 4.
+
+00:04:36.000 --> 00:04:41.000
+ Then you can see the Alan Kodi, the ship of Sea Eyes.
+
+00:04:41.000 --> 00:04:46.000
+ It's also not a present situation right now.
+
+00:04:46.000 --> 00:04:51.000
+ So this ship is now owned by somebody else.
+
+00:04:51.000 --> 00:04:56.000
+ But there's also a rescue ship, a small sailing boat, which operates right
+
+00:04:56.000 --> 00:05:00.000
+ now in front of Lampedusa.
+
+00:05:00.000 --> 00:05:06.000
+ So what we want to do, we want to support a lot of NGOs in different
+
+00:05:06.000 --> 00:05:09.000
+ situations with our system.
+
+00:05:09.000 --> 00:05:13.000
+ And this then has some implications for our work.
+
+00:05:13.000 --> 00:05:19.000
+ Of course, there's the government or multiple governments doing work in
+
+00:05:19.000 --> 00:05:21.000
+ the Mediterranean too.
+
+00:05:21.000 --> 00:05:30.000
+ But what they mostly do, they fund corrupt and bad people, which you can
+
+00:05:30.000 --> 00:05:35.000
+ see on the left is so-called Libyan Coast Guard.
+
+00:05:35.000 --> 00:05:41.000
+ They get, for example, infrastructure, for example, vessels.
+
+00:05:41.000 --> 00:05:49.000
+ And then on the right, you see that Frontex, EU border agency more or less,
+
+00:05:49.000 --> 00:05:55.000
+ they operate drones in the Mediterranean Sea or above the sea.
+
+00:05:55.000 --> 00:05:58.000
+ There you can see some tracks of these drones.
+
+00:05:58.000 --> 00:06:05.000
+ But the image data is actually not public, so they only use it to inform,
+
+00:06:05.000 --> 00:06:09.000
+ for example, the Libyan Coast Guard about cases.
+
+00:06:09.000 --> 00:06:15.000
+ And then they start to do pullbacks, so they bring people back in the war
+
+00:06:15.000 --> 00:06:20.000
+ zone and not to a safe place where they actually belong.
+
+00:06:20.000 --> 00:06:28.000
+ Here you can see, get an impression of the area where the NGO boats operate
+
+00:06:28.000 --> 00:06:33.000
+ in this Mediterranean Sea in front of Lampedusa and Malta.
+
+00:06:33.000 --> 00:06:39.000
+ So it's quite a long way with the shitty boat to get to a safe place.
+
+00:06:39.000 --> 00:06:46.000
+ And then you can also see that's a very big area the ships have to cover.
+
+00:06:46.000 --> 00:06:52.000
+ And right now it's quite low-tech what the NGOs do.
+
+00:06:52.000 --> 00:06:55.000
+ They go on rusty ships.
+
+00:06:55.000 --> 00:07:02.000
+ They go to sea, and then they use the ice to check for people on the water.
+
+00:07:02.000 --> 00:07:06.000
+ Sometimes or most of the times they use binoculars.
+
+00:07:06.000 --> 00:07:13.000
+ Then the next technical device they have is radar, but the radar not always works
+
+00:07:13.000 --> 00:07:19.000
+ or it's not as great as we want it to be because they are rubber boats.
+
+00:07:19.000 --> 00:07:22.000
+ Or the people on the move, they use rubber boats,
+
+00:07:22.000 --> 00:07:26.000
+ so there's no real reflection of the radar signal.
+
+00:07:26.000 --> 00:07:31.000
+ So it's really hard to make out cases by radar.
+
+00:07:31.000 --> 00:07:36.000
+ Then the next tool we have are airplanes.
+
+00:07:36.000 --> 00:07:41.000
+ Some NGOs operate airplanes over the sea.
+
+00:07:41.000 --> 00:07:46.000
+ They of course can spot people, but they use binoculars,
+
+00:07:46.000 --> 00:07:49.000
+ ice or cameras to spot these people,
+
+00:07:49.000 --> 00:07:53.000
+ and they can only operate in very good conditions.
+
+00:07:53.000 --> 00:07:58.000
+ Then of course another tool we have is mobile phone,
+
+00:07:58.000 --> 00:08:05.000
+ but the mobile phone only works for a few miles out into the ocean,
+
+00:08:05.000 --> 00:08:08.000
+ and then people are more or less disconnected.
+
+00:08:08.000 --> 00:08:16.000
+ Some people have satellite phones and can call, for example, alarm phone.
+
+00:08:16.000 --> 00:08:20.000
+ Alarm phone is a hotline for people on the move,
+
+00:08:20.000 --> 00:08:25.000
+ so you can call them and tell them, "Hey, we are in distress.
+
+00:08:25.000 --> 00:08:30.000
+ Please forward this information to the Coast Guard or the Civil Fleet."
+
+00:08:30.000 --> 00:08:36.000
+ But of course you have to have, for example, a satellite phone.
+
+00:08:36.000 --> 00:08:40.000
+ Some countries forbid satellite phones,
+
+00:08:40.000 --> 00:08:47.000
+ so in some situations it's hard to get satellite phones.
+
+00:08:47.000 --> 00:08:54.000
+ Then it's possible to use satellites to detect cases on the water too,
+
+00:08:54.000 --> 00:08:58.000
+ but this is a really expensive process,
+
+00:08:58.000 --> 00:09:05.000
+ and it's also not as fast as, for example, an airplane.
+
+00:09:05.000 --> 00:09:09.000
+ Nowadays we start to use drones to find people,
+
+00:09:09.000 --> 00:09:12.000
+ but to this I come later.
+
+00:09:12.000 --> 00:09:19.000
+ Here you can see, for example, how people on a ship try to find people,
+
+00:09:19.000 --> 00:09:24.000
+ but as you can imagine, this on a moving ship, rocking ship,
+
+00:09:24.000 --> 00:09:29.000
+ is really a tiresome process and also prone to errors.
+
+00:09:29.000 --> 00:09:34.000
+ We actually want to show the video.
+
+00:09:34.000 --> 00:09:39.000
+ What we do, we build drones for search and rescue.
+
+00:09:39.000 --> 00:09:44.000
+ Here you can see our drone in operation.
+
+00:09:44.000 --> 00:09:47.000
+ But how did this all start?
+
+00:09:47.000 --> 00:09:51.000
+ It actually started in this wonderful community.
+
+00:09:51.000 --> 00:09:59.000
+ Some people saw that NGOs and other people started to do search and rescue at sea
+
+00:09:59.000 --> 00:10:02.000
+ with this quite low-tech approach.
+
+00:10:02.000 --> 00:10:05.000
+ These people are from the chaos community.
+
+00:10:05.000 --> 00:10:09.000
+ They thought, "Okay, hey, we have skills,
+
+00:10:09.000 --> 00:10:13.000
+ and there's quite a lot of free software and open hardware
+
+00:10:13.000 --> 00:10:19.000
+ which we can use to build a drone that helps in this use case."
+
+00:10:19.000 --> 00:10:28.000
+ So it actually started 2017.
+
+00:10:28.000 --> 00:10:39.000
+ We gave a talk here and the project started.
+
+00:10:39.000 --> 00:10:41.000
+ What's happening right now?
+
+00:10:41.000 --> 00:10:47.000
+ Yesterday evening we got a call from one of the ships.
+
+00:10:47.000 --> 00:10:52.000
+ They have a drone near to Lampedusa on the vessel,
+
+00:10:52.000 --> 00:10:58.000
+ and they did a search flight from the vessel.
+
+00:10:58.000 --> 00:11:02.000
+ So the drones are actually in operation.
+
+00:11:02.000 --> 00:11:06.000
+ Then there's another ship where we have two drones,
+
+00:11:06.000 --> 00:11:12.000
+ which are right now in the so-called Sa zone,
+
+00:11:12.000 --> 00:11:16.000
+ so the zone where we actually search for people,
+
+00:11:16.000 --> 00:11:31.000
+ and we are waiting for the next flight of one of our drones.
+
+00:11:31.000 --> 00:11:35.000
+ Right now three drones are in operation,
+
+00:11:35.000 --> 00:11:40.000
+ but in the past, of course, we did missions and test missions.
+
+00:11:40.000 --> 00:11:44.000
+ Here you can see a small overview.
+
+00:11:44.000 --> 00:11:49.000
+ We did the first mission with a rescue ship.
+
+00:11:49.000 --> 00:11:53.000
+ They operate from a small sailing vessel.
+
+00:11:53.000 --> 00:12:00.000
+ I think the person who actually did the mission is also somewhere here.
+
+00:12:00.000 --> 00:12:04.000
+ Then we tried to do a mission with CI,
+
+00:12:04.000 --> 00:12:11.000
+ but unfortunately our system failed before we actually went to sea.
+
+00:12:11.000 --> 00:12:14.000
+ Then you earlier saw the SeaWatch 4,
+
+00:12:14.000 --> 00:12:21.000
+ so we went on a short trip to the shipyard with SeaWatch 4,
+
+00:12:21.000 --> 00:12:25.000
+ where we intensively tested our system,
+
+00:12:25.000 --> 00:12:29.000
+ so one of the latest prototypes.
+
+00:12:29.000 --> 00:12:33.000
+ Then the last two missions we did with Mission Lifeline,
+
+00:12:33.000 --> 00:12:37.000
+ they operate near the Canary Islands,
+
+00:12:37.000 --> 00:12:43.000
+ and they operated the drone in 2021 for one week,
+
+00:12:43.000 --> 00:12:52.000
+ and then now they operated two drones for three months.
+
+00:12:52.000 --> 00:12:56.000
+ Now I want to tell you a little bit about the drone,
+
+00:12:56.000 --> 00:13:17.000
+ and we want to show you a short video about the process.
+
+00:13:17.000 --> 00:13:22.000
+ I guess it's a little bit hard to see,
+
+00:13:22.000 --> 00:13:25.000
+ but the idea is that we operate at sea,
+
+00:13:25.000 --> 00:13:30.000
+ therefore there's a lot of water.
+
+00:13:30.000 --> 00:13:35.000
+ For example, from a small sailing vessel,
+
+00:13:35.000 --> 00:13:41.000
+ normally we give two drones to the vessel if there's enough space.
+
+00:13:41.000 --> 00:13:43.000
+ Then we have a small tablet,
+
+00:13:43.000 --> 00:13:48.000
+ which we use for planning of the actual search pattern,
+
+00:13:48.000 --> 00:13:52.000
+ so normally we know about the case,
+
+00:13:52.000 --> 00:13:56.000
+ or know some information about the case,
+
+00:13:56.000 --> 00:14:02.000
+ and want to fly somewhere and fly a search pattern there.
+
+00:14:02.000 --> 00:14:07.000
+ It's not a big drone.
+
+00:14:07.000 --> 00:14:15.000
+ You have to invest right now 1,700 euros for one drone.
+
+00:14:15.000 --> 00:14:17.000
+ It's quite wind resistant.
+
+00:14:17.000 --> 00:14:21.000
+ Here you can see the hand launch of the drone,
+
+00:14:21.000 --> 00:14:24.000
+ where you just throw the drone in the air,
+
+00:14:24.000 --> 00:14:29.000
+ and then it starts to automatically fly the search pattern.
+
+00:14:29.000 --> 00:14:32.000
+ We fly in 550 meters.
+
+00:14:32.000 --> 00:14:34.000
+ Of course, we can also change this,
+
+00:14:34.000 --> 00:14:40.000
+ but in this height we see the most area,
+
+00:14:40.000 --> 00:14:48.000
+ and then our cruise speed now is actually a little bit faster.
+
+00:14:48.000 --> 00:14:52.000
+ Then we see an area,
+
+00:14:52.000 --> 00:14:56.000
+ our ground resolution is 20 centimeters per pixel right now.
+
+00:14:56.000 --> 00:15:01.000
+ Here you can see how a search pattern could look like.
+
+00:15:01.000 --> 00:15:10.000
+ We can cover roughly 200 square kilometers with our two cameras.
+
+00:15:10.000 --> 00:15:14.000
+ Then we have a base station where we always have a connection to the drone
+
+00:15:14.000 --> 00:15:17.000
+ and can also change the flight pattern in flight
+
+00:15:17.000 --> 00:15:20.000
+ if there's a need for that.
+
+00:15:20.000 --> 00:15:24.000
+ Then the drone automatically comes back to the ship,
+
+00:15:24.000 --> 00:15:27.000
+ and then the drone pilot initiates the landing.
+
+00:15:27.000 --> 00:15:29.000
+ Right now we do the landing by hand,
+
+00:15:29.000 --> 00:15:35.000
+ so we have a remote control and land the drone next to the ship.
+
+00:15:35.000 --> 00:15:38.000
+ It's even possible in very rough conditions,
+
+00:15:38.000 --> 00:15:42.000
+ for example waves of two meters are not a big problem.
+
+00:15:42.000 --> 00:15:45.000
+ Then the drone actually lands in the water
+
+00:15:45.000 --> 00:15:51.000
+ because we don't want to endanger any people on the ship.
+
+00:15:51.000 --> 00:15:59.000
+ Then we start the image download and automatic processing of the images.
+
+00:15:59.000 --> 00:16:05.000
+ Here you can see an old version of our system,
+
+00:16:05.000 --> 00:16:19.000
+ and one crew member goes through all the images we have.
+
+00:16:19.000 --> 00:16:22.000
+ Just to recap, we actually have a flying camera.
+
+00:16:22.000 --> 00:16:24.000
+ We can go 100 kilometers.
+
+00:16:24.000 --> 00:16:27.000
+ It's waterproof because we land in the water.
+
+00:16:27.000 --> 00:16:31.000
+ The flying is automatically, so it's not autonomous.
+
+00:16:31.000 --> 00:16:35.000
+ Then we have computer vision, but it's offline.
+
+00:16:35.000 --> 00:16:38.000
+ Of course, it's all free and open source software and hardware,
+
+00:16:38.000 --> 00:16:41.000
+ so if you want to build a drone, you can do this.
+
+00:16:41.000 --> 00:16:44.000
+ Here's a short overview about our system.
+
+00:16:44.000 --> 00:16:47.000
+ We actually have this frame. We buy it in Asia.
+
+00:16:47.000 --> 00:16:50.000
+ Then we have a waterproof box you can see in the middle.
+
+00:16:50.000 --> 00:16:55.000
+ Then we have a flight computer based on an STM32.
+
+00:16:55.000 --> 00:16:59.000
+ Then we have a Raspberry Pi with two cameras connected.
+
+00:16:59.000 --> 00:17:04.000
+ The Raspberry Pi then gets data from a flight computer,
+
+00:17:04.000 --> 00:17:08.000
+ and then we can fuse this data with the image data
+
+00:17:08.000 --> 00:17:13.000
+ and, for example, then tell where we took the image or at which time.
+
+00:17:13.000 --> 00:17:18.000
+ Of course, we also have a telemetry module or transceiver
+
+00:17:18.000 --> 00:17:20.000
+ to stay in contact with the drone,
+
+00:17:20.000 --> 00:17:30.000
+ but we only use this for, for example, position data and not for image transmission.
+
+00:17:30.000 --> 00:17:33.000
+ Then in front of our plane there's a big battery,
+
+00:17:33.000 --> 00:17:36.000
+ which weighs more or less one kilo.
+
+00:17:36.000 --> 00:17:38.000
+ In the back there we have the motor,
+
+00:17:38.000 --> 00:17:44.000
+ and of course we have a few servos to control the plane.
+
+00:17:44.000 --> 00:17:47.000
+ Then here you can see how we actually do the planning,
+
+00:17:47.000 --> 00:17:49.000
+ so we use free software here.
+
+00:17:49.000 --> 00:17:54.000
+ It's called QGroundControl. It's a QT app,
+
+00:17:54.000 --> 00:18:01.000
+ and you can draw a pattern which the drone then actually flies through.
+
+00:18:01.000 --> 00:18:05.000
+ Then we also developed a little bit of software
+
+00:18:05.000 --> 00:18:09.000
+ to actually take a look at the pictures we take.
+
+00:18:09.000 --> 00:18:16.000
+ Here you can see maybe a picture with one big ship,
+
+00:18:16.000 --> 00:18:23.000
+ and then maybe you could, or normally we ask people to count the ships in the image.
+
+00:18:23.000 --> 00:18:26.000
+ I think this is now really hard,
+
+00:18:26.000 --> 00:18:32.000
+ but what you can see that it's really hard to actually see the small ship.
+
+00:18:32.000 --> 00:18:38.000
+ So the big ship is the SeaWatch 4, and then we have a small rip,
+
+00:18:38.000 --> 00:18:41.000
+ which is next to the SeaWatch 4,
+
+00:18:41.000 --> 00:18:49.000
+ but with our camera system it's really hard by human eye to make out this ship.
+
+00:18:49.000 --> 00:18:55.000
+ Therefore we have this system to take a look at the images,
+
+00:18:55.000 --> 00:19:03.000
+ and then also the image processing to give hints in the image to actually see the case.
+
+00:19:03.000 --> 00:19:08.000
+ Here you can now see, for example, that we highlighted this case.
+
+00:19:08.000 --> 00:19:13.000
+ You can only see a few pixels of the case.
+
+00:19:13.000 --> 00:19:22.000
+ Now I give over to Julian, I think.
+
+00:19:22.000 --> 00:19:32.000
+ Thanks. I want to show you a few bits about the boat detection process we developed at Searchping.
+
+00:19:32.000 --> 00:19:37.000
+ You saw already in the previous images the result of it.
+
+00:19:37.000 --> 00:19:43.000
+ We have a software which shows the image and an overlay with the rectangle around where the boat is.
+
+00:19:43.000 --> 00:19:50.000
+ The steps I want to show you describe this process, how to generate these boxes.
+
+00:19:50.000 --> 00:19:57.000
+ There are a few things we thought, or we developed some knowledge, and I want to share this with you.
+
+00:19:57.000 --> 00:20:06.000
+ We can roughly build this process, and it's built out of five steps.
+
+00:20:06.000 --> 00:20:11.000
+ The first step is taking the actual image, then we download the images after the plane has landed,
+
+00:20:11.000 --> 00:20:15.000
+ and then we do the actual boat detection.
+
+00:20:15.000 --> 00:20:20.000
+ After this detection we do the fourth step, it's offline tracking,
+
+00:20:20.000 --> 00:20:27.000
+ which combines all the information we created in the previous step, and then in the end we visualize this.
+
+00:20:27.000 --> 00:20:31.000
+ So how do we do the actual image capturing?
+
+00:20:31.000 --> 00:20:40.000
+ As Philipp already said, there is a Raspberry Pi board in the plane which has two cameras connected to it.
+
+00:20:40.000 --> 00:20:46.000
+ It got eight megapixels, and this results in an altitude of 550 meters,
+
+00:20:46.000 --> 00:20:52.000
+ and a ground resolution of roughly 20 centimeters per pixel to 35 centimeters per pixel.
+
+00:20:52.000 --> 00:21:01.000
+ We can cover with both cameras a sweep width of two kilometers.
+
+00:21:01.000 --> 00:21:06.000
+ We take one photo every two seconds, and we also thought a bit about the exposure control,
+
+00:21:06.000 --> 00:21:12.000
+ because normally the exposure control for cameras is very optimized for big objects inside the image,
+
+00:21:12.000 --> 00:21:16.000
+ but as we wanted to detect very small objects, they tend to get overexposed,
+
+00:21:16.000 --> 00:21:23.000
+ so we really try to underexpose the images to get not overexposure of the boats,
+
+00:21:23.000 --> 00:21:26.000
+ to have some more contrast in the image.
+
+00:21:26.000 --> 00:21:31.000
+ So the second step after the actual image taking is then already the download of the image,
+
+00:21:31.000 --> 00:21:37.000
+ which is done after the plane has landed next to the ship, we get it on board, and then we download the images.
+
+00:21:37.000 --> 00:21:45.000
+ This takes about 35 minutes, and because it's a lot of data actually, it's 22 gigabytes, because of the high resolution,
+
+00:21:45.000 --> 00:21:55.000
+ and we also use some kind of prioritization to get first the most important images inside the data we created.
+
+00:21:55.000 --> 00:22:03.000
+ In the third step, we do the actual detection of the boats, so finding the boats inside the image,
+
+00:22:03.000 --> 00:22:11.000
+ and we realized this is a very much important step to do, because we had some users actually,
+
+00:22:11.000 --> 00:22:22.000
+ and they tried to check all of those images manually, and it was a very tiresome process,
+
+00:22:22.000 --> 00:22:31.000
+ and humans cannot keep that attention span for a very long time, especially if you're on the sea and get maybe seasick,
+
+00:22:31.000 --> 00:22:35.000
+ and you cannot analyze manually this huge amount of image.
+
+00:22:35.000 --> 00:22:43.000
+ So we think an algorithm which assists this process is very important, and therefore we decided to take
+
+00:22:43.000 --> 00:22:48.000
+ or use some algorithms from the neural networks family.
+
+00:22:48.000 --> 00:22:54.000
+ Some say it's AI, but it's more I think like a pattern recognition algorithm,
+
+00:22:54.000 --> 00:23:00.000
+ and there's one problem with these algorithms that they are more or less a black box,
+
+00:23:00.000 --> 00:23:08.000
+ which it's hard to understand and that you cannot guarantee as a programmer that it works as expected or intended.
+
+00:23:08.000 --> 00:23:14.000
+ So even if there are some boats detected, we cannot guarantee that other boats, which might look similar,
+
+00:23:14.000 --> 00:23:21.000
+ are then detected afterwards again, and also those algorithms need a lot of data,
+
+00:23:21.000 --> 00:23:30.000
+ which we don't have because we cannot fly that much at the sea, and also we cannot create images of every possible object,
+
+00:23:30.000 --> 00:23:32.000
+ which could be out there.
+
+00:23:32.000 --> 00:23:38.000
+ So we don't generally trust these algorithms, and we always tell the people who use our software
+
+00:23:38.000 --> 00:23:46.000
+ that they still need to check every image and just use this algorithm to rank or prioritize the images
+
+00:23:46.000 --> 00:23:52.000
+ to get the most important ones first, then check those according to the prioritization.
+
+00:23:52.000 --> 00:23:58.000
+ And this makes it then possible to actually get through the images in a meaningful time,
+
+00:23:58.000 --> 00:24:01.000
+ otherwise it's nearly impossible.
+
+00:24:01.000 --> 00:24:06.000
+ And yeah, just a detail maybe, the object detection algorithm we use is called FastRCNN.
+
+00:24:06.000 --> 00:24:12.000
+ It's a quite old one, but it works the best for us in our use case because we have a lot of small objects,
+
+00:24:12.000 --> 00:24:18.000
+ and other more modern ones don't work that well on small objects.
+
+00:24:18.000 --> 00:24:21.000
+ Then the next step is the offline tracking.
+
+00:24:21.000 --> 00:24:25.000
+ This step combines all the information from the previous ones.
+
+00:24:25.000 --> 00:24:29.000
+ So it takes all the detections and combines them in a meaningful way.
+
+00:24:29.000 --> 00:24:38.000
+ And you can see in this example here, we have here a plane at five time steps,
+
+00:24:38.000 --> 00:24:43.000
+ and you have a boat on the sea, on the ground there,
+
+00:24:43.000 --> 00:24:49.000
+ and in the first time step the boat is not detected, otherwise there would be a box around it,
+
+00:24:49.000 --> 00:24:55.000
+ and there are also no other waves which might have been false positively detected.
+
+00:24:55.000 --> 00:25:01.000
+ So in the next time step we fly, there is a wave on the left side and the boat on the right side.
+
+00:25:01.000 --> 00:25:07.000
+ We detect the wave, and for us as humans we can see this is a false positive,
+
+00:25:07.000 --> 00:25:13.000
+ and we create a track out of this which says, okay, we use this information from the image,
+
+00:25:13.000 --> 00:25:18.000
+ calculate the real position, and we remember this position for the next time step then,
+
+00:25:18.000 --> 00:25:23.000
+ and then check if the boat or wave in this case appears again,
+
+00:25:23.000 --> 00:25:29.000
+ and then we can see if it's going, because if it's going in the next time step,
+
+00:25:29.000 --> 00:25:34.000
+ then we know, or two time steps, then we know, okay, it might not be a real boat,
+
+00:25:34.000 --> 00:25:40.000
+ because a real boat differentiates from a wave that it stays there, but the wave disappears.
+
+00:25:40.000 --> 00:25:47.000
+ So let's see what happens. So at time step three, there now we detect the actual boat and the wave again,
+
+00:25:47.000 --> 00:25:52.000
+ as a true positive in this case, then we have at time step four the boat again,
+
+00:25:52.000 --> 00:25:59.000
+ it gets detected, and at time step five we only detect the boat as true positive,
+
+00:25:59.000 --> 00:26:05.000
+ it gets marked with a green cross, and this says, okay, this is a real boat,
+
+00:26:05.000 --> 00:26:10.000
+ because it was detected multiple times in contrast to the wave which disappeared at some point,
+
+00:26:10.000 --> 00:26:16.000
+ and is therefore a false positive. Okay.
+
+00:26:16.000 --> 00:26:24.000
+ Now the last step is the visualization. So we now combine all the information and visualize this,
+
+00:26:24.000 --> 00:26:29.000
+ and you can see here in the center, that's the image, there you have a boat,
+
+00:26:29.000 --> 00:26:36.000
+ and it got like a rectangular box and a circle around it, this is the detection and the tracking information.
+
+00:26:36.000 --> 00:26:42.000
+ On the right hand side you see two lists, one list for each of the cameras inside the drone,
+
+00:26:42.000 --> 00:26:47.000
+ and below there's a small map which shows where the drone is going to.
+
+00:26:47.000 --> 00:26:54.000
+ Okay, just a few more bits about the future work we're going to take with the drone.
+
+00:26:54.000 --> 00:27:03.000
+ So we want to put better cameras inside of it, because right now it's only 8 megapixels and a quite old sensor,
+
+00:27:03.000 --> 00:27:10.000
+ and with a new modern camera we might be able to detect more boats or smaller ones and so on.
+
+00:27:10.000 --> 00:27:17.000
+ We also experimented with thermal sensors which would enable us to also fly by night,
+
+00:27:17.000 --> 00:27:22.000
+ because right now with the regular RGB cameras we only can fly on the daytime,
+
+00:27:22.000 --> 00:27:28.000
+ and this limits us in a lot of use cases. So we tested those small thermal sensors,
+
+00:27:28.000 --> 00:27:34.000
+ they are like 200 to 300 euros, they fit into our small plane which you can see here,
+
+00:27:34.000 --> 00:27:43.000
+ but we haven't not integrated them in our real usage planes yet, but it works quite okay.
+
+00:27:43.000 --> 00:27:49.000
+ The image on the right hand side, yeah it's very hard I think to see, but in the top it shows the RGB image,
+
+00:27:49.000 --> 00:27:55.000
+ and on the lower side it shows the actual thermal image, and there you maybe in the stream can see
+
+00:27:55.000 --> 00:28:00.000
+ that the actual boats and even the small buoys which are also there,
+
+00:28:00.000 --> 00:28:10.000
+ you can see them in the thermal image and therefore it would work to use these cheap sensors also in our drone.
+
+00:28:10.000 --> 00:28:15.000
+ Okay, online boat detection is also one important thing we want to build in,
+
+00:28:15.000 --> 00:28:20.000
+ so right now we only work or do this detection of the boats after we landed,
+
+00:28:20.000 --> 00:28:27.000
+ but it would be also nice to directly get information about where the boats are while we are flying,
+
+00:28:27.000 --> 00:28:34.000
+ and there is ongoing work on this and we hope we can implement or deploy this soon,
+
+00:28:34.000 --> 00:28:40.000
+ and we can analyze one image with the half of the resolution in 500 milliseconds,
+
+00:28:40.000 --> 00:28:48.000
+ and it gives us already a rough information where a boat could be and they could alert the crew.
+
+00:28:48.000 --> 00:28:55.000
+ Okay, long range image download is also an important thing.
+
+00:28:55.000 --> 00:29:00.000
+ As I said already, we only can download the images after we landed,
+
+00:29:00.000 --> 00:29:08.000
+ but it would be very important to also give the NGOs the ability to get the images while they are flying,
+
+00:29:08.000 --> 00:29:14.000
+ and yeah we worked on this a lot in the recent years.
+
+00:29:14.000 --> 00:29:20.000
+ There are multiple possibilities, but we ended up with using just regular Wi-Fi
+
+00:29:20.000 --> 00:29:30.000
+ because this enables us to download regular images through it using TCP in contrast to streaming video or something,
+
+00:29:30.000 --> 00:29:38.000
+ and yeah we used their off-the-shelf hardware and we tested it with quite okay-ish results for our use case for 30 kilometers,
+
+00:29:38.000 --> 00:29:47.000
+ so maybe we hope that we can also put this into usage soon.
+
+00:29:47.000 --> 00:29:59.000
+ Okay, another group in our or another part of our group also in parallel works on a completely different concept,
+
+00:29:59.000 --> 00:30:08.000
+ building instead of using like the foam based drones, building a completely different one using fiber material,
+
+00:30:08.000 --> 00:30:20.000
+ and it's currently just a few days ago they flew some test missions on the Baltic Sea, I guess so,
+
+00:30:20.000 --> 00:30:28.000
+ and it was successful so maybe we can soon also get a more robust version than the foam based version
+
+00:30:28.000 --> 00:30:41.000
+ because it tends to, if there are some wakes, it might get some damage, but fiber material is way more stable in this regard.
+
+00:30:41.000 --> 00:30:56.000
+ Okay, yeah here you can see how damage could look like, so it's really not nice to hit the ground,
+
+00:30:56.000 --> 00:31:03.000
+ but if you want to experience this firsthand you can of course participate in our project,
+
+00:31:03.000 --> 00:31:11.000
+ we are always looking for new members to support our project,
+
+00:31:11.000 --> 00:31:17.000
+ but you can also just spread news about our project, tell people about our project,
+
+00:31:17.000 --> 00:31:30.000
+ we also take donations, so we have an association, a German association, non-profit association, so if you have some money somewhere you don't need, please send it our way,
+
+00:31:30.000 --> 00:31:37.000
+ and of course we have a lot of technical, but not only technical problems,
+
+00:31:37.000 --> 00:31:51.000
+ the whole aspect of bringing the system into operation is a big process and we also need experts for example in operating systems in maritime environments,
+
+00:31:51.000 --> 00:31:58.000
+ so if you have any experience please join our project, yeah, so over there we have a booth,
+
+00:31:58.000 --> 00:32:08.000
+ so if you have any questions you can come there and we can talk in detail about challenges you can tackle with us,
+
+00:32:08.000 --> 00:32:15.000
+ and now there is some more time for questions, yeah, do you have any questions?
+
+00:32:27.000 --> 00:32:32.000
+ I was waiting for your end slide, it didn't come, thank you for the talk,
+
+00:32:32.000 --> 00:32:40.000
+ I see one question at the front already, there is my colleague coming, oh sorry I was supposed to give you the microphone, yeah,
+
+00:32:44.000 --> 00:32:57.000
+ you already spoke about on device detection, what is your biggest constraint here, is it the power budget, is it the weight, is it the run time, why is that something that you hadn't done before, or is it just time?
+
+00:32:57.000 --> 00:33:13.000
+ Yeah it's time also, but also as we run on a Raspberry Pi it's not very, for image processing it's not the best platform, but I think for all the other things it's the best platform like regarding maintenance and stuff,
+
+00:33:13.000 --> 00:33:24.000
+ so it's not like super powerful for this, so we needed to find some way to find a usable option for online boat detection.
+
+00:33:26.000 --> 00:33:32.000
+ Two small questions, how do you seal the 3D printed case with epoxy?
+
+00:33:32.000 --> 00:33:45.000
+ Yeah we tried this too, but it didn't work out because epoxy doesn't stick to some of the printing filaments, so right now we use SLA printing,
+
+00:33:45.000 --> 00:33:59.000
+ we actually buy the waterproof box we built in Asia, so there's service to print these boxes and yeah this works quite well.
+
+00:33:59.000 --> 00:34:05.000
+ And isn't Wi-Fi using too much battery?
+
+00:34:06.000 --> 00:34:21.000
+ No, I think it's maybe 5 watts or so we actually use with our Wi-Fi module, but of course it's a high power Wi-Fi module and we operate at sea, a little bit like pirates,
+
+00:34:21.000 --> 00:34:29.000
+ so we have flying pirate radio somehow and yeah of course it consumes a little bit of energy.
+
+00:34:29.000 --> 00:34:33.000
+ Question over there.
+
+00:34:33.000 --> 00:34:42.000
+ So this is maybe slightly different, but have you thought about doing long endurance systems?
+
+00:34:42.000 --> 00:34:51.000
+ So I actually thought about some of this at one point in my life and I thought about building a long endurance flight that stays up for 24 hours and basically scans non-stop.
+
+00:34:51.000 --> 00:35:02.000
+ It's not impossible I think to do, when it's bad weather you might have some trouble, but if you fly higher you build a bigger train, I think it's not impossible.
+
+00:35:02.000 --> 00:35:11.000
+ Yeah it's not impossible, but of course we have to somehow manage our time, so we focused on this special use case,
+
+00:35:11.000 --> 00:35:27.000
+ start from the NGO vessel and then coming back to the NGO vessel and flying, I mean we have this airplane and this frame because we also want to operate this drone on different vessels,
+
+00:35:27.000 --> 00:35:39.000
+ but of course it's possible to build bigger systems and in the beginning we saw quite big systems from Frontex and so on and of course we can try to build bigger systems.
+
+00:35:39.000 --> 00:35:50.000
+ One big drawback is maybe that if we build big systems then we have to operate them from land and then of course there's new attack vector,
+
+00:35:50.000 --> 00:36:04.000
+ the whole regulation and for example the airplanes they face these problems, but maybe we are in quite good situation with the EU drone regulation,
+
+00:36:04.000 --> 00:36:12.000
+ but it's something we are thinking about and if you are interested in that we can talk about this.
+
+00:36:12.000 --> 00:36:21.000
+ Are the project specifications and the software published somewhere?
+
+00:36:21.000 --> 00:36:43.000
+ Yeah we have a wiki online, wikijs and there's almost everything documented, some parts are missing which we don't have time to, but normally you should be able to build a drone using this wiki.
+
+00:36:43.000 --> 00:36:59.000
+ Hi, you mentioned rescue missions, do you see your project being used one day for patrolling seas, especially when it comes to law enforcement and protecting environment against say illegal fishing?
+
+00:36:59.000 --> 00:37:16.000
+ Yeah, technically this is totally possible with this, but we totally focus on rescuing humans right now and cooperate with the NGOs.
+
+00:37:16.000 --> 00:37:22.000
+ Thank you, two questions, first of all have you tried an Nvidia Jetson instead of a Raspberry Pi?
+
+00:37:22.000 --> 00:37:38.000
+ Yeah we thought of this, but it's too big actually for our plane right now, I have some lying around at my home, but it just doesn't fit, but it would be a nice platform for us actually.
+
+00:37:38.000 --> 00:37:47.000
+ It's also possible to make it smaller by just creating custom baseboards, so maybe at some point we are going to use it, especially if we have bigger planes.
+
+00:37:47.000 --> 00:37:56.000
+ And second question, have you thought about looking for wifi pings or phone pings from people on boats, because that can travel quite far in the ocean?
+
+00:37:56.000 --> 00:38:25.000
+ Wifi pings not, but we thought of using actual GSM stuff for detecting GSM signals, there was also a test of us on the Baltic Sea, but we weren't that successful and we haven't gone into this again, but there are companies building those systems for everlaunch, people under everlaunches to detect them, so it should be possible.
+
+00:38:25.000 --> 00:38:46.000
+ But as far as I know there is nothing for open source, like the open source GSM stack, everyone should know about OsmoCom, so I haven't seen anything yet there.
+
+00:38:46.000 --> 00:39:00.000
+ Yeah, but what we actually did, we tested the base station at sea, so actually we are interested in not only drones, so if you have any other ideas you want to explore with our association, of course you are welcome.
+
+00:39:00.000 --> 00:39:12.000
+ So for example we tested the base station at sea, but unfortunately we don't have so much time to test all the ideas we come up with.
+
+00:39:12.000 --> 00:39:24.000
+ So I wonder how well does your drone do with bad weather? I mean the worse the weather, the more urgent the rescue is, but the less stuff works typically.
+
+00:39:24.000 --> 00:39:43.000
+ Yeah, so actually the waves are not a big problem, so as long as the waves are not crashing we can more or less land safely. I think in regards to waves it's more a question do you want to deploy your crew into the water?
+
+00:39:43.000 --> 00:39:59.000
+ And then we can fly at 25 knots, maybe even 30 knots of wind, so the whole system is very able to withstand bad conditions.
+
+00:39:59.000 --> 00:40:10.000
+ Of course it's waterproof, so we can in theory fly when it's rainy.
+
+00:40:10.000 --> 00:40:19.000
+ Thank you. How many uninteresting boats do you have in these areas?
+
+00:40:19.000 --> 00:40:40.000
+ Of course there are, so you mean boats which are not cases I assume, yeah of course there are for example fishermen, there's also just merchant vessels going through, yeah I mean some I can't give you any numbers, can you give any numbers? No, I don't think so.
+
+00:40:40.000 --> 00:41:06.000
+ But what our software can tell you for example also can tell you the size of an object in the image, so you can for example assume that a ship which is I don't know 50 or 100 meters long is of course not the case, but with smaller ships of course there's the possibility that we have a case or a fisherman is maybe the case and so on.
+
+00:41:06.000 --> 00:41:09.000
+ Thanks.
+
+00:41:09.000 --> 00:41:15.000
+ We still have a bit of time, and there is another question over there.
+
+00:41:15.000 --> 00:41:16.000
+ Thank you.
+
+00:41:16.000 --> 00:41:19.000
+ How many people have been rescued?
+
+00:41:19.000 --> 00:41:45.000
+ Yeah, so it's actually this year the first time we really use it in this mission context really. So beginning of this year in March we operated the drone near the Canary Islands, but there are not so many cases, so the drone actually only took pictures of the ocean,
+
+00:41:45.000 --> 00:42:04.000
+ so we can only say okay we didn't find somebody but we covered a lot of area, and then right now the drone side, yeah I mean in the next days they maybe will find the actual case, but until now the drone didn't find any case.
+
+00:42:04.000 --> 00:42:12.000
+ But of course it's good to also find no case.
+
+00:42:12.000 --> 00:42:14.000
+ Any more questions?
+
+00:42:14.000 --> 00:42:20.000
+ There is one at the front.
+
+00:42:20.000 --> 00:42:47.000
+ That might be a hypothetical question, but how hard is it for you to actually find the boat at sea, right? So it takes half an hour for the drone to get back, half an hour to download the pictures, an hour to go through them all, and then what you know is where the boat was two hours ago basically. And then with currents and them moving and you moving, like is it realistic to find them or how long does it take you to find them?
+
+00:42:47.000 --> 00:43:02.000
+ Yeah we don't know, so the assumption is it takes roughly two hours, the whole process is right. Of course we don't know because we never found somebody.
+
+00:43:02.000 --> 00:43:18.000
+ Yeah, I mean this two hours is the time it takes and then of course you can make assumptions. For example in the Mediterranean all people go to the north, at least if they have an engine on, and then you know maybe the speed.
+
+00:43:18.000 --> 00:43:40.000
+ We can also do assumptions by the image data about the speed of the ship, so we can tell, okay they maybe go north by I don't know three knots, and then it's maybe not so unrealistic to actually then find the case.
+
+00:43:40.000 --> 00:43:53.000
+ I think we still have two more minutes, checking with the signal, with the video people. If there are any more questions, I see you want to hear at the very front. Maybe I'm giving you just my mic.
+
+00:43:53.000 --> 00:44:10.000
+ Hello, have you thought about if you do successfully find a boat and it's a couple of hours later, maybe having a shorter range one that can maybe drop a starter or a radar reflector to the boat in question so that it makes it more easier for rescuers to find?
+
+00:44:10.000 --> 00:44:30.000
+ Yeah, I guess we thought about this too at some point. Yeah, but right now there's no plan to drop anything. Yeah, I think maybe not. From my point of view it would not be as necessary as might seem.
+
+00:44:30.000 --> 00:44:38.000
+ Yeah, but of course it's possible. I mean if we have a little bit bigger drone, we could think about something like that.
+
+00:44:38.000 --> 00:44:53.000
+ Yeah, I also think it's instead of trying to build a system which throws something, I think it's more important to just build a live transmission system that you get this information instantly and then you can directly go there.
+
+00:44:53.000 --> 00:45:19.000
+ But actually there are drones, big drones, which can drop rescue islands or rescue systems, floating devices, so this would be possible and would be maybe a demand to our politicians that they start using this and don't operate only cameras.
+
+00:45:19.000 --> 00:45:36.000
+ Okay, I would say that was it. If you have any more questions, go visit the search window booth. Thank you both very much for this presentation. It was very insightful. See you around. Come to our next talk.
+
+00:45:36.000 --> 00:45:45.000
+ Thank you very much.
+

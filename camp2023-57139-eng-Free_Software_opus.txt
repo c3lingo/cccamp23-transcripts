@@ -1,0 +1,660 @@
+ [MUSIC]
+ [MUSIC]
+ All right, welcome everybody.
+ Day three, first talk on the Bits and Bombers stage.
+ How's everybody doing?
+ [APPLAUSE]
+ Yes, still a bit tired, but we have nice weather today, not too much sun,
+ so you can fully enjoy the talk by Joseph Devo Geis.
+ He will talk briefly for about 25 minutes on the impact of software
+ on energy and resource consumption and give us an overview of the environmental harm
+ and the potentials for savings there and how free software in special
+ is well positioned to address the issue.
+ And in the end, we will have a Q&A session.
+ And, yeah, if you have any questions, you can raise your hands,
+ and we will get a mic to you.
+ So give Joseph a warm round of applause again and enjoy the talk.
+ [APPLAUSE]
+ Yeah, thank you. Thank you very much.
+ Thank you to the organizers at Bits and Bomber.
+ This has been great so far.
+ So the title of my talk today is Free Software, Software Design for the Environment.
+ And this is part of a larger KDE eco-initiative
+ working on sustainability issues in KDE and free software.
+ Before I get started, though, I like to make my talks a little bit interactive.
+ Feel free, if when I'm talking you have a question that's burning
+ and you want to ask it right away, you can just raise your hand,
+ and either the mic will come to you or I can repeat it for the audience.
+ Before we get started, though, I wanted to ask you,
+ what are some words and phrases that you associate with free software?
+ And I'll repeat here for the people who are online.
+ Great.
+ Great, yeah, good.
+ Empowerment.
+ Empowerment.
+ Powerful.
+ Say it again.
+ Powerful.
+ Powerful.
+ Customizable.
+ Customizable.
+ Collaboration.
+ Collaboration.
+ Collaboration.
+ Great.
+ Sustainable.
+ Sustainable.
+ So most people don't say sustainable,
+ and I hope by the end of this talk all of you,
+ next time someone asks you that question, will say sustainable.
+ I have many links in the slides.
+ If you want to download them, they're available at our repository.
+ I will also return to the slide if you remind me at the end of the talk.
+ Just wait a second.
+ Great.
+ So to get started, just to frame the issue that we're talking about.
+ So this is a post on Macedon from Ed Hawkins.
+ He's a climate scientist at the University of Reading,
+ in which he has a graph.
+ I don't expect you can really see the graph,
+ but I hope you can see that all but one have an upward slope to it.
+ Okay?
+ You can probably guess what these are measurements of.
+ This is the global temperature, CO2 emissions, sea levels.
+ There's only one that's going down.
+ That's the ice thickness.
+ And he writes in the post,
+ "Changes are emerging across the climate system.
+ Everywhere we look, the climate is changing rapidly.
+ These changes are not normal.
+ They're caused by the burning of fossil fuels."
+ Fossil fuels are also being burned in the ICT sector.
+ So information and communications technology is right now an area
+ that's being researched to figure out how much energy is consumed
+ and how much the ICT sector contributes to CO2 emissions.
+ This is a graph, again, all having upward slopes,
+ which is a meta study looking at various research papers
+ trying to estimate what the CO2 emissions are of the ICT sector.
+ One thing I want to point out here is that the estimates vary.
+ You can see some grow exponentially, some grow linearly.
+ However, they're all growing.
+ And if you take it, sort of try to average over what all of the studies seem to show,
+ it appears that ICT sector contributes between 2 and 4 percent of CO2 emissions globally.
+ To put that into perspective,
+ that's roughly the equivalent of the global aviation industry,
+ which is estimated around 2.5 percent.
+ This analysis for the ICT sector includes everything
+ from production, transportation, end-of-life treatment of devices,
+ to energy consumption of the Internet,
+ to energy consumption driven by the software you're running at home or in your office.
+ Also includes Bitcoin, machine learning, training, etc.
+ Right now, the current trajectory, if you look here as well as here,
+ if things don't change, it's going to continue growing.
+ And some estimates put that up to about 30 percent of global CO2 emissions by 2050.
+ So it's growing. It's increasing rapidly.
+ One thing I want to point out here, and I like this quote from this,
+ it's a tech brief from the Association of Computing Machinery,
+ computing can help mitigate climate change.
+ How? By substituting other activities that we're doing.
+ But it must first cease contributing to it,
+ because it's growing in some cases faster than it's substituting.
+ I'm going to focus today in this talk on the different ways
+ that software is driving energy consumption specifically.
+ Of course, energy consumption does contribute to CO2,
+ depending on what the power grid mix is.
+ I'm not going to talk too much about estimates of CO2.
+ I'm going to talk specifically about power consumption,
+ as well as production costs.
+ I'm going to do that in two different ways.
+ I'm going to talk about efficiency, energy efficiency,
+ in terms of achieving the same result when doing the same task,
+ but consuming less energy, as well as conservation,
+ that is reducing the waste that's driven by software.
+ And let's look at some examples of this.
+ First, in terms of efficiency.
+ This is a comparison of two word processors.
+ It's from the Umweltbundesamt.
+ It's some research done by the Umweltkampus Birkenfeld,
+ in which they compared various software products doing the same thing,
+ and then looking at their energy consumption differences.
+ Word processor one, the green bar plot,
+ is a free and open source software product.
+ They don't mention which one.
+ The blue one is a proprietary one.
+ Again, they don't mention which one.
+ And as you can see here, to do the exact same thing,
+ to achieve the same result,
+ word processor two consumes about four times the energy.
+ Okay, for an individual, this may not make much of a difference.
+ But you can't think of software's energy consumption on an individual basis.
+ Word processors are in every office, in every university,
+ on everyone's computer.
+ People are using it globally all the time.
+ If you think about these numbers when you scale it up,
+ they add up very quickly.
+ And to give an example of that,
+ this is from a talk from Hasso Plattner Institute, Detlef Thoms,
+ in which he does a back-of-the-envelope calculation,
+ in which you reduce a process by one CPU second.
+ Okay, it's a very minimal change.
+ That's about the equivalent of a savings of 10 watt seconds.
+ And if you multiply that by 1.5 million users,
+ now that's not very many users,
+ and you assume that there are 20 such reductions a day,
+ so this reduction in the CPU usage happens 20 times a day,
+ and you multiply that by 230 working days a year,
+ you end up with 19 megawatt hours of savings.
+ Now, if you're like me, that doesn't mean much to you.
+ To put that into perspective,
+ if you take a modern electric vehicle
+ and drive it back and forth from Shanghai six times,
+ that's about the equivalent of 19 megawatt hours.
+ Okay, so these are very simple changes
+ that result in big savings once you scale it up.
+ And the thing about software is that you're not only changing on one computer,
+ but you're changing every computer that gets that update, right?
+ And when you think about it on a global level,
+ these savings really add up very quickly.
+ If I can convince just 500 developers--
+ and I've been giving similar talks now for about a year and a half,
+ so this is a very realistic goal--
+ 500 developers to try to achieve just 10 of those efficiency gains,
+ multiply that by 19 megawatt hour savings,
+ and you're talking about the energy consumption
+ of 30,000 two-person households in one year.
+ So scaling it up, you get to really big efficiency gains.
+ Okay, now conservation.
+ Reducing the waste.
+ And when we're talking about waste,
+ let's start where the waste lands in the landfill.
+ And this is a graph--infographic representing the e-waste from 2016.
+ Already one year before that,
+ Akim Steiner from the UN commented that there's a tsunami of e-waste
+ rolling out over the world.
+ In 2015, there was 44.7 million tons of e-waste produced.
+ That's about the equivalent of 4,500 Eiffel Towers.
+ If you were to stack those Eiffel Towers,
+ it would be about 17 times Mount Everest high.
+ Okay, this is in one year, and it's growing.
+ In 2019, the World Economic Forum said
+ that e-waste is the fastest growing waste stream in the world.
+ In 2022, 60 million tons of e-waste, a 33% increase.
+ Of that e-waste, about 20% is estimated to be recycled.
+ And in what ends up in the landfill,
+ although e-waste accounts for about 2% of the total waste,
+ it's 70% of the toxic waste.
+ What does software have to do with e-waste, right?
+ So, e-waste is hardware.
+ Software can drive e-waste.
+ Some of you may have had this warning message
+ that your device is no longer supported.
+ If your software is tied to that device,
+ then that device becomes unusable,
+ at least not without serious disadvantages to you as a user.
+ The software might become more and more bloated
+ as more features are added,
+ and the energy that's consumed
+ or the processing power that's needed by the hardware
+ is so much that older hardware can no longer support that software.
+ As a result, what you have is devices that are now produced
+ and transported unnecessarily,
+ and functioning devices end up as e-waste in the landfill.
+ This is particularly problematic,
+ thinking about it in terms of CO2.
+ This is a graph from a book from Lange and Santorius
+ called "Smarta Kuhn-U-Neveld".
+ This is data from Apple's own sustainability reports
+ from an iPhone in which they estimate
+ how much CO2 is produced per device
+ and then what it's attributable to.
+ They find, Apple reports, that the production,
+ end-of-life treatment and transportation
+ accounts for about 80% of the CO2 emissions of a device.
+ So, sending a device into the landfill before its time
+ is a huge waste of resources.
+ So, to me, they're both the same thing, right?
+ I mean, if the hardware doesn't allow the software,
+ it's because the software can't function on that hardware.
+ So, what could the hardware vendors
+ where to open or provide support?
+ Right, okay, so the question is,
+ so things like bootloaders being proprietary
+ and then not allowing devices to then run other software, right?
+ That's a design decision.
+ That's maybe not directly a software in the sense of...
+ It is a software decision because that's proprietary.
+ You can't then access the device.
+ So, I would say, I mean, software and hardware,
+ those are the...what you're describing,
+ so the question was about when the hardware is so locked down
+ that you can't install other software on it.
+ And that's a situation where you have a device
+ that's tied to one particular software product, right?
+ But that's a design decision and it's still related to software.
+ And I would say we should all be fighting
+ for the right to repair, to include software,
+ including things like opening up bootloaders
+ so that you can install other software products on it.
+ So, yeah, production and end-of-life treatment
+ and transportation are going to contribute
+ to much of the CO2 emissions of a device.
+ But it's not only CO2 emissions.
+ The end-of-life treatment also contributes
+ to polluting air, soil, et cetera,
+ often in countries in the global south,
+ both where the devices are...the metals are mined,
+ often under horrible conditions,
+ and then they return there to then end up
+ in treatment centers or in landfills.
+ This here is in Ghana.
+ So, I mentioned at the beginning that there are cases
+ where digitization can substitute other activities,
+ and one of the questions there is is,
+ what is the relative harm difference
+ between the digital product and the non-digital one?
+ This is, again, from Lange and Centorious.
+ It's a comparison of e-readers
+ in terms of their environmental harm and books, paper books.
+ Paper book production also contributes
+ to environmental harm in terms of polluting water and soil
+ with the chemicals used to create the paper.
+ And the production of an e-reader contributes also
+ to environmental harm in terms of the different materials
+ that go into it, often toxic.
+ Per device, 300 liters of water are required,
+ and one estimate has CO2 emissions
+ at 170 kilograms per device.
+ And Lange and Centorious estimate that if you read
+ about 30 to 60 paper books or more,
+ at that point, the environmental harm,
+ it's worth getting the e-reader
+ from what you're contributing.
+ This is one estimate. These are very hard estimates to make.
+ The point being that these are things
+ that you have to consider.
+ Substitution is not in itself always better.
+ In the case of e-readers, statistics about how many books
+ people read per year in comparison
+ to how long devices are supported.
+ So one Wikipedia article had the start date
+ and end date for production of e-readers
+ as 1.5 years on average.
+ The average US-American reads 60% read less than five books per year.
+ So to get to the number of 30 to 60,
+ it's going to require using that device for a long time,
+ which likely won't be the case given the short-term lifespan
+ of these devices.
+ So one of the things I want to point out there in those parts
+ is software design in terms of the energy consumption,
+ as well as its support for hardware,
+ can influence the environmental harm of the ICT sector.
+ And this was the motivation for eco-certifying software.
+ Many people ask, well, what does software have to do with eco-certification?
+ That's what I'm going to talk about now.
+ The Blue Angel released the award criteria for software in 2020.
+ The award criteria are aligned with FOSS values of transparency
+ and user autonomy.
+ And there are three main categories to the award criteria--
+ resource and energy efficiency,
+ potential hardware operating life, and user autonomy.
+ Just to get an overview before I focus on some of the user autonomy characteristics,
+ which are inherent to software license with a free software license.
+ Before we get there, though, let's look at some of the different criteria--
+ resource and energy efficiency--that's related to the energy consumption of software.
+ The criteria don't have a threshold, but rather a transparency requirement
+ so that users are aware of how much energy this software consumes
+ when running typical tasks.
+ Potential hardware operating life--
+ the requirements are that it runs on hardware at least five years old.
+ I think this is a little too low,
+ especially given that many Linux distributions run on hardware much older than that.
+ And the user autonomy requirements include things like uninstallability,
+ modularity, which influences the sort of software feature creep and bloat,
+ continuity of support, documentation,
+ so that there's long-term reuse and repairability of software,
+ transparency so that users can decide which software products to use
+ so you're not locked into an inefficient program,
+ as well as offline capability and freedom from advertising,
+ both of which consume energy.
+ Just some background, the Blue Angel Oculus from KDE
+ is the first Blue Angel certified software.
+ Currently, it's the only one.
+ I hope to convince at least some people that it's worth at least meeting
+ the award criteria if you're interested in the topic
+ or considering applying for ECO certification.
+ So here, getting to the characteristics about free and open source software
+ and how it relates to energy efficiency and resource consumption.
+ So looking at the criteria,
+ it's hard to single out a single one when it comes to the topics of efficiency and conservation.
+ They're all interrelated.
+ But here, I want to focus on a couple of them together in three different parts.
+ So first, I want to look at the energy consumption and hardware performance
+ related to uninstallability and modularity,
+ and perhaps related to offline capability and freedom from advertising.
+ So we take it for granted in the free and open source software community
+ that you can uninstall software.
+ This is something that is obvious to us,
+ and many of us probably have never thought about that in terms of efficiency gains.
+ But unwanted software components that remain on a system
+ contribute to longer boot-up times, longer shutdown times,
+ perhaps extra processes running when you're using that software, et cetera.
+ All of which, if you go back to the one CPU second reduction,
+ all of which adds up when you multiply that over millions of users.
+ So uninstallability is a way to create a more efficient system.
+ Again, going back to this graph comparing the two different word processors,
+ if you want to take a deeper look at what the energy consumption looks like over time,
+ here's a plot, again, from that same measurement,
+ looking at the word processor, the open source word processor,
+ which is on the bottom plot in comparison to the proprietary word processor,
+ which is on the top plot.
+ And what you can see here is doing the exact same thing.
+ They have very different energy profiles.
+ The x-axis is showing over time while running different tasks,
+ things like opening a document, changing the layout, and then saving the document.
+ And I want to focus here on what happens after that blue line.
+ That's the point at which the document is saved and the software goes idle.
+ And what you can see here is that the proprietary software
+ continues doing things in the background.
+ It does it quite a bit, actually.
+ And in comparison, the free and open source software product goes idle as you would expect.
+ The report doesn't say what exactly is happening in this time period.
+ There is also measurements in this approach where they're looking at network traffic,
+ writing to disk, etc.
+ That data is not in the report, so I don't know what's happening here.
+ It might be telemetry.
+ I think that's a reasonable guess.
+ If it's proprietary software, you can't turn this off necessarily
+ unless the company decides that you're allowed to.
+ If this is free and open source software,
+ developers can then take a look, see what it's doing,
+ and then decide to remove this functionality if users don't want it.
+ All of this is contributing to that energy profile of these two word programs.
+ So, again, yeah, just that this adds up when you start thinking about it,
+ scaling it up across millions or billions of users.
+ Okay, the next topic, so potential hardware operating life,
+ as well as continuity of support,
+ which is what determines how long you can use that device
+ and not have disadvantages opening yourself up to malware and things like this,
+ known malware, documentation,
+ how long can that software be supported over time,
+ will depend to some extent on how well it's documented,
+ transparency that users can decide which software they want to use
+ and then move to different software products if they want to.
+ And this will all influence how long you can continue to use a particular piece of hardware.
+ This is an image from a 2009 Macbook.
+ This end of life was in 2019 where it was no longer supported by Apple.
+ And so the last version of MacOS that was supported was 1010.
+ This is from a KDE contributor who was asking around
+ if KDE users were using hardware that was no longer supported by the original vendors.
+ This is now currently still in use today,
+ running Kabuntu 22.04 with all of the security updates, et cetera,
+ and is apparently working just fine.
+ I know I have this experience.
+ I'm running also older hardware at home on my desktop computer,
+ which is no longer supported running Linux.
+ This device would otherwise end up in the closet or perhaps worst case
+ where it doesn't end up being treated or it goes to end of life treatment center
+ and all of that CO2 that is associated with the production has now been wasted.
+ Okay, and the last section that I want to talk about in terms of the user autonomy criteria
+ is the offline capability and freedom from advertising.
+ This is a report from a research and consultancy group
+ which does policy reports for the EU
+ in which they looked at what is called unwanted data use.
+ And they define unwanted data use as the data for data mining and advertising
+ that users can't shut off.
+ Given a statistic that in the EU, about 60% of users would shut it off if they could.
+ So they call this unwanted data use.
+ And they try to estimate what the energy consumption and CO2 emissions are
+ associated with that unwanted data use.
+ This graph here is just showing that there are several components to energy consumption.
+ I've been focusing on desktop software.
+ That's most of what KDE does.
+ But of course, if you're doing anything that's distributed,
+ client server or similar type systems,
+ you're also going to be consuming energy in the network and in data centers.
+ And this unwanted data use is at best attributable to about 3 million metric tons of CO2,
+ according to this report, at worst 8 million metric tons.
+ And this would be, according to this report, equal to the carbon footprint
+ of about 370,000 to 950,000 EU citizens.
+ This is for something people don't want.
+ So the blue angel recognizes that if users can turn it off when they want,
+ you remove this energy consumption from the ICT contributions
+ to energy consumption and CO2 emissions.
+ Of course, these things are all intertwined.
+ Things like advertising and data mining, et cetera,
+ might also make it hard to run a browser on an old piece of hardware.
+ In fact, I find one of the biggest problems when upcycling hardware
+ is opening a browser the minute you try to do anything on the internet.
+ Currently, website design is so energy consuming that it can break your system.
+ That's related to Roberta's great talk yesterday.
+ So these things are, of course, interrelated.
+ Offline capability for your advertising will influence how long you can run hardware, et cetera.
+ So we wanted to document our experience applying for the blue angel eco-certification
+ so that other free and open source software developers can also do this.
+ We released a handbook in February this year, Applying the Blue Angel Criteria to Free Software.
+ You're welcome to download it from our website, eco.kde.org.
+ The book goes over what I'm calling the three steps to eco-certification, measuring your software.
+ So to do that, you need to define what typical usage of that software would look like,
+ emulate it using a script, which is all documented in this handbook,
+ and then run it several times, run some statistical analyses,
+ which you can do with a tool provided by the Unveiled Compass called Oscar,
+ the open source software consumption analysis in R.
+ And once you have that, you document your user autonomy criteria that you're compatible with them and submit it.
+ The book, though, is more than that.
+ It's something that you can send to your friends if you're interested in this,
+ send it to your marketing department if you work at a company,
+ send to your project manager if you're on a team,
+ in which it goes over various aspects of this topic.
+ The first part is the why. Why does this matter?
+ So related to energy consumption, resource consumption driven by software.
+ What is the blue angel? What's its history?
+ How is it recognized internationally as well as in Germany?
+ And then how do you fulfill then the requirement for software?
+ You can also read it online here.
+ For those of you who are interested in this but don't have access to a power meter,
+ power meters are...
+ So the approach that the blue angel recommends and the one that we're using in our lab
+ is an external power meter attached to a machine that then is emulating user behavior.
+ Power meters are expensive.
+ Really good power meters are really expensive.
+ The off-the-shelf solutions, which are okay, they don't have great resolution.
+ The one that is recommended, the Guta power meter, gets like five measurements per second,
+ which you can then average and get an idea of what's happening.
+ Better ones can get like a thousand measurements per second.
+ However, you're going to be out of three to four hundred euros to buy one.
+ If you're interested in just checking this out but don't have five hundred euros,
+ you can invest ten euros and buy a power plug and hack it and turn it into a power meter
+ that gets about one measurement for every 200 milliseconds.
+ And that's also documented in this.
+ Say it again.
+ I don't know.
+ Can we ask that at the end?
+ Because I also wanted to open up...
+ I usually like to do Q&A where also other people in the crowd,
+ because I don't have a monopoly on this information at all.
+ So if someone here might know the answer to that but I don't know it, ask it again in the Q&A.
+ The lab setup looks like this.
+ You have a system under test. That's the machine that you're testing.
+ A power meter attached to it and then another computer that's then collecting the data
+ and then used to evaluate it.
+ We set up a lab in KDAB Berlin.
+ This is a picture of one of the sprints.
+ This is Arna Tarara from Green Coding Berlin who was very helpful with Folker Kausa,
+ Nicholas Fela and several others in the KDAB community who helped us get this lab setup.
+ The current setup is only accessible if someone is there in person.
+ We're working on that. I'm going to come back to those slides.
+ Right now in a project which should be done by next month
+ in which we are making the lab remotely accessible so that a developer,
+ and we want to open this up to all free software developers,
+ this is not only a KDE thing, can design their usage scenario that they want to measure,
+ upload it with their code and then it will automatically run in the lab in KDAB
+ and then give you a report back so that all you have to do is define the usage scenario
+ and then you get some energy consumption measurements related to your software.
+ And of course all of this is KDE free software so anyone can take it, adapt it to their needs as they see fit.
+ What you would need to do if you wanted to use a lab like this,
+ you have to define a standard usage scenario that requires identifying typical tasks done by a user,
+ perhaps identify particularly the high energy ones to get an idea of energy consumption related to that,
+ create a flowchart of actions and then emulate it.
+ There are many ways to emulate it.
+ Right now KDE is focused on using Selenium, which is often used for web emulation,
+ adapting that for desktop software.
+ There were several talks at Academy just a few weeks ago which you can watch about this approach,
+ but it's also useful for user emulation.
+ Once you have that, then you upload it to the machine you want to test,
+ you get the results back and then there's this tool, Oscar, where you can then upload the data and get a report back.
+ The nice thing is that with this lab set up with a remote access, all of that's automated.
+ Just a little bit more generally, KDE has a current goal of sustainable software.
+ Every two years we vote on three unifying goals for the community.
+ One of the things that we're working on is measuring our software,
+ but there are several other things related to this,
+ such as documentation of the ways that free software, in particular our software at KDE, supports sustainability.
+ Maybe I'll end on this and then we can open up to a Q&A.
+ When you look at the big picture, this can seem like small drops on hot stones.
+ This is perhaps nothing compared to what it's required to train a large language model
+ or the explosion of IoT devices, etc.
+ This is a comic from XKCD, of course there is a comic about this, in which Q-ball says,
+ "I'm trying to fix the problem of the world, can you help?"
+ White hat says, "It's obvious you don't actually care, if you did, we'd be trying to fix this other bigger problem."
+ Q-ball asks, "You want to help me fix that bigger problem?"
+ White hat says, "No, for another reason I'll think of later."
+ The bigger problem fallacy, saying there's something bigger that's a bigger problem than what you're trying to fix,
+ is a fallacy, it doesn't mean the other problem is not a problem.
+ Also, sometimes tackling the biggest problem is not the most effective approach.
+ You have to think about what resources you have available to you.
+ At KDE, we are desktop software developers, we can influence this.
+ I hope I've convinced you that it does add up, once you start looking at the numbers.
+ I'd also say climate change and combating climate change
+ require changes in every single aspect of society.
+ This is where we can contribute and where we can focus our energies.
+ There are areas that maybe you can contribute to.
+ I hope that I've convinced you it's worth working on,
+ because most people here are involved in some sense with ICT,
+ and you can make a change, and you can make a difference.
+ I want to leave it on that note, and then go to Q&A.
+ [applause]
+ Thank you. Thank you so much, Joseph, for that insightful talk.
+ By the way, before we start with the Q&A, just a reminder that if you found that talk so insightful as I did,
+ and learned something new, maybe you can post that out to the Fediverse.
+ The hashtag from this stage is #bitsandboimer.
+ Now to the Q&A. We have our wonderful stage manager, Rico,
+ who can come along and pass you a microphone, so everybody will hear you just fine.
+ As I said earlier, I don't have a monopoly on information.
+ If anyone here has an answer, please feel free to speak up.
+ I feel like this is a wonderful crowd to crowdsource information gathering.
+ Well, actually, it seems to me that this problem is an efficiency problem, more or less.
+ We want to do a task with the fewest resources possible in the fastest way, of course,
+ which is shouldn't we just continue to optimize our code, which is the way to do it,
+ and to remove stuff we don't need.
+ That's basically put it in a short way.
+ Is it this correct, or are there other things also to it?
+ So thinking about things like uninstallability, right?
+ That's beyond just optimization.
+ That's a design decision for how you then allow users to use that software.
+ So I would say it's beyond just this one efficiency.
+ I think that's absolutely important, but you have to think about it also in that holistic sense of
+ can users -- okay, you might make the most efficient software,
+ but can users uninstall it if they don't need it?
+ That's a design decision.
+ I don't think many people think of free software licensing as a design idea,
+ but in many ways it determines how users can interact with your software.
+ This is an example, one, of uninstalling something or only installing what you want.
+ So it's more than just optimization, I would say.
+ My question is that there is a sustainable supply chain law in the European Union
+ and in Germany, Lieferkettengesetz, which if it would be taken serious,
+ you could not import or sell any other phone here except the Fairphone,
+ because other phones would fall under this law, which is prohibiting importing things
+ where parts of it in the production process have violated human rights or environmental laws.
+ So my first question is, is there anybody talking about this in this community,
+ about this not fulfilling this law?
+ My second question is if this Lieferkettengesetz, this supply chain law,
+ could be applied also to software?
+ Is there some idea that you just say it could not be sold
+ if it doesn't comply some minimum standard of environmental responsibility?
+ So I don't know anyone talking about that, the supply chain issues,
+ maybe someone here does.
+ I'll let the moderator decide.
+ If someone has a comment on that, please feel free.
+ Well, I wanted to ask a question that goes into the similar direction,
+ because I was wondering, are there legislations being discussed
+ about reducing the energy consumption of software and to the supply chain law?
+ I personally thought that it's more about the human rights problem,
+ mainly about hardware then, and that then this law would not apply to software,
+ but that's only how...
+ Can you pass the mic so that...
+ So, yeah, so anyone else have a comment on that?
+ Yeah, software in general and Lieferketten,
+ we also have kind of Lieferketten supply chains, we have libraries,
+ we have operating systems, we have whatever,
+ and these things also need to be produced in some way,
+ someone needs to sit down and code them.
+ So it would make sense that it applies there.
+ I'm not a lawyer, I cannot really answer this question,
+ but it makes sense that we also look at our supply chains
+ and how they are ecologically, that we are good or bad.
+ For example, we could choose a framework that is more efficient,
+ we could choose a framework that makes stuff easier for us,
+ and of course, software can also be produced under conditions
+ which are not compatible to human rights.
+ You can force people to sit down and program stuff,
+ and this code would be unethical to use in a way as programmers.
+ Do we have time for another question?
+ Yeah, so what do you have to say about the law of diminishing returns?
+ For example, is there a way to know what's the point
+ when we already reached those diminishing returns
+ and we have to move on to something else to keep optimizing and doing that stuff?
+ Is there some finger rule?
+ I don't have a rule of thumb for when that is.
+ I do think we still have a lot of low-hanging fruit, to be honest,
+ before we get to the problem of diminishing returns.
+ I think there's enough that we could do in terms of designing your website,
+ following green-coding practices, being able to turn off advertising,
+ continuing to support hardware, opening up bootloaders
+ so you can install any software on any device that you bought.
+ These are all things I think are pretty low-hanging fruit,
+ which already make a big contribution before we're even at that point.
+ That's my personal opinion on that.
+ Thanks.
+ What's your opinion on these bloat solutions like Docker or Snap and stuff
+ who actually for a small application ship a whole operating system
+ and thus bloat my disk so that I think next time I need a bigger SSD in my laptop
+ because some applications take up to a couple of hundred gigabytes?
+ Is there an estimation?
+ What's the difference in CO2 footprint of half a terabyte and one terabyte?
+ What's your opinion there?
+ I don't have a particular opinion.
+ I do think it's an empirical question that we have a lab we could maybe start testing
+ to see if these differences in how you install,
+ which approach you take to installing software,
+ if that influences things like general energy consumption.
+ I think we could look at that and see it.
+ I can imagine that there are arguments that upgrades can result in more efficient software
+ that might outweigh the disadvantages of installing it through a flat pack
+ if there is a difference there, but I don't know.
+ We have two more questions left.
+ Unfortunately, then we have to close, but discussions can also unfold afterwards.
+ Maybe you're around here for a while.
+ I'm definitely around for a while.
+ Great. Please.
+ On the CO2 footprint of software, Docker Solutions and something else,
+ look just into the power consumption of Hello World in C or in Python.
+ It's 20 times more in Python to realize a Hello World program than in C or in some other languages.
+ All the time in the back head when we talk about software or something like that,
+ the big bloat solutions who do need Python and bigger compilers, Rust,
+ and whatever has a high power consumption.
+ We have to go in our mind if it's useful to make this all including big systems in software and hardware,
+ or if we do not split it in small pieces, which can be done in a sampler in C and save us a lot of energy.
+ Thank you.
+ Thank you for that comment.
+ Last question, but not least.
+ I would like to highlight that besides efficiency, there's another thing that I would say is rather important
+ and we talk too little about, which is sufficiency using less in general.
+ For example, the supplies to social media or streaming services,
+ being nudged into using those media for many hours a day, which is probably not very healthy for ourselves,
+ but also if we didn't use the software for that long and the hardware as well,
+ we might be happier in the first place and use less resources.
+ Fully agree.
+ Sufficiency is definitely a good question to ask.
+ Thank you so much.
+ I think these are good closing remarks. You want to add anything for the audience?
+ I would love to talk with you some more.
+ [Music]

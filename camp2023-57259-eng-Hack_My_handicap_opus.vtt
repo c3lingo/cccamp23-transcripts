@@ -1,0 +1,944 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:34.960
+ So hello everyone, welcome to the beautiful Millie Way stage.
+
+00:00:36.160 --> 00:00:43.040
+ It's so nice to see all of you on this nice and sunny day, which is going to be very hot.
+
+00:00:43.040 --> 00:00:45.120
+ So what do you have to do?
+
+00:00:45.120 --> 00:00:47.360
+ Drink water!
+
+00:00:47.360 --> 00:00:47.860
+ Oh, shit.
+
+00:00:47.860 --> 00:00:50.880
+ That's true.
+
+00:00:50.880 --> 00:00:53.120
+ Also use sunscreen and stay in the shade.
+
+00:00:53.120 --> 00:00:54.720
+ Take care of your fellow creatures.
+
+00:00:54.720 --> 00:00:58.720
+ So we are live.
+
+00:00:58.720 --> 00:01:01.280
+ Yes.
+
+00:01:01.280 --> 00:01:02.000
+ All right.
+
+00:01:02.000 --> 00:01:05.920
+ So also to my dear creatures on the internet.
+
+00:01:05.920 --> 00:01:09.200
+ I'm really pleased to announce Mellie Nooks.
+
+00:01:09.200 --> 00:01:14.000
+ Mellie Nooks likes to play with machines and is going to talk to us about a very
+
+00:01:14.000 --> 00:01:15.520
+ interesting and important topic.
+
+00:01:15.520 --> 00:01:20.080
+ It's going to be about open source technologies that promote accessibility.
+
+00:01:20.080 --> 00:01:23.360
+ Please everyone give a warm round of applause to Mellie Nooks.
+
+00:01:23.360 --> 00:01:32.000
+ Well, good morning CCC.
+
+00:01:32.880 --> 00:01:38.160
+ Today I'd like to talk to you about how open source technology can help compensate certain
+
+00:01:38.160 --> 00:01:38.880
+ handicaps.
+
+00:01:38.880 --> 00:01:45.600
+ I don't like to talk about myself, so let's just get rid of it first.
+
+00:01:45.600 --> 00:01:47.040
+ Who am I?
+
+00:01:47.040 --> 00:01:53.920
+ I'm a 46 year old web dev dropout who turned into an InfoSec consultant.
+
+00:01:53.920 --> 00:01:58.960
+ Got too many interests to be an expert with anything, but I like to play with machines.
+
+00:01:59.600 --> 00:02:06.560
+ And I fell in love with hardware hacking during a Mitch Altman's soldering workshop
+
+00:02:06.560 --> 00:02:10.400
+ during which I soldered the TV Begone.
+
+00:02:10.400 --> 00:02:12.960
+ And that was like 10 years ago.
+
+00:02:12.960 --> 00:02:18.320
+ And I've enjoyed playing with alternative ways to control devices ever since.
+
+00:02:18.320 --> 00:02:28.160
+ And I'm about to leak some of my most precious medical data and expose my biggest vulnerabilities
+
+00:02:28.800 --> 00:02:35.600
+ today so that you, dear best hackers in the universe, can gather enough information and
+
+00:02:35.600 --> 00:02:42.240
+ motivation to hack the hell out of not just mine, but as many handicaps as you can.
+
+00:02:42.240 --> 00:02:48.720
+ Well, the context is that we have an environment that's full of connected objects and other
+
+00:02:48.720 --> 00:02:52.240
+ gadgets and that makes our life way easier.
+
+00:02:52.240 --> 00:02:56.960
+ Now we can do about anything from a smart watch to a smartphone.
+
+00:02:56.960 --> 00:03:05.120
+ You can spy on your kid or turn on the heating or water the plants.
+
+00:03:05.120 --> 00:03:13.600
+ And these technologies are also very useful to help compensate certain handicaps,
+
+00:03:13.600 --> 00:03:19.200
+ but they have limits when it regards people whose handicap or combination thereof
+
+00:03:19.200 --> 00:03:26.000
+ prevents them from manipulating a smartphone, reading a screen or using vocal command.
+
+00:03:26.560 --> 00:03:32.160
+ And as a patient, it is very frustrating to be shut off from all these possibilities,
+
+00:03:32.160 --> 00:03:40.160
+ especially when they have the potential to improve our quality of life and to become
+
+00:03:40.160 --> 00:03:41.120
+ more independent.
+
+00:03:41.120 --> 00:03:48.880
+ Being as autonomous as possible is a need we all share and it shouldn't be a luxury.
+
+00:03:48.880 --> 00:03:54.880
+ The good news is that it's not necessary to reinvent the wheel because as you all know
+
+00:03:54.880 --> 00:04:00.480
+ here I think there are alternative ways to interact with our technological environment
+
+00:04:00.480 --> 00:04:03.520
+ and they already exist.
+
+00:04:03.520 --> 00:04:05.360
+ So define handicap.
+
+00:04:05.360 --> 00:04:11.760
+ A handicap or disability in proper English is a condition that restricts a person to
+
+00:04:11.760 --> 00:04:14.400
+ function physically, mentally or socially.
+
+00:04:14.400 --> 00:04:17.280
+ And they come in all shapes and forms.
+
+00:04:17.280 --> 00:04:23.600
+ They can be visible, invisible, painful, not painful, temporary, chronical.
+
+00:04:24.320 --> 00:04:34.320
+ And the impact that your handicap has on someone's life mainly depends on available
+
+00:04:34.320 --> 00:04:36.880
+ support, resources and surroundings.
+
+00:04:36.880 --> 00:04:40.160
+ From my own experience, there comes the leak.
+
+00:04:40.160 --> 00:04:46.960
+ I can safely say that being diagnosed with a serious form of endometriosis turned my
+
+00:04:46.960 --> 00:04:48.480
+ life upside down.
+
+00:04:48.480 --> 00:04:56.400
+ And for those who don't know what endometriosis is, like me, it causes, amongst other unpleasant
+
+00:04:56.400 --> 00:05:00.240
+ things, chronic pain and there's no cure yet.
+
+00:05:00.240 --> 00:05:01.520
+ Yet.
+
+00:05:01.520 --> 00:05:08.480
+ So I took a few years of hormone therapy and surgeries but now I'm able to sit, walk, stand
+
+00:05:08.480 --> 00:05:08.880
+ again.
+
+00:05:08.880 --> 00:05:16.400
+ But there were long periods of time where every single move and step was painful and
+
+00:05:16.400 --> 00:05:17.040
+ dangerous.
+
+00:05:17.040 --> 00:05:22.320
+ So precious and it had to be anticipated and optimized.
+
+00:05:22.320 --> 00:05:23.760
+ But I'm okay now.
+
+00:05:23.760 --> 00:05:27.520
+ Define hack my handicap.
+
+00:05:27.520 --> 00:05:35.440
+ Well, as a hacker, I made a mistake to consider my body like a complex yet fascinating machine
+
+00:05:35.440 --> 00:05:42.640
+ that was full of signals and electrical impulses and where the peripheral nervous system was
+
+00:05:42.640 --> 00:05:44.640
+ just another network to debug.
+
+00:05:45.520 --> 00:05:51.200
+ Senses like the sight of hearing or touch could be replaced by cameras, microphones, sensors
+
+00:05:51.200 --> 00:05:55.760
+ and a lot of MCUs since machines didn't need them to function.
+
+00:05:55.760 --> 00:06:03.840
+ And body movement limitation could be expanded by robotic and mechatronic solutions.
+
+00:06:03.840 --> 00:06:09.680
+ But yeah, in short, I wanted to treat my handicap like a vulgar bug or shortcut that needed
+
+00:06:09.680 --> 00:06:10.160
+ fixing.
+
+00:06:10.160 --> 00:06:11.600
+ But I was wrong.
+
+00:06:12.880 --> 00:06:19.920
+ My perspective changed when I met two other technophiles whose handicaps were different
+
+00:06:19.920 --> 00:06:26.800
+ from mine and we're also looking for alternative ways to improve our quality of life.
+
+00:06:26.800 --> 00:06:29.520
+ So we naturally became friends.
+
+00:06:29.520 --> 00:06:31.760
+ The target.
+
+00:06:31.760 --> 00:06:39.440
+ Well, our group is small but the combined list of our illnesses, symptoms and things
+
+00:06:39.440 --> 00:06:42.560
+ we cannot do is as long as my arm.
+
+00:06:42.560 --> 00:06:50.800
+ So I guess we are the targets with the notable exception that we are doing it willingly as
+
+00:06:50.800 --> 00:06:53.600
+ long as it's in a controlled and safe environment.
+
+00:06:53.600 --> 00:07:00.640
+ It's not that we don't appreciate our privacy, but let's face it, there's no such things
+
+00:07:00.640 --> 00:07:06.560
+ as problem solving without proper problem solving without proper information gathering.
+
+00:07:06.560 --> 00:07:09.840
+ None of us is smarter than all of us.
+
+00:07:10.720 --> 00:07:15.120
+ And it's an illusion to think that our medical data are safe anyway.
+
+00:07:15.120 --> 00:07:20.720
+ So we are represented by this little mascot.
+
+00:07:20.720 --> 00:07:22.960
+ She's called Nian as you can see.
+
+00:07:22.960 --> 00:07:32.720
+ She can do she represents the combination of our handicap and this is who you should
+
+00:07:32.720 --> 00:07:33.840
+ actually be hacking.
+
+00:07:33.840 --> 00:07:35.920
+ She's representing us.
+
+00:07:35.920 --> 00:07:43.920
+ So as you can see, she can communicate a bit, but it's painful and she can grab things
+
+00:07:43.920 --> 00:07:44.960
+ a little bit.
+
+00:07:44.960 --> 00:07:51.600
+ So that's the objective to make that makes it very difficult to use a mobile phone, for
+
+00:07:51.600 --> 00:07:52.080
+ instance.
+
+00:07:52.080 --> 00:07:54.880
+ So we need to find an alternative.
+
+00:07:54.880 --> 00:07:59.520
+ But she reminds us also of the things we can do instead of the things we cannot do.
+
+00:07:59.520 --> 00:08:01.920
+ And she's a cutie.
+
+00:08:05.280 --> 00:08:06.880
+ So define the scope.
+
+00:08:06.880 --> 00:08:12.960
+ Well, living with a handicap in 2023 isn't as effortless as it should be.
+
+00:08:12.960 --> 00:08:19.040
+ I mean, we have more knowledge, protective laws, medical equipment than ever.
+
+00:08:19.040 --> 00:08:22.800
+ But many disabilities cannot be compensated yet.
+
+00:08:22.800 --> 00:08:30.080
+ In my opinion, the main reason for this exclusion is not caused by the lack of available
+
+00:08:30.080 --> 00:08:33.440
+ technology called solution, but getting access to them.
+
+00:08:34.160 --> 00:08:39.200
+ In France, for instance, it's a bureaucratic hell to get equipment.
+
+00:08:39.200 --> 00:08:42.480
+ Their price is outrageously expensive.
+
+00:08:42.480 --> 00:08:48.080
+ So it usually takes at least a year between the request for adaptive equipment and its
+
+00:08:48.080 --> 00:08:50.080
+ actual delivery to the patient.
+
+00:08:50.080 --> 00:08:51.760
+ And that's the best case scenario.
+
+00:08:51.760 --> 00:09:01.840
+ Some patients have to wait years for a diagnosis without which with it's not possible to even
+
+00:09:01.840 --> 00:09:04.000
+ apply for medical equipment.
+
+00:09:04.000 --> 00:09:07.120
+ So you can really stay years without support.
+
+00:09:07.120 --> 00:09:12.880
+ And as long as you don't have the handicap stamp on your card, then you cannot even request
+
+00:09:12.880 --> 00:09:13.680
+ any equipment.
+
+00:09:13.680 --> 00:09:25.200
+ And even then, our profile has to fit a strict protocol that doesn't make any sense where
+
+00:09:25.200 --> 00:09:34.320
+ handicaps are categorized in a sort of spreadsheet and with percentages. And this spreadsheet
+
+00:09:34.320 --> 00:09:40.000
+ will determine whether your access to a better quality of life is granted or not.
+
+00:09:40.000 --> 00:09:44.960
+ The attack surface.
+
+00:09:44.960 --> 00:09:50.880
+ So I wish we could hack the whole planet to make it accessible for all.
+
+00:09:51.760 --> 00:09:55.600
+ But it's going to take years to make it happen, if ever.
+
+00:09:55.600 --> 00:10:02.480
+ Reason that this is not happening yet is money, of course.
+
+00:10:02.480 --> 00:10:10.160
+ Straight legislation, proprietary software, medical certification, because every device
+
+00:10:10.160 --> 00:10:15.040
+ is not used by somebody with a handicap has to be stamped with a CE.
+
+00:10:15.040 --> 00:10:21.040
+ It has to be certified to be used.
+
+00:10:21.920 --> 00:10:28.720
+ And all these things have to be taken into consideration.
+
+00:10:28.720 --> 00:10:32.480
+ But fortunately, there's a hack to bypass all these constraints.
+
+00:10:32.480 --> 00:10:41.280
+ Since it's not illegal yet to hack our own devices and our own homes, it is possible
+
+00:10:41.280 --> 00:10:46.560
+ to build interfaces that will only work for one patient and their environment.
+
+00:10:48.400 --> 00:10:55.680
+ And another tip is to avoid doing it for commercial purposes if you want to stay out of trouble.
+
+00:10:55.680 --> 00:10:59.760
+ So it would be, don't do this for money.
+
+00:10:59.760 --> 00:11:03.680
+ So long live open source technology.
+
+00:11:03.680 --> 00:11:09.520
+ So I guess the attack surface is located anywhere between what the patient can do
+
+00:11:09.520 --> 00:11:12.640
+ and what the patient really would like to do on their own.
+
+00:11:12.640 --> 00:11:14.880
+ How to?
+
+00:11:15.520 --> 00:11:18.960
+ Well, most of us know someone who lives with a handicap.
+
+00:11:18.960 --> 00:11:21.520
+ So that's a good place to start.
+
+00:11:21.520 --> 00:11:28.400
+ And in many cases, it's just sufficient to show patients or to explore the native
+
+00:11:28.400 --> 00:11:36.880
+ accessibility functions of their smartphones, like screen readers, vocal command, magnification,
+
+00:11:36.880 --> 00:11:43.200
+ color correction, or just adding shortcuts to the home screen, and many more.
+
+00:11:43.200 --> 00:11:46.960
+ And that really, really helps a lot because most people don't know how to fully exploit
+
+00:11:46.960 --> 00:11:50.640
+ the possibility of their smartphone.
+
+00:11:50.640 --> 00:12:00.960
+ You can also find a lot of information online, but it's not as efficient as joining the,
+
+00:12:00.960 --> 00:12:10.160
+ for instance, the open source medical supply community, or participate to the hacking health
+
+00:12:10.160 --> 00:12:10.720
+ marathon.
+
+00:12:12.880 --> 00:12:15.280
+ So you can just get your hands on it.
+
+00:12:15.280 --> 00:12:25.520
+ And as a tip, also, even if you really want to help, please do not impose your help
+
+00:12:25.520 --> 00:12:30.160
+ to someone with a handicap unless they really agree to it.
+
+00:12:30.160 --> 00:12:35.120
+ And don't call your beta testers guinea pigs.
+
+00:12:35.120 --> 00:12:38.240
+ It's not very appreciated.
+
+00:12:38.240 --> 00:12:40.960
+ Resources.
+
+00:12:42.240 --> 00:12:50.880
+ Well, nowadays, it's quite easy to find some affordable hardware that's well documented
+
+00:12:50.880 --> 00:12:51.840
+ and open source.
+
+00:12:51.840 --> 00:12:57.840
+ But my favorite tools to play with are the TV Begone.
+
+00:12:57.840 --> 00:13:01.120
+ It will always be my favorite because it was the first.
+
+00:13:01.120 --> 00:13:06.480
+ And it triggered a small revolution in my head because, yeah, soldering it, it taught
+
+00:13:06.480 --> 00:13:07.520
+ me so much.
+
+00:13:07.520 --> 00:13:10.320
+ It gave me countless hours of fun.
+
+00:13:11.760 --> 00:13:20.400
+ And it was also an excellent, and it brought me enough confidence, not a lot, but enough
+
+00:13:20.400 --> 00:13:22.480
+ confidence to start playing with hardware.
+
+00:13:22.480 --> 00:13:30.480
+ And that's, yeah, soldering the TV Begone and playing with the Arduino platform.
+
+00:13:30.480 --> 00:13:39.120
+ And it really opened my world to the open source hardware tools like Arduino, Raspberry Pi.
+
+00:13:39.120 --> 00:13:41.680
+ And there are many shields and clones.
+
+00:13:41.680 --> 00:13:52.240
+ Another tool I like to play with is the Easy 430 Kronos from Texas Instruments, which is
+
+00:13:52.240 --> 00:14:01.360
+ a wearable sports watch development kit that has a microcontroller MSP430 with an integrated
+
+00:14:01.360 --> 00:14:03.520
+ subgiga wireless transceiver.
+
+00:14:03.520 --> 00:14:06.080
+ And it also has a few sensors.
+
+00:14:06.080 --> 00:14:11.760
+ But basically, it can allow you to program custom wireless application.
+
+00:14:11.760 --> 00:14:13.680
+ That's back in 2013.
+
+00:14:13.680 --> 00:14:20.480
+ I think it's not sold anymore, but I have one with me if you want to play later.
+
+00:14:20.480 --> 00:14:30.000
+ And I found it particularly useful to use as a mouse replacement because sometimes I
+
+00:14:30.000 --> 00:14:36.320
+ needed to get a more comfortable position and the laptop on my legs and the mouse, and
+
+00:14:36.320 --> 00:14:37.680
+ it wasn't very handy.
+
+00:14:37.680 --> 00:14:41.120
+ So that also worked for lazy people, by the way.
+
+00:14:41.120 --> 00:14:49.680
+ So it was just easy to control my computer from, I couldn't do everything with it, but
+
+00:14:49.680 --> 00:14:52.080
+ I could at least scroll, select, and go back.
+
+00:14:52.960 --> 00:15:01.920
+ So that was, yeah, that's not open source, but it cost like 50 euros.
+
+00:15:01.920 --> 00:15:08.560
+ And there's a platform, a development platform with a graphical interface.
+
+00:15:08.560 --> 00:15:16.000
+ So it's a really good way to start playing with this kind of wireless application.
+
+00:15:16.000 --> 00:15:18.480
+ If you want something that's custom.
+
+00:15:20.160 --> 00:15:26.720
+ One thing I really like too, if anyone participated in making it, it's the radio badge from the
+
+00:15:26.720 --> 00:15:29.520
+ CCC camp from 2015.
+
+00:15:29.520 --> 00:15:37.360
+ That was basically, yeah, that's a full feature SDR, half-duplex transceiver,
+
+00:15:37.360 --> 00:15:41.680
+ software compatible with HAT ARRIVE.
+
+00:15:42.400 --> 00:15:50.400
+ And it can process data standalone or pass the samples to the computer where further
+
+00:15:50.400 --> 00:15:56.640
+ signal processing can take place with new radio, for example.
+
+00:15:56.640 --> 00:16:02.160
+ And also the robotic arm edge.
+
+00:16:02.160 --> 00:16:10.800
+ So it's a kit, a robotic arm kit from OUI kit, which is not open source, but that cost
+
+00:16:10.800 --> 00:16:12.320
+ also like 50 euros.
+
+00:16:12.320 --> 00:16:16.960
+ It's quite affordable, very fun to play with.
+
+00:16:16.960 --> 00:16:24.720
+ It comes with a serial remote, but it's possible to, yeah, it's like Arduino shield, let's
+
+00:16:24.720 --> 00:16:30.960
+ say, modify the Arduino with a shield motor in one, and then you can do about anything
+
+00:16:30.960 --> 00:16:31.840
+ you want with it.
+
+00:16:31.840 --> 00:16:39.360
+ Some people can control it with Bluetooth, for instance.
+
+00:16:40.320 --> 00:16:43.600
+ But I tried to control it with my sport watch.
+
+00:16:43.600 --> 00:16:47.120
+ It didn't work so far, but I'm not giving up.
+
+00:16:47.120 --> 00:16:49.920
+ Work in progress.
+
+00:16:49.920 --> 00:16:56.320
+ So I've been participating to the Hacking Health Marathon since 2019.
+
+00:16:56.320 --> 00:16:59.840
+ That's an event that takes place once again in my hometown.
+
+00:16:59.840 --> 00:17:06.400
+ It's co-organized by the Regional Hospital, the City Hall, and the Polymycotechnique,
+
+00:17:07.200 --> 00:17:15.520
+ which is a kind of federation that gathers 240 local industrial companies, and sharing
+
+00:17:15.520 --> 00:17:17.520
+ on the kits is perfectly legal.
+
+00:17:17.520 --> 00:17:24.640
+ About 20 challenges are selected every year, and each challenge represents a problem, a
+
+00:17:24.640 --> 00:17:31.360
+ problematic suggested by a patient or medical care provider for which no solution has been
+
+00:17:31.360 --> 00:17:31.920
+ found yet.
+
+00:17:32.480 --> 00:17:38.880
+ After that, we get 48 hours to provide a POC or a prototype with the support of many experts
+
+00:17:38.880 --> 00:17:45.680
+ and well equipped FabLab in a fantastic environment and amazing people.
+
+00:17:45.680 --> 00:17:52.880
+ And so far, from the previous participation, I'm glad I had the opportunity to work on
+
+00:17:52.880 --> 00:17:59.760
+ developing a communication model dedicated to people with Loctin syndrome.
+
+00:18:01.040 --> 00:18:06.960
+ Some kind of alternative universal control for someone who couldn't move a lot or two,
+
+00:18:06.960 --> 00:18:12.000
+ and an assistive robotic arm that help people eat on their own.
+
+00:18:12.000 --> 00:18:16.400
+ The impossible interface.
+
+00:18:16.400 --> 00:18:23.920
+ I was participating to the Hacking Health for three years, and last year I took all
+
+00:18:23.920 --> 00:18:30.400
+ my courage, but I suggested a challenge instead of just participating.
+
+00:18:31.040 --> 00:18:37.280
+ And the challenge I offered was to find a solution for people with low arm and finger
+
+00:18:37.280 --> 00:18:43.920
+ mobility, who couldn't use smartphone in the traditional ways, and that could allow an
+
+00:18:43.920 --> 00:18:50.720
+ easier interaction with their connected object as well with non-connected object, such as
+
+00:18:50.720 --> 00:18:52.800
+ the button of a lift or just a light switch.
+
+00:18:52.800 --> 00:18:59.360
+ And this is why it was nicknamed impossible, because you either can't control something
+
+00:18:59.360 --> 00:19:09.760
+ that's connected or you have an arm to press a switch, but there's no app that can press
+
+00:19:09.760 --> 00:19:11.120
+ a lift button.
+
+00:19:11.120 --> 00:19:17.840
+ Our time was limited, so we focused on Hacking the Lift and built a prototype that's basically
+
+00:19:17.840 --> 00:19:24.000
+ a servo motor on rails with an Arduino Uno controlled by the Arduino.
+
+00:19:24.000 --> 00:19:32.000
+ And we made a nice fake finger, so that it really was like a physical finger that could
+
+00:19:32.000 --> 00:19:43.920
+ be controlled with the Arduino, it was through Arduino infrared remote, because we didn't
+
+00:19:43.920 --> 00:19:47.520
+ have Bluetooth options at the time.
+
+00:19:47.520 --> 00:19:52.160
+ Infrared is not really good for people with low mobility, by the way, because you have
+
+00:19:52.160 --> 00:20:01.280
+ to be right in front of the receiver to be able to control it.
+
+00:20:01.280 --> 00:20:05.120
+ 19 minutes.
+
+00:20:05.120 --> 00:20:12.800
+ So playing with the lift was very instructive, but the solution had too many limits, and
+
+00:20:12.800 --> 00:20:17.760
+ only adapted lifts could have been used anyway.
+
+00:20:17.760 --> 00:20:22.880
+ So I went back to the original idea of building a universal remote control that could handle
+
+00:20:22.880 --> 00:20:31.360
+ several communication protocols like a Bluetooth, Wi-Fi, infrared, LoRa, and that could also
+
+00:20:31.360 --> 00:20:36.160
+ control a robotic arm when a physical interaction was needed.
+
+00:20:36.160 --> 00:20:41.400
+ So I'm still convinced it is possible to build it, so I changed the name from the Impossible
+
+00:20:41.400 --> 00:20:47.800
+ interface to Bucu, which fundamentally sounds like little cute in French.
+
+00:20:47.800 --> 00:20:52.040
+ However, there's still a long road ahead, and it's going to take a lot of time to get
+
+00:20:52.040 --> 00:20:53.280
+ there.
+
+00:20:53.280 --> 00:20:59.440
+ And that's why I like to take this opportunity to ask for your precious help to make Bucu
+
+00:20:59.440 --> 00:21:02.000
+ safer, stronger, and smarter.
+
+00:21:02.000 --> 00:21:11.120
+ So don't hesitate to contact me by mail if you have any question at project@albayus.tech.
+
+00:21:11.120 --> 00:21:18.200
+ And yeah, the help I need is not just sending money, because with the money I'm only going
+
+00:21:18.200 --> 00:21:28.320
+ to buy some hardware, and what we really need is technical expertise, because once again
+
+00:21:28.320 --> 00:21:34.280
+ none of us is smarter than all of us.
+
+00:21:34.280 --> 00:21:40.640
+ And for last, this is a picture of what Bucu looks like for now.
+
+00:21:40.640 --> 00:21:48.120
+ It's a five axis robot that's Arduino compatible.
+
+00:21:48.120 --> 00:21:54.640
+ There are actually six servo motors, and the extra one I put it on the top with this fake
+
+00:21:54.640 --> 00:22:09.040
+ finger to show that we could manipulate it like an extra finger if the hook wasn't enough.
+
+00:22:09.040 --> 00:22:14.800
+ And on the right hand side you have one of my beta tester, and it's not on scale, it's
+
+00:22:14.800 --> 00:22:22.520
+ just a prototype, but the idea would be to be able to clip it on a wheelchair tablet,
+
+00:22:22.520 --> 00:22:31.120
+ and then use this, we did the test with the badge from MCH from last year, and use it
+
+00:22:31.120 --> 00:22:34.480
+ as a Bluetooth remote control.
+
+00:22:34.480 --> 00:22:37.880
+ And there's Neoncast on it, so it's good.
+
+00:22:37.880 --> 00:22:40.560
+ Okay, so that's it for today.
+
+00:22:40.560 --> 00:22:51.440
+ Any questions?
+
+00:22:51.440 --> 00:22:57.200
+ Thank you so much, Merlinux, for your insights and sharing all your experiences.
+
+00:22:57.200 --> 00:22:59.320
+ We have five minutes for questions.
+
+00:22:59.320 --> 00:23:01.140
+ Over there is an angel.
+
+00:23:01.140 --> 00:23:09.360
+ If you wish to ask a question, please go over to the angel and speak into the microphone.
+
+00:23:09.360 --> 00:23:15.800
+ But maybe you could go a bit more into detail what kind of technical knowledge you need
+
+00:23:15.800 --> 00:23:17.120
+ right now.
+
+00:23:17.120 --> 00:23:20.080
+ Maybe can you say something to that?
+
+00:23:20.080 --> 00:23:34.640
+ Technique, mechatronics, signal treatment, any web developers, I think it would be nice
+
+00:23:34.640 --> 00:23:40.720
+ to build a website, I didn't do it yet, but it's in the pipe, so if someone could take
+
+00:23:40.720 --> 00:23:43.280
+ this out of my hand, that would be lovely.
+
+00:23:43.280 --> 00:23:49.200
+ But yeah, I always say if you want to help, I'd rather have a donation in time, but if
+
+00:23:49.200 --> 00:23:53.880
+ you have nothing else, you can offer money, but I'm only going to buy hardware with it,
+
+00:23:53.880 --> 00:24:00.320
+ so I'd rather have hardware and technical expertise.
+
+00:24:00.320 --> 00:24:08.440
+ Hello, thanks for sharing your experience and insights.
+
+00:24:08.440 --> 00:24:18.640
+ My question would be if I someday, or some of us might come into a company that is building
+
+00:24:18.640 --> 00:24:26.560
+ some kind of technologies like personal lifts or whatever, and we want to suggest optimisations,
+
+00:24:26.560 --> 00:24:32.120
+ but do not have ourselves the experience of having some kind of disability, is there some
+
+00:24:32.120 --> 00:24:39.800
+ kind of document of known issues I could just hand over and say, hey, maybe these are the
+
+00:24:39.800 --> 00:24:45.520
+ problems, let's go into it, because the usual problem as we all know is that often in these
+
+00:24:45.520 --> 00:24:53.040
+ rooms where the decisions are made, we have a lot of male-wide people sitting, no handicaps,
+
+00:24:53.040 --> 00:24:58.400
+ and no-one is just aware of, hey, it could be easy if we just implement it, but we are
+
+00:24:58.400 --> 00:25:00.640
+ not aware of it, is there some just a...
+
+00:25:00.640 --> 00:25:06.480
+ There's no centralised platform where you can, you know, like a weak page, not yet, that's
+
+00:25:06.480 --> 00:25:08.080
+ why I need a web there.
+
+00:25:08.080 --> 00:25:13.560
+ The plan is of course this is open source and the goal is to make it under 500 euros,
+
+00:25:13.560 --> 00:25:19.720
+ but that would be indeed ideal if we had just one platform where we could gather all the
+
+00:25:19.720 --> 00:25:27.760
+ information, work in progress, where do I need help, and there is the website of open
+
+00:25:27.760 --> 00:25:37.560
+ sourcemedicalsupplies.org that is very good and it was born during the first wave of Covid,
+
+00:25:37.560 --> 00:25:43.840
+ and so yeah, there's a whole community out there, we're not alone anymore, and so you
+
+00:25:43.840 --> 00:25:51.360
+ can already find a lot of solutions, alternative solutions, let's say, whether it's about making
+
+00:25:51.360 --> 00:26:01.280
+ water drinkable or making a face mask and some assistive, open source assistive robots.
+
+00:26:01.280 --> 00:26:08.200
+ I'm not the first one to try this, there's lots of co-documentation online, but I'm not
+
+00:26:08.200 --> 00:26:10.840
+ sure I answered your question.
+
+00:26:10.840 --> 00:26:16.520
+ I mean you can still drop an email if you're interested, don't hesitate.
+
+00:26:16.520 --> 00:26:17.520
+ To the email?
+
+00:26:17.520 --> 00:26:23.320
+ The email to the homepage on one of your first slides, hack my health or something?
+
+00:26:23.320 --> 00:26:37.560
+ Hack my handicap, I put my email right there as the here, take a picture if you want.
+
+00:26:37.560 --> 00:26:38.560
+ Christian?
+
+00:26:38.560 --> 00:26:47.040
+ Yeah, thank you for the talk, and you mentioned donations and hardware, is there anything
+
+00:26:47.040 --> 00:26:52.680
+ specifically that you'd like and can people send it to you and is, you know, what sort
+
+00:26:52.680 --> 00:26:53.680
+ of?
+
+00:26:53.680 --> 00:27:04.800
+ Anything, really, we can, I mean all the micro USB devices that are obsolete now, we can
+
+00:27:04.800 --> 00:27:11.880
+ still use them, you know, all the legacy tech, let's say, so if you have, I don't know, old
+
+00:27:11.880 --> 00:27:26.320
+ Raspberry Pi, servo motors, microcontrollers, yeah, the hardware is hard to get my hands
+
+00:27:26.320 --> 00:27:33.320
+ on, it's affordable now, but I break so much stuff that it costs me a lot of money.
+
+00:27:33.320 --> 00:27:39.920
+ But yeah, but the expertise is really the most precious for me, because this is like
+
+00:27:39.920 --> 00:27:48.960
+ my hobby, this is not my profession, and I'm not that smart on my own, so yeah, any help
+
+00:27:48.960 --> 00:27:56.200
+ really is welcome, but definitely hardware, if you have anything, you know, lots of people
+
+00:27:56.200 --> 00:28:01.280
+ get the badge, don't use it, so if you don't know what to do with your badge, you can recycle
+
+00:28:01.280 --> 00:28:06.040
+ it with me, I will take great care of it.
+
+00:28:06.040 --> 00:28:07.040
+ Thanks.
+
+00:28:07.040 --> 00:28:08.040
+ All right.
+
+00:28:08.040 --> 00:28:09.040
+ All right.
+
+00:28:09.040 --> 00:28:12.560
+ Thank you all for your questions.
+
+00:28:12.560 --> 00:28:18.040
+ This was the talk of Mellanox, hack my handicap, please give a warm round of applause for our
+
+00:28:18.040 --> 00:28:19.040
+ awesome speaker.
+
+00:28:19.040 --> 00:28:19.040
+ [Applause]
+
+00:28:19.040 --> 00:28:30.040
+ [Music]
+

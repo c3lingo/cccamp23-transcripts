@@ -1,0 +1,1157 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+ [Musik]
+
+00:00:30.000 --> 00:00:35.000
+ Ja, hallo. Herzlich willkommen zu unserem ersten inhaltlichen Talk hier auf der
+
+00:00:35.000 --> 00:00:39.000
+ Bits und Bäume Bühne. Ich freue mich wahnsinnig, Corinna von KADUS zu begrüßen.
+
+00:00:39.000 --> 00:00:45.000
+ Corinna erzählt uns heute, was humanitäre Prinzipien als Werkzeug in der Not-
+
+00:00:45.000 --> 00:00:50.000
+ und Katastrophenhilfe reißen können. Eine große Runde Applaus für Corinna und
+
+00:00:50.000 --> 00:00:53.000
+ hab viel Spaß.
+
+00:00:53.000 --> 00:00:57.000
+ Ja, vielen Dank für die Vorstellung und die Einladung überhaupt.
+
+00:00:57.000 --> 00:01:01.000
+ Ja, bei mir geht es heute um humanitäre Prinzipien als Werkzeug in der Not-
+
+00:01:01.000 --> 00:01:06.000
+ und Katastrophenhilfe. Humanitäre Prinzipien sind einerseits so eine
+
+00:01:06.000 --> 00:01:11.000
+ Grundlage, auf der humanitäre Hilfe funktioniert. Andererseits gibt es da
+
+00:01:11.000 --> 00:01:14.000
+ auch viele Diskussionen drum. Es ist manchmal ein bisschen kontrovers, manchmal
+
+00:01:14.000 --> 00:01:19.000
+ ein bisschen umstritten. Und es hat also einerseits eine theoretische Diskusebene
+
+00:01:19.000 --> 00:01:24.000
+ und andererseits einfach eine praktische Funktion für die humanitäre Hilfe.
+
+00:01:24.000 --> 00:01:31.000
+ In meinem Vortrag heute geht es vor allen Dingen um die Praxis. Ich werde ein paar
+
+00:01:31.000 --> 00:01:35.000
+ Beispiele aus der Praxis bringen und wie das in der humanitären Hilfe dann
+
+00:01:35.000 --> 00:01:41.000
+ relevant wird. Ja, ich bin von KADUS, das ist eine humanitäre Hilfsorganisation,
+
+00:01:41.000 --> 00:01:47.000
+ mit Sitz in Berlin. Wir sind gerade viel in der Ukraine tätig, in der Vergangenheit
+
+00:01:47.000 --> 00:01:52.000
+ auch sehr viel in Nord-Aussyrien, waren auf den Fluchtrouten an Europas
+
+00:01:52.000 --> 00:01:58.000
+ Außengrenzen schon aktiv. Wir machen vornehmlich medizinische Nothilfe, aber
+
+00:01:58.000 --> 00:02:06.000
+ auch technischen Support. Also darum geht es dann heute. Ich werde erstmal eine
+
+00:02:06.000 --> 00:02:10.000
+ grobe Einführung geben, was ist überhaupt humanitäre Not- und Katastrophenhilfe
+
+00:02:10.000 --> 00:02:14.000
+ beziehungsweise Emergency Response. Auch so im deutschen Sprachkontext benutzen wir
+
+00:02:14.000 --> 00:02:19.000
+ eigentlich ganz gerne den Emergency Response Begriff, manchmal kurz auch ER
+
+00:02:19.000 --> 00:02:23.000
+ gesagt, also wenn ich plötzlich von ER spreche, dann wisst ihr was ich meine.
+
+00:02:23.000 --> 00:02:28.000
+ Dann geht es weiter mit was sind die humanitären Prinzipien und die werde ich
+
+00:02:28.000 --> 00:02:35.000
+ direkt mit zehn aus dem Feld vorstellen und einmal die humanitären Prinzipien im
+
+00:02:35.000 --> 00:02:44.000
+ Einsatz zeigen. So, ja, was ist Emergency Response? Die Ziele der ER sind
+
+00:02:44.000 --> 00:02:48.000
+ Unterstützung bei Krisen, Katastrophen und Konflikten, Überbrückung einer
+
+00:02:48.000 --> 00:02:53.000
+ Versorgungslücke, bevor lokale Strukturen wieder übernehmen können oder überhaupt
+
+00:02:53.000 --> 00:02:58.000
+ erst übernehmen können. Es geht also letztendlich immer auch darum, sich selbst
+
+00:02:58.000 --> 00:03:05.000
+ überflüssig zu machen. Die Ziele sind einerseits Rettung von Leben und Lindern
+
+00:03:05.000 --> 00:03:09.000
+ von Leiden, andererseits aber auch Prävention. Humanitäre Hilfe ist auch
+
+00:03:09.000 --> 00:03:17.000
+ immer vorausschauend und versucht also zu verhindern, dass Leid zukünftig entsteht.
+
+00:03:17.000 --> 00:03:22.000
+ Das ist ein relativ komplexes Arbeitsfeld, da gibt es ganz viele Herausforderungen.
+
+00:03:22.000 --> 00:03:26.000
+ Ich habe mir da jetzt mal so ein paar der wichtigsten rausgepickt, gibt natürlich
+
+00:03:26.000 --> 00:03:31.000
+ noch einige mehr. Zunächst mal ist zu sagen, gerade wenn es um humanitäre
+
+00:03:31.000 --> 00:03:35.000
+ Prinzipien geht, da spielt diese Frage der Neutralität eine große Rolle.
+
+00:03:35.000 --> 00:03:40.000
+ Gleichzeitig ist das Arbeitsumfeld alles andere als neutral. Humanitäre Hilfe findet
+
+00:03:40.000 --> 00:03:45.000
+ in komplexen politischen Kontexten statt, eigentlich fast immer. Das ist klar, wenn
+
+00:03:45.000 --> 00:03:51.000
+ es um Kriege und Krisen geht. Das ist aber auch so bei Naturkatastrophen, denn häufig,
+
+00:03:51.000 --> 00:03:55.000
+ wenn Hilfe anläuft nach einer Naturkatastrophe, heißt das nicht, dass alle gleichmäßig
+
+00:03:55.000 --> 00:04:00.000
+ versorgt werden. Bevölkerungsgruppen, die eventuell vor schon marginalisiert waren,
+
+00:04:00.000 --> 00:04:08.000
+ die bekommen dann auch weniger oder gar keine Hilfe. Da gab es erst im Februar das
+
+00:04:08.000 --> 00:04:14.000
+ Beispiel mit dem Erbbeben in Syrien, wo der syrische Machthaber Assad darauf
+
+00:04:14.000 --> 00:04:20.000
+ erhob, dass alle humanitären Hilfsgüter durch Damaskus durchgehen und nicht durch
+
+00:04:20.000 --> 00:04:25.000
+ die Außengrenzen, sodass er Kontrolle darüber hat. Er konnte letztendlich dadurch
+
+00:04:25.000 --> 00:04:32.000
+ auch seine Machtposition stärken und behaupten, dass er Hilfe gebracht und verteilt hat,
+
+00:04:32.000 --> 00:04:38.000
+ einfach weil er die Kontrolle darüber hatte. Gleichzeitig gab es marginalisierte
+
+00:04:38.000 --> 00:04:43.000
+ Bevölkerungsgruppen, die von dieser Hilfe kaum etwas gesehen haben. Wir haben da dann
+
+00:04:43.000 --> 00:04:48.000
+ versucht, den Kurdischen Roten Halbmond zu unterstützen, der sich vor Ort um diese
+
+00:04:48.000 --> 00:04:53.000
+ marginalisierten Gebiete und Bevölkerungsgruppen versucht hat, zu kümmern gegen
+
+00:04:53.000 --> 00:05:03.000
+ großen Widerstand. Jedes Mal hochkomplexer politischer Kontext von humanitärer Hilfe.
+
+00:05:03.000 --> 00:05:09.000
+ Es ist häufig ein unsicheres Arbeitsumfeld in den Einsatzgebieten, wenn man als
+
+00:05:09.000 --> 00:05:14.000
+ Organisation dort Menschen hinschickt, die unterstützen wollen, dann ist das auch für
+
+00:05:14.000 --> 00:05:21.000
+ die Organisation immer eine große Verantwortung. Da kann viel schiefgehen und auch dafür sind
+
+00:05:21.000 --> 00:05:29.000
+ so Prinzipien wichtig, dass man sich da an gewisse Prozesse hält. Ein Beispiel aus der
+
+00:05:29.000 --> 00:05:40.000
+ letzten Woche ist, dass Helfende in der Ukraine, in Prokofsk, angegriffen wurden. Da gab es
+
+00:05:40.000 --> 00:05:46.000
+ einen Angriff auf ein Wohnhaus und ein Hotel und 40 Minuten später hat Russland dann
+
+00:05:46.000 --> 00:05:52.000
+ nochmal draufgeschossen, als schon viele Helfende vor Ort waren, die dann auch schwer
+
+00:05:52.000 --> 00:06:00.000
+ verletzt wurden. Also humanitäre Hilfe ist teilweise recht gefährliches Einsatzgebiet.
+
+00:06:00.000 --> 00:06:06.000
+ Eine weitere Herausforderung ist, dass der Zugang zu den Betroffenen oft erst verhandelt
+
+00:06:06.000 --> 00:06:10.000
+ werden muss. Der ist nicht einfach gegeben, nur weil man eine humanitäre Hilfsorganisation
+
+00:06:10.000 --> 00:06:18.000
+ ist, heißt das nicht, dass man dann automatisch zu Notlagen kommen kann. Da muss man gar nicht
+
+00:06:18.000 --> 00:06:24.000
+ so weit gucken wie Nord-Ost-Südien oder andere Orte. Das war schon ein Thema für
+
+00:06:24.000 --> 00:06:30.000
+ KADUS, als wir versucht haben auf Lesbos die Menschen auf der Flucht zu unterstützen. Da
+
+00:06:30.000 --> 00:06:36.000
+ haben wir sehr oft Hilfe angeboten. Wir wurden nicht reingelassen von griechischen Staats
+
+00:06:36.000 --> 00:06:45.000
+ zuerst. Da hat die WHO dann sehr stark verhandelt und Druck gemacht, dass wir da in den Einsatz
+
+00:06:45.000 --> 00:06:50.000
+ gehen konnten. Wobei auch das ein schwieriges Thema ist, da gehe ich später nochmal drauf
+
+00:06:50.000 --> 00:06:58.000
+ ein. Eine weitere Herausforderung sind ungleiche Privilegien zwischen Helfenden und Betroffenen.
+
+00:06:58.000 --> 00:07:05.000
+ Natürlich möchten wir gerne immer auf Augenhöhe arbeiten und Krisen und Problemen zusammen
+
+00:07:05.000 --> 00:07:11.000
+ angehen mit den Betroffenen. Aber das lässt sich nicht wegdiskutieren, dass es immer ein
+
+00:07:11.000 --> 00:07:17.000
+ Machtgefälle gibt. Wir sind diejenigen, die reinkommen in ein Einsatzgebiet. Wir bringen
+
+00:07:17.000 --> 00:07:23.000
+ Material mit, wir bieten Services an, die die Menschen vor Ort dringend brauchen. Wir bestimmen
+
+00:07:23.000 --> 00:07:28.000
+ aber auch, wie das verteilt wird. Das ist immer eine Machtposition und das muss man immer
+
+00:07:28.000 --> 00:07:34.000
+ auf dem Schirm haben und reflektieren. Gleichzeitig, wenn es richtig krass wird, sind wir auch
+
+00:07:34.000 --> 00:07:38.000
+ diejenigen, die wieder nach Hause gehen können. Wir können dann einfach einpacken und nach
+
+00:07:38.000 --> 00:07:46.000
+ Hause fliegen. Die Menschen vor Ort können das nicht. Das mussten wir feststellen. Das
+
+00:07:46.000 --> 00:07:52.000
+ war letztendlich auch für Carlos als Organisation ein ziemlich heftiger Moment, als die Türkei
+
+00:07:52.000 --> 00:08:01.000
+ 2019 im Norden Nordostsyriens angegriffen hat. Die Situation wurde einfach zu gefährlich
+
+00:08:01.000 --> 00:08:10.000
+ und wir mussten unsere Mitarbeiterinnen vor Ort aus Sicherheitsgründen rausziehen. Unsere
+
+00:08:10.000 --> 00:08:16.000
+ Mitarbeiterinnen vor Ort, die dort ansässig sind, konnten das Land nicht verlassen. Die
+
+00:08:16.000 --> 00:08:22.000
+ mussten da bleiben und haben dann mit weniger Leuten das Feldkrankenhaus, das wir betrieben
+
+00:08:22.000 --> 00:08:28.000
+ haben, weitergewuppt. Diese Privilegien bestehen immer und es ist immer wichtig, das zu
+
+00:08:28.000 --> 00:08:35.000
+ reflektieren. Eine weitere Herausforderung ist, dass Hilfe, auch wenn sie gut gemeint ist,
+
+00:08:35.000 --> 00:08:40.000
+ Schaden anrichten kann, wenn sie nicht gut geplant und nicht gut durchgeführt ist. Das
+
+00:08:40.000 --> 00:08:44.000
+ kommt leider immer wieder vor oder ist in der Geschichte der humanitären Hilfe immer
+
+00:08:44.000 --> 00:08:50.000
+ wieder vorgekommen, dass Organisationen sich denken, naja, das überschreitet hier so ein
+
+00:08:50.000 --> 00:08:54.000
+ bisschen unsere Kompetenzen, unsere eigentliche Ausbildung, aber es hilft ja sonst niemand
+
+00:08:54.000 --> 00:08:59.000
+ besser als nichts. Na, besser als nichts ist manchmal ziemlich schlimm. Also da können
+
+00:08:59.000 --> 00:09:04.000
+ dann wirklich medizinische Fehler passieren. Man kann eine zusätzliche Bürde sein für
+
+00:09:04.000 --> 00:09:10.000
+ die Region, in der man eigentlich helfen will, indem man sich selber nicht genug, weiß nicht,
+
+00:09:10.000 --> 00:09:17.000
+ Essen oder so mitgebracht hat. Also viele Herausforderungen in der humanitären Hilfe.
+
+00:09:17.000 --> 00:09:23.000
+ Und natürlich gibt es da alle möglichen Prozesse und Regeln, die das auffangen wollen.
+
+00:09:23.000 --> 00:09:30.000
+ Einer dieser Regelwerke sind die humanitären Prinzipien, über die ich jetzt was erzählen
+
+00:09:30.000 --> 00:09:39.000
+ werde. Ich habe die hier einfach mal aufgelistet, die im Moment so sehr gängig sind. Das ist
+
+00:09:39.000 --> 00:09:44.000
+ je nachdem, welche Organisation oder welches Umfeld. Man fragt jetzt mal mehr, mal weniger,
+
+00:09:44.000 --> 00:09:50.000
+ aber die fünf, das sind so die wichtigsten. Ich habe die auf Englisch und auf Deutsch
+
+00:09:50.000 --> 00:09:54.000
+ aufgeschrieben, weil auch im deutschen Kontext häufig die englischen Begriffe letztendlich
+
+00:09:54.000 --> 00:09:57.000
+ fallen. Ich bitte auch zu entschuldigen, wenn ich irgendwann so ein bisschen ins Denglisch
+
+00:09:57.000 --> 00:10:06.000
+ rutsche. Die Prinzipien sind Menschlichkeit, Unparteilichkeit, Neutralität, Unabhängigkeit
+
+00:10:06.000 --> 00:10:13.000
+ und Rechenschaftspflicht gegenüber Betroffenen. Die sind nicht alle gleich all. Die sind so
+
+00:10:13.000 --> 00:10:17.000
+ im Laufe der Zeit entstanden. Die ersten, vor allen Dingen die ersten zwei Prinzipien,
+
+00:10:17.000 --> 00:10:22.000
+ die sind entstanden aus der Rotkreuz- und Rothalbmond-Bewegung. Das waren ursprünglich
+
+00:10:22.000 --> 00:10:30.000
+ deren Grundsätze, die dann auch andere Organisationen angenommen haben. Das wurde dann irgendwann
+
+00:10:30.000 --> 00:10:37.000
+ kombiniert mit international humanitarian law, also international humanitären Recht. Da
+
+00:10:37.000 --> 00:10:42.000
+ gehe ich auch nochmal später darauf ein, was das genau besagt oder was da relevant ist
+
+00:10:42.000 --> 00:10:51.000
+ für diesen Kontext. Und diesen Prinzipien haben sich viele Organisationen verpflichtet.
+
+00:10:51.000 --> 00:10:57.000
+ CASUS zum Beispiel hat einerseits vom internationalen Rotkreuz- und Rothalbmond-Bewegung den Code
+
+00:10:57.000 --> 00:11:01.000
+ of Conduct unterschrieben. Wir haben aber auch unseren eigenen Code of Conduct, in dem
+
+00:11:01.000 --> 00:11:07.000
+ wir nochmal auf diese Prinzipien eingehen. Und in der humanitären Hilfe wird das sowohl
+
+00:11:07.000 --> 00:11:10.000
+ von den Organisationen eigentlich erwartet, dass sie sich daran halten, als auch es es
+
+00:11:10.000 --> 00:11:18.000
+ manchmal Voraussetzungen, um auch von Geldgebern Geld für Einsätze zu bekommen. Gleichzeitig
+
+00:11:18.000 --> 00:11:24.000
+ ist es kein Gesetzesbruch oder so. Man kann da schlecht dann wirklich rechtlich belangt
+
+00:11:24.000 --> 00:11:30.000
+ werden, wenn man sich da nicht dran hält. Aber es ist einem trotzdem ein sehr wichtiger
+
+00:11:30.000 --> 00:11:37.000
+ Regelsatz. Die Prinzipien, die haben die alle so ganz die gleiche Funktion. Die ersten
+
+00:11:37.000 --> 00:11:45.000
+ zwei, Menschlichkeit und Unparteiligkeit, das sind eher so die ethisch-moralischen Richtlinien,
+
+00:11:45.000 --> 00:11:51.000
+ die einfach besagen, Menschen muss geholfen werden, die not sind. Und Neutralität und
+
+00:11:51.000 --> 00:11:57.000
+ Unabhängigkeit sind dann eher so die Werkzeuge, um dahin zu gelangen zu den Zielen, dass man
+
+00:11:57.000 --> 00:12:03.000
+ Menschen in Not helfen kann. Und das dritte, die Rechenschaftspflicht ist so das neueste
+
+00:12:03.000 --> 00:12:12.000
+ Prinzip und das ist eher ein, willst du als allgemeines Prinzip bezeichnen. Dann gehe
+
+00:12:12.000 --> 00:12:18.000
+ ich mal Schritt für Schritt durch die Prinzipien durch. Das erste ist die Menschlichkeit und
+
+00:12:18.000 --> 00:12:24.000
+ das besagt ganz einfach, dass Menschen in Not unterstützt werden müssen. Genauer gesagt,
+
+00:12:24.000 --> 00:12:29.000
+ menschliches Leid lindern, wo immer möglich, mit besonderer Aufmerksamkeit für die am
+
+00:12:29.000 --> 00:12:35.000
+ stärksten Betroffenen. Das Ziel humanitärer Tätigkeit ist, Leben und Gesundheit zu schützen
+
+00:12:35.000 --> 00:12:42.000
+ und Respekt gegenüber Menschen sicherzustellen. Das ist ein ziemlich großes Ziel, da müssen
+
+00:12:42.000 --> 00:12:49.000
+ einzelne Organisationen dann natürlich auch auf ihre Möglichkeiten achten. Also KADUS kann
+
+00:12:49.000 --> 00:12:55.000
+ nicht überall da sein, wo Menschen am stärksten betroffen sind natürlich. Wir haben zum Beispiel
+
+00:12:55.000 --> 00:13:01.000
+ mal versucht in den Jemen zu gehen, aber das war einfach so komplex da, so schwierig da
+
+00:13:01.000 --> 00:13:07.000
+ reinzukommen, das haben wir nicht geschafft. Wir schauen aber natürlich, wo sind die Lücken,
+
+00:13:07.000 --> 00:13:13.000
+ wo können wir mit unseren speziellen Fähigkeiten als KADUS besonders gut unterstützen. Und da
+
+00:13:13.000 --> 00:13:19.000
+ habe ich ein erstes Bild mitgebracht, das ist unsere erste Ambulanz, die wir in der Ukraine
+
+00:13:19.000 --> 00:13:25.000
+ hatten für die medizinischen Evakuierungen. Das ist eine der Sachen, die KADUS dort macht,
+
+00:13:25.000 --> 00:13:32.000
+ Medical Evacuations. Allerdings nicht alles, was gefahren werden muss, fahren wir, sondern wir
+
+00:13:32.000 --> 00:13:39.000
+ gucken dann halt, dass wir wirklich die Lücken schließen, die da sind, wenn es besonders um
+
+00:13:39.000 --> 00:13:45.000
+ Intensive Care Unit Transports geht, also wo man spezielles medizinisches Equipment und
+
+00:13:45.000 --> 00:13:51.000
+ sehr gut ausgebildete Medics dafür braucht, diese Art von Transporte machen wir zum Beispiel.
+
+00:13:51.000 --> 00:14:01.000
+ Aber es geht bei dem Prinzip nicht nur darum direkt zu helfen, denn es geht vor allem darum,
+
+00:14:01.000 --> 00:14:07.000
+ auch dass Menschen sich selber helfen können und darum fokussiert KADUS auch viel auf Trainings.
+
+00:14:07.000 --> 00:14:13.000
+ Also wir haben sowohl in Nordostsyrien als auch jetzt aktuell in der Ukraine immer viel
+
+00:14:13.000 --> 00:14:18.000
+ Trainings gegeben, denn das muss man auf dem Schirm haben, dass in den meisten Notsituationen,
+
+00:14:18.000 --> 00:14:25.000
+ gerade bei kurzfristigen Katastrophen, dass es sehr unwahrscheinlich ist, dass da von außen so eine
+
+00:14:25.000 --> 00:14:30.000
+ internationale Hilfsorganisation plötzlich auf der Matte steht und hilft. Das sind meistens wirklich
+
+00:14:30.000 --> 00:14:37.000
+ die Menschen, die auch mit betroffen sind, die dann die Ersthelfer sind. Deswegen machen wir viel
+
+00:14:37.000 --> 00:14:45.000
+ Ausbildung für Ersthelfer*innen, aber auch speziellere medizinische Themen, da machen wir
+
+00:14:45.000 --> 00:14:51.000
+ Training dazu für Menschen, die schon medizinische Ausbildung haben, die dann noch Spezialwissen dazu
+
+00:14:51.000 --> 00:14:57.000
+ bekommen. Und auch da geht es natürlich wieder darum, wie schon am Anfang erwähnt, dass man sich
+
+00:14:57.000 --> 00:15:04.000
+ letztendlich überflüssig macht als Organisation und wirklich nur die Lücken deckt, die gerade da
+
+00:15:04.000 --> 00:15:16.000
+ sind und sich dann auch wieder zurückzieht. Das zweite Prinzip, die Unparteilichkeit, das ist
+
+00:15:16.000 --> 00:15:23.000
+ sozusagen das Nichtdiskriminierungsprinzip. Das besagt, humanitäre Hilfe richtet sich allein nach
+
+00:15:23.000 --> 00:15:28.000
+ dem Bedarf mit Priorität für die dringendsten Fälle. Die Hilfe darf Menschen nicht hinsichtlich
+
+00:15:28.000 --> 00:15:35.000
+ Nationalität, Alter, Gender, Religion etc. diskriminieren. Das klingt ja erst mal so, als könnte man das
+
+00:15:35.000 --> 00:15:44.000
+ relativ einfach unterschreiben. Diskriminieren möchte glaube ich niemand absichtlich. Das ist aber in
+
+00:15:44.000 --> 00:15:50.000
+ der humanitären Hilfe auch dann manchmal gar nicht so einfach, das zumindest nach außen zu
+
+00:15:50.000 --> 00:15:58.000
+ vermitteln. Da habe ich ein Beispiel mitgebracht. Da geht es beide Male um das Thema des sogenannten
+
+00:15:58.000 --> 00:16:06.000
+ islamischen Staates. Da war Kadus einmal im Einsatz 2017 im Mosul. Da haben wir einen Trauma
+
+00:16:06.000 --> 00:16:12.000
+ Stabilization Point gehabt. Das heißt, wir haben Menschen, die gerade aus dem vom IS befreiten Mosul
+
+00:16:12.000 --> 00:16:19.000
+ Stück für Stück herausgekommen sind, so weit stabilisiert, dass sie den Transport in weiteres
+
+00:16:19.000 --> 00:16:26.000
+ Krankenhaus überstanden haben. Dafür haben wir in der Medien, in der Öffentlichkeit ziemlich viel
+
+00:16:26.000 --> 00:16:35.000
+ Zuspruch bekommen und auch viele Follower und Social Media gewonnen. Dann kam das Krankenhaus in
+
+00:16:35.000 --> 00:16:43.000
+ Al-Hol. Das Camp Al-Hol, das gibt es schon lange, aber das ist letztendlich sehr doll angewachsen
+
+00:16:43.000 --> 00:16:55.000
+ 2019, nachdem in Nord-Aussyrien der IS aus Strat zurückgedrängt wurde. Die Menschen sind in dieses
+
+00:16:55.000 --> 00:17:03.000
+ Camp gekommen, teilweise gebracht worden, teilweise gegangen. Da gibt es immer wieder den Vorwurf,
+
+00:17:03.000 --> 00:17:08.000
+ dass ein Teil der Menschen dort eventuell noch dem IS anhängt. Es gibt viele Konflikte innerhalb
+
+00:17:08.000 --> 00:17:15.000
+ dieses Camps. Das ist wirklich ein ziemlich rarter Ort. Wir wurden gefragt, ob wir da medizinische
+
+00:17:15.000 --> 00:17:23.000
+ Versorgung machen können. Wir haben dieses Feldkrankenhaus aufgebaut und haben für uns
+
+00:17:23.000 --> 00:17:29.000
+ zunächst relativ überraschend auf Social Media und anderen Kanälen Kritik dafür geerntet.
+
+00:17:29.000 --> 00:17:39.000
+ Dann hieß es, was helft ihr jetzt plötzlich da? Ihr wart doch hier in der Anti-IS-Mass-Response dabei.
+
+00:17:39.000 --> 00:17:44.000
+ Da haben wir dann aber ganz klar gesagt, weil das unser Job ist, das ist humanitäre Hilfe. Man hilft
+
+00:17:44.000 --> 00:17:52.000
+ allen Menschen, die Hilfe benötigen. Da geht es nicht darum zu fragen, wer hat was getan, solange
+
+00:17:52.000 --> 00:17:59.000
+ die Leute keine aktiven Kämpfe mehr sind. Das nennt sich dann Non-Combatants. Solange sie Non-Combatants
+
+00:17:59.000 --> 00:18:09.000
+ sind, dann wird denen auch geholfen. Was wir damit geschaffen haben im Al-Hol, in diesem wirklich von
+
+00:18:09.000 --> 00:18:14.000
+ Anspannungen und Konflikten sehr stark heimgesuchten Camp, ist tatsächlich ein Ort der
+
+00:18:14.000 --> 00:18:20.000
+ Menschlichkeit geschaffen, wo das eben keine Rolle spielt, was Menschen für eine politische
+
+00:18:20.000 --> 00:18:27.000
+ Assoziierung haben oder eine Religion. Wir haben da von den Menschen vor Ort auch immer wieder sehr
+
+00:18:27.000 --> 00:18:33.000
+ viel positives Feedback dafür bekommen, eben diesen Ort geschaffen zu haben, wo sie dann einfach nur
+
+00:18:33.000 --> 00:18:38.000
+ Menschen sind, die Unterstützung brauchen. Aber es ist manchmal nicht so einfach zu vermitteln,
+
+00:18:38.000 --> 00:18:47.000
+ auch wenn sich so ein Nicht-Diskriminierungsprinzip im ersten Moment recht einfach und eindeutig anhört.
+
+00:18:47.000 --> 00:19:01.000
+ Dann kommen wir jetzt mal zu den eher Werkzeugprinzipien. Das erste ist die Neutralität. Die gibt eine
+
+00:19:01.000 --> 00:19:07.000
+ Nichteinmischung in Konflikte vor und besagt, humanitäre Akteure dürfen in Konflikten nicht
+
+00:19:07.000 --> 00:19:14.000
+ parteiergreifend für eine Seite. Sie sollen von Konfliktparteien als neutral wahrgenommen werden,
+
+00:19:14.000 --> 00:19:21.000
+ Zugang zu erlangen und die Sicherheit der Hilfenden zu gewährleisten. Dieses Prinzip ist sehr eng
+
+00:19:21.000 --> 00:19:30.000
+ verknüpft mit international humanitarian law. Das besagt, dass Menschen auch in Kriegen und Konflikten
+
+00:19:30.000 --> 00:19:36.000
+ die Hilfe brauchen, die also verletzt sind, die nicht mehr kämpfen können, dass die Hilfe bekommen
+
+00:19:36.000 --> 00:19:41.000
+ müssen. Das muss entweder durch die Kriegsparteien direkt sichergestellt werden oder wenn sie das
+
+00:19:41.000 --> 00:19:47.000
+ nicht können, dann sind sie verpflichtet humanitäre Organisationen, die neutral sind und die sich nicht
+
+00:19:47.000 --> 00:19:54.000
+ auf eine Seite des Konfliktes stellen, durchzulassen. Diese Neutralität hat also wirklich diese
+
+00:19:54.000 --> 00:20:03.000
+ praktische Bewandtnis, dass man in einem Kriegs- und Konfliktszenario durchgelassen wird. Ich habe
+
+00:20:03.000 --> 00:20:14.000
+ dazu ein Bild mitgebracht aus der Ukraine, das ist unser Mobile Intensive Care Unit, ein umgebauter Bus,
+
+00:20:14.000 --> 00:20:22.000
+ sondern an einer Intensivstation umgebaut. Da sieht man im Vordergrund, dass da jetzt jemand mit
+
+00:20:22.000 --> 00:20:31.000
+ Hanfleck sitzt. Für diese Bilder hat es auch ein bisschen zumindest "raised eyebrows" gegeben.
+
+00:20:31.000 --> 00:20:39.000
+ Wo ist denn jetzt diese Unterscheidung zwischen militärisch und nicht militärisch? Ist das noch neutral?
+
+00:20:39.000 --> 00:20:45.000
+ Da kann man aber ganz klar sagen, ja das ist neutral, weil diese Menschen non-combatant sind. Das sind
+
+00:20:45.000 --> 00:20:52.000
+ einfach Menschen, die in dem Moment Hilfe brauchen. In dem Moment ist diese Neutralitätsprinzip
+
+00:20:52.000 --> 00:20:57.000
+ eigentlich auch eine Richtlinie, in der man sagen kann, das ist auch okay, wir können diesen Menschen
+
+00:20:57.000 --> 00:21:04.000
+ im Moment helfen, ohne da unsere humanitären Prinzipien zu verraten. Auf der anderen Seite gibt es
+
+00:21:04.000 --> 00:21:10.000
+ in der Ukraine ziemlich viele Fälle, wo das halt sehr verschwimmt. Es gibt andere NGOs, die zunehmend
+
+00:21:10.000 --> 00:21:16.000
+ selber Hanfleck tragen, die sich schwarze Nummernschilder googelt haben. Das sind Militärnummernschilder,
+
+00:21:16.000 --> 00:21:23.000
+ die da sehr eng mit dem Militär zusammenarbeiten und wo diese Neutralität eben gerade nicht mehr
+
+00:21:23.000 --> 00:21:30.000
+ gewährleistet ist. Und das kann dann letztendlich zum Problem werden, wenn es um Zugang für rein
+
+00:21:30.000 --> 00:21:39.000
+ humanitäre Organisationen geht. Das internationale humanitäre Recht sagt weiterhin, dass humanitäre
+
+00:21:39.000 --> 00:21:49.000
+ Hilfeleistende nicht angegriffen werden dürfen. Das ist in der Ukraine ein doppelt schwieriges Thema,
+
+00:21:49.000 --> 00:21:56.000
+ weil es auch für die russische Seite ziemlich schwierig ist manchmal sehen zu können, wer ist denn jetzt
+
+00:21:56.000 --> 00:22:03.000
+ humanitär, wer nicht, weil das ukrainische Militär hat auch Ambulanzen gespendet bekommen und die haben
+
+00:22:03.000 --> 00:22:08.000
+ die nicht kenntlich gemacht. Also da fahren Ambulanzen rum, wo nicht ganz klar ist, ist das jetzt
+
+00:22:08.000 --> 00:22:17.000
+ humanitäre Hilfe oder gehört es vielleicht doch zum Militär. Und dann gibt es auch halt so Fälle,
+
+00:22:17.000 --> 00:22:24.000
+ wo Russland wirklich ganz gezielt Helfende angreift, das eine Beispiel hatte ich ja eben schon gesagt,
+
+00:22:24.000 --> 00:22:29.000
+ Pukrovsk, wo das Hotel angegriffen wurde und dann später nochmal drauf geschossen wurde, als die
+
+00:22:29.000 --> 00:22:37.000
+ Helfenden vor Ort sind. Also es kommen schon auch gezielte Angriffe auf Hilfskräfte vor durch die
+
+00:22:37.000 --> 00:22:43.000
+ russische Armee. Allerdings muss man da auch sagen, wir wissen halt nicht, wie oft dann eben nicht
+
+00:22:43.000 --> 00:22:49.000
+ geschossen wurde, weil es wirklich eindeutig medizinisch gekennzeichnendes Fahrzeug war oder weil es
+
+00:22:49.000 --> 00:22:54.000
+ ein eindeutig gekennzeichnendes Krankenhaus oder Versorgungsstation war. Also das wissen wir nicht
+
+00:22:54.000 --> 00:23:02.000
+ und ich denke, das lohnt sich auf jeden Fall, sich trotzdem an dieses Prinzip zu halten, um zu versuchen,
+
+00:23:02.000 --> 00:23:16.000
+ diese Möglichkeit ganz auszuschöpfen. So, ein weiteres Prinzip. Jetzt sind wir bei der Unabhängigkeit.
+
+00:23:16.000 --> 00:23:24.000
+ Da geht es darum, dass die Hilfe eben keinen anderen Zweck haben soll als die Nothilfe für Menschen
+
+00:23:24.000 --> 00:23:30.000
+ in Not. Es besagt, es muss eine klare Trennung geben zwischen humanitären Zielen und militärischen,
+
+00:23:30.000 --> 00:23:36.000
+ politischen und wirtschaftlichen Zielen. Humanitäre Hilfe soll ausschließlich dem Zweck dienen, Leben zu
+
+00:23:36.000 --> 00:23:45.000
+ retten und Leiden zu lindern. Da habe ich ein Bild mitgebracht aus unserem dann letztendlich doch noch
+
+00:23:45.000 --> 00:23:53.000
+ stattgefundenen Einsatz auf Lesbos und zwar in dem Camp Karatepe 2. Das war zu dem Zeitpunkt, als das Camp
+
+00:23:53.000 --> 00:24:02.000
+ Moria abgebrannt war. Die Menschen waren erst auf der Straße und haben versucht, den Leuten vor Ort zu
+
+00:24:02.000 --> 00:24:08.000
+ helfen. Kadus wollte da auch gerne in den Einsatz gehen und helfen, hat mehrfach angeboten, über den
+
+00:24:08.000 --> 00:24:14.000
+ EMT-WHO-Mechanismus als Emergency Medical Team für die WHO dort in Einsatz zu gehen. Griechenland hat das
+
+00:24:14.000 --> 00:24:20.000
+ immer wieder abgelehnt. Und dann kam aber plötzlich irgendwann die Zusage, dann hat die WHO uns gesagt,
+
+00:24:20.000 --> 00:24:26.000
+ okay, Kadus, ihr könnt jetzt in den Einsatz gehen. Da war aber schon die Situation so, dass dieses neue
+
+00:24:26.000 --> 00:24:32.000
+ Camp entstanden war und wir gehört haben, dass ganz viele Menschen nicht in dieses Camp wollten, dass sie
+
+00:24:32.000 --> 00:24:37.000
+ wohl gezwungen wurden, da reinzugeben, dass sie eigentlich natürlich viel lieber weiterreisen wollten oder
+
+00:24:37.000 --> 00:24:46.000
+ zumindest sich besser unterbringen wollten auf Lesbos. Und da haben wir mal kurz überlegt, das also
+
+00:24:46.000 --> 00:24:52.000
+ auch öffentlichkeitswirksam abzusagen, mit einem politischen Statement zu sagen, nee, geht nichts, machen wir
+
+00:24:52.000 --> 00:24:58.000
+ nicht, da werden zu viele Menschenrechte verletzt. Wir haben es dann aber dagegen entschieden, diese Absage zu
+
+00:24:58.000 --> 00:25:05.000
+ machen, weil wir dann tatsächlich nicht geholfen hätten aus einem allein politischen Grund. Wir haben gesagt,
+
+00:25:05.000 --> 00:25:13.000
+ okay, wir gehen dann in den Einsatz und werden da medizinische Versorgung machen, aber wir halten auf jeden
+
+00:25:13.000 --> 00:25:20.000
+ Fall die Augen offen und werden dann versuchen, die humanitären Ziele auch durch Advocacy umzusetzen, also
+
+00:25:20.000 --> 00:25:27.000
+ durch das Einsetzen für die Belange der Menschen vor Ort in diesen Camp. Und wir haben dann einfach angefangen,
+
+00:25:27.000 --> 00:25:33.000
+ unsere medizinischen Reports dahin durchzugucken und aufzuschreiben, okay, wie viele Menschen sind denn
+
+00:25:33.000 --> 00:25:40.000
+ eigentlich lang bei uns in der Klinik, weil das Camp sie krank gemacht hat, welche Erkrankungen und welche
+
+00:25:40.000 --> 00:25:47.000
+ Verletzungen können direkt auf dieses Camp und auf die schrecklichen Verhältnisse in dem Camp zurückgeführt
+
+00:25:47.000 --> 00:25:55.000
+ werden. Das waren eine ganze Menge und das haben wir auch veröffentlicht und haben dann halt auf diesem Wege
+
+00:25:55.000 --> 00:26:01.000
+ auch in gewisser Weise eine politische Arbeit gemacht, obwohl unsere humanitäre Hilfe, die wir dort geleistet
+
+00:26:01.000 --> 00:26:10.000
+ haben, erstmal keinen direkten politischen Zweck hatte, sondern erstmal Hilfe leisten, aber wir haben dann
+
+00:26:10.000 --> 00:26:18.000
+ halt in der Berichterstattung darauf hingewiesen, was die Verhältnisse sind und ich würde mal sagen, es ist
+
+00:26:18.000 --> 00:26:25.000
+ halt auch relativ schwierig, dann noch dagegen zu argumentieren und zu sagen, nee, das kann man ruhig
+
+00:26:25.000 --> 00:26:31.000
+ ignorieren, dass da Menschen einfach krank gemacht werden durch dieses Camp und dass der Menschenrechte
+
+00:26:31.000 --> 00:26:37.000
+ verletzt werden. Also es bietet letztendlich die praktische Arbeit und die Berichterstattung einfach über das,
+
+00:26:37.000 --> 00:26:45.000
+ was man tut, manchmal eine gute Ausbankbasis, um dann da auch auf anderen Ebenen was zu bewirken.
+
+00:26:49.000 --> 00:26:55.000
+ Bei der Unabhängigkeit gibt es noch einen anderen Punkt, da müssen Organisationen dann jeweils auf sich selber
+
+00:26:55.000 --> 00:27:00.000
+ auch achten, was sie denn tun, denn Unabhängigkeit bedeutet auch, dass man, obwohl man natürlich immer auf
+
+00:27:00.000 --> 00:27:06.000
+ Gelder von Geldgebern angewiesen ist, dass man sich dann nicht von denen sozusagen von Karnsperren
+
+00:27:06.000 --> 00:27:12.000
+ entspannen lässt und das macht, was die gerne sehen würden, sondern man muss immer auf die Bedarfe vor Ort
+
+00:27:12.000 --> 00:27:19.000
+ schauen, man muss auch immer schauen, dass man sich namentlich von den Geldgebern nicht so vereinnahmen lässt.
+
+00:27:19.000 --> 00:27:26.000
+ Das war auf Lesbos teilweise auch nicht so einfach, weil wir durch diesen WHO-Mechanismus kamen, der Einsatz
+
+00:27:26.000 --> 00:27:33.000
+ wurde zum Teil zumindest vom Auswärtigen Amt finanziert und dann waren wir ganz plötzlich so die German NGO
+
+00:27:33.000 --> 00:27:38.000
+ oder das German AMT. Das wollten wir aber nicht sagen, wir sind halt Karnsperren und ich habe mich dann
+
+00:27:38.000 --> 00:27:43.000
+ natürlich on the ground live mit der WHO gestritten, ob wir jetzt einen Karsus-Banner oder einen German
+
+00:27:43.000 --> 00:27:50.000
+ humanitarian assistance-Banner aufhängen. Also ja, da kann man sich dann sehr um Details streiten, aber auch da
+
+00:27:50.000 --> 00:27:58.000
+ gilt es, dass Organisationen darauf achten müssen, dass sie eben unabhängig agieren und auch einen
+
+00:27:58.000 --> 00:28:05.000
+ unabhängigen Eindruck machen. Das letzte, das ich hier vorstelle, Rechenschaftspflicht gegenüber
+
+00:28:05.000 --> 00:28:12.000
+ Betroffenen. Da muss man sich einfach die Frage stellen, für wen tue ich das eigentlich mit oder
+
+00:28:12.000 --> 00:28:20.000
+ wem stelle ich das da. Alle humanitären Akteure sind in erster Linie denen von einer Krise betroffene
+
+00:28:20.000 --> 00:28:25.000
+ Menschen gegenüber zur Rechenschaft verpflichtet. Die Betroffenen sollen in alle Schritte der humanitären
+
+00:28:25.000 --> 00:28:31.000
+ Hilfeplanung mit eingebunden werden. Es muss eine offene und klare Kommunikation geben, Feedback und
+
+00:28:31.000 --> 00:28:38.000
+ Beschwerdemechanismen müssen eingerichtet werden. Das Bild, was ich dazu mitgebracht habe, das ist aus
+
+00:28:38.000 --> 00:28:46.000
+ dem Jahr 2019 auch wiederum aus dem Angriff von der Türkei auf Nord-Ostsyrien. Da haben wir, und das
+
+00:28:46.000 --> 00:28:51.000
+ haben wir auch in anderen Kontexten, aber auch da haben wir dann viel mit dem kurdischen Roten Halbmund
+
+00:28:51.000 --> 00:29:00.000
+ vor Ort zusammengearbeitet und haben da Ambulanzen gestellt, die sie dann betrieben haben. Also das ist
+
+00:29:00.000 --> 00:29:06.000
+ eine der Wege, die KADUS versucht, diese Rechenschaftspflicht, dieses Prinzip sich daran zu
+
+00:29:06.000 --> 00:29:13.000
+ halten, indem wir sehr viel vor Ort immer kooperieren mit den Menschen. Das klappt natürlich nicht immer.
+
+00:29:13.000 --> 00:29:18.000
+ Also im Fall von Mosul, wenn wir Leute notdürftig zusammenflicken, die gerade dem IS entkommen sind,
+
+00:29:18.000 --> 00:29:23.000
+ dann ist das ein bisschen schwierig mit der Kooperation. Aber überall wo es geht, versuchen wir das
+
+00:29:23.000 --> 00:29:30.000
+ und wir versuchen da auch wirklich langfristig Partnerschaften aufzubauen. Und auch in der Ukraine ist das
+
+00:29:30.000 --> 00:29:36.000
+ natürlich so, dass wir da mit den lokalen Emergency Medical Services zusammenarbeiten und das mit denen
+
+00:29:36.000 --> 00:29:43.000
+ eng koordinieren, wo wir denn am besten eingesetzt werden. Kooperation ist das eine, das andere ist die
+
+00:29:43.000 --> 00:29:49.000
+ Öffentlichkeitsarbeit. Da ist es wichtig, sich immer mal zu fragen, ok, welches Publikum stelle ich mir
+
+00:29:49.000 --> 00:29:54.000
+ da eigentlich gerade vor? Mit wem spreche ich hier eigentlich, wenn ich Öffentlichkeitsarbeit mache?
+
+00:29:54.000 --> 00:29:59.000
+ Denke ich da an meine Social Media Follower und möchte möglichst viele Likes bekommen oder stelle ich mir
+
+00:29:59.000 --> 00:30:05.000
+ vielleicht mal die Frage, wie möchten die Betroffenen, die ich versuche in Notsituationen zu unterstützen,
+
+00:30:05.000 --> 00:30:11.000
+ wie möchten die eigentlich dargestellt werden? Das ist sehr wichtig. Man kann da auch nicht immer direkt
+
+00:30:11.000 --> 00:30:18.000
+ nachfragen. Das gibt die Situation manchmal nicht her, aber man sollte sich zumindest immer wieder
+
+00:30:18.000 --> 00:30:25.000
+ selber die Frage stellen, wem gegenüber lege ich dann eigentlich Rechenschaft ab? Und natürlich muss man,
+
+00:30:25.000 --> 00:30:32.000
+ wenn man Gelder annimmt von Geldgebern, auch immer sich an deren Vorgaben halten. In gewisser Weise muss
+
+00:30:32.000 --> 00:30:38.000
+ die Abrechnung stimmen, aber man darf sich halt nicht durch die Geldgeber dahingehend beeinflussen lassen,
+
+00:30:38.000 --> 00:30:44.000
+ dass man vielleicht an tatsächlichen Bedarfen vor Ort vorbei arbeitet, nur weil es dann in den Medien
+
+00:30:44.000 --> 00:30:50.000
+ eventuell besser aussieht oder weil der Geldgeber dann eben mehr happy ist.
+
+00:30:50.000 --> 00:30:59.000
+ Ja, damit bin ich dann auch schon beim Fazit. Nochmal ein paar Punkte zusammengefasst, was ich so wichtig finde
+
+00:30:59.000 --> 00:31:05.000
+ an den Humanitärenprinzipien. Die schützen sowohl die von Krisen Betroffenen als auch die Helfenden.
+
+00:31:05.000 --> 00:31:12.000
+ Sie können eine Navigationshilfe sein im komplexen Feld der Emergency Response. Sie bieten eine wertvolle
+
+00:31:12.000 --> 00:31:18.000
+ Basis für die Verteidigung von Menschenrechten und ein respektvolles Miteinander. Und humanitäre Akteure
+
+00:31:18.000 --> 00:31:25.000
+ können die nutzen, um rote Linien zu ziehen und diese zu verteidigen, also sich nicht vereinnahmen zu lassen
+
+00:31:25.000 --> 00:31:33.000
+ für die Ziele anderer. Ja, und das war es auch schon mit meinem Vortrag. Wir sind hier beim Camp,
+
+00:31:33.000 --> 00:31:38.000
+ Besuchkard ist gerne da vorne und kommt ins Gespräch, aber ihr könnt jetzt hier natürlich auch noch
+
+00:31:38.000 --> 00:31:42.000
+ Fragen stellen. Vielen Dank für eure Aufmerksamkeit.
+
+00:31:42.000 --> 00:31:57.000
+ Herzlichen Dank für den Talk. Jetzt haben wir noch 10 Minuten für Fragen oder 15 Minuten sogar.
+
+00:31:57.000 --> 00:32:02.000
+ Ich sehe da schon zwei. Bitte wirklich Fragen für längere Gespräche und so habt ihr gehört, wo ihr
+
+00:32:02.000 --> 00:32:09.000
+ Kadus findet. Ich würde jetzt das Mikro rumgeben, es sei denn vom, wir haben noch einen, okay, wir sind
+
+00:32:09.000 --> 00:32:17.000
+ sogar zu zweit. Das Mikro kommt zu euch hier einmal. Genau. Cool, danke. Wenn ihr lokale Hilfskräfte
+
+00:32:17.000 --> 00:32:23.000
+ einsetzt, also längerfristig, bezahlt ihr ihnen Gehalt? Kriegen die Geld von euch?
+
+00:32:23.000 --> 00:32:31.000
+ In der Regel ja. Vor allen Dingen, das machen wir eigentlich erst bei längerfristigen Einsätzen
+
+00:32:31.000 --> 00:32:37.000
+ und die Vereinsätze finden dann meistens in Regionen statt, wo die Menschen sich das nicht leisten
+
+00:32:37.000 --> 00:32:43.000
+ können, ehrenamtlich mal eben Urlaub zu nehmen und dann drei Wochen im Einsatz zu arbeiten, sondern
+
+00:32:43.000 --> 00:32:51.000
+ die werden in der Regel bezahlt. Du hattest im Vortrag erwähnt, dass Rettungswagen beschossen werden,
+
+00:32:51.000 --> 00:32:58.000
+ wenn sie irgendwie mit dem ukrainischen Militär in Verbindung gebracht werden. Ist das in irgendeiner
+
+00:32:58.000 --> 00:33:04.000
+ Art und Weise in den Kriegs- und Krisengebieten, in denen ihr unterwegs seid, überhaupt noch so, dass
+
+00:33:04.000 --> 00:33:11.000
+ die Sanitätskräfte der Parteien, die ja eigentlich auch nicht beschossen werden dürften, so wie zivile
+
+00:33:11.000 --> 00:33:17.000
+ Hilfsorganisationen, dass da noch Rücksicht drauf genommen wird oder ist das jetzt so eine Brutalität des
+
+00:33:17.000 --> 00:33:26.000
+ Ukraine-Krieges, dass selbst Sanitäter beschossen werden? Also genaue Zahlen habe ich dazu nicht, aber
+
+00:33:26.000 --> 00:33:32.000
+ wie bereits vorher erwähnt, wir wissen halt nicht, wie oft nicht geschossen wurde. Also es werden ja
+
+00:33:32.000 --> 00:33:40.000
+ nicht alle Ambulanzen beschossen. Es gibt da Fälle, die die UN auch monitort, wo das vorgekommen ist.
+
+00:33:40.000 --> 00:33:49.000
+ Allerdings wissen wir einfach nicht, wie oft so ein Spotter, der halt schaut, was beschieße ich, sich
+
+00:33:49.000 --> 00:33:54.000
+ dann dagegen entscheidet. Also das sind ja, das sind halt auch zwei verschiedene Sachen. Das ist ja einerseits
+
+00:33:54.000 --> 00:33:59.000
+ die Frage, was für eine Strategie fährt an Kriegspartei, andererseits auch die individuellen
+
+00:33:59.000 --> 00:34:04.000
+ Entscheidungen. Aber lässt sich letztendlich einfach auch nicht genau beantworten.
+
+00:34:04.000 --> 00:34:08.000
+ Gibt es weitere Fragen?
+
+00:34:08.000 --> 00:34:17.000
+ Zum Thema Rechenschaftsbericht, magst du dafür nochmal sagen, was das so konkret bedeutet, gerade
+
+00:34:17.000 --> 00:34:24.000
+ also jetzt vor Ort für die Leute? Also was kriegen die da oder wie kann ich mir das so vorstellen?
+
+00:34:24.000 --> 00:34:33.000
+ Also die Accountability oder Rechenschaftspflicht vor Ort, also eine Methode, eine ganz einfache
+
+00:34:33.000 --> 00:34:40.000
+ Methode ist, sich immer, wenn man zum Beispiel ein Krankenhaus aufbaut, an einer Versorgungsstation,
+
+00:34:40.000 --> 00:34:46.000
+ sich ein Feedback-Mechanismus auszudenken, mit dem Patienten rückmelden können, wenn irgendwas nicht
+
+00:34:46.000 --> 00:34:50.000
+ stimmt oder irgendwas nicht gut war, das geht am einfachsten oder wird auch regulär gemacht mit
+
+00:34:50.000 --> 00:34:57.000
+ Ausstellung eines Briefkastens und dann gibt es vom Blätter, die Leute ausfüllen können, meistens
+
+00:34:57.000 --> 00:35:01.000
+ auch so mit Piktogramm-Erklärungen, was, wofür ist dieser Briefkasten, was könnt ihr damit machen.
+
+00:35:01.000 --> 00:35:08.000
+ Das ist natürlich, das ist immer so ein bisschen so eine Halbgut-Konfirmung, weil Menschen nicht immer
+
+00:35:08.000 --> 00:35:14.000
+ schreiben können, nicht immer lesen können. Ja, das ist manchmal noch ein ziemlicher Schwachpunkt,
+
+00:35:14.000 --> 00:35:20.000
+ also das funktioniert wesentlich besser, wenn man länger in Gebieten ist, zum Beispiel waren wir
+
+00:35:20.000 --> 00:35:26.000
+ seit 2019 in Alhul und haben es da jetzt gerade erst zurückgezogen und an eine neu gegründete
+
+00:35:26.000 --> 00:35:32.000
+ lokale Organisation übergeben, aber da waren wir ja sehr lange und da haben wir dann auch ganze
+
+00:35:32.000 --> 00:35:39.000
+ Evaluationsmeetings gemacht, wo dann Mitarbeitende aus dem Camp und auch ein paar Patientinnen
+
+00:35:39.000 --> 00:35:45.000
+ eingeladen wurden wirklich zu so einer Fokusrunde und dann nochmal besprochen wurde, wie wirkt das auf
+
+00:35:45.000 --> 00:35:51.000
+ die Menschen hier, was wir hier machen, wo kann man noch verbessern und so, aber das geht natürlich nur,
+
+00:35:51.000 --> 00:35:56.000
+ wenn man ein bisschen langfristiger vor Ort ist und es ist auch letztendlich nicht das, was KADUS
+
+00:35:56.000 --> 00:36:03.000
+ regulär macht, also wir sind letztendlich schon eine Nothilfe-Organisation, die kurzfristig helfen will
+
+00:36:03.000 --> 00:36:09.000
+ und sich auch schnell wieder zurückziehen will. Das mit dem Zurückziehen geht natürlich immer wieder schief,
+
+00:36:09.000 --> 00:36:13.000
+ wenn diese Krisen wahnsinnig lange dauern, wie das jetzt sich auch im Ukrainekrieg wieder abzeichnet.
+
+00:36:13.000 --> 00:36:25.000
+ Du meintest ja gerade, dass diese Prinzipien auch als rote Linie fungieren und ich wollte fragen,
+
+00:36:25.000 --> 00:36:30.000
+ wie das aussieht bei Investoren, ob das häufig hilft zu sagen, ne, das sind unsere Prinzipien,
+
+00:36:30.000 --> 00:36:34.000
+ das funktioniert nicht, wir können diese Sache, die sie von uns erwarten, nicht tun. Gibt es da Probleme,
+
+00:36:34.000 --> 00:36:40.000
+ wo ihr aufhören musstet zu arbeiten, dass ihr sagen konntet, ne, ihr konntet das nicht machen und schützt,
+
+00:36:40.000 --> 00:36:43.000
+ habt ihr das Gefühl, dass es gegenüber den Investoren auch euch wirklich schützt?
+
+00:36:43.000 --> 00:36:52.000
+ Ja, es gab auch schon mal Projekte, die letztendlich nicht zustande gekommen sind.
+
+00:36:52.000 --> 00:37:00.000
+ Fände ich gerade ein bisschen schwer, da ein Beispiel zu kommen. Aber wir haben zum Beispiel,
+
+00:37:00.000 --> 00:37:07.000
+ einige unserer Einsätze werden von dem Auswärtigen Amt gefördert und es ist eigentlich eine Vorgabe,
+
+00:37:07.000 --> 00:37:15.000
+ dass man das dann auch immer öffentlich macht und das auch zeigt. Zum Beispiel hatte ich mich da ein bisschen
+
+00:37:15.000 --> 00:37:22.000
+ gestritten auf Lesbos, ob wir jetzt German Humanitarian Assistance aufhängen oder Cardus oder beides oder nichts.
+
+00:37:22.000 --> 00:37:31.000
+ Im Nordostsyrien haben wir mit dem Auswärtigen Amt dann vereinbart, dass wir das eben nicht publik machen,
+
+00:37:31.000 --> 00:37:37.000
+ wer wir sind, wen was wir machen und auch nichts mit German Humanitarian Assistance, einfach,
+
+00:37:37.000 --> 00:37:44.000
+ weil wir die Menschen vor Ort schützen müssen, weil auch die Menschen vor Ort, die dann in so Kontexten arbeiten,
+
+00:37:44.000 --> 00:37:50.000
+ das ist wirklich für die Lebenswichtig, dass die nach außen neutral erscheinen, dass sie nicht mit einer
+
+00:37:50.000 --> 00:37:58.000
+ europäischen Organisation assoziiert werden. Also in dem Fall konnten wir dann auch das verhandeln
+
+00:37:58.000 --> 00:38:08.000
+ und uns darauf einigen. Meistens geht das eigentlich ganz gut. Organisationen, Institutionen, die in dem Bereich
+
+00:38:08.000 --> 00:38:15.000
+ Felder geben, die kennen das ja. Also meistens ist es eher umgekehrt, dass wenn du nicht zeigen kannst,
+
+00:38:15.000 --> 00:38:20.000
+ dass du dich an diese Prinzipien hältst als Organisation, also einfach aufgrund der Historie,
+
+00:38:20.000 --> 00:38:25.000
+ was man schon gemacht hat, was man für einen eigenen Code of Condit hat, dass das dann eher schwierig wird,
+
+00:38:25.000 --> 00:38:27.000
+ Aufträge zu bekommen.
+
+00:38:27.000 --> 00:38:30.000
+ Gibt es weitere Fragen?
+
+00:38:30.000 --> 00:38:34.000
+ Ach, hinten gab es noch.
+
+00:38:34.000 --> 00:38:36.000
+ Galegik?
+
+00:38:37.000 --> 00:38:39.000
+ Also noch ist ein bisschen Zeit.
+
+00:38:39.000 --> 00:38:46.000
+ Wenn ihr euch entscheidet, zumindest die ausländischen Leute zu evakuieren, ist das so, ja, wir gucken mal,
+
+00:38:46.000 --> 00:38:50.000
+ wir entscheiden uns und dann gucken wir, ob wir einen Fluch kriegen oder habt ihr da so ein Protokoll,
+
+00:38:50.000 --> 00:38:52.000
+ so okay, dass wir das aktivieren und dann taktaktaktak?
+
+00:38:52.000 --> 00:38:59.000
+ Das geht mit Protokoll und Prozess und da muss man auch schon, vor allen Dingen wenn man in wirklich
+
+00:38:59.000 --> 00:39:06.000
+ dolle Krisengebiete geht, das muss man sich auch weit vorher überlegen, wie man das macht, da muss man
+
+00:39:06.000 --> 00:39:10.000
+ vorher eigentlich schon alles klar haben, bevor es passiert.
+
+00:39:10.000 --> 00:39:16.000
+ Noch einmal Zeit. Hat noch jemand eine Frage?
+
+00:39:16.000 --> 00:39:23.000
+ Ihr könnt auch nachher einfach noch zum Quatschen vorbeikommen.
+
+00:39:23.000 --> 00:39:25.000
+ Da ist noch jemand?
+
+00:39:25.000 --> 00:39:26.000
+ Ja, da ist noch.
+
+00:39:27.000 --> 00:39:32.000
+ Dann? Ah, doch jetzt. Ja, eine sehr persönliche Frage.
+
+00:39:32.000 --> 00:39:39.000
+ Wie viele Verletzte habt ihr selber auf eurer Seite zu verzeichnen und wie gefährlich war das in den
+
+00:39:39.000 --> 00:39:43.000
+ letzten Jahren für eure persönliche Ebene?
+
+00:39:43.000 --> 00:39:53.000
+ Also so ganz direkt im Einsatz mit im Krankenwagen irgendwo hin unterwegs und dann beschossen worden,
+
+00:39:53.000 --> 00:40:00.000
+ null tatsächlich. Ich meine es natürlich passiert auch immer mal wieder was in Einsätzen, was zuhause
+
+00:40:00.000 --> 00:40:07.000
+ passiert, aber also Kados ist da glücklicherweise immer gut durchgekommen bisher.
+
+00:40:07.000 --> 00:40:15.000
+ Das ist gut zu wissen. Genau, da ist noch eine, ja, sag noch ruhig.
+
+00:40:15.000 --> 00:40:21.000
+ Wie sieht es bei euch aus? Es ist ja ein Job, der auch sehr stark mentale Schwierigkeiten haben kann,
+
+00:40:21.000 --> 00:40:25.000
+ im Sinne von, dass es belastbar ist. Ich wollte wissen, wie sieht es vielleicht bei euch intern aus?
+
+00:40:25.000 --> 00:40:30.000
+ Wie geht ihr damit um? Habt ihr so Workshops oder auch so Sachen, wo ihr miteinander darüber spricht?
+
+00:40:30.000 --> 00:40:33.000
+ Ich weiß ja, dass sie die Prinzipien da auch helfen sollen.
+
+00:40:33.000 --> 00:40:40.000
+ Ja, auch dafür haben wir Strukturen aufgestellt, dass es gibt erstmal eine Vorbereitung für jeden
+
+00:40:40.000 --> 00:40:45.000
+ Einsatz, in dem schon auf mögliche psychische Belastungen hingewiesen wird und es gibt natürlich
+
+00:40:45.000 --> 00:40:50.000
+ dann auch eine psychosoziale Nachbetreuung für alle und wenn Leute darüber hinaus noch mehr
+
+00:40:50.000 --> 00:40:59.000
+ Support brauchen über dieses Debriefing danach, dann wird sich da auf jeden Fall auch drum gekümmert.
+
+00:40:59.000 --> 00:41:03.000
+ Das ist ganz klar, also das gehört essentiell mit dazu.
+
+00:41:03.000 --> 00:41:16.000
+ Wir haben noch Zeit. Hab ich so schnell geredet. Ja, du warst voll gut in der Zeit. Genau fünftlich.
+
+00:41:19.000 --> 00:41:28.000
+ Gut, wenn aber alle drei, zwei, noch jemand? Wir können einfach jetzt Schluss machen, würde ich sagen.
+
+00:41:28.000 --> 00:41:34.000
+ Herzlichen Dank, Corinna, für den Talk. Wenn ihr Fragen habt, geht zu Kados. Ciao.
+
+00:41:34.000 --> 00:41:35.000
+ Ciao.
+
+00:41:35.000 --> 00:41:40.000
+ [Musik]
+

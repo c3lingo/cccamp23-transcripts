@@ -1,0 +1,317 @@
+ [MUSIC]
+ [MUSIC]
+ Okay, I think we are ready and on our way to dive into the very exciting world of
+ industrial coffee makers and without further ado I give the stage to you guys.
+ Well then, welcome to our talk "Unexpected Coffee,
+ Adivin to Industrial Coffee Machines". I'm Hethi, I'm doing offensive security at daytime
+ and at night time I'm doing industrial coffee machine hacking and other fun projects.
+ And that's Datacop. Hi, I'm Clemens or Datacop or Data for short.
+ And I'm mainly, I'm an electrical engineer but mainly doing networks and embedded Linux systems and
+ yeah. And that's the car. But if that's fine with you, we will just go on. So first things first,
+ what's a coffee machine or what's an espresso machine? We have coffee beans, we ground the
+ beans and then we add basically just hot water under pressure and then we have good coffee if
+ we did it right. And then what's a vending machine? And there are different types of vending machines.
+ There are basically two base types and one is there are those instant beverage machines
+ where you just get a cup and you press a button and you get something that was
+ made from water more or less. But typically it's just powder. And there are the other vending
+ machines like stuff in boxes or vending machines for bottles and so on. We won't go into this detail
+ but that's for the first part and what we actually have here. And then what's an espresso vending
+ machine? And that's more or less a hybrid of an espresso machine and a typical powder-based
+ vending machine. And that means we have the best and the worst of both worlds actually.
+ We have not really a perfect coffee brewery and then we also have those powder things and not
+ really milk or anything. But they exist and they're quite huge usually and they allow special
+ combinations like latte macchiato which I will go in a bit in a detail on how this is made actually
+ here in a few slides. And then basic stuff in this machine we have coffee and we have toppings.
+ For the coffee we have a brewer that will be on the next slide also and we will open the machine
+ later too. And that one is designed for more or less a specific high throughput especially for office
+ like 300 coffees per day. And also for low maintenance. So these machines typically
+ don't need daily maintenance like big espresso machines but those are more or less I think you
+ should clean them once a week but that's just a quick cleaning cycle and then the large cleaning
+ cycle if I can remember it correctly it's done more or less once per month and typically not
+ by the company where this machine is standing but by a separate company that's also supplying
+ the coffee and all the ingredients. Those machines typically have fixed water installations that's
+ why we have a pump here and an external water tank and luckily this machine in the manual has
+ a note that says if you don't have fixed water by the way the water input valve has a rating so you
+ can hook up a pump there with 24 volts and 1.5 amps max which was quite nice for the camp. Or you can
+ also buy an add-on for it there is also add-on with a big tank and you can buy it from the vendor too.
+ There are also different add-ons you can like put on the side and so on so it's like buying a car
+ more or less you can have all kinds of customizations and then yeah we have fixed water,
+ we have coffee beans and milk. It's usually just supplied as milk powder and those are toppings.
+ So there are different types there are also vegan types and we this machine currently is
+ filled completely with vegan toppings and to actually mix the powder with the hot water
+ we have or inside there are some mixer wheels more or less so you can see here on the left
+ or not really well but we will see later in the machine on the left there is the coffee brewer
+ more or less. Please don't break any stuff. In the middle we have more or less the closed mixer so
+ from the top the toppings will drop in and will be mixed inside of this bowl with water and on
+ the right there is basically a second one but that's just a mixer wheel so that's the opened mixer
+ and that mixer makes the mixture creamy and mixes the water with the topping so you don't have
+ crumbs in it and you can also run the motor at different speeds for example for the latte macchiato
+ I mentioned earlier latte macchiato typically is or for these machines is milk in the middle it's
+ coffee and then it's milk again and the machine actually makes this differently it does two
+ pieces of milk and then the coffee on top and this works because the milk is mixed at different
+ speeds of the mixer so they have different physical properties so that the coffee will actually
+ be in a layer between the two milk layers although the milk powder is exactly the same.
+ So that's quite interesting it's how those vendors come up with quite a few hacks on how to do
+ premium coffee things and so on.
+ And this is the whole machine how it was also set up at Lavendville inside of the camp area
+ in the MetaLab dome and it will be later set up again there so if you want a coffee or
+ some cocoa feel free to go there and use the machine and but you can see here you
+ or we have three of those white containers where the powder toppings are inside there and those
+ have a motor that will basically put in the powder into the mixer bowls.
+ And about this machine this is the company is called Rea Vendors it's a quite large company
+ and it seems to be initially located in Italy and the machine itself is called La Rea Grande Ti
+ and then some we don't know what they what the rest actually means but
+ there are different types of this machine. Last year at MetaLab we got a mail from somebody who
+ said that they have at their office this machine and it's broken since a year and they want to get
+ rid of it and if we would be interested in repairing it or doing some other stuff with it
+ they didn't want to just throw it away but to maybe give it to people who repurpose it or repair it.
+ And we both saw the mail and wrote to each other like a coffee machine and in the worst case we
+ can always build a coffee pot out of it a cocktail pot yeah for the Robo Exotica
+ and the initial error was that the brewer motor failed initializing and for the brewer motor is
+ if we go to back to the picture if you have the brewer on the left you see that there is a piston
+ inside and this piston is moved or the whole brewing chamber is moved for like 15 to 20 centimeters
+ for the whole mechanism to work.
+ So just before repairing it it was standing around the MetaLab or hex space for like three
+ or four months and it annoyed quite some members because we don't have so much space
+ but in the end we were motivated to take our time and repair it and so we're going to show
+ you now the repair process how we debugged it and how we managed to repair it.
+ Okay so the company or the people we got it from already said that they think it is probably a
+ MOSFET power driver problem for the motor and so we were debugging a bit of the electronics and
+ that's the board on the back of the machine so there are several boards we will go into the
+ different boards in the slides too in a bit but there is one main board and that's in the back
+ and there is all the power electronics there and all the motors are connected to this and there
+ were two or the first you on the right the bigger MOSFETs we suspected at first so
+ that was all the information we got from the people that they assumed that they are broken
+ yeah but they they tried to order them the electronics and it's actually this data sheet
+ there are some automotive MOSFETs and that's a bit interesting most of the electronics is actually
+ automotive grade we don't know why but well endurance and yeah coffee coffee is critical
+ infrastructure so that was our first try and they tried to order them but they are not complying
+ with the arrow hs directive of the eu so they are not lead free so you can't get them at mauser or
+ any other electronics company anymore but aliexpress for the win yeah that was really like
+ five seconds of search and we found a bunch of them it turned out those MOSFETs weren't the
+ problem so we swapped them they're actually new inside there now but those were not the actual
+ problem so we further debugged the motor itself there is a pcb on side of on top of the motor
+ and a magnetic wheel so when the motor turns there is a turn signal or there is a tachometer signal
+ back to the main pcb that tells the
+ microcontroller how far it has moved and also with current sensing basically the microcontroller
+ can sense how much pressure the motor is currently applying to the whole brewing unit and we thought
+ maybe this these sensors are actually at fault so we took a large oscilloscope for no reason and
+ a power supply but those were actually working quite nice and then since the machine needs water
+ we need to go to the kitchen we had to set up the whole thing in the in the kitchen yes
+ including the oscilloscope and annoyed more people
+ um so what we actually did there is we did a bit of tracing of on the pcb
+ where the motor lines are actually or the motor connections are actually going to and it turned
+ out they are they are split from for high and low sides into two chips and one of those chips
+ yeah so on the left you can see there is this larger chip right next to the blue capacitor
+ and there are two chips right below it and it's quite interesting those are for completely
+ different motors and i or we think they did it this way because the upper chip does very well
+ power sensing so you can get an analog value out of the chip for each output how much
+ what's basically are going out to the motor and the lower chips are the lower side of the
+ of the motor controller that basically just
+ yeah control the negative side of the depending on how you turn the motor and those are can
+ actually also do current sensing and they're not just standard mosfets they have some kind
+ of electronics inside of there so you can you can break them a bit more difficult and also on the
+ input pin you can actually do power sensing so if you supply a logic value to the input pin to actually
+ to switch through the mosfet or to switch the mosfet and it's and the mosfet goes into power
+ limiting it will try to lower the voltage on its input pin depending on how much overcurrent it
+ is currently having so this was not implemented on the board but those are quite interested
+ quite interesting features of those mosfets so and also again aliexpress and then after after
+ clements clements did the soldering we started to pray for the first boot again and yeah we had our
+ first success we had got the first coffee out of the machine but um
+ it was cafe schwarz and it was really black and we didn't want to risk a subscription for the toilet
+ because the machine wasn't clean for like one or two years so we started the cleaning process
+ so we cleaned the whole machine and we brought you some pictures of the cleaning process
+ and it was quite dirty and after that the machine was like like new and the good thing is the
+ the company that produced the machines offers
+ the machine that produced the machine offers a really good manual how to disassemble the parts
+ and everything so it was quite easy to disassemble it and assemble it again and yes we had a clean
+ machine and as next we're going to show you some more parts of the electronics
+ okay um
+ thanks okay so um there are actually three bigger pcbs inside one is the one we showed before that's
+ the main pcb in the back that basically has most of the power stuff and then in the front we have
+ a touch display and that one was really interesting when we opened the machine the first time because
+ we saw that that's an arm imx6 processor so it's running pretty we were pretty sure it's running
+ linux and also there is an sd card inside and it has some usb and a gigabit ethernet port that's
+ everything of this is not used so you can use the usb port to program the machine
+ but this also seems to be added later or it was added later and the second or the third pcb is
+ a real power pcb because there is no no typical boiler inside of this machine
+ it has an induction boiler so it can basically vary
+ it can basically change the temperature of the water on the fly so if when it's currently running
+ it's not heating the water if you press a button on or if you want a beverage it's basically
+ heating the water on the fly and not taking too much energy and also it's quite interesting
+ you can program different water temperatures for the different outlets and depending when they are
+ switched over the valves you can get a mixture of different water temperatures which is i think
+ quite unique for this machine and also for repairing or for for taking it apart those machines are
+ typically really big so there is a lot of space inside you can more or less take the whole machine
+ apart you can replace everything you can you can really maintain the machine quite well so
+ compared to those cheap plastic machines also that are sometimes on on smaller offices
+ these machines can basically live forever if you have enough supply of a few things that might
+ break like the valves or so on but they're all standard valves well then let's check out the
+ software hardware setup so as said glans already said we have two components there there is like
+ this there is a cpu inside it's like a mic controller 16-bit industrial or coffee processing unit
+ and there is a gpu it's a imx6 arm linux board and on this linux system there is a qt binary running
+ with displaying the rear gui on the display the rear gui is a html javascript based web application
+ and you can run it in your browser actually it doesn't make coffee but it says it does and there
+ is a rear boot exe file so you have an exe file you have an arm cpu and if linux running what
+ um let's solve the mystery it's a dot net binary for flashing configuration files and extracting
+ configurations and it's run with mono on the linux arm processor well it works it it works
+ and uh when you and you put in a flash drive with a specific folder structure it boots this
+ this uh this tool to to to put the config on it or to get the config and i must say i still
+ understand how the boot procedure still works because you have the qt binary and the and the
+ config binary and i'm still not sure how they know when to start what i tried to find it didn't
+ manage to find it in the system so um you have also a windows tool to program it it it looks like
+ this it's uh let's say last century more or less the the red picture down there is also animated
+ also quite nice i'm sure that was a feature request and but i must say even though the ux is quite
+ questionable it is super powerful comfortable configuration like this you can really make a
+ power saving menus you can make happy hours you have a really a lot of configuration options for
+ the machine it's super nice but the interface is quite interesting let's say like that but let's
+ get on the program on the machine part so there is a programming menu in the machine itself a touch
+ screen it looks like this you see different buttons uh it doesn't look very um comfortable
+ to use and i will come back later to to this part why and what uh let's first also check out the web
+ app um if you press the manual online button it will actually display the pdf of the manual of
+ the machine from dsd card on the tft display and you can scroll through it it's quite nice but it's
+ also a bit annoying to scroll i think there are a few hundred pages um so there is this web app it's
+ html page and uh when you're on the menu you can choose the beverage in the end and there is like
+ a page menu html where the beverage is shown and if you choose a beverage you come to a page confirm
+ page and uh they have like the selector is still like the parameter what what coffee or cacao you
+ want and if you press the confirmation one it goes to another html page and uh when you confirm it
+ there is this qt binary as far as i understand understand the process it will check the url with
+ the parameter and will know what coffee or beverage it will make and when it's done it will change the
+ url again in the binary that you come to the done page and will switch back to the menu so so the
+ api between the web page and the uh the qt binary is actually the url parameters so the the qt
+ binary manage the whole whole html in the back in the end and uh shows it there let's show you some
+ excerpt from the javascript files that found so that's how you how you how it's implemented on
+ the javascript the whole thing are like arrays in javascript and they have a name and a picture path
+ and you can change the names you can change the pictures and it's also quite interesting one
+ even more interesting is the the javascript for the prices
+ like every array part is one of the beverage with the price in cents
+ but i'm not even sure if the machine knows what currency it's running on so seems so that there
+ is no currency logic behind it but i was digging in the binary the really interesting thing is when
+ starting it up it's actually uh it updates those files the binary updates those files but i will
+ show you know what so i was digging at qt binary with githra and i found this function in there
+ it's called generate javascript price and availability and uh let's see what this means
+ so there is code that generates the javascript down there from the binary from from text more
+ or less yeah from sex so the binary generates the javascript file in the end because the config is
+ on the machine and not on the html files and javascript files um so next uh we also check
+ the communication between the machine and the front and more or less yeah so between the linux
+ system in the front and the the 16 bit uh processor in the back uh there is a serial port and uh
+ we already saw in the linux system that it's opening the tty on the imx um board more or less
+ and then just found s trace in the system and we're like okay easy task let's try this out
+ and found that um so you can see uh dark red and uh dark green lines here and one line per or they
+ um they just uh one is sent uh to the machine or to the controller one comes from the machine the
+ red line comes from the controller in the back in the back and the green line is sent to the
+ controller from the front linux system and it's roughly every second and if you don't do anything
+ here um more or less the binary command that's or the binary message that's sent from the linux
+ system is more or less always the same um the the red messages are interesting because uh in the
+ middle um there is this text that the machine displays in the lower half of the machines
+ or the display displays in the lower half of the machine um so um and it has a quite weird encoding
+ because uh if you see on the in the top here um there is uh in german for the uh for this trace
+ uh filled wasa off bitter vaten and between off between the two words off and bitter there is no
+ space there is no character no anything between there and that was quite weird for us um and also
+ um there was a weird break on the display too so there there was like a space between the two
+ words but it was not just a regular white space so more information about it it's a binary protocol
+ so the first part is always binary and the last part is always a binary code and also the commands
+ that are sent from the touch display to the back are some binary messages and those texts with a
+ missing space in the middle when debugging this or let's see uh let's look at it here um when
+ counting the characters uh we always found that the whole text is 32 characters long and the middle
+ part where there is no space is always 16 characters or add 16 characters and who did a bit more of
+ electronics probably already knows where the software comes from we like okay hmm and then
+ we realized in the end there is this corrector display shout out 20 for the photo box in the
+ binary kitchen tent and in the end the text is usually shown on such a corrector display
+ and they in the end only use this display to show the characters instead to implement a proper
+ software for it because the older machines only have these buttons and a corrector display in the
+ end so the buttons you saw on that on the touch display for the programming menu probably on a
+ previous version of this machine um the those were actually real buttons and the texts are sent for
+ those 16 uh characters uh by two lines so 32 characters displays you have in this in this
+ really old vending machines and um probably uh the whole back of the machine so thinks that it's some
+ kind of machine that has physical buttons and no touch display and for a block diagram so those
+ are the three um pcbs we have the the heater board we have the cpu and power board and the linux board
+ that's connected over serial and everything that is part of the machine even payment and some and
+ some kind of modem you can plug in is connected to the 16-bit controller so what is a bit frustrating
+ because we are hoping to do more hacking from the linux system but we have to deal with the 16 16
+ bit controller so it's super hard to you need to reverse engineer every option in the end to
+ implement the same binary protocol to configure the whole machine and work with it it's quite
+ tedious task in the end and then let's get to our lessons learned um always verify claims if someone
+ makes them because uh well sometimes they are not uh correct aliexpress sells you automotive ships
+ that you don't get in europe or in austria especially the only problem in austria is we
+ have real luck because in austria is a new law that you can't get easy stuff anymore because of
+ some packaging directive and we are really lucky because it was from the first of january 2023
+ in charge and we ordered it like in december and got it before that really lucky for us i think
+ we actually got it in january or in january but still delivered but currently aliexpress doesn't
+ deliver to austria or not a lot most of aliexpress sellers um as you see industrial equipment is state
+ of the art legacy it's it's really it was a little bit heartbreaking for us to see the reality that
+ we deal with and one interesting thing is also the windows configuration software is not publicly
+ available and we currently doesn't have the latest version and we can't use it for the coffee machine
+ configuration currently so this machine is built in 2017 um so quite new actually um i think those
+ those machine types were introduced around 2015 or 16 and the screenshot you showed from we showed
+ from the windows tool i think was one year before this machine appeared and if you look very long
+ in the internet and we spent several hours looking for stuff for on these machines you can find it on
+ some shady download grabbers grabber portals or whatever but we still haven't found a version
+ where we can actually program this machine it's possible to program it over the the touch display
+ but uh yeah you can take hours just for a single beverage so there's also some possible future work
+ in this regards so there's also more possibilities for software analysis analysis we would like to
+ obtain the programming software so if someone has something lying around you'll be happy to talk
+ with you or if you know somebody who knows somebody who works at a coffee vending company maybe
+ um i still want to understand how the boot procedure works because there are two different
+ binaries and i couldn't trace how they know if the flash drive is plugged in everything it's still a
+ ongoing um research for me so if you want to help out or interesting more for a machine
+ talk to us ping us um and we have two more interesting things so um there is rfc 2324 who
+ knows it who has read it okay quite a lot of people um so i was playing around since a few
+ years to actually implement it on a coffee machine and then this machine came around and i said hey
+ finally um a machine that could run it but it turns out it's a bit more difficult and actually
+ while working on the machine and um looking at the rfc uh the coffee pot control protocol is really
+ just more or less for coffee pots so classic coffee pots um espresso machines it's difficult
+ also this machine can do also can make tea with tea powder and i've heard there is a specific type
+ that it's not too bad um and also this one can actually also do a soup so there is soup powder
+ um we don't have anything we don't have tea we don't have soup uh but uh because typically
+ you have to take like 10 kilos of it and we don't want to risk to have 10 kilos of soup
+ for this machine lying around um and maybe a new rfc extension for the coffee pot control
+ protocol is needed for coffee pots and not tea pots for those machines too at least we have also
+ crème brûlée as a powder flavor yeah we have crème brûlée
+ it's quite tasty if you don't have too much powder in your in your coffee mug
+ yeah it's uh it was a bit difficult to find the right dosage
+ um well and there's of course the last question that everyone wants to know does it run doom
+ and well i can say it can let's check it out
+ uh
+ there is uh actually a safety um switch here so that you can't operate the machine
+ when it's turned on but you have to operate the machine when it's turned on to program it
+ so there is a anti-safety key here that is here in the machine for maintenance
+ and it's it actually switches completely switches off the power
+ and programming the machines there is a there is a button uh inside of here or actually two buttons
+ i'm not sure they do the same i'm not sure why uh they put in two buttons but i think uh this
+ plastic presses plastic presses on the first button and if you press it for a second then
+ it will go into the program mode i'm still waiting until our management wi-fi hotspot uh
+ turns on it's in the machine inside we added it so i can ssh into the machine
+ and uh so even though the the serial protocol is quite weird and the setup is quite weird
+ they i think they're actually quite nice machines um i think it's more the more of a management
+ issue of the project that it turned out like this um because you could do a lot more with those
+ electronics and um that's actually the board here is custom but there is a system on a board here
+ um that's uh from uh very side so that's a vendor that uh supplies you with um linux
+ arm linux boards where you can just run software and i think it's even running some kind
+ of debian uh they publish on the site probably on the website probably a few years ago um
+ you have an ethernet port here and there was no root password or anything um because yeah if
+ you have the machine open you can do whatever you like and the root fs is completely on the sd card
+ so um that's actually quite nice for swapping out the logos or trying out things uh you don't have
+ to flash anything um you want i guess you
+ so um it has a touch display so it had to be done or it has a display so it had to be done
+ we're running just a frame buffer doom although the machine itself is running x11
+ which is fine um and
+ we already in before we started to
+ to look into the serial protocol and the software we thought like we could actually integrate
+ those two parts that you can either switch between coffee mode and doom mode or actually
+ implement a few things in doom where the coffee you get depends on your doom points
+ and if you die just at the beginning you will just get hot water
+ but that's still to do i need to kill the x11 search
+ so a bit of um information on the machine itself all of those containers you can actually take out
+ so um that's more or less empty currently for example um you can just take this out
+ the motor plugs in into the rear here and operates the um the mechanism um for the uh powder and um
+ it should also fit again
+ ah yeah
+ all right our demo failed i'm very sorry
+ you can come to the village and we'll show it to you we're gonna fix it
+ okay
+ thank you very much for your presentation uh we are out of time but since uh you are so
+ maybe uh tell everyone where exactly uh can can they find you um we are um more or less at the
+ meta lab or lavendville village that's on the match is the village the village was the largest
+ or the longest name and it's the silver or white dome basically right next to chaos west i think
+ chaos west probably is known by everybody thank you very much yeah thank you

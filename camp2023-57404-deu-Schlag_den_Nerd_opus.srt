@@ -1,0 +1,2912 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:40,000
+ Herzlich willkommen. Hier hat sich ja schon eine ganz schöne Meute gesammelt, um hier heute Abend mit Dampfkatze ein lustiges Spiel zu spielen.
+
+3
+00:00:40,000 --> 00:00:44,000
+ Schlag den Nerd! Viel Spaß!
+
+4
+00:00:44,000 --> 00:00:51,000
+ [Applaus]
+
+5
+00:00:51,000 --> 00:01:00,000
+ Einen wunderschönen guten Abend.
+
+6
+00:01:00,000 --> 00:01:05,000
+ Lauter!
+
+7
+00:01:05,000 --> 00:01:13,000
+ Wir spielen heute an die Audiotechnik. Wir sind wohl noch zu leise.
+
+8
+00:01:13,000 --> 00:01:23,000
+ Wir spielen heute Schlag den Nerd aus dem Fernsehen, bekannt vielleicht als Schlag den Raab oder Schlag den Star.
+
+9
+00:01:23,000 --> 00:01:26,000
+ Heute mit etwas nerdigeren Spielen.
+
+10
+00:01:26,000 --> 00:01:33,000
+ Als erstes benötigen wir zwei Kandidaten.
+
+11
+00:01:33,000 --> 00:01:39,000
+ Wer aus dem Publikum wäre denn bereit, vor die Kamera zu treten?
+
+12
+00:01:39,000 --> 00:01:45,000
+ Der da unten, wo alle drauf zeigen, dann kommst du mal hoch.
+
+13
+00:01:45,000 --> 00:01:53,000
+ Wir spielen sehr vielfältige Spiele, die sowohl ein bisschen handwerkliches Geschick als auch Softwarekenntnis erfordern.
+
+14
+00:01:53,000 --> 00:01:55,000
+ Ich hoffe, da bist du der richtige Führer.
+
+15
+00:01:55,000 --> 00:01:57,000
+ Ja, das ist Spiel-Software.
+
+16
+00:01:57,000 --> 00:02:03,000
+ Und wer möchte noch? Wen möchten wir als zweiten Kandidaten? Du da unten.
+
+17
+00:02:03,000 --> 00:02:05,000
+ Sehr schön.
+
+18
+00:02:05,000 --> 00:02:09,000
+ Ihr habt hier auch eigene Mikrofone.
+
+19
+00:02:09,000 --> 00:02:11,000
+ Guten Tag.
+
+20
+00:02:11,000 --> 00:02:14,000
+ Dann dürft ihr euch mal kurz vorstellen.
+
+21
+00:02:14,000 --> 00:02:15,000
+ Fangen du mal an hier.
+
+22
+00:02:15,000 --> 00:02:20,000
+ Hi, ich bin Noah, bin 21 Jahre alt. Ich studiere Informatik, aber das heißt nichts.
+
+23
+00:02:20,000 --> 00:02:23,000
+ Lauter!
+
+24
+00:02:23,000 --> 00:02:30,000
+ Ich glaube, wir sind noch ein bisschen zu leise.
+
+25
+00:02:30,000 --> 00:02:32,000
+ Ja, dann stell du dich mal noch vor.
+
+26
+00:02:32,000 --> 00:02:38,000
+ Ich bin Steffen, ich bin Hardware-Bitler und Kandidat-Software.
+
+27
+00:02:38,000 --> 00:02:41,000
+ Ich glaube, lauter wird es nicht mehr.
+
+28
+00:02:41,000 --> 00:02:42,000
+ Oder?
+
+29
+00:02:42,000 --> 00:02:43,000
+ Wir sollten mal anders sprechen.
+
+30
+00:02:43,000 --> 00:02:49,000
+ Ja. Ich würde doch dann mal sagen, fangen wir direkt mit dem ersten Spiel an.
+
+31
+00:02:49,000 --> 00:02:53,000
+ Dieses Spiel trägt den wunderschönen Titel "Lötkolben".
+
+32
+00:02:53,000 --> 00:02:58,000
+ Und zwar für ein späteres Spiel brauchen wir zwei Lötkolben, ich habe aber keine gefunden.
+
+33
+00:02:58,000 --> 00:03:00,000
+ Deshalb müsst ihr euch selber welche organisieren.
+
+34
+00:03:00,000 --> 00:03:03,000
+ Hier ist ein Deck für jeden von euch.
+
+35
+00:03:03,000 --> 00:03:10,000
+ Wer zuerst einen Lötkolben an der Bühne organisiert hat, hat dieses Spiel gewonnen und bekommt den ersten Punkt.
+
+36
+00:03:10,000 --> 00:03:15,000
+ Also an die Deck. Fertig. Los telefonieren.
+
+37
+00:03:15,000 --> 00:03:23,000
+ Ihr dürft auch gerne an den PCs das Event-Phone-Phonebook aufmachen und euch dort Nummern raussuchen.
+
+38
+00:03:23,000 --> 00:03:28,000
+ Ich habe gehört, das Hardware-Hacking-Area hat zum Beispiel ganz viele Lötkolben, wenn ihr da anrufen wollt.
+
+39
+00:03:28,000 --> 00:03:34,000
+ Ach so, du hängst noch am Entsperren?
+
+40
+00:03:34,000 --> 00:03:36,000
+ Ja, okay, das geht so.
+
+41
+00:03:36,000 --> 00:03:37,000
+ Danke schön.
+
+42
+00:03:37,000 --> 00:03:40,000
+ Ja, das ist schwierig, ne?
+
+43
+00:03:40,000 --> 00:03:45,000
+ Wenn du das aufs Lautsprecher stellst und ans Mikrofon hältst, dann hören wir auch, was ihr so redet.
+
+44
+00:03:45,000 --> 00:03:50,000
+ Aber ich glaube, da tutelst du nur, ne?
+
+45
+00:03:50,000 --> 00:03:55,000
+ Oh Gott, hört sich das schrecklich an.
+
+46
+00:03:55,000 --> 00:04:01,000
+ Diese Ringbacktones gehören echt verboten, ne?
+
+47
+00:04:01,000 --> 00:04:08,000
+ Ich glaube, du musst mal bei jemand anderem noch versuchen.
+
+48
+00:04:08,000 --> 00:04:11,000
+ Wie schaut es bei dir aus? Da klingelt es auch nur, ne?
+
+49
+00:04:11,000 --> 00:04:13,000
+ Der Rufzeichen ist da, aber...
+
+50
+00:04:13,000 --> 00:04:15,000
+ Tja.
+
+51
+00:04:15,000 --> 00:04:18,000
+ Martin, komm auf.
+
+52
+00:04:18,000 --> 00:04:25,000
+ Du kannst es auch im Telefonbuch nachschauen, wenn du jemanden kennst, ne?
+
+53
+00:04:25,000 --> 00:04:29,000
+ Ach so, das Passwort ist Player2 kleingeschrieben.
+
+54
+00:04:29,000 --> 00:04:34,000
+ Bei dir Player1 kleingeschrieben.
+
+55
+00:04:34,000 --> 00:04:39,000
+ Du gehst einfach auf den Browser und machst guru3.eventphone.de.
+
+56
+00:04:39,000 --> 00:04:44,000
+ Da ist das Telefonbuch, da kannst du dir Leute raussuchen.
+
+57
+00:04:44,000 --> 00:04:48,000
+ Wie schaut es bei dir aus? Hast du schon die zweite Nummer?
+
+58
+00:04:48,000 --> 00:04:53,000
+ Ja, aber...
+
+59
+00:04:53,000 --> 00:04:57,000
+ guru3.eventphone.de
+
+60
+00:04:57,000 --> 00:05:04,000
+ Ja.
+
+61
+00:05:04,000 --> 00:05:11,000
+ Ach du rufst...du kennst gar niemanden, du rufst einfach random Nummern ran.
+
+62
+00:05:11,000 --> 00:05:16,000
+ Okay.
+
+63
+00:05:16,000 --> 00:05:24,000
+ Du kannst hier oben suchen, ne?
+
+64
+00:05:24,000 --> 00:05:34,000
+ Oh, er hat jemanden dran.
+
+65
+00:05:34,000 --> 00:05:39,000
+ Player2 hat schon jemand am Telefon.
+
+66
+00:05:39,000 --> 00:05:42,000
+ Oh, oh, oh, oh, oh, zählt das?
+
+67
+00:05:42,000 --> 00:05:53,000
+ Player1 hat einen Leutkolben, ohne jemanden angerufen zu haben.
+
+68
+00:05:53,000 --> 00:06:01,000
+ Ja, da müssen wir jetzt glaube ich das Publikum befragen, ob das jetzt zählt.
+
+69
+00:06:01,000 --> 00:06:06,000
+ Okay, Player2 hat auch einen.
+
+70
+00:06:06,000 --> 00:06:10,000
+ Also, Moment, da fehlt noch was.
+
+71
+00:06:10,000 --> 00:06:14,000
+ Ja, er muss funktionieren.
+
+72
+00:06:14,000 --> 00:06:27,000
+ Tja, beide Spieler haben jetzt einen Leutkolben, aber nur einer hat eine Leutstation.
+
+73
+00:06:27,000 --> 00:06:31,000
+ Das hätte ich so auch nicht erwartet, dass das so passiert, ne?
+
+74
+00:06:31,000 --> 00:06:36,000
+ Also ich mein, du kannst ja eigentlich aufhören zu telefonieren, weil du hast ja alles was du brauchst.
+
+75
+00:06:36,000 --> 00:06:37,000
+ Naja, zwei können auch nicht anrufen.
+
+76
+00:06:37,000 --> 00:06:43,000
+ Achso, du darfst für Lötzin noch anrufen, weil da ist keins dabei.
+
+77
+00:06:43,000 --> 00:06:51,000
+ Lötzin auch, würde ich empfehlen.
+
+78
+00:06:51,000 --> 00:07:00,000
+ Hi, Susi, kannst du mir Lötzin zum Marktwertsparadien bringen? Ich bin hier gerade auf der Bühne.
+
+79
+00:07:00,000 --> 00:07:02,000
+ Am besten schnell.
+
+80
+00:07:02,000 --> 00:07:13,000
+ Ja, schnell ist gut. Also ich würde vorschlagen, wenn er es schafft das Lötzin herzubekommen, dann lassen wir das als Gewinn zählen.
+
+81
+00:07:13,000 --> 00:07:33,000
+ Naja, nur ganz kurz. Das Spiel geht, also die ganze Show geht eine Stunde, ne?
+
+82
+00:07:33,000 --> 00:07:37,000
+ So, wie sieht es aus bei dir?
+
+83
+00:07:37,000 --> 00:07:44,000
+ Ja, ja, ja, ist immer gut. Woanders anrufen, ja. Na, einfach das Problem weiterleiten, ne?
+
+84
+00:07:44,000 --> 00:07:54,000
+ Oh, er ruft den Info-Desk an, das ist der Telefon-Joker. Und er hat einen Lötkolben bekommen. Mit Lötzin sogar.
+
+85
+00:07:54,000 --> 00:08:10,000
+ Dann würde ich mal sagen, würde ich behaupten, dieser Punkt geht an Spieler 2.
+
+86
+00:08:10,000 --> 00:08:16,000
+ Ja.
+
+87
+00:08:16,000 --> 00:08:25,000
+ Oh, mit Netzteil oder ohne? Mit Powerbank, das ist okay. So, ihr habt jetzt beide funktionierenden Lötkolben.
+
+88
+00:08:25,000 --> 00:08:31,000
+ Gehe ich mal davon aus. Ja, das Lötzin, das Lötzin könnt ihr euch dann teilen.
+
+89
+00:08:31,000 --> 00:08:38,000
+ Dann würde ich mal sagen, können wir die Lötkolben erstmal beiseite legen und spielen was anderes.
+
+90
+00:08:38,000 --> 00:08:53,000
+ Und zwar haben wir noch ein wunderschönes Spiel. Ein Moment.
+
+91
+00:08:53,000 --> 00:09:06,000
+ Wir haben das schöne Spiel Potentiometer einstellen. Dazu möchte ich Kato auf die Bühne bitten, welcher das Messgerät bereithält.
+
+92
+00:09:06,000 --> 00:09:16,000
+ So, jeder von euch bekommt ein lineares Potentiometer. 2,2 Kiloohm.
+
+93
+00:09:16,000 --> 00:09:24,000
+ Und ich möchte, dass ihr das auf bestimmte Werte einstellt. Wer näher an dem gesuchten Wert ist, gewinnt die Runde.
+
+94
+00:09:24,000 --> 00:09:30,000
+ Wir spielen dreimal, also best of three.
+
+95
+00:09:30,000 --> 00:09:40,000
+ Genau, ihr dürft... erst am Ende wird ausgewertet. So, nochmal hallo an Kato, der gleich den Schiedsrichter gibt.
+
+96
+00:09:40,000 --> 00:09:49,000
+ So, jeder von euch kriegt ein Potentiometer. Wir messen den Widerstand zwischen den ersten beiden Pins.
+
+97
+00:09:49,000 --> 00:10:00,000
+ Und der erste Wert ist 1,3 Kiloohm. Es ist insgesamt ein 2,2 Kiloohm Potentiometer.
+
+98
+00:10:00,000 --> 00:10:09,000
+ Ihr dürft auch gerne den Taschenrechner auf den... genau, von vorne, von der Achse gesehen.
+
+99
+00:10:09,000 --> 00:10:17,000
+ Ihr dürft auch gerne den Taschenrechner auf den Laptops benutzen, um das Verhältnis auszurechnen, um ein Gefühl dafür zu bekommen.
+
+100
+00:10:17,000 --> 00:10:25,000
+ Ich weiß definitiv, was das für ein Bauteil ist. Was ist denn ein... was? Ich weiß definitiv, was das für ein Gerät hier ist.
+
+101
+00:10:25,000 --> 00:10:33,000
+ Das ist ein Potentiometer. Das ist ein einstellbarer Widerstand. Und du hast einen festen Widerstand zwischen Pin 1 und 3.
+
+102
+00:10:33,000 --> 00:10:40,000
+ Und der Mittelabgriff ist an Pin 2. Und den schiebst du über diesen festen Widerstand drüber.
+
+103
+00:10:40,000 --> 00:10:49,000
+ Ist das lineal oder wirklich? Das ist linear. Also ihr könnt auch gerne den Winkel messen und ausrechnen.
+
+104
+00:10:49,000 --> 00:11:00,000
+ Irgendwo haben wir dann schon ein Zeitlimit, aber... Du sagst, du bist bereit. Dann warten wir noch auf den anderen Spieler.
+
+105
+00:11:00,000 --> 00:11:11,000
+ Das stimmt. Okay, ihr seid beide bereit. Dann, Kato, walte deines Amtes.
+
+106
+00:11:11,000 --> 00:11:26,000
+ 1,259. Das ist verdammt gut.
+
+107
+00:11:26,000 --> 00:11:37,000
+ Oh, 0,5. Irgendwas. Okay, der erste Punkt der Runde geht an dich.
+
+108
+00:11:37,000 --> 00:11:48,000
+ So, die nächste Runde. Ihr dreht mal eure Potentiometer beide auf Endanschlag, dass ihr nicht den jetzigen Punkt noch nutzen könnt.
+
+109
+00:11:48,000 --> 00:12:01,000
+ So, Kato, sag mal einen Wert kleiner wie 2,2 Kiloohm. 1,75 Kiloohm.
+
+110
+00:12:09,000 --> 00:12:21,000
+ Was ich vielleicht noch dazusagen sollte, wie auch beim Original "Schlag den Star" geht es hier mit den Punkten immer weiter von der Wertigkeit.
+
+111
+00:12:21,000 --> 00:12:26,000
+ Das heißt, das erste Spiel gab jetzt einen Punkt, das zweite Spiel gibt zwei, das dritte drei und so weiter.
+
+112
+00:12:26,000 --> 00:12:35,000
+ Das heißt, es ist noch nichts verloren. Ihr seid beide so weit? Ja. Ihr seid beide so weit. Dann, Kato, Werte aus.
+
+113
+00:12:38,000 --> 00:12:45,000
+ 1,615. Nicht schlecht. Nicht schlecht.
+
+114
+00:12:45,000 --> 00:12:59,000
+ 1,23. So, wir haben "Best of Three" gespielt. Du legst 2 zu 0 in Führung. Damit gehen die zwei Punkte von Spiel Nummer 2 an dich.
+
+115
+00:13:05,000 --> 00:13:12,000
+ So, das nächste Spiel. Also danke, Kato. Wir brauchen dich vielleicht später nochmal.
+
+116
+00:13:12,000 --> 00:13:26,000
+ So, für das nächste Spiel müsst ihr beide mal euren Browser öffnen. Spiel Nummer 3 heißt "User in your face".
+
+117
+00:13:27,000 --> 00:13:37,000
+ Einige im Publikum kennen es schon, glaube ich. Ich zeige euch mal, wie das geschrieben wird. Du gehst einfach hier auf userinyourface.com, ist das glaube ich.
+
+118
+00:13:37,000 --> 00:13:43,000
+ Oder war das .com?
+
+119
+00:13:43,000 --> 00:13:52,000
+ Ja. Nee. Punkt net vielleicht. Das hätte ich mir natürlich aufschreiben sollen. Das wäre praktisch gewesen.
+
+120
+00:13:53,000 --> 00:13:57,000
+ Das wäre auch vorbereitet gewesen. Ja, das wäre Arbeit gewesen.
+
+121
+00:13:57,000 --> 00:14:09,000
+ Punkt net ist überwacht. Weiß jemand die Webseite URL von "User in your face" von dem Spiel?
+
+122
+00:14:09,000 --> 00:14:12,000
+ Habt ihr keine Suchmaschine? Ist das diese?
+
+123
+00:14:13,000 --> 00:14:25,000
+ Jawoll. Oh, dann... Nee, User... Ja, genau. Okay, ihr habt beide die richtige Webseite offen.
+
+124
+00:14:25,000 --> 00:14:31,000
+ Sehr gut. Dafür gibt es aber noch keine Punkte.
+
+125
+00:14:34,000 --> 00:14:45,000
+ Bevor ihr auf "Weiter" drückt. Bei diesem Spiel geht es darum, ihr müsst ein User-Interface ausfüllen.
+
+126
+00:14:45,000 --> 00:14:51,000
+ Und es wird euch nicht gerade leicht gemacht. Ihr werdet auch nach personenbezogenen Daten gefragt.
+
+127
+00:14:51,000 --> 00:14:59,000
+ Da tragt ihr natürlich bitte einfach irgendeinen Bullshit ein. Was ihr eintragt ist relativ egal. Ihr werdet es auch sehr schnell merken.
+
+128
+00:15:01,000 --> 00:15:10,000
+ Das Spiel hat auch einen eingebauten Timer. Und ich würde mal sagen, auf die Plätze, fertig, los!
+
+129
+00:15:10,000 --> 00:15:23,000
+ So, ich hoffe der Screen Capture funktioniert auch ordentlich. Könnt ihr auf dem Bildschirm was sehen?
+
+130
+00:15:24,000 --> 00:15:32,000
+ Geht so. Geht so? So, wir sind bei 12 Sekunden.
+
+131
+00:15:32,000 --> 00:15:47,000
+ Die Button sind gut versteckt, ne? Und wie sieht es bei dir aus? Oh, du bist schon...
+
+132
+00:15:48,000 --> 00:15:56,000
+ Du bist aber schon ein Stück weiter. Du hast gute Chancen. Wenn du dieses Spiel gewinnst, dann ist wieder Gleichstand.
+
+133
+00:15:56,000 --> 00:16:00,000
+ Wo ist hier noch eine Maus? Hier ist auch noch eine Maus.
+
+134
+00:16:00,000 --> 00:16:07,000
+ Hier, bitteschön. Du kriegst auch eine. Hier ist noch eine Maus. Die könnte helfen.
+
+135
+00:16:07,000 --> 00:16:14,000
+ Nagelneue, original verpackt.
+
+136
+00:16:14,000 --> 00:16:16,000
+ Siehst du?
+
+137
+00:16:16,000 --> 00:16:24,000
+ Ja, jetzt hast du es groß gemacht. Ne, das ist falsch.
+
+138
+00:16:24,000 --> 00:16:27,000
+ Darf ich hier auch das Element da röschern?
+
+139
+00:16:27,000 --> 00:16:32,000
+ Du darfst es closen. Da steht "close". Ah ja. Ja, genau.
+
+140
+00:16:32,000 --> 00:16:37,000
+ Wie sieht es bei dir aus? Was ist das? Ja, beeil dich, hat es doch gesagt.
+
+141
+00:16:42,000 --> 00:16:45,000
+ An diesem kann ich die brechenlose Kabel antreuen.
+
+142
+00:16:45,000 --> 00:16:48,000
+ Ich helfe dir mal ein bisschen. Komm.
+
+143
+00:16:48,000 --> 00:16:50,000
+ Ey!
+
+144
+00:16:50,000 --> 00:16:55,000
+ Ich denke schon, dass du keine Zeit mehr gegräst hast.
+
+145
+00:16:55,000 --> 00:16:58,000
+ Ich bin mir sicher, ich muss jetzt vorwärts.
+
+146
+00:16:58,000 --> 00:17:01,000
+ Jaja, ne? Liebst du auch brav mit?
+
+147
+00:17:01,000 --> 00:17:06,000
+ Die ist auch in der Session. Ich bin nicht da, aber ich bin da.
+
+148
+00:17:06,000 --> 00:17:07,000
+ Ah.
+
+149
+00:17:07,000 --> 00:17:28,000
+ Jetzt hast du abgebrochen. Jetzt musst du von vorne anfangen.
+
+150
+00:17:28,000 --> 00:17:31,000
+ Danke. Ja.
+
+151
+00:17:31,000 --> 00:17:34,000
+ Sehr, sehr gut, auf jeden Fall.
+
+152
+00:17:35,000 --> 00:17:38,000
+ Das ist nicht von mir, das nutze ich nur gastweise.
+
+153
+00:17:38,000 --> 00:17:42,000
+ Aber es sieht gut aus.
+
+154
+00:17:42,000 --> 00:17:48,000
+ Unser Spieler 1 liegt vorne und wenn er dieses Spiel gewinnt, dann haben wir wieder Gleichstand.
+
+155
+00:17:48,000 --> 00:17:55,000
+ Aber da sieht man auch, der Informatik-Student in ihm geht in diesem Spiel richtig auf.
+
+156
+00:17:55,000 --> 00:18:00,000
+ Da lernt er auch mal, wie man richtige Nutzerinterfaces designt.
+
+157
+00:18:00,000 --> 00:18:03,000
+ Es ist nicht ungesichert. Eine kurdische Kabel.
+
+158
+00:18:04,000 --> 00:18:06,000
+ Ähm, ja. Schwierig, ne?
+
+159
+00:18:06,000 --> 00:18:09,000
+ Ich hab Google, die Lüge ist nicht kurdisch, scheiße. Oder?
+
+160
+00:18:09,000 --> 00:18:14,000
+ Du darfst Google nutzen, ne? Oder eine beliebige andere Suchmaschine.
+
+161
+00:18:14,000 --> 00:18:30,000
+ So.
+
+162
+00:18:30,000 --> 00:18:31,000
+ So.
+
+163
+00:18:31,000 --> 00:18:40,000
+ So, du befragst gleich Wikipedia.
+
+164
+00:18:40,000 --> 00:18:43,000
+ Und wie sieht es bei dir aus?
+
+165
+00:18:43,000 --> 00:18:46,000
+ Du hängst immer noch bei der E-Mail-Adresse?
+
+166
+00:18:46,000 --> 00:18:50,000
+ Ne, du bist schon bei Passwort. Ah, jetzt bist du auch bei den Terms and Conditions.
+
+167
+00:18:50,000 --> 00:18:52,000
+ Die musst du durchscrollen.
+
+168
+00:18:52,000 --> 00:18:55,000
+ Oh nein. Oh nein.
+
+169
+00:18:55,000 --> 00:18:59,000
+ Was?
+
+170
+00:19:00,000 --> 00:19:01,000
+ Oh.
+
+171
+00:19:01,000 --> 00:19:06,000
+ Und ich mein, das Passwort ist noch das einfache bei dem Spiel.
+
+172
+00:19:06,000 --> 00:19:08,000
+ Was?
+
+173
+00:19:08,000 --> 00:19:11,000
+ Okay, ich bin schon fast bei der Hälfte.
+
+174
+00:19:11,000 --> 00:19:14,000
+ Sehr gut. Immer gut mitlesen, das könnte noch wichtig werden.
+
+175
+00:19:14,000 --> 00:19:16,000
+ Oh nein.
+
+176
+00:19:16,000 --> 00:19:18,000
+ Den ist der E-Mail hier.
+
+177
+00:19:18,000 --> 00:19:22,000
+ So, du bist bei vier Minuten und du hast leider die Zeit zurückgesetzt.
+
+178
+00:19:22,000 --> 00:19:24,000
+ Ja.
+
+179
+00:19:24,000 --> 00:19:27,000
+ Aber gut, so ist das nun.
+
+180
+00:19:28,000 --> 00:19:29,000
+ Okay.
+
+181
+00:19:29,000 --> 00:19:31,000
+ Wo hängst du gerade?
+
+182
+00:19:31,000 --> 00:19:34,000
+ Na ja, 10 Charakters, 1 Kapital Letter, 1 Numeral.
+
+183
+00:19:34,000 --> 00:19:36,000
+ Ja, der Passwort ist not unsafe.
+
+184
+00:19:36,000 --> 00:19:38,000
+ Ja, das können wir aber nehmen.
+
+185
+00:19:38,000 --> 00:19:41,000
+ Ja, du möchtest vielleicht die Terms and Conditions akzeptieren.
+
+186
+00:19:41,000 --> 00:19:43,000
+ Ja, liest mal genau.
+
+187
+00:19:43,000 --> 00:19:45,000
+ Bums.
+
+188
+00:19:45,000 --> 00:19:47,000
+ Please do not forget to accept the Terms and Conditions.
+
+189
+00:19:47,000 --> 00:19:49,000
+ I do not accept. Okay, danke schön.
+
+190
+00:19:49,000 --> 00:19:51,000
+ Sehr gut.
+
+191
+00:19:51,000 --> 00:19:54,000
+ I have any image. 2-3 Interests.
+
+192
+00:19:54,000 --> 00:19:55,000
+ Okay.
+
+193
+00:19:55,000 --> 00:20:06,000
+ Genau, du musst, ach so genau, da darfst du dir aus dem Internet auch erstmal noch ein Bild runterladen, um es wieder hochzuladen, weil ich glaube, auf den Laptops, auf den frischen Installationen sind keine Beispielbilder drauf.
+
+194
+00:20:06,000 --> 00:20:08,000
+ Oh, danke schön. Oh Gott.
+
+195
+00:20:08,000 --> 00:20:11,000
+ Ich wusste doch, ich hätte mehr vorbereiten sollen.
+
+196
+00:20:11,000 --> 00:20:16,000
+ The Passwort needs at least one letter of your E-Mail. Okay.
+
+197
+00:20:16,000 --> 00:20:20,000
+ Ja, ich hoffe du weißt deine E-Mail-Adresse noch.
+
+198
+00:20:21,000 --> 00:20:27,000
+ Oh, ein süßes Pony, das ist ja schön.
+
+199
+00:20:27,000 --> 00:20:30,000
+ Ja, unten rechts ist irgendwo Speichern, glaube ich.
+
+200
+00:20:30,000 --> 00:20:32,000
+ Ach so.
+
+201
+00:20:32,000 --> 00:20:38,000
+ Wenn das Passwort zu lang wird, dann sagt er, es ist unsafe.
+
+202
+00:20:38,000 --> 00:20:41,000
+ Hör'r ab, beil' dich.
+
+203
+00:20:42,000 --> 00:20:51,000
+ Du musst genau lesen, es kann ja eventuell auch sein, dass da ganz blöde Negierungen drin sind.
+
+204
+00:20:51,000 --> 00:20:53,000
+ Ja, ja, I see.
+
+205
+00:20:53,000 --> 00:20:59,000
+ Ah, du bist schon bei den persönlichen Daten.
+
+206
+00:20:59,000 --> 00:21:05,000
+ Hä, okay, hallo hallo.
+
+207
+00:21:05,000 --> 00:21:08,000
+ Ja, tap funktioniert da nicht, das ist gemein, ne?
+
+208
+00:21:08,000 --> 00:21:10,000
+ Stauken A auch nicht.
+
+209
+00:21:11,000 --> 00:21:16,000
+ Oh Gott, sieht man was ich schreibe?
+
+210
+00:21:16,000 --> 00:21:23,000
+ So, du bist wieder, ah nee, du bist noch beim Passwort.
+
+211
+00:21:23,000 --> 00:21:29,000
+ Kann mich mal deine Zange vorbeibringen?
+
+212
+00:21:29,000 --> 00:21:32,000
+ Er fragt nach einer Zange.
+
+213
+00:21:32,000 --> 00:21:34,000
+ Darf ich da auch anrufen? Nee, ich hab's, ich hab's.
+
+214
+00:21:34,000 --> 00:21:36,000
+ Okay, er hat's geschafft.
+
+215
+00:21:36,000 --> 00:21:50,000
+ So, ja, irgendeinen Straßenname brauchst du noch, ne?
+
+216
+00:21:50,000 --> 00:21:52,000
+ Oh no.
+
+217
+00:21:52,000 --> 00:21:59,000
+ Also ich geb' dir schon mal den Hinweis, es wird nicht auf Validität der Adresse überprüft.
+
+218
+00:21:59,000 --> 00:22:01,000
+ Zumindest nicht vollständig.
+
+219
+00:22:01,000 --> 00:22:04,000
+ Das wär' glaub' ich ein bisschen zu gemein.
+
+220
+00:22:05,000 --> 00:22:07,000
+ Hier gibt's keine Bilder auf dem Computer, die ich hochladen kann.
+
+221
+00:22:07,000 --> 00:22:09,000
+ Ja, dann musst du eins runterladen.
+
+222
+00:22:09,000 --> 00:22:11,000
+ Erstmal runterladen, dann hochladen.
+
+223
+00:22:11,000 --> 00:22:13,000
+ Okay, okay.
+
+224
+00:22:13,000 --> 00:22:19,000
+ So, wie sieht's bei dir aus? Du bist beim Land angekommen.
+
+225
+00:22:19,000 --> 00:22:30,000
+ Ja, genau, dein Geburtsdatum muss mit dem Alter, das du angibst, übereinstimmen.
+
+226
+00:22:30,000 --> 00:22:33,000
+ Das wird separat abgefragt.
+
+227
+00:22:34,000 --> 00:22:41,000
+ Oh, du hast dir das einfach gemacht, du hast einfach Google das Logo genommen.
+
+228
+00:22:41,000 --> 00:22:47,000
+ So, jetzt bist du auch bei den persönlichen Daten. Ihr seid grad auf der gleichen Seite.
+
+229
+00:22:47,000 --> 00:22:54,000
+ Oh, can I help? Kann ich das klein machen?
+
+230
+00:22:54,000 --> 00:22:59,000
+ Du kannst das send to bottom machen.
+
+231
+00:23:00,000 --> 00:23:05,000
+ Und dann verschwindet's aber ganz langsam.
+
+232
+00:23:05,000 --> 00:23:14,000
+ Oh, wir sind beim Capture angelangt. 7 Minuten und 50 Sekunden.
+
+233
+00:23:14,000 --> 00:23:20,000
+ Das ist keine schlechte Zeit fürs erste Mal. Bei den Testrunden haben die Leute auch alle so zwischen 5 und 10 Minuten gebraucht.
+
+234
+00:23:20,000 --> 00:23:23,000
+ Hallo Number One.
+
+235
+00:23:29,000 --> 00:23:31,000
+ Was war die Frage, was musst du selecten?
+
+236
+00:23:31,000 --> 00:23:36,000
+ Select all pictures with a bow. Bow or bow, it's both, because homonyms.
+
+237
+00:23:36,000 --> 00:23:38,000
+ Ja.
+
+238
+00:23:38,000 --> 00:23:41,000
+ But isn't it all?
+
+239
+00:23:41,000 --> 00:23:46,000
+ Is anything I'm missing?
+
+240
+00:23:46,000 --> 00:23:48,000
+ Okay.
+
+241
+00:23:48,000 --> 00:23:55,000
+ Und wir haben einen Gewinner von dem Spiel. Spieler 1 hat's geschafft in 8 Minuten 24.
+
+242
+00:23:56,000 --> 00:23:59,000
+ Hast du gut gemacht.
+
+243
+00:23:59,000 --> 00:24:01,000
+ Sehr gut.
+
+244
+00:24:01,000 --> 00:24:03,000
+ Digital native.
+
+245
+00:24:03,000 --> 00:24:06,000
+ Hast du einfach irgendeine Flagge genommen, Landervlagge?
+
+246
+00:24:06,000 --> 00:24:08,000
+ Einfach Argentinien.
+
+247
+00:24:08,000 --> 00:24:11,000
+ Und die Stadt war egal? Ich wollte noch Deutschland suchen.
+
+248
+00:24:11,000 --> 00:24:20,000
+ Das sieht man, dass du Informatik studierst und dass du weißt, wie man ein gutes User Interface bedient.
+
+249
+00:24:21,000 --> 00:24:29,000
+ Ja. So, schauen wir mal, was haben wir denn hier jetzt noch für Spiele?
+
+250
+00:24:29,000 --> 00:24:35,000
+ Ach so, genau. Was ich am Anfang noch vergessen habe zu sagen, ihr habt jeweils einen Joker.
+
+251
+00:24:35,000 --> 00:24:43,000
+ Wenn ihr sagt, bei einem Spiel, das könnt ihr so gar nicht, dann dürft ihr euch einen Ersatzkandidaten suchen.
+
+252
+00:24:44,000 --> 00:24:51,000
+ Ah. Ja, weil wir haben auch ein bisschen spezifischere Spiele, da könnte das ein bisschen schwierig werden.
+
+253
+00:24:51,000 --> 00:25:00,000
+ So, unser nächstes Spiel begibt sich auch wieder in die Weiten des Internets und da muss ich gerade mal die richtige Seite suchen.
+
+254
+00:25:00,000 --> 00:25:03,000
+ Hast du keine Suchmaschine?
+
+255
+00:25:03,000 --> 00:25:07,000
+ Ja, doch integriert, die ist nicht so gut.
+
+256
+00:25:08,000 --> 00:25:28,000
+ So, und zwar das nächste Spiel heißt Wikilink. Ihr geht auf Wikipedia und möchte mal einer aus dem Publikum eine Seite auf Wikipedia nennen, auf die die beiden sich zum Start des Spiels begeben wollen.
+
+257
+00:25:28,000 --> 00:25:30,000
+ Klar, Ton!
+
+258
+00:25:30,000 --> 00:25:32,000
+ Klar, Ton!
+
+259
+00:25:32,000 --> 00:25:34,000
+ Ja, Ton!
+
+260
+00:25:34,000 --> 00:25:36,000
+ Was?
+
+261
+00:25:37,000 --> 00:25:43,000
+ Okay, ja, okay, Platon der Philosoph. Habt ihr das beide offen? Du hast es offen? Du auch? Okay.
+
+262
+00:25:43,000 --> 00:25:51,000
+ Eure Aufgabe ist es jetzt, ihr müsst auf eine andere Wikipediasite kommen, die ich euch vorgebe.
+
+263
+00:25:51,000 --> 00:26:01,000
+ Ihr dürft dabei nur auf links innerhalb von Wikipedia drücken. Ihr dürft nichts in die Wikipediasuche eingeben.
+
+264
+00:26:02,000 --> 00:26:10,000
+ Das einzige, was ihr machen dürft, ist ihr dürft mit Steuerung F auf der Seite nach Inhalten suchen. Habt ihr das soweit verstanden?
+
+265
+00:26:10,000 --> 00:26:12,000
+ Ja.
+
+266
+00:26:12,000 --> 00:26:27,000
+ Wir spielen wieder Best of Three, also maximal drei Runden. Und als erstes müsst ihr auf die Seite des Chaos-Communication-Camps kommen. Los geht's!
+
+267
+00:26:28,000 --> 00:26:33,000
+ Ja, gut. So, Katas.
+
+268
+00:26:33,000 --> 00:26:36,000
+ So.
+
+269
+00:26:36,000 --> 00:26:38,000
+ Darf man zurück?
+
+270
+00:26:38,000 --> 00:26:40,000
+ Du, äh, ja.
+
+271
+00:26:40,000 --> 00:26:42,000
+ Wahrscheinlich nicht, oder?
+
+272
+00:26:42,000 --> 00:26:44,000
+ Nee, zurück darf man nicht.
+
+273
+00:26:44,000 --> 00:26:46,000
+ Das könnte zu einfach werden später.
+
+274
+00:26:46,000 --> 00:26:48,000
+ So.
+
+275
+00:26:48,000 --> 00:26:54,000
+ Wie schaut's denn aus?
+
+276
+00:26:55,000 --> 00:27:00,000
+ Du bist im Mittelmeerraum angekommen. Okay, das ist nicht ganz die geografische Region, wo wir gerade sind.
+
+277
+00:27:00,000 --> 00:27:03,000
+ Naja, Europa kann nicht so weit entfernt sein.
+
+278
+00:27:03,000 --> 00:27:14,000
+ Ja. Und wie sieht's bei dir aus? Du bist bei Wissen angelangt. Okay, Wissen ist schon mal nicht verkehrt. Wissen wird hier einiges verbreitet. Du bist, oh, du bist in Deutschland angekommen.
+
+279
+00:27:14,000 --> 00:27:16,000
+ Verklig.
+
+280
+00:27:16,000 --> 00:27:19,000
+ Tja, schlecht, ne?
+
+281
+00:27:20,000 --> 00:27:25,000
+ Zurück nach Deutschland für dich. Und du bist?
+
+282
+00:27:25,000 --> 00:27:27,000
+ Äh, wieder bei der Übersicht.
+
+283
+00:27:27,000 --> 00:27:30,000
+ Du hast es auf die Übersicht-Seite geschafft, okay.
+
+284
+00:27:30,000 --> 00:27:36,000
+ Deutschland. Wissen ist schon mal.
+
+285
+00:27:36,000 --> 00:27:40,000
+ Hat Deutschland Vereine?
+
+286
+00:27:40,000 --> 00:27:43,000
+ Äh, das ist eine gute Frage.
+
+287
+00:27:44,000 --> 00:27:51,000
+ Aber ich glaube, beim Test bin ich tatsächlich auch über Deutschland gekommen. Das heißt, du bist der Sache, glaube ich, auf der Spur.
+
+288
+00:27:51,000 --> 00:28:00,000
+ Es ist, es hört sich, dieses Spiel hört sich erstaunlich schwierig an, aber es ist doch ziemlich machbar, wenn man so ein bisschen um die Ecke denkt.
+
+289
+00:28:00,000 --> 00:28:04,000
+ Man kommt eigentlich von quasi allem auf alles.
+
+290
+00:28:12,000 --> 00:28:14,000
+ Feuerwehrverein, okay.
+
+291
+00:28:14,000 --> 00:28:20,000
+ Freiwillige Feuerwehr, das ist, ja gut, ich meine, wir haben die Feuerwehr hier vor Ort zur Sicherheit.
+
+292
+00:28:20,000 --> 00:28:25,000
+ Aber, ähm, ob die das verdient haben.
+
+293
+00:28:25,000 --> 00:28:28,000
+ Okay, du hast dich ganz woanders hingeklickt.
+
+294
+00:28:28,000 --> 00:28:38,000
+ Okay, Computer Vision, da ist schon mal das Wort Computer drin. Das ist schon mal nicht verkehrt. Wir nähern uns der Sache an.
+
+295
+00:28:38,000 --> 00:28:40,000
+ Ehrenamt, okay.
+
+296
+00:28:41,000 --> 00:28:44,000
+ Netzwerke. Netzwerke, oh Netzwerke, sehr gut.
+
+297
+00:28:44,000 --> 00:28:47,000
+ Haben wir hier auch viel mit zu tun?
+
+298
+00:28:47,000 --> 00:28:54,000
+ Und wo bist du angelangt? Künstliche Intelligenz, okay.
+
+299
+00:28:54,000 --> 00:29:02,000
+ Open Street Map, ja. Nutzen wir hier auch?
+
+300
+00:29:10,000 --> 00:29:12,000
+ Open Source, ja, leider kein Link, ne?
+
+301
+00:29:12,000 --> 00:29:18,000
+ Hier, guck mal hier.
+
+302
+00:29:18,000 --> 00:29:21,000
+ Computer Virus, bitte nicht runterladen.
+
+303
+00:29:21,000 --> 00:29:25,000
+ Die Laptops sind bei mir in der Firma ausgeliehen.
+
+304
+00:29:25,000 --> 00:29:31,000
+ Gnutaler, okay.
+
+305
+00:29:31,000 --> 00:29:35,000
+ Auf das hab ich jetzt, ich weiß nicht mal was das ist, aber okay.
+
+306
+00:29:38,000 --> 00:29:40,000
+ Ich muss noch mal zurück.
+
+307
+00:29:40,000 --> 00:29:45,000
+ Und du bist Portal Informatik, okay, ja.
+
+308
+00:29:45,000 --> 00:29:55,000
+ Ja, jetzt geht's, jetzt wird's spannend, ne?
+
+309
+00:29:55,000 --> 00:29:58,000
+ Ihr hängt glaub ich beide grad ein bisschen fest.
+
+310
+00:29:58,000 --> 00:30:05,000
+ Das Publikum fängt an zu pfeifen, du bist bei Freie Software, das klingt doch schon mal...
+
+311
+00:30:05,000 --> 00:30:19,000
+ Also wenn ich euch einen Tipp geben darf, ich bin über die Orte, also ich bin, ich glaube ich bin beim Test tatsächlich über den Ort hierher gekommen.
+
+312
+00:30:19,000 --> 00:30:27,000
+ Also nicht über das Thema Chaos Computer Club, sondern über die geografische Region.
+
+313
+00:30:27,000 --> 00:30:30,000
+ Quatsch, wo so Region?
+
+314
+00:30:30,000 --> 00:30:33,000
+ Personal Firewall, das ist keine geografische Region.
+
+315
+00:30:34,000 --> 00:30:35,000
+ Ha!
+
+316
+00:30:35,000 --> 00:30:37,000
+ Hast du's? Ja!
+
+317
+00:30:37,000 --> 00:30:43,000
+ Ne, ja, das ist noch nicht ganz, das Camp. Du bist zur Seite vom Camp, aber du bist auf der Seite vom Chaos Computer Club, du bist ganz nah dran.
+
+318
+00:30:43,000 --> 00:30:46,000
+ Ich kann dir auch sagen, wo die drin steht, bei Personal Firewall.
+
+319
+00:30:46,000 --> 00:30:50,000
+ Ja, dann jetzt kommt hier Personal Firewall, das findest du doch, oder?
+
+320
+00:30:50,000 --> 00:30:54,000
+ Ich gebe zu, der Chaos Computer Club in Ulm einen Vortrag über Personal Firewalls.
+
+321
+00:30:54,000 --> 00:30:56,000
+ Ja, da war der drin.
+
+322
+00:30:56,000 --> 00:30:58,000
+ Ja, jetzt musst du nur noch das Camp finden.
+
+323
+00:30:58,000 --> 00:31:00,000
+ Das lässt sich doch jetzt machen.
+
+324
+00:31:00,000 --> 00:31:03,000
+ Das bleibt spannend, der aktuelle ist gleichstandig, ne?
+
+325
+00:31:03,000 --> 00:31:04,000
+ Ja, kann ja auch.
+
+326
+00:31:04,000 --> 00:31:16,000
+ Jawoll, wir haben einen Gewinner. Spieler 2 hat die erste Runde dieses Spiels gewonnen.
+
+327
+00:31:16,000 --> 00:31:29,000
+ So, damit ihr wieder die gleiche Ausgangslage habt, darfst du jetzt auch wieder auf die Seite vom Camp gehen, weil das Camp ist die Ausgangslage für die nächste Seite, die ihr finden müsst.
+
+328
+00:31:30,000 --> 00:31:42,000
+ So, ok, dazu muss ich euch bitten Wikipedia auf Englisch umzustellen, weil die folgende Seite gibt es nur auf Englisch.
+
+329
+00:31:42,000 --> 00:31:45,000
+ Habt ihr das beide?
+
+330
+00:31:45,000 --> 00:31:47,000
+ Ja.
+
+331
+00:31:48,000 --> 00:32:00,000
+ So, ein kleiner Tipp, ich meine, man braucht dafür nur zwei Klicks und zwar es gibt einen Twitter-Account, der nennt sich "Devs of Wikipedia".
+
+332
+00:32:00,000 --> 00:32:04,000
+ Der postet immer ganz obskures Zeug über Wikipedia.
+
+333
+00:32:04,000 --> 00:32:13,000
+ Dieser Twitter-Account hat eine eigene Wiki-Page, die heißt "Devs of Wikipedia" und auf die müsst ihr euch jetzt klicken.
+
+334
+00:32:13,000 --> 00:32:15,000
+ 3, 2, 1, los!
+
+335
+00:32:16,000 --> 00:32:20,000
+ Darf man Taps öffnen? Was? Nein, du darfst keine Taps öffnen.
+
+336
+00:32:20,000 --> 00:32:22,000
+ Können wir die Suche noch benutzen?
+
+337
+00:32:22,000 --> 00:32:26,000
+ Nein, die Suche nicht. Du darfst nur mit "STRG+F" innerhalb von der Seite den Text durchsuchen.
+
+338
+00:32:26,000 --> 00:32:28,000
+ Ja, mein ich ja.
+
+339
+00:32:28,000 --> 00:32:30,000
+ Ja, achso, ja, das darfst du.
+
+340
+00:32:30,000 --> 00:32:40,000
+ Ich meine, beim Test habe ich einen Hack gefunden, um das in zwei Klicks zu bekommen.
+
+341
+00:32:40,000 --> 00:32:49,000
+ *unverständliche Stimme*
+
+342
+00:32:49,000 --> 00:32:52,000
+ Es ist sehr gefährlich von dieser Seite wegzuklicken.
+
+343
+00:32:52,000 --> 00:33:02,000
+ Ja, wenn du einmal weggeklickt bist, bist du weg, wobei ich glaube, der Trick, ich will nicht zu viel verraten.
+
+344
+00:33:02,000 --> 00:33:10,000
+ *unverständliche Stimme*
+
+345
+00:33:10,000 --> 00:33:14,000
+ Ja, du bist ja Sache auf der Spur. Jetzt ist es fast so weit.
+
+346
+00:33:14,000 --> 00:33:16,000
+ Devs, wie die Tiefe.
+
+347
+00:33:16,000 --> 00:33:21,000
+ Also kleiner Tipp, ihr kommt natürlich nicht direkt auf Devs oder so.
+
+348
+00:33:22,000 --> 00:33:35,000
+ Aber es gibt in Wikipedia auch so Metapages, also Pages über Pages. Und wenn man so eine Liste findet, ah, genau, du bist auf Wikipedia about.
+
+349
+00:33:35,000 --> 00:33:41,000
+ Da bist du der Sache schon mal sehr auf der Spur.
+
+350
+00:33:41,000 --> 00:33:47,000
+ Und wie sieht es bei dir aus?
+
+351
+00:33:48,000 --> 00:33:52,000
+ Du bist immer noch auf Freedom of Information.
+
+352
+00:33:52,000 --> 00:33:54,000
+ Devs auf Wikipedia.
+
+353
+00:33:54,000 --> 00:33:56,000
+ Ja, hast du es?
+
+354
+00:33:56,000 --> 00:34:01,000
+ Er hat es. So, damit steht es in diesem Spiel 1 zu 1.
+
+355
+00:34:01,000 --> 00:34:10,000
+ Das heißt, die nächste Runde entscheidet, wer die Punkte bekommt.
+
+356
+00:34:10,000 --> 00:34:14,000
+ Und ich möchte von euch...
+
+357
+00:34:14,000 --> 00:34:17,000
+ Gehen wir von der Devs auf Wikipedia Seite wieder aus?
+
+358
+00:34:17,000 --> 00:34:19,000
+ Genau, ihr geht von der Devs auf Wikipedia, geht ihr weiter.
+
+359
+00:34:19,000 --> 00:34:21,000
+ Auf Englisch?
+
+360
+00:34:21,000 --> 00:34:26,000
+ Die Seite gibt es auf Englisch und Deutsch, ihr könnt aber auch auf Englisch bleiben einfach.
+
+361
+00:34:26,000 --> 00:34:37,000
+ So, und zwar möchte ich, dass ihr mir die Wikipedia-Seite mit der Liste von sexuell aktiven Pepsten findet.
+
+362
+00:34:37,000 --> 00:34:44,000
+ Ja, die Seite gibt es wirklich.
+
+363
+00:34:44,000 --> 00:34:46,000
+ Okay.
+
+364
+00:34:46,000 --> 00:34:48,000
+ Das ging schnell.
+
+365
+00:34:48,000 --> 00:34:50,000
+ What?
+
+366
+00:34:50,000 --> 00:34:55,000
+ War die da? Wie hast du das? Das musst du mir jetzt erklären.
+
+367
+00:34:55,000 --> 00:34:57,000
+ Drück mal auf zurück.
+
+368
+00:34:57,000 --> 00:35:00,000
+ Okay, oh, die war direkt verlinkt.
+
+369
+00:35:00,000 --> 00:35:04,000
+ Okay, mein Fehler.
+
+370
+00:35:04,000 --> 00:35:06,000
+ Okay.
+
+371
+00:35:06,000 --> 00:35:09,000
+ Ja, dann würde ich sagen...
+
+372
+00:35:09,000 --> 00:35:11,000
+ Okay.
+
+373
+00:35:11,000 --> 00:35:15,000
+ Fair game, du hast das direkt gefunden. Der Punkt geht an dich.
+
+374
+00:35:15,000 --> 00:35:16,000
+ Okay.
+
+375
+00:35:16,000 --> 00:35:25,000
+ So, damit steht es 7 zu 3.
+
+376
+00:35:25,000 --> 00:35:27,000
+ Okay.
+
+377
+00:35:27,000 --> 00:35:31,000
+ Jedes Spiel gibt dir einen Punkt mehr als das vorherige, ne?
+
+378
+00:35:31,000 --> 00:35:33,000
+ Ah.
+
+379
+00:35:33,000 --> 00:35:35,000
+ So.
+
+380
+00:35:35,000 --> 00:35:40,000
+ Als nächstes möchte ich meinen Gastmoderator Mardonius auf die Bühne bitten.
+
+381
+00:35:41,000 --> 00:35:47,000
+ Beziehungsweise, wie wir ihn heute nennen, The Elton mit "Äh", er kommt aus The Land.
+
+382
+00:35:47,000 --> 00:35:52,000
+ Und er spielt mit uns eine Variation von blamieren oder kassieren.
+
+383
+00:35:52,000 --> 00:35:55,000
+ Wir spielen nämlich "GPT or Human".
+
+384
+00:35:55,000 --> 00:36:03,000
+ Das Spiel sieht wie folgt aus. Ich habe mehrere Prompts, sowohl Menschen als auch einer KI vorgesetzt.
+
+385
+00:36:04,000 --> 00:36:12,000
+ Und Mardonius wird euch sowohl die Prompt als auch eine Antwort darauf vorlesen.
+
+386
+00:36:12,000 --> 00:36:21,000
+ Wer von euch meint zu wissen, ob diese Antwort von einem Menschen oder einer KI stammt, darf rausrufen.
+
+387
+00:36:21,000 --> 00:36:28,000
+ Wenn es richtig ist, geht der Punkt an euch. Wenn es falsch ist, geht der Punkt an den Gegner.
+
+388
+00:36:28,000 --> 00:36:33,000
+ Wir spielen "Best of Five", das heißt maximal 5 Runden.
+
+389
+00:36:33,000 --> 00:36:39,000
+ Und wir haben eine Bonusfrage. Wollen wir die eigentlich besonders bewerten?
+
+390
+00:36:39,000 --> 00:36:41,000
+ Welche Bonusfrage meinst du denn?
+
+391
+00:36:41,000 --> 00:36:43,000
+ Ich meine die da.
+
+392
+00:36:43,000 --> 00:36:45,000
+ Die gibt es genauso.
+
+393
+00:36:45,000 --> 00:36:49,000
+ Die gibt es genauso. Wollen wir dann drei Optionen?
+
+394
+00:36:49,000 --> 00:36:57,000
+ Okay. Ja, es gibt bei einer Frage drei Optionen.
+
+395
+00:36:58,000 --> 00:37:04,000
+ Gibt es drei Optionen? Erwachsener Mensch, fünfjähriges Kind oder KI?
+
+396
+00:37:04,000 --> 00:37:13,000
+ Also, genau. Ich würde als erstes die Prompt vorlesen, dann die Antworten und erst dann,
+
+397
+00:37:13,000 --> 00:37:19,000
+ ich meine, wenn ihr euch sicher seid, könnt ihr mich auch unterbrechen, während ich eine Prompt vorlese und reingrätschen.
+
+398
+00:37:19,000 --> 00:37:26,000
+ Wenn nicht, dann werdet ihr halt ausgelacht, wenn ihr dann trotzdem falsch bleibt.
+
+399
+00:37:27,000 --> 00:37:28,000
+ Das ist euer Problem, ne? Okay.
+
+400
+00:37:28,000 --> 00:37:36,000
+ Also, Prompt Nummer eins. Erkläre in wenigen Sätzen, was eine Grafikkarte ist.
+
+401
+00:37:36,000 --> 00:37:39,000
+ Technische Details sind nicht notwendig.
+
+402
+00:37:39,000 --> 00:37:47,000
+ Erste Antwort. Die Grafikkarte ist eine Erweiterungskarte für einen Computer,
+
+403
+00:37:47,000 --> 00:37:54,000
+ welcher die Videoausgabe steuert. Das wurde so nicht geschrieben, das ist einfach nur meine Unfähigkeit vorzulesen.
+
+404
+00:37:55,000 --> 00:38:04,000
+ Antwort Nummer zwei. Die Grafikkarte dient dazu, das Bild auf einen oder mehreren Bild angeschlossenen Monitore anzuzeigen.
+
+405
+00:38:04,000 --> 00:38:10,000
+ Soll ich reinrufen?
+
+406
+00:38:10,000 --> 00:38:12,000
+ Ja, wenn du glaubst.
+
+407
+00:38:12,000 --> 00:38:17,000
+ Also, ich glaube, das erste ist von einer KI und das zweite ist von einem Menschen.
+
+408
+00:38:17,000 --> 00:38:24,000
+ Das, um was sagst du? Also eigentlich nicht, ne?
+
+409
+00:38:24,000 --> 00:38:29,000
+ Also, wenn er jetzt falsch lag, dann kriegt er es. Ja, du lagst falsch. Gratuliere, du hast einen Punkt.
+
+410
+00:38:29,000 --> 00:38:33,000
+ Um die Punkte zu dranken, darfst du die Karte behalten.
+
+411
+00:38:33,000 --> 00:38:36,000
+ Mit meiner wunderschönen Handschrift zusammengeknaupert.
+
+412
+00:38:36,000 --> 00:38:38,000
+ Das sagt gar nichts mehr.
+
+413
+00:38:38,000 --> 00:38:46,000
+ So, zwei. Nenne in drei Stichpunkten, was beim Löten zu beachten ist.
+
+414
+00:38:47,000 --> 00:38:56,000
+ A. Lötkolben erhitzen. Lötstellen erhitzen, Löt aufbringen und mit dem Kolben erhitzen.
+
+415
+00:38:56,000 --> 00:39:09,000
+ Zwei. Ein Lötkolben muss die richtige Temperatur haben, das Löt muss die richtige Temperatur haben.
+
+416
+00:39:10,000 --> 00:39:20,000
+ Die Lötstelle muss lang genug erhitzt werden, um einen guten Kontakt zu erhalten.
+
+417
+00:39:20,000 --> 00:39:27,000
+ Darf ich mal kurz die Karte zurück haben? Danke, wir müssen die falten.
+
+418
+00:39:27,000 --> 00:39:32,000
+ Ich hab's zwar randomisiert, aber trotzdem.
+
+419
+00:39:33,000 --> 00:39:40,000
+ Ich lass dir den Vortritt, ich hab wieder eine falsche Vermutung.
+
+420
+00:39:40,000 --> 00:39:45,000
+ Ich glaub, das längere, das ist das zweite von der KI.
+
+421
+00:39:45,000 --> 00:39:48,000
+ Das zweite? Ja. Das ist richtig.
+
+422
+00:39:48,000 --> 00:39:53,000
+ Falten und geben. Hätte ich doch geantwortet.
+
+423
+00:39:53,000 --> 00:39:59,000
+ So, Frage Nummer eins. Achso, Frage Nummer drei.
+
+424
+00:40:00,000 --> 00:40:04,000
+ Es geht hier gerade um Matchpoint, wenn er den kriegt, war's das.
+
+425
+00:40:04,000 --> 00:40:10,000
+ Muss aufpassen. Beschreibe mir kurz die Funktion eines Computergehäuses
+
+426
+00:40:10,000 --> 00:40:14,000
+ und versuche mich dabei, mich davon zu überzeugen, dass du ein Mensch bist.
+
+427
+00:40:14,000 --> 00:40:26,000
+ Ein Computergehäuse schützt die Komponenten im Computer und hilft bei der Kühlung, indem er den Luftzug definiert.
+
+428
+00:40:27,000 --> 00:40:33,000
+ Ich bin ein Mensch. Das war von der KI.
+
+429
+00:40:33,000 --> 00:40:37,000
+ Okay, der hat geantwortet. Du hast gesagt, das sei von Menschen gewesen.
+
+430
+00:40:37,000 --> 00:40:43,000
+ Ja. Lalalala, ich muss gerade kurz identifizieren, was ich hier gerade vor...
+
+431
+00:40:43,000 --> 00:40:46,000
+ Ich weiß es selber nicht.
+
+432
+00:40:46,000 --> 00:40:56,000
+ Du hast gesagt, es ist ein Mensch. Das erste. Hat er auch gesagt, es ist ein Mensch.
+
+433
+00:40:56,000 --> 00:41:02,000
+ Ja. Darf ich das zweite vorlesen? Wir behalten das mal. Ich lese trotzdem das zweite mal vor.
+
+434
+00:41:02,000 --> 00:41:09,000
+ Computergehäuse sind dafür da, alle PC-Komponenten aufgeräumt und kompakt zu verstauen und zu schützen.
+
+435
+00:41:09,000 --> 00:41:14,000
+ Ich bin ein Mensch. Ah nein.
+
+436
+00:41:14,000 --> 00:41:25,000
+ Bleibst du bei deiner Antwort? Ja, danke. Danke.
+
+437
+00:41:25,000 --> 00:41:32,000
+ So, das ist immer noch der Matchpoint. Diesmal gibt es drei Optionen.
+
+438
+00:41:32,000 --> 00:41:41,000
+ Ich würde sagen, das Kind und der Mensch zählt als... Also beides gilt als Antwort.
+
+439
+00:41:41,000 --> 00:41:52,000
+ Das war ein Mensch oder in dem Fall keine KI. Wer erräht, was das Kind gesagt hat, kriegt einen halben Punkt extra.
+
+440
+00:41:53,000 --> 00:41:58,000
+ Ich weiß nicht, wie du das auswerten willst, aber ja. Halber Punkt extra.
+
+441
+00:41:58,000 --> 00:42:02,000
+ Es macht zwar am Ende keinen Unterschied, aber es gibt ein bisschen was extra.
+
+442
+00:42:02,000 --> 00:42:13,000
+ So. Ja bitte. Beschreibe mir... Wie alt ist das Kind? Das wirst du erfahren.
+
+443
+00:42:14,000 --> 00:42:26,000
+ Beschreibe mir, wie ein fünfjähriges Kind, wie man mit einem ECE fährt. Eins. Und dann sind wir mit dem schnellen Zug in den Urlaub gefahren.
+
+444
+00:42:26,000 --> 00:42:32,000
+ Zwei. Du gehst an den Bahnhof und dann steht da ganz viele Züge.
+
+445
+00:42:32,000 --> 00:42:40,000
+ Dann steigst du in deinen Zug ein, wo ECE drauf steht, und dann versteckst du dich vor der Fahrkartenkontrolle.
+
+446
+00:42:41,000 --> 00:42:47,000
+ Drei. Zur Haltestelle warten, hinsetzen und dann fahren.
+
+447
+00:42:47,000 --> 00:42:55,000
+ Ich gebe einen extra halben Punkt, weil ich großzügig bin.
+
+448
+00:42:55,000 --> 00:43:02,000
+ Magst du das erste nochmal vorlesen? Und dann sind wir mit dem schnellen Zug in den Urlaub gefahren.
+
+449
+00:43:09,000 --> 00:43:20,000
+ Ja. Soll ich als erstes machen? Wenn du magst. Ich traue mich nicht.
+
+450
+00:43:20,000 --> 00:43:31,000
+ Also ich kann mir vorstellen, dass das erste von einer KI kommt, das zweite von einem Kind und das dritte von einem Erwachsenen.
+
+451
+00:43:36,000 --> 00:43:39,000
+ Dann nochmal die Zettel sehen. Ich muss ja noch einmal...
+
+452
+00:43:39,000 --> 00:43:44,000
+ Muss er jetzt alle drei korrekt zugewiesen haben? Oder reicht das?
+
+453
+00:43:44,000 --> 00:43:48,000
+ Wenn er den Bonuspunkt will, dann muss er alle drei richtig haben.
+
+454
+00:43:48,000 --> 00:43:50,000
+ Wenn eins falsch ist?
+
+455
+00:43:50,000 --> 00:43:54,000
+ Wenn er die KI richtig findet, dann gibt es den Punkt.
+
+456
+00:43:54,000 --> 00:43:56,000
+ Dann?
+
+457
+00:43:56,000 --> 00:44:01,000
+ Was hast du gesagt, was das erste ist?
+
+458
+00:44:02,000 --> 00:44:09,000
+ Das erste habe ich gesagt, ist die KI gewesen. Das zweite ist ein Kind und das dritte wäre Erwachsener.
+
+459
+00:44:09,000 --> 00:44:27,000
+ Matchpoint. Und zwar diesmal wirklich. Du legst mit nur einem Punkt vor. Du hast das Kind und das Erwachsenen komplett vertauscht.
+
+460
+00:44:28,000 --> 00:44:32,000
+ Ich bin auch überrascht, wie effizient Fünfjährige kommunizieren können. Da sollten manche Erwachsene wohl lernen.
+
+461
+00:44:32,000 --> 00:44:42,000
+ Also, die Prompt. Letzter Punkt. Jetzt geht es um das Spiel, um die Runde.
+
+462
+00:44:42,000 --> 00:44:48,000
+ Was ist der Unterschied zwischen Laptop und Desktop? Antworten in drei Sätzen.
+
+463
+00:44:50,000 --> 00:45:09,000
+ Erste Antwort. Der Unterschied zwischen Laptop und Desktop ist der Formfaktor. Laptops sind transportabel und aufgrund des Formfaktors haben meist mehr Platz, was es erlaubt größere und leistungsfähige Komponenten zu verbauen.
+
+464
+00:45:10,000 --> 00:45:20,000
+ Zwei. Ein Laptop passt auf deinen Schoß, ist zusammenklappbar und hat eingebaute Peripherie. Bildschirme, Tastatur, Touchpad.
+
+465
+00:45:20,000 --> 00:45:34,000
+ Ein Desktop steht auf deinem Schreibtisch, ist meist größer und hat keine eingebaute Peripherie. Also unterscheiden sich Laptop und Desktop durch die Peripherie und Mobilität.
+
+466
+00:45:34,000 --> 00:45:36,000
+ Das zweite ist die KI.
+
+467
+00:45:36,000 --> 00:45:39,000
+ Er war schneller. Was hast du gesagt?
+
+468
+00:45:39,000 --> 00:45:40,000
+ Das zweite ist die KI.
+
+469
+00:45:40,000 --> 00:45:44,000
+ Hat er das auch wirklich gesagt? Ok, sehr gut.
+
+470
+00:45:44,000 --> 00:45:47,000
+ Ja, ähm...
+
+471
+00:45:47,000 --> 00:45:52,000
+ Das ist dein Punkt, oder? Nee, mach ich.
+
+472
+00:45:52,000 --> 00:45:56,000
+ Wenn es falsch wäre... Moment.
+
+473
+00:46:01,000 --> 00:46:09,000
+ Gratuliere. Aber weißt du, zum Trost, du hättest auch einfach nur mit einem halben Punkt hinten liegen können, statt einem ganzen.
+
+474
+00:46:09,000 --> 00:46:13,000
+ Dann, schön, Dank, dass ich da sein durfte.
+
+475
+00:46:13,000 --> 00:46:17,000
+ Vielen Dank an Der Eltert mit Äh.
+
+476
+00:46:20,000 --> 00:46:36,000
+ So, dann muss ich mal meine Punkte-Liste aktualisieren. Du hast gewonnen mit, hast damit fünf Punkte mehr. So, wie liegen wir denn in der Zeit? Wir haben noch zehn Minuten.
+
+477
+00:46:36,000 --> 00:46:38,000
+ Oh, schnell was löten. Ja.
+
+478
+00:46:38,000 --> 00:46:46,000
+ Eine Person hat mir vorhin einen Kugelschreiber geliehen. Ich bin hier neben der Bühne.
+
+479
+00:46:46,000 --> 00:46:48,000
+ Ok.
+
+480
+00:46:48,000 --> 00:46:49,000
+ Ok.
+
+481
+00:46:49,000 --> 00:46:51,000
+ So.
+
+482
+00:46:51,000 --> 00:47:04,000
+ Da wir nur noch zehn Minuten haben und etwas hinten liegen, müssen wir leider zwei Spiele ausfallen lassen. Das eine ist, wofür ihr den Lötkolben gebraucht hättet.
+
+483
+00:47:04,000 --> 00:47:07,000
+ Oh, schade. Ist natürlich ein bisschen schade.
+
+484
+00:47:07,000 --> 00:47:12,000
+ Machen wir Big Stage. Ja.
+
+485
+00:47:12,000 --> 00:47:14,000
+ Eins gegen eins.
+
+486
+00:47:15,000 --> 00:47:19,000
+ Alle Spiele, dann müsst ihr mit dem DJ, der nach mir kommt, reden, dass der später anfängt.
+
+487
+00:47:19,000 --> 00:47:21,000
+ Ja.
+
+488
+00:47:21,000 --> 00:47:23,000
+ Du sorgst dafür oder wie?
+
+489
+00:47:23,000 --> 00:47:28,000
+ Ok, gut. Dann spielen wir jetzt doch das Lötspiel.
+
+490
+00:47:28,000 --> 00:47:36,000
+ Ihr kriegt Bausätze und müsst die löten. So. Wie ist denn eure Löterfahrung so?
+
+491
+00:47:36,000 --> 00:47:38,000
+ Gut.
+
+492
+00:47:38,000 --> 00:47:40,000
+ Jo.
+
+493
+00:47:40,000 --> 00:47:43,000
+ Ok. Wolltet ihr die einfachen oder die schwierigen Bausätze?
+
+494
+00:47:44,000 --> 00:47:45,000
+ Schwierig.
+
+495
+00:47:45,000 --> 00:47:48,000
+ Sicher? Ganz sicher, dass ihr die schwierigen wollt?
+
+496
+00:47:48,000 --> 00:47:51,000
+ Ich hoffe, dieser Akku sollte erreichen.
+
+497
+00:47:51,000 --> 00:47:53,000
+ Haben wir Strom?
+
+498
+00:47:53,000 --> 00:47:58,000
+ Ja, hier unten ist irgendwo Strom. Du darfst dich anstecken, du hast deinen Strom selber dabei.
+
+499
+00:47:58,000 --> 00:48:00,000
+ So.
+
+500
+00:48:00,000 --> 00:48:05,000
+ Es gibt hier diese wunderschönen Hilfskärtchen.
+
+501
+00:48:05,000 --> 00:48:11,000
+ So, da brauchen wir dann auch gleich unsere Close-Up-Kamera vor Ort.
+
+502
+00:48:12,000 --> 00:48:15,000
+ Genau, die Laptops schieben wir einfach mal ein bisschen in die Mitte.
+
+503
+00:48:15,000 --> 00:48:25,000
+ Ihr kriegt diese Kärtchen und jeder bekommt einen Bausatz, der heißt Nibble++ und ist eine Löt-Challenge.
+
+504
+00:48:25,000 --> 00:48:29,000
+ Einige im Publikum kennen die Löt-Challenge.
+
+505
+00:48:29,000 --> 00:48:34,000
+ Noch nicht auspacken bitte, wir warten bis ihr beide bereit seid.
+
+506
+00:48:35,000 --> 00:48:42,000
+ Ich würde ein Zeitlimit setzen und im Zweifelsfall gewinnt derjenige, der innerhalb der Zeit weiter ist.
+
+507
+00:48:42,000 --> 00:48:46,000
+ Ich würde sagen, wir nehmen einfach mal 10 Minuten.
+
+508
+00:48:46,000 --> 00:48:48,000
+ Kennst du das?
+
+509
+00:48:48,000 --> 00:48:50,000
+ Ähm, kennst du es?
+
+510
+00:48:50,000 --> 00:48:52,000
+ Nein, ich kenn's nicht.
+
+511
+00:48:52,000 --> 00:48:55,000
+ Ich vorbereite mal kurz den Timer.
+
+512
+00:48:55,000 --> 00:49:00,000
+ So, wo ist denn die Uhr hier? Timer auf 10 Minuten.
+
+513
+00:49:00,000 --> 00:49:03,000
+ 10 Minuten.
+
+514
+00:49:04,000 --> 00:49:09,000
+ An die Lötkolben, fertig und los!
+
+515
+00:49:09,000 --> 00:49:13,000
+ Passt auf, dass ihr nichts verliert, ne?
+
+516
+00:49:13,000 --> 00:49:18,000
+ Für die, die diese Löt-Challenge nicht kennen,
+
+517
+00:49:18,000 --> 00:49:25,000
+ das Nibble++ ist eine kleine Runde Platine mit Widerständen und LEDs drauf.
+
+518
+00:49:25,000 --> 00:49:30,000
+ Und die Bauteile werden nach und nach immer kleiner.
+
+519
+00:49:31,000 --> 00:49:35,000
+ Es sind alles Surface-Mount-Teile, die sind also alle auf der Oberfläche drauf.
+
+520
+00:49:35,000 --> 00:49:38,000
+ Ja, sehr cool.
+
+521
+00:49:38,000 --> 00:49:44,000
+ Und die werden immer kleiner. Ich glaube, das kleinste Bauteil ist irgendwie 0,5 auf 0,5 Millimeter.
+
+522
+00:49:44,000 --> 00:49:46,000
+ Darf ich jemanden für eine Pinzette anrufen?
+
+523
+00:49:46,000 --> 00:49:48,000
+ Natürlich, das deckt das Ganze dir.
+
+524
+00:49:48,000 --> 00:49:50,000
+ Ja, ich brauch auch eine Pinzette.
+
+525
+00:49:50,000 --> 00:49:54,000
+ Ja, ihr dürft auch, also ihr dürft gerne den Telefon-Joker nutzen.
+
+526
+00:49:54,000 --> 00:49:59,000
+ Äh, SMD ohne Pinzette löten, wie soll das gehen?
+
+527
+00:50:00,000 --> 00:50:04,000
+ Ja, das hätte ich mir vielleicht auch vorher überlegen müssen.
+
+528
+00:50:04,000 --> 00:50:09,000
+ Warte, ich hab eine.
+
+529
+00:50:09,000 --> 00:50:13,000
+ Du hast eine? Du hast dir eine gebaut, oh, sehr kreativ.
+
+530
+00:50:13,000 --> 00:50:20,000
+ Okay, unser Spieler 1 fängt schon an zu löten, einfach ganz grob ohne allem.
+
+531
+00:50:20,000 --> 00:50:22,000
+ Wenn man löten kann, funktioniert das auch?
+
+532
+00:50:22,000 --> 00:50:24,000
+ Gibt's hier noch?
+
+533
+00:50:25,000 --> 00:50:30,000
+ Beziehungsweise, nee, es sind bereits, nee, ihr habt noch 8 Minuten 40, Sohn.
+
+534
+00:50:30,000 --> 00:50:36,000
+ Oh, Spieler 2 bekommt eine Pinzette zur Verfügung gestellt.
+
+535
+00:50:36,000 --> 00:50:38,000
+ Danke.
+
+536
+00:50:38,000 --> 00:50:40,000
+ Vielleicht kommt für Spieler 1 auch noch eine.
+
+537
+00:50:40,000 --> 00:50:42,000
+ Was ist das Bewertungskriterium?
+
+538
+00:50:42,000 --> 00:50:48,000
+ Naja, ich glaub, die Batterie fehlt, oder? Ist keine dabei?
+
+539
+00:50:48,000 --> 00:50:54,000
+ Ja, dann zählen wir wohl, wer die meisten Bauteile auflötet, glaube ich.
+
+540
+00:50:55,000 --> 00:50:58,000
+ Wir bewerten aber auch, ob sie gut aussehen.
+
+541
+00:50:58,000 --> 00:51:04,000
+ Also wenn die Bauteile da einfach nur drauf gestreut sind, wie so eine Prise Salz, das zählt natürlich nicht.
+
+542
+00:51:04,000 --> 00:51:18,000
+ So, du hast den Schalter schon dran, so halb.
+
+543
+00:51:18,000 --> 00:51:21,000
+ Wie sieht's bei dir aus?
+
+544
+00:51:22,000 --> 00:51:24,000
+ Du verzinnst erst mal alles vor, okay.
+
+545
+00:51:24,000 --> 00:51:26,000
+ Ja, ist schlau.
+
+546
+00:51:26,000 --> 00:51:29,000
+ Ich hätte nicht beide Seiten machen sollen, ich hab mich irgendwie vergessen.
+
+547
+00:51:29,000 --> 00:51:31,000
+ Tja.
+
+548
+00:51:31,000 --> 00:51:36,000
+ So.
+
+549
+00:51:36,000 --> 00:51:40,000
+ Ist natürlich schlau, du fängst mit den groben Bauteilen an.
+
+550
+00:51:40,000 --> 00:51:44,000
+ Du hast ja natürlich direkt den IC mit den vielen Beinchen gesucht.
+
+551
+00:51:44,000 --> 00:51:47,000
+ Den richtig anzulöten.
+
+552
+00:51:48,000 --> 00:51:52,000
+ Mein Mikrofon ist leer.
+
+553
+00:51:52,000 --> 00:52:08,000
+ Ja, der Akku von meinem Mikrofon ist grad leer gegangen und beim Tontechnikstand ist niemand mehr.
+
+554
+00:52:08,000 --> 00:52:11,000
+ Wenn da mal jemand herkommen möchte, wär das ganz toll.
+
+555
+00:52:11,000 --> 00:52:15,000
+ Ich brauch's grad nicht, du kannst es hier auch mitnehmen.
+
+556
+00:52:16,000 --> 00:52:18,000
+ Soll ich hier was reden?
+
+557
+00:52:18,000 --> 00:52:43,000
+ Ist unfair zu lachen.
+
+558
+00:52:43,000 --> 00:52:45,000
+ So, hallo hallo.
+
+559
+00:52:45,000 --> 00:52:49,000
+ Ja, was wäre so eine Show ohne technische Schwierigkeiten, ne?
+
+560
+00:52:49,000 --> 00:52:52,000
+ Wir haben noch 6 Minuten für euch.
+
+561
+00:52:52,000 --> 00:52:55,000
+ Wie sieht's aus?
+
+562
+00:52:55,000 --> 00:52:58,000
+ Du bist auf der einen Seite schon fast fertig, so wie es aussieht.
+
+563
+00:52:58,000 --> 00:53:01,000
+ Und was machst du?
+
+564
+00:53:01,000 --> 00:53:04,000
+ Ich hab noch 6 Minuten für euch.
+
+565
+00:53:04,000 --> 00:53:07,000
+ Und was machst du?
+
+566
+00:53:07,000 --> 00:53:10,000
+ Ich hab noch 6 Minuten für euch.
+
+567
+00:53:11,000 --> 00:53:13,000
+ Und was machst du?
+
+568
+00:53:13,000 --> 00:53:16,000
+ Ich habe keine Pinzette.
+
+569
+00:53:16,000 --> 00:53:19,000
+ Du hast doch da eine liegen neben dir.
+
+570
+00:53:19,000 --> 00:53:23,000
+ Ok, du hast eine schlechte Pinzette, das ist natürlich auch schlecht.
+
+571
+00:53:23,000 --> 00:53:27,000
+ So, wie sieht's bei dir aus?
+
+572
+00:53:27,000 --> 00:53:30,000
+ Hast du eine gute Pinzette?
+
+573
+00:53:30,000 --> 00:53:34,000
+ Ne, ich hab keine gute Pinzette und ich glaub deinen Gegner auch nicht.
+
+574
+00:53:34,000 --> 00:53:38,000
+ Der hat auch eine, aber nutzt sie nicht.
+
+575
+00:53:39,000 --> 00:53:41,000
+ Ok, so, noch 5,5 Minuten.
+
+576
+00:53:41,000 --> 00:53:44,000
+ Oh nee.
+
+577
+00:53:44,000 --> 00:53:53,000
+ So, Spieler 1 ist jetzt auch hier am Schalter angekommen, den Spieler 2 als erstes aufgelötet hat.
+
+578
+00:53:53,000 --> 00:53:56,000
+ Ich glaube, da ist gerade was runtergefallen.
+
+579
+00:53:56,000 --> 00:53:59,000
+ Und dir ist gerade wieder was runtergefallen?
+
+580
+00:53:59,000 --> 00:54:01,000
+ Ja.
+
+581
+00:54:01,000 --> 00:54:04,000
+ Das ist natürlich schlecht, ich hoffe nicht auf den Boden, oder?
+
+582
+00:54:04,000 --> 00:54:08,000
+ Also wenn dir was auf den Boden gefallen ist, ist schlecht, weil die Teile sind klein.
+
+583
+00:54:08,000 --> 00:54:15,000
+ Also auch ein bisschen gemein, nur 10 Minuten für die Challenge zu haben.
+
+584
+00:54:15,000 --> 00:54:21,000
+ Ich glaube laut Webseite braucht man 20 oder so, wenn man geübt ist.
+
+585
+00:54:21,000 --> 00:54:46,000
+ So, du hast jetzt auch den einen IC mit aufgelötet und du beginnst nun mit den Widerständen oder LEDs.
+
+586
+00:54:46,000 --> 00:54:48,000
+ Ich weiß nicht genau, was es ist.
+
+587
+00:54:48,000 --> 00:54:50,000
+ Widerstände.
+
+588
+00:54:50,000 --> 00:54:54,000
+ Ok, du fängst mit den ganz kleinen Teilen an oder machst mit den ganz kleinen Teilen weiter.
+
+589
+00:54:54,000 --> 00:54:58,000
+ Und Spieler 1 ist derweil an aufgegeben.
+
+590
+00:54:58,000 --> 00:55:00,000
+ Du hast aufgegeben?
+
+591
+00:55:00,000 --> 00:55:02,000
+ Den Schalter anzuwirken.
+
+592
+00:55:02,000 --> 00:55:04,000
+ Ach, den Schalter, oh, du hast am Schalter schon aufgegeben.
+
+593
+00:55:04,000 --> 00:55:06,000
+ Ja, es ist nicht so heiß hier.
+
+594
+00:55:06,000 --> 00:55:11,000
+ Ja, der ist schon auf Maximum, die Lötstation ist wohl nicht so toll.
+
+595
+00:55:11,000 --> 00:55:13,000
+ Nee.
+
+596
+00:55:14,000 --> 00:55:21,000
+ Ihr habt noch knapp 4 Minuten Zeit, die Hälfte der Zeit, nee, über die Hälfte der Zeit ist um.
+
+597
+00:55:21,000 --> 00:55:26,000
+ Du machst gerade die größten Pads mit dem schwächsten Lötkolben, ne?
+
+598
+00:55:26,000 --> 00:55:29,000
+ Kann man natürlich auch versuchen.
+
+599
+00:55:29,000 --> 00:55:32,000
+ So, wie sieht es bei dir aus?
+
+600
+00:55:32,000 --> 00:55:37,000
+ Du, oh, da gibt es Service.
+
+601
+00:55:37,000 --> 00:55:40,000
+ Ich würde sagen, das Set dürfen sich beide teilen.
+
+602
+00:55:40,000 --> 00:55:42,000
+ Oh ja.
+
+603
+00:55:43,000 --> 00:55:46,000
+ Doch, sag ich jetzt so, das Pinzettenset dürfen sich beide teilen.
+
+604
+00:55:46,000 --> 00:55:48,000
+ Na, ich hab ja.
+
+605
+00:55:48,000 --> 00:55:50,000
+ Ok, wenn du zufrieden bist.
+
+606
+00:55:50,000 --> 00:55:56,000
+ Der Wind macht es halt auch nicht einfacher, falls die Bauteile gleich wegfliegen.
+
+607
+00:55:56,000 --> 00:55:59,000
+ Ja, ich halte hier drauf, das passiert nicht, das ist ein bisschen schlimm.
+
+608
+00:55:59,000 --> 00:56:02,000
+ Noch 3 Minuten.
+
+609
+00:56:02,000 --> 00:56:05,000
+ Fertig werden wohl beide nicht.
+
+610
+00:56:05,000 --> 00:56:09,000
+ Aber wir schauen trotzdem mal, wer die meisten Bauteile drauf bekommt.
+
+611
+00:56:09,000 --> 00:56:11,000
+ Eins wäre nicht schlecht bei mir.
+
+612
+00:56:12,000 --> 00:56:17,000
+ Ihr dürft die Set natürlich auch mitnehmen und daheim fertig machen.
+
+613
+00:56:17,000 --> 00:56:31,000
+ Du versuchst es doch nochmal mit dem Schalter.
+
+614
+00:56:31,000 --> 00:56:33,000
+ Ok.
+
+615
+00:56:33,000 --> 00:56:37,000
+ Ja, der Batteriehalter ist auch ein bisschen, der braucht ein bisschen viel Energie, glaube ich.
+
+616
+00:56:37,000 --> 00:56:38,000
+ So.
+
+617
+00:56:38,000 --> 00:56:41,000
+ Oh, was ist das denn? Ich hab mir die falsche rausgenommen.
+
+618
+00:56:41,000 --> 00:56:44,000
+ Ja, das ist natürlich schlecht, wenn du dir die falsche Pinzette rausnimmst.
+
+619
+00:56:44,000 --> 00:56:46,000
+ Jetzt hast du schon die Auswahl, ne?
+
+620
+00:56:46,000 --> 00:56:48,000
+ Ah.
+
+621
+00:56:48,000 --> 00:56:55,000
+ Na?
+
+622
+00:56:55,000 --> 00:57:00,000
+ So, aber es sieht ganz danach aus, als würde Spieler 2 deutlich vorne liegen in dieser Runde.
+
+623
+00:57:02,000 --> 00:57:07,000
+ Noch 1 Minute und 50 Sekunden.
+
+624
+00:57:07,000 --> 00:57:16,000
+ Ja, der Zeitdruck, der macht natürlich auch nicht die Hände ruhiger, ne?
+
+625
+00:57:16,000 --> 00:57:19,000
+ Ja, das ist ein bisschen ein bisschen zu spät.
+
+626
+00:57:19,000 --> 00:57:22,000
+ Aber es ist ein bisschen zu spät.
+
+627
+00:57:22,000 --> 00:57:25,000
+ Ja, das ist ein bisschen zu spät.
+
+628
+00:57:26,000 --> 00:57:32,000
+ Ja, der Zeitdruck, der macht natürlich auch nicht die Hände ruhiger, ne?
+
+629
+00:57:32,000 --> 00:57:33,000
+ Ja, das ist ein bisschen zu spät.
+
+630
+00:57:33,000 --> 00:57:34,000
+ Ja, das ist ein bisschen zu spät.
+
+631
+00:58:01,000 --> 00:58:07,000
+ Du wirst dich nochmal an den Batteriefach, während du hier in die SMD-Bauteile versuchst auszupacken.
+
+632
+00:58:07,000 --> 00:58:10,000
+ Noch 1 Minute.
+
+633
+00:58:10,000 --> 00:58:16,000
+ Ich mach den Controller. Ich mach den Hauptcontroller auf die Rückseite.
+
+634
+00:58:16,000 --> 00:58:19,000
+ Ja, versuch dich mal dran. 50 Sekunden.
+
+635
+00:58:19,000 --> 00:58:20,000
+ Okay.
+
+636
+00:58:20,000 --> 00:58:36,000
+ Okay.
+
+637
+00:58:36,000 --> 00:58:39,000
+ So, wir dürfen ein bisschen überziehen, habe ich gerade gesagt, bekommen.
+
+638
+00:58:39,000 --> 00:58:44,000
+ Das heißt, ich denke mal, ein kleines Spiel kriegen wir danach noch durch.
+
+639
+00:58:44,000 --> 00:58:47,000
+ Ihr habt noch 22 Sekunden.
+
+640
+00:58:48,000 --> 00:58:49,000
+ 20.
+
+641
+00:58:49,000 --> 00:58:54,000
+ 15.
+
+642
+00:58:54,000 --> 00:59:09,000
+ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1. Stopp! Lötkolben weg!
+
+643
+00:59:09,000 --> 00:59:15,000
+ So, wir werten aus, wer hat mehr Bauteile aufgelötet?
+
+644
+00:59:15,000 --> 00:59:17,000
+ Das ist nur eins.
+
+645
+00:59:17,000 --> 00:59:20,000
+ Na gut, ich würde mal sagen, alle die nicht... Ja, okay.
+
+646
+00:59:20,000 --> 00:59:24,000
+ Das fällt runter, das zählt nicht. Du hast ein Bauteil.
+
+647
+00:59:24,000 --> 00:59:32,000
+ Spieler 2 hingegen hat 1, 2, 3, 4, 5, 6, ja, 5,5.
+
+648
+00:59:32,000 --> 00:59:34,000
+ 5,5.
+
+649
+00:59:34,000 --> 00:59:37,000
+ So, der Punkt geht an Spieler 2.
+
+650
+00:59:37,000 --> 00:59:42,000
+ Das war Spiel Nummer 6 und gibt somit 6 Punkte.
+
+651
+00:59:43,000 --> 00:59:50,000
+ Als letztes Spiel, da wir ein bisschen überziehen können, würde ich sagen, spielen wir eine Runde Lockpicking.
+
+652
+00:59:50,000 --> 00:59:55,000
+ Dazu begrüße ich unseren Lockpicking-Meister auf die Bühne.
+
+653
+00:59:55,000 --> 01:00:01,000
+ Er wird euch auch kurz einweisen und erklären, was ihr machen müsst.
+
+654
+01:00:01,000 --> 01:00:06,000
+ Kurzum, ihr habt eine Box mit zwei Schlössern.
+
+655
+01:00:06,000 --> 01:00:09,000
+ Oder ich würde sagen, wir machen nur eins.
+
+656
+01:00:10,000 --> 01:00:14,000
+ Wir machen nur eins, damit wir schneller durch sind.
+
+657
+01:00:14,000 --> 01:00:19,000
+ Ihr kriegt Werkzeuge und das Schloss. Wer es zuerst aufkriegt, hat gewonnen. Ganz einfach.
+
+658
+01:00:19,000 --> 01:00:27,000
+ Wisst ihr denn, wie das geht überhaupt? Oder soll ich euch vorher noch mal kurz zeigen, wie das geht? Die Schlösser sind noch nicht dran.
+
+659
+01:00:27,000 --> 01:00:29,000
+ Ich hätte gerne eine Einweisung.
+
+660
+01:00:29,000 --> 01:00:35,000
+ Ihr hättet gerne eine Einweisung. Dann musst du mal kurz für mich das Mikro halten, während ich zeige, wie das geht.
+
+661
+01:00:35,000 --> 01:00:39,000
+ Und der Kameramann kann ja auch mal näher kommen.
+
+662
+01:00:40,000 --> 01:00:42,000
+ Damit das Publikum auch was von hat.
+
+663
+01:00:42,000 --> 01:00:51,000
+ So, wir haben hier in der Kiste ein paar Schlösser und zwei Werkzeuge.
+
+664
+01:00:51,000 --> 01:01:00,000
+ Die in diesem Falle nur ein Werkzeug zum Stifte bewegen sind und ein Werkzeug zum Spannen.
+
+665
+01:01:00,000 --> 01:01:06,000
+ In dem Falle eine Haarnadel. Also sehr minimalistisch, aber die Schlösser sind auch sehr klein.
+
+666
+01:01:07,000 --> 01:01:15,000
+ Ich gebe mir Mühe. Mit diesen beiden Werkzeugen, ich mache mal das Schloss zu.
+
+667
+01:01:15,000 --> 01:01:21,000
+ So, dass die Kamera es sehen kann. Warte mal, ich muss es wieder so umdrehen, dass die Kamera es sehen kann.
+
+668
+01:01:21,000 --> 01:01:31,000
+ Das eine Werkzeug, diese Haarnadel in dem Falle, führe ich so in das Schloss ein, dass ich an dem Kern, das was der Schlüssel dreht, ein bisschen drehen kann.
+
+669
+01:01:32,000 --> 01:01:45,000
+ Jetzt kann ich so vorsichtig hier Spannen, nehme das andere Werkzeug und mit dem bewege ich die Stifte, die in dem Schließkern sind und die normalerweise von den Zacken des Schlüssels eingestellt werden.
+
+670
+01:01:45,000 --> 01:01:50,000
+ Und mit etwas Gefühl geht das Schloss auf.
+
+671
+01:01:55,000 --> 01:02:02,000
+ Dann gibt den Kandidaten ihre Werkzeuge, rüste die Boxen mit den Schlössern aus.
+
+672
+01:02:02,000 --> 01:02:07,000
+ Ihr könnt euch schon mal mit den Werkzeugen vertraut machen. Fragen gibt es von euch keine?
+
+673
+01:02:07,000 --> 01:02:09,000
+ Ich habe die Frage, wo ist das Halsband?
+
+674
+01:02:09,000 --> 01:02:11,000
+ Welches Halsband?
+
+675
+01:02:11,000 --> 01:02:20,000
+ Da musst du um Null Ort zu unserem Lockpick Village kommen, da wird doch mal eine Runde Shockpicking gespielt.
+
+676
+01:02:21,000 --> 01:02:27,000
+ Da sind ja normalerweise Fernbedienungen für den anderen drin und alle haben so ein Halsband um.
+
+677
+01:02:27,000 --> 01:02:31,000
+ Ja, das wäre nicht ganz familienfreundlich gewesen, glaube ich.
+
+678
+01:02:31,000 --> 01:02:34,000
+ Wir müssen aber die Werkzeuge rausnehmen.
+
+679
+01:02:34,000 --> 01:02:37,000
+ Achso, stimmt, ja. Okay, das wäre sonst ein bisschen unfair.
+
+680
+01:02:50,000 --> 01:02:53,000
+ Wer sein eigenes Pickset bei hat, darf das natürlich einsetzen.
+
+681
+01:02:53,000 --> 01:02:57,000
+ Habe ich nicht.
+
+682
+01:02:57,000 --> 01:03:09,000
+ Im Übrigen, es steht gerade... Oh, da kommt jemand mit einem Lockpicking-Set.
+
+683
+01:03:09,000 --> 01:03:14,000
+ Nein, das ist nah. Optional, nein, machen wir nicht.
+
+684
+01:03:14,000 --> 01:03:17,000
+ Diese Zuschauerinteraktion hier, herrlich.
+
+685
+01:03:18,000 --> 01:03:20,000
+ Nimmst du auch nur die Nadel, die hier? Ja, ja.
+
+686
+01:03:20,000 --> 01:03:25,000
+ Im Übrigen, das Stand ist aktuell 12 zu 9 für Player 1.
+
+687
+01:03:25,000 --> 01:03:27,000
+ Diese Runde kann entscheiden.
+
+688
+01:03:27,000 --> 01:03:30,000
+ Diese Runde gibt nämlich... Noch nicht anfangen.
+
+689
+01:03:30,000 --> 01:03:34,000
+ Die Runde gibt nämlich 7 Punkte. Die Runde kann entscheiden.
+
+690
+01:03:34,000 --> 01:03:38,000
+ So, wir können das so machen, dass wir es machen wie bei richtigen Wettkämpfen.
+
+691
+01:03:38,000 --> 01:03:42,000
+ Die deutschen Regeln sagen, ihr dürft den Spanner schon ausprobieren.
+
+692
+01:03:42,000 --> 01:03:44,000
+ Ihr dürft also schon mal probieren, wie ihr den Spanner ansetzt.
+
+693
+01:03:45,000 --> 01:03:48,000
+ Und dann gibt es die Signal-Start-Signal.
+
+694
+01:03:48,000 --> 01:03:55,000
+ Und dann dürft ihr erst den Handpick, das Tastbesteck, ins Schloss einführen
+
+695
+01:03:55,000 --> 01:03:58,000
+ und anfangen zu versuchen, die Schifte zu bewegen.
+
+696
+01:03:58,000 --> 01:04:00,000
+ Okay, machen wir so.
+
+697
+01:04:00,000 --> 01:04:07,000
+ So, ihr seid beide bereit. Geben wir dir noch ein bisschen Zeit zum Überlegen.
+
+698
+01:04:07,000 --> 01:04:13,000
+ Und noch ein Hinweis. Die Schlösser öffnen nur im Uhrzeigersinn.
+
+699
+01:04:14,000 --> 01:04:16,000
+ Wenn ihr im Uhrzeigersinn zu versuchen seid, da werdet ihr nicht vorankommen.
+
+700
+01:04:16,000 --> 01:04:19,000
+ Okay, das ist ein guter Hinweis.
+
+701
+01:04:19,000 --> 01:04:29,000
+ So, ich würde sagen, an die Schlösser, fertig und los!
+
+702
+01:04:29,000 --> 01:04:37,000
+ Das ist die entscheidende Runde. Unsere letzte Spielrunde, entscheidendes Spiel.
+
+703
+01:04:37,000 --> 01:04:43,000
+ Wer das Schloss zuerst aufkriegt, hat gewonnen, hat das ganze Spiel gewonnen.
+
+704
+01:04:43,000 --> 01:04:55,000
+ So, beide sind dran. Spieler 2 ist schon ganz tief drin im Schloss.
+
+705
+01:04:55,000 --> 01:05:01,000
+ Spieler 1, er struggelt noch ein bisschen mit den Werkzeugen.
+
+706
+01:05:01,000 --> 01:05:08,000
+ Sieht aktuell ganz klar nach Vorteil Spieler 2 aus, aber noch ist nichts entschieden.
+
+707
+01:05:09,000 --> 01:05:18,000
+ Spieler 2 ist ausgerutscht, Spieler 1 versucht es weiter.
+
+708
+01:05:18,000 --> 01:05:29,000
+ Man könnte ja auch wieder den Telefonjoker nutzen und versuchen jemanden anzurufen, der einen Schloss öffnen kann.
+
+709
+01:05:29,000 --> 01:05:35,000
+ Könnte man, ja. Die Telefone liegen da, aber ich glaube unsere Kandidaten versuchen es selbst.
+
+710
+01:05:37,000 --> 01:05:40,000
+ Das ist etwas zu klein, diese Nadel.
+
+711
+01:05:40,000 --> 01:05:46,000
+ Ja, die Nadel ist jetzt zu klein. Eine größere passt nicht so richtig rein, wurde mir gesagt.
+
+712
+01:05:46,000 --> 01:05:49,000
+ Die liegt da auf dem Tisch, aber kann ich das jetzt nehmen?
+
+713
+01:05:49,000 --> 01:05:52,000
+ Die wurde Spieler 1 gegeben, nicht dir.
+
+714
+01:05:52,000 --> 01:06:00,000
+ Mir wurde auch im Vorhinein gesagt, mit einem richtigen Spanner wird es schwierig, weil er einfach ein bisschen zu groß ist.
+
+715
+01:06:03,000 --> 01:06:11,000
+ Der spannt gar nicht. Okay, mir wurde gesagt, wir haben noch eine Minute.
+
+716
+01:06:11,000 --> 01:06:17,000
+ Hast du jetzt einen anderen genommen? Nein. Okay, er gibt mir auch einen.
+
+717
+01:06:17,000 --> 01:06:21,000
+ So, eine Minute ab jetzt.
+
+718
+01:06:21,000 --> 01:06:27,000
+ Wenn es niemand schafft, das Schloss zu öffnen, ist das schon... Er hat es geschafft.
+
+719
+01:06:28,000 --> 01:06:35,000
+ Spieler 2 hat es geschafft, gewinnt das Spiel Lockpick und damit die komplette Show.
+
+720
+01:06:35,000 --> 01:06:48,000
+ Da wir hier vom Privatfernsehen sind, brauchen wir natürlich auch Sponsoring.
+
+721
+01:06:48,000 --> 01:06:54,000
+ Dein Hauptpreis ist ein Blinken-Rocket, gesponsert von Blinken-Rockets.
+
+722
+01:06:57,000 --> 01:07:05,000
+ Morgen seht ihr an derselben Stelle die Kollegen vom öffentlich-rechtlichen Fernsehen mit einem viel größeren Budget und einer viel größeren Crew.
+
+723
+01:07:05,000 --> 01:07:10,000
+ Aber viel schlechteren Spiele. Das weiß ich nicht, kann ich nicht beurteilen.
+
+724
+01:07:10,000 --> 01:07:20,000
+ Aber ja, das war es von uns vom Privatfernsehen. Wir wünschen euch noch einen wunderschönen Abend und Gratulation an den Gewinner.
+
+725
+01:07:20,000 --> 01:07:23,000
+ Danke schön. Danke schön.
+
+726
+01:07:24,000 --> 01:07:27,000
+ Gute Spiele. Danke schön.
+
+727
+01:07:27,000 --> 01:07:29,000
+ Vielen Dank.
+
+728
+01:07:29,000 --> 01:07:34,000
+ [Musik]
+

@@ -1,0 +1,2108 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:30,000 --> 00:00:35,000
+ Hallo und herzlich willkommen an einen wunderschönen guten Abend am Chaos
+
+3
+00:00:35,000 --> 00:00:42,000
+ Communication Camp, nicht Kongress, Camp 2023. Es ist Tag 2, es ist Abend, dies ist
+
+4
+00:00:42,000 --> 00:00:47,000
+ die Milleway-Bühne. Schön, dass ihr alle da seid.
+
+5
+00:00:47,000 --> 00:00:56,000
+ Responsible Disclosure haben wir jetzt doch schon ein paar Jahre an der Backe und es hat
+
+6
+00:00:56,000 --> 00:00:59,000
+ sich eigentlich bewährt als ein Mechanismus, um Schwachstellen zu finden,
+
+7
+00:00:59,000 --> 00:01:04,000
+ zu reporten, also an die betroffenen Stellen zu reporten, zu fixen und
+
+8
+00:01:04,000 --> 00:01:10,000
+ generell gut damit umzugehen. Es gibt aber, man kann darüber diskutieren,
+
+9
+00:01:10,000 --> 00:01:17,000
+ Momente, wo dieses Responsible Disclosure nicht so gut funktioniert. Wie und
+
+10
+00:01:17,000 --> 00:01:22,000
+ warum und was das mit Jens Spahn's Schuferschur zu tun hat, erklärt euch
+
+11
+00:01:22,000 --> 00:01:27,000
+ jetzt Lilith Wittmann. Bitte begrüße sie mit einem ganz, ganz großen Applaus.
+
+12
+00:01:27,000 --> 00:01:37,000
+ Ja, danke schön. Wir haben es eilig, wie immer bei meinen Vorträgen, also nicht
+
+13
+00:01:37,000 --> 00:01:41,000
+ zu viel dazwischen klatschen bitte, sonst schaffe ich das mit der Zeit nicht.
+
+14
+00:01:41,000 --> 00:01:44,000
+ Ich weiß, ihr findet manchmal Sachen cool und freut euch, aber einfach nicht zu viel
+
+15
+00:01:44,000 --> 00:01:54,000
+ dazwischen. Danke. Genau, wir sprechen heute darüber, dass Jens Spahn's Credit Score
+
+16
+00:01:54,000 --> 00:01:59,000
+ sehr gut ist, was für niemanden sehr unerwartet sein könnte. Und erstmal
+
+17
+00:01:59,000 --> 00:02:02,000
+ natürlich vielen Dank an alle Menschen, die das hier gerade heute möglich machen.
+
+18
+00:02:02,000 --> 00:02:06,000
+ All die Engel, die hier irgendwie gerade arbeiten, denen können wir auch mal
+
+19
+00:02:06,000 --> 00:02:16,000
+ applaudieren. Genau. Und wir haben heute einen ganz besonderen Gast, der
+
+20
+00:02:16,000 --> 00:02:21,000
+ Krisen-PR-Mensch von Bonify sitzt nämlich hier unter uns, der wollte unbedingt
+
+21
+00:02:21,000 --> 00:02:27,000
+ hierher kommen und wollte uns vielleicht erzählen oder was auch immer, was Bonify
+
+22
+00:02:27,000 --> 00:02:30,000
+ für eine tolle Firma ist. Leider wird er heute hier nicht sprechen können, er kam
+
+23
+00:02:30,000 --> 00:02:34,000
+ zwar rein, aber wir wollen wirklich nicht, dass er uns hier Quatsch erzählt.
+
+24
+00:02:34,000 --> 00:02:38,000
+ Er ist so Krisen-PR-Mensch und ihr seht hier ein Bild von ihm von seiner Webseite,
+
+25
+00:02:38,000 --> 00:02:43,000
+ er war mal Playboy-Interview-Chef und macht jetzt Krisenkommunikation, nennt das
+
+26
+00:02:43,000 --> 00:02:50,000
+ aber nicht so gerne so. Und Jens, der ist richtig, richtig krass, der wirbt auf
+
+27
+00:02:50,000 --> 00:02:55,000
+ seiner Webseite mit seinen Kontakten zu Spezialeinheiten, wie der GSG9, dem SEK
+
+28
+00:02:55,000 --> 00:03:00,000
+ oder dem KSK. Und er mag zwar GSG9 haben, aber ich habe CCC und ich habe Engel,
+
+29
+00:03:00,000 --> 00:03:03,000
+ die gut auf ihm aufpassen, deswegen habe ich keine Angst vor ihm, dass er heute hier
+
+30
+00:03:03,000 --> 00:03:12,000
+ ist und sich hier reingedrängt hat. Ja, setz dich bitte hin, du darfst nicht reden,
+
+31
+00:03:12,000 --> 00:03:21,000
+ war die Vereinbarung. So, dann haben wir dich jetzt auch begrüßt, ab jetzt darfst du
+
+32
+00:03:21,000 --> 00:03:26,000
+ bitte leise sein und am Anfang wollte ich euch heute mal so eine Geschichte erzählen,
+
+33
+00:03:26,000 --> 00:03:34,000
+ so eine Vorgeschichte von Bonify und der Schufa. Und es war einmal eine große,
+
+34
+00:03:34,000 --> 00:03:40,000
+ alte Kreditauskunftstei, die gab es schon fast 100 Jahre, ich glaube dieses Jahr 96
+
+35
+00:03:40,000 --> 00:03:47,000
+ Jahre und dieser Kreditauskunftstei, der war Vertrauen sehr, sehr wichtig. Aber
+
+36
+00:03:47,000 --> 00:03:52,000
+ diese Kreditauskunftstei, die hatte auch viele große Probleme, denn viele Menschen
+
+37
+00:03:52,000 --> 00:03:56,000
+ vertrauten der einfach nicht, vielleicht weil sie Kreditauskunftsteien irgendwie
+
+38
+00:03:56,000 --> 00:04:01,000
+ nicht mochten oder weil vielleicht viele Menschen Angst vor ihr hatten, weil so ein
+
+39
+00:04:01,000 --> 00:04:06,000
+ Kreditscore zum Beispiel, der kann tollen Einfluss auf deren Leben haben, der kann
+
+40
+00:04:06,000 --> 00:04:10,000
+ sogar deren Leben im Zweifel kaputt machen. Und die Schufa, die hatte sogar noch mehr
+
+41
+00:04:10,000 --> 00:04:15,000
+ Probleme, denn ein Gutachter des Europäischen Gerichtshofs hat dieses Jahr festgestellt,
+
+42
+00:04:15,000 --> 00:04:19,000
+ dass das Geschäftsmodell der Schufa, nämlich uns mit Nummern zu bewerten, vielleicht sogar
+
+43
+00:04:19,000 --> 00:04:23,000
+ illegal ist. Da warten wir jetzt gerade auf das Urteil und das würde dann bedeuten,
+
+44
+00:04:23,000 --> 00:04:26,000
+ dass es in Deutschland die Schufa so nicht mehr geben kann.
+
+45
+00:04:26,000 --> 00:04:40,000
+ Und da wurde die Schufa sehr, sehr traurig. Und was macht ihr, wenn ihr traurig seid?
+
+46
+00:04:40,000 --> 00:04:45,000
+ Also ich gehe dann meistens shoppen. Ich gehe dann zur H&M oder einen Apple Store
+
+47
+00:04:45,000 --> 00:04:52,000
+ und kaufe irgendwas viel zu teures, total nutzloses. Die Schufa, die geht nicht in
+
+48
+00:04:52,000 --> 00:04:57,000
+ den Apple Store, die ist viel größer, 250 Millionen Euro Jahresumsatz, da geht man nicht
+
+49
+00:04:57,000 --> 00:05:02,000
+ in den Apple Store, da kauft man Startups. Und die Schufa ging also zur Markte und
+
+50
+00:05:02,000 --> 00:05:07,000
+ schaute, welche Startups es da gerade zu holen gab. Und dann fand die auf dem Markt so eine
+
+51
+00:05:07,000 --> 00:05:13,000
+ total hippe, junge, moderne Firma namens Bonify. Da sollte jetzt eigentlich der
+
+52
+00:05:13,000 --> 00:05:16,000
+ Werbefilm laufen, aber aus irgendeinem Grund rendert der nicht, aber ganz, ganz
+
+53
+00:05:16,000 --> 00:05:23,000
+ hippe Firma, modernes Berliner Office, 30 Leute, total cool. Was macht Bonify?
+
+54
+00:05:23,000 --> 00:05:28,000
+ Bonify ist eine total seriöse und vertrauenswürdige Firma, die kümmert sich um
+
+55
+00:05:28,000 --> 00:05:34,000
+ euch, um eure Bonität, eure Finanzen und eure Zukunft. Die helfen euch dabei, euer
+
+56
+00:05:34,000 --> 00:05:40,000
+ finanzielles Leben endlich in Griff zu bekommen. Bonify kümmert sich um euch.
+
+57
+00:05:40,000 --> 00:05:46,000
+ Also ein junges, hippes Startup, das mit einem tollen Geschäftsmodell Menschen
+
+58
+00:05:46,000 --> 00:05:52,000
+ hilft und dem ihr vertrauen sollt. Und da dachte sich die Schufa, was ein Fang, die
+
+59
+00:05:52,000 --> 00:06:00,000
+ kaufen wir. Und dann hat die Schufa, die der Ende letzten Jahres einfach gekauft und
+
+60
+00:06:00,000 --> 00:06:04,000
+ wollte damit ein bisschen ihr Blackbox-Image loswerden, dass ihr da wieder mehr vertraut.
+
+61
+00:06:04,000 --> 00:06:08,000
+ Und klingt ja alles ganz toll, aber dann lese ich diesen Artikel und dann steht da
+
+62
+00:06:08,000 --> 00:06:12,000
+ was von einer Datenplattform. Ich dachte Bonify sei für euch da und es geht nicht
+
+63
+00:06:12,000 --> 00:06:16,000
+ um Daten, sondern es geht um eure Finanzen. Und dann habe ich mich da einfach mal
+
+64
+00:06:16,000 --> 00:06:20,000
+ angemeldet und dann sehe ich da so, natürlich sind ja eine Datenplattform, brauchen
+
+65
+00:06:20,000 --> 00:06:26,000
+ irgendwie meine Namen und mein Geburtsdatum und meine Mobiltelefonnummer und meine
+
+66
+00:06:26,000 --> 00:06:30,000
+ aktuelle Adresse und all meine letzten Adressen und so weiter und so fort, was so eine
+
+67
+00:06:30,000 --> 00:06:34,000
+ Datenplattform halt für euch braucht. Und wenn man schon mal dabei ist, warum gibt man
+
+68
+00:06:34,000 --> 00:06:38,000
+ denen nicht gleich die Zugangsdaten zu seinem Konto, damit die auf deine Transaktion
+
+69
+00:06:38,000 --> 00:06:43,000
+ zugreifen können? Weil wir vertrauen denen ja und die wollen uns ja helfen, also sollten
+
+70
+00:06:43,000 --> 00:06:46,000
+ wir das machen. Und wenn wir all das gemacht haben, dann können die uns richtig
+
+71
+00:06:46,000 --> 00:06:53,000
+ doll helfen. Denn dann können die uns was über unsere Fin-Fitness aussagen. Die können
+
+72
+00:06:53,000 --> 00:06:57,000
+ uns unseren Schufa-Score und unseren Universumscore aussagen. Und ich meine, da sieht
+
+73
+00:06:57,000 --> 00:07:00,000
+ man, die wollen uns mit unserer Bonität helfen. Wir geben die nur so ein bisschen
+
+74
+00:07:00,000 --> 00:07:06,000
+ Daten und die geben uns so viele Informationen. Und wenn unser Schufa-Score oder
+
+75
+00:07:06,000 --> 00:07:11,000
+ unser Universumscore dann sogar sehr schlecht ist, dann haben die sogar was für uns.
+
+76
+00:07:11,000 --> 00:07:19,000
+ Nämlich den Känguru-Kredit. Für nur 15% effektiver Jahreszins maximal. Schenken die
+
+77
+00:07:19,000 --> 00:07:24,000
+ euch quasi Geld. Für die sind quasi so Deins-Meins-Bürgerliche-Kategorien, um das
+
+78
+00:07:24,000 --> 00:07:31,000
+ Känguru hier zu zitieren. Damit springt ihr nur so über euren finanziellen Engpass.
+
+79
+00:07:31,000 --> 00:07:38,000
+ Und dann kamen diese Kritiker vom NDRSZ-Recherche-Verbund und erzählen da irgendwas
+
+80
+00:07:38,000 --> 00:07:42,000
+ davon, dass das total kritisch ist, wenn die Schufa bei einer Tochterfirma von ihr
+
+81
+00:07:42,000 --> 00:07:47,000
+ selbst schufafreie Kredite verkauft. Von denen die Schufa-Chefin selber sagt, dass das
+
+82
+00:07:47,000 --> 00:07:52,000
+ quasi so Kredit-Teile sind in einem Interview mit Finanzfluss. Aber was soll es? Die
+
+83
+00:07:52,000 --> 00:07:57,000
+ sollen mal nicht so kritisch sein. Fassen wir das Geschäftsmodell von Bonifide zusammen.
+
+84
+00:07:57,000 --> 00:08:03,000
+ Ihr gebt denen einfach nur eure Daten. Ganz einfach. Und dann geben die euch wichtige
+
+85
+00:08:03,000 --> 00:08:08,000
+ Informationen für euer Leben. Sie haben euch bisher gesagt, dank Boniversum, ob ihr einen
+
+86
+00:08:08,000 --> 00:08:12,000
+ Kredit bekommen könnt oder nicht, also wie hoch euer Score ist. Dann geben die euch
+
+87
+00:08:12,000 --> 00:08:17,000
+ wertvolle Tipps über eure finanzielle Freiheit, die euch sonst euer Opa geben könnte, wie
+
+88
+00:08:17,000 --> 00:08:24,000
+ spart mehr. Oder eure Wohnung ist zu teuer. Scheiße, wenn man in Berlin wohnt. Oder falls
+
+89
+00:08:24,000 --> 00:08:29,000
+ ihr zufällig einen Kredit braucht, die haben auch was für euch. Jetzt steht da bisher nur
+
+90
+00:08:29,000 --> 00:08:34,000
+ Boniversum, weil die konnten die Schufa nicht benutzen, solange sie noch nicht der Schufa
+
+91
+00:08:34,000 --> 00:08:38,000
+ gehört haben. Und deswegen war das quasi so ein strategischer Einkauf, auch für Bonify.
+
+92
+00:08:38,000 --> 00:08:41,000
+ Vergleichen wir also mal ganz kurz, was denn der Unterschied zwischen den zwei größten
+
+93
+00:08:41,000 --> 00:08:49,000
+ Kreditauskunftsteilen in Deutschland ist. Boniversum versus Schufa. Das Duell der Giganten quasi.
+
+94
+00:08:49,000 --> 00:08:54,000
+ Boniversum wird von so ein paar einzelnen Onlineshops in Deutschland benutzt. Schufa kommt
+
+95
+00:08:54,000 --> 00:08:59,000
+ ihr automatisch rein, sobald ihr ein Konto eröffnet, weil die kooperieren mit allen Banken.
+
+96
+00:08:59,000 --> 00:09:03,000
+ Die Schufa gehört quasi 30 verschiedenen Banken. Ich glaube vielleicht ein bisschen weniger,
+
+97
+00:09:03,000 --> 00:09:10,000
+ ich weiß es gerade nicht. Bei der Boniversum bekommen sie die Daten von Onlineshops, bei
+
+98
+00:09:10,000 --> 00:09:15,000
+ der Schufa von Banken. Beide benutzen Daten aus öffentlich zugänglichen Registern. Das,
+
+99
+00:09:15,000 --> 00:09:20,000
+ was ich auch schon mal gemacht habe, dass ich aus dem Insolvenzregister und dem Handelsregister
+
+100
+00:09:20,000 --> 00:09:24,000
+ Daten gescraped habe, aber als ich das gemacht habe, haben sich alle total darüber aufgeregt.
+
+101
+00:09:24,000 --> 00:09:30,000
+ Die machen das die ganze Zeit. Und die einen würfeln eure Kreditwürdigkeit dann auf Basis
+
+102
+00:09:30,000 --> 00:09:35,000
+ von eurem Wohnort und die anderen benutzen so ein paar Mehrfaktoren, wie viele Konten ihr
+
+103
+00:09:35,000 --> 00:09:39,000
+ besitzt, wie oft ihr umgezogen seid und ob ihr Kredite habt und noch ein paar Mehrfaktoren.
+
+104
+00:09:39,000 --> 00:09:44,000
+ Aber das könnt ihr alles nachlesen. Und was ganz spannend ist, der Umsatz, denn Boniversum
+
+105
+00:09:44,000 --> 00:09:49,000
+ hat international sobald ich weiß einen Umsatz von 575 Millionen Euro, aber die sind quasi
+
+106
+00:09:49,000 --> 00:09:53,000
+ weltweit tätig oder zumindest in sehr vielen Ländern. Und die Schufa ist nur in Deutschland
+
+107
+00:09:53,000 --> 00:10:01,000
+ tätig und macht damit sogar einen Umsatz von 250 Millionen Euro. Oh, eine Gegenstellung.
+
+108
+00:10:01,000 --> 00:10:08,000
+ Gegendaststellung. Vor 7,5 Jahren im April 2016 waren Boniversum und Bonify zu einer Revolution
+
+109
+00:10:08,000 --> 00:10:14,000
+ bereit. Wir wollen gemeinsam beim Thema Bonität für mehr Transparenz sorgen. Ohne Boniversum
+
+110
+00:10:14,000 --> 00:10:20,000
+ gäbe es Bonifigen so nicht. Uns ist wichtig Folgendes klarzustellen. Der Boniversumscore
+
+111
+00:10:20,000 --> 00:10:25,000
+ ist einer der führenden Scores im Markt. Er basiert auf über 160 Millionen Datenpunkten
+
+112
+00:10:25,000 --> 00:10:30,000
+ für über 60 Millionen Menschen in Deutschland. Scores von unterschiedlichen Auskunftsteilen
+
+113
+00:10:30,000 --> 00:10:34,000
+ unterscheiden sich unter anderem durch die Datenquellen, die Anzahl der Daten, die Einflussfaktoren,
+
+114
+00:10:34,000 --> 00:10:38,000
+ die Scormodelle sowie den Einsatzbereich. So hat zum Beispiel der Boniversumscore eine
+
+115
+00:10:38,000 --> 00:10:44,000
+ hohe Relevanz im E-Commerce. Ja, ich lasse in einzelnen Punkten immer Gegendarstellung
+
+116
+00:10:44,000 --> 00:10:49,000
+ von Bonify einfließen, damit das hier alles fair bleibt. Also Sie sagen, der Boniversumscore
+
+117
+00:10:49,000 --> 00:10:53,000
+ ist trotzdem irgendwie wichtig in Deutschland, wie habe ich noch nicht rausgefunden. Aber
+
+118
+00:10:53,000 --> 00:11:00,000
+ ja, kommen wir also zum aktualisierten Geschäftsmodell, damit das die Schufa Bonify gekauft hat, kann
+
+119
+00:11:00,000 --> 00:11:06,000
+ man jetzt quasi auch die Schufa mit Bonify benutzen. Ein Modell, von dem quasi alle profitieren
+
+120
+00:11:06,000 --> 00:11:12,000
+ und eure Daten teilen kostet ja nichts. Jetzt wollten die aber, weil sie schon zusammenkommen,
+
+121
+00:11:12,000 --> 00:11:17,000
+ auch noch ihr Geschäftsmodell ein bisschen erweitern, weil ich meine Bonify weiß ja viel
+
+122
+00:11:17,000 --> 00:11:22,000
+ über euch, wenn ihr eure Daten mit denen geteilt habt. Und vielleicht solltet Bonify dann
+
+123
+00:11:22,000 --> 00:11:27,000
+ auch direkt eure Daten mit der Schufa teilen, weil wenn die Schufa weiß, wie viel Geld ihr
+
+124
+00:11:27,000 --> 00:11:33,000
+ auf dem Konto habt und wann euer Gehalt kommt und wie lange schon wo arbeitet und auf was
+
+125
+00:11:33,000 --> 00:11:39,000
+ für Porno Seiten ihr Geld bezahlt, ihr solltet für eure Pornos bezahlen, dann können die
+
+126
+00:11:39,000 --> 00:11:45,000
+ euch viel besser sagen, ob ihr gerade kreditwürdig seid oder nicht. Und Bonify hat natürlich
+
+127
+00:11:45,000 --> 00:11:50,000
+ als gutes Unternehmen mit guten AGBs schon alles darauf vorbereitet, dass sie eure Bonitätsdaten
+
+128
+00:11:50,000 --> 00:11:55,000
+ und eure Transaktionen mit allen möglichen Unternehmen teilen können, wenn das denn für
+
+129
+00:11:55,000 --> 00:11:59,000
+ die Einführung von Dienstleistungen erforderlich ist. Also ihr teilt quasi nicht nur mit Bonify,
+
+130
+00:11:59,000 --> 00:12:03,000
+ sondern ihr teilt eure Daten direkt mit ganz vielen Unternehmen, von denen die Liste auch
+
+131
+00:12:03,000 --> 00:12:07,000
+ noch nicht abgeschlossen ist zu dem Zeitpunkt, dass ihr die Daten teilt, aber die geben euch
+
+132
+00:12:07,000 --> 00:12:15,000
+ ja auch viel zurück. Die wissen auch, eure Daten sind sehr, sehr sensibel, die haben erkannt,
+
+133
+00:12:15,000 --> 00:12:20,000
+ dass man auf Basis von Transaktionsdaten von eurem Konto so Sachen rausfinden kann, wie
+
+134
+00:12:20,000 --> 00:12:26,000
+ was eure politische Meinung ist, ob ihr in der Gewerkschaft seid oder wie es um eure
+
+135
+00:12:26,000 --> 00:12:31,000
+ Gesundheit oder euer Sexualleben steht. Und ich mein, ist zwar alles sehr sensibel, aber
+
+136
+00:12:31,000 --> 00:12:36,000
+ die sind ja auch sicher, das schreiben sie da zumindest. Jetzt denkt ihr, so ein tolles
+
+137
+00:12:36,000 --> 00:12:43,000
+ philanthropisches Start-up. Wie verdienen die denn eigentlich Geld in den letzten sieben
+
+138
+00:12:43,000 --> 00:12:47,000
+ und halb Jahren? Na ja, wenn wir in die Bilanz schauen, haben sie jetzt noch nie Geld verdient,
+
+139
+00:12:47,000 --> 00:12:52,000
+ aber ich mein, Datenreichtum ist ja auch was, auch wenn es kein richtiger Reichtum ist.
+
+140
+00:12:52,000 --> 00:12:57,000
+ Die sind venture funded, also Investoren haben Geld in die investiert, in der Hoffnung, dass
+
+141
+00:12:57,000 --> 00:13:02,000
+ die irgendwann ein sehr, sehr großes Start-up werden. Da gibt es einen Referenzpunkt, und
+
+142
+00:13:02,000 --> 00:13:07,000
+ das ist Credit Karma aus den USA mit demselben weirden Geschäftsmodell. Die wurden für 7
+
+143
+00:13:07,000 --> 00:13:12,000
+ Milliarden glaube ich an Intuit verkauft. Also die sahen dann damals vor ein paar siebeneinhalb
+
+144
+00:13:12,000 --> 00:13:17,000
+ Jahren einen richtig krassen Markt drin. Schufa ist aber letztlich ein Sparfuchs, die würden
+
+145
+00:13:17,000 --> 00:13:21,000
+ nie 7 Milliarden für ein Start-up bezahlen, könnten sie ja auch mit ihrer Bilanzsumme gar
+
+146
+00:13:21,000 --> 00:13:26,000
+ nicht. Deswegen haben sie es ein bisschen günstiger gekauft, für 20 Millionen Euro,
+
+147
+00:13:26,000 --> 00:13:32,000
+ erzählt man sich so. Und das war so wenig Geld, dass die Mitarbeiter*innen, die ein
+
+148
+00:13:32,000 --> 00:13:37,000
+ Mitarbeiterbeteiligungsprogramm bei Bonify hatten, gar nichts abbekommen haben, außer
+
+149
+00:13:37,000 --> 00:13:47,000
+ ein Grillfest. Da war das hippe Bonify Team bestimmt traurig, und wenn man ihre Team-Webseite
+
+150
+00:13:47,000 --> 00:13:50,000
+ verfolgt, dann haben glaube ich auch einige Menschen nach der Übernahme das Unternehmen
+
+151
+00:13:50,000 --> 00:13:54,000
+ verlassen. Das weiß ich aber nicht gesichert, das habe ich mir nur auf Basis der Team-Webseite
+
+152
+00:13:54,000 --> 00:14:02,000
+ rekonstruiert. Genau, und dann einige Monate nach der Akquisition hat die Schufa ganz,
+
+153
+00:14:02,000 --> 00:14:07,000
+ ganz groß auf ihrer Webseite verkündet, jetzt gibt es bei Bonify auch diesen Schufa-Score,
+
+154
+00:14:07,000 --> 00:14:11,000
+ über den wir gerade gesprochen haben, und das ist die Revolution im Bonitätsmarkt,
+
+155
+00:14:11,000 --> 00:14:17,000
+ weil jetzt könnt ihr kostenlos schnell und online eure Bonität bei Bonify prüfen und
+
+156
+00:14:17,000 --> 00:14:20,000
+ gleichzeitig ein bisschen Daten teilen und in der Zukunft sogar mehr Daten teilen bis
+
+157
+00:14:20,000 --> 00:14:25,000
+ zur Schufa. Da haben die in den 6 Monaten danach ganz hart gehasselt, um das Feature zu
+
+158
+00:14:25,000 --> 00:14:31,000
+ implementieren. Alle sagen Revolution, finde ich nicht so ganz, denn eure Bonität von der
+
+159
+00:14:31,000 --> 00:14:35,000
+ Schufa könnt ihr seit ganz vielen Jahren kostenlos über die kostenlose Datenkopie
+
+160
+00:14:35,000 --> 00:14:39,000
+ abrufen, dann bekommt ihr aber nicht nur euren Basis-Score in einer App, sondern bekommt
+
+161
+00:14:39,000 --> 00:14:43,000
+ so einen dicken Papierstapel nach Hause mit allen Daten, die die Schufa über euch hat.
+
+162
+00:14:43,000 --> 00:14:48,000
+ So revolutionär ist das App-Feature also vielleicht auch nicht. Aber für die Bild-Zeitung
+
+163
+00:14:48,000 --> 00:14:54,000
+ hat's gereicht. Ab heute gilt die Schufa-Revolution und die sind damit richtig
+
+164
+00:14:54,000 --> 00:14:58,000
+ durchgestartet mit dieser Pressekonferenz. Die Bonify-App war danach im App-Store auf
+
+165
+00:14:58,000 --> 00:15:03,000
+ Platz 2. Die App hatte aber tatsächlich zu diesem Zeitpunkt noch nicht mal den Schufa-Score
+
+166
+00:15:03,000 --> 00:15:07,000
+ integriert. Also sie haben quasi die App im Rahmen der Pressekonferenz gepusht und haben
+
+167
+00:15:07,000 --> 00:15:12,000
+ gesagt, ja wir haben jetzt all die Features, wird alles super, überall in den Nachrichten
+
+168
+00:15:12,000 --> 00:15:15,000
+ Leute laden diese App runter und dann finden sie dabei immer noch nicht den Schufa-Score,
+
+169
+00:15:15,000 --> 00:15:22,000
+ denn App-Updates dauern immer ein paar Wochen länger, wie ihr wisst. So, das passierte am
+
+170
+00:15:22,000 --> 00:15:28,000
+ 18. Juli und am 22. Juli, Freitagnachmittag, ihr kennt das, ihr wacht in Berlin aus einer
+
+171
+00:15:28,000 --> 00:15:33,000
+ harten Woche im Kapitalismus auf und denkt euch so, scheiße, jetzt habe ich diese Woche
+
+172
+00:15:33,000 --> 00:15:39,000
+ schon 50 Stunden vorm Computer verbracht, 20 mehr müssen noch gehen. Was ist diese Woche
+
+173
+00:15:39,000 --> 00:15:45,000
+ denn in Deutschland passiert? Oh, irgendwas von Bonify, das müssen wir uns doch mal anschauen.
+
+174
+00:15:45,000 --> 00:15:53,000
+ Also melde ich mich da an und gebe denen all meine Daten und sehe so, oh, ein Bankident-Prozess.
+
+175
+00:15:53,000 --> 00:15:57,000
+ Damit haben wir gute Erfahrungen gemacht. Bankident, das ist dieses Ding, wenn man sich
+
+176
+00:15:57,000 --> 00:16:02,000
+ da einloggt und ihnen Zugang zu seinem Konto gibt, dann gibt man denen einerseits seine
+
+177
+00:16:02,000 --> 00:16:06,000
+ Transaktion frei, aber die bekommen auch den Namen, auf den das Konto geführt wird und
+
+178
+00:16:06,000 --> 00:16:10,000
+ mit dem Namen, auf den das Konto geführt wird, versuchen die euch zu identifizieren, weil
+
+179
+00:16:10,000 --> 00:16:14,000
+ eure Bank hatte sich ja irgendwann mal nach Geldwäschegesetz identifiziert. Also man
+
+180
+00:16:14,000 --> 00:16:20,000
+ macht so Kettenidentifizierung. Eure Bank sagt, ihr seid die Person, weil eure Bank das mal
+
+181
+00:16:20,000 --> 00:16:24,000
+ irgendwann überprüft hat, seid ihr vermutlich diese Person. Und das ist so ein Verfahren,
+
+182
+00:16:24,000 --> 00:16:28,000
+ was immer so als eine Alternative von, man zeigt online seinen Personalausweis in irgendeiner
+
+183
+00:16:28,000 --> 00:16:33,000
+ Form vor, genutzt wird, aber das war nicht so erfolgreich bisher. Also ich glaube, man
+
+184
+00:16:33,000 --> 00:16:37,000
+ kann damit zum Beispiel nirgends ein Konto eröffnen, weil es da so Bedenken von der BaFin
+
+185
+00:16:37,000 --> 00:16:42,000
+ gab und das vielleicht auch nicht so das allersicherste Verfahren ist. Schauen wir uns
+
+186
+00:16:42,000 --> 00:16:48,000
+ aber vielleicht mal im Detail an, wie das denn funktioniert. Es gibt in dem ganzen
+
+187
+00:16:48,000 --> 00:16:52,000
+ Ding drei Parteien, nämlich einmal Bonify selbst, dann die FinLib Connect GmbH und eure
+
+188
+00:16:52,000 --> 00:16:58,000
+ Bank. Und bei Bonify tragt ihr in so ein kleines Fenster euren Vor- und Nachnamen ein und die
+
+189
+00:16:58,000 --> 00:17:03,000
+ zeigen euch dann ein Iframe an auf ihrer Webseite. Und da sagt ihr dann, welche Bank ihr denn
+
+190
+00:17:03,000 --> 00:17:08,000
+ gerade so benutzt und tragt da dann eure Konto, eure Zugangsnummer eurer Bank und euer
+
+191
+00:17:08,000 --> 00:17:15,000
+ Passwort eurer Bank in dieses Iframe ein. Klar, macht man so. Und was die dann machen ist,
+
+192
+00:17:15,000 --> 00:17:20,000
+ die locken sich über die App eurer Bank in unterschiedlichen Variationen ein und rufen
+
+193
+00:17:20,000 --> 00:17:24,000
+ ein paar Sachen von euch ab, zum Beispiel den Namen, die I-Bahn, die Transaktion und so weiter
+
+194
+00:17:24,000 --> 00:17:27,000
+ und so fort. Was die genau abrufen, könnt ihr nicht so richtig feststellen, aber geht
+
+195
+00:17:27,000 --> 00:17:32,000
+ davon aus, alles was da eigentlich ist. Und dann stellen die einen JWT-Token aus, mit dem
+
+196
+00:17:32,000 --> 00:17:38,000
+ man die Daten abrufen kann und leiten euch zurück zu Bonify. Bei Bonify nehmen die dann
+
+197
+00:17:38,000 --> 00:17:43,000
+ den Vornamen, den ihr vorhin in das Feld eingetragen habt und vergleichen den damit mit dem Vornamen,
+
+198
+00:17:43,000 --> 00:17:47,000
+ auf dem euer Konto läuft, in dem sie prüfen, ob der eine String in einem anderen String
+
+199
+00:17:47,000 --> 00:17:52,000
+ ist oder umgekehrt. Sprich, wenn ihr irgendwie in das Feld beliebig viele Namen reinschreibt,
+
+200
+00:17:52,000 --> 00:17:57,000
+ ich schreibe da zum Beispiel Lilith Jens und als Nachname Wittmann Spahn rein, dann ist
+
+201
+00:17:57,000 --> 00:18:03,000
+ mein Konto verifiziert. An der Stelle könnte der Vortrag eigentlich vorbei sein.
+
+202
+00:18:03,000 --> 00:18:13,000
+ Ich weiß nicht, wer sich das ausgedacht hat, vielleicht hatte jemand so eine Name und
+
+203
+00:18:13,000 --> 00:18:19,000
+ hat nach einem Weg gesucht, den ordentlich zu verifizieren. Aber ja, jedenfalls habe
+
+204
+00:18:19,000 --> 00:18:23,000
+ ich das da eingegeben, ging durch, dann hatte ich seinen Account mit Lilith Jens Spahn,
+
+205
+00:18:25,000 --> 00:18:30,000
+ hatte überlegt aufzuhören, aber dachte, das waren jetzt 5 Minuten, eine halbe Stunde
+
+206
+00:18:30,000 --> 00:18:34,000
+ habe ich noch, das nächste Mal, wenn ich mich anmelde, mache ich meine Developer-Konsole
+
+207
+00:18:34,000 --> 00:18:44,000
+ auf. Jetzt werden wir richtig krasse Hacker hier. Und schauen uns mal die Anfragen an,
+
+208
+00:18:44,000 --> 00:18:49,000
+ die die Bonify-Webseite an den Server oder an den Microservice im Hintergrund macht.
+
+209
+00:18:49,000 --> 00:18:55,000
+ Und wir tragen als erstes diesen Namen ein und dann wird unser Name per Post an einen
+
+210
+00:18:55,000 --> 00:19:00,000
+ APN-Punkt, der heißt User Management Prot/User geschickt und damit wird dann das User-Objekt
+
+211
+00:19:00,000 --> 00:19:06,000
+ angelegt. Dann machen wir diesen ganzen Identifikationsprozess mit dem iframe und wir loggen uns bei unserer
+
+212
+00:19:06,000 --> 00:19:11,000
+ Bank ein und wir geben das die Daten frei und danach haben wir nochmal so ein Formular,
+
+213
+00:19:11,000 --> 00:19:14,000
+ in dem wir unsere restlichen Daten eingeben, damit sie dann quasi noch mehr Daten über
+
+214
+00:19:14,000 --> 00:19:21,000
+ uns haben. Und da rufen wir nochmal denselben APN-Punkt auf und speichern mehr Daten.
+
+215
+00:19:21,000 --> 00:19:27,000
+ Das wäre jetzt ein ganz krasser Hack, wenn wir beim zweiten Mal, wo wir diesen APN-Punkt
+
+216
+00:19:27,000 --> 00:19:35,000
+ aufrufen, einfach noch zusätzlich irgendeinen Vornamen und Nachnamen mitschicken. Wäre ja
+
+217
+00:19:35,000 --> 00:19:40,000
+ ganz schön doof, wenn man vergessen hat, wie so APIs funktionieren und zu überlegen,
+
+218
+00:19:40,000 --> 00:19:45,000
+ was da ein Sicherheitskonzept wäre. Na ja, dann hatte ich auch schon die Kreditauskunft
+
+219
+00:19:45,000 --> 00:19:47,000
+ von Jens Spahn.
+
+220
+00:19:47,000 --> 00:20:00,000
+ Und Bonify hat noch viele tolle Mehrwertservices, also gar nicht so viele, aber zumindest einen
+
+221
+00:20:00,000 --> 00:20:04,000
+ und das ist die Mietauskunft. Bei Bonify könnt ihr, nachdem ihr diesen Anmeldeprozess durchgefüllt
+
+222
+00:20:04,000 --> 00:20:12,000
+ habt, habt ihr den 20 Euro geben und die geben euch dafür einen PDF. Ich finde, das ist ein
+
+223
+00:20:12,000 --> 00:20:17,000
+ richtig fairer Deal, weil das ist ja ein PDF, dem könnt ihr vertrauen. Also das hat keine
+
+224
+00:20:17,000 --> 00:20:23,000
+ Signatur oder so, aber da steht ein Code drauf und dem könnt ihr auf einer Webseite eingeben
+
+225
+00:20:23,000 --> 00:20:28,000
+ und dann sagen die euch, ob das PDF echt ist, also so ein Teil der Daten. Nicht das schlimmste
+
+226
+00:20:28,000 --> 00:20:31,000
+ Verfahren, das ich jemals gesehen habe, um PDFs zu verifizieren, man könnte das auch
+
+227
+00:20:31,000 --> 00:20:39,000
+ mit einer Blockchain machen. Jedenfalls hatte ich dann Jens Spahns Mietauskunft und hier
+
+228
+00:20:39,000 --> 00:20:46,000
+ seht ihr, wie ich sie validiere. Das können wir uns ja mal kurz anschauen. Genau, da steht
+
+229
+00:20:46,000 --> 00:20:53,000
+ dann irgendwo diese Nummer, die kopieren wir uns und dann gehen wir auf die Bonify Webseite
+
+230
+00:20:53,000 --> 00:21:00,000
+ und tragen das da einfach ein. Und dann steht da meine Miete mit dabei, jetzt wisst ihr
+
+231
+00:21:00,000 --> 00:21:03,000
+ wie viel Miete, ah nee, steht da nicht, sehr gut, dann habe ich die richtige Version genommen.
+
+232
+00:21:03,000 --> 00:21:10,000
+ Nee, genau, aber dann könnte man quasi, wenn man wollte, für seine Freunde, die vielleicht
+
+233
+00:21:10,000 --> 00:21:14,000
+ nicht so eine hohe Miete haben oder nicht so ein hohes Gehalt haben, einfach für die
+
+234
+00:21:14,000 --> 00:21:18,000
+ eine Mietauskunft ausstellen, auf der dann auch per KI das Gehalt vom Konto rausgefunden
+
+235
+00:21:18,000 --> 00:21:23,000
+ wurde. Also man nimmt dann die Transaktion von dem Konto, das man ihnen gegeben hat und
+
+236
+00:21:23,000 --> 00:21:26,000
+ dann versuchen die rauszufinden, was die Gehaltszahlung und was die Mietzahlung ist und
+
+237
+00:21:26,000 --> 00:21:31,000
+ schreiben das da drauf. Also war ein guter Trick, um seinen Freunden irgendwie zu helfen.
+
+238
+00:21:31,000 --> 00:21:36,000
+ Mein Dashboard sah leider immer so aus, ich hatte nur Zugriff auf den Universumscore und
+
+239
+00:21:36,000 --> 00:21:41,000
+ diese Mietauskünfte und nicht auf die Schufa-Auskunft. Das hat mich echt ein bisschen gekostet,
+
+240
+00:21:41,000 --> 00:21:45,000
+ so richtig rauszufinden, was da passiert ist, weil eigentlich, nachdem man sich eingeloggt
+
+241
+00:21:45,000 --> 00:21:50,000
+ hat bei denen, dann poppt da das erste Mal so ein Pop-Up auf und die fragen einen, ob sie
+
+242
+00:21:50,000 --> 00:21:56,000
+ da eure Daten mit der Schufa teilen dürfen und daraufhin dachte ich, würden sie das erste
+
+243
+00:21:56,000 --> 00:22:00,000
+ Mal eure Daten zur Schufa senden und dann geben die den Score zurück und wenn ich das alles
+
+244
+00:22:00,000 --> 00:22:03,000
+ vorher manipuliert hätte, dann würde ich einfach für eine andere Person den Schufa-Score
+
+245
+00:22:03,000 --> 00:22:04,000
+ bekommen.
+
+246
+00:22:04,000 --> 00:22:12,000
+ Gegendarstellung. Es wird angemerkt, dass wir unseren eigenen AGBs widersprechen, indem
+
+247
+00:22:12,000 --> 00:22:17,000
+ wir vor Zustimmung ein Score übermittelt wird. Das stimmt nicht. Der Score wird erst
+
+248
+00:22:17,000 --> 00:22:22,000
+ nach expliziter Einwilligung übermittelt. Vorab erfolgt ein Datenaustausch zur Identifikation.
+
+249
+00:22:22,000 --> 00:22:27,000
+ Dieser ist in Bonifice Datenschutzerklärung aufgeführt. Er beschränkt sich ausschließlich
+
+250
+00:22:27,000 --> 00:22:32,000
+ auf Daten zur Identifizierung, um sicher zu sein, dass der Score nur an die Person ausgespielt
+
+251
+00:22:32,000 --> 00:22:36,000
+ wird, zu der er gehört. Dadurch wurden die manipulierten Personendaten bei uns erkannt.
+
+252
+00:22:36,000 --> 00:22:45,000
+ Also, AGBs lesen hilft immer. Werden wir da raus. Ich hatte das verpeilt, weil musste irgendwie
+
+253
+00:22:45,000 --> 00:22:49,000
+ alles schnell gehen und es war Samstagmorgen und ich hatte echt keinen Bock. Und steht
+
+254
+00:22:49,000 --> 00:22:54,000
+ aber einfach in den AGBs drin. Das, was sie tun ist, nachdem ihr euch da den Kontoident-Prozess
+
+255
+00:22:54,000 --> 00:22:59,000
+ durchgeführt habt, nehmen die eure Namen und eure Kontonummer und schicken die erstmal
+
+256
+00:22:59,000 --> 00:23:03,000
+ zur Schufa. Und die Schufa hat dann so ein Produkt, das heißt irgendwie Kontonummerncheck
+
+257
+00:23:03,000 --> 00:23:09,000
+ oder Giroident oder so. Und da schauen die in ihrer Datenbank, ob da jemand mit dem Namen
+
+258
+00:23:09,000 --> 00:23:14,000
+ und eurer Kontonummer ist. Und dann geben die Namenadresse und Kontonummer zurück und
+
+259
+00:23:14,000 --> 00:23:18,000
+ wollen dieses Kontonident-Verfahren damit noch GWG-konformer machen. Es ist letztlich ein
+
+260
+00:23:18,000 --> 00:23:22,000
+ Produkt, könnt ihr bei der Schufa kaufen. Hab ich bis zu dem Zeitpunkt auch nicht so richtig
+
+261
+00:23:22,000 --> 00:23:27,000
+ gewusst. Aber dadurch, dass dann quasi der Name nicht mit der Kontonummer übereingestimmt
+
+262
+00:23:27,000 --> 00:23:30,000
+ hat, konnte ich da nicht den Schufa-Score abrufen. Das war ein bisschen schade, aber
+
+263
+00:23:30,000 --> 00:23:36,000
+ ich meine, es war trotzdem ganz cool. Jetzt kommen wir zur eigentlich wichtigen Frage in
+
+264
+00:23:36,000 --> 00:23:39,000
+ dieser ganzen Geschichte. Ich habe das nämlich rausgefunden. Und was mache ich denn jetzt
+
+265
+00:23:39,000 --> 00:23:45,000
+ damit? Und es gibt also grundsätzlich so zwei Optionen. Also es gibt vielleicht noch ein
+
+266
+00:23:45,000 --> 00:23:49,000
+ paar mehr. Über zwei wollen wir heute reden. Und das eine ist, man macht ein Responsible
+
+267
+00:23:49,000 --> 00:23:52,000
+ Disclosure. Das heißt, das ist für mich richtig viel Arbeit. Da muss ich so ein Dokument
+
+268
+00:23:52,000 --> 00:23:55,000
+ schreiben, wo ich dem Unternehmen erkläre, was das Problem ist. Dann schicke ich das
+
+269
+00:23:55,000 --> 00:24:00,000
+ denen und dann lesen die das irgendwann, schließen die Lücke, sagen mir Bescheid. In der
+
+270
+00:24:00,000 --> 00:24:04,000
+ Zwischenzeit suche ich mir einen Journalisten, um das zu veröffentlichen mit denen gemeinsam.
+
+271
+00:24:04,000 --> 00:24:09,000
+ Und am Ende veröffentliche ich dann die Lücke, wenn sie geschlossen wurde. Und das Unternehmen
+
+272
+00:24:09,000 --> 00:24:15,000
+ veröffentlicht manchmal auch was, eine Gegenbedarstellung. Und dann ist das fertig. Im Widerspruch dazu
+
+273
+00:24:15,000 --> 00:24:20,000
+ steht das Shit-Posten. Dabei nehme ich die Sicherheitslücke, die noch offen ist, schreibe
+
+274
+00:24:20,000 --> 00:24:25,000
+ einen möglichst provokanten Tweet und twittere das. Dann warte ich darauf, dass mir möglichst
+
+275
+00:24:25,000 --> 00:24:29,000
+ viele Journalistinnen in kurzer Zeit schreiben, die richtig Bock haben, diese Story richtig
+
+276
+00:24:29,000 --> 00:24:35,000
+ groß zu machen. Und weil das ja schon auf Twitter steht, müssen sie sich nicht mehr mit ihren
+
+277
+00:24:35,000 --> 00:24:39,000
+ Justiziarinnen absprechen. Das heißt, sie können auch relativ schnell eine Pressemeldung
+
+278
+00:24:39,000 --> 00:24:44,000
+ rausgeben. Das ist manchmal ganz vorteilhaft. Um diese Entscheidung zu treffen, schauen wir
+
+279
+00:24:44,000 --> 00:24:49,000
+ uns einmal kurz an, warum ich zivilgesellschaftliche Sicherheitsforschung mache. Und ganz weit
+
+280
+00:24:49,000 --> 00:24:55,000
+ oben steht aber bei mir, tatsächlich eure Daten zu schützen. Aber ich möchte auch Unternehmen
+
+281
+00:24:55,000 --> 00:24:59,000
+ mit einem blöden Geschäftsmodell, das ich persönlich irgendwie scheiße finde, das Leben
+
+282
+00:24:59,000 --> 00:25:10,000
+ richtig, richtig schwer machen. Und wie ihr vielleicht wisst, interagiere ich gerne auch
+
+283
+00:25:10,000 --> 00:25:16,000
+ mit dem Staat. Und natürlich möchte ich auch auf politischer Ebene irgendwie dumme Digitalisierung
+
+284
+00:25:16,000 --> 00:25:24,000
+ stoppen. Und den Staat, um Daten, die öffentlich sein sollten, zu erleichtern. Und ich freue
+
+285
+00:25:24,000 --> 00:25:28,000
+ mich auch, wenn ihr dabei Spaß habt. Und mir selber macht es natürlich auch oft Spaß.
+
+286
+00:25:28,000 --> 00:25:34,000
+ Gründe, warum ich das nicht tue, ich möchte Unternehmen nicht dabei helfen, sicherer zu
+
+287
+00:25:34,000 --> 00:25:38,000
+ werden. Also, das ist ein Nebeneffekt, das passiert, aber mein Ziel ist nicht, dem Unternehmen
+
+288
+00:25:38,000 --> 00:25:41,000
+ Bescheid zu sagen, damit die danach sicherer sind. Also, dass eure Daten sicherer sind,
+
+289
+00:25:41,000 --> 00:25:46,000
+ ist mir wichtig, aber nicht, dass es dem Unternehmen danach besser geht. Und ich will damit kein
+
+290
+00:25:46,000 --> 00:25:50,000
+ Geld verdienen. Das habe ich dieses Jahr einmal probiert mit so einem Bug Bounty Programm
+
+291
+00:25:50,000 --> 00:25:55,000
+ bei einem großen Online-Versandhändler, wo ich eine richtig witzige Lücke gefunden habe,
+
+292
+00:25:55,000 --> 00:25:58,000
+ über die ich so gerne reden würde. Aber ich dachte, ich mache das über Responsible, ich
+
+293
+00:25:58,000 --> 00:26:01,000
+ mache das über ein Bug Bounty Programm. Und die haben mir verboten, darüber zu reden.
+
+294
+00:26:01,000 --> 00:26:05,000
+ Das frustriert mich sehr doll. Und das werde ich in Zukunft, glaube ich, nie wieder machen.
+
+295
+00:26:05,000 --> 00:26:14,000
+ Zurück zu unserer Frage, Responsible Disclosure oder Shitposten. Schauen wir uns vielleicht
+
+296
+00:26:14,000 --> 00:26:19,000
+ noch mal kurz das "Was wäre Wenn" an. Wenn Responsible Disclosure, würden die ihre Applikation
+
+297
+00:26:19,000 --> 00:26:25,000
+ online lassen, die Lücke wird zuzüglich geschlossen und gut vorbereitete PR-Leute, die vielleicht
+
+298
+00:26:25,000 --> 00:26:29,000
+ hier im Publikum sitzen, würden dann über diese Lücke kommunizieren, wahrscheinlich
+
+299
+00:26:29,000 --> 00:26:33,000
+ besser als ich das könnte und es würde keinen Reputationsverlust für die Schufa geben. Und
+
+300
+00:26:33,000 --> 00:26:38,000
+ ein gutes Beispiel, ich hoffe das Video geht diesmal, ist als Finanzwende letztens, ist
+
+301
+00:26:38,000 --> 00:26:44,000
+ eine NGO, der Schufa eine Unterschriftenliste mit 300.000 Unterschriften zu genau diesem Thema
+
+302
+00:26:44,000 --> 00:26:49,000
+ übergeben hat, nämlich diesen Kontenabruf, dann hat die Schufa die Hände ringend empfangen,
+
+303
+00:26:49,000 --> 00:26:53,000
+ hat denen die Regenschirme gehalten und hat daraus einen lustigen Imagefilm gemacht. Und
+
+304
+00:26:53,000 --> 00:26:58,000
+ das passiert, wenn ihr versucht Kommunikationsprofis bloßzustellen. Das braucht man meistens nicht
+
+305
+00:26:58,000 --> 00:27:05,000
+ versuchen, deswegen hielt ich das jetzt nicht unbedingt für eine gute Strategie. Was also
+
+306
+00:27:05,000 --> 00:27:08,000
+ passieren hätte können, in jedem Fall wäre niemand, bekommt es mit, dass es diese Lücke
+
+307
+00:27:08,000 --> 00:27:13,000
+ gab. Schufa hat weiterhin voll den PR-Run, weiterhin auf Platz 2 im App Store. Schufa
+
+308
+00:27:13,000 --> 00:27:18,000
+ hätte Responsible Disclosure ausgenutzt, um sich weiterhin gut zu positionieren und ich
+
+309
+00:27:18,000 --> 00:27:23,000
+ hätte ein Wochenende verschwendet. Bevor wir uns jetzt der Dark Side zuwenden, müssen wir
+
+310
+00:27:23,000 --> 00:27:28,000
+ eine Sache prüfen, nämlich ob ich eine Straftat begangen habe, als ich das gehackt habe. Weil
+
+311
+00:27:28,000 --> 00:27:32,000
+ wenn ich das gemacht hätte, dann könnte mir das Responsible Disclosure positiv ausgelegt
+
+312
+00:27:32,000 --> 00:27:35,000
+ werden, aber es wäre trotzdem weiterhin eine Straftat, weil wir in Deutschland nämlich
+
+313
+00:27:35,000 --> 00:27:39,000
+ immer noch einen Hackerparagrafen haben, der zivilgesellschaftliche Sicherheitsforschung
+
+314
+00:27:39,000 --> 00:27:44,000
+ weiterhin verbietet. Das können wir in dem Fall einfach prüfen, denn ich habe in dem
+
+315
+00:27:44,000 --> 00:27:48,000
+ Fall nur öffentliche APIs benutzt, ich habe nicht irgendwie Zugangshöden überwunden,
+
+316
+00:27:48,000 --> 00:27:52,000
+ die ich nicht hätte überwinden dürfen und wie wir dank des Referenzfalls CDU gegen
+
+317
+00:27:52,000 --> 00:28:05,000
+ Liddit Wittmann wissen, ist, wenn man öffentliche APIs benutzt, dass keine Straftat, zumindest
+
+318
+00:28:05,000 --> 00:28:10,000
+ das ist kein Gerichtsverteidiger als Disclaimer, aber es ist eine sehr medienwirksame Referenz
+
+319
+00:28:10,000 --> 00:28:15,000
+ der Berliner Staatsanwaltschaft, die sich damals sehr schnell darum gekümmert hat. Ich
+
+320
+00:28:15,000 --> 00:28:18,000
+ weiß, ich bin da super privilegiert, dass ich da so drüber reden kann, weil ich die
+
+321
+00:28:18,000 --> 00:28:21,000
+ Möglichkeiten habe, dass wenn ich am Ende mal verklagt werde, ich da wahrscheinlich
+
+322
+00:28:21,000 --> 00:28:26,000
+ gut rauskomme, das kann jetzt nicht jeder so sagen wahrscheinlich, aber ich meine in
+
+323
+00:28:26,000 --> 00:28:32,000
+ dem Fall ist es ganz praktisch, deswegen kommen wir jetzt, wir shitposten das. Okay, ne, wir
+
+324
+00:28:32,000 --> 00:28:36,000
+ schauen noch mal einmal kurz, was Worst Case ist, ob irgendwas Schlimmes passieren könnte
+
+325
+00:28:36,000 --> 00:28:39,000
+ und ich meine das Schlimmste, was man mit der Lücke anfangen könnte, wäre, dass man
+
+326
+00:28:39,000 --> 00:28:44,000
+ für andere Leute eine Universumauskunft abruft, die man vielleicht nicht selbst ist, aber
+
+327
+00:28:44,000 --> 00:28:48,000
+ man hinterlässt dabei ja sein Kontoident, also quasi sein Personalausweis, dass man
+
+328
+00:28:48,000 --> 00:28:53,000
+ zwar, sprich, wenn man das jetzt in böse Absicht tut und nicht vorher die Person gefragt
+
+329
+00:28:53,000 --> 00:28:57,000
+ hat und es nicht jense Spahn ist, dann würde das wahrscheinlich auffallen und die Person
+
+330
+00:28:57,000 --> 00:29:01,000
+ würde Ärger bekommen. Dann könnten Vermieter gefälschte Kreditauskünfte bekommen, da dachte
+
+331
+00:29:01,000 --> 00:29:08,000
+ ich mir so die armen Vermieter und Leute hätten mehr Sicherheitslücken finden können, das
+
+332
+00:29:08,000 --> 00:29:11,000
+ ist tatsächlich irgendwie das kritischste, weil ich meine, wenn da eine Sicherheitslücke
+
+333
+00:29:11,000 --> 00:29:15,000
+ ist und ich darauf hinweise, dann könnte da jemand schnell mehr Sicherheitslücken finden.
+
+334
+00:29:15,000 --> 00:29:18,000
+ Ich dachte aber, die sind ein groß genuges Unternehmen, dass die schnell abschalten nachdem
+
+335
+00:29:18,000 --> 00:29:22,000
+ ich die Lücke veröffentlicht habe und das heißt deswegen, das Risiko überschaubar ist.
+
+336
+00:29:22,000 --> 00:29:28,000
+ Es gibt also ein potenziell großes Reputationsverlust, aber für das Unternehmen, nur fürs Unternehmen,
+
+337
+00:29:28,000 --> 00:29:32,000
+ aber die Lücke, aber das Problem für einzelne Menschen ist sehr überschaubar. Also haben wir
+
+338
+00:29:32,000 --> 00:29:42,000
+ geschippt postet. Und wenige Stunden später sah dann, war dann das Statoos Monitoring
+
+339
+00:29:42,000 --> 00:29:50,000
+ bei Bonifal Rot und die war down und ich hatte ganz schnell in meiner Signal Inbox eine Kontaktanfrage
+
+340
+00:29:50,000 --> 00:29:57,000
+ von der NDR/SZ Recherche Kooperation von Nils Bischmeier und Peter Hornung und die haben
+
+341
+00:29:57,000 --> 00:30:02,000
+ dann auch direkt einen richtig tollen Bericht in der Tageschauendem in der SZ veröffentlicht,
+
+342
+00:30:02,000 --> 00:30:07,000
+ quasi dann exklusiv und wir hatten sehr viel Glück, denn das Allercoolste, was uns in so
+
+343
+00:30:07,000 --> 00:30:12,000
+ einem Fall passieren kann, ist auf dem dpa-Verteiler zu landen. Wenn man auf dem dpa-Verteiler landet,
+
+344
+00:30:12,000 --> 00:30:16,000
+ dann ist die Chance sehr hoch, dass am nächsten Tag ganz viele kleine Tageszeitungen über
+
+345
+00:30:16,000 --> 00:30:21,000
+ euch berichten. Deswegen immer versuchen mit solchen Lücken auf den dpa-Verteiler irgendwie
+
+346
+00:30:21,000 --> 00:30:27,000
+ drauf zu kommen. Und was ist also passiert? Schufa und Boniversum haben weniger als 24 Stunden später
+
+347
+00:30:27,000 --> 00:30:36,000
+ medienwirksam die Datenverbindung zu Bonifal gekappt. Oh, da steht Boniversum, sorry. Und Bonifal
+
+348
+00:30:36,000 --> 00:30:41,000
+ ist vor zwei Wochen komplett offline gegangen und die Apps stand heute weiterhin nicht im App Store.
+
+349
+00:30:50,000 --> 00:30:54,000
+ Und die Damen und Herren von der KrisenPR haben sich herrlich blamiert, haben gegenüber
+
+350
+00:30:54,000 --> 00:30:58,000
+ Journalistinnen aus meiner Perspektive gelogen, es gab einen immensen Reputationsverbluss
+
+351
+00:30:58,000 --> 00:31:04,000
+ für die Schufa. Und wir erinnern uns, es regnet der Bild im Aufzug nach oben. Und wenn es eine
+
+352
+00:31:04,000 --> 00:31:07,000
+ Regel gibt, ist, dass wenn es mit dem Bildaufzug nach oben ging, dann geht es mit dem Bildaufzug
+
+353
+00:31:07,000 --> 00:31:09,000
+ auch irgendwann mal wieder nach unten.
+
+354
+00:31:09,000 --> 00:31:16,000
+ Zwei Tage Bild Startseite.
+
+355
+00:31:16,000 --> 00:31:27,000
+ Gegendarstellung. Eine Aktivistin hat im Rahmen der Anmeldeprozidur zum Kontoidentverfahren
+
+356
+00:31:27,000 --> 00:31:32,000
+ Namen und Adressdaten manipuliert. Dabei wurden Nutzerkonten unter anderem auf einen Politiker
+
+357
+00:31:32,000 --> 00:31:37,000
+ und zwei Journalisten angelegt. Einer dieser Redakteure hat in einem Beitrag der Süddeutschen
+
+358
+00:31:37,000 --> 00:31:41,000
+ Zeitung sogar bestätigt, dass die Hackerin für die Süddeutsche Zeitung und den NDR Namens-
+
+359
+00:31:41,000 --> 00:31:46,000
+ und Adressmanipulation vorgenommen hat. Zitat Lilith Wittmann konnte für NDR und Süddeutsche
+
+360
+00:31:46,000 --> 00:31:50,000
+ Zeitung in mehreren unabhängigen Tests nachweisen, dass es in der App eine Art Einfallstore
+
+361
+00:31:50,000 --> 00:31:56,000
+ gibt, um an manipulierte Bonitätsauskünfte der Auskunftteil Boniversum zu kommen. Zitat Ende.
+
+362
+00:31:56,000 --> 00:32:01,000
+ Also was man an der Stelle dazu sagen muss ist, dass es ganz normal ist, dass man mit
+
+363
+00:32:01,000 --> 00:32:05,000
+ Journalistinnen zusammenarbeitet, dass sie natürlich die Lücke sehen wollen, wenn sie
+
+364
+00:32:05,000 --> 00:32:08,000
+ darüber schreiben sollen. Deswegen ist das nicht, dass ich im Auftrag von irgendjemanden
+
+365
+00:32:08,000 --> 00:32:12,000
+ hier irgendwas manipuliert habe, sondern ich habe einfach diese Lücke für Journalistinnen
+
+366
+00:32:12,000 --> 00:32:16,000
+ nachgestellt. Aber ihr seht hier, was für ein Framing die versucht haben, dass es nämlich
+
+367
+00:32:16,000 --> 00:32:20,000
+ jetzt die bösen Journalistinnen gibt, die mich beauftragt haben, etwas zu manipulieren.
+
+368
+00:32:20,000 --> 00:32:26,000
+ Und dieses Framing setzt sich dann auch weiter durch. Denn wenige Tage später ist auf deren
+
+369
+00:32:26,000 --> 00:32:33,000
+ Homepage unten ein neuer Punkt "responsible disclosure" aufgetaucht. Die haben aber nicht
+
+370
+00:32:33,000 --> 00:32:37,000
+ selber eine Responsible Disclosure Guideline geschrieben, die haben die von Fusion Ours
+
+371
+00:32:37,000 --> 00:32:41,000
+ genommen, haben die in Google Translate geworfen und ihr stand es heute noch immer sehr peinlich
+
+372
+00:32:41,000 --> 00:32:48,000
+ zu lesen. Das ist mir sehr früh aufgefallen, habe ich getwittert, bevor sie irgendwas in
+
+373
+00:32:48,000 --> 00:32:52,000
+ die Presse dazu rausgeben konnten, glaube ich. Dann habe ich immer schon eine Gegenposition
+
+374
+00:32:52,000 --> 00:32:55,000
+ gesetzt und dann konnten die da glaube ich nicht mehr so viel draus schlagen, aber immerhin
+
+375
+00:32:55,000 --> 00:32:57,000
+ was sie noch geschrieben haben.
+
+376
+00:32:57,000 --> 00:33:02,000
+ Was wir ja nicht nachvollziehen können. Üblicherweise melden Angreifer ihre Erkenntnisse dem betroffenen
+
+377
+00:33:02,000 --> 00:33:07,000
+ Unternehmen, dessen Programm, Website oder App betroffen sind. Dies räumt dem Unternehmen
+
+378
+00:33:07,000 --> 00:33:11,000
+ eine angemessene Zeit ein, um die Lücke zu schließen. Bei uns war das nicht der Fall.
+
+379
+00:33:11,000 --> 00:33:16,000
+ Für uns besonders bitter, das gemeinsame Entwicklungsteam von Schufa und Bonify stand bereits seit
+
+380
+00:33:16,000 --> 00:33:20,000
+ einigen Wochen mit der Aktivistin in Kontakt, um sie für eine Mitarbeit zu gewinnen.
+
+381
+00:33:20,000 --> 00:33:31,000
+ Also ich war nicht sehr nett, aber da halte ich es mit Badmums Jay. Eine sehr coole Rapperin.
+
+382
+00:33:31,000 --> 00:33:38,000
+ Ich glaube, wenn ich nett zu allen Unternehmen wäre, dann würde nie irgendwas Cooles entstehen.
+
+383
+00:33:38,000 --> 00:33:42,000
+ Und dann habe ich mal in meine LinkedIn Nachrichten geschaut und tatsächlich...
+
+384
+00:33:42,000 --> 00:33:47,000
+ Hallo Frau Wittmann, mein Name ist MhMh und ich arbeite für die Schufa. Ich stelle gerade
+
+385
+00:33:47,000 --> 00:33:51,000
+ ein Team zusammen, das den kostenfreien digitalen Zugriff auf eigene Daten bei der Schufa umsetzt.
+
+386
+00:33:51,000 --> 00:33:55,000
+ Dabei soll beantwortet werden, wie diese Daten verwendet werden und wie diese wirken in
+
+387
+00:33:55,000 --> 00:33:59,000
+ Ausbaustufen, auch wie diese beeinflusst, gelöscht und gesteuert werden können.
+
+388
+00:33:59,000 --> 00:34:05,000
+ Also Sie wollen Datencockpits bauen, in die ihr mehr Daten reingeben könnt, damit die Schufa
+
+389
+00:34:05,000 --> 00:34:09,000
+ euch besser scoren kann, damit ihr quasi die Schufa beauftragt, euch zu scoren.
+
+390
+00:34:09,000 --> 00:34:15,000
+ Ich suche nach einem erfahrenen Teamlead für den Aufbau der dahinterliegenden Applikation
+
+391
+00:34:15,000 --> 00:34:20,000
+ und technischen Infrastruktur, um supersensible, personbezogene Daten sicher in eine App, iOS
+
+392
+00:34:20,000 --> 00:34:25,000
+ und Android, zu bekommen. Hier bei der Schufa ist das Thema nochmal sensitiver und mit höherem
+
+393
+00:34:25,000 --> 00:34:29,000
+ Risiko eines Missbrauchs verbunden. Intern gibt es die notwendigen Kompetenz nicht.
+
+394
+00:34:29,000 --> 00:34:43,000
+ Deswegen suche ich händeringend externer Hilfe, nicht der beste Firmenname dafür.
+
+395
+00:34:43,000 --> 00:34:51,000
+ Aktuell hänge ich aber mit Teaminfrastruktur und Kompetenz weit hinter dem Plan. Nichts hilft
+
+396
+00:34:51,000 --> 00:34:56,000
+ geplanter Transparenz weniger, als wenn wir den Aufbau vermasseln und am Ende die überfällige
+
+397
+00:34:56,000 --> 00:35:01,000
+ Umsetzung nicht ans Fliegen kommt. Entweder wegen einen Stern im App Store schlecht umgesetzt,
+
+398
+00:35:01,000 --> 00:35:06,000
+ nicht verständlich, oder schlimmer, kein Vertrauen in Zugang und Integrität der darin enthaltenen Daten.
+
+399
+00:35:06,000 --> 00:35:14,000
+ Sie hatten beide Probleme. Aber ey, man muss sagen, irgendwie hat sich eine kompetente
+
+400
+00:35:14,000 --> 00:35:19,000
+ Person zur Schufa verwirrt und dann hat man nicht auf die gehört. Ich meine, das kennt
+
+401
+00:35:19,000 --> 00:35:26,000
+ ihr doch alle. Und ich meine, ist ganz klar, wer will schon für die Schufa arbeiten? Ich
+
+402
+00:35:26,000 --> 00:35:29,000
+ meine, ich als Arbeiterkind habe irgendwie gelernt, dass man von der Schufa Angst haben
+
+403
+00:35:29,000 --> 00:35:34,000
+ muss. Vielleicht, wenn man irgendwie so reiche Eltern hat und die Vermieter sind, dann finden
+
+404
+00:35:34,000 --> 00:35:38,000
+ die die Schufa voll super. Aber ich arbeite doch von niemandem, von dem ich Angst habe.
+
+405
+00:35:38,000 --> 00:35:43,000
+ Und ich meine, wenn man ein LinkedIn-Profil lesen kann, dann steht da literally, dass man
+
+406
+00:35:43,000 --> 00:35:48,000
+ mich nicht für IT-Security-related Sachen anfragen soll. Denn beruflich mache ich lieber
+
+407
+00:35:48,000 --> 00:35:55,000
+ schöne Sachen. Und nur weil mir irgendein Unternehmen einen Scheißjob anbietet, heißt
+
+408
+00:35:55,000 --> 00:35:59,000
+ es nicht, dass ich mir euch danach anschaue. Denn wenn ich jedes Unternehmen, das mal in
+
+409
+00:35:59,000 --> 00:36:02,000
+ der LinkedIn-Inbox war, nicht mehr anschauen würde...
+
+410
+00:36:02,000 --> 00:36:12,000
+ Aber kommen wir zu einem anderen Thema, nämlich der spannende Frage, warum hat Schufa eigentlich
+
+411
+00:36:12,000 --> 00:36:18,000
+ Bonify genau gekauft? War das wirklich nur, dass es ihnen schlecht ging und sie wollten
+
+412
+00:36:18,000 --> 00:36:22,000
+ shoppen? Oder hatten sie da vielleicht noch einen Hintergedanken, dass jetzt der spekulative
+
+413
+00:36:22,000 --> 00:36:26,000
+ Teil des Vortrags, wo ich nicht so viele Nachweise für habe, aber ich spekuliere jetzt einfach
+
+414
+00:36:26,000 --> 00:36:33,000
+ mal drauf los. Wir erinnern uns, Schufa-Scoring verstößt vermutlich gegen EU-Recht. Ist blöd
+
+415
+00:36:33,000 --> 00:36:40,000
+ für die Schufa, weil es ihr Geschäftsmodell. Jetzt gibt es was ganz Neues, Hippes. Nämlich
+
+416
+00:36:40,000 --> 00:36:44,000
+ selbstbestimmte digitale Identitäten, von denen ihr leider wahrscheinlich alles schon mal
+
+417
+00:36:44,000 --> 00:36:50,000
+ gehört habt, das mit Blockchains. Was ihr dabei macht, ist, ihr bekommt von verschiedenen
+
+418
+00:36:50,000 --> 00:36:55,000
+ Institutionen digitale Nachweise, wie einen digitalen Ausweis, einen digitalen Führerschein,
+
+419
+00:36:55,000 --> 00:37:00,000
+ eine digitale Kreditkarte, digitale Zeugnisse und vielleicht in Zukunft auch eine digitale
+
+420
+00:37:00,000 --> 00:37:05,000
+ Bonitätsauskunft, die ihr euch kaufen könnt. Und dann packt ihr die in euer Wallet, auf
+
+421
+00:37:05,000 --> 00:37:11,000
+ euer Handy. Und dann könnt ihr diese digitale Bonitätsauskunft an anderen Stellen zustellen
+
+422
+00:37:11,000 --> 00:37:16,000
+ oder denen zeigen und dies garantiert echt. Dazu packt man ein digitales Zertifikat auf
+
+423
+00:37:16,000 --> 00:37:21,000
+ euer Handy, das entweder in einer PKI verwurzelt ist oder in einer Blockchain. Das ist eigentlich
+
+424
+00:37:21,000 --> 00:37:27,000
+ egal, das ist beide scheiße. Und dann nimmt man diese digitalen Zertifikate und schiebt
+
+425
+00:37:27,000 --> 00:37:32,000
+ die auf euer Handy einfach in den Speicher. Und wenn ihr denen quasi vorzeigt, dann nehmt
+
+426
+00:37:32,000 --> 00:37:37,000
+ ihr eine digitale Kopie dieses digitalen Nachweises und schickt die an andere Institutionen. Und
+
+427
+00:37:37,000 --> 00:37:42,000
+ diese andere Institution nimmt dann diesen digitalen Nachweis und verifiziert ihn entweder
+
+428
+00:37:42,000 --> 00:37:48,000
+ gegen eine PKI oder gegen eine Blockchain. Wenn wir das also mit der Offline-Welt vergleichen,
+
+429
+00:37:48,000 --> 00:37:52,000
+ wenn ihr normalerweise irgendwo einen Ausweis zum Beispiel vorzeigt, dann steht ihr an der
+
+430
+00:37:52,000 --> 00:37:56,000
+ Tür, zeigt irgendwie diesen Ausweis und dann lässt euch der Türsteher nicht rein, weil
+
+431
+00:37:56,000 --> 00:38:01,000
+ ihr seid irgendwie in meinem Vortrag, verlässt euch da schon rein. Wenn wir das online machen,
+
+432
+00:38:01,000 --> 00:38:06,000
+ jetzt auf die Offline-Welt übertragen, dann würde da wieder ein Türsteher stehen, der
+
+433
+00:38:06,000 --> 00:38:10,000
+ würde euch fragen, gib mir mal bitte deinen Ausweis, dann würde der euren Ausweis nehmen,
+
+434
+00:38:10,000 --> 00:38:15,000
+ würde dem Notar, der daneben steht, geben, dieser Notar würde eine beglaubigte Kopie
+
+435
+00:38:15,000 --> 00:38:18,000
+ dieses Dokuments anfertigen, zu den Akten legen und dann wisst ihr nicht, was mit diesem
+
+436
+00:38:18,000 --> 00:38:23,000
+ kopierten Dokument passiert und dann lässt euch der Türsteher wieder nicht rein, ist ja klar.
+
+437
+00:38:23,000 --> 00:38:30,000
+ Was ihr quasi tut ist, ihr verteilt eure Dokumente an ganz, ganz viele Orte und ein
+
+438
+00:38:30,000 --> 00:38:34,000
+ oder zwei Orte wird vielleicht irgendwann mal abbrennen oder einen Datenabfluss haben
+
+439
+00:38:34,000 --> 00:38:42,000
+ und dann haben ganz viele Menschen garantiert echte Dokumente über euch. Datenreichtum.
+
+440
+00:38:42,000 --> 00:38:49,000
+ Bei verifirerable credentials bzw. solchen digitalen Nachweisen kann ich zwar entscheiden,
+
+441
+00:38:49,000 --> 00:38:53,000
+ wem ich meine Daten gebe, aber ich kann danach nicht mehr kontrollieren, was damit passiert.
+
+442
+00:38:53,000 --> 00:38:57,000
+ Und was ganz witzig ist, ihr speichert diese Dinge ja auf eurem Handy und die sind garantiert
+
+443
+00:38:57,000 --> 00:39:01,000
+ echt und die wurden auch garantiert nur euch ausgestellt. Ab dem Moment, wo die auf eurem
+
+444
+00:39:01,000 --> 00:39:06,000
+ Handy sind, seid ihr dafür verantwortlich. Wenn also jetzt der nächste WhatsApp-Scam um
+
+445
+00:39:06,000 --> 00:39:09,000
+ die Ecke kommt und euch fragt, ob ihr da mal euren Ausweis hochlädt, weil eure Tochter
+
+446
+00:39:09,000 --> 00:39:14,000
+ euren Ausweis braucht, dann seid ihr dafür verantwortlich, dass ihr den da hochgeladen habt.
+
+447
+00:39:14,000 --> 00:39:19,000
+ Oder ihr habt ganz einfach ein altes Handy und da ist Chart-Software drauf. Wir haben
+
+448
+00:39:19,000 --> 00:39:24,000
+ also einen neuen Trend, der total hipp ist und den gerade die letzte Bundesregierung
+
+449
+00:39:24,000 --> 00:39:30,000
+ super fand, weswegen die ein ganzes Ökosystem um diesen Trend gebaut hat. Das sind verschiedenste
+
+450
+00:39:30,000 --> 00:39:34,000
+ Projekte mit dutzenden Unternehmen drin und das Bundeskanzlerinnenamt hat sogar selbst
+
+451
+00:39:34,000 --> 00:39:40,000
+ Apps gebaut. Insgesamt hat die letzte Bundesregierung 215 Millionen Euro in digitale Nachweise
+
+452
+00:39:40,000 --> 00:39:45,000
+ gesteckt und dabei auch eine eigene Wallet-App gebaut. Die ist irgendwie am 20. September
+
+453
+00:39:45,000 --> 00:39:50,000
+ vor der letzten Bundestagswahl gelauncht, die glaube ich am 26. war. Die hatten uns damals
+
+454
+00:39:50,000 --> 00:39:57,000
+ Flippke und ich angeschaut und die war zur Bundestagswahl schon nicht mehr online. Das lag daran, weil
+
+455
+00:39:57,000 --> 00:40:02,000
+ die auch so ein kleines Problem hatte, was wir geschippt postet haben, nämlich man konnte
+
+456
+00:40:02,000 --> 00:40:06,000
+ sich als jede beliebige Person ausgeben oder jede beliebige Institution und eure digital
+
+457
+00:40:06,000 --> 00:40:11,000
+ Quidditch-Lessons einfach mal bei euch abfragen. Ich konnte die Polizei sein oder ich konnte
+
+458
+00:40:11,000 --> 00:40:16,000
+ Hege Braun, der damalige Chef des Bundeskanzlerinnenamts sein und diese App haben wir ja bis heute
+
+459
+00:40:16,000 --> 00:40:21,000
+ nicht mehr. Also das Bundeskanzlerinnenamt oder das BMI hat das dann alles eingestellt
+
+460
+00:40:21,000 --> 00:40:25,000
+ und die überlegen jetzt an einer Lösung, die nicht mehr so krass Wallet basiert ist
+
+461
+00:40:25,000 --> 00:40:28,000
+ und die vielleicht ein bisschen besser wird als das, was wir damals hatten, aber es wird
+
+462
+00:40:28,000 --> 00:40:33,000
+ glaube ich auch leider immer noch schlimm. Das Bundeskanzlerinnenamt bzw. der zuständige
+
+463
+00:40:33,000 --> 00:40:37,000
+ Referatsleiter hat sich darüber dann nicht so gefreut, aber wenn ihr die ganze Geschichte
+
+464
+00:40:37,000 --> 00:40:43,000
+ nachlesen wollt, gibt es in meinem Blog. Ja und diese Digital Quidditch-Lessons fragt
+
+465
+00:40:43,000 --> 00:40:47,000
+ ihr euch jetzt, was hat das denn jetzt mit der Schufa und Bonify und dem ganzen Scheiß
+
+466
+00:40:47,000 --> 00:40:52,000
+ zu tun? Naja, Boniversum macht bei diesen ganzen Projekten mit. Die Schufa noch nicht,
+
+467
+00:40:52,000 --> 00:41:01,000
+ aber Boniversum und auch die Sparkasse. Und die sind in dem ID Union Projekt Mitglied.
+
+468
+00:41:01,000 --> 00:41:06,000
+ Und das ID Union Projekt hat so Ziel, irgendwie so verschiedene digitale Nachweise in so eine
+
+469
+00:41:06,000 --> 00:41:10,000
+ Wallet-App zu bekommen und eine der Sachen, die sie zumindest im ursprünglichen Plan,
+
+470
+00:41:10,000 --> 00:41:15,000
+ wie ich so von, das ist nirgends leider so richtig offiziell angekündigt, aber sie
+
+471
+00:41:15,000 --> 00:41:19,000
+ wollten Bonitätsnachweise auf Basis von Digital Credentials machen mit ihr Verdienst so und
+
+472
+00:41:19,000 --> 00:41:28,000
+ so viel und irgendwie gibt es keine negativen Einträge irgendwo. Was da natürlich bedeutet,
+
+473
+00:41:28,000 --> 00:41:33,000
+ dass im Falle, dass das Schufa-Score-Modell failt, die direkt eine coole Alternative hätten.
+
+474
+00:41:33,000 --> 00:41:37,000
+ Denn anstatt, dass die Schufa euch scoort und irgendwelche Daten über euch hat, will
+
+475
+00:41:37,000 --> 00:41:42,000
+ euer Vermieter in der Zukunft, dass ihr zu einem Scoring-Partner geht und da, dem gebt
+
+476
+00:41:42,000 --> 00:41:48,000
+ ihr all eure Daten und dann stellt ihr euch ganz selbstbestimmt einen digitalen Nachweis
+
+477
+00:41:48,000 --> 00:41:52,000
+ aus, den ihr dann ganz vielen Stellen gebt. Den bezahlt ihr dann im besten Fall auch noch,
+
+478
+00:41:52,000 --> 00:41:55,000
+ weil für so ein signiertes PDF zahlt man ja auch heute schon 20 Euro, wenn das dann noch
+
+479
+00:41:55,000 --> 00:42:02,000
+ so ein bisschen mehr mit Maschinen lesbar kann. 50 Euro ist das wert, würde ich sagen.
+
+480
+00:42:02,000 --> 00:42:05,000
+ Das dann quasi, und das Ding ist, dass das ihr eigentlich auch Banken wunderbar machen
+
+481
+00:42:05,000 --> 00:42:09,000
+ könnt. Also die Sparkasse kann euch dann einen digital signierten Kontoauszug verkaufen,
+
+482
+00:42:09,000 --> 00:42:13,000
+ wenn ihr so wollt. Deswegen heißt das da, dass sie schnell sein müssen, wenn sie noch
+
+483
+00:42:13,000 --> 00:42:18,000
+ bei diesem Business-Modell mitspielen wollen. Und ich glaube, dass das tatsächlich der eigentliche
+
+484
+00:42:18,000 --> 00:42:22,000
+ Grund ist, dass das die Richtung ist, in die sie mit ihrem Geschäftsmodell wollen. Aber
+
+485
+00:42:22,000 --> 00:42:26,000
+ wie gesagt, da habe ich keine Beweise, es ist nur, dass viel darauf hindeutet, weil sie
+
+486
+00:42:26,000 --> 00:42:30,000
+ brauchen eine Alternative und die Alternative würde sich natürlich obviously anbieten.
+
+487
+00:42:30,000 --> 00:42:38,000
+ So, da wir fast am Ende der Zeit sind, kommen wir zu unserer Zusammenfassung. Es gilt wie
+
+488
+00:42:38,000 --> 00:42:42,000
+ immer öffentliche Daten nützen und private Daten schützen. Und das gilt in 99 Prozent
+
+489
+00:42:42,000 --> 00:42:45,000
+ der Fälle. Und dann macht ihr bitte Responsible Disclosure. Und wenn ihr wissen wollt, wie
+
+490
+00:42:45,000 --> 00:42:50,000
+ das geht, das gibt so einen Vortrag von Zerforschung, wo das ein bisschen erklärt wird, gerade wie
+
+491
+00:42:50,000 --> 00:42:54,000
+ Unternehmen mit den Meldungen umgehen sollen. Und sonst gibt es dazu auch mehr als genug
+
+492
+00:42:54,000 --> 00:43:02,000
+ Material. Aber es gibt Ausnahmen. Wenn die Vorteile von so einem Hack bei weitem überwiegen
+
+493
+00:43:02,000 --> 00:43:07,000
+ in der öffentlichen Perzeption und wir keine Menschengruppen oder auch keine einzelnen
+
+494
+00:43:07,000 --> 00:43:13,000
+ Menschen signifikant gefährden, dann finde ich es legitim, nicht nach Responsible Disclosure
+
+495
+00:43:13,000 --> 00:43:17,000
+ zu arbeiten, gerade wenn wir über Scheißunternehmen reden, von denen wir irgendwie gesellschaftlich
+
+496
+00:43:17,000 --> 00:43:21,000
+ quasi einen Konsens haben, dass wir die nicht mehr haben wollen, außer ihr seid Vermieter.
+
+497
+00:43:21,000 --> 00:43:35,000
+ Und in allen, allen, allen anderen Fällen macht ihr bitte weiterhin Responsible Disclosure.
+
+498
+00:43:35,000 --> 00:43:42,000
+ Und ich weiß, wenn ihr das nicht macht, macht das nicht beim ersten Mal, dass ihr eine Sicherheitslücke
+
+499
+00:43:42,000 --> 00:43:47,000
+ findet. Redet davor mit Leuten drüber, die sich auskennen und macht das nicht leichtfertig.
+
+500
+00:43:47,000 --> 00:43:52,000
+ Aber es gibt Fälle, in denen das sinnvoll sein kann. Das sind aber nur sehr wenige. Und
+
+501
+00:43:52,000 --> 00:43:57,000
+ an der Stelle gibt es noch einen anderen Hinweis. Arbeitet mit anderen Organisationen zusammen,
+
+502
+00:43:57,000 --> 00:44:01,000
+ wenn es andere Organisationen in dem Bereich schon gibt. In dem Fall zum Beispiel bei der
+
+503
+00:44:01,000 --> 00:44:04,000
+ Schufa gibt es ja irgendwie die Finanzbände, die irgendwie diese große Unterschriftende
+
+504
+00:44:04,000 --> 00:44:08,000
+ Aktion gemacht hat und die sich sehr dafür einsetzt, dass der Schufa Kontenzugriff nicht
+
+505
+00:44:08,000 --> 00:44:13,000
+ kommt. Deren Petition könnt ihr auch weiterhin unterschreiben, macht das. Aber gerade wenn
+
+506
+00:44:13,000 --> 00:44:18,000
+ ihr als Hackerin nicht Expertin im jeweiligen Bereich seid, ist es voll gut, sich eine Organisation
+
+507
+00:44:18,000 --> 00:44:22,000
+ zu suchen, die ihr medial vielleicht pushen könnt. In dem Fall ärgere ich mich fast ein
+
+508
+00:44:22,000 --> 00:44:25,000
+ bisschen, das nicht gemacht zu haben, aber ich dachte, ich habe vielleicht intern deren
+
+509
+00:44:25,000 --> 00:44:29,000
+ Siehung ausgelöst und wusste nicht, wie lange ich habe, um es zu posten, bevor sie es
+
+510
+00:44:29,000 --> 00:44:36,000
+ zumachen und dann wäre ein bisschen doof gewesen. Genau, aber unterschreibt diese Petition. Und
+
+511
+00:44:36,000 --> 00:44:40,000
+ was ich irgendwie selber daraus gelernt habe, ist nochmal die Schufa, das ist vor allem
+
+512
+00:44:40,000 --> 00:44:44,000
+ ein inkompetenter Haufen, von dem brauche ich keine Angst zu haben und die müssen wir
+
+513
+00:44:44,000 --> 00:44:48,000
+ einfach loswerden. Die Schufa muss nämlich sterben, damit wir leben können.
+
+514
+00:44:48,000 --> 00:45:06,000
+ Damit sind wir am Ende. Kontaktmöglichkeiten zu mir findet ihr unter dieser URL. Es gibt
+
+515
+00:45:06,000 --> 00:45:11,000
+ leider kein Q&A, wir haben am Anfang angekündigt. Falls ihr eine förmliche Zustellung für mich
+
+516
+00:45:11,000 --> 00:45:15,000
+ habt, die Adresse findet ihr nicht da, macht das einfach über die Chaos-Post. Ansonsten
+
+517
+00:45:15,000 --> 00:45:19,000
+ findet ihr digitale Kontaktmöglichkeiten da. Dankeschön.
+
+518
+00:45:19,000 --> 00:45:25,000
+ [Applaus]
+
+519
+00:45:25,000 --> 00:45:35,000
+ [Applaus]
+
+520
+00:45:35,000 --> 00:45:58,000
+ [Applaus]
+
+521
+00:45:58,000 --> 00:46:04,000
+ Vielen Dank Lilith. Wie gesagt, keine Q&A. Wenn ihr noch da bleiben wollt, trefft euch
+
+522
+00:46:04,000 --> 00:46:09,000
+ mit Lilith hier irgendwo auf der Seite. Wenn ihr den Saal, das Zelt verlasst, haltet bitte
+
+523
+00:46:09,000 --> 00:46:14,000
+ die Wege frei, wenn ihr noch plaudern wollt. Passt auf euch auf, trinkt genug Wasser und
+
+524
+00:46:14,000 --> 00:46:18,000
+ wenn ihr Alkohol trinkt, trinkt auch ein bisschen Wasser dazu. Übrigens, trinkt mehr Wasser.
+
+525
+00:46:18,000 --> 00:46:20,000
+ Schönen Abend noch, ciao!
+
+526
+00:46:20,000 --> 00:46:25,000
+ [Applaus]
+
+527
+00:46:25,000 --> 00:46:30,000
+ [Musik]
+

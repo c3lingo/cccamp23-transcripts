@@ -1,0 +1,2144 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:35,000
+ Okay, welcome to Millyways. Welcome to our next talk.
+
+4
+00:00:35,000 --> 00:00:41,000
+ We all know how hard it is to set up some kind of service on the connected intertubes.
+
+5
+00:00:41,000 --> 00:00:52,000
+ But it's even harder keeping it running, you know, with lots of people wanting to access your service, malicious intent or not.
+
+6
+00:00:52,000 --> 00:01:04,000
+ And our next speaker, Craig, will give us some insights on the history of DDoS attacks and how you can handle them.
+
+7
+00:01:04,000 --> 00:01:06,000
+ Please give him a warm applause.
+
+8
+00:01:06,000 --> 00:01:14,000
+ [APPLAUSE]
+
+9
+00:01:14,000 --> 00:01:26,000
+ Okay, thank you. So at first, so you know a little bit about me, I have lots of IT experience and for 20 years I'm already doing, working in IT and doing CCC events.
+
+10
+00:01:26,000 --> 00:01:31,000
+ So the interesting thing maybe is that I'm also with the CCC NOC, the Internet Manufacture.
+
+11
+00:01:31,000 --> 00:01:41,000
+ So the area I'm talking about is mostly in the premium managed hosting area because that's where I'm employed.
+
+12
+00:01:41,000 --> 00:01:45,000
+ So it's a high security environment, mostly web hosting.
+
+13
+00:01:45,000 --> 00:01:48,000
+ We host some government websites, which you surely know.
+
+14
+00:01:48,000 --> 00:01:52,000
+ And of course, due to that, we get a fair share of DDoS.
+
+15
+00:01:52,000 --> 00:01:57,000
+ So parts of this talk, I have to give a short disclaimer.
+
+16
+00:01:57,000 --> 00:02:12,000
+ I will do a very short introduction to DDoS, talk about the changing landscape from 2012 to just now, talk about surviving application layer DDoS, and then we'll have a short few key takeaways.
+
+17
+00:02:12,000 --> 00:02:16,000
+ So the disclaimer, everything I say is publicly available knowledge.
+
+18
+00:02:16,000 --> 00:02:24,000
+ Maybe you don't know where to find it, but if you look, you can find it in Hoos, Dns, Trace, Root, Rao, BGP, Toadz from Ben Jojo.
+
+19
+00:02:24,000 --> 00:02:31,000
+ In public biddings, there are often technical specifications which explain what they're expecting from your DDoS mitigation.
+
+20
+00:02:31,000 --> 00:02:37,000
+ There's news articles, sometimes our own customers have been leaking some kind of information to the press.
+
+21
+00:02:37,000 --> 00:02:40,000
+ You can find stuff on mailing lists, Github, our blogs.
+
+22
+00:02:40,000 --> 00:02:45,000
+ There's actually been some Kleine Anfrage in the Bundestag about DDoS.
+
+23
+00:02:45,000 --> 00:02:53,000
+ So it's funny because we're also hosting the site that has the PDFs for that, which is fun for us.
+
+24
+00:02:53,000 --> 00:03:00,000
+ So, yeah, we also have a privacy policy on the websites which explains some cookie stuff we're doing.
+
+25
+00:03:00,000 --> 00:03:05,000
+ Of course, you can just DDoS us and then you will find out that we have mitigation and how it works.
+
+26
+00:03:05,000 --> 00:03:09,000
+ Of course, some x-axis values have been removed.
+
+27
+00:03:09,000 --> 00:03:17,000
+ And some of the information I'm talking about is not directly from the company, but from, for example, Cloudflare quarterly reports or stuff.
+
+28
+00:03:17,000 --> 00:03:20,000
+ So it's not internal secret knowledge.
+
+29
+00:03:20,000 --> 00:03:24,000
+ And, of course, I'm talking about DDoS in general.
+
+30
+00:03:24,000 --> 00:03:26,000
+ So what is DDoS?
+
+31
+00:03:26,000 --> 00:03:28,000
+ Of course, there's an XKCD for it.
+
+32
+00:03:28,000 --> 00:03:33,000
+ So it says, "Hackers briefly took down the website of the CIA yesterday."
+
+33
+00:03:33,000 --> 00:03:36,000
+ People hear that the website has been hacked.
+
+34
+00:03:36,000 --> 00:03:42,000
+ But what computer experts like you hear is someone tore down a poster hung up by the VCI.
+
+35
+00:03:42,000 --> 00:03:46,000
+ So it's not hacking. It's not infiltrating the systems.
+
+36
+00:03:46,000 --> 00:03:54,000
+ It's using a service that is offered by the website just too much so that no one else can use it anymore.
+
+37
+00:03:54,000 --> 00:03:55,000
+ Right?
+
+38
+00:03:55,000 --> 00:04:02,000
+ So you send too much, you overwhelm the target by sending too much network traffic, too many sessions, too many requests,
+
+39
+00:04:02,000 --> 00:04:05,000
+ too many dynamic requests to searches, for example.
+
+40
+00:04:05,000 --> 00:04:09,000
+ And just think of it of too many people visiting a shop and ordering food,
+
+41
+00:04:09,000 --> 00:04:15,000
+ which we've actually done at the chaos communication event at the end of the year.
+
+42
+00:04:15,000 --> 00:04:19,000
+ There were just too many people visiting the Dunkin' Donuts.
+
+43
+00:04:19,000 --> 00:04:25,000
+ And then there was just no possibility for random, normal people to get the donut anymore. Right?
+
+44
+00:04:25,000 --> 00:04:32,000
+ So some questions for you so that I get to know the audience a bit better.
+
+45
+00:04:32,000 --> 00:04:35,000
+ Who of you has been DDoSed?
+
+46
+00:04:35,000 --> 00:04:38,000
+ Well, quite a few.
+
+47
+00:04:38,000 --> 00:04:41,000
+ Who was down as a result?
+
+48
+00:04:41,000 --> 00:04:44,000
+ Okay.
+
+49
+00:04:44,000 --> 00:04:48,000
+ Who is confident they can survive DDoS at work?
+
+50
+00:04:48,000 --> 00:04:52,000
+ Oh, someone like maybe. Okay. Yeah.
+
+51
+00:04:52,000 --> 00:04:55,000
+ And who has done DDoS?
+
+52
+00:04:55,000 --> 00:05:00,000
+ I see some hands. Good luck you're not being videotaped.
+
+53
+00:05:00,000 --> 00:05:06,000
+ So yeah, okay. I also did it, but against our own websites, of course.
+
+54
+00:05:06,000 --> 00:05:09,000
+ So let's talk about pre-2012, the good old days, as I call it.
+
+55
+00:05:09,000 --> 00:05:12,000
+ There wasn't many issues with DDoS.
+
+56
+00:05:12,000 --> 00:05:16,000
+ We had probably less than one attack per year.
+
+57
+00:05:16,000 --> 00:05:18,000
+ No proper DDoS protection.
+
+58
+00:05:18,000 --> 00:05:21,000
+ But why didn't we have proper DDoS protection?
+
+59
+00:05:21,000 --> 00:05:26,000
+ Well, our customer said, "Well, this is not in the public bidding budget."
+
+60
+00:05:26,000 --> 00:05:30,000
+ So it's an Ausschreibung, a public bidding, and it's not part of it.
+
+61
+00:05:30,000 --> 00:05:32,000
+ So you don't have to provide it.
+
+62
+00:05:32,000 --> 00:05:35,000
+ So if you're down because of DDoS, that's all fine with the customer.
+
+63
+00:05:35,000 --> 00:05:40,000
+ Well, okay. And they also said they don't mind if they're offline.
+
+64
+00:05:40,000 --> 00:05:45,000
+ So my boss also back then, he said, "Yeah, we're within SLA.
+
+65
+00:05:45,000 --> 00:05:47,000
+ DDoS is not our responsibility, of course.
+
+66
+00:05:47,000 --> 00:05:50,000
+ Why should we build something that's not being paid for?"
+
+67
+00:05:50,000 --> 00:05:53,000
+ And they always stop after an hour anyways.
+
+68
+00:05:53,000 --> 00:05:56,000
+ So I still ask the mitigation provider.
+
+69
+00:05:56,000 --> 00:05:59,000
+ So back then it was like 30 terabytes traffic per month,
+
+70
+00:05:59,000 --> 00:06:03,000
+ or like 30,000 euros. That's less than 100 megabits.
+
+71
+00:06:03,000 --> 00:06:06,000
+ So very expensive back then.
+
+72
+00:06:06,000 --> 00:06:11,000
+ Then came 2012, so Anonymous gathered,
+
+73
+00:06:11,000 --> 00:06:16,000
+ and they used Twitter to distribute pictures like this.
+
+74
+00:06:16,000 --> 00:06:22,000
+ So they published this,
+
+75
+00:06:22,000 --> 00:06:29,000
+ and people were supposed to go on a website to attack some sites with WebLog,
+
+76
+00:06:29,000 --> 00:06:32,000
+ which is a pretty easy tool to use.
+
+77
+00:06:32,000 --> 00:06:36,000
+ And of course we also followed the invitation to the channel
+
+78
+00:06:36,000 --> 00:06:39,000
+ and to monitor what they were doing and how they were attacking us.
+
+79
+00:06:39,000 --> 00:06:41,000
+ Back then we didn't have good protection,
+
+80
+00:06:41,000 --> 00:06:46,000
+ so actually we were down for a few minutes due to one of these attacks.
+
+81
+00:06:46,000 --> 00:06:50,000
+ But they said quite, well, that's the red part.
+
+82
+00:06:50,000 --> 00:06:53,000
+ So they said, "Oh, let's try it again tomorrow with WebLog."
+
+83
+00:06:53,000 --> 00:06:56,000
+ So thank you for telling us about the tooling,
+
+84
+00:06:56,000 --> 00:06:59,000
+ so we could just mitigate it easily.
+
+85
+00:06:59,000 --> 00:07:06,000
+ And unknown to us, GCHQ DDoSed Anonymous, like Anonymous Chat IRC,
+
+86
+00:07:06,000 --> 00:07:11,000
+ with Rolling Thunder, which is their own DDoS platform they were using.
+
+87
+00:07:11,000 --> 00:07:13,000
+ And people got searched and arrested
+
+88
+00:07:13,000 --> 00:07:16,000
+ because they took part in these attacks from their home computers.
+
+89
+00:07:16,000 --> 00:07:23,000
+ So yeah, people got arrested, and as a result attacks became less powerful even.
+
+90
+00:07:23,000 --> 00:07:28,000
+ So 2013 to 2014 there was lots of innovation going on.
+
+91
+00:07:28,000 --> 00:07:30,000
+ New trend was UDP reflection.
+
+92
+00:07:30,000 --> 00:07:35,000
+ So Spamhouse got DDoSed for several days, CloudTra got DDoSed.
+
+93
+00:07:35,000 --> 00:07:38,000
+ They were actually offline for some longer time.
+
+94
+00:07:38,000 --> 00:07:43,000
+ In the US, the CISA published a report about these attacks,
+
+95
+00:07:43,000 --> 00:07:47,000
+ and that made them even become more widely used.
+
+96
+00:07:47,000 --> 00:07:52,000
+ So how to survive that? Well, have UDP filters from an ISP.
+
+97
+00:07:52,000 --> 00:07:57,000
+ For us as a host, I'm hosting HTTP websites, HTTPS.
+
+98
+00:07:57,000 --> 00:07:59,000
+ Why would I need UDP on that?
+
+99
+00:07:59,000 --> 00:08:02,000
+ So that was really, really easy for us to filter.
+
+100
+00:08:02,000 --> 00:08:06,000
+ So 2015 other things happened.
+
+101
+00:08:06,000 --> 00:08:09,000
+ In 2014, the Ukraine-Donbass war,
+
+102
+00:08:09,000 --> 00:08:14,000
+ and on the 7th January 2015, the Ukrainian prime minister visited Berlin,
+
+103
+00:08:14,000 --> 00:08:16,000
+ and they wanted some money.
+
+104
+00:08:16,000 --> 00:08:20,000
+ And as soon as he lands there, the foreign offices are down,
+
+105
+00:08:20,000 --> 00:08:24,000
+ the German Bundestag, the Chancellor Merkel's website, everything is down,
+
+106
+00:08:24,000 --> 00:08:29,000
+ and they have a prepared message that they are responsible for this
+
+107
+00:08:29,000 --> 00:08:32,000
+ due to the Ukrainian war.
+
+108
+00:08:32,000 --> 00:08:37,000
+ And they don't want us, don't want Germany to give any money to Ukraine.
+
+109
+00:08:37,000 --> 00:08:42,000
+ So back then, we didn't have, because of the public bidding thing,
+
+110
+00:08:42,000 --> 00:08:45,000
+ we only had very small connectivity.
+
+111
+00:08:45,000 --> 00:08:50,000
+ The NOC from our ISP actually removed the UDP filters we had gotten previously.
+
+112
+00:08:50,000 --> 00:08:52,000
+ We got black hole in Frankfurt.
+
+113
+00:08:52,000 --> 00:08:54,000
+ We got black hole everywhere.
+
+114
+00:08:54,000 --> 00:08:59,000
+ We don't have much spare hardware, no general layer 7 mitigation solution.
+
+115
+00:08:59,000 --> 00:09:02,000
+ So to survive, we just used Cloudflare.
+
+116
+00:09:02,000 --> 00:09:05,000
+ There were some online protection, origin protection issues,
+
+117
+00:09:05,000 --> 00:09:10,000
+ but after like six to eight hours, we were online again, which was fine for us.
+
+118
+00:09:10,000 --> 00:09:15,000
+ Our customer was also happy about this, but of course not everyone likes Cloudflare.
+
+119
+00:09:15,000 --> 00:09:20,000
+ Well, they can look into your traffic, you have the privacy concerns.
+
+120
+00:09:20,000 --> 00:09:25,000
+ There was some press article on Netzpolitik.org, which was taken very seriously.
+
+121
+00:09:25,000 --> 00:09:32,000
+ And the ability to look into all layer 7 traffic was an argument
+
+122
+00:09:32,000 --> 00:09:35,000
+ for doing something else and not using them anymore.
+
+123
+00:09:35,000 --> 00:09:38,000
+ So we started our own very small modus mitigation.
+
+124
+00:09:38,000 --> 00:09:41,000
+ It's not like we're not trying to be Cloudflare.
+
+125
+00:09:41,000 --> 00:09:44,000
+ We try to do the on-prem part very well.
+
+126
+00:09:44,000 --> 00:09:48,000
+ And if we need a partner to do something more, like big traffic,
+
+127
+00:09:48,000 --> 00:09:52,000
+ like UBDP attacks, that's outsourced to, well not outsourced,
+
+128
+00:09:52,000 --> 00:09:55,000
+ but they implement filters we tell them to implement.
+
+129
+00:09:55,000 --> 00:10:03,000
+ So 2015 to 2016, there was also some more innovation going on on the DDoS front.
+
+130
+00:10:03,000 --> 00:10:06,000
+ Layer 3, layer 4 attacks became more popular.
+
+131
+00:10:06,000 --> 00:10:11,000
+ We saw small spoofed Synth floods, usually maybe around one gigabit,
+
+132
+00:10:11,000 --> 00:10:14,000
+ which is the typical size of a rented server.
+
+133
+00:10:14,000 --> 00:10:17,000
+ And of course low and slow attacks also got popular.
+
+134
+00:10:17,000 --> 00:10:19,000
+ Like slow-posed things.
+
+135
+00:10:19,000 --> 00:10:22,000
+ There you can see the referrer actually.
+
+136
+00:10:22,000 --> 00:10:25,000
+ It's pretty nice of them to send the referrer, so it's easier to block.
+
+137
+00:10:25,000 --> 00:10:28,000
+ And how to survive this?
+
+138
+00:10:28,000 --> 00:10:30,000
+ Of course you just increase capacity.
+
+139
+00:10:30,000 --> 00:10:32,000
+ Always make sure you can handle line rate.
+
+140
+00:10:32,000 --> 00:10:36,000
+ And well, have an upstream that can filter for you.
+
+141
+00:10:36,000 --> 00:10:38,000
+ And you of course need to rethink all timeouts.
+
+142
+00:10:38,000 --> 00:10:44,000
+ If someone connects to your web server, why would they be idle for like five minutes?
+
+143
+00:10:44,000 --> 00:10:46,000
+ That takes up valuable resources.
+
+144
+00:10:47,000 --> 00:10:50,000
+ So 2016 to 2017.
+
+145
+00:10:50,000 --> 00:10:58,000
+ The previous attacks continued, but there were WordPress pingback attacks,
+
+146
+00:10:58,000 --> 00:11:00,000
+ which are also pretty easy to filter out.
+
+147
+00:11:00,000 --> 00:11:02,000
+ Their pattern base cannot be changed.
+
+148
+00:11:02,000 --> 00:11:05,000
+ But of course when the first attack like this hits you,
+
+149
+00:11:05,000 --> 00:11:07,000
+ you need to implement a filter.
+
+150
+00:11:07,000 --> 00:11:09,000
+ Previously you didn't know about this.
+
+151
+00:11:09,000 --> 00:11:12,000
+ And there's lots of different other layers of an attack that can hit you.
+
+152
+00:11:12,000 --> 00:11:15,000
+ So you need to know about these in order to filter them.
+
+153
+00:11:16,000 --> 00:11:19,000
+ 2017 to 2021.
+
+154
+00:11:19,000 --> 00:11:21,000
+ Now it's getting more recent.
+
+155
+00:11:21,000 --> 00:11:24,000
+ There were more and more mostly dynamic requests.
+
+156
+00:11:24,000 --> 00:11:30,000
+ So for example you use a /?id and some random thing,
+
+157
+00:11:30,000 --> 00:11:37,000
+ because then it has to hit your backend server and your cache can't deliver it.
+
+158
+00:11:37,000 --> 00:11:42,000
+ So yeah, targeting backend resources actually.
+
+159
+00:11:42,000 --> 00:11:47,000
+ There were also new sources like squid proxies, micro tick router botnets,
+
+160
+00:11:47,000 --> 00:11:55,000
+ and I think one of the first botnets with more like 10,000 bots attacking us with layer 7 attacks.
+
+161
+00:11:55,000 --> 00:12:02,000
+ So from 2021 to February 2022 there was even more layer 7 attacks,
+
+162
+00:12:02,000 --> 00:12:08,000
+ more HTTP, more pipelining, also due to the Meres botnet using pipelining,
+
+163
+00:12:08,000 --> 00:12:16,000
+ high requests per second attacks, and again random parameters in order to bypass caching of course.
+
+164
+00:12:16,000 --> 00:12:21,000
+ Lots of new sources, hack GitLab servers, which are usually pretty powerful,
+
+165
+00:12:21,000 --> 00:12:26,000
+ which is way worse than having an IoT botnet attack you,
+
+166
+00:12:26,000 --> 00:12:29,000
+ because these servers are just so much more powerful.
+
+167
+00:12:29,000 --> 00:12:34,000
+ Bigger residential botnets and a lot more attacks via Tor.
+
+168
+00:12:34,000 --> 00:12:38,000
+ And also rented IP space was now being used.
+
+169
+00:12:38,000 --> 00:12:46,000
+ Yeah, so they would just rent IP space and use it for a while just to perform layer 7 attacks.
+
+170
+00:12:46,000 --> 00:12:49,000
+ So February 2022 to now.
+
+171
+00:12:49,000 --> 00:12:54,000
+ Well, of course the second Ukrainian war started.
+
+172
+00:12:54,000 --> 00:12:58,000
+ And well, what do you think? Did we get more DDoS?
+
+173
+00:12:58,000 --> 00:13:01,000
+ Of course we did.
+
+174
+00:13:01,000 --> 00:13:07,000
+ So there are new sources now, which is also in the CloudFlare quarterly report.
+
+175
+00:13:07,000 --> 00:13:10,000
+ There's dozens of clouds using at the same time.
+
+176
+00:13:10,000 --> 00:13:15,000
+ So suddenly you have like, oh, Google is attacking us, Microsoft Cloud is attacking us,
+
+177
+00:13:15,000 --> 00:13:20,000
+ Linode and everyone is just doing layer 7 requests.
+
+178
+00:13:20,000 --> 00:13:22,000
+ Attacks through Tor also increased.
+
+179
+00:13:22,000 --> 00:13:25,000
+ Google published some information about that.
+
+180
+00:13:25,000 --> 00:13:31,000
+ They had an attack that had 1.3 million requests per second over Tor.
+
+181
+00:13:31,000 --> 00:13:35,000
+ And then this is from the source of Team Simru.
+
+182
+00:13:35,000 --> 00:13:37,000
+ I hope I pronounced it right.
+
+183
+00:13:37,000 --> 00:13:43,000
+ They found out that No Name, this No Name Russian actor,
+
+184
+00:13:43,000 --> 00:13:47,000
+ that they had two interlinked hosting providers,
+
+185
+00:13:47,000 --> 00:13:51,000
+ and these providers are only used to perform layer 7 DDoS.
+
+186
+00:13:51,000 --> 00:13:59,000
+ So there's also now the DDoS project by No Name.
+
+187
+00:13:59,000 --> 00:14:01,000
+ They run kind of paid DDoS.
+
+188
+00:14:01,000 --> 00:14:04,000
+ They are promising that they will, at a later point,
+
+189
+00:14:04,000 --> 00:14:08,000
+ they will pay for people who have performed DDoS attacks.
+
+190
+00:14:08,000 --> 00:14:11,000
+ So they pay like a few cents per request that they have been sending.
+
+191
+00:14:11,000 --> 00:14:18,000
+ And of course, again, this is an old method, also used by Anonymous before.
+
+192
+00:14:18,000 --> 00:14:22,000
+ They use, well, now they use Telegram instead of Twitter,
+
+193
+00:14:22,000 --> 00:14:26,000
+ but you see they are asking other people to help attack.
+
+194
+00:14:26,000 --> 00:14:29,000
+ And some of these people already have botnets,
+
+195
+00:14:29,000 --> 00:14:34,000
+ so you have a lot of different botnets suddenly attacking at some point.
+
+196
+00:14:34,000 --> 00:14:38,000
+ And they are also now using paid expensive proxies.
+
+197
+00:14:38,000 --> 00:14:40,000
+ So behind all of this, there's some money,
+
+198
+00:14:40,000 --> 00:14:44,000
+ and this costs some money to implement if you rent proxies
+
+199
+00:14:44,000 --> 00:14:47,000
+ that cost like a few thousand euros per day.
+
+200
+00:14:47,000 --> 00:14:54,000
+ So, yeah, they actually managed to take down lots of sites.
+
+201
+00:14:54,000 --> 00:14:57,000
+ That got a lot of media attention, and they are really a serious threat.
+
+202
+00:14:57,000 --> 00:15:00,000
+ And Anonymous Sudan even took down Microsoft, right?
+
+203
+00:15:00,000 --> 00:15:04,000
+ There were these issues with Teams, which some of you may have experienced,
+
+204
+00:15:04,000 --> 00:15:08,000
+ and they had very good powerful layer 7 attacks.
+
+205
+00:15:08,000 --> 00:15:13,000
+ And of course, current attacks, current events cause attacks.
+
+206
+00:15:13,000 --> 00:15:22,000
+ So when ukraine-wieder-aufbauen.de got online, you saw on the other slide,
+
+207
+00:15:22,000 --> 00:15:25,000
+ they were immediately, they were starting attacks.
+
+208
+00:15:25,000 --> 00:15:28,000
+ Or if they, when they decided to deliver tanks to Ukraine,
+
+209
+00:15:28,000 --> 00:15:32,000
+ of course the attacks start again.
+
+210
+00:15:32,000 --> 00:15:34,000
+ So, but how to survive this?
+
+211
+00:15:34,000 --> 00:15:39,000
+ We've seen that a lot more attacks are layer 7, but why is it problematic?
+
+212
+00:15:39,000 --> 00:15:43,000
+ So, oh, something flew away. Okay.
+
+213
+00:15:43,000 --> 00:15:47,000
+ It's a bit windy. Okay.
+
+214
+00:15:47,000 --> 00:15:49,000
+ So why is this problematic?
+
+215
+00:15:49,000 --> 00:15:54,000
+ Well, it's hard to distinguish from a residential botnet and proxies and cloud.
+
+216
+00:15:54,000 --> 00:15:57,000
+ Like, is it a legitimate source?
+
+217
+00:15:57,000 --> 00:16:01,000
+ And these sources, they're doing full HTTP requests to your site,
+
+218
+00:16:01,000 --> 00:16:05,000
+ which can, which use up some resources.
+
+219
+00:16:05,000 --> 00:16:10,000
+ This causes high load, and they're querying dynamic websites,
+
+220
+00:16:10,000 --> 00:16:15,000
+ which means they try to attack your backend capacity.
+
+221
+00:16:15,000 --> 00:16:18,000
+ So should we block on known patterns?
+
+222
+00:16:18,000 --> 00:16:23,000
+ Is that a good idea? Or maybe requests per IP?
+
+223
+00:16:23,000 --> 00:16:27,000
+ What about proxies, like a telco, a camera grade nut proxy?
+
+224
+00:16:27,000 --> 00:16:32,000
+ Or should we limit bandwidth per IP? Also bad with the proxy, probably.
+
+225
+00:16:32,000 --> 00:16:35,000
+ How do we distinguish an attack from real traffic?
+
+226
+00:16:35,000 --> 00:16:38,000
+ Or should we just use more capacity, add more VMs,
+
+227
+00:16:38,000 --> 00:16:44,000
+ have Kubernetes, horizontal pod autoscaler, and just spawn up a thousand instances?
+
+228
+00:16:44,000 --> 00:16:46,000
+ What's the best way?
+
+229
+00:16:46,000 --> 00:16:50,000
+ To understand this, I have some details.
+
+230
+00:16:50,000 --> 00:16:55,000
+ This is the HTTP that's sent by the classic webloic attack,
+
+231
+00:16:55,000 --> 00:17:00,000
+ which I've shown before. That was the interface, and this is what it actually sends to you.
+
+232
+00:17:00,000 --> 00:17:04,000
+ So this is the interesting part.
+
+233
+00:17:04,000 --> 00:17:07,000
+ The impact is you'll get a cache bypass.
+
+234
+00:17:07,000 --> 00:17:13,000
+ They are trying to hit backend servers, and well, of course, backend server load, of course.
+
+235
+00:17:13,000 --> 00:17:16,000
+ So what happens if you block on vr-legend?
+
+236
+00:17:16,000 --> 00:17:19,000
+ Well, this happens. They just use this parameter.
+
+237
+00:17:19,000 --> 00:17:26,000
+ It's basically the same, just you don't need the second parameter to do a cache bypass.
+
+238
+00:17:26,000 --> 00:17:30,000
+ But this one, if you decided to filter on the ID thing,
+
+239
+00:17:30,000 --> 00:17:34,000
+ well, they can just rotate it instead of K, U, Y.
+
+240
+00:17:34,000 --> 00:17:36,000
+ They will just write something else.
+
+241
+00:17:36,000 --> 00:17:39,000
+ Again, you have a cache bypass.
+
+242
+00:17:39,000 --> 00:17:43,000
+ What about this one? This even looks valid. It's not valid.
+
+243
+00:17:43,000 --> 00:17:46,000
+ Because the correct one would be 61.
+
+244
+00:17:46,000 --> 00:17:51,000
+ But 62 will also hit the backend if you don't have any filters in your caching
+
+245
+00:17:51,000 --> 00:17:53,000
+ and your load-belinke sync frontend.
+
+246
+00:17:53,000 --> 00:17:57,000
+ And it even looks valid. It's harder to see.
+
+247
+00:17:57,000 --> 00:18:01,000
+ What about this one? You use a search term.
+
+248
+00:18:01,000 --> 00:18:03,000
+ You just send queries to the search all the time.
+
+249
+00:18:03,000 --> 00:18:07,000
+ If you have 50,000 bots, and each bot does a request per second,
+
+250
+00:18:07,000 --> 00:18:11,000
+ well, you're probably down immediately.
+
+251
+00:18:11,000 --> 00:18:14,000
+ And this is, of course, valid.
+
+252
+00:18:14,000 --> 00:18:17,000
+ Even this, this is a valid backend query.
+
+253
+00:18:17,000 --> 00:18:21,000
+ Maybe your load-belinke sync can handle 30,000 of these requests.
+
+254
+00:18:21,000 --> 00:18:24,000
+ But what about 300 or 3 million?
+
+255
+00:18:24,000 --> 00:18:29,000
+ Then you will have an issue with bandwidth, possibly two,
+
+256
+00:18:29,000 --> 00:18:35,000
+ or with memory pressure or things like that on your load-balancers.
+
+257
+00:18:35,000 --> 00:18:37,000
+ And what's an engineering solution?
+
+258
+00:18:37,000 --> 00:18:39,000
+ Well, just increased capacity.
+
+259
+00:18:39,000 --> 00:18:45,000
+ How to do? One attacker with a hacked GitLab server can maybe do 30,000 requests per second.
+
+260
+00:18:45,000 --> 00:18:50,000
+ One server, how many search queries can it answer per second? 30,000?
+
+261
+00:18:50,000 --> 00:18:54,000
+ Well, you can have one server for each attacker, right?
+
+262
+00:18:54,000 --> 00:18:57,000
+ So horizontal pod autoscaling is not a good option.
+
+263
+00:18:57,000 --> 00:19:04,000
+ The only thing, the top priority is stopping abusive clients from reaching backend servers.
+
+264
+00:19:04,000 --> 00:19:06,000
+ How are we going to do that?
+
+265
+00:19:06,000 --> 00:19:11,000
+ So I'll quickly introduce you to a typical setup.
+
+266
+00:19:11,000 --> 00:19:14,000
+ So, well, you have the internet, traffic flows from top to bottom.
+
+267
+00:19:14,000 --> 00:19:18,000
+ You have the internet, your routers attached to it.
+
+268
+00:19:18,000 --> 00:19:22,000
+ Maybe you have a mitigation appliance, a firewall load balancer application server,
+
+269
+00:19:22,000 --> 00:19:27,000
+ and you're able, of course, to monitor everything.
+
+270
+00:19:27,000 --> 00:19:29,000
+ So should we use a mitigation appliance?
+
+271
+00:19:29,000 --> 00:19:32,000
+ What about TLS 1.2, TLS 1.3 Tefric?
+
+272
+00:19:32,000 --> 00:19:38,000
+ If you terminate it on the mitigation device, it has to have this performance.
+
+273
+00:19:38,000 --> 00:19:44,000
+ Usually mitigation devices that can handle like 10 gigabits or more of traffic per second,
+
+274
+00:19:44,000 --> 00:19:49,000
+ or let's say 100,000 handshakes per second, they're super expensive.
+
+275
+00:19:49,000 --> 00:19:53,000
+ They're not scalable. You can't just horizontally put 10 there,
+
+276
+00:19:53,000 --> 00:19:57,000
+ so you can handle, let's say, a million requests or something.
+
+277
+00:19:57,000 --> 00:20:01,000
+ They don't have a good API generally, no custom settings.
+
+278
+00:20:01,000 --> 00:20:04,000
+ You can't build custom stuff. They're super expensive.
+
+279
+00:20:04,000 --> 00:20:06,000
+ So, of course, not an option.
+
+280
+00:20:06,000 --> 00:20:08,000
+ Well, let's use data we already have.
+
+281
+00:20:08,000 --> 00:20:17,000
+ So from monitoring, we already know how many requests usually happen on which site,
+
+282
+00:20:17,000 --> 00:20:22,000
+ how many traffic is transferred, how much requests my backend can do,
+
+283
+00:20:22,000 --> 00:20:26,000
+ what's the usual baseline for my backend.
+
+284
+00:20:26,000 --> 00:20:28,000
+ We all have that data.
+
+285
+00:20:28,000 --> 00:20:32,000
+ But should we block someone who's doing more traffic?
+
+286
+00:20:32,000 --> 00:20:35,000
+ What about the proxy user, for example, in a company,
+
+287
+00:20:35,000 --> 00:20:38,000
+ and then there's like 10 people going to your site?
+
+288
+00:20:38,000 --> 00:20:41,000
+ Immediately, that would be higher, right?
+
+289
+00:20:41,000 --> 00:20:44,000
+ So the solution is you verify the clients.
+
+290
+00:20:44,000 --> 00:20:49,000
+ You don't use an appliance. You use your load balancer, inspect the queries,
+
+291
+00:20:49,000 --> 00:20:53,000
+ and if it's over a certain limit, you can just redirect it to service
+
+292
+00:20:53,000 --> 00:20:56,000
+ that verifies that the client is valid.
+
+293
+00:20:56,000 --> 00:20:59,000
+ Of course, you have to write some code.
+
+294
+00:20:59,000 --> 00:21:03,000
+ There's some solutions available, but not very good ones,
+
+295
+00:21:03,000 --> 00:21:06,000
+ so we have to write our own, actually.
+
+296
+00:21:06,000 --> 00:21:09,000
+ So I hope this is not too small.
+
+297
+00:21:09,000 --> 00:21:11,000
+ Yeah, I'll just quickly go over it.
+
+298
+00:21:11,000 --> 00:21:13,000
+ So basically, it works like this.
+
+299
+00:21:13,380 --> 00:21:20,820
+ If an unknown client has done too many queries, he's being redirected to this Inodia solution.
+
+300
+00:21:20,820 --> 00:21:25,940
+ It looks if there's a valid query, well yes, then it can access the backend.
+
+301
+00:21:25,940 --> 00:21:33,220
+ If it doesn't have a valid cookie, it's being redirected by the load balancer to the Inodia system.
+
+302
+00:21:33,220 --> 00:21:41,460
+ It presents a task, the task has to be solved. It can be a JavaScript, button click, a capture, whatever you want to do.
+
+303
+00:21:41,460 --> 00:21:48,340
+ And then if the solution is correct, it sends an error. If it's not correct, it sends an error.
+
+304
+00:21:48,340 --> 00:21:52,900
+ If the solution is correct, a token is being sent back as a cookie.
+
+305
+00:21:52,900 --> 00:21:57,700
+ And then it starts from the beginning and the client gets authenticated.
+
+306
+00:21:57,700 --> 00:22:02,980
+ If it's trying that too often, of course it also gets blocked.
+
+307
+00:22:02,980 --> 00:22:14,260
+ So this is the usual one. Ours is a bit ugly, so I just stole the look from CloudFair, which you probably all have seen before.
+
+308
+00:22:14,260 --> 00:22:16,580
+ So this is the usual thing, what happens there.
+
+309
+00:22:16,580 --> 00:22:26,100
+ They do some cryptographic operations, a proof of work in the background, and after a computer has done it, it's authenticated.
+
+310
+00:22:26,100 --> 00:22:27,700
+ So what else can we do?
+
+311
+00:22:27,700 --> 00:22:36,500
+ So we can use a control plane. So we have data in the load balancers about the people who are doing too many requests already.
+
+312
+00:22:36,500 --> 00:22:39,860
+ Like there's a client doing 10,000 requests per second.
+
+313
+00:22:39,860 --> 00:22:42,420
+ Why would we continue to serve it?
+
+314
+00:22:42,420 --> 00:22:52,420
+ We just, from the load balancer, we push via an API to the firewall and we can drop the client on layer 3 already in the firewall.
+
+315
+00:22:52,420 --> 00:22:57,620
+ So there's no load on the load balancer anymore.
+
+316
+00:22:57,620 --> 00:23:03,380
+ And then also you can import blocklists for IPs, ASNs.
+
+317
+00:23:03,380 --> 00:23:05,300
+ It can be hard or soft blocking.
+
+318
+00:23:05,300 --> 00:23:16,500
+ So if you have very suspicious Russian AS which only sends bad traffic to you, you can soft block it and it will always go through verification.
+
+319
+00:23:16,500 --> 00:23:24,740
+ Of course this all should be built with CI/CD, so you check if there's a net that's too big, sanity checks, all of that.
+
+320
+00:23:24,740 --> 00:23:28,660
+ But the important thing is you can also block ASNs.
+
+321
+00:23:28,660 --> 00:23:35,940
+ Because as we've seen, some of these layer 7 attackers, they have fixed ASNs they're using to attack.
+
+322
+00:23:35,940 --> 00:23:42,020
+ So this is an example for abuse.ch for their botnet tracker.
+
+323
+00:23:42,020 --> 00:23:50,980
+ So we just create a little bit of JSON, we have CI/CD pipeline, and then it just gets deployed into the firewalls.
+
+324
+00:23:50,980 --> 00:23:59,220
+ Another thing that's a bit new maybe that we haven't really seen before is DDoS bugs.
+
+325
+00:23:59,220 --> 00:24:01,700
+ So that's an unknown stability issue.
+
+326
+00:24:01,700 --> 00:24:15,300
+ So your servers or your software is becoming unstable only under very high load reconnections and with certain configs which maybe wasn't tested by the software vendor.
+
+327
+00:24:15,300 --> 00:24:17,620
+ So does this happen? Of course it does.
+
+328
+00:24:17,620 --> 00:24:19,140
+ Otherwise I wouldn't have put it here.
+
+329
+00:24:19,140 --> 00:24:24,100
+ So there are just two examples for HA-proxy.
+
+330
+00:24:24,100 --> 00:24:26,260
+ So layer 7 requests weren't blocked.
+
+331
+00:24:26,260 --> 00:24:30,980
+ So you didn't see all these requests that were being performed.
+
+332
+00:24:30,980 --> 00:24:34,340
+ So an attacker would do this special kind of request.
+
+333
+00:24:34,340 --> 00:24:37,620
+ You would look into your server log and there was nothing there.
+
+334
+00:24:37,620 --> 00:24:44,500
+ Your CM, all your analyzer systems, they wouldn't see anything but this request still happened.
+
+335
+00:24:44,500 --> 00:24:49,620
+ And there was another work that HA-proxy instances were getting crashed.
+
+336
+00:24:49,620 --> 00:24:54,100
+ So reproducer is interesting, this is from the GitHub issue.
+
+337
+00:24:54,100 --> 00:24:58,420
+ Around 200k current connections are doing a get slash at the same time.
+
+338
+00:24:58,420 --> 00:25:00,740
+ What could that have been?
+
+339
+00:25:00,740 --> 00:25:05,780
+ Well of course under DDoS this feature became unstable.
+
+340
+00:25:05,780 --> 00:25:08,340
+ But all of these are fixed now of course.
+
+341
+00:25:08,340 --> 00:25:11,700
+ So what else to do?
+
+342
+00:25:11,700 --> 00:25:13,060
+ You need to do your homework.
+
+343
+00:25:13,060 --> 00:25:15,620
+ You need to have all your data.
+
+344
+00:25:15,620 --> 00:25:19,060
+ You need visibility, you need to know everything.
+
+345
+00:25:19,060 --> 00:25:26,260
+ Your HTTP front end, error codes, backend requests, latencies, bandwidth, packets per second, Ttl.
+
+346
+00:25:26,260 --> 00:25:28,260
+ From where is your traffic arriving?
+
+347
+00:25:28,260 --> 00:25:29,860
+ What are the ASN sources?
+
+348
+00:25:29,860 --> 00:25:36,020
+ You need to look into your systems about the load, pressure stall, disk or memory usage.
+
+349
+00:25:36,020 --> 00:25:41,620
+ Just monitor everything so that if something happens you can have a look afterwards.
+
+350
+00:25:41,620 --> 00:25:42,580
+ Super important.
+
+351
+00:25:43,540 --> 00:25:45,220
+ So how to survive this?
+
+352
+00:25:45,220 --> 00:25:49,460
+ Of course if you have all this data you do an excessive post mortem.
+
+353
+00:25:49,460 --> 00:25:55,860
+ Even if it takes 10 people a whole week you do the post mortem because you don't want to get crashed by that again.
+
+354
+00:25:55,860 --> 00:25:58,820
+ You analyze of course the whole attack.
+
+355
+00:25:58,820 --> 00:26:01,940
+ You build test cases so you have a reproducer.
+
+356
+00:26:01,940 --> 00:26:07,220
+ You give it the reproducer to the software vendor so they will fix it.
+
+357
+00:26:07,220 --> 00:26:10,900
+ Of course you report that upstream because you want to have it fixed for everyone.
+
+358
+00:26:11,860 --> 00:26:17,380
+ So this means we will add your technical distinctiveness to our own.
+
+359
+00:26:17,380 --> 00:26:22,340
+ Your zero days burned if you attack us we will make sure you can't use it again.
+
+360
+00:26:22,340 --> 00:26:26,820
+ So key takeaways.
+
+361
+00:26:26,820 --> 00:26:29,700
+ Engineer a general solution for issues.
+
+362
+00:26:29,700 --> 00:26:32,260
+ So layer 7 defense is essential nowadays.
+
+363
+00:26:32,260 --> 00:26:36,340
+ Capture and use all the system data you have.
+
+364
+00:26:36,340 --> 00:26:41,860
+ Like I said everything needs to have an API so different systems can talk to each other.
+
+365
+00:26:41,860 --> 00:26:48,020
+ Of course do post mortems for DDoS and also test your systems.
+
+366
+00:26:48,020 --> 00:26:52,100
+ DDoS your own systems or have someone do it for you.
+
+367
+00:26:52,100 --> 00:26:54,580
+ There are some providers that will do that for you.
+
+368
+00:26:54,580 --> 00:26:59,620
+ Well sometimes also for us sometimes you lose.
+
+369
+00:26:59,620 --> 00:27:03,300
+ This is an old picture but sometimes you win.
+
+370
+00:27:03,300 --> 00:27:07,860
+ We also monitor them and they said in the channel after they attacked us.
+
+371
+00:27:07,860 --> 00:27:09,620
+ Why are all websites fast?
+
+372
+00:27:09,620 --> 00:27:11,700
+ We won this time.
+
+373
+00:27:11,700 --> 00:27:14,340
+ Thank you.
+
+374
+00:27:14,340 --> 00:27:26,820
+ So just one more thing.
+
+375
+00:27:26,820 --> 00:27:29,140
+ Well maybe you've already read it.
+
+376
+00:27:29,140 --> 00:27:33,860
+ You can use DDoS-test.com to non-invasively test your website.
+
+377
+00:27:33,860 --> 00:27:36,580
+ It looks at timeouts and things like that.
+
+378
+00:27:36,580 --> 00:27:41,780
+ So it's a neat tool you can use to improve your own defense.
+
+379
+00:27:41,780 --> 00:27:44,980
+ Thank you very much Craig.
+
+380
+00:27:44,980 --> 00:27:49,860
+ So as you mentioned we've got some time for Q&A.
+
+381
+00:27:49,860 --> 00:27:51,700
+ Are there any questions in the audience?
+
+382
+00:27:51,700 --> 00:27:58,020
+ Okay we have a pretty lively microphone stand over here.
+
+383
+00:27:58,020 --> 00:28:00,900
+ Please everyone who has a question line up over there.
+
+384
+00:28:00,900 --> 00:28:08,660
+ So yeah you can ask your questions from a centralized point.
+
+385
+00:28:08,660 --> 00:28:10,100
+ Make a nice queue.
+
+386
+00:28:10,100 --> 00:28:12,740
+ Okay let's get started.
+
+387
+00:28:12,740 --> 00:28:17,220
+ Can't hear you sorry.
+
+388
+00:28:17,220 --> 00:28:25,380
+ Hello oh no it's working okay.
+
+389
+00:28:25,380 --> 00:28:28,180
+ So mainly your talk was about HTTP.
+
+390
+00:28:28,180 --> 00:28:34,660
+ Are other protocols more robust against or have other attack vectors or something?
+
+391
+00:28:34,660 --> 00:28:39,540
+ And additionally what about HTTP 3?
+
+392
+00:28:39,540 --> 00:28:46,980
+ Yeah HTTP 3 is really tricky because it's based on UDP which is annoying.
+
+393
+00:28:46,980 --> 00:28:50,420
+ Because then you can't just easily apply all these filters
+
+394
+00:28:50,420 --> 00:28:52,740
+ and there's still lots of reflectors out there right.
+
+395
+00:28:53,300 --> 00:28:56,420
+ So there's different options you could do.
+
+396
+00:28:56,420 --> 00:29:03,300
+ For example you could fail gracefully which means if you're getting attacked via UDP
+
+397
+00:29:03,300 --> 00:29:09,700
+ you could stop serving HTTP 3 and just only serve HTTP 2 if that's what you choose.
+
+398
+00:29:09,700 --> 00:29:14,340
+ Yeah there's some other ideas, some heuristics you can work on.
+
+399
+00:29:14,340 --> 00:29:18,420
+ So yeah I don't have a very good solution for that too.
+
+400
+00:29:18,420 --> 00:29:21,140
+ It's a problem many people will face.
+
+401
+00:29:21,860 --> 00:29:24,500
+ And it will be good for Cloudflare and other providers
+
+402
+00:29:24,500 --> 00:29:28,980
+ because if people get delost with this stuff they will move to the cloud maybe.
+
+403
+00:29:28,980 --> 00:29:32,020
+ Hard to defend.
+
+404
+00:29:32,020 --> 00:29:32,900
+ Next question please.
+
+405
+00:29:32,900 --> 00:29:37,380
+ Yeah have you thought philosophically about what you're doing in terms of
+
+406
+00:29:37,380 --> 00:29:43,540
+ you're building a system which encourages the competition to sort of compete in a Turing test
+
+407
+00:29:43,540 --> 00:29:50,260
+ situation to differentiate its behavior from machine to a human who actually wants access
+
+408
+00:29:50,260 --> 00:29:53,300
+ to your website so they're just going to keep getting better.
+
+409
+00:29:53,300 --> 00:29:54,740
+ How do you deal with that problem?
+
+410
+00:29:54,740 --> 00:30:01,860
+ Well for most attackers they also need to spend time on you right.
+
+411
+00:30:01,860 --> 00:30:07,380
+ There are these butcher websites which is basically DDoS for hire
+
+412
+00:30:07,380 --> 00:30:09,620
+ and they offer Cloudflare bypasses.
+
+413
+00:30:09,620 --> 00:30:15,380
+ So but if we were using Cloudflare we would probably have been hit by that
+
+414
+00:30:15,380 --> 00:30:16,900
+ but our solution is different.
+
+415
+00:30:16,900 --> 00:30:19,700
+ We can't use the cloud because of the customers we have
+
+416
+00:30:19,700 --> 00:30:23,540
+ so ours is different so people would have to invest a lot of time
+
+417
+00:30:23,540 --> 00:30:26,900
+ to engineer a circumvention for that.
+
+418
+00:30:26,900 --> 00:30:33,620
+ It's worth spending like a few weeks on engineering time on Cloudflare
+
+419
+00:30:33,620 --> 00:30:35,220
+ but is it worth spending on us?
+
+420
+00:30:35,220 --> 00:30:40,740
+ Like that's maybe an advantage but yeah of course they could try
+
+421
+00:30:40,740 --> 00:30:46,020
+ using an interactive browser then we can enable button click
+
+422
+00:30:46,020 --> 00:30:47,860
+ then we can do captures.
+
+423
+00:30:47,860 --> 00:30:54,180
+ There's a lot of other tricks you can do like yeah there's lots of other client
+
+424
+00:30:54,180 --> 00:30:55,220
+ verifications.
+
+425
+00:30:55,220 --> 00:30:57,220
+ These are just some examples.
+
+426
+00:30:57,220 --> 00:30:59,380
+ Yeah there's like a dozen other methods.
+
+427
+00:30:59,380 --> 00:31:11,860
+ Hey Craig I'm wondering as an ISP now my former problem was my PEP were filled by the attackers.
+
+428
+00:31:11,860 --> 00:31:16,020
+ Now it's going to be my server who is going to be attacked so should I go
+
+429
+00:31:16,020 --> 00:31:22,020
+ and move my protection service to match those IP sources and so on
+
+430
+00:31:22,020 --> 00:31:27,860
+ plus what the servers are doing and getting like with the HEParxy
+
+431
+00:31:27,860 --> 00:31:33,860
+ because obviously we've got like two source of data who are useful for our metrics.
+
+432
+00:31:33,860 --> 00:31:34,900
+ What's your thinking about that?
+
+433
+00:31:34,900 --> 00:31:38,500
+ I think I didn't get that right.
+
+434
+00:31:38,500 --> 00:31:42,260
+ I'm not sure you mean like if you're getting attacked by a legacy 7
+
+435
+00:31:42,260 --> 00:31:44,100
+ you have attacker IPs or?
+
+436
+00:31:44,100 --> 00:31:50,580
+ Well I'll still get my source ASN source IP sources and so on so do you match those
+
+437
+00:31:50,580 --> 00:31:58,340
+ two informations to get a decent oh so you like like this metric for your protection?
+
+438
+00:31:58,340 --> 00:32:05,140
+ So you mean if it would be useful to match maybe the link that traffic's coming from?
+
+439
+00:32:05,140 --> 00:32:09,380
+ For instance and maybe also does the RPKI is good for this traffic?
+
+440
+00:32:10,420 --> 00:32:14,180
+ Does the signing is good? Does they have ROAs and those kind of stuff?
+
+441
+00:32:14,180 --> 00:32:18,020
+ Yeah that should be some things that you should do of course
+
+442
+00:32:18,020 --> 00:32:23,140
+ a match on Bogons match on your own IP space why would you get that from externally
+
+443
+00:32:23,140 --> 00:32:25,620
+ and stuff like that so yeah sure of course.
+
+444
+00:32:25,620 --> 00:32:27,540
+ Next question please.
+
+445
+00:32:27,540 --> 00:32:34,420
+ Hello so basically trying to compare your solutions one to three
+
+446
+00:32:34,420 --> 00:32:39,620
+ versus using Cloudflare during crisis situations so basically you're saying
+
+447
+00:32:39,620 --> 00:32:46,180
+ okay you don't have a cookie throw a capture but my concern with that is do you think that most of
+
+448
+00:32:46,180 --> 00:32:54,020
+ the teams in different companies would be able to implement captures that can counter basically bots
+
+449
+00:32:54,020 --> 00:32:54,980
+ in these attacks?
+
+450
+00:32:54,980 --> 00:33:02,900
+ Yeah it depends on the team of course yeah if you have an engineering department that can do
+
+451
+00:33:02,900 --> 00:33:10,260
+ something like this but you can use existing solutions already you can you could just use
+
+452
+00:33:10,260 --> 00:33:17,380
+ Google recapture for example or H or H capture you don't have to implement and code the capture
+
+453
+00:33:17,380 --> 00:33:23,940
+ and everything by yourself just present the page and then get the proper information the proper
+
+454
+00:33:23,940 --> 00:33:29,140
+ verification back so that that would be possible to do also yeah.
+
+455
+00:33:31,140 --> 00:33:39,220
+ Your turn. From the resource balancing perspective like you have your servers and you have all your
+
+456
+00:33:39,220 --> 00:33:46,340
+ observability tooling your telemetry and so on and then I observed that some kind of request
+
+457
+00:33:46,340 --> 00:33:54,180
+ used a high amount of observability output compared to others and in the end we were
+
+458
+00:33:54,180 --> 00:33:59,700
+ our concussion was with the telemetry back line so how do you balance within
+
+459
+00:33:59,700 --> 00:34:05,300
+ at one point decided just to cut off the telemetry because it was decided that it's more important
+
+460
+00:34:05,300 --> 00:34:10,180
+ that some requests were at least answered but how do you balance this or is there a good
+
+461
+00:34:10,180 --> 00:34:12,340
+ general solution or is this really domain specific?
+
+462
+00:34:12,340 --> 00:34:17,860
+ You mean you had too many requests or maybe I didn't get that properly?
+
+463
+00:34:17,860 --> 00:34:26,740
+ We got mail from mail requests and the request caused a lot of telemetry output and this telemetry
+
+464
+00:34:26,740 --> 00:34:31,700
+ output then this traffic actually the damage internally this was the issue.
+
+465
+00:34:31,700 --> 00:34:40,660
+ Well I guess our backbone is internal network is maybe bigger than yours then we're having
+
+466
+00:34:40,660 --> 00:34:46,340
+ enough internal capacity to handle that well of course you see the spike and if you collect like
+
+467
+00:34:46,340 --> 00:34:52,900
+ everything then you have several terabytes of data but I can buy a server that hosts that so
+
+468
+00:34:54,500 --> 00:34:57,140
+ I have budget so sorry.
+
+469
+00:34:57,140 --> 00:35:01,060
+ That's always nice to have yes and you have a question.
+
+470
+00:35:01,060 --> 00:35:03,620
+ Yeah thank you that was a great talk.
+
+471
+00:35:03,620 --> 00:35:08,580
+ Do you ever see issues with web sockets because I know that's becoming more of a
+
+472
+00:35:08,580 --> 00:35:13,300
+ thing that web developers like to use because I can imagine people could then pipe data in.
+
+473
+00:35:13,300 --> 00:35:21,140
+ Yeah web sockets are long lived and we really hate them so we don't have many customers that
+
+474
+00:35:21,140 --> 00:35:27,300
+ are using them so and there's customers that attract DDoS traffic a lot and fortunately
+
+475
+00:35:27,300 --> 00:35:35,140
+ the customers that are using web sockets they're not the ones attracting the DDoS so yeah so it's
+
+476
+00:35:35,140 --> 00:35:37,140
+ it's annoying yeah.
+
+477
+00:35:37,140 --> 00:35:41,700
+ Okay any more questions there? Yes please.
+
+478
+00:35:41,700 --> 00:35:44,180
+ Thank you for your great talk.
+
+479
+00:35:46,020 --> 00:35:52,420
+ REST APIs are more common now how do you protect them from DDoS without such methods as the
+
+480
+00:35:52,420 --> 00:36:03,540
+ challenges you showed us? Yeah there's probably different methods for that maybe
+
+481
+00:36:03,540 --> 00:36:10,740
+ maybe you have another endpoint for the first request to authenticate and then you feed that
+
+482
+00:36:10,740 --> 00:36:18,980
+ back with an API to the other system like you have a login thing on one sub domain and if that's
+
+483
+00:36:18,980 --> 00:36:24,100
+ verified only then you can access the other one because there's a layer four filter on it or
+
+484
+00:36:24,100 --> 00:36:31,380
+ something like that. This very quick idea I don't know there's probably some other better methods too.
+
+485
+00:36:31,380 --> 00:36:35,540
+ All right your question.
+
+486
+00:36:36,820 --> 00:36:44,260
+ So if you're already redirecting these attackers to a capture service have you maybe looked into
+
+487
+00:36:44,260 --> 00:36:51,300
+ doing any more offensive mitigation techniques like tar pits or gzip bombs
+
+488
+00:36:51,300 --> 00:37:00,500
+ once the attacker fails the capture? With this anonymous attack back then weblog runs in the
+
+489
+00:37:00,500 --> 00:37:10,420
+ browser. If you redirect the browser to someplace else it will go there so you can redirect it to
+
+490
+00:37:10,420 --> 00:37:15,460
+ I don't know well it would be really evil to redirect them to your competition but
+
+491
+00:37:15,460 --> 00:37:21,140
+ yeah you can redirect them and do stuff with them if it's browser based also if they use a
+
+492
+00:37:21,140 --> 00:37:28,740
+ headless browser to do some stuff but yeah better to detect and block them. Tar pitting yeah it's
+
+493
+00:37:28,740 --> 00:37:38,980
+ an option but yeah thank you. All right one more question yes please. So commercial products are
+
+494
+00:37:38,980 --> 00:37:44,340
+ quite mature now so do you see which product commercial products harlock commercial products
+
+495
+00:37:44,340 --> 00:37:52,420
+ do you think so well the vendors are saying that right do you see any limitations in them I mean
+
+496
+00:37:52,420 --> 00:37:57,540
+ why would you go this route when let's say you have the budget and you can yeah take some I mean
+
+497
+00:37:57,540 --> 00:38:06,100
+ what are the advantages on this one yeah so a solution you buy is often not scalable right so
+
+498
+00:38:06,100 --> 00:38:11,860
+ then you have one box it can do 100 gigabits on prem or something like that and then if you want
+
+499
+00:38:11,860 --> 00:38:18,580
+ to add another one they say oh no you can't just add a second box you have to buy this bigger box
+
+500
+00:38:18,580 --> 00:38:26,340
+ it can do a terabit and it costs more like a house so it's not really scalable I think and also you
+
+501
+00:38:26,340 --> 00:38:32,100
+ always need two because what happens if there's a software update of course you need twice the
+
+502
+00:38:32,100 --> 00:38:40,020
+ capacity all the time or if you have three well you well you get the point and also I think some
+
+503
+00:38:40,020 --> 00:38:47,460
+ of these mitigation solutions aren't really market ready because we had a solution and tested it and
+
+504
+00:38:47,460 --> 00:38:54,020
+ we had another one in production and it had issues with it could serve captures but it can't look
+
+505
+00:38:54,020 --> 00:39:01,460
+ into tls 1.2 traffic well yeah not very helpful anymore right and then it also would serve the
+
+506
+00:39:01,460 --> 00:39:08,020
+ captures which with an attp 200 code which means if the google bot is coming it's indexing all these
+
+507
+00:39:08,020 --> 00:39:16,740
+ sites and then the index is fucked so yeah and with our own solution we can just adjust it
+
+508
+00:39:16,740 --> 00:39:23,460
+ whatever we want to do and have different levels of verifications for example or we can do
+
+509
+00:39:24,100 --> 00:39:29,460
+ start with easy verification and it's like a maze that an attacker would have to go through like
+
+510
+00:39:29,460 --> 00:39:36,340
+ start with a simple proof of work then some redirect javascripts and and all these and they
+
+511
+00:39:36,340 --> 00:39:41,380
+ have to code something for that in a row and when they think they're finished they will meet they
+
+512
+00:39:41,380 --> 00:39:50,100
+ will see the next thing all right there's one last question in the queue please so I've seen
+
+513
+00:39:50,820 --> 00:39:55,620
+ h a proxy in your presentation so I assume you're using h a proxy as a load balancer
+
+514
+00:39:55,620 --> 00:40:01,940
+ what would be your recommendation for for example for the firewalls or the other components
+
+515
+00:40:01,940 --> 00:40:11,460
+ yeah well everyone likes open source so I would recommend using some some open source things that
+
+516
+00:40:11,460 --> 00:40:17,300
+ you can debug actually for h a proxy you have the source code even if you don't buy the professional
+
+517
+00:40:17,300 --> 00:40:22,420
+ version you have very very good support because they're really interested in getting having a
+
+518
+00:40:22,420 --> 00:40:29,700
+ good product right so some of these fixes they're done in less than 24 hours which is really great
+
+519
+00:40:29,700 --> 00:40:36,820
+ so I would always recommend using open source and not buy a very big box from a vendor but also
+
+520
+00:40:36,820 --> 00:40:44,740
+ including api's as you recommended right yeah for for api's usually if you have a more complex
+
+521
+00:40:44,740 --> 00:40:49,780
+ system it's very specific to your environment because for us it's web hosting I'll just block
+
+522
+00:40:49,780 --> 00:40:55,460
+ udp who cares right but if you're a gaming provider you can't block udp because your games use it so
+
+523
+00:40:55,460 --> 00:41:01,060
+ you need to design very differently so in the end it's a whole system that's being designed with
+
+524
+00:41:01,060 --> 00:41:06,180
+ different components and of course this is not everything we have it's a lot more stuff that's
+
+525
+00:41:06,180 --> 00:41:13,860
+ interconnected and giving and sharing information so yeah all right right behind you another
+
+526
+00:41:13,860 --> 00:41:20,580
+ questions born you said about coding something for the proof of work protections are you talking
+
+527
+00:41:20,580 --> 00:41:27,060
+ about like computing it on the attacker nodes or some form of bypassing it some somewhat by some
+
+528
+00:41:27,060 --> 00:41:34,660
+ form of bypassing the protection formal form of form of okay well it could be anything if you have
+
+529
+00:41:34,660 --> 00:41:42,260
+ a really big botnet and you have a computational proof of work your bots would have each bot would
+
+530
+00:41:42,260 --> 00:41:48,100
+ individually have to calculate the the formula and stuff so you could code that of course yeah or
+
+531
+00:41:48,100 --> 00:41:54,340
+ have a have a headless browser executed and then you have the result and feed that into the client
+
+532
+00:41:54,340 --> 00:41:59,860
+ but that also requires you to code a lot of stuff so your botnet can attack and then we will just
+
+533
+00:41:59,860 --> 00:42:06,740
+ use another mitigation for that all right thank you very much for the questions if you have any
+
+534
+00:42:06,740 --> 00:42:11,700
+ questions later i'm pretty sure craig will stay around and you can ask him later but for now
+
+535
+00:42:11,860 --> 00:42:21,860
+ uh let's thank him again for his great insights on ddocs thanks
+
+536
+00:42:21,860 --> 00:42:25,860
+ [Music]
+

@@ -1,0 +1,1580 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:36,360
+ And now let's get to the last talk and the second to last event on this stage for today.
+
+4
+00:00:38,760 --> 00:00:43,760
+ The next talk will be by Rainer Enrique who are co-organizers of the Bits and Bäume conference
+
+5
+00:00:43,760 --> 00:00:50,760
+ and they will tell us a little bit about what might be not so cool about the current tech fictions.
+
+6
+00:00:50,760 --> 00:00:53,760
+ Thank you.
+
+7
+00:00:53,760 --> 00:00:58,760
+ [APPLAUSE]
+
+8
+00:00:58,760 --> 00:01:02,760
+ Yes, hi and welcome to our talk on Technofixes.
+
+9
+00:01:02,760 --> 00:01:08,760
+ Digital tech fictions as replacement for social and political change?
+
+10
+00:01:08,760 --> 00:01:15,760
+ I'm Enrique, I'm a policy advisor at Friends of the Earth Germany and I'm very happy to be here with Rainer.
+
+11
+00:01:15,760 --> 00:01:17,760
+ Hello, I'm Rainer.
+
+12
+00:01:17,760 --> 00:01:21,760
+ I'm the co-chair of the forum Computer Scientists for Peace and Social Responsibility.
+
+13
+00:01:21,760 --> 00:01:23,760
+ We're sitting over there.
+
+14
+00:01:23,760 --> 00:01:28,760
+ And we work, we both work at the intersection of sustainability and technology.
+
+15
+00:01:28,760 --> 00:01:31,760
+ Well, causes and fixes for unsustainability.
+
+16
+00:01:31,760 --> 00:01:36,760
+ We noticed there is something wrong about the way how we talk about tech in a lot of cases,
+
+17
+00:01:36,760 --> 00:01:42,760
+ especially in the context of global warming, global crises, human rights issues and sustainability.
+
+18
+00:01:42,760 --> 00:01:47,760
+ Many times tech is overestimated as a solution for social and environmental change.
+
+19
+00:01:47,760 --> 00:01:56,760
+ In our work we identified again and again discourses in which the concept of technology is misused in several ways.
+
+20
+00:01:56,760 --> 00:02:07,760
+ We now will give, now we will give some problem background definition,
+
+21
+00:02:07,760 --> 00:02:13,760
+ then we will give some examples where we think there has been a case of technofixes
+
+22
+00:02:13,760 --> 00:02:18,760
+ and we will group them, we will discuss them and even try to find patterns within them
+
+23
+00:02:18,760 --> 00:02:22,760
+ or give reasons why we think those are technofixes.
+
+24
+00:02:22,760 --> 00:02:30,760
+ And then we propose in the end a mental tool for exposing such misuses.
+
+25
+00:02:30,760 --> 00:02:36,760
+ And finally we will talk a little bit about going forward, how to think about technology maybe in another way.
+
+26
+00:02:36,760 --> 00:02:39,760
+ And let's get to the problem definition.
+
+27
+00:02:39,760 --> 00:02:48,760
+ Many politicians are talking about the current times as the multiple crises
+
+28
+00:02:48,760 --> 00:02:53,760
+ and it's not always clear which crises are covered by this definition.
+
+29
+00:02:53,760 --> 00:02:57,760
+ So maybe you noticed today that it was really hot.
+
+30
+00:02:57,760 --> 00:03:05,760
+ We just had the hottest July since 120,000 years last month in Europe.
+
+31
+00:03:05,760 --> 00:03:08,760
+ And that's due to climate change.
+
+32
+00:03:08,760 --> 00:03:17,760
+ I think every one of you should know that climate change is caused by climate gases in the atmosphere which lead to global warming.
+
+33
+00:03:17,760 --> 00:03:22,760
+ But I think a lot of people are underestimating how far we are already gone.
+
+34
+00:03:22,760 --> 00:03:31,760
+ So right now our current warming is about 1.1 degrees Celsius and we are on a very good path to 3 degrees
+
+35
+00:03:31,760 --> 00:03:39,760
+ which would mean extreme weather incidences, losing all coral reefs that we have in the oceans
+
+36
+00:03:39,760 --> 00:03:47,760
+ and droughts, floods, wildfires and changes in the climate system that we can't take back.
+
+37
+00:03:47,760 --> 00:03:52,760
+ But this is not the only crisis, it's just the one that I'm working the most with.
+
+38
+00:03:52,760 --> 00:03:57,760
+ We are also facing a crisis in democracy for example as we can see in the United States.
+
+39
+00:03:57,760 --> 00:04:02,760
+ We are currently in the third financial crisis in 15 years.
+
+40
+00:04:02,760 --> 00:04:10,760
+ And the war in Ukraine but also climate change is leading to hunger all over the world.
+
+41
+00:04:10,760 --> 00:04:18,760
+ So often we find that tech is proposed as a solution.
+
+42
+00:04:18,760 --> 00:04:25,760
+ But first, oh no, sorry.
+
+43
+00:04:25,760 --> 00:04:34,760
+ For example, the Liberal Democratic Party in Germany is proposing that maybe everything could be really easy
+
+44
+00:04:34,760 --> 00:04:41,760
+ because we know that a lot of these crises will need a lot of policy changes that will be difficult on all of us
+
+45
+00:04:41,760 --> 00:04:47,760
+ and we can see with the recent heating law for example that people are afraid of the transformation.
+
+46
+00:04:47,760 --> 00:04:52,760
+ But what if tech could just save us?
+
+47
+00:04:52,760 --> 00:04:57,760
+ This is something that is proposed especially by the Liberal Democrats for example.
+
+48
+00:04:57,760 --> 00:05:07,760
+ And now we want to start with this narrative but first with the definitions.
+
+49
+00:05:07,760 --> 00:05:13,760
+ Okay, yeah, just to see that we're on the common ground and on the same page.
+
+50
+00:05:13,760 --> 00:05:14,760
+ First, what is technology?
+
+51
+00:05:14,760 --> 00:05:23,760
+ Well, techne, like the Greek word actually means the practical ability to do something without actually understanding how it works or how you do it.
+
+52
+00:05:23,760 --> 00:05:31,760
+ This could be in case of knowledge for example reading, reading as a technology, but also usually how we use it here in this context,
+
+53
+00:05:31,760 --> 00:05:38,760
+ it is artifacts, so tools or machines to do something.
+
+54
+00:05:38,760 --> 00:05:44,760
+ Then we have fictions and this is that we get to the core of our discussion here, of our presentation.
+
+55
+00:05:44,760 --> 00:05:49,760
+ A fiction is usually a narrative or explanation with an imaginary element.
+
+56
+00:05:49,760 --> 00:05:57,760
+ So now the question is, well, narratives usually open possibilities, they make us imagine how things work and how to go forward,
+
+57
+00:05:57,760 --> 00:06:00,760
+ how we can talk about the present but also about the future.
+
+58
+00:06:00,760 --> 00:06:08,760
+ So now the discussion is if we hear a certain tech narrative, is it a fiction because it's imaginary or is it real?
+
+59
+00:06:08,760 --> 00:06:15,760
+ So the question is, is it the tech solution for a given problem or is that just talking about technology by itself?
+
+60
+00:06:15,760 --> 00:06:21,760
+ And finally sustainability, or not finally, sustainability,
+
+61
+00:06:21,760 --> 00:06:29,760
+ we usually like the short definition of fulfilling one's needs without impeding future generations ability to use the same.
+
+62
+00:06:29,760 --> 00:06:37,760
+ Which means limiting the degrees of freedom and fulfilling the needs of future generations.
+
+63
+00:06:37,760 --> 00:06:45,760
+ Usually in the discourse, which is quite useful, analytical distinctions are ecological, social and economical sustainability,
+
+64
+00:06:45,760 --> 00:06:52,760
+ whereas ecological sustainability is the persistence of life and nature and flora and fauna.
+
+65
+00:06:52,760 --> 00:06:59,760
+ The social sustainability affects the way how we interact with each other as humans, as groups.
+
+66
+00:06:59,760 --> 00:07:07,760
+ And finally the economical sustainability is how to distribute resources, scarce resources.
+
+67
+00:07:07,760 --> 00:07:12,760
+ And finally social change, well, we as humans right now do not live sustainably.
+
+68
+00:07:12,760 --> 00:07:19,760
+ We know that and as we heard from Rike, there are changes that need to be made in a certain way.
+
+69
+00:07:19,760 --> 00:07:29,760
+ And we found when we were researching for those cases, we found there are actually two types of those tech discourse misuses.
+
+70
+00:07:29,760 --> 00:07:35,760
+ We will give some examples right away. But type A is unusable tech.
+
+71
+00:07:35,760 --> 00:07:43,760
+ We talk about technology that's actually unusable or unsuitable because other usable tech already exists.
+
+72
+00:07:43,760 --> 00:07:48,760
+ So we're not talking about the one that exists, but we talk about something that's unsuitable.
+
+73
+00:07:48,760 --> 00:07:54,760
+ The second case would be a tech focused discourse concerning purely political issues.
+
+74
+00:07:54,760 --> 00:08:03,760
+ So where the tech discourse is not about the wrong technology, but where technology is not a solution at all.
+
+75
+00:08:03,760 --> 00:08:09,760
+ So talking about the first, the type A discourses.
+
+76
+00:08:09,760 --> 00:08:15,760
+ The first example we want to bring up is automated driving in inner cities.
+
+77
+00:08:15,760 --> 00:08:19,760
+ What is the promise? Well, the promise is no personal cars anymore.
+
+78
+00:08:19,760 --> 00:08:23,760
+ And we have basically cheap taxis for everyone. How does it work?
+
+79
+00:08:23,760 --> 00:08:28,760
+ Well, we would we put cameras, computer sensors and the navigation systems in the car.
+
+80
+00:08:28,760 --> 00:08:31,760
+ And finally, we have a driverless car.
+
+81
+00:08:31,760 --> 00:08:38,760
+ But in reality, there's so many problems concerning the technical difficulties of recognizing the environment.
+
+82
+00:08:38,760 --> 00:08:41,760
+ Sometimes the city environment has to even be adjusted.
+
+83
+00:08:41,760 --> 00:08:46,760
+ So those things actually work. And then there is also people in the city.
+
+84
+00:08:46,760 --> 00:08:52,760
+ A lot of times, as we see now, the more and more this kind of automated driving is distributed.
+
+85
+00:08:52,760 --> 00:08:56,760
+ A lot of people are having fun stopping them or putting cones on top.
+
+86
+00:08:56,760 --> 00:09:00,760
+ And this is something that cannot be really solved in a technical way.
+
+87
+00:09:00,760 --> 00:09:04,760
+ So those cars are blocking ways here and there.
+
+88
+00:09:04,760 --> 00:09:07,760
+ Well, what would be a good solution? Well, we have public transport, of course.
+
+89
+00:09:07,760 --> 00:09:14,760
+ We have multimodal mobility. We have buses and so on.
+
+90
+00:09:14,760 --> 00:09:18,760
+ So the question is who profits talking about this kind of automated driving?
+
+91
+00:09:18,760 --> 00:09:21,760
+ Well, of course, the big corporations doing the research there.
+
+92
+00:09:21,760 --> 00:09:25,760
+ It's the Googles, the Ubers and the Teslas.
+
+93
+00:09:25,760 --> 00:09:28,760
+ The next example is the hydrogen heating.
+
+94
+00:09:28,760 --> 00:09:34,760
+ So the promise is, well, let's keep all our gas heating in place and all the gas infrastructure.
+
+95
+00:09:34,760 --> 00:09:38,760
+ But we'll just power the gas heatings with green hydrogen,
+
+96
+00:09:38,760 --> 00:09:41,760
+ which is hydrogen that's being created with renewable energy.
+
+97
+00:09:41,760 --> 00:09:44,760
+ How does it work? Well, we keep the heating.
+
+98
+00:09:44,760 --> 00:09:47,760
+ We just change the source in a certain way.
+
+99
+00:09:47,760 --> 00:09:49,760
+ But what is the reality?
+
+100
+00:09:49,760 --> 00:09:54,760
+ The reality is that the production of this kind of green hydrogen is highly inefficient.
+
+101
+00:09:54,760 --> 00:10:01,760
+ It takes away the available hydrogen that needs to be used for other parts of society or industry,
+
+102
+00:10:01,760 --> 00:10:03,760
+ which can only be powered by hydrogen.
+
+103
+00:10:03,760 --> 00:10:09,760
+ And in the end, it is also important to say that this kind of approach usually puts a lot of stress on the global south,
+
+104
+00:10:09,760 --> 00:10:13,760
+ because those are the plants where the green hydrogen should come from.
+
+105
+00:10:13,760 --> 00:10:18,760
+ And it's even unsure how this kind of technology can even scale.
+
+106
+00:10:18,760 --> 00:10:20,760
+ Well, what would be a good solution at this point?
+
+107
+00:10:20,760 --> 00:10:25,760
+ Well, we have, for example, the heat pump. It works everywhere, it seems, except for Germany.
+
+108
+00:10:25,760 --> 00:10:30,760
+ Well, and who profits? Well, it is, if you analyze the situation,
+
+109
+00:10:30,760 --> 00:10:37,760
+ it is the old style energy and heating corporations that try to argue for this, keeping those systems in place.
+
+110
+00:10:37,760 --> 00:10:45,760
+ And finally, the question of power, talking about unlimited clean energy for the future or for now already,
+
+111
+00:10:45,760 --> 00:10:47,760
+ like nuclear power or fusion.
+
+112
+00:10:47,760 --> 00:10:54,760
+ Well, how does it work? Well, either we fuse or we split atoms, get energy out of it.
+
+113
+00:10:54,760 --> 00:10:56,760
+ But what is the reality of this?
+
+114
+00:10:56,760 --> 00:11:02,760
+ Well, it is very expensive. It's dependent from dictatorships resources like uranium.
+
+115
+00:11:02,760 --> 00:11:06,760
+ It's centralized by default, cannot be decentralized.
+
+116
+00:11:06,760 --> 00:11:09,760
+ And as part for fusion, it is not ready.
+
+117
+00:11:09,760 --> 00:11:12,760
+ At least it's not ready in the timeframe of five or ten years,
+
+118
+00:11:12,760 --> 00:11:18,760
+ which we needed to be ready to do something about the climate catastrophe moving on.
+
+119
+00:11:18,760 --> 00:11:21,760
+ What would be a good solution? Well, remote fusion.
+
+120
+00:11:21,760 --> 00:11:27,760
+ We just have to put a lot of those remote fusion harvesters out there called solar panels.
+
+121
+00:11:27,760 --> 00:11:31,760
+ We could also use wind energy, water energy. It's all there.
+
+122
+00:11:31,760 --> 00:11:36,760
+ The technology is there. It's usable. It can scale as we see in other parts of the world.
+
+123
+00:11:36,760 --> 00:11:40,760
+ But who profits talking about nuclear energy or talking about fusion?
+
+124
+00:11:40,760 --> 00:11:46,760
+ It's again, big energy corporations pushing the agenda because they know once we stay with nuclear power
+
+125
+00:11:46,760 --> 00:11:54,760
+ or turn it on or we go into fusion, those systems can only be operated by really, really huge organizations and companies.
+
+126
+00:11:54,760 --> 00:11:56,760
+ They cannot be decentralized.
+
+127
+00:11:56,760 --> 00:12:00,760
+ So now we get to the Type B technologies.
+
+128
+00:12:00,760 --> 00:12:12,760
+ Okay. I think what is really interesting about the Type B technologies is that all the examples I will list for you now
+
+129
+00:12:12,760 --> 00:12:15,760
+ are around for a very long time already.
+
+130
+00:12:15,760 --> 00:12:18,760
+ The first one would be, for example, cryptocurrencies.
+
+131
+00:12:18,760 --> 00:12:26,760
+ I'm sure a lot of you have already heard very good talks on cryptocurrencies, for example, by Rainer.
+
+132
+00:12:26,760 --> 00:12:31,760
+ You know that cryptocurrencies were first introduced in 2008.
+
+133
+00:12:31,760 --> 00:12:43,760
+ The main idea was to make the financial system more equal and more transparent by using a blockchain-based currency.
+
+134
+00:12:43,760 --> 00:12:48,760
+ And what we've seen in the last... Oh, no. Is it working?
+
+135
+00:12:48,760 --> 00:12:56,760
+ Okay. But what we've seen in the last, I think, almost 20 years is we haven't reached equality in the financial markets.
+
+136
+00:12:56,760 --> 00:13:04,760
+ What we have reached are currencies that make up about 25% of all data center power.
+
+137
+00:13:04,760 --> 00:13:08,760
+ It's an estimation that are highly volatile.
+
+138
+00:13:08,760 --> 00:13:19,760
+ We saw this in El Salvador, who introduced Bitcoin as an actual currency and is also ruled by a lot of inequality of the people using it.
+
+139
+00:13:19,760 --> 00:13:30,760
+ So if we really want financial equality, what would we need or what would we need to prevent another financial crisis such as 2008?
+
+140
+00:13:30,760 --> 00:13:40,760
+ Well, we should just reform financial markets and really reform them and reform hedge funds and private banks, for example.
+
+141
+00:13:40,760 --> 00:13:56,760
+ Another example I'm sure you heard about a lot, especially by environmental NGOs, is the idea of, well, how could we provide food safety for the whole world?
+
+142
+00:13:56,760 --> 00:14:03,760
+ Maybe we could use genetically modified plants, for example, and matching pesticides.
+
+143
+00:14:03,760 --> 00:14:21,760
+ The idea would be to enhance plants with genetic technology, for example, to be more adapted to climate change or to improve crop yields or to use pesticides such as glyphosate,
+
+144
+00:14:21,760 --> 00:14:26,760
+ which I'm sure a lot of you know how glyphosate works. It just kills everything.
+
+145
+00:14:26,760 --> 00:14:32,760
+ It's called a total herbicide. But there are some plants that survive that are genetically modified.
+
+146
+00:14:32,760 --> 00:14:40,760
+ So worldwide, we're using genetically modified plants for around, I think, 20 or 30 years now.
+
+147
+00:14:40,760 --> 00:14:50,760
+ And we still have hunger. And we still didn't solve the problem of food inequality because we don't have the problem is not that we don't have enough food.
+
+148
+00:14:50,760 --> 00:14:58,760
+ The problem is the distribution of food and the pressure on markets of food crops, for example.
+
+149
+00:14:58,760 --> 00:15:05,760
+ Actually, the majority of the world is living off of small agriculture and subsistence agriculture.
+
+150
+00:15:05,760 --> 00:15:11,760
+ And a lot of the genetic genetically enhanced plants are actually used for biofuels, for example.
+
+151
+00:15:11,760 --> 00:15:23,760
+ So this would be the real solution. If we want to tackle food safety as a problem, we have to support local farmers and small farmers, especially in the global south.
+
+152
+00:15:23,760 --> 00:15:32,760
+ But the ones who wouldn't profit from that would be the big agricultural corporations such as Monsanto, for example.
+
+153
+00:15:32,760 --> 00:15:41,760
+ And the last one, it's actually my favorite because I really like the idea, is carbon capture and storage.
+
+154
+00:15:41,760 --> 00:15:45,760
+ Maybe you heard about carbon capture and storage in the 90s.
+
+155
+00:15:45,760 --> 00:15:52,760
+ That was when the idea was first introduced and we already had a lot of protests, especially in Germany, on it.
+
+156
+00:15:52,760 --> 00:16:00,760
+ And the idea is really nice. I think for me, it's always like I imagine how we could solve climate change easily.
+
+157
+00:16:00,760 --> 00:16:08,760
+ You just capture the CO2 in the industry plants before it's emitted into the atmosphere.
+
+158
+00:16:08,760 --> 00:16:18,760
+ You just capture it. You use, if you can, renewable energy, a lot of it, to change the form of the CO2.
+
+159
+00:16:18,760 --> 00:16:25,760
+ And then you just store it in old gas and oil fields and it's gone. And we don't have climate change anymore.
+
+160
+00:16:25,760 --> 00:16:31,760
+ The problem is, this is not scalable. We have very, very small used cases until now.
+
+161
+00:16:31,760 --> 00:16:38,760
+ And we know that the re-emission of this CO2 would be really dangerous, especially a lot of these oil fields are in the oceans.
+
+162
+00:16:38,760 --> 00:16:45,760
+ So it would destroy the biodiversity in the oceans to store it, but also if it would be re-emissioned, but also on land,
+
+163
+00:16:45,760 --> 00:16:51,760
+ it would be very bad for the communities and really dangerous.
+
+164
+00:16:51,760 --> 00:16:58,760
+ So the solution to end climate change would be stop using fossil fuels.
+
+165
+00:16:58,760 --> 00:17:07,760
+ But who wouldn't profit of that? Well, the fossil fuel companies who are pushing the solution for years now.
+
+166
+00:17:07,760 --> 00:17:18,760
+ So these are just a few examples. Am I saying it? Yeah. OK. Sorry.
+
+167
+00:17:18,760 --> 00:17:26,760
+ But there are a lot more, for example, the use of AI right now as the solution for basically anything, for example.
+
+168
+00:17:26,760 --> 00:17:39,760
+ And there are two main reasons that we identified in our work why these narratives on technology are always used in politics,
+
+169
+00:17:39,760 --> 00:17:45,760
+ but are also that powerful as they are. So this would be one, staying in power.
+
+170
+00:17:45,760 --> 00:17:53,760
+ And the other thing is having a very limited understanding or an incompetence regarding technology.
+
+171
+00:17:53,760 --> 00:18:04,760
+ So maybe you heard it with all our examples. The ones that are proposing these technofixes normally aren't startups or like little farmers
+
+172
+00:18:04,760 --> 00:18:09,760
+ who are thinking about how to tackle climate change. No, these are very old, very rich corporations.
+
+173
+00:18:09,760 --> 00:18:18,760
+ Or maybe in the case of cryptocurrencies, it's maybe a little bit different, but also people with a lot of money behind them.
+
+174
+00:18:18,760 --> 00:18:26,760
+ And the idea is, well, they want to keep their power. Monsanto is one of the biggest agricultural companies.
+
+175
+00:18:26,760 --> 00:18:30,760
+ And they want to keep this position as well as the whole fossil fuel industry,
+
+176
+00:18:30,760 --> 00:18:38,760
+ who is responsible for 77 percent almost of all emissions in the atmosphere.
+
+177
+00:18:38,760 --> 00:18:44,760
+ And they also have the money for the research. So it's not easy to get, for example, critical studies on these things
+
+178
+00:18:44,760 --> 00:18:50,760
+ because they're financing so many universities and research institutes.
+
+179
+00:18:50,760 --> 00:19:00,760
+ And strategically, they really profit from it, even if the solutions don't work because they hitchhike our narratives.
+
+180
+00:19:00,760 --> 00:19:07,760
+ We saw this with the heating law, for example. We were really talking about hydrogen heating for a long time.
+
+181
+00:19:07,760 --> 00:19:13,760
+ It might not be a solution. We don't know. But it kept us engaged. And we discussed it a lot.
+
+182
+00:19:13,760 --> 00:19:20,760
+ It's the same thing with CCS, carbon capture and storage. We know that certain stones are not really usable for it.
+
+183
+00:19:20,760 --> 00:19:26,760
+ But you can discuss for months. Maybe there's another stone we can store it in or something.
+
+184
+00:19:26,760 --> 00:19:38,760
+ So they hitchhike the narrative and take it away from the real solutions that are mostly a lot easier.
+
+185
+00:19:38,760 --> 00:19:46,760
+ OK. And the second reason we found was a wrong understanding of technology and a wrong understanding of society.
+
+186
+00:19:46,760 --> 00:19:56,760
+ The first one could say this can also be again be split up into two kinds or two. Yeah, two kinds.
+
+187
+00:19:56,760 --> 00:20:04,760
+ They always mix, but there's an analytical difference. The first one is the actual discussed technology cannot even fulfill the requirements.
+
+188
+00:20:04,760 --> 00:20:12,760
+ So there's misunderstanding what the technology can or cannot do, for example, in blockchain or in some of those,
+
+189
+00:20:12,760 --> 00:20:22,760
+ especially the big AI applications for getting information and sometimes a lot of times the framework conditions for applying this technology are not even given.
+
+190
+00:20:22,760 --> 00:20:29,760
+ So the requirement analysis itself is wrong. There's a misunderstanding how the technology works and could be applied.
+
+191
+00:20:29,760 --> 00:20:39,760
+ But the second one is even is even deeper. I would say it is a reduced understanding of humans and society itself.
+
+192
+00:20:39,760 --> 00:20:45,760
+ A lot of ways when we talk about technology or we have bigger and deeper technology discussions,
+
+193
+00:20:45,760 --> 00:20:52,760
+ we come across those narratives that humans are basically also just computers.
+
+194
+00:20:52,760 --> 00:21:00,760
+ Or, for example, society is just like a collection of individual transactions. There is nothing, nothing like, you know, society itself.
+
+195
+00:21:00,760 --> 00:21:07,760
+ Or every human is rational and there's a homo economicus.
+
+196
+00:21:07,760 --> 00:21:14,760
+ And then, of course, if I have such a reduced understanding of the world, it is actually the case that certain kinds of technologies,
+
+197
+00:21:14,760 --> 00:21:22,760
+ that's the reason, for example, with cryptocurrencies or even the well-meaning blockchain community,
+
+198
+00:21:22,760 --> 00:21:30,760
+ why the application doesn't work, because if I model society very reduced and very easily, then within this model, it works to apply technology.
+
+199
+00:21:30,760 --> 00:21:40,760
+ But society is usually very, very complex and then it fails. So one could say the possible reasons are maybe staying in power,
+
+200
+00:21:40,760 --> 00:21:51,760
+ as Rike said, which could be tagged as the evil and the wrong understanding is maybe the well-meaning, but in a certain way and competent way.
+
+201
+00:21:51,760 --> 00:22:02,760
+ So, but we do not want to end on this note, of course, but there are solutions in a certain context and Rike will talk about this.
+
+202
+00:22:02,760 --> 00:22:10,760
+ I think, I mean, the solutions are not easy, but for me personally, they are also really hopeful.
+
+203
+00:22:10,760 --> 00:22:18,760
+ And I think spaces like the camp, for example, are very good examples of the solutions we already have in our hands,
+
+204
+00:22:18,760 --> 00:22:29,760
+ which already talked about some of them. So one would be just low-tech solutions like public transport, small agriculture, regulation,
+
+205
+00:22:29,760 --> 00:22:42,760
+ bikes, democratization of the economic system, but also societal change, like the way we live and interact with each other,
+
+206
+00:22:42,760 --> 00:22:49,760
+ the idea of degrowth and community, which is something that I think we can already see, for example, in this space a lot,
+
+207
+00:22:49,760 --> 00:22:57,760
+ the use of renewable energies, really reduce emissions, only use energy where we really need it,
+
+208
+00:22:57,760 --> 00:23:06,760
+ and also look out for financial support for people that will suffer under the transformation that is ahead of us.
+
+209
+00:23:06,760 --> 00:23:17,760
+ And also taking or making especially very rich people and big companies responsible for the situation we are in.
+
+210
+00:23:17,760 --> 00:23:24,760
+ The biggest polluters are the richest one percent and just a few fossil fuel companies, for example.
+
+211
+00:23:24,760 --> 00:23:32,760
+ And also something that is really important is to offer each other security. We can't survive crises alone.
+
+212
+00:23:32,760 --> 00:23:45,760
+ We always need community and we always need collective social security so that we can go through tough times together.
+
+213
+00:23:45,760 --> 00:23:51,760
+ And maybe to finish this off, it's a reminder. The question is, what problems are we actually solving?
+
+214
+00:23:51,760 --> 00:23:56,760
+ What kind of societies do we want to live in? So the big question is, what is life about anyhow?
+
+215
+00:23:56,760 --> 00:24:06,760
+ So what does make us happy? Because a lot of those changes that are maybe being proposed here might get people afraid somehow,
+
+216
+00:24:06,760 --> 00:24:15,760
+ but there's a lot of research on happiness and the results somehow make us think about different understandings of prosperity.
+
+217
+00:24:15,760 --> 00:24:22,760
+ And we should rethink the standard of living. What people need is time prosperity, for example,
+
+218
+00:24:22,760 --> 00:24:27,760
+ to have time to spend with the loved ones with the things we want to do.
+
+219
+00:24:27,760 --> 00:24:33,760
+ This is a discussion about working weeks, for example, or the way of how we do work in general.
+
+220
+00:24:33,760 --> 00:24:39,760
+ Of course, we need spatial prosperity, which means more communal spaces, public spaces.
+
+221
+00:24:39,760 --> 00:24:47,760
+ Also, you could say social prosperity, meaningful interconnections that also sometimes means a limit of applying technology in certain ways.
+
+222
+00:24:47,760 --> 00:24:55,760
+ So that means all those changes we mentioned throughout the presentations are maybe sometimes technology that are already there,
+
+223
+00:24:55,760 --> 00:25:05,760
+ but also changes that could actually make a great future because those are all the things slowing down, getting more time, space and more interconnections.
+
+224
+00:25:05,760 --> 00:25:09,760
+ Those are actually the things that make people happy.
+
+225
+00:25:09,760 --> 00:25:20,760
+ And that brings us somehow to the conclusion, well, just to sum it up, techno fixes blind and distract our minds and slow down the necessary change.
+
+226
+00:25:20,760 --> 00:25:27,760
+ And now from what we've learned, our groupings and our explanations, I think one can summarize, well, how to spot a techno fix.
+
+227
+00:25:27,760 --> 00:25:37,760
+ First, who proposes it? If it comes of the incumbent of the current economic system, then it is highly probably a techno fix.
+
+228
+00:25:37,760 --> 00:25:46,760
+ And the second, which is maybe a little bit more complex, once there's a solution proposed to ask what is the exact problem definition
+
+229
+00:25:46,760 --> 00:25:51,760
+ and what is the exact understanding how the technology could actually tackle this.
+
+230
+00:25:51,760 --> 00:25:57,760
+ And this could sometimes mean that we see, okay, there's an existing low tech solution, but why don't we talk about this?
+
+231
+00:25:57,760 --> 00:26:01,760
+ So those are the two things how to spot a techno fix.
+
+232
+00:26:01,760 --> 00:26:10,760
+ Okay. And then maybe since we're here at the case communication camp, let's make meaningful social change, of course, as we do it.
+
+233
+00:26:10,760 --> 00:26:13,760
+ And then talk about the usable technology to actually imply it.
+
+234
+00:26:13,760 --> 00:26:22,760
+ And then we can play with our devices and construct and work on the society we can live on, also the next generations can live on.
+
+235
+00:26:22,760 --> 00:26:30,760
+ Here we have some references. And thank you.
+
+236
+00:26:30,760 --> 00:26:35,760
+ Thank you, Rainer and Rike. Now we still have quite a lot of time for Q&A.
+
+237
+00:26:35,760 --> 00:26:42,760
+ So do you have any questions? Okay, I have to come to you since I'm alone.
+
+238
+00:26:42,760 --> 00:26:53,760
+ Hi. First, thanks for the talk. It was amazing. I wanted to ask about something different, similar to CCS, carbon capture and storage.
+
+239
+00:26:53,760 --> 00:26:59,760
+ I researched a lot about that, and I agree with your take, and I wanted to know what you think about direct air capture.
+
+240
+00:26:59,760 --> 00:27:06,760
+ Because right now, even if we were carbon neutral, there would still be too much CO2 in the air.
+
+241
+00:27:06,760 --> 00:27:12,760
+ Do you think it's also a techno fix or is that actually something useful that we could use for the future?
+
+242
+00:27:12,760 --> 00:27:20,760
+ Also, of course, with other things, not as something alone as a solution.
+
+243
+00:27:20,760 --> 00:27:23,760
+ Is it working? Okay.
+
+244
+00:27:23,760 --> 00:27:29,760
+ I honestly haven't researched a lot about air capture, and I think it can be a solution.
+
+245
+00:27:29,760 --> 00:27:39,760
+ But a lot of the geoengineering solutions that are proposed, a lot of the time they serve to not apply the change we need.
+
+246
+00:27:39,760 --> 00:27:43,760
+ So maybe you're right, and it could be like an addition to other things.
+
+247
+00:27:43,760 --> 00:27:49,760
+ I mean, CCS could also be an addition to other things we need. It's just not scalable.
+
+248
+00:27:49,760 --> 00:27:55,760
+ And I think it depends a lot on the discussion. I think this technology in itself maybe is not a bad one.
+
+249
+00:27:55,760 --> 00:28:03,760
+ And the question is always, are we using resources and time we need for other things in this technology?
+
+250
+00:28:03,760 --> 00:28:07,760
+ If not, maybe it's really helpful.
+
+251
+00:28:07,760 --> 00:28:11,760
+ I also have to say I have a very great colleague. Her name is Kestin Meyer.
+
+252
+00:28:11,760 --> 00:28:15,760
+ She researches a lot on that, so maybe you want to look into her work.
+
+253
+00:28:15,760 --> 00:28:20,760
+ Yeah, but this is, I mean, we have a lot of geoengineering propositions,
+
+254
+00:28:20,760 --> 00:28:30,760
+ like the idea of solar sails in the atmosphere to reflect the sun or just plant whole forests
+
+255
+00:28:30,760 --> 00:28:35,760
+ or put in water plants in lakes that will absorb a lot of CO2.
+
+256
+00:28:35,760 --> 00:28:40,760
+ And all these could be solutions, but I personally think that they are really scary.
+
+257
+00:28:40,760 --> 00:28:45,760
+ And we don't know the effects of them, and we shouldn't rely on them now.
+
+258
+00:28:45,760 --> 00:28:55,760
+ We have very good solutions for change, which a lot of them are also socially a lot more,
+
+259
+00:28:55,760 --> 00:29:01,760
+ or advancing a lot more towards equality, I would say. Thank you for your question.
+
+260
+00:29:01,760 --> 00:29:08,760
+ And I would like to add, as I know it's quite energy intensive to do the air capture,
+
+261
+00:29:08,760 --> 00:29:16,760
+ and now usually the evasion is then to say, well, we could use renewable energy, of course, to do that.
+
+262
+00:29:16,760 --> 00:29:23,760
+ Unfortunately, we are not at 100% renewable energy right now, so we have spare energy to actually do that.
+
+263
+00:29:23,760 --> 00:29:29,760
+ So until we're not at 100% doing additional means, we take away the renewable energy,
+
+264
+00:29:29,760 --> 00:29:32,760
+ which we have and which is scarce. Just to add something.
+
+265
+00:29:32,760 --> 00:29:35,760
+ Yeah, I wanted also, this is a very good point.
+
+266
+00:29:35,760 --> 00:29:45,760
+ When we are talking about renewable energy, a common misconception is that we can scale renewable energy endlessly, and we can't.
+
+267
+00:29:45,760 --> 00:29:54,760
+ We can't use all the land we have for solar panels or air or water power.
+
+268
+00:29:54,760 --> 00:30:02,760
+ And if we have an increasing usage of energy, we're using more energy each year.
+
+269
+00:30:02,760 --> 00:30:08,760
+ This is not changing, and it has to change because we don't have endless renewable energy.
+
+270
+00:30:08,760 --> 00:30:15,760
+ And maybe in Germany this won't be a problem, because we are already establishing the relations with the Global South
+
+271
+00:30:15,760 --> 00:30:18,760
+ to use their solar power or their wind power or their water power.
+
+272
+00:30:18,760 --> 00:30:23,760
+ But in the end, it's one planet and the capacities are limited.
+
+273
+00:30:23,760 --> 00:30:28,760
+ So we have to say, what do we want to use the renewable energy for that we have?
+
+274
+00:30:28,760 --> 00:30:38,760
+ Not counting all the resources that we need to, for example, put up solar panels and wind engines, for example.
+
+275
+00:30:38,760 --> 00:30:48,760
+ Hello. Hello. I have a question regarding technologies who are maybe at the moment not that good.
+
+276
+00:30:48,760 --> 00:30:57,760
+ There are, for example, better alternatives available, but some technologies might be better in the future.
+
+277
+00:30:57,760 --> 00:31:06,760
+ How should we handle this? Because if we only focus on the existing tech and so on,
+
+278
+00:31:06,760 --> 00:31:14,760
+ our solutions, then we are staying at the same level.
+
+279
+00:31:14,760 --> 00:31:25,760
+ That is one of the core questions why we did this presentation.
+
+280
+00:31:25,760 --> 00:31:30,760
+ Unfortunately, we are not in a situation where we say let's spend the next 100 years
+
+281
+00:31:30,760 --> 00:31:38,760
+ and then to see where we get and where can we, what's nice pathways and we create scenarios.
+
+282
+00:31:38,760 --> 00:31:43,760
+ According to all the calculations to keep at least one third of the planet still livable,
+
+283
+00:31:43,760 --> 00:31:50,760
+ we have to make those kind of changes regarding emissions and slowing down the global warming
+
+284
+00:31:50,760 --> 00:31:54,760
+ in the next, let's say, five or maybe eight years.
+
+285
+00:31:54,760 --> 00:32:01,760
+ So I think it's a really good and fruitful discussion to think about what to do afterwards
+
+286
+00:32:01,760 --> 00:32:07,760
+ and to plan ahead for the future, maybe whatever you had in mind for this question.
+
+287
+00:32:07,760 --> 00:32:17,760
+ But the core of our presentation is let's not make this an evasion from the changes that are necessary right now.
+
+288
+00:32:17,760 --> 00:32:24,760
+ So we should work on that and it's fun and it's really nice, but we need to put priorities.
+
+289
+00:32:24,760 --> 00:32:31,760
+ First the work and then, or maybe resources, maybe 90% there and 10% there.
+
+290
+00:32:31,760 --> 00:32:36,760
+ But let's not make it appear that the future thinking should be the core.
+
+291
+00:32:36,760 --> 00:32:40,760
+ So this would be at least my answer.
+
+292
+00:32:40,760 --> 00:32:50,760
+ I think you're, I have a colleague who works on agriculture and technology to genetically enhance plants
+
+293
+00:32:50,760 --> 00:32:54,760
+ and she always says, well, it's really fun to do research.
+
+294
+00:32:54,760 --> 00:33:02,760
+ It is. I mean, we just found this new way to enhance, like, to genetically enhance plants or organisms,
+
+295
+00:33:02,760 --> 00:33:06,760
+ this CRISPR-Cas, but we have the same problems we had before.
+
+296
+00:33:06,760 --> 00:33:09,760
+ We just found a new way to do it and I think this is really fun
+
+297
+00:33:09,760 --> 00:33:15,760
+ and I think it's very human to want to invent things and to move things forward.
+
+298
+00:33:15,760 --> 00:33:22,760
+ But I think we have to keep in mind that sometimes it's just fun to discover things.
+
+299
+00:33:22,760 --> 00:33:25,760
+ That doesn't mean that we have to apply them and that they are a solution.
+
+300
+00:33:25,760 --> 00:33:32,760
+ I think this is very applicable also in the whole blockchain discourse, the idea of we have this technology.
+
+301
+00:33:32,760 --> 00:33:37,760
+ Let's use it for something. Do you have a problem for my blockchain?
+
+302
+00:33:37,760 --> 00:33:41,760
+ Well, I would summarize it yes to playing with things. Yeah, definitely.
+
+303
+00:33:41,760 --> 00:33:45,760
+ Okay, next question.
+
+304
+00:33:45,760 --> 00:33:55,760
+ Yeah, thanks. I really like the idea of, or like, that these techno fixes are a narrative that, for example,
+
+305
+00:33:55,760 --> 00:34:01,760
+ if I work at a company with large established interests and I want to slow down some kind of change
+
+306
+00:34:01,760 --> 00:34:10,760
+ that threatens my bottom line, I can just throw in some technology that sounds vaguely plausible,
+
+307
+00:34:10,760 --> 00:34:17,760
+ like it could solve a problem, and then really try to push for this and that way hijack the public debate
+
+308
+00:34:17,760 --> 00:34:24,760
+ and meaning that this will be discussed for a very long time and the right things don't get discussed.
+
+309
+00:34:24,760 --> 00:34:31,760
+ And I think being aware of this is maybe one way of stopping this, but do you have any other ideas
+
+310
+00:34:31,760 --> 00:34:38,760
+ for how you can then deal with this situation, like maybe a message for people working, like for journalists
+
+311
+00:34:38,760 --> 00:34:45,760
+ or people working in media, like what do you do? Because you don't want to respond to it basically.
+
+312
+00:34:45,760 --> 00:34:53,760
+ I think this is a very good question because I, for example, I am sometimes invited to talks
+
+313
+00:34:53,760 --> 00:35:01,760
+ with politicians and they ask very specific things about, there was, for example, a hearing in the Bundestag
+
+314
+00:35:01,760 --> 00:35:11,760
+ regarding, I think it was called Metaverse Blockchain and Web3, and so you just talk about the technology
+
+315
+00:35:11,760 --> 00:35:17,760
+ and a lot of the times you're just talking about how can you use this technology.
+
+316
+00:35:17,760 --> 00:35:22,760
+ You're not talking about why should we use this technology and what would be a better solution,
+
+317
+00:35:22,760 --> 00:35:28,760
+ and I think this is very hard to take this leap because especially politicians, for example,
+
+318
+00:35:28,760 --> 00:35:33,760
+ they have the theme to work on blockchain and they don't want to hear, well, we need financial regulations.
+
+319
+00:35:33,760 --> 00:35:38,760
+ Then they tell you, well, this is the work of my colleague who does economic policy.
+
+320
+00:35:38,760 --> 00:35:42,760
+ I work on digital policy and I want to work towards blockchain.
+
+321
+00:35:42,760 --> 00:35:51,760
+ So I think trying to have an integrated view and always bringing up other low-tech solutions would be a way, maybe,
+
+322
+00:35:51,760 --> 00:35:58,760
+ but it's difficult and that's why these narratives are so powerful because when you're talking about self-driving cars,
+
+323
+00:35:58,760 --> 00:36:05,760
+ you're not talking about bicycles and the people that want to talk about self-driving cars don't want to talk about bicycles, for example.
+
+324
+00:36:05,760 --> 00:36:15,760
+ Yeah, and I think the question was also concerning especially the media, right, working in journalism.
+
+325
+00:36:15,760 --> 00:36:21,760
+ I think there may be two cases. One is where the media outlet has a narrative of itself.
+
+326
+00:36:21,760 --> 00:36:30,760
+ If we look at right-wing whatever, of course, they want to take every piece and pollute the whole discourse,
+
+327
+00:36:30,760 --> 00:36:43,760
+ but if there's really, let's say, an honest urge to cover those topics, I think a lot of cases there are experts
+
+328
+00:36:43,760 --> 00:36:51,760
+ and I think it's always a good idea to get some opinions, ask NGOs who have been working on those topics for 30 years.
+
+329
+00:36:51,760 --> 00:36:59,760
+ Of course, in the whole media logic, if I say, oh, yeah, well, just do some more research, of course, that's not a good hint,
+
+330
+00:36:59,760 --> 00:37:08,760
+ but maybe sometimes there are experts that are maybe not so financially able to be public by themselves.
+
+331
+00:37:08,760 --> 00:37:17,760
+ If you talk about technology, well, maybe get some interviews from your local hackerspace if they do certain technological things
+
+332
+00:37:17,760 --> 00:37:28,760
+ or ask smaller NGOs who have been working or maybe find NGOs who are active in the global south, who originate from there.
+
+333
+00:37:28,760 --> 00:37:36,760
+ We heard if some politician says, well, it's actually a really nice fusion or whatever, well, to ask yourself, well, is it?
+
+334
+00:37:36,760 --> 00:37:41,760
+ Is that really not just report what people said, but bring the context with it?
+
+335
+00:37:41,760 --> 00:37:48,760
+ I don't know if that's an helpful answer, but this is, yeah.
+
+336
+00:37:48,760 --> 00:37:53,760
+ Hi. Yeah, thanks for your talk.
+
+337
+00:37:53,760 --> 00:37:55,760
+ My question would also go in a similar direction.
+
+338
+00:37:55,760 --> 00:38:01,760
+ You spoke about how especially big corporations amass a lot of wealth and a lot of power.
+
+339
+00:38:01,760 --> 00:38:08,760
+ How do we build the counter power to oppose these techno fixes and to not only react to them,
+
+340
+00:38:08,760 --> 00:38:15,760
+ but maybe also to get into the offensive and make different proposals for solutions?
+
+341
+00:38:15,760 --> 00:38:18,760
+ It's a very easy question, to be honest.
+
+342
+00:38:18,760 --> 00:38:21,760
+ Well, that's basically the core question.
+
+343
+00:38:21,760 --> 00:38:30,760
+ I would say in a lot of places where those kind of decisions are being made, for example, in Germany,
+
+344
+00:38:30,760 --> 00:38:41,760
+ it's still kind of a more so-and-so working democracy, so we need to find majorities somehow, gain political pressure.
+
+345
+00:38:41,760 --> 00:38:51,760
+ And I think if we look at a lot of surveys, people see there's a pressing need for change.
+
+346
+00:38:51,760 --> 00:38:58,760
+ So a lot of within the population, people are not stupid or they don't understand a lot of that.
+
+347
+00:38:58,760 --> 00:39:03,760
+ That's not the case. People know there's a problem, there's something needs to be done about it.
+
+348
+00:39:03,760 --> 00:39:12,760
+ And maybe there's some work that has to be done on narratives, for example, the social just implementation of such policy.
+
+349
+00:39:12,760 --> 00:39:16,760
+ So when we say, how about carbon tax of 600 euros per ton?
+
+350
+00:39:16,760 --> 00:39:23,760
+ Of course, everyone's afraid, but the discussion would be a good one to say,
+
+351
+00:39:23,760 --> 00:39:30,760
+ how about the carbon tax together with the climate money of the target carbon tax that's being distributed equally among all the other citizens?
+
+352
+00:39:30,760 --> 00:39:36,760
+ So that means big polluters have a net loss and little polluters have a net positive.
+
+353
+00:39:36,760 --> 00:39:41,760
+ Of course, those kind of discussions usually get medially attacked in the media by all those.
+
+354
+00:39:41,760 --> 00:39:50,760
+ But this kind of grouping those issues together to say, to let people who want this kind of change to see,
+
+355
+00:39:50,760 --> 00:39:55,760
+ ah, yeah, people proposing this technology or this change have in mind the struggles I have.
+
+356
+00:39:55,760 --> 00:40:06,760
+ I think this could be one small bit to go forward in this way and then to build alliances and majorities and then afflict the change.
+
+357
+00:40:06,760 --> 00:40:16,760
+ And also we know historically, I mean, a lot of what we were first doing is pushing back the techno fixes and not like pushing the new solutions,
+
+358
+00:40:16,760 --> 00:40:25,760
+ just pushing back. And this is exhausting. But I think we have a lot of experience with social movements pushing against techno fixes.
+
+359
+00:40:25,760 --> 00:40:35,760
+ For example, we live in a country where we don't have a lot of genetically modified plants that are allowed to be used.
+
+360
+00:40:35,760 --> 00:40:44,760
+ And that's something that that like the environmental movement fought for for years.
+
+361
+00:40:44,760 --> 00:40:51,760
+ Also, that CCS couldn't be implemented in the 90s were also due to massive protests.
+
+362
+00:40:51,760 --> 00:41:01,760
+ So or for example, one of my favorite example at the shareholder meeting of Bayer,
+
+363
+00:41:01,760 --> 00:41:11,760
+ more than the half of the people talking are actually people from civil society, dismantling human rights abuses.
+
+364
+00:41:11,760 --> 00:41:16,760
+ And this is like this is the work we need. But often it's not enough.
+
+365
+00:41:16,760 --> 00:41:22,760
+ But actually, this is a very good place because you are the people who can propose other solutions.
+
+366
+00:41:22,760 --> 00:41:29,760
+ That's something really nice about the CCC camp.
+
+367
+00:41:29,760 --> 00:41:37,760
+ So I wanted to extend a little bit more on what you were just going into the direction that you went.
+
+368
+00:41:37,760 --> 00:41:43,760
+ And so counter power or counter narratives, the creation of that.
+
+369
+00:41:43,760 --> 00:41:49,760
+ Since I think the two points that you mentioned that the difficulty that we face, I would add a third point.
+
+370
+00:41:49,760 --> 00:41:51,760
+ And that's the convenience factor. Right.
+
+371
+00:41:51,760 --> 00:41:57,760
+ Technology is always seems to be convenient, makes our lives easier. At least that's the narrative.
+
+372
+00:41:57,760 --> 00:42:03,760
+ So if you want to convince people or lure our fellow citizens into a degrowth narrative,
+
+373
+00:42:03,760 --> 00:42:09,760
+ I think you alluded to a little bit that the growth is, I guess, the obvious solution. Right.
+
+374
+00:42:09,760 --> 00:42:14,760
+ So OK. So how do we do that? Do you have maybe more examples?
+
+375
+00:42:14,760 --> 00:42:19,760
+ You already touched on the point of maybe we have to work less. I think that's a strong narrative.
+
+376
+00:42:19,760 --> 00:42:28,760
+ Do you have other examples that can help us really convince folks about this to be the path?
+
+377
+00:42:28,760 --> 00:42:38,760
+ I think that's a difficult question. I think they are very, very good ideas for a transformation towards degrowth.
+
+378
+00:42:38,760 --> 00:42:49,760
+ I think one of the most important aspects that we currently fail to do is paint a beautiful future after the transformation.
+
+379
+00:42:49,760 --> 00:43:00,760
+ So right now we always we're talking about like policies against climate change and it always feels like scarcity.
+
+380
+00:43:00,760 --> 00:43:13,760
+ It makes people scared. They're afraid to be left behind and being able to to show and to propose solution that actually feel like a positive future is super important.
+
+381
+00:43:13,760 --> 00:43:19,760
+ And we already have that. I mean, the nine euro ticket that we had in Germany last summer. That's perfect.
+
+382
+00:43:19,760 --> 00:43:26,760
+ It's such a good policy measure for like a climate solution. Obviously, we need more public transport and everything,
+
+383
+00:43:26,760 --> 00:43:34,760
+ but it really worked and it really helped people with like with less income the most.
+
+384
+00:43:34,760 --> 00:43:42,760
+ That's brilliant. But we're not able to make like narratives that show that really everybody can profit and can be happy.
+
+385
+00:43:42,760 --> 00:43:49,760
+ And the world that is coming. And I think that's the problem. And if we manage that, then degrowth will be a lot easier.
+
+386
+00:43:49,760 --> 00:43:57,760
+ And maybe one last comment for this degrowth, for example, if you mentioned it doesn't mean everything is shrinking, right?
+
+387
+00:43:57,760 --> 00:44:04,760
+ It sounds like, oh, my God, I will only eat half as half as much food or whatever. But of course, degrowth is a is a net concept.
+
+388
+00:44:04,760 --> 00:44:12,760
+ Some areas might grow. It might be I don't know, the care, the care work, care areas, care industry.
+
+389
+00:44:12,760 --> 00:44:16,760
+ I don't know if that's the thing or recreational aspects. You know, it's a question of focus.
+
+390
+00:44:16,760 --> 00:44:23,760
+ Some areas might be getting smaller and others are growing. So already calling it degrowth in general is maybe a narrative
+
+391
+00:44:23,760 --> 00:44:31,760
+ that does not connect with people who are not who are not, you know, working on this the whole time.
+
+392
+00:44:31,760 --> 00:44:40,760
+ I don't know what would be a good term like balanced, re not I don't know. OK, well, maybe we'll discuss this over a beer now.
+
+393
+00:44:40,760 --> 00:44:44,760
+ OK, thank you. Thank you. Thank you again for your talk.
+
+394
+00:44:44,760 --> 00:44:55,760
+ But you but you were sadly out of time, but you're for sure able to to give them answers once you were able to get to to finish up here.
+
+395
+00:44:55,760 --> 00:45:10,760
+ And please another round of applause for Rike and Rainer.
+

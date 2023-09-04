@@ -1,0 +1,383 @@
+ [MUSIC]
+ [MUSIC]
+ Welcome to the Millie Ray stage for our next talk.
+ But first things first, I hope you all are well hydrated,
+ are drinking enough water, and because of the windy conditions,
+ have secured your tents safely so that they don't fly around and endanger people.
+ I also would like to ask you if you took cups from the heaven kitchen,
+ haven't returned them yet, to please return them so that the angels can drink their liquid fuel
+ and can fly still fast and happily.
+ Also, as we have a lot of guests here today, which is great,
+ please keep the pathways here clear so that people can leave,
+ and if people want to leave, please make way for them. Thank you very much.
+ So I'm very pleased to announce the talk, All Cops are Broadcasting,
+ Obtaining the Secret Tetra Primitives of After Decades in the Shadows.
+ Here with me are Raute and Carlo. They are researchers who also founded a company called Midnight Blue,
+ but they are going to tell you all this stuff way better themselves,
+ so I'm going to fly away and give the word to you.
+ And give applause please to our wonderful speakers.
+ [APPLAUSE]
+ Thank you. All right. Welcome everyone to our talk,
+ All Cops are Broadcasting, Obtaining the Secret Tetra Primitives of After Decades in the Shadows.
+ I'm very excited to finally present this to you all after two and a half years of silence on the matter.
+ My name is Karde Meijer, and these are my colleagues Wouter Boxlag and unfortunately Jos Wetzels, who isn't here.
+ Together we form Midnight Blue, a specialist security company firm from the Netherlands,
+ and we focus on high-end security research, mainly in critical infrastructure and embedded systems.
+ The three of us found vulnerabilities from everything from car immobilizers, the BlackBerry QNX operating systems,
+ and MyFair Classic RFID cards. So what's Tetra?
+ Tetra is a globally used radio technology that competes with the likes of P25, DMR, TetraPol.
+ It was standardized in 1995 by the European standards organization ETSI,
+ who is known for GSM, 3G, 4G, and 5.3, DMR, and the likes.
+ And Tetra is used for conventional voice communication in handheld radios, but also data communication, including machine-to-machine.
+ And the interesting thing is that it relies on secret proprietary cryptography.
+ So Tetra is one of the most popular radio technologies used by police all around the world, with the exception of the US and France.
+ It is used by national or regional police forces in countries like the UK, Germany, Scandinavia, and Eastern Europe,
+ but also in large parts of South America and Asia.
+ Now be aware that these maps we're showing are just the users we could confirm through open source intelligence.
+ There may be more out there.
+ Not only the police uses Tetra, it is also used by the military and intelligence agencies across the world in different capacities.
+ And on top of that, it's also used by widely critical infrastructure, private security personnel at airports, harbors, and train stations.
+ They use it for voice communication, but it's also deployed as a radio link in wide area SCADA networks to carry telecontrol traffic
+ for electrical substations, oil, gas pipelines, or railway signaling.
+ So while Tetra is a public standard, its cryptography is kept secret.
+ In the figure on the right, you can see how they describe a lot of high-level schemes,
+ but then the primitives within those schemes are essentially black boxes whose specifications are only available under NDA,
+ which means you cannot publish the details of any findings if you're a researcher.
+ Manufacturers are also required to protect algorithms against extraction.
+ This kind of security theater, however, since any top-tier adversary will already have these specifications through either their own manufacturer,
+ so for example, any major country in the world has a Tector manufacturer on their soil, for example, the US, the UK, China, Russia,
+ or they'll simply snatch them off a SharePoint from a small manufacturer.
+ Meanwhile, scientific researchers or the security community has to jump through significant hoops in order to get a look at these primitives, like we had to.
+ Now, Tetra security mainly consists of two components, both of which are secret.
+ This is the TAA-1 suite, which is used for authentication, key management, identity encryption, and remote terminal disabling.
+ And then there's the TAA suite, which is used for voice and data encryption over the air.
+ The TAA suite consists of four algorithms divided by use case, so TAA-1 and 4 being readily exportable.
+ TAA-2 is only intended for European police forces as emergency services and military,
+ and TAA-3 is intended for public safety outside of European countries, but with friendly relationship with the EU.
+ So this means typically India, Mexico, China, those kind of countries.
+ So with this in mind, let's talk about project reTetra that we undertook.
+ We know all about Kirchhoff's principle, right?
+ A crypto system should be secure even if everything about the system is known except for the key.
+ So basically no security through obscurity.
+ Violating this principle doesn't usually end well.
+ There's plenty of examples of secret proprietary cryptography in GSM, GMR, GPRS, DECT, various RFID systems.
+ And all of them turned out to be flawed or intentionally backdoored.
+ So why would Tetra be different?
+ Now Etsy has a different opinion on this.
+ In an interview with Kim Zetter, the Etsy Tetra chairman explicitly said that they consider obscurity as also a way of maintaining security.
+ Right.
+ So we obviously disagree with such an approach.
+ So we went to the NLNet Foundation for a research proposal.
+ And they decided to fund us to open up Tetra for public review.
+ NLNet is a non-profit organization which funds open source projects and research like this with the goal of promoting open standards.
+ So if you have something that you would like to investigate which costs a significant amount of time, I would highly recommend approaching them.
+ So let's break open a radio.
+ So we had to start out by picking the right kind of radio.
+ There's lots of vendor, models, architectures involved.
+ And picking the wrong one can make you waste a ton of time.
+ So we spent quite some time poring over manuals, data sheets in order to get an idea of the different architectures involved.
+ And what kind of basements were actually used by which vendors.
+ And what architectures they were based on.
+ And if there were any ASICs or FPGAs that likely implemented the algorithms and so on and so forth.
+ So thus we ended up with the Freon baseband from Motorola which is based on a TI OMAP 1L38 SoC.
+ This thing is also used in DMR and P25 radios.
+ So therefore it's highly unlikely that the algorithms are implemented in hardware.
+ And also interestingly this baseband has a trusted execution environment so that immediately caught our attention.
+ So it's highly suitable for implementing the algorithm software.
+ So this baseband is used in Motorola MTM5400.
+ That's a common radio model that you can buy for relatively cheap online.
+ The baseband SoC is just a common TI chip.
+ So it's unlikely that it has the tetra-kypto in hardware.
+ And it has some software security features which we suspect make it a great candidate for protecting crypto from extraction.
+ The high level architecture of the radio looks like this.
+ As you can see on the right of the slide there's a control head which controls the microphone, the keyboard and so on.
+ There's a rear connector for the depot programming of the radio.
+ And inside there's a baseband chip which consists of two cores.
+ There's an ARM core and that's for high level stuff.
+ And there's a digital signal processor. That's for processing signals.
+ And the DSP core has a trusted execution environment which is where the MAD-X SoC probably is.
+ So the MTM firmware format is shipped in an RPK package.
+ Turns out that this is just a zip archive with a bunch of Z19 files encrypted in it.
+ But since the firmware files are not personalized for an individual radio, there has to be a general way to load them.
+ And the programming software decrypts those files in the zip archive.
+ The zip archive is password protected.
+ So it gets the files out of them and then uses it to program the radio.
+ So after some light .NET reverse engineering we found static passwords for these files.
+ So this is an easy hurdle to take.
+ So now we can extract the Z90 files and decrypt them with the password.
+ Extract the S19 files which is a Motorola S-record file.
+ Then parse them, identify firmware components within it like the kernel or file system or a baseband firmware image.
+ And so on and so forth.
+ And once we have that, let's look at the DSP firmware and see what's in there.
+ Because we don't have tooling yet in order to properly reverse engineer it.
+ We'll just have a very high level overview of it as of now.
+ And well, if we look at entropy analysis, the entropy distribution of the DSP firmware,
+ there's a single area with extremely high entropy.
+ And it's referenced by a bunch of system calls that's related to the trusted execution of our API.
+ So this is highly likely containing the secret sauce.
+ So let's dive deeper.
+ So now that we have a good idea of where to go, how do we break the trusted execution environment?
+ Well, we first have to get code execution on the application processor.
+ So that's the ARM core.
+ So by the way, this thing has secure boot.
+ So we cannot just go in and modify the memory chips.
+ So this goes through three possibilities.
+ The first one, the rear connector on the back has a modem 80 command interface.
+ The other possibility was to modify the memory chips and see if we could find some memory corruption exploit through that.
+ Or through some peripheral interface, for example, this thing talks to a GPS module.
+ So maybe it's interesting to maybe those links are trusted and maybe we could get code execution through them.
+ After that, we'd have to hop onto the DSP to get code execution there.
+ This might be possible through direct memory access or the DSP link libraries,
+ the library that passes messages back and forth between the ARM core and the DSP.
+ And finally, we had to find a vulnerability or side channel in the TEE itself.
+ So let's begin our journey.
+ This is basically the last slide, but then a bit prettier.
+ All right. So the MTM has a rear connector that exposes the 80 modem command interface.
+ Here you can read and write parameters, for example.
+ And analyzing the firmware gave us a list of commands.
+ And we immediately started looking for commands that handle strings with variable lengths or some parsing involved.
+ And there's this command that is used to set a talk group list entry and another one that enumerates them.
+ And we found that there's a classic format string vulnerability in there that allows you to write any data in some address that is already on the stack.
+ So you can basically interpret a value on the stack as a pointer and you can write to that address.
+ Now, if we control a value on the stack, that would mean we could write anything anywhere.
+ Unfortunately, we don't.
+ So luckily there's frame pointers in this firmware.
+ So frame pointers have the nice property that one frame pointer points to the next.
+ And due to the circumstances that we have here, we can only write a single byte to an address that is on the stack.
+ So what we do is we have three frame pointers here, one points to the other, which points to the next.
+ So the first one, we write a single byte to the next and therefore we can change the least significant byte of that address where that pointer points to.
+ So therefore we can use it as a cursor to write over the next address and therefore we control the full address.
+ So now we have a write anything anywhere primitive.
+ So now that we have that, we can use the fact that the read somehow has read write execute permissions.
+ So we can just straightforwardly write the shellcode onto the heap, then overwrite some pointer to executable code, trigger that pointer execution and boom, we have a shellcode.
+ We have a root shell on the ARM core.
+ Right.
+ Thank you.
+ All right.
+ The next step would be to move on to the DSP.
+ So to recap, that would be exploiting vulnerability in DSP link, the message passing framework, or exploit some flaw and misconfiguration in the firewalls, let's say, between the ARM core and the DSP.
+ So the two cores within the baseband need to communicate.
+ They do this by having shared internal RAM and some external DDR memory.
+ And this could present an interesting avenue for lateral movement towards the DSP.
+ So the SOC in question has memory protection features, which allow for the segmentation of memory errors between cores and within cores.
+ So the plan would be to dump the MPU configuration, then find ranges used by both the DSP and the application processor, and then identify and exploit an interface that uses these memory ranges, such as DSP link, that is used to have these cores talk to each other.
+ However, when we dumped the configuration, we saw that essentially no segmentation was applied whatsoever.
+ So these MPUs posed zero problems and made our life a lot easier.
+ So this basically means that getting code execution on DSP is straightforward as like loading a kernel module, asking for a buffer that maps to this physical address that's supposed to be DSP memory, and just override parts of the DSP firmware.
+ Microphone.
+ Are we okay? Yeah, okay.
+ So now that we have code execution on DSP, we implemented a framework for running code on it.
+ We wrote multiple application processor kernel modules, which hijacked DSP control by allocating a shared buffer, copying our payload into it, and then redirect the DSP execution to that.
+ And meanwhile, we made sure that there's this hardware peripheral called a watchdog, and it needs to be satisfied every now and then, otherwise it spontaneously reboots the board.
+ So we got that on the control as well.
+ All of this was kind of complicated by the fact that the DSP architecture is pretty hellish.
+ It has delayed branches, very old degrees of concurrency, lots of conditionals, and no support for IDA.
+ So we had to implement our own disassembler, and on top of that, we also ported the architecture to the RedDeck decompiler.
+ So this is the disassembly output, and this is the decompiler output.
+ So you can read, as you can see, this reads a lot easier than the disassembly.
+ Good. All right. And with that, we had reliable DSP code execution.
+ Thanks. So that brings us to the last part of this reverse engineering process.
+ We now have to somehow break the DSP trusted execution environment.
+ And in order to explain that to you, let's first dive into how this thing actually works.
+ So the chip is a Texas Instruments chip with ROM code in it.
+ And in this ROM code is embedded what they call a secure kernel.
+ And this is like a lightweight library or operating system kind of thing that runs in a secure mode.
+ So most code running on the DSP runs in insecure mode and can use the secure kernel, but cannot see it,
+ and cannot interfere with anything that happens within this trusted execution environment or other secure context stuff.
+ So what non-secure code can do is use functions like skload.
+ And skload is a secure kernel call that allows for the runtime loading of an encrypted module.
+ And this module is then copied to the secure context.
+ It is decrypted using a factory set key, the customer encryption key.
+ It is then validated using RSA.
+ And if everything checks out, it remains present within this protected context.
+ And it can be used by non-secure code through the use of the sklgo_invoke function.
+ So it can then use the algorithms, but it cannot see them.
+ So let's dive into cache architecture because we're going to use this in our attack.
+ The OMAP L138 uses a two-tier cache architecture.
+ It has a level one program and data cache, and it has a level two cache.
+ And if the CPU performs a memory lookup, it will first check whether the data it wants to retrieve is already present in one of these caches.
+ And if so, the read request is serviced very quickly.
+ If not, it has to take a detour, or actually the full route, all the way to the memory chip, DDR2 chip, which takes significantly longer.
+ Now, as we are running non-secure supervisor level code, we can manipulate some of the cache mechanics.
+ What we can do is evict lines from the cache.
+ So we can say, OK, this address, if it is in cache, I would like to throw it out of the cache.
+ What we also can do is freeze the cache.
+ This is a peculiar function that I haven't seen before in other chips, but it allows you to switch the entire cache to a read-only mode.
+ So it will be used to accelerate the lookup if something is present, but the cache will not be updated.
+ Now, we can use this.
+ Some of you may be familiar with the structure of AES, but if you don't, the first few steps are listed here.
+ I wonder who is able to read it, but the slides will be online, or some of them are already online.
+ So you can always look back if you need to.
+ In any case, the first thing that happens during a decryption is that the round key, an AES key, is XORed into the AES state.
+ So a ciphertext goes in, a round key is XORed through it, and then further steps are taken.
+ One of the later steps is inverse subbytes, which performs a lookup in a table.
+ This table is called the S-Box. It's a 256-byte table.
+ So a state byte is used as an index in this table, and whichever is there is then the new value for that state byte.
+ So we do not know where this S-Box resides. It's somewhere in this Texas Instruments ROM code, but we cannot read all of it.
+ So we somehow have to figure out where the S-Box lives.
+ We do that by throwing out a small part of the secret ROM code from the cache using our eviction control,
+ and then measure how long it takes to perform a module load.
+ So we try to load a module and we see how long this takes on average, and then we throw out another part of the secret page,
+ and we check how long that takes to load. And what we get is a plot something like this.
+ Most addresses do not affect the running time, except a small portion where a drastic performance penalty is seen if we throw that out of the caches.
+ So clearly these are the areas that the S-Box resides.
+ So fully blindly we manage to locate the S-Box in ROM, and for the remainder we will assume the following setup.
+ We ensure the entire table, the entire S-Box is loaded into cache memory by loading a module once.
+ Then we use our eviction control to throw out the first 32 entries, and then we enable cache freeze.
+ So what we have now is a situation where a lookup in the first part of the S-Box, which we call the first octant,
+ will incur a performance penalty that we can see, and a lookup in any other part of the S-Box will be serviced quickly from cache and will not show the penalty.
+ And this setup is assumed for the remainder of this section.
+ So the attack will work as follows. We set our first ciphertext byte to zero and we randomize all the other ciphertext bytes.
+ And then we ask the secure kernel to load this module. It will try to load it, of course it will fail validation, so it will reject the module, but it will decrypt it first.
+ So we can see whether, if we set the ciphertext byte to zero, whether it incurs this penalty or not.
+ So in short, you have this AES state byte. It goes as an index into the table. If it hits the first part, it will be slow. If it hits the rest, it will be fast.
+ And we do that repeatedly for all values for the first ciphertext byte. And if we plot that, we see this. For those who do not see it, I shall describe it.
+ The first 32 entries are fast, then we get 32 entries that are significantly slower, and the remainder is fast again.
+ So what we have here is that the first ciphertext byte, XORed with the first round key byte, is exhibiting a performance penalty when it is between 32 and 64.
+ So we have effectively recovered three bits of this byte. So we can repeat that for all the other bytes, and we can get 48 bits of a round key, which is amazing, but not enough, because 80 bits remain, and that's just too much to brute force, at least for someone with our equipment.
+ So we somehow have to go deeper. Why doesn't this work? This doesn't work because the least significant bits of our ciphertext and of the round key byte do not influence in which octant the lookup will hit.
+ So this is inherently limited. And as such, what we decided to do is take the attack one round further. We will not target the SBOX lookup in the first decryption round, but in the second decryption round, to make sure that the least significant bits are now indeed affecting the most significant three bits, and as such are affecting in which octant the lookup occurs.
+ Now, it's complicated because you have to account for some stuff. There is some rows shifting around. There is another round key byte that is affecting the state, and also there is this mixed columns step that performs a computation over multiple state bytes, so this gets all mixed up.
+ We were able to account for all of that. I'm not going into detail for the sake of time. But we managed to get it working, and I'll now show a short demo video.
+ So what we see here is how we load some kernel modules on the application processor. I cannot read it myself, but oh yeah, I can't. Clearly here we are loading a module that kicks the watchdog, so we hijack the execution of the DSP, but the watchdog has to be serviced in order to prevent a board reset.
+ And then we start gathering measurements from the DSP. We're collecting timing data and constantly comparing the timing data to a profile we built, and we can recover bytes of round key 10 in this way.
+ This takes about a minute, and then it will have recovered all of the 16 round key bytes. If you have all round key bytes, you can reverse the key schedule AES uses and retrieve the original base key.
+ [no audio]
+ [no audio]
+ Alright, so there we have it. Thank you. Cool. So in about a minute we recovered the cryptographic key from this radio, fully running on the radio.
+ By the way, what you saw was not the actual Motorola key, we changed it because if not people would get really angry at us.
+ We're good? We're good. Okay. So now that we were able to decrypt our module, there were some other hoops to jump through, but I'm going to skip that in the interest of time.
+ We were able to decrypt the module that embeds the Tetra cryptographic primitives. Recapping, we first attacked the AT modem command interface, we found the format string vulnerability which we exploited.
+ We pivoted to the DSP through unconfigured memory protection, and we then performed a cache timing side channel attack on the trusted execution environment.
+ So, let's briefly discuss some of the findings on the Tetra primitives. We found the TAA1 suite, we recovered it, we reverse engineered it,
+ and what's interesting is that we found that all primitives that are in the standard are called TA something, are based on a proprietary hurdle block cipher,
+ and all the TB primitives are just simple XORs or some additions or really lightweight stuff. And also interesting is that we found that some blocks are identical or highly related.
+ For instance, TA11 equals TA41, and we used our newfound knowledge on these primitives to construct some attacks.
+ One is that we can under some circumstances pin a session key to zero, and another one is a de-anonymization attack that allows you to decrypt the identities that are using a Tetra network.
+ Now, the actual encryption on a Tetra network is done by one of the four keystream generators that Carlo just pointed out, and what you see here is a schematic overview of TA2.
+ You see the key register on the top, 80 bits, and you see the state register at the bottom that gets some influence from the key register.
+ To us it looks robust, but further scrutiny is needed in order to be able to publicly determine that this is fit for purpose.
+ What's definitely not fit for purpose is TA1, which shares the same structure, but the first thing it does is execute a secret key compression step.
+ The 80-bit key is compressed to 32 bits, and only then it starts generating keystream based on those 32 bits of entropy.
+ This is obviously trivial to attack. It takes about a minute on my graphics card, which is a 2016 GTX 1080.
+ In the interview Carlo referred to previously with the Etsy chair, he made some statements on that an attacker would need a high-powered graphics card.
+ I'm not sure. 25 years ago this could have been sufficient.
+ Maybe, maybe, 32 bits was different back then than now, computational advances, blah, blah, blah, but still that you would need some pretty reasonable equipment.
+ Now I don't think I have to explain to any of you that this is just not true, but instead of arguing, why not just throw overboard all these assumptions and reasonable ideas and just see what this bad boy can do.
+ Hi, we're Midnight Blue. About two weeks ago we announced the Tetra burst vulnerabilities, consisting of five vulnerabilities in the Tetra radio standard, two of which are deemed critical.
+ Since then Etsy, the standardization body responsible for Tetra, has made public statements in which they downplay the seriousness of the vulnerabilities.
+ In these statements they resorted to a semantic discussion, not calling a spade a spade, or more specifically, not calling a backdoor a backdoor.
+ Furthermore, they made a number of evidently false statements, such as claiming packet injection and TEA-1 encrypted networks would be impossible, and that 32 bits of cryptographic strength would have been sufficient in the late 90s.
+ To any information security expert it's pretty clear that this is not the case, but to help remove those few remaining doubts we decided to take on the challenge of cracking TEA-1 on this beautiful machine produced in 1998, running good old Windows 95.
+ [Music]
+ Frankly, the hardware is so old that it wasn't easy to get our hands on.
+ When we run the cracking tool we see it reports that it needs about 13 hours to go through the entire search base.
+ After 12 and a half hours the key is found, demonstrating the feasibility of cracking TEA-1 on 90s consumer hardware.
+ [Music]
+ Alright Etsy, now that we've cleared up this issue, please let us know if you'd like us to demonstrate packet injection as well.
+ Right, so I think we got that out of the way.
+ Now you might think, okay this is TEA-1, it's back doors, how about the other ones? They're still safe right? TEA-2 used by European law enforcement and other parties should still be robust because the algorithm seems robust.
+ Well not necessarily because we found a protocol level flaw.
+ In short, it goes like this, these key stream generators, they obviously take a key but they also take an IV to make sure that every key stream differs from previous key streams.
+ And this IV is constructed from the network time.
+ So the frame counters, multi-frame counters and slot counters that increment through time are used in the generation of a key stream.
+ And how does the radio know what time it is, what network time it is?
+ Well it knows because the infrastructure tells it.
+ There is this sync frame and sysinfo frame that together specify the network time and these frames are broadcast in an unencrypted fashion without any kind of integrity guarantee whatsoever, or cryptographic integrity in any case.
+ And also just regular signaling messages also do not really carry any cryptographic authenticity guarantees.
+ An attacker can just flip bits and it will be interpreted as face value after decryption.
+ You can do whatever you want, the radio will decrypt and try to make sense of it.
+ So the outline of the attack, very briefly, would be as follows.
+ Imagine that we overpower, let me start again, sorry you put me off.
+ So let's say we have captured an encrypted message at some time, T.
+ We then can target a mobile station at a later point in time.
+ It may be the same radio, it may also be another radio that has the same key material.
+ And we use a directional antenna or just proximity in order to overpower the infrastructure signal.
+ And we have then impersonated the infrastructure towards that radio.
+ And what we can do is then tamper with these sync and sysinfo frames to put the radio in the time that was applicable at the moment we captured this message at time T.
+ So we put the radio back in time and then it will start reusing these IVs, reusing this key stream.
+ We then pull some tricks which are involved and I will not explain now.
+ We pull some tricks in order to understand what key stream is being used at that time.
+ We recover the key stream and we can then decrypt the message that we have previously captured.
+ So when we told this to Etsy at a quite early stage of our disclosure process, they said okay this is a valid theoretical attack.
+ They didn't think it was really feasible in practice and we were like yeah but this is really serious.
+ Maybe you can provide us with a base station and we can instrument it.
+ And in that way we can all know whether this is a big problem or not so much.
+ So they said lol no. The wording was probably different.
+ Some other stakeholders also responded like this so we had to look for alternatives.
+ And what we did is, well the following, we got ourselves a base station.
+ So meet our MBTS. It's old, it weighs 75 kilos, it's clear text so it didn't support encryption and it's cool as fuck.
+ We instrumented it, we added encryption support, we added a module loading system that we could add our own console commands to it to implement a proof concept of our attack, which I will now briefly demonstrate.
+ Hi, we are Midnight Blue. We have uncovered several serious vulnerabilities in the Tetra Radius standard, dubbed Tetra Burst.
+ We will first demonstrate a decryption oracle attack to recover a text message, but the attack can also be applied to voice communication and data.
+ The demonstration takes place on our lab setup.
+ The radio receives an encrypted message, which is also captured by the attacker.
+ We see the message says secret.
+ The attacker now needs to target a radio and impersonate the infrastructure and carry out the attack to decrypt the previously captured message.
+ We have sped up this process.
+ The attacker has now recovered all he needs to decrypt the message. This attack applies to all Tetra configurations, but can be resolved with a firmware update.
+ Further details will be disclosed on August 9th.
+ Thank you.
+ So it's not a real-time attack, but it definitely allows you to decrypt previously captured traffic.
+ Also, since we were instrumenting this base station, we found some issues there.
+ It accepts unauthenticated firmwares, which are stored on the side controller inside this thing, which was highly convenient to us, but maybe not such a good idea for a piece of equipment running critical communications.
+ It has hard-coded backdoor passwords embedded in the firmware. As far as we know, they're undocumented.
+ They provide you an authentication level beyond the level that the legitimate owner of the system would have.
+ Lastly, if you manage to crash the side controller through some kind of unhandled exception, it will drop to a debug prompt offering you raw memory access and code execution, which allows for key exfiltration and everything basically.
+ So, given the radio, given the mobile station, given some other experiences that we've had, there seems to be a larger problem here.
+ Tetra equipment is not really up to speed when you compare it to something like an Android phone, and actually we start wondering whether anyone is taking a look at this at all from a security testing perspective.
+ So briefly, on the coordinated vulnerability disclosure process, we started working on this in January 2021, and it took us four months to get the cryptography out of our MTM radio.
+ In December that year, we contacted the Dutch NCSC, which then helped us relay our findings to many different stakeholders.
+ In January 2022, we had meetings with the Dutch police, with Etsy, the standardization body. We had meetings with the intelligence agencies to discuss the impact of these things.
+ And we distributed a preliminary advisory more oriented towards stakeholders about what they should probably be doing.
+ We spent a year and a half in this coordinated disclosure process, and now we're finally here able to talk about this to all of you.
+ Something about mitigations. The Keystream Recovery Attack can be resolved with firmware updates.
+ It is important that you check whether these firmware updates actually address the issue, because it's quite a tricky thing to get right.
+ Alternatively, end-to-end could help, or if you're using Tetra in a data carrying capacity, TLS or IPsec tunnels may help to add another layer of encryption on top of Tetra.
+ The T1 backdoor cannot be resolved through a firmware update because it's in the standard, so you would need to switch to TA2, or if you cannot do that, maybe TA3 or end-to-end.
+ The de-anonymization attack is not fixable as well, because it's also part of the standard.
+ You'll have to wait for the new version of the Tetra standard to hit the markets, which embeds a suite called TAA2 with a new identity encryption primitive.
+ And finally, the session keypinning attack can also be resolved in firmware.
+ So, in conclusion, we have presented the first public in-depth security analysis of Tetris since its inception over 20 years, over 25 years I should say actually.
+ We reverse engineered the secret cryptography audit, made it public for all of you to see, it's on GitHub.
+ We covered multiple vulnerabilities, including a backdoor in an algorithm that's broadly used in critical infrastructure.
+ The implications for these systems are quite immense.
+ Patches are available for some, mitigations for others, and the new standard addresses some of these things, but the new standard introduces also new cryptographic primitives, which are again held secret.
+ So, yeah, I'm not sure if I would recommend that. Actually, I am sure.
+ So, that was that. I'll gladly take any questions if there's still some time left.
+ So, thank you. Thank you. Thank you. Thank you. Thank you.
+ I get a new microphone.
+ Thank you. Yes.
+ So, thank you, Wouter and Carlos, for your great talk.
+ So, are there any questions from the Ether signal angel?
+ Zero. Great. So, here is the angel with the microphone, so you can go to him to ask your questions.
+ It's all symmetric keys.
+ Can you please repeat the question because the internet cannot hear it?
+ I just asked whether there is any public key cryptography and no, Tetra is fully based on symmetric keys.
+ My questions are mostly geopolitical rather than technical, though there's one technical follow-up to that, which is, is there any evidence that these symmetric keys are partitioned according to alliances or political boundaries?
+ For example, would Russian police have a different, access to a different symmetric key than some of the others?
+ So, it's not really a matter of access to keys, but it is a matter of access to algorithms.
+ What you see is that TEA2 was designed for emergency services within Europe, and TEA3 was intended for emergency services outside of Europe that we had good standing with.
+ And probably interesting to you is that TEA1 was also given to emergency services that were less of allies to the European Union.
+ So, in Eastern Europe, in the Balkan countries, you see police and military forces relying on a backdoor algorithm because at that time we were not best buddies.
+ Maybe we are now, but yeah, these networks are there now, changing the algorithm is really hard, so we're stuck with this problem for a while.
+ Let me interject. Also on top of that, for example, if you're a private party like a harbor or an airport or a critical infrastructure, you're not a police force, so you're stuck with TEA1 or no encryption at all.
+ That's basically the two options that you have.
+ Yeah, yeah, excellent addition.
+ So, please, we don't have much time, so for one more question, please give it to another person and contact for another person afterwards. Thank you.
+ Hello. I have a question. You kind of hinted at that different handsets can have the same keys.
+ So, would that make the key stream extraction possible in real time that someone is intercepting an encrypted stream while someone else with the same key-heading handset runs your attack in real time, for example? Would that be possible?
+ Yeah, so yeah, most keys are network-wide, like group keys for toll groups and stuff, they're network-wide. So, the thing with the key stream recovery is that it just recovers one bit at a time, so it is slower with a factor of the time of the transmission.
+ What we theoretically do is target a hundred mobile stations in remote places, and in that way get a much quicker recovery of keys from you if you really want to. Does that answer? Perfect.
+ Is it a short question?
+ Yes.
+ Okay, short answer, and then sadly we have to go, but you can of course always contact them for more questions.
+ So, with a nice mobile station you hacked now, can we have now additional to deck those Tetra at the POK?
+ If someone is willing to put the effort in.
+ By the way, we got ours from eBay, and there's still two that you can buy.
+ Ten thousand.
+ There's one for 5K available, but it has fewer business.
+ I think further discussions on this can be had on the side of the ten. Thank you again so much for your talk.
+ Thank you.
+ [Applause]
+ [Music]

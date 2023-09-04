@@ -1,0 +1,776 @@
+1
+00:00:00,000 --> 00:00:29,000
+ [Musik]
+
+2
+00:00:29,000 --> 00:00:32,000
+ [Musik]
+
+3
+00:00:32,000 --> 00:00:34,000
+ Und es geht weiter.
+
+4
+00:00:34,000 --> 00:00:40,000
+ Junge Menschen, die zu Jugendhackt kommen, entdecken ihr Interesse an Technologie oder haben es bereits.
+
+5
+00:00:40,000 --> 00:00:46,000
+ Irgendwann wächst man aus dem Jugendhacktalter heraus und fragt sich, was mache ich jetzt?
+
+6
+00:00:46,000 --> 00:00:51,000
+ Eine mögliche Antwort darauf ist Informatik studieren.
+
+7
+00:00:51,000 --> 00:00:57,000
+ Aber was heißt Informatikstudium eigentlich genau? Die Antworten dafür hat Strichel. Viel Spaß.
+
+8
+00:00:58,000 --> 00:01:06,000
+ So, ja. Ich bin heute hier um euch ein bisschen was zu erzählen, wie es im Informatikstudium aussieht.
+
+9
+00:01:06,000 --> 00:01:10,000
+ Man kriegt so häufig mit, ja studiert doch Informatik.
+
+10
+00:01:10,000 --> 00:01:16,000
+ Aber es ist wirklich schwierig, mal so einen Einblick da reinzukriegen, was heißt das eigentlich?
+
+11
+00:01:23,000 --> 00:01:29,000
+ Die Frage, die ich jetzt hier erstmal in den Raum geben würde, ist, wer von euch ist denn so an der Stelle,
+
+12
+00:01:29,000 --> 00:01:38,000
+ wo er sie in den nächsten ein, zwei Jahren irgendwie ein Abitur machen würde?
+
+13
+00:01:38,000 --> 00:01:40,000
+ Gerne mal melden.
+
+14
+00:01:40,000 --> 00:01:48,000
+ Ja, das sind ja schon ein paar. Und wer überlegt generell, denn Informatik zu studieren?
+
+15
+00:01:49,000 --> 00:01:53,000
+ Okay, eine ähnliche Menge. Genau.
+
+16
+00:01:53,000 --> 00:01:56,000
+ Dann erstmal so die Frage, wer bin ich überhaupt?
+
+17
+00:01:56,000 --> 00:02:03,000
+ Genau, ich bin irgendwie 20 Jahre alt, studiere jetzt seit zwei Jahren ungefähr Informatik.
+
+18
+00:02:03,000 --> 00:02:08,000
+ Ich habe schon irgendwie in der Schule ein bisschen an der Schulwebseite geschrieben, ein bisschen an der Schulapp,
+
+19
+00:02:08,000 --> 00:02:17,000
+ war ein paar Mal bei Jugendhackt und bin jetzt im Endeffekt im fünften Semester angewandte Informatik an der TU Dortmund dann bald.
+
+20
+00:02:17,000 --> 00:02:31,000
+ Ganz kurz die Struktur. Ich habe jetzt ein bisschen eine Einleitung gesprochen, dann spreche ich mal so das, was ist Informatikstudium,
+
+21
+00:02:31,000 --> 00:02:35,000
+ dass ihr da so ein bisschen Einblick bekommt. Ich werde so nochmal kurz auf Dortmund und so eingehen
+
+22
+00:02:35,000 --> 00:02:39,000
+ und am Ende gebe ich euch noch irgendwie ein paar Tipps.
+
+23
+00:02:39,000 --> 00:02:46,000
+ Okay, das Informatikstudium. Grundsätzlich irgendwie auf eine Folie zusammengefasst kann man sagen, das ist echt viel Theorie.
+
+24
+00:02:46,000 --> 00:02:55,000
+ Und es ist irgendwie kein Programmierkurs. Es geht nicht darum, dass ihr am Ende irgendwie fünf Programmier sprachen könnt und perfekt programmieren könnt.
+
+25
+00:02:55,000 --> 00:03:05,000
+ Das ist nicht Sinn der Sache in einem Studium. Wenn ihr allerdings nicht programmieren könnt, dann lernt ihr natürlich trotzdem Programmieren im Informatikstudium.
+
+26
+00:03:05,000 --> 00:03:13,000
+ Oder auch wenn ihr es schon ein bisschen könnt, dann vertieft sich das auch, aber das ist nicht quasi das Hauptmerkmal des Informatikstudiums.
+
+27
+00:03:13,000 --> 00:03:20,000
+ Ich werde jetzt irgendwie ganz spezifisch auf angewandte Informatik eingehen, weil das halt das ist, wo ich drin nicht Erfahrungen habe.
+
+28
+00:03:20,000 --> 00:03:28,000
+ Das unterscheidet sich nicht viel. Grundsätzlich, also nicht viel von Informatik, grundsätzlich unterscheidet es sich aber sehr nach Uni.
+
+29
+00:03:28,000 --> 00:03:34,000
+ Das heißt, wenn ihr euch jetzt denkt, irgendwas, was ich hier erzählt habe, klingt ja ganz cool. Ich gucke mal, welche Uni angewandte Informatik anbietet.
+
+30
+00:03:34,000 --> 00:03:41,000
+ Passt auf, unterschiedliche Unis machen da ganz unterschiedliche Dinge. An vielen ist das eher so Wirtschaftsinformatik.
+
+31
+00:03:41,000 --> 00:03:49,000
+ Genau, was ist das denn in Dortmund? Grundsätzlich hat man irgendwie ein größeres Nebenfach. Das heißt, man hat natürlich erstmal ein bisschen weniger Informatik.
+
+32
+00:03:49,000 --> 00:03:55,000
+ Man hat dafür irgendwie ein Nebenfach, was im Endeffekt Maschinenbau, Logistik, Elektrotechnik oder Robotik sein kann.
+
+33
+00:03:55,000 --> 00:04:03,000
+ Ihr habt ein Semester mehr Mathe. Das heißt, ihr habt irgendwie drei Semester lang. Das heißt dann irgendwie zwei Vorlesungen die Woche oder so.
+
+34
+00:04:03,000 --> 00:04:12,000
+ Das heißt, man hat hier eine ganze Menge Mathematik. Im normalen Studium halbt ihr bei uns nur zwei Semester. Auch das unterscheidet sich nach Uni.
+
+35
+00:04:12,000 --> 00:04:19,000
+ Passt auf, genau, und man hat auch bei uns dann noch etwas Wirtschaftswissenschaften dazu.
+
+36
+00:04:19,000 --> 00:04:25,000
+ Genau, ich gehe jetzt einfach mal so, ich habe gerade schon Mathe angeteased, so ein paar Module.
+
+37
+00:04:25,000 --> 00:04:37,000
+ Ich gehe jetzt mal ein bisschen permanent durch und werde mal darüber so ein bisschen erzählen, was da drin ist. Was ich möchte ist, dass ihr dadurch quasi so einen ganz groben Einblick bekommt, wie vielfältig das ist.
+
+38
+00:04:37,000 --> 00:04:43,000
+ Aber auch, welche Inhalte grundsätzlich vermittelt werden. Also, es gibt grundsätzlich Mathematik.
+
+39
+00:04:43,000 --> 00:04:55,000
+ Ich habe jetzt halt zwei bzw. drei Semester. Da habe ich jetzt mal irgendwie höhere Mathematik 1 geholt. Da geht es dann um Ebenengraden. Das hattet ihr vielleicht auch schon ein bisschen in der Schule. Das wird noch ein bisschen vertieft.
+
+40
+00:04:55,000 --> 00:05:05,000
+ Vektorräume hattet ihr vielleicht auch schon in der Schule ganz am Ende. Und dann kommen noch so Dinge wie komplexe Zahlen rein und folgen dazu. Und ein ganz wenig Beweise.
+
+41
+00:05:05,000 --> 00:05:15,000
+ Dazu möchte ich sagen, auch das unterscheidet sich natürlich je nach Uni, das unterscheidet sich je nach Studiengang, was da genau drin vorkommt. Andere haben dann mehr Beweise, andere weniger.
+
+42
+00:05:15,000 --> 00:05:27,000
+ Genau. Mathe ist echt aufwendig. Also besonders, wenn man das so ganz okay kann und auch in der Schule vielleicht ganz gut durchkam oder auch nicht.
+
+43
+00:05:27,000 --> 00:05:39,000
+ Und sich denkt, ja, das kriegt ihr hin. Da müsst ihr aber auch Zeit reinstecken. Das ist glaube ich ganz wichtig, dass man das auch besonders dann im ersten Semester macht.
+
+44
+00:05:39,000 --> 00:05:59,000
+ Genau. Höhere Mathematik selber, höhere Mathematik 1 bringt jetzt in dem Fall eher mehr für das Anwendungsfach. Deswegen hat man das aber auch für das Nebenfach. Wenn ihr halt Informatik habt, habt ihr Mathematik für Informatik. Dann ist das Ganze mehr auf Informatik zugeschnitten.
+
+45
+00:05:59,000 --> 00:06:09,000
+ Genau. Dann kommen wir so ein bisschen zu mehr Informatikmodulen. Weil natürlich, das ist irgendwie ein Informatikstudium. Abgesehen vom Nebenfach habt ihr hauptsächlich Informatikmodule.
+
+46
+00:06:09,000 --> 00:06:18,000
+ Da habe ich euch mal Datenstruktur und Algorithmen und Programmierung 1 mitgebracht. Da geht es jetzt wirklich darum, dass auch ein erstes Semestermodul, das ihr programmieren lernt.
+
+47
+00:06:18,000 --> 00:06:35,000
+ Wenn ihr noch nie programmiert habt, dann ist das das Modul, wonach ihr grundsätzlich ein wenig programmieren könnt. Das heißt für die von euch, die vielleicht da schon ein bisschen mehr gemacht haben, wir sind ja immerhin hier bei Jugendhack, da geht es dann irgendwie um objektorientierte Programmierung.
+
+48
+00:06:35,000 --> 00:06:49,000
+ Dann macht ihr irgendwie Suchalgorithmen, vielleicht Sortieralgorithmen, also Dinge, die irgendwie in der Liste suchen, sortieren. Es geht dann irgendwie um Vererbung und all sowas. Wenn ihr Vorkenntnisse habt, ist das echt einfach, weil ihr lernt programmieren.
+
+49
+00:06:49,000 --> 00:06:58,000
+ Wenn ihr keine Vorkenntnisse habt, steckt in das Modul auch Zeit. Darauf baut im Endeffekt dann doch euer Studium auf. Ihr müsst programmieren können.
+
+50
+00:06:58,000 --> 00:07:14,000
+ Dann gehen wir zu Datenstruktur und Algorithmen und Programmierung 2. Man denkt jetzt "Haha, in 1 war ich ja so gut, das ist jetzt ja gar kein Problem." Ja, nee. Plötzlich geht es eben nicht mehr darum, dass ihr Programmieren lernt, sondern es geht darum, um die Theorie dahinter.
+
+51
+00:07:14,000 --> 00:07:28,000
+ Ein Studium ist generell sehr theoretisch. Es geht ganz viel um Theorie. In dem Fall ist jetzt irgendwie so, ihr lernt noch irgendwie so ein paar Algorithmen. Also ihr hattet schon Suchalgorithmen, jetzt hättet irgendwie tollere Suchalgorithmen, die noch ein bisschen schneller sind und so.
+
+52
+00:07:28,000 --> 00:07:45,000
+ Im Endeffekt geht es darum, wie lange braucht so ein Algorithmus, den ich gerade geschrieben habe eigentlich. Das ist euch vielleicht, wenn ihr irgendwie eure JavaScript-Webentwicklung baut, ist euch das vielleicht häufig sehr egal, wie lange da irgendwie die Liste durchsucht wird.
+
+53
+00:07:45,000 --> 00:07:58,000
+ Aber wenn ihr plötzlich irgendwie Code habt, der, ich weiß nicht, ein paar Milliarden Einträge durchsuchen muss, dann ist euch das plötzlich gar nicht mehr so egal, wie schnell euer Code ist. Und deswegen muss man das halt irgendwie analysieren.
+
+54
+00:07:58,000 --> 00:08:04,000
+ Das heißt, das ist so ein bisschen Theorie. Darum geht es halt auch irgendwie viel.
+
+55
+00:08:04,000 --> 00:08:16,000
+ Dann habe ich euch Rechnerstrukturen mitgebracht. Das ist auch wieder irgendwie sehr anders. Das ist dann viel hardware-näher. Das heißt, plötzlich geht es irgendwie um die Grundlagen. Wie funktionieren logische Schaltungen und so was.
+
+56
+00:08:16,000 --> 00:08:34,000
+ Genau. Man macht natürlich auch irgendwie den Spaß, den man vorher schon dreimal gemacht hat, mit binäres Rechnen nochmal. Aber man macht auch irgendwie ein bisschen Assembler-Programmierung und so für die von euch, die das schon mal gehört haben. Also es ist auch wieder sehr anders zu den zwei anderen Modulen.
+
+57
+00:08:34,000 --> 00:08:46,000
+ Dann habe ich gesagt, ja, man lernt nicht unbedingt programmieren. Ziel ist nicht, dass man danach irgendwie perfekt programmieren kann. Ziel einer Uni ist im Endeffekt immer, dass ihr danach forschen könntet.
+
+58
+00:08:46,000 --> 00:08:57,000
+ Allerdings gibt es auch zum Beispiel Software-Technik. Das ist jetzt ein Modul, wo euch einfach einmal so erklärt wird, okay, wenn wir jetzt eine Software schreiben, wie sorgen wir dafür, dass andere den Code lesen können?
+
+59
+00:08:57,000 --> 00:09:08,000
+ Wie planen wir mit anderen zusammen, eine Software zu schreiben? Und wie setzen wir das um? Wie male ich vielleicht ein Diagramm, was diese Software irgendwie repräsentiert?
+
+60
+00:09:08,000 --> 00:09:18,000
+ Und dann gibt es daran Anfolgen das Software-Praktikum. Ein Praktikum in der Uni heißt häufig, dass das einfach irgendwie etwas Praktisches ist, was ihr an einer Uni tut.
+
+61
+00:09:18,000 --> 00:09:27,000
+ Das unterscheidet sich auch von Studiengang zu Studiengang. Es gibt natürlich auch irgendwie so ein Praktikum, wie ihr in der Schule kennt, das ihr irgendwie in einen Betrieb geht.
+
+62
+00:09:27,000 --> 00:09:39,000
+ Aber sehr häufig ist das einfach nur, dass ihr gemeinsam oder auch manchmal alleine irgendwie in der Uni Dinge tut. Genau, das Software-Praktikum ist in der Uni.
+
+63
+00:09:39,920 --> 00:09:44,240
+ zweiwöchentliche Treffen, alternativ irgendwie in den Semesterferien ganz schnell.
+
+64
+00:09:44,240 --> 00:09:48,360
+ Und im Endeffekt entwickelt ihr in einer Gruppe mit anderen zusammen zwei Spiele.
+
+65
+00:09:48,360 --> 00:09:52,560
+ Und da kommt es dann nämlich genauso auf so Dinge an von wegen, wie
+
+66
+00:09:52,560 --> 00:09:58,900
+ kommunizieren wir gemeinsam, wenn eine Person jetzt irgendwie das GUI, die
+
+67
+00:09:58,900 --> 00:10:04,080
+ grafische Oberfläche entwickelt, wie kriegen wir das hin, dass parallel eine
+
+68
+00:10:04,080 --> 00:10:08,640
+ andere Person an der Logik arbeiten kann und das am Ende aneinander passt.
+
+69
+00:10:08,640 --> 00:10:12,240
+ Und das ist dann auch ganz spannend, weil man das mal irgendwie sieht. Ihr habt
+
+70
+00:10:12,240 --> 00:10:14,720
+ das vielleicht so ein bisschen schon irgendwie, wenn ihr mal bei einem
+
+71
+00:10:14,720 --> 00:10:19,120
+ Jugendhackteevent wart und bei so einem Hackathon Event auch mal mitbekommen,
+
+72
+00:10:19,120 --> 00:10:22,680
+ dass da plötzlich man miteinander reden muss, wenn man nicht nur alleine
+
+73
+00:10:22,680 --> 00:10:26,120
+ Software entwickelt und das irgendwie plötzlich aneinander passen muss, aber
+
+74
+00:10:26,120 --> 00:10:28,480
+ das ist halt das ganze noch mal irgendwie in der Uni.
+
+75
+00:10:28,480 --> 00:10:33,520
+ Okay, was kann man jetzt zu diesen Modulen zusammenfassend sagen? Das
+
+76
+00:10:33,520 --> 00:10:39,960
+ Studium enthält wirklich viel theoretisches Wissen. Das ist Mathematik,
+
+77
+00:10:39,960 --> 00:10:45,360
+ das ist Programmierung, das sind irgendwie Algorithmen, wie schnell sind die,
+
+78
+00:10:45,360 --> 00:10:50,120
+ wie vergleicht man die. Es ist aber auch irgendwie Hardware-nahes Wissen und es
+
+79
+00:10:50,120 --> 00:10:53,320
+ ist irgendwie dann aber auch irgendwann Softwareentwicklung. Wie entwickle ich
+
+80
+00:10:53,320 --> 00:10:57,480
+ die theoretisch? Es geht hauptsächlich immer um die Theorie, aber wie gesehen,
+
+81
+00:10:57,480 --> 00:11:00,040
+ wie gesagt, es gibt auch irgendwie Praktikas und so, wo man das dann mal
+
+82
+00:11:00,040 --> 00:11:05,960
+ live sieht. Ihr habt auch natürlich irgendwie Wahlfächer, wo ihr dann noch mal
+
+83
+00:11:05,960 --> 00:11:09,400
+ irgendwie euch vertiefen könnt. Das heißt, wenn ihr irgendwie sagt, ja mir macht das
+
+84
+00:11:09,400 --> 00:11:13,240
+ Hardware-nah total viel Spaß, dann gibt es da irgendwie, dann hört ihr halt im
+
+85
+00:11:13,240 --> 00:11:16,480
+ ersten Semester Rechnerstrukturen, was ich eben erwähnt habe und sagt dann, okay,
+
+86
+00:11:16,480 --> 00:11:20,320
+ das möchte ich tiefer hören, dann hört ihr irgendwie ein vertiefendes Modul dazu.
+
+87
+00:11:20,320 --> 00:11:24,560
+ Und durch jetzt irgendwie das Nebenfach, besonders bei angewandten
+
+88
+00:11:24,560 --> 00:11:27,840
+ Informatik, aber auch bei normaler Informatik, je nach Uni abhängig,
+
+89
+00:11:27,840 --> 00:11:31,520
+ kriegt ihr da noch irgendwie viel mehr Variation rein, weil ihr plötzlich noch
+
+90
+00:11:31,520 --> 00:11:35,840
+ irgendwie eine Elektrotechnik dazu nehmen könnt oder so. So, jetzt kommt der
+
+91
+00:11:35,840 --> 00:11:39,200
+ Dortmund-Teil, wo ich euch mal ganz kurz irgendwie die Dortmunder Uni
+
+92
+00:11:39,200 --> 00:11:43,800
+ vorstelle. Das soll jetzt gar nicht so richtig Werbung sein. Ich möchte euch nur
+
+93
+00:11:43,800 --> 00:11:46,920
+ mal grob so zeigen, wie funktioniert überhaupt so eine Uni und weil ich das
+
+94
+00:11:46,920 --> 00:11:50,240
+ in Dortmund bin, mache ich das jetzt am Beispiel von Dortmund.
+
+95
+00:11:50,240 --> 00:11:52,880
+ Natürlich habe ich trotzdem eine Slide, warum ihr unbedingt in Dortmund
+
+96
+00:11:52,880 --> 00:11:57,280
+ studieren solltet. Genau, also einmal ist es eine technische Universität, das klingt
+
+97
+00:11:57,280 --> 00:12:00,920
+ ganz cool. Es gibt eben angewandte Informatik mit diesen technischen
+
+98
+00:12:00,920 --> 00:12:06,880
+ Nebenfächern, das ist auch ganz cool. Wenn man das möchte, ist man kann
+
+99
+00:12:06,880 --> 00:12:12,640
+ Lehramt studieren, das geht auch nicht an jeder Uni, informiert euch da vorher.
+
+100
+00:12:12,640 --> 00:12:16,680
+ Irgendwie der Wohnraum in Dortmund ist relativ bezahlbar, weil ich meine, wer will
+
+101
+00:12:16,680 --> 00:12:21,560
+ nach Dortmund. Es gibt keine maximale Studienzeit, auch das freut vielleicht
+
+102
+00:12:21,560 --> 00:12:25,560
+ den ein oder anderen von euch an irgendeinem Punkt an. Es ist irgendwie
+
+103
+00:12:25,560 --> 00:12:29,160
+ perfekt an die Bahn angebunden, zumindest an die S-Bahn und die anderen sind auch
+
+104
+00:12:29,160 --> 00:12:35,680
+ erreichbar. Ihr könnt auch im April anfangen zu studieren und nicht nur im
+
+105
+00:12:35,680 --> 00:12:41,640
+ Oktober. Viele Unis bieten meistens den Studienstart nur im Oktober an. Auch bei
+
+106
+00:12:41,640 --> 00:12:45,240
+ uns ist das in sehr vielen Fächern so, nur in Informatik hat anders.
+
+107
+00:12:45,240 --> 00:12:50,560
+ Natürlich geht es in der Uni irgendwie grundsätzlich darum, dass
+
+108
+00:12:50,560 --> 00:12:57,600
+ ihr Dinge lernt. Gleichzeitig ist das auch ein Ort, wo dann, und ich
+
+109
+00:12:57,600 --> 00:13:01,720
+ würde behaupten, eigentlich fast besonders in der Informatik, viele Leute mit sehr
+
+110
+00:13:01,720 --> 00:13:05,760
+ ähnlichen Interessen zusammenkommen. Je nachdem, wo man da landet, fühlt sich das
+
+111
+00:13:05,760 --> 00:13:09,280
+ fast wie so ein Jugendtakt-Event an, wo plötzlich irgendwie Leute sind, mit denen
+
+112
+00:13:09,280 --> 00:13:15,200
+ man tatsächlich reden kann über Dinge. Und deswegen, was ich sehr cool finde, ist,
+
+113
+00:13:15,200 --> 00:13:18,040
+ dass die Informatik-Fachschaft, das heißt, dass die Leute, die Informatik
+
+114
+00:13:18,040 --> 00:13:23,080
+ studieren, so eine mittelgroße ist. Also irgendwie jetzt nicht so wie
+
+115
+00:13:23,080 --> 00:13:28,760
+ irgendwie das KIT in Karlsruhe oder so. Nicht so riesig, aber auch jetzt nicht
+
+116
+00:13:28,760 --> 00:13:32,440
+ irgendwie so ein Ding, wo drei Leute das mal studiert haben.
+
+117
+00:13:32,440 --> 00:13:36,200
+ Genau, und dann gibt es halt irgendwie natürlich wieder an Schule auch irgendwie
+
+118
+00:13:36,200 --> 00:13:40,360
+ AGs, Events und so. Das sollte jetzt nicht der Punkt sein, wonach ihr unbedingt die
+
+119
+00:13:40,360 --> 00:13:44,320
+ Uni ausfährt, aber habt das so ein bisschen im Hinterkopf. Was wollt ihr
+
+120
+00:13:44,320 --> 00:13:48,800
+ eigentlich und wie groß soll es sein?
+
+121
+00:13:48,800 --> 00:13:53,200
+ Genau, ich rede ganz kurz einmal über Wohnen, weil natürlich das auch irgendwie
+
+122
+00:13:53,200 --> 00:13:58,160
+ dann ein Punkt ist. Wenn ihr vielleicht zu einer Uni wollt, die nicht ganz so nah
+
+123
+00:13:58,160 --> 00:14:03,920
+ ist oder vielleicht aussehen wollt, dann gibt es halt irgendwie häufig ein
+
+124
+00:14:03,920 --> 00:14:08,480
+ Studierendenwerk, was Wohnungen, WGs vermietet. Die sind meistens ganz
+
+125
+00:14:08,480 --> 00:14:14,200
+ bezahlbar. Schade trotzdem nicht zu vergleichen, besonders, wenn man irgendwie
+
+126
+00:14:14,200 --> 00:14:18,400
+ mit anderen Leuten zusammen in der WG will, was das im Umfeld kostet.
+
+127
+00:14:18,400 --> 00:14:22,800
+ Bei uns kann man maximal vier Jahre dann wohnen, aber man hat irgendwie einen
+
+128
+00:14:22,800 --> 00:14:26,280
+ Mietpreis, der monatlich dann abgebucht wird und der hat halt irgendwie direkt
+
+129
+00:14:26,280 --> 00:14:30,680
+ Strom, Wasser, Heizung und so ein bisschen Internet drin. Das ist halt besonders ganz
+
+130
+00:14:30,680 --> 00:14:35,680
+ cool, weil man einfach nichts verpeilen kann und dann einmal jeden Monat alles
+
+131
+00:14:35,680 --> 00:14:41,040
+ abgebucht wird und alles ist da. Wenn ihr in ein Studierendenwerk oder
+
+132
+00:14:41,040 --> 00:14:45,840
+ Wohnung eines Studierendenwerks ziehen wollt, werbt euch frühzeitig. In Dortmund
+
+133
+00:14:45,840 --> 00:14:50,800
+ ist das ungefähr Anfang des Jahres, wenn ihr im Oktober studiert. Früher schadet
+
+134
+00:14:50,800 --> 00:14:57,200
+ aber auch nicht. Das ist auch gar nicht irgendwie super fest, wenn man sich da
+
+135
+00:14:57,200 --> 00:15:01,520
+ mal das bewirbt. Ihr könnt das auch bei irgendwie 3-4 machen und dann euch da mal
+
+136
+00:15:01,520 --> 00:15:04,960
+ auf die Warteliste setzen lassen und euch dann am Ende einen aussuchen. Bei den
+
+137
+00:15:04,960 --> 00:15:08,000
+ allermeisten müsste das auch ohne Probleme möglich sein, ohne dass ihr
+
+138
+00:15:08,000 --> 00:15:12,040
+ jetzt irgendwie eingeschrieben seid oder so, sondern einfach mal vorher anmelden,
+
+139
+00:15:12,040 --> 00:15:16,760
+ okay ich hätte gerne irgendwann eine Wohnung. Insofern, wenn ihr Ideen habt, an
+
+140
+00:15:16,760 --> 00:15:22,400
+ welcher Uni ihr das machen wollt, guckt, dass ihr das frühzeitig macht. Dann
+
+141
+00:15:22,400 --> 00:15:28,960
+ spreche ich jetzt noch über Sport und ja auf einem Jugendklacktevent. Viele
+
+142
+00:15:28,960 --> 00:15:33,280
+ Unis bieten irgendwie einen Hochschulsport an, vielleicht sogar alle.
+
+143
+00:15:33,280 --> 00:15:37,440
+ Da zahlt man jetzt irgendwie bei uns in dem Fall wieder 20 Euro im Semester
+
+144
+00:15:37,440 --> 00:15:42,400
+ und hat irgendwie, ich weiß nicht, 100 Kurse oder so, wo man sich die aussuchen
+
+145
+00:15:42,400 --> 00:15:45,760
+ kann und machen kann. Das ist irgendwie Floorball, das ist also Hallenhocki,
+
+146
+00:15:45,760 --> 00:15:49,200
+ irgendwie Badminton, aber noch ganz viele anderen. Es gibt irgendwie noch welche
+
+147
+00:15:49,200 --> 00:15:55,160
+ mit Aufpreis, es gibt eine Laufstrecke, es gibt irgendwie ein okay gepreistes
+
+148
+00:15:55,160 --> 00:16:00,480
+ Fitnessstudio noch vor Ort. Und das ist halt auch irgendwie ganz cool, weil ihr
+
+149
+00:16:00,480 --> 00:16:03,560
+ lernt einmal irgendwie neue Leute kennen, auch vielleicht außerhalb eurer
+
+150
+00:16:03,560 --> 00:16:09,800
+ Informatikbubble und dann ist das halt irgendwie direkt an der Uni. Dadurch ist
+
+151
+00:16:09,800 --> 00:16:13,200
+ man vielleicht auch doch eher geneigt hinzugehen.
+
+152
+00:16:13,200 --> 00:16:20,880
+ Gut, das war irgendwie jetzt mein Dortmund-Werbung-Teil. Was finde ich,
+
+153
+00:16:20,880 --> 00:16:25,120
+ was ihr noch irgendwie, was ich euch mitgeben möchte?
+
+154
+00:16:25,120 --> 00:16:32,560
+ Genau, eigentlich sollte quasi für jeden Studiengang an jeder Uni irgendwie eine
+
+155
+00:16:32,560 --> 00:16:35,680
+ O-Phase angeboten werden. Das ist jetzt der Name bei uns, manchmal heißt die
+
+156
+00:16:35,680 --> 00:16:40,360
+ irgendwie erst die Woche, manchmal heißt die Studiumseinstiegs irgendwas.
+
+157
+00:16:40,360 --> 00:16:44,800
+ Das ist irgendwie so ungefähr eine Woche vor dem Studienbeginn und da wird
+
+158
+00:16:44,800 --> 00:16:49,600
+ irgendwie noch mal ganz viel erklärt. Es wird auch irgendwie darauf
+
+159
+00:16:49,600 --> 00:16:53,200
+ Wert gelegt, dass irgendwie vernetzt wird, dass ihr irgendwie neue Leute
+
+160
+00:16:53,200 --> 00:16:56,440
+ kennenlernt, weil besonders wenn ihr irgendwie alleine an der Uni geht, ist das
+
+161
+00:16:56,440 --> 00:16:58,680
+ natürlich am Anfang irgendwie ein bisschen gruselig, dass man da
+
+162
+00:16:58,680 --> 00:17:02,840
+ niemanden kennt. Aber deswegen gibt es auch so Wochen, wo ihr schon Leute
+
+163
+00:17:02,840 --> 00:17:06,520
+ kennenlernen können solltet. Es wird irgendwie einmal über den Campus
+
+164
+00:17:06,520 --> 00:17:11,000
+ geführt. Ja, das Ganze wird meistens von irgendwie
+
+165
+00:17:11,000 --> 00:17:14,040
+ Mitstudierenden veranstaltet, das heißt da ist jetzt auch nicht irgendwie ein
+
+166
+00:17:14,040 --> 00:17:17,440
+ Professor, der irgendwas unbedingt durchdrücken möchte, sondern das sind dann
+
+167
+00:17:17,440 --> 00:17:23,480
+ irgendwie Leute wie ihr. Und wenn sowas angeboten wird, geht da definitiv hin.
+
+168
+00:17:23,480 --> 00:17:28,160
+ Das ist sehr wichtig, dass ihr da irgendwie noch mal mitbekommen, wie das
+
+169
+00:17:28,160 --> 00:17:34,480
+ alles laufen wird und auch irgendwie einmal natürlich Leute kennenlernt.
+
+170
+00:17:34,480 --> 00:17:37,800
+ Bei uns wäre jetzt irgendwie Anmeldung auf der Fachschaftswebseite, bei
+
+171
+00:17:37,800 --> 00:17:41,520
+ anderen kommt das per E-Mail. Sucht da halt ein bisschen, das werdet ihr
+
+172
+00:17:41,520 --> 00:17:47,640
+ schon finden. So, das war irgendwie der Teil der Uni, der Teil der Fachschaft.
+
+173
+00:17:47,640 --> 00:17:50,520
+ Jetzt kommt der Teil der Uni. Es gibt irgendwie Vorkurse, bei uns wären das
+
+174
+00:17:50,520 --> 00:17:56,400
+ Mathematik, aber eigentlich an jeder Uni gibt es ein Vorkurs Mathematik.
+
+175
+00:17:56,400 --> 00:18:01,200
+ Geht da unbedingt hin. Der ist irgendwie zwei, drei Wochen, der hat ein
+
+176
+00:18:01,200 --> 00:18:05,720
+ superschnelles Tempo, das ist auf keinen Fall so wie irgendwie Uni ist. Danach, da
+
+177
+00:18:05,720 --> 00:18:10,160
+ wird echt viel Stoff noch mal durchgehauen. Offiziell wiederholt der nur
+
+178
+00:18:10,160 --> 00:18:15,520
+ Stoff aus der Schule, aber je nachdem besonders irgendwie was ihr in der
+
+179
+00:18:15,520 --> 00:18:19,920
+ Schule hattet und was nicht, ist das relevant, dass man den auch noch mal
+
+180
+00:18:19,920 --> 00:18:24,060
+ mitkriegt. Das spart euch super viel Arbeit irgendwie in den ersten
+
+181
+00:18:24,060 --> 00:18:30,000
+ Mathe-Semestern und es wiederholt auch einfach noch mal andere Punkte, die man
+
+182
+00:18:30,000 --> 00:18:33,000
+ in der Schule jetzt vielleicht nicht so wert drauf gelegt hat. Also in Nordrhein-Westfalen
+
+183
+00:18:33,000 --> 00:18:35,760
+ ist zum Beispiel so, dass wir Taschenrechner haben. Das ist auch sehr cool
+
+184
+00:18:35,760 --> 00:18:39,760
+ in der Schule. In der Uni ist das nicht mehr unbedingt gegeben und dann steht
+
+185
+00:18:39,760 --> 00:18:42,920
+ man da plötzlich vor einem Bruch oder halt mehreren Brüchen und denkt sich
+
+186
+00:18:42,920 --> 00:18:47,560
+ "ups, grundsätzlich konnte ich mal Bruch regeln, aber welche wende ich denn jetzt
+
+187
+00:18:47,560 --> 00:18:50,200
+ hier noch mal an, wenn ich da irgendwie noch eine Wurzel stehen habe?"
+
+188
+00:18:50,200 --> 00:18:57,560
+ Und all sowas wird halt noch mal im Vorkurs wiederholt. Genau. Das wäre auch
+
+189
+00:18:57,560 --> 00:19:02,280
+ grundsätzlich schon irgendwie der Teil von mir. Das ging jetzt doch schneller.
+
+190
+00:19:02,280 --> 00:19:06,360
+ Genau, ich würde das Ganze jetzt irgendwie noch zu Fragen öffnen, wenn noch
+
+191
+00:19:06,360 --> 00:19:09,800
+ irgendwer Fragen hat, irgendwie jetzt grundsätzlich zum Informatikstudium,
+
+192
+00:19:09,800 --> 00:19:14,400
+ meinetwegen auch zu Dortmund oder so.
+
+193
+00:19:15,080 --> 00:19:18,120
+ [Musik]
+
+194
+00:19:18,120 --> 00:19:21,120
+ SWR 2020
+

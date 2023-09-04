@@ -1,0 +1,2076 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ Hello and welcome everybody to the Nordic Stage.
+
+3
+00:00:20,000 --> 00:00:28,000
+ Hafnum, who's a university student who's studying cyber technology,
+
+4
+00:00:28,000 --> 00:00:36,000
+ is going to talk about how to make a difference in the world of technology.
+
+5
+00:00:36,000 --> 00:00:42,000
+ Hafnum, who's studying cyber technology, is going to talk about how to found an internet exchange
+
+6
+00:00:42,000 --> 00:00:46,000
+ he founded LabX from his HackerSpace, Labitet and Copenhagen.
+
+7
+00:00:46,000 --> 00:00:53,000
+ Welcome with me, Hafnum.
+
+8
+00:00:53,000 --> 00:01:01,000
+ Thank you. I would like to tell you about how we created an internet exchange in my local HackerSpace.
+
+9
+00:01:01,000 --> 00:01:06,000
+ First, why I'm making this talk.
+
+10
+00:01:06,000 --> 00:01:11,000
+ As a newcomer to the networking world, network routing and similar,
+
+11
+00:01:11,000 --> 00:01:17,000
+ I found it really difficult to find good information on IXP operations.
+
+12
+00:01:17,000 --> 00:01:27,000
+ I could read some things from some network operator meetups and some of the commercial internet exchanges,
+
+13
+00:01:27,000 --> 00:01:37,000
+ but it was really high level, so everything was a bit difficult to understand on what is it exactly.
+
+14
+00:01:37,000 --> 00:01:45,000
+ Also, when you need to get an AS number and other IP resources delegated,
+
+15
+00:01:45,000 --> 00:01:49,000
+ there is some administration and it differs from region to region.
+
+16
+00:01:49,000 --> 00:02:00,000
+ In Europe, it's ripe and there are some policies that they have.
+
+17
+00:02:00,000 --> 00:02:04,000
+ So, what is the LabX internet exchange?
+
+18
+00:02:04,000 --> 00:02:14,000
+ Well, it is a community run internet exchange in Labitet, in our nice little HackerSpace in Copenhagen.
+
+19
+00:02:14,000 --> 00:02:21,000
+ We use it as a place to learn network routing.
+
+20
+00:02:21,000 --> 00:02:31,000
+ It is a very difficult topic to get started in.
+
+21
+00:02:31,000 --> 00:02:35,000
+ There are some projects that can help you, like DN42,
+
+22
+00:02:35,000 --> 00:02:44,000
+ but if you want to do routing where you talk with the real world and not via VPNs,
+
+23
+00:02:44,000 --> 00:02:49,000
+ then you need to pay a lot of money to get into a data center
+
+24
+00:02:49,000 --> 00:02:55,000
+ or find some project where it is available for you, also closely nearby,
+
+25
+00:02:55,000 --> 00:03:02,000
+ that you can actually start doing network routing and bring a small server, perhaps.
+
+26
+00:03:02,000 --> 00:03:09,000
+ So, yes, you can learn some BGP. This is where I learned my BGP, at least, in our HackerSpace.
+
+27
+00:03:09,000 --> 00:03:18,000
+ You can play with our router server. It has its own nice AS number.
+
+28
+00:03:18,000 --> 00:03:27,000
+ You can get started in getting IP resources like AS numbers and IP addresses.
+
+29
+00:03:27,000 --> 00:03:34,000
+ You can play with BGP security. This is one of the things where it is really difficult to actually get a grasp on,
+
+30
+00:03:34,000 --> 00:03:36,000
+ unless you start playing with it.
+
+31
+00:03:36,000 --> 00:03:44,000
+ There are some really nice talks around the world about RPKI and filtering strategies.
+
+32
+00:03:44,000 --> 00:03:53,000
+ But if you also want to actually try it, it is kind of difficult to get outside your own home lab.
+
+33
+00:03:53,000 --> 00:04:03,000
+ Also, very soon we will change it to 9K MTU. The default in the world is 1500 MTU.
+
+34
+00:04:03,000 --> 00:04:11,000
+ There is an expert of C-draft for how to change it.
+
+35
+00:04:11,000 --> 00:04:16,000
+ As soon as I get all the way through that and I notify our members, I will change.
+
+36
+00:04:16,000 --> 00:04:24,000
+ We will also get that. It has a few advantages compared to 1500.
+
+37
+00:04:24,000 --> 00:04:30,000
+ So, what does your HackerSpace need to have an Internet exchange?
+
+38
+00:04:30,000 --> 00:04:36,000
+ You need a friendly uplink. Maybe you have multiple. That would be very cool.
+
+39
+00:04:36,000 --> 00:04:46,000
+ That is because if they do not necessarily like you, it is very hard to update your policies.
+
+40
+00:04:46,000 --> 00:04:55,000
+ Their own policies that allows your IX clients to be announced to the world.
+
+41
+00:04:55,000 --> 00:05:02,000
+ So, having a member that works in your uplink really helps.
+
+42
+00:05:02,000 --> 00:05:08,000
+ But maybe be good friends and give them a beer. Some people you know.
+
+43
+00:05:08,000 --> 00:05:15,000
+ You also need some server housing. You need a rack. We have a used rack.
+
+44
+00:05:15,000 --> 00:05:20,000
+ They are available in multiple places. We also have a used layer 2 switch.
+
+45
+00:05:20,000 --> 00:05:27,000
+ That is the one marked with my better drawing.
+
+46
+00:05:27,000 --> 00:05:34,000
+ You need at least 3 peering clients. This is the magic number of getting anything done.
+
+47
+00:05:34,000 --> 00:05:39,000
+ When you talk about an IX, Bright requires it.
+
+48
+00:05:39,000 --> 00:05:45,000
+ P-ingDB requires it. The IXP database requires you to even be registered.
+
+49
+00:05:45,000 --> 00:05:52,000
+ Or consider having an entry in each of their databases.
+
+50
+00:05:52,000 --> 00:05:59,000
+ Of course, this is also a HackerSpace. You need to have more than one person.
+
+51
+00:05:59,000 --> 00:06:04,000
+ Because when a person stops coming to the HackerSpace, it will die.
+
+52
+00:06:04,000 --> 00:06:08,000
+ That is the usual thing with community run projects.
+
+53
+00:06:08,000 --> 00:06:15,000
+ Of course, you need to have some documentation and have some people who like to run this.
+
+54
+00:06:15,000 --> 00:06:22,000
+ What is an Internet Exchange? The very simple version is a VLAN on a layer 2 switch.
+
+55
+00:06:22,000 --> 00:06:27,000
+ Then we have a few of connector networks.
+
+56
+00:06:27,000 --> 00:06:34,000
+ That is operators with their own AS number and prefixes.
+
+57
+00:06:34,000 --> 00:06:41,000
+ This was the difficult part. If you don't know much about networking.
+
+58
+00:06:41,000 --> 00:06:46,000
+ This was a bit of a large step to have.
+
+59
+00:06:46,000 --> 00:06:51,000
+ But if you know what I talked about, this is what you needed.
+
+60
+00:06:51,000 --> 00:06:54,000
+ All these 5 slides.
+
+61
+00:06:54,000 --> 00:06:58,000
+ But let me explain the Internet a bit.
+
+62
+00:06:58,000 --> 00:07:06,000
+ It took me years to understand the Internet. I am still learning a lot.
+
+63
+00:07:06,000 --> 00:07:12,000
+ To newcomers, let's explain some things.
+
+64
+00:07:12,000 --> 00:07:15,000
+ How do you do Internet routing?
+
+65
+00:07:15,000 --> 00:07:19,000
+ I assume you know some networking like IP addresses.
+
+66
+00:07:19,000 --> 00:07:25,000
+ You get your IP prefix allocated. You find the host facility.
+
+67
+00:07:25,000 --> 00:07:30,000
+ You install your machine. Then you set up your external BTP routing daemon.
+
+68
+00:07:30,000 --> 00:07:35,000
+ That can come in proprietary and open source solutions.
+
+69
+00:07:35,000 --> 00:07:41,000
+ You need to find some peers to connect with.
+
+70
+00:07:41,000 --> 00:07:48,000
+ We will find a transit that allows you to connect to the rest of the Internet.
+
+71
+00:07:48,000 --> 00:07:57,000
+ If you are located in Copenhagen, how do you have a connection to Berlin?
+
+72
+00:07:57,000 --> 00:08:00,000
+ You need a direct fiber to some place.
+
+73
+00:08:00,000 --> 00:08:04,000
+ Some companies do this as their business.
+
+74
+00:08:04,000 --> 00:08:07,000
+ Profits, I guess.
+
+75
+00:08:07,000 --> 00:08:10,000
+ Let's set a scenario.
+
+76
+00:08:10,000 --> 00:08:13,000
+ You are an eyeball ISP in Copenhagen.
+
+77
+00:08:13,000 --> 00:08:19,000
+ An eyeball ISP is you have customers with eyeballs that consume content.
+
+78
+00:08:19,000 --> 00:08:25,000
+ That could be watching their favorite movies, for example.
+
+79
+00:08:25,000 --> 00:08:29,000
+ You need to get content from the content providers.
+
+80
+00:08:29,000 --> 00:08:32,000
+ The people having the movies.
+
+81
+00:08:32,000 --> 00:08:38,000
+ You need some IP addresses for customers and servers.
+
+82
+00:08:38,000 --> 00:08:45,000
+ To be able to be reached from the Internet.
+
+83
+00:08:45,000 --> 00:08:49,000
+ You also need some server housing and some fibers around.
+
+84
+00:08:49,000 --> 00:08:53,000
+ I won't go into that.
+
+85
+00:08:53,000 --> 00:09:00,000
+ This is the nicest image I found yet.
+
+86
+00:09:00,000 --> 00:09:03,000
+ This is an example of networking.
+
+87
+00:09:03,000 --> 00:09:10,000
+ Some peers and transit providers.
+
+88
+00:09:10,000 --> 00:09:15,000
+ Don't bother with the names of them.
+
+89
+00:09:15,000 --> 00:09:21,000
+ You can have, for example, AS number one in the total left side.
+
+90
+00:09:21,000 --> 00:09:24,000
+ They have some prefixes.
+
+91
+00:09:24,000 --> 00:09:32,000
+ They can be announced up to the uplink via the next one in the line.
+
+92
+00:09:32,000 --> 00:09:35,000
+ Which then in turn is announced further.
+
+93
+00:09:35,000 --> 00:09:42,000
+ This is called a transit because you don't have a direct connection to everybody else.
+
+94
+00:09:42,000 --> 00:09:55,000
+ It also goes the same way.
+
+95
+00:09:55,000 --> 00:10:01,000
+ You get traffic from everybody else.
+
+96
+00:10:01,000 --> 00:10:04,000
+ An autonomous system.
+
+97
+00:10:04,000 --> 00:10:19,000
+ The best description I found was in an Internet standard.
+
+98
+00:10:19,000 --> 00:10:25,000
+ It says a connected group of one or more IP prefixes.
+
+99
+00:10:25,000 --> 00:10:27,000
+ One by one or more network operators.
+
+100
+00:10:27,000 --> 00:10:30,000
+ Which has a single and clearly defined routing policy.
+
+101
+00:10:30,000 --> 00:10:34,000
+ I'll get a bit more into the details of that.
+
+102
+00:10:34,000 --> 00:10:42,000
+ One or more network operators and you have some prefixes.
+
+103
+00:10:42,000 --> 00:10:55,000
+ An autonomous system is identified by a unique 16 or 32 ASN.
+
+104
+00:10:55,000 --> 00:10:59,000
+ An autonomous system number also called ASN.
+
+105
+00:10:59,000 --> 00:11:07,000
+ We use it to say hello, I'm AS 211153.
+
+106
+00:11:07,000 --> 00:11:09,000
+ That's my personal AS.
+
+107
+00:11:09,000 --> 00:11:13,000
+ If you look that up, you can find out what my routing policies are.
+
+108
+00:11:13,000 --> 00:11:22,000
+ Also what addresses do I have.
+
+109
+00:11:22,000 --> 00:11:33,000
+ A routing policy, this is the simplified version, is that we have some objects called Internet routing registry.
+
+110
+00:11:33,000 --> 00:11:40,000
+ We have them in our local regional Internet database.
+
+111
+00:11:40,000 --> 00:11:43,000
+ Like RIPE in our case.
+
+112
+00:11:43,000 --> 00:11:46,000
+ At least in Copenhagen.
+
+113
+00:11:46,000 --> 00:11:52,000
+ These could say that these IP prefixes should be disneyed to me.
+
+114
+00:11:52,000 --> 00:11:57,000
+ And I would accept prefixes disneyed to and from my business customers.
+
+115
+00:11:57,000 --> 00:12:03,000
+ AS something something and AX something something else.
+
+116
+00:12:03,000 --> 00:12:07,000
+ This is pretty much it.
+
+117
+00:12:07,000 --> 00:12:12,000
+ There's other details you can go into.
+
+118
+00:12:12,000 --> 00:12:16,000
+ Very simplified.
+
+119
+00:12:16,000 --> 00:12:26,000
+ I accept that the people or the organizations behind me can be announced through me.
+
+120
+00:12:26,000 --> 00:12:33,000
+ Also I have included when I found a lot of good readme tools, I have included in the bottom.
+
+121
+00:12:33,000 --> 00:12:38,000
+ You can find my slides on the program page.
+
+122
+00:12:38,000 --> 00:12:43,000
+ We also have peering and transit as I mentioned.
+
+123
+00:12:43,000 --> 00:12:51,000
+ Peering is that we agree that we only send traffic distance to each other.
+
+124
+00:12:51,000 --> 00:12:56,000
+ You have prefixes here, I have prefixes here.
+
+125
+00:12:56,000 --> 00:13:00,000
+ You have some content and I want some content.
+
+126
+00:13:00,000 --> 00:13:06,000
+ We have a direct connection to each other and we peer.
+
+127
+00:13:06,000 --> 00:13:10,000
+ This is most usually free.
+
+128
+00:13:10,000 --> 00:13:17,000
+ There's a small asterisk that costs some things to pull a fiber in the data center.
+
+129
+00:13:17,000 --> 00:13:24,000
+ Many data centers take a monthly fee for having a cross connect as we call it.
+
+130
+00:13:24,000 --> 00:13:29,000
+ And of course you also need to buy your own optics and things like that.
+
+131
+00:13:29,000 --> 00:13:31,000
+ We also have transit.
+
+132
+00:13:31,000 --> 00:13:35,000
+ This is the people who like to transport traffic from you to other networks.
+
+133
+00:13:35,000 --> 00:13:37,000
+ Also the other way.
+
+134
+00:13:37,000 --> 00:13:40,000
+ But it costs something per megabyte.
+
+135
+00:13:40,000 --> 00:13:43,000
+ Sorry, megabit I wrote.
+
+136
+00:13:43,000 --> 00:13:49,000
+ And of course we would like to avoid this as much as we can.
+
+137
+00:13:49,000 --> 00:13:53,000
+ But again we can't be connected to every network in the world.
+
+138
+00:13:53,000 --> 00:14:00,000
+ So this creates a little of a dilemma on where should we actually connect.
+
+139
+00:14:00,000 --> 00:14:08,000
+ Who should we peer with? Does it really make sense to connect with this small provider?
+
+140
+00:14:08,000 --> 00:14:13,000
+ Do we actually want to pay for our part of it?
+
+141
+00:14:13,000 --> 00:14:18,000
+ We have the Internet Exchange.
+
+142
+00:14:18,000 --> 00:14:22,000
+ I will get back to that question in a small second.
+
+143
+00:14:22,000 --> 00:14:27,000
+ The Internet Exchange is that we would like to keep local traffic local.
+
+144
+00:14:27,000 --> 00:14:30,000
+ This is the main reason.
+
+145
+00:14:30,000 --> 00:14:39,000
+ Because when you have transit providers you sometimes get the issue of having the trombone effects.
+
+146
+00:14:39,000 --> 00:14:45,000
+ I included an image here where it says this is a map of the United States.
+
+147
+00:14:45,000 --> 00:14:47,000
+ Some of it.
+
+148
+00:14:47,000 --> 00:14:49,000
+ And we have three cities here.
+
+149
+00:14:49,000 --> 00:14:52,000
+ We have Los Angeles, San Francisco and New York.
+
+150
+00:14:52,000 --> 00:14:58,000
+ The traffic goes from Los Angeles to San Francisco. I hope you can see the arrows also.
+
+151
+00:14:58,000 --> 00:15:01,000
+ But it does not go directly.
+
+152
+00:15:01,000 --> 00:15:08,000
+ It goes all the way to some good amount of kilometers to San Francisco.
+
+153
+00:15:08,000 --> 00:15:10,000
+ This creates latency.
+
+154
+00:15:10,000 --> 00:15:13,000
+ This isn't just unnecessary.
+
+155
+00:15:13,000 --> 00:15:18,000
+ It may be just because your transit provider doesn't have a direct connection between these two cities.
+
+156
+00:15:18,000 --> 00:15:21,000
+ Or maybe they made a routing mistake. That happens.
+
+157
+00:15:21,000 --> 00:15:25,000
+ So we get lower latency if we are directly connected to each other.
+
+158
+00:15:25,000 --> 00:15:31,000
+ An Internet Exchange also makes it more easy to connect to other networks.
+
+159
+00:15:31,000 --> 00:15:38,000
+ I always said the recurring cost of data centers.
+
+160
+00:15:38,000 --> 00:15:45,000
+ The simplified topology of an Internet Exchange looks kind of like this.
+
+161
+00:15:45,000 --> 00:15:50,000
+ We have this mystery meet me room as we call it.
+
+162
+00:15:50,000 --> 00:15:53,000
+ We have some providers.
+
+163
+00:15:53,000 --> 00:15:56,000
+ There is also a cloud service down here.
+
+164
+00:15:56,000 --> 00:15:59,000
+ It will probably be a content provider.
+
+165
+00:15:59,000 --> 00:16:05,000
+ We all have one connection into our meet me room.
+
+166
+00:16:05,000 --> 00:16:09,000
+ Instead of having connections to each other all the way.
+
+167
+00:16:09,000 --> 00:16:13,000
+ This is mostly how it looks.
+
+168
+00:16:13,000 --> 00:16:22,000
+ But there are some other things about Internet Exchanges.
+
+169
+00:16:22,000 --> 00:16:30,000
+ I would like to explain a bit on some of the characteristics.
+
+170
+00:16:30,000 --> 00:16:34,000
+ First we can have our bilateral peering.
+
+171
+00:16:34,000 --> 00:16:36,000
+ It is called also many to many.
+
+172
+00:16:36,000 --> 00:16:41,000
+ Where I connect to each and everybody I would like to peer with.
+
+173
+00:16:41,000 --> 00:16:46,000
+ But instead I go to multilateral.
+
+174
+00:16:46,000 --> 00:16:51,000
+ I have one connection to a route server.
+
+175
+00:16:51,000 --> 00:16:55,000
+ That makes sure I can connect to the other ones.
+
+176
+00:16:55,000 --> 00:16:57,000
+ As everybody else does.
+
+177
+00:16:57,000 --> 00:16:59,000
+ We have this central point.
+
+178
+00:16:59,000 --> 00:17:04,000
+ You can of course have low balancing and similar things.
+
+179
+00:17:04,000 --> 00:17:07,000
+ It is not a single point of failure.
+
+180
+00:17:07,000 --> 00:17:14,000
+ The very simple version of this is that you have one machine in here.
+
+181
+00:17:14,000 --> 00:17:22,000
+ The route server is for aggregating our control plane traffic.
+
+182
+00:17:22,000 --> 00:17:28,000
+ We don't send our traffic over the route server itself.
+
+183
+00:17:28,000 --> 00:17:36,000
+ We make sure the routes can be distributed by the route server.
+
+184
+00:17:36,000 --> 00:17:43,000
+ The advantages of this is that now we have lower maintenance.
+
+185
+00:17:43,000 --> 00:17:50,000
+ We don't need to necessarily have a lot of injuries with each and every peering client.
+
+186
+00:17:50,000 --> 00:17:54,000
+ We can connect immediately to newcomers.
+
+187
+00:17:54,000 --> 00:17:59,000
+ If we have this small network that would like to connect with me.
+
+188
+00:17:59,000 --> 00:18:04,000
+ And I don't necessarily want to pay the cost.
+
+189
+00:18:04,000 --> 00:18:09,000
+ We can connect immediately with each other.
+
+190
+00:18:09,000 --> 00:18:14,000
+ As soon as they jump on the route server.
+
+191
+00:18:14,000 --> 00:18:17,000
+ Given that I am also present.
+
+192
+00:18:17,000 --> 00:18:19,000
+ Then traffic does flow.
+
+193
+00:18:19,000 --> 00:18:22,000
+ So we don't have to go through the transit.
+
+194
+00:18:22,000 --> 00:18:25,000
+ We can also have some debugging tools.
+
+195
+00:18:25,000 --> 00:18:31,000
+ And actually see more of what is going on.
+
+196
+00:18:31,000 --> 00:18:37,000
+ The image shows how you can do it.
+
+197
+00:18:37,000 --> 00:18:41,000
+ Of how it happens.
+
+198
+00:18:41,000 --> 00:18:45,000
+ Our route server looks like this.
+
+199
+00:18:45,000 --> 00:18:48,000
+ It is a very small machine.
+
+200
+00:18:48,000 --> 00:18:51,000
+ It is also a very small space.
+
+201
+00:18:51,000 --> 00:18:54,000
+ It is like a thin client.
+
+202
+00:18:54,000 --> 00:18:56,000
+ It uses 6 watts of power.
+
+203
+00:18:56,000 --> 00:19:00,000
+ We chose this because we had it in our hands already.
+
+204
+00:19:00,000 --> 00:19:02,000
+ It is not that powerful.
+
+205
+00:19:02,000 --> 00:19:05,000
+ It can run Debian.
+
+206
+00:19:05,000 --> 00:19:08,000
+ It is fine I guess.
+
+207
+00:19:08,000 --> 00:19:13,000
+ We use the config parser called a route server.
+
+208
+00:19:13,000 --> 00:19:17,000
+ To configure our route server.
+
+209
+00:19:17,000 --> 00:19:21,000
+ This is where we keep the list of our clients.
+
+210
+00:19:21,000 --> 00:19:31,000
+ Then we generate the config that BERT uses.
+
+211
+00:19:31,000 --> 00:19:37,000
+ BERT is the program actually getting the routes in.
+
+212
+00:19:37,000 --> 00:19:42,000
+ And distributing the routes to our peers.
+
+213
+00:19:42,000 --> 00:19:46,000
+ As well as clients can also use BERT.
+
+214
+00:19:46,000 --> 00:19:48,000
+ It is a general purpose routing daemon.
+
+215
+00:19:48,000 --> 00:19:50,000
+ It is totally fine.
+
+216
+00:19:50,000 --> 00:19:52,000
+ You can use it as a route server.
+
+217
+00:19:52,000 --> 00:19:55,000
+ But you can also use it as a client.
+
+218
+00:19:55,000 --> 00:19:59,000
+ I use it as a client as well.
+
+219
+00:19:59,000 --> 00:20:05,000
+ Server hosting.
+
+220
+00:20:05,000 --> 00:20:09,000
+ For our case we have our project called Labicolo.
+
+221
+00:20:09,000 --> 00:20:13,000
+ It is our co-location facility.
+
+222
+00:20:13,000 --> 00:20:16,000
+ It is intended for small embedded devices.
+
+223
+00:20:16,000 --> 00:20:21,000
+ We use it for APIs and APUs.
+
+224
+00:20:21,000 --> 00:20:24,000
+ This is due to power restrictions.
+
+225
+00:20:24,000 --> 00:20:29,000
+ We would like to keep the cost low.
+
+226
+00:20:29,000 --> 00:20:31,000
+ This is hobby projects.
+
+227
+00:20:31,000 --> 00:20:35,000
+ We don't necessarily need beefy servers.
+
+228
+00:20:35,000 --> 00:20:38,000
+ They are also readily available.
+
+229
+00:20:38,000 --> 00:20:41,000
+ Not that expensive to have.
+
+230
+00:20:41,000 --> 00:20:44,000
+ Again, this is the same picture I used.
+
+231
+00:20:44,000 --> 00:20:46,000
+ It looks awful.
+
+232
+00:20:46,000 --> 00:20:50,000
+ We have this Cisco SK300.
+
+233
+00:20:50,000 --> 00:20:53,000
+ We use it because it was already there.
+
+234
+00:20:53,000 --> 00:20:56,000
+ Again, it is free.
+
+235
+00:20:56,000 --> 00:20:59,000
+ You can also do Mac port filtering.
+
+236
+00:20:59,000 --> 00:21:02,000
+ That is one of the requirements.
+
+237
+00:21:02,000 --> 00:21:06,000
+ One of our peering requirements.
+
+238
+00:21:06,000 --> 00:21:12,000
+ To avoid loops in the routing.
+
+239
+00:21:12,000 --> 00:21:15,000
+ You can make it more pretty than we have.
+
+240
+00:21:15,000 --> 00:21:22,000
+ You can also clean it up a bit more.
+
+241
+00:21:22,000 --> 00:21:24,000
+ Our peering policy.
+
+242
+00:21:24,000 --> 00:21:28,000
+ Every exchange has a peering policy.
+
+243
+00:21:28,000 --> 00:21:31,000
+ Just like you as a network provider.
+
+244
+00:21:31,000 --> 00:21:33,000
+ You also have some policy.
+
+245
+00:21:33,000 --> 00:21:36,000
+ I only want the traffic you mean to go to me.
+
+246
+00:21:36,000 --> 00:21:40,000
+ I don't want my neighbors traffic necessarily.
+
+247
+00:21:40,000 --> 00:21:42,000
+ I do want my neighbors traffic.
+
+248
+00:21:42,000 --> 00:21:44,000
+ But you have to pay.
+
+249
+00:21:44,000 --> 00:21:53,000
+ This is based on the local Internet exchange.
+
+250
+00:21:53,000 --> 00:21:57,000
+ Peering policy.
+
+251
+00:21:57,000 --> 00:22:01,000
+ It looks very much like it.
+
+252
+00:22:01,000 --> 00:22:04,000
+ We allow the infinite frames.
+
+253
+00:22:04,000 --> 00:22:06,000
+ IPv4, IPv6 and ARP.
+
+254
+00:22:06,000 --> 00:22:08,000
+ That is the usual suspects.
+
+255
+00:22:08,000 --> 00:22:12,000
+ We do not like proxy ARP and OSPF.
+
+256
+00:22:12,000 --> 00:22:16,000
+ And other kinds of these.
+
+257
+00:22:16,000 --> 00:22:20,000
+ We only want to know BGP stuff.
+
+258
+00:22:20,000 --> 00:22:28,000
+ We want routing and we want data traffic.
+
+259
+00:22:28,000 --> 00:22:30,000
+ We don't want a lot of...
+
+260
+00:22:30,000 --> 00:22:32,000
+ Let's for example say DCP.
+
+261
+00:22:32,000 --> 00:22:44,000
+ But we only allow one kind of routing protocol.
+
+262
+00:22:44,000 --> 00:22:46,000
+ BGP.
+
+263
+00:22:46,000 --> 00:22:48,000
+ You could use other ones.
+
+264
+00:22:48,000 --> 00:22:52,000
+ But the Internet in general uses BGP.
+
+265
+00:22:52,000 --> 00:22:56,000
+ So it makes things much more easy.
+
+266
+00:22:56,000 --> 00:22:59,000
+ Again the MAC address filtering.
+
+267
+00:22:59,000 --> 00:23:08,000
+ We also do not like that...
+
+268
+00:23:08,000 --> 00:23:14,000
+ If you connect via VPN we need the full MTU.
+
+269
+00:23:14,000 --> 00:23:20,000
+ You have to be physically present.
+
+270
+00:23:20,000 --> 00:23:24,000
+ This is not a virtual Internet exchange.
+
+271
+00:23:24,000 --> 00:23:28,000
+ These also exist to play around with network routing.
+
+272
+00:23:28,000 --> 00:23:30,000
+ They are fine.
+
+273
+00:23:30,000 --> 00:23:32,000
+ I have nothing against them.
+
+274
+00:23:32,000 --> 00:23:37,000
+ But for our case we wanted to have machines physically located.
+
+275
+00:23:37,000 --> 00:23:41,000
+ Virtual Internet exchanges have the issue of...
+
+276
+00:23:41,000 --> 00:23:45,000
+ Now you are depending on transits to somewhere.
+
+277
+00:23:45,000 --> 00:23:48,000
+ And that transit can take a long time.
+
+278
+00:23:48,000 --> 00:23:52,000
+ Still a nice place to learn if you are interested.
+
+279
+00:23:52,000 --> 00:23:57,000
+ So an Internet exchange client can also have their own policies.
+
+280
+00:23:57,000 --> 00:24:01,000
+ Here is a very high overview of how they are listed.
+
+281
+00:24:01,000 --> 00:24:04,000
+ Of some categories.
+
+282
+00:24:04,000 --> 00:24:06,000
+ Open is...
+
+283
+00:24:06,000 --> 00:24:08,000
+ We just like peering with everybody.
+
+284
+00:24:08,000 --> 00:24:10,000
+ This is when you hop on to the route server.
+
+285
+00:24:10,000 --> 00:24:17,000
+ We have the lecture where you will talk with us first.
+
+286
+00:24:17,000 --> 00:24:20,000
+ And we are usually open to this.
+
+287
+00:24:20,000 --> 00:24:26,000
+ We may have our own internal protocols that deny us this.
+
+288
+00:24:26,000 --> 00:24:28,000
+ This is where you do direct peering connections.
+
+289
+00:24:28,000 --> 00:24:35,000
+ And set up a separate entry for each and everyone.
+
+290
+00:24:35,000 --> 00:24:38,000
+ You can also have restricted.
+
+291
+00:24:38,000 --> 00:24:42,000
+ This could be a transit or a very large network.
+
+292
+00:24:42,000 --> 00:24:50,000
+ They have some security policies or similar that restrict them.
+
+293
+00:24:50,000 --> 00:24:58,000
+ That means you have to contact them and maybe you need to be a large entity.
+
+294
+00:24:58,000 --> 00:25:01,000
+ To be considered.
+
+295
+00:25:01,000 --> 00:25:06,000
+ I have seen this issue personally.
+
+296
+00:25:06,000 --> 00:25:10,000
+ With some large providers not necessarily wanting to peer.
+
+297
+00:25:10,000 --> 00:25:15,000
+ Even though a network provider did want to peer.
+
+298
+00:25:15,000 --> 00:25:20,000
+ It didn't make sense to buy transit.
+
+299
+00:25:20,000 --> 00:25:25,000
+ How do you get Internet resources allocated?
+
+300
+00:25:25,000 --> 00:25:32,000
+ I have this image of a cake.
+
+301
+00:25:32,000 --> 00:25:37,000
+ IANA owns all the Internet addresses in the world.
+
+302
+00:25:37,000 --> 00:25:39,000
+ You don't necessarily own the ones.
+
+303
+00:25:39,000 --> 00:25:41,000
+ You just get them allocated.
+
+304
+00:25:41,000 --> 00:25:45,000
+ This is the regional Internet registry.
+
+305
+00:25:45,000 --> 00:25:48,000
+ There are five of these in the world.
+
+306
+00:25:48,000 --> 00:25:52,000
+ Spread out through our world.
+
+307
+00:25:52,000 --> 00:25:54,000
+ This is RIPE in our case.
+
+308
+00:25:54,000 --> 00:25:58,000
+ Then we have the local Internet registry.
+
+309
+00:25:58,000 --> 00:26:02,000
+ From what I can understand, a RIPE specific thing.
+
+310
+00:26:02,000 --> 00:26:08,000
+ As an end user, you don't talk directly with RIPE.
+
+311
+00:26:08,000 --> 00:26:12,000
+ The local Internet registry talks with RIPE for you.
+
+312
+00:26:12,000 --> 00:26:22,000
+ If you want to be part of the RIPE NCC, you can pay the fee.
+
+313
+00:26:22,000 --> 00:26:25,000
+ For a project, it doesn't make sense.
+
+314
+00:26:25,000 --> 00:26:31,000
+ It is for network operators or people who like to pay some money.
+
+315
+00:26:31,000 --> 00:26:42,000
+ It is not cheap, but it is not that expensive.
+
+316
+00:26:42,000 --> 00:26:49,000
+ As a network operator, that could be an ISP or content provider.
+
+317
+00:26:49,000 --> 00:26:53,000
+ You want your addresses to be globally routable.
+
+318
+00:26:53,000 --> 00:26:59,000
+ This is where I say I have this content and you have your customers who want this content.
+
+319
+00:26:59,000 --> 00:27:03,000
+ The traffic should go through the Internet.
+
+320
+00:27:03,000 --> 00:27:07,000
+ I should be able to send traffic to you.
+
+321
+00:27:07,000 --> 00:27:09,000
+ Then you can handle it from there.
+
+322
+00:27:09,000 --> 00:27:13,000
+ If everything is requested to me, I need an IP address.
+
+323
+00:27:13,000 --> 00:27:16,000
+ A source IP address to send it back to.
+
+324
+00:27:16,000 --> 00:27:21,000
+ This is where the routing takes over.
+
+325
+00:27:21,000 --> 00:27:37,000
+ If you have an ISP, you don't necessarily need to have globally routed IP addresses.
+
+326
+00:27:37,000 --> 00:27:43,000
+ The reason you don't necessarily need it is that you just need to have a unique identifier
+
+327
+00:27:43,000 --> 00:27:50,000
+ for your Internet Exchange members for their own routers.
+
+328
+00:27:50,000 --> 00:27:53,000
+ You don't want it to be mixed up with anybody else in the world.
+
+329
+00:27:53,000 --> 00:27:59,000
+ This is why you request some IP addresses.
+
+330
+00:27:59,000 --> 00:28:05,000
+ It is not for hosting servers.
+
+331
+00:28:05,000 --> 00:28:07,000
+ I didn't explain the cake.
+
+332
+00:28:07,000 --> 00:28:12,000
+ IANA has all the addresses.
+
+333
+00:28:12,000 --> 00:28:15,000
+ RIPE gets a little piece of the cake.
+
+334
+00:28:15,000 --> 00:28:19,000
+ Then your local Internet registry gets a little piece of that cake.
+
+335
+00:28:19,000 --> 00:28:29,000
+ Then you get a tiny piece of the local Internet registry cake.
+
+336
+00:28:29,000 --> 00:28:32,000
+ There are a lot of addresses in the world.
+
+337
+00:28:32,000 --> 00:28:40,000
+ This is only illustrative.
+
+338
+00:28:40,000 --> 00:28:42,000
+ It is fine.
+
+339
+00:28:42,000 --> 00:28:50,000
+ I use /24 for a lot of things and /48 prefix for a lot of things.
+
+340
+00:28:50,000 --> 00:28:54,000
+ We also have the RIPE database.
+
+341
+00:28:54,000 --> 00:28:59,000
+ The object you need to create is an organization object.
+
+342
+00:28:59,000 --> 00:29:06,000
+ If you already have one for your HackerSpace, this is one thing I did wrong.
+
+343
+00:29:06,000 --> 00:29:13,000
+ We already have an organization since we do some BGP routing and announce our members.
+
+344
+00:29:13,000 --> 00:29:18,000
+ You should just use your existing org object.
+
+345
+00:29:18,000 --> 00:29:23,000
+ If you don't have one, you should create an org object.
+
+346
+00:29:23,000 --> 00:29:27,000
+ You also need maintainers.
+
+347
+00:29:27,000 --> 00:29:36,000
+ This is a list of people that get access to change your routing policy.
+
+348
+00:29:36,000 --> 00:29:41,000
+ Then a person is a person.
+
+349
+00:29:41,000 --> 00:29:44,000
+ You also need a...
+
+350
+00:29:44,000 --> 00:29:48,000
+ At least it is optional.
+
+351
+00:29:48,000 --> 00:29:55,000
+ A normal client, a network operator needs ASSETs.
+
+352
+00:29:55,000 --> 00:29:59,000
+ This is where your routing policy lies.
+
+353
+00:29:59,000 --> 00:30:03,000
+ You don't need it for an Internet exchange.
+
+354
+00:30:03,000 --> 00:30:09,000
+ It is recommended if someone filters for these kinds of things.
+
+355
+00:30:09,000 --> 00:30:18,000
+ This is where we look into are you allowed to announce XYZ prefix.
+
+356
+00:30:18,000 --> 00:30:30,000
+ XYZ is a number, not a prefix. That is called a route object if you want to tie a prefix and an AS number together.
+
+357
+00:30:30,000 --> 00:30:36,000
+ I couldn't find any of this. It was just a thing I learned.
+
+358
+00:30:36,000 --> 00:30:45,000
+ You need to give the name of your Internet exchange.
+
+359
+00:30:45,000 --> 00:30:50,000
+ They will ask you if you want a route server as soon as you say you want an Internet exchange.
+
+360
+00:30:50,000 --> 00:30:57,000
+ Then you say yes, but then you also need to have some...
+
+361
+00:30:57,000 --> 00:31:03,000
+ There are also some requirements.
+
+362
+00:31:03,000 --> 00:31:06,000
+ For a route server, you need an AS number.
+
+363
+00:31:06,000 --> 00:31:11,000
+ Your peers need to connect to the route server.
+
+364
+00:31:11,000 --> 00:31:18,000
+ This cannot be a private resource.
+
+365
+00:31:18,000 --> 00:31:23,000
+ One thing is that you should request a 16-bit AS number.
+
+366
+00:31:23,000 --> 00:31:28,000
+ They are available if you ask directly for them.
+
+367
+00:31:28,000 --> 00:31:31,000
+ We are running out.
+
+368
+00:31:31,000 --> 00:31:35,000
+ By default, you will be assigned a 32-bit AS number.
+
+369
+00:31:35,000 --> 00:31:40,000
+ It does not matter in most cases if you just take your Linux machine and put it up.
+
+370
+00:31:40,000 --> 00:31:48,000
+ However, if someone brings a really old machine, they do want a 16-bit AS number.
+
+371
+00:31:48,000 --> 00:31:53,000
+ They were just not set up for 32-bit, so it won't work.
+
+372
+00:31:53,000 --> 00:32:01,000
+ A bonus is that a Danish number plate also fits on a 16-bit AS number.
+
+373
+00:32:01,000 --> 00:32:07,000
+ I have really been considering buying one and putting it up on our rack.
+
+374
+00:32:07,000 --> 00:32:11,000
+ Stupid things.
+
+375
+00:32:11,000 --> 00:32:14,000
+ Then you will also be asked if you need prefixes.
+
+376
+00:32:14,000 --> 00:32:18,000
+ Then you say yes, please.
+
+377
+00:32:18,000 --> 00:32:25,000
+ So, RIPE does not give IPv4 addresses out to be globally routed.
+
+378
+00:32:25,000 --> 00:32:29,000
+ There is a long, long waiting list.
+
+379
+00:32:29,000 --> 00:32:34,000
+ We have been exhausted the IPv4 space for a long time.
+
+380
+00:32:34,000 --> 00:32:38,000
+ That is why you say yes, this is not to be routed.
+
+381
+00:32:38,000 --> 00:32:42,000
+ This is specifically to be announced within our pre-regulation.
+
+382
+00:32:42,000 --> 00:32:46,000
+ This is the actual message I was sent.
+
+383
+00:32:46,000 --> 00:32:48,000
+ I said yes.
+
+384
+00:32:48,000 --> 00:32:52,000
+ You should give these printers already and they will do pretty good.
+
+385
+00:32:52,000 --> 00:32:58,000
+ Also, what size do you want of addresses?
+
+386
+00:32:58,000 --> 00:33:08,000
+ You have to confirm that your COLO facility actually has connectivity.
+
+387
+00:33:08,000 --> 00:33:10,000
+ I guess it makes sense.
+
+388
+00:33:10,000 --> 00:33:12,000
+ I just didn't think of that.
+
+389
+00:33:12,000 --> 00:33:18,000
+ I had to scramble and ask three people where this is.
+
+390
+00:33:18,000 --> 00:33:20,000
+ A few days later, I could get hold of it.
+
+391
+00:33:20,000 --> 00:33:29,000
+ A lot of delays you can actually avoid to get hold of your contract.
+
+392
+00:33:29,000 --> 00:33:38,000
+ Again, the magic number was three customers.
+
+393
+00:33:38,000 --> 00:33:40,000
+ If you have more than that, you are good.
+
+394
+00:33:40,000 --> 00:33:48,000
+ But if you have less, then you need one more.
+
+395
+00:33:48,000 --> 00:33:51,000
+ If you have two people, you can peer with each other.
+
+396
+00:33:51,000 --> 00:33:57,000
+ It doesn't make sense to set up all these and all the administration.
+
+397
+00:33:57,000 --> 00:34:02,000
+ They don't need to be connected directly at that time you set it up.
+
+398
+00:34:02,000 --> 00:34:10,000
+ They need to agree and say yes, I will definitely join as soon as I can.
+
+399
+00:34:10,000 --> 00:34:14,000
+ We also need to give the postal address.
+
+400
+00:34:14,000 --> 00:34:18,000
+ The address is apparently able to receive mail and then a contact person.
+
+401
+00:34:18,000 --> 00:34:23,000
+ Their organization and phone number.
+
+402
+00:34:23,000 --> 00:34:28,000
+ I was just casually writing emails, so I didn't really think of these.
+
+403
+00:34:28,000 --> 00:34:32,000
+ But they are pretty good pointers.
+
+404
+00:34:32,000 --> 00:34:37,000
+ How do you find a local internet registry?
+
+405
+00:34:37,000 --> 00:34:40,000
+ You ask your local network wizard.
+
+406
+00:34:40,000 --> 00:34:49,000
+ I have a few, not that many, but they know the magic of the internet.
+
+407
+00:34:49,000 --> 00:34:56,000
+ This is also where I got pointed to the free transit project when I got my own AS number.
+
+408
+00:34:56,000 --> 00:35:02,000
+ It's a nice project from Open Factory.
+
+409
+00:35:02,000 --> 00:35:04,000
+ There are some really nice people behind it.
+
+410
+00:35:04,000 --> 00:35:08,000
+ There are also people behind it that are on this camp.
+
+411
+00:35:08,000 --> 00:35:11,000
+ I hear there will also be an internet exchange by some of them.
+
+412
+00:35:11,000 --> 00:35:16,000
+ Run on the camp soon, hopefully.
+
+413
+00:35:16,000 --> 00:35:22,000
+ Yes, I have a bias that I personally know some of them.
+
+414
+00:35:22,000 --> 00:35:27,000
+ But if you want to find a local internet registry service,
+
+415
+00:35:27,000 --> 00:35:31,000
+ you hop into your search engine and you search for that term.
+
+416
+00:35:31,000 --> 00:35:37,000
+ Some people are happily taking your money to facilitate this.
+
+417
+00:35:37,000 --> 00:35:40,000
+ It doesn't really cost that much to get started.
+
+418
+00:35:40,000 --> 00:35:43,000
+ For me it was 25 euros, personally.
+
+419
+00:35:43,000 --> 00:35:45,000
+ It's fine.
+
+420
+00:35:45,000 --> 00:35:49,000
+ If it's another project, then you need to...
+
+421
+00:35:49,000 --> 00:35:55,000
+ If it's a commercial actor, then you probably need to pay a bit more.
+
+422
+00:35:55,000 --> 00:36:01,000
+ Similar projects are all the community-run internet exchanges in the world.
+
+423
+00:36:01,000 --> 00:36:03,000
+ There are commercial actors, many.
+
+424
+00:36:03,000 --> 00:36:08,000
+ But a lot of the internet exchanges are just some networking people meeting over a beer
+
+425
+00:36:08,000 --> 00:36:10,000
+ and saying, "Yes, we need this."
+
+426
+00:36:10,000 --> 00:36:12,000
+ And they made this.
+
+427
+00:36:12,000 --> 00:36:17,000
+ There's also some hosting facilities.
+
+428
+00:36:17,000 --> 00:36:21,000
+ KoloKlo in Amsterdam, that's case-based, a commercial rack.
+
+429
+00:36:21,000 --> 00:36:26,000
+ Then we also have a VGP.WTF in Warsaw, HackerSpace.
+
+430
+00:36:26,000 --> 00:36:35,000
+ Regional Learn in Berlin also exists, and also can provide some VGP things.
+
+431
+00:36:35,000 --> 00:36:42,000
+ This is not internet exchanges, but these are places that do network routing.
+
+432
+00:36:42,000 --> 00:36:47,000
+ And may also have some people that can point in the right directions.
+
+433
+00:36:47,000 --> 00:36:55,000
+ I have probably missed a lot of nice projects, but this is the ones I found.
+
+434
+00:36:55,000 --> 00:36:59,000
+ I would like to say thank you to my collaborators.
+
+435
+00:36:59,000 --> 00:37:02,000
+ This was actually a school project.
+
+436
+00:37:02,000 --> 00:37:05,000
+ I managed to get ECTS points for it anyway.
+
+437
+00:37:05,000 --> 00:37:10,000
+ Olivia and Daniel, we have created this together.
+
+438
+00:37:10,000 --> 00:37:15,000
+ Then we also have Jowe from Street Transit Projects, who really help with all the right things.
+
+439
+00:37:15,000 --> 00:37:19,000
+ It was a whole new land for me.
+
+440
+00:37:19,000 --> 00:37:29,000
+ And then we also have Asperon, my local network wizard, for sharing a lot of knowledge and a lot of pointers.
+
+441
+00:37:29,000 --> 00:37:35,000
+ Here are some good resources.
+
+442
+00:37:35,000 --> 00:37:39,000
+ I found PNGDB and BGP tools.
+
+443
+00:37:39,000 --> 00:37:45,000
+ I use them almost every day.
+
+444
+00:37:45,000 --> 00:37:51,000
+ I would encourage you to go to your local network operator meetup.
+
+445
+00:37:51,000 --> 00:37:55,000
+ In Denmark it's called DKNOG, and in Germany it's called DENOG.
+
+446
+00:37:55,000 --> 00:38:01,000
+ Lots of nice people.
+
+447
+00:38:01,000 --> 00:38:06,000
+ You can meet a lot of nice people, and usually if you say I will buy you a beer,
+
+448
+00:38:06,000 --> 00:38:12,000
+ then they will explain the whole thing to you on whatever subject you want.
+
+449
+00:38:12,000 --> 00:38:16,000
+ We also have the RIPE Academy.
+
+450
+00:38:16,000 --> 00:38:20,000
+ This really helped me in understanding IPv6 and BGP security.
+
+451
+00:38:20,000 --> 00:38:23,000
+ They are actually pretty nice.
+
+452
+00:38:23,000 --> 00:38:26,000
+ You can also get a certificate if you want.
+
+453
+00:38:26,000 --> 00:38:28,000
+ That costs some money though.
+
+454
+00:38:28,000 --> 00:38:31,000
+ But you can take the courses for free.
+
+455
+00:38:31,000 --> 00:38:34,000
+ That's a bit more. We have the Network Startup Research Center.
+
+456
+00:38:34,000 --> 00:38:36,000
+ That's also helped me.
+
+457
+00:38:36,000 --> 00:38:45,000
+ We have NLNOG with their PNG, BGP Filter Guide, and NLNOG Ring for search.
+
+458
+00:38:45,000 --> 00:38:49,000
+ How does the internet reach you?
+
+459
+00:38:49,000 --> 00:38:55,000
+ Then we have Eurex with their B-Cops and their wishlist on what to buy.
+
+460
+00:38:55,000 --> 00:39:02,000
+ The $1000 Internet Exchange presentation on how shitty hardware can you buy.
+
+461
+00:39:02,000 --> 00:39:07,000
+ It turns out we can buy really shitty hardware, from my experience.
+
+462
+00:39:07,000 --> 00:39:17,000
+ If you want to find us, we actually have a self-organization called BGP Enable Hacker Spaces
+
+463
+00:39:17,000 --> 00:39:23,000
+ at Shell 4 here at 17 today.
+
+464
+00:39:23,000 --> 00:39:29,000
+ You can also meet me at Bornhack Village and also at Bornhack next year.
+
+465
+00:39:29,000 --> 00:39:31,000
+ Or you can meet us in Labitat.
+
+466
+00:39:31,000 --> 00:39:34,000
+ We would very gladly talk to you.
+
+467
+00:39:34,000 --> 00:39:38,000
+ We also have a website.
+
+468
+00:39:38,000 --> 00:39:41,000
+ We have a PNG DPA entry, of course.
+
+469
+00:39:41,000 --> 00:39:45,000
+ If you want to write an email, throw it at me.
+
+470
+00:39:45,000 --> 00:39:51,000
+ If someone is interested in sponsoring this, I paid everything out of my own money.
+
+471
+00:39:51,000 --> 00:39:57,000
+ It was doable, but I'm a student, so money is limited.
+
+472
+00:39:57,000 --> 00:40:01,000
+ We very much like stickers.
+
+473
+00:40:01,000 --> 00:40:03,000
+ That is a huge shortage.
+
+474
+00:40:03,000 --> 00:40:10,000
+ Perhaps a second uplink on hardware.
+
+475
+00:40:10,000 --> 00:40:14,000
+ The next thing we want to look at is...
+
+476
+00:40:14,000 --> 00:40:20,000
+ I should definitely look at getting up a looking glass.
+
+477
+00:40:20,000 --> 00:40:29,000
+ Participants can see how it works, how their routing happens.
+
+478
+00:40:29,000 --> 00:40:37,000
+ It's a small Internet exchange, so ARP is not that large right now.
+
+479
+00:40:37,000 --> 00:40:40,000
+ It's not a problem right now, but it can become a problem.
+
+480
+00:40:40,000 --> 00:40:45,000
+ There's a lot of ARP broadcasts when you have Internet exchanges.
+
+481
+00:40:45,000 --> 00:40:47,000
+ We need more documentation.
+
+482
+00:40:47,000 --> 00:40:50,000
+ I would like to set up RPKI relay.
+
+483
+00:40:50,000 --> 00:40:54,000
+ I've set it up personally, but not at the IX.
+
+484
+00:40:54,000 --> 00:41:01,000
+ We have already filled our own uplink, so it's not that much of a problem.
+
+485
+00:41:01,000 --> 00:41:03,000
+ Thank you for listening.
+
+486
+00:41:03,000 --> 00:41:10,000
+ This was my talk.
+
+487
+00:41:10,000 --> 00:41:13,000
+ Hopefully there are a few questions.
+
+488
+00:41:13,000 --> 00:41:14,000
+ Exactly.
+
+489
+00:41:14,000 --> 00:41:18,000
+ Some time for Q&A.
+
+490
+00:41:18,000 --> 00:41:20,000
+ If there are any questions, please put your hands up.
+
+491
+00:41:20,000 --> 00:41:23,000
+ I'm going to repeat them for the audience online.
+
+492
+00:41:23,000 --> 00:41:27,000
+ Yes?
+
+493
+00:41:27,000 --> 00:41:30,000
+ Just a second.
+
+494
+00:41:30,000 --> 00:41:32,000
+ Thank you so much.
+
+495
+00:41:32,000 --> 00:41:38,000
+ The peers you're peering with, are they located in the same building?
+
+496
+00:41:38,000 --> 00:41:46,000
+ Or are they having a fiber directly to you, or a wavelength on a fiber, or how do you connect to your peers physically?
+
+497
+00:41:46,000 --> 00:41:50,000
+ Let me spool up a tiny bit.
+
+498
+00:41:50,000 --> 00:41:58,000
+ If you look up in the imaginary north of the image, there are all the machines.
+
+499
+00:41:58,000 --> 00:42:04,000
+ They're all connected by... Yes, they're physically present.
+
+500
+00:42:04,000 --> 00:42:11,000
+ Everybody has a APU2, Raspberry Pi, or small machines that are physically present.
+
+501
+00:42:11,000 --> 00:42:15,000
+ So your peers are only in the same building?
+
+502
+00:42:15,000 --> 00:42:16,000
+ Yes.
+
+503
+00:42:16,000 --> 00:42:19,000
+ So you're not peering with other networks?
+
+504
+00:42:19,000 --> 00:42:27,000
+ No, that would be very nice, but it's also a small project.
+
+505
+00:42:27,000 --> 00:42:33,000
+ Next question.
+
+506
+00:42:33,000 --> 00:42:51,000
+ Do you know of any DIY internet access providers or hosting providers in Denmark that you could peer with or connect with?
+
+507
+00:42:51,000 --> 00:42:54,000
+ Network providers?
+
+508
+00:42:54,000 --> 00:43:03,000
+ Most are happy to peer with you, given that you're present at a place they are present.
+
+509
+00:43:03,000 --> 00:43:09,000
+ If you go to one of the larger data centers in Denmark, most definitely yes.
+
+510
+00:43:09,000 --> 00:43:13,000
+ Many have an open peering policy and you can just go right ahead.
+
+511
+00:43:13,000 --> 00:43:16,000
+ It requires a bit of money to get into a data center though.
+
+512
+00:43:16,000 --> 00:43:19,000
+ So that's why sponsoring is so important, am I right?
+
+513
+00:43:19,000 --> 00:43:22,000
+ Yes, you need some sponsoring.
+
+514
+00:43:22,000 --> 00:43:28,000
+ Any other questions? We have time for one more, if there are any.
+
+515
+00:43:28,000 --> 00:43:33,000
+ If not, you can probably find him in the Bornheg village and you can ask him some more,
+
+516
+00:43:33,000 --> 00:43:37,000
+ especially if it's like private questions because you want to do the same project.
+
+517
+00:43:37,000 --> 00:43:42,000
+ Thank you everyone for listening. Big applause.
+
+518
+00:43:42,000 --> 00:43:45,360
+ [MUSIC PLAYING]
+
+519
+00:43:45,360 --> 00:43:47,940
+ (upbeat music)
+

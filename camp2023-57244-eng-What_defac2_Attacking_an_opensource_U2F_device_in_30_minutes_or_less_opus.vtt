@@ -1,0 +1,710 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:38.800
+ A lot of you probably use YubiKey for the two factor authentication, right?
+
+00:00:38.800 --> 00:00:47.800
+ Well, I have bad news for you. It's not as secure as you might think. What the fuck, right?
+
+00:00:47.800 --> 00:01:02.800
+ Our next speaker, Sergei, will show how he could exploit the system and cause a lot of headaches at the Federal Agency for Information Security in Germany.
+
+00:01:02.800 --> 00:01:12.800
+ Please give a warm welcome to Sergei.
+
+00:01:12.800 --> 00:01:22.800
+ Hello. Welcome everybody. It's so nice to see many people in this heat struggling.
+
+00:01:22.800 --> 00:01:32.800
+ So, the talk is going to be about a solution. It's called DeFact2, for whatever reason.
+
+00:01:32.800 --> 00:01:41.800
+ So, the outline of the talk is more or less just a few words about universal second factor, how the solution is working, what's the idea behind it.
+
+00:01:41.800 --> 00:01:56.800
+ Then, what is DeFact2 solution? Just a few words about certification. I'm not an expert on it at all, but just to understand why this attack is relevant, we'll have to look at it.
+
+00:01:56.800 --> 00:02:02.800
+ And talk about Java cards, how they work, what kind of weird stuff can happen there.
+
+00:02:02.800 --> 00:02:14.800
+ And finally, about the actual vulnerability, which I found in under 30 minutes, looking at the source code. So, this talk will take longer than finding actual issue in the code.
+
+00:02:14.800 --> 00:02:24.800
+ So, universal second factor, authenticators. So, the idea is to move from passwords only, and you have a dedicated device, just like Ubiqui.
+
+00:02:24.800 --> 00:02:35.800
+ There are many other solutions as well. Ubiqui is probably the most popular one. And it protects you from phishing, it protects you from some types of malware.
+
+00:02:35.800 --> 00:02:47.800
+ And the idea is you have a separate device, it has a key inside, and cryptographically signed challenges from the remote server sent to the device and back to the back end.
+
+00:02:47.800 --> 00:02:55.800
+ So, they can authenticate that not only your password is correct, but that also the device signed this action.
+
+00:02:55.800 --> 00:03:06.800
+ So, there are a bunch of different solutions, as I mentioned. You can see here quite a few of them. They can look different, but the idea is very similar behind them.
+
+00:03:06.800 --> 00:03:17.800
+ So, what is de facto? One day I was just going through Twitter stuff, and I've seen a bunch of popular Java card projects on GitHub.
+
+00:03:17.800 --> 00:03:26.800
+ You see, maybe not that popular, 16 stars, but something. And I've done quite a bit of Java card research, so I was kind of interested to take a look at it.
+
+00:03:26.800 --> 00:03:40.800
+ Just for no reason, it was my hobby project, unrelated to work. But when I opened it, it was kind of interesting because I didn't first pay attention to who is the owner of this wrapper,
+
+00:03:40.800 --> 00:03:47.800
+ but I just looked at the code, started to scroll through. I've seen there is a CC folder, which stands for Common Criteria.
+
+00:03:47.800 --> 00:03:58.800
+ And it turns out it is an actual official repository of the Bureau of Informatics of Germany. And I Googled a little bit what this solution is.
+
+00:03:58.800 --> 00:04:08.800
+ Is it like some test wrapper or something? And it turns out they advertise it as one of the solutions, which can possibly help you to protect your passwords.
+
+00:04:08.800 --> 00:04:19.800
+ So, I thought it can be nice to take a look at it. And interestingly enough, unlike many other repositories on GitHub, this one has some certificates next to it.
+
+00:04:19.800 --> 00:04:26.800
+ Not often you see that. So, this one is a Common Criteria certificate for this particular product.
+
+00:04:26.800 --> 00:04:33.800
+ They released it all on GitHub, some documentation, and all the code, which is normally not the case for any certified product.
+
+00:04:33.800 --> 00:04:45.800
+ And we'll see why later, just from certification points. And they have this nice certificate, which says that BSI has the certified FIDO product.
+
+00:04:45.800 --> 00:04:53.800
+ So, I thought it's nice to take a look at it. I read the readme. It says that this is not an actual product they want to release,
+
+00:04:53.800 --> 00:04:59.800
+ not something they're going to sell to anybody, they're not in the market of making tools. But this is more like a reference implementation,
+
+00:04:59.800 --> 00:05:07.800
+ just for other people to be inspired, to show how it can be done, and also how the certification of such a solution can be done.
+
+00:05:07.800 --> 00:05:19.800
+ So, what is CCC certification? Common Criteria certification. And it's especially fun to present it here at CCC, because it's very formal for such an informal group of people.
+
+00:05:19.800 --> 00:05:31.800
+ But the idea is quite simple. The vendor wants to certify it for whatever reasons, sometimes it's market requirements, sometimes it's just for marketing purposes, or any other reason.
+
+00:05:31.800 --> 00:05:41.800
+ They have some kind of target device, they design the way it should be used, the user guidance. They define the scope, and they say,
+
+00:05:41.800 --> 00:05:46.800
+ "This sort of attacker won't protect against, and these are our security features, the SFRs."
+
+00:05:46.800 --> 00:05:54.800
+ They go to an independent lab and say, "Hey, we have this product, can you verify that it works the way we state it works?"
+
+00:05:54.800 --> 00:06:00.800
+ And there's various testing, not necessarily only technical, there's also a lot of documentation review and stuff.
+
+00:06:00.800 --> 00:06:08.800
+ And finally, the lab presents the results to the certifier, and they say, "You got this certificate, and the job is done."
+
+00:06:08.800 --> 00:06:16.800
+ There's also different levels, it's starting from 1 to 7, so there's quite a bit of difference there.
+
+00:06:16.800 --> 00:06:28.800
+ Most of solutions, like your payment cards, they are level 5, and that's apparently enough to make sure that your bank card is secure against all kinds of attackers.
+
+00:06:28.800 --> 00:06:41.800
+ So, going back to the repository, there is a security target document, it has all kinds of actual security features, which this product has.
+
+00:06:41.800 --> 00:06:45.800
+ And one of them is user presence, and this is also in the standard for FIDO.
+
+00:06:45.800 --> 00:06:53.800
+ User presence ensures that the user of the FIDO token actually physically approves the transaction.
+
+00:06:53.800 --> 00:07:03.800
+ So, it cannot be done by software, it has to be user just pushing the button, or doing some action which physically ensures that this is done.
+
+00:07:03.800 --> 00:07:11.800
+ And if we go back to the picture, if you possibly can see it, there are red circles, every single solution I found has a button on it.
+
+00:07:11.800 --> 00:07:21.800
+ Even this tiny one on the top, it's a capacitive sensor, which just reads the user button push.
+
+00:07:21.800 --> 00:07:27.800
+ If you've seen smart cards before, usually smart cards don't have buttons.
+
+00:07:27.800 --> 00:07:35.800
+ And that's a bit of a problem, because you have one user physically approve the action, but there is nothing to push on a smart card.
+
+00:07:35.800 --> 00:07:39.800
+ There are some solutions which have, normally, they don't have buttons.
+
+00:07:39.800 --> 00:07:47.800
+ So, how did they do it? There is some code which nobody will be able to read, so I'll try to tell you a little bit.
+
+00:07:47.800 --> 00:07:53.800
+ It is Java card code. It is similar to Java, it's a subset, not all of the things are fully there.
+
+00:07:53.800 --> 00:07:58.800
+ But there is one interesting feature of Java card code.
+
+00:07:58.800 --> 00:08:02.800
+ So, normally, all your stuff, all your variables are in flash, they are persistent.
+
+00:08:02.800 --> 00:08:15.800
+ And if you want to have a volatile memory use, like variable in RAM, you make an array, you call an API to make a transient array, that's the second part in the code.
+
+00:08:15.800 --> 00:08:19.800
+ And this variable here is called scratch persistent.
+
+00:08:19.800 --> 00:08:30.800
+ So, what they do is they have an array of one byte, which initially, when you boot up the card, the value is initialized to zero.
+
+00:08:30.800 --> 00:08:38.800
+ And it's in RAM. So, when the card is powered and it runs, the value starts with zero.
+
+00:08:38.800 --> 00:08:44.800
+ And when they execute any sensitive transaction, if you can possibly read in the bottom one,
+
+00:08:44.800 --> 00:08:55.800
+ when it goes through the sensitive path, for example, you want to sign a transaction, or enroll the new website, then the value is set to one.
+
+00:08:55.800 --> 00:09:02.800
+ And when they set the value to one, it never goes programmatically to zero. So, you have to power off the card and power it on again.
+
+00:09:02.800 --> 00:09:09.800
+ So, the idea is the user would have a smart card reader, they have a card which has the solution on it.
+
+00:09:09.800 --> 00:09:14.800
+ So, you physically, every time, have to plug in the card in the reader when you sign.
+
+00:09:14.800 --> 00:09:18.800
+ And if you want to sign again, you pull it out, pull it back in in the reader.
+
+00:09:18.800 --> 00:09:23.800
+ And that's how you physically show that you're approving the transaction.
+
+00:09:23.800 --> 00:09:28.800
+ So, just to replace the button. And this is done with a bit of magic from JavaCard.
+
+00:09:28.800 --> 00:09:33.800
+ So, so far so good. The cycle, how it should work, more or less like this.
+
+00:09:33.800 --> 00:09:42.800
+ You plug in the card, you're in this state when user presence is zero, that's the default value. And then you execute any sensitive operation, the code sets it to one,
+
+00:09:42.800 --> 00:09:50.800
+ you stay in one, and you have to pull the card out, pull it back in, and then it goes back to zero because the RAM is reset because you powered down.
+
+00:09:50.800 --> 00:09:58.800
+ So, all of this makes sense, I guess, if you don't look too much into JavaCard standard.
+
+00:09:58.800 --> 00:10:06.800
+ Unfortunately, I've made too many wrong decisions to spend a lot of days reading it. So, at that moment, I already thought something is wrong.
+
+00:10:06.800 --> 00:10:16.800
+ So, I made a little demo. Let me see if it works.
+
+00:10:16.800 --> 00:10:24.800
+ Anything's happening? Oh, no.
+
+00:10:24.800 --> 00:10:32.800
+ Okay. Now, okay. So, this is a bit of application. I made a different script initially just for testing.
+
+00:10:32.800 --> 00:10:38.800
+ Then I made a GUI application for this time, hoping that I can show it on the screen. So, it's quite simple.
+
+00:10:38.800 --> 00:10:45.800
+ It's like what kind of application basically would do it. So, you have an open smart card button just to connect to the card.
+
+00:10:45.800 --> 00:10:53.800
+ In the back, you can see there is, it sends data to the card and it checks user presence here, and it just shows for us.
+
+00:10:53.800 --> 00:10:59.800
+ And we can do sign, and it signs the transaction, the value goes to one, user presence is zero now.
+
+00:10:59.800 --> 00:11:07.800
+ And when you pull out the card now in a second, oh, no, first I try to sign again and it's denied because the value is zero.
+
+00:11:07.800 --> 00:11:18.800
+ And when I will pull the card in a second, yeah, there's an exception which I didn't handle, but then user presence goes back to one.
+
+00:11:18.800 --> 00:11:26.800
+ And that's how it works. So, I just tested it with my card. I didn't have the same one as BSI because they certified to a specific product.
+
+00:11:26.800 --> 00:11:33.800
+ But I didn't really care about that because I wanted to take a look at the standard. And it is already quite interesting.
+
+00:11:33.800 --> 00:11:42.800
+ So, this is one of the fields which defines how you create this transaction byte array, this variable in RAM.
+
+00:11:42.800 --> 00:11:55.800
+ And the flag you give it to it is clear on reset. And you can see here then it says the value is reset, the value is cleared on reset or power on.
+
+00:11:55.800 --> 00:12:06.800
+ So, there's already two possible states. It's not necessarily when you plug in the card out or in, but if we can somehow programmatically reset the card, we can achieve the same behavior.
+
+00:12:06.800 --> 00:12:13.800
+ So, that's what I started to test right away. And you can see here it's already an interesting behavior.
+
+00:12:13.800 --> 00:12:20.800
+ When I just opened the smart card, just connect to it over the driver, the LED on the bottom changes.
+
+00:12:20.800 --> 00:12:27.800
+ So, when it's open, it is a solid green and when it's closed, it's blinking.
+
+00:12:27.800 --> 00:12:32.800
+ So, only programmatically just opening the driver already has effects on the reader.
+
+00:12:32.800 --> 00:12:41.800
+ So, I'm just wondering what about the card? Is the card going to be powered as well every time we open and close driver or not?
+
+00:12:41.800 --> 00:12:46.800
+ And that is quite simple. So, a smart card has only eight pads, not even all of them I used.
+
+00:12:46.800 --> 00:12:54.800
+ And what I care is VCC. I just need to check the power on one of the lines when I open the driver programmatically and close.
+
+00:12:54.800 --> 00:13:00.800
+ And that was my demo test, doesn't matter. Yeah, and that's the line.
+
+00:13:00.800 --> 00:13:06.800
+ So, you can see here first it's the VCC line, the power of the smart card.
+
+00:13:06.800 --> 00:13:13.800
+ First, when I open it, it goes up. Then when I close and open again, it goes down again and up.
+
+00:13:13.800 --> 00:13:16.800
+ And when I close the whole application, it goes fully down.
+
+00:13:16.800 --> 00:13:21.800
+ So, the power is controlled programmatically from our... it's my Python script, but can be anything.
+
+00:13:21.800 --> 00:13:23.800
+ Your browser eventually is going to use the driver as well.
+
+00:13:23.800 --> 00:13:29.800
+ So, every time you connect to the driver, it will power the card and when you disconnect, it will power down.
+
+00:13:29.800 --> 00:13:35.800
+ And now the problem is that the lifecycle, which they expected to be two simple circles, is a bit different.
+
+00:13:35.800 --> 00:13:43.800
+ So, now we can as well just plug in the card and improve transaction by removing it and putting the card back in.
+
+00:13:43.800 --> 00:13:50.800
+ Or we can just programmatically open and close device. And it achieves exactly the same result.
+
+00:13:50.800 --> 00:13:58.800
+ As you can see here, with the same application, I sign, I close the device, I open, I don't even touch the reader.
+
+00:13:58.800 --> 00:14:05.800
+ The present changes to one and I sign again. And I can infinitely sign as many transactions as I want.
+
+00:14:05.800 --> 00:14:12.800
+ And as you remember, it may be not... doesn't look like a big deal, but for these sort of products,
+
+00:14:12.800 --> 00:14:21.800
+ when you certify and you say this is your security feature and you say user presence has to be physically protected with the implementation,
+
+00:14:21.800 --> 00:14:25.800
+ it is not exactly the way it's supposed to be.
+
+00:14:25.800 --> 00:14:34.800
+ So, how these attacks are measured. So, normally for your web vulnerabilities or anything else, you have CVSS score.
+
+00:14:34.800 --> 00:14:39.800
+ So, here you have jail writing. It's kind of the same idea, but a bit different.
+
+00:14:39.800 --> 00:14:47.800
+ So, you just count what kind of equipment the attacker needs to identify the vulnerability and what they need to exploit it,
+
+00:14:47.800 --> 00:14:51.800
+ how much time they need, what kind of expertise and so on.
+
+00:14:51.800 --> 00:14:56.800
+ And eventually, you want to reach some nice number which is secure enough.
+
+00:14:56.800 --> 00:15:01.800
+ And if it's slower than that, it is failing the test pretty much.
+
+00:15:01.800 --> 00:15:13.800
+ So, it took me less than an hour to find the issue. So, you can see here, identification time is less than one day, so it's zero points.
+
+00:15:13.800 --> 00:15:18.800
+ And altogether, all of them end up to be nine. And this is very low for an attack.
+
+00:15:18.800 --> 00:15:25.800
+ There should be no such an attack which is possible to execute on one of the features in this time.
+
+00:15:25.800 --> 00:15:31.800
+ So, I reported all this to BSI through their disclosure program.
+
+00:15:31.800 --> 00:15:38.800
+ They facilitate disclosure to third parties and they also handle this case very nicely or quick to respond.
+
+00:15:38.800 --> 00:15:45.800
+ And the issue is fixed. And this is the best part of open source, which I like a lot when I report vulnerabilities to vendors.
+
+00:15:45.800 --> 00:15:53.800
+ When it's open source, it's nice to see also the effects of what you've done, how they fix the vulnerability.
+
+00:15:53.800 --> 00:15:59.800
+ So, you can see here, that's the, as far as I remember, the security target.
+
+00:15:59.800 --> 00:16:03.800
+ It was talking about user presence. This is one of the changes in the document.
+
+00:16:03.800 --> 00:16:13.800
+ It was saying that before, proof of presence means that a button or physically placed in a token to the NFC reader enables user presence.
+
+00:16:13.800 --> 00:16:18.800
+ With the fix, it says that the card cannot really detect that.
+
+00:16:18.800 --> 00:16:30.800
+ And so, the user must keep his system secure, that the host PC or the smartphone is free of malware and under full control of the user.
+
+00:16:30.800 --> 00:16:39.800
+ And the issue of this document...
+
+00:16:39.800 --> 00:16:44.800
+ The title is Assurance Continuity Maintenance Report.
+
+00:16:44.800 --> 00:16:52.800
+ And in there, there is pretty much also part of the process. That's what happens to every vendor.
+
+00:16:52.800 --> 00:17:00.800
+ If somebody found an issue in their certified product and they want to keep their certification, they have to assess the risk, figure out what they do with it, address it.
+
+00:17:00.800 --> 00:17:10.800
+ It says here, the vendor of the de facto authentication app BSI submitted impact analysis report to BSI for approval.
+
+00:17:10.800 --> 00:17:17.800
+ And so on. And finally, the certified product did not change. The security target was editorially updated.
+
+00:17:17.800 --> 00:17:26.800
+ So, that was the fix. Maybe not what I expected, to be honest. But this is part of the deal, I guess.
+
+00:17:26.800 --> 00:17:31.800
+ The conclusions... My talk was very fast, surprisingly.
+
+00:17:31.800 --> 00:17:35.800
+ The conclusions are simple. There are still no buttons on the smart card.
+
+00:17:35.800 --> 00:17:42.800
+ So, unless you have a special dedicated hardware, there is no easy trick you can use to implement a button, as far as I know.
+
+00:17:42.800 --> 00:17:52.800
+ In the initial note, BSI had in the readme of the whole project, at the end they were saying that they want to inspire other people to do certification projects.
+
+00:17:52.800 --> 00:17:59.800
+ But it might prove the process to be a tough challenge. And I think it was proven to be exactly that.
+
+00:17:59.800 --> 00:18:04.800
+ It's not easy to make something secure, especially when it has to be to a very high level.
+
+00:18:04.800 --> 00:18:12.800
+ And the last one. I really enjoyed that they released it, because there are so little projects you can see certified and public.
+
+00:18:12.800 --> 00:18:16.800
+ And so many of them probably still also have issues, but just never known to public.
+
+00:18:16.800 --> 00:18:25.800
+ And it is nice that they released it, and then we can take a look at it and see what kind of issues they also have and how they can be possibly handled.
+
+00:18:25.800 --> 00:18:29.800
+ So, it's really nice to have it open source and nice to find issues in open source.
+
+00:18:29.800 --> 00:18:36.800
+ And I enjoyed it myself a lot. And hope you enjoyed this talk. And if you have questions, we have a lot of time.
+
+00:18:36.800 --> 00:18:54.800
+ Thank you very much, Sergej. Yes, indeed, we have a lot of time for questions.
+
+00:18:54.800 --> 00:19:03.800
+ I see one over there. One with the white shirt, number one.
+
+00:19:03.800 --> 00:19:12.800
+ Thank you. Thank you for the talk. In the previous slides, did I read it correct that the vendor asked the BSI for approval?
+
+00:19:12.800 --> 00:19:21.800
+ Who was the vendor again? From what I read, vendor, from the certificate itself, it says vendor is BSI, that they developed it.
+
+00:19:21.800 --> 00:19:28.800
+ Okay, so the BSI submitted to the BSI for approval. It seems to be the case.
+
+00:19:28.800 --> 00:19:35.800
+ Glorious, thank you. Another question to people over. Yes.
+
+00:19:35.800 --> 00:19:45.800
+ Do you think, since you're an expert on Java cards, is there a technical solution to this problem that you found?
+
+00:19:45.800 --> 00:19:50.800
+ For example, store the user presence in Flash instead of in transient memory?
+
+00:19:50.800 --> 00:19:58.800
+ No, well, that's why when I started to look at it, initially I thought it's in Flash, but then I just misunderstood how it works.
+
+00:19:58.800 --> 00:20:07.800
+ The thing is, if you keep it in Flash, then you still need to somehow detect the act of the card being disconnected, and there is no way for the card to distinguish it.
+
+00:20:07.800 --> 00:20:11.800
+ And this is the only possible source of physical action for the card.
+
+00:20:11.800 --> 00:20:15.800
+ Like there is nothing else you can physically do to a card which it can detect.
+
+00:20:15.800 --> 00:20:22.800
+ Whatever you do, you cannot really indicate to the card you are pulling it out of the reader without just checking if it's powered or not.
+
+00:20:22.800 --> 00:20:26.800
+ So I don't think there is any other way. There are some solutions with buttons.
+
+00:20:26.800 --> 00:20:32.800
+ They maybe have multiple, not just the secure element, but the external MCU in one package and everything.
+
+00:20:32.800 --> 00:20:39.800
+ But for normal smart cards like this, it's just the reader and plastic, maybe also NFC antenna, but that's it.
+
+00:20:39.800 --> 00:20:43.800
+ So there is no actual way I can see myself.
+
+00:20:43.800 --> 00:20:45.800
+ Okay, thank you.
+
+00:20:45.800 --> 00:20:49.800
+ Any more questions?
+
+00:20:49.800 --> 00:20:53.800
+ Yes, back there.
+
+00:20:53.800 --> 00:20:56.800
+ Hi, thank you for the talk.
+
+00:20:56.800 --> 00:21:04.800
+ So it seems like the solution they propose is that the user system has to be free of malware,
+
+00:21:04.800 --> 00:21:09.800
+ which means that the vendor must make sure that the user system is free of malware,
+
+00:21:09.800 --> 00:21:18.800
+ which sounds like they need to rely on some form of trusted computing, so everyone who is running a free operating system will be out.
+
+00:21:18.800 --> 00:21:26.800
+ Yeah, so one of the things for the products is that there is the product itself and all the rest.
+
+00:21:26.800 --> 00:21:33.800
+ So of course, when certified product cannot expect for the system to be anything in particular.
+
+00:21:33.800 --> 00:21:44.800
+ But yeah, it's hard to say how it can be enforced technically, but it's also certification to a big part of it is somewhat like insurance.
+
+00:21:44.800 --> 00:21:49.800
+ So it's not necessarily always solve the issue, but it just somehow puts the boundaries on things.
+
+00:21:49.800 --> 00:21:57.800
+ So they don't necessarily always make technical sense fully, but it just the way it plays out for if it's a good thing or not.
+
+00:21:57.800 --> 00:22:02.800
+ I don't know, but that's the way it works.
+
+00:22:02.800 --> 00:22:05.800
+ All right, next question. Yes.
+
+00:22:05.800 --> 00:22:08.800
+ Hello. What would be the typical attack?
+
+00:22:08.800 --> 00:22:19.800
+ So someone leaves the card on the reader and then you have some malware which just glitches the driver and then you can sign anything without the user presented it or?
+
+00:22:19.800 --> 00:22:22.800
+ Yeah, yeah. So it would look something like this.
+
+00:22:22.800 --> 00:22:33.800
+ The idea is it should not be possible remotely for any software or even hardware given rating for the certification level.
+
+00:22:33.800 --> 00:22:42.800
+ Like a lot of things can be scoped, like even your reader cannot be fully trusted because you just bought something from eBay from China and then you can you really trust that reader?
+
+00:22:42.800 --> 00:22:44.800
+ Of course, it's difficult to imagine that for that case.
+
+00:22:44.800 --> 00:22:50.800
+ But even those things cannot always be considered benevolent.
+
+00:22:50.800 --> 00:22:53.800
+ Yes, so it would be something like this. You have your card plugged in.
+
+00:22:53.800 --> 00:22:59.800
+ You just didn't remove it right away, even if you do, like it's going to be microseconds to do execute multiple transactions.
+
+00:22:59.800 --> 00:23:08.800
+ So for user, there is no physical way to just really put the card in, sign your transaction, pull it out very quickly so no other malware can sign another action.
+
+00:23:08.800 --> 00:23:11.800
+ So it's indeed something like that.
+
+00:23:11.800 --> 00:23:15.800
+ I've read something about smart cards with a fingerprint reader on it.
+
+00:23:15.800 --> 00:23:18.800
+ Have you experience with that?
+
+00:23:18.800 --> 00:23:24.800
+ Yeah, they also exist and it would be possibly one of the ways.
+
+00:23:24.800 --> 00:23:32.800
+ So the thing is when the product is certified here somewhere in the slide, if we go all the way back.
+
+00:23:32.800 --> 00:23:37.800
+ Yeah, you cannot possibly see that, but I can tell you there is in the certificate.
+
+00:23:37.800 --> 00:23:41.800
+ It also states the operating system on which this applet runs.
+
+00:23:41.800 --> 00:23:48.800
+ So the applet is just the software and they got another certified smart card platform, like the actual physical hardware.
+
+00:23:48.800 --> 00:23:50.800
+ And for this particular platform, it only works.
+
+00:23:50.800 --> 00:23:54.800
+ So it cannot work on any random piece of hardware.
+
+00:23:54.800 --> 00:23:59.800
+ Technically, this is, of course, not certified because I run my applet on it because this is a different platform.
+
+00:23:59.800 --> 00:24:10.800
+ But the point is they could use some other solution, but maybe for the reason of price or just complexity of the solution, it becomes more difficult.
+
+00:24:10.800 --> 00:24:12.800
+ That's why they didn't use it.
+
+00:24:12.800 --> 00:24:20.800
+ All right, one more question there in the back.
+
+00:24:20.800 --> 00:24:30.800
+ Is it too far away?
+
+00:24:30.800 --> 00:24:37.800
+ This may be slightly off topic, but how did you dump the Java software from the card to reverse it?
+
+00:24:37.800 --> 00:24:41.800
+ I did not. It is all open source in the repository.
+
+00:24:41.800 --> 00:24:46.800
+ You can still see that they put the whole applet, they put all the documents and stuff.
+
+00:24:46.800 --> 00:24:50.800
+ So all of it was open source as they wanted to make a reference implementation.
+
+00:24:50.800 --> 00:24:54.800
+ It makes sense to release it, of course.
+
+00:24:54.800 --> 00:24:57.800
+ If you would have to dump it, it's a non-trivial task at all.
+
+00:24:57.800 --> 00:24:59.800
+ And they never released it as a solution.
+
+00:24:59.800 --> 00:25:03.800
+ So it was just a reference implementation.
+
+00:25:03.800 --> 00:25:04.800
+ All right.
+
+00:25:04.800 --> 00:25:05.800
+ Any more questions?
+
+00:25:05.800 --> 00:25:34.800
+ Yes, here right in the middle with the light blue shirt.
+
+00:25:34.800 --> 00:25:52.800
+ So I am no expert in smart cards, but wouldn't you typically also need some kind of pin to use the material on the card with Yubi keys, which also act like smart cards?
+
+00:25:52.800 --> 00:25:54.800
+ You need a pin.
+
+00:25:54.800 --> 00:25:58.800
+ This solution does not have the pin as far as I remember.
+
+00:25:58.800 --> 00:26:04.800
+ I would need to check the code as well, but as far as I remember, not. It's not needed.
+
+00:26:04.800 --> 00:26:07.800
+ All right.
+
+00:26:07.800 --> 00:26:09.800
+ There's one in front here.
+
+00:26:09.800 --> 00:26:15.800
+ The black shirt.
+
+00:26:15.800 --> 00:26:32.800
+ Hi. Do you know of any actual vendor who has used something similar to this technique to actually build and sell universal two-factor smart cards?
+
+00:26:32.800 --> 00:26:37.800
+ Is there anything on the market, or is it just this reference implementation?
+
+00:26:37.800 --> 00:26:39.800
+ Yeah. I see one fork.
+
+00:26:39.800 --> 00:26:41.800
+ I wonder if it's from YubiCo.
+
+00:26:41.800 --> 00:26:45.800
+ No, I don't know, to be honest. I doubt somebody used it.
+
+00:26:45.800 --> 00:26:51.800
+ It was released three years ago, I think, but I don't think it was used in production.
+
+00:26:51.800 --> 00:27:00.800
+ Similar idea was some companies tried to use for blockchain wallets, so they thought about using smart cards, but there is a similar problem.
+
+00:27:00.800 --> 00:27:09.800
+ You don't have a button, you don't have a screen, you don't really want to use it as a trusted device fully because you want to really see what you're signing.
+
+00:27:09.800 --> 00:27:14.800
+ All right. Yeah, I'll take it as the last question now.
+
+00:27:14.800 --> 00:27:22.800
+ The one with the white shirt, black mask in the back.
+
+00:27:22.800 --> 00:27:25.800
+ Is this on?
+
+00:27:25.800 --> 00:27:47.800
+ The application doesn't force the vendor to adhere to the original thing that was certified.
+
+00:27:47.800 --> 00:27:55.800
+ They basically changed the original product by specifying that you can't rely on it for the security anymore.
+
+00:27:55.800 --> 00:28:02.800
+ Just like that, they keep the certification. Don't they have to notify their customers or anything?
+
+00:28:02.800 --> 00:28:10.800
+ Yeah. Well, for this one it's particularly difficult because it's not like they have any customers, from what I can imagine.
+
+00:28:10.800 --> 00:28:18.800
+ You can see there is an official document for that reason, so it's not just changing the product. You cannot just update your software.
+
+00:28:18.800 --> 00:28:24.800
+ Fixing bugs becomes a problem when the product is certified because you know it's an issue, but the moment you change the code, it's not the same solution.
+
+00:28:24.800 --> 00:28:35.800
+ So it's not necessarily certified. But this is an official document, the Assurance Continuity Maintenance Report, which addresses the issue.
+
+00:28:35.800 --> 00:28:38.800
+ Yeah, but how it addresses is a different question.
+
+00:28:38.800 --> 00:28:51.800
+ Alright, thank you very much everyone. Let's give it up for Segei again.
+
+00:28:51.800 --> 00:28:54.800
+ Thank you for being here. Stay hydrated and have a nice camp.
+
+00:28:54.800 --> 00:28:59.800
+ [Music]
+

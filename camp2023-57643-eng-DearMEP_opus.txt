@@ -1,0 +1,350 @@
+ [MUSIC]
+ [MUSIC]
+ Now, it's my very great pleasure to give the word over for the talk,
+ Dear MEP, Free Software Infrastructure for Online Campaigning in the EU.
+ And please give a hand of applause to our speakers.
+ >> [APPLAUSE]
+ >> Thank you that you join us late at night.
+ We are very happy that we can do a little bit of an introduction and
+ announcement to the free software that we are developing.
+ My name is Thomas Lohninger, I'm Executive Director of AP Center Works and
+ the Boston Digital Rights Organization and also Vice President of EDGIE,
+ the umbrella of almost all digital rights NGOs working in the European Union.
+ And I'm here joined today with Tim Weber.
+ >> Right, I'm Tim or Sky.
+ I don't have as many titles, I'm a freelance software developer.
+ And I've been around this whole chaos family since 2005 or something like that.
+ So yeah.
+ >> Great, yeah, let's get started.
+ There's a little bit of theoretical overview and then we will show you a preview.
+ And mind you that there is also access to the tool available for
+ everyone here at camp.
+ The URL will be announced later and we also had handouts.
+ But first let's explain a little bit why we are here.
+ Can you turn to the next slide?
+ Yeah, exactly.
+ So what's the theory of change?
+ Why are we doing this?
+ Our basic idea is that political decisions worsen when politicians are left alone.
+ Particularly with difficult things like internet regulation.
+ Technology regulation is inherently difficult.
+ And we believe that our community, that the hacker community,
+ that people that are actually living in the internet have important things to say.
+ And that in today's world, particularly young people and
+ people that are very much connected with the internet should be heard
+ when politicians are making laws about technology and about the internet.
+ And our tool tries to bridge that divide.
+ Our tool tries to connect citizens and
+ average users with their political decision makers.
+ In our case, members of the European Parliament, MEPs, so those people that we
+ elect every four years that sit in the European Parliament in Brussels and
+ in Strasbourg and make these very important decisions.
+ And those 705 MEPs come from all countries of the EU.
+ Those people are elected by us.
+ They should be accountable to us.
+ And in the way the European Union works, whenever a law is made,
+ the parliamentarians have their say.
+ And there is a complex system between Brussels and Strasbourg and
+ various committees where every law has to be voted on various stages until you have
+ a final piece of text that is the official position of the European Parliament.
+ And it doesn't matter if you go back to the softer patterns from the 90s or
+ the GDPR or net neutrality copyright.
+ It is always the case that we usually have our best chance to adhere to civil
+ rights, to enshrine fundamental rights in the law with those 705
+ members of European Parliament.
+ Those are the people that we vote for, not some government officials from
+ ministries, and that's why they are our best chance to have future proof
+ legislation adopted for half a billion people in the biggest market in the world,
+ which is the EU.
+ And you know that the EU often sets global standards, so we really believe
+ that we need to look closely for the quality of those decisions.
+ And what we did in the past, in 2013-14, with safetyinternet.eu,
+ was that we sent faxes to the members of the European Parliament.
+ Back then, it was the beautiful case that when you send a fax to an MEP,
+ they all have their office, they all have their staff, it's a physical office
+ they have, and in there is a multifunctional printer.
+ And when you send a fax to that printer, it gets printed out on paper.
+ And you cannot disconnect the fax without also disconnecting the printer.
+ So we hacked that, basically, for net neutrality back then.
+ And so many trees were killed in the process.
+ I have to say.
+ But this was really efficient.
+ I still remember the stories from liberal politicians,
+ FDP from Germany, where the politician was really not our friend.
+ But because every morning, he had a pile of paper on his desk
+ from citizens that wanted to have their opinion heard by this politician.
+ And the staffers really had this pile of paper every day,
+ so they couldn't ignore the citizens' opinion.
+ And that's also one of the reasons why we won Infrastreeding
+ in the European Parliament for Net Neutrality.
+ And then we continued on.
+ You all remember upload filters, Article 13 in the copyright directive.
+ And back in 2019, we did a similar campaign.
+ But because we were so successful with the faxes,
+ faxes are no longer available in the printer.
+ They are now received in Outlook.
+ That means they are also in the spam filter.
+ They are no longer a viable way to reach the politician.
+ Telephone still is.
+ And in a very hasty campaign in 2019, we actually developed a call tool
+ where people could call their members of European Parliament,
+ not just once, but also having a call subscription,
+ where every day you would be connected to the same politician from your country.
+ And it was a way for us to really make a difference.
+ Even allies of ours, like Marit De Schaake from the Liberal Dutch Party,
+ D66, said that was really helpful, but never do it again.
+ Because whenever we were in the office, the phone was ringing.
+ And whenever you are done with that one citizen, the phone would ring again.
+ So that was a very efficient way to reach parliamentarians in 2019.
+ But sadly, that software was a really ugly piece of thing
+ that we just developed hastily.
+ And it's not usable.
+ It was never open source because it wouldn't be something
+ that's stable, usable for many campaigns.
+ And that's why we created DRMEP.
+ The basic premise of this tool is that, yes, this will be disturbing.
+ Yes, politicians would rather prefer being left alone
+ with their power without hearing from their constituency.
+ But we believe it's time that they are accountable to their citizens
+ and that they need to listen to the opinions from experts.
+ And we all are experts here in the room.
+ When it comes to technology, I think all of us have valuable things
+ to contribute to this difficult problem of regulation of tech.
+ And these tools that we are developing here are commonplace in the US.
+ You have many tools that call Congress is one example.
+ In the UK, this is very common that you get connected with your member
+ of parliament in the House of Commons.
+ In the EU, this is really not something that's done.
+ And we would like to fill that gap.
+ And one thing that we do here is not just to offer a phone tool
+ that makes it very easy to connect with politicians.
+ We are also focusing on the movable middle.
+ In every political decision, there is a side that you've already won.
+ Like, let's take chat control.
+ You don't need to convince Patrick Breyer from the pirate party.
+ He is already on our side.
+ You will also never convince Axel Frost from the CDU, from the conservatives.
+ What you have to focus on, if you really want to get a majority,
+ is to focus on the movable middle, on those politicians that are yet left
+ undecided, that can still be convinced with good arguments.
+ If they hear from people in their own language that truly care
+ about the issue they have to vote upon, we believe that focusing
+ on that movable middle with giving people a voice is a great way
+ to actually increase the quality of the laws that get adopted.
+ And so to sum things up, what we try to solve with this tool
+ is to really make it easy for users to engage with the EU.
+ The EU is a difficult beast.
+ There is process, there is trust books, there are 705 MEPs.
+ You really have a hard time trying to even get your opinion
+ to the person that could theoretically vote on this.
+ And so we try to abstract everything that concerns the EU machinery.
+ You only need to care about the issue and make your own voice heard.
+ Of course, if you do international calls, they should usually be a cost.
+ Particularly if you do this seriously, there could be roaming charges
+ depending on the price of your mobile phone contract.
+ That will not be the case with our tool, because we call the user.
+ There is no cost at all for a citizen.
+ We believe that we have an obligation as providers of this tool
+ to really maximise the time that people are donating.
+ The users are volunteers, they don't get paid for that.
+ They care about something.
+ And really making the most out of the 20, 15, 30 minutes a week
+ that they want to contribute for an issue is our obligation.
+ And that's why we try to maximise the impact from every phone call.
+ As I said, don't call us, we call you.
+ And most importantly, and that's the difference to the copyright campaign
+ we did in 2019, this is a white label solution.
+ So it will be usable for these rights campaigns, but also for climate,
+ for migration issues, for any issue that people care about.
+ And that's also why we released the software under a GPL license,
+ because it's our belief that the path to parliament
+ should be as long or as short for everybody.
+ In a democracy, everybody should have equality
+ when it comes to influencing politicians and decision makers.
+ And I think that's, yeah, there's also concept note.
+ We haven't published this yet, but that's freely available
+ for people that want to engage.
+ It gives a good outline of what we try to achieve,
+ what also future development steps would be.
+ But let's leave it at the theoretical level,
+ and I would love to show you the demonstration
+ of the tool that we already have.
+ Right, yeah, so that's the demo.
+ So this is where things can actually go wrong, right?
+ So as you can see, I'll just...
+ We have handouts for the people who are there.
+ That's the URL, it's live right now.
+ It's chatcontrol.dermep.eu.
+ Just a small announcement, this is live and accessible for the camp right now.
+ We will probably, like, password protect it later on at some point.
+ So if you're watching a recording of this and you can't access the site,
+ yeah, then it's over.
+ So what you see here is basically the page you're seeing
+ when you first open the tool.
+ You can switch the language.
+ So right now we have it available in German, English, and Swedish.
+ And as I said, here's where things go wrong, right?
+ Let me just refresh this real quick.
+ Let's hope we have an internet connection here.
+ Internet conferences are prone to weak internet connection.
+ But the thing is, I have a local instance running as well,
+ so I can just use that, right?
+ OK, so yeah, you can switch the language,
+ and also there's a geolocation built in.
+ So whenever you access the site for the first time,
+ it will detect which country you are coming from.
+ This is all done without third-party services,
+ so we really focus a lot on privacy here.
+ So you can see there's a lot of countries in the EU,
+ and I can simply say, OK, I'm from the Netherlands,
+ and it will suggest a member of parliament from there to me.
+ So this is basically what the system thinks that...
+ or one of the persons that the system thinks
+ that would be beneficial to call.
+ If you don't like calling this particular person,
+ you can always press this refresh button,
+ and it will suggest someone different.
+ But you can also say, if you like...
+ You can also use the search function right now.
+ If you just click it, it will show you every MEP from the Netherlands,
+ but you can also search for your favorite politician
+ or something like that.
+ And just select that one.
+ So we also have here a lot of social media profiles
+ and other ways to contact these persons.
+ Also, the phone numbers, for example,
+ there's a calendar built in
+ because they switch between Brussels and Strasbourg.
+ So the system will always give you the right number
+ for where they are right now.
+ And, yeah, if I just have this person,
+ I would...
+ If I want to call Axel Forze right now,
+ I could say, "Call now."
+ So...
+ And here we are at the point
+ where you have to give us your phone number.
+ That's the only piece of identification from you that we get.
+ And, I mean, without your phone number, we can't connect you,
+ so that's fair game, I think.
+ So it just enters some kind of phone number.
+ And I...
+ Yes, I have read and accepted the privacy policy.
+ By the way, we already have a working privacy policy
+ if you're interested in that.
+ And...
+ So it's...
+ I click it, it sends me a code on my mobile phone.
+ "Oh, yeah, all right, my code is...
+ "1, 2, 3, 4, 5, 6, of course."
+ And...
+ I verify this. So, yeah.
+ We are now successfully verified with this number.
+ And we can now start a call.
+ So what would happen in this instance,
+ not right now,
+ is that our phone would ring
+ and we would pick up the phone
+ and some nice voice, maybe of Thomas or someone else,
+ would say, "OK, hi, this is DRMEP.
+ "Would you like to be connected to Axle Force?"
+ And then you could, like, press 1 or 2 or something like that,
+ and you would be connected to the office of Axle Force.
+ So let's click Start Call,
+ and we'll call you right away.
+ And as you can see, there are talking points right here.
+ So ignore this for a moment.
+ This is just the mock-up.
+ So this is already showing what you would see
+ if the call were over.
+ So we have a lot of talking points
+ which you can scroll through during your call
+ to aid you in...
+ Yeah.
+ In talking to the person.
+ And after the call,
+ you are able to give some feedback,
+ like, "Were you able to convince the person?"
+ Let's click Yes with Axle Force. Come on, let's say.
+ Axle Force voted against...
+ ..terminology, like, the thing that just reclassified
+ "call power" as green.
+ He was actually with Fridays for Future.
+ So Axle Force is convincing on some issues.
+ Let's not give hope up on it.
+ And the beauty of that here is that, of course,
+ the system is learning.
+ If enough people have said,
+ "Yeah, I have convinced this politician,"
+ they will actually move to the green corner
+ and be out of the movable middle.
+ So the system is actually learning.
+ You don't need to divide up with Axle Sheets,
+ the members of parliament.
+ Everybody can just use that tool.
+ And you are always connected to the person
+ who is most likely to be influenced,
+ who can make a difference,
+ and the system always learns
+ from the users that are using it.
+ Right. So you can give additional feedback
+ if you want to, and we just click "Submit".
+ So we're back on the page.
+ We could instantly choose another person,
+ and let's show us the second feature.
+ We can also call later.
+ So what's "call later"?
+ Call later allows you to enter a schedule.
+ Maybe you're like, "OK, I have time each Tuesday
+ at around, I don't know, 13.30 to talk to a politician,
+ because that's right after my lunch break.
+ I am in a good mood,
+ and I would like to talk to a politician.
+ And on Thursday, my lunch break is basically on 1 o'clock
+ or something like that.
+ So you can enter different times for different workdays,
+ or you can just leave it like that,
+ and you can say "Confirm", and basically that's it.
+ So what would happen right now is the system would call you
+ on Tuesday at 13.30 or around 13.30,
+ and ask you, "Do you have time right now?
+ Do you want to be connected to Berg Lars Patrik?"
+ And yeah.
+ And the reason for that is that we know that,
+ particularly for nerds, maybe for everybody,
+ speaking with foreign people is not easy.
+ We know that this is a high ask, that actually picking up the phone,
+ speaking with politicians is a big favour we're asking from people.
+ But those people that are willing to do this once,
+ most likely will do it again.
+ And by maximising this slow conversion rate of those people
+ that truly care, that we want to speak with their parliamentarian,
+ and letting them do it again, maybe get really good at it,
+ that's also a beauty of this talk.
+ Again, we are nudging people, whenever we call you,
+ there will be the option "Press 9" and the subscription is cancelled.
+ And as I said, there's a privacy policy already in place,
+ the GDPR compliant, yes, we adhere to the law,
+ and we are very strict with the data that we process.
+ Most phone numbers are hashed and encrypted,
+ only in active call subscriptions where we need the number to connect to,
+ then we have it actually in the database.
+ But we try to be as privacy preserving and minimalistic as possible with all of that.
+ And as we are out of time, I'd just briefly like to say before I go to Q&A,
+ that this tool right now will be applied for the chat control campaign,
+ we are still in development, we are also here to talk with the community,
+ to get your feedback and your input, maybe also get some help
+ with testing, penetration testing, development and so forth.
+ But at this stage, it's really something that we, after chat control has passed,
+ hope to release in this HPPL license, that we have something that's forever truly available
+ for the community to engage with MVPs.
+ Thank you.
+ Thank you so much for your talk.
+ So, we have decided beforehand that you are going to do the Q&A offline outside of the tent,
+ because we are out of time here for this stage,
+ but these two speakers will still be available for your questions,
+ just we won't be using our kind angel team back there for the technology there.
+ So, thank you all for coming here.
+ Please give another round of applause to our speakers.
+ [ Applause ]
+ [ Music ]

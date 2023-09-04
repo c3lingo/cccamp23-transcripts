@@ -1,0 +1,556 @@
+1
+00:00:00,000 --> 00:00:22,000
+ [Musik]
+
+2
+00:00:22,000 --> 00:00:26,000
+ Hallo und herzlich Willkommen zu der Morgen-Show.
+
+3
+00:00:26,000 --> 00:00:31,000
+ Wir haben Tag 3, ihr habt eine weitere Nacht überstanden, die hoffentlich sehr lustig und spaßig war.
+
+4
+00:00:31,000 --> 00:00:36,000
+ Und Achtung, Achtung, für alle, die das Gelände verlassen, draußen ist Donnerstag.
+
+5
+00:00:36,000 --> 00:00:41,000
+ Ja, die Nacht war, wenn ich das richtig gesehen habe, trockener als gestern.
+
+6
+00:00:41,000 --> 00:00:44,000
+ Die Nacht, da kommen wir aber noch später dazu.
+
+7
+00:00:44,000 --> 00:00:51,000
+ Dennoch gab es eine kleine Drohung, dass es vielleicht demnächst keinen Nachtisch mehr in der Engelküche geben wird.
+
+8
+00:00:51,000 --> 00:00:53,000
+ Aber dazu auch später.
+
+9
+00:00:53,000 --> 00:00:58,000
+ Erstmal kommen wir zu den Teams. Es gibt hier einige Teams auf dem Gelände.
+
+10
+00:00:58,000 --> 00:01:00,000
+ Wir haben ja auch schon einige Shows gebracht.
+
+11
+00:01:00,000 --> 00:01:06,000
+ Ein Team, was wir euch gerne noch vorstellen wollen, dazu gibt es heute Abend etwas mehr, ist die Chaos Post.
+
+12
+00:01:06,000 --> 00:01:10,000
+ Und hier haben wir einen kleinen Sneak-Preview für euch.
+
+13
+00:01:10,000 --> 00:01:15,000
+ Es gibt nämlich ganz tolle neue Postkarten, die es morgen eigentlich erst geben wird.
+
+14
+00:01:15,000 --> 00:01:20,000
+ Heute könnt ihr diese schönen Postkarten bei der Post eventuell schon bewundern.
+
+15
+00:01:20,000 --> 00:01:25,000
+ Und bei uns am WokTV-Container könnt ihr sie auch schon abholen.
+
+16
+00:01:25,000 --> 00:01:30,000
+ Die ersten zwei bekommen diese beiden Karten bzw. jeweils eine.
+
+17
+00:01:30,000 --> 00:01:35,000
+ Also geht bei der Post vorbei, kommt bei uns vorbei, holt euch die Karten.
+
+18
+00:01:35,000 --> 00:01:39,000
+ Und bei der Post könnt ihr noch sehr viele weitere Postkarten anschauen.
+
+19
+00:01:39,000 --> 00:01:45,000
+ Das sind so viele, dass man eigentlich ein kleines Museum brauchen müsste.
+
+20
+00:01:45,000 --> 00:01:51,000
+ Ein weiteres Team, ohne dass wir hier gar nicht irgendwie zurecht kämen, ist der Himmel.
+
+21
+00:01:51,000 --> 00:01:54,000
+ Davon dürften viele schon einiges mitbekommen haben.
+
+22
+00:01:54,000 --> 00:02:00,000
+ Aber da laufen immer so viele Menschen rum, dass die meisten, glaube ich, gar nicht wissen, was da alles passiert.
+
+23
+00:02:00,000 --> 00:02:06,000
+ Deswegen sind wir da einmal vorbei gegangen und haben uns angeschaut, wie das Ganze funktioniert.
+
+24
+00:02:06,000 --> 00:02:08,000
+ Viel Spaß!
+
+25
+00:02:08,000 --> 00:02:12,000
+ Ihr seid vom Heaven. Was macht der Heaven denn?
+
+26
+00:02:12,000 --> 00:02:19,000
+ Der Heaven ist die Koordinierungsstelle von Menschen, die auf dem Event helfen möchten gegenüber Menschen,
+
+27
+00:02:19,000 --> 00:02:26,000
+ die während des Events oder vor dem Event Hilfe oder vielleicht auch Unterstützung für Aufgaben haben,
+
+28
+00:02:26,000 --> 00:02:31,000
+ die das Event betreffen oder um das Ganze noch während des Events weiter in Gang zu halten.
+
+29
+00:02:31,000 --> 00:02:35,000
+ Unsere Freiwilligen machen das so in ihrer eigenen Zeit.
+
+30
+00:02:35,000 --> 00:02:40,000
+ Es ist immer interessant, wie gut das auch immer funktioniert und wie wir da vielleicht manchmal auch
+
+31
+00:02:40,000 --> 00:02:44,000
+ von anderen Veranstaltungen interessiert beobachtet werden.
+
+32
+00:02:44,000 --> 00:02:48,000
+ Auf was zur Veranstaltung seid ihr denn vertreten?
+
+33
+00:02:48,000 --> 00:02:52,000
+ Auf den verschiedensten Veranstaltungen tatsächlich.
+
+34
+00:02:52,000 --> 00:02:59,000
+ Also im deutschen Raum kannst du natürlich an den CCC denken, mit dem Congress und dem Camp.
+
+35
+00:02:59,000 --> 00:03:06,000
+ Aber es gibt natürlich auch verschiedenste Spin-offs, die dann nicht immer der komplette Heaven macht,
+
+36
+00:03:06,000 --> 00:03:13,000
+ aber zum Beispiel Teile des Heavens. Da könnten wir an die GPN denken, an die Easter Hack.
+
+37
+00:03:13,000 --> 00:03:17,000
+ Wir haben tatsächlich auch heute eine Anfrage bekommen von einem Wesen,
+
+38
+00:03:17,000 --> 00:03:22,000
+ das das Engelsystem gerne in die USA exportieren würde auf Veranstaltungen.
+
+39
+00:03:22,000 --> 00:03:27,000
+ Vielleicht kann der Heaven da auch mitwirken. Who knows? Tatsächlich relativ breit gefächert.
+
+40
+00:03:27,000 --> 00:03:31,000
+ Du hast gerade das Engelsystem erwähnt. Erzähl doch mal, was du da gemacht hast.
+
+41
+00:03:31,000 --> 00:03:37,000
+ Ja, das Engelsystem ist ein Open Source Projekt auf GitHub.
+
+42
+00:03:37,000 --> 00:03:41,000
+ Das heißt, theoretisch können alle Leute mitmachen und auch gerne Issues erstellen.
+
+43
+00:03:41,000 --> 00:03:50,000
+ Das Engelsystem ist so ein bisschen die gewachsene freiwillige Organisation.
+
+44
+00:03:50,000 --> 00:03:52,000
+ Betreuung manchmal.
+
+45
+00:03:52,000 --> 00:04:00,000
+ Genau. Woran natürlich die meisten denken ist irgendwie Schichtorganisation oder verschiedene Engeltypen.
+
+46
+00:04:00,000 --> 00:04:10,000
+ Zum Beispiel beim Zert, dass die Menschen die Qualifikation mit dem Erste-Hilfeschein haben oder Ärzt*innen eine Approbation.
+
+47
+00:04:10,000 --> 00:04:15,000
+ Aber gleichzeitig ist es auch ein System, um Fragen zu stellen, um Fragen zu beantworten.
+
+48
+00:04:15,000 --> 00:04:23,000
+ Das finde ich auch ganz gut, dass wir ein großes FAQ haben und auch die Fragen und Antworten relativ schnellzeitig sind.
+
+49
+00:04:23,000 --> 00:04:27,000
+ Wir können ja auch meistens Informationen an unsere Engel schreiben.
+
+50
+00:04:27,000 --> 00:04:38,000
+ Wir haben verschiedene Rollen, wie das gerade auch schon angesprochen wird, die eventuell eine Vorbildung brauchen und somit nicht dem öffentlichen Engel direkt zugänglich ist.
+
+51
+00:04:38,000 --> 00:04:47,000
+ Wenn es dafür entsprechende Introduction Meetings gibt oder auch andere Informationen, versuchen wir die immer über das New System, das Engelsystem zu propagieren,
+
+52
+00:04:47,000 --> 00:04:59,000
+ damit dann die Interessenten, die sich für eine bestimmte Rolle interessieren, dann auch entsprechend abgeholt werden und eventuell auch den entsprechenden Kontakt zu der Gruppierung erhalten können.
+
+53
+00:04:59,000 --> 00:05:06,000
+ Ihr sagt gerade, dass die meiste Schichtkoordination über das Engelsystem läuft. Was ist denn euer Job?
+
+54
+00:05:06,000 --> 00:05:12,000
+ Betreut ihr dann nur die Fragen und das Q&A im Engelsystem oder habt ihr noch Aufgaben drum herum?
+
+55
+00:05:12,000 --> 00:05:20,000
+ Wir machen auch die konkrete Erstellung der Schichten häufig. Wir haben einige Methoden schon. Wir sind faule Informatiker.
+
+56
+00:05:20,000 --> 00:05:26,000
+ Wir versuchen Dinge zu automatisieren. Das heißt, gewisse Sachen, die wir im Vorfeld schon abschätzen können, versuchen wir über eine Schnittstelle einzulesen.
+
+57
+00:05:26,000 --> 00:05:32,000
+ Aber es gibt immer wieder Anforderungen, dass Teams zu uns kommen und uns das über ein Ticket einkippen und sagen,
+
+58
+00:05:32,000 --> 00:05:48,000
+ wir bräuchten bitte diese Schichten mit den und den Ansprüchen für den und den Zeitraum in der und der Konfektionsgröße. Und dann legen wir die meistens an und geben dann das Feedback, dass die halt da sind, um das zu entsprechenden Begutachtungen frei zu geben.
+
+59
+00:05:48,000 --> 00:05:56,000
+ Wir haben weiterhin auch noch die Situation, dass es auch immer mal so ad hoc, als auch die Situation gibt, dass Arbeit gesucht wird.
+
+60
+00:05:56,000 --> 00:06:02,000
+ Das bilden wir halt auch ab. Das sind unsere sogenannten Springer Engel. Die verwalten wir natürlich selber und da machen wir das Schichtmanagement.
+
+61
+00:06:02,000 --> 00:06:07,000
+ Also einmal für den Komplex, aber auch für unsere eigene Organisationsstruktur und Aufbau-Struktur selbst.
+
+62
+00:06:07,000 --> 00:06:11,000
+ Wie läuft eure typische Schicht ab?
+
+63
+00:06:11,000 --> 00:06:35,000
+ Das ist die erste Linie, die den direkten Kontakt mit unseren Engeln hat. Die nehmen dann ihre Anfragen entgegen. Vielleicht ist ein Engel da, der jetzt gerade erst auf dem Event angekommen ist.
+
+64
+00:06:35,000 --> 00:06:46,000
+ Dann setzen wir den in den sogenannten Arrived-Status, dass wir wissen, dass der Engel da ist. Es sind da erst mal die gängigen Fronttestfragen und Herausforderungen eingekippt werden.
+
+65
+00:06:46,000 --> 00:06:57,000
+ Wir haben eine sogenannte zweite Reihe, weil wir nicht nur den direkten Kontakt mit den Menschen haben, sondern uns ja auch über Tickets oder andere Anfragen entsprechende Informationen erreichen können.
+
+66
+00:06:57,000 --> 00:07:07,000
+ Dafür haben wir unsere sogenannte zweite Reihe, unsere Second Line. Die sind primär dafür da, um den Rückhalt zu machen, wenn ein Engel gerade vorne auch ein bisschen überfordert ist, damit er sich dann auch umdrehen kann.
+
+67
+00:07:07,000 --> 00:07:21,000
+ Vielleicht auch mal eine Frage nach hinten stellen kann, aber natürlich auch um unsere Tickets zu bearbeiten, unser Kanban-Board zu bespielen und vielleicht auch dann, wenn Anfragen da sind, die an dem Fronttest zu viel Zeit benötigen würden, auch eventuell anfangen zu telefonieren.
+
+68
+00:07:21,000 --> 00:07:39,000
+ Was wir noch abbilden möchten, um halt auch wirklich all unseren Engeln, die wir bei uns im Heaven haben, auch so ein bisschen so ein Sicherheitsnetz zu bieten, ist, dass Menschen, die schon sehr, sehr lange halt auch im Himmel unterwegs sind, eventuell auch eine entsprechende Vernetzung haben.
+
+69
+00:07:39,000 --> 00:07:53,000
+ Das so als letzte Linie, wenn gar keiner mehr weiß, was zu tun ist, dass wir dann da halt Leute haben, die sagen, okay, ich kenne Personen ausgewirkt, ich gehe da mal direkt hin und dann gucken wir, wie wir die Herausforderungen bewältigen.
+
+70
+00:07:53,000 --> 00:07:55,000
+ Super, vielen Dank.
+
+71
+00:07:55,000 --> 00:08:09,000
+ Ja, wer mehr über den Himmel erfahren möchte, kann einfach vorbeikommen in den Himmel und am besten, wenn man nicht weiß, wo der Himmel ist, gibt es einen ganz guten Trick, dort hinzukommen. Es gibt Gleise, die dort hinführen und auf diesen Gleisen fahren Züge.
+
+72
+00:08:09,000 --> 00:08:17,000
+ Und heute werden wir einen speziellen Zug haben, den Launch Train. Vielleicht wollt ihr den mal nutzen, um übers Gelände zu kommen und auch den Himmel zu finden.
+
+73
+00:08:17,000 --> 00:08:25,000
+ Jetzt habe ich einen besonderen Gast hier, STB, der uns mehr zu dem Launch Train erzählen wird. Was ist der Launch Train?
+
+74
+00:08:25,000 --> 00:08:36,000
+ Ja, ihr habt es vielleicht schon gesehen, wir fahren mit Zügen übers Gelände, schwer zu überhören, schöne Einzylinder-Diesel-Motoren, kleinere Motoren, aber nicht zu überhören.
+
+75
+00:08:36,000 --> 00:08:48,000
+ Und auf besonderen Wunsch von ein paar netten Menschen machen wir einen Sonderzug heute um 15 Uhr mit Musik, mit Bar, mit Waffeln, vielleicht noch ein bisschen mehr.
+
+76
+00:08:48,000 --> 00:08:59,000
+ Und wenn ihr direkt vorne einsteigen wollt, wenn wir losfahren um 15 Uhr, das ist hier oben, quasi neben dem Studio am Train Operations Center.
+
+77
+00:08:59,000 --> 00:09:09,000
+ Da starten wir um 15 Uhr, aber ihr könnt auch einfach unterwegs zusteigen. Wir halten an ganz vielen Punkten, wann immer da Leute stehen und mitgenommen werden möchten.
+
+78
+00:09:09,000 --> 00:09:12,000
+ Welche Punkte habt ihr denn so grob, wo ihr da halten würdet?
+
+79
+00:09:12,000 --> 00:09:23,000
+ Wenn ihr selber nachgucken wollt, sage ich als allererstes mal, auf c3talk.de gibt es eine Karte. Da seht ihr, wo die Züge sind und wo die Haltestellen sind.
+
+80
+00:09:23,000 --> 00:09:31,000
+ Da könnt ihr also selber gucken, wo ist der Zug gerade und dann einfach dahin kommen. Und wir fahren gegen den Uhrzeigersinn übers Gelände.
+
+81
+00:09:31,000 --> 00:09:37,000
+ Wir fahren hier am Marktplatz vorbei, dann am Himmel, dann so ein kleines bisschen durch den Backstage.
+
+82
+00:09:37,000 --> 00:09:49,000
+ Dann gibt es quasi unsere Geisterbahn. Da fahren wir durch die alte Stackebrandziegelei, durch den Tunnel. Fahrt gerne mit dem Zug durch, das ist sehr schön.
+
+83
+00:09:49,000 --> 00:09:57,000
+ Dann winken wir mal den Kollegen vom Lok zu und vom Nok. Und dann geht es hoch in Richtung Nordbahnhof.
+
+84
+00:09:57,000 --> 00:10:07,000
+ Dann biegen wir nach rechts ab in Richtung Alter Hafen, kommen dabei mit den Bäumen vorbei. Dann gibt es noch ein Hexenhäuschen hinten am Fluss.
+
+85
+00:10:07,000 --> 00:10:22,000
+ Dann kommen wir in die Marina und dann geht es weiter zurück aufs eigentliche Gelände. Bei MidiBase kommen wir vorbei, dann am Family und am Kids Village.
+
+86
+00:10:22,000 --> 00:10:33,000
+ Und dann zum guter Letzt noch der Chill-Floor, um das alles abzuschließen. Und dann sind wir wieder quasi bei uns am Train Operations Center bei den alten Werkstätten.
+
+87
+00:10:33,000 --> 00:10:40,000
+ Also einmal ein kompletter Überblick über das ganze Feld. Was für Wagen habt ihr dann grob dabei?
+
+88
+00:10:40,000 --> 00:10:47,000
+ Genau, also wer vor vier Jahren schon dabei war, kennt vielleicht den kleinen Zug. Da haben wir eine ganz kleine Lok aus Hamburg mitgebracht.
+
+89
+00:10:47,000 --> 00:10:54,000
+ Und haben uns ein paar kleinere Wagen hier von den Kollegen vom Ziegeleihpark geliehen und fahren mit diesem kleinen Zug ein bisschen rum.
+
+90
+00:10:54,000 --> 00:11:08,000
+ Dieser Lounge Train wird aber mit dem großen Zug fahren. Da haben wir sechs ganz lange Wagen, da passen ganz viele Menschen drauf. Jetzt im Sonderzug brauchen wir natürlich ein bisschen Platz für den Buffetwagen und für den Partywagen.
+
+91
+00:11:08,000 --> 00:11:12,000
+ Aber es wird genügend Sitzplätze geben, um auch in dem Zug mitzufahren.
+
+92
+00:11:12,000 --> 00:11:14,000
+ Gibt es Tickets?
+
+93
+00:11:14,000 --> 00:11:20,000
+ Wie hier die ganze Zugfahrerei. Ihr seid herzlich willkommen einfach einzusteigen.
+
+94
+00:11:20,000 --> 00:11:26,000
+ Okay und wann kann man sich denn aussuchen, ob man bei den Bällen mitfährt, bei den Waffeln oder bei der Bar?
+
+95
+00:11:26,000 --> 00:11:32,000
+ Das Highlight, danke für die Erinnerung, weil der Bälle-Badwagen jetzt gerade fertig geworden ist.
+
+96
+00:11:32,000 --> 00:11:42,000
+ Wir werden auch einen Bälle-Badwagen am Zug haben. Der ist natürlich nicht ganz so groß, wie wir schon Bälle-Bäder bei Chaos-Veranstaltungen gesehen haben.
+
+97
+00:11:42,000 --> 00:11:53,000
+ Aber wir können da bis zu drei Kinder oder zwei Erwachsenen Platz bieten. Also falls ihr mal mit dem Bälle-Bad wieder übers Camp fahren wollt, wie für acht Jahren, das geht dann ab heute Nachmittag.
+
+98
+00:11:53,000 --> 00:11:57,000
+ Okay, also nochmal für alle um 15 Uhr, wo genau sein?
+
+99
+00:11:57,000 --> 00:12:07,000
+ Alte Werkstätten auf der Karte N7 oder ihr sucht nach C3 TOC für Train Operations Center, da findet ihr uns dann.
+
+100
+00:12:07,000 --> 00:12:21,000
+ Okay, wer mehr wissen möchte, kann dann auch später nochmal oder im Anschluss bleibt einfach dran, genau, mehr über die Züge erfahren, die hier fahren, weil dann haben wir noch ein paar mehr Gäste, STB bleibt.
+
+101
+00:12:21,000 --> 00:12:27,000
+ Und dann unterhalten wir uns noch ein bisschen weiter über die Züge. Bis dahin habe ich noch ein paar Service-Informationen.
+
+102
+00:12:27,000 --> 00:12:41,000
+ Zum einen haben wir eben schon über die Engel gesprochen. Es gibt dort auch eine Engel-Verpflegung und um das Drama vom Anfang auf zu lösen, es fehlen dort nach und nach die Tassen für Tee und Kaffee.
+
+103
+00:12:41,000 --> 00:12:46,000
+ Und es werden stattdessen mittlerweile Schüsseln verwendet. Wenn diese Schüsseln alle sind, gibt es leider keinen Nachtisch mehr.
+
+104
+00:12:46,000 --> 00:12:56,000
+ Also bringt bitte die Tassen und Schüsseln zurück, wenn ihr welche mitgenommen habt, sonst müssen die ganzen lieben, armen Engel, die für uns alle arbeiten, ohne Essen auskommen.
+
+105
+00:12:56,000 --> 00:13:06,000
+ Eine weitere Ankündigung, wenn ihr Flaschenwasser genommen habt, geht bitte auch damit etwas vorsichtig um. Wir haben davon nicht wirklich viel.
+
+106
+00:13:06,000 --> 00:13:13,000
+ Stattdessen füllt bitte eure Flaschen auf. Auch dafür könnt ihr wieder beim Himmel vorbeikommen. Also es gibt viele Gründe, dort hinzugehen.
+
+107
+00:13:13,000 --> 00:13:20,000
+ Ihr könnt auch den Zug nehmen oder ihr geht zum Family Village, dort zum Spülzelt. Dort gibt es auch eine Wasserzapfstelle.
+
+108
+00:13:20,000 --> 00:13:29,000
+ Wasser ist vielleicht ein gutes Thema, davon hatten wir diese Nacht relativ wenig. Rasil, was ist eigentlich aus dem Gewitter geworden, was wir sonst immer nachts hatten?
+
+109
+00:13:29,000 --> 00:13:36,000
+ Ja, das Ausgefallen, das zieht da vorbei. Und damit Hallo zu unserem Campwetter heute.
+
+110
+00:13:36,000 --> 00:13:46,000
+ Ja, tatsächlich war es auch gestern so, dass wir diese feucht warme Luftmassengrenze so einmal in der Diagonalen über die Republik halt hatten.
+
+111
+00:13:46,000 --> 00:14:01,000
+ Das bedeutete, wir hatten seit gestern Abend die Situation, dass so schrittweise durch die Nacht über Koblenz, über Hannover, über Niedersachsen und Stendal bis zur Ostsee ein schweres Gewitter oder so eine Gewitterlinie gezogen ist.
+
+112
+00:14:01,000 --> 00:14:11,000
+ Wir sehen das jetzt so ein bisschen auf dem Bild hier. Da wo es so gelb-orange wird, an der Stelle sind relativ große Niederschläge über die Nacht gefallen.
+
+113
+00:14:11,000 --> 00:14:18,000
+ Und wir sind da so ein bisschen an dem rechten Rand gewesen. Das heißt, hier, wenn ich jetzt aus dem Studio gucke, ist es noch so ein bisschen schwach bewölkt.
+
+114
+00:14:18,000 --> 00:14:26,000
+ Aber man kann jetzt sagen, das Gewitter trifft uns nicht. Und diese Luftmassengrenze, die bleibt uns halt auch noch so die nächsten Tage erhalten.
+
+115
+00:14:26,000 --> 00:14:36,000
+ Das bedeutet, man hat so ein bisschen die Sache südlich dieser Linie, also auch München oder halt auch auch Würzburg erwarten heute Werte von teilweise über 30 Grad.
+
+116
+00:14:36,000 --> 00:14:44,000
+ Während wir hier oben eigentlich mit unseren 25 Grad noch dabei sind, noch kühler und regnerischer bleibt es so Hannover, Hamburg, auch in Schleswig-Holstein.
+
+117
+00:14:44,000 --> 00:14:54,000
+ Die sind dann nur so bei 20 Grad und kriegen halt richtig Regen ab. Aber wir wollen ja nicht nur nach Deutschland gucken, sondern es interessiert uns ja auch, wie wir das Wetter hier vor Ort haben.
+
+118
+00:14:54,000 --> 00:15:01,000
+ Das habe ich eben schon so ein bisschen angeteasert. Aktuell ist es noch stärker bewölkt. Das wird zum Nachmittag so ein bisschen auflockern.
+
+119
+00:15:01,000 --> 00:15:09,000
+ Und dann kriegen wir auch noch mal so ein bisschen Sonne. Also die Sonnencreme wegpacken ist keine Alternative und weniger Wasser trinken auch nicht.
+
+120
+00:15:09,000 --> 00:15:16,000
+ Da bleiben wir dabei. Werden wir schon gehört, immer schön eure Flaschen nachfüllen. Und der Wind, der bleibt aktuell so, wie er ist.
+
+121
+00:15:16,000 --> 00:15:25,000
+ Der weht gerade schwach aus nordöstlichen Richtungen. In der Nacht ist es dann so, da kühlt es, weil es noch ein bisschen aufklaren wird, ab auf so ungefähr 15 Grad.
+
+122
+00:15:25,000 --> 00:15:33,000
+ Und damit ist es eigentlich auch eine relativ gute Schlaftemperatur. Ab morgen wird es dann schon wieder ein bisschen wärmer werden.
+
+123
+00:15:33,000 --> 00:15:40,000
+ Das bedeutet halt auch diese Wärmebelastung, wenn die Sonne auf einen einstrahlt und man dann vielleicht ein bisschen zu wenig getrunken hat, die nimmt dann zu.
+
+124
+00:15:40,000 --> 00:15:48,000
+ Von daher ab morgen halt auch immer die gefüllten Flaschen dabei haben. Und zum Abschluss jetzt noch so eine kleine Auflösung von einer Frage.
+
+125
+00:15:48,000 --> 00:15:56,000
+ Wenn man so übers Camp rübergeht, kommt immer so, ja aber sag mal, wie ist denn das mit dem Sommer? Wir hatten die letzten Jahre so einen so viel besseren Sommer.
+
+126
+00:15:56,000 --> 00:16:01,000
+ Warum ist denn der dieses Mal so schlecht? Und dazu vielleicht noch so ein paar Zahlen und Fakten.
+
+127
+00:16:01,000 --> 00:16:12,000
+ Der Deutsche Wetterdienst gibt einmal im Monat so eine Statistik heraus, wie so Sonnenstunden, Temperatur und auch Niederschlag sich dann so für die Republik über den Monat abgezeichnet hat.
+
+128
+00:16:12,000 --> 00:16:24,000
+ Und da lässt sich halt tatsächlich sagen, was sonst aber auch immer eher so ein bisschen ungewöhnlich ist, der Juli 2023 war zu sonnig, zu nass, aber trotzdem noch zu warm.
+
+129
+00:16:24,000 --> 00:16:28,000
+ Und gerade wenn man sich so fragt, naja zu sonnig und zu nass, wie kann das gehen?
+
+130
+00:16:28,000 --> 00:16:35,000
+ Na ja, wenn wir ja teilweise so einen Regen hatten, wie vorletzte Nacht, dann ist das meistens immer so in Form von Starkregen gleich auch runtergefallen.
+
+131
+00:16:35,000 --> 00:16:44,000
+ Das bedeutet, wir haben eigentlich gute Sachen gehabt. Der Juli im Allgemeinen für Deutschland war im Schnitt zwei Grad zu warm.
+
+132
+00:16:44,000 --> 00:16:48,000
+ Die Metrologen gehen halt immer hin und gehen so über 30 Jahre ihre Temperatur mitteln.
+
+133
+00:16:48,000 --> 00:16:53,000
+ Und wenn wir auf dieses Mittel halt drauf gucken, war der Juli eigentlich schon signifikant zu warm.
+
+134
+00:16:53,000 --> 00:17:01,000
+ Da dazu lässt sich dann zum Abschluss sagen, eigentlich ist der Sommer, wie wir ihn jetzt haben, eigentlich unser Mitteleuropäischer Standardsommer.
+
+135
+00:17:01,000 --> 00:17:08,000
+ Und gerade so die Sommer der letzten Jahre mit der besonderen Hitze und der besonderen Dürre, das sind eigentlich so die statistischen Ausreißer gewesen.
+
+136
+00:17:08,000 --> 00:17:13,000
+ Also jetzt ist das eigentlich ganz okay und wir finden es auch ganz aushaltbar.
+
+137
+00:17:13,000 --> 00:17:18,000
+ Und von daher schönen Tag drei. Der soll erst mal so weit ganz trocken bleiben.
+
+138
+00:17:19,000 --> 00:17:21,000
+ Danke.
+
+139
+00:17:22,000 --> 00:17:38,000
+ [Krachen]
+

@@ -1,0 +1,416 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:33,680
+ How many people know what Nix is?
+
+4
+00:00:33,680 --> 00:00:39,000
+ NixOS is a very basic language.
+
+5
+00:00:39,000 --> 00:00:42,240
+ Well, Nix is a language and NixOS makes use of it.
+
+6
+00:00:42,240 --> 00:00:46,520
+ And all you do is describe your computer in basic ways.
+
+7
+00:00:46,520 --> 00:00:48,760
+ Like I want Firefox installed, or
+
+8
+00:00:48,760 --> 00:00:51,680
+ I want this behavior when the system boots up.
+
+9
+00:00:51,680 --> 00:00:54,560
+ And then it just goes ahead and does it.
+
+10
+00:00:54,560 --> 00:00:58,240
+ And you can apply that, it turns out, to mobile devices.
+
+11
+00:00:58,240 --> 00:01:00,440
+ So what is mobile NixOS?
+
+12
+00:01:00,440 --> 00:01:04,080
+ You can find out about it at mobile.nixos.org.
+
+13
+00:01:04,080 --> 00:01:07,080
+ And the author of this is Samuel Dior.
+
+14
+00:01:07,080 --> 00:01:09,800
+ I didn't make it, I just use it.
+
+15
+00:01:09,800 --> 00:01:12,400
+ So this is what it looks like.
+
+16
+00:01:12,400 --> 00:01:13,720
+ I was gonna try and show you it here, but
+
+17
+00:01:13,720 --> 00:01:15,960
+ I guess that's not gonna work out because it's too small of a
+
+18
+00:01:15,960 --> 00:01:17,240
+ screen and it's too bright.
+
+19
+00:01:17,240 --> 00:01:18,720
+ But you can hook it up to the monitor.
+
+20
+00:01:18,720 --> 00:01:21,240
+ You can put a USB hub into it.
+
+21
+00:01:21,240 --> 00:01:25,800
+ And you can have fun using your normal computer because
+
+22
+00:01:25,800 --> 00:01:28,160
+ phones are never going to be the same again,
+
+23
+00:01:28,160 --> 00:01:29,320
+ when people realize this.
+
+24
+00:01:29,320 --> 00:01:33,760
+ So you can use it like this, or you can use it like this.
+
+25
+00:01:36,400 --> 00:01:38,840
+ And this is the amount of code that I need to write, and
+
+26
+00:01:38,840 --> 00:01:41,760
+ I appreciate that it's not a good environment to show it often.
+
+27
+00:01:41,760 --> 00:01:43,200
+ But it's a very small diff.
+
+28
+00:01:43,200 --> 00:01:48,000
+ It looks like one, two, three, four, it looks like ten lines of code.
+
+29
+00:01:48,000 --> 00:01:53,560
+ I can make a NixOS configuration that already exists work on
+
+30
+00:01:53,560 --> 00:01:55,360
+ my phone instead of on my laptop.
+
+31
+00:01:55,360 --> 00:01:59,720
+ Now the work that made the kernel, the Linux kernel,
+
+32
+00:01:59,720 --> 00:02:02,680
+ work on this device has been done by Caleb Connolly.
+
+33
+00:02:02,680 --> 00:02:05,240
+ And they may be at this camp, I don't know if they're here, but
+
+34
+00:02:05,240 --> 00:02:08,320
+ they've done amazing work over the past two years, all spare time.
+
+35
+00:02:08,320 --> 00:02:12,320
+ And a lot of work is inherited from post market OS.
+
+36
+00:02:12,320 --> 00:02:15,960
+ I'm using a window manager called SXMO, which makes use of Sway,
+
+37
+00:02:15,960 --> 00:02:17,200
+ which is a tiling window manager.
+
+38
+00:02:17,200 --> 00:02:20,720
+ And it turns it into a sort of mobile operating system.
+
+39
+00:02:20,720 --> 00:02:22,840
+ By the way, you can also run Windows 10 on the phone if you
+
+40
+00:02:22,840 --> 00:02:24,960
+ want via this UEFI implementation.
+
+41
+00:02:24,960 --> 00:02:27,800
+ And by the way, we can run Android as well.
+
+42
+00:02:27,800 --> 00:02:30,960
+ So if you want to just escape to Android for a second, you can.
+
+43
+00:02:30,960 --> 00:02:33,720
+ You click one button and you've got Weidroid.
+
+44
+00:02:33,720 --> 00:02:36,680
+ And then you swipe to the left and you're back in full Linux.
+
+45
+00:02:36,680 --> 00:02:37,720
+ And how do we do that?
+
+46
+00:02:37,720 --> 00:02:39,720
+ It's that single line of code right there.
+
+47
+00:02:39,720 --> 00:02:43,280
+ So if anyone is skeptical of Nix and NixOS, you should check it out.
+
+48
+00:02:43,280 --> 00:02:45,840
+ And by the way, we can emulate x86 programs.
+
+49
+00:02:45,840 --> 00:02:49,760
+ So if we just run like Bitwig Studio or
+
+50
+00:02:49,760 --> 00:02:52,360
+ some program that runs under Windows, under Wine,
+
+51
+00:02:52,360 --> 00:02:56,160
+ it will just run on the device, just with this one line of code.
+
+52
+00:02:56,160 --> 00:02:58,320
+ And you can do local speech processing on the device.
+
+53
+00:02:58,320 --> 00:02:59,680
+ It doesn't take much time.
+
+54
+00:02:59,680 --> 00:03:02,160
+ Potential future, well, maybe we'll get USB-C and
+
+55
+00:03:02,160 --> 00:03:03,400
+ display ports everywhere.
+
+56
+00:03:03,400 --> 00:03:07,000
+ The demo I showed you of making it work on a monitor,
+
+57
+00:03:07,000 --> 00:03:09,120
+ that's just a hack because it works over USB.
+
+58
+00:03:09,120 --> 00:03:12,120
+ This doesn't have display port mode out of the USB socket.
+
+59
+00:03:12,120 --> 00:03:17,240
+ And by the way, everything's kind of insecure because there's no
+
+60
+00:03:17,240 --> 00:03:20,160
+ secure boot implementation, but in the future that could change.
+
+61
+00:03:20,160 --> 00:03:22,360
+ There's nothing stopping us from implementing secure boots on
+
+62
+00:03:22,360 --> 00:03:26,200
+ this device because it has a trusted platform module, etc.
+
+63
+00:03:26,200 --> 00:03:27,760
+ Phones that are worth using are rare.
+
+64
+00:03:27,760 --> 00:03:30,760
+ This is one in a million because this is a OnePlus 6.
+
+65
+00:03:30,760 --> 00:03:31,840
+ It's got 10 gigs of RAM.
+
+66
+00:03:31,840 --> 00:03:33,320
+ It cost $100.
+
+67
+00:03:33,320 --> 00:03:36,040
+ Maybe you should all go buy one, but then the price won't be $100
+
+68
+00:03:36,040 --> 00:03:37,600
+ anymore.
+
+69
+00:03:37,600 --> 00:03:40,680
+ Yeah, and this is kind of like the only phone that works this
+
+70
+00:03:40,680 --> 00:03:42,320
+ well at this time.
+
+71
+00:03:42,320 --> 00:03:44,720
+ Your phone is a computer.
+
+72
+00:03:44,720 --> 00:03:48,160
+ If we can get USB-C on every device, maybe we can get an open
+
+73
+00:03:48,160 --> 00:03:51,920
+ bootloader on every device as well.
+
+74
+00:03:51,920 --> 00:03:55,680
+ And the European Commission reckons that the USB-C
+
+75
+00:03:55,680 --> 00:03:58,720
+ connector saves a lot of money.
+
+76
+00:03:58,720 --> 00:03:59,920
+ How much money could this save?
+
+77
+00:03:59,920 --> 00:04:01,280
+ Because this isn't just a connector.
+
+78
+00:04:01,280 --> 00:04:03,600
+ This allows you to run any piece of software you want on your
+
+79
+00:04:03,600 --> 00:04:06,600
+ mobile device, and everyone's phone is probably enough
+
+80
+00:04:06,600 --> 00:04:08,880
+ computation for them.
+
+81
+00:04:08,880 --> 00:04:10,080
+ And that's it.
+
+82
+00:04:10,080 --> 00:04:10,880
+ That's my talk.
+
+83
+00:04:10,880 --> 00:04:15,400
+ Oh, actually, Stardust XR, it's a VR display thing.
+
+84
+00:04:15,400 --> 00:04:17,680
+ It allows you to pick windows up with your fingers and stuff
+
+85
+00:04:17,680 --> 00:04:18,080
+ like this.
+
+86
+00:04:18,080 --> 00:04:19,320
+ You could use it with these glasses.
+
+87
+00:04:19,320 --> 00:04:21,000
+ I've been using the phone with these glasses.
+
+88
+00:04:21,000 --> 00:04:23,200
+ If you think the display is too small, don't, because you can
+
+89
+00:04:23,200 --> 00:04:26,000
+ just put it on these glasses, and you can have a big monitor
+
+90
+00:04:26,000 --> 00:04:28,760
+ or a world of monitors around you.
+
+91
+00:04:28,760 --> 00:04:34,400
+ And many other disaster setups have been made by me that I
+
+92
+00:04:34,400 --> 00:04:37,800
+ can't show off because I don't have any time.
+
+93
+00:04:37,800 --> 00:04:39,040
+ Oh, yeah, the head computer.
+
+94
+00:04:39,040 --> 00:04:46,960
+ [APPLAUSE]
+
+95
+00:04:46,960 --> 00:04:49,960
+ Thank you.
+
+96
+00:04:49,960 --> 00:04:50,720
+ Cool.
+
+97
+00:04:50,720 --> 00:04:52,080
+ Oh, one last thing.
+
+98
+00:04:52,080 --> 00:04:54,200
+ If you want to see more about this, come to the Nixos tent
+
+99
+00:04:54,200 --> 00:04:56,320
+ next to Seabase, and you can hang out with me.
+
+100
+00:04:56,320 --> 00:04:58,680
+ And I'll be doing a talk about this tomorrow, if you're
+
+101
+00:04:58,680 --> 00:05:01,120
+ interested.
+
+102
+00:05:01,120 --> 00:05:02,360
+ Thank you very much.
+
+103
+00:05:02,360 --> 00:05:04,680
+ [APPLAUSE]
+
+104
+00:05:04,800 --> 00:05:09,760
+ [MUSIC PLAYING]
+

@@ -1,0 +1,561 @@
+ [Musik]
+ Thomas wird euch was erzählen über, wie es um Open Source in der Verwaltung
+ bestellt ist und welche Projekte es da so gibt und er beantwortet alle
+ relevanten W-Fragen, die er beantworten darf, soweit der Kram veröffentlicht ist.
+ Der Talk heißt "Public Money bei der Arbeit - Die deutsche Verwaltung und Open Source".
+ Dann bitte eine Runde Applaus und ich übergebe.
+ [Applaus]
+ Ja, dankeschön. Ist ja hier ausverkauft, würde ich sagen.
+ So viel Interesse. Gut, fangen wir mal an. Ich stelle mich noch mal kurz ausführlicher vor.
+ Was mache ich eigentlich, wenn jetzt hier noch die Bilder kommen würden?
+ Wäre das perfekt. Dankeschön.
+ Ich beschäftige mich eigentlich hauptberuflich mit Kubernetes und Security,
+ also Cloud Security. Habe auch irgendwann mal zwei Firmen gegründet.
+ Die eine hat als Open Source Firma angefangen, ist in der Google Cloud gelandet.
+ Sonst versuchen wir gerade Fehler in Azure und AWS zu finden, was auch eine dankbare Aufgabe ist.
+ Die letzten Projekte, die ich gemacht habe, waren im Wesentlichen Security und ganz besonders
+ in kritischer Infrastruktur, weil die das Kubernetes-Thema auch entdeckt haben.
+ Ich mache Open Source schon sehr lange, also seit 0.95.
+ Ohne mein Alter verraten zu wollen, könnt ihr daraus hochrechnen.
+ Ich mache jetzt hier Open Source und im Wesentlichen Cloud Native für die deutsche Verwaltung.
+ Ich war auch mal im Bundestag. Das ist also alles in den Folien, die sind verlinkt.
+ 2001, da haben die Abgeordneten aus Nürnberg die Bild-Zeitung gelesen,
+ als wir für SUSE da versucht haben, das durchzubekommen.
+ Wir haben es auch durchbekommen, aber nicht auf dem Client.
+ Das Geschäft gemacht hat nicht SUSE, sondern IBM.
+ Das war dann im Wesentlichen auch für lange Zeit das, was passiert ist.
+ Es gab so einen halbherzigen Wunsch, damals nach Open Source, aber nicht so wirklich.
+ Irgendwann 2019 ist eine Strategie aufgetaucht von PricewaterhouseCoopers.
+ Das hat dann eine strategische Marktanalyse gemacht und festgestellt,
+ dass die Verwaltung von Microsoft abhängig ist.
+ Es gibt auch eine von Deloitte, die sagt, dass die Datenbanken entweder von Oracle oder von Microsoft abhängig sind.
+ Das überrascht uns jetzt alle nicht wirklich.
+ Dann wurde ich eingeladen, weil die letzte Bundesregierung das schon ändern wollte,
+ dass wir mal über dieses Thema digitale Souveränität reden.
+ Ehrenamtlich ging es dann los mit diesem Projekt, das hieß "Ein Ort für öffentlichen Code".
+ Das ist also opencode.de.
+ Da gehe ich gleich noch etwas weiter drauf ein.
+ Ich habe dann auch gelegentliche Beiträge zur AG Cloud gemacht.
+ Das ist also die deutsche Verwaltungs-Cloud-Strategie, Rahmenwerk der Zielarchitektur.
+ Das Dokument ist da verlinkt.
+ Das ist so gefühlt anderthalb Jahre später, nachdem ich da eingeladen wurde,
+ tatsächlich veröffentlicht wurde vom IT-Planungsrat.
+ Parallel, 2020, habe ich noch eine Anfrage gehabt,
+ wir könnten hier mal Open Source sicherheitstechnisch auf Vordermann bringen
+ und würden dafür auch einen sogenannten Souverän-Tech-Fonds einrichten.
+ Da habe ich auch ein kleines Gutachten zugeschrieben.
+ Allmählich haben wir eine Infrastruktur, das heißt opencode.de,
+ was eigentlich ein GitLab ist, das verlangt OSI-Lizenzen.
+ Wir haben damals sehr lange über Lizenzen diskutiert
+ und konnten uns eigentlich nur darauf einigen,
+ ja, OSI-Lizenzen, da können wir die ganze Diskussion im Prinzip
+ über Lizenzen von der Linux Foundation übernehmen
+ und haben das auch in dieser deutschen Verwaltungsstrategie verankert.
+ Da findet ihr zum Beispiel den Bundes-Messenger.
+ Und ja, man kann schauen, ich werde auch dazu noch etwas erzählen,
+ was es noch für andere Projekte gibt.
+ Der Souverän-Tech-Fonds ist jetzt gegründet worden,
+ der ist also sehr interessant für Infrastrukturprojekte.
+ Der Prototype-Fonds, das ist eigentlich die kleine Schwester,
+ schiebt die Projekte an und der Souverän-Tech-Fonds hat also richtig
+ durchaus ein Budget, was sich lohnt, 10 Millionen im ersten Jahr,
+ ich hoffe, dass das durch die Haushaltsverhandlungen
+ ungefähr so geblieben ist und damit können dann auch größere Dinge,
+ die sonst niemand anfasst, mal überprüft werden.
+ Parallel dazu ist jetzt das Zendes entstanden,
+ das ist also keine Marmeladensorte,
+ das ist das Zentrum für digitale Souveränität.
+ Die suchen gerade Leute, das ist in Bochum,
+ für die Leute aus dem Ruhrgebiet.
+ Das wird tendenziell ein Open-Source-Programm-Office
+ für die öffentliche Verwaltung, im Wesentlichen für den Bund und die Länder,
+ aber da werden dann irgendwann Open-Source-Strategien entwickelt.
+ Also wer sich für sowas interessiert, einfach mal auf den Seiten gucken.
+ Digimatik baut übrigens auch in Ospo auf, München baut eins auf,
+ Dortmund hat eins schon, also da passieren gerade viele Dinge
+ in Richtung Open-Source-Programm-Office.
+ Gucken wir uns OpenCode mal genauer an.
+ Das Problem mit OpenCode ist, es ist nicht GitHub.
+ Ja, da war eine Frage?
+ Die Frage war, die Länder bauen jetzt auch Ospo auf,
+ ob das generell eine gute Idee ist, das föderal zu organisieren.
+ Die Open-Source-Programm-Offices sollen ja auch nach innen wirken,
+ die sollen auch der eigenen Verwaltung erklären,
+ wie man Open-Source richtig benutzt.
+ Von daher ist die Antwort ja.
+ Die werden nicht alle Strategien zu allen Open-Source-Projekten machen können,
+ die sollten zusammenarbeiten,
+ aber wenn eine Verwaltung was Besonderes braucht,
+ dann ist es natürlich auch gut, wenn sie in Ospo hat, was nach innen wirkt.
+ OpenCode.de, da war die Diskussion, wieso nehmen wir nicht einfach GitHub,
+ auf GitHub ist viel mehr.
+ GitHub gilt genau dasselbe, was für den Abgrund gilt.
+ Du blickst lange genug in einen Abgrund und irgendwann guckt der Abgrund zurück.
+ Also aus Datenschutzgründen, was GitHub mit den Daten der User macht,
+ die auf GitHub unterwegs sind,
+ kann man GitHub nicht verpflichtend für die öffentliche Verwaltung machen.
+ Wir wissen nicht, was da mit dem Code passiert,
+ jetzt mit den Code-Pilot-Sachen, wir wissen nicht,
+ bleibt das vertraulich, da werden von Microsoft in Teams bereits
+ das User-Verhalten ausgewertet,
+ passiert das auch auf GitHub, wissen wir nicht,
+ also ist es nicht möglich, das verpflichtend zu machen.
+ Ich kann natürlich ein Repository auf GitHub machen
+ und auf OpenCode spiegeln oder umgekehrt, das ist mir unbenommen,
+ aber aus Gründen der Rechtssicherheit der Verwaltung
+ ist also OpenCode das führende System für die Verwaltung.
+ Es gibt eine Lizenz-Compliance, wenn man sich das anguckt,
+ da sind erst mal am Anfang fürchterlich triviale Sachen,
+ also ein Adventskalender mit irgendwelchen Awareness-Tipps vom BSI.
+ Da ist aber auch sowas wie Lean zur Gestaltung von vitalen Innenstädten.
+ Was wir da auch gesehen haben, ist dieser Bundes-Messenger, abgekürzt BUM.
+ Das ist im Grunde ein Matrix für die Bundeswehr.
+ Jeder Drehbuchschreiber hätte das aus dem Skript gestrichen bekommen,
+ wenn er sich diesen Namen ausgedacht hätte,
+ aber so ist die Verwaltung manchmal.
+ Da findet man zum Beispiel auch, wie die entsprechenden Container gebaut werden von Matrix.
+ Da finden wir auch vom Robert-Koch-Institut inzwischen COVID-Sequenzen,
+ die stehen also unter irgendeiner Creative Commons-Lizenz.
+ Da stehen aber auch solche Dinge, was uns nie begegnet wird,
+ wenn wir uns als Deutsche die Vorab-Erfassung der Einreisebefragung werben.
+ Das ist also etwas, was man ausfüllen kann, bevor man nach Deutschland einreist,
+ dann hat man hier weniger Ärger mit dem Zoll bei der Einreise.
+ Das wusste ich auch nicht, dass es so etwas gibt,
+ aber ich reise ja auch nicht als Ausländer nach Deutschland ein.
+ Das muss man sich angucken.
+ Was ich jetzt bei der Vorbereitung festgestellt habe,
+ es gibt auch so etwas wie erste Ansätze einer elektronischen Gesetzgebung.
+ Also die Amerikaner sind da wesentlich weiter.
+ Die machen ihre Gesetzgebung in Git-Repositories
+ und dann kann jeder Commit getraced werden,
+ wer der Lobbyist ist, hat da welchen Beitrag geliefert.
+ Das wäre etwas, was wir uns wahrscheinlich in Deutschland auch wünschen würden.
+ Es gibt Ansätze, das müsst ihr halt eben in der lokalen Politik einfordern.
+ Ich möchte eigentlich wissen, wenn ein Gesetz entsteht,
+ wer hat wann welche Beiträge gemacht, was sind welche Diskussionen gewesen.
+ Das könnte ein Ausgangspunkt sein,
+ das wird sicherlich nicht von heute auf morgen passieren,
+ weil man das auch noch erklären muss, was es halt in Git,
+ wenn ich jemandem erkläre, der bisher nur Microsoft Word Dokumente schreiben kann,
+ wie man mit Git umgeht, am Ende ist es natürlich einfacher,
+ aber das ist nicht so straight forward.
+ Möchte die Justiz nicht explizit getrennt von der Verwaltung sein
+ und deswegen da auch vielleicht nicht dran hängen?
+ Das könnte man überlegen, da müsste die Justiz sich irgendwann eine eigene Instanz aufbauen.
+ Ja, aber erstmal ist es gut, dass es anfängt.
+ Wie man das hinterher organisiert, da wird sicherlich noch ganz viel darüber diskutiert.
+ Aber ich sehe das Argument ja.
+ Ihr könnt das alles anklicken in dem PDF, was ich da verlinkt habe in dem Vortrag.
+ Da seid ihr direkt in den entsprechenden Repositories.
+ Warum Open Coden?
+ Mein persönlicher Gang war mir das im Wesentlichen mit der Rechtssicherheit nicht so klar.
+ War mir eigentlich auch egal, ich komme aus der technischen Ecke.
+ Es muss unter staatlicher Hoheit sein, mit OSI-Lizenzen und so weiter.
+ Aber was ich eigentlich haben will, ist hier diese Möglichkeit, DevOps zu machen.
+ Und zwar später auch DevOps in richtig.
+ Das heißt, dieses GitLab, also dieses Open Code.de kann Bildprozesse anstoßen.
+ Das heißt, ich kann lokal in meiner Anstalt öffentlichen Rechts,
+ tatsächlich die COM1 macht sowas, Dataport macht sowas, viele machen sowas,
+ kann ich bei der Änderung in Open Code einen Bildprozess für Software anstoßen.
+ Das ist ein großer Alleinstellungsvorteil von Open Source.
+ Ich kann ja keinen Bildprozess anstoßen für Closed Source, weil ich den Source nicht habe.
+ Das heißt, wenn ich da jetzt eine Änderung mache, läuft bei mir im Prinzip eine Pipeline ab,
+ die im einfachsten Fall so aussieht.
+ Ich mache hier also im Prinzip etwas, was Continuous Integration fähig wäre.
+ Das heißt, es könnte eigentlich vom Bau bis zur Produktion durchlaufen.
+ Natürlich, die Regularien würden es nicht erlauben,
+ dass ich hier an der Stelle überall gleich auf Produktion deploye.
+ Sicherheitsüberprüfungen müssten da passieren, aber für einfache Sachen wäre das sicherlich möglich.
+ Also der Awareness-Kalender wäre sicherlich ein Kandidat, wo man sagen kann,
+ wieso muss das eigentlich noch jemand freigeben.
+ Das kann man sicherlich unkritisch machen.
+ Worauf ich euch auch noch hinweise,
+ der Awareness-Kalender, wenn der kritisch ist, dann haben wir ja, gut.
+ Wir können hier noch gucken, irgendwo ist jetzt hier ein Fenster aufgegangen.
+ Ich habe noch eine Frage zur Pipeline.
+ Ist hier bekannt, hier, das BMBK arbeitet ja gerade an der Vergaberechtsreform
+ und ich einfach festlegen möchte, in drei, vier Jahren muss einfach jeder Code,
+ der geliefert wird, auch in die Pipeline reinkommen und auf Open Code geliefert werden.
+ Wenn das eine einzelne Behörde ausschreiben möchte, gibt es hier keine Angebote,
+ sondern muss man mit der Marktmacht der öffentlichen Hand sagen,
+ wir hätten jetzt gerne hier ein Commit im Git und wir hätten den SBOM dazu und die Pakete dazu.
+ Das muss man als Deutschland fordern, weil wenn das jetzt, weiß ich nicht,
+ das CommOne ausschreibt, gibt es ja keine Angebote.
+ Die CommOne ist eigentlich Ausführung des Organ, die lässt diese Pipeline laufen,
+ aber natürlich die Regularien, wer diese Pipeline fordern kann, das ist irgendwie Beschaffung.
+ Und das wird natürlich dauern, weil in dem Moment, wo ich sowas fordere,
+ werden alle bisherigen Open Source oder alle bisherigen Softwarelieferanten der Verwaltung sagen,
+ nee, das ist viel zu kompliziert, das geht nicht, CI/CD, das ist ja irgendwie fehleranfällig
+ und ich kenne die Argumentation, ich habe die erste CI/CD Pipeline,
+ größeren Stil, vor 12 oder 13 Jahren eingeführt.
+ Die Argumente sind alle durch Gewöhnung hinfällig,
+ aber die Gewöhnung dauert, je nachdem wie ich die Zeit messe, zwischen 2 und 5 Jahren.
+ Da müssen sich auch Leute dran gewöhnen, dass das ihnen das Leben erleichtert.
+ Übergangsfristen, also schön, wenn das BMWK das jetzt macht,
+ 5 Jahre wäre großzügig, ich hätte 2 Jahre reingeschrieben und dann gehofft, dass sie in 5 Jahren fertig sind,
+ aber das sind immer so diese strategischen Dinge.
+ Das ist tatsächlich Legislatur, also die Frage war, das sollte in einer Legislaturperiode sein,
+ das ist legislaturübergreifend, das hat bisher einen Regierungswechsel überlebt,
+ die Hoffnung ist, dass es auch einen weiteren Regierungswechsel überleben wird,
+ das muss sich aber dann in der Zukunft zeigen,
+ ich werde gleich auch noch verargumentieren, was da alles im Moment dran hängt.
+ Bei der Diskussion haben wir auch überlegt,
+ wie machen wir Metainformationen sichtbar zu diesen ganzen Sachen in Open Code
+ und da kam aus Italien die Rettung, die Italiener sind da an der Stelle schon weiter,
+ das ist also Docs Italia, die haben ein Public Code-Yaml sich ausgedacht
+ und dieses Public Code-Yaml beschreibt halt, wofür das Ganze ist, unter welcher Lizenz das steht,
+ welche Varianten es gibt, die haben also schon einen nationalen Software-Katalog,
+ also einen italienischen und die haben uns also mehr oder weniger eingeladen,
+ ja macht doch die deutschen Erweiterungen, es wäre tatsächlich sogar möglich,
+ landesspezifische Erweiterungen auf Bundesländerebene zu machen,
+ wie weit das Sinn macht, weiß ich nicht, also das haben wir dankbar damals angenommen
+ und einfach gesagt, das kann man sofort verwenden.
+ Worauf wir hinwollen in diesem ganzen Betrieb, das ist dieses GitOps,
+ das heißt die Operations sollen so automatisiert sein,
+ dass jeder Zustand im Betrieb aus einem Git-Repository kommt,
+ das heißt es läuft auch unter dem Thema Configuration as Code,
+ also die Konfiguration von Servern wird genauso verwendet wie Code
+ oder genauso verwaltet wie Code, das heißt eine Serveränderung kommt aus dem Git-Repository,
+ hat ein paar Sicherheitsimplikationen, weil ich kann natürlich nicht alles in Git-Repository speichern,
+ aber das kann man alles abfangen und handeln.
+ Wo wollen wir eigentlich wirklich hin und das Thema heißt DevSecOps,
+ das heißt wir wollen nicht nur diesen naiven DevOps-Ansatz machen,
+ wir wollen da auch Security tief verankern.
+ Das weiteste was wir da gesehen haben, kommt im Moment aus den USA,
+ zusammen mit der Cloud Native Computing Foundation.
+ CNCF ist ein Teil der Linux Foundation,
+ das heißt das ist im amerikanischen Open Source Kontext überhaupt kein Problem,
+ dass sie mit dem Verteidigungsministerium zusammenarbeiten.
+ Ich bin nicht so ein großer Freund des Militärs, aber die Ansätze sind vernünftig,
+ das heißt wir nehmen diesen DevSecOps-Prozess und fügen überall wo es nötig ist noch Security-Checks dazu.
+ Von diesen insgesamt, wenn ich richtig gezählt habe, 14 Checks kann ich 11 automatisieren,
+ bis auf das Thread Modeling, bis auf manuelles Pentesten
+ und bis hinterher die Security-Bewertung.
+ Damit habe ich die Möglichkeit im Prinzip diese Pipeline sicher aufzubauen.
+ Das ist BSI-konform, man muss das jetzt nur auf den IT-Grundschutz
+ und die entsprechenden technischen Richtlinien des BSI abbilden,
+ das ist durchaus eine ganze Menge Arbeit.
+ Datenschutz, da war doch was.
+ Datenschutz, ja wir kriegen das hin.
+ Das ist noch eine Aufgabe, ich bin da im Moment bei, das mit dem BSI zu verwerkstücken.
+ Wir müssen uns auch überlegen, BSI-Grundschutz kann keiner mehr lesen, das sind 4000 Seiten,
+ ich muss das abbilden, das ist im Prinzip die große Flughöhe
+ und das jetzt runterzubrechen auf technische Richtlinien und Grundschutz,
+ die in den einzelnen Behörden auch die Anforderungen erfüllen,
+ ist eine nicht zu unterschätzende Aufgabe.
+ Was haben wir noch drin, bemerkenswert, das kann alles aus Open Code getriggert werden.
+ Wir können automatische Security Scans einfügen,
+ das heißt wir können Statische Code-Analyse im Prinzip noch bauen,
+ wir können Container mit sowas wie OVASP-SAP prüfen,
+ können das bis in die Produktion liefern inklusive Logging, Monitoring und Alerting.
+ Das kriegen wir also idealerweise alles mit.
+ Wir werden natürlich niemals in kritischer Infrastruktur komplett automatische Prozesse kriegen,
+ aber dadurch, dass wir die bis im Prinzip zu dem letzten "Ich möchte jetzt hier releasen"
+ zu dem Button, den vielleicht jemand drücken muss, automatisieren,
+ kriegen wir eine ganz andere Geschwindigkeit in das Thema.
+ Also wir warten jetzt nicht mehr sechs Monate auf ein Patch oder sowas,
+ sondern wir müssen uns in die Lage versetzen, dass wir die Patches deutlich schneller ausspülen.
+ Was die öffentliche Hand eigentlich will, was sie alle wollen und wovon sie nicht reden,
+ sie wollen eigentlich eine DevSecOps Software Factory,
+ weil alle sind scharf hier auf dieses Enabling,
+ wir wollen den Leuten in der Verwaltung so viel Freiheit wie möglich geben.
+ Einige beschäftigen sich nur mit dem agilen Mindset, andere nur mit Cloud Software,
+ aber der Schatz, der gehoben wird und da, wo die Arbeit drinsteckt,
+ das ist hier diese ganze Automatisierung, wo ich also dieses CI/CD Pipelines mache.
+ Also dieser Teil zusammen hier mit den Regularien, das ist der anstrengende Teil,
+ wo man also wirklich das in der Einführung schon in kommerziellen Unternehmen sagen muss,
+ das dauert zwei Jahre und für die 80/20 Regel und für Vorbereitung, Nachbereitung fünf Jahre.
+ Das ist eine gemessene Größe, habe ich erlebt, in dem ersten Projekt halt.
+ Das war eine von den großen Internetbuden in Berlin,
+ ich kann es auch sagen, das ist Immobilienscout, die gehen sehr offen damit um.
+ Das war vor den Kubernetes Zeiten, da gab es noch kein Git, wir haben GitOps gemacht aus CVS heraus.
+ Kann man auch machen, mit Git ist es einfacher, aber das funktioniert halt.
+ Und das ist halt die große Aufgabe, die man nicht unterschätzen darf.
+ [Unverständlich]
+ Genau, hier habe ich zum Beispiel, wenn ich DevOps machen will, will ich eigentlich GSEC DevOps machen,
+ dann habe ich ja Audits zu berücksichtigen und so weiter, ja, der Datenschutz.
+ Da fehlt quasi noch das Gesetzespaket zum Thema, wie kann ich diesen gesamten Prozess noch agiler machen,
+ weil wir haben ja sozusagen so regelmäßige Freigaben, die man dann braucht für Datenschutz,
+ für Sicherheitsfreigaben, Sicherheitskonzepte, BSI-Geschichten, wo man halt so festgelegt ist,
+ die Höhe trifft sich viermal im Jahr und dann werden Dinge freigegeben
+ und das ist halt so im wöchentlichen Prozess eher nicht so machbar.
+ Das ist hier, ich habe Regulierung, also jeder dieser Punkte wird euch irgendwie,
+ wenn ihr das einführen wollt, Monate eures Lebens kosten.
+ [Lachen]
+ Ja, was ist eigentlich hier jetzt als Strategie rausgekommen,
+ das ist jetzt eine, ich hatte Cloud Native schon als Buzzword verwendet,
+ ist jetzt eine Cloud-Native-Strategie. Cloud-Native kommt aus dem Google-Umfeld,
+ das ist also aus dem Borg-Projekt, das war ein interner Witz von denen gekommen,
+ das war halt die nicht veröffentlichbare Infrastruktur von Google und da haben
+ sich irgendwann überlegt, greifen wir doch mal Amazon an, machen unsere
+ Infrastruktur open source und holen uns dann im Prinzip Anteile von von Amazon.
+ Ja und rausgekommen ist dann irgendwann ein Ökosystem, das ist hier die
+ Landscape der Cloud-Native Computing Foundation, das waren zu dem Zeitpunkt,
+ wo ich das gemacht habe, knapp 1200 Kacheln, es werden immer mehr, die
+ Amerikaner legen immer sehr viel Wert auf Börsenbewertungen und sowas, also
+ da stecken einige Milliarden an Start-up-Geschichten drin, das muss man
+ jetzt nicht alles ernst nehmen, wichtig ist halt, wir haben hier ein Ökosystem
+ von Dingen, die wir überwiegend verwenden können auf Basis der Apache-License und
+ die sind alle kompatibel mit dieser Idee von, wir können jetzt GitOps machen,
+ Konfigurationen kommen immer aus Repositories, also hier irgendwo sind die
+ Netzwerke, ich kann also eine Netzwerk-Definition machen aus einem Git-
+ Repository raus. Hier an der Stelle erschrecken immer die Netzwerker, weil die
+ wollen natürlich ihre komischen Netzwerk-Konstruktionen auf keinen Fall
+ mit irgendjemand anders teilen, es ist immer sehr viel Überzeugungsarbeit, ihnen zu
+ sagen, dass es damit eine zusätzliche Sicherheit gibt und keiner will ihnen ihre
+ F5s, Junipers und Ziskos wegnehmen, dann sind sie immer meistens beruhigt.
+ Wir müssen hier ein bisschen aufpassen, die
+ Automatisierung ist eingebaut, aber es gibt jetzt auch die ersten Tendenzen
+ dieses Ökosystem in Richtung Edge gehen zu lassen, das heißt, Edge-Devices sind
+ eigentlich Devices, ich könnte einen Laptop zum Edge-Device einer Cloud machen
+ und das im Prinzip komplett aus der Cloud heraus verweisen.
+ Das kann man beliebig weit treiben, Vorsicht, wir hatten immer früher diese
+ netten T-Shirts, die Cloud, das sind ja nur die Computer anderer Leute, ich habe
+ den Satz einfach mal umgedreht, dein Edge-Device oder dein Laptop ist
+ eigentlich nur das Edge-Device meiner Cloud. Das zeigt auch diesen totalitären
+ Ansatz, der möglich ist, auf den wir ein bisschen aufpassen müssen, weil ich kann
+ damit auch Konfigurationen erzeugen, wo ich sage, in diesem Netz ist kein
+ Computer mehr, den ich nicht kontrolliere. Da ist durchaus die Gefahr eines
+ totalitären Anspruchs, aber ich will das jetzt nicht nach vorne heben, also das
+ Schlimmste, was einem passieren kann, ist man hat irgendwann ein Edge-Device, das ist ein
+ Implantat oder so was und dann wird es aus der Cloud heraus verwaltet.
+ Ich glaube nicht da, wo wir hinwollen, aber das ist noch weit weg und gucken wir
+ halt weiter. Haben wir eigentlich die Kompetenz in Deutschland, so was zu
+ machen? Man fragt sich ja immer, ja Cloud, das sind die großen
+ Hyperscaler, nein, sind sie nicht. Wir hatten zum Beispiel den Severin Cloudstack,
+ das einzige Projekt aus dem Gaia-X Projekt, was irgendwie scheinbar Erfolg
+ verspricht. Von der Hochschule Osnabrück gibt es Ansätze, einfach eine Cloud in
+ einem Container auszuliefern. Das sieht dann so aus, das heißt, ich
+ habe eine ganze Cloud, die wird im Container ausgelegt, ich schließe dann einen Strom an,
+ ein Netz an und da fährt sich vollautomatisch die entsprechende
+ Cloud-Software hoch und ist dann in der Lage, die entsprechenden Arbeiten
+ durchzuführen. Also ich habe eine Installation, die vollautomatisierbar ist.
+ GovDigital guckt schon in diese Richtung, das heißt, viele Anstalten,
+ öffentlichen und rechts, werden gerade damit konfrontiert und bringen sich gerade in die
+ Lage, so was auszurollen. Da drin steckt tatsächlich noch eine
+ ganze Menge mehr, wenn noch mehr Komplexität haben möchte. Also Open Source
+ und Jura reicht nicht. Am Samstag gebe ich noch einen Vortrag über Energieverbrauch
+ von Rechenzentren, deswegen habe ich auch dieses Bild ausgewählt.
+ Man kann tatsächlich inzwischen kleine Einheiten so einrichten, dass sie
+ komplett aus Photovoltaik betrieben werden, gerechnet wird im Container und
+ die Kühlleistung geht in das lokale Fernwärme- oder Nahwärmenetz.
+ Und da drin läuft nur Open Source Software. Wenn ich das ernsthaft im großen
+ Maßstab machen würde, müsste ich mir natürlich über die Sicherheit dieser
+ Container Gedanken machen, alleine über die physische Sicherheit.
+ Irgendwelche Blechcontainer sind ja nicht irgendwie ein großes Hindernis
+ gegen Angriffe. So, wie eine Deployment Pipeline aus, das hatte ich eigentlich
+ schon mal erwähnt. Vorne machen wir Commit, hier machen wir Produktion.
+ Oben sind die DevOps-Schritte und unten sind also angedeutet schon mal die
+ Schritte, die man wirklich braucht, wenn man das Ganze sicher machen möchte.
+ Was wir uns jetzt leisten können, jetzt können wir wieder bei Google abgucken.
+ Was hat Google eigentlich für Maßstäbe oder für KPIs oder so etwas, um die
+ CI/CD Pipelines zu bewerten? Und da stehen dann im Wesentlichen Sachen drin
+ wie Deployment Frequency oder Lead Time for Changes oder Time to Restore Service
+ oder Change Failure Rate. Das sind die einzigen Parameter. Das heißt, an diesen
+ Parametern, das ist das einzige, was Google für sich misst, weil viel mehr auch nicht
+ messbar ist. Also können wir jetzt einfach mal anfangen, das in die Standards
+ reinzuschreiben, die wir haben. Bedauerlicherweise haben wir im Moment,
+ das ist tatsächlich bestätigt vom BSI, BSI hat weder eine richtige Cloud-Strategie
+ noch eine Supply Chain-Strategie. Es gibt also jetzt die ersten
+ brauchbaren Container und Kubernetes-Bausteine. Die ersten zwei, die sie
+ produziert haben als Grundschutz-Bausteine, waren Schrott. Die waren einfach
+ kompletter Unse. Was man dann auch sieht, es fehlen hier noch ganz viele Sachen.
+ Also wir haben überhaupt keine Definition, was ist die Sicherheit von
+ Deployment Pipelines. Wir haben sowas nicht wie Signatur-Richtlinien von
+ Containern. Natürlich dürfen Container, also die Software-Container nur
+ ausgeliefert werden, wenn sie irgendwie vernünftig abgesichert und signiert sind.
+ Wir haben ja noch nicht mal ein Let's Encrypt für die Verwaltung.
+ RFC 8555, das ist alles, was eigentlich eingerichtet werden muss als
+ umgebende Infrastruktur. Alles das hat Sicherheitsimplikationen.
+ Das muss gelöst und geregelt werden. Was wir eigentlich in Zukunft anstreben, ist,
+ dass wir in der Lage sind, sowas zu machen wie in Open Source Software, Time to Fix
+ sind 24 Stunden inklusive Tests und wenn wir dann einen geprüften und getesteten
+ Container haben, können wir den in 20 Minuten überall deployen.
+ Die 20 Minuten habe ich noch aus der Immobilienscout-Zeit mitgebracht.
+ 20 Minuten, wir können auch in fünf Minuten deployen, aber 20 Minuten brauche
+ ich, um das Deployment anzustoßen, an der Kaffeemaschine vorbeizugehen und zum
+ Betrieb zu laufen und zu gucken, ob wir da noch irgendwelche anderen Schäden
+ angerichtet haben. Das lässt sich alles machen.
+ Ja, was haben wir noch in den Clouds? Also das ist alles halbwegs modern.
+ Was wir auch gesehen haben, ist in dieser deutschen Verwaltungsstrategie, da gab es
+ also auch durchaus ein Hin und Her. Was man da reinschreiben musste, war zum
+ Beispiel, dass digitale Souveränität, das lieben die Juristen, dass das nicht
+ nur heißt, dass das Rechenzentrum in Deutschland steht, sondern dass gefälligst
+ auch die Schlüssel und die Krypto-Algorithmen austauschbar sein müssen
+ für die Verwaltung. Das heißt, ich kann mich nicht auf Krypto-Algorithmen
+ anderer Hersteller verlassen, ich muss sie selber bestimmen können. Wenn ich
+ die Idee habe, hier was aus der Sekunet und Pluto-Ecke von Siemens
+ kommt, nationale Kryptografie zu machen, das heißt eigene, nicht veröffentlichte
+ Krypto-Algorithmen, dann muss ich die auch ausrollen können und spätestens da
+ waren dann auch die Leute vom BWI sehr dafür. Das heißt, wir haben hier in der
+ deutschen Verwaltungsstrategie etwas, was wirklich dafür sorgt, dass die
+ Krypto, jedenfalls im Prinzip auf dieser Flughöhe, das muss natürlich alles
+ implementiert werden, unter der Kontrolle der Verwaltung ist oder unter Kontrolle
+ des BSI. Das hat dann eine Diskussion gegeben, also das hat eineinhalb Jahre
+ gedauert, bis das veröffentlicht wurde, dann haben wir vier Monate gedauert, bis
+ das alle gelesen haben und dann kamen auf einmal die drei großen Hyperscaler
+ und die Bitkom an und sagen, die deutsche Verwaltungsstrategie
+ will die Public Clouds verbieten. Nein, das geht auch in Public Clouds, aber ihr
+ müsst es halt hinkriegen. Ja, was haben wir hier angerichtet?
+ Wir haben jetzt also eine Schachtel DevOps gemacht in dieser
+ Version, also ganz viel Jaml, wenn euch die Augen bluten von Spaces, dann habt ihr
+ wahrscheinlich zu viel Jaml editiert und dann findet man hier, wir haben
+ diese Evolution gemacht, mal gucken was rauskommt.
+ Zusätzlich, ich gehe da jetzt schnell durch, haben wir den
+ Safarin Tech Fonds eingerichtet, das sind drei Frauen, die mit ein bisschen
+ Hilfe einfach mal die entsprechenden Budgets bereitgestellt haben, wenn wir
+ uns das angucken. Ich habe da also für diese Studie mit den
+ entsprechenden Softwareleuten, mit insgesamt vier Leuten ein Interview
+ gemacht und alle haben irgendwie gesagt, ja wir stoßen auf dieses Problem, alle
+ moderne Infrastruktur das gleich viermal zu erleben, an vier verschiedenen Stellen.
+ Das war bei GPG, das war bei Python, das war bei K9 für Android und das war für
+ Alpine Container. Die sagen alle, ja wir sind gut ausgestattet.
+ Dann fragt man nach den Prozessen, wie macht ihr eure Qualitätssicherung,
+ wie seid ihr mit dem letzten Audits umgegangen, wir haben den Code noch nicht
+ eingearbeitet. Wir hatten einen Audit, der von Red Hat bezahlt wurde, aber wir
+ hatten keine Ressourcen das einzuarbeiten. Das war also die
+ erschreckendste Antwort, dann sage ich, ihr seid halt nicht gut ausgestattet, weil ihr
+ halt die elementaren Sicherheitsprozesse nicht hinbekommt.
+ Also es heißt nicht nur Code strullen, sondern es heißt auch Code sicher
+ verwalten, Code sicher kriegen und Code sicher halten.
+ Wenn man sich die Projekte anguckt, die der Sovereign Tech Fond macht, da ist also Open
+ MLS bei, also Message Layer Security, das hat jetzt ein RFC gekriegt, das haben die
+ geerbt vom Prototype Fond. Da ist aber auch so was bei wie
+ die Verbesserung der Infrastruktur von JavaScript und von Python, wenn man
+ die Hochschulprofessoren für IT Security fragt, die fassen JavaScript nicht an.
+ Was man verstehen kann, das löst aber unser Problem nicht.
+ Das heißt, ich bin relativ dankbar, dass sie das machen, da sind auch ein paar
+ Exoten dabei, ich wusste gar nicht, dass Fortran einen Package Manager hat und
+ der supported werden muss. Die Älteren unter uns erinnern sich an Fortran, aber
+ das ist praktisch in jeder KI-Anwendung drin, weil Python das exzessiv benutzt
+ unten drunter. Python ist eigentlich nur Glue Code. Zenlys, wie gesagt, frisch
+ gegründet mit genau einem Geschäftsführer, Andreas Rekert-Lodde, wird
+ in Bochum eingerichtet. Was er so erklärt ist, dass das
+ Bundesministerium nicht in den Markt eingreifen darf. Er selbst darf nur
+ Talks halten innerhalb der Verwaltung und jetzt darf er auch als
+ Geschäftsführer auf der Froscon auftauchen und da erzählen, guckt euch
+ den Vortrag, wenn ihr da interessiert seid, im Detail an. Es ist also wirklich ein
+ Sprung jetzt, wo wir hoffen, dass das alles erfolgreich ist.
+ Ich selber bin so ein bisschen parteiisch hier, also ich bin im souveränen
+ Arbeitsplatz, der jetzt OpenDesk enthält. Der basiert irgendwie auf dem
+ Phoenix-Projekt von Dataport, ist aber jetzt die Cloud-Native-Version. Das heißt,
+ es klingt nach einem deutlichen Umbau. Also da werden nicht viel
+ Steine auf den anderen bleiben. Es wird Cloud-Native-Kubernetes sein,
+ DVS-konform, kann überall selber gehostet werden, also in der Basisversion, in
+ dem Minikube auf eurem Arbeitsplatzrechner oder auf eurem Laptop.
+ Das ist also das Ziel, die Deployment-Pipeline komplett auf OpenCode und
+ womit kämpfen wir im Moment? Ja, wir müssen im Prinzip jedes Produkt
+ austauschbar machen. Also es ist nicht nur Jitsi drin, es ist entweder Jitsi oder
+ BigBlueButton oder irgendwas anderes drin. Matrix ist drin von Element.
+ Es gibt aber Behörden, die sagen, die hätten lieber was anderes. Dann muss man
+ dann halt schauen, dass das alles passt. Das hat mich dann dazu gebracht,
+ irgendwie, ja wir haben jetzt nicht mehr den Jahr des Linux-Desktops, sondern wir
+ haben den Jahr des Desktops im Browser. Mal gucken, das soll
+ Ende des Jahres, also in der betreibbaren Version, Basisversion auf OpenCode.de
+ auftauchen. Die ersten Leute sagen, sie haben schon was installiert.
+ Das sind die Randbedingungen. Ganz viel Container, Helmcharts, das ist der Jaml-Teil.
+ Das ist also wirklich nicht angenehm, aber kein Konfigurationsmanagement.
+ Das System war bisher angenehm. Es ist BSE-konform. BSE arbeitet also mit im
+ Sinne von DevSecOps. Was wir sehen, wir zwingen die kleinen Open-Source-Hersteller
+ ihre Kronjuwelen Open-Source zu machen. Also für Google ist sowas wie
+ Kubernetes überhaupt kein Problem, das Open-Source zu stellen.
+ Aber wenn jetzt ein kleiner Hersteller sagt, mein Geschäftsmodell hängt davon
+ ab und das ist mein einziges Produkt, da gibt es natürlich die entsprechenden
+ Bedenken. Wir müssen das hinkriegen.
+ Großer Promoter von Open-Source ist die Bundeswehr über ihren Dienstleister BWI GmbH.
+ Ich wusste gar nicht, dass die irgendwie das Herkules-Projekt
+ überlebt haben und dann noch einen positiven Turn gemacht haben.
+ Die Interviews von BWI und von Element gibt es bei Heise.
+ Die sind halt sehr Cloud-Native-affin und die sind auch sehr Open-Source-affin.
+ Das ist jetzt ein Wimmelbild geworden, was wir also hier sehen. Der blaue Teil,
+ das ist hier Message Layer Security. Da haben mitgewirkt, meiner Meinung nach,
+ mindestens das Server-In-Tech von der Prototype. BWI fordert das. Das wird jetzt von
+ Element in Matrix implementiert und diese Verwaltungsstrategie kommt aus dem
+ IT-Planungsrat. Das sind also oben ganz klein 16 Länder und der Bund.
+ Das ist dieses schwerfällige Gremium, was entscheidet. Das hat diese deutsche
+ Verwaltungsstrategie geschrieben, wo Open-Source eigentlich bevorzugt jetzt ist.
+ Und damit müssen wir an der Stelle umgehen. Der Vorteil ist, wenn da 16
+ Bundesländer und der Bund entscheiden, ist das auch relativ schwer umkehrbar.
+ Es wird natürlich die entsprechenden Versuche geben. Also das erste, was da
+ rausgekommen ist, Message Layer Security jetzt mit RFC. Eigentlich ist das
+ Schachmat für Open-Source, aber ich hoffe, dass wir nicht mit Taubenschach
+ spielen. Wer dieses Bild kennt, weiß, dass das manchmal passieren kann.
+ Hier sieht man uns beim Entwurf einer Verwaltungsstrategie. Wo bleibt
+ eigentlich das Online-Zugangsgesetz? Ich mache hier einfach mal schneller. Das war
+ auf der Republika. Das ist entstanden vor diesem ganzen Kram und ist jetzt in
+ Version 2.0 gescheitert. Wenn die sich nicht an die Software Factory halten, dann
+ wird das auch in Version 3.0 und 4.0 scheitern. Das ist mit Ansage. Haushaltskürzungen
+ hat es gegeben. Ich überblicke das Ganze noch nicht so sehr, weil das ist
+ teilweise einfach mittel umgeschichtet worden. Das ging aber
+ durch die Medien. Ja und wenn wir Desktop sagen, wir haben
+ ja übrigens auch bereits ein lauffähiges in sicherheitskritischen Umgebungen
+ zertifiziertes Desktop. Das ist von V&C Laguna. Bernd ist hier, bevor ich hier das
+ Verkaufsgespräch beginne, fragt ihn lieber. Das heißt, wir haben insgesamt
+ vier Lösungen, die in verschiedener Ausprägung mit verschiedenen Details es
+ erlauben, eigene Clouds aufzusetzen. Es gibt also wenige Gründe noch jetzt
+ irgendwelche anderen Clouds zu machen, außer die Politiker wollen das.
+ Das sind tatsächlich Sachen, die man beobachten muss.
+ Bianca ist hier, die hat für die Gesundheitsämter das Ganze schon
+ abgefeuert und der Talk war auch auf der FrostCon.
+ Wir haben da auch so ein bisschen gezeigt, dass man Container relativ
+ einfach signieren kann. Jetzt in der neueren Version mit Lukas.
+ Das ist also Software, die ist ausgerollt in 100 Gesundheitsämtern und Bianca
+ fragt natürlich, wie hätte das denn anders als mit Open Source gehen sollen.
+ Da ist alles drin, Zero Trust, Datenschutz, Betriebsmodelle und jetzt komme ich zum
+ Schluss, wenn noch Fragen sind. Ich bin hier noch die nächsten Tage. Fragt mich
+ halt, sonst schickt mir Mails und ich habe eine Konferenz organisiert im
+ September über Open Source Security in Berlin.
+ Vielen Dank für den Talk. Ich glaube, wir haben tatsächlich noch Zeit für ungefähr genau eine Frage.
+ Oder zwei oder drei, je nachdem wie lange antworten.
+ Die ist auch relativ kurz, aber sie ist aufgeladen. Wir steuern langsam aber sicher auf den
+ Cyber Resilience Act zu und in ihm sind verschiedene Implikationen, die dafür
+ sorgen könnten, dass Open Source Entwicklung auf jeder Ebene und auch auf
+ verwaltungsstrategischer in die Bredouille kommen könnte. Wenn wir in
+ kritischen Komponenten Stufe 2 landen, dann sind wir da, wo eine CE-Kennzeichnung
+ durch dritte Audits gemacht werden muss. Habt ihr bereits Mechanismen, mit denen ihr
+ dieser Bedrohung begegnen könnt? Ich treffe morgen Mirko Böhm von der
+ Lenox Foundation Europe, die sich da sehr intensiv darum kümmern. Das ist ein
+ europäisches Problem. Es geht im Wesentlichen um die
+ Definition des Begriffs Commercial. Das ist ein echter Watzlawick. Was heißt
+ Commercial in dem Zusammenhang? Die Juristen wollen jede Aktivität, auch
+ diese hier ist eigentlich kommerziell, weil ich bin Freiberufler, ich mache hier Werbung,
+ als Commercial deklarieren und das ist natürlich nicht im Sinne des Erfinders.
+ Ich weiß aber nicht, was da jetzt gerade raus ist. Ich hoffe, ich erfahre morgen
+ genaueres. Aber diese CAA, ich halte ihn, also ich schwanke inzwischen so zwischen,
+ ist eigentlich völlig harmlos, ist nur ein Missverständnis und es ist ein sehr
+ ernster Angriff auf Open Source. Ich weiß es halt nicht, wie die Kämpfe da
+ hinter den Kulissen sind. Hinter den Kulissen laufen manchmal sehr
+ unfaire Kämpfe. Danke, der Signal Angel hat noch eine Frage aus dem Internet.
+ Matthias möchte gerne wissen, was ist die Rolle der Bundes-Cloud in diesem
+ Konstrukt in Bezug auf OpenDesk, Hyperscaler und so weiter?
+ Er fragt hier, die wollen das ja selber hosten. Genau, das kann also, das ist
+ wahrscheinlich das ITDZ Bund, dass er selber hosten kann. Da müssen die
+ Kompetenzen aufbauen. Ein Kubernetes Cluster, dass ich da hinstelle, dann können die das
+ alles machen. Kubernetes Cluster hinstellen ist nicht die trivialste Arbeit, wenn ich
+ nicht einfach ganz klein auf meinem Laptop installiere. Das ist halt ein
+ richtiges Rechenzentrum. Also Kubernetes hat die Komplexität eines Rechenzentrums,
+ das müssen die dann machen. Dann haben die aber eine private Cloud und dann
+ müssen die richtig verwalten. Also die Security davon ist auch nicht ohne.
+ Was ich hier so leicht angedeutet habe, ist in der Realität eine ganze Menge Arbeit.
+ Und die letzte Frage aus dem Publikum. Es gibt ja so tausende kleine Projekte
+ und so Wimmelbilder von Dingen. Hast du den Eindruck, dass das im Ganzen
+ koordiniert wird als Open-Source-Strategie oder hat das Kanzleramt noch keinen
+ Überblick darüber? Also so Dinge wie Vergaberecht und die VBT und
+ Verwaltungsstrategie und Dinge, die müssen ja irgendwie miteinander
+ zusammenpassen, damit du halt dann nicht am Ende auf die Laufhälfte fährst.
+ Die Leute entdecken das gerade und da werden natürlich irgendwie
+ triviale Sachen landen neben ganz wichtigen Dingen. Das wird so
+ wie auf GitHub, aber im Grunde kann man sich darauf verlassen, dass es einfach
+ gewisse gesetzliche Regularien hat. Die Projekte dürfen auch nicht verwaist sein
+ oder so und da muss also auch jemand hinter stehen.
+ Es muss auch Bezug zur öffentlichen Verwaltung haben.
+ Also das findet sich gerade, das dauert halt. Ich bin da durchaus
+ optimistisch, aber manchmal frage ich mich auch, muss das jetzt auf Open Code stehen.
+ Aber es gibt keine zentrale Stelle, es gibt nur so einen Blick,
+ ist das jetzt aus der Verwaltung initiiert worden oder aus dem
+ verwaltungsnahen Umfeld. Mehr gibt es eigentlich nicht und irgendwann wird man
+ halt dieses Jaml-File verlangen, Public Code, dass man sagt,
+ wofür ist das gut, kann ich das einsetzen und dann hoffentlich danach suchen können.
+ Dann vielen Dank für den Talk, fragen gerne weiter dann draußen und gerne
+ noch mal eine Runde Applaus.
+ [Applaus]

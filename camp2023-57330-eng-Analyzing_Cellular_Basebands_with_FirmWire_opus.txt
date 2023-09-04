@@ -1,0 +1,1048 @@
+ [MUSIC]
+ [MUSIC]
+ >> Good morning everybody. I'm Dominik.
+ This is Marius, Dominuk NSR.
+ We're going to talk about how to analyze cellular basements,
+ and how to find bugs in them,
+ and about our tool which is called FirmWire,
+ which helps you do this.
+ >> Now that we have slides set up,
+ good morning all from my side,
+ I'm NSR or Marius.
+ Before we start, we just want to properly acknowledge the full team.
+ The tool FirmWire has been
+ a multi-year effort between a lot of different people,
+ a lot of different academic institutions,
+ and it's really a massive team effort,
+ and we really want to shout out to all the people here on the slide.
+ Now, yeah.
+ >> All right.
+ >> Now, without further ado,
+ let's talk about what will be the next 45 minutes of our and your life,
+ if you decide to stay here.
+ So we will talk about basements and specific cellular basements.
+ We will look into how to emulate them and why we emulate them.
+ Using this emulation, we will look into
+ different exploration capabilities we have with our FirmWire tool,
+ to then start doing the fun stuff.
+ We will look into fuzzing,
+ which ultimately will lead to crashes,
+ which we will talk a lot of it.
+ Then lastly, we will talk about how we used
+ our tool to scale up what we got on crashes.
+ >> Yeah. So what is this basement?
+ I mean, you all found your way here,
+ so you must know at least that it's interesting.
+ But just to give a short introduction,
+ I, in the beginning,
+ before I started this project with all these fine people,
+ didn't know that a basement in a smartphone,
+ the thing that actually talks to the cell tower,
+ is its own dedicated processor.
+ So it's completely independent of the application process,
+ the thing that runs your apps like Android or iOS.
+ It has its own operating system,
+ usually like a proprietary real-time operating system that just runs.
+ We're going to go into details, of course, during the talk.
+ But the interesting thing is that it speaks all the cellular protocols
+ from way back in the early 90s that you know.
+ If you're in anger that you still have edge somewhere,
+ then it's probably still
+ the space and processes that runs all of the communication.
+ It's millions of lines of C code that are not really looked into
+ by anybody on the outside world like us.
+ This is what we set out to change.
+ Basements are super juicy.
+ As I said, they go back way to the 90s,
+ when security was not really a big thing yet.
+ We didn't know that you could
+ run random stuff when you had a stack overflow.
+ I guess people knew, but I didn't. I was a kid.
+ The nice thing is that if you think of some complex spec,
+ it's probably implemented in the basement.
+ It's implemented in a proprietary way and hasn't been looked at much.
+ Like XML parsers, DNS parsers, TLS.
+ There's a whole TCP stack, of course,
+ and it's because who doesn't want a whole TCP stack.
+ There's a lot of ASN1 decoding.
+ If you know ASN1, it's like this binary format that breaks a lot,
+ used to break a lot at least.
+ It's a tempting initial point of entry onto smartphones
+ just because it's right there.
+ It's the first thing that receives every message over the air.
+ There have been multiple bugs if you follow the security stuff
+ recently on bigger conferences.
+ There was this amazing talk by Natalie who found bugs in smartphone basements,
+ and they were not only exploitable from if you're next to it with an SDR,
+ but they were exploitable over the real air, like over the internet.
+ So you needed a phone number to exploit the phone and run code on it.
+ There was this talk by Amit who was also looking into ASN1
+ and how it was broken in the past.
+ And then there was this talk by the Android Red team
+ about how they tried to secure the baseband
+ and about how other bugs they found as well.
+ And all of these talks were just this year,
+ so there must be something about this baseband, right, which is interesting.
+ So let's start from the basic principles
+ and look a little bit about what are these real-time operating systems running on there.
+ In a nutshell, it's an operating system,
+ and it has all the things you would expect from an operating system to have, right?
+ There's a scheduler, a timer, some interrupts.
+ It has some notion of processes, and AirTOS is usually called tasks,
+ and these tasks can interact with each other via messages.
+ So that's a core operating system in itself.
+ The baseband AirTOS is responsible for mainly two things.
+ One is to interact with the hardware peripherals,
+ which most of the time will trigger some over-the-air interaction,
+ so some digital signal processors and similar.
+ But also it has, for instance, a shared memory region with the application processor,
+ so with the Android or iOS side of things,
+ basically to support messages and do all the fancy things we need to do for calling,
+ have mobile internet, and so on.
+ What's interesting is that the scheduler stack,
+ so it's a lot of specifications,
+ but usually the different parts of the scheduler stacks
+ maps pretty much one-to-one to the different tasks.
+ And we have here one, let's say, heavily simplified tasks
+ for demonstration purposes.
+ Alright, so the interesting pieces, of course, are all stubbed out,
+ and this would not compile or run.
+ But just to give you information, this is like every single task
+ that runs in a baseband, and there are many,
+ would initialize at boot or whenever the task starts,
+ and then it'll just run forever.
+ It'll just loop, and this message receive function you see here, this blocks,
+ and waits for a new message that it will receive from somewhere,
+ you know, down the stack or up the stack.
+ And then it'll do something with it, so if it would be an ASN1 parser,
+ it would parse the message and then have some outgoing message afterwards,
+ potentially, or multiple, and send these to other tasks in the baseband,
+ and then the message is owned, so it has to free it.
+ And the thing that I found interesting, or that is very true
+ across at least all basebands we looked at,
+ is that every single, the spec in the cellular modem is big.
+ The cellular spec is big, and in the modem, you have almost a one-to-one mapping
+ between some of the, at least all of the different parts of the spec
+ and a task on the other side, and there is multiple layers in the cellular spec,
+ and the lower layer task will forward stuff up the spec, the stack,
+ oh my god, sorry, good morning, it's early.
+ And then at some point it'll reach the application processor via IPC.
+ So now, if we want to set up and find bugs in the baseband, right,
+ there are multiple approaches, and initially, when considering this work,
+ we were mostly looking in three, which were over-the-air testing,
+ static analysis, and emulation.
+ There's also a hidden force one, which is just reading the specs.
+ Some people are good at it and doing it and finding bugs by just reading it.
+ We are not these people.
+ Yeah, we are not these people, and we don't have the endurance to read
+ hundreds and hundreds and hundreds of pages, like these specs are really big.
+ So, yeah, one common approach was just over-the-air testing, right,
+ like set up the phone, ideally in some air-f shielded environment,
+ and send all sorts of fun messages to it.
+ We discarded this because most of the time we will not see what's going on, right?
+ We send a message, the phone may crash, may not crash,
+ and we have basically no introspection without really digging deeper
+ into hacking the phone to be able to extract those.
+ Another approach would be static analyzers, so taking the baseband binary
+ and just using some static analysis tools or symbolic execution, you name it.
+ The issue here is that these firmwares, the cellular baseband firmware,
+ is really, really complex.
+ It has a lot of different code indirections, a lot of initializations,
+ and our experience was that why static analysis may work for some part,
+ like a specific task or decoders, like for looking at the baseband in a whole,
+ it doesn't scale enough without giving too many false positives or other problems.
+ So we decided to go for emulation, so trying to basically take the full baseband firmware
+ and start it from the first instruction where it should be executed
+ and then executed all the way to wherever you want to go.
+ And that's why we created firmware.
+ It is the first open source baseband emulator.
+ Full system baseband emulator.
+ Sorry, yes, it's a fine distinction.
+ The first one that is able to run and boot a baseband from scratch, basically.
+ So you can drop in a binary-only baseband, you don't need source, you don't need symbols,
+ drop it in there and it'll boot, well, for those that are supported.
+ We support, but we did try it on over 200 firmware images
+ across nine different phone models and two baseband vendors.
+ So the phone vendors themselves may be different,
+ but there's only like five or so actual baseband vendors.
+ The ones that we looked at are MediaTek and Samsung Exynos.
+ There's other notable ones such as Unisoc, Qualcomm,
+ and then there used to be Intel, but it got bought by Apple.
+ And then there is also Huawei's own high-silicon stuff that people also looked at in the past.
+ Sorry for if I forgot any baseband vendors.
+ Let's see how our emulator looks like with an actual baseband.
+ So we pre-recorded all the demos just to make it easier for us, I guess, the demo gods.
+ I hope it's somewhat visible today.
+ It's not too sunny, so it should be fine.
+ Right, so we start firmware, which is our emulator.
+ We give it a modem.bin.
+ The modem.bin file is a Samsung, in this case, Shannon baseband
+ that we downloaded from somewhere in the internet.
+ So we downloaded the whole Android image and then we extracted the modem file from there.
+ This was not encrypted, which makes it, of course, nice for benign firmware analysis like ours.
+ And then you see here that it boots and it locks a ton of stuff.
+ On the very left, you see the timestamp, then you see the task,
+ including what the original name was, and then you see even the C file where this originated.
+ So this is present somewhere in the firmware.
+ We need to reverse engineer it to even get these locks in the first place.
+ And then you saw that this BTL task kept popping up and the last few executions looked the same.
+ This is because we were in the main loop.
+ So the firmware has fully booted at this point and then just loops around and waits for things to happen.
+ So it waits for some communication from the network,
+ which never comes because it is not really connected to anything at this point.
+ OK, very cool.
+ So under the hood, how does Firmwire work to enable these millions of log messages just flying by?
+ So we split the framework in two parts.
+ One of the vendor plugins and the other is the emulation core.
+ And the vendor plugins is basically, as the name suggests, specific for every of the baseband vendors we looked at.
+ So we have one for MediaTag, one for Samsung, Shannon, Exynos.
+ And basically the vendor plugin takes this firmware binary and does a full lot of pre-processing.
+ It tries to figure out where the memory mappings, it uses some magic called pattern DB to resolve symbols, which we will need later on.
+ And once it gathered all this information, it passes on to the emulation core, which then does the emulation.
+ So it tries to run the code and it also emulates the peripheral it needs to interact to a point where the baseband runs.
+ So it's not a full truthful emulation, but it helps us to get it running.
+ And it provides us a lot of different introspection capabilities, which we'll talk about in a bit, I think.
+ Right. So the vendor plugins are a firmware loader.
+ Then we have different CPU architecture support things in there.
+ So MediaTag is usually weird.
+ The one that we support is a MIPS 16 E2.
+ The latest 5G ones switch to NanoWave, which is also weird, but needs extra work to get going.
+ Then for Shannon, we support ARM Cortex R stuff, which is also one generation older.
+ The latest ones switch to Cortex A, so actually application processors.
+ So next to your application processor, you now have an application processor.
+ There's some SOC specific, as Mario said, memory mappings, etc., peripherals that the baseband tries to talk to.
+ Like there would be an antenna or something.
+ Anyway, that we just usually step out.
+ We just want the thing to boot and think there's something.
+ We don't care if it looks real or not, just real enough for the baseband to boot.
+ And then we have functionalities for each vendor to recover the baseband internal logs.
+ So they're not actually logging all of this necessarily.
+ They just do some proprietary stuff and then have their logs somewhere else.
+ And we show them, which is nice.
+ And then we have this pattern DB, which is used to basically find...
+ So we don't want to hard-code everything, so we have this pattern DB.
+ This is how one pattern definition would look like.
+ We have a pattern. It looks a bit like a regex. It has similar functionalities.
+ It's like these bytes look for these bytes, and then these are like wildcard bytes.
+ There's other options in this pattern.
+ For example, is it required that this pattern exists?
+ Is it a fatal error if it doesn't exist?
+ The entry point or something like that, the main map of all tasks.
+ If this doesn't exist, then we just don't want to boot. It doesn't work.
+ And then we can run some code as well.
+ And there's not too many patterns needed to get a firmware booting actually.
+ So for Samsung, we used 18, and Mediatek only 9 to get the thing running.
+ And now we have this pre-processed image from the Wendel plugin,
+ and plug it into the emulation core.
+ The emulation core, as we saw, allows us to see all those logs,
+ then flying by during runtime.
+ It allows us also to just play around with the firmware.
+ We are GDB, an interactive console, and it also enables us to do fast testing.
+ We built the emulation core using two frameworks.
+ One is Panda, which is a QEMU-based emulator,
+ which was originally designed for Recod and Replay and reverse engineering.
+ But what it has, it's a lot of nice features to hook into the different parts of the emulation.
+ And also it comes by now as a Python library, so we can easily plug it.
+ And the second framework we used was AvaTattoo,
+ which is basically a framework for orchestrating,
+ so basically to tell Panda how to run in similar.
+ And it also allows us to basically stop and implement the peripherals we need.
+ One other functionality provided by the emulation core, which we heavily use,
+ is the modkit, or the modification kit, which allows us to inject custom tasks.
+ So we can extend the functionality of the emulated baseband by writing our own code,
+ writing our own AirToss task for the baseband,
+ and put it into the emulated version of the firmware.
+ There's a list of all tasks basically in the baseband,
+ and we just, at boot time or at any time, slot another one in there, like in the end.
+ That's our own task then.
+ Yeah, and then we use patternDB again to find the symbols the task needs,
+ so we can use actual functionality which is already there in the baseband.
+ Like we can use debug log functions,
+ or we can use different hooks for allocating memory and so on.
+ So we can really use this modkit to do a full bunch of interesting things.
+ So now let's look at how to explore this.
+ Exactly. So I briefly mentioned before we have the console,
+ which is I think what at least I use the most when playing with firmware.
+ And it's basically a Python console which directly hooks us
+ during the running emulation into the emulating process.
+ So we have a reference to, in this case, the Shannon machine object.
+ So this is a firmware machine which allows us to control the emulation.
+ Like we can start and stop the emulation, we can do breakpoints,
+ we can read or write memory.
+ And all of this is built on top of Jupyter notebooks,
+ not notebooks, console, sorry.
+ And another cool thing on top of these consoles,
+ or integrated in the console, is we have our own task that gets injected as well.
+ Like you can write your own task, but we inject this glink task,
+ which is the guest link task.
+ It's a custom task that we created that basically forwards things
+ from this Python console inside the baseband.
+ So you are on the host, you're playing with your Python,
+ you can do, as you can see on the right, you can get this glink,
+ handle to this glink task on the inside,
+ and then you can call things on this glink.
+ So you can create blocks, so you can basically allocate chunks of memory
+ inside the baseband.
+ You can send messages from inside the baseband to other tasks
+ inside the baseband again.
+ You can set events, which is a thing that is internal to the baseband as well.
+ You can do like, hey, there's something happening.
+ And then you can also get values out.
+ So you don't need to recompile your task and re-inject your task every time.
+ You can basically play around with it from a Python to a console,
+ which is really handy.
+ And then another thing that we use heavily now in the next demo
+ is basically we can snapshot the whole thing at any point in time.
+ So after, let's say, the boot takes a bit.
+ We don't want to-- or we are looking at one specific thing.
+ We don't want to reset the whole thing and reboot to this place every time.
+ And we can take a snapshot.
+ It uses the QEMU internal snapshots, and it has enrichment
+ with these peripherals that we write, for example.
+ Like, if they have a specific state, we can also snapshot this,
+ which is handy.
+ Yeah, and let's see how this looks like.
+ Yeah, so here, first of all, we start a TMUX session,
+ which we don't see right now.
+ But we basically need two windows, because in one,
+ we will have FirmWire running, and in the other, our console.
+ So we restore, and the very first, we say that we want to restore
+ a snapshot, which is the one for this demo,
+ and that we want to enable the console.
+ So now we see FirmWire booting up and can attach on our second terminal,
+ which we will start here, to-- well, to FirmWire, to our console.
+ And once we're in here, we-- yeah, we're typing.
+ We can see we have the self object, which is the Shannon machine.
+ And we can just say, hey, let's emulate for, I don't know, one second.
+ And we see here some of the messages flying by, so we emulate it a bit.
+ And now we want to show a little bit about G-Link or Guest Link.
+ Oh, the demo is broken.
+ Nice.
+ Nice.
+ Thank you.
+ Yeah, anyhow, we got a reference to the G-Link peripheral.
+ And we try to do create block, so we want to--
+ Oh, no.
+ Yeah.
+ Yeah.
+ Think it's resolutions from the projector and so on.
+ It worked yesterday.
+ Yeah, anyhow, we create a memory block, and we run again,
+ because this is an interactive task, so it needs to run to allocate the block,
+ which we have now at this address down here.
+ And this is a freshly allocated block.
+ So we just use the read memory functionality to read 40 bytes.
+ That's the amount of what we allocated.
+ And we see these as all zeros for now, which makes sense.
+ It's a freshly allocated block.
+ So let's change this a bit and write some memory in a very broken up way.
+ And yeah, eventually, we write 40 A's to this location.
+ And here we are.
+ It's zero for now.
+ Let's return, and if we read it, we have 40 A's there.
+ So this will show a little bit how Filmwire works under the hood.
+ [APPLAUSE]
+ Sweet.
+ So what can we do with-- we can now interact with things in the basement.
+ What does that mean?
+ What is a thing in the basement?
+ As I said earlier, every single cellular specification
+ is somewhat reflected in one of these tasks.
+ So this is how, for example, the 2G protocol stack would look like.
+ 2G, of course, is still relevant because it's still enabled everywhere,
+ especially in Germany.
+ You should know this.
+ And well, you can turn it off in more modern phones,
+ but it's uncommon that people do that.
+ So you have these different layers in the specification.
+ And then there's different tasks.
+ So there is, for example, in this case, a CC, which
+ is sort of a call control task.
+ And the call control task would give you control.
+ It doesn't really matter what all of these abbreviations are.
+ If you have no idea what any of these are,
+ you can go to 3GPP.guru, which is the most amazing website
+ for these sort of things.
+ Just type in the abbreviation.
+ It'll tell you at least the location and spec.
+ You will still probably have to ask JGPT for what the spec actually means,
+ but that's a different story.
+ Anyway, this CC task is called control task.
+ It is for the task that does everything for circuit switch calling.
+ So in the more modern spec, if you call somebody,
+ it's actually just a voice over IP or LTE, voice over LTE call.
+ So it's only bytes and packets flying around.
+ Back in the day, it was circuit switch.
+ It was already bytes, but it was circuit switched.
+ And there's still bytes sent over the air.
+ And then there's different messages that this CC task will basically
+ eat and do something with it.
+ So there's the CC setup message that is sent from the network
+ over the air in bytes to the mobile device, so to our baseband.
+ And then the packet is made up.
+ If you want to know more about what bytes we're
+ going to send in the next demo, they're aligned with the spec.
+ And then we can actually call ourselves, which is kind of cool.
+ Right.
+ Let's see if--
+ Let's do this and hope that it works.
+ Demo goes.
+ Let's go.
+ Again, t-marks.
+ We're starting again from the snapshot.
+ And attach again to the console.
+ Now here, we prepared already the bytes we
+ want to send for this call setup message just to basically have it ready.
+ So it's what we call the call in it payload or call setup.
+ And these are the magical bytes we got by reading the spec
+ and doing a little bit of reverse engineering.
+ We're getting the guest link task again, or the guest link peripheral.
+ And one little thing we will do here before actually sending the setup
+ message is sending another message to the CC task, which
+ will trigger initial evasion of the CC task.
+ Because by default, it just spin up.
+ It's booted.
+ But it still would wait for the baseband to complete other tasks
+ before being ready to process over the air messages.
+ And yes, finding this was painful reverse engineering.
+ Yeah.
+ And yeah, the magic message for it is just being typed magically in here.
+ And yeah, we send it.
+ And we can see here, if we look a little bit,
+ that a lot of initialization happened.
+ And we saw here that initialization functionality is going on.
+ OK.
+ With this, we can now move on and try to send the call setup message,
+ which requires a slightly different header.
+ So these are headers for the messages being changed down here.
+ And then we put the actual payload and run the emulation again.
+ And we can see here already here, down here,
+ there's radio message call confirmed written.
+ And we can also see a lot of other CC functionality flying by
+ and being used.
+ So we basically now, in quotation marks,
+ called our emulated baseband or gave it a signaling message,
+ like hey, here's a call incoming.
+ So there's some logs that indicate that the baseband has actually
+ received our call and thinks that there's an incoming call.
+ Yeah.
+ So this is what we do when-- or what happens to the emulated baseband
+ if we send benign input, which conforms to spec.
+ But what happens if we don't do so?
+ So what do you want to do if you want to send something that
+ doesn't conform with the thing that something wants to receive?
+ You use fuzzing these days.
+ Everybody probably, or most people would have heard about fuzzing.
+ It's basically throwing tons of input in a somewhat smart way
+ into a target until you find some side conditions
+ that the original author of the thing didn't think about.
+ You want to find something like an off by one
+ or some unchecked something where if you just read it,
+ maybe it's too much code and you will never find this.
+ But if you just randomly throw stuff at it, you'll find it.
+ And how do we do fuzzing in firmware?
+ Well, it is-- so we can do normal AFL++ fuzzing basically.
+ But we do it against a full system emulated baseband,
+ which is kind of cool.
+ For this, we have another task.
+ So we had the glink task earlier where
+ you can type things in Python and interact with the baseband.
+ But of course, this is slow.
+ For fuzzing, we injected a fuzz task using our modkit.
+ It then will send messages around that
+ come directly from the fuzzer.
+ So basically, it eats something from the fuzzer
+ and then sends it to some task that we want to take a look at.
+ And we have custom hypercalls to get this work.
+ So to get a new fuzzing message, the hypercalls
+ will also turn on coverage collection.
+ So the fuzzer will know if it found new branches
+ in the target task.
+ And for coverage collection, we had to hack QEMU a bit.
+ And we injected basically this on the TCG level.
+ If you know how QEMU works, it lifts every single--
+ so during runtime, it lifts every block
+ it hasn't yet seen into its intermediate language
+ and then compiles it back down or whatever,
+ emits it back down into the target architecture.
+ And when we have this lifted block in our hands,
+ it's basically all of the code.
+ And it's not one basic block, but it's one translation block.
+ So it's one code unit.
+ And we can use this to basically give feedback to the fuzzer
+ that we found something new.
+ So we jumped from some place to some new place.
+ And this edge will be reported back to the fuzzer
+ so that it can store input that found new coverage
+ and then do some mutations in a smarter way for the future.
+ And then we send the message that we received
+ from the smart mutation to this basement task internally.
+ For this, we also created multiple proof concept harnesses
+ else we wouldn't have found bugs, which would have been sad.
+ So let's put this a little bit more into practice
+ and look into how would we write our own harness
+ or our own fast task for a protocol of our choice.
+ In this example, we will basically walk slowly
+ through our CC fuzzer.
+ And for creating your own harness,
+ so call control, what we just saw before,
+ and for creating our harness,
+ one would first to create a new mod for the mod kit,
+ set up the fuzzer using a special fast single setup function
+ and specify what needs to be done
+ during each fuzzing iteration.
+ So for each fuzzing test case, we get out of AFL++.
+ So creating a new mod is kind of straight forward
+ on the one side, you will need the template
+ in this case for GSMCC just using some includes
+ and setting a task name.
+ And then we need to adjust the make file
+ to basically add the CC fuzzer in there.
+ So that will be compiled as mod, which then gets injected
+ during boot time.
+ - So CC again was call control.
+ So this is actually the fuzzer that will fuzz this call setup
+ that we saw earlier.
+ - Exactly.
+ And what's the fuzzing that setup does
+ is sending the init messages we just saw before
+ in the demo, right?
+ Like recall that basically the task at boot stage
+ is not ready yet to receive over the input.
+ So we need to send one magical reverse engineered message
+ before, which is what we're doing here
+ with the fuzzing setup function.
+ First we get the QID for CC, then we allocate a block
+ using the par mem alloc function.
+ So this is recovered via pattern DB from the mod kit,
+ via pattern DB and called from the injected task directly
+ in the firm, yeah, in the basement firmware.
+ And then we set up like once we have the block,
+ we set up the message.
+ So we basically set the op, we set the message group
+ and so on, and then use Paul message sent to,
+ to send this message we just created to the CC task.
+ Easy.
+ Now this would be received and the CC task would be ready.
+ So we can continue and specify what needs to be done
+ in a fuzzing iteration.
+ Here again, we start with getting a small block
+ from the basement was using par mem alloc.
+ And this time we will need some space
+ for the fuzzing input we get.
+ So we just say, okay, let's leave some space
+ for whatever AFL wants to give us.
+ And then we call get work.
+ Get work is one of our hyper calls,
+ which we use to communicate between Panda or FirmWire
+ and the fuzzer and get work.
+ We'll just get an input, write it into this shared buffer
+ and reports back to the input size
+ and the input size variable.
+ Now that we have our fuzzing input,
+ we need to continue and give it somehow
+ to the target task, to the CC task.
+ Before doing so, we set again up how the message looked like,
+ like we set the different header fields and so on.
+ And then copy over the payload we just got from the fuzzer
+ into the message so that we can send it.
+ And this is what we do.
+ First we do call start work, another hyper call,
+ which will enable the coverage collection
+ Dominic just explained.
+ In this case, we want to collect coverage from address zero
+ to address 0xFFFFFFFF,
+ which is basically all of the memory in a 32-bit space.
+ So we want to collect all coverage.
+ And then we call ParalMessageSendTo again
+ to send it over to the target task.
+ And one thing to note here is that we modify our,
+ or we compile our further tasks
+ to have a very low priority in the operating system.
+ So when we call ParalMessageSendTo,
+ it will actually, or the scheduler will actually schedule
+ our task out and send it to the CC task,
+ which has a higher priority.
+ So this call would basically block,
+ and we only return to our fuzzing task
+ once the CC message was processed.
+ And once we are back, we call done work,
+ another hyper call which basically says
+ stop coverage collection, we are done here for now,
+ and we can start again in the next fuzzing iteration.
+ - Right, cool, so let's see some fuzzing in action.
+ And what we're gonna do now is, so I'm gonna show,
+ this is probably gonna be--
+ - Let's see. - Let's see.
+ This may be broken.
+ - Well, you know, you think command line tools
+ would just work, but you know, it's not perfect.
+ - Okay, so, yep, well, we can.
+ - Anyway, so what you should see
+ is basically a normal AFL++ command line,
+ and then you should see, can you switch back anyway?
+ - Okay.
+ - Yeah, we give it basically the fuzz task,
+ so the task that we wanna inject,
+ when we give it a snapshot,
+ that we also wanna load from,
+ and then we give it add, add for, you know,
+ add, add, yeah, that's the add, add,
+ for, which is, if people have used AFL++ before,
+ it's the basic command line that tells the fuzzer,
+ give me input to this place.
+ Like under the hood, we actually get the input
+ via shared memory from the fuzzer, but it doesn't matter.
+ And then we're gonna start AFL++.
+ This is without persistent mode,
+ so that means that after every execution,
+ the target quits, and then we restart the target,
+ or we refork the target, so that's why it's pretty slow,
+ but the stability is 100%.
+ We can also use persistent mode,
+ which will make the fuzz task basically just loop around
+ and ask the fuzzer for the next input,
+ and then we get up to like almost 2,000 execs
+ on a single core, which is decently fast,
+ but of course then other tasks in the baseband
+ may jump in at some time, so it's not as stable,
+ but of course it's a pretty good trade-off.
+ So yeah, so fuzzing works, woo.
+ And then-- (audience applauds)
+ If you leave this guy running for a short while,
+ actually, you can also find crashes.
+ So the CC task found one critical bug
+ that was zero day at the time.
+ We also looked into LTE RRC,
+ which is another pre-authentication message,
+ but in the LTE, so in 4G,
+ where we also found two critical
+ and one high rated zero day,
+ and then we used SM, which is another task
+ that has been explored in the past, as a ground truth.
+ So in total, we had seven crashes
+ deduplicated over all of our fuzzing,
+ and four of them were unknown at this point in time.
+ - And we reported them to the window.
+ - Yes, they're all fixed by now.
+ - Yeah, but exactly.
+ So let's do the next demo and just look
+ in how it looks like if we would replay
+ such a crash we found.
+ Right, so we're gonna start firmware wire again,
+ and we're gonna restore the same snapshot
+ that you would have seen in the last demo.
+ And then we use the fuzz triage mode,
+ which is like fuzzing, but it has more logging enabled,
+ like we usually disable logging during fuzzing
+ because it's slow.
+ And then we give it the input that the fuzzer found.
+ So the fuzzer conveniently named it crash.bin,
+ and then we ran it against the same modem bin
+ we renamed to vulnmodem in this case.
+ And then you see in the end that there's a prefetch abort,
+ so it's faulting at a PC.
+ It tries to fetch a PC that doesn't have executable code,
+ which is usually a good, like a bad sign
+ from security perspective or a good,
+ if you wanna find bugs that may be exploitable.
+ - Fathers will like it, developers not so much.
+ - Yes.
+ - Okay, cool.
+ - And this, so to show that these crashes actually work,
+ we also replayed them over the air.
+ So we used some BTSs for GSM, we used Yate.
+ For LTE RSC, we used OpenLTE.
+ So you can talk to a little SDR,
+ and the SDR will then send our input,
+ like we patched them to send our inputs
+ that we found that are crashing.
+ And then actually all of these pre-authentication messages
+ also caused a crash in the actual modem.
+ So you see down here, real restart,
+ which means the radio layer just died
+ and I'm gonna restart it.
+ So which is, I mean, this is probably the good case
+ because this means that it just crashed and restarted,
+ which is better than other things that,
+ there's no code being run in this case.
+ - Yeah, and I mean, that's all what it means
+ to crash a baseband in that sense.
+ It's not that the phone dies and reboots,
+ it's just the connectivity symbol on the top right
+ will disappear, come back, you will get a little pop-up
+ in the best case.
+ But from the attacker's view, they could go from there
+ and probably exploit the baseband and yeah,
+ take it from there.
+ And we were not interested in that.
+ Instead, we were looking more into the different bugs
+ we have in a large scale context.
+ So we collected a lot of different firmwares and--
+ - Oops, sorry.
+ - Yep, and the idea is we have some ground truth crashing
+ or some crashes which work on the modem refast.
+ How does it look in the full ecosystem?
+ So if we take other modem images and replay the same crashes,
+ what would happen?
+ So with intuition, we could get insights
+ about patching timelines and similar.
+ And we collected for this like, I think,
+ over 200 different firmware images from Mirror,
+ which has the full Android update
+ and extracted the baseband modem image file from there.
+ - Right, and overall, we collected 360 firmwares
+ from between 2016 and 2021.
+ Of these, 131s were duplicates.
+ So we downloaded a new Android image,
+ but it didn't have an update on the modem image,
+ which happens, they don't update the modem
+ as often as the main operating system.
+ And then of these, we were able to boot 213.
+ So 16 of them failed to boot.
+ And in the large scale study,
+ you don't really wanna look into everything.
+ So probably they just like,
+ hanged in something waiting for some data
+ that we didn't provide in the right way in this case.
+ - So, and these are the models that we looked at.
+ So a lot of Samsungs, S7 to S10,
+ and then A41 and A10s.
+ - So these are also Samsung phones,
+ but using a MediaTek baseband chip.
+ - Yeah, yeah, yeah.
+ As well.
+ And then on Synodo, you can find actually the whole dataset
+ if you're interested and wanna replicate our study.
+ - Exactly, and here are our results.
+ - Look at our study again, I guess.
+ - Anyhow, here are our results, and don't be afraid.
+ This figure is overly convoluted and complicated,
+ but we will walk you through it.
+ So first of all, each dot in here is one firmware image,
+ which we downloaded.
+ And on the bottom, we have the timeline.
+ So this is firmware images over time.
+ And on the left, we split up
+ for the different phone models we tested.
+ And this graphic is just Shannon-based ones.
+ And these here are the different crashing inputs, right?
+ So the ones we found during fuzzing.
+ And in this figure, we see when there is a green background
+ behind the dot, it means there was no crash
+ or we didn't observe a crash when replaying the crash.
+ When it was a red background, it is,
+ we saw a crash happening.
+ And the grayed out ones is, okay,
+ we had some emulation errors or couldn't access
+ whether there was a crash.
+ But as we were large scale, we just didn't care.
+ We just looked into what does crash, what does not crash.
+ And I think there are a couple of interesting things to see.
+ First of all, the SM bug we used as ground truth testing.
+ We, yeah, we basically saw that it was indeed patched
+ for good, it never came back later on any phone
+ after it was initially patched.
+ The TCE1 crash we found really affected all the phones.
+ So it was indeed quite a critical vulnerability.
+ And we also happily see that it was patched
+ and didn't knock you again.
+ For IRC bugs, we see that they are not affecting all bugs.
+ So they are not all phones, sorry.
+ So there are quite some differences,
+ which I think is also quite interesting.
+ And we also see, which I think is one real good outcome
+ of this large scale study,
+ that sometimes there's missing patch propagation, right?
+ We found this IRC1 bug on the STNE in the father,
+ we reported it.
+ And only one year later, we did the large scale analysis
+ and we saw, oh no, on another phone,
+ this bug is actually still active and not patched.
+ So we went again and reported it
+ and got it fixed in the very end eventually.
+ So yeah, these are some interesting insights,
+ but let's wrap up the talk.
+ - Yeah, thank you all for your time.
+ So we, as said in the beginning,
+ we built the first public
+ full system baseband emulation platform.
+ We have cool introspection stuff
+ and instrumentation capabilities that you looked at,
+ including like fuzzing and looking around in a baseband.
+ We have support for MTK and Shannon from back then.
+ We found multiple bugs and there's probably a lot more.
+ So we basically writing a fuzz task is a manual effort.
+ You have to reverse a ton and then build your task.
+ And there's probably a lot more if you wanna look at it.
+ You can go check out our source code
+ on firmware slash firmware on GitHub.
+ We have, you know, it's Docker,
+ so you can easily set it up.
+ And we have documentation,
+ which is a big plus for open source project, I think.
+ (audience applauds)
+ And with that, we wanna conclude our talk.
+ You can reach us via email and you can go to our repo
+ and ask questions starting now.
+ Thank you so much.
+ (audience applauds)
+ - You mentioned Cortex-A already
+ as an application processor
+ on top of the application process.
+ Are there any plans to add support for the Cortex-A?
+ - Plans, yes.
+ Time, no.
+ - Yeah. - PR's welcome.
+ - Yeah, we are basically typing back to this
+ every half a year, doing a little bit more,
+ but never, by now just in the state of a hobby project
+ for us, we, yeah.
+ But that being said, we welcome contributions.
+ So there's still-- - We tried.
+ That's why I asked.
+ - Yeah, okay, I mean, we can think
+ and try to make it happen, right?
+ - And second question, don't know if it's allowed.
+ How did you get started on this?
+ Did you first read the specs?
+ Did you first try to reverse?
+ Did you--
+ - For me, it was first starting the reverse engineering.
+ - Same. - Yeah.
+ - Yeah, I have no idea about specs.
+ - I learned specs during looking at binary inputs.
+ I think that's-- - So did somebody else
+ on the team have a lot of time to read the specs or--
+ - Yes, in the end, we had some people in the team
+ which were really knowledgeable about the specs,
+ and also when we were stuck,
+ we were looking at things together,
+ and then they can just up with,
+ oh, hey, that could be this and this
+ according to that and that spec.
+ - I mean, and the main question, which is interesting
+ and can only be solved by looking at the spec
+ is which tasks are actually accessible over the air,
+ without authentication,
+ or which are more critical than others.
+ For this, you need some knowledge about spec specification.
+ - Thank you.
+ (air whooshing)
+ - Thanks for the talk.
+ I'd love to have some insights about how much time
+ and effort went into all of this work.
+ How many years have you all been working on this?
+ (laughing)
+ - Yes.
+ (laughing)
+ So I think I, so Grant, I think started working
+ on this mid-2019, and I joined in around winter 2019.
+ And then it took, I think, until early 2022,
+ before we had the public release of the tool.
+ By, I say 2020, I think we had a proof of concept
+ kind of working, only for Shannon, very rough,
+ but at least it was running and emulating, which was cool,
+ and I think the main milestone.
+ But then, yeah, fuzzing and increasing on this
+ took also considerable amount of time.
+ - And then I started also looking independently
+ into media tech stuff in 2019 as well, or '18 even,
+ so it definitely, there was some way to go.
+ Don't start this from scratch, I guess, but.
+ (laughing)
+ I mean, by now there are probably also
+ like better full system emulation tools around
+ that may make it easier to, you know,
+ like all of the fuzzing stuff, at least,
+ is kind of solved now.
+ - And also, yeah, for perspective, early 2022,
+ we released the framework, and just yesterday,
+ we pushed version, we 1.1.0.
+ - Woo!
+ (audience applauding)
+ - Thank you for the talk.
+ Could you tell us sort of roughly
+ what typical firmware security looks like
+ on these baseband processors?
+ Like, you mentioned encrypted firmware,
+ but I imagine there's signatures and things of this sort.
+ - So yes, some vendors do encrypt the firmware.
+ Almost all vendors sign the firmware
+ so that you cannot just modify it and so on.
+ But beyond this, runtime defenses are--
+ - I don't, by the way, I don't think encryption
+ would be a security feature, right, but it's just me.
+ - Yeah.
+ So signature checking for preventing you
+ from running your own baseband firmware,
+ which I guess makes sense.
+ And then runtime security protections are,
+ I would say, a bit lacking behind
+ for what we know from desktops.
+ We have basically no ASLR.
+ (laughing)
+ Like, we have some sort of heap cookies,
+ which are, in the Shannon example,
+ which were just one static string,
+ similar with Airtos stack, so not function stack cookies,
+ but cookies for the full stack,
+ which were static initialized to one value.
+ So it's a bit stuck in the past,
+ but I hear there are great efforts to improving it.
+ - Yeah, if you look at the Android Red Team talk
+ on BlackHat, you see that, you know,
+ at least on Pixel, they're working on
+ getting this improved.
+ But yeah, back when we looked into it,
+ there was basically none.
+ - How do you reverse engineer the format of the IPC?
+ Is that easy, or how do you go from a crash
+ to the actual radio message?
+ So you have the different tasks,
+ but do they actually just send the content
+ of the next layer to the corresponding task,
+ or is there something more complicated going on?
+ - Yeah, usually a task takes in a message,
+ does some unwrapping and maybe a little bit processing,
+ and then takes the rest, which needs to go more up
+ and sends us on up.
+ And it all uses, I mean, in most cases,
+ it uses the same, or at least very similar function
+ for doing the message sending.
+ And then for processing, you basically see
+ how this message is processed,
+ and you can use this to infer the C structure,
+ which this message should have had.
+ And once you created your types for that,
+ it gets all a little bit more easy to see.
+ - The task that we looked at were all accessible
+ over the air with bytes, so it was not that hard.
+ And they would forward it internally to other tasks
+ as well during fuzzing, because it's a full system framework,
+ so that makes it a bit easier.
+ But of course, if you look into an internal task,
+ and then you will have to craft some message
+ that would probably be more harder than what we did.
+ - Yeah, thank you.
+ Is there any work to extending this to other basebands,
+ like the Qualcomm or other vendors?
+ - Yeah, so with the Qualcomm,
+ there's one main roadblock at the moment
+ that Qualcomm basebands use
+ a custom instruction set architecture,
+ and the tooling for this is a bit lacking behind, right?
+ So without having a full system emulator
+ for Qualcomm basebands, we cannot,
+ not a full system emulator for hexagon in general,
+ we cannot build on top of it with our tooling.
+ The only thing you can do with Qualcomm right now
+ is use libfl-qemu to do basically a single task
+ in user mode qemu.
+ User mode qemu, there's a public implementation
+ in qemu upstream, and then libfl-qemu
+ can actually fuzz these single tasks,
+ but then of course you don't have all of the flashy
+ full system interaction between tasks and things.
+ - How do you interface with your simulated hardware?
+ Do you intercept the API calls
+ or emulate the register level access?
+ - We emulate the register level access, yeah.
+ And I mean, we stop a lot, right?
+ In some cases, like when peripherals need to initialize,
+ we don't really care what's going on.
+ Most of the time, the firmware will just check,
+ like it writes something, we discard it in our emulator,
+ and then it will check, is this bit set to one
+ which indicates that it was initialized?
+ So we are lazy and just created a cyclic bit peripheral
+ which on every read access would return another bit set,
+ and eventually, like once we had this simple approach,
+ we booted, I think, 90% of the different peripherals.
+ And yeah, some of course need a bit more work
+ and more reverse engineering, and specifically timers.
+ I still have nightmares about reverse engineering.
+ - From the demos, it looked like you always
+ use a specific snapshot.
+ Has there been like selection process
+ of selecting snapshots that you want to use?
+ And because it was perceived as runtime
+ and fuzzing on the runtime,
+ but did you prepare a specific snapshot?
+ - So the snapshot heuristic we used was quite simple.
+ We saw in the first demo that at some point,
+ it was looping and scheduling in the same task.
+ We took this address from the BTL task,
+ which was not important, but we saw this address
+ and just say, okay, here's a modem,
+ we'll expect things to happen,
+ so let's snapshot there, and yeah, we went from there.
+ - So it's mainly to skip over the initialization for this.
+ Like you could use snapshots deeper in the stack somewhere
+ where some side conditions have already been met,
+ but we didn't do that yet.
+ - Yeah, I was curious.
+ In the combination with fuzzing,
+ I mean, if you can proactively,
+ like you have discovered in your branch,
+ you make a snapshot, right?
+ It's a very powerful mechanism to just start from something
+ where you have done most of the work
+ and you're just looking.
+ And then you're saying like, okay,
+ this branch I want to get here
+ and set out the fuzzer to get towards the target
+ with solvers or something.
+ - Yeah, I mean, you could do this, right?
+ You could create a manual harness,
+ which first does this and then snapshot or, yeah.
+ Like you could automate it.
+ We haven't done it yet.
+ - Pandas is a good choice.
+ - Great, so we have so many questions.
+ Unfortunately, I have to give the last question now.
+ - Hi.
+ - The trick where you're like scheduling your fuzzing task
+ with a low priority is cool,
+ but did you run into cases where essentially
+ you're stopping too early or like the thing
+ you're triggering is very asynchronous,
+ but like your fuzz task has already stopped
+ and it doesn't get executed anymore?
+ - Not to, we're not aware of that.
+ I don't think that happened because we're really like,
+ we're the lowest possible priority
+ and every call control stuff is higher priority.
+ So the schedule will always just schedule
+ everything higher than us.
+ - And also another thing is persistent mode, right?
+ We implemented this persistent lock at some point.
+ So basically persistent mode, the work would be done
+ and then the next fuzz iteration,
+ like the basement continues, the fuzz task gets scheduled in,
+ send the next input.
+ By then maybe side condition happens.
+ Triaging gets a bit messy at this point,
+ but could in theory be done.
+ - So essentially every message is like always processed
+ instantly and there's not like a queue
+ where some task checks it periodically
+ or something like that?
+ - Not in the stuff we looked at.
+ Probably that can happen, but then you will have
+ to find some way to, yeah.
+ - Yeah, I mean one thing to say is also we specifically
+ looked into pre-authentication messages because this is
+ like one of the most lucrative attack targets, right?
+ As it just taken as is and usually pre-authentication,
+ there's not a lot of state yet.
+ - Yeah, and you don't, I mean the cool thing
+ about pre-auth stuff is that it's simple
+ and you don't need any, like you can just send this
+ as a rogue base station.
+ You don't need to be in any case like a proper,
+ benign cellular person or yeah, anyway.
+ Anyway, you see my brain is already fried.
+ Thank you so much for your time.
+ (audience applauding)
+ [Music]

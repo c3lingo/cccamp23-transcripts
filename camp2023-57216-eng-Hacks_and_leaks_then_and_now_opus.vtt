@@ -1,0 +1,2459 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ Hello.
+
+00:00:20.000 --> 00:00:39.240
+ Nice to see you all again in this sun coming from the rear,
+
+00:00:39.240 --> 00:00:40.800
+ grilling everybody.
+
+00:00:40.800 --> 00:00:44.200
+ Please still remember, drink more water and keep the walkways free.
+
+00:00:44.200 --> 00:00:47.240
+ As we talked so much already due to the power failure,
+
+00:00:47.240 --> 00:00:49.640
+ sadly, neither on the stream nor on the recording.
+
+00:00:49.640 --> 00:00:56.720
+ I without further ado give it to Gabriella Coleman and
+
+00:00:56.720 --> 00:01:00.800
+ to Jeremy Hammond to talk about activism.
+
+00:01:00.800 --> 00:01:01.880
+ >> Great, thanks so much.
+
+00:01:01.880 --> 00:01:09.400
+ >> [APPLAUSE]
+
+00:01:09.400 --> 00:01:11.800
+ >> All right, so I'll be contextualizing
+
+00:01:11.800 --> 00:01:13.360
+ the hack and leak, no surprise.
+
+00:01:13.360 --> 00:01:18.640
+ So I have a very specific definition for the hack and leak.
+
+00:01:18.640 --> 00:01:23.360
+ So it's a tactic executed by hacker outsiders who hack deliberately into
+
+00:01:23.360 --> 00:01:27.240
+ some org server place to snatch documents and material.
+
+00:01:27.240 --> 00:01:30.560
+ They publicize the intrusion, that's really important, and
+
+00:01:30.560 --> 00:01:33.760
+ stolen material to drum up interest in the leaks.
+
+00:01:33.760 --> 00:01:36.560
+ It was initially used mainly for whistle blowing, but
+
+00:01:36.560 --> 00:01:40.960
+ is now also used by different actors, like nation states, for different purposes.
+
+00:01:40.960 --> 00:01:44.640
+ I'll be concentrating more on this sort of hacktivist tactic.
+
+00:01:44.640 --> 00:01:49.480
+ Today, it's really a firm part of the hacktivist landscape.
+
+00:01:49.480 --> 00:01:52.600
+ Guacamaya, if you have not heard of them, are rocking the hack and
+
+00:01:52.600 --> 00:01:53.760
+ leak in Latin America.
+
+00:01:53.760 --> 00:01:57.240
+ They hacked the Mexican military, for example.
+
+00:01:57.240 --> 00:02:03.000
+ And really since 2011 and 12, you really just have a tremendous amount of
+
+00:02:03.000 --> 00:02:08.120
+ sort of hacktivist activity with this very deliberate tactic.
+
+00:02:08.120 --> 00:02:12.000
+ As I sort of mentioned after our technical snafu, this was so
+
+00:02:12.000 --> 00:02:16.200
+ not obvious to put together the chocolate hack and
+
+00:02:16.200 --> 00:02:19.480
+ the peanut butter leak and put them together.
+
+00:02:19.480 --> 00:02:23.160
+ And in fact, one of the fascinating things was that I interviewed for
+
+00:02:23.160 --> 00:02:24.480
+ a very different project.
+
+00:02:24.480 --> 00:02:30.040
+ A lot of hackers who were like pwning and owning systems in the 90s and 2000s.
+
+00:02:30.040 --> 00:02:35.720
+ And many were not ideologically inclined to do hacktivism, but
+
+00:02:35.720 --> 00:02:39.720
+ some certainly were, and there were a lot of hacktivists doing also website
+
+00:02:39.720 --> 00:02:41.000
+ defacements.
+
+00:02:41.000 --> 00:02:44.440
+ And one hacker actually from Europe during an interview said,
+
+00:02:44.440 --> 00:02:46.960
+ I wish we had done something about it, but we didn't.
+
+00:02:46.960 --> 00:02:50.800
+ I think we could have exposed a lot of corruption, a lot of wrongdoing of a lot
+
+00:02:50.800 --> 00:02:56.240
+ of high profile political people because they had access to their servers.
+
+00:02:56.240 --> 00:03:00.040
+ Now just to kind of give you a sense of how much more hacking and
+
+00:03:00.040 --> 00:03:05.360
+ leaking we have, here's a list from 2010 to the present and it's partial.
+
+00:03:05.360 --> 00:03:08.320
+ I could add another dozen examples.
+
+00:03:08.320 --> 00:03:14.480
+ And before 2010, you've really got four in that sort of English speaking world,
+
+00:03:14.480 --> 00:03:20.000
+ at least, and only two of them really kind of fit with my definition.
+
+00:03:20.000 --> 00:03:22.800
+ So as I mentioned, it was not obvious.
+
+00:03:22.800 --> 00:03:27.920
+ 2009 is really the first instance where you have this tactic fully formed.
+
+00:03:27.920 --> 00:03:31.440
+ But what's interesting about the two, which I'll get to later,
+
+00:03:31.440 --> 00:03:33.840
+ was that people didn't copycat them.
+
+00:03:33.840 --> 00:03:38.680
+ And it wasn't until anonymous hacktivists actually independently and
+
+00:03:38.680 --> 00:03:44.040
+ accidentally stumbled upon this tactic that then it really started to
+
+00:03:44.040 --> 00:03:47.280
+ cement into a template for emulation.
+
+00:03:47.280 --> 00:03:50.240
+ So here's a very truncated genealogy.
+
+00:03:50.240 --> 00:03:55.520
+ So even though I sort of identify 2009 as the kind of time where this
+
+00:03:55.520 --> 00:03:59.120
+ came into being, I often like to give analog examples.
+
+00:03:59.120 --> 00:04:02.720
+ And there is a really amazing example of a group of activists,
+
+00:04:02.720 --> 00:04:06.720
+ the Citizens Commission to expose the FBI, who has heard of them.
+
+00:04:06.720 --> 00:04:13.920
+ So a few, they actually broke into an FBI field office in media Pennsylvania,
+
+00:04:13.920 --> 00:04:20.720
+ took like three, four suitcases of files, photocopied the documents,
+
+00:04:20.720 --> 00:04:23.760
+ sent them to journalists, and eventually, co-intel pro,
+
+00:04:23.760 --> 00:04:29.360
+ one of the most horrific sort of programs against activists was exposed.
+
+00:04:29.360 --> 00:04:31.240
+ And this is a kind of hack and leak.
+
+00:04:31.240 --> 00:04:35.080
+ Obviously, it's very hard to break into a building and take documents, so
+
+00:04:35.080 --> 00:04:38.040
+ that wasn't really replicated very often.
+
+00:04:38.040 --> 00:04:41.200
+ Now, it wasn't until 2003 where you have something similar,
+
+00:04:41.200 --> 00:04:45.880
+ where you have some big email dumps that were not from hacks.
+
+00:04:45.880 --> 00:04:49.480
+ And one has to do with a deep old voting machine.
+
+00:04:49.480 --> 00:04:53.520
+ Someone found documents and source code and
+
+00:04:53.520 --> 00:04:57.120
+ email on unencrypted FTP server, took them.
+
+00:04:57.120 --> 00:05:02.120
+ And then some obscure government official kind of dumped the Enron emails,
+
+00:05:02.120 --> 00:05:04.880
+ they were involved in fraud.
+
+00:05:04.880 --> 00:05:08.880
+ And these were super interesting because basically journalists could not be
+
+00:05:08.880 --> 00:05:11.280
+ bothered to mind them, right?
+
+00:05:11.280 --> 00:05:16.080
+ And it took amazing amount of effort to even sort of cover the documents that
+
+00:05:16.080 --> 00:05:17.400
+ were found.
+
+00:05:17.400 --> 00:05:21.640
+ In the case of D-Bold, for example, there were some stories about
+
+00:05:21.640 --> 00:05:24.800
+ the vulnerabilities, but in this piece, actually,
+
+00:05:24.800 --> 00:05:29.280
+ Paul Krugman is reflecting why the fuck didn't anyone go into the documents and
+
+00:05:29.280 --> 00:05:31.400
+ emails and report on them.
+
+00:05:31.400 --> 00:05:33.680
+ Now, going through email is a bitch.
+
+00:05:33.680 --> 00:05:35.120
+ No one likes to do it.
+
+00:05:35.120 --> 00:05:36.000
+ It's difficult.
+
+00:05:36.000 --> 00:05:40.720
+ You didn't really have boutique tech reporting as much as you did today.
+
+00:05:40.720 --> 00:05:42.080
+ So there's reasons for that, but
+
+00:05:42.080 --> 00:05:46.040
+ I think it also shows that it really wasn't on people's mental map.
+
+00:05:46.040 --> 00:05:49.280
+ So in 2009, you have two bona fide hacks and leaks.
+
+00:05:49.280 --> 00:05:54.800
+ You have one against a university in England, and it was Climate Gate.
+
+00:05:54.800 --> 00:05:57.600
+ And we don't know who took those emails.
+
+00:05:57.600 --> 00:06:01.360
+ They dumped them to kind of seed mistrust around climate science.
+
+00:06:01.360 --> 00:06:03.320
+ And this got a lot of news.
+
+00:06:03.320 --> 00:06:04.760
+ It was all over the news.
+
+00:06:04.760 --> 00:06:06.680
+ I'm not gonna talk about it.
+
+00:06:06.680 --> 00:06:08.520
+ It didn't seem to inspire copycats.
+
+00:06:08.520 --> 00:06:13.800
+ The second one was given to WikiLeaks and was signed anti-fascist hackers.
+
+00:06:13.800 --> 00:06:17.120
+ And it was against Holocaust denier David Irving.
+
+00:06:17.120 --> 00:06:19.480
+ And it did make a little bit of the press.
+
+00:06:19.480 --> 00:06:22.960
+ And eventually, we learned that it was Jeremy Hammond.
+
+00:06:22.960 --> 00:06:23.560
+ He did it.
+
+00:06:23.560 --> 00:06:27.040
+ And this is, again, one of the first bona fide hacks and leaks.
+
+00:06:27.040 --> 00:06:28.760
+ >> Fucking hack-nappy website.
+
+00:06:28.760 --> 00:06:31.280
+ >> [APPLAUSE]
+
+00:06:31.280 --> 00:06:37.560
+ Now what's so interesting is that eventually, I could sort of interview him about this stuff.
+
+00:06:37.560 --> 00:06:41.120
+ And I sort of asked about, where did you get this idea?
+
+00:06:41.120 --> 00:06:43.240
+ What was your sort of inspiration, right?
+
+00:06:43.240 --> 00:06:46.600
+ It wasn't that one day he's like, here's the peanut butter, here's the chocolate,
+
+00:06:46.600 --> 00:06:47.560
+ I'll put it together.
+
+00:06:47.560 --> 00:06:50.640
+ He was part of the hacker underground.
+
+00:06:50.640 --> 00:06:53.160
+ And there was a cultural movement called Antisec.
+
+00:06:53.160 --> 00:06:54.920
+ Who here heard of Antisec?
+
+00:06:54.920 --> 00:06:58.680
+ Not the recent one, but the one from early 2000s.
+
+00:06:58.680 --> 00:07:00.320
+ Yeah, Antisec won.
+
+00:07:00.320 --> 00:07:01.320
+ Very few people.
+
+00:07:01.320 --> 00:07:06.080
+ So in the early 2000s, a bunch of hackers who were part of the underground were
+
+00:07:06.080 --> 00:07:08.240
+ professionalizing, they were getting jobs.
+
+00:07:08.240 --> 00:07:12.200
+ And there was a small crew of people who were like, screw that,
+
+00:07:12.200 --> 00:07:14.800
+ we wanna preserve our cultural kingdom.
+
+00:07:14.800 --> 00:07:17.640
+ We want our exploits and vulnerabilities.
+
+00:07:17.640 --> 00:07:21.520
+ So they went on a rampage against white hat hackers.
+
+00:07:21.520 --> 00:07:25.360
+ And what they did was they hacked them, took their emails, dumped them, but
+
+00:07:25.360 --> 00:07:28.840
+ not for whistle blowing, it was just for shaming them, right?
+
+00:07:28.840 --> 00:07:34.480
+ And Jeremy was like, that's badass, but maybe we can reformulate that and
+
+00:07:34.480 --> 00:07:37.160
+ reformat that for political purposes.
+
+00:07:37.160 --> 00:07:41.160
+ And initially, he would take emails and then share them with a small network of
+
+00:07:41.160 --> 00:07:42.720
+ people, not publicly.
+
+00:07:42.720 --> 00:07:45.720
+ And it wasn't till the WikiLeaks era where again,
+
+00:07:45.720 --> 00:07:48.200
+ the chocolate and peanut butter came together.
+
+00:07:48.200 --> 00:07:53.480
+ So he did this in 2009, he's on probation, very independently.
+
+00:07:53.480 --> 00:07:56.400
+ Anonymous comes into being, and very accidentally,
+
+00:07:56.400 --> 00:07:58.600
+ I don't have the time to go into the details.
+
+00:07:58.600 --> 00:08:04.600
+ They start to stumble on emails, into emails, sometimes not through hacks,
+
+00:08:04.600 --> 00:08:08.160
+ sometimes through hacks, and it's all over the news.
+
+00:08:08.160 --> 00:08:11.200
+ Jeremy's on the sidelines, he's super excited.
+
+00:08:11.200 --> 00:08:16.160
+ At a certain point, he's like, I can't help myself, I'm gonna kind of join.
+
+00:08:16.160 --> 00:08:23.360
+ And he does when LulzSec is disbanding, and very deliberately creates Antisec,
+
+00:08:23.360 --> 00:08:27.800
+ a kind of new version, where you're really deliberately hacking and
+
+00:08:27.800 --> 00:08:31.120
+ leaking and some side of sabotage as well.
+
+00:08:31.120 --> 00:08:33.400
+ Doing things like fuck FBI Fridays,
+
+00:08:33.400 --> 00:08:36.680
+ where you try to time a hack and leak every Friday.
+
+00:08:36.680 --> 00:08:38.760
+ So that's a very brief genealogy.
+
+00:08:38.760 --> 00:08:41.000
+ There's lots of interesting things else to say.
+
+00:08:41.000 --> 00:08:44.800
+ But in 2012, a lot of people get arrested, and
+
+00:08:44.800 --> 00:08:47.720
+ it's not really clear whether this would continue, right?
+
+00:08:47.720 --> 00:08:52.600
+ It's all over the news, but are people gonna basically copycat it, right?
+
+00:08:52.600 --> 00:08:54.400
+ And I wasn't sure myself.
+
+00:08:54.400 --> 00:08:59.280
+ I myself at this point also thought this tactic existed since the 1980s.
+
+00:08:59.280 --> 00:09:01.200
+ I took it for granted.
+
+00:09:01.200 --> 00:09:06.840
+ In 2014, the answer came with LulzSec Peru, with Phineas Fisher.
+
+00:09:06.840 --> 00:09:11.480
+ Then you also have Guardians of Peace, which is a nation state group, right?
+
+00:09:11.480 --> 00:09:13.760
+ So the tactic begins to morph, but
+
+00:09:13.760 --> 00:09:18.280
+ it really starts to grow some serious roots into the ground.
+
+00:09:18.280 --> 00:09:21.440
+ And what is also interesting, and
+
+00:09:21.440 --> 00:09:25.920
+ I'm wrapping up so that we could turn over to Jeremy, is that you have
+
+00:09:25.920 --> 00:09:30.840
+ groups like Phineas Fisher, who are not quite as visible.
+
+00:09:30.840 --> 00:09:33.800
+ They're not there doing 50 days of hacking in a row.
+
+00:09:33.800 --> 00:09:38.080
+ They're striking maybe one year or a few times, then in 2016 for
+
+00:09:38.080 --> 00:09:43.000
+ a few more times, but they're writing manifestos with extremely detailed
+
+00:09:43.000 --> 00:09:47.600
+ instructions for how not to get caught, right?
+
+00:09:47.600 --> 00:09:51.120
+ And indeed, whether it's Phineas Fisher or Guacamea,
+
+00:09:51.120 --> 00:09:55.240
+ now we have this tactic where these groups, individuals,
+
+00:09:55.240 --> 00:09:59.360
+ who knows who are doing this, but evading capture.
+
+00:09:59.360 --> 00:10:00.760
+ So that's all I'm gonna say.
+
+00:10:00.760 --> 00:10:06.120
+ If you're interested in the 40 page version, feel free to email me.
+
+00:10:06.120 --> 00:10:10.080
+ But otherwise, I'm now gonna turn it over to Jeremy for his bit.
+
+00:10:10.080 --> 00:10:10.640
+ Thank you.
+
+00:10:10.640 --> 00:10:14.840
+ >> [APPLAUSE]
+
+00:10:14.840 --> 00:10:16.120
+ >> Okay.
+
+00:10:16.120 --> 00:10:16.620
+ >> Okay.
+
+00:10:16.620 --> 00:10:19.560
+ >> Beale, you're the best.
+
+00:10:20.640 --> 00:10:21.720
+ >> I've been learning this for a long time.
+
+00:10:21.720 --> 00:10:24.080
+ I was just learning it myself, learning it by doing basically.
+
+00:10:24.080 --> 00:10:28.800
+ I'm a back encoder and I'm pretty skilled at remote intrusion, but
+
+00:10:28.800 --> 00:10:31.760
+ I'm not actually particularly the best, right?
+
+00:10:31.760 --> 00:10:36.160
+ None of us are, but what I found is that how many 15 million security
+
+00:10:36.160 --> 00:10:39.520
+ contractors are there that could be a potential Snowden but ain't?
+
+00:10:39.520 --> 00:10:42.040
+ Because in the United States, a lot of tech workers and
+
+00:10:42.040 --> 00:10:45.160
+ developers are basically complicit with the system.
+
+00:10:45.160 --> 00:10:46.040
+ How do I full screen this shit?
+
+00:10:46.040 --> 00:10:49.000
+ This is very embarrassing.
+
+00:10:49.000 --> 00:10:51.480
+ >> [LAUGH] >> I don't use PowerPoint, right?
+
+00:10:51.480 --> 00:10:52.000
+ My God.
+
+00:10:52.000 --> 00:10:53.620
+ Command F.
+
+00:10:53.620 --> 00:10:58.160
+ So anyways, white hats.
+
+00:10:58.160 --> 00:11:06.580
+ My God.
+
+00:11:06.580 --> 00:11:14.260
+ Thunderbird?
+
+00:11:14.260 --> 00:11:16.560
+ All right, so what to do?
+
+00:11:17.920 --> 00:11:20.720
+ This is also single slides, but I can just do it on mine.
+
+00:11:20.720 --> 00:11:24.220
+ Sorry about this.
+
+00:11:24.220 --> 00:11:34.520
+ There we go.
+
+00:11:34.520 --> 00:11:37.080
+ All right, let's burn some shit.
+
+00:11:37.080 --> 00:11:40.800
+ So it's time to draw a line of the sand.
+
+00:11:40.800 --> 00:11:44.200
+ And it's time for hackers to develop some class consciousness.
+
+00:11:44.200 --> 00:11:46.320
+ Occupy Wall Street, we're the 99%.
+
+00:11:46.320 --> 00:11:48.880
+ But there's obviously intersectionalities and so forth.
+
+00:11:48.880 --> 00:11:51.720
+ And I think honestly we've been a little bit too patient with those who are
+
+00:11:51.720 --> 00:11:54.080
+ complicit with the corporate security.
+
+00:11:54.080 --> 00:11:56.840
+ These professionals are harmless now.
+
+00:11:56.840 --> 00:12:00.040
+ Now granted, I am so inspired by what y'all have built here.
+
+00:12:00.040 --> 00:12:02.640
+ I wish we could do the same thing in the United States where it's desperately
+
+00:12:02.640 --> 00:12:03.880
+ needed.
+
+00:12:03.880 --> 00:12:07.040
+ But what we have right now, how things have changed,
+
+00:12:07.040 --> 00:12:10.240
+ I just got a smartphone like two years for the first time when I got out of prison.
+
+00:12:10.240 --> 00:12:13.480
+ I was on all these ridiculous monitoring shits.
+
+00:12:13.480 --> 00:12:16.720
+ And I was just coming to terms with the rise of big tech and
+
+00:12:16.720 --> 00:12:18.880
+ what Corey Doctorow calls in shitification and
+
+00:12:18.880 --> 00:12:23.160
+ all these new complex ideologies that test creals like the Musks and
+
+00:12:23.160 --> 00:12:26.040
+ the Peter Thiels and this crypto stuff.
+
+00:12:26.040 --> 00:12:27.880
+ This futures and where those are left behind.
+
+00:12:27.880 --> 00:12:31.160
+ And all this Panopticon surveillance stuff would only be made possible by
+
+00:12:31.160 --> 00:12:34.440
+ those developers who had chose the paycheck over principle.
+
+00:12:34.440 --> 00:12:39.360
+ And so, and hackers, the vision of information was just free.
+
+00:12:39.360 --> 00:12:42.240
+ We'd all just result in this utopian, but
+
+00:12:42.240 --> 00:12:46.560
+ unfortunately was not able to contend with the forces of neoliberal capitalism,
+
+00:12:46.560 --> 00:12:49.720
+ which is a masterful recuperation of hackers.
+
+00:12:49.720 --> 00:12:52.720
+ That's why you see hack labs turn to hacker spaces and now maker spaces and
+
+00:12:52.720 --> 00:12:55.280
+ stuff like that and DefCon and so forth, right?
+
+00:12:55.280 --> 00:12:57.000
+ So it's time to make hacking a threat again.
+
+00:12:57.000 --> 00:13:03.600
+ >> [APPLAUSE]
+
+00:13:03.600 --> 00:13:05.800
+ >> I love those little fishes, man.
+
+00:13:05.800 --> 00:13:10.280
+ But hey, so these are some tips and stuff like that that I thought what were our
+
+00:13:10.280 --> 00:13:11.960
+ strengths that made work.
+
+00:13:11.960 --> 00:13:14.680
+ Anonymity, encryption, ops, compartmentalization, need to know.
+
+00:13:14.680 --> 00:13:17.760
+ I will say that the reasons why I've been busted at any of these times is not
+
+00:13:17.760 --> 00:13:20.160
+ because of any of the failures of the technology itself.
+
+00:13:20.160 --> 00:13:22.000
+ First off, shout out to the Tor project.
+
+00:13:22.000 --> 00:13:25.160
+ I relied on that shit for nine months and that's not how they caught me.
+
+00:13:25.160 --> 00:13:29.440
+ I made my own mistakes by running my mouth mostly and trusting people and so
+
+00:13:29.440 --> 00:13:31.400
+ forth, but encryption works.
+
+00:13:31.400 --> 00:13:32.760
+ Al Snowden said it himself.
+
+00:13:32.760 --> 00:13:36.400
+ But if you just need to be precise though, of course, right?
+
+00:13:36.400 --> 00:13:39.600
+ What also works is memetic action.
+
+00:13:39.600 --> 00:13:43.520
+ Replicable action, creating openings, be like water like they said in Hong Kong,
+
+00:13:43.520 --> 00:13:44.160
+ I believe.
+
+00:13:44.160 --> 00:13:48.840
+ Basically, I've worked in a lot of protests and organizations and so forth, right?
+
+00:13:48.840 --> 00:13:54.240
+ And I'm an anarchist, but so we have a criticism of centralized and
+
+00:13:54.240 --> 00:13:57.600
+ hierarchical organizational structures and I think the future is more memetic
+
+00:13:57.600 --> 00:14:01.520
+ action. I think that's one of anonymous' strengths is to learn how to the virality.
+
+00:14:01.520 --> 00:14:05.040
+ And also because you don't have to wait to do it yourself.
+
+00:14:05.040 --> 00:14:06.440
+ You could just be inspired.
+
+00:14:06.440 --> 00:14:07.880
+ If you see something, it recognizes it.
+
+00:14:07.880 --> 00:14:09.840
+ Like I have some examples down here.
+
+00:14:09.840 --> 00:14:14.560
+ Stuff like graffiti, raves, flash mobs, hopping and turnstile, team takeovers and
+
+00:14:14.560 --> 00:14:15.840
+ so forth.
+
+00:14:15.840 --> 00:14:18.800
+ Or like in Chicago, we have like these team takeovers, these slides where people
+
+00:14:18.800 --> 00:14:20.960
+ just have these spontaneous public gatherings and so forth.
+
+00:14:20.960 --> 00:14:24.400
+ That just, it's guerrilla stuff, hit and run.
+
+00:14:24.400 --> 00:14:25.760
+ Diversity of tactics.
+
+00:14:25.760 --> 00:14:27.040
+ You know, there's no one way to do it.
+
+00:14:27.040 --> 00:14:27.720
+ There's many ways.
+
+00:14:27.720 --> 00:14:29.200
+ There's many worlds.
+
+00:14:29.200 --> 00:14:31.600
+ You know, sometimes you have to know what card to play at the right moment.
+
+00:14:31.600 --> 00:14:34.080
+ Sometimes it's just got to boil over though and you got to take action.
+
+00:14:34.080 --> 00:14:39.360
+ But I came up handing flyers and going to anti-war protests and stuff like that and
+
+00:14:39.360 --> 00:14:43.120
+ thinking possibly naively that you could change things by that the people in power
+
+00:14:43.120 --> 00:14:46.680
+ will be willing to listen to you or they'll be able to, you could achieve reforms
+
+00:14:46.680 --> 00:14:47.280
+ through this system.
+
+00:14:47.280 --> 00:14:49.720
+ It took my head being whacked by batons.
+
+00:14:49.720 --> 00:14:52.560
+ It took a lot of time in jail and a lot of bogus charges in jail.
+
+00:14:52.560 --> 00:14:54.000
+ Sometimes it is, sometimes it didn't do it though.
+
+00:14:54.000 --> 00:14:57.240
+ And I had to learn that the whole thing just has to go completely.
+
+00:14:57.240 --> 00:14:57.720
+ Right?
+
+00:14:57.720 --> 00:14:59.920
+ And so direct action, hey, it gets the goods, baby.
+
+00:14:59.920 --> 00:15:01.080
+ There's a lot of activism though.
+
+00:15:01.080 --> 00:15:03.360
+ You know, you don't all have to, we don't all got to be the hero to break stuff.
+
+00:15:03.360 --> 00:15:05.160
+ You know, we choose our own level of involvement.
+
+00:15:05.160 --> 00:15:08.000
+ We're all not uniquely positioned in our lives.
+
+00:15:08.000 --> 00:15:09.800
+ Again, there's all forms of defensive hacktivism.
+
+00:15:09.800 --> 00:15:13.000
+ These hacker spaces creating these incubations and developing software and
+
+00:15:13.000 --> 00:15:18.200
+ audits are all part of this diversity of tactics.
+
+00:15:18.200 --> 00:15:22.480
+ Decentralized deterrence, discourage recruitment of cops, law enforcement,
+
+00:15:22.480 --> 00:15:22.960
+ white hats.
+
+00:15:22.960 --> 00:15:25.960
+ If they thought, first off, a cop shouldn't be able to get a bar in any fucking place,
+
+00:15:25.960 --> 00:15:29.120
+ you know, anywhere, they shouldn't, you know, if white hats were like that too,
+
+00:15:29.120 --> 00:15:33.520
+ maybe we'd have less white hats developing the hacking team spy shit,
+
+00:15:33.520 --> 00:15:34.840
+ the surveillance, all that.
+
+00:15:34.840 --> 00:15:41.040
+ So Antisec, big fan, we chose targeting the white hats as the weak link because
+
+00:15:41.040 --> 00:15:43.680
+ also, first off, their emails, they got the credentials, they got the live
+
+00:15:43.680 --> 00:15:46.040
+ vulnerabilities, they got the keys to the kingdom.
+
+00:15:46.040 --> 00:15:46.960
+ So we're after that shit.
+
+00:15:46.960 --> 00:15:49.560
+ Get the mail, get it all.
+
+00:15:49.560 --> 00:15:50.200
+ All right.
+
+00:15:50.200 --> 00:15:51.520
+ Mistakes were made.
+
+00:15:51.520 --> 00:15:53.560
+ But they didn't stop us from learning our lessons and moving on.
+
+00:15:53.560 --> 00:15:57.880
+ You know, my first time I hacked a protest wire is like a right wing counter
+
+00:15:57.880 --> 00:15:58.960
+ counter protester thing.
+
+00:15:58.960 --> 00:16:00.800
+ They were kind of like doxing us.
+
+00:16:00.800 --> 00:16:05.920
+ And like Biela had said, a lot of the work I was doing was a lot of anti-fascist
+
+00:16:05.920 --> 00:16:09.880
+ work, knowing and mapping the right wing networks.
+
+00:16:09.880 --> 00:16:14.160
+ And again, like hacking that, all of it has to be spectacular front page news
+
+00:16:14.160 --> 00:16:14.720
+ defacement.
+
+00:16:14.720 --> 00:16:17.000
+ Sometimes it's like quietly and listen, right?
+
+00:16:17.000 --> 00:16:19.920
+ And knowing where to distribute that data to those that matter.
+
+00:16:19.920 --> 00:16:22.200
+ You know, we need to know who these Nazis are in our neighborhoods.
+
+00:16:22.200 --> 00:16:25.200
+ We need to know their connections, whether they are also police officers or
+
+00:16:25.200 --> 00:16:28.240
+ work in security themselves or generally.
+
+00:16:28.240 --> 00:16:29.560
+ And also it works.
+
+00:16:29.560 --> 00:16:30.240
+ You know what I mean?
+
+00:16:30.240 --> 00:16:33.720
+ So the David Irving one, I went after that because he was on a speaking tour.
+
+00:16:33.720 --> 00:16:36.760
+ And we did the secret location and all this type of stuff.
+
+00:16:36.760 --> 00:16:39.320
+ And so we were able to hack his emails, get all the meeting locations he had to
+
+00:16:39.320 --> 00:16:39.680
+ cancel it.
+
+00:16:39.680 --> 00:16:42.600
+ Also the attendees, those who attended, these neo-Nazis and so forth.
+
+00:16:42.600 --> 00:16:47.600
+ So now I chose to release it to WikiLeaks because that was a stable platform that
+
+00:16:47.600 --> 00:16:50.400
+ was at the time that distributed no questions asked, right?
+
+00:16:50.400 --> 00:16:53.560
+ And so it's like, you know, it's one of the difficult things for those who are
+
+00:16:53.560 --> 00:16:57.600
+ breaking in, whether it's physically, like the example you had mentioned, or
+
+00:16:57.600 --> 00:16:58.920
+ digitally, like.
+
+00:16:58.920 --> 00:17:02.200
+ But fortunately, y'all are fucking the greatest because there's now many
+
+00:17:02.200 --> 00:17:05.920
+ distributed distribution systems, D.secours, of course, right?
+
+00:17:05.920 --> 00:17:06.640
+ Anyways, back to this.
+
+00:17:06.640 --> 00:17:09.160
+ Imprecise and undisciplined technical execution, like you've got to be on point,
+
+00:17:09.160 --> 00:17:10.040
+ right?
+
+00:17:10.040 --> 00:17:12.480
+ You know, hacking and stuff is like you grind it.
+
+00:17:12.480 --> 00:17:15.240
+ They're doing it for the paycheck, nine to five, but we're all night online,
+
+00:17:15.240 --> 00:17:15.440
+ baby.
+
+00:17:15.440 --> 00:17:15.720
+ You know what I mean?
+
+00:17:15.720 --> 00:17:17.120
+ We just need to find that one mistake, right?
+
+00:17:17.120 --> 00:17:21.880
+ But the reverse is true because you also have to be 100% accurate 100% of the time.
+
+00:17:21.880 --> 00:17:25.080
+ And you might get away with it or so you thought, but years later, man, that log
+
+00:17:25.080 --> 00:17:27.840
+ file or whatever the fuck they did, come get your ass.
+
+00:17:27.840 --> 00:17:30.800
+ So just be precise.
+
+00:17:30.800 --> 00:17:32.480
+ Persistent identities and crossing streams.
+
+00:17:32.480 --> 00:17:34.360
+ Crossing streams, OK, so I hacked this site.
+
+00:17:34.360 --> 00:17:36.160
+ I was, you know, using aliases tied to my name.
+
+00:17:36.160 --> 00:17:37.160
+ I was young and I know what the hell I was doing.
+
+00:17:37.160 --> 00:17:40.640
+ But while at the same time also breaking into shit and then people are just
+
+00:17:40.640 --> 00:17:42.440
+ obviously able to see two and two together because I did not
+
+00:17:42.440 --> 00:17:45.480
+ compartmentalize my life and it was very easy for them to get.
+
+00:17:45.480 --> 00:17:48.480
+ So you can't really do above ground and underground stuff at the same time.
+
+00:17:48.480 --> 00:17:50.800
+ I mean, you can, but we all have a little bit of multiple personality stuff.
+
+00:17:50.800 --> 00:17:52.200
+ But persistent identities.
+
+00:17:52.200 --> 00:17:56.000
+ During anonymous, I attempted to have multiple a dozen nicknames or something
+
+00:17:56.000 --> 00:17:59.080
+ like that change at a different time and place, you know, and, you know,
+
+00:17:59.080 --> 00:18:02.000
+ if you do a hack, it's not really a good idea to use the same identity over and
+
+00:18:02.000 --> 00:18:03.640
+ over and over again because you keep them guessing, right?
+
+00:18:03.640 --> 00:18:05.120
+ It's best to keep them guessing that they don't know.
+
+00:18:05.120 --> 00:18:07.680
+ Unfortunately, I was talking to an informant who knew all the nicknames
+
+00:18:07.680 --> 00:18:10.120
+ anyways, or didn't even really matter in my case.
+
+00:18:10.120 --> 00:18:13.840
+ But that has to do with more of a choice about whether I chose to involve myself
+
+00:18:13.840 --> 00:18:15.560
+ with a larger phenomenon and get involved publicly.
+
+00:18:15.560 --> 00:18:18.960
+ We'll talk more about the to crew or not to crew later.
+
+00:18:18.960 --> 00:18:20.680
+ Leaders, hierarchies and pyramids, right?
+
+00:18:20.680 --> 00:18:22.200
+ You know, we already know all that.
+
+00:18:22.200 --> 00:18:23.240
+ Ambiguous politics.
+
+00:18:23.240 --> 00:18:26.960
+ I would say it's nice to know who you're getting involved with and know where you
+
+00:18:26.960 --> 00:18:30.800
+ stand and let others know how you would react to a situation politically.
+
+00:18:30.800 --> 00:18:33.880
+ Occupy Wall Street was the 99 percent, but then you'd also have like a lot of
+
+00:18:33.880 --> 00:18:37.440
+ right wing tea partiers and even folks who believe that the cops are part of
+
+00:18:37.440 --> 00:18:38.440
+ the 99 percent too.
+
+00:18:38.440 --> 00:18:41.640
+ And so again, they had to wait until they got kicked out of a dozen cities by
+
+00:18:41.640 --> 00:18:45.480
+ force by the police until they, oh, wait a minute, they're not on it, right?
+
+00:18:45.480 --> 00:18:46.720
+ No connection to local struggles.
+
+00:18:46.720 --> 00:18:49.760
+ Hacktivist actions are really, you can't just like parachute in and think that you
+
+00:18:49.760 --> 00:18:53.640
+ know what a local struggle or those who are being oppressed by some type of
+
+00:18:53.640 --> 00:18:54.880
+ corporation or government is going to do.
+
+00:18:54.880 --> 00:18:56.120
+ We're just going to come in and save the day.
+
+00:18:56.120 --> 00:18:59.400
+ You know, I mean, you really do have to understand the context and get involved
+
+00:18:59.400 --> 00:19:01.800
+ to see what folks actually want.
+
+00:19:01.800 --> 00:19:06.160
+ This the synergy of activism hacking is at those little intersections of Venn
+
+00:19:06.160 --> 00:19:09.640
+ diagrams is when you really are effective, though.
+
+00:19:09.640 --> 00:19:13.040
+ And it's there's in the United States is actually not that much overlap between
+
+00:19:13.040 --> 00:19:14.800
+ hacking and from my personal perspective.
+
+00:19:14.800 --> 00:19:17.720
+ You know, I've been to those 26 hundreds and they they just ain't into it.
+
+00:19:17.720 --> 00:19:18.320
+ They're saying into it.
+
+00:19:18.320 --> 00:19:20.240
+ You talk talk about anti-fascism to be like, oh, that's good.
+
+00:19:20.240 --> 00:19:20.800
+ It's extremely real.
+
+00:19:20.800 --> 00:19:22.000
+ I don't do that.
+
+00:19:22.000 --> 00:19:25.640
+ Other problems, exclusivity, elitism, not sharing the knowledge and fun.
+
+00:19:25.640 --> 00:19:26.600
+ And like I'm a black head.
+
+00:19:26.600 --> 00:19:27.200
+ I understand.
+
+00:19:27.200 --> 00:19:28.720
+ Don't publish exploit code.
+
+00:19:28.720 --> 00:19:29.840
+ Don't keep it private.
+
+00:19:29.840 --> 00:19:30.320
+ I respect it.
+
+00:19:30.320 --> 00:19:34.520
+ But also like we can't keep this specialized and insular direct action.
+
+00:19:34.520 --> 00:19:35.160
+ We need to show.
+
+00:19:35.160 --> 00:19:39.200
+ And so like like Biela had said, Phineas and the Decepticons, I believe not only
+
+00:19:39.200 --> 00:19:41.840
+ do they hack some shit and leak some shit, they've also published DIY guides
+
+00:19:41.840 --> 00:19:44.760
+ to showing first off how easy it is and that you could do it yourself, that
+
+00:19:44.760 --> 00:19:45.520
+ you don't need to wait.
+
+00:19:45.520 --> 00:19:47.120
+ Working within the system, you already know.
+
+00:19:47.120 --> 00:19:48.120
+ We ain't doing all that.
+
+00:19:48.120 --> 00:19:48.720
+ All right.
+
+00:19:48.720 --> 00:19:50.120
+ I just do this and mistakes are made.
+
+00:19:50.120 --> 00:19:53.920
+ I didn't really intend to talk in detail about how I was caught.
+
+00:19:53.920 --> 00:19:55.520
+ But I just do these couple slides here.
+
+00:19:55.520 --> 00:19:59.920
+ Just talk the tour correlation attack is with an informant.
+
+00:19:59.920 --> 00:20:01.120
+ But we'll talk about that later.
+
+00:20:01.120 --> 00:20:02.720
+ If you want to see me on a Saturday, come on.
+
+00:20:02.720 --> 00:20:05.920
+ We'll go on to how upset could go horribly wrong.
+
+00:20:05.920 --> 00:20:08.720
+ Here's some more fashion tips for the brave.
+
+00:20:08.720 --> 00:20:11.720
+ This black so they reduce identifying.
+
+00:20:11.720 --> 00:20:12.920
+ This is more of a physical.
+
+00:20:12.920 --> 00:20:16.120
+ But it also I thought it might have some analog stuff too, because you know,
+
+00:20:16.120 --> 00:20:19.120
+ writing in these RSC chat rooms and publishing press releases.
+
+00:20:19.120 --> 00:20:23.120
+ I'm always curious to see how these intelligence agencies like use language
+
+00:20:23.120 --> 00:20:25.920
+ analysis and so forth to identify and tie together stuff.
+
+00:20:25.920 --> 00:20:28.520
+ Or if you smash the window lately, well, like don't be wearing these the same
+
+00:20:28.520 --> 00:20:30.320
+ sneaks that you'd be wearing all the time to catch your ass.
+
+00:20:30.320 --> 00:20:31.120
+ And they do.
+
+00:20:31.120 --> 00:20:32.120
+ They do one mistake.
+
+00:20:32.120 --> 00:20:36.920
+ So this is right because these motherfuckers have mastered the counterinsurgency.
+
+00:20:36.920 --> 00:20:39.120
+ They know how to manage resistance and recuperate.
+
+00:20:39.120 --> 00:20:40.520
+ So and they did so.
+
+00:20:40.520 --> 00:20:43.720
+ With anonymous and a lot of it has to do with maybe a little weakness of the
+
+00:20:43.720 --> 00:20:45.320
+ open nature of decentralized communities, right?
+
+00:20:45.320 --> 00:20:47.320
+ They have just these chat rooms with thousands of people, you know,
+
+00:20:47.320 --> 00:20:50.920
+ who's in their logging, of course, informants, of course, entrapment that
+
+00:20:50.920 --> 00:20:53.120
+ we could talk a little bit about that as well later.
+
+00:20:53.120 --> 00:20:57.920
+ But they also try to discredit those who are working hard on the right shit.
+
+00:20:57.920 --> 00:21:00.120
+ They'll just go share co-option.
+
+00:21:00.120 --> 00:21:02.720
+ They'll try to I have a list down here.
+
+00:21:02.720 --> 00:21:06.120
+ The Dutch and formula, the divide and conquer other side of the coin are a few
+
+00:21:06.120 --> 00:21:08.720
+ good papers that talk about some of the different things that they're doing.
+
+00:21:08.720 --> 00:21:11.520
+ A few good papers that talk about some of the different divide and conquer
+
+00:21:11.520 --> 00:21:14.920
+ strategies, mostly between isolating good and bad protesters,
+
+00:21:14.920 --> 00:21:18.920
+ whatever the hell that means, or even try to reduce it to a narrative of law
+
+00:21:18.920 --> 00:21:22.120
+ in order of criminality, like oh, we could have got to be legal or we have to be
+
+00:21:22.120 --> 00:21:24.520
+ pacifist is the only way the one way or like that.
+
+00:21:24.520 --> 00:21:27.720
+ And so one of the strategies, they isolate the radicals.
+
+00:21:27.720 --> 00:21:28.320
+ They call us criminals.
+
+00:21:28.320 --> 00:21:30.920
+ They call us. But listen, what I found is that I was handing out flyers and
+
+00:21:30.920 --> 00:21:31.920
+ news will get my head beaten.
+
+00:21:31.920 --> 00:21:32.720
+ They still call me a terrorist.
+
+00:21:32.720 --> 00:21:36.320
+ I didn't even do that terrorist shit till many years later because they made me.
+
+00:21:36.320 --> 00:21:42.120
+ They made me a government corporate fascist co-opting the tactics and
+
+00:21:42.120 --> 00:21:43.920
+ aesthetics of hackers and revolutionaries.
+
+00:21:43.920 --> 00:21:46.720
+ We're seeing this with QAnon like they're trying to say that is the
+
+00:21:46.720 --> 00:21:50.320
+ type of lineage. There's obviously no lineage, but they like the aesthetics of
+
+00:21:50.320 --> 00:21:51.520
+ rebellion and resistance.
+
+00:21:51.520 --> 00:21:54.120
+ I always think it's hilarious for right put rage against the machine as example
+
+00:21:54.120 --> 00:21:57.320
+ because all these like anti-vax or right wingers and stuff might just hear it for
+
+00:21:57.320 --> 00:21:59.520
+ the first time because you know, they only know what the hell to do it and they
+
+00:21:59.520 --> 00:22:00.720
+ think that is then they wait.
+
+00:22:00.720 --> 00:22:02.320
+ These are commies. These are fucking lefties.
+
+00:22:02.320 --> 00:22:06.520
+ What the fuck is like, what the fuck Marjorie Taylor Greene was selling defund the FBI
+
+00:22:06.520 --> 00:22:10.520
+ shirts right, but there's or right wing thinking that like they're now trying to
+
+00:22:10.520 --> 00:22:12.720
+ claim the mantle of free speech and stuff like that because they got fucking
+
+00:22:12.720 --> 00:22:13.520
+ kicked off at Twitter.
+
+00:22:13.520 --> 00:22:16.120
+ How about you fucking try a month in the box because you posted some shit on
+
+00:22:16.120 --> 00:22:19.720
+ Twitter or how about you write a letter to your fucking judges sentencing and
+
+00:22:19.720 --> 00:22:20.120
+ stuff like that.
+
+00:22:20.120 --> 00:22:22.120
+ They take your email privileges away for fucking months, right?
+
+00:22:22.120 --> 00:22:25.520
+ You know, try just doing handing leaflets and get your ass whooped and not these
+
+00:22:25.520 --> 00:22:26.720
+ motherfuckers complaining about Twitter and stuff.
+
+00:22:26.720 --> 00:22:30.520
+ And then of course like Bielat had mentioned the hacked state and governments
+
+00:22:30.520 --> 00:22:34.120
+ also are now adopting the hacking leaks themselves, right?
+
+00:22:34.120 --> 00:22:36.720
+ Full circle I suppose.
+
+00:22:36.720 --> 00:22:42.720
+ You know, there's a Vault 7 revelation showed how also the US CIA specifically
+
+00:22:42.720 --> 00:22:46.220
+ has tools that could misattribute a hack and make it appear like it comes from
+
+00:22:46.220 --> 00:22:46.720
+ somewhere else.
+
+00:22:46.720 --> 00:22:51.520
+ And then they try to muddy the waters too also with this Hunter Biden laptop and
+
+00:22:51.520 --> 00:22:52.520
+ the DNC and stuff like that.
+
+00:22:52.520 --> 00:22:56.220
+ So they're learning that some things are effective and in a way that it's a little
+
+00:22:56.220 --> 00:22:58.920
+ bit more honest in a sense that they're not even they're dropping the pretense of
+
+00:22:58.920 --> 00:23:01.520
+ law and order because democracy is a sham in the first place and now they're doing
+
+00:23:01.520 --> 00:23:05.320
+ the same shit we are like at least in the United States they're just it's best past
+
+00:23:05.320 --> 00:23:05.920
+ the breaking point.
+
+00:23:05.920 --> 00:23:09.120
+ Alright, just some critiques of leaking is not enough.
+
+00:23:09.120 --> 00:23:12.820
+ Like Bielat said, a lot of the work is honestly the journalism digging through
+
+00:23:12.820 --> 00:23:13.520
+ the databases.
+
+00:23:13.520 --> 00:23:13.920
+ You know what I mean?
+
+00:23:13.920 --> 00:23:16.520
+ Like, okay, you could hack some shit and get like 80 gigs of emails and SQLs
+
+00:23:16.520 --> 00:23:17.020
+ and stuff like that.
+
+00:23:17.020 --> 00:23:20.120
+ Like, you know, who has time?
+
+00:23:20.120 --> 00:23:22.620
+ You know, when I was at my height, I had like hundreds and hundreds of targets,
+
+00:23:22.620 --> 00:23:22.720
+ man.
+
+00:23:22.720 --> 00:23:25.820
+ It's one of the reasons why I chose to go with WikiLeaks to release the Stratford
+
+00:23:25.820 --> 00:23:29.420
+ emails because they had teams of professionals and journalists to be able to go through
+
+00:23:29.420 --> 00:23:34.520
+ and look and find the stories to find the scandals because destroying is great.
+
+00:23:34.520 --> 00:23:36.820
+ I mean, believe it and I'll talk a little bit more about that later.
+
+00:23:36.820 --> 00:23:41.420
+ But leaking is kind of has a long-term scandals that could make or break a presidency
+
+00:23:41.420 --> 00:23:44.320
+ or aspiring right-wing politicians career.
+
+00:23:44.320 --> 00:23:45.820
+ So deep-ancing the empire.
+
+00:23:45.820 --> 00:23:46.920
+ Can I give one example?
+
+00:23:46.920 --> 00:23:47.620
+ Yes.
+
+00:23:47.620 --> 00:23:57.420
+ In Lulsec, Peru hacked the government and they released emails that showed massive
+
+00:23:57.420 --> 00:24:01.720
+ corruption and then they were voting to disintegrate the government and they didn't
+
+00:24:01.720 --> 00:24:03.520
+ but they needed one more vote to do so.
+
+00:24:03.520 --> 00:24:06.220
+ So making a difference.
+
+00:24:06.220 --> 00:24:11.120
+ You could shape public perception and consciousness of the problem by exposing it.
+
+00:24:11.120 --> 00:24:16.020
+ And as outsiders, we're a little bit different from whistleblowers.
+
+00:24:16.020 --> 00:24:17.220
+ You know, I mean, I've never we're not military.
+
+00:24:17.220 --> 00:24:18.120
+ We're not law enforcement.
+
+00:24:18.120 --> 00:24:21.320
+ You know, I mean, we're they're holding all the keys like in their little fortress and
+
+00:24:21.320 --> 00:24:21.820
+ stuff like that.
+
+00:24:21.820 --> 00:24:25.520
+ But again, if a smart person knows where to look to find the cracks in the windows and
+
+00:24:25.520 --> 00:24:28.620
+ the doors, right and find that shit and release it.
+
+00:24:28.620 --> 00:24:30.020
+ Okay, leaking is not enough.
+
+00:24:30.020 --> 00:24:32.020
+ Lack of stable distribution platforms in the early days.
+
+00:24:32.020 --> 00:24:36.220
+ But fortunately now, I think a little bit is better now with Torrance and you know,
+
+00:24:36.220 --> 00:24:38.620
+ a lot of the technology all developed.
+
+00:24:38.620 --> 00:24:40.720
+ A problem is over-saturation and desensitization.
+
+00:24:40.720 --> 00:24:44.420
+ So like in the early days, like it was a revelation that, you know, you have like a police
+
+00:24:44.420 --> 00:24:46.920
+ chief email sending races stuff like that and you could get a fire.
+
+00:24:46.920 --> 00:24:49.720
+ But now there's just they're muddying the water.
+
+00:24:49.720 --> 00:24:53.820
+ But by dumping so much fake news and disinfo that is hard to distinguish reality.
+
+00:24:53.820 --> 00:24:58.620
+ And so now it's just a everyone's perception is, you know, we all know it.
+
+00:24:58.620 --> 00:25:00.720
+ Diffusion by disinfo limits whistleblowing.
+
+00:25:00.720 --> 00:25:03.920
+ So yeah, a lot of whistleblowers, you know, who work within like these governments and
+
+00:25:03.920 --> 00:25:04.920
+ stuff like that.
+
+00:25:04.920 --> 00:25:09.220
+ First off, we do need to create incentives because we do want to welcome those.
+
+00:25:09.220 --> 00:25:11.520
+ A lot of them do have like these once they see the dirt.
+
+00:25:11.520 --> 00:25:15.420
+ Maybe the few of them do join these things with the good intentions.
+
+00:25:15.420 --> 00:25:18.220
+ Maybe not police, bullies and so forth.
+
+00:25:18.220 --> 00:25:21.180
+ But nevertheless, maybe they have a crisis of conscience and we need to create welcoming
+
+00:25:21.180 --> 00:25:23.420
+ environments to where they could we could embrace them.
+
+00:25:23.420 --> 00:25:27.920
+ But nevertheless, oftentimes I found that they have lingering allegiances and a belief
+
+00:25:27.920 --> 00:25:31.780
+ that you could still appeal to the authorities by, you know, there's like whistleblower programs
+
+00:25:31.780 --> 00:25:33.820
+ with the government like, oh, they'll protect you.
+
+00:25:33.820 --> 00:25:34.820
+ But you know what?
+
+00:25:34.820 --> 00:25:38.660
+ You know, look what they did to the ones who tried, you know, they prosecute and threaten
+
+00:25:38.660 --> 00:25:41.000
+ and discredit and all the rest.
+
+00:25:41.000 --> 00:25:44.320
+ And so I found that that resulted in a lot of half measures.
+
+00:25:44.320 --> 00:25:47.420
+ And also, I don't remember if I talked, okay, I'll talk about it later.
+
+00:25:47.420 --> 00:25:51.680
+ And then liberal media is complicit as well because either they're not going to be covering
+
+00:25:51.680 --> 00:25:52.880
+ it unless they have to.
+
+00:25:52.880 --> 00:25:56.640
+ Like for example, the Pentagon Papers, you know, or even Chelsea Manning went to several
+
+00:25:56.640 --> 00:26:00.160
+ reporting agencies and tried to release them, but they weren't trying to hear none of that,
+
+00:26:00.160 --> 00:26:01.160
+ right?
+
+00:26:01.160 --> 00:26:02.160
+ So they're kind of part of the problems.
+
+00:26:02.160 --> 00:26:04.800
+ That's why we need like independent DIY journalism and stuff like that.
+
+00:26:04.800 --> 00:26:05.800
+ This is where you all come in.
+
+00:26:05.800 --> 00:26:09.820
+ Unfortunately, leaking, I would say, has not stopped the death march because now that we
+
+00:26:09.820 --> 00:26:12.140
+ are aware of it, we all know government is spying on us.
+
+00:26:12.140 --> 00:26:13.360
+ They're going to war and stuff like that.
+
+00:26:13.360 --> 00:26:16.800
+ So just the knowledge of this fact, we've all known that, right?
+
+00:26:16.800 --> 00:26:19.520
+ So we need to make hacking a threat again.
+
+00:26:19.520 --> 00:26:22.480
+ Towards a more effective hacktivism, right?
+
+00:26:22.480 --> 00:26:25.240
+ So you know, again, like we can all be the warriors.
+
+00:26:25.240 --> 00:26:29.480
+ I would say that is extremely important that you know exactly what you're looking at before
+
+00:26:29.480 --> 00:26:33.820
+ you even get involved in it and also let those who are around you know what your limitations
+
+00:26:33.820 --> 00:26:36.680
+ are before you get involved.
+
+00:26:36.680 --> 00:26:41.360
+ And then also, it's super important to practice prisoner solidarity for those comrades got locked
+
+00:26:41.360 --> 00:26:43.140
+ up in the line of duty.
+
+00:26:43.140 --> 00:26:47.020
+ Now first, I want to shout out chaos camp because I got a lot of postcards from this camp years
+
+00:26:47.020 --> 00:26:48.600
+ ago and it meant everything to me.
+
+00:26:48.600 --> 00:26:49.600
+ It meant everything to me.
+
+00:26:49.600 --> 00:26:58.560
+ I'm so, I can't tell you how happy I am to be here with you all.
+
+00:26:58.560 --> 00:27:00.360
+ I think they are still also doing a jailed to the mail thing.
+
+00:27:00.360 --> 00:27:05.040
+ I mean, if I was talking about, so there's still lots of folks locked up behind bars.
+
+00:27:05.040 --> 00:27:08.540
+ And I will say enacting prisoner solidarity is not as important also because it emboldens
+
+00:27:08.540 --> 00:27:12.440
+ the next line of those who were willing to thinking about whether they take the adventure
+
+00:27:12.440 --> 00:27:13.680
+ because you are not alone.
+
+00:27:13.680 --> 00:27:15.680
+ You will have a movement that got your back.
+
+00:27:15.680 --> 00:27:16.680
+ And we'll see you through.
+
+00:27:16.680 --> 00:27:19.960
+ We'll see you through the other end, right?
+
+00:27:19.960 --> 00:27:20.960
+ So study court documents.
+
+00:27:20.960 --> 00:27:24.080
+ You know, the discovery, the indictments, read that shit, study the forensic reports,
+
+00:27:24.080 --> 00:27:25.640
+ the advisers, see how they're caught.
+
+00:27:25.640 --> 00:27:28.640
+ I threw in here reject law and order, the framing of ethical hacking.
+
+00:27:28.640 --> 00:27:30.560
+ Yeah, we all know this shit, right?
+
+00:27:30.560 --> 00:27:32.680
+ This is the big one though, know if and when to pull the trigger.
+
+00:27:32.680 --> 00:27:36.400
+ Like I alluded to it earlier, but you know, not always it's a good idea to release immediately
+
+00:27:36.400 --> 00:27:37.440
+ or attack immediately.
+
+00:27:37.440 --> 00:27:40.360
+ For one, I would say this is one of the, when I first started getting anonymous and started
+
+00:27:40.360 --> 00:27:43.480
+ looking at them, it was so amazing and inspiring because they're getting some big targets off
+
+00:27:43.480 --> 00:27:48.000
+ the rip, but there's an IRC, OSHA, SQA, StateGov, Wendeface, Wendeface.
+
+00:27:48.000 --> 00:27:50.160
+ I was like, nah, you got to go through the emails.
+
+00:27:50.160 --> 00:27:51.520
+ You got to test all those hashes.
+
+00:27:51.520 --> 00:27:54.440
+ You know, you got to probe and get all the mails at least.
+
+00:27:54.440 --> 00:27:58.120
+ If you ain't got the mails, you know, before you pull the trigger.
+
+00:27:58.120 --> 00:28:02.000
+ But then again, you can't wait too long either because of course the window might close.
+
+00:28:02.000 --> 00:28:03.240
+ Less spectacle and more damage.
+
+00:28:03.240 --> 00:28:08.160
+ All right, now smashing a window, it shatters the myth of law and order and creates openings
+
+00:28:08.160 --> 00:28:11.080
+ in which another world is possible.
+
+00:28:11.080 --> 00:28:12.560
+ But spectacle is great.
+
+00:28:12.560 --> 00:28:13.920
+ Defacements are great.
+
+00:28:13.920 --> 00:28:15.520
+ But man, why don't you just RMR off that shit?
+
+00:28:15.520 --> 00:28:16.520
+ You know what I mean?
+
+00:28:16.520 --> 00:28:17.520
+ Destroy that shit.
+
+00:28:17.520 --> 00:28:19.880
+ Stratford, it took them like six weeks because I deleted like four servers completely, DD
+
+00:28:19.880 --> 00:28:20.880
+ and shit like.
+
+00:28:20.880 --> 00:28:26.600
+ So a defacement that might take down, but damage is forever, baby.
+
+00:28:26.600 --> 00:28:28.540
+ Less redactions and more doxing.
+
+00:28:28.540 --> 00:28:32.680
+ So I put this in because I was kind of a little bit frustrated that for example, the Snowden
+
+00:28:32.680 --> 00:28:37.120
+ dox that released all these slides of like the NSA slides and all the prisms and all this
+
+00:28:37.120 --> 00:28:38.120
+ stuff, right?
+
+00:28:38.120 --> 00:28:41.840
+ They didn't even release the names of the NSA agents or whoever fucking wrote them.
+
+00:28:41.840 --> 00:28:42.840
+ Why the hell not?
+
+00:28:42.840 --> 00:28:43.840
+ Why the hell not?
+
+00:28:43.840 --> 00:28:44.840
+ Release that shit, man.
+
+00:28:44.840 --> 00:28:47.160
+ Like first off, in a lot of places around the world, police officers and stuff like that,
+
+00:28:47.160 --> 00:28:49.520
+ you should be known and we shouldn't have police in the first place.
+
+00:28:49.520 --> 00:28:50.520
+ All cops are bastards.
+
+00:28:50.520 --> 00:28:52.440
+ But it would be a thing to know who they are.
+
+00:28:52.440 --> 00:28:55.840
+ So what are you so, but nevermind.
+
+00:28:55.840 --> 00:28:57.240
+ Docs their addresses and all that shit.
+
+00:28:57.240 --> 00:29:01.840
+ I will say though that you do have to go with the data because it's a lot of responsibility
+
+00:29:01.840 --> 00:29:02.840
+ to be sitting on.
+
+00:29:02.840 --> 00:29:05.280
+ I was hacking a lot of police stuff like that and I'd have emails and stuff like that.
+
+00:29:05.280 --> 00:29:10.400
+ And for example, they would have jail rosters of people who are incarcerated in these jails
+
+00:29:10.400 --> 00:29:14.480
+ and people who are not even convicted of a crime for example, or also possibly victim
+
+00:29:14.480 --> 00:29:18.440
+ witness statements and so forth of domestic violence that we don't necessarily want to,
+
+00:29:18.440 --> 00:29:22.520
+ obviously we don't want to expose that stuff because, so you do have a tremendous responsibility
+
+00:29:22.520 --> 00:29:25.560
+ to parse through that data, which is again, a lot of the work when you hack some 80 gigs
+
+00:29:25.560 --> 00:29:26.560
+ of emails and shit.
+
+00:29:26.560 --> 00:29:28.440
+ Oh man, I need a team for this.
+
+00:29:28.440 --> 00:29:30.880
+ But there's no crew, only you.
+
+00:29:30.880 --> 00:29:31.880
+ Don't wait either.
+
+00:29:31.880 --> 00:29:33.760
+ But that's why there's like these networks.
+
+00:29:33.760 --> 00:29:38.400
+ We have these journalism networks and WikiLeaks and alternatives to WikiLeaks, how we do this.
+
+00:29:38.400 --> 00:29:40.040
+ And don't be afraid to be the first.
+
+00:29:40.040 --> 00:29:41.040
+ Don't be afraid to go all the way.
+
+00:29:41.040 --> 00:29:45.800
+ I will say this, when I started getting arrested and something like, my first time I had 5,000
+
+00:29:45.800 --> 00:29:47.440
+ credit cards, didn't use a single one.
+
+00:29:47.440 --> 00:29:50.600
+ I talked about using a little bit, oh we're going to donate to all these causes that they
+
+00:29:50.600 --> 00:29:51.600
+ hate.
+
+00:29:51.600 --> 00:29:53.960
+ It would be great to charities and comic groups and stuff like that, but I didn't use them.
+
+00:29:53.960 --> 00:29:56.960
+ But they still charged me as if I did it anyways.
+
+00:29:56.960 --> 00:30:00.480
+ And they gave me the sentencing gullet, 5,000 credit cards, $500, two and a half million dollars
+
+00:30:00.480 --> 00:30:04.080
+ in damages six years over the statutory maximum.
+
+00:30:04.080 --> 00:30:07.880
+ Anyways, come on man, they're going to sentence you as if you did it anyways, so you may as
+
+00:30:07.880 --> 00:30:08.880
+ well go all the way.
+
+00:30:08.880 --> 00:30:12.680
+ Hell, half the time I've been arrested, half the time, yeah, you already know man.
+
+00:30:12.680 --> 00:30:15.640
+ And that's really all I have to say to be honest.
+
+00:30:15.640 --> 00:30:16.640
+ That's it.
+
+00:30:16.640 --> 00:30:18.360
+ We're down for questions.
+
+00:30:18.360 --> 00:30:19.360
+ Please hit it.
+
+00:30:19.360 --> 00:30:20.360
+ I'm an open book.
+
+00:30:20.360 --> 00:30:21.360
+ I'm here all week, so hit it.
+
+00:30:21.360 --> 00:30:34.720
+ So there's plenty of time for questions.
+
+00:30:34.720 --> 00:30:37.400
+ I will help moderate them.
+
+00:30:37.400 --> 00:30:38.760
+ Jeremy?
+
+00:30:38.760 --> 00:30:47.600
+ Is there a microphone?
+
+00:30:47.600 --> 00:30:55.080
+ Yeah.
+
+00:30:55.080 --> 00:30:59.920
+ Stand over here because we need to be in the camera shot.
+
+00:30:59.920 --> 00:31:06.400
+ Oh hi, I will never thank you enough for all you've done in your entire life.
+
+00:31:06.400 --> 00:31:13.400
+ I love you so much, both of you.
+
+00:31:13.400 --> 00:31:14.400
+ I have a short comment.
+
+00:31:14.400 --> 00:31:17.160
+ I'll make it short and I have a question for you.
+
+00:31:17.160 --> 00:31:22.680
+ We heard 2009, we heard Wikileaks name three times, we heard Vault 7, but you mentioned
+
+00:31:22.680 --> 00:31:26.500
+ Wikileaks as a platform, a bunch of journalists.
+
+00:31:26.500 --> 00:31:32.240
+ My comment is that to me Wikileaks also taught the world how to do journalism and data journalism,
+
+00:31:32.240 --> 00:31:37.760
+ taught the world how to do anti-censorship publishing and not just a platform.
+
+00:31:37.760 --> 00:31:40.240
+ Also Wikileaks taught us about source protection.
+
+00:31:40.240 --> 00:31:46.160
+ Now I haven't heard the name of Assange in your talk and when the camp ended four years
+
+00:31:46.160 --> 00:31:50.600
+ ago he was mentioned because four years ago he was fucking arrested and he's still in
+
+00:31:50.600 --> 00:31:54.400
+ the worst prison in the UK for nothing today.
+
+00:31:54.400 --> 00:32:00.640
+ So I wanted to ask you, does this case of this violent character assassination campaign
+
+00:32:00.640 --> 00:32:09.600
+ with this fake doctored accusations, the Niels Melser, the UN reporter, demonstrated that
+
+00:32:09.600 --> 00:32:13.320
+ the Swedish rape case was fabricated?
+
+00:32:13.320 --> 00:32:18.820
+ This and the rest, is that the same tactics to discredit, to divide and the such that you
+
+00:32:18.820 --> 00:32:20.800
+ mentioned earlier?
+
+00:32:20.800 --> 00:32:27.440
+ And is there a US bias in the perception of the character of Assange that prevents the
+
+00:32:27.440 --> 00:32:32.880
+ unified and justified campaign of support that he and Wikileaks and everybody else in
+
+00:32:32.880 --> 00:32:33.880
+ Wikileaks deserves?
+
+00:32:33.880 --> 00:32:34.880
+ I could talk about the liberal media.
+
+00:32:34.880 --> 00:32:48.720
+ Well for one, for you Julian Assange and all political prisoners, all prisoners just saying.
+
+00:32:48.720 --> 00:32:52.800
+ Thanks for the question, it's a very heavy one, right?
+
+00:32:52.800 --> 00:32:56.600
+ I will say this, it's true like we mentioned earlier that the United States especially
+
+00:32:56.600 --> 00:33:00.520
+ uses the campaigns to discredit those who stand up, the nail that stands up gets hammered
+
+00:33:00.520 --> 00:33:01.520
+ down.
+
+00:33:01.520 --> 00:33:08.760
+ But it is also true that there is a history of patriarchy and sexual abuse that anyone
+
+00:33:08.760 --> 00:33:13.000
+ is capable of doing it and it is disappointing and people need to be held accountable for
+
+00:33:13.000 --> 00:33:14.000
+ their...
+
+00:33:14.000 --> 00:33:23.340
+ I can't comment on the specifics of the Assange, but I will say also that one thing I like
+
+00:33:23.340 --> 00:33:28.940
+ about the new generation of whistle blowing platforms is that it is not necessarily centered
+
+00:33:28.940 --> 00:33:33.080
+ around personalities or individuals, which that's why I mentioned earlier the martyrdom
+
+00:33:33.080 --> 00:33:37.000
+ thing is that because it's a failure, we all fail, right?
+
+00:33:37.000 --> 00:33:39.840
+ And Wikileaks lists a lot of examples, I'm not even specifically referring to Assange
+
+00:33:39.840 --> 00:33:40.840
+ here.
+
+00:33:40.840 --> 00:33:46.900
+ So I'm just saying that it has a way of lessening the problem of these abusers in our organizations
+
+00:33:46.900 --> 00:33:52.240
+ if we don't centralize power in that way.
+
+00:33:52.240 --> 00:34:02.120
+ And I could speak to the kind of bias against Assange in his case in the United States and
+
+00:34:02.120 --> 00:34:03.120
+ the liberal media.
+
+00:34:03.120 --> 00:34:08.520
+ I think you're absolutely right and I think it runs enormously deep for a couple of reasons.
+
+00:34:08.520 --> 00:34:15.600
+ I mean one of which is absolutely, you're right, that the American media in different
+
+00:34:15.600 --> 00:34:20.480
+ moments of its history has been extremely spineless, completely spineless.
+
+00:34:20.480 --> 00:34:25.480
+ And in fact, the Citizens Commission to expose the FBI, the Washington Post published the
+
+00:34:25.480 --> 00:34:27.440
+ story but they did not want to.
+
+00:34:27.440 --> 00:34:32.720
+ They did not want to, the New York Times didn't want to, a bunch of editors convinced Katherine
+
+00:34:32.720 --> 00:34:35.000
+ Graham to release the information.
+
+00:34:35.000 --> 00:34:41.520
+ At the time that Wikileaks came into being, you had Chelsea Manning who wanted to show
+
+00:34:41.520 --> 00:34:47.160
+ collateral murder, Reuters knew about that fucking video, they had seen it and they would
+
+00:34:47.160 --> 00:34:48.600
+ not publish, right?
+
+00:34:48.600 --> 00:34:51.880
+ And it was so important to have that platform.
+
+00:34:51.880 --> 00:34:58.000
+ And I think because in some ways, like if I was some Freudian, Lacanian psychoanalyst,
+
+00:34:58.000 --> 00:35:03.900
+ which I'm not, I think there's something really interesting about how Assange basically showed
+
+00:35:03.900 --> 00:35:06.640
+ how spineless the American media was.
+
+00:35:06.640 --> 00:35:13.160
+ Then things went sour, you know, and then it's insane to me because I've definitely
+
+00:35:13.160 --> 00:35:16.760
+ have done events around Assange and you know there have been a lot of people who have come
+
+00:35:16.760 --> 00:35:22.760
+ out and supported it but it's not receiving the attention it needs because that is a threat
+
+00:35:22.760 --> 00:35:26.120
+ to journalism, he does not deserve that.
+
+00:35:26.120 --> 00:35:31.360
+ So I really appreciate your question and Wikileaks is a key part of the story that we're telling.
+
+00:35:31.360 --> 00:35:35.960
+ But yeah, absolutely in many deep ways.
+
+00:35:35.960 --> 00:35:40.000
+ I will say also that they tried to, you know, when they held me in contempt and wanted me
+
+00:35:40.000 --> 00:35:44.320
+ to testify saying Assange was like, he asked you, he was paying you, whatever, he was like,
+
+00:35:44.320 --> 00:35:47.760
+ just because I don't necessarily agree with some of the Trump stuff earlier that I didn't
+
+00:35:47.760 --> 00:35:50.760
+ agree with, but that doesn't mean I still said fuck you, I ain't saying shit motherfucker,
+
+00:35:50.760 --> 00:35:59.680
+ free the man, free the man.
+
+00:35:59.680 --> 00:36:05.360
+ We have five minutes, so questions, comments?
+
+00:36:05.360 --> 00:36:10.880
+ We have a crisis of journalism that is we're almost past facts so nobody believes in anything
+
+00:36:10.880 --> 00:36:11.880
+ anymore.
+
+00:36:11.880 --> 00:36:19.920
+ So how can journalism still expose stuff if no one believes anything anyway?
+
+00:36:19.920 --> 00:36:21.680
+ I think there is an objective truth.
+
+00:36:21.680 --> 00:36:22.760
+ You know what I mean?
+
+00:36:22.760 --> 00:36:27.480
+ Despite their attempts to muddy the water with disinfo in this post-truth society, you're
+
+00:36:27.480 --> 00:36:30.540
+ right, you're right, that's why I said leaking may not be enough.
+
+00:36:30.540 --> 00:36:34.880
+ That's why, you know, if you get the docs, post it, yes, and maybe we can and we should
+
+00:36:34.880 --> 00:36:38.560
+ push hard to hold these people accountable once we find their information, right?
+
+00:36:38.560 --> 00:36:40.920
+ But you're right because then they could also create a counter narrative that just makes
+
+00:36:40.920 --> 00:36:41.920
+ shit up.
+
+00:36:41.920 --> 00:36:44.160
+ So that's why I say just delete their shit or just stalk them outside of the house or
+
+00:36:44.160 --> 00:36:47.760
+ do what you need to do, but they should not be around working military no more if you
+
+00:36:47.760 --> 00:36:50.080
+ know what you know about them.
+
+00:36:50.080 --> 00:36:56.760
+ I also, I'm an anthropologist and we sort of, our bread and butter is conspiracy at some
+
+00:36:56.760 --> 00:37:02.520
+ level and it's interesting because, you know, historically we tended to be like, oh, look
+
+00:37:02.520 --> 00:37:08.080
+ at the chupacabra which is this like goat sucking alien in Puerto Rico which is where
+
+00:37:08.080 --> 00:37:12.840
+ I'm from and I'm like, I love the chupacabra and it's really about colonialism and post
+
+00:37:12.840 --> 00:37:18.640
+ colonialism and extraction and I will say that as much as I hate the far right and the
+
+00:37:18.640 --> 00:37:23.240
+ right, I do actually think that part of the problem, again, I go back to like the liberal
+
+00:37:23.240 --> 00:37:29.680
+ media and these sorts of things is that, you know, they haven't been historically aggressive
+
+00:37:29.680 --> 00:37:33.540
+ enough going after the powerful, right?
+
+00:37:33.540 --> 00:37:37.320
+ And so sometimes you get these conspiracy theories that kind of have like a kernel of
+
+00:37:37.320 --> 00:37:38.760
+ truth, right?
+
+00:37:38.760 --> 00:37:44.720
+ And so as you sort of rebuild journalism, you also have to like, you know, I got my
+
+00:37:44.720 --> 00:37:49.880
+ vaccines and Pfizer helped create it, but Pfizer has done a lot of really fucked up
+
+00:37:49.880 --> 00:37:52.020
+ things as well, right?
+
+00:37:52.020 --> 00:37:57.120
+ And so we have to hold these corporations really accountable because I think that helps
+
+00:37:57.120 --> 00:38:02.760
+ breed conspiracy as well and as kind of Jeremy said, like if you're not doing that, then
+
+00:38:02.760 --> 00:38:06.260
+ that creates the conditions, but it's going to be a long time.
+
+00:38:06.260 --> 00:38:12.920
+ Obviously these have come in waves before, so I hope that we overcome the wave before
+
+00:38:12.920 --> 00:38:15.240
+ we destroy the planet with climate change.
+
+00:38:15.240 --> 00:38:16.240
+ That's my big worry now.
+
+00:38:16.240 --> 00:38:19.240
+ Okay, we have two more minutes.
+
+00:38:19.240 --> 00:38:28.460
+ We have one more question and we need to get that in those two minutes.
+
+00:38:28.460 --> 00:38:32.760
+ Can we take the two questions side by side and I'll just let...
+
+00:38:32.760 --> 00:38:36.960
+ So I'll be quick.
+
+00:38:36.960 --> 00:38:39.340
+ Thanks to both of you for all the great work you've done.
+
+00:38:39.340 --> 00:38:41.260
+ Thanks for coming and talking to us.
+
+00:38:41.260 --> 00:38:46.080
+ You said that the postcards from here helped you while you were in prison and I was wondering
+
+00:38:46.080 --> 00:38:47.760
+ because it was a long time, right?
+
+00:38:47.760 --> 00:38:51.760
+ And what helped you carry through?
+
+00:38:51.760 --> 00:38:53.620
+ What else is helpful to do?
+
+00:38:53.620 --> 00:38:58.060
+ And the second half of the question, now that you're out, are you completely free or are
+
+00:38:58.060 --> 00:39:01.540
+ you still under some conditions and what is your life like?
+
+00:39:01.540 --> 00:39:03.520
+ What is your situation?
+
+00:39:03.520 --> 00:39:04.520
+ Right, thanks.
+
+00:39:04.520 --> 00:39:05.520
+ You're right.
+
+00:39:05.520 --> 00:39:10.160
+ So prison and jail is an extremely dehumanizing and isolating place.
+
+00:39:10.160 --> 00:39:11.160
+ They're trying to break you.
+
+00:39:11.160 --> 00:39:12.160
+ They're trying to break your spirits.
+
+00:39:12.160 --> 00:39:15.160
+ But one thing I've learned is that they can take your body, but they can't take your mind.
+
+00:39:15.160 --> 00:39:16.160
+ It's that last inch.
+
+00:39:16.160 --> 00:39:17.160
+ You're free.
+
+00:39:17.160 --> 00:39:24.560
+ And so being an isolating place, it's a whole world of fences and walls trying to separate.
+
+00:39:24.560 --> 00:39:28.720
+ It is a whole micro nation where they're basically second classes and stuff.
+
+00:39:28.720 --> 00:39:32.880
+ So I do a lot of political prisoner work and books to prisoners and support now is one
+
+00:39:32.880 --> 00:39:33.880
+ of my main things.
+
+00:39:33.880 --> 00:39:37.320
+ And what we're trying to do is we're trying to pierce that wall.
+
+00:39:37.320 --> 00:39:40.480
+ We're trying to climb that wall and reach out and make connections with folks to let
+
+00:39:40.480 --> 00:39:41.800
+ them know that they're not alone.
+
+00:39:41.800 --> 00:39:44.580
+ It's a very despairing place.
+
+00:39:44.580 --> 00:39:49.340
+ And so just knowing that you're heard, for one, and just knowing that you got people out
+
+00:39:49.340 --> 00:39:53.040
+ there that got your back means everything.
+
+00:39:53.040 --> 00:39:55.400
+ And so what I do, like you said, what conditions and stuff.
+
+00:39:55.400 --> 00:40:00.120
+ When I got out, I had three years paper and I was on this internet monitoring program
+
+00:40:00.120 --> 00:40:04.720
+ where it's like a private company that I had to actually pay for all my devices that monitored
+
+00:40:04.720 --> 00:40:06.440
+ my messages and stuff like that.
+
+00:40:06.440 --> 00:40:11.080
+ And actually to upload my messages every day and my PO would be like, "Who is this you're
+
+00:40:11.080 --> 00:40:12.080
+ talking to?"
+
+00:40:12.080 --> 00:40:13.080
+ It was terrible.
+
+00:40:13.080 --> 00:40:14.200
+ So that's why I've been out two years though.
+
+00:40:14.200 --> 00:40:17.440
+ And fortunately I had some lawyers who all the way supported me.
+
+00:40:17.440 --> 00:40:20.000
+ Shout out to Legal Aid, shout out to National Lawyers Guild, by the way.
+
+00:40:20.000 --> 00:40:23.840
+ And I'm sure you all have the equivalence because they've always had my back and often for free.
+
+00:40:23.840 --> 00:40:28.840
+ So in my case they actually fought the conditions on free speech and associate.
+
+00:40:28.840 --> 00:40:31.720
+ They said I couldn't even associate with hackers, couldn't even associate with civil disobedience.
+
+00:40:31.720 --> 00:40:33.200
+ What the hell that means, right?
+
+00:40:33.200 --> 00:40:35.000
+ And it was like that the first time too as a matter of fact.
+
+00:40:35.000 --> 00:40:36.600
+ I still did what I did though.
+
+00:40:36.600 --> 00:40:40.880
+ But fortunately my lawyers did beat that with motions after we got the judges transferred
+
+00:40:40.880 --> 00:40:42.400
+ over to Chicago and stuff like that.
+
+00:40:42.400 --> 00:40:46.200
+ One thing I'll say though is that I did two federal sentences for hacking and got arrested
+
+00:40:46.200 --> 00:40:47.200
+ dozens of times.
+
+00:40:47.200 --> 00:40:48.200
+ I don't regret any of it.
+
+00:40:48.200 --> 00:40:52.080
+ My only regret is that I didn't give a chance to finish any of the targets I was working
+
+00:40:52.080 --> 00:40:53.080
+ on.
+
+00:40:53.080 --> 00:40:56.200
+ So, can you do the reading quick?
+
+00:40:56.200 --> 00:41:03.080
+ Because then I would take this as the last quick answer, quick question.
+
+00:41:03.080 --> 00:41:06.240
+ So if we're talking about hacking and leaking now, I'm wondering what you guys, obviously
+
+00:41:06.240 --> 00:41:09.800
+ not ideologically, but what you think about ransomware groups and if you think that journalists
+
+00:41:09.800 --> 00:41:12.960
+ or academics will touch the data that ransomware groups are leaking because they're pushing
+
+00:41:12.960 --> 00:41:16.680
+ out gigabytes and gigabytes of data from big companies, what do you think about that as
+
+00:41:16.680 --> 00:41:17.680
+ a phenomenon?
+
+00:41:17.680 --> 00:41:22.400
+ Yeah, it's interesting because I feel like I haven't monitored them as closely, but they
+
+00:41:22.400 --> 00:41:26.040
+ certainly have changed their tactics where they're pulling back a little bit against
+
+00:41:26.040 --> 00:41:31.880
+ like hospitals and then going against targets where they might hit a law firm that worked
+
+00:41:31.880 --> 00:41:37.200
+ for Trump, take the emails and then DDoS secrets host them.
+
+00:41:37.200 --> 00:41:43.720
+ And I actually really respect what DDoS secrets is doing, which takes a kind of equal opportunity
+
+00:41:43.720 --> 00:41:45.520
+ hosting the stuff.
+
+00:41:45.520 --> 00:41:49.800
+ They make some stuff public, some stuff they just give to researchers because that stuff
+
+00:41:49.800 --> 00:41:52.160
+ is really, really important.
+
+00:41:52.160 --> 00:41:57.080
+ And there still isn't quite enough people going through this material.
+
+00:41:57.080 --> 00:42:02.160
+ And I also do suspect that ransomware groups are probably strategizing a little bit in
+
+00:42:02.160 --> 00:42:06.920
+ terms of choosing targets that will help them monetarily, but maybe drawing a little bit
+
+00:42:06.920 --> 00:42:08.760
+ of public sympathy as well.
+
+00:42:08.760 --> 00:42:11.560
+ But there is material out there, right?
+
+00:42:11.560 --> 00:42:19.080
+ And I think having the public journalists, others really go through that stuff can yield
+
+00:42:19.080 --> 00:42:21.800
+ some really, really important insights.
+
+00:42:21.800 --> 00:42:27.560
+ And that is something that many of us are well positioned to do today.
+
+00:42:27.560 --> 00:42:30.400
+ I just want real quick, I just want to say that I don't think we should necessarily knock
+
+00:42:30.400 --> 00:42:32.400
+ criminal hacking or hacking for survival.
+
+00:42:32.400 --> 00:42:37.720
+ Those who as a means must learn how to scam copycars or credit card fraud just because
+
+00:42:37.720 --> 00:42:41.320
+ if people are going to do what they have to do to survive.
+
+00:42:41.320 --> 00:42:44.160
+ When I was in jail and stuff, I didn't think myself no better or no less than anybody else
+
+00:42:44.160 --> 00:42:45.160
+ that was in there.
+
+00:42:45.160 --> 00:42:49.280
+ And frankly, the second time when I got out, I made a decision to go hard as possible I
+
+00:42:49.280 --> 00:42:50.640
+ could and go after governments and all this stuff.
+
+00:42:50.640 --> 00:42:51.760
+ It was like all gas, right?
+
+00:42:51.760 --> 00:42:52.760
+ But I still got 10.
+
+00:42:52.760 --> 00:42:55.920
+ In the United States, that's actually relatively medium to low.
+
+00:42:55.920 --> 00:42:59.920
+ So there were 10s and 20s and 30s in life for people just wrong place, wrong time, they
+
+00:42:59.920 --> 00:43:01.080
+ have to just survive and stuff like that.
+
+00:43:01.080 --> 00:43:04.600
+ So I'm a little bit humbled and not so like judgment about criminal hacking, which I think
+
+00:43:04.600 --> 00:43:05.960
+ is still within our rubric.
+
+00:43:05.960 --> 00:43:10.880
+ So do what you got to do.
+
+00:43:10.880 --> 00:43:23.360
+ Okay, then thank the two of you for coming over here and actually giving the talk.
+
+00:43:23.360 --> 00:43:26.240
+ And ladies and gentlemen, Jeremy Annette, Biala Coleman.
+
+00:43:26.240 --> 00:43:49.360
+ Thank you.
+

@@ -1,0 +1,269 @@
+ [MUSIC]
+ [MUSIC]
+ Hello everybody, welcome to the last talk in this block.
+ Who of you sent your stuff to the camp with BGP?
+ Any user of BGP?
+ I used it, it works great.
+ This is the routing protocol at camp for parcels.
+ But there's another BGP,
+ which is the routing protocol on the Internet for packets.
+ It's what has enabled the Internet for decades.
+ Mentor is going to tell us about what might replace BGP on the Internet,
+ and how Scion might actually help to make the Internet greener.
+ Mentor, stage is all yours.
+ Thank you.
+ [APPLAUSE]
+ In the next 20 minutes or so,
+ I will talk about how the Internet actually works currently,
+ and what the Scion project in particular wants to change about it,
+ and how that works.
+ I will gloss over a lot of the technical detail, unfortunately,
+ because I have very little time.
+ And I will try to be inclusive in this talk,
+ which is why I will use metaphors that might stretch reality a bit.
+ I simply want to give you, those of you who have no idea actually
+ how the Internet works, some idea of how it does.
+ And for this reason, please bear with me if you have an idea
+ what I'm talking about, and the analogy doesn't quite fit.
+ All right.
+ So this is the outline of my talk.
+ First, we need to talk about how the Internet currently works.
+ The status quo is that the Internet pretty much works
+ like a run-of-the-mill postal system.
+ Say, I want to send this plush owl to the Chaos Computer Club in Berlin.
+ So what do I do?
+ I simply put it in a box and add a sticker to that box
+ with a destination where I write the postal address
+ of the Chaos Computer Club Berlin,
+ give it to the nice folks at the BGP,
+ I think they're called the Camp Parcel Service or something,
+ and then they worry about the rest.
+ I don't actually know the route which this packet will take.
+ I only know that at some point in the future,
+ I think a few days or so, if everything works as expected,
+ my owl will arrive safely at Chaos Computer Club Berlin.
+ So I don't know whether this packet will be forwarded
+ via ZNNIC or via Fürstenberg.
+ Maybe it can also take a detour through a logistics center
+ in Frankfurt Oder.
+ I simply don't know.
+ Interesting.
+ I think I need to restart my slides
+ because I just rebuilt them.
+ A short timer, please.
+ Here we go.
+ So this is the perspective of the user that sends a packet
+ over the current Internet.
+ They simply know where to put the packet, the next postal office,
+ and some magic happens in between
+ and the packet arrives at its destination at some point.
+ How does the postal system do this?
+ Well, in very simple terms,
+ and this is unfortunately not exactly how it works,
+ unfortunately, let's assume that there's a post office
+ in every town and each has a few courier connections
+ to the surrounding post office in neighboring towns.
+ And each post office also keeps a huge list of all the towns
+ in the country where it can look up into which neighboring post office
+ it should send a packet in order for the packet to move closer
+ to its destination.
+ So we send a parcel, this parcel will get forwarded intuitively
+ step by step close to its destination
+ until at some point it arrives in its destination city
+ where the postman knows exactly how to find the street address
+ for this packet.
+ So this distributed mechanism, this is pretty similar
+ to how postal systems used to work in the past for several hundreds of years
+ and works very well.
+ A given post office only needs to know in which direction
+ it needs to forward this packet and at some point the packet
+ will arrive actually in the city where it is intended to arrive in.
+ So in there it will be given to a postman or woman or person
+ who will know how to deliver this packet.
+ So resolving this analogy, the post offices are the internet core routers,
+ the post offices.
+ The local post office is your ISP which is where you will send your letters
+ or give up your letters and receive new letters.
+ And all post offices along the way are their own networks,
+ their own autonomous systems, you have probably heard this term already.
+ And all the neighboring post offices of a given post office are called its peers.
+ And this huge list that each post office needs to maintain
+ in order to know along which next hop a given packet needs to be sent
+ is a routing table.
+ And the BGP protocol, not those guys over there, but the BGP protocol
+ is used to keep the routing table up to date.
+ So what is wrong with this current internet?
+ Well, depending on your perspective, not that much or maybe quite a lot.
+ So the internet doesn't have the best reliability.
+ So it has like three nines.
+ It has a 99.9% reliability which sounds a lot but actually isn't that much.
+ The good news about the internet, however, is that failures often last a few seconds
+ which all of you have probably noticed that the website doesn't load,
+ you hit F5 and it does load.
+ And you don't know where the problem was, but it's pretty likely that the problem
+ was with this BGP mechanism where a failure wasn't needed to be resolved
+ in order for routing to work again.
+ There are other problems like security problems because BGP as a protocol
+ was designed at a time where there was an implicit assumption
+ that every participant on the network can be trusted.
+ Actually in the BGP RFCs, in the first ones, the words trust or security
+ or malicious or attack or something, you can grab for this and zero hits every time.
+ The BGP was designed with a completely different internet in mind than we have today.
+ Then there are some broken economic incentives.
+ So as we all know, currently legislation, politics is lagging behind
+ and they don't really enforce a proper carbon tax on carbon emissions
+ which means that it's still the case today that you can buy electricity
+ from non-renewable energy at lower prices than electricity
+ that was created using renewable energy.
+ And obviously market forces force network operators which have running costs
+ and need this energy, force them to basically just buy the cheapest one,
+ buy the discount of electricity.
+ And this is obviously a problem, this is one of the points where the internet
+ is currently not as green as it could be.
+ But it's also hard for users to influence, like you don't really have a choice
+ when some network in between decides to buy electricity from coal plants.
+ You're basically stuck with this.
+ Now, what is different with Scion?
+ A lot of things they are trying to address, a lot of these problems,
+ for instance also addressing security aspects, but I won't go into detail here.
+ The key point where Scion differs from the BGP-based internet is that
+ with Scion the senders get to decide along which paths the data gets forwarded.
+ So again in our postal analogy, what we do instead of writing
+ a regular street address there, we write steps there.
+ We say, okay, the first step is the camp parcel service, the packet needs to go there,
+ before the camp parcel service forwards it to Mildendorf,
+ before Mildendorf forwards it to St. Annick and so on.
+ And at some point it arrives at a point where a post person, a postman or post woman
+ can simply read the street address and exactly knows where it is.
+ So this is the postal analogy.
+ How does this help?
+ How, translating this to data packets, what do we gain?
+ We gain as users the ability to boycott networks that we know operate
+ with a dubious sustainability record.
+ And we can also support networks that we know operate sustainably,
+ that have basically given assurances to other parties
+ that they are only buying energy from renewable sources.
+ And in our example, when we want to send this owl to Berlin,
+ and we know that the operator of the connection between Ziedernick and Oranienburg,
+ which is on the way to Berlin, uses a truck,
+ and we also know that the operator that sends traffic or packets or parcels
+ between Fürstenbeck and Oranienburg uses rail,
+ then I can, as a user decide, please route my packets along Fürstenbeck,
+ even if it takes a bit longer.
+ But I know that the carbon footprint of this transaction will be smaller.
+ There's an additional feature, of course, that I should mention.
+ This allows all sorts of things to do with this capability.
+ For instance, for activists it's also interesting maybe to avoid
+ routing via networks that are under dubious jurisdictions, etc.
+ So you can optimize for more things.
+ It's also interesting that CYON has been designed in a way
+ that allows its core routers to operate more efficiently.
+ In the post office analogy, it doesn't really keep these long lists
+ with which it needs to decide where to send on which packet,
+ it doesn't need to keep this list of all the towns in the country.
+ It simply needs to follow the instructions that are written on the parcel.
+ This comes at the expense, however, of 5 to 20% of bandwidth overhead,
+ which sounds like a lot.
+ It's not strictly an issue in wired communication,
+ because increasing the speed doesn't really scale the electricity need of this.
+ If you just put a new laser with a different wavelength on the same fiber,
+ the laser doesn't really need more energy in order to transport more data.
+ But to basically visualize this overhead that this introduces,
+ imagine putting this owl into a parcel where you write,
+ I don't know, the BGP guys over there onto it,
+ and then put it into another parcel and write the next address.
+ Actually, it's the other way around.
+ First, you would write the address of Berlin,
+ put it into the next parcel, which you close,
+ and then you write Oranienburg there, and then put it in a parcel,
+ and then you write, I don't know, what did I say?
+ Christenberg on it, put it in a parcel,
+ and then on the last parcel you write BGP,
+ and then they unwrap it, and so on.
+ This obviously includes some overhead,
+ and this is a visualization of what kind of overhead it entails.
+ The technical details are a bit different, but this is how it works.
+ Also, there's something that we should mention,
+ is there's an embodied CO2 footprint,
+ because SIRON router hardware is different from hardware
+ that needs to run the regular internet.
+ And obviously, rolling out SIRON globally would mean
+ investing this, embodying this CO2 footprint of the data
+ and constructing all this hardware.
+ Actually, numbers, how bad this will be, I'm missing,
+ I don't know about this.
+ I think a rough ballpark is that a SIRON router will be about,
+ somebody about as much energy as an equivalent IP internet router.
+ So maybe this sort of evens out,
+ but you could feel free to research this yourself.
+ A third point which is actively being discussed in the SIRON project
+ is to attach carbon footprint of each individual hop
+ as metadata to the routing information
+ that then allows the user to construct paths
+ that use the minimal amount of CO2,
+ and then let the user preferences cause pressure on network operators
+ to use renewable energy or to prefer the use of renewable energy.
+ Another aspect of this would be that if they are being honest about
+ their current CO2 emissions used for routing their packets,
+ and this changes dynamically basically,
+ for example based on available wind,
+ then using this information could cause,
+ could help us route our packets around,
+ I don't know, how is it called, if the wind is gone,
+ around calm weather patches where there is little wind,
+ too little wind power for the wind turbines,
+ and so we simply avoid these regions and send our packets by different routes.
+ All in all this could sort of create a virtual circle
+ where the network operators try to compete with each other
+ and try to be more green than their competitors,
+ basically reducing carbon emissions overall.
+ Will this be enough? Will this really help us fighting climate change?
+ Well, so the global internet energy consumption in 2020 was 207 terawatt hours,
+ which is sort of creates to a momentary power consumption of about 31 gigawatts,
+ which is double that of the biggest hydroelectric plant in the world.
+ The Three Gorges Dam in China produces about half this amount of power
+ if it's running at full capacity,
+ and this is excluding the power consumption of data centers,
+ so this is only network equipment, it's a rough ballpark figure.
+ And this number is expected to grow to about,
+ so right now it's 1% of all the global electricity,
+ and this number is expected to grow to 10% by 2030.
+ So the bottom line is we don't really know how much Scion will help.
+ We know that taking all the efficiency gains of routers into account
+ and subtracting the bandwidth overhead that it has,
+ we end up at a number of around 10% more efficient,
+ 10% less electricity use, let's say.
+ Of course, we didn't really take into account the embodied carbon costs,
+ and we also didn't really take into account the currently still elevated overhead,
+ energy overhead that is required for anti-virus to actually talk this protocol.
+ I mean, you can help.
+ So it probably wouldn't be enough to save the planet by itself, right?
+ But it's one step along the way,
+ and we can't really afford to exclude things that don't promise that much reward,
+ but we can probably use this as an argument to still push towards a technology
+ that changes the way that the Internet is currently used
+ and at the same time empowers users in a way that allows them,
+ allows additional forces to push towards carbon neutrality.
+ In this talk, I have left out a bunch of stuff which we could talk about offline afterwards.
+ Of course, there's a lot of technical detail that I glossed over pretty much.
+ There are questions about how a SCI-internet would be governed.
+ There are also different incentives for different Internet stakeholders.
+ Your ISP might not be that happy if you always decide to send your traffic a certain way,
+ because right now it's them who decide how to forward it.
+ Anyway, how to get involved?
+ So the SCI-in project itself has been under development at ETH Zurich since 2009.
+ It's open source and standardization is underway at ITF also.
+ It's deployed in the wild.
+ The Swiss Secure Finance Network will migrate exclusively to SCI-ins,
+ so all the Swiss banks will stop using the old system and exclusively migrate to this system by 2024.
+ There are additional networks.
+ So one is a production network that is run by a commercial company that is selling this hardware also.
+ And an education and research network that you guys can join.
+ And also there's an experimental playground where you can play around with this technology,
+ but it still uses the regular BGP-based Internet underneath and works via VPN links.
+ You can play around with this under these URLs and get involved.
+ It's probably best if you join this Matrix channel where SCI-in development is discussed.
+ And I think with that I'm about done.
+ You can also reach out to me at this email or this masternode address.
+ [Applause]
+ [Music]

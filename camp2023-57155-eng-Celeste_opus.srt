@@ -1,0 +1,940 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:33,000
+ So, good afternoon.
+
+4
+00:00:33,000 --> 00:00:44,000
+ We are here at the nerds of the Oberrheinische Tiefebene and Krosshain stage at the CCC Camp 23.
+
+5
+00:00:44,000 --> 00:00:53,640
+ And we have the next talk is called "Celeste, bringing an Indie classic to Pico system."
+
+6
+00:00:53,640 --> 00:01:03,000
+ And it's from Andreas, also known as Pixelpunker.
+
+7
+00:01:03,000 --> 00:01:08,960
+ And he is into retrocomputing and electronic music.
+
+8
+00:01:08,960 --> 00:01:17,000
+ And before we go also to the stream out there, we have this stage have a hashtag.
+
+9
+00:01:17,000 --> 00:01:18,800
+ It's on paper, but you can also use it.
+
+10
+00:01:18,800 --> 00:01:26,720
+ It's a hashtag #CCCAMP23NOTX or #CCCCCAMP23NOTX.
+
+11
+00:01:26,720 --> 00:01:37,120
+ And if you use it in Fediverse, we can take your questions and read them out loud here.
+
+12
+00:01:37,120 --> 00:01:42,360
+ And without further ado, welcome to the stage.
+
+13
+00:01:42,360 --> 00:01:43,560
+ Thank you.
+
+14
+00:01:43,560 --> 00:01:47,400
+ [APPLAUSE]
+
+15
+00:01:47,400 --> 00:01:53,800
+ Welcome to my talk, "Celeste, bringing an Indie classic to Pico system."
+
+16
+00:01:53,800 --> 00:01:54,960
+ Thank you all for being here.
+
+17
+00:01:54,960 --> 00:01:58,840
+ I hope you're enjoying the camp so far.
+
+18
+00:01:58,840 --> 00:02:04,520
+ Show me with hands how many of you have heard of or played Celeste.
+
+19
+00:02:04,520 --> 00:02:07,360
+ Okay, almost all of you.
+
+20
+00:02:07,360 --> 00:02:09,920
+ That's good.
+
+21
+00:02:09,920 --> 00:02:14,880
+ This talk is also not only about Celeste, but also about Pico system.
+
+22
+00:02:14,880 --> 00:02:21,160
+ If you could switch once.
+
+23
+00:02:21,160 --> 00:02:31,280
+ This little device, it's small handheld that is geared more towards people who like to
+
+24
+00:02:31,280 --> 00:02:36,960
+ make their own games and not just play them.
+
+25
+00:02:36,960 --> 00:02:40,040
+ But more about that in a minute.
+
+26
+00:02:40,040 --> 00:02:48,320
+ Let me start with some background about what is pixel art.
+
+27
+00:02:48,320 --> 00:02:59,200
+ From 1972 to 1995, pixel art was simply called computer graphics.
+
+28
+00:02:59,200 --> 00:03:05,280
+ Starting with Pong all the way, it's been in 2D.
+
+29
+00:03:05,280 --> 00:03:12,720
+ But then in 1995, the PlayStation came along and everything was about 3D.
+
+30
+00:03:12,720 --> 00:03:17,160
+ 2D was obsolete, outdated, old hat.
+
+31
+00:03:17,160 --> 00:03:19,360
+ Nobody was interested in it.
+
+32
+00:03:19,360 --> 00:03:26,720
+ Everything moved to 3D even if those early worlds were pretty lacking in detail.
+
+33
+00:03:26,720 --> 00:03:33,320
+ But then starting in 2004, there was an indie game called Cave Story, which started a sort
+
+34
+00:03:33,320 --> 00:03:36,360
+ of pixel art renaissance.
+
+35
+00:03:36,360 --> 00:03:40,640
+ It's still very popular, so it's not a trend.
+
+36
+00:03:40,640 --> 00:03:42,640
+ It's here to stay.
+
+37
+00:03:42,640 --> 00:03:52,600
+ Pixel art is very still in use today.
+
+38
+00:03:52,600 --> 00:03:58,040
+ Today we have mainly free flavors of pixel art.
+
+39
+00:03:58,040 --> 00:04:05,600
+ On one end of the spectrum we have new games for vintage hardware like SEMS Journey.
+
+40
+00:04:05,600 --> 00:04:13,560
+ The great thing about these games is that with the culminated knowledge and experience,
+
+41
+00:04:13,560 --> 00:04:19,520
+ these games often surpass the commercial games of the era.
+
+42
+00:04:19,520 --> 00:04:26,440
+ Then in the middle of the spectrum we have games that look kind of old but are more advanced
+
+43
+00:04:26,440 --> 00:04:27,600
+ underneath.
+
+44
+00:04:27,600 --> 00:04:33,920
+ For example, they may not observe a strict sprite limit or they have bigger worlds than
+
+45
+00:04:33,920 --> 00:04:41,000
+ used to be or they are simply programmed in more modern frameworks that take a lot more
+
+46
+00:04:41,000 --> 00:04:42,680
+ resource.
+
+47
+00:04:42,680 --> 00:04:50,480
+ Then we have at the high end what I would call high pixel art, which combines pixel
+
+48
+00:04:50,480 --> 00:04:53,800
+ art with a next-gen look.
+
+49
+00:04:53,800 --> 00:05:04,360
+ Pixel art is not an aesthetic and artistic choice, not a technical necessity anymore.
+
+50
+00:05:04,360 --> 00:05:06,080
+ Which brings me to Celeste.
+
+51
+00:05:06,080 --> 00:05:09,840
+ Celeste is certainly a high pixel art game.
+
+52
+00:05:09,840 --> 00:05:13,640
+ It was released in 2018.
+
+53
+00:05:13,640 --> 00:05:19,960
+ For an indie game it had an astounding number of copies sold over one million.
+
+54
+00:05:19,960 --> 00:05:28,800
+ It's a game in the vein of a really difficult, precision platformer where you die a lot and
+
+55
+00:05:28,800 --> 00:05:32,360
+ you learn by trial and error.
+
+56
+00:05:32,360 --> 00:05:39,280
+ It also has a really great story and a quite deep story frankly with some topics of identity
+
+57
+00:05:39,280 --> 00:05:42,800
+ if you read between the lines.
+
+58
+00:05:42,800 --> 00:05:50,800
+ But inside Celeste, the full release, is hidden as an easter egg.
+
+59
+00:05:50,800 --> 00:05:58,760
+ Celeste is now called Classic, which is a prototype done in Pico-8, which precedes the
+
+60
+00:05:58,760 --> 00:05:59,920
+ full release.
+
+61
+00:05:59,920 --> 00:06:05,880
+ But it's also inside the commercial game if you find it.
+
+62
+00:06:05,880 --> 00:06:12,080
+ Which brings me to Pico-8.
+
+63
+00:06:12,080 --> 00:06:14,400
+ Probably have heard about it as well.
+
+64
+00:06:14,400 --> 00:06:17,160
+ It's a fantasy console.
+
+65
+00:06:17,160 --> 00:06:25,400
+ It's like an emulator for a machine you've never heard of that did not really exist in
+
+66
+00:06:25,400 --> 00:06:28,880
+ real life.
+
+67
+00:06:28,880 --> 00:06:36,560
+ It's inspired by the BBC Micro, its creator Zep had this as a child.
+
+68
+00:06:36,560 --> 00:06:42,820
+ If you boot it up you see a command line and you used to program this in basic but now
+
+69
+00:06:42,820 --> 00:06:47,400
+ it's Lua.
+
+70
+00:06:47,400 --> 00:06:51,920
+ And it has integrated tools for creating tiny games.
+
+71
+00:06:51,920 --> 00:06:59,240
+ And it's still very popular for game gems if you have prototyping something, if you don't
+
+72
+00:06:59,240 --> 00:07:00,800
+ have a lot of time.
+
+73
+00:07:00,800 --> 00:07:08,280
+ And it has a lot of constraints and these are made to make you more creative so you're
+
+74
+00:07:08,280 --> 00:07:11,800
+ not confused with too many choices.
+
+75
+00:07:11,800 --> 00:07:18,080
+ And it still has a really strong community.
+
+76
+00:07:18,080 --> 00:07:21,720
+ Which brings me finally to the Pico system.
+
+77
+00:07:21,720 --> 00:07:27,680
+ It's a tiny handheld based on the Raspberry Pi Pico microcontroller.
+
+78
+00:07:27,680 --> 00:07:31,880
+ But combines it in a nice form factor with a battery.
+
+79
+00:07:31,880 --> 00:07:34,640
+ It's overclocked out of the box.
+
+80
+00:07:34,640 --> 00:07:36,560
+ It has a small piece of speaker.
+
+81
+00:07:36,560 --> 00:07:41,360
+ It does a little bit of tiny Casio style sounds.
+
+82
+00:07:41,360 --> 00:07:50,560
+ And it gives you six hours of battery which is thanks to the Pi Pico that really consumes
+
+83
+00:07:50,560 --> 00:07:55,880
+ a lot of tiny amount of power.
+
+84
+00:07:55,880 --> 00:08:03,000
+ And it has a generous amount of 16 megabytes of flash form, executing place form which
+
+85
+00:08:03,000 --> 00:08:05,520
+ I'll talk about in a minute.
+
+86
+00:08:05,520 --> 00:08:11,120
+ And has a tiny square screen.
+
+87
+00:08:11,120 --> 00:08:16,320
+ Inside it's powered by the Raspberry Pi Pico or RP2040.
+
+88
+00:08:16,320 --> 00:08:23,240
+ It's a new microcontroller from Raspberry with two core zero cores.
+
+89
+00:08:23,240 --> 00:08:30,720
+ But also some additional hardware like for example a hardware division unit, a interpolator,
+
+90
+00:08:30,720 --> 00:08:39,000
+ lots of DMA channels and PIO, programmable I/O which is a special feature of the Pi
+
+91
+00:08:39,000 --> 00:08:40,000
+ Pico.
+
+92
+00:08:40,000 --> 00:08:50,160
+ It's quite a confusing for some if they see Pico 8 and Pico system they think it's the
+
+93
+00:08:50,160 --> 00:08:52,400
+ same as it's not.
+
+94
+00:08:52,400 --> 00:08:56,840
+ Here you see some differences and similarities.
+
+95
+00:08:56,840 --> 00:09:01,680
+ Both do have a square and tiny screen.
+
+96
+00:09:01,680 --> 00:09:07,240
+ Pico in name, Pico in size, reduced controls.
+
+97
+00:09:07,240 --> 00:09:11,800
+ But Pico 8 has a runtime with some overhead.
+
+98
+00:09:11,800 --> 00:09:17,480
+ Whereas Pico system by default runs with a compiled C++.
+
+99
+00:09:17,480 --> 00:09:20,160
+ Pico 8 has lots of RAM.
+
+100
+00:09:20,160 --> 00:09:23,440
+ Lua has a minimum of two megabytes and very little ROM.
+
+101
+00:09:23,440 --> 00:09:26,720
+ The games are just 32K in size.
+
+102
+00:09:26,720 --> 00:09:28,360
+ The Pico system it's reversed.
+
+103
+00:09:28,360 --> 00:09:36,160
+ You have lots of ROM, 16 megabytes but very little RAM, 265 kilobytes.
+
+104
+00:09:36,160 --> 00:09:43,920
+ And lastly Pico 8 needs a pretty beefy processor for what you're getting, 1 gigahertz at least.
+
+105
+00:09:43,920 --> 00:09:50,160
+ Pico system is overclocked to 250 megahertz.
+
+106
+00:09:50,160 --> 00:09:57,800
+ So when I began porting the first question is why don't we just port the Pico 8 runtime
+
+107
+00:09:57,800 --> 00:09:59,680
+ that could play all kinds of games.
+
+108
+00:09:59,680 --> 00:10:04,680
+ The question is that simply the RAM requirements make it impossible.
+
+109
+00:10:04,680 --> 00:10:14,600
+ There was an attempt to expand the RAM but it ran at like 8 or 10 FPS because it's really
+
+110
+00:10:14,600 --> 00:10:22,560
+ slow and there's no stripped down equivalent on the Lua side like MicroPython for Python.
+
+111
+00:10:22,560 --> 00:10:28,160
+ So it's just too big for this tiny microcontroller.
+
+112
+00:10:28,160 --> 00:10:33,600
+ If you try it on Pico 8 on a full Raspberry Pi 1 you will even have some slowdown.
+
+113
+00:10:33,600 --> 00:10:36,480
+ So it's just too much.
+
+114
+00:10:36,480 --> 00:10:42,080
+ So it's a direct port.
+
+115
+00:10:42,080 --> 00:10:46,600
+ Pico system has an amazing amount of frameworks to offer.
+
+116
+00:10:46,600 --> 00:10:50,720
+ There are six or seven of them that you could choose from.
+
+117
+00:10:50,720 --> 00:10:59,040
+ I choose to go with the official Pico system SDK because it first has a reduced footprint
+
+118
+00:10:59,040 --> 00:11:04,360
+ and if you look at the API you will notice some similarities.
+
+119
+00:11:04,360 --> 00:11:10,640
+ Looks kind of the same but I want to mention two additional frameworks you could use.
+
+120
+00:11:10,640 --> 00:11:18,680
+ 32 blitz SDK is the most powerful certainly from a bigger machine and a pretty new one
+
+121
+00:11:18,680 --> 00:11:29,400
+ MicroJS, not Micro, which is easier to begin with, you just need a web browser.
+
+122
+00:11:29,400 --> 00:11:35,560
+ So when I started porting the first step was to convert all the assets.
+
+123
+00:11:35,560 --> 00:11:45,320
+ So I wrote Python scripts to import the sprite sheets and also do some color format conversion.
+
+124
+00:11:45,320 --> 00:11:48,040
+ More about that in a minute.
+
+125
+00:11:48,040 --> 00:11:50,800
+ We have map data which is the level data.
+
+126
+00:11:50,800 --> 00:11:54,520
+ This is also converted.
+
+127
+00:11:54,520 --> 00:12:01,360
+ Some Pico 8 games use compression because 32k is really little but that's not necessary
+
+128
+00:12:01,360 --> 00:12:05,960
+ for Pico systems so we can remove compression.
+
+129
+00:12:05,960 --> 00:12:11,440
+ There's no actual loading, it's just ROM addressed directly.
+
+130
+00:12:11,440 --> 00:12:14,040
+ So it works like the consoles of old.
+
+131
+00:12:14,040 --> 00:12:19,560
+ You're not loading, you're not pausing, you just access a memory address and your level
+
+132
+00:12:19,560 --> 00:12:23,360
+ data is all there.
+
+133
+00:12:23,360 --> 00:12:26,200
+ Lastly there's some sound conversion.
+
+134
+00:12:26,200 --> 00:12:29,080
+ Pico 8 is known for its chip tunes.
+
+135
+00:12:29,080 --> 00:12:38,800
+ Sadly they don't work on this one but they also converted what is there as sound effects.
+
+136
+00:12:38,800 --> 00:12:44,600
+ All this conversion of the file formats, they're really explained in detail in the Pico 8 wiki
+
+137
+00:12:44,600 --> 00:12:47,240
+ so that's a great resource.
+
+138
+00:12:47,240 --> 00:12:52,600
+ Let me talk a bit more in detail about the colors.
+
+139
+00:12:52,600 --> 00:12:55,320
+ I hope you can see those colors.
+
+140
+00:12:55,320 --> 00:13:02,160
+ Pico 8 has just 16 colors but they're really cleverly chosen artistically so it looks a
+
+141
+00:13:02,160 --> 00:13:07,240
+ lot more colorful than 16 colors suggest.
+
+142
+00:13:07,240 --> 00:13:15,720
+ There's even a hidden palette of another 16 colors.
+
+143
+00:13:15,720 --> 00:13:19,480
+ It works with old school tricks like palette swaps.
+
+144
+00:13:19,480 --> 00:13:22,400
+ This is a chess prototype I did.
+
+145
+00:13:22,400 --> 00:13:30,440
+ The chess pieces are the same sprite but just recolored with palette swaps.
+
+146
+00:13:30,440 --> 00:13:38,720
+ In the old times you also used it for color cycling effects that look pretty amazing but
+
+147
+00:13:38,720 --> 00:13:45,800
+ they don't use practically no resources even on old machines because the palette change
+
+148
+00:13:45,800 --> 00:13:52,040
+ costs almost nothing and you can do some animation style that's just a cycling of colors.
+
+149
+00:13:52,040 --> 00:13:59,320
+ That's the two reasons Pico 8 still uses palettes.
+
+150
+00:13:59,320 --> 00:14:08,600
+ The system on the other hand uses the ST7789 display, a pretty common display with a controller
+
+151
+00:14:08,600 --> 00:14:10,400
+ to power it.
+
+152
+00:14:10,400 --> 00:14:18,280
+ It has 18 bits of color which is 260,000 colors.
+
+153
+00:14:18,280 --> 00:14:24,960
+ Also works in 16-bit color mode with 62,000 colors and lastly in 12-bit mode which gives
+
+154
+00:14:24,960 --> 00:14:28,280
+ you 4,000 colors.
+
+155
+00:14:28,280 --> 00:14:36,840
+ And we go with this 12-bit color mode which gives us exactly the Amiga palette of 4,096
+
+156
+00:14:36,840 --> 00:14:37,840
+ colors.
+
+157
+00:14:37,840 --> 00:14:41,240
+ But there's a problem.
+
+158
+00:14:41,240 --> 00:14:50,640
+ If you store 12 bits inside 16 bits you can't read them out efficiently via memory copy.
+
+159
+00:14:50,640 --> 00:14:55,520
+ You have to skip four bits.
+
+160
+00:14:55,520 --> 00:14:59,720
+ But there's some PyRO assembly.
+
+161
+00:14:59,720 --> 00:15:07,960
+ It's connected via DMA to the memory and then it processes those bits and throws some away
+
+162
+00:15:07,960 --> 00:15:14,960
+ and saves us 25% of the SBA bandwidth and this is great because SBA bandwidth is the
+
+163
+00:15:14,960 --> 00:15:21,920
+ one limiting factor for the refresh of this display.
+
+164
+00:15:21,920 --> 00:15:28,200
+ There are those 12 bits stored in two bytes, means one nibble, that's the word for four
+
+165
+00:15:28,200 --> 00:15:36,760
+ bits, can be used for full alpha transparency which looks great and it's uncommon for an
+
+166
+00:15:36,760 --> 00:15:43,400
+ 8 or 16-bit machine.
+
+167
+00:15:43,400 --> 00:15:51,840
+ So what I did when porting the SDK out of the box has some so-called blend modes.
+
+168
+00:15:51,840 --> 00:15:59,960
+ There's copy which is just a memory copy, so from source to the screen it ignores what's
+
+169
+00:15:59,960 --> 00:16:00,960
+ there.
+
+170
+00:16:00,960 --> 00:16:04,800
+ Then we have mask which is one bit transparency.
+
+171
+00:16:04,800 --> 00:16:10,760
+ And finally we have a mode with full alpha transparency and of course this one is the
+
+172
+00:16:10,760 --> 00:16:13,880
+ slowest.
+
+173
+00:16:13,880 --> 00:16:22,640
+ Then I added additional PQ8 blend modes, a new one called sprite which uses a transparency
+
+174
+00:16:22,640 --> 00:16:23,640
+ map.
+
+175
+00:16:23,640 --> 00:16:30,600
+ This is a feature of PQ8 where you can assign some colors to be transparent or not.
+
+176
+00:16:30,600 --> 00:16:39,240
+ Secondly palette, because there are palette effects and that means colors are changed
+
+177
+00:16:39,240 --> 00:16:41,040
+ after the effect.
+
+178
+00:16:41,040 --> 00:16:50,800
+ So the screen is already drawn and then we decide on a palette change, change it afterwards.
+
+179
+00:16:50,800 --> 00:16:57,640
+ And to enable this I used this transparency nibble to store the original PQ8 color index
+
+180
+00:16:57,640 --> 00:17:04,760
+ instead so I can reassign whenever there's a palette change.
+
+181
+00:17:04,760 --> 00:17:11,520
+ But also want to use the full 4,000 colors so maybe combine or enhance on the existing
+
+182
+00:17:11,520 --> 00:17:12,520
+ game.
+
+183
+00:17:12,520 --> 00:17:21,000
+ So I finally have convert which copies those palette colors to full RGBA.
+
+184
+00:17:21,000 --> 00:17:28,360
+ Okay secondly the game loop, every game has an internal game loop that reads data from
+
+185
+00:17:28,360 --> 00:17:34,880
+ the controller, updates the game logic and finally draws the screen.
+
+186
+00:17:34,880 --> 00:17:40,000
+ The ST789 has different refresh rates you can use.
+
+187
+00:17:40,000 --> 00:17:44,960
+ 50 hertz is the default, I go here for 60 hertz.
+
+188
+00:17:44,960 --> 00:17:52,240
+ And the great thing about this play is it has a dedicated v-sync pin so we can sync
+
+189
+00:17:52,240 --> 00:17:54,280
+ to the display.
+
+190
+00:17:54,280 --> 00:18:00,960
+ And this display I used to start the game loop so we don't have a timer but the display
+
+191
+00:18:00,960 --> 00:18:06,320
+ drives the refresh and this saves up to one frame of latency for us.
+
+192
+00:18:06,320 --> 00:18:13,240
+ And lastly PQ8 is made for exactly 30 FPS so I just wait twice and then I have exactly
+
+193
+00:18:13,240 --> 00:18:23,120
+ 30 FPS and if you count up the time it really keeps the time correctly.
+
+194
+00:18:23,120 --> 00:18:31,400
+ Just a bit of detail regarding the screen, PQ8 has 128 by 128 pixels, really odd and
+
+195
+00:18:31,400 --> 00:18:33,600
+ unusual resolution.
+
+196
+00:18:33,600 --> 00:18:40,200
+ PQ system has just 120 by 120, this doesn't sound like much of a difference.
+
+197
+00:18:40,200 --> 00:18:48,040
+ If you have a scrolling game cutting off 4 pixels doesn't hurt but for a single screen
+
+198
+00:18:48,040 --> 00:18:53,120
+ game like Celeste sometimes there are some important objects that would be hidden, I
+
+199
+00:18:53,120 --> 00:18:54,960
+ hope you see the red outline.
+
+200
+00:18:54,960 --> 00:19:01,480
+ So I implemented a moving camera that follows the player that also tries not to bounce back
+
+201
+00:19:01,480 --> 00:19:07,280
+ and forth with some limits.
+
+202
+00:19:07,280 --> 00:19:10,920
+ So only when it needs to.
+
+203
+00:19:10,920 --> 00:19:22,000
+ Okay last important aspect of these piece of speaker sounds, we have lots of sounds in
+
+204
+00:19:22,000 --> 00:19:28,800
+ the original but we are only left with wave and noise channels.
+
+205
+00:19:28,800 --> 00:19:36,480
+ Let me show you what it sounds like.
+
+206
+00:19:36,480 --> 00:19:43,400
+ Yeah that's what's left of the sound but still it gives a nice feedback.
+
+207
+00:19:43,400 --> 00:19:51,560
+ And I used the second core to decouple the sound speed from the frame rate.
+
+208
+00:19:51,560 --> 00:19:58,480
+ Okay before I come to this last slide let me just show you quickly what it looks like.
+
+209
+00:19:58,480 --> 00:20:06,320
+ If you could switch to the camera.
+
+210
+00:20:06,320 --> 00:20:14,800
+ So here's Celeste.
+
+211
+00:20:14,800 --> 00:20:24,360
+ You can play it and it runs in full speed.
+
+212
+00:20:24,360 --> 00:20:30,760
+ There are pickups and because it runs on a Raspberry Pi I changed the pickups to be a
+
+213
+00:20:30,760 --> 00:20:39,720
+ Raspberry but you can always change it back to the original strawberry.
+
+214
+00:20:39,720 --> 00:20:44,360
+ So that's one minor addition.
+
+215
+00:20:44,360 --> 00:20:54,280
+ Okay the last point is I've done it again and tried to port it again.
+
+216
+00:20:54,280 --> 00:21:01,520
+ This time in Rust using Asiakruna's embedded Rust and uses embedded graphics and embedded
+
+217
+00:21:01,520 --> 00:21:03,760
+ graphics core.
+
+218
+00:21:03,760 --> 00:21:15,140
+ I'm starting from scratch and the first thing I did was this sprite routine which pauses
+
+219
+00:21:15,140 --> 00:21:31,440
+ the sprite sheet and now writes it using, you should switch back to the camera please.
+
+220
+00:21:31,440 --> 00:21:34,560
+ It pauses the sprite sheet and displays it.
+
+221
+00:21:34,560 --> 00:21:39,560
+ As you can see right now it's still a bit slow which is because we are not using a frame
+
+222
+00:21:39,560 --> 00:21:45,280
+ buffer yet we are just moving directly to the SBI to display.
+
+223
+00:21:45,280 --> 00:21:54,460
+ But yeah that's the future of this port and I also want to convert the Lua code this time
+
+224
+00:21:54,460 --> 00:22:01,160
+ not by hand but with a Asiak Simplex Poser to make it a general framework for porting
+
+225
+00:22:01,160 --> 00:22:04,040
+ Pico 8 games to the Pico system.
+
+226
+00:22:04,040 --> 00:22:04,280
+ Thank you.
+
+227
+00:22:04,280 --> 00:22:15,120
+ Well thank you very much Pixelbunker.
+
+228
+00:22:15,120 --> 00:22:20,640
+ I think you could have used more time for getting more deeper into it but who ever wants
+
+229
+00:22:20,640 --> 00:22:29,800
+ to know more can ask you like the side of the stage because we need to make space for
+
+230
+00:22:29,800 --> 00:22:40,440
+ the next talk that is already in preparation and will happen here in 18 minutes so we need
+
+231
+00:22:40,440 --> 00:22:45,100
+ that time to change the stage but thank you very much for coming and thank you very much
+
+232
+00:22:45,100 --> 00:22:45,960
+ for coming here.
+
+233
+00:22:45,960 --> 00:22:47,240
+ Thanks.
+
+234
+00:22:47,240 --> 00:22:48,840
+ [Applause]
+
+235
+00:22:49,100 --> 00:22:54,100
+ [Music]
+

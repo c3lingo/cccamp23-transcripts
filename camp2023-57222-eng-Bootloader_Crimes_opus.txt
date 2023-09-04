@@ -1,0 +1,449 @@
+ [MUSIC]
+ Thanks everybody for being here in the shade.
+ I hope it's not too hot.
+ So let's get started with the talk.
+ So yeah, bootload of crimes, building disposable Windows VMs.
+ What is this all about?
+ So a bit of motivation, why are we even doing this?
+ So I use Arch, by the way, on the desktop even.
+ But as mentioned, sometimes you cannot get around Windows.
+ Maybe you have some application that you cannot run in Wine.
+ It doesn't work right.
+ Or you maybe don't even want to run it on your main system
+ because it's some not very trusted software,
+ and you just want to analyze it, poke at it, or you have some
+ proprietary software or hardware that requires Windows
+ software that you maybe want to reverse engineer and make work
+ on Linux.
+ This happens to me, and I think at camp, it probably happens to
+ most people.
+ But only sometimes.
+ You don't need it every day.
+ But every so often, once every few weeks, or months even.
+ But then, sure, use a VM.
+ We have the right tools.
+ But I guess maybe show of hands, who has a Windows VM that
+ just lies around that they haven't booted in a while?
+ And when you boot it, keep your hand up if it's a pleasant
+ experience.
+ Yeah, the one guy in the back, he has it all figured out.
+ So yeah, you boot it, and then it wants to update.
+ Or I don't know, some new features have been pushed that
+ you now have to deal with.
+ Or activation has expired.
+ Or generally, something else has broke.
+ Sure, you can keep a Windows VM around.
+ And if this is maybe a day job, and you maintain it, or
+ have lots of snapshots, whatever, this might be
+ pleasant.
+ But for occasional use, maybe not so much.
+ So sure, just do a fresh install.
+ But for occasional use, it's a lot of quick clicking,
+ waiting.
+ You need to configure all the things.
+ Install all the tools, software again.
+ Enable file extensions.
+ We've probably all been there.
+ And declutter, remove whatever useful features Microsoft
+ added in the meantime.
+ But we're hackers, so when in doubt, automate.
+ And so this is what this is all about.
+ So there's some existing installations.
+ People have instrumented or automated Windows
+ deployments.
+ There's more or less open source solutions.
+ There's Box Starter, which is some tool that you can put on
+ a Windows machine that is already installed.
+ And it will continue to set up your environment.
+ HashiCorp Packer, it's used for building images for
+ Vagrant, if you're familiar with that.
+ It can provision Linux.
+ But they also have some very nice templates on
+ provisioning Linux.
+ You could remaster an ISO and put some answer files in
+ there, so it installs itself.
+ Yeah, as mentioned, answer files.
+ Ansible has support for it.
+ So you could write some playbooks.
+ Or Forman deployment solution also does it.
+ But I looked at all of these.
+ And some of these, they have some nice concept.
+ But now these really work for me.
+ So obligatory, XKCD reference.
+ Already so much stuff, but we need more.
+ And surely this will fix all, at least my problems.
+ So let's see.
+ So some design goals.
+ So I want it to be really easy to use.
+ I don't want to write YAML or JSON or whatever.
+ I just want to use a website.
+ So I can send it to someone and they can use it without
+ installing any software or cloning a Git repo.
+ I want to import all the settings, select some check
+ boxes about features, maybe configure my
+ user name, time zone, whatever.
+ And maybe even save and load a preset or even share a preset
+ with a friend.
+ Targeting.
+ So I've been working on this project on and off for a
+ while, so initially maybe it was 7.10.
+ These days it's 11 because it's the latest release and the
+ one that will be supported for the longest.
+ And hyper-verses, yeah, I work with VirtualBlocks, QEMO.
+ But surely it should run on all of them, really.
+ So the question is, how do we do this?
+ We could just build an image on a server, have a beefy
+ server that can create an image, provision it, and then
+ we download the final image.
+ That's maybe fine for myself, but it runs into
+ some issues.
+ So there's obviously IP copyright troubles if I offer
+ finished Windows image.
+ There's intellectual property by Microsoft.
+ They might not be so happy with me distributing that.
+ Also, it doesn't scale.
+ It's rather resource intensive.
+ I need a lot of resources to provision VMs on my server.
+ The images I will ship will incur a lot of traffic.
+ So that's not ideal if I want to have many people use it.
+ So the idea is here, just run it locally, but have it
+ provision itself locally.
+ But how do we do that?
+ So the first step, this we can do in your browser.
+ So you fill out some form.
+ And from that, we'll generate some configuration file.
+ And then we'll just inject that into a very tiny, like
+ 15 megabyte disk image, just copying it in there with an
+ array operation.
+ And we'll also generate this OVF, like manifest files in
+ XML, with some of your VM's name and memory size, whatever.
+ And then we'll just throw these into a tar.
+ And that generates an OVA file, which is just this
+ appliance container.
+ And you can import it in, I think, VirtualBox.
+ VMWare also has support in it.
+ Or alternatively, you could just get the disk image out of
+ there again and maybe lose some of the metadata.
+ And this we can all do in the browser.
+ On the client, we don't even need server code.
+ We can just serve some static files, a few megabytes.
+ And then you get this OVA.
+ OK, but what is in there?
+ So you boot it.
+ And this is the initial state of the disk.
+ So you see we have this little boot partition.
+ It has a bunch of stuff in it.
+ And we have an empty NTFS partition.
+ So there's a kernel in there.
+ We can boot it with some boot loader,
+ just as Linux in this case.
+ And in this case, it's just some stock Alpine kernel
+ pre-compiled for VMs.
+ You could do your own with build root and
+ make it even smaller.
+ But taking binaries from Alpine is just sufficient.
+ And we remix it a bit.
+ There's an initial RAM disk image in there that's very
+ tiny, it's just BusyBox and cURL, essentially.
+ And some other configuration files and shell scripts.
+ And you can see highlighted, your user configuration that
+ we injected in the browser.
+ So that is the only part that is unique.
+ And so you boot this.
+ And you see, OK, it's a very minimal Linux thing booting.
+ There's some tiny user space.
+ And it drops you into--
+ it automatically executes a shell script and does some
+ things.
+ OK, so what does it do?
+ So it does some DHCP, sets up networking, sets up your
+ basic stuff that you need to run--
+ drivers, devices, monster disks, whatever.
+ And first things first, well, we need to get a Windows
+ installation, right?
+ We didn't want to ship that, so we need to get it from
+ somewhere.
+ Thankfully, Microsoft has a valuation image for--
+ well, these days, Windows 11, but I think they also have it
+ for Windows 10, even still online.
+ And you can just freely download that if you know the
+ URL.
+ So we just fetch that with cURL and put it into our
+ scratch space, right?
+ And we can then also validate the checksum to
+ see that it's legit.
+ So in the next step, we start to mount it.
+ We extract some things.
+ So you can see on the left, we extract some boot files and
+ the install file.
+ So the install file is basically what contains the
+ data we need for our Windows installation.
+ And the boot files are kind of this live
+ installation environment.
+ So you can see these are in WIM files.
+ So what are WIM files, really?
+ I mean, maybe if you've dealt with provisioning Windows
+ before, you've seen these.
+ So Microsoft uses these for installing and deploying
+ operating systems since Vista.
+ So they saw copying hundreds of thousands of small little
+ files from install media to the disk is cumbersome.
+ Let's just package it somehow.
+ So the title says it's an imaging format.
+ It's not like UDD disk.
+ It's not just blocks from a block device.
+ But it is files.
+ So it's rather more like a zip or a tar, really.
+ But it has some additional features, right?
+ It has all the metadata, all the Windows security
+ descriptors, whatever, fancy NTFS special file types,
+ whatever, that can all be persisted into a WIM.
+ And you can have multiple images, right?
+ So maybe if you have install media that has different
+ versions of Windows, you can all package them into one
+ WIM file.
+ But you can deduplicate files, because these versions, they
+ will have a lot of the files that are identical.
+ So it'll just be pointers to the same data, essentially.
+ And you can compress it in various ways.
+ You can also split it, I guess, if you want to keep your
+ WIMs on Fed42 or whatever, or another file system that
+ doesn't support arbitrarily large files.
+ You can split them up.
+ Also, you can boot them, the installer, or if you have a
+ recovery system, you can directly tell a bootloader,
+ one of Microsoft's bootloaders, to find the right
+ files in this WIM and then boot into it.
+ And you can manipulate it on Linux, for example, with
+ WIM.
+ Microsoft in Windows also has some tools for it.
+ And I think if you have a package manager, then you can
+ likely also use that.
+ In the end, it's really a fancy zip file, more or less.
+ So OK, now we have these WIM files on disk.
+ We need to do a bit more.
+ We have the user configuration and some templates.
+ So from these templates, we generate some more files that
+ are used, the answer file and maybe a PowerShell script that
+ I use later during the install.
+ And then we fetch WIM boot.
+ This is from the IPXE guys.
+ And it's basically an open source bootloader that we can
+ use to--
+ as mentioned previously, we can boot WIM files.
+ So this is a component that we can use to boot into this
+ boot.wim from the X4 partition even.
+ And yeah, there's some other files in there.
+ We have an ini and a but file, which are used in the next
+ stage, where we actually boot into that
+ installation environment.
+ So we tell Syslinux, hey, don't go to the kernel anymore.
+ Go to WIM boot instead.
+ And please boot these files that we dropped on the X4
+ partition.
+ And we end up in the so-called WIMPE, Windows Pre-Installation
+ Environment.
+ This is if you pop in Install Media, what you see.
+ And instead of the installer, you just get a shell.
+ And the shell script we have in there gets run.
+ So what do we do in that shell script?
+ So we continue the installation process, because
+ we now rely on a few tools that are just available from
+ Microsoft, need to be run in a Windows environment.
+ So essentially, we now have switched, after rebooting, from
+ the live Alpine into a live Windows environment.
+ So first thing is we get rid of that X4 partition.
+ We did boot from it, but now we're running from memory.
+ So it doesn't matter.
+ You can do it with disk part.
+ It's like FDisk, but for Windows, or for Microsoft
+ command line partition editor.
+ We create a new partition for our final installation.
+ So it's only occupying half the space of the image right
+ now, because we still have our scratch partition.
+ We create a file system and then mount it, so mount it
+ under W, like Windows.
+ And then we start doing the deploy.
+ So with this Dism, you say apply image, and that is
+ essentially unpacking.
+ It just takes all the data that is installed, and just
+ shovels it on the partition.
+ And you can see the typical directories appearing that
+ would happen in a Windows installation.
+ And we also copy our answer files over, so they reside on
+ there, and we can delete the scratch partition and then
+ grow the other partition.
+ And now we are essentially in a stage where we have the disk
+ almost ready to use.
+ It's correctly partitioned.
+ We have one giant Windows partition, an MBR partition
+ table for Windows, and all is well.
+ Well, this is not really a bootable system yet, right?
+ So if you just drop some files on a partition, your computer
+ will be like, oh, that's fine, but I don't know
+ how to run this.
+ So how does this usually work with Windows?
+ So we have the modern day, the UEFI way, and the legacy way.
+ Somehow the firmware of your main board runs, or your
+ system runs, and we need to somehow load the kernel.
+ And how does that happen?
+ So with UEFI, it's comparatively easy.
+ You have a UEFI partition.
+ It's fat.
+ There's a PE file on there, this one file.
+ It'll get run, and then it loads another load file, and
+ then eventually loads some stuff and loads the kernel.
+ It references this PCD database, which is boot
+ configuration data.
+ So it's kind of like a Windows registry hive, but comparable
+ to your GRUB config, right?
+ There's some--
+ if you're in a boot in safe mode, or disable, I don't know,
+ certain features like driver signing or boot Windows in
+ weird special modes, that is where you would configure that.
+ But we're not using that, right?
+ We're in a VM, and we don't have UEFI set up.
+ It's just a normal VM.
+ And we don't have an UEFI partition.
+ We just have one giant NTFS partition.
+ We want to boot with BIOS.
+ How do we do that?
+ So you can do this command, so bcdboot.
+ This will install a bunch of things.
+ It will install the boot manager to disk, and also
+ populate the BCD configuration on your Windows partition.
+ So we have that set up, and we have another command, bootsect.
+ And this will basically set up the earliest stages.
+ It will write the MBR, which is at the very beginning of disk.
+ It's rather tiny.
+ And it will also put secondary loaders into the partition
+ itself, the volume boot record, or partition boot record,
+ whatever you want to call it.
+ But this resides in some free space in the NTFS partition
+ that we have.
+ And this will get populated by this command.
+ And we just call them in our pre-installation environment.
+ And then we have a bootable system.
+ So we just reboot, and Microsoft calls this the out-of-box
+ experience.
+ It's the first time you boot.
+ The system will reboot a couple of times, do some setup,
+ and get you going.
+ So now our answer files come into play.
+ Usually you have these dialogues.
+ We don't want to create an old account, whatever.
+ But the answer file bypasses all that.
+ We picked a keyboard layout.
+ We created a local user, set up a hostname, whatever.
+ And at the end, we'll invoke the PowerShell script.
+ In the PowerShell script, what can we do?
+ Well, just some examples.
+ We can configure all the annoying things.
+ And it does things as instructed to by the web application.
+ So it sources the configuration you put in the browser
+ and sets some things up.
+ Yeah, there's some links to things.
+ You can install software with Chocolatey, whatever.
+ And at the end of the day, you'll end up at the desktop.
+ This takes about 10 to 15 minutes,
+ depending on your internet connection.
+ If you have to ISO locally, it's faster.
+ If you choose to install updates and it
+ has to reboot a bunch of times, it
+ can take quite a bit longer.
+ But 10, 15 minutes is a good estimate.
+ But you don't have to do anything during that time.
+ So why is this bootloader crime and a truly cursed install?
+ So as mentioned, we're installing Windows 11.
+ But we are doing legacy boot.
+ We don't have an EFI.
+ We don't have Secure Boot.
+ We don't even have a TPM, as mentioned.
+ It's a classic partition table.
+ It's not a GPT partition table.
+ We might even not have four gigabytes of RAM,
+ which is, I think, the minimum, or a compatible processor.
+ Why is that?
+ Well, it turns out the project-- it started some time ago.
+ And I was trying it with Windows 7.
+ And that worked just fine.
+ And then I switched it to Windows 11.
+ And it continued working.
+ And so, OK, that's interesting.
+ OK.
+ So yeah, some more.
+ It seems really the installer enforces a lot of stuff.
+ And there's tutorials on how to bypass
+ these checks in the installer.
+ But we don't even use the installer, right?
+ We just boot into a live environment
+ and unpack the files normally.
+ So yeah, further than-- also, the install media is EFI only.
+ So it won't boot on legacy boot.
+ But it doesn't matter.
+ We use SysLinux and WinBoot.
+ So we bypass that.
+ And very interestingly, the BootSec tool still has MBR support.
+ So I guess-- not entirely sure why,
+ but I guess Microsoft is strong on backwards compatibility.
+ So they probably left it in.
+ It's useful if you want to use Windows 11 tools to maybe repair
+ legacy install of an older version.
+ And yeah, as far as the whole bootloader chain--
+ I mean, the kernel, the handover, it's mostly--
+ it seems the format remained compatible in the end.
+ It's just a PE file.
+ That's massively simplifying it.
+ But it seems both boot chains, the legacy and the EFI ones,
+ still work.
+ So of course, this opens up wild speculations
+ that I won't get into here in this talk.
+ Surely, some of this--
+ parts of this is technical decisions,
+ things like secure boot, having a TPM, makes sense.
+ If you want to run this in production,
+ don't run this in production.
+ Run this for a research VM or whatever.
+ Maybe some of it was also business decision.
+ So there's some future work quickly to get into.
+ Need to test this on more hypervisors
+ and enhance how you can configure it,
+ how you can customize it, maybe allow
+ the user to insert some hooks in the web applications
+ to do more advanced stuff.
+ Also, in theory, you can do this on bare metal.
+ You could put it onto some flash drive
+ and have it not install on its own block device,
+ but on some other block device that's just minor tweaks.
+ It would be really cool to make this an even more weird
+ install to enable the pre-installation environment
+ entirely.
+ Either run Dism in Wine, or maybe use even WimLib
+ to deploy the files and then figure out
+ how to install the boot loaders.
+ Maybe also install updates from the pre-installation
+ environment so it's quicker.
+ Also, maybe even going to UFI and a GPT disk, just MBR disks.
+ They have limits in size.
+ If you want really large disks for your research VMs,
+ you're kind of limited by that right now.
+ And yeah, with the bare metal thing,
+ find some really obscure hardware to make this run on
+ and have some fun with it.
+ Yeah, that's it.
+ That's the GitHub repo where the code lives.
+ And it's not up there right now, but I'll
+ be sure to push it later in the day or the following days.
+ And yeah, you can hopefully then try it out directly there.
+ I'll put a link in to try out the UI online.
+ And yeah, if you want to reach me, I'll be around on camp.
+ Or you can get all my contact details online.
+ That's it.
+ Hope you enjoyed it.
+ [APPLAUSE]
+ Many thanks, Philippe, for this interesting talk.
+ Unfortunately, there is no more time for questions left.
+ So thank you again.
+ [APPLAUSE]
+ [MUSIC PLAYING]
+ (upbeat music)

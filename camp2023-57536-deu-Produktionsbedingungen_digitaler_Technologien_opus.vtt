@@ -1,0 +1,539 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:29.000
+ [Musik]
+
+00:00:30.000 --> 00:00:33.000
+ So, dann nochmal herzlich willkommen hier bei Bits und Bäume.
+
+00:00:33.000 --> 00:00:39.000
+ Wir haben jetzt einen 20-minütigen, knackigen, aber auch inhaltgeladenen Vortrag von der lieben Lena Ulbricht.
+
+00:00:39.000 --> 00:00:47.000
+ Es geht um das Thema Produktionsbedingungen digitaler Technologien, Systemkritik mit feministischen und dekolonialen Perspektiven.
+
+00:00:47.000 --> 00:00:54.000
+ Ich bin sehr gespannt. Wir haben hinten raus einen 5-minütigen FAQ-Slot noch vorgesehen.
+
+00:00:54.000 --> 00:00:58.000
+ Und genau, ich würde sagen, starten wir direkt durch. Lena, willkommen auf der Bühne.
+
+00:00:58.000 --> 00:01:00.000
+ [Applaus]
+
+00:01:00.000 --> 00:01:05.000
+ Vielen Dank für die supernette Anmoderation. Ich freue mich mega heute hier zu sein.
+
+00:01:05.000 --> 00:01:09.000
+ Ich habe diesen Vortrag konzipiert, natürlich viel zu viel reingepackt.
+
+00:01:09.000 --> 00:01:12.000
+ Wir wollen auch gerne ein bisschen Zeit für Diskussion haben.
+
+00:01:12.000 --> 00:01:15.000
+ Das heißt, es wird ein bisschen ein Schweinsgalopp werden, denke ich.
+
+00:01:15.000 --> 00:01:18.000
+ Ich verspreche aber zum einen, werde ich die Slides teilen mit euch.
+
+00:01:18.000 --> 00:01:25.000
+ Also wer die gerne später haben möchte, schreibt mir eine E-Mail oder ich mache das über die Organisatoren, weil ich dort ein bisschen ausführlicher sein kann.
+
+00:01:25.000 --> 00:01:32.000
+ Darüber hinaus werde ich im Anschluss an den Vortrag drüben in der Lounge noch sein, falls irgendjemand von euch Lust hat, noch weiter über diese Themen zu sprechen.
+
+00:01:32.000 --> 00:01:36.000
+ Genau. Ich arbeite am Weizenbaum-Institut für die Vernetzte Gesellschaft.
+
+00:01:36.000 --> 00:01:38.000
+ Ich leite dort meine zweite Arbeitsgruppe.
+
+00:01:38.000 --> 00:01:49.000
+ Und wir werden dort am Weizenbaum-Institut, das ist ja auch so ein beratenden Auftrag für die Öffentlichkeit, immer wieder darum gebeten, irgendwie Gestaltungsempfehlungen zu formulieren.
+
+00:01:49.000 --> 00:01:52.000
+ Also beispielsweise so Policy Recommendations.
+
+00:01:52.000 --> 00:02:04.000
+ Gerne. Und das impliziert im Prinzip ja, dass die Wissenschaft neue Ideen generieren soll, weil die vorhandenen nicht ausreichend sein.
+
+00:02:04.000 --> 00:02:12.000
+ Und in meiner Forschungserfahrung die letzten fünf Jahre habe ich festgestellt, dass es häufig dazu führt, dass wir im Prinzip Detailkritik üben.
+
+00:02:12.000 --> 00:02:19.000
+ Also dass man irgendeinem Gesetzestext noch einen Paragrafen hinzufügen müsste oder dass man das ein bisschen anders gestalten soll.
+
+00:02:19.000 --> 00:02:25.000
+ Aber je länger man im Feld ist, stellt man eben auch fest, dass es sehr grundlegendere Gestaltungsvorschläge gibt.
+
+00:02:25.000 --> 00:02:31.000
+ Beispielsweise eben auch Systemkritik, die aber wiederum häufig im öffentlichen Diskurs gar keine Aufmerksamkeit findet.
+
+00:02:31.000 --> 00:02:34.000
+ Und hier sehe ich jetzt zunehmend meine Rolle in den letzten Jahren.
+
+00:02:34.000 --> 00:02:37.000
+ Und vor diesem Hintergrund ist jetzt auch dieser Vortrag zu verstehen.
+
+00:02:37.000 --> 00:02:46.000
+ Also Systemkritik und Perspektiven, die so in der öffentlichen Auseinandersetzung überhört werden oder auch totgeschrieben, je nachdem, worum es hier geht.
+
+00:02:46.000 --> 00:02:55.000
+ Und was ich jetzt in meinem Vortrag heute hier machen möchte, ist zum einen zeigen, inwiefern Technikregulierung, so wie Sie kennen, liberal ist.
+
+00:02:55.000 --> 00:03:04.000
+ Und wo und wie feministische und dekoloniale Systemkritik hier eine interessante Perspektive bieten kann.
+
+00:03:04.000 --> 00:03:12.000
+ Ich habe auch ein paar Beispiele mitgebracht, die zeigen, wo und wie das bereits alles der Fall ist und eben auch tatsächlich politische Praxis.
+
+00:03:12.000 --> 00:03:16.000
+ Was ist an Technikregulierung, so wie Sie kennen, liberal?
+
+00:03:16.000 --> 00:03:25.000
+ Zum einen stellen wir fest, dass eben ein liberales Weltbild sich dadurch auszeichnet, dass es einen starken Fokus auf individuelle Rechte und Freiheiten legt.
+
+00:03:25.000 --> 00:03:30.000
+ Ganz wichtig ist hier auch der Gedanke der Gleichheit vor dem Recht und die Rechtsstaatlichkeit.
+
+00:03:30.000 --> 00:03:37.000
+ Es gibt dazu eine Wenge wichtiger Autoren, die ich hier aufgelistet habe, damit ihr so ein bisschen wisst, aus wessen Federn das stammt.
+
+00:03:37.000 --> 00:03:39.000
+ Ein paar Autorinnen gibt es auch dazu.
+
+00:03:39.000 --> 00:03:48.000
+ Und wichtig ist eben auch zu wissen, dass das entstanden ist in Abkehr oder in Reaktion auf autoritäre Monarchien und religiöse Dogmen.
+
+00:03:48.000 --> 00:03:56.000
+ Was wir also festgestellt haben, und ich bin hier nicht die einzige Kritikerin, ist, dass die Art und Weise, wie Technik und Plattform reguliert werden sollen,
+
+00:03:56.000 --> 00:04:04.000
+ in westlichen Gesellschaften in den letzten Jahren eben sehr stark durch dieses liberale Weltbild und Regulierungseinsätze gekennzeichnet ist.
+
+00:04:04.000 --> 00:04:12.000
+ Um das ein bisschen konkreter zu machen, bedeutet das eben, dass wir einen relativ starken Fokus haben auf individuelle Rechte von Nutzerinnen und Bürgerinnen.
+
+00:04:12.000 --> 00:04:17.000
+ Das sieht man beispielsweise ganz stark in der Europäischen Datenschutz-Grundverordnung.
+
+00:04:17.000 --> 00:04:25.000
+ Und hier ist auch in den letzten Jahren Kritik daran laut geworden, dass das aber auch eine ganz starke Verantwortlichkeit von Individuen bedeutet,
+
+00:04:25.000 --> 00:04:29.000
+ was eben nicht selten zu einer Überforderung führt.
+
+00:04:29.000 --> 00:04:39.000
+ Dass also Individuen dafür verantwortlich gemacht werden, ihr Nutzungsverhalten selber zu gestalten oder aber auch die Rechtsdurchsetzung auf ihrer Seite legt.
+
+00:04:39.000 --> 00:04:47.000
+ Ein weiteres Merkmal, warum Technik liberal ist, ist eben ganz starker Fokus auf Märkte und Marktregulierung.
+
+00:04:47.000 --> 00:04:53.000
+ Also die Tatsache, dass das ganz stark geregelt wird in Handelsabkommen durch Wettbewerbsrecht,
+
+00:04:53.000 --> 00:04:59.000
+ dass wir in Privacy und Datenschutz auch einen starken Fokus in der Debatte gehabt haben über Eigentumsrechte,
+
+00:04:59.000 --> 00:05:02.000
+ dass also viele Regulierungsinstrumente sich irgendwie in diesem Bereich bewegen.
+
+00:05:02.000 --> 00:05:07.000
+ Und auch insbesondere die Plattformen, also die Unternehmen hier im Fokus stehen.
+
+00:05:07.000 --> 00:05:15.000
+ Und das ist alles gut und richtig. Also das sind interessante Regulierungsansätze, die man auf jeden Fall braucht.
+
+00:05:15.000 --> 00:05:20.000
+ Aber was es wichtig ist zu sehen, ist, dass es hier eben auch blinde Flecken gegeben hat in den letzten Jahren.
+
+00:05:20.000 --> 00:05:28.000
+ Beispielsweise eben viel zu wenig Aufgaben in der Regulierung für Gemeinschaften, für Zivilgesellschaft, für kommunale Träger.
+
+00:05:28.000 --> 00:05:35.000
+ Darüber hinaus, dass es eben auch unheimlich viele Gestaltungsmöglichkeiten gibt außerhalb von Märkten und außerhalb von Unternehmen.
+
+00:05:35.000 --> 00:05:40.000
+ Also denken wir beispielsweise eben an Bildung, Naturschutz, Förderung von Open Source etc.
+
+00:05:40.000 --> 00:05:47.000
+ Also die Gesellschaft ist sehr, sehr viel größer als das, was wir haben, wenn wir Unternehmen und Märkte in den Blick nehmen.
+
+00:05:47.000 --> 00:05:53.000
+ Also das ist so ein bisschen der Hintergrund dessen, warum ich mich jetzt im nächsten Schritt interessieren werde dafür,
+
+00:05:53.000 --> 00:05:58.000
+ was hier eigentlich eine feministische und auch eine dekoloniale Perspektive hinzufügen kann.
+
+00:05:58.000 --> 00:06:03.000
+ Ich muss hier sagen, es gibt natürlich auch noch ganz andere Weltbilder und Regulierungsvorschläge.
+
+00:06:03.000 --> 00:06:09.000
+ Beispielsweise sozialistische, marxistische, kommunitaristische, aber auch radikale libertäre.
+
+00:06:09.000 --> 00:06:15.000
+ Ja, also ich beanspruche nicht, dass neben dem liberalen, das feministische und das dekoloniale die einzigen sind.
+
+00:06:15.000 --> 00:06:21.000
+ Aber es sind zwei, die ich ausgewählt habe, weil sie fähig sind, umfassende Utopien zu formulieren,
+
+00:06:21.000 --> 00:06:27.000
+ weil sie radikale Regulierungsvorschläge vorbringen und auch weil sie sehr, sehr wenig Gehör finden.
+
+00:06:27.000 --> 00:06:38.000
+ Genau, steigen wir direkt ein mit der feministischen Systemkritik. Was ist ein feministisches Weltbild?
+
+00:06:38.000 --> 00:06:46.000
+ Ich definiere das jetzt in diesem Vortrag so, dass ich sagen würde, das ist eine systematische Kritik an Systemen von Unterdrückung
+
+00:06:46.000 --> 00:06:52.000
+ und Privileg mit einem Fokus auf dem Geschlecht. Aber es beschränkt sich nicht darauf.
+
+00:06:52.000 --> 00:06:58.000
+ Das werde ich gleich noch erklären. Mir ist auch wichtig, dass hier klar wird, dass ich hier mit feministischen Entwicklungen
+
+00:06:58.000 --> 00:07:05.000
+ auch der letzten zehn bis zwanzig Jahre meine, die sich als intersektional oder die sich als dekolonial beschreiben.
+
+00:07:05.000 --> 00:07:10.000
+ Das ist hier nicht ausschließlich um weißen, eurozentristischen Feminismus,
+
+00:07:10.000 --> 00:07:14.000
+ handelt oder gar den "terre Feminismus", der Gender-Dissidenzen ausschließt.
+
+00:07:14.000 --> 00:07:18.000
+ Es gibt hier eine ganze Menge super inspirierender Literatur dazu.
+
+00:07:18.000 --> 00:07:25.000
+ Ich habe spannende Autorinnen in den Notizen der Slides, die ich später gerne verschicke, notiert.
+
+00:07:25.000 --> 00:07:31.000
+ Da gibt es sehr viel inspirierendes Material. Was für mich wichtig ist an so einem Ansatz, ist festzustellen,
+
+00:07:31.000 --> 00:07:37.000
+ dass es anders als der Name eigentlich vermuten lässt. Feminismus, da klingt ja dieses Feminar-Fokus auf die Frau ein,
+
+00:07:37.000 --> 00:07:45.000
+ es eigentlich einen relativ breiten Fokus hat auf gesellschaftliche Gruppen, die von Ausgrenzung, Unterdrückung und Gewalt betroffen sind.
+
+00:07:45.000 --> 00:07:53.000
+ Das betrifft Frauen, aber eben auch Gender-Dissidenzen, prekär arbeitende Kinder und Jugendliche und viele weitere Gruppen.
+
+00:07:53.000 --> 00:08:01.000
+ Und nicht umsonst haben sich da eben auch Entwicklungen wie beispielsweise der Öko-Feminismus herausgebildet.
+
+00:08:01.000 --> 00:08:08.000
+ Der Fokus Feminismus ist auch deswegen breiter als der Name erstmal vermuten lässt,
+
+00:08:08.000 --> 00:08:15.000
+ weil es nicht nur um den liberalen Weltbild typisch um Arbeits- und Produktionsprozesse geht,
+
+00:08:15.000 --> 00:08:24.000
+ sondern eben verschiedene Formen von Wirklichkeit, also auch soziale, politische und wirtschaftliche Wirklichkeiten von Menschen und von Gemeinschaften.
+
+00:08:24.000 --> 00:08:31.000
+ Und der Fokus ist hier auch breit und deswegen denke ich total relevant für aktuelle Regulierungsdiskurse,
+
+00:08:31.000 --> 00:08:34.000
+ weil es um verschiedene Bedingungen gesellschaftlichen Lebens geht,
+
+00:08:34.000 --> 00:08:43.000
+ beispielsweise eben neben den menschlichen und sozialen Kontexten auch um das Umfeld des Natur und Technik hier bieten.
+
+00:08:43.000 --> 00:08:47.000
+ Wichtig ist auch zu wissen, dass sich Feminismus ein Stück weit dadurch auszeichnet,
+
+00:08:47.000 --> 00:08:52.000
+ dass es eine lange Geschichte hat von ganz spezifischen Formen des sozialen Kampfes,
+
+00:08:52.000 --> 00:09:02.000
+ also beispielsweise transnationaler Bündnisse, einer starken Verknüpfung des privaten und des öffentlichen und auch separatistischer Strategien.
+
+00:09:02.000 --> 00:09:08.000
+ Und damit das hier alles nicht nur idealistisch klingt, ist es ganz wichtig sich zu vergegenwärtigen,
+
+00:09:08.000 --> 00:09:14.000
+ dass alle Weltbilder im Prinzip auch ihre blinden Flecken oder ihre Begrenzungen haben und dass beim Feminismus beispielsweise
+
+00:09:14.000 --> 00:09:19.000
+ die Gefahr besteht einer Essentialisierung von Geschlecht und von Geschlechtern.
+
+00:09:19.000 --> 00:09:27.000
+ Genau. Das als Hintergrundfolie, weil ich später dann ganz konkrete Beispiele von feministisch inspirierter Technikgestaltung
+
+00:09:27.000 --> 00:09:32.000
+ und politischen Regulierungsvorschlägen darlegen werde.
+
+00:09:32.000 --> 00:09:38.000
+ Was ist ein dekoloniales Weltbild und wie sind hier die Regulierungsansätze?
+
+00:09:38.000 --> 00:09:45.000
+ Hier geht es darum, dass aus einer dekolonialen Perspektive systematische Kritik ein System von Ausbeutung, Gewalt und Bereicherung
+
+00:09:45.000 --> 00:09:49.000
+ mit einem bestimmten Fokus auf Nord-Süd-Beziehungen formuliert wird.
+
+00:09:49.000 --> 00:09:53.000
+ Auch hier gibt es eine Menge sehr inspirierender Literatur, die ich gerne teile.
+
+00:09:53.000 --> 00:09:58.000
+ Und wichtig ist hier, dass es einen Fokus gibt auf ganz verschiedene Formen der Macht,
+
+00:09:58.000 --> 00:10:04.000
+ also nicht nur militärische und ökonomische, sondern dass eben Kolonialismus auch durch diskursive, epistemische,
+
+00:10:04.000 --> 00:10:11.000
+ subjektivistische und identitäre Formen der Macht etabliert und perpetuiert wird.
+
+00:10:11.000 --> 00:10:20.000
+ Vielen Dank. Darüber hinaus ist der Fokus hier auch besonders, weil er die Vergangenheit und die Gegenwart systematisch aufeinanderbezieht.
+
+00:10:20.000 --> 00:10:25.000
+ Das machen viele andere Perspektiven nicht. Dass man die Vergangenheit, also nicht Vergangenheit sein lässt,
+
+00:10:25.000 --> 00:10:34.000
+ sondern diese mit der Gegenwart in Beziehung setzt, was beispielsweise eben zu diesen Forderungen führt von öffentlichen Schuldeingeständnissen,
+
+00:10:34.000 --> 00:10:39.000
+ kolonialer Gewalt, Rückgabe von Raubkunst, Reparationsbeziehungen und so weiter.
+
+00:10:39.000 --> 00:10:48.000
+ Auch gibt es aus einer dekolonialen Perspektive eine Infragestellung der Überlegenheit westlicher Weltbilder und Wissenssysteme
+
+00:10:48.000 --> 00:10:53.000
+ und die Anerkennung nicht westlicher Kosmovisionen und Wissenssysteme.
+
+00:10:53.000 --> 00:11:01.000
+ Also stellen wir fest, wenn wir uns mit diesen Perspektiven auseinandersetzen, dass beispielsweise nicht immer und überall Zeit als linear betrachtet wird.
+
+00:11:01.000 --> 00:11:12.000
+ Und dass Berge durchaus belebt sein können. Oder auch, dass in manchen Kosmovisionen Menschen in einer Gemeinschaft über den Lebensverlauf das Geschlecht ändern können.
+
+00:11:12.000 --> 00:11:16.000
+ Alles Dinge, die wir aus westlichen Kosmovisionen in dieser Form nicht kennen.
+
+00:11:16.000 --> 00:11:26.000
+ Auch hier gibt es eine lange Geschichte vielfältiger Formen des gesellschaftlichen Kampfes, beispielsweise eben in Form von regionalem Separatismus oder von Süd-Süd-Beziehungen und so weiter.
+
+00:11:26.000 --> 00:11:30.000
+ Und auch hier gibt es eine Begrenzung, einen blinden Fleck oder vielleicht etliche.
+
+00:11:30.000 --> 00:11:38.000
+ Ich möchte hier mal hinweisen auf die Gefahr einer nationalstaatlichen Einengung unserer Weltbilder und vielleicht auch Regulierungsansätze.
+
+00:11:38.000 --> 00:11:50.000
+ Genau. Aus diesen verschiedenen Perspektiven lassen sich ganz, ganz interessante Beispiele der Art und Weise, wie digitalisierte Gesellschaften kritisiert und auch neu gestaltet werden.
+
+00:11:50.000 --> 00:11:59.000
+ Feststellen, ich habe hier ein paar mitgebracht. Ich werde angesichts der Zeit, und weil wir auch noch ein bisschen diskutieren wollen, da sehr, sehr schnell drüber hinwegfliegen.
+
+00:11:59.000 --> 00:12:06.000
+ Ich habe in allen Bereichen sowohl eins, das das epistemische Level angeht, mitgebracht, das technische als auch das politische.
+
+00:12:06.000 --> 00:12:15.000
+ Ich denke, über die Bücher gehe ich jetzt mal hinweg. Aber es gibt da ganz spannende, interessante Texte aus der Vergangenheit als auch aus der Gegenwert.
+
+00:12:15.000 --> 00:12:23.000
+ Dann gibt es Projekte, die Technikgestaltung feministisch angehen. Und eins, das ich hier mitgebracht habe, nennt sich "Data Against Feminicide".
+
+00:12:23.000 --> 00:12:32.000
+ Hier geht es insbesondere darum, aufzuzeigen, dass Gesellschaften Feminizide erlauben, was unter anderem auch durch fehlende Daten deutlich wird.
+
+00:12:32.000 --> 00:12:45.000
+ Und in diesem Projekt geht es darum, das aufzuzeigen, anzuprangern und aber auch durch Datensammlung und Analyse dieses zu ändern und zu zeigen, dass es möglich ist, mit Feminiziden gesellschaftlich ganz anders umzugehen.
+
+00:12:45.000 --> 00:12:57.000
+ Mein politisches Projekt stammt aus dem Verfassungsgebungsprozess, den wir in Chile im Jahre 2002 hatten. Ich bin Deutsche und Chileanin, deswegen ist es ein Prozess, den ich sehr nah verfolgt habe.
+
+00:12:57.000 --> 00:13:10.000
+ Da wurde beispielsweise von Kollektiven ein Paragraf eingebracht, der in Recht auf Teilhabe in einem digitalen Raum, der frei von Gewalt ist, vorgeschlagen wurde und es auch in den Verfassungsentwurf geschafft hat.
+
+00:13:10.000 --> 00:13:20.000
+ Der Entwurf wiederum ist gescheitert, also diese Verfassung gibt es nicht. Aber im Prinzip war das ein sehr interessantes Beispiel dafür, wo und wie das politisch eingebracht wird, so eine Perspektive.
+
+00:13:20.000 --> 00:13:27.000
+ Zu der dekolonialen Systemkritik habe ich auch drei Beispiele mitgebracht. Über die Bücher gehe ich jetzt mal wieder hinweg.
+
+00:13:27.000 --> 00:13:49.000
+ Auch über dieses Zitat, auch wenn es wunderschön ist, aber es ist wichtig, sich zu vergegenwärtigen, dass es Expertinnen und Experten und Communities gibt, die sehr deutlich ihre Stimme erheben und anprangern, dass eben digitalisierte Gesellschaften sehr häufig durch White Supremacy und Patriarchales und West-Eurozentristisches denken charakteriert sind und das nicht so sein mögen.
+
+00:13:49.000 --> 00:13:53.000
+ Dass es durchaus auch andere Perspektiven gibt.
+
+00:13:53.000 --> 00:14:14.000
+ Genau, das technische Beispiel ist eines, das ich mitgebracht habe, ein Cryptocoin, das indigene Gemeinschaften im Norden der USA ausprobieren, um finanzpolitische Unabhängigkeit ein Stück weit voranzutreiben und auch autonomer zu werden in ihrem Handel von Dim Dollar und Vorgaben der US-Regierung.
+
+00:14:14.000 --> 00:14:29.000
+ Das politische Beispiel ist eine Klage, die es 2021 gab in den USA gegen Alphabet und andere große Tech-Unternehmen, die sich richteten gegen menschenunwürdige Bedingungen in den Kobaltmien im Kongo.
+
+00:14:29.000 --> 00:14:36.000
+ Diese Klage wurde leider abgewiesen damals wegen der mangelnder Beweislage, aber das Thema hat sich noch nicht erledigt.
+
+00:14:36.000 --> 00:14:42.000
+ Also es kürzlich beispielsweise ein Buch erschienen ist, für sehr, sehr viel Aufmerksamkeit gesorgt hat, das auch auf die Missstände dorthin weist.
+
+00:14:42.000 --> 00:14:50.000
+ Das Buch selber ist wiederum von einem US-Journalisten verfasst worden, dem jetzt auch Kolonialismus innerhalb dieses Buches vorgeworfen wurde.
+
+00:14:50.000 --> 00:14:55.000
+ Also es ist im Prinzip eine sehr, sehr fruchtbare Debatte, die hier vorangeht.
+
+00:14:55.000 --> 00:15:08.000
+ Ein weiterer aktueller Konflikt, den ich nachverfolge, ist die Förderung von Lithium in der Andenregion und die Zerstörung der Lebensgrundlagen vor Ort.
+
+00:15:08.000 --> 00:15:15.000
+ Es gibt viele, viele weitere. Es ist wichtig zu sehen, dass es dort politische Konflikte gibt, dass es dort Widerstand gibt.
+
+00:15:15.000 --> 00:15:21.000
+ Diese sind wiederum häufig sehr, sehr ungleiche Konflikte, das muss man sagen, aber man muss sie auch sehen.
+
+00:15:21.000 --> 00:15:28.000
+ Um es zusammenzufassen, denke ich, ist es für uns alle wichtig, zu erforschen und herauszufinden,
+
+00:15:28.000 --> 00:15:34.000
+ wie feministische und dekoloniale Perspektiven auf die hiesigen Debatten und Prozesse angewendet werden können.
+
+00:15:34.000 --> 00:15:38.000
+ In meinem Fall zum Beispiel mit Blick auf Gesetzgebung und Rechtsprechung.
+
+00:15:38.000 --> 00:15:48.000
+ Wir müssen uns ganz klar bewusst machen, dass es keinen Ideenmangel gibt, sondern eher eine große Vielfalt an Ideen, die aber wiederum dann häufig totgeschwiegen werden.
+
+00:15:48.000 --> 00:15:53.000
+ Und unsere eigenen Projekte sind hier zum Teil sehr, sehr anschlussfähig.
+
+00:15:53.000 --> 00:16:02.000
+ Wir müssen es uns aber auch zum Ziel machen und auf dieses Wagnis einlassen, denn die feministische und die dekoloniale Diskonstruktion führen auch zur Verunsicherung.
+
+00:16:02.000 --> 00:16:09.000
+ Also wenn man einmal beginnt durch diese Brille zu blicken, steht kein Stein mehr auf dem anderen und nichts ist mehr in Ordnung im Prinzip.
+
+00:16:09.000 --> 00:16:21.000
+ Und das ist eine starke Verunsicherung, aber ich denke, es lohnt sich, wenn man dadurch an ganz andere Orte gelangen kann und auch mit ganz anderen Menschen und Initiativen sich verbinden kann.
+
+00:16:21.000 --> 00:16:29.000
+ Vielen Dank für die Aufmerksamkeit und ich hoffe, wir haben jetzt, obwohl ich ein bisschen überzogen habe, noch Zeit für die eine oder andere Frage oder auch den einen oder anderen Kommentar.
+
+00:16:29.000 --> 00:16:37.000
+ Vielen Dank.
+
+00:16:37.000 --> 00:16:42.000
+ Vielen Dank, Lena. Ich fand den Vortrag super spannend und ich glaube, es gibt auch ganz viele Fragen noch im Publikum.
+
+00:16:42.000 --> 00:16:52.000
+ Wir müssen vom Timekeeping her ein bisschen schauen, dass wir es einschränken, aber wie Lena schon vorhin gesagt hat, in der Lounge hinten beim Freifunk kann es weitergehen.
+
+00:16:52.000 --> 00:16:58.000
+ Da wird es sich noch ein bisschen aufhalten für weiterführende Fragen. Von daher, wir würden jetzt drei Fragen einmal aus dem Publikum zulassen.
+
+00:16:58.000 --> 00:17:11.000
+ Wir haben hier in dem Fall das Mikro im Publikum. Hebt gerne einmal die Hand und dann würden wir die drei ersten Fragen einmal an Lena stellen.
+
+00:17:11.000 --> 00:17:21.000
+ Danke für den Vortrag. Du hast ja jetzt so diverse Beispiele gezeigt für Projekte und das waren größtenteils Bücher oder, sagen wir mal, Data Science-Auswertungs-Sachen.
+
+00:17:21.000 --> 00:17:29.000
+ Jetzt haben wir an manchen Stellen das Ding, dass gesellschaftliche Herrschaftsstrukturen durch Technik Fakten geschaffen werden und quasi durch Technik Realitäten produziert werden.
+
+00:17:29.000 --> 00:17:32.000
+ Und die sind dann erstmal irgendwie da, ohne dass man groß darüber diskutiert hat vorher.
+
+00:17:32.000 --> 00:17:43.000
+ Hast du vielleicht ein Positivbeispiel für irgendwas, womit Technik Herrschaftsstrukturen durchbrochen werden können vielleicht oder wurden?
+
+00:17:43.000 --> 00:17:54.000
+ Also vielen Dank für die Frage, die ist sicherlich nicht schnell zu beantworten. Ich fand, dass das Data Against Famicide Projekt eigentlich eines ist, wo eher Strukturen in Frage gestellt werden und kritisiert werden.
+
+00:17:54.000 --> 00:18:00.000
+ Und es irgendwie einen Versuch gibt, da auch Realitäten zu schaffen, indem man irgendwie eigene Daten präsentiert.
+
+00:18:00.000 --> 00:18:17.000
+ Und viele der Feminist-AI-Projekte sind irgendwie unterwegs zu schauen, wie können wir eigentlich eigene, andere Realitäten, die bislang sich in Data Science und in gesellschaftlichen Selbstbeschreibungen, auch in der amtlichen Statistik und so weiter nicht dargestellt haben, irgendwie zeigen.
+
+00:18:17.000 --> 00:18:26.000
+ Darüber hinaus, wo Gesellschaft irgendwie angegriffen oder wo Machtstrukturen angegriffen werden, denke ich, sind schon auch diese Su-Valence-Projekte.
+
+00:18:26.000 --> 00:18:42.000
+ Also State Watch und auch Frag den Staat, denke ich, gehören dazu, bei denen es darum geht, ein Stück weit so eine Gegenmacht zu etablieren.
+
+00:18:42.000 --> 00:18:49.000
+ Will nicht? Doch, will. Als linke Abgeordnete habe ich da natürlich eine spezielle Sichtweise drauf.
+
+00:18:49.000 --> 00:19:02.000
+ Also linke Politik ist automatisch auch feministisch und antikolonial. Ich kann mir aber eine feministische und antikoloniale Ansatzweise ohne Systemkritik überhaupt nicht vorstellen, weil für mich ist beides mit dem Kapitalismus schlicht nicht kompatibel.
+
+00:19:02.000 --> 00:19:14.000
+ Also da wüsste ich gern, was deine Sichtweise darauf ist und wie man, als leider zweite Frage, wie man eigentlich feministische Politik durchsetzen kann, wenn wir zwei Drittel Männer im Parlament haben.
+
+00:19:14.000 --> 00:19:24.000
+ Also da scheitere ich und viele andere ja auch immer dran. Wir haben halt eine Mehrheit Männer, die zum Beispiel den Körper von Frauen bestimmen, aber die Männer entscheiden auch, ob sich was daran ändert oder nicht, die verhindern ein Paritätsgesetz.
+
+00:19:24.000 --> 00:19:29.000
+ Also das ist ja so ein Katze beißt sich in Schwanzding und hast du da eine Idee für?
+
+00:19:29.000 --> 00:19:54.000
+ Zwei ganz einfache Fragen. Nee, also vielen Dank. Im ersten Punkt kann ich dir nur zustimmen und ich muss auch sagen, die Linke ist sicherlich nicht der allererste Adressat, an den ich denke, wenn ich sage, dass da Perspektiven ausgeblendet werden, ignoriert werden oder dass da auf eine fast heuchlerische Art und Weise irgendwie neuer Input- und Gestaltungsvorschläge irgendwie aus der Wissenschaft gefordert werden.
+
+00:19:54.000 --> 00:20:05.000
+ Also das sehe ich auch, dass da durchaus viel aufgegriffen wird und mit Systemkritik verbunden wird. Nicht alle sehen dekoloniale Perspektiven und feministische Perspektiven wirklich miteinander verknüpft.
+
+00:20:05.000 --> 00:20:14.000
+ Also das ist sicherlich eine Arbeit, die weitergeführt werden muss. Und zur machtpolitischen Frage habe ich keine schnelle Antwort.
+
+00:20:14.000 --> 00:20:24.000
+ Tatsächlich ist das irgendwie, denke ich, weiterhin die Suche danach, wo und wie verschiedene Bewegungen miteinander verknüpft werden können und zueinander finden.
+
+00:20:24.000 --> 00:20:34.000
+ Und manchmal sieht man es zum Teil. Also ich habe ja einen starken Fokus eben auf die Bewegungen in Lateinamerika und die führen häufig fast natürlich zueinander, wo das hier noch nicht der Fall ist.
+
+00:20:34.000 --> 00:20:44.000
+ Also ich sage mal irgendwie eine Umweltschutzbewegung, eine indigene Bewegung und eine feministische Bewegung, die irgendwie auf ganz organische Weise zueinander finden und eine Zeit lang, ich will das nicht verklären,
+
+00:20:44.000 --> 00:20:57.000
+ also die eine Zeit lang da Seite an Seite beispielsweise sich für einen neuen Verfassungsentwurf einbringen und die da kongruent sind, aber die sich danach durchaus auch wieder aufteilen.
+
+00:20:57.000 --> 00:21:10.000
+ Und ich denke auch, das müsste hier der Weg sein im Prinzip, dass man noch stärker die Bewegungen zusammenführt, also ich sage mal Klimaschutz, Umweltschutz, Feminismus und dass man hier die Kräfte bündelt, auch wenn das sicherlich ein Langfristprojekt ist.
+
+00:21:10.000 --> 00:21:23.000
+ Aber ich denke eben diese Beobachtung jetzt beispielsweise aus verschiedenen lateinamerikanischen Gesellschaften, die ich näher betrachte, ist, dass es durchaus auch in kurzfristigen Projekten und Anlässen dazu führen kann,
+
+00:21:23.000 --> 00:21:28.000
+ dass man erst noch beginnt miteinander zu arbeiten und das vielleicht dann auch auf Dauer gestellt sein kann irgendwann.
+
+00:21:28.000 --> 00:21:37.000
+ Okay, in Anbetracht der Zeit würde ich sagen weiterführende Fragen, wie schon gesagt hinten in der Launch im Freifunk zählt.
+
+00:21:37.000 --> 00:21:43.000
+ Und ja, ich würde sagen nochmal vielen, vielen Dank dir für den Vortrag. Nochmal einen großen Applaus an Lena bitte.
+
+00:21:43.000 --> 00:22:00.000
+ Vielen Dank auch für eure Aufmerksamkeit, für die Einladung. Ich habe euch auch hier Open Access Lesetipps mitgebracht. Also es gibt ganz, ganz tolle Plattformen, auf denen man sich informieren kann, eben auch über, sag mal, die Tech Welt und Politik jenseits des Westens.
+
+00:22:00.000 --> 00:22:09.000
+ Und ich habe auch ein Podcast mit Kolleginnen, der nennt sich Purple Code, wo feministische intersektionale Perspektiven auf digitalisierte Gesellschaften thematisiert werden.
+
+00:22:09.000 --> 00:22:15.000
+ Genau, hört doch mal rein, wenn ihr Lust habt und ansonsten euch noch einen schönen Abend. Danke. Ciao.
+
+00:22:15.000 --> 00:22:27.000
+ Gut, dann nur noch kurz organisatorisch. Infos rund um die Bühne hier findet ihr unter dem Hashtag #BitsundBäume.
+
+00:22:27.000 --> 00:22:33.000
+ Und ansonsten möchte ich noch kurz auf den nachfolgenden Talk aufmerksam machen um 16.30 Uhr, also sprich direkt im Anschluss.
+
+00:22:33.000 --> 00:22:40.000
+ Digitalisierung im Brutvogel, Monitoring klingt super spannend. Ich bin neugierig was da kommt.
+
+00:22:40.000 --> 00:22:48.000
+ Und ansonsten möchte ich auch noch mal Werbung machen für Vogue TV, also sprich der Livestream hier rund um das Thema Reviews der Veranstaltung des Tages.
+
+00:22:48.000 --> 00:22:55.000
+ Vielleicht jetzt ein kleiner Klickwert in der Pause findet ihr unter streaming.media.ccc.de.
+
+00:22:55.000 --> 00:22:59.000
+ Und da genießt die Pause und bis später und viel Trinken nicht vergessen.
+
+00:22:59.000 --> 00:23:04.000
+ [Musik]
+

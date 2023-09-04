@@ -1,0 +1,85 @@
+ [Musik]
+ Genau, also ich möchte euch heute einen kleinen Einblick in die aktuellen Entwicklungen im Kontext autonomer Waffensysteme bzw. von Autonomie in Waffensystemen und militärischer KI geben.
+ Einfach weil künstliche Intelligenz und selbstlernende Systeme immer mehr Einfluss auf ganz viele gesellschaftliche Bereiche nehmen und eben nicht nur im zivilen Bereich, sondern immer mehr auch im militärischen Bereich.
+ Und genau, das bringt ganz viele Probleme mit sich hinsichtlich des Kriegskontexts und auch der Kontrolle und der Regulierung von solchen Systemen.
+ Genau, ich bin Politikwissenschaftlerin und Friedens- und Konfliktforscherin und arbeite bei PISEC an der TU Darmstadt.
+ Und genau, PISEC verbindet eben die Informatik mit der Friedens- und Sicherheitsforschung.
+ Wir haben da ein sehr interdisziplinäres Forschungsfeld des Friedens- und Konfliktforschung, Cybersicherheit und Privatheit und die Mensch-Computer-Interaktion miteinander verbindet und da Schnittpunkte untersucht.
+ Genau, und dann möchte ich einsteigen mit der Frage, was sind eigentlich autonome Waffensysteme, weil wir da schon bei einer der Hauptproblematiken sind, was den Umgang mit solchen Systemen angeht.
+ Weil es tatsächlich bis heute keine einheitlich international anerkannte Definition von autonomen Waffensystemen gibt, was unter anderem auch damit zusammenhängt, dass es noch keine vollautonomen Systeme in der engen Definition gibt.
+ Und auch einige Staaten aus einer militärstrategischen Perspektive gar nicht so ein großes Interesse daran haben, das so genau zu definieren.
+ Und häufig werden autonome Waffensysteme eben mit unbemannten Drohnen assoziiert, also zum Beispiel einer, wie man sie hier jetzt sieht. Und genau, die werden eben dann autonom oder telautonom ferngesteuert als mobile Waffensysteme.
+ Auch wenn das längst nicht das einzige Anwendungsszenario jetzt ist, aber das ist eben so das Bild, was dann meistens damit assoziiert wird.
+ Und eine sehr bekannte Definition von autonomen Waffensystemen stammt vom internationalen Komitee des Roten Kreuzes, die habe ich hier mal mitgebracht, nämlich "any weapon system with autonomy and its critical functions that can select and attack targets without human intervention".
+ Also der Begriff bezeichnet in der Definition dann Waffensysteme, die ohne menschliches Zutun entscheiden, welche Ziele sie anvisieren und dann auch angreifen.
+ Genau, häufig wird auch von autonomen Waffensystemen gesprochen, wenn es nur Teilautonome Waffensysteme sind, also zum Beispiel im Kontext von Assistenzsystemen, ferngesteuerte Drohnen, bei denen dann einige Funktionen autonom ablaufen und andere von einem Menschen kontrolliert werden.
+ Und hier ist es auch nochmal ganz wichtig, sich klar zu machen, dass es keine harte Grenze zwischen Automatisierung und Autonomisierung gibt, weil das eigentlich eher nur unterschiedlich komplexe Stufen derselben Technologie sind.
+ Und es geht dabei vielmehr darum, um die Frage, in welchem Ausmaß der Mensch noch in der Entscheidungsschleife des Systems dann drin ist.
+ Und auch wenn jetzt die vollautonomen Waffensysteme in der engen Definition noch nicht im Einsatz sind, ist es eben total wichtig, jetzt schon Regulierungsmöglichkeiten zu finden, weil die ganzen Risiken und Herausforderungen eben jetzt schon antizipiert werden müssen, damit wir eben irgendwie einen Überblick haben, was da auf uns zukommt und die Entwicklung der Technologie auch schon mit begleiten können.
+ So, jetzt, wo findet eigentlich schon ein Einsatz von teilautonomen Waffen statt? Da kommt es auch wieder drauf an, welche Definition man jetzt anlegt.
+ Je nach Definition können aber auf jeden Fall schon autonome oder teilautonome Systeme beobachtet werden.
+ Ein Beispiel ist das Beispiel auf der linken Seite, das ist das israelische System Hapi.
+ Das kann zum Beispiel autonom über ein Gebiet kreisen und auch gegnerische Luftangriffe abwehren.
+ Und im Kontext des russischen Eingriffs auf die Ukraine haben am Anfang des Krieges vor allem konventionelle Waffen dominiert.
+ Es gibt aber auch das KI-Erkennungssystem für Raketenabwehr und mittlerweile gibt es auch immer mehr Berichte über den Einsatz von Drohnen, zum Beispiel die sogenannte Switchblade-Drohne hier auf der rechten Seite, die auch über autonome Funktionen verfügt.
+ In jedem Fall gehören unbemannte Drohnen auch mit autonomen Funktionen längst schon zum militärischen Inventar.
+ Und auch wenn heute noch ein Mensch den finalen Schießbefehl geben muss, aber auf jeden Fall ist da schon einiges im Einsatz.
+ So, die Frage, was ist denn jetzt eigentlich so problematisch am Einsatz autonomer Waffen?
+ Autonome Waffensysteme werfen aus ganz vielen verschiedenen Perspektiven Probleme und Herausforderungen mit sich, unter anderem aus technischer, völkerrechtlicher, sicherheitspolitischer, ethischer und humanitärer Perspektive.
+ Und hier ist noch ganz viel Forschung nötig, damit verschiedene gesellschaftliche Akteure aus Zivilgesellschaft, Wissenschaft, von Staaten, aber auch aus dem Militär und aus der Industrie zusammen diskutieren können und da Lösungen finden können.
+ Wenn man sich jetzt zum Beispiel die rechtlich-technischen Probleme anschaut, dann ergeben sich zum Beispiel im Kontext der Genfer Konventionen ganz wichtige Fragen.
+ Wer trägt zum Beispiel die juristische Verantwortung für die Handlung autonomer Systeme? Und sind die bestehenden Gesetze eigentlich schon ausreichend oder brauchen wir da ganz neue?
+ Und dann auch so was, wie können eigentlich zentrale Prinzipien des Völkerrechts in Softwarecode gefasst werden, also ist das überhaupt möglich?
+ Und eine der zentralsten Fragen im rechtlichen Kontext ist, ob autonome Waffensysteme in der Lage sein werden, in Kriegskontexten Zivilisten von Konvertanten unterscheiden zu können.
+ Dann mehr aus technischer Perspektive die Frage, wie gehen wir mit dem Blackbox-Problem um. Mit immer mehr Autonomie wächst eben auch das Risiko für unerwartetes Verhalten von Systemen und technische Schwachstellen.
+ Und deswegen stellt sich da auch die Frage, ob und wie aus technischer Perspektive die Entscheidungen einer KI irgendwie transparenter gemacht werden können.
+ Und das Problem ist auch total relevant für teilautonome Systeme, bei denen sich noch ein Mensch in der Entscheidungsschleife befindet.
+ Da gibt es zum Beispiel Studien zum sogenannten Automation Bias heißt es.
+ Die zeigen, dass Menschen Vorschläge von KI-gesteuerten Assistenzsystemen in den allermeisten Fällen einfach annehmen, weil sie gar nicht mehr nachvollziehen können, wie diese Entscheidung jetzt zustande gekommen ist.
+ Und deswegen kann man auch bei teilautonomen Systemen von dem Kontrollverlust des Menschen sprechen.
+ Dann aus ethisch-humanitärer Perspektive führt der Einsatz von KI-Waffen eben zu einer weiteren Entmenschlichung der Kriegsführung.
+ Wenn Entscheidungen über Leben und Tod delegiert werden an eine KI, dann sind Menschen nur noch Datenmuster und Objekte.
+ Und das würde eine ganz krasse Verletzung der Menschen darstellen.
+ Deswegen ist es gerade aus ethischer Perspektive total wichtig, dass immer ein Mensch auch in der Entscheidungsschleife bleibt.
+ Und deswegen hat 2013 die NGO Artikel 36 das sogenannte Konzept der sogenannten Meaningful Human Control eingebracht.
+ Also eine bedeutsame menschliche Kontrolle.
+ Und dieses Konzept ist sehr erfolgreich geworden. Mittlerweile wird es von sehr vielen internationalen Organisationen und auch sehr vielen Staaten immer wieder aufgegriffen.
+ Allerdings ist noch nicht so ganz klar, wie diese bedeutsame menschliche Kontrolle aussehen soll und wie sie auch praktisch umgesetzt werden könnte.
+ Und da ist auch noch ganz viel Forschung, gerade im Kontext der Mensch-Maschine-Interaktion, nötig.
+ Und dann gibt es noch eine weitere Perspektive auf autonome Waffensysteme, die im Vergleich zu technischen und zu rechtlichen Aspekten in der internationalen Debatte sehr wenig Gewicht hat und trotzdem unglaublich relevant ist.
+ Und zwar die Frage, wie objektiv ist eigentlich KI und welche Auswirkungen hat es in der Anwendung von Waffensystemen?
+ Es ist nämlich immer noch ein sehr weit verbreiter Irrglaub, dass KI objektivere Entscheidungen treffen können als Menschen, keine Vorurteile hat und sowieso weniger Fehler macht.
+ Das Gegenteil ist der Fall. Algorithmen und KI sind als andere als neutral und objektiv.
+ Einfach weil diese Systeme von Menschen konzipiert, entwickelt und angewendet werden und deswegen spiegeln sie auch diese Vorurteile, Fehler und Verzerrungen.
+ Das fängt beispielsweise schon bei den Trainingsdaten an. Die Datengrundlage zum Trainieren von Algorithmen sind eben als andere als eine Sammlung objektiver Fakten.
+ Und besonders in zivilen Anwendungen wird das schon sehr deutlich und da gibt es zahlreiche Beispiele.
+ Beispielsweise gibt es Studien, die zeigen, dass Gesichtserkennungssoftware, People of Color, generell schlechter erkennt als weiße Menschen, Frauen schlechter als Männer und besonders Women of Color, also schwarze Frauen, sehr überdurchschnittlich häufig falsch erkannt werden.
+ Und ähnliches gilt auch für Stimmerkennungssoftware. Und das wirft eben die total drängende Frage auf, wie geeignet diese Trainingsdaten dann sind, gerade wenn man sie in so kritischen und sensiblen Bereichen einsetzt wie in militärischen Anwendungen.
+ In Kriegskontexten kommen dann neben solcher Einschreibungen vorbelasteter Daten noch sogenannte Signifier ins Spiel.
+ Die werden in Kriegskontexten benutzt, um Menschen im sogenannten Target Profiling einzuordnen, weil eben nach Genfer Konvention nur eine Person angegriffen werden darf, die eindeutig als kämpfend und nicht als zivil eingeordnet wurde.
+ Und deswegen ist diese Unterscheidung so zentral. Und in Bezug auf den Einsatz semi-autonomer Thron gibt es schon Beispiele, dass zum Beispiel junge Männer in Kriegskontexten fast immer als Kämpfer eingestuft werden.
+ Und das impliziert einfach, dass jede Personengruppe, deren Gender zum Beispiel in einem Zielprofil enthalten ist, einem viel größeren Risiko automatisch ausgesetzt wäre.
+ Und andere Berichte über bewaffnete Throneneinsätze zeigen auch, dass neben Gender auch Alter und religiöse Handlungen eine Rolle spielen, also zum Beispiel das Beten in Gruppen eben als Indikatoren dafür, ob Personen in Kriegsgebieten angegriffen werden.
+ Und ja, ein KI in Waffensystemen würde solche Entwicklungen wahrscheinlich weiter verstärken und vor allem auch nicht hinterfragen.
+ Dann will ich jetzt zum Schluss noch ganz kurz darauf eingehen, warum eine Regulierung von autonomen Waffensystemen eigentlich so schwierig ist, die öffentliche Diskussion über Autonomie in Waffensystemen,
+ vor allem dem zivilgesellschaftlichen Prozess der Campaign to Stop Killer Robots zu verdanken, sieht man hier rechts auf dem Bild. Es ist ein internationales NGO-Netzwerk, die seit schon über zehn Jahren die Entmenschlichung durch automatisierte Entscheidungsfindungen anprangern und eben ein weltweites Verbot fordern.
+ Und die waren auch sehr erfolgreich. Zum Beispiel haben sie dafür gesorgt, dass bei den Vereinten Nationen eine Expertengruppe eingesetzt wurde, die "Group of Governmental Experts" und die verhandeln offiziell seit 2017 über die Regulierung von autonomen Waffensystemen.
+ Bisher konnten sie sich leider noch nicht auf sehr viel einigen, bis auf ein paar eher vage formulierte Leitlinien.
+ Eine sehr hohe Hürde für die Regulierung ist seit Jahren die Einigung auf eine einheitliche Definition. Da wären wir wieder beim Anfangsproblem, weil eine einheitliche Definition sehr lange als notwendige Grundlage gesehen wurde, für zum Beispiel einen möglichen Rüstungskontrollvertrag.
+ Und dass die Regulierung von autonomen Waffensystemen so schwierig ist, hat mehrere Gründe. Ich habe jetzt mal hier drei wichtige aufgeführt.
+ Zum einen sind autonome Waffen keine klar abgrenzbare Waffenkategorie, wie das zum Beispiel bei Nuklearwaffen der Fall ist, die man genau beschreiben kann und dann regulieren kann.
+ Vielmehr ist Autonomie eine Eigenschaft, die in unterschiedliche Systeme integriert werden kann, sowohl in ziviler als auch in militärische.
+ Und deswegen wird mittlerweile auch immer häufiger von Autonomie in Waffensystemen gesprochen, statt von autonomen Waffensystemen, weil es diesen Aspekt eben deutlicher macht.
+ Dann ein weiterer Punkt ist, dass im klassischen Ansatz der Rüstungskontrolle oft Waffensysteme quantitativ beschränkt werden.
+ Dieser Ansatz greift hier aber auch nicht, weil wie beschränkt man quantitativ Software?
+ Deswegen braucht es da auch neue qualitative Formen der Rüstungskontrolle, die beispielsweise dann mehr den Anwendungskontext von Waffensystemen in den Blick nimmt.
+ Der dritte Punkt, den ich hier jetzt noch aufgeführt habe, ist, dass die Auswirkungen von Autonomie in Waffensystemen bisher noch nicht so sichtbar sind, wie das bei anderen Waffen der Fall ist.
+ Und deswegen kann man sich auch nicht so einfach an anderen Prozessen orientieren.
+ Genau. Und das sind jetzt nur ausgewählte Punkte, aber das alles pöte dazu, dass die Regulierung solcher Systeme enorm erschwert wird.
+ Und dass auch die Verhandlung im zuständigen Arbeitsgremium bei den Vereinten Nationen da seit Jahren eigentlich kaum vorankommt und auch nicht zu neuen Ergebnissen kommt.
+ Der einzige Konsens, wenn man es so nennen kann, ist derzeit, dass im Kontext von Autonomie in Waffensystemen eben eine hinreichende Form von menschlicher Kontrolle da sein soll.
+ Aber wie die jetzt genau aussehen soll, darüber gibt es noch keine Einigkeit.
+ Ja, dann wäre ich am Ende.
+ Vielen Dank.
+ Vielen Dank.
+ [Musik]

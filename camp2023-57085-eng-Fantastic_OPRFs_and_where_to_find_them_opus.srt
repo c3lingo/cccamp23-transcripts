@@ -1,0 +1,1728 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:38,000
+ I'm very happy to announce to you a speaker who has a very long experience with pen testing,
+
+3
+00:00:38,000 --> 00:00:46,000
+ who's been doing crypto since he was a kid after he read a book that inspired him when he was a teenager.
+
+4
+00:00:46,000 --> 00:00:51,000
+ But he also told me that he doesn't want to talk about himself.
+
+5
+00:00:51,000 --> 00:00:56,000
+ He's here to talk about projects, but I even would recommend to check out his bio because
+
+6
+00:00:56,000 --> 00:01:03,000
+ Steph has really interesting projects done in his life, and I'm really, really happy that he's here today
+
+7
+00:01:03,000 --> 00:01:11,000
+ to show us, in his words, "cinematic version" of a talk that was already published on YouTube,
+
+8
+00:01:11,000 --> 00:01:16,000
+ where he's going to show the link afterwards where you can see the director's cut later,
+
+9
+00:01:16,000 --> 00:01:20,000
+ if you feel like your appetite was whetted.
+
+10
+00:01:20,000 --> 00:01:32,000
+ We are most likely not going to have a Q&A afterwards, but Steph will be available from 4 p.m. on in the House of T to do the Q&A.
+
+11
+00:01:32,000 --> 00:01:38,000
+ So, without further ado, please applause for Steph.
+
+12
+00:01:38,000 --> 00:01:42,000
+ [APPLAUSE]
+
+13
+00:01:42,000 --> 00:01:47,000
+ Hello. Hello. Can you hear me? Great. Hello. Welcome.
+
+14
+00:01:47,000 --> 00:01:53,000
+ This is going to be my little rabbit hole, and maybe some of you will also follow me down this rabbit hole.
+
+15
+00:01:53,000 --> 00:02:00,000
+ I don't have much time. There's a lot of really awesome stuff to be shown.
+
+16
+00:02:00,000 --> 00:02:09,000
+ So, there's two parts of this talk. First of all, I'm going to tell you a bit about how OPRFs work, what they can do.
+
+17
+00:02:09,000 --> 00:02:16,000
+ This is based on a very awesome paper by Casa Cubeta, Hesse and Lehmann, which is called "Systemization of Knowledge,"
+
+18
+00:02:16,000 --> 00:02:21,000
+ which I can warmly recommend to all of you. The reference is always in the footer.
+
+19
+00:02:21,000 --> 00:02:27,000
+ You can download the slides, and then if you are interested in this whole topic, this is a really good starting point, this paper.
+
+20
+00:02:27,000 --> 00:02:34,000
+ It has references to a lot of very exciting and very accessible papers, academic crypto papers.
+
+21
+00:02:34,000 --> 00:02:42,000
+ The second part is going to be some practical examples of software and deployments where OPRFs are deployed in the real world,
+
+22
+00:02:42,000 --> 00:02:47,000
+ or where you could think of deploying OPRFs yourself.
+
+23
+00:02:47,000 --> 00:02:52,000
+ Okay. First of all, just a little to whet your appetite, what you can do with OPRFs.
+
+24
+00:02:52,000 --> 00:02:58,000
+ OPRFs are essentially a building block for privacy. It's not so much about encryption or decryption or signing stuff.
+
+25
+00:02:58,000 --> 00:03:00,000
+ Of course, you can do those things as well.
+
+26
+00:03:00,000 --> 00:03:08,000
+ But here, oblivious keyword search is when you have a database which knows all the details in the database,
+
+27
+00:03:08,000 --> 00:03:11,000
+ but you don't want to disclose the queries to the database.
+
+28
+00:03:11,000 --> 00:03:15,000
+ So, you have a client, and you don't want the database to know what you are looking for.
+
+29
+00:03:15,000 --> 00:03:21,000
+ And so, keyword search is like a key value store where you go with a key and you get some value back
+
+30
+00:03:21,000 --> 00:03:27,000
+ if it's oblivious without the database actually learning what your query was, what the keyword was you were looking for.
+
+31
+00:03:27,000 --> 00:03:32,000
+ Private information retrieval is something similar, but here you don't go with a keyword or a key,
+
+32
+00:03:32,000 --> 00:03:36,000
+ but you know the index of the record in the database that you're querying, really.
+
+33
+00:03:36,000 --> 00:03:40,000
+ Secure pattern matching is when a server has like a string or something,
+
+34
+00:03:40,000 --> 00:03:43,000
+ and you're looking for a substring and the position of the substring,
+
+35
+00:03:43,000 --> 00:03:50,000
+ and you don't want the server to know what you're actually looking for while you actually learn the answer to your query.
+
+36
+00:03:50,000 --> 00:03:56,000
+ Private set intersection is also a very exciting topic that I'm going to come later in the practical example,
+
+37
+00:03:56,000 --> 00:03:58,000
+ so we're going to skip that.
+
+38
+00:03:58,000 --> 00:04:05,000
+ Also, password key exchange and cloud management and password storage are topics I'm going to come back later to.
+
+39
+00:04:05,000 --> 00:04:12,000
+ And the last four points I'm leaving up as an exercise for you to follow up, either reading the papers or something.
+
+40
+00:04:12,000 --> 00:04:16,000
+ These are also quite exciting topics that you can, for example,
+
+41
+00:04:16,000 --> 00:04:21,000
+ this is of course a non-exhaustive list of awesomeness that you can build from OPRFs.
+
+42
+00:04:21,000 --> 00:04:27,000
+ So first, let's have a look what a PRF is before we go into what an oblivious PRF is.
+
+43
+00:04:27,000 --> 00:04:35,000
+ So a pseudo-random function is basically a keyed function with a second input that generates some output
+
+44
+00:04:35,000 --> 00:04:39,000
+ that is non-distinguishable from random output.
+
+45
+00:04:39,000 --> 00:04:46,000
+ So if you want to imagine this, it's really like a hash with a key and a message,
+
+46
+00:04:46,000 --> 00:04:53,000
+ and the output is some hash value that is indistinguishable from random output.
+
+47
+00:04:53,000 --> 00:05:01,000
+ So it's like keyed hashing or calculating a Mac.
+
+48
+00:05:01,000 --> 00:05:04,000
+ Something happened with my slides.
+
+49
+00:05:04,000 --> 00:05:10,000
+ So it's like a keyed message authentication code, for example, or something like that.
+
+50
+00:05:10,000 --> 00:05:13,000
+ That's a pseudo-random function. Very simplified.
+
+51
+00:05:13,000 --> 00:05:17,000
+ There will be people who do crypto who will be screaming right now.
+
+52
+00:05:17,000 --> 00:05:21,000
+ But I think for this audience this might be enough.
+
+53
+00:05:21,000 --> 00:05:30,000
+ Okay, so this is a pseudo-random function.
+
+54
+00:05:30,000 --> 00:05:32,000
+ And if you do the same, so basically you have two inputs.
+
+55
+00:05:32,000 --> 00:05:37,000
+ You have a key and a message, and you have some output that is some random value, really.
+
+56
+00:05:37,000 --> 00:05:40,000
+ And if you do this in an oblivious setting, then you have two parties.
+
+57
+00:05:40,000 --> 00:05:44,000
+ You have a party that holds the key and another party that holds the message,
+
+58
+00:05:44,000 --> 00:05:53,000
+ and you compute a PRF together, but only the party who holds the message learns actually the output of the computation.
+
+59
+00:05:53,000 --> 00:05:59,000
+ So in this example here you don't see anything of my cursor.
+
+60
+00:05:59,000 --> 00:06:00,000
+ You see the cursor.
+
+61
+00:06:00,000 --> 00:06:03,000
+ Okay, so Alice has a message and Bob has the key,
+
+62
+00:06:03,000 --> 00:06:11,000
+ and they contribute the key and the message to this function, the OPRF function, and only Alice...
+
+63
+00:06:11,000 --> 00:06:19,000
+ So only Alice learns the output of this OPRF.
+
+64
+00:06:19,000 --> 00:06:27,000
+ This is like an interactive keyed hash, really, or a multi-party computation, if you want to consider it like that.
+
+65
+00:06:27,000 --> 00:06:31,000
+ So there's a bunch of techniques how you can create an OPRF.
+
+66
+00:06:31,000 --> 00:06:43,000
+ Basically, you have a PRF, and with some kind of conversion you can create an oblivious version of a PRF.
+
+67
+00:06:43,000 --> 00:06:47,000
+ The first that was possible to do so was in 2004, the Nowher Rangold,
+
+68
+00:06:47,000 --> 00:06:56,000
+ and there you apply oblivious transfer or homomorphic encryption, and then you have an OPRF.
+
+69
+00:06:56,000 --> 00:06:59,000
+ Then you have these others, but I'm not going to spend much time.
+
+70
+00:06:59,000 --> 00:07:04,000
+ This is something that you should either look in my director's cart.
+
+71
+00:07:04,000 --> 00:07:11,000
+ Shit. Ah, it's back.
+
+72
+00:07:11,000 --> 00:07:16,000
+ So these three constructions, I'm not going to go into much detail later.
+
+73
+00:07:16,000 --> 00:07:24,000
+ I'm going to refer to some of them, but the most exciting and most important one is the hash DH or two hash DH construction.
+
+74
+00:07:24,000 --> 00:07:31,000
+ It basically just calculates this very simple formula.
+
+75
+00:07:31,000 --> 00:07:36,000
+ If you see the one, I don't know how much you see the red part that is like the inner one,
+
+76
+00:07:36,000 --> 00:07:42,000
+ you have a special hash function that hashes your message to a point on a group.
+
+77
+00:07:42,000 --> 00:07:47,000
+ Most of the time, we are always working here with elliptic curves,
+
+78
+00:07:47,000 --> 00:07:56,000
+ so whatever you hash the message is going to be, after the hash, a point on an elliptic curve, on a specific elliptic curve.
+
+79
+00:07:56,000 --> 00:07:59,000
+ So this is not a normal hash. This is something we call hash to curve,
+
+80
+00:07:59,000 --> 00:08:06,000
+ and this just came out with the IRTF CFRG specification just this last week.
+
+81
+00:08:06,000 --> 00:08:13,000
+ So after 21 years of trying to define one that applies to all elliptic curves,
+
+82
+00:08:13,000 --> 00:08:17,000
+ also the NIST curves, not only the 25.519 derivates.
+
+83
+00:08:17,000 --> 00:08:25,000
+ So this is a very simple thing. You hash to a curve, and then you just raise to the secret key.
+
+84
+00:08:25,000 --> 00:08:29,000
+ And then there's a second variant of this. This is the two hash DH,
+
+85
+00:08:29,000 --> 00:08:34,000
+ where we hash the message again with the result of the hash DH construct.
+
+86
+00:08:34,000 --> 00:08:42,000
+ This is also very nice because the second hash destroys this algebraic structure that the hash DH has,
+
+87
+00:08:42,000 --> 00:08:45,000
+ which allows us to do some nifty stuff.
+
+88
+00:08:45,000 --> 00:08:56,000
+ But with the second hash, we actually get to a construct that can be proven in the universal composability framework,
+
+89
+00:08:56,000 --> 00:09:01,000
+ which is a very strong way to actually argue about protocols and constructs.
+
+90
+00:09:01,000 --> 00:09:03,000
+ Yes, there's a question.
+
+91
+00:09:03,000 --> 00:09:06,000
+ So, H prime and H are both elliptic curves?
+
+92
+00:09:06,000 --> 00:09:14,000
+ No, only H is a hash to curve. The second is just a normal hash and can be really any hash if you want.
+
+93
+00:09:14,000 --> 00:09:18,000
+ Very good question. The question was if those both are for elliptic curves,
+
+94
+00:09:18,000 --> 00:09:22,000
+ not just the inner one is for the elliptic curve or hash to the group, really.
+
+95
+00:09:22,000 --> 00:09:34,000
+ One thing. So the outer hash can also be memory-hard or cache-hard or any other hash function like argon2, for example.
+
+96
+00:09:34,000 --> 00:09:36,000
+ There's a follow-up question.
+
+97
+00:09:36,000 --> 00:09:39,000
+ So how do you convert the elliptic curve back to something you can have?
+
+98
+00:09:39,000 --> 00:09:51,000
+ Well, the elliptic curve in their serialized format, we usually use RESTRETO 255,
+
+99
+00:09:51,000 --> 00:09:57,000
+ and that is 32 bytes, really, and that's just 32 bytes. That's it.
+
+100
+00:09:57,000 --> 00:10:01,000
+ That's the most common way of actually doing that.
+
+101
+00:10:01,000 --> 00:10:04,000
+ Okay, so how do you instantiate this?
+
+102
+00:10:04,000 --> 00:10:14,000
+ So the client has the message and generates a random scalar R, and that is what we call the blinding factor.
+
+103
+00:10:14,000 --> 00:10:22,000
+ It just hashes to the curve of their message and then blinds this point by raising it to this blinding factor R.
+
+104
+00:10:22,000 --> 00:10:26,000
+ This we call alpha. Alpha is being sent over to the server.
+
+105
+00:10:26,000 --> 00:10:31,000
+ The server just raises this alpha value to K and then sends this beta value back.
+
+106
+00:10:31,000 --> 00:10:36,000
+ And then in the end, this is the -- I don't know how many of you people see this,
+
+107
+00:10:36,000 --> 00:10:46,000
+ but this beta value is then risen to 1 under R, and then the R eliminates the blinding, the raising to R here,
+
+108
+00:10:46,000 --> 00:10:50,000
+ and then raising to 1 under R here eliminates the whole blinding factor,
+
+109
+00:10:50,000 --> 00:11:01,000
+ and what you are left with in the end is actually exactly what hash DH was supposed to do.
+
+110
+00:11:01,000 --> 00:11:07,000
+ It's a very simple thing if you look at this, I think. The brilliance is also in the simplicity.
+
+111
+00:11:07,000 --> 00:11:12,000
+ Okay, so this is the base from which we are going to start,
+
+112
+00:11:12,000 --> 00:11:18,000
+ and we are going to look at a bunch of really exciting properties that you can build on top of this
+
+113
+00:11:18,000 --> 00:11:21,000
+ or that are actually inherent in this construction already.
+
+114
+00:11:21,000 --> 00:11:26,000
+ So the first thing that you can build from an OPRF is something we call a verifiable OPRF,
+
+115
+00:11:26,000 --> 00:11:34,000
+ and which is useful if you have some kind of iterated OPRF calculation,
+
+116
+00:11:34,000 --> 00:11:39,000
+ and you want to make sure that the server always uses the same K key correctly,
+
+117
+00:11:39,000 --> 00:11:46,000
+ and for that the server publishes a zero-knowledge proof that they actually used key correctly.
+
+118
+00:11:46,000 --> 00:11:58,000
+ This can be done for any OPRF really, but there are some OPRF constructions that lend themselves to more efficient proofs.
+
+119
+00:11:58,000 --> 00:12:05,000
+ So why is this useful? For example, imagine you want to have an OPRF calculation
+
+120
+00:12:05,000 --> 00:12:10,000
+ in which you provide privacy for yourself and the server cannot identify you later on.
+
+121
+00:12:10,000 --> 00:12:17,000
+ So imagine the case when the server is actually malicious and knows that you are you,
+
+122
+00:12:17,000 --> 00:12:22,000
+ but doesn't know who you will be in the future if it operates with this protocol correctly.
+
+123
+00:12:22,000 --> 00:12:26,000
+ So now that it knows that you are you and it wants to re-identify you,
+
+124
+00:12:26,000 --> 00:12:33,000
+ instead of using K that it's using for everyone else, it uses a specific K value only for you.
+
+125
+00:12:33,000 --> 00:12:38,000
+ And the next time you come and use this calculated OPRF value to the server,
+
+126
+00:12:38,000 --> 00:12:42,000
+ the server will see, "Oh, I'm not using the K value that I use for everyone,
+
+127
+00:12:42,000 --> 00:12:45,000
+ but I use this K value that I only use for you."
+
+128
+00:12:45,000 --> 00:12:49,000
+ And so this is how the server can later on anonymize you.
+
+129
+00:12:49,000 --> 00:12:56,000
+ And so for defending against this, you want to have a zero-knowledge proof that K has been used
+
+130
+00:12:56,000 --> 00:13:00,000
+ and verify OPRFs actually provide that.
+
+131
+00:13:00,000 --> 00:13:07,000
+ Okay, the next one as a property, as a partially oblivious pseudo-random function,
+
+132
+00:13:07,000 --> 00:13:10,000
+ this is exactly the same as the one that I showed you earlier.
+
+133
+00:13:10,000 --> 00:13:14,000
+ There's just one extra value. This is this tag T.
+
+134
+00:13:14,000 --> 00:13:20,000
+ This is a public value that also needs to go into the calculation of the OPRF.
+
+135
+00:13:20,000 --> 00:13:23,000
+ This might be known by the client and the server.
+
+136
+00:13:23,000 --> 00:13:26,000
+ This might be public. It might be sent over in any of that direction.
+
+137
+00:13:26,000 --> 00:13:29,000
+ But the thing is, this is a public value that is known by the server.
+
+138
+00:13:29,000 --> 00:13:32,000
+ This is not a secret value.
+
+139
+00:13:32,000 --> 00:13:37,000
+ And here you can see this is a very generic construction.
+
+140
+00:13:37,000 --> 00:13:45,000
+ This public value tag T is actually sent by the client to the server together with alpha.
+
+141
+00:13:45,000 --> 00:13:51,000
+ And then the server in this generic construction actually calculates a PRF.
+
+142
+00:13:51,000 --> 00:13:57,000
+ So this is the non-oblivious version. It's just a keyed hash, really.
+
+143
+00:13:57,000 --> 00:14:03,000
+ And it takes the input, the tag as the input for this PRF,
+
+144
+00:14:03,000 --> 00:14:09,000
+ and that generates a new key that is depending only on the tag and the key it has.
+
+145
+00:14:09,000 --> 00:14:12,000
+ And then that is being used instead of the key.
+
+146
+00:14:12,000 --> 00:14:15,000
+ So why is this useful? This might be useful, for example,
+
+147
+00:14:15,000 --> 00:14:21,000
+ if you have a username and the server wants to have a distinct key for each user.
+
+148
+00:14:21,000 --> 00:14:24,000
+ So in this case, the username would be the tag T.
+
+149
+00:14:24,000 --> 00:14:31,000
+ And this also helps the server, for example, to identify brute force attacks or to enable rate limiting.
+
+150
+00:14:31,000 --> 00:14:38,000
+ So if the server sees that user Bob has thousands of OPF evaluations per second,
+
+151
+00:14:38,000 --> 00:14:42,000
+ then it might say, hey, slow down mate.
+
+152
+00:14:42,000 --> 00:14:47,000
+ And so that allows rate limiting or any other security measure.
+
+153
+00:14:47,000 --> 00:14:49,000
+ Yes, there's another question.
+
+154
+00:14:49,000 --> 00:14:58,000
+ [inaudible]
+
+155
+00:14:58,000 --> 00:15:02,000
+ So the question was what R is.
+
+156
+00:15:02,000 --> 00:15:06,000
+ Yes, I am a bit sloppy in writing this down.
+
+157
+00:15:06,000 --> 00:15:14,000
+ It is a scalar on the field of... yes.
+
+158
+00:15:14,000 --> 00:15:18,000
+ So, okay, so that's the blinding factor. Yes, indeed.
+
+159
+00:15:18,000 --> 00:15:21,000
+ Okay, so that is a partially oblivious.
+
+160
+00:15:21,000 --> 00:15:25,000
+ You can combine these two with the verifiable and the partially oblivious one.
+
+161
+00:15:25,000 --> 00:15:29,000
+ But with hash DH, this is, especially in this way of its construction,
+
+162
+00:15:29,000 --> 00:15:33,000
+ is very difficult and not very efficient.
+
+163
+00:15:33,000 --> 00:15:39,000
+ Because for every key you need to publish a public key for the zero-knowledge proof.
+
+164
+00:15:39,000 --> 00:15:46,000
+ This other construction, this Dodis Jampols key, is actually one where this is efficiently possible.
+
+165
+00:15:46,000 --> 00:15:49,000
+ [inaudible]
+
+166
+00:15:49,000 --> 00:15:56,000
+ This construction is not very nice to combine to create a verifiable OPRF.
+
+167
+00:15:56,000 --> 00:16:05,000
+ Yes, yes. So there is more efficient constructions if you want to have a verifiable and partial OPRF.
+
+168
+00:16:05,000 --> 00:16:10,000
+ Okay, then you can have also the case when you want to do batching,
+
+169
+00:16:10,000 --> 00:16:18,000
+ which means you want to calculate an OPRF over multiple keys, like with the same message but with multiple keys.
+
+170
+00:16:18,000 --> 00:16:25,000
+ Or the other way around when you have multiple messages and you want to calculate them with the same key.
+
+171
+00:16:25,000 --> 00:16:30,000
+ And of course, if they can do batching, then that really means that this is more efficient
+
+172
+00:16:30,000 --> 00:16:33,000
+ than if you would do individual OPRF calculations.
+
+173
+00:16:33,000 --> 00:16:43,000
+ So this batching really is a performance property that is actually possible to achieve in some constructions.
+
+174
+00:16:43,000 --> 00:16:48,000
+ Okay, then a really nifty one is an updatable OPRF.
+
+175
+00:16:48,000 --> 00:16:54,000
+ In this case, you already have the results. So Alice has the result of a previous calculation of an OPRF.
+
+176
+00:16:54,000 --> 00:17:00,000
+ And then Bob says, "Shit, my key needs updating because it got compromised
+
+177
+00:17:00,000 --> 00:17:06,000
+ or because I'm just ratcheting my key, I need to regularly update my key."
+
+178
+00:17:06,000 --> 00:17:12,000
+ And so Alice doesn't want to recalculate a full OPRF with Bob with the new key.
+
+179
+00:17:12,000 --> 00:17:17,000
+ So with an updatable OPRF, Bob can send an update token
+
+180
+00:17:17,000 --> 00:17:26,000
+ so that Alice can update the previous calculation of the OPRF to be valid with the new key of Bob.
+
+181
+00:17:26,000 --> 00:17:34,000
+ And this is really simple, actually. So when Bob generates a new key, which is just a random number k',
+
+182
+00:17:34,000 --> 00:17:42,000
+ and then the update token, which we call delta, is simply just k' divided by k.
+
+183
+00:17:42,000 --> 00:17:49,000
+ And this update token doesn't disclose anything about neither the previous or the new key.
+
+184
+00:17:49,000 --> 00:17:56,000
+ And this delta is then sent to Alice, and she can apply this delta value to the previous result
+
+185
+00:17:56,000 --> 00:18:03,000
+ by just raising the previous result to delta, and the result will be as if she calculated the OPRF with k'.
+
+186
+00:18:03,000 --> 00:18:08,000
+ And I think this is a very elegant way. And this is also a way where you can actually...
+
+187
+00:18:08,000 --> 00:18:16,000
+ the update of the previous value can be done in a completely untrusted environment,
+
+188
+00:18:16,000 --> 00:18:21,000
+ which we will be in the practical part, we'll be seeing an example of.
+
+189
+00:18:21,000 --> 00:18:25,000
+ Then you have distributed OPRFs, where you don't have one key, but you have a bunch of keys,
+
+190
+00:18:25,000 --> 00:18:29,000
+ and all of them have to contribute to the calculation of the OPRF.
+
+191
+00:18:29,000 --> 00:18:36,000
+ This is really nice because an attacker, in this case, has to actually compromise all the key holders
+
+192
+00:18:36,000 --> 00:18:41,000
+ to actually have any security impact on this thing. So all of them need to be...
+
+193
+00:18:41,000 --> 00:18:46,000
+ And it's very simple because you just calculate OPRFs with each of the key holders, and then you just
+
+194
+00:18:46,000 --> 00:18:49,000
+ sort the values together, and that's the output of your OPRF.
+
+195
+00:18:49,000 --> 00:18:57,000
+ This is a distributed OPRF. It's very simple, can be easily instantiated from just any other OPRF.
+
+196
+00:18:57,000 --> 00:19:05,000
+ And then the most sexiest of all of them is a threshold OPRF, where you have the value key
+
+197
+00:19:05,000 --> 00:19:15,000
+ is shared among a bunch of shareholders, and you need T shareholders to actually operate on this key.
+
+198
+00:19:15,000 --> 00:19:19,000
+ And T is, of course, less than the total value of all shares that are existing.
+
+199
+00:19:19,000 --> 00:19:27,000
+ This is something like, show me a secret sharing, if you know that, where the key is distributed among the people.
+
+200
+00:19:27,000 --> 00:19:32,000
+ And indeed, you never reconstruct a key at all, but you do the operation.
+
+201
+00:19:32,000 --> 00:19:41,000
+ Each party operates on their share, and in the end, the client is doing the recombination
+
+202
+00:19:41,000 --> 00:19:49,000
+ in a way that the value key is actually never recalculated, never manifests itself in RAM
+
+203
+00:19:49,000 --> 00:19:54,000
+ or on disk or anywhere on the network at all. And this is a really nifty thing.
+
+204
+00:19:54,000 --> 00:20:01,000
+ And the only thing, if you combine it with a distributed key generation, then this is especially true.
+
+205
+00:20:01,000 --> 00:20:03,000
+ And it's really, really awesome.
+
+206
+00:20:03,000 --> 00:20:09,000
+ The only thing that you need to do for actually making this happen is this Lagrange interpolation in the exponent,
+
+207
+00:20:09,000 --> 00:20:12,000
+ which is something that took me quite some time to understand.
+
+208
+00:20:12,000 --> 00:20:19,000
+ But basically, you need to understand how Lagrange interpolation works, and then for that you need the Lagrange coefficient.
+
+209
+00:20:19,000 --> 00:20:35,000
+ And it's in mathematics that looks like this horrible form, but it boils down that you need to know the indexes of the shares.
+
+210
+00:20:35,000 --> 00:20:42,000
+ When you split your key into shares, then each share has an index, like this is the first share, second share, and so on.
+
+211
+00:20:42,000 --> 00:20:48,000
+ And you need to know the indexes of the shares that are used in this calculation.
+
+212
+00:20:48,000 --> 00:20:56,000
+ And so this ES variable is just a set of the indexes that are contributing to this calculation.
+
+213
+00:20:56,000 --> 00:21:02,000
+ And then you can calculate the Lagrange coefficient for each of the participants.
+
+214
+00:21:02,000 --> 00:21:07,000
+ And this is the Python code that implements the horrible formula above there.
+
+215
+00:21:07,000 --> 00:21:15,000
+ And on the right side you see this is a real world example of actually the numbers that you are working with,
+
+216
+00:21:15,000 --> 00:21:20,000
+ because the indexes of the shares are 0, 1, 2, 3.
+
+217
+00:21:20,000 --> 00:21:27,000
+ Maybe if you have a setup with five shares in total, then the highest number you have in this formula is 5,
+
+218
+00:21:27,000 --> 00:21:30,000
+ and the result are something like 3, 1, and -3.
+
+219
+00:21:30,000 --> 00:21:35,000
+ So this is not even high school math, but the formula looks really, really scary.
+
+220
+00:21:35,000 --> 00:21:39,000
+ But in the end, these are all public values. This is not even secrets or anything.
+
+221
+00:21:39,000 --> 00:21:46,000
+ You just need to know the indexes of the shares that are contributing so that you can calculate the Lagrange coefficients.
+
+222
+00:21:46,000 --> 00:21:47,000
+ Yes, sir?
+
+223
+00:21:47,000 --> 00:21:52,000
+ No, there's no trusted... The question was if the shares are trusted.
+
+224
+00:21:52,000 --> 00:21:57,000
+ No, the shares are like the shares that the value key is split into.
+
+225
+00:21:57,000 --> 00:22:05,000
+ The question is if there's a trusted person who splits this.
+
+226
+00:22:05,000 --> 00:22:09,000
+ You can do that, but if you use a distributed key generation, then there's no trusted leader.
+
+227
+00:22:09,000 --> 00:22:17,000
+ So there's no trusted... This is completely every node is...
+
+228
+00:22:17,000 --> 00:22:23,000
+ If you use it with a distributed key generation, there's no trusted leader. Every node is equal.
+
+229
+00:22:23,000 --> 00:22:29,000
+ This is how it looks if you do this. There's two ways.
+
+230
+00:22:29,000 --> 00:22:37,000
+ If you know in advance which shares are contributing, then Alice can actually... She knows ES.
+
+231
+00:22:37,000 --> 00:22:42,000
+ This is the set of the indexes. She knows that, and she can send that along.
+
+232
+00:22:42,000 --> 00:22:46,000
+ So as you can see, this is still the same thing as with the hash DH.
+
+233
+00:22:46,000 --> 00:22:55,000
+ And Alice sends over this ES set of indexes that we know in advance that are going to contribute.
+
+234
+00:22:55,000 --> 00:23:00,000
+ And all the server does is actually does two exponentiations here.
+
+235
+00:23:00,000 --> 00:23:05,000
+ First to their own key share and then to their own Lagrange coefficient,
+
+236
+00:23:05,000 --> 00:23:10,000
+ which the server can calculate using this formula or this Python code.
+
+237
+00:23:10,000 --> 00:23:20,000
+ And then that sends it back, and then all the client has to do is actually just multiply all the results that are coming back together
+
+238
+00:23:20,000 --> 00:23:28,000
+ and then unblind the whole thing, and then the client has exactly the same result as if the client would have done this in a non-threshold setting,
+
+239
+00:23:28,000 --> 00:23:32,000
+ where the value k is not split among all those people but is in one.
+
+240
+00:23:32,000 --> 00:23:34,000
+ Then it's exactly the same result.
+
+241
+00:23:34,000 --> 00:23:40,000
+ But most of the time, you don't know this in advance which servers are going to answer because some is DOS,
+
+242
+00:23:40,000 --> 00:23:45,000
+ some is in a safe because for offline backup purposes, or some is slow.
+
+243
+00:23:45,000 --> 00:23:50,000
+ So you just send your request to all of them, and then in the end you do the Lagrange interpolation.
+
+244
+00:23:50,000 --> 00:23:56,000
+ So in this case, actually the first two steps are completely the same as in a non-threshold setting.
+
+245
+00:23:56,000 --> 00:23:59,000
+ So the client is doing the same as in a non-threshold setting.
+
+246
+00:23:59,000 --> 00:24:02,000
+ The server doesn't even have to know this is a threshold setting.
+
+247
+00:24:02,000 --> 00:24:13,000
+ And then the only thing that is different is the client has to do this Lagrange interpolation in the exponent down here
+
+248
+00:24:13,000 --> 00:24:16,000
+ before the multiplication of all the results.
+
+249
+00:24:16,000 --> 00:24:18,000
+ And this is a bit more inefficient.
+
+250
+00:24:18,000 --> 00:24:21,000
+ This means that the client has to do a lot of computation.
+
+251
+00:24:21,000 --> 00:24:24,000
+ Whereas in the case when it knows in advance what is going to happen,
+
+252
+00:24:24,000 --> 00:24:29,000
+ then all the servers can do a lot of extra computation that the client doesn't have to do.
+
+253
+00:24:29,000 --> 00:24:34,000
+ So these are the two kinds of implementations or instantiations of how to do this.
+
+254
+00:24:34,000 --> 00:24:36,000
+ Okay, there are some other properties.
+
+255
+00:24:36,000 --> 00:24:39,000
+ I don't think I'm going to waste time on this.
+
+256
+00:24:39,000 --> 00:24:44,000
+ The only thing I'm going to mention is the three-party one, which is exciting.
+
+257
+00:24:44,000 --> 00:24:51,000
+ It's an OPRF where you have a message as an input, you have a key as an input, and the output is learned by a third party.
+
+258
+00:24:51,000 --> 00:24:54,000
+ So this is nice for pseudonymization or something.
+
+259
+00:24:54,000 --> 00:24:57,000
+ For example, you have a database, you want to anonymize it.
+
+260
+00:24:57,000 --> 00:25:02,000
+ So one has the database, one has the key that is doing the anonymization, and the third party learns the output.
+
+261
+00:25:02,000 --> 00:25:05,000
+ So this is a really nice compartmentalization.
+
+262
+00:25:05,000 --> 00:25:08,000
+ The rest is also exciting, but we're running out of time.
+
+263
+00:25:08,000 --> 00:25:11,000
+ Post-quantum OPRFs.
+
+264
+00:25:11,000 --> 00:25:16,000
+ It's not a success story, sadly.
+
+265
+00:25:16,000 --> 00:25:23,000
+ One thing that is really nice is that with hash DH and two hash DH-based OPRFs,
+
+266
+00:25:23,000 --> 00:25:28,000
+ the message is actually unconditionally secure.
+
+267
+00:25:28,000 --> 00:25:30,000
+ This is like with one-time pads.
+
+268
+00:25:30,000 --> 00:25:36,000
+ The one-time pad is also unbreakable as long as you don't use the same pad twice or more times.
+
+269
+00:25:36,000 --> 00:25:44,000
+ So an attacker can have unlimited computing power or unlimited post-quantum computers,
+
+270
+00:25:44,000 --> 00:25:52,000
+ and they will not be able to learn anything about the message that is the input to the OPRF function, which is super cool.
+
+271
+00:25:52,000 --> 00:26:00,000
+ The problem is that the value key, however, is computationally, so it's not post-quantum, and that sucks.
+
+272
+00:26:00,000 --> 00:26:04,000
+ So there are attempts at making all kinds of post-quantum OPRFs.
+
+273
+00:26:04,000 --> 00:26:09,000
+ Some of them that I listed here, I think one of them is already broken.
+
+274
+00:26:09,000 --> 00:26:12,000
+ Most of them are not very efficient.
+
+275
+00:26:12,000 --> 00:26:21,000
+ There's one that does actually a verifiable and partial OPRF, which I showed earlier, which is not so easy to do with two hash DH.
+
+276
+00:26:21,000 --> 00:26:30,000
+ But they are all not very efficient still, like all post-quantum things have huge keys and lots of computation.
+
+277
+00:26:30,000 --> 00:26:36,000
+ There is, however, a way if you don't need any of the special properties that I showed you before,
+
+278
+00:26:36,000 --> 00:26:47,000
+ you can just construct a post-quantum OPRF by combining oblivious transfer or multiparty computation with IES as the primitive that you do as a multiparty computation,
+
+279
+00:26:47,000 --> 00:26:50,000
+ and the result will be post-quantum.
+
+280
+00:26:50,000 --> 00:26:59,000
+ And if you use it with an oblivious transfer conversion, then this is actually going to be very, very efficient even.
+
+281
+00:26:59,000 --> 00:27:01,000
+ But it has no special properties.
+
+282
+00:27:01,000 --> 00:27:04,000
+ But it's post-quantum in all ways.
+
+283
+00:27:04,000 --> 00:27:07,000
+ Okay, so which to use of all of these?
+
+284
+00:27:07,000 --> 00:27:18,000
+ I didn't show you earlier, this Dodes-Jampolsky construction is the one that you want to use if you want to do partial, oblivious, and verifiable OPRFs.
+
+285
+00:27:18,000 --> 00:27:23,000
+ If you want to do something really, really quick, then just combine oblivious transfer with IES.
+
+286
+00:27:23,000 --> 00:27:38,000
+ And for everything else, you should be really using 2-HASH-DH unless you need updateability because an updatable OPRF needs the algebraic structure that is being destroyed by the auto-HASH.
+
+287
+00:27:38,000 --> 00:27:43,000
+ So that's my first part of the talk.
+
+288
+00:27:43,000 --> 00:27:46,000
+ And now let's see some practical examples.
+
+289
+00:27:46,000 --> 00:27:50,000
+ So the first one is a private set intersection.
+
+290
+00:27:50,000 --> 00:27:58,000
+ This is basically when two parties have two sets of values and one of them wants to learn which are the shared values in the two sets.
+
+291
+00:27:58,000 --> 00:28:09,000
+ And here what you can do is that one of the parties takes all of their values and calculates an OPRF over each of those values,
+
+292
+00:28:09,000 --> 00:28:23,000
+ kind of like encrypting in a non-decryptable way all of those values, and then creates a new set that is anonymized, or pseudonymized, or obfuscated, or whatever.
+
+293
+00:28:23,000 --> 00:28:33,000
+ And then this is a new set that you cannot really recalculate what was the preimage to that, and that is being sent over to the other party.
+
+294
+00:28:33,000 --> 00:28:40,000
+ And then the other party just calculates an OPRF for each of their values with the same key that has been used by the first party.
+
+295
+00:28:40,000 --> 00:28:51,000
+ And then if the OPRF output is exactly the same as one of the values in the set that the first party sent, then the party knows that this is a shared value.
+
+296
+00:28:51,000 --> 00:28:54,000
+ And so where is this useful?
+
+297
+00:28:54,000 --> 00:28:59,000
+ You can use it for contact discovery in messengers.
+
+298
+00:28:59,000 --> 00:29:07,000
+ So Vicker, for example, is using this for privacy-respecting contact discovery, which is, I think, super cool.
+
+299
+00:29:07,000 --> 00:29:14,000
+ And the other thing where you can use this is, for example, services like HaveIBeenPwned, which don't use this kind of stuff,
+
+300
+00:29:14,000 --> 00:29:24,000
+ but Google has a service which can tell you if your account has been leaked in some user database leak.
+
+301
+00:29:24,000 --> 00:29:39,000
+ And Cloudflare also has a protocol MIGP that uses private set intersection OPRFs to have a big database that you can query if you are in there or not.
+
+302
+00:29:39,000 --> 00:29:41,000
+ So this is private set intersection.
+
+303
+00:29:41,000 --> 00:29:46,000
+ Then there's another thing that is one of my projects. It's called Sphinx. It's a password storage.
+
+304
+00:29:46,000 --> 00:29:50,000
+ It's really just all that it's doing. It's an OPRF.
+
+305
+00:29:50,000 --> 00:29:56,000
+ So you have a server which might be a threshold settings OPRF, so multiple servers which hold a value k.
+
+306
+00:29:56,000 --> 00:30:05,000
+ And then you just input your password, and what comes out of it is 32 bytes, which with simple conversion, you convert into ASCII printable passwords,
+
+307
+00:30:05,000 --> 00:30:10,000
+ and then that's what you're using as a password.
+
+308
+00:30:10,000 --> 00:30:14,000
+ Yes?
+
+309
+00:30:14,000 --> 00:30:19,000
+ OPEC is going to come in later, but the question is how is this different from OPEC?
+
+310
+00:30:19,000 --> 00:30:24,000
+ OPEC is this love child between an OPRF and an authenticated key exchange.
+
+311
+00:30:24,000 --> 00:30:29,000
+ There is no authenticated key exchange. This is just a naked OPRF.
+
+312
+00:30:29,000 --> 00:30:33,000
+ And you can even force some certain output values.
+
+313
+00:30:33,000 --> 00:30:43,000
+ We have, if you have a pad that you sort the output of the OPRF with to the value that will generate the output in ASCII that you want to have.
+
+314
+00:30:43,000 --> 00:30:53,000
+ So the only limitation with this password store is that the only thing it can store really is about 45 character long ASCII strings.
+
+315
+00:30:53,000 --> 00:31:03,000
+ Or if you only use the number of digits, then it can be like 110 or so long strings of only digits, decimal digits.
+
+316
+00:31:03,000 --> 00:31:12,000
+ So this is not what you expect like these encrypted databases that everyone uses like Bitwarden or KeePass.
+
+317
+00:31:12,000 --> 00:31:18,000
+ It has a bunch of really nice security properties that these legacy password managers don't have.
+
+318
+00:31:18,000 --> 00:31:28,000
+ First of all, the password that, as I said, with OPRF, the input password and the output password is unconditionally secure.
+
+319
+00:31:28,000 --> 00:31:30,000
+ This is like a one-time pad.
+
+320
+00:31:30,000 --> 00:31:38,000
+ Then, because this is an online construct, you always have the whole thing forces you to only have online brute force ability.
+
+321
+00:31:38,000 --> 00:31:49,000
+ So with a GPU, if there's a leak of your database or password database, a GPU or FPGA will not be able to password crack your passwords
+
+322
+00:31:49,000 --> 00:31:55,000
+ because every test means they have to go to a server to ask for a computation and then come back.
+
+323
+00:31:55,000 --> 00:31:58,000
+ And that really slows it down.
+
+324
+00:31:58,000 --> 00:32:01,000
+ And then you can also say, hey, after 10 tries, enough.
+
+325
+00:32:01,000 --> 00:32:08,000
+ So there is no offline brute force ability of passwords in Sphinx, which is a really cool thing that you want to have.
+
+326
+00:32:08,000 --> 00:32:13,000
+ It's unconditionally secure, offline secure, offline brute force secure.
+
+327
+00:32:13,000 --> 00:32:19,000
+ And since there's no encryption, like with legacy password stores, you can actually have multiple input passwords
+
+328
+00:32:19,000 --> 00:32:25,000
+ for like the one that you regularly use for all the websites you don't care about and some that you care more about.
+
+329
+00:32:25,000 --> 00:32:27,000
+ So you can have multiple input passwords.
+
+330
+00:32:27,000 --> 00:32:36,000
+ And if the servers that you're authenticating to supports it, you can even have something like distress and panic passwords
+
+331
+00:32:36,000 --> 00:32:38,000
+ and your regular passwords.
+
+332
+00:32:38,000 --> 00:32:45,000
+ Depending on what you input, the output will be either your regular password, your panic password, or your distress password,
+
+333
+00:32:45,000 --> 00:32:54,000
+ which just notify someone, hey, he's in here, there's no alarm, but you know, or like we are deleting everything now.
+
+334
+00:32:54,000 --> 00:32:58,000
+ And an attacker will not be able to distinguish between those three output passwords.
+
+335
+00:32:58,000 --> 00:33:00,000
+ So this is a really nifty thing that you can do.
+
+336
+00:33:00,000 --> 00:33:04,000
+ So there's some URLs that you can look at.
+
+337
+00:33:04,000 --> 00:33:14,000
+ It's in Debian and it's basically mostly just a command line thing because it's not my thing to do the rest.
+
+338
+00:33:14,000 --> 00:33:22,000
+ OK, now OPAQ is a widely deployed instantiation of OPR or protocol based on OPRFs.
+
+339
+00:33:22,000 --> 00:33:26,000
+ This is a love child of an OPRF, an authenticated key exchange.
+
+340
+00:33:26,000 --> 00:33:37,000
+ And most common usage use scenario, we use triple DIPV-HERMAN, which is the same authenticated key exchange that is also used in the signal protocol.
+
+341
+00:33:37,000 --> 00:33:46,000
+ And really what you can do with an authenticated key exchange or OPAQ itself is from the client perspective,
+
+342
+00:33:46,000 --> 00:33:49,000
+ on the client you don't have any state, you don't have anything stored.
+
+343
+00:33:49,000 --> 00:33:54,000
+ The only thing that you need for OPAQ as an input is your password.
+
+344
+00:33:54,000 --> 00:34:00,000
+ And then using that password and the OPAQ protocol, you can have three things.
+
+345
+00:34:00,000 --> 00:34:07,000
+ The first thing is you can mutually authenticate each other to each other, the server and the client.
+
+346
+00:34:07,000 --> 00:34:10,000
+ And actually the server is first authenticated.
+
+347
+00:34:10,000 --> 00:34:20,000
+ And so the user actually knows that the other party is the server and then afterwards the user can authenticate themselves to the server as well if it's necessary.
+
+348
+00:34:20,000 --> 00:34:21,000
+ It's not always necessary.
+
+349
+00:34:21,000 --> 00:34:34,000
+ You can have data protected at rest on the server so you can store files there on the server and you can get access to them with only your password from the client.
+
+350
+00:34:34,000 --> 00:34:44,000
+ Or since it's an authenticated key exchange, of course, you can also just use this whole thing to set up a protected communication channel between the client and the server.
+
+351
+00:34:44,000 --> 00:34:54,000
+ There is a draft in the IRTF, the International Research Task Force Cryptographic Forum Research Group or something.
+
+352
+00:34:54,000 --> 00:34:57,000
+ It's kind of stable-ish now.
+
+353
+00:34:57,000 --> 00:35:00,000
+ There's an implementation by this, by me.
+
+354
+00:35:00,000 --> 00:35:04,000
+ It's called LibOPAQ. It has bindings to all the languages that you can imagine.
+
+355
+00:35:04,000 --> 00:35:13,000
+ But there's also other implementations like Facebook has one that is OPAQ Care and that is actually being deployed for WhatsApp.
+
+356
+00:35:13,000 --> 00:35:24,000
+ They store backups using OPAQ where the client only needs their password and their username and then they can restore all their data on any device if they know their username and their password.
+
+357
+00:35:24,000 --> 00:35:25,000
+ And this is a really cool thing.
+
+358
+00:35:25,000 --> 00:35:33,000
+ And I also implemented something like that. It is called OPAQ Store and it really goes well with Sphinx because Sphinx is very limited in storing data.
+
+359
+00:35:33,000 --> 00:35:36,000
+ And it shouldn't actually. And with OPAQ Store, you can do that.
+
+360
+00:35:36,000 --> 00:35:42,000
+ And OPAQ Store is the first public implementation of a threshold OPAQ instantiation.
+
+361
+00:35:42,000 --> 00:35:53,000
+ So OPAQ itself can also, because it's an OPRF underneath, you can actually, instead of using just a normal OPRF, you can also instantiate this with a threshold OPRF, which I did.
+
+362
+00:35:53,000 --> 00:36:01,000
+ And so you can store your data in a way that the keys are distributed among a bunch of servers or shareholders or whatever.
+
+363
+00:36:01,000 --> 00:36:09,000
+ And then there's one more thing. There's also work in integrating OPAQ on TLS level.
+
+364
+00:36:09,000 --> 00:36:15,000
+ And I think that's actually very reasonable because then you can eliminate client authentication certs.
+
+365
+00:36:15,000 --> 00:36:24,000
+ You can authenticate yourself to the server and based on the password also set up a protected channel, which is the right thing to do.
+
+366
+00:36:24,000 --> 00:36:32,000
+ I implemented also OPAQ for Sassle, which is this authentication layer for EMAP, POP3, FTP and so on.
+
+367
+00:36:32,000 --> 00:36:38,000
+ But that is the wrong layer of actually integrating this. I think this is the TLS level where this should be done.
+
+368
+00:36:38,000 --> 00:36:42,000
+ So I'm very hopeful that one day we will have TLS OPAQ.
+
+369
+00:36:42,000 --> 00:36:48,000
+ Okay, next topic. Privacy pass is an instantiation that is also widely deployed. Some of you might know that.
+
+370
+00:36:48,000 --> 00:36:54,000
+ You might have seen it when you browse websites using the Tor browser.
+
+371
+00:36:54,000 --> 00:37:05,000
+ Then you get these captchas from CloudFair that they want to actually know that you are not a bot and then you have to solve the captcha.
+
+372
+00:37:05,000 --> 00:37:15,000
+ And people don't like that. And so CloudFair came up with this privacy pass protocol,
+
+373
+00:37:15,000 --> 00:37:25,000
+ which when you solve a captcha, you can get a bunch of tokens, privacy pass tokens,
+
+374
+00:37:25,000 --> 00:37:36,000
+ that you can show to CloudFair later on when CloudFair wants to solve your new captcha. And instead of solving a captcha, you just pass on one of these privacy pass tokens.
+
+375
+00:37:36,000 --> 00:37:48,000
+ And this is used by CloudFair. But since a year, this exact same protocol is also used by Apple for the Web Environment Integrity implementation,
+
+376
+00:37:48,000 --> 00:37:53,000
+ which is now a big hoo-ha for Google that wants to do this in Chrome. I think you heard about that.
+
+377
+00:37:53,000 --> 00:38:00,000
+ And so Apple actually deployed this one year ago in Safari.
+
+378
+00:38:00,000 --> 00:38:13,000
+ And Google doesn't want to use privacy pass because it has two strong privacy guarantees and they want to have more invasive DRM. So fuck them.
+
+379
+00:38:13,000 --> 00:38:31,000
+ And so the whole thing is really a very simple protocol. Actually, it's just a blind signature over some tokens that you give that you, as a client, make CloudFair or Apple sign.
+
+380
+00:38:31,000 --> 00:38:38,000
+ And then later on, this blind sign token can be presented. It's a very simple system.
+
+381
+00:38:38,000 --> 00:38:48,000
+ But I think it's also a bit hypocritical because it protects you against CloudFair and snooping by CloudFair,
+
+382
+00:38:48,000 --> 00:38:58,000
+ while at the same time they are the ones that deploy the protocol, the implementation. So whenever they want, they can just play something else to you.
+
+383
+00:38:58,000 --> 00:39:12,000
+ And so this is Landau's law, which I warmly recommend to you and contemplate if it makes sense to deploy a security protocol implemented by the people that you want to protect against.
+
+384
+00:39:12,000 --> 00:39:15,000
+ This also applies to Signal, actually.
+
+385
+00:39:15,000 --> 00:39:22,000
+ And then the last one, this is the Verifiable Threshold Updatable Oblivious Key Management Service.
+
+386
+00:39:22,000 --> 00:39:29,000
+ Key Management Service is a data address service. Amazon has one of these. So with Amazon, there is a KMS service that you can rent.
+
+387
+00:39:29,000 --> 00:39:36,000
+ You have a client that wants to do things. You have a storage that is able to store data, but in an untrusted way.
+
+388
+00:39:36,000 --> 00:39:42,000
+ And you have a key management server that is good with handling keys or protecting keys. So that is most of the time.
+
+389
+00:39:42,000 --> 00:39:48,000
+ It's an HSM and storage is just some Amazon bucket or something.
+
+390
+00:39:48,000 --> 00:39:55,000
+ So this is how it works. There's nothing really exciting about this. When you encrypt some data, you generate a random key.
+
+391
+00:39:55,000 --> 00:40:04,000
+ You encrypt your data. Then you send the key over to the KMS server, who has their own global key that encrypts your unique key.
+
+392
+00:40:04,000 --> 00:40:11,000
+ And then that gets sent back. And then you can store the encrypted key with the data that it encrypts on the storage.
+
+393
+00:40:11,000 --> 00:40:17,000
+ And then the other way around. This is something that we are kind of doing since the 90s. There's nothing really exciting about this.
+
+394
+00:40:17,000 --> 00:40:25,000
+ I just wanted to show you. It sucks in many, many ways. The server knows all the encryption keys. The KMS knows all the encryption keys.
+
+395
+00:40:25,000 --> 00:40:34,000
+ You need to somehow encrypt between your client and the KMS. So you need TLS. If there's middle boxes or TLS terminators,
+
+396
+00:40:34,000 --> 00:40:41,000
+ then they also learn your decryption keys. They can trace the usage of these keys. And they're not updatable.
+
+397
+00:40:41,000 --> 00:40:47,000
+ Or if they are updatable, these keys, then those take a lot of time and are not very efficient.
+
+398
+00:40:47,000 --> 00:40:52,000
+ Also, one HSM is just a single point of failure and backups are not very easy.
+
+399
+00:40:52,000 --> 00:41:00,000
+ But you can solve all of these problems if you just use an updatable threshold OPRF, where the decryption key is really just an OPRF
+
+400
+00:41:00,000 --> 00:41:06,000
+ with a key that is stored at the KMS and the data ID. And that's it.
+
+401
+00:41:06,000 --> 00:41:12,000
+ And then there's this awesome paper, this updatable oblivious key management for storage systems by these three guys,
+
+402
+00:41:12,000 --> 00:41:20,000
+ Jaradzki, Krafchik and Resh. It's a brilliant paper. I warmly recommend everyone to have a look. And it solves all those problems.
+
+403
+00:41:20,000 --> 00:41:27,000
+ Okay, there's two implementations. One is by Jason Resh, who is one of the authors of the paper. It's called Protec. It's in Java.
+
+404
+00:41:27,000 --> 00:41:34,000
+ And it does a bunch of a lot more things than just implement the paper. And I have my own implementation, which is called Klucznik.
+
+405
+00:41:34,000 --> 00:41:41,000
+ And it has some URLs and you can stare at code and so on. The whole thing works like this.
+
+406
+00:41:41,000 --> 00:41:50,000
+ And I'm not going to go into detail, but basically we saw all the details during this presentation, how this works.
+
+407
+00:41:50,000 --> 00:41:57,000
+ And you can actually do the update. And this is the thing that is a bit interesting.
+
+408
+00:41:57,000 --> 00:42:11,000
+ How do you do a threshold updatable OPRF? Here you need, first of all, there's one hard requirement that you need to have more shares distributed than two times your threshold plus one.
+
+409
+00:42:11,000 --> 00:42:19,000
+ So that means you need a lot of threshold shares. All the shares need to participate in the update, otherwise they get out of sync.
+
+410
+00:42:19,000 --> 00:42:27,000
+ So this is a bit of a limitation. And then you just do a distributed key generation among all the shareholders.
+
+411
+00:42:27,000 --> 00:42:39,000
+ And then that is a new value. And then you just do a multiparty multiplication between this new value and the shared key, the old key.
+
+412
+00:42:39,000 --> 00:42:53,000
+ And so you multiply the old key in theory with this new value that you just generated. And then this new value that you generated is actually the delta token for updating on the storage.
+
+413
+00:42:53,000 --> 00:43:05,000
+ And this is really nice because you can send this delta token to Amazon, the storage, and say this is the delta token and Amazon is not able to use this token for anything but updating the key.
+
+414
+00:43:05,000 --> 00:43:12,000
+ And so this is all possible, but it's a bit more involved. So that is it.
+
+415
+00:43:12,000 --> 00:43:20,000
+ And so why this is super cool? First of all, you have very cheap key rotation. So that can provide you with forward and post-compromised security.
+
+416
+00:43:20,000 --> 00:43:28,000
+ The whole thing is a threshold operation, so you are very resilient against denial of service and loss of keys and compromise of keys.
+
+417
+00:43:28,000 --> 00:43:36,000
+ The master key is never stored anywhere at all, not even in RAM during computations.
+
+418
+00:43:36,000 --> 00:43:42,000
+ Whereas if you consider like PGP or AGE or something, then you have somewhere a key stored on your disk.
+
+419
+00:43:42,000 --> 00:43:50,000
+ Most of the time it might be even next to your encrypted files. And so it has drawbacks.
+
+420
+00:43:50,000 --> 00:43:56,000
+ First of all, it's online, but I don't know if that's really a drawback. In some cases it might be, in some cases it doesn't.
+
+421
+00:43:56,000 --> 00:44:05,000
+ And there's strong authentication needed. So the key management servers need actually to somehow authorize you if you are actually able to do the operation that you want to do.
+
+422
+00:44:05,000 --> 00:44:10,000
+ So that's something. But that can also be depending on the use case that you want to do.
+
+423
+00:44:10,000 --> 00:44:19,000
+ Okay, so they are cool. Mostly provide privacy, these OPRFs. You need to have two parties and they don't want to share all the information with each other.
+
+424
+00:44:19,000 --> 00:44:27,000
+ It's also very useful if you don't have anything, you don't want to store anything on the client.
+
+425
+00:44:27,000 --> 00:44:36,000
+ No data, only like a password when you want to convert low entropy something into high entropy cryptographic value.
+
+426
+00:44:36,000 --> 00:44:43,000
+ And it's very useful for rate limiting. Okay, there's a bunch of papers that I wanted to show as outtakes.
+
+427
+00:44:43,000 --> 00:44:52,000
+ Just shortly, these are all very exciting. So if anyone ever wants to play with OPRFs and do some cool shit, these are papers you might want to work with.
+
+428
+00:44:52,000 --> 00:44:57,000
+ And questions and comments at the Tea House.
+
+429
+00:45:11,000 --> 00:45:20,000
+ Thank you so much, Steph, for sharing your insights. As he said at the beginning, there's also a director's cut of this talk on YouTube.
+
+430
+00:45:20,000 --> 00:45:26,000
+ So check this out if you want even more details about this.
+
+431
+00:45:26,000 --> 00:45:32,000
+ And there's a Q&A at the House of Tea from 4 p.m. on if you have any more questions.
+
+432
+00:45:32,000 --> 00:45:37,000
+ [Music]
+

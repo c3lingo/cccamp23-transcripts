@@ -1,0 +1,2284 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:38,640
+ The next talk is from Jadyn and she will tell us about the magic behind one-click deployments.
+
+4
+00:00:38,640 --> 00:00:46,000
+ I think it's wonderful to just when you do server infrastructure, you do one click and the server is just there.
+
+5
+00:00:46,000 --> 00:00:51,280
+ And you don't have the hassle of managing it by yourself as normal.
+
+6
+00:00:51,280 --> 00:00:54,640
+ We also have a signal angel for your questions later.
+
+7
+00:00:54,640 --> 00:00:59,920
+ You can post with the hashtag #CCCamp23NortX.
+
+8
+00:00:59,920 --> 00:01:02,000
+ Then we will see your questions.
+
+9
+00:01:02,000 --> 00:01:04,400
+ And now have fun for this talk.
+
+10
+00:01:04,400 --> 00:01:12,080
+ Okay, let's just head back to the first slide.
+
+11
+00:01:12,080 --> 00:01:16,480
+ And then we can start.
+
+12
+00:01:16,480 --> 00:01:20,400
+ Well, it's buggy.
+
+13
+00:01:20,400 --> 00:01:23,520
+ Okay, welcome to my talk.
+
+14
+00:01:23,520 --> 00:01:26,960
+ The magic behind auto deployments.
+
+15
+00:01:26,960 --> 00:01:34,320
+ As Leon already said, auto deployments is something that most of us have interacted with before.
+
+16
+00:01:34,320 --> 00:01:38,560
+ Yeah, but let's start.
+
+17
+00:01:38,560 --> 00:01:40,880
+ First thing, I'm Jadyn.
+
+18
+00:01:40,880 --> 00:01:42,560
+ My pronouns are she/her.
+
+19
+00:01:42,560 --> 00:01:43,600
+ I'm 22.
+
+20
+00:01:43,600 --> 00:01:45,760
+ I work in cyber security.
+
+21
+00:01:45,760 --> 00:01:51,120
+ And I do lots of things with computers and hardware and stuff.
+
+22
+00:01:51,120 --> 00:01:54,880
+ You can find me on chaos social, Jadyn @ chaos social.
+
+23
+00:01:54,880 --> 00:02:01,360
+ And on my website, as you've already seen, where you can also find the slides.
+
+24
+00:02:01,360 --> 00:02:03,360
+ What is an auto deployment?
+
+25
+00:02:03,360 --> 00:02:07,280
+ And what is a one click deployment?
+
+26
+00:02:07,280 --> 00:02:11,280
+ We will have about four parts in this talk.
+
+27
+00:02:11,280 --> 00:02:13,600
+ First, what even is it?
+
+28
+00:02:13,600 --> 00:02:15,240
+ Then how does it work?
+
+29
+00:02:15,240 --> 00:02:22,440
+ Then we will try to demonstrate it right here with real hardware and real data centers.
+
+30
+00:02:22,440 --> 00:02:28,280
+ And afterwards, there will be a Q&A session where I can hopefully answer most of your
+
+31
+00:02:28,280 --> 00:02:29,880
+ questions.
+
+32
+00:02:29,880 --> 00:02:37,920
+ And if I can't, just hit me up after the talk or on social media or via email or whatever.
+
+33
+00:02:37,920 --> 00:02:39,920
+ Okay.
+
+34
+00:02:39,920 --> 00:02:43,400
+ One click deployments are fully automated deployments.
+
+35
+00:02:43,400 --> 00:02:44,760
+ What does it mean?
+
+36
+00:02:44,760 --> 00:02:53,480
+ It means that we can spawn anything like VM or container, IP addresses, DNS entries, and
+
+37
+00:02:53,480 --> 00:03:01,720
+ much, much more, like user management, firewall, software configuration, monitoring, and anything
+
+38
+00:03:01,720 --> 00:03:04,200
+ you can imagine.
+
+39
+00:03:04,200 --> 00:03:09,840
+ The whole thing is pretty easy.
+
+40
+00:03:09,840 --> 00:03:13,760
+ But you have to get some key ingredients first.
+
+41
+00:03:13,760 --> 00:03:21,420
+ To allow access for an automated system on all your devices and access to APIs, you usually
+
+42
+00:03:21,420 --> 00:03:27,560
+ need some kind of root access, usually done with FSH.
+
+43
+00:03:27,560 --> 00:03:33,540
+ And you need your deployment sources, which are usually from just a repository where you
+
+44
+00:03:33,540 --> 00:03:36,120
+ have your config files and your scripts.
+
+45
+00:03:36,120 --> 00:03:41,740
+ And then there's your source of truth, which is in my case Netbox.
+
+46
+00:03:41,740 --> 00:03:45,800
+ And then you have the big issue of secret storage.
+
+47
+00:03:45,800 --> 00:03:53,280
+ You have to generate secrets on demand for root passwords, user passwords, and a lot
+
+48
+00:03:53,280 --> 00:03:56,680
+ of other things, databases, everything.
+
+49
+00:03:56,680 --> 00:04:06,320
+ And that is mostly done with a utility called pass, which is just using GPG to store your
+
+50
+00:04:06,320 --> 00:04:11,920
+ credentials and encrypt them so you can just put them in a repository and everything is
+
+51
+00:04:11,920 --> 00:04:13,720
+ fine.
+
+52
+00:04:13,720 --> 00:04:18,000
+ The easiest way to get that is just get a dedicated host.
+
+53
+00:04:18,000 --> 00:04:19,400
+ It doesn't have to be in a data center.
+
+54
+00:04:19,400 --> 00:04:22,160
+ In my case, it is.
+
+55
+00:04:22,160 --> 00:04:24,760
+ And you just plug in a small Yubi key.
+
+56
+00:04:24,760 --> 00:04:27,560
+ Most of you probably know what that is.
+
+57
+00:04:27,560 --> 00:04:35,360
+ It's a small device you plug in via USB into your computer, which can store your encryption
+
+58
+00:04:35,360 --> 00:04:42,480
+ keys, your private keys, in a fashion that doesn't allow them to get off there.
+
+59
+00:04:42,480 --> 00:04:47,560
+ They are on that small USB stick and nobody can get them.
+
+60
+00:04:47,560 --> 00:04:52,880
+ Well, you could, but it's really, really, really hard.
+
+61
+00:04:52,880 --> 00:04:54,760
+ Okay.
+
+62
+00:04:54,760 --> 00:04:56,900
+ Inner workings.
+
+63
+00:04:56,900 --> 00:05:01,280
+ You need to gather some data before we can even start with your deployment.
+
+64
+00:05:01,280 --> 00:05:06,440
+ This data is usually provided by some kind of source of truth.
+
+65
+00:05:06,440 --> 00:05:12,840
+ This is my favorite way of doing that because handling config files is, to be honest, quite
+
+66
+00:05:12,840 --> 00:05:20,000
+ a pain to get them everywhere and writing config files isn't that easy either.
+
+67
+00:05:20,000 --> 00:05:26,760
+ And as I said, we want that to work with one click via a web UI, so writing config files
+
+68
+00:05:26,760 --> 00:05:31,000
+ is not that easy.
+
+69
+00:05:31,000 --> 00:05:37,400
+ And in your source of truth, you usually store things like your host name, network interfaces,
+
+70
+00:05:37,400 --> 00:05:44,240
+ IP addresses, gateways, DNS servers, your hypervisor config like memory, or if you get
+
+71
+00:05:44,240 --> 00:05:51,760
+ your machine from some provider like AWS or something, you need to know how many cores
+
+72
+00:05:51,760 --> 00:05:55,840
+ you need, how much memory and such things.
+
+73
+00:05:55,840 --> 00:06:00,960
+ And you also want to know which services you want to install.
+
+74
+00:06:00,960 --> 00:06:04,080
+ The second step is gathering the secrets.
+
+75
+00:06:04,080 --> 00:06:11,200
+ I've implemented a very easy way which is based on the password utility.
+
+76
+00:06:11,200 --> 00:06:14,560
+ As mentioned before, it uses GPG.
+
+77
+00:06:14,560 --> 00:06:22,440
+ And I've written an Ansible module to dynamically generate secrets and store them in an encrypted
+
+78
+00:06:22,440 --> 00:06:24,680
+ way.
+
+79
+00:06:24,680 --> 00:06:26,600
+ This is just an example.
+
+80
+00:06:26,600 --> 00:06:35,160
+ You have your Ansible secret storage which contains your host secrets which are individually
+
+81
+00:06:35,160 --> 00:06:44,240
+ for each host and also your secrets like databases, super user passwords, and the host password,
+
+82
+00:06:44,240 --> 00:06:45,800
+ of course.
+
+83
+00:06:45,800 --> 00:06:53,520
+ And your static secrets like API tokens, DNS access, and things that you don't want to
+
+84
+00:06:53,520 --> 00:07:00,560
+ generate on demand because the secrets will stay the same in your environment.
+
+85
+00:07:00,560 --> 00:07:08,160
+ Second step is to configure your hypervisor or your VM of some sort.
+
+86
+00:07:08,160 --> 00:07:13,400
+ For that, I'm using Proxmox, but you can use AWS or Hatsnow or whatever.
+
+87
+00:07:13,400 --> 00:07:18,280
+ It's pretty much just an implementation detail.
+
+88
+00:07:18,280 --> 00:07:24,400
+ You need to spawn and configure the hardware which usually is done with a simple API request
+
+89
+00:07:24,400 --> 00:07:29,320
+ to your favorite provider or your own services.
+
+90
+00:07:29,320 --> 00:07:34,000
+ Then you already get the first issue, network configuration.
+
+91
+00:07:34,000 --> 00:07:41,080
+ You need to probably set things from your IP addresses to your MAC addresses and all
+
+92
+00:07:41,080 --> 00:07:43,200
+ of that.
+
+93
+00:07:43,200 --> 00:07:49,680
+ That is usually handled by your provider or by your hypervisor and Netbox just or your
+
+94
+00:07:49,680 --> 00:07:55,880
+ configuration management just tells you which IPs do I want, which IPs are free, which MAC
+
+95
+00:07:55,880 --> 00:08:00,820
+ addresses are free, and you just generate that data on demand.
+
+96
+00:08:00,820 --> 00:08:02,760
+ And you already set your default password.
+
+97
+00:08:02,760 --> 00:08:08,160
+ Usually you either get a default password from your API request or you send one with
+
+98
+00:08:08,160 --> 00:08:14,440
+ it or you send your SSH public key.
+
+99
+00:08:14,440 --> 00:08:21,680
+ After that, your device is spawned, and the first thing is we SSH in using our root user
+
+100
+00:08:21,680 --> 00:08:24,240
+ that we just created.
+
+101
+00:08:24,240 --> 00:08:27,640
+ Then we run things, the usual set up.
+
+102
+00:08:27,640 --> 00:08:36,000
+ Everyone does it probably, like you're installing your packages and your default packages, you're
+
+103
+00:08:36,000 --> 00:08:43,720
+ upgrading, installing firewalls, making firewall rules like allowing SSH and allowing your
+
+104
+00:08:43,720 --> 00:08:48,840
+ services that you want to install, for example, a web server which would need port 80 and
+
+105
+00:08:48,840 --> 00:08:55,560
+ SSL ports, and then you ensure that your root password is matching the one that you have
+
+106
+00:08:55,560 --> 00:09:01,440
+ in your database, in your password database, and then you configure stuff like sudo.
+
+107
+00:09:01,440 --> 00:09:06,040
+ That's the easiest and basic things.
+
+108
+00:09:06,040 --> 00:09:10,680
+ You could stop at this point and then you just have a machine that is running somewhere
+
+109
+00:09:10,680 --> 00:09:16,880
+ on the internet or on your own network, and you have a root password, your SSH keys are
+
+110
+00:09:16,880 --> 00:09:23,980
+ deployed, and you can start from there doing your stuff via SSH.
+
+111
+00:09:23,980 --> 00:09:26,920
+ But then we have things like DNS.
+
+112
+00:09:26,920 --> 00:09:34,960
+ So we gather, for example, our SSH fingerprints and put them in DNS, which is a neat security
+
+113
+00:09:34,960 --> 00:09:38,620
+ feature for those who haven't heard of it.
+
+114
+00:09:38,620 --> 00:09:46,840
+ You can put your SSH fingerprint onto your DNS, and SSH will contact your DNS server
+
+115
+00:09:46,840 --> 00:09:57,400
+ and validate that the host matches those keys, which will just ensure that your DNS isn't
+
+116
+00:09:57,400 --> 00:10:03,080
+ doing something weird or you're connecting to the wrong host or something.
+
+117
+00:10:03,080 --> 00:10:08,720
+ Then of course we set our A and quad A records, our CNAMES if we need them, and everything
+
+118
+00:10:08,720 --> 00:10:10,920
+ else.
+
+119
+00:10:10,920 --> 00:10:19,440
+ For example, we saw that, for example, you can also set the PROMETHERS DNS records, which
+
+120
+00:10:19,440 --> 00:10:29,520
+ are just SOV records that allow your monitoring to learn about new hosts.
+
+121
+00:10:29,520 --> 00:10:32,440
+ We will see that in action soon.
+
+122
+00:10:32,440 --> 00:10:34,960
+ Yeah.
+
+123
+00:10:34,960 --> 00:10:36,340
+ Monitoring records.
+
+124
+00:10:36,340 --> 00:10:46,820
+ And then we get into the nitty-gritty of the whole thing, configuring and installing services.
+
+125
+00:10:46,820 --> 00:10:53,460
+ In my example, I just want to install a Netbox instance, so we need to ensure that we have
+
+126
+00:10:53,460 --> 00:10:59,380
+ a Postgres database so that your service can store all its data.
+
+127
+00:10:59,380 --> 00:11:05,340
+ After the database is created, we have to install all our dependencies, and we just
+
+128
+00:11:05,340 --> 00:11:08,440
+ do that via Ansible.
+
+129
+00:11:08,440 --> 00:11:11,320
+ And after that, we configure our service.
+
+130
+00:11:11,320 --> 00:11:18,920
+ And then we run some other small stuff, and then you bring it up, the whole thing is running,
+
+131
+00:11:18,920 --> 00:11:28,120
+ you connect via your admin software of trace, and then you create your super user, and in
+
+132
+00:11:28,120 --> 00:11:33,760
+ the end, your password database will just have admin and your randomly generated pseudo
+
+133
+00:11:33,760 --> 00:11:38,340
+ user password or admin password for the service you need, and you never have to touch that
+
+134
+00:11:38,340 --> 00:11:43,740
+ host with SSH yourself, everything is just in your password database, which you can integrate
+
+135
+00:11:43,740 --> 00:11:47,840
+ into your password manager, and it's done.
+
+136
+00:11:47,840 --> 00:11:51,160
+ You don't have to connect to the host manually.
+
+137
+00:11:51,160 --> 00:11:54,520
+ Afterwards, we also want monitoring.
+
+138
+00:11:54,520 --> 00:12:01,480
+ Monitoring is a very important but often under looked thing in IT security and also in IT
+
+139
+00:12:01,480 --> 00:12:02,480
+ in general.
+
+140
+00:12:02,480 --> 00:12:08,160
+ I don't only need the service to be up and running, I also need to know if it's well,
+
+141
+00:12:08,160 --> 00:12:13,600
+ and if it's having issues or the drives are getting full and stuff like that.
+
+142
+00:12:13,600 --> 00:12:21,840
+ So you usually have something using Prometheus and Grafana or some variation of that.
+
+143
+00:12:21,840 --> 00:12:30,800
+ And as we've seen before, we just add the SRV record to our Prometheus zone, and Prometheus
+
+144
+00:12:30,800 --> 00:12:35,320
+ will automatically discover our new host, and we don't have to do anything on that part
+
+145
+00:12:35,320 --> 00:12:37,520
+ either.
+
+146
+00:12:37,520 --> 00:12:42,560
+ Then even more overlooked part is what do you want to do when you get rid of the whole
+
+147
+00:12:42,560 --> 00:12:44,160
+ thing?
+
+148
+00:12:44,160 --> 00:12:50,640
+ There are DNS records and monitoring things you have to remove, and also your secret storage
+
+149
+00:12:50,640 --> 00:12:53,080
+ has to be cleaned up.
+
+150
+00:12:53,080 --> 00:12:59,440
+ So we will unregister the whole thing from monitoring, delete the DNS entries, and then
+
+151
+00:12:59,440 --> 00:13:06,560
+ remove the VM or container from our hypervisor and everything is removed, and it's done.
+
+152
+00:13:06,560 --> 00:13:14,040
+ I sped through this part quite a bit because now we're going to see it happen in real time.
+
+153
+00:13:14,040 --> 00:13:15,040
+ Hopefully.
+
+154
+00:13:15,040 --> 00:13:19,200
+ So we start with our Netbox instance.
+
+155
+00:13:19,200 --> 00:13:23,320
+ That is the way I have it configured.
+
+156
+00:13:23,320 --> 00:13:25,840
+ It's really loud over there.
+
+157
+00:13:25,840 --> 00:13:34,200
+ So I've created a new virtual machine with the name CCCCAM23.Jupiter.CafinatedLabs.net.
+
+158
+00:13:34,200 --> 00:13:39,840
+ Jupiter is my hypervisor, and this is the host name of the virtual machine we want to
+
+159
+00:13:39,840 --> 00:13:42,880
+ create.
+
+160
+00:13:42,880 --> 00:13:47,400
+ As you can see here, we have our network interface already.
+
+161
+00:13:47,400 --> 00:13:51,400
+ Very nice!
+
+162
+00:13:51,400 --> 00:13:54,320
+ Do we have broken IPv6?
+
+163
+00:13:54,320 --> 00:13:55,320
+ Maybe.
+
+164
+00:13:55,320 --> 00:13:56,320
+ Yeah.
+
+165
+00:13:56,320 --> 00:13:59,040
+ No IPv6 over here.
+
+166
+00:13:59,040 --> 00:14:03,200
+ Very nice.
+
+167
+00:14:03,200 --> 00:14:04,200
+ Let's check.
+
+168
+00:14:04,200 --> 00:14:05,200
+ Yeah.
+
+169
+00:14:05,200 --> 00:14:12,800
+ Well, no IPv6 for me.
+
+170
+00:14:12,800 --> 00:14:14,680
+ It's a modern standard.
+
+171
+00:14:14,680 --> 00:14:19,680
+ It's way too new to be supported everywhere.
+
+172
+00:14:19,680 --> 00:14:21,920
+ I shouldn't have expected it to work.
+
+173
+00:14:21,920 --> 00:14:24,920
+ I'm sorry.
+
+174
+00:14:24,920 --> 00:14:27,840
+ Okay.
+
+175
+00:14:27,840 --> 00:14:36,720
+ That is really distracting over there.
+
+176
+00:14:36,720 --> 00:14:46,200
+ Well.
+
+177
+00:14:46,200 --> 00:14:50,680
+ Do we have IPv6 now?
+
+178
+00:14:50,680 --> 00:14:52,000
+ Hmm.
+
+179
+00:14:52,000 --> 00:14:58,000
+ Well, that's embarrassing.
+
+180
+00:14:58,000 --> 00:15:03,600
+ I'm on the Wi-Fi right now, so I'm trying to get a connection.
+
+181
+00:15:03,600 --> 00:15:08,360
+ Let me just test this.
+
+182
+00:15:08,360 --> 00:15:13,000
+ Yeah, I've unplugged it.
+
+183
+00:15:13,000 --> 00:15:17,760
+ And I'm on the Wi-Fi, but Wi-Fi doesn't have IPv6 either.
+
+184
+00:15:17,760 --> 00:15:21,160
+ Thanks.
+
+185
+00:15:21,160 --> 00:15:23,120
+ I'll try.
+
+186
+00:15:23,120 --> 00:15:25,400
+ Let me just try.
+
+187
+00:15:25,400 --> 00:15:30,640
+ Let's reconnect.
+
+188
+00:15:30,640 --> 00:15:38,760
+ Hmm.
+
+189
+00:15:38,760 --> 00:15:39,760
+ It's working.
+
+190
+00:15:39,760 --> 00:15:40,760
+ It's working again.
+
+191
+00:15:40,760 --> 00:15:46,760
+ Trying to get off and on again has worked.
+
+192
+00:15:46,760 --> 00:15:49,760
+ So let's see.
+
+193
+00:15:49,760 --> 00:16:04,640
+ Well.
+
+194
+00:16:04,640 --> 00:16:09,000
+ Internet is real fast today.
+
+195
+00:16:09,000 --> 00:16:13,280
+ Okay.
+
+196
+00:16:13,280 --> 00:16:17,880
+ We have our thing.
+
+197
+00:16:17,880 --> 00:16:18,880
+ It has worked.
+
+198
+00:16:18,880 --> 00:16:23,400
+ That's good.
+
+199
+00:16:23,400 --> 00:16:27,600
+ And the SSH connection is also up.
+
+200
+00:16:27,600 --> 00:16:28,920
+ Okay.
+
+201
+00:16:28,920 --> 00:16:35,840
+ We can see our ad on a device with our public IP address and our pre-configured MAC address.
+
+202
+00:16:35,840 --> 00:16:41,280
+ We can also render and be generated on demand, but I've pre-configured it so that it doesn't
+
+203
+00:16:41,280 --> 00:16:46,600
+ change quite as often and the op tables don't get full as much when we...
+
+204
+00:16:46,600 --> 00:16:49,600
+ Yeah, I can...
+
+205
+00:16:49,600 --> 00:16:52,400
+ Yes.
+
+206
+00:16:52,400 --> 00:16:54,280
+ Give me a second.
+
+207
+00:16:54,280 --> 00:16:56,280
+ Is there light theme?
+
+208
+00:16:56,280 --> 00:16:59,480
+ Okay.
+
+209
+00:16:59,480 --> 00:17:01,280
+ Can you see it now?
+
+210
+00:17:01,280 --> 00:17:02,600
+ Okay.
+
+211
+00:17:02,600 --> 00:17:04,640
+ Perfect.
+
+212
+00:17:04,640 --> 00:17:06,640
+ Let's go back to the interfaces tab.
+
+213
+00:17:06,640 --> 00:17:09,520
+ And let me just close this.
+
+214
+00:17:09,520 --> 00:17:16,200
+ We have our MAC address and our ad on a device and our IP address.
+
+215
+00:17:16,200 --> 00:17:18,200
+ Then we can go over here.
+
+216
+00:17:18,200 --> 00:17:22,760
+ We can see this is our host name.
+
+217
+00:17:22,760 --> 00:17:26,880
+ The device is currently offline because we want to pre-configure it.
+
+218
+00:17:26,880 --> 00:17:33,520
+ Then we have selected our Debian 12 as a base image.
+
+219
+00:17:33,520 --> 00:17:37,240
+ Down here are some of the Proxmox features we want to configure.
+
+220
+00:17:37,240 --> 00:17:39,280
+ It should start at the hypervisor boot.
+
+221
+00:17:39,280 --> 00:17:45,160
+ It doesn't have a Proxmox VM ID yet, but we will see that this field will get populated
+
+222
+00:17:45,160 --> 00:17:48,160
+ once we have run our script.
+
+223
+00:17:48,160 --> 00:17:54,000
+ And we have configured on which clusters running, on which node, and all of that.
+
+224
+00:17:54,000 --> 00:18:01,080
+ And we've also configured our virtual CPUs, our 2 gigabytes of RAM, and the 8 gigabytes
+
+225
+00:18:01,080 --> 00:18:04,160
+ of storage.
+
+226
+00:18:04,160 --> 00:18:08,040
+ There's nothing else configured yet.
+
+227
+00:18:08,040 --> 00:18:12,880
+ So everything you see here is the config.
+
+228
+00:18:12,880 --> 00:18:18,320
+ Now we will go over to the SSH session.
+
+229
+00:18:18,320 --> 00:18:20,560
+ And run the whole thing.
+
+230
+00:18:20,560 --> 00:18:28,520
+ I'm currently connected to the host I've described before, which is -- has the UBIK key plugged
+
+231
+00:18:28,520 --> 00:18:33,640
+ into it, so I could even unplug this one if I wanted to.
+
+232
+00:18:33,640 --> 00:18:35,880
+ So let's go to our deployment.
+
+233
+00:18:35,880 --> 00:18:39,540
+ This will happen automatically with a webhook.
+
+234
+00:18:39,540 --> 00:18:43,780
+ But for demonstration, I will show it to you this way.
+
+235
+00:18:43,780 --> 00:18:52,900
+ And also the script will pause sometimes so I can explain what's happened.
+
+236
+00:18:52,900 --> 00:18:56,660
+ We have deploy and then our environment.
+
+237
+00:18:56,660 --> 00:18:59,940
+ And then we can just run deploy.
+
+238
+00:18:59,940 --> 00:19:01,820
+ Okay.
+
+239
+00:19:01,820 --> 00:19:05,220
+ Let's deploy this machine.
+
+240
+00:19:05,220 --> 00:19:08,520
+ First thing is we are decrypting our secrets.
+
+241
+00:19:08,520 --> 00:19:14,600
+ Then we are installing our Python dependencies for the Ansible controller.
+
+242
+00:19:14,600 --> 00:19:20,000
+ Then our Ansible script will talk to Netbox and figure out which machine we want to deploy
+
+243
+00:19:20,000 --> 00:19:24,380
+ and which -- with which settings.
+
+244
+00:19:24,380 --> 00:19:28,320
+ Then we are cloning our secret repository.
+
+245
+00:19:28,320 --> 00:19:31,760
+ And generating our secrets.
+
+246
+00:19:31,760 --> 00:19:36,680
+ As we can see, we have generated our root password, for example.
+
+247
+00:19:36,680 --> 00:19:40,140
+ Our root password has been generated.
+
+248
+00:19:40,140 --> 00:19:42,660
+ And where is it?
+
+249
+00:19:42,660 --> 00:19:43,660
+ Yeah.
+
+250
+00:19:43,660 --> 00:19:49,820
+ Our TC key for DNS challenges has been and DNS access has been generated.
+
+251
+00:19:49,820 --> 00:19:51,280
+ Yeah.
+
+252
+00:19:51,280 --> 00:19:59,100
+ Up here we can see that our secrets_host_root_password has been generated.
+
+253
+00:19:59,100 --> 00:20:00,580
+ Yeah.
+
+254
+00:20:00,580 --> 00:20:03,620
+ Let's continue the deployment.
+
+255
+00:20:03,620 --> 00:20:09,980
+ The next thing is we will ask Netbox about the gateways that are in this network which
+
+256
+00:20:09,980 --> 00:20:15,500
+ DNS servers use and records and other DNS configuration.
+
+257
+00:20:15,500 --> 00:20:20,580
+ Then we can also look at some tasks are skipped.
+
+258
+00:20:20,580 --> 00:20:25,260
+ That is a quite normal thing in Ansible.
+
+259
+00:20:25,260 --> 00:20:28,780
+ We are now trying to configure a physical device.
+
+260
+00:20:28,780 --> 00:20:36,820
+ But as Netbox has told us, it's a virtual machine so we don't need to run physical device configurations.
+
+261
+00:20:36,820 --> 00:20:38,820
+ Okay.
+
+262
+00:20:38,820 --> 00:20:43,620
+ Now we would create an update book.
+
+263
+00:20:43,620 --> 00:20:49,260
+ Because we have selected that it's offline, now it will just tell me it's offline and
+
+264
+00:20:49,260 --> 00:20:53,160
+ it won't deploy anything.
+
+265
+00:20:53,160 --> 00:21:10,260
+ If we change that in our Netbox, change it over to online, let me just show you.
+
+266
+00:21:10,260 --> 00:21:16,980
+ We change that over here to provisioning.
+
+267
+00:21:16,980 --> 00:21:26,620
+ Change or let's just say it's active and save it, our Ansible will now get the new data,
+
+268
+00:21:26,620 --> 00:21:32,700
+ new information, and we'll try to deploy the machine.
+
+269
+00:21:32,700 --> 00:21:35,540
+ Let's switch back to the terminal.
+
+270
+00:21:35,540 --> 00:21:38,580
+ And let's run our script again.
+
+271
+00:21:38,580 --> 00:21:40,460
+ Okay.
+
+272
+00:21:40,460 --> 00:21:41,460
+ Same thing as before.
+
+273
+00:21:41,460 --> 00:21:44,780
+ We are collecting our initial secrets for the Netbox access.
+
+274
+00:21:44,780 --> 00:21:51,580
+ We are installing local dependencies.
+
+275
+00:21:51,580 --> 00:21:55,220
+ We are now talking to our Netbox, figuring out what to do.
+
+276
+00:21:55,690 --> 00:22:01,010
+ loading our secret repository.
+
+277
+00:22:01,010 --> 00:22:06,330
+ And as you can see now, we don't generate it.
+
+278
+00:22:06,330 --> 00:22:10,770
+ The secret has been just loaded.
+
+279
+00:22:10,770 --> 00:22:14,610
+ It was generated before, as we saw in the change log,
+
+280
+00:22:14,610 --> 00:22:16,890
+ and now it's just loaded because it was already
+
+281
+00:22:16,890 --> 00:22:18,330
+ stored in our secret database.
+
+282
+00:22:23,250 --> 00:22:26,610
+ OK, now more stuff is happening.
+
+283
+00:22:26,610 --> 00:22:34,970
+ We are now creating our container right here.
+
+284
+00:22:34,970 --> 00:22:42,690
+ As you know, this part does take quite some while
+
+285
+00:22:42,690 --> 00:22:45,770
+ to spawn a new container.
+
+286
+00:22:45,770 --> 00:22:51,930
+ After that is finished, we will see that our--
+
+287
+00:22:51,930 --> 00:22:53,650
+ yeah, exactly.
+
+288
+00:22:53,650 --> 00:22:58,930
+ Now we update the netbox, which I can show you.
+
+289
+00:22:58,930 --> 00:23:14,250
+ OK, netbox will now show me the new Proxmox ID down here.
+
+290
+00:23:14,250 --> 00:23:16,930
+ It has been created as container 104.
+
+291
+00:23:16,930 --> 00:23:26,210
+ And now our deployment continues.
+
+292
+00:23:26,210 --> 00:23:30,810
+ And we are now upgrading the default packages
+
+293
+00:23:30,810 --> 00:23:34,370
+ and installing the basic packages
+
+294
+00:23:34,370 --> 00:23:37,010
+ we need to have our Debian configured.
+
+295
+00:23:37,570 --> 00:23:40,050
+ [VIDEO PLAYBACK]
+
+296
+00:23:40,050 --> 00:24:04,770
+ [END PLAYBACK]
+
+297
+00:24:04,770 --> 00:24:07,010
+ Well, Debian is a bit slow today.
+
+298
+00:24:07,010 --> 00:24:25,250
+ As I said before, it's real hardware and real data centers.
+
+299
+00:24:25,250 --> 00:24:32,250
+ So probably it's the usual effect of when you show it to people,
+
+300
+00:24:32,250 --> 00:24:33,930
+ it doesn't work.
+
+301
+00:24:33,930 --> 00:24:38,850
+ But I can tell you what's going to happen next
+
+302
+00:24:38,850 --> 00:24:41,810
+ and what this means.
+
+303
+00:24:41,810 --> 00:24:44,730
+ Because we first try to connect with our user
+
+304
+00:24:44,730 --> 00:24:48,930
+ to check if the device has been provisioned before,
+
+305
+00:24:48,930 --> 00:24:50,530
+ which it hasn't.
+
+306
+00:24:50,530 --> 00:24:53,330
+ So we switch over to our root user
+
+307
+00:24:53,330 --> 00:24:56,490
+ because the access was denied with our unprivileged user.
+
+308
+00:25:00,970 --> 00:25:04,210
+ Yeah, we have updated our Debian.
+
+309
+00:25:04,210 --> 00:25:08,530
+ And then we want to install our default packages, which
+
+310
+00:25:08,530 --> 00:25:16,930
+ are, in my case, vim, curl, sudo, and tree, I think.
+
+311
+00:25:16,930 --> 00:25:20,050
+ Just the usual stuff you want to have on every machine.
+
+312
+00:25:21,050 --> 00:25:21,550
+ Yeah.
+
+313
+00:25:21,590 --> 00:25:22,090
+ Yeah.
+
+314
+00:25:22,090 --> 00:25:24,090
+ [VIDEO PLAYBACK]
+
+315
+00:25:24,090 --> 00:25:52,970
+ a little bit.
+
+316
+00:25:52,970 --> 00:25:55,370
+ OK, now we are configuring our sudo.
+
+317
+00:25:55,370 --> 00:25:59,290
+ Now we are configuring our firewall.
+
+318
+00:25:59,290 --> 00:26:00,730
+ In my case, I just use uov.
+
+319
+00:26:00,730 --> 00:26:05,170
+ In my opinion, it's the easiest way
+
+320
+00:26:05,170 --> 00:26:09,250
+ to have a simple firewall on your device.
+
+321
+00:26:09,250 --> 00:26:12,970
+ It will install the package and then automatically configure
+
+322
+00:26:12,970 --> 00:26:14,010
+ our trusted network.
+
+323
+00:26:14,010 --> 00:26:19,330
+ So everything within my IP range is considered trusted.
+
+324
+00:26:19,330 --> 00:26:23,290
+ And everything outside it is considered untrusted.
+
+325
+00:26:23,290 --> 00:26:25,690
+ That is important for monitoring access,
+
+326
+00:26:25,690 --> 00:26:28,610
+ as I don't want my monitoring data
+
+327
+00:26:28,610 --> 00:26:31,090
+ to be available from the internet.
+
+328
+00:26:31,090 --> 00:26:34,570
+ So it's only available from the internal network.
+
+329
+00:26:34,570 --> 00:26:36,290
+ And now we are rebooting our host
+
+330
+00:26:36,290 --> 00:26:38,490
+ because we have configured our firewall,
+
+331
+00:26:38,490 --> 00:26:41,110
+ we have configured our root user,
+
+332
+00:26:41,110 --> 00:26:44,730
+ and we have configured our default packages.
+
+333
+00:26:44,730 --> 00:26:47,970
+ After the reboot, we will continue.
+
+334
+00:26:47,970 --> 00:26:52,490
+ And as you can see, all of this is happening automatically.
+
+335
+00:26:52,490 --> 00:26:55,530
+ The device is rebooting, the device is being configured.
+
+336
+00:26:55,530 --> 00:26:58,770
+ And now we have reached the point
+
+337
+00:26:58,770 --> 00:27:03,370
+ where we can start our custom deployments.
+
+338
+00:27:03,370 --> 00:27:06,930
+ So first of all, we are collecting our fingerprints
+
+339
+00:27:06,930 --> 00:27:10,890
+ for the DNS, which we can see over here.
+
+340
+00:27:10,890 --> 00:27:15,530
+ We have added our quad A record, our three SSH fingerprint
+
+341
+00:27:15,530 --> 00:27:19,170
+ records, and our monitoring record,
+
+342
+00:27:19,170 --> 00:27:24,770
+ which just tells the monitoring to look at this host now.
+
+343
+00:27:24,770 --> 00:27:28,490
+ After that, we will configure our users
+
+344
+00:27:28,490 --> 00:27:31,770
+ with their SSH keys, default passwords,
+
+345
+00:27:31,770 --> 00:27:33,410
+ and their permissions.
+
+346
+00:27:33,410 --> 00:27:35,870
+ You can configure many users.
+
+347
+00:27:35,870 --> 00:27:40,290
+ You could also configure PAM LDAP, for example,
+
+348
+00:27:40,290 --> 00:27:43,330
+ so you don't have to configure the users yourself.
+
+349
+00:27:43,330 --> 00:27:49,850
+ And your Linux is just talking to your LDAP for validation.
+
+350
+00:27:49,850 --> 00:27:52,930
+ Then we want to apply SSR hardening to our instance,
+
+351
+00:27:52,930 --> 00:27:57,570
+ just the default SSH options you want to enable and disable.
+
+352
+00:27:57,570 --> 00:28:01,050
+ And we are also installing Feltiband,
+
+353
+00:28:01,050 --> 00:28:03,890
+ which is just a neat security measure
+
+354
+00:28:03,890 --> 00:28:08,530
+ and helps on getting rid of all the people trying
+
+355
+00:28:08,530 --> 00:28:10,810
+ to connect to your host with bad passwords.
+
+356
+00:28:11,810 --> 00:28:16,370
+ Especially if your host is connected to the internet,
+
+357
+00:28:16,370 --> 00:28:18,690
+ steps like these are highly recommended.
+
+358
+00:28:36,410 --> 00:28:42,090
+ OK, now we have configured our SSH.
+
+359
+00:28:42,090 --> 00:28:47,650
+ Now we don't want to install Proxmox, so we skip that.
+
+360
+00:28:47,650 --> 00:28:51,810
+ We also skip disk encryption.
+
+361
+00:28:51,810 --> 00:28:56,890
+ And those are all the services you could deploy on a machine.
+
+362
+00:28:56,890 --> 00:29:01,170
+ And only the services we have selected in the net box
+
+363
+00:29:01,170 --> 00:29:02,370
+ are actually deployed.
+
+364
+00:29:02,370 --> 00:29:03,410
+ Everything else is skipped.
+
+365
+00:29:03,410 --> 00:29:16,730
+ OK, now we are installing NodeExporter
+
+366
+00:29:16,730 --> 00:29:21,210
+ and creating our SSL certificates
+
+367
+00:29:21,210 --> 00:29:26,410
+ so that we can connect to the device with encrypted
+
+368
+00:29:26,410 --> 00:29:27,570
+ and valid certificates.
+
+369
+00:29:30,770 --> 00:29:36,290
+ I can now show you, as we have configured our SSH--
+
+370
+00:29:36,290 --> 00:29:40,210
+ I'm sorry, our monitoring records for Prometheus.
+
+371
+00:29:40,210 --> 00:29:44,930
+ I can now show you the Prometheus side of things.
+
+372
+00:29:44,930 --> 00:29:49,010
+ Let's zoom in a bit and switch to light mode.
+
+373
+00:29:49,010 --> 00:29:59,090
+ As you can see, our host has appeared.
+
+374
+00:29:59,090 --> 00:30:00,890
+ It is currently considered done because we
+
+375
+00:30:00,890 --> 00:30:04,290
+ haven't finished our deployment.
+
+376
+00:30:04,290 --> 00:30:09,210
+ And once we have finished deploying,
+
+377
+00:30:09,210 --> 00:30:15,250
+ which we can see in the terminal right here, as you can see,
+
+378
+00:30:15,250 --> 00:30:20,730
+ our monitoring stuff has been installed and configured.
+
+379
+00:30:20,730 --> 00:30:26,130
+ And now we are installing a final thing I quite like.
+
+380
+00:30:26,130 --> 00:30:31,330
+ I have a custom message of the day package, which will just
+
+381
+00:30:31,330 --> 00:30:35,970
+ display the last successful Ansible run, its git commit,
+
+382
+00:30:35,970 --> 00:30:36,890
+ and stuff like that.
+
+383
+00:30:36,890 --> 00:30:40,130
+ So you know that when you SSH into your machine,
+
+384
+00:30:40,130 --> 00:30:43,170
+ when the last deployment has happened,
+
+385
+00:30:43,170 --> 00:30:45,770
+ because Ansible doesn't deploy continuously,
+
+386
+00:30:45,770 --> 00:30:49,170
+ it gets run by your webhook or by yourself.
+
+387
+00:30:49,170 --> 00:30:52,930
+ And after that, it just stays like this.
+
+388
+00:30:55,930 --> 00:30:59,370
+ OK, we have finished our deployment.
+
+389
+00:30:59,370 --> 00:31:05,890
+ If we check back at Prometheus, we
+
+390
+00:31:05,890 --> 00:31:13,930
+ can see that our host is now considered up,
+
+391
+00:31:13,930 --> 00:31:17,210
+ because everything has been configured.
+
+392
+00:31:17,210 --> 00:31:23,330
+ And we can SSH into our host as well.
+
+393
+00:31:23,330 --> 00:31:35,850
+ Let's just SSH into this host.
+
+394
+00:31:35,850 --> 00:31:41,410
+ Well, it's not a good day today.
+
+395
+00:31:41,410 --> 00:31:46,090
+ Let's just remove that real quick.
+
+396
+00:31:46,090 --> 00:31:48,250
+ Yes.
+
+397
+00:31:48,250 --> 00:31:52,130
+ And now we can see our custom message of the day, which
+
+398
+00:31:52,130 --> 00:31:55,450
+ will just tell us--
+
+399
+00:31:55,450 --> 00:31:56,210
+ oh, I'm sorry.
+
+400
+00:31:56,210 --> 00:32:05,570
+ OK, now we can see the custom message of the day, which
+
+401
+00:32:05,570 --> 00:32:10,450
+ will just show our--
+
+402
+00:32:10,450 --> 00:32:12,210
+ very good.
+
+403
+00:32:12,210 --> 00:32:13,450
+ Very good, Johanna, very good.
+
+404
+00:32:13,450 --> 00:32:21,170
+ We can see our custom message of the day,
+
+405
+00:32:21,170 --> 00:32:26,050
+ which will show you the OS version, Ansible commits,
+
+406
+00:32:26,050 --> 00:32:28,330
+ and everything else.
+
+407
+00:32:28,330 --> 00:32:31,130
+ Well, that happens if you have two IT administrators, I guess.
+
+408
+00:32:31,130 --> 00:32:41,410
+ OK, now let's just decommission the whole thing.
+
+409
+00:32:41,410 --> 00:32:48,610
+ And I'll try to let the decommissioning happen
+
+410
+00:32:48,610 --> 00:32:50,050
+ in the background.
+
+411
+00:32:50,050 --> 00:32:52,010
+ And then we can switch over to our Q&A.
+
+412
+00:32:52,010 --> 00:33:00,330
+ Yeah, the slides are on my website.
+
+413
+00:33:00,330 --> 00:33:05,530
+ And the code can be found on--
+
+414
+00:33:05,530 --> 00:33:10,490
+ you can find the code on caffeinatedlabs.org.
+
+415
+00:33:10,490 --> 00:33:13,690
+ And in the next coming days, I'll
+
+416
+00:33:13,690 --> 00:33:17,650
+ try to open source as much of this as possible.
+
+417
+00:33:17,650 --> 00:33:21,690
+ So you can take a look for yourself.
+
+418
+00:33:21,690 --> 00:33:26,330
+ Yeah, but I'm now open for Q&A questions.
+
+419
+00:33:26,330 --> 00:33:26,830
+ Yeah.
+
+420
+00:33:26,830 --> 00:33:41,210
+ We have about 12 minutes left for Q&A.
+
+421
+00:33:41,210 --> 00:33:42,010
+ I will go around.
+
+422
+00:33:42,010 --> 00:33:44,490
+ [VIDEO PLAYBACK]
+
+423
+00:33:44,490 --> 00:33:57,730
+ - OK, so how much of this is standard Ansible, or at least
+
+424
+00:33:57,730 --> 00:33:59,930
+ readily available Ansible scripts?
+
+425
+00:33:59,930 --> 00:34:01,890
+ How much is custom Ansible scripts,
+
+426
+00:34:01,890 --> 00:34:03,890
+ and how much is custom Glue code?
+
+427
+00:34:03,890 --> 00:34:10,370
+ - Depends on what you consider Glue code.
+
+428
+00:34:10,370 --> 00:34:16,570
+ I have re-implemented some modules.
+
+429
+00:34:16,570 --> 00:34:20,330
+ The biggest of those are the secret management,
+
+430
+00:34:20,330 --> 00:34:24,050
+ which will hopefully be open sourced soon.
+
+431
+00:34:24,050 --> 00:34:29,210
+ And the Proxmox API, I've written a small wrapper
+
+432
+00:34:29,210 --> 00:34:32,170
+ so you can directly interact, because community
+
+433
+00:34:32,170 --> 00:34:40,090
+ general Proxmox Ansible modules try to abstract very much.
+
+434
+00:34:40,090 --> 00:34:52,650
+ So you can't configure things directly in some cases.
+
+435
+00:34:52,650 --> 00:34:56,090
+ So I've just written a small wrapper around the Python
+
+436
+00:34:56,090 --> 00:35:01,690
+ library Proxmoxer, which just passes through the arguments
+
+437
+00:35:01,690 --> 00:35:06,570
+ to Proxmoxer directly without any logic in between.
+
+438
+00:35:06,570 --> 00:35:09,010
+ - Just as a reminder, we can also
+
+439
+00:35:09,010 --> 00:35:11,530
+ have a Signal Angel, so if you watch on the internet,
+
+440
+00:35:11,530 --> 00:35:18,370
+ you can also ask a question with the hashtag #CCCCam23NOTX.
+
+441
+00:35:18,370 --> 00:35:20,810
+ Now the next question.
+
+442
+00:35:20,810 --> 00:35:24,010
+ - How do you handle backups and restoring them
+
+443
+00:35:24,010 --> 00:35:27,850
+ if something gets broken or something doesn't work anymore?
+
+444
+00:35:27,850 --> 00:35:35,490
+ - OK, I ran a backup before every Ansible deployment
+
+445
+00:35:35,490 --> 00:35:40,970
+ automatically, which means that I can simply restore the container
+
+446
+00:35:40,970 --> 00:35:44,730
+ to the state it was before the deployment.
+
+447
+00:35:44,730 --> 00:35:50,290
+ Those backups are capped for five times or something like that.
+
+448
+00:35:50,290 --> 00:35:54,810
+ So you have your standard backup rotation there.
+
+449
+00:35:54,810 --> 00:35:59,050
+ And Ansible just creates a backup in case something goes wrong.
+
+450
+00:35:59,050 --> 00:36:01,210
+ You can just restore the previous state
+
+451
+00:36:01,210 --> 00:36:04,650
+ and continue from there.
+
+452
+00:36:04,650 --> 00:36:06,410
+ - Thank you for the presentation.
+
+453
+00:36:06,410 --> 00:36:09,330
+ You said you are going to decommission the system now
+
+454
+00:36:09,330 --> 00:36:10,450
+ in the background.
+
+455
+00:36:10,450 --> 00:36:11,690
+ I'm quite curious.
+
+456
+00:36:11,690 --> 00:36:16,570
+ Is it like extra roles you wrote for unregistering the VM
+
+457
+00:36:16,570 --> 00:36:20,370
+ on Proxmox and the DNS entries?
+
+458
+00:36:20,370 --> 00:36:24,490
+ - I have written most playbooks which
+
+459
+00:36:24,490 --> 00:36:27,770
+ deal with deep with provisioning and deep provisioning
+
+460
+00:36:27,770 --> 00:36:29,770
+ to do it themselves.
+
+461
+00:36:29,770 --> 00:36:33,410
+ You have a variable which will tell
+
+462
+00:36:33,410 --> 00:36:39,250
+ it's the netbox status variable, which will just tell you,
+
+463
+00:36:39,250 --> 00:36:41,770
+ is it active, is it deep provisioning, is it offline?
+
+464
+00:36:41,770 --> 00:36:49,450
+ And the playbooks decide on those variables what to do.
+
+465
+00:36:49,450 --> 00:36:51,810
+ - So you have a complete list of all your VMs.
+
+466
+00:36:51,810 --> 00:36:54,570
+ And if one is not in the list but on Proxmox,
+
+467
+00:36:54,570 --> 00:36:56,210
+ it gets deleted.
+
+468
+00:36:56,210 --> 00:36:58,290
+ - No.
+
+469
+00:36:58,290 --> 00:37:01,290
+ I'll just show you.
+
+470
+00:37:01,290 --> 00:37:09,090
+ When we switch over to our netbox,
+
+471
+00:37:09,090 --> 00:37:14,050
+ we just change the status to decommissioning,
+
+472
+00:37:14,050 --> 00:37:17,730
+ which is just this.
+
+473
+00:37:17,730 --> 00:37:21,490
+ And now we save it.
+
+474
+00:37:21,490 --> 00:37:25,370
+ And afterwards, we can switch back to our deployment.
+
+475
+00:37:28,930 --> 00:37:49,810
+ And now the system will detect the change from netbox
+
+476
+00:37:49,810 --> 00:37:52,490
+ and delete the container.
+
+477
+00:37:52,490 --> 00:37:54,610
+ We will see also that it will create a backup
+
+478
+00:37:54,610 --> 00:37:59,650
+ before the deletion, just as it would before any other Ansible
+
+479
+00:37:59,650 --> 00:38:02,290
+ run.
+
+480
+00:38:02,290 --> 00:38:04,090
+ I'll let you continue that.
+
+481
+00:38:04,090 --> 00:38:07,330
+ Is there other questions?
+
+482
+00:38:07,330 --> 00:38:09,410
+ Yeah.
+
+483
+00:38:09,410 --> 00:38:10,450
+ - Sorry.
+
+484
+00:38:10,450 --> 00:38:14,170
+ Just do you have some experience on secrets management
+
+485
+00:38:14,170 --> 00:38:17,610
+ in a more enterprisey environment?
+
+486
+00:38:17,610 --> 00:38:20,730
+ - What do you mean by more enterprisey?
+
+487
+00:38:20,730 --> 00:38:22,650
+ - I mean, with one Yubikey, you just have one.
+
+488
+00:38:22,650 --> 00:38:26,050
+ But you have several people needing to access the manager--
+
+489
+00:38:26,050 --> 00:38:27,370
+ a part of HashiCodeWalt.
+
+490
+00:38:27,370 --> 00:38:31,410
+ - Yeah.
+
+491
+00:38:31,410 --> 00:38:38,490
+ You can scale the way I've done it to a small team.
+
+492
+00:38:38,490 --> 00:38:42,450
+ But the encryption is a serious factor
+
+493
+00:38:42,450 --> 00:38:45,650
+ when deploying hundreds of hosts,
+
+494
+00:38:45,650 --> 00:38:50,370
+ because every operation with the Yubikeys just takes some time.
+
+495
+00:38:50,370 --> 00:38:54,490
+ There are ways around that to use hashing for secret generation,
+
+496
+00:38:54,490 --> 00:38:56,090
+ for example.
+
+497
+00:38:56,090 --> 00:38:58,690
+ I am planning to implement something like that
+
+498
+00:38:58,690 --> 00:39:00,130
+ in the future.
+
+499
+00:39:00,130 --> 00:39:02,410
+ But I haven't implemented it yet.
+
+500
+00:39:02,410 --> 00:39:11,330
+ - Do we have any questions left?
+
+501
+00:39:11,330 --> 00:39:15,490
+ - Hello.
+
+502
+00:39:15,490 --> 00:39:17,970
+ With regards to the scope of the secrets,
+
+503
+00:39:17,970 --> 00:39:21,050
+ is it just for stuff that's stored encrypted outside
+
+504
+00:39:21,050 --> 00:39:22,170
+ the container and inside?
+
+505
+00:39:22,170 --> 00:39:25,050
+ Or is it stored encrypted outside, then decrypted inside?
+
+506
+00:39:25,050 --> 00:39:26,290
+ What's the scope for that?
+
+507
+00:39:26,290 --> 00:39:26,770
+ - Yeah.
+
+508
+00:39:26,770 --> 00:39:32,370
+ It is stored encrypted outside the container
+
+509
+00:39:32,370 --> 00:39:37,330
+ and unencrypted inside, because usually the config files don't
+
+510
+00:39:37,330 --> 00:39:39,290
+ allow for encryption.
+
+511
+00:39:39,290 --> 00:39:41,570
+ If you have a config file that allows for encryption
+
+512
+00:39:41,570 --> 00:39:43,970
+ or hashing, you should do that.
+
+513
+00:39:43,970 --> 00:39:46,770
+ And I do that.
+
+514
+00:39:46,770 --> 00:39:48,930
+ But sometimes, if it's not possible to do it,
+
+515
+00:39:48,930 --> 00:39:51,930
+ it will be stored unencrypted inside the container
+
+516
+00:39:51,930 --> 00:39:53,170
+ and encrypted outside.
+
+517
+00:39:53,170 --> 00:40:01,890
+ - How much time does it take to set up
+
+518
+00:40:01,890 --> 00:40:07,090
+ a whole new service which contains about three or four
+
+519
+00:40:07,090 --> 00:40:11,570
+ new processes which need to be started, a database, and so on?
+
+520
+00:40:11,570 --> 00:40:15,410
+ How much time do you need to set up all these Ansible scripts
+
+521
+00:40:15,410 --> 00:40:21,130
+ and all this stuff if you know how to deploy everything?
+
+522
+00:40:21,130 --> 00:40:27,330
+ - So you mean like if I, for example, have a service that I
+
+523
+00:40:27,330 --> 00:40:29,210
+ don't have a script for, how much time
+
+524
+00:40:29,210 --> 00:40:31,610
+ it takes to write an Ansible playbook to run it?
+
+525
+00:40:31,610 --> 00:40:32,570
+ - Yes, of course.
+
+526
+00:40:32,570 --> 00:40:35,970
+ If you know how to deploy the service, it's fine.
+
+527
+00:40:35,970 --> 00:40:38,730
+ - OK, so yeah.
+
+528
+00:40:38,730 --> 00:40:42,010
+ As most services, they're usually the same structure.
+
+529
+00:40:42,010 --> 00:40:44,130
+ You have your system D units, and you
+
+530
+00:40:44,130 --> 00:40:48,090
+ have your code which has to be installed some way.
+
+531
+00:40:48,090 --> 00:40:53,090
+ That is usually a copy paste job of just taking
+
+532
+00:40:53,090 --> 00:40:59,490
+ another similar process and just changing a few things, right?
+
+533
+00:40:59,490 --> 00:41:03,450
+ So a basic role can be done in about an hour
+
+534
+00:41:03,450 --> 00:41:10,410
+ and a more advanced one in like 10 hours to a few weeks,
+
+535
+00:41:10,410 --> 00:41:12,250
+ depending on the size of the project.
+
+536
+00:41:12,250 --> 00:41:12,750
+ - Correct.
+
+537
+00:41:12,750 --> 00:41:20,330
+ OK, as we can see before, we have now changed our state.
+
+538
+00:41:20,330 --> 00:41:23,130
+ The proxmas ID has been given back to the pool.
+
+539
+00:41:23,130 --> 00:41:27,650
+ The device is offline, and the container has been removed.
+
+540
+00:41:27,650 --> 00:41:34,730
+ Final step here is to remove our DNS records, which
+
+541
+00:41:34,730 --> 00:41:38,050
+ will just remove the old records.
+
+542
+00:41:38,050 --> 00:41:42,490
+ And then the rest won't run because it knows
+
+543
+00:41:42,490 --> 00:41:45,650
+ that the device is now offline.
+
+544
+00:41:45,650 --> 00:41:53,170
+ And one final thing is to remove the entries in your .ssh known
+
+545
+00:41:53,170 --> 00:41:55,650
+ hosts file.
+
+546
+00:41:55,650 --> 00:41:57,610
+ Yeah, those will be removed.
+
+547
+00:41:57,610 --> 00:42:00,170
+ And now you can redeploy your host under the same IP
+
+548
+00:42:00,170 --> 00:42:03,450
+ address without SSH.
+
+549
+00:42:03,450 --> 00:42:07,330
+ Yeah, shitting its pants, to be honest.
+
+550
+00:42:07,330 --> 00:42:08,810
+ OK, are there any more questions?
+
+551
+00:42:08,810 --> 00:42:23,210
+ - You use containers.
+
+552
+00:42:23,210 --> 00:42:27,290
+ This works also with normal ProcFox VMs?
+
+553
+00:42:27,290 --> 00:42:29,090
+ - Yes.
+
+554
+00:42:29,090 --> 00:42:33,730
+ The configuration is a bit different because in VMs,
+
+555
+00:42:33,730 --> 00:42:37,210
+ you usually have to configure the IP addresses inside the VM
+
+556
+00:42:37,210 --> 00:42:38,970
+ and not inside ProcFox.
+
+557
+00:42:38,970 --> 00:42:46,090
+ But that's just a change to your deployment playbooks.
+
+558
+00:42:46,090 --> 00:42:49,610
+ And you can have that work as well.
+
+559
+00:42:49,610 --> 00:42:57,170
+ You could even go as far as to do that with a host.
+
+560
+00:42:57,170 --> 00:42:59,170
+ You just screw it into your rack.
+
+561
+00:42:59,170 --> 00:43:03,650
+ So you just install your base system.
+
+562
+00:43:03,650 --> 00:43:06,570
+ And then from there, you can deploy just
+
+563
+00:43:06,570 --> 00:43:07,810
+ like any other machine.
+
+564
+00:43:07,810 --> 00:43:22,410
+ Any further questions?
+
+565
+00:43:22,410 --> 00:43:30,450
+ - OK, then thank you for your talk.
+
+566
+00:43:30,450 --> 00:43:36,210
+ It was interesting for all of us.
+
+567
+00:43:36,210 --> 00:43:39,890
+ And a huge applause for Jadyn.
+
+568
+00:43:39,890 --> 00:43:42,930
+ [APPLAUSE]
+
+569
+00:43:42,930 --> 00:43:46,290
+ [MUSIC PLAYING]
+
+570
+00:43:46,410 --> 00:43:49,770
+ [MUSIC PLAYING]
+
+571
+00:43:49,770 --> 00:43:51,410
+ [ music playing ]
+

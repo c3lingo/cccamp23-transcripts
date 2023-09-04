@@ -1,0 +1,1052 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ [MUSIC]
+
+00:00:10.000 --> 00:00:20.000
+ [MUSIC]
+
+00:00:20.000 --> 00:00:35.920
+ Now, it's my very great pleasure to give the word over for the talk,
+
+00:00:35.920 --> 00:00:42.000
+ Dear MEP, Free Software Infrastructure for Online Campaigning in the EU.
+
+00:00:42.000 --> 00:00:44.160
+ And please give a hand of applause to our speakers.
+
+00:00:44.160 --> 00:00:50.480
+ >> [APPLAUSE]
+
+00:00:50.480 --> 00:00:52.600
+ >> Thank you that you join us late at night.
+
+00:00:52.600 --> 00:00:56.720
+ We are very happy that we can do a little bit of an introduction and
+
+00:00:56.720 --> 00:00:59.920
+ announcement to the free software that we are developing.
+
+00:00:59.920 --> 00:01:02.800
+ My name is Thomas Lohninger, I'm Executive Director of AP Center Works and
+
+00:01:02.800 --> 00:01:06.720
+ the Boston Digital Rights Organization and also Vice President of EDGIE,
+
+00:01:06.720 --> 00:01:11.800
+ the umbrella of almost all digital rights NGOs working in the European Union.
+
+00:01:11.800 --> 00:01:14.480
+ And I'm here joined today with Tim Weber.
+
+00:01:14.480 --> 00:01:16.840
+ >> Right, I'm Tim or Sky.
+
+00:01:16.840 --> 00:01:21.640
+ I don't have as many titles, I'm a freelance software developer.
+
+00:01:21.640 --> 00:01:27.520
+ And I've been around this whole chaos family since 2005 or something like that.
+
+00:01:27.520 --> 00:01:28.020
+ So yeah.
+
+00:01:28.020 --> 00:01:32.200
+ >> Great, yeah, let's get started.
+
+00:01:32.200 --> 00:01:37.600
+ There's a little bit of theoretical overview and then we will show you a preview.
+
+00:01:37.600 --> 00:01:41.240
+ And mind you that there is also access to the tool available for
+
+00:01:41.240 --> 00:01:42.920
+ everyone here at camp.
+
+00:01:42.920 --> 00:01:47.680
+ The URL will be announced later and we also had handouts.
+
+00:01:47.680 --> 00:01:49.600
+ But first let's explain a little bit why we are here.
+
+00:01:49.600 --> 00:01:52.320
+ Can you turn to the next slide?
+
+00:01:52.320 --> 00:01:54.440
+ Yeah, exactly.
+
+00:01:54.440 --> 00:01:57.360
+ So what's the theory of change?
+
+00:01:57.360 --> 00:01:58.360
+ Why are we doing this?
+
+00:01:58.360 --> 00:02:04.120
+ Our basic idea is that political decisions worsen when politicians are left alone.
+
+00:02:04.120 --> 00:02:06.840
+ Particularly with difficult things like internet regulation.
+
+00:02:06.840 --> 00:02:10.080
+ Technology regulation is inherently difficult.
+
+00:02:10.080 --> 00:02:14.160
+ And we believe that our community, that the hacker community,
+
+00:02:14.160 --> 00:02:19.240
+ that people that are actually living in the internet have important things to say.
+
+00:02:19.240 --> 00:02:23.040
+ And that in today's world, particularly young people and
+
+00:02:23.040 --> 00:02:27.320
+ people that are very much connected with the internet should be heard
+
+00:02:27.320 --> 00:02:31.920
+ when politicians are making laws about technology and about the internet.
+
+00:02:31.920 --> 00:02:35.040
+ And our tool tries to bridge that divide.
+
+00:02:35.040 --> 00:02:37.840
+ Our tool tries to connect citizens and
+
+00:02:37.840 --> 00:02:41.200
+ average users with their political decision makers.
+
+00:02:41.200 --> 00:02:46.160
+ In our case, members of the European Parliament, MEPs, so those people that we
+
+00:02:46.160 --> 00:02:51.000
+ elect every four years that sit in the European Parliament in Brussels and
+
+00:02:51.000 --> 00:02:55.240
+ in Strasbourg and make these very important decisions.
+
+00:02:55.240 --> 00:03:01.760
+ And those 705 MEPs come from all countries of the EU.
+
+00:03:01.760 --> 00:03:03.400
+ Those people are elected by us.
+
+00:03:03.400 --> 00:03:05.600
+ They should be accountable to us.
+
+00:03:05.600 --> 00:03:10.600
+ And in the way the European Union works, whenever a law is made,
+
+00:03:10.600 --> 00:03:12.720
+ the parliamentarians have their say.
+
+00:03:12.720 --> 00:03:16.880
+ And there is a complex system between Brussels and Strasbourg and
+
+00:03:16.880 --> 00:03:21.320
+ various committees where every law has to be voted on various stages until you have
+
+00:03:21.320 --> 00:03:26.280
+ a final piece of text that is the official position of the European Parliament.
+
+00:03:26.280 --> 00:03:29.760
+ And it doesn't matter if you go back to the softer patterns from the 90s or
+
+00:03:29.760 --> 00:03:32.720
+ the GDPR or net neutrality copyright.
+
+00:03:32.720 --> 00:03:37.400
+ It is always the case that we usually have our best chance to adhere to civil
+
+00:03:37.400 --> 00:03:42.480
+ rights, to enshrine fundamental rights in the law with those 705
+
+00:03:42.480 --> 00:03:44.040
+ members of European Parliament.
+
+00:03:44.040 --> 00:03:47.560
+ Those are the people that we vote for, not some government officials from
+
+00:03:47.560 --> 00:03:51.880
+ ministries, and that's why they are our best chance to have future proof
+
+00:03:51.880 --> 00:03:57.400
+ legislation adopted for half a billion people in the biggest market in the world,
+
+00:03:57.400 --> 00:03:58.720
+ which is the EU.
+
+00:03:58.720 --> 00:04:02.360
+ And you know that the EU often sets global standards, so we really believe
+
+00:04:02.360 --> 00:04:05.800
+ that we need to look closely for the quality of those decisions.
+
+00:04:05.800 --> 00:04:12.520
+ And what we did in the past, in 2013-14, with safetyinternet.eu,
+
+00:04:12.520 --> 00:04:16.520
+ was that we sent faxes to the members of the European Parliament.
+
+00:04:16.520 --> 00:04:22.320
+ Back then, it was the beautiful case that when you send a fax to an MEP,
+
+00:04:22.320 --> 00:04:25.960
+ they all have their office, they all have their staff, it's a physical office
+
+00:04:25.960 --> 00:04:29.880
+ they have, and in there is a multifunctional printer.
+
+00:04:29.880 --> 00:04:34.400
+ And when you send a fax to that printer, it gets printed out on paper.
+
+00:04:34.400 --> 00:04:39.280
+ And you cannot disconnect the fax without also disconnecting the printer.
+
+00:04:39.280 --> 00:04:43.480
+ So we hacked that, basically, for net neutrality back then.
+
+00:04:43.480 --> 00:04:46.320
+ And so many trees were killed in the process.
+
+00:04:46.320 --> 00:04:47.320
+ I have to say.
+
+00:04:47.320 --> 00:04:49.520
+ But this was really efficient.
+
+00:04:49.520 --> 00:04:53.000
+ I still remember the stories from liberal politicians,
+
+00:04:53.000 --> 00:04:56.960
+ FDP from Germany, where the politician was really not our friend.
+
+00:04:56.960 --> 00:05:01.520
+ But because every morning, he had a pile of paper on his desk
+
+00:05:01.520 --> 00:05:06.440
+ from citizens that wanted to have their opinion heard by this politician.
+
+00:05:06.440 --> 00:05:09.640
+ And the staffers really had this pile of paper every day,
+
+00:05:09.640 --> 00:05:13.560
+ so they couldn't ignore the citizens' opinion.
+
+00:05:13.560 --> 00:05:16.720
+ And that's also one of the reasons why we won Infrastreeding
+
+00:05:16.720 --> 00:05:19.200
+ in the European Parliament for Net Neutrality.
+
+00:05:19.200 --> 00:05:21.160
+ And then we continued on.
+
+00:05:21.160 --> 00:05:25.720
+ You all remember upload filters, Article 13 in the copyright directive.
+
+00:05:25.720 --> 00:05:29.400
+ And back in 2019, we did a similar campaign.
+
+00:05:29.400 --> 00:05:32.880
+ But because we were so successful with the faxes,
+
+00:05:32.880 --> 00:05:35.760
+ faxes are no longer available in the printer.
+
+00:05:35.760 --> 00:05:37.640
+ They are now received in Outlook.
+
+00:05:37.640 --> 00:05:40.000
+ That means they are also in the spam filter.
+
+00:05:40.000 --> 00:05:43.520
+ They are no longer a viable way to reach the politician.
+
+00:05:43.520 --> 00:05:45.560
+ Telephone still is.
+
+00:05:45.560 --> 00:05:51.600
+ And in a very hasty campaign in 2019, we actually developed a call tool
+
+00:05:51.600 --> 00:05:54.160
+ where people could call their members of European Parliament,
+
+00:05:54.160 --> 00:05:57.520
+ not just once, but also having a call subscription,
+
+00:05:57.520 --> 00:06:02.240
+ where every day you would be connected to the same politician from your country.
+
+00:06:02.240 --> 00:06:05.880
+ And it was a way for us to really make a difference.
+
+00:06:05.880 --> 00:06:10.800
+ Even allies of ours, like Marit De Schaake from the Liberal Dutch Party,
+
+00:06:10.800 --> 00:06:14.680
+ D66, said that was really helpful, but never do it again.
+
+00:06:14.680 --> 00:06:19.400
+ Because whenever we were in the office, the phone was ringing.
+
+00:06:19.400 --> 00:06:23.680
+ And whenever you are done with that one citizen, the phone would ring again.
+
+00:06:23.680 --> 00:06:27.960
+ So that was a very efficient way to reach parliamentarians in 2019.
+
+00:06:27.960 --> 00:06:31.000
+ But sadly, that software was a really ugly piece of thing
+
+00:06:31.000 --> 00:06:33.000
+ that we just developed hastily.
+
+00:06:33.000 --> 00:06:34.320
+ And it's not usable.
+
+00:06:34.320 --> 00:06:39.000
+ It was never open source because it wouldn't be something
+
+00:06:39.000 --> 00:06:42.120
+ that's stable, usable for many campaigns.
+
+00:06:42.120 --> 00:06:45.000
+ And that's why we created DRMEP.
+
+00:06:45.000 --> 00:06:50.240
+ The basic premise of this tool is that, yes, this will be disturbing.
+
+00:06:50.240 --> 00:06:54.040
+ Yes, politicians would rather prefer being left alone
+
+00:06:54.040 --> 00:06:57.200
+ with their power without hearing from their constituency.
+
+00:06:57.200 --> 00:07:01.360
+ But we believe it's time that they are accountable to their citizens
+
+00:07:01.360 --> 00:07:05.520
+ and that they need to listen to the opinions from experts.
+
+00:07:05.520 --> 00:07:07.680
+ And we all are experts here in the room.
+
+00:07:07.680 --> 00:07:11.160
+ When it comes to technology, I think all of us have valuable things
+
+00:07:11.160 --> 00:07:15.320
+ to contribute to this difficult problem of regulation of tech.
+
+00:07:15.320 --> 00:07:20.480
+ And these tools that we are developing here are commonplace in the US.
+
+00:07:20.480 --> 00:07:23.920
+ You have many tools that call Congress is one example.
+
+00:07:23.920 --> 00:07:28.720
+ In the UK, this is very common that you get connected with your member
+
+00:07:28.720 --> 00:07:31.000
+ of parliament in the House of Commons.
+
+00:07:31.000 --> 00:07:33.720
+ In the EU, this is really not something that's done.
+
+00:07:33.720 --> 00:07:36.880
+ And we would like to fill that gap.
+
+00:07:36.880 --> 00:07:41.640
+ And one thing that we do here is not just to offer a phone tool
+
+00:07:41.640 --> 00:07:45.320
+ that makes it very easy to connect with politicians.
+
+00:07:45.320 --> 00:07:48.440
+ We are also focusing on the movable middle.
+
+00:07:48.440 --> 00:07:53.280
+ In every political decision, there is a side that you've already won.
+
+00:07:53.280 --> 00:07:55.360
+ Like, let's take chat control.
+
+00:07:55.360 --> 00:07:58.800
+ You don't need to convince Patrick Breyer from the pirate party.
+
+00:07:58.800 --> 00:08:00.680
+ He is already on our side.
+
+00:08:00.680 --> 00:08:05.600
+ You will also never convince Axel Frost from the CDU, from the conservatives.
+
+00:08:05.600 --> 00:08:08.680
+ What you have to focus on, if you really want to get a majority,
+
+00:08:08.680 --> 00:08:12.960
+ is to focus on the movable middle, on those politicians that are yet left
+
+00:08:12.960 --> 00:08:17.640
+ undecided, that can still be convinced with good arguments.
+
+00:08:17.640 --> 00:08:21.840
+ If they hear from people in their own language that truly care
+
+00:08:21.840 --> 00:08:25.760
+ about the issue they have to vote upon, we believe that focusing
+
+00:08:25.760 --> 00:08:29.920
+ on that movable middle with giving people a voice is a great way
+
+00:08:29.920 --> 00:08:34.600
+ to actually increase the quality of the laws that get adopted.
+
+00:08:34.600 --> 00:08:38.800
+ And so to sum things up, what we try to solve with this tool
+
+00:08:38.800 --> 00:08:44.160
+ is to really make it easy for users to engage with the EU.
+
+00:08:44.160 --> 00:08:46.640
+ The EU is a difficult beast.
+
+00:08:46.640 --> 00:08:50.760
+ There is process, there is trust books, there are 705 MEPs.
+
+00:08:50.760 --> 00:08:55.320
+ You really have a hard time trying to even get your opinion
+
+00:08:55.320 --> 00:08:58.680
+ to the person that could theoretically vote on this.
+
+00:08:58.680 --> 00:09:03.040
+ And so we try to abstract everything that concerns the EU machinery.
+
+00:09:03.040 --> 00:09:08.200
+ You only need to care about the issue and make your own voice heard.
+
+00:09:08.200 --> 00:09:11.720
+ Of course, if you do international calls, they should usually be a cost.
+
+00:09:11.720 --> 00:09:15.040
+ Particularly if you do this seriously, there could be roaming charges
+
+00:09:15.040 --> 00:09:17.760
+ depending on the price of your mobile phone contract.
+
+00:09:17.760 --> 00:09:20.920
+ That will not be the case with our tool, because we call the user.
+
+00:09:20.920 --> 00:09:24.320
+ There is no cost at all for a citizen.
+
+00:09:24.320 --> 00:09:30.320
+ We believe that we have an obligation as providers of this tool
+
+00:09:30.320 --> 00:09:34.040
+ to really maximise the time that people are donating.
+
+00:09:34.040 --> 00:09:37.120
+ The users are volunteers, they don't get paid for that.
+
+00:09:37.120 --> 00:09:38.720
+ They care about something.
+
+00:09:38.720 --> 00:09:45.200
+ And really making the most out of the 20, 15, 30 minutes a week
+
+00:09:45.200 --> 00:09:49.400
+ that they want to contribute for an issue is our obligation.
+
+00:09:49.400 --> 00:09:54.200
+ And that's why we try to maximise the impact from every phone call.
+
+00:09:54.200 --> 00:09:56.480
+ As I said, don't call us, we call you.
+
+00:09:56.480 --> 00:10:00.640
+ And most importantly, and that's the difference to the copyright campaign
+
+00:10:00.640 --> 00:10:04.920
+ we did in 2019, this is a white label solution.
+
+00:10:04.920 --> 00:10:09.840
+ So it will be usable for these rights campaigns, but also for climate,
+
+00:10:09.840 --> 00:10:14.120
+ for migration issues, for any issue that people care about.
+
+00:10:14.120 --> 00:10:18.280
+ And that's also why we released the software under a GPL license,
+
+00:10:18.280 --> 00:10:22.040
+ because it's our belief that the path to parliament
+
+00:10:22.040 --> 00:10:26.320
+ should be as long or as short for everybody.
+
+00:10:26.320 --> 00:10:29.120
+ In a democracy, everybody should have equality
+
+00:10:29.120 --> 00:10:34.000
+ when it comes to influencing politicians and decision makers.
+
+00:10:34.000 --> 00:10:38.280
+ And I think that's, yeah, there's also concept note.
+
+00:10:38.280 --> 00:10:40.760
+ We haven't published this yet, but that's freely available
+
+00:10:40.760 --> 00:10:43.000
+ for people that want to engage.
+
+00:10:43.000 --> 00:10:45.560
+ It gives a good outline of what we try to achieve,
+
+00:10:45.560 --> 00:10:48.200
+ what also future development steps would be.
+
+00:10:48.200 --> 00:10:51.840
+ But let's leave it at the theoretical level,
+
+00:10:51.840 --> 00:10:54.160
+ and I would love to show you the demonstration
+
+00:10:54.160 --> 00:10:57.600
+ of the tool that we already have.
+
+00:10:57.600 --> 00:10:59.280
+ Right, yeah, so that's the demo.
+
+00:10:59.280 --> 00:11:03.360
+ So this is where things can actually go wrong, right?
+
+00:11:03.360 --> 00:11:06.040
+ So as you can see, I'll just...
+
+00:11:06.040 --> 00:11:08.480
+ We have handouts for the people who are there.
+
+00:11:08.480 --> 00:11:11.000
+ That's the URL, it's live right now.
+
+00:11:11.000 --> 00:11:16.080
+ It's chatcontrol.dermep.eu.
+
+00:11:16.080 --> 00:11:21.360
+ Just a small announcement, this is live and accessible for the camp right now.
+
+00:11:21.360 --> 00:11:27.080
+ We will probably, like, password protect it later on at some point.
+
+00:11:27.080 --> 00:11:31.320
+ So if you're watching a recording of this and you can't access the site,
+
+00:11:31.320 --> 00:11:35.400
+ yeah, then it's over.
+
+00:11:35.400 --> 00:11:39.360
+ So what you see here is basically the page you're seeing
+
+00:11:39.360 --> 00:11:42.320
+ when you first open the tool.
+
+00:11:42.320 --> 00:11:44.400
+ You can switch the language.
+
+00:11:44.400 --> 00:11:49.680
+ So right now we have it available in German, English, and Swedish.
+
+00:11:49.680 --> 00:11:53.920
+ And as I said, here's where things go wrong, right?
+
+00:11:53.920 --> 00:11:59.320
+ Let me just refresh this real quick.
+
+00:11:59.320 --> 00:12:01.800
+ Let's hope we have an internet connection here.
+
+00:12:01.800 --> 00:12:04.840
+ Internet conferences are prone to weak internet connection.
+
+00:12:04.840 --> 00:12:09.040
+ But the thing is, I have a local instance running as well,
+
+00:12:09.040 --> 00:12:12.000
+ so I can just use that, right?
+
+00:12:12.000 --> 00:12:15.040
+ OK, so yeah, you can switch the language,
+
+00:12:15.040 --> 00:12:17.720
+ and also there's a geolocation built in.
+
+00:12:17.720 --> 00:12:20.280
+ So whenever you access the site for the first time,
+
+00:12:20.280 --> 00:12:23.400
+ it will detect which country you are coming from.
+
+00:12:23.400 --> 00:12:26.040
+ This is all done without third-party services,
+
+00:12:26.040 --> 00:12:30.240
+ so we really focus a lot on privacy here.
+
+00:12:30.240 --> 00:12:34.120
+ So you can see there's a lot of countries in the EU,
+
+00:12:34.120 --> 00:12:36.760
+ and I can simply say, OK, I'm from the Netherlands,
+
+00:12:36.760 --> 00:12:43.600
+ and it will suggest a member of parliament from there to me.
+
+00:12:43.600 --> 00:12:46.720
+ So this is basically what the system thinks that...
+
+00:12:46.720 --> 00:12:49.080
+ or one of the persons that the system thinks
+
+00:12:49.080 --> 00:12:53.520
+ that would be beneficial to call.
+
+00:12:53.520 --> 00:12:56.320
+ If you don't like calling this particular person,
+
+00:12:56.320 --> 00:12:58.800
+ you can always press this refresh button,
+
+00:12:58.800 --> 00:13:02.080
+ and it will suggest someone different.
+
+00:13:02.080 --> 00:13:05.200
+ But you can also say, if you like...
+
+00:13:05.200 --> 00:13:07.640
+ You can also use the search function right now.
+
+00:13:07.640 --> 00:13:11.280
+ If you just click it, it will show you every MEP from the Netherlands,
+
+00:13:11.280 --> 00:13:14.640
+ but you can also search for your favorite politician
+
+00:13:14.640 --> 00:13:16.080
+ or something like that.
+
+00:13:16.080 --> 00:13:18.640
+ And just select that one.
+
+00:13:18.640 --> 00:13:23.200
+ So we also have here a lot of social media profiles
+
+00:13:23.200 --> 00:13:26.160
+ and other ways to contact these persons.
+
+00:13:26.160 --> 00:13:28.560
+ Also, the phone numbers, for example,
+
+00:13:28.560 --> 00:13:31.080
+ there's a calendar built in
+
+00:13:31.080 --> 00:13:35.360
+ because they switch between Brussels and Strasbourg.
+
+00:13:35.360 --> 00:13:38.800
+ So the system will always give you the right number
+
+00:13:38.800 --> 00:13:41.200
+ for where they are right now.
+
+00:13:41.200 --> 00:13:45.040
+ And, yeah, if I just have this person,
+
+00:13:45.040 --> 00:13:46.560
+ I would...
+
+00:13:46.560 --> 00:13:48.640
+ If I want to call Axel Forze right now,
+
+00:13:48.640 --> 00:13:50.240
+ I could say, "Call now."
+
+00:13:50.240 --> 00:13:51.240
+ So...
+
+00:13:51.240 --> 00:13:53.840
+ And here we are at the point
+
+00:13:53.840 --> 00:13:55.480
+ where you have to give us your phone number.
+
+00:13:55.480 --> 00:13:59.760
+ That's the only piece of identification from you that we get.
+
+00:13:59.760 --> 00:14:02.800
+ And, I mean, without your phone number, we can't connect you,
+
+00:14:02.800 --> 00:14:05.280
+ so that's fair game, I think.
+
+00:14:05.280 --> 00:14:07.680
+ So it just enters some kind of phone number.
+
+00:14:07.680 --> 00:14:08.960
+ And I...
+
+00:14:08.960 --> 00:14:11.520
+ Yes, I have read and accepted the privacy policy.
+
+00:14:11.520 --> 00:14:14.120
+ By the way, we already have a working privacy policy
+
+00:14:14.120 --> 00:14:15.720
+ if you're interested in that.
+
+00:14:15.720 --> 00:14:17.520
+ And...
+
+00:14:17.520 --> 00:14:19.200
+ So it's...
+
+00:14:19.200 --> 00:14:21.840
+ I click it, it sends me a code on my mobile phone.
+
+00:14:21.840 --> 00:14:24.200
+ "Oh, yeah, all right, my code is...
+
+00:14:24.200 --> 00:14:26.960
+ "1, 2, 3, 4, 5, 6, of course."
+
+00:14:26.960 --> 00:14:28.840
+ And...
+
+00:14:28.840 --> 00:14:31.200
+ I verify this. So, yeah.
+
+00:14:31.200 --> 00:14:33.840
+ We are now successfully verified with this number.
+
+00:14:33.840 --> 00:14:35.320
+ And we can now start a call.
+
+00:14:35.320 --> 00:14:38.400
+ So what would happen in this instance,
+
+00:14:38.400 --> 00:14:40.000
+ not right now,
+
+00:14:40.000 --> 00:14:44.000
+ is that our phone would ring
+
+00:14:44.000 --> 00:14:46.000
+ and we would pick up the phone
+
+00:14:46.000 --> 00:14:49.520
+ and some nice voice, maybe of Thomas or someone else,
+
+00:14:49.520 --> 00:14:51.920
+ would say, "OK, hi, this is DRMEP.
+
+00:14:51.920 --> 00:14:55.440
+ "Would you like to be connected to Axle Force?"
+
+00:14:55.440 --> 00:14:59.360
+ And then you could, like, press 1 or 2 or something like that,
+
+00:14:59.360 --> 00:15:03.720
+ and you would be connected to the office of Axle Force.
+
+00:15:03.720 --> 00:15:06.240
+ So let's click Start Call,
+
+00:15:06.240 --> 00:15:08.160
+ and we'll call you right away.
+
+00:15:08.160 --> 00:15:12.120
+ And as you can see, there are talking points right here.
+
+00:15:12.120 --> 00:15:14.760
+ So ignore this for a moment.
+
+00:15:14.760 --> 00:15:17.280
+ This is just the mock-up.
+
+00:15:17.280 --> 00:15:21.480
+ So this is already showing what you would see
+
+00:15:21.480 --> 00:15:23.200
+ if the call were over.
+
+00:15:23.200 --> 00:15:25.000
+ So we have a lot of talking points
+
+00:15:25.000 --> 00:15:27.840
+ which you can scroll through during your call
+
+00:15:27.840 --> 00:15:29.960
+ to aid you in...
+
+00:15:29.960 --> 00:15:31.600
+ Yeah.
+
+00:15:31.600 --> 00:15:34.640
+ In talking to the person.
+
+00:15:34.640 --> 00:15:37.000
+ And after the call,
+
+00:15:37.000 --> 00:15:39.840
+ you are able to give some feedback,
+
+00:15:39.840 --> 00:15:41.920
+ like, "Were you able to convince the person?"
+
+00:15:41.920 --> 00:15:45.440
+ Let's click Yes with Axle Force. Come on, let's say.
+
+00:15:45.440 --> 00:15:47.560
+ Axle Force voted against...
+
+00:15:47.560 --> 00:15:53.840
+ ..terminology, like, the thing that just reclassified
+
+00:15:53.840 --> 00:15:55.360
+ "call power" as green.
+
+00:15:55.360 --> 00:15:58.520
+ He was actually with Fridays for Future.
+
+00:15:58.520 --> 00:16:00.640
+ So Axle Force is convincing on some issues.
+
+00:16:00.640 --> 00:16:02.480
+ Let's not give hope up on it.
+
+00:16:02.480 --> 00:16:05.240
+ And the beauty of that here is that, of course,
+
+00:16:05.240 --> 00:16:06.920
+ the system is learning.
+
+00:16:06.920 --> 00:16:08.640
+ If enough people have said,
+
+00:16:08.640 --> 00:16:11.280
+ "Yeah, I have convinced this politician,"
+
+00:16:11.280 --> 00:16:14.120
+ they will actually move to the green corner
+
+00:16:14.120 --> 00:16:16.400
+ and be out of the movable middle.
+
+00:16:16.400 --> 00:16:18.160
+ So the system is actually learning.
+
+00:16:18.160 --> 00:16:20.560
+ You don't need to divide up with Axle Sheets,
+
+00:16:20.560 --> 00:16:22.160
+ the members of parliament.
+
+00:16:22.160 --> 00:16:24.120
+ Everybody can just use that tool.
+
+00:16:24.120 --> 00:16:26.440
+ And you are always connected to the person
+
+00:16:26.440 --> 00:16:30.040
+ who is most likely to be influenced,
+
+00:16:30.040 --> 00:16:31.120
+ who can make a difference,
+
+00:16:31.120 --> 00:16:33.320
+ and the system always learns
+
+00:16:33.320 --> 00:16:35.960
+ from the users that are using it.
+
+00:16:35.960 --> 00:16:38.400
+ Right. So you can give additional feedback
+
+00:16:38.400 --> 00:16:42.000
+ if you want to, and we just click "Submit".
+
+00:16:42.000 --> 00:16:43.480
+ So we're back on the page.
+
+00:16:43.480 --> 00:16:47.320
+ We could instantly choose another person,
+
+00:16:47.320 --> 00:16:51.120
+ and let's show us the second feature.
+
+00:16:51.120 --> 00:16:53.000
+ We can also call later.
+
+00:16:53.000 --> 00:16:54.840
+ So what's "call later"?
+
+00:16:54.840 --> 00:16:59.000
+ Call later allows you to enter a schedule.
+
+00:16:59.000 --> 00:17:04.360
+ Maybe you're like, "OK, I have time each Tuesday
+
+00:17:04.360 --> 00:17:09.720
+ at around, I don't know, 13.30 to talk to a politician,
+
+00:17:09.720 --> 00:17:11.480
+ because that's right after my lunch break.
+
+00:17:11.480 --> 00:17:12.440
+ I am in a good mood,
+
+00:17:12.440 --> 00:17:15.680
+ and I would like to talk to a politician.
+
+00:17:15.680 --> 00:17:21.040
+ And on Thursday, my lunch break is basically on 1 o'clock
+
+00:17:21.040 --> 00:17:22.160
+ or something like that.
+
+00:17:22.160 --> 00:17:25.480
+ So you can enter different times for different workdays,
+
+00:17:25.480 --> 00:17:28.080
+ or you can just leave it like that,
+
+00:17:28.080 --> 00:17:32.160
+ and you can say "Confirm", and basically that's it.
+
+00:17:32.160 --> 00:17:35.400
+ So what would happen right now is the system would call you
+
+00:17:35.400 --> 00:17:39.240
+ on Tuesday at 13.30 or around 13.30,
+
+00:17:39.240 --> 00:17:42.920
+ and ask you, "Do you have time right now?
+
+00:17:42.920 --> 00:17:47.800
+ Do you want to be connected to Berg Lars Patrik?"
+
+00:17:47.800 --> 00:17:50.040
+ And yeah.
+
+00:17:50.040 --> 00:17:54.880
+ And the reason for that is that we know that,
+
+00:17:54.880 --> 00:17:56.960
+ particularly for nerds, maybe for everybody,
+
+00:17:56.960 --> 00:17:59.880
+ speaking with foreign people is not easy.
+
+00:17:59.880 --> 00:18:04.120
+ We know that this is a high ask, that actually picking up the phone,
+
+00:18:04.120 --> 00:18:09.360
+ speaking with politicians is a big favour we're asking from people.
+
+00:18:09.360 --> 00:18:12.120
+ But those people that are willing to do this once,
+
+00:18:12.120 --> 00:18:14.200
+ most likely will do it again.
+
+00:18:14.200 --> 00:18:18.560
+ And by maximising this slow conversion rate of those people
+
+00:18:18.560 --> 00:18:22.960
+ that truly care, that we want to speak with their parliamentarian,
+
+00:18:22.960 --> 00:18:26.400
+ and letting them do it again, maybe get really good at it,
+
+00:18:26.400 --> 00:18:28.400
+ that's also a beauty of this talk.
+
+00:18:28.400 --> 00:18:31.560
+ Again, we are nudging people, whenever we call you,
+
+00:18:31.560 --> 00:18:35.440
+ there will be the option "Press 9" and the subscription is cancelled.
+
+00:18:35.440 --> 00:18:38.920
+ And as I said, there's a privacy policy already in place,
+
+00:18:38.920 --> 00:18:42.000
+ the GDPR compliant, yes, we adhere to the law,
+
+00:18:42.000 --> 00:18:45.720
+ and we are very strict with the data that we process.
+
+00:18:45.720 --> 00:18:48.640
+ Most phone numbers are hashed and encrypted,
+
+00:18:48.640 --> 00:18:53.240
+ only in active call subscriptions where we need the number to connect to,
+
+00:18:53.240 --> 00:18:55.560
+ then we have it actually in the database.
+
+00:18:55.560 --> 00:19:00.640
+ But we try to be as privacy preserving and minimalistic as possible with all of that.
+
+00:19:00.640 --> 00:19:06.240
+ And as we are out of time, I'd just briefly like to say before I go to Q&A,
+
+00:19:06.240 --> 00:19:11.200
+ that this tool right now will be applied for the chat control campaign,
+
+00:19:11.200 --> 00:19:14.680
+ we are still in development, we are also here to talk with the community,
+
+00:19:14.680 --> 00:19:18.200
+ to get your feedback and your input, maybe also get some help
+
+00:19:18.200 --> 00:19:22.080
+ with testing, penetration testing, development and so forth.
+
+00:19:22.080 --> 00:19:27.040
+ But at this stage, it's really something that we, after chat control has passed,
+
+00:19:27.040 --> 00:19:32.720
+ hope to release in this HPPL license, that we have something that's forever truly available
+
+00:19:32.720 --> 00:19:35.960
+ for the community to engage with MVPs.
+
+00:19:35.960 --> 00:19:37.520
+ Thank you.
+
+00:19:37.520 --> 00:19:51.840
+ Thank you so much for your talk.
+
+00:19:51.840 --> 00:20:04.240
+ So, we have decided beforehand that you are going to do the Q&A offline outside of the tent,
+
+00:20:04.240 --> 00:20:09.080
+ because we are out of time here for this stage,
+
+00:20:09.080 --> 00:20:13.280
+ but these two speakers will still be available for your questions,
+
+00:20:13.280 --> 00:20:23.960
+ just we won't be using our kind angel team back there for the technology there.
+
+00:20:23.960 --> 00:20:27.680
+ So, thank you all for coming here.
+
+00:20:27.680 --> 00:20:30.880
+ Please give another round of applause to our speakers.
+
+00:20:30.880 --> 00:20:36.980
+ [ Applause ]
+
+00:20:36.980 --> 00:20:41.960
+ [ Music ]
+

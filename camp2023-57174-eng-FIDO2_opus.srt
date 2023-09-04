@@ -1,0 +1,2916 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:35,200
+ So our next speaker wants to make passwords redundant and
+
+4
+00:00:35,200 --> 00:00:39,640
+ will tell us a little bit about Fido 2.
+
+5
+00:00:39,640 --> 00:00:46,800
+ So please welcome Cy with Fido 2,
+
+6
+00:00:46,800 --> 00:00:49,800
+ the superior multi-factor authentication framework.
+
+7
+00:00:49,800 --> 00:00:54,440
+ >> [APPLAUSE]
+
+8
+00:00:54,440 --> 00:00:56,680
+ >> Did someone boo?
+
+9
+00:00:56,680 --> 00:00:59,600
+ Okay, all right.
+
+10
+00:00:59,600 --> 00:01:06,480
+ Yeah, I wanna talk about Fido, but I will use the word WebAuthn,
+
+11
+00:01:06,480 --> 00:01:12,120
+ probably even more, I will explain why in a second.
+
+12
+00:01:12,120 --> 00:01:17,320
+ My name is Chris, I'm a software developer from Germany.
+
+13
+00:01:17,320 --> 00:01:23,240
+ I am a little interested in security and DevOps stuff and automation.
+
+14
+00:01:23,240 --> 00:01:29,440
+ I have worked system administration before all that new modern DevOps stuff came up.
+
+15
+00:01:29,440 --> 00:01:34,800
+ I do organize a meetup about this stuff also in southern Germany in Karlsruhe.
+
+16
+00:01:34,800 --> 00:01:39,720
+ And I am a little into Millieways orgo.
+
+17
+00:01:39,720 --> 00:01:43,440
+ So if I have screamed at you for standing in the way in the kitchen,
+
+18
+00:01:43,440 --> 00:01:44,000
+ I'm very sorry.
+
+19
+00:01:44,000 --> 00:01:49,480
+ All right, so I have put together a small agenda for today.
+
+20
+00:01:49,480 --> 00:01:54,640
+ I will talk about what Fido 2 or in specific WebAuthn is,
+
+21
+00:01:54,640 --> 00:01:58,920
+ like explain how it works and why you wanna use it.
+
+22
+00:01:58,920 --> 00:02:03,760
+ And why you probably should use it over the alternatives.
+
+23
+00:02:03,760 --> 00:02:05,360
+ But I'm open for discussion afterwards.
+
+24
+00:02:05,360 --> 00:02:08,880
+ How does it work?
+
+25
+00:02:08,880 --> 00:02:14,400
+ And then I will talk specifically about pass keys,
+
+26
+00:02:14,400 --> 00:02:19,160
+ because this is coming like a new hype, I think, for security.
+
+27
+00:02:19,160 --> 00:02:21,960
+ And it might be really cool for a lot of people, but
+
+28
+00:02:21,960 --> 00:02:28,120
+ it might be slightly almost cool for some people sitting in here.
+
+29
+00:02:28,120 --> 00:02:30,560
+ We'll see how that goes.
+
+30
+00:02:30,560 --> 00:02:32,840
+ So what is Fido?
+
+31
+00:02:32,840 --> 00:02:35,800
+ And I think I wrote something next to it actually.
+
+32
+00:02:35,800 --> 00:02:38,320
+ Yeah, I copied the slides.
+
+33
+00:02:38,320 --> 00:02:39,600
+ Good job.
+
+34
+00:02:39,600 --> 00:02:43,240
+ So there is two parts to Fido.
+
+35
+00:02:43,240 --> 00:02:49,640
+ And the most interesting part is WebAuthn, which is a W3C standard.
+
+36
+00:02:49,640 --> 00:02:52,560
+ And then there's the Fido 2, which is actually a brand.
+
+37
+00:02:52,560 --> 00:02:56,120
+ But most people use those names like and swap it out.
+
+38
+00:02:56,120 --> 00:03:00,320
+ Fido 2 is a brand by the Fido Alliance and
+
+39
+00:03:00,320 --> 00:03:05,400
+ a lot of the big Internet companies like Amazon, Google, also One Password.
+
+40
+00:03:05,400 --> 00:03:09,240
+ And a lot of security companies are part of the Alliance and
+
+41
+00:03:09,240 --> 00:03:12,320
+ they set the standard and work on stuff like WebAuthn.
+
+42
+00:03:12,320 --> 00:03:19,080
+ They're also pushing, most of those are also the ones pushing for pass keys.
+
+43
+00:03:19,080 --> 00:03:21,440
+ Which is, yeah, it's okay, I guess.
+
+44
+00:03:21,440 --> 00:03:25,880
+ And I think the Internet overall is gonna profit a lot from this from
+
+45
+00:03:25,880 --> 00:03:27,040
+ a security perspective.
+
+46
+00:03:28,360 --> 00:03:31,040
+ And yeah, I'll go to this a little later.
+
+47
+00:03:31,040 --> 00:03:34,640
+ I will show you just for a second how this works, WebAuthn.
+
+48
+00:03:34,640 --> 00:03:41,440
+ So I have, when I prepared this, I have found a website.
+
+49
+00:03:41,440 --> 00:03:44,240
+ This one is, I think it's from Duo Security, if some of you know this.
+
+50
+00:03:44,240 --> 00:03:50,080
+ It's WebAuthn.io, but there's multiple listed on the Fido Alliance and
+
+51
+00:03:50,080 --> 00:03:53,520
+ the WebAuthn pages, you can Google those.
+
+52
+00:03:53,520 --> 00:03:58,720
+ This one here I found very good to get a general understanding how this works.
+
+53
+00:03:58,720 --> 00:04:01,080
+ Because you can just play around with it.
+
+54
+00:04:01,080 --> 00:04:04,880
+ Let's say I will register a new account here.
+
+55
+00:04:04,880 --> 00:04:10,040
+ And let's say this is called CyCCCcamp.
+
+56
+00:04:10,040 --> 00:04:12,480
+ And then there's a couple of settings to need to hit.
+
+57
+00:04:12,480 --> 00:04:18,360
+ I'll just, I forgot to turn this, no, wrong one.
+
+58
+00:04:18,360 --> 00:04:22,200
+ I just forgot to turn this one off now, but we'll get to it later.
+
+59
+00:04:22,840 --> 00:04:28,280
+ So you press Register, you can create a passkey, and this is like a spoiler.
+
+60
+00:04:28,280 --> 00:04:32,040
+ Because passkey is basically a wrapper around WebAuthn.
+
+61
+00:04:32,040 --> 00:04:36,920
+ And you can choose a security key.
+
+62
+00:04:36,920 --> 00:04:41,400
+ This device, so this is a MacBook, standard MacBook, nothing fancy.
+
+63
+00:04:41,400 --> 00:04:45,160
+ Security key would be something like a YubiKey, I'm using a NitroKey here.
+
+64
+00:04:45,160 --> 00:04:50,400
+ YubiKey is I think the most well known producer and
+
+65
+00:04:50,400 --> 00:04:52,400
+ a big part of the Fido Alliance also.
+
+66
+00:04:52,400 --> 00:04:56,800
+ Probably all of you have seen YubiKey at work.
+
+67
+00:04:56,800 --> 00:05:02,280
+ NitroKey is a company from Germany which does a lot of open source work.
+
+68
+00:05:02,280 --> 00:05:04,640
+ I just want to give them a little shout out.
+
+69
+00:05:04,640 --> 00:05:07,480
+ They sponsored a NitroKey for me.
+
+70
+00:05:07,480 --> 00:05:09,680
+ But it's up to you, it's the same thing.
+
+71
+00:05:09,680 --> 00:05:15,000
+ It's a USB key that you can put to your key chain and carry it around next to you.
+
+72
+00:05:15,000 --> 00:05:18,800
+ And hopefully not next to your laptop in your bag.
+
+73
+00:05:18,800 --> 00:05:25,520
+ All right, let's lose and use a security key and now I have to touch it.
+
+74
+00:05:25,520 --> 00:05:27,720
+ And something went wrong, that's cute.
+
+75
+00:05:27,720 --> 00:05:32,080
+ Whoops, yeah, probably time out.
+
+76
+00:05:32,080 --> 00:05:35,360
+ So you have a couple of seconds to use the YubiKey or
+
+77
+00:05:35,360 --> 00:05:37,920
+ Fido NitroKey, whatever key.
+
+78
+00:05:37,920 --> 00:05:43,560
+ So now the server has, I'll explain a little later.
+
+79
+00:05:43,560 --> 00:05:47,560
+ But what we have essentially done is we have created a public key or
+
+80
+00:05:47,560 --> 00:05:52,120
+ private public key pair and we have sent the public key of this to the server.
+
+81
+00:05:52,120 --> 00:05:57,760
+ And now when I go to webauthent.io and I will do this in a private tab.
+
+82
+00:05:57,760 --> 00:06:03,480
+ Just to make sure the sessions don't interfere, it should work out of the box.
+
+83
+00:06:03,480 --> 00:06:06,160
+ And we said, si ccc camp.
+
+84
+00:06:06,160 --> 00:06:08,840
+ And now I can authenticate.
+
+85
+00:06:08,840 --> 00:06:09,560
+ No, that's good.
+
+86
+00:06:09,560 --> 00:06:11,640
+ >> One more thing.
+
+87
+00:06:11,640 --> 00:06:12,680
+ >> One more thing, why?
+
+88
+00:06:12,680 --> 00:06:16,880
+ Yeah, good catch, thank you.
+
+89
+00:06:16,880 --> 00:06:18,520
+ All right, so authenticate.
+
+90
+00:06:18,520 --> 00:06:24,360
+ Now this thing, the site knows that I have set a passkey for this username.
+
+91
+00:06:24,360 --> 00:06:27,600
+ So it queries me to use my passkey.
+
+92
+00:06:27,600 --> 00:06:34,120
+ So I use the security key, there's multiple additional versions.
+
+93
+00:06:34,120 --> 00:06:36,400
+ I touch the key and now it says I'm logged in.
+
+94
+00:06:36,400 --> 00:06:39,480
+ And then it shows the credentials that I have here.
+
+95
+00:06:39,480 --> 00:06:41,600
+ There's like, this is just an ID.
+
+96
+00:06:41,600 --> 00:06:43,600
+ If you want, you can take note of this.
+
+97
+00:06:43,600 --> 00:06:48,040
+ And you cannot hack my webauthent.io account later with it.
+
+98
+00:06:48,040 --> 00:06:51,920
+ Doesn't matter anyway because they will delete the account tomorrow.
+
+99
+00:06:51,920 --> 00:06:56,200
+ All right, but you get a lot of webauthent.io, webauthent.guide,
+
+100
+00:06:56,200 --> 00:06:58,240
+ I think is the big one from the Fido Alliance.
+
+101
+00:06:58,240 --> 00:07:04,080
+ They have a lot of resources if you want to learn more in depth stuff about this.
+
+102
+00:07:04,080 --> 00:07:09,240
+ All right, so basically this was already an example where you don't use a password.
+
+103
+00:07:09,240 --> 00:07:11,640
+ So this is basically, you give them your username.
+
+104
+00:07:11,640 --> 00:07:13,120
+ They know who you are.
+
+105
+00:07:13,120 --> 00:07:18,680
+ They can map your pub key that you have saved there while registering.
+
+106
+00:07:18,680 --> 00:07:22,120
+ And then you can authenticate with it later multiple times, obviously,
+
+107
+00:07:22,120 --> 00:07:23,120
+ every time you want to log in.
+
+108
+00:07:23,120 --> 00:07:24,440
+ All right.
+
+109
+00:07:24,440 --> 00:07:32,680
+ Yes, okay, so what is it actually?
+
+110
+00:07:32,680 --> 00:07:36,760
+ And this is from the definition of webauthent, the webauthent framework.
+
+111
+00:07:36,760 --> 00:07:43,520
+ It says, this is a better alternative for securing your sensitive information online.
+
+112
+00:07:43,520 --> 00:07:47,760
+ And the webauthent works for
+
+113
+00:07:47,760 --> 00:07:55,000
+ like for an alternative authentication factor in addition to your password.
+
+114
+00:07:55,000 --> 00:07:56,480
+ But it also works without.
+
+115
+00:07:56,480 --> 00:08:00,160
+ And it will still be multi-factor authentication if you don't use a password.
+
+116
+00:08:00,160 --> 00:08:03,960
+ And I will show you in a second how that works or why this works.
+
+117
+00:08:05,200 --> 00:08:10,000
+ So there's a kind of factors that you can use for multi-factor authentication.
+
+118
+00:08:10,000 --> 00:08:14,160
+ Some of these might be the alternative to webauthent.
+
+119
+00:08:14,160 --> 00:08:17,280
+ So this, on the left side I put, is it on the left?
+
+120
+00:08:17,280 --> 00:08:19,720
+ Yeah, on the left side I put a lot of keys.
+
+121
+00:08:19,720 --> 00:08:22,160
+ There's multiple brands in addition to Ubiquity and Nitrokey.
+
+122
+00:08:22,160 --> 00:08:23,280
+ There's also Titankey.
+
+123
+00:08:23,280 --> 00:08:26,160
+ I think Google uses this, or it used to do, and
+
+124
+00:08:26,160 --> 00:08:28,440
+ they have some blogs on how to implement this.
+
+125
+00:08:28,440 --> 00:08:35,120
+ And I did some screenshots from Chrome just because it's like the most,
+
+126
+00:08:35,120 --> 00:08:36,720
+ I'm no advertising, okay?
+
+127
+00:08:36,720 --> 00:08:43,000
+ So you can use a password to log in as a kind of a factor.
+
+128
+00:08:43,000 --> 00:08:49,440
+ But this is here, basically the two Google Chrome screenshots are doing the same.
+
+129
+00:08:49,440 --> 00:08:56,080
+ They use your local device in this regard, my laptop, to log you in.
+
+130
+00:08:56,080 --> 00:08:59,360
+ So you don't necessarily have to have a Ubiquity.
+
+131
+00:08:59,360 --> 00:09:03,240
+ You can also save the key pair that you're using for
+
+132
+00:09:03,240 --> 00:09:05,560
+ logging in with WebAuthn to your device.
+
+133
+00:09:05,560 --> 00:09:11,320
+ It might be your cell phone, might be your laptop, and therefore you have the,
+
+134
+00:09:11,320 --> 00:09:16,400
+ you just need any kind of authenticator that is certified and
+
+135
+00:09:16,400 --> 00:09:20,200
+ the keys are one way and your laptop and your modern day
+
+136
+00:09:20,200 --> 00:09:24,280
+ cell phone are the other way.
+
+137
+00:09:24,280 --> 00:09:28,440
+ And they use the TPM chip on the cell phone or
+
+138
+00:09:28,440 --> 00:09:31,440
+ like the security chip hardware on the cell phone or
+
+139
+00:09:31,440 --> 00:09:33,640
+ your computer to generate the keys.
+
+140
+00:09:33,640 --> 00:09:37,680
+ The Ubiquity has the hardware on like inside built in.
+
+141
+00:09:37,680 --> 00:09:45,560
+ You can also use as a measure of another factor to log in,
+
+142
+00:09:45,560 --> 00:09:47,040
+ something like biometrics.
+
+143
+00:09:47,040 --> 00:09:52,280
+ I don't know if there's iris scan available for
+
+144
+00:09:52,280 --> 00:09:57,400
+ modern day laptops or computers, but I guess we'll go there at some point.
+
+145
+00:09:58,520 --> 00:10:02,640
+ You can use Windows Hello and then basically do either password or
+
+146
+00:10:02,640 --> 00:10:06,680
+ face or thumb or whatever you have.
+
+147
+00:10:06,680 --> 00:10:11,320
+ In the end, it all boils down to everything you use without the Ubiquity
+
+148
+00:10:11,320 --> 00:10:14,080
+ is the device and you have to unlock it.
+
+149
+00:10:14,080 --> 00:10:17,800
+ So it doesn't matter if you have the password or the biometrics.
+
+150
+00:10:17,800 --> 00:10:22,920
+ You can use touch ID on your phone, but you can always just not use touch ID and
+
+151
+00:10:22,920 --> 00:10:26,240
+ put in just the password to unlock it.
+
+152
+00:10:26,240 --> 00:10:29,760
+ And once you log in, your device will query you for
+
+153
+00:10:29,760 --> 00:10:32,040
+ whatever credential you want to use.
+
+154
+00:10:32,040 --> 00:10:35,440
+ And this is already one of the backsides of or
+
+155
+00:10:35,440 --> 00:10:40,800
+ the downsides of using a non extra security token and just your device.
+
+156
+00:10:40,800 --> 00:10:46,480
+ Because you might also save your credentials like your username and
+
+157
+00:10:46,480 --> 00:10:52,240
+ password on the same device that you know are saving or using to authenticate.
+
+158
+00:10:52,240 --> 00:10:56,440
+ So if someone knows your device password, they can just, and
+
+159
+00:10:56,440 --> 00:10:59,480
+ has your device obviously, so this is like the two things that you need.
+
+160
+00:10:59,480 --> 00:11:01,440
+ And therefore it's multi-factor authentication.
+
+161
+00:11:01,440 --> 00:11:05,520
+ You need the device and the password and
+
+162
+00:11:05,520 --> 00:11:08,120
+ then you can unlock the authentication.
+
+163
+00:11:08,120 --> 00:11:11,440
+ No matter if it's password or passkey or
+
+164
+00:11:11,440 --> 00:11:17,400
+ passkey or WebAuth and as second to password and whatnot.
+
+165
+00:11:18,920 --> 00:11:23,760
+ And this is already one of the downsides because if you lose your phone and
+
+166
+00:11:23,760 --> 00:11:28,360
+ you have like saved all your credentials into your phone and
+
+167
+00:11:28,360 --> 00:11:30,520
+ use it as a second factor, it's all in the same device.
+
+168
+00:11:30,520 --> 00:11:34,760
+ It might not be a problem for people sitting here, but
+
+169
+00:11:34,760 --> 00:11:38,040
+ just take a look at your coworkers when they unlock their phones.
+
+170
+00:11:38,040 --> 00:11:41,040
+ Like don't shoulder surf, but just how they do it.
+
+171
+00:11:41,040 --> 00:11:44,920
+ A lot of people will use gesture swiping on their phones,
+
+172
+00:11:44,920 --> 00:11:48,640
+ which is very insecure, has been shown to be very insecure.
+
+173
+00:11:48,640 --> 00:11:53,880
+ A lot of people will use like pin codes like 12345 or up to six,
+
+174
+00:11:53,880 --> 00:11:58,200
+ whatever your enterprise has set, even in the worst case scenario.
+
+175
+00:11:58,200 --> 00:11:59,280
+ This is everything you need.
+
+176
+00:11:59,280 --> 00:12:01,600
+ Once you have set a passkey or WebAuth and credential on there,
+
+177
+00:12:01,600 --> 00:12:02,920
+ someone just needs the phone.
+
+178
+00:12:02,920 --> 00:12:05,720
+ And if it's badly secured, you're still screwed.
+
+179
+00:12:05,720 --> 00:12:12,760
+ And yes, it's the same when you put the UBI key next to the laptop or the phone.
+
+180
+00:12:12,760 --> 00:12:17,560
+ Obviously, at some point, just imagine you are some IT department.
+
+181
+00:12:17,560 --> 00:12:20,240
+ Most of you are admins, or some of you are admins.
+
+182
+00:12:20,240 --> 00:12:24,360
+ You have users, you know every step you do to make them more secure.
+
+183
+00:12:24,360 --> 00:12:28,240
+ They will find a way to, you know, fuck you over.
+
+184
+00:12:28,240 --> 00:12:32,280
+ All right, okay, WebAuthn.
+
+185
+00:12:32,280 --> 00:12:37,160
+ WebAuthn is a specification that defines an API enabling the creation and
+
+186
+00:12:37,160 --> 00:12:41,760
+ use of strong, attested scope, public key based credentials of,
+
+187
+00:12:41,760 --> 00:12:46,200
+ you don't have to like, I'll get into some single point of this.
+
+188
+00:12:46,200 --> 00:12:47,240
+ This is just from the spec.
+
+189
+00:12:47,240 --> 00:12:54,080
+ So basically, there's a strong public key based credential
+
+190
+00:12:54,080 --> 00:12:55,480
+ that you are generating.
+
+191
+00:12:55,480 --> 00:13:01,040
+ It has like, for example, the current UBI key does, I think it should mean ECDSA and
+
+192
+00:13:01,040 --> 00:13:05,320
+ ED25519, stuff like elliptic curves, modern cryptography.
+
+193
+00:13:05,320 --> 00:13:10,960
+ If you have an old UBI key, you should not use it.
+
+194
+00:13:10,960 --> 00:13:12,840
+ But then again, if you use it,
+
+195
+00:13:12,840 --> 00:13:16,960
+ you're still better off than not using any second factor at all, obviously.
+
+196
+00:13:16,960 --> 00:13:22,000
+ The FIDA 2 spec has like a minimum security level that you have to use.
+
+197
+00:13:22,000 --> 00:13:26,920
+ And you can, if you are administering the server that does the authentication,
+
+198
+00:13:26,920 --> 00:13:28,840
+ you can set the min level.
+
+199
+00:13:28,840 --> 00:13:35,080
+ So there is kind of a, if your server does not like support EDDSA,
+
+200
+00:13:35,080 --> 00:13:38,400
+ or I think it should be ECDSA, I don't know.
+
+201
+00:13:38,400 --> 00:13:43,080
+ But if you don't support it and the user has no other means,
+
+202
+00:13:43,080 --> 00:13:45,680
+ they can just not register a WebAuthn key.
+
+203
+00:13:45,680 --> 00:13:51,960
+ The credentials should be attested for.
+
+204
+00:13:51,960 --> 00:13:56,520
+ This means in WebAuthn speech or in W3C speech,
+
+205
+00:13:56,520 --> 00:14:00,160
+ that the key requires possession of an authenticator.
+
+206
+00:14:00,160 --> 00:14:05,080
+ So basically, you need to have a device which is either a security token or
+
+207
+00:14:05,080 --> 00:14:07,200
+ a phone or a modern laptop.
+
+208
+00:14:07,880 --> 00:14:11,480
+ And it also verifies it.
+
+209
+00:14:11,480 --> 00:14:15,080
+ So basically, one is to register, one is to authenticate.
+
+210
+00:14:15,080 --> 00:14:18,120
+ So the server sees you have the pop key, so
+
+211
+00:14:18,120 --> 00:14:20,960
+ it assumes you own and have the laptop in hand.
+
+212
+00:14:20,960 --> 00:14:24,240
+ It has to be somewhat hardware based.
+
+213
+00:14:24,240 --> 00:14:26,720
+ And then it's scoped, and this is really interesting.
+
+214
+00:14:26,720 --> 00:14:31,400
+ A key pair is generated per website.
+
+215
+00:14:31,400 --> 00:14:37,120
+ So this means if you log in and create a, or register a WebAuthn key set for
+
+216
+00:14:37,120 --> 00:14:43,120
+ Google, your laptop will not, or your device will not reuse it for,
+
+217
+00:14:43,120 --> 00:14:44,520
+ let's say Amazon, okay?
+
+218
+00:14:44,520 --> 00:14:50,240
+ This is pretty cool because while your private key will never leave your device,
+
+219
+00:14:50,240 --> 00:14:53,440
+ and this is the 2019 before we were talking pass keys,
+
+220
+00:14:53,440 --> 00:14:59,120
+ your private key will never leave the device, you're only handing out pass keys.
+
+221
+00:14:59,120 --> 00:15:03,520
+ And this is actually cool from a privacy side, but also,
+
+222
+00:15:03,520 --> 00:15:08,600
+ because when someone finds your pass key, your pop key, sorry, in a leaked server
+
+223
+00:15:08,600 --> 00:15:13,360
+ database, they have no idea if you used it to go and
+
+224
+00:15:13,360 --> 00:15:16,440
+ reuse it somewhere else because you can't by the spec.
+
+225
+00:15:16,440 --> 00:15:24,320
+ But this also means that as a server administrator,
+
+226
+00:15:24,320 --> 00:15:29,680
+ if you are offering WebAuthn or Fido2 as a server administrator,
+
+227
+00:15:29,680 --> 00:15:36,280
+ you just get people's pop keys so you don't have to care like top secret for them.
+
+228
+00:15:36,280 --> 00:15:42,680
+ Like you would have to with passwords and hash them because you need the plain key.
+
+229
+00:15:42,680 --> 00:15:45,800
+ Because it's only generated for your device.
+
+230
+00:15:45,800 --> 00:15:50,680
+ People can, attackers cannot use this pop key to log into anything else if
+
+231
+00:15:50,680 --> 00:15:53,600
+ your customers have their pop keys stolen from you.
+
+232
+00:15:53,600 --> 00:15:59,440
+ All right, installation, we already done because all modern browsers and
+
+233
+00:15:59,440 --> 00:16:04,560
+ systems, like it has a footnote,
+
+234
+00:16:04,560 --> 00:16:09,360
+ most modern browsers and systems already implemented.
+
+235
+00:16:09,360 --> 00:16:13,840
+ The WebAuthn standard is supported by almost every browser that there is.
+
+236
+00:16:13,840 --> 00:16:21,000
+ Firefox actually does it, but not to the full Fido2 extent specification, okay?
+
+237
+00:16:21,000 --> 00:16:24,360
+ There is still some trouble with, I don't use Firefox, so
+
+238
+00:16:24,360 --> 00:16:28,320
+ I always had a hard time finding combinations that would work and not.
+
+239
+00:16:28,320 --> 00:16:32,520
+ I think the problem is that you cannot use currently, I think it's,
+
+240
+00:16:32,520 --> 00:16:38,680
+ what you cannot use is security tokens with pass keys
+
+241
+00:16:38,680 --> 00:16:41,840
+ in combination with Firefox on mobile or something like that.
+
+242
+00:16:41,840 --> 00:16:43,880
+ So they are working on it.
+
+243
+00:16:43,880 --> 00:16:48,280
+ I think it's somewhere in the next two or
+
+244
+00:16:48,280 --> 00:16:52,320
+ three versions Firefox will also add the full feature set.
+
+245
+00:16:52,320 --> 00:16:56,040
+ But all the others should do it.
+
+246
+00:16:56,040 --> 00:16:59,760
+ It comes with a flavor, Chrome based browsers just do it.
+
+247
+00:16:59,760 --> 00:17:08,080
+ I, what's it called, Safari, WebKit, Mac OS browsers, or Apple browsers.
+
+248
+00:17:08,080 --> 00:17:13,440
+ They have like a, they used in 2019 when WebAuthn was released.
+
+249
+00:17:13,440 --> 00:17:14,640
+ People were really happy for
+
+250
+00:17:14,640 --> 00:17:18,080
+ Apple because they were one of the first to actually support this.
+
+251
+00:17:18,080 --> 00:17:21,920
+ And now, if you want, now they are going full pass key mode.
+
+252
+00:17:21,920 --> 00:17:26,020
+ Now you have to enable iCloud password sync if you want to use
+
+253
+00:17:26,020 --> 00:17:29,720
+ the WebAuthn feature, there's a hand.
+
+254
+00:17:29,720 --> 00:17:31,840
+ Oh, it's the, I'm sorry.
+
+255
+00:17:31,840 --> 00:17:32,840
+ Never mind.
+
+256
+00:17:32,840 --> 00:17:35,880
+ I should not have reacted to hands and stuff.
+
+257
+00:17:35,880 --> 00:17:36,380
+ My bad.
+
+258
+00:17:36,380 --> 00:17:37,860
+ All right.
+
+259
+00:17:37,860 --> 00:17:40,360
+ Where was I?
+
+260
+00:17:40,360 --> 00:17:42,440
+ Oh yeah, okay.
+
+261
+00:17:42,440 --> 00:17:45,640
+ It's supported by most browsers or people are doing it.
+
+262
+00:17:45,640 --> 00:17:50,640
+ Safari, for Safari you need to enable Cloud Sync and that's for pass keys.
+
+263
+00:17:50,640 --> 00:17:56,000
+ But the main, one of the main features of WebAuthn was that they advertised it.
+
+264
+00:17:56,000 --> 00:18:01,280
+ That the credentials never use, never go out of your machine.
+
+265
+00:18:01,280 --> 00:18:04,560
+ So now they like completely turned around and said,
+
+266
+00:18:04,560 --> 00:18:08,400
+ pass keys basically the credentials do move out of your machine.
+
+267
+00:18:08,400 --> 00:18:11,640
+ So now you have to think about which one is better, actually.
+
+268
+00:18:11,640 --> 00:18:12,400
+ All right.
+
+269
+00:18:12,400 --> 00:18:16,720
+ So talking multi-factor authentication, there's a couple of alternatives.
+
+270
+00:18:16,720 --> 00:18:18,840
+ Most of you will know the Google Authenticator,
+
+271
+00:18:18,840 --> 00:18:22,880
+ all the Microsoft Authenticator things, where you have a time based code,
+
+272
+00:18:22,880 --> 00:18:26,400
+ usually six digits long, that you can generate for a website and
+
+273
+00:18:26,400 --> 00:18:29,360
+ it will recycle every, I don't know, 30 seconds or so.
+
+274
+00:18:29,360 --> 00:18:32,080
+ And you have to do the input this after your password.
+
+275
+00:18:32,080 --> 00:18:38,800
+ Obviously, if you send a string to a server, someone can intercept it or
+
+276
+00:18:38,800 --> 00:18:43,480
+ can like fish you because in the same way with a password,
+
+277
+00:18:43,480 --> 00:18:46,920
+ they just have to like use it quicker than your password.
+
+278
+00:18:46,920 --> 00:18:48,000
+ Your password doesn't expire,
+
+279
+00:18:48,000 --> 00:18:51,120
+ the TOTP tokens expire after 30 seconds, it's still fishable.
+
+280
+00:18:52,640 --> 00:18:58,680
+ What's also currently being rolled out by most companies is that you have an app on
+
+281
+00:18:58,680 --> 00:19:02,280
+ your phone and when you log in on some device, you get a notification on the app.
+
+282
+00:19:02,280 --> 00:19:07,720
+ You have to click, yes, this was me, I just tried to log into google.com or so.
+
+283
+00:19:07,720 --> 00:19:11,680
+ So if you get fished, so you go to a fake website and
+
+284
+00:19:11,680 --> 00:19:13,960
+ accidentally because you think it's the real Google,
+
+285
+00:19:13,960 --> 00:19:16,600
+ you enter your credentials there, your username and your password.
+
+286
+00:19:17,680 --> 00:19:23,560
+ How does it help that you have a cell phone when they just like proxy it to Google?
+
+287
+00:19:23,560 --> 00:19:28,640
+ You just logged in, so obviously you're waiting for
+
+288
+00:19:28,640 --> 00:19:31,800
+ a notification to happen on your phone, obviously you will click, yes,
+
+289
+00:19:31,800 --> 00:19:37,440
+ this was me, even though the actual authentication comes from Google and
+
+290
+00:19:37,440 --> 00:19:40,840
+ not from the phishing side, so yeah, great stuff.
+
+291
+00:19:40,840 --> 00:19:46,880
+ Looks like this, I managed to input German screenshots, I'm very sorry.
+
+292
+00:19:46,880 --> 00:19:53,120
+ Like just imagine you are prompted to enter a six digit code into a fake website.
+
+293
+00:19:53,120 --> 00:19:58,280
+ And the server bot, because it has to be very quickly,
+
+294
+00:19:58,280 --> 00:20:02,840
+ just uses it instantly to send it to Google or to Microsoft.
+
+295
+00:20:02,840 --> 00:20:08,840
+ But with a time slice of like 30 seconds left, you can actually copy it by hand.
+
+296
+00:20:08,840 --> 00:20:11,280
+ So and you can then, after logging in,
+
+297
+00:20:11,280 --> 00:20:14,160
+ even reuse the TOTP code to add a new authenticator.
+
+298
+00:20:15,600 --> 00:20:20,880
+ That's not like main of the talk here, we can talk about this later.
+
+299
+00:20:20,880 --> 00:20:23,080
+ TOTP is not phishing proof.
+
+300
+00:20:23,080 --> 00:20:26,080
+ So how does WebAuthn work communication wise?
+
+301
+00:20:26,080 --> 00:20:30,680
+ How where, I'm talking a lot about keys and pub keys and servers and whatnot, but
+
+302
+00:20:30,680 --> 00:20:32,120
+ how does it actually work?
+
+303
+00:20:32,120 --> 00:20:36,960
+ So FIDO2 combines two frameworks or two protocols,
+
+304
+00:20:36,960 --> 00:20:41,400
+ protocol like things, I don't know the real correct word for this.
+
+305
+00:20:41,400 --> 00:20:47,480
+ So WebAuthn is the communication that happens between your browser and
+
+306
+00:20:47,480 --> 00:20:49,800
+ the backend server that you're authenticating to.
+
+307
+00:20:49,800 --> 00:20:54,160
+ It's also called a relying party in WebAuthn.
+
+308
+00:20:54,160 --> 00:20:59,120
+ And this, as I said, is implemented by most browsers by now.
+
+309
+00:20:59,120 --> 00:21:02,760
+ And then you have the CTAP, Client to Authenticator protocol.
+
+310
+00:21:02,760 --> 00:21:06,720
+ This is basically how your browser is allowed to talk through your hardware
+
+311
+00:21:06,720 --> 00:21:12,200
+ with your security key or with your operating system that acts as the authenticator.
+
+312
+00:21:12,200 --> 00:21:15,720
+ And this is like in all modern systems can do this already.
+
+313
+00:21:15,720 --> 00:21:20,440
+ So let's imagine you want to register new keys and
+
+314
+00:21:20,440 --> 00:21:24,520
+ it doesn't matter if it's passwordless or as a second factor after the password.
+
+315
+00:21:24,520 --> 00:21:28,240
+ So basically, you as a client with your key authenticator thing,
+
+316
+00:21:28,240 --> 00:21:32,400
+ you go to the server and you're like, hey, I wanna register a new passkey.
+
+317
+00:21:32,400 --> 00:21:33,760
+ My name is Chris.
+
+318
+00:21:33,760 --> 00:21:37,000
+ If you already have a user account, you're already logged in,
+
+319
+00:21:37,000 --> 00:21:38,560
+ the server knows this.
+
+320
+00:21:38,560 --> 00:21:40,640
+ Server wants a passkey.
+
+321
+00:21:40,640 --> 00:21:44,000
+ You generate keys locally, you save the private key locally, obviously,
+
+322
+00:21:44,000 --> 00:21:49,640
+ because in private public key, you need the private key for signing messages.
+
+323
+00:21:49,640 --> 00:21:54,800
+ And you give the pub key to the server who saves it with your name on it.
+
+324
+00:21:54,800 --> 00:21:59,200
+ So next time you tell the server that you are Chris, you can then
+
+325
+00:22:01,040 --> 00:22:04,800
+ sign a message that the server sends you when you authenticate.
+
+326
+00:22:04,800 --> 00:22:09,000
+ And the server can then verify, because they have your pub key,
+
+327
+00:22:09,000 --> 00:22:11,800
+ that you have signed this message with your private key.
+
+328
+00:22:11,800 --> 00:22:15,880
+ So this is like PGP basics, right?
+
+329
+00:22:15,880 --> 00:22:16,400
+ Or GPG.
+
+330
+00:22:16,400 --> 00:22:22,040
+ So I wanna talk about a couple of options.
+
+331
+00:22:22,040 --> 00:22:26,120
+ So this one, up to now, this is just like the most basic workflow they have.
+
+332
+00:22:27,480 --> 00:22:31,880
+ Maybe you have seen this picture around the Internet for quite some time.
+
+333
+00:22:31,880 --> 00:22:34,720
+ And that's what I was talking about.
+
+334
+00:22:34,720 --> 00:22:40,240
+ Somebody, some administrators in the past added token-based authentication or
+
+335
+00:22:40,240 --> 00:22:44,400
+ multi-factor authentication to their servers so
+
+336
+00:22:44,400 --> 00:22:49,120
+ their admins would have to use another device to generate a password or
+
+337
+00:22:49,120 --> 00:22:51,000
+ a short-term password that they used to log in.
+
+338
+00:22:51,000 --> 00:22:55,880
+ And then there's people who just hang this up with camera in front on the Internet.
+
+339
+00:22:57,440 --> 00:23:00,240
+ So they don't have to be in touch with the device,
+
+340
+00:23:00,240 --> 00:23:02,760
+ which totally defeats the purpose, right?
+
+341
+00:23:02,760 --> 00:23:10,920
+ And if you're using security tokens or stuff like the device as an authenticator,
+
+342
+00:23:10,920 --> 00:23:16,560
+ there's multiple options that you can set as a relying party or authenticating server
+
+343
+00:23:16,560 --> 00:23:21,120
+ to force people or to force your client to use a certain settings.
+
+344
+00:23:21,120 --> 00:23:26,640
+ Especially for security keys, you usually have a button or
+
+345
+00:23:26,640 --> 00:23:30,480
+ even a fingerprint reader that is locally saved to the key or
+
+346
+00:23:30,480 --> 00:23:37,280
+ kind of something you have to press and it's not connected to your computer.
+
+347
+00:23:37,280 --> 00:23:38,880
+ You have to physically press it.
+
+348
+00:23:38,880 --> 00:23:42,080
+ So this is like the most basic one.
+
+349
+00:23:42,080 --> 00:23:45,600
+ You can set verification to discourage.
+
+350
+00:23:45,600 --> 00:23:51,240
+ So it's just if I want to use the YubiKey to sign in, I must press the button.
+
+351
+00:23:51,240 --> 00:23:56,560
+ But as a server administrator, you can also decide that
+
+352
+00:23:57,080 --> 00:24:04,640
+ the security token has to be secured with a pin code that the user has to enter.
+
+353
+00:24:04,640 --> 00:24:07,080
+ So it's even more factors basically.
+
+354
+00:24:07,080 --> 00:24:10,600
+ Like I think the most, like if you play it all the way around,
+
+355
+00:24:10,600 --> 00:24:13,600
+ you can go username, password, you have to have the YubiKey.
+
+356
+00:24:13,600 --> 00:24:15,880
+ You have to press it so you're physically there.
+
+357
+00:24:15,880 --> 00:24:20,080
+ Then you have a prompt on your computer that prompts you to enter the pin for
+
+358
+00:24:20,080 --> 00:24:21,240
+ the YubiKey.
+
+359
+00:24:21,240 --> 00:24:22,240
+ The server doesn't know that.
+
+360
+00:24:22,240 --> 00:24:25,000
+ This is a local setting, okay?
+
+361
+00:24:25,000 --> 00:24:28,400
+ And if you set this to required, which you shouldn't in my opinion,
+
+362
+00:24:28,400 --> 00:24:31,920
+ there's two possibilities.
+
+363
+00:24:31,920 --> 00:24:36,640
+ Either the user can enter the key and if they can't,
+
+364
+00:24:36,640 --> 00:24:41,520
+ like if they don't know it but also obviously if they can't from a technical
+
+365
+00:24:41,520 --> 00:24:45,280
+ standpoint because their system doesn't allow it for it, they would just,
+
+366
+00:24:45,280 --> 00:24:47,240
+ you can't log in, okay?
+
+367
+00:24:47,240 --> 00:24:51,640
+ And then there's something in between is preferred with you as a user.
+
+368
+00:24:51,640 --> 00:24:53,320
+ It should read user can decide.
+
+369
+00:24:53,320 --> 00:24:59,920
+ So when I set up my YubiKey, I can with the managing software from the vendor,
+
+370
+00:24:59,920 --> 00:25:04,240
+ I can decide to have a pin code on my YubiKey or not, okay?
+
+371
+00:25:04,240 --> 00:25:06,920
+ And the server will respect this if it's set to preferred.
+
+372
+00:25:06,920 --> 00:25:12,720
+ Okay, then there's a very controversial,
+
+373
+00:25:12,720 --> 00:25:15,080
+ I won't go through all the settings, okay?
+
+374
+00:25:15,080 --> 00:25:18,760
+ This is like the second of two configuration items that I find
+
+375
+00:25:18,760 --> 00:25:19,760
+ particularly interesting.
+
+376
+00:25:21,600 --> 00:25:24,320
+ And this one is rather controversial.
+
+377
+00:25:24,320 --> 00:25:26,800
+ There is the option to set a discoverable,
+
+378
+00:25:26,800 --> 00:25:30,760
+ that's like the name in the spec or non-discoverable credential.
+
+379
+00:25:30,760 --> 00:25:36,640
+ And then there's again three ways, like the server can decide,
+
+380
+00:25:36,640 --> 00:25:38,480
+ just don't do it, dear client.
+
+381
+00:25:38,480 --> 00:25:42,000
+ Then they can say, prefer, then the client can decide.
+
+382
+00:25:42,000 --> 00:25:45,640
+ But this is like not something you as a user choose, but
+
+383
+00:25:45,640 --> 00:25:49,600
+ this is like the OS setup chooses and it will use the discoverable one.
+
+384
+00:25:49,600 --> 00:25:51,960
+ And I talked about what it is in a second.
+
+385
+00:25:51,960 --> 00:25:54,880
+ Or you can require it as a server site type.
+
+386
+00:25:54,880 --> 00:25:59,040
+ And yeah, the default is preferred right now.
+
+387
+00:25:59,040 --> 00:26:00,080
+ I think it's a bad idea.
+
+388
+00:26:00,080 --> 00:26:01,800
+ I'll come to it in a second.
+
+389
+00:26:01,800 --> 00:26:05,800
+ So discoverable credential means there is actually a fresh key
+
+390
+00:26:05,800 --> 00:26:12,040
+ created for this website, as I said before, as was part of the WebAuthn standard.
+
+391
+00:26:12,040 --> 00:26:15,000
+ Like this is all the same.
+
+392
+00:26:15,000 --> 00:26:17,160
+ It can include a username.
+
+393
+00:26:18,280 --> 00:26:21,120
+ So this means I go to Google, they don't support it, but
+
+394
+00:26:21,120 --> 00:26:24,360
+ let's just imagine I go to a server where I want to authenticate.
+
+395
+00:26:24,360 --> 00:26:30,800
+ I just put my YubiKey or my NitroKey or my whatever key in my laptop and
+
+396
+00:26:30,800 --> 00:26:33,200
+ press the button and I have never entered a username.
+
+397
+00:26:33,200 --> 00:26:36,480
+ It's basically like, it's okay for certain scenarios.
+
+398
+00:26:36,480 --> 00:26:40,200
+ Like imagine somebody, I work in retail.
+
+399
+00:26:40,200 --> 00:26:44,320
+ Let's just say a cashier wants to log into the cash box.
+
+400
+00:26:44,320 --> 00:26:48,760
+ It's okay that they just put the YubiKey or the NitroKey or whatever key inside
+
+401
+00:26:48,760 --> 00:26:53,720
+ the machine, press the button and they know this is user 1234 and
+
+402
+00:26:53,720 --> 00:26:57,000
+ they have the password, they don't need the password, it's completely cool.
+
+403
+00:26:57,000 --> 00:27:02,320
+ And this makes a username-less login possible.
+
+404
+00:27:02,320 --> 00:27:08,280
+ It has downsides because I have like, I don't know, five Google accounts.
+
+405
+00:27:08,280 --> 00:27:09,960
+ How would Google know which one I want?
+
+406
+00:27:11,600 --> 00:27:17,320
+ But since the username is included in the key, I can just send them the,
+
+407
+00:27:17,320 --> 00:27:22,160
+ I can sign the message, they can just cross-reference it with their pop key setup.
+
+408
+00:27:22,160 --> 00:27:26,800
+ And at some point they will find an account that matches this,
+
+409
+00:27:26,800 --> 00:27:30,920
+ that can verify this signed message, so it must be me.
+
+410
+00:27:30,920 --> 00:27:37,680
+ The problem is that you can't decide on a YubiKey or a NitroKey which key to use.
+
+411
+00:27:37,680 --> 00:27:41,600
+ Like you can't have, it's impossible to have three keys for different Google
+
+412
+00:27:41,600 --> 00:27:43,640
+ accounts if you don't add usernames.
+
+413
+00:27:43,640 --> 00:27:49,600
+ All right, and the other problem is that your security keys especially,
+
+414
+00:27:49,600 --> 00:27:53,040
+ which are really cool and I would really love to use one on everything,
+
+415
+00:27:53,040 --> 00:27:55,120
+ they can only hold X keys.
+
+416
+00:27:55,120 --> 00:28:00,440
+ Like the top NitroKey currently can save up to 25 discoverable keys.
+
+417
+00:28:00,440 --> 00:28:03,440
+ And this is like the preferred setup.
+
+418
+00:28:03,440 --> 00:28:05,240
+ I don't know if you have a password manager.
+
+419
+00:28:05,240 --> 00:28:08,560
+ My password manager has like over 500 passwords.
+
+420
+00:28:08,560 --> 00:28:13,760
+ If I were to do pass keys on all of those and replace all of those,
+
+421
+00:28:13,760 --> 00:28:20,320
+ I would need 20 YubiKey's if they all used discoverable credentials.
+
+422
+00:28:20,320 --> 00:28:24,840
+ Okay, even if they don't use username less login,
+
+423
+00:28:24,840 --> 00:28:27,040
+ that would cost me like a shit lot of money and
+
+424
+00:28:27,040 --> 00:28:32,880
+ my key would not look like this, but more like this, okay?
+
+425
+00:28:32,880 --> 00:28:35,520
+ NitroKey has 50 keys, there's other brands that do more.
+
+426
+00:28:35,520 --> 00:28:39,040
+ Your laptop can hold basically an infinite number, okay?
+
+427
+00:28:39,040 --> 00:28:45,000
+ So you don't have the problem with laptop than or phone.
+
+428
+00:28:45,000 --> 00:28:49,200
+ And then there's the non-discoverable credential.
+
+429
+00:28:49,200 --> 00:28:54,240
+ And in my opinion, if you don't need the username less login, please use this.
+
+430
+00:28:54,240 --> 00:28:56,600
+ So if you're an administrator,
+
+431
+00:28:56,600 --> 00:29:00,120
+ set the discoverable credential setting to discouraged.
+
+432
+00:29:02,080 --> 00:29:07,360
+ What's gonna happen is the security tokens like the USB keys, but
+
+433
+00:29:07,360 --> 00:29:12,080
+ also your TPM chip and stuff, they have a master password or master key.
+
+434
+00:29:12,080 --> 00:29:14,400
+ And this is basic public key cryptography.
+
+435
+00:29:14,400 --> 00:29:15,360
+ We have a master key.
+
+436
+00:29:15,360 --> 00:29:19,280
+ And then you get a seed like a nonce or
+
+437
+00:29:19,280 --> 00:29:25,160
+ string from the server when you are creating and registering a key set.
+
+438
+00:29:25,160 --> 00:29:29,320
+ And from this master key, you create another key set.
+
+439
+00:29:29,320 --> 00:29:33,360
+ Because the cool thing is, okay, you can later recreate it.
+
+440
+00:29:33,360 --> 00:29:34,880
+ You don't have to save this key set.
+
+441
+00:29:34,880 --> 00:29:38,360
+ So basically, this is how it happens.
+
+442
+00:29:38,360 --> 00:29:40,720
+ I go to the server, I'm like, hey, I'm Chris, or
+
+443
+00:29:40,720 --> 00:29:42,840
+ I am actually Chris's operating system.
+
+444
+00:29:42,840 --> 00:29:49,120
+ So and the server is like, okay, cool, please use this nonce.
+
+445
+00:29:49,120 --> 00:29:53,280
+ And I have actually, when I was looking over the slides earlier,
+
+446
+00:29:53,280 --> 00:29:57,400
+ I'm not sure currently if this is 16 or 64 bits, but bear with me.
+
+447
+00:29:57,400 --> 00:29:58,080
+ It's a string.
+
+448
+00:29:59,280 --> 00:30:04,160
+ So then I generate from my master key a new key set.
+
+449
+00:30:04,160 --> 00:30:09,000
+ And then I send the pub key of this new key set to the server.
+
+450
+00:30:09,000 --> 00:30:14,520
+ And I use the combination of the master key and the nonce for this.
+
+451
+00:30:14,520 --> 00:30:20,240
+ And the server will send the pub key, but I will save it, but
+
+452
+00:30:20,240 --> 00:30:21,440
+ will also save the nonce.
+
+453
+00:30:21,440 --> 00:30:28,440
+ So when I authenticate actually, or use it as a second factor,
+
+454
+00:30:28,440 --> 00:30:30,320
+ I come back to the server.
+
+455
+00:30:30,320 --> 00:30:34,440
+ I must say I am Chris, because the server has no way to decide this otherwise.
+
+456
+00:30:34,440 --> 00:30:40,960
+ So the server has to send me my nonce and a message to sign.
+
+457
+00:30:40,960 --> 00:30:41,720
+ I forgot this, sorry.
+
+458
+00:30:41,720 --> 00:30:47,760
+ And then I can generate the keys from the nonce on the fly while authenticating.
+
+459
+00:30:47,760 --> 00:30:53,520
+ And then I can use the regenerated private key to sign the message and
+
+460
+00:30:53,520 --> 00:30:54,480
+ send it to the server.
+
+461
+00:30:54,480 --> 00:30:57,640
+ And from there on, the server can't really decide if I've saved the pub key
+
+462
+00:30:57,640 --> 00:31:01,680
+ before, the private key before, or if I have recreated it.
+
+463
+00:31:01,680 --> 00:31:05,400
+ And the server doesn't care, because they say, from a server standpoint,
+
+464
+00:31:05,400 --> 00:31:10,480
+ if I have the master key and it is branded into the hardware,
+
+465
+00:31:10,480 --> 00:31:13,840
+ it doesn't matter if you have created a new key or not.
+
+466
+00:31:13,840 --> 00:31:14,340
+ Okay.
+
+467
+00:31:14,340 --> 00:31:19,160
+ Yeah, and then the server can verify that it's indeed you.
+
+468
+00:31:19,160 --> 00:31:20,360
+ All right, so quick wrap up.
+
+469
+00:31:20,360 --> 00:31:25,680
+ Phishing is, to my knowledge, impossible.
+
+470
+00:31:25,680 --> 00:31:35,000
+ Because your client will save the actual,
+
+471
+00:31:35,000 --> 00:31:41,400
+ or will use the actual URL endpoint to create the keys.
+
+472
+00:31:41,400 --> 00:31:46,840
+ So if you have a key that you registered with google.com and
+
+473
+00:31:46,840 --> 00:31:49,440
+ someone tries to phish you with fakegoogle.com,
+
+474
+00:31:49,440 --> 00:31:53,800
+ you won't have a key for fakegoogle.com.
+
+475
+00:31:53,800 --> 00:31:57,360
+ Even if they manage to pursue it, you want a phishing site to create a key for
+
+476
+00:31:57,360 --> 00:32:02,400
+ fakegoogle.com, you can never use it to log into actual google.com.
+
+477
+00:32:02,400 --> 00:32:03,560
+ There's no way.
+
+478
+00:32:03,560 --> 00:32:07,240
+ The only way would be if there's a problem with HTTPS or TLS,
+
+479
+00:32:07,240 --> 00:32:11,960
+ because this relies on server certification and stuff, okay?
+
+480
+00:32:11,960 --> 00:32:16,440
+ But even if you proxy the traffic, there's no way that you can,
+
+481
+00:32:16,440 --> 00:32:19,440
+ you might have, if you proxy the traffic, now that won't work,
+
+482
+00:32:19,440 --> 00:32:21,440
+ because you have a different address.
+
+483
+00:32:21,440 --> 00:32:25,560
+ If you man in the middle the traffic, obviously, this doesn't help,
+
+484
+00:32:25,560 --> 00:32:28,920
+ because you still get the authentication, or the, what's it called,
+
+485
+00:32:28,920 --> 00:32:30,320
+ session token, or stuff like that.
+
+486
+00:32:30,320 --> 00:32:36,920
+ But for, there's no way that someone that can convince me on a fake site to
+
+487
+00:32:36,920 --> 00:32:43,120
+ insert my credentials, that they cannot use my keys.
+
+488
+00:32:43,120 --> 00:32:46,440
+ The convenience is pretty high, I think.
+
+489
+00:32:46,440 --> 00:32:50,680
+ Especially if you use only your computer for not so secure accounts.
+
+490
+00:32:50,680 --> 00:32:56,240
+ Like imagine, with the alternatives, like you log in on your desktop,
+
+491
+00:32:56,240 --> 00:32:59,320
+ you put in your username, you put in your password, and
+
+492
+00:32:59,320 --> 00:33:02,560
+ then you get prompted for a key, you fumble in your bag for your phone,
+
+493
+00:33:02,560 --> 00:33:04,920
+ you put up, you have to start your authenticator app,
+
+494
+00:33:04,920 --> 00:33:07,560
+ you watch through your scroll through your, I don't know,
+
+495
+00:33:07,560 --> 00:33:11,120
+ 200 TOTP token settings to get the key.
+
+496
+00:33:11,120 --> 00:33:13,320
+ You have to type it in, oh shit, the time slice is up,
+
+497
+00:33:13,320 --> 00:33:14,200
+ you have to get another one.
+
+498
+00:33:14,200 --> 00:33:20,320
+ Yeah, I think it's much easier, especially if you use stuff like Face ID or
+
+499
+00:33:20,320 --> 00:33:25,400
+ Touch ID to just tap the touch scanner once.
+
+500
+00:33:25,400 --> 00:33:29,200
+ Or if you have Face ID to just have the camera scan your face once.
+
+501
+00:33:29,200 --> 00:33:35,760
+ And this is really bad of me because it should say the server only knows
+
+502
+00:33:35,760 --> 00:33:37,320
+ the public key, right?
+
+503
+00:33:37,320 --> 00:33:39,720
+ I'm really, whoops, that would be fun.
+
+504
+00:33:39,720 --> 00:33:42,000
+ All right, okay.
+
+505
+00:33:42,000 --> 00:33:46,720
+ All right, let's say the server only knows the public key, okay?
+
+506
+00:33:46,720 --> 00:33:47,560
+ So there's no way.
+
+507
+00:33:47,560 --> 00:33:50,040
+ If they have the public key, they have no way of telling who,
+
+508
+00:33:50,040 --> 00:33:52,960
+ if it's you, an attacker that can extract the public key,
+
+509
+00:33:52,960 --> 00:33:55,320
+ they can't do shit with it.
+
+510
+00:33:55,320 --> 00:33:56,800
+ No way.
+
+511
+00:33:56,800 --> 00:34:03,360
+ Contra, if you use secure tokens, you might have to spend a couple euros on them.
+
+512
+00:34:03,360 --> 00:34:07,960
+ So I think the cheapest ones are like 10, 15 euros that fit the standard.
+
+513
+00:34:07,960 --> 00:34:14,400
+ If you like, let's say if you want different devices,
+
+514
+00:34:14,400 --> 00:34:19,600
+ like use desktop for logging in and phone for the authentication device,
+
+515
+00:34:19,600 --> 00:34:25,400
+ you can use this through scanning QR codes on the desktop from your phone and stuff.
+
+516
+00:34:25,400 --> 00:34:30,720
+ You need to, let's say you're an enterprise or a small company,
+
+517
+00:34:30,720 --> 00:34:34,720
+ you have to give everyone an extra UBI key or an extra phone so
+
+518
+00:34:34,720 --> 00:34:38,200
+ that they can log in on the desktop if you don't want to have it on the same device or so.
+
+519
+00:34:38,200 --> 00:34:39,760
+ So there might be extra costs.
+
+520
+00:34:39,760 --> 00:34:45,800
+ The key might be saved to the same device as the login.
+
+521
+00:34:45,800 --> 00:34:49,600
+ So if someone takes, as I said, takes the phone, you have weak authentication,
+
+522
+00:34:49,600 --> 00:34:55,280
+ they have both the login if you save it to the device and also the pass key or
+
+523
+00:34:55,280 --> 00:35:03,120
+ web-authentic key and yeah, if you use pass keys, I'll skip that.
+
+524
+00:35:03,120 --> 00:35:06,600
+ Your keys will get synced to the cloud, I'll get to this.
+
+525
+00:35:06,600 --> 00:35:15,720
+ So now, most big companies are pushing for
+
+526
+00:35:15,720 --> 00:35:21,160
+ pass keys, Apple does it, Google does it, I think Amazon does it too.
+
+527
+00:35:21,160 --> 00:35:22,400
+ One password does it.
+
+528
+00:35:22,400 --> 00:35:27,120
+ You should get rid of their ad is like you should get rid of passwords at all
+
+529
+00:35:27,120 --> 00:35:29,320
+ because it's hard to remember passwords.
+
+530
+00:35:29,320 --> 00:35:32,240
+ Use secure unique password, you'll know it.
+
+531
+00:35:32,240 --> 00:35:33,920
+ People could use password managers, but
+
+532
+00:35:33,920 --> 00:35:38,880
+ it might be easier to just use like your fingerprint on your phone.
+
+533
+00:35:38,880 --> 00:35:42,800
+ And I think it's a totally valid thing for probably 99% of Internet users.
+
+534
+00:35:44,440 --> 00:35:48,160
+ The other thing that they say is it will work on all devices.
+
+535
+00:35:48,160 --> 00:35:53,880
+ And there my doubts start a little because basically pass keys is just web-authentic
+
+536
+00:35:53,880 --> 00:35:58,680
+ with a little extras or a multi-device web-authentic as I've read somewhere.
+
+537
+00:35:58,680 --> 00:36:05,720
+ What is happening actually is if you set a new pass key on your device,
+
+538
+00:36:05,720 --> 00:36:08,120
+ it will get synced to the cloud.
+
+539
+00:36:08,120 --> 00:36:11,600
+ So let's say I'm using a Mac, I'm using an iPhone.
+
+540
+00:36:11,600 --> 00:36:16,160
+ I create a pass key to lock into Google.com on my Mac Safari.
+
+541
+00:36:16,160 --> 00:36:20,560
+ It gets the private keys gets synced to Apple Cloud, iCloud.
+
+542
+00:36:20,560 --> 00:36:24,920
+ And then synced onto my watch, onto my iPhone.
+
+543
+00:36:24,920 --> 00:36:29,480
+ And then I can log in from all these systems.
+
+544
+00:36:29,480 --> 00:36:34,240
+ That's pretty cool because I can now log in from my phone.
+
+545
+00:36:34,240 --> 00:36:36,000
+ I don't have to remember the password.
+
+546
+00:36:36,000 --> 00:36:39,680
+ Let's say I generate a very good password on my computer, on my desktop.
+
+547
+00:36:39,680 --> 00:36:40,480
+ This is really cool.
+
+548
+00:36:40,480 --> 00:36:45,240
+ I can copy paste it and then type it on my iPhone for
+
+549
+00:36:45,240 --> 00:36:48,640
+ an hour if it's like 30 characters long.
+
+550
+00:36:48,640 --> 00:36:53,560
+ So now the key that doesn't even need a pass key is just synced to my iPhone.
+
+551
+00:36:53,560 --> 00:36:54,120
+ That's pretty cool.
+
+552
+00:36:54,120 --> 00:36:59,160
+ The problem is, in my opinion, that iCloud,
+
+553
+00:36:59,160 --> 00:37:05,200
+ if you turn on password sync one, they know your passwords.
+
+554
+00:37:05,200 --> 00:37:09,440
+ So if you're using multi-factor authentication pass key,
+
+555
+00:37:09,440 --> 00:37:14,120
+ like password and key as the second one, then now you give them both.
+
+556
+00:37:14,120 --> 00:37:17,360
+ It's not worse than before because before you had multi-factor out,
+
+557
+00:37:17,360 --> 00:37:20,160
+ they knew both too, or that both as the one password.
+
+558
+00:37:20,160 --> 00:37:25,560
+ But I think, don't get me wrong, this should make life easier,
+
+559
+00:37:25,560 --> 00:37:30,760
+ logging in securely easier for a very large proportion of Internet users.
+
+560
+00:37:30,760 --> 00:37:35,920
+ But there's some, maybe even company policy that will stop you from syncing
+
+561
+00:37:35,920 --> 00:37:38,920
+ password stuff, and this includes pass keys into the cloud, okay?
+
+562
+00:37:38,920 --> 00:37:43,240
+ So, and now is the problem that you can, if you're a Safari user,
+
+563
+00:37:43,240 --> 00:37:47,000
+ I said it before, this kills WebAuthn for Safari.
+
+564
+00:37:47,000 --> 00:37:50,960
+ Because they force you to enable cloud sync, and
+
+565
+00:37:50,960 --> 00:37:54,440
+ it used, WebAuthn worked perfectly on Safari.
+
+566
+00:37:54,440 --> 00:37:57,080
+ But now they just killed the feature basically if you don't want to sync.
+
+567
+00:37:57,080 --> 00:38:02,040
+ Yeah, so relatively high security level.
+
+568
+00:38:02,040 --> 00:38:07,400
+ It's probably stuff like your mother-in-law or whatever should use
+
+569
+00:38:07,400 --> 00:38:12,920
+ instead of typing the same three digit or six digit password on every shop they use.
+
+570
+00:38:12,920 --> 00:38:15,120
+ It prevents phishing, as I said before, it's unfishable.
+
+571
+00:38:15,120 --> 00:38:20,480
+ You don't have to remember complex passwords actually, because the general idea
+
+572
+00:38:20,480 --> 00:38:24,960
+ behind pass keys is not as a multi-factor, like second factor next to password,
+
+573
+00:38:24,960 --> 00:38:26,320
+ but just to replace password.
+
+574
+00:38:26,320 --> 00:38:34,040
+ The downside is, especially smartphones have no good protection, okay?
+
+575
+00:38:34,040 --> 00:38:36,440
+ And the problem is with all the syncing tools.
+
+576
+00:38:36,440 --> 00:38:43,160
+ They, you have no way to choose which passwords to sync.
+
+577
+00:38:43,160 --> 00:38:47,600
+ So maybe you are cool with having your, I don't know,
+
+578
+00:38:47,600 --> 00:38:55,240
+ your Tinder password synced to iCloud, but not your bank account password, right?
+
+579
+00:38:55,240 --> 00:38:56,680
+ There's no way to distinguish.
+
+580
+00:38:56,680 --> 00:38:58,160
+ Either you sync all or sync none.
+
+581
+00:38:58,160 --> 00:39:02,000
+ And there's another one.
+
+582
+00:39:03,400 --> 00:39:07,960
+ You have, people have, like server admins or companies have to give you some kind of
+
+583
+00:39:07,960 --> 00:39:13,560
+ reset code, because if you lose the device, or for whatever reason,
+
+584
+00:39:13,560 --> 00:39:16,720
+ all your devices that are synced, I mean, yeah, if you have multiple, okay.
+
+585
+00:39:16,720 --> 00:39:18,600
+ Yeah, it's really bad.
+
+586
+00:39:18,600 --> 00:39:20,400
+ You need some kind of backup password.
+
+587
+00:39:20,400 --> 00:39:24,800
+ Now you have backup passwords for every password that you were trying to replace.
+
+588
+00:39:24,800 --> 00:39:31,360
+ I don't know if that's, like, in my head, this is kind of like going back to the start.
+
+589
+00:39:33,360 --> 00:39:35,600
+ It's vendor locked in.
+
+590
+00:39:35,600 --> 00:39:41,560
+ You cannot, if you use Chrome Password Manager, or one password,
+
+591
+00:39:41,560 --> 00:39:47,080
+ or whatever other password on your one device, you cannot sync it to your other
+
+592
+00:39:47,080 --> 00:39:49,160
+ device that uses iCloud, or something like that.
+
+593
+00:39:49,160 --> 00:39:54,400
+ You have to use all Google account, or all Apple account, or all one password account.
+
+594
+00:39:54,400 --> 00:39:55,960
+ I said earlier, there's no selective sync.
+
+595
+00:39:55,960 --> 00:40:02,280
+ Password and sync and key, if you have passwords, are synced to the same cloud device.
+
+596
+00:40:02,280 --> 00:40:04,160
+ I just forgot one that I got into my head.
+
+597
+00:40:04,160 --> 00:40:08,920
+ Oh yeah, there's like a point.
+
+598
+00:40:08,920 --> 00:40:13,560
+ They say you don't have to remember any password.
+
+599
+00:40:13,560 --> 00:40:17,880
+ But then again, it's all tied to your Apple account, where you need a password.
+
+600
+00:40:17,880 --> 00:40:20,240
+ Or to your Google account, where you need a password.
+
+601
+00:40:20,240 --> 00:40:25,240
+ So at some point, yes, it's easier, because you don't have to remember 100 passwords.
+
+602
+00:40:25,240 --> 00:40:28,760
+ Or your password manager doesn't have to contain 500 passwords, you just need one.
+
+603
+00:40:30,000 --> 00:40:35,320
+ And I don't know, I've seen people losing their password manager or
+
+604
+00:40:35,320 --> 00:40:38,520
+ Google password or so, and then you have backup keys.
+
+605
+00:40:38,520 --> 00:40:40,440
+ What do you do with backup keys?
+
+606
+00:40:40,440 --> 00:40:44,200
+ Do you print them out and put them in your storage or somewhere?
+
+607
+00:40:44,200 --> 00:40:50,560
+ Do you write them down in some file next to, post it onto your computer or so?
+
+608
+00:40:50,560 --> 00:40:51,600
+ No idea.
+
+609
+00:40:51,600 --> 00:40:56,040
+ So I just want to wrap it up again, one more time, and then you're free to leave.
+
+610
+00:40:56,040 --> 00:40:58,880
+ Or ask, or discuss.
+
+611
+00:40:59,960 --> 00:41:03,280
+ The web auth and secure token is, in my opinion,
+
+612
+00:41:03,280 --> 00:41:08,800
+ like UB key on your key chain is in my opinion the most secure or
+
+613
+00:41:08,800 --> 00:41:12,120
+ most possibly achievable secure combination.
+
+614
+00:41:12,120 --> 00:41:14,800
+ And then if you want, you can add shit on top.
+
+615
+00:41:14,800 --> 00:41:18,560
+ Like from a server admin perspective, yeah, put TOTP on top of it.
+
+616
+00:41:18,560 --> 00:41:21,080
+ If you're on, I don't know, nuclear stuff.
+
+617
+00:41:21,080 --> 00:41:23,200
+ I'm not in that business.
+
+618
+00:41:23,200 --> 00:41:28,720
+ But I would love to see people use a UB key, because that's something you don't,
+
+619
+00:41:28,720 --> 00:41:29,640
+ I don't know.
+
+620
+00:41:29,640 --> 00:41:31,680
+ Who of you has lost their keys before?
+
+621
+00:41:31,680 --> 00:41:35,240
+ Like physical key, okay, sorry.
+
+622
+00:41:35,240 --> 00:41:38,680
+ Yeah, you need, yeah, if you use UB keys or
+
+623
+00:41:38,680 --> 00:41:42,600
+ Nitro keys or stuff, it's a little piece of hardware.
+
+624
+00:41:42,600 --> 00:41:46,600
+ It probably costs them to produce like, I don't know, one euro or so,
+
+625
+00:41:46,600 --> 00:41:51,760
+ probably less, you buy it in twos, would be my recommendation, okay?
+
+626
+00:41:51,760 --> 00:41:54,960
+ Or use like an old phone or something like that as backup.
+
+627
+00:41:57,080 --> 00:42:01,480
+ There's a high convenience level when using biometrics without the security
+
+628
+00:42:01,480 --> 00:42:03,400
+ token, you don't have to search for your keys.
+
+629
+00:42:03,400 --> 00:42:06,720
+ That might be like downstairs in your house or
+
+630
+00:42:06,720 --> 00:42:10,440
+ upstairs in your house when you're working from the cellar.
+
+631
+00:42:10,440 --> 00:42:18,520
+ You can drive the decision as a server administrator.
+
+632
+00:42:18,520 --> 00:42:22,440
+ Like what kind of options you set, obviously.
+
+633
+00:42:22,440 --> 00:42:26,880
+ So if it's a bank account, you probably want higher level security than on
+
+634
+00:42:26,880 --> 00:42:31,080
+ your Twitter account, it might differ for people, so
+
+635
+00:42:31,080 --> 00:42:33,440
+ it depends on your attacks or threat scenario.
+
+636
+00:42:33,440 --> 00:42:36,160
+ Do we have one more?
+
+637
+00:42:36,160 --> 00:42:37,440
+ Yeah, that's the last one.
+
+638
+00:42:37,440 --> 00:42:38,120
+ Thanks for joining.
+
+639
+00:42:38,120 --> 00:42:41,160
+ If you have, thank you.
+
+640
+00:42:41,160 --> 00:42:43,400
+ >> We will have a Q&A.
+
+641
+00:42:43,400 --> 00:42:45,640
+ >> Yeah, sure.
+
+642
+00:42:45,640 --> 00:42:48,240
+ >> If you have questions, please line up at the microphone.
+
+643
+00:42:48,240 --> 00:42:50,160
+ Please don't cross the camera in front.
+
+644
+00:42:50,160 --> 00:42:58,160
+ >> Hi.
+
+645
+00:42:58,160 --> 00:42:59,280
+ Thanks for the great talk.
+
+646
+00:42:59,280 --> 00:43:02,120
+ It's a very cool topic and I think we will see it a lot in corporate
+
+647
+00:43:02,120 --> 00:43:02,920
+ environments.
+
+648
+00:43:02,920 --> 00:43:03,960
+ >> Yeah, totally.
+
+649
+00:43:03,960 --> 00:43:07,120
+ >> Let's say we don't want to use these cloud features to get the vendor lock in.
+
+650
+00:43:07,120 --> 00:43:09,520
+ How could we do that?
+
+651
+00:43:09,520 --> 00:43:13,960
+ So I'm thinking, using the Yubi key has some restrictions with a limited number of
+
+652
+00:43:13,960 --> 00:43:19,280
+ slots, for example, so why can't we put the private key in our password managers?
+
+653
+00:43:19,280 --> 00:43:22,200
+ And have the password manager act as the Yubi key, virtually,
+
+654
+00:43:22,200 --> 00:43:27,280
+ you could then back this up through OneDrive or whatever other IT means.
+
+655
+00:43:27,280 --> 00:43:29,600
+ >> It's actually, people are working on that.
+
+656
+00:43:29,600 --> 00:43:33,280
+ This is one of the big things that one password is doing, or
+
+657
+00:43:33,280 --> 00:43:39,240
+ that they're advertising for, that you can then store or
+
+658
+00:43:39,240 --> 00:43:45,600
+ use it as a WebAuthenticator next to your, or as an alternative to your device.
+
+659
+00:43:45,600 --> 00:43:47,680
+ Then again, you have the same problem again.
+
+660
+00:43:47,680 --> 00:43:51,920
+ There's one company that has all your stuff, and stuff like OnePassword does.
+
+661
+00:43:51,920 --> 00:43:55,400
+ I think they do cloud-based only currently.
+
+662
+00:43:55,400 --> 00:44:00,480
+ But yeah, there might be, I'm not aware, but it should be possible
+
+663
+00:44:00,480 --> 00:44:06,280
+ to have another open password manager that you care for yourself.
+
+664
+00:44:06,280 --> 00:44:10,920
+ I think Bitwarden is working on it, and this is very likely to be seen in
+
+665
+00:44:10,920 --> 00:44:15,240
+ at least companies that people around here work for more than OnePassword.
+
+666
+00:44:16,280 --> 00:44:18,440
+ Yeah, it should be possible.
+
+667
+00:44:18,440 --> 00:44:24,840
+ >> So my question is quite similar.
+
+668
+00:44:24,840 --> 00:44:28,800
+ Does WebAuthentic require you to use hardware tokens?
+
+669
+00:44:28,800 --> 00:44:30,600
+ Is this part of the standard?
+
+670
+00:44:30,600 --> 00:44:35,040
+ Because if it's not, there's great open source password managers.
+
+671
+00:44:35,040 --> 00:44:41,000
+ If they adapt to the standard, you can do all your great crypto security stuff, and
+
+672
+00:44:41,000 --> 00:44:43,840
+ have no vendor lock in, and still use WebAuthentic.
+
+673
+00:44:43,840 --> 00:44:47,520
+ Because I think WebAuthentic is great, I just want to use the tokens.
+
+674
+00:44:47,520 --> 00:44:52,360
+ >> Yeah, I'm not sure actually what the aspired spec is in the end.
+
+675
+00:44:52,360 --> 00:44:59,640
+ I'm very sure that at least most companies that are part of the FIDO Alliance,
+
+676
+00:44:59,640 --> 00:45:01,440
+ which is the major driver of this,
+
+677
+00:45:01,440 --> 00:45:08,840
+ let's say would have a hard time of you using open source.
+
+678
+00:45:08,840 --> 00:45:11,840
+ You know, it's not in their interest to do this.
+
+679
+00:45:11,840 --> 00:45:18,360
+ But if there's, like OnePassword for example is part, and they have this exact problem.
+
+680
+00:45:18,360 --> 00:45:24,520
+ It might be possible that you would need the hardware
+
+681
+00:45:24,520 --> 00:45:28,920
+ security chip on your device to create the keys, but
+
+682
+00:45:28,920 --> 00:45:31,880
+ then save them to your password manager.
+
+683
+00:45:31,880 --> 00:45:34,960
+ I don't, yeah, I don't know why it should not work.
+
+684
+00:45:34,960 --> 00:45:38,120
+ But I'm like, I don't know actually.
+
+685
+00:45:38,120 --> 00:45:40,240
+ Sorry.
+
+686
+00:45:40,240 --> 00:45:43,920
+ >> Yeah, thank you for the talk.
+
+687
+00:45:43,920 --> 00:45:48,160
+ To the best of your knowledge, how secure are the UB keys themselves?
+
+688
+00:45:48,160 --> 00:45:51,360
+ Like several months ago we had the entire story with Ledger where it was like,
+
+689
+00:45:51,360 --> 00:45:54,240
+ we can actually totally export your key material from it.
+
+690
+00:45:54,240 --> 00:45:59,800
+ >> I think there was in UB key four up to a certain serial number or
+
+691
+00:45:59,800 --> 00:46:06,240
+ certain level version, they had a problem where theoretically people
+
+692
+00:46:06,240 --> 00:46:12,960
+ were able to recreate the master key due to some faulty implementation.
+
+693
+00:46:12,960 --> 00:46:18,640
+ But I'm like, I have no idea about crypto at all.
+
+694
+00:46:18,640 --> 00:46:21,240
+ You know, like when I was preparing the talk,
+
+695
+00:46:21,240 --> 00:46:26,440
+ I learned that you call that string to verify from the server a nonce.
+
+696
+00:46:26,440 --> 00:46:30,400
+ So my crypto level is very, very basic.
+
+697
+00:46:30,400 --> 00:46:35,560
+ I think generally, I would imagine if a company like
+
+698
+00:46:35,560 --> 00:46:40,880
+ Google, which is known to have very little breaches, I think,
+
+699
+00:46:40,880 --> 00:46:47,720
+ that I know of, uses security tokens, they will have this thing covered.
+
+700
+00:46:47,720 --> 00:46:51,120
+ I'm very sure that they have thoroughly tested all these things.
+
+701
+00:46:51,120 --> 00:46:56,520
+ But yeah, it's just, if there's no flaw that people know about,
+
+702
+00:46:56,520 --> 00:46:57,760
+ doesn't mean it doesn't exist.
+
+703
+00:46:57,760 --> 00:47:01,880
+ >> Do you know which brand does Google use?
+
+704
+00:47:01,880 --> 00:47:06,000
+ The question was, because he has no mic, which brand Google uses.
+
+705
+00:47:06,000 --> 00:47:10,320
+ A couple years ago, I think it was 2017ish, Google came out with
+
+706
+00:47:10,320 --> 00:47:17,000
+ a set of blog posts that they were using Titan keys.
+
+707
+00:47:17,000 --> 00:47:20,080
+ And they have, it's just another brand,
+
+708
+00:47:20,080 --> 00:47:22,680
+ the chips come probably out of the same factory in China somewhere.
+
+709
+00:47:22,680 --> 00:47:27,680
+ But they're using Titan keys, I don't know how it is yet or now.
+
+710
+00:47:28,920 --> 00:47:34,320
+ And they also had an advertising thing where they enabled you to buy a set of
+
+711
+00:47:34,320 --> 00:47:40,120
+ Titan keys that do Bluetooth and NFC and USB and whatnot.
+
+712
+00:47:40,120 --> 00:47:46,280
+ Okay, so, but generally, I don't want to advertise for one brand, I don't know.
+
+713
+00:47:46,280 --> 00:47:54,360
+ What I can recommend when looking at keys, like security token keys,
+
+714
+00:47:54,360 --> 00:47:59,560
+ think about what kind of adapter you are using most with this key.
+
+715
+00:47:59,560 --> 00:48:06,040
+ So if you use, like I have a MacBook Air some kind of years old,
+
+716
+00:48:06,040 --> 00:48:08,280
+ it has only USB-C ports.
+
+717
+00:48:08,280 --> 00:48:10,880
+ My phone has USB-C port only.
+
+718
+00:48:10,880 --> 00:48:18,080
+ If I use a USB-A port authenticator, then I can show you,
+
+719
+00:48:18,080 --> 00:48:22,320
+ it looks like this all the time, so you need an additional adapter all the time.
+
+720
+00:48:22,320 --> 00:48:27,760
+ And then I would imagine you run around with your key chain and
+
+721
+00:48:27,760 --> 00:48:29,800
+ the adapter falls off and stuff.
+
+722
+00:48:29,800 --> 00:48:35,000
+ So think about it first, they have it in several different specs.
+
+723
+00:48:35,000 --> 00:48:39,280
+ You can also use NFC, just hang it to the back of your phone.
+
+724
+00:48:39,280 --> 00:48:43,640
+ That's pretty cool, but yeah, in the end, I can't recommend a brand actually.
+
+725
+00:48:43,640 --> 00:48:45,440
+ >> Thank you, Soy.
+
+726
+00:48:45,440 --> 00:48:47,160
+ >> [APPLAUSE]
+
+727
+00:48:47,160 --> 00:48:47,800
+ >> Yeah, if you have-
+
+728
+00:48:47,800 --> 00:48:49,800
+ >> [APPLAUSE]
+
+729
+00:48:49,800 --> 00:48:53,800
+ [Music]
+

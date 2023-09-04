@@ -1,0 +1,201 @@
+ [Musik]
+ Und damit herzlich willkommen Jakob und Konstantin von DigitalCourage,
+ Check-Kontrolle ex Machina.
+ Hallo, ich gehe mal aus der Störzone daraus.
+ Schön, dass ihr alle da seid, ein bisschen was über die Chat-Kontrolle hören wollt,
+ beziehungsweise wie wir versuchen auf künstlerische Art und Weise, da was dagegen zu unternehmen.
+ Ich bin Konstantin, ich bin Campaigner bei DigitalCourage.
+ Mein Name ist Jakob und ich bin bei DigitalCourage zurzeit im Rahmen von dem Bundesfreiwilligendienst.
+ Wir werden euch heute vorstellen, wie wir dieses schöne Gerät, welches ihr hier vorne seht, gebaut haben,
+ wie wir vom ersten Entwurf über die konkrete Planung zum fertigen Scanner gelangt sind.
+ Es soll darum gehen, warum wir uns die Arbeit überhaupt gemacht haben.
+ Es soll über den Bau an sich gehen.
+ Eventuelle Hilfestellungen beim Nachbau, falls tatsächlich jemand Interesse hätte, eine ähnliche Maschine zu bauen.
+ Natürlich ein paar Fels, was im Bau tief gegangen ist, wie wir das repariert haben.
+ Und wo wir denn überall mit unserem Gerät schon waren.
+ Jawohl. Also, ich werde ganz kurz auf das Warum eingehen.
+ Hauptsächlich wisst ihr ja schon Bescheid, vermute ich mal.
+ Das ist nicht die EU-Innenkommissarin, aber eine Person, die in Policykreisen gerne mal mit ihr verglichen wird.
+ Dolores Ambridge aus dem Harry Potter-Universum, die einfach mal die Nachrichten von allen Schür*innen in Hogwarts gescreen hat zu ihrer Zeit.
+ Und daraus, aus einer optischen Ähnlichkeit zur zuständigen EU-Kommissarin, kam der geheime Arbeitstitel für dieses Projekt "Operation Ambridge" zustande.
+ Konkret ging es eben darum, dass wir die Chat-Kontrolle, welche für viele Personen ein sehr abstraktes Thema ist.
+ Es geht um Software, es geht um KI. Was macht man da?
+ Okay, das ist für viele Leute zu technisch und zu weit weg, um das nachvollziehen zu können.
+ Also wollten wir etwas Greifbares, etwas, was du möglich anfassen kannst, was groß genug ist, um zu sehen, da passiert gerade etwas.
+ Bauen, um das so, das Thema auf eine ganz andere Art und Weise zu vermitteln.
+ Und dann würde Jakob jetzt erstmal erklären, wie wir das überhaupt geschafft haben.
+ Genau. Aufgebaut ist er quasi aus zwei Teilen. Einmal unten den Sockel und den eigentlichen Aufbau, dem Scanner.
+ Und der Sockel, in dem verstecken wir die ganze Technik, der ist aus handelsübrieligen Aluprofilen zusammengeschraubt.
+ Dagegen dann eine Sperrholzplatte. Auf dem rechten Bild seht ihr die beiden Motoren, die verbaut sind.
+ Einmal für das Antriebszahnrad des Zahnkranzes, der die Tür schließt.
+ Und daneben den Winkel, der den Motor hält, der den Zahnriemen für den Scan-Rings bedient.
+ Auf der linken Seite, auf dem linken Bild, seht ihr dann auch nochmal von oben einmal die Fassung fürs spätere Podest.
+ Und eben das eigentliche Antriebszahnrad.
+ Wir hatten Probleme, wir hatten keine 3D-Drucker, die groß genug sind, weshalb alle größeren Teile aus Vierteln zusammengesetzt sind.
+ Eben der erwähnte Zahnkranz zum Beispiel. Das sind vier Viertel, die wir dann verschraubt haben.
+ Die orangene Matte, die wir auf die Sperrholzplatte drauf haben, ist Filz.
+ Das dient einfach der Gräuschminderung und damit sich die Sache schöner bewegt und gleitet.
+ Umdrauf kommt dann eine milchige Acrylglasplatte.
+ An der Rückwand seht ihr die Fassung für die Rückwand. Das ist dann eine PVC-Hartschaumplatte.
+ Und in das Loch, wo man da jetzt ein bisschen reinguckt, haben wir dann später LEDs eingebaut, um den Boden schön zu beleuchten.
+ Auf dieses eben erwähnte Podest kam dann ein weiteres Aluprofil, an dem der Zahnring entlangläuft, der den Scanring nach oben und unten führt.
+ Ich werde jetzt mal ein bisschen auf die Schienführung eingehen, die war etwas komplexer zu bauen.
+ Die einerseits den Ring halten muss, führen muss, aber gleichzeitig schön im Profil gleiten muss.
+ Aufgebaut ist die aus einer Platte an der Rückwand oder an der Rückseite des Profils mit einer Nut, die im Aluprofil für die Führung sorgt.
+ Dagegen ist dann der Ring geschraubt. Das wird dann wiederum gegen das Aluprofil gesetzt.
+ Eine weitere Platte kommt vorne dran, die ebenfalls eine Nut hat, um den Ring zu führen im Profil.
+ Hier seht ihr dann auch das Profil des Zahnriems, der dann mit einer Platte einfach gegen geschraubt wird, damit die beiden losen Enden des Zahnriems da schon geklemmt sind.
+ So sieht es dann in Realität aus.
+ Dazu kam dann ein zweites Aluprofil oben in einen Querbalken, auf dem wiederum zwei kleine 3D gedruckte Zockel sind, die dann später das Dach halten werden.
+ Ihr seht auch schon ein paar erste Kabel, die wir gelegt haben.
+ An der linken Seite ein Endlagenschalter für den Ring, damit der Motor weiß an aufhören muss, sich zu drehen.
+ Als nächstes kam dann die erwähnte Rückwand, wie gesagt, PVC-Hardschaum, das wir mit einem Heißluftfön schon mal grob in Form gebracht haben.
+ Und dann sowohl vom Dach, was ihr da jetzt auf dem Bild seht, als auch der Fassung auf der Acrylgelasplatte unten in Form gehalten wird.
+ Zur Elektronik muss ich sagen, wir können leider aktuell noch keinen E-Plan zur Verfügung stellen. Wieso, sage ich später.
+ Die ist aber auch nicht so wahnsinnig wild. Wir haben zwei Gleichstrommotoren, die angetrieben werden müssen.
+ Dafür gibt es zwei Wechselrelais, damit sich der Motor jeweils rechts und links herumdrehen kann.
+ Es gibt ein weiteres Relais für die runde Leuchte, die ihr oben auf dem Gerät drauf seht.
+ Wir haben eine etwas spannende Konstruktion aus einem Raspberry Pi drin, der mit einem Raspberry Pi Pico hängt.
+ Und wir haben zwei Netzteile von 12 Volt auf 5 Volt. Zu dem Grund komme ich auch später nochmal.
+ Software wurde größtenteils von Konstantin geschrieben.
+ Der Raspberry Pi 3 programmiert wiederum den Pi Pico, der, weil der Pi Pico über die nötigen PWM-Schnittstellen verfügt, wiederum die LED-Streifen programmiert.
+ Das sind handelsübliche WS2812-LED-Streifen.
+ An der Stelle muss man vielleicht einmal dazu sagen, ich habe sehr wenig Programmierkenntnisse und Erfahrungen.
+ Der Hintergrund ist, wir wollten die Chat-Kontrolle plausibel abbilden. Die funktioniert in der Realität einfach nicht.
+ Das war die größte Chance, wie wir das bug-affin bauen können, sodass es die eine oder andere Panne bekommt, die wir nicht vorhersehen können.
+ Das haben wir auf jeden Fall geschafft. Deswegen haben wir den Politikwissenschaftler programmieren lassen.
+ Was lief schief? Wahrscheinlich das spannendste Part für alle.
+ Kleines Symbolbild. Alle, die einen LED-Drucker kennen, kennen genau diesen Effekt. Das war aber der Part, der am wenigsten schlimm war.
+ Wir haben keinen E-Plan. Warum? Wir hatten ein Problem mit Fritzing.
+ Das Fritzing Flat-Tag-Speicher-Datei nicht korrekt ab. Jedenfalls ist das Problem bei mir so aufgetreten.
+ Die Lösung bestand dann zeitweise darin, nachdem der erste E-Plan so verloren ging, Fritzing in der VM zu installieren und diese VM als Snapshot abzuspeichern.
+ Was nicht wirklich im Sinne des Erfinders liegt. Aber diese VM gibt es leider auch nicht mehr.
+ Es gab noch einen weiteren Fail. Wir haben versehentlich 5 Volt-LED-Streifen bestellt.
+ Erst hinterher haben wir angefangen zu rechnen. Bei 60 LEDs pro Meter, die jeweils etwa 3,6 Ampere haben, sind wir bei den 5 Metern, die wir verbaut haben, auf 18 Ampere gekommen.
+ Klar, alle LEDs sind an, auf 100% weiß. Trotz allem möchten wir es einigermaßen passend dimensioniert haben.
+ Mit dem Ergebnis, dass wir mindestens ein weiteres Netzteil im Gerät verbaut haben, von den 12 Volt auf 5 Volt.
+ Im ganzen Stress, das fertig zu bekommen, haben wir außerdem das Netzteil ein wenig vergessen.
+ Eine Zeit lang sah die Konstruktion dann so aus. Mittlerweile haben wir aber ein ordentliches Gehäuse fürs Netzteil.
+ Also falls ihr das jetzt auf dem Camp ausprobieren möchtet, solltet ihr keine Sorgen machen zu sterben.
+ Außerdem ist aus ungeklärten Gründen mal der Betätiger für den Endlagenschalter in das Antriebszahnrad geraten, was den Effekt hatte, dass der Motor im Antriebszahnrad gedreht hat.
+ Ich hoffe, man erkennt es auf dem Foto. Die angeschliffene Fläche der Motorwelle hängt schief im Antriebszahnrad.
+ Wir haben es insofern gelöst, dass wir eine ordentliche Kupplung aus Alu verbaut haben, auf die das Zahnrad nun beschraubt wurde.
+ Dann darf ich euch zu einer der nächsten Herausforderungen, das muss ich sagen, die Timeline, um welcher wir das zusammengebaut haben.
+ Ihr kennt das sicher selber aus eurem eigenen Engagement. Es gibt immer zu viel zu tun und zu wenig Zeit für alles.
+ Also muss es auch kurz vor knapp erst fertig werden. Das ist jetzt eine Übersicht der Commit, also immer wenn wir einen neuen Code geprüft haben für den Scanner.
+ Und... Nein, ok, da fehlen jetzt alle Grafiken. Schade.
+ Was ihr sehen würdet jetzt gleich ist noch eine genauere Aufschlüsselung dieser Kurve dort. Und ihr müsst euch vorstellen, am 1. März haben wir das zum ersten Mal einsetzen wollen.
+ Hintergrund war eine Anhörung im Digitalausschuss des Bundestags, für die wir mehr Aufmerksamkeit verschaffen wollten.
+ Und die Versammlung, die wir vor dem Bundestag angemeldet haben, um für diesen Zweck zu werben, war um 10.30 Uhr.
+ Und der letzte Commit ist von 10.14 Uhr aus dem Zug. Wir hatten uns nämlich morgens noch bis 6 Uhr morgens in etwa in Bielefeld aufgehalten.
+ Dort das Ding zusammengebaut und gesagt, na gut, jetzt muss es funktionieren oder nicht.
+ Und es in ein Auto verladen und dann zweigeteilt. Die eine Crew ist mit dem Auto nach Berlin gefahren.
+ Ich saß im Zug im Bordbistro, hab mir da noch Kaffee reingehauen und das noch zu Ende programmiert auf dem Weg.
+ Und das hatte das Problem, dass wir es auch nicht mehr proben konnten, bevor es losging.
+ Also unter Laborbedingungen hat es noch funktioniert. Vor Ort war es dann entweder zu viel Strom, der verbraucht wurde,
+ oder das Skript hat nicht richtig gebootet. Zumindest hat es nicht alles so gemacht, wie es sollte vor Ort.
+ Also kleine Erinnerungen, immer noch mal einen Tag extra einplanen für solche Aktionen. Es hat dann aber trotzdem funktioniert.
+ Was wollen wir denn eigentlich damit? Das ist das, was wir so charmante Aktionen nennen.
+ Zum einen, damit Symbolbilder für das Thema zu schaffen. Es ist ein abstraktes Thema.
+ Was macht Presse, wenn sie über abstrakte Themen sprechen soll? Brauchen irgendwelche Symbolbilder.
+ Es hilft, uns Öffentlichkeitsarbeit zu machen. Außerdem können wir darüber spielerisch das Thema vermitteln.
+ Ich werde euch gleich ein paar Fotos zeigen. Von einer Sache haben wir keine Fotos.
+ Da waren wir an der Universität und haben mit Medienpsycholog*innen über den kritischen Umgang mit Technologie gesprochen.
+ Und da war das ein super Weg, um so ein bisschen ein Seminar zu öffnen. Einmal auch für das Thema Chatkontrolle eine Awareness zu schaffen.
+ Aber auch allgemein für den Umgang mit Technologien und Medien. Und allgemein natürlich sind Publikationen, Medien immer etwas,
+ was wir brauchen, um Aufmerksamkeit für das Thema zu schaffen, um aus unserer Babbel rauszudringen, um so eine politische Mehrheit gegen die Chatkontrolle zu gewinnen.
+ Dafür brauchen wir ein Interesse von Medien und solche Sachen können dabei helfen.
+ Und das war jetzt quasi der Scanner vor Ort, vor dem Bundestag, mit Digitalpolitiker*innen aus den verschiedenen Parteien.
+ Also die Ampelfraktionen waren alle dort vertreten. An der Herpat sieht man dort links auch noch von den Piraten.
+ Und wen man nicht gesehen hat, waren Maximilian Funke-Kaiser, FDP, und Tobias B. Bachhalle, Grüne, die dort sich erlaubt haben, diesen Spaß mitzumachen.
+ Aber es hilft uns auch so bei Infoständen erstmal ein bisschen ein Eyecatcher zu haben, dass Leute sagen, oh, da passiert irgendwas Spannendes, da gehe ich mal hin.
+ Hier sieht man nochmal ein bisschen im Livebetrieb, da hatten wir das Problem, der hatte keine Panne mehr.
+ Und normalerweise stürzt er nach ein paar Durchläufen immer ab, relativ berechenbar nach drei, vier Mal.
+ Und das ist irgendwann nicht mehr passiert, er ist einfach fehlerlos durchgelaufen.
+ Also muss man auf Bugsuche gehen und einen wieder einbauen, weil sonst wäre es ja keine Chatkontrolle.
+ Genau, und so kann man dann eben auch bei öffentlichen Kundgebungen, wie hier bei der Innenministerinnenkonferenz in Berlin,
+ bei der die zuständige Überwachungskommissarin Eva Johansson zu Besuch sein sollte, um auch für die Chatkontrolle zu werben,
+ eben eine Gegenveranstaltung organisieren, sagen, hallo, hier gibt es einen Protest.
+ In dem Moment hat dann die französische Presseagentur, die AFP, für einen Beitrag gemacht, weil sie eben gesagt haben,
+ okay, da passiert was Spannendes zu diesem politischen Event.
+ Und so kann man auch Gegenpositionen ein bisschen stärker in den Mainstream tragen.
+ Und das Bild kennt ihr vielleicht auch von Netzpolitik.org, falls ihr das fleißig mit lest.
+ Und das war nochmal das Scanner bei unseren Big Brother Awards, wo er ein bisschen subtil im Hintergrund gestrahlt hat.
+ Und jetzt wird Jakob gleich noch eine Live-Präsentation machen für euch. Dafür brauchen wir natürlich Freiwillige.
+ Eine Person, die aus dem Publikum, darf gerne ihr Gerät scannen lassen. Freiwillige vor.
+ Zur Erinnerung, es soll hier nach sämtlichen, potenziell strafbaren Inhalten gesucht werden.
+ Wir haben eine KI installiert. Die wird dann jetzt erst mal alles durchleuchten und dann einen Verdachtsscore ermitteln.
+ Genau. Das Gerät kommt einfach in die Halterung eingelegt.
+ Ich drücke jetzt hier den Knopf zum Starten und müssen nun mal kurz den Scannenprozess abwarten.
+ Und vorne sich so ein Balken gerade hin und her bewegen vermute ich mal.
+ Genau. Jetzt werden wir gleich sehen, was der KI mit dem gefundenen Material macht.
+ Sie wird es auswerten und sofort einen Score ausspucken.
+ Oh, das ist verdächtig. Man muss dazusagen, ich will hier nicht zu viel von der Illusion nehmen,
+ aber ihr werdet euch schon gedacht haben, dass ich keine KI programmiert habe.
+ Da ist ein bisschen Trickserei mit im Spiel und so wie bei der Chatkontrolle seid ihr alle verdächtig, wenn ihr mitmacht.
+ Aber der Score variiert dann doch ein bisschen.
+ Genau. Vielen Dank, dass du mitgemacht hast. Du kannst dein Gerät gerne wieder entgegennehmen.
+ Habt ihr dann ein bisschen erkannt, woran wir uns optisch inspirieren lassen bei dem Bau? Hat da jemand eine Idee?
+ Ja, Flughafen. Und was genau da? Nacktscanner höre ich irgendwo. Genau, das war unser Vorbild.
+ Wir hatten auch zwischendurch mal überlegt, so ein Gepäckband zu machen.
+ Der Nacktscanner war realisierbarer für uns und hat auch Spaß gemacht.
+ Meistens hat es Spaß gemacht.
+ Und damit könnt ihr eigentlich direkt ins Q&A einsteigen und freuen uns über eure Ideen und Fragen.
+ Bitte.
+ Habt ihr das jetzt? Kommt immer das Gleiche raus? Oder per Zufallsgenerator? Und was bedeuten dann eure Farbcodes?
+ Genau, also grün bis rot symbolisiert natürlich schon mal mehr oder weniger verdächtig.
+ Und je voller der Balken dann ist, desto verdächtiger.
+ Und dafür werden natürlich sämtliche Daten auf deinem Gerät in Frage kommen, ob du chatfähige Apps hast.
+ Vorbrowser geht natürlich gar nicht.
+ Und alles Mögliche, was in irgendeiner Form Kommunikation ermöglichen würde, ist schon mal schwierig.
+ Ich meine jetzt ideal.
+ Hyphen hat gute Random-Funktionen, die einfach zu bedienen sind.
+ Ich mache mal recht ruhig durch, damit es auch die Leute im Stream gut hören können.
+ Ich sage noch eine Sache dazu. Wir haben uns ganz bewusst dagegen entschieden, dass irgendjemand einen roten Score bekommt.
+ Weil bei allem Schabernack, den wir hier gerade machen, es geht ja um ein todernstes Thema.
+ Also es geht ja um Darstellung sexualisierter Gewalt an Kindern, mit dem das Gesetz begründet wird.
+ Und da wollten wir niemanden, auch wenn es eine Illusion ist, die hier passiert, niemanden vorwerfen, einen roten Score zu bekommen.
+ Es soll auch Spaß machen, hier mitzumachen.
+ Aber grün gibt es auch nicht, weil es sind alle verdächtig.
+ Okay, das wird meine Frage ein bisschen ad absurdum, ob ihr vielleicht für euch so einen kleinen Geheimknopf gebaut habt, wo ihr sagt, bei dem machen wir es jetzt.
+ Maybe in Zukunft.
+ Es gibt da auf jeden Fall Konzepte.
+ Dieses Gerät ist auch in der Lage zu sprechen.
+ Leider nicht so laut, deswegen wir das hier auch nicht vorgeführt haben.
+ Aber wir haben da schon eventuell Ideen, falls mal sehr überwachungsaffine Politiker*innen damit machen würden.
+ Dass vielleicht ein roter Dings oder kurz vor rot dann stoppt und so, nee nee nee nee nee.
+ Wir haben eine ganze Reihe an Schaltern und Klöpfen an der Rückseite verbaut, die teilweise nicht angeschlossen sind.
+ Ihr müsstet das ja schon so aus der Hose raus machen, mit so einem Ding.
+ Also ein sehr schöner Trick, den Gunther, der Kollege von uns, ich weiß nicht ob er gerade in Sichtweite ist.
+ Er ist einer der Menschen, der auch vehement an diesem Bauprojekt beteiligt war.
+ Er hat so die fantastische Idee, er hat so einen kleinen AFID-Chip in seiner Handyhülle, die man so umklappen kann.
+ Und einen NFC-Leser hinten dran.
+ Und wenn du die umklappst, in dem Moment piepst das Handy.
+ Und wenn du das gut times und in dem Moment während des Scan-Prozesses diesen AFID-Chip auslesen lässt und das aufpiepst,
+ dann gibt es einfach so ein "Oh Shit, das hat ja was entdeckt".
+ Das Gerät braucht ja relativ viel Strom. Ist das eher so für Indoor-Aktionen gedacht?
+ Er hat vorher Infostand erwähnt, oft hat man da halt keinen Strom und wenn man 18 Ampere mit Akkus versorgen will...
+ Also die 18 Ampere sind natürlich erstmal ein theoretischer Wert, wenn man eben tatsächlich alle LEDs aufweist in voller Helligkeit betreibt, was wir nicht tun.
+ Aber ja, Stromversorgung, Akkubetrieb ist tatsächlich ein Problem.
+ Wir hatten tatsächlich Probleme damit, dass wir alte USB-Batterien oder Akkus nutzen wollten, die diesen Strom schlicht nicht mehr hergeben konnten.
+ Aber mit größeren Powerbanks, mit einem Wechselrichter, wo man dann einfach das Netzteil anschließt, ist das auch unterwegs möglich, das Gerät zu betreiben.
+ Also wir haben jetzt auch vor, falls es sich noch ergibt, mal eine mobile Chat-Kontrolle während des Camps einzurichten auf den Bahngleisen.
+ Und da werden wir nochmal testen, ob es mit der verstärkten Power dann auch reicht für den mobilen Einsatz.
+ Das war aber echt ein Faktor, den wir zu spät berücksichtigt haben.
+ Beziehungsweise, es gab Warnungen, aber ich wollte sehr viele LEDs.
+ Wenn es keine Fragen mehr gibt, wir werden diesen Scanner natürlich drüben im zweiten Digital-Courage-Zelt gleich wieder aufbauen.
+ Und da steht er euch zur Verfügung, wenn ihr Bock habt, auch mal in diesem Spaß teilzunehmen, euch auf Fotos zu machen und das zu posten.
+ Das wäre super, alle Leute, die in irgendeiner Form mehr Aufmerksamkeit für das Thema Chat-Kontrolle generieren, helfen uns im Kampf dagegen.
+ Weil es ist echt ein hartes Brett, was wir da bohren müssen.
+ Im Oktober könnte das Ding schon beschlossen werden.
+ Wenn ihr also gute Einsatzzwecke habt, wenn ihr noch Leute kennt, die noch gar nicht davon gehört haben, erzählt ihnen davon.
+ Vielleicht ist so ein spielerischer Einstieg in das Thema für manche Leute auch einfacher.
+ Vielen, vielen Dank an euch beide.
+ Und vielleicht die letzte Frage, habt ihr dann noch Zeit für einen oder zwei mehr Kontrollen, damit wir hier das nochmal praktisch ausprobieren können nach dem Talk?
+ Klar, gerne.
+ Fantastisch. Dann nochmal vielen, vielen Dank an Jakob und Konstantin von Digitalcourage.
+ Vielen Dank.
+ Vielen Dank.
+ Vielen Dank.
+ Vielen Dank.
+ [Musik]

@@ -1,0 +1,282 @@
+ [MUSIC]
+ [MUSIC]
+ All right, welcome everybody.
+ First talk on day four at the Bits and Boim stage.
+ How's everybody doing?
+ >> [APPLAUSE]
+ >> Yeah, a bit tired and then there's the sun.
+ So please, as it's very warm today and sunny, take cover under our sun sails.
+ Also, drink more water, that's always important.
+ And yeah, be aware that there is recording in progress.
+ So if you are sitting in front here, please mind the camera.
+ We are now listening to a talk by Holger.
+ He will explain us something about the DeltaChat Messenger,
+ which is email based and has some unique features.
+ And he will also talk about the different functionalities and
+ security aspects of that.
+ Holger said that he likes to do the talk interactive.
+ So if you have questions, you can ask them throughout.
+ We have our stage manager Rico here with a microphone.
+ Raise your hand and he will come to you so everybody understands you well.
+ And yeah, if you want to post in the fatty verse about this talk,
+ it's the hashtag #BitsundBäume with an AE, obviously.
+ So with that, I have nothing more to say than a very warm welcome again to Holger.
+ Enjoy the talk.
+ >> [APPLAUSE]
+ >> Thanks.
+ Well, it's been a while since I stood in front of, I don't know, 50, 60 people.
+ I think it was actually before the pandemic.
+ So I used to give quite some talks before the pandemic, but
+ that's like long ago, I don't know.
+ Anyway, we are offline.
+ And one of the features of the DeltaChat Messenger is that it can work very well
+ offline.
+ This will be a recurring topic.
+ And first of all, I'd like to know who of you have tried once,
+ not continuously used, but tried once DeltaChat in the last year?
+ Okay, so that's like a quarter, I would say.
+ So I will say a few words about the state of messaging.
+ I mean, you probably know WhatsApp and Signal and Telegram and so on.
+ And they are centralized island basically where the devices
+ connect to the single authority and kind of route messages and
+ exchange their cryptographic identity through the central server.
+ Then we have a very long running, like 30, 40 years network,
+ which is federated and interoperable.
+ And basically, if I just say it like this,
+ then it could also be the kind of mobile number network.
+ But the thing with the email-based federated system is that,
+ at least conceptually, everybody can just instantiate an email server and
+ just have their own users and so on.
+ And that is not so easy in the mobile phone number network,
+ which is pretty closed on many levels.
+ So the email federated server system that we have on the planet
+ is the largest federated system that exists basically as an open system.
+ And DeltaChat is a messenger that uses that.
+ So instead of contacting a single authority,
+ you actually contact your email provider.
+ There's no other server involved.
+ You contact, I don't know, Posteo, some people use Hotmail,
+ or you use your own domain, or Gmail, and so on.
+ And then the mail providers talk with each other to exchange messages.
+ And your communication partner uses the email server of their choice.
+ So when you enter your email credentials in DeltaChat,
+ it is your username and password, but it doesn't go anywhere except to your
+ email provider to get your mails and to send mails.
+ So it's not like it's transferred to some secret DeltaChat server or something.
+ I said it's the largest federated open messaging system, email.
+ DeltaChat is not only able to talk with other people who have installed DeltaChat,
+ but actually any message that DeltaChat sends can also be sent to someone using
+ a web mail, or K9 mail, or various other email apps.
+ And they will just receive it as a message.
+ So if you actually attach a picture, it will be an attachment.
+ And if they reply, you will see it in your chat.
+ So in that sense, you can basically address from your DeltaChat messenger
+ anyone with an email address.
+ And you can also use it to subscribe to some services.
+ Like you just get chat messages, and it's like a nice quick interface to deal with
+ like notifications and other things.
+ One thing that I've been involved with, let's say peer to peer, crypto,
+ some other decentralization topics since about 10 years now quite deeply.
+ I mean, originally since 20 years, but in the last 10 years,
+ I really, it was actually past Snowden, like almost exactly 10 years ago.
+ But I thought, okay, I really want to use my expertise to
+ help do something different than what we have.
+ And in 2017, Bjorn was actually sitting somewhere here, there.
+ He started for his daughter like a WhatsApp alternative.
+ He took Telegram and ported it to use an email library.
+ And so you had the Telegram interface, but
+ instead of contacting Telegram servers, you just contact email servers.
+ And within like two or three months, it worked, and people started using it.
+ But then people got back and said, wow, what about end to end encryption?
+ And that's where I came in, because I was involved in the AutoCrypt standard and
+ some other security things in that years.
+ And this idea that you have something that is as usable as WhatsApp or Telegram,
+ and that you actually really try to offer something that
+ fully interoperates with the email system,
+ that's like a design drive that goes since its beginning.
+ We're also conducting various independent security audits.
+ But if you are actually interested in the details of security aspects, and
+ there are many, I suggest that you come later to our village and
+ we have a more detailed discussion because in a group like this,
+ it's easily lost in details.
+ One thing that we did since we met in 2019 in Kiev, in Ukraine,
+ is that we moved our C development that was the core of all the apps on Android,
+ iOS, desktop, and so on.
+ We moved this C development to Rust.
+ So before it came cool last year or something, I don't know.
+ So all of the networking, I guess,
+ is the only email messenger that has networking and all of the network
+ protocols, encryption, decryption, and of all of the APIs that processes
+ this completely implemented in Rust with security audits.
+ And that means it's quite fast and we can easily collaborate.
+ Like Rust is often, often you look at some language feature or so, but
+ there's this whole, you want to have an imagery size?
+ You use a crate to do imagery size and it works on iOS, on Android,
+ on desktop platforms and so on, and it just works.
+ We can just include it and use imagery sizing.
+ And that is, if you are familiar with C and C++,
+ getting this to work on five platforms is serious work.
+ So Rust is actually very good for collaboration between different
+ development groups.
+ The main thing we have been doing the last year, actually,
+ is that we have been developing an idea where we use the messenger not only for
+ the social messages that you have with your chat group, your family,
+ your hacker space, and so on, but you can also send a web application.
+ We call this WebXTC, WebXTC.org.
+ And it basically means that you have a zip file that contains an index HTML,
+ some JavaScript, some assets, and you just drop this as an attachment into a chat,
+ and everybody gets a start button and everybody can just start it.
+ So the distribution is not like some app store or something like this.
+ You can literally use your command line to zip to package this together,
+ and then drop it into the chat with your partner or
+ your friend's hacker space whatsoever.
+ And then anybody can run this app.
+ And these apps actually send their messages via the messenger.
+ We return to this point.
+ It means that when you write a web app, how many of you have touched web
+ application technology or website technology, actually?
+ Quite a few. So you probably know index HTML and all of these things.
+ You have heard of React and all of these frameworks.
+ The way how you write web apps that run in DeltaChat and
+ also to other messengers by now is by calling a send and
+ a receive function basically standard in, standard out for
+ pushing messages between your app instances.
+ If I drop a zip file into a chat and people start this in the chat,
+ and these apps call send update,
+ the other app instances will receive it in their update listener.
+ So that's the API.
+ There's no component, the thing, there's no React-like thing you have to use or
+ anything, and if you look at the example apps,
+ you'll find all kinds of frameworks, it doesn't matter.
+ It's only this send receive API that goes via the messenger and
+ is end-to-end encrypted to all of the endpoints.
+ We have just released, like before, camp on the blog.
+ You can also find this something called XStore.
+ Bit of a random name, has nothing to do with this other X that is floating around.
+ Or maybe it has something to do with it because it is actually true that you can,
+ like a lot of games have been actually ported to this zip file model, but
+ also something like a collaborative editor.
+ So that is like the second last row, second thing is the editor.
+ And it means that you can drop this and
+ edit with anybody in the chat and all of the messages between the,
+ that update the editor will be end-to-end encrypted.
+ And you can use it offline.
+ And there's no server that needs to mediate anything.
+ So if you really start using it, it's like surprisingly,
+ like what is important to note is what is not there.
+ There's no login, there's no OAuth, there's no username,
+ there's no password, there's no GDPR, there's no cookie consent and so on.
+ Because the web app runs in a totally isolated environment and
+ cannot communicate to the internet, just like here.
+ And.
+ And that means that the only way for the app to get out from its like very
+ restricted sandbox is to call send message and receive message.
+ And it has no direct HTTP to anything also, it cannot just, cannot do this.
+ So that's why we also sometimes say peer-to-peer apps.
+ Because you really send a message and it arrives at your other instances of
+ the same app and they can process the update they got from themselves,
+ like from the other instance.
+ So you have in an editor that runs as a WebXTC, you have a, I got it.
+ You have a basically, but without the server.
+ So everything is encrypted, also no login and so on.
+ But you can, like any XTC app, like even Tetris or
+ like the high score board of Tetris, end-to-end encrypted.
+ Little drawing board, end-to-end encrypted.
+ A little editor, the checklist app, like a couple of kilobytes, or
+ the poll app is like six kilobytes large, right?
+ Everything completely end-to-end encrypted, offline first.
+ You can use it even here and then later on when you go somewhere, updates and so on.
+ And you don't need to work very hard as a web developer.
+ We had a carpenter who had not done any HTML, JavaScript or GitHub.
+ And this person was, through education,
+ a few questions, able to write a functional app that is part of the app store.
+ I mean the store that we have, this X store, that you can mail and
+ it gives you a selection of apps.
+ That's the level of simplicity.
+ And his app is like end-to-end encrypted.
+ It works offline first.
+ So basically any web app that you put in there gains these properties.
+ And that's pretty interesting, I would say.
+ To give you a little bit of an overview of what are the numbers,
+ because we perceive reality, I heard, through numbers.
+ And then how many users, how many this and that, and so on.
+ We have currently three messengers that support it, that support WebXTC.
+ That is DeltaChat, of course, who's kind of like spearheading the effort and
+ also tries to get some funding to evolve some of the features so
+ that you can do something like this application store and things like this.
+ And then there's Geogram, an XMPP based messenger,
+ where you can use the same apps, the same zip file.
+ You just drop it into Geogram and it runs there.
+ It's independent from how the send update, receive update is implemented.
+ And in XMPP, it's like an XMPP message.
+ In DeltaChat, it's like a PGP encrypted message that goes via the providers.
+ In a prospective future system where you have some peer-to-peer connection,
+ it will be this peer-to-peer connection.
+ So the apps themselves, they run basically unmodified.
+ That's the idea.
+ We had four security audits.
+ You can read about this in the kind of earlier this year, the blog posts.
+ Around end-to-end encryption, the REST PGP implementation, the TLS setup,
+ network parsing, IMAP SMTP, and then also WebXTC security,
+ getting an isolated web view.
+ Read all the great story about how Chrome sucks in the blog post,
+ I think, from March or so, where we detail how bad it is.
+ We have, we push, actually, I said that we want to have it like WhatsApp and Tetragram.
+ We have DeltaChat in like ten different app stores, like of course Android,
+ Google Play, and F-Droid, and Apple Store, and often also on test flight.
+ But also some special app stores in Iran and some other places.
+ And we have, I would say, currently like 10 to 15 active contributors.
+ We also have a little community around setting up your own server so
+ you can easily give out email accounts to your friends.
+ We have QR code scan, you scan it, you have an account.
+ And then you can just use it for chatting.
+ That is actually something that we call the dedicated chat email account, so
+ that you really just have an email account that you just use for chat.
+ You can use your existing address and kind of share with your other email app.
+ Or you can use a dedicated.
+ And the dedicated is like a kind of a clear model.
+ It's very easy to just try and onboard and
+ you don't mess with your kind of existing email address.
+ But also like half the people who answered in the Fettyverse poll said they
+ use the existing email address, which is like the original model, but
+ the server guide is also important there.
+ I think with that I would like to close.
+ Maybe one or two questions.
+ I think that Neil actually wanted to say something earlier.
+ Otherwise, we are at the Delta Chat Village over there in Comona.
+ Might also, if there's interest, we can also do some sessions, but
+ you can always just come there and see who's there.
+ We are like six, seven people at least who are mostly sitting in the last bench.
+ Except the orange t-shirt maybe.
+ Are you also programming in Delta Chat?
+ No, okay.
+ So.
+ And yeah, so with that I'd like to close.
+ And maybe let Neil ask.
+ >> You gave as an example the collaborative editor.
+ And then you also said that you can use a standard in and
+ standard out model.
+ And I'm wondering how you get the file out.
+ >> The file out of the editor.
+ >> Yeah.
+ >> Yes, we implemented something funded by an earlier this year.
+ Where you can have an, there's another API, it's not just send and receive.
+ So the other IO that you have is send an attachment to a chat.
+ So any web app can just generate an image or generate a markdown file or
+ generate an ICS calendar file.
+ There's also a calendar.
+ And then you can actually send this item to whatever chat you choose.
+ So from the web app you say, you basically call this function and
+ then it switches back to the messenger.
+ And you send it the attachment to whatever chat you want.
+ And there's also import files so
+ you can actually import resources from the local file system into your web app.
+ And then do something and send it onto a chat.
+ Like taking an image and modifying it or whatever.
+ [BLANK_AUDIO]
+ Okay.
+ Thanks a lot.
+ >> It appears we are out of questions.
+ And so first of all, a big round of applause for Holger.
+ >> [APPLAUSE]
+ [MUSIC]

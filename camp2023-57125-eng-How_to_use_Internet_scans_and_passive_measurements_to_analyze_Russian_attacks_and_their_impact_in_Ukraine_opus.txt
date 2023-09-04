@@ -1,0 +1,504 @@
+ [MUSIC]
+ [MUSIC]
+ So, please welcome Johannes Klöck with how to use internet scans and
+ passive measurements to analyze Russian attacks and their impact in Ukraine.
+ >> [APPLAUSE]
+ >> Hello, welcome.
+ My name is Johannes Klöck.
+ I'm here for talking to you about how to use internet scans and
+ passive measurements to analyze Russian attacks and the impact in Ukraine.
+ I'm Sion Kofon of IFAS Strike Labs,
+ it's a company about which is does scanning whole the day, the internet.
+ And then we do also a lot of research,
+ have also published last CAHOS communication camp.
+ I have published here a talk how to set up a search engine and
+ which ways you can globally scan the internet several times.
+ And now we use much more of this data for making advanced research.
+ So, but before we start with the Russian attacks and
+ how we can measure the impact using global internet scans.
+ I'm here more also to talk about why the resilience of the Ukraine in terms of
+ internet is so high.
+ So maybe, so at first it's really sad that the power of the beamer is not that high.
+ I hope you can see something.
+ Interesting point is that when we talk about Ukraine,
+ we can see that approximate 55% of all end users in Ukraine
+ are served by very small ISPs.
+ So we can see this there in a circle.
+ We can see that like 45% are served by larger ISPs,
+ which serve more than 1% of the whole end clients.
+ But 55% of all end clients in Ukraine are served by an ISP that
+ is managing less than 1% of the whole clients in Ukraine.
+ When you compare it to Germany, on the next slide,
+ we can see that in Germany in comparison to that only 18%
+ of end users are managed by very small ISPs, less than 1%.
+ So we can see that in Ukraine we have much more diversity in terms of small ISPs.
+ They are each connected to each other.
+ And when one ISP has maybe no power or maybe fails out,
+ the traffic can go route through another ISP.
+ And this makes it much more resilient.
+ Here in Germany we have approximate one third of all end clients
+ on Deutsche Telekom.
+ The other third is on Vodafone.
+ This means at least when one of these ISPs get knocked out by somehow a strike,
+ we will have big troubles here in Germany.
+ And we are not thinking-- the next point is also the day kicks, right?
+ That's also a point.
+ But in Ukraine, they have a huge amount of very small ISPs serving approximate half
+ of the whole end clients we have there.
+ And this makes the internet itself in Ukraine very robust
+ compared to Western countries.
+ Before I explain about the results we have,
+ I just want to tell something about how we collected the data.
+ So what we are, we have our own internet service provider.
+ We have our two different slash 22s.
+ This means over 2,000 different IP addresses which we use for internet scanning.
+ This means we are scanning the internet.
+ And each time when we connect to a new system, we use a new IP address.
+ And this leads to the fact that we like half an hour,
+ we visit with the same address, the same network.
+ So each 30 minutes.
+ This gives us a very good opportunity to be another radar of a lot of intrusion detection systems
+ and prevents a lot of blocking.
+ Our staff has been developed in a free university of Berlin
+ financed by the Federal Ministry of Education Research and Former Times.
+ This was around '14 to '15, '17.
+ Then we found out of that a company and did some cool interesting stuff.
+ And now we are coming to the point that when we are doing all the time the internet scans
+ and see, okay, where are the clients we have seen, especially in Ukraine,
+ when the war started, that a lot of clients availability dropped.
+ And they said, okay, that's very interesting.
+ We need to investigate it because it makes sense when maybe a lot of power outage we have.
+ And we know that the Russians have attacked a lot of critical infrastructure
+ in the Ukraine.
+ Then where there's no power, there's also a high chance that you have no internet
+ because also routers and so on need a lot of power, right?
+ And especially in the end, in the small office, home office from the people,
+ where there's not so small routers, no power, there will be also no internet.
+ That is why we have taken as base reference for our analyzers October 21,
+ which is approximately half a year before the Russians started their attacks,
+ as the reference said, okay, these amount of servers we have seen is the 100%,
+ the baseline.
+ And then we have seen how are the services behaving when the Russians started their attack.
+ And here we see the first chart.
+ I hope you can see it somehow.
+ On the left, we have started by 100% for different protocols for HTTPS, SSH,
+ HTTP host, DNS host, SMTP hosts.
+ And we can see in the middle of the chart that there is approximately the end of February,
+ beginning of March 22, where the red arrow is somehow seeable.
+ We can see there's a huge drop in service availability.
+ This is here, for instance, this is a special area of Ukraine.
+ This is in the northeast Ukraine.
+ This is northeast also from Kiev.
+ This is the region where when we have here, Charnivy, this is the oblast of Kiev,
+ got invaded by Belarus and by Russia and got occupied by approximately 70%.
+ And we can see that during the occupation, a lot of services in that area went down,
+ especially the web services and also the mail services.
+ But one service still was very steady.
+ This was DNS.
+ And this was some of the thought, okay, that's very interesting.
+ We can see a lot of services dropped by approximately 60%, but only DNS is quite still stable.
+ When we compare now, especially the results from the beginning of March with the end of
+ the beginning of April, we can see that in the beginning of April, remember, the Russians
+ had a lot of logistic problems.
+ They needed to retreat going back to Belarus, et cetera, and then they released Kiev, right?
+ And then we can see the services are going up again.
+ So some people said that, oh, maybe they have just fixed the infrastructure and then the
+ services go up, right?
+ But we see that all the time DNS is very steady.
+ We have talked to some companies that have third-party providers based in Ukraine, and
+ they told us that before the Russians have invaded them, they have shut down their system
+ for data integrity protection and also data theft protection, right?
+ And that's why they have brought down their servers, but DNS was still active because
+ if you have ever tried to boot up a whole AD Windows infrastructure without DNS, it's
+ not possible, right?
+ That is the last core services you will remain, and that is why we see that we have seen DNS
+ was quite steady and all other services went down by 60%, and after the Russians retreated
+ and went back to their country, to Belarus, it went up again, right?
+ This was very interesting.
+ We have seen this kind of behavior and seen, okay, we need to now make more intense scans
+ on an hourly basis to understand and to see maybe we can also see where some Russian rockets
+ attack some power plants and if we can maybe see in that region, we can see that a lot
+ of servers are also going down and going up after some other hours when the power is up
+ again.
+ And I will show that.
+ Here we can see also a very special case that is a Mario pole.
+ You can maybe see we have also set 100% for all protocols, and then for all protocols,
+ it goes down by 90%, right?
+ Mario pole is a city that's very close to the cities that were attacked very hard, very
+ first by a lot of critical airstrikes and so on.
+ On the right side, you could normally see data from the European Space Administration.
+ They have done some radar scans and have seen that approximately 90% of all buildings are
+ now like 10 up to 50 meters lower than before because they got completely destroyed, right?
+ And using our internet scans, we can also see that approximately 90% of all network
+ services we have identified in that region are also not existing anymore since the beginning
+ of the invasions and the attacks of the Russians.
+ This means we could also just sitting here in Berlin scanning from our IP addresses,
+ we can just use it like a radar looking if you're up, are you up, are you up?
+ Oh no, you're down.
+ And then we can see that 90% of all service in Mario pole went down like in the first
+ two weeks of the attacks by the Russians and 90% are not still available anymore.
+ And this shows us that also for a long time, for at least three months, this shows us that
+ you can use internet scans for use some kind of battle damage assessment to see how big
+ is the attack and how big is the result of the attack also for the region.
+ This information is for instance important for when you are the Ministry for Foreign
+ Affairs and you support some NGOs, for instance, right?
+ Then it would be very interesting to see how big is the grade of destructions in a certain
+ area.
+ And you can use this kind of information for rough estimation.
+ So what we then did is that we said, okay, we have selected 400,000 static IP addresses
+ in Ukraine.
+ It's like having vantage points for measuring.
+ And then we have scanned these 400,000 static IP addresses every four hours just for looking
+ where in the region services are going up or going down.
+ Very important, static is very important because if you use dynamic IP addresses, dynamic IP
+ addresses are very often up or down because people switch off their mobile router or get
+ a new IP address, whatever.
+ That is why we have chosen static IP addresses.
+ And as you can remember, we know that especially in October 2022, this was the first big attack
+ of the Russians against the critical infrastructure of the Ukraine.
+ A lot of reports also from Reuters has shown this was the first well-known Russian attack
+ against the critical infrastructure.
+ And then we have chosen open source intelligence.
+ Here on the right side, you can see somehow a map from Wikipedia, which has collected
+ tons of reports from social media and also from newspapers where in a certain region
+ Russian have attacked and where we have received a power outage in that region.
+ And the interesting point is that in all regions where we have seen that the open source intelligence
+ says, or here the social media says there was a power outage, we can also see that we
+ have a drop in our scans.
+ So for instance, here we can see on the map on Chenevy, which is in the northeast, this
+ is a country that which got not, this is an uplast like a state of the Ukraine, which
+ got not directly hit, also received not a power outage, but all surrounding states or
+ uplasts of Chenevy have received power outages.
+ And we can also see this in the data.
+ On the right side, when you can see a small drop, this is a drop we can see on the power
+ outages in Chenevy because all the border regions also received a power loss.
+ And for making, showing you that also the opposite also works very well, we can see
+ that in Odessa, which is in the southwest of Ukraine, we can see there was no power outage
+ given by the social media and in other newspapers.
+ And there we can see the data acquired steady, steady, steady line on the availability of
+ the network services.
+ Now we are going directly to Sumi, which is an uplast, which received a bigger power outage
+ and there we can see here on the right side, a big drop by approximately 90 up to 80% across
+ all protocols.
+ When we remember we have seen the Chenevy first stuff we have seen there was still DNS
+ was still running. In that case, we can see that HTTP, SSH, HTTPS and DNS, all services
+ went down exactly at the moment as the social media also reports there has been Russian
+ attacks in the security infrastructure and also says there was a power outage.
+ And we can just say, okay, yes, we can also measure that.
+ This is also, we can also estimate here, we can see the power drop and we can just estimate
+ that the power outage was around 12 hours.
+ So we say when approximately 80% of all services up again, we say the power outage is over.
+ We can see after 12 hours 80% are reached and then they took three further days to get
+ up to 100%.
+ That is very interesting.
+ Also when you are an NGO it is very interesting to understand how many fuel I need to take
+ or how to cover these power outage time for instance or how to maybe what kind of turbines
+ do energy turbines do as you create need.
+ And so this is very interesting data because you can just on a social media you can just
+ see there was some kind of power outage but you can't half measure how long it is.
+ And here we have very good qualified data for doing that.
+ So this data here was for Sumi.
+ We can also see this for Poltava.
+ Poltava is the same.
+ We can see here on the right side a drop across all protocols and also here in this time this
+ was eight hours but it was not that big.
+ It was approximately only by 40% drop.
+ We can also see this here for Ternopil.
+ There was a first strike on the night from the 6th to the 7th October and also on the
+ 10th October we can see also a bigger drop.
+ And then what's very interesting you can see here they have been fighting really really long
+ for getting up to the 100% because at first they just went to the 80% and then you get
+ up and they get down and so on.
+ You can see that the energy grid was very unstable for at least three up to four days.
+ So here we have just a table which shows us where power outage has been detected by the
+ open source and social media and what our results are showing.
+ We can see that very often when we have power outage detected we also have our mechanisms
+ detected in it or our algorithm.
+ And we did a Pearson correlation coefficient analyzer and we got a strong correlation because
+ we got a result from 0.74 which indicates a strong correlation using our methodology
+ for detecting power outages in Ukraine.
+ It has a strong correlation to the open source and social media reports.
+ So this means that the algorithm and the technology is working and it's very interesting.
+ So now we can see the next like approximately half a year later on the 9th of March the
+ Russians attacked again the critical infrastructure of the Ukraine.
+ And the very interesting point is that we measured it again and this time we can see
+ for instance here for Dnipropetrovsk Oblast there was only a small power outage like 20%
+ for eight hours.
+ We can also see this here for Kivororod which was also a very small power outage like 40%
+ only for eight hours.
+ So when we now go further and investigate it we understand we have seen here that on
+ the October the power outage was every time like 80% for 12 up to 15 hours.
+ And then it took like three days they recovered completely to 100%.
+ But half a year later the Russian attacks are not so have not such big impact because
+ here we can see power outages now only maximum 80% very close to the 100% 100% and then it's
+ easier.
+ I talked to some Ukraine guys and they said yes because we learned to deal with that.
+ A lot of Ukrainian civilian people have now small energy turbines, generators and so on
+ and they self power them for the time of the outage.
+ We have also the United States have provided big very big power generators, huge turbines
+ like big cars that are able to distribute power for the whole district of a city.
+ So they distributed the power supply of the Ukraine using mobile generators, the civilians
+ on their own and also by the government supported by the Germans and the United States.
+ And we can see in our measurements that the impact of the power outages are much lower
+ than before because we can see it's not over the 50% before we had like 80-90% now it's
+ maximum 50% and also the time of the power outages has decreased by 50% because we now
+ have only like eight hours up to the 100%.
+ It's very interesting to see that the Russian attacks against the power grid is less efficient
+ than before in October and that is measurable by internet scans.
+ This is so fascinating right that you can sit here and see the data and analyze it from
+ home not being there but you can make very interesting research about these kind of topics.
+ Okay now we are also looking for the Russian control right so we have here Zaborozhina
+ which is under Russian control and we can see that the power attacks against the Zaborozhina
+ against the Russian controlled area has no impact.
+ So we can see that the Russians are not attacking their own region right they are not impacted
+ by their own attacks because there's also cross-check you have to do right maybe there's
+ some general failure in my methodology but this is very interesting to see that the Russians
+ are all the time steady in their controlled area and that they attack only the Ukraine
+ power grid system and they do not impact themselves.
+ Okay this was about kinetic strike detection and to understand how you can use internet
+ scans for detection and to analyze it.
+ Now we are going to more presumably Russian attacks so very interesting is we have Kherson.
+ Kherson is a city which was very heavily contested and which went under control in the end of
+ March and April under the Russians and what we can see here is the BGP dependency graph
+ this means we can see here from Kherson Telecom which is an ISP an internet service provider
+ of Kherson we can see where do they give or who is the main upstream provider of Kherson
+ Telecom right so this means when you serve on your network where is the traffic for Kherson
+ Telecom clients going through.
+ And here we can see it was taken by Ucomline, Ucomline was the upstream provider of Kherson
+ Telecom and in the beginning of May in the first May we can see there is a switch.
+ The switch there is a switch that say have give 100 percent of the traffic to Ucomline
+ which is Ukraine ISP and then there was a switch to Miranda AS Miranda Autonomous System
+ so who is Miranda?
+ Just looking Miranda Media Limited is the ISP is the new upstream provider of Kherson
+ Telecom in the first of May there was a change on the BGP data very interesting first of
+ May is also a holiday in Ukraine right day of labor and we can see Miranda Limited is
+ ISP which is has been founded in 2014 on the Crimea interesting right and when we see also
+ on the right data they states it's in Crimea and belongs to the Russian Federation so we
+ see it looks like a Russian ISP doing some more investigation we can see here that also
+ Miranda Limited is responsible for the internet C cable that connected Crimea and Russia mainland
+ right and very interesting point is that these internet cable was finished in 2014 very close
+ to the invasion to Crimea and these internet cable was also provided by a Chinese cable
+ layer called Ying Gong Wan right isn't fascinating to understand these political behaviors behind
+ that so we have here clearly an Russian ISP and ISP that is also operating a C cable connecting
+ Crimea and Russian mainland and so it makes totally sense that they are the new upstream
+ provider of Kherson Telecom a city they have invaded and very interesting is that you can
+ see later as there was on the 4th of May we can see there is somehow back switch to data
+ group as of going back to Ukraine ISP and then there is also New York Times report which
+ says yes very important a lot of different reports especially in Kherson Russian people
+ arrived Russian soldiers arrived and tried to get control about the internet infrastructure
+ and also telecommunication companies so this time here in the first time of war we can
+ really see that the internet as part of critical infrastructure is also a tactical objective
+ obviously right so Russians came and say please switch off your routes going to Miranda ISP
+ that's how it's working and interesting point is that we can see so here we can see that
+ on the 4th of May there was switch back to the Ukraine ISP and it looks like then they
+ used maybe more forces or so that different there's a huge topic on the Facebook channel
+ of Kherson Telecom where the CEO says yes there was no connection I was not forced by
+ the Russians but I thought it's better to use the Russian internet than the Ukrainian
+ because it's more stable and so on and so on right so but it's very hard to say here
+ from Germany what's the retry but we can see that in the end of May 31 May we can see since
+ November 2022 it was all the time Miranda as was the primary upstream provider of Kherson
+ Telecom and then we can remember that in 9 November the Russians retreated from Kherson
+ they went back and the interesting is we can also see this in the BGP data because exactly
+ to the 9th November Kherson Telecom has no upstream provider anymore the Russians have
+ cut the lines and then they moved away from Kherson right and this is also seeable by
+ the BGP data very interesting is Kherson Telecom went never up again they are now completely
+ away and I have heard some rumors that the CEO of Kherson Telecom went also in prison
+ or gets accused but there's still some some social media stuff right it's very hard to
+ prove the truth we can just see here the data on the BGP and we can see that the Russians
+ have somehow tried to get control about the upstream of Kherson Telecom in the end of May
+ they have received the control all traffic went through Kherson Telecom it's very important
+ because for censorship of course you can also identify maybe partisan troops try to communicate
+ using the internet whatever and then when they retreated from Kherson the lines got cut
+ and we can see no connection anymore for Kherson Telecom so this was the second part now we
+ are coming to the third part of the talk we also operate a third /22 just as a black sensor
+ network it's an under name from a different company and the black sensor network we call
+ internally the cyber echelon right this means it's just collecting the data just when you
+ make some ping probe some TCP-SYN traffic whatever it's just it's a sinkhole it's just recording
+ all the data and enriches the data who is connecting what is the what is the autonomous
+ system from the IP addresses that get sent from and so on but you will never receive
+ an answer from this black hole network using this we can also understand how are people
+ scanning and if maybe there's a new RDP vulnerability for instance we can use this kind of technology
+ to see who is scanning for new RDP ports or for new vulnerabilities and so on that is
+ for why we have these sensor network but the interesting point is that we have approximately
+ 160 million packets per day and the over 90 percent of all the data is TCP data we receive
+ 5% UDP data 3% ICMP pings so and the interesting point here is that we can see here on the
+ left or you can see nothing but I will now explain the chart okay so imagine it's like
+ that and then we have time of war and then immediate increase of the TCP packets we receive
+ from the Ukraine so suddenly this war begins and we receive a lot of traffic from the Ukraine
+ on our sensor network and that's very interesting we thought why so when we try to understand
+ TCP handshake normally you send a SYN you get a SYN ACK back then you send an ACK connection
+ established layer 4 communication very easily and then we have looked what kind of packets
+ do we receive and then we have seen we receive SYN ACK packets so this means we receive packets
+ from server they say yes we it's okay that you tries to connect to me I want to set up
+ a connection also to you right makes no sense because we have a black hole sensor network
+ we have never sent some kind of connection request so why do we receive SYN ACK communication
+ and then we have thought about it okay makes sense somebody is spoofing randomly IP addresses
+ sending it out against Ukraine targets and then Ukraine targets are responding with SYN
+ ACK packets back to our sensor network because when you randomly spoof IP addresses you will
+ also randomly spoof some IP addresses of our black hole sensor networks we have 1000 IP
+ addresses there will be some when you send tons of packets there's a very good chance
+ that you will also spoof some of our IP addresses so just it's illustrated the attacker is sending
+ spoofed SYN packets to the Ukraine victim and the victim is replying with SYN ACK packets
+ and some of the SYN ACK packets are also hitting our sensor network and in that way we can
+ identify who is the victim of the DDoS attack right so we can see we can see that especially
+ in the beginning of April so on a chart you can't see here but you have to imagine now
+ we can see that in the beginning of April the first April there's a high spike up to the
+ end of May and then there's anything anymore right so somebody has somehow fired a DDoS
+ attack against Ukraine server and in that case we have looking who is the IP address
+ that's sending us the SYN ACK packet it was President Gov UA right so somebody DDoSed
+ President Gov UA by randomly spoofing IP addresses and it's very easy to do that and it's also
+ hard to fight against this kind of traffic and you just rent some bulletproof holster
+ which allows SYN TCP IP spoofing and then you can I don't know for 500 euros you can
+ also get 10 gigabit connection and then you try to fire against it the problem is against
+ this kind of traffic is it's very hard it's not that you receive DDoS traffic from a certain
+ autonomous system and then it's very hard to block because you receive completely different
+ packets from a lot of different ISPs because they randomly spoof the IP addresses but the
+ other point on these kind of attackers you have to buy a lot of bandwidth but normally
+ there was also another talk today two hours before very often DDoS attacks are also executed
+ that you try to identify a multiplier like DNS or NTP server you send traffic and they
+ send a 10 or 20 times amount back to the victim in that case here we have people that are
+ spoofing IP addresses and sending it directly to the victim and the victim is replying somehow
+ to us because they also spoofed our IP addresses and we can see that the exact in the beginning
+ of April the first April is it they started the attack and the end of April they finished
+ and then we can also see that in the beginning of May they started the attack winding up
+ going down the end of May and then exact and the beginning on June they are starting the
+ attack and the end of June they stopped so we can really see a very good pattern on these
+ kind of Russian attacks it's so it's in the beginning of the month it looks like somebody
+ has paid maybe somebody for doing something and then starting on the first of May yes
+ sir we are starting on the first of May you know so it makes no sense that you really
+ start it's begin exactly the beginning of the month you DDoS attacks so that's a freelancer
+ the hacker would never work like that right so starting exactly on the first of the month
+ yeah very interesting to see that so the second attack we have investigated here on the beginning
+ of June and the beginning of July was booking Gov. UA this is a portal where you can book
+ your train stuff where you can get your tickets where you can travel around Ukraine which
+ is also important for truth movements because also the Russian soldiers move by train of
+ course when they go home for some stuff and so on and so we can also see they have attacked
+ the presidential website and also the critical infrastructure the train systems the booking
+ system okay so also so now putting stuff in a nutshell we can use internet scans combined
+ with open source intelligence data and also a satellite imagery we remember on the European
+ space administration picture of Mario Pol and we can also to make strong correlations
+ for various events in the Ukraine in the in the Ukraine Russian conflict we can use very
+ intense internet scans like we have done in the scanning Ukraine's aesthetic server every
+ four hours to measure the impact of kinetic attacks by the Russians or to do or to use
+ it for some kind of better damage assessment to see how efficient are the Russian attacks
+ and we can also is also another point imagine that somebody on social media says a huge
+ nuclear bomb or whatever has exploded somewhere you could also use this kind of stance to
+ make some kind of fake news detection because if you have really really large damage event
+ somewhere you could use these internet scans also to verify these kind of information are
+ they really strongly hit is there really a large bombing whatever then we would see that
+ in our data so you could also use this kind of approach for fake news detection in the
+ end or for verification we have also learned that Ukraine internet consists of much more
+ small ISPs compared to the Germany they are much more resilient because more than 50 percent
+ of the end clients are are served by very small ISPs that serve less than one percent
+ of the whole clients we can use the BGP data to understand who is trying to capture critical
+ infrastructure special communication infrastructure and to route traffic through their own country
+ for censorship for instance and we have also learned that we can use a black hole sensor
+ network for understanding who is the victim in the Ukraine for a certain type of DDoS
+ attacks and we have also seen that in the DDoS attacks we have investigated there is
+ a some kind of campaign of campaigning because the attacks started every time on the first
+ of the month and ended in the end of the month which shows us this is a some kind of foreign
+ cyber campaign maybe behind it okay so this was my talk I thank you very much for your
+ attention I know it was very hard and we do have a few minutes for questions please line
+ up at the microphone countries in Europe are divided approximately equally right now in
+ terms of which ones require registration of identity to obtain SIM cards and those that
+ don't the Russo-Ukrainian war is between two powers on opposite ends of this spectrum and
+ Ukraine no registration is required in the Russian Federation it is well this is less
+ relevant now as the Russian troops retreat early in the war Russian troops were obtaining
+ Ukrainian SIM cards through looting and other measures that enables them to stay in touch
+ and coordinate because they were given inadequate radio signals equipment and one of the interesting
+ questions at the time was how open source foreign open source intelligence operatives
+ or the Ukrainian government could try to determine which cellular signals to intercept or disrupt
+ given that no registration was available is this a problem you've encountered how would
+ you recommend as a strategy in this theoretical scenario well so mobile network communications
+ was not part of my talk it's a very it's it's a very good question but in the end I'm not
+ expert for the mobile network communication I can just say from a network perspective
+ that the mobile communications are mostly behind the network address translation and
+ that and that you can't reach them via the scans very often so that's why they are out
+ of my scope because I cannot scan them right so that's why I'm not dealing about I'm sorry
+ I have no good question ma'am it's not my my subject hi thank you for the talk you mentioned
+ this provider in cherson which is now gone do you have any indication what the clients
+ of this provider are now doing have they switched to another one did you see any increase for
+ in another isp a good question this is a very interesting point we have not investigated
+ that but if you maybe give me later a card or contact information we can do this and
+ and I can send you this right very good point so very often they have their own ranges and
+ they are belong to the ripe and I think that the IP addresses are now dead until they get
+ released by the ripe again because of course so that's that what I would think now but
+ maybe we can identify some HTTPS certificates and can see where these servers I have maybe
+ moved to another isp it's a very good idea we can investigate it very good point good
+ idea hello and thank you for your talk I was very interesting I wanted to ask about the
+ coordination like you scan like 400,000 IPs on Ukraine every four hours did you have any
+ kind of coordination with them because it's a war right so I imagine from the other side
+ they are trying to defend and then you're just hitting the things and not only you but like
+ all the other companies right so did you do any coordination like these are our IPs like
+ we are doing this sir it's so when you for instance when you go when you look who is
+ the IP address who's scanning you can see it's IFA strike lab it's research net you
+ have an abuse address when you email to the abuse address you get a complete answer about
+ the research project we are doing technically it's like every four hours one packet per
+ system it's nothing right so it's it's yeah but but the traffic we issue is very it's
+ it's just a sin a sin packet on HTTP on HTTPS it's it's it's it's really under the backscatter
+ of all scanning we have all the time so it's like this is some kind of background noise
+ all the time that's everybody everybody is getting everybody like that and this one packet
+ every four hours they are they are not even identifying it we know so we got no compliance
+ complaints on from Ukraine so that point it was like there was no Korean nation because
+ there was no impact in the end and was also predicted by several be no impact okay hello
+ thanks for the talk and I would assume that especially owners of static IP addresses have
+ a quite professional hardware setup containing uninterruptible power supply of some sort
+ so is it really that four hours accurate what you showed off or might there be a heavily
+ impact because they might be able to power up from scratch even in the beginning of the
+ war you're from Germany right yes yes okay very typically because that every 24 hour
+ you get a new IP address is a very typical German stuff right so especially when you
+ think on cable modems you have even now in Germany very often static IP addresses so
+ I have also static IP address at my home so and especially when you go abroad having static
+ IP addresses on a broadband connection it's very usual in the foreign countries so yes
+ of course it's more likely that you have maybe more professional setup because each professional
+ setup will have a static IP address but compared to to like standard DSL connections here in
+ Germany and even they have now more than 24 hours a static IP address yes there could
+ be a somehow small shift that will be more professional and we receive lower or maybe
+ not that good results but when this effect would be really there then we wouldn't have
+ seen like 90 percent power loss on the on the attacks in October right and because we have
+ seen that I would say this is not a factor that impacts our result very much because
+ the special equipment could be maximum 10 percent of our results because we have seen
+ a drop on 90 percent and the 10 percent remaining have maybe professional equipment yes sure
+ hey thanks for the talk I was wondering whether you have any insight and type of devices or
+ the locality of the static IPs you are measuring so is it a representative sample of the Ukrainian
+ infrastructure internet infrastructure yes so what we have done is we have looked for
+ ISPs so we have seen that we have really from all ISPs a good sample rights and from all
+ prefixes and so on so this it's not like we have four one hundred thousand IP addresses
+ from like two ISPs that's something of course we have checked and that's a very good distribution
+ across all ISPs and also across all locations in the Ukraine so yeah sure thank you very
+ much very good question hi question previous reports on scanning the infrastructure send
+ the reports to the Ukrainian government for approval before publishing did you ask them
+ before publishing if you can so what we have done as I was on a conference from the Ministry
+ for Foreign Affairs of Germany and there I have met the vice deputy for the Ministry
+ of Communication and IT something like that and I talked to him and he said oh very interesting
+ data please send it to me right so there was not so so for him it was not like it's very
+ sensitive data or something like that and from our perspective I'm here in Germany and
+ we have freedom of research and when I found out those very interesting results I want
+ to publish it and to explain to people that you can use these very interesting types of
+ data and this internet scanning stuff also to understand what goes up in the Ukraine
+ also to fight against fake news and some other stuff right so that's so but in the end this
+ I have there was no coordination because how you I cannot just pick up a phone say hi I'm
+ Johannes Klick I want to talk with the vice president whatever and I want to internet
+ scan it is okay for you that's not how it's how it's working right it's like I will get
+ in a spam and then I wait for two hours and then it works right so that's but but nobody
+ was complaining and it's so yeah there's a word of course yes and they they they have
+ been very thankful for the insights because they have not been aware that we could have
+ been able to measure that the second Russian attacks are less powerful than the first wave
+ we have seen so in the end all Ukrainian guys I have talked to they have been very thankful
+ for these very interesting insights and to prove that they have been more resilient against
+ the Russian attacks that was all feedback I have received all the time thank you so much
+ for your research I'm wondering are you able to see starlink devices are able to see people
+ move to satellite internet or is this something that you're blind to so we have not investigated
+ that so when the star like when you have a device that is it depends I have not investigated
+ when they have IP addresses and known net network behind it you will have direct contact
+ to these networks but very often satellite networks and other stuff is netted or like
+ mobile communications but you have also every time the opportunity to have m2m connections
+ machine to machine connections static IP addresses I don't know what the exact setup is I have
+ not investigated starlink because a lot of other researchers concentrating on starlink
+ and what's going up in Ukraine and I wanted to make other stuff in the end but it's still
+ interesting so I can look up if you maybe find something and if I find no connection
+ to starlink I would highly bet that they have a network address translation okay thank you
+ good question thank you your house click thanks
+ (audience applause)
+ (ethereal music)
+ [MUSIC PLAYING]

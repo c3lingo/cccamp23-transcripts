@@ -1,0 +1,312 @@
+ [Musik]
+ Also Karten sind super, um Informationen darzustellen und geobezogene Sachen zu visualisieren.
+ Und wenn die dann auch noch interaktiv sind, dann sind zumindest alle meine Freunde und ich begeistert.
+ Und Michael und jetzt würden euch mal vorstellen, wie man das realisieren kann mit ihrem Projekt Versat-Tiles.
+ Gut, dann eine Runde Applaus und viel Spaß.
+ [Applaus]
+ Vielen Dank. Mein Name ist Michael Krall. Ich bin Datenschönlist bei S beim Südwestrundfunk.
+ Und das ist ... Genau, ich bin jetzt. Ich bin auch Datenschönlist in und zwar bei der Funke Mediengruppe.
+ Und zusammen haben wir ganz viele Datenvisualisierungen gemacht und haben festgestellt,
+ Karten sind ein total wichtiges Instrument, um Daten darzustellen.
+ Aber leider sind die Daten nicht immer frei.
+ Und die Anbieter, die sich da etabliert haben, geben die Daten nicht immer frei raus.
+ Und dagegen wollen wir was tun.
+ Wir haben was dagegen. Ich gebe mal ein typisches Beispiel in Corona.
+ Ihr Berliner Kurier, die 14 kleinen Testzentren der Senats, ist eine lange Auflistung von Adressen.
+ Das hilft einem nicht. Man möchte gerne wissen, was ist in der Nähe.
+ Eine Kartendarstellung würde helfen.
+ Kartendarstellungen sind aber extrem schwierig.
+ Zum einen gibt es natürlich den Ansatz, man kann auf OpenStreetMap.org einfach die Kartenkacheln frei verwenden.
+ Die sind aber nicht hübsch.
+ Und das liegt auch einfach daran, dass die Aufgabe von OpenStreetMap eine andere ist.
+ Sie versuchen alle Daten in dieser Datenbank in einer Karte darzustellen.
+ Da geht es nicht um Übersichtlichkeit, sondern um hohen Informationsgehalt.
+ Da gibt es kommerzielle Anbieter, die machen schönere Karten, die man einkaufen kann.
+ Aber zum einen machen die eine Menge Tracking.
+ Also zum Beispiel, wenn ich eine Google Maps-Karte einbinde, müsste ich eigentlich eine Zwei-Click-Lösung,
+ eine Cookie-Warnung und eine Datenschutz-Grundverordnung berücksichtigen.
+ Und sie sind extrem teuer.
+ Mal ein Beispiel.
+ Ein Beispielsszenario. Ich habe eine Million Besucher.
+ Die klicken ungefähr so zehn Kacheln, wenn sie reinzoomen.
+ Das macht ungefähr einen Terabyte an Traffic.
+ Das ist ein Szenario typisch für ein Medium, auch für eine NGO.
+ Für private Anbieter jetzt erstmal, oder sozusagen private Webseiten nicht.
+ Aber wenn ihr jetzt mal irgendwie Netzpolitik.org oder vieles auf euch verlinkt,
+ dann seid ihr auch relativ schnell in diesem Bereich drin.
+ Bei Mapbox würde euch das 2.800 Euro kosten.
+ Wenn man es komplett selber macht, hat man eigentlich bei Hetzner ein bisschen Hosting
+ und hauptsächlich Traffic-Kosten.
+ Da sind wir dann bei 1,19 Euro.
+ Also hier hat Mapbox auch ein Geschäftsmodell gefahren,
+ das einfach Faktor 2000 den Traffic vergoldet.
+ Das heißt, wir brauchen eigentlich mal einen eigenen hübschen Kartenserver,
+ haben wir uns dann auch beim Südwestrundfunk gedacht.
+ Und den machen wir dann auch gleich mal Open Source.
+ Die Daten sind ja schon Open Source.
+ Und wir müssen jetzt halt noch eine Infrastruktur drum rumbauen,
+ dass alle, die benutzen können, ohne dass dann kommerzielle Anbieter wie Mapbox oder MapTiler
+ für das Hosting und den Service Unmengen Geld verlangt.
+ So, ich zeige euch hier einfach mal, ab sofort geht es im Browser weiter.
+ Das ist jetzt zum Beispiel mal so eine Waldbrandgefahrenkarte,
+ die wir beim S-Ware gemacht haben.
+ Da sieht man sozusagen die europäischen Waldbrandgefahrenstufen.
+ Und die müssen wir halt auch auf eine Karte dahinter setzen.
+ Und die ist halt mit unserem Kartenserver gebaut.
+ Und das Ding haben wir Open Source und haben es genannt Versatiles.
+ Hier auf der Webseite versatiles.org, mal so ein kleines Demo,
+ da kann man sich das halt im Prinzip angucken.
+ Und jetzt gehe ich mal im Schnelldurchlauf durch.
+ Ich will jetzt mehr euch Zeit lassen, Fragen dazu zu stellen.
+ Oh Gott, wir sind zu fix.
+ Dann können wir sogar noch eine Schweigennude zwischen euch machen.
+ Also, es gibt, die Idee von Versatiles ist, dass wir sozusagen mehrere Varianten anbieten
+ für alle Leute, wie sie dann einen eigenen Kartenserver aufsetzen oder nutzen können.
+ Die erste Variante ist Use Our Maps Server.
+ Das ist sozusagen der fertige Code, wo JavaScript, CSS drinne steht und den Style, den er braucht.
+ Und dann könnt ihr einfach unseren Kartenserver benutzen.
+ Den zahlen wir jetzt gerade privat.
+ Vorteil ist, es ist einfach und kostenlos.
+ Nachteil ist, wir können euch jetzt noch nicht eine 24/7 Availability und Performance Maximum garantieren.
+ Da müssen wir glaube ich noch Strukturen im Hintergrund sozusagen aufbauen.
+ Wir wünschen uns, dass es irgendwann vielleicht zu einem größeren Community Projekt wird,
+ wo die Community einfach hosting Infrastruktur stellt und die Daten da einfach liegen.
+ Die Ansprüche sind relativ gering.
+ Das große, was weggeht, ist Traffic, wenn es populär wird irgendwann.
+ Die zweite Variante ist, ihr könnt unseren Kartenserver benutzen und ihr könnt einen CDN davor setzen.
+ Also da kann man sich einen Anbieter, ich habe jetzt hier mal Bunnynet genommen, den legt man einfach davor.
+ Sorgt dafür, dass sozusagen die Performance besser ist und sichergestellt ist,
+ dass wenn unser Server mal ausfällt, dass weiterhin bei euch Kartenkacheln ankommen.
+ Ich will es mal erwähnt haben, weil ihr dürft das bei kommerziellen Anbietern nämlich nicht machen.
+ Die sagen explizit, ihr dürft deren Kartenkacheln nicht cashen,
+ damit ihr nämlich schön den kompletten Traffic bezahlt.
+ Das muss ja sozusagen auch eine Anquelle sein.
+ Wir sagen im Gegenteil, nutzt den CDN, entlastet unseren Server und macht eure Anwendung schneller.
+ Und es gibt keine besonderen Ansprüche an das CDN, sondern das ist einfach eins von der Stange.
+ Es ist ganz normal HTTPS Traffic, der da durchläuft.
+ Dann könnt ihr natürlich einen eigenen Server aufsetzen.
+ Da haben wir auch schon alles dazu fertig, zeigen wir euch gleich.
+ Und ihr müsst halt auch den ganzen Kartenkacheln kramen.
+ Das ist extrem aufwendig, diese Vector-Kartenkacheln alle vorzubereiten.
+ Die ganze Welt, bis Zoom-Stufe 14 hat dann 360 Millionen Kartenkacheln.
+ Das haben wir schon alles vorbereitet.
+ Auf Download-Versatiles.org könnt ihr das dann einfach runterladen.
+ Und wir haben schon alles vorbereitet, dass ihr das auch in einem Cloud-Service machen könnt.
+ Was weiß ich so, Kubernetes, Digital Ocean, Google Cloud One, AWS und was es nicht alles gibt.
+ Und ansonsten planen wir alle paar Wochen den kompletten Planeten neu zusammenzupacken
+ und allen einfach zur Verfügung zu stellen, sodass alle Menschen ihn benutzen können.
+ Hier ist mal ein Beispiel, dass jetzt hier Versatiles, also der letzte Stand ist Juni.
+ Ich bin jetzt momentan im 3-Monate-Takt, ok?
+ Also September gibt es noch wieder ein Update.
+ Das ist eine sehr, sehr große, fette Maschine, die halt den kompletten Planeten durchrechnet.
+ Da braucht es mehrere Stunden dran und machen jetzt erst mal so einen Quartalsmodus.
+ Und dann gucken wir mal, ob wir da irgendwann häufiger werden.
+ Wie ihr gesehen habt, es gibt sowohl MB-Tiles als auch eine Datei, die heißt .Versatiles.
+ Und die ist deutlich kleiner. .Versatiles ist unser eigenes Containerformat,
+ das wir unter Open-Source-Lizenz veröffentlicht haben
+ und wo es auch schon Software für gibt, um das zu benutzen.
+ Kann ich auch gleich was dazu erzählen.
+ Hier ist nochmal kurz, ich habe mal den Ziegeleihpark Mildenberg hier mal gemacht,
+ nur mal zu zeigen, an was wir gerade so arbeiten.
+ Klassisch eine Karte und da möchte man aber jetzt gerne was im Vordergrund machen.
+ Das habe ich schon eingebaut, dass man das Ding schwarz-weiß machen kann
+ oder den Kontrast verändern oder man möchte es gerne einfärben oder in einer anderen Farbe.
+ Dass man sich einfach relativ schnell so eine Karte selber machen kann,
+ die dann blasser ist, um dann rote Punkte vorne rein zu machen oder so was.
+ Jetzt wird es etwas nerdiger. Wie funktioniert der Kram?
+ Die Kernidee von Versatiles ist eigentlich ganz einfach.
+ Man sieht es nicht, aber die Idee ist sozusagen das große Problem.
+ Ich möchte gerne eine interaktive Karte haben, in fünf Schritten zu zerlegen.
+ Das erste ist, ich mache aus Open-Street-Map-Daten diese Kartenkacheln.
+ Der zweite Schritt ist, ich bereite diese Kartenkacheln vor,
+ dass ich sie dann im Internet ausbreiten oder serven verbreiten kann, publizieren kann.
+ Und dann setzen wir zum Beispiel explizit da rein,
+ dass wir nicht das in einem MB-Tiles-Format liegen haben.
+ Das ist eine SQLite-Datenbank, das ist ein bisschen hacky, was ich Mapbox damals ausgedacht hatte.
+ Da haben wir ein eigenes Container-Format gemacht, das kleiner und schneller ist
+ und das jetzt extrem cloud-kompatibel ist.
+ Und dass man über HTTP-Range-Requests auch direkt querien kann.
+ Genau. Dann gibt es einen Server.
+ Da haben wir jetzt schon mehrere Implementierungen fertig.
+ Das ist hier das mittlere Feld, was ihr nicht seht.
+ Dann kommt dann sozusagen Poxi davor.
+ Das ist derjenige, der sich um den ganzen Netzwerkkram kümmert.
+ Also SSL-Verschlüsselung, das ist irgendwie HTTPS ausliefert.
+ Caching, CDN, Load Balancing.
+ Was macht man noch so?
+ Die Details notwendig noch manipulieren und leer rausschmeißen, die man nicht haben möchte.
+ Ja, dann müssen wir mal gucken. Ich mache mal ein Issue auf.
+ Teilblaster kann das.
+ Ja. Die größten Konkurrenten arbeiten in einem Team.
+ Das kann ja nur perfekt werden.
+ Und zum Schluss gibt es einen Frontend vorne drauf.
+ Da ziehe ich dann sozusagen auf der Webseite noch ein bisschen genauer, wie das funktioniert
+ und für die ganz harten sieht man hier so ein Strukturdiagramm.
+ Da sieht man sozusagen im Flowchart, welche Sachen für alles zuständig ist.
+ Hier gibt es dann so einen Docker-Container.
+ Da ist dann Versatiles drin und Teilmaker.
+ Ihr könnt es auf der Webseite anschauen.
+ Der sich sozusagen darum kümmert.
+ Für die Leute, die hier keine Lust drauf haben, wie gesagt, ignoriert das.
+ Ihr könnt einfach die fertigen Kartenkarten bei uns runterladen.
+ Hier gibt es einmal den Node-Server von Sebastian, Node.js.
+ Dann habe ich noch mal einen Server in Rust geschrieben.
+ Der ist noch mal in einem Docker-Container, auch extrem klein drin.
+ Genau. Wir haben das Frontend schon komplett vorbereitet.
+ Da haben wir jetzt mehrere Stile drin.
+ Wir haben jetzt Sprites, also so kleine Symbole, wie man in einem Hauptbahnhof oder Restaurants darstellen möchte.
+ Wir haben Fonds vorgerendert, das brauchen wir ja auch.
+ Die müssen ja speziell dann sozusagen vorgerendert werden, damit es dann im Frontend läuft.
+ Ja, Sprites und Glyphs haben wir auch rumliegen.
+ Alles da und hier unten sind dann sozusagen die ganzen Repositories, die das bauen.
+ Und wenn ihr helfen wollt, wir brauchen Feedback.
+ Wir brauchen Leute, die das nutzen.
+ Also momentan essen wir gerade die ganze Zeit unser eigenes Hundefutter, sagt man.
+ In your Dogfood.
+ Genau, wir Dogfooding.
+ Genau, wir brauchen mehr Leute, die Hundefutter essen.
+ Wir brauchen mehr Leute, die das mal austesten.
+ Wir haben noch ein paar Probleme.
+ Ich würde gerne diesen Docker-Container mit Versatize und Engines mit Let's Encrypt drin richtig machen.
+ Der Versatize-Server läuft noch nicht unter Windows.
+ Wäre nice to have.
+ Vielleicht braucht das jemand.
+ Also ich habe ihn immerhin auf Linux unter GNU und MUSE, läuft auf ARM und AMD.
+ Mac haben wir auch, Intel und ARM Prozessoren.
+ Aber Windows ist dann einfach damit die Reihe voll ist.
+ Ja, auf die BSD.
+ So, Homebrew, wir würden ihn auch gerne, damit ihn für Mac leichter genutzt werden kann.
+ Ich brauche einen besseren Workerpool, um irgendwie die Kachen besser vorzukomprimieren.
+ Momentan sind sie in GZIP, wir würden sie in Brodli.
+ Dann sind die Daten einfach noch mal kleiner, wenn er sie ausspielt, spart halt auch noch mehr Kosten.
+ Genau.
+ Und die obersten Zoom-Stufen sieht man auch so ein bisschen, wenn man jetzt hier mal ganz weit rauszoomt.
+ Die Erde ist ein bisschen...
+ Langweilig.
+ Ja, sie ist ein bisschen sozusagen leer.
+ Das liegt halt einfach daran, wie das Layer Scheme aufgebaut ist.
+ Und da müssen wir natürlich noch ein bisschen das Layer Scheme tweaken, damit auch mehr Informationen in den höheren Zoom-Stufen,
+ sprich niedrigeren Zoom-Stufen, wo man weiter rauszoomt, das zu sehen sind.
+ So ist es noch relativ wenig, aber das ist alles noch anpassungsfähig.
+ Dass man da irgendwie so Vegetation oder sowas hat oder Wälder oder so.
+ Genau.
+ Falls sich Leute fragen, das Layer Scheme, das wir da verwenden, ist eins, das von der Geofabrik entwickelt wurde,
+ explizit unter der FTWPL, also "The F*ck The Warranty Public License".
+ Im Gegensatz zu der proprietären License, die zum Beispiel Mapbox oder auch Open Map Pass verwenden,
+ ist das ein freies Layer Scheme, wo niemand irgendwie ein Copyright unterschreiben muss oder irgendwelche Ansprüche erheben kann.
+ Ja.
+ Wir haben drauf geachtet, dass es keinerlei proprietäre oder sonst welche Lizenz und Bedingungen oder sonst was dran gibt.
+ Das einzige ist sozusagen Quelle OpenStreetMap-Contributors.
+ Das ist zumindest das einzige. Alles andere ist absolut lizenzfrei.
+ Genau.
+ Und das war es mal im Schnelldurchlauf. Dankeschön.
+ Dann vielen Dank. Und wenn ihr Fragen habt, dann bitte immer raus damit.
+ Ich würde dann meinem Mikro genau einmal ein bisschen durch die Gegend reichen. Hervorragend.
+ Hallo. Ja, ich finde das Projekt super spannend.
+ Und ich habe auch letztens mal so ein ähnliches Projekt gesehen, das heißt ProtoMaps.
+ Das macht, glaube ich, also das ist sehr, sehr ähnlich auch zu eurem Format, nehme ich mal an.
+ Habt ihr da irgendwie Connections oder vielleicht Überlegungen, dann Standard zu schaffen?
+ Also wir haben auch schon miteinander gesprochen und es macht Sinn, sozusagen diese beiden Projekte auseinanderzuhalten.
+ Sie überlappen sich eigentlich nur in einem Punkt und zwar in diesem Container-Format.
+ Da ist sozusagen das PM-Tiles-Format oder auch COM-Tiles und anderes ähnlich wie unser Versatiles.
+ Der Unterschied von ihm ist aber, es geht darum, dass man sozusagen einen Container bei sich irgendwie online packt.
+ Und dann kann man da irgendwie, können da so ein paar Leute sozusagen ihre Karten anschauen.
+ Wir haben das so gemacht, dass es eine hoch skalierbare Karteninfrastruktur ist.
+ Das ist sowohl für Privatleute kostenlos nutzbar als auch, was weiß ich, für große Medienkonzerne.
+ Also wir können eine richtige skalierbare Infrastruktur machen. Das kann ProtoMaps nicht.
+ Genau. PM-Tiles ist sehr darauf zugeschnitten, dass es bei spezifisch Amazon liegt,
+ wo die HTTP Range Request eine gewisse Länge haben müssen, damit sie gut gecached werden können.
+ Und deswegen benutzen die da so ein, wie heißt das?
+ Hilbert Kurve.
+ Hilbert Kurve, um Details abzulegen und so. Das ist eigentlich viel zu kompliziert und uns ist das einfach deutlich einfacher zu implementieren.
+ Also nur noch zwei Stichworte. Das eine ist, PM-Tiles können nicht gecached werden.
+ Die sind nicht im Browser cache, weil es nur HTTP Range Request sind.
+ Und sie sind unkomprimiert. Das will er jetzt nachrüsten. Da will er jetzt in JavaScript sozusagen nochmal GZIP.
+ Genau. Der Browser hat keine API für Kompression. Das ist auch was, wieso unseres nicht im Browser läuft.
+ Also man kann das zieltsch machen. Du implementierst Bothly und GZIP direkt im Browser in JavaScript.
+ Und dann kannst du auch direkt auf unseren Codex hinterzugreifen. Aber es ist halt einfach unperformant.
+ Wir haben uns entschlossen, es eher lieber gut zu machen.
+ Hätte ich noch eine Frage?
+ Wo? Da, Herr Vorrogend.
+ Hallo, ja vielen Dank für den Vortrag. Ich war jetzt nicht von Anfang an dabei, aber gibt es zufällig eine Android Library,
+ die auf eure Tiles zugreifen kann? Zum Beispiel OSM Android heißt die, glaube ich.
+ Nein. Also unsere Vector-Tiles sind kompatibel mit MapLibreGL. Und da gibt es auch Native Libraries,
+ die für alle möglichen mobilen Betriebssysteme funktionieren. Danke.
+ Sieht eure Infrastruktur komplett vor, dass man quasi immer vorrendert und darstellt in getrennten Schritten?
+ Oder könnte man sich auch vorstellen, quasi on demand aus Open Street Maps direkt irgendwie Tiles zu generieren
+ und die dann zu cacheen?
+ Also wir wollten es einfacher machen. Also der klassische Stack für Kartenkacheln ist ja,
+ dass du sozusagen den kompletten Open Street Map Planeten in eine Postgist-Datenbank liest
+ und dann daraus sozusagen irgendwie deine Kartenkacheln generierst oder so.
+ Das macht aber das Ding enorm komplex mit dem einzigen Vorteil, ich kann irgendwie, wenn es auf Open Street Map ein Update gibt,
+ wenn es auf Open Street Map ein Update gibt, relativ schnell eine aktuelle Kartenkachel haben.
+ Wir gehen davon aus, dass jetzt so für eine Hintergrundkarte jetzt irgendwie Straßennamen sich nicht ständig ändern oder so was.
+ Wir gehen davon aus, so ein Startenstand von drei Monaten ist vollkommen okay.
+ Deswegen gehen wir jetzt mehr in die Richtung mit einmal sozusagen Update alle Monate oder Quartale.
+ Genau.
+ Okay, ich glaube, du hast es fast schon gerade beantwortet.
+ Wenn ich jetzt also eine Karte haben möchte, die alle fünf Minuten abgerätet ist,
+ sowie das andere machen, dann wäre Versateils die falsche Lösung.
+ Richtig, da bist du besser mit einer Postgist-Datenbank dran, wo du die Details live händerst.
+ Die Postgist, die neuen Versionen, haben auch schon eine Funktion eingebaut,
+ mit der du quasi Vector-Tiles direkt aus der Datenbank händern kannst.
+ Dafür ist das dann besser. Unser Anwendungsfall ist ein bisschen ein anderer.
+ Hat noch jemand Fragen? Perfekt.
+ Ich habe zwei Fragen.
+ Das eine ist, ist es einfacher zu subsetten, dass ich keine 50 GB Dateien auf meinem Rechner rumfliegen muss,
+ wenn ich mich eben nur für Berlin interessiere?
+ Ja. Ja und nein.
+ Also es gibt ein Feature, dass du sozusagen dieses Versateils-Tool nutzen kannst und sagen kannst,
+ ich möchte gerne aus dem großen Pfeil, das bei uns im Download liegt, nur sozusagen diese Bounding-Box runterladen.
+ Das geht aktuell. Wir bauen gerade, dass es noch performanter ist.
+ Denn dieses Datenformat ist in Blöcken so eingeteilt, dass er sozusagen weiß, ich muss jetzt nur noch diesen Daten,
+ also diesen ganzen Blob einmal im Stück runterladen oder diesen, dann stecke ich die hintereinander.
+ Das heißt, man könnte es extrem performant machen, dass man nur Deutschland beispielsweise, nur Europa runterlädt.
+ Kommt noch.
+ Genau und die andere Möglichkeit ist, du schmeißt anstatt von dem USM-Planeten einfach nur einen USM-Dampf für eine bestimmte Bounding-Box rein,
+ dann kommst du zu demselben Ergebnis. Du musst es halt dann nur selbst tun.
+ Genau, aber dass man sozusagen schon aus unseren fertigen Daten dann das extra machen kann, das machen wir noch performanter.
+ Das wäre nicht meine zweite Frage gewesen. Das heißt, es ist auch Teil eurer Pipeline, dass ich selbst,
+ wie die USM-Daten ziehen, irgendwas rausschneide und dann auch höhere Zoom-Stufen bekommen kann.
+ Weil ich habe gesagt, ich habe die Zeit bis 14, was jetzt nicht besonders viel ist.
+ Das könnte ich dann einfach in einer Config-Latei sagen, ich brauche jetzt so bis 17 und dann kann ich es schnell.
+ Du kannst mit den Vector-Tiles overzoomen, das heißt, du brauchst nicht bis 20. 14 ist meistens ausreichend.
+ Also eine Karten-Kachel hat sozusagen eine Koinaten-Auflösung von 4096 Pixeln sozusagen.
+ Das heißt, ich kann sie extrem overzoomen, ohne einen Qualitätsverlust zu haben.
+ Und es werden auch gar keine neuen Details, es werden jetzt nicht Gully-Deckel nachgeladen,
+ also wenn ich auf so einer Stufe bis 17 bin, sondern einfach nur ob die Häuserkante oder die Straßenkante mehr Details hat.
+ Die hat es halt nicht, sondern das steckt schon in den Vector.
+ Aber wenn du den Anwendungsfall hast, dann kannst du das tun.
+ Unser Idee ist, wir bieten alles an, so damit niemand was machen muss, aber alle können alles machen.
+ Du kannst jederzeit sozusagen einen Schritt rausschmeißen von den fünf und kannst die anderen vier benutzen.
+ Das ist auch die Frage, ob man einen anderen Server benutzt,
+ ob man statt Teilmaker einen anderen Prozess benutzt, um Karten-Kacheln zu generieren,
+ ob man ein anderes Frontend benutzt oder so.
+ Kann man explizit austauschen, deswegen haben wir es versucht, den fünf Subprobleme zu zerlegen.
+ Ob du nur einen Teil, das ist was wir anbieten oder was wir da zusammengesteckt haben, benutzt.
+ Ich zum Beispiel habe Daten in dem GeoJSON.
+ Ich benutze Tipp-Kano, um die dann umzuwandeln in Vector-Teils
+ und schmeiße diese Vector-Teils dann auch in ein VersaTeils-Container.
+ Funktioniert auch.
+ Es ist nicht nur für Base-Maps, aber das ist so der Anwendungsfall, den wahrscheinlich die meisten Leute haben,
+ den wir halt quasi auch noch servicen.
+ Ich habe einmal eine Anfängerfrage vielleicht.
+ Wenn ich jetzt einfach nur Marker zu einer Karte hinzufügen will, ist das hier das Richtige für mich?
+ Geht das schon oder ist das das Frontend, was ihr so genannt habt?
+ Im Frontend benutzen wir MAP-Libre-GLGS.
+ Ich weiß auch nicht, warum das so heißt.
+ MAP-Libre-GLGS.
+ Aber auf der Webseite maplibre.com findet man alles
+ und auch die komplette Dokumentation, wie man zum Beispiel Marker draufwirft.
+ Und bei der Frage, wo möchtest du denn die Karte dann eher haben, nimmst du einfach unsere Adresse.
+ Es kommt darauf an, wenn du sagen willst, ich muss jetzt fünf Marker auf einer Karte setzen,
+ wenn du das nicht auf der Webseite darstellen willst, dann machst du das am besten im Frontend mit MAP-Libre oder auch mit Leaflet.
+ Wenn du sagst, ich habe eine Milliarde Marker, die über den ganzen Planeten verteilt sind
+ und ich muss sie distributieren, dann machst du da spezielle Vector-Teils für.
+ Okay, wir hätten noch Zeit für eine schnelle Frage, wenn es noch was gibt.
+ Ja, nein.
+ Keine Fragen mehr, das haben wir noch nicht geschafft.
+ Im Zweifel hängen wir hier auch irgendwo rum und ihr könnt uns auch direkt anquatschen,
+ wenn euch das zu peinlich ist vor der großen Menge.
+ Auf jeden Fall vielen Dank für den Talk und einen runden Applaus bitte.
+ [Musik]

@@ -1,0 +1,407 @@
+ [Musik]
+ Dann begrüßen wir jetzt am Abend Julia Witte und ihr habt wahrscheinlich alle
+ schon mal einen verspäteten Zug gehabt. Jetzt höre ich, der Zug soll uns auch noch
+ ausspionieren. Und genau dazu wird Julia uns jetzt was erzählen.
+ Viel Spaß damit.
+ Vielen Dank.
+ [Applaus]
+ Ja, ich bin Julia Witte. Ich arbeite bei Digitalcourage als Campaignerin und als
+ Redakteurin. Das heißt, ich betreue unsere Kampagnen und eine, die uns jetzt schon
+ seit einigen Monaten beschäftigt, das ist gerade unsere Klage gegen die Deutsche
+ Bahn bzw. genauer gesagt gegen die App der Deutschen Bahn, den DB Navigato.
+ Tut mir leid, hätte ich gewusst, dass es so dunkel sein würde und die Wand so
+ hell, hätte ich anderes Foliendesign gewählt. Jetzt müsst ihr leider irgendwie euch
+ darauf einstellen. Es geht um den DB Navigator, aber wir nennen ihn noch
+ gerne den DB Schnüffel Navigator. Ich würde gerne eine kleine Stichprobe
+ machen. Wie viele von euch sind zum Camp mit dem Zug angereist? Ganz schön viele.
+ Und wie viele davon haben an irgendeiner Stelle die DB App benutzt? Ja zählt auch.
+ Next zählt auch. Ich erkläre euch später warum. Ja, also schon einige, ich würde
+ sagen die meisten. Die DB App hat drei Millionen Nutzerinnen am Tag. Zu
+ Spitzenzeiten 2,5 Millionen Nutzer*innen pro Stunde, die dort
+ Informationen abrufen.
+ Also es ist auf jeden Fall eine viel genutzte App. Ich würde aber auch sagen,
+ genau die Ansicht kennen wir alle. Ich würde auch sagen, es ist eine fast
+ unvermeidbare App. Das liegt daran, dass es ganz ganz viele Services gibt oder
+ gegeben hat, die zunehmend jetzt nur noch digital angeboten werden. Ich weiß nicht,
+ vielleicht erinnert sich der ein oder andere von euch oder hat das schon mal
+ gemacht, in einem Fernverkehrszug. Da konnte man früher, wenn man einfach
+ eingestiegen ist, auch 10, also man konnte einfach direkt zur Schaffnerin gehen und
+ sagen, hey tut mir leid, kann ich noch schnell ein Ticket buchen? Und bis zehn
+ Minuten nach Abfahrt war das überhaupt kein Problem.
+ Das geht immer noch, aber jetzt geht es nur noch in der App.
+ Das ist so auch ein Rest in Peace Bild, denn der Wagenreihungsplan wird
+ abgeschafft. Den gibt es in Zukunft digital an den Bahnsteigen. Das heißt
+ aber, wenn man zum Beispiel sehr nahe aufeinander folgende Züge hat und man
+ will schon mal zu seinem hingehen, hat da eine weite Strecke vor sich, dann ist das
+ vielleicht auch nicht so einfach. Ich habe auch eine kleine Umfrage mal gemacht
+ auf dem Astrodon, mit was die Leute da so konfrontiert wurden, was dann dazu führt,
+ dass man die App eigentlich zwingend benutzen muss.
+ Vielleicht kennt ihr das auch. Anzeigetafeln, die nicht funktionieren,
+ man steigt aus, irgendwas mit Gleisänderungen kriegt man noch so
+ halb mit. Anzeigetafeln sind kaputt, naja gut, wenn ich keine App habe, dann habe
+ ich eigentlich kaum noch eine Chance an diese Informationen ranzukommen.
+ Viele Reisezentren werden geschlossen. Wenn es Reisezentren gibt, dann kriegt man
+ so eine Notiz. Vielen Dank. In 45 Minuten ist der Zug dann vielleicht auch schon
+ weg, den ich haben wollte. Da war mal eine digitale Abfahrtsanzeige, die ist
+ leider nicht mehr dort. Wenn ich wissen will, auf welches Gleis ich jetzt gehen
+ soll, dann kann ich das in der App nachschauen. Und manchmal legt die Bahn
+ dann auch so was aus und sagt direkt nur noch "Bitte informieren Sie sich
+ rechtzeitig vor Ihrer Reise im Netz".
+ Deswegen also diese App nicht zu nutzen, ist unterwegs schon schwierig.
+ Da muss man schon gute Methoden haben. Die Sache ist aber, dass diese App zwar
+ praktisch ist, absolut, aber auch schnüffelt. Wir haben im Oktober 2022
+ Klage eingereicht. Wir, das ist in dem Fall Digitalcourage, zusammen mit dem
+ Blogger und IT-Sicherheitsexperten Mike Kuketz und mit dem Rechtsanwalt Peter
+ Henze von Spirit Legal. Und wogegen klagen wir? Also wenn man die Bahn-App
+ das allererste Mal aufmacht, dann kommt man zu dieser Ansicht, zum altbekannten
+ und sehr beliebten Cookie-Banner. Wenn ich diese Abfrage öffne und ich möchte
+ eigentlich nicht getrackt werden, dann klicke ich klar auf "nur erforderliche
+ Cookies zulassen" und gehe davon aus, ich bin in Sicherheit, denn die Bahn sagt mir,
+ wenn ich hier dann auf mehr Informationen gehe, dass diese Cookies die Kernfunktion
+ der App sicherstellen. Das heißt, ich stelle mir so vor, also wenn ich nur die
+ erforderlichen nehme, dann sende ich Informationen an die Deutsche Bahn und die
+ sendet mir, also ich sende sowas wie, ich will von dem Bahnhof zu dem Bahnhof fahren
+ um so und so viel Uhr und die Bahn sendet mir die Information zurück, wann dieser
+ zu kommt. Tatsächlich ist es aber ganz anders und tatsächlich sendet diese App
+ freudig Informationen an verschiedene Tracking-Anbieter und zwar nicht zu wenig.
+ Das ist immer die gleiche Anzeige, also ich habe einfach nur runter gescrollt,
+ damit wir die alle mal schön nebeneinander aufgelistet sehen können.
+ Die sind angeblich alle erforderlich, um die Kernfunktion der App sicherzustellen.
+ Ihr könnt ja mal schauen, was offensichtlich alles ganz wichtig ist.
+ Ja genau, da gibt es einige, die in den USA sitzen, da gibt es auch welche, die in
+ Irland sitzen, das sind unsere Freunde Google und Adobe. Und was machen diese
+ ganzen Tracker, die machen dann sowas wie AB-Testing.
+ Die Sache ist also, die Bahn versteht unter erforderlich etwas
+ ganz anderes als wir verstehen. Die Bahn interpretiert erforderlich als alles,
+ was wir und unsere Marketing-Abteilung dringend haben wollen. Und weil wir das
+ unbedingt haben wollen, fragen wir auch die Kund*innen gar nicht erst, ob sie
+ damit einverstanden sind. Das Tracking von Adobe beginnt sogar schon, bevor ich
+ beim Cookie-Banner überhaupt irgendwas geklickt habe. Und jetzt kann man die
+ Frage stellen, dürfen die das? Na ja unserer Auffassung nach nicht, deswegen
+ klagen wir ja. Wir denken, dass diese Kategorie erforderlich eben kein
+ Freifahrtsschein ist für alles, was man gerne haben möchte, sondern wir sehen,
+ dass es hier schon recht eng eigentlich eingeschränkt ist. Genau, also es steht
+ im Gesetz, man muss eingewilligt haben, dass es dann eben das, was nicht
+ erforderlich ist, da kann ich einwilligen. Und wenn was gespeichert wird, dann steht
+ hier unbedingt erforderlich, aber wir legen diesen Begriff so aus, dass es
+ tatsächlich heißt, dass es technisch erforderlich ist. Genau und AB-Testing,
+ Vergütung im Affiliate-System der Bahn, das Erzeugen von Nutzungsstatistiken, das
+ ist unserer Meinung nach eben nicht erforderlich, um eine Auskunft über die
+ nächsten Züge zu bekommen oder um mein Ticket zu bekommen.
+ Deswegen sind wir aktiv geworden. Was ist passiert?
+ Schon vor längerer Zeit, letztes Jahr im April, hat Mike Kuketz eine recht
+ ausführliche Analyse verfasst und der Bahn, die auch zukommen lassen,
+ der also das komplette Datensendeverhalten dieser App auseinander nimmt.
+ Die Bahn hat daraufhin geantwortet, dass das alles so bleiben wird im
+ Wesentlichen und wir haben daraufhin gemeinsam unsere Klage eingereicht.
+ Das ist sozusagen vorher noch mal ein Schritt davor gewesen. Wir haben der
+ Bahn erst gesagt, bitte ändern Sie das, ansonsten werden wir vor Gericht gehen und
+ wie gesagt, die Bahn hat uns daraufhin eine lange detaillierte Antwort geschickt
+ auch tatsächlich, in der sie erklären, dass das ihrer Meinung nach erforderlich
+ ist und dass sie das einfach so weitermachen werden. In der Presse ist
+ darüber auch recht munter berichtet worden.
+ Die Bahn hat natürlich alles bestritten
+ und hat unter anderem geschrieben, dass die Daten ja alle pseudonymisiert
+ bzw. so pseudonymisiert sind, dass sie sich als anonyme Dateninhalte darstellen.
+ Dazu werde ich gleich auch noch ein bisschen was sagen.
+ Eine interessante Sache ist in der Zwischenzeit aber auch schon passiert.
+ Die Bahn hat uns in ihrer langen Antwort noch geschrieben, also
+ kurz zur Erklärung, dass eine Cookie Banner, das ist so, wie es gewesen ist zum
+ Zeitpunkt, als Mike Kuketz diese App zum ersten Mal auseinander genommen hat und
+ da sehen wir so diese ganz, ganz klassischen Dark-Pattern-Motive. Also es
+ ist genau markiert, wo man klicken soll und da, wo man auf keinen Fall klicken
+ soll, das ist auch gleich so dargestellt, dass man sich da gar nicht aus Versehen
+ darauf verirrt, außer man liest es zufällig und hat Zeit.
+ Also das sieht eigentlich gar nicht aus wie ein Button, auf dem man klicken
+ sollen, dieses nur erforderliche Cookies zulassen, sondern eigentlich soll man
+ ganz klar bei alle Cookies zulassen. Seid ihr vertraut mit dem Konzept der
+ Dark-Patterns? Also es geht darum, psychologisch alles so aus der Trickkiste
+ mal auszupacken, um dafür zu sorgen, dass die Kund*innen auch wirklich da klicken,
+ wo sie klicken sollen. Genau und damals hat die Bahn uns noch geantwortet, dass
+ das alles völlig in Ordnung ist, dass die Farben halt nun mal das
+ Corporate Design sind und genau, der rote Button stellt die Empfehlung der DB da,
+ heißt es da wörtlich. Hat ja auch niemand bestritten.
+ Trotzdem haben sie dann wohl selber eingesehen, dass das ein bisschen zu viel
+ ist und haben dieses Cookie-Bunder mittlerweile geändert.
+ Genau, wir haben unsere Klage eingereicht und jetzt geht es also vor Gericht gerade
+ hin und her. Die Bahn hat uns 148 Seiten Klage-Erwiderung
+ zurückgeschickt und erklärt da ganz langartig, wie das interne Projekt
+ ConsentLayer abgelaufen ist. Da stehen dann auch so interessante Sachen drin, wie
+ dass es intensive Konsultation gegeben hat mit dem hessischen Beauftragten
+ für Datenschutz und als Beweis sind zwei E-Mails angefügt. Da war ich schon
+ ganz gespannt, was da drin steht in dem Anhang. In den E-Mails steht dann so was
+ wie "An diesem und jedem Datum hatten wir Ihnen unsere Auffassung zu dem Thema
+ ConsentLayer vorgestellt. Wäre es Ihnen möglich, uns bis Ende dieser Woche eine
+ Rückmeldung zu geben? Beste Grüße, Konzern Datenschutz."
+ Das ist der Anhang. Das ist die Konsultation. Das heißt, wir wissen
+ leider gar nicht, ob die Datenschutzbehörde geantwortet hat oder nicht.
+ Ob sie vielleicht so geantwortet hat, dass die Bahn es vorzieht, diese Antwort nicht
+ in die Klageschrift aufzunehmen. Wir wissen es nicht.
+ Jetzt hat die Bahn auch noch einen anderen interessanten Move gemacht und
+ zwar sagt sie, dass es keine Wiederholungsgefahr gibt
+ für diesen Fall, dass sie jemanden trackt, denn die Zuständigkeiten haben
+ gewechselt. Vor wenigen Monaten hat die bisher zuständige DB Vertrieb sich
+ gespalten und neben der DB Vertrieb gibt es jetzt noch eine DB Fernverkehr AG und
+ die betreibt jetzt die App und deswegen ist unsere Klage jetzt nicht mehr
+ gültig, sagt die Bahn, weil sie bieten ja gar keine App mehr an. Und ansonsten sagt
+ die Bahn so Sachen wie "Tracker sind erforderlich, weil die App eben ganz
+ komplexe Dinge macht." Jetzt könnte jemand sagen, was ist denn
+ eigentlich so schlimm an Tracking? Da denke ich mal, dass die meisten von euch
+ sicherlich sich schon ein bisschen mit dem Thema beschäftigt hat, deswegen nur
+ ganz kurz. Also klar, jede Einbindung ist eine Einbindung von fremden Code, den ich
+ in meine App einsetze. Das ist ein Vertrauensverhältnis, das nicht nur ich
+ als Entwicklerin und auch als Konzern, der diese App in Auftrag gibt, eingeht,
+ sondern ich setze ja auch meine Kundinnen und ihre Daten diesem Risiko
+ aus. Also ich liefer eigentlich meine Kundinnen Daten aus. Die Kundinnen haben
+ überhaupt keine Wahl, ob sie diesen Anbietern eigentlich vertrauen möchten
+ oder nicht. Ich bin mir dabei Google nicht ganz sicher.
+ Ja, und das sind, also ihr habt die Liste der Firmen eben gesehen, einige gehören
+ auf jeden Fall zu den großen Überwachungskapitalismus-Playern und das
+ ist auch eine infrastrukturelle Abhängigkeit, die sich da immer weiter
+ verfestigt, wenn wir alle auf diese oder wenn alle Apps auf diese Tracking-
+ Bibliotheken zurückgreifen und da einfach wahnsinnige Datenschätze
+ entstehen und wir haben gar keine Ahnung, was dort eigentlich tatsächlich alles
+ zusammengeführt wird oder auch nicht, was dort eigentlich weiter mit diesen Daten
+ angestellt wird. Jetzt könnte jemand sagen, dann nutze ich eben die Website der Bahn
+ und nicht die App, da kann ja auch mein Ticket kaufen. Klar, kannst du, macht aber
+ nicht wirklich einen großen Unterschied. Also auch die Website der Bahn setzt
+ Tracking ein. Jetzt kann natürlich jemand sagen, es gibt ja Tracking-Blocker, mit
+ den entsprechenden Tools kann ich meine Privatsphäre wieder herstellen.
+ Klar geht, wir finden halt Privatsphäre sollte eigentlich der Standardzustand
+ sein, sollte nicht der Zustand sein, den man ganz mühsam ins Schweißes seines
+ Angesichts erst wieder herstellen muss und den auch dann nur diejenigen herstellen
+ können, die das entsprechende Wissen und die Ressourcen und auch die Zeit haben,
+ sich damit auseinanderzusetzen, sondern das sollte eigentlich das sein, was ganz
+ grundsätzlich jedem von uns zugestanden wird, vor allem auch wenn es um einen
+ Anbeter geht, wie die Deutsche Bahn und wenn es um so was geht wie eine
+ Mobilitätsgrundversorgung.
+ Dann sagt die Bahn, die Daten sind doch pseudonymisiert, alles kein Problem.
+ Der Datenschutzforscher Wolfi Kristl sagt dazu, solange Datensätze verarbeitet
+ werden, die sich auf Einzelpersonen beziehen, kann keine Art der
+ Anonymisierung mit vollständiger Sicherheit verhindern, dass Einzelpersonen
+ reidentifiziert werden können. Dazu gibt es viele viele Studien und die immer
+ wieder zeigen schon, ganz wenige Merkmale reichen manchmal aus, um eine eindeutige
+ Zuordnung zu machen. Also es hat zum Beispiel 2019 eine Studie gegeben in der
+ Fachzeitschrift Nature und da haben Forscher berechnet, dass sie 99,98
+ Prozent der US-Amerikaner identifizieren können anhand nur von 15 Merkmalen wie
+ Alter, Wohnort oder Nationalität. Da ging es damals um den Fall, glaube ich, einer
+ günstigen Krankenkasse, die einen ganz geringen Prozentteil ihrer Datensätze
+ veröffentlicht hat und die haben eben nachgewiesen, das kann alles problemlos auf
+ die einzelnen Personen wieder zurück rechnet werden.
+ Jetzt könnte man fragen, machen das denn nicht alle Apps? Das machen natürlich
+ viele Apps. Wir haben die Bahn ausgesucht, wie ich eben schon gesagt habe, weil das
+ natürlich was anderes ist als jetzt irgendeine x-beliebige Fitness-App, wo
+ man sagen kann, okay, dann nutze ich das eben nicht.
+ Das ist bei der Bahn natürlich ein bisschen anders. Wie gesagt, es gehört zu
+ einer Mobilitätsgrundversorgung und es geht uns in diesem Fall um die Bahn, aber
+ es geht uns natürlich auch darüber hinaus einfach um den Zustand, dass
+ Tracker völlig selbstverständlich und gedankenlos überall genutzt werden,
+ eingesetzt werden in Apps und wir wollen hier jetzt ein klares Urteil schaffen,
+ an dem sich auch andere dann orientieren können, auch einfach um gegenüber solchen
+ Konzernen sagen zu können, ich will das nicht einbauen und es gibt hier ein
+ Urteil, das ist nämlich gar nicht legal. Also wir wollen es auch Entwickler*innen
+ einfacher zu machen, eine Argumentationsgrundlage zu haben, warum
+ sie das nicht machen können. Genau, dann kam eben schon der DBnext Navigator, die
+ neue App, die soll Anfang 2024 den alten Navigator komplett ablösen.
+ Die hat ein bisschen weniger Tracker bis jetzt,
+ sie ist aber auch noch nicht vollständig in Betrieb, also ist noch
+ nicht vollständig umgesetzt, deswegen wäre ich da mal ganz
+ vorsichtig, was da noch kommt, aber die alten Bekannten sind hier auf jeden Fall
+ auch teilweise schon wieder drin.
+ Das ist tatsächlich schon der Kernteil meines Vortrags gewesen, ich
+ habe aber noch eine kleine Bastelaufgabe für euch. Da draußen vor diesem Zelt
+ findet ihr diese Dinger. Wir haben diese Memes gemacht, um auf unsere Kampagne
+ aufmerksam zu machen, auf Tracking natürlich in der DB App aufmerksam zu
+ machen, vielleicht auch um die Bahn ein bisschen zu ärgern.
+ Und ihr könnt euch selber Sprüche ausdenken, da draußen da liegen weiße
+ Addings und dann könnt ihr euch einfach so ein Zettel schnappen und könnt auch in
+ diesem Style, das ist ja so den Werbeanzeigen der Bahn vielleicht leicht
+ nachempfunden, aber wir wollen natürlich etwas ehrlichere Werbeanzeigen haben,
+ und dann könnt ihr überlegen, wie man Werbung oder Gegenwerbung machen könnte
+ für das Tracking in der Bahn App. Ja, super schnell, ich habe wahrscheinlich viel zu
+ schnell geredet, aber ich würde gerne auf jeden Fall auch noch ein paar Fragen ins
+ Publikum stellen, also vielleicht habt ihr Fragen, aber ich würde auch gerne mal
+ fragen, vielleicht sind ja Entwickler*innen unter euch und dann würde ich gerne
+ fragen, warum baut ihr so was ein in Apps?
+ Vielen Dank für den Vortrag bisher. Gibt es denn Fragen?
+ Da ganz hinten.
+ Hallo, gab es schon? Hallo, vielen Dank erstmal für deinen Vortrag.
+ Mich hätte interessiert, ob ihr beim hessischen Landesdatenschutzbeauftragten
+ eine IFG-Anfrage einreichen könntet, um den Schriftverkehr zwischen der deutschen
+ Bahn und dem Landesdatenschutzbeauftragten zu erfragen.
+ Die sagen nichts. Will ich jetzt gar nicht weiter ausholen, aber ja, also die
+ sagen, das ist ein laufenderer Prozess, das ist eine laufende Prüfung, über die
+ sie gerade keine Informationen rausgeben können.
+ Siehst du Gefahr, dass es jetzt tatsächlich fehlschlägt, weil die Bahn
+ jetzt sagt, sie macht eine neue App oder sie teilt sich auf in verschiedene Firmen,
+ die dann plötzlich die App veröffentlichen und dass dann die Klage
+ irgendwie abgeschmettert wird aus diesen technischen Verfahrensgründen?
+ Ich bin keine Richterin, kann ich jetzt nicht sagen, ob das ein zulässiges
+ juristisches Argument ist. Für uns ist natürlich gar kein Argument und ja, ganz
+ ehrlich, wenn das Gericht jetzt sagt, okay diese Frage, also diese Klage wird
+ abgelehnt, weil der Empfänger nicht mehr der Richtige ist, dann stellen wir die
+ Klage halt noch mal. Also das ist eine Art von Versteckspiel, mit der wir die Bahn
+ sicherlich nicht durchkommen lassen.
+ Was ist denn der aktuelle Stand von der Klage? Der aktuelle Stand ist, dass im
+ Moment Schriftsetze ausgetauscht werden hin und her. Also es gibt noch keinen
+ Termin für eine mündliche Verhandlung, genau. Wir tauschen im Moment
+ interessante Schriftsetze aus.
+ Was wäre eine Konsequenz? Also was wäre, wenn die Klage Erfolg hat?
+ Also diese Klage jetzt ist tatsächlich ein ganz konkreter Fall einer
+ Privatperson. Also in diesem ganz konkreten Fall hat eine Person von uns
+ ein Ticket gekauft. Wir haben die Datenströme, die dabei hin und her
+ gehen, gemessen und wir klagen jetzt darauf, dass die Bahn auf dem Handy
+ unseres Nutzers, das ist Padellun, ich glaube das darf man sagen, keine Tracker
+ einsetzen darf. Aber das heißt natürlich, logisch, wenn das so vor Gericht entschieden
+ wird, dann wird das natürlich Auswirkungen haben. Dann wird das
+ Auswirkungen haben natürlich nicht nur auf Padellun, sondern auch auf alle
+ anderen Nutzer*innen dieser App und das wird natürlich auch Auswirkungen haben
+ auf andere Firmen, die dann auch sehen, es gibt hier eine sehr sehr klare
+ Rechtsprechung. Also klar, deswegen machen wir das Ganze. Deswegen machen wir auch
+ Pressearbeit, weil wir natürlich wollen, dass alle anderen Firmen das auch sehen
+ und auch denken, ah okay, dann müssen wir vielleicht auch noch mal einen kurzen
+ Blick werfen auf unser Trackingverhalten. Das ist auf jeden Fall der
+ Hintergedanke dabei. Ja, ich hätte eine Frage. Vielen Dank für deinen Vortrag.
+ Offensichtlich ist es ja üblich und hier ganz konkret mal vorgeführt, wie
+ Datenkriminelle im Slipstream von ganz anderen Anwendungen jetzt Daten sammeln
+ und da ein Datenmodell draus machen. Jetzt unterstellt ja die Bahn wie andere
+ auch, dass der mündige Bürger selbstverständlich versteht, worum es da
+ geht und ist in der Lage ist, aktiv einzuwilligen. Das heißt jetzt mal
+ unabhängig davon, dass hier vor der Einwilligung Daten abgesaugt werden.
+ Ich kann ja auch einwilligen und sagen, ihr könnt alle meine Daten haben. Meine
+ Frage an dich, inwieweit trifft es zu und wie würdest du es bewerten, dass damit
+ von dem, der da einwilligt, auch Daten preisgegeben werden zur Verknüpfung, wie
+ auch immer, Daten preisgegeben werden von dritten Personen, von unabhängigen
+ Personen, von, was weiß ich, Familienangehörigen, von Personen, die in
+ irgendeiner Weise auf dem Mobile mitgespeichert sind.
+ Inwieweit kann das hier zutreffen und wie würdest du das im konkreten Fall oder
+ auch allgemein die Weitergabe von Daten dritter, die nicht so gestimmt haben, nicht
+ so stimmen können in dem Moment, wie würdest du das bewerten?
+ Gute Frage. Also von Adobe wissen wir, dass die quasi jeden Schritt erfahren,
+ den ich innerhalb der App tätige. Also das heißt, die erfahren, wie viele Personen
+ reisen, fährt ein Kind mit, ja, nein und in dem Fall ist es dann ja schon ziemlich
+ einfach runterbrechbar. Klar und du hast recht, also mein Kind, meine
+ Beifahrerin hat natürlich in dem Moment nicht zugestimmt.
+ Interessante Frage. Sind natürlich abstrakte Informationen in dem Fall.
+ Also in dem Fall ist es dann erstmal die Informationen, zum Beispiel es ist ein
+ Kind vorhanden. Ich glaube, es ist nicht nötig jetzt da zum
+ Beispiel in jedem Fall den Namen einzugeben. Beim Kind auch?
+ Ja, interessante Frage. Werde ich mal aufnehmen, werde ich mal weiter nachgehen.
+ Danke. Es gibt ja in Europa nicht nur die deutsche Bahn. Ich habe auf meiner App
+ habe ich von vier Bahnen, auf meinem Telefon habe ich von vier Bahnen von der
+ ÖBB, SBB, von der ZSSK, das ist die slowakische Staatsbahn. Gibt es da
+ Erkenntnisse oder habt ihr Erkenntnisse, wie bei denen das ist, bei den
+ Nachbarländern? Ne, leider gar nicht, weil das, was ich euch vorgeführt habe, also
+ auch das Recht, auf das wir uns da jetzt berufen, das ist ein deutsches Recht.
+ Oh Gott, ich muss nachschauen. TTSG steht für Telekommunikations...
+ Danke. Und das ist jetzt in dem Fall auch eine Umsetzung einer europäischen
+ Richtlinie gewesen. Also müsste es schon da auch ähnliche Gesetze geben. Würde ich
+ mal tippen. Aber was für Tracker die einsetzen? Keine Ahnung, aber kommt doch gerne mal
+ später her, sagen wir mal die Namen der Apps, dann gucken wir uns die vielleicht
+ mal einfach an. Vielleicht kann man das ja leicht rausfinden.
+ Also die müssen ja auch eine Datenschutzerklärung haben und können
+ wir einfach mal reinschauen. Aber die werden natürlich jetzt von unserer Klage
+ nicht mit erfasst, ist ja klar.
+ Erst mal danke für den Vortrag. Zwei Fragen habe ich. Und zwar gibt es einen
+ Unterschied zwischen Privat- und Geschäftskunden bei dieser App und
+ eventuell noch eine Alternative zur DB-App? Es gibt einige Alternativen, bei denen man
+ natürlich keine Tickets buchen kann. Also zur Auskunft gibt es eine ganze
+ Reihe von anderen Apps. Öffi ist glaube ich eine, dann gibt es eine, habe ich die,
+ ich mag da gerade noch gar nicht so richtig gerne Empfehlungen
+ rausgeben, weil ich mir die selber noch nicht ganz genau angeschaut habe.
+ Ich empfehle immer unsicher Sachen, also ungern Sachen, bei denen ich mir nicht
+ ganz sicher bin. Okay. Es gibt auch noch eine ganze Reihe mehr, die dann so auf
+ unterschiedliche Anwendungsfälle spezialisiert sind. Es gibt zum Beispiel
+ auch eine App im After-It-Store, die wenn du immer eine bestimmte Strecke pendelst,
+ die dir immer die Fahrzeiten und Verspätungen für diese eine Strecke
+ anzeigt. Genau, also da gibt es auf jeden Fall Möglichkeiten.
+ Ansonsten klar, man kann Tracking blocken. Das kann man im Webbrowser noch ein
+ bisschen einfacher machen als auf dem Handy, aber da ist es auch möglich.
+ Genau, aber da sind wir wieder da, dass wir natürlich eigentlich wollen,
+ dass es ein Zustand sein soll, den alle Leute genießen können.
+ Die einzelnen Verkehrsverbund, also RMV oder der aus Berlin,
+ die haben ja auch Apps. Habt ihr auch geschaut, wie es bei denen aussieht? Ich
+ nicht, aber da kann man auf jeden Fall mal bei MyCuckat schauen. Da hat ja eine
+ ganze Reihe von Apps auseinander genommen. Mal schauen, ob der da vielleicht schon
+ was gemacht hat. Oder mal bei... Hat er? Weißt du mehr darüber? Weißt du das konkret?
+ Willst du vielleicht ins Mikro sagen, damit der Stream auch was davon hat?
+ Aktuell, es ist ein paar Monate her, hat er dann nochmal eine neue Artikelserie
+ veröffentlicht wegen dem Deutschlandticket und hat da die einzelnen, also HVV bis zu
+ whatever Bahn, da hat er das auseinander genommen und hat eigentlich keine so
+ richtig gut abgeschnitten.
+ Auch weitere Fragen? Ansonsten sind wir legendär früh fertig.
+ Genau, ansonsten? Ich fand das ganz interessant. Die letzte Frage, die du
+ selber gestellt hast am Ende des Vortrags, liebe Entwickler, warum baut ihr denn so
+ was überhaupt ein? Möchtest du darauf antworten?
+ Nee, aber ich habe in den Cookies standen so schöne Beschreibungen drinnen.
+ Keine Ahnung, die App crasht und wir wollen dann wissen, was ging denn kaputt
+ und so weiter. Und die Bahn wird das ja nicht einbauen, nur aus dem Grund, um uns
+ zu ärgern oder die verdienen die Geld damit. Das würde ich jetzt auch
+ mal so fragen, quasi verkaufen die auch unsere Daten oder ist das so ein Deal?
+ Wir geben euch die ganzen Daten und kriegen ein bisschen Input zurück. Das
+ wäre so das interessante eigentlich daran, weil eine Firma baut ja nichts ein und
+ gibt Geld dafür aus, dass das jemand einbaut, um nichts zurückzukriegen oder so.
+ Genau, klar, die kriegen sowas zurück wie bunte Statistiken. Nur, dass sie diese
+ bunten Statistiken, also die Idee ist halt, klar, es ist eine Dienstleistung, die
+ sie halt auslagern. Also sie möchten diese Statistiken zum Beispiel zur
+ Websitenutzung nicht selber machen, sondern kaufen dafür dann Dienst von Adobe
+ ein. Und das ist nachvollziehbar, klar, man versucht irgendwie Arbeit auszulagern,
+ aber genau das ist die Sache, das ist auch super gefährlich, weil wenn alle diese
+ Sachen einkaufen von Adobe und von Google, dann ist das halt eine Wahnsinns-
+ Marktmacht, die entsteht bei Adobe und Google und das ist natürlich wie
+ gesagt ein attraktiver Service, wenn man so will, aus Entwickler*innen-Sicht.
+ Aber man muss sich da echt bewusst machen, was da geschieht.
+ Das ist auch das, was ich gesagt habe, es ist ein Abhängigkeitsverhältnis.
+ Und wir finden gerade bei einem großen Konzern, der auch das Geld hätte,
+ selber seine Infrastruktur zu entwickeln, da können wir doch erwarten, dass sie
+ dafür sorgen, dass sie ihre Sachen selber unter Kontrolle haben.
+ Das ist glaube ich nicht auf so viele Firmen halt aufteilen, das ist halt
+ richtig, ist das jetzt die eingeschränkte? Das ist die volle Coque.
+ Genau, das ist jetzt komplett, genau, das ist alles, was in der DB-App und das ist
+ nur der Bereich Erforderliche. Das ist nicht alles, was man, wenn man
+ einfach nur auf alle akzeptieren klickt, was dann alles eingesetzt wird, sondern
+ das ist nur der Bereich, den ich überhaupt gar nicht loswerden kann als
+ Nutzerin.
+ Gibt es? Ja, ja, beim anderen sind es natürlich noch ein paar mehr. Ob es einen
+ Unterschied gibt, ob ich tatsächlich noch mehr bekomme, wenn ich auf alle
+ akzeptieren klicke? Ja, dann bekomme ich noch mehr. Dann ist noch ganz viel an
+ Marketing, weiteren Marketing-Analysen dabei, aber auch hier, also Vergütung von
+ Partnern nach Buchung auf einer Partnerseite durch DB Affiliate, Werbemittel.
+ Also, dass das technisch erforderlich ist, das klingt schon sehr, finde ich, nach es
+ ist erforderlich für unsere internen Marketing-Prozesse, aber nicht nach es
+ ohne das funktioniert die App nicht.
+ Hier ist noch eine Frage hier vorne. Ich wollte noch was ergänzen, hier hinten.
+ Tatsächlich, es gibt ja den Spruch, dass man nicht Bösartigkeit unterstellen
+ soll, wenn auch Dummheit eine Möglichkeit wäre. Ich will jetzt da keinen Urteil
+ darüber abgeben in diesem Fall, aber es gibt ein wissenschaftliches Paper von
+ Tom Albee, hat er vor ein paar Monaten auf einer Konferenz vorgetragen und er hat
+ untersucht, wer alles Google Analytics verwendet auf Webseiten und was die
+ Webseitenbetreiber davon haben. Und tatsächlich ist es sehr oft so, dass da
+ einfach Standardpakete genommen werden und dass Entwickler einfach das so machen,
+ wie es alle machen und das deswegen einfach einbauen. Und die Webseite selber
+ hat im Grunde nichts von diesen Erkenntnissen. Sie werden leichter bei
+ Google natürlich gut gerenkt, das ist ein Vorteil, klar, aber eigene Erkenntnisse
+ gewinnen sie daraus nicht, aber wer wirklich profitiert ist Google. Und ich
+ glaube, diese Machtverhältnisse, die sollten wir uns klar machen und
+ deswegen finde ich auch deinen Aufruf an die Entwicklerinnen und Entwickler
+ wichtig, bitte prüft doch mal selber, ob das Zeug, die Pakete, die ihr da einbaut,
+ ob die wirklich notwendig sind oder ob es da nicht möglich ist, andere zu
+ verwenden. Also ich glaube, dass wir hier genau an dem richtigen Ort sind, um da
+ auch einen Anstoß zu geben, das würde ich mich sehr darüber freuen.
+ Ich wollte noch wissen, ob es auch alle Ablehnen gab, aber das sieht man ja nicht
+ und ob ihr gefragt habt, warum es nicht alle Ablehnen gibt, Debatten. Also so sieht
+ das Ganze aus, du kannst entweder alles zulassen oder nur erforderliches
+ zulassen. Also das ist genau der Witz bei der Geschichte, alle Ablehnen gibt es
+ nicht, weil die Bahn sagt, das ist erforderlich, das ist das Minimum, das
+ musst du nehmen.
+ Genau, also das ist genau dieses Zwangs-Tracking gegen das, wir klagen.
+ Vielen Dank, oder? Das hat sich gelehrt.
+ Wir freuen uns natürlich sehr, wenn ihr unsere Klage unterstützen möchtet.
+ Digitalcourage finanziert sich ja ausschließlich durch Spenden und so eine
+ Klage, also Öffentlichkeitsarbeit zu machen. Genau, das alles so die ganze Zeit
+ zu begleiten und zu machen, das kostet uns natürlich auch viel, viel Zeit und
+ Geld. Da wären wir sehr dankbar. Danke.
+ [Applaus]
+ [Musik]
+ SWR 2020
+ Copyright WDR 2018

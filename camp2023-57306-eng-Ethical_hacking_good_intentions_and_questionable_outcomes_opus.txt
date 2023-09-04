@@ -1,0 +1,513 @@
+ [MUSIC]
+ [MUSIC]
+ So welcome everybody.
+ This is my first time at CCC Camp.
+ Is it someone else's first time as well?
+ Yeah.
+ Good for us newcomers.
+ I thought this topic is kind of good for this camp,
+ but I also have a video next which has music at least
+ that is good for this camp,
+ but it's kind of relevant to the topic.
+ So I thought I would play it.
+ Let's see if we can get it to play.
+ Hopefully the Wi-Fi works and we can get it to play.
+ It's essentially a very old ad that very old people like me
+ and others who are old like me will recognize.
+ So let's see.
+ Do we get sound?
+ We got sound when we tested.
+ But it's the you wouldn't steal a car.
+ The privacy campaign.
+ You wouldn't steal a bike.
+ You wouldn't steal the purse.
+ You wouldn't do that and that.
+ It had really good music.
+ So too bad.
+ It's if someone can do some beatboxing right now,
+ that would be helpful.
+ Was that a pig beatboxing?
+ Nice try anyway.
+ So since we're talking about ethics, this whole campaign
+ was essentially about not stealing a car
+ and like privacy is a crime.
+ But then someone on the internet was like,
+ well, I would maybe download a car if the owner could keep the car.
+ So that would be kind of ethical and that would be kind of okay, I guess.
+ How many here would download a car?
+ Quite a few.
+ Thank you.
+ Okay, so to get started on this topic of ethics,
+ hackers kind of work in sometimes in peculiar domains.
+ So sometimes we're going on the boundaries of law and so forth.
+ So I thought I would take you through my short version
+ of the evolution of the hacker ethics as you would know it.
+ And this goes back even before my time.
+ It was like in the 60s, 70s when computers started being more common.
+ Hackers would essentially be doing all kinds of things
+ on these computers that were not really accessible to everyone yet.
+ And they kind of went through this stage where they had this,
+ the hacker ethic.
+ There was a guy who wrote a book
+ and Richard Solomon, which is considered the last true hacker,
+ said about ethics in that book like this,
+ that the hacker ethic refers to the feelings of right and wrong
+ to the ethical ideas this community of people had.
+ That knowledge should be shared with other people who can benefit from it
+ and that important resources should be utilized rather than wasted.
+ And I think probably quite a few of us can stand behind that statement.
+ Also, the hacker ethic can kind of be summarized into, in that era,
+ exceptional single mindedness and determination to keep plugging away
+ at a problem until the optimal solution had been found.
+ Our well-documented traits of the early hackers,
+ willingness to work right through the night on a single programming problem
+ are widely cited as features of the early hacker computer culture.
+ Who here has spent an entire night figuring out a problem?
+ Okay, quite a few.
+ So you can also consider yourself early hackers in a way.
+ And then when we go a bit further, maybe to the 80s,
+ things started shifting, there started to be sort of more...
+ The ethics started dwindling maybe a little bit more.
+ There was some white hat, black hat stuff going on in the 90s as well.
+ There started to be a little bit more of a divide
+ and people started going to jail for doing criminal stuff, so black hats.
+ And there started to be more like a divide of white hats and black hats.
+ And the hacker manifesto was written by a guy called the mentor.
+ And essentially his statement in that manifesto is that
+ this is our world now, the world of the electron and the switch.
+ The beauty of the board, we make use of a service already existing
+ without paying for what could be dirt cheap if it wasn't run by profiteering gluttons.
+ And you call us criminals.
+ We explore and you call us criminals.
+ We seek after knowledge and you call us criminals.
+ So it's more like a hacktivism kind of freedom to all information and all data kind of era.
+ And then to kind of sum up the...
+ Or to get back more to today.
+ Today we have sort of...
+ We don't really have these clear-cut maybe books.
+ Well, we do have some books, but...
+ At least for me, working in this industry,
+ I don't really come across that many ethical sort of statements and things like that.
+ Some of them we might see in ethical hacking certificates,
+ but they're very sort of rudimentary.
+ Don't test without permission.
+ Don't be an asshole.
+ Don't break shit and steal stuff and so forth.
+ And those are kind of okay, but...
+ I feel like there should be maybe a little bit more.
+ And some of the bug bounty platforms,
+ because I work with bug bounty as well,
+ some of the bug bounty platforms have these kind of code of conduct.
+ So they have like, you know, you shouldn't do this, you shouldn't do that,
+ you know, respect others, you know, and things like that.
+ And don't go out of scope.
+ And scope is kind of the limitation where companies in bug bounty programs,
+ they say, "You can test this, but don't test this."
+ And then someone goes and tests this, and then what should happen?
+ Sometimes not much.
+ So this was kind of the super quick background of hacker ethics.
+ And what really got me into this talk was the...
+ kind of the things that I've seen recently that made me think,
+ "Okay, maybe we should have even more discussions about ethics
+ when it comes to security testing, and especially in the bug bounty
+ space where I work a lot."
+ And if you're not aware of bug bounty, it's essentially security testing for a reward.
+ So you do some testing, and you send in a report through usually a bug bounty platform,
+ and the company will pay a reward based on how severe the issue is.
+ And some of the things that I've seen will kind of touch upon both security testing
+ and the bug bounty area, because that's what I know.
+ So probably there's much more sort of things that go on,
+ but these are the things that I thought I would share with you,
+ because it might not be that well known, some of them at least.
+ But we'll start with the really simple ones.
+ You're testing with permission, and then you bring down some servers.
+ It's probably happened to a few, maybe here.
+ Has it happened to any of you?
+ Yeah? Okay, a couple.
+ I see my colleagues over there as well.
+ We've done this, unfortunately, quite a few times, and it really boils down to,
+ maybe we should have done more due diligence.
+ Maybe the computers that we were testing were in a broom closet somewhere,
+ or it was like a Raspberry Pi that really couldn't handle many requests,
+ so it just cannot handle anything automated, and it just dies.
+ So we're not really doing a service for the customer
+ or the individual that we're testing, and probably not anyone else.
+ And it's not really nice getting a call from the client saying,
+ "Oh, you brought our servers down. What are you doing? Stop doing whatever you're doing.
+ It's not cool. Our production is down."
+ And then you find out their production is running on potatoes,
+ so that's also a good finding in itself.
+ All right, so now for the more gray area of the things that I have seen recently.
+ Someone popped the champagne, and that's great.
+ And I have introduced this arbitrary Gandalf the gray scale.
+ Some of you might not see it, but depending on how gray I believe it would be,
+ there's a number of Gandalfs in there to represent how gray this thing might be.
+ So let's get started with the first one.
+ So the first one kind of goes from the first example we had,
+ testing without permission and then bringing down servers, for example.
+ I would give it maybe like one Gandalf.
+ I mean, it's kind of like, yeah, and in some cases,
+ it's maybe not that legal as well in some countries.
+ You know, you're not really allowed to test without permission.
+ So I'll give it one Gandalf maybe.
+ Then the other one is stumbling across a vulnerability without permission,
+ but then you kind of notify the target company through, for example, your local cert.
+ And the local cert in many of our European countries especially
+ protect the hacker from the company if they want to pursue you as a hacker.
+ So they protect you as an individual as well so you don't get pursued
+ because it's a cert contacting the company.
+ I'll give this maybe like one Gandalf, maybe not even a single Gandalf,
+ maybe a hobbit, I don't know.
+ And then we have this really awesome thing,
+ testing without permission and then blackmailing the target.
+ Reward me or else something will happen.
+ Someone will hack you.
+ It's not me, but here's my full name.
+ A lot of times, we've seen these types of individuals contact companies directly
+ and saying like they have a terrible vulnerability and it's really critical
+ and you need to pay me right away.
+ And then when you start asking, okay, what is this vulnerability actually?
+ Then it's like, okay, well, you have a file that shouldn't be there.
+ It could be really almost nothing and they want a reward for it.
+ Sometimes it could actually be something, but you don't really know
+ until you get into this super annoying conversation.
+ Usually, it's almost like spam or like a scam where they really like try to get you.
+ They might send the CEO of the company this email and they scramble all the jets like,
+ whoa, something is going on and it's not really good for business either.
+ So it's quite interrupting as well.
+ So you're not really benefiting anyone, I would say.
+ I'll give it one, maybe two Gandalfs.
+ And then there's a new really cool trend, marketing trend,
+ where you test without permission with your super awesome service
+ that finds vulnerabilities.
+ And then you send an email to the company saying,
+ my super cool service found hundreds of vulnerabilities in your company.
+ Let's meet up and have an online meeting and talk.
+ So they're trying to sell it to you and it's usually,
+ like there's a different scale of how aggressive they are.
+ Some of them are very aggressive.
+ Some of them might, for example, contact everyone in the organization
+ to try and sell this service that they have.
+ We've seen it.
+ It's really cool and it really doesn't get you any sales,
+ at least if you contact us.
+ But for some it might work.
+ I would give this maybe one Gandalf, two Gandalfs,
+ depending on how aggressive it is.
+ And then another really nice trend that we have seen recently
+ is that you purchase stolen credentials off the dark web
+ and then you ask the company to give you an award.
+ So they submit it to a bug bounty program.
+ So maybe they found the credentials of one of your employees,
+ maybe it's an IT admin,
+ and then they submit it to a bug bounty program in hopes for a reward.
+ And in their submission, they say, I purchased these off the dark web.
+ Okay, well, if you're a company, it's like,
+ if you say that, we can't really reward you
+ because that's not legal to buy stolen stuff.
+ Normally, companies can't do it.
+ Some do it anyway, and some have been known to pay for them as well.
+ I know some, I'm not going to name names,
+ but it has been happening.
+ And the rewards have sometimes been pretty substantial.
+ I'll give it maybe three Gandalfs, maybe four.
+ One of the issues that I see with this is,
+ obviously, there's a meme if you can't see it,
+ it says the secret ingredient is crime.
+ So if you're not very good at hacking,
+ maybe you can go to the dark web and do this.
+ But one of the issues that I see with this is that
+ there's a sort of basic thing with how markets work in general.
+ So if you, let's say, everyone starts doing it
+ because it's very profitable,
+ then we have a huge demand for stolen credentials coming in.
+ All the ethical hackers of the world want to buy stolen credentials.
+ And then the criminals are going like,
+ oh, shit, we have a huge demand.
+ What should we do?
+ All right, let's increase the criminal activity
+ so we can get some more supply.
+ And then the supply and demand cycle just,
+ it just starts going.
+ And, yeah, I don't know.
+ It's kind of a bit of a problem, I would say, to do this.
+ Maybe later, some of you can discuss how ethical it really is,
+ and is it really an ethical hacker kind of thing to do?
+ Then, to take this a bit further,
+ is maybe, I don't know if you know,
+ but there are services that you can subscribe to
+ where you can purchase stolen credentials of the dark web.
+ Oh, sorry, the service purchases the credentials for you from the dark web.
+ So it's kind of like a Netflix of crime, you know?
+ So it's like, okay, I'll just subscribe to this service
+ and I'll get all the stolen credentials.
+ So I don't know, maybe,
+ what if you had a Netflix for stolen cars?
+ Would you subscribe to that?
+ I don't know.
+ But this is kind of,
+ I mean, it gets a little bit more difficult
+ because now you're just,
+ you're not buying the credentials yourself,
+ but you have a proxy that's buying them
+ and you're subscribing to the service.
+ And there's multiple services like this.
+ Probably, some of you know,
+ if you want to use them, don't ask me.
+ But yeah, I would give this maybe three gandalfs
+ on the gray scale.
+ And of course, when they do both these things,
+ they submit them to companies running bug bounty programs
+ in hopes of rewards.
+ So yeah, that's great.
+ And I kind of like to always take a step forward
+ and go in further.
+ So what if you exploit the Netflix of crime
+ to get those credentials
+ and then submit that to a bug bounty program
+ in hopes for reward?
+ I give it maybe five gandalfs
+ because it kind of goes like even further.
+ So you're doing a crime on a service
+ that is doing, well, buying stolen stuff
+ and selling that as a subscription.
+ I would give it maybe five gandalfs.
+ What do you think?
+ Yeah, maybe.
+ The enemy of my enemy is my friend.
+ Yeah, maybe keep your enemies close, I guess.
+ Then I saw a new trend popping up lately.
+ We've all known of credential stuffing in general
+ as an attack used by criminals.
+ But ethical hackers in the bug bounty scene
+ have started using it as well.
+ So they take leaked credentials off the web
+ and then they try it on everything.
+ And if it works, then they submit a report
+ to the company in hopes for a reward.
+ And I don't know, maybe not that great,
+ but should you really, usually in the policies
+ of these bug bounty programs, they kind of say
+ like you're not maybe allowed to do this kind of things.
+ Maybe you're not allowed to get credentials
+ for certain things.
+ But then if you take it from some leaked dumps online
+ and you use that and check if they work,
+ maybe, I don't know, could be.
+ Maybe a little grayish, maybe.
+ I'll give it maybe four, three Gandalfs maybe.
+ But then there's purchasing stolen credentials
+ of the dark web and using those for credential stuffing.
+ So it goes again a step further.
+ I wonder what the next step after this would be,
+ but I guess we'll find out pretty soon.
+ But I would give this maybe five Gandalfs
+ because let's say ethical hacker purchases credentials
+ of your company online.
+ Then they take those credentials.
+ They don't give it to you yet.
+ They're just going to test if it works everywhere.
+ And then if it works, which it might,
+ then after that and after gaining access
+ to a certain system, maybe it's really bad, right?
+ They go into that system and then they also check
+ what they can access in that system, of course.
+ So it kind of goes maybe a smidge too far in some cases,
+ I would say.
+ I would give it five Gandalfs maybe.
+ So just to kind of, because there was some secret ingredients
+ in this presentation and a lot of them
+ had to do with crime, I was thinking that I would kind of
+ just quickly go through the legals of Finland
+ because I'm from Finland.
+ So if you purchase stolen goods, regardless of how much it costs,
+ you can get up to one year and six months of jail time.
+ And in Germany, you get five years or a fine.
+ Germans, it's like what?
+ Or a fine, like what does it depend on?
+ I don't know, but maybe you guys probably know
+ what it depends on, but...
+ The judge, okay.
+ So if you're good buddies with the judge,
+ you only get a fine.
+ Yeah, probably it's also depending on how severe it is
+ and so forth.
+ In Canada and US, if the values exceed over $5,000,
+ so let's say I run a bug bounty program,
+ someone gives, they've bought stolen credentials.
+ They want me to give them a reward.
+ I'm a US company.
+ I give them a reward over $5,000.
+ I've committed a federal crime.
+ This may or may not have happened.
+ I may or may not know and I may or may not say anything.
+ In Canada, you can get up to 10 years in prison.
+ Wait, wait, wait.
+ The company is committing a crime by paying a reward
+ to somebody who has stolen the credentials.
+ Even if they're your own clients?
+ Yeah, there is some differences if it's your own,
+ but it depends on the legal.
+ I'm not a lawyer, so maybe consult a lawyer.
+ Don't listen to me regarding legal stuff.
+ Or well, the basics, you should know that it could be a crime.
+ And I think at this camp, I already saw an Italian lawyer
+ on stage at one of the lightning talks.
+ So he probably knows a bit more than me about the legal stuff.
+ But since some of this is like a little bit gray area,
+ or maybe not, and some of it might be criminal,
+ or maybe not, I'm not sure.
+ But what I'm thinking is that also because maybe some of these stolen goods
+ or like stolen credentials, they're too accessible.
+ Maybe that's also a part of the issue.
+ Like you can just subscribe to this Netflix of crime
+ and like get your crime feed into your inbox.
+ So maybe that's part of the problem.
+ I'm not sure.
+ It's not that difficult to go on the dark web and buy credentials,
+ stolen credentials, or stolen anything, really.
+ Maybe it's just too accessible.
+ So maybe in some cases, for example, the ethical hackers that are doing it,
+ maybe they're not just thinking too much about the ethics of it all.
+ They're just doing it because there's a reward at the end.
+ Another kind of issue that we've seen in the bug bounty scene especially
+ is that you hold on to vulnerabilities in the pursuit of rewards.
+ So essentially, you have maybe a cool vulnerability
+ that you've discovered yourself.
+ You're not going to share it because then others might use it
+ to get the rewards.
+ So you want to make sure that you've collected all the rewards
+ from all the different companies.
+ And I'm not sure how ethical that is.
+ I forgot to put the Gandalfs here, but maybe a couple of Gandalfs on that one.
+ Essentially, the hacker ethics from the early days at least
+ was to be open and share.
+ And I personally, I believe in that being a good thing.
+ But I can also understand why they would want to hold on
+ to certain types of vulnerabilities if it's in their own benefit.
+ Obviously, everyone has hungry mouths to feed, including their own.
+ Another issue that I've seen also is it kind of goes into the ethics
+ of bug bounty as well, is that in a lot of cases,
+ the bug bounty programs, they define a policy.
+ You define a policy, you're allowed to do this and that,
+ and go so and so far.
+ But the company themselves, for example, they pay the researcher
+ or the hacker, the ethical hacker, based on the impact of the finding.
+ So in some cases, even if you have these sort of arbitrary limitations
+ from policy, the hackers might have an incentive to actually go further
+ to increase the impact of the vulnerability so they can get a higher reward.
+ So there's kind of like a dilemma in this issue because it's like,
+ in theory, you shouldn't, but if you do, you might get a higher reward.
+ So maybe you should, but should you really?
+ And it really kind of plays back into the ethical boundaries
+ of that particular hacker, how far will they go?
+ And we've seen cases of ethical hackers dumping databases and going even further.
+ So I don't know how many Gandalfs this one should be,
+ but maybe both the hacker and the company should get a few Gandalfs for this one.
+ And then, of course, there's secret techniques or open sharing.
+ Some prefer to have their secret techniques and keep them to themselves
+ because there's more rewards for them.
+ Some prefer to share everything.
+ And I guess one of the reasons I wanted to talk at this camp
+ about these issues as well is that there's probably a lot of you that
+ also are interested in discussing these things and seeing where this should go.
+ And I don't know, in my opinion, it would be better if everyone would share,
+ but some people prefer to keep some techniques to themselves.
+ So what is then actually ethical hacking?
+ I mean, there are some boundaries.
+ Some of them are legal, but some of them, even the legal boundaries,
+ are not that well known.
+ There might be also different types of boundaries,
+ depending on the country that the company is in and also where the hacker is in.
+ So it might be difficult to sort of set the boundaries even legally
+ because it depends sometimes.
+ So what should the boundaries be?
+ And who should define them?
+ What is ethical hacking?
+ And how can we as a community improve on these issues?
+ And I guess the final question, what does your moral compass look like?
+ In which direction does it point?
+ Are you a white hat, a black hat, or something in between, or a mix of them all?
+ And I guess this presentation was a lot faster than I was planning on.
+ So in case you need to find me later, you can find me at the Salmiaki Village in Cold North.
+ There's my contact details, and apparently I was too fast.
+ Apparently I was too fast.
+ Thanks Joachim.
+ It looks like we have about 15 minutes for questions.
+ If there are any, are there any questions from the internet?
+ None? Any questions from the audience?
+ Please line up over there by the microphone.
+ Thank you.
+ Hi, I'm not an expert whatsoever.
+ I'm a total movie, so this question might be a little bit stupid.
+ But from what I understood, you considered the interest of the people being hacked,
+ and the interest of the people who were hacking.
+ What about the greater good?
+ What about people who are not related to the company, not related to the hacker?
+ Like everybody, isn't that a very relevant question for whether it's ethical or not?
+ Does it benefit everybody, what I'm doing as a hacker?
+ Or does it worsen the situation for everyone?
+ Yeah, I mean, and it also depends.
+ Does it benefit everybody, or a large amount of people, or a few people?
+ It's a difficult question really to answer.
+ I don't really have an answer, I guess.
+ Yeah, it's ethics.
+ Hey, you focused on the legality a lot, and on, you know,
+ let's call it technical hardcore hacks.
+ But some of the stuff that you had, where is it with credentials?
+ And just yesterday we had a cool presentation by Kirilis,
+ I don't know if he's there, on social engineering.
+ And I mean, you know, the most obvious kind of social engineering is super duper direct,
+ and then it's fairly in your face, and okay, you've got the credential, that's it.
+ But once you go for the higher value targets, usually you start to build up networks,
+ and it's human level trust that you have to build with a lot of people
+ to build your network to actually get at the whale that you're aiming at.
+ And then you betray those people.
+ And that can have real psychological impact on those people.
+ We had a really cool discussion after the session yesterday with a bunch of friends.
+ This is not something I see discussed a lot in ethical hacking, you know,
+ the psychological impact on, oh, fuck, I trusted that guy.
+ So what are your thoughts on that?
+ Yeah, that's right.
+ Betraying trust can be very detrimental, like, regarding the person's mental health.
+ And we also see, for example, a lot of people that are victims to cybercrime also,
+ they suffer greatly sometimes.
+ So in some cases, I think we should maybe have some like victim health care,
+ like the cybercrime health care station or something.
+ I don't know what that would look like.
+ But it's very difficult for people mentally, especially if they're,
+ for example, the entry point to a bigger event, then it's very hard on them.
+ Once it dawns on them that this really was serious.
+ So yeah, there's a lot to improve on that area as well.
+ Any more questions?
+ Maybe just a comment.
+ What you just talked about is what's called a second victim in safety literature.
+ Like the pilot who is like, you know, like the plane crashed, right?
+ Let's say some people died.
+ Like, it's not good, but it's not really the pilot's fault.
+ Almost never, like very rarely.
+ But they feel really responsible and sometimes commit acts against themselves.
+ Let's just put it that way.
+ So actually, in general, security, I think, would benefit a lot from safety literature.
+ But that's a different discussion to be here.
+ All right.
+ So that's one more question, it seems.
+ What's the revenue?
+ Revenue who does the service is 6.8 million last year.
+ I work for a big enterprise.
+ This is private.
+ So how do you feel about that revenue number?
+ 6.8 million.
+ Revenue.
+ What?
+ Sorry.
+ Spy cloud.
+ The service enterprises subscribe to get essentially leaks, dumps, credits of their own input?
+ Yeah, that's one of the services that you can subscribe to.
+ I mean, I'm not sure how ethical.
+ There's also other sort of cyber threat intelligence related companies that provide stolen credentials, etc.
+ It's gray area.
+ Yeah, I don't know.
+ That's, I guess, one of the questions I also have.
+ Like, I'm not sure what's right and what's wrong.
+ So probably more discussions are needed to find the boundaries and what's right and what's wrong.

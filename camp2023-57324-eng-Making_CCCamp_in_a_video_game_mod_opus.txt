@@ -1,0 +1,191 @@
+ [MUSIC]
+ [MUSIC]
+ So essentially, I'm here to talk today about a game that I'm working on called Off Grid.
+ I'll give you a bit of an overview of its development history so far.
+ Some of you may have heard of it because Rich Smithson, who's making Off Grid,
+ is always heavily involved with this event and Millie Waze.
+ I want to go through a few of the hacking and social engineering mechanics in our game
+ and also talk to you about what the talk is about, the modding that we're doing,
+ and how on Friday you can come and join me in a workshop and we can put you inside the game.
+ So who is this bozo? This is me, I'm Steph Keegan.
+ I'm an artist, writer, developer.
+ I've been working in the film industry and the games industry for several years.
+ I've been working mostly in VR for the last decade.
+ If any of you are VR fans out there, you may have heard of some of the things I've worked on,
+ the Pixel Ripped and Winlands.
+ And if you have played Winlands 2, you also might recognise my voice because that's me.
+ I'm Sorala.
+ It sort of tends to happen in indie games when you run out of budgets.
+ The developers end up being the characters.
+ Earlier this year, I joined the company Samaeopus, who are making Off Grid.
+ I just wanted to give you all a warning that I know very little about code.
+ I'm not a coder, I'm an artist.
+ And that will become imminently clear when I try to talk about more technical stuff in this talk.
+ Yeah, that's me.
+ So, Samaeopus is very hard to spell.
+ I'm always getting it wrong.
+ It's an indie game studio founded by Rich Metzen and Pointers Schoenberg.
+ Two very lovely guys, and sadly aren't here today, and they really wish they were.
+ They want to make games that matter.
+ So essentially, further the maturity of the medium and have something to say.
+ And at a talk, at another hacking conference years ago, Rich saw a talk that inspired him to make this game.
+ And they've been working Off Grid for roughly ten years, as is the way sometimes when you're trying to support yourself as an indie development team
+ and don't want to take money from the man, you have to support yourself.
+ So we're still going though.
+ Anyone who may have backed us on Kickstarter, don't worry.
+ It's still happening. We're still squirrelling away.
+ And for those of you who don't know, here is a quick trailer.
+ [no audio]
+ [no audio]
+ Okay.
+ [no audio]
+ Okay, so what is Off Grid?
+ It's a moddable stealth hacking game.
+ And it's not going to be, it's not broad, it's made by people who really care about the industry and know what they're talking about.
+ And so there are themes of net neutrality, privacy, digital rights.
+ But it's also made by British developers with a British sense of humour, so it's quite tongue in cheek and satirical.
+ It's set in the not too distant Orwellian future.
+ Or at least it was when we began making it 13 years ago, but it seems like it's just set in reality now, unfortunately.
+ And a bit of an overview, as you play as this character Joe, he's kind of a technophobe.
+ He doesn't know anything. He's basically me.
+ But he's sort of pulled into this world unexpectedly when his daughter, Jen, is arrested.
+ She's been involved in something, some sort of secretive hacking thing, fighting the man.
+ And their house is raided in the first, say, level introduction.
+ And suddenly Joe is thrust into this world and he doesn't know anything about it.
+ But he is led by a mysterious stranger called Smedley, who is a hacker friend of Jen's.
+ And with the help of Smedley, you begin to try and unravel what is going on.
+ So yes, in 2013, when - I'm going to say we, even though I wasn't involved back then, but it's just easier.
+ When we began thinking about it, we wanted it to be grounded for impact.
+ We wanted to make jokes and laugh, but we wanted it to matter.
+ So it was really important to us not to be alienating or confusing.
+ And so we were worried that our lore would be too heightened.
+ We're games developers, so we wanted to do weird things and exaggerate the tech and the things.
+ And back in 2013, some of our ideas seemed a bit out there.
+ We scaled back on some of our network and surveillance tech because they seemed too unrealistic.
+ And we really wanted to make mundane household objects hackable.
+ And some of them were ridiculous and in the end we were like, we can't put that in.
+ No one would believe it.
+ Now, a lot has changed.
+ The real world is actually outpacing our fiction, which is depressing, but great for us as devs.
+ Sorry, that's my fault, I'm wobbling around.
+ Ideas that we rejected for being too out there have now got back into the game.
+ Nothing ever stays on the clipping floor.
+ Yeah, we had to actually make the network and surveillance tools more pervasive for it to become more realistic.
+ So that was interesting.
+ And as for mundane objects on Wi-Fi, this is a cat toilet.
+ What really bothers me about this picture is this woman is not only watching her cat poop.
+ She's monitoring on the Wi-Fi at the same time.
+ What is that doing that your eyes aren't?
+ Yeah, I actually own that toilet.
+ Please don't hack my cat toilet.
+ So the conception of the game is that it would be a game about data privacy.
+ So inevitably mechanics are covering things like hiding, cloaking, covering your tracks, that kind of stuff.
+ So it naturally fell into a stealth genre kind of game.
+ But Rich and Pontus were keen to make it original and do their own thing.
+ So they wanted to kind of merge it and mesh it with a twist on the hacking genre.
+ And the way they've done that is they treat data like a tangible thing in the game.
+ So it's like a breadcrumb trail which you can pick up.
+ And I don't know if you can see that, but you have these kind of like Google glasses that can scan networks and you can see the data around you.
+ So essentially as you play the game, the main goals are to get physical access to the building.
+ You kind of want to scan for data and you use that to crackle social engineering to access networks.
+ But also you want to be careful how much you do that. You don't want to be discovered on the network.
+ And there's much more in depth, like Rich would tell you a lot more in detail about it, but I'm just going to give you a brief overview.
+ So my favorite thing about it actually is the NPCs.
+ So they built this NPC system and the NPCs are kind of driven by an AI that is goal oriented.
+ And so when you build an NPC, and that's what we're doing at my talk on Friday, is building you with NPCs, is you create a character profile for the NPC.
+ And there will be things like they like, things they dislike, their favorite song, their kind of personality type.
+ And with that information, as you scan and build up a much more detailed profile on them, it will help you do things like distract them better or brute force their passwords.
+ And in this picture is the guard is sleeping and the character Joe is scanning him for information, which he can then use to manipulate him later.
+ Or you can just prank them. So yeah, you can distract them, send them somewhere, you know, like the whole "what was that?" kind of vibe.
+ And things like sending black facts to keep a secretary busy or that kind of stuff. So that's quite fun.
+ We've built a bunch of tools and devices that you can hack, but the software is open and moddable.
+ So we encourage people to come up with any weird and wacky ideas they have.
+ And there is no one way to solve a level. So you'll be able to figure out your own fun ways to distract these NPCs to get what you want.
+ Yeah, so you can hack vending machines, send black facts and mess with monitors.
+ Basically anything technical is hackable, which we thought was pushing our luck back in 2013 and now we're just making everything hackable.
+ Yeah, so I'm just going to check my time. Okay, we're doing good.
+ So the modding tools. This is some old footage of the sort of level kit we're building.
+ Yeah, this is some of the art inside the game. But we make it in Unity.
+ So when you do, obviously we are releasing the game as an individual game that we're making.
+ But the modding tools and the level kit is really open and it's built in Unity.
+ So if you wanted to build your own levels, you would use Unity.
+ And it was really important to us and in the ethos of everything about the game is that we don't have any special magic tools that we don't give you.
+ You know, normally in modding games the developers can do all these extra wonderful things because they have a whole team and those secret databases of their own stuff.
+ But we don't want to do that. And it can be frustrating for me as an artist because I want to do things and they say,
+ "Yeah, we can do that, but we're going to have to build a whole system so that the modders can do it too."
+ It's always the answer. So yeah, if I make a level, you'll be able to make the exact same level, essentially.
+ Using like Lua API and tools for scripting, you can create your own character purpose, as I mentioned.
+ You can build interactive objects. And even having conversations with people via text message in the game.
+ We have all these different modules you can use to build complex scenes.
+ And we do envision that you will make really better scenes than us and better games than us.
+ We're kind of excited to see what happens.
+ And you can use my art, and there's been several excellent artists before me.
+ Or you can import your own. There is no limit to what you do.
+ And you can script your own tools. The Google Glasses that the character wears has a bunch of tools for scanning networks
+ and all sorts of interesting things that Pontus and Rich have come up with.
+ And we also have a ton we want to do.
+ But there's no stopping you from developing your own tool in the game and scripting your own hacking tools.
+ And just as an example, as a story, this story is called Fosterage.
+ It was made in a mod by Yuri Martino, a very sweet man.
+ And he told this story about a boy who was fostered, finds out that he's adopted.
+ And it's just an example. You don't even have to set your mods in our world. You can do what you want.
+ And Lua is user-friendly, which is great.
+ And we're building a wiki that needs constant updating, as you all know.
+ And hopefully we'll get more people updating it in the long run.
+ But essentially it's all there. Like tomorrow I could give you everything you needed and you would be able to build a level.
+ And even me, a total dumb dumb artist, can do it.
+ And like I said before, I didn't know any code at the beginning of the year.
+ And now I'm writing Lua scripts so that I can make my characters do all sorts of things and run timeline animations.
+ And yeah, it's great.
+ And so what this talk is about is Mealyways.
+ So, McFly, as many of you probably know, I'm sure most of you know who McFly is.
+ He actually and a bunch of people built in 2019 Mealyways inside our mod of all stuff.
+ And it was really cool.
+ There'll be things you recognise in here, like the Mealyways flags and the dome.
+ And there's a rocket in here somewhere. I think you can see it very much in the distance of this picture.
+ There's a rocket, tiny rocket on the screen.
+ And so what they did is they built their own wiki page and sort of shared out the tasks to build all the art assets and took them up.
+ And then they made their own version of Mealyways in the mod and put themselves in it.
+ And if any of you know McFly online, you'll recognise his profile picture, you know, that 2D, that profile picture he uses, is actually his character in here.
+ And there's a lot we can add.
+ Obviously, things have changed. There's new things around.
+ We never really finished the scene.
+ So we're encouraging people to come on Friday and to add to the mod.
+ You can build assets.
+ Or there's updates 2023. There's things we don't have.
+ We don't have you, so we can put you in it.
+ And we encourage other villages to get involved.
+ And, yeah, there's no limit, really. Come along and see what we can do.
+ And these are the times that I will be running the workshops on Friday.
+ So essentially, yeah, you'll come and put yourself in the video game at 2.30 to 4.30 and 5 to 7.
+ And it's going to be in the workshop dome, which I believe is there somewhere.
+ And I've talked really fast because I was nervous about time.
+ So I have loads of time for questions. Who has questions?
+ [Applause]
+ The talk. So thank you very much for the talk.
+ You already had applause. This is nice.
+ But you can give a new round while you are thinking about if you have any questions.
+ If you have any questions, please line up at the microphone in the middle there.
+ If anyone wants to know something about the game or the workshop.
+ Oh, you have a question.
+ When is going to be released? Because I see it say coming soon.
+ Oh, I was hoping someone would ask that because I meant to bring that up.
+ So, yeah, it has been saying coming soon for a long time.
+ It's actually been saying coming out in 2019 for a long time as well, which it hasn't.
+ That's a very good question. So essentially, as is the way, it's been --
+ it did go on for a little while while we tried to keep afloat as a company
+ and did a lot of work just to build up money for ourselves and keep afloat.
+ But what's really been great this year is we've kicked up a gear again.
+ Especially one of the reasons I joined the team is to have a full-time artist working on it.
+ We're building levels now.
+ Pontus is working really hard on developing tools and vent crawling mechanics and that kind of stuff.
+ So I don't have an exact date for you, but progress is happening.
+ I would like to see it within a year.
+ But I couldn't tell you for sure at the moment. But it is -- progress is happening.
+ Okay. Thank you. Are there any more questions?
+ No. So if you are thinking of some questions, she will be here and giving workshops as well.
+ And she will be able to answer all your questions.
+ Then thank you very much for this interesting talk and the overview of the game.
+ And give one last round of applause, please. Thank you.
+ [ Applause ]
+ [ Music ]

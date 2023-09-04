@@ -1,0 +1,616 @@
+1
+00:00:00,000 --> 00:00:10,000
+ [MUSIC]
+
+2
+00:00:10,000 --> 00:00:20,000
+ [MUSIC]
+
+3
+00:00:20,000 --> 00:00:35,000
+ Welcome to the Nordics stage.
+
+4
+00:00:35,000 --> 00:00:51,000
+ And now we will talk about non-English based programming in an English talk by Hogy456.
+
+5
+00:00:51,000 --> 00:00:54,000
+ Give him a warm welcome and enjoy the talk.
+
+6
+00:00:54,000 --> 00:00:57,000
+ [APPLAUSE]
+
+7
+00:00:57,000 --> 00:01:00,000
+ So, hello and welcome to the talk.
+
+8
+00:01:00,000 --> 00:01:04,000
+ So I have not done this talk on my own.
+
+9
+00:01:04,000 --> 00:01:06,000
+ I have done it together with another person.
+
+10
+00:01:06,000 --> 00:01:08,000
+ That's also because it's in English.
+
+11
+00:01:08,000 --> 00:01:14,000
+ And the other person has also recorded a part of this presentation.
+
+12
+00:01:14,000 --> 00:01:21,000
+ So I will now show at the beginning a short video with the first part of the presentation.
+
+13
+00:01:21,000 --> 00:01:27,000
+ Then afterward I will do the second part of this presentation live.
+
+14
+00:01:27,000 --> 00:01:35,000
+ And I hope you enjoy so far and it will work.
+
+15
+00:01:35,000 --> 00:01:38,000
+ Okay, does it work with sound?
+
+16
+00:01:38,000 --> 00:01:42,000
+ What do I need to do?
+
+17
+00:01:42,000 --> 00:01:47,000
+ [SPEAKING GERMAN]
+
+18
+00:01:47,000 --> 00:01:59,000
+ I thought I don't hear sound. I thought there should be sound in this video.
+
+19
+00:01:59,000 --> 00:02:02,000
+ Okay.
+
+20
+00:02:02,000 --> 00:02:04,000
+ Okay, why?
+
+21
+00:02:04,000 --> 00:02:08,000
+ I thought there is also a sound in this video.
+
+22
+00:02:08,000 --> 00:02:29,000
+ [SPEAKING GERMAN]
+
+23
+00:02:29,000 --> 00:02:36,000
+ You can look, but you can see where the sound goes.
+
+24
+00:02:36,000 --> 00:02:40,000
+ [SPEAKING GERMAN]
+
+25
+00:02:40,000 --> 00:02:45,000
+ Okay, then I will do it that way if it does not work.
+
+26
+00:02:45,000 --> 00:02:47,000
+ So it is.
+
+27
+00:02:47,000 --> 00:02:54,000
+ You can see D&G Botu who wants to do the first part.
+
+28
+00:02:54,000 --> 00:03:01,000
+ In the beginning he is talking about non-English based programming and what it is about.
+
+29
+00:03:01,000 --> 00:03:07,000
+ D&G Botu is from Ghana and he has also experience with other languages.
+
+30
+00:03:07,000 --> 00:03:11,000
+ He is not a native English speaker.
+
+31
+00:03:11,000 --> 00:03:14,000
+ He speaks a long time, but he is not a native English speaker.
+
+32
+00:03:14,000 --> 00:03:19,000
+ Now he will show you here a bit about what the presentation is about.
+
+33
+00:03:19,000 --> 00:03:26,000
+ So at the beginning it is a bit about introduction into non-English based programming.
+
+34
+00:03:26,000 --> 00:03:32,000
+ You can see now a definition of non-English based programming.
+
+35
+00:03:32,000 --> 00:03:43,000
+ It is programming languages do not use English keywords.
+
+36
+00:03:43,000 --> 00:03:46,000
+ So there is now a bit introduction about it.
+
+37
+00:03:46,000 --> 00:03:54,000
+ At least the thesis I am not yet sure as I think more about it if it is really easier
+
+38
+00:03:54,000 --> 00:04:01,000
+ if keywords are not an English or non-English based speaker or if it is just something that you need to learn.
+
+39
+00:04:01,000 --> 00:04:03,000
+ Then you can do it though.
+
+40
+00:04:03,000 --> 00:04:06,000
+ But at least that was the idea behind the talk.
+
+41
+00:04:06,000 --> 00:04:16,000
+ The talk was introduced into the Wiki for the Wikimania, but then there it was not accepted.
+
+42
+00:04:16,000 --> 00:04:23,000
+ So I decided to put it here into the camp and maybe I find some people who are interesting.
+
+43
+00:04:23,000 --> 00:04:31,000
+ I am talking a bit more about non-English based programming and why it is necessary
+
+44
+00:04:31,000 --> 00:04:38,000
+ or why it could help people.
+
+45
+00:04:38,000 --> 00:04:50,000
+ And now afterwards you can see here a bit an explanation on how you can use non-English based programming.
+
+46
+00:04:50,000 --> 00:04:57,000
+ And one thing what you can do in the most programming languages is you can define own functions
+
+47
+00:04:57,000 --> 00:05:09,000
+ and then you can choose for the functions names that depend on the programming language.
+
+48
+00:05:09,000 --> 00:05:13,000
+ That is a bit difficult.
+
+49
+00:05:13,000 --> 00:05:20,000
+ Not in every programming language you can use all characters for function names, but in most programming languages
+
+50
+00:05:20,000 --> 00:05:23,000
+ you can use many characters for function names.
+
+51
+00:05:23,000 --> 00:05:29,000
+ So here you can see a bit an explanation how it is possible to define it in Python.
+
+52
+00:05:29,000 --> 00:05:34,000
+ So you can write the def and then the function and then afterwards the function.
+
+53
+00:05:34,000 --> 00:05:39,000
+ But I am not so experienced with Python.
+
+54
+00:05:39,000 --> 00:05:43,000
+ I am mostly using the programming language, which you will see afterwards.
+
+55
+00:05:43,000 --> 00:05:54,000
+ And now there will be a second example of another programming language and how you can define it in there.
+
+56
+00:05:54,000 --> 00:05:58,000
+ Here now you can see how you can define a function in Ruby.
+
+57
+00:05:58,000 --> 00:06:05,000
+ So there is also the def keyword used for it.
+
+58
+00:06:05,000 --> 00:06:11,000
+ And you can see how you can define it with def and then writing afterwards the function name
+
+59
+00:06:11,000 --> 00:06:18,000
+ and then the next line the code that should be executed by the function afterwards.
+
+60
+00:06:18,000 --> 00:06:22,000
+ And so there you can say what should be used by the function.
+
+61
+00:06:22,000 --> 00:06:33,000
+ Now the next topic what I will talk about, what I will do live is talking about visual programming languages.
+
+62
+00:06:33,000 --> 00:06:49,000
+ So yeah, now I will talk about other use cases for non-English based programming where it is used.
+
+63
+00:06:49,000 --> 00:06:56,000
+ And the first one I want to talk about are visual programming languages.
+
+64
+00:06:56,000 --> 00:07:05,000
+ Because I think at least maybe a few of you have heard about programming language scratch or snap.
+
+65
+00:07:05,000 --> 00:07:08,000
+ Okay, yeah, at least some people have heard from it.
+
+66
+00:07:08,000 --> 00:07:20,000
+ And so this is an example of programming, both are examples of programming languages where it is possible to writing kind of small sentences
+
+67
+00:07:20,000 --> 00:07:24,000
+ or there are also many available when you download it.
+
+68
+00:07:24,000 --> 00:07:30,000
+ And then you can combine these blocks through drag and drop and then you can execute it.
+
+69
+00:07:30,000 --> 00:07:36,000
+ Then you can click on it or you click on symbol then you can run the code.
+
+70
+00:07:36,000 --> 00:07:42,000
+ And then you can see the resize immediately after you see what is the resize.
+
+71
+00:07:42,000 --> 00:07:50,000
+ And so for example used for some animations.
+
+72
+00:07:50,000 --> 00:08:00,000
+ And yeah, so that's more an educational language but at least in snap there is also some more advanced feature that you can do.
+
+73
+00:08:00,000 --> 00:08:05,000
+ At least from my point of view more as with scratch.
+
+74
+00:08:05,000 --> 00:08:14,000
+ And what you can do there is also you can define own blocks so you can use it then for other things if you want to do it.
+
+75
+00:08:14,000 --> 00:08:22,000
+ And then there is also some advanced feature you can map then source code to blocks.
+
+76
+00:08:22,000 --> 00:08:29,000
+ But I don't have so much experience with the implementation of that feature.
+
+77
+00:08:29,000 --> 00:08:39,000
+ And that's also something what's provided from Blockly as far as I know included in both of those.
+
+78
+00:08:39,000 --> 00:08:44,000
+ The basis at least in scratch I'm sure that is.
+
+79
+00:08:44,000 --> 00:08:48,000
+ In snap I'm not completely sure how far it is based on Blockly.
+
+80
+00:08:48,000 --> 00:08:57,000
+ That's a framework what you can use if you want to have a block based user interface for something.
+
+81
+00:08:57,000 --> 00:09:04,000
+ And now I want to give you a bit of overview where you can use non-English based programming.
+
+82
+00:09:04,000 --> 00:09:10,000
+ I think the most common use case for non-English based programming are spreadsheet functions.
+
+83
+00:09:10,000 --> 00:09:13,000
+ Spreadsheet functions are translated into many languages.
+
+84
+00:09:13,000 --> 00:09:24,000
+ For example I usually using German spreadsheet function and I would say I really like it that they are translated into different languages.
+
+85
+00:09:24,000 --> 00:09:45,000
+ But it can also be because I usually using the German ones then I have some difficulties when I talk with someone who has a spreadsheet program with English spreadsheet function to find the right English spreadsheet function for the same.
+
+86
+00:09:45,000 --> 00:09:47,000
+ It's equivalent to the German one.
+
+87
+00:09:47,000 --> 00:09:53,000
+ At least in LibreOffice they are translated into many languages.
+
+88
+00:09:53,000 --> 00:10:00,000
+ I don't know how many languages the spreadsheet functions of Excel are translated to.
+
+89
+00:10:00,000 --> 00:10:06,000
+ But I can say in LibreOffice they are translated into many things.
+
+90
+00:10:06,000 --> 00:10:20,000
+ And now what I can also do and what you have seen there in some examples you can translate functions into your language.
+
+91
+00:10:20,000 --> 00:10:22,000
+ Function names into your language.
+
+92
+00:10:22,000 --> 00:10:38,000
+ And this was the most common language I will show later a link to Rosetta Code where you can find an Excel collection where you can find how to define your function in many different programming languages.
+
+93
+00:10:38,000 --> 00:10:43,000
+ But first I want to show you here an example of a spreadsheet function.
+
+94
+00:10:43,000 --> 00:10:45,000
+ There you can see two functions.
+
+95
+00:10:45,000 --> 00:10:48,000
+ The mid function and the tile function in German.
+
+96
+00:10:48,000 --> 00:10:50,000
+ And they do both the same.
+
+97
+00:10:50,000 --> 00:10:59,000
+ In this case it extracts out of the cell A2 a string starting at the character 3 and what is 5 characters long.
+
+98
+00:10:59,000 --> 00:11:03,000
+ And so what you can see here there are two different.
+
+99
+00:11:03,000 --> 00:11:06,000
+ But what is a bit special?
+
+100
+00:11:06,000 --> 00:11:28,000
+ The spreadsheet functions there it depends on the country where you live what is the decimal separator and that's one of the reasons why it has someone comma or semicolon as a separator.
+
+101
+00:11:28,000 --> 00:11:38,000
+ That's a bit something what makes it more complicated when you use spreadsheet functions.
+
+102
+00:11:38,000 --> 00:11:42,000
+ And now I want to show you because I am usually using the programming language.
+
+103
+00:11:42,000 --> 00:11:49,000
+ I want to show you how you can use it in the programming language and depending on the time I will maybe later show you.
+
+104
+00:11:49,000 --> 00:12:00,000
+ Because it's also relatively easy to map a new function name to an existing function name.
+
+105
+00:12:00,000 --> 00:12:06,000
+ Then I want to show you how this is possible.
+
+106
+00:12:06,000 --> 00:12:21,000
+ Here is now this site I mentioned before it's Rosetta code and site where a lot of programming samples and different programming languages are collected.
+
+107
+00:12:21,000 --> 00:12:32,000
+ And there is also a task for function definition and you can look at it if you are interested how to translate function into your language.
+
+108
+00:12:32,000 --> 00:12:41,000
+ And as I also mentioned before it depends a bit on what corrects you can use for function.
+
+109
+00:12:41,000 --> 00:12:53,000
+ For example in R I had some difficulties when I used an older R function but I am not sure if it depends on the R function or on the operating system both.
+
+110
+00:12:53,000 --> 00:12:58,000
+ I had difficulties when I wanted to use some names.
+
+111
+00:12:58,000 --> 00:13:08,000
+ I experimented a bit with Duck Bunny names and then some names haven't been allowed so I was not allowed to use these names.
+
+112
+00:13:08,000 --> 00:13:22,000
+ But yeah that's something I explained a bit so I can't give you a guarantee that you can use a name you want to use for a function.
+
+113
+00:13:22,000 --> 00:13:25,000
+ It's a bit difficult.
+
+114
+00:13:25,000 --> 00:13:38,000
+ And so now I will try to show you a bit how you can see here that's the way.
+
+115
+00:13:38,000 --> 00:13:50,000
+ So if you want to do it a bit more advanced you can also look at least in R it's also possible to translate the arguments of a function as you can see here.
+
+116
+00:13:50,000 --> 00:13:57,000
+ I can show you here the data frame function you can see here there are several optional arguments.
+
+117
+00:13:57,000 --> 00:14:08,000
+ Wait a bit more at the top yeah you can see there are several optional arguments and then it's possible also to translate these optional arguments.
+
+118
+00:14:08,000 --> 00:14:12,000
+ But that is a bit more difficult if you also want to do it.
+
+119
+00:14:12,000 --> 00:14:26,000
+ I experimented a bit with it but have not done so many and what I want to show you here now is for example the sub step function.
+
+120
+00:14:26,000 --> 00:14:34,000
+ If I want to extract out of this name the first.
+
+121
+00:14:34,000 --> 00:14:38,000
+ What.
+
+122
+00:14:38,000 --> 00:14:42,000
+ Wait yes I can look if I can zoom in.
+
+123
+00:14:42,000 --> 00:14:47,000
+ I don't know what how it will work.
+
+124
+00:14:47,000 --> 00:14:54,000
+ I look and find it will find it very soon but I do you know where.
+
+125
+00:14:54,000 --> 00:14:56,000
+ How I can make it here.
+
+126
+00:14:56,000 --> 00:15:01,000
+ Be good.
+
+127
+00:15:01,000 --> 00:15:06,000
+ Yes I tried it but that did not work so I can't leave.
+
+128
+00:15:06,000 --> 00:15:14,000
+ No I think I've seen.
+
+129
+00:15:14,000 --> 00:15:22,000
+ Yeah so so what I want to show you here is wait I would then tell it so if you for example if I want to name it.
+
+130
+00:15:22,000 --> 00:15:37,000
+ As the German spreadsheet function type then I can just put here the first the time then and there are two two possibilities with lower than minus or an equal sign you can assign something.
+
+131
+00:15:37,000 --> 00:15:51,000
+ In our and so then I now say that the it's the same substance and then now if I write the same thing.
+
+132
+00:15:51,000 --> 00:15:54,000
+ Then.
+
+133
+00:15:54,000 --> 00:15:59,000
+ Okay now I had a mistake here I have to.
+
+134
+00:15:59,000 --> 00:16:11,000
+ Now I had a mistake here I had to put one.
+
+135
+00:16:11,000 --> 00:16:22,000
+ Yes no so now that does the same it also extracts the same but so it's not so easy but then you need to pay attention if you are using it in that way I usually.
+
+136
+00:16:22,000 --> 00:16:30,000
+ Try to define it as an function then it's a bit.
+
+137
+00:16:30,000 --> 00:16:47,000
+ Or yes then it's a bit easier but yeah not easier to do but I had there are sometimes the difficulties so I did the other way good now I want to say thank you over it is it is the presentation there and I want to show the.
+
+138
+00:16:47,000 --> 00:16:50,000
+ Contact.
+
+139
+00:16:50,000 --> 00:17:04,000
+ Information so you can see if you want to conduct the ask you can see the names now I want to say thank you.
+
+140
+00:17:04,000 --> 00:17:13,000
+ Thank you all the questions.
+
+141
+00:17:13,000 --> 00:17:23,000
+ So what if you need to work together with people from different countries different languages.
+
+142
+00:17:23,000 --> 00:17:29,000
+ So what would you recommend for that because I mean then if you.
+
+143
+00:17:29,000 --> 00:17:47,000
+ Rename all the functions functions to German and then they may only speak English because that's more known than German in this case and then then it's for them it's been more difficult than if it was in English so if their way to deal with that.
+
+144
+00:17:47,000 --> 00:18:04,000
+ Yes, I have a bit experimented with yeah with translating things automatically from one language to another programming things from a programming to not experimented a bit with it yeah and I think it is.
+
+145
+00:18:04,000 --> 00:18:24,000
+ Possible it is possible at least as long as you only translated the function names then it is possible that you can find a system but I would not recommend it is more an experimental thing and I'm also not sure how far.
+
+146
+00:18:24,000 --> 00:18:41,000
+ Non English based programming is useful but I think at least I think it's interesting to try it yeah and yeah so yes it is possible I have experimented a bit with it with the automatic translation of.
+
+147
+00:18:41,000 --> 00:18:46,000
+ Functions from one programming language into another.
+
+148
+00:18:46,000 --> 00:18:55,000
+ So I think yeah so yeah that's I think that's if you really want to enable think that's an important thing.
+
+149
+00:18:55,000 --> 00:18:56,000
+ Okay, thank you.
+
+150
+00:18:56,000 --> 00:19:01,000
+ As such a system.
+
+151
+00:19:01,000 --> 00:19:04,000
+ Say another question.
+
+152
+00:19:04,000 --> 00:19:16,000
+ If not, I would suggest we thank our speaker for this nice introduction.
+
+153
+00:19:16,000 --> 00:19:19,000
+ And continue the program shortly.
+
+154
+00:19:20,000 --> 00:19:24,000
+ Oh.
+

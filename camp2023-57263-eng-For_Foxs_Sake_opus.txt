@@ -1,0 +1,256 @@
+ [MUSIC]
+ So next to me we have Ryan Hermans. So he is a security engineer at the University of
+ So, next to me we have Ryan Herrmans, so he is security engineer at Trinit.
+ I think you will give some introduction to yourself.
+ Right now it's about the Fox, for Fox sake, bypassing enterprise policy in Firefox.
+ So looking forward to your talk right now.
+ Thank you.
+ Hello, hello.
+ My name is Ryan.
+ Just a couple of things about me.
+ I work as a security engineer for Trinit Xenefits.
+ I'm very driven by curiosity, which I imagine most of you might be able to identify with.
+ My first introduction to cybersecurity was when my parents put a password on the family
+ computer which myself and my brother found intolerable.
+ I very much enjoy gelato and if you need to reach me at this event I'm available on matrix
+ at Orion.10 at Technics.de.
+ To jump right in, there was a bit of a problem at my company where there was enterprise policy
+ that was pushed to some of the computers without consulting the entire company and people's
+ work flows.
+ Some users had been disrupted by this and were somewhat irritable.
+ I kept hearing some discussion of circumventing the policy and as a security engineer it's
+ part of my job to make sure that the policy is enforced.
+ So I just asked myself the question, how easy would it be for a privileged user to bypass
+ this enterprise policy control?
+ The answer is if you have some level of administrative access, quite easy.
+ So I would like to temper your expectations.
+ This is not a crazy exploit or something that you can do without having some level of access,
+ root user or the ability to edit the applications directory.
+ Of course if you had root access you could do something much nastier to the system I'm
+ sure.
+ To start out, when our users, I don't know how well you could see that, but when our
+ users opened Firefox and opened the menu off to the right, they noticed something was missing,
+ the incognito or in private tabs option.
+ So first step, we go into Firefox into about colon policies to see and we see yes, the
+ enterprise policy service is active.
+ We see several things being imported as well as disabled private browsing is true.
+ So the first way we might be able to attack this is to look at the actual profile system
+ once being loaded onto the computer.
+ Mac OS profiles are similar to active directory.
+ It would be loaded using an MDM system.
+ The policy would be pushed to the host and then thereafter the policy would be served
+ using the profile service and the applications would query the service.
+ So we ask ourselves can we modify this profile that's actually installed on the machine?
+ So to start we open a root terminal and we run profiles list.
+ We see there are many, many profiles loaded on the machine, about 87 on this machine I
+ was testing on.
+ So then we take a closer look using profile show and to make our life easy we'll use grep
+ and grep for fox.
+ Ah, bingo.
+ We see a profile that is conveniently named Firefox incognito mode disable.
+ So this is our primary target.
+ You could try to unload them directly.
+ I went to the actual database and that's at var/db/configuration profiles and I said you
+ know just like active directory and editing the registry directly maybe I can just reach
+ into the database, change the values.
+ We take a look at this folder, we take a look at a detail and all of a sudden we have a
+ problem, operation not permitted.
+ So you might ask well I'm root, why is this operation not permitted?
+ We've run into something called system integrity protection.
+ It's a system on mac OS computers such that there's a user more powerful than the root
+ user and some things just simply cannot be tampered with.
+ So we're just going to call this a dead end.
+ But that's okay because at some point Firefox has to be loading the actual policy and then
+ it's outside of the realm of SIP.
+ So we look at Firefox and we say where does it load this policy?
+ And is it easily accessible?
+ Can we change it?
+ A lot of Firefox actually works through JavaScript modules.
+ Perhaps this functionality is contained within the JavaScript module that we can just directly
+ edit.
+ This introduces us to our second friend, the browser console with command shift J.
+ If we load that, we get to see everything happening inside Firefox.
+ And then our second friend about.config because we want to see much more information in the
+ console.
+ So we'll go to about colon config.
+ We get a nice scary warning that you say accept and then we punch in a new policy, browser.polices.loglevel,
+ click string, click add, type in debug to set our policy log level to debug and print more
+ information out for us.
+ Now when we go back to the browser console and reload Firefox, we see much, much more
+ information, everything that happens on startup.
+ And most importantly at the bottom, we see macOS policy parser.JSM.
+ And we see all the information it's loading.
+ So pretty quickly we've determined yes, this whole management of enterprise policies is
+ happening within one of these JavaScript modules.
+ Hopefully Firefox indicates for us an exact line number and gives us a link that we can
+ click to directly take us to the source code for Firefox.
+ And we immediately identify a function where it is parsing these policies, cleans them
+ up and then returns them.
+ And so that perhaps will give us a target to attack.
+ So for the actual bypass, we now know where Firefox is handling this policy.
+ We just don't know where it is in the file system.
+ And we don't know if we can update this module or if we can reload this module into Firefox
+ without it complaining.
+ So we open up a new root shell, we navigate to the applications Firefox app directory,
+ and then we run a find command.
+ We don't see anything.
+ That's fine.
+ Let's use grep.
+ Ah, all of a sudden we see a couple options.
+ It shows up in two files, both named omni.ja.
+ To keep this talk a little shorter, I'm just going to say that we're going to focus on
+ the very first one.
+ We can take this, copy it to attempt directory, and then unzip it.
+ And we see a ton of things roll out of that.
+ That's quite fine.
+ We're going to remove the original, clean up a little bit, and take a look in this directory.
+ And we see all sorts of extensions to Firefox, including a very interesting modules folder.
+ If we run that find command again, we're richly rewarded.
+ We see modules, policies, mac os policy parser.sys.mjs.
+ This will be what we will be trying to adjust.
+ So if we load up less to take a look at the file, we see we can scroll down, and we find
+ the exact same function that Firefox pointed out to us in the debug options.
+ This is what we'll try to change.
+ So at the tail end of this, it says return native policies.
+ Perhaps we'll just try to change this singular line.
+ If we go back to our terminal, we'll use said, and we replace return native policies with
+ return null.
+ After we make that edit and we reload the file, we can see that that line has been updated
+ to return null.
+ Now we have to repack and reinstall these changes into Firefox.
+ You can do that using the zip command.
+ Unfortunately, this is a bit of a magic string.
+ There was some trial and error on this.
+ It kept crashing unless this Omni.jfile was repacked in a very specific way.
+ But we reload that and we copy it back in.
+ And that's really all there is to it.
+ And suddenly -- oh, sorry, one more bit of magic.
+ Firefox, you have to add this .purge caches file so it will reload everything from the
+ Omni.jfile.
+ If you don't do that, your changes won't really sink into the rest of Firefox.
+ After that, we go back to our browser console and we see the same things.
+ We see the policy being loaded and it printing it out right before it returns it.
+ But then all of a sudden we go to our about policies and we find the enterprise policy
+ service is completely inactive.
+ As if nothing ever happened.
+ It got the policy from the service.
+ It was logged that it got the policy from the service.
+ But it never actually did anything with it.
+ And if we open our hamburger menu and we look on the right, we see our new private window
+ option has been returned to us.
+ So some -- thank you.
+ Some very quick conclusions.
+ Open source tools are awesome.
+ They can very easily be extended or changed.
+ Sometimes there's very good documentation for them.
+ But generally they're built in a way such that they can be improved.
+ But Firefox is no exception to that.
+ The trouble with this implementation and using a JavaScript module for this handling is that
+ this policy service can be very easily blanked as I did.
+ As an exercise to the listener, you could potentially inject malicious policy.
+ Set up proxies, load Firefox extensions.
+ There are many things you could do with this.
+ So applications that load security functions, they probably should have some sort of protection
+ for this code.
+ As far as I could tell, Firefox wasn't validating the Omni.J file or checking for changes to
+ it.
+ And as far as I could tell in the security tools for my company, our EDR and MDM tools
+ were also not checking this file.
+ Just the main Firefox binary.
+ So none of this was detected at all.
+ Lastly, get your incognito tabs back.
+ I can't exactly condone the violation of enterprise policy, but sometimes privacy is good.
+ That's all I have for you.
+ Very quick.
+ Thank you all for listening.
+ So thank you very much for the talk.
+ Pretty interesting.
+ I hope also for the folk over here.
+ I think we have more than enough time for questions.
+ So please, maybe you can start with some questions from the internet.
+ So are there some?
+ Sure.
+ There is a question.
+ Did you report this issue to Firefox?
+ And what happened?
+ A little louder.
+ Did you report this issue to Firefox directly?
+ I have not reported this to Mozilla.
+ It seems to be a very minor problem and perhaps is working as intended.
+ Firefox is not a browser meant for enterprise management.
+ Okay.
+ Thank you.
+ So we have another question over here.
+ Hello.
+ Do your users not have the ability to turn off SIP entirely anyway?
+ Like reboot and recovery mode?
+ I'm so glad you brought that up.
+ I skipped over that in my notes.
+ Your users did have the ability to turn off system integrity protection, but in this use
+ case we are pretending that the user is trying to bypass controls and they presumably don't
+ want to be detected.
+ Turning off system integrity protection is like waving a giant red flag and saying I
+ have compromised my own machine and would be very quickly detected by IT teams.
+ But thank you.
+ Howdy.
+ I'm also a screen engineer at a company that has decided to push profiles to their browsers
+ to disabling not only Cognito Mode but editing cookies and stuff like that.
+ We unfortunately use Chrome and I did the same thing with Chrome.
+ I found that if you run the VAR DB path, you can create an empty file system image, mount
+ it over that and they all just disappear.
+ I need no privileges at all.
+ Alternatively I'll use LD preload or the MAC equivalent and just change the CIS call responses.
+ That's very clever.
+ I use that with Chrome because that's more like closed source, but modifying the Firefox
+ is pretty cool too.
+ Very, very clever.
+ But if you were to mount that empty directory, wouldn't it wipe out all enterprise policy
+ on the machine?
+ Yes.
+ Dangerous.
+ Thank you for sharing.
+ Okay, another question.
+ All those sports activity over here.
+ Thank you for the presentation.
+ The files you modified, were they in the application data or in the user home directory Firefox
+ profile?
+ These were in the application data.
+ Thank you.
+ His mic isn't on.
+ No?
+ Thank you for the talk.
+ Very interesting.
+ You said that like code integrity checks would be helped to fix the situation, but a user
+ with some administrative level access could also just bypass those verification checks.
+ Like where do you draw the line where what an administrative user should be able to
+ do and what not, because you are already privileged?
+ You make an interesting point.
+ I would hope at least to maintain some level of integrity that Firefox would perhaps sign
+ this file or check that signature in the binary.
+ It's just something to make sure, just a little, make it a little bit more difficult.
+ You're correct though, at some level when you have administrative access, there is something
+ you can do always.
+ Even this gentleman mentioned you can blank all the policies on your machine by mounting
+ an empty directory at that location.
+ We could have a rabbit hole all day about where is the line.
+ I don't know where it should be.
+ Some other questions you would like to ask?
+ Over there.
+ As you said, a privileged user, if you have root you can do anything.
+ Typically at least at our place when they push out dystopian policies, you don't have
+ root.
+ Do you have any ideas?
+ It's a rabbit hole now, but any tricks in that direction that you could think of that
+ you could do as a user without root access?
+ Not that I had necessarily explored.
+ Most of the users had some level of local administrative access, so that was kind of
+ my environment that I was working in.
+ I didn't explore from the perspective of a non-privileged user.
+ Perhaps we can talk afterwards and maybe someone else has a good idea.
+ Thank you.
+ So somebody else?
+ No?
+ Also, I think we do not have anyone in the Fettyverse so far, so then I think we can
+ give a warm and grateful applause again to Ryan and Karen.
+ (gentle music)
+ (gentle music)

@@ -1,0 +1,1282 @@
+ [MUSIC]
+ [MUSIC]
+ All right, good evening again, everybody.
+ How's everybody doing tonight?
+ >> [APPLAUSE]
+ >> Yay, wonderful.
+ However, I must tell you, it's already day four.
+ >> [APPLAUSE]
+ >> But to cheer us up,
+ we have a great last talk for today here at Millieways.
+ By the way, the Fettyverse hashtag, as always,
+ is #cccamp23millerways.
+ And who here in the crowd owns a vacuum robot?
+ >> [APPLAUSE]
+ >> I would say not great, not terrible.
+ But wow, I didn't expect that from a hacker crowd.
+ So then, especially for those of you who own one, the next talk is for you.
+ In the next 45 minutes, our speaker, Dennis Gieser,
+ will tell us all the latest news about vacuum robots, their security, and
+ their privacy issues, so that hopefully in the end,
+ your robot will not suck your data.
+ Please give a warm welcome to Dennis and enjoy the talk.
+ >> [APPLAUSE]
+ >> All right, welcome to my talk.
+ Thank you very much for being here at this late time.
+ It's great that you had four days of camp.
+ I mean, I came a little bit late because I had some stuff to do.
+ But it's kind of great here, except for a little bit warm.
+ So my talk today is kind of like an update about making robots security and
+ privacy, and I know people think, wait, that's always the same topic every two
+ years, but I mean, there's a lot of development, so let's do a quick update.
+ So for people who don't know me, which is the slides are kind of a little broken.
+ I'm a PhD student at Northeastern University, and
+ primarily my research field is in wireless and embedded security and privacy.
+ I think due to the amount of many, many robots, vacuum robots which I have,
+ I can call myself a vacuum robot collector.
+ So I think nowadays something like 45 robots.
+ And I have interest in the reverse engineering of interesting devices.
+ And this can be anything, I mean robots obviously, but
+ I've also like smart speakers, look at flash memory and other things.
+ Let me quickly ask this to format kind of weird, a little bit.
+ Is it my laptop?
+ >> It's your laptop.
+ >> Okay, let me fix that maybe real quick.
+ How many security experts do we need to fix issues?
+ Okay.
+ >> How many laptops?
+ >> Yeah, the laptop, it should be 6 x 8.
+ [BLANK_AUDIO]
+ >> Okay, great.
+ All right, perfect.
+ Working with experts, that's great.
+ Okay, so like I said, I am interested in vacuum robot smart speakers and
+ all other interesting IoT devices.
+ Some of my recent work is, some time ago I was looking at Amazon's smart speakers,
+ like EchoDots, and I bought 86 used EchoDots from eBay,
+ from other sources like Kleinenzeig in Germany.
+ I was doing some forensics, and let's say it was very bad news for Amazon.
+ So if you have used IoT devices, don't sell them, or
+ bad people like me might buy them.
+ Some other recent projects, I do a lot of flash forensics.
+ For example, on the left you see like the Pixel Watch, but
+ I look at embedded devices and see what kind of data I can extract from flash
+ memory, but also look at flash memory itself.
+ Surprisingly, a lot of flash memories have their own processor on them, and
+ you can hack the flash from there to maybe do malicious things.
+ So this is kind of like a current research project of me.
+ Another thing which I run is robotinfo.dev,
+ which is basically a website where I do a systematic analysis of robots.
+ For example, which operations system they're running,
+ what kind of sensors they have, if they have vulnerabilities or not.
+ The primary focus of that site is more or less to look at security and privacy.
+ And what I use it also for, kind of like in the back end,
+ to track for the changes.
+ So basically every time there's a new firmware update,
+ there's an automatic process which downloads it, extracts it, and compares it.
+ So we kind of get an idea of what the vendors are doing.
+ One of the sources how I get all this information is basically by buying
+ devices, disassembling them, and kind of start to emulate them.
+ So I have something like 50 or 60 emulated vacuum robots,
+ which are kind of behaving like real robots to the clouds and kind of just look
+ like, okay, do we get pushed firmware updates?
+ Is there anything new?
+ But also on the other side, what we do is we take a look at the app.
+ So we decompile the app and look if anything changes.
+ This is also the basis for further research.
+ I mean, for example, right now I'm working on machine learning models and
+ some other things.
+ By the way, the rack, which you see there is one of my few racks of robots.
+ So I keep a set of robots from basically a reference model from each of the models
+ which we support for routing.
+ And every time there's a new firmware update or if I need to check something,
+ I just go to the rack and just grab one and test the things which I need to test and
+ just put it back.
+ Which also means, and I get this question quite often also on Twitter or X,
+ or via email like, hey, I want to buy a vacuum robot, which cleans the best?
+ I have no idea.
+ I root those devices, but I mean, I'm not actually using them except for one which
+ I use and it does the job good enough, so I have no idea.
+ So don't ask me which one is the best for cleaning X, Y, and Z.
+ All right, so what is the goal of this talk?
+ Well, I want to give you an overview over the development of the vacuum robot
+ hacking over the last five years.
+ And I want to give you some idea about vulnerabilities and
+ backdoors which exist today.
+ And give you some understanding about which routing methods we have.
+ The ultimate goal typically which I have is to get root access onto a device with
+ all this assembly.
+ Sometimes it works, sometimes it doesn't work, but we try our best to find ways and
+ sneak ways around to kind of get root access.
+ As a side note, generally we have some, I mean,
+ me and the vendors don't hate each other necessarily, but
+ the thing is we have a very competitive kind of setting.
+ So every time they fix something, we fix something, and
+ it's kind of like always competitive thing.
+ So I know, for example, when I was giving this talk at DefCon, but
+ they were watching live and right now we're probably working on firmware updates.
+ So yeah, so some of the devices which are covered in this talk,
+ they are the current Roborock vacuum robots.
+ Some of them just came out kind of very recently.
+ They are more or less all the dreamy robots,
+ like all the new generation, like our generation vacuum robots.
+ We have also a new routing method for all the older ones which came out like one and
+ a half years and before that, so the so-called P models.
+ And everything you see here can be also technically applied to other robots,
+ for example, Dnava robots which are more used in America.
+ Shark AI robots and also some lawn mowers like the ZEGWay.
+ Everything which is like underlined is basically robots which have like cameras
+ which you can access in one way or the other.
+ Right, as a general thing is, I mean, why we just as a comment kind of,
+ why we jumping around on Roborock and dreamy, why not iRobot?
+ The thing is, surprisingly Roborock and dreamy have some of the best value
+ propositions in terms of features and price.
+ But iRobot nowadays, they're very, very good in reducing the amount of hardware
+ which we put into the devices to make it barely work for the use case which it's
+ used to, which means it doesn't make any sense to root them because we don't have
+ any resources anymore to run our own stuff on them.
+ So there's a particular reason why, I mean, technically I have rooted these devices,
+ but I'm not touching them basically.
+ Okay, so about this talk.
+ The result which you see here will be basically the result of 50 months of
+ research and experiments, which is a little bit annoying in the sense of like
+ if you're sitting for this long time on kind of, I wouldn't say zero days,
+ it sounds always like very important, but on vulnerabilities which you can tell
+ anyone and disclose to anyone because basically as soon as they get burned,
+ they basically get burned.
+ This talk is collaborative effort with me and Zun Baeyer.
+ And Zun Baeyer is the developer of ValleTudo.
+ Traditionally, we had the separation of me doing all the routing part and
+ all the hardware stuff and he's basically taking care of the cloud replacement,
+ ValleTudo.
+ Nowadays, we're kind of like, he's also going into routing part because
+ that's the cooler part and he wants to enjoy his life too.
+ So we would be also here if it wasn't the community.
+ So a lot of people from the community support us by testing routing methods,
+ giving feedback to about software, catching things which we
+ messed up potentially, donating devices, donating money.
+ So there's a lot of support from the community.
+ Typically what we do is we don't disclose things to the vendors.
+ So the vendors are kind of unaware of the findings.
+ Well, technically not today because I gave this talk basically at DefCon like
+ five days ago.
+ So they basically weren't aware five days ago and we didn't see any updates so
+ far, so we are still working on that, I assume.
+ But expect firmware updates and patches over the next couple days, I assume.
+ Okay, so what's the motivation of this talk?
+ So why the heck do we want to route devices?
+ Well, one of the things is, for me at least,
+ when I started that is to play with cool hardware.
+ These devices are very powerful.
+ It's basically, imagine for a Raspberry Pi or a smartphone on tires,
+ very compact driving around here in your house.
+ So it's a very interesting platform for devices.
+ The other thing is because it's so powerful,
+ I want to basically stop the devices from constantly phoning home.
+ And phoning home is kind of a thing with these devices, so
+ you can expect a couple hundred megabytes per month in telemetry data,
+ pictures, whatever.
+ The other thing is if people want to use custom software like Home Assistant,
+ it's very, very difficult to integrate these devices in that system
+ without relying on the clouds.
+ And sometimes the cloud can also go down, so there's a lot of problems.
+ One thing which becomes more and more important nowadays is diagnosis of
+ broken devices.
+ This is not necessarily, I mean, it's still an issue in Europe, but
+ in America you have a warranty period of one year.
+ And these devices tend to break exactly after one year.
+ And so a lot of people in the US have the issue, okay, we cannot get it
+ repaired under warranty, so we need to find a different way and we can help out
+ people by diagnosing what kind of things might be broken.
+ And the thing which is related to my research is basically to verify the
+ privacy claims of the vendors.
+ So why do we don't trust the great companies who develop these nice IoT
+ products?
+ Well, if you think about these devices, these devices are directly connected to
+ your home network and can talk to everything typically in your home and
+ have some internet connection.
+ I know some people put them in some VLANs and stuff like that, but
+ I mean, let's be realistic, most like 99% of the users probably just put them in
+ their normal Wi-Fi and call it a day.
+ The communication to the cloud is encrypted and
+ you have no idea what the content is.
+ Also, even if the vendor is not malicious,
+ developing secure hardware and software is hard.
+ So nothing says that the vendor can get hacked at one day or that there's some
+ weird kind of vulnerability in the device which can be used remotely.
+ If you remember the Mirai botnets many, many years ago,
+ which basically where IP cameras got hacked from the internet and
+ create like a huge botnet.
+ So we want to kind of figure out if there's some hidden vulnerabilities which
+ the vendor didn't put in on purpose but which exist there.
+ And one of the things why I'm a little bit paranoid is because vendor claims
+ might contradict each other.
+ So I have my favorite go-to example for claims of vendors and
+ I use always Roborock but technically all the other vendors do more or less the same thing.
+ Roborock claim for the S6 Max-V like hey, it's built for privacy,
+ it's certified by the TIF, my favorite company.
+ Nothing is ever duplicated, nothing is ever stored,
+ nothing is ever sent to the cloud, the cameras are only used for AI detection.
+ It never leaves the robot, everything is fine, trust us please.
+ But if you scroll down a little bit more, it says by the way,
+ you can watch your pets remotely from your phone and can talk to it and
+ you can see what's going on in your home and you can drive around in your home and
+ basically watch if everything is okay.
+ So now the question is like okay, on one side nothing is ever sent to the cloud and
+ it's not possible to access the camera, basically the pictures, but
+ on the other side you can access it remotely, so what is it?
+ As a side note, I mean there's different ways to interpret what the exact thing is,
+ but I mean it's very, very unclear here.
+ The other thing is I recently caught how they uploaded pictures of users,
+ well, development devices basically which they gave away for free to users to the
+ cloud and where they used gig workers in Venezuela to kind of label them.
+ Which was a little bit unsettling because most of the users didn't realize that
+ it's somewhere hidden in the terms of service, but the pictures would be used by
+ people and some pictures which were uploaded were like people sitting on the
+ toilet, naked kids, whatever, you can be creative.
+ I have some examples from the MIT Tech Review article.
+ I was helping the journalists to figure out which device it was because I have
+ from all the devices to camera perspective, so I really quickly figured out it's iRobot.
+ And it turned out to be actually iRobot.
+ And the question is why do we need to know what kind of AC you have,
+ what kind of switches you have and everything else?
+ So this is basically the stuff which was labeled in Venezuela from the gig workers.
+ As a small fun fact, as soon as the article came out or
+ as soon as the journalists actually started to send out requests to all the vendors and
+ asking about them, that things, many of the vendors panicked and
+ started to change their firmwares, apps and also privacy policies.
+ So you see a lot of privacy policies being changed around November, December 2022,
+ which is kind of interesting.
+ The other thing, which is a motivation for me also,
+ these kind of devices have more and more sensors.
+ So, I mean, at some point we got cameras, which is kind of bad.
+ But nowadays some of the robots have even microphones.
+ And one of the things which I want to mention here is like,
+ when we started five years ago, we were kind of joking like, okay,
+ we tried to find a way to use the ultrasonic sensor to basically listen to people.
+ Or maybe you can use some other sensor to kind of spy on people.
+ But nowadays you don't need to do that.
+ The robots come with microphones themselves.
+ As a quick note, I know there's some papers out there which claim that you can use
+ the ladder to snoop on people by flashing the firmware and stuff like that.
+ But I can tell you today that it's not possible that the paper is more or
+ less not accurate.
+ So I know it's out there, but shocker in academia,
+ people might be not super accurate with papers.
+ So you cannot use the ladder as a microphone, just as a hint.
+ All right, so what are risks of devices with cameras?
+ Well, some of the devices might store pictures indefinitely.
+ Sad news is also a lot of them do both in cloud and locally.
+ There's some ways how I was able to figure that out.
+ So far I can't tell you exactly which companies there are, but there's some.
+ Also, if you buy used devices from, for example, Amazon Marketplace,
+ you need to be a little bit careful.
+ You don't know what was installed previously on the device.
+ So the previous user might have installed a rootkit.
+ The new owner cannot verify the software, and as a result,
+ you might have a malicious device in your network.
+ So we are in a hacker conference, and I just want to say it's super illegal to do
+ that, so don't do that.
+ Don't buy devices on Amazon and root them, put some rootkit onto that, and
+ send it back to Amazon.
+ That's very rude and probably illegal, I assume.
+ I hope so, at least.
+ Okay, so rooting is more or less the only way how you know that the device is clean
+ in a way.
+ So one of the things which is kind of interesting,
+ especially in Germany from some German press articles.
+ Some vendors got a little bit creative in sense of users which are privacy aware.
+ And they try to avoid the word camera as far as they can.
+ And instead, they try to use the word optical sensor.
+ And I have here an article from Golem.
+ I don't want to shame Golem, but I mean, many do that.
+ And they kind of asked the vendor, and the vendor said, yeah, optical sensor is
+ accurate.
+ So it's not a shaming thing, it's just like an info thing here.
+ So what Roborock kind of said is like, so we don't have cameras in there.
+ For privacy reasons, we just put an optical sensor which detects lasers.
+ So it's good for your privacy, so don't worry.
+ Everything will be fine.
+ And I have an output of the optical sensor on the right.
+ By the way, sorry it says, hello, Defqon, but I was too lazy to create another
+ picture for that.
+ So yeah, so as you see, there's an output of optical sensors.
+ So no camera involved.
+ Nothing to see here.
+ Right.
+ Also, certifications are very important.
+ Most of the devices which have cameras have some kind of certification,
+ either by TÜV Rheinland or by TÜV Süd.
+ So both of them are kind of testing all the devices, and all these devices met
+ the European cybersecurity standards.
+ So I think we can't end the talk here because all of them are secure, I assume,
+ because they got tested.
+ Yeah.
+ Sadly, yeah, we can't end here.
+ All right.
+ So what happened so far?
+ Let me give you a quick rundown here.
+ Let's start with a general observation, like what we saw in the last five years.
+ So every time we release a routing method, developers react in weird, sometimes
+ different ways.
+ So sometimes they even react in a way that they break things.
+ And there was some case where they pushed a very quick firmware update which
+ started to break hundreds of vacuum robots permanently because they kind of
+ started to panic and started to do weird things, which is kind of sad, which we
+ want to avoid, obviously.
+ The best case for us if they react is that our routing method just fails in a way
+ that says, hey, the file system is broken, we don't accept it, we don't boot it,
+ so whatever.
+ That's the best case.
+ So sadly, some vendors started to do things which are a little bit more mean.
+ The routing succeeds, everything is fine, but the device will break randomly.
+ For example, white cleans, at some point it will just crash, and it's very hard to
+ debug.
+ In particular cases, it's also so if it detects manipulations or routed
+ firmware, it will just destroy itself permanently, so it will just delete its
+ keys and it will be kind of like a problem.
+ So that's the reason why we need to buy the device in advance to kind of figure
+ stuff like that out.
+ So let's start with the first work in 2017.
+ This was a work together with Dani Wiggema, and it was about the Xiaomi
+ first generation and the Roborock S5, which was also kind of like the first
+ generation device back then.
+ Some of the findings which we found were that the firmware images are unsigned
+ and only encrypted with a very weak key, and I think the very weak key was just
+ Roborock as the name of the company.
+ This by itself wouldn't be a big issue.
+ The problem is that you could push custom firmware on the local network,
+ and so basically you could just flash the device over the network.
+ This is not necessarily a problem for us of people who want to root the devices,
+ but it's a bigger problem if you have malicious people who want to do bad
+ things.
+ Now people might say, okay, I don't have access, so typically attackers don't
+ have access to your personal network.
+ The problem is if your device is in provisioning mode, basically, so it opens
+ its own Wi-Fi access point and waits for you from pushing it into your private
+ Wi-Fi, then you can do the same pushing.
+ Basically, you can push the firmware onto that too.
+ When I was living in Darmstadt, I saw some of my neighbors had Xiaomi vacuum
+ robots which were paranoid.
+ They didn't put them into their Wi-Fi, so they had open Wi-Fi access points on
+ the robot.
+ I didn't do it, but technically I could have pushed a malicious firmware onto
+ that and just wait one day, they will probably put it in their Wi-Fi, and then
+ they would be screwed.
+ Still don't do that.
+ If you see improvised robots in your neighborhood, don't hack them.
+ That's very mean and annoying.
+ Anyway, so what's the result of these two facts?
+ One of the things is we could root the devices for disassembly, and we could
+ start the development of custom software and voice packages.
+ A lot of people in Germany apparently are very interested in voice packages.
+ I mean, for me, English is fine, but a lot of people got very creative with
+ like GLaDOS and some other things.
+ This was published on the CCC Congress in 2017 and also DEF CON in 2018, so
+ exactly five years ago.
+ So as you see, I do that stuff for a very long time already.
+ The reaction from that was Roborock, who developed both the devices, was not
+ very happy about that.
+ So what they started to do is they started to block local firmware updates
+ in the firmware.
+ Which is technically OK from a cyber security perspective, so I wasn't super
+ mad about that.
+ But also then what we started to introduce is we basically signed all
+ the firmware and voice packages, so we couldn't necessarily create our own
+ anymore.
+ And each of the device models basically used the firmware encryption keys.
+ So we had to basically get every device individually, like every model, and
+ extract the keys to kind of look in the firmware.
+ One of the things where we got a little bit annoyed about people buying cheap
+ devices in China and using them in Europe was basically that they started
+ to enforce region locks so that you couldn't import device anymore, but you
+ can't run them in Germany for whatever reason.
+ I mean, we just want to avoid that.
+ However, one of the interesting things is that the hardware mostly remains
+ the same.
+ So if you bought every two years a vacuum robot from Roborock and you take
+ the PCBs out and compare them to each other, the layout was more or less the
+ same.
+ So they sell you more or less the same hardware configuration all over again
+ every two years or every year even.
+ So that's their business model, I guess.
+ They can't charge you for updates, but they can charge you for new hardware,
+ just as a side note.
+ Anyway, the problem which we had now is we needed to disassemble the device,
+ which was kind of like a problem.
+ I have here an example.
+ So basically you need to completely unscrew the device.
+ You need to solder maybe a few things.
+ One of the good things here was that we figured out a way to bypass that,
+ which required assembly.
+ And this worked for the robot S6, S5 Max, S7, and also others.
+ The initial idea which we had was that we accessed the U-boot shell by UART.
+ Sadly, they figured that out at some point and fixed that.
+ And the new approach was that we get the device into bootloader mode and just
+ patch the file system over USB.
+ And this turned out to be the more efficient way to do that.
+ Again, there's advantages.
+ We need to disassemble the device, which is annoying.
+ But that's the price of doing business, I guess.
+ One of the interesting facts is that this method still works until today.
+ For all the other 16-based devices, so for example, S6 Pro Ultra and Q7.
+ When they saw that we have a new way to root the devices, they reacted again.
+ And we're not necessarily happy.
+ So as mentioned before, they locked the bootloader down so
+ we don't have a U-boot shell anymore.
+ And then they basically got through the book of all security methods and started
+ to introduce things like Secure Boot, SA Linux.
+ They introduced the M-variety.
+ And even newer device have encrypted file systems where the user data and
+ applications encrypted.
+ So we can't even figure out, OK, what is the application actually doing?
+ So we only see a partial of the portion of the system.
+ And they started to use Trust Zone where they stored the keys in OPT, basically.
+ Which has also the risk if you do any sketchy things,
+ where the keys just get wiped.
+ So you need to be careful with that.
+ One thing which we introduced at some point were custom LF binary signatures,
+ which I never saw before.
+ So they basically were assigning all LF binaries which exist in a system.
+ And every time you try to execute an unsigned binary, it just wouldn't execute.
+ It would get a second thought.
+ So in 2021, we fight back.
+ So this was a thing which I presented at DEF CON.
+ Oh, this is actually not accurate.
+ I presented at DEF CON 21.
+ Not here.
+ And the method was basically to bypass the LF binary verification and security.
+ So one of the ideas was to modify the configuration partition.
+ But it required basically the desoldering of the EMMC flash strip,
+ which most of the people can't do or don't want to do,
+ because it will very likely brick your device.
+ Or you need some ISP access.
+ So this was a very specific method for a very specifically specific people
+ who are good with soldering.
+ But it's not a broad thing.
+ And that was the reason why we said, OK, we want to maybe take a look
+ at different vendors for now and just wait until Roborock kind of cools down
+ and kind of gets more relaxed and stops being mean.
+ And one thing which we found was a new vendor, which is Dreamy.
+ And we have very similar devices to Roborock.
+ Basically, they were powerful.
+ They had cameras.
+ They had an extremely easy routing method,
+ basically, before disassembling.
+ And we were able to basically flash them over USB.
+ One of the problems with the flashing over USB part
+ was that some devices got soft-bricked.
+ But I think we solve that problem nowadays.
+ So how did Roborock react onto our Defqon talk back then?
+ Well, I got a very nice email from the Roborock CEO one day after my talk.
+ Oh, thank you for the talk.
+ Our engineers watched the talk live and are fixing right now
+ all the vulnerabilities.
+ So that's the reason why I know that we are watching those talks.
+ What we did now is we encrypted all the partitions,
+ except the system partition, which we can do for technical reasons.
+ They started to obfuscate the ALF binary signature.
+ So we cannot find it that easily and patch it.
+ And we started to add custom code into the random libraries
+ to kind of detect if we try to bypass the traffic.
+ So one of the ways how we kind of disconnected us from the cloud
+ is that we redirect traffic via DNS to the robot itself
+ so that basically nothing goes to the cloud.
+ Everything stays on the robot.
+ And they figured out, hey, you still wanted to expel traffic from the robot.
+ So how can we do that?
+ We just have a detection, which detects
+ if you want to upload something to your roborock.com domain.
+ And if you do that, it has some obfuscated way
+ to kind of do DNS queries on itself in the libcurl library.
+ So at some point, we noticed, wait, we have still traffic going off
+ to Roborock, even though we have blocked all the domains.
+ And so we figured out that they introduced some sneaky way
+ to still exfutrate log files and some other stuff,
+ even if the device is rooted.
+ We figured it out.
+ We patch it nowadays.
+ But this is one of the things.
+ They try to find ways to bypass our routing methods.
+ And notice they love obfuscation.
+ They use XOR everywhere they can use it.
+ So it's kind of like it gets a little bit annoying from time to time.
+ So how does their stuff look like?
+ So as mentioned, they noticed check for L signatures in the kernel.
+ So basically, they use the doMMap function,
+ which basically creates a memory area for if you try to run a program.
+ And if the file is not signed correctly, it will basically secfault.
+ So every time you try to execute your own custom binary,
+ it will just secfault. Nothing happens.
+ And they got really creative in naming the functions.
+ So I have an example on the right, which is basically
+ the doMMap function from the S8.
+ And they started to use names like clock set rate DSP0.
+ There's no DSP0, by the way.
+ Or clock set, whatever thing.
+ So these functions are actually just to verify the signature.
+ But they named them in the super weird way so that we would think,
+ oh, that's probably something important, so we don't touch it.
+ But in reality, that's where obfuscated signature check.
+ And they do some weird other stuff.
+ So I think they use some code obfuscation tools
+ to basically try to get a soft track.
+ So at the same time, Dreamy started also to panic directly after the talk.
+ So they did a lot of changes in their firmware.
+ They removed the UART lock-in shell and the UBoot shell.
+ So they just patched UBoot.
+ And they pushed changes, which started apparently to break robots
+ if their firmware version was too old.
+ So it was kind of weird.
+ So we got a lot of feedback back from people who didn't have rooted vacuum
+ robots, but their device was bricked from a firmware update.
+ And especially this happened outside of the warranty.
+ So they kind of parametric devices.
+ One of the fun facts is because we compared firmware updates,
+ we found a way simpler routing methods which we weren't aware of.
+ So they patched something where we didn't know that it was there.
+ And it was very helpful because one thing which we noticed
+ was that they removed this function.
+ And what it does is if you press the reset button for one second,
+ it will pop a lock-in shell.
+ And we had no idea because we thought, OK, we removed the lock-in shell,
+ so we need to do the USB and whatever.
+ And then we noticed, wait, they removed that.
+ And it took many, many months until it got actually
+ pushed into all the devices which were newly produced.
+ And we saw that and we were like, oh, wait,
+ there's a way safer method because now you can connect over UART,
+ press the reset button for one second, and just get a lock-in shell.
+ And you can lock in with a particular password.
+ So this was very helpful.
+ So thanks for showing us this thing.
+ That's not the only time it just happened.
+ So we found a couple other things which were also kind of useful.
+ Right.
+ But we started to panic even more.
+ And they introduced like a secure boot and have set the if-uses,
+ which was kind of being expected.
+ They signed the system partition and are doing the verification
+ of a U-boot, which is the bootloader.
+ And they started to pair the kernel with a particular version
+ of the system partition.
+ And this is kind of important for the thing which we did next.
+ They basically introduced the judge countermeasures.
+ So judge countermeasurements, what is that?
+ This is one of the things which we introduced in 2020
+ in all new firmwares.
+ So if you have a firmware which is newer than-- or a device also
+ which is newer than 2022, you have it.
+ Rooted firmwares would start to crash randomly.
+ And it was super weird for us to debug that.
+ And at the end of the day, we figured it out.
+ But this was super annoying.
+ And it was super mean by them.
+ And I think it was directed directly at us.
+ This was not a thing against other vendors.
+ It was directly directed at us.
+ So what does it do?
+ So they bake the expected SHA-256 hash of the root file
+ system into the kernel.
+ Then as soon as you run the cleaning process,
+ at some random time in the cleaning process,
+ it will compute the hash of the actual system partition,
+ compared if it matches to the hash which the kernel expects.
+ If the hash is not correct, they will just
+ start spawning your threads and run malloc in a loop, which
+ will basically cause the whole memory--
+ that you get the memory leak, basically, randomly.
+ This can be after five minutes.
+ This can be after 10 minutes.
+ But the robot will at some point crash
+ and just stop at some point.
+ And this is extremely difficult to debug,
+ because the thing is there's no locks.
+ You can't run trace the whole time, because it just
+ happens randomly.
+ So at some point, we figured it out.
+ But this was extremely annoying.
+ It cost me weeks of reverse engineering
+ and figuring out what's going on, basically comparing firmwares.
+ Why it doesn't crash with this firmware?
+ Why it crashed with this firmware?
+ What changed?
+ That's just very sad.
+ Anyway, so that was the past.
+ We figured it out.
+ So let's talk about the current state of robot security.
+ I want to just use one device, which
+ I think is the one which has the most protections
+ and is the most secure one.
+ And that's the Roborock S8 Pro Ultra.
+ That's the current flagship model by Roborock.
+ So that's the newest kind of thing which we have.
+ This device runs an all-winner MR813,
+ which is a quad-core sock and runs a couple more MCUs.
+ It has either 502 megabytes of RAM or 1 gigabyte of RAM.
+ The reason why they have two different things
+ is I think they started with 1 gigabyte
+ and figured out they can get away with 512.
+ So it's kind of like a cost-cutting measurement.
+ And they have 4 gigabyte of flash.
+ This device has two cameras.
+ One LIDAR sensor and two line lasers.
+ So it's kind of interesting from a platform.
+ And security-wise, we checked everything in the book.
+ Basically, secure boot, the MBRT-protected root of S,
+ everything encrypted, SA Linux, and ALF signatures.
+ All right.
+ I want to give you a short rundown
+ about the boot process of the S8 Ultra.
+ It looks a little bit complicated,
+ but it's important to kind of understand that for our attack.
+ Let me just get a quick drink here.
+ All right.
+ So we start at the boot ROM, which is basically
+ baked into the SOC.
+ The boot ROM checks the baked in hash,
+ which is like in the effuses of the TOC0, which is kind
+ of like the first-stage bootloader.
+ The first-stage bootloader initializes the RAM,
+ so from there we can do other things.
+ Then TOC0, or the first-stage bootloader,
+ checks the signature of TOC1, which
+ is like a technical term here, which launches the trust zone
+ component, which is OPT, which then verifies and launches
+ your boot.
+ You would guess it's a boot configuration.
+ Then verifies and launches the actual Linux kernel.
+ The Linux kernel has baked in the DMVariety key,
+ which will basically verify and mount the root file system.
+ And the Linux kernel has also the ALF binary signature thing,
+ which will basically check all the in-head software, which
+ will be launched after that.
+ The in-head software itself will talk again to trust zone,
+ and it will get the keys for the partitions,
+ and will start to decrypt the software partition,
+ and will decrypt the user data partition.
+ So basically what this means is everything
+ checked everything else, which is kind of an issue.
+ Or does it?
+ So the question is, is everything
+ actually checked by everything?
+ Well, there's one thing which is a little bit questionable,
+ and this is the U-Boot portion.
+ So what is U-Boot?
+ It's the de facto default bootloader for embedded devices,
+ so you find it in all the embedded devices, more or less.
+ It's very powerful software.
+ It does some setup of hardware.
+ It sets also the command line arguments for the kernel.
+ It verifies the kernel and boots it.
+ And the important thing here is it uses an environment
+ to configure itself.
+ And why we need to use this environment
+ is if you do firmware updates, you
+ don't want to do it on the operating system which
+ you're running right now.
+ You want to do it on a copy, and then just switch to copy.
+ So you need to have the mechanism to switch between both.
+ So this is like the AB booting.
+ And it supports a very powerful command set.
+ For example, it allows you to loading partitions into memories
+ which you need for the kernel load.
+ It allows you to access memory, and it allows you also
+ to change memory.
+ So access memory and changing memory.
+ Can we do anything with that?
+ Well, the question is, can we ask U-Boot very nicely
+ to just modify itself?
+ And so the theory would be here, well,
+ can we use the read and write commands
+ to overwrite instructions in the sense of can we just
+ patch the signature functions?
+ And so what we need to do here is
+ we need to do a little bit of math.
+ So we need to figure out where the signature function is
+ actually in the memory.
+ We need to figure out where U-Boot is basically
+ relocating itself, which is a kind of technical thing which
+ U-Boot is doing.
+ And we need to calculate the exact place in memory.
+ And then we can use this command basically
+ which writes this E0 1 6 at this particular memory address.
+ And this basically overwrites all the instructions
+ of the signature check function.
+ Which means, so what's the consequence of that?
+ Well, if we supply U-Boot with malicious config,
+ what it will do is it will basically
+ ask U-Boot to patch itself very nicely, which
+ will disable the verify function so we can
+ start to modify the kernel.
+ Because we have modified the kernel,
+ we can basically disable the elf signature verification.
+ And we can disable the root file system verification.
+ And from there, we can just pull out the keys from upt
+ and we have everything compromised basically at this point.
+ So we can run our own kernels.
+ We can run our own file systems.
+ So what we did achieve with that method generally,
+ well, we bypassed the secure boot process.
+ We can modify the kernel.
+ We can remove all these checks which are in there.
+ We can also disable the ELINOS, which sometimes
+ gets a little bit annoying.
+ And we can modify the root file system.
+ From there, we can start to install custom software
+ and get SSH access.
+ One quick comment here is it's not limited only
+ on all WinRSOC.
+ So this attack method surprisingly
+ works for many, many other devices.
+ So I tested this on other robots.
+ I tested it on smart speakers.
+ I tested it on media devices.
+ So this works generally wherever you have U-Boot.
+ You can use the memory commands to just overwrite and patch
+ U-Boot itself basically as long as you have access to somehow
+ to your environment partition, which brings us
+ to the next problem.
+ So how can we modify the environment partition?
+ So the problem is without root access,
+ we cannot modify it for obvious reasons.
+ And we cannot also modify root file system
+ if you don't have shell access to the device.
+ And one thing which I can do, but probably most of the people
+ in here can do, is to disorder the flash memory, which
+ is kind of a little bit dangerous
+ and will definitely void your warranty.
+ So the good news is I figured out a way
+ to do that for each of the devices.
+ So for the old P models, we have a new method,
+ which is the USB stick method, which I will explain in a minute.
+ For the newer devices, we use like FEL boot.
+ So we get it into bootloader.
+ And for all the Robrock devices, we
+ have a thing which we call scary FEL boot.
+ And I will explain why it's scary.
+ So as a quick recap for people who saw the presentation
+ two years ago, Dreamy is very, very nice
+ and gave us lots of debug pins, which
+ are accessible without completely disassembling the device.
+ You just need to basically remove a cover
+ and you have access there.
+ And all the new devices have exactly the same pinout.
+ So if you have a routing adapter,
+ which you can get today for free here,
+ if I have still some left, you can just connect to that
+ and you get access to your UART, USB, and some other things.
+ So let's talk about the USB stick method.
+ So Dreamy left a back drawer in all the P models
+ for whatever reason.
+ I think they just forgot about that.
+ There's this script which gets executed as soon as you
+ attach an empty USB stick.
+ And this is how it looks like.
+ So basically, if you attach an empty USB stick,
+ there's a function which will try to check something.
+ But as you see, this function is basically
+ doing exactly the same thing.
+ You just pop a login shell.
+ So if you just attach an empty USB stick,
+ they forgot to do the actual authentication.
+ So you have a shell and from there
+ you can just do the old methods of routing.
+ Very, very easy.
+ And so after locking, you can just patch the environment
+ and install custom software.
+ It's super trivial.
+ The sad news is, apparently for the new models,
+ we didn't forget that.
+ So I assume they have two branches which
+ at some point separated.
+ They did the implementation of the authentication
+ of the new models, but they forgot to patch it back.
+ So they have, I think, some weird issues with their code
+ management.
+ For the new RuboRub models, we have this method of FEL boot,
+ FEL root.
+ And basically what it does is we need to use some adapter.
+ We need to use a cable to just get it into bootloader mode.
+ So we need to short the boot selection pin down to ground.
+ And then we have custom Phoenix Suite image,
+ which will basically give us fast boot interface
+ to access the flash memory.
+ So it's actually not really a firmware update.
+ It's kind of like a weird, sketchy thing
+ which got zombie together out of different parts, which
+ barely works.
+ But it works perfectly fine for whatever we try to do.
+ So what it allows us to automatically patch
+ the bootloader and the environment.
+ And it allows us to send the root file system and the kernel
+ onto the robots via USB.
+ And it's very, very safe.
+ So so far, we had zero brick robots.
+ And even if the robot is brick, we
+ can recover any robot by doing this method without erasing
+ data which existed before.
+ There's a how-to on my website, which you can just look at.
+ It's lots of pictures.
+ So it should be very trivial.
+ If you want to get adapters, there's some [INAUDIBLE]
+ online.
+ But you also can get some from me.
+ I have still some parts left.
+ So in case you were interested, just hit me up.
+ Let's talk about the scary FL root.
+ So the problem which we have with Roborock,
+ we're a little bit smarter.
+ They don't give us any debug pins outside, except for USB.
+ And so I got a little desperate.
+ So the first approach which I typically do
+ is I need to complete the device down.
+ So I spend $1,000, get the device assembled,
+ remove the PCB.
+ One thing which I typically do is I remove also
+ the main processor, which is like 400-something pins,
+ and start to map out where the tracks are going.
+ I remove also the EMMC on the backside and do the same thing.
+ So then the big question is like, OK, I take both pictures,
+ put them above each other in my favorite hacking tool, MSPaint,
+ and look at the data sheet and just map down, OK,
+ where are the pins.
+ So you see there, I started to kind of map down, like, oh, OK,
+ I have like RX, TX, FEL.
+ I have like the data lines of the UART.
+ And the same thing I do at the front.
+ So basically I run all the things down
+ and figure out where are the traces for what,
+ so that I have some idea.
+ And one of the things I noticed is actually
+ I can get access to all the EMMC data lines and pins
+ which I need to access EMMC memory from the holes
+ of the buttons.
+ So basically I will just do a quick thing
+ in more that don't have much time.
+ Basically if you just assemble the device,
+ you just remove-- without disassembling the device,
+ you just remove the one cover, and you remove the rubber cover,
+ and you can access everything from this hole
+ without touching any screws on the back.
+ So you don't need to disassemble the device.
+ You don't trash any warranty seals.
+ You can access everything from the holes of the buttons.
+ I think my presentation is gone.
+ Is this my laptop?
+ OK, no, OK, that's me.
+ Sorry about that.
+ OK.
+ This is a faster way to do that, actually.
+ All right, I promise I will be very quick for the last five
+ minutes because I'm running a little bit of the time.
+ OK, so the good news was that I can access all the pins from--
+ I'm so sorry.
+ I promise it worked better at Defqon.
+ OK.
+ So was it scary?
+ Basically we can route the device now without tear down.
+ We can access it from under the cover.
+ And that applies both for S8 and S8 for Ultra.
+ What we can do with that is if you short the data zero pin
+ to ground at boot up, it can't load the file system,
+ even the bootloader.
+ And it will go into bootloader mode,
+ which is kind of great for us.
+ And then we can just splash it again over USB.
+ So it's basically the same approach as for the L10 Ultra
+ or the ARM models.
+ And there will be also how to do that very easily.
+ The question is why is it scary?
+ And the scary part is you need to basically find
+ where the trace is and then kind of market it
+ in this presentation.
+ And you need to scratch off the solder mask
+ and access the copper trace.
+ I would give you a demonstration,
+ but I think I'm running definitely out of time.
+ So maybe hit me up later and I can just show you
+ with a microscope how to do that.
+ Don't do this method by the way if you feel uncomfortable.
+ As an alternative, you can still tear it down.
+ So before you break your device,
+ it might be safer to disassemble it
+ and just connect to the actual pin on the back
+ of the mainboard.
+ If unsure, please ask others.
+ There's a Telegram group where a lot of people
+ did already a lot of experiments of that
+ and did it on their own.
+ So they know how to do that.
+ For the other RoboWork models, a little more complicated.
+ So sadly for most robots, the process model is the same,
+ but we cannot access the flash or the back pins
+ from outside, so you need to disassemble them.
+ Here the alternative way to get into FAL mode
+ is to basically connect to a UART
+ and press the keyboard to while basically accessing it.
+ You can check out also my website,
+ robotinfo.dev for the pinouts,
+ or again ask in the community.
+ So for the last few slides,
+ what can we do with root access?
+ So what do we have now?
+ So we have secure boot defeated.
+ We can run custom software,
+ but what kind of software can we run?
+ And the question is can we build something of our own
+ with like as an operation system of SLAM,
+ navigation and IEI models.
+ Well, to do our own software is a little bit complicated.
+ So our main idea is like,
+ can we just disconnect the device from the cloud
+ and just keep all the vendor logic in place
+ and just run the original software?
+ So one of the questions is like,
+ what kind of different ways we can we do that?
+ Some people think we can just disconnect the cloud.
+ This will make the robot work in most cases,
+ like if you press the buttons,
+ but you will lose the features like live maps
+ or advanced features and map editing.
+ And why root the device if you just basically
+ lose all this functionality?
+ So instead what we try to do is like we try to redirect
+ the cloud traffic to our own software.
+ And for that we need to extract some firmware secrets
+ and basically point it to like a fake cloud emulation.
+ So let's talk quickly about replacing the cloud.
+ The initial approach which we had was to redirect
+ DNS traffic and this was kind of easy.
+ We were just changing the host files
+ and we used IP tables to reroute that.
+ Sadly, Xiaomi who runs the ecosystem, the backend,
+ kind of figured it out.
+ And so what we did is like they started to introduce
+ some content measurements and they basically hard coded
+ IP addresses in the cloud binary,
+ which was a little bit mean because that means
+ that DNS redirection doesn't work anymore.
+ Our content measurement was basically we counter measured
+ their stuff, we just replaced their hard coded IP addresses
+ with our hard coded IP addresses
+ and it was just working fine.
+ So this allowed us to run Balotudu,
+ which is like the custom software which is developed by Zoom
+ and it completely replaces the cloud and the vendor apps.
+ It runs locally in a robot, so you have like one package
+ which has everything in it, like on the robot itself.
+ It features everything which the cloud offers you,
+ like full the robot control, live maps,
+ map editing, the robot configuration.
+ It has a responsive web interface
+ and it works both in mobile and desktop.
+ It gives you also REST RP and the MQTT functionality,
+ which is important for people who run home automation software.
+ The weird thing choice from Zoom was basically
+ to use embedded JavaScript.
+ There might be something more performant,
+ but I mean, it works.
+ These devices are powerful enough.
+ Anyway, to give you some ideas how this looks like,
+ I mean, it's a very nice interface
+ and it gives you all the functionality which you need.
+ One thing, how do you get the custom software generated?
+ There's a website called DustBlooder
+ and one of the reasons why I created this website
+ was basically that Mac users started to break their devices
+ because Macs are kind of behaving a little bit weird
+ how they unpack file systems and repack them again.
+ So I just want to avoid the support cases
+ and just have a website which takes care of that.
+ So basically with this website,
+ you can build your own robot firmwares
+ and they're most of the time reproducible builds.
+ It's easy to use.
+ It works for Dreamy, Roborock, and VioMe, and some others.
+ If you don't trust it, the scripts are online on GitHub.
+ You can just do it themselves.
+ You just need the firmware file,
+ which we can provide you out of legal reasons.
+ But if you're interested in that,
+ you can go to this website.
+ All right, there's a couple more interesting things,
+ but I think I will get torn down by from the,
+ let me maybe quickly go through that.
+ - Exactly, we have a proposal for you guys.
+ As the time has elapsed already and due to technical issues,
+ we already are five minutes over.
+ We just want to give everybody the opportunity
+ to go to the next talk perhaps.
+ However, as this stage will only continue at 12.30
+ with a movie night with War Games,
+ which you could definitely have a watch,
+ we want to also give you the opportunity
+ to share and demonstrate especially the robots
+ you brought here until 12 o'clock.
+ - Yeah, I think--
+ - If that's fine for the crowd.
+ (audience cheering)
+ Looks like it, so please continue.
+ - All right, yeah, sorry for the technical issues.
+ I tested everything before, but you never know.
+ Anyway, what kind of interesting things did you find?
+ Well, we have some camera access.
+ All the devices use the video for Linux subsystem
+ for their cameras.
+ So if you have root access on the device,
+ you can just talk to the cameras via the device notes
+ like video zero, video one.
+ And some of the vendors were even so nice
+ and left us debugging tools for the cameras,
+ like camera demo, which is an all-in-one tool
+ where you can just pull pictures
+ and configurations from the camera.
+ So let me show you some examples from the optical sensors.
+ This is like the Roborock G10S,
+ which is mostly used in China and I think in Russia
+ and some other Eastern European states
+ because we can get it cheaper.
+ On the left, you see the robot seeing itself in the mirror.
+ So some philosophical picture, basically.
+ And on the right is some example of the output.
+ Dreamy is a little bit better,
+ has better, nicer cameras.
+ So on the left, you see the Dreamy L10S Ultra,
+ again, in the mirror.
+ Under the right, you see one of the pictures
+ which it does use for object detection.
+ This is in our lab in Boston.
+ So this is the kind of quality of pictures you get nowadays.
+ This is one where I, this is from the S8.
+ Basically, on the left, it's a little bit weird
+ because I think I didn't have the exposure correctly.
+ On the right, you see my blue elephant,
+ which I left in the tent, I think.
+ So it's not blue here
+ because it has like an infrared camera.
+ So it sees basically just in black and white.
+ Right, let's talk about quick findings
+ which we found at Dreamy.
+ So last time, if people saw the last time presentation,
+ you might have seen some very sketchy things
+ which were left in the firmware.
+ Good news this time, they didn't leave SSH credentials
+ to the backend service in the firmware this time.
+ So that was good for them, I assume.
+ They made a lot of improvements in the software.
+ So the software is more stable, it's more clean,
+ which is also very good for us.
+ One of the bad news is that they introduced a lot of
+ calling home functions
+ and started to enforce geo-blocking by IP addresses.
+ So they introduced a lot of functions
+ where they will detect if you buy a cheap device in China
+ and use it anywhere else, and I think vice versa.
+ So there's kind of some weird stuff going on.
+ Also, one quick thing is,
+ many robots will detect where we are.
+ Roborock does it, Dreamy does it,
+ and a couple other companies do that too.
+ If you're, for example, in America,
+ they will disable some functions in the software basically.
+ So you don't have edge cleaning anymore
+ if you are in the US, if it detects that it's in the US.
+ And part of the reason is apparently that iRobot
+ has patents on that which expire I think next year.
+ So I would expect that this function
+ gets enabled magically next year.
+ Also, some devices have a dust sensor
+ to test how dusty the air is,
+ but it's not enabled in software
+ because iRobot has again a patent on that
+ which expires next year.
+ So I think it's kind of weird patent stuff.
+ So in case of you wondering why they so livid
+ about geo-blocking, it's one of the legal reasons also.
+ So the other thing is Dreamy robots and also other robots
+ support camera monitoring so you can watch your pets remotely.
+ And for legal reasons, most of the time,
+ if you're for actually all the devices,
+ if you enable the remote camera feature,
+ it will warn you via voice prompt and say like,
+ oh, camera monitoring is enabled
+ and it will repeat that every three minutes or so.
+ The, this is I think a legal requirement
+ in many, many countries.
+ And so, yeah.
+ One of the things is that these voice prompts
+ they need obviously to be localized.
+ So for example, you don't wanna hear like a,
+ you know, English voice prompt if you're in Germany
+ and some other things.
+ So the, these audio files are part of an externally
+ downloaded audio pack.
+ The problem with this audio pack is
+ they are not signed or encrypted.
+ So basically you can just override the audio prompt,
+ like this warning audio prompt with an empty file
+ and basically push it onto the device
+ and just disable this prompt and it can spy on people
+ which is probably I think a little bit illegal.
+ So don't do that again.
+ That's probably very illegal in Germany, I think.
+ And the important aspect here is it works on all devices,
+ not only rooted devices.
+ So be a little bit careful
+ if you get device from somewhere else.
+ One of the biggest fails I saw so far for a very long time
+ was how they signed the signatures.
+ So I think this is part of a panic process
+ which we had last year or two years ago.
+ So new robots of Dreamy encrypt and sign the firmware,
+ but in a very weird way.
+ So the firmware payload looks like this.
+ So you have an outside zip archive
+ which is encrypted with static passwords
+ which is different for each of the models.
+ Then they have a random file
+ which is signed with a private key by Dreamy
+ which you don't have.
+ And then you have a zip archive inside
+ which is encrypted with the random files, the password.
+ Well, what's the problem here?
+ Well, the actual firmware is not signed,
+ only the password is.
+ So basically they signed the password,
+ but they didn't sign the actual firmware.
+ So you can basically create your fake firmware update
+ by just reusing the password which we used before.
+ As an analogy, what I would say is,
+ imagine you could prove that the phone is yours
+ if the pin on the phone is the same as yours.
+ So it's kind of like if I have a phone
+ which has the password 1234,
+ well, actually, now that I think about it,
+ the analogy is kind of weird.
+ But okay, it's a huge problem.
+ So that's a very, very huge fail.
+ So basically you can create your own firmware updates
+ which are correctly signed in a way
+ without the private key of Dreamy
+ because we just signed the password
+ and not the actual firmware.
+ All right, as a summary, finally.
+ So we have routing methods for most of the current release,
+ Dreamy and Roborock models.
+ So we can bypass secure boot,
+ we can bypass any other security mechanism.
+ We have persistence, we can run our own custom software.
+ Now we can validate and verify vendor claims
+ which is a very good thing.
+ It's probably what the TÜV should have done some time ago.
+ And the bootloader attack is also pliable
+ to many, many other devices.
+ So if you have smart speakers and they run your boot,
+ then just take a quick look into that
+ if you can manipulate that.
+ And this whole routing method basically allows us also
+ to do further research into IoT and AI.
+ As some final notes,
+ please don't use the knowledge for bad things.
+ If you do routing, please help others
+ if they need help with routing.
+ Not many people are feeling comfortable with doing that.
+ Especially if you have routing PCBs,
+ feel free to share them in your hacker space.
+ The tools are mostly published already,
+ but there's still some work to do
+ because I was a little bit busy over the last couple days.
+ So if there's something not published yet,
+ please be patient, this will be published very soon.
+ If you're interested in more vacuum robot hacking
+ or flash forensics, you can join me
+ at the hardware I own in the Netherlands,
+ which is in the beginning of November.
+ There might or might not be a talk
+ maybe about vacuum robots again.
+ This time not about Robrock or Dreamy, so we will see.
+ So some announcements.
+ I want to thank Dani Wiggema,
+ Giban Obeer, Zirn Baier and Mikael Kolkin,
+ and obviously also all the testers in the community.
+ And yeah, that's my presentation.
+ If you have any questions, feel free to contact me
+ on via Telegram, Twitter or email.
+ And thank you very much.
+ I can also do a quick demonstration of the microscope
+ if you're interested, are you interested?
+ All right, okay.
+ (audience applauding)
+ Let me just change to the camera.
+ By the way, the camp is very dusty as you can see.
+ These robots are not meant for being on a camp.
+ So as mentioned before, for the Robrock,
+ it's a little bit sketchy or a little bit scary
+ because you have to basically remove the cover,
+ which is very easy, you can just remove it
+ and you have here the plastic part, the rubber part.
+ And then you need to find the trace.
+ Oh, oops.
+ As you see, CS people are always tricky.
+ All right.
+ Now let me just change it real quick.
+ (audience chattering)
+ So this is the left button basically.
+ And as you can see in a second, we have there a trace.
+ Which is basically here comes the via out
+ and then goes through here and goes there.
+ So one thing which you can do to basically route it,
+ you take like something pointy, you don't wanna cut it,
+ you just wanna scrape off the trace a little bit.
+ So you take it and you find it anyway here
+ and you just start to scratch.
+ And at some point, so if you use a knife,
+ just scratch it, don't cut it please.
+ And at some point you will see the copper
+ and that should be more or less enough
+ to kind of hold it down for like in a moment
+ when you power the device on
+ and it will go into bootloader mode.
+ So just scratch a little bit.
+ I know it looks scary and you need to have
+ some very good eyes if you have a microscope,
+ it's bonus points but you might use also phone.
+ And as you can see a little bit,
+ you see like already now the copper and that's enough.
+ You just need to have like a very short contact.
+ It's not mission critical basically to keep it in place.
+ Actually, do I see the copper?
+ Yeah, I can scratch even a little bit more.
+ It's a little bit tricky to do it on camera.
+ (audience chattering)
+ The more effort you put into that, the less it's visible.
+ All right, I think it should be.
+ Okay, just imagine but do you see the copper there?
+ You should see at some point a copper.
+ Again, don't cut the trace
+ but you can scratch it off anywhere you want.
+ For the other devices, it's a little bit easier.
+ The scary aspect of rooting the Dreamy devices
+ is to remove the cover and it will feel wrong
+ because you need to use a lot of force.
+ And because I did that already probably 50 times
+ for these ones, this is easier but at some point
+ it just comes off and you have the back pins
+ very nicely here.
+ So from a rooting perspective, Dreamy is great
+ but nowadays we can also root Roborock.
+ So it's kinda like, I mean, you're not limited
+ to one company or the other.
+ You can just decide freely.
+ All right, if you have any questions,
+ feel free to ask them probably after this thing outside.
+ Have a bag of couple rooting adapters left.
+ Sorry for the technical issues.
+ It worked for me before but I mean, you never know.
+ It's computer stuff.
+ All right, thank you very much for being here
+ and thank you very much for your patience.
+ (audience applauding)
+ (gentle music)
+ (upbeat music)
