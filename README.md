@@ -12,4 +12,5 @@ Transcripts are provided in the following formats:
 - .txt (plain text)
 
 If you edit text, ideally try to change all three files. If that's not
-possible, please focus on the .txt file first.
+possible, please focus on the WebVTT files first, as these are easiest
+to convert into the other formats.
